@@ -1,0 +1,1101 @@
+T0	section 0 50	Dorsoventral Patterning of the Mouse Coat by Tbx15
+T1	italic 45 50	Tbx15
+T2	section 52 2081	Abstract
+
+Many members of the animal kingdom display coat or skin color differences along their dorsoventral axis. To determine the mechanisms that control regional differences in pigmentation, we have studied how a classical mouse mutation, droopy ear (deH), affects dorsoventral skin characteristics, especially those under control of the Agouti gene. Mice carrying the Agouti allele black-and-tan (at) normally have a sharp boundary between dorsal black hair and yellow ventral hair; the deH mutation raises the pigmentation boundary, producing an apparent dorsal-to-ventral transformation. We identify a 216 kb deletion in deH that removes all but the first exon of the Tbx15 gene, whose embryonic expression in developing mesenchyme correlates with pigmentary and skeletal malformations observed in deH/deH animals. Construction of a targeted allele of Tbx15 confirmed that the deH phenotype was caused by Tbx15 loss of function. Early embryonic expression of Tbx15 in dorsal mesenchyme is complementary to Agouti expression in ventral mesenchyme; in the absence of Tbx15, expression of Agouti in both embryos and postnatal animals is displaced dorsally. Transplantation experiments demonstrate that positional identity of the skin with regard to dorsoventral pigmentation differences is acquired by E12.5, which is shortly after early embryonic expression of Tbx15. Fate-mapping studies show that the dorsoventral pigmentation boundary is not in register with a previously identified dermal cell lineage boundary, but rather with the limb dorsoventral boundary. Embryonic expression of Tbx15 in dorsolateral mesenchyme provides an instructional cue required to establish the future positional identity of dorsal dermis. These findings represent a novel role for T-box gene action in embryonic development, identify a previously unappreciated aspect of dorsoventral patterning that is widely represented in furred mammals, and provide insight into the mechanisms that underlie region-specific differences in body morphology.
+T3	italic 294 304	droopy ear
+T4	italic 306 309	deH
+T5	sup 308 309	H
+T6	italic 393 399	Agouti
+T7	italic 424 430	Agouti
+T8	italic 438 451	black-and-tan
+T9	italic 453 455	at
+T10	sup 454 455	t
+T11	italic 543 546	deH
+T12	sup 545 546	H
+T13	italic 679 682	deH
+T14	sup 681 682	H
+T15	italic 726 731	Tbx15
+T16	italic 856 859	deH
+T17	sup 858 859	H
+T18	italic 860 863	deH
+T19	sup 862 863	H
+T20	italic 910 915	Tbx15
+T21	italic 935 938	deH
+T22	sup 937 938	H
+T23	italic 963 968	Tbx15
+T24	italic 1017 1022	Tbx15
+T25	italic 1064 1070	Agouti
+T26	italic 1123 1128	Tbx15
+T27	italic 1144 1150	Agouti
+T28	italic 1417 1422	Tbx15
+T29	italic 1644 1649	Tbx15
+T30	section 2083 9208	Introduction
+
+A fundamental question in developmental biology is how adjacent regions of the vertebrate body acquire differences in their appearance or morphology. Mechanisms that establish the general body plan make use of a relatively small number of signaling pathways shared among all animals (reviewed in Pires-daSilva and Sommer 2003), but the extent to which these pathways control finer differences between body regions is not clear. Among vertebrates, differences in the shape or number of skeletal elements, altered morphology of epidermal appendages, and variation in pigment distribution combine to produce the majority of what distinguishes one animal from another. Among these, pigment patterns are an excellent system to investigate how morphological differences arise, both for different regions of the body within a species and for different animals from closely related species. In natural environments, color variation is a nearly universal mechanism for recognition, camouflage, or both; consequently, a large number of pigment patterns have been characterized from an evolutionary and ecological perspective (Boughman 2001; Jiggins et al. 2001). In the laboratory, color variation has been the subject of vertebrate genetics for more than a century (Searle 1968; Silvers 1979), and many pigmentary components have been identified whose actions are understood in a cellular or organ-based context (reviewed in Bennett and Lamoreux 2003).
+
+Several mechanisms may contribute to regional differences in vertebrate pigmentation. In the embryo, alterations in the determination or migration of melanoblasts from the neural crest affect the number or distribution of pigment cells in the skin (reviewed in Reedy et al. 1998). Within hair follicles, paracrine signals control the type of pigment made in specific regions of the body or at specific times during the hair cycle (reviewed in Furumura et al. 1996; Barsh et al. 2000). Finally, movement of pigment granules within melanocytes or from melanocytes to keratinocytes makes use of cellular machinery that is shared by a variety of cell types, but that can vary in different regions of the body (reviewed in Marks and Seabra 2001). However, for all of these mechanisms—white spotting, pigment-type switching, and melanosome biogenesis—more is known about the identity of the molecular components than their spatial and temporal control.
+
+One of the most obvious aspects of regional color variation in vertebrates is a dark dorsal surface juxtaposed to a light ventral surface, apparent in the color of skin, scales, feathers, or hair, in which the boundary between dorsal and ventral compartments is often sharp and lies in register with the limbs. In rodents and probably other mammals, this dorsoventral difference in hair color is brought about by differences in pigment type as determined by allelic variation of the Agouti gene (Bultman et al. 1992; Miller et al. 1993). Secreted by dermal papilla cells within each hair follicle (Millar et al. 1995), Agouti protein causes melanocytes in that follicle to switch from the production of brown/black eumelanin to red/yellow pheomelanin. Agouti protein has a short radius of action (Silvers and Russel 1955) and can be switched on and off during a single hair cycle (Bultman et al. 1992, 1994; Miller et al. 1993; Vrieling et al. 1994); thus, its regulated expression is thought to be responsible for the cream-colored or yellow ventral surface of mice carrying the black-and-tan (at) allele and for the yellow markings around the feet, ears, or head, i.e., tan points or head spots, of certain dog breeds.
+
+In laboratory mice, previous studies from our group and others identified two predominant Agouti mRNA isoforms that differ by virtue of their transcriptional initiation site and 5? untranslated exons. A “hair cycle-specific” transcript is expressed in both dorsal and ventral skin for 2–3 days during early hair growth, while a “ventral-specific” transcript is expressed throughout the entire period of active hair growth, but only in ventral skin (Bultman et al. 1994; Vrieling et al. 1994). Animals carrying the at allele express only the ventral-specific Agouti transcript (Bultman et al. 1994; Vrieling et al. 1994) and have black dorsal hairs and cream-colored to yellow ventral hairs, with a sharp boundary at the level of the limb–body wall articulations and in the middle of the whisker pad. Ventral-specific Agouti isoforms are also expressed in developing skin from embryonic day 10.5 (E10.5) and beyond and may play a role in pigment cell differentiation (Millar et al. 1995). Thus, regulatory elements for ventral-specific Agouti isoforms are responsive to dorsoventral positional cues established in the embryo and whose effects persist after birth.
+
+The boundary between dorsal and ventral color compartments in at/at mice bears superficial resemblance to dorsoventral boundaries apparent for many other mammals, but morphogenetic differences between dorsal and ventral skin seem likely to include more elements than the type of pigment made by hair follicle melanocytes. In particular, dermis of the flank has at least two distinct origins: dermatomal derivatives of somites and loose mesenchyme derived from the lateral plate mesoderm (Mauger 1972; Christ et al. 1983; Olivera-Martinez et al. 2000; Nowicki et al. 2003); these lineages are established early in development and could, in principle, set up compartments whose identity contributes to dorsoventral differences in adult skin.
+
+To better understand the mechanisms that give rise to differences between dorsal and ventral skin and to the boundary between them, we have determined how several morphologic characteristics vary along the dorsoventral axis of the mouse and how these characteristics correspond to ventral-specific Agouti expression and the lineage boundary that distinguishes somite from lateral plate derivatives. Our results indicate that the apparent uniformity of the dorsoventral boundary represents the sum of independent mechanisms that affect melanocyte density and/or differentiation, pigment-type synthesis, and hair length; surprisingly, none of these coincide with the somite–lateral plate lineage boundary. We also make use of a classical mouse mutation, droopy ear (Curry 1959), that produces a dorsal-to-ventral transformation of flank coat color by allowing expansion of the ventral-specific Agouti transcript. By positional cloning and gene targeting, we identify an allele of droopy ear, deH, as a loss of function for Tbx15, which encodes a T-box transcription factor expressed in a dynamic and spatially restricted manner in the developing skin and musculoskeletal system. Embryonic expression and transplantation studies suggest that Tbx15 is required to establish certain characteristics of dorsal patterning in mesenchymal cells of the developing flank. These results identify a previously unappreciated aspect of dorsoventral patterning that is widely represented in furred mammals and provide insight into the mechanisms that underlie region-specific differences in body morphology.
+T31	italic 4973 4979	Agouti
+T32	italic 5570 5583	black-and-tan
+T33	italic 5585 5587	at
+T34	sup 5586 5587	t
+T35	italic 5802 5808	Agouti
+T36	italic 6226 6228	at
+T37	sup 6227 6228	t
+T38	italic 6270 6276	Agouti
+T39	italic 6529 6535	Agouti
+T40	italic 6747 6753	Agouti
+T41	italic 6938 6940	at
+T42	sup 6939 6940	t
+T43	italic 6941 6943	at
+T44	sup 6942 6943	t
+T45	italic 7915 7921	Agouti
+T46	italic 8369 8379	droopy ear
+T47	italic 8509 8515	Agouti
+T48	italic 8595 8605	droopy ear
+T49	italic 8607 8610	deH
+T50	sup 8609 8610	H
+T51	italic 8638 8643	Tbx15
+T52	italic 8856 8861	Tbx15
+T53	section 9210 29566	Results
+
+Morphological Components of Dorsoventral Skin Differences
+
+Besides the obvious change in hair color that frequently distinguishes dorsal from ventral skin, casual observation suggests there are additional differences in hair length, distribution of hair type, and skin thickness. Furthermore, dorsoventral differences in pigmentation can represent differences in the number and/or differentiated state of pigment cells, as well as the type of pigment synthesized in response to expression of Agouti. In particular, ventral hair of at/at animals can vary from cream-colored to reddish-yellow depending on age, strain background, and position along the dorsoventral axis. To evaluate the relationship among these components, we compared their features among mice of different Agouti genotypes.
+
+Semiquantitative measurements of hair length plotted as a function of dorsoventral position reveal that the apparent sharp boundary between dorsal and ventral pigment compartments in at/at mice coincides with a more gradual change in both hair color and hair length (Figure 1A–1D). Within the region of transition from dorsum to ventrum (Figure 1B), flank hairs from at/at mice become progressively shorter and exhibit increasing amounts of pheomelanin deposition progressing from the tip to the base of the hair. However, the region of transition for hair length is considerably broader than that for pigmentation and independent of Agouti genotype. Although hair-cycle timing varies along the rostrocaudal axis, measurements of absolute hair length for mice matched for age and rostrocaudal level are remarkably similar (Figure 1D). Furthermore, measurements of relative hair length for animals of different age, size, and Agouti genotype also are very similar when normalized to body circumference (Figure 1C). Taken together, these observations indicate that variation of hair length along the dorsoventral axis is stereotyped and maintained through multiple hair cycles, with a transition in hair length that is gradual and encompasses the pigment-type transition in at/at mice.
+
+Dorsal and ventral skin develop at different rates. Transverse sections of skin at postnatal day 4.5 (P4.5) exhibit dorsal hair follicles that are noticeably more developed than ventral hair follicles, along with a gradual dorsoventral decrease in dermal thickness (Figure 1F). However, differences in skin thickness disappear by 3–4 wk of age (Forsthoefel et al. 1966), and, overall, the proportion of different hair types is also similar in dorsa and ventra of adult mice. In age-matched inbred mice, we observed a small decrease in the ratio of undercoat hairs (zigzags) to overcoat hairs (auchenes, awls, and guard hairs) in dorsum compared to ventrum (Figure 1E), but there was no consistent difference in hair-type distribution for outbred mice (data not shown).
+
+Differences between dorsal and ventral pigmentation of at/at mice are usually attributed to pigment-type differences caused by ventral-specific expression of Agouti, but animals homozygous for a null allele of Agouti, extreme nonagouti (ae), have ventral hairs that contain less melanin than dorsal hairs, giving a slightly paler appearance to the ventral coat (Figure 1G). Using DOPA staining as an indicator of tyrosinase activity, we observed a gradual dorsoventral transition in isolated dermis preparations from P4.5 ae/ae mice (Figure 1G). By contrast, skin from at/at mice reveal an abrupt dorsoventral transition of DOPA staining, which probably reflects the additive effects of reduced melanin content (as in ae/ae mice) and downregulation of tyrosinase activity induced by Agouti. Melanin content of individual hairs is likely to be influenced both by the number of pigment cells and their follicular environment. Regardless, dorsoventral differences in hair pigment content of ae/ae mice persist throughout multiple hair cycles into adulthood, similar to hair length (but unlike skin thickness). Thus, at least three characteristics distinguish dorsal from ventral skin: differences in pigment-type synthesis (depending on Agouti genotype), differences in hair length, and differences in melanin content.
+
+Ventralization of Skin Morphology by the droopy ear Mutation
+
+Named after its effects on craniofacial morphology, droopy ear is a recessive mutation on mouse Chromosome 3; the original allele described more than 40 years ago by Curry (1959) is extinct, but a spontaneous remutation that occurred in Harwell, deH, is available through The Jackson Laboratory (Bar Harbor, Maine, United States). External craniofacial malformations are the most obvious characteristic of deH/deH animals, including widely spaced eyes, small palpebral fissures, a broad nasal area, and a shortened skull held in an elevated position, which presumably causes or contributes to the abnormal position of the ears.
+
+We became interested in droopy ear because the original allele was described to affect pigment pattern in a way that suggests a possible dorsal to ventral transformation: “On a genetic background (at and AW) which causes the belly hair to be lighter than the back hair, the belly hair comes up farther round the sides of the body and face” (Curry 1959).
+
+An abnormal dorsoventral pigment pattern is readily apparent in at/at; deH/deH mice, but comparison to nonmutant animals is more accurately described in terms of ventral, lateral, and dorsal regions (Figures 1G and 2A). The ventral region has short hairs with a gray base and cream-colored tip whose boundary coincides with the limb–body wall junction; both the appearance of this region and position of the boundary are approximately similar in at/at compared to at/at; deH/deH mice. The lateral region contains yellow hairs of progressively increasing length; in at/at mice, the lateral region appears as a thin yellow stripe along the flank, but in at/at; deH/deH mice, the lateral region is considerably expanded with a diffuse boundary along the dorsal flank, and a dorsal eumelanic region whose size is correspondingly reduced (Figure 2A and 2B). Total body size is smaller in mutant compared to nonmutant animals, but the proportion of body circumference occupied by the lateral region in mutant animals is increased about 2-fold, from 11.9% to 22.2% (Figure 2C). The proportion of the ventral cream-colored region is also expanded a small amount, 47.9% in mutant compared to 37.8% in nonmutant animals, but expansion of the lateral region, which occurs at all levels of the body, including the limbs and the cranium (but not the whisker pad), is the major feature responsible for the ventralized appearance caused by deH.
+
+To investigate whether deH affects other dorsoventral skin characteristics besides pigment-type switching, we examined its effects on hair length and pigmentation in an ae/ae background. Overall, deH causes a small but consistent reduction in hair length in both dorsum and ventrum; when mutant and nonmutant animals are normalized for body circumference, reduced hair length is most apparent in the lateral region (Figure 2E). Adult ae/ae; deH/deH animals exhibit body-size reduction and skeletal abnormalities, but display no coat-color phenotype (data not shown). However, ae/ae and ae/ae; deH/deH neonates are clearly distinguishable in the first few days after birth, when a dorsoventral gradient of melanogenic activity is apparent under the skin (Figure 2D). At this stage, melanoblast migration from the neural crest is mostly complete, but there is a dorsoventral gradient in melanocyte differentiation and pigment synthesis. The skin of ae/ae neonates appears uniformly dark over the entire dorsum, but in ae/ae; deH/deH neonates, the area of dark skin is more restricted, particularly above the limbs, and resembles the pattern of dorsal eumelanin in at/at; deH/deH adult animals.
+
+Taken together, these observations suggest that deH interferes with the establishment of dorsoventral patterning during skin development by causing dorsal expansion of a lateral region that is normally 3–5 mm in width. This same region may serve as a boundary between dorsal and ventral skin by inhibiting melanocyte differentiation, by promoting pheomelanin synthesis, and by supporting a progressive increase in hair growth from ventrum to dorsum. As described below, the gene defective in deH, Tbx15, is normally expressed in the dorsal region and therefore is likely to play a role in establishing the size and dorsal extent of the lateral region.
+
+Positional Cloning of deH
+
+As a visible marker, early linkage studies with the original droopy ear allele or the deH allele identified a map position in the middle of Chromosome 3, distal to matted and proximal to Varitint-waddler (Carter and Falconer 1951; Curry 1959; Lane and Eicher 1979; Holmes et al. 1981). We used an F2 intercross with CAST/Ei mice to localize deH to a 0.1 cM interval between D3Mit213 and 16.MMHAP32FLF1, which was refined by development of a bacterial artificial chromosome (BAC) contig and additional markers to a 1.4 Mb region that contained eight genes, including Tbx15 (Figure 3A). We considered Tbx15 as an excellent candidate for the skeletal abnormalities caused by deH, based on studies by Agulnik et al. (1998), who described its embryonic expression in the craniofacial region and developing limbs.
+
+Using sequence information from Agulnik et al. (1998) and the partially completed mouse genome sequence, we found that portions of several Tbx15 exons could not be amplified from deH/deH genomic DNA. The same gene was initially referred to as Tbx8 (Wattler et al. 1998) and then later renamed Tbx14, but is currently referred to in several vertebrate genomes as Tbx15 (Agulnik et al. 1998; Begemann et al. 2002). By comparing the sequence of a 1.3 kb junction fragment amplified from deH/deH genomic DNA to publicly available mouse genome sequence, we identified a 216 kb deletion that extends from Tbx15 intron 1 to 148 kb downstream of the polyadenylation sequence in a region annotated as a mannose-6-phosphate receptor pseudogene, M6pr-ps (Figure 3B and 3C). (Ludwig et al. 1992). By Northern blot analysis, we identified a fusion transcript produced from the deH chromosome (data not shown). However, the deletion removes 534 of the 602 amino acids encoded by Tbx15 (including the T-box DNA-binding domain), deH/+ animals are grossly normal, and the phenotype of deH/deH animals is identical to that described for the original allele. In addition, other than M6pr-ps, no other genes or transcripts have been annotated to the 216 kb deletion.
+
+While the positional cloning work was underway, one of us (A. Russ) generated an independent mutation of Tbx15 by gene targeting in embryonic stem cells. The targeted allele, Tbx15LacZ, carries an IRES-LacZ-neo cDNA cassette that disrupts the open reading frame at codon 154 early in the T-box domain (Figure 3D). Animals heterozygous for the targeted allele are completely normal with regard to size, skeletal morphology, and hair-color distribution, but Tbx15LacZ/Tbx15LacZ homozygotes were noted to exhibit reduced body size and an abnormal craniofacial appearance identical to that caused by deH. We generated Tbx15LacZ/deH compound heterozygotes; on an Aw/at background, these animals exhibited the same abnormal restriction of dorsal pigmentation at P3.5 and expanded yellow flank area as described above for deH/deH animals (see Figure 2). These observations demonstrate that the pigmentary and craniofacial characteristics of deH are caused by loss of function for Tbx15.
+
+Expression of Tbx15 and Agouti
+
+Previous studies by Agulnik et al. (1998) using whole-mount in situ hybridization described expression of Tbx15 as first detectable at E9.5 in the limb buds, progressing to the branchial arches, flanks, and craniofacial regions through E12.5. To investigate this pattern in more detail, we hybridized a Tbx15 mRNA probe to a series of transverse sections at E12.5 and observed expression in multiple mesenchymal tissues of the head, trunk, and developing limbs (Figure 4A), much of which is consistent with the skull, cervical vertebrae, and limb malformations reported for mice carrying the original droopy ear allele.
+
+We were particularly interested in determining the exact nature of the embryonic flank expression relative to the ventralized phenotype of adult deH/deH mice. Transverse abdominal sections from different times during development reveal a dorsolateral band of expression in the superficial mesenchyme at E11.5 that broadens both dorsally and ventrally over the next several days (Figure 4B). By E13.5, the developing dermis has become separated from the loose mesenchyme by a subcutaneous muscle layer; Tbx15 is expressed in all of these layers as well as the underlying abdominal muscles. In P3.5 skin, Tbx15 is expressed in both dorsal and ventral skin, most strongly in the condensed upper dermis and developing dermal sheaths of hair follicles; faint expression can also be detected in rare dermal papillae cells (Figure 4B).
+
+Although the effects of Agouti on pigment-type switching occur during postnatal hair growth, the ventral-specific isoform of Agouti is expressed in developing skin beginning at E11.5. We compared adjacent sections hybridized with probes for Tbx15 and Agouti and observed complementary patterns at E12.5, with expression of Agouti in ventral skin and expression of Tbx15 in dorsal skin (Figure 5A and 5B). The junction between expression domains is indistinct, and by E14.5, Tbx15 expression extends ventrally and overlaps extensively with Agouti expression (Figure 5C and 5D).
+
+We also examined the effect of deH on expression of Agouti and found no difference between mutant and nonmutant at E12.5 or E13.5 (data not shown). However, at E14.5, the normal ventral-to-dorsal gradient of Agouti expression appeared to extend more dorsally in deH/deH embryos (Figure 6A). In P4.5 skin, expression of Agouti is also extended dorsally in deH/deH animals and is most apparent in the midflank region within the upper dermis and dermal papillae cells (Figure 6B). Thus, while the pigmentation phenotype of deH/deH mice can be explained, not surprisingly, by dorsal extension of Agouti expression after birth, patterned expression of Tbx15 and Agouti are apparent some 10 days earlier, between E12.5 and E13.5, and the effects of Tbx15 deficiency on expression of Agouti can be detected by E14.5.
+
+Relationship of Embryonic Tbx15 Expression to Dorsal and Ventral Pigmentation Domains
+
+The observations described above are consistent with a model in which transient expression of Tbx15 in the embryonic dorsal flank is required to establish positional identity of the future dermis, at least with respect to pigment-type synthesis caused by the ventral-specific Agouti isoform. To further investigate this hypothesis, we carried out transplantation experiments in which pieces of embryonic skin were isolated from different dorsoventral positions. We evaluated the embryonic skin fragments for their potential to give rise to different hair colors and for their expression of Tbx15 and Agouti.
+
+Previous studies by Silvers and colleagues (Poole and Silvers 1976) showed that dorsal and ventral skin isolated from at/at embryos gives rise to black and yellow hair, respectively, when transplanted into testis and allowed to develop for several weeks. Furthermore, dermal–epidermal recombination experiments carried out at E14.5 demonstrated that positional identity is carried by the embryonic dermis. In a variation on this experiment, we divided embryonic skin from at/a embryos into dorsal, flank, and ventral pieces and analyzed the different pieces for their ability to give rise to black or yellow hair after testis transplantation, and, in parallel, for gene expression using in situ hybridization. For the purposes of a reproducible morphologic boundary, we divided flank from ventral skin based on a change in skin thickness and divided dorsal from flank skin at the level of an ectodermal notch that lies at the same level as the ventral extent of the myotome (Figure 7) (Huang and Christ 2000; Olivera-Martinez et al. 2000; Sudo et al. 2001; Burke and Nowicki 2003; Nowicki et al. 2003).
+
+We found that E12.5 is the earliest time at which embryonic ventral skin is able to produce hair when transplanted to the testis. Of the grafts that produced hair, ventral skin gave rise to yellow hair (n = 3), and dorsal skin gave rise to black hair (n = 4). Transplantation of flank skin gave rise to a patch of yellow hair juxtaposed against a patch of black hair in 85% of the successful grafts (n = 13); the remaining two flank grafts produced solely black or yellow hair. In no case did we observe intermingling of black and yellow hairs. As predicted from the experiments using tissue sections (see Figures 5 and 6), dorsal pieces expressed Tbx15 but not Agouti, while flank pieces expressed both genes (see Figure 7). Thus, dorsoventral identity for adult pigmentation is established by the time when patterned expression becomes apparent for Tbx15 and Agouti (E11.5–E12.5); furthermore, positional identity is maintained throughout later stages of skin development, even though expression of Tbx15 broadens to include ventral as well as dorsal skin.
+
+Relationship of the Dorsoventral Pigment Boundary to Lineage Compartments and the Lateral Somitic Frontier
+
+The ectodermal notch that we used to mark the boundary between embryonic dorsum and embryonic flank is a characteristic feature in vertebrate embryos. In cell lineage studies carried out in the chick system, the notch serves as a landmark for the boundary between dermis derived from somitic mesoderm and dermis derived from lateral plate mesoderm and has been termed the “lateral somitic frontier” (Olivera-Martinez et al. 2000; Sudo et al. 2001; Burke and Nowicki 2003; Nowicki et al. 2003). Although fate-mapping studies have not been carried out in mammalian embryos, somite- and lateral plate-derived mesoderm could give rise to precursors for dermis dorsal and ventral to the limb–body wall junction, respectively. However, this notion conflicts with our observation that the future pigmentation boundary lies ventral to the ectodermal notch (see Figure 7).
+
+To examine directly the relationship between the pigmentation boundary and dermis derived from lateral plate mesoderm, we made use of a Cre transgene driven by the Hoxb6 promoter that was developed by Kuehn and colleagues (Lowe et al. 2000). As described by Lowe et al. (2000), midgestation embryos carrying both the Hoxb6-Cre transgene and the R26R lacZ reporter gene (Soriano 1999) exhibit X-Gal staining in lateral plate mesoderm but not somite-derived mesoderm of the trunk. In whole-mount skin preparations from P1.5 or P4.5 neonatal animals, we observed a ventral band of dark X-Gal staining corresponding to lateral plate-derived dermis, which represents 63% of the total circumference (Figure 8A). However, in parallel preparations from at/at mice, the ventral pheomelanin domain represents 47% of the total skin circumference; therefore, the proportions of total skin circumference occupied by dorsal eumelanin and somite-derived dermis are 53% and 37%, respectively (Figure 8B). These results indicate that the pigmentation boundary is clearly distinct from, and more ventral to, the boundary between lateral plate- and somite-derived dermis.
+
+Because the pigmentation boundary lies in register with the limb–body wall junction (see Figure 2), we wondered whether mechanisms used for dorsoventral limb patterning might be related to those used to establish the pigmentation boundary. In the developing limb, Engrailed1 (En1), Wnt7a, and Lmx1b are part of a network whose restricted domains of expression help to establish dorsoventral identity (reviewed in Niswander 2003). En1 is transiently expressed in the developing flank; at E11.5, transverse abdominal sections reveal domains in the neural tube, somite-derived mesenchyme, and the ventral body wall (Figure 8C). An adjacent section hybridized with Tbx15 reveals a complementary pattern in the flank, which provides additional evidence for developmental mechanisms that establish a pigmentation boundary entirely within lateral plate mesoderm and independent of lineage restrictions imposed by the lateral somitic frontier.
+T54	italic 9711 9717	Agouti
+T55	italic 9750 9752	at
+T56	sup 9751 9752	t
+T57	italic 9753 9755	at
+T58	sup 9754 9755	t
+T59	italic 9993 9999	Agouti
+T60	italic 10195 10197	at
+T61	sup 10196 10197	t
+T62	italic 10198 10200	at
+T63	sup 10199 10200	t
+T64	italic 10379 10381	at
+T65	sup 10380 10381	t
+T66	italic 10382 10384	at
+T67	sup 10383 10384	t
+T68	italic 10646 10652	Agouti
+T69	italic 10937 10943	Agouti
+T70	italic 11284 11286	at
+T71	sup 11285 11286	t
+T72	italic 11287 11289	at
+T73	sup 11288 11289	t
+T74	italic 12122 12124	at
+T75	sup 12123 12124	t
+T76	italic 12125 12127	at
+T77	sup 12126 12127	t
+T78	italic 12225 12231	Agouti
+T79	italic 12277 12283	Agouti
+T80	italic 12285 12302	extreme nonagouti
+T81	italic 12304 12306	ae
+T82	sup 12305 12306	e
+T83	italic 12589 12591	ae
+T84	sup 12590 12591	e
+T85	italic 12592 12594	ae
+T86	sup 12593 12594	e
+T87	italic 12636 12638	at
+T88	sup 12637 12638	t
+T89	italic 12639 12641	at
+T90	sup 12640 12641	t
+T91	italic 12785 12787	ae
+T92	sup 12786 12787	e
+T93	italic 12788 12790	ae
+T94	sup 12789 12790	e
+T95	italic 12850 12856	Agouti
+T96	italic 13055 13057	ae
+T97	sup 13056 13057	e
+T98	italic 13058 13060	ae
+T99	sup 13059 13060	e
+T100	italic 13301 13307	Agouti
+T101	italic 13425 13435	droopy ear
+T102	italic 13498 13508	droopy ear
+T103	italic 13692 13695	deH
+T104	sup 13694 13695	H
+T105	italic 13852 13855	deH
+T106	sup 13854 13855	H
+T107	italic 13856 13859	deH
+T108	sup 13858 13859	H
+T109	italic 14099 14109	droopy ear
+T110	italic 14272 14274	at
+T111	sup 14273 14274	t
+T112	italic 14279 14281	AW
+T113	sup 14280 14281	W
+T114	italic 14494 14496	at
+T115	sup 14495 14496	t
+T116	italic 14497 14499	at
+T117	sup 14498 14499	t
+T118	italic 14501 14504	deH
+T119	sup 14503 14504	H
+T120	italic 14505 14508	deH
+T121	sup 14507 14508	H
+T122	italic 14876 14878	at
+T123	sup 14877 14878	t
+T124	italic 14879 14881	at
+T125	sup 14880 14881	t
+T126	italic 14894 14896	at
+T127	sup 14895 14896	t
+T128	italic 14897 14899	at
+T129	sup 14898 14899	t
+T130	italic 14901 14904	deH
+T131	sup 14903 14904	H
+T132	italic 14905 14908	deH
+T133	sup 14907 14908	H
+T134	italic 14995 14997	at
+T135	sup 14996 14997	t
+T136	italic 14998 15000	at
+T137	sup 14999 15000	t
+T138	italic 15082 15084	at
+T139	sup 15083 15084	t
+T140	italic 15085 15087	at
+T141	sup 15086 15087	t
+T142	italic 15089 15092	deH
+T143	sup 15091 15092	H
+T144	italic 15093 15096	deH
+T145	sup 15095 15096	H
+T146	italic 15855 15858	deH
+T147	sup 15857 15858	H
+T148	italic 15884 15887	deH
+T149	sup 15886 15887	H
+T150	italic 16030 16032	ae
+T151	sup 16031 16032	e
+T152	italic 16033 16035	ae
+T153	sup 16034 16035	e
+T154	italic 16057 16060	deH
+T155	sup 16059 16060	H
+T156	italic 16295 16297	ae
+T157	sup 16296 16297	e
+T158	italic 16298 16300	ae
+T159	sup 16299 16300	e
+T160	italic 16302 16305	deH
+T161	sup 16304 16305	H
+T162	italic 16306 16309	deH
+T163	sup 16308 16309	H
+T164	italic 16437 16439	ae
+T165	sup 16438 16439	e
+T166	italic 16440 16442	ae
+T167	sup 16441 16442	e
+T168	italic 16447 16449	ae
+T169	sup 16448 16449	e
+T170	italic 16450 16452	ae
+T171	sup 16451 16452	e
+T172	italic 16454 16457	deH
+T173	sup 16456 16457	H
+T174	italic 16458 16461	deH
+T175	sup 16460 16461	H
+T176	italic 16808 16810	ae
+T177	sup 16809 16810	e
+T178	italic 16811 16813	ae
+T179	sup 16812 16813	e
+T180	italic 16877 16879	ae
+T181	sup 16878 16879	e
+T182	italic 16880 16882	ae
+T183	sup 16881 16882	e
+T184	italic 16884 16887	deH
+T185	sup 16886 16887	H
+T186	italic 16888 16891	deH
+T187	sup 16890 16891	H
+T188	italic 17023 17025	at
+T189	sup 17024 17025	t
+T190	italic 17026 17028	at
+T191	sup 17027 17028	t
+T192	italic 17030 17033	deH
+T193	sup 17032 17033	H
+T194	italic 17034 17037	deH
+T195	sup 17036 17037	H
+T196	italic 17102 17105	deH
+T197	sup 17104 17105	H
+T198	italic 17546 17549	deH
+T199	sup 17548 17549	H
+T200	italic 17551 17556	Tbx15
+T201	italic 17729 17732	deH
+T202	sup 17731 17732	H
+T203	italic 17795 17805	droopy ear
+T204	italic 17820 17823	deH
+T205	sup 17822 17823	H
+T206	italic 17898 17904	matted
+T207	italic 17921 17937	Varitint-waddler
+T208	sub 18032 18033	2
+T209	italic 18075 18078	deH
+T210	sup 18077 18078	H
+T211	italic 18300 18305	Tbx15
+T212	italic 18333 18338	Tbx15
+T213	italic 18406 18409	deH
+T214	sup 18408 18409	H
+T215	italic 18682 18687	Tbx15
+T216	italic 18722 18725	deH
+T217	sup 18724 18725	H
+T218	italic 18726 18729	deH
+T219	sup 18728 18729	H
+T220	italic 18786 18790	Tbx8
+T221	italic 18836 18841	Tbx14
+T222	italic 18905 18910	Tbx15
+T223	italic 19027 19030	deH
+T224	sup 19029 19030	H
+T225	italic 19031 19034	deH
+T226	sup 19033 19034	H
+T227	italic 19142 19147	Tbx15
+T228	italic 19278 19285	M6pr-ps
+T229	italic 19407 19410	deH
+T230	sup 19409 19410	H
+T231	italic 19508 19513	Tbx15
+T232	italic 19556 19559	deH
+T233	sup 19558 19559	H
+T234	italic 19611 19614	deH
+T235	sup 19613 19614	H
+T236	italic 19615 19618	deH
+T237	sup 19617 19618	H
+T238	italic 19707 19714	M6pr-ps
+T239	italic 19896 19901	Tbx15
+T240	italic 19966 19975	Tbx15LacZ
+T241	sup 19971 19975	LacZ
+T242	italic 19988 20001	IRES-LacZ-neo
+T243	italic 20247 20256	Tbx15LacZ
+T244	sup 20252 20256	LacZ
+T245	italic 20257 20266	Tbx15LacZ
+T246	sup 20262 20266	LacZ
+T247	italic 20387 20390	deH
+T248	sup 20389 20390	H
+T249	italic 20405 20414	Tbx15LacZ
+T250	sup 20410 20414	LacZ
+T251	italic 20415 20418	deH
+T252	sup 20417 20418	H
+T253	italic 20449 20451	Aw
+T254	sup 20450 20451	w
+T255	italic 20452 20454	at
+T256	sup 20453 20454	t
+T257	italic 20606 20609	deH
+T258	sup 20608 20609	H
+T259	italic 20610 20613	deH
+T260	sup 20612 20613	H
+T261	italic 20725 20728	deH
+T262	sup 20727 20728	H
+T263	italic 20764 20769	Tbx15
+T264	italic 20786 20791	Tbx15
+T265	italic 20796 20802	Agouti
+T266	italic 20910 20915	Tbx15
+T267	italic 21107 21112	Tbx15
+T268	italic 21405 21415	droopy ear
+T269	italic 21570 21573	deH
+T270	sup 21572 21573	H
+T271	italic 21574 21577	deH
+T272	sup 21576 21577	H
+T273	italic 21927 21932	Tbx15
+T274	italic 22028 22033	Tbx15
+T275	italic 22279 22285	Agouti
+T276	italic 22380 22386	Agouti
+T277	italic 22496 22501	Tbx15
+T278	italic 22506 22512	Agouti
+T279	italic 22578 22584	Agouti
+T280	italic 22619 22624	Tbx15
+T281	italic 22729 22734	Tbx15
+T282	italic 22794 22800	Agouti
+T283	italic 22864 22867	deH
+T284	sup 22866 22867	H
+T285	italic 22885 22891	Agouti
+T286	italic 23041 23047	Agouti
+T287	italic 23095 23098	deH
+T288	sup 23097 23098	H
+T289	italic 23099 23102	deH
+T290	sup 23101 23102	H
+T291	italic 23152 23158	Agouti
+T292	italic 23188 23191	deH
+T293	sup 23190 23191	H
+T294	italic 23192 23195	deH
+T295	sup 23194 23195	H
+T296	italic 23353 23356	deH
+T297	sup 23355 23356	H
+T298	italic 23357 23360	deH
+T299	sup 23359 23360	H
+T300	italic 23425 23431	Agouti
+T301	italic 23480 23485	Tbx15
+T302	italic 23490 23496	Agouti
+T303	italic 23576 23581	Tbx15
+T304	italic 23610 23616	Agouti
+T305	italic 23670 23675	Tbx15
+T306	italic 23825 23830	Tbx15
+T307	italic 24007 24013	Agouti
+T308	italic 24321 24326	Tbx15
+T309	italic 24331 24337	Agouti
+T310	italic 24458 24460	at
+T311	sup 24459 24460	t
+T312	italic 24461 24463	at
+T313	sup 24462 24463	t
+T314	italic 24812 24814	at
+T315	sup 24813 24814	t
+T316	italic 24815 24816	a
+T317	italic 25647 25648	n
+T318	italic 25696 25697	n
+T319	italic 25844 25845	n
+T320	italic 26092 26097	Tbx15
+T321	italic 26106 26112	Agouti
+T322	italic 26295 26300	Tbx15
+T323	italic 26305 26311	Agouti
+T324	italic 26445 26450	Tbx15
+T325	italic 27613 27616	Cre
+T326	italic 27641 27646	Hoxb6
+T327	italic 27794 27803	Hoxb6-Cre
+T328	italic 27822 27831	R26R lacZ
+T329	italic 28222 28224	at
+T330	sup 28223 28224	t
+T331	italic 28225 28227	at
+T332	sup 28226 28227	t
+T333	italic 28895 28905	Engrailed1
+T334	italic 28907 28910	En1
+T335	italic 28913 28918	Wnt7a
+T336	italic 28924 28929	Lmx1b
+T337	italic 29061 29064	En1
+T338	italic 29292 29297	Tbx15
+T339	section 29568 46648	Discussion
+
+Several mutations and genes have been identified that affect the pattern of hair follicle development, but Tbx15 is the only gene of which we are aware that affects the pattern of hair pigmentation in different body regions. Ventral areas that normally produce yellow hair in the trunk, limbs, and craniofacial regions are expanded in deH/deH mice and, in the trunk at least, represent inappropriate dorsal expression of an Agouti mRNA isoform that is normally restricted to ventral skin. The deH allele is caused by a large deletion that removes most of the Tbx15 coding sequence, but the pleiotropic phenotype is caused by a simple loss of function for Tbx15 rather than a dominant-negative or contiguous gene effect. In particular, there is no heterozygous phenotype, no other genes lie within or close to the deletion breakpoints, and the expression pattern of Tbx15 is consistent with the spectrum of phenotypic abnormalities in both the original de allele and the deH allele. Finally, a Tbx15 targeted allele has the same phenotype as deH.
+
+Our results suggest that patterned expression of Tbx15 provides an instructional cue required to establish the future identity of dorsal dermis with regard to pigmentary and hair length patterning. The ventral edge of Tbx15 expression in the developing flank does not correspond to a known lineage compartment, but, like limb development, occurs within lateral plate mesoderm. These findings represent a novel role for T-box gene action in embryonic development and provide evidence for a previously unappreciated complexity to acquisition of dorsoventral positional identity in mammalian skin.
+
+Distinct Morphologic Regions Represent the Sum of Different Gradients
+
+The visual boundary between dorsal and ventral skin in at/at mice is reminiscent of other systems in which adjacent compartments enforce a binary choice between alternative patterns of gene expression and cell fate (reviewed in Dahmann and Basler 1999). However, Agouti mRNA in both embryonic and postnatal skin is distributed along a gradient whose dorsal boundary is indistinct and overlaps with two additional gradients recognized by their effects on hair length and histochemical staining for melanocytes. The three gradients are close but not congruent, and it is their proximity that gives rise to the superficial distinction between dorsal and ventral skin of at/at mice. Indeed, slight differences between the regions of transition for pigment-type switching and pigment content give rise to a subtle yellow stripe along the flank (see Figures 1, 2, and 9A). Levels of Agouti mRNA remain high throughout the entire ventrum, but hair pigment content is reduced, giving rise to a cream-colored region in the ventrum that, depending on age and genetic backgrounds, may appear more or less distinct from the yellow flank stripe.
+
+Loss of Tbx15 affects dorsoventral transitions of hair length, pigment content, and expression of the ventral-specific Agouti isoform; however, the former two effects are subtle and contribute little, if at all, to the abnormal pigmentation of adult deH/deH mice. Thus, despite the abnormal pattern of dark skin in neonatal deH/deH mice (e.g., Figure 2D), the most obvious feature in adults is dorsal displacement of the “boundary” between black and yellow hair (Figure 9A).
+
+Genetics of Tbx15
+
+Named for the presence of a DNA-binding domain first identified in the mouse Brachyury gene (haploinsufficiency causes a short tail), T box–containing genes have been identified as developmental regulators in a wide spectrum of tissues and multicellular organisms (reviewed in Papaioannou 2001). The Tbx15 subfamily, which also includes Tbx18 and Tbx22, is likely to have arisen during early chordate evolution since there is a single gene in amphioxus but no obvious homolog in the fly genome (Ruvinsky et al. 2000). Consistent with this relationship, the three genes are expressed in partially overlapping patterns that include anterior somites (Tbx18 and Tbx22), limb mesenchyme (Tbx15 and Tbx18), and craniofacial mesenchyme (all three genes, Tbx15 more broadly than Tbx18 or Tbx22) (Agulnik et al. 1998; Kraus et al. 2001; Braybrook et al. 2002; Bush et al. 2002; Herr et al. 2003). These observations suggest that an ancestral gene for Tbx15, Tbx18, and Tbx22 may have been important for craniofacial development in cephalochordates, with acquisition of additional expression patterns and developmental functions in the limb and the trunk during early vertebrate evolution. Expression of Tbx18 and Tbx22 has not been reported in embryonic flank mesenchyme, which suggests that Tbx15 is the only family member involved in establishing the dorsoventral identity of the trunk. However, it would not be surprising to find some degree of functional redundancy in animals mutated for two or three of the subfamily members in other body regions, particularly the limbs and the head. For example, mutations in Tbx22 cause the human syndrome X-linked cleft palate and ankyloglossia (Braybrook et al. 2001). Despite high levels of Tbx22 expression in periocular embryonic mesenchyme (Braybrook et al. 2002; Bush et al. 2002; Herr et al. 2003), the condition does not affect the eye, perhaps because residual activity is provided by Tbx15 in the same region.
+
+In an initial description of the expression and map location of mouse Tbx15, Agulnik et al. (1998) suggested human Tbx15 that lies on Chromosome 1p11.1 as a candidate for acromegaloid facial appearance (AFA) syndrome, for which there is a weak positive LOD score to Chromosome 1p (Hughes et al. 1985). Originally described as a rare autosomal-dominant syndrome with progressive facial coarsening, overgrowth of the intraoral mucosa, and large, doughy hands, more recent case reports describe macrosomia, macrocephaly, or both and generalized hypertrichosis with progressive coarsening (Dallapiccola et al. 1992; Irvine et al. 1996; da Silva et al. 1998; Zelante et al. 2000). The deH phenotype exhibits little overlap with these features; instead, we suggest a more likely candidate for mutations of human TBX15 would be frontofacionasal syndrome, an unmapped autosomal recessive condition characterized by brachycephaly, blepharophimosis, and midface hypoplasia (Reardon et al. 1994).
+
+Two of us (S. Kuijper and F. Meijlink) became interested in the deH mutation because of its effects on skeletal development (Curry 1959) and the possibility that the aristaless-related gene Alx3 might be allelic with droopy ear (ten Berge et al. 1998). In spite of similarities between skeletal phenotypes of deH and Alx3 or Alx4 mutants, subsequent experiments (unpublished data) excluded allelism of Alx3 and deH, and a full description of the Tbx15 skeletal phenotype will be published elsewhere.
+
+Developmental Mechanism of Tbx15 Expression and Action in the Skin
+
+Our attention to the role of Tbx15 in pigment patterning was motivated by the effects of Agouti in postnatal animals. However, Agouti is also expressed in the embryo, where it provides a convenient marker of ventral dermis identity. Because an expanded domain of embryonic Agouti expression in deH/deH animals is detectable by E14.5, the effects of Tbx15 on dorsoventral patterning must occur prior to this time. Among other T-box genes whose developmental actions are at least partially understood, two general themes have emerged, one focused on the ability to specify alternative fates for an undifferentiated group of precursor cells and another focused on the ability to support proliferative expansion of a cell population whose fate is already determined (reviewed in Tada and Smith 2001). Either mechanism may apply to the apparent dorsal-to-ventral transformation in deH/deH mice. For example, while the expanded domain of Agouti expression in postnatal deH/deH animals can be traced to events that occur between E11.5 and E13.5, the underlying cause may be that embryonic cells in dorsolateral mesenchyme acquire a ventral rather than dorsal identity or that those cells fail to proliferate normally, followed by compensatory expansion of ventral cells. Cell lineage studies should provide a definitive answer, but we favor the latter hypothesis, because measurements of dorsoventral regions according to hair color in deH/deH mice revealed a small increase of the cream-colored ventral region in addition to the approximate doubling of the yellow flank region (see Figure 2).
+
+In embryonic mesenchyme, expression of Tbx15 and Agouti are complementary, and it is possible that Tbx15 acts directly to inhibit Agouti transcription in dorsolateral mesenchyme. However, the ability of Tbx15 to suppress expression of the ventral-specific Agouti isoform in postnatal mice is likely to be indirect, since postnatal expression of Tbx15 occurs broadly along the dorsoventral axis and overlaps extensively with that of Agouti. In either case, the targets of Tbx15 action in the skin include genes in addition to Agouti, since hair length and melanocyte distribution exhibit a demonstrable, albeit subtle, alteration in animals that carry a null Agouti allele. One potential target is Alx4, which, like Agouti, is expressed in ventral embryonic mesenchyme, and, when mutated, affects hair-follicle as well as limb and craniofacial development (Qu et al. 1997, 1998; Wu et al. 2000; Wuyts et al. 2000; Mavrogiannis et al. 2001). However, expression of ventral markers such as Alx4, as well as Alx3 and Msx2, appears to be unaffected at E11.5 in deH/deH embryos (data not shown).
+
+Differences and Similarities to Dorsoventral Limb Patterning
+
+Loss of Tbx15 also affects regional distribution of hair color in the limbs, with areas that would normally produce black hair giving rise to yellow hair instead. However, neither normal patterns of pigment-type synthesis in the limb nor their disruption in deH/deH mice correspond to obvious developmental compartments. Furthermore, losses of function for En1 or Wnt7a, which cause a partial transformation of the distal limb from dorsum to ventrum (Loomis et al. 1996) or ventrum to dorsum (Parr and McMahon 1995), respectively, have no effect on regional patterns of Agouti expression or distribution of hair-color regions (Y. Chen, unpublished data). (Ectopic pigmentation of the ventral footpads that develops in En1 mutant mice is unrelated to pigment-type synthesis and instead likely reflects a requirement for En1, independent of Wnt7a, to repress migration or proliferation (or both) of pigment cells in ventral epidermis [Cygan et al. 1997; Loomis et al. 1998].)
+
+These considerations notwithstanding, control of dorsoventral trunk pattern by Tbx15 shares certain features with control of dorsoventral limb patterning by Lmx1b, a LIM domain transcription factor that acts downstream of Wnt7a and En1 (Riddle et al. 1995; Vogel et al. 1995; Cygan et al. 1997; Logan et al. 1997; Loomis et al. 1998; Chen and Johnson 2002). Both Tbx15 and Lmx1b act autonomously in mesenchymal cells to promote a dorsal identity, yet have expression domains that do not correspond to cell lineage compartments in the flank (Tbx15) or the limb (Lmx1b) (Altabef et al. 1997; Michaud et al. 1997). In the case of Lmx1b, its expression in the distal limb depends on Wnt7a produced in the overlying dorsal ectoderm (Riddle et al. 1995; Cygan et al. 1997; Loomis et al. 1998). Wnt7a, in turn, is restricted to dorsal ectoderm by En1 in the ventral ectoderm (Loomis et al. 1996; Cygan et al. 1997; Logan et al. 1997), whose expression marks a lineage boundary coincident with the dorsoventral midline of the apical ectodermal ridge (Altabef et al. 1997; Michaud et al. 1997; Kimmel et al. 2000). As described above, En1 or Wnt7a mutations have not been reported to affect patterns of hair-color distribution (C. Loomis, personal communication; Parr and McMahon 1995; Loomis et al. 1996). However, the essential theme that ectodermal lineage compartments control the fate of underlying mesenchyme in developing limbs may apply to the trunk as well as the limb. The mammary glands also develop at a stereotyped dorsoventral position and depend on epithelial–mesenchymal interactions. However, the number and apparent position of the mammary glands are normal in deH/deH animals, indicating the existence of additional mechanisms that control dorsoventral patterning in the trunk as well as in the limbs.
+
+These ideas are summarized in the model shown in Figure 9B. We speculate that a diffusible signal from dorsal trunk ectoderm, at or prior to E11.5, promotes expression of Tbx15 in dorsal trunk mesenchyme, which then establishes dorsal positional identity of those cells as manifested by differences in Agouti expression, pigment-cell development, and hair growth. Because the ventral limit of Tbx15 expression corresponds to the dorsal limit of En1 expression and because the normal position of the pigmentation boundary lies approximately in register with the limb-bud outgrowths, we depict the position of a putative dorsoventral boundary in trunk ectoderm as coincident with the limb dorsoventral boundary. This model is consistent with studies in the chick, where distinct dorsal and ventral lineage compartments exist for ectoderm in both the limb (Altabef et al. 1997, 2000; Michaud et al. 1997; Kimmel et al. 2000) and interlimb regions (Altabef et al. 1997, 2000), but not for limb mesoderm (Altabef et al. 1997; Michaud et al. 1997). In fact, the same mechanism that determines dorsoventral position of the limbs and the apical ectodermal ridge may also act on expression of Tbx15 in the trunk, since ectopic limbs induced in the interlimb region by application of FGF beads develop along a single line that is coincident with normal limb buds (and the future pigmentation boundary) (Cohn et al. 1995; Crossley et al. 1996; Vogel et al. 1996; Altabef et al. 1997, 2000).
+
+Our model predicts that ectopic expression of Tbx15 in ventral mesenchyme should give rise to a dorsalized pigmentation phenotype and could be tested with gain-of-function approaches. However, Tbx15 expression is very dynamic and is restricted to dorsal mesoderm only from E11.5 to E13.5. It is possible that Tbx15 influences skin patterning in a very narrow window of development; alternatively, establishment of dorsal identity by Tbx15 may require another as-yet-unidentified factor that is only present in the mesenchyme underlying dorsal ectoderm.
+
+Pigmentation Patterns and Tbx15 in Other Mammals
+
+The lateral somitic frontier, defined as the lineage boundary between somite-derived versus lateral plate-derived mesoderm, is established during somitogenesis early in development (Mauger 1972; Christ et al. 1983; Olivera-Martinez et al. 2000; Nowicki et al. 2003), but remains distinct in postnatal animals despite the potential for extensive cell mixing (see Figure 8). However, our transplantation and fate-mapping studies demonstrate that the lateral somitic frontier lies dorsal to the pigmentation boundary and does not obviously correlate with a difference in skin morphology. An additional dorsoventral domain that is not externally apparent has emerged from studies of Msx1, whose expression marks a subgroup of somite-derived mesenchymal cells that contribute to dermis in a narrow stripe along the paraspinal region (Houzelstein et al. 2000). Thus, there exist at least three distinct boundaries in postnatal mammalian skin that are parallel to the sagittal plane, marked by differences in pigment-type synthesis, differences in cell lineage, and differences in expression of Msx1.
+
+In rodents, only the pigmentation boundary is evident externally, but many mammals have more complicated patterns of hair type, length, and/or color that vary along the dorsoventral axis. Raccoons, squirrels, skunks, and many different ungulates exhibit lateral stripes whose developmental origins have not been investigated, but may correspond to the lateral somitic frontier, the paraspinal Msx1 compartment, or an interaction between these domains.
+
+The effect of Tbx15 on pigmentation in laboratory mice is reminiscent of coat-color patterns in both selected and natural populations of other mammals. Saddle markings are common in some dog breeds, such as German shepherds, and in certain populations of Peromyscus polionotus, in which a dorsal extension of ventral depigmentation provides an adaptive advantage to subspecies that live on white sand reefs (Blair 1951; Kaufman 1974; Belk and Smith 1996). Neither German shepherds nor deer mice have craniofacial characteristics similar to the deH mutation, but the pigmentation patterns in these animals could represent alterations in the regulation or action of Tbx15 activity. From the opposite perspective, the effects of Tbx15 on coat color are only apparent in certain genetic backgrounds and may not be evident at all in mammals that lack dorsoventral pigmentation patterns. Studying the sequence and expression of Tbx15 in other vertebrates may provide additional insight into patterns that affect the skeleton as well as the pigmentary system.
+T340	italic 29687 29692	Tbx15
+T341	italic 29915 29918	deH
+T342	sup 29917 29918	H
+T343	italic 29919 29922	deH
+T344	sup 29921 29922	H
+T345	italic 30004 30010	Agouti
+T346	italic 30073 30076	deH
+T347	sup 30075 30076	H
+T348	italic 30139 30144	Tbx15
+T349	italic 30235 30240	Tbx15
+T350	italic 30445 30450	Tbx15
+T351	italic 30532 30534	de
+T352	italic 30550 30553	deH
+T353	sup 30552 30553	H
+T354	italic 30573 30578	Tbx15
+T355	italic 30621 30624	deH
+T356	sup 30623 30624	H
+T357	italic 30676 30681	Tbx15
+T358	italic 30845 30850	Tbx15
+T359	italic 31349 31351	at
+T360	sup 31350 31351	t
+T361	italic 31352 31354	at
+T362	sup 31353 31354	t
+T363	italic 31557 31563	Agouti
+T364	italic 31961 31963	at
+T365	sup 31962 31963	t
+T366	italic 31964 31966	at
+T367	sup 31965 31966	t
+T368	italic 32171 32177	Agouti
+T369	italic 32436 32441	Tbx15
+T370	italic 32547 32553	Agouti
+T371	italic 32678 32681	deH
+T372	sup 32680 32681	H
+T373	italic 32682 32685	deH
+T374	sup 32684 32685	H
+T375	italic 32752 32755	deH
+T376	sup 32754 32755	H
+T377	italic 32756 32759	deH
+T378	sup 32758 32759	H
+T379	italic 32916 32921	Tbx15
+T380	italic 33000 33009	Brachyury
+T381	italic 33223 33228	Tbx15
+T382	italic 33260 33265	Tbx18
+T383	italic 33270 33275	Tbx22
+T384	italic 33571 33576	Tbx18
+T385	italic 33581 33586	Tbx22
+T386	italic 33606 33611	Tbx15
+T387	italic 33616 33621	Tbx18
+T388	italic 33670 33675	Tbx15
+T389	italic 33694 33699	Tbx18
+T390	italic 33703 33708	Tbx22
+T391	italic 33865 33870	Tbx15
+T392	italic 33872 33877	Tbx18
+T393	italic 33883 33888	Tbx22
+T394	italic 34117 34122	Tbx18
+T395	italic 34127 34132	Tbx22
+T396	italic 34206 34211	Tbx15
+T397	italic 34531 34536	Tbx22
+T398	italic 34650 34655	Tbx22
+T399	italic 34851 34856	Tbx15
+T400	italic 34948 34953	Tbx15
+T401	italic 34993 34998	Tbx15
+T402	italic 35558 35561	deH
+T403	sup 35560 35561	H
+T404	italic 35684 35689	TBX15
+T405	italic 35929 35932	deH
+T406	sup 35931 35932	H
+T407	italic 36031 36041	aristaless
+T408	italic 36055 36059	Alx3
+T409	italic 36082 36092	droopy ear
+T410	italic 36174 36177	deH
+T411	sup 36176 36177	H
+T412	italic 36182 36186	Alx3
+T413	italic 36190 36194	Alx4
+T414	italic 36267 36271	Alx3
+T415	italic 36276 36279	deH
+T416	sup 36278 36279	H
+T417	italic 36311 36316	Tbx15
+T418	italic 36393 36398	Tbx15
+T419	italic 36463 36468	Tbx15
+T420	italic 36523 36529	Agouti
+T421	italic 36561 36567	Agouti
+T422	italic 36707 36713	Agouti
+T423	italic 36728 36731	deH
+T424	sup 36730 36731	H
+T425	italic 36732 36735	deH
+T426	sup 36734 36735	H
+T427	italic 36783 36788	Tbx15
+T428	italic 37310 37313	deH
+T429	sup 37312 37313	H
+T430	italic 37314 37317	deH
+T431	sup 37316 37317	H
+T432	italic 37366 37372	Agouti
+T433	italic 37397 37400	deH
+T434	sup 37399 37400	H
+T435	italic 37401 37404	deH
+T436	sup 37403 37404	H
+T437	italic 37863 37866	deH
+T438	sup 37865 37866	H
+T439	italic 37867 37870	deH
+T440	sup 37869 37870	H
+T441	italic 38061 38066	Tbx15
+T442	italic 38071 38077	Agouti
+T443	italic 38121 38126	Tbx15
+T444	italic 38152 38158	Agouti
+T445	italic 38225 38230	Tbx15
+T446	italic 38278 38284	Agouti
+T447	italic 38367 38372	Tbx15
+T448	italic 38454 38460	Agouti
+T449	italic 38493 38498	Tbx15
+T450	italic 38547 38553	Agouti
+T451	italic 38680 38686	Agouti
+T452	italic 38719 38723	Alx4
+T453	italic 38737 38743	Agouti
+T454	italic 39009 39013	Alx4
+T455	italic 39026 39030	Alx3
+T456	italic 39035 39039	Msx2
+T457	italic 39078 39081	deH
+T458	sup 39080 39081	H
+T459	italic 39082 39085	deH
+T460	sup 39084 39085	H
+T461	italic 39183 39188	Tbx15
+T462	italic 39433 39436	deH
+T463	sup 39435 39436	H
+T464	italic 39437 39440	deH
+T465	sup 39439 39440	H
+T466	italic 39532 39535	En1
+T467	italic 39539 39544	Wnt7a
+T468	italic 39745 39751	Agouti
+T469	italic 39893 39896	En1
+T470	italic 39994 39997	En1
+T471	italic 40014 40019	Wnt7a
+T472	italic 40229 40234	Tbx15
+T473	italic 40307 40312	Lmx1b
+T474	italic 40372 40377	Wnt7a
+T475	italic 40382 40385	En1
+T476	italic 40513 40518	Tbx15
+T477	italic 40523 40528	Lmx1b
+T478	italic 40691 40696	Tbx15
+T479	italic 40711 40716	Lmx1b
+T480	italic 40777 40782	Lmx1b
+T481	italic 40829 40834	Wnt7a
+T482	italic 40938 40943	Wnt7a
+T483	italic 40990 40993	En1
+T484	italic 41276 41279	En1
+T485	italic 41283 41288	Wnt7a
+T486	italic 41820 41823	deH
+T487	sup 41822 41823	H
+T488	italic 41824 41827	deH
+T489	sup 41826 41827	H
+T490	italic 42134 42139	Tbx15
+T491	italic 42265 42271	Agouti
+T492	italic 42356 42361	Tbx15
+T493	italic 42408 42411	En1
+T494	italic 43147 43152	Tbx15
+T495	italic 43490 43495	Tbx15
+T496	italic 43637 43642	Tbx15
+T497	italic 43753 43758	Tbx15
+T498	italic 43877 43882	Tbx15
+T499	italic 44024 44029	Tbx15
+T500	italic 44727 44731	Msx1
+T501	italic 45136 45140	Msx1
+T502	italic 45536 45540	Msx1
+T503	italic 45610 45615	Tbx15
+T504	italic 46140 46143	deH
+T505	sup 46142 46143	H
+T506	italic 46260 46265	Tbx15
+T507	italic 46322 46327	Tbx15
+T508	italic 46518 46523	Tbx15
+T509	section 46650 54729	Materials and Methods
+
+
+
+Mice
+
+All mice were obtained originally from The Jackson Laboratory (Bar Harbor, Maine, United States), except the BA strain (Stanford Veterinary Services Center, Stanford, California, United States), Hoxb6-Cre transgenic mice (kindly provided by M. Kuehn of the National Institutes of Health, Bethesda, Maryland, United States), mice carrying the R26R lacZ reporter allele (kindly provided by P. Soriano, Fred Hutchinson Cancer Research Center, Seattle, Washington, United States), and C57BL/6J (B6) ae/ae mice (kindly provided by L. Siracusa, Jefferson Medical College, Philadelphia, Pennsylvania, United States). The deH mutation arose in the 1960s in Harwell, probably on the BN strain background (C. Beechey, personal communication). We obtained deH on a B6/EiC3H background, introduced the at allele from the BTBR strain, and have maintained the line as a mixed deH/+ × deH/+ intercross stock with periodic outcrossing to BTBR or B6. For timed matings, the morning of the plug was considered E0.5. Postnatally, the day of birth was considered to be P0.5.
+
+Phenotypic analysis
+
+For measurements of hair length and color, the entire interlimb region of skin was first dissected with a single incision at the dorsal midline and preserved with powdered sodium bicarbonate. Slices 2–2.5 mm in width were then prepared parallel to the dorsoventral axis, hair length boundaries determined from electronic images with Adobe Photoshop (San Jose, California, United States), and measurements obtained using ImageJ (National Institutes of Health). This approach samples awls and auchenes, because they are much thicker and therefore visually more predominant than zigzag underhairs. To assess dorsoventral variation in hair-type distribution, several hundred hairs were plucked from the middorsum or midventrum of 8-wk-old male BA strain animals, then sorted and categorized using a dissection microscope. No attempt was made to distinguish between awls and auchenes.
+
+For skin histology, 12 ?m sections from paraffin-embedded tissue were stained with hematoxylin and eosin. For DOPA staining, the dermis and epidermis were split after 3 h of incubation in 2 M sodium bromide at 37°C (this preparation causes most hair follicles to remain with the dermis), individually fixed for 1 h, then rinsed and stained with 0.1% L-DOPA (Sigma, St. Louis, Missouri, United States), 0.1 M sodium phosphate buffer (pH 6.8) for 5 h at 37°C in the dark, changing the staining solution after 1 h. The samples were then fixed overnight, dehydrated, and mounted. This method is sufficient to stain interfollicular melanocytes without creating a high background. The fixative used was always 4% paraformaldehyde.
+
+Positional cloning
+
+A high-resolution map for deH was generated from an intersubspecific intercross between deH/deH and CAST/Ei mice. We initially localized deH to a 1 cM interval between D3Mit233 and D3Mit11. F2 animals carrying recombinant chromosomes between these markers whose genotype at de was indeterminate (deH/+ or +/+) were progeny-tested by crossing to deH/deH animals. Further genetic mapping established a minimal region of 0.1 cM between D3Mit213 and 16.MMHAP32FLF1; these markers were used to initiate construction of a physical map with BAC genomic clones (Research Genetics, Huntsville, Alabama, United States, and Genome Systems, St. Louis, Missouri, United States). End sequence from those BACs was used to develop SSCP markers M1 to M3, as depicted in Figure 3, and to establish a minimal physical interval of 1.4 Mb. Primer pairs used were TTCCCTCCAATAAGTTCTGGGTACC and AAGCTTGCTGCTCTGGATTCCATTTGTAG for M1, CCTTCATTTTTTTTTCAAGTAAAA and AAGCTTGGCTTAGTCCCAGTGGC for M2, CCTCCAGGAAGATCTACTAGGCAC and ATGGAAAAAAAAAAGTAAGATTGAAAG for M3, and TGGTTATCGATCTGTGGACCATTC and AAGTGAGAGAGCAGGATGGACCAC for M4 (the M4 marker represents STS 16.MMHAP32FLF1). Genomic sequence and annotations were obtained from the UCSC Genome Browser February 2003 assembly version mm3 (http://genome.ucsc.edu); the 1.4 Mb interval between M1 and M4 contains eight genes: four hydroxysteroid dehydrogenase isomerases, Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1; an hydroacid oxidase, Hao3; a tryptophanyl-tRNA synthetase, Wars2; a T-box gene, Tbx15; and a novel gene, 4931427F14Rik. In the genome sequence, M1 primers correspond to AGGCCTCCAATAAGTTCTGGGTACC and AAGCTTGCTCTCTGGATTCCATTTGTAG, the M2 reverse primer corresponds to AAGCTTGGCTTTAGTCCCAGTGGGC, and the M3 primers correspond to CCTCCAGGAAGAATCTACTAGGCAC and AATGAAAAAAAAAAAAGTAAGATTGAAAG. Minor differences among the sequences of the primers we obtained from the BAC ends and the public genome sequence may represent strain differences or sequencing errors on the BAC DNA.
+
+A multiplex genotyping assay was developed to genotype for the deH deletion using primers GGAGCAGATCCAATTGCTTT, TCCATAGCCCATCTTCACAA, and CATGTCCACTTCTGCTTCCA. This PCR assay produces a 392 bp product from the deH chromosome and a 595 bp product from the nonmutant chromosome.
+
+Gene targeting
+
+A targeted allele of Tbx15 was constructed using the same approach described in Russ et al. (2000). In brief, an IRES-LacZ-neo cassette with 5? and 3? homology arms of 3.5 kb and 1.8 kb was inserted into a unique BamHI site that lies 479 nucleotides downstream of the transcriptional initiation site (relative to the mRNA sequence) in exon 3. Positive ES clones were injected into B6 blastocysts, and chimeric founders crossed to either B6 mice or to deH/+ animals.
+
+In situ hybridization
+
+In situ hybridization was carried out on 12-?m paraffin sections using digoxigenin-labeled RNA probes (Roche Diagnostics, Indianapolis, Indiana, United States) according to standard protocols (Wilkinson and Nieto 1993). Embryos and postnatal skin samples were obtained from intercrosses of deH/+ mice. Embryos E13.5 or younger were fixed for 24 h; those older than E13.5 and postnatal skin were fixed for 36–48 h prior to embedding. The Tbx15 probe was generated by RT–PCR using primers GGCGGCTAAAATGAGTGAAC and TGCCTGCTTTGGTGATGAT (corresponds to exons 1 and 2), and the En1 probe was generated by PCR from genomic DNA using primers ACGCACCAGGAAGCTAAAGA and AGCAACGAAAACGAAACTGG (located in the last exon). The Agouti probe corresponds to the protein-coding sequence.
+
+Embryonic skin transplantation
+
+(BTBR-at/at × B6-a/a)F1 embryos at E12.5 were dissected in sterile Tyrode's solution, and embryonic skin was divided into dorsal, flank, and ventral pieces, each 1–2 mm2 in size, as shown in Figure 7. Skin fragments were grafted to the testes of congenic animals as follows. After anesthetization with 2.5% Avertin, a 1.5-cm incision in the skin and body wall was made at a point level with the top of the limbs. The fat pads were pulled out and laid on the outside of the body, exposing the testes. Forceps were used to introduce a small hole in the testis capsule through which a piece of dissected embryonic skin was inserted, the testes were then replaced into the abdominal cavity, and the wound was closed in both the body wall and the skin. After 21 days, mice that received grafts were sacrificed and the resulting hair was dissected from the testes and examined.
+
+Fate-mapping the lateral somitic frontier
+
+The Hoxb6-Cre transgene described by Kuehn and colleagues (Lowe et al. 2000) is expressed in the lateral plate but not the somitic mesoderm of the trunk, beginning at E9.5. Animals doubly heterozygous for this transgene and the R26R reporter gene were used as a source of whole skin at P1.5 or P4.5. Skin sections parallel to the dorsoventral axis were prepared with a single incision along the ventral midline and stained for ?-galactosidase activity using standard protocols at room temperature. The P1.5 sample was stained overnight and the P4.5 samples were stained for 5.5 h. Similar nonstained skin sections were prepared from animals carrying the at allele. Images of the different skin fragments were aligned and scaled, and the relative position of the somite–lateral plate and the pigmentation boundaries were measured using ImageJ.
+T510	italic 46876 46885	Hoxb6-Cre
+T511	italic 47023 47032	R26R lacZ
+T512	italic 47176 47181	ae/ae
+T513	sup 47177 47178	e
+T514	sup 47180 47181	e
+T515	italic 47295 47298	deH
+T516	sup 47297 47298	H
+T517	italic 47426 47429	deH
+T518	sup 47428 47429	H
+T519	italic 47471 47473	at
+T520	sup 47472 47473	t
+T521	italic 47543 47546	deH
+T522	sup 47545 47546	H
+T523	italic 47551 47554	deH
+T524	sup 47553 47554	H
+T525	italic 49411 49414	deH
+T526	sup 49413 49414	H
+T527	italic 49473 49476	deH
+T528	sup 49475 49476	H
+T529	italic 49477 49480	deH
+T530	sup 49479 49480	H
+T531	italic 49522 49525	deH
+T532	sup 49524 49525	H
+T533	sub 49576 49577	2
+T534	italic 49659 49661	de
+T535	italic 49681 49684	deH
+T536	sup 49683 49684	H
+T537	italic 49730 49733	deH
+T538	sup 49732 49733	H
+T539	italic 49734 49737	deH
+T540	sup 49736 49737	H
+T541	italic 50776 50790	Hsd3b3, Hsd3b2
+T542	italic 50792 50798	Hsd3b6
+T543	italic 50804 50810	Hsd3b1
+T544	italic 50834 50838	Hao3
+T545	italic 50872 50877	Wars2
+T546	italic 50893 50898	Tbx15
+T547	italic 50918 50931	4931427F14Rik
+T548	italic 51448 51451	deH
+T549	sup 51450 51451	H
+T550	italic 51595 51598	deH
+T551	sup 51597 51598	H
+T552	italic 51700 51705	Tbx15
+T553	italic 51792 51805	IRES-LacZ-neo
+T554	italic 52130 52133	deH
+T555	sup 52132 52133	H
+T556	italic 52459 52462	deH
+T557	sup 52461 52462	H
+T558	italic 52463 52464	+
+T559	italic 52606 52611	Tbx15
+T560	italic 52741 52744	En1
+T561	italic 52881 52887	Agouti
+T562	italic 52977 52979	at
+T563	sup 52978 52979	t
+T564	italic 52980 52982	at
+T565	sup 52981 52982	t
+T566	italic 52988 52989	a
+T567	italic 52990 52991	a
+T568	sub 52993 52994	1
+T569	sup 53139 53140	2
+T570	italic 53891 53900	Hoxb6-Cre
+T571	italic 54115 54119	R26R
+T572	italic 54541 54543	at
+T573	sup 54542 54543	t
+T574	section 54731 55306	Supporting Information
+
+The GenBank (http://www.ncbi.nlm.nih.gov/Genbank/index.html) accession numbers discussed in this paper are for 4931427F14Rik (AK016477), Agouti gene (L06451), Alx3 (U96109), Alx4 (AF001465), En1(L12703), M6pr-ps (X64069), Tbx14 (AF013282), Tbx15 (AF041822), Tbx18 (AF306666), and Tbx22 (NM_145224).
+
+The OMIM (http://www.ncbi.nlm.nih.gov/omim/) accession numbers discussed in this paper are for acromegaloid facial appearance (MIM 102150), frontofacionasal syndrome (MIM 229400) and human syndrome X-linked cleft palate and ankyloglossia (MIM 303400).
+T575	italic 54866 54879	4931427F14Rik
+T576	italic 54892 54898	Agouti
+T577	italic 54914 54918	Alx3
+T578	italic 54929 54933	Alx4
+T579	italic 54946 54949	En1
+T580	italic 54959 54966	M6pr-ps
+T581	italic 54977 54982	Tbx14
+T582	italic 54995 55000	Tbx15
+T583	italic 55013 55018	Tbx18
+T584	italic 55035 55040	Tbx22
+T585	section 55308 55906	Acknowledgements
+
+We thank Colin Beechey and Bruce Cattanach for providing information about the origin of deH, Cindy Loomis for communicating unpublished results, and Michael Kuehn for providing Hoxb6-Cre transgenic mice. We are especially grateful to Hirotake Ono for discussion, to Hermie Manuel and to Carla Kroon-Veenboer for technical help, and to David Kingsley for first drawing our attention to the effects of droopy ear on pigmentation. SIC is supported by a grant from The Donald E. and Delia B. Baxter Foundation. GSB is an associate investigator of the Howard Hughes Medical Institute.
+T586	italic 55415 55418	deH
+T587	sup 55417 55418	H
+T588	italic 55504 55513	Hoxb6-Cre
+T589	italic 55727 55737	droopy ear
+T590	section 55908 56303	Abbreviations
+
+ae - extreme nonagouti allele
+
+AFA - acromegaloid facial appearance
+
+at - black-and-tan allele
+
+AW - white-bellied Agouti allele
+
+B6 - C57BL/6J mice
+
+BAC - bacterial artificial chromosome
+
+deH - droopy ear allele that arose in Harwell
+
+E10.5 - embryonic day 10.5
+
+En1 - Engrailed1
+
+M6pr-ps - mannose-6-phosphate receptor pseudogene
+
+P4.5 - postnatal day 4.5
+
+Tbx15 - T-box gene 15
+T591	section 56305 64649	Figures and Tables
+
+Figure 1
+
+Dorsoventral Skin Characteristics
+
+(A) Skin slices from animals of different age and genotype demonstrate similar patterns of hair-length variation along the dorsoventral axis (scale bar = 1 cm).
+
+(B) Enlarged area from (A), demonstrating the transition in hair length and color in at/at mice (scale bar = 0.375 cm).
+
+(C) Proportional hair length for (A) plotted as a function of relative position along the dorsoventral axis.
+
+(D) Hair length plotted as a function of absolute position along the dorsoventral axis for 8-wk-old BA strain mice.
+
+(E) Proportion of zigzag hairs (± SEM) differs slightly between dorsum and ventrum of inbred mice (p < 0.0001, ?2 test, n = 1,958, 1,477, 1,579, 1,502).
+
+(F) Differences in dorsal and ventral skin development at P4.5 (scale bar = 1 mm, upper; 200 ?m, lower).
+
+(G) Differences in hair melanin content and DOPA staining for dorsum (d), flank (f), and ventrum (v) in ae/ae and at/at mice. The upper panel also demonstrates a cream-colored appearance of the at/at ventrum. The middle panel shows representative awls (scale bar = 100 ?m). The lower panel shows DOPA-stained dermis (scale bar = 200 ?m).
+
+Figure 2
+
+The deH Pigmentation Phenotype
+
+(A) 10-wk-old deH/deH and nonmutant animals on a at background. A thin stripe of yellow hair normally separates the dorsal black hairs from the ventral cream hairs. In deH, the yellow stripe is extended dorsally, and the boundary between the yellow and the black hairs is fuzzier.
+
+(B) Skin slices taken from 1.5-mo-old deH/deH and nonmutant littermates (scale bar = 0.5 cm).
+
+(C) Proportion of total skin area as determined by observation of pelts taken from the interlimb region. The proportion occupied by the yellow lateral compartment (± SEM) differs between mutant and nonmutant littermate flanks (p < 0.0005, paired t-test, n = 6 pairs). There is also (data not shown) a small increase in the proportion of total skin area occupied by the ventral cream-colored compartment, 47.9 % in mutant compared to 37.8% in nonmutant (p < 0.005, paired t-test, n = 6 pairs).
+
+(D) On an ae/ae background, the extent of dorsal skin pigmentation is reduced in deH/deH neonates (P3.5).
+
+(E) Hair length in a representative pair of 1.5-mo-old deH/deH and nonmutant littermates, averaged over three skin slices at different rostrocaudal levels, and plotted as a function of the absolute distance from middorsum or the percentage of total slice length.
+
+Figure 3
+
+Molecular Genetics of deH and Tbx15
+
+(A) Genetic and physical map, as described in the text. Markers M1 to M3 are SSCP markers generated from a BAC contig of the region; marker M4 is STS 16.MMHAP32FLF1 and was also used as an SSCP marker. M2 and M3, which flank the Tbx15 and M6pr-ps on the UCSC genome browser map and lie 634 kb apart, were nonrecombinant with deH in 2340 meioses.
+
+(B) The deH mutation is a deletion that starts in Tbx15 intron 1 and ends in the M6pr-ps.
+
+(C) Sequence of deletion breakpoints.
+
+(D) Diagram of Tbx15LacZ allele constructed by gene targeting. As described in the text, this allele is predicted to give rise to a protein truncated after approximately 154 codons and is lacking critical residues of the T box. Heterozygotes for the targeted allele exhibit normal size, morphology, and hair-color patterns, but homozygotes and Tbx15LacZ/deH compound heterozygotes are identical to deH homozygotes.
+
+Figure 4
+
+Developmental Expression of Tbx15
+
+(A) At E12.5, transverse sections at different levels show expression in head mesenchyme (a and b); myotome, occipital, and periocular mesenchyme (b); palatal shelf, cervical sclerotome, and nasal cartilage (c); maxillary and mandibular processes (d); limbs (e); and myotome and lateral mesenchyme (e and f) (scale bars = 500 ?m).
+
+(B) Transverse sections through the flank at different times show expression in lateral mesenchyme (E11.5), expanding dorsally at E12.5, and both ventrally and dorsally at E13.5, detectable in loose mesenchyme underlying the dermis and the abdominal and subcutaneous muscles (scale bar = 500 ?m). At P3.5, Tbx15 is expressed in the entire dermis and is most strongly expressed in dermal sheaths (scale bar = 200 ?m).
+
+Figure 5
+
+Embryonic Expression of Tbx15 Compared to Agouti in at/at Mice
+
+(A and C) Tbx15. (B and D) Agouti. At E12.5, expression of Tbx15 in dorsal skin is approximately complementary to that of Agouti in ventral skin. At E14.5, the levels of expression for both genes are lower, but Tbx15 expression has expanded ventrally and overlaps extensively with that of Agouti. In all four panels, arrows mark the approximate ventral limit of Tbx15 and the approximate dorsal limit of Agouti (scale bars = 500 ?m).
+
+Figure 6
+
+Effect of deH on Agouti Expression
+
+Comparable sections from at/at; deH/deH and at/at; +/+ littermates.
+
+(A) At E14.5, deH/deH embryos have a smaller body cavity and loose skin within which Agouti expression appears to be shifted dorsally, as marked by arrows (scale bars = 500 ?m).
+
+(B) At P4.5, Agouti expression in both dorsal and ventral skin is similar in deH/deH compared to nonmutant, but in the midflank region, there is increased Agouti expression in deH/deH, especially in the upper dermis (scale bars = 200 ?m). Sections shown are representative of two mutant and two nonmutant samples examined at each time.
+
+Figure 7
+
+Embryonic Establishment of Dorsoventral Skin Patterning
+
+Pieces of skin from dorsal, flank, and ventral regions of at/a E12.5 embryos were transplanted into the testes of congenic animals as described in the text. Hair color of the grafts was examined 3 wk later. Grafts of ventral embryonic skin (n = 3) produced yellow hairs, dorsal embryonic skin (n = 4) produced black hairs, and flank embryonic skin produced mostly (13 out of 15) black and yellow hairs in distinct regions as shown. In parallel, in situ hybridization studies revealed that the embryonic flank contains the boundary of expression between Agouti and Tbx15 (scale bars = 1 mm for hairs and 200 ?m for in situ hybridization results).
+
+Figure 8
+
+Comparison of the Dorsoventral at/at Pigmentation Boundary to the Lateral Somitic Frontier
+
+(A) Dorsoventral slices of skin from at the midtrunk region prepared such that the dorsal midline lies in the center of the slice. Sections were taken at P1.5 (a) or P4.5 (b–e) from at/at or R26R/+; Tg.Hoxb6-Cre/+ mice (the latter were stained with X-Gal), as described in Materials and Methods. For purposes of comparison, images were proportionally scaled. The boundary of X-Gal staining marks dermis derived from lateral plate versus dermis derived from mesoderm (the lateral somitic frontier) and lies more dorsal than the at/at pigmentation boundary.
+
+(B) Quantitation of mean (± SEM) dorsal pigmentation area (n = 5) and somite-derived dermis area (n = 3) shows a significant difference (p < 0.005, t-test).
+
+(C) RNA in situ hybridization showing that Tbx15 expression at E11.5 is complementary to En1 expression on the flank (scale bars = 200 ?m). The arrow indicates the boundary between the expression domains of the two genes.
+
+Figure 9
+
+Model for Acquisition of Dorsoventral Patterning in the Trunk and the Role of Tbx15
+
+(A) A tricolor pigmentation pattern is generated by the combination of distinct mechanisms that affect distribution of Agouti mRNA and histochemical staining for melanocytes; effects of the latter mechanism by itself are evident in ae/ae mice (see Figure 1). In at/at mice, reduced hair melanocyte activity and high levels of Agouti mRNA in the ventrum lead to a cream color; as melanocyte activity gradually increases towards the dorsum, a lateral stripe is apparent on the flank. The distributions of Agouti mRNA and histochemical staining for melanocytes are both affected by Tbx15 and are externally evident by a widening of the lateral stripe and an increased proportion of total skin occupied by the cream-colored area.
+
+(B) The lateral yellow stripe in at/at mice lies at the same level as the limb dorsoventral boundary. As described in the text, we propose that distinct dorsoventral compartments in ectoderm of the trunk provide an instructional cue to the mesoderm, leading to expression of Tbx15 in dorsal trunk mesenchyme and acquisition of dorsal dermis character. In the absence of Tbx15, dorsal mesenchyme assumes ventral characteristics instead.
+T592	section 56325 57477	Figure 1
+
+Dorsoventral Skin Characteristics
+
+(A) Skin slices from animals of different age and genotype demonstrate similar patterns of hair-length variation along the dorsoventral axis (scale bar = 1 cm).
+
+(B) Enlarged area from (A), demonstrating the transition in hair length and color in at/at mice (scale bar = 0.375 cm).
+
+(C) Proportional hair length for (A) plotted as a function of relative position along the dorsoventral axis.
+
+(D) Hair length plotted as a function of absolute position along the dorsoventral axis for 8-wk-old BA strain mice.
+
+(E) Proportion of zigzag hairs (± SEM) differs slightly between dorsum and ventrum of inbred mice (p < 0.0001, ?2 test, n = 1,958, 1,477, 1,579, 1,502).
+
+(F) Differences in dorsal and ventral skin development at P4.5 (scale bar = 1 mm, upper; 200 ?m, lower).
+
+(G) Differences in hair melanin content and DOPA staining for dorsum (d), flank (f), and ventrum (v) in ae/ae and at/at mice. The upper panel also demonstrates a cream-colored appearance of the at/at ventrum. The middle panel shows representative awls (scale bar = 100 ?m). The lower panel shows DOPA-stained dermis (scale bar = 200 ?m).
+T593	italic 56617 56619	at
+T594	sup 56618 56619	t
+T595	italic 56620 56622	at
+T596	sup 56621 56622	t
+T597	italic 56979 56980	p
+T598	sup 56992 56993	2
+T599	italic 57000 57001	n
+T600	italic 57244 57246	ae
+T601	sup 57245 57246	e
+T602	italic 57247 57249	ae
+T603	sup 57248 57249	e
+T604	italic 57254 57256	at
+T605	sup 57255 57256	t
+T606	italic 57257 57259	at
+T607	sup 57258 57259	t
+T608	italic 57334 57336	at
+T609	sup 57335 57336	t
+T610	italic 57337 57339	at
+T611	sup 57338 57339	t
+T612	section 57479 58761	Figure 2
+
+The deH Pigmentation Phenotype
+
+(A) 10-wk-old deH/deH and nonmutant animals on a at background. A thin stripe of yellow hair normally separates the dorsal black hairs from the ventral cream hairs. In deH, the yellow stripe is extended dorsally, and the boundary between the yellow and the black hairs is fuzzier.
+
+(B) Skin slices taken from 1.5-mo-old deH/deH and nonmutant littermates (scale bar = 0.5 cm).
+
+(C) Proportion of total skin area as determined by observation of pelts taken from the interlimb region. The proportion occupied by the yellow lateral compartment (± SEM) differs between mutant and nonmutant littermate flanks (p < 0.0005, paired t-test, n = 6 pairs). There is also (data not shown) a small increase in the proportion of total skin area occupied by the ventral cream-colored compartment, 47.9 % in mutant compared to 37.8% in nonmutant (p < 0.005, paired t-test, n = 6 pairs).
+
+(D) On an ae/ae background, the extent of dorsal skin pigmentation is reduced in deH/deH neonates (P3.5).
+
+(E) Hair length in a representative pair of 1.5-mo-old deH/deH and nonmutant littermates, averaged over three skin slices at different rostrocaudal levels, and plotted as a function of the absolute distance from middorsum or the percentage of total slice length.
+T613	italic 57493 57496	deH
+T614	sup 57495 57496	H
+T615	italic 57535 57542	deH/deH
+T616	sup 57537 57538	H
+T617	sup 57541 57542	H
+T618	italic 57570 57572	at
+T619	sup 57571 57572	t
+T620	italic 57689 57692	deH
+T621	sup 57691 57692	H
+T622	italic 57841 57848	deH/deH
+T623	sup 57843 57844	H
+T624	sup 57847 57848	H
+T625	italic 58125 58126	p
+T626	italic 58144 58145	t
+T627	italic 58152 58153	n
+T628	italic 58351 58352	p
+T629	italic 58369 58370	t
+T630	italic 58377 58378	n
+T631	italic 58402 58407	ae/ae
+T632	sup 58403 58404	e
+T633	sup 58406 58407	e
+T634	italic 58473 58480	deH/deH
+T635	sup 58475 58476	H
+T636	sup 58479 58480	H
+T637	italic 58554 58561	deH/deH
+T638	sup 58556 58557	H
+T639	sup 58560 58561	H
+T640	section 58763 59701	Figure 3
+
+Molecular Genetics of deH and Tbx15
+
+(A) Genetic and physical map, as described in the text. Markers M1 to M3 are SSCP markers generated from a BAC contig of the region; marker M4 is STS 16.MMHAP32FLF1 and was also used as an SSCP marker. M2 and M3, which flank the Tbx15 and M6pr-ps on the UCSC genome browser map and lie 634 kb apart, were nonrecombinant with deH in 2340 meioses.
+
+(B) The deH mutation is a deletion that starts in Tbx15 intron 1 and ends in the M6pr-ps.
+
+(C) Sequence of deletion breakpoints.
+
+(D) Diagram of Tbx15LacZ allele constructed by gene targeting. As described in the text, this allele is predicted to give rise to a protein truncated after approximately 154 codons and is lacking critical residues of the T box. Heterozygotes for the targeted allele exhibit normal size, morphology, and hair-color patterns, but homozygotes and Tbx15LacZ/deH compound heterozygotes are identical to deH homozygotes.
+T641	italic 58795 58798	deH
+T642	sup 58797 58798	H
+T643	italic 58803 58808	Tbx15
+T644	italic 59039 59044	Tbx15
+T645	italic 59049 59056	M6pr-ps
+T646	italic 59135 59138	deH
+T647	sup 59137 59138	H
+T648	italic 59165 59168	deH
+T649	sup 59167 59168	H
+T650	italic 59207 59212	Tbx15
+T651	italic 59238 59245	M6pr-ps
+T652	italic 59302 59311	Tbx15LacZ
+T653	sup 59307 59311	LacZ
+T654	italic 59631 59640	Tbx15LacZ
+T655	sup 59636 59640	LacZ
+T656	italic 59641 59644	deH
+T657	sup 59643 59644	H
+T658	italic 59685 59688	deH
+T659	sup 59687 59688	H
+T660	section 59703 60496	Figure 4
+
+Developmental Expression of Tbx15
+
+(A) At E12.5, transverse sections at different levels show expression in head mesenchyme (a and b); myotome, occipital, and periocular mesenchyme (b); palatal shelf, cervical sclerotome, and nasal cartilage (c); maxillary and mandibular processes (d); limbs (e); and myotome and lateral mesenchyme (e and f) (scale bars = 500 ?m).
+
+(B) Transverse sections through the flank at different times show expression in lateral mesenchyme (E11.5), expanding dorsally at E12.5, and both ventrally and dorsally at E13.5, detectable in loose mesenchyme underlying the dermis and the abdominal and subcutaneous muscles (scale bar = 500 ?m). At P3.5, Tbx15 is expressed in the entire dermis and is most strongly expressed in dermal sheaths (scale bar = 200 ?m).
+T661	italic 59741 59746	Tbx15
+T662	italic 60386 60391	Tbx15
+T663	section 60498 61005	Figure 5
+
+Embryonic Expression of Tbx15 Compared to Agouti in at/at Mice
+
+(A and C) Tbx15. (B and D) Agouti. At E12.5, expression of Tbx15 in dorsal skin is approximately complementary to that of Agouti in ventral skin. At E14.5, the levels of expression for both genes are lower, but Tbx15 expression has expanded ventrally and overlaps extensively with that of Agouti. In all four panels, arrows mark the approximate ventral limit of Tbx15 and the approximate dorsal limit of Agouti (scale bars = 500 ?m).
+T664	italic 60532 60537	Tbx15
+T665	italic 60550 60556	Agouti
+T666	italic 60560 60562	at
+T667	sup 60561 60562	t
+T668	italic 60563 60565	at
+T669	sup 60564 60565	t
+T670	italic 60582 60587	Tbx15
+T671	italic 60599 60605	Agouti
+T672	italic 60631 60636	Tbx15
+T673	italic 60694 60700	Agouti
+T674	italic 60783 60788	Tbx15
+T675	italic 60861 60867	Agouti
+T676	italic 60934 60939	Tbx15
+T677	italic 60976 60982	Agouti
+T678	section 61007 61636	Figure 6
+
+Effect of deH on Agouti Expression
+
+Comparable sections from at/at; deH/deH and at/at; +/+ littermates.
+
+(A) At E14.5, deH/deH embryos have a smaller body cavity and loose skin within which Agouti expression appears to be shifted dorsally, as marked by arrows (scale bars = 500 ?m).
+
+(B) At P4.5, Agouti expression in both dorsal and ventral skin is similar in deH/deH compared to nonmutant, but in the midflank region, there is increased Agouti expression in deH/deH, especially in the upper dermis (scale bars = 200 ?m). Sections shown are representative of two mutant and two nonmutant samples examined at each time.
+T679	italic 61027 61030	deH
+T680	sup 61029 61030	H
+T681	italic 61034 61040	Agouti
+T682	italic 61078 61083	at/at
+T683	sup 61079 61080	t
+T684	sup 61082 61083	t
+T685	italic 61085 61088	deH
+T686	sup 61087 61088	H
+T687	italic 61089 61092	deH
+T688	sup 61091 61092	H
+T689	italic 61097 61102	at/at
+T690	sup 61098 61099	t
+T691	sup 61101 61102	t
+T692	italic 61136 61139	deH
+T693	sup 61138 61139	H
+T694	italic 61140 61143	deH
+T695	sup 61142 61143	H
+T696	italic 61207 61213	Agouti
+T697	italic 61314 61320	Agouti
+T698	italic 61378 61381	deH
+T699	sup 61380 61381	H
+T700	italic 61382 61385	deH
+T701	sup 61384 61385	H
+T702	italic 61456 61462	Agouti
+T703	italic 61477 61480	deH
+T704	sup 61479 61480	H
+T705	italic 61481 61484	deH
+T706	sup 61483 61484	H
+T707	section 61638 62350	Figure 7
+
+Embryonic Establishment of Dorsoventral Skin Patterning
+
+Pieces of skin from dorsal, flank, and ventral regions of at/a E12.5 embryos were transplanted into the testes of congenic animals as described in the text. Hair color of the grafts was examined 3 wk later. Grafts of ventral embryonic skin (n = 3) produced yellow hairs, dorsal embryonic skin (n = 4) produced black hairs, and flank embryonic skin produced mostly (13 out of 15) black and yellow hairs in distinct regions as shown. In parallel, in situ hybridization studies revealed that the embryonic flank contains the boundary of expression between Agouti and Tbx15 (scale bars = 1 mm for hairs and 200 ?m for in situ hybridization results).
+T708	italic 61763 61767	at/a
+T709	sup 61764 61765	t
+T710	italic 61946 61947	n
+T711	italic 61999 62000	n
+T712	italic 62258 62264	Agouti
+T713	italic 62269 62274	Tbx15
+T714	section 62352 63390	Figure 8
+
+Comparison of the Dorsoventral at/at Pigmentation Boundary to the Lateral Somitic Frontier
+
+(A) Dorsoventral slices of skin from at the midtrunk region prepared such that the dorsal midline lies in the center of the slice. Sections were taken at P1.5 (a) or P4.5 (b–e) from at/at or R26R/+; Tg.Hoxb6-Cre/+ mice (the latter were stained with X-Gal), as described in Materials and Methods. For purposes of comparison, images were proportionally scaled. The boundary of X-Gal staining marks dermis derived from lateral plate versus dermis derived from mesoderm (the lateral somitic frontier) and lies more dorsal than the at/at pigmentation boundary.
+
+(B) Quantitation of mean (± SEM) dorsal pigmentation area (n = 5) and somite-derived dermis area (n = 3) shows a significant difference (p < 0.005, t-test).
+
+(C) RNA in situ hybridization showing that Tbx15 expression at E11.5 is complementary to En1 expression on the flank (scale bars = 200 ?m). The arrow indicates the boundary between the expression domains of the two genes.
+T715	italic 62393 62398	at/at
+T716	sup 62394 62395	t
+T717	sup 62397 62398	t
+T718	italic 62636 62641	at/at
+T719	sup 62637 62638	t
+T720	sup 62640 62641	t
+T721	italic 62645 62649	R26R
+T722	italic 62653 62665	Tg.Hoxb6-Cre
+T723	italic 62981 62986	at/at
+T724	sup 62982 62983	t
+T725	sup 62985 62986	t
+T726	italic 63070 63071	n
+T727	italic 63109 63110	n
+T728	italic 63148 63149	p
+T729	italic 63159 63160	t
+T730	italic 63212 63217	Tbx15
+T731	italic 63258 63261	En1
+T732	section 63392 64649	Figure 9
+
+Model for Acquisition of Dorsoventral Patterning in the Trunk and the Role of Tbx15
+
+(A) A tricolor pigmentation pattern is generated by the combination of distinct mechanisms that affect distribution of Agouti mRNA and histochemical staining for melanocytes; effects of the latter mechanism by itself are evident in ae/ae mice (see Figure 1). In at/at mice, reduced hair melanocyte activity and high levels of Agouti mRNA in the ventrum lead to a cream color; as melanocyte activity gradually increases towards the dorsum, a lateral stripe is apparent on the flank. The distributions of Agouti mRNA and histochemical staining for melanocytes are both affected by Tbx15 and are externally evident by a widening of the lateral stripe and an increased proportion of total skin occupied by the cream-colored area.
+
+(B) The lateral yellow stripe in at/at mice lies at the same level as the limb dorsoventral boundary. As described in the text, we propose that distinct dorsoventral compartments in ectoderm of the trunk provide an instructional cue to the mesoderm, leading to expression of Tbx15 in dorsal trunk mesenchyme and acquisition of dorsal dermis character. In the absence of Tbx15, dorsal mesenchyme assumes ventral characteristics instead.
+T733	italic 63480 63485	Tbx15
+T734	italic 63606 63612	Agouti
+T735	italic 63719 63721	ae
+T736	sup 63720 63721	e
+T737	italic 63722 63724	ae
+T738	sup 63723 63724	e
+T739	italic 63749 63754	at/at
+T740	sup 63750 63751	t
+T741	sup 63753 63754	t
+T742	italic 63813 63819	Agouti
+T743	italic 63990 63996	Agouti
+T744	italic 64066 64071	Tbx15
+T745	italic 64247 64252	at/at
+T746	sup 64248 64249	t
+T747	sup 64251 64252	t
+T748	italic 64489 64494	Tbx15
+T749	italic 64584 64589	Tbx15
+T750	section 64651 65075	Footnotes
+
+Conflicts of interest. The authors have declared that no conflicts of interest exist.
+
+Author contributions. SIC and GSB conceived and designed the experiments. SIC, CDVR, CC, AR, and SK performed the experiments. SIC, CDVR, CC, SK, and FM analyzed the data. YC and AR contributed reagents/materials/analysis tools. SIC and GSB wrote the paper.
+
+Academic Editor: Brigid L. M. Hogan, Duke University Medical Center
+T751	bold 64662 64684	Conflicts of interest.
+T752	bold 64749 64770	Author contributions.

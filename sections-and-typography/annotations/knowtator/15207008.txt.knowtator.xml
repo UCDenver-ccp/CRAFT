@@ -1,0 +1,3142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="15207008.txt">
+  <annotation>
+    <mention id="formatting_Instance_17158" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="0" end="132" />
+    <spannedText>Structure-function evolution of the Transforming acidic coiled coil genes revealed by analysis of phylogenetically diverse organisms</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17161" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="134" end="2057" />
+    <spannedText>Abstract
+
+Background
+
+Examination of ancient gene families can provide an insight into how the evolution of gene structure can relate to function. Functional homologs of the evolutionarily conserved transforming acidic coiled coil (TACC) gene family are present in organisms from yeast to man. However, correlations between functional interactions and the evolution of these proteins have yet to be determined.
+
+Results
+
+We have performed an extensive database analysis to determine the genomic and cDNA sequences of the TACCs from phylogenetically diverse organisms. This analysis has determined the phylogenetic relationship of the TACC proteins to other coiled coil proteins, the resolution of the placement of the rabbit TACC4 as the orthologue of human TACC3, and RHAMM as a distinct family of coiled coil proteins. We have also extended the analysis of the TACCs to the interaction databases of C. elegans and D. melanogaster to identify potentially novel TACC interactions. The validity of this modeling was confirmed independently by the demonstration of direct binding of human TACC2 to the nuclear hormone receptor RXRβ.
+
+Conclusion
+
+The data so far suggest that the ancestral TACC protein played a role in centrosomal/mitotic spindle dynamics. TACC proteins were then recruited to complexes involved in protein translation, RNA processing and transcription by interactions with specific bridging proteins. However, during evolution, the TACC proteins have now acquired the ability to directly interact with components of these complexes (such as the LSm proteins, nuclear hormone receptors, GAS41, and transcription factors). This suggests that the function of the TACC proteins may have evolved from performing assembly or coordination functions in the centrosome to include a more intimate role in the functional evolution of chromatin remodeling, transcriptional and posttranscriptional complexes in the cell.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17164" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="366" end="370" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17166" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1035" end="1045" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17168" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1050" end="1065" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17170" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="2059" end="4895" />
+    <spannedText>Background
+
+The evolution of complex organisms has been associated with the generation of gene families by the continual duplication of an initial relatively small set of ancestral genes. Through this process, followed by subsequent mutation, reduplication and exon shuffling between gene families, genes have evolved both discrete, and partially redundant functions with their related family members. With the completion of the genome sequencing projects of human, mouse, rat, fruit fly and nematodes, we are now in a position to ask fundamental questions in regard to how genes interact in the context of the whole organism. Thus, with the appropriate application of bioinformatics, it is now possible to trace the lineage of particular genes and gene families, with related gene families in other organisms. Furthermore, with the growing amount of large-scale proteomic and genomic data becoming publicly available, this analysis can now be extended to reveal the complex interplay between evolution of gene structure and protein function.
+
+The first Transforming acidic coiled coil gene, TACC1, was identified during the development of an expression map of the proximal short arm of human chromosome 8 [1]. Two additional TACC family members were subsequently identified and mapped to paralogous chromosomal regions on human chromosomes 4p16 and 10q26, physically close to members of the FGFR gene family [1-3]. This mapping data, together with identification of a single TACC gene in the protostomes Caenorhabitis elegans, and Drosophila melanogaster [4-6], led to the speculation that the ancestral FGFR and TACC genes were located physically close to each other. Thus, during the evolution of vertebrates, subsequent successive duplications of the ancestral gene cluster have given rise to three TACC family members located close to FGFR genes in humans. In accordance with the proposed quadruplication of the vertebrate genome during evolution, there is a fourth FGFR family member in vertebrates, raising the question of whether a fourth TACC gene is associated with FGFR4 in vertebrate genomes. To date, only three active TACC genes have been cloned in humans [1-3], one in each of mouse [7], Xenopus laevis [8], D. melanogaster [4], and C. elegans [5,6]. Although two additional new candidate TACC family members, Oryctolagus cuniculus TACC4 [9] and human RHAMM [10] have been proposed, their true identity and placement in the evolution of the TACC family is under debate. Thus, the identification and functional characterization of new members of the TACC family in other organisms, alternatively spliced isoforms of each TACC and comparison of the phylogenetic relationship of these genes relative to other members of the coiled coil superfamily will resolve this issue and provide clues to the evolution of TACC function.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17173" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3151" end="3156" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17175" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3285" end="3289" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17177" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3451" end="3455" />
+    <spannedText>FGFR</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17179" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3535" end="3539" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17181" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3564" end="3585" />
+    <spannedText>Caenorhabitis elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17183" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3591" end="3614" />
+    <spannedText>Drosophila melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17185" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3664" end="3668" />
+    <spannedText>FGFR</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17187" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3673" end="3677" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17189" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3862" end="3866" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17191" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3899" end="3903" />
+    <spannedText>FGFR</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17193" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4030" end="4034" />
+    <spannedText>FGFR</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17195" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4106" end="4110" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17197" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4135" end="4140" />
+    <spannedText>FGFR4</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17199" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4191" end="4195" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17201" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4262" end="4276" />
+    <spannedText>Xenopus laevis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17203" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4282" end="4297" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17205" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4307" end="4317" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17207" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4363" end="4367" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17209" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4384" end="4411" />
+    <spannedText>Oryctolagus cuniculus TACC4</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17211" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4426" end="4431" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17213" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4897" end="38816" />
+    <spannedText>Results and Discussion
+
+In silico identification of TACC family members from vertebrate and invertebrate lineages
+
+Sequence similarity searches of the publicly available genome databases with the BLAST and TBLAST programs were performed to identify TACC and RHAMM orthologues, and other members of the coiled coil superfamily in a diverse set of species (Fig. 1). This identified the complete sequence of the TACC genes in representatives of five major phylogenetically distinct clades. Where possible, the construction of the TACC sequences from these organisms was also confirmed by the analysis of the cDNA databases. Several partial sequences in other vertebrate species, the echinodermate Strongylocentrotus purpuratus and the protostome insect Anopheles gambiae were also identified, suggesting an ancient conservation of the TACC genes in metazoan lineages. However, due to the relative infancy of the cDNA/genome projects for these latter organisms, complete characterization of these TACC genes could not be undertaken. No conclusion could be made about the existence of TACC-like sequence in non-bilaterian metazoans, such as Cnidaria or Porifera, due to the paucity of sequence information for these organisms, and additional definitive sequences with a defined TACC domain could not be found in other non-metazoan organisms.
+
+Figure 1
+
+Phylogenetic analysis of the TACC family members compared to other coiled coil proteins. The phylogenetic tree was constructed as described in the Methods section. The TACC family defines a separate subfamily of coiled coil containing proteins, distinct from other coiled coil families such as the keratins, RHAMM and tropomyosins. Note that the RHAMM proteins form a separate branch more closely related to the tropomyosins and kinesin like proteins (KLP), than the TACC proteins.
+
+At the base of the chordate branch of life, a single TACC gene was identified in the genome of the urochordate Ciona intestinalis [11], and a partial TACC sequence from an analysis of the Halocynthia rortezi EST database [12]. This confirms the original assumption that a single TACC gene was present in the chordate ancestor. The next major event in the evolution of the chordate genome has been suggested to have occurred 687 ± 155.7 million years ago (MYA), with the first duplication of the chordate genome, and a second duplication occurring shortly thereafter. Thus, if the TACC genes were duplicated at both events, we would expect to identify four TACC genes in the most "primitive" compact vertebrate genome sequenced to date, the pufferfish Takifugu rubripes, with three genes corresponding to the human TACC1-3, and, in keeping with the proposed model for genomic duplication of the chromosomal loci for the TACC genes (discussed below), a possible fourth gene deriving from the TACC3 ancestor. Indeed, four TACC genes were identified in T. rubripes. Of these, two genes corresponded to the T. rubripes orthologues of human TACC2 and TACC3. However, the other two genes, trTACC1A and trTACC1B are clearly most related to TACC1 (Fig. 1). Although trTACC1A is highly homologous to trTACC1B, the latter encodes a significantly smaller predicted protein. The trTACC1B gene is encoded by 15 exons over approximately 7 kb of the Takifugu Scaffold 191 (see below). A search of this region using the trTACC1A sequence and gene prediction software has so far failed to identify additional exons of trTACC1B. However, given the intron/exon structure of this apparently complete gene, it appears likely that trTACC1B is active in the pufferfish, and presumably fulfils either a temporal-spatial specific function within the organism, or a distinct function from the larger trTACC1A product within the cell. Thus, based upon the surrounding chromosomal loci (see below), the trTACC1A and trTACC1B genes appear to have arisen from the duplication of the chromosomal segment containing the teleost TACC1 ancestor, during the additional partial genomic duplication that occurred in the teleost lineage. Therefore, this analysis of T. rubripes does not support the hypothesis that the region surrounding the TACC3 ancestor was included in the second round of vertebrate genomic duplication.
+
+Examination of higher vertebrates led to the identification of splice variants of TACC1 and TACC2 in Mus musculus, and the assembly of the previously unidentified orthologues of TACC1-3 from Rattus norvegus. In addition, the TACC1X sequence was found on mouse chromosome X. This gene is clearly related to the mouse TACC1, however, further examination revealed a mouse B1 repeat distributed over the length of the proposed intron. In addition, no expression of TACC1X was detected in mouse RNA by rt-PCR analysis (data not shown), suggesting that this sequence is a processed pseudogene. Similarly, TACC1 pseudogenes also exist spread over 22 kb of the centromeric region of human chromosome 10 and, in 8q21, a shorter region 86% identical to the final 359 bp of the TACC1 3' untranslated region. No pseudogenes corresponding to TACC2 or TACC3 were identified in any mammalian species.
+
+Characterization of vertebrate TACC3 orthologues
+
+Based upon current functional analysis, the characterization of TACC3 orthologues is likely to be pivotal to understanding the sequence and functional evolution of the TACC gene family. As indicated below, the chromosomal region containing the TACC gene precursors was duplicated twice during vertebrate evolution. Although the analysis of T. rubripes, rodents and humans so far suggests that the vertebrate TACC3 precursor was not included in the second round of genomic duplication, it could not be excluded that a TACC4 gene may have been lost during the evolution of these lineages. The cloning of a new member of the TACC family in Oryctolagus cuniculus has added to this controversy [9]. Designated TACC4, the 1.5 kb cDNA was highly related, but proposed to be distinct from TACC3. However, Northern blot data suggested that this gene produces a single 2.3 kb transcript [9], indicating that the cloned cDNA was incomplete. The degree of similarity to the published sequence of human and mouse TACC3 suggested to us that TACC4 actually represents a partial rabbit TACC3 cDNA. To test this hypothesis, we set out to clone the complete rabbit TACC3 sequence, based upon the known features of human and mouse TACC3. We have previously noted that the N-terminal and C-terminal regions of the human and mouse TACC3 proteins are highly conserved ([2], see below). Therefore, based upon the sequence identity between these genes, we designed a consensus oligonucleotide primer, T3con2, that would be suitable for the identification of the region containing the initiator methionine of the TACC3 cDNAs from primates and rodents. Using this primer, in combination with the TACC4-specific RACE primer (RACE2), initially used by Steadman et al [9], we isolated a 1.5 kb PCR product from rabbit brain cDNA by rt-PCR. In combination with 3'RACE, this generated a consensus cDNA of 2283 bp which corresponds to the transcript size of 2.3 kb detected by the "TACC4" sequence reported in Figure 4 of Steadman et al [9]. Thus, while it remains possible that the "TACC4" sequence is an alternative splice product, or is the product of reduplication of the TACC3 gene (events that would be specific to the rabbit), the only transcript detected in rabbit RNA corresponds to the predicted transcript size of the TACC3 sequence that we have identified here. Furthermore, the string of nucleotides found at the 5' end of the "TACC4" sequence is also found at the 5' ends of a number of cDNA sequences (e.g. U82468, NM_023500), that were isolated by 5'RACE, suggesting that they may correspond to an artefact of the 5'RACE methodology used in their construction. The rabbit "TACC4" and the rabbit TACC3 sequence that we have isolated are also found on the same branch of the TACC phylogenetic tree with the other TACC3 orthologues, including maskin (Xenopus laevis), and the newly identified TACC3 sequences in Rattus norvegus, Gallus gallus, Silurana tropicalis, Danio rerio and T. rubripes, reported in this manuscript (Fig. 1). Thus, it is not in a separate branch that may be expected if the sequence was a distinct TACC family member.
+
+Placement of the RHAMM gene in the phylogeny of the coiled coil gene family
+
+Human RHAMM has also been proposed to be the missing fourth member of the TACC family [10]. Evidence used in support of this claim included its chromosomal location on 5q32 in humans (discussed below), its sequence similarity in its coiled coil domain to the TACC domain and the subcellular localization of the RHAMM protein in the centrosome. However, if RHAMM were a bona fide TACC family member, then we would predict its evolution would be similar to those of other TACC family members, and fit with the proposed evolution of the vertebrate genome. Thus, we set out to identify RHAMM orthologues and related genes in metazoans, so that a more complete phylogeny of the coiled coil super family could be generated. We identified a single RHAMM gene in all deuterostomes for which cDNA and/or genomic sequence was available, including C. intestinalis. No RHAMM gene was identified in insects or nematodes. This indicates that the RHAMM/TACC genes diverged after the protostome/deuterostome split 833–933 MYA, but prior to the echinodermata/urochordate divergence (&gt;750 MYA). Significantly, sequence and phylogenetic analysis of coiled coil proteins (Fig. 1) clearly shows that RHAMM does not contain a TACC domain and instead forms a distinct family of proteins in the coiled coil superfamily, and is not a direct descendant of the ancestral TACC gene.
+
+Evolution of the chromosomal segments containing the TACC genes
+
+The phylogenetic tree of the FGFR genes closely resembles that of the vertebrate TACC1-3 genes. Recently, detailed analyses of the chromosomal regions containing the FGFR gene family in humans, mouse and the arthopod D. melanogaster have revealed the conservation of paralogous chromosomal segments between these organisms (Fig. 2, [13], Table 1 [see Additional file 1]). This has provided further support that an ancient chromosomal segment was duplicated twice during vertebrate evolution, with the first duplication that gave rise to the human chromosome 4p16/5q32-ter and human chromosome 8p/10q23-ter ancestors occurring in the early stages after the invertebrate divergence. This suggests that the ancestral FGFR-TACC gene pair most probably arose prior to the initial duplication and subsequent divergence of these paralogous chromosomal segments, estimated to have occurred 687 ± 155.7 MYA. This has raised the suggestion that a fourth TACC gene in vertebrates would reside in the same chromosomal region as FGFR4. Indeed this hypothesis has been used in support for the RHAMM gene as a member of the TACC family [10]. Human RHAMM maps to chromosome 5q32 in a region bounded by GPX3 and NKX2E. These loci separate two clusters of genes on human chromosome 5 that are paralogous with 4p16. Interestingly, these three clusters are located on different chromosomes in mouse and rat (Fig. 2), further suggesting that this cluster of genes was transposed into this region after the primate/rodent divergence.
+
+Figure 2
+
+Linear organization of gene clusters centering upon the chromosomal loci of the FGFR genes in humans. Paralogous genes present in at least two of the four loci are shown, with the exception of the region between GPX3 and NKX2E on chromosome 5, which appears to represent a series of intervening genes inserted after duplication of the 4p16/5q32-35 clusters, and genes mentioned in Fig. 3. Corresponding syntenic mouse chromosomal regions (mm*) are indicated. Takifugu rubripes scaffolds are shown (TR*) that contain more than one homologous gene from these clusters. Further details on the location of paralogous genes can be found in [see Additional file 1].
+
+Because the conservation of gene order can also provide clues to the evolution of gene regulation, we next attempted to trace the evolution of these paralogous segments by examining the genome of the tunicate C. intestinalis [11] and the most "primitive" compact vertebrate genome sequenced to date, T. rubripes [14]. Although not fully assembled, examination of the genome of T. rubripes confirmed the presence of chromosomal segments paralogous to those found in higher vertebrates (Fig. 2). For instance, the orthologues of GPRK2L and RGS12 are found on T. rubripes scaffold 290 (emb|CAAB01000290.1), and within 300 kb of each other in human 4p16. The T. rubripes orthologues of FGFR3, LETM1 and WHSC1 are located on the same 166 kb genomic scaffold 251 (emb|CAAB01000166.1). Significantly, the three human orthologues of these genes are also located within 300 kb of each other on 4p16. Furthermore, TACC3 and FGFRL map to the overlapping scaffolds 1184/4669 (emb|CAAB01004668). Similarly, elements of these gene clusters, extending from HMP19 to GPRK6 in human chromosome 5q34-ter are also found in the pufferfish, with the T. rubripes orthologues of NSD1, FGFR4 and a RAB-like gene mapping on scaffold 407 (emb|CAAB01000407). However, there is no evidence for a gene corresponding to a TACC4 gene in any of these clusters.
+
+As noted above, phylogenetic analysis of the TACC sequences indicate that there are two TACC1 related genes in the pufferfish. trTACC1B is located on the 180 kb scaffold 191 (emb|CAAB01000191.1), which also contains the orthologues of several genes located in human chromosome 8p21-11. Thus, this scaffold represents the more "developed" TACC1 chromosomal segment that is evident in higher vertebrates. On the other hand, the trTACC1A gene is located in the 396 kb scaffold 12 (emb|CAAB010012.1). This scaffold also contains the T. rubripes orthologues of MSX1, STX18, D4S234E and the predicted gene LOC118711, in addition to sequences with homology to LOXL, EVC, LOC159291, and the LDB family. Thus, scaffold 12 contains genes found in the regions of human chromosome 4 and 10 that also contain the loci for TACC3 and TACC2, respectively, and may therefore more closely resemble the genomic organization resulting from the initial duplication of the ancestral paralogous chromosomal segment.
+
+Conserved paralogous clusters may result from the initial clustering of the genes in a relatively small ancestral genomic contig. Some evidence for the existence of "protoclusters" that could correspond to the paralogous chromosomal segments noted in higher vertebrates is present in the genome of the urochordate C. intestinalis [11]. For instance, the orthologues of FGFR, and WHSC1, carboxypeptidase Z and FLJ25359 cluster within an 85 kb region of the C. intestinalis genome and the human orthologues are still maintained in paralogous segments of 4p16, 8p and 10q (Fig. 3, [see Additional file 1]). However, it should be noted that no clusters of genes from the vertebrate paralogous segments are locate close to the TACC or RHAMM genes of C. intestinalis, indicating that the formation of the much larger paralogous segments encompassing the FGFR-TACC genes formed later in evolutionary time, or conversely have been subject to extensive rearrangement in tunicates. In combination with the examination of the T. rubripes genome, this also provides additional evidence that either the second round of duplication of the chromosomal segment that contained the FGFR3/4 ancestor did not include a TACC gene, or that such a gene was lost very early in vertebrate evolution, prior to the divergence of the Gnanthostome lineages. However, the final resolution of the initial evolution of these paralogous segment will await the sequencing of the amphioxus and lamprey genomes, which only have one FGFR gene, and therefore should only contain one copy of the other corresponding genes in this conserved segment.
+
+Figure 3
+
+Formation of protoclusters in Takifugu rubripes and Ciona intestinalis: (A): Structure of the genomic scaffolds containing the Takifugu rubripes trTACC1A and trTACC1B genes. Scaffold 12, the site for the trTACC1A gene contains genes found with either homologues or orthologues on the distal long arm of human chromosome 10 and 4p16. This scaffold, therefore, has some of the characteristics of the predicted immediate ancestor of the TACC1/TACC2 chromosomal segment. trTACC1B is found on scaffold 191, which contains orthologues of genes found in the proximal short arm of human chromosome 8. (B): Ciona intestinalis clusters containing genes found in paralogous segments on human 8, 4p16, 10q and 5q.
+
+Figure 4
+
+Genomic structure of the TACC genes. Conserved regions known to bind protein factors in all human TACC proteins are shown. The SDP repeat of human TACC1-3 is known to bind GAS41 ([3,15] and data not shown). The TACC domain binds ch-TOG and members of the Aurora kinases in all species examined to date. This motif is characteristically encoded by the 3' exons of the TACC genes. The size of the largest isoform for each gene is shown.
+
+Comparative genomic structure of the TACC family
+
+The genomic DNA sequences corresponding to the orthologous TACC genes of human, mouse, rat, pufferfish, C. intestinalis, D. melanogaster and C. elegans were extracted and analyzed by Genescan and BLAST to determine the genomic structure of each TACC gene. In some cases, for rat and pufferfish, exons were added or modified based on the best similarity of translated peptides to the corresponding mouse and human proteins. For regions with low sequence similarity in T. rubripes, genomic sequences  from the fresh water pufferfish, Tetraodon nigroviridis were used as additional means to verify the predicted exons.
+
+The general structure of the TACC genes and proteins is depicted in Fig. 4. The main conserved feature of the TACC family, the TACC domain, is located at the carboxy terminus of the protein. In the case of the C. elegans TAC protein, this structure comprises the majority of the protein and is encoded by two of the three exons of the gene. In the higher organisms, D. melanogaster, and the deuterostomes C. intestinalis to human, this feature is also encoded by the final exons of the gene (five in D. melanogaster, seven in the deuterostome genes). Outside of the TACC domain, however, TACC family members show relatively little homology. It is interesting that each TACC gene contains one large exon, which shows considerable variability between TACC orthologues, and constitutes the main difference between the TACC3 genes in the vertebrates (see below). In deuterostomes, this exon contains the SDP repeat (or in the case of the murine TACC3's, a rodent-specific 24 amino acid repeat), which is responsible for the binding of the SWI/SNF chromatin remodeling complex component GAS41 [15,16].
+
+Of the vertebrate TACC proteins, the TACC3 orthologues show the greatest variability in size and sequence, ranging in size from 599 amino acids for the rat TACC3 protein, to 942 amino acids in the Danio rerio protein. The reasons for these differences are apparent from the genomic structure of the TACC3 orthologues. TACC3 can be divided into three sections: a conserved N-terminal region (CNTR) of 108 amino acids, encoded by exons 2 and 3 in each vertebrate TACC3 gene, the conserved TACC domain distributed over the final seven exons, and a highly variable central region. The lack of conservation in both size and sequence of the central portion of the TACC3 proteins of human and mouse has been previously noted, and accounts for the major difference between these two orthologues [2]. The majority of this central portion, which contains the SDP repeat motifs, is encoded by one exon in human and the pufferfish (emb|CAAB01001184). In rodents, however, this region is almost entirely composed of seven 24 amino acid repeats, which are located in a single exon of the mouse and rat TACC3 genes. It has been previously reported that there are four mouse TACC3 splice variants that differ in the number of these repeats [2,7,17]. As these repeats are present in a single exon, it appears likely that these different sequences may be the result of the DNA polymerases used in the cDNA synthesis and/or PCR reaction stuttering through the repeat motif. The correct sequence, reported by Sadek et al [7], is the one used throughout the entirety of this manuscript. These repeats are not evident in the rabbit protein, or any other TACC protein, and may indicate that the rodent TACC3 has evolved distinct functions, as has already been noted for the amphibian Xenopus TACC3, maskin [8].
+
+Alternative splicing in vertebrate TACC genes
+
+Whereas exon shuffling can drive the functional diversification of gene families over evolutionary time, the temporal and/or tissue specific alternative splicing of a gene can give rise to functional diversification of a single gene during the development of an organism. Although no alternative splicing of TACC3 has been clearly documented, both temporal and tissue specific splicing is observed in the TACC1 and TACC2 genes. In the case of TACC2, an additional large (5 kb) exon accounts for the main difference between the major splice variants of the vertebrate TACC2 genes [3]. The alternative splicing of this exon suggests a major functional difference between the two TACC2 isoforms, TACC2s and TACC2l [3], as well as a significant difference between TACC2 and its closest TACC family relative, TACC1. However, the function of this region of the TACC2l isoform is current unknown.
+
+Alternative splicing, together with differential promoter usage has already been noted for the human TACC1 gene [18,19]. In addition, as shown in Fig. 5, we have identified additional TACC1 isoforms that result from alternative splicing of exons 1b-4a. The functions of these different isoforms are unknown, however the region deleted from the shorter variants can include the binding site for LSm7 [20] (variants C, D, F-I), and/or the nuclear localization signals and binding site for GAS41 [15] and PCTAIRE2BP [20] (isoforms B-D, S). One of these isoforms, TACC1S is localized exclusively to the cytoplasm [19], suggesting that the shorter isoforms would not be able to interact with elements of the chomatin remodeling and/or RNA processing machinery in the nucleus. Thus, changes in the complement of TACC1 isoforms in the cell may result in alterations in cellular RNA metabolism at multiple levels, and may account for the observation that TACC1D and TACC1F isoforms are associated with tumorigenic changes in gastric mucosa [18].
+
+Figure 5
+
+Alternative splicing of the human TACC1 gene. (A): Seven splice variants have been identified for human TACC1 (A-F and S). We have also identified additional splice variants (G-I) from database analysis and rt-PCR analysis of human brain RNA. (B): Alternative splicing of TACC1 in the human brain. rt-PCR analysis confirms splicing of the untranslated exon 1a to exon 1, with retention of the originally defined start methionine (GB:NP_006274) (Variant A*, lanes 1 and 3). Exon 1a also splices to exon 2, removing the L-Sm7 binding motif (variant I, lanes 3,12 and 13). Variants that functionally delete exons 2 and/or 3, such as variant C (lane 15) also remove the predicted nuclear localization signals, and the binding domains for GAS41 and PCTAIRE2BP. These variants would retain the TACC domain, and therefore the potential to bind to ch-TOG and Aurora A kinase in the centrosome. Lane 1: EF/X1R, Lane 2: EF/BX647R, Lane 3: EF/6SPR, Lane 4: EF/1DR, Lane 5, EF/128R, Lane 6 X3F/X1R, Lane 7: X3F/BX647R, Lane 8: X3F/6SPR, Lane 9: X3F/1DR, Lane 10, X3F/128R, Lane 11: 1DF/X1R, Lane 12: 1DF/BX647R, Lane 13: 1DF/6SPR, Lane 14: 1DF/1DR, Lane 15: 1DF/128R, Lane 16: Biorad 1 kb+ Size ladder.
+
+In silico modeling of the evolution of TACC protein function
+
+The protein and genomic structure of the present day TACC family members suggests that the function of the ancestral TACC protein was mediated solely through the interactions of the conserved TACC domain. Using an in silico protein-protein interaction model based upon known mitotic spindle and centrosomal components, we have previously predicted a number of additional interactions that could be conserved between a functional TACC homologue in yeast, spc-72, and one or more human TACC proteins [21]. Thus, it is known that all the TACC proteins examined to date interact, via the TACC domain, with the microtubule/centrosomal proteins of the stu2/msps/ch-TOG family [5,6,22-24], and with the Aurora kinases [20,21,25]. These interactions are required for the accumulation of the D-TACC, spc72, ceTAC1 and TACC3 proteins to the centrosome [5,6,22-24]. Hence, this functional interaction with the centrosome and mitotic spindle is likely to represent the ancient, conserved function of the TACC family. However, it is apparent that the human TACC proteins also differ in their ability to interact with the Aurora kinases. For instance, TACC1 and TACC3 interact with Aurora A kinase, whereas TACC2 interacts with Aurora C kinase [21], suggesting a degree of functional specialization in the derivatives of the ancestral chordate TACC, after the radiation of the vertebrate TACC genes.
+
+The localization of the vertebrate TACC proteins in the interphase nucleus [15,26,27] suggests that they have additional functions outside their ancient role in the centrosome and microtubule dynamics. Thus, it seems likely that TACC family members in protostomes and deuterostomes have integrated new unique functions as the evolving TACC genes acquired additional exons. The results of the pilot large-scale proteomic analysis in C. elegans and D. melanogaster provide further suggestive evidence to this functional evolution. Yeast two hybrid analysis indicates that ceTAC directly binds to C. elegans lin15A, lin36 and lin37 [28]. These proteins bridge ceTAC to other elements of the cytoskeleton and microtubule network, as well as to components of the ribosome, the histone deacetylase chromatin remodeling machinery such as egr-1 and lin-53 (the C. elegans homologues of the human MTA-1 and RbAP48), and to transcription factors such as the PAL1 homeobox and the nuclear hormone receptor nhr-86 [28] (Fig. 6A). Similarly, large scale proteomics [29] has shown that Drosophila TACC interacts with two proteins, the RNA binding protein TBPH and CG14540 (Fig. 6B), and thus indirectly with the Drosophila SWI/SNF chromatin remodeling complex and DNA damage repair machinery. Significantly, the ceTAC protein has also recently been implicated in DNA repair through its direct interaction with the C. elegans BARD1 orthologue [30]. It should be noted that a number of interactions with the TACC proteins from these organisms have probably been missed by these large scale methods, including the well documented direct interactions with the aurora kinases and the stu2/msps/ch-TOG family.
+
+Figure 6
+
+Functional evolution of the TACC proteins modeled in C. elegans and D. melanogaster. (A). C. elegans interaction map shows empirically defined interactions of ceTAC, and extrapolated interactions defined by [28]. (B): Using the BIND database [29], DTACC directly binds to TBPH and CG14540, and thus indirectly to chromatin remodeling complexes (SWI/SNF and histone acetyltransferases), DNA damage repair machinery (via RAD23), and RNA splicing, transport and translational machinery. (C): Predicted interaction map for vertebrate TACCs, based upon ceTAC, suggests an indirect interaction with the nuclear hormone receptor RXRβ. It is also of interest that this predicts a functional interaction with the LDB family, members of which are also found in TACC containing paralogous segments noted in Figs 2, 3 and Additional file 1. (D): Predicted TACC interaction map based upon DTACC. (E): Vertebrate TACC interactions identified to date. ? denotes uncertainty over the identity of a functional vertebrate homologue. In C, D and E, '*' denotes one or more members of the TACC or Aurora kinase family.
+
+Because of the evolutionary conservation of the TACC domain, we would predict that some of the functional interactions seen in C. elegans and D. melanogaster would be observed in higher animals. Phylogenetic profiling from these interaction maps suggests two similar sets of predicted interactions for vertebrate TACCs (Fig. 6C and 6D). Strikingly, however, the C. elegans specific proteins lin15A, lin36 and lin37 do not have readily discernible homologues in vertebrates or Drosophila, although the presence of a zinc finger domain in lin36 may suggest that this protein is involved directly in transcription or perform an adaptor role similar to LIM containing proteins. For the DTACC interacting proteins, TBPH corresponds to TDP43, a protein implicated in transcriptional regulation and splicing [31,32]. However, the assignment of the human homologue of CG14540 is less clear, with the closest matches in the human databases corresponding to glutamine rich transcription factors such as CREB and the G-box binding factor.
+
+Comparison of modeled with experimentally defined interactions of the vertebrate TACC proteins
+
+The interaction data for the vertebrate TACCs is relatively limited; however, interaction networks are now beginning to emerge. The results of our functional analysis, as well as other published data clearly indicate that the vertebrate TACCs interact with proteins that can be divided into two broad categories: 1) proteins with roles in centrosome/mitotic spindle dynamics, and 2) proteins involved in gene regulation, either at the level of transcription, or subsequent RNA processing and translation [3,5-7,15,19-21,24,25,33,34]. Many of these proteins do not appear to interact directly with the protostome TACCs, but would be expected to be in the same protein complex (Fig. 6C,6D).
+
+Significant analysis of the association of the TACCs with the centrosome and the dynamics of mitotic spindle assembly from yeast to humans has been published [5,6,21-24]. From this analysis, it seems likely that the vertebrate TACC3 protein has retained this direct ancestral function, based upon its location in these structures during mitosis [27], its strong interaction with Aurora Kinase A, and the observation that it is the only human TACC protein phosphorylated by this enzyme [21]. However, the variability of the central domain of the vertebrate orthologues, suggests that TACC3 may also have acquired additional, and in some instances, species-specific functions. For instance, in X. laevis, the maskin protein has acquired a binding site for the eIF4E protein, and thus a function in the coordinated control of polyadenylation and translation in the Xenopus oocyte [8,35]. A recent study has suggested that this function may be unique to maskin: although it is unclear whether the other vertebrate TACC3 proteins interact with the eIF4E/CPEB complex, the human TACC1A isoform is unable to interact with the eIF4E/CPEB complex. Instead, some TACC1 isoforms have evolved a related, but distinct function by directly interacting with elements of the RNA splicing and transport machinery [19].
+
+To further characterize the evolving functions of the TACC proteins, we have used an unbiased yeast two hybrid screening method to identify proteins that bind to the human TACC proteins [3,34]. In a screen of a MATCHMAKER fetal brain library (BD Biosciences Clontech), in addition to isolating the histone acetyltransferase hGCN5L2 [34], we also identified the β3 isoform of retinoid-X receptor β as a protein that interacts with the TACC domain of TACC2. As shown in Fig. 7, this interaction is confirmed in vitro by GST-pull down analysis. Significantly, RXRβ is a close family relative of the nuclear hormone receptor, nhr-86, from C. elegans, which interacts with the ceTAC binding protein lin36 (Fig. 6A). This suggests that while protostome TACCs may require additional protein factors to interact with such components, the TACCs in higher organisms may have evolved the ability to directly interact with some of the proteins in the predicted interaction map (Fig. 6E). Indeed, this appears to be directly linked to the acquisition of new domains and duplication of the chordate TACC precursor. In fact, the first identified function of a vertebrate TACC protein was as a transcriptional coactivator acting through a direct interaction with the ARNT transcription factor [7]. It is also intriguing that the deuterostome specific SDP repeat interacts with GAS41, a component/accessory factor of the human SWI/SNF chromatin remodeling complex [3,15]. Although there is a D. melanogaster homologue of GAS41, dmGAS41, the large scale proteomic interaction database does not indicate a direct interaction of dmGAS41 with DTACC. This may be due to the lack of the SDP repeat region in the Drosophila TACC protein. This further suggests that the vertebrate TACCs have gained the specific ability to direct interact with transcriptional regulatory complexes, and that bridging protein(s) are no longer required. Thus, where the ceTAC protein is only composed of the TACC domain, the significantly larger TACC family members in higher protostomes and deuterostomes may have integrated one or more functions of the bridging protein (in this case lin15A, lin36 or lin37). This may also explain the absence of lin15A, lin36 and lin37 homologues in higher organisms, as they were no longer under selective evolutionary pressure to remain within the complex, and thus lost in the evolving genome.
+
+Figure 7
+
+In vitro interaction of RXRβ3 and TACC2s. Top panel: Autoradiograph of 12% SDS polyacrylamide gel with in vitro translated RXRβ3 construct pulled down with GST-TACC2 (Lane 1) or GST (Lane 2); Lane 3: 5% input of in vitro translated RXR-β protein. Bottom two panels represent Coomassie blue stained gels of pull down experiment showing loading of GST-TACC2 and GST.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17216" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4921" end="4930" />
+    <spannedText>In silico</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17218" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4949" end="4953" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17220" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5146" end="5150" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17222" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5155" end="5160" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17224" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5306" end="5310" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17226" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5591" end="5620" />
+    <spannedText>Strongylocentrotus purpuratus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17228" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5647" end="5664" />
+    <spannedText>Anopheles gambiae</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17230" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5729" end="5733" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17232" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5890" end="5894" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17234" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5977" end="5981" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17236" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6033" end="6041" />
+    <spannedText>Cnidaria</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17238" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6045" end="6053" />
+    <spannedText>Porifera</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17240" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6235" end="6726" />
+    <spannedText>Figure 1
+
+Phylogenetic analysis of the TACC family members compared to other coiled coil proteins. The phylogenetic tree was constructed as described in the Methods section. The TACC family defines a separate subfamily of coiled coil containing proteins, distinct from other coiled coil families such as the keratins, RHAMM and tropomyosins. Note that the RHAMM proteins form a separate branch more closely related to the tropomyosins and kinesin like proteins (KLP), than the TACC proteins.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17243" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6245" end="6332" />
+    <spannedText>Phylogenetic analysis of the TACC family members compared to other coiled coil proteins</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17245" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6781" end="6785" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17247" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6839" end="6857" />
+    <spannedText>Ciona intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17249" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6916" end="6935" />
+    <spannedText>Halocynthia rortezi</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17251" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7007" end="7011" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17253" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7308" end="7312" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17255" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7384" end="7388" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17257" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7479" end="7496" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17259" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7542" end="7549" />
+    <spannedText>TACC1-3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17261" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7647" end="7651" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17263" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7718" end="7723" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17265" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7747" end="7751" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17267" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7777" end="7788" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17269" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7830" end="7841" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17271" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7863" end="7868" />
+    <spannedText>TACC2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17273" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7873" end="7878" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17275" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7910" end="7918" />
+    <spannedText>trTACC1A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17277" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7923" end="7931" />
+    <spannedText>trTACC1B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17279" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7960" end="7965" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17281" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7985" end="7993" />
+    <spannedText>trTACC1A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17283" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8018" end="8026" />
+    <spannedText>trTACC1B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17285" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8094" end="8102" />
+    <spannedText>trTACC1B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17287" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8162" end="8170" />
+    <spannedText>Takifugu</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17289" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8231" end="8241" />
+    <spannedText>trTACC1A s</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17291" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8328" end="8336" />
+    <spannedText>trTACC1B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17293" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8436" end="8444" />
+    <spannedText>trTACC1B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17295" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8601" end="8609" />
+    <spannedText>trTACC1A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17297" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8702" end="8710" />
+    <spannedText>trTACC1A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17299" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8715" end="8723" />
+    <spannedText>trTACC1B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17301" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8955" end="8966" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17303" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9031" end="9036" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17305" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9197" end="9202" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17307" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9207" end="9212" />
+    <spannedText>TACC2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17309" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9216" end="9228" />
+    <spannedText>Mus musculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17311" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9293" end="9300" />
+    <spannedText>TACC1-3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17313" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9306" end="9321" />
+    <spannedText>Rattus norvegus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17315" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9340" end="9346" />
+    <spannedText>TACC1X</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17317" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9431" end="9436" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17319" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9629" end="9643" />
+    <spannedText>data not shown</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17321" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9714" end="9719" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17323" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9882" end="9887" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17325" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9944" end="9949" />
+    <spannedText>TACC2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17327" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9953" end="9958" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17329" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10033" end="10038" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17331" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10116" end="10121" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17333" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10220" end="10224" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17335" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10296" end="10300" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17337" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10392" end="10403" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17339" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10460" end="10465" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17341" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10569" end="10574" />
+    <spannedText>TACC4</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17343" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10689" end="10710" />
+    <spannedText>Oryctolagus cuniculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17345" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12196" end="12201" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17347" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12884" end="12898" />
+    <spannedText>Xenopus laevis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17349" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12945" end="12960" />
+    <spannedText>Rattus norvegus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17351" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12962" end="12975" />
+    <spannedText>Gallus gallus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17353" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12977" end="12996" />
+    <spannedText>Silurana tropicalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17355" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12998" end="13009" />
+    <spannedText>Danio rerio</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17357" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13014" end="13025" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17359" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13154" end="13158" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17361" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13192" end="13197" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17363" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13258" end="13263" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17365" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13326" end="13330" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17367" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13608" end="13613" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17369" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13631" end="13635" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17371" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13722" end="13726" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17373" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13834" end="13839" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17375" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13993" end="13998" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17377" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14089" end="14104" />
+    <spannedText>C. intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17379" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14109" end="14114" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17381" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14184" end="14194" />
+    <spannedText>RHAMM/TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17383" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14596" end="14600" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17385" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14661" end="14665" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17387" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14702" end="14706" />
+    <spannedText>FGFR</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17389" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14754" end="14761" />
+    <spannedText>TACC1-3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17391" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14839" end="14843" />
+    <spannedText>FGFR</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17393" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14890" end="14905" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17395" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15387" end="15396" />
+    <spannedText>FGFR-TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17397" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15617" end="15621" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17399" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15689" end="15694" />
+    <spannedText>FGFR4</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17401" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15752" end="15757" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17403" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15782" end="15786" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17405" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15806" end="15811" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17407" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15859" end="15863" />
+    <spannedText>GPX3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17409" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15868" end="15873" />
+    <spannedText>NKX2E</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17411" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16186" end="16855" />
+    <spannedText>Figure 2
+
+Linear organization of gene clusters centering upon the chromosomal loci of the FGFR genes in humans. Paralogous genes present in at least two of the four loci are shown, with the exception of the region between GPX3 and NKX2E on chromosome 5, which appears to represent a series of intervening genes inserted after duplication of the 4p16/5q32-35 clusters, and genes mentioned in Fig. 3. Corresponding syntenic mouse chromosomal regions (mm*) are indicated. Takifugu rubripes scaffolds are shown (TR*) that contain more than one homologous gene from these clusters. Further details on the location of paralogous genes can be found in [see Additional file 1].</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17414" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16196" end="16296" />
+    <spannedText>Linear organization of gene clusters centering upon the chromosomal loci of the FGFR genes in humans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17416" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16276" end="16280" />
+    <spannedText>FGFR</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17418" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16408" end="16412" />
+    <spannedText>GPX3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17420" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16417" end="16422" />
+    <spannedText>NKX2E</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17422" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16655" end="16672" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17424" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17066" end="17081" />
+    <spannedText>C. intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17426" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17157" end="17168" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17428" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17234" end="17245" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17430" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17384" end="17390" />
+    <spannedText>GPRK2L</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17432" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17395" end="17400" />
+    <spannedText>RGS12</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17434" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17414" end="17425" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17436" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17512" end="17523" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17438" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17539" end="17544" />
+    <spannedText>FGFR3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17440" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17546" end="17551" />
+    <spannedText>LETM1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17442" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17556" end="17561" />
+    <spannedText>WHSC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17444" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17761" end="17766" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17446" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17771" end="17776" />
+    <spannedText>FGFRL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17448" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17899" end="17904" />
+    <spannedText>HMP19</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17450" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17908" end="17913" />
+    <spannedText>GPRK6</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17452" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17986" end="17997" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17454" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18013" end="18017" />
+    <spannedText>NSD1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17456" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18019" end="18024" />
+    <spannedText>FGFR4</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17458" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18031" end="18039" />
+    <spannedText>RAB-like</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17460" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18149" end="18154" />
+    <spannedText>TACC4</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17462" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18275" end="18280" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17464" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18314" end="18322" />
+    <spannedText>trTACC1B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17466" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18525" end="18530" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17468" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18613" end="18621" />
+    <spannedText>trTACC1A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17470" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18716" end="18727" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17472" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18743" end="18747" />
+    <spannedText>MSX1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17474" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18749" end="18754" />
+    <spannedText>STX18</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17476" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18756" end="18763" />
+    <spannedText>D4S234E</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17478" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18787" end="18796" />
+    <spannedText>LOC118711</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17480" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18840" end="18844" />
+    <spannedText>LOXL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17482" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18846" end="18849" />
+    <spannedText>EVC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17484" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18851" end="18860" />
+    <spannedText>LOC159291</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17486" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18870" end="18873" />
+    <spannedText>LDB</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17488" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18996" end="19001" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17490" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19006" end="19011" />
+    <spannedText>TACC2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17492" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19495" end="19510" />
+    <spannedText>C. intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17494" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19550" end="19554" />
+    <spannedText>FGFR</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17496" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19560" end="19565" />
+    <spannedText>WHSC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17498" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19590" end="19598" />
+    <spannedText>FLJ25359</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17500" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19637" end="19652" />
+    <spannedText>C. intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17502" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19903" end="19907" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17504" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19911" end="19916" />
+    <spannedText>RHAMM</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17506" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19926" end="19941" />
+    <spannedText>C. intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17508" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20029" end="20038" />
+    <spannedText>FGFR-TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17510" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20196" end="20207" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17512" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20345" end="20352" />
+    <spannedText>FGFR3/4</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17514" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20380" end="20384" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17516" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20677" end="20681" />
+    <spannedText>FGFR</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17518" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20792" end="21503" />
+    <spannedText>Figure 3
+
+Formation of protoclusters in Takifugu rubripes and Ciona intestinalis: (A): Structure of the genomic scaffolds containing the Takifugu rubripes trTACC1A and trTACC1B genes. Scaffold 12, the site for the trTACC1A gene contains genes found with either homologues or orthologues on the distal long arm of human chromosome 10 and 4p16. This scaffold, therefore, has some of the characteristics of the predicted immediate ancestor of the TACC1/TACC2 chromosomal segment. trTACC1B is found on scaffold 191, which contains orthologues of genes found in the proximal short arm of human chromosome 8. (B): Ciona intestinalis clusters containing genes found in paralogous segments on human 8, 4p16, 10q and 5q.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17521" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20802" end="20873" />
+    <spannedText>Formation of protoclusters in Takifugu rubripes and Ciona intestinalis:</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17523" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20832" end="20849" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17525" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20854" end="20872" />
+    <spannedText>Ciona intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17527" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20874" end="20878" />
+    <spannedText>(A):</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17529" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20929" end="20955" />
+    <spannedText>Takifugu rubripes trTACC1A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17531" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20960" end="20968" />
+    <spannedText>trTACC1B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17533" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21006" end="21014" />
+    <spannedText>trTACC1A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17535" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21236" end="21247" />
+    <spannedText>TACC1/TACC2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17537" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21269" end="21277" />
+    <spannedText>trTACC1B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17539" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21395" end="21399" />
+    <spannedText>(B):</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17541" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21400" end="21418" />
+    <spannedText>Ciona intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17543" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21505" end="21949" />
+    <spannedText>Figure 4
+
+Genomic structure of the TACC genes. Conserved regions known to bind protein factors in all human TACC proteins are shown. The SDP repeat of human TACC1-3 is known to bind GAS41 ([3,15] and data not shown). The TACC domain binds ch-TOG and members of the Aurora kinases in all species examined to date. This motif is characteristically encoded by the 3' exons of the TACC genes. The size of the largest isoform for each gene is shown.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17546" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21515" end="21551" />
+    <spannedText>Genomic structure of the TACC genes.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17548" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21540" end="21544" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17550" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21705" end="21719" />
+    <spannedText>data not shown</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17552" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21882" end="21886" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17554" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21988" end="21992" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17556" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22060" end="22064" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17558" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22105" end="22120" />
+    <spannedText>C. intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17560" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22122" end="22137" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17562" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22142" end="22152" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17564" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22246" end="22250" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17566" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22468" end="22479" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17568" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22533" end="22555" />
+    <spannedText>Tetraodon nigroviridis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17570" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22647" end="22651" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17572" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22828" end="22838" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17574" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22984" end="22999" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17576" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23023" end="23038" />
+    <spannedText>C. intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17578" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23118" end="23133" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17580" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23287" end="23291" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17582" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23367" end="23371" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17584" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23433" end="23438" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17586" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23913" end="23924" />
+    <spannedText>Danio rerio</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17588" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24015" end="24020" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17590" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24177" end="24182" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17592" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24804" end="24809" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17594" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25477" end="25484" />
+    <spannedText>Xenopus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17596" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25540" end="25544" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17598" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25860" end="25865" />
+    <spannedText>TACC3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17600" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25957" end="25962" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17602" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25967" end="25972" />
+    <spannedText>TACC2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17604" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25995" end="26000" />
+    <spannedText>TACC2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17606" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26119" end="26124" />
+    <spannedText>TACC2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17608" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26544" end="26549" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17610" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27482" end="28682" />
+    <spannedText>Figure 5
+
+Alternative splicing of the human TACC1 gene. (A): Seven splice variants have been identified for human TACC1 (A-F and S). We have also identified additional splice variants (G-I) from database analysis and rt-PCR analysis of human brain RNA. (B): Alternative splicing of TACC1 in the human brain. rt-PCR analysis confirms splicing of the untranslated exon 1a to exon 1, with retention of the originally defined start methionine (GB:NP_006274) (Variant A*, lanes 1 and 3). Exon 1a also splices to exon 2, removing the L-Sm7 binding motif (variant I, lanes 3,12 and 13). Variants that functionally delete exons 2 and/or 3, such as variant C (lane 15) also remove the predicted nuclear localization signals, and the binding domains for GAS41 and PCTAIRE2BP. These variants would retain the TACC domain, and therefore the potential to bind to ch-TOG and Aurora A kinase in the centrosome. Lane 1: EF/X1R, Lane 2: EF/BX647R, Lane 3: EF/6SPR, Lane 4: EF/1DR, Lane 5, EF/128R, Lane 6 X3F/X1R, Lane 7: X3F/BX647R, Lane 8: X3F/6SPR, Lane 9: X3F/1DR, Lane 10, X3F/128R, Lane 11: 1DF/X1R, Lane 12: 1DF/BX647R, Lane 13: 1DF/6SPR, Lane 14: 1DF/1DR, Lane 15: 1DF/128R, Lane 16: Biorad 1 kb+ Size ladder.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17613" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27492" end="27537" />
+    <spannedText>Alternative splicing of the human TACC1 gene.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17615" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27526" end="27531" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17617" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27538" end="27541" />
+    <spannedText>(A)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17619" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27596" end="27601" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17621" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27735" end="27738" />
+    <spannedText>(B)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17623" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27764" end="27769" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17625" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28684" end="28693" />
+    <spannedText>In silico</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17627" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28960" end="28969" />
+    <spannedText>in silico</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17629" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30120" end="30124" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17631" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30468" end="30472" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17633" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30565" end="30575" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17635" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30580" end="30595" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17637" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30727" end="30737" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17639" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30986" end="30996" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17641" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31205" end="31215" />
+    <spannedText>Drosophila</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17643" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31331" end="31341" />
+    <spannedText>Drosophila</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17645" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31533" end="31543" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17647" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31824" end="32932" />
+    <spannedText>Figure 6
+
+Functional evolution of the TACC proteins modeled in C. elegans and D. melanogaster. (A). C. elegans interaction map shows empirically defined interactions of ceTAC, and extrapolated interactions defined by [28]. (B): Using the BIND database [29], DTACC directly binds to TBPH and CG14540, and thus indirectly to chromatin remodeling complexes (SWI/SNF and histone acetyltransferases), DNA damage repair machinery (via RAD23), and RNA splicing, transport and translational machinery. (C): Predicted interaction map for vertebrate TACCs, based upon ceTAC, suggests an indirect interaction with the nuclear hormone receptor RXRβ. It is also of interest that this predicts a functional interaction with the LDB family, members of which are also found in TACC containing paralogous segments noted in Figs 2, 3 and Additional file 1. (D): Predicted TACC interaction map based upon DTACC. (E): Vertebrate TACC interactions identified to date. ? denotes uncertainty over the identity of a functional vertebrate homologue. In C, D and E, '*' denotes one or more members of the TACC or Aurora kinase family.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17650" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31834" end="31918" />
+    <spannedText>Functional evolution of the TACC proteins modeled in C. elegans and D. melanogaster.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17652" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31887" end="31897" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17654" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31902" end="31917" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17656" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31920" end="31923" />
+    <spannedText>A).</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17658" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31924" end="31934" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17660" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32048" end="32051" />
+    <spannedText>B):</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17662" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32318" end="32322" />
+    <spannedText>(C):</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17664" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32663" end="32667" />
+    <spannedText>(D):</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17666" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32717" end="32721" />
+    <spannedText>(E):</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17668" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33061" end="33071" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17670" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33076" end="33091" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17672" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33296" end="33306" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17674" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33410" end="33420" />
+    <spannedText>Drosophila</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17676" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35441" end="35450" />
+    <spannedText>X. laevis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17678" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35611" end="35618" />
+    <spannedText>Xenopus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17680" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36558" end="36566" />
+    <spannedText>in vitro</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17682" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36687" end="36697" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17684" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37137" end="37141" />
+    <spannedText>TACC</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17686" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37527" end="37542" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17688" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37741" end="37751" />
+    <spannedText>Drosophila</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17690" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38442" end="38816" />
+    <spannedText>Figure 7
+
+In vitro interaction of RXRβ3 and TACC2s. Top panel: Autoradiograph of 12% SDS polyacrylamide gel with in vitro translated RXRβ3 construct pulled down with GST-TACC2 (Lane 1) or GST (Lane 2); Lane 3: 5% input of in vitro translated RXR-β protein. Bottom two panels represent Coomassie blue stained gels of pull down experiment showing loading of GST-TACC2 and GST.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17693" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38452" end="38493" />
+    <spannedText>In vitro interaction of RXRβ3 and TACC2s.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17695" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38452" end="38460" />
+    <spannedText>In vitro</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17697" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38555" end="38563" />
+    <spannedText>in vitro</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17699" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38664" end="38672" />
+    <spannedText>in vitro</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17701" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38818" end="41708" />
+    <spannedText>Conclusion
+
+Proposed functional evolution of the TACC family
+
+Examination of the evolution of ancient gene families provides an insight into how gene structure relates to function. We have presented above, a detailed examination of one such gene family. The data so far suggest that the functional TACC homologue in yeast (spc72) has a specific role in centrosomal/mitotic spindle dynamics [21,22]. This ancient TACC function is conserved throughout evolution in both protostomes and deuterostomes. In addition, the TACC proteins of lower organisms appear to interact with bridging proteins that are components of several different protein complexes involved in DNA damage repair, protein translation, RNA processing and transcription. However, over the process of evolutionary time, with the acquisition of new domains and duplication of the chordate TACC precursor, the chordate TACC proteins have acquired the ability to directly interact with some of the other components of these complexes (such as the LSm proteins, nuclear hormone receptors, GAS41, accessory proteins and transcription factors), and thus evolved additional functions within these complexes. Indeed, the first assigned function of a vertebrate TACC protein, mouse TACC3, was as a transcriptional coactivator of the ARNT mediated transcriptional response to hypoxia and polyaromatic hydrocarbons [7]. Mouse TACC3 has also been reported to interact with the transcription factor STAT5 [33]. Recently, we have demonstrated that TACC2 and TACC3 can bind to nuclear histone acetyltransferases [34], further confirming a more direct role for the TACC proteins in transcriptional and chromatin remodeling events. Interestingly although all human TACC proteins can directly interact with the histone acetyltransferase pCAF in vitro, the TACC1 isoforms expressed in human breast cancer cells do not interact with this histone acetylase [34]. This may be attributable to the proposed function of the Exon 1 containing TACC1 variants in RNA processing, via the interaction with LSm-7 and SmG [19]. Thus, alternative splicing of the TACC1 gene adds further diversity to TACC1 function, as the deletion of specific exons and their associated binding domains will change the potential protein complexes with which they can associate, either directly, or by redirecting the splice variants to different subcellular compartments. With the duplication of the TACC1/TACC2 ancestor, it is apparent that an even greater functional diversity may have been introduced into the TACC family. The TACC2 protein retains the ability of TACC3 to interact with GAS41, INI1, histone acetyltransferases and transcription factors (in this case, RXRβ) (Fig. 7) [3,34]. However, the tissue specific splicing of the 5 kb exon in the TACC2l isoform [3] indicates that this protein has several temporal and tissue specific functions yet to be identified.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17704" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40606" end="40614" />
+    <spannedText>in vitro</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17706" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40912" end="40917" />
+    <spannedText>TACC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17708" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41233" end="41244" />
+    <spannedText>TACC1/TACC2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17710" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41710" end="49804" />
+    <spannedText>Methods
+
+Compilation and assembly of previously uncharacterized TACC cDNAs and genes
+
+Corresponding orthologous sequences for TACC, RHAMM, KLP, KIF, TPM and keratins families were identified initially using the TBLASTN program [36] to search the published genomic and cDNA databases. For Takifugu rubripes, gene predictions were produced by the Ensembl automated pipeline [37] and the JGI blast server . DNA sequences covering the homology regions were extracted and analyzed by Genscan to obtain potential exons. In some cases, exons were added or modified based on the best similarity of translated peptides to the corresponding mouse and human proteins. For regions with low sequence similarity, genomic sequences  from the fresh water pufferfish, Tetraodon nigroviridis were used as additional means to verify the predicted exons. Due to the variability of the central region of vertebrate TACC3 cDNAs (see text), to further confirm prediction of the Takifugu rubripes TACC3, full length cDNAs corresponding to the Danio rerio TACC3 (IMAGE clones 2639991, 2640369 and 3724452) were also obtained from A.T.C.C. and fully sequenced. Potential paralogous chromosomal segments and scaffold were identified by searching the public databases deposited at NCBI and at the Human Genome Mapping Project, Cambridge UK.
+
+Cloning of vertebrate TACC cDNAs
+
+The rabbit TACC3 was cloned by rt-PCR using the "TACC4" specific primer T4RACE2 [9] (5'-cccgaactgctccaggtaatcgatctc-3') and a consensus primer, T3con2, designed to the region encompassing the vertebrate TACC3 initiator methionine (5'-tatgagtctgcaggtcttaaacgac-3'). For cloning the mouse Tacc1X cDNA, the primers used were based upon the genomic sequence reported, and the sequence of the IMAGE cDNA clone 4933429K08: T1XF (5'-ccatgttcagtcattggcaggtc-3'), T1XF2 (5'-ctgcagaaccaacagttcaag-3'), T1XR1 (5'-agatctgtgacatcacagctc-3'), T1XR2 (5'-ctcgagtcagttagtcttatccagctt-3'), BB617F (5'-accaccaacttgagtacctg-3') and BB617R (5'-gtatcttgaactgttggttctg-3'). For analysis of TACC1 splice variants, the forward primers used were located in exon 1b: EF (5'-gagagatgcgaaatcagcg-3'), Exon 1d: X3F (5'-agtcaaagaaggcatctgcag-3'), Exon 1a: 1DF (5'-ccaagttctgcgccatggg-3'). The reverse primers used were: Exon 1: X1R (5'-ggatttggtctcggcttgcgaatc-3'), Exon 2: BX647R (5'-cttgtgattcttggcttttgg-3'), Exon 3: 6SPR (5'-gtcatcgcctcgtcctggagggc-3'), Exon 4a: 1DR (5'-aatttcacttgttcagtagtc-3'), Exon 5: 128R (5'-cctgcttctgaggatgaaaacgc-3'). Rabbit brain poly A+ mRNA, mouse testis and human brain total RNA were obtained from BD Bioscience Clontech (Palo Alto, CA, U.S.A.). Reverse transcription and PCR was performed as previously described, using either 1 μg of total RNA or 50 ng of poly A+ mRNA as template for first strand cDNA synthesis. PCR products were cloned into pCR2.1 (Invitrogen, Carlsbad CA, U.S.A.) and transformed into InvαF' competent cells. Plasmid inserts were sequenced by the Roswell Park Cancer Institute Biopolymer Core Facility.
+
+Deposition of nucleotide sequences
+
+Sequences from this article have been deposited in the GenBank database with the following accession numbers: Homo sapiens TACC1 short isoform S (AY177411), Mus musculus TACC1 short isoform S (AY177412), Mus musculus TACC1 long isoform A (AY177413), Mus musculus TACC2s (AY177410), Oryctolagus cuniculus TACC3 (AY161270), Danio rerio TACC3 (AY170618). Annotations submitted to the Third party annotation database at NCBI are as follows: Rattus norvegus TACC1 long isoform A (BK001653), Takifugu rubripes TACC1A (BK000666/BK000667), Takifugu rubripes TACC1B (BK000664), Mus musculus TACC2l (BK001495), Rattus norvegus TACC2l (BK001658), Rattus norvegus TACC2s (BK001657), Takifugu rubripes TACC2l (BK000690), Rattus norvegus TACC3 (BK001491), Gallus gallus TACC3 (BK001482), Silurana tropicalis TACC3 (BK001481),Takifugu rubripes TACC3 (BK000649), Takifugu rubripes RHAMM (BK000676), Ciona intestinalis RHAMM (BK001479), Takifugu rubripes Keratin (BK000677), Takifugu rubripes TPM1 (BAC10576), Ciona intestinalis Kif3b (BK001492), Ciona intestinalis klp2 (BK001493).
+
+Phylogenetic analysis
+
+In order to examine evolutionary relationships of proteins containing coiled coil domains, protein sequences representing the major members of this super family, including TACC, RHAMM, KLP, keratin and tropomyosin from available vertebrates and their recognizable orthologues from the urochordate Ciona intestinalis, Drosophila melanogaster, C. elegans and Saccharomyces cerevisiae were either directly retrieved from NCBI sequence databases, newly predicted or isolated (see above). Species abbreviations are as follows: hs (Homo sapiens), mm (Mus musculus), rn (Rattus norvegus), oc (Oryctolagus cuniculus), gg (Gallus gallus), xl (Xenopus laevis), st (Silurana tropicalis), tr (Takifugu rubripes), dr (Danio rerio), ci (Ciona intestinalis), dm (D. melanogaster), ce (C. elegans), sc (Saccharomyces cerevisiae). The sequences identified above and the following protein or predicted translations were used for phylogenetic analysis: hsTACC1A (NP_006274), hsTACC2l (AAO62630) hsTACC2s (AAO62629), hsTACC3 (NP_006333), mmTACC3 (Q9JJ11), xlMaskin (Q9PTG8), dmTACC (AAF52099), ceTAC1 (NP_497059), scSPC72 (NP_009352), hsRHAMM (NP_036616), mmRHAMM (NP_038580), rnRHAMM (NP_037096), drRHAMM (AAQ97980), hsKeratin (CAB76828), mmKeratin (A61368), rnKeratin (XP_235679), hsTPM1 (NP_000357), mmTPM1 (NP_077745), rnTPM1 (NP_62004, drTPM1 (NP_571180) dmTPM1 (P06754), ceTPM (NP_493540) scTPM1 (P17536), hsKLP2 (BAB03309), rnKIF15 (AAP44513), xlKLP2 (CAA08879), dmKLP2 (NP_476818), ceKLP18 (AA034669), hsKIF3A (Q9Y496), mmKIF3A (NP_032469), rnKIF3A (XP_340797), xlKIF3A (CAA08879), ceKLP11 (NP_741473), ciKIF3 (ci0100148992), hsKIF3B (NP_004789), mmKIF3B (NP_004789), rnKIF3B (XP_215883), dmKIF3B (NP_524029), hsKIF3C (NP_002245), mmKIF3C (NP_032471), rnKIF3C (NP_445938), dmKIF3C (NP_651939).
+
+These protein sequences were initially aligned with CLUSTAL X [38]. Minor adjustments to certain regions of the alignment for optimization purposes were made based on pairwise alignments, the output saved in PHYLIP format, after which, the distances between proteins were calculated using Poisson correction and the Unrooted trees were inferred with the NJ method and then displayed using TreeView [39]. Bootstrap values above 700 for 1000 trials are shown at the node. To validate the tree, the same sequence set was analyzed with tools in the PHYLIP package [40], using PRODIST followed by FITCH or NEIGNBOR and tree displaying using TreeView. This additional method produced trees with essentially the same topology (data not shown).
+
+In vitro interaction of TACC2 and RXRβ3
+
+The TACC2 cDNA was cloned into GST fusion vector pGEX5X2 (Amersham Biosciences, Piscataway, NJ, USA). GST and GST-TACC2 proteins were expressed in E. coli BL21(DE3) plys "S" with 1 mM IPTG at 37°C shaker for 2 hrs. Cells (50 ml) were harvested and resuspended in 5 ml of 20 mM Tris-HCl pH.8.0, 200 mM NaCl, 1 mM EDTA pH8.0, Protease inhibitor set III (Calbiochem). The cells were lysed by sonication and lysate cleared by centrifugation at 7500 rpm at 4°C for 15 min. The cleared lysate was immobilized on glutathione sepharose beads in 3 ml of 20 mM Tris-HCl pH.8.0, 200 mM NaCl, 1 mM EDTA pH8.0). RXRβ3 cDNA was cloned into pET 28C(+) (Invitrogen, Carlsbad, CA, USA) and protein synthesized by TNT quick coupled transcription/translation system kit (Promega) and radiolabeled with 35S methionine according to manufacturer's instructions. 100 μl of in vitro translated RXRβ3 protein in 1 ml of 20 mM Tris-HCl pH.8.0, 200 mM NaCl, 1 mM EDTA pH8.0 was incubated at 4°C with immobilized GST-TACC2 or GST for 90 min. Unbound RXRβ3 was removed by washing three times with 20 mM Tris-HCl pH.8.0, 200 mM NaCl, 1 mM EDTA pH8.0. Bound proteins were eluted from the beads at room temperature for 10 min in elution buffer (100 mM Tris HCl, pH8.0, 20 mM reduced glutathione). The proteins were analyzed on 12% SDS polyacrylamide gels. Coomassie blue staining verified equal loading of GST fusion protein. Dried gels were autoradiographed.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17713" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41998" end="42015" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17715" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42461" end="42483" />
+    <spannedText>Tetraodon nigroviridis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17717" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42665" end="42682" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17719" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42729" end="42740" />
+    <spannedText>Danio rerio</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17721" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44882" end="44894" />
+    <spannedText>Mus musculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17723" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44929" end="44941" />
+    <spannedText>Mus musculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17725" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44975" end="44987" />
+    <spannedText>Mus musculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17727" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45007" end="45028" />
+    <spannedText>Oryctolagus cuniculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17729" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45047" end="45058" />
+    <spannedText>Danio rerio</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17731" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45162" end="45177" />
+    <spannedText>Rattus norvegus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17733" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45211" end="45228" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17735" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45257" end="45274" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17737" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45294" end="45306" />
+    <spannedText>Mus musculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17739" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45326" end="45341" />
+    <spannedText>Rattus norvegus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17741" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45361" end="45376" />
+    <spannedText>Rattus norvegus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17743" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45396" end="45413" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17745" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45433" end="45448" />
+    <spannedText>Rattus norvegus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17747" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45467" end="45480" />
+    <spannedText>Gallus gallus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17749" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45499" end="45518" />
+    <spannedText>Silurana tropicalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17751" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45536" end="45553" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17753" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45572" end="45589" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17755" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45608" end="45626" />
+    <spannedText>Ciona intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17757" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45645" end="45662" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17759" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45683" end="45700" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17761" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45718" end="45736" />
+    <spannedText>Ciona intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17763" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45755" end="45773" />
+    <spannedText>Ciona intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17765" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46112" end="46130" />
+    <spannedText>Ciona intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17767" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46132" end="46155" />
+    <spannedText>Drosophila melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17769" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46157" end="46167" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17771" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46172" end="46196" />
+    <spannedText>Saccharomyces cerevisiae</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17773" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46341" end="46353" />
+    <spannedText>Homo sapiens</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17775" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46360" end="46372" />
+    <spannedText>Mus musculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17777" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46401" end="46422" />
+    <spannedText>Oryctolagus cuniculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17779" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46429" end="46442" />
+    <spannedText>Gallus gallus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17781" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46449" end="46463" />
+    <spannedText>Xenopus laevis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17783" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46470" end="46489" />
+    <spannedText>Silurana tropicalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17785" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46496" end="46513" />
+    <spannedText>Takifugu rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17787" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46520" end="46531" />
+    <spannedText>Danio rerio</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17789" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46538" end="46556" />
+    <spannedText>Ciona intestinalis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17791" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46563" end="46578" />
+    <spannedText>D. melanogaster</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17793" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46585" end="46595" />
+    <spannedText>C. elegans</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17795" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46602" end="46626" />
+    <spannedText>Saccharomyces cerevisiae</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17797" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="48318" end="48332" />
+    <spannedText>data not shown</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17799" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="48336" end="48344" />
+    <spannedText>In vitro</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17801" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="48524" end="48531" />
+    <spannedText>E. coli</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17803" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="49160" end="49162" />
+    <spannedText>35</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17805" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="49227" end="49235" />
+    <spannedText>in vitro</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17807" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="49806" end="50328" />
+    <spannedText>Authors' contributions
+
+I.H.S performed most of the sequence analysis and drafted the assembly of the TACC, KLP, KIF and RHAMM sequences. I.H.S. performed the cDNA isolation of the rabbit TACC3 cDNA. AK identified potential TACC1 splice variants, and the interaction between RXRβ3 and TACC2. A.M. characterized mouse TACC orthologues. P.L. performed the identification and assembly of T. rubripes gene sequences, and the phylogenetic analysis. I.H.S. conceived and designed the project and drafted the complete manuscript.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17810" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="50191" end="50202" />
+    <spannedText>T. rubripes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17812" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="50330" end="51417" />
+    <spannedText>Supplementary Material
+
+Additional file 1
+
+Location of paralogous genes found on human 4p16, 5q31-ter, 10q23-ter, 8p and chromosome 2. Positions of genes are given in Mb from the telomere of the short arm of the chromosome.
+
+Blue highlighted genes (five copies) are found in all four paralogous segments, and the partially duplicated segment on chromosome 2.
+
+Green highlighted genes are found in either all four paralogous segments, or three of the segments and the partially duplicated region on chromosome 2.
+
+Pink highlighted genes have paralogues in three of the segments, suggesting either loss of the fourth copy or exclusion of one paralogue from the second round of duplication.
+
+Black highlighted genes (two paralogues) are found in only one of the derivatives of the second round of genome duplication, suggesting complete exclusion of both copies from the second round of duplication.
+
+Purple highlighted genes (two paralogues) were duplicated at the second round of genome duplication, or from interchromosomal recombination between paralogous clusters.
+
+Click here for file</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_17815" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51419" end="51711" />
+    <spannedText>Acknowledgements
+
+We wish to thank Dr. Sei-ichi Matsui for his assistance and input in the preparation of this manuscript. This work was supported in part by developmental funds support from the Roswell Park Cancer Institute, and Core grant 2P30CA016056-27 from the National Cancer Institute.</spannedText>
+  </annotation>
+  <classMention id="formatting_Instance_17566">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17564">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17562">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17560">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17558">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17556">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17554">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17552">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17550">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17548">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17546">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17543">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17544" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17544">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 4" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17541">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17539">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17537">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17533">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17535">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17529">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17531">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17525">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17527">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17521">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17523">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17516">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17518">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17519" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17519">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 3" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17512">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17514">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17508">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17510">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17504">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17506">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17498">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17496">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17502">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17500">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17490">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17488">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17494">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17492">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17482">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17480">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17486">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17484">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17474">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17472">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17478">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17476">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17464">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17466">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17468">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17470">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17456">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17458">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17460">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17462">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17448">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17450">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17452">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17454">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17440">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17442">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17444">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17446">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17686">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17684">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17682">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17680">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17695">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17693">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17690">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17691" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17691">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 7" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17688">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17670">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17668">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17666">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17664">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17678">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17676">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17674">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17672">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17652">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17170">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17171" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17171">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Background" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17654">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17168">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17175">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17650">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17173">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17660">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17179">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17662">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17177">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17656">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17183">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17658">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17181">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17637">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17639">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17633">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17158">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17159" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17159">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="title" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17635">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17645">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17647">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17648" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17648">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 6" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17161">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17162" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17162">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="abstract" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17641">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17166">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17643">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17164">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17619">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17617">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17623">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17621">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17627">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17625">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17631">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17629">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17602">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17600">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17606">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17604">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17610">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17611" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17611">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 5" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17608">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17615">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17613">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17584">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17586">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17588">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17590">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17592">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17594">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17596">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17598">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17568">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17570">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17572">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17574">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17576">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17578">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17580">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17582">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17805">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17259">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17807">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17808" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17808">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Authors' contributions" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17257">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17801">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17263">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17803">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17261">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17797">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17251">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17799">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17249">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17793">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17255">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17795">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17253">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17275">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17273">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17279">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17277">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17267">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17812">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17813" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17813">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Supplementary Material" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17815">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17816" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17816">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Acknowledgements" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17265">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17271">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17269">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17810">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17775">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17289">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17773">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17291">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17771">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17293">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17769">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17295">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17767">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17281">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17765">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17283">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17763">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17285">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17761">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17287">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17791">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17305">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17789">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17307">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17787">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17309">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17785">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17311">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17783">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17297">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17781">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17299">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17779">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17301">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17777">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17303">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17737">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17199">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17739">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17197">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17741">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17195">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17743">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17193">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17729">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17191">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17731">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17189">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17733">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17187">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17735">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17185">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17753">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17755">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17213">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17214" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17214">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Results and Discussion" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17757">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17211">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17759">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17209">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17745">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17207">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17747">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17205">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17749">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17203">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17751">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17201">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17706">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17228">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17704">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17230">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17710">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17711" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17711">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Methods" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17224">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17708">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17226">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17220">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17699">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17222">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17697">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17216">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17218">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17701">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17702" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17702">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Conclusion" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17723">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17245">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17721">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17247">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17727">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17240">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17241" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17241">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 1" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17725">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17243">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17715">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17236">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17713">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17238">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17719">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17232">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17717">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17234">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17379">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17377">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17383">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17381">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17387">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17385">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17391">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17389">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17395">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17393">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17399">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17397">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17403">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17401">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17407">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17405">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17409">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17411">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_17412" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_17412">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 2" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_17414">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17416">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17418">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17420">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17422">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17424">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17426">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17428">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17430">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17432">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17434">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17436">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17438">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17319">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17317">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17315">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17313">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17327">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17325">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17323">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17321">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17335">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17333">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17331">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17329">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17343">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17341">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17339">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17337">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17349">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17351">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17345">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17347">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17357">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17359">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17353">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17355">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17365">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17367">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17361">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17363">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17373">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17375">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17369">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_17371">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+</annotations>
+

@@ -1,0 +1,2917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="15314655.txt">
+  <annotation>
+    <mention id="formatting_Instance_18106" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="0" end="116" />
+    <spannedText>The Zebrafish moonshine Gene Encodes Transcriptional Intermediary Factor 1γ, an Essential Regulator of Hematopoiesis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18109" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14" end="23" />
+    <spannedText>moonshine</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18111" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="118" end="1588" />
+    <spannedText>Abstract
+
+Hematopoiesis is precisely orchestrated by lineage-specific DNA-binding proteins that regulate transcription in concert with coactivators and corepressors. Mutations in the zebrafish moonshine (mon) gene specifically disrupt both embryonic and adult hematopoiesis, resulting in severe red blood cell aplasia. We report that mon encodes the zebrafish ortholog of mammalian transcriptional intermediary factor 1γ (TIF1γ) (or TRIM33), a member of the TIF1 family of coactivators and corepressors. During development, hematopoietic progenitor cells in mon mutants fail to express normal levels of hematopoietic transcription factors, including gata1, and undergo apoptosis. Three different mon mutant alleles each encode premature stop codons, and enforced expression of wild-type tif1γ mRNA rescues embryonic hematopoiesis in homozygous mon mutants. Surprisingly, a high level of zygotic tif1γ mRNA expression delineates ventral mesoderm during hematopoietic stem cell and progenitor formation prior to gata1 expression. Transplantation studies reveal that tif1γ functions in a cell-autonomous manner during the differentiation of erythroid precursors. Studies in murine erythroid cell lines demonstrate that Tif1γ protein is localized within novel nuclear foci, and expression decreases during erythroid cell maturation. Our results establish a major role for this transcriptional intermediary factor in the differentiation of hematopoietic cells in vertebrates.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18114" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="311" end="326" />
+    <spannedText>moonshine (mon)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18116" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="452" end="455" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18118" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="676" end="679" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18120" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="768" end="774" />
+    <spannedText>gata1,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18122" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="814" end="817" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18124" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="905" end="910" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18126" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="962" end="965" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18128" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1013" end="1018" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18130" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1128" end="1133" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18132" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1182" end="1187" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18134" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1590" end="6077" />
+    <spannedText>Introduction
+
+Hematopoiesis involves the coordinated processes of cell proliferation and differentiation of a relatively small number of progenitor cells into billions of circulating red and white blood cells (Thisse and Zon 2002). Hematopoiesis in vertebrates, from zebrafish to humans, is an evolutionarily conserved program that produces two waves of stem or progenitor cells that differ both in their embryonic origins and in the lineages of differentiated blood cells produced (Palis and Yoder 2001; Orkin and Zon 2002; Galloway and Zon 2003). The first, or primitive, wave of hematopoiesis originates from ventral mesoderm and gives rise to progenitor cells that differentiate in embryonic blood islands. The primitive wave of hematopoiesis produces a burst of embryonic erythrocytes and macrophages. The second, or definitive, wave of hematopoiesis arises from self-renewing stem cells that develop primarily in the intraembryonic aorta–gonad–mesonephros region. These definitive hematopoietic stem cells seed the later developing marrow spaces, to produce all lineages of adult blood cells, including definitive erythrocytes, myeloid cells, and lymphocytes.
+
+We have undertaken a genetic approach to characterize genes that control hematopoiesis using the zebrafish as a model system (Thisse and Zon 2002). As part of a large-scale forward genetic screen, we previously identified bloodless zebrafish mutants that failed to express the erythroid transcription factor gata1 normally in embryonic hematopoietic precursors (Ransom et al. 1996). We named one of these zebrafish genes moonshine (mon), and another group named a noncomplementing allele vampire (Weinstein et al. 1996).
+
+Here, we have determined that mutations in the mon gene cause a disruption in both primitive embryonic and definitive adult hematopoiesis, resulting in a severe loss of erythroid cells. Erythroid progenitor cells in mon mutants are initially present, but fail to express normal levels of hematopoietic transcription factors and undergo apoptosis.
+
+Positional cloning identifies the mon gene as the zebrafish ortholog of mammalian transcriptional intermediary factor 1γ (TIF1γ), a member of the TIF1 family of transcriptional coactivators and corepressors (Le Douarin et al. 1995; Friedman et al. 1996; Kim et al. 1996; Venturini et al. 1999; Peng et al. 2002). The three members of the vertebrate TIF1 family (α, β, and γ) are large nuclear proteins that each contain an N-terminal RBCC or TRIM domain (Reymond et al. 2001) composed of a RING finger, two B-boxes, and a coiled-coil domain. TIF1 family members also contain a C-terminal plant homeodomain finger and bromodomain that are characteristic of chromatin remodeling factors. TIF1α has been shown to associate with a variety of ligand-bound nuclear hormone receptors (Le Douarin et al. 1995) and function as a coactivator for retinoic acid receptors (Zhong et al.1999). TIF1β has been shown to act as a corepressor for the large family of Krüppel-associated box (KRAB) domain zinc-finger transcription factors (Friedman et al. 1996; Abrink et al. 2001). In contrast, TIF1γ does not associate directly with either nuclear receptors or KRAB domains that bind to the other TIF1 family members (Venturini et al. 1999; Abrink et al. 2001). Biochemical studies also demonstrate that TIF1γ forms both homo-oligomers and hetero-oligomers with TIF1α but not with TIF1β (Peng et al. 2002). The murine Tif1α and Tif1γ genes have not yet been subjected to gene targeting experiments, whereas analysis of mouse mutants demonstrates that Tif1β is required for postimplantation embryogenesis and mesoderm induction in particular (Cammas et al. 2000). Taken together, these studies suggest that a major function of TIF1 family members is to link DNA-binding proteins with other coactivators or corepressors during development.
+
+Our studies establish that tif1γ functions as an essential regulator of embryonic and adult hematopoiesis in vertebrates. Cell transplantation studies demonstrate that tif1γ acts in a cell-autonomous manner during embryonic hematopoiesis. The tif1γ gene is expressed specifically in ventral mesoderm and hematopoietic progenitors, then downregulated as erythroid maturation occurs. Tif1γ protein localizes to a novel class of nuclear bodies in both primary mouse embryo fibroblasts and erythroleukemia cell lines. Taken together, our studies demonstrate that Tif1γ is required for normal erythroid cell development and survival.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18137" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3065" end="3070" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18139" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3178" end="3194" />
+    <spannedText>moonshine (mon),</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18141" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3245" end="3252" />
+    <spannedText>vampire</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18143" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3326" end="3329" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18145" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3495" end="3498" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18147" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3661" end="3664" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18149" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3709" end="3756" />
+    <spannedText>transcriptional intermediary factor 1γ (TIF1γ),</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18151" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5028" end="5033" />
+    <spannedText>Tif1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18153" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5038" end="5043" />
+    <spannedText>Tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18155" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5161" end="5166" />
+    <spannedText>Tif1β</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18157" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5476" end="5481" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18159" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5617" end="5622" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18161" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5692" end="5697" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18163" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6079" end="20487" />
+    <spannedText>Results
+
+The Zebrafish mon Gene Is Essential for Both Primitive and Definitive Erythropoiesis
+
+In order to determine when the mon gene is required in development, we first examined hematopoietic gene expression and apoptosis in zebrafish homozygous mon mutant embryos. During embryogenesis, homozygous zebrafish mon mutants have no red blood cells (RBCs) visible in circulation (Ransom et al. 1996; Weinstein et al. 1996). The mon mutants initiate expression of gata1 in hematopoietic cells around the five-somite stage, similar to wild-type embryos (data not shown); however, based on TUNEL staining, the differentiating erythroid cells undergo programmed cell death from the 12-somite stage to 22 h postfertilization (hpf) (Figure 1A and 1B, arrows). At 12 somites, gata1 expression is only slightly reduced. By 18–22 hpf, hematopoietic-specific markers such as gata1, scl, gata2, and ikaros are not detected in the embryonic blood island (Figure 1A and 1B; unpublished data). The hematopoietic cells are thus correctly specified early during the development of mon mutant embryos, but these precursors undergo cell death. Based on expression of c-myb and rag1 (Figure 1B, arrows), mon mutants have normal myeloid and lymphoid development, respectively. In addition to the deficit of RBCs in mon mutants, there is a prominent loss of fin-fold and tail mesenchyme (Ransom et al. 1996). TUNEL staining of mon mutants demonstrates extensive apoptosis of mesenchymal cells in the trunk and tail bud regions (Figure 1A and 1B, arrows). The mon gene is thus required for normal development and survival of both committed erythroid progenitor cells and posterior mesenchymal cells.
+
+We next examined definitive hematopoiesis in rare surviving homozygous adult zebrafish mon mutants. Mutations in mon are generally lethal by 10 to 14 d of development (Ransom et al. 1996), although rare mon homozygous mutants (approximately 1 in 500 bloodless embryos) of all tested alleles survive to adulthood. Adult mon mutants show cardiac hypertrophy, presumably due to the severe anemia leading to a high output state (Figure 2). In wild-type zebrafish, the adult site of hematopoiesis is the kidney (Al Adhami and Kunz 1977), which contains erythroid, lymphoid, and myeloid populations at various stages of differentiation (Bennett et al. 2001). In mon homozygous mutants, there is a severe block in maturation at the proerythroblast stage (Figure 2), whereas the differentiation of myeloid cells is normal (unpublished data). This demonstrates that the mon gene product acts during both primitive and definitive erythropoiesis.
+
+Positional Cloning Identifies mon as the Zebrafish Ortholog of Mammalian TIF1γ
+
+We identified the mon gene by positional cloning using a panel of 2,200 diploid mutants collected from Tübingen background (TU)/WIK strain hybrid parents carrying the montg234 allele. The mon mutant gene was positioned on Chromosome 8 between microsatellite markers z987 and z11001 (Figure 3A) (Knapik et al. 1998). For positional cloning purposes, over 12,000 polymorphic markers were screened using amplified fragment length polymorphism (AFLP) (Ransom and Zon 1999), and 36 markers within the interval were isolated. One of these, MA3, was found to be 0.3 cM from the gene (Figure 3A) and was utilized as the starting point of a chromosomal walk. A critical P1 bacterial artificial chromosome clone (PAC), 107N19, was obtained that spanned the genetic interval. Two simple sequence conformation polymorphism (SSCP) markers found on this PAC clone flank the critical genetic interval. The marker 80M12-T7 maps two recombinants out of 4,400 meioses telomeric of the mutation, and the marker 157J23-T7 maps one recombinant centromic of the mutation (Figure 3A). The end sequences and SSCP markers of PAC 107N19 are found in the zebrafish genomic sequence contig ctg23107 (http://www.ensembl.org/Danio_rerio/) containing a predicted zebrafish TIF1 family gene. This PAC was hybridized to a kidney cDNA library, resulting in the isolation of four clones that represented the same gene.
+
+The mon gene encodes a member of the TIF1 family of transcriptional cofactors (Figure 3B and 3C). The coding sequence of mon is most similar to human TIFγ (Le Douarin et al. 1995; Friedman et al. 1996; Venturini et al. 1999), and the locations of exon boundaries are conserved between the zebrafish and human genes (unpublished data). The mon locus on zebrafish Chromosome 8 is also predicted to be syntenic to the region of human Chromosome 1p that contains the TIF1γ gene based on the conserved locations of 12 other orthologous gene pairs, including NRAS, mapped to these regions in human and zebrafish (Barbazuk et al. 2000). Therefore, based on sequence similarity and chromosomal location, the zebrafish mon gene is the likely ortholog of the human TIF1γ gene.
+
+We have identified ethyl-nitrosourea (ENU)-induced point mutations in three alleles of mon (Figure 3C and 3D), each of which generates a premature stop codon. The montb222b and montg234 alleles have a severe phenotype with no circulating blood cells. In contrast, the monm262 allele has 10–100 circulating blood cells by 48 hpf, in comparison to the approximately 3,000 RBCs in the circulation of wild-type or heterozygous embryos at the same time point. The monm262 allele was found to encode a premature stop codon at position E40, which would encode a putative protein of only 40 amino acids. Although this mutation would be expected to lead to a complete loss of mon gene product, another methionine is found downstream at amino acid position 104. In vitro translation experiments in reticulocyte lysates demonstrate reinitiation of translation from this methionine (unpublished data). Therefore, the hypomorphic larval phenotype of the monm262 allele is likely due to partial loss of mon function or expression. The presence of mutations in each of the mon alleles indicates that defective Tif1γ function is the cause of the mon phenotype.
+
+In order to determine whether tif1γ is expressed in hematopoietic mesoderm, we next examined zebrafish embryos by whole-mount in situ hybridization (Figure 4A). tif1γ mRNA is expressed maternally and is found throughout the embryo during blastula stages. During gastrulation and epiboly stages, zygotic expression of mon is highest in the mesendoderm of the germ ring. At tail bud and early somite stages a high level of tif1γ expression delineates a horseshoe-shaped population of ventral/lateral mesoderm that will give rise to blood and also expresses stem cell leukemiahematopoietic transcription factor (scl) (Liao et al. 1997). This group of cells continues to express tif1γ and scl while it converges and forms the embryonic blood island (Detrich et al. 1995). The tif1γ gene is also highly expressed in the central nervous system as well as the mesenchyme of the trunk and tail. Homozygous montg234 mutants have a greatly reduced amount of tif1γ mRNA in all tissues consistent with nonsense-mediated message decay. Thus, zebrafish tif1γ is specifically expressed in ventral mesoderm and putative hemangioblasts prior to and during the embryonic stages when hematopoietic progenitors are undergoing apoptosis in mon mutants. We also compared the expression of zebrafish mon to mouse Tif1γ (Figure 4A and 4B). Mouse Tif1γ is highly expressed in erythroid blood islands of the yolk sac, and it is subsequently expressed in the fetal liver at a high level, and in other tissues, including the central nervous system. Taken together these results strongly suggest that zebrafish mon and mouse Tif1γ are orthologs that function during hematopoiesis.
+
+Given that mammalian TIF1γ has been shown to form hetero-oligomers with Tif1α (Peng et al. 2002), we searched for additional TIF1 family members in zebrafish to compare with tif1γ. Using zebrafish expressed sequence tag (EST) sequences, we designed primers to RT-PCR amplify a TIF1-related cDNA from embryonic 10-hpf and 24-hpf RNA. This cDNA encodes a predicted zebrafish ortholog of human TIF1α based on predicted amino acid sequences (see Figure 3B). In addition, zebrafish tif1α ESTs map to LG4 in a region predicted to be syntenic to the region of human Chromosome 7 that contains the TIF1α gene based on the conserved locations of eight other orthologous gene pairs, including SEMA3A, mapped to these regions in human and zebrafish (Barbazuk et al. 2000). We next compared the embryonic expression pattern of tif1α mRNA to tif1γ by in situ hybridization. Like mammalian TIF1α (Le Douarin et al. 1995; Niederreither et al. 1999), the predicted zebrafish tif1γ gene is broadly expressed (see Figure 4A). At five somites, zebrafish tif1α does not display the relatively high expression in the horseshoe-shaped region of hematopoietic mesoderm seen with tif1γ. At later stages, tif1α is evenly expressed throughout most of the embryo, including the developing blood islands. Therefore, tif1α is coexpressed in the same cells with tif1γ and may therefore be available to form hetero-oligomers in vivo.
+
+Forced Expression of tif1γ Rescues Hematopoiesis in mon Mutants
+
+To further confirm that a mutation in the zebrafish tif1γ gene is responsible for the mon mutant phenotype we performed embryo rescue experiments (Figure 5A; Table 1). Microinjection of synthetic wild-type mon mRNA at the one-cell stage rescues the formation of embryonic erythrocytes in genotyped mutant embryos without causing obvious defects in embryonic patterning or organogenesis. At 4 d of development, 70% (n = 10) of montg234 mutants show significant (greater than 200 cells in comparison to a wild-type estimate of 3,000 cells) rescue of circulating hemoglobinized RBCs in comparison to control sibling mutants (n = 75). Based on the correction of the jagged fin-fold phenotype (Ransom et al. 1996), the mesenchymal cells are rescued to a similar extent as the anemia (unpublished data). Overexpression of mon did not result in expanded blood cell numbers in wild-type embryos and was not toxic at doses that rescue the phenotype of mon mutants (unpublished data). Since there were no expanded or ectopic blood populations in the embryos, these rescue experiments suggest that mon functions as a permissive factor required for hematopoiesis.
+
+Marrow Transplantation Rescues Erythropoiesis in mon Mutants
+
+The high levels of tif1γ expression in erythroid cells suggest that it functions as a cell-autonomous regulator of gene expression in hematopoietic cells. In order to test this hypothesis, we transplanted wild-type adult zebrafish kidney marrow cells carrying a gata1:green fluorescent protein (GFP) transgene into 48-hpf mon mutant embryos (Figure 5B; Table 2). The gata1:GFP transgene makes use of the gata1 promoter to drive GFP expression and can thus be used to mark donor-derived erythroid cells (Long et al. 1997). Untransplanted mutant embryos have no embryonic blood cells in circulation. Following transplantation, mutant host embryos were observed daily for 2 wk. Of 191 mutant embryos injected, 129 (68%) showed GFP+ cells in circulation 2 d later. Many recipients showed robust increases in donor-derived cells over the observation period. Of 81 recipients initially scored as having less than ten GFP+ cells at day 2 posttransplant, 13 (16%) of these demonstrated a marked increase in erythroid cells with 100–1,000 GFP+ cells in circulation 6 d later. By day 10, these transplanted embryos showed approximately 3,000 cells in circulation, similar to the number of blood cells in normal embryos. Despite robust reconstitution of blood cells, mutant recipients did not inflate their swim bladders and thus failed to survive longer than nontransplanted sibling controls, all dying by 3 wk of age. In contrast, 13/35 (37%) heterozygous montg234 transplants survived to early adulthood. Similar transplants of wild-type cells can fully rescue vlad tepes (gata1) mutants (Traver et al. 2003). Therefore, the results of cell transplantations suggests that tif1γ plays a cell-autonomous role in erythroid cells, and its role in nonhematopoietic tissues, such as trunk mesenchyme or the nervous system, is also required for embryo survival.
+
+Tif1γ in Punctate Nuclear Foci Is Developmentally Regulated
+
+In order to examine the subcellular distribution of Tif1γ protein, we generated an affinity-purified rabbit polyclonal antiserum directed against the C-terminal 15 amino acids conserved in human TIF1γ and mouse Tif1γ. Immunofluorescence of mouse embryo fibroblast nuclei with the anti-Tif1γ antiserum demonstrates that Tif1γ is localized in small nuclear foci (Figure 6A). The localization of Tif1γ protein appears different from the more diffuse nuclear patterns typically seen in studies of Tif1α (Remboutsika et al. 2002) or TIF1β (Cammas et al. 2002). A recent report demonstrates that TIF1β associates with heterochromatin-containing foci after retinoic acid treatment or serum starvation (Cammas et al. 2002). Thus, localization or expression of the TIF1 proteins may be regulated during distinct developmental processes or by environmental cues. The nuclear foci that contain Tif1γ do not colocalize with two markers of heterochromatin, HP1α protein and DAPI staining of DNA (Figure 6A). Furthermore, Tif1γ does not colocalize with promyelocytic leukemia gene product (PML) nuclear bodies, DNA repair complexes that contain Mre11, or transcriptional complexes containing TFII-B (unpublished data). We next examined the expression of Tif1γ protein during the differentiation of G1E cells, a murine erythroleukemia cell line that can terminally differentiate into erythrocytes when a Gata1:estrogen receptor fusion protein is stabilized in response to estrogen exposure (Weiss et al. 1997). Western blot analysis demonstrated that Tif1γ protein expression decreases with terminal erythroid differentiation (Figure 6B). Consistent with this finding, after 24 hpf, zebrafish mon mRNA expression falls during the terminal maturation of the primitive erythroid cells (unpublished data). In two different murine erythroleukemia cell lines (MEL and G1E), Tif1γ is also expressed in nuclear foci, and even though the overall Tif1γ protein level is reduced, this nuclear foci localization does not change with differentiation (unpublished data). This provides further support for the hypothesis that Tif1γ acts within novel nuclear foci, during erythroid differentiation.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18166" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6102" end="6105" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18168" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6205" end="6208" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18170" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6328" end="6331" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18172" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6391" end="6394" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18174" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6506" end="6509" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18176" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6541" end="6546" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18178" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6847" end="6852" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18180" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6943" end="6961" />
+    <spannedText>gata1, scl, gata2,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18182" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6966" end="6972" />
+    <spannedText>ikaros</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18184" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7143" end="7146" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18186" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7229" end="7232" />
+    <spannedText>myb</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18188" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7237" end="7241" />
+    <spannedText>rag1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18190" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7263" end="7266" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18192" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7373" end="7376" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18194" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7484" end="7487" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18196" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7616" end="7619" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18198" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7844" end="7847" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18200" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7870" end="7873" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18202" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7960" end="7963" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18204" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8076" end="8079" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18206" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8413" end="8416" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18208" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8618" end="8621" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18210" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8724" end="8727" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18212" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8792" end="8795" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18214" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8941" end="8949" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18216" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8944" end="8949" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18218" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8962" end="8965" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18220" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10163" end="10166" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18222" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10280" end="10283" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18224" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10498" end="10501" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18226" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10622" end="10627" />
+    <spannedText>TIF1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18228" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10712" end="10717" />
+    <spannedText>NRAS,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18230" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10869" end="10872" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18232" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10914" end="10919" />
+    <spannedText>TIF1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18234" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11014" end="11017" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18236" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11090" end="11099" />
+    <spannedText>montb222b</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18238" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11093" end="11099" />
+    <spannedText>tb222b</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18240" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11104" end="11112" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18242" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11107" end="11112" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18244" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11195" end="11202" />
+    <spannedText>monm262</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18246" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11198" end="11202" />
+    <spannedText>m262</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18248" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11386" end="11393" />
+    <spannedText>monm262</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18250" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11389" end="11393" />
+    <spannedText>m262</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18252" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11594" end="11597" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18254" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11868" end="11875" />
+    <spannedText>monm262</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18256" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11871" end="11875" />
+    <spannedText>m262</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18258" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11916" end="11919" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18260" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11985" end="11988" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18262" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12057" end="12060" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18264" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12103" end="12107" />
+    <spannedText>tif1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18266" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12234" end="12239" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18268" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12390" end="12393" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18270" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12494" end="12499" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18272" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12628" end="12646" />
+    <spannedText>stem cell leukemia</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18274" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12681" end="12686" />
+    <spannedText>(scl)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18276" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12748" end="12753" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18278" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12758" end="12761" />
+    <spannedText>scl</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18280" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12845" end="12850" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18282" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12971" end="12979" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18284" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="12974" end="12979" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18286" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13021" end="13026" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18288" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13112" end="13117" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18290" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13292" end="13295" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18292" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13350" end="13353" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18294" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13363" end="13368" />
+    <spannedText>Tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18296" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13395" end="13399" />
+    <spannedText>Tif1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18298" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13655" end="13658" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18300" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13669" end="13674" />
+    <spannedText>Tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18302" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13900" end="13906" />
+    <spannedText>tif1γ.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18304" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14203" end="14208" />
+    <spannedText>tif1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18306" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14316" end="14321" />
+    <spannedText>TIF1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18308" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14409" end="14416" />
+    <spannedText>SEMA3A,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18310" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14541" end="14546" />
+    <spannedText>tif1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18312" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14555" end="14560" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18314" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14602" end="14607" />
+    <spannedText>TIF1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18316" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14685" end="14690" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18318" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14761" end="14766" />
+    <spannedText>tif1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18320" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14882" end="14888" />
+    <spannedText>tif1γ.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18322" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14906" end="14911" />
+    <spannedText>tif1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18324" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15014" end="15019" />
+    <spannedText>tif1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18326" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15058" end="15063" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18328" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15151" end="15156" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18330" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15182" end="15185" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18332" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15247" end="15252" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18334" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15281" end="15284" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18336" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15401" end="15404" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18338" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15610" end="15611" />
+    <spannedText>n</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18340" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15621" end="15629" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18342" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15624" end="15629" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18344" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15817" end="15818" />
+    <spannedText>n</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18346" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16011" end="16014" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18348" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16138" end="16141" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18350" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16282" end="16285" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18352" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16397" end="16400" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18354" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16429" end="16433" />
+    <spannedText>tif1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18356" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16672" end="16709" />
+    <spannedText>gata1:green fluorescent protein (GFP)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18358" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16732" end="16735" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18360" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16777" end="16786" />
+    <spannedText>gata1:GFP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18362" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16814" end="16819" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18364" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17137" end="17138" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18366" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17324" end="17325" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18368" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17443" end="17444" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18370" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17857" end="17865" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18372" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17860" end="17865" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18374" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17963" end="17981" />
+    <spannedText>vlad tepes (gata1)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18376" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18074" end="18079" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18378" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19997" end="20000" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18380" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20489" end="27777" />
+    <spannedText>Discussion
+
+The zebrafish is an excellent model system to elucidate the molecular machinery controlling gene expression during hematopoiesis (Thisse and Zon 2002; Galloway and Zon 2003). As part of a large-scale forward genetic screen, we originally identified a complementation group of independent mutant alleles in the zebrafish gene that we named moonshine (Ransom et al. 1996). Positional cloning was used to identify the mon gene, establishing a critical role for a transcriptional intermediary factor, Tif1γ, during hematopoietic development.
+
+The mon Gene Encodes the Zebrafish Ortholog of Mammalian TIF1γ
+
+Our results strongly support the conclusion that we have positionally cloned the zebrafish mon gene correctly, and it is the ortholog of mammalian Tif1γ. Tif1γ is present in the critical genetic interval encompassing a single approximately 50-kb PAC clone defined by linkage analysis (see Figure 3). Sequence analysis indicates that zebrafish tif1γ is most similar in predicted amino acid sequence and intron/exon structure compared to the predicted orthologous human and mouse genes. Zebrafish tif1γ is located in a region of zebrafish Chromosome 8 syntenic to the region of human Chromosome 1 containing TIF1γ. We identified point mutations in tif1γ from three different alleles of mon that each result in premature stop codons and mRNA decay. In addition, tif1γ/Tif1γ is highly expressed in hematopoietic cells throughout embryogenesis in both zebrafish and mouse (see Figure 4). And as predicted, forced expression of wild-type tif1γ mRNA efficiently rescues hematopoiesis in mon mutants and does not perturb hematopoiesis in wild-type embryos (see Figure 5). We have also cloned the predicted zebrafish ortholog of tif1α, which is more uniformly expressed in zebrafish embryos like mammalian TIF1α (Le Douarin et al. 1995; Niederreither et al. 1999) (see Figures 3A and 4A) and may therefore be available to form hetero-oligomers with Tif1γ protein in developing hematopoietic cells. Comparing available zebrafish and mammalian TIF1-predicted amino acid sequences, it appears that the Tif1γ orthologs are the most highly conserved family members while the Tif1α sequences are relatively more divergent. We have not found a Tif1β ortholog, thus far, in the zebrafish or fugu genome or EST sequences. It is possible that Tif1β, like the KRAB domain transcription factors it binds to, may be present only in tetrapods (Urrutia 2003). However, more complete genome sequences will be needed to confirm this hypothesis. Based on our analysis of zebrafish mon mutants, it is reasonable to predict that Tif1γ, the most evolutionarily conserved TIF1 family member, plays a similarly essential role in human and mouse hematopoiesis.
+
+Mutations in tif1γ Cause Apoptosis of Erythroid Progenitors
+
+Our examination of hematopoietic gene expression, apoptosis, and marrow histology in mon mutants demonstrates that early erythroid progenitors are formed in homozygous mutants, but they fail to properly differentiate and instead undergo programmed cell death (see Figure 1). The expression of gata1 appears to initiate normally in the committed erythroid cells of mon mutants. However, the cells are abnormal prior to the complete loss of gata1 expression. TUNEL-positive apoptotic cells are abundant by the 12-somite stage of development, and by 22 hpf all hematopoietic gene expression is extinguished. The expression of marker genes, including scl and gata2, characteristic of hematopoietic stem cells and primitive hematopoietic progenitors, are also not detected in the embryonic blood islands of mutants at 22 hpf. This indicates that the mutant hematopoietic cells are not blocked prior to commitment to the erythroid lineage, but instead develop as abnormal erythroid cells and undergo apoptosis, similar to gata1-deficient erythroid cells (Fujiwara et al. 1996; Lyons et al. 2002). Defective erythropoiesis and severe anemia were also observed in rare surviving homozygous mutant mon adults, demonstrating that tif1γ is also required in definitive hematopoiesis (see Figure 2).
+
+The zygotic phenotypes of mon mutants may not reveal the function of maternally inherited Tif1γ. Maternally expressed zebrafish Tif1γ may play roles in hematopoiesis or other aspects of organogenesis that are not detectable due to the presence of wild-type mRNA in eggs laid by heterozygous mothers. Analysis of the offspring of homozygous mon mutant female zebrafish will aid in defining the function of this maternal mRNA. The present analysis of zygotic mon mutants provides data that are consistent with the conclusion that tif1γ is essential for erythropoiesis but do not rule out essential functions in other hematopoietic lineages.
+
+The hematopoietic phenotype of mon mutants resembles the loss of erythroid cells seen in both mouse Gata1 knockout embryos and zebrafish vlad tepes (gata1) mutant embryos (Fujiwara et al. 1996; Lyons et al. 2002). In an effort to determine if there is a genetic relationship between mon and gata1, we tested their ability to rescue erythropoiesis. Both injection of gata1 mRNA into mon homozygous mutant embryos and injection of tif1γ mRNA into gata1 knock-down embryos failed to rescue hematopoiesis (unpublished data). We also tested for a direct interaction between Tif1γ and Gata1 proteins by coimmunoprecipitation and yeast two-hybrid assays and found no association (unpublished data). Although the mutations in each of these genes arrest cells at a similar stage of development, our results suggest that gata1 and tif1γ act independently. This does not rule out the possibility that parallel genetic pathways involving gata1 and tif1γ, operating together, regulate gene transcription within blood cells.
+
+The Role of Tif1γ in Primitive and Definitive Erythropoiesis
+
+Taken together, our data suggest that tif1γ is required as a permissive cofactor for the erythroid lineage-specific control of hematopoietic gene expression. We reasonably predict that Tif1γ protein functions as a transcriptional intermediary factor in hematopoietic progenitor cells given that both TIF1α (Zhong et al. 1999) and TIF1β (Friedman et al. 1996; Abrink et al. 2001) have been shown to act as intermediary factors that positively or negatively regulate gene transcription. These studies indicate that TIF1α and TIF1β act as scaffolds that link different classes of DNA-binding proteins and chromatin-associated proteins into larger regulatory complexes. Tif1γ is detected within nuclear foci (see Figure 6), which, based on our analysis, do not appear to correspond to several types of previously described nuclear bodies, including PML bodies. Localization of Tif1γ to these nuclear bodies may be regulated by posttranslational modification such as SUMO modification that is required for PML to form PML nuclear domains (Zhong et al. 2000a, 2000b; Best et al. 2002). These foci may serve as assembly points where Tif1γ forms multisubunit complexes with DNA-binding transcription factors and their other essential coactivators or corepressors, during the early stages of erythroid differentiation. It will be important to determine the identity of Tif1γ-interacting proteins in nuclear foci and establish how they function with Tif1γ to regulate blood cell development.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18383" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20840" end="20849" />
+    <spannedText>moonshine</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18385" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20916" end="20919" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18387" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21044" end="21047" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18389" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21195" end="21198" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18391" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21447" end="21452" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18393" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21599" end="21604" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18395" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21710" end="21716" />
+    <spannedText>TIF1γ.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18397" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21750" end="21755" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18399" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21788" end="21791" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18401" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21863" end="21874" />
+    <spannedText>tif1γ/Tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18403" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22036" end="22041" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18405" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22084" end="22087" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18407" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22224" end="22230" />
+    <spannedText>tif1α,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18409" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22301" end="22306" />
+    <spannedText>TIF1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18411" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22778" end="22782" />
+    <spannedText>fugu</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18413" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23058" end="23061" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18415" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23246" end="23251" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18417" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23379" end="23382" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18419" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23587" end="23592" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18421" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23658" end="23661" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18423" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23733" end="23738" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18425" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23941" end="23944" />
+    <spannedText>scl</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18427" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23949" end="23955" />
+    <spannedText>gata2,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18429" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24310" end="24316" />
+    <spannedText>gata1-</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18431" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24483" end="24486" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18433" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24514" end="24519" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18435" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24608" end="24611" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18437" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24922" end="24925" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18439" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25039" end="25042" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18441" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25110" end="25115" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18443" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25253" end="25256" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18445" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25322" end="25327" />
+    <spannedText>Gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18447" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25359" end="25377" />
+    <spannedText>vlad tepes (gata1)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18449" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25505" end="25508" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18451" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25513" end="25519" />
+    <spannedText>gata1,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18453" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25588" end="25593" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18455" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25604" end="25607" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18457" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25651" end="25656" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18459" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25667" end="25672" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18461" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26033" end="26038" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18463" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26043" end="26048" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18465" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26148" end="26153" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18467" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26158" end="26164" />
+    <spannedText>tif1γ,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18469" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26334" end="26339" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18471" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27779" end="30781" />
+    <spannedText>Materials and Methods
+
+
+
+Zebrafish and mouse strains and studies
+
+Zebrafish were maintained and staged as described (Westerfield 1998). The alleles montb222b and montg234 were generated in a large-scale screen for ENU-induced mutations (Ransom et al. 1996) on the TU, whereas the monm262 allele was derived on the AB strain and was originally called vampire (Weinstein et al. 1996). Mapping strains were constructed by mating to WIK or SJD polymorphic strains. Linkage analysis was performed on haploid or diploid embryos obtained from TU/SJD or TU/WIK hybrids. In situ hybridization and stainings of embryos were done as described (Thompson et al. 1998; Liao et al. 2002). In situ hybridization of mouse embryos was performed as described (Kingsley et al. 2001). Genomic DNA isolation, genotyping, AFLP analysis, and chromosomal walking were each performed as previously described (Brownlie et al. 1998; Ransom and Zon 1999). A complete list of primers for genetic mapping, RT-PCR, and sequencing of mon are available on request.
+
+mRNA expression constructs, morpholinos, and microinjection
+
+The full-length mon cDNA was subcloned into EcoRI and XhoI sites in the pCS2+ vector. Synthetic mRNA was transcribed in vitro, and microinjection was performed essentially as described (Liao et al. 2002).
+
+Cell transplantation
+
+Whole kidney marrow cells were isolated from adult gata1:EGFP transgenic donors, resuspended in 0.9X phosphate-buffered saline + 5% fetal bovine serum, and injected into the sinus venosus of 2-d-old montg234 −/− and control embryos. Between 102 and 103 kidney marrow cells were injected per embryo. Individual transplanted embryos were anesthetized and visualized daily under an inverted fluorescent microscope (DM-IRE2; Leica, Wetzlar, Germany) for GFP+ cells over a span of 12 d. On day 13 posttransplant, all surviving larvae (12/129; 9%) were placed in tanks and monitored for survival.
+
+Antibodies, immunostaining, and immunoblots
+
+Antisera against the human C-terminal TIF1γ sequence RRKRLKSDERPVHIK was generated in rabbits (Genemed Synthesis, South San Francisco, California, United States) and affinity purified. Mouse embryonic fibroblasts grown on coverslips were immunostained with HP1α (Chemicon, Temecula, California, United States) and Tif1γ antisera simultaneously. In brief, cells were fixed in 4% paraformaldehyde for 5 min, washed with phosphate-buffered saline, and blocked with 5% serum (PBST) for 30 min. After incubation with the primary antibodies (PBST, 60 min) cells were washed three times with PBST and incubated with secondary antibodies (Jackson Laboratory, Bar Harbor, Maine, United States) followed by three washes in PBST. Cells were embedded with Vectashield/DAPI and analyzed using an Axioplan 2 microscope (Zeiss, Jena, Germany). Digital images were processed using the Volocity 1.0 software (Improvision, Lexington, Massachusetts, United States). G1E cell differentiation experiments were performed essentially as described (Weiss et al. 1997).</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18474" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27927" end="27936" />
+    <spannedText>montb222b</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18476" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27930" end="27936" />
+    <spannedText>tb222b</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18478" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27941" end="27949" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18480" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27944" end="27949" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18482" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28059" end="28066" />
+    <spannedText>monm262</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18484" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28062" end="28066" />
+    <spannedText>m262</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18486" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28129" end="28136" />
+    <spannedText>vampire</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18488" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28780" end="28783" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18490" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28888" end="28891" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18492" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28948" end="28949" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18494" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29151" end="29161" />
+    <spannedText>gata1:EGFP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18496" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29302" end="29307" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18498" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29343" end="29344" />
+    <spannedText>2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18500" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29351" end="29352" />
+    <spannedText>3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18502" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29553" end="29554" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18504" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30783" end="32535" />
+    <spannedText>Supporting Information
+
+Transplantation of wild-type zebrafish marrow cells carrying a gata1:GFP transgene into 2-d-old embryos reconstitutes erythropoiesis, but not viability, in montg234 homozygous mutants. Movies of live embryos at day 3 posttransplant highlight less than 100 GFP+ RBCs in circulation. Transplanted cells were observed to proliferate, resulting in thousands of donor-derived erythrocytes 7 d later. Movies present GFP-fluorescent images of live zebrafish larvae.
+
+Video S1
+
+Untransplanted Control montg234 Homozygous Mutants Had No Fluorescent Cells in Circulation at 3 Days of Development
+
+(13.7 MB MOV).
+
+Click here for additional data file.
+
+Video S2
+
+One Day after Transplantation, Less Than 100 GFP+ Erythrocytes Were Visible in the Circulation of Three montg234 Homozygous Mutants
+
+(11.3 MB MOV).
+
+Click here for additional data file.
+
+Video S3
+
+Untransplanted Control montg234 Homozygous Mutants Had No Fluorescent Cells in Circulation at 9 Days of Development
+
+(7.9 MB MOV).
+
+Click here for additional data file.
+
+Video S4
+
+Seven Days after Transplantation, Thousands of Donor-Derived Erythrocytes Were Visible in the Circulation of a Representative montg234 Homozygous Mutant
+
+(11.2 MB MOV)
+
+Click here for additional data file.
+
+Accession Numbers
+
+The GenBank (http://www.ncbi.nlm.nih.gov/Genbank) accession numbers for the genes and gene products discussed in this paper are fly bonus (AAF19646), human TIF1α (015164), human TIF1β (Q13263), human TIFγ (Q9UPN9), human TIF1γ (Q9UPN9), mon (AY59853), mouse Tif1α (Q64127), mouse Tif1β (AAH58391), and mouse Tif1γ (NP444400).
+
+The cDNA sequences of zebrafish mon/tif1γ and tif1α have been deposited in GenBank under the accession numbers AY598453 and AY598454, respectively.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18507" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30870" end="30879" />
+    <spannedText>gata1:GFP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18509" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30966" end="30971" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18511" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31066" end="31067" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18513" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31300" end="31308" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18515" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31303" end="31308" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18517" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31506" end="31507" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18519" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31562" end="31570" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18521" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31565" end="31570" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18523" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31678" end="31686" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18525" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31681" end="31686" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18527" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31961" end="31969" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18529" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31964" end="31969" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18531" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32298" end="32301" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18533" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32420" end="32429" />
+    <spannedText>mon/tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18535" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32434" end="32439" />
+    <spannedText>tif1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18537" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32537" end="33142" />
+    <spannedText>Acknowledgements
+
+We thank A. Davidson, J. Amatruda, and J. Christian for critical review of this manuscript; J. Postlethwait and W. Talbot for helpful discussions and experimental advice; B. Weinstein for the gift of the m262 allele of mon; and D. Giarla for administrative assistance. DGR was funded by the American Cancer Society and an award to Oregon Health and Science University by the Howard Hughes Medical Institute (HHMI) Biomedical Research Support Program for Medical Schools. LIZ and SHO are investigators of the HHMI. This work was supported by grants from the National Institutes of Health.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18540" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32759" end="32763" />
+    <spannedText>m262</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18542" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32774" end="32778" />
+    <spannedText>mon;</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18544" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33144" end="33544" />
+    <spannedText>Abbreviations
+
+AFLP - amplified fragment length polymorphism
+
+ENU - ethyl-nitrosourea
+
+EST - expressed sequence tag
+
+GFP - green fluorescent protein
+
+hpf - hours postfertilization
+
+KRAB - Krüppel-associated box
+
+mon - moonshine; PAC
+
+PML - promyelocytic leukemia gene product
+
+RBCs - red blood cells
+
+scl - stem cell leukemia; SSCP
+
+TIF - transcriptional intermediary factor
+
+TU - Tübingen background</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18547" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33546" end="40788" />
+    <spannedText>Figures and Tables
+
+Figure 1
+
+Zebrafish mon Mutants Have Severe Defects in Primitive Hematopoiesis
+
+(A) Whole-mount TUNEL assays reveal that ventral-posterior mesodermal cells undergo apoptosis in homozygous montg234 mutant embryos. Whole-mount in situ hybridization of gata1 detected at the 12- and 18-somite stage in genotyped embryos. Posterior views, anterior to the left.
+
+(B) Extensive apoptosis is visible in the trunk and tail (arrowhead) and also in hematopoietic cells of the embryonic blood island at 22 h of development (arrow). Whole-mount in situ hybridization at 22 hpf including scl, gata2, gata1, ikaros, and myb in montg234 mutants. Expression of myb is greatly reduced in the blood islands because of a loss of erythroid cells, but embryonic macrophages are still present (arrows). The expression of rag1 in thymic T-cells appears normal in mon mutants at 5 d postfertilization (arrow heads). Lateral views of 22 hpf and 5-d-old embryos.
+
+Figure 2
+
+Zebrafish mon Mutants Also Have Severe Defects in Definitive Hematopoiesis
+
+Adult phenotype of wild-type and mon mutants. A rare surviving montb222 homozygous adult shows significant cardiomegaly in comparison to a wild-type age-matched control. Wright–Giemsa stained marrow of wild-type adult in comparison to a homozygous mutant. Note the dramatic reduction of terminally differentiated erythroid cells and the presence of abnormally large megaloblastic proerythroblasts in the montb222 mutant marrow.
+
+Figure 3
+
+Positional Cloning Identifies the mon Gene as Zebrafish tif1γ
+
+(A) Physical map of the mon locus on zebrafish Chromosome 8. Microsatellite markers z987 and z11001 were used to initially identify recombinants in a panel of 2,200 diploid montg234 homozygous mutants. The AFLP marker MA3 was used to initiate a chromosomal walk in PAC libraries. The critical PACS that were isolated to encompass the mon locus are indicated by numbers above bar. The PAC 107N19 defines the critical interval for the mon gene. This PAC was used as a probe to screen cDNA libraries and to identify zebrafish tif1γ cDNAs. Numbers below the bar indicate the number of recombinants identified by SSCP analysis.
+
+(B) Clustal-W–generated phylogentic tree of zebrafish (Danio rerio [Dr]) Tif1γ and Tif1α peptide sequences in comparison to TIF1 family members: human (Hs) TIF1α, TIF1β, and TIF1γ; mouse (Mm) Tif1α, Tif1β, and Tif1γ;; and fly (Dm) bonus.
+
+(C) Diagrams illustrating the structure of the Tif1γ-predicted peptide and the three identified point mutants. RING finger (RING), B-boxes (B1 and B2), plant homeodomain finger (PHD) and bromodomain (BROMO). Numbers below the first diagram indicate the percent identity shared between each of these domains in zebrafish and human TIF1γ. The predicted truncated proteins are indicated.
+
+(D) DNA sequence chromatograms showing the three ENU-induced point mutants in comparison to wild-type control sequences
+
+Figure 4
+
+The mon/tif1γ Gene Is Highly Expressed in Hematopoietic Mesoderm
+
+(A) In situ hybridization of zebrafish embryos demonstrating the embryonic expression of tif1γ. tif1γ is initially expressed as a maternal mRNA. Increased expression of tif1γ in ventral-lateral mesoderm begins between the one- to three-somite stages and increases through early development. By five somites, tif1γ is strongly expressed in lateral stripes of mesoderm that also express scl. At 22 hpf tif1γ is expressed broadly in the brain, spinal cord, trunk, and tail mesenchyme, but is at much higher levels in hematopoietic cells of the blood island. Zebrafish tif1α is also broadly expressed but relatively more uniform in most tissues, in comparison to tif1γ. Tif1α is weakly expressed at early somite stages in hematopoietic mesoderm and uniformly expressed at 22 hpf, including expression in the blood islands. Expression of scl at five somites and 22 hpf highlights the embryonic blood island in comparison to tif1γ expression.
+
+(B) In situ hybridization of mouse embryos detects broad expression of Tif1γ at embryonic day 8.5 including the yolk sac blood islands (arrow). AT embryonic day 12.5, there is high level expression in the fetal liver (arrow) and broad expression in the embryonic brain, spinal chord, gut, and muscle.
+
+Figure 5
+
+Overexpression of Wild-Type tif1γ mRNA or Marrow Transplantation Rescues Embryonic Hematopoiesis in mon Mutants
+
+(A) montg234 mutants are rescued by injection of mRNA-encoding wild-type Tif1γ protein. At 4 d of development, large numbers of RBCs are visible in the circulation of wild-type zebrafish, shown here by o-dianisidine staining of hemoglobin. Uninjected monttg234 homozygous mutants are completely bloodless. Injection of 100 pg of wild-type tif1γ mRNA rescues erythropoiesis in mutant embryos. o-dianisidine-stained larvae are shown in ventral views to highlight blood in vessels.
+
+(B) Transplantation of wild-type zebrafish marrow cells carrying a gata1:GFP transgene into 2-d-old embryos reconstitutes erythropoiesis, but not viability, in montg234 homozygous mutants. Still frames from movies of live embryos at day 3 posttransplant highlight less than 100 GFP+ RBCs in circulation (top). Transplanted cells were observed to proliferate resulting in thousands of donor-derived erythrocytes 7 d later (bottom). Arrows indicate the hearts of control and transplanted zebrafish. See Videos S1–S4.
+
+Figure 6
+
+Mammalian Tif1γ Protein Localizes to Nuclear Bodies Distinct from Heterochromatin
+
+(A) Deconvolved immunofluorescence images of a mouse embryonic fibroblast cell nucleus stained with an anti-Tif1γ antibody and stained with a monoclonal antibody directed against HP1α. This is also compared to DAPI staining. The merged images of the nucleus show that Tif1γ does not colocalize with the HP1α or DAPI staining of heterochromatin while HP1α and DAPI staining overlap.
+
+(B) G1ER mouse erythroleukemia cells express high levels of Tif1γ protein as detected by Western blot analysis. Expression of Tif1γ decreases during Gata1-dependent erythroid maturation induced by β-estradiol treatment to induce a Gata1–ER fusion protein.
+
+Table 1
+
+Overexpression of tif1γ mRNA Rescues mon Mutants: Hematopoietic Phenotypes
+
+Synthetic tif1γ mRNA (100 pg) was injected at the one-cell stage into embryos of the indicated genotypes. For the mon embryos, circulating cells where counted each day through 4 d, when the embryos were fixed and stained with o-dianisidine to detect hemoglobin in mature RBCs. Normal embryos contain approximately 3,000 circulating cells at these time points. Results are given as number of embryos with the indicated phenotype. Numbers in parentheses represent percentage of total embryos analyzed
+
+Table 2
+
+Marrow Transplantation Rescues Hematopoiesis But Not Survival in mon Mutants: Embryos with Transplanted Erythroid Cells
+
+Between 100 and 1,000 kidney marrow cells from adult gata1:EGFP transgenic donors were injected per zebrafish embryo at 48 hpf. Individual transplanted embryos were anesthetized and visualized for GFP+ erythroid cells. By 10 d posttransplantation the indicated number of embryos had an estimated 100 to 3,000 GFP+ cells in circulation. At 3 mo the indicated number of fish were alive. The relative percentage of embryos is shown in parentheses</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18550" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33566" end="34502" />
+    <spannedText>Figure 1
+
+Zebrafish mon Mutants Have Severe Defects in Primitive Hematopoiesis
+
+(A) Whole-mount TUNEL assays reveal that ventral-posterior mesodermal cells undergo apoptosis in homozygous montg234 mutant embryos. Whole-mount in situ hybridization of gata1 detected at the 12- and 18-somite stage in genotyped embryos. Posterior views, anterior to the left.
+
+(B) Extensive apoptosis is visible in the trunk and tail (arrowhead) and also in hematopoietic cells of the embryonic blood island at 22 h of development (arrow). Whole-mount in situ hybridization at 22 hpf including scl, gata2, gata1, ikaros, and myb in montg234 mutants. Expression of myb is greatly reduced in the blood islands because of a loss of erythroid cells, but embryonic macrophages are still present (arrows). The expression of rag1 in thymic T-cells appears normal in mon mutants at 5 d postfertilization (arrow heads). Lateral views of 22 hpf and 5-d-old embryos.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18553" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33586" end="33589" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18555" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33754" end="33762" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18557" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33757" end="33762" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18559" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33816" end="33821" />
+    <spannedText>gata1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18561" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34141" end="34167" />
+    <spannedText>scl, gata2, gata1, ikaros,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18563" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34172" end="34175" />
+    <spannedText>myb</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18565" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34179" end="34187" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18567" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34182" end="34187" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18569" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34211" end="34214" />
+    <spannedText>myb</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18571" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34365" end="34369" />
+    <spannedText>rag1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18573" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34406" end="34409" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18575" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34504" end="35017" />
+    <spannedText>Figure 2
+
+Zebrafish mon Mutants Also Have Severe Defects in Definitive Hematopoiesis
+
+Adult phenotype of wild-type and mon mutants. A rare surviving montb222 homozygous adult shows significant cardiomegaly in comparison to a wild-type age-matched control. Wright–Giemsa stained marrow of wild-type adult in comparison to a homozygous mutant. Note the dramatic reduction of terminally differentiated erythroid cells and the presence of abnormally large megaloblastic proerythroblasts in the montb222 mutant marrow.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18578" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34524" end="34527" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18580" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34623" end="34626" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18582" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34653" end="34661" />
+    <spannedText>montb222</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18584" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34656" end="34661" />
+    <spannedText>tb222</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18586" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34994" end="35002" />
+    <spannedText>montb222</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18588" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34997" end="35002" />
+    <spannedText>tb222</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18590" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35019" end="36460" />
+    <spannedText>Figure 3
+
+Positional Cloning Identifies the mon Gene as Zebrafish tif1γ
+
+(A) Physical map of the mon locus on zebrafish Chromosome 8. Microsatellite markers z987 and z11001 were used to initially identify recombinants in a panel of 2,200 diploid montg234 homozygous mutants. The AFLP marker MA3 was used to initiate a chromosomal walk in PAC libraries. The critical PACS that were isolated to encompass the mon locus are indicated by numbers above bar. The PAC 107N19 defines the critical interval for the mon gene. This PAC was used as a probe to screen cDNA libraries and to identify zebrafish tif1γ cDNAs. Numbers below the bar indicate the number of recombinants identified by SSCP analysis.
+
+(B) Clustal-W–generated phylogentic tree of zebrafish (Danio rerio [Dr]) Tif1γ and Tif1α peptide sequences in comparison to TIF1 family members: human (Hs) TIF1α, TIF1β, and TIF1γ; mouse (Mm) Tif1α, Tif1β, and Tif1γ;; and fly (Dm) bonus.
+
+(C) Diagrams illustrating the structure of the Tif1γ-predicted peptide and the three identified point mutants. RING finger (RING), B-boxes (B1 and B2), plant homeodomain finger (PHD) and bromodomain (BROMO). Numbers below the first diagram indicate the percent identity shared between each of these domains in zebrafish and human TIF1γ. The predicted truncated proteins are indicated.
+
+(D) DNA sequence chromatograms showing the three ENU-induced point mutants in comparison to wild-type control sequences</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18593" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35063" end="35066" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18595" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35085" end="35090" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18597" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35116" end="35119" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18599" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35265" end="35273" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18601" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35268" end="35273" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18603" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35426" end="35429" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18605" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35525" end="35528" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18607" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35615" end="35620" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18609" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36462" end="37776" />
+    <spannedText>Figure 4
+
+The mon/tif1γ Gene Is Highly Expressed in Hematopoietic Mesoderm
+
+(A) In situ hybridization of zebrafish embryos demonstrating the embryonic expression of tif1γ. tif1γ is initially expressed as a maternal mRNA. Increased expression of tif1γ in ventral-lateral mesoderm begins between the one- to three-somite stages and increases through early development. By five somites, tif1γ is strongly expressed in lateral stripes of mesoderm that also express scl. At 22 hpf tif1γ is expressed broadly in the brain, spinal cord, trunk, and tail mesenchyme, but is at much higher levels in hematopoietic cells of the blood island. Zebrafish tif1α is also broadly expressed but relatively more uniform in most tissues, in comparison to tif1γ. Tif1α is weakly expressed at early somite stages in hematopoietic mesoderm and uniformly expressed at 22 hpf, including expression in the blood islands. Expression of scl at five somites and 22 hpf highlights the embryonic blood island in comparison to tif1γ expression.
+
+(B) In situ hybridization of mouse embryos detects broad expression of Tif1γ at embryonic day 8.5 including the yolk sac blood islands (arrow). AT embryonic day 12.5, there is high level expression in the fetal liver (arrow) and broad expression in the embryonic brain, spinal chord, gut, and muscle.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18612" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36476" end="36485" />
+    <spannedText>mon/tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18614" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36627" end="36639" />
+    <spannedText>tif1γ. tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18616" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36707" end="36712" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18618" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36846" end="36851" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18620" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36923" end="36927" />
+    <spannedText>scl.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18622" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36938" end="36943" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18624" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37103" end="37108" />
+    <spannedText>tif1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18626" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37197" end="37209" />
+    <spannedText>tif1γ. Tif1α</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18628" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37371" end="37374" />
+    <spannedText>scl</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18630" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37457" end="37462" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18632" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37547" end="37552" />
+    <spannedText>Tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18634" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37778" end="38895" />
+    <spannedText>Figure 5
+
+Overexpression of Wild-Type tif1γ mRNA or Marrow Transplantation Rescues Embryonic Hematopoiesis in mon Mutants
+
+(A) montg234 mutants are rescued by injection of mRNA-encoding wild-type Tif1γ protein. At 4 d of development, large numbers of RBCs are visible in the circulation of wild-type zebrafish, shown here by o-dianisidine staining of hemoglobin. Uninjected monttg234 homozygous mutants are completely bloodless. Injection of 100 pg of wild-type tif1γ mRNA rescues erythropoiesis in mutant embryos. o-dianisidine-stained larvae are shown in ventral views to highlight blood in vessels.
+
+(B) Transplantation of wild-type zebrafish marrow cells carrying a gata1:GFP transgene into 2-d-old embryos reconstitutes erythropoiesis, but not viability, in montg234 homozygous mutants. Still frames from movies of live embryos at day 3 posttransplant highlight less than 100 GFP+ RBCs in circulation (top). Transplanted cells were observed to proliferate resulting in thousands of donor-derived erythrocytes 7 d later (bottom). Arrows indicate the hearts of control and transplanted zebrafish. See Videos S1–S4.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18637" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37816" end="37821" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18639" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37888" end="37891" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18641" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37905" end="37913" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18643" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37908" end="37913" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18645" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38152" end="38161" />
+    <spannedText>monttg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18647" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38155" end="38161" />
+    <spannedText>ttg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18649" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38240" end="38245" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18651" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38448" end="38457" />
+    <spannedText>gata1:GFP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18653" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38541" end="38549" />
+    <spannedText>montg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18655" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38544" end="38549" />
+    <spannedText>tg234</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18657" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38662" end="38663" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18659" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38897" end="39628" />
+    <spannedText>Figure 6
+
+Mammalian Tif1γ Protein Localizes to Nuclear Bodies Distinct from Heterochromatin
+
+(A) Deconvolved immunofluorescence images of a mouse embryonic fibroblast cell nucleus stained with an anti-Tif1γ antibody and stained with a monoclonal antibody directed against HP1α. This is also compared to DAPI staining. The merged images of the nucleus show that Tif1γ does not colocalize with the HP1α or DAPI staining of heterochromatin while HP1α and DAPI staining overlap.
+
+(B) G1ER mouse erythroleukemia cells express high levels of Tif1γ protein as detected by Western blot analysis. Expression of Tif1γ decreases during Gata1-dependent erythroid maturation induced by β-estradiol treatment to induce a Gata1–ER fusion protein.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18662" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39630" end="40213" />
+    <spannedText>Table 1
+
+Overexpression of tif1γ mRNA Rescues mon Mutants: Hematopoietic Phenotypes
+
+Synthetic tif1γ mRNA (100 pg) was injected at the one-cell stage into embryos of the indicated genotypes. For the mon embryos, circulating cells where counted each day through 4 d, when the embryos were fixed and stained with o-dianisidine to detect hemoglobin in mature RBCs. Normal embryos contain approximately 3,000 circulating cells at these time points. Results are given as number of embryos with the indicated phenotype. Numbers in parentheses represent percentage of total embryos analyzed</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18665" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39657" end="39662" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18667" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39676" end="39679" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18669" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39725" end="39730" />
+    <spannedText>tif1γ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18671" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39829" end="39832" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18673" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40215" end="40788" />
+    <spannedText>Table 2
+
+Marrow Transplantation Rescues Hematopoiesis But Not Survival in mon Mutants: Embryos with Transplanted Erythroid Cells
+
+Between 100 and 1,000 kidney marrow cells from adult gata1:EGFP transgenic donors were injected per zebrafish embryo at 48 hpf. Individual transplanted embryos were anesthetized and visualized for GFP+ erythroid cells. By 10 d posttransplantation the indicated number of embryos had an estimated 100 to 3,000 GFP+ cells in circulation. At 3 mo the indicated number of fish were alive. The relative percentage of embryos is shown in parentheses</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18676" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40289" end="40292" />
+    <spannedText>mon</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18678" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40398" end="40408" />
+    <spannedText>gata1:EGFP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18680" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40545" end="40546" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18682" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40657" end="40658" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18684" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40790" end="41696" />
+    <spannedText>Footnotes
+
+Conflicts of interest. The authors have declared that no conflicts of interest exist.
+
+Author contributions. DGR, NB, KN, DT, CB, NST, YZ, JP, SHO, and LIZ conceived and designed the experiments. DGR, NB, KN, DT, CB, NST, NPL, WJS, CAL, CH, BAB, and PDK performed the experiments. DGR, NB, KN, DT, CB, NST, NPL, YZ, JP, SHO, and LIZ analyzed the data. DGR, NB, KN, DT, NST, YZ, BAB, SL, and JP contributed reagents/materials/analysis tools. DGR, NB, KN, DT, and LIZ wrote the paper.
+
+Academic Editor: William Talbot, Stanford University
+
+¤Current address: Department of Cell and Developmental Biology, Oregon Health and Science University, Portland, Oregon, United States of America
+
+Citation: Ransom DG, Bahary N, Niss K, Traver D, Burns C, et al. (2004) The zebrafish moonshine gene encodes transcriptional intermediary factor 1γ, an essential regulator of hematopoiesis. PLoS Biol 2(8): e237.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18687" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40801" end="40823" />
+    <spannedText>Conflicts of interest.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18689" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40888" end="40909" />
+    <spannedText>Author contributions.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_18691" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41571" end="41580" />
+    <spannedText>moonshine</spannedText>
+  </annotation>
+  <classMention id="formatting_Instance_18397">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18399">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18393">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18395">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18389">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18391">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18385">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18387">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18380">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18381" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18381">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Discussion" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18383">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18376">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18378">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18372">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18374">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18368">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18370">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18366">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18364">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18362">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18360">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18358">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18356">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18354">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18352">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18350">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18348">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18346">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18344">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18342">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18340">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18338">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18336">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18457">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18459">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18461">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18463">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18449">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18451">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18453">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18455">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18441">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18443">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18445">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18447">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18433">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18435">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18437">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18439">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18427">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18425">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18431">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18429">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18419">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18417">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18423">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18421">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18411">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18409">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18415">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18413">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18403">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18401">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18407">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18405">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18260">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18262">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18256">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18258">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18268">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18270">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18264">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18266">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18244">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18246">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18240">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18242">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18252">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18254">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18248">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18250">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18230">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18228">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18226">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18224">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18238">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18236">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18234">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18232">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18214">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18212">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18210">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18208">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18222">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18220">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18218">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18216">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18320">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18322">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18324">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18326">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18328">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18330">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18332">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18334">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18304">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18306">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18308">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18310">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18312">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18314">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18316">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18318">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18290">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18288">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18294">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18292">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18298">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18296">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18302">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18300">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18274">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18272">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18278">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18276">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18282">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18280">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18286">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18284">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18126">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18601">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18124">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18603">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18122">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18605">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18120">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18607">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18118">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18593">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18116">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18595">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18114">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18597">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18599">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18143">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18616">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18141">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18618">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18139">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18620">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18137">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18622">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18609">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18610" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18610">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 4" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18134">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18135" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18135">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Introduction" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18132">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18612">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18130">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18614">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18128">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18634">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18635" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18635">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 5" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18632">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18639">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18637">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18626">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18624">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18630">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18628">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18651">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18109">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18649">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18111">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18112" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18112">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="abstract" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18655">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18653">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18106">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18107" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18107">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="title" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18643">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18641">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18647">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18645">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18186">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18669">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18184">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18671">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18190">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18665">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18188">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18667">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18178">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18662">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18663" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18663">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Table 1" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18176">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18182">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18657">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18180">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18659">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18660" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18660">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 6" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18684">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18685" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18685">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Footnotes" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18202">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18687">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18200">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18680">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18206">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18682">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18204">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18676">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18194">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18678">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18192">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18673">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18674" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18674">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Table 2" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18198">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18196">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18153">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18155">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18157">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18159">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18145">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18147">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18691">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18149">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18689">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18151">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18168">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18170">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18172">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18174">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18161">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18163">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18164" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18164">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Results" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18166">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18465">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18467">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18469">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18471">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18472" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18472">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Materials and Methods" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18474">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18476">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18478">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18480">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18482">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18484">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18486">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18488">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18490">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18492">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18494">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18498">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18496">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18502">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18500">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18507">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18504">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18505" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18505">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Supporting Information" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18511">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18509">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18515">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18513">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18519">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18517">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18523">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18521">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18527">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18525">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18533">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18535">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18529">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18531">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18540">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18542">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18537">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18538" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18538">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Acknowledgements" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18550">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18551" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18551">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 1" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18544">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18545" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18545">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Abbreviations" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18547">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18548" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18548">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figures and Tables" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18557">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18559">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18553">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18555">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18567">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18565">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18563">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18561">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18575">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18576" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18576">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 2" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18573">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18571">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18569">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18582">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18580">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18578">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18590">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_18591" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_18591">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 3" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_18588">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18586">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_18584">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+</annotations>
+

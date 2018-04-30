@@ -1,0 +1,3485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="17696610.txt">
+  <annotation>
+    <mention id="formatting_Instance_53600" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="0" end="103" />
+    <spannedText>Mouse Pachytene Checkpoint 2 (Trip13) Is Required for Completing Meiotic Recombination but Not Synapsis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53603" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29" end="37" />
+    <spannedText>(Trip13)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53605" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="105" end="1568" />
+    <spannedText>Abstract
+
+In mammalian meiosis, homologous chromosome synapsis is coupled with recombination. As in most eukaryotes, mammalian meiocytes have checkpoints that monitor the fidelity of these processes. We report that the mouse ortholog (Trip13) of pachytene checkpoint 2 (PCH2), an essential component of the synapsis checkpoint in Saccharomyces cerevisiae and Caenorhabditis elegans, is required for completion of meiosis in both sexes. TRIP13-deficient mice exhibit spermatocyte death in pachynema and loss of oocytes around birth. The chromosomes of mutant spermatocytes synapse fully, yet retain several markers of recombination intermediates, including RAD51, BLM, and RPA. These chromosomes also exhibited the chiasmata markers MLH1 and MLH3, and okadaic acid treatment of mutant spermatocytes caused progression to metaphase I with bivalent chromosomes. Double mutant analysis demonstrated that the recombination and synapsis genes Spo11, Mei1, Rec8, and Dmc1 are all epistatic to Trip13, suggesting that TRIP13 does not have meiotic checkpoint function in mice. Our data indicate that TRIP13 is required after strand invasion for completing a subset of recombination events, but possibly not those destined to be crossovers. To our knowledge, this is the first model to separate recombination defects from asynapsis in mammalian meiosis, and provides the first evidence that unrepaired DNA damage alone can trigger the pachytene checkpoint response in mice.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53608" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="339" end="347" />
+    <spannedText>(Trip13)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53610" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="374" end="381" />
+    <spannedText>(PCH2),</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53612" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="464" end="487" />
+    <spannedText>Caenorhabditis elegans,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53614" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1042" end="1060" />
+    <spannedText>Spo11, Mei1, Rec8,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53616" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1065" end="1069" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53618" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1091" end="1098" />
+    <spannedText>Trip13,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53620" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="2335" end="2341" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53622" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="2493" end="2499" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53624" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="2928" end="6515" />
+    <spannedText>Introduction
+
+The genesis of gametes containing an intact, haploid genome is critical for the prevention of birth defects, and is highly dependent upon the fidelity of chromosome dynamics before the first meiotic division. Homologous chromosomes must pair, synapse, undergo recombination, and segregate properly to opposite poles. Recombination, which repairs repair double strand breaks (DSBs) that are genetically induced in leptonema, is coupled with synapsis in budding yeast and mammals. While our knowledge of the assembly and nature of recombination machinery is extensive, little is known about the disassembly of recombination intermediates, recruitment of DNA replication machinery during recombinational repair, and how the choice between different repair pathways is made.
+
+Defects in recombination can preclude homologous chromosome pairing, leave unrepaired chromosome breaks, and cause aneuploidy by abrogating crossing over. To avoid such deleterious outcomes, surveillance systems (“checkpoints”) exist to sense meiotic errors and eliminate cells containing unresolved defects. In many organisms, including S. cerevisiae, Drosophila melanogaster, C. elegans, and mice [1–4], meiocytes with defects in recombination and/or chromosome synapsis trigger meiotic arrest in the pachytene stage of meiotic prophase I. This response to meiotic defects is referred to as the “pachytene checkpoint” (reviewed in [5]). Genetic experiments in S. cerevisiae have identified elements of the pachytene checkpoint machinery (reviewed in [5]). In addition to meiosis-specific proteins, these include factors that play roles in DNA damage signaling in mitotic cells [6–10]. Arabidopsis thaliana does not appear to have a pachytene checkpoint akin to that in yeast [11], nor do male Drosophila.
+
+The pachytene checkpoint is known to monitor two aspects of meiotic chromosome metabolism in S. cerevisiae and C. elegans: (1) DSB repair and (2) chromosome synapsis [2,12]. In mice, both spermatocytes and oocytes harboring mutations that disrupt DSB repair (such as Dmc1, Msh5, and Atm) are efficiently eliminated in pachynema, but spermatocytes are much more sensitive to DSB repair–independent synapsis defects than oocytes [13–15]. However, because recombination is required for synapsis in mice (mutations in recombination genes such as Dmc1 cause extensive asynapsis [16]), it has remained formally uncertain whether there is a distinct pachytene checkpoint that responds to defects in meiotic recombination, and if so, whether it would be identical to that used in somatic cells. The mechanisms of putative pachytene checkpoint control remain unknown in mammals, since no mutations have been identified that abolish it.
+
+PCH2, encoding a nucleolar-localized AAA-ATPase that was originally identified in an S. cerevisiae genetic screen for mutants that relieve pachytene arrest of asynaptic zip1 mutants [8], was recently determined to be an essential component of the pachytene synapsis (but not DSB repair) checkpoint in yeast and worms [2,12]. PCH2 orthologs are present in organisms that undergo synaptic meiosis, but not asynaptic meiosis, prompting the suggestion that a Pch2-dependent checkpoint evolved to monitor synaptonemal complex (SC) defects from yeast to humans [12]. Here, we generated mice deficient for the Trip13, the ortholog of PCH2, and evaluated whether it also plays a role in the pachytene checkpoint. Surprisingly, while we found no evidence for checkpoint function, we did uncover a potential role for this protein in noncrossover (NCO) repair of meiotic DSBs.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53627" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4052" end="4103" />
+    <spannedText>S. cerevisiae, Drosophila melanogaster, C. elegans,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53629" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4709" end="4719" />
+    <spannedText>Drosophila</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53631" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4989" end="5000" />
+    <spannedText>Dmc1, Msh5,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53633" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5005" end="5008" />
+    <spannedText>Atm</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53635" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5264" end="5268" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53637" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5650" end="5655" />
+    <spannedText>PCH2,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53639" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5819" end="5823" />
+    <spannedText>zip1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53641" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5975" end="5979" />
+    <spannedText>PCH2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53643" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6253" end="6260" />
+    <spannedText>Trip13,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53645" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6277" end="6282" />
+    <spannedText>PCH2,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53647" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6517" end="30712" />
+    <spannedText>Results
+
+Trip13 Is a Widely Expressed Mammalian Ortholog of PCH2 with Unusual Phylogenetic Relationships
+
+The mammalian ortholog of PCH2, Trip13 (thyroid hormone receptor interacting protein 13), encodes a protein with extensive amino acid homology in regions alignable to the yeast and worm orthologs (Figure S1) [12]). Interestingly, phylogenetic analysis of TRIP13/Pch2p shows that the mammalian protein clusters more closely to plants than it does to the evolutionarily more closely related worms and flies (Figure 1A; see Discussion). Semi-quantitative reverse-transcriptase PCR (RT-PCR) analysis showed Trip13 mRNA to be expressed in a variety of embryonic and adult tissues, including testis (Figure 1B), consistent with mouse and human EST data summarized in Unigene (http://www.ncbi.nlm.nih.gov/UniGene). It is also highly expressed in human and mouse oocytes [17].
+
+Figure 1
+
+The Mouse PCH2 Ortholog TRIP13 and Expression in Wild Type and Mutant
+
+(A) Phylogenetic tree of presumed PCH2/TRIP13 orthologs. The database sequence accession number of each protein is presented in Table S1. Numbers shown are bootstrap values (see Materials and Methods). The clustering was the same regardless of whether the whole entire AA sequence or trimmed sequences (where regions showing little conservation were removed) were used for the analysis. Major eukaryotic groups are indicated in color, with deuterostomia in blue, plants in green, protostomia in purple, and fungi in maroon.
+
+(B) Amplification products of cDNA from the following tissues: 1, heart; 2, brain; 3, spleen; 4, lung; 5, liver; 6, skeletal muscle; 7, kidney; 8, testis; 9, E7 embryo; 10, E11 embryo; 11, E15 embryo; and 12, E17 embryo.
+
+(C) Intron–exon structure of TRIP13 and insertion site of gene-trap vector. See Materials and Methods for details on how the precise insertion site was identified.
+
+(D) RT-PCR of Trip13 and a control gene Med31 from testis RNA. The Trip13 primers are situated in the first and last exons (see Materials and Methods).
+
+(E) Western blot analysis of testis protein with anti-TRIP13 antibody. The blot was later probed with anti-alpha tubulin actin as a loading control. The expected TRIP13 protein is ∼48 KDa.
+
+(F) Localization of TRIP13 in testes. Wild-type (top) and mutant (bottom) testis sections were probed with chicken anti-TRIP13, and detected with HRP-conjugated anti-chicken IgG (brown/red staining). Expression in WT was most prominent in the nuclei of Type B spermatogonia (Sg), leptotene spermatocytes (LS), and early pachytene spermatocytes (PS), but not late pachytene spermatocytes (LP). No nuclear staining was seen in mutant testis sections, although reddish cytoplasmic background is present. Identification of cell types was judged in part by estimating the epithelial stage of the tubules as described [67].
+
+(G) TRIP13 localization in surface-spread spermatocytes. Preparations were immunolabeled with anti-SYCP3 (S) and TRIP13 (T). Both individual and merged images are shown for leptotene (Lep), zygotene (Zyg), and pachytene (Pac) spermatocytes. Nuclear staining was absent in the mutant.
+
+Generation of Trip13 Mutant Mice
+
+To explore the function of TRIP13 in mammals, we generated mice with a gene trap-disrupted allele, Trip13RRB047 (Figure 1C; abbreviated as Trip13Gt). Heterozygotes were normal in all respects, but homozygotes were present at ∼2/3 the expected ratio from intercrosses between heterozygotes (91 Trip13+/+, 183 Trip13Gt/+, and 61 Trip13Gt/Gt). Since &gt;90% of prewean mice that died were mutant homozygotes, this discrepancy is apparently due to a partially penetrant lethality. Most surviving Trip13Gt/Gt animals were grossly normal. However, homozygotes that were semi-congenic (N4) on the C57BL/6J strain were often markedly smaller and/or had kinked or shorter tails (Figure 2A and 2B).
+
+Figure 2
+
+Developmental Phenotypes of Trip13 Mutant Mice
+
+(A) Shown are 21-d-old littermates. Note the shortened tail in the mutant, but overall similar body size.
+
+(B) Shown are 23-d-old littermates. The mutant is smaller in this case, but the tail is not as truncated as the mouse in (A).
+
+(C) Wild-type (WT) and homozygous Trip13 mutant (MUT) testes.
+
+(D) and (E) are cross sections through 17.5-d-old heterozygous (“WT”) and homozygous mutant Trip13 testes, respectively. Whereas the tubules in WT show coordinated spermatogenesis with pachytene spermatocytes present in all tubules (proximal to the lumen), developmental progression in the mutant is not synchronized between tubules. Some tubules have no pachytene spermatocyes (asterisks), while in others, development is somewhat disorganized (#).
+
+RT-PCR analysis of Trip13Gt expression (Figure 1D) revealed a low level of normally spliced transcripts in testes of homozygotes that is presumably a consequence of incomplete usage of the gene trap's splice acceptor. Western blot analysis, using a polyclonal antibody raised against a peptide encoded by exon 3, revealed multiple species in wild-type and heterozygous testes, one of which corresponds to the expected size of 48 kDa (Figure 1E). This and three other species were undetectable in homozygous mutant testes, but a reduced amount of an intense ∼38 kDa smaller band was present. It is not clear if this corresponds to TRIP13. The greatly decreased Trip13 mRNA and predicted correct-length protein in mutants indicate that the Trip13RRB047 allele is severely hypomorphic.
+
+To determine the germ cell types in which TRIP13 is expressed, and to assess possible expression in the mutant by means other than Western analysis, testis sections were immunolabeled for TRIP13 using a polyclonal chicken antipeptide antibody (see Materials and Methods). The most intensely labeled cells in control testes were Type B spermatogonia and leptotene spermatocytes (Figure 1F). Zygotene/pachytene spermatocytes stained less strongly, and there was no detectable staining in late pachytene spermatocytes. TRIP13 appeared to be nuclear localized. There was no such staining of nuclei in mutant seminiferous tubules (Figure 1F). To further assess the nuclear localization, TRIP13 was used to probe meiotic chromosomes prepared by surface spreading of spermatocyte nuclei. In wild type, there was diffuse nuclear staining, and no evidence of concentration on SC cores (marked by the axial element protein SYCP3) at any meiotic substage (Figure 1G). TRIP13 signal was noticeably absent in mutant meiotic nuclei.
+
+Infertility Due to Meiotic Disruption in TRIP13-Deficient Meiocytes
+
+Homozygotes of both sexes had small gonads (Figure 2C; see below) and were invariably sterile. Ovaries of adult Trip13Gt/Gt females were severely dysmorphic and had few or no follicles (Figure 3A and 3B). The majority of oocyte loss occurred in late embryogenesis or early in postnatal development, since 2 d postpartum ovaries were markedly smaller than those of control littermates, and were lacking oocytes or newly forming follicles (Figure 3C and 3D). Thus, oocytes failed to progress to the dictyate (resting) phase. Since we observed oocytes with pachytene stage chromosomes in 17.5 d Trip13Gt/Gt embryonic ovaries (unpublished data), this indicates that oocytes were eliminated somewhere between pachynema and dictyate.
+
+Figure 3
+
+Histology of Mutant Gonads
+
+All are hematoxylin/eosin-stained paraffin sections. Testes are from 6-wk-old males, except as indicated below.
+
+(A) Wild-type 25-d-old ovary.
+
+(B) Trip13Gt/Gt 25-d-old ovary, showing dysgenesis from an absence of oocytes.
+
+(C) Trip13Gt/+ 2-d-old control ovary. Arrows point to oocytes in newly forming follicles.
+
+(D) Trip13Gt/Gt 2-d-old ovary, dysgenic due to lack of oocytes. Magnification is the same as its littermate in “C.”
+
+(E) Wild-type testis.
+
+(F) Trip13Gt/Gt testis with uniform pachytene arrest.
+
+(G) Trip13Gt/Gt 3-mo-old testis with some postmeiotic spermatids (arrows).
+
+(H) Spo11−/- testis. A tubule with spermatocytes at leptotene/zygotene transition is labeled ZP, and tubules with apoptotic spermatocytes are marked with an asterisk. The specimen was taken from a littermate of that in (I).
+
+(I) Spo11−/− Trip13Gt/Gt testis. Labeling is the same as in (H). The inset contains a tubule with leptotene-zygotene spermatocytes.
+
+(J) Mei1−/− Trip13Gt/+ testis. The specimen was taken from a littermate of that in (K).
+
+(K) Mei1−/− Trip13Gt/Gt testis.
+
+(L) Rec8Mei8/Rec8Mei8 Trip13Gt/+ testis. The Rec8Mei8 allele was described [39]. The specimen was taken from a littermate of that in (M).
+
+(M) Rec8Mei8/Rec8Mei8 Trip13Gt/Gt testis.
+
+(N) Dmc1−/− Trip13Gt/Gt testis.
+
+(O) Spo11−/− Trip13Gt/+ 25-d-old ovary. The specimen was taken from a littermate of that in (P).
+
+(P) Spo11−/− Trip13Gt/Gt 25-d-old ovary.
+
+(Q) Mei1−/− Trip13Gt/+ 25-d-old ovary. The specimen was taken from a littermate of that in (R).
+
+(R) Mei1−/− Trip13Gt/Gt 25-d-old ovary.
+
+(S) Rec8Mei8/Rec8Mei8 Trip13Gt/+ 25-d-old ovary. The specimen was taken from a littermate of that in (T).
+
+(T) Rec8Mei8/Rec8Mei8 Trip13Gt/Gt 25-d-old ovary.
+
+Histological sections of mutant testes revealed a lack of postmeiotic cell types that are characteristic of wild-type seminiferous tubules (Figure 3E). The most developmentally advanced seminiferous tubules contained adluminal spermatocytes with condensed chromatin characteristic of pachynema (Figure 3F). The absence of coordinated spermatogenic progression beyond this stage is indicative of a pachytene arrest. This was revealed more clearly by chromosome analysis (see below). Some sections of adult seminiferous tubules contained postmeiotic spermatids (Figure 3G), although we saw no motile epididymal sperm. These drastic meiotic defects stand in contrast to yeast and C. elegans, in which deletion of Pch2 alone has minor effects on spore/gamete development [2,8].
+
+TRIP13-Deficient Meiocytes Undergo Homologous Chromosome Synapsis Despite the Presence of Unrepaired DSBs in Pachynema
+
+To better characterize the degree of meiotic progression in Trip13Gt/Gt spermatocytes, we immunostained chromosome spreads for SYCP3 and SYCP1, components of the axial/lateral elements and transverse filaments, respectively, of the synaptonemal complex (SC). Pachytene spermatocyte nuclei from postpubertal mutant testes could assemble normal SC cores and exhibited full synapsis of chromosomes as judged by colabeling of SYCP1 and SYCP3 along the full lengths of all autosomes (Figure 4A). Additionally, the X and Y chromosomes were normally synapsed at their pseudoautosomal region. More prepubertal (17.5 d postpartum) mutant spermatocytes contained asynaptic or terminally asynapsed chromosomes than age-matched controls (62.5% versus 25%, respectively; Figure 4B). We attribute this to a delay in the first wave of postnatal spermatogenesis (Figure 2D and 2E), likely related to systemic developmental retardation (Figure 2A and 2B). Nevertheless, since Trip13Gt/Gt spermatocytes progress to pachynema with no gross SC abnormalities, and oocytes were eliminated soon after birth (a characteristic of DNA repair mutants [13]), this suggested that unrepaired DSBs are responsible for eventual meiotic arrest and elimination.
+
+Figure 4
+
+Immunohistochemical Analysis of Pachytene Spermatocyte Chromosomes
+
+Surface-spread chromosomes were immunolabeled with the indicated antibodies and fluorophores. As indicated in the upper right of each panel, cells were from wild type (WT, either +/+ or Trip13Gt/+) or Trip13Gt/Gt (Mut). There were no differences seen between heterozygotes and +/+ spermatocytes.
+
+(A) A mutant pachytene nucleus with full synapsis. Areas of SYCP1/SYCP3 colabeling are yellow.
+
+(B–E) Spermatocytes nucleus from 17.5 d postpartum mutant. Asynapsed chromosomes or regions of chromosomes are indicated by white and yellow arrows, respectively. Unlike the normal distribution in wild-type pachytene spermatocytes (C), BLM foci are present on synapsed pachytene chromosomes in the mutant (D). RAD51 foci, which are abundant earlier in prophase, disappear from autosomes in wild-type pachytene nuclei (E) and the bulk of staining is over the XY body (arrow).
+
+(F) RAD51 persists on the synapsed mutant chromosomes (arrows).
+
+(G) H2AX phosphorylation is restricted to the XY body in WT.
+
+(H) In addition to a large area of γH2AX staining (arrow) over the XY body, there is extensive autosomal H2AX phosphorylation (arrows).
+
+(I, J) Note that in wild-type pachytene spermatocytes, TOPBP1 is present only over the XY body (yellow arrow). In the mutant (J), an arrow denotes one area of intensive staining that may be over the sex chromosomes, but many other chromosome cores are positively stained.
+
+(K, L) RPA persists along synapsed cores in the mutant, not WT.
+
+(M, N) Arrows indicate examples of MLH3 foci on SCs.
+
+(O) In WT late pachytene spermatocytes, RAD51 is present only at background levels.
+
+(P) As in (F), extensive RAD51 staining delineates SCs in mutant pachytene nuclei (indicated by white arcs). MLH1 foci colocalize with these tracts (arrows) at the typical 1–2 foci per chromosome as in (M).
+
+To elucidate the cause of meiotic arrest, we analyzed meiotic chromosomes with a variety of markers that are diagnostic of recombination and synapsis. Recombination in Trip13Gt/Gt spermatocytes appeared to initiate normally as judged by the presence of γH2AX in leptonema (Figure S2A and S2B), which reflects the presence of meiotically induced DSBs [18]. RAD51 and/or DMC1, components of early recombination nodules (ERNs), was also present as abundant foci in Trip13Gt/Gt zygotene spermatocytes (unpublished data; the anti-RAD51 antibody cross-reacts with DMC1), indicating that recombinational repair of DSBs is initiated. The cohesin complex, which is essential for completion and/or maintenance of synaptic associations, appeared to assemble normally as judged by immunolabeling for the meiosis-specific cohesins STAG3 (Figure S2C and S2D) and REC8 (unpublished data). Because yeast PCH2 localizes to telomeres in a Sir3p-dependent manner, we tested for possible telomere defects by immunolabeling for TRF2, a component of a protein complex that plays an essential role in telomere protection [19]. It was localized to telomeres of both fully synapsed and telomerically asynaptic mutant chromosomes (Figure S2E and S2F).
+
+Defects in DSB repair became apparent in pachynema upon probing of mutant spermatocyte nuclei with antibodies against molecules involved in various stages of recombination. In &gt;99% of Trip13Gt/Gt chromosome spreads, BLM helicase (Figure 4C and 4D), RAD51/DMC1 (Figure 4E and 4F), γH2AX (Figure 4G and 4H), and TOPBP1 (Figure 4I and 4J) all persisted abnormally on synapsed chromosomes. For RAD51/DMC1, mutant pachytene spermatocytes contained 138 ± 6 foci (compared to 11 ± 3 foci in wild type, most of which were on the XY body), down from 218 ± 13 in zygonema (compared to 220 ± 13 foci in wild type). TOPBP1 is a DNA damage–checkpoint protein involved in ATM protein–dependent activation of ATR protein [20,21]. It binds sites of DSBs and unsynapsed regions of meiotic chromosomes [22,23]. BLM has been reported to colocalize with markers (RPA and MSH4) of recombination at sites distinct from those that become resolved as crossovers (CO) [24]. We therefore assessed the distribution of RPA, the ssDNA binding protein, which is normally present at focal sites of synapsing meiotic chromosomes before disappearing in mid-pachynema [25]. It is thought to bind D-loops of recombination intermediates [26]. RPA also persisted on pachytene mutant chromosomes (Figure 4K and 4L). These data indicate that unrepaired DSBs, or unresolved recombination intermediates, remain in pachynema and activate a DNA damage checkpoint system.
+
+It should be noted that chromosomes affected by meiotic sex chromosome inactivation (MSCI) and meiotic silencing of unpaired chromatin (MSUC) are heavily stained by antibodies for several DSB repair-associated molecules, including γH2AX. H2AX phosphorylation due to MSCI and MSUC is conducted by ATR, not ATM [27–29]. Since mutant chromosomes are fully synapsed, and MSUC is known to occur only as a result of asynapsis, the decoration of Trip13Gt/Gt chromosomes with DNA repair markers is probably attributable to incomplete DNA repair rather than transcriptional silencing.
+
+Consistent with the presence of rare (&lt;1%) Trip13Gt/Gt pachytene spermatocytes devoid of persistent DNA repair markers, and testis histology showing some degree of postmeiotic progression (Figure 3G), we observed both diplotene nuclei that lacked autosomal RAD51/DMC1 and γH2AX (Figure S3A–S3D), and also metaphase I spreads with 20 bivalents (Figure S3E–S3F). Since Trip13Gt may not be a complete null, these diplotene and metaphase I spermatocytes might arise by virtue of having sufficient wild-type TRIP13.
+
+CO-Associated Markers Appear Normally in the Absence of TRIP13
+
+The persistence of BLM on Trip13Gt/Gt spermatocyte chromosomes suggests that at least a subset of the unrepaired DSBs correspond to sites of defective NCO recombinational repair. To assess whether CO recombination occurs in the mutant, we examined the distribution of the mismatch repair proteins MLH1 and MLH3, which are normally detectable as foci in mid-late pachynema and mark the locations of chiasmata [30,31]. Remarkably, MLH1/3 foci were formed; we observed 1–2 foci/chromosome as in wild type and at typical overall levels (MLH3 = 23 ± 2, N = 10; [30,32]) on mid-late pachytene chromosomes (Figure 4M and 4N; MLH1 not shown). Since &lt;1% of Trip13Gt/Gt pachytene nuclei had normal repair (as judged by absence of persistent DSB repair markers; see above), but most of the pachytene nuclei had MLH1/3 foci, it was unlikely that the MLH1/3 foci formed only on chromosomes with fully repaired DSBs. To test this directly, we conducted double staining for MLH1 and RAD51/DMC1. MLH1 foci were present on chromosomes that also contained numerous RAD51/DMC1 foci (Figure 4O and 4P).
+
+To assess whether these MLH1/3 foci in Trip13Gt/Gt pachytene spermatocytes represent CO events completed to a point where they could maintain interhomolog attachments though the end of prophase I, we treated testicular cells from 17.5–20.5-d-old control (+/+), Trip13Gt/Gt, and Dmc1−/− mice with the protein phosphatase inhibitor okadaic acid (OA), a chemical that induces degradation of the SC, chromosome condensation, and premature progression to metaphase I [33]. Fifteen metaphase spreads were identified for each genotype. Whereas all of the Dmc1−/− spreads had ∼35 or more condensed chromosomes, all of the +/+ and Trip13Gt/Gt spreads had 20–25, suggesting that the MLH1/3 foci in Trip13Gt/Gt pachytene spermatocytes represent sites of completed, or near-completed, COs. Because the preparations were made from whole testes, it is possible that the univalent-containing metaphases from Dmc1−/− mice were from spermatogonia, not spermatocytes.
+
+TRIP13 Deficiency Does Not Alleviate Meiotic Arrest Phenotypes of Mutants Defective in Synapsis
+
+To determine if TRIP13 deficiency prevents apoptosis triggered by asynapsis as in C. elegans, we analyzed mice that were doubly mutant for Spo11 and Trip13. SPO11 is a transesterase that is essential for the creation of genetically programmed DSB during leptonema of many organisms, including mice [18]. In C. elegans, spo-11 mutant gametes have extensive asynapsis, which triggers PCH-2 dependent apoptosis in pachynema [2]. In mice, Spo11−/− spermatocytes are severely defective in homologous chromosome synapsis [34,35], and arrest with chromosomes in a state characteristic of the zygotene/pachytene transition (Figure 3H). Spermatocytes in Trip13Gt/Gt Spo11−/− testes progressed maximally to that point before undergoing death (Figs 3I), well before the spindle checkpoint that eliminates achiasmate spermatocytes [36]. There was no evidence of metaphase I spermatocytes or postmeiotic spermatids in these testes, unlike those seen in Trip13 single mutants (Figure 3G). In contrast to the complete synapsis in Trip13Gt/Gt pachytene spermatocytes (Figure 5A), in which SPO11 is available in leptonema to initiate (via DSB induction, Figure S2A and S2B) a recombination-driven homolog search, chromosome synapsis in doubly mutant spermatocytes was highly disrupted as in Spo11 single mutants (Figure 5B and 5C). Identical studies were performed with mice deficient for Mei1, a vertebrate-specific gene also required for DSB formation and chromosome synapsis [37], with similar results (Figure 3J and 3K; immunocytology not shown).
+
+Figure 5
+
+Immunocytological Analysis of Trip13 Compound Mutants
+
+Surface-spread chromosomes were immunolabeled with the indicated antibodies and fluorophores. Genotypes are indicated, as are those panels in which dual staining patterns are merged. Note that (H) and (I) are at lower magnification to show multiple nuclei.
+
+In yeast, deletion of PCH2 alleviates the pachytene arrest caused by asynaptic mutants zip1 and zip2 [8]. Although mouse SYCP1 might be a functional equivalent of Zip1p, because Sycp1 mutant spermatocytes arrest at approximately the same point as Trip13 mutants, there would be no opportunity to observe bypass of Sycp1−/−. Since Zip2p is present at sites of axial associations, even in zip1 mutants, it has been suggested that Zip2p promotes initiation of chromosome synapsis [38]. These observations raise the possibility that in yeast, Pch2p responds to synapsis polymerization rather than initiation. To test this, we performed epistasis analysis with a Rec8 allele (Rec8Mei8, abbreviated as Rec8−). Meiotic chromosomes of Rec8 mutant spermatocytes undergo apparent homolog pairing and interhomolog synaptic initiation, but are defective in DSB repair and fail to maintain interhomolog synapsis [39,40]. Rather, sister chromatids appear to synapse and are bound by SYCP1 along their axes. Rec8 mutants do not progress to diplonema or metaphase I. Double mutant analysis indicated that Rec8 is epistatic to Trip13. As in the Spo11 and Mei1 experiments, histology of testes deficient for both REC8 and TRIP13 resembled the Rec8 mutant, with no evidence of progression to metaphase I that occurs in Trip13Gt/Gt mice (Figure 3L and 3M). Immunocytological analysis of spread chromosomes showed a failure of homologous chromosome synapsis in both the Rec8−/− and Rec8−/− Trip13Gt/Gt spermatocytes, as previously reported for Rec8 mutants (Figure 5D and 5E) [39,40].
+
+Although subsequent reports indicate otherwise [10,12], deletion of PCH2 in yeast was originally reported to alleviate meiotic arrest caused by deficiency for the meiosis-specific RecA homolog DMC1 [8]. To investigate this relationship in mice, we constructed animals doubly mutant for Trip13 and Dmc1. As in Dmc1−/− mice, in which spermatocytes undergo meiotic arrest from defective DSB repair and failed chromosome synapsis [16], spermatogenesis in Dmc1−/− Trip13Gt/Gt testes was uniformly arrested at the point where spermatocytes contained chromatin characteristic of zygonema/pachynema (Figure 3N). Immunocytological analysis indicated that both Dmc1−/− and Dmc1−/− Trip13Gt/Gt chromosomes had extensive asynapsis compared to Trip13Gt single mutants (Figure 5F–5H), and all had persistent RAD51/DMC1 foci and phosphorylated H2AX (γH2AX; Figure 5I–5L), confirming that Dmc1 is epistatic to Trip13. Doubly mutant females had residual ovaries, phenocopying Dmc1−/− and Trip13Gt/Gt single mutants (unpublished data).
+
+Meiotic Defects in Trip13Gt/Gt Oocytes Are DSB-Dependent
+
+Epistasis analysis of females was insightful with respect to the cause of arrest in Trip13 mutants. Both Mei1−/−/Trip13Gt/Gt and Spo11−/−/Trip13Gt/Gt females had ovaries with numerous follicles, identical to Mei1 and Spo11 single mutants (Figure 3O–3R). Thus, Spo11 and Mei1 are epistatic to Trip13 in oogenesis, just as they are to Dmc1 [13,41]. This demonstrates that oocyte loss in Trip13Gt/Gt females is dependent on DSB formation. In conjunction with the immunohistochemical data, these data provide strong evidence that meiotic arrest in Trip13 mutant mice is due to defects in DSB repair. As expected, ovaries of Rec8 Trip13 double mutants were devoid of oocytes as were those from either single mutant (Figure 3B, 3S, and 3T).</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53650" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6526" end="6532" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53652" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6577" end="6581" />
+    <spannedText>PCH2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53654" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6649" end="6663" />
+    <spannedText>PCH2, Trip13 (</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53656" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7126" end="7132" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53658" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7393" end="9631" />
+    <spannedText>Figure 1
+
+The Mouse PCH2 Ortholog TRIP13 and Expression in Wild Type and Mutant
+
+(A) Phylogenetic tree of presumed PCH2/TRIP13 orthologs. The database sequence accession number of each protein is presented in Table S1. Numbers shown are bootstrap values (see Materials and Methods). The clustering was the same regardless of whether the whole entire AA sequence or trimmed sequences (where regions showing little conservation were removed) were used for the analysis. Major eukaryotic groups are indicated in color, with deuterostomia in blue, plants in green, protostomia in purple, and fungi in maroon.
+
+(B) Amplification products of cDNA from the following tissues: 1, heart; 2, brain; 3, spleen; 4, lung; 5, liver; 6, skeletal muscle; 7, kidney; 8, testis; 9, E7 embryo; 10, E11 embryo; 11, E15 embryo; and 12, E17 embryo.
+
+(C) Intron–exon structure of TRIP13 and insertion site of gene-trap vector. See Materials and Methods for details on how the precise insertion site was identified.
+
+(D) RT-PCR of Trip13 and a control gene Med31 from testis RNA. The Trip13 primers are situated in the first and last exons (see Materials and Methods).
+
+(E) Western blot analysis of testis protein with anti-TRIP13 antibody. The blot was later probed with anti-alpha tubulin actin as a loading control. The expected TRIP13 protein is ∼48 KDa.
+
+(F) Localization of TRIP13 in testes. Wild-type (top) and mutant (bottom) testis sections were probed with chicken anti-TRIP13, and detected with HRP-conjugated anti-chicken IgG (brown/red staining). Expression in WT was most prominent in the nuclei of Type B spermatogonia (Sg), leptotene spermatocytes (LS), and early pachytene spermatocytes (PS), but not late pachytene spermatocytes (LP). No nuclear staining was seen in mutant testis sections, although reddish cytoplasmic background is present. Identification of cell types was judged in part by estimating the epithelial stage of the tubules as described [67].
+
+(G) TRIP13 localization in surface-spread spermatocytes. Preparations were immunolabeled with anti-SYCP3 (S) and TRIP13 (T). Both individual and merged images are shown for leptotene (Lep), zygotene (Zyg), and pachytene (Pac) spermatocytes. Nuclear staining was absent in the mutant.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53661" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8400" end="8406" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53663" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8453" end="8459" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53665" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9647" end="9653" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53667" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9766" end="9778" />
+    <spannedText>Trip13RRB047</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53669" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9772" end="9778" />
+    <spannedText>RRB047</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53671" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9806" end="9814" />
+    <spannedText>Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53673" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9812" end="9814" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53675" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9960" end="9966" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53677" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9966" end="9969" />
+    <spannedText>+/+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53679" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9975" end="9985" />
+    <spannedText>Trip13Gt/+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53681" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9981" end="9985" />
+    <spannedText>Gt/+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53683" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9994" end="10005" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53685" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10000" end="10005" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53687" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10156" end="10167" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53689" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10162" end="10167" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53691" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10354" end="11158" />
+    <spannedText>Figure 2
+
+Developmental Phenotypes of Trip13 Mutant Mice
+
+(A) Shown are 21-d-old littermates. Note the shortened tail in the mutant, but overall similar body size.
+
+(B) Shown are 23-d-old littermates. The mutant is smaller in this case, but the tail is not as truncated as the mouse in (A).
+
+(C) Wild-type (WT) and homozygous Trip13 mutant (MUT) testes.
+
+(D) and (E) are cross sections through 17.5-d-old heterozygous (“WT”) and homozygous mutant Trip13 testes, respectively. Whereas the tubules in WT show coordinated spermatogenesis with pachytene spermatocytes present in all tubules (proximal to the lumen), developmental progression in the mutant is not synchronized between tubules. Some tubules have no pachytene spermatocyes (asterisks), while in others, development is somewhat disorganized (#).</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53694" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10392" end="10398" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53696" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10680" end="10686" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53698" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11179" end="11187" />
+    <spannedText>Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53700" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11185" end="11187" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53702" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11820" end="11826" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53704" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11898" end="11910" />
+    <spannedText>Trip13RRB047</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53706" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="11904" end="11910" />
+    <spannedText>RRB047</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53708" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13145" end="13156" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53710" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13151" end="13156" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53712" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13625" end="13636" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53714" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13631" end="13636" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53716" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13762" end="15515" />
+    <spannedText>Figure 3
+
+Histology of Mutant Gonads
+
+All are hematoxylin/eosin-stained paraffin sections. Testes are from 6-wk-old males, except as indicated below.
+
+(A) Wild-type 25-d-old ovary.
+
+(B) Trip13Gt/Gt 25-d-old ovary, showing dysgenesis from an absence of oocytes.
+
+(C) Trip13Gt/+ 2-d-old control ovary. Arrows point to oocytes in newly forming follicles.
+
+(D) Trip13Gt/Gt 2-d-old ovary, dysgenic due to lack of oocytes. Magnification is the same as its littermate in “C.”
+
+(E) Wild-type testis.
+
+(F) Trip13Gt/Gt testis with uniform pachytene arrest.
+
+(G) Trip13Gt/Gt 3-mo-old testis with some postmeiotic spermatids (arrows).
+
+(H) Spo11−/- testis. A tubule with spermatocytes at leptotene/zygotene transition is labeled ZP, and tubules with apoptotic spermatocytes are marked with an asterisk. The specimen was taken from a littermate of that in (I).
+
+(I) Spo11−/− Trip13Gt/Gt testis. Labeling is the same as in (H). The inset contains a tubule with leptotene-zygotene spermatocytes.
+
+(J) Mei1−/− Trip13Gt/+ testis. The specimen was taken from a littermate of that in (K).
+
+(K) Mei1−/− Trip13Gt/Gt testis.
+
+(L) Rec8Mei8/Rec8Mei8 Trip13Gt/+ testis. The Rec8Mei8 allele was described [39]. The specimen was taken from a littermate of that in (M).
+
+(M) Rec8Mei8/Rec8Mei8 Trip13Gt/Gt testis.
+
+(N) Dmc1−/− Trip13Gt/Gt testis.
+
+(O) Spo11−/− Trip13Gt/+ 25-d-old ovary. The specimen was taken from a littermate of that in (P).
+
+(P) Spo11−/− Trip13Gt/Gt 25-d-old ovary.
+
+(Q) Mei1−/− Trip13Gt/+ 25-d-old ovary. The specimen was taken from a littermate of that in (R).
+
+(R) Mei1−/− Trip13Gt/Gt 25-d-old ovary.
+
+(S) Rec8Mei8/Rec8Mei8 Trip13Gt/+ 25-d-old ovary. The specimen was taken from a littermate of that in (T).
+
+(T) Rec8Mei8/Rec8Mei8 Trip13Gt/Gt 25-d-old ovary.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53719" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13948" end="13956" />
+    <spannedText>Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53721" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13954" end="13956" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53723" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13956" end="13959" />
+    <spannedText>/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53725" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14028" end="14038" />
+    <spannedText>Trip13Gt/+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53727" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14034" end="14036" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53729" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14119" end="14130" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53731" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14125" end="14130" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53733" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14259" end="14270" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53735" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14265" end="14270" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53737" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14314" end="14325" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53739" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14320" end="14325" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53741" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14390" end="14398" />
+    <spannedText>Spo11−/-</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53743" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14395" end="14398" />
+    <spannedText>−/-</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53745" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14615" end="14620" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53747" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14620" end="14623" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53749" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14621" end="14622" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53751" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14624" end="14635" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53753" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14630" end="14635" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53755" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14748" end="14752" />
+    <spannedText>Mei1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53757" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14752" end="14755" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53759" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14753" end="14754" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53761" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14756" end="14764" />
+    <spannedText>Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53763" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14762" end="14764" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53765" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14837" end="14841" />
+    <spannedText>Mei1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53767" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14841" end="14844" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53769" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14842" end="14843" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53771" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14845" end="14856" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53773" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14851" end="14856" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53775" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14870" end="14878" />
+    <spannedText>Rec8Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53777" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14874" end="14878" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53779" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14879" end="14896" />
+    <spannedText>Rec8Mei8 Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53781" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14883" end="14887" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53783" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14894" end="14896" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53785" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14911" end="14919" />
+    <spannedText>Rec8Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53787" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14915" end="14919" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53789" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15009" end="15017" />
+    <spannedText>Rec8Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53791" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15013" end="15017" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53793" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15018" end="15038" />
+    <spannedText>Rec8Mei8 Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53795" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15022" end="15026" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53797" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15033" end="15038" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53799" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15052" end="15056" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53801" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15056" end="15059" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53803" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15057" end="15058" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53805" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15060" end="15071" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53807" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15066" end="15071" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53809" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15085" end="15090" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53811" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15090" end="15093" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53813" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15091" end="15092" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53815" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15094" end="15102" />
+    <spannedText>Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53817" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15100" end="15102" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53819" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15183" end="15188" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53821" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15188" end="15191" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53823" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15189" end="15190" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53825" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15192" end="15203" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53827" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15198" end="15203" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53829" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15225" end="15229" />
+    <spannedText>Mei1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53831" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15229" end="15232" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53833" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15230" end="15231" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53835" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15233" end="15241" />
+    <spannedText>Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53837" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15239" end="15241" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53839" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15322" end="15326" />
+    <spannedText>Mei1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53841" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15326" end="15329" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53843" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15327" end="15328" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53845" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15330" end="15341" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53847" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15336" end="15341" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53849" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15363" end="15371" />
+    <spannedText>Rec8Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53851" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15367" end="15371" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53853" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15372" end="15389" />
+    <spannedText>Rec8Mei8 Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53855" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15376" end="15380" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53857" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15387" end="15389" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53859" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15470" end="15478" />
+    <spannedText>Rec8Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53861" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15474" end="15478" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53863" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15479" end="15499" />
+    <spannedText>Rec8Mei8 Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53865" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15483" end="15487" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53867" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15494" end="15499" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53869" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16194" end="16205" />
+    <spannedText>C. elegans,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53871" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16227" end="16231" />
+    <spannedText>Pch2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53873" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16472" end="16483" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53875" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16478" end="16483" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53877" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17371" end="17382" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53879" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17377" end="17382" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53881" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17641" end="19535" />
+    <spannedText>Figure 4
+
+Immunohistochemical Analysis of Pachytene Spermatocyte Chromosomes
+
+Surface-spread chromosomes were immunolabeled with the indicated antibodies and fluorophores. As indicated in the upper right of each panel, cells were from wild type (WT, either +/+ or Trip13Gt/+) or Trip13Gt/Gt (Mut). There were no differences seen between heterozygotes and +/+ spermatocytes.
+
+(A) A mutant pachytene nucleus with full synapsis. Areas of SYCP1/SYCP3 colabeling are yellow.
+
+(B–E) Spermatocytes nucleus from 17.5 d postpartum mutant. Asynapsed chromosomes or regions of chromosomes are indicated by white and yellow arrows, respectively. Unlike the normal distribution in wild-type pachytene spermatocytes (C), BLM foci are present on synapsed pachytene chromosomes in the mutant (D). RAD51 foci, which are abundant earlier in prophase, disappear from autosomes in wild-type pachytene nuclei (E) and the bulk of staining is over the XY body (arrow).
+
+(F) RAD51 persists on the synapsed mutant chromosomes (arrows).
+
+(G) H2AX phosphorylation is restricted to the XY body in WT.
+
+(H) In addition to a large area of γH2AX staining (arrow) over the XY body, there is extensive autosomal H2AX phosphorylation (arrows).
+
+(I, J) Note that in wild-type pachytene spermatocytes, TOPBP1 is present only over the XY body (yellow arrow). In the mutant (J), an arrow denotes one area of intensive staining that may be over the sex chromosomes, but many other chromosome cores are positively stained.
+
+(K, L) RPA persists along synapsed cores in the mutant, not WT.
+
+(M, N) Arrows indicate examples of MLH3 foci on SCs.
+
+(O) In WT late pachytene spermatocytes, RAD51 is present only at background levels.
+
+(P) As in (F), extensive RAD51 staining delineates SCs in mutant pachytene nuclei (indicated by white arcs). MLH1 foci colocalize with these tracts (arrows) at the typical 1–2 foci per chromosome as in (M).</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53884" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17905" end="17915" />
+    <spannedText>Trip13Gt/+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53886" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17911" end="17915" />
+    <spannedText>Gt/+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53888" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17920" end="17931" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53890" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17926" end="17931" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53892" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19705" end="19716" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53894" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19711" end="19716" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53896" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19999" end="20010" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53898" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20005" end="20010" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53900" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20948" end="20959" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53902" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20954" end="20959" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53904" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22632" end="22643" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53906" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22638" end="22643" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53908" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22813" end="22824" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53910" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22819" end="22824" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53912" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23137" end="23145" />
+    <spannedText>Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53914" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23143" end="23145" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53916" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23372" end="23383" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53918" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23378" end="23383" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53920" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23894" end="23895" />
+    <spannedText>N</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53922" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23994" end="24005" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53924" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24000" end="24005" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53926" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24469" end="24480" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53928" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24475" end="24480" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53930" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24691" end="24703" />
+    <spannedText>Trip13Gt/Gt,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53932" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24697" end="24702" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53934" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24708" end="24712" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53936" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24712" end="24715" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53938" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24713" end="24714" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53940" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24978" end="24982" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53942" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24982" end="24985" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53944" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24983" end="24984" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53946" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25052" end="25063" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53948" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25058" end="25063" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53950" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25118" end="25129" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53952" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25124" end="25129" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53954" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25323" end="25327" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53956" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25327" end="25330" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53958" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25328" end="25329" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53960" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25560" end="25571" />
+    <spannedText>C. elegans,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53962" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25617" end="25622" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53964" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25627" end="25633" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53966" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25785" end="25803" />
+    <spannedText>C. elegans, spo-11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53968" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25913" end="25918" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53970" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25918" end="25921" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53972" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25919" end="25920" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53974" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26123" end="26140" />
+    <spannedText>Trip13Gt/Gt Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53976" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26129" end="26134" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53978" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26140" end="26143" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53980" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26141" end="26142" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53982" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26418" end="26424" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53984" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26493" end="26504" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53986" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26499" end="26504" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53988" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26752" end="26757" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53990" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26850" end="26855" />
+    <spannedText>Mei1,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53992" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27013" end="27334" />
+    <spannedText>Figure 5
+
+Immunocytological Analysis of Trip13 Compound Mutants
+
+Surface-spread chromosomes were immunolabeled with the indicated antibodies and fluorophores. Genotypes are indicated, as are those panels in which dual staining patterns are merged. Note that (H) and (I) are at lower magnification to show multiple nuclei.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53995" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27053" end="27059" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53997" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27423" end="27427" />
+    <spannedText>zip1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_53999" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27432" end="27436" />
+    <spannedText>zip2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54001" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27514" end="27519" />
+    <spannedText>Sycp1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54003" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27583" end="27589" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54005" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27650" end="27655" />
+    <spannedText>Sycp1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54007" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27655" end="27658" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54009" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27656" end="27657" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54011" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27723" end="27727" />
+    <spannedText>zip1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54013" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27994" end="27998" />
+    <spannedText>Rec8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54015" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28007" end="28016" />
+    <spannedText>Rec8Mei8,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54017" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28011" end="28015" />
+    <spannedText>Mei8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54019" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28032" end="28036" />
+    <spannedText>Rec8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54021" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28036" end="28037" />
+    <spannedText>−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54023" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28063" end="28067" />
+    <spannedText>Rec8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54025" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28329" end="28333" />
+    <spannedText>Rec8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54027" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28425" end="28429" />
+    <spannedText>Rec8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54029" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28446" end="28452" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54031" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28464" end="28469" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54033" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28474" end="28478" />
+    <spannedText>Mei1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54035" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28561" end="28565" />
+    <spannedText>Rec8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54037" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28636" end="28647" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54039" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28642" end="28647" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54041" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28785" end="28789" />
+    <spannedText>Rec8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54043" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28789" end="28792" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54045" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28790" end="28791" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54047" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28797" end="28801" />
+    <spannedText>Rec8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54049" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28801" end="28804" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54051" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28802" end="28803" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54053" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28805" end="28816" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54055" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28811" end="28816" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54057" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28859" end="28863" />
+    <spannedText>Rec8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54059" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28969" end="28973" />
+    <spannedText>PCH2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54061" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29094" end="29098" />
+    <spannedText>DMC1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54063" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29187" end="29193" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54065" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29198" end="29202" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54067" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29210" end="29214" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54069" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29214" end="29217" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54071" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29215" end="29216" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54073" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29352" end="29356" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54075" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29356" end="29359" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54077" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29357" end="29358" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54079" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29360" end="29371" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54081" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29366" end="29371" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54083" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29552" end="29556" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54085" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29556" end="29559" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54087" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29557" end="29558" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54089" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29564" end="29568" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54091" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29568" end="29571" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54093" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29569" end="29570" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54095" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29572" end="29583" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54097" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29578" end="29583" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54099" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29632" end="29640" />
+    <spannedText>Trip13Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54101" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29638" end="29640" />
+    <spannedText>Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54103" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29774" end="29778" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54105" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29795" end="29801" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54107" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29860" end="29864" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54109" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29864" end="29867" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54111" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29865" end="29866" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54113" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29872" end="29883" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54115" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29878" end="29883" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54117" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29939" end="29950" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54119" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29945" end="29950" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54121" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30062" end="30068" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54123" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30083" end="30087" />
+    <spannedText>Mei1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54125" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30087" end="30090" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54127" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30088" end="30089" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54129" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30091" end="30102" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54131" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30097" end="30102" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54133" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30107" end="30112" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54135" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30112" end="30115" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54137" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30113" end="30114" />
+    <spannedText>/</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54139" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30116" end="30127" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54141" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30122" end="30127" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54143" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30186" end="30190" />
+    <spannedText>Mei1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54145" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30195" end="30200" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54147" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30238" end="30243" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54149" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30248" end="30252" />
+    <spannedText>Mei1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54151" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30270" end="30276" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54153" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30311" end="30315" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54155" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30363" end="30374" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54157" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30369" end="30374" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54159" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30522" end="30528" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54161" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30598" end="30609" />
+    <spannedText>Rec8 Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54163" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30714" end="39218" />
+    <spannedText>Discussion
+
+Genetic experiments in S. cerevisiae provided evidence that the pachytene checkpoint monitors and responds to recombinational DSB repair and synapsis independently. Wu and Burgess concluded that the repair checkpoint is RAD17-SAE2 dependent, while the synapsis checkpoint is PCH2-ZIP1 dependent [12]. Of these four genes, SAE2 and ZIP1 do not have clear mammalian orthologs (although SYCP1 may be a functional ortholog of ZIP1), and mutation of the mouse RAD17 ortholog, Rad1, presumably causes embryonic lethality [42]. Thus, mutational analysis of mouse Pch2 (Trip13), which is also critical for the synapsis checkpoint in C. elegans [2], was the best remaining option to evaluate potential functional conservation in mammalian meiotic checkpoint control.
+
+Our results demonstrate that in mice, the primary meiotic function of TRIP13 is in recombination itself. We found no evidence that it is involved in pachytene checkpoint control. Our data suggest that while recombination events destined to be resolved as COs can proceed normally in Trip13 mutants, DSBs that enter the NCO repair pathway are incompletely resolved or processed inefficiently. This hypothesis is compatible with current knowledge of meiotic recombination pathways. In S. cerevisiae, CO and NCO pathways are distinct [43]; they have different recombination intermediates, and are dependent upon different proteins [44,45]. Mice also appear to have independent CO versus NCO recombination pathways [46]. As in yeast, both require SPO11-induced breaks, but only the CO pathway requires MLH1. Both types of recombinant products are formed by mid-late pachynema. Another possibility is that the recombination defects are a result of defective intersister recombination. However, this type of DSB repair is suppressed in meiotic cells. Ablation of RAD54, which mediates intersister recombination in yeast, does not significantly disrupt meiosis in either yeast or mice [47,48]. Interestingly, RAD54-deficient spermatocytes display abnormal persistence of RAD51 foci on pachytene chromosomes, similar to those in TRIP13 mice, but there are no deleterious effects on meiotic progression or fertility [49].
+
+Data from budding yeast also indicate that Pch2p functions in recombination. Deletion of PCH2 delays meiotic progression by ∼2 h in SK1 yeast, and causes a minor decrease in ascus formation [50]. DSBs persist &gt;2 h longer in pch2Δ yeast than in wild type, and hyperresection of DSBs in dmc1Δ pch2Δ double mutants is lower than in dmc1Δ cells [10]. Additionally, it was reported that pch2Δ yeast had a meiosis I delay dependent on the RAD17–SAE2 checkpoint that monitors recombination intermediates [12]. However, the exact role of TRIP13 (or Pch2) in recombination is unclear. Because synapsis occurs in TRIP13-deficient spermatocytes and is dependent on DSB formation (activity of SPO11 and MEI1), we suggest that TRIP13 functions after homology recognition and strand exchange, and that recombination events entering the CO repair pathway are either completed or nearly so (because OA treated resulted in bivalent chromosomes). One possibility for TRIP13′s role in recombination is that it is directly involved in a step specific to resolution of NCO recombination intermediates. Another possibility is that TRIP13 is required for disassembly of NCO recombinational repair complexes [51] containing those proteins that persist abnormally on Trip13Gt/Gt pachytene chromosomes. Notably, TRIP13 has two putative ATPase domains, a signature of AAA-ATPase ClpA/B chaperones that perform protein or protein/DNA complex disassembly [52]. These potential recombination roles might not be limited to meiosis, since Trip13 is widely transcribed and the mutant animals exhibited developmental defects. Finally, TRIP13 might play an indirect role, such as providing a “licensing” signal for the resolution of NCO intermediates and completion of meiosis.
+
+Regarding the cause of cell death in Trip13 mutants, our data indicate that this is triggered by defective DSB repair rather than asynapsis. We base this conclusion on two observations: (1) oocyte elimination is dependent upon DSB formation and (2) synapsis is normal in spermatocytes of adult testes. Indeed, this mutant is unique in that recombination defects occur in the absence of asynapsis (e.g., as in Dmc1 knockouts). Thus, the Trip13 mutant provides the first evidence that unrepaired DNA damage alone can trigger the mammalian pachytene checkpoint response. Furthermore, our results allow us to conclude that oocytes and spermatocytes share a similar, if not identical, DNA damage pachytene checkpoint that is decoupled from a synapsis checkpoint.
+
+Interestingly, we found that OA treatment of Trip13Gt/Gt spermatocytes could propel them into MI, despite a report that the same did not occur when wild-type pachytene spermatocytes were treated with the DSB-inducing agents gamma radiation or etoposide [53]. It is possible that the nascent induction of DSBs in pachynema evokes a checkpoint response that cannot be bypassed by OA, whereas the post-strand invasion lesions in TRIP13-deficient spermatocytes do not.
+
+TRIP13 was originally discovered to be an interactor with rat thyroid receptor beta (THRB; [54]), but the relationship between THRB and TRIP13 in meiosis is unknown. Interestingly, we observed that THRB is distributed diffusely throughout wild-type spermatocyte nuclei but is excluded from the XY (sex) body (unpublished observations), a compartmentalized nuclear domain beginning in pachynema, in which the sex chromosomes become heterochromatinized and transcriptionally silenced in the process of MSCI [55]. However, the XY body appeared intact in most mutant spermatocytes upon probing with several markers of XY heterochromatinization (unpublished observations). Considering that THRB knockout mice are viable and fertile [56], the functional relationship between TRIP13 and its receptor THRB in meiosis is unclear.
+
+Given the high similarity of PCH2 orthologs throughout the eukaryotic world, one or more essential functions of this protein must be conserved. Since TRIP13 does not exhibit checkpoint function in mice, we surmise that the TRIP13/PCH2 ancestral protein had a function in recombination that persists to the present. Notably, A. thaliana does not appear to have a meiotic checkpoint activity that eliminates mutant meiocytes in a manner analogous to organisms such as mice, budding yeast, and female Drosophila [11,57], and mammalian TRIP13 is more similar to Arabidopsis PCH2 than the fly or worm proteins (Figures 1A and S1). The unusual relatedness between mammalian and plant PCH2 may therefore be attributable to both the presence of a common conserved function (namely recombination, although the role of PCH2 in plants has yet to be determined), and the absence of checkpoint function. Nevertheless, the evolutionary relationships between animals, fungi, and plants (which are discordant with PCH2 sequence phylogeny) do not allow parsimonious models addressing the points in time that checkpoint functions in PCH2 were gained or lost. It is possible that its checkpoint function evolved independently in worms and budding yeast. The picture will become clearer as the function of PCH2 in other organisms is elucidated.
+
+The nature of the synapsis checkpoint in male mice remains unidentified. One possible candidate is Dot1 (PCH1 in yeast), a histone methyltransferase silencing factor that is required for pachytene arrest of zip1 and dmc1 mutants in yeast [58], and for preventing RAD54-mediated recombinational DSB repair between sister chromatids. However, DOT1 acts upstream of PCH2. Given that TRIP13 doesn't have checkpoint function in mice, a potential role for mammalian DOT1 in the pachytene checkpoint is dubious but awaits investigation. Recently, it was shown that the TRP53 homolog TRP63 is required for DNA damage–induced death of dictyate-stage primordial oocytes, leading to the suggestion that it is involved in monitoring genome integrity [59]. However, this activity occurs subsequent to a pachytene checkpoint. As alluded to earlier, a complicating problem for studying potential meiotic checkpoint genes in mice is that as in yeast, such genes often have mitotic functions (such as RAD24 [7]), and their ablation can cause lethality [42]. Unless mammalian pachytene checkpoint components have orthologs with similar functions in organisms such as yeast, their identities are likely to remain elusive.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54166" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30946" end="30951" />
+    <spannedText>RAD17</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54168" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30952" end="30956" />
+    <spannedText>SAE2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54170" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31001" end="31005" />
+    <spannedText>PCH2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54172" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31006" end="31010" />
+    <spannedText>ZIP1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54174" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31048" end="31052" />
+    <spannedText>SAE2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54176" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31057" end="31061" />
+    <spannedText>ZIP1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54178" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31181" end="31186" />
+    <spannedText>RAD17</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54180" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31197" end="31202" />
+    <spannedText>Rad1,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54182" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31282" end="31296" />
+    <spannedText>Pch2 (Trip13),</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54184" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31768" end="31774" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54186" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31968" end="31982" />
+    <spannedText>S. cerevisiae,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54188" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32542" end="32548" />
+    <spannedText>RAD54,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54190" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32988" end="32992" />
+    <spannedText>PCH2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54192" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33123" end="33127" />
+    <spannedText>pch2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54194" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33184" end="33188" />
+    <spannedText>dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54196" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33190" end="33194" />
+    <spannedText>pch2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54198" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33228" end="33232" />
+    <spannedText>dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54200" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33281" end="33285" />
+    <spannedText>pch2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54202" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33332" end="33342" />
+    <spannedText>RAD17–SAE2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54204" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34141" end="34152" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54206" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34147" end="34152" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54208" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34406" end="34412" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54210" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34680" end="34686" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54212" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35052" end="35056" />
+    <spannedText>Dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54214" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35079" end="35085" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54216" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35447" end="35458" />
+    <spannedText>Trip13Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54218" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35453" end="35458" />
+    <spannedText>Gt/Gt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54220" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37188" end="37198" />
+    <spannedText>Drosophila</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54222" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37248" end="37259" />
+    <spannedText>Arabidopsis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54224" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38115" end="38119" />
+    <spannedText>Dot1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54226" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38121" end="38125" />
+    <spannedText>PCH1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54228" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38223" end="38227" />
+    <spannedText>zip1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54230" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38232" end="38236" />
+    <spannedText>dmc1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54232" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38357" end="38361" />
+    <spannedText>DOT1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54234" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38379" end="38383" />
+    <spannedText>PCH2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54236" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39220" end="46433" />
+    <spannedText>Materials and Methods
+
+PCR analysis of Trip13 cDNA.
+
+Trip13 was amplified from samples of Clontech's Mouse Multiple Tissue cDNA Panel I (http://www.clontech.com), using the following primers: 5′-GCACCATTGCACTTCACATC-3′ (TRP3-6F) and 5′-TGACCATCAGACTGTCGAGC-3′ (TRP3-6R). These primers correspond to exons 3 and 6, respectively, and amplify a 330-bp cDNA product. The cDNAs in this panel are equalized to allow quantitative analysis by RT-PCR.
+
+Generation of Trip13-deficient mice.
+
+The mouse embryonic stem cell line RRB047 (strain 129/Ola) containing a gene trap insertion in Trip13 was obtained from BayGenomics (http://www.baygenomics.ucsf.edu/). The gene-trapping vector used to create this line, pGT1lxf, was designed to create an in-frame fusion between the 5′ exons of the trapped gene and a reporter, βgeo (a fusion of β-galactosidase and neomycin phosphotransferase II). The gene-trapped locus creates a fusion transcript containing exons 1–3 of Trip13 and βgeo. To identify the exact insertion site within intron 3, PCR was performed using one primer within the gene trap vector, and the other primer at various positions in intron 3 pointing towards the 3′ end of the gene. Product from a productive reaction was sequenced, revealing that the insertion site was 445 bp into intron 3.
+
+Genotyping of mice.
+
+Three primers were used to distinguish wild-type and mutant alleles of Trip13: primer 1, 5′-CGTCGCTCCATTGCTTTGTGC-3′; primer 2, 5′-AGTAGTGGTACACTGTATTTTTGCTTTCATTGA-3′; and primer 3, 5′-GTAGATCCCGGCGCTCTTACCAA-3′. Primers 1 and 2 are located upstream and downstream, respectively, of the gene trap insertion within the intron 3. Primer 3 corresponds to pGTlxf sequence. Primers 1 and 2 amplify a 700-bp band from a wild-type allele; primers 1 and 3 amplify a 540-bp fragment from a mutant allele. Separate reactions were used to assay the presence or absence of each amplicon from a DNA sample. The cycling conditions were: 94 °C 2 min; 35 cycles of 94 °C 30 s, 57 °C 45 s, and 72°C 50 s; and 72 °C 2 min.
+
+RT-PCR.
+
+Total RNA was isolated from adult testes with the RNeasy Mini Kit (Qiagen, http://www.qiagen.com), and 4.0 μg was oligo dT–primed and reverse-transcribed with Superscript II (Stratagene, http://www.stratagene.com). The entire Trip13 protein-coding sequence was amplified with primers 5′-ATGGACGAGGCGGTG-3′ and 5′-TCAAACATAAGCTGAAAGTT-3′. The cycling conditions were: 94 °C 2 min; 94 °C 30s, 55 °C 45 s, and 72 °C 80 s for 35 cycles; and 72 °C 2 min. The primers for amplifying the Med31 coding sequence as control were : 5′-ATGGCCGCGGCCGTCGCTATGG-3′ and 5′-TCATTTCCCTGCTGTGTTATTCTGCTGCTGCTGC-3′. The cycling conditions were: 94 °C 2 min; 94 °C 30 s, 55 °C 30 s, and 72 °C 35 s for 35 cycles; and 72 °C 2 min.
+
+Development and purification of chicken antibodies.
+
+A peptide corresponding to amino acids 25–40 of TRIP13, VLQRSGSTAKKEDIK, was conjugated to KLH and used to immunize chickens (done by Sigma Genosys, http://www.sigmaaldrich.com). Polyclonal IgY was isolated from eggs with the Eggcellent Chicken IgY Purification kit (Pierce, http://www.piercenet.com). IgY antibodies were then affinity purified using the immunizing synthetic peptide.
+
+Western blotting.
+
+50 μg of testis extract in RIPA buffer was separated by 8% SDS-PAGE and electrotransferred onto a Pure Nitrocellulose membrane (Bio-Rad, http://www.biorad.com). The membrane was incubated with a polyclonal rabbit anti-human TRIP13 antibody (18-003-42687; Genway, http://www.genwaybio.com). According to the manufacturer, the immunogen was a synthetic peptide embedded in sequence we deduced to correspond to exon 3. Binding was detected by chemiluminescence ECL kit (Pierce) using a rabbit anti-chicken IgG horseradish peroxidase conjugate (Pierce).
+
+Histological analyses.
+
+Testes or ovaries were fixed in Bouin's, embedded in paraffin, sectioned at 6 μm, and stained by hematoxylin and eosin. Antigen retrieval for immunohistochemistry of testis sections was as described [60]. Oocyte and follicle numbers were counted as described [61]. Only follicles containing an oocyte with a clearly visible nucleus were scored.
+
+Immunocytochemistry.
+
+Immunolabeling of surface-spread spermatocytes and oocytes was performed as described [39,62]. To reach conclusions on the pattern of staining for various proteins, 30 (unless otherwise indicated) well-spread nuclei of particular meiotic stages were first identified under the fluorescent microscope on the basis of SYCP3 or STAG3 staining, then imaged at both appropriate wavelengths to determine the pattern of second proteins with focal patterns such as RAD51 or RPA. Unless otherwise indicated, the panels shown in the figures were the exclusive or predominant patterns seen. The exception for this approach was in the case of staining for MLH1 or MLH3 plus RAD51 (in which case SYCP3 or STAG3 was not available to find chromosome cores). Nuclei in this situation were identified first by MLH1/3 foci clustering, then imaged for both fluorescent wavelengths.
+
+Primary antibodies used in this study were as follows: mouse anti-SCP3 (1:500; Abcam, http://www.abcam.com); rabbit anti-SYCP1 (1:1,000; a gift from C. Heyting) [63]; rabbit anti-REC8 (1:100; a gift from C. Heyting); rabbit anti-RAD51 (1:250, this polyclonal antibody recognizes both RAD51 and DMC1; Oncogene Research Products, http://www.merckbiosciences.co.uk); rabbit anti-γH2AX (1:500; Upstate Biotechnology, http://www.upstate.com/); rabbit anti-STAG3 (1:1,000; a gift from R. Jessberger); rabbit anti-MLH3 (1:400; a gift from P. Cohen); mouse-anti-human MLH1 (1:50; BD Biosciences, http://www.bdbiosciences.com); rabbit-anti-TopBP1 (1:100; a gift from J. Chen) [22]; mouse-anti-ubiquityl-histone H2A (1:200; Upstate Biotechnology); rabbit-anti-TRF2 (1:500; a gift from T. de Lange); and rabbit-anti-BLM (1:50; a gift from R. Freire). All secondary antibodies conjugated with either Alexa Fluor 488 or 594 (Molecular Probes, http://probes.invitrogen.com/) were used at a dilution of 1:1,000. All images were taken with a 100× objective lens under immersion oil.
+
+Metaphase I spermatocyte spreads and OA treatment.
+
+Metaphase fixed spermatocytes from 8-mo-old Trip13RRB047 homozygotes, using 23-d-old wild-type mice as control, were prepared and stained with Giemsa as described [64].
+
+For OA treatment, cells were exposed to 5 μM OA (Calbiochem, http://www.emdbiosciences.com) for 6 h at 32 °C in a humidified environment of 5% CO2 before spreading [65]. These preparations were stained with DAPI to visualize metaphase nuclei and chromosomes.
+
+Phylogenetic analyses.
+
+TRIP13 orthologs were identified by BLASTP searches of Genbank and other sources providing gene models such as Ensembl. The selected orthologs can be found in Table S1. Amino acid alignments were done with Clustal W, using the default settings with and without removing the regions outside of the AAA-ATPase central domain. The trees were constructed by using the neighbor-joining method with Poisson correction. The reliability of internal branches was assessed by using 500 bootstrap replicates, and sites with gaps were ignored in this analysis. Neighbor-joining searches were conducted by using the computer program MEGA3 [66].</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54239" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39259" end="39265" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54241" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39273" end="39279" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54243" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39678" end="39684" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54245" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39797" end="39803" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54247" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40029" end="40033" />
+    <spannedText>βgeo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54249" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40175" end="40181" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54251" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40186" end="40190" />
+    <spannedText>βgeo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54253" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40608" end="40615" />
+    <spannedText>Trip13:</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54255" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41479" end="41485" />
+    <spannedText>Trip13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54257" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41734" end="41739" />
+    <spannedText>Med31</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54259" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45392" end="45404" />
+    <spannedText>Trip13RRB047</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54261" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45398" end="45404" />
+    <spannedText>RRB047</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54263" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45663" end="45664" />
+    <spannedText>2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54265" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46435" end="47071" />
+    <spannedText>Supporting Information
+
+Figure S1
+
+Depiction of Conserved Regions of Mouse TRIP13 and Its PCH2 Orthologs
+
+(75 KB PDF)
+
+Click here for additional data file.
+
+Figure S2
+
+Surface-Spread Chromosomes Immunolabeled with the Indicated Antibodies and Fluorophores
+
+(947 KB PDF)
+
+Click here for additional data file.
+
+Figure S3
+
+Trip13 Mutant Spermatocytes That Progress Beyond Pachynema Have Repaired DSBs and Form Bivalents at Metaphase I
+
+(1.5 MB PDF)
+
+Click here for additional data file.
+
+Table S1
+
+Sources of TRIP13 Amino Acid Sequences Used to Construct the Phylogenetic Tree in Figure 1
+
+(22 KB PDF)
+
+Click here for additional data file.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54268" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="47073" end="47553" />
+    <spannedText>Acknowledgements
+
+We thank P. Burgoyne, P. Cohen, E. Alani, and P. Moens for helpful discussions, R. Viswanatha for helpful comments on the manuscript, W. Pawlowski and T. Pawlowska for input on the evolutionary tree of PCH2, R. Freire and J. Chen for antibodies, M. Jasin for Spo11− embryonic stem cells, and R. Munroe for generating chimeric mice. We also thank an anonymous reviewer for pointing out that Pch2p might be sensing synaptic polymerization in yeast, not initiation.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54271" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="47350" end="47355" />
+    <spannedText>Spo11</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54273" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="47355" end="47356" />
+    <spannedText>−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54275" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="47555" end="47805" />
+    <spannedText>Abbreviations
+
+CO - crossover
+
+DSB - double strand break
+
+MSCI - meiotic sex chromosome inactivation
+
+MSUC - meiotic silencing of unpaired chromatin
+
+NCO - noncrossover
+
+OA - okadaic acid
+
+RT-PCR - reverse-transcriptase PCR
+
+SC - synaptonemal complex</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54278" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="47807" end="48237" />
+    <spannedText>Footnotes
+
+A previous version of this article appeared as an Early Online Release on June 21, 2007 (doi:10.1371/journal.pgen.0030130.eor).
+
+Author contributions. XL and JCS conceived and designed the experiments and analyzed the data. XL performed the experiments. JCS wrote the paper.
+
+Funding. This work was supported by NIH grant GM45415 to JS.
+
+Competing interests. The authors have declared that no competing interests exist.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54281" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="47947" end="47968" />
+    <spannedText>Author contributions.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54283" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="48094" end="48102" />
+    <spannedText>Funding.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_54285" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="48156" end="48176" />
+    <spannedText>Competing interests.</spannedText>
+  </annotation>
+  <classMention id="formatting_Instance_53906">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53904">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53910">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53908">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53914">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53912">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53918">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53916">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53890">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53888">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53894">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53892">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53898">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53896">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53902">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53900">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53873">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53875">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53877">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53879">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53881">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_53882" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_53882">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 4" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_53884">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53886">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53857">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53859">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53861">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53863">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53865">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53867">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53869">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53871">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53847">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53845">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53843">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53841">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53855">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53853">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53851">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53849">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53831">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53829">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53827">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53825">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53839">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53837">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53835">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53833">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53813">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53815">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53809">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53811">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53821">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53823">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53817">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53819">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53797">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53799">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53793">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53795">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53805">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53807">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53801">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53803">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54043">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54041">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54047">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54045">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54035">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54033">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54039">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54037">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54027">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54025">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54031">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54029">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54019">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54017">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54023">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54021">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54009">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54011">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54013">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54015">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54001">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54003">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54005">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54007">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53992">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_53993" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_53993">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 5" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_53995">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53997">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53999">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53984">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53986">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53988">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53990">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53982">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53980">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53978">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53976">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53974">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53972">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53970">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53968">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53966">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53964">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53962">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53960">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53958">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53956">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53954">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53952">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53948">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53950">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53944">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53946">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53940">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53942">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53936">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53938">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53932">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53934">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53928">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53930">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53924">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53926">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53920">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53922">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54145">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54147">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54149">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54151">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54153">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54155">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54157">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54159">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54161">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54163">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_54164" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_54164">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Discussion" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_54166">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54168">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54170">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54172">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54174">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54115">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54113">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54119">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54117">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54123">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54121">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54127">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54125">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54131">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54129">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54135">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54133">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54139">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54137">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54143">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54141">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54085">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53614">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54087">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53612">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54081">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53610">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54083">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53608">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54093">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54095">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53605">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_53606" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_53606">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="abstract" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_54089">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53603">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54091">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53600">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_53601" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_53601">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="title" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_54101">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53631">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54103">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53629">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54097">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53627">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53624">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_53625" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_53625">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Introduction" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_54099">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53622">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54109">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53620">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54111">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53618">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54105">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53616">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54107">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54055">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53645">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54053">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53647">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_53648" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_53648">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Results" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_54051">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53641">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54049">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53643">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54063">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53637">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54061">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53639">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54059">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53633">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54057">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53635">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54071">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53661">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54069">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53663">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53656">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54067">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53658">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_53659" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_53659">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 1" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_54065">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53652">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54079">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53654">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54077">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54075">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53650">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54073">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54281">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53667">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54283">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53665">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54285">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53671">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53669">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54273">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53675">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54275">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_54276" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_54276">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Abbreviations" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_53673">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53679">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54278">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_54279" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_54279">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Footnotes" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_53677">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53683">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53681">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53687">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53685">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53691">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_53692" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_53692">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 2" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_53689">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53694">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53696">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54251">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53698">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54249">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53700">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54255">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53702">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54253">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53704">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54243">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53706">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54241">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53708">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54247">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53710">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54245">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53712">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54265">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_54266" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_54266">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Supporting Information" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_53714">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54271">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53716">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_53717" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_53717">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 3" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_53719">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54268">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_54269" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_54269">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Acknowledgements" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_54259">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53721">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54257">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53723">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54263">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53725">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54261">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53727">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54220">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53735">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54222">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53733">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54216">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53731">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54218">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53729">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54212">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53743">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54214">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53741">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54208">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53739">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54210">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53737">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53751">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54236">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_54237" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_54237">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Materials and Methods" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_54239">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53749">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53747">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54232">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53745">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54234">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53759">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54228">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53757">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54230">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53755">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54224">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53753">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54226">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54190">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53765">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54188">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53767">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54186">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53761">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54184">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53763">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54182">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53773">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54180">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53775">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54178">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53769">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54176">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53771">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53781">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54206">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53783">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54204">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53777">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54202">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53779">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54200">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53789">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54198">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53791">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54196">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53785">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54194">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_53787">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_54192">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+</annotations>
+

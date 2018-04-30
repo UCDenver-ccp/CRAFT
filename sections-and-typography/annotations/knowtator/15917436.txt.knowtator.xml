@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="15917436.txt">
+  <annotation>
+    <mention id="formatting_Instance_27758" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="0" end="59" />
+    <spannedText>DNA binding and helicase actions of mouse MCM4/6/7 helicase</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27761" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="61" end="1524" />
+    <spannedText>Abstract
+
+Helicases play central roles in initiation and elongation of DNA replication. We previously reported that helicase and ATPase activities of the mammalian Mcm4/6/7 complex are activated specifically by thymine-rich single-stranded DNA. Here, we examined its substrate preference and helicase actions using various synthetic DNAs. On a bubble substrate, Mcm4/6/7 makes symmetric dual contacts with the 5′-proximal 25 nt single-stranded segments adjacent to the branch points, presumably generating double hexamers. Loss of thymine residues from one single-strand results in significant decrease of unwinding efficacy, suggesting that concurrent bidirectional unwinding by a single double hexameric Mcm4/6/7 may play a role in efficient unwinding of the bubble. Mcm4/6/7 binds and unwinds various fork and extension structures carrying a single-stranded 3′-tail DNA. The extent of helicase activation depends on the sequence context of the 3′-tail, and the maximum level is achieved by DNA with 50% or more thymine content. Strand displacement by Mcm4/6/7 is inhibited, as the GC content of the duplex region increases. Replacement of cytosine–guanine pairs with cytosine–inosine pairs in the duplex restored unwinding, suggesting that mammalian Mcm4/6/7 helicase has difficulties in unwinding stably base-paired duplex. Taken together, these findings reveal important features on activation and substrate preference of the eukaryotic replicative helicase.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27764" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1526" end="4611" />
+    <spannedText>INTRODUCTION
+
+DNA helicases couple the hydrolysis of nucleotide or deoxynucleotide triphosphate to duplex unwinding (1). Coordination of a set of subactivities including nucleotide binding, DNA binding and ATP hydrolysis is required for unwinding of duplex DNA (1,2). The hexameric helicases, to which minichromosome maintenance (Mcm) helicase belongs, are known to assemble a ring-like structure (3–5). Whereas most of DNA helicases of this group, including simian virus 40 large T-antigen (6), Escherichia coli DnaB (7) and Archaeal Mcm (4,8,9), are composed of a single subunit, the active eukaryotic Mcm helicases are composed of two trimeric Mcm4/6/7 proteins (10–14).
+
+All the six Mcm 2–7 proteins contain highly conserved DNA-dependent ATPase motifs in their central regions (15,16). Among the several stable subcomplexes which MCM proteins can generate, only the Mcm4/6/7 complex has been shown to possess an intrinsic DNA helicase activity (10–14,17–18). While Mcm4, Mcm6 and Mcm7 proteins make distinct contribution to its helicase activity (11–13), Mcm2 or Mcm3/5 inhibit the helicase activity of the Mcm4/6/7 complex by converting its double trimer structure into a heterotetramer or heteropentamer, respectively (3,11). Chromatin immunoprecipitation assays and genetic characterization in Saccharomyces cerevisiae strongly suggested that Mcm is involved not only in initiation but also in the DNA chain elongation stage as a replicative helicase (19,20). Consistent with this notion, the processivity of the Schizosaccharomyces pombe and mouse Mcm4/6/7 complexes is significantly stimulated on forked DNA structures and it can unwind duplex DNA of 400–500 bp (13,14). Mcm4/6/7 binds to fork and bubble structures in an ATP-dependent manner, and generates a double-hexameric complex, as was shown for T-antigen (13,14,21). Recently, we reported that the helicase and ATP hydrolysis activities of mammalian Mcm4/6/7 are specifically activated by single-stranded DNA containing stretches of thymine residues and proposed a novel model that Mcm may play a crucial role in selection of replication origins in higher eukaryotes (13).
+
+In this report, in order to clarify the mode of action of the Mcm helicase and obtain insight into how it may function at the replication forks in vivo, we have conducted detailed analyses of helicase action and DNA binding of mouse Mcm4/6/7 helicase using various forked and bubble substrate DNAs. We specifically addressed sequence requirement for the Mcm helicase activation, mode of interaction with DNA substrates and whether the thymine sequences are required for continuous activation of Mcm helicase during the unwinding process. The results indicate that mammalian Mcm4/6/7 primarily binds to single-stranded DNA region, and that the extent of helicase activation is related to the thymine content of the single-stranded segment. Unexpectedly, Mcm4/6/7 helicase is not capable of efficiently unwinding the GC-rich duplex segment, suggesting that some other mechanism may be required for completion of replication of the entire genome.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27767" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="2022" end="2038" />
+    <spannedText>Escherichia coli</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27769" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="2828" end="2852" />
+    <spannedText>Saccharomyces cerevisiae</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27771" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3047" end="3072" />
+    <spannedText>Schizosaccharomyces pombe</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27773" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3812" end="3819" />
+    <spannedText>in vivo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27775" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="4613" end="10904" />
+    <spannedText>MATERIALS AND METHODS
+
+Reagents
+
+Labeled and unlabeled dNTPs/rNTPs and Sequenase were purchased from Amersham Pharmacia. M13mp18 and M13mp19 single-stranded circular DNA, T4 polynucleotide kinase, DNase I and the Klenow fragment were from TAKARA, Nuclease P1 was from Roche, and anti-FLAG M2 Ab (antibody)-agarose and FLAG peptide were from Sigma. SV40 T-antigen was purified from baculovirus-infected insect cells as reported (22). PriA helicase protein was provided by Dr Taku Tanaka (23). Oligonucleotides were purchased from Hokkaido system science Co., Ltd (Hokkaido, Japan), and were purified on polyacrylamide gel, followed by purification by Sep-Pak Plus C18 cartridge column (Waters).
+
+Expression and purification of mouse Mcm4/6/7 complex
+
+The recombinant baculoviruses expressing His6-Mcm4/Mcm6 or Mcm7-FLAG proteins were previously described (11). Sf9 and High five insect cells were cultured at 27°C in Sf-900 II SFM (Life Technologies, Inc.) and EX-CELL 405 medium (JRH Biosciences), respectively. For expression of the Mcm4/6/7 proteins, High five cells were coinfected with recombinant baculoviruses expressing the His6-Mcm4/Mcm6 proteins and those expressing the Mcm7-FLAG, and were collected at 48 h post-infection. The recombinant Mcm4/6/7 complexes were purified as previously described (12).
+
+DNA substrates
+
+The sequences for all the oligonucleotides used for constructions of DNA substrates are listed in Tables 1 and 2. The partial heteroduplex substrates were constructed by annealing labeled oligonucleotides with M13mp18 single-stranded circular DNA or its derivative. The labeled substrates were purified by Sepharose CL4B column chromatography (Amersham Pharmacia Biotech).
+
+The DNA bubble substrates were assembled from two partially complementary oligonucleotides with top and bottom strand sequences (Table 1). T-tailed Y-fork substrates were prepared by annealing two oligonucleotides (dT30 and dT60 series). To construct the arrested fork and 3′- or 5′-extension substrates, various combinations of oligonucleotides shown in Table 1 were annealed. Bub-82/lamin B2 containing the T-rich strand of the lamin B2 origin region was constructed as previously described (13). The bubble substrate, c-myc/DUE or c-myc/DUE-C, contains sequences (GenBank accession number K01908) from nucleotides 722 to 853 or those from 828 to 747 (complementary strand), respectively, in the central melted region. For each substrate, labeled oligonucleotide (3 pmol) was annealed with the unlabeled oligonucleotide (6 pmol) in a reaction mixture (50 μl) containing 20 mM Tris–HCl (pH 7.5), 10 mM MgCl2 and 25 mM NaCl, which were heated to 95°C, kept at 67°C for 1 h, and then allowed to slowly cool down to 37°C. The assembled substrates were purified from polyacrylamide gel by elution into TE buffer (24).
+
+The partial heteroduplex substrates on a single-stranded circular DNA with varied lengths of duplex regions were prepared by extending DNA chains from the 3′ end of the dT40-37mer (37mer region hybridizing at positions 6289–6326 of M13mp18 vector) annealed to the single-stranded circular DNA. DNA chains were elongated with Sequenase in the presence of [α-32P]dGTP, followed by extension after addition of ddGTP and all four dNTPs, resulting in substrates containing labeled duplex regions of varied lengths (13). The substrate (5 fmol) was first incubated with indicated amount of the Mcm4/6/7 complex at 37°C for 1 h in reaction mixture as described (11), and then reactions were stopped by addition of EDTA (20 mM), SDS (0.1%) and 2 μg proteinase K, followed by incubation for 20 min. Aliquots were electrophoresed on a 6.5% polyacrylamide gel in 1× TBE at 300 V for 2.5 h. The single-stranded circular DNAs used were M13mp18 and M13mp19+G-rich. The latter was constructed by inserting a G-rich repeat sequence (GGGGCGTGGGC)6, prepared by annealing of two oligonucleotides (5′-GATCC-[GGGGCGTGGGC]6-3′/5′-GATCC-[GCCCACGCCCC]6-3′) at the BamHI site of M13mp19 and the sequences of the insert were confirmed.
+
+DNA helicase and gel shift assays
+
+In gel shift assays, Mcm4/6/7 proteins were incubated at 30°C for 30 min in reaction mixtures (15 μl) containing 25 mM HEPES–NaOH (pH 7.5), 50 mM sodium acetate, 10 mM Mg(CH3COO)2, 1 mM DTT, 0.25 μg/ml BSA, 0.5 mM ATP-γ-S and labeled substrates of the amount indicated. After addition of 2 μl of 50% glycerol, the reaction mixtures were directly applied on a polyacrylamide gel containing 6 mM magnesium acetate and 5% glycerol in 0.5× TBE, and electrophoresis was conducted at room temperature. For DNA helicase assays, the reaction mixtures of the gel shift assays, as described above, were incubated at 30°C for 15 min, and then the ATP was added at 10 mM, followed by incubation at 37°C for additional 30 min. The reactions were terminated by addition of EDTA (20 mM), SDS (0.1%) and 2 μg proteinase K, and were incubated for additional 15 min. The samples were separated by electrophoresis on nondenaturing polyacrylamide gel in 1× TBE.
+
+Nuclease protection assays
+
+The reaction mixtures (25 μl) contained 25 mM HEPES–NaOH (pH 7.5), 50 mM sodium acetate, 10 mM Mg(CH3COO)2, 1 mM DTT, 0.25 mg/ml BSA, 0.5 mM ATP-γ-S, 0.5 mM CaCl2, 10 fmol of 32P-labeled bubble substrate, and the indicated amount of Mcm4/6/7 proteins. After incubation at 30°C for 30 min, the indicated amount of DNase I (TAKARA Biomedical, Japan) was added, and the mixtures were incubated at room temperature for 1 min. DNase I was inactivated by the addition of 250 μl of stop solution (20 mM EDTA, 0.2M sodium chloride, 1% SDS and 12.5 μg/ml yeast RNA). For nuclease P1 footprinting assay, binding reactions were carried out under the same conditions except that CaCl2 was omitted. P1 nuclease (0.3 U, Roche) was added and incubation was continued at 37°C for 1 min. Cleavage was stopped by addition of 50 μl of 25 mM EDTA and 0.4 M NaOH; the mixture was incubated at room temperature for 10 min followed by the addition of 12 μl of 3 M sodium acetate (pH 4.8). Proteins were removed by phenol–chloroform extraction, and DNAs were collected by ethanol precipitation followed by wash with 70% ethanol. The digested DNA was subjected to electrophoresis through a 10 or 12% polyacrylamide sequencing gel containing 7 M urea, followed by autoradiography.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27778" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5407" end="5408" />
+    <spannedText>6</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27780" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="5747" end="5748" />
+    <spannedText>6</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27782" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6534" end="6536" />
+    <spannedText>30</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27784" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6543" end="6545" />
+    <spannedText>60</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27786" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6840" end="6843" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27788" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6853" end="6856" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27790" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7224" end="7225" />
+    <spannedText>2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27792" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7604" end="7606" />
+    <spannedText>40</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27794" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7790" end="7792" />
+    <spannedText>32</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27796" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8461" end="8462" />
+    <spannedText>6</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27798" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8533" end="8534" />
+    <spannedText>6</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27800" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8560" end="8561" />
+    <spannedText>6</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27802" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8852" end="8853" />
+    <spannedText>3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27804" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8857" end="8858" />
+    <spannedText>2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27806" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9750" end="9751" />
+    <spannedText>3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27808" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9755" end="9756" />
+    <spannedText>2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27810" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9811" end="9812" />
+    <spannedText>2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27812" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9825" end="9827" />
+    <spannedText>32</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27814" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10321" end="10322" />
+    <spannedText>2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27816" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10906" end="28083" />
+    <spannedText>RESULTS
+
+Mcm4/6/7 complex primarily interacts with the single-stranded DNA segment
+
+Mcm4/6/7 binds to ‘bubble’ DNA substrates and unwinds the duplex segments when the central single-stranded segment contains thymine stretches (13). In order to examine the mode of binding of Mcm4/6/7 on bubble DNAs, we conducted nuclease protection assays using labeled bubble substrate DNAs and Mcm4/6/7 in the presence of ATP-γ-S which permits binding to substrate DNA but does not mobilize the helicase. At an optimum concentration of DNase I, strong cleavages were detected on the 21 bp duplex regions at both ends of the substrates, whereas weaker cleavages were detected on the central single-stranded region, consistent with preference of DNase I to double-stranded DNA. With the Bub66/T-rich substrate, strong protection was detected on the entire single-stranded regions of both top and bottom strands with increasing concentration of Mcm4/6/7, consistent with high affinity of Mcm4/6/7 to T-rich bubble sequences (Figure 1A). Similar, but less significant protection was detected on the single-stranded DNA segment with P1 nucleases (Figure 1A), which is specific to single-stranded DNA. The results indicate that the Mcm complex is loaded onto bubble DNA through binding to both strands of the single-stranded region. Careful examination of Mcm4/6/7 footprints on a bubble indicated strong protection on the 5′-half of the top strand and moderate protection on the remaining 3′-half, as well as on several base-pair duplex segment adjacent to the branch point (Figure 1A and data not shown). A similar pattern of protection was observed also on the bottom strand. This suggests that Mcm4/6/7 may bind to a replication bubble substrate with a 2-fold symmetry as a double hexamer (Figure 1A, see the lower scheme), in a manner similar to SV40 T-antigen (21).
+
+Nuclease protection assays were conducted also on a T-tailed Y-fork structure (Figure 1B). Not only the single-stranded tail region but also the 7 bp duplex DNA adjacent to the duplex-to-single-strand junction were protected by Mcm binding from DNaseI digestion. These results indicate that Mcm4/6/7 protein primarily interacts with single-stranded DNA region and that the interaction also spans the duplex segments near the branchpoint of the replication fork.
+
+Formation of double hexameric Mcm4/6/7 complexes facilitates helicase actions on bubble substrates
+
+The above results suggest that Mcm4/6/7 generates a double hexameric complex on a bubble, each hexamer of which makes symmetric contact with the 5′-proximal central single-stranded segment. This predicts that the single-stranded segment needs to be of a sufficient length in order to accommodate the Mcm complex. In fact, we previously showed that the Mcm4/6/7 mainly forms a single hexameric complex on bubble-20 (a bubble substrate with 20 nt long central single-stranded segment) and a double hexameric complex on bubble-60 DNA (13). In order to determine the minimum requirement for double-hexamer formation, a set of synthetic bubble-like substrates (Bub-T10, Bub-T20, Bub-T30, Bub-T40 and Bub-T50) that differed in the length of the central unpaired segment were constructed, and the binding and helicase activities of Mcm4/6/7 on these substrates were examined. Mcm4/6/7 was incubated with a radiolabeled synthetic bubble substrate in the presence of 0.5 mM ATP-γ-S to allow complex formation. A half of these reaction mixtures were analyzed for DNA binding in gel shift assays (Figure 2A), and the remainder was further incubated in the presence of 10 mM ATP to measure DNA helicase activity (Figure 2B). Bub-10 generated only a low level of complexes with Mcm4/6/7, and Bub-20 generated primarily a single mobility-shifted form, which may contain a single hexamer of Mcm4/6/7. On Bub-30, significant amount of complexes containing a double hexamer were generated in addition to those containing a single hexamer (Figure 2A) (13,21). The amounts of double hexamer complexes increased on Bub-T40 and Bub-T50 with concomitant decrease of single hexamer complexes (Figure 2A). The results indicate that a single-stranded segment of at least 40 nt long is required for efficient loading of the double-hexameric Mcm helicase on a bubble substrate.
+
+In DNA helicase assays, Mcm4/6/7 complex did not show helicase activity on either Bub-10 or Bub-20 substrate. The efficiency of displacement slightly improved as the length of the single-stranded segment increased up to 30 nt. On Bub-T40 and Bub-T50, on the other hand, significant displacement was observed, indicating that a single-stranded segment of at least 40 nt long is required for efficient helicase actions on bubble substrates (Figure 2B). Taken together, the above results are consistent with the notion that the Mcm4/6/7 complex, loaded onto DNA as a double hexameric complex, efficiently unwinds the duplex region of the substrate DNA.
+
+Both strands of thymine-rich single-stranded segments are required for efficient unwinding of bubble DNA by Mcm4/6/7
+
+Symmetric binding of the Mcm4/6/7 double hexamer to bubble suggests that each hexamer catalyzes unwinding of one of the two duplex segments. We asked whether activation of both hexamers is required for unwinding of the bubble substrate. The preferred bubble substrate which is efficiently unwound by Mcm4/6/7 contains thymine stretches on both strands of the single-stranded segment. We constructed a hetero-bubble (Bub66/T–G-rich) in which one strand is T-rich (same as Bub66/T-rich) and the other strand is G-rich (same as Bub66/G-rich) (13), and helicase assays were conducted with increasing amount of Mcm4/6/7. Only weak unwinding was detected on this substrate compared to Bub66/T-rich (Figure 3A). Since Mcm4/6/7 can bind to Bub66/T–G-rich and forms a double hexameric complex (data not shown), the defective unwinding is not due to inefficient loading of the helicase onto the substrate. If one hexamer interacting with the thymine-rich strand dissociates from the other hexamer and displaces only one of the duplex segments, then it would result in generation of Y-fork structures which could not be further displaced due to the presence of G-rich 3′-tail and would appear on the gel. However, we did not detect such intermediates during the course of the experiment (Figure 3B), suggesting that bubble can be displaced efficiently only when two molecules of the Mcm4/6/7 hexamers are simultaneously activated.
+
+Binding and helicase actions of Mcm4/6/7 on forked and 3′- or 5′-extension substrates
+
+In order to examine more precisely the interaction and helicase actions with forked substrates, Y-fork substrates containing a nascent leading strand (A-fork[3′]), nascent lagging strand (A-fork[5′]), or both of them (A-fork[3′,5′]), as well as 5′-extension or 3′-extension structures were constructed. Mcm4/6/7 bound to A-fork[3′] or A-fork[5′] with affinity similar to that of a simple Y-fork (Figure 4A and data not shown). In contrast, PriA helicase, used as a control, bound to A-fork[3′] more efficiently than to A-fork[5′], as reported previously (23,25). Mcm4/6/7 bound also to 5′-extension and 3′-extension, albeit with slightly reduced affinity compared to A-fork[3′] and A-fork[5′] (Figure 4A). Mcm4/6/7 bound to A-fork[3′,5′] with much lower affinity, and the complex gave rise to a single band. These findings indicate that the Mcm4/6/7 complex is loaded onto DNA preferentially and efficiently through single-stranded region, regardless of the presence of 3′- or 5′-terminus.
+
+In contrast, only the substrate containing a 3′ single-stranded DNA tail (A-fork[5′]) was efficiently unwound and A-fork[3′] or A-fork[3′,5′], was not unwound by Mcm4/6/7 (Figure 4B). Absence of helicase actions on A-fork[3′,5′] composed only of duplex regions is expected since double-stranded DNA is not able to activate the ATPase activity of Mcm4/6/7 (10). In contrast, the PriA, a structure-specific helicase used as a control, binds at the fork junction and unwinds the fork and the nascent lagging strand DNA on A-fork[5′], or unwinds the nascent lagging strand on A-fork[3′,5′], as reported before (25). These results indicate that the Mcm4/6/7 complex binds to single-stranded DNA and that its helicase is activated only in the presence of a single-stranded 3′-tail.
+
+3′-extension with poly(dT) tail is displaced by Mcm4/6/7
+
+It has been reported that the 3′-extension can be unwound by the archaeal Mcm homohexamer but not by fission and budding yeast Mcm complexes (14,26,27). We have constructed 3′-extension substrates containing poly(dT), poly(dA), poly(dC) and poly(dG) 3′-tails in order to examine whether mouse Mcm4/6/7 can displace these substrates. We first found that Mcm4/6/7 binds to dT-, dC- and dG-3′-extension with similar affinity, and to dA-3′-extension with much lower affinity (Figure 5A). This is consistent with the previous results that Mcm4/6/7 binds to 50mer oligo-dT, -dC and -dG, but not to a 50mer oligo-dA (13). We found that dT-tailed 3′-extension was displaced efficiently by Mcm 4/6/7 while almost no or very little activity was detected on other substrates (Figure 5B and C). This is in sharp contrast to yeast Mcm4/6/7 helicases which are not capable of unwinding 3′-extension substrates. Furthermore, dT-tailed 5′-extension, to which Mcm4/6/7 could bind, was not displaced by the Mcm helicase. The addition of the 5′-tail to dT-tailed 3′-extension further stimulated the displacement (Figure 5D), confirming the previous report that the fork structures facilitate the helicase action. Thus, these results further strengthen our conclusion that the mammalian Mcm helicase is generally activated by the thymine-stretch on the 3′-single-stranded tail.
+
+The effects of the thymine content of the 3′-tail on Mcm helicase activity
+
+We next examined more systematically the effect of the compositions of the thymine residues of the 3′-tail on the Mcm helicase activity. A partial heteroduplex M13 single-stranded DNA containing a 37 bp duplex region in the presence or absence of the 50 nt long 3′-tail of various nucleotide compositions were constructed and the unwinding by mouse Mcm4/6/7 was examined (Figure 6A). Due to its low processivity, Mcm4/6/7 barely displaced the annealed 37mer oligonucleotide without a 3′-tail (37mer; Figure 6A). Only weak helicase activity was observed on the substrate carrying the 3′-tail of 25 repeats of TA dinucleotide (37-TA25; Figure 6A), whereas strong helicase activity was observed on 37-TTA17. Increase of thymine content on the 3′-tail did not further increase the extent of unwinding (37-TTTA13, 37-TTTTA10 and 37-T50; Figure 6A), suggesting that 17 repeats of TT dinucleotides (67% thymine) may be sufficient for activation of Mcm helicase. It should be noted that the TA25 tail would self-anneal and this would prevent the loading of Mcm, since the 3′-tail containing TTAA13 or TTTAAA8 did not enhance the unwinding either (data not shown). Therefore, we next examined the effects of repeating sequences of thymine and cytosine (Figure 6B). Partial heteroduplex substrates containing the 3′-tail of TC25, TTCC13, TTTCCC8, TTTTCCCC6, TTCC17 were displaced by the Mcm4/6/7 complex to the extent similar to that achieved by TTA17, suggesting that 50% thymine content is sufficient for full activation of Mcm helicase. TTCC13 and TTCC17 were displaced to a similar extent, consistent with the earlier result that a 40 nt tail is sufficient for activation (13). However, the efficiency of the displacement significantly decreased as the thymine content of the 3′-tail dropped to 33%, as in TAA17 or TCC17 (Figure 6B and C). Thus, the minimal thymine content required for activation of the Mcm helicase may be somewhere between 33 and 50%.
+
+DUE sequences from the c-myc origin activate Mcm helicase
+
+Our previous studies have shown that the sequences containing periodic (dT)n tracts derived from the human lamin B2 origin (48% thymine content) can serve as an efficient activator for the Mcm helicase on a bubble, and replacement of thymines with guanines abolished the helicase activation (13,28). In order to examine other natural replication origins with different thymine contents for the ability to activate Mcm helicase on a bubble substrate, we constructed new bubble substrates, Bub82/c-myc, containing sequences derived from the DUE (DNA unwinding element) region of the human c-myc origin which is essential for c-myc replicator activity (29,30). The unpaired segment in Bub82/c-myc/DUE contains one strand of DUE and that in Bub82/c-myc/DUE-C contains another strand. This DUE is believed to coincide with the initially unwound region of the c-myc origin (29), and its deletion substantially reduced the replicator activity (30). Mcm4/6/7 unwound Bub82/lamin B2 (thymine 48%), Bub82/c-myc/DUE (37%) and Bub82/c-myc/DUE-C (39%) with similar efficiency (Figure 7A), indicating that the sequences from the c-myc origin also can serve as efficient activators of the Mcm helicase. This result also indicates that sequences with 37% thymine content can activate Mcm4/6/7 to displace 24 nt duplex on both sides in a bubble substrate, suggesting that the not only thymine content but also the sequence context may affect the Mcm helicase activation.
+
+In gel shift assays, MCM4/6/7 bound to all the three bubbles, although the affinity to Bub82/c-myc/DUE and to Bub82/c-myc/DUE-C is slightly lower than that to Bub-82/lamin B2 (Figure 7B). Therefore, helicase and DNA binding activities do not necessarily correlate with each other. This was also indicated by our previous results that guanine and cytosine stretches can bind to Mcm but cannot activate the helicase (13).
+
+DNA unwinding by Mcm4/6/7 is inhibited by the GC-rich sequences on the duplex segment
+
+Our results indicate that thymine-rich single-stranded DNA is required for initial loading and activation of the Mcm helicase. However, it is not known whether thymine sequences are required for processive unwinding of duplex DNA. Therefore, we have examined whether the nucleotide composition of the duplex region affects its unwinding activity. To address this issue, we constructed a series of T-tailed Y-fork structures (T-fork) containing various sequences in the duplex segment. They carried varied contents of cytosine residues on the 3′-tail strand. In gel shift assays, Mcm4/6/7 bound to these Y-fork substrates with identical affinity (Figure 8A), consistent with the notion that the Mcm4/6/7 binds to single-stranded tails. However, in DNA helicase assays, T-fork/(C:G)49 was hardly displaced by Mcm4/6/7, but was readily displaced by SV40 T-antigen DNA helicase (Figure 8B). When thymine or adenine is inserted as every third nucleotide (repeats of CCT or CCA), the extent of unwinding increased (T-fork/(CCT:GGA)16 and T-fork/(CCA:GGT)16). The efficiency of unwinding is roughly correlated with the content of GC pairs in the duplex segment [T-fork/(CCAA:GGTT)12, T-fork/(CCTT:GGAA)12, T-fork/(CAAA:GTTT)12 and T-fork/(CTTT:GAAA)12; Figure 8B]. It appears that the duplex segment containing &lt;50% GC pairs is efficiently unwound (Figure 8C).
+
+We next examined the effect of GC-rich segments on a partial heteroduplex DNA on a single-stranded circular DNA. We have constructed two sets of 5′-tailed partial heteroduplex DNA substrates containing duplex regions of variable lengths; one on M13mp18 vector and the other on M13mp19 containing a 66 nt long G-rich segment downstream of the hybridizing oligonucleotide. We found that the Mcm4/6/7 helicase can displace duplex DNA up to 350 nt long on its own on the former substrate (Figure 8D, left), consistent with previous results (13). In contrast, displacement was inhibited over the GC-rich segments on the latter substrate (Figure 8D, right panel), although displacement up to 250 nt in length, albeit at a reduced level, was observed at a high concentration of Mcm4/6/7 complex. This result is consistent with that on Y-fork and indicates that GC-rich duplex segment is inhibitory for unwinding by the Mcm helicase. These results may indicate that the presence of thymine–adenine pairs with a certain frequency in the duplex region may facilitate continuous unwinding by Mcm4/6/7. Alternatively, Mcm4/6/7 is not efficient enough to displace thermodynamically stable GC-base-paired segment.
+
+In order to distinguish these two possibilities, we designed a new T-fork substrate containing inosine (I) residue instead of guanosine residue. The thermal stability of the I:C base pair is lower than that of the G:C base pair in duplex DNA due to loss of one hydrogen bond and is even lower than A:T base pair (31). We constructed the T-tailed fork substrates containing the (GCC:CGG)10, (GCC:CIG)10 or (GAA:CTT)10 duplex DNA segment (Figure 8E). Mcm4/6/7 hardly displaced the 31 nt long duplex of GCC:CGG repeats, whereas the T-fork/(GAA:CTT)10 was displaced efficiently, as described above. T-fork/(GCC:CIG)10 was displaced with efficiency much greater than that of T-fork/(GCC:CGG)10, indicating that the thermostability of the duplex segment, not the lack of AT base pair, is responsible for inability of Mcm4/6/7 to displace the duplex.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27819" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13983" end="13985" />
+    <spannedText>10</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27821" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13992" end="13994" />
+    <spannedText>20</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27823" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14001" end="14003" />
+    <spannedText>30</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27825" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14010" end="14012" />
+    <spannedText>40</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27827" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14022" end="14024" />
+    <spannedText>50</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27829" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14922" end="14924" />
+    <spannedText>40</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27831" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14934" end="14936" />
+    <spannedText>50</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27833" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15409" end="15411" />
+    <spannedText>40</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27835" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15421" end="15423" />
+    <spannedText>50</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27837" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21342" end="21344" />
+    <spannedText>25</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27839" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21413" end="21415" />
+    <spannedText>17</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27841" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21517" end="21519" />
+    <spannedText>13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27843" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21529" end="21531" />
+    <spannedText>10</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27845" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21540" end="21542" />
+    <spannedText>50</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27847" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21697" end="21699" />
+    <spannedText>25</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27849" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21799" end="21801" />
+    <spannedText>13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27851" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21811" end="21812" />
+    <spannedText>8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27853" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22028" end="22030" />
+    <spannedText>25</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27855" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22036" end="22038" />
+    <spannedText>13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27857" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22046" end="22047" />
+    <spannedText>8</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27859" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22057" end="22058" />
+    <spannedText>6</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27861" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22064" end="22066" />
+    <spannedText>17</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27863" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22151" end="22153" />
+    <spannedText>17</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27865" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22246" end="22248" />
+    <spannedText>13</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27867" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22257" end="22259" />
+    <spannedText>17</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27869" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22515" end="22517" />
+    <spannedText>17</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27871" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22524" end="22526" />
+    <spannedText>17</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27873" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22687" end="22690" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27875" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22796" end="22797" />
+    <spannedText>n</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27877" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22796" end="22797" />
+    <spannedText>n</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27879" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23217" end="23220" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27881" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23310" end="23313" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27883" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23346" end="23349" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27885" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23411" end="23414" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27887" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23466" end="23469" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27889" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23577" end="23580" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27891" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23718" end="23721" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27893" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23744" end="23747" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27895" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23838" end="23841" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27897" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24271" end="24274" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27899" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24294" end="24297" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27901" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25464" end="25466" />
+    <spannedText>49</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27903" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25709" end="25711" />
+    <spannedText>16</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27905" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25732" end="25734" />
+    <spannedText>16</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27907" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25857" end="25859" />
+    <spannedText>12</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27909" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25879" end="25881" />
+    <spannedText>12</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27911" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25901" end="25903" />
+    <spannedText>12</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27913" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25926" end="25928" />
+    <spannedText>12</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27915" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27626" end="27628" />
+    <spannedText>10</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27917" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27639" end="27641" />
+    <spannedText>10</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27919" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27654" end="27656" />
+    <spannedText>10</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27921" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27785" end="27787" />
+    <spannedText>10</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27923" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27851" end="27853" />
+    <spannedText>10</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27925" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27926" end="27928" />
+    <spannedText>10</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27927" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28085" end="37886" />
+    <spannedText>DISCUSSION
+
+DNA helicase is a central factor for operation of replication forks. It also plays a crucial role in the initiation step at the replication origins. Therefore, the elucidation of how the replicative helicases interact with DNA substrate and how they are activated is crucial for understanding the molecular basis of initiation of DNA replication. It is now believed that Mcm is a major component of the eukaryotic replicative helicase. In this report, we have conducted detailed analyses on binding and helicase actions of mouse Mcm4/6/7 using various substrates including fork and bubble structures.
+
+Modes of binding and activation of Mcm4/6/7 helicase on a bubble structure
+
+Initiation of DNA replication is associated with localized melting of duplex DNA near replication origins. Helicases are loaded onto replication forks through the melted region, induced by initiator binding, in bacteria (32). We previously reported that Mcm4/6/7 can be loaded onto a bubble-like structure and can serve as a DNA helicase at the forks (13). The ability of Mcm4/6/7 to unwind the bubble substrate but not the conventional duplex DNA (Figures 2 and 13) indicates that Mcm can be loaded through the single-stranded segment of the bubble. Furthermore, the Mcm4/6/7 complex displays marked preference for thymine-rich sequences within the single-stranded segment for helicase activation (13). The results in this report indicate that helicase action of Mcm4/6/7 on synthetic bubbles may depend on the presence of an unpaired region of sufficient length (at least 40 nt), which may permit assembly of a double-hexameric complex on the substrate DNA, similar to SV40 T-antigen protein (Figure 2A) (21). When one strand of the single-stranded segment in T-rich bubble was replaced by guanine-rich sequences, the efficiency of unwinding was significantly reduced.
+
+Our footprinting analyses showed that Mcm4/6/7 strongly protects 25 nt single-stranded DNA segment adjacent to each branch point and proximal to 5′ ends of both strands of the bubble. At each fork, one Mcm4/6/7 complex is likely to encircle the single-stranded DNA strand and two hexamers may bind symmetrically to the bubble substrate, forming a double hexameric structure on the bubble (see schematic drawing of Figure 1A). Efficient unwinding into both directions may require simultaneous activation of both hexamers which may sit at the center while extruding the unwound single-stranded DNA through the rings. This may closely resemble the proposed modes of binding and helicase actions of T-antigen (21). Although we cannot totally exclude the possibility that one Mcm4/6/7 hexamer at each fork unwinds the duplex independently, ring-shaped structures of mouse and archea MCM, as revealed by electron microscopy, bear much similarity to the recently solved structure of the SV40 large T-antigen (4,6), and are in favor of the double-hexameric structure of mouse Mcm on a bubble DNA.
+
+Substrate and sequence requirement for Mcm4/6/7 helicase activation
+
+DNA binding assays indicate that Mcm4/6/7 binds to those substrates containing single-stranded DNA regions regardless of the presence or absence of single-stranded 3′ or 5′ end. Unwinding of the duplex DNA depends on translocation of single-stranded DNA from 3′ to 5′ direction. This is most clearly shown by its helicase action on A-fork[5′] and 3′-extension but not on A-fork[3′], A-fork[3′,5′] nor 5′-extension. However, it does not necessarily require 3′ end of single-stranded DNA, since Mcm4/6/7 can displace annealing oligonucleotide on a circular single-stranded DNA. The ability of the mouse Mcm4/6/7 to unwind 3′-extension is shared by the archaeal Mcm helicase but not by Mcm4/6/7 from S.pombe and S.cerevisiae (14,26,27). The archaeal Mcm can unwind A-fork[3′] but eukaryotic Mcm4/6/7 cannot, since the former binds to double-stranded DNA but the latter does not (5,27). While yeast Mcm helicases can translocate on duplex DNA, such activity was not observed with mammalian Mcm4/6/7 (data not shown).
+
+Occurrence of AT-rich sequences, with asymmetric distribution of adenine and thymine, near the replication origins, lead us to propose that Mcm may play a role in selection of initiation sites of mammalian DNA replication, and prompted us to examine the ability of sequences from human replication origins to activate Mcm4/6/7 helicase. Both lamin-B2 and c-myc origins served as efficient activator for Mcm helicase in vitro. Consistent with it, site-specific loading of Mcm in the DNA replication initiation zone of the c-myc was recently reported (33).
+
+We have examined in detail the effect of sequence context of the single-stranded DNA on the helicase activity of Mcm. The results indicate that thymine content of 50% is sufficient for the maximum helicase activity. The efficiency of displacement decreased as the thymine content of the 3′-tail dropped to 33% (Figure 6). The stretches of thymine residues may not be necessarily required, since repeats of TC dinucleotides served as a potent activator for Mcm4/6/7. We also noticed that the presence of a secondary structure within the single-stranded DNA is inhibitory for helicase action. Nuclease footprinting assays indicated that binding was interfered by the secondary structure (data not shown). Thus, we have concluded that Mcm4/6/7 helicase is most efficiently activated by non-structured single-stranded DNA with thymine content of 50% or more, although significant stimulation is observed also by DNA with less thymine content (Figure 7), suggesting that the sequence specificity for Mcm helicase activation is rather relaxed and that the extent of the activation may depend on the sequence context. This would be reasonable given the flexibility and differential regulation of site selection for initiation of DNA replication during development or in various cell types, as well as the variability in initiation potential of each replication origin on the genome even within the single cell type.
+
+Mcm4/6/7 helicase during processive unwinding at the fork
+
+The specific requirement of single-stranded thymine residues for activation of Mcm helicase prompted us to examine whether they are required also for processive unwinding of duplex DNA. Our results indicated that increase of GC pair in the duplex segment significantly inhibited the Mcm helicase activity. Duplex DNA composed only of GC pairs (10 repeats of CGG) on a Y-fork was not displaced at all, while the same template was readily displaced by SV40 T-antigen (Figure 8B). Mcm helicase was inhibited by the presence of GC-rich duplex segment also on a circular single-stranded partial heteroduplex substrate. However, on this substrate, Mcm4/6/7 was able to displace DNA past the GC-rich region, albeit to a limited extent, when it was added at a high concentration. On the partial heteroduplex template, Mcm is loaded onto the circular single-stranded DNA of 6.4 kb, while it is loaded onto the 50 nt long 3′-tail DNA on the Y-fork. Thus, the difference of helicase actions may reflect the efficiency of Mcm loading. Alternatively, the presence of ‘random’ sequence at the initially unwound duplex segment in the former template may engage the Mcm helicase in a more active conformation which can displace the GC-rich duplex segment.
+
+On Y-fork substrates, increase of AT base pairs in the duplex (10 repeats of CTT) restored the unwinding. These results indicate either that thymine residues are required on the duplex DNA for continuous unwinding, or that Mcm4/6/7 is simply not efficient enough to unwind the stable GC pairs. Replacement of the central guanosine with inosine in the CGG repeat duplex DNA resulted in displacement (Figure 8E) (31), suggesting that the continuous presence of AT base pair may not be essential for the Mcm helicase function and that the thermostability of GC base pairs is inhibitory for helicase action of Mcm4/6/7.
+
+The results described in this manuscript reveal potentially important features of mammalian Mcm4/6/7 helicase, which is likely to be a key component of the eukaryotic replicative helicase. Prior to initiation of DNA replication, Mcm helicase may adopt a double hexameric complex at the partially melted origin region, and may catalyze concurrent unwinding of duplex DNA into both directions, while stably associated with the origins of DNA replication. This is similar to the T-antigen model originally proposed by Smelkova and Borowiec (21). We propose that, only when both hexamers are activated by the interacting thymine-rich sequences present within the melted region, the Mcm helicase is mobilized and initiation takes place. A crucial question is how these double hexameric helicase complexes are generated and turn into active helicases at the origins. This process would involve melting of duplex DNA, which may be facilitated by binding of preRC components in the context of proper chromatin structures, or by other unwinding factors including a topoisomerase or a newly identified Mcm8 helicase (34–36). It may also require association of fork-assisting proteins such as Cdc45 (37,38) as well as phosphorylation events by Cdk and Cdc7 kinases (39,40). One unexpected finding of this study is low helicase activity of Mcm4/6/7 on GC-rich duplex DNA. This, in conjunction with the low processivity of Mcm4/6/7 helicase, strongly indicates that the replicative helicase at the replication forks would require more than Mcm4/6/7 complex. During the processive unwinding of duplex DNA replication forks, Mcm4/6/7 may be further stimulated by interaction with other proteins, including remaining Mcm subunits, Cdc45 (37,38), GINS (41,42), DNA polymerase subunits (43), Mcm8 (35,36), etc. to become a truly processive and potent helicase capable of replicating the entire genome.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27930" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31803" end="31810" />
+    <spannedText>S.pombe</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27932" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31815" end="31827" />
+    <spannedText>S.cerevisiae</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27934" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32477" end="32480" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27936" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32536" end="32544" />
+    <spannedText>in vitro</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27938" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32643" end="32646" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27940" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37888" end="38410" />
+    <spannedText>Acknowledgements
+
+We thank Dr Taku Tanaka for preparations of some of the substrate DNAs used in this study and for useful suggestions, and also the members of our laboratory for helpful discussion. This work was supported in part by grants-in-aid for scientific research from the Ministry of Education, Culture, Sports, Science and Technology of Japan (MEXT) awarded to Z.Y. and H.M. Funding to pay the Open Access publication charges for this article was provided by MEXT.
+
+Conflict of interest statement. None declared.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27943" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38364" end="38394" />
+    <spannedText>Conflict of interest statement</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27945" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38412" end="45324" />
+    <spannedText>Figures and Tables
+
+Figure 1
+
+Nuclease protection analyses of binding of Mcm4/6/7 protein to synthetic bubble and fork substrates. (A) The Bub66/T-rich substrate (4 fmol), the top strand or bottom strand of which were 32P-labeled at the 5′ end, were incubated with 0 (lane 1), 25 ng (lane 2), 50 ng (lane 3) or 75 ng (lane 4) of Mcm4/6/7 protein. Reaction mixtures were then treated with 0.11 U of DNase I or 0.3 U of nuclease P1. (B) The T-tailed Y-fork/random substrate (4 fmol) was incubated with 0 (lane 1), 15 ng (lane 2), 30 ng (lane 3), 60 ng (lane 4) or 120 ng (lane 5) of Mcm4/6/7 protein, and then treated with 0.037 U of DNase I or 0.3 U of nuclease P1. The reaction products were separated on denaturing PAGE. Single-stranded and duplex regions of the substrates used in the assays are indicated along the gel. In (A), top and bottom strands are indicated by boldface and normal lines, respectively. Regions of strong and moderate protection are indicated by bold and normal gray lines, respectively, along the substrate structure. The drawing at the bottom of (A) shows summary of the protection pattern (protected regions indicated by gray bold lines) and predicted binding modes of the double hexameric Mcm4/6/7 (shown by pale gray ovals) on the bubble substrate. The star marks represent the radioactive 5′ ends of the annealed oligonucleotides. M, radiolabeled 10 and 50 bp ladder.
+
+Figure 2
+
+Binding and helicase actions of mouse Mcm4/6/7 on bubble substrates containing single-stranded segments of varied lengths. Gel shift (A) and DNA helicase (B) assays were performed with mouse Mcm4/6/7 on synthetic bubble DNAs (4 fmol), Bub-T10, Bub-T20, Bub-T30, Bub-T40 and Bub-T50 (Table 1). Lanes 1–4 contain 0, 25, 50 and 100 ng of Mcm4/6/7 protein, respectively. B, boiled substrate. The drawing in (A) shows a schematic representation of the substrates used. The asterisk indicates 32P-labeled 5′-terminus.
+
+Figure 3
+
+Effect of the loss of thymine-rich sequences from one single-strand of the T-rich bubble on unwinding by Mcm4/6/7. (A) The Mcm4/6/7 helicase activity was measured by using bubble DNA substrate (4 fmol) containing an unpaired segment of two thymine-rich sequences (Bub66/T-rich) or that containing thymine- and guanine-rich sequence on each strand (Bub66/T–G-rich). The drawings under the panels show schematic representations of the substrates used in this assay. B, boiled substrate; lane 1, no protein; lanes 2–4 contain 25, 50 and 100 ng of the Mcm4/6/7 complex, respectively. (B) Helicase assays were conducted with Mcm4/6/7 (50 ng) on the bubble substrates indicated for various time. Quantification of displaced substrates is presented in the graphs.
+
+Figure 4
+
+DNA binding and helicase actions of Mcm4/6/7 on various fork substrates. (A) Gel-shift assays were conducted with Mcm4/6/7 on specific fork and extension substrates (3 fmol) as indicated. (B) DNA helicase assays were conducted on various substrates (3 fmol) used in (A). The amounts of Mcm4/6/7 added were 0 (lane 1), 25 (lane 2), 50 (lane 3) and 100 ng (lane 4). Lane 5, PriA helicase at 10 nM. B, boiled substrate. The drawings show schematic representation of the substrates used in the assays. Arrows a–d indicate displaced products, and their structures are indicated below the panel. The positions of the complexes containing a single hexamer or double hexamer are indicated. In the schematic drawings of the substrates, the labeled oligonucleotides are shown as bold lines, and the asterisks indicate 32P-labeled 5′-termini.
+
+Figure 5
+
+DNA binding and helicase actions of Mcm4/6/7 on 5′- and 3′-extension substrates. DNA-binding (A) and helicase (B) activities of Mcm4/6/7 were examined on various 3′-extension substrates (4 fmol) as shown. (C) Quantification of the displaced substrates in (B). (D) DNA helicase assays on 5′-extension, 3′-extension and Y-forked substrates. Lanes 1–4 are reactions with 0, 25, 50 and 100 ng of the Mcm4/6/7 complex, respectively. Schematic drawings of the substrates used in the assays are also shown. The star marks indicate 32P-labeled 5′-termini.
+
+Figure 6
+
+The effects of the nucleotide compositions of the 3′-tail on displacement of partial heteroduplex substrates by Mcm4/6/7. (A) DNA helicase assays were performed with 3′-tailed partial heteroduplex helicase substrates (on a single-stranded circular DNA; 4 fmol) carrying various nucleotide sequences in the 3′-tail as shown. The asterisks represent the 32P-labeled 5′ ends of the annealed oligonucleotides. (B) DNA helicase assays were performed with similar sets of partial heteroduplex helicase substrates carrying the 3′-tails as shown. (C) Quantification of displaced oligonucleotides in (B). Lanes 1–4 contain 0, 25, 50 and 100 ng of the Mcm4/6/7 complex, respectively. B, boiled substrate.
+
+Figure 7
+
+Activation of Mcm4/6/7 DNA helicase by sequences derived from the human c-myc origin. (A) DNA helicase assays of Mcm4/6/7 were conducted using Bub-82 bubble substrates (6 fmol) containing c-myc/DUE, Lamin B2 and c-myc/DUE-C sequences in the unpaired segment, the thymine contents of which are 48, 37 and 39%, respectively. Quantification of displaced substrates is presented in the graph. (B) DNA binding of Mcm4/6/7 was examined in gel shift assays using the same set of substrates. Lanes 1–4 are reactions with 0, 25, 50 and 100 ng of the Mcm4/6/7 complex, respectively. B, boiled substrate.
+
+Figure 8
+
+Effect of nucleotide compositions of the duplex segments on helicase action of Mcm4/6/7. DNA binding (A) and helicase (B, D and E) activities of the Mcm4/6/7 helicase were examined on various Y-fork DNAs (3 fmol) carrying different nucleotides in the duplex region as shown (A, B and E) or on single-stranded circular partial heteroduplex DNA substrates (5 fmol) (D). (A, B and E) Lane 1, no protein added; lanes 2–4 contain 25, 50 and 100 ng of the Mcm4/6/7 protein, respectively; lane 5 [in (B)], 50 ng of SV40 T-antigen. (C) Quantification of the displaced substrates in (B). (D) Helicase assays on dT40-Nmer/M13mp18 and dT40-Nmer/M13mp19 + G-rich carrying the labeled duplex regions of varied lengths. Lane 1, no protein added; lanes 2–7 contain 25, 50, 75, 125, 200 and 300 ng of the Mcm4/6/7 protein, respectively. Lanes 8 and 9, boiled M13mp18 and M13mp19 + G-rich substrates, respectively. The drawings show schematic representations of the substrates used in the assays. The red segment in bold face in (D) indicates the 66 nt long G-rich segment. The asterisks represent radiaoactive [α-32P]dGTP incorporated into the duplex segment or 32P-labeled 5′ ends of the annealed oligonucleotides. M [in (D)], denatured 50 bp ladder DNA marker; and I [in (E)], inosine. B, boiled substrate.
+
+Table 1
+
+Constructions of helicase substrates used in this study
+
+The numbers with ‘#’ refer to oligonucleotides whose sequences are given in Table 2.
+
+Table 2
+
+List of oligonucleotides used in this study</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27948" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38432" end="39810" />
+    <spannedText>Figure 1
+
+Nuclease protection analyses of binding of Mcm4/6/7 protein to synthetic bubble and fork substrates. (A) The Bub66/T-rich substrate (4 fmol), the top strand or bottom strand of which were 32P-labeled at the 5′ end, were incubated with 0 (lane 1), 25 ng (lane 2), 50 ng (lane 3) or 75 ng (lane 4) of Mcm4/6/7 protein. Reaction mixtures were then treated with 0.11 U of DNase I or 0.3 U of nuclease P1. (B) The T-tailed Y-fork/random substrate (4 fmol) was incubated with 0 (lane 1), 15 ng (lane 2), 30 ng (lane 3), 60 ng (lane 4) or 120 ng (lane 5) of Mcm4/6/7 protein, and then treated with 0.037 U of DNase I or 0.3 U of nuclease P1. The reaction products were separated on denaturing PAGE. Single-stranded and duplex regions of the substrates used in the assays are indicated along the gel. In (A), top and bottom strands are indicated by boldface and normal lines, respectively. Regions of strong and moderate protection are indicated by bold and normal gray lines, respectively, along the substrate structure. The drawing at the bottom of (A) shows summary of the protection pattern (protected regions indicated by gray bold lines) and predicted binding modes of the double hexameric Mcm4/6/7 (shown by pale gray ovals) on the bubble substrate. The star marks represent the radioactive 5′ ends of the annealed oligonucleotides. M, radiolabeled 10 and 50 bp ladder.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27951" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38544" end="38545" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27953" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38630" end="38632" />
+    <spannedText>32</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27955" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38844" end="38845" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27957" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39812" end="40333" />
+    <spannedText>Figure 2
+
+Binding and helicase actions of mouse Mcm4/6/7 on bubble substrates containing single-stranded segments of varied lengths. Gel shift (A) and DNA helicase (B) assays were performed with mouse Mcm4/6/7 on synthetic bubble DNAs (4 fmol), Bub-T10, Bub-T20, Bub-T30, Bub-T40 and Bub-T50 (Table 1). Lanes 1–4 contain 0, 25, 50 and 100 ng of Mcm4/6/7 protein, respectively. B, boiled substrate. The drawing in (A) shows a schematic representation of the substrates used. The asterisk indicates 32P-labeled 5′-terminus.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27960" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39956" end="39957" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27962" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39977" end="39978" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27964" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40062" end="40064" />
+    <spannedText>10</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27966" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40071" end="40073" />
+    <spannedText>20</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27968" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40080" end="40082" />
+    <spannedText>30</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27970" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40089" end="40091" />
+    <spannedText>40</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27972" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40101" end="40103" />
+    <spannedText>50</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27974" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40309" end="40311" />
+    <spannedText>32</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27976" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40335" end="41101" />
+    <spannedText>Figure 3
+
+Effect of the loss of thymine-rich sequences from one single-strand of the T-rich bubble on unwinding by Mcm4/6/7. (A) The Mcm4/6/7 helicase activity was measured by using bubble DNA substrate (4 fmol) containing an unpaired segment of two thymine-rich sequences (Bub66/T-rich) or that containing thymine- and guanine-rich sequence on each strand (Bub66/T–G-rich). The drawings under the panels show schematic representations of the substrates used in this assay. B, boiled substrate; lane 1, no protein; lanes 2–4 contain 25, 50 and 100 ng of the Mcm4/6/7 complex, respectively. (B) Helicase assays were conducted with Mcm4/6/7 (50 ng) on the bubble substrates indicated for various time. Quantification of displaced substrates is presented in the graphs.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27979" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40461" end="40462" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27981" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40926" end="40927" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27983" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41103" end="41944" />
+    <spannedText>Figure 4
+
+DNA binding and helicase actions of Mcm4/6/7 on various fork substrates. (A) Gel-shift assays were conducted with Mcm4/6/7 on specific fork and extension substrates (3 fmol) as indicated. (B) DNA helicase assays were conducted on various substrates (3 fmol) used in (A). The amounts of Mcm4/6/7 added were 0 (lane 1), 25 (lane 2), 50 (lane 3) and 100 ng (lane 4). Lane 5, PriA helicase at 10 nM. B, boiled substrate. The drawings show schematic representation of the substrates used in the assays. Arrows a–d indicate displaced products, and their structures are indicated below the panel. The positions of the complexes containing a single hexamer or double hexamer are indicated. In the schematic drawings of the substrates, the labeled oligonucleotides are shown as bold lines, and the asterisks indicate 32P-labeled 5′-termini.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27986" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41187" end="41188" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27988" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41302" end="41303" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27990" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41921" end="41923" />
+    <spannedText>32</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27992" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41946" end="42503" />
+    <spannedText>Figure 5
+
+DNA binding and helicase actions of Mcm4/6/7 on 5′- and 3′-extension substrates. DNA-binding (A) and helicase (B) activities of Mcm4/6/7 were examined on various 3′-extension substrates (4 fmol) as shown. (C) Quantification of the displaced substrates in (B). (D) DNA helicase assays on 5′-extension, 3′-extension and Y-forked substrates. Lanes 1–4 are reactions with 0, 25, 50 and 100 ng of the Mcm4/6/7 complex, respectively. Schematic drawings of the substrates used in the assays are also shown. The star marks indicate 32P-labeled 5′-termini.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27995" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42050" end="42051" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27997" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42067" end="42068" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_27999" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42162" end="42163" />
+    <spannedText>C</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28001" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42217" end="42218" />
+    <spannedText>D</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28003" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42480" end="42482" />
+    <spannedText>32</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28005" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42505" end="43209" />
+    <spannedText>Figure 6
+
+The effects of the nucleotide compositions of the 3′-tail on displacement of partial heteroduplex substrates by Mcm4/6/7. (A) DNA helicase assays were performed with 3′-tailed partial heteroduplex helicase substrates (on a single-stranded circular DNA; 4 fmol) carrying various nucleotide sequences in the 3′-tail as shown. The asterisks represent the 32P-labeled 5′ ends of the annealed oligonucleotides. (B) DNA helicase assays were performed with similar sets of partial heteroduplex helicase substrates carrying the 3′-tails as shown. (C) Quantification of displaced oligonucleotides in (B). Lanes 1–4 contain 0, 25, 50 and 100 ng of the Mcm4/6/7 complex, respectively. B, boiled substrate.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28008" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42638" end="42639" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28010" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42867" end="42869" />
+    <spannedText>32</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28012" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42922" end="42923" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28014" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43055" end="43056" />
+    <spannedText>C</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28016" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43211" end="43814" />
+    <spannedText>Figure 7
+
+Activation of Mcm4/6/7 DNA helicase by sequences derived from the human c-myc origin. (A) DNA helicase assays of Mcm4/6/7 were conducted using Bub-82 bubble substrates (6 fmol) containing c-myc/DUE, Lamin B2 and c-myc/DUE-C sequences in the unpaired segment, the thymine contents of which are 48, 37 and 39%, respectively. Quantification of displaced substrates is presented in the graph. (B) DNA binding of Mcm4/6/7 was examined in gel shift assays using the same set of substrates. Lanes 1–4 are reactions with 0, 25, 50 and 100 ng of the Mcm4/6/7 complex, respectively. B, boiled substrate.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28019" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43295" end="43298" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28021" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43308" end="43309" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28023" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43411" end="43414" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28025" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43435" end="43438" />
+    <spannedText>myc</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28027" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43611" end="43612" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28029" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43816" end="45118" />
+    <spannedText>Figure 8
+
+Effect of nucleotide compositions of the duplex segments on helicase action of Mcm4/6/7. DNA binding (A) and helicase (B, D and E) activities of the Mcm4/6/7 helicase were examined on various Y-fork DNAs (3 fmol) carrying different nucleotides in the duplex region as shown (A, B and E) or on single-stranded circular partial heteroduplex DNA substrates (5 fmol) (D). (A, B and E) Lane 1, no protein added; lanes 2–4 contain 25, 50 and 100 ng of the Mcm4/6/7 protein, respectively; lane 5 [in (B)], 50 ng of SV40 T-antigen. (C) Quantification of the displaced substrates in (B). (D) Helicase assays on dT40-Nmer/M13mp18 and dT40-Nmer/M13mp19 + G-rich carrying the labeled duplex regions of varied lengths. Lane 1, no protein added; lanes 2–7 contain 25, 50, 75, 125, 200 and 300 ng of the Mcm4/6/7 protein, respectively. Lanes 8 and 9, boiled M13mp18 and M13mp19 + G-rich substrates, respectively. The drawings show schematic representations of the substrates used in the assays. The red segment in bold face in (D) indicates the 66 nt long G-rich segment. The asterisks represent radiaoactive [α-32P]dGTP incorporated into the duplex segment or 32P-labeled 5′ ends of the annealed oligonucleotides. M [in (D)], denatured 50 bp ladder DNA marker; and I [in (E)], inosine. B, boiled substrate.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28032" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43928" end="43929" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28034" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43945" end="43946" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28036" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43948" end="43949" />
+    <spannedText>D</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28038" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43954" end="43955" />
+    <spannedText>E</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28040" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44351" end="44352" />
+    <spannedText>C</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28042" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44430" end="44432" />
+    <spannedText>40</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28044" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44452" end="44454" />
+    <spannedText>40</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28046" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44923" end="44925" />
+    <spannedText>32</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28048" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44972" end="44974" />
+    <spannedText>32</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28050" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45120" end="45270" />
+    <spannedText>Table 1
+
+Constructions of helicase substrates used in this study
+
+The numbers with ‘#’ refer to oligonucleotides whose sequences are given in Table 2.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_28053" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45272" end="45324" />
+    <spannedText>Table 2
+
+List of oligonucleotides used in this study</spannedText>
+  </annotation>
+  <classMention id="formatting_Instance_27810">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27808">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27814">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27812">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27819">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27816">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27817" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27817">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="RESULTS" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27823">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27821">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27827">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27825">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27831">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27829">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27835">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27833">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27839">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27837">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27841">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27843">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27845">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27847">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27849">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27851">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27853">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27855">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27857">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27859">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27861">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27863">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27865">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27867">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27869">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27871">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27879">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27877">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27875">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27873">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27887">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27885">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27883">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27881">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27895">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27893">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27891">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27889">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27903">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27901">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27899">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27897">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27909">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27911">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27905">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27907">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27917">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27919">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27913">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27915">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27925">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27927">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27928" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27928">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="DISCUSSION" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27921">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27923">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27932">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27934">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27930">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27960">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27962">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27964">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27966">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27953">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27955">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27957">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27958" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27958">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 2" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27945">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27946" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27946">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figures and Tables" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27948">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27949" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27949">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 1" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27951">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27936">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27938">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27940">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27941" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27941">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Acknowledgements" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27943">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27995">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27992">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27993" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27993">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 5" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27999">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27997">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27986">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27990">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27988">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27979">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27976">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27977" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27977">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 3" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27983">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27984" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27984">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 4" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27981">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27970">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27968">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27974">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27972">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28029">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_28030" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_28030">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 8" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27758">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27759" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27759">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="title" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_28025">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28027">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28021">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28023">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28016">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_28017" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_28017">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 7" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_28019">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28012">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27775">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27776" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27776">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="MATERIALS AND METHODS" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_28014">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27773">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28008">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27771">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28010">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27769">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28005">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_28006" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_28006">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 6" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27767">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27764">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27765" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27765">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="INTRODUCTION" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_28001">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28003">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27761">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_27762" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_27762">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="abstract" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27788">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27790">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27784">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27786">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27780">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28053">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_28054" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_28054">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Table 2" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_27782">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28050">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_28051" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_28051">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Table 1" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_28048">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27778">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27804">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28046">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27806">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28044">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27800">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28042">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27802">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28040">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27796">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28038">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27798">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28036">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27792">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28034">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_27794">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_28032">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+</annotations>
+

@@ -1,0 +1,270 @@
+T0	section 0 92	RMCE-ASAP: a gene targeting method for ES and somatic cells to accelerate phenotype analyses
+T1	section 94 1129	Abstract
+
+In recent years, tremendous insight has been gained on p53 regulation by targeting mutations at the p53 locus using homologous recombination in ES cells to generate mutant mice. Although informative, this approach is inefficient, slow and expensive. To facilitate targeting at the p53 locus, we developed an improved Recombinase-Mediated Cassette Exchange (RMCE) method. Our approach enables efficient targeting in ES cells to facilitate the production of mutant mice. But more importantly, the approach was Adapted for targeting in Somatic cells to Accelerate Phenotyping (RMCE-ASAP). We provide proof-of-concept for this at the p53 locus, by showing efficient targeting in fibroblasts, and rapid phenotypic read-out of a recessive mutation after a single exchange. RMCE-ASAP combines inverted heterologous recombinase target sites, a positive/negative selection marker that preserves the germline capacity of ES cells, and the power of mouse genetics. These general principles should make RMCE-ASAP applicable to any locus.
+T2	italic 204 207	p53
+T3	italic 385 388	p53
+T4	italic 734 737	p53
+T5	section 1131 6133	INTRODUCTION
+
+p53 is one of the most highly analyzed proteins for the past 25 years. Studies in cultured cells, often relying on the transfection of plasmids expressing various p53 mutants, have established models to explain how p53 is regulated. In recent years, some of these models were tested in vivo by targeting subtle mutations at the p53 locus using homologous recombination in embryonic stem (ES) cells to generate mutant mice. The strength of this approach is that mutations are tested in a genomic setting and expressed from the endogenous promoter, ensuring physiological expression levels and correct spatio-temporal profiles. As significant differences between phenotypes from targeted p53 mutants in vivo and transfection data were observed [e.g. Refs (1–5)], more targeted mutations need to be generated and analyzed in multiple tissues to formulate more accurate models of p53 regulation.
+
+However, using homologous recombination in ES cells to generate mutant mice is an inefficient, slow and expensive method because (i) homologous recombination typically occurs at low frequency in ES cells, requiring sophisticated selection schemes and screening of hundreds of clones to identify the desired mutant; (ii) large (15–20 kb) plasmids, often difficult to clone, are required to increase targeting efficiency and (iii) breeding mice to homozygosity and housing a mouse colony generate further delays and costs. Such limitations make the repeated targeting of a locus a technically daunting and economically impractical task.
+
+Improvements in current technologies are needed to enable such analyses to be applied to the p53 or other genes. Developing methods to increase targeting efficiency in ES cells is clearly an important goal. In addition, efficient methods for gene targeting in fibroblasts could expedite phenotypic analyses. Indeed, siRNAs in fibroblasts often provide a faster read-out than equivalent gene knock-outs in animals (6). However, modeling most disease-associated mutations requires generating subtle mutations, not knock-outs or reduced expression alleles. Targeting point mutations in fibroblasts by homologous recombination is extremely inefficient, and targeting both alleles is required to reveal the phenotype of recessive autosomal mutations.
+
+Here we report an approach that enables highly efficient targeting at the p53 locus in both ES cells and fibroblasts. Recombinase-Mediated Cassette Exchange (RMCE) approaches were developed to improve targeting efficiency using a two-step process: the gene of interest is first replaced by a selection cassette flanked by recombinase target sites (e.g. loxP sites for Cre recombinase, to create a ‘floxed’ locus). Then, Cre-mediated recombination in the presence of a cassette containing a floxed mutant allele removes the resident sequence and inserts the mutant gene (7). Previously, technical difficulties have prevented RMCE from being applied routinely to generate mutant mice. For example, exchanges using cassettes with directly repeated loxP sites were inefficient because excisions dominated the intended exchanges (8). loxP sites with different sequences were generated to overcome this problem, but these sites also underwent intramolecular recombination, making RMCE efficient only if the replacement cassette contained a marker enabling selection of the desired recombinant (7,9–12). However, interference resulting from expression of the selection marker and the endogenous gene (13) necessitates strategies to remove the selectable gene. Together, previous studies indicate that an optimal RMCE requires (i) inverted heterologous loxP sites diverging by at least 2 nt to maximize the efficiency of exchange and (ii) an expression cassette enabling both positive selection to identify the initial recombinant and then negative selection to obtain a ‘marker-free’ mutant allele (14).
+
+Most RMCE experiments have been performed at random sites in somatic cell lines. Only a few mutant mice generated by RMCE in ES cells have been reported, but the RMCE systematically introduced a selectable marker (15–17), or, when tested without an incoming marker, proved inefficient (12). A recent report disclosed an additional problem: the Hygromycin–Thymidine Kinase fusion gene used most frequently for positive/negative selection in RMCE, leads to mouse sterility, so that exchanges can only be performed in ES cells (16).
+
+The RMCE strategy presented here relies on the integrated use of inverted heterologous loxP sites, a positive/negative selection marker that preserves the germline capacity of ES cells, and the power of mouse genetics to expedite phenotypic analyses. We show that our approach enables efficient targeting of marker-free mutations at the p53 locus in ES cells to generate mutant mice, but more importantly, it is Adapted for targeting in Somatic cells to Accelerate Phenotyping (ASAP). Because it relies on very general principles, RMCE-ASAP could be applied to any locus of interest.
+T6	italic 1428 1435	in vivo
+T7	italic 1473 1476	p53
+T8	italic 1843 1850	in vivo
+T9	italic 3495 3498	p53
+T10	section 6135 14145	MATERIALS AND METHODS
+
+Targeting construct for a p53 RMCE-ready locus
+
+Details for plasmid construction are available upon request owing to space limitations mandating a brief outline. We started from a plasmid L3-1L containing heterologous loxP sites (L3 is the mutant loxP257 recently described (14), 1L is an inverted WT loxP). The WT loxP and loxP257 differ in their spacer sequences: the spacer sequence is 5?-ATGTATGC-3? for WT loxP and 5?-AAGTCTCC-3? for loxP257. The three mutations in the loxP257 spacer sequence prevent it to recombine with WT loxP, ensuring efficient RMCE in several cell lines: accurate RMCE with these loxP sites occurred with an average frequency of 81% at two loci in CHO cells and an average frequency of 69% at four loci in Hela cells (14). The L3-1L plasmid was first modified to include a ClaI and a FseI site between the LoxP sites, leading to plasmid L3-CF-1L. We next modified a puro?TK plasmid (YTC37, a kind gift from A. Bradley) by using oligonucleotides to destroy a NotI site downstream of the puro?TK gene and introduce a NotI site upstream, and a FseI site downstream of the gene (leading to plasmid CN-Puro?TK-F). Next, a PmlI-MfeI 6.3 kb fragment from Trp53 was subcloned in a modified pBluescript KSII+ (pBS, Stratagene), and the resulting plasmid was digested with SwaI to introduce an EagI site, leading to p53PmlEag, a plasmid containing exons 2–11 of p53. We then inserted a 5.5 kb ClaI-EagI fragment from p53PmlEag in plasmid CN-Puro?TK-F digested by ClaI and NotI, and inserted the resulting fragment between the loxP sites of L3-CF-1L by ClaI and FseI digestion, leading to L3-p53PmlEagPuro?TK-1L. We next engineered a plasmid containing the region for 3?-homology downstream of the p53 gene and the DTA gene in two steps: (i) we performed a three-way ligation between a modified pBS digested by HindIII and NotI, a HindIII-EcoRI fragment from Trp53 for 3?homology and an EcoRI-NotI fragment containing the DTA gene, from plasmid pgkdtabpa (kind gift of P. Soriano), leading to plasmid 3? + DTA and (ii) because the Bsu36I-EcoRI region downstream of p53 contains repetitive sequences (F. Toledo and G. M. Wahl, unpublished data), we later deleted this region, to obtain plasmid 3? + DTA. The 5? homology consists of a 3.4 kb-long BamHI-PmlI fragment from intron 1 of p53 cloned in a modified pBS (plasmid p5?). Finally, appropriate fragments from plasmids p5?, L3-p53PmlEagPuro?TK-1L, and 3? + DTA were assembled in a modified pSP72 plasmid (Promega). Plasmid Flox, the resulting targeting construct, was verified by restriction analysis, then sequenced using 30 primers chosen to precisely verify all p53 coding sequences, all exon–intron junctions and the sequences at and around the loxP sites.
+
+Exchange constructs: making the p53GFP and p53?PGFP plasmids
+
+To make a p53-GFP fusion protein, we first subcloned a SacII-HindIII fragment of the p53 locus (corresponding to part of exon 10 to sequences downstream of the gene) into pBS, then mutated the HindIII site into a FseI site. We next mutated the C-terminal part of the p53 gene in two rounds of PCR mutagenesis, first with primers 5?-GGGCCTGACTCAGACGGATCCCCTCTGCATCCCGTC-3? and 5?-GACGGGATGCAGAGGGGATCCGTCTGAGTCAGGCCC-3?, which removed the stop codon and introduced a BamHI site, then with primers 5?-GACGGATCCCCTCTGAATTCCGTCCCCATCACCA-3? and 5?-TGGTGATGGGGACGGAATACAGAGGGGATCCGTC-3?, which introduced an EcoRI site. We verified the sequence from the mutated plasmid, then digested it with BamHI and EcoRI, to insert in frame GFP sequences from a Bam HI-EcoRI fragment of plasmid phr-GFP-1 (Stratagene). We verified the sequence of this p53-GFP fusion fragment, then swapped it in the L3-p53PmlEagPuro?TK-1L plasmid (see above) by HindIII and FseI digestion, resulting in the p53GFP exchange construct, the sequence which was verified before use. The p53?PGFP exchange construct was engineered by combining sequences from the p53GFP exchange plasmid and sequences from the p53?P targeting construct described recently (5). Its sequence was also verified before use.
+
+Sequences and use of PCR primers
+
+a: 5?-CCCCGGCCCTCACCCTCATCTTCG-3?, from the Pu?TK gene, assays targeting of Flox plasmid; b: 5?-AACAAAACAAAACAGCAGCAACAA-3?, from sequences downstream of the p53 gene and outside Flox sequences, assays targeting of Flox and RMCE with p53GFP or p53?PGFP plasmids; c: 5?-TGAAGAGCAAGGGCGTGGTGAAGGA-3?, from GFP sequences, assays RMCE with p53GFP orp53?PGFP plasmids; d: 5?-CAAAAAATGGAAGGAAATCAGGAACTAA-3?, from p53 intron 3, and e: 5?-TCTAGACAGAGAAAAAAGAGGCATT-3?, from p53 intron 4, assay RMCE with p53?PGFP plasmid; f: 5?-ATGGGAGGCTGCCAGTCCTAACCC and g: 5?-GTGTTTCATTAGTTCCCCACCTTGAC-3? amplify the WT p53 allele according to Taconic's procedures, h: 5?-TTTACGGAGCCCTGGCGCTCGATGT-3? and i: 5?-GTGGGAGGGACAAAAGTTCGAGGCC-3? amplify the Neo marker in the p53 KO allele according to Taconic's procedures.
+
+Cell culture conditions
+
+Primary MEFs, isolated from 13.5 day embryos, were cultured in DMEM with 15% FBS, 100 mM BME, 2 mM l-glutamine and antibiotics. 129/SvJae ES cells were grown in the same medium supplemented with 1000 U/ml ESGRO (Chemicon), on a layer of mitomycin C-treated SNLPuro-7/4 feeders (kind gift of A. Bradley). Selections were performed with 2 ?g/ml puromycin, 0.2 ?M FIAU or 2 ?M ganciclovir.
+
+Targeting/genotyping of the RMCE-ready locus
+
+29/SvJae ES cells were electroporated with the Flox construct linearized with PmeI, and puromycin resistant clones were analyzed as described (Figure 2). Two clones were injected into blastocysts and transmitted through the germline.
+
+Performing RMCE in ES cells
+
+A total of 8 × 105 p53RMCE/+ ES cells were grown without puromycin for 12 h, electroporated with 15 ?g CMV-Cre plasmid (pOG231) and 200 ?g of the exchange construct, and plated in T25 flasks at 105 cells per flask. FIAU was added to the medium 3–4 days after electroporation. Individual clones, picked 10 days after electroporation, were grown in 96-well plates and expanded to generate duplicate plates for freezing and DNA analysis by PCR and Southern.
+
+Performing RMCE in MEFs
+
+A total of 106 p53RMCE/? MEFs cells were grown without puromycin for 12 h, electroporated with 3 ?g pOG231 and 30 ?g exchange construct, and plated in a single 10 cm-dish, grown for 3 days then split in several dishes at 105 cells per dish. FIAU or ganciclovir was added to the medium 4 days after electroporation, for 3–4 days. Clones, picked 10 days after electroporation, were grown in 24-well plates and expanded for freezing and DNA analysis.
+
+Western-blots
+
+Cells, untreated or treated for 24 h with 0.5 ?g/ml adriamycin, were lysed on the dish in a buffer consisting of 50 mM Tris (pH 8.0), 5 mM EDTA, 150 mM NaCl, 0.5% Nonidet P-40, 1 mM PMSF, 1 mM sodium vanadate, 10 mM NaF and Complete Mini Protease Inhibitors (Roche Diagnostics) at 4°C for 30 min. Lysates were scraped, then spun at 6000× g at 4°C for 10 min. Protein concentration in the supernatant was determined using the Bio-Rad DC protein assay. Lysates were separated on single percentage SDS/PAGE gels, then electrophoretically transferred to poly(vinylidene difluoride), using standard procedures.Blots were incubated in 5% non-fat dried milk in TBST (0.02 M Tris, pH 7.6/0.35 M NaCl/0.1% Tween-20) for 1 h at room temperature before probing with primary antibodies against p53 (CM-5, Novacastra) and -actin (Sigma). Secondary antibodies used include peroxidase-conjugated goat anti-mouse IgG and anti-rabbit IgG (Pierce). Probed blots were incubated with Pierce Supersignal West Pico chemiluminescent substrate and exposed to X-ray films.
+
+Flow cytometry
+
+Log phase cells were irradiated at RT with a 60 Co ?-irradiator at doses of 6 or 12 Gy and incubated for 24 h. Cells were then pulse-labeled for 1 h with BrdU (10 ?M), fixed in 70% ethanol, double-stained with FITC anti-BrdU and propidium iodide, then sorted by using a Becton Dickinson FACScan machine. Data were analyzed using Becton Dickinson Cellquest Pro.
+T11	italic 6184 6187	p53
+T12	italic 7335 7340	Trp53
+T13	italic 8035 8040	Trp53
+T14	sup 8925 8928	GFP
+T15	sup 8936 8941	?PGFP
+T16	sup 9929 9932	GFP
+T17	sup 10004 10009	?PGFP
+T18	sup 10079 10082	GFP
+T19	sup 10126 10128	?P
+T20	sup 10488 10491	GFP
+T21	sup 10498 10503	?PGFP
+T22	sup 10590 10593	GFP
+T23	sup 10599 10604	?PGFP
+T24	sup 10751 10756	?PGFP
+T25	sup 11792 11793	5
+T26	italic 11794 11803	p53RMCE/+
+T27	sup 11797 11803	RMCE/+
+T28	sup 11971 11972	5
+T29	sup 12269 12270	6
+T30	italic 12271 12280	p53RMCE/?
+T31	sup 12274 12280	RMCE/?
+T32	sup 12479 12480	5
+T33	italic 13058 13059	g
+T34	section 14147 21405	RESULTS AND DISCUSSION
+
+The rationale for RMCE-ASAP is detailed in Figure 1. The first step requires generating a floxed allele in ES cells that will serve as the substrate for subsequent exchanges (RMCE-ready ES cell, Figure 1). The targeting strategy is detailed in Figure 2. The frequency of targeting was 4% (12/300 puromycin-resistant clones, analyzed by Southern blot and long-range PCR, Figure 2).
+
+We next tested the efficiency of RMCE in ES cells, using a replacement construct encoding p53 fused to GFP (p53GFP) to enable tracking p53 in individual live cells. Importantly however, GFP fluorescence was not used to screen cells with targeted events, as we wanted to develop a general method to isolate marker-free recombinants. The exchange strategy is detailed in Figure 3A. We picked 65 ES cell clones resistant to 1-(-2-deoxy-2-fluoro-1-b-d-arabino-furanosyl)-5-iodouracil (FIAU) due to TK loss and analyzed their DNA by PCR and Southern blot. Strikingly, 54 proper recombinants were identified, indicating very high RMCE efficiency (83%). RMCE also proved to be precise, as no aberrant bands were detected in PCR and Southern blots (Figure 3A). p53+/GFP ES clones were analyzed by western blot with an antibody against p53, and found to express an additional band at the expected size (ca. 80 kDa). Surprisingly, the fusion of GFP to p53 apparently altered p53 stability: steady-state levels of p53GFP were much higher than those of wild-type p53 (p53WT) in unstressed cells, and did not vary significantly after DNA damage, so that the levels for both p53WT and p53GFP were similar after adriamycin treatment (Figure 3A).
+
+Six independent p53+/GFP clones were injected into blastocysts and transferred to pseudo-pregnant females using standard procedures. Strikingly, no pregnancies were obtained. It has been shown that the p53 pathway is regulated very differently in ES and somatic cells: ES cells contain relatively high p53 levels and lack the p53-mediated DNA damage responses found in somatic cells (18). This, together with the observation that p53 levels decrease during mouse embryogenesis (19), suggested an explanation for the observed lack of pregnancies: we speculate that the high levels of p53GFP in the ES cells injected into blastocysts might have prevented normal embryonic development once these cells began to differentiate and the p53 pathway became functional.
+
+To test this possibility, we performed RMCE with a p53 fusion gene in which the p53 proline-rich domain (PRD) was deleted (p53?P), and the p53?P was fused to GFP. We used this mutant because deleting the proline-rich domain decreases stability and compromises DNA-damage responses in vivo (5). According to our hypothesis, this hypomorphic mutant should not prevent embryonic development. RMCE with a p53?PGFP replacement plasmid was again very efficient and western blots revealed an additional band of the predicted molecular weight only in p53+/?PGFP ES cells (Figure 3B). As expected, the PRD deletion correlated with lower expression levels: p53?PGFP was much less abundant than p53WT in all p53+/?PGFP clones (Figure 3B). We next determined whether p53+/?PGFP ES cells could generate chimeric mice and transmit the modified allele through the germline. Two p53+/?PGFP ES cell clones were injected into blastocysts and highly chimeric (>80%) mice were obtained. Heterozygote pups were recovered from the mating the chimeras with WT mice (Figure 3C). These data demonstrate that marker-free RMCE is very efficient in ES cells and allows germline transmission of a targeted mutation (see Figure 1, path A).
+
+We next determined whether the RMCE approach could be used to target mutations at the p53 allele in somatic cells (Figure 1, path B). We first verified that the RMCE-ready p53 locus (p53RMCE) could be transmitted through the germline by mating p53RMCE/+ chimeras with p53+/? mice (20) (Figure 4). Importantly, this allowed us to generate p53RMCE/? MEFs, which were used to test RMCE at the p53 locus in somatic cells. We first attempted RMCE in MEFs by electroporating p53RMCE/? MEFs with a Cre-expression plasmid and the p53GFP plasmid, followed by selection with FIAU or ganciclovir. Strikingly, no clones with an exchanged allele were identified (data not shown). RMCE with p53GFP in ES cells showed that p53GFP is expressed at high levels (Figure 3A), and as mentioned before, the p53 pathway that can be activated in MEFs is not readily activated in ES cells (18). The results above suggest that high levels of p53GFP could be tolerated by ES cells but toxic to MEFs, so that MEFs in which an RMCE had occurred failed to proliferate. To test this possibility, p53RMCE/? MEFs were electroporated with the p53GFP replacement construct with or without a Cre-expression plasmid, then analyzed by fluorescence microscopy 48 h after electroporation. The experiment was done without selection to enable observation of cells under conditions where a failure to proliferate would not derive from FIAU or ganciclovir toxicity but rather solely from the effects of p53GFP. We observed a few fluorescent cells only when the Cre expression plasmid was co-electroporated, suggesting that such cells resulted from RMCE. Importantly, the rare fluorescent cells had a flat, ‘fried-egg’ appearance typical of senescent cells (Figure 5A), and when plates were observed 5 days later, the cells had detached. Altogether, the results suggest that RMCE can give rise to p53GFP-expressing MEFs, but they die rapidly owing to p53GFP toxicity.
+
+We also performed RMCE in p53RMCE/? MEFs with the p53?PGFP construct. p53?PGFP-expressing MEFs were viable, recovered with an efficiency of ?40%, and, as expected from ES cell experiments, expressed a p53?PGFP protein at much lower levels than p53WT (Figure 5B). Unlike WT MEFs, p53?P/?P MEFs are unable to arrest cycling after irradiation (5). Likewise, we found that irradiation doses that arrested p53RMCE/? MEFs (which express a wild-type p53 from the RMCE-ready locus, see Figure 2) did not arrest p53?PGFP/? MEFs (Figure 5C). These data show that a single RMCE-ASAP reaction in heterozygous MEFs enables detection of a recessive phenotype. The results confirm that deleting the proline rich domain leads to less active p53 with impaired cell cycle control, and also indicate that a GFP C-terminal fusion can dramatically alter p53 regulation. A summary of our results is presented in Table 1.
+
+These data report the development and implementation of an improved RMCE approach that enables efficient allele modification in ES cells to generate mice and in heterozygous MEFs to accelerate phenotypic analyses. The success of RMCE-ASAP relied on the integrated use of inverted heterologous loxP sites, a positive/negative selection marker that preserves the germline capacity of ES cells, and, for somatic cells, the existence of a knock-out allele of the gene of interest. These characteristics should make RMCE-ASAP a robust and general technology for analysis of mammalian genes under conditions that preserve normal control mechanisms in different tissues. In addition, RMCE-ASAP could be used to generate fibroblastic cell lines tailored for the repeated targeting of widely studied genes (p53, c-myc, NF-KB, etc.).
+T35	sup 14664 14667	GFP
+T36	italic 15306 15314	p53+/GFP
+T37	sup 15309 15314	+/GFP
+T38	sup 15559 15562	GFP
+T39	sup 15612 15614	WT
+T40	sup 15717 15719	WT
+T41	sup 15727 15730	GFP
+T42	italic 15801 15809	p53+/GFP
+T43	sup 15804 15809	+/GFP
+T44	sup 16371 16374	GFP
+T45	sup 16673 16675	?P
+T46	sup 16689 16691	?P
+T47	italic 16828 16835	in vivo
+T48	sup 16951 16956	?PGFP
+T49	italic 17090 17100	p53+/?PGFP
+T50	sup 17093 17100	+/?PGFP
+T51	sup 17197 17202	?PGFP
+T52	sup 17234 17236	WT
+T53	italic 17244 17254	p53+/?PGFP
+T54	sup 17247 17254	+/?PGFP
+T55	italic 17302 17312	p53+/?PGFP
+T56	sup 17305 17312	+/?PGFP
+T57	italic 17410 17420	p53+/?PGFP
+T58	sup 17413 17420	+/?PGFP
+T59	italic 17844 17847	p53
+T60	italic 17930 17933	p53
+T61	italic 17941 17948	p53RMCE
+T62	sup 17944 17948	RMCE
+T63	italic 18002 18011	p53RMCE/+
+T64	sup 18005 18011	RMCE/+
+T65	italic 18026 18032	p53+/?
+T66	sup 18029 18032	+/?
+T67	italic 18096 18105	p53RMCE/?
+T68	sup 18099 18105	RMCE/?
+T69	italic 18148 18151	p53
+T70	italic 18227 18236	p53RMCE/?
+T71	sup 18230 18236	RMCE/?
+T72	sup 18283 18286	GFP
+T73	sup 18438 18441	GFP
+T74	sup 18469 18472	GFP
+T75	sup 18677 18680	GFP
+T76	italic 18823 18832	p53RMCE/?
+T77	sup 18826 18832	RMCE/?
+T78	sup 18870 18873	GFP
+T79	sup 19220 19223	GFP
+T80	sup 19613 19616	GFP
+T81	sup 19667 19670	GFP
+T82	italic 19708 19717	p53RMCE/?
+T83	sup 19711 19717	RMCE/?
+T84	sup 19735 19740	?PGFP
+T85	sup 19755 19760	?PGFP
+T86	sup 19886 19891	?PGFP
+T87	sup 19929 19931	WT
+T88	italic 19961 19969	p53?P/?P
+T89	sup 19964 19969	?P/?P
+T90	italic 20083 20092	p53RMCE/?
+T91	sup 20086 20092	RMCE/?
+T92	italic 20185 20195	p53?PGFP/?
+T93	sup 20188 20195	?PGFP/?
+T94	section 21407 21943	Acknowledgements
+
+The authors thank A. Bradley for the Puro?TK gene and SNLPuro-7/4 cells, P Soriano for the DTA gene, G. Campbell for technical assistance and E. T. Wong for helpful discussions. The work was supported by NIH grants CA100845 and CA061449 to G.M.W. F.T. was supported in part by the Institut Pasteur and a fellowship from Association pour la Recherche sur le Cancer. Funding to pay the Open Access publication charges for this article was provided by the Institut Pasteur.
+
+Conflict of interest statement. None declared.
+T95	italic 21897 21928	Conflict of interest statement.
+T96	section 21945 29388	Figures and Tables
+
+Figure 1
+
+Rationale for a RMCE-ASAP. Using homologous recombination, the gene of interest (GOI, open boxes: exons), is targeted with a construct introducing upstream of coding regions one loxP (blue arrowhead) and downstream, a positive/negative selection cassette (red box) and a second inverted heterologous loxP (purple arrowhead) to create RMCE-ready ES cells. An exchange is performed in these cells by co-transfecting a Cre expression plasmid and a marker-free plasmid with a floxed mutant GOI (green box: mutated exon), to produce a mutant mouse (path A). Importantly RMCE-ASAP incorporates two major improvements over classical RMCE (path B): (i) the positive/negative selection cassette does not prevent germline transmission, so that RMCE-ready mice can be obtained; (ii) the selection cassette does not replace, but rather lies downstream of the GOI. This is a crucial requirement for accelerated phenotyping in somatic cells, as maintaining a functional GOI ensures that the RMCE-ready locus still behaves like a WT locus. Hence, after breeding the RMCE-ready mouse with mice heterozygotes for the GOI, somatic cells with an RMCE-ready locus and a WT or KO allele can be recovered [e.g. RMCE/+ and RMCE/? mouse embryonic fibroblasts (MEFs)]. Such cells, phenotypically similar to +/+ and +/? cells, can then be used for phenotypic analyses of dominant or recessive mutations after a single exchange.
+
+Figure 2
+
+Generating ES cells with a p53 RMCE-ready locus. The p53 gene is contained in a 17 kb-long EcoRI (RI) fragment (black boxes: coding sequences, white boxes: UTRs). The Flox targeting construct (below), the sequence which was verified before use (Materials and Methods), contains (i) a 3.4 kb-long 5? homology region; (ii) 0.2 kb upstream of coding sequences, an EcoRI site and L3, a mutant loxP [loxP257, (14)]; (iii) p53 exons; (iv) 0.4 kb downstream, a puro?TK fusion gene (puDTK) for positive/negative selection (21) and an inverted WT loxP (1L); (v) a 1.2 kb-long 3? homology region and (vi) the diphteria ?-toxin (DTA) gene for targeting enrichment. The recombinants resulting from the depicted crossing-overs are identified by a 6.5 kb band in Southern blot with probe A and a 3 kb band by PCR with primers a and b. A representative Southern, and PCR of one positive (?) and two negative clones, are shown.
+
+Figure 3
+
+Performing RMCE in ES cells. (A) RMCE with a p53GFP plasmid. The exchange plasmid, the sequence which was verified before use, contains p53GFP coding sequences flanked by L3 and 1L sites. It was electroporated with a Cre expression plasmid. FIAU-resistant clones were analyzed by PCR with primers b and c and Southern blot with probe B. Both approaches led to identical results and identified 54/65 RMCE recombinants. Representative clones (P–Z) are shown (left), analyzed by PCR (top) and Southern (bottom): all clones but Q and T are positive with both assays. All positive clones produced a band of the expected size by PCR, indicating correct recombination at 1L, and displayed only the expected 12 and 5 kb bands by Southern, indicating correct recombination at L3. The absence of bands of aberrant size in Southerns also indicated that the exchange plasmid was neither rearranged nor inserted at ectopic sites. Thus RMCE was efficient and accurate. Recombinant clones were analyzed by western blot with an antibody to p53. In the representative western (right), cells from two independent p53+/GFP ES clones were left untreated or treated with adriamycin (ADR) at 0.5 ?g/ml for 24 h, and protein extracts were prepared. p53GFP migrated at the expected size of 80 kDa and was expressed at unexpectedly high levels regardless of stress. (B) RMCE with a p53?PGFP plasmid. The p53?PGFP exchange construct (which sequence was verified before use) differed from the p53GFP construct only in that it contains a mutated exon 4 (4*) encoding a PRD deletion. RMCE was again very efficient, with 10/12 FIAU-resistant clones producing a 3 kb band by PCR with primers b and c. A western analysis of four FIAU-resistant clones is shown below (with low/high exposures: Lo X/Hi X). As expected, all except clone x expressed p53?PGFP. p53?PGFP migrated at the expected size of 75 kDa and accumulated after stress, but at lower levels than p53WT. (C) Germline transmission of the p53?PGFP mutation. DNA of seven littermates (U42–U48), obtained from mating a p53?PGFP chimera with a WT mouse, was analyzed by PCR with primers d and e (see B), with DNA from WT, p53+/?P and p53?P/?P MEFs (5) as controls. U45, a p53+/?PGFP mouse, demonstrated transmission of the mutation.
+
+Figure 4
+
+Germline transmission of the p53 RMCE-ready locus. p53RMCE/+ ES cells were injected into blastocysts to generate chimeric mice. Chimeras (>80%) were then mated with p53+/? mice (Taconic) and MEFs were prepared. MEFs were first genotyped by PCR with primers a and b (see Figure 2) to detect the Puro?TK marker of the RMCE allele (top). This revealed germline transmission of the p53 RMCE-ready locus in MEFs 1, 2 and 6. Each of these three MEF clones was further analyzed (bottom) with primers f and g (left lanes) and h and i (right lanes), routinely used to genotype p53+/? mice (sequences in Materials and Methods). Primers f and g amplify a 320 bp product from a WT or RMCE allele, while primers h and i specifically amplify a 150 bp product from the Neo marker in the KO allele. MEF 1 are p53RMCE/+ and MEFs 2 and 6 are p53RMCE/? cells.
+
+Figure 5
+
+Performing RMCE in MEFs. (A) RMCE with the p53GFP plasmid leads to the transient observation of cells with intense nuclear fluorescence. p53RMCE/? MEFs, electroporated with a Cre expression plasmid and the p53GFP exchange plasmid, were analyzed 48 h later by fluorescence microscopy. A typical field (left to right: fluorescence, phase contrast, merged) with a fluorescent cell (arrow) is shown. The fluorescent cell is enlarged (extreme right). (B) RMCE with the p53?PGFP plasmid. p53RMCE/? MEFs, electroporated with a Cre expression plasmid and the p53?PGFP plasmid, were selected with ganciclovir. PCR with primers d and e (Figure 3B) indicated that 9/22 ganciclovir-resistant clones integrated the ?P mutation [top row, a representative analysis of 10 clones (Q–Z) is shown]. PCR with primers b and c next verified that the detected PRD deletions resulted from RMCE at the p53 locus, not random integration (middle row, as expected clones R, S, T and W are positive, but not Q). Western analysis of positive clones (bottom row) showed that p53?PGFP accumulated after ADR, but at lower levels than p53WT. (C) Phenotypic assay of p53?PGFP: loss of cell cycle control. Asynchronous p53RMCE/? and p53?PGFP/? MEFs left untreated, or irradiated with doses of 6 or 12 Gy, were analyzed (top shows a typical experiment; bottom plots results from ?4 independent experiments and ?3 independent MEFs). Note that the p53RMCE locus encodes a WT p53.
+
+Table 1
+
+Summary of targeting experiments
+
+In ES cells, targeting p53?PGFP or p53GFP by RMCE was ?20 times more efficient than targeting Flox by homologous recombination. In MEFs, due to p53GFP toxicity, only the targeting efficiency of RMCE with p53?PGFP could be evaluated. Importantly, a phenotypic read-out of the p53?PGFP mutation in MEFs, if it had been performed after targeting in fibroblasts by homologous recombination, would have required two rounds of inefficient targeting to target both p53 alleles.
+T97	section 21965 23376	Figure 1
+
+Rationale for a RMCE-ASAP. Using homologous recombination, the gene of interest (GOI, open boxes: exons), is targeted with a construct introducing upstream of coding regions one loxP (blue arrowhead) and downstream, a positive/negative selection cassette (red box) and a second inverted heterologous loxP (purple arrowhead) to create RMCE-ready ES cells. An exchange is performed in these cells by co-transfecting a Cre expression plasmid and a marker-free plasmid with a floxed mutant GOI (green box: mutated exon), to produce a mutant mouse (path A). Importantly RMCE-ASAP incorporates two major improvements over classical RMCE (path B): (i) the positive/negative selection cassette does not prevent germline transmission, so that RMCE-ready mice can be obtained; (ii) the selection cassette does not replace, but rather lies downstream of the GOI. This is a crucial requirement for accelerated phenotyping in somatic cells, as maintaining a functional GOI ensures that the RMCE-ready locus still behaves like a WT locus. Hence, after breeding the RMCE-ready mouse with mice heterozygotes for the GOI, somatic cells with an RMCE-ready locus and a WT or KO allele can be recovered [e.g. RMCE/+ and RMCE/? mouse embryonic fibroblasts (MEFs)]. Such cells, phenotypically similar to +/+ and +/? cells, can then be used for phenotypic analyses of dominant or recessive mutations after a single exchange.
+T98	section 23378 24299	Figure 2
+
+Generating ES cells with a p53 RMCE-ready locus. The p53 gene is contained in a 17 kb-long EcoRI (RI) fragment (black boxes: coding sequences, white boxes: UTRs). The Flox targeting construct (below), the sequence which was verified before use (Materials and Methods), contains (i) a 3.4 kb-long 5? homology region; (ii) 0.2 kb upstream of coding sequences, an EcoRI site and L3, a mutant loxP [loxP257, (14)]; (iii) p53 exons; (iv) 0.4 kb downstream, a puro?TK fusion gene (puDTK) for positive/negative selection (21) and an inverted WT loxP (1L); (v) a 1.2 kb-long 3? homology region and (vi) the diphteria ?-toxin (DTA) gene for targeting enrichment. The recombinants resulting from the depicted crossing-overs are identified by a 6.5 kb band in Southern blot with probe A and a 3 kb band by PCR with primers a and b. A representative Southern, and PCR of one positive (?) and two negative clones, are shown.
+T99	italic 23415 23418	p53
+T100	section 24301 26569	Figure 3
+
+Performing RMCE in ES cells. (A) RMCE with a p53GFP plasmid. The exchange plasmid, the sequence which was verified before use, contains p53GFP coding sequences flanked by L3 and 1L sites. It was electroporated with a Cre expression plasmid. FIAU-resistant clones were analyzed by PCR with primers b and c and Southern blot with probe B. Both approaches led to identical results and identified 54/65 RMCE recombinants. Representative clones (P–Z) are shown (left), analyzed by PCR (top) and Southern (bottom): all clones but Q and T are positive with both assays. All positive clones produced a band of the expected size by PCR, indicating correct recombination at 1L, and displayed only the expected 12 and 5 kb bands by Southern, indicating correct recombination at L3. The absence of bands of aberrant size in Southerns also indicated that the exchange plasmid was neither rearranged nor inserted at ectopic sites. Thus RMCE was efficient and accurate. Recombinant clones were analyzed by western blot with an antibody to p53. In the representative western (right), cells from two independent p53+/GFP ES clones were left untreated or treated with adriamycin (ADR) at 0.5 ?g/ml for 24 h, and protein extracts were prepared. p53GFP migrated at the expected size of 80 kDa and was expressed at unexpectedly high levels regardless of stress. (B) RMCE with a p53?PGFP plasmid. The p53?PGFP exchange construct (which sequence was verified before use) differed from the p53GFP construct only in that it contains a mutated exon 4 (4*) encoding a PRD deletion. RMCE was again very efficient, with 10/12 FIAU-resistant clones producing a 3 kb band by PCR with primers b and c. A western analysis of four FIAU-resistant clones is shown below (with low/high exposures: Lo X/Hi X). As expected, all except clone x expressed p53?PGFP. p53?PGFP migrated at the expected size of 75 kDa and accumulated after stress, but at lower levels than p53WT. (C) Germline transmission of the p53?PGFP mutation. DNA of seven littermates (U42–U48), obtained from mating a p53?PGFP chimera with a WT mouse, was analyzed by PCR with primers d and e (see B), with DNA from WT, p53+/?P and p53?P/?P MEFs (5) as controls. U45, a p53+/?PGFP mouse, demonstrated transmission of the mutation.
+T101	bold 24340 24343	(A)
+T102	sup 24359 24362	GFP
+T103	sup 24450 24453	GFP
+T104	italic 25406 25414	p53+/GFP
+T105	sup 25409 25414	+/GFP
+T106	sup 25540 25543	GFP
+T107	bold 25652 25655	(B)
+T108	sup 25671 25676	?PGFP
+T109	sup 25693 25698	?PGFP
+T110	sup 25780 25783	GFP
+T111	sup 26128 26133	?PGFP
+T112	sup 26138 26143	?PGFP
+T113	sup 26242 26244	WT
+T114	bold 26246 26249	(C)
+T115	sup 26282 26287	?PGFP
+T116	sup 26360 26365	?PGFP
+T117	italic 26459 26466	p53+/?P
+T118	sup 26462 26466	+/?P
+T119	italic 26471 26479	p53?P/?P
+T120	sup 26474 26479	?P/?P
+T121	italic 26509 26519	p53+/?PGFP
+T122	sup 26512 26519	+/?PGFP
+T123	section 26571 27421	Figure 4
+
+Germline transmission of the p53 RMCE-ready locus. p53RMCE/+ ES cells were injected into blastocysts to generate chimeric mice. Chimeras (>80%) were then mated with p53+/? mice (Taconic) and MEFs were prepared. MEFs were first genotyped by PCR with primers a and b (see Figure 2) to detect the Puro?TK marker of the RMCE allele (top). This revealed germline transmission of the p53 RMCE-ready locus in MEFs 1, 2 and 6. Each of these three MEF clones was further analyzed (bottom) with primers f and g (left lanes) and h and i (right lanes), routinely used to genotype p53+/? mice (sequences in Materials and Methods). Primers f and g amplify a 320 bp product from a WT or RMCE allele, while primers h and i specifically amplify a 150 bp product from the Neo marker in the KO allele. MEF 1 are p53RMCE/+ and MEFs 2 and 6 are p53RMCE/? cells.
+T124	italic 26610 26613	p53
+T125	italic 26632 26641	p53RMCE/+
+T126	sup 26635 26641	RMCE/+
+T127	sup 26749 26752	+/?
+T128	italic 27149 27155	p53+/?
+T129	sup 27152 27155	+/?
+T130	italic 27374 27383	p53RMCE/+
+T131	sup 27377 27383	RMCE/+
+T132	italic 27405 27414	p53RMCE/?
+T133	sup 27408 27414	RMCE/?
+T134	section 27423 28873	Figure 5
+
+Performing RMCE in MEFs. (A) RMCE with the p53GFP plasmid leads to the transient observation of cells with intense nuclear fluorescence. p53RMCE/? MEFs, electroporated with a Cre expression plasmid and the p53GFP exchange plasmid, were analyzed 48 h later by fluorescence microscopy. A typical field (left to right: fluorescence, phase contrast, merged) with a fluorescent cell (arrow) is shown. The fluorescent cell is enlarged (extreme right). (B) RMCE with the p53?PGFP plasmid. p53RMCE/? MEFs, electroporated with a Cre expression plasmid and the p53?PGFP plasmid, were selected with ganciclovir. PCR with primers d and e (Figure 3B) indicated that 9/22 ganciclovir-resistant clones integrated the ?P mutation [top row, a representative analysis of 10 clones (Q–Z) is shown]. PCR with primers b and c next verified that the detected PRD deletions resulted from RMCE at the p53 locus, not random integration (middle row, as expected clones R, S, T and W are positive, but not Q). Western analysis of positive clones (bottom row) showed that p53?PGFP accumulated after ADR, but at lower levels than p53WT. (C) Phenotypic assay of p53?PGFP: loss of cell cycle control. Asynchronous p53RMCE/? and p53?PGFP/? MEFs left untreated, or irradiated with doses of 6 or 12 Gy, were analyzed (top shows a typical experiment; bottom plots results from ?4 independent experiments and ?3 independent MEFs). Note that the p53RMCE locus encodes a WT p53.
+T135	bold 27458 27461	(A)
+T136	sup 27479 27482	GFP
+T137	italic 27570 27579	p53RMCE/?
+T138	sup 27573 27579	RMCE/?
+T139	sup 27642 27645	GFP
+T140	bold 27879 27882	(B)
+T141	sup 27900 27905	?PGFP
+T142	italic 27915 27924	p53RMCE/?
+T143	sup 27918 27924	RMCE/?
+T144	sup 27987 27992	?PGFP
+T145	sup 28480 28485	?PGFP
+T146	sup 28537 28539	WT
+T147	bold 28541 28544	(C)
+T148	sup 28568 28573	?PGFP
+T149	italic 28616 28625	p53RMCE/?
+T150	sup 28619 28625	RMCE/?
+T151	italic 28630 28640	p53?PGFP/?
+T152	sup 28633 28640	?PGFP/?
+T153	italic 28842 28849	p53RMCE
+T154	sup 28845 28849	RMCE
+T155	section 28875 29388	Table 1
+
+Summary of targeting experiments
+
+In ES cells, targeting p53?PGFP or p53GFP by RMCE was ?20 times more efficient than targeting Flox by homologous recombination. In MEFs, due to p53GFP toxicity, only the targeting efficiency of RMCE with p53?PGFP could be evaluated. Importantly, a phenotypic read-out of the p53?PGFP mutation in MEFs, if it had been performed after targeting in fibroblasts by homologous recombination, would have required two rounds of inefficient targeting to target both p53 alleles.
+T156	sup 28944 28949	?PGFP
+T157	sup 28956 28959	GFP
+T158	sup 29065 29068	GFP
+T159	sup 29125 29130	?PGFP
+T160	sup 29196 29201	?PGFP
+T161	italic 29376 29379	p53

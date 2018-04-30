@@ -1,0 +1,2852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="17447844.txt">
+  <annotation>
+    <mention id="formatting_Instance_50146" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="0" end="103" />
+    <spannedText>A Mammal-Specific Doublesex Homolog Associates with Male Sex Chromatin and Is Required for Male Meiosis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50149" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18" end="27" />
+    <spannedText>Doublesex</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50151" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="105" end="1871" />
+    <spannedText>Abstract
+
+Gametogenesis is a sexually dimorphic process requiring profound differences in germ cell differentiation between the sexes. In mammals, the presence of heteromorphic sex chromosomes in males creates additional sex-specific challenges, including incomplete X and Y pairing during meiotic prophase. This triggers formation of a heterochromatin domain, the XY body. The XY body disassembles after prophase, but specialized sex chromatin persists, with further modification, through meiosis. Here, we investigate the function of DMRT7, a mammal-specific protein related to the invertebrate sexual regulators Doublesex and MAB-3. We find that DMRT7 preferentially localizes to the XY body in the pachytene stage of meiotic prophase and is required for male meiosis. In Dmrt7 mutants, meiotic pairing and recombination appear normal, and a transcriptionally silenced XY body with appropriate chromatin marks is formed, but most germ cells undergo apoptosis during pachynema. A minority of mutant cells can progress to diplonema, but many of these escaping cells have abnormal sex chromatin lacking histone H3K9 di- and trimethylation and heterochromatin protein 1β accumulation, modifications that normally occur between pachynema and diplonema. Based on the localization of DMRT7 to the XY body and the sex chromatin defects observed in Dmrt7 mutants, we conclude that DMRT7 plays a role in the sex chromatin transformation that occurs between pachynema and diplonema. We suggest that DMRT7 may help control the transition from meiotic sex chromosome inactivation to postmeiotic sex chromatin in males. In addition, because it is found in all branches of mammals, but not in other vertebrates, Dmrt7 may shed light on evolution of meiosis and of sex chromatin.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50154" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="880" end="885" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50156" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1448" end="1453" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50158" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1805" end="1810" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50160" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1929" end="1938" />
+    <spannedText>Doublesex</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50162" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="1942" end="1952" />
+    <spannedText>Drosophila</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50164" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="2115" end="2120" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50166" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="2823" end="2828" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50168" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="2882" end="2887" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50170" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="3050" end="9495" />
+    <spannedText>Introduction
+
+Sexual differentiation generates anatomical, physiological, and behavioral dimorphisms that are essential for sexual reproduction. Many of these dimorphisms affect somatic cells, but the sexual dimorphisms that most directly mediate sexual reproduction are those of the gametes themselves. Gametes differ between the sexes in size and morphology, sometimes dramatically so, reflecting their very different roles in zygote formation. Indeed, the morphology of the gametes is what defines sex: females are the sex that produces the larger gametes and males produce the smaller ones.
+
+Mammalian meiosis is regulated sex-specifically starting in embryogenesis and continuing through much of adult life (reviewed in [1]). For example, the timing and synchrony of meiosis are very different in the two sexes. In females, germ cells synchronously initiate meiosis in the embryo and arrest during meiotic prophase I. After puberty, oocytes are selectively recruited for ovulation, when they proceed to metaphase II and then complete meiosis after fertilization occurs [2]. In contrast, male meiosis occurs entirely postnatally, without the arrest periods found in females. In females, each meiosis can produce a single haploid oocyte (and two extruded polar bodies), whereas each male meiosis can produce four haploid spermatocytes.
+
+Other meiotic processes, such as recombination and chromosome pairing (synapsis), occur in both sexes but operate somewhat differently. For example, there is a higher failure rate for meiosis in females, with human oocyte aneuploidy rates up to 25% versus about 2% in human sperm [3], and this may indicate that the checkpoints controlling and monitoring the events of meiotic progression in males are more stringent. Consistent with this idea, genetic analysis of a number of meiotic regulatory genes in the mouse has demonstrated a much stronger requirement in males than in females [1,4].
+
+The existence of heteromorphic sex chromosomes, such as the XX/XY system of mammals, creates sex-specific challenges. One is the need for mechanisms to balance expression of sex-linked genes between the sexes, which in mammals is accomplished by X chromosome inactivation in females [5,6]. In male germ cells there is another sex-specific consideration during meiosis. In prophase I, when the homologous chromosomes synapse and homologous recombination occurs, X and Y chromosome pairing is limited to a region termed the pseudoautosomal region, leaving large portions of each chromosome unpaired. In eutherian and marsupial mammals, these unpaired chromosome regions are associated with a specialized chromatin domain termed the XY body or sex body. The function of the XY body is uncertain [7–11], but there is evidence that it is essential for male meiotic progression [12].
+
+Several proteins are reported to localize to the XY body, including BRCA1, ATR, the histone variant H3.3, and modified histones such as ubiquitinated H2A (Ub-H2A) and phosphorylated H2AX (γH2AX) [12–15]. In the XY body, the sex chromosomes are transcriptionally silenced in a process termed meiotic sex chromosome inactivation (MSCI). The XY body disappears after pachynema; however, many sex-linked genes remain transcriptionally silent into spermiogenesis [16]. This maintenance of silencing is associated with a distinct set of chromatin marks that define a sex chromatin domain termed postmeiotic sex chromatin (PMSC) [16,17].
+
+Regulators of sexual differentiation have been identified in a number of organisms, but in contrast to many other developmental processes, such as axial patterning or development of many body parts, the molecular mechanisms that regulate sexual differentiation are highly variable between phyla. A notable exception involves genes related to doublesex (dsx) of Drosophila, which share a Doublesex/MAB-3 DNA-binding motif called the DM domain [18,19]. DM domain–encoding genes have been shown to regulate various aspects of sexual differentiation in insects, nematodes, and mammals [20]. The mab-3 gene of Caenorhabditis elegans has been shown to function analogously to DSX in several respects and can be functionally replaced by the male isoform of DSX, suggesting that the similarity in the sequence of these genes may stem from conservation of an ancestral DM domain sexual regulator [18,21,22].
+
+Vertebrates also have DM domain genes, and analysis to date, although limited, has shown that these genes also control sexual differentiation. Mammals have seven DM domain genes (Dmrt genes), several of which exhibit sexually dimorphic mRNA expression [23,24]. The best studied of these genes, Dmrt1, is expressed in the differentiating male genital ridges and adult testis of mammals, birds, fish, and reptiles, and a recently duplicated Dmrt1 gene functions as the Y-linked testis-determining gene in the Medaka fish [25–29]. Human DMRT1 maps to an autosomal locus, which, when hemizygous, is associated with defective testicular development and consequent XY feminization [30]. Similarly, mice homozygous for a null mutation in Dmrt1 have severe defects in testis differentiation involving both germ cells and Sertoli cells [31]. Female mice mutant in Dmrt4 have polyovular follicles, indicating that this gene also plays a role in gonadal development [32]. It appears from these studies that the involvement of DM domain genes in sexual differentiation is ancient and conserved. However, vertebrate Dmrt gene function is not limited to sexual differentiation: Dmrt2 is required in both sexes for segmentation in mice and fish [33–35].
+
+Here, we have investigated the expression and function of the Dmrt7 gene in the mouse. Dmrt7 is expressed only in the gonad, and, unlike the other Dmrt genes, appears to be present exclusively in mammals and not in nonmammalian vertebrates [23,36]. We find that DMRT7 protein is expressed only in germ cells and is selectively localized to the XY body of male pachytene germ cells. To test its function, we generated a conditional null mutation of Dmrt7 in the mouse. We find that Dmrt7 is required in males for progression beyond the pachytene stage of meiotic prophase but is not required in females. In rare mutant cells that survive to diplonema, we observed sex chromatin abnormalities. Based on these observations, we suggest that Dmrt7 plays a critical role in a male-specific chromatin transition between pachynema and diplonema during meiotic prophase.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50173" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6836" end="6851" />
+    <spannedText>doublesex (dsx)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50175" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="6855" end="6866" />
+    <spannedText>Drosophila,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50177" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7085" end="7090" />
+    <spannedText>mab-3</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50179" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7573" end="7577" />
+    <spannedText>Dmrt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50181" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7688" end="7694" />
+    <spannedText>Dmrt1,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50183" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7833" end="7838" />
+    <spannedText>Dmrt1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50185" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="7928" end="7933" />
+    <spannedText>DMRT1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50187" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8125" end="8130" />
+    <spannedText>Dmrt1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50189" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8249" end="8254" />
+    <spannedText>Dmrt4</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50191" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8497" end="8501" />
+    <spannedText>Dmrt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50193" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8558" end="8563" />
+    <spannedText>Dmrt2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50195" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8696" end="8701" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50197" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8719" end="8726" />
+    <spannedText>. Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50199" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="8781" end="8785" />
+    <spannedText>Dmrt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50201" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9082" end="9087" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50203" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9115" end="9120" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50205" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9371" end="9376" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50207" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9497" end="36525" />
+    <spannedText>Results
+
+Expression of DMRT7 Proteins in Testis
+
+Our previous mRNA expression analysis suggested a possible meiotic function for Dmrt7, based on the expression of Dmrt7 mRNA in the fetal gonads of the two sexes [23]. In the fetal ovary, Dmrt7 mRNA was detected primarily from E13.5 to E15.5, the time during which meiosis progresses from pre-meiotic replication to the pachytene stage [4], whereas Dmrt7 expression in the non-meiotic fetal testis was very low. Because this earlier work did not examine adult Dmrt7 expression, we first performed reverse transcriptase (RT)-PCR on mRNA from ten adult organs and detected strong Dmrt7 mRNA expression in the testis and a trace of expression in heart, but not in any other tissue tested (Figure 1A). We examined the timing of Dmrt7 mRNA expression during postnatal testis development and detected strong expression beginning at 2 wk, which roughly coincides with the onset of the pachytene stage during the first synchronous wave of spermatogenesis (Figure 1B) [37].
+
+Figure 1
+
+Expression of Dmrt7 mRNA and Protein
+
+(A) RT-PCR analysis of Dmrt7 mRNA from ten organs of adult mouse. cDNA from each organ was amplified with primers specific for Dmrt7 (top row) and β-actin (bottom row).
+
+(B) Dmrt7 mRNA expression during the first round of spermatogenesis. cDNAs obtained from testis at the indicated days after birth were amplified as in (A).
+
+(C) DMRT7 protein expression. Immunofluorescence of testis sections from 6-wk-old male stained with antibody to DMRT7 (green) and DAPI (blue).
+
+(D) DMRT7 subcellular localization to XY body. Testis sections from 6-wk-old male stained with antibodies to DMRT7 (red) and SUMO-1 (green). SUMO-1 is localized to the XY body. Right-most panel shows merge of other two panels. Inserts show higher magnification of pachytene spermatocytes with XY bodies.
+
+To investigate DMRT7 protein expression, we generated an antibody against the C-terminal portion of the protein. The antibody was raised against a unique region lacking the DM domain in order to avoid cross-reaction with other DM domain proteins. Immunofluorescent staining with purified DMRT7 antisera showed that DMRT7 protein is expressed predominantly in mid- to late-pachytene spermatocytes (Figure 1C), as well as in sperm, and is not detectable in other germ cell types including spermatogonia and round spermatids. We did not detect DMRT7 protein in somatic cells such as Sertoli cells, peritubular myoid cells, or Leydig cells. To more precisely determine the pachytene stages of DMRT7 expression, we double-stained with an antibody to GATA1, which is expressed in Sertoli cells from stages VII to IX [38]. This confirmed that DMRT7 is expressed in mid- to late-pachytene spermatocytes, starting slightly earlier than stage VII and extending through stage IX (unpublished data).
+
+Within pachytene spermatocytes, DMRT7 is concentrated in the XY body, or sex body, a densely staining chromatin domain that harbors the sex chromosomes. These undergo transcriptional inactivation and heterochromatinization as a result of their incomplete pairing during prophase of mammalian male meiosis [17]. To verify DMRT7 protein expression in the XY body, we double-stained mouse testis sections for DMRT7 and small ubiquitin-related modifier 1 (SUMO-1), which is concentrated in the XY body during pachynema [39,40]. DMRT7 and SUMO-1 were colocalized, confirming that DMRT7 protein is preferentially localized to the XY body (Figure 1D). We also confirmed XY body localization of DMRT7 by double staining for other markers including Ub-H2A and γH2AX (unpublished data). DMRT7 is not preferentially localized to the XY body at all stages but instead is dynamic. Based on epithelial staging, it appears that DMRT7 localizes to the XY body from mid- to late-pachynema, becomes diffusely distributed in late-pachynema, and disappears in diplonema (unpublished data). This localization was confirmed by staining of meiotic spreads (Figure S1). DMRT7 also is specifically localized in sperm, with antibody staining mainly in the perinuclear ring of the sperm head manchette. This staining coincided with the epithelial stages in which DMRT7 localizes to the XY body in spermatocytes (Figure 1C and 1D).
+
+Targeted Deletion of Dmrt7
+
+To establish the functional requirement for Dmrt7, we generated Dmrt7−/− mice by targeted disruption in embryonic stem (ES) cells using a strategy diagrammed in Figure S2A. The Dmrt7 gene has nine exons with the DM domain encoded by the second and third exons. Because the DM domain is essential for function of other genes, including mab-3, mab-23, and dsx [18,19,41], we generated a conditionally targeted “floxed” allele in which the DM domain–containing exons of Dmrt7 are flanked by recognition sites for the Cre recombinase (loxP sites). The targeting vector also contained a neomycin resistance cassette (neo) flanked by Flpe recognition sites. The removal of these sequences by Cre-mediated recombination eliminates the DM domain and the translational start site, thus generating a putative null allele. We identified three homologously targeted ES cell clones by Southern blotting (Figure S2B) and injected cells from two clones into C57BL/6 blastocysts. Chimeric animals from both cell lines transmitted the targeted allele through the germ line. Targeted animals were bred to β-actin Cre mice to delete the DM domain–encoding exons, generating the Dmrt7− allele, or to Flpe transgenic mice to delete the neo cassette, generating the Dmrt7flox allele. Dmrt7+/− mice were interbred to generate Dmrt7−/− mice. To confirm the lack of functional DMRT7 protein in Dmrt7−/−testes, we stained meiotic spreads from Dmrt7 mutants (Figure S1) and sections from mutant testes (Figure S2C) and carried out western blot analysis (unpublished data). In each case, we detected no DMRT7 protein in the mutant testes.
+
+Dmrt7 Is Required for Male but Not Female Gametogenesis
+
+Breeding of Dmrt7 heterozygotes produced homozygous mutant progeny of both sexes at the expected frequency (63/264; 23%). Male and female homozygous mutants were viable, grew to adulthood normally, and exhibited normal sexual behavior. Female homozygotes were fertile, produced litters of normal size, and had no obvious ovarian abnormalities as judged by histological analysis (unpublished data). In contrast, Dmrt7 homozygous mutant males were completely infertile and had testes about one-third the weight of those of heterozygous or wild-type adult littermates (Figure 2). To determine when defective testis development begins in Dmrt7 mutants, we compared the testes of wild-type and mutant littermates during the first wave of spermatogenesis. Prior to postnatal day 14 (P14), mutant testes appeared histologically normal and the testis weights were similar to those of heterozygous and wild-type littermates, indicating that spermatogonia and early meiotic germ cells form normally (Figure 2B; unpublished data). Thereafter, the testes of the Dmrt7 mutant mice ceased to grow and the weight difference was significant. Microscopic examination of P21 and P42 Dmrt7 mutant testes revealed that germ cells arrest in pachynema, and later stages of germ cells are largely missing (Figure 2C and 2D). Dmrt7 mutant mice are deficient in postmeiotic spermatids and lack epididymal spermatozoa, although a few cells develop to the round spermatid stage. These meiotic defects are in agreement with a recent preliminary analysis of another Dmrt7 mutation [42]. While some Dmrt7 mutant tubules are highly vacuolated and contain primarily Sertoli cells and spermatogonia, others have abundant primary spermatocytes. In addition, some tubules contain multinucleated cells and cells with darkly stained nuclei that are typical of apoptotic cells (Figure 2D).
+
+Figure 2
+
+Reduced Testis Size and Germ Cell Apoptosis in Mice with Targeted Deletion in Dmrt7
+
+(A) Testes from a 6-wk-old wild-type (+/+) mouse and a homozygous (−/−) Dmrt7 mutant littermate.
+
+(B–D) Sections of testes from 14-d-old (B), 21-d-old (C), and 42-d-old mice (D) stained with hematoxylin and eosin. Wild-type is in left column and mutant in right. No significant difference is observed at 14 d (B), but by 21 d some tubules are lacking abundant spermatocytes (C, asterisk) or cells with typical apoptotic morphology are present (open arrowhead, C and D). Mutant tubules contain multinucleate cells (closed arrowhead, D).
+
+(E and F) TUNEL labeling of Dmrt7-deficient mouse testes. Testes from wild-type and homozygous mutant littermates were analyzed by TUNEL labeling to detect apoptotic cells. Testis sections from 21-d-old (E) and 6-wk-old mice (F). Apoptotic cells (brown) are much more abundant in seminiferous tubules of homozygous Dmrt7 mutant mice relative to wild-type. Bars in (B–F) represent 100 μm.
+
+Since Dmrt7 mutant testes lack most post-pachytene cells, we used TUNEL analysis to test whether the missing cells are eliminated by apoptosis. At 3 wk, Dmrt7 mutant testes contain significantly more apoptotic cells than those of wild-type controls. The percentage of tubule sections with five or more apoptotic nuclei was about three times higher in Dmrt7 mutants compared with wild-type (20% versus 7%; Figure 2E). A similar elevation of apoptosis was apparent in mutant testes at 7 wk (Figure 2F). In mutants, many apoptotic cells were in the middle of the tubules, whereas the apoptotic cells in wild-type occur mainly near the seminiferous tubule periphery. The numbers of Sertoli cells were not significantly different between wild-type and mutant testes, and we observed no difference in somatic cell apoptosis in mutants (unpublished data). From these results, we conclude that loss of Dmrt7 causes a block in meiotic progression, mainly in pachynema, leading to the elimination, by apoptosis, of the arrested cells.
+
+Pachytene Arrest of Dmrt7 Mutant Germ Cells
+
+To better define the spermatogenic stage at which Dmrt7−/− male germ cells arrest and die, we used antibodies against several stage-specific germ cell markers. TRA98 is expressed in PGCs and spermatogonia [43]. In the wild-type adult testis, strongly staining TRA98-positive cells form a layer one cell deep; however, in the mutant TRA98, strongly positive cells were abnormally organized, and some tubules had a layer several cells deep (Figure 3A). The BC7 antibody recognizes spermatocytes in the leptotene to early-pachytene stages [44]. Dmrt7 mutant testes had BC7-positive cells in approximately normal numbers, but again abnormally organized, with many positive cells in the center rather than the periphery of the tubules (Figure 3B). The TRA369 antibody recognizes a calmegin protein expressed in pachytene spermatocytes through elongated spermatids [45]. In contrast to the earlier stages, far fewer TRA369-positive cells were present in mutant testes relative to wild-type (Figure 3C). We also quantitated the number of cells at each meiotic stage using spermatocyte spreads, assaying chromosome-pairing status by staining for SYCP3, a component of the synaptonemal complex (Figure 4). We found that Dmrt7 mutants accumulate pachytene cells but have greatly reduced numbers of cells in late-pachynema and beyond. Together, these results confirm that the meiotic arrest in Dmrt7 mutants occurs primarily during pachynema and results in efficient elimination of arrested cells.
+
+Figure 3
+
+Prophase I Arrest of Dmrt7 Mutant Germ Cells
+
+Testis sections from 6-wk-old wild-type (+/+) and Dmrt7 mutant (−/−) littermates stained with stage-specific antibodies specific to spermatogenic cells.
+
+(A) TRA98 antibody strongly stains spermatogonia, which are present in wild-type and mutant.
+
+(B) BC7 antibody stains spermatocytes, which are present in wild-type and mutant.
+
+(C) TRA369 antibody stains pachytene and later germ cells, which are severely deficient in the mutant testis.
+
+Figure 4
+
+Profile of Meiotic Arrest in Dmrt7 Mutant Testis
+
+Graph of distribution of meiotic stages of germ cells from heterozygous (n = 1,970) and homozygous mutant (n = 2,084) P26 testes, spread and stained for the synaptonemal complex protein SYCP3 to permit precise staging, which was performed as described [64,65].
+
+Normal Meiotic Prophase in Dmrt7 Mutant Germ Cells
+
+Defects in chromosome pairing, synapsis, or recombination can trigger pachytene arrest and apoptosis [46]. We therefore examined these events in Dmrt7 mutant testes. To assess homolog synapsis, we used antibodies to SYCP1, a synaptonemal complex transverse element component, and SYCP3, a component of the axial element, which remains on the desynapsed axes during diplonema [47,48]. Formation of synaptonemal complexes in the mutant was indistinguishable from that in wild-type, as indicated by the proper accumulation of SYCP1 (unpublished data) and SYCP3 (Figure 5A). Likewise, the Dmrt7 mutant zygotene spermatocytes showed normal accumulation of the early recombination repair marker RAD51, suggesting that early meiotic recombination is not significantly affected (Figure 5B). Dmrt7 mutant spermatocytes exhibited the expected decline in the presence of RAD51 foci associated with the autosomal synaptonemal complexes (Figure 5B; unpublished data) [49]. The few surviving cells that progressed beyond pachynema also underwent apparently normal desynapsis during diplonema (Figure 5A). From these results, we conclude that chromosomal pairing, synapsis, recombination, and desynapsis during prophase I in Dmrt7 mutant males are grossly normal.
+
+Figure 5
+
+Normal Synapsis and Recombination in Dmrt7 Mutant Germ Cells
+
+(A) Testicular cells from Dmrt7 heterozygous (+/−) or homozygous (−/−) mutant mice were spread and stained with antibody to SYCP3 (red). The developmental stages of meiotic prophase based on SYCP3 organization are indicated in each panel. By pachynema, all autosomes are fully synapsed, and the XY bivalent is synapsed only at the pseudoautosomal region in both wild-type and mutant cells.
+
+(B) Testicular cells in zygonema and pachynema spread and stained with antibodies to RAD51 (green) and SYCP3 (red). Size and distribution of RAD51 foci are similar between wild-type and mutant spermatocytes.
+
+Abnormal Cellular Organization and the Role of Sertoli Cells
+
+Sertoli cells interact with germ cells during spermatogenesis and the interaction is critical for germ cell maturation [50]. Although we did not detect DMRT7 expression in Sertoli cells by antibody staining, we nevertheless considered the possibility that Sertoli cell defects might contribute to the male-specific germ line failure of Dmrt7 mutants. To characterize Sertoli cell differentiation, we examined expression of the Sertoli cell markers GATA4 (a marker of immature postnatal Sertoli cells) and GATA1 (a mature Sertoli cell marker). The levels of these proteins appeared normal relative to wild-type at P14 and P42 (Figure 6A–6C), as did the androgen receptor (Figure S3; unpublished data). However, the organization of Sertoli cells in Dmrt7 mutant testes was abnormal: in some tubules GATA1-positive Sertoli cell nuclei were displaced from their usual close apposition with the basement membrane (Figure 6C). In such tubules, nuclei of pre-meiotic germ cells and spermatocytes were packed close to the basal membrane and few germ cells were found in the adlumenal region.
+
+Figure 6
+
+Abnormal Sertoli Cell Organization in Dmrt7 Mutant Testes
+
+(A) Testes from P14 wild-type and Dmrt7 mutant mice were sectioned and stained with antibody to GATA4.
+
+(B) P14 testis sections stained with antibody to GATA1. At P14, GATA4 and GATA1 levels are similar in wild-type and mutant Sertoli cell.
+
+(C) Wild-type and mutant testis sections double-stained with antibody to GATA1 (red) and DAPI (blue). Most Sertoli cell nuclei were adjacent to the basal membrane in wild-type, but mutant Sertoli cells were displaced in some tubules (arrowhead). White dotted line indicates position of basal membranes.
+
+(D) Testis sections from 10-wk-old wild-type and Sertoli cell-specific Dmrt7 mutant (SC-Dmrt7KO) mice stained with hematoxylin and eosin. Spermatogenesis and spermiogenesis are normal in SC-Dmrt7KO testis.
+
+(E) Testis sections from 10-wk-old wild-type and SC-Dmrt7KO mice stained with antibodies to GATA1 (red) and smooth muscle actin (to outline seminiferous tubules; green). Sertoli cell nuclei are positioned normally near the basal membrane in SC-Dmrt7KO mice.
+
+The aberrant Sertoli cell organization in Dmrt7 mutant testes raised the possibility that the germ cell phenotype might indirectly result from defects in Sertoli cell function. To test this possibility, we deleted Dmrt7 just in the Sertoli cell lineage by crossing mice carrying the floxed Dmrt7 allele with Dhh-Cre transgenic mice [51]. The Desert hedgehog (Dhh) promoter is active starting at about E12.5 in pre-Sertoli cells but not in germ cells, allowing deletion of Dmrt7 in Sertoli cells well before any likely requirement for its function [52]. Testicular size in Sertoli-targeted (SC-Dmrt7KO) animals was slightly reduced from that of wild-type, but histological analysis revealed no obvious difference between wild-type and SC-Dmrt7KO testes (Figure 6D). Spermatogenesis appeared normal, mature sperm were present, and SC-Dmrt7KO mice were fertile. In addition, GATA1 staining showed that Sertoli cell nuclei were located adjacent to the basement membrane as in wild-type (Figure 6E). These results suggest the germ cell defects of Dmrt7 mutants are not caused by lack of Dmrt7 in Sertoli cells. Rather, the abnormal organization of Sertoli cells appears to result from lack of Dmrt7 in the germ line.
+
+XY Bodies Form Normally in Dmrt7 Mutant Cells
+
+The data presented so far indicate that Dmrt7 mutant germ cells undergo apparently normal early meiosis and then arrest during pachynema due to a strict requirement for Dmrt7 in the germ line. To better understand the basis of the meiotic arrest, we more closely examined meiotic germ cells in the mutant. We focused on the XY body, which is thought to be essential for meiotic progression and is the site of preferential DMRT7 localization. Condensation of the X and Y chromosomes begins in late-zygotene cells, and, by mid-pachynema (when homologous chromosome pairs are fully aligned) the sex chromatin forms a microscopically visible spherical structure near the nuclear periphery [53].
+
+We first asked whether DMRT7 is required for XY body formation by evaluating several characteristic XY body chromatin features. First, we tested γH2AX expression by immunofluorescent staining. H2AX is a variant of H2A that is crucial for XY body formation and MSCI [12]. γH2AX localized normally to the XY body of DMRT7 mutant cells in meiotic spreads (Figure 7A), and many γH2AX-positive puncta were present in germ cells of Dmrt7 mutant testes (Figure 7B). Next, we examined SUMO-1 localization in the mutant testis. SUMO-1 expression normally increases in the XY body of early- to mid-pachytene spermatocytes at the time of sex chromosome condensation. Prior to the completion of the first meiotic division, SUMO-1 disappears from the XY body as the X and Y chromosomes desynapse [40]. Punctate SUMO-1 localization was present in Dmrt7 mutant germ cells, again consistent with formation of a correctly marked XY body (Figure 7C). However, some tubules in mutants had multiple layers of cells with SUMO-1-condensed spots (Figure 7C), rather than the normal single layer of cells. This accumulation of XY body–containing cells also was apparent with γH2AX staining and is consistent with a developmental arrest of mutant cells in mid- to late-pachytene. We also examined Ub-H2A localization in Dmrt7 mutant testes. In early-pachytene, Ub-H2A is concentrated in the XY body; by mid-pachytene Ub-H2A is observed throughout the entire nucleus, but it again becomes limited to the XY body in late-pachytene spermatocytes [13]. Analysis of nuclear spreads revealed that Ub-H2A localizes normally to the XY body in Dmrt7 mutants (Figure S4). Collectively, these results indicate that Dmrt7 mutant germ cells can establish an XY body with at least some of the normal chromatin marks.
+
+Figure 7
+
+XY Body Forms Normally during Pachynema in Dmrt7 Mutant Mice
+
+(A) Testicular cells spread and stained with antibodies to γH2AX (red) and SYCP3 (green). In pachytene cells, γH2AX is concentrated in the XY body both in wild-type and Dmrt7 mutant.
+
+(B) Testes from 6-wk-old mice sectioned and stained with antibody to γH2AX (red).
+
+(C) Testes from 6-wk-old mice sectioned and stained with antibody to SUMO-1 (green). Abundant pachytene cells with XY bodies are present in wild-type and mutant testes.
+
+Abnormal Sex Chromatin in Dmrt7 Mutant Germ Cells
+
+Although the XY body can form during pachynema in Dmrt7 mutants, we considered the possibility that transcriptional silencing might not be properly established. This would be consistent with the Dmrt7 phenotype: pachytene cells that escape from MSCI normally are eliminated prior to late-pachytene [17]. Recently, MSCI has been shown to continue into meiosis II and spermiogenesis, apparently mediated by a distinct chromatin compartment termed postmeiotic sex chromatin (PMSC) that is established starting in diplonema [16]. We therefore asked whether the pachytene germ cell death in Dmrt7 mutants is associated with a failure either to initiate or to maintain sex chromosome inactivation.
+
+First, we examined the mid-pachytene XY body. To examine XY transcriptional status, we carried out Cot-1 RNA fluorescence in situ hybridization (FISH) to detect nascent RNA polymerase II transcription, combined with DAPI staining to locate the XY body on spreads of seminiferous tubules (Figure 8A and 8B). In Dmrt7 mutants, the XY body was formed and excluded Cot-1 hybridization (Figure 8B), indicating that transcriptional silencing is established normally in mutant pachytene cells. We also examined expression of the Y-linked gene Rbmy, which normally is inactivated during pachytene and reactivated after secondary meiosis begins [54,55]. Rbmy was inactivated normally in pachytene cells of Dmrt7 mutants, based on immunofluorescent staining with an anti-RBMY antibody (Figure S5). We also examined heterochromatin protein 1 beta (HP1β), which normally localizes to the X centromere at mid-pachynema and then spreads through the XY body as it internalizes during diplonema [56]. We found that HP1β localization is normal in DMRT7 mutant cells in mid-pachynema (Figure 8C and 8D). These results suggest that XY body formation and initiation of MSCI both occur normally in Dmrt7 mutant germ cells.
+
+Figure 8
+
+Chromatin Abnormalities in Dmrt7 Mutant Diplotene Germ Cells
+
+(A and B) MSCI occurs normally in mid-pachytene spermatocyte of Dmrt7 mutant. Arrows indicate XY body in all panels. Cot-1 RNA FISH (red) reveals normal silencing of sex chromosome transcription in XY body. This is consistent with wild-type mid-pachynema as described previously [16].
+
+(C and D) HP1β localization in mid-pachytene spermatocytes. HP1β localizes to X chromosome centromere (arrowhead) in wild-type (C) and mutant (D).
+
+(E and F) Cot-1 hybridization in diplotene. Presumptive XY body, based on DAPI and γH2AX localization, is indicated by arrow in (F).
+
+(G and H) HP1β in diplotene. Wild-type cell (E) has HP1β throughout XY body, whereas mutant cell (H) only has localization to X chromosome centromere (arrowhead).
+
+(I and J) H3-2meK9 localization in diplotene cells. Mutant cell (J) lacks strong concentration of this mark to the XY body seen in wild-type (I).
+
+(K and L) H3-3meK9 localization in diplotene cells. Mutant cell (L) has no localization of this mark to the XY body. γH2AX localizes to autosomes in mutant cell, possibly indicating onset of apoptosis.
+
+(M) Example of mutant diplotene cell with normal HP1β accumulation to the XY body.
+
+All images except those in (M) are single Z sections.
+
+We next considered the possibility that sex chromatin is established normally but is not properly modified as cells exit pachynema and begin to form PMSC. Although most Dmrt7 mutant cells are eliminated by apoptosis prior to diplonema, we were able to examine epigenetic markers of PMSC in rare Dmrt7 mutant spermatocytes that escaped pachytene arrest and progressed into diplonema. First, we examined nascent transcription by Cot-1 hybridization. Although heterochromatic regions generally showed lower Cot-1 signal than euchromatic regions (Figure 8E and 8F), in some mutant cells the sex chromatin appeared to be incompletely silenced relative to wild-type (Figure 8F). We also examined three epigenetic signatures of PMSC: histone H3 dimethylated or trimethylated at lysine-9 (H3-2meK9, H3-3meK9) and spreading of HP1β through the XY body [16,57,58] (S. H. Namekawa, unpublished data). We observed defects in sex chromatin localization of all three markers in Dmrt7 diplotene cells. Although HP1β localization to the X chromosome centromere initially appeared normal at mid-pachynema, we observed Dmrt7 mutant diplotene cells that failed to show spreading of HP1β to the entire XY body (Figure 8G and 8H). Similarly, we found Dmrt7 mutant diplotene cells lacking accumulation of H3-2meK9 and H3-3meK9 marks onto the sex chromatin (Figure 8I–8L).
+
+Not all Dmrt7 mutant diplotene cells showed abnormal localization of HP1β to the sex chromatin (Figure 8M). In one experiment, 11/27 mutant cells in diplonema lacked HP1β on the XY body, as compared with 2/22 wild-type cells. We hypothesize that the mutant cells with normal HP1β may be those that can complete meiosis (Figures 4 and 5). Some of the mutant diplotene cells showing abnormal sex chromatin also had abnormal autosomal γH2AX staining (Figure 8L). γH2AX localizes to double-strand DNA breaks, so this staining may indicate that some diplotene mutant cells are approaching or entering apoptosis [59]. We did not observe sex chromatin defects prior to diplonema, but we cannot exclude the possibility that earlier defects exist and the affected cells are rapidly eliminated.
+
+In the preceding experiments, we staged cells based on XY body internalization. Because this process could be abnormal in the mutant cells, we also staged mutant cells by chromosome morphology using an antibody to SYCP3 (Figure 9). This independently identified Dmrt7 mutant diplotene cells lacking HP1β accumulation in the XY body, such as the example in Figure 9B. From these results, we conclude that Dmrt7 mutant cells establish a normal XY body in mid-pachynema, but then have multiple epigenetic defects in the sex chromatin transition from pachynema to diplonema.
+
+Figure 9
+
+Abnormal Sex Chromatin in Cells Staged by Chromosome Pairing Status
+
+(A) Spread of wild-type germ cell stained with DAPI, anti-SYCP3, and anti-HP1β showing chromosome morphology typical of diplonema and internalized XY body with HP1β accumulation.
+
+(B) Spread of Dmrt7 mutant germ cell showing normal diplotene chromosome morphology and internalized XY body, but no HP1β accumulation in the XY body.
+
+XY chromosome pairs are indicated by arrow.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50210" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9626" end="9632" />
+    <spannedText>Dmrt7,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50212" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9660" end="9665" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50214" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9734" end="9739" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50216" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="9895" end="9900" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50218" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10006" end="10011" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50220" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10124" end="10129" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50222" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10270" end="10275" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50224" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10512" end="11334" />
+    <spannedText>Figure 1
+
+Expression of Dmrt7 mRNA and Protein
+
+(A) RT-PCR analysis of Dmrt7 mRNA from ten organs of adult mouse. cDNA from each organ was amplified with primers specific for Dmrt7 (top row) and β-actin (bottom row).
+
+(B) Dmrt7 mRNA expression during the first round of spermatogenesis. cDNAs obtained from testis at the indicated days after birth were amplified as in (A).
+
+(C) DMRT7 protein expression. Immunofluorescence of testis sections from 6-wk-old male stained with antibody to DMRT7 (green) and DAPI (blue).
+
+(D) DMRT7 subcellular localization to XY body. Testis sections from 6-wk-old male stained with antibodies to DMRT7 (red) and SUMO-1 (green). SUMO-1 is localized to the XY body. Right-most panel shows merge of other two panels. Inserts show higher magnification of pachytene spermatocytes with XY bodies.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50227" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10536" end="10541" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50229" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10583" end="10588" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50231" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10687" end="10692" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50233" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10709" end="10714" />
+    <spannedText>actin</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50235" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="10734" end="10739" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50237" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13751" end="13756" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50239" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13802" end="13808" />
+    <spannedText>Dmrt7,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50241" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13822" end="13827" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50243" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13827" end="13830" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50245" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="13935" end="13940" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50247" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14093" end="14107" />
+    <spannedText>mab-3, mab-23,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50249" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14112" end="14115" />
+    <spannedText>dsx</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50251" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14225" end="14230" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50253" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14289" end="14293" />
+    <spannedText>loxP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50255" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14369" end="14374" />
+    <spannedText>(neo)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50257" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14846" end="14856" />
+    <spannedText>-actin Cre</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50259" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14917" end="14923" />
+    <spannedText>Dmrt7−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50261" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14922" end="14923" />
+    <spannedText>−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50263" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14938" end="14942" />
+    <spannedText>Flpe</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50265" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="14973" end="14976" />
+    <spannedText>neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50267" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15002" end="15011" />
+    <spannedText>Dmrt7flox</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50269" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15007" end="15011" />
+    <spannedText>flox</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50271" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15020" end="15028" />
+    <spannedText>Dmrt7+/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50273" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15025" end="15028" />
+    <spannedText>+/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50275" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15061" end="15069" />
+    <spannedText>Dmrt7−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50277" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15066" end="15069" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50279" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15127" end="15135" />
+    <spannedText>Dmrt7−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50281" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15132" end="15135" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50283" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15175" end="15180" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50285" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15370" end="15375" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50287" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15439" end="15444" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50289" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="15838" end="15843" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50291" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16061" end="16066" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50293" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16477" end="16482" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50295" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16592" end="16597" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50297" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16729" end="16734" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50299" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16964" end="16969" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50301" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="16996" end="17001" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50303" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17280" end="18299" />
+    <spannedText>Figure 2
+
+Reduced Testis Size and Germ Cell Apoptosis in Mice with Targeted Deletion in Dmrt7
+
+(A) Testes from a 6-wk-old wild-type (+/+) mouse and a homozygous (−/−) Dmrt7 mutant littermate.
+
+(B–D) Sections of testes from 14-d-old (B), 21-d-old (C), and 42-d-old mice (D) stained with hematoxylin and eosin. Wild-type is in left column and mutant in right. No significant difference is observed at 14 d (B), but by 21 d some tubules are lacking abundant spermatocytes (C, asterisk) or cells with typical apoptotic morphology are present (open arrowhead, C and D). Mutant tubules contain multinucleate cells (closed arrowhead, D).
+
+(E and F) TUNEL labeling of Dmrt7-deficient mouse testes. Testes from wild-type and homozygous mutant littermates were analyzed by TUNEL labeling to detect apoptotic cells. Testis sections from 21-d-old (E) and 6-wk-old mice (F). Apoptotic cells (brown) are much more abundant in seminiferous tubules of homozygous Dmrt7 mutant mice relative to wild-type. Bars in (B–F) represent 100 μm.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50306" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17368" end="17373" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50308" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17447" end="17452" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50310" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="17940" end="17945" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50312" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18227" end="18232" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50314" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18307" end="18312" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50316" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18454" end="18459" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50318" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="18652" end="18657" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50320" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19195" end="19200" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50322" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19347" end="19352" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50324" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19422" end="19430" />
+    <spannedText>Dmrt7−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50326" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19427" end="19430" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50328" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="19914" end="19919" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50330" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20583" end="20588" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50332" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20755" end="20760" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50334" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20860" end="21356" />
+    <spannedText>Figure 3
+
+Prophase I Arrest of Dmrt7 Mutant Germ Cells
+
+Testis sections from 6-wk-old wild-type (+/+) and Dmrt7 mutant (−/−) littermates stained with stage-specific antibodies specific to spermatogenic cells.
+
+(A) TRA98 antibody strongly stains spermatogonia, which are present in wild-type and mutant.
+
+(B) BC7 antibody stains spermatocytes, which are present in wild-type and mutant.
+
+(C) TRA369 antibody stains pachytene and later germ cells, which are severely deficient in the mutant testis.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50337" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20891" end="20896" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50339" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="20966" end="20971" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50341" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21358" end="21678" />
+    <spannedText>Figure 4
+
+Profile of Meiotic Arrest in Dmrt7 Mutant Testis
+
+Graph of distribution of meiotic stages of germ cells from heterozygous (n = 1,970) and homozygous mutant (n = 2,084) P26 testes, spread and stained for the synaptonemal complex protein SYCP3 to permit precise staging, which was performed as described [64,65].</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50344" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21397" end="21402" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50346" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21491" end="21492" />
+    <spannedText>n</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50348" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21525" end="21526" />
+    <spannedText>n</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50350" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21707" end="21712" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50352" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="21877" end="21882" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50354" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22317" end="22322" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50356" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22515" end="22520" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50358" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22942" end="22947" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50360" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="22982" end="23652" />
+    <spannedText>Figure 5
+
+Normal Synapsis and Recombination in Dmrt7 Mutant Germ Cells
+
+(A) Testicular cells from Dmrt7 heterozygous (+/−) or homozygous (−/−) mutant mice were spread and stained with antibody to SYCP3 (red). The developmental stages of meiotic prophase based on SYCP3 organization are indicated in each panel. By pachynema, all autosomes are fully synapsed, and the XY bivalent is synapsed only at the pseudoautosomal region in both wild-type and mutant cells.
+
+(B) Testicular cells in zygonema and pachynema spread and stained with antibodies to RAD51 (green) and SYCP3 (red). Size and distribution of RAD51 foci are similar between wild-type and mutant spermatocytes.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50363" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23029" end="23034" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50365" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="23080" end="23085" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50367" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24052" end="24057" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50369" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24463" end="24468" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50371" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24801" end="25880" />
+    <spannedText>Figure 6
+
+Abnormal Sertoli Cell Organization in Dmrt7 Mutant Testes
+
+(A) Testes from P14 wild-type and Dmrt7 mutant mice were sectioned and stained with antibody to GATA4.
+
+(B) P14 testis sections stained with antibody to GATA1. At P14, GATA4 and GATA1 levels are similar in wild-type and mutant Sertoli cell.
+
+(C) Wild-type and mutant testis sections double-stained with antibody to GATA1 (red) and DAPI (blue). Most Sertoli cell nuclei were adjacent to the basal membrane in wild-type, but mutant Sertoli cells were displaced in some tubules (arrowhead). White dotted line indicates position of basal membranes.
+
+(D) Testis sections from 10-wk-old wild-type and Sertoli cell-specific Dmrt7 mutant (SC-Dmrt7KO) mice stained with hematoxylin and eosin. Spermatogenesis and spermiogenesis are normal in SC-Dmrt7KO testis.
+
+(E) Testis sections from 10-wk-old wild-type and SC-Dmrt7KO mice stained with antibodies to GATA1 (red) and smooth muscle actin (to outline seminiferous tubules; green). Sertoli cell nuclei are positioned normally near the basal membrane in SC-Dmrt7KO mice.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50374" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24849" end="24854" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50376" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="24904" end="24909" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50378" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25487" end="25492" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50380" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25500" end="25512" />
+    <spannedText>(SC-Dmrt7KO)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50382" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25603" end="25613" />
+    <spannedText>SC-Dmrt7KO</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50384" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25672" end="25682" />
+    <spannedText>SC-Dmrt7KO</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50386" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25864" end="25874" />
+    <spannedText>SC-Dmrt7KO</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50388" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="25924" end="25929" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50390" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26096" end="26101" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50392" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26172" end="26177" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50394" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26190" end="26197" />
+    <spannedText>Dhh-Cre</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50396" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26224" end="26245" />
+    <spannedText>Desert hedgehog (Dhh)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50398" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26354" end="26359" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50400" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26471" end="26483" />
+    <spannedText>(SC-Dmrt7KO)</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50402" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26616" end="26626" />
+    <spannedText>SC-Dmrt7KO</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50404" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26711" end="26721" />
+    <spannedText>SC-Dmrt7KO</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50406" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26924" end="26929" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50408" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="26964" end="26969" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50410" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27070" end="27075" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50412" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27122" end="27127" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50414" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27182" end="27187" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50416" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="27311" end="27316" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50418" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28260" end="28265" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50420" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="28667" end="28672" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50422" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29129" end="29134" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50424" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29444" end="29449" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50426" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29513" end="29518" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50428" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29613" end="30120" />
+    <spannedText>Figure 7
+
+XY Body Forms Normally during Pachynema in Dmrt7 Mutant Mice
+
+(A) Testicular cells spread and stained with antibodies to γH2AX (red) and SYCP3 (green). In pachytene cells, γH2AX is concentrated in the XY body both in wild-type and Dmrt7 mutant.
+
+(B) Testes from 6-wk-old mice sectioned and stained with antibody to γH2AX (red).
+
+(C) Testes from 6-wk-old mice sectioned and stained with antibody to SUMO-1 (green). Abundant pachytene cells with XY bodies are present in wild-type and mutant testes.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50431" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29666" end="29671" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50433" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="29854" end="29859" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50435" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30148" end="30153" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50437" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30223" end="30228" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50439" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30368" end="30373" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50441" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="30759" end="30764" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50443" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31176" end="31181" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50445" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31402" end="31407" />
+    <spannedText>Rbmy,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50447" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31511" end="31515" />
+    <spannedText>Rbmy</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50449" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="31563" end="31568" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50451" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32043" end="32048" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50453" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32069" end="33360" />
+    <spannedText>Figure 8
+
+Chromatin Abnormalities in Dmrt7 Mutant Diplotene Germ Cells
+
+(A and B) MSCI occurs normally in mid-pachytene spermatocyte of Dmrt7 mutant. Arrows indicate XY body in all panels. Cot-1 RNA FISH (red) reveals normal silencing of sex chromosome transcription in XY body. This is consistent with wild-type mid-pachynema as described previously [16].
+
+(C and D) HP1β localization in mid-pachytene spermatocytes. HP1β localizes to X chromosome centromere (arrowhead) in wild-type (C) and mutant (D).
+
+(E and F) Cot-1 hybridization in diplotene. Presumptive XY body, based on DAPI and γH2AX localization, is indicated by arrow in (F).
+
+(G and H) HP1β in diplotene. Wild-type cell (E) has HP1β throughout XY body, whereas mutant cell (H) only has localization to X chromosome centromere (arrowhead).
+
+(I and J) H3-2meK9 localization in diplotene cells. Mutant cell (J) lacks strong concentration of this mark to the XY body seen in wild-type (I).
+
+(K and L) H3-3meK9 localization in diplotene cells. Mutant cell (L) has no localization of this mark to the XY body. γH2AX localizes to autosomes in mutant cell, possibly indicating onset of apoptosis.
+
+(M) Example of mutant diplotene cell with normal HP1β accumulation to the XY body.
+
+All images except those in (M) are single Z sections.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50456" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32106" end="32111" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50458" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="32205" end="32210" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50460" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33531" end="33536" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50462" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="33657" end="33662" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50464" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34326" end="34331" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50466" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34463" end="34468" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50468" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34592" end="34597" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50470" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="34721" end="34726" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50472" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35761" end="35766" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50474" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="35903" end="35908" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50476" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36071" end="36525" />
+    <spannedText>Figure 9
+
+Abnormal Sex Chromatin in Cells Staged by Chromosome Pairing Status
+
+(A) Spread of wild-type germ cell stained with DAPI, anti-SYCP3, and anti-HP1β showing chromosome morphology typical of diplonema and internalized XY body with HP1β accumulation.
+
+(B) Spread of Dmrt7 mutant germ cell showing normal diplotene chromosome morphology and internalized XY body, but no HP1β accumulation in the XY body.
+
+XY chromosome pairs are indicated by arrow.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50479" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36344" end="36349" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50481" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="36527" end="44210" />
+    <spannedText>Discussion
+
+In this study, we find that the DM domain protein DMRT7 is required for male germ cells to complete meiotic prophase but is dispensable in the female germ line. In males, DMRT7 expression is highest in pachytene spermatocytes, and the protein preferentially localizes to the XY body. Consistent with this expression, we found that most mutant male germ cells arrest in pachynema and undergo apoptosis, although a small proportion can progress to diplonema and sometimes beyond. Examination of chromatin and nascent transcription in mutant cells that progressed to diplonema revealed sex chromatin abnormalities, as discussed below.
+
+The pachytene stage of prophase involves tremendous chromosomal changes as the homologs align, synapse, and recombine. During this period, at least one pachytene surveillance system exists to monitor key events of meiotic progression. Cells in which any of these events is anomalous are efficiently eliminated by apoptosis [46]. Another key event of pachynema in male mammals is the packaging of the sex chromosomes into the XY body and the establishment of MSCI. Examination of male meiosis in XYY mice and mice carrying a sex-chromosome-to-autosome translocation showed that cells in which a sex chromosome escapes MSCI are eliminated prior to late-pachynema [17]. This indicates that the establishment of MSCI also is subject to surveillance.
+
+Since the arrest and apoptosis of Dmrt7 mutant spermatocytes could result from perturbation of any of the critical pachytene events mentioned above, we tested whether they occur abnormally in the mutant cells. We found that chromosomal synapsis and recombination appear normal in Dmrt7 mutant cells. We therefore focused on the XY body, the most prominent site of DMRT7 accumulation. First, we tested whether the XY body forms and MSCI is established in Dmrt7 mutant cells. Surprisingly, we found that these cells form an XY body with normal morphology and proper accumulation of all the chromatin marks we examined. Moreover, Cot-1 hybridization and analysis of RBMY expression demonstrated that MSCI initiates normally in the XY body of mid-pachytene Dmrt7 mutant cells.
+
+We did, however, observe three specific defects in the sex chromatin of Dmrt7 mutant germ cells that avoided arrest in pachynema and were able to enter diplonema. Normally cells accumulate H3-2meK9 and H3-3meK9 marks and HP1β protein on the sex chromatin as they progress to diplonema, but we observed mutant diplotene cells lacking these features. Thus, although a minority of Dmrt7 mutant germ cells can progress from pachynema to diplonema, there are defects in sex chromatin modification during the transition. A function in male sex chromatin can reconcile the findings that DMRT7 is required for meiosis, but only in males, and is present only in mammals. A proportion of mutant diplotene cells have apparently normal sex chromatin (for example, Figure 8M); these are likely to be the cells that can progress beyond diplonema.
+
+Because most Dmrt7 mutant germ cells are eliminated by apoptosis around the time at which we observed sex chromatin defects, a simple model is that the apoptosis is a consequence of the sex chromatin defects. The reciprocal situation (sex chromatin defects caused by apoptosis) is possible, but seems unlikely, because we observed mutant cells with sex chromatin defects but no indications of apoptosis. Alternatively, apoptosis and abnormal sex chromatin may be two independent consequences of Dmrt7 loss. This question cannot be answered definitively until we know the detailed molecular mechanism of DMRT7.
+
+A number of other proteins have been identified that interact with the XY body, including histone variants and modified histones, a testis-specific histone methyl transferase, chromobox proteins, an orphan receptor germ-cell nuclear factor, and recombination-related proteins [60]. A common feature of these proteins is involvement with heterochromatin and/or transcriptional repression. DMRT7 is unusual among XY body proteins in being related to highly site-specific transcriptional regulators. An attractive speculation is that DMRT7 may provide sequence specificity in recruiting other proteins, such as chromatin modifiers, to the XY body as part of the transition to PMSC. Chromatin regulation may be a common mechanism for DM domain proteins, as we find that other DM domain proteins associate with chromatin modifying complexes (M. W. Murphy, D. Zarkower, and V. J. Bardwell, unpublished data).
+
+The finding that Dmrt7 is essential for mammalian meiosis expands the known functions of this gene family. Invertebrate DM domain genes so far have only been found to function in somatic cells. Two other DM domain genes, Dmrt1 and Dmrt4, do affect germ cell development in the mouse. Dmrt1 is required in pre-meiotic male germ cells for differentiation of gonocytes into spermatogonia, as well as in Sertoli cells, but it is not expressed in meiotic cells [31] (S. Kim and D. Zarkower, unpublished data). The requirement for DMRT1 in pre-meiotic germ cells and DMRT7 in meiotic germ cells demonstrates that DM domain proteins act at multiple critical points of male germ cell development. Ovaries of Dmrt4 mutant females have polyovular follicles (follicles containing multiple oocytes), but it is unknown whether this reflects a defect in the germ line or the soma. It is notable that at least three mammalian DM domain genes affect gonadal development only in one sex, given the similar roles of related proteins in directing sex-specific somatic development in other phyla.
+
+Strikingly, Dmrt7 is present, not only in placental mammals, but also in marsupials and a monotreme (egg-laying mammal), the platypus, which has a clear Dmrt7 ortholog [36]. However, no close Dmrt7 ortholog has been reported in nonmammalian vertebrates, and our database searches did not reveal one. Thus, Dmrt7 likely arose, presumably by duplication and divergence of another Dmrt gene, shortly before or coincident with the mammalian radiation. Monotremes have five X and five Y chromosomes, which form an extended pairing chain during meiosis and appear unrelated to the sex chromosomes of the other mammals [61]. The presence of Dmrt7 in both lineages may support a common origin for either the sex chromosomes or the sex chromatin of monotremes and other mammals. A plausible model is that Dmrt7 evolved during the establishment of mammalian sex determination to help cope with ancestral differences in gene dosage, chromosome pairing, recombination, or other meiotic issues arising from sex chromosome heteromorphy. In this regard, we speculate that the recruitment of Dmrt7 during mammalian evolution may be analogous to the recruitment of chromatin regulatory complexes to achieve somatic dosage compensation during evolution of heteromorphic sex chromosomes in several phyla (reviewed in [62]). It will be of interest to determine whether DMRT7 localizes to sex chromosomes during monotreme meiosis.
+
+In summary, we have found that the mammal-specific DM domain protein DMRT7 is essential for meiotic prophase progression in males. DMRT7 localizes to the sex chromosomes after they are assembled into specialized heterochromatin, and many Dmrt7 mutant cells have epigenetic defects in the modification of the sex chromatin between pachytene and diplotene. Although Dmrt7 belongs to an ancient and conserved gene family, it is found only in mammals, and to our knowledge DMRT7 is the only example of a mammal-specific protein that is essential for meiosis. It will be important to determine the precise mechanism by which DMRT7 affects sex chromatin regulation during male meiosis.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50484" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="37953" end="37958" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50486" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38199" end="38204" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50488" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38373" end="38378" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50490" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38672" end="38677" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50492" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="38765" end="38770" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50494" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39071" end="39076" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50496" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="39540" end="39545" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50498" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="40022" end="40027" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50500" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41059" end="41064" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50502" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41263" end="41268" />
+    <spannedText>Dmrt1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50504" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41273" end="41279" />
+    <spannedText>Dmrt4,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50506" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41326" end="41331" />
+    <spannedText>Dmrt1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50508" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="41742" end="41747" />
+    <spannedText>Dmrt4</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50510" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42132" end="42137" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50512" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42273" end="42278" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50514" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42312" end="42317" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50516" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42426" end="42431" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50518" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42498" end="42502" />
+    <spannedText>Dmrt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50520" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42754" end="42759" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50522" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="42916" end="42921" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50524" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43196" end="43201" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50526" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43769" end="43774" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50528" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="43895" end="43900" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50530" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44212" end="51085" />
+    <spannedText>Materials and Methods
+
+Generation of Dmrt7 mice.
+
+A mouse Dmrt7 cDNA fragment containing sequences from exon 8 was used to screen a mouse BAC library from the 129/SvJ strain (Stratagene, http://www.stratagene.com), and clones containing promoter sequences were isolated and sequenced to obtain Dmrt7 genomic sequence. The targeting vector pDZ169 (diagrammed in Figure S2) was constructed by the following scheme: The vector pDZ157 was used as a backbone vector [31]. 3′ to Pgk-neo and the loxP site, we inserted, as a XmaI/XmaI DNA fragment, the third intron of Dmrt7 (from 366 bp to 2,773 bp downstream of exon 3) generated by PCR. 5′ to Pgk-neo, we inserted an EcoRI/NotI PCR fragment extending from 4,107 bp to 336 bp 5′ of the Dmrt7 translational start. Finally, we inserted a loxP site and NotI site 336 bp 5′ of the Dmrt7 translational start. In the resulting vector, the second and third exons of Dmrt7 are flanked by loxP sites (floxed). The Dmrt7-containing portions of pDZ169 were completely sequenced.
+
+pDZ169 was linearized with PmeI and electroporated into CJ7 ES cells (originally derived from the 129S1 strain). Three homologous recombinants were identified from 296 G418-resistant colonies by Southern hybridization by use of a DNA probe from the sequences upstream of exon 1 to screen genomic DNA digested with EcoRI. Homologous recombination was confirmed on both ends of the targeted region by Southern hybridization. Probes for Southern hybridization were made by PCR using primers DM5S10/DM5S11 (5′ probe) and DM5PR1/DM5PR2 (3′ probe), listed below. Two targeted ES cell clones containing the floxed allele Dmrt7neo were injected into C57Bl/6 blastocysts to generate chimeras. Chimeric males were bred with C57Bl/6 females to generate heterozygotes carrying Dmrt7neo. Dmrt7+/Dmrt7neo females were bred with male β-actin-Cre transgenic mice to delete the floxed sequences and generate heterozygous Dmrt7−/+ deletion mutants, which were interbred to generate homozygous Dmrt7−/− mutants.
+
+Genotyping and RT-PCR.
+
+For genotyping, tail-clip DNA was amplified for 35 cycles. Chromosomal sex was determined by PCR with primers to the Y chromosome gene Zfy (below). The wild-type Dmrt7 allele Dmrt7+ was detected by PCR with DM5S4/DM5S5, with an annealing temperature of 60 °C. The Dmrt7flox allele was detected by PCR with DM5S5F/DM7KO7R with an annealing temperature of 62 °C. The deleted Dmrt7 allele Dmrt7− was detected with DM5S3/DM7KO7R with an annealing temperature of 62 °C. RT-PCR for Dmrt7 expression analysis was as described [23] using primers SK111/SK112 with an annealing temperature of 62 °C.
+
+Primers.
+
+DM5S3: 5′-AGAGTGGATTGAATCGGATAGCTC-3′
+
+DM5S4: 5′-AGGATCTTAGTGTCGAATGAATAC-3′
+
+DM5S5: 5′-CCCTTATCCTCCTGCATCCAGATC-3′
+
+DM5S10: 5′-CAGGCTATGGTTAGACTTGAGCAC-3′
+
+DM5S11: 5′-CATCACTCGCGGACAAAGATGCAG-3′
+
+DM5PR1: 5′-CTTCTGCTACAGCCACAGGTCTGG-3′
+
+DM5PR2: 5′-GAATTCAACTAGTATCTGTCCC-3′
+
+DM7KO7R: 5′-CGAGGATCAAGCTCAGGTCACTAGG-3′
+
+DM5S5F: 5′-GATCTGGATGCAGGAGGATAAGGG-3′
+
+ZFYF: 5′-CCTATTGCATGGACAGCAGTCTTATG-3′
+
+ZFYR: 5′-GACTAGACATGTTCTTAACATCTGTCC-3′
+
+SK111: 5′-CCCTTCTGGAAAAGAGAACATAGC-3′
+
+SK112: 5′-GCTCCAGGGGCCTGTGGCTGTAGC-3′
+
+β-actinF: 5′-TGCGTGACATCAAAGAGAAG-3′
+
+β-actinR: 5′-GATGCCACAGGATTCCATA-3′
+
+Histological analysis and TUNEL assay.
+
+Dissected testes were fixed in Bouin's fixative or phosphate-buffered formalin overnight at 4 °C, progressively dehydrated in a graded ethanol series, and embedded in paraffin wax. Sections (6 μm) were deparaffinized, rehydrated, and stained with hematoxylin and eosin. For TUNEL analyses, deparaffinized sections were treated with proteinase K for 15 min and quenched in 3.0% hydrogen peroxide in PBS for 5 min at room temperature. Subsequently, nuclear staining in apoptotic cells was detected using ApopTag kit (Chemicon, http://www.chemicon.com) according to the manufacturer's instructions.
+
+Tissue immunofluorescent staining.
+
+Slides with paraffin sections were washed in PBT (0.1% Tween 20 in PBS) and autoclaved in 10 mM citric acid (pH 6.0) to retrieve antigenicity. Slides were blocked in 5% serum (matched to the species of the secondary antibody) in PBS for 1 h at room temperature and incubated with primary antibodies overnight at 4 °C prior to detection with secondary antibodies.
+
+Antibodies.
+
+Rabbit polyclonal antibodies to DMRT7 were raised against a purified fusion protein containing glutathione-S-transferase (GST) fused to the C-terminal 279 amino acids of DMRT7. Antibodies to GST were removed by GST-affigel 10 chromatography and the antiserum was then purified by GST-DMRT7-affigel 15 chromatography. DMRT7 antibody was used at 1:200 dilution with a goat anti-rabbit secondary antibody (Molecular Probes, http://www.invitrogen.com) at 1:200 dilution. Other primary antibodies used for immunofluorescence were rat anti-GATA1 (1:200, Santa Cruz Biotechnology, http://www.scbt.com, sc-265), goat anti-GATA4 (1:200, Santa Cruz Biotechnology, sc-1237), rat anti-TRA98 (1:200, gift of H. Tanaka and Y. Nishimune), rat anti-BC7 (1:50, gift of H. Tanaka and Y. Nishimune), rat anti-TRA369 (1:200, gift of H. Tanaka and Y. Nishimune), rabbit anti-RAD51 (1:600 Calbiochem, http://www.calbiochem.com, PC130), mouse anti-GMP-1/SUMO-1 (1:200, Zymed, http://invitrogen.com, 33–2400), rabbit anti-phospho-H2AX (Ser139) (1:200, Upstate, http://www.millipore.com, 01–164), mouse anti-phospho-H2AX (1:200, Upstate, 05–636), mouse anti-SYCP3 (1:200, Abcam, http://www.abcam.com, ab12452), rabbit anti-HP1β (1:100, Abcam, ab10478), rabbit anti-H3-2meK9 (1:100, Upstate, 07–441), rabbit anti-H3-3meK9 (1:200, Upstate, 07–442), rabbit anti-AR (N-20) (1:200, Santa Cruz Biotechnology, sc-816), and mouse anti-αSMA clone 1A4 (1:800, Sigma, http://www.sigmaaldrich.com, A2547). Secondary antibodies used were goat anti-rabbit Alexa 488, goat anti-rabbit Alexa 594, goat anti-rat Alexa 594, and goat anti-mouse Alexa 488 (Molecular Probes) used at 1:250. Donkey anti-goat FITC (Jackson ImmunoResearch Laboratories, http://www.jacksonimmuno.com) and donkey anti-rabbit Texas Red (Jackson) were used at 1:50 according to the manufacturer's instructions.
+
+Meiotic chromosome spread preparations and FISH.
+
+Meiotic chromosome spread preparations were made from 3-wk-old mice, prepared as described by Reinholdt et al. [63]. For analysis of PMSC and Cot-1 RNA FISH, meiotic slides were prepared as previously described [16]. Slides containing chromosome spreads or meiotic spermatocytes were subjected to immunofluorescent staining or RNA FISH, as previously described [16,63]. For combined RNA FISH/immunostaining, we carried out RNA FISH first, followed by immunofluorescence. DNA FISH was performed using chromosome painting (Cambio, http://www.cambio.co.uk). Z-sections were captured by Zeiss Axioplan microscope (Zeiss, http://www.zeiss.com) and processed by Openlab (Improvision, http://www.improvision.com).</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50533" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44249" end="44254" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50535" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44270" end="44275" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50537" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44506" end="44511" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50539" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44685" end="44692" />
+    <spannedText>Pgk-neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50541" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44701" end="44705" />
+    <spannedText>loxP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50543" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44774" end="44779" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50545" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44851" end="44859" />
+    <spannedText>Pgk-neo,</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50547" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44943" end="44948" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50549" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="44993" end="44997" />
+    <spannedText>loxP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50551" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45034" end="45039" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50553" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45116" end="45121" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50555" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45137" end="45141" />
+    <spannedText>loxP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50557" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45162" end="45168" />
+    <spannedText>Dmrt7-</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50559" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45840" end="45848" />
+    <spannedText>Dmrt7neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50561" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45845" end="45848" />
+    <spannedText>neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50563" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45991" end="46016" />
+    <spannedText>Dmrt7neo. Dmrt7+/Dmrt7neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50565" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="45996" end="45999" />
+    <spannedText>neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50567" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46006" end="46007" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50569" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46013" end="46016" />
+    <spannedText>neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50571" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46046" end="46056" />
+    <spannedText>-actin-Cre</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50573" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46130" end="46136" />
+    <spannedText>Dmrt7−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50575" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46135" end="46136" />
+    <spannedText>−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50577" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46136" end="46138" />
+    <spannedText>/+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50579" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46201" end="46209" />
+    <spannedText>Dmrt7−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50581" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46206" end="46209" />
+    <spannedText>−/−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50583" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46379" end="46382" />
+    <spannedText>Zfy</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50585" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46406" end="46411" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50587" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46419" end="46425" />
+    <spannedText>Dmrt7+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50589" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46424" end="46425" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50591" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46508" end="46517" />
+    <spannedText>Dmrt7flox</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50593" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46513" end="46517" />
+    <spannedText>flox</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50595" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46617" end="46622" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50597" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46630" end="46636" />
+    <spannedText>Dmrt7−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50599" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46635" end="46636" />
+    <spannedText>−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50601" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="46720" end="46725" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50603" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="47363" end="47368" />
+    <spannedText>actin</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50605" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="47401" end="47406" />
+    <spannedText>actin</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50607" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51087" end="54550" />
+    <spannedText>Supporting Information
+
+Figure S1
+
+Wild-Type and Dmrt7 Mutant Meiotic Spreads
+
+Arrows indicate the location of XY body. SYCP3 antibody staining (green) shows normal synapsis of homologous chromosome synapse in Dmrt7 mutant cell. DMRT7 protein (red) is localized to the XY body in wild-type (top row) and is not detected in Dmrt7 mutant (bottom row).
+
+(726 KB JPG)
+
+Click here for additional data file.
+
+Figure S2
+
+Targeted Disruption of Dmrt7
+
+(A) Diagram of targeting strategy. Homologous recombination of the targeting vector with the wild-type Dmrt7 allele (Dmrt7+) resulted in the targeted allele Dmrtneo. This allele contains loxP sites flanking the translational start and the second and third exons (containing the DM domain, gray), as well as a neomycine-resistance cassette flanked by Flp recombinase recognition sites (frt sites). Mice heterozygous for the Dmrt1neo allele were mated with transgenic mice expressing Cre recombinase, resulting in deletion of the sequence between the two loxP sites, including the neo cassette. The resulting deletion allele is called Dmrt7−. Mating of Dmrt7neo mice with transgenic mice expressing the Flpe recombinase excised the neo cassette, generating the Dmrt7flox allele.
+
+(B) Southern blots of targeted and wild-type ES cell clones. Genomic DNAs from ES cell clones were digested with NsiI/NotI and EcoRI. The 5′ external probe hybridizes to 14.2-kb (wild-type) and 6-kb (targeted) NsiI/NotI fragments. The 3′ probe hybridizes to 14.6-kb (wild-type) and 4.7-kb (targeted) EcoRI fragments.
+
+(C) Testis sections from adult mice. SUMO-1 (green) on XY body is detected in both wild-type (top) and Dmrt7 mutant (bottom) section. DMRT7 is detected in wild-type but not detected in Dmrt7 mutant in SUMO-1-positive cells. (Wild-type images are the same as in Figure 1D.)
+
+(3.4 MB JPG)
+
+Click here for additional data file.
+
+Figure S3
+
+Normal Androgen Receptor Expression in Dmrt7 Mutant Sertoli Cells
+
+Testis sections from adult mice stained with antibody to androgen receptor (red) and counterstained with DAPI (blue). In both wild-type (top) and mutant (bottom) testis sections, androgen receptor protein is expressed in Sertoli cell and peritubular myoid cell. Mutant testis section shows abnormal localization of Sertoli cell nuclei, which are displaced from basement membrane.
+
+AR, androgen receptor.
+
+(2.3 MB JPG)
+
+Click here for additional data file.
+
+Figure S4
+
+Ub-H2A Localization to XY Body in Dmrt7 Mutant Spermatocyte
+
+Spread pachytene spermatocytes from wild-type (top) and Dmrt7 mutant (bottom) mice, stained with antibody to Ub-H2A (green) and DAPI (blue). Arrows indicate XY body. Both wild-type and mutant pachytene cells have Ub-H2A properly localized to XY body.
+
+(722 KB JPG)
+
+Click here for additional data file.
+
+Figure S5
+
+RBMY Silencing in Dmrt7 Mutant Spermatocytes
+
+(A) SYCP3 (green) and RBMY (red) immunostaining of spread wild-type and Dmrt7 mutant testicular cells. In wild-type and mutant cells, RBMY is expressed at low levels in leptotene stage. In pachytene spermatocytes, RBMY has fallen to background levels in both wild-type and mutant.
+
+(B) SUMO-1 (green) and RBMY (red) immunostaining of adult testis sections from wild-type and Dmrt7 mutant. Pre-meiotic cells near the basal membrane express high level of RBMY whereas SUMO-1-positive pachytene cells do not express RBMY, in both wild-type and mutant, indicating proper silencing.
+
+(5.4 MB JPG)
+
+Click here for additional data file.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50610" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51136" end="51141" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50612" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51297" end="51302" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50614" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51410" end="51415" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50616" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51524" end="51529" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50618" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51634" end="51639" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50620" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51648" end="51654" />
+    <spannedText>Dmrt7+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50622" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51653" end="51654" />
+    <spannedText>+</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50624" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51688" end="51696" />
+    <spannedText>Dmrtneo.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50626" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51692" end="51695" />
+    <spannedText>neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50628" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51718" end="51722" />
+    <spannedText>loxP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50630" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51916" end="51919" />
+    <spannedText>frt</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50632" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51954" end="51962" />
+    <spannedText>Dmrt1neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50634" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="51959" end="51962" />
+    <spannedText>neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50636" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="52084" end="52088" />
+    <spannedText>loxP</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50638" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="52164" end="52171" />
+    <spannedText>Dmrt7−.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50640" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="52169" end="52170" />
+    <spannedText>−</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50642" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="52182" end="52190" />
+    <spannedText>Dmrt7neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50644" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="52187" end="52190" />
+    <spannedText>neo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50646" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="52290" end="52299" />
+    <spannedText>Dmrt7flox</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50648" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="52295" end="52299" />
+    <spannedText>flox</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50650" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="52730" end="52735" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50652" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="52812" end="52817" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50654" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="53003" end="53008" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50656" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="53533" end="53538" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50658" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="53616" end="53621" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50660" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="53893" end="53898" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50662" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="53993" end="53998" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50664" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="54296" end="54301" />
+    <spannedText>Dmrt7</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50666" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="54552" end="55232" />
+    <spannedText>Acknowledgements
+
+We thank members of the Zarkower and Bardwell labs for many helpful discussions; Dan Camerini-Otero, John Logsdon, and Scott Hawley for insights into evolution of meiotic regulators; Hiromitsu Tanaka, Yoshitake Nishimune, and David Elliot for generously sharing antibodies; and Dies Meijer for sharing Dhh-Cre mice. We thank the University of Minnesota Mouse Genetics Laboratory for ES cell injection. Some images were obtained using the Middlebury Biology Imaging Facility, equipped in part through the National Science Foundation (Course, Curriculum, and Laboratory Improvement, 0088412). SHN is a research fellow of the Japan Society for Promotion of Science.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50669" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="54872" end="54879" />
+    <spannedText>Dhh-Cre</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50671" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="55234" end="55652" />
+    <spannedText>Abbreviations
+
+DM - Doublesex/MAB-3 domain
+
+ES - embryonic stem
+
+FISH - fluorescence in situ hybridization
+
+GST - glutathione-S-transferase
+
+HP1β - heterochromatin protein 1 beta
+
+γH2AX - phosphorylated H2AX
+
+MSCI - meiotic sex chromosome inactivation
+
+P14 - postnatal day 14
+
+PMSC - postmeiotic sex chromatin
+
+RT-PCR - reverse transcriptase-PCR
+
+SUMO-1 - small ubiquitin-related modifier 1
+
+Ub-H2A - ubiquitinated H2A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50674" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="55654" end="56309" />
+    <spannedText>Footnotes
+
+Competing interests. The authors have declared that no competing interests exist.
+
+A previous version of this article appeared as an Early Online Release on March 7, 2007 (doi:10.1371/journal.pgen.0030062.eor).
+
+Author contributions. All authors conceived and designed the experiments and analyzed the data. SK, SHN, LMN, and JOW performed the experiments. JOW contributed reagents/materials/analysis tools. SK, SHN, JOW, JTL, VJB, and DZ wrote the paper.
+
+Funding. This work was supported by the US National Institutes of Health (GM059152) and the Minnesota Medical Foundation. LMN was supported by the Bicentennial Fund of Middlebury College.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50677" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="55665" end="55685" />
+    <spannedText>Competing interests.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50679" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="55877" end="55898" />
+    <spannedText>Author contributions.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_50681" />
+    <annotator id="sections-and-typography_Instance_10000">CCP Colorado Computational Pharmacology, UC Denver</annotator>
+    <span start="56122" end="56130" />
+    <spannedText>Funding.</spannedText>
+  </annotation>
+  <classMention id="formatting_Instance_50565">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50567">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50561">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50563">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50573">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50575">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50569">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50571">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50581">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50583">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50577">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50579">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50589">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50591">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50585">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50587">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50535">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50533">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50530">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50531" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50531">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Materials and Methods" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50528">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50543">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50541">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50539">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50537">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50551">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50549">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50547">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50545">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50559">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50557">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50555">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50553">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50496">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50498">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50500">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50502">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50504">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50506">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50508">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50510">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50512">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50514">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50516">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50518">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50520">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50522">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50524">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50526">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50466">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50464">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50470">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50468">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50474">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50472">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50479">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50476">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50477" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50477">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 9" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50481">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50482" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50482">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Discussion" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50486">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50484">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50490">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50488">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50494">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50492">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50154">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50158">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50156">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50146">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50147" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50147">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="title" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50151">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50152" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50152">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="abstract" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50149">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50170">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50171" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50171">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Introduction" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50168">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50175">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50173">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50162">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50160">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50166">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50164">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50671">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50672" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50672">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Abbreviations" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50185">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50669">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50187">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50189">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50666">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50667" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50667">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Acknowledgements" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50191">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50664">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50177">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50662">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50179">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50660">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50181">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50658">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50183">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50656">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50201">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50203">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50205">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50681">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50207">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50208" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50208">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Results" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50679">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50193">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50677">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50195">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50674">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50675" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50675">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Footnotes" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50197">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50199">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50632">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50634">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50636">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50638">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50624">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50626">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50628">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50630">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50648">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50650">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50652">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50654">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50640">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50642">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50644">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50646">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50603">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50601">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50607">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50608" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50608">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Supporting Information" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50605">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50595">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50593">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50599">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50597">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50618">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50616">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50622">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50620">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50610">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50614">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50612">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50326">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50324">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50322">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50320">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50334">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50335" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50335">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 3" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50332">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50330">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50328">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50310">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50308">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50306">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50318">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50316">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50314">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50312">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50293">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50295">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50289">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50291">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50301">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50303">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50304" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50304">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 2" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50297">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50299">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50277">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50279">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50273">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50275">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50285">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50287">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50281">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50283">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50259">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50257">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50263">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50261">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50267">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50265">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50271">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50269">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50243">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50241">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50247">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50245">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50251">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50249">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50255">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50253">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50224">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50225" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50225">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 1" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50227">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50229">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50231">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50233">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50235">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50237">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50239">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50210">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50212">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50214">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50216">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50218">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50220">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50222">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50462">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50460">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50458">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50456">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50453">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50454" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50454">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 8" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50451">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50449">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50447">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50445">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50443">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50441">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50439">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50437">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50435">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50433">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50428">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50429" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50429">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 7" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50431">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50424">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50426">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50420">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50422">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50416">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50418">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50412">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50414">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50408">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50410">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50404">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50406">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50400">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50402">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50394">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50392">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50398">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50396">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50386">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50384">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50390">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50388">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50378">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50376">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50382">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50380">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50371">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50372" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50372">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 6" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50369">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50374">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50360">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50361" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50361">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 5" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_50363">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50365">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50367">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50352">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50354">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50356">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50358">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50344">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50346">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50348">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50350">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50337">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50339">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_50341">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_50342" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_50342">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 4" />
+  </stringSlotMention>
+</annotations>
+
