@@ -1,976 +1,488 @@
 T0	italic 0 4	Fgf9
-#0	AnnotationNotes T0	italic
 T1	section 0 81	Fgf9 and Wnt4 Act as Antagonistic Signals to Regulate Mammalian Sex Determination
-#1	AnnotationNotes T1	section
 T2	italic 9 13	Wnt4
-#2	AnnotationNotes T2	italic
-T3	section 83 1435	Abstract
-#3	AnnotationNotes T3	section
+T3	section 83 91;92 92;93 1435	Abstract  The genes encoding members of the wingless-related MMTV integration site (WNT) and fibroblast growth factor (FGF) families coordinate growth, morphogenesis, and differentiation in many fields of cells during development. In the mouse, Fgf9 and Wnt4 are expressed in gonads of both sexes prior to sex determination. Loss of Fgf9 leads to XY sex reversal, whereas loss of Wnt4 results in partial testis development in XX gonads. However, the relationship between these signals and the male sex-determining gene, Sry, was unknown. We show through gain- and loss-of-function experiments that fibroblast growth factor 9 (FGF9) and WNT4 act as opposing signals to regulate sex determination. In the mouse XY gonad, Sry normally initiates a feed-forward loop between Sox9 and Fgf9, which up-regulates Fgf9 and represses Wnt4 to establish the testis pathway. Surprisingly, loss of Wnt4 in XX gonads is sufficient to up-regulate Fgf9 and Sox9 in the absence of Sry. These data suggest that the fate of the gonad is controlled by antagonism between Fgf9 and Wnt4. The role of the male sex-determining switch—Sry in the case of mammals—is to tip the balance between these underlying patterning signals. In principle, sex determination in other vertebrates may operate through any switch that introduces an imbalance between these two signaling pathways.
 T4	italic 328 332	Fgf9
-#4	AnnotationNotes T4	italic
 T5	italic 337 341	Wnt4
-#5	AnnotationNotes T5	italic
 T6	italic 416 420	Fgf9
-#6	AnnotationNotes T6	italic
 T7	italic 463 467	Wnt4
-#7	AnnotationNotes T7	italic
 T8	italic 603 607	Sry,
-#8	AnnotationNotes T8	italic
 T9	italic 802 805	Sry
-#9	AnnotationNotes T9	italic
 T10	italic 853 857	Sox9
-#10	AnnotationNotes T10	italic
 T11	italic 862 867	Fgf9,
-#11	AnnotationNotes T11	italic
 T12	italic 887 891	Fgf9
-#12	AnnotationNotes T12	italic
 T13	italic 906 910	Wnt4
-#13	AnnotationNotes T13	italic
 T14	italic 966 970	Wnt4
-#14	AnnotationNotes T14	italic
 T15	italic 1013 1017	Fgf9
-#15	AnnotationNotes T15	italic
 T16	italic 1022 1026	Sox9
-#16	AnnotationNotes T16	italic
 T17	italic 1045 1048	Sry
-#17	AnnotationNotes T17	italic
 T18	italic 1132 1136	Fgf9
-#18	AnnotationNotes T18	italic
 T19	italic 1141 1145	Wnt4
-#19	AnnotationNotes T19	italic
 T20	italic 1191 1194	Sry
-#20	AnnotationNotes T20	italic
-T21	section 1437 7812	Introduction
-#21	AnnotationNotes T21	section
+T21	section 1437 1449;1450 1450;1451 3202;3203 3203;3204 4140;4141 4141;4142 5511;5512 5512;5513 6561;6562 6562;6563 7812	Introduction  The development of sexually dimorphic reproductive organs is a common feature among animal species. The testis and ovary represent two divergent pathways of development from the bipotential embryonic gonad. The switch that initiates divergent development of the gonad is highly diverse among species; however, the underlying mechanisms that lead to the establishment of ovary or testis pathways are likely to be conserved. In all species, the embryonic gonad is made up of a mixed population of germ cells and somatic cells. This tissue is remarkable in that all of its cells are believed to be bipotential, and can differentiate into ovarian or testicular lineages [1,2]. Consistent with the idea that cells in this primordium are poised between two developmental pathways, some of the genes that are involved in establishing sexual dimorphism, including Dax1 (dosage-sensitive sex reversal-congenital adrenal hypoplasia critical region on the X chromosome protein 1), Sox9 (Sry-like HMG box 9), Fgf9 (fibroblast growth factor 9), and Wnt4 (wingless-related MMTV integration site 4), are initially expressed in similar patterns in XX and XY gonads [3–8]. The conventional view of mammalian sex determination is that the basic pathway of organ development is ovarian, and that the testis-determining gene operates by diverting this program toward testis development by simultaneously influencing the fate of the key supporting cell lineage and initiating a male-specific morphogenetic program. All of the experimental evidence suggests that these two processes are closely interwoven. For example, both proliferation [9] and migration of cells to trigger testis cord formation [10,11] appear to be closely integrated with Sertoli cell differentiation.  Sry, a Y chromosome-linked gene, is the primary sex-determining gene in mammals [12–14]. In the absence of Sry expression—in XX embryos, or in XY embryos carrying a deletion of Sry—cells in the gonad follow an ovarian differentiation pathway. Genetic evidence from chimeric mice [15], and expression studies using reporter transgenes [2,16], indicate that Sry expression is required only in precursors of the somatic supporting cell lineage. Expression of Sry in these bipotential cells leads to their differentiation as testis-specific Sertoli cells rather than as follicle cells, the parallel cell type of the ovary [2]. It is believed that the Sertoli cell is the first cell type to differentiate in the gonad [17]. There is substantial evidence that a critical threshold number of Sertoli cells is required to establish testis differentiation [9,15,18–20]. In cases where this threshold is not reached, ovary differentiation ensues.  Once Sry expression begins, expression patterns of other genes in the gonad begin to diverge. The first gene downstream of Sry known to show male-specific up-regulation in Sertoli cell precursors is a related gene expressed in many tissues in the developing embryo, Sox9. Disruption of Sox9 expression in the XY gonad causes male-to-female sex reversal [21,22], whereas increasing the dose of Sox9 in the XX gonad leads to testis development [23–25]. These studies indicate that Sox9 plays a central role in sex determination. Unlike Sry, which is specific to mammals, expression of Sox9 is known to be conserved in the gonad of many species. In mammals, Sox9 is up-regulated immediately after Sry expression initiates. Experiments tracing Sry-expressing cells using a stable reporter demonstrated that once testis differentiation is established, all Sertoli cells that express Sox9 are descendants of cells that have expressed Sry [16], suggesting that activation of Sox9 is a cell-autonomous effect of Sry. However, mutations in several signaling pathways including Fgf9 and Igf1r/Irr/Ir (insulin-like growth factor 1 receptor/insulin receptor-related receptor/insulin receptor) resulted in loss of Sox9 expression and partial or complete sex reversal [26,27], suggesting that extracellular signaling pathways play a significant role during primary sex determination.  Mice homozygous for a null mutation in Fgf9 display male-to-female sex reversal caused by disruption of all testis-specific cellular events, including cell proliferation, mesonephric cell migration, testis cord formation, and the differentiation of Sertoli cells [26,27]. Fgf9, like many of the founding signals in the gonads, is initially expressed in gonads of both sexes, but becomes male-specific after Sry is expressed. In a reciprocal manner, expression of Wnt4, which is also initially common to gonads of both sexes, becomes female-specific [8]. XX gonads with a null mutation in Wnt4 display some obvious aspects of testicular differentiation [28]. Based on the theory that Sertoli cells initiate all downstream testicular differentiation, this might imply that Sertoli differentiation had been initiated in Wnt4?/? XX gonads. However, expression of Sertoli cell markers was not previously detected in these mutants during fetal stages [8,29], leading to the conclusion that Wnt4 was not involved in primary sex determination in the gonad.  To integrate these findings, we investigated the genetic relationship of Sry, Sox9, Fgf9, and Wnt4 in the regulatory network that governs the gonadal field. We show that the loss of Fgf9 in homozygous mutant XY gonads does not affect the expression of SRY or the initial up-regulation of SOX9; however, SOX9 expression is not maintained in the Fgf9?/? mutant gonads, and testis differentiation is aborted. We also demonstrate that FGF9 represses the ovary-promoting gene, Wnt4. We hypothesize that FGF9 functions in a feed-forward loop to expand Sertoli precursor cells, which secrete FGF9, to a critical threshold number sufficient to suppress Wnt4. This directly or indirectly stabilizes SOX9 expression and secures the male fate of the gonad. WNT4 seems to oppose the male pathway by repressing expression of SOX9 and FGF9. Surprisingly, both male pathway genes are transiently activated in Wnt4?/? XX gonads in the absence of the Y-linked gene Sry. Based on this genetic and in vitro data, we suggest that the plasticity of the bipotential gonad is controlled by mutually antagonistic signals between FGF9 and WNT4 in the gonadal field. These signals coordinate sexually dimorphic patterns of growth, morphogenesis, and cellular differentiation.
 T22	italic 2307 2482	Dax1 (dosage-sensitive sex reversal-congenital adrenal hypoplasia critical region on the X chromosome protein 1), Sox9 (Sry-like HMG box 9), Fgf9 (fibroblast growth factor 9),
-#22	AnnotationNotes T22	italic
 T23	italic 2487 2535	Wnt4 (wingless-related MMTV integration site 4),
-#23	AnnotationNotes T23	italic
 T24	italic 3204 3208	Sry,
-#24	AnnotationNotes T24	italic
 T25	italic 3311 3314	Sry
-#25	AnnotationNotes T25	italic
 T26	italic 3381 3384	Sry
-#26	AnnotationNotes T26	italic
 T27	italic 3560 3563	Sry
-#27	AnnotationNotes T27	italic
 T28	italic 3660 3663	Sry
-#28	AnnotationNotes T28	italic
 T29	italic 4147 4150	Sry
-#29	AnnotationNotes T29	italic
 T30	italic 4265 4268	Sry
-#30	AnnotationNotes T30	italic
 T31	italic 4406 4412	, Sox9
-#31	AnnotationNotes T31	italic
 T32	italic 4428 4432	Sox9
-#32	AnnotationNotes T32	italic
 T33	italic 4535 4539	Sox9
-#33	AnnotationNotes T33	italic
 T34	italic 4621 4625	Sox9
-#34	AnnotationNotes T34	italic
 T35	italic 4676 4680	Sry,
-#35	AnnotationNotes T35	italic
 T36	italic 4725 4729	Sox9
-#36	AnnotationNotes T36	italic
 T37	italic 4797 4801	Sox9
-#37	AnnotationNotes T37	italic
 T38	italic 4836 4839	Sry
-#38	AnnotationNotes T38	italic
 T39	italic 4882 4886	Sry-
-#39	AnnotationNotes T39	italic
 T40	italic 5020 5024	Sox9
-#40	AnnotationNotes T40	italic
 T41	italic 5070 5073	Sry
-#41	AnnotationNotes T41	italic
 T42	italic 5110 5114	Sox9
-#42	AnnotationNotes T42	italic
 T43	italic 5146 5149	Sry
-#43	AnnotationNotes T43	italic
 T44	italic 5210 5214	Fgf9
-#44	AnnotationNotes T44	italic
 T45	italic 5219 5322	Igf1r/Irr/Ir (insulin-like growth factor 1 receptor/insulin receptor-related receptor/insulin receptor)
-#45	AnnotationNotes T45	italic
 T46	italic 5343 5347	Sox9
-#46	AnnotationNotes T46	italic
 T47	italic 5552 5556	Fgf9
-#47	AnnotationNotes T47	italic
 T48	italic 5785 5790	Fgf9,
-#48	AnnotationNotes T48	italic
 T49	italic 5920 5923	Sry
-#49	AnnotationNotes T49	italic
 T50	italic 5976 5981	Wnt4,
-#50	AnnotationNotes T50	italic
 T51	italic 6101 6105	Wnt4
-#51	AnnotationNotes T51	italic
 T52	italic 6330 6334	Wnt4
-#52	AnnotationNotes T52	italic
 T53	sup 6334 6337	?/?
-#53	AnnotationNotes T53	sup
 T54	italic 6497 6501	Wnt4
-#54	AnnotationNotes T54	italic
 T55	italic 6636 6652	Sry, Sox9, Fgf9,
-#55	AnnotationNotes T55	italic
 T56	italic 6657 6661	Wnt4
-#56	AnnotationNotes T56	italic
 T57	italic 6745 6749	Fgf9
-#57	AnnotationNotes T57	italic
 T58	italic 6907 6911	Fgf9
-#58	AnnotationNotes T58	italic
 T59	sup 6911 6914	?/?
-#59	AnnotationNotes T59	sup
 T60	italic 7035 7040	Wnt4.
-#60	AnnotationNotes T60	italic
 T61	italic 7208 7213	Wnt4.
-#61	AnnotationNotes T61	italic
 T62	italic 7457 7461	Wnt4
-#62	AnnotationNotes T62	italic
 T63	sup 7461 7464	?/?
-#63	AnnotationNotes T63	sup
 T64	italic 7511 7514	Sry
-#64	AnnotationNotes T64	italic
-T65	section 7814 22051	Results
-#65	AnnotationNotes T65	section
+T65	section 7814 7821;7822 7822;7823 7906;7907 7907;7908 9141;9142 9142;9143 9201;9202 9202;9203 10688;10689 10689;10690 10726;10727 10727;10728 12953;12954 12954;12955 13016;13017 13017;13018 14227;14228 14228;14229 14281;14282 14282;14283 15890;15891 15891;15892 15969;15970 15970;15971 16896;16897 16897;16898 16955;16956 16956;16957 17890;17891 17891;17892 19360;19361 19361;19362 19397;19398 19398;19399 20089;20090 20090;20091 21040;21041 21041;21042 22051	Results  Early Bipotential Expression of FGF9 Resolves to an XY-Specific Pattern by 12.5 dpc  Using an antibody specific to FGF9, we examined expression during normal gonad development. FGF9 protein was distributed throughout the 11.5 dpc gonad in both sexes (Figure 1A and 1B). However, by 12.5 dpc, FGF9 was detected only in XY gonads in two domains: in cells near the surface of gonads and in cells located within testis cords. This sex-specific expression pattern was maintained in gonads at 13.5 dpc (Figure 1C–1F). FGF9 expression within testis cords was localized to Sertoli cells and excluded from germ cells based on the germ cell membrane marker platelet/endothelial cell adhesion molecule (PECAM) (Figure 1D and 1F). To confirm this result, we examined agametic gonads from KitW/Wv compound heterozygous embryos, which develop testis cords containing Sertoli cells only. FGF9 was detectable at normal levels in testis cords in XY KitW/Wv gonads, where alkaline phosphatase staining verified the absence of germ cells (Figure 1G–1J), indicating that FGF9 is expressed by Sertoli cells, and that its expression is not dependent on the presence of germ cells. In summary, FGF9 expression was present in both XX and XY gonads at bipotential stages, and became restricted to XY gonads as testis differentiation proceeded.  Sry Expression Is Normal in Homozygous Null Fgf9 XY Gonads  The early expression of Fgf9 in bipotential gonads raised the question of whether Fgf9 is an upstream regulator of Sry. To investigate this possibility, we mated Fgf9+/? mice with a transgenic reporter line that carries an enhanced green fluorescent protein (EGFP) transgene driven by the Sry promoter Sry-EGFP. At early stages, this transgene represents the pattern of endogenous Sry expression [2]. The expression of the EGFP reporter was detected in Fgf9?/? XY gonads comparable to Fgf9+/? littermate controls (Figure 2A and 2B), suggesting that transcriptional regulation of Sry is independent of Fgf9. Sex reversal is caused not only by the loss of normal levels of Sry expression [30,31], but also by mutations disrupting SRY import into the nucleus [32]. The transgene, Sry-EGFP, does not reflect the intracellular distribution of the SRY protein. To investigate this aspect of SRY regulation, we bred Fgf9+/? mice with another Sry reporter mouse line carrying a Myc-tagged Sry transgene, SryMyc, which recapitulates the endogenous intracellular SRY expression pattern [16]. Using an antibody against c-MYC, the expression and nuclear localization of SRYMYC in SryMyc; Fgf9?/? gonads was indistinguishable from littermate controls (Figure 2C and 2D). These data using two different Sry transgenic reporter lines provide evidence that Sry expression is not dependent on Fgf9. Therefore, Fgf9 signaling must act in parallel and/or downstream of Sry to regulate testis development.  FGF9 Can Up-Regulate SOX9 Expression  In our previous study we did not observe SOX9 expression at 12.5 dpc in Fgf9?/? XY gonads that fail to develop into normal testes [26]. However, the loss of SOX9 expression at 12.5 dpc could be a consequence of the loss of Sertoli differentiation rather than a reflection of the genetic interaction between FGF9 and SOX9. Normally, Sox9 is weakly expressed in wild-type genital ridges of both XX and XY embryos at 10.5 dpc and, after the onset of Sry expression, is up-regulated in XY gonads [5,33,16]. As results indicated that Fgf9 functioned downstream of, or in parallel with Sry, we investigated whether Fgf9 was involved in the up-regulation of Sox9 expression. Primary cell culture and gonad culture systems were used to assess Sox9 activation by exogenous FGF9. For in vitro cell culture, cells were isolated from 11.5 dpc gonads free of mesonephroi, and cultured on extracellular matrix-coated coverslips with or without addition of purified FGF9 in culture media. After culture for 24 h, SOX9 expression was monitored by an antibody specific to SOX9 in XX cells and control XY cells. Exogenous FGF9 increased cell number in XX and XY cell cultures compared with cells in a duplicate culture without FGF9 treatment (unpublished data), and caused the up-regulation of SOX9 in XX cells (Figure 2E–2H). Up-regulation of SOX9 had not previously been seen in whole XX gonads cultured with exogenous FGF9 [9]. To explain the difference between experimental results from dissociated XX gonadal cells and XX gonads, we reasoned that the local concentrations of FGF9 might not be high enough to override blocking signals in the intact XX gonad, or that active FGF9 was not efficiently localized or presented in the extracellular matrix of the XX gonad. To test the local effect of FGF9, we modified the XX gonad culture by stably immobilizing FGF9, or BSA as a control, on beads (Figure 2I–2K). Under these conditions, SOX9 expression was up-regulated locally in cells near the surface of the XX gonad in contact with the FGF9 bead (Figure 2K). Taken together, these in vitro data demonstrate that ectopic FGF9 signaling can induce SOX9 expression in XX gonadal cells, suggesting a positive interaction between Fgf9 and Sox9.  Fgf9 Is Required for Maintaining SOX9 Expression in XY Gonads  To investigate whether Fgf9 is essential for the up-regulation of Sox9 in vivo, we assessed SOX9 expression in loss-of-function Fgf9+/? and Fgf9?/? XY gonads at 11.5–12.5 dpc (Figure 3A–3F). In wild-type and heterozygous mutant XY gonads at 11.5 dpc, SOX9 was detected in a small number of cells in the gonad (Figure 3A). Over the next 6 h of development, nuclear SOX9 accumulated rapidly in cells toward the cortex and the anterior and posterior poles of the gonad, replicating patterns previously reported for both Sry and Sox9 expression [2,16,34–36]. This unique pattern was also observed in Fgf9?/? XY gonads (Figure 3D and 3E). Somatic cells within Fgf9?/? gonads were positive for SOX9 at 11.5 dpc, the earliest stages examined, demonstrating that initial expression and up-regulation of SOX9 were not disrupted in Fgf9?/? mutant XY gonads prior to 12.0 dpc. Notably, in Fgf9?/? XY gonads, SOX9 was no longer detectable by 12.5 dpc, and Sertoli precursor cells never began to organize into normal testis cord structures (Figure 3F). These data indicate that although Fgf9 is not required for the up-regulation of Sox9 in vivo, it is indispensable to maintain Sox9 expression in Sertoli precursor cells.  Sox9 Is Required for Fgf9 Up-Regulation in XY Gonads  We hypothesized that if the linear relationship among the three genes were Sry ? Fgf9 ? Sox9, expression of Fgf9 would be normal in XY gonads in the absence of Sox9. Alternatively, if the relationship were Sry ? Sox9 ? Fgf9, expression of Fgf9 should be reduced or absent in XY gonads in the absence of Sox9. We examined Fgf9 expression in Sox9 homozygous mutant (Sox9?/?) XY gonads generated by crossing mice homozygous for a conditional null (flox) allele of Sox9 (Sox9flox/flox) with mice carrying germline-specific Cre transgenes, Prm1-Cre in male and Zp3-Cre in female [22,37]. The Sox9 null mutant embryos die after 11.5 dpc because of cardiovascular defects [37]. Chaboissier et al. [22] successfully cultured 11.5 dpc Sox9 null mutant gonads in vitro and detected male and female markers after 2–3 d of culture, suggesting that Sox9 mutant gonads are viable and developmentally competent at 11.5 dpc—the time point at which we collected samples to perform mRNA in situ hybridization (Figure 3G–3J). The expression of Fgf9 was significantly decreased or absent in XY Sox9?/? gonads at 11.5 dpc (Figure 3J), while Sry expression was similar to wild-type (Figure 3G and 3H), as previously reported [20], suggesting that Fgf9 expression in wild-type XY gonads is dependent on the expression of Sox9. These findings also indicate that expression of Sry is not sufficient to regulate Fgf9 in the absence of Sox9. Therefore, we conclude that Sox9 is essential for Fgf9 expression, and Fgf9, in return, maintains Sox9 expression, generating a positive feed-forward loop between these two genes in XY gonads.  Like Fgf9 Mutant Gonads, Sox9?/? XY Gonads Show Defects in Cell Proliferation  We previously reported that XY-specific cell proliferation is defective in Fgf9?/? XY gonads [7]. Because Sox9 acts as a positive regulator of Fgf9 expression, we questioned whether cell proliferation in XY gonads was also compromised by the loss of Sox9. We examined proliferation in Sox9?/? gonads at 11.5 dpc using a mitotic cell marker, phosphorylated histone H3. Proliferating cells were more abundant and concentrated in a domain near the surface of wild-type XY gonads, and this XY-specific cell proliferation was evident in XY Sox9flox/? littermate controls (Figure 3K). However, in Sox9?/? XY gonads proliferation was reduced and similar to XX gonads (Figure 3L–3O). This result supports the idea that there is a mutual interdependence between Sox9 and Fgf9 generating a positive feed-forward loop, and that both genes are required for the expansion of somatic cells, including Sertoli cell precursors, in XY gonads.  The Male Pathway Is Aborted in Fgf9?/? Sertoli Precursors  Based on the fact that Sox9 is initially expressed in Fgf9?/? gonads, we investigated whether other genes in the male pathway are activated. We examined two markers for Sertoli cell differentiation, anti-Mullerian hormone (Amh) [38] and Desert hedgehog (Dhh) [39] in Fgf9?/? XY gonads using whole-mount in situ hybridization. Dhh, which is expressed in XY wild-type and heterozygous gonads beginning at 11.5 dpc, was absent from Fgf9?/? XY gonads, although mesonephric expression was still detected (Figure 4A and 4B). Amh, which is a direct transcriptional target of SOX9 activated after 11.5 dpc [38,40], was detected at reduced levels in Fgf9?/? XY gonads at 12.5 dpc (Figure 4C–4F). The residual level of Amh suggested that the transient expression of SOX9 in Fgf9?/? gonads at 11.5 dpc was sufficient to activate Amh, a direct downstream target. However, the absence of Dhh indicated that not all Sertoli pathways are initiated.  The initial specification of Sertoli cell precursors was not affected by the loss of Fgf9, as evidenced by normal Sry and Sox9 expression in Fgf9?/? gonads at 11.5 dpc (Figures 2 and 3D). However, SOX9 expression in XY Fgf9?/? gonads rapidly disappeared (Figure 3E and 3F), and other Sertoli markers were absent or severely reduced (Figure 4A–4F). To investigate the possibility that this loss was due to cell death, we immunostained XY Fgf9?/? gonads at 12.0 dpc—a time point at which SOX9-expressing cells were declining in numbers (Figure 3E)—for active caspase-3, an apoptotic cell marker. Apoptotic cells were not observed in Fgf9?/? gonads or in littermate controls at 12.0 dpc, although Fgf9?/? samples showed somewhat increased cell death in mesonephric tubules and ducts, another site of Fgf9 expression (Figure 4G and 4H). These data suggested that the loss of SOX9 expression in Fgf9?/? XY gonads was not caused by cell death but by the disruption of FGF9/SOX9 feed-forward regulation. To determine whether the aborting of the male pathway in Fgf9?/? Sertoli precursors was associated with the transition of supporting cells from male to female differentiation, we investigated expression of Wnt4, an ovary-promoting gene. At 12.5 dpc Wnt4 was up-regulated in XY Fgf9?/? but not in XY Fgf9+/? gonad controls (Figure 4I–4K). This result suggests that Fgf9 is necessary for the down-regulation of Wnt4 in differentiating XY gonads at/after bipotential stages.  Fgf9 and Wnt4 Antagonize Each Other  Our finding that high levels of Wnt4 persist in Fgf9?/? XY gonads implies a genetic antagonism specifically between Fgf9 and Wnt4, as both SRY and SOX9 are initially expressed in Fgf9?/? XY gonads at 11.5 dpc, yet this is not sufficient to down-regulate Wnt4. To test whether exogenous FGF9 could down-regulate expression of Wnt4, we cultured the XX gonad/mesonephros complex with or without FGF9 protein, and examined Wnt4 expression by whole-mount in situ hybridization. Treatment of XX gonads with exogenous FGF9 suppressed the normal expression of Wnt4 (Figure 5A–5C), supporting the hypothesis that Fgf9, rather than Sry or Sox9, functions to down-regulate Wnt4 in wild-type XY gonads.  We reasoned that if FGF9 and WNT4 do act as opposing signals, then reduction in the dose of Wnt4 might render the XX gonad more susceptible to the male-promoting effects of exogenous FGF9. To test this possibility, XX Wnt4+/? and Wnt4+/+ gonads were cultured in medium with or without FGF9, and were examined for SOX9 expression (Figure 5D–5G). We found that FGF9 induced SOX9 up-regulation in XX Wnt4+/? gonads, but not in Wnt4+/+ XX gonads (Figure 5F and 5G). These results demonstrate antagonism between WNT4 and FGF9 under in vitro gain-of-function conditions. To test antagonism between these factors under loss-of-function conditions in vivo, we investigated whether Fgf9 is derepressed in the absence of Wnt4 (Figure 6A–6C). Using an antibody against FGF9, we found that FGF9 was expressed in Wnt4?/? XX gonads but not in Wnt4+/? XX controls (Figure 6B and 6C). This result suggested that FGF9 is normally down-regulated by WNT4 in XX gonads.  Given our finding that FGF9, a positive regulator of Sox9, is derepressed in XX Wnt4?/? gonads, we asked whether expression of SOX9 might also occur in XX Wnt4?/? gonads (Figure 6D–6L). An antibody against SOX9 revealed that expression was initially up-regulated in Wnt4?/? XX gonads at 11.5 dpc (Figure 6F and 6I), although it was rapidly down-regulated by 12.0 dpc and absent at 12.5 dpc (Figure 6I and 6L). This finding was confirmed by mRNA in situ hybridization, which also detected Sox9 transcripts in 11.5 dpc Wnt4?/? XX gonads (Figure S1). Wnt4?/? XX gonads do not increase in size comparable to normal XY gonads (Figure 6C, 6F, 6I, and 6L), and Sertoli cell differentiation and testis cord formation do not occur. Nevertheless, it is noteworthy that up-regulation of SOX9 occurs in this case in the absence of Sry, by eliminating the antagonistic effect of Wnt4 and up-regulating FGF9, supporting our hypothesis that sex determination occurs by tipping the balance between these two opposing signals.
 T66	italic 8599 8602	Kit
-#66	AnnotationNotes T66	italic
 T67	sup 8602 8606	W/Wv
-#67	AnnotationNotes T67	sup
 T68	italic 8755 8758	Kit
-#68	AnnotationNotes T68	italic
 T69	sup 8758 8762	W/Wv
-#69	AnnotationNotes T69	sup
 T70	italic 9143 9146	Sry
-#70	AnnotationNotes T70	italic
 T71	italic 9187 9191	Fgf9
-#71	AnnotationNotes T71	italic
 T72	italic 9227 9231	Fgf9
-#72	AnnotationNotes T72	italic
 T73	italic 9285 9289	Fgf9
-#73	AnnotationNotes T73	italic
 T74	italic 9318 9322	Sry.
-#74	AnnotationNotes T74	italic
 T75	italic 9365 9369	Fgf9
-#75	AnnotationNotes T75	italic
 T76	sup 9369 9372	+/?
-#76	AnnotationNotes T76	sup
 T77	italic 9492 9495	Sry
-#77	AnnotationNotes T77	italic
 T78	italic 9505 9508	Sry
-#78	AnnotationNotes T78	italic
 T79	italic 9509 9513	EGFP
-#79	AnnotationNotes T79	italic
 T80	italic 9584 9587	Sry
-#80	AnnotationNotes T80	italic
 T81	italic 9656 9660	Fgf9
-#81	AnnotationNotes T81	italic
 T82	sup 9660 9663	?/?
-#82	AnnotationNotes T82	sup
 T83	italic 9688 9692	Fgf9
-#83	AnnotationNotes T83	italic
 T84	sup 9692 9695	+/?
-#84	AnnotationNotes T84	sup
 T85	italic 9782 9785	Sry
-#85	AnnotationNotes T85	italic
 T86	italic 9804 9808	Fgf9
-#86	AnnotationNotes T86	italic
 T87	italic 9874 9877	Sry
-#87	AnnotationNotes T87	italic
 T88	italic 9896 9897	,
-#88	AnnotationNotes T88	italic
 T89	italic 9980 9989	Sry-EGFP,
-#89	AnnotationNotes T89	italic
 T90	italic 10112 10116	Fgf9
-#90	AnnotationNotes T90	italic
 T91	sup 10116 10119	+/?
-#91	AnnotationNotes T91	sup
 T92	italic 10138 10141	Sry
-#92	AnnotationNotes T92	italic
 T93	italic 10173 10176	Myc
-#93	AnnotationNotes T93	italic
 T94	italic 10184 10187	Sry
-#94	AnnotationNotes T94	italic
 T95	italic 10199 10202	Sry
-#95	AnnotationNotes T95	italic
 T96	sup 10202 10205	Myc
-#96	AnnotationNotes T96	sup
 T97	sup 10364 10367	MYC
-#97	AnnotationNotes T97	sup
 T98	italic 10371 10374	Sry
-#98	AnnotationNotes T98	italic
 T99	sup 10374 10377	Myc
-#99	AnnotationNotes T99	sup
 T100	italic 10379 10383	Fgf9
-#100	AnnotationNotes T100	italic
 T101	sup 10383 10386	?/?
-#101	AnnotationNotes T101	sup
 T102	italic 10492 10495	Sry
-#102	AnnotationNotes T102	italic
 T103	italic 10544 10547	Sry
-#103	AnnotationNotes T103	italic
 T104	italic 10579 10583	Fgf9
-#104	AnnotationNotes T104	italic
 T105	italic 10596 10600	Fgf9
-#105	AnnotationNotes T105	italic
 T106	italic 10653 10656	Sry
-#106	AnnotationNotes T106	italic
 T107	italic 10800 10804	Fgf9
-#107	AnnotationNotes T107	italic
 T108	sup 10804 10807	?/?
-#108	AnnotationNotes T108	sup
 T109	italic 11060 11064	Sox9
-#109	AnnotationNotes T109	italic
 T110	italic 11175 11178	Sry
-#110	AnnotationNotes T110	italic
 T111	italic 11257 11261	Fgf9
-#111	AnnotationNotes T111	italic
 T112	italic 11308 11312	Sry,
-#112	AnnotationNotes T112	italic
 T113	italic 11337 11341	Fgf9
-#113	AnnotationNotes T113	italic
 T114	italic 11379 11383	Sox9
-#114	AnnotationNotes T114	italic
 T115	italic 11463 11467	Sox9
-#115	AnnotationNotes T115	italic
 T116	italic 12939 12943	Fgf9
-#116	AnnotationNotes T116	italic
 T117	italic 12948 12952	Sox9
-#117	AnnotationNotes T117	italic
 T118	italic 12955 12959	Fgf9
-#118	AnnotationNotes T118	italic
 T119	italic 13041 13045	Fgf9
-#119	AnnotationNotes T119	italic
 T120	italic 13084 13088	Sox9
-#120	AnnotationNotes T120	italic
 T121	italic 13146 13150	Fgf9
-#121	AnnotationNotes T121	italic
 T122	sup 13150 13153	+/?
-#122	AnnotationNotes T122	sup
 T123	italic 13158 13162	Fgf9
-#123	AnnotationNotes T123	italic
 T124	sup 13162 13165	?/?
-#124	AnnotationNotes T124	sup
 T125	italic 13535 13538	Sry
-#125	AnnotationNotes T125	italic
 T126	italic 13543 13547	Sox9
-#126	AnnotationNotes T126	italic
 T127	italic 13614 13618	Fgf9
-#127	AnnotationNotes T127	italic
 T128	sup 13618 13621	?/?
-#128	AnnotationNotes T128	sup
 T129	italic 13673 13677	Fgf9
-#129	AnnotationNotes T129	italic
 T130	sup 13677 13680	?/?
-#130	AnnotationNotes T130	sup
 T131	italic 13840 13844	Fgf9
-#131	AnnotationNotes T131	italic
 T132	sup 13844 13847	?/?
-#132	AnnotationNotes T132	sup
 T133	italic 13896 13900	Fgf9
-#133	AnnotationNotes T133	italic
 T134	sup 13900 13903	?/?
-#134	AnnotationNotes T134	sup
 T135	italic 14092 14096	Fgf9
-#135	AnnotationNotes T135	italic
 T136	italic 14138 14142	Sox9
-#136	AnnotationNotes T136	italic
 T137	italic 14184 14188	Sox9
-#137	AnnotationNotes T137	italic
 T138	italic 14229 14233	Sox9
-#138	AnnotationNotes T138	italic
 T139	italic 14250 14254	Fgf9
-#139	AnnotationNotes T139	italic
 T140	italic 14358 14361	Sry
-#140	AnnotationNotes T140	italic
 T141	italic 14364 14368	Fgf9
-#141	AnnotationNotes T141	italic
 T142	italic 14371 14376	Sox9,
-#142	AnnotationNotes T142	italic
 T143	italic 14391 14395	Fgf9
-#143	AnnotationNotes T143	italic
 T144	italic 14443 14447	Sox9
-#144	AnnotationNotes T144	italic
 T145	italic 14489 14492	Sry
-#145	AnnotationNotes T145	italic
 T146	italic 14495 14499	Sox9
-#146	AnnotationNotes T146	italic
 T147	italic 14502 14507	Fgf9,
-#147	AnnotationNotes T147	italic
 T148	italic 14522 14526	Fgf9
-#148	AnnotationNotes T148	italic
 T149	italic 14586 14590	Sox9
-#149	AnnotationNotes T149	italic
 T150	italic 14604 14608	Fgf9
-#150	AnnotationNotes T150	italic
 T151	italic 14623 14627	Sox9
-#151	AnnotationNotes T151	italic
 T152	italic 14647 14651	Sox9
-#152	AnnotationNotes T152	italic
 T153	sup 14651 14654	?/?
-#153	AnnotationNotes T153	sup
 T154	italic 14744 14748	Sox9
-#154	AnnotationNotes T154	italic
 T155	italic 14750 14754	Sox9
-#155	AnnotationNotes T155	italic
 T156	sup 14754 14763	flox/flox
-#156	AnnotationNotes T156	sup
 T157	italic 14802 14805	Cre
-#157	AnnotationNotes T157	italic
 T158	italic 14818 14826	Prm1-Cre
-#158	AnnotationNotes T158	italic
 T159	italic 14839 14846	Zp3-Cre
-#159	AnnotationNotes T159	italic
 T160	italic 14870 14874	Sox9
-#160	AnnotationNotes T160	italic
 T161	italic 15009 15013	Sox9
-#161	AnnotationNotes T161	italic
 T162	italic 15119 15123	Sox9
-#162	AnnotationNotes T162	italic
 T163	italic 15308 15312	Fgf9
-#163	AnnotationNotes T163	italic
 T164	italic 15357 15361	Sox9
-#164	AnnotationNotes T164	italic
 T165	sup 15361 15364	?/?
-#165	AnnotationNotes T165	sup
 T166	italic 15403 15406	Sry
-#166	AnnotationNotes T166	italic
 T167	italic 15508 15512	Fgf9
-#167	AnnotationNotes T167	italic
 T168	italic 15581 15585	Sox9
-#168	AnnotationNotes T168	italic
 T169	italic 15635 15638	Sry
-#169	AnnotationNotes T169	italic
 T170	italic 15669 15673	Fgf9
-#170	AnnotationNotes T170	italic
 T171	italic 15692 15696	Sox9
-#171	AnnotationNotes T171	italic
 T172	italic 15726 15730	Sox9
-#172	AnnotationNotes T172	italic
 T173	italic 15748 15752	Fgf9
-#173	AnnotationNotes T173	italic
 T174	italic 15769 15774	Fgf9,
-#174	AnnotationNotes T174	italic
 T175	italic 15796 15800	Sox9
-#175	AnnotationNotes T175	italic
 T176	italic 15897 15901	Fgf9
-#176	AnnotationNotes T176	italic
 T177	italic 15917 15921	Sox9
-#177	AnnotationNotes T177	italic
 T178	sup 15921 15924	?/?
-#178	AnnotationNotes T178	sup
 T179	italic 16046 16050	Fgf9
-#179	AnnotationNotes T179	italic
 T180	sup 16050 16053	?/?
-#180	AnnotationNotes T180	sup
 T181	italic 16077 16081	Sox9
-#181	AnnotationNotes T181	italic
 T182	italic 16114 16118	Fgf9
-#182	AnnotationNotes T182	italic
 T183	italic 16221 16225	Sox9
-#183	AnnotationNotes T183	italic
 T184	italic 16256 16260	Sox9
-#184	AnnotationNotes T184	italic
 T185	sup 16260 16263	?/?
-#185	AnnotationNotes T185	sup
 T186	italic 16506 16510	Sox9
-#186	AnnotationNotes T186	italic
 T187	sup 16510 16516	flox/?
-#187	AnnotationNotes T187	sup
 T188	italic 16562 16566	Sox9
-#188	AnnotationNotes T188	italic
 T189	sup 16566 16569	?/?
-#189	AnnotationNotes T189	sup
 T190	italic 16724 16728	Sox9
-#190	AnnotationNotes T190	italic
 T191	italic 16733 16737	Fgf9
-#191	AnnotationNotes T191	italic
 T192	italic 16929 16933	Fgf9
-#192	AnnotationNotes T192	italic
 T193	sup 16933 16936	?/?
-#193	AnnotationNotes T193	sup
 T194	italic 16980 16984	Sox9
-#194	AnnotationNotes T194	italic
 T195	italic 17011 17015	Fgf9
-#195	AnnotationNotes T195	italic
 T196	sup 17015 17018	?/?
-#196	AnnotationNotes T196	sup
 T197	italic 17156 17184	anti-Mullerian hormone (Amh)
-#197	AnnotationNotes T197	italic
 T198	italic 17194 17215	Desert hedgehog (Dhh)
-#198	AnnotationNotes T198	italic
 T199	italic 17224 17228	Fgf9
-#199	AnnotationNotes T199	italic
 T200	sup 17228 17231	?/?
-#200	AnnotationNotes T200	sup
 T201	italic 17283 17287	Dhh,
-#201	AnnotationNotes T201	italic
 T202	italic 17386 17390	Fgf9
-#202	AnnotationNotes T202	italic
 T203	sup 17390 17393	?/?
-#203	AnnotationNotes T203	sup
 T204	italic 17476 17480	Amh,
-#204	AnnotationNotes T204	italic
 T205	italic 17598 17602	Fgf9
-#205	AnnotationNotes T205	italic
 T206	sup 17602 17605	?/?
-#206	AnnotationNotes T206	sup
 T207	italic 17666 17669	Amh
-#207	AnnotationNotes T207	italic
 T208	italic 17721 17725	Fgf9
-#208	AnnotationNotes T208	italic
 T209	sup 17725 17728	?/?
-#209	AnnotationNotes T209	sup
 T210	italic 17775 17779	Amh,
-#210	AnnotationNotes T210	italic
 T211	italic 17832 17835	Dhh
-#211	AnnotationNotes T211	italic
 T212	italic 17977 17982	Fgf9,
-#212	AnnotationNotes T212	italic
 T213	italic 18006 18009	Sry
-#213	AnnotationNotes T213	italic
 T214	italic 18014 18018	Sox9
-#214	AnnotationNotes T214	italic
 T215	italic 18033 18037	Fgf9
-#215	AnnotationNotes T215	italic
 T216	sup 18037 18040	?/?
-#216	AnnotationNotes T216	sup
 T217	italic 18111 18115	Fgf9
-#217	AnnotationNotes T217	italic
 T218	sup 18115 18118	?/?
-#218	AnnotationNotes T218	sup
 T219	italic 18329 18333	Fgf9
-#219	AnnotationNotes T219	italic
 T220	sup 18333 18336	?/?
-#220	AnnotationNotes T220	sup
 T221	italic 18523 18527	Fgf9
-#221	AnnotationNotes T221	italic
 T222	sup 18527 18530	?/?
-#222	AnnotationNotes T222	sup
 T223	italic 18586 18590	Fgf9
-#223	AnnotationNotes T223	italic
 T224	sup 18590 18593	?/?
-#224	AnnotationNotes T224	sup
 T225	italic 18689 18693	Fgf9
-#225	AnnotationNotes T225	italic
 T226	italic 18782 18786	Fgf9
-#226	AnnotationNotes T226	italic
 T227	sup 18786 18789	?/?
-#227	AnnotationNotes T227	sup
 T228	italic 18946 18950	Fgf9
-#228	AnnotationNotes T228	italic
 T229	sup 18950 18953	?/?
-#229	AnnotationNotes T229	sup
 T230	italic 19095 19100	Wnt4,
-#230	AnnotationNotes T230	italic
 T231	italic 19138 19142	Wnt4
-#231	AnnotationNotes T231	italic
 T232	italic 19166 19170	Fgf9
-#232	AnnotationNotes T232	italic
 T233	sup 19170 19173	?/?
-#233	AnnotationNotes T233	sup
 T234	italic 19188 19192	Fgf9
-#234	AnnotationNotes T234	italic
 T235	sup 19192 19195	+/?
-#235	AnnotationNotes T235	sup
 T236	italic 19253 19257	Fgf9
-#236	AnnotationNotes T236	italic
 T237	italic 19298 19302	Wnt4
-#237	AnnotationNotes T237	italic
 T238	italic 19362 19366	Fgf9
-#238	AnnotationNotes T238	italic
 T239	italic 19371 19375	Wnt4
-#239	AnnotationNotes T239	italic
 T240	italic 19431 19435	Wnt4
-#240	AnnotationNotes T240	italic
 T241	italic 19447 19451	Fgf9
-#241	AnnotationNotes T241	italic
 T242	sup 19451 19454	?/?
-#242	AnnotationNotes T242	sup
 T243	italic 19515 19519	Fgf9
-#243	AnnotationNotes T243	italic
 T244	italic 19524 19529	Wnt4,
-#244	AnnotationNotes T244	italic
 T245	italic 19578 19582	Fgf9
-#245	AnnotationNotes T245	italic
 T246	sup 19582 19585	?/?
-#246	AnnotationNotes T246	sup
 T247	italic 19653 19658	Wnt4.
-#247	AnnotationNotes T247	italic
 T248	italic 19724 19729	Wnt4,
-#248	AnnotationNotes T248	italic
 T249	italic 19818 19822	Wnt4
-#249	AnnotationNotes T249	italic
 T250	italic 19951 19955	Wnt4
-#250	AnnotationNotes T250	italic
 T251	italic 20003 20008	Fgf9,
-#251	AnnotationNotes T251	italic
 T252	italic 20021 20024	Sry
-#252	AnnotationNotes T252	italic
 T253	italic 20028 20033	Sox9,
-#253	AnnotationNotes T253	italic
 T254	italic 20061 20065	Wnt4
-#254	AnnotationNotes T254	italic
 T255	italic 20183 20187	Wnt4
-#255	AnnotationNotes T255	italic
 T256	italic 20309 20313	Wnt4
-#256	AnnotationNotes T256	italic
 T257	sup 20313 20316	+/?
-#257	AnnotationNotes T257	sup
 T258	italic 20321 20325	Wnt4
-#258	AnnotationNotes T258	italic
 T259	sup 20325 20328	+/+
-#259	AnnotationNotes T259	sup
 T260	italic 20488 20492	Wnt4
-#260	AnnotationNotes T260	italic
 T261	sup 20492 20495	+/?
-#261	AnnotationNotes T261	sup
 T262	italic 20515 20519	Wnt4
-#262	AnnotationNotes T262	italic
 T263	sup 20519 20522	+/+
-#263	AnnotationNotes T263	sup
 T264	italic 20764 20768	Fgf9
-#264	AnnotationNotes T264	italic
 T265	italic 20802 20806	Wnt4
-#265	AnnotationNotes T265	italic
 T266	italic 20891 20895	Wnt4
-#266	AnnotationNotes T266	italic
 T267	sup 20895 20898	?/?
-#267	AnnotationNotes T267	sup
 T268	italic 20920 20924	Wnt4
-#268	AnnotationNotes T268	italic
 T269	sup 20924 20927	+/?
-#269	AnnotationNotes T269	sup
 T270	italic 21095 21100	Sox9,
-#270	AnnotationNotes T270	italic
 T271	italic 21122 21126	Wnt4
-#271	AnnotationNotes T271	italic
 T272	sup 21126 21129	?/?
-#272	AnnotationNotes T272	sup
 T273	italic 21197 21201	Wnt4
-#273	AnnotationNotes T273	italic
 T274	sup 21201 21204	?/?
-#274	AnnotationNotes T274	sup
 T275	italic 21308 21312	Wnt4
-#275	AnnotationNotes T275	italic
 T276	sup 21312 21315	?/?
-#276	AnnotationNotes T276	sup
 T277	italic 21530 21534	Sox9
-#277	AnnotationNotes T277	italic
 T278	italic 21559 21563	Wnt4
-#278	AnnotationNotes T278	italic
 T279	sup 21563 21566	?/?
-#279	AnnotationNotes T279	sup
 T280	italic 21590 21594	Wnt4
-#280	AnnotationNotes T280	italic
 T281	sup 21594 21597	?/?
-#281	AnnotationNotes T281	sup
 T282	italic 21861 21865	Sry,
-#282	AnnotationNotes T282	italic
 T283	italic 21908 21912	Wnt4
-#283	AnnotationNotes T283	italic
-T284	section 22053 30410	Discussion
-#284	AnnotationNotes T284	section
+T284	section 22053 22063;22064 22064;22065 22711;22712 22712;22713 23856;23857 23857;23858 25678;25679 25679;25680 26631;26632 26632;26633 27427;27428 27428;27429 28163;28164 28164;28165 29016;29017 29017;29018 30410	Discussion  Many studies support the view that cells in the undifferentiated gonad are bipotential; the supporting cell precursor lineage can develop into follicle cells or Sertoli cells. In Fgf9?/? XY gonads, cells initially embark on the Sertoli pathway, but in the absence of Fgf9 can neither maintain Sox9 expression nor establish downstream male pathways. The loss of Sertoli cells in XY Fgf9?/? gonads is not due to cell death, but instead to a transition of supporting cell fate as SOX9 expression is lost. We suggest that in the absence of the antagonizing activity of FGF9, WNT4 signals predominate and govern somatic cell fate in the gonadal field.  The Drosophila genital disk is also a field of cells that normally follows one of two sexually dimorphic fates. For many years it was believed that the fate of each cell in the genital disk was under the cell-autonomous control of double sex (dsx), the key regulator of the sex determination pathway. However, mosaic studies have shown that the genetic sex of the cells in the anterior/posterior organizers of the disk, not the sex of the majority of cells in the disk, regulate the sexually dimorphic fate of the disk. This occurs through the sex-specific regulation of WNT, FGF, and transforming growth factor beta signaling, which in turn regulate the growth, cell differentiation, and morphogenesis of the disk [41,42]. Sex-specific regulation of gonad organogenesis in vertebrates may occur in a similar manner, where some cells are cell-autonomously responsive to the sex-determining switch; however, the establishment of the male or female program occurs through the non-cell-autonomous activity of classic signaling pathways that act in an antagonistic manner and coordinate growth, cell differentiation and morphogenesis in the gonad.  The interplay between cell-autonomous and non-cell-autonomous pathways in the mammalian gonad is not well understood. In XX?XY chimera experiments, XX cells can be recruited to the Sertoli lineage, indicating that non-cell-autonomous signaling mechanisms operate under these conditions [15]. Other more recent studies have suggested that paracrine signals could be involved in the establishment of Sertoli cells [43–46]. The current study reveals that ectopic FGF9 can induce SOX9 under conditions in which XX cells are dissociated (Figure 2F), when an FGF9-coated bead is directly applied to the XX gonad (Figure 2K), or when the dose of Wnt4 is reduced (Figure 5G). Whether FGF9 normally acts non-cell-autonomously in vivo to recruit XY cells to the Sertoli lineage by up-regulating SOX9 is not clear. We show that Sry can initially up-regulate SOX9 in the absence of Fgf9, suggesting that FGF9 is not necessary for this step. However, FGF9 may act to trigger cell proliferation, increasing the number of Sertoli precursors above a threshold needed to stabilize the male pathway, consistent with threshold requirements deduced from earlier studies using XX?XY chimeric gonads [15]. Since Sertoli cells produce FGF9, loss of proliferation of Sertoli precursors may result in a reduction of the overall level of FGF9, and/or other male paracrine signals, below a critical threshold level required to antagonize the influence of WNT4. This model is appealing, because it links cell proliferation, believed to be required for establishment of the male pathway [9], with Sertoli fate determination. A recent study by Yoshioka et al. [47] showed that misexpression of Fgf9 in chick nephrogenous mesenchyme led to the expansion of gonadal marker gene expression, implicating Fgf9 in gonadal cell proliferation across species.  It has been suggested that SOX9 represses WNT4 based on misexpression studies [48]. Here we show that the addition of FGF9 protein to XX gonad explant cultures repressed the expression of Wnt4. Down-regulation of Wnt4 is unlikely to occur through SOX9, as SOX9 is not up-regulated in this situation [7]. Furthermore, although both SRY and SOX9 are initially expressed in Fgf9?/? XY gonads, Wnt4 is not down-regulated in the absence of Fgf9 (Figure 4K). These findings support the idea that FGF9 acts as the antagonist of Wnt4. Antagonism of WNT signals may be a multistep process involving both the transcriptional down-regulation of Wnt4 observed in this study and the destabilization of downstream Wnt intracellular pathways that antagonize SOX9 expression, as shown in chondrocyte differentiation [49], or that compete for intracellular signal transducers as has been reported in other systems [50,51]. Future work will address these possibilities.  In support of the idea that Wnt4 antagonizes the male pathway, we found that the loss of Wnt4 caused the up-regulation of both SOX9 and FGF9 in XX gonads where Sry is absent. It appears that the male pathway can be initiated by disrupting the balance between Wnt4 and Fgf9, a finding that has strong implications for other vertebrate sex-determination systems in which Sry is not the sex determining factor. However, up-regulation of Sox9 is not sufficient to establish testis development in this mutant, as occurs in Odsex and other gain-of-function mutants where Sox9 is misexpressed in the XX gonad [24,25]. In those two misexpression cases, Sox9 expression may have been artificially sustained by exogenous regulatory sequences that bypass the fine dosage balance in this signaling network.  In Wnt4 mutants, SOX9 expression is not maintained. In light of the observation that the Wnt4?/? XX gonad does not increase significantly in size (Figure 6), it is possible that the FGF9/SOX9-expressing population did not reach a critical threshold. Alternatively (or in addition), another male-specific factor normally dependent on Sry may be required to sustain SOX9 expression, possibly FGF-binding proteins in the extracellular matrix or FGF receptors. It is equally plausible that there are other female-specific factors that antagonize the establishment of SOX9 expression. It has been observed that several other WNTs are expressed in the XX gonad [52], and these or other factors may partially compensate for the loss of Wnt4.  These findings suggest that WNT4 signaling normally acts as a repressor of the male pathway by interfering with the up-regulation of SOX9 expression. One report of a duplication of the region of human Chromosome 1, which includes WNT4, led to an intersex phenotype [53]. However, the report constitutes only circumstantial evidence. Such a role is not supported by efforts to misexpress Wnt4 in XY gonads, which have led to very mild phenotypes with no evidence for defects in Sertoli cell differentiation [54]. It is possible that WNT4 protein did not function as an active signal in these transgenic mice, either because it was not expressed in the right cells, at the right time, or at the right level. Consistent with our data and the partially sex-reversed phenotype of Wnt4?/? XX mutants, other WNTs or additional female factors may be required.  The switch that controls sex determination is biologically diverse. Sry is not present in nonmammalian systems; however, antagonistic signaling between FGFs and WNTs may be the conserved mechanism that balances the gonad between testicular and ovarian fates in vertebrates. In theory, any genetic or environmental switch may tip the balance toward the male pathway. Based on our findings we propose that cells in the mammalian gonad are balanced between two competing cell fates by counterbalanced signaling pathways, Fgf9, expressed near the coelomic surface, and Wnt4, expressed near the mesonephric border (Figure 7). In mammalian XY gonads, the onset of Sry expression initiates the male pathway by up-regulating Sox9. SOX9 up-regulates Fgf9, which initiates a Sox9/Fgf9 feed-forward loop that accelerates commitment to the male pathway. In XX gonads or XY mutant gonads lacking Sry, Sox9, or Fgf9, the SOX9/FGF9 feed-forward loop is not established, and WNT4 gains control of the gonadal field. This results in the down-regulation of Sox9 and Fgf9, tilting the balance toward commitment to the female pathway. Further experiments will be required to define the molecular mechanism of FGF9 and WNT4 action. However, our in vivo and in vitro data strongly support the antagonistic relationship of these two signaling pathways in regulating expression of the testis-determining factor SOX9.
 T285	italic 22244 22248	Fgf9
-#285	AnnotationNotes T285	italic
 T286	sup 22248 22251	?/?
-#286	AnnotationNotes T286	sup
 T287	italic 22332 22336	Fgf9
-#287	AnnotationNotes T287	italic
 T288	italic 22358 22362	Sox9
-#288	AnnotationNotes T288	italic
 T289	italic 22446 22450	Fgf9
-#289	AnnotationNotes T289	italic
 T290	sup 22450 22453	?/?
-#290	AnnotationNotes T290	sup
 T291	italic 22717 22727	Drosophila
-#291	AnnotationNotes T291	italic
 T292	italic 22944 22961	double sex (dsx),
-#292	AnnotationNotes T292	italic
 T293	italic 24497 24501	Wnt4
-#293	AnnotationNotes T293	italic
 T294	italic 24675 24678	Sry
-#294	AnnotationNotes T294	italic
 T295	italic 24728 24733	Fgf9,
-#295	AnnotationNotes T295	italic
 T296	italic 25522 25526	Fgf9
-#296	AnnotationNotes T296	italic
 T297	italic 25628 25632	Fgf9
-#297	AnnotationNotes T297	italic
 T298	italic 25868 25872	Wnt4
-#298	AnnotationNotes T298	italic
 T299	italic 25893 25897	Wnt4
-#299	AnnotationNotes T299	italic
 T300	italic 26051 26055	Fgf9
-#300	AnnotationNotes T300	italic
 T301	sup 26055 26058	?/?
-#301	AnnotationNotes T301	sup
 T302	italic 26070 26074	Wnt4
-#302	AnnotationNotes T302	italic
 T303	italic 26115 26119	Fgf9
-#303	AnnotationNotes T303	italic
 T304	italic 26201 26205	Wnt4
-#304	AnnotationNotes T304	italic
 T305	italic 26314 26318	Wnt4
-#305	AnnotationNotes T305	italic
 T306	italic 26661 26665	Wnt4
-#306	AnnotationNotes T306	italic
 T307	italic 26722 26726	Wnt4
-#307	AnnotationNotes T307	italic
 T308	italic 26793 26796	Sry
-#308	AnnotationNotes T308	italic
 T309	italic 26892 26896	Wnt4
-#309	AnnotationNotes T309	italic
 T310	italic 26901 26906	Fgf9,
-#310	AnnotationNotes T310	italic
 T311	italic 27002 27005	Sry
-#311	AnnotationNotes T311	italic
 T312	italic 27067 27071	Sox9
-#312	AnnotationNotes T312	italic
 T313	italic 27151 27156	Odsex
-#313	AnnotationNotes T313	italic
 T314	italic 27198 27202	Sox9
-#314	AnnotationNotes T314	italic
 T315	italic 27278 27282	Sox9
-#315	AnnotationNotes T315	italic
 T316	italic 27432 27436	Wnt4
-#316	AnnotationNotes T316	italic
 T317	italic 27518 27522	Wnt4
-#317	AnnotationNotes T317	italic
 T318	sup 27522 27525	?/?
-#318	AnnotationNotes T318	sup
 T319	italic 27762 27765	Sry
-#319	AnnotationNotes T319	italic
 T320	italic 28158 28162	Wnt4
-#320	AnnotationNotes T320	italic
 T321	italic 28395 28400	WNT4,
-#321	AnnotationNotes T321	italic
 T322	italic 28552 28556	Wnt4
-#322	AnnotationNotes T322	italic
 T323	italic 28940 28944	Wnt4
-#323	AnnotationNotes T323	italic
 T324	sup 28944 28947	?/?
-#324	AnnotationNotes T324	sup
 T325	italic 29086 29089	Sry
-#325	AnnotationNotes T325	italic
 T326	italic 29536 29541	Fgf9,
-#326	AnnotationNotes T326	italic
 T327	italic 29583 29588	Wnt4,
-#327	AnnotationNotes T327	italic
 T328	italic 29676 29679	Sry
-#328	AnnotationNotes T328	italic
 T329	italic 29735 29739	Sox9
-#329	AnnotationNotes T329	italic
 T330	italic 29759 29764	Fgf9,
-#330	AnnotationNotes T330	italic
 T331	italic 29783 29792	Sox9/Fgf9
-#331	AnnotationNotes T331	italic
 T332	italic 29901 29911	Sry, Sox9,
-#332	AnnotationNotes T332	italic
 T333	italic 29915 29920	Fgf9,
-#333	AnnotationNotes T333	italic
 T334	italic 30057 30061	Sox9
-#334	AnnotationNotes T334	italic
 T335	italic 30066 30071	Fgf9,
-#335	AnnotationNotes T335	italic
-T336	section 30412 34106	Materials and Methods
-#336	AnnotationNotes T336	section
+T336	section 30412 30433;30434 30434;30435 30458;30459 30459;30460 31206;31207 31207;31208 31254;31255 31255;31256 31624;31625 31625;31626 32703;32704 32704;32705 32734;32735 32735;32736 33641;33642 33642;33643 33665;33666 33666;33667 34106	Materials and Methods  Animals and genotyping.  The Fgf9 mutation was maintained on a C57BL/6 (B6) background that leads to sex reversal in 100% of XY Fgf9?/? offspring. Sry-EGFP mice, a kind gift from K. Albrecht and E. Eicher, were initially on a mixed B6/129 and were backcrossed to B6 for five generations. Offspring were then crossed to Fgf9+/? and intercrossed and backcrossed to B6 in alternating generations. All XY Fgf9?/? offspring showed complete sex reversal. SryMyc mice were maintained on a CBA background, and Wnt4 on a mixed 129/SVJ background. Mutant embryos were sexed by PCR using Y chromosome-specific primers and were genotyped as described [2,16,26,55]. Mice homozygous for the Sox9 deletion were generated using a germline-specific gene deletion system as described [20].  In situ hybridization and immunocytochemistry.  In situ hybridization was performed on paraformaldehyde-fixed/OCT embedded cryosections, as described [56]. Whole-mount in situ hybridization was performed as previously described [57]. Probes used for in situ hybridization were: Amh [58], Dhh [20], Wnt4 [8], and Fgf9 [59]. Digoxigenin-labeled probes were prepared according to the Boehringer-Mannheim-Roche protocol.  Antibodies used in whole-mount immunocytochemistry were: mouse monoclonal anti-N-MYC (Cell Signaling Technology, Beverly, Massachusetts, United States; 1:100), rabbit anti-SOX9 (gift of F. Poulat; 1:1,000), rat anti-PECAM (Pharmingen, San Diego, California, United States; 1:500), rabbit anti-caspase-3 fragment (BD Bioscience, San Diego, California, United States; 1:100), and rabbit anti-phosphorylated histone H3 (Cell Signaling; 1:250). Antibody binding was detected using fluorophore-conjugated secondary antibodies (Jackson ImmunoResearch, West Grove, Pennsylvania, United States) as recommended. For FGF9 immunostaining, gonads were prepared as frozen sections, and rabbit anti-mouse FGF9 (Cell Science; 1:50) and anti-rabbit IgG conjugated with peroxidase secondary antibody were used, followed by amplification with tyramide-Cy3 fluorophore (Molecular Probes, Eugene, Oregon, United States). This antibody did not detect FGF9 in 12.5 dpc ovary or Fgf9?/? null mutant gonads. Immunostained samples were mounted in DABCO and imaged on a Zeiss LSM420 confocal microscope.  Primary gonadal cell culture.  11.5 dpc embryos were collected from CD1 mice, and sex was determined by staining amnions as described [15]. Whole genital ridges were dissected and gonads were separated from mesonephroi. The gonads were treated with collagenase (0.025%) and trypsin (0.025%) in HAT buffer at 37 °C for 10 min. After the digestion, cells were mechanically dissociated by pipetting, washed in DMEM, plated on 10-mm diameter coverslips coated with extracellular matrix (Sigma), and were cultured in DMEM containing 5% fetal bovine serum and 1× antibiotics/antimycotics at 37 °C, 5% CO2. In one of duplicate cultures, FGF9 (R&D Systems, Minneapolis, Minnesota, United States) was added to the final concentration of 50 ng/ml in the culture medium. After 36 h of culture, cells were fixed and immunostained for SOX9. Syto13 (Molecular Probes) was used for nuclear counterstaining, according to the manufacturer's instruction.  Gonad explant culture.  Gonad/mesonephros complexes were dissected at 11.5 dpc and cultured on agar blocks for 36 h at 37 °C, 5% CO2 as described [60]. For FGF9 treatment, 50 ng/ml FGF9 (R&D Systems) was added directly to the culture medium, or an FGF9-loaded bead was placed on the surface of gonad. To coat beads, heparin-agarose beads (Sigma, St. Louis, Missouri, United States) were incubated in 50 ?g/ml FGF9 for 2 h, and washed five times in culture medium.
 T337	italic 30464 30468	Fgf9
-#337	AnnotationNotes T337	italic
 T338	italic 30563 30567	Fgf9
-#338	AnnotationNotes T338	italic
 T339	sup 30567 30570	?/?
-#339	AnnotationNotes T339	sup
 T340	italic 30582 30590	Sry-EGFP
-#340	AnnotationNotes T340	italic
 T341	italic 30754 30758	Fgf9
-#341	AnnotationNotes T341	italic
 T342	sup 30758 30761	+/?
-#342	AnnotationNotes T342	sup
 T343	italic 30836 30840	Fgf9
-#343	AnnotationNotes T343	italic
 T344	sup 30840 30843	?/?
-#344	AnnotationNotes T344	sup
 T345	italic 30884 30887	Sry
-#345	AnnotationNotes T345	italic
 T346	sup 30887 30890	Myc
-#346	AnnotationNotes T346	sup
 T347	italic 30937 30941	Wnt4
-#347	AnnotationNotes T347	italic
 T348	italic 31112 31116	Sox9
-#348	AnnotationNotes T348	italic
 T349	italic 31486 31489	Amh
-#349	AnnotationNotes T349	italic
 T350	italic 31496 31499	Dhh
-#350	AnnotationNotes T350	italic
 T351	italic 31506 31510	Wnt4
-#351	AnnotationNotes T351	italic
 T352	italic 31520 31524	Fgf9
-#352	AnnotationNotes T352	italic
 T353	italic 32582 32586	Fgf9
-#353	AnnotationNotes T353	italic
 T354	sup 32586 32589	?/?
-#354	AnnotationNotes T354	sup
 T355	sub 33302 33303	2
-#355	AnnotationNotes T355	sub
 T356	sub 33774 33775	2
-#356	AnnotationNotes T356	sub
-T357	section 34108 34395	Supporting Information
-#357	AnnotationNotes T357	section
+T357	section 34108 34130;34131 34131;34132 34141;34142 34142;34143 34219;34220 34220;34221 34343;34344 34344;34345 34357;34358 34358;34359 34395	Supporting Information  Figure S1  Confirmation that Transcription of Sox9 Is Up-Regulated in Wnt4?/? XX Gonads  Whole-mount in situ hybridization for Sox9 detected Sox9 expression in 11.5 dpc Wnt4+/? XY controls and Wnt4?/? XX gonads.  (428 KB PPT)  Click here for additional data file.
 T358	italic 34178 34182	Sox9
-#358	AnnotationNotes T358	italic
 T359	italic 34202 34206	Wnt4
-#359	AnnotationNotes T359	italic
 T360	sup 34206 34209	?/?
-#360	AnnotationNotes T360	sup
 T361	italic 34259 34263	Sox9
-#361	AnnotationNotes T361	italic
 T362	italic 34273 34277	Sox9
-#362	AnnotationNotes T362	italic
 T363	italic 34301 34305	Wnt4
-#363	AnnotationNotes T363	italic
 T364	sup 34305 34308	+/?
-#364	AnnotationNotes T364	sup
 T365	italic 34325 34329	Wnt4
-#365	AnnotationNotes T365	italic
 T366	sup 34329 34332	?/?
-#366	AnnotationNotes T366	sup
-T367	section 34397 34805	Acknowledgements
-#367	AnnotationNotes T367	section
+T367	section 34397 34413;34414 34414;34415 34722;34723 34723;34724 34805	Acknowledgements  The Sry-EGFP transgenics were a kind gift from Eva M. Eicher. We thank Serge Nef for freely providing information from his microarray screen, Hao Chang for generating some of the Sox9 mutant and control urogenital ridges, members of the Capel lab for discussion, and Iordan Batchvarov for help with animals.  Competing interests. The authors have declared that no competing interests exist.
 T368	italic 34419 34427	Sry-EGFP
-#368	AnnotationNotes T368	italic
 T369	italic 34594 34598	Sox9
-#369	AnnotationNotes T369	italic
 T370	bold 34724 34744	Competing interests.
-#370	AnnotationNotes T370	bold
-T371	section 34807 35080	Abbreviations
-#371	AnnotationNotes T371	section
-T372	section 35082 41869	Figures and Tables
-#372	AnnotationNotes T372	section
-T373	section 35102 36069	Figure 1
-#373	AnnotationNotes T373	section
+T371	section 34807 34820;34821 34821;34822 34843;34844 34844;34845 34886;34887 34887;34888 34918;34919 34919;34920 34971;34972 34972;34973 34995;34996 34996;34997 35034;35035 35035;35036 35080	Abbreviations  dpc - day post coitum  EGFP - enhanced green fluorescent protein  FGF - fibroblast growth factor  PECAM - platelet/endothelial cell adhesion molecule  SOX - SRY-like HMG box  SRY - sex-determining region of the Y  WNT - wingless-related MMTV integration site
+T372	section 35082 35100;35101 35101;35102 35110;35111 35111;35112 35175;35176 35176;35177 35457;35458 35458;35459 36042;36043 36043;36044 36069;36070 36070;36071 36079;36080 36080;36081 36126;36127 36127;36128 36607;36608 36608;36609 37285;37286 37286;37287 37295;37296 37296;37297 37346;37347 37347;37348 37738;37739 37739;37740 38071;38072 38072;38073 38650;38651 38651;38652 38660;38661 38661;38662 38740;38741 38741;38742 39000;39001 39001;39002 39398;39399 39399;39400 39629;39630 39630;39631 39656;39657 39657;39658 39666;39667 39667;39668 39707;39708 39708;39709 39944;39945 39945;39946 40227;40228 40228;40229 40237;40238 40238;40239 40310;40311 40311;40312 40452;40453 40453;40454 40914;40915 40915;40916 40924;40925 40925;40926 40994;40995 40995;40996 41869	Figures and Tables  Figure 1  Stage- and Cell-Specific Expression of FGF9 in Embryonic Gonads  (A–F) Detection of FGF9 protein (red) at different stages of gonad development. FGF9 is up-regulated in XY gonads at 11.5 (B), 12.5 (D), and 13.5 dpc (F) while it is down-regulated in XX after 11.5 dpc (A, C, and E). No signal was detected in XY Fgf9?/? gonads (unpublished data).  (G–J) Serial sections of wild-type XX and compound heterozygous KitW/Wv XY gonads stained for alkaline phosphatase (purple; G and I) and FGF9 (red; H and J). Testis cords are formed in the absence of germ cells in XY KitW/Wv mutant gonads at 12.5 dpc (arrowhead in J). Expression of FGF9 is present in the mutant gonads where Sertoli cells are the only remaining cell type in the cords (J). Semitransparent dotted line indicates the boundary between gonad and mesonephroi. PECAM (green) marks germ cells and vascular endothelial cells (C–F, H, and J). The scale bars represent 25 ?m.  g, gonad; m, mesonephroi.  Figure 2  Epistatic Relationship of Sry, Fgf9, and Sox9  (A–D) Sry expression is not dependent on Fgf9. Fgf9+/? (A) and Fgf9?/? (B) XY gonads at 11.5 dpc expressing GFP (green) from the Sry promoter (polygonal cells, arrows). Blood cells show background fluorescence (doughnut-shaped cells). Fgf9+/? (C) and Fgf9?/? (D) XY gonads at 11.5 dpc expressing SRYMYC protein (red, arrowheads). Inset shows nuclear counterstain (green, Syto13) colocalizing with SRYMYC. PECAM (blue) marks endothelial and germ cells. Scale bars represent 25 ?m.  (E–K) Exogenous FGF9 can up-regulate SOX9 expression in XX gonads. Immunostaining of SOX9 (green) in primary cultures of gonadal cells. XX cells (E) and XY cells (G) cultured with exogenous FGF9 show induction of SOX9 expression (F and H, respectively). Cells were counterstained using the nuclear marker, Syto13 (red). Immunostaining of SOX9 (red) in gonad explants cultured with BSA- or FGF9-coated beads. SOX9 is expressed in XY gonads and cells contacting FGF9-coated beads (dotted circle labeled “F”) in XX gonads (I and K) but not in XX cells contacting BSA-coated control beads (“B”) (J). PECAM (blue) marks endothelial and germ cells. Scale bars (I–K) represent 50 ?m.  Figure 3  Interdependent Relationship between Fgf9 and Sox9  (A–F) Immunostaining of SOX9 (red) in Fgf9+/? and Fgf9?/? XY gonads shows that Fgf9 is required for maintenance of SOX9. The up-regulation of SOX9 in Sertoli precursor cells appears normal in Fgf9?/? gonads at 11.5 dpc (D) compared with heterozygous littermate controls (A). However, SOX9 is detected in fewer cells in mutant gonads at 12.0 dpc (B and E), and is lost by 12.5 dpc (C and F).  (G–J) mRNA whole-mount in situ hybridization for Sry and Fgf9 in Sox9flox/? and Sox9?/? XY gonads shows that Sox9 is required for Fgf9 expression. Sry expression is detected in both Sox9flox/? and Sox9?/? gonads at 11.5 dpc (G and H), whereas Fgf9 expression is markedly decreased or absent in Sox9?/? gonads at 11.5 dpc (I and J).  (K–O) Comparison of cell proliferation in Sox9?/? versus Sox9flox/? gonads at 11.5 dpc using immunostaining for phosphorylated histone H3. XY-specific proliferation at the gonad surface (K) is reduced in the absence of Sox9 (L). Bar graph (O) shows quantitation of proliferation obtained by counting positive cells in the cortical region of each gonad (right brace) and normalizing to the number obtained from XY Sox9flox/? gonads. n = 30, with five sections of each gonad and three pairs of gonads for each genotype. PECAM, green (A–F and K–N). The scale bars represent 25 ?m.  Figure 4  Sertoli Cell Precursors Switch from Expression of Male to Female Pathway Genes  (A–F) Whole-mount in situ hybridization for genes in the male pathway downstream of Sox9, Dhh, and Amh. Dhh expression is disrupted in XY Fgf9?/? gonads (g) at 11.5 dpc (A and B). Amh expression is severely reduced in XY Fgf9?/? gonads at 12.5 dpc (E and F).  (G and H) Analysis of cell death in Fgf9?/? XY gonads using an apoptotic marker, active caspase-3 (red). No increased apoptosis is observed in XY Fgf9?/? gonads (g) compared with control XY gonads, although apoptotic cells are increased around mesonephric tubules (m) of the mutant gonads (arrow in H). Semitransparent dotted line indicates boundary between mesonephros and gonad. (PECAM, green).  (I–K) Whole-mount in situ hybridization for Wnt4, an ovary marker. Wnt4 is expressed in Fgf9?/? XY gonads at 12.5 dpc (K) similar to the level in XX Fgf9+/? controls (I) but not in XY controls (J). The scale bars represent 50 ?m.  g, gonad; m, mesonephros.  Figure 5  Mutual Antagonism between Fgf9 and Wnt4  (A–C) Wnt4 whole-mount in situ hybridization on gonad cultures. Adding exogenous FGF9 in gonad cultures results in the down-regulation of Wnt4 expression in cultured XX gonads (C). Controls (A and B) were cultured without FGF9 peptide.  (D–G) Reduction in the dose of Wnt4 allows FGF9 to induce SOX9 in XX gonads. Immunostaining of SOX9 (red) shows that addition of FGF9 up-regulates SOX9 expression in heterozygous Wnt4+/? XX gonads (G), but not in Wnt4+/+ XX gonads (F). PECAM, green. The scale bars represent 50 ?m.  Figure 6  Ectopic Expression of Male Factors, SOX9 and FGF9, in XX Wnt4?/? Gonads  (A–C) FGF9 (red) immunostaining shows that FGF9 is expressed in XX Wnt4?/? gonads at 12.5 dpc (C) relative to littermate controls (A and B).  (D–L) SOX9 (red) immunostaining shows that SOX9 is transiently up-regulated in XX Wnt4?/? gonads. SOX9 expression is detected in Wnt4?/? XX gonads at 11.5–12.0 dpc (F and I), albeit at reduced levels compared with XY gonad controls (E-H). SOX9 is not detected in control XX Wnt4+/? gonads (D-J) or Wnt4?/? XX gonads at 12.5 dpc (L). The ectopic coelomic vessel in XX Wnt4?/? gonads [28] is indicated by arrowheads. PECAM, green. The scale bars represent 50 ?m.  Figure 7  Opposing Signals Regulate Sex Determination in the Bipotential Gonad  In both XX and XY gonads at 11.25 dpc (15 tail-somite stage), Fgf9 transcripts (white arrows) are detected near the gonad surface (A and B), whereas Wnt4 transcripts are detected near the gonad mesonephric boundary (C and D). We propose a model in which the fate of the gonad is balanced between these competing signals. A genetic or environmental switch initiates the male pathway by creating an imbalance between these signals. In mammals, this imbalance occurs through the up-regulation of Sox9. Sox9 up-regulates Fgf9, and Fgf9 maintains Sox9, forming a positive feed-forward loop in XY gonads. In this situation, the balance between FGF9 and WNT4 signals is shifted in favor of FGF9, and the dominance of the male pathway is established. In the absence of a feed-forward loop between SOX9 and FGF9 (e.g., in XX gonads), WNT4 blocks Fgf9, initiating the female pathway.
+T373	section 35102 35110;35111 35111;35112 35175;35176 35176;35177 35457;35458 35458;35459 36042;36043 36043;36044 36069	Figure 1  Stage- and Cell-Specific Expression of FGF9 in Embryonic Gonads  (A–F) Detection of FGF9 protein (red) at different stages of gonad development. FGF9 is up-regulated in XY gonads at 11.5 (B), 12.5 (D), and 13.5 dpc (F) while it is down-regulated in XX after 11.5 dpc (A, C, and E). No signal was detected in XY Fgf9?/? gonads (unpublished data).  (G–J) Serial sections of wild-type XX and compound heterozygous KitW/Wv XY gonads stained for alkaline phosphatase (purple; G and I) and FGF9 (red; H and J). Testis cords are formed in the absence of germ cells in XY KitW/Wv mutant gonads at 12.5 dpc (arrowhead in J). Expression of FGF9 is present in the mutant gonads where Sertoli cells are the only remaining cell type in the cords (J). Semitransparent dotted line indicates the boundary between gonad and mesonephroi. PECAM (green) marks germ cells and vascular endothelial cells (C–F, H, and J). The scale bars represent 25 ?m.  g, gonad; m, mesonephroi.
 T374	italic 35423 35427	Fgf9
-#374	AnnotationNotes T374	italic
 T375	sup 35427 35430	?/?
-#375	AnnotationNotes T375	sup
 T376	italic 35523 35526	Kit
-#376	AnnotationNotes T376	italic
 T377	sup 35526 35530	W/Wv
-#377	AnnotationNotes T377	sup
 T378	italic 35676 35679	Kit
-#378	AnnotationNotes T378	italic
 T379	sup 35679 35683	W/Wv
-#379	AnnotationNotes T379	sup
-T380	section 36071 37285	Figure 2
-#380	AnnotationNotes T380	section
+T380	section 36071 36079;36080 36080;36081 36126;36127 36127;36128 36607;36608 36608;36609 37285	Figure 2  Epistatic Relationship of Sry, Fgf9, and Sox9  (A–D) Sry expression is not dependent on Fgf9. Fgf9+/? (A) and Fgf9?/? (B) XY gonads at 11.5 dpc expressing GFP (green) from the Sry promoter (polygonal cells, arrows). Blood cells show background fluorescence (doughnut-shaped cells). Fgf9+/? (C) and Fgf9?/? (D) XY gonads at 11.5 dpc expressing SRYMYC protein (red, arrowheads). Inset shows nuclear counterstain (green, Syto13) colocalizing with SRYMYC. PECAM (blue) marks endothelial and germ cells. Scale bars represent 25 ?m.  (E–K) Exogenous FGF9 can up-regulate SOX9 expression in XX gonads. Immunostaining of SOX9 (green) in primary cultures of gonadal cells. XX cells (E) and XY cells (G) cultured with exogenous FGF9 show induction of SOX9 expression (F and H, respectively). Cells were counterstained using the nuclear marker, Syto13 (red). Immunostaining of SOX9 (red) in gonad explants cultured with BSA- or FGF9-coated beads. SOX9 is expressed in XY gonads and cells contacting FGF9-coated beads (dotted circle labeled “F”) in XX gonads (I and K) but not in XX cells contacting BSA-coated control beads (“B”) (J). PECAM (blue) marks endothelial and germ cells. Scale bars (I–K) represent 50 ?m.
 T381	italic 36107 36117	Sry, Fgf9,
-#381	AnnotationNotes T381	italic
 T382	italic 36122 36126	Sox9
-#382	AnnotationNotes T382	italic
 T383	italic 36134 36137	Sry
-#383	AnnotationNotes T383	italic
 T384	italic 36169 36173	Fgf9
-#384	AnnotationNotes T384	italic
 T385	italic 36175 36179	Fgf9
-#385	AnnotationNotes T385	italic
 T386	sup 36179 36182	+/?
-#386	AnnotationNotes T386	sup
 T387	italic 36191 36195	Fgf9
-#387	AnnotationNotes T387	italic
 T388	sup 36195 36198	?/?
-#388	AnnotationNotes T388	sup
 T389	italic 36257 36260	Sry
-#389	AnnotationNotes T389	italic
 T390	italic 36363 36367	Fgf9
-#390	AnnotationNotes T390	italic
 T391	sup 36367 36370	+/?
-#391	AnnotationNotes T391	sup
 T392	italic 36379 36383	Fgf9
-#392	AnnotationNotes T392	italic
 T393	sup 36383 36386	?/?
-#393	AnnotationNotes T393	sup
 T394	sup 36427 36430	MYC
-#394	AnnotationNotes T394	sup
 T395	sup 36528 36531	MYC
-#395	AnnotationNotes T395	sup
-T396	section 37287 38650	Figure 3
-#396	AnnotationNotes T396	section
+T396	section 37287 37295;37296 37296;37297 37346;37347 37347;37348 37738;37739 37739;37740 38071;38072 38072;38073 38650	Figure 3  Interdependent Relationship between Fgf9 and Sox9  (A–F) Immunostaining of SOX9 (red) in Fgf9+/? and Fgf9?/? XY gonads shows that Fgf9 is required for maintenance of SOX9. The up-regulation of SOX9 in Sertoli precursor cells appears normal in Fgf9?/? gonads at 11.5 dpc (D) compared with heterozygous littermate controls (A). However, SOX9 is detected in fewer cells in mutant gonads at 12.0 dpc (B and E), and is lost by 12.5 dpc (C and F).  (G–J) mRNA whole-mount in situ hybridization for Sry and Fgf9 in Sox9flox/? and Sox9?/? XY gonads shows that Sox9 is required for Fgf9 expression. Sry expression is detected in both Sox9flox/? and Sox9?/? gonads at 11.5 dpc (G and H), whereas Fgf9 expression is markedly decreased or absent in Sox9?/? gonads at 11.5 dpc (I and J).  (K–O) Comparison of cell proliferation in Sox9?/? versus Sox9flox/? gonads at 11.5 dpc using immunostaining for phosphorylated histone H3. XY-specific proliferation at the gonad surface (K) is reduced in the absence of Sox9 (L). Bar graph (O) shows quantitation of proliferation obtained by counting positive cells in the cortical region of each gonad (right brace) and normalizing to the number obtained from XY Sox9flox/? gonads. n = 30, with five sections of each gonad and three pairs of gonads for each genotype. PECAM, green (A–F and K–N). The scale bars represent 25 ?m.
 T397	italic 37333 37337	Fgf9
-#397	AnnotationNotes T397	italic
 T398	italic 37342 37346	Sox9
-#398	AnnotationNotes T398	italic
 T399	italic 37386 37390	Fgf9
-#399	AnnotationNotes T399	italic
 T400	sup 37390 37393	+/?
-#400	AnnotationNotes T400	sup
 T401	italic 37398 37402	Fgf9
-#401	AnnotationNotes T401	italic
 T402	sup 37402 37405	?/?
-#402	AnnotationNotes T402	sup
 T403	italic 37427 37431	Fgf9
-#403	AnnotationNotes T403	italic
 T404	italic 37540 37544	Fgf9
-#404	AnnotationNotes T404	italic
 T405	sup 37544 37547	?/?
-#405	AnnotationNotes T405	sup
 T406	italic 37789 37792	Sry
-#406	AnnotationNotes T406	italic
 T407	italic 37797 37801	Fgf9
-#407	AnnotationNotes T407	italic
 T408	italic 37805 37809	Sox9
-#408	AnnotationNotes T408	italic
 T409	sup 37809 37815	flox/?
-#409	AnnotationNotes T409	sup
 T410	italic 37820 37824	Sox9
-#410	AnnotationNotes T410	italic
 T411	sup 37824 37827	?/?
-#411	AnnotationNotes T411	sup
 T412	italic 37849 37853	Sox9
-#412	AnnotationNotes T412	italic
 T413	italic 37870 37874	Fgf9
-#413	AnnotationNotes T413	italic
 T414	italic 37887 37890	Sry
-#414	AnnotationNotes T414	italic
 T415	italic 37922 37926	Sox9
-#415	AnnotationNotes T415	italic
 T416	sup 37926 37932	flox/?
-#416	AnnotationNotes T416	sup
 T417	italic 37937 37941	Sox9
-#417	AnnotationNotes T417	italic
 T418	sup 37941 37944	?/?
-#418	AnnotationNotes T418	sup
 T419	italic 37983 37987	Fgf9
-#419	AnnotationNotes T419	italic
 T420	italic 38034 38038	Sox9
-#420	AnnotationNotes T420	italic
 T421	sup 38038 38041	?/?
-#421	AnnotationNotes T421	sup
 T422	italic 38115 38119	Sox9
-#422	AnnotationNotes T422	italic
 T423	sup 38119 38122	?/?
-#423	AnnotationNotes T423	sup
 T424	italic 38130 38134	Sox9
-#424	AnnotationNotes T424	italic
 T425	sup 38134 38140	flox/?
-#425	AnnotationNotes T425	sup
 T426	italic 38292 38296	Sox9
-#426	AnnotationNotes T426	italic
 T427	italic 38486 38490	Sox9
-#427	AnnotationNotes T427	italic
 T428	sup 38490 38496	flox/?
-#428	AnnotationNotes T428	sup
 T429	italic 38505 38506	n
-#429	AnnotationNotes T429	italic
-T430	section 38652 39656	Figure 4
-#430	AnnotationNotes T430	section
+T430	section 38652 38660;38661 38661;38662 38740;38741 38741;38742 39000;39001 39001;39002 39398;39399 39399;39400 39629;39630 39630;39631 39656	Figure 4  Sertoli Cell Precursors Switch from Expression of Male to Female Pathway Genes  (A–F) Whole-mount in situ hybridization for genes in the male pathway downstream of Sox9, Dhh, and Amh. Dhh expression is disrupted in XY Fgf9?/? gonads (g) at 11.5 dpc (A and B). Amh expression is severely reduced in XY Fgf9?/? gonads at 12.5 dpc (E and F).  (G and H) Analysis of cell death in Fgf9?/? XY gonads using an apoptotic marker, active caspase-3 (red). No increased apoptosis is observed in XY Fgf9?/? gonads (g) compared with control XY gonads, although apoptotic cells are increased around mesonephric tubules (m) of the mutant gonads (arrow in H). Semitransparent dotted line indicates boundary between mesonephros and gonad. (PECAM, green).  (I–K) Whole-mount in situ hybridization for Wnt4, an ovary marker. Wnt4 is expressed in Fgf9?/? XY gonads at 12.5 dpc (K) similar to the level in XX Fgf9+/? controls (I) but not in XY controls (J). The scale bars represent 50 ?m.  g, gonad; m, mesonephros.
 T431	italic 38826 38836	Sox9, Dhh,
-#431	AnnotationNotes T431	italic
 T432	italic 38841 38844	Amh
-#432	AnnotationNotes T432	italic
 T433	italic 38846 38849	Dhh
-#433	AnnotationNotes T433	italic
 T434	italic 38880 38884	Fgf9
-#434	AnnotationNotes T434	italic
 T435	sup 38884 38887	?/?
-#435	AnnotationNotes T435	sup
 T436	italic 38922 38925	Amh
-#436	AnnotationNotes T436	italic
 T437	italic 38963 38967	Fgf9
-#437	AnnotationNotes T437	italic
 T438	sup 38967 38970	?/?
-#438	AnnotationNotes T438	sup
 T439	italic 39038 39042	Fgf9
-#439	AnnotationNotes T439	italic
 T440	sup 39042 39045	?/?
-#440	AnnotationNotes T440	sup
 T441	italic 39148 39152	Fgf9
-#441	AnnotationNotes T441	italic
 T442	sup 39152 39155	?/?
-#442	AnnotationNotes T442	sup
 T443	italic 39444 39449	Wnt4,
-#443	AnnotationNotes T443	italic
 T444	italic 39467 39471	Wnt4
-#444	AnnotationNotes T444	italic
 T445	italic 39488 39492	Fgf9
-#445	AnnotationNotes T445	italic
 T446	sup 39492 39495	?/?
-#446	AnnotationNotes T446	sup
 T447	italic 39549 39553	Fgf9
-#447	AnnotationNotes T447	italic
 T448	sup 39553 39556	+/?
-#448	AnnotationNotes T448	sup
-T449	section 39658 40227	Figure 5
-#449	AnnotationNotes T449	section
+T449	section 39658 39666;39667 39667;39668 39707;39708 39708;39709 39944;39945 39945;39946 40227	Figure 5  Mutual Antagonism between Fgf9 and Wnt4  (A–C) Wnt4 whole-mount in situ hybridization on gonad cultures. Adding exogenous FGF9 in gonad cultures results in the down-regulation of Wnt4 expression in cultured XX gonads (C). Controls (A and B) were cultured without FGF9 peptide.  (D–G) Reduction in the dose of Wnt4 allows FGF9 to induce SOX9 in XX gonads. Immunostaining of SOX9 (red) shows that addition of FGF9 up-regulates SOX9 expression in heterozygous Wnt4+/? XX gonads (G), but not in Wnt4+/+ XX gonads (F). PECAM, green. The scale bars represent 50 ?m.
 T450	italic 39694 39698	Fgf9
-#450	AnnotationNotes T450	italic
 T451	italic 39703 39707	Wnt4
-#451	AnnotationNotes T451	italic
 T452	italic 39715 39719	Wnt4
-#452	AnnotationNotes T452	italic
 T453	italic 39847 39851	Wnt4
-#453	AnnotationNotes T453	italic
 T454	italic 39977 39981	Wnt4
-#454	AnnotationNotes T454	italic
 T455	italic 40125 40129	Wnt4
-#455	AnnotationNotes T455	italic
 T456	sup 40129 40132	+/?
-#456	AnnotationNotes T456	sup
 T457	italic 40159 40163	Wnt4
-#457	AnnotationNotes T457	italic
 T458	sup 40163 40166	+/+
-#458	AnnotationNotes T458	sup
-T459	section 40229 40914	Figure 6
-#459	AnnotationNotes T459	section
+T459	section 40229 40237;40238 40238;40239 40310;40311 40311;40312 40452;40453 40453;40454 40914	Figure 6  Ectopic Expression of Male Factors, SOX9 and FGF9, in XX Wnt4?/? Gonads  (A–C) FGF9 (red) immunostaining shows that FGF9 is expressed in XX Wnt4?/? gonads at 12.5 dpc (C) relative to littermate controls (A and B).  (D–L) SOX9 (red) immunostaining shows that SOX9 is transiently up-regulated in XX Wnt4?/? gonads. SOX9 expression is detected in Wnt4?/? XX gonads at 11.5–12.0 dpc (F and I), albeit at reduced levels compared with XY gonad controls (E-H). SOX9 is not detected in control XX Wnt4+/? gonads (D-J) or Wnt4?/? XX gonads at 12.5 dpc (L). The ectopic coelomic vessel in XX Wnt4?/? gonads [28] is indicated by arrowheads. PECAM, green. The scale bars represent 50 ?m.
 T460	italic 40296 40300	Wnt4
-#460	AnnotationNotes T460	italic
 T461	sup 40300 40303	?/?
-#461	AnnotationNotes T461	sup
 T462	italic 40379 40383	Wnt4
-#462	AnnotationNotes T462	italic
 T463	sup 40383 40386	?/?
-#463	AnnotationNotes T463	sup
 T464	italic 40536 40540	Wnt4
-#464	AnnotationNotes T464	italic
 T465	sup 40540 40543	?/?
-#465	AnnotationNotes T465	sup
 T466	italic 40583 40587	Wnt4
-#466	AnnotationNotes T466	italic
 T467	sup 40587 40590	?/?
-#467	AnnotationNotes T467	sup
 T468	italic 40728 40732	Wnt4
-#468	AnnotationNotes T468	italic
 T469	sup 40732 40735	+/?
-#469	AnnotationNotes T469	sup
 T470	italic 40752 40756	Wnt4
-#470	AnnotationNotes T470	italic
 T471	sup 40756 40759	?/?
-#471	AnnotationNotes T471	sup
 T472	italic 40821 40825	Wnt4
-#472	AnnotationNotes T472	italic
 T473	sup 40825 40828	?/?
-#473	AnnotationNotes T473	sup
-T474	section 40916 41869	Figure 7
-#474	AnnotationNotes T474	section
+T474	section 40916 40924;40925 40925;40926 40994;40995 40995;40996 41869	Figure 7  Opposing Signals Regulate Sex Determination in the Bipotential Gonad  In both XX and XY gonads at 11.25 dpc (15 tail-somite stage), Fgf9 transcripts (white arrows) are detected near the gonad surface (A and B), whereas Wnt4 transcripts are detected near the gonad mesonephric boundary (C and D). We propose a model in which the fate of the gonad is balanced between these competing signals. A genetic or environmental switch initiates the male pathway by creating an imbalance between these signals. In mammals, this imbalance occurs through the up-regulation of Sox9. Sox9 up-regulates Fgf9, and Fgf9 maintains Sox9, forming a positive feed-forward loop in XY gonads. In this situation, the balance between FGF9 and WNT4 signals is shifted in favor of FGF9, and the dominance of the male pathway is established. In the absence of a feed-forward loop between SOX9 and FGF9 (e.g., in XX gonads), WNT4 blocks Fgf9, initiating the female pathway.
 T475	italic 41058 41062	Fgf9
-#475	AnnotationNotes T475	italic
 T476	italic 41145 41149	Wnt4
-#476	AnnotationNotes T476	italic
 T477	italic 41489 41493	Sox9
-#477	AnnotationNotes T477	italic
 T478	italic 41495 41499	Sox9
-#478	AnnotationNotes T478	italic
 T479	italic 41513 41518	Fgf9,
-#479	AnnotationNotes T479	italic
 T480	italic 41523 41527	Fgf9
-#480	AnnotationNotes T480	italic
 T481	italic 41538 41543	Sox9,
-#481	AnnotationNotes T481	italic
 T482	italic 41833 41838	Fgf9,
-#482	AnnotationNotes T482	italic
-T483	section 41871 42515	Footnotes
-#483	AnnotationNotes T483	section
+T483	section 41871 41880;41881 41881;41882 42179;42180 42180;42181 42396;42397 42397;42398 42515	Footnotes  Author contributions. YK, AK, and BC conceived and designed the experiments. YK, AK, LD, and JB performed the experiments. YK, RLB, and BC analyzed the data. YK, RS, MCC, FP, RRB, RLB, and BC contributed reagents/materials/analysis tools. YK and BC wrote the paper with significant input from RLB.  Citation: Kim Y, Kobayashi A, Sekido R, DiNapoli L, Brennan J, et al. (2006) Fgf9 and Wnt4 act as antagonistic signals to regulate mammalian sex determination. PLoS Biol 4(6): e187. DOI: 10.1371/journal.pbio.0040187  Funding. This work was funded by grants from the National Institutes of Health to BC (HD39963), and to RRB (HD30284).
 T484	bold 41882 41903	Author contributions.
-#484	AnnotationNotes T484	bold
 T485	italic 42258 42262	Fgf9
-#485	AnnotationNotes T485	italic
 T486	italic 42267 42271	Wnt4
-#486	AnnotationNotes T486	italic
 T487	bold 42398 42406	Funding.
-#487	AnnotationNotes T487	bold

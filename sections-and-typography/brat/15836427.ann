@@ -1,906 +1,453 @@
 T0	section 0 91	A Developmental Switch in the Response of DRG Neurons to ETS Transcription Factor Signaling
-#0	AnnotationNotes T0	section
-T1	section 93 953	Abstract
-#1	AnnotationNotes T1	section
-T2	section 955 5301	Introduction
-#2	AnnotationNotes T2	section
+T1	section 93 101;102 102;103 953	Abstract  Two ETS transcription factors of the Pea3 subfamily are induced in subpopulations of dorsal root ganglion (DRG) sensory and spinal motor neurons by target-derived factors. Their expression controls late aspects of neuronal differentiation such as target invasion and branching. Here, we show that the late onset of ETS gene expression is an essential requirement for normal sensory neuron differentiation. We provide genetic evidence in the mouse that precocious ETS expression in DRG sensory neurons perturbs axonal projections, the acquisition of terminal differentiation markers, and their dependence on neurotrophic support. Together, our findings indicate that DRG sensory neurons exhibit a temporal developmental switch that can be revealed by distinct responses to ETS transcription factor signaling at sequential steps of neuronal maturation.
+T2	section 955 967;968 968;969 1703;1704 1704;1705 2566;2567 2567;2568 3951;3952 3952;3953 5301	Introduction  Neuronal differentiation is a protracted process during which newly generated neurons express distinct cellular and molecular programs at precise times during their maturation: long-distance axon outgrowth, subsequent terminal branching, and finally synaptogenesis. Many important aspects of neuronal character appear to be acquired through the expression of transcription factors at progenitor cell stages, whereas others depend on expression immediately upon cell cycle exit [1]. But whether the orderly expression and activity of transcriptional programs at much later developmental stages, well after cell cycle exit, is an essential step in the progression of neuronal differentiation and circuit assembly has yet to be resolved.  The differentiation of sensory neurons of dorsal root ganglia (DRG) has been studied extensively with respect to inductive events that specify neuronal fate [2,3], as well as the involvement of late target-derived neurotrophic factors in the control of neuronal survival [4]. Recent evidence has begun to emerge that target-derived factors are also involved in regulating later aspects of neuronal differentiation [5,6,7]. In particular, genetic experiments have addressed the survival-independent role of neurotrophic factors during development by exploiting strains of mice defective both in neurotrophin signaling and in the function of the proapoptotic gene Bax [8,9]. These studies, for example, have revealed that neurotrophin signaling controls the acquisition of peptidergic traits in nociceptive DRG neurons and the control of target innervation [8,9].  The onset of some transcriptional programs in neurons, however, has also been shown to occur long after neurons exit the cell cycle. An emerging principle from work in Drosophila and vertebrates is that target-derived factors play a crucial role in the induction of these transcriptional programs [10]. In Drosophila, retrograde BMP signals from the target region control the terminal differentiation of a subpopulation of peptidergic neurons expressing Apterous and Squeeze [11,12]. In vertebrates, peripheral neurotrophic signals have been shown to direct the onset of expression of the ETS transcription factors Er81 and Pea3 in DRG sensory neurons and motor neuron pools several days after these neurons have become post-mitotic [9,13,14,15,16]. Moreover, the induction of Er81 expression in proprioceptive afferents is known to be mediated by peripheral neurotrophin 3 (NT-3) [9]. These two ETS proteins control late aspects of spinal monosynaptic circuit assembly, with Er81 directing proprioceptive sensory neuron differentiation and Pea3 directing motor neuron pool differentiation, respectively [14,15]. In particular, in the absence of Er81, achieved by mutation in the gene or by deprivation of peripheral neurotrophin signaling, group Ia proprioceptive afferents fail to invade the ventral spinal cord and to make effective synaptic connections with motor neurons [9,14].  The involvement of target-derived signals in induction of ETS transcription factor expression raises the question of the necessity for the observed delay in the onset of ETS signaling for neuronal maturation. Would precocious expression of ETS proteins in post-mitotic neurons also direct the appropriate sensory neuron developmental programs? In this study, we have used mouse genetics to test this general idea, by investigating whether the precise timing of onset of ETS transcription factor signaling is essential for normal sensory neuron development. We have assessed the biological effects of inducing ETS signaling either at the correct developmental time, or precociously. We find that within proprioceptive sensory neurons, the late onset of ETS signaling is essential for the establishment of normal sensory afferent projections in the spinal cord. Precocious initiation of ETS signaling in post-mitotic DRG neurons leads to abnormal DRG neuron differentiation characterized by neurotrophin-independent neurite outgrowth and inappropriate profiles of gene expression. Our findings reveal that target-triggered inductive signals provide an effective means of ensuring the late onset of expression of transcription factors, and thus an orderly temporal transcriptional sequence that is crucial for neuronal maturation and circuit assembly.
 T3	italic 2367 2370	Bax
-#3	AnnotationNotes T3	italic
 T4	italic 2736 2746	Drosophila
-#4	AnnotationNotes T4	italic
 T5	italic 2874 2885	Drosophila,
-#5	AnnotationNotes T5	italic
 T6	italic 3714 3719	Er81,
-#6	AnnotationNotes T6	italic
-T7	section 5303 23087	Results
-#7	AnnotationNotes T7	section
+T7	section 5303 5310;5311 5311;5312 6149;6150 6150;6151 6224;6225 6225;6226 7491;7492 7492;7493 8689;8690 8690;8691 10284;10285 10285;10286 10369;10370 10370;10371 11187;11188 11188;11189 12795;12796 12796;12797 13741;13742 13742;13743 13838;13839 13839;13840 14304;14305 14305;14306 15424;15425 15425;15426 16417;16418 16418;16419 17312;17313 17313;17314 18089;18090 18090;18091 19195;19196 19196;19197 20116;20117 20117;20118 20223;20224 20224;20225 20871;20872 20872;20873 23087	Results  To test the hypothesis that a temporal delay in the onset of transcriptional programs is crucial for the control of appropriate neuronal maturation, we studied the development of proprioceptive DRG neurons, since transcriptional effectors regulated by target-derived signals, as well as some of their downstream biological actions, have been identified for these neurons. Er81 controls proprioceptive afferent connectivity [14], and we therefore sought to identify an ETS transcriptional regulator that, when expressed over the normal time course of Er81 expression, is able to substitute for Er81 function within group Ia afferent sensory neurons. With this reference point, we then designed experiments to examine the effects of precocious post-mitotic expression of the same ETS transcription factor on sensory neuron differentiation.  EWS-Pea3 Can Replace Er81 Function in Controlling Ia Afferent Projections  We first defined an ETS transcription regulator that is able to replace the function of Er81 within proprioceptive afferents to direct projections into the ventral spinal cord. Er81, Pea3, and Erm constitute the Pea3 subfamily of ETS transcription factors, show a high degree of amino acid identity, and bind to very similar DNA target sequences [17,18,19]. Nevertheless, when introduced into the Er81 locus in analogy to a previously used targeting strategy (data not shown; [14]), neither Pea3 nor Erm could rescue Ia proprioceptive afferent projections to extensively invade the ventral horn of the spinal cord (data not shown). These findings prompted us to analyze mice in which we integrated EWS-Pea3, a break-point fusion product between the amino-terminal domain of the Ewing sarcoma (EWS) gene and the Pea3 DNA binding domain [20,21], into the Er81 locus (Figure 1). We found that in a luciferase-enzyme-based cell culture transfection assay, EWS-Pea3 showed stronger transactivation activity than Er81 or Pea3 (Figure 1J; data not shown), in agreement with previous studies [22,23,24]. Moreover, transactivation by EWS-Pea3 was abolished by mutation of ETS-binding sites in the reporter plasmid, demonstrating ETS-binding-site dependence (data not shown).  Expression of Er81 in DRG neurons of embryos containing integration of EWS-Pea3 in the Er81 locus (Er81EWS-Pea3/?) was abolished (Figure 1E), and the expression level of the calcium-binding protein Parvalbumin (PV) in proprioceptive afferents, which is decreased approximately 5- to 10-fold in Er81 mutants [14], was comparable to wild-type levels in Er81EWS-Pea3/? embryos (Figure 1F–1H). To further define DRG neuron differentiation in the presence of EWS-Pea3 in proprioceptive afferents in vivo, we assessed whether replacement of Er81 by EWS-Pea3 had an influence on neuronal survival or on the expression of proprioceptive-afferent-specific genes. Er81EWS-Pea3/? mice did not differ from wild-type in the number of proprioceptive afferent cell bodies within the DRG of L1 to L5, the expression of several genes normally expressed by proprioceptive afferents, and the lack of expression of genes not normally expressed in proprioceptive afferents (Figure S1; data not shown). Together, these findings suggest that the expression of EWS-Pea3 from the normal time of onset mimics the function of Er81 as assessed by induction and maintenance of gene expression within proprioceptive afferents.  To determine the extent of rescue of Ia proprioceptive afferent projections into the ventral spinal cord of Er81 mutant mice achieved by expression of EWS-Pea3, we traced intraspinal afferent projections by axonal labeling of PV (Figure 2A–2C). In addition, to analyze axon ingrowth independent of the level of PV expression in DRG neurons, we used anterograde labeling of afferent fibers by applying fluorescently labeled dextran to cut dorsal roots (Figure 2D–2F). Using both assays, we found extensive rescue of the projections into the ventral horn of the spinal cord in Er81EWS-Pea3/? mice (Figure 2C and 2F). Within the ventral horn, Ia afferents in both wild-type and Er81EWS-Pea3/? mice formed vGlut1+ terminals that were absent in Er81 mutant mice (Figure 2G–2I). To assess whether synapses between Ia afferents and motor neurons are functional in Er81EWS-Pea3/? mice, we performed intracellular recordings from identified quadriceps motor neurons after stimulation of nerves innervating the quadriceps muscle group. We found no significant difference in the input amplitude to quadriceps motor neurons when comparing wild-type to Er81EWS-Pea3/? mice (Figure S2; wild-type, 10.6 ± 0.9 mV, n = 11; Er81EWS-Pea3/?, 10.9 ± 1 mV, n = 8). Together, these findings suggest that in the absence of Er81, EWS-Pea3 can direct the complex biological process of correct laminar termination within the ventral spinal cord and the formation of synapses with motor neurons (Figure 2J–2L), thus identifying an ETS transcription factor suitable for heterochronic expression experiments in DRG neurons.  Precocious Expression of EWS-Pea3 in DRG Neurons Leads to Axonal Projection Defects  To address the consequences of precocious ETS signaling for proprioceptive afferent differentiation, we next expressed EWS-Pea3 in DRG neurons as soon as they became post-mitotic. We used a binary mouse genetic system based on Cre-recombinase-mediated excision of a transcriptional stop cassette flanked by loxP sites. Targeting cassettes were integrated into the Tau locus to generate two strains of mice conditionally expressing either EWS-Pea3 or a membrane-targeted green fluorescent protein (mGFP) to trace axonal projections of DRG neurons (Figure S3; [25]). Embryos positive for either Isl1Cre/+ and TauEWS-Pea3/+ or Isl1Cre/+ and TaumGFP/+ alleles showed efficient activation of the silent Tau allele in 95% or more of all DRG neurons, including proprioceptive afferents, at all segmental levels (Figure S3).  We first assessed the influence of EWS-Pea3 expression in early post-mitotic DRG neurons on the establishment of afferent projections into the spinal cord using the TaumGFP/+ allele or a Thy1-promoter-driven synaptophysin green fluorescent protein (spGFP) with an expression profile restricted to DRG sensory neurons at embryonic day (E) 13.5 (Thy1spGFP; [25]) (Figure 3). In contrast to wild-type proprioceptive afferent projections (Figure 3A–3C), GFP+ sensory afferents in TauEWS-Pea3/+ Isl1Cre/+ embryos failed to invade the spinal cord and instead were found in an extreme lateral position at the dorsal root entry zone, a phenotype observed at least up to E18.5 (Figure 3A–3C and 3G–3I; data not shown). We next visualized the path of sensory afferent projections towards the dorsal root entry zone in TauEWS-Pea3/+ Isl1Cre/+ embryos by injecting fluorescently labeled dextran into an individual DRG (L3; n = 3; Figure 3M–3Q). Sensory afferents in E13.5 wild-type embryos bifurcated at their lateral spinal entry point, and projected rostrally and caudally over six or more segmental levels while gradually approaching the midline (Figure 3M). Sensory afferents in TauEWS-Pea3/+ Isl1Cre/+ embryos also bifurcated at the entry point, although approximately 5% of afferent fibers continued to grow towards the midline (Figure 3O and 3Q). While rostro-caudal projections were present in TauEWS-Pea3/+ Isl1Cre/+ embryos, afferent fibers failed to approach the midline at distal segments and continued to occupy an extreme lateral position (Figure 3O), consistent with the analysis of transverse sections.  We next examined the establishment of peripheral projections upon precocious EWS-Pea3 expression in DRG neurons. While sensory axons in TauEWS-Pea3/+ Isl1Cre/+ embryos reached the skin and established major nerve trunks by E16.5, only rudimentary sensory axon branching was established within the skin (Figure 3D and 3J). In addition, there was a significant reduction in the number of muscle spindles in TauEWS-Pea3/+ Isl1Cre/+ embryos (approximately 25% of wild-type complement; n = 3) as assessed by innervation and expression of genes specific for intrafusal muscle fibers such as Egr3 (Figure 3E, 3F, 3K, and 3L; [26]). In summary, whereas isochronic expression of EWS-Pea3 promoted the establishment of proprioceptive afferent projections into the ventral spinal cord, precocious expression of the same ETS signaling factor in DRG neurons interfered with establishment of projections into the spinal cord as well as to peripheral targets.  Precocious EWS-Pea3 Expression Promotes Neurotrophin-Independent Survival and Neurite Outgrowth  To begin to address the cellular and molecular mechanisms involved in the distinct biological actions of EWS-Pea3 at different developmental stages, we first turned to in vitro culture experiments. These experiments permit assessment of whether precocious ETS transcription factor signaling influences neuronal survival and in vitro neurite outgrowth of DRG neurons, two parameters prominently influenced by target-derived neurotrophic factors and their receptors.  We cultured E13.5 whole DRG explants from wild-type and TauEWS-Pea3/+ Isl1Cre/+ embryos in the presence of NGF or NT-3 or in the absence of neurotrophins and analyzed neuronal survival and neurite outgrowth on matrigel substrate after 48 h in vitro. Without neurotrophic support, very few wild-type DRG neurons survived (Figure 4A). In contrast, culturing wild-type DRG with neurotrophic factors led to neuronal survival and neurite outgrowth. Addition of NGF, which supports survival of cutaneous afferents, resulted in straight and unbranched neurite outgrowth (Figure 4B), while cultures grown in the presence of NT-3, which supports survival of proprioceptive afferents, resulted in a highly branched neurite outgrowth pattern after 48 h in vitro (Figure 4C). Surprisingly, DRG neurons isolated from TauEWS-Pea3/+ Isl1Cre/+ embryos and cultured without neurotrophic support survived after 48 h in vitro and had established long and highly branched neurites (Figure 4D). Neither the pattern of neurite outgrowth nor neuronal survival changed significantly after application of either NGF or NT-3 (Figure 4E and 4F).  To directly compare neurotrophin dependence of DRG neurons expressing EWS-Pea3 from the Tau locus at a precocious versus isochronic time of onset, we generated a strain of mice in which Cre recombinase is expressed from the PV locus (Figure S4). The expression of GFP in TaumGFP/+ PVCre/+ was restricted to PV+ proprioceptive DRG neurons and mirrored the onset of expression of PV at approximately E14 (Figure S4; data not shown). We next cultured E14.5 whole DRG explants from TauEWS-Pea3/+ PVCre/+ and TaumGFP/+ PVCre/+ mice for 48 h in vitro in the presence or absence of NT-3 (Figure 5). We found that DRG neurons from both genotypes survived and extended neurites only in the presence of NT-3, whereas they died in the absence of NT-3 (Figure 5). Together, these findings suggest that only precocious but not isochronic ETS signaling in DRG neurons is capable of uncoupling survival and neurite outgrowth from a requirement for neurotrophin signaling normally observed in wild-type DRG.  To determine whether neuronal survival of DRG neurons from TauEWS-Pea3/+ Isl1Cre/+ embryos in the absence of neurotrophic support is sufficient to explain the observed neuronal outgrowth, we analyzed DRG isolated from mice mutant in the proapoptotic gene Bax [27]. Consistent with previous results, Bax?/? DRG neurons survived without neurotrophic support [28]. In contrast, neurite outgrowth of Bax?/? DRG neurons was significantly less (see Figure 4G) than that of either DRG from TauEWS-Pea3/+ Isl1Cre/+ embryos cultured in the absence of neurotrophic support (see Figure 4D) or Bax?/? DRG neurons cultured in the presence of neurotrophic support (see Figure 4H and 4I). These findings suggest that in addition to mediating neurotrophin-independent neuronal survival, expression of EWS-Pea3 in early post-mitotic neurons also promotes neurite outgrowth in a neurotrophin-independent manner.  To begin to assess at which step of the neurotrophin signaling cascade DRG neurons from TauEWS-Pea3/+ Isl1Cre/+ embryos become unresponsive to the addition of neurotrophins, we assayed the expression of neurotrophin receptors in TauEWS-Pea3/+ Isl1Cre/+ embryos (Figure 6). Whereas expression of the neurotrophin receptors TrkA, TrkB, and TrkC marks afferents of distinct sensory modalities in DRG of wild-type embryos (Figure 6A–6C) [4,29], TauEWS-Pea3/+ Isl1Cre/+ embryos showed complete absence of expression of TrkA, TrkB, and TrkC in DRG neurons at E16.5 (Figure 6G–6I). This absence of Trk receptor expression in DRG of TauEWS-Pea3/+ Isl1Cre/+ embryos provides a likely explanation for the lack of responsiveness of these neurons to the addition of neurotrophic factors.  We next assayed whether the complete absence of Trk receptor expression in TauEWS-Pea3/+ Isl1Cre/+ embryos had an influence on naturally occurring cell death in vivo using TUNEL on DRG sections. Surprisingly, we found that apoptosis was decreased by approximately 50% (n = 3 embryos, average of >50 sections) in DRG of TauEWS-Pea3/+ Isl1Cre/+ embryos in comparison to wild-type (Figure 6D, 6J, and 6M). Quantitative analysis of the number of neurons in lumbar DRG of TauEWS-Pea3/+ Isl1Cre/+ embryos revealed a significant increase to approximately 170% of wild-type levels (Figure 6E, 6K, and 6N). Moreover, BrdU pulse-chase experiments ruled out the possibility that DRG neurons in TauEWS-Pea3/+ Isl1Cre/+ embryos reenter the cell cycle (no BrdU+/LacZ+ cells, n = 3 embryos, analysis of >50 sections each; Figure 6F and 6L). Together with the in vitro culture experiments, these findings suggest that DRG neurons from TauEWS-Pea3/+ Isl1Cre/+ embryos remain post-mitotic but fail to become sensitive to naturally occurring cell death, and survive in the absence of Trk receptors and neurotrophic support.  We next analyzed whether changes in the expression of proteins known to be involved in the regulation of neuronal survival or cell death could be detected in DRG of TauEWS-Pea3/+ Isl1Cre/+ embryos. We found no significant quantitative changes in the level of Akt/p-Akt or CREB/p-CREB in DRG (Figure 6O and 6P) both of which have been shown to be key regulators of neuronal survival [29]. Moreover, the level of the proapoptotic Bcl2 family member Bax was not significantly reduced (Figure 6O and 6P). In contrast, the expression level of the anti-apoptotic Bcl2 family members Bcl-xl and Bcl2 was significantly increased when compared to wild-type levels (Bcl2, 157%; Bcl-xl, 259%; average of n = 3 independent experiments; Figure 6O and 6P), providing a potential molecular explanation for the enhanced neuronal survival of DRG neurons of TauEWS-Pea3/+ Isl1Cre/+ embryos in the absence of Trk receptor expression [30].  Only Precocious but Not Isochronic ETS Signaling in DRG Neurons Interferes with Neuronal Fate Acquisition  The observed differences in neuronal survival and neurite outgrowth between precocious and isochronic expression of EWS-Pea3 prompted us to perform a direct comparative analysis of gene expression between mice with precocious EWS-Pea3 expression and mice in which the expression of EWS-Pea3 is initiated in DRG sensory neurons from the time of normal onset of Er81 expression. Moreover, to rule out the possibility that a differential effect may be due to the different genetic strategies by which expression of EWS-Pea3 in proprioceptive afferents is achieved, we performed this analysis both in Er81EWS-Pea3/? and TauEWS-Pea3/+ PVCre/+ embryos.  We first analyzed expression of TrkC, a gene downregulated in DRG neurons of TauEWS-Pea3/+ Isl1Cre/+ embryos (Figure 7A and 7B). The level of expression of TrkC was indistinguishable from wild-type in DRG neurons of Er81EWS-Pea3/? and TauEWS-Pea3/+ PVCre/+ embryos (Figure 7A, 7C, and 7D). Moreover, PV was not expressed in DRG neurons of TauEWS-Pea3/+ Isl1Cre/+ embryos (Figure S5) but was expressed by proprioceptive afferents in both wild-type and Er81EWS-Pea3/? embryos (see Figures 1 and S5) [14]. We also found several genes that were ectopically upregulated in DRG neurons of TauEWS-Pea3/+ Isl1Cre/+ embryos (Figure 7). Calretinin and Calbindin, two different calcium-binding proteins expressed by subpopulations of DRG neurons in wild-type, Er81EWS-Pea3/?, and TauEWS-Pea3/+ PVCre/+ embryos (Figure 7E, 7G, and 7H; data not shown) [31,32], were induced in more than 95% of all DRG neurons of TauEWS-Pea3/+ Isl1Cre/+ embryos (Figures 7F and S5). These findings suggest that DRG neurons in TauEWS-Pea3/+ Isl1Cre/+ embryos fail to differentiate to a normal fate and instead acquire an aberrant identity distinct from any subpopulation of wild-type DRG neurons. Finally, to assess whether EWS-Pea3 expressed precociously acts exclusively cell-autonomously or whether it may also influence neighboring DRG neurons, we activated expression of EWS-Pea3 using Hb9Cre mice [33]. Due to a transient and rostro-caudally graded expression of Hb9 at neural plate stages, very few DRG neurons at brachial levels and increasingly more neurons progressing caudally undergo recombination in TauEWS-Pea3/+ Hb9Cre/+ and TaumGFP/+ Hb9Cre/+ embryos (Figure 8). Nevertheless, downregulation of Trk receptor expression or upregulation of Calretinin is restricted exclusively to neurons that have undergone recombination and cannot be observed in TaumGFP/+ Hb9Cre/+ embryos (Figure 8). Together, these results and the findings obtained from in vitro culture experiments (see Figures 4 and 5) demonstrate that precocious or isochronic expression of EWS-Pea3 in the same neurons leads to significantly different cell-autonomous cellular responses with respect to gene expression, neuronal survival, and neurite outgrowth (Figure 9).
 T8	italic 6151 6159	EWS-Pea3
-#8	AnnotationNotes T8	italic
 T9	italic 6172 6176	Er81
-#9	AnnotationNotes T9	italic
 T10	italic 6623 6627	Er81
-#10	AnnotationNotes T10	italic
 T11	italic 6717 6721	Pea3
-#11	AnnotationNotes T11	italic
 T12	italic 6726 6729	Erm
-#12	AnnotationNotes T12	italic
 T13	italic 6924 6933	EWS-Pea3,
-#13	AnnotationNotes T13	italic
 T14	italic 7079 7083	Er81
-#14	AnnotationNotes T14	italic
 T15	italic 7564 7572	EWS-Pea3
-#15	AnnotationNotes T15	italic
 T16	italic 7580 7584	Er81
-#16	AnnotationNotes T16	italic
 T17	italic 7592 7606	Er81EWS-Pea3/?
-#17	AnnotationNotes T17	italic
 T18	sup 7596 7606	EWS-Pea3/?
-#18	AnnotationNotes T18	sup
 T19	italic 7787 7791	Er81
-#19	AnnotationNotes T19	italic
 T20	italic 7844 7858	Er81EWS-Pea3/?
-#20	AnnotationNotes T20	italic
 T21	sup 7848 7858	EWS-Pea3/?
-#21	AnnotationNotes T21	sup
 T22	italic 7947 7955	EWS-Pea3
-#22	AnnotationNotes T22	italic
 T23	italic 8028 8032	Er81
-#23	AnnotationNotes T23	italic
 T24	italic 8036 8044	EWS-Pea3
-#24	AnnotationNotes T24	italic
 T25	italic 8147 8161	Er81EWS-Pea3/?
-#25	AnnotationNotes T25	italic
 T26	sup 8151 8161	EWS-Pea3/?
-#26	AnnotationNotes T26	sup
 T27	italic 8799 8803	Er81
-#27	AnnotationNotes T27	italic
 T28	italic 8842 8851	EWS-Pea3,
-#28	AnnotationNotes T28	italic
 T29	italic 9266 9280	Er81EWS-Pea3/?
-#29	AnnotationNotes T29	italic
 T30	sup 9270 9280	EWS-Pea3/?
-#30	AnnotationNotes T30	sup
 T31	italic 9366 9380	Er81EWS-Pea3/?
-#31	AnnotationNotes T31	italic
 T32	sup 9370 9380	EWS-Pea3/?
-#32	AnnotationNotes T32	sup
 T33	sup 9399 9400	+
-#33	AnnotationNotes T33	sup
 T34	italic 9431 9435	Er81
-#34	AnnotationNotes T34	italic
 T35	italic 9548 9562	Er81EWS-Pea3/?
-#35	AnnotationNotes T35	italic
 T36	sup 9552 9562	EWS-Pea3/?
-#36	AnnotationNotes T36	sup
 T37	italic 9831 9845	Er81EWS-Pea3/?
-#37	AnnotationNotes T37	italic
 T38	sup 9835 9845	EWS-Pea3/?
-#38	AnnotationNotes T38	sup
 T39	italic 9889 9890	n
-#39	AnnotationNotes T39	italic
 T40	italic 9897 9911	Er81EWS-Pea3/?
-#40	AnnotationNotes T40	italic
 T41	sup 9901 9911	EWS-Pea3/?
-#41	AnnotationNotes T41	sup
 T42	italic 9926 9927	n
-#42	AnnotationNotes T42	italic
 T43	italic 9990 10004	Er81, EWS-Pea3
-#43	AnnotationNotes T43	italic
 T44	italic 10311 10319	EWS-Pea3
-#44	AnnotationNotes T44	italic
 T45	italic 10678 10682	loxP
-#45	AnnotationNotes T45	italic
 T46	italic 10735 10738	Tau
-#46	AnnotationNotes T46	italic
 T47	italic 10809 10817	EWS-Pea3
-#47	AnnotationNotes T47	italic
 T48	italic 10964 10973	Isl1Cre/+
-#48	AnnotationNotes T48	italic
 T49	sup 10968 10973	Cre/+
-#49	AnnotationNotes T49	sup
 T50	italic 10978 10991	TauEWS-Pea3/+
-#50	AnnotationNotes T50	italic
 T51	sup 10981 10991	EWS-Pea3/+
-#51	AnnotationNotes T51	sup
 T52	italic 10995 11004	Isl1Cre/+
-#52	AnnotationNotes T52	italic
 T53	sup 10999 11004	Cre/+
-#53	AnnotationNotes T53	sup
 T54	italic 11009 11018	TaumGFP/+
-#54	AnnotationNotes T54	italic
 T55	sup 11012 11018	mGFP/+
-#55	AnnotationNotes T55	sup
 T56	italic 11069 11072	Tau
-#56	AnnotationNotes T56	italic
 T57	italic 11224 11232	EWS-Pea3
-#57	AnnotationNotes T57	italic
 T58	italic 11354 11363	TaumGFP/+
-#58	AnnotationNotes T58	italic
 T59	sup 11357 11363	mGFP/+
-#59	AnnotationNotes T59	sup
 T60	italic 11376 11380	Thy1
-#60	AnnotationNotes T60	italic
 T61	italic 11533 11543	Thy1spGFP;
-#61	AnnotationNotes T61	italic
 T62	sup 11537 11542	spGFP
-#62	AnnotationNotes T62	sup
 T63	sup 11642 11643	+
-#63	AnnotationNotes T63	sup
 T64	italic 11665 11688	TauEWS-Pea3/+ Isl1Cre/+
-#64	AnnotationNotes T64	italic
 T65	sup 11668 11678	EWS-Pea3/+
-#65	AnnotationNotes T65	sup
 T66	sup 11683 11688	Cre/+
-#66	AnnotationNotes T66	sup
 T67	italic 11997 12020	TauEWS-Pea3/+ Isl1Cre/+
-#67	AnnotationNotes T67	italic
 T68	sup 12000 12010	EWS-Pea3/+
-#68	AnnotationNotes T68	sup
 T69	sup 12015 12020	Cre/+
-#69	AnnotationNotes T69	sup
 T70	italic 12100 12101	n
-#70	AnnotationNotes T70	italic
 T71	italic 12360 12383	TauEWS-Pea3/+ Isl1Cre/+
-#71	AnnotationNotes T71	italic
 T72	sup 12363 12373	EWS-Pea3/+
-#72	AnnotationNotes T72	sup
 T73	sup 12378 12383	Cre/+
-#73	AnnotationNotes T73	sup
 T74	italic 12579 12602	TauEWS-Pea3/+ Isl1Cre/+
-#74	AnnotationNotes T74	italic
 T75	sup 12582 12592	EWS-Pea3/+
-#75	AnnotationNotes T75	sup
 T76	sup 12597 12602	Cre/+
-#76	AnnotationNotes T76	sup
 T77	italic 12874 12882	EWS-Pea3
-#77	AnnotationNotes T77	italic
 T78	italic 12933 12956	TauEWS-Pea3/+ Isl1Cre/+
-#78	AnnotationNotes T78	italic
 T79	sup 12936 12946	EWS-Pea3/+
-#79	AnnotationNotes T79	sup
 T80	sup 12951 12956	Cre/+
-#80	AnnotationNotes T80	sup
 T81	italic 13202 13225	TauEWS-Pea3/+ Isl1Cre/+
-#81	AnnotationNotes T81	italic
 T82	sup 13205 13215	EWS-Pea3/+
-#82	AnnotationNotes T82	sup
 T83	sup 13220 13225	Cre/+
-#83	AnnotationNotes T83	sup
 T84	italic 13278 13279	n
-#84	AnnotationNotes T84	italic
 T85	italic 13382 13386	Egr3
-#85	AnnotationNotes T85	italic
 T86	italic 13467 13475	EWS-Pea3
-#86	AnnotationNotes T86	italic
 T87	italic 13754 13762	EWS-Pea3
-#87	AnnotationNotes T87	italic
 T88	italic 13945 13953	EWS-Pea3
-#88	AnnotationNotes T88	italic
 T89	italic 14362 14385	TauEWS-Pea3/+ Isl1Cre/+
-#89	AnnotationNotes T89	italic
 T90	sup 14365 14375	EWS-Pea3/+
-#90	AnnotationNotes T90	sup
 T91	sup 14380 14385	Cre/+
-#91	AnnotationNotes T91	sup
 T92	italic 15110 15133	TauEWS-Pea3/+ Isl1Cre/+
-#92	AnnotationNotes T92	italic
 T93	sup 15113 15123	EWS-Pea3/+
-#93	AnnotationNotes T93	sup
 T94	sup 15128 15133	Cre/+
-#94	AnnotationNotes T94	sup
 T95	italic 15496 15504	EWS-Pea3
-#95	AnnotationNotes T95	italic
 T96	italic 15514 15517	Tau
-#96	AnnotationNotes T96	italic
 T97	italic 15612 15615	Cre
-#97	AnnotationNotes T97	italic
 T98	italic 15650 15652	PV
-#98	AnnotationNotes T98	italic
 T99	italic 15697 15714	TaumGFP/+ PVCre/+
-#99	AnnotationNotes T99	italic
 T100	sup 15700 15706	mGFP/+
-#100	AnnotationNotes T100	sup
 T101	sup 15709 15714	Cre/+
-#101	AnnotationNotes T101	sup
 T102	sup 15735 15736	+
-#102	AnnotationNotes T102	sup
 T103	italic 15904 15925	TauEWS-Pea3/+ PVCre/+
-#103	AnnotationNotes T103	italic
 T104	sup 15907 15917	EWS-Pea3/+
-#104	AnnotationNotes T104	sup
 T105	sup 15920 15925	Cre/+
-#105	AnnotationNotes T105	sup
 T106	italic 15930 15947	TaumGFP/+ PVCre/+
-#106	AnnotationNotes T106	italic
 T107	sup 15933 15939	mGFP/+
-#107	AnnotationNotes T107	sup
 T108	sup 15942 15947	Cre/+
-#108	AnnotationNotes T108	sup
 T109	italic 16478 16501	TauEWS-Pea3/+ Isl1Cre/+
-#109	AnnotationNotes T109	italic
 T110	sup 16481 16491	EWS-Pea3/+
-#110	AnnotationNotes T110	sup
 T111	sup 16496 16501	Cre/+
-#111	AnnotationNotes T111	sup
 T112	italic 16674 16677	Bax
-#112	AnnotationNotes T112	italic
 T113	italic 16718 16724	Bax?/?
-#113	AnnotationNotes T113	italic
 T114	sup 16721 16724	?/?
-#114	AnnotationNotes T114	sup
 T115	italic 16815 16821	Bax?/?
-#115	AnnotationNotes T115	italic
 T116	sup 16818 16821	?/?
-#116	AnnotationNotes T116	sup
 T117	italic 16902 16925	TauEWS-Pea3/+ Isl1Cre/+
-#117	AnnotationNotes T117	italic
 T118	sup 16905 16915	EWS-Pea3/+
-#118	AnnotationNotes T118	sup
 T119	sup 16920 16925	Cre/+
-#119	AnnotationNotes T119	sup
 T120	italic 17001 17007	Bax?/?
-#120	AnnotationNotes T120	italic
 T121	sup 17004 17007	?/?
-#121	AnnotationNotes T121	sup
 T122	italic 17204 17212	EWS-Pea3
-#122	AnnotationNotes T122	italic
 T123	italic 17402 17425	TauEWS-Pea3/+ Isl1Cre/+
-#123	AnnotationNotes T123	italic
 T124	sup 17405 17415	EWS-Pea3/+
-#124	AnnotationNotes T124	sup
 T125	sup 17420 17425	Cre/+
-#125	AnnotationNotes T125	sup
 T126	italic 17543 17566	TauEWS-Pea3/+ Isl1Cre/+
-#126	AnnotationNotes T126	italic
 T127	sup 17546 17556	EWS-Pea3/+
-#127	AnnotationNotes T127	sup
 T128	sup 17561 17566	Cre/+
-#128	AnnotationNotes T128	sup
 T129	italic 17636 17640	TrkA
-#129	AnnotationNotes T129	italic
 T130	italic 17642 17647	TrkB,
-#130	AnnotationNotes T130	italic
 T131	italic 17652 17656	TrkC
-#131	AnnotationNotes T131	italic
 T132	italic 17755 17778	TauEWS-Pea3/+ Isl1Cre/+
-#132	AnnotationNotes T132	italic
 T133	sup 17758 17768	EWS-Pea3/+
-#133	AnnotationNotes T133	sup
 T134	sup 17773 17778	Cre/+
-#134	AnnotationNotes T134	sup
 T135	italic 17828 17832	TrkA
-#135	AnnotationNotes T135	italic
 T136	italic 17834 17839	TrkB,
-#136	AnnotationNotes T136	italic
 T137	italic 17844 17848	TrkC
-#137	AnnotationNotes T137	italic
 T138	italic 17939 17962	TauEWS-Pea3/+ Isl1Cre/+
-#138	AnnotationNotes T138	italic
 T139	sup 17942 17952	EWS-Pea3/+
-#139	AnnotationNotes T139	sup
 T140	sup 17957 17962	Cre/+
-#140	AnnotationNotes T140	sup
 T141	italic 18139 18142	Trk
-#141	AnnotationNotes T141	italic
 T142	italic 18166 18189	TauEWS-Pea3/+ Isl1Cre/+
-#142	AnnotationNotes T142	italic
 T143	sup 18169 18179	EWS-Pea3/+
-#143	AnnotationNotes T143	sup
 T144	sup 18184 18189	Cre/+
-#144	AnnotationNotes T144	sup
 T145	italic 18360 18361	n
-#145	AnnotationNotes T145	italic
 T146	italic 18410 18433	TauEWS-Pea3/+ Isl1Cre/+
-#146	AnnotationNotes T146	italic
 T147	sup 18413 18423	EWS-Pea3/+
-#147	AnnotationNotes T147	sup
 T148	sup 18428 18433	Cre/+
-#148	AnnotationNotes T148	sup
 T149	italic 18558 18581	TauEWS-Pea3/+ Isl1Cre/+
-#149	AnnotationNotes T149	italic
 T150	sup 18561 18571	EWS-Pea3/+
-#150	AnnotationNotes T150	sup
 T151	sup 18576 18581	Cre/+
-#151	AnnotationNotes T151	sup
 T152	italic 18774 18797	TauEWS-Pea3/+ Isl1Cre/+
-#152	AnnotationNotes T152	italic
 T153	sup 18777 18787	EWS-Pea3/+
-#153	AnnotationNotes T153	sup
 T154	sup 18792 18797	Cre/+
-#154	AnnotationNotes T154	sup
 T155	sup 18837 18838	+
-#155	AnnotationNotes T155	sup
 T156	sup 18843 18844	+
-#156	AnnotationNotes T156	sup
 T157	italic 18852 18853	n
-#157	AnnotationNotes T157	italic
 T158	italic 19010 19033	TauEWS-Pea3/+ Isl1Cre/+
-#158	AnnotationNotes T158	italic
 T159	sup 19013 19023	EWS-Pea3/+
-#159	AnnotationNotes T159	sup
 T160	sup 19028 19033	Cre/+
-#160	AnnotationNotes T160	sup
 T161	italic 19156 19159	Trk
-#161	AnnotationNotes T161	italic
 T162	italic 19362 19385	TauEWS-Pea3/+ Isl1Cre/+
-#162	AnnotationNotes T162	italic
 T163	sup 19365 19375	EWS-Pea3/+
-#163	AnnotationNotes T163	sup
 T164	sup 19380 19385	Cre/+
-#164	AnnotationNotes T164	sup
 T165	italic 19890 19891	n
-#165	AnnotationNotes T165	italic
 T166	italic 20037 20060	TauEWS-Pea3/+ Isl1Cre/+
-#166	AnnotationNotes T166	italic
 T167	sup 20040 20050	EWS-Pea3/+
-#167	AnnotationNotes T167	sup
 T168	sup 20055 20060	Cre/+
-#168	AnnotationNotes T168	sup
 T169	italic 20087 20090	Trk
-#169	AnnotationNotes T169	italic
 T170	italic 20507 20515	EWS-Pea3
-#170	AnnotationNotes T170	italic
 T171	italic 20737 20745	EWS-Pea3
-#171	AnnotationNotes T171	italic
 T172	italic 20822 20836	Er81EWS-Pea3/?
-#172	AnnotationNotes T172	italic
 T173	sup 20826 20836	EWS-Pea3/?
-#173	AnnotationNotes T173	sup
 T174	italic 20841 20862	TauEWS-Pea3/+ PVCre/+
-#174	AnnotationNotes T174	italic
 T175	sup 20844 20854	EWS-Pea3/+
-#175	AnnotationNotes T175	sup
 T176	sup 20857 20862	Cre/+
-#176	AnnotationNotes T176	sup
 T177	italic 20905 20910	TrkC,
-#177	AnnotationNotes T177	italic
 T178	italic 20950 20973	TauEWS-Pea3/+ Isl1Cre/+
-#178	AnnotationNotes T178	italic
 T179	sup 20953 20963	EWS-Pea3/+
-#179	AnnotationNotes T179	sup
 T180	sup 20968 20973	Cre/+
-#180	AnnotationNotes T180	sup
 T181	italic 21029 21033	TrkC
-#181	AnnotationNotes T181	italic
 T182	italic 21089 21103	Er81EWS-Pea3/?
-#182	AnnotationNotes T182	italic
 T183	sup 21093 21103	EWS-Pea3/?
-#183	AnnotationNotes T183	sup
 T184	italic 21108 21129	TauEWS-Pea3/+ PVCre/+
-#184	AnnotationNotes T184	italic
 T185	sup 21111 21121	EWS-Pea3/+
-#185	AnnotationNotes T185	sup
 T186	sup 21124 21129	Cre/+
-#186	AnnotationNotes T186	sup
 T187	italic 21212 21235	TauEWS-Pea3/+ Isl1Cre/+
-#187	AnnotationNotes T187	italic
 T188	sup 21215 21225	EWS-Pea3/+
-#188	AnnotationNotes T188	sup
 T189	sup 21230 21235	Cre/+
-#189	AnnotationNotes T189	sup
 T190	italic 21324 21338	Er81EWS-Pea3/?
-#190	AnnotationNotes T190	italic
 T191	sup 21328 21338	EWS-Pea3/?
-#191	AnnotationNotes T191	sup
 T192	italic 21456 21479	TauEWS-Pea3/+ Isl1Cre/+
-#192	AnnotationNotes T192	italic
 T193	sup 21459 21469	EWS-Pea3/+
-#193	AnnotationNotes T193	sup
 T194	sup 21474 21479	Cre/+
-#194	AnnotationNotes T194	sup
 T195	italic 21622 21637	Er81EWS-Pea3/?,
-#195	AnnotationNotes T195	italic
 T196	sup 21626 21636	EWS-Pea3/?
-#196	AnnotationNotes T196	sup
 T197	italic 21642 21663	TauEWS-Pea3/+ PVCre/+
-#197	AnnotationNotes T197	italic
 T198	sup 21645 21655	EWS-Pea3/+
-#198	AnnotationNotes T198	sup
 T199	sup 21658 21663	Cre/+
-#199	AnnotationNotes T199	sup
 T200	italic 21773 21796	TauEWS-Pea3/+ Isl1Cre/+
-#200	AnnotationNotes T200	italic
 T201	sup 21776 21786	EWS-Pea3/+
-#201	AnnotationNotes T201	sup
 T202	sup 21791 21796	Cre/+
-#202	AnnotationNotes T202	sup
 T203	italic 21869 21892	TauEWS-Pea3/+ Isl1Cre/+
-#203	AnnotationNotes T203	italic
 T204	sup 21872 21882	EWS-Pea3/+
-#204	AnnotationNotes T204	sup
 T205	sup 21887 21892	Cre/+
-#205	AnnotationNotes T205	sup
 T206	italic 22233 22239	Hb9Cre
-#206	AnnotationNotes T206	italic
 T207	sup 22236 22239	Cre
-#207	AnnotationNotes T207	sup
 T208	italic 22311 22314	Hb9
-#208	AnnotationNotes T208	italic
 T209	italic 22455 22477	TauEWS-Pea3/+ Hb9Cre/+
-#209	AnnotationNotes T209	italic
 T210	sup 22458 22468	EWS-Pea3/+
-#210	AnnotationNotes T210	sup
 T211	sup 22472 22477	Cre/+
-#211	AnnotationNotes T211	sup
 T212	italic 22482 22500	TaumGFP/+ Hb9Cre/+
-#212	AnnotationNotes T212	italic
 T213	sup 22485 22491	mGFP/+
-#213	AnnotationNotes T213	sup
 T214	sup 22495 22500	Cre/+
-#214	AnnotationNotes T214	sup
 T215	italic 22704 22722	TaumGFP/+ Hb9Cre/+
-#215	AnnotationNotes T215	italic
 T216	sup 22707 22713	mGFP/+
-#216	AnnotationNotes T216	sup
 T217	sup 22717 22722	Cre/+
-#217	AnnotationNotes T217	sup
 T218	italic 22905 22913	EWS-Pea3
-#218	AnnotationNotes T218	italic
-T219	section 23089 29528	Discussion
-#219	AnnotationNotes T219	section
+T219	section 23089 23099;23100 23100;23101 24030;24031 24031;24032 25329;25330 25330;25331 26395;26396 26396;26397 28188;28189 28189;28190 29528	Discussion  Target-derived signals exhibit a conserved role in the induction of defined programs of transcription factor expression late in post-mitotic neuronal differentiation [10]. This study provides evidence that the late onset of transcription factor expression is essential for many later aspects of neuronal differentiation and circuit formation. Our data indicate that DRG neurons undergo a temporal change in their competence to respond to ETS transcription factor signaling, as assessed by changes in gene expression and axonal target invasion (Figure 9). Our findings argue for the necessity of target-induced, and therefore temporally controlled, upregulation of ETS transcription factor signaling. More generally, they suggest that temporally regulated activation of transcriptional programs coupled to a particular fate induced in neurons at early developmental stages represents an important mechanism of neuronal maturation.  One striking observation of this study is that precocious induction of ETS signaling promotes neuronal survival without a requirement for neurotrophic support and in complete absence of Trk receptor expression. In contrast, ETS signaling at the normal time of onset of Er81 expression does not result in enhanced neuronal survival in the absence of neurotrophins and also does not lead to downregulation of TrkC expression in proprioceptive afferents. These findings demonstrate very distinct activities of one transcriptional regulator at different developmental steps within a committed post-mitotic neuronal lineage. The absence of Trk receptor expression upon precocious induction of ETS signaling can only partially explain the observed phenotype in axonal projections. Elimination of TrkA receptor signaling in Bax mutant mice perturbs establishment of peripheral projections of cutaneous afferents, whereas establishment of central projections does not appear to be affected [8]. In the absence of NT-3 signaling, development of central as well as peripheral proprioceptive afferent projections is perturbed [9]. In contrast, upon precocious induction of ETS signaling, we found more pronounced defects in the establishment of central rather than peripheral projections for all DRG neurons.  Induction of Er81 expression in proprioceptive afferents is controlled by peripheral NT-3 as axons reach the vicinity of target muscles, and thus occurs only approximately 3 d after proprioceptive neurons become post-mitotic [9,14]. This temporally delayed and target-induced upregulation of ETS transcription factor expression several days after a neuronal lineage of a specific identity first emerges is not restricted to DRG sensory neurons, but is also found in motor neuron pools [13]. Target-derived factors have also been implicated in controlling neuronal maturation of predetermined neurons in Drosophila, in which expression of members of the BMP family in the target region is essential for the induction of mature peptidergic properties in a subpopulation of neurons marked by the coordinate expression of the two transcription factors Apterous and Squeeze [11,12]. Thus, both in Drosophila and vertebrates, target-derived factors appear to act permissively to induce the expression of transcriptional programs involved in terminal neuronal maturation.  Our findings are compatible with a model in which DRG neurons acquire their mature fate by sequential and temporally controlled addition of lineage-specific features (Figure 9). Target-derived factors act on predetermined neuronal lineages to switch their developmental programs to become compatible with processes such as target invasion and branching. Such a transition state in the acquisition of a defined neuronal fate would be accompanied by the induction of appropriate transcriptional programs through the expression of specific transcription factors. Mechanisms such as chromosomal remodeling that restrict or expand access to certain target genes [34] or activation by cofactors responsible for changing the action of particular transcription factors [35] could represent possible mechanisms by which the downstream transcriptional profile of a transcription factor could be temporally shifted towards the selection and control of distinct target genes. Interestingly, several ETS transcription factors are activated through release of autoinhibition via interaction with cofactors and/or via post-translational modifications [35,36,37]. The fusion of EWS with Pea3 could circumvent a need for activation through specific cofactors while still maintaining ETS site dependence, thus rendering EWS-Pea3 less sensitive to the cellular context than endogenous ETS transcription factors. Using this fusion protein, our experiments demonstrate a profound change in the action of ETS signaling at the level of transcriptional regulation within post-mitotic DRG neurons over time. Moreover, the observed transcriptional shift in ETS signaling is paired with the onset of appropriate regulation of neuronal subtype specification and establishment of axonal projections into the target area.  Recent experiments addressing the temporal constraints of transcription factor action in proliferating neural progenitor cells adds to the idea that defined temporal windows, during which transcription factors act to control distinct downstream target genes, are of key importance to neuronal fate acquisition. During Drosophila neuroblast generation, the transcription factor Hunchback controls specification and differentiation of early-born neuroblasts [38]. Over time, however, neuroblasts progressively lose their competence to generate cells of an early fate in response to Hunchback expression [39]. These findings thus also argue for a change in cellular competence to respond to a specific transcription factor over time albeit in an early precursor context. More generally, during the differentiation of hematopoietic lineages, several transcription factors have also been shown to exhibit distinct functions at progressive steps of lineage specification [40]. Analysis of the mechanisms by which transcription factor programs can be shifted over time to control different complements of downstream genes and thus different aspects of neuronal and cellular fates in progenitor cells or post-mitotic neurons may provide further insight into the way in which transcription factors act to control the assembly of neuronal circuits.
 T220	italic 24301 24305	Er81
-#220	AnnotationNotes T220	italic
 T221	italic 24849 24852	Bax
-#221	AnnotationNotes T221	italic
 T222	italic 25934 25945	Drosophila,
-#222	AnnotationNotes T222	italic
 T223	italic 26223 26233	Drosophila
-#223	AnnotationNotes T223	italic
 T224	italic 28508 28518	Drosophila
-#224	AnnotationNotes T224	italic
-T225	section 29530 37483	Materials and Methods
-#225	AnnotationNotes T225	section
+T225	section 29530 29551;29552 29552;29553 29553;29554 29554;29555 29603;29604 29604;29605 31952;31953 31953;31954 31992;31993 31993;31994 33151;33152 33152;33153 33199;33200 33200;33201 35470;35471 35471;35472 35496;35497 35497;35498 36049;36050 36050;36051 36072;36073 36073;36074 36782;36783 36783;36784 36801;36802 36802;36803 37483	Materials and Methods    Generation of transgenic mice and mouse genetics  Er81EWS-Pea3 mice were generated following a strategy similar to that described for the generation of Er81NLZ mice [14]. In brief, a targeting vector with a cDNA coding for EWS-Pea3 was inserted in frame with the endogenous start ATG into exon 2 of the Er81 genomic locus and used for homologous recombination in W95 ES cells. EWS-Pea3 represents a fusion gene between the amino terminal of EWS and the ETS domain of Pea3 [20]. The primer pair used to specifically detect the Er81EWS-Pea3 allele was 5?-CAGCCACTGCACCTACAAGAC-3? and 5?-CTTCCTGCTTGATGTCTCCTTC-3?. For the generation of TaumGFP and TauEWS-Pea3 mice, lox-STOP-lox-mGFP-IRES-NLS-LacZ-pA and lox-STOP-lox-EWS-Pea3-IRES-NLS-LacZ-pA targeting cassettes were integrated into exon 2 of the Tau genomic locus (the endogenous start ATG was removed in the targeting vectors; details available upon request). mGFP was provided by P. Caroni [25]. ES cell recombinants were screened by Southern blot analysis using the probe in the 5? region as described previously [41]. Frequency of recombination in 129/Ola ES cells was approximately 1/3 for both Tau constructs. For the generation of PVCre mice, mouse genomic clones were obtained by screening a 129SV/J genomic library (Incyte, Wilmington, Delaware, United States). For details on the genomic structure of the mouse PV locus see [42]. An IRES-Cre-pA targeting cassette [33] was integrated into the 3? UTR of exon 5, and ES cell recombinants were screened with a 5? probe (oligos, 5?-GAGATGACCCAGCCAGGATGCCTC-3? and 5?-CTGACCACTCTCGCTCCGGTGTCC-3?; genomic DNA, HindIII digest). The frequency of recombination in 129/Ola ES cells was approximately 1/20. Recombinant clones were aggregated with morula stage embryos to generate chimeric founder mice that transmitted the mutant alleles. In all experiments performed in this study, animals were of mixed genetic background (129/Ola and C57Bl6). Thy1spGFP transgenic mice were generated in analogy to De Paola et al. [25], and for these experiments a strain of mice with early embryonic expression was selected. Isl1Cre and Hb9Cre mouse strains have been described [33,43] and Bax+/? animals were from Jackson Laboratory (Bar Harbor, Maine, United States) [27]. Timed pregnancies were set up to generate embryos of different developmental stages with all genotypes described throughout the study.  Transcriptional transactivation assays  The following plasmids were used for transcriptional transactivation assays: pRc/RSV (Invitrogen, Carlsbad, California, United States), pRc/RSV-Er81, pRc/RSV-EWS-Pea3, pTP-5xETS, and pTP-5xETSmut. pRc/RSV-Er81 and pRc/RSV-EWS-Pea3 were obtained by insertion of the cDNAs for Er81 or EWS-Pea3 (gift from J. A. Hassell) into pRc/RSV. pTP-5xETS was constructed by inserting a cassette of five repetitive copies of high-affinity Pea3 binding sites (5?-GCCGGAAGC-3?) [18,19] into a modified version of pTK-Luc. pTP-5xETSmut was generated as pTP-5xETS but using a mutated complement of the Pea3 binding sites (5?-GCCTATGGC-3?). A control plasmid to normalize for transfection efficiency (placZ) and pTK-Luc were a gift from D. Kressler. COS-7 cells were co-transfected with 1–1.2 ?g of total DNA including one of the effector plasmids pRc/RSV-empty, pRc/RSV-Er81, or pRc/RSV-EWS-Pea3; one of the reporter plasmids pTP-5xETS or pTP-5xETSmut; and placZ. Cells were harvested after 25 h and processed for assays to determine luciferase and LacZ activity as described previously [44]. Luciferase values normalized to LacZ activity are referred to as luciferase units.  In situ hybridization and immunohistochemistry  For in situ hybridization analysis, cryostat sections were hybridized using digoxigenin-labeled probes [45] directed against mouse TrkA or TrkB, or rat TrkC (gift from L. F. Parada). Antibodies used in this study were as follows: rabbit anti-Er81 [14], rabbit anti-Pea3 [14], rabbit anti-PV [14], rabbit anti-eGFP (Molecular Probes, Eugene, Oregon, United States), rabbit anti-Calbindin, rabbit anti-Calretinin (Swant, Bellinzona, Switzerland), rabbit anti-CGRP (Chemicon, Temecula, California, United States), rabbit anti-vGlut1 (Synaptic Systems, Goettingen, Germany), rabbit anti-Brn3a (gift from E. Turner), rabbit anti-TrkA and -p75 (gift from L. F. Reichardt), rabbit anti-Runx3 (Kramer and Arber, unpublished reagent), rabbit anti-Rhodamine (Molecular Probes), mouse anti-neurofilament (American Type Culture Collection, Manassas, Virginia, United States), sheep anti-eGFP (Biogenesis, Poole, United Kingdom), goat anti-LacZ [14], goat anti-TrkC (gift from L. F. Reichardt), and guinea pig anti-Isl1 [14]. Terminal deoxynucleotidyl transferase-mediated biotinylated UTP nick end labeling (TUNEL) to detect apoptotic cells in E13.5 DRG on cryostat sections was performed as described by the manufacturer (Roche, Basel, Switzerland). Quantitative analysis of TUNEL+ DRG cells was performed essentially as described [27]. BrdU pulse-chase experiments and LacZ wholemount stainings were performed as previously described [46]. For anterograde tracing experiments to visualize projections of sensory neurons, rhodamine-conjugated dextran (Molecular Probes) was injected into single lumbar (L3) DRG at E13.5 or applied to whole lumbar dorsal roots (L3) at postnatal day (P) 5 using glass capillaries. After injection, animals were incubated for 2–3 h (E13.5) or overnight (P5). Cryostat sections were processed for immunohistochemistry as described [14] using fluorophore-conjugated secondary antibodies (1:1,000, Molecular Probes). Images were collected on an Olympus (Tokyo, Japan) confocal microscope. Images from in situ hybridization experiments were collected with an RT-SPOT camera (Diagnostic Instruments, Sterling Heights, Michigan, United States), and Corel (Eden Prairie, Minnesota, United States) Photo Paint 10.0 was used for digital processing of images.  In vitro cultures of DRG  Individual lumbar DRG were dissected from E13.5 or E14.5 embryos and placed on Matrigel (BD Biosciences, San Jose, California, United States) coated coverslips in DMEM/F12 (Gibco, San Diego, California, United States), 2 mM L-Gln (Gibco), N2 (Gibco), and 1 mg/ml BSA (Sigma, St. Louis, Missouri, United States) without neurotrophins, or supplemented with either NGF (100 ng/ml, Gibco) or NT-3 (20 ng/ml, Sigma). DRG explants (n ? 20 for each condition) were cultured for 48 h, processed for immunocytochemistry, and analyzed using confocal microscopy.  Western blot analysis  Lumbar DRG from E16.5 embryos were isolated, mechanically disrupted, homogenized using glass beads (Sigma), and lysed in standard lysis buffer supplemented with protease and phosphatase inhibitors as described [47]. Protein extracts were resolved by SDS-PAGE, and immunoblotting was performed using antibodies against Akt, p-Akt (Ser473), CREB, p-CREB (Ser133), Bax, Bcl-xl (Cell Signaling Technology, Beverly, Massachusetts, United States), and Bcl2 (BD Pharmingen, San Diego, California, United States). For quantification, films (X-OMAT AR, Eastman Kodak, Rochester, New York, United States) were scanned and densitometry was performed using IMAGEQUANT 5.2 (Molecular Dynamics, Amersham, Uppsala, Sweden).  Electrophysiology  Electrophysiological analysis was performed as previously described [48]. Briefly, intracellular recordings from identified quadriceps motor neurons were made using sharp electrodes (75–120 M?, 3M KCl). Average responses (10–20 trials) from suprathreshold nerve stimulation (1.5 times the strength that evokes maximal monosynaptic response) of the quadriceps nerve were acquired with LTP software [49]. Only cells with stable resting potentials more negative than ?50 mV were considered for analysis. Monosynaptic amplitudes were determined offline using custom routines in the Matlab environment (The Mathworks, Natick, Massachusetts, United States) as previously described [48].
 T226	italic 29605 29617	Er81EWS-Pea3
-#226	AnnotationNotes T226	italic
 T227	sup 29609 29617	EWS-Pea3
-#227	AnnotationNotes T227	sup
 T228	italic 29707 29714	Er81NLZ
-#228	AnnotationNotes T228	italic
 T229	sup 29711 29714	NLZ
-#229	AnnotationNotes T229	sup
 T230	italic 29778 29786	EWS-Pea3
-#230	AnnotationNotes T230	italic
 T231	italic 29858 29862	Er81
-#231	AnnotationNotes T231	italic
 T232	italic 29932 29940	EWS-Pea3
-#232	AnnotationNotes T232	italic
 T233	italic 30081 30093	Er81EWS-Pea3
-#233	AnnotationNotes T233	italic
 T234	sup 30085 30093	EWS-Pea3
-#234	AnnotationNotes T234	sup
 T235	italic 30189 30196	TaumGFP
-#235	AnnotationNotes T235	italic
 T236	sup 30192 30196	mGFP
-#236	AnnotationNotes T236	sup
 T237	italic 30201 30212	TauEWS-Pea3
-#237	AnnotationNotes T237	italic
 T238	sup 30204 30212	EWS-Pea3
-#238	AnnotationNotes T238	sup
 T239	italic 30219 30253	lox-STOP-lox-mGFP-IRES-NLS-LacZ-pA
-#239	AnnotationNotes T239	italic
 T240	italic 30258 30296	lox-STOP-lox-EWS-Pea3-IRES-NLS-LacZ-pA
-#240	AnnotationNotes T240	italic
 T241	italic 30352 30355	Tau
-#241	AnnotationNotes T241	italic
 T242	italic 30706 30709	Tau
-#242	AnnotationNotes T242	italic
 T243	italic 30744 30749	PVCre
-#243	AnnotationNotes T243	italic
 T244	sup 30746 30749	Cre
-#244	AnnotationNotes T244	sup
 T245	italic 30927 30929	PV
-#245	AnnotationNotes T245	italic
 T246	italic 30949 30960	IRES-Cre-pA
-#246	AnnotationNotes T246	italic
 T247	italic 31502 31511	Thy1spGFP
-#247	AnnotationNotes T247	italic
 T248	sup 31506 31511	spGFP
-#248	AnnotationNotes T248	sup
 T249	italic 31668 31675	Isl1Cre
-#249	AnnotationNotes T249	italic
 T250	sup 31672 31675	Cre
-#250	AnnotationNotes T250	sup
 T251	italic 31680 31686	Hb9Cre
-#251	AnnotationNotes T251	italic
 T252	sup 31683 31686	Cre
-#252	AnnotationNotes T252	sup
 T253	italic 31733 31739	Bax+/?
-#253	AnnotationNotes T253	italic
 T254	sup 31736 31739	+/?
-#254	AnnotationNotes T254	sup
 T255	italic 33332 33336	TrkA
-#255	AnnotationNotes T255	italic
 T256	italic 33340 33345	TrkB,
-#256	AnnotationNotes T256	italic
 T257	italic 33353 33357	TrkC
-#257	AnnotationNotes T257	italic
 T258	sup 34470 34471	+
-#258	AnnotationNotes T258	sup
 T259	italic 35924 35925	n
-#259	AnnotationNotes T259	italic
-T260	section 37485 41525	Supporting Information
-#260	AnnotationNotes T260	section
+T260	section 37485 37507;37508 37508;37509 37518;37519 37519;37520 37580;37581 37581;37582 37950;37951 37951;37952 38028;38029 38029;38030 38043;38044 38044;38045 38081;38082 38082;38083 38092;38093 38093;38094 38192;38193 38193;38194 38441;38442 38442;38443 38569;38570 38570;38571 38583;38584 38584;38585 38621;38622 38622;38623 38632;38633 38633;38634 38714;38715 38715;38716 39569;39570 39570;39571 39669;39670 39670;39671 39977;39978 39978;39979 40200;40201 40201;40202 40254;40255 40255;40256 40269;40270 40270;40271 40307;40308 40308;40309 40318;40319 40319;40320 40344;40345 40345;40346 40800;40801 40801;40802 40922;40923 40923;40924 41096;41097 41097;41098 41126;41127 41127;41128 41139;41140 41140;41141 41177;41178 41178;41179 41188;41189 41189;41190 41267;41268 41268;41269 41453;41454 41454;41455 41472;41473 41473;41474 41487;41488 41488;41489 41525	Supporting Information  Figure S1  Gene Expression Analysis in DRG Neurons of Er81EWS-Pea3 Mice  Analysis of TrkC expression by in situ hybridization (A and E), and Runx3 (red; B and F), Brn3A (red; C and G), Isl1 (red; D and H), p75 (red; I and M), TrkA (red; J and N), CGRP (red; K and O), Calretinin (CR; red; L and P), and LacZ (green; B–D and F–P) by immunohistochemistry on E16.5 lumbar DRG of Er81NLZ/+ (A–D and I–L) and Er81EWS-Pea3/? (E–H and M–P) embryos.  Scale bar: (A, B, E, F, L, and P), 70 ?m; (C, D, G, H, I–K, and M–O), 75 ?m.  (4.9 MB CDR).  Click here for additional data file.  Figure S2  Ia Proprioceptive Afferents Make Functional Connections with Motor Neurons in Er81EWS-Pea3 Mutants  (A and B) Representative traces from intracellular recordings measuring Ia afferent monosynaptic input to quadriceps motor neurons evoked by suprathreshold stimulation of the quadriceps nerve in wild-type (A) and Er81EWS-Pea3/? mutant (B) animals.  (C) Average monosynaptic amplitudes (± standard error of the mean) from all recorded cells (wild-type, n = 11; mutant, n = 8).  (20 KB CDR).  Click here for additional data file.  Figure S3  Generation of Mice Expressing EWS-Pea3 or mGFP in Early Post-Mitotic DRG Neurons  (A) Top panel shows organization of the Tau genomic locus in the region targeted by homologous recombination in analogy to Tucker et al. [41]. Exons 1–3 are shown as light blue boxes, and the Tau start codon in exon 2 is indicated as ATG. The probe used to detect homologous recombination is shown as a grey box. Middle and bottom panels show Tau locus after homologous recombination to integrate targeting cassettes (green) into exon 2 with coincident elimination the endogenous Tau start codon. The integrated targeting cassettes allow for conditional expression of EWS-Pea3 and NLS-LacZ (NLZ) (middle) or mGFP and NLS-LacZ (bottom) upon Cre-recombinase-mediated activation. In the absence of Cre recombinase, a transcriptional stop sequence flanked by loxP sites inhibits expression of the respective transgenes from their start codons (ATG in grey).  (B) Southern blot analysis of TauEWS-Pea3/+ and TaumGFP/+ genomic DNA to detect the mutant allele.  (C) In the presence of Cre recombinase, the transcriptional stop sequence in the cassettes integrated into the Tau locus is removed. Expression of EWS-Pea3 and NLS-LacZ (top) or mGFP and NLS-LacZ (bottom) can now occur in neurons coincidently expressing Cre recombinase and Tau (indicated as ATG in green).  (D–L) Expression of Isl1 (D, G, and J), EWS-Pea3 (E and H), GFP (K), or LacZ (F, I, and L), in E12 (D–I) or E13.5 (J–L) DRG neurons of wild-type (D–F), TauEWS-Pea3/+ Isl1Cre/+ (G–I), and TaumGFP/+ Isl1Cre/+ (J–L) embryos.  Scale bar: (D–F), 40 ?m; (G–I), 35 ?m; (J–K), 50 ?m.  (1.5 MB CDR).  Click here for additional data file.  Figure S4  Generation of PVCre Mice  (A) Above is the organization of the PV genomic locus. Exons are schematically illustrated as light blue boxes, where exon 2 contains the start codon (ATG) and exon 5 contains the stop codon (STOP). Probe to screen for homologous recombination is shown as grey box. Below is a schematic diagram to show the PV locus after the integration of an IRES-Cre cassette (green) 3? to the translational stop codon of PV using homologous recombination in ES cells.  (B) Southern blot analysis of PVCre wild-type (+/+) and heterozygous (+/?) genomic DNA using the probe indicated in (A).  (C and D) Expression of GFP (green) and LacZ (red; C) or PV (red; D) in P0 TaumGFP/+ PVCre/+ mice. Note that more than 90% of PV+ neurons coexpress GFP (D; data not shown).  Scale bar: (C and D), 50 ?m.  (2 MB CDR).  Click here for additional data file.  Figure S5  Gene Expression Analysis upon Precocious Induction of EWS-Pea3 in DRG Neurons  Immunohistochemical analysis of PV (A and D), Calretinin (B and E), and Calbindin (C and F) expression on E16.5 lumbar DRG of wild-type (A–C) and TauEWS-Pea3/+ Isl1Cre/+ (D–F) embryos.  Scale bar: 80 ?m.  (950 KB CDR).  Click here for additional data file.
 T261	italic 37563 37575	Er81EWS-Pea3
-#261	AnnotationNotes T261	italic
 T262	sup 37567 37575	EWS-Pea3
-#262	AnnotationNotes T262	sup
 T263	italic 37594 37598	TrkC
-#263	AnnotationNotes T263	italic
 T264	italic 37885 37894	Er81NLZ/+
-#264	AnnotationNotes T264	italic
 T265	sup 37889 37894	NLZ/+
-#265	AnnotationNotes T265	sup
 T266	italic 37913 37927	Er81EWS-Pea3/?
-#266	AnnotationNotes T266	italic
 T267	sup 37917 37927	EWS-Pea3/?
-#267	AnnotationNotes T267	sup
 T268	italic 38172 38184	Er81EWS-Pea3
-#268	AnnotationNotes T268	italic
 T269	sup 38176 38184	EWS-Pea3
-#269	AnnotationNotes T269	sup
 T270	italic 38407 38421	Er81EWS-Pea3/?
-#270	AnnotationNotes T270	italic
 T271	sup 38411 38421	EWS-Pea3/?
-#271	AnnotationNotes T271	sup
 T272	italic 38546 38547	n
-#272	AnnotationNotes T272	italic
 T273	italic 38562 38563	n
-#273	AnnotationNotes T273	italic
 T274	italic 38664 38672	EWS-Pea3
-#274	AnnotationNotes T274	italic
 T275	italic 38676 38680	mGFP
-#275	AnnotationNotes T275	italic
 T276	italic 38756 38759	Tau
-#276	AnnotationNotes T276	italic
 T277	italic 38908 38911	Tau
-#277	AnnotationNotes T277	italic
 T278	italic 39059 39062	Tau
-#278	AnnotationNotes T278	italic
 T279	italic 39196 39199	Tau
-#279	AnnotationNotes T279	italic
 T280	italic 39284 39292	EWS-Pea3
-#280	AnnotationNotes T280	italic
 T281	italic 39297 39311	NLS-LacZ (NLZ)
-#281	AnnotationNotes T281	italic
 T282	italic 39324 39328	mGFP
-#282	AnnotationNotes T282	italic
 T283	italic 39333 39341	NLS-LacZ
-#283	AnnotationNotes T283	italic
 T284	italic 39471 39475	loxP
-#284	AnnotationNotes T284	italic
 T285	italic 39601 39614	TauEWS-Pea3/+
-#285	AnnotationNotes T285	italic
 T286	sup 39604 39614	EWS-Pea3/+
-#286	AnnotationNotes T286	sup
 T287	italic 39619 39628	TaumGFP/+
-#287	AnnotationNotes T287	italic
 T288	sup 39622 39628	mGFP/+
-#288	AnnotationNotes T288	sup
 T289	italic 39782 39785	Tau
-#289	AnnotationNotes T289	italic
 T290	italic 39818 39826	EWS-Pea3
-#290	AnnotationNotes T290	italic
 T291	italic 39831 39839	NLS-LacZ
-#291	AnnotationNotes T291	italic
 T292	italic 39849 39853	mGFP
-#292	AnnotationNotes T292	italic
 T293	italic 39858 39866	NLS-LacZ
-#293	AnnotationNotes T293	italic
 T294	italic 39945 39948	Tau
-#294	AnnotationNotes T294	italic
 T295	italic 40131 40154	TauEWS-Pea3/+ Isl1Cre/+
-#295	AnnotationNotes T295	italic
 T296	sup 40134 40144	EWS-Pea3/+
-#296	AnnotationNotes T296	sup
 T297	sup 40149 40154	Cre/+
-#297	AnnotationNotes T297	sup
 T298	italic 40166 40185	TaumGFP/+ Isl1Cre/+
-#298	AnnotationNotes T298	italic
 T299	sup 40169 40175	mGFP/+
-#299	AnnotationNotes T299	sup
 T300	sup 40180 40185	Cre/+
-#300	AnnotationNotes T300	sup
 T301	italic 40334 40339	PVCre
-#301	AnnotationNotes T301	italic
 T302	sup 40336 40339	Cre
-#302	AnnotationNotes T302	sup
 T303	italic 40383 40385	PV
-#303	AnnotationNotes T303	italic
 T304	italic 40653 40655	PV
-#304	AnnotationNotes T304	italic
 T305	italic 40690 40698	IRES-Cre
-#305	AnnotationNotes T305	italic
 T306	italic 40754 40756	PV
-#306	AnnotationNotes T306	italic
 T307	italic 40832 40837	PVCre
-#307	AnnotationNotes T307	italic
 T308	sup 40834 40837	Cre
-#308	AnnotationNotes T308	sup
 T309	italic 40849 40852	+/+
-#309	AnnotationNotes T309	italic
 T310	italic 40872 40875	+/?
-#310	AnnotationNotes T310	italic
 T311	italic 40999 41016	TaumGFP/+ PVCre/+
-#311	AnnotationNotes T311	italic
 T312	sup 41002 41008	mGFP/+
-#312	AnnotationNotes T312	sup
 T313	sup 41011 41016	Cre/+
-#313	AnnotationNotes T313	sup
 T314	sup 41052 41053	+
-#314	AnnotationNotes T314	sup
 T315	italic 41415 41438	TauEWS-Pea3/+ Isl1Cre/+
-#315	AnnotationNotes T315	italic
 T316	sup 41418 41428	EWS-Pea3/+
-#316	AnnotationNotes T316	sup
 T317	sup 41433 41438	Cre/+
-#317	AnnotationNotes T317	sup
-T318	section 41527 42608	Acknowledgements
-#318	AnnotationNotes T318	section
+T318	section 41527 41543;41544 41544;41545 42521;42522 42522;42523 42608	Acknowledgements  The generation and initial characterization of Er81EWS-Pea3/? mice was performed in the laboratory of Thomas Jessell at Columbia University, with expert assistance from Barbara Hahn and Monica Mendelsohn. We thank Thomas Jessell for encouragement and many stimulating discussions and thank him and Pico Caroni for helpful comments on the manuscript. We thank Jean-Francois Spetz, Patrick Kopp, Bernard Kuchemann, and Monika Mielich for excellent technical assistance, Ina Kramer for providing Runx3 antibodies, Pico Caroni for providing mGFP cDNA, John A. Hassell for providing EWS-Pea3 cDNA and fruitful discussions on ETS gene function, and Y. A. Barde and K. Tucker for providing the Tau targeting construct. SH, EV, MS, TP, CL, DRL, and SA were supported by a grant from the Swiss National Science Foundation, by the Kanton of Basel-Stadt, and by the Novartis Research Foundation. In addition, DRL was supported by a research fellowship from the Roche Research Foundation.  Conflict of interest. The authors have declared that no conflicts of interests exist.
 T319	italic 41592 41606	Er81EWS-Pea3/?
-#319	AnnotationNotes T319	italic
 T320	sup 41596 41606	EWS-Pea3/?
-#320	AnnotationNotes T320	sup
 T321	italic 42082 42086	mGFP
-#321	AnnotationNotes T321	italic
 T322	italic 42123 42131	EWS-Pea3
-#322	AnnotationNotes T322	italic
 T323	italic 42232 42235	Tau
-#323	AnnotationNotes T323	italic
 T324	bold 42523 42544	Conflict of interest.
-#324	AnnotationNotes T324	bold
-T325	section 42610 42860	Abbreviations
-#325	AnnotationNotes T325	section
-T326	section 42862 52234	Figures and Tables
-#326	AnnotationNotes T326	section
-T327	section 42882 44488	Figure 1
-#327	AnnotationNotes T327	section
+T325	section 42610 42623;42624 42624;42625 42659;42660 42660;42661 42678;42679 42679;42680 42699;42700 42700;42701 42751;42752 42752;42753 42774;42775 42775;42776 42793;42794 42794;42795 42811;42812 42812;42813 42860	Abbreviations  DRG - dorsal root ganglion/ganglia  E - embryonic day  EWS - Ewing sarcoma  mGFP - membrane-targeted green fluorescent protein  NT-3 - neurotrophin 3  P - postnatal day  PV - Parvalbumin  spGFP - synaptophysin green fluorescent protein
+T326	section 42862 42880;42881 42881;42882 42890;42891 42891;42892 42923;42924 42924;42925 43430;43431 43431;43432 43756;43757 43757;43758 43969;43970 43970;43971 44130;44131 44131;44132 44469;44470 44470;44471 44488;44489 44489;44490 44498;44499 44499;44500 44601;44602 44602;44603 44973;44974 44974;44975 45170;45171 45171;45172 45448;45449 45449;45450 45504;45505 45505;45506 45514;45515 45515;45516 45630;45631 45631;45632 46190;46191 46191;46192 46623;46624 46624;46625 47058;47059 47059;47060 47192;47193 47193;47194 47202;47203 47203;47204 47303;47304 47304;47305 47622;47623 47623;47624 47642;47643 47643;47644 47652;47653 47653;47654 47737;47738 47738;47739 48081;48082 48082;48083 48101;48102 48102;48103 48111;48112 48112;48113 48212;48213 48213;48214 48405;48406 48406;48407 48790;48791 48791;48792 49059;49060 49060;49061 49296;49297 49297;49298 49429;49430 49430;49431 49518;49519 49519;49520 49528;49529 49529;49530 49611;49612 49612;49613 49907;49908 49908;49909 50476;50477 50477;50478 50516;50517 50517;50518 50526;50527 50527;50528 50602;50603 50603;50604 50785;50786 50786;50787 51007;51008 51008;51009 51047;51048 51048;51049 51057;51058 51058;51059 51182;51183 51183;51184 51414;51415 51415;51416 51884;51885 51885;51886 52234	Figures and Tables  Figure 1  Replacement of Er81 by EWS-Pea3  (A) Generation of Er81EWS-Pea3 mutant mice. Above is the organization of the Er81 genomic locus in the region targeted by homologous recombination in analogy to [14]. Exons 1–4 are shown as light blue boxes, and the Er81 start codon in exon 2 is indicated as ATG. The probe used to detect homologous recombination is shown as a grey box. Below is replacement of Er81 by EWS-Pea3 through the integration of EWS-Pea3 in frame with the endogenous start codon of the Er81 locus in exon 2 (in analogy to [14]).  (B) PCR and Southern blot analysis of Er81EWS-Pea3 wild-type (+/+), heterozygous (+/?), and homozygous (?/?) genomic DNA to detect the mutant allele. PCR primer pairs (EWS-Pea3ki) were used to detect specifically the recombined allele, and a primer pair in exon2 was used to detect the presence of the wild-type allele [14].  (C–E) Analysis of Er81 expression in lumbar DRG neurons of E16.5 wild-type (C), Er81?/? (D), and Er81EWS-Pea3/? (E) embryos. Inset in lower right corner of each panel shows Isl1 expression in the respective DRG.  (F–H) PV expression in lumbar DRG of E16.5 wild-type (F), Er81?/? (G), and Er81EWS-Pea3/? (H) embryos. Confocal scans were performed with equal gain intensity.  (J) Transcriptional transactivation of luciferase expression from a minimal reporter construct containing five consensus ETS DNA-binding sites (GCCGGAAGC; [18,19]) and a minimal TK promoter upon transient transfection of Er81 (n ? 7; 3.03 ± 0.66) or EWS-Pea3 (n ? 7; 20.3 ± 2.7). Relative luciferase activity normalized to control (Con).  Scale bar: 80 ?m.  Figure 2  Rescue of Ia Proprioceptive Afferent Projections into the Ventral Spinal Cord in Er81EWS-Pea3 Mutants  (A–F) Morphological analysis of central projections at lumbar level L3 of PV+ DRG neurons (A–C) or all DRG sensory afferents after application of fluorescently labeled dextran to individual dorsal roots (D–F) in P0.5 (A–C) or P5 (D–F) wild-type (A and D), Er81?/? (B and E), and Er81EWS-Pea3/? (C and F) mice. Red dotted line indicates intermediate level of spinal cord.  (G–I) Analysis of vGlut1 immunocytochemistry in the ventral horn of P0.5 wild-type (G), Er81?/? (H), and Er81EWS-Pea3/? (I) mice. Yellow dotted box in (A) indicates size of images shown in (G–I).  (J–L) Schematic summary diagrams of the morphological rescue of Ia proprioceptive afferent projections (blue) into the ventral spinal cord observed in wild-type (J), Er81?/? (K), and Er81EWS-Pea3/? (L) mice. DRG indicated by dotted grey line; motor neurons are shown in black.  Scale bar: (A–C), 150 ?m; (D–F), 160 ?m; (G–I), 70 ?m.  Figure 3  Defects in the Establishment of Sensory Afferent Projections upon Precocious Expression of EWS-Pea3 in DRG Neurons  (A–C and G–I) Visualization of sensory afferent projections (green) into the spinal cord of wild-type (A–C) and TauEWS-Pea3/+ Isl1Cre/+ (G–I) embryos at E13.5 (A, C, G, and I) and E16.5 (B and H) by Cre-recombinase-mediated activation of mGFP expression from the Tau locus (A, B, G, and H) or by a Thy1spGFP transgene (C and I; [25]). Grey arrows indicate normal pattern of afferent projections into the spinal cord, whereas red arrows show aberrant accumulation of sensory afferents at the lateral edge of the spinal cord in TauEWS-Pea3/+ Isl1Cre/+ embryos.  (D–F and J–L) Analysis of sensory afferent projections (green) into the skin (D and J) or muscle (E and K; red, ?-Bungarotoxin, BTX) of wild-type (D–F) and TauEWS-Pea3/+ Isl1Cre/+ (J–L) embryos at E16.5 by Cre-recombinase-mediated activation of mGFP (D, E, J, and K) expression from the Tau locus. (F and L) show Egr3 expression in intrafusal muscle fibers using in situ hybridization (consecutive sections to [E and K] are shown).  (M–Q) Analysis of bifurcation of sensory afferent projections towards the spinal cord in E13.5 wild-type (M) and TauEWS-Pea3/+ Isl1Cre/+ (O and Q) embryos after injection of fluorescently labeled dextran (green) into one DRG (lumbar level L3). Confocal scanning plane for (M and O) is schematically illustrated in (N). Inset in (O) is also shown at a deeper confocal scanning plane (P and Q) to visualize aberrant axonal projections.  Scale bar: (A and G), 60 ?m; (B and H), 80 ?m; (C and I), 100 ?m; (D and J), 160 ?m; (E, F, K, and L), 70 ?m; (M, O, and Q), 240 ?m.  Figure 4  Neurotrophin-Independent Neurite Outgrowth In Vitro of DRG Neurons Expressing EWS-Pea3 Precociously  E13.5 lumbar DRG from wild-type (A, B, and C), TauEWS-Pea3/+ Isl1Cre/+ (D, E, and F), or Bax?/? (G, H, and I) embryos cultured for 48 h without neurotrophic support (A, D, and G) or in the presence of NGF (B, E, and H) or NT-3 (C, F, and I) were stained for expression of neurofilament to visualize axonal extensions.  Scale bar: 130 ?m.  Figure 5  DRG Neurons Expressing EWS-Pea3 Isochronically Depend on Neurotrophins for Survival  E14.5 lumbar DRG from TaumGFP/+ PVCre/+ (A and B) and TauEWS-Pea3/+ PVCre/+ (C and D) embryos cultured for 48 h without neurotrophic support (A and C) or in the presence of NT-3 (B and D) were stained for expression of neurofilament (red) and LacZ (green) to visualize axonal extensions and survival of PV-expressing proprioceptive afferents.  Scale bar: 150 ?m.  Figure 6  Loss of Trk Receptor Expression and Increased Survival in DRG Neurons upon Precocious ETS Signaling  (A–C and G–I) In situ hybridization analysis of TrkA (A and G), TrkB (B and H), and TrkC (C and I) expression in E16.5 lumbar DRG of wild-type (A–C) and TauEWS-Pea3/+ Isl1Cre/+ (G–I) embryos.  (D–F and J–L) Analysis of lumbar DRG of wild-type (D), TaumGFP/+ IslCre/+ (E and F), and TauEWS-Pea3/+ Isl1Cre/+ (J, K, and L) embryos for (1) neuronal cell death at E13.5 by TUNEL (green; D and J), (2) cell survival and proliferation at E16.5 by LacZ (blue) wholemount staining (E and K; lumbar levels L1 and L2 are shown), and (3) BrdU (green)/LacZ (red) double labeling (F and L).  (M and N) Quantitative analysis (n ? 3 independent experiments) of the mean number of apoptotic events relative to wild-type levels is shown in (M) and neuronal survival in (N) as percent of wild-type of DRG at lumbar levels L1 to L5 as quantified on serial sections.  (O) Western blot analysis of protein extracts isolated from lumbar DRG of E16.5 wild-type (wt) and TauEWS-Pea3/+ Isl1Cre/+ (mut) embryos using the following antibodies: Akt, p-Akt (Ser473), CREB, p-CREB (Ser133), Bax, Bcl2, and Bcl-xl.  (P) Quantitative analysis of protein levels relative to wild-type in percent is shown on the right (n = 3 independent experiments).  Scale bar: (A–C and G–I), 35 ?m; (D and J), 40 ?m; (E and K), 200 ?m; (F and L), 50 ?m.  Figure 7  Gene Expression Analysis upon Induction of Precocious or Isochronic ETS Signaling  (A–H) Analysis of TrkC expression by in situ hybridization (A–D), or Calretinin (red) and LacZ (green) expression by immunohistochemistry (E–H), on E16.5 lumbar DRG of wild-type (A and E), TauEWS-Pea3/+ Isl1Cre/+ (B and F), Er81EWS-Pea3/? (C and G), and TauEWS-Pea3/+ PVCre/+ (D and H) embryos.  (I) Summary diagram illustrating deregulation of TrkC (red arrows, downregulation) and Calretinin (green arrows, upregulation) expression upon precocious (B and F) induction of EWS-Pea3 expression in DRG neurons (B and F; E10–E11, i.e., shortly after cell cycle exit, E9.5–E10). In contrast, activation of EWS-Pea3 from the endogenous Er81 locus (C and G; E12.5–E13) or via Cre recombinase expression from the PV locus activating late expression from the Tau locus (D and H; E14.5) does not interfere with the normal expression of TrkC and Calretinin (shown in grey).  Scale bar: (A–D), 65 ?m; (E–H), 80 ?m.  Figure 8  Precocious ETS Signaling Induces Gene Expression Changes Cell-Autonomously  (A–D) Expression of TrkA (A and C; green) or TrkC (B and D; green), and LacZ (red), in E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+ (A and B) and TauEWS-Pea3/+ Hb9Cre/+ (C and D) embryos.  (E–L) Expression of Calretinin (green), LacZ (red), and Isl1 (F, J, H, and L; blue) in E16.5 brachial (E–H) and lumbar (I–L) DRG of TaumGFP/+ Hb9Cre/+ (E, F, I, and J) and TauEWS-Pea3/+ Hb9Cre/+ (G, H, K, and L) embryos.  Scale bar: (A–D), 80 ?m; (E–L), 70 ?m.  Figure 9  Progressive Neuronal Specification Is Paralleled by a Developmental Shift in Response to ETS Transcription Factor Signaling  Schematic summary diagram illustrating the importance of temporally appropriate upregulation of transcription factor expression during specification of DRG neurons for late aspects of neuronal differentiation and circuit assembly.  (A–D) Expression of EWS-Pea3 from the endogenous Er81 locus can rescue anatomical defects observed in Er81?/? mice, and no change in expression of TrkC (green) or Calretinin (CR; grey) is observed in proprioceptive afferents (A, B, and D). In contrast, precocious ETS signaling leads to severe defects in the establishment of DRG neuronal projections accompanied by inappropriate gene expression changes (C; upregulation of CR (red) and downregulation of TrkC [grey]).  (E) Precocious ETS signaling (red) during progressive specification of proprioceptive sensory neurons leads to aberrant neuronal differentiation (red dashed line). In contrast, the isochronic, target-induced (green; peripheral signal) onset of ETS transcription factor signaling (black) induces appropriate terminal neuronal differentiation (blue).
+T327	section 42882 42890;42891 42891;42892 42923;42924 42924;42925 43430;43431 43431;43432 43756;43757 43757;43758 43969;43970 43970;43971 44130;44131 44131;44132 44469;44470 44470;44471 44488	Figure 1  Replacement of Er81 by EWS-Pea3  (A) Generation of Er81EWS-Pea3 mutant mice. Above is the organization of the Er81 genomic locus in the region targeted by homologous recombination in analogy to [14]. Exons 1–4 are shown as light blue boxes, and the Er81 start codon in exon 2 is indicated as ATG. The probe used to detect homologous recombination is shown as a grey box. Below is replacement of Er81 by EWS-Pea3 through the integration of EWS-Pea3 in frame with the endogenous start codon of the Er81 locus in exon 2 (in analogy to [14]).  (B) PCR and Southern blot analysis of Er81EWS-Pea3 wild-type (+/+), heterozygous (+/?), and homozygous (?/?) genomic DNA to detect the mutant allele. PCR primer pairs (EWS-Pea3ki) were used to detect specifically the recombined allele, and a primer pair in exon2 was used to detect the presence of the wild-type allele [14].  (C–E) Analysis of Er81 expression in lumbar DRG neurons of E16.5 wild-type (C), Er81?/? (D), and Er81EWS-Pea3/? (E) embryos. Inset in lower right corner of each panel shows Isl1 expression in the respective DRG.  (F–H) PV expression in lumbar DRG of E16.5 wild-type (F), Er81?/? (G), and Er81EWS-Pea3/? (H) embryos. Confocal scans were performed with equal gain intensity.  (J) Transcriptional transactivation of luciferase expression from a minimal reporter construct containing five consensus ETS DNA-binding sites (GCCGGAAGC; [18,19]) and a minimal TK promoter upon transient transfection of Er81 (n ? 7; 3.03 ± 0.66) or EWS-Pea3 (n ? 7; 20.3 ± 2.7). Relative luciferase activity normalized to control (Con).  Scale bar: 80 ?m.
 T328	italic 42907 42911	Er81
-#328	AnnotationNotes T328	italic
 T329	italic 42915 42923	EWS-Pea3
-#329	AnnotationNotes T329	italic
 T330	italic 42943 42955	Er81EWS-Pea3
-#330	AnnotationNotes T330	italic
 T331	sup 42947 42955	EWS-Pea3
-#331	AnnotationNotes T331	sup
 T332	italic 43002 43006	Er81
-#332	AnnotationNotes T332	italic
 T333	italic 43141 43145	Er81
-#333	AnnotationNotes T333	italic
 T334	italic 43287 43291	Er81
-#334	AnnotationNotes T334	italic
 T335	italic 43295 43303	EWS-Pea3
-#335	AnnotationNotes T335	italic
 T336	italic 43331 43339	EWS-Pea3
-#336	AnnotationNotes T336	italic
 T337	italic 43388 43392	Er81
-#337	AnnotationNotes T337	italic
 T338	italic 43470 43482	Er81EWS-Pea3
-#338	AnnotationNotes T338	italic
 T339	sup 43474 43482	EWS-Pea3
-#339	AnnotationNotes T339	sup
 T340	italic 43494 43497	+/+
-#340	AnnotationNotes T340	italic
 T341	italic 43514 43517	+/?
-#341	AnnotationNotes T341	italic
 T342	italic 43536 43539	?/?
-#342	AnnotationNotes T342	italic
 T343	italic 43838 43845	Er81?/?
-#343	AnnotationNotes T343	italic
 T344	sup 43842 43845	?/?
-#344	AnnotationNotes T344	sup
 T345	italic 43855 43869	Er81EWS-Pea3/?
-#345	AnnotationNotes T345	italic
 T346	sup 43859 43869	EWS-Pea3/?
-#346	AnnotationNotes T346	sup
 T347	italic 44029 44036	Er81?/?
-#347	AnnotationNotes T347	italic
 T348	sup 44033 44036	?/?
-#348	AnnotationNotes T348	sup
 T349	italic 44046 44060	Er81EWS-Pea3/?
-#349	AnnotationNotes T349	italic
 T350	sup 44050 44060	EWS-Pea3/?
-#350	AnnotationNotes T350	sup
 T351	italic 44359 44360	n
-#351	AnnotationNotes T351	italic
 T352	italic 44392 44393	n
-#352	AnnotationNotes T352	italic
-T353	section 44490 45504	Figure 2
-#353	AnnotationNotes T353	section
+T353	section 44490 44498;44499 44499;44500 44601;44602 44602;44603 44973;44974 44974;44975 45170;45171 45171;45172 45448;45449 45449;45450 45504	Figure 2  Rescue of Ia Proprioceptive Afferent Projections into the Ventral Spinal Cord in Er81EWS-Pea3 Mutants  (A–F) Morphological analysis of central projections at lumbar level L3 of PV+ DRG neurons (A–C) or all DRG sensory afferents after application of fluorescently labeled dextran to individual dorsal roots (D–F) in P0.5 (A–C) or P5 (D–F) wild-type (A and D), Er81?/? (B and E), and Er81EWS-Pea3/? (C and F) mice. Red dotted line indicates intermediate level of spinal cord.  (G–I) Analysis of vGlut1 immunocytochemistry in the ventral horn of P0.5 wild-type (G), Er81?/? (H), and Er81EWS-Pea3/? (I) mice. Yellow dotted box in (A) indicates size of images shown in (G–I).  (J–L) Schematic summary diagrams of the morphological rescue of Ia proprioceptive afferent projections (blue) into the ventral spinal cord observed in wild-type (J), Er81?/? (K), and Er81EWS-Pea3/? (L) mice. DRG indicated by dotted grey line; motor neurons are shown in black.  Scale bar: (A–C), 150 ?m; (D–F), 160 ?m; (G–I), 70 ?m.
 T354	italic 44581 44593	Er81EWS-Pea3
-#354	AnnotationNotes T354	italic
 T355	sup 44585 44593	EWS-Pea3
-#355	AnnotationNotes T355	sup
 T356	sup 44679 44680	+
-#356	AnnotationNotes T356	sup
 T357	italic 44859 44866	Er81?/?
-#357	AnnotationNotes T357	italic
 T358	sup 44863 44866	?/?
-#358	AnnotationNotes T358	sup
 T359	italic 44882 44896	Er81EWS-Pea3/?
-#359	AnnotationNotes T359	italic
 T360	sup 44886 44896	EWS-Pea3/?
-#360	AnnotationNotes T360	sup
 T361	italic 45063 45070	Er81?/?
-#361	AnnotationNotes T361	italic
 T362	sup 45067 45070	?/?
-#362	AnnotationNotes T362	sup
 T363	italic 45080 45094	Er81EWS-Pea3/?
-#363	AnnotationNotes T363	italic
 T364	sup 45084 45094	EWS-Pea3/?
-#364	AnnotationNotes T364	sup
 T365	italic 45338 45345	Er81?/?
-#365	AnnotationNotes T365	italic
 T366	sup 45342 45345	?/?
-#366	AnnotationNotes T366	sup
 T367	italic 45355 45369	Er81EWS-Pea3/?
-#367	AnnotationNotes T367	italic
 T368	sup 45359 45369	EWS-Pea3/?
-#368	AnnotationNotes T368	sup
-T369	section 45506 47192	Figure 3
-#369	AnnotationNotes T369	section
+T369	section 45506 45514;45515 45515;45516 45630;45631 45631;45632 46190;46191 46191;46192 46623;46624 46624;46625 47058;47059 47059;47060 47192	Figure 3  Defects in the Establishment of Sensory Afferent Projections upon Precocious Expression of EWS-Pea3 in DRG Neurons  (A–C and G–I) Visualization of sensory afferent projections (green) into the spinal cord of wild-type (A–C) and TauEWS-Pea3/+ Isl1Cre/+ (G–I) embryos at E13.5 (A, C, G, and I) and E16.5 (B and H) by Cre-recombinase-mediated activation of mGFP expression from the Tau locus (A, B, G, and H) or by a Thy1spGFP transgene (C and I; [25]). Grey arrows indicate normal pattern of afferent projections into the spinal cord, whereas red arrows show aberrant accumulation of sensory afferents at the lateral edge of the spinal cord in TauEWS-Pea3/+ Isl1Cre/+ embryos.  (D–F and J–L) Analysis of sensory afferent projections (green) into the skin (D and J) or muscle (E and K; red, ?-Bungarotoxin, BTX) of wild-type (D–F) and TauEWS-Pea3/+ Isl1Cre/+ (J–L) embryos at E16.5 by Cre-recombinase-mediated activation of mGFP (D, E, J, and K) expression from the Tau locus. (F and L) show Egr3 expression in intrafusal muscle fibers using in situ hybridization (consecutive sections to [E and K] are shown).  (M–Q) Analysis of bifurcation of sensory afferent projections towards the spinal cord in E13.5 wild-type (M) and TauEWS-Pea3/+ Isl1Cre/+ (O and Q) embryos after injection of fluorescently labeled dextran (green) into one DRG (lumbar level L3). Confocal scanning plane for (M and O) is schematically illustrated in (N). Inset in (O) is also shown at a deeper confocal scanning plane (P and Q) to visualize aberrant axonal projections.  Scale bar: (A and G), 60 ?m; (B and H), 80 ?m; (C and I), 100 ?m; (D and J), 160 ?m; (E, F, K, and L), 70 ?m; (M, O, and Q), 240 ?m.
 T370	italic 45607 45615	EWS-Pea3
-#370	AnnotationNotes T370	italic
 T371	italic 45744 45767	TauEWS-Pea3/+ Isl1Cre/+
-#371	AnnotationNotes T371	italic
 T372	sup 45747 45757	EWS-Pea3/+
-#372	AnnotationNotes T372	sup
 T373	sup 45762 45767	Cre/+
-#373	AnnotationNotes T373	sup
 T374	italic 45895 45898	Tau
-#374	AnnotationNotes T374	italic
 T375	italic 45930 45939	Thy1spGFP
-#375	AnnotationNotes T375	italic
 T376	sup 45934 45939	spGFP
-#376	AnnotationNotes T376	sup
 T377	italic 46158 46181	TauEWS-Pea3/+ Isl1Cre/+
-#377	AnnotationNotes T377	italic
 T378	sup 46161 46171	EWS-Pea3/+
-#378	AnnotationNotes T378	sup
 T379	sup 46176 46181	Cre/+
-#379	AnnotationNotes T379	sup
 T380	italic 46348 46371	TauEWS-Pea3/+ Isl1Cre/+
-#380	AnnotationNotes T380	italic
 T381	sup 46351 46361	EWS-Pea3/+
-#381	AnnotationNotes T381	sup
 T382	sup 46366 46371	Cre/+
-#382	AnnotationNotes T382	sup
 T383	italic 46479 46482	Tau
-#383	AnnotationNotes T383	italic
 T384	italic 46505 46509	Egr3
-#384	AnnotationNotes T384	italic
 T385	italic 46738 46761	TauEWS-Pea3/+ Isl1Cre/+
-#385	AnnotationNotes T385	italic
 T386	sup 46741 46751	EWS-Pea3/+
-#386	AnnotationNotes T386	sup
 T387	sup 46756 46761	Cre/+
-#387	AnnotationNotes T387	sup
-T388	section 47194 47642	Figure 4
-#388	AnnotationNotes T388	section
+T388	section 47194 47202;47203 47203;47204 47303;47304 47304;47305 47622;47623 47623;47624 47642	Figure 4  Neurotrophin-Independent Neurite Outgrowth In Vitro of DRG Neurons Expressing EWS-Pea3 Precociously  E13.5 lumbar DRG from wild-type (A, B, and C), TauEWS-Pea3/+ Isl1Cre/+ (D, E, and F), or Bax?/? (G, H, and I) embryos cultured for 48 h without neurotrophic support (A, D, and G) or in the presence of NGF (B, E, and H) or NT-3 (C, F, and I) were stained for expression of neurofilament to visualize axonal extensions.  Scale bar: 130 ?m.
 T389	italic 47352 47375	TauEWS-Pea3/+ Isl1Cre/+
-#389	AnnotationNotes T389	italic
 T390	sup 47355 47365	EWS-Pea3/+
-#390	AnnotationNotes T390	sup
 T391	sup 47370 47375	Cre/+
-#391	AnnotationNotes T391	sup
 T392	italic 47394 47400	Bax?/?
-#392	AnnotationNotes T392	italic
 T393	sup 47397 47400	?/?
-#393	AnnotationNotes T393	sup
-T394	section 47644 48101	Figure 5
-#394	AnnotationNotes T394	section
+T394	section 47644 47652;47653 47653;47654 47737;47738 47738;47739 48081;48082 48082;48083 48101	Figure 5  DRG Neurons Expressing EWS-Pea3 Isochronically Depend on Neurotrophins for Survival  E14.5 lumbar DRG from TaumGFP/+ PVCre/+ (A and B) and TauEWS-Pea3/+ PVCre/+ (C and D) embryos cultured for 48 h without neurotrophic support (A and C) or in the presence of NT-3 (B and D) were stained for expression of neurofilament (red) and LacZ (green) to visualize axonal extensions and survival of PV-expressing proprioceptive afferents.  Scale bar: 150 ?m.
 T395	italic 47761 47778	TaumGFP/+ PVCre/+
-#395	AnnotationNotes T395	italic
 T396	sup 47764 47770	mGFP/+
-#396	AnnotationNotes T396	sup
 T397	sup 47773 47778	Cre/+
-#397	AnnotationNotes T397	sup
 T398	italic 47793 47814	TauEWS-Pea3/+ PVCre/+
-#398	AnnotationNotes T398	italic
 T399	sup 47796 47806	EWS-Pea3/+
-#399	AnnotationNotes T399	sup
 T400	sup 47809 47814	Cre/+
-#400	AnnotationNotes T400	sup
-T401	section 48103 49518	Figure 6
-#401	AnnotationNotes T401	section
+T401	section 48103 48111;48112 48112;48113 48212;48213 48213;48214 48405;48406 48406;48407 48790;48791 48791;48792 49059;49060 49060;49061 49296;49297 49297;49298 49429;49430 49430;49431 49518	Figure 6  Loss of Trk Receptor Expression and Increased Survival in DRG Neurons upon Precocious ETS Signaling  (A–C and G–I) In situ hybridization analysis of TrkA (A and G), TrkB (B and H), and TrkC (C and I) expression in E16.5 lumbar DRG of wild-type (A–C) and TauEWS-Pea3/+ Isl1Cre/+ (G–I) embryos.  (D–F and J–L) Analysis of lumbar DRG of wild-type (D), TaumGFP/+ IslCre/+ (E and F), and TauEWS-Pea3/+ Isl1Cre/+ (J, K, and L) embryos for (1) neuronal cell death at E13.5 by TUNEL (green; D and J), (2) cell survival and proliferation at E16.5 by LacZ (blue) wholemount staining (E and K; lumbar levels L1 and L2 are shown), and (3) BrdU (green)/LacZ (red) double labeling (F and L).  (M and N) Quantitative analysis (n ? 3 independent experiments) of the mean number of apoptotic events relative to wild-type levels is shown in (M) and neuronal survival in (N) as percent of wild-type of DRG at lumbar levels L1 to L5 as quantified on serial sections.  (O) Western blot analysis of protein extracts isolated from lumbar DRG of E16.5 wild-type (wt) and TauEWS-Pea3/+ Isl1Cre/+ (mut) embryos using the following antibodies: Akt, p-Akt (Ser473), CREB, p-CREB (Ser133), Bax, Bcl2, and Bcl-xl.  (P) Quantitative analysis of protein levels relative to wild-type in percent is shown on the right (n = 3 independent experiments).  Scale bar: (A–C and G–I), 35 ?m; (D and J), 40 ?m; (E and K), 200 ?m; (F and L), 50 ?m.
 T402	italic 48262 48266	TrkA
-#402	AnnotationNotes T402	italic
 T403	italic 48278 48282	TrkB
-#403	AnnotationNotes T403	italic
 T404	italic 48298 48302	TrkC
-#404	AnnotationNotes T404	italic
 T405	italic 48367 48390	TauEWS-Pea3/+ Isl1Cre/+
-#405	AnnotationNotes T405	italic
 T406	sup 48370 48380	EWS-Pea3/+
-#406	AnnotationNotes T406	sup
 T407	sup 48385 48390	Cre/+
-#407	AnnotationNotes T407	sup
 T408	italic 48462 48480	TaumGFP/+ IslCre/+
-#408	AnnotationNotes T408	italic
 T409	sup 48465 48471	mGFP/+
-#409	AnnotationNotes T409	sup
 T410	sup 48475 48480	Cre/+
-#410	AnnotationNotes T410	sup
 T411	italic 48496 48519	TauEWS-Pea3/+ Isl1Cre/+
-#411	AnnotationNotes T411	italic
 T412	sup 48499 48509	EWS-Pea3/+
-#412	AnnotationNotes T412	sup
 T413	sup 48514 48519	Cre/+
-#413	AnnotationNotes T413	sup
 T414	italic 48825 48826	n
-#414	AnnotationNotes T414	italic
 T415	italic 49160 49183	TauEWS-Pea3/+ Isl1Cre/+
-#415	AnnotationNotes T415	italic
 T416	sup 49163 49173	EWS-Pea3/+
-#416	AnnotationNotes T416	sup
 T417	sup 49178 49183	Cre/+
-#417	AnnotationNotes T417	sup
 T418	italic 49398 49399	n
-#418	AnnotationNotes T418	italic
-T419	section 49520 50516	Figure 7
-#419	AnnotationNotes T419	section
+T419	section 49520 49528;49529 49529;49530 49611;49612 49612;49613 49907;49908 49908;49909 50476;50477 50477;50478 50516	Figure 7  Gene Expression Analysis upon Induction of Precocious or Isochronic ETS Signaling  (A–H) Analysis of TrkC expression by in situ hybridization (A–D), or Calretinin (red) and LacZ (green) expression by immunohistochemistry (E–H), on E16.5 lumbar DRG of wild-type (A and E), TauEWS-Pea3/+ Isl1Cre/+ (B and F), Er81EWS-Pea3/? (C and G), and TauEWS-Pea3/+ PVCre/+ (D and H) embryos.  (I) Summary diagram illustrating deregulation of TrkC (red arrows, downregulation) and Calretinin (green arrows, upregulation) expression upon precocious (B and F) induction of EWS-Pea3 expression in DRG neurons (B and F; E10–E11, i.e., shortly after cell cycle exit, E9.5–E10). In contrast, activation of EWS-Pea3 from the endogenous Er81 locus (C and G; E12.5–E13) or via Cre recombinase expression from the PV locus activating late expression from the Tau locus (D and H; E14.5) does not interfere with the normal expression of TrkC and Calretinin (shown in grey).  Scale bar: (A–D), 65 ?m; (E–H), 80 ?m.
 T420	italic 49631 49635	TrkC
-#420	AnnotationNotes T420	italic
 T421	italic 49802 49825	TauEWS-Pea3/+ Isl1Cre/+
-#421	AnnotationNotes T421	italic
 T422	sup 49805 49815	EWS-Pea3/+
-#422	AnnotationNotes T422	sup
 T423	sup 49820 49825	Cre/+
-#423	AnnotationNotes T423	sup
 T424	italic 49837 49851	Er81EWS-Pea3/?
-#424	AnnotationNotes T424	italic
 T425	sup 49841 49851	EWS-Pea3/?
-#425	AnnotationNotes T425	sup
 T426	italic 49867 49888	TauEWS-Pea3/+ PVCre/+
-#426	AnnotationNotes T426	italic
 T427	sup 49870 49880	EWS-Pea3/+
-#427	AnnotationNotes T427	sup
 T428	sup 49883 49888	Cre/+
-#428	AnnotationNotes T428	sup
 T429	italic 50244 50248	Er81
-#429	AnnotationNotes T429	italic
 T430	italic 50319 50321	PV
-#430	AnnotationNotes T430	italic
 T431	italic 50364 50367	Tau
-#431	AnnotationNotes T431	italic
 T432	italic 50440 50444	TrkC
-#432	AnnotationNotes T432	italic
-T433	section 50518 51047	Figure 8
-#433	AnnotationNotes T433	section
+T433	section 50518 50526;50527 50527;50528 50602;50603 50603;50604 50785;50786 50786;50787 51007;51008 51008;51009 51047	Figure 8  Precocious ETS Signaling Induces Gene Expression Changes Cell-Autonomously  (A–D) Expression of TrkA (A and C; green) or TrkC (B and D; green), and LacZ (red), in E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+ (A and B) and TauEWS-Pea3/+ Hb9Cre/+ (C and D) embryos.  (E–L) Expression of Calretinin (green), LacZ (red), and Isl1 (F, J, H, and L; blue) in E16.5 brachial (E–H) and lumbar (I–L) DRG of TaumGFP/+ Hb9Cre/+ (E, F, I, and J) and TauEWS-Pea3/+ Hb9Cre/+ (G, H, K, and L) embryos.  Scale bar: (A–D), 80 ?m; (E–L), 70 ?m.
 T434	italic 50711 50729	TaumGFP/+ Hb9Cre/+
-#434	AnnotationNotes T434	italic
 T435	sup 50714 50720	mGFP/+
-#435	AnnotationNotes T435	sup
 T436	sup 50724 50729	Cre/+
-#436	AnnotationNotes T436	sup
 T437	italic 50744 50766	TauEWS-Pea3/+ Hb9Cre/+
-#437	AnnotationNotes T437	italic
 T438	sup 50747 50757	EWS-Pea3/+
-#438	AnnotationNotes T438	sup
 T439	sup 50761 50766	Cre/+
-#439	AnnotationNotes T439	sup
 T440	italic 50919 50937	TaumGFP/+ Hb9Cre/+
-#440	AnnotationNotes T440	italic
 T441	sup 50922 50928	mGFP/+
-#441	AnnotationNotes T441	sup
 T442	sup 50932 50937	Cre/+
-#442	AnnotationNotes T442	sup
 T443	italic 50959 50981	TauEWS-Pea3/+ Hb9Cre/+
-#443	AnnotationNotes T443	italic
 T444	sup 50962 50972	EWS-Pea3/+
-#444	AnnotationNotes T444	sup
 T445	sup 50976 50981	Cre/+
-#445	AnnotationNotes T445	sup
-T446	section 51049 52234	Figure 9
-#446	AnnotationNotes T446	section
+T446	section 51049 51057;51058 51058;51059 51182;51183 51183;51184 51414;51415 51415;51416 51884;51885 51885;51886 52234	Figure 9  Progressive Neuronal Specification Is Paralleled by a Developmental Shift in Response to ETS Transcription Factor Signaling  Schematic summary diagram illustrating the importance of temporally appropriate upregulation of transcription factor expression during specification of DRG neurons for late aspects of neuronal differentiation and circuit assembly.  (A–D) Expression of EWS-Pea3 from the endogenous Er81 locus can rescue anatomical defects observed in Er81?/? mice, and no change in expression of TrkC (green) or Calretinin (CR; grey) is observed in proprioceptive afferents (A, B, and D). In contrast, precocious ETS signaling leads to severe defects in the establishment of DRG neuronal projections accompanied by inappropriate gene expression changes (C; upregulation of CR (red) and downregulation of TrkC [grey]).  (E) Precocious ETS signaling (red) during progressive specification of proprioceptive sensory neurons leads to aberrant neuronal differentiation (red dashed line). In contrast, the isochronic, target-induced (green; peripheral signal) onset of ETS transcription factor signaling (black) induces appropriate terminal neuronal differentiation (blue).
 T447	italic 51436 51444	EWS-Pea3
-#447	AnnotationNotes T447	italic
 T448	italic 51465 51469	Er81
-#448	AnnotationNotes T448	italic
 T449	italic 51518 51525	Er81?/?
-#449	AnnotationNotes T449	italic
 T450	sup 51522 51525	?/?
-#450	AnnotationNotes T450	sup
-T451	section 52236 52600	Footnotes
-#451	AnnotationNotes T451	section
+T451	section 52236 52245;52246 52246;52247 52397;52398 52398;52399 52600	Footnotes  Author contributions. SH and SA conceived and designed the experiments. SH, EV, MS, TP, CL, DRL, and SA performed the experiments. SA wrote the paper.  Citation: Hippenmeyer S, Vrieseling E, Sigrist M, Portmann T, Laengle C, et al. (2005) A developmental switch in the response of DRG neurons to ETS transcription factor signaling. PLoS Biol 3(5): e159.
 T452	bold 52247 52268	Author contributions.
-#452	AnnotationNotes T452	bold

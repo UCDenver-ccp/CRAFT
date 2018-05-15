@@ -1,1062 +1,541 @@
-T0	GO:0007140 91 103	Male Meiosis
-#0	AnnotationNotes T0	male meiosis
-T1	GO:0007276 115 128	Gametogenesis
-#1	AnnotationNotes T1	gamete generation
-T2	GO:0030154 200 220	cell differentiation
-#2	AnnotationNotes T2	cell differentiation
-T3	GO:0007126 395 402	meiotic
-#3	AnnotationNotes T3	meiotic nuclear division
-T4	GO:0051324 403 411	prophase
-#4	AnnotationNotes T4	prophase
-T5	GO:0031507 427 439;442 464	formation of
-#5	AnnotationNotes T5	heterochromatin assembly
-T6	GO:0051324 510 518	prophase
-#6	AnnotationNotes T6	prophase
-T7	GO:0007126 595 602	meiosis
-#7	AnnotationNotes T7	meiotic nuclear division
-T8	GO_EXT:regulator 709 719	regulators
-#8	AnnotationNotes T8	regulator
-T9	GO_PATO_EXT:biological_localization_process_or_quality 775 784	localizes
-#9	AnnotationNotes T9	biological localization process or quality
-T10	GO:0000239 807 816	pachytene
-#10	AnnotationNotes T10	pachytene
-T11	GO:0007126 826 833	meiotic
-#11	AnnotationNotes T11	meiotic nuclear division
-T12	GO:0051324 834 842	prophase
-#12	AnnotationNotes T12	prophase
-T13	GO:0007140 863 875	male meiosis
-#13	AnnotationNotes T13	male meiosis
-T14	GO:0007129 895 910	meiotic pairing
-#14	AnnotationNotes T14	synapsis
-T15	GO_SO_EXT:sequence_rearrangement_process 915 928	recombination
-#15	AnnotationNotes T15	sequence rearrangement process
-T16	GO:0006342 950 976	transcriptionally silenced
-#16	AnnotationNotes T16	chromatin silencing
-T17	GO:0006915 1057 1066	apoptosis
-#17	AnnotationNotes T17	apoptotic process
-T18	GO:0000239 1074 1083	pachynema
-#18	AnnotationNotes T18	pachytene
-T19	GO:0000240 1128 1137	diplonema
-#19	AnnotationNotes T19	diplotene
-T20	GO:0036124 1208 1220;1229 1243	histone H3K9
-#20	AnnotationNotes T20	histone H3-K9 trimethylation
-T21	GO:0036123 1208 1224;1232 1243	histone H3K9 di-
-#21	AnnotationNotes T21	histone H3-K9 dimethylation
-T22	GO:0000239 1331 1340	pachynema
-#22	AnnotationNotes T22	pachytene
-T23	GO:0000240 1345 1354	diplonema
-#23	AnnotationNotes T23	diplotene
-T24	GO_PATO_EXT:biological_localization_process_or_quality 1369 1381	localization
-#24	AnnotationNotes T24	biological localization process or quality
-T25	GO:0016568 1510 1534	chromatin transformation
-#25	AnnotationNotes T25	chromatin modification
-T26	GO:0000239 1555 1564	pachynema
-#26	AnnotationNotes T26	pachytene
-T27	GO:0000240 1569 1578	diplonema
-#27	AnnotationNotes T27	diplotene
-T28	GO:0065007 1611 1618	control
-#28	AnnotationNotes T28	biological regulation
-T29	GO:0007126 1639 1646	meiotic
-#29	AnnotationNotes T29	meiotic nuclear division
-T30	GO:0007126 1682 1689	meiotic
-#30	AnnotationNotes T30	meiotic nuclear division
-T31	GO:0007126 1842 1849	meiosis
-#31	AnnotationNotes T31	meiotic nuclear division
-T32	GO_EXT:regulator 1919 1928	regulator
-#32	AnnotationNotes T32	regulator
-T33	GO:0065007 1972 1979	control
-#33	AnnotationNotes T33	biological regulation
-T34	GO:0003006 1980 1998	sexual development
-#34	AnnotationNotes T34	developmental process involved in reproduction
-T35	GO:0007126 2278 2285	meiotic
-#35	AnnotationNotes T35	meiotic nuclear division
-T36	GO:0007281 2300 2321	germ cell development
-#36	AnnotationNotes T36	germ cell development
-T37	GO_PATO_EXT:biological_localization_process_or_quality 2507 2516	localizes
-#37	AnnotationNotes T37	biological localization process or quality
-T38	GO:0007126 2544 2551	meiosis
-#38	AnnotationNotes T38	meiotic nuclear division
-T39	GO_EXT:biological_recruitment 2640 2651	recruitment
-#39	AnnotationNotes T39	biological recruitment
-T40	GO:0000239 2737 2746	pachytene
-#40	AnnotationNotes T40	pachytene
-T41	GO:0000240 2751 2760	diplotene
-#41	AnnotationNotes T41	diplotene
-T42	GO:0098762 2761 2778	stages of meiosis
-#42	AnnotationNotes T42	meiotic cell cycle phase
-T43	GO:0016568 2784 2799;2809 2818	modification of
-#43	AnnotationNotes T43	chromatin modification
-T44	GO:0065007 3002 3012	regulation
-#44	AnnotationNotes T44	biological regulation
-T45	GO:0007548 3064 3086	Sexual differentiation
-#45	AnnotationNotes T45	sex differentiation
-T46	GO_PATO_EXT:physiological_process_or_quality 3109 3122	physiological
-#46	AnnotationNotes T46	physiological process or quality
-T47	GO_PATO_EXT:biological_behavior 3128 3138	behavioral
-#47	AnnotationNotes T47	biological behavior
-T48	GO:0019953 3174 3193	sexual reproduction
-#48	AnnotationNotes T48	sexual reproduction
-T49	GO:0019953 3297 3316	sexual reproduction
-#49	AnnotationNotes T49	sexual reproduction
-T50	GO:0009566 3479 3495	zygote formation
-#50	AnnotationNotes T50	fertilization
-T51	GO:0007126 3656 3663	meiosis
-#51	AnnotationNotes T51	meiotic nuclear division
-T52	GO:0065007 3667 3676	regulated
-#52	AnnotationNotes T52	biological regulation
-T53	GO:0009790 3706 3719	embryogenesis
-#53	AnnotationNotes T53	embryo development
-T54	GO:0007126 3822 3829	meiosis
-#54	AnnotationNotes T54	meiotic nuclear division
-T55	GO:0007126 3913 3920	meiosis
-#55	AnnotationNotes T55	meiotic nuclear division
-T56	GO:0007128 3953 3971	meiotic prophase I
-#56	AnnotationNotes T56	meiotic prophase I
-T57	GO_EXT:biological_recruitment 4012 4021	recruited
-#57	AnnotationNotes T57	biological recruitment
-T58	GO:0030728 4026 4035	ovulation
-#58	AnnotationNotes T58	ovulation
-T59	GO:0007137 4058 4070	metaphase II
-#59	AnnotationNotes T59	meiotic metaphase II
-T60	GO:0007126 4089 4096	meiosis
-#60	AnnotationNotes T60	meiotic nuclear division
-T61	GO:0009566 4103 4116	fertilization
-#61	AnnotationNotes T61	fertilization
-T62	GO:0007140 4142 4154	male meiosis
-#62	AnnotationNotes T62	male meiosis
-T63	GO:0007567 4175 4182	natally
-#63	AnnotationNotes T63	parturition
-T64	GO:0007126 4246 4253	meiosis
-#64	AnnotationNotes T64	meiotic nuclear division
-T65	GO:0007140 4336 4348	male meiosis
-#65	AnnotationNotes T65	male meiosis
-T66	GO:0007126 4396 4403	meiotic
-#66	AnnotationNotes T66	meiotic nuclear division
-T67	GO_SO_EXT:sequence_rearrangement_process 4423 4436	recombination
-#67	AnnotationNotes T67	sequence rearrangement process
-T68	GO:0007129 4441 4459	chromosome pairing
-#68	AnnotationNotes T68	synapsis
-T69	GO:0007129 4461 4469	synapsis
-#69	AnnotationNotes T69	synapsis
-T70	GO:0007143 4574 4592	meiosis in females
-#70	AnnotationNotes T70	female meiotic division
-T71	GO:0000075 4706 4717	checkpoints
-#71	AnnotationNotes T71	cell cycle checkpoint
-T72	GO:0065007 4718 4729	controlling
-#72	AnnotationNotes T72	biological regulation
-T73	GO:0065007 4734 4744	monitoring
-#73	AnnotationNotes T73	biological regulation
-T74	GO:0007126 4759 4766	meiotic
-#74	AnnotationNotes T74	meiotic nuclear division
-T75	GO:0040020 4867 4885	meiotic regulatory
-#75	AnnotationNotes T75	regulation of meiotic nuclear division
-T76	GO:0010467 5143 5153	expression
-#76	AnnotationNotes T76	gene expression
-T77	GO:0009048 5229 5254	X chromosome inactivation
-#77	AnnotationNotes T77	dosage compensation by inactivation of X chromosome
-T78	GO:0007126 5343 5350	meiosis
-#78	AnnotationNotes T78	meiotic nuclear division
-T79	GO:0007128 5355 5365	prophase I
-#79	AnnotationNotes T79	meiotic prophase I
-T80	GO:0007129 5399 5406	synapse
-#80	AnnotationNotes T80	synapsis
-T81	GO_SO_EXT:sequence_rearrangement_process 5422 5435	recombination
-#81	AnnotationNotes T81	sequence rearrangement process
-T82	GO:0007129 5452 5470	chromosome pairing
-#82	AnnotationNotes T82	synapsis
-T83	GO:0007140 5830 5842	male meiotic
-#83	AnnotationNotes T83	male meiosis
-T84	GO_PATO_EXT:biological_localization_process_or_quality 5895 5903	localize
-#84	AnnotationNotes T84	biological localization process or quality
-T85	GO_PATO_EXT:ubiquitination_process_or_quality 5998 6011	ubiquitinated
-#85	AnnotationNotes T85	ubiquitination process or quality
-T86	GO_PATO_EXT:ubiquitination_process_or_quality 6017 6019	Ub
-#86	AnnotationNotes T86	ubiquitination process or quality
-T87	GO_PATO_EXT:phosphorylation_process_or_quality 6029 6043	phosphorylated
-#87	AnnotationNotes T87	phosphorylation process or quality
-T88	GO:0006342 6106 6132	transcriptionally silenced
-#88	AnnotationNotes T88	chromatin silencing
-T89	GO:0007126 6153 6160	meiotic
-#89	AnnotationNotes T89	meiotic nuclear division
-T90	GO:0000239 6226 6235	pachynema
-#90	AnnotationNotes T90	pachytene
-T91	GO:0006342 6275 6299	transcriptionally silent
-#91	AnnotationNotes T91	chromatin silencing
-T92	GO:0007286 6305 6319	spermiogenesis
-#92	AnnotationNotes T92	spermatid development
-T93	GO:0016458 6346 6355	silencing
-#93	AnnotationNotes T93	gene silencing
-T94	GO:0007126 6455 6462	meiotic
-#94	AnnotationNotes T94	meiotic nuclear division
-T95	GO_EXT:regulator 6494 6504	Regulators
-#95	AnnotationNotes T95	regulator
-T96	GO:0007548 6508 6530	sexual differentiation
-#96	AnnotationNotes T96	sex differentiation
-T97	GO_PATO_EXT:biological_patterning_process_or_quality 6647 6657	patterning
-#97	AnnotationNotes T97	biological patterning process or quality
-T98	GO:0065007 6723 6731	regulate
-#98	AnnotationNotes T98	biological regulation
-T99	GO:0007548 6732 6754	sexual differentiation
-#99	AnnotationNotes T99	sex differentiation
-T100	GO:0065007 6989 6997	regulate
-#100	AnnotationNotes T100	biological regulation
-T101	GO:0007548 7017 7039	sexual differentiation
-#101	AnnotationNotes T101	sex differentiation
-T102	GO_EXT:regulator 7371 7380	regulator
-#102	AnnotationNotes T102	regulator
-T103	GO:0065007 7505 7512	control
-#103	AnnotationNotes T103	biological regulation
-T104	GO:0007548 7513 7535	sexual differentiation
-#104	AnnotationNotes T104	sex differentiation
-T105	GO:0010467 7635 7645	expression
-#105	AnnotationNotes T105	gene expression
-T106	GO:0010467 7698 7707	expressed
-#106	AnnotationNotes T106	gene expression
-T107	GO_RO_EXT:developmental_differentiation_process 7715 7730	differentiating
-#107	AnnotationNotes T107	developmental differentiation process
-T108	GO:0008584 8015 8037	testicular development
-#108	AnnotationNotes T108	male gonad development
-T109	GO_RO_EXT:developmental_differentiation_process 8161 8176	differentiation
-#109	AnnotationNotes T109	developmental differentiation process
-T110	GO:0008406 8329 8348	gonadal development
-#110	AnnotationNotes T110	gonad development
-T111	GO:0007548 8428 8450	sexual differentiation
-#111	AnnotationNotes T111	sex differentiation
-T112	GO:0007548 8534 8556	sexual differentiation
-#112	AnnotationNotes T112	sex differentiation
-T113	GO:0010467 8665 8675	expression
-#113	AnnotationNotes T113	gene expression
-T114	GO:0010467 8730 8739	expressed
-#114	AnnotationNotes T114	gene expression
-T115	GO:0010467 8913 8922	expressed
-#115	AnnotationNotes T115	gene expression
-T116	GO_PATO_EXT:biological_localization_process_or_quality 8961 8970	localized
-#116	AnnotationNotes T116	biological localization process or quality
-T117	GO:0000239 8994 9003	pachytene
-#117	AnnotationNotes T117	pachytene
-T118	GO:0000239 9169 9178	pachytene
-#118	AnnotationNotes T118	pachytene
-T119	GO:0007126 9188 9195	meiotic
-#119	AnnotationNotes T119	meiotic nuclear division
-T120	GO:0051324 9196 9204	prophase
-#120	AnnotationNotes T120	prophase
-T121	GO:0000240 9274 9283	diplonema
-#121	AnnotationNotes T121	diplotene
-T122	GO:0016568 9418 9438	chromatin transition
-#122	AnnotationNotes T122	chromatin modification
-T123	GO:0000239 9447 9456	pachynema
-#123	AnnotationNotes T123	pachytene
-T124	GO:0000240 9461 9470	diplonema
-#124	AnnotationNotes T124	diplotene
-T125	GO:0007126 9478 9485	meiotic
-#125	AnnotationNotes T125	meiotic nuclear division
-T126	GO:0051324 9486 9494	prophase
-#126	AnnotationNotes T126	prophase
-T127	GO:0010467 9506 9516	Expression
-#127	AnnotationNotes T127	gene expression
-T128	GO:0010467 9564 9574	expression
-#128	AnnotationNotes T128	gene expression
-T129	GO:0007126 9605 9612	meiotic
-#129	AnnotationNotes T129	meiotic nuclear division
-T130	GO:0010467 9646 9656	expression
-#130	AnnotationNotes T130	gene expression
-T131	GO:0007126 9811 9818	meiosis
-#131	AnnotationNotes T131	meiotic nuclear division
-T132	GO:0006279 9835 9858	pre-meiotic replication
-#132	AnnotationNotes T132	premeiotic DNA replication
-T133	GO:0000239 9866 9875	pachytene
-#133	AnnotationNotes T133	pachytene
-T134	GO:0010467 9901 9911	expression
-#134	AnnotationNotes T134	gene expression
-T135	GO:0007126 9923 9930	meiotic
-#135	AnnotationNotes T135	meiotic nuclear division
-T136	GO:0010467 10012 10022	expression
-#136	AnnotationNotes T136	gene expression
-T137	GO_EXT:reverse_transcription_or_reverse_transcriptase 10066 10068	RT
-#137	AnnotationNotes T137	reverse transcription or reverse transcriptase
-T138	GO:0010467 10135 10145	expression
-#138	AnnotationNotes T138	gene expression
-T139	GO:0010467 10175 10185	expression
-#139	AnnotationNotes T139	gene expression
-T140	GO:0010467 10281 10291	expression
-#140	AnnotationNotes T140	gene expression
-T141	GO:0007567 10303 10308	natal
-#141	AnnotationNotes T141	parturition
-T142	GO:0008584 10309 10327	testis development
-#142	AnnotationNotes T142	male gonad development
-T143	GO:0010467 10348 10358	expression
-#143	AnnotationNotes T143	gene expression
-T144	GO:0000239 10424 10433	pachytene
-#144	AnnotationNotes T144	pachytene
-T145	GO:0007283 10477 10492	spermatogenesis
-#145	AnnotationNotes T145	spermatogenesis
-T146	GO:0010467 10522 10532	Expression
-#146	AnnotationNotes T146	gene expression
-T147	GO_EXT:reverse_transcription_or_reverse_transcriptase 10564 10566	RT
-#147	AnnotationNotes T147	reverse transcription or reverse transcriptase
-T148	GO:0010467 10745 10755	expression
-#148	AnnotationNotes T148	gene expression
-T149	GO:0007283 10782 10797	spermatogenesis
-#149	AnnotationNotes T149	spermatogenesis
-T150	GO:0007567 10854 10859	birth
-#150	AnnotationNotes T150	parturition
-T151	GO:0010467 10905 10915	expression
-#151	AnnotationNotes T151	gene expression
-T152	GO_PATO_EXT:biological_localization_process_or_quality 11053 11065	localization
-#152	AnnotationNotes T152	biological localization process or quality
-T153	GO_PATO_EXT:biological_localization_process_or_quality 11182 11191	localized
-#153	AnnotationNotes T153	biological localization process or quality
-T154	GO:0000239 11295 11304	pachytene
-#154	AnnotationNotes T154	pachytene
-T155	GO:0010467 11365 11375	expression
-#155	AnnotationNotes T155	gene expression
-T156	GO:0010467 11668 11677	expressed
-#156	AnnotationNotes T156	gene expression
-T157	GO:0000239 11708 11717	pachytene
-#157	AnnotationNotes T157	pachytene
-T158	GO:0000239 12005 12014	pachytene
-#158	AnnotationNotes T158	pachytene
-T159	GO:0010467 12031 12041	expression
-#159	AnnotationNotes T159	gene expression
-T160	GO:0010467 12097 12106	expressed
-#160	AnnotationNotes T160	gene expression
-T161	GO:0010467 12181 12190	expressed
-#161	AnnotationNotes T161	gene expression
-T162	GO:0000239 12207 12216	pachytene
-#162	AnnotationNotes T162	pachytene
-T163	GO:0000239 12332 12341	pachytene
-#163	AnnotationNotes T163	pachytene
-T164	GO_EXT:transcription 12492 12507	transcriptional
-#164	AnnotationNotes T164	transcription
-T165	GO:0031507 12525 12547	heterochromatinization
-#165	AnnotationNotes T165	heterochromatin assembly
-T166	GO:0051324 12595 12603	prophase
-#166	AnnotationNotes T166	prophase
-T167	GO:0007140 12617 12629	male meiosis
-#167	AnnotationNotes T167	male meiosis
-T168	GO:0010467 12660 12670	expression
-#168	AnnotationNotes T168	gene expression
-T169	GO:0000239 12830 12839	pachynema
-#169	AnnotationNotes T169	pachytene
-T170	GO_PATO_EXT:biological_localization_process_or_quality 12873 12882	localized
-#170	AnnotationNotes T170	biological localization process or quality
-T171	GO_PATO_EXT:biological_localization_process_or_quality 12932 12941	localized
-#171	AnnotationNotes T171	biological localization process or quality
-T172	GO_PATO_EXT:biological_localization_process_or_quality 12996 13008	localization
-#172	AnnotationNotes T172	biological localization process or quality
-T173	GO_PATO_EXT:ubiquitination_process_or_quality 13065 13067	Ub
-#173	AnnotationNotes T173	ubiquitination process or quality
-T174	GO_PATO_EXT:biological_localization_process_or_quality 13130 13139	localized
-#174	AnnotationNotes T174	biological localization process or quality
-T175	GO_PATO_EXT:biological_localization_process_or_quality 13244 13253	localizes
-#175	AnnotationNotes T175	biological localization process or quality
-T176	GO:0000239 13287 13296	pachynema
-#176	AnnotationNotes T176	pachytene
-T177	GO:0000239 13336 13345	pachynema
-#177	AnnotationNotes T177	pachytene
-T178	GO:0000240 13365 13374	diplonema
-#178	AnnotationNotes T178	diplotene
-T179	GO_PATO_EXT:biological_localization_process_or_quality 13400 13412	localization
-#179	AnnotationNotes T179	biological localization process or quality
-T180	GO:0007126 13442 13449	meiotic
-#180	AnnotationNotes T180	meiotic nuclear division
-T181	GO_PATO_EXT:biological_localization_process_or_quality 13498 13507	localized
-#181	AnnotationNotes T181	biological localization process or quality
-T182	GO_PATO_EXT:biological_localization_process_or_quality 13667 13676	localizes
-#182	AnnotationNotes T182	biological localization process or quality
-T183	GO_SO_EXT:sequence_rearrangement_process 14457 14470	recombination
-#183	AnnotationNotes T183	sequence rearrangement process
-T184	GO:0006413 14504 14523	translational start
-#184	AnnotationNotes T184	translational initiation
-T185	GO_EXT:breeding 14837 14841	bred
-#185	AnnotationNotes T185	breeding
-T186	GO_EXT:breeding 15044 15048	bred
-#186	AnnotationNotes T186	breeding
-T187	GO:0007126 15154 15161	meiotic
-#187	AnnotationNotes T187	meiotic nuclear division
-T188	GO:0048232 15392 15396;15412 15425	Male
-#188	AnnotationNotes T188	male gamete generation
-T189	GO:0007292 15405 15425	Female Gametogenesis
-#189	AnnotationNotes T189	female gamete generation
-T190	GO_EXT:breeding 15427 15435	Breeding
-#190	AnnotationNotes T190	breeding
-T191	GO:0040007 15597 15601	grew
-#191	AnnotationNotes T191	growth
-T192	GO:0019098 15646 15661	sexual behavior
-#192	AnnotationNotes T192	reproductive behavior
-T193	GO:0008584 16032 16050	testis development
-#193	AnnotationNotes T193	male gonad development
-T194	GO:0007283 16160 16175	spermatogenesis
-#194	AnnotationNotes T194	spermatogenesis
-T195	GO:0007567 16190 16195	natal
-#195	AnnotationNotes T195	parturition
-T196	GO:0007126 16383 16390	meiotic
-#196	AnnotationNotes T196	meiotic nuclear division
-T197	GO:0040007 16505 16509	grow
-#197	AnnotationNotes T197	growth
-T198	GO:0000239 16647 16656	pachynema
-#198	AnnotationNotes T198	pachytene
-T199	GO:0022403 16668 16677;16683 16688	stages of
-#199	AnnotationNotes T199	cell cycle phase
-T200	GO:0007126 16768 16775	meiotic
-#200	AnnotationNotes T200	meiotic nuclear division
-T201	GO:0007126 16885 16892	meiotic
-#201	AnnotationNotes T201	meiotic nuclear division
-T202	GO_PATO_EXT:apoptotic_process_or_quality 17250 17259	apoptotic
-#202	AnnotationNotes T202	apoptotic process or quality
-T203	GO:0006915 17319 17333	Cell Apoptosis
-#203	AnnotationNotes T203	apoptotic process
-T204	GO_PATO_EXT:apoptotic_process_or_quality 17785 17794	apoptotic
-#204	AnnotationNotes T204	apoptotic process or quality
-T205	GO_PATO_EXT:apoptotic_process_or_quality 18068 18077	apoptotic
-#205	AnnotationNotes T205	apoptotic process or quality
-T206	GO_PATO_EXT:apoptotic_process_or_quality 18142 18151	Apoptotic
-#206	AnnotationNotes T206	apoptotic process or quality
-T207	GO:0000239 18342 18351	pachytene
-#207	AnnotationNotes T207	pachytene
-T208	GO_EXT:killing 18420 18430	eliminated
-#208	AnnotationNotes T208	killing
-T209	GO:0006915 18434 18443	apoptosis
-#209	AnnotationNotes T209	apoptotic process
-T210	GO_PATO_EXT:apoptotic_process_or_quality 18501 18510	apoptotic
-#210	AnnotationNotes T210	apoptotic process or quality
-T211	GO_PATO_EXT:apoptotic_process_or_quality 18603 18612	apoptotic
-#211	AnnotationNotes T211	apoptotic process or quality
-T212	GO:0006915 18741 18750	apoptosis
-#212	AnnotationNotes T212	apoptotic process
-T213	GO_PATO_EXT:apoptotic_process_or_quality 18819 18828	apoptotic
-#213	AnnotationNotes T213	apoptotic process or quality
-T214	GO_PATO_EXT:apoptotic_process_or_quality 18882 18891	apoptotic
-#214	AnnotationNotes T214	apoptotic process or quality
-T215	GO:0006915 19104 19118	cell apoptosis
-#215	AnnotationNotes T215	apoptotic process
-T216	GO:0007126 19219 19226	meiotic
-#216	AnnotationNotes T216	meiotic nuclear division
-T217	GO:0000239 19250 19259	pachynema
-#217	AnnotationNotes T217	pachytene
-T218	GO_EXT:killing 19276 19287	elimination
-#218	AnnotationNotes T218	killing
-T219	GO:0006915 19292 19301	apoptosis
-#219	AnnotationNotes T219	apoptotic process
-T220	GO:0000239 19327 19336	Pachytene
-#220	AnnotationNotes T220	pachytene
-T221	GO:0007283 19393 19406	spermatogenic
-#221	AnnotationNotes T221	spermatogenesis
-T222	GO:0016265 19458 19461	die
-#222	AnnotationNotes T222	death
-T223	GO:0010467 19541 19550	expressed
-#223	AnnotationNotes T223	gene expression
-T224	GO:0000237 19872 19881	leptotene
-#224	AnnotationNotes T224	leptotene
-T225	GO:0000239 19891 19900	pachytene
-#225	AnnotationNotes T225	pachytene
-T226	GO:0010467 20165 20174	expressed
-#226	AnnotationNotes T226	gene expression
-T227	GO:0000239 20178 20187	pachytene
-#227	AnnotationNotes T227	pachytene
-T228	GO:0098762 20417 20430	meiotic stage
-#228	AnnotationNotes T228	meiotic cell cycle phase
-T229	GO:0007129 20468 20486	chromosome-pairing
-#229	AnnotationNotes T229	synapsis
-T230	GO:0000239 20608 20617	pachytene
-#230	AnnotationNotes T230	pachytene
-T231	GO:0000239 20674 20683	pachynema
-#231	AnnotationNotes T231	pachytene
-T232	GO:0007126 20737 20744	meiotic
-#232	AnnotationNotes T232	meiotic nuclear division
-T233	GO:0000239 20793 20802	pachynema
-#233	AnnotationNotes T233	pachytene
-T234	GO_EXT:killing 20828 20839	elimination
-#234	AnnotationNotes T234	killing
-T235	GO:0007128 20870 20880	Prophase I
-#235	AnnotationNotes T235	meiotic prophase I
-T236	GO:0007283 21048 21061	spermatogenic
-#236	AnnotationNotes T236	spermatogenesis
-T237	GO:0000239 21274 21283	pachytene
-#237	AnnotationNotes T237	pachytene
-T238	GO:0007126 21379 21386	Meiotic
-#238	AnnotationNotes T238	meiotic nuclear division
-T239	GO:0098762 21443 21460;21466 21471	meiotic stages of
-#239	AnnotationNotes T239	meiotic cell cycle phase
-T240	GO:0007126 21687 21694	Meiotic
-#240	AnnotationNotes T240	meiotic nuclear division
-T241	GO:0051324 21695 21703	Prophase
-#241	AnnotationNotes T241	prophase
-T242	GO:0007129 21743 21761	chromosome pairing
-#242	AnnotationNotes T242	synapsis
-T243	GO:0007129 21763 21771	synapsis
-#243	AnnotationNotes T243	synapsis
-T244	GO_SO_EXT:sequence_rearrangement_process 21776 21789	recombination
-#244	AnnotationNotes T244	sequence rearrangement process
-T245	GO:0000239 21802 21811	pachytene
-#245	AnnotationNotes T245	pachytene
-T246	GO:0006915 21823 21832	apoptosis
-#246	AnnotationNotes T246	apoptotic process
-T247	GO:0007129 21916 21924	synapsis
-#247	AnnotationNotes T247	synapsis
-T248	GO:0007129 22076 22084	synapsed
-#248	AnnotationNotes T248	synapsis
-T249	GO:0000240 22097 22106	diplonema
-#249	AnnotationNotes T249	diplotene
-T250	GO:0007130 22116 22151	Formation of synaptonemal complexes
-#250	AnnotationNotes T250	synaptonemal complex assembly
-T251	GO:0000238 22330 22338	zygotene
-#251	AnnotationNotes T251	zygotene
-T252	GO:0000725 22393 22413	recombination repair
-#252	AnnotationNotes T252	recombinational repair
-T253	GO:0007126 22450 22457	meiotic
-#253	AnnotationNotes T253	meiotic nuclear division
-T254	GO_SO_EXT:sequence_rearrangement_process 22458 22471	recombination
-#254	AnnotationNotes T254	sequence rearrangement process
-T255	GO:0000239 22739 22748	pachynema
-#255	AnnotationNotes T255	pachytene
-T256	GO:0007129 22784 22792	synapsis
-#256	AnnotationNotes T256	synapsis
-T257	GO:0000240 22800 22809	diplonema
-#257	AnnotationNotes T257	diplotene
-T258	GO:0007129 22860 22879	chromosomal pairing
-#258	AnnotationNotes T258	synapsis
-T259	GO:0007129 22881 22889	synapsis
-#259	AnnotationNotes T259	synapsis
-T260	GO_SO_EXT:sequence_rearrangement_process 22891 22904	recombination
-#260	AnnotationNotes T260	sequence rearrangement process
-T261	GO:0007129 22912 22920	synapsis
-#261	AnnotationNotes T261	synapsis
-T262	GO:0007128 22928 22938	prophase I
-#262	AnnotationNotes T262	meiotic prophase I
-T263	GO:0007129 22999 23007	Synapsis
-#263	AnnotationNotes T263	synapsis
-T264	GO_SO_EXT:sequence_rearrangement_process 23012 23025	Recombination
-#264	AnnotationNotes T264	sequence rearrangement process
-T265	GO:0007126 23219 23226	meiotic
-#265	AnnotationNotes T265	meiotic nuclear division
-T266	GO:0051324 23227 23235	prophase
-#266	AnnotationNotes T266	prophase
-T267	GO:0000239 23296 23305	pachynema
-#267	AnnotationNotes T267	pachytene
-T268	GO:0007129 23331 23339	synapsed
-#268	AnnotationNotes T268	synapsis
-T269	GO:0007129 23364 23372	synapsed
-#269	AnnotationNotes T269	synapsis
-T270	GO:0000238 23469 23477	zygonema
-#270	AnnotationNotes T270	zygotene
-T271	GO:0000239 23482 23491	pachynema
-#271	AnnotationNotes T271	pachytene
-T272	GO:0007283 23762 23777	spermatogenesis
-#272	AnnotationNotes T272	spermatogenesis
-T273	GO:0048469 23819 23834	cell maturation
-#273	AnnotationNotes T273	cell maturation
-T274	GO:0010467 23874 23884	expression
-#274	AnnotationNotes T274	gene expression
-T275	GO:0030154 24091 24111	cell differentiation
-#275	AnnotationNotes T275	cell differentiation
-T276	GO:0010467 24125 24135	expression
-#276	AnnotationNotes T276	gene expression
-T277	GO:0007567 24196 24201	natal
-#277	AnnotationNotes T277	parturition
-T278	GO:0007126 24668 24675	meiotic
-#278	AnnotationNotes T278	meiotic nuclear division
-T279	GO:0007283 25554 25569	Spermatogenesis
-#279	AnnotationNotes T279	spermatogenesis
-T280	GO:0007286 25574 25588	spermiogenesis
-#280	AnnotationNotes T280	spermatid development
-T281	GO:0007283 26647 26662	Spermatogenesis
-#281	AnnotationNotes T281	spermatogenesis
-T282	GO:0007126 27238 27245	meiosis
-#282	AnnotationNotes T282	meiotic nuclear division
-T283	GO:0000239 27269 27278	pachynema
-#283	AnnotationNotes T283	pachytene
-T284	GO:0007126 27373 27380	meiotic
-#284	AnnotationNotes T284	meiotic nuclear division
-T285	GO:0007126 27414 27421	meiotic
-#285	AnnotationNotes T285	meiotic nuclear division
-T286	GO:0007126 27512 27519	meiotic
-#286	AnnotationNotes T286	meiotic nuclear division
-T287	GO_PATO_EXT:biological_localization_process_or_quality 27570 27582	localization
-#287	AnnotationNotes T287	biological localization process or quality
-T288	GO:0030261 27584 27599;27612 27623	Condensation of
-#288	AnnotationNotes T288	chromosome condensation
-T289	GO:0000238 27639 27647	zygotene
-#289	AnnotationNotes T289	zygotene
-T290	GO:0000239 27667 27676	pachynema
-#290	AnnotationNotes T290	pachytene
-T291	GO:0010467 27985 27995	expression
-#291	AnnotationNotes T291	gene expression
-T292	GO_PATO_EXT:biological_localization_process_or_quality 28111 28120	localized
-#292	AnnotationNotes T292	biological localization process or quality
-T293	GO:0007126 28170 28177	meiotic
-#293	AnnotationNotes T293	meiotic nuclear division
-T294	GO_PATO_EXT:biological_localization_process_or_quality 28318 28330	localization
-#294	AnnotationNotes T294	biological localization process or quality
-T295	GO:0010467 28360 28370	expression
-#295	AnnotationNotes T295	gene expression
-T296	GO:0000239 28422 28431	pachytene
-#296	AnnotationNotes T296	pachytene
-T297	GO:0030261 28465 28488	chromosome condensation
-#297	AnnotationNotes T297	chromosome condensation
-T298	GO:0007127 28521 28543	first meiotic division
-#298	AnnotationNotes T298	meiosis I
-T299	GO:0007129 28609 28616	synapse
-#299	AnnotationNotes T299	synapsis
-T300	GO_PATO_EXT:biological_localization_process_or_quality 28639 28651	localization
-#300	AnnotationNotes T300	biological localization process or quality
-T301	GO:0000239 29078 29087	pachytene
-#301	AnnotationNotes T301	pachytene
-T302	GO_PATO_EXT:ubiquitination_process_or_quality 29106 29108	Ub
-#302	AnnotationNotes T302	ubiquitination process or quality
-T303	GO_PATO_EXT:biological_localization_process_or_quality 29113 29125	localization
-#303	AnnotationNotes T303	biological localization process or quality
-T304	GO:0000239 29159 29168	pachytene
-#304	AnnotationNotes T304	pachytene
-T305	GO_PATO_EXT:ubiquitination_process_or_quality 29170 29172	Ub
-#305	AnnotationNotes T305	ubiquitination process or quality
-T306	GO:0000239 29216 29225	pachytene
-#306	AnnotationNotes T306	pachytene
-T307	GO_PATO_EXT:ubiquitination_process_or_quality 29226 29228	Ub
-#307	AnnotationNotes T307	ubiquitination process or quality
-T308	GO:0000239 29328 29337	pachytene
-#308	AnnotationNotes T308	pachytene
-T309	GO_PATO_EXT:ubiquitination_process_or_quality 29400 29402	Ub
-#309	AnnotationNotes T309	ubiquitination process or quality
-T310	GO_PATO_EXT:biological_localization_process_or_quality 29407 29416	localizes
-#310	AnnotationNotes T310	biological localization process or quality
-T311	GO:0000239 29653 29662	Pachynema
-#311	AnnotationNotes T311	pachytene
-T312	GO:0000239 29778 29787	pachytene
-#312	AnnotationNotes T312	pachytene
-T313	GO:0000239 30046 30055	pachytene
-#313	AnnotationNotes T313	pachytene
-T314	GO:0000239 30210 30219	pachynema
-#314	AnnotationNotes T314	pachytene
-T315	GO:0006342 30273 30298	transcriptional silencing
-#315	AnnotationNotes T315	chromatin silencing
-T316	GO:0000239 30385 30394	pachytene
-#316	AnnotationNotes T316	pachytene
-T317	GO_EXT:killing 30436 30446	eliminated
-#317	AnnotationNotes T317	killing
-T318	GO:0000239 30461 30470	pachytene
-#318	AnnotationNotes T318	pachytene
-T319	GO:0007135 30524 30534	meiosis II
-#319	AnnotationNotes T319	meiosis II
-T320	GO:0007286 30539 30553	spermiogenesis
-#320	AnnotationNotes T320	spermatid development
-T321	GO:0007126 30622 30629	meiotic
-#321	AnnotationNotes T321	meiotic nuclear division
-T322	GO:0000240 30683 30692	diplonema
-#322	AnnotationNotes T322	diplotene
-T323	GO:0000239 30730 30739	pachytene
-#323	AnnotationNotes T323	pachytene
-T324	GO:0008219 30745 30755	cell death
-#324	AnnotationNotes T324	cell death
-T325	GO:0000239 30893 30902	pachytene
-#325	AnnotationNotes T325	pachytene
-T326	GO_EXT:transcription 30926 30941	transcriptional
-#326	AnnotationNotes T326	transcription
-T327	GO:0006366 31035 31066	RNA polymerase II transcription
-#327	AnnotationNotes T327	transcription from RNA polymerase II promoter
-T328	GO:0006342 31276 31301	transcriptional silencing
-#328	AnnotationNotes T328	chromatin silencing
-T329	GO:0000239 31336 31345	pachytene
-#329	AnnotationNotes T329	pachytene
-T330	GO:0010467 31370 31380	expression
-#330	AnnotationNotes T330	gene expression
-T331	GO:0000239 31445 31454	pachytene
-#331	AnnotationNotes T331	pachytene
-T332	GO:0007135 31477 31494	secondary meiosis
-#332	AnnotationNotes T332	meiosis II
-T333	GO:0000239 31544 31553	pachytene
-#333	AnnotationNotes T333	pachytene
-T334	GO_PATO_EXT:biological_localization_process_or_quality 31725 31734	localizes
-#334	AnnotationNotes T334	biological localization process or quality
-T335	GO:0000239 31762 31771	pachynema
-#335	AnnotationNotes T335	pachytene
-T336	GO:0000240 31835 31844	diplonema
-#336	AnnotationNotes T336	diplotene
-T337	GO_PATO_EXT:biological_localization_process_or_quality 31870 31882	localization
-#337	AnnotationNotes T337	biological localization process or quality
-T338	GO:0000239 31922 31931	pachynema
-#338	AnnotationNotes T338	pachytene
-T339	GO:0000240 32119 32128	Diplotene
-#339	AnnotationNotes T339	diplotene
-T340	GO:0000239 32179 32188	pachytene
-#340	AnnotationNotes T340	pachytene
-T341	GO:0006342 32294 32306;32322 32335	silencing of
-#341	AnnotationNotes T341	chromatin silencing
-T342	GO:0000239 32386 32395	pachynema
-#342	AnnotationNotes T342	pachytene
-T343	GO_PATO_EXT:biological_localization_process_or_quality 32442 32454	localization
-#343	AnnotationNotes T343	biological localization process or quality
-T344	GO:0000239 32462 32471	pachytene
-#344	AnnotationNotes T344	pachytene
-T345	GO_PATO_EXT:biological_localization_process_or_quality 32492 32501	localizes
-#345	AnnotationNotes T345	biological localization process or quality
-T346	GO:0000240 32608 32617	diplotene
-#346	AnnotationNotes T346	diplotene
-T347	GO_PATO_EXT:biological_localization_process_or_quality 32664 32676	localization
-#347	AnnotationNotes T347	biological localization process or quality
-T348	GO:0000240 32727 32736	diplotene
-#348	AnnotationNotes T348	diplotene
-T349	GO_PATO_EXT:biological_localization_process_or_quality 32819 32831	localization
-#349	AnnotationNotes T349	biological localization process or quality
-T350	GO_PATO_EXT:biological_localization_process_or_quality 32892 32904	localization
-#350	AnnotationNotes T350	biological localization process or quality
-T351	GO:0000240 32908 32917	diplotene
-#351	AnnotationNotes T351	diplotene
-T352	GO_PATO_EXT:biological_localization_process_or_quality 33039 33051	localization
-#352	AnnotationNotes T352	biological localization process or quality
-T353	GO:0000240 33055 33064	diplotene
-#353	AnnotationNotes T353	diplotene
-T354	GO_PATO_EXT:biological_localization_process_or_quality 33095 33107	localization
-#354	AnnotationNotes T354	biological localization process or quality
-T355	GO_PATO_EXT:biological_localization_process_or_quality 33143 33152	localizes
-#355	AnnotationNotes T355	biological localization process or quality
-T356	GO:0006915 33211 33220	apoptosis
-#356	AnnotationNotes T356	apoptotic process
-T357	GO:0000240 33245 33254	diplotene
-#357	AnnotationNotes T357	diplotene
-T358	GO:0000239 33483 33492	pachynema
-#358	AnnotationNotes T358	pachytene
-T359	GO_EXT:killing 33554 33564	eliminated
-#359	AnnotationNotes T359	killing
-T360	GO:0006915 33568 33577	apoptosis
-#360	AnnotationNotes T360	apoptotic process
-T361	GO:0000240 33587 33596	diplonema
-#361	AnnotationNotes T361	diplotene
-T362	GO:0000239 33697 33706	pachytene
-#362	AnnotationNotes T362	pachytene
-T363	GO:0000240 33734 33743	diplonema
-#363	AnnotationNotes T363	diplotene
-T364	GO_EXT:transcription 33772 33785	transcription
-#364	AnnotationNotes T364	transcription
-T365	GO:0016458 33991 33999	silenced
-#365	AnnotationNotes T365	gene silencing
-T366	GO_MOP_EXT:methylation 34102 34112	methylated
-#366	AnnotationNotes T366	methylation
-T367	GO_MOP_EXT:methylation 34119 34129	methylated
-#367	AnnotationNotes T367	methylation
-T368	GO_PATO_EXT:biological_localization_process_or_quality 34289 34301	localization
-#368	AnnotationNotes T368	biological localization process or quality
-T369	GO:0000240 34332 34341	diplotene
-#369	AnnotationNotes T369	diplotene
-T370	GO_PATO_EXT:biological_localization_process_or_quality 34363 34375	localization
-#370	AnnotationNotes T370	biological localization process or quality
-T371	GO:0000239 34440 34449	pachynema
-#371	AnnotationNotes T371	pachytene
-T372	GO:0000240 34476 34485	diplotene
-#372	AnnotationNotes T372	diplotene
-T373	GO:0000240 34605 34614	diplotene
-#373	AnnotationNotes T373	diplotene
-T374	GO:0000240 34734 34743	diplotene
-#374	AnnotationNotes T374	diplotene
-T375	GO_PATO_EXT:biological_localization_process_or_quality 34766 34778	localization
-#375	AnnotationNotes T375	biological localization process or quality
-T376	GO:0000240 34862 34871	diplonema
-#376	AnnotationNotes T376	diplotene
-T377	GO:0007126 35024 35031	meiosis
-#377	AnnotationNotes T377	meiotic nuclear division
-T378	GO:0000240 35070 35079	diplotene
-#378	AnnotationNotes T378	diplotene
-T379	GO_PATO_EXT:biological_localization_process_or_quality 35179 35188	localizes
-#379	AnnotationNotes T379	biological localization process or quality
-T380	GO:0000240 35258 35267	diplotene
-#380	AnnotationNotes T380	diplotene
-T381	GO:0006915 35309 35318	apoptosis
-#381	AnnotationNotes T381	apoptotic process
-T382	GO:0000240 35375 35384	diplonema
-#382	AnnotationNotes T382	diplotene
-T383	GO_EXT:killing 35486 35496	eliminated
-#383	AnnotationNotes T383	killing
-T384	GO:0000240 35774 35783	diplotene
-#384	AnnotationNotes T384	diplotene
-T385	GO:0000239 35956 35965	pachynema
-#385	AnnotationNotes T385	pachytene
-T386	GO:0016568 36020 36040	chromatin transition
-#386	AnnotationNotes T386	chromatin modification
-T387	GO:0000239 36046 36055	pachynema
-#387	AnnotationNotes T387	pachytene
-T388	GO:0000240 36059 36068	diplonema
-#388	AnnotationNotes T388	diplotene
-T389	GO:0007129 36123 36141	Chromosome Pairing
-#389	AnnotationNotes T389	synapsis
-T390	GO:0000240 36270 36279	diplonema
-#390	AnnotationNotes T390	diplotene
-T391	GO:0000240 36382 36391	diplotene
-#391	AnnotationNotes T391	diplotene
-T392	GO:0007126 36639 36646	meiotic
-#392	AnnotationNotes T392	meiotic nuclear division
-T393	GO:0051324 36647 36655	prophase
-#393	AnnotationNotes T393	prophase
-T394	GO:0010467 36716 36726	expression
-#394	AnnotationNotes T394	gene expression
-T395	GO:0000239 36741 36750	pachytene
-#395	AnnotationNotes T395	pachytene
-T396	GO_PATO_EXT:biological_localization_process_or_quality 36797 36806	localizes
-#396	AnnotationNotes T396	biological localization process or quality
-T397	GO:0010467 36844 36854	expression
-#397	AnnotationNotes T397	gene expression
-T398	GO:0000239 36908 36917	pachynema
-#398	AnnotationNotes T398	pachytene
-T399	GO:0006915 36930 36939	apoptosis
-#399	AnnotationNotes T399	apoptotic process
-T400	GO:0000240 36985 36994	diplonema
-#400	AnnotationNotes T400	diplotene
-T401	GO_EXT:transcription 37054 37067	transcription
-#401	AnnotationNotes T401	transcription
-T402	GO:0000240 37103 37112	diplonema
-#402	AnnotationNotes T402	diplotene
-T403	GO:0000239 37176 37185	pachytene
-#403	AnnotationNotes T403	pachytene
-T404	GO:0051324 37195 37203	prophase
-#404	AnnotationNotes T404	prophase
-T405	GO:0007129 37267 37274	synapse
-#405	AnnotationNotes T405	synapsis
-T406	GO_SO_EXT:sequence_rearrangement_process 37280 37289	recombine
-#406	AnnotationNotes T406	sequence rearrangement process
-T407	GO:0051598 37324 37346	pachytene surveillance
-#407	AnnotationNotes T407	meiotic recombination checkpoint
-T408	GO:0065007 37364 37371	monitor
-#408	AnnotationNotes T408	biological regulation
-T409	GO:0007126 37386 37393	meiotic
-#409	AnnotationNotes T409	meiotic nuclear division
-T410	GO_EXT:killing 37471 37481	eliminated
-#410	AnnotationNotes T410	killing
-T411	GO:0006915 37485 37494	apoptosis
-#411	AnnotationNotes T411	apoptotic process
-T412	GO:0000239 37522 37531	pachynema
-#412	AnnotationNotes T412	pachytene
-T413	GO:0007140 37651 37663	male meiosis
-#413	AnnotationNotes T413	male meiosis
-T414	GO_EXT:biological_translocation_entity_or_process 37723 37736	translocation
-#414	AnnotationNotes T414	biological translocation entity or process
-T415	GO_EXT:killing 37798 37808	eliminated
-#415	AnnotationNotes T415	killing
-T416	GO:0000239 37823 37832	pachynema
-#416	AnnotationNotes T416	pachytene
-T417	GO:0065007 37904 37916	surveillance
-#417	AnnotationNotes T417	biological regulation
-T418	GO:0006915 37940 37949	apoptosis
-#418	AnnotationNotes T418	apoptotic process
-T419	GO:0000239 38034 38043	pachytene
-#419	AnnotationNotes T419	pachytene
-T420	GO:0007129 38143 38163	chromosomal synapsis
-#420	AnnotationNotes T420	synapsis
-T421	GO_SO_EXT:sequence_rearrangement_process 38168 38181	recombination
-#421	AnnotationNotes T421	sequence rearrangement process
-T422	GO:0010467 38587 38597	expression
-#422	AnnotationNotes T422	gene expression
-T423	GO:0000239 38662 38671	pachytene
-#423	AnnotationNotes T423	pachytene
-T424	GO:0000239 38812 38821	pachynema
-#424	AnnotationNotes T424	pachytene
-T425	GO:0000240 38845 38854	diplonema
-#425	AnnotationNotes T425	diplotene
-T426	GO:0000240 38968 38977	diplonema
-#426	AnnotationNotes T426	diplotene
-T427	GO:0000240 39002 39011	diplotene
-#427	AnnotationNotes T427	diplotene
-T428	GO:0000239 39113 39122	pachynema
-#428	AnnotationNotes T428	pachytene
-T429	GO:0000240 39126 39135	diplonema
-#429	AnnotationNotes T429	diplotene
-T430	GO:0016568 39162 39184	chromatin modification
-#430	AnnotationNotes T430	chromatin modification
-T431	GO:0007126 39295 39302	meiosis
-#431	AnnotationNotes T431	meiotic nuclear division
-T432	GO:0000240 39378 39387	diplotene
-#432	AnnotationNotes T432	diplotene
-T433	GO:0000240 39515 39524	diplonema
-#433	AnnotationNotes T433	diplotene
-T434	GO_EXT:killing 39568 39578	eliminated
-#434	AnnotationNotes T434	killing
-T435	GO:0006915 39582 39591	apoptosis
-#435	AnnotationNotes T435	apoptotic process
-T436	GO:0006915 39679 39688	apoptosis
-#436	AnnotationNotes T436	apoptotic process
-T437	GO:0006915 39794 39803	apoptosis
-#437	AnnotationNotes T437	apoptotic process
-T438	GO:0006915 39920 39929	apoptosis
-#438	AnnotationNotes T438	apoptotic process
-T439	GO:0006915 39946 39955	apoptosis
-#439	AnnotationNotes T439	apoptotic process
-T440	GO_SO_EXT:sequence_rearrangement_process 40383 40396	recombination
-#440	AnnotationNotes T440	sequence rearrangement process
-T441	GO_EXT:transcription 40498 40513	transcriptional
-#441	AnnotationNotes T441	transcription
-T442	GO_EXT:transcription 40607 40622	transcriptional
-#442	AnnotationNotes T442	transcription
-T443	GO_EXT:regulator 40623 40633	regulators
-#443	AnnotationNotes T443	regulator
-T444	GO_EXT:biological_recruitment 40711 40721	recruiting
-#444	AnnotationNotes T444	biological recruitment
-T445	GO:0065007 40827 40837	regulation
-#445	AnnotationNotes T445	biological regulation
-T446	GO:0016568 40944 40963	chromatin modifying
-#446	AnnotationNotes T446	chromatin modification
-T447	GO:0007126 41092 41099	meiosis
-#447	AnnotationNotes T447	meiotic nuclear division
-T448	GO:0007281 41290 41311	germ cell development
-#448	AnnotationNotes T448	germ cell development
-T449	GO:0007126 41351 41358	meiotic
-#449	AnnotationNotes T449	meiotic nuclear division
-T450	GO:0030154 41379 41394	differentiation
-#450	AnnotationNotes T450	cell differentiation
-T451	GO:0010467 41471 41480	expressed
-#451	AnnotationNotes T451	gene expression
-T452	GO:0007126 41484 41491	meiotic
-#452	AnnotationNotes T452	meiotic nuclear division
-T453	GO:0007126 41580 41587	meiotic
-#453	AnnotationNotes T453	meiotic nuclear division
-T454	GO:0007126 41612 41619	meiotic
-#454	AnnotationNotes T454	meiotic nuclear division
-T455	GO:0007281 41708 41729	germ cell development
-#455	AnnotationNotes T455	germ cell development
-T456	GO:0008406 41976 41995	gonadal development
-#456	AnnotationNotes T456	gonad development
-T457	GO_EXT:biological_direction_or_guidance 42060 42069	directing
-#457	AnnotationNotes T457	biological direction/guidance
-T458	GO:0007546 42070 42102	sex-specific somatic development
-#458	AnnotationNotes T458	somatic processes downstream of sex determination signal
-T459	GO:0007126 42659 42666	meiosis
-#459	AnnotationNotes T459	meiotic nuclear division
-T460	GO:0007530 42968 42985	sex determination
-#460	AnnotationNotes T460	sex determination
-T461	GO:0007129 43042 43060	chromosome pairing
-#461	AnnotationNotes T461	synapsis
-T462	GO_SO_EXT:sequence_rearrangement_process 43062 43075	recombination
-#462	AnnotationNotes T462	sequence rearrangement process
-T463	GO:0007126 43086 43093	meiotic
-#463	AnnotationNotes T463	meiotic nuclear division
-T464	GO_EXT:biological_recruitment 43181 43192	recruitment
-#464	AnnotationNotes T464	biological recruitment
-T465	GO_EXT:biological_recruitment 43253 43264	recruitment
-#465	AnnotationNotes T465	biological recruitment
-T466	GO:0065007 43278 43288	regulatory
-#466	AnnotationNotes T466	biological regulation
-T467	GO:0007549 43318 43337	dosage compensation
-#467	AnnotationNotes T467	dosage compensation
-T468	GO_PATO_EXT:biological_localization_process_or_quality 43475 43484	localizes
-#468	AnnotationNotes T468	biological localization process or quality
-T469	GO:0007126 43521 43528	meiosis
-#469	AnnotationNotes T469	meiotic nuclear division
-T470	GO:0007126 43623 43630	meiotic
-#470	AnnotationNotes T470	meiotic nuclear division
-T471	GO:0051324 43631 43639	prophase
-#471	AnnotationNotes T471	prophase
-T472	GO_PATO_EXT:biological_localization_process_or_quality 43668 43677	localizes
-#472	AnnotationNotes T472	biological localization process or quality
-T473	GO:0016568 43819 43834;43843 43852	modification of
-#473	AnnotationNotes T473	chromatin modification
-T474	GO:0000239 43861 43870	pachytene
-#474	AnnotationNotes T474	pachytene
-T475	GO:0000240 43875 43884	diplotene
-#475	AnnotationNotes T475	diplotene
-T476	GO:0007126 44077 44084	meiosis
-#476	AnnotationNotes T476	meiotic nuclear division
-T477	GO:0065007 44179 44189	regulation
-#477	AnnotationNotes T477	biological regulation
-T478	GO:0007140 44197 44209	male meiosis
-#478	AnnotationNotes T478	male meiosis
-T479	GO_SO_EXT:translational_start_entity_or_process 44949 44968	translational start
-#479	AnnotationNotes T479	translational start entity or process
-T480	GO_SO_EXT:translational_start_entity_or_process 45040 45059	translational start
-#480	AnnotationNotes T480	translational start entity or process
-T481	GO_SO_EXT:sequence_rearrangement_process 45558 45571	recombination
-#481	AnnotationNotes T481	sequence rearrangement process
-T482	GO_EXT:breeding 45930 45934	bred
-#482	AnnotationNotes T482	breeding
-T483	GO_EXT:breeding 46030 46034	bred
-#483	AnnotationNotes T483	breeding
-T484	GO_EXT:breeding 46173 46177	bred
-#484	AnnotationNotes T484	breeding
-T485	GO_EXT:reverse_transcription_or_reverse_transcriptase 46235 46237	RT
-#485	AnnotationNotes T485	reverse transcription or reverse transcriptase
-T486	GO_EXT:reverse_transcription_or_reverse_transcriptase 46709 46711	RT
-#486	AnnotationNotes T486	reverse transcription or reverse transcriptase
-T487	GO:0010467 46726 46736	expression
-#487	AnnotationNotes T487	gene expression
-T488	GO_PATO_EXT:apoptotic_process_or_quality 47943 47952	apoptotic
-#488	AnnotationNotes T488	apoptotic process or quality
-T489	GO:0007126 50329 50336	Meiotic
-#489	AnnotationNotes T489	meiotic nuclear division
-T490	GO:0007126 50379 50386	Meiotic
-#490	AnnotationNotes T490	meiotic nuclear division
-T491	GO:0007126 50537 50544	meiotic
-#491	AnnotationNotes T491	meiotic nuclear division
-T492	GO:0007126 50636 50643	meiotic
-#492	AnnotationNotes T492	meiotic nuclear division
-T493	GO:0007126 51149 51156	Meiotic
-#493	AnnotationNotes T493	meiotic nuclear division
-T494	GO:0007129 51252 51260	synapsis
-#494	AnnotationNotes T494	synapsis
-T495	GO_PATO_EXT:biological_localization_process_or_quality 51339 51348	localized
-#495	AnnotationNotes T495	biological localization process or quality
-T496	GO_SO_EXT:sequence_rearrangement_process 51577 51590	recombination
-#496	AnnotationNotes T496	sequence rearrangement process
-T497	GO_SO_EXT:translational_start_entity_or_process 51742 51761	translational start
-#497	AnnotationNotes T497	translational start entity or process
-T498	GO:0007618 51975 51980	mated
-#498	AnnotationNotes T498	mating
-T499	GO:0010467 52002 52012	expressing
-#499	AnnotationNotes T499	gene expression
-T500	GO:0007618 52172 52178	Mating
-#500	AnnotationNotes T500	mating
-T501	GO:0010467 52217 52227	expressing
-#501	AnnotationNotes T501	gene expression
-T502	GO:0010467 52989 52999	Expression
-#502	AnnotationNotes T502	gene expression
-T503	GO:0010467 53239 53248	expressed
-#503	AnnotationNotes T503	gene expression
-T504	GO_PATO_EXT:biological_localization_process_or_quality 53330 53342	localization
-#504	AnnotationNotes T504	biological localization process or quality
-T505	GO_PATO_EXT:ubiquitination_process_or_quality 53499 53501	Ub
-#505	AnnotationNotes T505	ubiquitination process or quality
-T506	GO_PATO_EXT:biological_localization_process_or_quality 53506 53518	Localization
-#506	AnnotationNotes T506	biological localization process or quality
-T507	GO:0000239 53567 53576	pachytene
-#507	AnnotationNotes T507	pachytene
-T508	GO_PATO_EXT:ubiquitination_process_or_quality 53669 53671	Ub
-#508	AnnotationNotes T508	ubiquitination process or quality
-T509	GO:0000239 53752 53761	pachytene
-#509	AnnotationNotes T509	pachytene
-T510	GO_PATO_EXT:ubiquitination_process_or_quality 53773 53775	Ub
-#510	AnnotationNotes T510	ubiquitination process or quality
-T511	GO_PATO_EXT:biological_localization_process_or_quality 53789 53798	localized
-#511	AnnotationNotes T511	biological localization process or quality
-T512	GO:0016458 53880 53889	Silencing
-#512	AnnotationNotes T512	gene silencing
-T513	GO:0010467 54063 54072	expressed
-#513	AnnotationNotes T513	gene expression
-T514	GO:0000237 54090 54099	leptotene
-#514	AnnotationNotes T514	leptotene
-T515	GO:0000239 54110 54119	pachytene
-#515	AnnotationNotes T515	pachytene
-T516	GO:0007126 54314 54321	meiotic
-#516	AnnotationNotes T516	meiotic nuclear division
-T517	GO:0010467 54352 54359	express
-#517	AnnotationNotes T517	gene expression
-T518	GO:0000239 54403 54412	pachytene
-#518	AnnotationNotes T518	pachytene
-T519	GO:0010467 54426 54433	express
-#519	AnnotationNotes T519	gene expression
-T520	GO:0016458 54488 54497	silencing
-#520	AnnotationNotes T520	gene silencing
-T521	GO:0007126 54733 54740	meiotic
-#521	AnnotationNotes T521	meiotic nuclear division
-T522	GO_EXT:regulator 54741 54751	regulators
-#522	AnnotationNotes T522	regulator
-T523	CHEBI_GO_EXT:biological_process_or_quality_or_role 55019 55026	Biology
-#523	AnnotationNotes T523	biological process, quality or role
-T524	GO_PATO_EXT:phosphorylation_process_or_quality 55422 55436	phosphorylated
-#524	AnnotationNotes T524	phosphorylation process or quality
-T525	GO:0007126 55450 55457	meiotic
-#525	AnnotationNotes T525	meiotic nuclear division
-T526	GO:0007567 55497 55502	natal
-#526	AnnotationNotes T526	parturition
-T527	GO:0007126 55522 55529	meiotic
-#527	AnnotationNotes T527	meiotic nuclear division
-T528	GO_EXT:reverse_transcription_or_reverse_transcriptase 55545 55547	RT
-#528	AnnotationNotes T528	reverse transcription or reverse transcriptase
-T529	GO_PATO_EXT:ubiquitination_process_or_quality 55626 55628	Ub
-#529	AnnotationNotes T529	ubiquitination process or quality
-T530	GO_PATO_EXT:ubiquitination_process_or_quality 55635 55648	ubiquitinated
-#530	AnnotationNotes T530	ubiquitination process or quality
+T0	GO_0007140 91 103	Male Meiosis
+T1	GO_0007276 115 128	Gametogenesis
+T2	GO_0030154 200 220	cell differentiation
+T3	GO_0007126 395 402	meiotic
+T4	GO_0051324 403 411	prophase
+T5	GO_0031507 427 439;	formation of
+442 464	formation ofheterochromatin domain
+T6	GO_0051324 510 518	prophase
+T7	GO_0007126 595 602	meiosis
+T8	GO_EXT_regulator 709 719	regulators
+T9	GO_PATO_EXT_biological_localization_process_or_quality 775 784	localizes
+T10	GO_0000239 807 816	pachytene
+T11	GO_0007126 826 833	meiotic
+T12	GO_0051324 834 842	prophase
+T13	GO_0007140 863 875	male meiosis
+T14	GO_0007129 895 910	meiotic pairing
+T15	GO_SO_EXT_sequence_rearrangement_process 915 928	recombination
+T16	GO_0006342 950 976	transcriptionally silenced
+T17	GO_0006915 1057 1066	apoptosis
+T18	GO_0000239 1074 1083	pachynema
+T19	GO_0000240 1128 1137	diplonema
+T20	GO_0036124 1208 1220;	histone H3K9
+1229 1243	histone H3K9trimethylation
+T21	GO_0036123 1208 1224;	histone H3K9 di-
+1232 1243	histone H3K9 di-methylation
+T22	GO_0000239 1331 1340	pachynema
+T23	GO_0000240 1345 1354	diplonema
+T24	GO_PATO_EXT_biological_localization_process_or_quality 1369 1381	localization
+T25	GO_0016568 1510 1534	chromatin transformation
+T26	GO_0000239 1555 1564	pachynema
+T27	GO_0000240 1569 1578	diplonema
+T28	GO_0065007 1611 1618	control
+T29	GO_0007126 1639 1646	meiotic
+T30	GO_0007126 1682 1689	meiotic
+T31	GO_0007126 1842 1849	meiosis
+T32	GO_EXT_regulator 1919 1928	regulator
+T33	GO_0065007 1972 1979	control
+T34	GO_0003006 1980 1998	sexual development
+T35	GO_0007126 2278 2285	meiotic
+T36	GO_0007281 2300 2321	germ cell development
+T37	GO_PATO_EXT_biological_localization_process_or_quality 2507 2516	localizes
+T38	GO_0007126 2544 2551	meiosis
+T39	GO_EXT_biological_recruitment 2640 2651	recruitment
+T40	GO_0000239 2737 2746	pachytene
+T41	GO_0000240 2751 2760	diplotene
+T42	GO_0098762 2761 2778	stages of meiosis
+T43	GO_0016568 2784 2799;	modification of
+2809 2818	modification ofchromatin
+T44	GO_0065007 3002 3012	regulation
+T45	GO_0007548 3064 3086	Sexual differentiation
+T46	GO_PATO_EXT_physiological_process_or_quality 3109 3122	physiological
+T47	GO_PATO_EXT_biological_behavior 3128 3138	behavioral
+T48	GO_0019953 3174 3193	sexual reproduction
+T49	GO_0019953 3297 3316	sexual reproduction
+T50	GO_0009566 3479 3495	zygote formation
+T51	GO_0007126 3656 3663	meiosis
+T52	GO_0065007 3667 3676	regulated
+T53	GO_0009790 3706 3719	embryogenesis
+T54	GO_0007126 3822 3829	meiosis
+T55	GO_0007126 3913 3920	meiosis
+T56	GO_0007128 3953 3971	meiotic prophase I
+T57	GO_EXT_biological_recruitment 4012 4021	recruited
+T58	GO_0030728 4026 4035	ovulation
+T59	GO_0007137 4058 4070	metaphase II
+T60	GO_0007126 4089 4096	meiosis
+T61	GO_0009566 4103 4116	fertilization
+T62	GO_0007140 4142 4154	male meiosis
+T63	GO_0007567 4175 4182	natally
+T64	GO_0007126 4246 4253	meiosis
+T65	GO_0007140 4336 4348	male meiosis
+T66	GO_0007126 4396 4403	meiotic
+T67	GO_SO_EXT_sequence_rearrangement_process 4423 4436	recombination
+T68	GO_0007129 4441 4459	chromosome pairing
+T69	GO_0007129 4461 4469	synapsis
+T70	GO_0007143 4574 4592	meiosis in females
+T71	GO_0000075 4706 4717	checkpoints
+T72	GO_0065007 4718 4729	controlling
+T73	GO_0065007 4734 4744	monitoring
+T74	GO_0007126 4759 4766	meiotic
+T75	GO_0040020 4867 4885	meiotic regulatory
+T76	GO_0010467 5143 5153	expression
+T77	GO_0009048 5229 5254	X chromosome inactivation
+T78	GO_0007126 5343 5350	meiosis
+T79	GO_0007128 5355 5365	prophase I
+T80	GO_0007129 5399 5406	synapse
+T81	GO_SO_EXT_sequence_rearrangement_process 5422 5435	recombination
+T82	GO_0007129 5452 5470	chromosome pairing
+T83	GO_0007140 5830 5842	male meiotic
+T84	GO_PATO_EXT_biological_localization_process_or_quality 5895 5903	localize
+T85	GO_PATO_EXT_ubiquitination_process_or_quality 5998 6011	ubiquitinated
+T86	GO_PATO_EXT_ubiquitination_process_or_quality 6017 6019	Ub
+T87	GO_PATO_EXT_phosphorylation_process_or_quality 6029 6043	phosphorylated
+T88	GO_0006342 6106 6132	transcriptionally silenced
+T89	GO_0007126 6153 6160	meiotic
+T90	GO_0000239 6226 6235	pachynema
+T91	GO_0006342 6275 6299	transcriptionally silent
+T92	GO_0007286 6305 6319	spermiogenesis
+T93	GO_0016458 6346 6355	silencing
+T94	GO_0007126 6455 6462	meiotic
+T95	GO_EXT_regulator 6494 6504	Regulators
+T96	GO_0007548 6508 6530	sexual differentiation
+T97	GO_PATO_EXT_biological_patterning_process_or_quality 6647 6657	patterning
+T98	GO_0065007 6723 6731	regulate
+T99	GO_0007548 6732 6754	sexual differentiation
+T100	GO_0065007 6989 6997	regulate
+T101	GO_0007548 7017 7039	sexual differentiation
+T102	GO_EXT_regulator 7371 7380	regulator
+T103	GO_0065007 7505 7512	control
+T104	GO_0007548 7513 7535	sexual differentiation
+T105	GO_0010467 7635 7645	expression
+T106	GO_0010467 7698 7707	expressed
+T107	GO_RO_EXT_developmental_differentiation_process 7715 7730	differentiating
+T108	GO_0008584 8015 8037	testicular development
+T109	GO_RO_EXT_developmental_differentiation_process 8161 8176	differentiation
+T110	GO_0008406 8329 8348	gonadal development
+T111	GO_0007548 8428 8450	sexual differentiation
+T112	GO_0007548 8534 8556	sexual differentiation
+T113	GO_0010467 8665 8675	expression
+T114	GO_0010467 8730 8739	expressed
+T115	GO_0010467 8913 8922	expressed
+T116	GO_PATO_EXT_biological_localization_process_or_quality 8961 8970	localized
+T117	GO_0000239 8994 9003	pachytene
+T118	GO_0000239 9169 9178	pachytene
+T119	GO_0007126 9188 9195	meiotic
+T120	GO_0051324 9196 9204	prophase
+T121	GO_0000240 9274 9283	diplonema
+T122	GO_0016568 9418 9438	chromatin transition
+T123	GO_0000239 9447 9456	pachynema
+T124	GO_0000240 9461 9470	diplonema
+T125	GO_0007126 9478 9485	meiotic
+T126	GO_0051324 9486 9494	prophase
+T127	GO_0010467 9506 9516	Expression
+T128	GO_0010467 9564 9574	expression
+T129	GO_0007126 9605 9612	meiotic
+T130	GO_0010467 9646 9656	expression
+T131	GO_0007126 9811 9818	meiosis
+T132	GO_0006279 9835 9858	pre-meiotic replication
+T133	GO_0000239 9866 9875	pachytene
+T134	GO_0010467 9901 9911	expression
+T135	GO_0007126 9923 9930	meiotic
+T136	GO_0010467 10012 10022	expression
+T137	GO_EXT_reverse_transcription_or_reverse_transcriptase 10066 10068	RT
+T138	GO_0010467 10135 10145	expression
+T139	GO_0010467 10175 10185	expression
+T140	GO_0010467 10281 10291	expression
+T141	GO_0007567 10303 10308	natal
+T142	GO_0008584 10309 10327	testis development
+T143	GO_0010467 10348 10358	expression
+T144	GO_0000239 10424 10433	pachytene
+T145	GO_0007283 10477 10492	spermatogenesis
+T146	GO_0010467 10522 10532	Expression
+T147	GO_EXT_reverse_transcription_or_reverse_transcriptase 10564 10566	RT
+T148	GO_0010467 10745 10755	expression
+T149	GO_0007283 10782 10797	spermatogenesis
+T150	GO_0007567 10854 10859	birth
+T151	GO_0010467 10905 10915	expression
+T152	GO_PATO_EXT_biological_localization_process_or_quality 11053 11065	localization
+T153	GO_PATO_EXT_biological_localization_process_or_quality 11182 11191	localized
+T154	GO_0000239 11295 11304	pachytene
+T155	GO_0010467 11365 11375	expression
+T156	GO_0010467 11668 11677	expressed
+T157	GO_0000239 11708 11717	pachytene
+T158	GO_0000239 12005 12014	pachytene
+T159	GO_0010467 12031 12041	expression
+T160	GO_0010467 12097 12106	expressed
+T161	GO_0010467 12181 12190	expressed
+T162	GO_0000239 12207 12216	pachytene
+T163	GO_0000239 12332 12341	pachytene
+T164	GO_EXT_transcription 12492 12507	transcriptional
+T165	GO_0031507 12525 12547	heterochromatinization
+T166	GO_0051324 12595 12603	prophase
+T167	GO_0007140 12617 12629	male meiosis
+T168	GO_0010467 12660 12670	expression
+T169	GO_0000239 12830 12839	pachynema
+T170	GO_PATO_EXT_biological_localization_process_or_quality 12873 12882	localized
+T171	GO_PATO_EXT_biological_localization_process_or_quality 12932 12941	localized
+T172	GO_PATO_EXT_biological_localization_process_or_quality 12996 13008	localization
+T173	GO_PATO_EXT_ubiquitination_process_or_quality 13065 13067	Ub
+T174	GO_PATO_EXT_biological_localization_process_or_quality 13130 13139	localized
+T175	GO_PATO_EXT_biological_localization_process_or_quality 13244 13253	localizes
+T176	GO_0000239 13287 13296	pachynema
+T177	GO_0000239 13336 13345	pachynema
+T178	GO_0000240 13365 13374	diplonema
+T179	GO_PATO_EXT_biological_localization_process_or_quality 13400 13412	localization
+T180	GO_0007126 13442 13449	meiotic
+T181	GO_PATO_EXT_biological_localization_process_or_quality 13498 13507	localized
+T182	GO_PATO_EXT_biological_localization_process_or_quality 13667 13676	localizes
+T183	GO_SO_EXT_sequence_rearrangement_process 14457 14470	recombination
+T184	GO_0006413 14504 14523	translational start
+T185	GO_EXT_breeding 14837 14841	bred
+T186	GO_EXT_breeding 15044 15048	bred
+T187	GO_0007126 15154 15161	meiotic
+T188	GO_0048232 15392 15396;	Male
+15412 15425	MaleGametogenesis
+T189	GO_0007292 15405 15425	Female Gametogenesis
+T190	GO_EXT_breeding 15427 15435	Breeding
+T191	GO_0040007 15597 15601	grew
+T192	GO_0019098 15646 15661	sexual behavior
+T193	GO_0008584 16032 16050	testis development
+T194	GO_0007283 16160 16175	spermatogenesis
+T195	GO_0007567 16190 16195	natal
+T196	GO_0007126 16383 16390	meiotic
+T197	GO_0040007 16505 16509	grow
+T198	GO_0000239 16647 16656	pachynema
+T199	GO_0022403 16668 16677;	stages of
+16683 16688	stages ofcells
+T200	GO_0007126 16768 16775	meiotic
+T201	GO_0007126 16885 16892	meiotic
+T202	GO_PATO_EXT_apoptotic_process_or_quality 17250 17259	apoptotic
+T203	GO_0006915 17319 17333	Cell Apoptosis
+T204	GO_PATO_EXT_apoptotic_process_or_quality 17785 17794	apoptotic
+T205	GO_PATO_EXT_apoptotic_process_or_quality 18068 18077	apoptotic
+T206	GO_PATO_EXT_apoptotic_process_or_quality 18142 18151	Apoptotic
+T207	GO_0000239 18342 18351	pachytene
+T208	GO_EXT_killing 18420 18430	eliminated
+T209	GO_0006915 18434 18443	apoptosis
+T210	GO_PATO_EXT_apoptotic_process_or_quality 18501 18510	apoptotic
+T211	GO_PATO_EXT_apoptotic_process_or_quality 18603 18612	apoptotic
+T212	GO_0006915 18741 18750	apoptosis
+T213	GO_PATO_EXT_apoptotic_process_or_quality 18819 18828	apoptotic
+T214	GO_PATO_EXT_apoptotic_process_or_quality 18882 18891	apoptotic
+T215	GO_0006915 19104 19118	cell apoptosis
+T216	GO_0007126 19219 19226	meiotic
+T217	GO_0000239 19250 19259	pachynema
+T218	GO_EXT_killing 19276 19287	elimination
+T219	GO_0006915 19292 19301	apoptosis
+T220	GO_0000239 19327 19336	Pachytene
+T221	GO_0007283 19393 19406	spermatogenic
+T222	GO_0016265 19458 19461	die
+T223	GO_0010467 19541 19550	expressed
+T224	GO_0000237 19872 19881	leptotene
+T225	GO_0000239 19891 19900	pachytene
+T226	GO_0010467 20165 20174	expressed
+T227	GO_0000239 20178 20187	pachytene
+T228	GO_0098762 20417 20430	meiotic stage
+T229	GO_0007129 20468 20486	chromosome-pairing
+T230	GO_0000239 20608 20617	pachytene
+T231	GO_0000239 20674 20683	pachynema
+T232	GO_0007126 20737 20744	meiotic
+T233	GO_0000239 20793 20802	pachynema
+T234	GO_EXT_killing 20828 20839	elimination
+T235	GO_0007128 20870 20880	Prophase I
+T236	GO_0007283 21048 21061	spermatogenic
+T237	GO_0000239 21274 21283	pachytene
+T238	GO_0007126 21379 21386	Meiotic
+T239	GO_0098762 21443 21460;	meiotic stages of
+21466 21471	meiotic stages ofcells
+T240	GO_0007126 21687 21694	Meiotic
+T241	GO_0051324 21695 21703	Prophase
+T242	GO_0007129 21743 21761	chromosome pairing
+T243	GO_0007129 21763 21771	synapsis
+T244	GO_SO_EXT_sequence_rearrangement_process 21776 21789	recombination
+T245	GO_0000239 21802 21811	pachytene
+T246	GO_0006915 21823 21832	apoptosis
+T247	GO_0007129 21916 21924	synapsis
+T248	GO_0007129 22076 22084	synapsed
+T249	GO_0000240 22097 22106	diplonema
+T250	GO_0007130 22116 22151	Formation of synaptonemal complexes
+T251	GO_0000238 22330 22338	zygotene
+T252	GO_0000725 22393 22413	recombination repair
+T253	GO_0007126 22450 22457	meiotic
+T254	GO_SO_EXT_sequence_rearrangement_process 22458 22471	recombination
+T255	GO_0000239 22739 22748	pachynema
+T256	GO_0007129 22784 22792	synapsis
+T257	GO_0000240 22800 22809	diplonema
+T258	GO_0007129 22860 22879	chromosomal pairing
+T259	GO_0007129 22881 22889	synapsis
+T260	GO_SO_EXT_sequence_rearrangement_process 22891 22904	recombination
+T261	GO_0007129 22912 22920	synapsis
+T262	GO_0007128 22928 22938	prophase I
+T263	GO_0007129 22999 23007	Synapsis
+T264	GO_SO_EXT_sequence_rearrangement_process 23012 23025	Recombination
+T265	GO_0007126 23219 23226	meiotic
+T266	GO_0051324 23227 23235	prophase
+T267	GO_0000239 23296 23305	pachynema
+T268	GO_0007129 23331 23339	synapsed
+T269	GO_0007129 23364 23372	synapsed
+T270	GO_0000238 23469 23477	zygonema
+T271	GO_0000239 23482 23491	pachynema
+T272	GO_0007283 23762 23777	spermatogenesis
+T273	GO_0048469 23819 23834	cell maturation
+T274	GO_0010467 23874 23884	expression
+T275	GO_0030154 24091 24111	cell differentiation
+T276	GO_0010467 24125 24135	expression
+T277	GO_0007567 24196 24201	natal
+T278	GO_0007126 24668 24675	meiotic
+T279	GO_0007283 25554 25569	Spermatogenesis
+T280	GO_0007286 25574 25588	spermiogenesis
+T281	GO_0007283 26647 26662	Spermatogenesis
+T282	GO_0007126 27238 27245	meiosis
+T283	GO_0000239 27269 27278	pachynema
+T284	GO_0007126 27373 27380	meiotic
+T285	GO_0007126 27414 27421	meiotic
+T286	GO_0007126 27512 27519	meiotic
+T287	GO_PATO_EXT_biological_localization_process_or_quality 27570 27582	localization
+T288	GO_0030261 27584 27599;	Condensation of
+27612 27623	Condensation ofchromosomes
+T289	GO_0000238 27639 27647	zygotene
+T290	GO_0000239 27667 27676	pachynema
+T291	GO_0010467 27985 27995	expression
+T292	GO_PATO_EXT_biological_localization_process_or_quality 28111 28120	localized
+T293	GO_0007126 28170 28177	meiotic
+T294	GO_PATO_EXT_biological_localization_process_or_quality 28318 28330	localization
+T295	GO_0010467 28360 28370	expression
+T296	GO_0000239 28422 28431	pachytene
+T297	GO_0030261 28465 28488	chromosome condensation
+T298	GO_0007127 28521 28543	first meiotic division
+T299	GO_0007129 28609 28616	synapse
+T300	GO_PATO_EXT_biological_localization_process_or_quality 28639 28651	localization
+T301	GO_0000239 29078 29087	pachytene
+T302	GO_PATO_EXT_ubiquitination_process_or_quality 29106 29108	Ub
+T303	GO_PATO_EXT_biological_localization_process_or_quality 29113 29125	localization
+T304	GO_0000239 29159 29168	pachytene
+T305	GO_PATO_EXT_ubiquitination_process_or_quality 29170 29172	Ub
+T306	GO_0000239 29216 29225	pachytene
+T307	GO_PATO_EXT_ubiquitination_process_or_quality 29226 29228	Ub
+T308	GO_0000239 29328 29337	pachytene
+T309	GO_PATO_EXT_ubiquitination_process_or_quality 29400 29402	Ub
+T310	GO_PATO_EXT_biological_localization_process_or_quality 29407 29416	localizes
+T311	GO_0000239 29653 29662	Pachynema
+T312	GO_0000239 29778 29787	pachytene
+T313	GO_0000239 30046 30055	pachytene
+T314	GO_0000239 30210 30219	pachynema
+T315	GO_0006342 30273 30298	transcriptional silencing
+T316	GO_0000239 30385 30394	pachytene
+T317	GO_EXT_killing 30436 30446	eliminated
+T318	GO_0000239 30461 30470	pachytene
+T319	GO_0007135 30524 30534	meiosis II
+T320	GO_0007286 30539 30553	spermiogenesis
+T321	GO_0007126 30622 30629	meiotic
+T322	GO_0000240 30683 30692	diplonema
+T323	GO_0000239 30730 30739	pachytene
+T324	GO_0008219 30745 30755	cell death
+T325	GO_0000239 30893 30902	pachytene
+T326	GO_EXT_transcription 30926 30941	transcriptional
+T327	GO_0006366 31035 31066	RNA polymerase II transcription
+T328	GO_0006342 31276 31301	transcriptional silencing
+T329	GO_0000239 31336 31345	pachytene
+T330	GO_0010467 31370 31380	expression
+T331	GO_0000239 31445 31454	pachytene
+T332	GO_0007135 31477 31494	secondary meiosis
+T333	GO_0000239 31544 31553	pachytene
+T334	GO_PATO_EXT_biological_localization_process_or_quality 31725 31734	localizes
+T335	GO_0000239 31762 31771	pachynema
+T336	GO_0000240 31835 31844	diplonema
+T337	GO_PATO_EXT_biological_localization_process_or_quality 31870 31882	localization
+T338	GO_0000239 31922 31931	pachynema
+T339	GO_0000240 32119 32128	Diplotene
+T340	GO_0000239 32179 32188	pachytene
+T341	GO_0006342 32294 32306;	silencing of
+32322 32335	silencing oftranscription
+T342	GO_0000239 32386 32395	pachynema
+T343	GO_PATO_EXT_biological_localization_process_or_quality 32442 32454	localization
+T344	GO_0000239 32462 32471	pachytene
+T345	GO_PATO_EXT_biological_localization_process_or_quality 32492 32501	localizes
+T346	GO_0000240 32608 32617	diplotene
+T347	GO_PATO_EXT_biological_localization_process_or_quality 32664 32676	localization
+T348	GO_0000240 32727 32736	diplotene
+T349	GO_PATO_EXT_biological_localization_process_or_quality 32819 32831	localization
+T350	GO_PATO_EXT_biological_localization_process_or_quality 32892 32904	localization
+T351	GO_0000240 32908 32917	diplotene
+T352	GO_PATO_EXT_biological_localization_process_or_quality 33039 33051	localization
+T353	GO_0000240 33055 33064	diplotene
+T354	GO_PATO_EXT_biological_localization_process_or_quality 33095 33107	localization
+T355	GO_PATO_EXT_biological_localization_process_or_quality 33143 33152	localizes
+T356	GO_0006915 33211 33220	apoptosis
+T357	GO_0000240 33245 33254	diplotene
+T358	GO_0000239 33483 33492	pachynema
+T359	GO_EXT_killing 33554 33564	eliminated
+T360	GO_0006915 33568 33577	apoptosis
+T361	GO_0000240 33587 33596	diplonema
+T362	GO_0000239 33697 33706	pachytene
+T363	GO_0000240 33734 33743	diplonema
+T364	GO_EXT_transcription 33772 33785	transcription
+T365	GO_0016458 33991 33999	silenced
+T366	GO_MOP_EXT_methylation 34102 34112	methylated
+T367	GO_MOP_EXT_methylation 34119 34129	methylated
+T368	GO_PATO_EXT_biological_localization_process_or_quality 34289 34301	localization
+T369	GO_0000240 34332 34341	diplotene
+T370	GO_PATO_EXT_biological_localization_process_or_quality 34363 34375	localization
+T371	GO_0000239 34440 34449	pachynema
+T372	GO_0000240 34476 34485	diplotene
+T373	GO_0000240 34605 34614	diplotene
+T374	GO_0000240 34734 34743	diplotene
+T375	GO_PATO_EXT_biological_localization_process_or_quality 34766 34778	localization
+T376	GO_0000240 34862 34871	diplonema
+T377	GO_0007126 35024 35031	meiosis
+T378	GO_0000240 35070 35079	diplotene
+T379	GO_PATO_EXT_biological_localization_process_or_quality 35179 35188	localizes
+T380	GO_0000240 35258 35267	diplotene
+T381	GO_0006915 35309 35318	apoptosis
+T382	GO_0000240 35375 35384	diplonema
+T383	GO_EXT_killing 35486 35496	eliminated
+T384	GO_0000240 35774 35783	diplotene
+T385	GO_0000239 35956 35965	pachynema
+T386	GO_0016568 36020 36040	chromatin transition
+T387	GO_0000239 36046 36055	pachynema
+T388	GO_0000240 36059 36068	diplonema
+T389	GO_0007129 36123 36141	Chromosome Pairing
+T390	GO_0000240 36270 36279	diplonema
+T391	GO_0000240 36382 36391	diplotene
+T392	GO_0007126 36639 36646	meiotic
+T393	GO_0051324 36647 36655	prophase
+T394	GO_0010467 36716 36726	expression
+T395	GO_0000239 36741 36750	pachytene
+T396	GO_PATO_EXT_biological_localization_process_or_quality 36797 36806	localizes
+T397	GO_0010467 36844 36854	expression
+T398	GO_0000239 36908 36917	pachynema
+T399	GO_0006915 36930 36939	apoptosis
+T400	GO_0000240 36985 36994	diplonema
+T401	GO_EXT_transcription 37054 37067	transcription
+T402	GO_0000240 37103 37112	diplonema
+T403	GO_0000239 37176 37185	pachytene
+T404	GO_0051324 37195 37203	prophase
+T405	GO_0007129 37267 37274	synapse
+T406	GO_SO_EXT_sequence_rearrangement_process 37280 37289	recombine
+T407	GO_0051598 37324 37346	pachytene surveillance
+T408	GO_0065007 37364 37371	monitor
+T409	GO_0007126 37386 37393	meiotic
+T410	GO_EXT_killing 37471 37481	eliminated
+T411	GO_0006915 37485 37494	apoptosis
+T412	GO_0000239 37522 37531	pachynema
+T413	GO_0007140 37651 37663	male meiosis
+T414	GO_EXT_biological_translocation_entity_or_process 37723 37736	translocation
+T415	GO_EXT_killing 37798 37808	eliminated
+T416	GO_0000239 37823 37832	pachynema
+T417	GO_0065007 37904 37916	surveillance
+T418	GO_0006915 37940 37949	apoptosis
+T419	GO_0000239 38034 38043	pachytene
+T420	GO_0007129 38143 38163	chromosomal synapsis
+T421	GO_SO_EXT_sequence_rearrangement_process 38168 38181	recombination
+T422	GO_0010467 38587 38597	expression
+T423	GO_0000239 38662 38671	pachytene
+T424	GO_0000239 38812 38821	pachynema
+T425	GO_0000240 38845 38854	diplonema
+T426	GO_0000240 38968 38977	diplonema
+T427	GO_0000240 39002 39011	diplotene
+T428	GO_0000239 39113 39122	pachynema
+T429	GO_0000240 39126 39135	diplonema
+T430	GO_0016568 39162 39184	chromatin modification
+T431	GO_0007126 39295 39302	meiosis
+T432	GO_0000240 39378 39387	diplotene
+T433	GO_0000240 39515 39524	diplonema
+T434	GO_EXT_killing 39568 39578	eliminated
+T435	GO_0006915 39582 39591	apoptosis
+T436	GO_0006915 39679 39688	apoptosis
+T437	GO_0006915 39794 39803	apoptosis
+T438	GO_0006915 39920 39929	apoptosis
+T439	GO_0006915 39946 39955	apoptosis
+T440	GO_SO_EXT_sequence_rearrangement_process 40383 40396	recombination
+T441	GO_EXT_transcription 40498 40513	transcriptional
+T442	GO_EXT_transcription 40607 40622	transcriptional
+T443	GO_EXT_regulator 40623 40633	regulators
+T444	GO_EXT_biological_recruitment 40711 40721	recruiting
+T445	GO_0065007 40827 40837	regulation
+T446	GO_0016568 40944 40963	chromatin modifying
+T447	GO_0007126 41092 41099	meiosis
+T448	GO_0007281 41290 41311	germ cell development
+T449	GO_0007126 41351 41358	meiotic
+T450	GO_0030154 41379 41394	differentiation
+T451	GO_0010467 41471 41480	expressed
+T452	GO_0007126 41484 41491	meiotic
+T453	GO_0007126 41580 41587	meiotic
+T454	GO_0007126 41612 41619	meiotic
+T455	GO_0007281 41708 41729	germ cell development
+T456	GO_0008406 41976 41995	gonadal development
+T457	GO_EXT_biological_direction_or_guidance 42060 42069	directing
+T458	GO_0007546 42070 42102	sex-specific somatic development
+T459	GO_0007126 42659 42666	meiosis
+T460	GO_0007530 42968 42985	sex determination
+T461	GO_0007129 43042 43060	chromosome pairing
+T462	GO_SO_EXT_sequence_rearrangement_process 43062 43075	recombination
+T463	GO_0007126 43086 43093	meiotic
+T464	GO_EXT_biological_recruitment 43181 43192	recruitment
+T465	GO_EXT_biological_recruitment 43253 43264	recruitment
+T466	GO_0065007 43278 43288	regulatory
+T467	GO_0007549 43318 43337	dosage compensation
+T468	GO_PATO_EXT_biological_localization_process_or_quality 43475 43484	localizes
+T469	GO_0007126 43521 43528	meiosis
+T470	GO_0007126 43623 43630	meiotic
+T471	GO_0051324 43631 43639	prophase
+T472	GO_PATO_EXT_biological_localization_process_or_quality 43668 43677	localizes
+T473	GO_0016568 43819 43834;	modification of
+43843 43852	modification ofchromatin
+T474	GO_0000239 43861 43870	pachytene
+T475	GO_0000240 43875 43884	diplotene
+T476	GO_0007126 44077 44084	meiosis
+T477	GO_0065007 44179 44189	regulation
+T478	GO_0007140 44197 44209	male meiosis
+T479	GO_SO_EXT_translational_start_entity_or_process 44949 44968	translational start
+T480	GO_SO_EXT_translational_start_entity_or_process 45040 45059	translational start
+T481	GO_SO_EXT_sequence_rearrangement_process 45558 45571	recombination
+T482	GO_EXT_breeding 45930 45934	bred
+T483	GO_EXT_breeding 46030 46034	bred
+T484	GO_EXT_breeding 46173 46177	bred
+T485	GO_EXT_reverse_transcription_or_reverse_transcriptase 46235 46237	RT
+T486	GO_EXT_reverse_transcription_or_reverse_transcriptase 46709 46711	RT
+T487	GO_0010467 46726 46736	expression
+T488	GO_PATO_EXT_apoptotic_process_or_quality 47943 47952	apoptotic
+T489	GO_0007126 50329 50336	Meiotic
+T490	GO_0007126 50379 50386	Meiotic
+T491	GO_0007126 50537 50544	meiotic
+T492	GO_0007126 50636 50643	meiotic
+T493	GO_0007126 51149 51156	Meiotic
+T494	GO_0007129 51252 51260	synapsis
+T495	GO_PATO_EXT_biological_localization_process_or_quality 51339 51348	localized
+T496	GO_SO_EXT_sequence_rearrangement_process 51577 51590	recombination
+T497	GO_SO_EXT_translational_start_entity_or_process 51742 51761	translational start
+T498	GO_0007618 51975 51980	mated
+T499	GO_0010467 52002 52012	expressing
+T500	GO_0007618 52172 52178	Mating
+T501	GO_0010467 52217 52227	expressing
+T502	GO_0010467 52989 52999	Expression
+T503	GO_0010467 53239 53248	expressed
+T504	GO_PATO_EXT_biological_localization_process_or_quality 53330 53342	localization
+T505	GO_PATO_EXT_ubiquitination_process_or_quality 53499 53501	Ub
+T506	GO_PATO_EXT_biological_localization_process_or_quality 53506 53518	Localization
+T507	GO_0000239 53567 53576	pachytene
+T508	GO_PATO_EXT_ubiquitination_process_or_quality 53669 53671	Ub
+T509	GO_0000239 53752 53761	pachytene
+T510	GO_PATO_EXT_ubiquitination_process_or_quality 53773 53775	Ub
+T511	GO_PATO_EXT_biological_localization_process_or_quality 53789 53798	localized
+T512	GO_0016458 53880 53889	Silencing
+T513	GO_0010467 54063 54072	expressed
+T514	GO_0000237 54090 54099	leptotene
+T515	GO_0000239 54110 54119	pachytene
+T516	GO_0007126 54314 54321	meiotic
+T517	GO_0010467 54352 54359	express
+T518	GO_0000239 54403 54412	pachytene
+T519	GO_0010467 54426 54433	express
+T520	GO_0016458 54488 54497	silencing
+T521	GO_0007126 54733 54740	meiotic
+T522	GO_EXT_regulator 54741 54751	regulators
+T523	CHEBI_GO_EXT_biological_process_or_quality_or_role 55019 55026	Biology
+T524	GO_PATO_EXT_phosphorylation_process_or_quality 55422 55436	phosphorylated
+T525	GO_0007126 55450 55457	meiotic
+T526	GO_0007567 55497 55502	natal
+T527	GO_0007126 55522 55529	meiotic
+T528	GO_EXT_reverse_transcription_or_reverse_transcriptase 55545 55547	RT
+T529	GO_PATO_EXT_ubiquitination_process_or_quality 55626 55628	Ub
+T530	GO_PATO_EXT_ubiquitination_process_or_quality 55635 55648	ubiquitinated

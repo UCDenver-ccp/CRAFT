@@ -1,366 +1,188 @@
-T0	GO:0007566 29 41	implantation
-#0	AnnotationNotes T0	embryo implantation
-T1	GO:0009790 42 63	embryonic development
-#1	AnnotationNotes T1	embryo development
-T2	GO:0010467 136 145	expressed
-#2	AnnotationNotes T2	gene expression
-T3	GO:0016477 170 188	cellular migration
-#3	AnnotationNotes T3	cell migration
-T4	GO:0007049 190 200	cell cycle
-#4	AnnotationNotes T4	cell cycle
-T5	GO:0008219 241 251	cell death
-#5	AnnotationNotes T5	cell death
-T6	GO:0065007 390 400	regulatory
-#6	AnnotationNotes T6	biological regulation
-T7	GO_EXT:fatality_or_lethality 537 546	lethality
-#7	AnnotationNotes T7	fatality/lethality
-T8	GO:0009790 633 646	embryogenesis
-#8	AnnotationNotes T8	embryo development
-T9	GO:0016265 832 837	death
-#9	AnnotationNotes T9	death
-T10	GO_EXT:breeding 1073 1081	Breeding
-#10	AnnotationNotes T10	breeding
-T11	GO:0007566 1160 1169	implanted
-#11	AnnotationNotes T11	embryo implantation
-T12	GO:0007566 1247 1259	implantation
-#12	AnnotationNotes T12	embryo implantation
-T13	GO:0007566 1421 1433	implantation
-#13	AnnotationNotes T13	embryo implantation
-T14	GO_EXT:fatality_or_lethality 1444 1453	lethality
-#14	AnnotationNotes T14	fatality/lethality
-T15	GO:0009790 1598 1612;1640 1646	development of
-#15	AnnotationNotes T15	embryo development
-T16	GO:0007566 1620 1632	implantation
-#16	AnnotationNotes T16	embryo implantation
-T17	GO:0065007 2039 2049	regulatory
-#17	AnnotationNotes T17	biological regulation
-T18	GO:0010467 2300 2310	expression
-#18	AnnotationNotes T18	gene expression
-T19	GO:0065007 2902 2912	regulation
-#19	AnnotationNotes T19	biological regulation
-T20	GO:0065007 2977 2987	regulating
-#20	AnnotationNotes T20	biological regulation
-T21	CHEBI_GO_EXT:biological_process_or_quality_or_role 3050 3060	biological
-#21	AnnotationNotes T21	biological process, quality or role
-T22	GO_EXT:muscle_structure_or_tissue_development 3186 3192;3201 3212	muscle
-#22	AnnotationNotes T22	muscle structure or tissue development
-T23	GO_EXT:biological_growth_entity_or_process 3193 3199	growth
-#23	AnnotationNotes T23	biological growth entity or process
-T24	GO_EXT:biological_growth_entity_or_process 3241 3247	growth
-#24	AnnotationNotes T24	biological growth entity or process
-T25	GO:0007049 3275 3285	cell cycle
-#25	AnnotationNotes T25	cell cycle
-T26	GO_EXT:cell_communication_or_signaling_or_signal_transduction 3305 3320	signal cascades
-#26	AnnotationNotes T26	cell communication, signaling or signal transduction
-T27	GO_EXT:biological_growth_entity_or_process 3348 3354	growth
-#27	AnnotationNotes T27	biological growth entity or process
-T28	GO:0016477 3428 3442	cell migration
-#28	AnnotationNotes T28	cell migration
-T29	GO:0010941 3455 3479	regulation of cell death
-#29	AnnotationNotes T29	regulation of cell death
-T30	GO_PATO_EXT:necrosis 3489 3497	necrosis
-#30	AnnotationNotes T30	necrosis
-T31	GO:0006915 3502 3511	apoptosis
-#31	AnnotationNotes T31	apoptotic process
-T32	GO:0008219 3637 3647	cell death
-#32	AnnotationNotes T32	cell death
-T33	GO:0010467 3850 3860	expression
-#33	AnnotationNotes T33	gene expression
-T34	GO_EXT:biological_growth_entity_or_process 4133 4139	growth
-#34	AnnotationNotes T34	biological growth entity or process
-T35	GO:0048870 4161 4174	cell motility
-#35	AnnotationNotes T35	cell motility
-T36	GO:0051546 4250 4276	migration of keratinocytes
-#36	AnnotationNotes T36	keratinocyte migration
-T37	GO:0008283 4442 4455	proliferation
-#37	AnnotationNotes T37	cell proliferation
-T38	GO:0010467 4493 4503	expression
-#38	AnnotationNotes T38	gene expression
-T39	GO_PATO_EXT:physiological_process_or_quality 4681 4694	physiological
-#39	AnnotationNotes T39	physiological process or quality
-T40	GO:0016265 4949 4953	died
-#40	AnnotationNotes T40	death
-T41	GO:0007565 4980 4989	gestation
-#41	AnnotationNotes T41	female pregnancy
-T42	GO_EXT:biological_movement_or_translocation_process 5323 5332	migration
-#42	AnnotationNotes T42	biological movement/translocation process
-T43	GO_EXT:biological_release 5379 5386	release
-#43	AnnotationNotes T43	biological release
-T44	GO_PATO_EXT:biological_adhesion_entity_or_process 5396 5405	adhesions
-#44	AnnotationNotes T44	biological adhesion entity or process
-T45	GO_EXT:fatality_or_lethality 5534 5543	lethality
-#45	AnnotationNotes T45	fatality/lethality
-T46	GO:0007566 5565 5577	implantation
-#46	AnnotationNotes T46	embryo implantation
-T47	GO_EXT:fatality_or_lethality 5623 5632	lethality
-#47	AnnotationNotes T47	fatality/lethality
-T48	GO:0007565 5817 5826	gestation
-#48	AnnotationNotes T48	female pregnancy
-T49	GO:0016265 6171 6174	die
-#49	AnnotationNotes T49	death
-T50	GO:0009790 6182 6195	embryogenesis
-#50	AnnotationNotes T50	embryo development
-T51	GO:0009790 6437 6450	embryogenesis
-#51	AnnotationNotes T51	embryo development
-T52	GO:0016265 6693 6697	died
-#52	AnnotationNotes T52	death
-T53	GO:0007566 6711 6723	implantation
-#53	AnnotationNotes T53	embryo implantation
-T54	GO:0009790 6784 6797	embryogenesis
-#54	AnnotationNotes T54	embryo development
-T55	GO:0010467 6852 6861	expressed
-#55	AnnotationNotes T55	gene expression
-T56	GO:0007565 6942 6951	gestation
-#56	AnnotationNotes T56	female pregnancy
-T57	GO_PATO_EXT:physiological_process_or_quality 7028 7041	physiological
-#57	AnnotationNotes T57	physiological process or quality
-T58	GO:0009790 7061 7074	embryogenesis
-#58	AnnotationNotes T58	embryo development
-T59	GO:0000003 9916 9928	reproduction
-#59	AnnotationNotes T59	reproduction
-T60	GO:0007567 10080 10085	natal
-#60	AnnotationNotes T60	parturition
-T61	GO:0016265 10086 10091	death
-#61	AnnotationNotes T61	death
-T62	GO:0016265 10172 10180	perished
-#62	AnnotationNotes T62	death
-T63	GO:0009790 10202 10223	embryonic development
-#63	AnnotationNotes T63	embryo development
-T64	GO:0016265 10265 10270	death
-#64	AnnotationNotes T64	death
-T65	GO:0007566 10290 10302	implantation
-#65	AnnotationNotes T65	embryo implantation
-T66	GO:0016265 10535 10540	dying
-#66	AnnotationNotes T66	death
-T67	GO:0007566 10550 10562	implantation
-#67	AnnotationNotes T67	embryo implantation
-T68	GO:0007565 10611 10619	pregnant
-#68	AnnotationNotes T68	female pregnancy
-T69	GO:0007566 10742 10754	implantation
-#69	AnnotationNotes T69	embryo implantation
-T70	GO_EXT:fatality_or_lethality 11119 11126	fatally
-#70	AnnotationNotes T70	fatality/lethality
-T71	GO:0007566 11511 11523	implantation
-#71	AnnotationNotes T71	embryo implantation
-T72	GO:0007566 11647 11659	implantation
-#72	AnnotationNotes T72	embryo implantation
-T73	GO:0007566 12643 12655	implantation
-#73	AnnotationNotes T73	embryo implantation
-T74	GO:0007566 12725 12737	implantation
-#74	AnnotationNotes T74	embryo implantation
-T75	GO:0007618 12783 12788	mated
-#75	AnnotationNotes T75	mating
-T76	GO:0009566 12805 12818	fertilization
-#76	AnnotationNotes T76	fertilization
-T77	GO:0007566 13820 13832	implantation
-#77	AnnotationNotes T77	embryo implantation
-T78	GO:0007566 13842 13854	implantation
-#78	AnnotationNotes T78	embryo implantation
-T79	GO_EXT:breeding 14090 14098	breeding
-#79	AnnotationNotes T79	breeding
-T80	GO:0007566 14511 14523	implantation
-#80	AnnotationNotes T80	embryo implantation
-T81	GO:0007566 14532 14544	implantation
-#81	AnnotationNotes T81	embryo implantation
-T82	GO:0048468 15365 15378;15391 15396	generation of
-#82	AnnotationNotes T82	cell development
-T83	GO:0035822 15534 15549	gene conversion
-#83	AnnotationNotes T83	gene conversion
-T84	GO_EXT:negative_regulation 16267 16282	down-regulating
-#84	AnnotationNotes T84	negative regulation
-T85	GO:0065007 16475 16484	regulated
-#85	AnnotationNotes T85	biological regulation
-T86	GO_PATO_EXT:physiological_process_or_quality 16598 16609	physiologic
-#86	AnnotationNotes T86	physiological process or quality
-T87	GO:0065007 16714 16724	regulatory
-#87	AnnotationNotes T87	biological regulation
-T88	GO_EXT:fatality_or_lethality 16814 16823	lethality
-#88	AnnotationNotes T88	fatality/lethality
-T89	GO:0009790 17082 17103	embryonic development
-#89	AnnotationNotes T89	embryo development
-T90	GO:0070527 17434 17454	platelet aggregation
-#90	AnnotationNotes T90	platelet aggregation
-T91	GO:0009790 17618 17631	embryogenesis
-#91	AnnotationNotes T91	embryo development
-T92	GO:0016265 17793 17796	die
-#92	AnnotationNotes T92	death
-T93	GO:0007566 17807 17819	implantation
-#93	AnnotationNotes T93	embryo implantation
-T94	GO:0009790 17932 17945	embryogenesis
-#94	AnnotationNotes T94	embryo development
-T95	GO:0007566 18150 18162	implantation
-#95	AnnotationNotes T95	embryo implantation
-T96	GO_EXT:fatality_or_lethality 18163 18172	lethality
-#96	AnnotationNotes T96	fatality/lethality
-T97	GO:0007565 18319 18328	gestation
-#97	AnnotationNotes T97	female pregnancy
-T98	GO:0010467 18895 18904	expressed
-#98	AnnotationNotes T98	gene expression
-T99	GO_EXT:fatality_or_lethality 19158 19167	lethality
-#99	AnnotationNotes T99	fatality/lethality
-T100	GO:0016265 19650 19658	perished
-#100	AnnotationNotes T100	death
-T101	GO:0009790 19666 19679	embryogenesis
-#101	AnnotationNotes T101	embryo development
-T102	GO_EXT:reverse_transcription_or_reverse_transcriptase 20106 20108	RT
-#102	AnnotationNotes T102	reverse transcription or reverse transcriptase
-T103	GO:0008380 20194 20200	splice
-#103	AnnotationNotes T103	RNA splicing
-T104	GO:0010467 20434 20444	expression
-#104	AnnotationNotes T104	gene expression
-T105	GO:0010467 20550 20559	expressed
-#105	AnnotationNotes T105	gene expression
-T106	GO:0010467 20944 20953	expressed
-#106	AnnotationNotes T106	gene expression
-T107	GO_EXT:fatality_or_lethality 21030 21039	lethality
-#107	AnnotationNotes T107	fatality/lethality
-T108	GO:0065007 21803 21812	regulated
-#108	AnnotationNotes T108	biological regulation
-T109	GO_PATO_EXT:physiological_process_or_quality 21928 21941	physiological
-#109	AnnotationNotes T109	physiological process or quality
-T110	GO:0009790 21965 21978	embryogenesis
-#110	AnnotationNotes T110	embryo development
-T111	GO:0016265 22024 22027	die
-#111	AnnotationNotes T111	death
-T112	GO:0007566 22037 22049	implantation
-#112	AnnotationNotes T112	embryo implantation
-T113	GO:0006468 22308 22326;22335 22343	phosphorylation of
-#113	AnnotationNotes T113	protein phosphorylation
-T114	GO:0030168 22356 22375	platelet activation
-#114	AnnotationNotes T114	platelet activation
-T115	GO_EXT:fatality_or_lethality 23081 23090	lethality
-#115	AnnotationNotes T115	fatality/lethality
-T116	GO:0009790 23165 23186	embryonic development
-#116	AnnotationNotes T116	embryo development
-T117	GO:0007566 23325 23337	implantation
-#117	AnnotationNotes T117	embryo implantation
-T118	GO_EXT:fatality_or_lethality 23338 23347	lethality
-#118	AnnotationNotes T118	fatality/lethality
-T119	GO:0007566 23579 23591	implantation
-#119	AnnotationNotes T119	embryo implantation
-T120	GO:0007566 23649 23661	implantation
-#120	AnnotationNotes T120	embryo implantation
-T121	GO_EXT:fatality_or_lethality 23662 23671	lethality
-#121	AnnotationNotes T121	fatality/lethality
-T122	GO_RO_EXT:developmental_differentiation_process 23806 23821	differentiation
-#122	AnnotationNotes T122	developmental differentiation process
-T123	GO_EXT:fatality_or_lethality 24085 24092	fatally
-#123	AnnotationNotes T123	fatality/lethality
-T124	GO:0051301 24546 24560	cell divisions
-#124	AnnotationNotes T124	cell division
-T125	GO_EXT:fatality_or_lethality 24591 24600	lethality
-#125	AnnotationNotes T125	fatality/lethality
-T126	GO:0008283 24708 24726	cell proliferation
-#126	AnnotationNotes T126	cell proliferation
-T127	GO:0045132 24793 24815;24847 24861	chromosome segregation
-#127	AnnotationNotes T127	meiotic chromosome segregation
-T128	GO:0000070 24793 24830	chromosome segregation during mitosis
-#128	AnnotationNotes T128	mitotic sister chromatid segregation
-T129	GO_EXT:biological_movement_or_translocation_process 24879 24888	migration
-#129	AnnotationNotes T129	biological movement/translocation process
-T130	GO:0009790 24949 24970	embryonic development
-#130	AnnotationNotes T130	embryo development
-T131	GO:0008283 25289 25307	cell proliferation
-#131	AnnotationNotes T131	cell proliferation
-T132	GO:0051318 25412 25420	G1 stage
-#132	AnnotationNotes T132	G1 phase
-T133	GO:0007049 25428 25438	cell cycle
-#133	AnnotationNotes T133	cell cycle
-T134	GO:0007049 25502 25512	cell cycle
-#134	AnnotationNotes T134	cell cycle
-T135	GO:0007340 25697 25714	acrosome reaction
-#135	AnnotationNotes T135	acrosome reaction
-T136	GO:0007340 25842 25859	acrosome reaction
-#136	AnnotationNotes T136	acrosome reaction
-T137	GO_EXT:biological_translocation_entity_or_process 25889 25902	translocation
-#137	AnnotationNotes T137	biological translocation entity or process
-T138	GO_EXT:biological_release 25986 25993	release
-#138	AnnotationNotes T138	biological release
-T139	GO_PATO_EXT:biological_localization_process_or_quality 26077 26086	localized
-#139	AnnotationNotes T139	biological localization process or quality
-T140	GO:0007126 26101 26108	meiotic
-#140	AnnotationNotes T140	meiotic nuclear division
-T141	GO:0009566 26123 26136	fertilization
-#141	AnnotationNotes T141	fertilization
-T142	GO:0007059 26167 26189	chromosome segregation
-#142	AnnotationNotes T142	chromosome segregation
-T143	GO:0007059 26220 26242	chromosome segregation
-#143	AnnotationNotes T143	chromosome segregation
-T144	GO_EXT:fatality_or_lethality 26259 26265	lethal
-#144	AnnotationNotes T144	fatality/lethality
-T145	GO:0009790 26283 26304	embryonic development
-#145	AnnotationNotes T145	embryo development
-T146	GO:0035822 26996 27011	gene conversion
-#146	AnnotationNotes T146	gene conversion
-T147	GO:0010467 27234 27241	express
-#147	AnnotationNotes T147	gene expression
-T148	GO:0035822 27305 27320	gene conversion
-#148	AnnotationNotes T148	gene conversion
-T149	GO:0010467 27470 27480	expression
-#149	AnnotationNotes T149	gene expression
-T150	GO_EXT:breeding 27626 27634	breeding
-#150	AnnotationNotes T150	breeding
-T151	GO:0010467 28350 28360	expression
-#151	AnnotationNotes T151	gene expression
-T152	GO_PATO_EXT:physiological_process_or_quality 28516 28529	physiological
-#152	AnnotationNotes T152	physiological process or quality
-T153	GO:0009790 28674 28687	embryogenesis
-#153	AnnotationNotes T153	embryo development
-T154	GO:0007566 28713 28725	implantation
-#154	AnnotationNotes T154	embryo implantation
-T155	GO:0007566 28982 28994	implantation
-#155	AnnotationNotes T155	embryo implantation
-T156	GO:0009790 28995 29008	embryogenesis
-#156	AnnotationNotes T156	embryo development
-T157	GO_SO_EXT:sequence_rearrangement_process 31399 31412	recombination
-#157	AnnotationNotes T157	sequence rearrangement process
-T158	GO:0009294 32354 32366	transfection
-#158	AnnotationNotes T158	DNA mediated transformation
-T159	GO_EXT:biological_growth_entity_or_process 32929 32935	growth
-#159	AnnotationNotes T159	biological growth entity or process
-T160	GO:0009294 33243 33254	transformed
-#160	AnnotationNotes T160	DNA mediated transformation
-T161	GO:0007618 33623 33630	matings
-#161	AnnotationNotes T161	mating
-T162	GO_EXT:biological_movement_or_translocation_process 33696 33707	transferred
-#162	AnnotationNotes T162	biological movement/translocation process
-T163	GO:0007567 33777 33782	birth
-#163	AnnotationNotes T163	parturition
-T164	GO_PATO_EXT:biological_pigmentation_process_or_quality 33796 33808	pigmentation
-#164	AnnotationNotes T164	biological pigmentation process or quality
-T165	GO_EXT:breeding 33880 33884	bred
-#165	AnnotationNotes T165	breeding
-T166	GO_EXT:breeding 33976 33980	bred
-#166	AnnotationNotes T166	breeding
-T167	GO:0007566 35033 35045	implantation
-#167	AnnotationNotes T167	embryo implantation
-T168	GO_EXT:macromolecule_denaturation 35464 35476	denaturation
-#168	AnnotationNotes T168	macromolecule denaturation
-T169	GO_EXT:macromolecule_denaturation 35515 35527	denaturation
-#169	AnnotationNotes T169	macromolecule denaturation
-T170	GO:0007566 35772 35784	implantation
-#170	AnnotationNotes T170	embryo implantation
-T171	GO_EXT:macromolecule_denaturation 37585 37597	denaturation
-#171	AnnotationNotes T171	macromolecule denaturation
-T172	GO_EXT:macromolecule_denaturation 37631 37643	denaturation
-#172	AnnotationNotes T172	macromolecule denaturation
-T173	GO:0007566 37779 37791	implantation
-#173	AnnotationNotes T173	embryo implantation
-T174	GO:0009566 37809 37822	fertilization
-#174	AnnotationNotes T174	fertilization
-T175	GO:0007620 37856 37866	copulation
-#175	AnnotationNotes T175	copulation
-T176	GO:0007566 37920 37932	implantation
-#176	AnnotationNotes T176	embryo implantation
-T177	GO:0007565 37986 37994	pregnant
-#177	AnnotationNotes T177	female pregnancy
-T178	GO:0019835 38137 38142	lysis
-#178	AnnotationNotes T178	cytolysis
-T179	GO_EXT:biological_growth_entity_or_process 38365 38371	growth
-#179	AnnotationNotes T179	biological growth entity or process
-T180	GO:0007566 39474 39486	implantation
-#180	AnnotationNotes T180	embryo implantation
-T181	GO:0016265 39584 39592	perished
-#181	AnnotationNotes T181	death
-T182	GO:0007566 39602 39614	implantation
-#182	AnnotationNotes T182	embryo implantation
+T0	GO_0007566 29 41	implantation
+T1	GO_0009790 42 63	embryonic development
+T2	GO_0010467 136 145	expressed
+T3	GO_0016477 170 188	cellular migration
+T4	GO_0007049 190 200	cell cycle
+T5	GO_0008219 241 251	cell death
+T6	GO_0065007 390 400	regulatory
+T7	GO_EXT_fatality_or_lethality 537 546	lethality
+T8	GO_0009790 633 646	embryogenesis
+T9	GO_0016265 832 837	death
+T10	GO_EXT_breeding 1073 1081	Breeding
+T11	GO_0007566 1160 1169	implanted
+T12	GO_0007566 1247 1259	implantation
+T13	GO_0007566 1421 1433	implantation
+T14	GO_EXT_fatality_or_lethality 1444 1453	lethality
+T15	GO_0009790 1598 1612;	development of
+1640 1646	development ofembryo
+T16	GO_0007566 1620 1632	implantation
+T17	GO_0065007 2039 2049	regulatory
+T18	GO_0010467 2300 2310	expression
+T19	GO_0065007 2902 2912	regulation
+T20	GO_0065007 2977 2987	regulating
+T21	CHEBI_GO_EXT_biological_process_or_quality_or_role 3050 3060	biological
+T22	GO_EXT_muscle_structure_or_tissue_development 3186 3192;	muscle
+3201 3212	muscledevelopment
+T23	GO_EXT_biological_growth_entity_or_process 3193 3199	growth
+T24	GO_EXT_biological_growth_entity_or_process 3241 3247	growth
+T25	GO_0007049 3275 3285	cell cycle
+T26	GO_EXT_cell_communication_or_signaling_or_signal_transduction 3305 3320	signal cascades
+T27	GO_EXT_biological_growth_entity_or_process 3348 3354	growth
+T28	GO_0016477 3428 3442	cell migration
+T29	GO_0010941 3455 3479	regulation of cell death
+T30	GO_PATO_EXT_necrosis 3489 3497	necrosis
+T31	GO_0006915 3502 3511	apoptosis
+T32	GO_0008219 3637 3647	cell death
+T33	GO_0010467 3850 3860	expression
+T34	GO_EXT_biological_growth_entity_or_process 4133 4139	growth
+T35	GO_0048870 4161 4174	cell motility
+T36	GO_0051546 4250 4276	migration of keratinocytes
+T37	GO_0008283 4442 4455	proliferation
+T38	GO_0010467 4493 4503	expression
+T39	GO_PATO_EXT_physiological_process_or_quality 4681 4694	physiological
+T40	GO_0016265 4949 4953	died
+T41	GO_0007565 4980 4989	gestation
+T42	GO_EXT_biological_movement_or_translocation_process 5323 5332	migration
+T43	GO_EXT_biological_release 5379 5386	release
+T44	GO_PATO_EXT_biological_adhesion_entity_or_process 5396 5405	adhesions
+T45	GO_EXT_fatality_or_lethality 5534 5543	lethality
+T46	GO_0007566 5565 5577	implantation
+T47	GO_EXT_fatality_or_lethality 5623 5632	lethality
+T48	GO_0007565 5817 5826	gestation
+T49	GO_0016265 6171 6174	die
+T50	GO_0009790 6182 6195	embryogenesis
+T51	GO_0009790 6437 6450	embryogenesis
+T52	GO_0016265 6693 6697	died
+T53	GO_0007566 6711 6723	implantation
+T54	GO_0009790 6784 6797	embryogenesis
+T55	GO_0010467 6852 6861	expressed
+T56	GO_0007565 6942 6951	gestation
+T57	GO_PATO_EXT_physiological_process_or_quality 7028 7041	physiological
+T58	GO_0009790 7061 7074	embryogenesis
+T59	GO_0000003 9916 9928	reproduction
+T60	GO_0007567 10080 10085	natal
+T61	GO_0016265 10086 10091	death
+T62	GO_0016265 10172 10180	perished
+T63	GO_0009790 10202 10223	embryonic development
+T64	GO_0016265 10265 10270	death
+T65	GO_0007566 10290 10302	implantation
+T66	GO_0016265 10535 10540	dying
+T67	GO_0007566 10550 10562	implantation
+T68	GO_0007565 10611 10619	pregnant
+T69	GO_0007566 10742 10754	implantation
+T70	GO_EXT_fatality_or_lethality 11119 11126	fatally
+T71	GO_0007566 11511 11523	implantation
+T72	GO_0007566 11647 11659	implantation
+T73	GO_0007566 12643 12655	implantation
+T74	GO_0007566 12725 12737	implantation
+T75	GO_0007618 12783 12788	mated
+T76	GO_0009566 12805 12818	fertilization
+T77	GO_0007566 13820 13832	implantation
+T78	GO_0007566 13842 13854	implantation
+T79	GO_EXT_breeding 14090 14098	breeding
+T80	GO_0007566 14511 14523	implantation
+T81	GO_0007566 14532 14544	implantation
+T82	GO_0048468 15365 15378;	generation of
+15391 15396	generation ofcells
+T83	GO_0035822 15534 15549	gene conversion
+T84	GO_EXT_negative_regulation 16267 16282	down-regulating
+T85	GO_0065007 16475 16484	regulated
+T86	GO_PATO_EXT_physiological_process_or_quality 16598 16609	physiologic
+T87	GO_0065007 16714 16724	regulatory
+T88	GO_EXT_fatality_or_lethality 16814 16823	lethality
+T89	GO_0009790 17082 17103	embryonic development
+T90	GO_0070527 17434 17454	platelet aggregation
+T91	GO_0009790 17618 17631	embryogenesis
+T92	GO_0016265 17793 17796	die
+T93	GO_0007566 17807 17819	implantation
+T94	GO_0009790 17932 17945	embryogenesis
+T95	GO_0007566 18150 18162	implantation
+T96	GO_EXT_fatality_or_lethality 18163 18172	lethality
+T97	GO_0007565 18319 18328	gestation
+T98	GO_0010467 18895 18904	expressed
+T99	GO_EXT_fatality_or_lethality 19158 19167	lethality
+T100	GO_0016265 19650 19658	perished
+T101	GO_0009790 19666 19679	embryogenesis
+T102	GO_EXT_reverse_transcription_or_reverse_transcriptase 20106 20108	RT
+T103	GO_0008380 20194 20200	splice
+T104	GO_0010467 20434 20444	expression
+T105	GO_0010467 20550 20559	expressed
+T106	GO_0010467 20944 20953	expressed
+T107	GO_EXT_fatality_or_lethality 21030 21039	lethality
+T108	GO_0065007 21803 21812	regulated
+T109	GO_PATO_EXT_physiological_process_or_quality 21928 21941	physiological
+T110	GO_0009790 21965 21978	embryogenesis
+T111	GO_0016265 22024 22027	die
+T112	GO_0007566 22037 22049	implantation
+T113	GO_0006468 22308 22326;	phosphorylation of
+22335 22343	phosphorylation ofproteins
+T114	GO_0030168 22356 22375	platelet activation
+T115	GO_EXT_fatality_or_lethality 23081 23090	lethality
+T116	GO_0009790 23165 23186	embryonic development
+T117	GO_0007566 23325 23337	implantation
+T118	GO_EXT_fatality_or_lethality 23338 23347	lethality
+T119	GO_0007566 23579 23591	implantation
+T120	GO_0007566 23649 23661	implantation
+T121	GO_EXT_fatality_or_lethality 23662 23671	lethality
+T122	GO_RO_EXT_developmental_differentiation_process 23806 23821	differentiation
+T123	GO_EXT_fatality_or_lethality 24085 24092	fatally
+T124	GO_0051301 24546 24560	cell divisions
+T125	GO_EXT_fatality_or_lethality 24591 24600	lethality
+T126	GO_0008283 24708 24726	cell proliferation
+T127	GO_0045132 24793 24815;	chromosome segregation
+24847 24861	chromosome segregationduring meiosis
+T128	GO_0000070 24793 24830	chromosome segregation during mitosis
+T129	GO_EXT_biological_movement_or_translocation_process 24879 24888	migration
+T130	GO_0009790 24949 24970	embryonic development
+T131	GO_0008283 25289 25307	cell proliferation
+T132	GO_0051318 25412 25420	G1 stage
+T133	GO_0007049 25428 25438	cell cycle
+T134	GO_0007049 25502 25512	cell cycle
+T135	GO_0007340 25697 25714	acrosome reaction
+T136	GO_0007340 25842 25859	acrosome reaction
+T137	GO_EXT_biological_translocation_entity_or_process 25889 25902	translocation
+T138	GO_EXT_biological_release 25986 25993	release
+T139	GO_PATO_EXT_biological_localization_process_or_quality 26077 26086	localized
+T140	GO_0007126 26101 26108	meiotic
+T141	GO_0009566 26123 26136	fertilization
+T142	GO_0007059 26167 26189	chromosome segregation
+T143	GO_0007059 26220 26242	chromosome segregation
+T144	GO_EXT_fatality_or_lethality 26259 26265	lethal
+T145	GO_0009790 26283 26304	embryonic development
+T146	GO_0035822 26996 27011	gene conversion
+T147	GO_0010467 27234 27241	express
+T148	GO_0035822 27305 27320	gene conversion
+T149	GO_0010467 27470 27480	expression
+T150	GO_EXT_breeding 27626 27634	breeding
+T151	GO_0010467 28350 28360	expression
+T152	GO_PATO_EXT_physiological_process_or_quality 28516 28529	physiological
+T153	GO_0009790 28674 28687	embryogenesis
+T154	GO_0007566 28713 28725	implantation
+T155	GO_0007566 28982 28994	implantation
+T156	GO_0009790 28995 29008	embryogenesis
+T157	GO_SO_EXT_sequence_rearrangement_process 31399 31412	recombination
+T158	GO_0009294 32354 32366	transfection
+T159	GO_EXT_biological_growth_entity_or_process 32929 32935	growth
+T160	GO_0009294 33243 33254	transformed
+T161	GO_0007618 33623 33630	matings
+T162	GO_EXT_biological_movement_or_translocation_process 33696 33707	transferred
+T163	GO_0007567 33777 33782	birth
+T164	GO_PATO_EXT_biological_pigmentation_process_or_quality 33796 33808	pigmentation
+T165	GO_EXT_breeding 33880 33884	bred
+T166	GO_EXT_breeding 33976 33980	bred
+T167	GO_0007566 35033 35045	implantation
+T168	GO_EXT_macromolecule_denaturation 35464 35476	denaturation
+T169	GO_EXT_macromolecule_denaturation 35515 35527	denaturation
+T170	GO_0007566 35772 35784	implantation
+T171	GO_EXT_macromolecule_denaturation 37585 37597	denaturation
+T172	GO_EXT_macromolecule_denaturation 37631 37643	denaturation
+T173	GO_0007566 37779 37791	implantation
+T174	GO_0009566 37809 37822	fertilization
+T175	GO_0007620 37856 37866	copulation
+T176	GO_0007566 37920 37932	implantation
+T177	GO_0007565 37986 37994	pregnant
+T178	GO_0019835 38137 38142	lysis
+T179	GO_EXT_biological_growth_entity_or_process 38365 38371	growth
+T180	GO_0007566 39474 39486	implantation
+T181	GO_0016265 39584 39592	perished
+T182	GO_0007566 39602 39614	implantation

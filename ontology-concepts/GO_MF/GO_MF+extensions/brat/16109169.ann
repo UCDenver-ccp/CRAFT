@@ -1,66 +1,36 @@
-T0	GO:0097617 455 468	hybridization
-#0	AnnotationNotes T0	annealing activity
-T1	GO_EXT:0008083 1695 1701;1720 1726	growth
-#1	AnnotationNotes T1	bearer of growth factor activity
-T2	GO_EXT:transcription_factor 1706 1726	transcription factor
-#2	AnnotationNotes T2	transcription factor
-T3	GO_EXT:0032947 3004 3012	scaffold
-#3	AnnotationNotes T3	bearer of protein complex scaffold
-T4	CHEMINF_GO_EXT:chemical_binding_or_bond_formation 3187 3194	binding
-#4	AnnotationNotes T4	chemical binding or bond formation
-T5	GO_EXT:0008083 3319 3332	growth factor
-#5	AnnotationNotes T5	bearer of growth factor activity
-T6	GO_EXT:transcription_factor 5624 5644	transcription factor
-#6	AnnotationNotes T6	transcription factor
-T7	GO_EXT:0008083 6161 6167;6186 6193	growth
-#7	AnnotationNotes T7	bearer of growth factor activity
-T8	GO_EXT:transcription_factor 6172 6193	transcription factors
-#8	AnnotationNotes T8	transcription factor
-T9	GO_EXT:reverse_transcription_or_reverse_transcriptase 6469 6471	RT
-#9	AnnotationNotes T9	reverse transcription or reverse transcriptase
-T10	GO_EXT:0016015 7173 7184	morphogenic
-#10	AnnotationNotes T10	bearer of morphogen activity
-T11	GO:0097617 7273 7286	hybridization
-#11	AnnotationNotes T11	annealing activity
-T12	GO:0097617 7536 7549	hybridization
-#12	AnnotationNotes T12	annealing activity
-T13	GO:0097617 8373 8386	hybridization
-#13	AnnotationNotes T13	annealing activity
-T14	GO:0097617 11579 11593	hybridizations
-#14	AnnotationNotes T14	annealing activity
-T15	GO_EXT:0008083 13917 13930	growth factor
-#15	AnnotationNotes T15	bearer of growth factor activity
-T16	GO:0097617 15795 15808	hybridization
-#16	AnnotationNotes T16	annealing activity
-T17	GO_EXT:transcription_factor 18255 18275	transcription factor
-#17	AnnotationNotes T17	transcription factor
-T18	GO_EXT:transcription_factor 18715 18735	transcription factor
-#18	AnnotationNotes T18	transcription factor
-T19	GO_EXT:transcription_factor 19363 19383	transcription factor
-#19	AnnotationNotes T19	transcription factor
-T20	GO:0097617 19816 19829	hybridization
-#20	AnnotationNotes T20	annealing activity
-T21	GO_PR_EXT:alkaline_phosphatase 22862 22882	alkaline phosphatase
-#21	AnnotationNotes T21	alkaline phosphatase
-T22	CHEBI_GO_EXT:antagonist 23168 23179	antagonists
-#22	AnnotationNotes T22	antagonist
-T23	GO_EXT:0008083 27804 27818	growth factors
-#23	AnnotationNotes T23	bearer of growth factor activity
-T24	GO_EXT:0008083 31697 31703;31722 31728	growth
-#24	AnnotationNotes T24	bearer of growth factor activity
-T25	GO_EXT:transcription_factor 31708 31728	transcription factor
-#25	AnnotationNotes T25	transcription factor
-T26	GO:0097617 33035 33048	hybridization
-#26	AnnotationNotes T26	annealing activity
-T27	GO_EXT:0004565 33053 33058	?-gal
-#27	AnnotationNotes T27	bearer of beta-galactosidase activity
-T28	GO:0097617 33272 33286	hybridizations
-#28	AnnotationNotes T28	annealing activity
-T29	GO_EXT:0004565 33370 33385	?-galactosidase
-#29	AnnotationNotes T29	bearer of beta-galactosidase activity
-T30	GO_PR_EXT:alkaline_phosphatase 33748 33768	Alkaline phosphatase
-#30	AnnotationNotes T30	alkaline phosphatase
-T31	GO_PR_EXT:alkaline_phosphatase 34063 34083	alkaline phosphatase
-#31	AnnotationNotes T31	alkaline phosphatase
-T32	GO:0097617 34815 34828	hybridization
-#32	AnnotationNotes T32	annealing activity
+T0	GO_0097617 455 468	hybridization
+T1	GO_EXT_0008083 1695 1701;	growth
+1720 1726	growthfactor
+T2	GO_EXT_transcription_factor 1706 1726	transcription factor
+T3	GO_EXT_0032947 3004 3012	scaffold
+T4	CHEMINF_GO_EXT_chemical_binding_or_bond_formation 3187 3194	binding
+T5	GO_EXT_0008083 3319 3332	growth factor
+T6	GO_EXT_transcription_factor 5624 5644	transcription factor
+T7	GO_EXT_0008083 6161 6167;	growth
+6186 6193	growthfactors
+T8	GO_EXT_transcription_factor 6172 6193	transcription factors
+T9	GO_EXT_reverse_transcription_or_reverse_transcriptase 6469 6471	RT
+T10	GO_EXT_0016015 7173 7184	morphogenic
+T11	GO_0097617 7273 7286	hybridization
+T12	GO_0097617 7536 7549	hybridization
+T13	GO_0097617 8373 8386	hybridization
+T14	GO_0097617 11579 11593	hybridizations
+T15	GO_EXT_0008083 13917 13930	growth factor
+T16	GO_0097617 15795 15808	hybridization
+T17	GO_EXT_transcription_factor 18255 18275	transcription factor
+T18	GO_EXT_transcription_factor 18715 18735	transcription factor
+T19	GO_EXT_transcription_factor 19363 19383	transcription factor
+T20	GO_0097617 19816 19829	hybridization
+T21	GO_PR_EXT_alkaline_phosphatase 22862 22882	alkaline phosphatase
+T22	CHEBI_GO_EXT_antagonist 23168 23179	antagonists
+T23	GO_EXT_0008083 27804 27818	growth factors
+T24	GO_EXT_0008083 31697 31703;	growth
+31722 31728	growthfactor
+T25	GO_EXT_transcription_factor 31708 31728	transcription factor
+T26	GO_0097617 33035 33048	hybridization
+T27	GO_EXT_0004565 33053 33058	?-gal
+T28	GO_0097617 33272 33286	hybridizations
+T29	GO_EXT_0004565 33370 33385	?-galactosidase
+T30	GO_PR_EXT_alkaline_phosphatase 33748 33768	Alkaline phosphatase
+T31	GO_PR_EXT_alkaline_phosphatase 34063 34083	alkaline phosphatase
+T32	GO_0097617 34815 34828	hybridization

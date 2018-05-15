@@ -1,90 +1,45 @@
-T0	GO:0006635 190 212	fatty acid ?-oxidation
-#0	AnnotationNotes T0	fatty acid beta-oxidation
-T1	GO:0019395 909 929	fatty acid oxidation
-#1	AnnotationNotes T1	fatty acid oxidation
-T2	GO:0019395 975 995	fatty acid oxidation
-#2	AnnotationNotes T2	fatty acid oxidation
-T3	GO:0008152 1113 1123	metabolism
-#3	AnnotationNotes T3	metabolic process
-T4	GO:0019395 1140 1160	fatty acid oxidation
-#4	AnnotationNotes T4	fatty acid oxidation
-T5	GO:0008152 1293 1302	Metabolic
-#5	AnnotationNotes T5	metabolic process
-T6	GO:0016265 1442 1447	death
-#6	AnnotationNotes T6	death
-T7	GO:0016265 1768 1772	loss
-#7	AnnotationNotes T7	death
-T8	GO:0006635 2128 2154	?-oxidation of fatty acids
-#8	AnnotationNotes T8	fatty acid beta-oxidation
-T9	GO:0019395 2210 2230	Fatty acid oxidation
-#9	AnnotationNotes T9	fatty acid oxidation
-T10	GO:0006412 2659 2669	translated
-#10	AnnotationNotes T10	translation
-T11	GO:0019395 2902 2922	fatty acid oxidation
-#11	AnnotationNotes T11	fatty acid oxidation
-T12	GO:0016265 3610 3613	die
-#12	AnnotationNotes T12	death
-T13	GO:0008152 3694 3703	metabolic
-#13	AnnotationNotes T13	metabolic process
-T14	GO:0006412 4779 4790	Translation
-#14	AnnotationNotes T14	translation
-T15	GO:0006412 4976 4987	translation
-#15	AnnotationNotes T15	translation
-T16	GO:0016265 6985 6990	death
-#16	AnnotationNotes T16	death
-T17	GO:0008380 7947 7954	spliced
-#17	AnnotationNotes T17	RNA splicing
-T18	GO:0010467 8013 8022	expressed
-#18	AnnotationNotes T18	gene expression
-T19	GO:0010467 8086 8096	expression
-#19	AnnotationNotes T19	gene expression
-T20	GO:0010467 8176 8186	expression
-#20	AnnotationNotes T20	gene expression
-T21	GO:0008380 8291 8298	spliced
-#21	AnnotationNotes T21	RNA splicing
-T22	GO:0000184 8510 8537	nonsense mediated RNA decay
-#22	AnnotationNotes T22	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
-T23	GO:0010467 8784 8794	expression
-#23	AnnotationNotes T23	gene expression
-T24	GO:0010467 9230 9240	expression
-#24	AnnotationNotes T24	gene expression
-T25	GO:0016265 10682 10688	Deaths
-#25	AnnotationNotes T25	death
-T26	GO:0007567 10784 10788	born
-#26	AnnotationNotes T26	parturition
-T27	GO:0016265 10937 10941	loss
-#27	AnnotationNotes T27	death
-T28	GO:0007618 11298 11305	matings
-#28	AnnotationNotes T28	mating
-T29	GO:0007618 11329 11336	matings
-#29	AnnotationNotes T29	mating
-T30	GO:0007618 11403 11410	matings
-#30	AnnotationNotes T30	mating
-T31	GO:0016265 17875 17880	dying
-#31	AnnotationNotes T31	death
-T32	GO:0007631 18229 18237	ingested
-#32	AnnotationNotes T32	feeding behavior
-T33	GO:0031649 18485 18498	thermogenesis
-#33	AnnotationNotes T33	heat generation
-T34	GO:0010467 18512 18521	expresses
-#34	AnnotationNotes T34	gene expression
-T35	GO:0001676 19175 19200	long chain fat metabolism
-#35	AnnotationNotes T35	long-chain fatty acid metabolic process
-T36	GO:0016265 19980 19986	deaths
-#36	AnnotationNotes T36	death
-T37	GO:0007565 19991 20002	gestational
-#37	AnnotationNotes T37	female pregnancy
-T38	GO:0006266 20790 20798	ligation
-#38	AnnotationNotes T38	DNA ligation
-T39	GO:0006266 21433 21441	ligation
-#39	AnnotationNotes T39	DNA ligation
-T40	GO:0006266 21578 21586	ligation
-#40	AnnotationNotes T40	DNA ligation
-T41	GO:0006302 22052 22080	double stranded–break repair
-#41	AnnotationNotes T41	double-strand break repair
-T42	GO:0001171 23212 23233	Reverse transcription
-#42	AnnotationNotes T42	reverse transcription
-T43	GO:0010467 23693 23702	expressed
-#43	AnnotationNotes T43	gene expression
-T44	GO:0019835 25164 25169	lysed
-#44	AnnotationNotes T44	cytolysis
+T0	GO_0006635 190 212	fatty acid ?-oxidation
+T1	GO_0019395 909 929	fatty acid oxidation
+T2	GO_0019395 975 995	fatty acid oxidation
+T3	GO_0008152 1113 1123	metabolism
+T4	GO_0019395 1140 1160	fatty acid oxidation
+T5	GO_0008152 1293 1302	Metabolic
+T6	GO_0016265 1442 1447	death
+T7	GO_0016265 1768 1772	loss
+T8	GO_0006635 2128 2154	?-oxidation of fatty acids
+T9	GO_0019395 2210 2230	Fatty acid oxidation
+T10	GO_0006412 2659 2669	translated
+T11	GO_0019395 2902 2922	fatty acid oxidation
+T12	GO_0016265 3610 3613	die
+T13	GO_0008152 3694 3703	metabolic
+T14	GO_0006412 4779 4790	Translation
+T15	GO_0006412 4976 4987	translation
+T16	GO_0016265 6985 6990	death
+T17	GO_0008380 7947 7954	spliced
+T18	GO_0010467 8013 8022	expressed
+T19	GO_0010467 8086 8096	expression
+T20	GO_0010467 8176 8186	expression
+T21	GO_0008380 8291 8298	spliced
+T22	GO_0000184 8510 8537	nonsense mediated RNA decay
+T23	GO_0010467 8784 8794	expression
+T24	GO_0010467 9230 9240	expression
+T25	GO_0016265 10682 10688	Deaths
+T26	GO_0007567 10784 10788	born
+T27	GO_0016265 10937 10941	loss
+T28	GO_0007618 11298 11305	matings
+T29	GO_0007618 11329 11336	matings
+T30	GO_0007618 11403 11410	matings
+T31	GO_0016265 17875 17880	dying
+T32	GO_0007631 18229 18237	ingested
+T33	GO_0031649 18485 18498	thermogenesis
+T34	GO_0010467 18512 18521	expresses
+T35	GO_0001676 19175 19200	long chain fat metabolism
+T36	GO_0016265 19980 19986	deaths
+T37	GO_0007565 19991 20002	gestational
+T38	GO_0006266 20790 20798	ligation
+T39	GO_0006266 21433 21441	ligation
+T40	GO_0006266 21578 21586	ligation
+T41	GO_0006302 22052 22080	double stranded–break repair
+T42	GO_0001171 23212 23233	Reverse transcription
+T43	GO_0010467 23693 23702	expressed
+T44	GO_0019835 25164 25169	lysed

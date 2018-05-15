@@ -1,974 +1,503 @@
-T0	GO:0051598 6 26	Pachytene Checkpoint
-#0	AnnotationNotes T0	meiotic recombination checkpoint
-T1	GO:0007129 65 72;95 103	Meiotic
-#1	AnnotationNotes T1	synapsis
-T2	GO_SO_EXT:sequence_rearrangement_process 73 86	Recombination
-#2	AnnotationNotes T2	sequence rearrangement process
-T3	GO:0007126 128 135	meiosis
-#3	AnnotationNotes T3	meiotic nuclear division
-T4	GO:0007129 137 167	homologous chromosome synapsis
-#4	AnnotationNotes T4	synapsis
-T5	GO_SO_EXT:sequence_rearrangement_process 184 197	recombination
-#5	AnnotationNotes T5	sequence rearrangement process
-T6	GO:0000075 247 258	checkpoints
-#6	AnnotationNotes T6	cell cycle checkpoint
-T7	GO:0065007 264 271	monitor
-#7	AnnotationNotes T7	biological regulation
-T8	GO:0051598 351 371	pachytene checkpoint
-#8	AnnotationNotes T8	meiotic recombination checkpoint
-T9	GO:0007129 412 420	synapsis
-#9	AnnotationNotes T9	synapsis
-T10	GO:0000075 421 431	checkpoint
-#10	AnnotationNotes T10	cell cycle checkpoint
-T11	GO:0007126 518 525	meiosis
-#11	AnnotationNotes T11	meiotic nuclear division
-T12	GO:0016265 584 589	death
-#12	AnnotationNotes T12	death
-T13	GO:0000239 593 602	pachynema
-#13	AnnotationNotes T13	pachytene
-T14	GO:0007567 630 635	birth
-#14	AnnotationNotes T14	parturition
-T15	GO:0007129 677 684	synapse
-#15	AnnotationNotes T15	synapsis
-T16	GO_SO_EXT:sequence_rearrangement_process 722 735	recombination
-#16	AnnotationNotes T16	sequence rearrangement process
-T17	GO:0007132 925 936	metaphase I
-#17	AnnotationNotes T17	meiotic metaphase I
-T18	GO_SO_EXT:sequence_rearrangement_process 1009 1022	recombination
-#18	AnnotationNotes T18	sequence rearrangement process
-T19	GO:0007129 1027 1035	synapsis
-#19	AnnotationNotes T19	synapsis
-T20	GO:0033313 1136 1154	meiotic checkpoint
-#20	AnnotationNotes T20	meiotic cell cycle checkpoint
-T21	GO:0042148 1221 1236	strand invasion
-#21	AnnotationNotes T21	strand invasion
-T22	GO_SO_EXT:sequence_rearrangement_process 1264 1277	recombination
-#22	AnnotationNotes T22	sequence rearrangement process
-T23	GO:0035825 1324 1334	crossovers
-#23	AnnotationNotes T23	reciprocal DNA recombination
-T24	GO_SO_EXT:sequence_rearrangement_process 1390 1403	recombination
-#24	AnnotationNotes T24	sequence rearrangement process
-T25	GO:0007126 1440 1447	meiosis
-#25	AnnotationNotes T25	meiotic nuclear division
-T26	GO:0006281 1488 1496	repaired
-#26	AnnotationNotes T26	DNA repair
-T27	GO:0051598 1530 1550	pachytene checkpoint
-#27	AnnotationNotes T27	meiotic recombination checkpoint
-T28	GO_EXT:reaction_or_response 1551 1559	response
-#28	AnnotationNotes T28	reaction/response
-T29	GO:0007126 1757 1764	meiosis
-#29	AnnotationNotes T29	meiotic nuclear division
-T30	GO:0007129 1819 1826	synapse
-#30	AnnotationNotes T30	synapsis
-T31	GO_SO_EXT:sequence_rearrangement_process 1918 1931	recombination
-#31	AnnotationNotes T31	sequence rearrangement process
-T32	GO:0007126 1987 2009	meiotic cell divisions
-#32	AnnotationNotes T32	meiotic nuclear division
-T33	GO_PATO_EXT:biological_behavior 2036 2044	behavior
-#33	AnnotationNotes T33	biological behavior
-T34	GO:0033313 2098 2105;2107 2118	meiotic
-#34	AnnotationNotes T34	meiotic cell cycle checkpoint
-T35	GO:0065007 2125 2132	monitor
-#35	AnnotationNotes T35	biological regulation
-T36	GO:0007129 2145 2164	chromosome synapsis
-#36	AnnotationNotes T36	synapsis
-T37	GO:0006281 2169 2189	repair of DNA damage
-#37	AnnotationNotes T37	DNA repair
-T38	GO:0000075 2197 2208	checkpoints
-#38	AnnotationNotes T38	cell cycle checkpoint
-T39	GO:0033313 2396 2414	meiotic checkpoint
-#39	AnnotationNotes T39	meiotic cell cycle checkpoint
-T40	GO:0065007 2415 2422	control
-#40	AnnotationNotes T40	biological regulation
-T41	GO:0000075 2476 2486	checkpoint
-#41	AnnotationNotes T41	cell cycle checkpoint
-T42	GO_SO_EXT:sequence_rearrangement_process 2548 2561	recombination
-#42	AnnotationNotes T42	sequence rearrangement process
-T43	GO:0007126 2565 2572	meiosis
-#43	AnnotationNotes T43	meiotic nuclear division
-T44	GO:0006281 2594 2603	repairing
-#44	AnnotationNotes T44	DNA repair
-T45	GO:0007129 2648 2656	synapsed
-#45	AnnotationNotes T45	synapsis
-T46	GO:0016265 2707 2712	death
-#46	AnnotationNotes T46	death
-T47	GO:0000075 2789 2799	checkpoint
-#47	AnnotationNotes T47	cell cycle checkpoint
-T48	GO_EXT:reaction_or_response 2805 2813	responds
-#48	AnnotationNotes T48	reaction/response
-T49	GO:0007129 2824 2832	synapsis
-#49	AnnotationNotes T49	synapsis
-T50	GO:0006281 2870 2878	repaired
-#50	AnnotationNotes T50	DNA repair
-T51	GO_SO_EXT:sequence_rearrangement_process 2912 2925	recombination
-#51	AnnotationNotes T51	sequence rearrangement process
-T52	GO:0007276 2946 2964	genesis of gametes
-#52	AnnotationNotes T52	gamete generation
-T53	GO:0007567 3036 3041	birth
-#53	AnnotationNotes T53	parturition
-T54	GO:0007127 3127 3149	first meiotic division
-#54	AnnotationNotes T54	meiosis I
-T55	GO:0007129 3185 3192	synapse
-#55	AnnotationNotes T55	synapsis
-T56	GO_SO_EXT:sequence_rearrangement_process 3202 3215	recombination
-#56	AnnotationNotes T56	sequence rearrangement process
-T57	GO_SO_EXT:sequence_rearrangement_process 3259 3272	Recombination
-#57	AnnotationNotes T57	sequence rearrangement process
-T58	GO:0006281 3280 3287	repairs
-#58	AnnotationNotes T58	DNA repair
-T59	GO:0006281 3288 3294	repair
-#59	AnnotationNotes T59	DNA repair
-T60	GO:0000237 3355 3364	leptonema
-#60	AnnotationNotes T60	leptotene
-T61	GO:0007129 3382 3390	synapsis
-#61	AnnotationNotes T61	synapsis
-T62	GO:0007114 3394 3401	budding
-#62	AnnotationNotes T62	cell budding
-T63	GO_SO_EXT:sequence_rearrangement_process 3471 3484	recombination
-#63	AnnotationNotes T63	sequence rearrangement process
-T64	GO_SO_EXT:sequence_rearrangement_process 3550 3563	recombination
-#64	AnnotationNotes T64	sequence rearrangement process
-T65	GO_EXT:biological_recruitment 3579 3590	recruitment
-#65	AnnotationNotes T65	biological recruitment
-T66	GO:0006260 3594 3609	DNA replication
-#66	AnnotationNotes T66	DNA replication
-T67	GO:0000725 3627 3649	recombinational repair
-#67	AnnotationNotes T67	recombinational repair
-T68	GO:0006281 3688 3694	repair
-#68	AnnotationNotes T68	DNA repair
-T69	GO_SO_EXT:sequence_rearrangement_process 3725 3738	recombination
-#69	AnnotationNotes T69	sequence rearrangement process
-T70	GO:0007129 3752 3781	homologous chromosome pairing
-#70	AnnotationNotes T70	synapsis
-T71	GO:0006281 3791 3799	repaired
-#71	AnnotationNotes T71	DNA repair
-T72	GO:0035825 3854 3867	crossing over
-#72	AnnotationNotes T72	reciprocal DNA recombination
-T73	GO:0065007 3905 3917	surveillance
-#73	AnnotationNotes T73	biological regulation
-T74	GO:0000075 3928 3939	checkpoints
-#74	AnnotationNotes T74	cell cycle checkpoint
-T75	GO_EXT:detection_or_sensing_of_stimulus 3951 3956	sense
-#75	AnnotationNotes T75	detection/sensing of stimulus
-T76	GO:0007126 3957 3964	meiotic
-#76	AnnotationNotes T76	meiotic nuclear division
-T77	GO_EXT:killing 3976 3985	eliminate
-#77	AnnotationNotes T77	killing
-T78	GO_SO_EXT:sequence_rearrangement_process 4146 4159	recombination
-#78	AnnotationNotes T78	sequence rearrangement process
-T79	GO:0007129 4167 4186	chromosome synapsis
-#79	AnnotationNotes T79	synapsis
-T80	GO:0007126 4195 4202	meiotic
-#80	AnnotationNotes T80	meiotic nuclear division
-T81	GO:0000239 4217 4226	pachytene
-#81	AnnotationNotes T81	pachytene
-T82	GO:0007128 4236 4254	meiotic prophase I
-#82	AnnotationNotes T82	meiotic prophase I
-T83	GO_EXT:reaction_or_response 4261 4269	response
-#83	AnnotationNotes T83	reaction/response
-T84	GO:0007126 4273 4280	meiotic
-#84	AnnotationNotes T84	meiotic nuclear division
-T85	GO:0051598 4312 4332	pachytene checkpoint
-#85	AnnotationNotes T85	meiotic recombination checkpoint
-T86	GO:0051598 4422 4442	pachytene checkpoint
-#86	AnnotationNotes T86	meiotic recombination checkpoint
-T87	GO:0007126 4487 4494	meiosis
-#87	AnnotationNotes T87	meiotic nuclear division
-T88	GO:0042770 4555 4575	DNA damage signaling
-#88	AnnotationNotes T88	signal transduction in response to DNA damage
-T89	GO:0007067 4579 4586	mitotic
-#89	AnnotationNotes T89	mitotic nuclear division
-T90	GO:0051598 4648 4668	pachytene checkpoint
-#90	AnnotationNotes T90	meiotic recombination checkpoint
-T91	GO:0051598 4726 4746	pachytene checkpoint
-#91	AnnotationNotes T91	meiotic recombination checkpoint
-T92	GO:0065007 4759 4766	monitor
-#92	AnnotationNotes T92	biological regulation
-T93	GO:0007126 4782 4789	meiotic
-#93	AnnotationNotes T93	meiotic nuclear division
-T94	GO:0008152 4801 4811	metabolism
-#94	AnnotationNotes T94	metabolic process
-T95	GO:0006302 4849 4859	DSB repair
-#95	AnnotationNotes T95	double-strand break repair
-T96	GO:0007129 4868 4887	chromosome synapsis
-#96	AnnotationNotes T96	synapsis
-T97	GO:0006302 4969 4979	DSB repair
-#97	AnnotationNotes T97	double-strand break repair
-T98	GO_EXT:killing 5026 5036	eliminated
-#98	AnnotationNotes T98	killing
-T99	GO:0000239 5040 5049	pachynema
-#99	AnnotationNotes T99	pachytene
-T100	GO:0006302 5096 5106	DSB repair
-#100	AnnotationNotes T100	double-strand break repair
-T101	GO:0007129 5119 5127	synapsis
-#101	AnnotationNotes T101	synapsis
-T102	GO_SO_EXT:sequence_rearrangement_process 5175 5188	recombination
-#102	AnnotationNotes T102	sequence rearrangement process
-T103	GO:0007129 5205 5213	synapsis
-#103	AnnotationNotes T103	synapsis
-T104	GO_SO_EXT:sequence_rearrangement_process 5236 5249	recombination
-#104	AnnotationNotes T104	sequence rearrangement process
-T105	GO:0007129 5286 5294	synapsis
-#105	AnnotationNotes T105	synapsis
-T106	GO:0051598 5365 5385	pachytene checkpoint
-#106	AnnotationNotes T106	meiotic recombination checkpoint
-T107	GO_EXT:reaction_or_response 5391 5399	responds
-#107	AnnotationNotes T107	reaction/response
-T108	GO:0007126 5414 5421	meiotic
-#108	AnnotationNotes T108	meiotic nuclear division
-T109	GO_SO_EXT:sequence_rearrangement_process 5422 5435	recombination
-#109	AnnotationNotes T109	sequence rearrangement process
-T110	GO:0051598 5536 5556	pachytene checkpoint
-#110	AnnotationNotes T110	meiotic recombination checkpoint
-T111	GO:0065007 5557 5564	control
-#111	AnnotationNotes T111	biological regulation
-T112	GO_PATO_EXT:biological_localization_process_or_quality 5677 5686	localized
-#112	AnnotationNotes T112	biological localization process or quality
-T113	GO:0000239 5789 5798	pachytene
-#113	AnnotationNotes T113	pachytene
-T114	GO:0007129 5810 5818	synaptic
-#114	AnnotationNotes T114	synapsis
-T115	GO:0051598 5897 5906;5937 5947	pachytene
-#115	AnnotationNotes T115	meiotic recombination checkpoint
-T116	GO:0007129 5907 5915	synapsis
-#116	AnnotationNotes T116	synapsis
-T117	GO:0006302 5925 5935	DSB repair
-#117	AnnotationNotes T117	double-strand break repair
-T118	GO:0007129 6028 6036	synaptic
-#118	AnnotationNotes T118	synapsis
-T119	GO:0007126 6037 6044	meiosis
-#119	AnnotationNotes T119	meiotic nuclear division
-T120	GO:0007129 6055 6063	synaptic
-#120	AnnotationNotes T120	synapsis
-T121	GO:0007126 6064 6071	meiosis
-#121	AnnotationNotes T121	meiotic nuclear division
-T122	GO:0000075 6120 6130	checkpoint
-#122	AnnotationNotes T122	cell cycle checkpoint
-T123	GO:0065007 6142 6149	monitor
-#123	AnnotationNotes T123	biological regulation
-T124	GO:0051598 6333 6353	pachytene checkpoint
-#124	AnnotationNotes T124	meiotic recombination checkpoint
-T125	GO:0000075 6400 6410	checkpoint
-#125	AnnotationNotes T125	cell cycle checkpoint
-T126	GO:0035825 6476 6485	crossover
-#126	AnnotationNotes T126	reciprocal DNA recombination
-T127	GO:0006302 6492 6501;6510 6514	repair of
-#127	AnnotationNotes T127	double-strand break repair
-T128	GO:0007126 6502 6509	meiotic
-#128	AnnotationNotes T128	meiotic nuclear division
-T129	GO:0010467 6545 6554	Expressed
-#129	AnnotationNotes T129	gene expression
-T130	GO_EXT:reverse_transcription_or_reverse_transcriptase 7102 7104	RT
-#130	AnnotationNotes T130	reverse transcription or reverse transcriptase
-T131	GO:0010467 7144 7153	expressed
-#131	AnnotationNotes T131	gene expression
-T132	GO:0010467 7349 7358	expressed
-#132	AnnotationNotes T132	gene expression
-T133	GO:0010467 7438 7448	Expression
-#133	AnnotationNotes T133	gene expression
-T134	GO_EXT:reverse_transcription_or_reverse_transcriptase 8390 8392	RT
-#134	AnnotationNotes T134	reverse transcription or reverse transcriptase
-T135	GO_PATO_EXT:biological_localization_process_or_quality 8733 8745	Localization
-#135	AnnotationNotes T135	biological localization process or quality
-T136	GO:0010467 8929 8939	Expression
-#136	AnnotationNotes T136	gene expression
-T137	GO:0000237 9009 9018	leptotene
-#137	AnnotationNotes T137	leptotene
-T138	GO:0000239 9049 9058	pachytene
-#138	AnnotationNotes T138	pachytene
-T139	GO:0000239 9092 9101	pachytene
-#139	AnnotationNotes T139	pachytene
-T140	GO_PATO_EXT:biological_localization_process_or_quality 9359 9371	localization
-#140	AnnotationNotes T140	biological localization process or quality
-T141	GO:0000237 9521 9530	leptotene
-#141	AnnotationNotes T141	leptotene
-T142	GO:0000237 9532 9535	Lep
-#142	AnnotationNotes T142	leptotene
-T143	GO:0000238 9538 9546	zygotene
-#143	AnnotationNotes T143	zygotene
-T144	GO:0000238 9548 9551	Zyg
-#144	AnnotationNotes T144	zygotene
-T145	GO:0000239 9558 9567	pachytene
-#145	AnnotationNotes T145	pachytene
-T146	GO:0000239 9569 9572	Pac
-#146	AnnotationNotes T146	pachytene
-T147	GO:0016265 10040 10044	died
-#147	AnnotationNotes T147	death
-T148	GO_EXT:fatality_or_lethality 10130 10139	lethality
-#148	AnnotationNotes T148	fatality/lethality
-T149	GO:0007283 10873 10888	spermatogenesis
-#149	AnnotationNotes T149	spermatogenesis
-T150	GO:0000239 10894 10903	pachytene
-#150	AnnotationNotes T150	pachytene
-T151	GO:0000239 11064 11073	pachytene
-#151	AnnotationNotes T151	pachytene
-T152	GO_EXT:reverse_transcription_or_reverse_transcriptase 11160 11162	RT
-#152	AnnotationNotes T152	reverse transcription or reverse transcriptase
-T153	GO:0010467 11188 11198	expression
-#153	AnnotationNotes T153	gene expression
-T154	GO:0008380 11244 11251	spliced
-#154	AnnotationNotes T154	RNA splicing
-T155	GO:0008380 11361 11367	splice
-#155	AnnotationNotes T155	RNA splicing
-T156	GO:0010467 11996 12005	expressed
-#156	AnnotationNotes T156	gene expression
-T157	GO:0010467 12030 12040	expression
-#157	AnnotationNotes T157	gene expression
-T158	GO:0000237 12297 12306	leptotene
-#158	AnnotationNotes T158	leptotene
-T159	GO:0000238 12334 12342	Zygotene
-#159	AnnotationNotes T159	zygotene
-T160	GO:0000239 12343 12352	pachytene
-#160	AnnotationNotes T160	pachytene
-T161	GO:0000239 12435 12444	pachytene
-#161	AnnotationNotes T161	pachytene
-T162	GO_PATO_EXT:biological_localization_process_or_quality 12490 12499	localized
-#162	AnnotationNotes T162	biological localization process or quality
-T163	GO_PATO_EXT:biological_localization_process_or_quality 12612 12624	localization
-#163	AnnotationNotes T163	biological localization process or quality
-T164	GO:0007126 12651 12658	meiotic
-#164	AnnotationNotes T164	meiotic nuclear division
-T165	GO:0098762 12871 12887	meiotic substage
-#165	AnnotationNotes T165	meiotic cell cycle phase
-T166	GO:0007126 12947 12954	meiotic
-#166	AnnotationNotes T166	meiotic nuclear division
-T167	GO:0007126 12983 12990	Meiotic
-#167	AnnotationNotes T167	meiotic nuclear division
-T168	GO:0009790 13283 13296	embryogenesis
-#168	AnnotationNotes T168	embryo development
-T169	GO:0007567 13313 13318	natal
-#169	AnnotationNotes T169	parturition
-T170	GO:0007567 13346 13352	partum
-#170	AnnotationNotes T170	parturition
-T171	GO:0000239 13587 13596	pachytene
-#171	AnnotationNotes T171	pachytene
-T172	GO_EXT:killing 13708 13718	eliminated
-#172	AnnotationNotes T172	killing
-T173	GO:0000239 13737 13746	pachynema
-#173	AnnotationNotes T173	pachytene
-T174	GO:0000239 14291 14300	pachytene
-#174	AnnotationNotes T174	pachytene
-T175	GO:0007126 14356 14363	meiotic
-#175	AnnotationNotes T175	meiotic nuclear division
-T176	GO:0000237 14438 14447	leptotene
-#176	AnnotationNotes T176	leptotene
-T177	GO:0000238 14448 14456	zygotene
-#177	AnnotationNotes T177	zygotene
-T178	GO_PATO_EXT:apoptotic_process_or_quality 14500 14509	apoptotic
-#178	AnnotationNotes T178	apoptotic process or quality
-T179	GO:0000237 14709 14718	leptotene
-#179	AnnotationNotes T179	leptotene
-T180	GO:0000238 14719 14727	zygotene
-#180	AnnotationNotes T180	zygotene
-T181	GO:0007126 15579 15586	meiotic
-#181	AnnotationNotes T181	meiotic nuclear division
-T182	GO:0000239 15801 15810	pachynema
-#182	AnnotationNotes T182	pachytene
-T183	GO:0007283 15851 15864	spermatogenic
-#183	AnnotationNotes T183	spermatogenesis
-T184	GO:0000239 15914 15923	pachytene
-#184	AnnotationNotes T184	pachytene
-T185	GO:0007126 16057 16064	meiotic
-#185	AnnotationNotes T185	meiotic nuclear division
-T186	GO:0007126 16147 16154	meiotic
-#186	AnnotationNotes T186	meiotic nuclear division
-T187	GO:0030435 16259 16264;16272 16283	spore
-#187	AnnotationNotes T187	sporulation resulting in formation of a cellular spore
-T188	GO:0007276 16265 16283	gamete development
-#188	AnnotationNotes T188	gamete generation
-T189	GO:0007129 16327 16357	Homologous Chromosome Synapsis
-#189	AnnotationNotes T189	synapsis
-T190	GO:0006281 16384 16392	repaired
-#190	AnnotationNotes T190	DNA repair
-T191	GO:0000239 16401 16410	Pachynema
-#191	AnnotationNotes T191	pachytene
-T192	GO:0007126 16449 16456	meiotic
-#192	AnnotationNotes T192	meiotic nuclear division
-T193	GO:0000239 16671 16680	Pachytene
-#193	AnnotationNotes T193	pachytene
-T194	GO:0007129 16783 16806	synapsis of chromosomes
-#194	AnnotationNotes T194	synapsis
-T195	GO:0007129 16955 16963	synapsed
-#195	AnnotationNotes T195	synapsis
-T196	GO:0007567 17026 17032	partum
-#196	AnnotationNotes T196	parturition
-T197	GO:0007129 17066 17074	synaptic
-#197	AnnotationNotes T197	synapsis
-T198	GO:0007129 17090 17098	synapsed
-#198	AnnotationNotes T198	synapsis
-T199	GO:0007567 17236 17241	natal
-#199	AnnotationNotes T199	parturition
-T200	GO:0007283 17242 17257	spermatogenesis
-#200	AnnotationNotes T200	spermatogenesis
-T201	GO:0000239 17409 17418	pachynema
-#201	AnnotationNotes T201	pachytene
-T202	GO_EXT:killing 17468 17478	eliminated
-#202	AnnotationNotes T202	killing
-T203	GO:0007567 17490 17495	birth
-#203	AnnotationNotes T203	parturition
-T204	GO:0006281 17517 17527	DNA repair
-#204	AnnotationNotes T204	DNA repair
-T205	GO:0006281 17565 17573	repaired
-#205	AnnotationNotes T205	DNA repair
-T206	GO:0007126 17608 17615	meiotic
-#206	AnnotationNotes T206	meiotic nuclear division
-T207	GO_EXT:killing 17627 17638	elimination
-#207	AnnotationNotes T207	killing
-T208	GO:0000239 17683 17692	Pachytene
-#208	AnnotationNotes T208	pachytene
-T209	GO:0000239 18029 18038	pachytene
-#209	AnnotationNotes T209	pachytene
-T210	GO:0007129 18057 18065	synapsis
-#210	AnnotationNotes T210	synapsis
-T211	GO:0007567 18156 18162	partum
-#211	AnnotationNotes T211	parturition
-T212	GO:0007129 18172 18180	synapsed
-#212	AnnotationNotes T212	synapsis
-T213	GO:0000239 18319 18328	pachytene
-#213	AnnotationNotes T213	pachytene
-T214	GO:0007129 18372 18380	synapsed
-#214	AnnotationNotes T214	synapsis
-T215	GO:0000239 18381 18390	pachytene
-#215	AnnotationNotes T215	pachytene
-T216	GO:0051324 18464 18472	prophase
-#216	AnnotationNotes T216	prophase
-T217	GO:0000239 18512 18521	pachytene
-#217	AnnotationNotes T217	pachytene
-T218	GO:0007129 18614 18622	synapsed
-#218	AnnotationNotes T218	synapsis
-T219	GO_PATO_EXT:phosphorylation_process 18662 18677	phosphorylation
-#219	AnnotationNotes T219	phosphorylation process
-T220	GO_PATO_EXT:phosphorylation_process 18825 18840	phosphorylation
-#220	AnnotationNotes T220	phosphorylation process
-T221	GO:0000239 18882 18891	pachytene
-#221	AnnotationNotes T221	pachytene
-T222	GO:0007129 19151 19159	synapsed
-#222	AnnotationNotes T222	synapsis
-T223	GO:0000239 19259 19268	pachytene
-#223	AnnotationNotes T223	pachytene
-T224	GO:0000239 19394 19403	pachytene
-#224	AnnotationNotes T224	pachytene
-T225	GO_PATO_EXT:biological_localization_process_or_quality 19450 19458	localize
-#225	AnnotationNotes T225	biological localization process or quality
-T226	GO:0007126 19563 19570	meiotic
-#226	AnnotationNotes T226	meiotic nuclear division
-T227	GO:0007126 19591 19598	meiotic
-#227	AnnotationNotes T227	meiotic nuclear division
-T228	GO_SO_EXT:sequence_rearrangement_process 19660 19673	recombination
-#228	AnnotationNotes T228	sequence rearrangement process
-T229	GO:0007129 19678 19686	synapsis
-#229	AnnotationNotes T229	synapsis
-T230	GO_SO_EXT:sequence_rearrangement_process 19688 19701	Recombination
-#230	AnnotationNotes T230	sequence rearrangement process
-T231	GO:0000237 19799 19808	leptonema
-#231	AnnotationNotes T231	leptotene
-T232	GO:0007126 19862 19873	meiotically
-#232	AnnotationNotes T232	meiotic nuclear division
-T233	GO_SO_EXT:sequence_rearrangement_process 19932 19945	recombination
-#233	AnnotationNotes T233	sequence rearrangement process
-T234	GO:0000238 20011 20019	zygotene
-#234	AnnotationNotes T234	zygotene
-T235	GO:0000725 20118 20140	recombinational repair
-#235	AnnotationNotes T235	recombinational repair
-T236	GO:0006302 20134 20148	repair of DSBs
-#236	AnnotationNotes T236	double-strand break repair
-T237	GO:0007129 20240 20248	synaptic
-#237	AnnotationNotes T237	synapsis
-T238	GO:0007126 20329 20336	meiosis
-#238	AnnotationNotes T238	meiotic nuclear division
-T239	GO_PATO_EXT:biological_localization_process_or_quality 20430 20439	localizes
-#239	AnnotationNotes T239	biological localization process or quality
-T240	GO_PATO_EXT:biological_localization_process_or_quality 20648 20657	localized
-#240	AnnotationNotes T240	biological localization process or quality
-T241	GO:0007129 20685 20693	synapsed
-#241	AnnotationNotes T241	synapsis
-T242	GO:0007129 20713 20721	synaptic
-#242	AnnotationNotes T242	synapsis
-T243	GO:0006302 20775 20785	DSB repair
-#243	AnnotationNotes T243	double-strand break repair
-T244	GO:0000239 20805 20814	pachynema
-#244	AnnotationNotes T244	pachytene
-T245	GO_SO_EXT:sequence_rearrangement_process 20922 20935	recombination
-#245	AnnotationNotes T245	sequence rearrangement process
-T246	GO:0007129 21128 21136	synapsed
-#246	AnnotationNotes T246	synapsis
-T247	GO:0000239 21173 21182	pachytene
-#247	AnnotationNotes T247	pachytene
-T248	GO:0000238 21317 21325	zygonema
-#248	AnnotationNotes T248	zygotene
-T249	GO:0000077 21380 21401	DNA damage–checkpoint
-#249	AnnotationNotes T249	DNA damage checkpoint
-T250	GO:0007129 21508 21516	synapsed
-#250	AnnotationNotes T250	synapsis
-T251	GO:0007126 21528 21535	meiotic
-#251	AnnotationNotes T251	meiotic nuclear division
-T252	GO_PATO_EXT:biological_localization_process_or_quality 21584 21592	localize
-#252	AnnotationNotes T252	biological localization process or quality
-T253	GO_SO_EXT:sequence_rearrangement_process 21624 21637	recombination
-#253	AnnotationNotes T253	sequence rearrangement process
-T254	GO:0035825 21691 21701	crossovers
-#254	AnnotationNotes T254	reciprocal DNA recombination
-T255	GO:0035825 21703 21705	CO
-#255	AnnotationNotes T255	reciprocal DNA recombination
-T256	GO:0007129 21831 21840	synapsing
-#256	AnnotationNotes T256	synapsis
-T257	GO:0007126 21841 21848	meiotic
-#257	AnnotationNotes T257	meiotic nuclear division
-T258	GO:0000239 21888 21897	pachynema
-#258	AnnotationNotes T258	pachytene
-T259	GO_SO_EXT:sequence_rearrangement_process 21937 21950	recombination
-#259	AnnotationNotes T259	sequence rearrangement process
-T260	GO:0000239 21993 22002	pachytene
-#260	AnnotationNotes T260	pachytene
-T261	GO:0006281 22069 22077	repaired
-#261	AnnotationNotes T261	DNA repair
-T262	GO_SO_EXT:sequence_rearrangement_process 22098 22111	recombination
-#262	AnnotationNotes T262	sequence rearrangement process
-T263	GO:0000239 22137 22146	pachynema
-#263	AnnotationNotes T263	pachytene
-T264	GO:0000077 22162 22183	DNA damage checkpoint
-#264	AnnotationNotes T264	DNA damage checkpoint
-T265	GO:0007126 22241 22248	meiotic
-#265	AnnotationNotes T265	meiotic nuclear division
-T266	GO:0007126 22288 22295	meiotic
-#266	AnnotationNotes T266	meiotic nuclear division
-T267	GO:0006342 22296 22308;22318 22327	silencing of
-#267	AnnotationNotes T267	chromatin silencing
-T268	GO:0007129 22311 22317	paired
-#268	AnnotationNotes T268	synapsis
-T269	GO:0006302 22381 22391	DSB repair
-#269	AnnotationNotes T269	double-strand break repair
-T270	GO_PATO_EXT:phosphorylation_process 22436 22451	phosphorylation
-#270	AnnotationNotes T270	phosphorylation process
-T271	GO:0007129 22546 22554	synapsed
-#271	AnnotationNotes T271	synapsis
-T272	GO:0007129 22604 22612	synapsis
-#272	AnnotationNotes T272	synapsis
-T273	GO:0006281 22661 22671	DNA repair
-#273	AnnotationNotes T273	DNA repair
-T274	GO:0006281 22719 22729	DNA repair
-#274	AnnotationNotes T274	DNA repair
-T275	GO:0006342 22742 22767	transcriptional silencing
-#275	AnnotationNotes T275	chromatin silencing
-T276	GO:0000239 22825 22834	pachytene
-#276	AnnotationNotes T276	pachytene
-T277	GO:0006281 22870 22880	DNA repair
-#277	AnnotationNotes T277	DNA repair
-T278	GO:0007126 22938 22945	meiotic
-#278	AnnotationNotes T278	meiotic nuclear division
-T279	GO:0000240 22988 22997	diplotene
-#279	AnnotationNotes T279	diplotene
-T280	GO:0007132 23075 23086	metaphase I
-#280	AnnotationNotes T280	meiotic metaphase I
-T281	GO:0000240 23180 23189	diplotene
-#281	AnnotationNotes T281	diplotene
-T282	GO:0007132 23194 23205	metaphase I
-#282	AnnotationNotes T282	meiotic metaphase I
-T283	GO:0035825 23282 23284	CO
-#283	AnnotationNotes T283	reciprocal DNA recombination
-T284	GO:0006281 23450 23458	repaired
-#284	AnnotationNotes T284	DNA repair
-T285	GO:0000725 23501 23523	recombinational repair
-#285	AnnotationNotes T285	recombinational repair
-T286	GO:0035825 23543 23559	CO recombination
-#286	AnnotationNotes T286	reciprocal DNA recombination
-T287	GO:0006298 23618 23633	mismatch repair
-#287	AnnotationNotes T287	mismatch repair
-T288	GO:0000239 23708 23717	pachynema
-#288	AnnotationNotes T288	pachytene
-T289	GO:0000239 23923 23932	pachytene
-#289	AnnotationNotes T289	pachytene
-T290	GO:0000239 24006 24015	pachytene
-#290	AnnotationNotes T290	pachytene
-T291	GO:0006281 24034 24040	repair
-#291	AnnotationNotes T291	DNA repair
-T292	GO:0006302 24077 24087	DSB repair
-#292	AnnotationNotes T292	double-strand break repair
-T293	GO:0000239 24125 24134	pachytene
-#293	AnnotationNotes T293	pachytene
-T294	GO:0006281 24234 24242	repaired
-#294	AnnotationNotes T294	DNA repair
-T295	GO:0000239 24481 24490	pachytene
-#295	AnnotationNotes T295	pachytene
-T296	GO:0035825 24515 24517	CO
-#296	AnnotationNotes T296	reciprocal DNA recombination
-T297	GO:0007128 24615 24625	prophase I
-#297	AnnotationNotes T297	meiotic prophase I
-T298	GO:0070194 24803 24817;24822 24824	degradation of
-#298	AnnotationNotes T298	synaptonemal complex disassembly
-T299	GO:0030261 24826 24849	chromosome condensation
-#299	AnnotationNotes T299	chromosome condensation
-T300	GO:0007132 24880 24891	metaphase I
-#300	AnnotationNotes T300	meiotic metaphase I
-T301	GO:0051323 24906 24915	metaphase
-#301	AnnotationNotes T301	metaphase
-T302	GO:0000239 25130 25139	pachytene
-#302	AnnotationNotes T302	pachytene
-T303	GO:0035825 25203 25206	COs
-#303	AnnotationNotes T303	reciprocal DNA recombination
-T304	GO:0051323 25307 25317	metaphases
-#304	AnnotationNotes T304	metaphase
-T305	GO:0007126 25418 25425	Meiotic
-#305	AnnotationNotes T305	meiotic nuclear division
-T306	GO:0007129 25468 25476	Synapsis
-#306	AnnotationNotes T306	synapsis
-T307	GO:0006915 25521 25530	apoptosis
-#307	AnnotationNotes T307	apoptotic process
-T308	GO:0007129 25545 25553	synapsis
-#308	AnnotationNotes T308	synapsis
-T309	GO:0000237 25732 25741	leptonema
-#309	AnnotationNotes T309	leptotene
-T310	GO:0007129 25835 25843	synapsis
-#310	AnnotationNotes T310	synapsis
-T311	GO:0006915 25876 25885	apoptosis
-#311	AnnotationNotes T311	apoptotic process
-T312	GO:0000239 25889 25898	pachynema
-#312	AnnotationNotes T312	pachytene
-T313	GO:0007129 25962 25992	homologous chromosome synapsis
-#313	AnnotationNotes T313	synapsis
-T314	GO:0000238 26063 26071	zygotene
-#314	AnnotationNotes T314	zygotene
-T315	GO:0000239 26072 26081	pachytene
-#315	AnnotationNotes T315	pachytene
-T316	GO:0016265 26204 26209	death
-#316	AnnotationNotes T316	death
-T317	GO:0031577 26237 26255	spindle checkpoint
-#317	AnnotationNotes T317	spindle checkpoint
-T318	GO_EXT:killing 26261 26271	eliminates
-#318	AnnotationNotes T318	killing
-T319	GO:0007132 26328 26339	metaphase I
-#319	AnnotationNotes T319	meiotic metaphase I
-T320	GO:0007126 26361 26368	meiotic
-#320	AnnotationNotes T320	meiotic nuclear division
-T321	GO:0007129 26481 26489	synapsis
-#321	AnnotationNotes T321	synapsis
-T322	GO:0000239 26505 26514	pachytene
-#322	AnnotationNotes T322	pachytene
-T323	GO:0000237 26573 26582	leptonema
-#323	AnnotationNotes T323	leptotene
-T324	GO_SO_EXT:sequence_rearrangement_process 26637 26650	recombination
-#324	AnnotationNotes T324	sequence rearrangement process
-T325	GO:0007129 26674 26693	chromosome synapsis
-#325	AnnotationNotes T325	synapsis
-T326	GO:0007129 26919 26938	chromosome synapsis
-#326	AnnotationNotes T326	synapsis
-T327	GO:0000239 27378 27387	pachytene
-#327	AnnotationNotes T327	pachytene
-T328	GO:0007129 27406 27414	synaptic
-#328	AnnotationNotes T328	synapsis
-T329	GO:0007129 27793 27812	chromosome synapsis
-#329	AnnotationNotes T329	synapsis
-T330	GO_EXT:reaction_or_response 27881 27889	responds
-#330	AnnotationNotes T330	reaction/response
-T331	GO:0007129 27893 27901	synapsis
-#331	AnnotationNotes T331	synapsis
-T332	GO:0007126 28040 28047	Meiotic
-#332	AnnotationNotes T332	meiotic nuclear division
-T333	GO:0007129 28126 28147	interhomolog synaptic
-#333	AnnotationNotes T333	synapsis
-T334	GO:0006302 28181 28191	DSB repair
-#334	AnnotationNotes T334	double-strand break repair
-T335	GO:0007129 28213 28234	interhomolog synapsis
-#335	AnnotationNotes T335	synapsis
-T336	GO:0007129 28280 28287	synapse
-#336	AnnotationNotes T336	synapsis
-T337	GO:0000240 28361 28370	diplonema
-#337	AnnotationNotes T337	diplotene
-T338	GO:0007132 28374 28385	metaphase I
-#338	AnnotationNotes T338	meiotic metaphase I
-T339	GO:0007132 28609 28620	metaphase I
-#339	AnnotationNotes T339	meiotic metaphase I
-T340	GO:0007129 28742 28772	homologous chromosome synapsis
-#340	AnnotationNotes T340	synapsis
-T341	GO:0007126 29020 29027	meiotic
-#341	AnnotationNotes T341	meiotic nuclear division
-T342	GO:0007126 29064 29071	meiosis
-#342	AnnotationNotes T342	meiotic nuclear division
-T343	GO:0007126 29255 29262	meiotic
-#343	AnnotationNotes T343	meiotic nuclear division
-T344	GO:0006302 29285 29295	DSB repair
-#344	AnnotationNotes T344	double-strand break repair
-T345	GO:0007129 29307 29326	chromosome synapsis
-#345	AnnotationNotes T345	synapsis
-T346	GO:0007283 29333 29348	spermatogenesis
-#346	AnnotationNotes T346	spermatogenesis
-T347	GO:0000238 29473 29481	zygonema
-#347	AnnotationNotes T347	zygotene
-T348	GO:0000239 29482 29491	pachynema
-#348	AnnotationNotes T348	pachytene
-T349	GO:0007129 29611 29619	synapsis
-#349	AnnotationNotes T349	synapsis
-T350	GO_PATO_EXT:phosphorylation_process_or_quality 29715 29729	phosphorylated
-#350	AnnotationNotes T350	phosphorylation process or quality
-T351	GO:0007126 29920 29927	Meiotic
-#351	AnnotationNotes T351	meiotic nuclear division
-T352	GO:0048477 30280 30289	oogenesis
-#352	AnnotationNotes T352	oogenesis
-T353	GO:0007126 30504 30511	meiotic
-#353	AnnotationNotes T353	meiotic nuclear division
-T354	GO:0006302 30562 30572	DSB repair
-#354	AnnotationNotes T354	double-strand break repair
-T355	GO:0051598 30790 30810	pachytene checkpoint
-#355	AnnotationNotes T355	meiotic recombination checkpoint
-T356	GO:0065007 30811 30819	monitors
-#356	AnnotationNotes T356	biological regulation
-T357	GO_EXT:reaction_or_response 30824 30832	responds
-#357	AnnotationNotes T357	reaction/response
-T358	GO:0000725 30836 30851;30856 30862	recombinational
-#358	AnnotationNotes T358	recombinational repair
-T359	GO:0006302 30852 30862	DSB repair
-#359	AnnotationNotes T359	double-strand break repair
-T360	GO:0007129 30867 30875	synapsis
-#360	AnnotationNotes T360	synapsis
-T361	GO:0000077 30925 30942	repair checkpoint
-#361	AnnotationNotes T361	DNA damage checkpoint
-T362	GO:0007129 30978 30986	synapsis
-#362	AnnotationNotes T362	synapsis
-T363	GO:0000075 30987 30997	checkpoint
-#363	AnnotationNotes T363	cell cycle checkpoint
-T364	GO_EXT:fatality_or_lethality 31231 31240	lethality
-#364	AnnotationNotes T364	fatality/lethality
-T365	GO:0007129 31328 31336	synapsis
-#365	AnnotationNotes T365	synapsis
-T366	GO:0000075 31337 31347	checkpoint
-#366	AnnotationNotes T366	cell cycle checkpoint
-T367	GO:0033313 31456 31474	meiotic checkpoint
-#367	AnnotationNotes T367	meiotic cell cycle checkpoint
-T368	GO:0065007 31475 31482	control
-#368	AnnotationNotes T368	biological regulation
-T369	GO:0007126 31535 31542	meiotic
-#369	AnnotationNotes T369	meiotic nuclear division
-T370	GO_SO_EXT:sequence_rearrangement_process 31568 31581	recombination
-#370	AnnotationNotes T370	sequence rearrangement process
-T371	GO:0051598 31634 31654	pachytene checkpoint
-#371	AnnotationNotes T371	meiotic recombination checkpoint
-T372	GO:0065007 31655 31662	control
-#372	AnnotationNotes T372	biological regulation
-T373	GO_SO_EXT:sequence_rearrangement_process 31692 31705	recombination
-#373	AnnotationNotes T373	sequence rearrangement process
-T374	GO:0035825 31740 31743	COs
-#374	AnnotationNotes T374	reciprocal DNA recombination
-T375	GO:0006302 31808 31814	repair
-#375	AnnotationNotes T375	double-strand break repair
-T376	GO:0007126 31933 31940	meiotic
-#376	AnnotationNotes T376	meiotic nuclear division
-T377	GO_SO_EXT:sequence_rearrangement_process 31941 31954	recombination
-#377	AnnotationNotes T377	sequence rearrangement process
-T378	GO:0035825 31983 31985	CO
-#378	AnnotationNotes T378	reciprocal DNA recombination
-T379	GO_SO_EXT:sequence_rearrangement_process 32042 32055	recombination
-#379	AnnotationNotes T379	sequence rearrangement process
-T380	GO:0007131 32159 32161;32173 32186	CO
-#380	AnnotationNotes T380	reciprocal meiotic recombination
-T381	GO:0035825 32263 32265	CO
-#381	AnnotationNotes T381	reciprocal DNA recombination
-T382	GO_SO_EXT:sequence_rearrangement_process 32303 32314	recombinant
-#382	AnnotationNotes T382	sequence rearrangement process
-T383	GO:0000239 32347 32356	pachynema
-#383	AnnotationNotes T383	pachytene
-T384	GO_SO_EXT:sequence_rearrangement_process 32390 32403	recombination
-#384	AnnotationNotes T384	sequence rearrangement process
-T385	GO_SO_EXT:sequence_rearrangement_process 32450 32463	recombination
-#385	AnnotationNotes T385	sequence rearrangement process
-T386	GO:0006302 32487 32497	DSB repair
-#386	AnnotationNotes T386	double-strand break repair
-T387	GO:0007126 32515 32522	meiotic
-#387	AnnotationNotes T387	meiotic nuclear division
-T388	GO_SO_EXT:sequence_rearrangement_process 32576 32589	recombination
-#388	AnnotationNotes T388	sequence rearrangement process
-T389	GO:0007126 32631 32638	meiosis
-#389	AnnotationNotes T389	meiotic nuclear division
-T390	GO:0000239 32763 32772	pachytene
-#390	AnnotationNotes T390	pachytene
-T391	GO:0007126 32859 32866	meiotic
-#391	AnnotationNotes T391	meiotic nuclear division
-T392	GO:0007114 32909 32916	budding
-#392	AnnotationNotes T392	cell budding
-T393	GO_SO_EXT:sequence_rearrangement_process 32961 32974	recombination
-#393	AnnotationNotes T393	sequence rearrangement process
-T394	GO:0007126 33000 33007	meiotic
-#394	AnnotationNotes T394	meiotic nuclear division
-T395	GO:0075317 33073 33088	ascus formation
-#395	AnnotationNotes T395	ascus development
-T396	GO:0007127 33299 33308	meiosis I
-#396	AnnotationNotes T396	meiosis I
-T397	GO:0000075 33343 33353	checkpoint
-#397	AnnotationNotes T397	cell cycle checkpoint
-T398	GO:0065007 33359 33367	monitors
-#398	AnnotationNotes T398	biological regulation
-T399	GO_SO_EXT:sequence_rearrangement_process 33368 33381	recombination
-#399	AnnotationNotes T399	sequence rearrangement process
-T400	GO_SO_EXT:sequence_rearrangement_process 33449 33462	recombination
-#400	AnnotationNotes T400	sequence rearrangement process
-T401	GO:0007129 33483 33491	synapsis
-#401	AnnotationNotes T401	synapsis
-T402	GO_SO_EXT:sequence_rearrangement_process 33687 33700	recombination
-#402	AnnotationNotes T402	sequence rearrangement process
-T403	GO:0035825 33721 33723	CO
-#403	AnnotationNotes T403	reciprocal DNA recombination
-T404	GO:0006281 33724 33730	repair
-#404	AnnotationNotes T404	DNA repair
-T405	GO_SO_EXT:sequence_rearrangement_process 33865 33878	recombination
-#405	AnnotationNotes T405	sequence rearrangement process
-T406	GO_SO_EXT:sequence_rearrangement_process 33951 33964	recombination
-#406	AnnotationNotes T406	sequence rearrangement process
-T407	GO:0032984 34031 34045;34073 34082	disassembly of
-#407	AnnotationNotes T407	macromolecular complex disassembly
-T408	GO:0000725 34050 34072	recombinational repair
-#408	AnnotationNotes T408	recombinational repair
-T409	GO:0000239 34153 34162	pachytene
-#409	AnnotationNotes T409	pachytene
-T410	GO:0043241 34282 34289;34305 34324	protein
-#410	AnnotationNotes T410	protein complex disassembly
-T411	GO:0032986 34293 34324	protein/DNA complex disassembly
-#411	AnnotationNotes T411	protein-DNA complex disassembly
-T412	GO_SO_EXT:sequence_rearrangement_process 34347 34360	recombination
-#412	AnnotationNotes T412	sequence rearrangement process
-T413	GO:0007126 34391 34398	meiosis
-#413	AnnotationNotes T413	meiotic nuclear division
-T414	GO_EXT:transcription 34423 34434	transcribed
-#414	AnnotationNotes T414	transcription
-T415	GO:0007126 34633 34640	meiosis
-#415	AnnotationNotes T415	meiotic nuclear division
-T416	GO:0008219 34666 34676	cell death
-#416	AnnotationNotes T416	cell death
-T417	GO:0006302 34750 34760	DSB repair
-#417	AnnotationNotes T417	double-strand break repair
-T418	GO:0007129 34774 34782	synapsis
-#418	AnnotationNotes T418	synapsis
-T419	GO_EXT:killing 34840 34851	elimination
-#419	AnnotationNotes T419	killing
-T420	GO:0007129 34892 34900	synapsis
-#420	AnnotationNotes T420	synapsis
-T421	GO_SO_EXT:sequence_rearrangement_process 34983 34996	recombination
-#421	AnnotationNotes T421	sequence rearrangement process
-T422	GO:0007129 35030 35038	synapsis
-#422	AnnotationNotes T422	synapsis
-T423	GO:0006281 35128 35136	repaired
-#423	AnnotationNotes T423	DNA repair
-T424	GO:0051598 35180 35200	pachytene checkpoint
-#424	AnnotationNotes T424	meiotic recombination checkpoint
-T425	GO_EXT:reaction_or_response 35201 35209	response
-#425	AnnotationNotes T425	reaction/response
-T426	GO:0000077 35323 35333;35344 35354	DNA damage
-#426	AnnotationNotes T426	DNA damage checkpoint
-T427	GO:0051598 35334 35354	pachytene checkpoint
-#427	AnnotationNotes T427	meiotic recombination checkpoint
-T428	GO:0007129 35380 35388	synapsis
-#428	AnnotationNotes T428	synapsis
-T429	GO:0000075 35389 35399	checkpoint
-#429	AnnotationNotes T429	cell cycle checkpoint
-T430	GO:0007132 35496 35498	MI
-#430	AnnotationNotes T430	meiotic metaphase I
-T431	GO:0000239 35560 35569	pachytene
-#431	AnnotationNotes T431	pachytene
-T432	GO:0000239 35714 35723	pachynema
-#432	AnnotationNotes T432	pachytene
-T433	GO:0000075 35733 35743	checkpoint
-#433	AnnotationNotes T433	cell cycle checkpoint
-T434	GO_EXT:reaction_or_response 35744 35752	response
-#434	AnnotationNotes T434	reaction/response
-T435	GO:0042148 35801 35816	strand invasion
-#435	AnnotationNotes T435	strand invasion
-T436	GO:0007126 36014 36021	meiosis
-#436	AnnotationNotes T436	meiotic nuclear division
-T437	GO:0000239 36252 36261	pachynema
-#437	AnnotationNotes T437	pachytene
-T438	GO:0031507 36299 36318	heterochromatinized
-#438	AnnotationNotes T438	heterochromatin assembly
-T439	GO:0006342 36323 36349	transcriptionally silenced
-#439	AnnotationNotes T439	chromatin silencing
-T440	GO:0031507 36485 36507	heterochromatinization
-#440	AnnotationNotes T440	heterochromatin assembly
-T441	GO:0007126 36669 36676	meiosis
-#441	AnnotationNotes T441	meiotic nuclear division
-T442	GO:0000075 36864 36874	checkpoint
-#442	AnnotationNotes T442	cell cycle checkpoint
-T443	GO_SO_EXT:sequence_rearrangement_process 36961 36974	recombination
-#443	AnnotationNotes T443	sequence rearrangement process
-T444	GO:0033313 37052 37070	meiotic checkpoint
-#444	AnnotationNotes T444	meiotic cell cycle checkpoint
-T445	GO_EXT:killing 37085 37095	eliminates
-#445	AnnotationNotes T445	killing
-T446	GO:0007114 37162 37169	budding
-#446	AnnotationNotes T446	cell budding
-T447	GO_SO_EXT:sequence_rearrangement_process 37463 37476	recombination
-#447	AnnotationNotes T447	sequence rearrangement process
-T448	GO:0000075 37560 37570	checkpoint
-#448	AnnotationNotes T448	cell cycle checkpoint
-T449	GO:0000075 37781 37791	checkpoint
-#449	AnnotationNotes T449	cell cycle checkpoint
-T450	GO:0000075 37855 37865	checkpoint
-#450	AnnotationNotes T450	cell cycle checkpoint
-T451	GO:0007114 37910 37917	budding
-#451	AnnotationNotes T451	cell budding
-T452	GO:0007129 38034 38042	synapsis
-#452	AnnotationNotes T452	synapsis
-T453	GO:0000075 38043 38053	checkpoint
-#453	AnnotationNotes T453	cell cycle checkpoint
-T454	GO:0016458 38165 38174	silencing
-#454	AnnotationNotes T454	gene silencing
-T455	GO:0000239 38203 38212	pachytene
-#455	AnnotationNotes T455	pachytene
-T456	GO:0000725 38294 38309;38314 38320	recombinational
-#456	AnnotationNotes T456	recombinational repair
-T457	GO:0006302 38310 38320	DSB repair
-#457	AnnotationNotes T457	double-strand break repair
-T458	GO:0000075 38416 38426	checkpoint
-#458	AnnotationNotes T458	cell cycle checkpoint
-T459	GO:0051598 38488 38508	pachytene checkpoint
-#459	AnnotationNotes T459	meiotic recombination checkpoint
-T460	GO:0016265 38633 38638	death
-#460	AnnotationNotes T460	death
-T461	GO:0065007 38726 38736	monitoring
-#461	AnnotationNotes T461	biological regulation
-T462	GO:0051598 38806 38826	pachytene checkpoint
-#462	AnnotationNotes T462	meiotic recombination checkpoint
-T463	GO:0033313 38897 38915	meiotic checkpoint
-#463	AnnotationNotes T463	meiotic cell cycle checkpoint
-T464	GO:0007067 38973 38980	mitotic
-#464	AnnotationNotes T464	mitotic nuclear division
-T465	GO_EXT:fatality_or_lethality 39041 39050	lethality
-#465	AnnotationNotes T465	fatality/lethality
-T466	GO:0051598 39074 39094	pachytene checkpoint
-#466	AnnotationNotes T466	meiotic recombination checkpoint
-T467	GO_EXT:reverse_transcription_or_reverse_transcriptase 39655 39657	RT
-#467	AnnotationNotes T467	reverse transcription or reverse transcriptase
-T468	GO_EXT:reverse_transcription_or_reverse_transcriptase 41244 41246	RT
-#468	AnnotationNotes T468	reverse transcription or reverse transcriptase
-T469	GO:0001171 41387 41406	reverse-transcribed
-#469	AnnotationNotes T469	reverse transcription
-T470	GO_EXT:antibody_or_immunoglobulin_biosynthesis_or_production 41963 41974;41992 41994;42003 42013	Development
-#470	AnnotationNotes T470	antibody/immunoglobulin biosynthesis or production
-T471	GO:0098762 43594 43608	meiotic stages
-#471	AnnotationNotes T471	meiotic cell cycle phase
-T472	GO:0007132 45296 45307	Metaphase I
-#472	AnnotationNotes T472	meiotic metaphase I
-T473	GO:0051323 45348 45357	Metaphase
-#473	AnnotationNotes T473	metaphase
-T474	GO:0051323 45743 45752	metaphase
-#474	AnnotationNotes T474	metaphase
-T475	GO:0000239 46804 46813	Pachynema
-#475	AnnotationNotes T475	pachytene
-T476	GO:0006281 46819 46827	Repaired
-#476	AnnotationNotes T476	DNA repair
-T477	GO:0007132 46855 46866	Metaphase I
-#477	AnnotationNotes T477	meiotic metaphase I
-T478	GO_EXT:detection_or_sensing_of_stimulus 47496 47503	sensing
-#478	AnnotationNotes T478	detection/sensing of stimulus
-T479	GO:0007129 47504 47512	synaptic
-#479	AnnotationNotes T479	synapsis
-T480	GO:0035825 47570 47572	CO
-#480	AnnotationNotes T480	reciprocal DNA recombination
-T481	GO:0035825 47575 47584	crossover
-#481	AnnotationNotes T481	reciprocal DNA recombination
-T482	GO:0007126 47620 47627	meiotic
-#482	AnnotationNotes T482	meiotic nuclear division
-T483	GO:0007126 47664 47671	meiotic
-#483	AnnotationNotes T483	meiotic nuclear division
-T484	GO:0006342 47672 47684;47694 47703	silencing of
-#484	AnnotationNotes T484	chromatin silencing
-T485	GO:0035825 47714 47723	crossover
-#485	AnnotationNotes T485	reciprocal DNA recombination
-T486	GO_EXT:reverse_transcription_or_reverse_transcriptase 47744 47746	RT
-#486	AnnotationNotes T486	reverse transcription or reverse transcriptase
+T0	GO_0051598 6 26	Pachytene Checkpoint
+T1	GO_0007129 65 72;	Meiotic
+95 103	MeioticSynapsis
+T2	GO_SO_EXT_sequence_rearrangement_process 73 86	Recombination
+T3	GO_0007126 128 135	meiosis
+T4	GO_0007129 137 167	homologous chromosome synapsis
+T5	GO_SO_EXT_sequence_rearrangement_process 184 197	recombination
+T6	GO_0000075 247 258	checkpoints
+T7	GO_0065007 264 271	monitor
+T8	GO_0051598 351 371	pachytene checkpoint
+T9	GO_0007129 412 420	synapsis
+T10	GO_0000075 421 431	checkpoint
+T11	GO_0007126 518 525	meiosis
+T12	GO_0016265 584 589	death
+T13	GO_0000239 593 602	pachynema
+T14	GO_0007567 630 635	birth
+T15	GO_0007129 677 684	synapse
+T16	GO_SO_EXT_sequence_rearrangement_process 722 735	recombination
+T17	GO_0007132 925 936	metaphase I
+T18	GO_SO_EXT_sequence_rearrangement_process 1009 1022	recombination
+T19	GO_0007129 1027 1035	synapsis
+T20	GO_0033313 1136 1154	meiotic checkpoint
+T21	GO_0042148 1221 1236	strand invasion
+T22	GO_SO_EXT_sequence_rearrangement_process 1264 1277	recombination
+T23	GO_0035825 1324 1334	crossovers
+T24	GO_SO_EXT_sequence_rearrangement_process 1390 1403	recombination
+T25	GO_0007126 1440 1447	meiosis
+T26	GO_0006281 1488 1496	repaired
+T27	GO_0051598 1530 1550	pachytene checkpoint
+T28	GO_EXT_reaction_or_response 1551 1559	response
+T29	GO_0007126 1757 1764	meiosis
+T30	GO_0007129 1819 1826	synapse
+T31	GO_SO_EXT_sequence_rearrangement_process 1918 1931	recombination
+T32	GO_0007126 1987 2009	meiotic cell divisions
+T33	GO_PATO_EXT_biological_behavior 2036 2044	behavior
+T34	GO_0033313 2098 2105;	meiotic
+2107 2118	meioticcheckpoints
+T35	GO_0065007 2125 2132	monitor
+T36	GO_0007129 2145 2164	chromosome synapsis
+T37	GO_0006281 2169 2189	repair of DNA damage
+T38	GO_0000075 2197 2208	checkpoints
+T39	GO_0033313 2396 2414	meiotic checkpoint
+T40	GO_0065007 2415 2422	control
+T41	GO_0000075 2476 2486	checkpoint
+T42	GO_SO_EXT_sequence_rearrangement_process 2548 2561	recombination
+T43	GO_0007126 2565 2572	meiosis
+T44	GO_0006281 2594 2603	repairing
+T45	GO_0007129 2648 2656	synapsed
+T46	GO_0016265 2707 2712	death
+T47	GO_0000075 2789 2799	checkpoint
+T48	GO_EXT_reaction_or_response 2805 2813	responds
+T49	GO_0007129 2824 2832	synapsis
+T50	GO_0006281 2870 2878	repaired
+T51	GO_SO_EXT_sequence_rearrangement_process 2912 2925	recombination
+T52	GO_0007276 2946 2964	genesis of gametes
+T53	GO_0007567 3036 3041	birth
+T54	GO_0007127 3127 3149	first meiotic division
+T55	GO_0007129 3185 3192	synapse
+T56	GO_SO_EXT_sequence_rearrangement_process 3202 3215	recombination
+T57	GO_SO_EXT_sequence_rearrangement_process 3259 3272	Recombination
+T58	GO_0006281 3280 3287	repairs
+T59	GO_0006281 3288 3294	repair
+T60	GO_0000237 3355 3364	leptonema
+T61	GO_0007129 3382 3390	synapsis
+T62	GO_0007114 3394 3401	budding
+T63	GO_SO_EXT_sequence_rearrangement_process 3471 3484	recombination
+T64	GO_SO_EXT_sequence_rearrangement_process 3550 3563	recombination
+T65	GO_EXT_biological_recruitment 3579 3590	recruitment
+T66	GO_0006260 3594 3609	DNA replication
+T67	GO_0000725 3627 3649	recombinational repair
+T68	GO_0006281 3688 3694	repair
+T69	GO_SO_EXT_sequence_rearrangement_process 3725 3738	recombination
+T70	GO_0007129 3752 3781	homologous chromosome pairing
+T71	GO_0006281 3791 3799	repaired
+T72	GO_0035825 3854 3867	crossing over
+T73	GO_0065007 3905 3917	surveillance
+T74	GO_0000075 3928 3939	checkpoints
+T75	GO_EXT_detection_or_sensing_of_stimulus 3951 3956	sense
+T76	GO_0007126 3957 3964	meiotic
+T77	GO_EXT_killing 3976 3985	eliminate
+T78	GO_SO_EXT_sequence_rearrangement_process 4146 4159	recombination
+T79	GO_0007129 4167 4186	chromosome synapsis
+T80	GO_0007126 4195 4202	meiotic
+T81	GO_0000239 4217 4226	pachytene
+T82	GO_0007128 4236 4254	meiotic prophase I
+T83	GO_EXT_reaction_or_response 4261 4269	response
+T84	GO_0007126 4273 4280	meiotic
+T85	GO_0051598 4312 4332	pachytene checkpoint
+T86	GO_0051598 4422 4442	pachytene checkpoint
+T87	GO_0007126 4487 4494	meiosis
+T88	GO_0042770 4555 4575	DNA damage signaling
+T89	GO_0007067 4579 4586	mitotic
+T90	GO_0051598 4648 4668	pachytene checkpoint
+T91	GO_0051598 4726 4746	pachytene checkpoint
+T92	GO_0065007 4759 4766	monitor
+T93	GO_0007126 4782 4789	meiotic
+T94	GO_0008152 4801 4811	metabolism
+T95	GO_0006302 4849 4859	DSB repair
+T96	GO_0007129 4868 4887	chromosome synapsis
+T97	GO_0006302 4969 4979	DSB repair
+T98	GO_EXT_killing 5026 5036	eliminated
+T99	GO_0000239 5040 5049	pachynema
+T100	GO_0006302 5096 5106	DSB repair
+T101	GO_0007129 5119 5127	synapsis
+T102	GO_SO_EXT_sequence_rearrangement_process 5175 5188	recombination
+T103	GO_0007129 5205 5213	synapsis
+T104	GO_SO_EXT_sequence_rearrangement_process 5236 5249	recombination
+T105	GO_0007129 5286 5294	synapsis
+T106	GO_0051598 5365 5385	pachytene checkpoint
+T107	GO_EXT_reaction_or_response 5391 5399	responds
+T108	GO_0007126 5414 5421	meiotic
+T109	GO_SO_EXT_sequence_rearrangement_process 5422 5435	recombination
+T110	GO_0051598 5536 5556	pachytene checkpoint
+T111	GO_0065007 5557 5564	control
+T112	GO_PATO_EXT_biological_localization_process_or_quality 5677 5686	localized
+T113	GO_0000239 5789 5798	pachytene
+T114	GO_0007129 5810 5818	synaptic
+T115	GO_0051598 5897 5906;	pachytene
+5937 5947	pachytenecheckpoint
+T116	GO_0007129 5907 5915	synapsis
+T117	GO_0006302 5925 5935	DSB repair
+T118	GO_0007129 6028 6036	synaptic
+T119	GO_0007126 6037 6044	meiosis
+T120	GO_0007129 6055 6063	synaptic
+T121	GO_0007126 6064 6071	meiosis
+T122	GO_0000075 6120 6130	checkpoint
+T123	GO_0065007 6142 6149	monitor
+T124	GO_0051598 6333 6353	pachytene checkpoint
+T125	GO_0000075 6400 6410	checkpoint
+T126	GO_0035825 6476 6485	crossover
+T127	GO_0006302 6492 6501;	repair of
+6510 6514	repair ofDSBs
+T128	GO_0007126 6502 6509	meiotic
+T129	GO_0010467 6545 6554	Expressed
+T130	GO_EXT_reverse_transcription_or_reverse_transcriptase 7102 7104	RT
+T131	GO_0010467 7144 7153	expressed
+T132	GO_0010467 7349 7358	expressed
+T133	GO_0010467 7438 7448	Expression
+T134	GO_EXT_reverse_transcription_or_reverse_transcriptase 8390 8392	RT
+T135	GO_PATO_EXT_biological_localization_process_or_quality 8733 8745	Localization
+T136	GO_0010467 8929 8939	Expression
+T137	GO_0000237 9009 9018	leptotene
+T138	GO_0000239 9049 9058	pachytene
+T139	GO_0000239 9092 9101	pachytene
+T140	GO_PATO_EXT_biological_localization_process_or_quality 9359 9371	localization
+T141	GO_0000237 9521 9530	leptotene
+T142	GO_0000237 9532 9535	Lep
+T143	GO_0000238 9538 9546	zygotene
+T144	GO_0000238 9548 9551	Zyg
+T145	GO_0000239 9558 9567	pachytene
+T146	GO_0000239 9569 9572	Pac
+T147	GO_0016265 10040 10044	died
+T148	GO_EXT_fatality_or_lethality 10130 10139	lethality
+T149	GO_0007283 10873 10888	spermatogenesis
+T150	GO_0000239 10894 10903	pachytene
+T151	GO_0000239 11064 11073	pachytene
+T152	GO_EXT_reverse_transcription_or_reverse_transcriptase 11160 11162	RT
+T153	GO_0010467 11188 11198	expression
+T154	GO_0008380 11244 11251	spliced
+T155	GO_0008380 11361 11367	splice
+T156	GO_0010467 11996 12005	expressed
+T157	GO_0010467 12030 12040	expression
+T158	GO_0000237 12297 12306	leptotene
+T159	GO_0000238 12334 12342	Zygotene
+T160	GO_0000239 12343 12352	pachytene
+T161	GO_0000239 12435 12444	pachytene
+T162	GO_PATO_EXT_biological_localization_process_or_quality 12490 12499	localized
+T163	GO_PATO_EXT_biological_localization_process_or_quality 12612 12624	localization
+T164	GO_0007126 12651 12658	meiotic
+T165	GO_0098762 12871 12887	meiotic substage
+T166	GO_0007126 12947 12954	meiotic
+T167	GO_0007126 12983 12990	Meiotic
+T168	GO_0009790 13283 13296	embryogenesis
+T169	GO_0007567 13313 13318	natal
+T170	GO_0007567 13346 13352	partum
+T171	GO_0000239 13587 13596	pachytene
+T172	GO_EXT_killing 13708 13718	eliminated
+T173	GO_0000239 13737 13746	pachynema
+T174	GO_0000239 14291 14300	pachytene
+T175	GO_0007126 14356 14363	meiotic
+T176	GO_0000237 14438 14447	leptotene
+T177	GO_0000238 14448 14456	zygotene
+T178	GO_PATO_EXT_apoptotic_process_or_quality 14500 14509	apoptotic
+T179	GO_0000237 14709 14718	leptotene
+T180	GO_0000238 14719 14727	zygotene
+T181	GO_0007126 15579 15586	meiotic
+T182	GO_0000239 15801 15810	pachynema
+T183	GO_0007283 15851 15864	spermatogenic
+T184	GO_0000239 15914 15923	pachytene
+T185	GO_0007126 16057 16064	meiotic
+T186	GO_0007126 16147 16154	meiotic
+T187	GO_0030435 16259 16264;	spore
+16272 16283	sporedevelopment
+T188	GO_0007276 16265 16283	gamete development
+T189	GO_0007129 16327 16357	Homologous Chromosome Synapsis
+T190	GO_0006281 16384 16392	repaired
+T191	GO_0000239 16401 16410	Pachynema
+T192	GO_0007126 16449 16456	meiotic
+T193	GO_0000239 16671 16680	Pachytene
+T194	GO_0007129 16783 16806	synapsis of chromosomes
+T195	GO_0007129 16955 16963	synapsed
+T196	GO_0007567 17026 17032	partum
+T197	GO_0007129 17066 17074	synaptic
+T198	GO_0007129 17090 17098	synapsed
+T199	GO_0007567 17236 17241	natal
+T200	GO_0007283 17242 17257	spermatogenesis
+T201	GO_0000239 17409 17418	pachynema
+T202	GO_EXT_killing 17468 17478	eliminated
+T203	GO_0007567 17490 17495	birth
+T204	GO_0006281 17517 17527	DNA repair
+T205	GO_0006281 17565 17573	repaired
+T206	GO_0007126 17608 17615	meiotic
+T207	GO_EXT_killing 17627 17638	elimination
+T208	GO_0000239 17683 17692	Pachytene
+T209	GO_0000239 18029 18038	pachytene
+T210	GO_0007129 18057 18065	synapsis
+T211	GO_0007567 18156 18162	partum
+T212	GO_0007129 18172 18180	synapsed
+T213	GO_0000239 18319 18328	pachytene
+T214	GO_0007129 18372 18380	synapsed
+T215	GO_0000239 18381 18390	pachytene
+T216	GO_0051324 18464 18472	prophase
+T217	GO_0000239 18512 18521	pachytene
+T218	GO_0007129 18614 18622	synapsed
+T219	GO_PATO_EXT_phosphorylation_process 18662 18677	phosphorylation
+T220	GO_PATO_EXT_phosphorylation_process 18825 18840	phosphorylation
+T221	GO_0000239 18882 18891	pachytene
+T222	GO_0007129 19151 19159	synapsed
+T223	GO_0000239 19259 19268	pachytene
+T224	GO_0000239 19394 19403	pachytene
+T225	GO_PATO_EXT_biological_localization_process_or_quality 19450 19458	localize
+T226	GO_0007126 19563 19570	meiotic
+T227	GO_0007126 19591 19598	meiotic
+T228	GO_SO_EXT_sequence_rearrangement_process 19660 19673	recombination
+T229	GO_0007129 19678 19686	synapsis
+T230	GO_SO_EXT_sequence_rearrangement_process 19688 19701	Recombination
+T231	GO_0000237 19799 19808	leptonema
+T232	GO_0007126 19862 19873	meiotically
+T233	GO_SO_EXT_sequence_rearrangement_process 19932 19945	recombination
+T234	GO_0000238 20011 20019	zygotene
+T235	GO_0000725 20118 20140	recombinational repair
+T236	GO_0006302 20134 20148	repair of DSBs
+T237	GO_0007129 20240 20248	synaptic
+T238	GO_0007126 20329 20336	meiosis
+T239	GO_PATO_EXT_biological_localization_process_or_quality 20430 20439	localizes
+T240	GO_PATO_EXT_biological_localization_process_or_quality 20648 20657	localized
+T241	GO_0007129 20685 20693	synapsed
+T242	GO_0007129 20713 20721	synaptic
+T243	GO_0006302 20775 20785	DSB repair
+T244	GO_0000239 20805 20814	pachynema
+T245	GO_SO_EXT_sequence_rearrangement_process 20922 20935	recombination
+T246	GO_0007129 21128 21136	synapsed
+T247	GO_0000239 21173 21182	pachytene
+T248	GO_0000238 21317 21325	zygonema
+T249	GO_0000077 21380 21401	DNA damage–checkpoint
+T250	GO_0007129 21508 21516	synapsed
+T251	GO_0007126 21528 21535	meiotic
+T252	GO_PATO_EXT_biological_localization_process_or_quality 21584 21592	localize
+T253	GO_SO_EXT_sequence_rearrangement_process 21624 21637	recombination
+T254	GO_0035825 21691 21701	crossovers
+T255	GO_0035825 21703 21705	CO
+T256	GO_0007129 21831 21840	synapsing
+T257	GO_0007126 21841 21848	meiotic
+T258	GO_0000239 21888 21897	pachynema
+T259	GO_SO_EXT_sequence_rearrangement_process 21937 21950	recombination
+T260	GO_0000239 21993 22002	pachytene
+T261	GO_0006281 22069 22077	repaired
+T262	GO_SO_EXT_sequence_rearrangement_process 22098 22111	recombination
+T263	GO_0000239 22137 22146	pachynema
+T264	GO_0000077 22162 22183	DNA damage checkpoint
+T265	GO_0007126 22241 22248	meiotic
+T266	GO_0007126 22288 22295	meiotic
+T267	GO_0006342 22296 22308;	silencing of
+22318 22327	silencing ofchromatin
+T268	GO_0007129 22311 22317	paired
+T269	GO_0006302 22381 22391	DSB repair
+T270	GO_PATO_EXT_phosphorylation_process 22436 22451	phosphorylation
+T271	GO_0007129 22546 22554	synapsed
+T272	GO_0007129 22604 22612	synapsis
+T273	GO_0006281 22661 22671	DNA repair
+T274	GO_0006281 22719 22729	DNA repair
+T275	GO_0006342 22742 22767	transcriptional silencing
+T276	GO_0000239 22825 22834	pachytene
+T277	GO_0006281 22870 22880	DNA repair
+T278	GO_0007126 22938 22945	meiotic
+T279	GO_0000240 22988 22997	diplotene
+T280	GO_0007132 23075 23086	metaphase I
+T281	GO_0000240 23180 23189	diplotene
+T282	GO_0007132 23194 23205	metaphase I
+T283	GO_0035825 23282 23284	CO
+T284	GO_0006281 23450 23458	repaired
+T285	GO_0000725 23501 23523	recombinational repair
+T286	GO_0035825 23543 23559	CO recombination
+T287	GO_0006298 23618 23633	mismatch repair
+T288	GO_0000239 23708 23717	pachynema
+T289	GO_0000239 23923 23932	pachytene
+T290	GO_0000239 24006 24015	pachytene
+T291	GO_0006281 24034 24040	repair
+T292	GO_0006302 24077 24087	DSB repair
+T293	GO_0000239 24125 24134	pachytene
+T294	GO_0006281 24234 24242	repaired
+T295	GO_0000239 24481 24490	pachytene
+T296	GO_0035825 24515 24517	CO
+T297	GO_0007128 24615 24625	prophase I
+T298	GO_0070194 24803 24817;	degradation of
+24822 24824	degradation ofSC
+T299	GO_0030261 24826 24849	chromosome condensation
+T300	GO_0007132 24880 24891	metaphase I
+T301	GO_0051323 24906 24915	metaphase
+T302	GO_0000239 25130 25139	pachytene
+T303	GO_0035825 25203 25206	COs
+T304	GO_0051323 25307 25317	metaphases
+T305	GO_0007126 25418 25425	Meiotic
+T306	GO_0007129 25468 25476	Synapsis
+T307	GO_0006915 25521 25530	apoptosis
+T308	GO_0007129 25545 25553	synapsis
+T309	GO_0000237 25732 25741	leptonema
+T310	GO_0007129 25835 25843	synapsis
+T311	GO_0006915 25876 25885	apoptosis
+T312	GO_0000239 25889 25898	pachynema
+T313	GO_0007129 25962 25992	homologous chromosome synapsis
+T314	GO_0000238 26063 26071	zygotene
+T315	GO_0000239 26072 26081	pachytene
+T316	GO_0016265 26204 26209	death
+T317	GO_0031577 26237 26255	spindle checkpoint
+T318	GO_EXT_killing 26261 26271	eliminates
+T319	GO_0007132 26328 26339	metaphase I
+T320	GO_0007126 26361 26368	meiotic
+T321	GO_0007129 26481 26489	synapsis
+T322	GO_0000239 26505 26514	pachytene
+T323	GO_0000237 26573 26582	leptonema
+T324	GO_SO_EXT_sequence_rearrangement_process 26637 26650	recombination
+T325	GO_0007129 26674 26693	chromosome synapsis
+T326	GO_0007129 26919 26938	chromosome synapsis
+T327	GO_0000239 27378 27387	pachytene
+T328	GO_0007129 27406 27414	synaptic
+T329	GO_0007129 27793 27812	chromosome synapsis
+T330	GO_EXT_reaction_or_response 27881 27889	responds
+T331	GO_0007129 27893 27901	synapsis
+T332	GO_0007126 28040 28047	Meiotic
+T333	GO_0007129 28126 28147	interhomolog synaptic
+T334	GO_0006302 28181 28191	DSB repair
+T335	GO_0007129 28213 28234	interhomolog synapsis
+T336	GO_0007129 28280 28287	synapse
+T337	GO_0000240 28361 28370	diplonema
+T338	GO_0007132 28374 28385	metaphase I
+T339	GO_0007132 28609 28620	metaphase I
+T340	GO_0007129 28742 28772	homologous chromosome synapsis
+T341	GO_0007126 29020 29027	meiotic
+T342	GO_0007126 29064 29071	meiosis
+T343	GO_0007126 29255 29262	meiotic
+T344	GO_0006302 29285 29295	DSB repair
+T345	GO_0007129 29307 29326	chromosome synapsis
+T346	GO_0007283 29333 29348	spermatogenesis
+T347	GO_0000238 29473 29481	zygonema
+T348	GO_0000239 29482 29491	pachynema
+T349	GO_0007129 29611 29619	synapsis
+T350	GO_PATO_EXT_phosphorylation_process_or_quality 29715 29729	phosphorylated
+T351	GO_0007126 29920 29927	Meiotic
+T352	GO_0048477 30280 30289	oogenesis
+T353	GO_0007126 30504 30511	meiotic
+T354	GO_0006302 30562 30572	DSB repair
+T355	GO_0051598 30790 30810	pachytene checkpoint
+T356	GO_0065007 30811 30819	monitors
+T357	GO_EXT_reaction_or_response 30824 30832	responds
+T358	GO_0000725 30836 30851;	recombinational
+30856 30862	recombinationalrepair
+T359	GO_0006302 30852 30862	DSB repair
+T360	GO_0007129 30867 30875	synapsis
+T361	GO_0000077 30925 30942	repair checkpoint
+T362	GO_0007129 30978 30986	synapsis
+T363	GO_0000075 30987 30997	checkpoint
+T364	GO_EXT_fatality_or_lethality 31231 31240	lethality
+T365	GO_0007129 31328 31336	synapsis
+T366	GO_0000075 31337 31347	checkpoint
+T367	GO_0033313 31456 31474	meiotic checkpoint
+T368	GO_0065007 31475 31482	control
+T369	GO_0007126 31535 31542	meiotic
+T370	GO_SO_EXT_sequence_rearrangement_process 31568 31581	recombination
+T371	GO_0051598 31634 31654	pachytene checkpoint
+T372	GO_0065007 31655 31662	control
+T373	GO_SO_EXT_sequence_rearrangement_process 31692 31705	recombination
+T374	GO_0035825 31740 31743	COs
+T375	GO_0006302 31808 31814	repair
+T376	GO_0007126 31933 31940	meiotic
+T377	GO_SO_EXT_sequence_rearrangement_process 31941 31954	recombination
+T378	GO_0035825 31983 31985	CO
+T379	GO_SO_EXT_sequence_rearrangement_process 32042 32055	recombination
+T380	GO_0007131 32159 32161;	CO
+32173 32186	COrecombination
+T381	GO_0035825 32263 32265	CO
+T382	GO_SO_EXT_sequence_rearrangement_process 32303 32314	recombinant
+T383	GO_0000239 32347 32356	pachynema
+T384	GO_SO_EXT_sequence_rearrangement_process 32390 32403	recombination
+T385	GO_SO_EXT_sequence_rearrangement_process 32450 32463	recombination
+T386	GO_0006302 32487 32497	DSB repair
+T387	GO_0007126 32515 32522	meiotic
+T388	GO_SO_EXT_sequence_rearrangement_process 32576 32589	recombination
+T389	GO_0007126 32631 32638	meiosis
+T390	GO_0000239 32763 32772	pachytene
+T391	GO_0007126 32859 32866	meiotic
+T392	GO_0007114 32909 32916	budding
+T393	GO_SO_EXT_sequence_rearrangement_process 32961 32974	recombination
+T394	GO_0007126 33000 33007	meiotic
+T395	GO_0075317 33073 33088	ascus formation
+T396	GO_0007127 33299 33308	meiosis I
+T397	GO_0000075 33343 33353	checkpoint
+T398	GO_0065007 33359 33367	monitors
+T399	GO_SO_EXT_sequence_rearrangement_process 33368 33381	recombination
+T400	GO_SO_EXT_sequence_rearrangement_process 33449 33462	recombination
+T401	GO_0007129 33483 33491	synapsis
+T402	GO_SO_EXT_sequence_rearrangement_process 33687 33700	recombination
+T403	GO_0035825 33721 33723	CO
+T404	GO_0006281 33724 33730	repair
+T405	GO_SO_EXT_sequence_rearrangement_process 33865 33878	recombination
+T406	GO_SO_EXT_sequence_rearrangement_process 33951 33964	recombination
+T407	GO_0032984 34031 34045;	disassembly of
+34073 34082	disassembly ofcomplexes
+T408	GO_0000725 34050 34072	recombinational repair
+T409	GO_0000239 34153 34162	pachytene
+T410	GO_0043241 34282 34289;	protein
+34305 34324	proteincomplex disassembly
+T411	GO_0032986 34293 34324	protein/DNA complex disassembly
+T412	GO_SO_EXT_sequence_rearrangement_process 34347 34360	recombination
+T413	GO_0007126 34391 34398	meiosis
+T414	GO_EXT_transcription 34423 34434	transcribed
+T415	GO_0007126 34633 34640	meiosis
+T416	GO_0008219 34666 34676	cell death
+T417	GO_0006302 34750 34760	DSB repair
+T418	GO_0007129 34774 34782	synapsis
+T419	GO_EXT_killing 34840 34851	elimination
+T420	GO_0007129 34892 34900	synapsis
+T421	GO_SO_EXT_sequence_rearrangement_process 34983 34996	recombination
+T422	GO_0007129 35030 35038	synapsis
+T423	GO_0006281 35128 35136	repaired
+T424	GO_0051598 35180 35200	pachytene checkpoint
+T425	GO_EXT_reaction_or_response 35201 35209	response
+T426	GO_0000077 35323 35333;	DNA damage
+35344 35354	DNA damagecheckpoint
+T427	GO_0051598 35334 35354	pachytene checkpoint
+T428	GO_0007129 35380 35388	synapsis
+T429	GO_0000075 35389 35399	checkpoint
+T430	GO_0007132 35496 35498	MI
+T431	GO_0000239 35560 35569	pachytene
+T432	GO_0000239 35714 35723	pachynema
+T433	GO_0000075 35733 35743	checkpoint
+T434	GO_EXT_reaction_or_response 35744 35752	response
+T435	GO_0042148 35801 35816	strand invasion
+T436	GO_0007126 36014 36021	meiosis
+T437	GO_0000239 36252 36261	pachynema
+T438	GO_0031507 36299 36318	heterochromatinized
+T439	GO_0006342 36323 36349	transcriptionally silenced
+T440	GO_0031507 36485 36507	heterochromatinization
+T441	GO_0007126 36669 36676	meiosis
+T442	GO_0000075 36864 36874	checkpoint
+T443	GO_SO_EXT_sequence_rearrangement_process 36961 36974	recombination
+T444	GO_0033313 37052 37070	meiotic checkpoint
+T445	GO_EXT_killing 37085 37095	eliminates
+T446	GO_0007114 37162 37169	budding
+T447	GO_SO_EXT_sequence_rearrangement_process 37463 37476	recombination
+T448	GO_0000075 37560 37570	checkpoint
+T449	GO_0000075 37781 37791	checkpoint
+T450	GO_0000075 37855 37865	checkpoint
+T451	GO_0007114 37910 37917	budding
+T452	GO_0007129 38034 38042	synapsis
+T453	GO_0000075 38043 38053	checkpoint
+T454	GO_0016458 38165 38174	silencing
+T455	GO_0000239 38203 38212	pachytene
+T456	GO_0000725 38294 38309;	recombinational
+38314 38320	recombinationalrepair
+T457	GO_0006302 38310 38320	DSB repair
+T458	GO_0000075 38416 38426	checkpoint
+T459	GO_0051598 38488 38508	pachytene checkpoint
+T460	GO_0016265 38633 38638	death
+T461	GO_0065007 38726 38736	monitoring
+T462	GO_0051598 38806 38826	pachytene checkpoint
+T463	GO_0033313 38897 38915	meiotic checkpoint
+T464	GO_0007067 38973 38980	mitotic
+T465	GO_EXT_fatality_or_lethality 39041 39050	lethality
+T466	GO_0051598 39074 39094	pachytene checkpoint
+T467	GO_EXT_reverse_transcription_or_reverse_transcriptase 39655 39657	RT
+T468	GO_EXT_reverse_transcription_or_reverse_transcriptase 41244 41246	RT
+T469	GO_0001171 41387 41406	reverse-transcribed
+T470	GO_EXT_antibody_or_immunoglobulin_biosynthesis_or_production 41963 41974;	Development
+41992 41994;	Developmentof
+42003 42013	Developmentofantibodies
+T471	GO_0098762 43594 43608	meiotic stages
+T472	GO_0007132 45296 45307	Metaphase I
+T473	GO_0051323 45348 45357	Metaphase
+T474	GO_0051323 45743 45752	metaphase
+T475	GO_0000239 46804 46813	Pachynema
+T476	GO_0006281 46819 46827	Repaired
+T477	GO_0007132 46855 46866	Metaphase I
+T478	GO_EXT_detection_or_sensing_of_stimulus 47496 47503	sensing
+T479	GO_0007129 47504 47512	synaptic
+T480	GO_0035825 47570 47572	CO
+T481	GO_0035825 47575 47584	crossover
+T482	GO_0007126 47620 47627	meiotic
+T483	GO_0007126 47664 47671	meiotic
+T484	GO_0006342 47672 47684;	silencing of
+47694 47703	silencing ofchromatin
+T485	GO_0035825 47714 47723	crossover
+T486	GO_EXT_reverse_transcription_or_reverse_transcriptase 47744 47746	RT

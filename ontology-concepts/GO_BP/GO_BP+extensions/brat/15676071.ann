@@ -1,248 +1,133 @@
-T0	GO:0007416 0 14	Synaptogenesis
-#0	AnnotationNotes T0	synapse assembly
-T1	GO:0007567 210 215	birth
-#1	AnnotationNotes T1	parturition
-T2	GO:0060041 252 266;278 284	development of
-#2	AnnotationNotes T2	retina development in camera-type eye
-T3	GO:0042461 321 332;349 371	development
-#3	AnnotationNotes T3	photoreceptor cell development
-T4	GO_EXT:transcription 478 491	transcription
-#4	AnnotationNotes T4	transcription
-T5	GO:0009653 748 761	morphogenesis
-#5	AnnotationNotes T5	anatomical structure morphogenesis
-T6	GO:0007602 853 870	phototransduction
-#6	AnnotationNotes T6	phototransduction
-T7	GO:0007416 1035 1049	synaptogenesis
-#7	AnnotationNotes T7	synapse assembly
-T8	GO:0042461 1162 1187	photoreceptor development
-#8	AnnotationNotes T8	photoreceptor cell development
-T9	GO:0007601 1304 1310	vision
-#9	AnnotationNotes T9	visual perception
-T10	GO_EXT:detection_or_sensing_of_stimulus 1382 1389	sensory
-#10	AnnotationNotes T10	detection/sensing of stimulus
-T11	GO_EXT:detection_or_sensing_of_stimulus 1447 1454	sensing
-#11	AnnotationNotes T11	detection/sensing of stimulus
-T12	GO_PATO_EXT:physiological_process_or_quality 1692 1702	physiology
-#12	AnnotationNotes T12	physiological process or quality
-T13	GO:0007602 1706 1723	phototransduction
-#13	AnnotationNotes T13	phototransduction
-T14	GO:0042461 1742 1756;1768 1782	development of
-#14	AnnotationNotes T14	photoreceptor cell development
-T15	GO:0065007 1892 1902	regulating
-#15	AnnotationNotes T15	biological regulation
-T16	GO:0042461 1903 1928	photoreceptor development
-#16	AnnotationNotes T16	photoreceptor cell development
-T17	GO:0010467 2025 2034	expressed
-#17	AnnotationNotes T17	gene expression
-T18	GO:0010467 2137 2152	gene expression
-#18	AnnotationNotes T18	gene expression
-T19	GO:0010467 2240 2249	expressed
-#19	AnnotationNotes T19	gene expression
-T20	GO:0010467 2404 2414	expression
-#20	AnnotationNotes T20	gene expression
-T21	GO:0065007 2534 2544	regulatory
-#21	AnnotationNotes T21	biological regulation
-T22	GO:0030154 2852 2867;2885 2887;2902 2907	differentiation
-#22	AnnotationNotes T22	cell differentiation
-T23	GO:0007601 3068 3074	vision
-#23	AnnotationNotes T23	visual perception
-T24	GO:0007567 3080 3085	birth
-#24	AnnotationNotes T24	parturition
-T25	GO:0042461 4357 4382	photoreceptor development
-#25	AnnotationNotes T25	photoreceptor cell development
-T26	GO_RO_EXT:developmental_differentiation_process 4524 4539	differentiation
-#26	AnnotationNotes T26	developmental differentiation process
-T27	GO:0007602 4685 4710	phototransduction cascade
-#27	AnnotationNotes T27	phototransduction
-T28	GO:0065007 5385 5395	regulating
-#28	AnnotationNotes T28	biological regulation
-T29	GO:0007416 5400 5412;5431 5439	formation of
-#29	AnnotationNotes T29	synapse assembly
-T30	GO_EXT:transcription 5563 5578	transcriptional
-#30	AnnotationNotes T30	transcription
-T31	GO:0065007 5579 5589	regulatory
-#31	AnnotationNotes T31	biological regulation
-T32	GO_RO_EXT:developmental_differentiation_process 5751 5766	differentiation
-#32	AnnotationNotes T32	developmental differentiation process
-T33	GO:0007416 5776 5793	synapse formation
-#33	AnnotationNotes T33	synapse assembly
-T34	GO_RO_EXT:developmental_differentiation_process 5948 5963	differentiation
-#34	AnnotationNotes T34	developmental differentiation process
-T35	GO:0007416 6296 6310	synaptogenesis
-#35	AnnotationNotes T35	synapse assembly
-T36	GO:0007416 6381 6398	synapse formation
-#36	AnnotationNotes T36	synapse assembly
-T37	GO:0008594 6731 6758	photoreceptor morphogenesis
-#37	AnnotationNotes T37	photoreceptor cell morphogenesis
-T38	GO:0007567 6856 6861	natal
-#38	AnnotationNotes T38	parturition
-T39	GO_RO_EXT:developmental_differentiation_process 7273 7288	differentiation
-#39	AnnotationNotes T39	developmental differentiation process
-T40	GO:0019835 7407 7412	lysis
-#40	AnnotationNotes T40	cytolysis
-T41	GO:0042384 8737 8749	ciliogenesis
-#41	AnnotationNotes T41	cilium assembly
-T42	GO:0042384 9116 9128	ciliogenesis
-#42	AnnotationNotes T42	cilium assembly
-T43	GO:0030263 9434 9442	pyknotic
-#43	AnnotationNotes T43	apoptotic chromosome condensation
-T44	GO_EXT:biological_release 9634 9642	released
-#44	AnnotationNotes T44	biological release
-T45	GO:0030263 10465 10473	pyknotic
-#45	AnnotationNotes T45	apoptotic chromosome condensation
-T46	GO:0008594 11008 11024;11032 11046	morphogenesis of
-#46	AnnotationNotes T46	photoreceptor cell morphogenesis
-T47	GO:0009653 12784 12797	morphogenesis
-#47	AnnotationNotes T47	anatomical structure morphogenesis
-T48	GO:0010467 14259 14269	expression
-#48	AnnotationNotes T48	gene expression
-T49	GO_EXT:negative_regulation 14287 14300	downregulated
-#49	AnnotationNotes T49	negative regulation
-T50	GO:0010467 14992 15002	expression
-#50	AnnotationNotes T50	gene expression
-T51	GO:0009653 19232 19245	morphogenesis
-#51	AnnotationNotes T51	anatomical structure morphogenesis
-T52	GO:0007416 19394 19411	synapse formation
-#52	AnnotationNotes T52	synapse assembly
-T53	GO:0007416 19451 19465	synaptogenesis
-#53	AnnotationNotes T53	synapse assembly
-T54	GO:0009653 19553 19566	morphogenesis
-#54	AnnotationNotes T54	anatomical structure morphogenesis
-T55	GO:0008594 19847 19874	photoreceptor morphogenesis
-#55	AnnotationNotes T55	photoreceptor cell morphogenesis
-T56	GO:0030397 20104 20116;20131 20140	breakdown of
-#56	AnnotationNotes T56	membrane disassembly
-T57	GO_EXT:biological_recruitment 20164 20173	recruited
-#57	AnnotationNotes T57	biological recruitment
-T58	GO_EXT:biological_growth_entity_or_process 20662 20668	growth
-#58	AnnotationNotes T58	biological growth entity or process
-T59	GO_PATO_EXT:biological_localization_process_or_quality 20828 20837	localized
-#59	AnnotationNotes T59	biological localization process or quality
-T60	GO_PATO_EXT:biological_localization_process_or_quality 20876 20885	localized
-#60	AnnotationNotes T60	biological localization process or quality
-T61	GO_EXT:transcription 21096 21109	transcription
-#61	AnnotationNotes T61	transcription
-T62	GO:0065007 21129 21137	controls
-#62	AnnotationNotes T62	biological regulation
-T63	GO:0010467 21342 21357	gene expression
-#63	AnnotationNotes T63	gene expression
-T64	GO:0010467 21437 21447	expression
-#64	AnnotationNotes T64	gene expression
-T65	GO:0010467 21494 21504	expression
-#65	AnnotationNotes T65	gene expression
-T66	GO:0010467 21642 21652	expression
-#66	AnnotationNotes T66	gene expression
-T67	GO:0010467 21759 21769	expression
-#67	AnnotationNotes T67	gene expression
-T68	GO:0010467 21808 21818	expression
-#68	AnnotationNotes T68	gene expression
-T69	GO:0010467 21918 21927	expressed
-#69	AnnotationNotes T69	gene expression
-T70	GO:0010467 22243 22253	expression
-#70	AnnotationNotes T70	gene expression
-T71	GO:0042052 22261 22283	rhabdomere development
-#71	AnnotationNotes T71	rhabdomere development
-T72	GO:0065007 22334 22341	control
-#72	AnnotationNotes T72	biological regulation
-T73	GO_PATO_EXT:physiological_process_or_quality 22597 22607	physiology
-#73	AnnotationNotes T73	physiological process or quality
-T74	GO:0010467 22618 22628	expression
-#74	AnnotationNotes T74	gene expression
-T75	GO:0010467 22718 22728	expression
-#75	AnnotationNotes T75	gene expression
-T76	GO:0061541 22801 22825	rhabdomere morphogenesis
-#76	AnnotationNotes T76	rhabdomere morphogenesis
-T77	GO:0065007 23006 23016	regulation
-#77	AnnotationNotes T77	biological regulation
-T78	GO:0065007 23057 23064	control
-#78	AnnotationNotes T78	biological regulation
-T79	GO_EXT:positive_regulation 23088 23101	up-regulation
-#79	AnnotationNotes T79	positive regulation
-T80	GO:0065007 23149 23159	regulating
-#80	AnnotationNotes T80	biological regulation
-T81	GO:0009653 23174 23187	morphogenesis
-#81	AnnotationNotes T81	anatomical structure morphogenesis
-T82	GO:0008594 23440 23467	photoreceptor morphogenesis
-#82	AnnotationNotes T82	photoreceptor cell morphogenesis
-T83	GO:0010467 23578 23587	expressed
-#83	AnnotationNotes T83	gene expression
-T84	GO:0010467 23739 23749	expression
-#84	AnnotationNotes T84	gene expression
-T85	GO:0006629 23799 23815	lipid metabolism
-#85	AnnotationNotes T85	lipid metabolic process
-T86	GO:0006457 23817 23832	protein folding
-#86	AnnotationNotes T86	protein folding
-T87	GO_EXT:biological_routing_or_transport 23837 23846	transport
-#87	AnnotationNotes T87	biological routing/transport
-T88	GO_PATO_EXT:biological_localization_process_or_quality 24083 24092	localized
-#88	AnnotationNotes T88	biological localization process or quality
-T89	GO_EXT:biological_routing_or_transport 24146 24154	targeted
-#89	AnnotationNotes T89	biological routing/transport
-T90	GO_EXT:biogenesis_or_biosynthesis 24265 24275	biogenesis
-#90	AnnotationNotes T90	biogenesis/biosynthesis
-T91	GO:0042384 24357 24369	ciliogenesis
-#91	AnnotationNotes T91	cilium assembly
-T92	GO:0042384 24444 24456	ciliogenesis
-#92	AnnotationNotes T92	cilium assembly
-T93	GO:0008594 24547 24574	photoreceptor morphogenesis
-#93	AnnotationNotes T93	photoreceptor cell morphogenesis
-T94	GO:0007416 24771 24785	synaptogenesis
-#94	AnnotationNotes T94	synapse assembly
-T95	GO:0060041 24932 24951	retinal development
-#95	AnnotationNotes T95	retina development in camera-type eye
-T96	GO:0007416 24954 24968	Synaptogenesis
-#96	AnnotationNotes T96	synapse assembly
-T97	GO:0007416 25473 25487	synaptogenesis
-#97	AnnotationNotes T97	synapse assembly
-T98	GO:0007602 25681 25698	phototransduction
-#98	AnnotationNotes T98	phototransduction
-T99	GO:0007602 25995 26012	phototransduction
-#99	AnnotationNotes T99	phototransduction
-T100	GO:0007416 26017 26034	synapse formation
-#100	AnnotationNotes T100	synapse assembly
-T101	GO:0007416 26299 26316	synapse formation
-#101	AnnotationNotes T101	synapse assembly
-T102	GO:0065007 26329 26339	regulating
-#102	AnnotationNotes T102	biological regulation
-T103	GO:0010467 26442 26452	expression
-#103	AnnotationNotes T103	gene expression
-T104	GO:0010467 26881 26890	expressed
-#104	AnnotationNotes T104	gene expression
-T105	GO:0010467 26945 26955	expression
-#105	AnnotationNotes T105	gene expression
-T106	GO:0008594 27037 27064	photoreceptor morphogenesis
-#106	AnnotationNotes T106	photoreceptor cell morphogenesis
-T107	GO:0010467 27102 27111	expressed
-#107	AnnotationNotes T107	gene expression
-T108	GO:0065007 27221 27230	regulated
-#108	AnnotationNotes T108	biological regulation
-T109	GO_EXT:positive_regulation 27565 27576	upregulated
-#109	AnnotationNotes T109	positive regulation
-T110	GO_EXT:reaction_or_response 27594 27602	response
-#110	AnnotationNotes T110	reaction/response
-T111	GO:0065007 27913 27923	regulating
-#111	AnnotationNotes T111	biological regulation
-T112	GO:0060041 28179 28198	retinal development
-#112	AnnotationNotes T112	retina development in camera-type eye
-T113	GO:0008594 28891 28918	photoreceptor morphogenesis
-#113	AnnotationNotes T113	photoreceptor cell morphogenesis
-T114	GO:0007601 29434 29440	vision
-#114	AnnotationNotes T114	visual perception
-T115	GO:0007601 29531 29537	vision
-#115	AnnotationNotes T115	visual perception
-T116	GO:0007601 29638 29644	vision
-#116	AnnotationNotes T116	visual perception
-T117	GO:0010467 29736 29745	expressed
-#117	AnnotationNotes T117	gene expression
-T118	GO:0007602 29881 29898	phototransduction
-#118	AnnotationNotes T118	phototransduction
-T119	GO_EXT:transcription 30136 30149	transcription
-#119	AnnotationNotes T119	transcription
-T120	GO:0009888 30788 30800;30809 30815	formation of
-#120	AnnotationNotes T120	tissue development
-T121	GO:0009653 31491 31504	morphogenesis
-#121	AnnotationNotes T121	anatomical structure morphogenesis
-T122	GO:0007416 31506 31520	synaptogenesis
-#122	AnnotationNotes T122	synapse assembly
-T123	GO:0007567 31926 31931	natal
-#123	AnnotationNotes T123	parturition
+T0	GO_0007416 0 14	Synaptogenesis
+T1	GO_0007567 210 215	birth
+T2	GO_0060041 252 266;	development of
+278 284	development ofretina
+T3	GO_0042461 321 332;	development
+349 371	developmentof photoreceptor cells
+T4	GO_EXT_transcription 478 491	transcription
+T5	GO_0009653 748 761	morphogenesis
+T6	GO_0007602 853 870	phototransduction
+T7	GO_0007416 1035 1049	synaptogenesis
+T8	GO_0042461 1162 1187	photoreceptor development
+T9	GO_0007601 1304 1310	vision
+T10	GO_EXT_detection_or_sensing_of_stimulus 1382 1389	sensory
+T11	GO_EXT_detection_or_sensing_of_stimulus 1447 1454	sensing
+T12	GO_PATO_EXT_physiological_process_or_quality 1692 1702	physiology
+T13	GO_0007602 1706 1723	phototransduction
+T14	GO_0042461 1742 1756;	development of
+1768 1782	development ofphotoreceptors
+T15	GO_0065007 1892 1902	regulating
+T16	GO_0042461 1903 1928	photoreceptor development
+T17	GO_0010467 2025 2034	expressed
+T18	GO_0010467 2137 2152	gene expression
+T19	GO_0010467 2240 2249	expressed
+T20	GO_0010467 2404 2414	expression
+T21	GO_0065007 2534 2544	regulatory
+T22	GO_0030154 2852 2867;	differentiation
+2885 2887;	differentiationof
+2902 2907	differentiationofcells
+T23	GO_0007601 3068 3074	vision
+T24	GO_0007567 3080 3085	birth
+T25	GO_0042461 4357 4382	photoreceptor development
+T26	GO_RO_EXT_developmental_differentiation_process 4524 4539	differentiation
+T27	GO_0007602 4685 4710	phototransduction cascade
+T28	GO_0065007 5385 5395	regulating
+T29	GO_0007416 5400 5412;	formation of
+5431 5439	formation ofsynapses
+T30	GO_EXT_transcription 5563 5578	transcriptional
+T31	GO_0065007 5579 5589	regulatory
+T32	GO_RO_EXT_developmental_differentiation_process 5751 5766	differentiation
+T33	GO_0007416 5776 5793	synapse formation
+T34	GO_RO_EXT_developmental_differentiation_process 5948 5963	differentiation
+T35	GO_0007416 6296 6310	synaptogenesis
+T36	GO_0007416 6381 6398	synapse formation
+T37	GO_0008594 6731 6758	photoreceptor morphogenesis
+T38	GO_0007567 6856 6861	natal
+T39	GO_RO_EXT_developmental_differentiation_process 7273 7288	differentiation
+T40	GO_0019835 7407 7412	lysis
+T41	GO_0042384 8737 8749	ciliogenesis
+T42	GO_0042384 9116 9128	ciliogenesis
+T43	GO_0030263 9434 9442	pyknotic
+T44	GO_EXT_biological_release 9634 9642	released
+T45	GO_0030263 10465 10473	pyknotic
+T46	GO_0008594 11008 11024;	morphogenesis of
+11032 11046	morphogenesis ofphotoreceptors
+T47	GO_0009653 12784 12797	morphogenesis
+T48	GO_0010467 14259 14269	expression
+T49	GO_EXT_negative_regulation 14287 14300	downregulated
+T50	GO_0010467 14992 15002	expression
+T51	GO_0009653 19232 19245	morphogenesis
+T52	GO_0007416 19394 19411	synapse formation
+T53	GO_0007416 19451 19465	synaptogenesis
+T54	GO_0009653 19553 19566	morphogenesis
+T55	GO_0008594 19847 19874	photoreceptor morphogenesis
+T56	GO_0030397 20104 20116;	breakdown of
+20131 20140	breakdown ofmembranes
+T57	GO_EXT_biological_recruitment 20164 20173	recruited
+T58	GO_EXT_biological_growth_entity_or_process 20662 20668	growth
+T59	GO_PATO_EXT_biological_localization_process_or_quality 20828 20837	localized
+T60	GO_PATO_EXT_biological_localization_process_or_quality 20876 20885	localized
+T61	GO_EXT_transcription 21096 21109	transcription
+T62	GO_0065007 21129 21137	controls
+T63	GO_0010467 21342 21357	gene expression
+T64	GO_0010467 21437 21447	expression
+T65	GO_0010467 21494 21504	expression
+T66	GO_0010467 21642 21652	expression
+T67	GO_0010467 21759 21769	expression
+T68	GO_0010467 21808 21818	expression
+T69	GO_0010467 21918 21927	expressed
+T70	GO_0010467 22243 22253	expression
+T71	GO_0042052 22261 22283	rhabdomere development
+T72	GO_0065007 22334 22341	control
+T73	GO_PATO_EXT_physiological_process_or_quality 22597 22607	physiology
+T74	GO_0010467 22618 22628	expression
+T75	GO_0010467 22718 22728	expression
+T76	GO_0061541 22801 22825	rhabdomere morphogenesis
+T77	GO_0065007 23006 23016	regulation
+T78	GO_0065007 23057 23064	control
+T79	GO_EXT_positive_regulation 23088 23101	up-regulation
+T80	GO_0065007 23149 23159	regulating
+T81	GO_0009653 23174 23187	morphogenesis
+T82	GO_0008594 23440 23467	photoreceptor morphogenesis
+T83	GO_0010467 23578 23587	expressed
+T84	GO_0010467 23739 23749	expression
+T85	GO_0006629 23799 23815	lipid metabolism
+T86	GO_0006457 23817 23832	protein folding
+T87	GO_EXT_biological_routing_or_transport 23837 23846	transport
+T88	GO_PATO_EXT_biological_localization_process_or_quality 24083 24092	localized
+T89	GO_EXT_biological_routing_or_transport 24146 24154	targeted
+T90	GO_EXT_biogenesis_or_biosynthesis 24265 24275	biogenesis
+T91	GO_0042384 24357 24369	ciliogenesis
+T92	GO_0042384 24444 24456	ciliogenesis
+T93	GO_0008594 24547 24574	photoreceptor morphogenesis
+T94	GO_0007416 24771 24785	synaptogenesis
+T95	GO_0060041 24932 24951	retinal development
+T96	GO_0007416 24954 24968	Synaptogenesis
+T97	GO_0007416 25473 25487	synaptogenesis
+T98	GO_0007602 25681 25698	phototransduction
+T99	GO_0007602 25995 26012	phototransduction
+T100	GO_0007416 26017 26034	synapse formation
+T101	GO_0007416 26299 26316	synapse formation
+T102	GO_0065007 26329 26339	regulating
+T103	GO_0010467 26442 26452	expression
+T104	GO_0010467 26881 26890	expressed
+T105	GO_0010467 26945 26955	expression
+T106	GO_0008594 27037 27064	photoreceptor morphogenesis
+T107	GO_0010467 27102 27111	expressed
+T108	GO_0065007 27221 27230	regulated
+T109	GO_EXT_positive_regulation 27565 27576	upregulated
+T110	GO_EXT_reaction_or_response 27594 27602	response
+T111	GO_0065007 27913 27923	regulating
+T112	GO_0060041 28179 28198	retinal development
+T113	GO_0008594 28891 28918	photoreceptor morphogenesis
+T114	GO_0007601 29434 29440	vision
+T115	GO_0007601 29531 29537	vision
+T116	GO_0007601 29638 29644	vision
+T117	GO_0010467 29736 29745	expressed
+T118	GO_0007602 29881 29898	phototransduction
+T119	GO_EXT_transcription 30136 30149	transcription
+T120	GO_0009888 30788 30800;	formation of
+30809 30815	formation oftissue
+T121	GO_0009653 31491 31504	morphogenesis
+T122	GO_0007416 31506 31520	synaptogenesis
+T123	GO_0007567 31926 31931	natal

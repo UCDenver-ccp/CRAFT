@@ -1,414 +1,212 @@
-T0	GO:0001822 81 92	nephrogenic
-#0	AnnotationNotes T0	kidney development
-T1	GO_EXT:reaction_or_response 194 202	response
-#1	AnnotationNotes T1	reaction/response
-T2	GO:0001822 239 250	nephrogenic
-#2	AnnotationNotes T2	kidney development
-T3	GO_EXT:biological_routing_or_transport 931 942	trafficking
-#3	AnnotationNotes T3	biological routing/transport
-T4	GO_EXT:biological_translocation_entity_or_process 1047 1060	translocation
-#4	AnnotationNotes T4	biological translocation entity or process
-T5	GO:0001822 1088 1099	nephrogenic
-#5	AnnotationNotes T5	kidney development
-T6	GO_PATO_EXT:biological_localization_process_or_quality 1291 1303	localization
-#6	AnnotationNotes T6	biological localization process or quality
-T7	GO:0001822 1482 1493	Nephrogenic
-#7	AnnotationNotes T7	kidney development
-T8	GO:0060073 1552 1561	urination
-#8	AnnotationNotes T8	micturition
-T9	GO_EXT:detection_or_sensing_of_stimulus 1601 1607	senses
-#9	AnnotationNotes T9	detection/sensing of stimulus
-T10	GO_EXT:cell_communication_or_signaling_or_signal_transduction 1646 1653	signals
-#10	AnnotationNotes T10	cell communication, signaling or signal transduction
-T11	GO_EXT:cell_communication_or_signaling_or_signal_transduction 1715 1724	signaling
-#11	AnnotationNotes T11	cell communication, signaling or signal transduction
-T12	GO:0046903 1734 1742	secreted
-#12	AnnotationNotes T12	secretion
-T13	GO:0001822 3072 3083	Nephrogenic
-#13	AnnotationNotes T13	kidney development
-T14	GO:0060073 3149 3158	urination
-#14	AnnotationNotes T14	micturition
-T15	GO:0010467 3500 3509	expressed
-#15	AnnotationNotes T15	gene expression
-T16	GO:0055085 3600 3607;3617 3624;3636 3644	passage
-#16	AnnotationNotes T16	transmembrane transport
-T17	GO:0006833 3600 3616	passage of water
-#17	AnnotationNotes T17	water transport
-T18	GO:0070295 3728 3746;3758 3760;3765 3771	water reabsorption
-#18	AnnotationNotes T18	renal water absorption
-T19	GO:0051262 3848 3859	tetramerize
-#19	AnnotationNotes T19	protein tetramerization
-T20	GO_EXT:biological_routing_or_transport 3969 3977	targeted
-#20	AnnotationNotes T20	biological routing/transport
-T21	GO_EXT:biological_routing_or_transport 4030 4036	routed
-#21	AnnotationNotes T21	biological routing/transport
-T22	GO_EXT:biological_movement_or_translocation_process 4412 4424	translocates
-#22	AnnotationNotes T22	biological movement/translocation process
-T23	GO_PATO_EXT:phosphorylation_process 4663 4678	phosphorylation
-#23	AnnotationNotes T23	phosphorylation process
-T24	GO_PATO_EXT:biological_localization_process_or_quality 5008 5017	localized
-#24	AnnotationNotes T24	biological localization process or quality
-T25	GO:0006457 5045 5051	folded
-#25	AnnotationNotes T25	protein folding
-T26	GO_EXT:reaction_or_response 5068 5076	responds
-#26	AnnotationNotes T26	reaction/response
-T27	GO_EXT:biological_routing_or_transport 5187 5192	route
-#27	AnnotationNotes T27	biological routing/transport
-T28	GO:0016265 5574 5578	died
-#28	AnnotationNotes T28	death
-T29	GO:0007567 5596 5601	birth
-#29	AnnotationNotes T29	parturition
-T30	GO:0016265 5649 5652	die
-#30	AnnotationNotes T30	death
-T31	GO:0007567 5681 5686	birth
-#31	AnnotationNotes T31	parturition
-T32	GO:0030104 5783 5800	water homeostasis
-#32	AnnotationNotes T32	water homeostasis
-T33	GO:0001822 5995 6006	nephrogenic
-#33	AnnotationNotes T33	kidney development
-T34	GO_PATO_EXT:biological_localization_process_or_quality 6251 6263	localization
-#34	AnnotationNotes T34	biological localization process or quality
-T35	GO_EXT:biological_translocation_entity_or_process 6317 6330	translocation
-#35	AnnotationNotes T35	biological translocation entity or process
-T36	GO_EXT:biological_translocation_entity_or_process 6542 6555	translocation
-#36	AnnotationNotes T36	biological translocation entity or process
-T37	GO_EXT:biological_routing_or_transport 6650 6657	routing
-#37	AnnotationNotes T37	biological routing/transport
-T38	GO:0008152 6850 6860	metabolism
-#38	AnnotationNotes T38	metabolic process
-T39	GO:0060073 6901 6909	urinated
-#39	AnnotationNotes T39	micturition
-T40	GO:0042756 6914 6919	drank
-#40	AnnotationNotes T40	drinking behavior
-T41	GO:0007631 8175 8181	intake
-#41	AnnotationNotes T41	feeding behavior
-T42	GO:0007631 8242 8248	intake
-#42	AnnotationNotes T42	feeding behavior
-T43	GO:0007631 8368 8374	intake
-#43	AnnotationNotes T43	feeding behavior
-T44	GO:0065007 8834 8841	control
-#44	AnnotationNotes T44	biological regulation
-T45	GO_EXT:reaction_or_response 8873 8881	response
-#45	AnnotationNotes T45	reaction/response
-T46	GO:0046903 8920 8928	secretes
-#46	AnnotationNotes T46	secretion
-T47	GO_EXT:reaction_or_response 9457 9465	response
-#47	AnnotationNotes T47	reaction/response
-T48	GO_EXT:reaction_or_response 9488 9496	response
-#48	AnnotationNotes T48	reaction/response
-T49	GO:0007618 9698 9705	matings
-#49	AnnotationNotes T49	mating
-T50	GO:0007631 9986 9992	intake
-#50	AnnotationNotes T50	feeding behavior
-T51	GO_MOP_EXT:glycosylation 11409 11422	glycosylation
-#51	AnnotationNotes T51	glycosylation
-T52	GO_MOP_EXT:glycosylation 11479 11491	glycosylated
-#52	AnnotationNotes T52	glycosylation
-T53	GO_MOP_EXT:glycosylation 11540 11552	glycosylated
-#53	AnnotationNotes T53	glycosylation
-T54	GO_MOP_EXT:glycosylation 11674 11687	glycosylation
-#54	AnnotationNotes T54	glycosylation
-T55	GO_MOP_EXT:glycosylation 12088 12100	glycosylated
-#55	AnnotationNotes T55	glycosylation
-T56	GO_MOP_EXT:glycosylation 12428 12440	glycosylated
-#56	AnnotationNotes T56	glycosylation
-T57	GO_EXT:reaction_or_response 12590 12598	response
-#57	AnnotationNotes T57	reaction/response
-T58	GO_EXT:biological_movement_or_translocation_process 12704 12715	translocate
-#58	AnnotationNotes T58	biological movement/translocation process
-T59	GO_EXT:reaction_or_response 12746 12754	response
-#59	AnnotationNotes T59	reaction/response
-T60	GO:0009294 12885 12896	transfected
-#60	AnnotationNotes T60	DNA mediated transformation
-T61	GO_PATO_EXT:biological_localization_process_or_quality 13003 13011	localize
-#61	AnnotationNotes T61	biological localization process or quality
-T62	GO_PATO_EXT:biological_localization_process_or_quality 13278 13287	localized
-#62	AnnotationNotes T62	biological localization process or quality
-T63	GO_EXT:biological_movement_or_translocation_process 13401 13413	translocated
-#63	AnnotationNotes T63	biological movement/translocation process
-T64	GO_PATO_EXT:biological_localization_process_or_quality 13640 13649	localized
-#64	AnnotationNotes T64	biological localization process or quality
-T65	GO_EXT:biological_movement_or_translocation_process 13741 13752	translocate
-#65	AnnotationNotes T65	biological movement/translocation process
-T66	GO_EXT:biological_translocation_entity_or_process 14027 14040	translocation
-#66	AnnotationNotes T66	biological translocation entity or process
-T67	GO:0009294 14069 14081	transfection
-#67	AnnotationNotes T67	DNA mediated transformation
-T68	GO:0010467 14115 14125	expressing
-#68	AnnotationNotes T68	gene expression
-T69	GO_MOP_EXT:glycosylation 14275 14288	glycosylation
-#69	AnnotationNotes T69	glycosylation
-T70	GO:0010467 14408 14418	expressing
-#70	AnnotationNotes T70	gene expression
-T71	GO_MOP_EXT:glycosylation 14486 14498	glycosylated
-#71	AnnotationNotes T71	glycosylation
-T72	GO:0009294 14516 14527	transfected
-#72	AnnotationNotes T72	DNA mediated transformation
-T73	GO_EXT:biological_movement_or_translocation_process 14947 14959	translocated
-#73	AnnotationNotes T73	biological movement/translocation process
-T74	GO_PATO_EXT:biological_localization_process_or_quality 15330 15339	localizes
-#74	AnnotationNotes T74	biological localization process or quality
-T75	GO:0009294 15371 15382	transfected
-#75	AnnotationNotes T75	DNA mediated transformation
-T76	GO_PATO_EXT:biological_localization_process_or_quality 15456 15468	localization
-#76	AnnotationNotes T76	biological localization process or quality
-T77	GO_PATO_EXT:biological_localization_process_or_quality 15572 15581	localized
-#77	AnnotationNotes T77	biological localization process or quality
-T78	GO_MOP_EXT:glycosylation 15800 15812	glycosylated
-#78	AnnotationNotes T78	glycosylation
-T79	GO:0051260 16131 16147	homo-oligomerize
-#79	AnnotationNotes T79	protein homooligomerization
-T80	GO_EXT:biological_movement_or_translocation_process 16437 16449	translocated
-#80	AnnotationNotes T80	biological movement/translocation process
-T81	GO_PATO_EXT:biological_localization_process_or_quality 16734 16746	localization
-#81	AnnotationNotes T81	biological localization process or quality
-T82	GO_EXT:biological_routing_or_transport 16843 16852	transport
-#82	AnnotationNotes T82	biological routing/transport
-T83	GO_MOP_EXT:glycosylation 16859 16871	glycosylated
-#83	AnnotationNotes T83	glycosylation
-T84	GO_MOP_EXT:glycosylation 16912 16924	glycosylated
-#84	AnnotationNotes T84	glycosylation
-T85	GO_EXT:biological_translocation_entity_or_process 17004 17017	translocation
-#85	AnnotationNotes T85	biological translocation entity or process
-T86	GO:0010467 17075 17084	expressed
-#86	AnnotationNotes T86	gene expression
-T87	GO:0009294 17354 17365	transfected
-#87	AnnotationNotes T87	DNA mediated transformation
-T88	GO:0010467 17408 17418	expressing
-#88	AnnotationNotes T88	gene expression
-T89	GO:0009294 17451 17462	transfected
-#89	AnnotationNotes T89	DNA mediated transformation
-T90	GO:0010467 17472 17482	expression
-#90	AnnotationNotes T90	gene expression
-T91	GO:0009294 17663 17674	transfected
-#91	AnnotationNotes T91	DNA mediated transformation
-T92	GO:0009294 17719 17730	transfected
-#92	AnnotationNotes T92	DNA mediated transformation
-T93	GO:0010467 17754 17764	expressing
-#93	AnnotationNotes T93	gene expression
-T94	GO:0010467 17881 17890	expressed
-#94	AnnotationNotes T94	gene expression
-T95	GO_PATO_EXT:biological_localization_process_or_quality 18051 18063	localization
-#95	AnnotationNotes T95	biological localization process or quality
-T96	GO:0009294 18134 18145	transfected
-#96	AnnotationNotes T96	DNA mediated transformation
-T97	GO:0010467 18166 18176	expressing
-#97	AnnotationNotes T97	gene expression
-T98	GO:0009294 18238 18249	transfected
-#98	AnnotationNotes T98	DNA mediated transformation
-T99	GO:0010467 18277 18287	expression
-#99	AnnotationNotes T99	gene expression
-T100	GO_PATO_EXT:biological_localization_process_or_quality 18309 18318	localized
-#100	AnnotationNotes T100	biological localization process or quality
-T101	GO:0009294 18395 18406	transfected
-#101	AnnotationNotes T101	DNA mediated transformation
-T102	GO:0010467 18537 18546	expressed
-#102	AnnotationNotes T102	gene expression
-T103	GO:0009294 18560 18572	transfection
-#103	AnnotationNotes T103	DNA mediated transformation
-T104	GO:0010467 18677 18686	expressed
-#104	AnnotationNotes T104	gene expression
-T105	GO_PATO_EXT:biological_localization_process_or_quality 18736 18745	localized
-#105	AnnotationNotes T105	biological localization process or quality
-T106	GO:0009294 18896 18908	transfection
-#106	AnnotationNotes T106	DNA mediated transformation
-T107	GO:0009294 18928 18939	transfected
-#107	AnnotationNotes T107	DNA mediated transformation
-T108	GO_PATO_EXT:biological_localization_process_or_quality 18960 18972	localization
-#108	AnnotationNotes T108	biological localization process or quality
-T109	GO:0010467 18987 18997	expressing
-#109	AnnotationNotes T109	gene expression
-T110	GO:0010467 19076 19086	expression
-#110	AnnotationNotes T110	gene expression
-T111	GO_PATO_EXT:biological_localization_process_or_quality 19169 19181	localization
-#111	AnnotationNotes T111	biological localization process or quality
-T112	GO_PATO_EXT:biological_localization_process_or_quality 19360 19369	localized
-#112	AnnotationNotes T112	biological localization process or quality
-T113	GO_PATO_EXT:biological_localization_process_or_quality 19408 19420	localization
-#113	AnnotationNotes T113	biological localization process or quality
-T114	GO:0010467 19492 19501	expressed
-#114	AnnotationNotes T114	gene expression
-T115	GO:0009294 19547 19558	transfected
-#115	AnnotationNotes T115	DNA mediated transformation
-T116	GO:0010467 19755 19764	expressed
-#116	AnnotationNotes T116	gene expression
-T117	GO:0010467 19885 19894	expressed
-#117	AnnotationNotes T117	gene expression
-T118	GO_EXT:biological_routing_or_transport 20031 20042	transported
-#118	AnnotationNotes T118	biological routing/transport
-T119	GO:0040007 20163 20167	grow
-#119	AnnotationNotes T119	growth
-T120	GO:0000003 20172 20181	reproduce
-#120	AnnotationNotes T120	reproduction
-T121	GO:0007631 20313 20319	intake
-#121	AnnotationNotes T121	feeding behavior
-T122	GO:0016265 20615 20619	died
-#122	AnnotationNotes T122	death
-T123	GO:0007567 20635 20640	birth
-#123	AnnotationNotes T123	parturition
-T124	GO:0007631 20738 20744	intake
-#124	AnnotationNotes T124	feeding behavior
-T125	GO:0016265 20998 21003	death
-#125	AnnotationNotes T125	death
-T126	GO:0007567 21019 21024	birth
-#126	AnnotationNotes T126	parturition
-T127	GO_PATO_EXT:biological_localization_process_or_quality 21053 21061	localize
-#127	AnnotationNotes T127	biological localization process or quality
-T128	GO:0006833 21382 21400	water transporting
-#128	AnnotationNotes T128	water transport
-T129	GO_EXT:reaction_or_response 21553 21561	response
-#129	AnnotationNotes T129	reaction/response
-T130	GO_EXT:biological_routing_or_transport 21702 21711	transport
-#130	AnnotationNotes T130	biological routing/transport
-T131	GO_PATO_EXT:biological_localization_process_or_quality 21739 21747	localize
-#131	AnnotationNotes T131	biological localization process or quality
-T132	GO_MOP_EXT:glycosylation 22364 22376	glycosylated
-#132	AnnotationNotes T132	glycosylation
-T133	GO_MOP_EXT:glycosylation 22411 22423	glycosylated
-#133	AnnotationNotes T133	glycosylation
-T134	GO_MOP_EXT:glycosylation 22445 22457	glycosylated
-#134	AnnotationNotes T134	glycosylation
-T135	GO_EXT:biological_routing_or_transport 22592 22603	transported
-#135	AnnotationNotes T135	biological routing/transport
-T136	GO_PATO_EXT:biological_localization_process_or_quality 22658 22670	localization
-#136	AnnotationNotes T136	biological localization process or quality
-T137	GO:0009294 22717 22728	transfected
-#137	AnnotationNotes T137	DNA mediated transformation
-T138	GO_EXT:reaction_or_response 22852 22860	response
-#138	AnnotationNotes T138	reaction/response
-T139	GO_MOP_EXT:glycosylation 22902 22914	glycosylated
-#139	AnnotationNotes T139	glycosylation
-T140	GO:0015031 22950 22962;22984 22991	transport of
-#140	AnnotationNotes T140	protein transport
-T141	GO:0006457 23074 23081	folding
-#141	AnnotationNotes T141	protein folding
-T142	GO:0006833 23130 23148	water transporting
-#142	AnnotationNotes T142	water transport
-T143	GO_EXT:biological_growth_entity_or_process 23228 23234	growth
-#143	AnnotationNotes T143	biological growth entity or process
-T144	GO_MOP_EXT:glycosylation 23358 23370	glycosylated
-#144	AnnotationNotes T144	glycosylation
-T145	GO_MOP_EXT:glycosylation 23533 23545	glycosylated
-#145	AnnotationNotes T145	glycosylation
-T146	GO_PATO_EXT:biological_localization_process_or_quality 23677 23689	localization
-#146	AnnotationNotes T146	biological localization process or quality
-T147	GO_PATO_EXT:physiological_process_or_quality 23832 23847	Physiologically
-#147	AnnotationNotes T147	physiological process or quality
-T148	GO_EXT:biological_movement_or_translocation_process 24384 24395	translocate
-#148	AnnotationNotes T148	biological movement/translocation process
-T149	GO:0010467 24401 24410	expressed
-#149	AnnotationNotes T149	gene expression
-T150	GO_PATO_EXT:biological_localization_process_or_quality 24486 24495	localizes
-#150	AnnotationNotes T150	biological localization process or quality
-T151	GO:0010467 24659 24668	expressed
-#151	AnnotationNotes T151	gene expression
-T152	GO:0010467 25157 25167	expressing
-#152	AnnotationNotes T152	gene expression
-T153	GO_EXT:reaction_or_response 25288 25296	response
-#153	AnnotationNotes T153	reaction/response
-T154	GO:0009294 25434 25446	Transfection
-#154	AnnotationNotes T154	DNA mediated transformation
-T155	GO_PATO_EXT:biological_localization_process_or_quality 25564 25576	localization
-#155	AnnotationNotes T155	biological localization process or quality
-T156	GO_EXT:biological_movement_or_translocation_process 25617 25628	translocate
-#156	AnnotationNotes T156	biological movement/translocation process
-T157	GO:0006457 25662 25669	folding
-#157	AnnotationNotes T157	protein folding
-T158	GO_EXT:biological_movement_or_translocation_process 25707 25718	translocate
-#158	AnnotationNotes T158	biological movement/translocation process
-T159	GO_EXT:reaction_or_response 25722 25730	response
-#159	AnnotationNotes T159	reaction/response
-T160	GO_PATO_EXT:biological_localization_process_or_quality 26060 26072	localization
-#160	AnnotationNotes T160	biological localization process or quality
-T161	GO:0006266 26693 26700	ligated
-#161	AnnotationNotes T161	DNA ligation
-T162	GO_EXT:biological_direction_or_guidance 26808 26816	directed
-#162	AnnotationNotes T162	biological direction/guidance
-T163	GO:0006266 27258 27265	ligated
-#163	AnnotationNotes T163	DNA ligation
-T164	GO:0009294 27764 27775	transfected
-#164	AnnotationNotes T164	DNA mediated transformation
-T165	GO:0010467 27831 27841	expression
-#165	AnnotationNotes T165	gene expression
-T166	GO:0009294 28107 28120	transfections
-#166	AnnotationNotes T166	DNA mediated transformation
-T167	GO:0008152 28532 28541	Metabolic
-#167	AnnotationNotes T167	metabolic process
-T168	GO:0010467 30589 30599	expressing
-#168	AnnotationNotes T168	gene expression
-T169	GO:0040007 30616 30621	grown
-#169	AnnotationNotes T169	growth
-T170	GO:0009294 30644 30655	transfected
-#170	AnnotationNotes T170	DNA mediated transformation
-T171	GO:0009294 31579 31590	transfected
-#171	AnnotationNotes T171	DNA mediated transformation
-T172	GO:0010467 31614 31624	expressing
-#172	AnnotationNotes T172	gene expression
-T173	GO:0009294 31704 31716	transfection
-#173	AnnotationNotes T173	DNA mediated transformation
-T174	GO_EXT:trypsinization 31756 31767	trypsinized
-#174	AnnotationNotes T174	trypsinization
-T175	GO_EXT:biological_movement_or_translocation_process 32111 32120	mobilized
-#175	AnnotationNotes T175	biological movement/translocation process
-T176	GO:0010467 33411 33421	expressing
-#176	AnnotationNotes T176	gene expression
-T177	GO:0010467 33497 33507	expressing
-#177	AnnotationNotes T177	gene expression
-T178	GO:0040007 33530 33535	grown
-#178	AnnotationNotes T178	growth
-T179	GO_PATO_EXT:biological_localization_process_or_quality 35096 35108	localization
-#179	AnnotationNotes T179	biological localization process or quality
-T180	GO_EXT:breeding 35455 35463	breeding
-#180	AnnotationNotes T180	breeding
-T181	GO:0001822 35913 35924	nephrogenic
-#181	AnnotationNotes T181	kidney development
-T182	GO:0007631 36450 36461	consumption
-#182	AnnotationNotes T182	feeding behavior
-T183	GO_PATO_EXT:aging_or_agedness 36513 36517	aged
-#183	AnnotationNotes T183	aging or agedess
-T184	GO_MOP_EXT:glycosylation 38262 38274	glycosylated
-#184	AnnotationNotes T184	glycosylation
-T185	GO_PATO_EXT:biological_localization_process_or_quality 38386 38398	Localization
-#185	AnnotationNotes T185	biological localization process or quality
-T186	GO_EXT:biological_translocation_entity_or_process 38403 38416	Translocation
-#186	AnnotationNotes T186	biological translocation entity or process
-T187	GO_EXT:killing 38690 38701	sacrificing
-#187	AnnotationNotes T187	killing
-T188	GO_PATO_EXT:biological_localization_process_or_quality 38935 38944	localized
-#188	AnnotationNotes T188	biological localization process or quality
-T189	GO_EXT:reaction_or_response 38987 38994	respond
-#189	AnnotationNotes T189	reaction/response
-T190	GO:0009294 39034 39045	transfected
-#190	AnnotationNotes T190	DNA mediated transformation
-T191	GO_PATO_EXT:biological_localization_process_or_quality 39463 39471	localize
-#191	AnnotationNotes T191	biological localization process or quality
-T192	GO_PATO_EXT:biological_localization_process_or_quality 39578 39590	localization
-#192	AnnotationNotes T192	biological localization process or quality
-T193	GO:0010467 39631 39641	expressing
-#193	AnnotationNotes T193	gene expression
-T194	GO:0040007 39657 39662	grown
-#194	AnnotationNotes T194	growth
-T195	GO_PATO_EXT:biological_localization_process_or_quality 39954 39963	localizes
-#195	AnnotationNotes T195	biological localization process or quality
-T196	GO:0009294 40107 40118	transfected
-#196	AnnotationNotes T196	DNA mediated transformation
-T197	GO_PATO_EXT:biological_localization_process_or_quality 40165 40174	localizes
-#197	AnnotationNotes T197	biological localization process or quality
-T198	GO_EXT:reaction_or_response 40179 40187	responds
-#198	AnnotationNotes T198	reaction/response
-T199	GO:0010467 40492 40502	expressing
-#199	AnnotationNotes T199	gene expression
-T200	GO:0009294 40535 40546	transfected
-#200	AnnotationNotes T200	DNA mediated transformation
-T201	GO_PATO_EXT:biological_localization_process_or_quality 40845 40857	localization
-#201	AnnotationNotes T201	biological localization process or quality
-T202	GO:0010467 41005 41014	expressed
-#202	AnnotationNotes T202	gene expression
-T203	GO:0010467 41051 41061	expressing
-#203	AnnotationNotes T203	gene expression
-T204	GO:0010467 41317 41327	expressing
-#204	AnnotationNotes T204	gene expression
-T205	GO:0010467 41382 41391	expressed
-#205	AnnotationNotes T205	gene expression
-T206	GO:0010467 41406 41416	expressing
-#206	AnnotationNotes T206	gene expression
+T0	GO_0001822 81 92	nephrogenic
+T1	GO_EXT_reaction_or_response 194 202	response
+T2	GO_0001822 239 250	nephrogenic
+T3	GO_EXT_biological_routing_or_transport 931 942	trafficking
+T4	GO_EXT_biological_translocation_entity_or_process 1047 1060	translocation
+T5	GO_0001822 1088 1099	nephrogenic
+T6	GO_PATO_EXT_biological_localization_process_or_quality 1291 1303	localization
+T7	GO_0001822 1482 1493	Nephrogenic
+T8	GO_0060073 1552 1561	urination
+T9	GO_EXT_detection_or_sensing_of_stimulus 1601 1607	senses
+T10	GO_EXT_cell_communication_or_signaling_or_signal_transduction 1646 1653	signals
+T11	GO_EXT_cell_communication_or_signaling_or_signal_transduction 1715 1724	signaling
+T12	GO_0046903 1734 1742	secreted
+T13	GO_0001822 3072 3083	Nephrogenic
+T14	GO_0060073 3149 3158	urination
+T15	GO_0010467 3500 3509	expressed
+T16	GO_0055085 3600 3607;	passage
+3617 3624;	passagethrough
+3636 3644	passagethroughmembrane
+T17	GO_0006833 3600 3616	passage of water
+T18	GO_0070295 3728 3746;	water reabsorption
+3758 3760;	water reabsorptionin
+3765 3771	water reabsorptioninkidney
+T19	GO_0051262 3848 3859	tetramerize
+T20	GO_EXT_biological_routing_or_transport 3969 3977	targeted
+T21	GO_EXT_biological_routing_or_transport 4030 4036	routed
+T22	GO_EXT_biological_movement_or_translocation_process 4412 4424	translocates
+T23	GO_PATO_EXT_phosphorylation_process 4663 4678	phosphorylation
+T24	GO_PATO_EXT_biological_localization_process_or_quality 5008 5017	localized
+T25	GO_0006457 5045 5051	folded
+T26	GO_EXT_reaction_or_response 5068 5076	responds
+T27	GO_EXT_biological_routing_or_transport 5187 5192	route
+T28	GO_0016265 5574 5578	died
+T29	GO_0007567 5596 5601	birth
+T30	GO_0016265 5649 5652	die
+T31	GO_0007567 5681 5686	birth
+T32	GO_0030104 5783 5800	water homeostasis
+T33	GO_0001822 5995 6006	nephrogenic
+T34	GO_PATO_EXT_biological_localization_process_or_quality 6251 6263	localization
+T35	GO_EXT_biological_translocation_entity_or_process 6317 6330	translocation
+T36	GO_EXT_biological_translocation_entity_or_process 6542 6555	translocation
+T37	GO_EXT_biological_routing_or_transport 6650 6657	routing
+T38	GO_0008152 6850 6860	metabolism
+T39	GO_0060073 6901 6909	urinated
+T40	GO_0042756 6914 6919	drank
+T41	GO_0007631 8175 8181	intake
+T42	GO_0007631 8242 8248	intake
+T43	GO_0007631 8368 8374	intake
+T44	GO_0065007 8834 8841	control
+T45	GO_EXT_reaction_or_response 8873 8881	response
+T46	GO_0046903 8920 8928	secretes
+T47	GO_EXT_reaction_or_response 9457 9465	response
+T48	GO_EXT_reaction_or_response 9488 9496	response
+T49	GO_0007618 9698 9705	matings
+T50	GO_0007631 9986 9992	intake
+T51	GO_MOP_EXT_glycosylation 11409 11422	glycosylation
+T52	GO_MOP_EXT_glycosylation 11479 11491	glycosylated
+T53	GO_MOP_EXT_glycosylation 11540 11552	glycosylated
+T54	GO_MOP_EXT_glycosylation 11674 11687	glycosylation
+T55	GO_MOP_EXT_glycosylation 12088 12100	glycosylated
+T56	GO_MOP_EXT_glycosylation 12428 12440	glycosylated
+T57	GO_EXT_reaction_or_response 12590 12598	response
+T58	GO_EXT_biological_movement_or_translocation_process 12704 12715	translocate
+T59	GO_EXT_reaction_or_response 12746 12754	response
+T60	GO_0009294 12885 12896	transfected
+T61	GO_PATO_EXT_biological_localization_process_or_quality 13003 13011	localize
+T62	GO_PATO_EXT_biological_localization_process_or_quality 13278 13287	localized
+T63	GO_EXT_biological_movement_or_translocation_process 13401 13413	translocated
+T64	GO_PATO_EXT_biological_localization_process_or_quality 13640 13649	localized
+T65	GO_EXT_biological_movement_or_translocation_process 13741 13752	translocate
+T66	GO_EXT_biological_translocation_entity_or_process 14027 14040	translocation
+T67	GO_0009294 14069 14081	transfection
+T68	GO_0010467 14115 14125	expressing
+T69	GO_MOP_EXT_glycosylation 14275 14288	glycosylation
+T70	GO_0010467 14408 14418	expressing
+T71	GO_MOP_EXT_glycosylation 14486 14498	glycosylated
+T72	GO_0009294 14516 14527	transfected
+T73	GO_EXT_biological_movement_or_translocation_process 14947 14959	translocated
+T74	GO_PATO_EXT_biological_localization_process_or_quality 15330 15339	localizes
+T75	GO_0009294 15371 15382	transfected
+T76	GO_PATO_EXT_biological_localization_process_or_quality 15456 15468	localization
+T77	GO_PATO_EXT_biological_localization_process_or_quality 15572 15581	localized
+T78	GO_MOP_EXT_glycosylation 15800 15812	glycosylated
+T79	GO_0051260 16131 16147	homo-oligomerize
+T80	GO_EXT_biological_movement_or_translocation_process 16437 16449	translocated
+T81	GO_PATO_EXT_biological_localization_process_or_quality 16734 16746	localization
+T82	GO_EXT_biological_routing_or_transport 16843 16852	transport
+T83	GO_MOP_EXT_glycosylation 16859 16871	glycosylated
+T84	GO_MOP_EXT_glycosylation 16912 16924	glycosylated
+T85	GO_EXT_biological_translocation_entity_or_process 17004 17017	translocation
+T86	GO_0010467 17075 17084	expressed
+T87	GO_0009294 17354 17365	transfected
+T88	GO_0010467 17408 17418	expressing
+T89	GO_0009294 17451 17462	transfected
+T90	GO_0010467 17472 17482	expression
+T91	GO_0009294 17663 17674	transfected
+T92	GO_0009294 17719 17730	transfected
+T93	GO_0010467 17754 17764	expressing
+T94	GO_0010467 17881 17890	expressed
+T95	GO_PATO_EXT_biological_localization_process_or_quality 18051 18063	localization
+T96	GO_0009294 18134 18145	transfected
+T97	GO_0010467 18166 18176	expressing
+T98	GO_0009294 18238 18249	transfected
+T99	GO_0010467 18277 18287	expression
+T100	GO_PATO_EXT_biological_localization_process_or_quality 18309 18318	localized
+T101	GO_0009294 18395 18406	transfected
+T102	GO_0010467 18537 18546	expressed
+T103	GO_0009294 18560 18572	transfection
+T104	GO_0010467 18677 18686	expressed
+T105	GO_PATO_EXT_biological_localization_process_or_quality 18736 18745	localized
+T106	GO_0009294 18896 18908	transfection
+T107	GO_0009294 18928 18939	transfected
+T108	GO_PATO_EXT_biological_localization_process_or_quality 18960 18972	localization
+T109	GO_0010467 18987 18997	expressing
+T110	GO_0010467 19076 19086	expression
+T111	GO_PATO_EXT_biological_localization_process_or_quality 19169 19181	localization
+T112	GO_PATO_EXT_biological_localization_process_or_quality 19360 19369	localized
+T113	GO_PATO_EXT_biological_localization_process_or_quality 19408 19420	localization
+T114	GO_0010467 19492 19501	expressed
+T115	GO_0009294 19547 19558	transfected
+T116	GO_0010467 19755 19764	expressed
+T117	GO_0010467 19885 19894	expressed
+T118	GO_EXT_biological_routing_or_transport 20031 20042	transported
+T119	GO_0040007 20163 20167	grow
+T120	GO_0000003 20172 20181	reproduce
+T121	GO_0007631 20313 20319	intake
+T122	GO_0016265 20615 20619	died
+T123	GO_0007567 20635 20640	birth
+T124	GO_0007631 20738 20744	intake
+T125	GO_0016265 20998 21003	death
+T126	GO_0007567 21019 21024	birth
+T127	GO_PATO_EXT_biological_localization_process_or_quality 21053 21061	localize
+T128	GO_0006833 21382 21400	water transporting
+T129	GO_EXT_reaction_or_response 21553 21561	response
+T130	GO_EXT_biological_routing_or_transport 21702 21711	transport
+T131	GO_PATO_EXT_biological_localization_process_or_quality 21739 21747	localize
+T132	GO_MOP_EXT_glycosylation 22364 22376	glycosylated
+T133	GO_MOP_EXT_glycosylation 22411 22423	glycosylated
+T134	GO_MOP_EXT_glycosylation 22445 22457	glycosylated
+T135	GO_EXT_biological_routing_or_transport 22592 22603	transported
+T136	GO_PATO_EXT_biological_localization_process_or_quality 22658 22670	localization
+T137	GO_0009294 22717 22728	transfected
+T138	GO_EXT_reaction_or_response 22852 22860	response
+T139	GO_MOP_EXT_glycosylation 22902 22914	glycosylated
+T140	GO_0015031 22950 22962;	transport of
+22984 22991	transport ofprotein
+T141	GO_0006457 23074 23081	folding
+T142	GO_0006833 23130 23148	water transporting
+T143	GO_EXT_biological_growth_entity_or_process 23228 23234	growth
+T144	GO_MOP_EXT_glycosylation 23358 23370	glycosylated
+T145	GO_MOP_EXT_glycosylation 23533 23545	glycosylated
+T146	GO_PATO_EXT_biological_localization_process_or_quality 23677 23689	localization
+T147	GO_PATO_EXT_physiological_process_or_quality 23832 23847	Physiologically
+T148	GO_EXT_biological_movement_or_translocation_process 24384 24395	translocate
+T149	GO_0010467 24401 24410	expressed
+T150	GO_PATO_EXT_biological_localization_process_or_quality 24486 24495	localizes
+T151	GO_0010467 24659 24668	expressed
+T152	GO_0010467 25157 25167	expressing
+T153	GO_EXT_reaction_or_response 25288 25296	response
+T154	GO_0009294 25434 25446	Transfection
+T155	GO_PATO_EXT_biological_localization_process_or_quality 25564 25576	localization
+T156	GO_EXT_biological_movement_or_translocation_process 25617 25628	translocate
+T157	GO_0006457 25662 25669	folding
+T158	GO_EXT_biological_movement_or_translocation_process 25707 25718	translocate
+T159	GO_EXT_reaction_or_response 25722 25730	response
+T160	GO_PATO_EXT_biological_localization_process_or_quality 26060 26072	localization
+T161	GO_0006266 26693 26700	ligated
+T162	GO_EXT_biological_direction_or_guidance 26808 26816	directed
+T163	GO_0006266 27258 27265	ligated
+T164	GO_0009294 27764 27775	transfected
+T165	GO_0010467 27831 27841	expression
+T166	GO_0009294 28107 28120	transfections
+T167	GO_0008152 28532 28541	Metabolic
+T168	GO_0010467 30589 30599	expressing
+T169	GO_0040007 30616 30621	grown
+T170	GO_0009294 30644 30655	transfected
+T171	GO_0009294 31579 31590	transfected
+T172	GO_0010467 31614 31624	expressing
+T173	GO_0009294 31704 31716	transfection
+T174	GO_EXT_trypsinization 31756 31767	trypsinized
+T175	GO_EXT_biological_movement_or_translocation_process 32111 32120	mobilized
+T176	GO_0010467 33411 33421	expressing
+T177	GO_0010467 33497 33507	expressing
+T178	GO_0040007 33530 33535	grown
+T179	GO_PATO_EXT_biological_localization_process_or_quality 35096 35108	localization
+T180	GO_EXT_breeding 35455 35463	breeding
+T181	GO_0001822 35913 35924	nephrogenic
+T182	GO_0007631 36450 36461	consumption
+T183	GO_PATO_EXT_aging_or_agedness 36513 36517	aged
+T184	GO_MOP_EXT_glycosylation 38262 38274	glycosylated
+T185	GO_PATO_EXT_biological_localization_process_or_quality 38386 38398	Localization
+T186	GO_EXT_biological_translocation_entity_or_process 38403 38416	Translocation
+T187	GO_EXT_killing 38690 38701	sacrificing
+T188	GO_PATO_EXT_biological_localization_process_or_quality 38935 38944	localized
+T189	GO_EXT_reaction_or_response 38987 38994	respond
+T190	GO_0009294 39034 39045	transfected
+T191	GO_PATO_EXT_biological_localization_process_or_quality 39463 39471	localize
+T192	GO_PATO_EXT_biological_localization_process_or_quality 39578 39590	localization
+T193	GO_0010467 39631 39641	expressing
+T194	GO_0040007 39657 39662	grown
+T195	GO_PATO_EXT_biological_localization_process_or_quality 39954 39963	localizes
+T196	GO_0009294 40107 40118	transfected
+T197	GO_PATO_EXT_biological_localization_process_or_quality 40165 40174	localizes
+T198	GO_EXT_reaction_or_response 40179 40187	responds
+T199	GO_0010467 40492 40502	expressing
+T200	GO_0009294 40535 40546	transfected
+T201	GO_PATO_EXT_biological_localization_process_or_quality 40845 40857	localization
+T202	GO_0010467 41005 41014	expressed
+T203	GO_0010467 41051 41061	expressing
+T204	GO_0010467 41317 41327	expressing
+T205	GO_0010467 41382 41391	expressed
+T206	GO_0010467 41406 41416	expressing

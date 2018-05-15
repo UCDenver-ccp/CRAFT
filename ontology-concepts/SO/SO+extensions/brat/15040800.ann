@@ -1,906 +1,453 @@
-T0	SO_EXT:sequence_alteration_entity_or_process 134 143	Mutations
-#0	AnnotationNotes T0	sequence alteration entity or process
-T1	SO_EXT:0000704 161 166	genes
-#1	AnnotationNotes T1	gene
-T2	SO_EXT:sequence_coding_function 241 249	encoding
-#2	AnnotationNotes T2	sequence coding function
-T3	SO_EXT:sequence_coding_function 273 281	encoding
-#3	AnnotationNotes T3	sequence coding function
-T4	OBI_SO_EXT:gene_or_genetic_investigation_or_genetic_process 449 457	genetics
-#4	AnnotationNotes T4	genetic investigation or process
-T5	SO_EXT:normal_or_wild_type_or_present 1565 1566	+
-#5	AnnotationNotes T5	sequence wild-typeness, normalness or presence
-T6	SO_EXT:sequence_nullness_or_absence 1567 1568	-
-#6	AnnotationNotes T6	sequence nullness or absence
-T7	SO_EXT:wild_type_entity_or_quality 1670 1679	wild-type
-#7	AnnotationNotes T7	wild-typeness or wild-type entity
-T8	SO_EXT:0000704 4375 4382	Genetic
-#8	AnnotationNotes T8	gene
-T9	GO_SO_EXT:chromosome 4467 4477	chromosome
-#9	AnnotationNotes T9	chromosome
-T10	SO_EXT:sequence_cloning_process 4541 4548	cloning
-#10	AnnotationNotes T10	sequence cloning process
-T11	SO_EXT:0000704 4580 4585	genes
-#11	AnnotationNotes T11	gene
-T12	SO_EXT:0000704 4661 4666	genes
-#12	AnnotationNotes T12	gene
-T13	SO_EXT:sequence_coding_function 4691 4697	encode
-#13	AnnotationNotes T13	sequence coding function
-T14	SO_EXT:sequence_alteration_entity_or_process 4738 4747	mutations
-#14	AnnotationNotes T14	sequence alteration entity or process
-T15	SO_EXT:sequence_alteration_entity_or_process 4811 4819	mutation
-#15	AnnotationNotes T15	sequence alteration entity or process
-T16	SO_EXT:sequence_alteration_entity_or_process 4987 4996	mutations
-#16	AnnotationNotes T16	sequence alteration entity or process
-T17	SO_EXT:0000704 5005 5010	genes
-#17	AnnotationNotes T17	gene
-T18	SO_EXT:0000417 5295 5302	domains
-#18	AnnotationNotes T18	polypeptide_domain
-T19	SO_EXT:0001077 5329 5342	transmembrane
-#19	AnnotationNotes T19	transmembrane_polypeptide_region
-T20	SO_EXT:transgenic_entity 5523 5533	transgenic
-#20	AnnotationNotes T20	transgenic entity
-T21	SO_EXT:sequence_alteration_entity_or_process 6474 6482	mutation
-#21	AnnotationNotes T21	sequence alteration entity or process
-T22	SO_EXT:0000704 6503 6507	gene
-#22	AnnotationNotes T22	gene
-T23	SO_EXT:0000704 6957 6964	genetic
-#23	AnnotationNotes T23	gene
-T24	SO_EXT:sequence_alteration_entity_or_process 6965 6973	mutation
-#24	AnnotationNotes T24	sequence alteration entity or process
-T25	SO_EXT:0001644 7309 7325	Targeting vector
-#25	AnnotationNotes T25	targeting_vector
-T26	SO_EXT:0001026 7380 7387	genomic
-#26	AnnotationNotes T26	genome
-T27	SO_EXT:0000153 7388 7419	bacterial artificial chromosome
-#27	AnnotationNotes T27	BAC
-T28	SO_EXT:0000153 7421 7424	BAC
-#28	AnnotationNotes T28	BAC
-T29	OBI_SO_EXT:gene_or_genetic_investigation_or_genetic_process 7473 7481	Genetics
-#29	AnnotationNotes T29	genetic investigation or process
-T30	SO_EXT:0000112 7532 7539	primers
-#30	AnnotationNotes T30	primer
-T31	SO_EXT:biological_sequence 7558 7567	sequences
-#31	AnnotationNotes T31	biological sequence
-T32	SO_EXT:cDNA 7593 7597	cDNA
-#32	AnnotationNotes T32	complementary DNA
-T33	SO_EXT:0000153 7638 7641	BAC
-#33	AnnotationNotes T33	BAC
-T34	SO_EXT:sequence_cloned_entity 7642 7647	clone
-#34	AnnotationNotes T34	sequence-cloned entity
-T35	SO_EXT:genomic_DNA 7682 7693	genomic DNA
-#35	AnnotationNotes T35	genomic DNA
-T36	CHEBI_SO_EXT:base 7888 7889	b
-#36	AnnotationNotes T36	base
-T37	SO_EXT:0001026 7901 7908	genomic
-#37	AnnotationNotes T37	genome
-T38	SO_EXT:0000147 7937 7941	exon
-#38	AnnotationNotes T38	exon
-T39	SO_EXT:0000147 7955 7959	exon
-#39	AnnotationNotes T39	exon
-T40	SO_EXT:sequence_insertion_process 7966 7974	inserted
-#40	AnnotationNotes T40	sequence insertion process
-T41	SO_EXT:sequence_cloning_process 8002 8009	cloning
-#41	AnnotationNotes T41	sequence cloning process
-T42	SO_EXT:0000440 8029 8035	vector
-#42	AnnotationNotes T42	vector_replicon
-T43	SO_EXT:0001026 8053 8060	genomic
-#43	AnnotationNotes T43	genome
-T44	SO_EXT:0000147 8090 8094	exon
-#44	AnnotationNotes T44	exon
-T45	SO_EXT:0000147 8108 8112	exon
-#45	AnnotationNotes T45	exon
-T46	SO_EXT:sequence_cloning_process 8120 8126	cloned
-#46	AnnotationNotes T46	sequence cloning process
-T47	SO_EXT:sequence_cloning_process 8151 8158	cloning
-#47	AnnotationNotes T47	sequence cloning process
-T48	SO_EXT:0000188 8213 8219	intron
-#48	AnnotationNotes T48	intron
-T49	SO_EXT:0000147 8231 8235	exon
-#49	AnnotationNotes T49	exon
-T50	SO_EXT:0000147 8250 8254	exon
-#50	AnnotationNotes T50	exon
-T51	SO_EXT:sequence_substitution_process 8257 8268	replacement
-#51	AnnotationNotes T51	sequence substitution process
-T52	SO_EXT:0005853 8296 8304	cassette
-#52	AnnotationNotes T52	gene_cassette
-T53	SO_EXT:sequence_or_structure_motif 8354 8359	motif
-#53	AnnotationNotes T53	sequence or structure motif
-T54	SO_EXT:sequence_linearization 8436 8446	linearized
-#54	AnnotationNotes T54	sequence linearization
-T55	SO_EXT:0001644 8447 8463	targeting vector
-#55	AnnotationNotes T55	targeting_vector
-T56	CHEBI_SO_EXT:DNA 8464 8467	DNA
-#56	AnnotationNotes T56	DNA
-T57	GO_SO_EXT:sequence_rearrangement_process 8699 8712	recombination
-#57	AnnotationNotes T57	sequence rearrangement process
-T58	SO_EXT:0000121 8729 8743	forward primer
-#58	AnnotationNotes T58	forward_primer
-T59	SO_EXT:0005853 8788 8796	cassette
-#59	AnnotationNotes T59	gene_cassette
-T60	SO_EXT:0000132 8802 8816	reverse primer
-#60	AnnotationNotes T60	reverse_primer
-T61	SO_EXT:0000188 8817 8823	intron
-#61	AnnotationNotes T61	intron
-T62	SO_EXT:engineered_biological_sequence 8896 8905	construct
-#62	AnnotationNotes T62	engineered biological sequence
-T63	SO_EXT:0000188 8921 8927	intron
-#63	AnnotationNotes T63	intron
-T64	SO_EXT:sequence_cloned_entity 8959 8965	clones
-#64	AnnotationNotes T64	sequence-cloned entity
-T65	CHEBI_SO_EXT:DNA 9017 9020	DNA
-#65	AnnotationNotes T65	DNA
-T66	CHEBI_SO_EXT:molecular_probe 9045 9050	probe
-#66	AnnotationNotes T66	molecular probe
-T67	SO_EXT:0000028 9071 9073	bp
-#67	AnnotationNotes T67	base_pair
-T68	SO_EXT:0000188 9100 9106	intron
-#68	AnnotationNotes T68	intron
-T69	SO_EXT:0000147 9113 9117	exon
-#69	AnnotationNotes T69	exon
-T70	SO_EXT:0000704 9129 9133	gene
-#70	AnnotationNotes T70	gene
-T71	SO_EXT:0000704 9436 9440	gene
-#71	AnnotationNotes T71	gene
-T72	CHEBI_SO_EXT:DNA 10163 10166	DNA
-#72	AnnotationNotes T72	DNA
-T73	CHEBI_SO_EXT:DNA 10676 10679	DNA
-#73	AnnotationNotes T73	DNA
-T74	SO_EXT:genomic_DNA 10845 10856	genomic DNA
-#74	AnnotationNotes T74	genomic DNA
-T75	SO_EXT:0000112 10930 10937	primers
-#75	AnnotationNotes T75	primer
-T76	SO_EXT:0000704 10949 10953	gene
-#76	AnnotationNotes T76	gene
-T77	SO_EXT:0000112 10963 10970	primers
-#77	AnnotationNotes T77	primer
-T78	SO_EXT:0000112 11223 11229	primer
-#78	AnnotationNotes T78	primer
-T79	SO_EXT:0000006 11376 11388	PCR products
-#79	AnnotationNotes T79	PCR_product
-T80	CHEBI_SO_EXT:DNA 11474 11478	DNAs
-#80	AnnotationNotes T80	DNA
-T81	SO_EXT:0000028 11641 11643	bp
-#81	AnnotationNotes T81	base_pair
-T82	SO_EXT:0000188 11670 11676	intron
-#82	AnnotationNotes T82	intron
-T83	SO_EXT:0000147 11683 11687	exon
-#83	AnnotationNotes T83	exon
-T84	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 11712 11719	labeled
-#84	AnnotationNotes T84	molecular label/mark/tag process
-T85	CHEBI_SO_EXT:molecular_probe 11720 11725	probe
-#85	AnnotationNotes T85	molecular probe
-T86	CHEBI_SO_EXT:RNA 11821 11824	RNA
-#86	AnnotationNotes T86	RNA
-T87	SO_EXT:normal_or_wild_type_or_present 11835 11836	+
-#87	AnnotationNotes T87	sequence wild-typeness, normalness or presence
-T88	SO_EXT:normal_or_wild_type_or_present 11837 11838	+
-#88	AnnotationNotes T88	sequence wild-typeness, normalness or presence
-T89	SO_EXT:normal_or_wild_type_or_present 11845 11846	+
-#89	AnnotationNotes T89	sequence wild-typeness, normalness or presence
-T90	SO_EXT:sequence_nullness_or_absence 11847 11848	-
-#90	AnnotationNotes T90	sequence nullness or absence
-T91	SO_EXT:sequence_nullness_or_absence 11858 11859	-
-#91	AnnotationNotes T91	sequence nullness or absence
-T92	SO_EXT:sequence_nullness_or_absence 11860 11861	-
-#92	AnnotationNotes T92	sequence nullness or absence
-T93	CHEBI_SO_EXT:molecular_probe 11943 11948	probe
-#93	AnnotationNotes T93	molecular probe
-T94	SO_EXT:0000028 11968 11970	bp
-#94	AnnotationNotes T94	base_pair
-T95	CHEBI_SO_EXT:nucleotide 11972 11974	nt
-#95	AnnotationNotes T95	nucleotide
-T96	CHEBI_SO_EXT:molecular_probe 12027 12032	probe
-#96	AnnotationNotes T96	molecular probe
-T97	SO_EXT:0000028 12052 12054	bp
-#97	AnnotationNotes T97	base_pair
-T98	SO_EXT:0001023 12204 12210	allele
-#98	AnnotationNotes T98	allele
-T99	SO_EXT:cDNA 12236 12241	cDNAs
-#99	AnnotationNotes T99	complementary DNA
-T100	CHEBI_SO_EXT:RNA 12291 12294	RNA
-#100	AnnotationNotes T100	RNA
-T101	CHEBI_SO_EXT:hexanucleotide 12467 12475	hexamers
-#101	AnnotationNotes T101	hexanucleotide
-T102	SO_EXT:0000112 12546 12553	primers
-#102	AnnotationNotes T102	primer
-T103	SO_EXT:0000028 12785 12787	bp
-#103	AnnotationNotes T103	base_pair
-T104	SO_EXT:wild_type_entity_or_quality 12804 12813	wild-type
-#104	AnnotationNotes T104	wild-typeness or wild-type entity
-T105	SO_EXT:cDNA 12814 12818	cDNA
-#105	AnnotationNotes T105	complementary DNA
-T106	SO_EXT:0000112 12842 12849	Primers
-#106	AnnotationNotes T106	primer
-T107	SO_EXT:0000112 12887 12893	primer
-#107	AnnotationNotes T107	primer
-T108	CHEBI_SO_EXT:mRNA 12968 12972	mRNA
-#108	AnnotationNotes T108	mRNA
-T109	SO_EXT:cDNA 12976 12980	cDNA
-#109	AnnotationNotes T109	complementary DNA
-T110	SO_EXT:genomic_DNA 13037 13048	genomic DNA
-#110	AnnotationNotes T110	genomic DNA
-T111	CHEBI_SO_EXT:RNA 13062 13065	RNA
-#111	AnnotationNotes T111	RNA
-T112	CHEBI_SO_EXT:RNA 13101 13104	RNA
-#112	AnnotationNotes T112	RNA
-T113	CHEBI_SO_EXT:hexanucleotide 13277 13285	hexamers
-#113	AnnotationNotes T113	hexanucleotide
-T114	SO_EXT:biological_sequence 13398 13406	sequence
-#114	AnnotationNotes T114	biological sequence
-T115	CHEBI_GO_SO_EXT:enzyme 13585 13591	enzyme
-#115	AnnotationNotes T115	enzyme
-T116	SO_EXT:cDNA 13641 13645	cDNA
-#116	AnnotationNotes T116	complementary DNA
-T117	CHEBI_SO_EXT:oligonucleotide 13718 13733	oligonucleotide
-#117	AnnotationNotes T117	oligonucleotide
-T118	SO_EXT:0000112 13734 13741	primers
-#118	AnnotationNotes T118	primer
-T119	SO_EXT:0000006 14145 14157	PCR products
-#119	AnnotationNotes T119	PCR_product
-T120	SO_EXT:0000673 14333 14340	message
-#120	AnnotationNotes T120	transcript
-T121	SO_EXT:0000704 14344 14349	genes
-#121	AnnotationNotes T121	gene
-T122	CHEBI_SO_EXT:RNA 14485 14488	RNA
-#122	AnnotationNotes T122	RNA
-T123	SO_EXT:0000704 14695 14699	gene
-#123	AnnotationNotes T123	gene
-T124	CHEBI_SO_EXT:mRNA 14952 14956	mRNA
-#124	AnnotationNotes T124	mRNA
-T125	SO_EXT:wild_type_entity_or_quality 14986 14995	wild type
-#125	AnnotationNotes T125	wild-typeness or wild-type entity
-T126	SO_EXT:wild_type_entity_or_quality 15105 15114	wild type
-#126	AnnotationNotes T126	wild-typeness or wild-type entity
-T127	SO_EXT:normal_or_wild_type_or_present 15252 15253	+
-#127	AnnotationNotes T127	sequence wild-typeness, normalness or presence
-T128	SO_EXT:normal_or_wild_type_or_present 15254 15255	+
-#128	AnnotationNotes T128	sequence wild-typeness, normalness or presence
-T129	SO_EXT:normal_or_wild_type_or_present 15262 15263	+
-#129	AnnotationNotes T129	sequence wild-typeness, normalness or presence
-T130	SO_EXT:sequence_nullness_or_absence 15264 15265	-
-#130	AnnotationNotes T130	sequence nullness or absence
-T131	SO_EXT:sequence_nullness_or_absence 15275 15276	-
-#131	AnnotationNotes T131	sequence nullness or absence
-T132	SO_EXT:sequence_nullness_or_absence 15277 15278	-
-#132	AnnotationNotes T132	sequence nullness or absence
-T133	SO_EXT:genotype_or_entity_with_genotype 15497 15505	genotype
-#133	AnnotationNotes T133	genotype or entity with genotype
-T134	SO_EXT:normal_or_wild_type_or_present 15945 15946	+
-#134	AnnotationNotes T134	sequence wild-typeness, normalness or presence
-T135	SO_EXT:normal_or_wild_type_or_present 15947 15948	+
-#135	AnnotationNotes T135	sequence wild-typeness, normalness or presence
-T136	SO_EXT:normal_or_wild_type_or_present 15955 15956	+
-#136	AnnotationNotes T136	sequence wild-typeness, normalness or presence
-T137	SO_EXT:sequence_nullness_or_absence 15957 15958	-
-#137	AnnotationNotes T137	sequence nullness or absence
-T138	SO_EXT:sequence_nullness_or_absence 15968 15969	-
-#138	AnnotationNotes T138	sequence nullness or absence
-T139	SO_EXT:sequence_nullness_or_absence 15970 15971	-
-#139	AnnotationNotes T139	sequence nullness or absence
-T140	CHEBI_SO_EXT:glycine 19752 19759	glycine
-#140	AnnotationNotes T140	glycine
-T141	SO_EXT:engineered_biological_sequence 21170 21180	constructs
-#141	AnnotationNotes T141	engineered biological sequence
-T142	CHEBI_SO_EXT:glutamine 21479 21488	glutamine
-#142	AnnotationNotes T142	glutamine
-T143	CHEBI_SO_EXT:DNA 21526 21529	DNA
-#143	AnnotationNotes T143	DNA
-T144	CHEBI_GO_SO_EXT:enzyme 23619 23625	enzyme
-#144	AnnotationNotes T144	enzyme
-T145	SO_EXT:engineered_biological_sequence 26228 26237	construct
-#145	AnnotationNotes T145	engineered biological sequence
-T146	SO_EXT:coding_sequence 26330 26346	coding sequences
-#146	AnnotationNotes T146	coding sequence
-T147	SO_EXT:0000147 26357 26362	exons
-#147	AnnotationNotes T147	exon
-T148	SO_EXT:sequence_linearization 26411 26421	linearized
-#148	AnnotationNotes T148	sequence linearization
-T149	SO_EXT:0000155 26431 26438	plasmid
-#149	AnnotationNotes T149	plasmid
-T150	CHEBI_SO_EXT:DNA 26439 26442	DNA
-#150	AnnotationNotes T150	DNA
-T151	GO_SO_EXT:sequence_rearrangement_process 26459 26470	recombinant
-#151	AnnotationNotes T151	sequence rearrangement process
-T152	SO_EXT:sequence_cloned_entity 26474 26480	clones
-#152	AnnotationNotes T152	sequence-cloned entity
-T153	SO_EXT:sequence_cloned_entity 26495 26501	clones
-#153	AnnotationNotes T153	sequence-cloned entity
-T154	SO_EXT:sequence_cloned_entity 26672 26677	clone
-#154	AnnotationNotes T154	sequence-cloned entity
-T155	SO_EXT:wild_type_entity_or_quality 26918 26927	wild-type
-#155	AnnotationNotes T155	wild-typeness or wild-type entity
-T156	CHEBI_SO_EXT:mRNA 27130 27134	mRNA
-#156	AnnotationNotes T156	mRNA
-T157	SO_EXT:sequence_truncation_process 27293 27302	truncated
-#157	AnnotationNotes T157	sequence truncation process
-T158	SO_EXT:cDNA 27404 27408	cDNA
-#158	AnnotationNotes T158	complementary DNA
-T159	CHEBI_SO_EXT:RNA 27446 27449	RNA
-#159	AnnotationNotes T159	RNA
-T160	CHEBI_SO_EXT:mRNA 27480 27484	mRNA
-#160	AnnotationNotes T160	mRNA
-T161	SO_EXT:biological_sequence 27534 27543	sequences
-#161	AnnotationNotes T161	biological sequence
-T162	SO_EXT:sequence_downstreamness 27544 27554	downstream
-#162	AnnotationNotes T162	sequence downstreamness
-T163	SO_EXT:0000147 27558 27562	exon
-#163	AnnotationNotes T163	exon
-T164	SO_EXT:0000112 27602 27609	primers
-#164	AnnotationNotes T164	primer
-T165	SO_EXT:0000147 27626 27631	exons
-#165	AnnotationNotes T165	exon
-T166	SO_EXT:0000147 27642 27647	exons
-#166	AnnotationNotes T166	exon
-T167	SO_EXT:0000147 27660 27665	exons
-#167	AnnotationNotes T167	exon
-T168	SO_EXT:1001187 27721 27750	alternatively spliced message
-#168	AnnotationNotes T168	alternatively_spliced_transcript
-T169	SO_EXT:sequence_coding_function 27769 27773	code
-#169	AnnotationNotes T169	sequence coding function
-T170	SO_EXT:sequence_truncation_process 27780 27789	truncated
-#170	AnnotationNotes T170	sequence truncation process
-T171	SO_EXT:0000417 27871 27878	domains
-#171	AnnotationNotes T171	polypeptide_domain
-T172	SO_EXT:sequence_coding_function 27903 27910	encoded
-#172	AnnotationNotes T172	sequence coding function
-T173	SO_EXT:0000147 27914 27919	exons
-#173	AnnotationNotes T173	exon
-T174	SO_EXT:sequence_nullness_or_absence 28158 28159	-
-#174	AnnotationNotes T174	sequence nullness or absence
-T175	SO_EXT:sequence_nullness_or_absence 28160 28161	-
-#175	AnnotationNotes T175	sequence nullness or absence
-T176	SO_EXT:wild_type_entity_or_quality 28241 28251	wild types
-#176	AnnotationNotes T176	wild-typeness or wild-type entity
-T177	SO_EXT:wild_type_entity_or_quality 28414 28423	wild-type
-#177	AnnotationNotes T177	wild-typeness or wild-type entity
-T178	SO_EXT:wild_type_entity_or_quality 28500 28509	wild-type
-#178	AnnotationNotes T178	wild-typeness or wild-type entity
-T179	SO_EXT:sequence_nullness_or_absence 28573 28574	-
-#179	AnnotationNotes T179	sequence nullness or absence
-T180	SO_EXT:sequence_nullness_or_absence 28575 28576	-
-#180	AnnotationNotes T180	sequence nullness or absence
-T181	SO_EXT:sequence_nullness_or_absence 28663 28664	-
-#181	AnnotationNotes T181	sequence nullness or absence
-T182	SO_EXT:sequence_nullness_or_absence 28665 28666	-
-#182	AnnotationNotes T182	sequence nullness or absence
-T183	SO_EXT:wild_type_entity_or_quality 28684 28693	wild-type
-#183	AnnotationNotes T183	wild-typeness or wild-type entity
-T184	SO_EXT:wild_type_entity_or_quality 28888 28897	wild-type
-#184	AnnotationNotes T184	wild-typeness or wild-type entity
-T185	SO_EXT:sequence_nullness_or_absence 28942 28943	-
-#185	AnnotationNotes T185	sequence nullness or absence
-T186	SO_EXT:sequence_nullness_or_absence 28944 28945	-
-#186	AnnotationNotes T186	sequence nullness or absence
-T187	SO_EXT:wild_type_entity_or_quality 28983 28992	wild-type
-#187	AnnotationNotes T187	wild-typeness or wild-type entity
-T188	SO_EXT:sequence_nullness_or_absence 29288 29289	-
-#188	AnnotationNotes T188	sequence nullness or absence
-T189	SO_EXT:sequence_nullness_or_absence 29290 29291	-
-#189	AnnotationNotes T189	sequence nullness or absence
-T190	SO_EXT:wild_type_entity_or_quality 29318 29327	wild-type
-#190	AnnotationNotes T190	wild-typeness or wild-type entity
-T191	SO_EXT:normal_or_wild_type_or_present 29506 29507	+
-#191	AnnotationNotes T191	sequence wild-typeness, normalness or presence
-T192	SO_EXT:normal_or_wild_type_or_present 29508 29509	+
-#192	AnnotationNotes T192	sequence wild-typeness, normalness or presence
-T193	SO_EXT:normal_or_wild_type_or_present 29519 29520	+
-#193	AnnotationNotes T193	sequence wild-typeness, normalness or presence
-T194	SO_EXT:sequence_nullness_or_absence 29521 29522	-
-#194	AnnotationNotes T194	sequence nullness or absence
-T195	SO_EXT:normal_or_wild_type_or_present 30023 30024	+
-#195	AnnotationNotes T195	sequence wild-typeness, normalness or presence
-T196	SO_EXT:normal_or_wild_type_or_present 30025 30026	+
-#196	AnnotationNotes T196	sequence wild-typeness, normalness or presence
-T197	SO_EXT:normal_or_wild_type_or_present 30028 30029	+
-#197	AnnotationNotes T197	sequence wild-typeness, normalness or presence
-T198	SO_EXT:sequence_nullness_or_absence 30030 30031	-
-#198	AnnotationNotes T198	sequence nullness or absence
-T199	SO_EXT:sequence_nullness_or_absence 30036 30037	-
-#199	AnnotationNotes T199	sequence nullness or absence
-T200	SO_EXT:sequence_nullness_or_absence 30038 30039	-
-#200	AnnotationNotes T200	sequence nullness or absence
-T201	CHEBI_GO_SO_EXT:enzyme 30356 30369	enzymatically
-#201	AnnotationNotes T201	enzyme
-T202	SO_EXT:sequence_nullness_or_absence 30606 30607	-
-#202	AnnotationNotes T202	sequence nullness or absence
-T203	SO_EXT:sequence_nullness_or_absence 30608 30609	-
-#203	AnnotationNotes T203	sequence nullness or absence
-T204	SO_EXT:wild_type_entity_or_quality 30715 30724	wild-type
-#204	AnnotationNotes T204	wild-typeness or wild-type entity
-T205	SO_EXT:sequence_nullness_or_absence 30928 30929	-
-#205	AnnotationNotes T205	sequence nullness or absence
-T206	SO_EXT:sequence_nullness_or_absence 30930 30931	-
-#206	AnnotationNotes T206	sequence nullness or absence
-T207	SO_EXT:wild_type_entity_or_quality 30991 31000	wild type
-#207	AnnotationNotes T207	wild-typeness or wild-type entity
-T208	SO_EXT:genotype_or_entity_with_genotype 31066 31075	genotypes
-#208	AnnotationNotes T208	genotype or entity with genotype
-T209	SO_EXT:0000704 31299 31303	gene
-#209	AnnotationNotes T209	gene
-T210	CHEBI_GO_SO_EXT:enzyme 31319 31325	enzyme
-#210	AnnotationNotes T210	enzyme
-T211	SO_EXT:0000704 31448 31453	genes
-#211	AnnotationNotes T211	gene
-T212	CHEBI_SO_EXT:mRNA 31625 31629	mRNA
-#212	AnnotationNotes T212	mRNA
-T213	CHEBI_SO_EXT:mRNA 31708 31712	mRNA
-#213	AnnotationNotes T213	mRNA
-T214	SO_EXT:sequence_nullness_or_absence 31761 31762	-
-#214	AnnotationNotes T214	sequence nullness or absence
-T215	SO_EXT:sequence_nullness_or_absence 31763 31764	-
-#215	AnnotationNotes T215	sequence nullness or absence
-T216	SO_EXT:wild_type_entity_or_quality 31833 31842	wild-type
-#216	AnnotationNotes T216	wild-typeness or wild-type entity
-T217	CHEBI_SO_EXT:mRNA 31892 31896	mRNA
-#217	AnnotationNotes T217	mRNA
-T218	SO_EXT:wild_type_entity_or_quality 31989 31998	wild-type
-#218	AnnotationNotes T218	wild-typeness or wild-type entity
-T219	CHEBI_SO_EXT:mRNA 32094 32098	mRNA
-#219	AnnotationNotes T219	mRNA
-T220	CHEBI_SO_EXT:mRNA 32284 32288	mRNA
-#220	AnnotationNotes T220	mRNA
-T221	CHEBI_GO_SO_EXT:enzyme 32327 32333	enzyme
-#221	AnnotationNotes T221	enzyme
-T222	SO_EXT:normal_or_wild_type_or_present 32510 32511	+
-#222	AnnotationNotes T222	sequence wild-typeness, normalness or presence
-T223	SO_EXT:sequence_nullness_or_absence 32512 32513	-
-#223	AnnotationNotes T223	sequence nullness or absence
-T224	SO_EXT:sequence_nullness_or_absence 32523 32524	-
-#224	AnnotationNotes T224	sequence nullness or absence
-T225	SO_EXT:sequence_nullness_or_absence 32525 32526	-
-#225	AnnotationNotes T225	sequence nullness or absence
-T226	CHEBI_SO_EXT:mRNA 32593 32597	mRNA
-#226	AnnotationNotes T226	mRNA
-T227	CHEBI_SO_EXT:mRNA 32643 32647	mRNA
-#227	AnnotationNotes T227	mRNA
-T228	CHEBI_SO_EXT:mRNA 32814 32818	mRNA
-#228	AnnotationNotes T228	mRNA
-T229	SO_EXT:sequence_nullness_or_absence 33089 33090	-
-#229	AnnotationNotes T229	sequence nullness or absence
-T230	SO_EXT:sequence_nullness_or_absence 33091 33092	-
-#230	AnnotationNotes T230	sequence nullness or absence
-T231	SO_EXT:0000704 33220 33227	genetic
-#231	AnnotationNotes T231	gene
-T232	SO_EXT:sequence_nullness_or_absence 33601 33602	-
-#232	AnnotationNotes T232	sequence nullness or absence
-T233	SO_EXT:sequence_nullness_or_absence 33603 33604	-
-#233	AnnotationNotes T233	sequence nullness or absence
-T234	CHEBI_SO_EXT:peptide_or_peptide_region 33965 33972	peptide
-#234	AnnotationNotes T234	peptide or peptide region
-T235	SO_EXT:wild_type_entity_or_quality 34085 34094	wild-type
-#235	AnnotationNotes T235	wild-typeness or wild-type entity
-T236	SO_EXT:wild_type_entity_or_quality 34306 34315	wild-type
-#236	AnnotationNotes T236	wild-typeness or wild-type entity
-T237	SO_EXT:wild_type_entity_or_quality 34569 34578	wild-type
-#237	AnnotationNotes T237	wild-typeness or wild-type entity
-T238	SO_EXT:cDNA 35042 35047	cDNAs
-#238	AnnotationNotes T238	complementary DNA
-T239	CHEBI_SO_EXT:peptide_or_peptide_region 35912 35919	peptide
-#239	AnnotationNotes T239	peptide or peptide region
-T240	SO_EXT:wild_type_entity_or_quality 36140 36149	wild-type
-#240	AnnotationNotes T240	wild-typeness or wild-type entity
-T241	SO_EXT:wild_type_entity_or_quality 36411 36420	wild-type
-#241	AnnotationNotes T241	wild-typeness or wild-type entity
-T242	SO_EXT:wild_type_entity_or_quality 36740 36749	wild-type
-#242	AnnotationNotes T242	wild-typeness or wild-type entity
-T243	SO_EXT:wild_type_entity_or_quality 36831 36840	wild-type
-#243	AnnotationNotes T243	wild-typeness or wild-type entity
-T244	SO_EXT:sequence_nullness_or_absence 37264 37265	-
-#244	AnnotationNotes T244	sequence nullness or absence
-T245	SO_EXT:sequence_nullness_or_absence 37266 37267	-
-#245	AnnotationNotes T245	sequence nullness or absence
-T246	SO_EXT:wild_type_entity_or_quality 37301 37310	wild-type
-#246	AnnotationNotes T246	wild-typeness or wild-type entity
-T247	SO_EXT:genotype_or_entity_with_genotype 37899 37908	genotypes
-#247	AnnotationNotes T247	genotype or entity with genotype
-T248	SO_EXT:wild_type_entity_or_quality 38093 38102	wild-type
-#248	AnnotationNotes T248	wild-typeness or wild-type entity
-T249	CHEBI_GO_SO_EXT:enzyme 38344 38357	enzymatically
-#249	AnnotationNotes T249	enzyme
-T250	SO_EXT:wild_type_entity_or_quality 38687 38696	wild type
-#250	AnnotationNotes T250	wild-typeness or wild-type entity
-T251	SO_EXT:sequence_nullness_or_absence 38949 38950	-
-#251	AnnotationNotes T251	sequence nullness or absence
-T252	SO_EXT:sequence_nullness_or_absence 38951 38952	-
-#252	AnnotationNotes T252	sequence nullness or absence
-T253	SO_EXT:wild_type_entity_or_quality 39475 39484	wild-type
-#253	AnnotationNotes T253	wild-typeness or wild-type entity
-T254	SO_EXT:normal_or_wild_type_or_present 39525 39526	+
-#254	AnnotationNotes T254	sequence wild-typeness, normalness or presence
-T255	SO_EXT:sequence_nullness_or_absence 39527 39528	-
-#255	AnnotationNotes T255	sequence nullness or absence
-T256	SO_EXT:wild_type_entity_or_quality 39622 39631	wild-type
-#256	AnnotationNotes T256	wild-typeness or wild-type entity
-T257	SO_EXT:0000704 39941 39948	genetic
-#257	AnnotationNotes T257	gene
-T258	SO_EXT:0000704 40180 40185	genes
-#258	AnnotationNotes T258	gene
-T259	SO_EXT:0000704 40384 40389	genes
-#259	AnnotationNotes T259	gene
-T260	CHEBI_SO_EXT:mRNA 40991 40995	mRNA
-#260	AnnotationNotes T260	mRNA
-T261	CHEBI_GO_SO_EXT:enzyme 41000 41006	enzyme
-#261	AnnotationNotes T261	enzyme
-T262	CHEBI_GO_SO_EXT:enzyme 41134 41140	enzyme
-#262	AnnotationNotes T262	enzyme
-T263	CHEBI_SO_EXT:mRNA 41213 41217	mRNA
-#263	AnnotationNotes T263	mRNA
-T264	CHEBI_GO_SO_EXT:enzyme 41337 41343	enzyme
-#264	AnnotationNotes T264	enzyme
-T265	SO_EXT:wild_type_entity_or_quality 41440 41449	wild-type
-#265	AnnotationNotes T265	wild-typeness or wild-type entity
-T266	SO_EXT:sequence_nullness_or_absence 41510 41511	-
-#266	AnnotationNotes T266	sequence nullness or absence
-T267	SO_EXT:sequence_nullness_or_absence 41512 41513	-
-#267	AnnotationNotes T267	sequence nullness or absence
-T268	SO_EXT:sequence_nullness_or_absence 42155 42156	-
-#268	AnnotationNotes T268	sequence nullness or absence
-T269	SO_EXT:sequence_nullness_or_absence 42157 42158	-
-#269	AnnotationNotes T269	sequence nullness or absence
-T270	SO_EXT:wild_type_entity_or_quality 42227 42236	wild-type
-#270	AnnotationNotes T270	wild-typeness or wild-type entity
-T271	SO_EXT:sequence_nullness_or_absence 42396 42397	-
-#271	AnnotationNotes T271	sequence nullness or absence
-T272	SO_EXT:sequence_nullness_or_absence 42398 42399	-
-#272	AnnotationNotes T272	sequence nullness or absence
-T273	SO_EXT:sequence_nullness_or_absence 42655 42656	-
-#273	AnnotationNotes T273	sequence nullness or absence
-T274	SO_EXT:sequence_nullness_or_absence 42657 42658	-
-#274	AnnotationNotes T274	sequence nullness or absence
-T275	SO_EXT:sequence_nullness_or_absence 42807 42808	-
-#275	AnnotationNotes T275	sequence nullness or absence
-T276	SO_EXT:sequence_nullness_or_absence 42809 42810	-
-#276	AnnotationNotes T276	sequence nullness or absence
-T277	SO_EXT:wild_type_entity_or_quality 42842 42851	wild-type
-#277	AnnotationNotes T277	wild-typeness or wild-type entity
-T278	SO_EXT:wild_type_entity_or_quality 43091 43100	wild-type
-#278	AnnotationNotes T278	wild-typeness or wild-type entity
-T279	SO_EXT:sequence_nullness_or_absence 43195 43196	-
-#279	AnnotationNotes T279	sequence nullness or absence
-T280	SO_EXT:sequence_nullness_or_absence 43197 43198	-
-#280	AnnotationNotes T280	sequence nullness or absence
-T281	SO_EXT:wild_type_entity_or_quality 43216 43225	wild-type
-#281	AnnotationNotes T281	wild-typeness or wild-type entity
-T282	CHEBI_SO_EXT:mRNA 43236 43240	mRNA
-#282	AnnotationNotes T282	mRNA
-T283	CHEBI_GO_SO_EXT:enzyme 43273 43279	enzyme
-#283	AnnotationNotes T283	enzyme
-T284	CHEBI_SO_EXT:mRNA 43340 43344	mRNA
-#284	AnnotationNotes T284	mRNA
-T285	CHEBI_GO_SO_EXT:enzyme 43608 43614	enzyme
-#285	AnnotationNotes T285	enzyme
-T286	CHEBI_GO_SO_EXT:enzyme 43731 43737	enzyme
-#286	AnnotationNotes T286	enzyme
-T287	CHEBI_SO_EXT:mRNA 43754 43758	mRNA
-#287	AnnotationNotes T287	mRNA
-T288	CHEBI_GO_SO_EXT:enzyme 43864 43870	enzyme
-#288	AnnotationNotes T288	enzyme
-T289	CHEBI_SO_EXT:mRNA 43875 43879	mRNA
-#289	AnnotationNotes T289	mRNA
-T290	SO_EXT:wild_type_entity_or_quality 44452 44461	wild-type
-#290	AnnotationNotes T290	wild-typeness or wild-type entity
-T291	SO_EXT:wild_type_entity_or_quality 44665 44674	wild-type
-#291	AnnotationNotes T291	wild-typeness or wild-type entity
-T292	SO_EXT:0000704 45032 45039	genetic
-#292	AnnotationNotes T292	gene
-T293	SO_EXT:normal_or_wild_type_or_present 45475 45476	+
-#293	AnnotationNotes T293	sequence wild-typeness, normalness or presence
-T294	SO_EXT:sequence_nullness_or_absence 45477 45478	-
-#294	AnnotationNotes T294	sequence nullness or absence
-T295	SO_EXT:wild_type_entity_or_quality 45543 45552	wild-type
-#295	AnnotationNotes T295	wild-typeness or wild-type entity
-T296	SO_EXT:wild_type_entity_or_quality 45631 45640	wild-type
-#296	AnnotationNotes T296	wild-typeness or wild-type entity
-T297	CHEBI_SO_EXT:mRNA 46224 46228	mRNA
-#297	AnnotationNotes T297	mRNA
-T298	CHEBI_SO_EXT:mRNA 46440 46444	mRNA
-#298	AnnotationNotes T298	mRNA
-T299	SO_EXT:0000704 46898 46905	genetic
-#299	AnnotationNotes T299	gene
-T300	SO_EXT:sequence_nullness_or_absence 47989 47990	-
-#300	AnnotationNotes T300	sequence nullness or absence
-T301	SO_EXT:sequence_nullness_or_absence 47991 47992	-
-#301	AnnotationNotes T301	sequence nullness or absence
-T302	SO_EXT:sequence_nullness_or_absence 48098 48099	-
-#302	AnnotationNotes T302	sequence nullness or absence
-T303	SO_EXT:sequence_nullness_or_absence 48100 48101	-
-#303	AnnotationNotes T303	sequence nullness or absence
-T304	SO_EXT:sequence_nullness_or_absence 49336 49337	-
-#304	AnnotationNotes T304	sequence nullness or absence
-T305	SO_EXT:sequence_nullness_or_absence 49338 49339	-
-#305	AnnotationNotes T305	sequence nullness or absence
-T306	SO_EXT:wild_type_entity_or_quality 49512 49521	wild-type
-#306	AnnotationNotes T306	wild-typeness or wild-type entity
-T307	CHEBI_SO_EXT:mRNA 49573 49577	mRNA
-#307	AnnotationNotes T307	mRNA
-T308	SO_EXT:wild_type_entity_or_quality 49641 49650	wild-type
-#308	AnnotationNotes T308	wild-typeness or wild-type entity
-T309	SO_EXT:0000704 50309 50314	genes
-#309	AnnotationNotes T309	gene
-T310	OBI_SO_EXT:gene_or_genetic_investigation_or_genetic_process 50981 50989	genetics
-#310	AnnotationNotes T310	genetic investigation or process
-T311	SO_EXT:0000704 51087 51094	genetic
-#311	AnnotationNotes T311	gene
-T312	SO_EXT:engineered_biological_sequence 51126 51135	construct
-#312	AnnotationNotes T312	engineered biological sequence
-T313	SO_EXT:genomic_DNA 52548 52559	genomic DNA
-#313	AnnotationNotes T313	genomic DNA
-T314	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 52588 52596	labelled
-#314	AnnotationNotes T314	molecular label/mark/tag process
-T315	CHEBI_SO_EXT:molecular_probe 52597 52602	probe
-#315	AnnotationNotes T315	molecular probe
-T316	CHEBI_SO_EXT:base 52623 52624	b
-#316	AnnotationNotes T316	base
-T317	SO_EXT:wild_type_entity_or_quality 52634 52643	wild type
-#317	AnnotationNotes T317	wild-typeness or wild-type entity
-T318	CHEBI_SO_EXT:base 52652 52653	b
-#318	AnnotationNotes T318	base
-T319	CHEBI_SO_EXT:base 52704 52705	b
-#319	AnnotationNotes T319	base
-T320	CHEBI_SO_EXT:RNA 52772 52775	RNA
-#320	AnnotationNotes T320	RNA
-T321	CHEBI_SO_EXT:mRNA 52810 52814	mRNA
-#321	AnnotationNotes T321	mRNA
-T322	CHEBI_SO_EXT:mRNA 52864 52868	mRNA
-#322	AnnotationNotes T322	mRNA
-T323	CHEBI_SO_EXT:mRNA 52916 52920	mRNA
-#323	AnnotationNotes T323	mRNA
-T324	CHEBI_SO_EXT:molecular_probe 52984 52990	Probes
-#324	AnnotationNotes T324	molecular probe
-T325	CHEBI_SO_EXT:base 53015 53016	b
-#325	AnnotationNotes T325	base
-T326	CHEBI_SO_EXT:base 53034 53035	b
-#326	AnnotationNotes T326	base
-T327	SO_EXT:cDNA 53104 53108	cDNA
-#327	AnnotationNotes T327	complementary DNA
-T328	SO_EXT:0000673 53136 53143	message
-#328	AnnotationNotes T328	transcript
-T329	SO_EXT:sequence_downstreamness 53145 53155	downstream
-#329	AnnotationNotes T329	sequence downstreamness
-T330	SO_EXT:0000147 53159 53163	exon
-#330	AnnotationNotes T330	exon
-T331	SO_EXT:sequence_nullness_or_absence 53178 53179	-
-#331	AnnotationNotes T331	sequence nullness or absence
-T332	SO_EXT:sequence_nullness_or_absence 53180 53181	-
-#332	AnnotationNotes T332	sequence nullness or absence
-T333	SO_EXT:0000112 53196 53203	primers
-#333	AnnotationNotes T333	primer
-T334	SO_EXT:0000147 53220 53225	exons
-#334	AnnotationNotes T334	exon
-T335	SO_EXT:0000147 53246 53251	exons
-#335	AnnotationNotes T335	exon
-T336	SO_EXT:0000147 53264 53269	exons
-#336	AnnotationNotes T336	exon
-T337	SO_EXT:normal_or_wild_type_or_present 53361 53362	+
-#337	AnnotationNotes T337	sequence wild-typeness, normalness or presence
-T338	SO_EXT:normal_or_wild_type_or_present 53363 53364	+
-#338	AnnotationNotes T338	sequence wild-typeness, normalness or presence
-T339	SO_EXT:normal_or_wild_type_or_present 53371 53372	+
-#339	AnnotationNotes T339	sequence wild-typeness, normalness or presence
-T340	SO_EXT:sequence_nullness_or_absence 53373 53374	-
-#340	AnnotationNotes T340	sequence nullness or absence
-T341	SO_EXT:sequence_nullness_or_absence 53384 53385	-
-#341	AnnotationNotes T341	sequence nullness or absence
-T342	SO_EXT:sequence_nullness_or_absence 53386 53387	-
-#342	AnnotationNotes T342	sequence nullness or absence
-T343	SO_EXT:genotype_or_entity_with_genotype 53547 53556	genotypes
-#343	AnnotationNotes T343	genotype or entity with genotype
-T344	SO_EXT:genotype_or_entity_with_genotype 53645 53653	genotype
-#344	AnnotationNotes T344	genotype or entity with genotype
-T345	SO_EXT:normal_or_wild_type_or_present 53713 53714	+
-#345	AnnotationNotes T345	sequence wild-typeness, normalness or presence
-T346	SO_EXT:normal_or_wild_type_or_present 53715 53716	+
-#346	AnnotationNotes T346	sequence wild-typeness, normalness or presence
-T347	SO_EXT:normal_or_wild_type_or_present 53726 53727	+
-#347	AnnotationNotes T347	sequence wild-typeness, normalness or presence
-T348	SO_EXT:sequence_nullness_or_absence 53728 53729	-
-#348	AnnotationNotes T348	sequence nullness or absence
-T349	SO_EXT:sequence_nullness_or_absence 53761 53762	-
-#349	AnnotationNotes T349	sequence nullness or absence
-T350	SO_EXT:sequence_nullness_or_absence 53763 53764	-
-#350	AnnotationNotes T350	sequence nullness or absence
-T351	SO_EXT:genotype_or_entity_with_genotype 53863 53872	genotypes
-#351	AnnotationNotes T351	genotype or entity with genotype
-T352	SO_EXT:normal_or_wild_type_or_present 53932 53933	+
-#352	AnnotationNotes T352	sequence wild-typeness, normalness or presence
-T353	SO_EXT:normal_or_wild_type_or_present 53934 53935	+
-#353	AnnotationNotes T353	sequence wild-typeness, normalness or presence
-T354	SO_EXT:normal_or_wild_type_or_present 53942 53943	+
-#354	AnnotationNotes T354	sequence wild-typeness, normalness or presence
-T355	SO_EXT:sequence_nullness_or_absence 53944 53945	-
-#355	AnnotationNotes T355	sequence nullness or absence
-T356	SO_EXT:sequence_nullness_or_absence 53955 53956	-
-#356	AnnotationNotes T356	sequence nullness or absence
-T357	SO_EXT:sequence_nullness_or_absence 53957 53958	-
-#357	AnnotationNotes T357	sequence nullness or absence
-T358	SO_EXT:sequence_nullness_or_absence 54234 54235	-
-#358	AnnotationNotes T358	sequence nullness or absence
-T359	SO_EXT:sequence_nullness_or_absence 54236 54237	-
-#359	AnnotationNotes T359	sequence nullness or absence
-T360	CHEBI_SO_EXT:mRNA 54374 54378	mRNA
-#360	AnnotationNotes T360	mRNA
-T361	CHEBI_GO_SO_EXT:enzyme 54394 54400	enzyme
-#361	AnnotationNotes T361	enzyme
-T362	CHEBI_SO_EXT:mRNA 54466 54470	mRNA
-#362	AnnotationNotes T362	mRNA
-T363	SO_EXT:normal_or_wild_type_or_present 54575 54576	+
-#363	AnnotationNotes T363	sequence wild-typeness, normalness or presence
-T364	SO_EXT:normal_or_wild_type_or_present 54577 54578	+
-#364	AnnotationNotes T364	sequence wild-typeness, normalness or presence
-T365	SO_EXT:normal_or_wild_type_or_present 54597 54598	+
-#365	AnnotationNotes T365	sequence wild-typeness, normalness or presence
-T366	SO_EXT:sequence_nullness_or_absence 54599 54600	-
-#366	AnnotationNotes T366	sequence nullness or absence
-T367	SO_EXT:sequence_nullness_or_absence 54625 54626	-
-#367	AnnotationNotes T367	sequence nullness or absence
-T368	SO_EXT:sequence_nullness_or_absence 54627 54628	-
-#368	AnnotationNotes T368	sequence nullness or absence
-T369	CHEBI_SO_EXT:mRNA 54686 54690	mRNA
-#369	AnnotationNotes T369	mRNA
-T370	SO_EXT:0000673 54740 54747	message
-#370	AnnotationNotes T370	transcript
-T371	SO_EXT:0000673 54785 54792	message
-#371	AnnotationNotes T371	transcript
-T372	CHEBI_GO_SO_EXT:enzyme 54869 54875	enzyme
-#372	AnnotationNotes T372	enzyme
-T373	SO_EXT:normal_or_wild_type_or_present 54940 54941	+
-#373	AnnotationNotes T373	sequence wild-typeness, normalness or presence
-T374	SO_EXT:normal_or_wild_type_or_present 54942 54943	+
-#374	AnnotationNotes T374	sequence wild-typeness, normalness or presence
-T375	SO_EXT:normal_or_wild_type_or_present 54950 54951	+
-#375	AnnotationNotes T375	sequence wild-typeness, normalness or presence
-T376	SO_EXT:sequence_nullness_or_absence 54952 54953	-
-#376	AnnotationNotes T376	sequence nullness or absence
-T377	SO_EXT:sequence_nullness_or_absence 54963 54964	-
-#377	AnnotationNotes T377	sequence nullness or absence
-T378	SO_EXT:sequence_nullness_or_absence 54965 54966	-
-#378	AnnotationNotes T378	sequence nullness or absence
-T379	SO_EXT:sequence_nullness_or_absence 55055 55056	-
-#379	AnnotationNotes T379	sequence nullness or absence
-T380	SO_EXT:sequence_nullness_or_absence 55057 55058	-
-#380	AnnotationNotes T380	sequence nullness or absence
-T381	SO_EXT:sequence_nullness_or_absence 55173 55174	-
-#381	AnnotationNotes T381	sequence nullness or absence
-T382	SO_EXT:sequence_nullness_or_absence 55175 55176	-
-#382	AnnotationNotes T382	sequence nullness or absence
-T383	SO_EXT:genotype_or_entity_with_genotype 55326 55335	genotypes
-#383	AnnotationNotes T383	genotype or entity with genotype
-T384	SO_EXT:wild_type_entity_or_quality 55398 55407	wild-type
-#384	AnnotationNotes T384	wild-typeness or wild-type entity
-T385	SO_EXT:wild_type_entity_or_quality 55686 55695	wild-type
-#385	AnnotationNotes T385	wild-typeness or wild-type entity
-T386	SO_EXT:sequence_nullness_or_absence 55721 55722	-
-#386	AnnotationNotes T386	sequence nullness or absence
-T387	SO_EXT:sequence_nullness_or_absence 55723 55724	-
-#387	AnnotationNotes T387	sequence nullness or absence
-T388	SO_EXT:wild_type_entity_or_quality 55935 55944	wild-type
-#388	AnnotationNotes T388	wild-typeness or wild-type entity
-T389	SO_EXT:sequence_nullness_or_absence 55988 55989	-
-#389	AnnotationNotes T389	sequence nullness or absence
-T390	SO_EXT:sequence_nullness_or_absence 55990 55991	-
-#390	AnnotationNotes T390	sequence nullness or absence
-T391	SO_EXT:wild_type_entity_or_quality 56082 56091	wild-type
-#391	AnnotationNotes T391	wild-typeness or wild-type entity
-T392	SO_EXT:sequence_nullness_or_absence 56109 56110	-
-#392	AnnotationNotes T392	sequence nullness or absence
-T393	SO_EXT:sequence_nullness_or_absence 56111 56112	-
-#393	AnnotationNotes T393	sequence nullness or absence
-T394	SO_EXT:engineered_biological_sequence 56343 56353	constructs
-#394	AnnotationNotes T394	engineered biological sequence
-T395	SO_EXT:0000440 56438 56444	vector
-#395	AnnotationNotes T395	vector_replicon
-T396	SO_EXT:wild_type_entity_or_quality 56987 56996	Wild-type
-#396	AnnotationNotes T396	wild-typeness or wild-type entity
-T397	CHEBI_SO_EXT:peptide_or_peptide_region 57122 57129	peptide
-#397	AnnotationNotes T397	peptide or peptide region
-T398	SO_EXT:wild_type_entity_or_quality 57168 57177	Wild-type
-#398	AnnotationNotes T398	wild-typeness or wild-type entity
-T399	SO_EXT:normal_or_wild_type_or_present 57184 57185	+
-#399	AnnotationNotes T399	sequence wild-typeness, normalness or presence
-T400	SO_EXT:sequence_nullness_or_absence 57186 57187	-
-#400	AnnotationNotes T400	sequence nullness or absence
-T401	SO_EXT:sequence_nullness_or_absence 57197 57198	-
-#401	AnnotationNotes T401	sequence nullness or absence
-T402	SO_EXT:sequence_nullness_or_absence 57199 57200	-
-#402	AnnotationNotes T402	sequence nullness or absence
-T403	SO_EXT:wild_type_entity_or_quality 57683 57692	wild-type
-#403	AnnotationNotes T403	wild-typeness or wild-type entity
-T404	SO_EXT:wild_type_entity_or_quality 57802 57811	wild-type
-#404	AnnotationNotes T404	wild-typeness or wild-type entity
-T405	SO_EXT:wild_type_entity_or_quality 58127 58136	Wild-type
-#405	AnnotationNotes T405	wild-typeness or wild-type entity
-T406	SO_EXT:sequence_nullness_or_absence 58292 58293	-
-#406	AnnotationNotes T406	sequence nullness or absence
-T407	SO_EXT:sequence_nullness_or_absence 58294 58295	-
-#407	AnnotationNotes T407	sequence nullness or absence
-T408	SO_EXT:wild_type_entity_or_quality 58426 58435	wild type
-#408	AnnotationNotes T408	wild-typeness or wild-type entity
-T409	SO_EXT:normal_or_wild_type_or_present 58677 58678	+
-#409	AnnotationNotes T409	sequence wild-typeness, normalness or presence
-T410	SO_EXT:normal_or_wild_type_or_present 58679 58680	+
-#410	AnnotationNotes T410	sequence wild-typeness, normalness or presence
-T411	SO_EXT:normal_or_wild_type_or_present 58695 58696	+
-#411	AnnotationNotes T411	sequence wild-typeness, normalness or presence
-T412	SO_EXT:sequence_nullness_or_absence 58697 58698	-
-#412	AnnotationNotes T412	sequence nullness or absence
-T413	SO_EXT:sequence_nullness_or_absence 58717 58718	-
-#413	AnnotationNotes T413	sequence nullness or absence
-T414	SO_EXT:sequence_nullness_or_absence 58719 58720	-
-#414	AnnotationNotes T414	sequence nullness or absence
-T415	SO_EXT:normal_or_wild_type_or_present 58844 58845	+
-#415	AnnotationNotes T415	sequence wild-typeness, normalness or presence
-T416	SO_EXT:sequence_nullness_or_absence 58846 58847	-
-#416	AnnotationNotes T416	sequence nullness or absence
-T417	SO_EXT:sequence_nullness_or_absence 58857 58858	-
-#417	AnnotationNotes T417	sequence nullness or absence
-T418	SO_EXT:sequence_nullness_or_absence 58859 58860	-
-#418	AnnotationNotes T418	sequence nullness or absence
-T419	SO_EXT:wild_type_entity_or_quality 58878 58887	wild type
-#419	AnnotationNotes T419	wild-typeness or wild-type entity
-T420	SO_EXT:sequence_nullness_or_absence 59028 59029	-
-#420	AnnotationNotes T420	sequence nullness or absence
-T421	SO_EXT:sequence_nullness_or_absence 59030 59031	-
-#421	AnnotationNotes T421	sequence nullness or absence
-T422	SO_EXT:wild_type_entity_or_quality 59053 59062	wild-type
-#422	AnnotationNotes T422	wild-typeness or wild-type entity
-T423	SO_EXT:normal_or_wild_type_or_present 59190 59191	+
-#423	AnnotationNotes T423	sequence wild-typeness, normalness or presence
-T424	SO_EXT:normal_or_wild_type_or_present 59192 59193	+
-#424	AnnotationNotes T424	sequence wild-typeness, normalness or presence
-T425	SO_EXT:normal_or_wild_type_or_present 59208 59209	+
-#425	AnnotationNotes T425	sequence wild-typeness, normalness or presence
-T426	SO_EXT:sequence_nullness_or_absence 59210 59211	-
-#426	AnnotationNotes T426	sequence nullness or absence
-T427	SO_EXT:sequence_nullness_or_absence 59230 59231	-
-#427	AnnotationNotes T427	sequence nullness or absence
-T428	SO_EXT:sequence_nullness_or_absence 59232 59233	-
-#428	AnnotationNotes T428	sequence nullness or absence
-T429	SO_EXT:sequence_nullness_or_absence 59455 59456	-
-#429	AnnotationNotes T429	sequence nullness or absence
-T430	SO_EXT:sequence_nullness_or_absence 59457 59458	-
-#430	AnnotationNotes T430	sequence nullness or absence
-T431	SO_EXT:wild_type_entity_or_quality 59663 59672	wild type
-#431	AnnotationNotes T431	wild-typeness or wild-type entity
-T432	SO_EXT:normal_or_wild_type_or_present 59784 59785	+
-#432	AnnotationNotes T432	sequence wild-typeness, normalness or presence
-T433	SO_EXT:normal_or_wild_type_or_present 59786 59787	+
-#433	AnnotationNotes T433	sequence wild-typeness, normalness or presence
-T434	SO_EXT:normal_or_wild_type_or_present 59802 59803	+
-#434	AnnotationNotes T434	sequence wild-typeness, normalness or presence
-T435	SO_EXT:sequence_nullness_or_absence 59804 59805	-
-#435	AnnotationNotes T435	sequence nullness or absence
-T436	SO_EXT:sequence_nullness_or_absence 59823 59824	-
-#436	AnnotationNotes T436	sequence nullness or absence
-T437	SO_EXT:sequence_nullness_or_absence 59825 59826	-
-#437	AnnotationNotes T437	sequence nullness or absence
-T438	SO_EXT:sequence_nullness_or_absence 59949 59950	-
-#438	AnnotationNotes T438	sequence nullness or absence
-T439	SO_EXT:sequence_nullness_or_absence 59951 59952	-
-#439	AnnotationNotes T439	sequence nullness or absence
-T440	SO_EXT:wild_type_entity_or_quality 60051 60060	wild-type
-#440	AnnotationNotes T440	wild-typeness or wild-type entity
-T441	SO_EXT:sequence_nullness_or_absence 60112 60113	-
-#441	AnnotationNotes T441	sequence nullness or absence
-T442	SO_EXT:sequence_nullness_or_absence 60114 60115	-
-#442	AnnotationNotes T442	sequence nullness or absence
-T443	CHEBI_SO_EXT:oligonucleotide 60365 60380	Oligonucleotide
-#443	AnnotationNotes T443	oligonucleotide
-T444	SO_EXT:0000112 60381 60388	primers
-#444	AnnotationNotes T444	primer
-T445	SO_EXT:sequence_nullness_or_absence 60593 60594	-
-#445	AnnotationNotes T445	sequence nullness or absence
-T446	SO_EXT:sequence_nullness_or_absence 60595 60596	-
-#446	AnnotationNotes T446	sequence nullness or absence
-T447	SO_EXT:normal_or_wild_type_or_present 60604 60605	+
-#447	AnnotationNotes T447	sequence wild-typeness, normalness or presence
-T448	SO_EXT:normal_or_wild_type_or_present 60606 60607	+
-#448	AnnotationNotes T448	sequence wild-typeness, normalness or presence
-T449	SO_EXT:sequence_nullness_or_absence 60612 60613	-
-#449	AnnotationNotes T449	sequence nullness or absence
-T450	SO_EXT:sequence_nullness_or_absence 60614 60615	-
-#450	AnnotationNotes T450	sequence nullness or absence
-T451	SO_EXT:normal_or_wild_type_or_present 60623 60624	+
-#451	AnnotationNotes T451	sequence wild-typeness, normalness or presence
-T452	SO_EXT:sequence_nullness_or_absence 60625 60626	-
-#452	AnnotationNotes T452	sequence nullness or absence
+T0	SO_EXT_sequence_alteration_entity_or_process 134 143	Mutations
+T1	SO_EXT_0000704 161 166	genes
+T2	SO_EXT_sequence_coding_function 241 249	encoding
+T3	SO_EXT_sequence_coding_function 273 281	encoding
+T4	OBI_SO_EXT_gene_or_genetic_investigation_or_genetic_process 449 457	genetics
+T5	SO_EXT_normal_or_wild_type_or_present 1565 1566	+
+T6	SO_EXT_sequence_nullness_or_absence 1567 1568	-
+T7	SO_EXT_wild_type_entity_or_quality 1670 1679	wild-type
+T8	SO_EXT_0000704 4375 4382	Genetic
+T9	GO_SO_EXT_chromosome 4467 4477	chromosome
+T10	SO_EXT_sequence_cloning_process 4541 4548	cloning
+T11	SO_EXT_0000704 4580 4585	genes
+T12	SO_EXT_0000704 4661 4666	genes
+T13	SO_EXT_sequence_coding_function 4691 4697	encode
+T14	SO_EXT_sequence_alteration_entity_or_process 4738 4747	mutations
+T15	SO_EXT_sequence_alteration_entity_or_process 4811 4819	mutation
+T16	SO_EXT_sequence_alteration_entity_or_process 4987 4996	mutations
+T17	SO_EXT_0000704 5005 5010	genes
+T18	SO_EXT_0000417 5295 5302	domains
+T19	SO_EXT_0001077 5329 5342	transmembrane
+T20	SO_EXT_transgenic_entity 5523 5533	transgenic
+T21	SO_EXT_sequence_alteration_entity_or_process 6474 6482	mutation
+T22	SO_EXT_0000704 6503 6507	gene
+T23	SO_EXT_0000704 6957 6964	genetic
+T24	SO_EXT_sequence_alteration_entity_or_process 6965 6973	mutation
+T25	SO_EXT_0001644 7309 7325	Targeting vector
+T26	SO_EXT_0001026 7380 7387	genomic
+T27	SO_EXT_0000153 7388 7419	bacterial artificial chromosome
+T28	SO_EXT_0000153 7421 7424	BAC
+T29	OBI_SO_EXT_gene_or_genetic_investigation_or_genetic_process 7473 7481	Genetics
+T30	SO_EXT_0000112 7532 7539	primers
+T31	SO_EXT_biological_sequence 7558 7567	sequences
+T32	SO_EXT_cDNA 7593 7597	cDNA
+T33	SO_EXT_0000153 7638 7641	BAC
+T34	SO_EXT_sequence_cloned_entity 7642 7647	clone
+T35	SO_EXT_genomic_DNA 7682 7693	genomic DNA
+T36	CHEBI_SO_EXT_base 7888 7889	b
+T37	SO_EXT_0001026 7901 7908	genomic
+T38	SO_EXT_0000147 7937 7941	exon
+T39	SO_EXT_0000147 7955 7959	exon
+T40	SO_EXT_sequence_insertion_process 7966 7974	inserted
+T41	SO_EXT_sequence_cloning_process 8002 8009	cloning
+T42	SO_EXT_0000440 8029 8035	vector
+T43	SO_EXT_0001026 8053 8060	genomic
+T44	SO_EXT_0000147 8090 8094	exon
+T45	SO_EXT_0000147 8108 8112	exon
+T46	SO_EXT_sequence_cloning_process 8120 8126	cloned
+T47	SO_EXT_sequence_cloning_process 8151 8158	cloning
+T48	SO_EXT_0000188 8213 8219	intron
+T49	SO_EXT_0000147 8231 8235	exon
+T50	SO_EXT_0000147 8250 8254	exon
+T51	SO_EXT_sequence_substitution_process 8257 8268	replacement
+T52	SO_EXT_0005853 8296 8304	cassette
+T53	SO_EXT_sequence_or_structure_motif 8354 8359	motif
+T54	SO_EXT_sequence_linearization 8436 8446	linearized
+T55	SO_EXT_0001644 8447 8463	targeting vector
+T56	CHEBI_SO_EXT_DNA 8464 8467	DNA
+T57	GO_SO_EXT_sequence_rearrangement_process 8699 8712	recombination
+T58	SO_EXT_0000121 8729 8743	forward primer
+T59	SO_EXT_0005853 8788 8796	cassette
+T60	SO_EXT_0000132 8802 8816	reverse primer
+T61	SO_EXT_0000188 8817 8823	intron
+T62	SO_EXT_engineered_biological_sequence 8896 8905	construct
+T63	SO_EXT_0000188 8921 8927	intron
+T64	SO_EXT_sequence_cloned_entity 8959 8965	clones
+T65	CHEBI_SO_EXT_DNA 9017 9020	DNA
+T66	CHEBI_SO_EXT_molecular_probe 9045 9050	probe
+T67	SO_EXT_0000028 9071 9073	bp
+T68	SO_EXT_0000188 9100 9106	intron
+T69	SO_EXT_0000147 9113 9117	exon
+T70	SO_EXT_0000704 9129 9133	gene
+T71	SO_EXT_0000704 9436 9440	gene
+T72	CHEBI_SO_EXT_DNA 10163 10166	DNA
+T73	CHEBI_SO_EXT_DNA 10676 10679	DNA
+T74	SO_EXT_genomic_DNA 10845 10856	genomic DNA
+T75	SO_EXT_0000112 10930 10937	primers
+T76	SO_EXT_0000704 10949 10953	gene
+T77	SO_EXT_0000112 10963 10970	primers
+T78	SO_EXT_0000112 11223 11229	primer
+T79	SO_EXT_0000006 11376 11388	PCR products
+T80	CHEBI_SO_EXT_DNA 11474 11478	DNAs
+T81	SO_EXT_0000028 11641 11643	bp
+T82	SO_EXT_0000188 11670 11676	intron
+T83	SO_EXT_0000147 11683 11687	exon
+T84	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 11712 11719	labeled
+T85	CHEBI_SO_EXT_molecular_probe 11720 11725	probe
+T86	CHEBI_SO_EXT_RNA 11821 11824	RNA
+T87	SO_EXT_normal_or_wild_type_or_present 11835 11836	+
+T88	SO_EXT_normal_or_wild_type_or_present 11837 11838	+
+T89	SO_EXT_normal_or_wild_type_or_present 11845 11846	+
+T90	SO_EXT_sequence_nullness_or_absence 11847 11848	-
+T91	SO_EXT_sequence_nullness_or_absence 11858 11859	-
+T92	SO_EXT_sequence_nullness_or_absence 11860 11861	-
+T93	CHEBI_SO_EXT_molecular_probe 11943 11948	probe
+T94	SO_EXT_0000028 11968 11970	bp
+T95	CHEBI_SO_EXT_nucleotide 11972 11974	nt
+T96	CHEBI_SO_EXT_molecular_probe 12027 12032	probe
+T97	SO_EXT_0000028 12052 12054	bp
+T98	SO_EXT_0001023 12204 12210	allele
+T99	SO_EXT_cDNA 12236 12241	cDNAs
+T100	CHEBI_SO_EXT_RNA 12291 12294	RNA
+T101	CHEBI_SO_EXT_hexanucleotide 12467 12475	hexamers
+T102	SO_EXT_0000112 12546 12553	primers
+T103	SO_EXT_0000028 12785 12787	bp
+T104	SO_EXT_wild_type_entity_or_quality 12804 12813	wild-type
+T105	SO_EXT_cDNA 12814 12818	cDNA
+T106	SO_EXT_0000112 12842 12849	Primers
+T107	SO_EXT_0000112 12887 12893	primer
+T108	CHEBI_SO_EXT_mRNA 12968 12972	mRNA
+T109	SO_EXT_cDNA 12976 12980	cDNA
+T110	SO_EXT_genomic_DNA 13037 13048	genomic DNA
+T111	CHEBI_SO_EXT_RNA 13062 13065	RNA
+T112	CHEBI_SO_EXT_RNA 13101 13104	RNA
+T113	CHEBI_SO_EXT_hexanucleotide 13277 13285	hexamers
+T114	SO_EXT_biological_sequence 13398 13406	sequence
+T115	CHEBI_GO_SO_EXT_enzyme 13585 13591	enzyme
+T116	SO_EXT_cDNA 13641 13645	cDNA
+T117	CHEBI_SO_EXT_oligonucleotide 13718 13733	oligonucleotide
+T118	SO_EXT_0000112 13734 13741	primers
+T119	SO_EXT_0000006 14145 14157	PCR products
+T120	SO_EXT_0000673 14333 14340	message
+T121	SO_EXT_0000704 14344 14349	genes
+T122	CHEBI_SO_EXT_RNA 14485 14488	RNA
+T123	SO_EXT_0000704 14695 14699	gene
+T124	CHEBI_SO_EXT_mRNA 14952 14956	mRNA
+T125	SO_EXT_wild_type_entity_or_quality 14986 14995	wild type
+T126	SO_EXT_wild_type_entity_or_quality 15105 15114	wild type
+T127	SO_EXT_normal_or_wild_type_or_present 15252 15253	+
+T128	SO_EXT_normal_or_wild_type_or_present 15254 15255	+
+T129	SO_EXT_normal_or_wild_type_or_present 15262 15263	+
+T130	SO_EXT_sequence_nullness_or_absence 15264 15265	-
+T131	SO_EXT_sequence_nullness_or_absence 15275 15276	-
+T132	SO_EXT_sequence_nullness_or_absence 15277 15278	-
+T133	SO_EXT_genotype_or_entity_with_genotype 15497 15505	genotype
+T134	SO_EXT_normal_or_wild_type_or_present 15945 15946	+
+T135	SO_EXT_normal_or_wild_type_or_present 15947 15948	+
+T136	SO_EXT_normal_or_wild_type_or_present 15955 15956	+
+T137	SO_EXT_sequence_nullness_or_absence 15957 15958	-
+T138	SO_EXT_sequence_nullness_or_absence 15968 15969	-
+T139	SO_EXT_sequence_nullness_or_absence 15970 15971	-
+T140	CHEBI_SO_EXT_glycine 19752 19759	glycine
+T141	SO_EXT_engineered_biological_sequence 21170 21180	constructs
+T142	CHEBI_SO_EXT_glutamine 21479 21488	glutamine
+T143	CHEBI_SO_EXT_DNA 21526 21529	DNA
+T144	CHEBI_GO_SO_EXT_enzyme 23619 23625	enzyme
+T145	SO_EXT_engineered_biological_sequence 26228 26237	construct
+T146	SO_EXT_coding_sequence 26330 26346	coding sequences
+T147	SO_EXT_0000147 26357 26362	exons
+T148	SO_EXT_sequence_linearization 26411 26421	linearized
+T149	SO_EXT_0000155 26431 26438	plasmid
+T150	CHEBI_SO_EXT_DNA 26439 26442	DNA
+T151	GO_SO_EXT_sequence_rearrangement_process 26459 26470	recombinant
+T152	SO_EXT_sequence_cloned_entity 26474 26480	clones
+T153	SO_EXT_sequence_cloned_entity 26495 26501	clones
+T154	SO_EXT_sequence_cloned_entity 26672 26677	clone
+T155	SO_EXT_wild_type_entity_or_quality 26918 26927	wild-type
+T156	CHEBI_SO_EXT_mRNA 27130 27134	mRNA
+T157	SO_EXT_sequence_truncation_process 27293 27302	truncated
+T158	SO_EXT_cDNA 27404 27408	cDNA
+T159	CHEBI_SO_EXT_RNA 27446 27449	RNA
+T160	CHEBI_SO_EXT_mRNA 27480 27484	mRNA
+T161	SO_EXT_biological_sequence 27534 27543	sequences
+T162	SO_EXT_sequence_downstreamness 27544 27554	downstream
+T163	SO_EXT_0000147 27558 27562	exon
+T164	SO_EXT_0000112 27602 27609	primers
+T165	SO_EXT_0000147 27626 27631	exons
+T166	SO_EXT_0000147 27642 27647	exons
+T167	SO_EXT_0000147 27660 27665	exons
+T168	SO_EXT_1001187 27721 27750	alternatively spliced message
+T169	SO_EXT_sequence_coding_function 27769 27773	code
+T170	SO_EXT_sequence_truncation_process 27780 27789	truncated
+T171	SO_EXT_0000417 27871 27878	domains
+T172	SO_EXT_sequence_coding_function 27903 27910	encoded
+T173	SO_EXT_0000147 27914 27919	exons
+T174	SO_EXT_sequence_nullness_or_absence 28158 28159	-
+T175	SO_EXT_sequence_nullness_or_absence 28160 28161	-
+T176	SO_EXT_wild_type_entity_or_quality 28241 28251	wild types
+T177	SO_EXT_wild_type_entity_or_quality 28414 28423	wild-type
+T178	SO_EXT_wild_type_entity_or_quality 28500 28509	wild-type
+T179	SO_EXT_sequence_nullness_or_absence 28573 28574	-
+T180	SO_EXT_sequence_nullness_or_absence 28575 28576	-
+T181	SO_EXT_sequence_nullness_or_absence 28663 28664	-
+T182	SO_EXT_sequence_nullness_or_absence 28665 28666	-
+T183	SO_EXT_wild_type_entity_or_quality 28684 28693	wild-type
+T184	SO_EXT_wild_type_entity_or_quality 28888 28897	wild-type
+T185	SO_EXT_sequence_nullness_or_absence 28942 28943	-
+T186	SO_EXT_sequence_nullness_or_absence 28944 28945	-
+T187	SO_EXT_wild_type_entity_or_quality 28983 28992	wild-type
+T188	SO_EXT_sequence_nullness_or_absence 29288 29289	-
+T189	SO_EXT_sequence_nullness_or_absence 29290 29291	-
+T190	SO_EXT_wild_type_entity_or_quality 29318 29327	wild-type
+T191	SO_EXT_normal_or_wild_type_or_present 29506 29507	+
+T192	SO_EXT_normal_or_wild_type_or_present 29508 29509	+
+T193	SO_EXT_normal_or_wild_type_or_present 29519 29520	+
+T194	SO_EXT_sequence_nullness_or_absence 29521 29522	-
+T195	SO_EXT_normal_or_wild_type_or_present 30023 30024	+
+T196	SO_EXT_normal_or_wild_type_or_present 30025 30026	+
+T197	SO_EXT_normal_or_wild_type_or_present 30028 30029	+
+T198	SO_EXT_sequence_nullness_or_absence 30030 30031	-
+T199	SO_EXT_sequence_nullness_or_absence 30036 30037	-
+T200	SO_EXT_sequence_nullness_or_absence 30038 30039	-
+T201	CHEBI_GO_SO_EXT_enzyme 30356 30369	enzymatically
+T202	SO_EXT_sequence_nullness_or_absence 30606 30607	-
+T203	SO_EXT_sequence_nullness_or_absence 30608 30609	-
+T204	SO_EXT_wild_type_entity_or_quality 30715 30724	wild-type
+T205	SO_EXT_sequence_nullness_or_absence 30928 30929	-
+T206	SO_EXT_sequence_nullness_or_absence 30930 30931	-
+T207	SO_EXT_wild_type_entity_or_quality 30991 31000	wild type
+T208	SO_EXT_genotype_or_entity_with_genotype 31066 31075	genotypes
+T209	SO_EXT_0000704 31299 31303	gene
+T210	CHEBI_GO_SO_EXT_enzyme 31319 31325	enzyme
+T211	SO_EXT_0000704 31448 31453	genes
+T212	CHEBI_SO_EXT_mRNA 31625 31629	mRNA
+T213	CHEBI_SO_EXT_mRNA 31708 31712	mRNA
+T214	SO_EXT_sequence_nullness_or_absence 31761 31762	-
+T215	SO_EXT_sequence_nullness_or_absence 31763 31764	-
+T216	SO_EXT_wild_type_entity_or_quality 31833 31842	wild-type
+T217	CHEBI_SO_EXT_mRNA 31892 31896	mRNA
+T218	SO_EXT_wild_type_entity_or_quality 31989 31998	wild-type
+T219	CHEBI_SO_EXT_mRNA 32094 32098	mRNA
+T220	CHEBI_SO_EXT_mRNA 32284 32288	mRNA
+T221	CHEBI_GO_SO_EXT_enzyme 32327 32333	enzyme
+T222	SO_EXT_normal_or_wild_type_or_present 32510 32511	+
+T223	SO_EXT_sequence_nullness_or_absence 32512 32513	-
+T224	SO_EXT_sequence_nullness_or_absence 32523 32524	-
+T225	SO_EXT_sequence_nullness_or_absence 32525 32526	-
+T226	CHEBI_SO_EXT_mRNA 32593 32597	mRNA
+T227	CHEBI_SO_EXT_mRNA 32643 32647	mRNA
+T228	CHEBI_SO_EXT_mRNA 32814 32818	mRNA
+T229	SO_EXT_sequence_nullness_or_absence 33089 33090	-
+T230	SO_EXT_sequence_nullness_or_absence 33091 33092	-
+T231	SO_EXT_0000704 33220 33227	genetic
+T232	SO_EXT_sequence_nullness_or_absence 33601 33602	-
+T233	SO_EXT_sequence_nullness_or_absence 33603 33604	-
+T234	CHEBI_SO_EXT_peptide_or_peptide_region 33965 33972	peptide
+T235	SO_EXT_wild_type_entity_or_quality 34085 34094	wild-type
+T236	SO_EXT_wild_type_entity_or_quality 34306 34315	wild-type
+T237	SO_EXT_wild_type_entity_or_quality 34569 34578	wild-type
+T238	SO_EXT_cDNA 35042 35047	cDNAs
+T239	CHEBI_SO_EXT_peptide_or_peptide_region 35912 35919	peptide
+T240	SO_EXT_wild_type_entity_or_quality 36140 36149	wild-type
+T241	SO_EXT_wild_type_entity_or_quality 36411 36420	wild-type
+T242	SO_EXT_wild_type_entity_or_quality 36740 36749	wild-type
+T243	SO_EXT_wild_type_entity_or_quality 36831 36840	wild-type
+T244	SO_EXT_sequence_nullness_or_absence 37264 37265	-
+T245	SO_EXT_sequence_nullness_or_absence 37266 37267	-
+T246	SO_EXT_wild_type_entity_or_quality 37301 37310	wild-type
+T247	SO_EXT_genotype_or_entity_with_genotype 37899 37908	genotypes
+T248	SO_EXT_wild_type_entity_or_quality 38093 38102	wild-type
+T249	CHEBI_GO_SO_EXT_enzyme 38344 38357	enzymatically
+T250	SO_EXT_wild_type_entity_or_quality 38687 38696	wild type
+T251	SO_EXT_sequence_nullness_or_absence 38949 38950	-
+T252	SO_EXT_sequence_nullness_or_absence 38951 38952	-
+T253	SO_EXT_wild_type_entity_or_quality 39475 39484	wild-type
+T254	SO_EXT_normal_or_wild_type_or_present 39525 39526	+
+T255	SO_EXT_sequence_nullness_or_absence 39527 39528	-
+T256	SO_EXT_wild_type_entity_or_quality 39622 39631	wild-type
+T257	SO_EXT_0000704 39941 39948	genetic
+T258	SO_EXT_0000704 40180 40185	genes
+T259	SO_EXT_0000704 40384 40389	genes
+T260	CHEBI_SO_EXT_mRNA 40991 40995	mRNA
+T261	CHEBI_GO_SO_EXT_enzyme 41000 41006	enzyme
+T262	CHEBI_GO_SO_EXT_enzyme 41134 41140	enzyme
+T263	CHEBI_SO_EXT_mRNA 41213 41217	mRNA
+T264	CHEBI_GO_SO_EXT_enzyme 41337 41343	enzyme
+T265	SO_EXT_wild_type_entity_or_quality 41440 41449	wild-type
+T266	SO_EXT_sequence_nullness_or_absence 41510 41511	-
+T267	SO_EXT_sequence_nullness_or_absence 41512 41513	-
+T268	SO_EXT_sequence_nullness_or_absence 42155 42156	-
+T269	SO_EXT_sequence_nullness_or_absence 42157 42158	-
+T270	SO_EXT_wild_type_entity_or_quality 42227 42236	wild-type
+T271	SO_EXT_sequence_nullness_or_absence 42396 42397	-
+T272	SO_EXT_sequence_nullness_or_absence 42398 42399	-
+T273	SO_EXT_sequence_nullness_or_absence 42655 42656	-
+T274	SO_EXT_sequence_nullness_or_absence 42657 42658	-
+T275	SO_EXT_sequence_nullness_or_absence 42807 42808	-
+T276	SO_EXT_sequence_nullness_or_absence 42809 42810	-
+T277	SO_EXT_wild_type_entity_or_quality 42842 42851	wild-type
+T278	SO_EXT_wild_type_entity_or_quality 43091 43100	wild-type
+T279	SO_EXT_sequence_nullness_or_absence 43195 43196	-
+T280	SO_EXT_sequence_nullness_or_absence 43197 43198	-
+T281	SO_EXT_wild_type_entity_or_quality 43216 43225	wild-type
+T282	CHEBI_SO_EXT_mRNA 43236 43240	mRNA
+T283	CHEBI_GO_SO_EXT_enzyme 43273 43279	enzyme
+T284	CHEBI_SO_EXT_mRNA 43340 43344	mRNA
+T285	CHEBI_GO_SO_EXT_enzyme 43608 43614	enzyme
+T286	CHEBI_GO_SO_EXT_enzyme 43731 43737	enzyme
+T287	CHEBI_SO_EXT_mRNA 43754 43758	mRNA
+T288	CHEBI_GO_SO_EXT_enzyme 43864 43870	enzyme
+T289	CHEBI_SO_EXT_mRNA 43875 43879	mRNA
+T290	SO_EXT_wild_type_entity_or_quality 44452 44461	wild-type
+T291	SO_EXT_wild_type_entity_or_quality 44665 44674	wild-type
+T292	SO_EXT_0000704 45032 45039	genetic
+T293	SO_EXT_normal_or_wild_type_or_present 45475 45476	+
+T294	SO_EXT_sequence_nullness_or_absence 45477 45478	-
+T295	SO_EXT_wild_type_entity_or_quality 45543 45552	wild-type
+T296	SO_EXT_wild_type_entity_or_quality 45631 45640	wild-type
+T297	CHEBI_SO_EXT_mRNA 46224 46228	mRNA
+T298	CHEBI_SO_EXT_mRNA 46440 46444	mRNA
+T299	SO_EXT_0000704 46898 46905	genetic
+T300	SO_EXT_sequence_nullness_or_absence 47989 47990	-
+T301	SO_EXT_sequence_nullness_or_absence 47991 47992	-
+T302	SO_EXT_sequence_nullness_or_absence 48098 48099	-
+T303	SO_EXT_sequence_nullness_or_absence 48100 48101	-
+T304	SO_EXT_sequence_nullness_or_absence 49336 49337	-
+T305	SO_EXT_sequence_nullness_or_absence 49338 49339	-
+T306	SO_EXT_wild_type_entity_or_quality 49512 49521	wild-type
+T307	CHEBI_SO_EXT_mRNA 49573 49577	mRNA
+T308	SO_EXT_wild_type_entity_or_quality 49641 49650	wild-type
+T309	SO_EXT_0000704 50309 50314	genes
+T310	OBI_SO_EXT_gene_or_genetic_investigation_or_genetic_process 50981 50989	genetics
+T311	SO_EXT_0000704 51087 51094	genetic
+T312	SO_EXT_engineered_biological_sequence 51126 51135	construct
+T313	SO_EXT_genomic_DNA 52548 52559	genomic DNA
+T314	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 52588 52596	labelled
+T315	CHEBI_SO_EXT_molecular_probe 52597 52602	probe
+T316	CHEBI_SO_EXT_base 52623 52624	b
+T317	SO_EXT_wild_type_entity_or_quality 52634 52643	wild type
+T318	CHEBI_SO_EXT_base 52652 52653	b
+T319	CHEBI_SO_EXT_base 52704 52705	b
+T320	CHEBI_SO_EXT_RNA 52772 52775	RNA
+T321	CHEBI_SO_EXT_mRNA 52810 52814	mRNA
+T322	CHEBI_SO_EXT_mRNA 52864 52868	mRNA
+T323	CHEBI_SO_EXT_mRNA 52916 52920	mRNA
+T324	CHEBI_SO_EXT_molecular_probe 52984 52990	Probes
+T325	CHEBI_SO_EXT_base 53015 53016	b
+T326	CHEBI_SO_EXT_base 53034 53035	b
+T327	SO_EXT_cDNA 53104 53108	cDNA
+T328	SO_EXT_0000673 53136 53143	message
+T329	SO_EXT_sequence_downstreamness 53145 53155	downstream
+T330	SO_EXT_0000147 53159 53163	exon
+T331	SO_EXT_sequence_nullness_or_absence 53178 53179	-
+T332	SO_EXT_sequence_nullness_or_absence 53180 53181	-
+T333	SO_EXT_0000112 53196 53203	primers
+T334	SO_EXT_0000147 53220 53225	exons
+T335	SO_EXT_0000147 53246 53251	exons
+T336	SO_EXT_0000147 53264 53269	exons
+T337	SO_EXT_normal_or_wild_type_or_present 53361 53362	+
+T338	SO_EXT_normal_or_wild_type_or_present 53363 53364	+
+T339	SO_EXT_normal_or_wild_type_or_present 53371 53372	+
+T340	SO_EXT_sequence_nullness_or_absence 53373 53374	-
+T341	SO_EXT_sequence_nullness_or_absence 53384 53385	-
+T342	SO_EXT_sequence_nullness_or_absence 53386 53387	-
+T343	SO_EXT_genotype_or_entity_with_genotype 53547 53556	genotypes
+T344	SO_EXT_genotype_or_entity_with_genotype 53645 53653	genotype
+T345	SO_EXT_normal_or_wild_type_or_present 53713 53714	+
+T346	SO_EXT_normal_or_wild_type_or_present 53715 53716	+
+T347	SO_EXT_normal_or_wild_type_or_present 53726 53727	+
+T348	SO_EXT_sequence_nullness_or_absence 53728 53729	-
+T349	SO_EXT_sequence_nullness_or_absence 53761 53762	-
+T350	SO_EXT_sequence_nullness_or_absence 53763 53764	-
+T351	SO_EXT_genotype_or_entity_with_genotype 53863 53872	genotypes
+T352	SO_EXT_normal_or_wild_type_or_present 53932 53933	+
+T353	SO_EXT_normal_or_wild_type_or_present 53934 53935	+
+T354	SO_EXT_normal_or_wild_type_or_present 53942 53943	+
+T355	SO_EXT_sequence_nullness_or_absence 53944 53945	-
+T356	SO_EXT_sequence_nullness_or_absence 53955 53956	-
+T357	SO_EXT_sequence_nullness_or_absence 53957 53958	-
+T358	SO_EXT_sequence_nullness_or_absence 54234 54235	-
+T359	SO_EXT_sequence_nullness_or_absence 54236 54237	-
+T360	CHEBI_SO_EXT_mRNA 54374 54378	mRNA
+T361	CHEBI_GO_SO_EXT_enzyme 54394 54400	enzyme
+T362	CHEBI_SO_EXT_mRNA 54466 54470	mRNA
+T363	SO_EXT_normal_or_wild_type_or_present 54575 54576	+
+T364	SO_EXT_normal_or_wild_type_or_present 54577 54578	+
+T365	SO_EXT_normal_or_wild_type_or_present 54597 54598	+
+T366	SO_EXT_sequence_nullness_or_absence 54599 54600	-
+T367	SO_EXT_sequence_nullness_or_absence 54625 54626	-
+T368	SO_EXT_sequence_nullness_or_absence 54627 54628	-
+T369	CHEBI_SO_EXT_mRNA 54686 54690	mRNA
+T370	SO_EXT_0000673 54740 54747	message
+T371	SO_EXT_0000673 54785 54792	message
+T372	CHEBI_GO_SO_EXT_enzyme 54869 54875	enzyme
+T373	SO_EXT_normal_or_wild_type_or_present 54940 54941	+
+T374	SO_EXT_normal_or_wild_type_or_present 54942 54943	+
+T375	SO_EXT_normal_or_wild_type_or_present 54950 54951	+
+T376	SO_EXT_sequence_nullness_or_absence 54952 54953	-
+T377	SO_EXT_sequence_nullness_or_absence 54963 54964	-
+T378	SO_EXT_sequence_nullness_or_absence 54965 54966	-
+T379	SO_EXT_sequence_nullness_or_absence 55055 55056	-
+T380	SO_EXT_sequence_nullness_or_absence 55057 55058	-
+T381	SO_EXT_sequence_nullness_or_absence 55173 55174	-
+T382	SO_EXT_sequence_nullness_or_absence 55175 55176	-
+T383	SO_EXT_genotype_or_entity_with_genotype 55326 55335	genotypes
+T384	SO_EXT_wild_type_entity_or_quality 55398 55407	wild-type
+T385	SO_EXT_wild_type_entity_or_quality 55686 55695	wild-type
+T386	SO_EXT_sequence_nullness_or_absence 55721 55722	-
+T387	SO_EXT_sequence_nullness_or_absence 55723 55724	-
+T388	SO_EXT_wild_type_entity_or_quality 55935 55944	wild-type
+T389	SO_EXT_sequence_nullness_or_absence 55988 55989	-
+T390	SO_EXT_sequence_nullness_or_absence 55990 55991	-
+T391	SO_EXT_wild_type_entity_or_quality 56082 56091	wild-type
+T392	SO_EXT_sequence_nullness_or_absence 56109 56110	-
+T393	SO_EXT_sequence_nullness_or_absence 56111 56112	-
+T394	SO_EXT_engineered_biological_sequence 56343 56353	constructs
+T395	SO_EXT_0000440 56438 56444	vector
+T396	SO_EXT_wild_type_entity_or_quality 56987 56996	Wild-type
+T397	CHEBI_SO_EXT_peptide_or_peptide_region 57122 57129	peptide
+T398	SO_EXT_wild_type_entity_or_quality 57168 57177	Wild-type
+T399	SO_EXT_normal_or_wild_type_or_present 57184 57185	+
+T400	SO_EXT_sequence_nullness_or_absence 57186 57187	-
+T401	SO_EXT_sequence_nullness_or_absence 57197 57198	-
+T402	SO_EXT_sequence_nullness_or_absence 57199 57200	-
+T403	SO_EXT_wild_type_entity_or_quality 57683 57692	wild-type
+T404	SO_EXT_wild_type_entity_or_quality 57802 57811	wild-type
+T405	SO_EXT_wild_type_entity_or_quality 58127 58136	Wild-type
+T406	SO_EXT_sequence_nullness_or_absence 58292 58293	-
+T407	SO_EXT_sequence_nullness_or_absence 58294 58295	-
+T408	SO_EXT_wild_type_entity_or_quality 58426 58435	wild type
+T409	SO_EXT_normal_or_wild_type_or_present 58677 58678	+
+T410	SO_EXT_normal_or_wild_type_or_present 58679 58680	+
+T411	SO_EXT_normal_or_wild_type_or_present 58695 58696	+
+T412	SO_EXT_sequence_nullness_or_absence 58697 58698	-
+T413	SO_EXT_sequence_nullness_or_absence 58717 58718	-
+T414	SO_EXT_sequence_nullness_or_absence 58719 58720	-
+T415	SO_EXT_normal_or_wild_type_or_present 58844 58845	+
+T416	SO_EXT_sequence_nullness_or_absence 58846 58847	-
+T417	SO_EXT_sequence_nullness_or_absence 58857 58858	-
+T418	SO_EXT_sequence_nullness_or_absence 58859 58860	-
+T419	SO_EXT_wild_type_entity_or_quality 58878 58887	wild type
+T420	SO_EXT_sequence_nullness_or_absence 59028 59029	-
+T421	SO_EXT_sequence_nullness_or_absence 59030 59031	-
+T422	SO_EXT_wild_type_entity_or_quality 59053 59062	wild-type
+T423	SO_EXT_normal_or_wild_type_or_present 59190 59191	+
+T424	SO_EXT_normal_or_wild_type_or_present 59192 59193	+
+T425	SO_EXT_normal_or_wild_type_or_present 59208 59209	+
+T426	SO_EXT_sequence_nullness_or_absence 59210 59211	-
+T427	SO_EXT_sequence_nullness_or_absence 59230 59231	-
+T428	SO_EXT_sequence_nullness_or_absence 59232 59233	-
+T429	SO_EXT_sequence_nullness_or_absence 59455 59456	-
+T430	SO_EXT_sequence_nullness_or_absence 59457 59458	-
+T431	SO_EXT_wild_type_entity_or_quality 59663 59672	wild type
+T432	SO_EXT_normal_or_wild_type_or_present 59784 59785	+
+T433	SO_EXT_normal_or_wild_type_or_present 59786 59787	+
+T434	SO_EXT_normal_or_wild_type_or_present 59802 59803	+
+T435	SO_EXT_sequence_nullness_or_absence 59804 59805	-
+T436	SO_EXT_sequence_nullness_or_absence 59823 59824	-
+T437	SO_EXT_sequence_nullness_or_absence 59825 59826	-
+T438	SO_EXT_sequence_nullness_or_absence 59949 59950	-
+T439	SO_EXT_sequence_nullness_or_absence 59951 59952	-
+T440	SO_EXT_wild_type_entity_or_quality 60051 60060	wild-type
+T441	SO_EXT_sequence_nullness_or_absence 60112 60113	-
+T442	SO_EXT_sequence_nullness_or_absence 60114 60115	-
+T443	CHEBI_SO_EXT_oligonucleotide 60365 60380	Oligonucleotide
+T444	SO_EXT_0000112 60381 60388	primers
+T445	SO_EXT_sequence_nullness_or_absence 60593 60594	-
+T446	SO_EXT_sequence_nullness_or_absence 60595 60596	-
+T447	SO_EXT_normal_or_wild_type_or_present 60604 60605	+
+T448	SO_EXT_normal_or_wild_type_or_present 60606 60607	+
+T449	SO_EXT_sequence_nullness_or_absence 60612 60613	-
+T450	SO_EXT_sequence_nullness_or_absence 60614 60615	-
+T451	SO_EXT_normal_or_wild_type_or_present 60623 60624	+
+T452	SO_EXT_sequence_nullness_or_absence 60625 60626	-

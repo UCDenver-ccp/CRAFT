@@ -1,498 +1,265 @@
-T0	GO:0065007 7 16	Modulates
-#0	AnnotationNotes T0	biological regulation
-T1	GO:0006006 103 121	Glucose Metabolism
-#1	AnnotationNotes T1	glucose metabolic process
-T2	GO_PATO_EXT:physiological_process_or_quality 424 437	physiological
-#2	AnnotationNotes T2	physiological process or quality
-T3	GO_PATO_EXT:physiological_process_or_quality 575 588	physiological
-#3	AnnotationNotes T3	physiological process or quality
-T4	GO_PATO_EXT:biological_localization_process_or_quality 667 676	localizes
-#4	AnnotationNotes T4	biological localization process or quality
-T5	GO:0006096 746 756	glycolysis
-#5	AnnotationNotes T5	glycolytic process
-T6	GO:0006457 916 923	folding
-#6	AnnotationNotes T6	protein folding
-T7	GO_EXT:biogenesis_or_biosynthesis 1007 1017	biogenesis
-#7	AnnotationNotes T7	biogenesis/biosynthesis
-T8	GO_PATO_EXT:biological_localization_process_or_quality 1037 1046	localizes
-#8	AnnotationNotes T8	biological localization process or quality
-T9	GO_PATO_EXT:physiological_process_or_quality 1235 1248	physiological
-#9	AnnotationNotes T9	physiological process or quality
-T10	GO_EXT:fatality_or_lethality 1398 1404	lethal
-#10	AnnotationNotes T10	fatality/lethality
-T11	GO_EXT:biological_growth_entity_or_process 1600 1606	growth
-#11	AnnotationNotes T11	biological growth entity or process
-T12	GO:0006007 1617 1635	glucose catabolism
-#12	AnnotationNotes T12	glucose catabolic process
-T13	GO:0046323 1658 1672	glucose uptake
-#13	AnnotationNotes T13	glucose import
-T14	GO:0006094 1677 1692	gluconeogenesis
-#14	AnnotationNotes T14	gluconeogenesis
-T15	GO_EXT:reaction_or_response 1769 1778	responses
-#15	AnnotationNotes T15	reaction/response
-T16	GO_EXT:detection_or_sensing_of_light_stimulus 1782 1794	photosensory
-#16	AnnotationNotes T16	detection/sensing of light stimulus
-T17	GO_EXT:regulator 1873 1883	modulators
-#17	AnnotationNotes T17	regulator
-T18	GO:0006007 1901 1919	glucose catabolism
-#18	AnnotationNotes T18	glucose catabolic process
-T19	GO:0097009 1921 1939	energy homeostasis
-#19	AnnotationNotes T19	energy homeostasis
-T20	GO:0008152 1957 1966	metabolic
-#20	AnnotationNotes T20	metabolic process
-T21	GO:0007568 1968 1973	aging
-#21	AnnotationNotes T21	aging
-T22	GO:0006412 2344 2357;2369 2377	production of
-#22	AnnotationNotes T22	translation
-T23	GO:0051223 2379 2409	control of protein trafficking
-#23	AnnotationNotes T23	regulation of protein transport
-T24	GO:0065007 2460 2467	control
-#24	AnnotationNotes T24	biological regulation
-T25	GO:0051301 2498 2511	cell division
-#25	AnnotationNotes T25	cell division
-T26	GO_PATO_EXT:physiological_process_or_quality 2536 2549	physiological
-#26	AnnotationNotes T26	physiological process or quality
-T27	GO:0065007 3043 3051	modulate
-#27	AnnotationNotes T27	biological regulation
-T28	GO_EXT:biological_growth_entity_or_process 3148 3154	growth
-#28	AnnotationNotes T28	biological growth entity or process
-T29	GO:0006007 3165 3185	breakdown of glucose
-#29	AnnotationNotes T29	glucose catabolic process
-T30	GO_EXT:negative_regulation 3200 3215	down-regulation
-#30	AnnotationNotes T30	negative regulation
-T31	GO:0007601 3293 3299	visual
-#31	AnnotationNotes T31	visual perception
-T32	GO:0008152 3379 3398	metabolic processes
-#32	AnnotationNotes T32	metabolic process
-T33	GO:0006913 3634 3663	nucleocytoplasmic trafficking
-#33	AnnotationNotes T33	nucleocytoplasmic transport
-T34	GO:0006412 3671 3689	protein biogenesis
-#34	AnnotationNotes T34	translation
-T35	GO:0090307 3701 3713;3718 3733	formation of
-#35	AnnotationNotes T35	mitotic spindle assembly
-T36	GO:0051081 3800 3826	nuclear envelope breakdown
-#36	AnnotationNotes T36	nuclear envelope disassembly
-T37	GO:0051382 3832 3853	kinetochore formation
-#37	AnnotationNotes T37	kinetochore assembly
-T38	GO_PATO_EXT:biological_maturation 3858 3868	maturation
-#38	AnnotationNotes T38	biological maturation
-T39	GO:0007067 3882 3889	mitotic
-#39	AnnotationNotes T39	mitotic nuclear division
-T40	GO:0051170 4310 4324	nuclear import
-#40	AnnotationNotes T40	nuclear import
-T41	GO:0051170 4400 4414	nuclear import
-#41	AnnotationNotes T41	nuclear import
-T42	GO:0010467 4660 4669	expressed
-#42	AnnotationNotes T42	gene expression
-T43	GO_EXT:detection_or_sensing_of_light_stimulus 4673 4685	photosensory
-#43	AnnotationNotes T43	detection/sensing of light stimulus
-T44	GO_EXT:biological_movement_or_translocation_process 4837 4842	motor
-#44	AnnotationNotes T44	biological movement/translocation process
-T45	GO:0051168 5378 5392	nuclear export
-#45	AnnotationNotes T45	nuclear export
-T46	GO_EXT:biological_movement_or_translocation_process 5593 5603	relocation
-#46	AnnotationNotes T46	biological movement/translocation process
-T47	GO_PATO_EXT:biological_localization_process_or_quality 5755 5763	localize
-#47	AnnotationNotes T47	biological localization process or quality
-T48	GO_EXT:detection_or_sensing_of_light_stimulus 5838 5850	photosensory
-#48	AnnotationNotes T48	detection/sensing of light stimulus
-T49	GO_PATO_EXT:biological_localization_process_or_quality 5947 5959	localization
-#49	AnnotationNotes T49	biological localization process or quality
-T50	GO:0010467 6180 6189	expressed
-#50	AnnotationNotes T50	gene expression
-T51	GO:0016567 6271 6285	ubiquitination
-#51	AnnotationNotes T51	protein ubiquitination
-T52	GO:0007049 6575 6585	cell-cycle
-#52	AnnotationNotes T52	cell cycle
-T53	GO:0065007 6586 6595	regulated
-#53	AnnotationNotes T53	biological regulation
-T54	GO:0030163 6596 6615	protein degradation
-#54	AnnotationNotes T54	protein catabolic process
-T55	GO_EXT:biological_growth_entity_or_process 6943 6949	growth
-#55	AnnotationNotes T55	biological growth entity or process
-T56	GO_PATO_EXT:biological_localization_process_or_quality 6985 6994	localizes
-#56	AnnotationNotes T56	biological localization process or quality
-T57	GO_PATO_EXT:physiological_process_or_quality 7272 7285	physiological
-#57	AnnotationNotes T57	physiological process or quality
-T58	GO_PATO_EXT:physiological_process_or_quality 7387 7397	physiology
-#58	AnnotationNotes T58	physiological process or quality
-T59	GO_PATO_EXT:physiological_process_or_quality 7693 7703	physiology
-#59	AnnotationNotes T59	physiological process or quality
-T60	GO:0006006 7709 7716;7724 7734	glucose
-#60	AnnotationNotes T60	glucose metabolic process
-T61	GO:0006457 9428 9435	folding
-#61	AnnotationNotes T61	protein folding
-T62	GO_EXT:macromolecule_denaturation 9552 9561	denatured
-#62	AnnotationNotes T62	macromolecule denaturation
-T63	GO_EXT:macromolecule_denaturation 9642 9651	denatured
-#63	AnnotationNotes T63	macromolecule denaturation
-T64	GO_EXT:macromolecule_denaturation 9778 9787	denatured
-#64	AnnotationNotes T64	macromolecule denaturation
-T65	GO:0010467 9847 9857	expression
-#65	AnnotationNotes T65	gene expression
-T66	GO_EXT:biological_growth_entity_or_process 11159 11165	growth
-#66	AnnotationNotes T66	biological growth entity or process
-T67	GO_EXT:biological_growth_entity_or_process 11185 11191	growth
-#67	AnnotationNotes T67	biological growth entity or process
-T68	GO_EXT:macromolecule_denaturation 12035 12044	denatured
-#68	AnnotationNotes T68	macromolecule denaturation
-T69	GO_EXT:macromolecule_denaturation 12075 12084	denatured
-#69	AnnotationNotes T69	macromolecule denaturation
-T70	GO_EXT:macromolecule_denaturation 12152 12164	denaturating
-#70	AnnotationNotes T70	macromolecule denaturation
-T71	GO:0006457 12206 12213	Folding
-#71	AnnotationNotes T71	protein folding
-T72	GO:0010467 12384 12393	expressed
-#72	AnnotationNotes T72	gene expression
-T73	GO:0065007 12961 12970	modulates
-#73	AnnotationNotes T73	biological regulation
-T74	GO_PATO_EXT:biological_behavior 13282 13289	behaves
-#74	AnnotationNotes T74	biological behavior
-T75	GO_PATO_EXT:biological_behavior 14663 14671	behavior
-#75	AnnotationNotes T75	biological behavior
-T76	GO_PATO_EXT:biological_behavior 14715 14722	behaves
-#76	AnnotationNotes T76	biological behavior
-T77	GO_PATO_EXT:biological_localization_process_or_quality 15404 15413	localizes
-#77	AnnotationNotes T77	biological localization process or quality
-T78	GO_PATO_EXT:biological_localization_process_or_quality 15571 15580	localized
-#78	AnnotationNotes T78	biological localization process or quality
-T79	GO_EXT:detection_or_sensing_of_light_stimulus 15659 15671	photosensory
-#79	AnnotationNotes T79	detection/sensing of light stimulus
-T80	GO_PATO_EXT:biological_localization_process_or_quality 15746 15758	localization
-#80	AnnotationNotes T80	biological localization process or quality
-T81	GO_PATO_EXT:biological_localization_process_or_quality 15872 15880	localize
-#81	AnnotationNotes T81	biological localization process or quality
-T82	GO_EXT:detection_or_sensing_of_light_stimulus 16018 16030	photosensory
-#82	AnnotationNotes T82	detection/sensing of light stimulus
-T83	GO_PATO_EXT:biological_localization_process_or_quality 16229 16237	localize
-#83	AnnotationNotes T83	biological localization process or quality
-T84	GO_PATO_EXT:biological_localization_process_or_quality 16285 16297	Localization
-#84	AnnotationNotes T84	biological localization process or quality
-T85	GO:0010467 16579 16588	expressed
-#85	AnnotationNotes T85	gene expression
-T86	GO_PATO_EXT:biological_localization_process_or_quality 16601 16609	localize
-#86	AnnotationNotes T86	biological localization process or quality
-T87	GO:0010467 16642 16652	expression
-#87	AnnotationNotes T87	gene expression
-T88	GO_PATO_EXT:biological_localization_process_or_quality 16657 16669	localization
-#88	AnnotationNotes T88	biological localization process or quality
-T89	GO_PATO_EXT:biological_localization_process_or_quality 17094 17106	localization
-#89	AnnotationNotes T89	biological localization process or quality
-T90	GO_PATO_EXT:biological_localization_process_or_quality 17211 17223	localization
-#90	AnnotationNotes T90	biological localization process or quality
-T91	GO_PATO_EXT:biological_localization_process_or_quality 17279 17291	localization
-#91	AnnotationNotes T91	biological localization process or quality
-T92	GO_PATO_EXT:biological_localization_process_or_quality 17451 17463	localization
-#92	AnnotationNotes T92	biological localization process or quality
-T93	GO_PATO_EXT:biological_localization_process_or_quality 17537 17546	localized
-#93	AnnotationNotes T93	biological localization process or quality
-T94	GO_PATO_EXT:biological_localization_process_or_quality 17740 17752	localization
-#94	AnnotationNotes T94	biological localization process or quality
-T95	GO_PATO_EXT:physiological_process_or_quality 17778 17791	physiological
-#95	AnnotationNotes T95	physiological process or quality
-T96	GO_EXT:fatality_or_lethality 18276 18282	lethal
-#96	AnnotationNotes T96	fatality/lethality
-T97	GO:0010467 18310 18320	expression
-#97	AnnotationNotes T97	gene expression
-T98	GO:0010467 18531 18540	expressed
-#98	AnnotationNotes T98	gene expression
-T99	GO:0010467 18576 18586	expression
-#99	AnnotationNotes T99	gene expression
-T100	GO:0065007 18922 18932	regulation
-#100	AnnotationNotes T100	biological regulation
-T101	GO:0008380 18949 18957	splicing
-#101	AnnotationNotes T101	RNA splicing
-T102	GO:0006412 19126 19136	translated
-#102	AnnotationNotes T102	translation
-T103	GO:0010467 19215 19225	expression
-#103	AnnotationNotes T103	gene expression
-T104	GO_EXT:biological_direction_or_guidance 19243 19251	directed
-#104	AnnotationNotes T104	biological direction/guidance
-T105	GO:0010467 19274 19284	expression
-#105	AnnotationNotes T105	gene expression
-T106	GO_EXT:biological_routing_or_transport 19302 19310	targeted
-#106	AnnotationNotes T106	biological routing/transport
-T107	GO_EXT:transcription 19344 19359	Transcriptional
-#107	AnnotationNotes T107	transcription
-T108	GO:0010467 19902 19911	expressed
-#108	AnnotationNotes T108	gene expression
-T109	GO:0010467 19980 19990	expression
-#109	AnnotationNotes T109	gene expression
-T110	GO:0010467 20330 20340	expression
-#110	AnnotationNotes T110	gene expression
-T111	GO:0010467 20365 20375	expression
-#111	AnnotationNotes T111	gene expression
-T112	GO:0065007 20835 20845	modulation
-#112	AnnotationNotes T112	biological regulation
-T113	GO:0006096 20971 20981	glycolysis
-#113	AnnotationNotes T113	glycolytic process
-T114	GO:0097009 21058 21076	energy homeostasis
-#114	AnnotationNotes T114	energy homeostasis
-T115	GO:0010467 21090 21100	expression
-#115	AnnotationNotes T115	gene expression
-T116	GO:0010467 21254 21264	expression
-#116	AnnotationNotes T116	gene expression
-T117	GO:0010467 22099 22108	expressed
-#117	AnnotationNotes T117	gene expression
-T118	GO_PATO_EXT:biological_localization_process_or_quality 22401 22413	localization
-#118	AnnotationNotes T118	biological localization process or quality
-T119	GO_EXT:detection_or_sensing_of_light_stimulus 22532 22544	photosensory
-#119	AnnotationNotes T119	detection/sensing of light stimulus
-T120	GO:0010467 23309 23319	expression
-#120	AnnotationNotes T120	gene expression
-T121	GO:0010467 23419 23429	expression
-#121	AnnotationNotes T121	gene expression
-T122	GO:0008152 23846 23855	Metabolic
-#122	AnnotationNotes T122	metabolic process
-T123	GO_EXT:biological_growth_entity_or_process 23913 23919	growth
-#123	AnnotationNotes T123	biological growth entity or process
-T124	GO:0007631 24325 24341	Food consumption
-#124	AnnotationNotes T124	feeding behavior
-T125	GO_EXT:biological_growth_entity_or_process 24475 24481	Growth
-#125	AnnotationNotes T125	biological growth entity or process
-T126	GO_EXT:biological_growth_entity_or_process 24547 24553	growth
-#126	AnnotationNotes T126	biological growth entity or process
-T127	GO_EXT:biological_growth_entity_or_process 24701 24707	growth
-#127	AnnotationNotes T127	biological growth entity or process
-T128	GO:0007631 25045 25061	food consumption
-#128	AnnotationNotes T128	feeding behavior
-T129	GO:0007567 25126 25131	birth
-#129	AnnotationNotes T129	parturition
-T130	GO:0010467 25203 25213	expression
-#130	AnnotationNotes T130	gene expression
-T131	GO:0006094 25643 25652;25665 25675	formation
-#131	AnnotationNotes T131	gluconeogenesis
-T132	GO:0046323 25658 25675	uptake of glucose
-#132	AnnotationNotes T132	glucose import
-T133	GO_PATO_EXT:physiological_process_or_quality 25700 25713	physiological
-#133	AnnotationNotes T133	physiological process or quality
-T134	GO:0046323 26201 26215	glucose uptake
-#134	AnnotationNotes T134	glucose import
-T135	GO:0006094 26282 26297	gluconeogenesis
-#135	AnnotationNotes T135	gluconeogenesis
-T136	GO:0006094 26348 26358;26373 26383	production
-#136	AnnotationNotes T136	gluconeogenesis
-T137	GO:0006094 26424 26437	gluconeogenic
-#137	AnnotationNotes T137	gluconeogenesis
-T138	GO:0006094 26534 26552	glucose production
-#138	AnnotationNotes T138	gluconeogenesis
-T139	GO:0006094 26647 26662	gluconeogenesis
-#139	AnnotationNotes T139	gluconeogenesis
-T140	GO:0006094 26686 26704	glucose production
-#140	AnnotationNotes T140	gluconeogenesis
-T141	GO:0006007 26855 26872	glucose breakdown
-#141	AnnotationNotes T141	glucose catabolic process
-T142	GO:0008152 26885 26894	Metabolic
-#142	AnnotationNotes T142	metabolic process
-T143	GO:0046323 27325 27339	glucose uptake
-#143	AnnotationNotes T143	glucose import
-T144	GO:0010467 27686 27696	expression
-#144	AnnotationNotes T144	gene expression
-T145	GO:0008152 27891 27900	metabolic
-#145	AnnotationNotes T145	metabolic process
-T146	GO_EXT:reaction_or_response 28071 28080	responses
-#146	AnnotationNotes T146	reaction/response
-T147	GO:1990603 28197 28205;28221 28230	scotopic
-#147	AnnotationNotes T147	dark adaptation
-T148	GO:1990603 28207 28219;28221 28230	dark-adapted
-#148	AnnotationNotes T148	dark adaptation
-T149	GO:0036367 28443 28451;28468 28477	photopic
-#149	AnnotationNotes T149	light adaption
-T150	GO:0036367 28453 28466;28468 28477	light-adapted
-#150	AnnotationNotes T150	light adaption
-T151	GO_EXT:detection_or_sensing_of_light_stimulus 28537 28549	photosensory
-#151	AnnotationNotes T151	detection/sensing of light stimulus
-T152	GO:1990603 28746 28764	scotopic responses
-#152	AnnotationNotes T152	dark adaptation
-T153	GO_EXT:reaction_or_response 28945 28954	responses
-#153	AnnotationNotes T153	reaction/response
-T154	GO_EXT:reaction_or_response 29131 29140	responses
-#154	AnnotationNotes T154	reaction/response
-T155	GO:0036367 29278 29292	light response
-#155	AnnotationNotes T155	light adaption
-T156	GO_EXT:reaction_or_response 29470 29479	responses
-#156	AnnotationNotes T156	reaction/response
-T157	GO_EXT:reaction_or_response 29643 29651	response
-#157	AnnotationNotes T157	reaction/response
-T158	GO_EXT:reaction_or_response 30090 30098	Response
-#158	AnnotationNotes T158	reaction/response
-T159	GO:1990603 30115 30123;30139 30148	Scotopic
-#159	AnnotationNotes T159	dark adaptation
-T160	GO:1990603 30125 30137;30139 30148	dark-adapted
-#160	AnnotationNotes T160	dark adaptation
-T161	GO_EXT:reaction_or_response 30343 30352	responses
-#161	AnnotationNotes T161	reaction/response
-T162	GO_EXT:reaction_or_response 30445 30454	responses
-#162	AnnotationNotes T162	reaction/response
-T163	GO:0036367 30505 30513;30558 30567	Photopic
-#163	AnnotationNotes T163	light adaption
-T164	GO:0036367 30515 30528;30558 30567	light-adapted
-#164	AnnotationNotes T164	light adaption
-T165	GO:1990603 30733 30741	scotopic
-#165	AnnotationNotes T165	dark adaptation
-T166	GO_EXT:reaction_or_response 31027 31035	response
-#166	AnnotationNotes T166	reaction/response
-T167	GO_EXT:reaction_or_response 31069 31078	responses
-#167	AnnotationNotes T167	reaction/response
-T168	GO:0065007 31479 31489	modulating
-#168	AnnotationNotes T168	biological regulation
-T169	GO:0042593 31490 31497;31509 31520	glucose
-#169	AnnotationNotes T169	glucose homeostasis
-T170	GO:0097009 31502 31520	energy homeostasis
-#170	AnnotationNotes T170	energy homeostasis
-T171	GO:0006457 31682 31689	folding
-#171	AnnotationNotes T171	protein folding
-T172	GO:0051235 31963 31973	sequesters
-#172	AnnotationNotes T172	maintenance of location
-T173	GO:0051235 32815 32828	sequestration
-#173	AnnotationNotes T173	maintenance of location
-T174	GO_EXT:detection_or_sensing_of_light_stimulus 32868 32880	photosensory
-#174	AnnotationNotes T174	detection/sensing of light stimulus
-T175	GO_EXT:biological_routing_or_transport 32921 32930	targeting
-#175	AnnotationNotes T175	biological routing/transport
-T176	GO_EXT:biological_growth_entity_or_process 33680 33686	growth
-#176	AnnotationNotes T176	biological growth entity or process
-T177	GO:0008152 33720 33730	metabolize
-#177	AnnotationNotes T177	metabolic process
-T178	GO_EXT:reaction_or_response 33882 33891	responses
-#178	AnnotationNotes T178	reaction/response
-T179	GO_EXT:biogenesis_or_biosynthesis 34054 34064	biogenesis
-#179	AnnotationNotes T179	biogenesis/biosynthesis
-T180	GO:0006457 34445 34452	folding
-#180	AnnotationNotes T180	protein folding
-T181	GO_EXT:negative_regulation 34904 34919	down-regulation
-#181	AnnotationNotes T181	negative regulation
-T182	GO:0010498 34934 34965	proteasome-mediated proteolysis
-#182	AnnotationNotes T182	proteasomal protein catabolic process
-T183	GO:0065007 34970 34980	modulation
-#183	AnnotationNotes T183	biological regulation
-T184	GO:0065007 35191 35199	modulate
-#184	AnnotationNotes T184	biological regulation
-T185	GO_EXT:biological_growth_entity_or_process 35273 35279	growth
-#185	AnnotationNotes T185	biological growth entity or process
-T186	GO:0006110 35357 35370;35375 35393	regulation of
-#186	AnnotationNotes T186	regulation of glycolytic process
-T187	GO:0006096 35427 35437	glycolysis
-#187	AnnotationNotes T187	glycolytic process
-T188	GO:0065007 35540 35550	modulating
-#188	AnnotationNotes T188	biological regulation
-T189	GO:0065007 35755 35765	regulation
-#189	AnnotationNotes T189	biological regulation
-T190	GO:0042593 35785 35792;35800 35811	glucose
-#190	AnnotationNotes T190	glucose homeostasis
-T191	GO:0097009 35793 35811	energy homeostasis
-#191	AnnotationNotes T191	energy homeostasis
-T192	GO_EXT:reaction_or_response 36474 36483	responses
-#192	AnnotationNotes T192	reaction/response
-T193	GO:0065007 36926 36934	modulate
-#193	AnnotationNotes T193	biological regulation
-T194	GO:0097009 37230 37248	energy homeostasis
-#194	AnnotationNotes T194	energy homeostasis
-T195	GO:0043335 37267 37276	unfolding
-#195	AnnotationNotes T195	protein unfolding
-T196	GO:0065007 37354 37363	modulated
-#196	AnnotationNotes T196	biological regulation
-T197	GO:0051170 37488 37502	nuclear import
-#197	AnnotationNotes T197	nuclear import
-T198	GO:0051169 37588 37609	nuclear translocation
-#198	AnnotationNotes T198	nuclear transport
-T199	GO_EXT:biological_routing_or_transport 37696 37707	trafficking
-#199	AnnotationNotes T199	biological routing/transport
-T200	GO:0007568 38189 38194	aging
-#200	AnnotationNotes T200	aging
-T201	GO:0008152 38387 38406	metabolic processes
-#201	AnnotationNotes T201	metabolic process
-T202	GO:0008152 38517 38526	Metabolic
-#202	AnnotationNotes T202	metabolic process
-T203	GO_PATO_EXT:physiological_process_or_quality 38631 38644	physiological
-#203	AnnotationNotes T203	physiological process or quality
-T204	GO:0006096 38797 38815	glycolytic pathway
-#204	AnnotationNotes T204	glycolytic process
-T205	GO:0006754 38820 38837	production of ATP
-#205	AnnotationNotes T205	ATP biosynthetic process
-T206	GO:0006096 38843 38861	glycolytic pathway
-#206	AnnotationNotes T206	glycolytic process
-T207	GO_EXT:detection_or_sensing_of_light_stimulus 38999 39011	photosensory
-#207	AnnotationNotes T207	detection/sensing of light stimulus
-T208	GO:0006754 39219 39233	ATP production
-#208	AnnotationNotes T208	ATP biosynthetic process
-T209	GO_EXT:reaction_or_response 39320 39328	response
-#209	AnnotationNotes T209	reaction/response
-T210	GO_EXT:negative_regulation 39402 39422	negatively modulates
-#210	AnnotationNotes T210	negative regulation
-T211	GO_EXT:negative_regulation 39538 39557	modulate negatively
-#211	AnnotationNotes T211	negative regulation
-T212	GO_PATO_EXT:phosphorylation_process 39584 39599	phosphorylation
-#212	AnnotationNotes T212	phosphorylation process
-T213	GO_PATO_EXT:physiological_process_or_quality 39828 39841	physiological
-#213	AnnotationNotes T213	physiological process or quality
-T214	GO:0010467 39956 39966	expression
-#214	AnnotationNotes T214	gene expression
-T215	GO:0071850 40335 40349	mitotic arrest
-#215	AnnotationNotes T215	mitotic cell cycle arrest
-T216	GO:0051292 40368 40389	nuclear pore assembly
-#216	AnnotationNotes T216	nuclear pore complex assembly
-T217	GO_RO_EXT:biological_export 40411 40417	export
-#217	AnnotationNotes T217	biological export
-T218	GO:0008152 40562 40572	metabolism
-#218	AnnotationNotes T218	metabolic process
-T219	GO_EXT:negative_regulation 40624 40639	down-regulation
-#219	AnnotationNotes T219	negative regulation
-T220	GO:0065007 40656 40665	regulated
-#220	AnnotationNotes T220	biological regulation
-T221	GO_PATO_EXT:physiological_process_or_quality 41059 41072	physiological
-#221	AnnotationNotes T221	physiological process or quality
-T222	GO:0007618 41567 41573	mating
-#222	AnnotationNotes T222	mating
-T223	GO:0009294 41757 41771	transformation
-#223	AnnotationNotes T223	DNA mediated transformation
-T224	GO_EXT:biological_growth_entity_or_process 42215 42221	growth
-#224	AnnotationNotes T224	biological growth entity or process
-T225	GO_EXT:biological_growth_entity_or_process 42256 42262	growth
-#225	AnnotationNotes T225	biological growth entity or process
-T226	GO_EXT:biological_direction_or_guidance 42601 42609	directed
-#226	AnnotationNotes T226	biological direction/guidance
-T227	GO:0010467 43036 43046	expression
-#227	AnnotationNotes T227	gene expression
-T228	GO:0043335 43336 43344	Unfolded
-#228	AnnotationNotes T228	protein unfolding
-T229	GO_EXT:macromolecule_denaturation 43359 43368	denatured
-#229	AnnotationNotes T229	macromolecule denaturation
-T230	GO_SO_EXT:sequence_rearrangement_process 43404 43415	recombinant
-#230	AnnotationNotes T230	sequence rearrangement process
-T231	GO_SO_EXT:sequence_rearrangement_process 44421 44432	recombinant
-#231	AnnotationNotes T231	sequence rearrangement process
-T232	GO_SO_EXT:sequence_rearrangement_process 44648 44659	recombinant
-#232	AnnotationNotes T232	sequence rearrangement process
-T233	GO_EXT:macromolecule_denaturation 44723 44733	denaturing
-#233	AnnotationNotes T233	macromolecule denaturation
-T234	GO_PATO_EXT:biological_localization_process_or_quality 46755 46767	localization
-#234	AnnotationNotes T234	biological localization process or quality
-T235	GO:0008380 48159 48165	splice
-#235	AnnotationNotes T235	RNA splicing
-T236	GO_EXT:breeding 48431 48435	bred
-#236	AnnotationNotes T236	breeding
-T237	GO:0010467 49200 49210	expression
-#237	AnnotationNotes T237	gene expression
-T238	GO:0008218 49827 49842	Bioluminescence
-#238	AnnotationNotes T238	bioluminescence
-T239	GO:0008152 50149 50158	Metabolic
-#239	AnnotationNotes T239	metabolic process
-T240	GO:0007565 50228 50237	gestation
-#240	AnnotationNotes T240	female pregnancy
-T241	GO:0007567 50241 50246	birth
-#241	AnnotationNotes T241	parturition
-T242	GO:0007631 50262 50265	fed
-#242	AnnotationNotes T242	feeding behavior
-T243	GO_EXT:reaction_or_response 51407 51416	responses
-#243	AnnotationNotes T243	reaction/response
-T244	GO:1990603 51988 52006	Scotopic responses
-#244	AnnotationNotes T244	dark adaptation
-T245	GO_EXT:detection_or_sensing_of_light_stimulus 52956 52968	photosensory
-#245	AnnotationNotes T245	detection/sensing of light stimulus
-T246	GO_PATO_EXT:biological_localization_process_or_quality 53003 53015	localization
-#246	AnnotationNotes T246	biological localization process or quality
-T247	GO_EXT:detection_or_sensing_of_light_stimulus 53686 53698	photosensory
-#247	AnnotationNotes T247	detection/sensing of light stimulus
-T248	GO:0008152 53772 53781	Metabolic
-#248	AnnotationNotes T248	metabolic process
+T0	GO_0065007 7 16	Modulates
+T1	GO_0006006 103 121	Glucose Metabolism
+T2	GO_PATO_EXT_physiological_process_or_quality 424 437	physiological
+T3	GO_PATO_EXT_physiological_process_or_quality 575 588	physiological
+T4	GO_PATO_EXT_biological_localization_process_or_quality 667 676	localizes
+T5	GO_0006096 746 756	glycolysis
+T6	GO_0006457 916 923	folding
+T7	GO_EXT_biogenesis_or_biosynthesis 1007 1017	biogenesis
+T8	GO_PATO_EXT_biological_localization_process_or_quality 1037 1046	localizes
+T9	GO_PATO_EXT_physiological_process_or_quality 1235 1248	physiological
+T10	GO_EXT_fatality_or_lethality 1398 1404	lethal
+T11	GO_EXT_biological_growth_entity_or_process 1600 1606	growth
+T12	GO_0006007 1617 1635	glucose catabolism
+T13	GO_0046323 1658 1672	glucose uptake
+T14	GO_0006094 1677 1692	gluconeogenesis
+T15	GO_EXT_reaction_or_response 1769 1778	responses
+T16	GO_EXT_detection_or_sensing_of_light_stimulus 1782 1794	photosensory
+T17	GO_EXT_regulator 1873 1883	modulators
+T18	GO_0006007 1901 1919	glucose catabolism
+T19	GO_0097009 1921 1939	energy homeostasis
+T20	GO_0008152 1957 1966	metabolic
+T21	GO_0007568 1968 1973	aging
+T22	GO_0006412 2344 2357;	production of
+2369 2377	production ofproteins
+T23	GO_0051223 2379 2409	control of protein trafficking
+T24	GO_0065007 2460 2467	control
+T25	GO_0051301 2498 2511	cell division
+T26	GO_PATO_EXT_physiological_process_or_quality 2536 2549	physiological
+T27	GO_0065007 3043 3051	modulate
+T28	GO_EXT_biological_growth_entity_or_process 3148 3154	growth
+T29	GO_0006007 3165 3185	breakdown of glucose
+T30	GO_EXT_negative_regulation 3200 3215	down-regulation
+T31	GO_0007601 3293 3299	visual
+T32	GO_0008152 3379 3398	metabolic processes
+T33	GO_0006913 3634 3663	nucleocytoplasmic trafficking
+T34	GO_0006412 3671 3689	protein biogenesis
+T35	GO_0090307 3701 3713;	formation of
+3718 3733	formation ofmitotic spindle
+T36	GO_0051081 3800 3826	nuclear envelope breakdown
+T37	GO_0051382 3832 3853	kinetochore formation
+T38	GO_PATO_EXT_biological_maturation 3858 3868	maturation
+T39	GO_0007067 3882 3889	mitotic
+T40	GO_0051170 4310 4324	nuclear import
+T41	GO_0051170 4400 4414	nuclear import
+T42	GO_0010467 4660 4669	expressed
+T43	GO_EXT_detection_or_sensing_of_light_stimulus 4673 4685	photosensory
+T44	GO_EXT_biological_movement_or_translocation_process 4837 4842	motor
+T45	GO_0051168 5378 5392	nuclear export
+T46	GO_EXT_biological_movement_or_translocation_process 5593 5603	relocation
+T47	GO_PATO_EXT_biological_localization_process_or_quality 5755 5763	localize
+T48	GO_EXT_detection_or_sensing_of_light_stimulus 5838 5850	photosensory
+T49	GO_PATO_EXT_biological_localization_process_or_quality 5947 5959	localization
+T50	GO_0010467 6180 6189	expressed
+T51	GO_0016567 6271 6285	ubiquitination
+T52	GO_0007049 6575 6585	cell-cycle
+T53	GO_0065007 6586 6595	regulated
+T54	GO_0030163 6596 6615	protein degradation
+T55	GO_EXT_biological_growth_entity_or_process 6943 6949	growth
+T56	GO_PATO_EXT_biological_localization_process_or_quality 6985 6994	localizes
+T57	GO_PATO_EXT_physiological_process_or_quality 7272 7285	physiological
+T58	GO_PATO_EXT_physiological_process_or_quality 7387 7397	physiology
+T59	GO_PATO_EXT_physiological_process_or_quality 7693 7703	physiology
+T60	GO_0006006 7709 7716;	glucose
+7724 7734	glucosemetabolism
+T61	GO_0006457 9428 9435	folding
+T62	GO_EXT_macromolecule_denaturation 9552 9561	denatured
+T63	GO_EXT_macromolecule_denaturation 9642 9651	denatured
+T64	GO_EXT_macromolecule_denaturation 9778 9787	denatured
+T65	GO_0010467 9847 9857	expression
+T66	GO_EXT_biological_growth_entity_or_process 11159 11165	growth
+T67	GO_EXT_biological_growth_entity_or_process 11185 11191	growth
+T68	GO_EXT_macromolecule_denaturation 12035 12044	denatured
+T69	GO_EXT_macromolecule_denaturation 12075 12084	denatured
+T70	GO_EXT_macromolecule_denaturation 12152 12164	denaturating
+T71	GO_0006457 12206 12213	Folding
+T72	GO_0010467 12384 12393	expressed
+T73	GO_0065007 12961 12970	modulates
+T74	GO_PATO_EXT_biological_behavior 13282 13289	behaves
+T75	GO_PATO_EXT_biological_behavior 14663 14671	behavior
+T76	GO_PATO_EXT_biological_behavior 14715 14722	behaves
+T77	GO_PATO_EXT_biological_localization_process_or_quality 15404 15413	localizes
+T78	GO_PATO_EXT_biological_localization_process_or_quality 15571 15580	localized
+T79	GO_EXT_detection_or_sensing_of_light_stimulus 15659 15671	photosensory
+T80	GO_PATO_EXT_biological_localization_process_or_quality 15746 15758	localization
+T81	GO_PATO_EXT_biological_localization_process_or_quality 15872 15880	localize
+T82	GO_EXT_detection_or_sensing_of_light_stimulus 16018 16030	photosensory
+T83	GO_PATO_EXT_biological_localization_process_or_quality 16229 16237	localize
+T84	GO_PATO_EXT_biological_localization_process_or_quality 16285 16297	Localization
+T85	GO_0010467 16579 16588	expressed
+T86	GO_PATO_EXT_biological_localization_process_or_quality 16601 16609	localize
+T87	GO_0010467 16642 16652	expression
+T88	GO_PATO_EXT_biological_localization_process_or_quality 16657 16669	localization
+T89	GO_PATO_EXT_biological_localization_process_or_quality 17094 17106	localization
+T90	GO_PATO_EXT_biological_localization_process_or_quality 17211 17223	localization
+T91	GO_PATO_EXT_biological_localization_process_or_quality 17279 17291	localization
+T92	GO_PATO_EXT_biological_localization_process_or_quality 17451 17463	localization
+T93	GO_PATO_EXT_biological_localization_process_or_quality 17537 17546	localized
+T94	GO_PATO_EXT_biological_localization_process_or_quality 17740 17752	localization
+T95	GO_PATO_EXT_physiological_process_or_quality 17778 17791	physiological
+T96	GO_EXT_fatality_or_lethality 18276 18282	lethal
+T97	GO_0010467 18310 18320	expression
+T98	GO_0010467 18531 18540	expressed
+T99	GO_0010467 18576 18586	expression
+T100	GO_0065007 18922 18932	regulation
+T101	GO_0008380 18949 18957	splicing
+T102	GO_0006412 19126 19136	translated
+T103	GO_0010467 19215 19225	expression
+T104	GO_EXT_biological_direction_or_guidance 19243 19251	directed
+T105	GO_0010467 19274 19284	expression
+T106	GO_EXT_biological_routing_or_transport 19302 19310	targeted
+T107	GO_EXT_transcription 19344 19359	Transcriptional
+T108	GO_0010467 19902 19911	expressed
+T109	GO_0010467 19980 19990	expression
+T110	GO_0010467 20330 20340	expression
+T111	GO_0010467 20365 20375	expression
+T112	GO_0065007 20835 20845	modulation
+T113	GO_0006096 20971 20981	glycolysis
+T114	GO_0097009 21058 21076	energy homeostasis
+T115	GO_0010467 21090 21100	expression
+T116	GO_0010467 21254 21264	expression
+T117	GO_0010467 22099 22108	expressed
+T118	GO_PATO_EXT_biological_localization_process_or_quality 22401 22413	localization
+T119	GO_EXT_detection_or_sensing_of_light_stimulus 22532 22544	photosensory
+T120	GO_0010467 23309 23319	expression
+T121	GO_0010467 23419 23429	expression
+T122	GO_0008152 23846 23855	Metabolic
+T123	GO_EXT_biological_growth_entity_or_process 23913 23919	growth
+T124	GO_0007631 24325 24341	Food consumption
+T125	GO_EXT_biological_growth_entity_or_process 24475 24481	Growth
+T126	GO_EXT_biological_growth_entity_or_process 24547 24553	growth
+T127	GO_EXT_biological_growth_entity_or_process 24701 24707	growth
+T128	GO_0007631 25045 25061	food consumption
+T129	GO_0007567 25126 25131	birth
+T130	GO_0010467 25203 25213	expression
+T131	GO_0006094 25643 25652;	formation
+25665 25675	formationof glucose
+T132	GO_0046323 25658 25675	uptake of glucose
+T133	GO_PATO_EXT_physiological_process_or_quality 25700 25713	physiological
+T134	GO_0046323 26201 26215	glucose uptake
+T135	GO_0006094 26282 26297	gluconeogenesis
+T136	GO_0006094 26348 26358;	production
+26373 26383	productionof glucose
+T137	GO_0006094 26424 26437	gluconeogenic
+T138	GO_0006094 26534 26552	glucose production
+T139	GO_0006094 26647 26662	gluconeogenesis
+T140	GO_0006094 26686 26704	glucose production
+T141	GO_0006007 26855 26872	glucose breakdown
+T142	GO_0008152 26885 26894	Metabolic
+T143	GO_0046323 27325 27339	glucose uptake
+T144	GO_0010467 27686 27696	expression
+T145	GO_0008152 27891 27900	metabolic
+T146	GO_EXT_reaction_or_response 28071 28080	responses
+T147	GO_1990603 28197 28205;	scotopic
+28221 28230	scotopicresponses
+T148	GO_1990603 28207 28219;	dark-adapted
+28221 28230	dark-adaptedresponses
+T149	GO_0036367 28443 28451;	photopic
+28468 28477	photopicresponses
+T150	GO_0036367 28453 28466;	light-adapted
+28468 28477	light-adaptedresponses
+T151	GO_EXT_detection_or_sensing_of_light_stimulus 28537 28549	photosensory
+T152	GO_1990603 28746 28764	scotopic responses
+T153	GO_EXT_reaction_or_response 28945 28954	responses
+T154	GO_EXT_reaction_or_response 29131 29140	responses
+T155	GO_0036367 29278 29292	light response
+T156	GO_EXT_reaction_or_response 29470 29479	responses
+T157	GO_EXT_reaction_or_response 29643 29651	response
+T158	GO_EXT_reaction_or_response 30090 30098	Response
+T159	GO_1990603 30115 30123;	Scotopic
+30139 30148	Scotopicresponses
+T160	GO_1990603 30125 30137;	dark-adapted
+30139 30148	dark-adaptedresponses
+T161	GO_EXT_reaction_or_response 30343 30352	responses
+T162	GO_EXT_reaction_or_response 30445 30454	responses
+T163	GO_0036367 30505 30513;	Photopic
+30558 30567	Photopicresponses
+T164	GO_0036367 30515 30528;	light-adapted
+30558 30567	light-adaptedresponses
+T165	GO_1990603 30733 30741	scotopic
+T166	GO_EXT_reaction_or_response 31027 31035	response
+T167	GO_EXT_reaction_or_response 31069 31078	responses
+T168	GO_0065007 31479 31489	modulating
+T169	GO_0042593 31490 31497;	glucose
+31509 31520	glucosehomeostasis
+T170	GO_0097009 31502 31520	energy homeostasis
+T171	GO_0006457 31682 31689	folding
+T172	GO_0051235 31963 31973	sequesters
+T173	GO_0051235 32815 32828	sequestration
+T174	GO_EXT_detection_or_sensing_of_light_stimulus 32868 32880	photosensory
+T175	GO_EXT_biological_routing_or_transport 32921 32930	targeting
+T176	GO_EXT_biological_growth_entity_or_process 33680 33686	growth
+T177	GO_0008152 33720 33730	metabolize
+T178	GO_EXT_reaction_or_response 33882 33891	responses
+T179	GO_EXT_biogenesis_or_biosynthesis 34054 34064	biogenesis
+T180	GO_0006457 34445 34452	folding
+T181	GO_EXT_negative_regulation 34904 34919	down-regulation
+T182	GO_0010498 34934 34965	proteasome-mediated proteolysis
+T183	GO_0065007 34970 34980	modulation
+T184	GO_0065007 35191 35199	modulate
+T185	GO_EXT_biological_growth_entity_or_process 35273 35279	growth
+T186	GO_0006110 35357 35370;	regulation of
+35375 35393	regulation ofglycolytic pathway
+T187	GO_0006096 35427 35437	glycolysis
+T188	GO_0065007 35540 35550	modulating
+T189	GO_0065007 35755 35765	regulation
+T190	GO_0042593 35785 35792;	glucose
+35800 35811	glucosehomeostasis
+T191	GO_0097009 35793 35811	energy homeostasis
+T192	GO_EXT_reaction_or_response 36474 36483	responses
+T193	GO_0065007 36926 36934	modulate
+T194	GO_0097009 37230 37248	energy homeostasis
+T195	GO_0043335 37267 37276	unfolding
+T196	GO_0065007 37354 37363	modulated
+T197	GO_0051170 37488 37502	nuclear import
+T198	GO_0051169 37588 37609	nuclear translocation
+T199	GO_EXT_biological_routing_or_transport 37696 37707	trafficking
+T200	GO_0007568 38189 38194	aging
+T201	GO_0008152 38387 38406	metabolic processes
+T202	GO_0008152 38517 38526	Metabolic
+T203	GO_PATO_EXT_physiological_process_or_quality 38631 38644	physiological
+T204	GO_0006096 38797 38815	glycolytic pathway
+T205	GO_0006754 38820 38837	production of ATP
+T206	GO_0006096 38843 38861	glycolytic pathway
+T207	GO_EXT_detection_or_sensing_of_light_stimulus 38999 39011	photosensory
+T208	GO_0006754 39219 39233	ATP production
+T209	GO_EXT_reaction_or_response 39320 39328	response
+T210	GO_EXT_negative_regulation 39402 39422	negatively modulates
+T211	GO_EXT_negative_regulation 39538 39557	modulate negatively
+T212	GO_PATO_EXT_phosphorylation_process 39584 39599	phosphorylation
+T213	GO_PATO_EXT_physiological_process_or_quality 39828 39841	physiological
+T214	GO_0010467 39956 39966	expression
+T215	GO_0071850 40335 40349	mitotic arrest
+T216	GO_0051292 40368 40389	nuclear pore assembly
+T217	GO_RO_EXT_biological_export 40411 40417	export
+T218	GO_0008152 40562 40572	metabolism
+T219	GO_EXT_negative_regulation 40624 40639	down-regulation
+T220	GO_0065007 40656 40665	regulated
+T221	GO_PATO_EXT_physiological_process_or_quality 41059 41072	physiological
+T222	GO_0007618 41567 41573	mating
+T223	GO_0009294 41757 41771	transformation
+T224	GO_EXT_biological_growth_entity_or_process 42215 42221	growth
+T225	GO_EXT_biological_growth_entity_or_process 42256 42262	growth
+T226	GO_EXT_biological_direction_or_guidance 42601 42609	directed
+T227	GO_0010467 43036 43046	expression
+T228	GO_0043335 43336 43344	Unfolded
+T229	GO_EXT_macromolecule_denaturation 43359 43368	denatured
+T230	GO_SO_EXT_sequence_rearrangement_process 43404 43415	recombinant
+T231	GO_SO_EXT_sequence_rearrangement_process 44421 44432	recombinant
+T232	GO_SO_EXT_sequence_rearrangement_process 44648 44659	recombinant
+T233	GO_EXT_macromolecule_denaturation 44723 44733	denaturing
+T234	GO_PATO_EXT_biological_localization_process_or_quality 46755 46767	localization
+T235	GO_0008380 48159 48165	splice
+T236	GO_EXT_breeding 48431 48435	bred
+T237	GO_0010467 49200 49210	expression
+T238	GO_0008218 49827 49842	Bioluminescence
+T239	GO_0008152 50149 50158	Metabolic
+T240	GO_0007565 50228 50237	gestation
+T241	GO_0007567 50241 50246	birth
+T242	GO_0007631 50262 50265	fed
+T243	GO_EXT_reaction_or_response 51407 51416	responses
+T244	GO_1990603 51988 52006	Scotopic responses
+T245	GO_EXT_detection_or_sensing_of_light_stimulus 52956 52968	photosensory
+T246	GO_PATO_EXT_biological_localization_process_or_quality 53003 53015	localization
+T247	GO_EXT_detection_or_sensing_of_light_stimulus 53686 53698	photosensory
+T248	GO_0008152 53772 53781	Metabolic

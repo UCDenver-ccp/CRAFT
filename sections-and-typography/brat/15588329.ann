@@ -1,568 +1,284 @@
 T0	section 0 151	Membrane trafficking and mitochondrial abnormalities precede subunit c deposition in a cerebellar cell model of juvenile neuronal ceroid lipofuscinosis
-#0	AnnotationNotes T0	section
-T1	section 153 1682	Abstract
-#1	AnnotationNotes T1	section
+T1	section 153 161;162 162;163 173;174 174;175 582;583 583;584 591;592 592;593 1419;1420 1420;1421 1432;1433 1433;1434 1682	Abstract  Background  JNCL is a recessively inherited, childhood-onset neurodegenerative disease most-commonly caused by a ~1 kb CLN3 mutation. The resulting loss of battenin activity leads to deposition of mitochondrial ATP synthase, subunit c and a specific loss of CNS neurons. We previously generated Cln3?ex7/8 knock-in mice, which replicate the common JNCL mutation, express mutant battenin and display JNCL-like pathology.  Results  To elucidate the consequences of the common JNCL mutation in neuronal cells, we used P4 knock-in mouse cerebella to establish conditionally immortalized CbCln3 wild-type, heterozygous, and homozygous neuronal precursor cell lines, which can be differentiated into MAP-2 and NeuN-positive, neuron-like cells. Homozygous CbCln3?ex7/8 precursor cells express low levels of mutant battenin and, when aged at confluency, accumulate ATPase subunit c. Recessive phenotypes are also observed at sub-confluent growth; cathepsin D transport and processing are altered, although enzyme activity is not significantly affected, lysosomal size and distribution are altered, and endocytosis is reduced. In addition, mitochondria are abnormally elongated, cellular ATP levels are decreased, and survival following oxidative stress is reduced.  Conclusions  These findings reveal that battenin is required for intracellular membrane trafficking and mitochondrial function. Moreover, these deficiencies are likely to be early events in the JNCL disease process and may particularly impact neuronal survival.
 T2	italic 282 286	CLN3
-#2	AnnotationNotes T2	italic
 T3	italic 458 462	Cln3
-#3	AnnotationNotes T3	italic
 T4	sup 462 468	?ex7/8
-#4	AnnotationNotes T4	sup
 T5	italic 748 752	Cln3
-#5	AnnotationNotes T5	italic
 T6	italic 914 918	Cln3
-#6	AnnotationNotes T6	italic
 T7	sup 918 924	?ex7/8
-#7	AnnotationNotes T7	sup
-T8	section 1684 4171	Background
-#8	AnnotationNotes T8	section
+T8	section 1684 1694;1695 1695;1696 2164;2165 2165;2166 2646;2647 2647;2648 3043;3044 3044;3045 3713;3714 3714;3715 4171	Background  Juvenile neuronal ceroid lipofuscinosis (JNCL), or Batten disease, is a recessively inherited childhood-onset neurodegenerative disorder characterized by progressive blindness, seizures, motor and cognitive decline, and early death [1]. The primary genetic defect (>80% disease chromosomes) leading to JNCL is a 1.02 kb genomic DNA deletion in the CLN3 gene, which eliminates exons 7 and 8 and surrounding intronic DNA, predicting a non-functional protein product [2].  The pathological hallmark of JNCL is autofluorescent ceroid lipofuscin deposits within autolysosomes that are enriched in subunit c of the mitochondrial ATP synthase complex [3-5]. Remarkably, these deposits are not only found in CNS neurons but are also abundant in non-neuronal cells outside of the nervous system. The relationship of subunit c deposits to the JNCL disease process, and the underlying reason for the neuronal specificity of the disease remain poorly understood.  The CLN3-encoded protein (battenin, also called CLN3 or cln3 p) is a highly conserved, ubiquitously expressed, multi-pass membrane protein [6] that localizes to the lysosome and other vesicular compartments [7-9]. Battenin function remains to be elucidated, although studies of btn1, the yeast CLN3 ortholog, have implicated battenin in lysosomal pH homeostasis and amino acid transport [10,11].  To explore JNCL pathogenesis and battenin function, we previously generated a genetically precise JNCL mouse model. Cln3?ex7/8 knock-in mice harbor the ~1 kb common JNCL mutation and express a non-truncated mutant battenin isoform that is detectable with antibodies recognizing C-terminal epitopes. Homozygous Cln3?ex7/8 knock-in mice exhibit a progressive JNCL-like disease, with perinatal onset of subunit c deposition in many cell types and later onset of neuronal dysfunction and behavioral deficits [12]. These findings suggest that the major JNCL defect leads to abnormal turnover of mitochondrial subunit c, in a manner that selectively compromises CNS neurons.  Currently, there is no suitable neuronal cell system to investigate the impact of the common JNCL mutation on biological processes. Therefore, we have established cerebellar neuronal precursor cell lines from Cln3?ex7/8 knock-in mice. Homozygous CbCln3?ex7/8 cells exhibit pathological hallmarks of the disease, and a survey of membrane organelles revealed membrane trafficking defects and mitochondrial dysfunction in homozygous mutant CbCln3?ex7/8 cells.
 T9	italic 2044 2048	CLN3
-#9	AnnotationNotes T9	italic
 T10	italic 2652 2656	CLN3
-#10	AnnotationNotes T10	italic
 T11	italic 2926 2930	btn1
-#11	AnnotationNotes T11	italic
 T12	italic 2942 2946	CLN3
-#12	AnnotationNotes T12	italic
 T13	italic 3161 3165	Cln3
-#13	AnnotationNotes T13	italic
 T14	sup 3165 3171	?ex7/8
-#14	AnnotationNotes T14	sup
 T15	italic 3355 3359	Cln3
-#15	AnnotationNotes T15	italic
 T16	sup 3359 3365	?ex7/8
-#16	AnnotationNotes T16	sup
 T17	italic 3924 3928	Cln3
-#17	AnnotationNotes T17	italic
 T18	sup 3928 3934	?ex7/8
-#18	AnnotationNotes T18	sup
 T19	italic 3963 3967	Cln3
-#19	AnnotationNotes T19	italic
 T20	sup 3967 3973	?ex7/8
-#20	AnnotationNotes T20	sup
 T21	italic 4154 4158	Cln3
-#21	AnnotationNotes T21	italic
 T22	sup 4158 4164	?ex7/8
-#22	AnnotationNotes T22	sup
-T23	section 4173 21962	Results
-#23	AnnotationNotes T23	section
+T23	section 4173 4180;4181 4181;4182 4244;4245 4245;4246 5426;5427 5427;5428 5436;5437 5437;5438 6154;6155 6155;6156 6241;6242 6242;6243 7813;7814 7814;7815 7823;7824 7824;7825 8318;8319 8319;8320 8328;8329 8329;8330 9438;9439 9439;9440 10434;10435 10435;10436 10444;10445 10445;10446 11914;11915 11915;11916 12005;12006 12006;12007 13631;13632 13632;13633 13641;13642 13642;13643 14766;14767 14767;14768 15438;15439 15439;15440 15503;15504 15504;15505 16960;16961 16961;16962 16970;16971 16971;16972 17843;17844 17844;17845 18440;18441 18441;18442 18450;18451 18451;18452 19128;19129 19129;19130 20306;20307 20307;20308 20316;20317 20317;20318 21962	Results  Generation of a genetically precise cerebellar JNCL cell model  To generate a precise genetic, neuron-derived JNCL cell culture system, we immortalized granule neurons cultured from postnatal day 4 (P4) cerebella of homozygous and heterozygous Cln3?ex7/8 knock-in mice, and wild-type littermates. Primary cell cultures enriched for granule neurons were transduced with retroviral vector bearing a selection cassette and temperature-sensitive tsA58 SV40 large T antigen. Growth in G418 containing medium at the permissive temperature (33°C) allowed for selection and isolation of multiple clonal nestin-positive (Fig. 1a), and GFAP-negative (Fig. 1b), cell lines for each genotype. No genotype specific differences were observed in cellular morphology or doubling time (~46 hours) (data not shown). As expected, SV40 large T antigen expression was rapidly lost and cell division ceased when cells were shifted to the non-permissive temperature (39°C) (data not shown). Upon addition of neuronal differentiation cocktail, precursor cells became neuron-like in morphology and exhibited decreased nestin expression (data not shown) and increased MAP2 and NeuN expression (Fig. 1c,1d), but not expression of the Purkinje marker, calbindin (Fig. 1e).  Figure 1  Neuronal marker expression in CbCln3+/+ cells Characterization of CbCln3+/+ cells by immunofluorescence with marker antibodies is shown. CbCln3+/+ precursors exhibit nestin expression (a) but not GFAP expression (b), consistent with a neuronal precursor identity. Upon stimulation with a differentiation cocktail (see Methods), CbCln3+/+ cells achieved neuron-like morphology, with rounded cell bodies and extension of processes, and MAP2 (c) and NeuN (d) expression was increased. CbCln3+/+ cells are negative for the Purkinje neuron marker calbindin (e). CbCln3+/?ex7/8 and CbCln3?ex7/8/?ex7/8 cell lines exhibited identical marker immunofluorescence results. a, b) 20 × magnification; c, d, e) 40 × magnification.  Homozygous CbCln3?ex7/8 cells express mutant battenin and display JNCL-like pathology  Homozygous Cb Cln3?ex7/8 cells were first examined for JNCL-like characteristics. Homozygous Cln3?ex7/8 knock-in mice express multiple Cln3 mRNA splice variants and mutant battenin protein that is detectable by batp1 antibody recognizing C-terminal epitopes [12]. To assess this molecular phenotype in CbCln3?ex7/8 cells, RT-PCR and anti-battenin (batp1) immunostaining were performed. As shown in Figure 2, Cln3 mRNA isoforms in wild-type and homozygous cells were similar to those observed in total RNA isolated from wild-type or homozygous Cln3?ex7/8 knock-in brain, respectively (Fig. 2). In addition, batp1 immunostaining detected mutant battenin product in homozygous CbCln3?ex7/8 cells, in a similar albeit reduced cytoplasmic, vesicular staining pattern as that seen in wild-type cells. Batp1 signal exhibited some overlap with the lysosomal marker, Lamp1, but had more significant overlap with early endosome antigen 1 (EEA1) and the late endosomal marker, Rab7 (Fig. 3). Only limited overlap was observed with recycling endosomes, as determined by transferrin receptor co-staining (data not shown). Intriguingly, Lamp1 and EEA1 immunocytochemical distribution were altered in homozygous CbCln3?ex7/8 cells, with less perinuclear clustering than in wild-type cells, and Rab7 staining was frequently less intense in homozygous CbCln3?ex7/8 cells (Fig. 3). Heterozygous CbCln3?ex7/8 cells contained a mixture of Cln3 mRNA products from both the wild-type allele and the mutant allele, and batp1 signal was similar to that seen in wild-type cells (data not shown).  Figure 2  RT-PCR of Cln3 mRNA in wild-type and homozygous CbCln3?ex7/8 cells Cln3 Exon1-forward, Exon 15-reverse RT-PCR products are shown, from total wild-type (+/+) or homozygous mutant (?ex7/8/?ex7/8) brain and cell line RNA. Brain and cell line RT-PCR reaction products had identical band patterns on ethidium-bromide stained agarose gels. Wild-type RT-PCR product was a single ~1.6 kb band and mutant products were ~1.6, ~1.5, ~1.4, ~1.35, and ~1.3 kb, representing multiple mutant splice variants.  Figure 3  Battenin and lysosomal and endosomal marker co-staining in wild-type and homozygous CbCln3?ex7/8 cerebellar precursor cells Batp1 immunostaining of wild-type (CbCln3+/+) and homozygous mutant (CbCln3?ex7/8/?ex7/8) cerebellar precursor cells is shown, with co-staining for lysosomes (Lamp 1), early endosomes (EEA1), and late endosomes (Rab7). Significant overlap of Batp1 signal (red) with EEA1 (green, middle panels) and Rab7 (green, bottom panels) can be seen as yellow when the two channels are merged (Merge). The degree of Batp1 overlap is greatest with Rab7. Only limited overlap between Batp1 (red) and Lamp 1 (green, top panels) can be seen. Batp1 signal in homozygous CbCln3?ex7/8 cells is significantly reduced, but significant overlap with EEA1 and Rab7, and very little Lamp 1 overlap, can be seen as yellow in the respective merged panels. Notably, Lamp 1 and EEA1 localization appear altered, and Rab7 staining was frequently less intense in homozygous CbCln3?ex7/8 cells. Wild-type and homozygous CbCln3?ex7/8 confocal images were captured with identical exposure settings. 60 × magnification.  During sub-confluent growth conditions, neither wild-type nor homozygous CbCln3?ex7/8 cells displayed autofluorescence or subunit c inclusion formation (data not shown). However, when cells were aged at confluency (3+ days post-confluency), homozygous CbCln3?ex7/8 cellular subunit c levels were elevated beyond normal wild-type levels by immunostaining (Fig. 4a) and immunoblot analysis (Fig. 4b). Autofluorescent signal sometimes overlapped with subunit c signal, but also was elevated more diffusely (Fig. 4a). Moreover, although multilamellar "fingerprint" profiles were not detected, confluency-aged homozygous CbCln3?ex7/8 cells displayed numerous ultrastructural abnormalities including electron dense inclusions characteristic of lipofuscin and large autophagosomes that contained dense core structures, degenerating mitochondria, and many smaller vesicles (Fig. 4c). Inclusion bodies and autophagosomes were infrequently observed in confluency-aged wild-type cultures (data not shown).  Figure 4  Subunit c accumulation in homozygous CbCln3?ex7/8 cerebellar precursor cells a. Subunit c immunostaining and autofluorescence of 7-day confluency-aged wild-type and homozygous CbCln3?ex7/8 cells is shown. Wild-type cultures (CbCln3+/+) exhibited limited subunit c immunostaining and autofluorescence. However, CbCln3?ex7/8/?ex7/8 cells contained numerous subunit c puncta. Autofluorescence (7 days AF) was also significantly elevated (right panels), although limited overlap with subunit c puncta was observed (arrows). 40 × magnification. b. Immunoblot analysis of subunit c protein at sub-confluency or 7-day confluency incubation is shown. Total protein extracts from sub-confluency wild-type (+/+) and homozygous mutant (?ex7/8/?ex7/8) cultures contained approximately equal levels of subunit c protein (?-sub c). 7-day confluency extract from homozygous CbCln3?ex7/8 cells (?ex7/8/?ex7/8) had elevated levels of subunit c protein (~1.5X), relative to wild-type extract (+/+). Protein levels were normalized to cytochrome c oxidase subunit IV (?-cox4). c. TEM analysis of inclusions in 7-day confluency-aged homozygous CbCln3?ex7/8 cells is shown. A large autophagosome contained by double membrane (arrows) is filled with degenerating mitochondria (Md), electron dense cores (left and right of *) and other smaller vesicular structures. A large electron-dense inclusion, with a lipofuscin (Ln) appearance, is also present. M, mitochondria. 10,000 × magnification.  Homozygous CbCln3?ex7/8 cells and Cln3?ex7/8 knock-in mice process cathepsin D abnormally  We next investigated the basis for subunit c accumulation, testing the hypothesis that cathepsin D is abnormal since it is required for ATP synthase subunit c degradation in the lysosome [13]. We first tested cathepsin D transport and processing in homozygous CbCln3?ex7/8 cells and Cln3?ex7/8 mice using anti-cathepsin D antibody that recognizes unprocessed and processed cathepsin D isoforms. Immunostaining of wild-type and homozygous CbCln3?ex7/8 cells revealed a perinuclear and punctate vesicular cathepsin D distribution, consistent with its transport and processing through the secretory pathway and delivery to the lysosome (Fig. 5a). However, in homozygous CbCln3?ex7/8 cells, cathepsin D distribution was less vesicular and more perinuclear-clustered than in wild-type cells. Immunoblots of homozygous CbCln3?ex7/8 cell and Cln3?ex7/8 tissue extracts also showed altered relative levels of cathepsin D isoforms (Fig. 5b). Cathepsin D isoforms, identified by relative molecular weights, represent the ~45 kDa precursor, the ~43 kDa intermediate single chain form of the enzyme, and the 31 kDa heavy chain of the double-chain form of the mature enzyme [14]. In homozygous CbCln3?ex7/8 cell and Cln3?ex7/8 tissue extracts, the precursor and heavy chains were reduced, and the single chain was slightly elevated compared to wild-type extracts. The cellular growth media did not contain altered levels of cathepsin D, indicating enzyme secretion was not affected. Heterozygous Cln3?ex7/8 mice and CbCln3?ex7/8 cells were indistinguishable from wild-type, as expected for a recessive disease phenotype (data not shown).  Figure 5  Cathepsin D localization and processing in wild-type and homozygous CbCln3?ex7/8 cells a. Immunostaining of wild-type and homozygous CbCln3?ex7/8 precursor cells with anti-cathepsin D antibody, recognizing unprocessed and processed forms of cathepsin D protein is shown. CbCln3+/+ cells (left panel) exhibited a perinuclear and cytoplasmic punctate signal. Cathepsin D signal in homozygous CbCln3?ex7/8 cells (right panel) was more often perinuclear, with less cytoplasmic punctate signal, compared to wild-type CbCln3+/+ cells. 40 × magnification. b. ?-Cathepsin D-probed immunoblots of total wild-type versus homozygous Cln3?ex7/8 knock-in tissue or CbCln3?ex7/8 cellular extracts are shown. The ~45 kDa cathepsin D band, representing precursor, was the predominant band in wild-type (wt) tissue and cellular extracts, with lower levels of mature enzyme (single chain, ~43 kDa, and heavy chain, ~31 kDa). Conversely, homozygous Cln3?ex7/8 and CbCln3?ex7/8 mutant (m) extracts exhibited reduced levels of precursor and heavy chain of the double-chain form of the enzyme, with elevated levels of single-chain mature enzyme.  The impact of the altered cathepsin D processing on enzymatic activity was next tested to determine if altered enzymatic activity accounts for inefficient subunit c turnover. In a fluorogenic in vitro assay, cathepsin D activity in total cellular extracts was not significantly altered in homozygous CbCln3?ex7/8 cells (376 ± 89 RFU/?g total protein), versus wild-type cells (324 ± 58 RFU/?g total protein), although a consistent trend towards increased enzymatic activity in mutant cells was observed. Thus, cathepsin D transport and processing are disrupted in homozygous CbCln3?ex7/8 cells in a manner such that enzymatic activity appears to be relatively unaffected.  Homozygous CbCln3?ex7/8 cells show abnormal membrane organelles  The abnormal transport and processing of cathepsin D suggested membrane trafficking disruptions in homozygous CbCln3?ex7/8 cells; therefore, we surveyed the subcellular distribution and morphology of membrane organelles. Components of the secretory pathway, including the ER, cis-Golgi, and trans-Golgi, did not appear altered from wild-type appearance when labeled with the respective markers, protein disulfide isomerase (PDI), GM130, and VVL (data not shown). By contrast, the lysosomal markers, Lysotracker and Lamp 2 had significantly altered signal in homozygous CbCln3?ex7/8 cells, versus wild-type cells. Wild-type cells exhibited brightly stained lysosomes that were large and clustered in the perinuclear region whereas homozygous CbCln3?ex7/8 lysosomes were lightly stained, smaller vesicles that were more diffusely scattered in the cytoplasm of the cell (Fig. 6). Lamp 1 distribution was also altered, as previously noted (Fig. 3). However, Lamp 1 and Lamp 2 total protein levels were similar in wild-type and homozygous CbCln3?ex7/8 cells by immunoblot analysis, indicating the altered signal likely reflects dispersed lysosomes or altered localization and/or epitope availability (data not shown). It is noteworthy that Lysotracker dye, which selectively accumulates in acidic compartments, exhibited the most marked reduction in lysosomal labeling. This observation may reflect altered lysosomal pH, an established finding in JNCL [10,15].  Figure 6  Lysotracker and Lamp 2 labeling of wild-type and homozygous CbCln3?ex7/8 lysosomes Lysosomal labeling of wild-type and homozygous CbCln3?ex7/8 precursor cells with lysotracker and Lamp 2 antibody is shown. Lysotracker dye (top panels) labeled large, perinuclear-clustered lysosomes and scattered lysosomes in the periphery of wild-type cells (CbCln3+/+). Lysotracker stain was dramatically reduced in homozygous mutant cells (CbCln3?ex7/8/?ex7/8), with smaller labeled vesicles and less apparent perinuclear clustering. Lamp 2 (bottom panels) immunostaining also showed reduced signal intensity with less perinuclear clustering in homozygous CbCln3?ex7/8 cells, although the effect was somewhat less dramatic than that observed with Lysotracker dye. Wild-type and homozygous CbCln3?ex7/8 confocal images were captured with identical exposure settings. 60 × magnification.  Consistent with the altered early endosome marker (EEA1) signal observed by immunostaining (Fig. 3), fluid-phase endocytosis was also altered in homozygous CbCln3?ex7/8 cells, as measured by dextran-FITC uptake (Fig. 7). Following a 15-minute incubation in media containing dextran-FITC, wild-type and heterozygote cells displayed brightly stained, large endocytic vesicles that were clustered in the perinuclear region. However, homozygous CbCln3?ex7/8 cells were less brightly stained with most dextran-FITC signal localizing to smaller vesicles scattered throughout the cytoplasm of the cell.  Figure 7  Endocytosis in wild-type, heterozygous and homozygous CbCln3?ex7/8 cells Dextran-FITC uptake in wild-type, heterozygous and homozygous CbCln3?ex7/8 precursor cells is shown. In wild-type (CbCln3+/+, left panel) and heterozygous (CbCln3+/?ex7/8, middle panel) cells, dextran-FITC label was observed in a perinuclear-clustered vesicular pattern with scattered labeled vesicles also present in the periphery. In contrast, dextran-FITC label of homozygous mutant (CbCln3?ex7/8/?ex7/8, right panel) cells was reduced overall and exhibited smaller stained vesicles with less perinuclear clustering. Confocal images were captured with identical exposure settings. 40 × magnification.  Finally, because subunit c is a mitochondrial protein and its turnover proceeds through autophagic engulfment of mitochondria [13], we analyzed homozygous CbCln3?ex7/8 cell mitochondrial morphology and function. Mitochondrial distribution in homozygous CbCln3?ex7/8 cells was indistinguishable from wild-type and heterozygous cells; however, homozygous CbCln3?ex7/8 mitochondria appeared more elongated by grp75 marker immunostaining and TEM analysis (Fig. 8a). 72% of homozygous mutant mitochondria were greater than 0.6 ?m in length (range = 0.26 ?m to 2.75 ?m), while fewer wild-type mitochondria (51%) reached this length (range = 0.15 ?m to 2.29 ?m). Mitochondrial width was not altered in homozygous CbCln3?ex7/8 cells (data not shown). Moreover, compared to wild-type or heterozygous cells, homozygous CbCln3?ex7/8 cells had significantly reduced cellular ATP levels (1.3 fold less, Fig. 8b) and exhibited reduced survival following hydrogen peroxide treatment (~50% of wild-type survival, Fig. 8c), suggesting impaired energy metabolism and oxidative stress response. Taken together, these data support impaired mitochondrial function in homozygous CbCln3?ex7/8 cells.  Figure 8  Mitochondrial morphology and function in wild-type, heterozygous and homozygous CbCln3?ex7/8 cells a. Confocal and TEM micrographs of wild-type and homozygous CbCln3?ex7/8 mitochondrial morphology are shown. Immunostaining with the inner mitochondrial membrane marker, grp75 (top panels) highlighted elongated mitochondria in homozygous mutant cells (CbCln3?ex7/8/?ex7/8), relative to wild-type mitochondria (CbCln3+/+) (insets, zoom = 2.75x). Mitochondrial distribution was not altered from the wild-type pattern. Elongated homozygous CbCln3?ex7/8 mitochondria were also observed by TEM analysis. 60 × magnification. b. Cellular ATP levels in wild-type, heterozygous and homozygous CbCln3?ex7/8 precursor cells are shown. Wild-type (open bar) and heterozygous (gray bar) CbCln3?ex7/8 cells contained ~39 ?M ATP, while homozygous CbCln3?ex7/8 cells (black bar) contained ~1.3 fold reduced levels of ATP (~30 ?M), which was statistically significant in a t-test (p < 0.0001). Wild-type and heterozygous CbCln3?ex7/8 cellular ATP levels were not statistically different from each other (p > 0.4). A representative of triplicate experiments is shown (n = 6 in each experiment). c. Cell survival following 24-hour hydrogen peroxide treatment is shown. Homozygous CbCln3?ex7/8 cells were ~2-fold more sensitive to oxidative stress by hydrogen peroxide treatment. Wild-type (circle) and heterozygous (triangle) CbCln3?ex7/8 cells exhibited ~50% survival rates with 75–100 ?M H2O2, whereas homozygous CbCln3?ex7/8 cells (squares) had a ~50% survival rate with 50 ?M H2O2. A representative of triplicate experiments is shown (n = 4 in each experiment).
 T24	italic 4426 4430	Cln3
-#24	AnnotationNotes T24	italic
 T25	sup 4430 4436	?ex7/8
-#25	AnnotationNotes T25	sup
-T26	section 5428 6154	Figure 1
-#26	AnnotationNotes T26	section
+T26	section 5428 5436;5437 5437;5438 6154	Figure 1  Neuronal marker expression in CbCln3+/+ cells Characterization of CbCln3+/+ cells by immunofluorescence with marker antibodies is shown. CbCln3+/+ precursors exhibit nestin expression (a) but not GFAP expression (b), consistent with a neuronal precursor identity. Upon stimulation with a differentiation cocktail (see Methods), CbCln3+/+ cells achieved neuron-like morphology, with rounded cell bodies and extension of processes, and MAP2 (c) and NeuN (d) expression was increased. CbCln3+/+ cells are negative for the Purkinje neuron marker calbindin (e). CbCln3+/?ex7/8 and CbCln3?ex7/8/?ex7/8 cell lines exhibited identical marker immunofluorescence results. a, b) 20 × magnification; c, d, e) 40 × magnification.
 T27	bold 5438 5483	Neuronal marker expression in CbCln3+/+ cells
-#27	AnnotationNotes T27	bold
 T28	italic 5470 5474	Cln3
-#28	AnnotationNotes T28	italic
 T29	sup 5474 5477	+/+
-#29	AnnotationNotes T29	sup
 T30	italic 5506 5510	Cln3
-#30	AnnotationNotes T30	italic
 T31	sup 5510 5513	+/+
-#31	AnnotationNotes T31	sup
 T32	italic 5577 5581	Cln3
-#32	AnnotationNotes T32	italic
 T33	sup 5581 5584	+/+
-#33	AnnotationNotes T33	sup
 T34	italic 5768 5772	Cln3
-#34	AnnotationNotes T34	italic
 T35	sup 5772 5775	+/+
-#35	AnnotationNotes T35	sup
 T36	italic 5922 5926	Cln3
-#36	AnnotationNotes T36	italic
 T37	sup 5926 5929	+/+
-#37	AnnotationNotes T37	sup
 T38	italic 5997 6001	Cln3
-#38	AnnotationNotes T38	italic
 T39	sup 6001 6009	+/?ex7/8
-#39	AnnotationNotes T39	sup
 T40	italic 6016 6020	Cln3
-#40	AnnotationNotes T40	italic
 T41	sup 6020 6033	?ex7/8/?ex7/8
-#41	AnnotationNotes T41	sup
 T42	italic 6169 6173	Cln3
-#42	AnnotationNotes T42	italic
 T43	sup 6173 6179	?ex7/8
-#43	AnnotationNotes T43	sup
 T44	italic 6257 6261	Cln3
-#44	AnnotationNotes T44	italic
 T45	sup 6261 6267	?ex7/8
-#45	AnnotationNotes T45	sup
 T46	italic 6336 6340	Cln3
-#46	AnnotationNotes T46	italic
 T47	sup 6340 6346	?ex7/8
-#47	AnnotationNotes T47	sup
 T48	italic 6378 6382	Cln3
-#48	AnnotationNotes T48	italic
 T49	italic 6547 6551	Cln3
-#49	AnnotationNotes T49	italic
 T50	sup 6551 6557	?ex7/8
-#50	AnnotationNotes T50	sup
 T51	italic 6651 6655	Cln3
-#51	AnnotationNotes T51	italic
 T52	italic 6786 6790	Cln3
-#52	AnnotationNotes T52	italic
 T53	sup 6790 6796	?ex7/8
-#53	AnnotationNotes T53	sup
 T54	italic 6919 6923	Cln3
-#54	AnnotationNotes T54	italic
 T55	sup 6923 6929	?ex7/8
-#55	AnnotationNotes T55	sup
 T56	italic 7442 7446	Cln3
-#56	AnnotationNotes T56	italic
 T57	sup 7446 7452	?ex7/8
-#57	AnnotationNotes T57	sup
 T58	italic 7580 7584	Cln3
-#58	AnnotationNotes T58	italic
 T59	sup 7584 7590	?ex7/8
-#59	AnnotationNotes T59	sup
 T60	italic 7622 7626	Cln3
-#60	AnnotationNotes T60	italic
 T61	sup 7626 7632	?ex7/8
-#61	AnnotationNotes T61	sup
 T62	italic 7662 7666	Cln3
-#62	AnnotationNotes T62	italic
-T63	section 7815 8318	Figure 2
-#63	AnnotationNotes T63	section
+T63	section 7815 7823;7824 7824;7825 8318	Figure 2  RT-PCR of Cln3 mRNA in wild-type and homozygous CbCln3?ex7/8 cells Cln3 Exon1-forward, Exon 15-reverse RT-PCR products are shown, from total wild-type (+/+) or homozygous mutant (?ex7/8/?ex7/8) brain and cell line RNA. Brain and cell line RT-PCR reaction products had identical band patterns on ethidium-bromide stained agarose gels. Wild-type RT-PCR product was a single ~1.6 kb band and mutant products were ~1.6, ~1.5, ~1.4, ~1.35, and ~1.3 kb, representing multiple mutant splice variants.
 T64	bold 7825 7891	RT-PCR of Cln3 mRNA in wild-type and homozygous CbCln3?ex7/8 cells
-#64	AnnotationNotes T64	bold
 T65	italic 7875 7879	Cln3
-#65	AnnotationNotes T65	italic
 T66	sup 7879 7885	?ex7/8
-#66	AnnotationNotes T66	sup
 T67	italic 7892 7896	Cln3
-#67	AnnotationNotes T67	italic
-T68	section 8320 9438	Figure 3
-#68	AnnotationNotes T68	section
+T68	section 8320 8328;8329 8329;8330 9438	Figure 3  Battenin and lysosomal and endosomal marker co-staining in wild-type and homozygous CbCln3?ex7/8 cerebellar precursor cells Batp1 immunostaining of wild-type (CbCln3+/+) and homozygous mutant (CbCln3?ex7/8/?ex7/8) cerebellar precursor cells is shown, with co-staining for lysosomes (Lamp 1), early endosomes (EEA1), and late endosomes (Rab7). Significant overlap of Batp1 signal (red) with EEA1 (green, middle panels) and Rab7 (green, bottom panels) can be seen as yellow when the two channels are merged (Merge). The degree of Batp1 overlap is greatest with Rab7. Only limited overlap between Batp1 (red) and Lamp 1 (green, top panels) can be seen. Batp1 signal in homozygous CbCln3?ex7/8 cells is significantly reduced, but significant overlap with EEA1 and Rab7, and very little Lamp 1 overlap, can be seen as yellow in the respective merged panels. Notably, Lamp 1 and EEA1 localization appear altered, and Rab7 staining was frequently less intense in homozygous CbCln3?ex7/8 cells. Wild-type and homozygous CbCln3?ex7/8 confocal images were captured with identical exposure settings. 60 × magnification.
 T69	bold 8330 8453	Battenin and lysosomal and endosomal marker co-staining in wild-type and homozygous CbCln3?ex7/8 cerebellar precursor cells
-#69	AnnotationNotes T69	bold
 T70	italic 8416 8420	Cln3
-#70	AnnotationNotes T70	italic
 T71	sup 8420 8426	?ex7/8
-#71	AnnotationNotes T71	sup
 T72	italic 8491 8495	Cln3
-#72	AnnotationNotes T72	italic
 T73	sup 8495 8498	+/+
-#73	AnnotationNotes T73	sup
 T74	italic 8525 8529	Cln3
-#74	AnnotationNotes T74	italic
 T75	sup 8529 8542	?ex7/8/?ex7/8
-#75	AnnotationNotes T75	sup
 T76	italic 9009 9013	Cln3
-#76	AnnotationNotes T76	italic
 T77	sup 9013 9019	?ex7/8
-#77	AnnotationNotes T77	sup
 T78	italic 9299 9303	Cln3
-#78	AnnotationNotes T78	italic
 T79	sup 9303 9309	?ex7/8
-#79	AnnotationNotes T79	sup
 T80	italic 9344 9348	Cln3
-#80	AnnotationNotes T80	italic
 T81	sup 9348 9354	?ex7/8
-#81	AnnotationNotes T81	sup
 T82	italic 9515 9519	Cln3
-#82	AnnotationNotes T82	italic
 T83	sup 9519 9525	?ex7/8
-#83	AnnotationNotes T83	sup
 T84	italic 9694 9698	Cln3
-#84	AnnotationNotes T84	italic
 T85	sup 9698 9704	?ex7/8
-#85	AnnotationNotes T85	sup
 T86	italic 10058 10062	Cln3
-#86	AnnotationNotes T86	italic
 T87	sup 10062 10068	?ex7/8
-#87	AnnotationNotes T87	sup
-T88	section 10436 11914	Figure 4
-#88	AnnotationNotes T88	section
+T88	section 10436 10444;10445 10445;10446 11914	Figure 4  Subunit c accumulation in homozygous CbCln3?ex7/8 cerebellar precursor cells a. Subunit c immunostaining and autofluorescence of 7-day confluency-aged wild-type and homozygous CbCln3?ex7/8 cells is shown. Wild-type cultures (CbCln3+/+) exhibited limited subunit c immunostaining and autofluorescence. However, CbCln3?ex7/8/?ex7/8 cells contained numerous subunit c puncta. Autofluorescence (7 days AF) was also significantly elevated (right panels), although limited overlap with subunit c puncta was observed (arrows). 40 × magnification. b. Immunoblot analysis of subunit c protein at sub-confluency or 7-day confluency incubation is shown. Total protein extracts from sub-confluency wild-type (+/+) and homozygous mutant (?ex7/8/?ex7/8) cultures contained approximately equal levels of subunit c protein (?-sub c). 7-day confluency extract from homozygous CbCln3?ex7/8 cells (?ex7/8/?ex7/8) had elevated levels of subunit c protein (~1.5X), relative to wild-type extract (+/+). Protein levels were normalized to cytochrome c oxidase subunit IV (?-cox4). c. TEM analysis of inclusions in 7-day confluency-aged homozygous CbCln3?ex7/8 cells is shown. A large autophagosome contained by double membrane (arrows) is filled with degenerating mitochondria (Md), electron dense cores (left and right of *) and other smaller vesicular structures. A large electron-dense inclusion, with a lipofuscin (Ln) appearance, is also present. M, mitochondria. 10,000 × magnification.
 T89	bold 10446 10522	Subunit c accumulation in homozygous CbCln3?ex7/8 cerebellar precursor cells
-#89	AnnotationNotes T89	bold
 T90	italic 10485 10489	Cln3
-#90	AnnotationNotes T90	italic
 T91	sup 10489 10495	?ex7/8
-#91	AnnotationNotes T91	sup
 T92	italic 10624 10628	Cln3
-#92	AnnotationNotes T92	italic
 T93	sup 10628 10634	?ex7/8
-#93	AnnotationNotes T93	sup
 T94	italic 10673 10677	Cln3
-#94	AnnotationNotes T94	italic
 T95	sup 10677 10680	+/+
-#95	AnnotationNotes T95	sup
 T96	italic 10758 10762	Cln3
-#96	AnnotationNotes T96	italic
 T97	sup 10762 10775	?ex7/8/?ex7/8
-#97	AnnotationNotes T97	sup
 T98	italic 11307 11311	Cln3
-#98	AnnotationNotes T98	italic
 T99	sup 11311 11317	?ex7/8
-#99	AnnotationNotes T99	sup
 T100	italic 11571 11575	Cln3
-#100	AnnotationNotes T100	italic
 T101	sup 11575 11581	?ex7/8
-#101	AnnotationNotes T101	sup
 T102	sub 11701 11702	d
-#102	AnnotationNotes T102	sub
 T103	italic 11929 11933	Cln3
-#103	AnnotationNotes T103	italic
 T104	sup 11933 11939	?ex7/8
-#104	AnnotationNotes T104	sup
 T105	italic 11950 11954	Cln3
-#105	AnnotationNotes T105	italic
 T106	sup 11954 11960	?ex7/8
-#106	AnnotationNotes T106	sup
 T107	italic 12269 12273	Cln3
-#107	AnnotationNotes T107	italic
 T108	sup 12273 12279	?ex7/8
-#108	AnnotationNotes T108	sup
 T109	italic 12290 12294	Cln3
-#109	AnnotationNotes T109	italic
 T110	sup 12294 12300	?ex7/8
-#110	AnnotationNotes T110	sup
 T111	italic 12447 12451	Cln3
-#111	AnnotationNotes T111	italic
 T112	sup 12451 12457	?ex7/8
-#112	AnnotationNotes T112	sup
 T113	italic 12676 12680	Cln3
-#113	AnnotationNotes T113	italic
 T114	sup 12680 12686	?ex7/8
-#114	AnnotationNotes T114	sup
 T115	italic 12822 12826	Cln3
-#115	AnnotationNotes T115	italic
 T116	sup 12826 12832	?ex7/8
-#116	AnnotationNotes T116	sup
 T117	italic 12842 12846	Cln3
-#117	AnnotationNotes T117	italic
 T118	sup 12846 12852	?ex7/8
-#118	AnnotationNotes T118	sup
 T119	italic 13190 13194	Cln3
-#119	AnnotationNotes T119	italic
 T120	sup 13194 13200	?ex7/8
-#120	AnnotationNotes T120	sup
 T121	italic 13210 13214	Cln3
-#121	AnnotationNotes T121	italic
 T122	sup 13214 13220	?ex7/8
-#122	AnnotationNotes T122	sup
 T123	italic 13490 13494	Cln3
-#123	AnnotationNotes T123	italic
 T124	sup 13494 13500	?ex7/8
-#124	AnnotationNotes T124	sup
 T125	italic 13512 13516	Cln3
-#125	AnnotationNotes T125	italic
 T126	sup 13516 13522	?ex7/8
-#126	AnnotationNotes T126	sup
-T127	section 13633 14766	Figure 5
-#127	AnnotationNotes T127	section
+T127	section 13633 13641;13642 13642;13643 14766	Figure 5  Cathepsin D localization and processing in wild-type and homozygous CbCln3?ex7/8 cells a. Immunostaining of wild-type and homozygous CbCln3?ex7/8 precursor cells with anti-cathepsin D antibody, recognizing unprocessed and processed forms of cathepsin D protein is shown. CbCln3+/+ cells (left panel) exhibited a perinuclear and cytoplasmic punctate signal. Cathepsin D signal in homozygous CbCln3?ex7/8 cells (right panel) was more often perinuclear, with less cytoplasmic punctate signal, compared to wild-type CbCln3+/+ cells. 40 × magnification. b. ?-Cathepsin D-probed immunoblots of total wild-type versus homozygous Cln3?ex7/8 knock-in tissue or CbCln3?ex7/8 cellular extracts are shown. The ~45 kDa cathepsin D band, representing precursor, was the predominant band in wild-type (wt) tissue and cellular extracts, with lower levels of mature enzyme (single chain, ~43 kDa, and heavy chain, ~31 kDa). Conversely, homozygous Cln3?ex7/8 and CbCln3?ex7/8 mutant (m) extracts exhibited reduced levels of precursor and heavy chain of the double-chain form of the enzyme, with elevated levels of single-chain mature enzyme.
 T128	bold 13643 13729	Cathepsin D localization and processing in wild-type and homozygous CbCln3?ex7/8 cells
-#128	AnnotationNotes T128	bold
 T129	italic 13713 13717	Cln3
-#129	AnnotationNotes T129	italic
 T130	sup 13717 13723	?ex7/8
-#130	AnnotationNotes T130	sup
 T131	italic 13778 13782	Cln3
-#131	AnnotationNotes T131	italic
 T132	sup 13782 13788	?ex7/8
-#132	AnnotationNotes T132	sup
 T133	italic 13916 13920	Cln3
-#133	AnnotationNotes T133	italic
 T134	sup 13920 13923	+/+
-#134	AnnotationNotes T134	sup
 T135	italic 14035 14039	Cln3
-#135	AnnotationNotes T135	italic
 T136	sup 14039 14045	?ex7/8
-#136	AnnotationNotes T136	sup
 T137	italic 14157 14161	Cln3
-#137	AnnotationNotes T137	italic
 T138	sup 14161 14164	+/+
-#138	AnnotationNotes T138	sup
 T139	italic 14265 14269	Cln3
-#139	AnnotationNotes T139	italic
 T140	sup 14269 14275	?ex7/8
-#140	AnnotationNotes T140	sup
 T141	italic 14297 14301	Cln3
-#141	AnnotationNotes T141	italic
 T142	sup 14301 14307	?ex7/8
-#142	AnnotationNotes T142	sup
 T143	italic 14573 14577	Cln3
-#143	AnnotationNotes T143	italic
 T144	sup 14577 14583	?ex7/8
-#144	AnnotationNotes T144	sup
 T145	italic 14590 14594	Cln3
-#145	AnnotationNotes T145	italic
 T146	sup 14594 14600	?ex7/8
-#146	AnnotationNotes T146	sup
 T147	italic 14960 14968	in vitro
-#147	AnnotationNotes T147	italic
 T148	italic 15070 15074	Cln3
-#148	AnnotationNotes T148	italic
 T149	sup 15074 15080	?ex7/8
-#149	AnnotationNotes T149	sup
 T150	italic 15344 15348	Cln3
-#150	AnnotationNotes T150	italic
 T151	sup 15348 15354	?ex7/8
-#151	AnnotationNotes T151	sup
 T152	italic 15453 15457	Cln3
-#152	AnnotationNotes T152	italic
 T153	sup 15457 15463	?ex7/8
-#153	AnnotationNotes T153	sup
 T154	italic 15617 15621	Cln3
-#154	AnnotationNotes T154	italic
 T155	sup 15621 15627	?ex7/8
-#155	AnnotationNotes T155	sup
 T156	italic 15781 15784	cis
-#156	AnnotationNotes T156	italic
 T157	italic 15796 15801	trans
-#157	AnnotationNotes T157	italic
 T158	italic 16076 16080	Cln3
-#158	AnnotationNotes T158	italic
 T159	sup 16080 16086	?ex7/8
-#159	AnnotationNotes T159	sup
 T160	italic 16248 16252	Cln3
-#160	AnnotationNotes T160	italic
 T161	sup 16252 16258	?ex7/8
-#161	AnnotationNotes T161	sup
 T162	italic 16541 16545	Cln3
-#162	AnnotationNotes T162	italic
 T163	sup 16545 16551	?ex7/8
-#163	AnnotationNotes T163	sup
-T164	section 16962 17843	Figure 6
-#164	AnnotationNotes T164	section
+T164	section 16962 16970;16971 16971;16972 17843	Figure 6  Lysotracker and Lamp 2 labeling of wild-type and homozygous CbCln3?ex7/8 lysosomes Lysosomal labeling of wild-type and homozygous CbCln3?ex7/8 precursor cells with lysotracker and Lamp 2 antibody is shown. Lysotracker dye (top panels) labeled large, perinuclear-clustered lysosomes and scattered lysosomes in the periphery of wild-type cells (CbCln3+/+). Lysotracker stain was dramatically reduced in homozygous mutant cells (CbCln3?ex7/8/?ex7/8), with smaller labeled vesicles and less apparent perinuclear clustering. Lamp 2 (bottom panels) immunostaining also showed reduced signal intensity with less perinuclear clustering in homozygous CbCln3?ex7/8 cells, although the effect was somewhat less dramatic than that observed with Lysotracker dye. Wild-type and homozygous CbCln3?ex7/8 confocal images were captured with identical exposure settings. 60 × magnification.
 T165	bold 16972 17054	Lysotracker and Lamp 2 labeling of wild-type and homozygous CbCln3?ex7/8 lysosomes
-#165	AnnotationNotes T165	bold
 T166	italic 17034 17038	Cln3
-#166	AnnotationNotes T166	italic
 T167	sup 17038 17044	?ex7/8
-#167	AnnotationNotes T167	sup
 T168	italic 17104 17108	Cln3
-#168	AnnotationNotes T168	italic
 T169	sup 17108 17114	?ex7/8
-#169	AnnotationNotes T169	sup
 T170	italic 17317 17321	Cln3
-#170	AnnotationNotes T170	italic
 T171	sup 17321 17324	+/+
-#171	AnnotationNotes T171	sup
 T172	italic 17400 17404	Cln3
-#172	AnnotationNotes T172	italic
 T173	sup 17404 17417	?ex7/8/?ex7/8
-#173	AnnotationNotes T173	sup
 T174	italic 17616 17620	Cln3
-#174	AnnotationNotes T174	italic
 T175	sup 17620 17626	?ex7/8
-#175	AnnotationNotes T175	sup
 T176	italic 17749 17753	Cln3
-#176	AnnotationNotes T176	italic
 T177	sup 17753 17759	?ex7/8
-#177	AnnotationNotes T177	sup
 T178	italic 18003 18007	Cln3
-#178	AnnotationNotes T178	italic
 T179	sup 18007 18013	?ex7/8
-#179	AnnotationNotes T179	sup
 T180	italic 18288 18292	Cln3
-#180	AnnotationNotes T180	italic
 T181	sup 18292 18298	?ex7/8
-#181	AnnotationNotes T181	sup
-T182	section 18442 19128	Figure 7
-#182	AnnotationNotes T182	section
+T182	section 18442 18450;18451 18451;18452 19128	Figure 7  Endocytosis in wild-type, heterozygous and homozygous CbCln3?ex7/8 cells Dextran-FITC uptake in wild-type, heterozygous and homozygous CbCln3?ex7/8 precursor cells is shown. In wild-type (CbCln3+/+, left panel) and heterozygous (CbCln3+/?ex7/8, middle panel) cells, dextran-FITC label was observed in a perinuclear-clustered vesicular pattern with scattered labeled vesicles also present in the periphery. In contrast, dextran-FITC label of homozygous mutant (CbCln3?ex7/8/?ex7/8, right panel) cells was reduced overall and exhibited smaller stained vesicles with less perinuclear clustering. Confocal images were captured with identical exposure settings. 40 × magnification.
 T183	bold 18452 18524	Endocytosis in wild-type, heterozygous and homozygous CbCln3?ex7/8 cells
-#183	AnnotationNotes T183	bold
 T184	italic 18508 18512	Cln3
-#184	AnnotationNotes T184	italic
 T185	sup 18512 18518	?ex7/8
-#185	AnnotationNotes T185	sup
 T186	italic 18589 18593	Cln3
-#186	AnnotationNotes T186	italic
 T187	sup 18593 18599	?ex7/8
-#187	AnnotationNotes T187	sup
 T188	italic 18642 18646	Cln3
-#188	AnnotationNotes T188	italic
 T189	sup 18646 18649	+/+
-#189	AnnotationNotes T189	sup
 T190	italic 18683 18687	Cln3
-#190	AnnotationNotes T190	italic
 T191	sup 18687 18695	+/?ex7/8
-#191	AnnotationNotes T191	sup
 T192	italic 18914 18918	Cln3
-#192	AnnotationNotes T192	italic
 T193	sup 18918 18931	?ex7/8/?ex7/8
-#193	AnnotationNotes T193	sup
 T194	italic 19287 19291	Cln3
-#194	AnnotationNotes T194	italic
 T195	sup 19291 19297	?ex7/8
-#195	AnnotationNotes T195	sup
 T196	italic 19385 19389	Cln3
-#196	AnnotationNotes T196	italic
 T197	sup 19389 19395	?ex7/8
-#197	AnnotationNotes T197	sup
 T198	italic 19485 19489	Cln3
-#198	AnnotationNotes T198	italic
 T199	sup 19489 19495	?ex7/8
-#199	AnnotationNotes T199	sup
 T200	italic 19838 19842	Cln3
-#200	AnnotationNotes T200	italic
 T201	sup 19842 19848	?ex7/8
-#201	AnnotationNotes T201	sup
 T202	italic 19941 19945	Cln3
-#202	AnnotationNotes T202	italic
 T203	sup 19945 19951	?ex7/8
-#203	AnnotationNotes T203	sup
 T204	italic 20289 20293	Cln3
-#204	AnnotationNotes T204	italic
 T205	sup 20293 20299	?ex7/8
-#205	AnnotationNotes T205	sup
-T206	section 20308 21962	Figure 8
-#206	AnnotationNotes T206	section
+T206	section 20308 20316;20317 20317;20318 21962	Figure 8  Mitochondrial morphology and function in wild-type, heterozygous and homozygous CbCln3?ex7/8 cells a. Confocal and TEM micrographs of wild-type and homozygous CbCln3?ex7/8 mitochondrial morphology are shown. Immunostaining with the inner mitochondrial membrane marker, grp75 (top panels) highlighted elongated mitochondria in homozygous mutant cells (CbCln3?ex7/8/?ex7/8), relative to wild-type mitochondria (CbCln3+/+) (insets, zoom = 2.75x). Mitochondrial distribution was not altered from the wild-type pattern. Elongated homozygous CbCln3?ex7/8 mitochondria were also observed by TEM analysis. 60 × magnification. b. Cellular ATP levels in wild-type, heterozygous and homozygous CbCln3?ex7/8 precursor cells are shown. Wild-type (open bar) and heterozygous (gray bar) CbCln3?ex7/8 cells contained ~39 ?M ATP, while homozygous CbCln3?ex7/8 cells (black bar) contained ~1.3 fold reduced levels of ATP (~30 ?M), which was statistically significant in a t-test (p < 0.0001). Wild-type and heterozygous CbCln3?ex7/8 cellular ATP levels were not statistically different from each other (p > 0.4). A representative of triplicate experiments is shown (n = 6 in each experiment). c. Cell survival following 24-hour hydrogen peroxide treatment is shown. Homozygous CbCln3?ex7/8 cells were ~2-fold more sensitive to oxidative stress by hydrogen peroxide treatment. Wild-type (circle) and heterozygous (triangle) CbCln3?ex7/8 cells exhibited ~50% survival rates with 75–100 ?M H2O2, whereas homozygous CbCln3?ex7/8 cells (squares) had a ~50% survival rate with 50 ?M H2O2. A representative of triplicate experiments is shown (n = 4 in each experiment).
 T207	bold 20318 20416	Mitochondrial morphology and function in wild-type, heterozygous and homozygous CbCln3?ex7/8 cells
-#207	AnnotationNotes T207	bold
 T208	italic 20400 20404	Cln3
-#208	AnnotationNotes T208	italic
 T209	sup 20404 20410	?ex7/8
-#209	AnnotationNotes T209	sup
 T210	italic 20479 20483	Cln3
-#210	AnnotationNotes T210	italic
 T211	sup 20483 20489	?ex7/8
-#211	AnnotationNotes T211	sup
 T212	italic 20671 20675	Cln3
-#212	AnnotationNotes T212	italic
 T213	sup 20675 20688	?ex7/8/?ex7/8
-#213	AnnotationNotes T213	sup
 T214	italic 20729 20733	Cln3
-#214	AnnotationNotes T214	italic
 T215	sup 20733 20736	+/+
-#215	AnnotationNotes T215	sup
 T216	italic 20856 20860	Cln3
-#216	AnnotationNotes T216	italic
 T217	sup 20860 20866	?ex7/8
-#217	AnnotationNotes T217	sup
 T218	italic 21003 21007	Cln3
-#218	AnnotationNotes T218	italic
 T219	sup 21007 21013	?ex7/8
-#219	AnnotationNotes T219	sup
 T220	italic 21092 21096	Cln3
-#220	AnnotationNotes T220	italic
 T221	sup 21096 21102	?ex7/8
-#221	AnnotationNotes T221	sup
 T222	italic 21150 21154	Cln3
-#222	AnnotationNotes T222	italic
 T223	sup 21154 21160	?ex7/8
-#223	AnnotationNotes T223	sup
 T224	italic 21322 21326	Cln3
-#224	AnnotationNotes T224	italic
 T225	sup 21326 21332	?ex7/8
-#225	AnnotationNotes T225	sup
 T226	italic 21579 21583	Cln3
-#226	AnnotationNotes T226	italic
 T227	sup 21583 21589	?ex7/8
-#227	AnnotationNotes T227	sup
 T228	italic 21725 21729	Cln3
-#228	AnnotationNotes T228	italic
 T229	sup 21729 21735	?ex7/8
-#229	AnnotationNotes T229	sup
 T230	sub 21788 21789	2
-#230	AnnotationNotes T230	sub
 T231	sub 21790 21791	2
-#231	AnnotationNotes T231	sub
 T232	italic 21814 21818	Cln3
-#232	AnnotationNotes T232	italic
 T233	sup 21818 21824	?ex7/8
-#233	AnnotationNotes T233	sup
 T234	sub 21878 21879	2
-#234	AnnotationNotes T234	sub
 T235	sub 21880 21881	2
-#235	AnnotationNotes T235	sub
-T236	section 21964 25340	Discussion
-#236	AnnotationNotes T236	section
+T236	section 21964 21974;21975 21975;21976 22575;22576 22576;22577 23331;23332 23332;23333 24422;24423 24423;24424 25340	Discussion  CbCln3?ex7/8 cerebellar precursor cells represent the first genetically accurate neuron-derived culture model of JNCL. Homozygous CbCln3?ex7/8 cells express mutant battenin and JNCL-hallmark mitochondrial ATPase subunit c accumulation, upon aging of cells at confluency. Moreover, this is the first study to indicate recessive endosomal/lysosomal membrane trafficking defects and mitochondrial dysfunction that precedes subunit c deposition in an accurate JNCL model. Importantly, these defects are likely to be early events in the JNCL disease process and may particularly impact neuronal function.  Abnormal cathepsin D localization and processing in homozygous CbCln3?ex7/8 cells and Cln3?ex7/8 mice likely reflects altered vesicular trafficking and/or lysosomal pH, which is known to impact cathepsin D processing [14,16]. Indeed, CLN3 overexpression in HEK-293 cells altered lysosomal pH and cathepsin D processing [17], and lysosomal pH homeostasis is disrupted in JNCL [10,15]. It is noteworthy that cathepsin B and the CLN2-encoded enzyme, TPPI, are also altered in JNCL [18-20]. Nevertheless, despite the cathepsin D protein alterations that are observed in homozygous CbCln3?ex7/8 cells, cathepsin D enzymatic activity does not appear to be reduced. Thus, decreased cathepsin D activity is unlikely to account for subunit c accumulation in JNCL.  Aging of homozygous CbCln3?ex7/8 cells at confluency is necessary to induce significantly accumulated subunit c protein. However, membrane organelle disruptions precede subunit c accumulation in homozygous CbCln3?ex7/8 cells, since they are observed without aging at confluency. Lysosomal and endosomal size and distribution are altered, and mitochondria are abnormally elongated and functionally compromised in sub-confluent homozygous CbCln3?ex7/8 cultures. These observations argue that membrane trafficking defects do not result from excessive subunit c accumulation compromising the lysosome, but rather are early events in the disease process preceding subunit c accumulation. Mitochondrial abnormalities, which have also been reported in JNCL patients and other animal models [21-23], may result from ineffective turnover by autophagy, a lysosomal-targeted pathway [24]. Alternatively, or simultaneously, battenin deficiency may impact mitochondrial function upstream of turnover, affecting mitochondrial biogenesis and/or altered transport and processing of mitochondrial proteins.  In wild-type CbCln3 neuronal precursor cells battenin primarily co-localizes with early and late endosomes. Battenin immunostaining in homozygous CbCln3?ex7/8 neuronal precursors is significantly reduced in abundance, but mutant signal also co-localizes with endosomal markers suggesting mutant battenin protein with C-terminal epitopes is trafficked similar to wild-type protein. In other studies, CLN3/battenin protein localization has been reported to partially overlap with late endosomes and lysosomes in non-neuronal cells [7], and to lysosomes, synaptosomes [8] and endosomes [9,25] in neurons. These data jointly indicate that battenin resides in a subset of vesicular compartments linking multiple membrane trafficking pathways, perhaps functioning in vesicular transport and/or fusion. Endocytic and lysosomal-targeted pathways, including mitochondrial autophagy, are specifically implicated in this study.
 T237	italic 21978 21982	Cln3
-#237	AnnotationNotes T237	italic
 T238	sup 21982 21988	?ex7/8
-#238	AnnotationNotes T238	sup
 T239	italic 22108 22112	Cln3
-#239	AnnotationNotes T239	italic
 T240	sup 22112 22118	?ex7/8
-#240	AnnotationNotes T240	sup
 T241	italic 22642 22646	Cln3
-#241	AnnotationNotes T241	italic
 T242	sup 22646 22652	?ex7/8
-#242	AnnotationNotes T242	sup
 T243	italic 22663 22667	Cln3
-#243	AnnotationNotes T243	italic
 T244	sup 22667 22673	?ex7/8
-#244	AnnotationNotes T244	sup
 T245	italic 22811 22815	CLN3
-#245	AnnotationNotes T245	italic
 T246	italic 23156 23160	Cln3
-#246	AnnotationNotes T246	italic
 T247	sup 23160 23166	?ex7/8
-#247	AnnotationNotes T247	sup
 T248	italic 23355 23359	Cln3
-#248	AnnotationNotes T248	italic
 T249	sup 23359 23365	?ex7/8
-#249	AnnotationNotes T249	sup
 T250	italic 23541 23545	Cln3
-#250	AnnotationNotes T250	italic
 T251	sup 23545 23551	?ex7/8
-#251	AnnotationNotes T251	sup
 T252	italic 23772 23776	Cln3
-#252	AnnotationNotes T252	italic
 T253	sup 23776 23782	?ex7/8
-#253	AnnotationNotes T253	sup
 T254	italic 24439 24443	Cln3
-#254	AnnotationNotes T254	italic
 T255	italic 24572 24576	Cln3
-#255	AnnotationNotes T255	italic
 T256	sup 24576 24582	?ex7/8
-#256	AnnotationNotes T256	sup
-T257	section 25342 25840	Conclusions
-#257	AnnotationNotes T257	section
+T257	section 25342 25353;25354 25354;25355 25840	Conclusions  The membrane trafficking and mitochondrial deficits uncovered in homozygous CbCln3?ex7/8 cells are likely to particularly impact neuronal function. Neurotransmission heavily relies on membrane vesicle transport, and a high-energy metabolism may further sensitize neurons to the loss of battenin activity. Thus, our panel of wild-type, heterozygous, and homozygous CbCln3?ex7/8 cerebellar cells provide an ideal model system to further elucidate battenin function and JNCL pathogenesis.
 T258	italic 25433 25437	Cln3
-#258	AnnotationNotes T258	italic
 T259	sup 25437 25443	?ex7/8
-#259	AnnotationNotes T259	sup
 T260	italic 25721 25725	Cln3
-#260	AnnotationNotes T260	italic
 T261	sup 25725 25731	?ex7/8
-#261	AnnotationNotes T261	sup
-T262	section 25842 36209	Methods
-#262	AnnotationNotes T262	section
+T262	section 25842 25849;25850 25850;25851 25886;25887 25887;25888 27213;27214 27214;27215 27304;27305 27305;27306 29242;29243 29243;29244 29265;29266 29266;29267 29868;29869 29869;29870 29898;29899 29899;29900 30478;30479 30479;30480 30892;30893 30893;30894 30932;30933 30933;30934 32137;32138 32138;32139 32780;32781 32781;32782 32808;32809 32809;32810 33723;33724 33724;33725 33764;33765 33765;33766 34382;34383 34383;34384 34421;34422 34422;34423 35038;35039 35039;35040 35055;35056 35056;35057 35716;35717 35717;35718 35751;35752 35752;35753 36209	Methods  Antibody and cell staining reagents  Nestin (clone Rat 401, 2 ?g/ml), Lamp 1 (clone 1D4B, 6 ?g/ml), and Lamp 2 (clone Abl-93; 6 ?g/ml) monoclonal antibodies were obtained from the Developmental Studies Hybridoma Bank, maintained by The University of Iowa, Department of Biological Sciences. Batp1 (1 ?g/ml) was previously described [12]. Anti-subunit c antibody (0.7 ?g/ml) was kindly provided by Dr. Kominami (Juntendo University, Tokyo, Japan). Additional antibodies were as follows: GFAP, 1:2000 (DAKO Corporation); calbindin, 1:5000 (Sigma); NeuN, 10 ?g/ml (Chemicon); SV40 T antigen (Pab 101), 2 ?g/ml (Santa Cruz Biotechnology); cathepsin D (C-20), 2 ?g/ml (Santa Cruz Biotechnology); cytochrome c oxidase subunit IV (cox4), 1:1000 (BD Biosciences Clontech); PDI (H-160), 2 ?g/ml (Santa Cruz Biotechnology); GM130, 1 ?g/ml (BD Transduction Labs); ?-tubulin, 1:15,000 (Sigma); grp75, 1:200 (Stressgen); early endosome antigen-1 (EEA1), 2 ?g/ml (Santa Cruz Biotechnology); rab 7, 4 ?g/ml (Santa Cruz Biotechnology). All fluorescent secondary antibodies were obtained from Jackson ImmunoResearch Laboratories and HRP-conjugated secondary antibodies were obtained from Amersham Biosciences. Additional cell markers were as follows: VVL-biotin, 1:2000 (Vector Laboratories), 10,000 MW dextran-FITC, 1 mg/ml and Lysotracker Red DND-99, 500 nM (Molecular Probes).  Generation, maintenance and differentiation of CbCln3 cerebellar neuronal precursor lines  Cln3?ex7/8 knock-in mice have been previously described [12]. Littermate pups from heterozygote crosses were used for primary culture establishment, by previously described methods that yield cerebellar granule neuron-enriched cultures [26]. Postnatal day 4 (P4) cerebella were dissected in Hank's Balanced Salt Solution (HBSS, Sigma), supplemented with 35 mM glucose. Tail biopsies were also collected for genomic DNA isolation and genotypic analysis. Trypsin/EDTA (10 mg/ml, Sigma) and DNase I (100 ?g/ml, Sigma), suspended in HBSS, helped dissociate cerebella for primary culture plating onto 0.01% poly-ornithine (Sigma) coated 100 mm dishes. Primary cultures from individual cerebella were cultured overnight at 37°C, 5% CO2, in granule neuron growth media (Dulbecco's Modified Eagle Medium [DMEM, Gibco BRL #11995-065], 10% fetal bovine serum [Sigma #F-2442], supplemented with 24 mM KCl). Infection was performed the following day with defective retrovirus transducing the temperature-sensitive tsA58/U19 large T antigen and a selection neomycin-resistance cassette [27], as previously described [28]. Following infection, cultures were shifted to the tsA58/U19 permissive growth temperature of 33°C and selection was in the same growth media as above, with 200 ?g/ml G418. Conditionally immortalized colonies were isolated 3–9 weeks post-infection and expanded for frozen stocks and further sub-clone isolation. Multiple clonal lines were obtained for each genotype and all phenotypes were confirmed in at least 2 independent CbCln3 cell lines. CbCln3 cell lines were maintained on 0.01% poly-ornithine coated dishes at 30–90% confluency, in 33°C and 5% CO2 atmosphere. Passage number was recorded (up to ~20 passages), but had no apparent impact on phenotype. Neuronal differentiation was as previously described [29] with the following cocktail: 10 ng/ml ?-FGF, 250 ?M IBMX, 200 nM TPA, 50 ?M forskolin, 5 ?M dopamine (Sigma).  Genotyping and RT-PCR  Genomic DNA was extracted from tail biopsies and cell pellets as described (Cotman et al., 2002). Cln3?ex7/8 knock-in allele PCR genotyping was with wild-type primers, WtF (5'-CAGCATCTCCTCAGGGCTA-3') and WtR (5'-CCAACATAGAAAGTAGGGTGTGC-3') to yield a ~250 bp band and knock-in primers, 552F (5'-GAGCTTTGTTCTGGTTGCCTTC-3') and Ex9RA (5'-GCAGTCTCTGCCTCGTTTTCT-3') to yield a ~500 bp band. PCR cycling conditions were 95°C for 30 seconds, 58°C for 30 seconds, and 72°C for 35 seconds, repeated for 34 cycles. Total RNA isolation and Cln3 RT-PCR primers and procedures have been previously described [12].  Subunit c accumulation assay  Cells were seeded into 4-well chamber-slides (Falcon) at a density of 5 × 104 cells per well for microscopy studies, or into 100 mm dishes (Falcon) at a density of 5 × 105 cells per dish for protein extraction. Cells were typically >95% confluent one day post-plating, and the following day was considered 1-day post-confluency. At the indicated times, cells were either fixed with 4% formaldehyde in phosphate buffered saline (PBS), pH 7.4, for 20 minutes and processed for autofluorescence/subunit c immunostaining, or cell pellets were collected for total protein extraction.  Alternatively, cells were fixed with 2.5% glutaraldehyde/2% paraformaldehyde in 0.1 M cacodylate buffer, pH 7.4 for 1 hour and subsequently post-fixed and processed for TEM analysis as described [12]. In confocal microscopy studies, autofluorescent signal was observed over multiple wavelengths. For co-staining, settings were reduced such that autofluorescent signal did not contribute to antibody label signal.  Immunostaining and Immunoblot analysis  For immunostaining, cells were seeded at a density of 3–5 × 104 cells per well in 4-well chamber-slides and grown overnight at 33°C, unless indicated otherwise. Fixation was with ice-cold 4% formaldehyde in PBS, pH 7.4, for 20 minutes, or with ice-cold methanol/acetone (1:1) for 10 minutes at -20°C followed by air-drying (antibody-dependent). Cells were washed with PBS at least 2 times, 5 minutes per wash, between each of the following steps of the staining procedure: 0.1 M glycine in PBS for 5 minutes, 0.05% or 0.1% (antibody-dependent) Triton X-100 (Fisher Scientific) in PBS for 5 minutes, 2% bovine serum albumin (BSA) in PBS for 30 minutes, primary antibody diluted in 2% BSA/PBS for 90 minutes, secondary antibody diluted in 2% BSA/PBS for 60 minutes. All incubations were carried out at room temperature. Following staining procedures, slides were coverslipped with Vectashield mounting medium (Vector Laboratories) and analyzed on a BioRad Radiance 2100 confocal microscope (Biorad), with identical exposure settings for wild-type and mutant like images. All comparisons of wild-type and mutant staining were performed in Adobe Photoshop with identical brightness and contrast adjustments.  Total proteins were isolated from cell pellets by extraction with ice-cold 20 mM Tris, pH 7.4, 1% Triton X-100 (membrane-research grade, Roche), plus protease inhibitors (Complete mini tablet, 0.7 ?g/ml pepstatin A, 2 ?g/ml aprotinin, 5 ?g/ml leupeptin [Roche]). Following homogenization through a 25-gauge needle (~10 passes), extracts were centrifuged at 1000 × g for 10 minutes, at 4°C, to remove debris. Typically, 20–40 ?g of protein (determined by Bio-rad Dc Protein Assay) was separated by SDS-PAGE, for subsequent immunoblotting, as described [12]. 16.5% tris-tricine SDS-PAGE gels were used for subunit c immunoblotting experiments.  Cathepsin D activity assay  100 mm tissue culture dishes, which were approximately 80–90% confluent, were washed briefly with ice-cold PBS, and total protein extracts were isolated by scraping cells into 10 mM Tris, pH 7.4, 0.1% Triton X-100 followed by incubation on ice, for 20 minutes. The insoluble material was centrifuged at 14,000 g, the supernatant was isolated, and protein concentration was determined using the Bio-rad Dc Protein Assay. 50–70 ?g of total protein extract were used to measure cathepsin D activity using the Fluorogenic Innozyme™ Cathepsin D Immunocapture Activity Assay Kit (EMD Biosciences) according to the manufacturer's recommendations. Relative fluorescence was measured using an Analyst AD plate reader (Molecular Devices) with the following filters and settings: excitation filter, 360-35; emission filter, 400-20, Flash lamp with 100 readings/well, 100 ms between readings, and 100,000 ?s integration time.  Lysosomal staining and endocytic uptake  Cells were seeded at a density of 3–5 × 104 cells per well in 4-well chamber-slides and grown overnight at 33°C. Growth media was exchanged for fresh, pre-warmed growth media containing 500 nM Lysotracker or 1 mg/ml dextran-FITC, and cells were incubated at 33°C for 45 minutes or 15 minutes, respectively. Following labeling, cells were immediately placed on ice and washed for 10 minutes in ice-cold dye-free media, and fixed with 4% formaldehyde in PBS, for 20 minutes on ice. Chambers were removed and slides were coverslipped with Vectashield mounting media for confocal microscopy analysis, as described above.  Morphometric analysis of mitochondria  TEM photomicrographs (10,000 × – 40,000 × magnification) were taken from random grid fields. For length measurements, the longest side of each mitochondria was measured in centimeters, and along the length of the mitochondria, width measurements were taken every 2.5–4 mm (dependent on the magnification of the micrograph image). Following measurement, all numbers were normalized to reflect one magnification and data was analyzed using Microsoft Excel software. To ascertain unmagnified mitochondrial size, final measurement data, in centimeters, was converted to nanometers according to scale bar representation.  ATP measurement  ATP was measured by using the CellTiter-GLO® Luminescent Cell Viability kit (Promega), according to the manufacturer's recommendations. Briefly, cells were plated in a black opaque-walled 96 well plate (Packard Bioscience) at a density of 20000/well and incubated at 33°C overnight. The following day, CellTiter-GLO® Reagent was added to each well and cell lysis was induced by mixing 2 minutes. An ATP standard curve was prepared in the same plate. Before recording luminescence with a microplate luminometer (MicroLumat Plus LB 96V, Berthold Techonologies), the plate was dark adapted for 10 minutes at room temperature to stabilize the luminescence signal.  Hydrogen peroxide treatment assay  Cells were plated at a density of 10,000 cells/well in 96-well plates and incubated at 33°C overnight. The following day, fresh media containing varying concentrations of hydrogen peroxide was dispersed to each well. Cells were incubated in the presence of hydrogen peroxide for 24 hours, at 33°C, and viability was measured using the CellTiter-96® AQueous Non-Radioactive Cell Proliferation Assay (Promega), according to the manufacturer's specifications.
 T263	italic 27264 27268	Cln3
-#263	AnnotationNotes T263	italic
 T264	italic 27306 27310	Cln3
-#264	AnnotationNotes T264	italic
 T265	sup 27310 27316	?ex7/8
-#265	AnnotationNotes T265	sup
 T266	sub 28034 28035	2
-#266	AnnotationNotes T266	sub
 T267	italic 28842 28846	Cln3
-#267	AnnotationNotes T267	italic
 T268	italic 28861 28865	Cln3
-#268	AnnotationNotes T268	italic
 T269	sub 28970 28971	2
-#269	AnnotationNotes T269	sub
 T270	italic 29365 29369	Cln3
-#270	AnnotationNotes T270	italic
 T271	sup 29369 29375	?ex7/8
-#271	AnnotationNotes T271	sup
 T272	italic 29797 29801	Cln3
-#272	AnnotationNotes T272	italic
 T273	sup 29976 29977	4
-#273	AnnotationNotes T273	sup
 T274	sup 30070 30071	5
-#274	AnnotationNotes T274	sup
 T275	sup 30996 30997	4
-#275	AnnotationNotes T275	sup
 T276	sub 32602 32603	c
-#276	AnnotationNotes T276	sub
 T277	sub 33213 33214	c
-#277	AnnotationNotes T277	sub
 T278	sup 33808 33809	4
-#278	AnnotationNotes T278	sup
 T279	sup 35100 35101	®
-#279	AnnotationNotes T279	sup
 T280	sup 35372 35373	®
-#280	AnnotationNotes T280	sup
 T281	sup 36100 36101	®
-#281	AnnotationNotes T281	sup
-T282	section 36211 36842	Authors' contributions
-#282	AnnotationNotes T282	section
-T283	section 36844 37405	Acknowledgements
-#283	AnnotationNotes T283	section
+T282	section 36211 36233;36234 36234;36235 36842	Authors' contributions  EF participated in establishment and characterization of cell lines and performed ATP determinations. PW participated in mitochondrial analysis and immunocytochemistry. JE, TL-N, AMT, and HG participated in genotypic and additional phenotypic analysis of cell lines. DR and EC generated virus-conditioned medium for conditional immortalization of cells. MEM co-conceived of the study and assisted on drafting of the manuscript. SLC co-conceived of the study, participated in establishment and phenotypic analysis of cell lines, and drafted the manuscript. All authors read and approved the final manuscript.
+T283	section 36844 36860;36861 36861;36862 37405	Acknowledgements  The authors thank Dr. E. Kominami for antibody to subunit c of mitochondrial ATPase, L. Trakimas and M. Ericsson of the Harvard Medical School Electron Microscope Facility, Dr. David Sulzer for assistance with TEM analysis, Dr. Sylvie Breton for assistance with endocytosis experiments, and Dr. Andre Bernards and James Follen for assistance with the cathepsin D activity assay. This work was supported by NIH/NINDS grant # NS 33648. Dr. S.L. Cotman received fellowship funding from the Batten Disease Support and Research Association (BDSRA).

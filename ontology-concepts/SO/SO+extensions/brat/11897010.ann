@@ -1,668 +1,350 @@
-T0	SO_EXT:sequence_cloning_process 0 7	Cloning
-#0	AnnotationNotes T0	sequence cloning process
-T1	SO_EXT:0000704 49 53	gene
-#1	AnnotationNotes T1	gene
-T2	SO_EXT:1001187 65 97	alternatively spliced transcript
-#2	AnnotationNotes T2	alternatively_spliced_transcript
-T3	SO_EXT:0000704 309 313	gene
-#3	AnnotationNotes T3	gene
-T4	SO_EXT:sequence_cloning_process 448 455	cloning
-#4	AnnotationNotes T4	sequence cloning process
-T5	SO_EXT:0000853 490 499	homologue
-#5	AnnotationNotes T5	homologous_region
-T6	SO_EXT:alternative_splice_variant 528 542	splice variant
-#6	AnnotationNotes T6	alternative splice variant
-T7	SO_EXT:0000704 601 606	genes
-#7	AnnotationNotes T7	gene
-T8	SO:0000860 632 639	synteny
-#8	AnnotationNotes T8	syntenic
-T9	CHEBI_SO_EXT:amino_acid 658 668	amino acid
-#9	AnnotationNotes T9	amino acid
-T10	CHEBI_SO_EXT:nucleotide 677 687	nucleotide
-#10	AnnotationNotes T10	nucleotide
-T11	GO_SO_EXT:chromosome 729 739	chromosome
-#11	AnnotationNotes T11	chromosome
-T12	SO_EXT:0000236 758 776	open reading frame
-#12	AnnotationNotes T12	ORF
-T13	CHEBI_SO_EXT:amino_acid 784 795	amino acids
-#13	AnnotationNotes T13	amino acid
-T14	SO_EXT:0000673 804 814	transcript
-#14	AnnotationNotes T14	transcript
-T15	CHEBI_SO_EXT:base 842 843	b
-#15	AnnotationNotes T15	base
-T16	SO_EXT:sequence_coding_function 844 851	encoded
-#16	AnnotationNotes T16	sequence coding function
-T17	SO_EXT:0000147 858 863	exons
-#17	AnnotationNotes T17	exon
-T18	SO_EXT:0000673 903 913	transcript
-#18	AnnotationNotes T18	transcript
-T19	SO_EXT:sequence_coding_function 969 976	encodes
-#19	AnnotationNotes T19	sequence coding function
-T20	CHEBI_SO_EXT:amino_acid 983 993	amino acid
-#20	AnnotationNotes T20	amino acid
-T21	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 1022 1032	c-terminus
-#21	AnnotationNotes T21	C-terminus or C-terminal region
-T22	SO_EXT:0000417 1116 1123	domains
-#22	AnnotationNotes T22	polypeptide_domain
-T23	SO_EXT:0001529 1160 1169;1180 1196	endosomal
-#23	AnnotationNotes T23	endosomal_localization_signal
-T24	SO_EXT:0001530 1170 1196	lysosomal targeting signal
-#24	AnnotationNotes T24	lysosomal_localization_signal
-T25	SO_EXT:biological_conservation_process_or_quality 1200 1209	conserved
-#25	AnnotationNotes T25	biological conservation process or quality
-T26	SO_EXT:alternative_splice_variant 1359 1374	splice variants
-#26	AnnotationNotes T26	alternative splice variant
-T27	SO_EXT:0000673 1491 1502	transcripts
-#27	AnnotationNotes T27	transcript
-T28	SO_EXT:0000704 1563 1567	gene
-#28	AnnotationNotes T28	gene
-T29	SO_EXT:0000704 2270 2274	gene
-#29	AnnotationNotes T29	gene
-T30	SO_EXT:sequence_alteration_entity_or_process 2449 2458	mutations
-#30	AnnotationNotes T30	sequence alteration entity or process
-T31	SO_EXT:0000704 2530 2534	gene
-#31	AnnotationNotes T31	gene
-T32	GO_SO_EXT:chromosome 2570 2580	chromosome
-#32	AnnotationNotes T32	chromosome
-T33	SO_EXT:sequence_coding_function 2598 2605	encodes
-#33	AnnotationNotes T33	sequence coding function
-T34	SO_EXT:0000704 2696 2700	gene
-#34	AnnotationNotes T34	gene
-T35	SO_EXT:sequence_altered_entity 3011 3018	mutants
-#35	AnnotationNotes T35	sequence-altered entity
-T36	SO_EXT:0000853 3044 3053	homologue
-#36	AnnotationNotes T36	homologous_region
-T37	SO_EXT:0000704 3223 3227	gene
-#37	AnnotationNotes T37	gene
-T38	SO_EXT:sequence_cloning_process 3257 3264	Cloning
-#38	AnnotationNotes T38	sequence cloning process
-T39	SO_EXT:0000853 3299 3308	homologue
-#39	AnnotationNotes T39	homologous_region
-T40	SO_EXT:sequence_cloning_process 3431 3438	Cloning
-#40	AnnotationNotes T40	sequence cloning process
-T41	SO_EXT:0000853 3464 3473	homologue
-#41	AnnotationNotes T41	homologous_region
-T42	SO_EXT:sequence_cloning_process 3494 3499	clone
-#42	AnnotationNotes T42	sequence cloning process
-T43	SO_EXT:0000853 3510 3519	homologue
-#43	AnnotationNotes T43	homologous_region
-T44	CHEBI_SO_EXT:amino_acid 3541 3551	amino acid
-#44	AnnotationNotes T44	amino acid
-T45	SO_EXT:biological_sequence 3552 3560	sequence
-#45	AnnotationNotes T45	biological sequence
-T46	SO_EXT:0001026 3597 3604	genomic
-#46	AnnotationNotes T46	genome
-T47	SO_EXT:biological_sequence 3605 3613	sequence
-#47	AnnotationNotes T47	biological sequence
-T48	SO_EXT:0000153 3672 3675	BAC
-#48	AnnotationNotes T48	BAC
-T49	SO_EXT:sequence_cloned_entity 3676 3681	clone
-#49	AnnotationNotes T49	sequence-cloned entity
-T50	SO_EXT:0001026 3747 3753	Genome
-#50	AnnotationNotes T50	genome
-T51	SO_EXT:0001026 3824 3830	Genome
-#51	AnnotationNotes T51	genome
-T52	SO_EXT:0000153 3869 3872	BAC
-#52	AnnotationNotes T52	BAC
-T53	GO_SO_EXT:chromosome 3882 3892	chromosome
-#53	AnnotationNotes T53	chromosome
-T54	SO_EXT:0001249 3925 3937	physical map
-#54	AnnotationNotes T54	fragment_assembly
-T55	SO_EXT:0000153 3973 3976	BAC
-#55	AnnotationNotes T55	BAC
-T56	SO_EXT:biological_sequence 3977 3985	sequence
-#56	AnnotationNotes T56	biological sequence
-T57	SO_EXT:0000345 4017 4020	EST
-#57	AnnotationNotes T57	EST
-T58	SO_EXT:0000345 4057 4061	ESTs
-#58	AnnotationNotes T58	EST
-T59	SO_EXT:sequence_cloned_entity 4097 4103	clones
-#59	AnnotationNotes T59	sequence-cloned entity
-T60	SO_EXT:0001249 4132 4140;4156 4159	Physical
-#60	AnnotationNotes T60	fragment_assembly
-T61	SO_EXT:0000673 4145 4155	transcript
-#61	AnnotationNotes T61	transcript
-T62	SO_EXT:0000704 4174 4178	gene
-#62	AnnotationNotes T62	gene
-T63	SO_EXT:0001249 4191 4203	Physical map
-#63	AnnotationNotes T63	fragment_assembly
-T64	CHEBI_SO_EXT:base 4219 4220	b
-#64	AnnotationNotes T64	base
-T65	GO_SO_EXT:chromosomal_part_or_position_or_region_or_site 4221 4231;4238 4248	segment of
-#65	AnnotationNotes T65	chromosomal part/position/region/site
-T66	SO:0000860 4251 4260	syntenous
-#66	AnnotationNotes T66	syntenic
-T67	GO_SO_EXT:chromosome 4270 4280	chromosome
-#67	AnnotationNotes T67	chromosome
-T68	SO_EXT:0000704 4301 4306	genes
-#68	AnnotationNotes T68	gene
-T69	SO_EXT:0000153 4352 4356	BACs
-#69	AnnotationNotes T69	BAC
-T70	SO_EXT:0000673 4449 4459	transcript
-#70	AnnotationNotes T70	transcript
-T71	SO_EXT:0000147 4483 4488	exons
-#71	AnnotationNotes T71	exon
-T72	CHEBI_SO_EXT:molecular_probe 4515 4521	probes
-#72	AnnotationNotes T72	molecular probe
-T73	SO_EXT:0000147 4590 4594	exon
-#73	AnnotationNotes T73	exon
-T74	SO_EXT:1001187 4605 4637	alternatively spliced transcript
-#74	AnnotationNotes T74	alternatively_spliced_transcript
-T75	SO_EXT:0000853 4684 4693	homologue
-#75	AnnotationNotes T75	homologous_region
-T76	SO_EXT:0000704 4719 4723	gene
-#76	AnnotationNotes T76	gene
-T77	SO_EXT:0000673 4777 4787	transcript
-#77	AnnotationNotes T77	transcript
-T78	CHEBI_SO_EXT:base 4820 4821	b
-#78	AnnotationNotes T78	base
-T79	SO_EXT:0000153 4831 4834	BAC
-#79	AnnotationNotes T79	BAC
-T80	SO_EXT:sequence_cloned_entity 4857 4863	clones
-#80	AnnotationNotes T80	sequence-cloned entity
-T81	CHEBI_SO_EXT:base 4983 4984	b
-#81	AnnotationNotes T81	base
-T82	SO_EXT:0000673 4985 4995	transcript
-#82	AnnotationNotes T82	transcript
-T83	SO_EXT:0000236 5004 5022	open reading frame
-#83	AnnotationNotes T83	ORF
-T84	CHEBI_SO_EXT:amino_acid 5030 5041	amino acids
-#84	AnnotationNotes T84	amino acid
-T85	SO_EXT:cDNA 5097 5101	cDNA
-#85	AnnotationNotes T85	complementary DNA
-T86	SO_EXT:biological_sequence 5102 5110	sequence
-#86	AnnotationNotes T86	biological sequence
-T87	SO_EXT:0000153 5118 5121	BAC
-#87	AnnotationNotes T87	BAC
-T88	SO_EXT:sequence_cloned_entity 5122 5127	clone
-#88	AnnotationNotes T88	sequence-cloned entity
-T89	SO_EXT:0000704 5144 5148	gene
-#89	AnnotationNotes T89	gene
-T90	SO_EXT:0000147 5164 5169	exons
-#90	AnnotationNotes T90	exon
-T91	SO_EXT:0000673 5189 5199	transcript
-#91	AnnotationNotes T91	transcript
-T92	GO_SO_EXT:chromosomal_part_or_position_or_region_or_site 5218 5227;5234 5244	region of
-#92	AnnotationNotes T92	chromosomal part/position/region/site
-T93	SO_EXT:0000853 5314 5323	homologue
-#93	AnnotationNotes T93	homologous_region
-T94	SO_EXT:0000704 5349 5353	gene
-#94	AnnotationNotes T94	gene
-T95	CHEBI_SO_EXT:base 5407 5408	b
-#95	AnnotationNotes T95	base
-T96	SO_EXT:0000853 5456 5465	homologue
-#96	AnnotationNotes T96	homologous_region
-T97	SO_EXT:0000704 5506 5510	gene
-#97	AnnotationNotes T97	gene
-T98	SO_EXT:0000028 5531 5541	base pairs
-#98	AnnotationNotes T98	base_pair
-T99	SO_EXT:0000551 5552 5574	polyadenylation signal
-#99	AnnotationNotes T99	polyA_signal_sequence
-T100	SO_EXT:0000673 5591 5601	transcript
-#100	AnnotationNotes T100	transcript
-T101	SO_EXT:0000853 5685 5695;5709 5715	homologous
-#101	AnnotationNotes T101	homologous_region
-T102	SO_EXT:0000704 5758 5762	gene
-#102	AnnotationNotes T102	gene
-T103	SO_EXT:0005858 5796 5813	region of synteny
-#103	AnnotationNotes T103	syntenic_region
-T104	GO_SO_EXT:chromosome 5828 5838	chromosome
-#104	AnnotationNotes T104	chromosome
-T105	GO_SO_EXT:chromosome 5852 5862	chromosome
-#105	AnnotationNotes T105	chromosome
-T106	CHEBI_SO_EXT:peptide_or_peptide_region 5929 5936	peptide
-#106	AnnotationNotes T106	peptide or peptide region
-T107	SO_EXT:biological_sequence 5937 5946	sequences
-#107	AnnotationNotes T107	biological sequence
-T108	SO_EXT:0000853 5992 6001	homologue
-#108	AnnotationNotes T108	homologous_region
-T109	SO_EXT:0000853 6115 6124	homologue
-#109	AnnotationNotes T109	homologous_region
-T110	CHEBI_SO_EXT:amino_acid 6185 6195	amino acid
-#110	AnnotationNotes T110	amino acid
-T111	SO_EXT:sequence_substitution_entity_or_process 6196 6209	substitutions
-#111	AnnotationNotes T111	sequence substitution entity or process
-T112	SO_EXT:biological_conservation_process_or_quality 6239 6248	conserved
-#112	AnnotationNotes T112	biological conservation process or quality
-T113	CHEBI_SO_EXT:amino_acid 6249 6260	amino acids
-#113	AnnotationNotes T113	amino acid
-T114	SO_EXT:0000417 6371 6378	domains
-#114	AnnotationNotes T114	polypeptide_domain
-T115	CHEBI_SO_EXT:N_terminus_or_N_terminal_region 6388 6390;6397 6404	N-
-#115	AnnotationNotes T115	N-terminus or N-terminal region
-T116	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 6395 6404	C-termini
-#116	AnnotationNotes T116	C-terminus or C-terminal region
-T117	CHEBI_SO_EXT:peptide_or_peptide_region 6456 6463	Peptide
-#117	AnnotationNotes T117	peptide or peptide region
-T118	SO_EXT:biological_sequence 6464 6472	sequence
-#118	AnnotationNotes T118	biological sequence
-T119	SO_EXT:0000853 6544 6554	homologues
-#119	AnnotationNotes T119	homologous_region
-T120	SO_EXT:0000417 6590 6597	domains
-#120	AnnotationNotes T120	polypeptide_domain
-T121	SO_EXT:0001529 6691 6700;6711 6727	endosomal
-#121	AnnotationNotes T121	endosomal_localization_signal
-T122	SO_EXT:0001530 6701 6727	lysosomal targeting signal
-#122	AnnotationNotes T122	lysosomal_localization_signal
-T123	CHEBI_SO_EXT:molecular_probe 6842 6847	probe
-#123	AnnotationNotes T123	molecular probe
-T124	SO_EXT:0000147 6869 6873	exon
-#124	AnnotationNotes T124	exon
-T125	CHEBI_SO_EXT:molecular_probe 6877 6882	probe
-#125	AnnotationNotes T125	molecular probe
-T126	CHEBI_SO_EXT:base 6934 6935	b
-#126	AnnotationNotes T126	base
-T127	SO_EXT:0001060 6937 6944	isoform
-#127	AnnotationNotes T127	sequence_variant
-T128	CHEBI_SO_EXT:base 7002 7003	b
-#128	AnnotationNotes T128	base
-T129	SO_EXT:0001060 7010 7017	isoform
-#129	AnnotationNotes T129	sequence_variant
-T130	CHEBI_SO_EXT:base 7046 7047	b
-#130	AnnotationNotes T130	base
-T131	CHEBI_SO_EXT:base 7209 7210	b
-#131	AnnotationNotes T131	base
-T132	CHEBI_SO_EXT:mRNA 7211 7218	message
-#132	AnnotationNotes T132	mRNA
-T133	SO_EXT:0000704 7275 7279	gene
-#133	AnnotationNotes T133	gene
-T134	SO_EXT:sequence_coding_function 7280 7287	encodes
-#134	AnnotationNotes T134	sequence coding function
-T135	SO_EXT:0000673 7297 7307	transcript
-#135	AnnotationNotes T135	transcript
-T136	CHEBI_SO_EXT:molecular_probe 7361 7367	probes
-#136	AnnotationNotes T136	molecular probe
-T137	SO_EXT:0000851 7391 7401;7406 7421	regions of
-#137	AnnotationNotes T137	CDS_region
-T138	SO_EXT:0000205 7426 7432	3' UTR
-#138	AnnotationNotes T138	three_prime_UTR
-T139	CHEBI_SO_EXT:molecular_probe 7442 7448	probes
-#139	AnnotationNotes T139	molecular probe
-T140	SO_EXT:0000673 7473 7484	transcripts
-#140	AnnotationNotes T140	transcript
-T141	SO_EXT:0000147 7618 7622	exon
-#141	AnnotationNotes T141	exon
-T142	CHEBI_SO_EXT:molecular_probe 7625 7630	probe
-#142	AnnotationNotes T142	molecular probe
-T143	CHEBI_GO_SO_EXT:enzyme 7659 7666	enzymes
-#143	AnnotationNotes T143	enzyme
-T144	GO_SO_EXT:chromosomal_part_or_position_or_region_or_site 7719 7729;7732 7737	chromosome
-#144	AnnotationNotes T144	chromosomal part/position/region/site
-T145	CHEBI_SO_EXT:molecular_probe 7916 7921	probe
-#145	AnnotationNotes T145	molecular probe
-T146	SO_EXT:0000147 7937 7941	exon
-#146	AnnotationNotes T146	exon
-T147	CHEBI_SO_EXT:molecular_probe 7945 7950	probe
-#147	AnnotationNotes T147	molecular probe
-T148	CHEBI_SO_EXT:molecular_probe 8017 8022	probe
-#148	AnnotationNotes T148	molecular probe
-T149	SO_EXT:0000852 8054 8069	segment of exon
-#149	AnnotationNotes T149	exon_region
-T150	CHEBI_SO_EXT:molecular_probe 8074 8079	probe
-#150	AnnotationNotes T150	molecular probe
-T151	SO_EXT:alternative_splice_variant 8181 8207	alternative splice variant
-#151	AnnotationNotes T151	alternative splice variant
-T152	SO_EXT:coding_sequence 8235 8250	coding sequence
-#152	AnnotationNotes T152	coding sequence
-T153	SO_EXT:0000673 8266 8276	transcript
-#153	AnnotationNotes T153	transcript
-T154	SO_EXT:0000345 8300 8303	EST
-#154	AnnotationNotes T154	EST
-T155	SO_EXT:0000188 8324 8330	intron
-#155	AnnotationNotes T155	intron
-T156	SO_EXT:0001026 8346 8353	genomic
-#156	AnnotationNotes T156	genome
-T157	SO_EXT:biological_sequence 8354 8362	sequence
-#157	AnnotationNotes T157	biological sequence
-T158	SO:0000357 8363 8371	flanking
-#158	AnnotationNotes T158	flanked
-T159	SO_EXT:0000704 8383 8387	gene
-#159	AnnotationNotes T159	gene
-T160	SO_EXT:0000345 8393 8397	ESTs
-#160	AnnotationNotes T160	EST
-T161	SO_EXT:biological_sequence 8429 8437	sequence
-#161	AnnotationNotes T161	biological sequence
-T162	SO_EXT:0000188 8443 8449	intron
-#162	AnnotationNotes T162	intron
-T163	SO_EXT:sequence_cloned_entity 8507 8513	clones
-#163	AnnotationNotes T163	sequence-cloned entity
-T164	SO_EXT:sequence_cloned_entity 8530 8535	Clone
-#164	AnnotationNotes T164	sequence-cloned entity
-T165	SO_EXT:0000345 8544 8548	ESTs
-#165	AnnotationNotes T165	EST
-T166	CHEBI_SO_EXT:base 8603 8604	b
-#166	AnnotationNotes T166	base
-T167	SO_EXT:0000147 8612 8616	exon
-#167	AnnotationNotes T167	exon
-T168	SO_EXT:0000147 8646 8650	exon
-#168	AnnotationNotes T168	exon
-T169	SO_EXT:0000147 8676 8680	exon
-#169	AnnotationNotes T169	exon
-T170	SO_EXT:sequence_cloned_entity 8685 8690	Clone
-#170	AnnotationNotes T170	sequence-cloned entity
-T171	SO_EXT:0000345 8700 8703	EST
-#171	AnnotationNotes T171	EST
-T172	SO_EXT:0000028 8732 8734	bp
-#172	AnnotationNotes T172	base_pair
-T173	SO_EXT:0000147 8742 8746	exon
-#173	AnnotationNotes T173	exon
-T174	SO_EXT:0000147 8780 8784	exon
-#174	AnnotationNotes T174	exon
-T175	CHEBI_SO_EXT:molecular_probe 8845 8850	probe
-#175	AnnotationNotes T175	molecular probe
-T176	SO_EXT:0000188 8879 8885	intron
-#176	AnnotationNotes T176	intron
-T177	SO_EXT:biological_sequence 8886 8894	sequence
-#177	AnnotationNotes T177	biological sequence
-T178	SO_EXT:sequence_cloned_entity 8898 8903	clone
-#178	AnnotationNotes T178	sequence-cloned entity
-T179	CHEBI_SO_EXT:molecular_probe 8912 8917	Probe
-#179	AnnotationNotes T179	molecular probe
-T180	CHEBI_SO_EXT:base 8960 8961	b
-#180	AnnotationNotes T180	base
-T181	SO_EXT:biological_sequence 9005 9013	sequence
-#181	AnnotationNotes T181	biological sequence
-T182	SO_EXT:0000673 9028 9038	transcript
-#182	AnnotationNotes T182	transcript
-T183	SO_EXT:0000112 9053 9060	primers
-#183	AnnotationNotes T183	primer
-T184	SO_EXT:0000147 9064 9069	exons
-#184	AnnotationNotes T184	exon
-T185	SO_EXT:0000112 9094 9100	primer
-#185	AnnotationNotes T185	primer
-T186	SO_EXT:0000188 9104 9110	intron
-#186	AnnotationNotes T186	intron
-T187	CHEBI_SO_EXT:RNA 9159 9162	RNA
-#187	AnnotationNotes T187	RNA
-T188	SO_EXT:0000673 9237 9247	transcript
-#188	AnnotationNotes T188	transcript
-T189	SO_EXT:0000147 9314 9318	exon
-#189	AnnotationNotes T189	exon
-T190	SO_EXT:0000147 9337 9341	exon
-#190	AnnotationNotes T190	exon
-T191	SO_EXT:0000028 9356 9358	bp
-#191	AnnotationNotes T191	base_pair
-T192	SO_EXT:0000188 9366 9372	intron
-#192	AnnotationNotes T192	intron
-T193	SO_EXT:0000028 9399 9401	bp
-#193	AnnotationNotes T193	base_pair
-T194	SO_EXT:0000147 9402 9406	exon
-#194	AnnotationNotes T194	exon
-T195	SO_EXT:0000147 9436 9440	exon
-#195	AnnotationNotes T195	exon
-T196	SO_EXT:0000236 9449 9467	open reading frame
-#196	AnnotationNotes T196	ORF
-T197	SO_EXT:1001187 9476 9508	alternatively spliced transcript
-#197	AnnotationNotes T197	alternatively_spliced_transcript
-T198	CHEBI_SO_EXT:amino_acid 9516 9527	amino acids
-#198	AnnotationNotes T198	amino acid
-T199	CHEBI_SO_EXT:amino_acid 9532 9543	amino acids
-#199	AnnotationNotes T199	amino acid
-T200	CHEBI_SO_EXT:mRNA 9560 9567	message
-#200	AnnotationNotes T200	mRNA
-T201	SO_EXT:sequence_coding_function 9568 9575	encoded
-#201	AnnotationNotes T201	sequence coding function
-T202	CHEBI_SO_EXT:base 9588 9589	b
-#202	AnnotationNotes T202	base
-T203	SO_EXT:0000673 9590 9600	transcript
-#203	AnnotationNotes T203	transcript
-T204	SO_EXT:0001060 9633 9640	isoform
-#204	AnnotationNotes T204	sequence_variant
-T205	SO_EXT:sequence_coding_function 9643 9650	encodes
-#205	AnnotationNotes T205	sequence coding function
-T206	SO_EXT:0000417 9722 9729	domains
-#206	AnnotationNotes T206	polypeptide_domain
-T207	SO_EXT:biological_sequence 9770 9779	sequences
-#207	AnnotationNotes T207	biological sequence
-T208	CHEBI_SO_EXT:amino_acid 9791 9801	amino acid
-#208	AnnotationNotes T208	amino acid
-T209	CHEBI_SO_EXT:amino_acid 9814 9824	amino acid
-#209	AnnotationNotes T209	amino acid
-T210	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 9825 9835	C-terminal
-#210	AnnotationNotes T210	C-terminus or C-terminal region
-T211	SO_EXT:sequence_coding_function 9853 9860	encoded
-#211	AnnotationNotes T211	sequence coding function
-T212	CHEBI_SO_EXT:base 9873 9874	b
-#212	AnnotationNotes T212	base
-T213	SO_EXT:0000673 9875 9885	transcript
-#213	AnnotationNotes T213	transcript
-T214	CHEBI_SO_EXT:amino_acid 9922 9932	amino acid
-#214	AnnotationNotes T214	amino acid
-T215	SO_EXT:sequence_coding_function 9938 9945	encoded
-#215	AnnotationNotes T215	sequence coding function
-T216	CHEBI_SO_EXT:base 9974 9975	b
-#216	AnnotationNotes T216	base
-T217	SO_EXT:0000673 9976 9986	transcript
-#217	AnnotationNotes T217	transcript
-T218	CHEBI_SO_EXT:RNA 10012 10015	RNA
-#218	AnnotationNotes T218	RNA
-T219	SO_EXT:0000147 10054 10058	exon
-#219	AnnotationNotes T219	exon
-T220	SO_EXT:0000188 10065 10071	intron
-#220	AnnotationNotes T220	intron
-T221	CHEBI_SO_EXT:molecular_probe 10075 10081	probes
-#221	AnnotationNotes T221	molecular probe
-T222	SO_EXT:0000673 10138 10149	transcripts
-#222	AnnotationNotes T222	transcript
-T223	CHEBI_SO_EXT:peptide_or_peptide_region 10297 10304	Peptide
-#223	AnnotationNotes T223	peptide or peptide region
-T224	SO_EXT:biological_sequence 10305 10313	sequence
-#224	AnnotationNotes T224	biological sequence
-T225	SO_EXT:alternative_splice_variant 10336 10357;10365 10373	alternatively spliced
-#225	AnnotationNotes T225	alternative splice variant
-T226	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 10413 10423	c-terminal
-#226	AnnotationNotes T226	C-terminus or C-terminal region
-T227	SO_EXT:0000417 10485 10492	domains
-#227	AnnotationNotes T227	polypeptide_domain
-T228	CHEBI_SO_EXT:nucleotide 10526 10536	nucleotide
-#228	AnnotationNotes T228	nucleotide
-T229	CHEBI_SO_EXT:amino_acid 10541 10551	amino acid
-#229	AnnotationNotes T229	amino acid
-T230	SO_EXT:biological_sequence 10552 10560	sequence
-#230	AnnotationNotes T230	biological sequence
-T231	SO_EXT:1001187 10568 10589;10596 10606	alternatively spliced
-#231	AnnotationNotes T231	alternatively_spliced_transcript
-T232	SO_EXT:0001026 10634 10641	genomic
-#232	AnnotationNotes T232	genome
-T233	SO_EXT:biological_sequence 10642 10650	sequence
-#233	AnnotationNotes T233	biological sequence
-T234	CHEBI_SO_EXT:molecular_probe 10756 10762	probes
-#234	AnnotationNotes T234	molecular probe
-T235	CHEBI_SO_EXT:base 10782 10783	b
-#235	AnnotationNotes T235	base
-T236	SO_EXT:0000673 10784 10794	transcript
-#236	AnnotationNotes T236	transcript
-T237	CHEBI_SO_EXT:molecular_probe 10882 10887	probe
-#237	AnnotationNotes T237	molecular probe
-T238	SO_EXT:0000188 10897 10903	intron
-#238	AnnotationNotes T238	intron
-T239	SO_EXT:0000147 10927 10931	exon
-#239	AnnotationNotes T239	exon
-T240	CHEBI_SO_EXT:molecular_probe 10940 10945	probe
-#240	AnnotationNotes T240	molecular probe
-T241	SO:0000860 10972 10980	syntenic
-#241	AnnotationNotes T241	syntenic
-T242	SO_EXT:sequence_coding_function 10995 11002	encodes
-#242	AnnotationNotes T242	sequence coding function
-T243	SO_EXT:1001187 11007 11016;11023 11033	alternate
-#243	AnnotationNotes T243	alternatively_spliced_transcript
-T244	SO_EXT:1001187 11154 11176	alternative transcript
-#244	AnnotationNotes T244	alternatively_spliced_transcript
-T245	SO_EXT:1001187 11237 11246;11254 11264	alternate
-#245	AnnotationNotes T245	alternatively_spliced_transcript
-T246	CHEBI_SO_EXT:amino_acid 11298 11308	amino acid
-#246	AnnotationNotes T246	amino acid
-T247	SO_EXT:sequence_cloned_entity 11368 11373	clone
-#247	AnnotationNotes T247	sequence-cloned entity
-T248	SO_EXT:biological_sequence 11448 11456	sequence
-#248	AnnotationNotes T248	biological sequence
-T249	CHEBI_SO_EXT:molecular_probe 11501 11507	probes
-#249	AnnotationNotes T249	molecular probe
-T250	SO_EXT:sequence_cloned_entity 11522 11527	clone
-#250	AnnotationNotes T250	sequence-cloned entity
-T251	CHEBI_SO_EXT:molecular_probe 11540 11546	probes
-#251	AnnotationNotes T251	molecular probe
-T252	SO_EXT:coding_sequence 11569 11584	coding sequence
-#252	AnnotationNotes T252	coding sequence
-T253	SO_EXT:0000673 11604 11615	transcripts
-#253	AnnotationNotes T253	transcript
-T254	SO_EXT:0001060 11652 11659	isoform
-#254	AnnotationNotes T254	sequence_variant
-T255	SO_EXT:0000853 11675 11684	homologue
-#255	AnnotationNotes T255	homologous_region
-T256	CHEBI_SO_EXT:amino_acid 11723 11733	amino acid
-#256	AnnotationNotes T256	amino acid
-T257	CHEBI_SO_EXT:nucleotide 11738 11748	nucleotide
-#257	AnnotationNotes T257	nucleotide
-T258	SO_EXT:0000417 11785 11792	domains
-#258	AnnotationNotes T258	polypeptide_domain
-T259	SO_EXT:biological_conservation_process_or_quality 11844 11853	conserved
-#259	AnnotationNotes T259	biological conservation process or quality
-T260	CHEBI_SO_EXT:leucine 11871 11878	leucine
-#260	AnnotationNotes T260	leucine
-T261	SO_EXT:sequence_or_structure_motif 11889 11894	motif
-#261	AnnotationNotes T261	sequence or structure motif
-T262	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 11902 11912	C-terminus
-#262	AnnotationNotes T262	C-terminus or C-terminal region
-T263	SO_EXT:0001529 11938 11947;11958 11974	endosomal
-#263	AnnotationNotes T263	endosomal_localization_signal
-T264	SO_EXT:0001530 11948 11974	lysosomal targeting signal
-#264	AnnotationNotes T264	lysosomal_localization_signal
-T265	SO_EXT:biological_conservation_process_or_quality 11984 11993	conserved
-#265	AnnotationNotes T265	biological conservation process or quality
-T266	SO_EXT:0000853 12068 12077	homologue
-#266	AnnotationNotes T266	homologous_region
-T267	SO_EXT:0000704 12217 12221	gene
-#267	AnnotationNotes T267	gene
-T268	SO_EXT:alternative_splice_variant 12230 12260	alternatively spliced isoforms
-#268	AnnotationNotes T268	alternative splice variant
-T269	SO_EXT:0001060 12267 12274	isoform
-#269	AnnotationNotes T269	sequence_variant
-T270	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 12296 12306	c-terminal
-#270	AnnotationNotes T270	C-terminus or C-terminal region
-T271	CHEBI_SO_EXT:amino_acid 12339 12349	amino acid
-#271	AnnotationNotes T271	amino acid
-T272	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 12350 12360	c-terminal
-#272	AnnotationNotes T272	C-terminus or C-terminal region
-T273	SO_EXT:0001530 12376 12402	lysosomal targeting signal
-#273	AnnotationNotes T273	lysosomal_localization_signal
-T274	SO_EXT:biological_conservation_process_or_quality 12428 12437	conserved
-#274	AnnotationNotes T274	biological conservation process or quality
-T275	SO_EXT:0000417 12438 12445	domains
-#275	AnnotationNotes T275	polypeptide_domain
-T276	SO_EXT:0001060 12636 12643	isoform
-#276	AnnotationNotes T276	sequence_variant
-T277	SO_EXT:0000704 12836 12840	gene
-#277	AnnotationNotes T277	gene
-T278	SO_EXT:0001060 12901 12908	isoform
-#278	AnnotationNotes T278	sequence_variant
-T279	SO_EXT:biological_sequence 12939 12947	sequence
-#279	AnnotationNotes T279	biological sequence
-T280	SO_EXT:biological_conservation_process_or_quality 12991 13000	conserved
-#280	AnnotationNotes T280	biological conservation process or quality
-T281	SO_EXT:0000704 13042 13047	genes
-#281	AnnotationNotes T281	gene
-T282	SO_EXT:alternative_splice_variant 13094 13121	alternative splice variants
-#282	AnnotationNotes T282	alternative splice variant
-T283	SO_EXT:alternative_splice_variant 13184 13199	splice variants
-#283	AnnotationNotes T283	alternative splice variant
-T284	SO_EXT:alternative_splice_variant 13290 13304	splice variant
-#284	AnnotationNotes T284	alternative splice variant
-T285	SO_EXT:sequence_deletion_process 13310 13317	deletes
-#285	AnnotationNotes T285	sequence deletion process
-T286	SO_EXT:0000417 13334 13340	domain
-#286	AnnotationNotes T286	polypeptide_domain
-T287	SO_EXT:0001026 13436 13442	genome
-#287	AnnotationNotes T287	genome
-T288	SO_EXT:0000704 13488 13493	genes
-#288	AnnotationNotes T288	gene
-T289	SO_EXT:0000345 13595 13618	expressed sequence tags
-#289	AnnotationNotes T289	EST
-T290	SO_EXT:0000345 13620 13624	ESTs
-#290	AnnotationNotes T290	EST
-T291	SO_EXT:0000704 13734 13741	genetic
-#291	AnnotationNotes T291	gene
-T292	OBI_SO_EXT:gene_or_genetic_investigation_or_genetic_process 13833 13841	genetics
-#292	AnnotationNotes T292	genetic investigation or process
-T293	SO_EXT:alternative_splice_variant 13894 13909	splice variants
-#293	AnnotationNotes T293	alternative splice variant
-T294	SO_EXT:1001187 13956 13989	alternatively spliced transcripts
-#294	AnnotationNotes T294	alternatively_spliced_transcript
-T295	SO_EXT:0001026 14102 14108	Genome
-#295	AnnotationNotes T295	genome
-T296	SO_EXT:biological_sequence 14119 14128	Sequences
-#296	AnnotationNotes T296	biological sequence
-T297	SO_EXT:biological_sequence 14175 14183	sequence
-#297	AnnotationNotes T297	biological sequence
-T298	SO_EXT:sequence_or_structure_motif 14198 14203	motif
-#298	AnnotationNotes T298	sequence or structure motif
-T299	SO_EXT:biological_sequence 14269 14278	sequences
-#299	AnnotationNotes T299	biological sequence
-T300	CHEBI_SO_EXT:DNA 14314 14317	DNA
-#300	AnnotationNotes T300	DNA
-T301	SO_EXT:sequence_cloned_entity 14341 14347	Clones
-#301	AnnotationNotes T301	sequence-cloned entity
-T302	OBI_SO_EXT:gene_or_genetic_investigation_or_genetic_process 14377 14385	Genetics
-#302	AnnotationNotes T302	genetic investigation or process
-T303	CHEBI_SO_EXT:DNA 14536 14539	DNA
-#303	AnnotationNotes T303	DNA
-T304	CHEBI_SO_EXT:RNA 14594 14597	RNA
-#304	AnnotationNotes T304	RNA
-T305	CHEBI_SO_EXT:RNA 14699 14702	RNA
-#305	AnnotationNotes T305	RNA
-T306	SO_EXT:cDNA 14736 14740	cDNA
-#306	AnnotationNotes T306	complementary DNA
-T307	CHEBI_SO_EXT:hexanucleotide 14765 14773	hexamers
-#307	AnnotationNotes T307	hexanucleotide
-T308	CHEBI_SO_EXT:oligonucleotide 14778 14783	oligo
-#308	AnnotationNotes T308	oligonucleotide
-T309	SO_EXT:0000112 14787 14793	primer
-#309	AnnotationNotes T309	primer
-T310	SO_EXT:alternative_splice_variant 14834 14860	alternatively spliced form
-#310	AnnotationNotes T310	alternative splice variant
-T311	SO_EXT:0000112 14867 14874	primers
-#311	AnnotationNotes T311	primer
-T312	SO:0001030 14903 14910	forward
-#312	AnnotationNotes T312	forward
-T313	SO:0001031 14943 14950	reverse
-#313	AnnotationNotes T313	reverse
-T314	SO_EXT:genomic_DNA 15046 15057	genomic DNA
-#314	AnnotationNotes T314	genomic DNA
-T315	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 15285 15292	labeled
-#315	AnnotationNotes T315	molecular label/mark/tag process
-T316	SO_EXT:0001384 15297 15308;15320 15333	fragment of
-#316	AnnotationNotes T316	CDS_fragment
-T317	SO_EXT:0000147 15351 15355	exon
-#317	AnnotationNotes T317	exon
-T318	CHEBI_SO_EXT:molecular_probe 15372 15377	probe
-#318	AnnotationNotes T318	molecular probe
-T319	SO_EXT:0000112 15379 15386	primers
-#319	AnnotationNotes T319	primer
-T320	SO:0001030 15414 15421	forward
-#320	AnnotationNotes T320	forward
-T321	SO:0001031 15454 15461	reverse
-#321	AnnotationNotes T321	reverse
-T322	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 15801 15808	labeled
-#322	AnnotationNotes T322	molecular label/mark/tag process
-T323	CHEBI_SO_EXT:DNA 15809 15812	DNA
-#323	AnnotationNotes T323	DNA
-T324	SO_EXT:0001384 15813 15824;15832 15845	fragment of
-#324	AnnotationNotes T324	CDS_fragment
-T325	SO_EXT:0000147 15863 15867	exon
-#325	AnnotationNotes T325	exon
-T326	SO_EXT:1001187 15903 15913	transcript
-#326	AnnotationNotes T326	alternatively_spliced_transcript
-T327	CHEBI_SO_EXT:molecular_probe 15917 15922	probe
-#327	AnnotationNotes T327	molecular probe
-T328	SO_EXT:0000147 15959 15964	exons
-#328	AnnotationNotes T328	exon
-T329	SO_EXT:0000112 15980 15987	primers
-#329	AnnotationNotes T329	primer
-T330	SO:0001030 16014 16021	forward
-#330	AnnotationNotes T330	forward
-T331	SO:0001031 16055 16062	reverse
-#331	AnnotationNotes T331	reverse
-T332	CHEBI_SO_EXT:molecular_probe 16149 16155	probes
-#332	AnnotationNotes T332	molecular probe
-T333	CHEBI_SO_EXT:molecular_probe 16263 16269	probes
-#333	AnnotationNotes T333	molecular probe
+T0	SO_EXT_sequence_cloning_process 0 7	Cloning
+T1	SO_EXT_0000704 49 53	gene
+T2	SO_EXT_1001187 65 97	alternatively spliced transcript
+T3	SO_EXT_0000704 309 313	gene
+T4	SO_EXT_sequence_cloning_process 448 455	cloning
+T5	SO_EXT_0000853 490 499	homologue
+T6	SO_EXT_alternative_splice_variant 528 542	splice variant
+T7	SO_EXT_0000704 601 606	genes
+T8	SO_0000860 632 639	synteny
+T9	CHEBI_SO_EXT_amino_acid 658 668	amino acid
+T10	CHEBI_SO_EXT_nucleotide 677 687	nucleotide
+T11	GO_SO_EXT_chromosome 729 739	chromosome
+T12	SO_EXT_0000236 758 776	open reading frame
+T13	CHEBI_SO_EXT_amino_acid 784 795	amino acids
+T14	SO_EXT_0000673 804 814	transcript
+T15	CHEBI_SO_EXT_base 842 843	b
+T16	SO_EXT_sequence_coding_function 844 851	encoded
+T17	SO_EXT_0000147 858 863	exons
+T18	SO_EXT_0000673 903 913	transcript
+T19	SO_EXT_sequence_coding_function 969 976	encodes
+T20	CHEBI_SO_EXT_amino_acid 983 993	amino acid
+T21	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 1022 1032	c-terminus
+T22	SO_EXT_0000417 1116 1123	domains
+T23	SO_EXT_0001529 1160 1169;	endosomal
+1180 1196	endosomaltargeting signal
+T24	SO_EXT_0001530 1170 1196	lysosomal targeting signal
+T25	SO_EXT_biological_conservation_process_or_quality 1200 1209	conserved
+T26	SO_EXT_alternative_splice_variant 1359 1374	splice variants
+T27	SO_EXT_0000673 1491 1502	transcripts
+T28	SO_EXT_0000704 1563 1567	gene
+T29	SO_EXT_0000704 2270 2274	gene
+T30	SO_EXT_sequence_alteration_entity_or_process 2449 2458	mutations
+T31	SO_EXT_0000704 2530 2534	gene
+T32	GO_SO_EXT_chromosome 2570 2580	chromosome
+T33	SO_EXT_sequence_coding_function 2598 2605	encodes
+T34	SO_EXT_0000704 2696 2700	gene
+T35	SO_EXT_sequence_altered_entity 3011 3018	mutants
+T36	SO_EXT_0000853 3044 3053	homologue
+T37	SO_EXT_0000704 3223 3227	gene
+T38	SO_EXT_sequence_cloning_process 3257 3264	Cloning
+T39	SO_EXT_0000853 3299 3308	homologue
+T40	SO_EXT_sequence_cloning_process 3431 3438	Cloning
+T41	SO_EXT_0000853 3464 3473	homologue
+T42	SO_EXT_sequence_cloning_process 3494 3499	clone
+T43	SO_EXT_0000853 3510 3519	homologue
+T44	CHEBI_SO_EXT_amino_acid 3541 3551	amino acid
+T45	SO_EXT_biological_sequence 3552 3560	sequence
+T46	SO_EXT_0001026 3597 3604	genomic
+T47	SO_EXT_biological_sequence 3605 3613	sequence
+T48	SO_EXT_0000153 3672 3675	BAC
+T49	SO_EXT_sequence_cloned_entity 3676 3681	clone
+T50	SO_EXT_0001026 3747 3753	Genome
+T51	SO_EXT_0001026 3824 3830	Genome
+T52	SO_EXT_0000153 3869 3872	BAC
+T53	GO_SO_EXT_chromosome 3882 3892	chromosome
+T54	SO_EXT_0001249 3925 3937	physical map
+T55	SO_EXT_0000153 3973 3976	BAC
+T56	SO_EXT_biological_sequence 3977 3985	sequence
+T57	SO_EXT_0000345 4017 4020	EST
+T58	SO_EXT_0000345 4057 4061	ESTs
+T59	SO_EXT_sequence_cloned_entity 4097 4103	clones
+T60	SO_EXT_0001249 4132 4140;	Physical
+4156 4159	Physicalmap
+T61	SO_EXT_0000673 4145 4155	transcript
+T62	SO_EXT_0000704 4174 4178	gene
+T63	SO_EXT_0001249 4191 4203	Physical map
+T64	CHEBI_SO_EXT_base 4219 4220	b
+T65	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 4221 4231;	segment of
+4238 4248	segment ofchromosome
+T66	SO_0000860 4251 4260	syntenous
+T67	GO_SO_EXT_chromosome 4270 4280	chromosome
+T68	SO_EXT_0000704 4301 4306	genes
+T69	SO_EXT_0000153 4352 4356	BACs
+T70	SO_EXT_0000673 4449 4459	transcript
+T71	SO_EXT_0000147 4483 4488	exons
+T72	CHEBI_SO_EXT_molecular_probe 4515 4521	probes
+T73	SO_EXT_0000147 4590 4594	exon
+T74	SO_EXT_1001187 4605 4637	alternatively spliced transcript
+T75	SO_EXT_0000853 4684 4693	homologue
+T76	SO_EXT_0000704 4719 4723	gene
+T77	SO_EXT_0000673 4777 4787	transcript
+T78	CHEBI_SO_EXT_base 4820 4821	b
+T79	SO_EXT_0000153 4831 4834	BAC
+T80	SO_EXT_sequence_cloned_entity 4857 4863	clones
+T81	CHEBI_SO_EXT_base 4983 4984	b
+T82	SO_EXT_0000673 4985 4995	transcript
+T83	SO_EXT_0000236 5004 5022	open reading frame
+T84	CHEBI_SO_EXT_amino_acid 5030 5041	amino acids
+T85	SO_EXT_cDNA 5097 5101	cDNA
+T86	SO_EXT_biological_sequence 5102 5110	sequence
+T87	SO_EXT_0000153 5118 5121	BAC
+T88	SO_EXT_sequence_cloned_entity 5122 5127	clone
+T89	SO_EXT_0000704 5144 5148	gene
+T90	SO_EXT_0000147 5164 5169	exons
+T91	SO_EXT_0000673 5189 5199	transcript
+T92	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 5218 5227;	region of
+5234 5244	region ofchromosome
+T93	SO_EXT_0000853 5314 5323	homologue
+T94	SO_EXT_0000704 5349 5353	gene
+T95	CHEBI_SO_EXT_base 5407 5408	b
+T96	SO_EXT_0000853 5456 5465	homologue
+T97	SO_EXT_0000704 5506 5510	gene
+T98	SO_EXT_0000028 5531 5541	base pairs
+T99	SO_EXT_0000551 5552 5574	polyadenylation signal
+T100	SO_EXT_0000673 5591 5601	transcript
+T101	SO_EXT_0000853 5685 5695;	homologous
+5709 5715	homologousregion
+T102	SO_EXT_0000704 5758 5762	gene
+T103	SO_EXT_0005858 5796 5813	region of synteny
+T104	GO_SO_EXT_chromosome 5828 5838	chromosome
+T105	GO_SO_EXT_chromosome 5852 5862	chromosome
+T106	CHEBI_SO_EXT_peptide_or_peptide_region 5929 5936	peptide
+T107	SO_EXT_biological_sequence 5937 5946	sequences
+T108	SO_EXT_0000853 5992 6001	homologue
+T109	SO_EXT_0000853 6115 6124	homologue
+T110	CHEBI_SO_EXT_amino_acid 6185 6195	amino acid
+T111	SO_EXT_sequence_substitution_entity_or_process 6196 6209	substitutions
+T112	SO_EXT_biological_conservation_process_or_quality 6239 6248	conserved
+T113	CHEBI_SO_EXT_amino_acid 6249 6260	amino acids
+T114	SO_EXT_0000417 6371 6378	domains
+T115	CHEBI_SO_EXT_N_terminus_or_N_terminal_region 6388 6390;	N-
+6397 6404	N-termini
+T116	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 6395 6404	C-termini
+T117	CHEBI_SO_EXT_peptide_or_peptide_region 6456 6463	Peptide
+T118	SO_EXT_biological_sequence 6464 6472	sequence
+T119	SO_EXT_0000853 6544 6554	homologues
+T120	SO_EXT_0000417 6590 6597	domains
+T121	SO_EXT_0001529 6691 6700;	endosomal
+6711 6727	endosomaltargeting signal
+T122	SO_EXT_0001530 6701 6727	lysosomal targeting signal
+T123	CHEBI_SO_EXT_molecular_probe 6842 6847	probe
+T124	SO_EXT_0000147 6869 6873	exon
+T125	CHEBI_SO_EXT_molecular_probe 6877 6882	probe
+T126	CHEBI_SO_EXT_base 6934 6935	b
+T127	SO_EXT_0001060 6937 6944	isoform
+T128	CHEBI_SO_EXT_base 7002 7003	b
+T129	SO_EXT_0001060 7010 7017	isoform
+T130	CHEBI_SO_EXT_base 7046 7047	b
+T131	CHEBI_SO_EXT_base 7209 7210	b
+T132	CHEBI_SO_EXT_mRNA 7211 7218	message
+T133	SO_EXT_0000704 7275 7279	gene
+T134	SO_EXT_sequence_coding_function 7280 7287	encodes
+T135	SO_EXT_0000673 7297 7307	transcript
+T136	CHEBI_SO_EXT_molecular_probe 7361 7367	probes
+T137	SO_EXT_0000851 7391 7401;	regions of
+7406 7421	regions ofcoding sequence
+T138	SO_EXT_0000205 7426 7432	3' UTR
+T139	CHEBI_SO_EXT_molecular_probe 7442 7448	probes
+T140	SO_EXT_0000673 7473 7484	transcripts
+T141	SO_EXT_0000147 7618 7622	exon
+T142	CHEBI_SO_EXT_molecular_probe 7625 7630	probe
+T143	CHEBI_GO_SO_EXT_enzyme 7659 7666	enzymes
+T144	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 7719 7729;	chromosome
+7732 7737	chromosomelocus
+T145	CHEBI_SO_EXT_molecular_probe 7916 7921	probe
+T146	SO_EXT_0000147 7937 7941	exon
+T147	CHEBI_SO_EXT_molecular_probe 7945 7950	probe
+T148	CHEBI_SO_EXT_molecular_probe 8017 8022	probe
+T149	SO_EXT_0000852 8054 8069	segment of exon
+T150	CHEBI_SO_EXT_molecular_probe 8074 8079	probe
+T151	SO_EXT_alternative_splice_variant 8181 8207	alternative splice variant
+T152	SO_EXT_coding_sequence 8235 8250	coding sequence
+T153	SO_EXT_0000673 8266 8276	transcript
+T154	SO_EXT_0000345 8300 8303	EST
+T155	SO_EXT_0000188 8324 8330	intron
+T156	SO_EXT_0001026 8346 8353	genomic
+T157	SO_EXT_biological_sequence 8354 8362	sequence
+T158	SO_0000357 8363 8371	flanking
+T159	SO_EXT_0000704 8383 8387	gene
+T160	SO_EXT_0000345 8393 8397	ESTs
+T161	SO_EXT_biological_sequence 8429 8437	sequence
+T162	SO_EXT_0000188 8443 8449	intron
+T163	SO_EXT_sequence_cloned_entity 8507 8513	clones
+T164	SO_EXT_sequence_cloned_entity 8530 8535	Clone
+T165	SO_EXT_0000345 8544 8548	ESTs
+T166	CHEBI_SO_EXT_base 8603 8604	b
+T167	SO_EXT_0000147 8612 8616	exon
+T168	SO_EXT_0000147 8646 8650	exon
+T169	SO_EXT_0000147 8676 8680	exon
+T170	SO_EXT_sequence_cloned_entity 8685 8690	Clone
+T171	SO_EXT_0000345 8700 8703	EST
+T172	SO_EXT_0000028 8732 8734	bp
+T173	SO_EXT_0000147 8742 8746	exon
+T174	SO_EXT_0000147 8780 8784	exon
+T175	CHEBI_SO_EXT_molecular_probe 8845 8850	probe
+T176	SO_EXT_0000188 8879 8885	intron
+T177	SO_EXT_biological_sequence 8886 8894	sequence
+T178	SO_EXT_sequence_cloned_entity 8898 8903	clone
+T179	CHEBI_SO_EXT_molecular_probe 8912 8917	Probe
+T180	CHEBI_SO_EXT_base 8960 8961	b
+T181	SO_EXT_biological_sequence 9005 9013	sequence
+T182	SO_EXT_0000673 9028 9038	transcript
+T183	SO_EXT_0000112 9053 9060	primers
+T184	SO_EXT_0000147 9064 9069	exons
+T185	SO_EXT_0000112 9094 9100	primer
+T186	SO_EXT_0000188 9104 9110	intron
+T187	CHEBI_SO_EXT_RNA 9159 9162	RNA
+T188	SO_EXT_0000673 9237 9247	transcript
+T189	SO_EXT_0000147 9314 9318	exon
+T190	SO_EXT_0000147 9337 9341	exon
+T191	SO_EXT_0000028 9356 9358	bp
+T192	SO_EXT_0000188 9366 9372	intron
+T193	SO_EXT_0000028 9399 9401	bp
+T194	SO_EXT_0000147 9402 9406	exon
+T195	SO_EXT_0000147 9436 9440	exon
+T196	SO_EXT_0000236 9449 9467	open reading frame
+T197	SO_EXT_1001187 9476 9508	alternatively spliced transcript
+T198	CHEBI_SO_EXT_amino_acid 9516 9527	amino acids
+T199	CHEBI_SO_EXT_amino_acid 9532 9543	amino acids
+T200	CHEBI_SO_EXT_mRNA 9560 9567	message
+T201	SO_EXT_sequence_coding_function 9568 9575	encoded
+T202	CHEBI_SO_EXT_base 9588 9589	b
+T203	SO_EXT_0000673 9590 9600	transcript
+T204	SO_EXT_0001060 9633 9640	isoform
+T205	SO_EXT_sequence_coding_function 9643 9650	encodes
+T206	SO_EXT_0000417 9722 9729	domains
+T207	SO_EXT_biological_sequence 9770 9779	sequences
+T208	CHEBI_SO_EXT_amino_acid 9791 9801	amino acid
+T209	CHEBI_SO_EXT_amino_acid 9814 9824	amino acid
+T210	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 9825 9835	C-terminal
+T211	SO_EXT_sequence_coding_function 9853 9860	encoded
+T212	CHEBI_SO_EXT_base 9873 9874	b
+T213	SO_EXT_0000673 9875 9885	transcript
+T214	CHEBI_SO_EXT_amino_acid 9922 9932	amino acid
+T215	SO_EXT_sequence_coding_function 9938 9945	encoded
+T216	CHEBI_SO_EXT_base 9974 9975	b
+T217	SO_EXT_0000673 9976 9986	transcript
+T218	CHEBI_SO_EXT_RNA 10012 10015	RNA
+T219	SO_EXT_0000147 10054 10058	exon
+T220	SO_EXT_0000188 10065 10071	intron
+T221	CHEBI_SO_EXT_molecular_probe 10075 10081	probes
+T222	SO_EXT_0000673 10138 10149	transcripts
+T223	CHEBI_SO_EXT_peptide_or_peptide_region 10297 10304	Peptide
+T224	SO_EXT_biological_sequence 10305 10313	sequence
+T225	SO_EXT_alternative_splice_variant 10336 10357;	alternatively spliced
+10365 10373	alternatively splicedisoforms
+T226	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 10413 10423	c-terminal
+T227	SO_EXT_0000417 10485 10492	domains
+T228	CHEBI_SO_EXT_nucleotide 10526 10536	nucleotide
+T229	CHEBI_SO_EXT_amino_acid 10541 10551	amino acid
+T230	SO_EXT_biological_sequence 10552 10560	sequence
+T231	SO_EXT_1001187 10568 10589;	alternatively spliced
+10596 10606	alternatively splicedtranscript
+T232	SO_EXT_0001026 10634 10641	genomic
+T233	SO_EXT_biological_sequence 10642 10650	sequence
+T234	CHEBI_SO_EXT_molecular_probe 10756 10762	probes
+T235	CHEBI_SO_EXT_base 10782 10783	b
+T236	SO_EXT_0000673 10784 10794	transcript
+T237	CHEBI_SO_EXT_molecular_probe 10882 10887	probe
+T238	SO_EXT_0000188 10897 10903	intron
+T239	SO_EXT_0000147 10927 10931	exon
+T240	CHEBI_SO_EXT_molecular_probe 10940 10945	probe
+T241	SO_0000860 10972 10980	syntenic
+T242	SO_EXT_sequence_coding_function 10995 11002	encodes
+T243	SO_EXT_1001187 11007 11016;	alternate
+11023 11033	alternatetranscript
+T244	SO_EXT_1001187 11154 11176	alternative transcript
+T245	SO_EXT_1001187 11237 11246;	alternate
+11254 11264	alternatetranscript
+T246	CHEBI_SO_EXT_amino_acid 11298 11308	amino acid
+T247	SO_EXT_sequence_cloned_entity 11368 11373	clone
+T248	SO_EXT_biological_sequence 11448 11456	sequence
+T249	CHEBI_SO_EXT_molecular_probe 11501 11507	probes
+T250	SO_EXT_sequence_cloned_entity 11522 11527	clone
+T251	CHEBI_SO_EXT_molecular_probe 11540 11546	probes
+T252	SO_EXT_coding_sequence 11569 11584	coding sequence
+T253	SO_EXT_0000673 11604 11615	transcripts
+T254	SO_EXT_0001060 11652 11659	isoform
+T255	SO_EXT_0000853 11675 11684	homologue
+T256	CHEBI_SO_EXT_amino_acid 11723 11733	amino acid
+T257	CHEBI_SO_EXT_nucleotide 11738 11748	nucleotide
+T258	SO_EXT_0000417 11785 11792	domains
+T259	SO_EXT_biological_conservation_process_or_quality 11844 11853	conserved
+T260	CHEBI_SO_EXT_leucine 11871 11878	leucine
+T261	SO_EXT_sequence_or_structure_motif 11889 11894	motif
+T262	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 11902 11912	C-terminus
+T263	SO_EXT_0001529 11938 11947;	endosomal
+11958 11974	endosomaltargeting signal
+T264	SO_EXT_0001530 11948 11974	lysosomal targeting signal
+T265	SO_EXT_biological_conservation_process_or_quality 11984 11993	conserved
+T266	SO_EXT_0000853 12068 12077	homologue
+T267	SO_EXT_0000704 12217 12221	gene
+T268	SO_EXT_alternative_splice_variant 12230 12260	alternatively spliced isoforms
+T269	SO_EXT_0001060 12267 12274	isoform
+T270	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 12296 12306	c-terminal
+T271	CHEBI_SO_EXT_amino_acid 12339 12349	amino acid
+T272	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 12350 12360	c-terminal
+T273	SO_EXT_0001530 12376 12402	lysosomal targeting signal
+T274	SO_EXT_biological_conservation_process_or_quality 12428 12437	conserved
+T275	SO_EXT_0000417 12438 12445	domains
+T276	SO_EXT_0001060 12636 12643	isoform
+T277	SO_EXT_0000704 12836 12840	gene
+T278	SO_EXT_0001060 12901 12908	isoform
+T279	SO_EXT_biological_sequence 12939 12947	sequence
+T280	SO_EXT_biological_conservation_process_or_quality 12991 13000	conserved
+T281	SO_EXT_0000704 13042 13047	genes
+T282	SO_EXT_alternative_splice_variant 13094 13121	alternative splice variants
+T283	SO_EXT_alternative_splice_variant 13184 13199	splice variants
+T284	SO_EXT_alternative_splice_variant 13290 13304	splice variant
+T285	SO_EXT_sequence_deletion_process 13310 13317	deletes
+T286	SO_EXT_0000417 13334 13340	domain
+T287	SO_EXT_0001026 13436 13442	genome
+T288	SO_EXT_0000704 13488 13493	genes
+T289	SO_EXT_0000345 13595 13618	expressed sequence tags
+T290	SO_EXT_0000345 13620 13624	ESTs
+T291	SO_EXT_0000704 13734 13741	genetic
+T292	OBI_SO_EXT_gene_or_genetic_investigation_or_genetic_process 13833 13841	genetics
+T293	SO_EXT_alternative_splice_variant 13894 13909	splice variants
+T294	SO_EXT_1001187 13956 13989	alternatively spliced transcripts
+T295	SO_EXT_0001026 14102 14108	Genome
+T296	SO_EXT_biological_sequence 14119 14128	Sequences
+T297	SO_EXT_biological_sequence 14175 14183	sequence
+T298	SO_EXT_sequence_or_structure_motif 14198 14203	motif
+T299	SO_EXT_biological_sequence 14269 14278	sequences
+T300	CHEBI_SO_EXT_DNA 14314 14317	DNA
+T301	SO_EXT_sequence_cloned_entity 14341 14347	Clones
+T302	OBI_SO_EXT_gene_or_genetic_investigation_or_genetic_process 14377 14385	Genetics
+T303	CHEBI_SO_EXT_DNA 14536 14539	DNA
+T304	CHEBI_SO_EXT_RNA 14594 14597	RNA
+T305	CHEBI_SO_EXT_RNA 14699 14702	RNA
+T306	SO_EXT_cDNA 14736 14740	cDNA
+T307	CHEBI_SO_EXT_hexanucleotide 14765 14773	hexamers
+T308	CHEBI_SO_EXT_oligonucleotide 14778 14783	oligo
+T309	SO_EXT_0000112 14787 14793	primer
+T310	SO_EXT_alternative_splice_variant 14834 14860	alternatively spliced form
+T311	SO_EXT_0000112 14867 14874	primers
+T312	SO_0001030 14903 14910	forward
+T313	SO_0001031 14943 14950	reverse
+T314	SO_EXT_genomic_DNA 15046 15057	genomic DNA
+T315	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 15285 15292	labeled
+T316	SO_EXT_0001384 15297 15308;	fragment of
+15320 15333	fragment ofcoding region
+T317	SO_EXT_0000147 15351 15355	exon
+T318	CHEBI_SO_EXT_molecular_probe 15372 15377	probe
+T319	SO_EXT_0000112 15379 15386	primers
+T320	SO_0001030 15414 15421	forward
+T321	SO_0001031 15454 15461	reverse
+T322	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 15801 15808	labeled
+T323	CHEBI_SO_EXT_DNA 15809 15812	DNA
+T324	SO_EXT_0001384 15813 15824;	fragment of
+15832 15845	fragment ofcoding region
+T325	SO_EXT_0000147 15863 15867	exon
+T326	SO_EXT_1001187 15903 15913	transcript
+T327	CHEBI_SO_EXT_molecular_probe 15917 15922	probe
+T328	SO_EXT_0000147 15959 15964	exons
+T329	SO_EXT_0000112 15980 15987	primers
+T330	SO_0001030 16014 16021	forward
+T331	SO_0001031 16055 16062	reverse
+T332	CHEBI_SO_EXT_molecular_probe 16149 16155	probes
+T333	CHEBI_SO_EXT_molecular_probe 16263 16269	probes

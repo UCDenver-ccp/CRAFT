@@ -1,932 +1,467 @@
-T0	SO_EXT:0000704 52 56	gene
-#0	AnnotationNotes T0	gene
-T1	SO_EXT:sequence_coding_function 57 65	encoding
-#1	AnnotationNotes T1	sequence coding function
-T2	SO_EXT:0000704 142 146	gene
-#2	AnnotationNotes T2	gene
-T3	SO_EXT:sequence_coding_function 162 169	encodes
-#3	AnnotationNotes T3	sequence coding function
-T4	SO_EXT:0000417 175 181	domain
-#4	AnnotationNotes T4	polypeptide_domain
-T5	SO_EXT:0000040 317 331	genomic clones
-#5	AnnotationNotes T5	genomic_clone
-T6	SO_EXT:0000704 358 362	gene
-#6	AnnotationNotes T6	gene
-T7	SO_EXT:0000336 372 383	pseudogenes
-#7	AnnotationNotes T7	pseudogene
-T8	GO_SO_EXT:chromosome 400 411	chromosomal
-#8	AnnotationNotes T8	chromosome
-T9	SO_EXT:0001026 513 520	genomic
-#9	AnnotationNotes T9	genome
-T10	SO_EXT:0000704 557 561	gene
-#10	AnnotationNotes T10	gene
-T11	SO_EXT:sequence_cloned_entity 606 612	clones
-#11	AnnotationNotes T11	sequence-cloned entity
-T12	SO_EXT:0000704 639 643	gene
-#12	AnnotationNotes T12	gene
-T13	SO_EXT:biological_sequence 672 680	sequence
-#13	AnnotationNotes T13	biological sequence
-T14	SO_EXT:0000704 696 700	gene
-#14	AnnotationNotes T14	gene
-T15	GO_SO_EXT:chromosome 716 726	chromosome
-#15	AnnotationNotes T15	chromosome
-T16	SO_EXT:biological_sequence 744 752	sequence
-#16	AnnotationNotes T16	biological sequence
-T17	SO_EXT:sequence_alteration_entity_or_process 783 792	mutations
-#17	AnnotationNotes T17	sequence alteration entity or process
-T18	SO_EXT:sequence_duplication_process 819 829	duplicated
-#18	AnnotationNotes T18	sequence duplication process
-T19	SO_EXT:0000336 830 840	pseudogene
-#19	AnnotationNotes T19	pseudogene
-T20	SO_EXT:0001416 846 864	5' flanking region
-#20	AnnotationNotes T20	five_prime_flanking_region
-T21	SO_EXT:0000704 877 881	gene
-#21	AnnotationNotes T21	gene
-T22	SO_EXT:0000336 903 913	pseudogene
-#22	AnnotationNotes T22	pseudogene
-T23	SO_EXT:0000165 932 940	enhancer
-#23	AnnotationNotes T23	enhancer
-T24	SO_EXT:0000167 945 953	promoter
-#24	AnnotationNotes T24	promoter
-T25	SO_EXT:0000704 1071 1075	gene
-#25	AnnotationNotes T25	gene
-T26	SO_EXT:sequence_substitution_process 1080 1088	replaced
-#26	AnnotationNotes T26	sequence substitution process
-T27	SO_EXT:biological_sequence 1094 1102	sequence
-#27	AnnotationNotes T27	biological sequence
-T28	SO_EXT:0005853 1128 1136	cassette
-#28	AnnotationNotes T28	gene_cassette
-T29	GO_SO_EXT:sequence_rearrangement_process 1151 1164	recombination
-#29	AnnotationNotes T29	sequence rearrangement process
-T30	SO_EXT:sequence_nullness_or_absence 1231 1232	-
-#30	AnnotationNotes T30	sequence nullness or absence
-T31	SO_EXT:sequence_nullness_or_absence 1233 1234	-
-#31	AnnotationNotes T31	sequence nullness or absence
-T32	SO_EXT:sequence_nullness_or_absence 1299 1300	-
-#32	AnnotationNotes T32	sequence nullness or absence
-T33	SO_EXT:sequence_nullness_or_absence 1301 1302	-
-#33	AnnotationNotes T33	sequence nullness or absence
-T34	GO_SO_EXT:sequence_rearrangement_process 1352 1365	recombination
-#34	AnnotationNotes T34	sequence rearrangement process
-T35	SO_EXT:0000704 1633 1637	gene
-#35	AnnotationNotes T35	gene
-T36	SO_EXT:sequence_duplication_process 1655 1665	duplicated
-#36	AnnotationNotes T36	sequence duplication process
-T37	SO_EXT:0000336 1666 1676	pseudogene
-#37	AnnotationNotes T37	pseudogene
-T38	GO_SO_EXT:chromosome 1692 1702	chromosome
-#38	AnnotationNotes T38	chromosome
-T39	SO_EXT:0000704 2219 2223	gene
-#39	AnnotationNotes T39	gene
-T40	SO_EXT:0000704 2708 2713	genes
-#40	AnnotationNotes T40	gene
-T41	CHEBI_SO_EXT:DNA 2794 2797	DNA
-#41	AnnotationNotes T41	DNA
-T42	SO_EXT:0000345 2826 2848	expressed sequence tag
-#42	AnnotationNotes T42	EST
-T43	SO_EXT:0000673 2892 2903	transcripts
-#43	AnnotationNotes T43	transcript
-T44	SO_EXT:0000673 2998 3008	transcript
-#44	AnnotationNotes T44	transcript
-T45	SO_EXT:0000704 3113 3117	gene
-#45	AnnotationNotes T45	gene
-T46	SO_EXT:sequence_coding_function 3309 3316	encodes
-#46	AnnotationNotes T46	sequence coding function
-T47	CHEBI_SO_EXT:polypeptide 3319 3330	polypeptide
-#47	AnnotationNotes T47	polypeptide
-T48	CHEBI_SO_EXT:amino_acid 3338 3349	amino acids
-#48	AnnotationNotes T48	amino acid
-T49	SO_EXT:0000417 3376 3382	domain
-#49	AnnotationNotes T49	polypeptide_domain
-T50	CHEBI_SO_EXT:RNA 3396 3399	RNA
-#50	AnnotationNotes T50	RNA
-T51	SO_EXT:0000417 3408 3414	domain
-#51	AnnotationNotes T51	polypeptide_domain
-T52	CHEBI_SO_EXT:RNA 3474 3477	RNA
-#52	AnnotationNotes T52	RNA
-T53	SO_EXT:0001026 3548 3555	genomic
-#53	AnnotationNotes T53	genome
-T54	SO_EXT:0000040 3588 3602	genomic clones
-#54	AnnotationNotes T54	genomic_clone
-T55	SO_EXT:0000704 3629 3633	gene
-#55	AnnotationNotes T55	gene
-T56	SO_EXT:0000336 3644 3655	pseudogenes
-#56	AnnotationNotes T56	pseudogene
-T57	SO_EXT:0000336 3675 3686	pseudogenes
-#57	AnnotationNotes T57	pseudogene
-T58	SO_EXT:0000147 3705 3709	exon
-#58	AnnotationNotes T58	exon
-T59	SO_EXT:0000188 3710 3716	intron
-#59	AnnotationNotes T59	intron
-T60	SO_EXT:0000704 3739 3743	gene
-#60	AnnotationNotes T60	gene
-T61	SO_EXT:0000704 3776 3780	gene
-#61	AnnotationNotes T61	gene
-T62	SO_EXT:sequence_duplication_entity_or_process 3781 3792	duplication
-#62	AnnotationNotes T62	sequence duplication entity or process
-T63	SO_EXT:0000336 3813 3824	pseudogenes
-#63	AnnotationNotes T63	pseudogene
-T64	SO_EXT:0000188 3845 3852	introns
-#64	AnnotationNotes T64	intron
-T65	SO_EXT:sequence_retrotransposition_entity_or_process 3894 3912	retrotransposition
-#65	AnnotationNotes T65	sequence retrotransposition entity or process
-T66	SO_EXT:0000673 3921 3932	transcripts
-#66	AnnotationNotes T66	transcript
-T67	GO_SO_EXT:chromosome 3938 3949	chromosomal
-#67	AnnotationNotes T67	chromosome
-T68	SO_EXT:0000704 3982 3986	gene
-#68	AnnotationNotes T68	gene
-T69	SO_EXT:0000336 3991 4002	pseudogenes
-#69	AnnotationNotes T69	pseudogene
-T70	SO_EXT:0000704 4094 4098	gene
-#70	AnnotationNotes T70	gene
-T71	SO_EXT:sequence_coding_function 4099 4107	encoding
-#71	AnnotationNotes T71	sequence coding function
-T72	SO_EXT:0000336 4133 4144	pseudogenes
-#72	AnnotationNotes T72	pseudogene
-T73	SO_EXT:0000704 4164 4168	gene
-#73	AnnotationNotes T73	gene
-T74	GO_SO_EXT:chromosome 4253 4264	Chromosomal
-#74	AnnotationNotes T74	chromosome
-T75	SO_EXT:0000704 4307 4311	gene
-#75	AnnotationNotes T75	gene
-T76	SO_EXT:0000336 4316 4326	psedogenes
-#76	AnnotationNotes T76	pseudogene
-T77	GO_SO_EXT:chromosome 4345 4356	chromosomal
-#77	AnnotationNotes T77	chromosome
-T78	SO_EXT:0000704 4389 4393	gene
-#78	AnnotationNotes T78	gene
-T79	SO_EXT:0000336 4398 4409	pseudogenes
-#79	AnnotationNotes T79	pseudogene
-T80	SO_EXT:0001026 4454 4461	genomic
-#80	AnnotationNotes T80	genome
-T81	SO_EXT:cDNA 4485 4489	cDNA
-#81	AnnotationNotes T81	complementary DNA
-T82	SO_EXT:biological_sequence 4490 4498	sequence
-#82	AnnotationNotes T82	biological sequence
-T83	SO_EXT:0000336 4542 4553	pseudogenes
-#83	AnnotationNotes T83	pseudogene
-T84	SO_EXT:0000188 4562 4569	introns
-#84	AnnotationNotes T84	intron
-T85	GO_SO_EXT:chromosome 4573 4584	chromosomes
-#85	AnnotationNotes T85	chromosome
-T86	SO_EXT:0000188 4646 4652	intron
-#86	AnnotationNotes T86	intron
-T87	SO_EXT:0000336 4658 4669	pseudogenes
-#87	AnnotationNotes T87	pseudogene
-T88	CHEBI_SO_EXT:DNA 4689 4692	DNA
-#88	AnnotationNotes T88	DNA
-T89	GO_SO_EXT:chromosome 4717 4728	chromosomal
-#89	AnnotationNotes T89	chromosome
-T90	SO_EXT:0000336 4773 4785	pseudodgenes
-#90	AnnotationNotes T90	pseudogene
-T91	SO:0000857 4803 4811	homology
-#91	AnnotationNotes T91	homologous
-T92	SO_EXT:cDNA 4820 4824	cDNA
-#92	AnnotationNotes T92	complementary DNA
-T93	SO_EXT:sequence_alteration_entity_or_process 4890 4899	mutations
-#93	AnnotationNotes T93	sequence alteration entity or process
-T94	SO_EXT:0000188 4956 4962	intron
-#94	AnnotationNotes T94	intron
-T95	SO_EXT:0000336 4968 4979	pseudogenes
-#95	AnnotationNotes T95	pseudogene
-T96	SO_EXT:0000043 5031 5047	retropseudogenes
-#96	AnnotationNotes T96	processed_pseudogene
-T97	SO_EXT:0000704 5091 5096	genes
-#97	AnnotationNotes T97	gene
-T98	SO_EXT:0000336 5118 5129	pseudogenes
-#98	AnnotationNotes T98	pseudogene
-T99	SO_EXT:0001026 5168 5175	genomic
-#99	AnnotationNotes T99	genome
-T100	SO_EXT:sequence_substitution_entity_or_process 5187 5199	Substitution
-#100	AnnotationNotes T100	sequence substitution entity or process
-T101	SO_EXT:sequence_alteration_entity_or_process 5200 5209	mutations
-#101	AnnotationNotes T101	sequence alteration entity or process
-T102	SO_EXT:0000188 5240 5246	Intron
-#102	AnnotationNotes T102	intron
-T103	SO_EXT:0000730 5252 5255	gap
-#103	AnnotationNotes T103	gap
-T104	SO_EXT:biological_sequence 5256 5265	sequences
-#104	AnnotationNotes T104	biological sequence
-T105	GO_SO_EXT:chromosome 5296 5307	Chromosomal
-#105	AnnotationNotes T105	chromosome
-T106	GO_SO_EXT:chromosome 5350 5360	chromosome
-#106	AnnotationNotes T106	chromosome
-T107	CHEBI_SO_EXT:DNA 5380 5383	DNA
-#107	AnnotationNotes T107	DNA
-T108	SO_EXT:0000704 5413 5417	gene
-#108	AnnotationNotes T108	gene
-T109	SO_EXT:0000188 5445 5452	introns
-#109	AnnotationNotes T109	intron
-T110	SO_EXT:0000147 5486 5491	exons
-#110	AnnotationNotes T110	exon
-T111	SO_EXT:sequence_alteration_entity_or_process 5525 5534	mutations
-#111	AnnotationNotes T111	sequence alteration entity or process
-T112	SO_EXT:cDNA 5547 5551	cDNA
-#112	AnnotationNotes T112	complementary DNA
-T113	SO_EXT:biological_sequence 5552 5560	sequence
-#113	AnnotationNotes T113	biological sequence
-T114	SO_EXT:0000147 5581 5585	exon
-#114	AnnotationNotes T114	exon
-T115	SO_EXT:0000704 5640 5644	gene
-#115	AnnotationNotes T115	gene
-T116	GO_SO_EXT:chromosome 5654 5664	chromosome
-#116	AnnotationNotes T116	chromosome
-T117	CHEBI_SO_EXT:DNA 5690 5693	DNA
-#117	AnnotationNotes T117	DNA
-T118	SO_EXT:0000147 5753 5757	exon
-#118	AnnotationNotes T118	exon
-T119	SO_EXT:0000704 5770 5774	gene
-#119	AnnotationNotes T119	gene
-T120	SO_EXT:biological_sequence 5820 5829	sequences
-#120	AnnotationNotes T120	biological sequence
-T121	GO_SO_EXT:chromosome 5833 5843	chromosome
-#121	AnnotationNotes T121	chromosome
-T122	CHEBI_SO_EXT:DNA 5892 5895	DNA
-#122	AnnotationNotes T122	DNA
-T123	SO_EXT:0000704 5926 5930	gene
-#123	AnnotationNotes T123	gene
-T124	SO_EXT:0000153 5948 5979	bacterial artificial chromosome
-#124	AnnotationNotes T124	BAC
-T125	SO_EXT:0000153 5981 5984	BAC
-#125	AnnotationNotes T125	BAC
-T126	CHEBI_SO_EXT:DNA 5986 5989	DNA
-#126	AnnotationNotes T126	DNA
-T127	SO_EXT:0000112 6008 6014	primer
-#127	AnnotationNotes T127	primer
-T128	SO_EXT:0000704 6054 6058	gene
-#128	AnnotationNotes T128	gene
-T129	SO_EXT:0000336 6068 6079	pseudogenes
-#129	AnnotationNotes T129	pseudogene
-T130	SO_EXT:0000153 6126 6129	BAC
-#130	AnnotationNotes T130	BAC
-T131	SO_EXT:sequence_cloned_entity 6130 6136	clones
-#131	AnnotationNotes T131	sequence-cloned entity
-T132	SO_EXT:sequence_cloned_entity 6200 6206	clones
-#132	AnnotationNotes T132	sequence-cloned entity
-T133	SO_EXT:biological_sequence 6219 6227	sequence
-#133	AnnotationNotes T133	biological sequence
-T134	SO_EXT:cDNA 6267 6271	cDNA
-#134	AnnotationNotes T134	complementary DNA
-T135	SO_EXT:0000188 6309 6316	introns
-#135	AnnotationNotes T135	intron
-T136	SO_EXT:0000188 6338 6344	intron
-#136	AnnotationNotes T136	intron
-T137	SO_EXT:biological_sequence 6345 6354	sequences
-#137	AnnotationNotes T137	biological sequence
-T138	SO_EXT:0001421 6421 6442	exon-intron junctions
-#138	AnnotationNotes T138	splice_junction
-T139	SO_EXT:0001416 6453 6471	5' flanking region
-#139	AnnotationNotes T139	five_prime_flanking_region
-T140	CHEBI_SO_EXT:DNA 6480 6483	DNA
-#140	AnnotationNotes T140	DNA
-T141	SO_EXT:0000167 6510 6518	promoter
-#141	AnnotationNotes T141	promoter
-T142	SO_EXT:0000165 6519 6527	enhancer
-#142	AnnotationNotes T142	enhancer
-T143	SO_EXT:biological_sequence 6756 6764	sequence
-#143	AnnotationNotes T143	biological sequence
-T144	SO_EXT:0000704 6777 6781	gene
-#144	AnnotationNotes T144	gene
-T145	SO_EXT:0000153 6794 6797	BAC
-#145	AnnotationNotes T145	BAC
-T146	SO_EXT:sequence_cloned_entity 6798 6804	clones
-#146	AnnotationNotes T146	sequence-cloned entity
-T147	SO_EXT:0000704 6825 6829	gene
-#147	AnnotationNotes T147	gene
-T148	SO_EXT:sequence_duplication_entity_or_process 6836 6847	duplication
-#148	AnnotationNotes T148	sequence duplication entity or process
-T149	SO_EXT:0000336 6848 6858	pseudogene
-#149	AnnotationNotes T149	pseudogene
-T150	SO_EXT:0000336 6860 6862	PS
-#150	AnnotationNotes T150	pseudogene
-T151	SO_EXT:0000704 6888 6892	gene
-#151	AnnotationNotes T151	gene
-T152	SO_EXT:0000336 6897 6899	PS
-#152	AnnotationNotes T152	pseudogene
-T153	GO_SO_EXT:chromosome 6903 6913	chromosome
-#153	AnnotationNotes T153	chromosome
-T154	SO_EXT:biological_sequence 6920 6928	Sequence
-#154	AnnotationNotes T154	biological sequence
-T155	SO_EXT:0000704 6947 6951	gene
-#155	AnnotationNotes T155	gene
-T156	SO_EXT:0000336 6956 6958	PS
-#156	AnnotationNotes T156	pseudogene
-T157	SO:0000857 6983 6993	homologous
-#157	AnnotationNotes T157	homologous
-T158	SO_EXT:0000028 7005 7015	base pairs
-#158	AnnotationNotes T158	base_pair
-T159	SO_EXT:sequence_upstreamness 7016 7024	upstream
-#159	AnnotationNotes T159	sequence upstreamness
-T160	SO_EXT:0000147 7038 7042	exon
-#160	AnnotationNotes T160	exon
-T161	SO_EXT:0000028 7050 7052	bp
-#161	AnnotationNotes T161	base_pair
-T162	SO_EXT:sequence_downstreamness 7053 7063	downstream
-#162	AnnotationNotes T162	sequence downstreamness
-T163	SO_EXT:0000147 7077 7081	exon
-#163	AnnotationNotes T163	exon
-T164	SO_EXT:sequence_substitution_entity_or_process 7083 7095	Substitution
-#164	AnnotationNotes T164	sequence substitution entity or process
-T165	SO_EXT:sequence_alteration_entity_or_process 7096 7105	mutations
-#165	AnnotationNotes T165	sequence alteration entity or process
-T166	SO_EXT:sequence_insertion_entity_or_process 7140 7149	insertion
-#166	AnnotationNotes T166	sequence insertion entity or process
-T167	SO_EXT:0000167 7195 7203	Promoter
-#167	AnnotationNotes T167	promoter
-T168	SO_EXT:0000165 7204 7212	enhancer
-#168	AnnotationNotes T168	enhancer
-T169	SO_EXT:0000704 7234 7238	gene
-#169	AnnotationNotes T169	gene
-T170	SO_EXT:0000336 7243 7253	pseudogene
-#170	AnnotationNotes T170	pseudogene
-T171	CHEBI_SO_EXT:DNA 7255 7258	DNA
-#171	AnnotationNotes T171	DNA
-T172	SO_EXT:0000028 7276 7278	bp
-#172	AnnotationNotes T172	base_pair
-T173	SO_EXT:0001416 7297 7316	5' flanking regions
-#173	AnnotationNotes T173	five_prime_flanking_region
-T174	SO_EXT:0000704 7324 7328	gene
-#174	AnnotationNotes T174	gene
-T175	SO_EXT:0000336 7333 7335	PS
-#175	AnnotationNotes T175	pseudogene
-T176	SO_EXT:0000155 7378 7386	plasmids
-#176	AnnotationNotes T176	plasmid
-T177	SO_EXT:0000704 7415 7420	genes
-#177	AnnotationNotes T177	gene
-T178	SO_EXT:0000153 7664 7667	BAC
-#178	AnnotationNotes T178	BAC
-T179	SO_EXT:sequence_cloned_entity 7668 7674	clones
-#179	AnnotationNotes T179	sequence-cloned entity
-T180	SO_EXT:biological_sequence 7703 7711	sequence
-#180	AnnotationNotes T180	biological sequence
-T181	SO_EXT:biological_sequence 7733 7742	sequences
-#181	AnnotationNotes T181	biological sequence
-T182	SO_EXT:0000028 7763 7765	bp
-#182	AnnotationNotes T182	base_pair
-T183	SO_EXT:0000605 7766 7785	intergenic sequence
-#183	AnnotationNotes T183	intergenic_region
-T184	SO_EXT:biological_sequence 7839 7847	sequence
-#184	AnnotationNotes T184	biological sequence
-T185	SO_EXT:0000147 7891 7896	exons
-#185	AnnotationNotes T185	exon
-T186	SO_EXT:0000188 7901 7908	introns
-#186	AnnotationNotes T186	intron
-T187	SO_EXT:0000704 7921 7925	gene
-#187	AnnotationNotes T187	gene
-T188	SO_EXT:biological_sequence 7932 7940	sequence
-#188	AnnotationNotes T188	biological sequence
-T189	CHEBI_SO_EXT:nucleotide 7970 7980	nucleotide
-#189	AnnotationNotes T189	nucleotide
-T190	SO_EXT:sequence_substitution_entity_or_process 7981 7994	substitutions
-#190	AnnotationNotes T190	sequence substitution entity or process
-T191	SO_EXT:0000147 8009 8014	exons
-#191	AnnotationNotes T191	exon
-T192	CHEBI_SO_EXT:nucleotide 8023 8033	nucleotide
-#192	AnnotationNotes T192	nucleotide
-T193	SO_EXT:sequence_insertion_entity_or_process 8034 8043	insertion
-#193	AnnotationNotes T193	sequence insertion entity or process
-T194	SO_EXT:0000147 8047 8051	exon
-#194	AnnotationNotes T194	exon
-T195	SO_EXT:0000028 8080 8090	base pairs
-#195	AnnotationNotes T195	base_pair
-T196	SO_EXT:0001417 8098 8117	3' flanking regions
-#196	AnnotationNotes T196	three_prime_flanking_region
-T197	SO_EXT:biological_conservation_process_or_quality 8123 8132	conserved
-#197	AnnotationNotes T197	biological conservation process or quality
-T198	SO_EXT:0000704 8150 8154	gene
-#198	AnnotationNotes T198	gene
-T199	SO_EXT:0000336 8163 8173	pseudogene
-#199	AnnotationNotes T199	pseudogene
-T200	SO_EXT:0000028 8185 8195	base pairs
-#200	AnnotationNotes T200	base_pair
-T201	SO_EXT:0001416 8203 8221	5' flanking region
-#201	AnnotationNotes T201	five_prime_flanking_region
-T202	SO_EXT:0001416 8243 8261	5' flanking region
-#202	AnnotationNotes T202	five_prime_flanking_region
-T203	SO_EXT:0000028 8267 8269	bp
-#203	AnnotationNotes T203	base_pair
-T204	SO_EXT:0000167 8291 8299	promoter
-#204	AnnotationNotes T204	promoter
-T205	SO_EXT:0000165 8300 8308	enhancer
-#205	AnnotationNotes T205	enhancer
-T206	SO_EXT:biological_sequence 8390 8398	sequence
-#206	AnnotationNotes T206	biological sequence
-T207	SO_EXT:biological_sequence 8460 8468	sequence
-#207	AnnotationNotes T207	biological sequence
-T208	SO_EXT:sequence_duplication_entity_or_process 8489 8500	duplication
-#208	AnnotationNotes T208	sequence duplication entity or process
-T209	SO_EXT:0000336 8501 8511	pseudogene
-#209	AnnotationNotes T209	pseudogene
-T210	SO_EXT:0000336 8563 8574	pseudogenes
-#210	AnnotationNotes T210	pseudogene
-T211	SO_EXT:0000147 8588 8592	exon
-#211	AnnotationNotes T211	exon
-T212	SO_EXT:0000188 8593 8599	intron
-#212	AnnotationNotes T212	intron
-T213	SO_EXT:0000704 8625 8629	gene
-#213	AnnotationNotes T213	gene
-T214	SO_EXT:0000336 8678 8689	pseudogenes
-#214	AnnotationNotes T214	pseudogene
-T215	SO_EXT:0000336 8760 8770	pseudogene
-#215	AnnotationNotes T215	pseudogene
-T216	SO_EXT:0000704 8811 8815	gene
-#216	AnnotationNotes T216	gene
-T217	SO_EXT:sequence_deletion_process 8851 8858	deleted
-#217	AnnotationNotes T217	sequence deletion process
-T218	SO_EXT:0000704 8863 8867	gene
-#218	AnnotationNotes T218	gene
-T219	GO_SO_EXT:sequence_rearrangement_process 8882 8895	recombination
-#219	AnnotationNotes T219	sequence rearrangement process
-T220	SO_EXT:sequence_substitution_process 8918 8926	replaced
-#220	AnnotationNotes T220	sequence substitution process
-T221	SO_EXT:0000147 8937 8942	exons
-#221	AnnotationNotes T221	exon
-T222	SO_EXT:fusion_gene_or_gene_fusion 8957 8966;9011 9016	fusion of
-#222	AnnotationNotes T222	fusion gene/gene fusion
-T223	SO_EXT:0000704 9053 9057	gene
-#223	AnnotationNotes T223	gene
-T224	SO_EXT:0001644 9075 9092	targeting vectors
-#224	AnnotationNotes T224	targeting_vector
-T225	SO_EXT:sequence_cloned_entity 9180 9186	clones
-#225	AnnotationNotes T225	sequence-cloned entity
-T226	GO_SO_EXT:sequence_rearrangement_process 9211 9224	recombination
-#226	AnnotationNotes T226	sequence rearrangement process
-T227	SO_EXT:0001644 9238 9254	targeting vector
-#227	AnnotationNotes T227	targeting_vector
-T228	SO_EXT:sequence_cloned_entity 9336 9341	clone
-#228	AnnotationNotes T228	sequence-cloned entity
-T229	GO_SO_EXT:sequence_rearrangement_process 9366 9379	recombination
-#229	AnnotationNotes T229	sequence rearrangement process
-T230	SO_EXT:0001644 9392 9408	targeting vector
-#230	AnnotationNotes T230	targeting_vector
-T231	SO_EXT:0000704 9459 9463	gene
-#231	AnnotationNotes T231	gene
-T232	SO_EXT:0000409 9537 9554	Recognition sites
-#232	AnnotationNotes T232	binding_site
-T233	SO_EXT:0000704 9640 9644	gene
-#233	AnnotationNotes T233	gene
-T234	SO_EXT:sequence_coding_function 9645 9653	encoding
-#234	AnnotationNotes T234	sequence coding function
-T235	SO_EXT:sequence_insertion_process 9683 9691	inserted
-#235	AnnotationNotes T235	sequence insertion process
-T236	SO_EXT:0001644 9713 9730	targeting vectors
-#236	AnnotationNotes T236	targeting_vector
-T237	GO_SO_EXT:sequence_rearrangement_process 9813 9826	recombination
-#237	AnnotationNotes T237	sequence rearrangement process
-T238	SO_EXT:wild_type_entity_or_quality 9828 9830	WT
-#238	AnnotationNotes T238	wild-typeness or wild-type entity
-T239	SO_EXT:wild_type_entity_or_quality 9832 9841	wild-type
-#239	AnnotationNotes T239	wild-typeness or wild-type entity
-T240	SO_EXT:normal_or_wild_type_or_present 9861 9862	+
-#240	AnnotationNotes T240	sequence wild-typeness, normalness or presence
-T241	SO_EXT:sequence_nullness_or_absence 9863 9864	-
-#241	AnnotationNotes T241	sequence nullness or absence
-T242	SO_EXT:normal_or_wild_type_or_present 9883 9884	+
-#242	AnnotationNotes T242	sequence wild-typeness, normalness or presence
-T243	SO_EXT:sequence_nullness_or_absence 9885 9886	-
-#243	AnnotationNotes T243	sequence nullness or absence
-T244	SO_EXT:sequence_nullness_or_absence 9897 9898	-
-#244	AnnotationNotes T244	sequence nullness or absence
-T245	SO_EXT:sequence_nullness_or_absence 9899 9900	-
-#245	AnnotationNotes T245	sequence nullness or absence
-T246	SO_EXT:sequence_nullness 9907 9911	null
-#246	AnnotationNotes T246	sequence nullness
-T247	SO_EXT:sequence_cloned_entity 9939 9944	clone
-#247	AnnotationNotes T247	sequence-cloned entity
-T248	SO_EXT:wild_type_entity_or_quality 10016 10025	wild-type
-#248	AnnotationNotes T248	wild-typeness or wild-type entity
-T249	SO_EXT:wild_type_entity_or_quality 10036 10038	WT
-#249	AnnotationNotes T249	wild-typeness or wild-type entity
-T250	SO_EXT:sequence_nullness 10046 10050	null
-#250	AnnotationNotes T250	sequence nullness
-T251	SO_EXT:sequence_nullness_or_absence 10061 10062	-
-#251	AnnotationNotes T251	sequence nullness or absence
-T252	SO_EXT:sequence_nullness_or_absence 10063 10064	-
-#252	AnnotationNotes T252	sequence nullness or absence
-T253	SO_EXT:sequence_cloned_entity 10072 10078	clones
-#253	AnnotationNotes T253	sequence-cloned entity
-T254	SO_EXT:normal_or_wild_type_or_present 10107 10108	+
-#254	AnnotationNotes T254	sequence wild-typeness, normalness or presence
-T255	SO_EXT:sequence_nullness_or_absence 10109 10110	-
-#255	AnnotationNotes T255	sequence nullness or absence
-T256	CHEBI_SO_EXT:RNA 10214 10217	RNA
-#256	AnnotationNotes T256	RNA
-T257	CHEBI_SO_EXT:rRNA 10248 10261	ribosomal RNA
-#257	AnnotationNotes T257	rRNA
-T258	SO_EXT:sequence_altered_entity_or_alteration_process 10308 10314	mutant
-#258	AnnotationNotes T258	sequence-altered entity or alteration process
-T259	SO_EXT:0000440 10349 10355	vector
-#259	AnnotationNotes T259	vector_replicon
-T260	SO_EXT:sequence_deletion_entity_or_process 10456 10464	deletion
-#260	AnnotationNotes T260	sequence deletion entity or process
-T261	SO_EXT:sequence_cloned_entity 10570 10576	clones
-#261	AnnotationNotes T261	sequence-cloned entity
-T262	SO_EXT:0000440 10588 10594	vector
-#262	AnnotationNotes T262	vector_replicon
-T263	SO_EXT:sequence_substitution_process 10599 10607	replaced
-#263	AnnotationNotes T263	sequence substitution process
-T264	SO_EXT:0000440 10617 10623	vector
-#264	AnnotationNotes T264	vector_replicon
-T265	SO_EXT:sequence_cloned_entity 10688 10694	clones
-#265	AnnotationNotes T265	sequence-cloned entity
-T266	SO_EXT:0000440 10706 10712	vector
-#266	AnnotationNotes T266	vector_replicon
-T267	SO_EXT:sequence_nullness_or_absence 10758 10759	-
-#267	AnnotationNotes T267	sequence nullness or absence
-T268	SO_EXT:sequence_nullness_or_absence 10760 10761	-
-#268	AnnotationNotes T268	sequence nullness or absence
-T269	SO_EXT:wild_type_entity_or_quality 10905 10914	wild-type
-#269	AnnotationNotes T269	wild-typeness or wild-type entity
-T270	SO_EXT:sequence_nullness_or_absence 10939 10940	-
-#270	AnnotationNotes T270	sequence nullness or absence
-T271	SO_EXT:sequence_nullness_or_absence 10941 10942	-
-#271	AnnotationNotes T271	sequence nullness or absence
-T272	SO_EXT:sequence_nullness 11359 11363	null
-#272	AnnotationNotes T272	sequence nullness
-T273	SO_EXT:sequence_nullness 11400 11404	null
-#273	AnnotationNotes T273	sequence nullness
-T274	SO_EXT:wild_type_entity_or_quality 11468 11477	wild-type
-#274	AnnotationNotes T274	wild-typeness or wild-type entity
-T275	SO_EXT:wild_type_entity_or_quality 11479 11481	WT
-#275	AnnotationNotes T275	wild-typeness or wild-type entity
-T276	SO_EXT:sequence_nullness 11489 11493	null
-#276	AnnotationNotes T276	sequence nullness
-T277	SO_EXT:sequence_nullness_or_absence 11495 11496	-
-#277	AnnotationNotes T277	sequence nullness or absence
-T278	SO_EXT:sequence_nullness_or_absence 11497 11498	-
-#278	AnnotationNotes T278	sequence nullness or absence
-T279	SO_EXT:normal_or_wild_type_or_present 11518 11519	+
-#279	AnnotationNotes T279	sequence wild-typeness, normalness or presence
-T280	SO_EXT:sequence_nullness_or_absence 11520 11521	-
-#280	AnnotationNotes T280	sequence nullness or absence
-T281	SO_EXT:sequence_cloned_entity 11538 11543	clone
-#281	AnnotationNotes T281	sequence-cloned entity
-T282	SO_EXT:normal_or_wild_type_or_present 11676 11677	+
-#282	AnnotationNotes T282	sequence wild-typeness, normalness or presence
-T283	SO_EXT:sequence_nullness_or_absence 11678 11679	-
-#283	AnnotationNotes T283	sequence nullness or absence
-T284	SO_EXT:sequence_nullness_or_absence 11684 11685	-
-#284	AnnotationNotes T284	sequence nullness or absence
-T285	SO_EXT:sequence_nullness_or_absence 11686 11687	-
-#285	AnnotationNotes T285	sequence nullness or absence
-T286	SO_EXT:sequence_cloned_entity 11761 11767	clones
-#286	AnnotationNotes T286	sequence-cloned entity
-T287	SO_EXT:sequence_nullness 11812 11816	null
-#287	AnnotationNotes T287	sequence nullness
-T288	SO_EXT:0000704 11875 11879	gene
-#288	AnnotationNotes T288	gene
-T289	SO_EXT:sequence_nullness_or_absence 11907 11908	-
-#289	AnnotationNotes T289	sequence nullness or absence
-T290	SO_EXT:sequence_nullness_or_absence 11909 11910	-
-#290	AnnotationNotes T290	sequence nullness or absence
-T291	CHEBI_SO_EXT:oligonucleotide 11926 11941	oligonucleotide
-#291	AnnotationNotes T291	oligonucleotide
-T292	CHEBI_SO_EXT:DNA 11948 11951	DNA
-#292	AnnotationNotes T292	DNA
-T293	SO_EXT:0000704 11985 11990	genes
-#293	AnnotationNotes T293	gene
-T294	SO_EXT:0000704 12054 12058	gene
-#294	AnnotationNotes T294	gene
-T295	SO_EXT:sequence_nullness_or_absence 12097 12098	-
-#295	AnnotationNotes T295	sequence nullness or absence
-T296	SO_EXT:sequence_nullness_or_absence 12099 12100	-
-#296	AnnotationNotes T296	sequence nullness or absence
-T297	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 12149 12155	marker
-#297	AnnotationNotes T297	molecular indicator/label/marker/tag
-T298	SO_EXT:0000704 12156 12161	genes
-#298	AnnotationNotes T298	gene
-T299	SO_EXT:sequence_nullness_or_absence 12207 12208	-
-#299	AnnotationNotes T299	sequence nullness or absence
-T300	SO_EXT:sequence_nullness_or_absence 12209 12210	-
-#300	AnnotationNotes T300	sequence nullness or absence
-T301	SO_EXT:0000704 12318 12322	gene
-#301	AnnotationNotes T301	gene
-T302	SO_EXT:sequence_nullness_or_absence 12389 12390	-
-#302	AnnotationNotes T302	sequence nullness or absence
-T303	SO_EXT:sequence_nullness_or_absence 12391 12392	-
-#303	AnnotationNotes T303	sequence nullness or absence
-T304	SO_EXT:0000704 12411 12416	genes
-#304	AnnotationNotes T304	gene
-T305	SO_EXT:sequence_nullness_or_absence 12468 12469	-
-#305	AnnotationNotes T305	sequence nullness or absence
-T306	SO_EXT:sequence_nullness_or_absence 12470 12471	-
-#306	AnnotationNotes T306	sequence nullness or absence
-T307	SO_EXT:0000704 12537 12542	genes
-#307	AnnotationNotes T307	gene
-T308	CHEBI_SO_EXT:RNA 12624 12627	RNA
-#308	AnnotationNotes T308	RNA
-T309	SO_EXT:0000417 12636 12642	domain
-#309	AnnotationNotes T309	polypeptide_domain
-T310	CHEBI_SO_EXT:mRNA 12661 12665	mRNA
-#310	AnnotationNotes T310	mRNA
-T311	SO_EXT:0000704 12675 12680	genes
-#311	AnnotationNotes T311	gene
-T312	SO_EXT:0000704 12751 12755	Gene
-#312	AnnotationNotes T312	gene
-T313	SO_EXT:sequence_nullness 12784 12788	null
-#313	AnnotationNotes T313	sequence nullness
-T314	CHEBI_SO_EXT:DNA 12802 12805	DNA
-#314	AnnotationNotes T314	DNA
-T315	CHEBI_SO_EXT:RNA 12833 12836	RNA
-#315	AnnotationNotes T315	RNA
-T316	SO_EXT:wild_type_entity_or_quality 12842 12851	wild-type
-#316	AnnotationNotes T316	wild-typeness or wild-type entity
-T317	SO_EXT:sequence_nullness 12870 12874	null
-#317	AnnotationNotes T317	sequence nullness
-T318	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 12889 12896	labeled
-#318	AnnotationNotes T318	molecular label/mark/tag process
-T319	SO_EXT:sequence_cloned_entity 13029 13035	clones
-#319	AnnotationNotes T319	sequence-cloned entity
-T320	SO_EXT:normal_or_wild_type_or_present 13095 13096	+
-#320	AnnotationNotes T320	sequence wild-typeness, normalness or presence
-T321	SO_EXT:sequence_nullness_or_absence 13097 13098	-
-#321	AnnotationNotes T321	sequence nullness or absence
-T322	SO_EXT:sequence_nullness_or_absence 13107 13108	-
-#322	AnnotationNotes T322	sequence nullness or absence
-T323	SO_EXT:sequence_nullness_or_absence 13109 13110	-
-#323	AnnotationNotes T323	sequence nullness or absence
-T324	SO_EXT:normal_or_wild_type_or_present 13247 13248	+
-#324	AnnotationNotes T324	sequence wild-typeness, normalness or presence
-T325	SO_EXT:sequence_nullness_or_absence 13249 13250	-
-#325	AnnotationNotes T325	sequence nullness or absence
-T326	SO_EXT:sequence_cloned_entity 13259 13265	clones
-#326	AnnotationNotes T326	sequence-cloned entity
-T327	SO_EXT:sequence_cloned_entity 13348 13354	clones
-#327	AnnotationNotes T327	sequence-cloned entity
-T328	SO_EXT:sequence_nullness_or_absence 13372 13373	-
-#328	AnnotationNotes T328	sequence nullness or absence
-T329	SO_EXT:sequence_nullness_or_absence 13374 13375	-
-#329	AnnotationNotes T329	sequence nullness or absence
-T330	SO_EXT:wild_type_entity_or_quality 13409 13418	wild-type
-#330	AnnotationNotes T330	wild-typeness or wild-type entity
-T331	SO_EXT:normal_or_wild_type_or_present 13427 13428	+
-#331	AnnotationNotes T331	sequence wild-typeness, normalness or presence
-T332	SO_EXT:sequence_nullness_or_absence 13429 13430	-
-#332	AnnotationNotes T332	sequence nullness or absence
-T333	SO_EXT:sequence_nullness_or_absence 13443 13444	-
-#333	AnnotationNotes T333	sequence nullness or absence
-T334	SO_EXT:sequence_nullness_or_absence 13445 13446	-
-#334	AnnotationNotes T334	sequence nullness or absence
-T335	SO_EXT:normal_or_wild_type_or_present 13473 13474	+
-#335	AnnotationNotes T335	sequence wild-typeness, normalness or presence
-T336	SO_EXT:sequence_nullness_or_absence 13475 13476	-
-#336	AnnotationNotes T336	sequence nullness or absence
-T337	SO_EXT:normal_or_wild_type_or_present 13845 13846	+
-#337	AnnotationNotes T337	sequence wild-typeness, normalness or presence
-T338	SO_EXT:sequence_nullness_or_absence 13847 13848	-
-#338	AnnotationNotes T338	sequence nullness or absence
-T339	SO_EXT:sequence_nullness_or_absence 13863 13864	-
-#339	AnnotationNotes T339	sequence nullness or absence
-T340	SO_EXT:sequence_nullness_or_absence 13865 13866	-
-#340	AnnotationNotes T340	sequence nullness or absence
-T341	SO_EXT:sequence_cloned_entity 13920 13926	clones
-#341	AnnotationNotes T341	sequence-cloned entity
-T342	SO_EXT:sequence_nullness_or_absence 13936 13937	-
-#342	AnnotationNotes T342	sequence nullness or absence
-T343	SO_EXT:sequence_nullness_or_absence 13938 13939	-
-#343	AnnotationNotes T343	sequence nullness or absence
-T344	SO_EXT:sequence_nullness 13952 13956	null
-#344	AnnotationNotes T344	sequence nullness
-T345	SO_EXT:0000704 14176 14180	gene
-#345	AnnotationNotes T345	gene
-T346	GO_SO_EXT:chromosome 14184 14194	chromosome
-#346	AnnotationNotes T346	chromosome
-T347	SO_EXT:sequence_deletion_process 14201 14208	deleted
-#347	AnnotationNotes T347	sequence deletion process
-T348	GO_SO_EXT:sequence_rearrangement_process 14226 14239	recombination
-#348	AnnotationNotes T348	sequence rearrangement process
-T349	SO_EXT:0000153 14492 14495	BAC
-#349	AnnotationNotes T349	BAC
-T350	SO_EXT:sequence_cloned_entity 14496 14502	clones
-#350	AnnotationNotes T350	sequence-cloned entity
-T351	SO_EXT:0000704 14529 14533	gene
-#351	AnnotationNotes T351	gene
-T352	SO_EXT:0000153 14547 14578	bacterial artificial chromosome
-#352	AnnotationNotes T352	BAC
-T353	SO_EXT:0000153 14580 14583	BAC
-#353	AnnotationNotes T353	BAC
-T354	SO_EXT:sequence_cloned_entity 14585 14591	clones
-#354	AnnotationNotes T354	sequence-cloned entity
-T355	SO_EXT:0000704 14614 14618	gene
-#355	AnnotationNotes T355	gene
-T356	SO_EXT:0000153 14662 14665	BAC
-#356	AnnotationNotes T356	BAC
-T357	CHEBI_SO_EXT:DNA 14674 14677	DNA
-#357	AnnotationNotes T357	DNA
-T358	OBI_SO_EXT:gene_or_genetic_investigation_or_genetic_process 14694 14702	Genetics
-#358	AnnotationNotes T358	genetic investigation or process
-T359	SO_EXT:0000112 14796 14803	primers
-#359	AnnotationNotes T359	primer
-T360	CHEBI_GO_SO_EXT:enzyme 14827 14833	enzyme
-#360	AnnotationNotes T360	enzyme
-T361	SO_EXT:0000153 14884 14887	BAC
-#361	AnnotationNotes T361	BAC
-T362	SO_EXT:sequence_cloned_entity 14888 14894	clones
-#362	AnnotationNotes T362	sequence-cloned entity
-T363	CHEBI_SO_EXT:molecular_probe 15153 15159	probes
-#363	AnnotationNotes T363	molecular probe
-T364	CHEBI_SO_EXT:molecular_probe 15186 15192	probes
-#364	AnnotationNotes T364	molecular probe
-T365	SO_EXT:0000704 15235 15239	gene
-#365	AnnotationNotes T365	gene
-T366	SO_EXT:0000336 15243 15254	pseudogenes
-#366	AnnotationNotes T366	pseudogene
-T367	SO_EXT:0000704 15306 15310	gene
-#367	AnnotationNotes T367	gene
-T368	SO_EXT:0001417 15319 15337	3' flanking region
-#368	AnnotationNotes T368	three_prime_flanking_region
-T369	SO_EXT:0000028 15359 15361	bp
-#369	AnnotationNotes T369	base_pair
-T370	SO_EXT:0000440 15398 15404	vector
-#370	AnnotationNotes T370	vector_replicon
-T371	SO_EXT:0000440 15464 15470	vector
-#371	AnnotationNotes T371	vector_replicon
-T372	SO_EXT:sequence_cloning_process 15481 15487	cloned
-#372	AnnotationNotes T372	sequence cloning process
-T373	SO_EXT:0000336 15548 15558	pseudogene
-#373	AnnotationNotes T373	pseudogene
-T374	SO_EXT:0001417 15567 15585	3' flanking region
-#374	AnnotationNotes T374	three_prime_flanking_region
-T375	SO_EXT:0000028 15593 15595	bp
-#375	AnnotationNotes T375	base_pair
-T376	SO_EXT:sequence_cloning_process 15619 15625	cloned
-#376	AnnotationNotes T376	sequence cloning process
-T377	SO_EXT:0000440 15684 15690	vector
-#377	AnnotationNotes T377	vector_replicon
-T378	SO_EXT:sequence_cloning_process 15701 15707	cloned
-#378	AnnotationNotes T378	sequence cloning process
-T379	SO_EXT:biological_sequence 15748 15756	sequence
-#379	AnnotationNotes T379	biological sequence
-T380	SO_EXT:0001416 15772 15791	5' flanking regions
-#380	AnnotationNotes T380	five_prime_flanking_region
-T381	SO_EXT:0000704 15804 15808	gene
-#381	AnnotationNotes T381	gene
-T382	SO_EXT:0000336 15825 15836	pseudogenes
-#382	AnnotationNotes T382	pseudogene
-T383	SO_EXT:0000112 15948 15955	primers
-#383	AnnotationNotes T383	primer
-T384	SO_EXT:biological_sequence 15971 15979	sequence
-#384	AnnotationNotes T384	biological sequence
-T385	SO_EXT:sequence_cloning_process 15984 15990	cloned
-#385	AnnotationNotes T385	sequence cloning process
-T386	SO_EXT:0000028 16035 16037	bp
-#386	AnnotationNotes T386	base_pair
-T387	SO_EXT:sequence_cloning_process 16144 16150	cloned
-#387	AnnotationNotes T387	sequence cloning process
-T388	SO_EXT:0001416 16218 16236	5' flanking region
-#388	AnnotationNotes T388	five_prime_flanking_region
-T389	SO_EXT:0000704 16249 16253	gene
-#389	AnnotationNotes T389	gene
-T390	SO_EXT:0000028 16261 16263	bp
-#390	AnnotationNotes T390	base_pair
-T391	SO_EXT:sequence_cloning_process 16319 16325	cloned
-#391	AnnotationNotes T391	sequence cloning process
-T392	SO:0000357 16396 16404	flanking
-#392	AnnotationNotes T392	flanked
-T393	SO_EXT:0000336 16409 16419	pseudogene
-#393	AnnotationNotes T393	pseudogene
-T394	SO_EXT:0001644 16443 16460	targeting vectors
-#394	AnnotationNotes T394	targeting_vector
-T395	SO_EXT:sequence_substitution_process 16465 16473	replaced
-#395	AnnotationNotes T395	sequence substitution process
-T396	SO_EXT:0000147 16490 16495	exons
-#396	AnnotationNotes T396	exon
-T397	SO_EXT:0001644 16505 16522	targeting vectors
-#397	AnnotationNotes T397	targeting_vector
-T398	SO_EXT:0000243 16544 16548	IRES
-#398	AnnotationNotes T398	internal_ribosome_entry_site
-T399	SO_EXT:0005853 16555 16563	cassette
-#399	AnnotationNotes T399	gene_cassette
-T400	SO_EXT:0000243 16575 16579	IRES
-#400	AnnotationNotes T400	internal_ribosome_entry_site
-T401	SO_EXT:0005853 16585 16593	cassette
-#401	AnnotationNotes T401	gene_cassette
-T402	SO_EXT:0000167 16597 16605	promoter
-#402	AnnotationNotes T402	promoter
-T403	SO_EXT:0000028 16652 16654	bp
-#403	AnnotationNotes T403	base_pair
-T404	SO_EXT:0000112 16805 16812	primers
-#404	AnnotationNotes T404	primer
-T405	SO_EXT:0000028 16831 16833	bp
-#405	AnnotationNotes T405	base_pair
-T406	SO_EXT:0000112 16971 16978	primers
-#406	AnnotationNotes T406	primer
-T407	SO_EXT:0000243 16984 16988	IRES
-#407	AnnotationNotes T407	internal_ribosome_entry_site
-T408	SO_EXT:0000243 16998 17002	IRES
-#408	AnnotationNotes T408	internal_ribosome_entry_site
-T409	SO_EXT:0005853 17008 17017	cassettes
-#409	AnnotationNotes T409	gene_cassette
-T410	SO_EXT:0005853 17088 17096	cassette
-#410	AnnotationNotes T410	gene_cassette
-T411	SO_EXT:sequence_downstreamness 17108 17118	downstream
-#411	AnnotationNotes T411	sequence downstreamness
-T412	SO_EXT:sequence_linearization 17140 17153	linearization
-#412	AnnotationNotes T412	sequence linearization
-T413	SO_EXT:0001644 17172 17189	targeting vectors
-#413	AnnotationNotes T413	targeting_vector
-T414	SO_EXT:0000704 17251 17255	Gene
-#414	AnnotationNotes T414	gene
-T415	SO_EXT:genomic_DNA 17366 17377	Genomic DNA
-#415	AnnotationNotes T415	genomic DNA
-T416	GO_SO_EXT:sequence_rearrangement_process 17452 17465	recombination
-#416	AnnotationNotes T416	sequence rearrangement process
-T417	GO_SO_EXT:sequence_rearrangement_process 17528 17541	recombination
-#417	AnnotationNotes T417	sequence rearrangement process
-T418	SO_EXT:genomic_DNA 17552 17563	genomic DNA
-#418	AnnotationNotes T418	genomic DNA
-T419	SO_EXT:genomic_DNA 17662 17673	genomic DNA
-#419	AnnotationNotes T419	genomic DNA
-T420	SO_EXT:0000028 17803 17805	bp
-#420	AnnotationNotes T420	base_pair
-T421	CHEBI_SO_EXT:molecular_probe 17809 17814	probe
-#421	AnnotationNotes T421	molecular probe
-T422	SO_EXT:0000112 17925 17932	primers
-#422	AnnotationNotes T422	primer
-T423	CHEBI_SO_EXT:molecular_probe 17938 17943	probe
-#423	AnnotationNotes T423	molecular probe
-T424	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 17957 17964	labeled
-#424	AnnotationNotes T424	molecular label/mark/tag process
-T425	SO_EXT:0000028 17972 17974	bp
-#425	AnnotationNotes T425	base_pair
-T426	SO_EXT:wild_type_entity_or_quality 17989 17998	wild-type
-#426	AnnotationNotes T426	wild-typeness or wild-type entity
-T427	SO_EXT:0000028 18012 18014	bp
-#427	AnnotationNotes T427	base_pair
-T428	SO_EXT:0000028 18052 18054	bp
-#428	AnnotationNotes T428	base_pair
-T429	SO_EXT:genomic_DNA 18081 18092	Genomic DNA
-#429	AnnotationNotes T429	genomic DNA
-T430	SO_EXT:0000028 18160 18162	bp
-#430	AnnotationNotes T430	base_pair
-T431	CHEBI_SO_EXT:molecular_probe 18166 18171	probe
-#431	AnnotationNotes T431	molecular probe
-T432	SO_EXT:0000112 18290 18297	primers
-#432	AnnotationNotes T432	primer
-T433	CHEBI_SO_EXT:molecular_probe 18303 18308	probe
-#433	AnnotationNotes T433	molecular probe
-T434	SO_EXT:0000028 18332 18334	bp
-#434	AnnotationNotes T434	base_pair
-T435	SO_EXT:wild_type_entity_or_quality 18349 18358	wild-type
-#435	AnnotationNotes T435	wild-typeness or wild-type entity
-T436	SO_EXT:0000028 18374 18376	bp
-#436	AnnotationNotes T436	base_pair
-T437	SO_EXT:0000028 18415 18417	bp
-#437	AnnotationNotes T437	base_pair
-T438	SO_EXT:coding_sequence 18496 18511	coding sequence
-#438	AnnotationNotes T438	coding sequence
-T439	SO_EXT:0000112 18660 18667	primers
-#439	AnnotationNotes T439	primer
-T440	SO_EXT:0000006 18708 18719	PCR product
-#440	AnnotationNotes T440	PCR_product
-T441	GO_SO_EXT:sequence_rearrangement_process 18820 18833	recombination
-#441	AnnotationNotes T441	sequence rearrangement process
-T442	SO_EXT:0000440 18882 18888	vector
-#442	AnnotationNotes T442	vector_replicon
-T443	GO_SO_EXT:sequence_rearrangement_process 18937 18948	recombinant
-#443	AnnotationNotes T443	sequence rearrangement process
-T444	CHEBI_SO_EXT:histidine 19021 19030	Histidine
-#444	AnnotationNotes T444	histidine
-T445	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 19031 19037	tagged
-#445	AnnotationNotes T445	molecular label/mark/tag process
-T446	GO_SO_EXT:sequence_rearrangement_process 19198 19209	recombinant
-#446	AnnotationNotes T446	sequence rearrangement process
-T447	SO_EXT:normal_or_wild_type_or_present 20014 20015	+
-#447	AnnotationNotes T447	sequence wild-typeness, normalness or presence
-T448	SO_EXT:sequence_nullness_or_absence 20016 20017	-
-#448	AnnotationNotes T448	sequence nullness or absence
-T449	SO_EXT:sequence_nullness_or_absence 20024 20025	-
-#449	AnnotationNotes T449	sequence nullness or absence
-T450	SO_EXT:sequence_nullness_or_absence 20026 20027	-
-#450	AnnotationNotes T450	sequence nullness or absence
-T451	SO_EXT:sequence_altered_entity_or_alteration_process 20028 20034	mutant
-#451	AnnotationNotes T451	sequence-altered entity or alteration process
-T452	CHEBI_SO_EXT:amino_acid 20391 20402	Amino Acids
-#452	AnnotationNotes T452	amino acid
-T453	CHEBI_SO_EXT:glutamine 20424 20433	glutamine
-#453	AnnotationNotes T453	glutamine
-T454	CHEBI_SO_EXT:RNA 21110 21113	RNA
-#454	AnnotationNotes T454	RNA
-T455	SO_EXT:wild_type_entity_or_quality 21119 21128	wild-type
-#455	AnnotationNotes T455	wild-typeness or wild-type entity
-T456	SO_EXT:sequence_nullness_or_absence 21146 21147	-
-#456	AnnotationNotes T456	sequence nullness or absence
-T457	SO_EXT:sequence_nullness_or_absence 21148 21149	-
-#457	AnnotationNotes T457	sequence nullness or absence
-T458	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 21163 21170	labeled
-#458	AnnotationNotes T458	molecular label/mark/tag process
-T459	SO_EXT:sequence_cloned_entity 21438 21444	clones
-#459	AnnotationNotes T459	sequence-cloned entity
-T460	OBI_SO_EXT:gene_or_genetic_investigation_or_genetic_process 21499 21507	Genetics
-#460	AnnotationNotes T460	genetic investigation or process
-T461	GO_SO_EXT:chromosome 21614 21625	chromosomal
-#461	AnnotationNotes T461	chromosome
-T462	SO_EXT:0000704 21652 21656	gene
-#462	AnnotationNotes T462	gene
-T463	SO_EXT:0000336 21661 21672	pseudogenes
-#463	AnnotationNotes T463	pseudogene
-T464	SO_EXT:0001644 21693 21709	targeting vector
-#464	AnnotationNotes T464	targeting_vector
-T465	SO_EXT:0000440 22260 22267	vectors
-#465	AnnotationNotes T465	vector_replicon
+T0	SO_EXT_0000704 52 56	gene
+T1	SO_EXT_sequence_coding_function 57 65	encoding
+T2	SO_EXT_0000704 142 146	gene
+T3	SO_EXT_sequence_coding_function 162 169	encodes
+T4	SO_EXT_0000417 175 181	domain
+T5	SO_EXT_0000040 317 331	genomic clones
+T6	SO_EXT_0000704 358 362	gene
+T7	SO_EXT_0000336 372 383	pseudogenes
+T8	GO_SO_EXT_chromosome 400 411	chromosomal
+T9	SO_EXT_0001026 513 520	genomic
+T10	SO_EXT_0000704 557 561	gene
+T11	SO_EXT_sequence_cloned_entity 606 612	clones
+T12	SO_EXT_0000704 639 643	gene
+T13	SO_EXT_biological_sequence 672 680	sequence
+T14	SO_EXT_0000704 696 700	gene
+T15	GO_SO_EXT_chromosome 716 726	chromosome
+T16	SO_EXT_biological_sequence 744 752	sequence
+T17	SO_EXT_sequence_alteration_entity_or_process 783 792	mutations
+T18	SO_EXT_sequence_duplication_process 819 829	duplicated
+T19	SO_EXT_0000336 830 840	pseudogene
+T20	SO_EXT_0001416 846 864	5' flanking region
+T21	SO_EXT_0000704 877 881	gene
+T22	SO_EXT_0000336 903 913	pseudogene
+T23	SO_EXT_0000165 932 940	enhancer
+T24	SO_EXT_0000167 945 953	promoter
+T25	SO_EXT_0000704 1071 1075	gene
+T26	SO_EXT_sequence_substitution_process 1080 1088	replaced
+T27	SO_EXT_biological_sequence 1094 1102	sequence
+T28	SO_EXT_0005853 1128 1136	cassette
+T29	GO_SO_EXT_sequence_rearrangement_process 1151 1164	recombination
+T30	SO_EXT_sequence_nullness_or_absence 1231 1232	-
+T31	SO_EXT_sequence_nullness_or_absence 1233 1234	-
+T32	SO_EXT_sequence_nullness_or_absence 1299 1300	-
+T33	SO_EXT_sequence_nullness_or_absence 1301 1302	-
+T34	GO_SO_EXT_sequence_rearrangement_process 1352 1365	recombination
+T35	SO_EXT_0000704 1633 1637	gene
+T36	SO_EXT_sequence_duplication_process 1655 1665	duplicated
+T37	SO_EXT_0000336 1666 1676	pseudogene
+T38	GO_SO_EXT_chromosome 1692 1702	chromosome
+T39	SO_EXT_0000704 2219 2223	gene
+T40	SO_EXT_0000704 2708 2713	genes
+T41	CHEBI_SO_EXT_DNA 2794 2797	DNA
+T42	SO_EXT_0000345 2826 2848	expressed sequence tag
+T43	SO_EXT_0000673 2892 2903	transcripts
+T44	SO_EXT_0000673 2998 3008	transcript
+T45	SO_EXT_0000704 3113 3117	gene
+T46	SO_EXT_sequence_coding_function 3309 3316	encodes
+T47	CHEBI_SO_EXT_polypeptide 3319 3330	polypeptide
+T48	CHEBI_SO_EXT_amino_acid 3338 3349	amino acids
+T49	SO_EXT_0000417 3376 3382	domain
+T50	CHEBI_SO_EXT_RNA 3396 3399	RNA
+T51	SO_EXT_0000417 3408 3414	domain
+T52	CHEBI_SO_EXT_RNA 3474 3477	RNA
+T53	SO_EXT_0001026 3548 3555	genomic
+T54	SO_EXT_0000040 3588 3602	genomic clones
+T55	SO_EXT_0000704 3629 3633	gene
+T56	SO_EXT_0000336 3644 3655	pseudogenes
+T57	SO_EXT_0000336 3675 3686	pseudogenes
+T58	SO_EXT_0000147 3705 3709	exon
+T59	SO_EXT_0000188 3710 3716	intron
+T60	SO_EXT_0000704 3739 3743	gene
+T61	SO_EXT_0000704 3776 3780	gene
+T62	SO_EXT_sequence_duplication_entity_or_process 3781 3792	duplication
+T63	SO_EXT_0000336 3813 3824	pseudogenes
+T64	SO_EXT_0000188 3845 3852	introns
+T65	SO_EXT_sequence_retrotransposition_entity_or_process 3894 3912	retrotransposition
+T66	SO_EXT_0000673 3921 3932	transcripts
+T67	GO_SO_EXT_chromosome 3938 3949	chromosomal
+T68	SO_EXT_0000704 3982 3986	gene
+T69	SO_EXT_0000336 3991 4002	pseudogenes
+T70	SO_EXT_0000704 4094 4098	gene
+T71	SO_EXT_sequence_coding_function 4099 4107	encoding
+T72	SO_EXT_0000336 4133 4144	pseudogenes
+T73	SO_EXT_0000704 4164 4168	gene
+T74	GO_SO_EXT_chromosome 4253 4264	Chromosomal
+T75	SO_EXT_0000704 4307 4311	gene
+T76	SO_EXT_0000336 4316 4326	psedogenes
+T77	GO_SO_EXT_chromosome 4345 4356	chromosomal
+T78	SO_EXT_0000704 4389 4393	gene
+T79	SO_EXT_0000336 4398 4409	pseudogenes
+T80	SO_EXT_0001026 4454 4461	genomic
+T81	SO_EXT_cDNA 4485 4489	cDNA
+T82	SO_EXT_biological_sequence 4490 4498	sequence
+T83	SO_EXT_0000336 4542 4553	pseudogenes
+T84	SO_EXT_0000188 4562 4569	introns
+T85	GO_SO_EXT_chromosome 4573 4584	chromosomes
+T86	SO_EXT_0000188 4646 4652	intron
+T87	SO_EXT_0000336 4658 4669	pseudogenes
+T88	CHEBI_SO_EXT_DNA 4689 4692	DNA
+T89	GO_SO_EXT_chromosome 4717 4728	chromosomal
+T90	SO_EXT_0000336 4773 4785	pseudodgenes
+T91	SO_0000857 4803 4811	homology
+T92	SO_EXT_cDNA 4820 4824	cDNA
+T93	SO_EXT_sequence_alteration_entity_or_process 4890 4899	mutations
+T94	SO_EXT_0000188 4956 4962	intron
+T95	SO_EXT_0000336 4968 4979	pseudogenes
+T96	SO_EXT_0000043 5031 5047	retropseudogenes
+T97	SO_EXT_0000704 5091 5096	genes
+T98	SO_EXT_0000336 5118 5129	pseudogenes
+T99	SO_EXT_0001026 5168 5175	genomic
+T100	SO_EXT_sequence_substitution_entity_or_process 5187 5199	Substitution
+T101	SO_EXT_sequence_alteration_entity_or_process 5200 5209	mutations
+T102	SO_EXT_0000188 5240 5246	Intron
+T103	SO_EXT_0000730 5252 5255	gap
+T104	SO_EXT_biological_sequence 5256 5265	sequences
+T105	GO_SO_EXT_chromosome 5296 5307	Chromosomal
+T106	GO_SO_EXT_chromosome 5350 5360	chromosome
+T107	CHEBI_SO_EXT_DNA 5380 5383	DNA
+T108	SO_EXT_0000704 5413 5417	gene
+T109	SO_EXT_0000188 5445 5452	introns
+T110	SO_EXT_0000147 5486 5491	exons
+T111	SO_EXT_sequence_alteration_entity_or_process 5525 5534	mutations
+T112	SO_EXT_cDNA 5547 5551	cDNA
+T113	SO_EXT_biological_sequence 5552 5560	sequence
+T114	SO_EXT_0000147 5581 5585	exon
+T115	SO_EXT_0000704 5640 5644	gene
+T116	GO_SO_EXT_chromosome 5654 5664	chromosome
+T117	CHEBI_SO_EXT_DNA 5690 5693	DNA
+T118	SO_EXT_0000147 5753 5757	exon
+T119	SO_EXT_0000704 5770 5774	gene
+T120	SO_EXT_biological_sequence 5820 5829	sequences
+T121	GO_SO_EXT_chromosome 5833 5843	chromosome
+T122	CHEBI_SO_EXT_DNA 5892 5895	DNA
+T123	SO_EXT_0000704 5926 5930	gene
+T124	SO_EXT_0000153 5948 5979	bacterial artificial chromosome
+T125	SO_EXT_0000153 5981 5984	BAC
+T126	CHEBI_SO_EXT_DNA 5986 5989	DNA
+T127	SO_EXT_0000112 6008 6014	primer
+T128	SO_EXT_0000704 6054 6058	gene
+T129	SO_EXT_0000336 6068 6079	pseudogenes
+T130	SO_EXT_0000153 6126 6129	BAC
+T131	SO_EXT_sequence_cloned_entity 6130 6136	clones
+T132	SO_EXT_sequence_cloned_entity 6200 6206	clones
+T133	SO_EXT_biological_sequence 6219 6227	sequence
+T134	SO_EXT_cDNA 6267 6271	cDNA
+T135	SO_EXT_0000188 6309 6316	introns
+T136	SO_EXT_0000188 6338 6344	intron
+T137	SO_EXT_biological_sequence 6345 6354	sequences
+T138	SO_EXT_0001421 6421 6442	exon-intron junctions
+T139	SO_EXT_0001416 6453 6471	5' flanking region
+T140	CHEBI_SO_EXT_DNA 6480 6483	DNA
+T141	SO_EXT_0000167 6510 6518	promoter
+T142	SO_EXT_0000165 6519 6527	enhancer
+T143	SO_EXT_biological_sequence 6756 6764	sequence
+T144	SO_EXT_0000704 6777 6781	gene
+T145	SO_EXT_0000153 6794 6797	BAC
+T146	SO_EXT_sequence_cloned_entity 6798 6804	clones
+T147	SO_EXT_0000704 6825 6829	gene
+T148	SO_EXT_sequence_duplication_entity_or_process 6836 6847	duplication
+T149	SO_EXT_0000336 6848 6858	pseudogene
+T150	SO_EXT_0000336 6860 6862	PS
+T151	SO_EXT_0000704 6888 6892	gene
+T152	SO_EXT_0000336 6897 6899	PS
+T153	GO_SO_EXT_chromosome 6903 6913	chromosome
+T154	SO_EXT_biological_sequence 6920 6928	Sequence
+T155	SO_EXT_0000704 6947 6951	gene
+T156	SO_EXT_0000336 6956 6958	PS
+T157	SO_0000857 6983 6993	homologous
+T158	SO_EXT_0000028 7005 7015	base pairs
+T159	SO_EXT_sequence_upstreamness 7016 7024	upstream
+T160	SO_EXT_0000147 7038 7042	exon
+T161	SO_EXT_0000028 7050 7052	bp
+T162	SO_EXT_sequence_downstreamness 7053 7063	downstream
+T163	SO_EXT_0000147 7077 7081	exon
+T164	SO_EXT_sequence_substitution_entity_or_process 7083 7095	Substitution
+T165	SO_EXT_sequence_alteration_entity_or_process 7096 7105	mutations
+T166	SO_EXT_sequence_insertion_entity_or_process 7140 7149	insertion
+T167	SO_EXT_0000167 7195 7203	Promoter
+T168	SO_EXT_0000165 7204 7212	enhancer
+T169	SO_EXT_0000704 7234 7238	gene
+T170	SO_EXT_0000336 7243 7253	pseudogene
+T171	CHEBI_SO_EXT_DNA 7255 7258	DNA
+T172	SO_EXT_0000028 7276 7278	bp
+T173	SO_EXT_0001416 7297 7316	5' flanking regions
+T174	SO_EXT_0000704 7324 7328	gene
+T175	SO_EXT_0000336 7333 7335	PS
+T176	SO_EXT_0000155 7378 7386	plasmids
+T177	SO_EXT_0000704 7415 7420	genes
+T178	SO_EXT_0000153 7664 7667	BAC
+T179	SO_EXT_sequence_cloned_entity 7668 7674	clones
+T180	SO_EXT_biological_sequence 7703 7711	sequence
+T181	SO_EXT_biological_sequence 7733 7742	sequences
+T182	SO_EXT_0000028 7763 7765	bp
+T183	SO_EXT_0000605 7766 7785	intergenic sequence
+T184	SO_EXT_biological_sequence 7839 7847	sequence
+T185	SO_EXT_0000147 7891 7896	exons
+T186	SO_EXT_0000188 7901 7908	introns
+T187	SO_EXT_0000704 7921 7925	gene
+T188	SO_EXT_biological_sequence 7932 7940	sequence
+T189	CHEBI_SO_EXT_nucleotide 7970 7980	nucleotide
+T190	SO_EXT_sequence_substitution_entity_or_process 7981 7994	substitutions
+T191	SO_EXT_0000147 8009 8014	exons
+T192	CHEBI_SO_EXT_nucleotide 8023 8033	nucleotide
+T193	SO_EXT_sequence_insertion_entity_or_process 8034 8043	insertion
+T194	SO_EXT_0000147 8047 8051	exon
+T195	SO_EXT_0000028 8080 8090	base pairs
+T196	SO_EXT_0001417 8098 8117	3' flanking regions
+T197	SO_EXT_biological_conservation_process_or_quality 8123 8132	conserved
+T198	SO_EXT_0000704 8150 8154	gene
+T199	SO_EXT_0000336 8163 8173	pseudogene
+T200	SO_EXT_0000028 8185 8195	base pairs
+T201	SO_EXT_0001416 8203 8221	5' flanking region
+T202	SO_EXT_0001416 8243 8261	5' flanking region
+T203	SO_EXT_0000028 8267 8269	bp
+T204	SO_EXT_0000167 8291 8299	promoter
+T205	SO_EXT_0000165 8300 8308	enhancer
+T206	SO_EXT_biological_sequence 8390 8398	sequence
+T207	SO_EXT_biological_sequence 8460 8468	sequence
+T208	SO_EXT_sequence_duplication_entity_or_process 8489 8500	duplication
+T209	SO_EXT_0000336 8501 8511	pseudogene
+T210	SO_EXT_0000336 8563 8574	pseudogenes
+T211	SO_EXT_0000147 8588 8592	exon
+T212	SO_EXT_0000188 8593 8599	intron
+T213	SO_EXT_0000704 8625 8629	gene
+T214	SO_EXT_0000336 8678 8689	pseudogenes
+T215	SO_EXT_0000336 8760 8770	pseudogene
+T216	SO_EXT_0000704 8811 8815	gene
+T217	SO_EXT_sequence_deletion_process 8851 8858	deleted
+T218	SO_EXT_0000704 8863 8867	gene
+T219	GO_SO_EXT_sequence_rearrangement_process 8882 8895	recombination
+T220	SO_EXT_sequence_substitution_process 8918 8926	replaced
+T221	SO_EXT_0000147 8937 8942	exons
+T222	SO_EXT_fusion_gene_or_gene_fusion 8957 8966;	fusion of
+9011 9016	fusion ofgenes
+T223	SO_EXT_0000704 9053 9057	gene
+T224	SO_EXT_0001644 9075 9092	targeting vectors
+T225	SO_EXT_sequence_cloned_entity 9180 9186	clones
+T226	GO_SO_EXT_sequence_rearrangement_process 9211 9224	recombination
+T227	SO_EXT_0001644 9238 9254	targeting vector
+T228	SO_EXT_sequence_cloned_entity 9336 9341	clone
+T229	GO_SO_EXT_sequence_rearrangement_process 9366 9379	recombination
+T230	SO_EXT_0001644 9392 9408	targeting vector
+T231	SO_EXT_0000704 9459 9463	gene
+T232	SO_EXT_0000409 9537 9554	Recognition sites
+T233	SO_EXT_0000704 9640 9644	gene
+T234	SO_EXT_sequence_coding_function 9645 9653	encoding
+T235	SO_EXT_sequence_insertion_process 9683 9691	inserted
+T236	SO_EXT_0001644 9713 9730	targeting vectors
+T237	GO_SO_EXT_sequence_rearrangement_process 9813 9826	recombination
+T238	SO_EXT_wild_type_entity_or_quality 9828 9830	WT
+T239	SO_EXT_wild_type_entity_or_quality 9832 9841	wild-type
+T240	SO_EXT_normal_or_wild_type_or_present 9861 9862	+
+T241	SO_EXT_sequence_nullness_or_absence 9863 9864	-
+T242	SO_EXT_normal_or_wild_type_or_present 9883 9884	+
+T243	SO_EXT_sequence_nullness_or_absence 9885 9886	-
+T244	SO_EXT_sequence_nullness_or_absence 9897 9898	-
+T245	SO_EXT_sequence_nullness_or_absence 9899 9900	-
+T246	SO_EXT_sequence_nullness 9907 9911	null
+T247	SO_EXT_sequence_cloned_entity 9939 9944	clone
+T248	SO_EXT_wild_type_entity_or_quality 10016 10025	wild-type
+T249	SO_EXT_wild_type_entity_or_quality 10036 10038	WT
+T250	SO_EXT_sequence_nullness 10046 10050	null
+T251	SO_EXT_sequence_nullness_or_absence 10061 10062	-
+T252	SO_EXT_sequence_nullness_or_absence 10063 10064	-
+T253	SO_EXT_sequence_cloned_entity 10072 10078	clones
+T254	SO_EXT_normal_or_wild_type_or_present 10107 10108	+
+T255	SO_EXT_sequence_nullness_or_absence 10109 10110	-
+T256	CHEBI_SO_EXT_RNA 10214 10217	RNA
+T257	CHEBI_SO_EXT_rRNA 10248 10261	ribosomal RNA
+T258	SO_EXT_sequence_altered_entity_or_alteration_process 10308 10314	mutant
+T259	SO_EXT_0000440 10349 10355	vector
+T260	SO_EXT_sequence_deletion_entity_or_process 10456 10464	deletion
+T261	SO_EXT_sequence_cloned_entity 10570 10576	clones
+T262	SO_EXT_0000440 10588 10594	vector
+T263	SO_EXT_sequence_substitution_process 10599 10607	replaced
+T264	SO_EXT_0000440 10617 10623	vector
+T265	SO_EXT_sequence_cloned_entity 10688 10694	clones
+T266	SO_EXT_0000440 10706 10712	vector
+T267	SO_EXT_sequence_nullness_or_absence 10758 10759	-
+T268	SO_EXT_sequence_nullness_or_absence 10760 10761	-
+T269	SO_EXT_wild_type_entity_or_quality 10905 10914	wild-type
+T270	SO_EXT_sequence_nullness_or_absence 10939 10940	-
+T271	SO_EXT_sequence_nullness_or_absence 10941 10942	-
+T272	SO_EXT_sequence_nullness 11359 11363	null
+T273	SO_EXT_sequence_nullness 11400 11404	null
+T274	SO_EXT_wild_type_entity_or_quality 11468 11477	wild-type
+T275	SO_EXT_wild_type_entity_or_quality 11479 11481	WT
+T276	SO_EXT_sequence_nullness 11489 11493	null
+T277	SO_EXT_sequence_nullness_or_absence 11495 11496	-
+T278	SO_EXT_sequence_nullness_or_absence 11497 11498	-
+T279	SO_EXT_normal_or_wild_type_or_present 11518 11519	+
+T280	SO_EXT_sequence_nullness_or_absence 11520 11521	-
+T281	SO_EXT_sequence_cloned_entity 11538 11543	clone
+T282	SO_EXT_normal_or_wild_type_or_present 11676 11677	+
+T283	SO_EXT_sequence_nullness_or_absence 11678 11679	-
+T284	SO_EXT_sequence_nullness_or_absence 11684 11685	-
+T285	SO_EXT_sequence_nullness_or_absence 11686 11687	-
+T286	SO_EXT_sequence_cloned_entity 11761 11767	clones
+T287	SO_EXT_sequence_nullness 11812 11816	null
+T288	SO_EXT_0000704 11875 11879	gene
+T289	SO_EXT_sequence_nullness_or_absence 11907 11908	-
+T290	SO_EXT_sequence_nullness_or_absence 11909 11910	-
+T291	CHEBI_SO_EXT_oligonucleotide 11926 11941	oligonucleotide
+T292	CHEBI_SO_EXT_DNA 11948 11951	DNA
+T293	SO_EXT_0000704 11985 11990	genes
+T294	SO_EXT_0000704 12054 12058	gene
+T295	SO_EXT_sequence_nullness_or_absence 12097 12098	-
+T296	SO_EXT_sequence_nullness_or_absence 12099 12100	-
+T297	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 12149 12155	marker
+T298	SO_EXT_0000704 12156 12161	genes
+T299	SO_EXT_sequence_nullness_or_absence 12207 12208	-
+T300	SO_EXT_sequence_nullness_or_absence 12209 12210	-
+T301	SO_EXT_0000704 12318 12322	gene
+T302	SO_EXT_sequence_nullness_or_absence 12389 12390	-
+T303	SO_EXT_sequence_nullness_or_absence 12391 12392	-
+T304	SO_EXT_0000704 12411 12416	genes
+T305	SO_EXT_sequence_nullness_or_absence 12468 12469	-
+T306	SO_EXT_sequence_nullness_or_absence 12470 12471	-
+T307	SO_EXT_0000704 12537 12542	genes
+T308	CHEBI_SO_EXT_RNA 12624 12627	RNA
+T309	SO_EXT_0000417 12636 12642	domain
+T310	CHEBI_SO_EXT_mRNA 12661 12665	mRNA
+T311	SO_EXT_0000704 12675 12680	genes
+T312	SO_EXT_0000704 12751 12755	Gene
+T313	SO_EXT_sequence_nullness 12784 12788	null
+T314	CHEBI_SO_EXT_DNA 12802 12805	DNA
+T315	CHEBI_SO_EXT_RNA 12833 12836	RNA
+T316	SO_EXT_wild_type_entity_or_quality 12842 12851	wild-type
+T317	SO_EXT_sequence_nullness 12870 12874	null
+T318	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 12889 12896	labeled
+T319	SO_EXT_sequence_cloned_entity 13029 13035	clones
+T320	SO_EXT_normal_or_wild_type_or_present 13095 13096	+
+T321	SO_EXT_sequence_nullness_or_absence 13097 13098	-
+T322	SO_EXT_sequence_nullness_or_absence 13107 13108	-
+T323	SO_EXT_sequence_nullness_or_absence 13109 13110	-
+T324	SO_EXT_normal_or_wild_type_or_present 13247 13248	+
+T325	SO_EXT_sequence_nullness_or_absence 13249 13250	-
+T326	SO_EXT_sequence_cloned_entity 13259 13265	clones
+T327	SO_EXT_sequence_cloned_entity 13348 13354	clones
+T328	SO_EXT_sequence_nullness_or_absence 13372 13373	-
+T329	SO_EXT_sequence_nullness_or_absence 13374 13375	-
+T330	SO_EXT_wild_type_entity_or_quality 13409 13418	wild-type
+T331	SO_EXT_normal_or_wild_type_or_present 13427 13428	+
+T332	SO_EXT_sequence_nullness_or_absence 13429 13430	-
+T333	SO_EXT_sequence_nullness_or_absence 13443 13444	-
+T334	SO_EXT_sequence_nullness_or_absence 13445 13446	-
+T335	SO_EXT_normal_or_wild_type_or_present 13473 13474	+
+T336	SO_EXT_sequence_nullness_or_absence 13475 13476	-
+T337	SO_EXT_normal_or_wild_type_or_present 13845 13846	+
+T338	SO_EXT_sequence_nullness_or_absence 13847 13848	-
+T339	SO_EXT_sequence_nullness_or_absence 13863 13864	-
+T340	SO_EXT_sequence_nullness_or_absence 13865 13866	-
+T341	SO_EXT_sequence_cloned_entity 13920 13926	clones
+T342	SO_EXT_sequence_nullness_or_absence 13936 13937	-
+T343	SO_EXT_sequence_nullness_or_absence 13938 13939	-
+T344	SO_EXT_sequence_nullness 13952 13956	null
+T345	SO_EXT_0000704 14176 14180	gene
+T346	GO_SO_EXT_chromosome 14184 14194	chromosome
+T347	SO_EXT_sequence_deletion_process 14201 14208	deleted
+T348	GO_SO_EXT_sequence_rearrangement_process 14226 14239	recombination
+T349	SO_EXT_0000153 14492 14495	BAC
+T350	SO_EXT_sequence_cloned_entity 14496 14502	clones
+T351	SO_EXT_0000704 14529 14533	gene
+T352	SO_EXT_0000153 14547 14578	bacterial artificial chromosome
+T353	SO_EXT_0000153 14580 14583	BAC
+T354	SO_EXT_sequence_cloned_entity 14585 14591	clones
+T355	SO_EXT_0000704 14614 14618	gene
+T356	SO_EXT_0000153 14662 14665	BAC
+T357	CHEBI_SO_EXT_DNA 14674 14677	DNA
+T358	OBI_SO_EXT_gene_or_genetic_investigation_or_genetic_process 14694 14702	Genetics
+T359	SO_EXT_0000112 14796 14803	primers
+T360	CHEBI_GO_SO_EXT_enzyme 14827 14833	enzyme
+T361	SO_EXT_0000153 14884 14887	BAC
+T362	SO_EXT_sequence_cloned_entity 14888 14894	clones
+T363	CHEBI_SO_EXT_molecular_probe 15153 15159	probes
+T364	CHEBI_SO_EXT_molecular_probe 15186 15192	probes
+T365	SO_EXT_0000704 15235 15239	gene
+T366	SO_EXT_0000336 15243 15254	pseudogenes
+T367	SO_EXT_0000704 15306 15310	gene
+T368	SO_EXT_0001417 15319 15337	3' flanking region
+T369	SO_EXT_0000028 15359 15361	bp
+T370	SO_EXT_0000440 15398 15404	vector
+T371	SO_EXT_0000440 15464 15470	vector
+T372	SO_EXT_sequence_cloning_process 15481 15487	cloned
+T373	SO_EXT_0000336 15548 15558	pseudogene
+T374	SO_EXT_0001417 15567 15585	3' flanking region
+T375	SO_EXT_0000028 15593 15595	bp
+T376	SO_EXT_sequence_cloning_process 15619 15625	cloned
+T377	SO_EXT_0000440 15684 15690	vector
+T378	SO_EXT_sequence_cloning_process 15701 15707	cloned
+T379	SO_EXT_biological_sequence 15748 15756	sequence
+T380	SO_EXT_0001416 15772 15791	5' flanking regions
+T381	SO_EXT_0000704 15804 15808	gene
+T382	SO_EXT_0000336 15825 15836	pseudogenes
+T383	SO_EXT_0000112 15948 15955	primers
+T384	SO_EXT_biological_sequence 15971 15979	sequence
+T385	SO_EXT_sequence_cloning_process 15984 15990	cloned
+T386	SO_EXT_0000028 16035 16037	bp
+T387	SO_EXT_sequence_cloning_process 16144 16150	cloned
+T388	SO_EXT_0001416 16218 16236	5' flanking region
+T389	SO_EXT_0000704 16249 16253	gene
+T390	SO_EXT_0000028 16261 16263	bp
+T391	SO_EXT_sequence_cloning_process 16319 16325	cloned
+T392	SO_0000357 16396 16404	flanking
+T393	SO_EXT_0000336 16409 16419	pseudogene
+T394	SO_EXT_0001644 16443 16460	targeting vectors
+T395	SO_EXT_sequence_substitution_process 16465 16473	replaced
+T396	SO_EXT_0000147 16490 16495	exons
+T397	SO_EXT_0001644 16505 16522	targeting vectors
+T398	SO_EXT_0000243 16544 16548	IRES
+T399	SO_EXT_0005853 16555 16563	cassette
+T400	SO_EXT_0000243 16575 16579	IRES
+T401	SO_EXT_0005853 16585 16593	cassette
+T402	SO_EXT_0000167 16597 16605	promoter
+T403	SO_EXT_0000028 16652 16654	bp
+T404	SO_EXT_0000112 16805 16812	primers
+T405	SO_EXT_0000028 16831 16833	bp
+T406	SO_EXT_0000112 16971 16978	primers
+T407	SO_EXT_0000243 16984 16988	IRES
+T408	SO_EXT_0000243 16998 17002	IRES
+T409	SO_EXT_0005853 17008 17017	cassettes
+T410	SO_EXT_0005853 17088 17096	cassette
+T411	SO_EXT_sequence_downstreamness 17108 17118	downstream
+T412	SO_EXT_sequence_linearization 17140 17153	linearization
+T413	SO_EXT_0001644 17172 17189	targeting vectors
+T414	SO_EXT_0000704 17251 17255	Gene
+T415	SO_EXT_genomic_DNA 17366 17377	Genomic DNA
+T416	GO_SO_EXT_sequence_rearrangement_process 17452 17465	recombination
+T417	GO_SO_EXT_sequence_rearrangement_process 17528 17541	recombination
+T418	SO_EXT_genomic_DNA 17552 17563	genomic DNA
+T419	SO_EXT_genomic_DNA 17662 17673	genomic DNA
+T420	SO_EXT_0000028 17803 17805	bp
+T421	CHEBI_SO_EXT_molecular_probe 17809 17814	probe
+T422	SO_EXT_0000112 17925 17932	primers
+T423	CHEBI_SO_EXT_molecular_probe 17938 17943	probe
+T424	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 17957 17964	labeled
+T425	SO_EXT_0000028 17972 17974	bp
+T426	SO_EXT_wild_type_entity_or_quality 17989 17998	wild-type
+T427	SO_EXT_0000028 18012 18014	bp
+T428	SO_EXT_0000028 18052 18054	bp
+T429	SO_EXT_genomic_DNA 18081 18092	Genomic DNA
+T430	SO_EXT_0000028 18160 18162	bp
+T431	CHEBI_SO_EXT_molecular_probe 18166 18171	probe
+T432	SO_EXT_0000112 18290 18297	primers
+T433	CHEBI_SO_EXT_molecular_probe 18303 18308	probe
+T434	SO_EXT_0000028 18332 18334	bp
+T435	SO_EXT_wild_type_entity_or_quality 18349 18358	wild-type
+T436	SO_EXT_0000028 18374 18376	bp
+T437	SO_EXT_0000028 18415 18417	bp
+T438	SO_EXT_coding_sequence 18496 18511	coding sequence
+T439	SO_EXT_0000112 18660 18667	primers
+T440	SO_EXT_0000006 18708 18719	PCR product
+T441	GO_SO_EXT_sequence_rearrangement_process 18820 18833	recombination
+T442	SO_EXT_0000440 18882 18888	vector
+T443	GO_SO_EXT_sequence_rearrangement_process 18937 18948	recombinant
+T444	CHEBI_SO_EXT_histidine 19021 19030	Histidine
+T445	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 19031 19037	tagged
+T446	GO_SO_EXT_sequence_rearrangement_process 19198 19209	recombinant
+T447	SO_EXT_normal_or_wild_type_or_present 20014 20015	+
+T448	SO_EXT_sequence_nullness_or_absence 20016 20017	-
+T449	SO_EXT_sequence_nullness_or_absence 20024 20025	-
+T450	SO_EXT_sequence_nullness_or_absence 20026 20027	-
+T451	SO_EXT_sequence_altered_entity_or_alteration_process 20028 20034	mutant
+T452	CHEBI_SO_EXT_amino_acid 20391 20402	Amino Acids
+T453	CHEBI_SO_EXT_glutamine 20424 20433	glutamine
+T454	CHEBI_SO_EXT_RNA 21110 21113	RNA
+T455	SO_EXT_wild_type_entity_or_quality 21119 21128	wild-type
+T456	SO_EXT_sequence_nullness_or_absence 21146 21147	-
+T457	SO_EXT_sequence_nullness_or_absence 21148 21149	-
+T458	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 21163 21170	labeled
+T459	SO_EXT_sequence_cloned_entity 21438 21444	clones
+T460	OBI_SO_EXT_gene_or_genetic_investigation_or_genetic_process 21499 21507	Genetics
+T461	GO_SO_EXT_chromosome 21614 21625	chromosomal
+T462	SO_EXT_0000704 21652 21656	gene
+T463	SO_EXT_0000336 21661 21672	pseudogenes
+T464	SO_EXT_0001644 21693 21709	targeting vector
+T465	SO_EXT_0000440 22260 22267	vectors

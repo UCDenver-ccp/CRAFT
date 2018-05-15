@@ -1,86 +1,43 @@
-T0	GO_EXT:transcription_factor 261 281	transcription factor
-#0	AnnotationNotes T0	transcription factor
-T1	GO_EXT:0004872 559 567	receptor
-#1	AnnotationNotes T1	bearer of receptor activity
-T2	CHEBI_GO_EXT:agonist 711 718	agonist
-#2	AnnotationNotes T2	agonist
-T3	CHEBI_GO_SO_EXT:enzyme 1631 1638	enzymes
-#3	AnnotationNotes T3	enzyme
-T4	GO_EXT:0004683 2309 2336	calmodulin-dependent kinase
-#4	AnnotationNotes T4	bearer of calmodulin-dependent protein kinase activity
-T5	GO_EXT:0003712 2346 2370	transcriptional cofactor
-#5	AnnotationNotes T5	bearer of transcription cofactor activity
-T6	GO_EXT:0004872 2405 2413	receptor
-#6	AnnotationNotes T6	bearer of receptor activity
-T7	GO_EXT:transcription_factor 2544 2567	transcriptional factors
-#7	AnnotationNotes T7	transcription factor
-T8	GO_EXT:0004872 3427 3435	receptor
-#8	AnnotationNotes T8	bearer of receptor activity
-T9	CHEBI_GO_SO_EXT:enzyme 3537 3544	enzymes
-#9	AnnotationNotes T9	enzyme
-T10	GO_EXT:transcription_factor 3782 3802	transcription factor
-#10	AnnotationNotes T10	transcription factor
-T11	GO_EXT:0004129 6574 6594	cytochrome c oxidase
-#11	AnnotationNotes T11	bearer of cytochrome-c oxidase activity
-T12	GO_EXT:0004129 6596 6599	COX
-#12	AnnotationNotes T12	bearer of cytochrome-c oxidase activity
-T13	CHEBI_GO_SO_EXT:enzyme 6639 6646	enzymes
-#13	AnnotationNotes T13	enzyme
-T14	CHEBI_GO_EXT:agonist 8032 8039	agonist
-#14	AnnotationNotes T14	agonist
-T15	CHEBI_GO_EXT:agonist 9728 9735	agonist
-#15	AnnotationNotes T15	agonist
-T16	CHEBI_GO_EXT:agonist 10087 10094	agonist
-#16	AnnotationNotes T16	agonist
-T17	CHEBI_GO_SO_EXT:enzyme 12301 12308	enzymes
-#17	AnnotationNotes T17	enzyme
-T18	CHEBI_GO_SO_EXT:enzyme 12501 12508	enzymes
-#18	AnnotationNotes T18	enzyme
-T19	GO_EXT:0004683 13519 13546	calmodulin-dependent kinase
-#19	AnnotationNotes T19	bearer of calmodulin-dependent protein kinase activity
-T20	GO_EXT:transcription_factor 13677 13698	transcription factors
-#20	AnnotationNotes T20	transcription factor
-T21	CHEBI_GO_EXT:ligand 13757 13763	ligand
-#21	AnnotationNotes T21	ligand
-T22	CHEBI_GO_SO_EXT:enzyme 14087 14094	enzymes
-#22	AnnotationNotes T22	enzyme
-T23	CHEBI_GO_EXT:ligand 14178 14184	ligand
-#23	AnnotationNotes T23	ligand
-T24	GO_EXT:0004872 14198 14206	receptor
-#24	AnnotationNotes T24	bearer of receptor activity
-T25	CHEBI_GO_EXT:ligand 14529 14536	ligands
-#25	AnnotationNotes T25	ligand
-T26	CHEBI_GO_EXT:ligand 14980 14987	ligands
-#26	AnnotationNotes T26	ligand
-T27	GO_EXT:0016301 15097 15103	kinase
-#27	AnnotationNotes T27	bearer of kinase activity
-T28	CHEBI_GO_EXT:ligand 15531 15537	ligand
-#28	AnnotationNotes T28	ligand
-T29	CHEBI_GO_EXT:ligand 16150 16157	ligands
-#29	AnnotationNotes T29	ligand
-T30	CHEBI_GO_EXT:ligand 17437 17443	ligand
-#30	AnnotationNotes T30	ligand
-T31	GO_EXT:0016887 18471 18477	ATPase
-#31	AnnotationNotes T31	bearer of ATPase activity
-T32	GO_EXT:0004129 20487 20490	COX
-#32	AnnotationNotes T32	bearer of cytochrome-c oxidase activity
-T33	GO_EXT:0004129 20493 20513	cytochrome c oxidase
-#33	AnnotationNotes T33	bearer of cytochrome-c oxidase activity
-T34	GO_EXT:0004095 20530 20560	carnitine palmitoyltransferase
-#34	AnnotationNotes T34	bearer of carnitine O-palmitoyltransferase activity
-T35	GO_EXT:0004872 20607 20615	receptor
-#35	AnnotationNotes T35	bearer of receptor activity
-T36	GO_EXT:0004872 20679 20687	receptor
-#36	AnnotationNotes T36	bearer of receptor activity
-T37	GO:0097617 20895 20905	hybridized
-#37	AnnotationNotes T37	annealing activity
-T38	GO_EXT:0001055 21115 21132	RNA polymerase II
-#38	AnnotationNotes T38	bearer of RNA polymerase II activity
-T39	GO_EXT:0001055 21134 21140	Pol II
-#39	AnnotationNotes T39	bearer of RNA polymerase II activity
-T40	GO:0097617 21277 21287	hybridized
-#40	AnnotationNotes T40	annealing activity
-T41	CHEBI_GO_EXT:agonist 22889 22896	agonist
-#41	AnnotationNotes T41	agonist
-T42	CHEBI_GO_EXT:agonist 23880 23888	Agonists
-#42	AnnotationNotes T42	agonist
+T0	GO_EXT_transcription_factor 261 281	transcription factor
+T1	GO_EXT_0004872 559 567	receptor
+T2	CHEBI_GO_EXT_agonist 711 718	agonist
+T3	CHEBI_GO_SO_EXT_enzyme 1631 1638	enzymes
+T4	GO_EXT_0004683 2309 2336	calmodulin-dependent kinase
+T5	GO_EXT_0003712 2346 2370	transcriptional cofactor
+T6	GO_EXT_0004872 2405 2413	receptor
+T7	GO_EXT_transcription_factor 2544 2567	transcriptional factors
+T8	GO_EXT_0004872 3427 3435	receptor
+T9	CHEBI_GO_SO_EXT_enzyme 3537 3544	enzymes
+T10	GO_EXT_transcription_factor 3782 3802	transcription factor
+T11	GO_EXT_0004129 6574 6594	cytochrome c oxidase
+T12	GO_EXT_0004129 6596 6599	COX
+T13	CHEBI_GO_SO_EXT_enzyme 6639 6646	enzymes
+T14	CHEBI_GO_EXT_agonist 8032 8039	agonist
+T15	CHEBI_GO_EXT_agonist 9728 9735	agonist
+T16	CHEBI_GO_EXT_agonist 10087 10094	agonist
+T17	CHEBI_GO_SO_EXT_enzyme 12301 12308	enzymes
+T18	CHEBI_GO_SO_EXT_enzyme 12501 12508	enzymes
+T19	GO_EXT_0004683 13519 13546	calmodulin-dependent kinase
+T20	GO_EXT_transcription_factor 13677 13698	transcription factors
+T21	CHEBI_GO_EXT_ligand 13757 13763	ligand
+T22	CHEBI_GO_SO_EXT_enzyme 14087 14094	enzymes
+T23	CHEBI_GO_EXT_ligand 14178 14184	ligand
+T24	GO_EXT_0004872 14198 14206	receptor
+T25	CHEBI_GO_EXT_ligand 14529 14536	ligands
+T26	CHEBI_GO_EXT_ligand 14980 14987	ligands
+T27	GO_EXT_0016301 15097 15103	kinase
+T28	CHEBI_GO_EXT_ligand 15531 15537	ligand
+T29	CHEBI_GO_EXT_ligand 16150 16157	ligands
+T30	CHEBI_GO_EXT_ligand 17437 17443	ligand
+T31	GO_EXT_0016887 18471 18477	ATPase
+T32	GO_EXT_0004129 20487 20490	COX
+T33	GO_EXT_0004129 20493 20513	cytochrome c oxidase
+T34	GO_EXT_0004095 20530 20560	carnitine palmitoyltransferase
+T35	GO_EXT_0004872 20607 20615	receptor
+T36	GO_EXT_0004872 20679 20687	receptor
+T37	GO_0097617 20895 20905	hybridized
+T38	GO_EXT_0001055 21115 21132	RNA polymerase II
+T39	GO_EXT_0001055 21134 21140	Pol II
+T40	GO_0097617 21277 21287	hybridized
+T41	CHEBI_GO_EXT_agonist 22889 22896	agonist
+T42	CHEBI_GO_EXT_agonist 23880 23888	Agonists

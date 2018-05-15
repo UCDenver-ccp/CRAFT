@@ -1,4 +1,6 @@
+==============================================================================
 # The CRAFT (Colorado Richly Annotated Full-Text) Corpus
+==============================================================================
 
 The contents of this repository consist of the v3.0 release of the CRAFT Corpus.  This release consists of 67 articles from the PubMed CentralOpen Access subset, each of which has been annotated along a number of different axes. For the syntactic annotation of the corpus, all sentences have been marked up with respect to sentence segmentation, tokenization, part-of-speech tags, grammatical dependency, and treebanking.  Document sections (e.g., Abstract, Results) and typography (e.g., italics, boldface, subscript, superscript) have also been specified.  Additionally, the corpus has been annotated with coreference relations, including identity and appositives, for all coreferring base noun phrases.  Finally, semantically, concepts mentioned in these articles have been mapped (“normalized”) to specific ontology classes, relying on ten Open Biomedical Ontologies.
 
@@ -35,54 +37,138 @@ Or simply clone the contents of this repository using the following command:
 The previous release of the CRAFT corpus (v2.0) is located at:
   http://bionlp-corpora.sourceforge.net/CRAFT/                                                                                                                                                               
 
+==============================================================================
 ## Directory Structure
+==============================================================================
 
-### articles
-#### ids
+craft-3.0
++-- articles
+|   +-- ids
+|   |   +-- craft-idmappings-release
+|   |   +-- craft-pmids-release
+|   +-- nxml
+|   |   +-- Arthritis Res Ther-8-2-1526604.nxml
+|   |   ...
+|   +-- txt
+|   |   +-- 11532192.txt
+|   |   +-- 11532192.copyright
+|   |   +-- 11532192.references
+|   |   ...
++-- coreference
+|   +-- annotations
+|   |   +-- brat
+|   |   |   +-- 11532192.ann
+|   |   |   ...
+|   |   +-- knowtator
+|   |   |   +-- 11532192.txt.knowtator.xml
+|   |   |   ...
+|   |   +-- knowtator-2
+|   |   |   +-- 11532192.txt.knowtator.xml
+|   |   |   ...
+|   |   +-- uima
+|   |   |   +-- 11532192.xmi
+|   |   |   ...
++-- dependency
+|   +-- 11532192.dep
+|   ...
++-- ontology-concepts
+|   +-- CHEBI
+|   |   +-- CHEBI
+|   |   |   +-- CHEBI.obo
+|   |   |   +-- unused_classes_for_CHEBI_annotations.txt
+|   |   |   +-- annotations
+|   |   |   |   +-- brat
+|   |   |   |   |   +-- 11532192.ann
+|   |   |   |   |   ...
+|   |   |   |   +-- knowtator
+|   |   |   |   |   +-- 11532192.txt.knowtator.xml
+|   |   |   |   |   ...
+|   |   |   |   +-- knowtator-2
+|   |   |   |   |   +-- 11532192.txt.knowtator.xml
+|   |   |   |   |   ...
+|   |   |   |   +-- uima
+|   |   |   |   |   +-- 11532192.xmi
+|   |   |   |   |   ...
+|   |   |   |   ...
+|   ...
+|   +-- README FOR CONCEPT ANNOTATIONS.txt
++-- pos
+|   +-- 11532192.txt.xml
+|   ...
++-- sections-and-typography
+|   +-- annotations
+|   |   +-- brat
+|   |   |   +-- 11532192.ann
+|   |   |   ...
+|   |   +-- knowtator
+|   |   |   +-- 11532192.txt.knowtator.xml
+|   |   |   ...
+|   |   +-- knowtator-2
+|   |   |   +-- 11532192.txt.knowtator.xml
+|   |   |   ...
+|   |   +-- uima
+|   |   |   +-- 11532192.xmi
+|   |   |   ...
++-- treebank
+|   +-- 11532192.tree
+|   ...
++-- CHANGES.txt
++-- License.txt
++-- README.txt
+
+
+### /articles/ids/
 Contains a file listing the PubMed IDs contained in this distribution (craft-pmids-release) and a file mapping from PubMed ID to PubMed Central ID and original downloaded file name for all articles in this distribution (craft-idmappings-release).
 
-#### nxml 
+### /articles/nxml/ 
 Contains the original XML for each article in this distribution as downloaded as part of the PubMed Central Open Access collection.
 
-#### txt
+### /articles/txt/
 Contains a plain text version of each article that was derived from the original XML files. NOTE: Annotation offsets included in this distribution are relative to the plain-text versions of the articles. The file name for any given article is its PubMed ID with a ".txt" extension. All CRAFT articles use UTF-8 encoding. Also included for each article are files containing the copyright information ([PUBMED_ID].copyright) and the article's references ([PUBMED_ID].references).
 
-### coreference
+### /coreference/
 Contains annotations of coreferential nouns/noun phrases, provided in brat, Knowtator XML, Knowtator 2 XML, and UIMA formats, for each article in this distribution. Details are specified in Cohen et al., 2017 (see citation above).
 
-### dependency
+### /dependency/
 Contains dependency parse trees for each sentence of every article that is part of this distribution. 
 
-### ontology-concepts
+### /ontology-concepts/
 Contains concept annotations mapped (“normalized”) to specific ontology classes	for each article in this distribution.  Annotations are provided in brat,	Knowtator XML, Knowtator 2 XML, and UIMA formats.  For each ontology, there are	two subdirectories, one for annotations produced using only proper classes of	the given ontology (e.g., ontology-concepts/CHEBI/CHEBI/), and the other for	annotations produced using these classes as well as extension classes created by	the CRAFT semantic annotators but defined in terms of existing ontology  classes	(e.g., ontology-concepts/CHEBI/CHEBI+extensions/).  Each subdirectory contains	the ontology file that should be used for the corresponding annotations (e.g.,	ontology-concepts/CHEBI/CHEBI.obo for the former,	ontology-concepts/CHEBI/CHEBI+extensions/CHEBI+extensions.obo for the latter). 	Most of these subdirectories also contain one or more mapping text files that	may be useful, particularly when comparing automatically generated concept	annotations to the CRAFT concept annotations.  Details are specified in	Bada et al., 2012 (see citation above), and users are also advised to read	ontology-concepts/README FOR CONCEPT ANNOTATIONS.txt.
 
-### sections-and-typography
+### /sections-and-typography/
 Contains annotations for sections (e.g., Abstract, Results) and typography (e.g., italics, boldface, subscript, superscript) for each article in this distribution.  Annotations are provided in brat, Knowtator XML, Knowtator 2 XML, and UIMA formats.
 
-### sentences-tokens-pos
+### /sentences-tokens-pos/
 Contains files showing sentence, token, and part-of-speech information in the GENIA-style POS-embedded XML format for each article in this distribution. Details are specified in Verspoor et al., 2012 (see citation above).
 
-### treebank
+### /treebank/
 Contains the full syntactic parse trees in Penn Treebank style for each sentence of each article in this distribution.  Details are specified in Verspoor et al., 2012 (see citation above).
 
 
+==============================================================================
 ## Character Encoding
+==============================================================================
 
 UTF-8 encoding is used throughout the CRAFT project, so please default to UTF-8 when using CRAFT resources. 
 
+==============================================================================
 ## Formatting
+==============================================================================
 
 The CRAFT Corpus has been made available in a number of different formats. Availability of the semantic and syntactic annotations in the various formats is detailed in the table below.
 
-| Format          | Annotation Type(s)                                                                  |
-|-----------------|-------------------------------------------------------------------------------------|  
-| brat            | coreference, document sections, ontology concepts, typography                       |
-| CoNLL dep. tree | dependency parse trees                                                              |
-| GENIA XML       | parts of speech, sentences, tokens                                                  |
-| Knowtator XML   | coreference, document sections, ontology concepts, typography                       |
-| Knowtator 2 XML | coreference, document sections, ontology concepts, typography                       |
-| Penn TreeBank   | full syntactic trees                                                                |
-| UIMA XMI        | coreference, document sections, full syntactic trees, ontology concepts, typography |                        
+-----------------------------------------------------------------------------------
+| Format          | Annotation Type(s)                                            |
+-----------------------------------------------------------------------------------
+| brat            | coreference, document sections, ontology concepts, typography |
+| CoNLL dep. tree | dependency parse trees                                        |
+| GENIA XML       | parts of speech, sentences, tokens                            |
+| Knowtator XML   | coreference, document sections, ontology concepts, typography |
+| Knowtator 2 XML | coreference, document sections, ontology concepts, typography |
+| Penn TreeBank   | full syntactic trees                                          |
+| UIMA XMI        | coreference, document sections, full syntactic trees,         |
+|                 |    ontology concepts, typography                              |
+-----------------------------------------------------------------------------------
 
 ### CoNLL Dependency Tree
 Dependency parse trees were generated with the CLEAR Parser (https://code.google.com/archive/p/clearparser/) using the CRAFT Treebank data as input. These parse trees have not been manually vetted.
@@ -103,7 +189,9 @@ Full syntactic parse trees in the Penn Treebank style.
 Versions of a UIMA CAS data structure representing each article and its annotations have been serialized using the UIMA XMI data format. Concept annotations are represented using the CCP Type System (CCPTypeSystem.xml; included in this distribution) while Treebank data is represented using ClearTK (http://code.google.com/p/cleartk/) type system.
   	 
 
+==============================================================================
 ## Browsing CRAFT
+==============================================================================
 
 ### brat
 Each annotation set that has been provided in the brat format has been packaged such that users can directly open it in a local brat installation (which can be obtained at http://brat.nlplab.org).
@@ -116,6 +204,8 @@ To view the details of a given annotation, simply hover over the class or catego
 Each annotation set that has been provided in the Knowtator 2 format has been packaged such that users can directly open it in a local Knowtator 2installation (which can be obtained at https://github.com/UCDenver-ccp/Knowtator-2.0).
 	 
   	   
+===============================================================================
 ## Feedback
+==============================================================================
 
 Please direct comments, questions, and suggestions to either in the Issues section of the CRAFT GitHub page, or send e-mail to Mike Bada at mike.bada@ucdenver.edu.

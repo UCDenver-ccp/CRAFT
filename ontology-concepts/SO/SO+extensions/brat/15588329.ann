@@ -1,520 +1,260 @@
-T0	CHEBI_SO_EXT:base 280 281	b
-#0	AnnotationNotes T0	base
-T1	SO_EXT:sequence_alteration_entity_or_process 287 295	mutation
-#1	AnnotationNotes T1	sequence alteration entity or process
-T2	SO_EXT:sequence_alteration_entity_or_process 516 524	mutation
-#2	AnnotationNotes T2	sequence alteration entity or process
-T3	SO_EXT:sequence_altered_entity_or_alteration_process 534 540	mutant
-#3	AnnotationNotes T3	sequence-altered entity or alteration process
-T4	SO_EXT:sequence_alteration_entity_or_process 642 650	mutation
-#4	AnnotationNotes T4	sequence alteration entity or process
-T5	SO_EXT:wild_type_entity_or_quality 753 762	wild-type
-#5	AnnotationNotes T5	wild-typeness or wild-type entity
-T6	SO_EXT:sequence_altered_entity_or_alteration_process 963 969	mutant
-#6	AnnotationNotes T6	sequence-altered entity or alteration process
-T7	SO_EXT:sequence_alteration_process 1128 1138	processing
-#7	AnnotationNotes T7	sequence alteration process
-T8	CHEBI_GO_SO_EXT:enzyme 1161 1167	enzyme
-#8	AnnotationNotes T8	enzyme
-T9	SO_EXT:0000704 1945 1952	genetic
-#9	AnnotationNotes T9	gene
-T10	GO_SO_EXT:chromosome 1974 1985	chromosomes
-#10	AnnotationNotes T10	chromosome
-T11	CHEBI_SO_EXT:base 2014 2015	b
-#11	AnnotationNotes T11	base
-T12	SO_EXT:genomic_DNA 2016 2027	genomic DNA
-#12	AnnotationNotes T12	genomic DNA
-T13	SO_EXT:sequence_deletion_entity_or_process 2028 2036	deletion
-#13	AnnotationNotes T13	sequence deletion entity or process
-T14	SO_EXT:0000704 2049 2053	gene
-#14	AnnotationNotes T14	gene
-T15	SO_EXT:0000147 2072 2077	exons
-#15	AnnotationNotes T15	exon
-T16	SO_EXT:0000188 2102 2110	intronic
-#16	AnnotationNotes T16	intron
-T17	CHEBI_SO_EXT:DNA 2111 2114	DNA
-#17	AnnotationNotes T17	DNA
-T18	SO_EXT:sequence_coding_function 2657 2664	encoded
-#18	AnnotationNotes T18	sequence coding function
-T19	SO_EXT:biological_conservation_process_or_quality 2724 2733	conserved
-#19	AnnotationNotes T19	biological conservation process or quality
-T20	SO_EXT:0000855 2947 2955	ortholog
-#20	AnnotationNotes T20	orthologous_region
-T21	CHEBI_SO_EXT:amino_acid 3014 3024	amino acid
-#21	AnnotationNotes T21	amino acid
-T22	SO_EXT:0000704 3123 3134	genetically
-#22	AnnotationNotes T22	gene
-T23	CHEBI_SO_EXT:base 3201 3202	b
-#23	AnnotationNotes T23	base
-T24	SO_EXT:sequence_alteration_entity_or_process 3215 3223	mutation
-#24	AnnotationNotes T24	sequence alteration entity or process
-T25	SO_EXT:sequence_truncation_process 3242 3251	truncated
-#25	AnnotationNotes T25	sequence truncation process
-T26	SO_EXT:sequence_altered_entity_or_alteration_process 3252 3258	mutant
-#26	AnnotationNotes T26	sequence-altered entity or alteration process
-T27	SO_EXT:0001060 3268 3275	isoform
-#27	AnnotationNotes T27	sequence_variant
-T28	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 3323 3333	C-terminal
-#28	AnnotationNotes T28	C-terminus or C-terminal region
-T29	CHEBI_SO_EXT:epitope 3334 3342	epitopes
-#29	AnnotationNotes T29	epitope
-T30	SO_EXT:sequence_alteration_entity_or_process 3813 3821	mutation
-#30	AnnotationNotes T30	sequence alteration entity or process
-T31	SO_EXT:sequence_altered_entity_or_alteration_process 4145 4151	mutant
-#31	AnnotationNotes T31	sequence-altered entity or alteration process
-T32	SO_EXT:0000704 4198 4209	genetically
-#32	AnnotationNotes T32	gene
-T33	SO_EXT:0000704 4268 4275	genetic
-#33	AnnotationNotes T33	gene
-T34	SO_EXT:wild_type_entity_or_quality 4456 4465	wild-type
-#34	AnnotationNotes T34	wild-typeness or wild-type entity
-T35	SO_EXT:0000440 4562 4568	vector
-#35	AnnotationNotes T35	vector_replicon
-T36	SO_EXT:0005853 4589 4597	cassette
-#36	AnnotationNotes T36	gene_cassette
-T37	SO_EXT:sequence_cloned_entity 4770 4776	clonal
-#37	AnnotationNotes T37	sequence-cloned entity
-T38	SO_EXT:genotype_or_entity_with_genotype 4853 4861	genotype
-#38	AnnotationNotes T38	genotype or entity with genotype
-T39	SO_EXT:genotype_or_entity_with_genotype 4866 4874	genotype
-#39	AnnotationNotes T39	genotype or entity with genotype
-T40	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 5398 5404	marker
-#40	AnnotationNotes T40	molecular indicator/label/marker/tag
-T41	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 5447 5453	marker
-#41	AnnotationNotes T41	molecular indicator/label/marker/tag
-T42	SO_EXT:normal_or_wild_type_or_present 5474 5475	+
-#42	AnnotationNotes T42	sequence wild-typeness, normalness or presence
-T43	SO_EXT:normal_or_wild_type_or_present 5476 5477	+
-#43	AnnotationNotes T43	sequence wild-typeness, normalness or presence
-T44	SO_EXT:normal_or_wild_type_or_present 5510 5511	+
-#44	AnnotationNotes T44	sequence wild-typeness, normalness or presence
-T45	SO_EXT:normal_or_wild_type_or_present 5512 5513	+
-#45	AnnotationNotes T45	sequence wild-typeness, normalness or presence
-T46	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 5547 5553	marker
-#46	AnnotationNotes T46	molecular indicator/label/marker/tag
-T47	SO_EXT:normal_or_wild_type_or_present 5581 5582	+
-#47	AnnotationNotes T47	sequence wild-typeness, normalness or presence
-T48	SO_EXT:normal_or_wild_type_or_present 5583 5584	+
-#48	AnnotationNotes T48	sequence wild-typeness, normalness or presence
-T49	SO_EXT:normal_or_wild_type_or_present 5772 5773	+
-#49	AnnotationNotes T49	sequence wild-typeness, normalness or presence
-T50	SO_EXT:normal_or_wild_type_or_present 5774 5775	+
-#50	AnnotationNotes T50	sequence wild-typeness, normalness or presence
-T51	SO_EXT:normal_or_wild_type_or_present 5926 5927	+
-#51	AnnotationNotes T51	sequence wild-typeness, normalness or presence
-T52	SO_EXT:normal_or_wild_type_or_present 5928 5929	+
-#52	AnnotationNotes T52	sequence wild-typeness, normalness or presence
-T53	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 5973 5979	marker
-#53	AnnotationNotes T53	molecular indicator/label/marker/tag
-T54	SO_EXT:normal_or_wild_type_or_present 6001 6002	+
-#54	AnnotationNotes T54	sequence wild-typeness, normalness or presence
-T55	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 6065 6071	marker
-#55	AnnotationNotes T55	molecular indicator/label/marker/tag
-T56	SO_EXT:sequence_altered_entity_or_alteration_process 6194 6200	mutant
-#56	AnnotationNotes T56	sequence-altered entity or alteration process
-T57	CHEBI_SO_EXT:mRNA 6383 6387	mRNA
-#57	AnnotationNotes T57	mRNA
-T58	SO_EXT:alternative_splice_variant 6388 6403	splice variants
-#58	AnnotationNotes T58	alternative splice variant
-T59	SO_EXT:sequence_altered_entity_or_alteration_process 6408 6414	mutant
-#59	AnnotationNotes T59	sequence-altered entity or alteration process
-T60	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 6481 6491	C-terminal
-#60	AnnotationNotes T60	C-terminus or C-terminal region
-T61	CHEBI_SO_EXT:epitope 6492 6500	epitopes
-#61	AnnotationNotes T61	epitope
-T62	CHEBI_SO_EXT:mRNA 6656 6660	mRNA
-#62	AnnotationNotes T62	mRNA
-T63	SO_EXT:0001060 6661 6669	isoforms
-#63	AnnotationNotes T63	sequence_variant
-T64	SO_EXT:wild_type_entity_or_quality 6673 6682	wild-type
-#64	AnnotationNotes T64	wild-typeness or wild-type entity
-T65	CHEBI_SO_EXT:RNA 6744 6747	RNA
-#65	AnnotationNotes T65	RNA
-T66	SO_EXT:wild_type_entity_or_quality 6762 6771	wild-type
-#66	AnnotationNotes T66	wild-typeness or wild-type entity
-T67	SO_EXT:sequence_altered_entity_or_alteration_process 6879 6885	mutant
-#67	AnnotationNotes T67	sequence-altered entity or alteration process
-T68	SO_EXT:wild_type_entity_or_quality 7021 7030	wild-type
-#68	AnnotationNotes T68	wild-typeness or wild-type entity
-T69	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 7093 7099	marker
-#69	AnnotationNotes T69	molecular indicator/label/marker/tag
-T70	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 7201 7207	marker
-#70	AnnotationNotes T70	molecular indicator/label/marker/tag
-T71	SO_EXT:wild_type_entity_or_quality 7501 7510	wild-type
-#71	AnnotationNotes T71	wild-typeness or wild-type entity
-T72	CHEBI_SO_EXT:mRNA 7667 7671	mRNA
-#72	AnnotationNotes T72	mRNA
-T73	SO_EXT:wild_type_entity_or_quality 7695 7704	wild-type
-#73	AnnotationNotes T73	wild-typeness or wild-type entity
-T74	SO_EXT:0001023 7705 7711	allele
-#74	AnnotationNotes T74	allele
-T75	SO_EXT:sequence_altered_entity_or_alteration_process 7720 7726	mutant
-#75	AnnotationNotes T75	sequence-altered entity or alteration process
-T76	SO_EXT:0001023 7727 7733	allele
-#76	AnnotationNotes T76	allele
-T77	SO_EXT:wild_type_entity_or_quality 7780 7789	wild-type
-#77	AnnotationNotes T77	wild-typeness or wild-type entity
-T78	CHEBI_SO_EXT:mRNA 7840 7844	mRNA
-#78	AnnotationNotes T78	mRNA
-T79	SO_EXT:wild_type_entity_or_quality 7848 7857	wild-type
-#79	AnnotationNotes T79	wild-typeness or wild-type entity
-T80	SO:0001030 7903 7910	forward
-#80	AnnotationNotes T80	forward
-T81	SO_EXT:0000147 7912 7916	Exon
-#81	AnnotationNotes T81	exon
-T82	SO:0001031 7920 7927	reverse
-#82	AnnotationNotes T82	reverse
-T83	SO_EXT:0000006 7931 7943	PCR products
-#83	AnnotationNotes T83	PCR_product
-T84	SO_EXT:wild_type_entity_or_quality 7966 7975	wild-type
-#84	AnnotationNotes T84	wild-typeness or wild-type entity
-T85	SO_EXT:normal_or_wild_type_or_present 7977 7978	+
-#85	AnnotationNotes T85	sequence wild-typeness, normalness or presence
-T86	SO_EXT:normal_or_wild_type_or_present 7979 7980	+
-#86	AnnotationNotes T86	sequence wild-typeness, normalness or presence
-T87	SO_EXT:sequence_altered_entity_or_alteration_process 7996 8002	mutant
-#87	AnnotationNotes T87	sequence-altered entity or alteration process
-T88	CHEBI_SO_EXT:RNA 8039 8042	RNA
-#88	AnnotationNotes T88	RNA
-T89	SO_EXT:0000006 8067 8088	PCR reaction products
-#89	AnnotationNotes T89	PCR_product
-T90	SO_EXT:wild_type_entity_or_quality 8159 8168	Wild-type
-#90	AnnotationNotes T90	wild-typeness or wild-type entity
-T91	SO_EXT:0000006 8172 8183	PCR product
-#91	AnnotationNotes T91	PCR_product
-T92	CHEBI_SO_EXT:base 8203 8204	b
-#92	AnnotationNotes T92	base
-T93	SO_EXT:sequence_altered_entity_or_alteration_process 8214 8220	mutant
-#93	AnnotationNotes T93	sequence-altered entity or alteration process
-T94	CHEBI_SO_EXT:base 8270 8271	b
-#94	AnnotationNotes T94	base
-T95	SO_EXT:sequence_altered_entity_or_alteration_process 8295 8301	mutant
-#95	AnnotationNotes T95	sequence-altered entity or alteration process
-T96	SO_EXT:alternative_splice_variant 8302 8317	splice variants
-#96	AnnotationNotes T96	alternative splice variant
-T97	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 8367 8373	marker
-#97	AnnotationNotes T97	molecular indicator/label/marker/tag
-T98	SO_EXT:wild_type_entity_or_quality 8389 8398	wild-type
-#98	AnnotationNotes T98	wild-typeness or wild-type entity
-T99	SO_EXT:wild_type_entity_or_quality 8478 8487	wild-type
-#99	AnnotationNotes T99	wild-typeness or wild-type entity
-T100	SO_EXT:normal_or_wild_type_or_present 8495 8496	+
-#100	AnnotationNotes T100	sequence wild-typeness, normalness or presence
-T101	SO_EXT:normal_or_wild_type_or_present 8497 8498	+
-#101	AnnotationNotes T101	sequence wild-typeness, normalness or presence
-T102	SO_EXT:sequence_altered_entity_or_alteration_process 8515 8521	mutant
-#102	AnnotationNotes T102	sequence-altered entity or alteration process
-T103	SO_EXT:wild_type_entity_or_quality 9317 9326	Wild-type
-#103	AnnotationNotes T103	wild-typeness or wild-type entity
-T104	SO_EXT:wild_type_entity_or_quality 9488 9497	wild-type
-#104	AnnotationNotes T104	wild-typeness or wild-type entity
-T105	SO_EXT:wild_type_entity_or_quality 9759 9768	wild-type
-#105	AnnotationNotes T105	wild-typeness or wild-type entity
-T106	SO_EXT:wild_type_entity_or_quality 10398 10407	wild-type
-#106	AnnotationNotes T106	wild-typeness or wild-type entity
-T107	SO_EXT:wild_type_entity_or_quality 10597 10606	wild-type
-#107	AnnotationNotes T107	wild-typeness or wild-type entity
-T108	SO_EXT:wild_type_entity_or_quality 10651 10660	Wild-type
-#108	AnnotationNotes T108	wild-typeness or wild-type entity
-T109	SO_EXT:normal_or_wild_type_or_present 10677 10678	+
-#109	AnnotationNotes T109	sequence wild-typeness, normalness or presence
-T110	SO_EXT:normal_or_wild_type_or_present 10679 10680	+
-#110	AnnotationNotes T110	sequence wild-typeness, normalness or presence
-T111	SO_EXT:wild_type_entity_or_quality 11132 11141	wild-type
-#111	AnnotationNotes T111	wild-typeness or wild-type entity
-T112	SO_EXT:normal_or_wild_type_or_present 11143 11144	+
-#112	AnnotationNotes T112	sequence wild-typeness, normalness or presence
-T113	SO_EXT:normal_or_wild_type_or_present 11145 11146	+
-#113	AnnotationNotes T113	sequence wild-typeness, normalness or presence
-T114	SO_EXT:sequence_altered_entity_or_alteration_process 11163 11169	mutant
-#114	AnnotationNotes T114	sequence-altered entity or alteration process
-T115	SO_EXT:wild_type_entity_or_quality 11402 11411	wild-type
-#115	AnnotationNotes T115	wild-typeness or wild-type entity
-T116	SO_EXT:normal_or_wild_type_or_present 11421 11422	+
-#116	AnnotationNotes T116	sequence wild-typeness, normalness or presence
-T117	SO_EXT:normal_or_wild_type_or_present 11423 11424	+
-#117	AnnotationNotes T117	sequence wild-typeness, normalness or presence
-T118	SO_EXT:sequence_alteration_process 11975 11982	process
-#118	AnnotationNotes T118	sequence alteration process
-T119	SO_EXT:sequence_alteration_process 12242 12252	processing
-#119	AnnotationNotes T119	sequence alteration process
-T120	SO_EXT:sequence_alteration_process 12356 12365	processed
-#120	AnnotationNotes T120	sequence alteration process
-T121	SO_EXT:sequence_alteration_process 12370 12379	processed
-#121	AnnotationNotes T121	sequence alteration process
-T122	SO_EXT:0001060 12392 12400	isoforms
-#122	AnnotationNotes T122	sequence_variant
-T123	SO_EXT:wild_type_entity_or_quality 12420 12429	wild-type
-#123	AnnotationNotes T123	wild-typeness or wild-type entity
-T124	SO_EXT:sequence_alteration_process 12570 12580	processing
-#124	AnnotationNotes T124	sequence alteration process
-T125	SO_EXT:wild_type_entity_or_quality 12777 12786	wild-type
-#125	AnnotationNotes T125	wild-typeness or wild-type entity
-T126	SO_EXT:0001060 12920 12928	isoforms
-#126	AnnotationNotes T126	sequence_variant
-T127	SO_EXT:0001060 12952 12960	isoforms
-#127	AnnotationNotes T127	sequence_variant
-T128	SO:0000984 13062 13074	single chain
-#128	AnnotationNotes T128	single
-T129	CHEBI_GO_SO_EXT:enzyme 13087 13093	enzyme
-#129	AnnotationNotes T129	enzyme
-T130	SO:0000985 13129 13141	double-chain
-#130	AnnotationNotes T130	double
-T131	CHEBI_GO_SO_EXT:enzyme 13161 13167	enzyme
-#131	AnnotationNotes T131	enzyme
-T132	SO_EXT:wild_type_entity_or_quality 13338 13347	wild-type
-#132	AnnotationNotes T132	wild-typeness or wild-type entity
-T133	CHEBI_GO_SO_EXT:enzyme 13442 13448	enzyme
-#133	AnnotationNotes T133	enzyme
-T134	SO_EXT:wild_type_entity_or_quality 13557 13566	wild-type
-#134	AnnotationNotes T134	wild-typeness or wild-type entity
-T135	SO_EXT:sequence_alteration_process 13672 13682	processing
-#135	AnnotationNotes T135	sequence alteration process
-T136	SO_EXT:wild_type_entity_or_quality 13686 13695	wild-type
-#136	AnnotationNotes T136	wild-typeness or wild-type entity
-T137	SO_EXT:wild_type_entity_or_quality 13751 13760	wild-type
-#137	AnnotationNotes T137	wild-typeness or wild-type entity
-T138	SO_EXT:sequence_alteration_process 13851 13860	processed
-#138	AnnotationNotes T138	sequence alteration process
-T139	SO_EXT:sequence_alteration_process 13865 13874	processed
-#139	AnnotationNotes T139	sequence alteration process
-T140	SO_EXT:normal_or_wild_type_or_present 13920 13921	+
-#140	AnnotationNotes T140	sequence wild-typeness, normalness or presence
-T141	SO_EXT:normal_or_wild_type_or_present 13922 13923	+
-#141	AnnotationNotes T141	sequence wild-typeness, normalness or presence
-T142	SO_EXT:wild_type_entity_or_quality 14145 14154	wild-type
-#142	AnnotationNotes T142	wild-typeness or wild-type entity
-T143	SO_EXT:normal_or_wild_type_or_present 14161 14162	+
-#143	AnnotationNotes T143	sequence wild-typeness, normalness or presence
-T144	SO_EXT:normal_or_wild_type_or_present 14163 14164	+
-#144	AnnotationNotes T144	sequence wild-typeness, normalness or presence
-T145	SO_EXT:wild_type_entity_or_quality 14237 14246	wild-type
-#145	AnnotationNotes T145	wild-typeness or wild-type entity
-T146	SO_EXT:wild_type_entity_or_quality 14419 14428	wild-type
-#146	AnnotationNotes T146	wild-typeness or wild-type entity
-T147	SO_EXT:wild_type_entity_or_quality 14430 14432	wt
-#147	AnnotationNotes T147	wild-typeness or wild-type entity
-T148	CHEBI_GO_SO_EXT:enzyme 14492 14498	enzyme
-#148	AnnotationNotes T148	enzyme
-T149	SO_EXT:sequence_altered_entity_or_alteration_process 14601 14607	mutant
-#149	AnnotationNotes T149	sequence-altered entity or alteration process
-T150	SO_EXT:sequence_altered_entity_or_alteration_process 14609 14610	m
-#150	AnnotationNotes T150	sequence-altered entity or alteration process
-T151	SO:0000985 14682 14694	double-chain
-#151	AnnotationNotes T151	double
-T152	CHEBI_GO_SO_EXT:enzyme 14707 14713	enzyme
-#152	AnnotationNotes T152	enzyme
-T153	SO:0000984 14739 14751	single-chain
-#153	AnnotationNotes T153	single
-T154	CHEBI_GO_SO_EXT:enzyme 14759 14765	enzyme
-#154	AnnotationNotes T154	enzyme
-T155	SO_EXT:sequence_alteration_process 14806 14816	processing
-#155	AnnotationNotes T155	sequence alteration process
-T156	CHEBI_GO_SO_EXT:enzyme 14820 14829	enzymatic
-#156	AnnotationNotes T156	enzyme
-T157	CHEBI_GO_SO_EXT:enzyme 14879 14888	enzymatic
-#157	AnnotationNotes T157	enzyme
-T158	SO_EXT:wild_type_entity_or_quality 15127 15136	wild-type
-#158	AnnotationNotes T158	wild-typeness or wild-type entity
-T159	CHEBI_GO_SO_EXT:enzyme 15222 15231	enzymatic
-#159	AnnotationNotes T159	enzyme
-T160	SO_EXT:sequence_altered_entity_or_alteration_process 15244 15250	mutant
-#160	AnnotationNotes T160	sequence-altered entity or alteration process
-T161	SO_EXT:sequence_alteration_process 15303 15313	processing
-#161	AnnotationNotes T161	sequence alteration process
-T162	CHEBI_GO_SO_EXT:enzyme 15383 15392	enzymatic
-#162	AnnotationNotes T162	enzyme
-T163	SO_EXT:sequence_alteration_process 15532 15542	processing
-#163	AnnotationNotes T163	sequence alteration process
-T164	SO_EXT:wild_type_entity_or_quality 15837 15846	wild-type
-#164	AnnotationNotes T164	wild-typeness or wild-type entity
-T165	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 15863 15870	labeled
-#165	AnnotationNotes T165	molecular label/mark/tag process
-T166	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 15891 15898	markers
-#166	AnnotationNotes T166	molecular indicator/label/marker/tag
-T167	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 15995 16002	markers
-#167	AnnotationNotes T167	molecular indicator/label/marker/tag
-T168	SO_EXT:wild_type_entity_or_quality 16101 16110	wild-type
-#168	AnnotationNotes T168	wild-typeness or wild-type entity
-T169	SO_EXT:wild_type_entity_or_quality 16118 16127	Wild-type
-#169	AnnotationNotes T169	wild-typeness or wild-type entity
-T170	SO_EXT:wild_type_entity_or_quality 16514 16523	wild-type
-#170	AnnotationNotes T170	wild-typeness or wild-type entity
-T171	CHEBI_SO_EXT:epitope 16679 16686	epitope
-#171	AnnotationNotes T171	epitope
-T172	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 16860 16868	labeling
-#172	AnnotationNotes T172	molecular label/mark/tag process
-T173	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 16995 17003	labeling
-#173	AnnotationNotes T173	molecular label/mark/tag process
-T174	SO_EXT:wild_type_entity_or_quality 17007 17016	wild-type
-#174	AnnotationNotes T174	wild-typeness or wild-type entity
-T175	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 17065 17073	labeling
-#175	AnnotationNotes T175	molecular label/mark/tag process
-T176	SO_EXT:wild_type_entity_or_quality 17077 17086	wild-type
-#176	AnnotationNotes T176	wild-typeness or wild-type entity
-T177	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 17207 17214	labeled
-#177	AnnotationNotes T177	molecular label/mark/tag process
-T178	SO_EXT:wild_type_entity_or_quality 17298 17307	wild-type
-#178	AnnotationNotes T178	wild-typeness or wild-type entity
-T179	SO_EXT:normal_or_wild_type_or_present 17321 17322	+
-#179	AnnotationNotes T179	sequence wild-typeness, normalness or presence
-T180	SO_EXT:normal_or_wild_type_or_present 17323 17324	+
-#180	AnnotationNotes T180	sequence wild-typeness, normalness or presence
-T181	SO_EXT:sequence_altered_entity_or_alteration_process 17384 17390	mutant
-#181	AnnotationNotes T181	sequence-altered entity or alteration process
-T182	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 17433 17440	labeled
-#182	AnnotationNotes T182	molecular label/mark/tag process
-T183	SO_EXT:wild_type_entity_or_quality 17722 17731	Wild-type
-#183	AnnotationNotes T183	wild-typeness or wild-type entity
-T184	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 17888 17894	marker
-#184	AnnotationNotes T184	molecular indicator/label/marker/tag
-T185	SO_EXT:wild_type_entity_or_quality 18133 18142	wild-type
-#185	AnnotationNotes T185	wild-typeness or wild-type entity
-T186	SO_EXT:wild_type_entity_or_quality 18467 18476	wild-type
-#186	AnnotationNotes T186	wild-typeness or wild-type entity
-T187	SO_EXT:wild_type_entity_or_quality 18548 18557	wild-type
-#187	AnnotationNotes T187	wild-typeness or wild-type entity
-T188	SO_EXT:wild_type_entity_or_quality 18629 18638	wild-type
-#188	AnnotationNotes T188	wild-typeness or wild-type entity
-T189	SO_EXT:normal_or_wild_type_or_present 18646 18647	+
-#189	AnnotationNotes T189	sequence wild-typeness, normalness or presence
-T190	SO_EXT:normal_or_wild_type_or_present 18648 18649	+
-#190	AnnotationNotes T190	sequence wild-typeness, normalness or presence
-T191	SO_EXT:normal_or_wild_type_or_present 18687 18688	+
-#191	AnnotationNotes T191	sequence wild-typeness, normalness or presence
-T192	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 18731 18736	label
-#192	AnnotationNotes T192	molecular indicator/label/marker/tag
-T193	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 18810 18817	labeled
-#193	AnnotationNotes T193	molecular label/mark/tag process
-T194	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 18884 18889	label
-#194	AnnotationNotes T194	molecular indicator/label/marker/tag
-T195	SO_EXT:sequence_altered_entity_or_alteration_process 18904 18910	mutant
-#195	AnnotationNotes T195	sequence-altered entity or alteration process
-T196	SO_EXT:wild_type_entity_or_quality 19429 19438	wild-type
-#196	AnnotationNotes T196	wild-typeness or wild-type entity
-T197	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 19542 19548	marker
-#197	AnnotationNotes T197	molecular indicator/label/marker/tag
-T198	SO_EXT:sequence_altered_entity_or_alteration_process 19610 19616	mutant
-#198	AnnotationNotes T198	sequence-altered entity or alteration process
-T199	SO_EXT:wild_type_entity_or_quality 19707 19716	wild-type
-#199	AnnotationNotes T199	wild-typeness or wild-type entity
-T200	SO_EXT:wild_type_entity_or_quality 19895 19904	wild-type
-#200	AnnotationNotes T200	wild-typeness or wild-type entity
-T201	SO_EXT:wild_type_entity_or_quality 20107 20116	wild-type
-#201	AnnotationNotes T201	wild-typeness or wild-type entity
-T202	SO_EXT:wild_type_entity_or_quality 20359 20368	wild-type
-#202	AnnotationNotes T202	wild-typeness or wild-type entity
-T203	SO_EXT:wild_type_entity_or_quality 20452 20461	wild-type
-#203	AnnotationNotes T203	wild-typeness or wild-type entity
-T204	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 20579 20585	marker
-#204	AnnotationNotes T204	molecular indicator/label/marker/tag
-T205	SO_EXT:sequence_altered_entity_or_alteration_process 20655 20661	mutant
-#205	AnnotationNotes T205	sequence-altered entity or alteration process
-T206	SO_EXT:wild_type_entity_or_quality 20703 20712	wild-type
-#206	AnnotationNotes T206	wild-typeness or wild-type entity
-T207	SO_EXT:normal_or_wild_type_or_present 20733 20734	+
-#207	AnnotationNotes T207	sequence wild-typeness, normalness or presence
-T208	SO_EXT:normal_or_wild_type_or_present 20735 20736	+
-#208	AnnotationNotes T208	sequence wild-typeness, normalness or presence
-T209	SO_EXT:wild_type_entity_or_quality 20814 20823	wild-type
-#209	AnnotationNotes T209	wild-typeness or wild-type entity
-T210	SO_EXT:wild_type_entity_or_quality 20962 20971	wild-type
-#210	AnnotationNotes T210	wild-typeness or wild-type entity
-T211	SO_EXT:wild_type_entity_or_quality 21041 21050	Wild-type
-#211	AnnotationNotes T211	wild-typeness or wild-type entity
-T212	SO_EXT:wild_type_entity_or_quality 21293 21302	Wild-type
-#212	AnnotationNotes T212	wild-typeness or wild-type entity
-T213	SO_EXT:wild_type_entity_or_quality 21676 21685	Wild-type
-#213	AnnotationNotes T213	wild-typeness or wild-type entity
-T214	SO_EXT:0000704 22036 22047	genetically
-#214	AnnotationNotes T214	gene
-T215	SO_EXT:sequence_altered_entity_or_alteration_process 22133 22139	mutant
-#215	AnnotationNotes T215	sequence-altered entity or alteration process
-T216	SO_EXT:sequence_alteration_process 22615 22625	processing
-#216	AnnotationNotes T216	sequence alteration process
-T217	SO_EXT:sequence_alteration_process 22783 22793	processing
-#217	AnnotationNotes T217	sequence alteration process
-T218	SO_EXT:sequence_alteration_process 22885 22895	processing
-#218	AnnotationNotes T218	sequence alteration process
-T219	SO_EXT:sequence_coding_function 23008 23015	encoded
-#219	AnnotationNotes T219	sequence coding function
-T220	CHEBI_GO_SO_EXT:enzyme 23016 23022	enzyme
-#220	AnnotationNotes T220	enzyme
-T221	SO_EXT:sequence_alteration_process 23039 23046	altered
-#221	AnnotationNotes T221	sequence alteration process
-T222	SO_EXT:sequence_alteration_entity_or_process 23110 23121	alterations
-#222	AnnotationNotes T222	sequence alteration entity or process
-T223	CHEBI_GO_SO_EXT:enzyme 23186 23195	enzymatic
-#223	AnnotationNotes T223	enzyme
-T224	SO_EXT:sequence_alteration_process 24385 24395	processing
-#224	AnnotationNotes T224	sequence alteration process
-T225	SO_EXT:wild_type_entity_or_quality 24427 24436	wild-type
-#225	AnnotationNotes T225	wild-typeness or wild-type entity
-T226	SO_EXT:sequence_altered_entity_or_alteration_process 24646 24652	mutant
-#226	AnnotationNotes T226	sequence-altered entity or alteration process
-T227	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 24693 24700	markers
-#227	AnnotationNotes T227	molecular indicator/label/marker/tag
-T228	SO_EXT:sequence_altered_entity_or_alteration_process 24712 24718	mutant
-#228	AnnotationNotes T228	sequence-altered entity or alteration process
-T229	CHEBI_SO_EXT:C_terminus_or_C_terminal_region 24741 24751	C-terminal
-#229	AnnotationNotes T229	C-terminus or C-terminal region
-T230	CHEBI_SO_EXT:epitope 24752 24760	epitopes
-#230	AnnotationNotes T230	epitope
-T231	SO_EXT:wild_type_entity_or_quality 24786 24795	wild-type
-#231	AnnotationNotes T231	wild-typeness or wild-type entity
-T232	SO_EXT:wild_type_entity_or_quality 25679 25688	wild-type
-#232	AnnotationNotes T232	wild-typeness or wild-type entity
-T233	SO_EXT:sequence_cloned_entity 25896 25901	clone
-#233	AnnotationNotes T233	sequence-cloned entity
-T234	SO_EXT:sequence_cloned_entity 25929 25934	clone
-#234	AnnotationNotes T234	sequence-cloned entity
-T235	SO_EXT:sequence_cloned_entity 25963 25968	clone
-#235	AnnotationNotes T235	sequence-cloned entity
-T236	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 27060 27067	markers
-#236	AnnotationNotes T236	molecular indicator/label/marker/tag
-T237	CHEBI_SO_EXT:molecular_probe 27205 27211	Probes
-#237	AnnotationNotes T237	molecular probe
-T238	SO_EXT:genomic_DNA 27713 27724	genomic DNA
-#238	AnnotationNotes T238	genomic DNA
-T239	SO_EXT:genotype_or_entity_with_genotype 27739 27748	genotypic
-#239	AnnotationNotes T239	genotype or entity with genotype
-T240	SO_EXT:0005853 28370 28378	cassette
-#240	AnnotationNotes T240	gene_cassette
-T241	SO_EXT:sequence_cloned_entity 28735 28741	clonal
-#241	AnnotationNotes T241	sequence-cloned entity
-T242	SO_EXT:genotype_or_entity_with_genotype 28771 28779	genotype
-#242	AnnotationNotes T242	genotype or entity with genotype
-T243	SO_EXT:genomic_DNA 29267 29278	Genomic DNA
-#243	AnnotationNotes T243	genomic DNA
-T244	SO_EXT:0001023 29385 29391	allele
-#244	AnnotationNotes T244	allele
-T245	SO_EXT:wild_type_entity_or_quality 29416 29425	wild-type
-#245	AnnotationNotes T245	wild-typeness or wild-type entity
-T246	SO_EXT:0000112 29426 29433	primers
-#246	AnnotationNotes T246	primer
-T247	SO_EXT:0000028 29523 29525	bp
-#247	AnnotationNotes T247	base_pair
-T248	SO_EXT:0000112 29544 29551	primers
-#248	AnnotationNotes T248	primer
-T249	SO_EXT:0000028 29645 29647	bp
-#249	AnnotationNotes T249	base_pair
-T250	CHEBI_SO_EXT:RNA 29779 29782	RNA
-#250	AnnotationNotes T250	RNA
-T251	SO_EXT:0000112 29809 29816	primers
-#251	AnnotationNotes T251	primer
-T252	CHEBI_SO_EXT:molecular_indicator_or_label_or_marker_or_tag 30879 30884	label
-#252	AnnotationNotes T252	molecular indicator/label/marker/tag
-T253	CHEBI_SO_EXT:glycine 31413 31420	glycine
-#253	AnnotationNotes T253	glycine
-T254	SO_EXT:wild_type_entity_or_quality 31969 31978	wild-type
-#254	AnnotationNotes T254	wild-typeness or wild-type entity
-T255	SO_EXT:sequence_altered_entity_or_alteration_process 31983 31989	mutant
-#255	AnnotationNotes T255	sequence-altered entity or alteration process
-T256	SO_EXT:wild_type_entity_or_quality 32022 32031	wild-type
-#256	AnnotationNotes T256	wild-typeness or wild-type entity
-T257	SO_EXT:sequence_altered_entity_or_alteration_process 32036 32042	mutant
-#257	AnnotationNotes T257	sequence-altered entity or alteration process
-T258	CHEBI_SO_EXT:molecular_label_or_mark_or_tag_process 34083 34091	labeling
-#258	AnnotationNotes T258	molecular label/mark/tag process
-T259	SO_EXT:genotype_or_entity_with_genotype 36442 36451	genotypic
-#259	AnnotationNotes T259	genotype or entity with genotype
+T0	CHEBI_SO_EXT_base 280 281	b
+T1	SO_EXT_sequence_alteration_entity_or_process 287 295	mutation
+T2	SO_EXT_sequence_alteration_entity_or_process 516 524	mutation
+T3	SO_EXT_sequence_altered_entity_or_alteration_process 534 540	mutant
+T4	SO_EXT_sequence_alteration_entity_or_process 642 650	mutation
+T5	SO_EXT_wild_type_entity_or_quality 753 762	wild-type
+T6	SO_EXT_sequence_altered_entity_or_alteration_process 963 969	mutant
+T7	SO_EXT_sequence_alteration_process 1128 1138	processing
+T8	CHEBI_GO_SO_EXT_enzyme 1161 1167	enzyme
+T9	SO_EXT_0000704 1945 1952	genetic
+T10	GO_SO_EXT_chromosome 1974 1985	chromosomes
+T11	CHEBI_SO_EXT_base 2014 2015	b
+T12	SO_EXT_genomic_DNA 2016 2027	genomic DNA
+T13	SO_EXT_sequence_deletion_entity_or_process 2028 2036	deletion
+T14	SO_EXT_0000704 2049 2053	gene
+T15	SO_EXT_0000147 2072 2077	exons
+T16	SO_EXT_0000188 2102 2110	intronic
+T17	CHEBI_SO_EXT_DNA 2111 2114	DNA
+T18	SO_EXT_sequence_coding_function 2657 2664	encoded
+T19	SO_EXT_biological_conservation_process_or_quality 2724 2733	conserved
+T20	SO_EXT_0000855 2947 2955	ortholog
+T21	CHEBI_SO_EXT_amino_acid 3014 3024	amino acid
+T22	SO_EXT_0000704 3123 3134	genetically
+T23	CHEBI_SO_EXT_base 3201 3202	b
+T24	SO_EXT_sequence_alteration_entity_or_process 3215 3223	mutation
+T25	SO_EXT_sequence_truncation_process 3242 3251	truncated
+T26	SO_EXT_sequence_altered_entity_or_alteration_process 3252 3258	mutant
+T27	SO_EXT_0001060 3268 3275	isoform
+T28	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 3323 3333	C-terminal
+T29	CHEBI_SO_EXT_epitope 3334 3342	epitopes
+T30	SO_EXT_sequence_alteration_entity_or_process 3813 3821	mutation
+T31	SO_EXT_sequence_altered_entity_or_alteration_process 4145 4151	mutant
+T32	SO_EXT_0000704 4198 4209	genetically
+T33	SO_EXT_0000704 4268 4275	genetic
+T34	SO_EXT_wild_type_entity_or_quality 4456 4465	wild-type
+T35	SO_EXT_0000440 4562 4568	vector
+T36	SO_EXT_0005853 4589 4597	cassette
+T37	SO_EXT_sequence_cloned_entity 4770 4776	clonal
+T38	SO_EXT_genotype_or_entity_with_genotype 4853 4861	genotype
+T39	SO_EXT_genotype_or_entity_with_genotype 4866 4874	genotype
+T40	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 5398 5404	marker
+T41	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 5447 5453	marker
+T42	SO_EXT_normal_or_wild_type_or_present 5474 5475	+
+T43	SO_EXT_normal_or_wild_type_or_present 5476 5477	+
+T44	SO_EXT_normal_or_wild_type_or_present 5510 5511	+
+T45	SO_EXT_normal_or_wild_type_or_present 5512 5513	+
+T46	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 5547 5553	marker
+T47	SO_EXT_normal_or_wild_type_or_present 5581 5582	+
+T48	SO_EXT_normal_or_wild_type_or_present 5583 5584	+
+T49	SO_EXT_normal_or_wild_type_or_present 5772 5773	+
+T50	SO_EXT_normal_or_wild_type_or_present 5774 5775	+
+T51	SO_EXT_normal_or_wild_type_or_present 5926 5927	+
+T52	SO_EXT_normal_or_wild_type_or_present 5928 5929	+
+T53	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 5973 5979	marker
+T54	SO_EXT_normal_or_wild_type_or_present 6001 6002	+
+T55	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 6065 6071	marker
+T56	SO_EXT_sequence_altered_entity_or_alteration_process 6194 6200	mutant
+T57	CHEBI_SO_EXT_mRNA 6383 6387	mRNA
+T58	SO_EXT_alternative_splice_variant 6388 6403	splice variants
+T59	SO_EXT_sequence_altered_entity_or_alteration_process 6408 6414	mutant
+T60	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 6481 6491	C-terminal
+T61	CHEBI_SO_EXT_epitope 6492 6500	epitopes
+T62	CHEBI_SO_EXT_mRNA 6656 6660	mRNA
+T63	SO_EXT_0001060 6661 6669	isoforms
+T64	SO_EXT_wild_type_entity_or_quality 6673 6682	wild-type
+T65	CHEBI_SO_EXT_RNA 6744 6747	RNA
+T66	SO_EXT_wild_type_entity_or_quality 6762 6771	wild-type
+T67	SO_EXT_sequence_altered_entity_or_alteration_process 6879 6885	mutant
+T68	SO_EXT_wild_type_entity_or_quality 7021 7030	wild-type
+T69	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 7093 7099	marker
+T70	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 7201 7207	marker
+T71	SO_EXT_wild_type_entity_or_quality 7501 7510	wild-type
+T72	CHEBI_SO_EXT_mRNA 7667 7671	mRNA
+T73	SO_EXT_wild_type_entity_or_quality 7695 7704	wild-type
+T74	SO_EXT_0001023 7705 7711	allele
+T75	SO_EXT_sequence_altered_entity_or_alteration_process 7720 7726	mutant
+T76	SO_EXT_0001023 7727 7733	allele
+T77	SO_EXT_wild_type_entity_or_quality 7780 7789	wild-type
+T78	CHEBI_SO_EXT_mRNA 7840 7844	mRNA
+T79	SO_EXT_wild_type_entity_or_quality 7848 7857	wild-type
+T80	SO_0001030 7903 7910	forward
+T81	SO_EXT_0000147 7912 7916	Exon
+T82	SO_0001031 7920 7927	reverse
+T83	SO_EXT_0000006 7931 7943	PCR products
+T84	SO_EXT_wild_type_entity_or_quality 7966 7975	wild-type
+T85	SO_EXT_normal_or_wild_type_or_present 7977 7978	+
+T86	SO_EXT_normal_or_wild_type_or_present 7979 7980	+
+T87	SO_EXT_sequence_altered_entity_or_alteration_process 7996 8002	mutant
+T88	CHEBI_SO_EXT_RNA 8039 8042	RNA
+T89	SO_EXT_0000006 8067 8088	PCR reaction products
+T90	SO_EXT_wild_type_entity_or_quality 8159 8168	Wild-type
+T91	SO_EXT_0000006 8172 8183	PCR product
+T92	CHEBI_SO_EXT_base 8203 8204	b
+T93	SO_EXT_sequence_altered_entity_or_alteration_process 8214 8220	mutant
+T94	CHEBI_SO_EXT_base 8270 8271	b
+T95	SO_EXT_sequence_altered_entity_or_alteration_process 8295 8301	mutant
+T96	SO_EXT_alternative_splice_variant 8302 8317	splice variants
+T97	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 8367 8373	marker
+T98	SO_EXT_wild_type_entity_or_quality 8389 8398	wild-type
+T99	SO_EXT_wild_type_entity_or_quality 8478 8487	wild-type
+T100	SO_EXT_normal_or_wild_type_or_present 8495 8496	+
+T101	SO_EXT_normal_or_wild_type_or_present 8497 8498	+
+T102	SO_EXT_sequence_altered_entity_or_alteration_process 8515 8521	mutant
+T103	SO_EXT_wild_type_entity_or_quality 9317 9326	Wild-type
+T104	SO_EXT_wild_type_entity_or_quality 9488 9497	wild-type
+T105	SO_EXT_wild_type_entity_or_quality 9759 9768	wild-type
+T106	SO_EXT_wild_type_entity_or_quality 10398 10407	wild-type
+T107	SO_EXT_wild_type_entity_or_quality 10597 10606	wild-type
+T108	SO_EXT_wild_type_entity_or_quality 10651 10660	Wild-type
+T109	SO_EXT_normal_or_wild_type_or_present 10677 10678	+
+T110	SO_EXT_normal_or_wild_type_or_present 10679 10680	+
+T111	SO_EXT_wild_type_entity_or_quality 11132 11141	wild-type
+T112	SO_EXT_normal_or_wild_type_or_present 11143 11144	+
+T113	SO_EXT_normal_or_wild_type_or_present 11145 11146	+
+T114	SO_EXT_sequence_altered_entity_or_alteration_process 11163 11169	mutant
+T115	SO_EXT_wild_type_entity_or_quality 11402 11411	wild-type
+T116	SO_EXT_normal_or_wild_type_or_present 11421 11422	+
+T117	SO_EXT_normal_or_wild_type_or_present 11423 11424	+
+T118	SO_EXT_sequence_alteration_process 11975 11982	process
+T119	SO_EXT_sequence_alteration_process 12242 12252	processing
+T120	SO_EXT_sequence_alteration_process 12356 12365	processed
+T121	SO_EXT_sequence_alteration_process 12370 12379	processed
+T122	SO_EXT_0001060 12392 12400	isoforms
+T123	SO_EXT_wild_type_entity_or_quality 12420 12429	wild-type
+T124	SO_EXT_sequence_alteration_process 12570 12580	processing
+T125	SO_EXT_wild_type_entity_or_quality 12777 12786	wild-type
+T126	SO_EXT_0001060 12920 12928	isoforms
+T127	SO_EXT_0001060 12952 12960	isoforms
+T128	SO_0000984 13062 13074	single chain
+T129	CHEBI_GO_SO_EXT_enzyme 13087 13093	enzyme
+T130	SO_0000985 13129 13141	double-chain
+T131	CHEBI_GO_SO_EXT_enzyme 13161 13167	enzyme
+T132	SO_EXT_wild_type_entity_or_quality 13338 13347	wild-type
+T133	CHEBI_GO_SO_EXT_enzyme 13442 13448	enzyme
+T134	SO_EXT_wild_type_entity_or_quality 13557 13566	wild-type
+T135	SO_EXT_sequence_alteration_process 13672 13682	processing
+T136	SO_EXT_wild_type_entity_or_quality 13686 13695	wild-type
+T137	SO_EXT_wild_type_entity_or_quality 13751 13760	wild-type
+T138	SO_EXT_sequence_alteration_process 13851 13860	processed
+T139	SO_EXT_sequence_alteration_process 13865 13874	processed
+T140	SO_EXT_normal_or_wild_type_or_present 13920 13921	+
+T141	SO_EXT_normal_or_wild_type_or_present 13922 13923	+
+T142	SO_EXT_wild_type_entity_or_quality 14145 14154	wild-type
+T143	SO_EXT_normal_or_wild_type_or_present 14161 14162	+
+T144	SO_EXT_normal_or_wild_type_or_present 14163 14164	+
+T145	SO_EXT_wild_type_entity_or_quality 14237 14246	wild-type
+T146	SO_EXT_wild_type_entity_or_quality 14419 14428	wild-type
+T147	SO_EXT_wild_type_entity_or_quality 14430 14432	wt
+T148	CHEBI_GO_SO_EXT_enzyme 14492 14498	enzyme
+T149	SO_EXT_sequence_altered_entity_or_alteration_process 14601 14607	mutant
+T150	SO_EXT_sequence_altered_entity_or_alteration_process 14609 14610	m
+T151	SO_0000985 14682 14694	double-chain
+T152	CHEBI_GO_SO_EXT_enzyme 14707 14713	enzyme
+T153	SO_0000984 14739 14751	single-chain
+T154	CHEBI_GO_SO_EXT_enzyme 14759 14765	enzyme
+T155	SO_EXT_sequence_alteration_process 14806 14816	processing
+T156	CHEBI_GO_SO_EXT_enzyme 14820 14829	enzymatic
+T157	CHEBI_GO_SO_EXT_enzyme 14879 14888	enzymatic
+T158	SO_EXT_wild_type_entity_or_quality 15127 15136	wild-type
+T159	CHEBI_GO_SO_EXT_enzyme 15222 15231	enzymatic
+T160	SO_EXT_sequence_altered_entity_or_alteration_process 15244 15250	mutant
+T161	SO_EXT_sequence_alteration_process 15303 15313	processing
+T162	CHEBI_GO_SO_EXT_enzyme 15383 15392	enzymatic
+T163	SO_EXT_sequence_alteration_process 15532 15542	processing
+T164	SO_EXT_wild_type_entity_or_quality 15837 15846	wild-type
+T165	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 15863 15870	labeled
+T166	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 15891 15898	markers
+T167	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 15995 16002	markers
+T168	SO_EXT_wild_type_entity_or_quality 16101 16110	wild-type
+T169	SO_EXT_wild_type_entity_or_quality 16118 16127	Wild-type
+T170	SO_EXT_wild_type_entity_or_quality 16514 16523	wild-type
+T171	CHEBI_SO_EXT_epitope 16679 16686	epitope
+T172	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 16860 16868	labeling
+T173	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 16995 17003	labeling
+T174	SO_EXT_wild_type_entity_or_quality 17007 17016	wild-type
+T175	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 17065 17073	labeling
+T176	SO_EXT_wild_type_entity_or_quality 17077 17086	wild-type
+T177	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 17207 17214	labeled
+T178	SO_EXT_wild_type_entity_or_quality 17298 17307	wild-type
+T179	SO_EXT_normal_or_wild_type_or_present 17321 17322	+
+T180	SO_EXT_normal_or_wild_type_or_present 17323 17324	+
+T181	SO_EXT_sequence_altered_entity_or_alteration_process 17384 17390	mutant
+T182	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 17433 17440	labeled
+T183	SO_EXT_wild_type_entity_or_quality 17722 17731	Wild-type
+T184	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 17888 17894	marker
+T185	SO_EXT_wild_type_entity_or_quality 18133 18142	wild-type
+T186	SO_EXT_wild_type_entity_or_quality 18467 18476	wild-type
+T187	SO_EXT_wild_type_entity_or_quality 18548 18557	wild-type
+T188	SO_EXT_wild_type_entity_or_quality 18629 18638	wild-type
+T189	SO_EXT_normal_or_wild_type_or_present 18646 18647	+
+T190	SO_EXT_normal_or_wild_type_or_present 18648 18649	+
+T191	SO_EXT_normal_or_wild_type_or_present 18687 18688	+
+T192	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 18731 18736	label
+T193	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 18810 18817	labeled
+T194	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 18884 18889	label
+T195	SO_EXT_sequence_altered_entity_or_alteration_process 18904 18910	mutant
+T196	SO_EXT_wild_type_entity_or_quality 19429 19438	wild-type
+T197	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 19542 19548	marker
+T198	SO_EXT_sequence_altered_entity_or_alteration_process 19610 19616	mutant
+T199	SO_EXT_wild_type_entity_or_quality 19707 19716	wild-type
+T200	SO_EXT_wild_type_entity_or_quality 19895 19904	wild-type
+T201	SO_EXT_wild_type_entity_or_quality 20107 20116	wild-type
+T202	SO_EXT_wild_type_entity_or_quality 20359 20368	wild-type
+T203	SO_EXT_wild_type_entity_or_quality 20452 20461	wild-type
+T204	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 20579 20585	marker
+T205	SO_EXT_sequence_altered_entity_or_alteration_process 20655 20661	mutant
+T206	SO_EXT_wild_type_entity_or_quality 20703 20712	wild-type
+T207	SO_EXT_normal_or_wild_type_or_present 20733 20734	+
+T208	SO_EXT_normal_or_wild_type_or_present 20735 20736	+
+T209	SO_EXT_wild_type_entity_or_quality 20814 20823	wild-type
+T210	SO_EXT_wild_type_entity_or_quality 20962 20971	wild-type
+T211	SO_EXT_wild_type_entity_or_quality 21041 21050	Wild-type
+T212	SO_EXT_wild_type_entity_or_quality 21293 21302	Wild-type
+T213	SO_EXT_wild_type_entity_or_quality 21676 21685	Wild-type
+T214	SO_EXT_0000704 22036 22047	genetically
+T215	SO_EXT_sequence_altered_entity_or_alteration_process 22133 22139	mutant
+T216	SO_EXT_sequence_alteration_process 22615 22625	processing
+T217	SO_EXT_sequence_alteration_process 22783 22793	processing
+T218	SO_EXT_sequence_alteration_process 22885 22895	processing
+T219	SO_EXT_sequence_coding_function 23008 23015	encoded
+T220	CHEBI_GO_SO_EXT_enzyme 23016 23022	enzyme
+T221	SO_EXT_sequence_alteration_process 23039 23046	altered
+T222	SO_EXT_sequence_alteration_entity_or_process 23110 23121	alterations
+T223	CHEBI_GO_SO_EXT_enzyme 23186 23195	enzymatic
+T224	SO_EXT_sequence_alteration_process 24385 24395	processing
+T225	SO_EXT_wild_type_entity_or_quality 24427 24436	wild-type
+T226	SO_EXT_sequence_altered_entity_or_alteration_process 24646 24652	mutant
+T227	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 24693 24700	markers
+T228	SO_EXT_sequence_altered_entity_or_alteration_process 24712 24718	mutant
+T229	CHEBI_SO_EXT_C_terminus_or_C_terminal_region 24741 24751	C-terminal
+T230	CHEBI_SO_EXT_epitope 24752 24760	epitopes
+T231	SO_EXT_wild_type_entity_or_quality 24786 24795	wild-type
+T232	SO_EXT_wild_type_entity_or_quality 25679 25688	wild-type
+T233	SO_EXT_sequence_cloned_entity 25896 25901	clone
+T234	SO_EXT_sequence_cloned_entity 25929 25934	clone
+T235	SO_EXT_sequence_cloned_entity 25963 25968	clone
+T236	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 27060 27067	markers
+T237	CHEBI_SO_EXT_molecular_probe 27205 27211	Probes
+T238	SO_EXT_genomic_DNA 27713 27724	genomic DNA
+T239	SO_EXT_genotype_or_entity_with_genotype 27739 27748	genotypic
+T240	SO_EXT_0005853 28370 28378	cassette
+T241	SO_EXT_sequence_cloned_entity 28735 28741	clonal
+T242	SO_EXT_genotype_or_entity_with_genotype 28771 28779	genotype
+T243	SO_EXT_genomic_DNA 29267 29278	Genomic DNA
+T244	SO_EXT_0001023 29385 29391	allele
+T245	SO_EXT_wild_type_entity_or_quality 29416 29425	wild-type
+T246	SO_EXT_0000112 29426 29433	primers
+T247	SO_EXT_0000028 29523 29525	bp
+T248	SO_EXT_0000112 29544 29551	primers
+T249	SO_EXT_0000028 29645 29647	bp
+T250	CHEBI_SO_EXT_RNA 29779 29782	RNA
+T251	SO_EXT_0000112 29809 29816	primers
+T252	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 30879 30884	label
+T253	CHEBI_SO_EXT_glycine 31413 31420	glycine
+T254	SO_EXT_wild_type_entity_or_quality 31969 31978	wild-type
+T255	SO_EXT_sequence_altered_entity_or_alteration_process 31983 31989	mutant
+T256	SO_EXT_wild_type_entity_or_quality 32022 32031	wild-type
+T257	SO_EXT_sequence_altered_entity_or_alteration_process 32036 32042	mutant
+T258	CHEBI_SO_EXT_molecular_label_or_mark_or_tag_process 34083 34091	labeling
+T259	SO_EXT_genotype_or_entity_with_genotype 36442 36451	genotypic

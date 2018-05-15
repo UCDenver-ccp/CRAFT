@@ -1,498 +1,260 @@
-T0	GO:0007067 126 133	mitosis
-#0	AnnotationNotes T0	mitotic nuclear division
-T1	GO:0065007 208 216	regulate
-#1	AnnotationNotes T1	biological regulation
-T2	GO:0016070 236 250	RNA metabolism
-#2	AnnotationNotes T2	RNA metabolic process
-T3	GO_PATO_EXT:physiological_process_or_quality 265 276	physiologic
-#3	AnnotationNotes T3	physiological process or quality
-T4	GO_SO_EXT:sequence_rearrangement_process 369 382	recombination
-#4	AnnotationNotes T4	sequence rearrangement process
-T5	GO_PATO_EXT:aging_or_agedness 384 388	Aged
-#5	AnnotationNotes T5	aging or agedess
-T6	GO_RO_EXT:developmental_differentiation_process 731 746	differentiation
-#6	AnnotationNotes T6	developmental differentiation process
-T7	GO:0001503 765 775	osteogenic
-#7	AnnotationNotes T7	ossification
-T8	GO:0010467 941 951	expression
-#8	AnnotationNotes T8	gene expression
-T9	GO_RO_EXT:developmental_differentiation_process 1001 1016	differentiation
-#9	AnnotationNotes T9	developmental differentiation process
-T10	GO:0060349 1034 1052	bone morphogenetic
-#10	AnnotationNotes T10	bone morphogenesis
-T11	GO_RO_EXT:developmental_differentiation_process 1166 1179	differentiate
-#11	AnnotationNotes T11	developmental differentiation process
-T12	GO_RO_EXT:developmental_differentiation_process 1315 1330	differentiation
-#12	AnnotationNotes T12	developmental differentiation process
-T13	GO_EXT:positive_regulator 1588 1606	positive regulator
-#13	AnnotationNotes T13	positive regulator
-T14	GO_RO_EXT:developmental_differentiation_process 1620 1635	differentiation
-#14	AnnotationNotes T14	developmental differentiation process
-T15	GO_EXT:negative_regulator 1642 1660	negative regulator
-#15	AnnotationNotes T15	negative regulator
-T16	GO_RO_EXT:developmental_differentiation_process 1675 1690	differentiation
-#16	AnnotationNotes T16	developmental differentiation process
-T17	GO_EXT:regulator 1731 1740	modulator
-#17	AnnotationNotes T17	regulator
-T18	GO:0030154 1768 1788	cell differentiation
-#18	AnnotationNotes T18	cell differentiation
-T19	GO:0008152 1805 1815	metabolism
-#19	AnnotationNotes T19	metabolic process
-T20	GO_PATO_EXT:aging_or_agedness 1820 1824	aged
-#20	AnnotationNotes T20	aging or agedess
-T21	GO_PATO_EXT:physiological_process_or_quality 2280 2291	physiologic
-#21	AnnotationNotes T21	physiological process or quality
-T22	GO:0007568 2371 2376	aging
-#22	AnnotationNotes T22	aging
-T23	GO:0065007 2577 2586	regulates
-#23	AnnotationNotes T23	biological regulation
-T24	GO_RO_EXT:developmental_differentiation_process 2591 2606	differentiation
-#24	AnnotationNotes T24	developmental differentiation process
-T25	GO:0007568 2703 2708	aging
-#25	AnnotationNotes T25	aging
-T26	GO_PATO_EXT:physiological_process_or_quality 2777 2788	physiologic
-#26	AnnotationNotes T26	physiological process or quality
-T27	GO_EXT:regulator 2809 2818	modulator
-#27	AnnotationNotes T27	regulator
-T28	GO:0008152 2872 2882	metabolism
-#28	AnnotationNotes T28	metabolic process
-T29	GO:0001501 3023 3043	skeletal development
-#29	AnnotationNotes T29	skeletal system development
-T30	GO:0007568 3339 3344	aging
-#30	AnnotationNotes T30	aging
-T31	GO:0007568 3542 3547	aging
-#31	AnnotationNotes T31	aging
-T32	GO:0051716 3668 3679;3685 3690	response of
-#32	AnnotationNotes T32	cellular response to stimulus
-T33	GO_EXT:biological_growth_entity_or_process 3741 3747	growth
-#33	AnnotationNotes T33	biological growth entity or process
-T34	GO:0065007 3847 3855	regulate
-#34	AnnotationNotes T34	biological regulation
-T35	GO_EXT:bone_development_or_ossification 3856 3872	bone development
-#35	AnnotationNotes T35	bone development or ossification
-T36	GO:0045453 3964 3979	bone resorption
-#36	AnnotationNotes T36	bone resorption
-T37	GO:0006915 4380 4394	cell apoptosis
-#37	AnnotationNotes T37	apoptotic process
-T38	GO:0051716 4473 4484;4505 4510	response of
-#38	AnnotationNotes T38	cellular response to stimulus
-T39	GO_RO_EXT:developmental_differentiation_process 4549 4564	differentiation
-#39	AnnotationNotes T39	developmental differentiation process
-T40	GO:0007568 4634 4639	Aging
-#40	AnnotationNotes T40	aging
-T41	GO:0065007 4891 4898	control
-#41	AnnotationNotes T41	biological regulation
-T42	GO:0060612 4930 4940	adipogenic
-#42	AnnotationNotes T42	adipose tissue development
-T43	GO_RO_EXT:developmental_differentiation_process 4941 4956	differentiation
-#43	AnnotationNotes T43	developmental differentiation process
-T44	GO_EXT:transcription 5000 5015	transcriptional
-#44	AnnotationNotes T44	transcription
-T45	GO:0065007 5016 5026	regulatory
-#45	AnnotationNotes T45	biological regulation
-T46	GO:0001709 5062 5085	cell fate determination
-#46	AnnotationNotes T46	cell fate determination
-T47	GO_EXT:regulator 5313 5323	regulators
-#47	AnnotationNotes T47	regulator
-T48	GO:0030154 5327 5351	cellular differentiation
-#48	AnnotationNotes T48	cell differentiation
-T49	GO:0010467 5366 5376	expression
-#49	AnnotationNotes T49	gene expression
-T50	GO_EXT:myelin_assembly_or_myelination 5660 5671	myelination
-#50	AnnotationNotes T50	myelin assembly/myelination
-T51	GO:0010467 5698 5708	expression
-#51	AnnotationNotes T51	gene expression
-T52	GO_EXT:neuron_development_or_generation 5752 5764;5789 5796	formation of
-#52	AnnotationNotes T52	neuron development/generation
-T53	GO_EXT:glial_cell_development_or_generation 5752 5776	formation of glial cells
-#53	AnnotationNotes T53	glial cell development/generation
-T54	GO:0001709 5847 5870	cell fate determination
-#54	AnnotationNotes T54	cell fate determination
-T55	GO_RO_EXT:developmental_differentiation_process 6048 6063	differentiation
-#55	AnnotationNotes T55	developmental differentiation process
-T56	GO:0007067 6146 6153	mitosis
-#56	AnnotationNotes T56	mitotic nuclear division
-T57	GO_PATO_EXT:physiological_process_or_quality 6256 6267	physiologic
-#57	AnnotationNotes T57	physiological process or quality
-T58	GO_RO_EXT:biological_export 6516 6522	export
-#58	AnnotationNotes T58	biological export
-T59	GO:0008380 6528 6535	spliced
-#59	AnnotationNotes T59	RNA splicing
-T60	GO:0065007 6556 6564	regulate
-#60	AnnotationNotes T60	biological regulation
-T61	GO:0065007 6902 6911	regulates
-#61	AnnotationNotes T61	biological regulation
-T62	GO:0030154 6916 6934;6955 6960	differentiation of
-#62	AnnotationNotes T62	cell differentiation
-T63	GO:0001503 7027 7037	osteogenic
-#63	AnnotationNotes T63	ossification
-T64	GO:0060612 7061 7071	adipogenic
-#64	AnnotationNotes T64	adipose tissue development
-T65	GO_RO_EXT:developmental_differentiation_process 7219 7232	differentiate
-#65	AnnotationNotes T65	developmental differentiation process
-T66	GO_EXT:regulator 7280 7289	regulator
-#66	AnnotationNotes T66	regulator
-T67	GO:0030154 7317 7337	cell differentiation
-#67	AnnotationNotes T67	cell differentiation
-T68	GO:1990523 7399 7403;7416 7428	bone
-#68	AnnotationNotes T68	bone regeneration
-T69	GO:0008152 7404 7414	metabolism
-#69	AnnotationNotes T69	metabolic process
-T70	GO:0007568 7448 7453	aging
-#70	AnnotationNotes T70	aging
-T71	GO:0010467 7474 7483	Expressed
-#71	AnnotationNotes T71	gene expression
-T72	GO:0010467 7567 7576	expressed
-#72	AnnotationNotes T72	gene expression
-T73	GO:0010467 7614 7624	expression
-#73	AnnotationNotes T73	gene expression
-T74	GO:0008283 8457 8470	proliferating
-#74	AnnotationNotes T74	cell proliferation
-T75	GO:0010467 8825 8834	expressed
-#75	AnnotationNotes T75	gene expression
-T76	GO:0010467 8894 8904	expression
-#76	AnnotationNotes T76	gene expression
-T77	GO_PATO_EXT:physiological_process_or_quality 8989 9000	physiologic
-#77	AnnotationNotes T77	physiological process or quality
-T78	GO_EXT:reverse_transcription_or_reverse_transcriptase 9395 9397	RT
-#78	AnnotationNotes T78	reverse transcription or reverse transcriptase
-T79	GO:0016265 9977 9981	died
-#79	AnnotationNotes T79	death
-T80	GO:0007567 9985 9990	birth
-#80	AnnotationNotes T80	parturition
-T81	GO:0007567 10091 10096	natal
-#81	AnnotationNotes T81	parturition
-T82	GO:0010467 10176 10185	expressed
-#82	AnnotationNotes T82	gene expression
-T83	GO_PATO_EXT:phosphorylation_process_or_quality 10190 10204	phosphorylated
-#83	AnnotationNotes T83	phosphorylation process or quality
-T84	GO:0007067 10208 10215	mitosis
-#84	AnnotationNotes T84	mitotic nuclear division
-T85	GO_EXT:breeding 10362 10370	breeding
-#85	AnnotationNotes T85	breeding
-T86	GO:0008152 10557 10567	metabolism
-#86	AnnotationNotes T86	metabolic process
-T87	GO_PATO_EXT:aging_or_agedness 12684 12688	Aged
-#87	AnnotationNotes T87	aging or agedess
-T88	GO_PATO_EXT:aging_or_agedness 12791 12795	aged
-#88	AnnotationNotes T88	aging or agedess
-T89	GO:0046849 13947 13962	Bone Remodeling
-#89	AnnotationNotes T89	bone remodeling
-T90	GO_PATO_EXT:aging_or_agedness 13979 13983	Aged
-#90	AnnotationNotes T90	aging or agedess
-T91	GO_PATO_EXT:aging_or_agedness 14077 14081	aged
-#91	AnnotationNotes T91	aging or agedess
-T92	GO:0065007 16300 16310	regulating
-#92	AnnotationNotes T92	biological regulation
-T93	GO_RO_EXT:developmental_differentiation_process 17321 17336	differentiation
-#93	AnnotationNotes T93	developmental differentiation process
-T94	GO_EXT:reverse_transcription_or_reverse_transcriptase 17625 17627	RT
-#94	AnnotationNotes T94	reverse transcription or reverse transcriptase
-T95	GO_RO_EXT:developmental_differentiation_process 17676 17691	differentiation
-#95	AnnotationNotes T95	developmental differentiation process
-T96	GO_EXT:positive_regulation 17822 17834	up-regulated
-#96	AnnotationNotes T96	positive regulation
-T97	GO_EXT:biological_release 17918 17926	released
-#97	AnnotationNotes T97	biological release
-T98	GO_RO_EXT:developmental_differentiation_process 18324 18339	Differentiation
-#98	AnnotationNotes T98	developmental differentiation process
-T99	GO_RO_EXT:developmental_differentiation_process 18364 18379	Differentiation
-#99	AnnotationNotes T99	developmental differentiation process
-T100	GO_RO_EXT:developmental_differentiation_process 18543 18558	differentiation
-#100	AnnotationNotes T100	developmental differentiation process
-T101	GO_RO_EXT:developmental_differentiation_process 18670 18683	differentiate
-#101	AnnotationNotes T101	developmental differentiation process
-T102	GO:0001503 18694 18704	osteogenic
-#102	AnnotationNotes T102	ossification
-T103	GO:0060612 18716 18726	adipogenic
-#103	AnnotationNotes T103	adipose tissue development
-T104	GO:0065007 18786 18794	regulate
-#104	AnnotationNotes T104	biological regulation
-T105	GO:0065007 18848 18855	control
-#105	AnnotationNotes T105	biological regulation
-T106	GO_EXT:negative_regulation 18935 18954	negatively regulate
-#106	AnnotationNotes T106	negative regulation
-T107	GO:0045595 19005 19018;19029 19044	regulation of
-#107	AnnotationNotes T107	regulation of cell differentiation
-T108	GO_PATO_RO_EXT:developmental_differentiation_process_or_quality 19151 19165	differentiated
-#108	AnnotationNotes T108	developmental differentiation process or quality
-T109	GO:0060612 19248 19260	adipogenesis
-#109	AnnotationNotes T109	adipose tissue development
-T110	GO:0060612 19331 19343	adipogenesis
-#110	AnnotationNotes T110	adipose tissue development
-T111	GO:0060612 19345 19357	Adipogenesis
-#111	AnnotationNotes T111	adipose tissue development
-T112	GO_RO_EXT:developmental_differentiation_process 19503 19518	differentiation
-#112	AnnotationNotes T112	developmental differentiation process
-T113	GO:0010467 19535 19545	expression
-#113	AnnotationNotes T113	gene expression
-T114	GO_EXT:transcription 19553 19566	transcription
-#114	AnnotationNotes T114	transcription
-T115	GO_PATO_RO_EXT:developmental_differentiation_process_or_quality 19629 19643	differentiated
-#115	AnnotationNotes T115	developmental differentiation process or quality
-T116	GO:0060612 19703 19715	adipogenesis
-#116	AnnotationNotes T116	adipose tissue development
-T117	GO:0065007 19908 19917	modulates
-#117	AnnotationNotes T117	biological regulation
-T118	GO:0030154 19922 19940;19953 19958	differentiation of
-#118	AnnotationNotes T118	cell differentiation
-T119	GO_RO_EXT:developmental_differentiation_process 20143 20158	differentiation
-#119	AnnotationNotes T119	developmental differentiation process
-T120	GO:0010467 20214 20224	expression
-#120	AnnotationNotes T120	gene expression
-T121	GO:0009294 20299 20310	transfected
-#121	AnnotationNotes T121	DNA mediated transformation
-T122	GO:0010467 20447 20457	expression
-#122	AnnotationNotes T122	gene expression
-T123	GO_RO_EXT:developmental_differentiation_process 20595 20610	differentiation
-#123	AnnotationNotes T123	developmental differentiation process
-T124	GO:0010467 20635 20645	expressing
-#124	AnnotationNotes T124	gene expression
-T125	GO:0010467 20733 20743	expression
-#125	AnnotationNotes T125	gene expression
-T126	GO_EXT:reverse_transcription_or_reverse_transcriptase 20802 20804	RT
-#126	AnnotationNotes T126	reverse transcription or reverse transcriptase
-T127	GO:0010467 20825 20835	expressing
-#127	AnnotationNotes T127	gene expression
-T128	GO:0010467 20939 20949	expression
-#128	AnnotationNotes T128	gene expression
-T129	GO:0065007 21988 21997	regulates
-#129	AnnotationNotes T129	biological regulation
-T130	GO:0030154 22002 22020;22045 22050	differentiation of
-#130	AnnotationNotes T130	cell differentiation
-T131	GO_RO_EXT:developmental_differentiation_process 22072 22087	differentiation
-#131	AnnotationNotes T131	developmental differentiation process
-T132	GO_RO_EXT:developmental_differentiation_process 22111 22126	differentiation
-#132	AnnotationNotes T132	developmental differentiation process
-T133	GO:0007568 22130 22135	aging
-#133	AnnotationNotes T133	aging
-T134	GO_PATO_EXT:physiological_process_or_quality 22198 22209	physiologic
-#134	AnnotationNotes T134	physiological process or quality
-T135	GO:0065007 22230 22238	modulate
-#135	AnnotationNotes T135	biological regulation
-T136	GO_PATO_EXT:aging_or_agedness 22383 22387	Aged
-#136	AnnotationNotes T136	aging or agedess
-T137	GO:0007568 22637 22642	aging
-#137	AnnotationNotes T137	aging
-T138	GO:0030154 22648 22666;22684 22689	differentiation of
-#138	AnnotationNotes T138	cell differentiation
-T139	GO_RO_EXT:developmental_differentiation_process 22852 22867	differentiation
-#139	AnnotationNotes T139	developmental differentiation process
-T140	GO_RO_EXT:developmental_differentiation_process 22939 22954	differentiation
-#140	AnnotationNotes T140	developmental differentiation process
-T141	GO_RO_EXT:developmental_differentiation_process 23075 23090	differentiation
-#141	AnnotationNotes T141	developmental differentiation process
-T142	GO_PATO_EXT:physiological_process_or_quality 23150 23161	physiologic
-#142	AnnotationNotes T142	physiological process or quality
-T143	GO:0065007 23183 23191	regulate
-#143	AnnotationNotes T143	biological regulation
-T144	GO:0060612 23212 23222	adipogenic
-#144	AnnotationNotes T144	adipose tissue development
-T145	GO:0001503 23227 23237	osteogenic
-#145	AnnotationNotes T145	ossification
-T146	GO_RO_EXT:developmental_differentiation_process 23238 23253	differentiation
-#146	AnnotationNotes T146	developmental differentiation process
-T147	GO:0010467 23301 23311	expression
-#147	AnnotationNotes T147	gene expression
-T148	GO:0010467 23442 23451	expressed
-#148	AnnotationNotes T148	gene expression
-T149	GO:0010467 23616 23626	expression
-#149	AnnotationNotes T149	gene expression
-T150	GO:0010467 23779 23789	expression
-#150	AnnotationNotes T150	gene expression
-T151	GO:0007568 23818 23823	aging
-#151	AnnotationNotes T151	aging
-T152	GO:0007568 23856 23868	senescencing
-#152	AnnotationNotes T152	aging
-T153	GO:0001501 24045 24065	skeletal development
-#153	AnnotationNotes T153	skeletal system development
-T154	GO:0009790 24483 24504	embryonic development
-#154	AnnotationNotes T154	embryo development
-T155	GO_EXT:killing 24575 24581	killed
-#155	AnnotationNotes T155	killing
-T156	GO:0007568 25001 25006	aging
-#156	AnnotationNotes T156	aging
-T157	GO_PATO_EXT:aging_or_agedness 25077 25081	aged
-#157	AnnotationNotes T157	aging or agedess
-T158	GO_PATO_EXT:aging_or_agedness 25104 25108	aged
-#158	AnnotationNotes T158	aging or agedess
-T159	GO:0007568 25257 25262	aging
-#159	AnnotationNotes T159	aging
-T160	GO_PATO_EXT:aging_or_agedness 25557 25561	aged
-#160	AnnotationNotes T160	aging or agedess
-T161	GO:0065007 25743 25753	regulatory
-#161	AnnotationNotes T161	biological regulation
-T162	GO:0046849 25920 25935	bone remodeling
-#162	AnnotationNotes T162	bone remodeling
-T163	GO:0016265 25953 25957	died
-#163	AnnotationNotes T163	death
-T164	GO:0008152 26407 26417	metabolism
-#164	AnnotationNotes T164	metabolic process
-T165	GO:0045453 26552 26567	bone resorption
-#165	AnnotationNotes T165	bone resorption
-T166	GO:0045453 26640 26655	bone resorption
-#166	AnnotationNotes T166	bone resorption
-T167	GO:0030154 27040 27058;27087 27092	differentiation of
-#167	AnnotationNotes T167	cell differentiation
-T168	GO:0001503 27177 27187	osteogenic
-#168	AnnotationNotes T168	ossification
-T169	GO_PATO_EXT:aging_or_agedness 27370 27374	aged
-#169	AnnotationNotes T169	aging or agedess
-T170	GO_PATO_RO_EXT:developmental_differentiation_process_or_quality 27521 27535	differentiated
-#170	AnnotationNotes T170	developmental differentiation process or quality
-T171	GO_PATO_EXT:aging_or_agedness 27582 27586	aged
-#171	AnnotationNotes T171	aging or agedess
-T172	GO_RO_EXT:developmental_differentiation_process 27700 27715	differentiation
-#172	AnnotationNotes T172	developmental differentiation process
-T173	GO:0065007 27737 27746	regulates
-#173	AnnotationNotes T173	biological regulation
-T174	GO_RO_EXT:developmental_differentiation_process 27777 27792	differentiation
-#174	AnnotationNotes T174	developmental differentiation process
-T175	GO:0065007 27860 27868	regulate
-#175	AnnotationNotes T175	biological regulation
-T176	GO:0030154 27881 27901	cell differentiation
-#176	AnnotationNotes T176	cell differentiation
-T177	GO:0065007 27973 27982	regulates
-#177	AnnotationNotes T177	biological regulation
-T178	GO:0065007 28172 28181	regulated
-#178	AnnotationNotes T178	biological regulation
-T179	GO:0065007 28219 28228	regulates
-#179	AnnotationNotes T179	biological regulation
-T180	GO:0045453 28229 28244	bone resorption
-#180	AnnotationNotes T180	bone resorption
-T181	GO_EXT:biological_release 28374 28381	release
-#181	AnnotationNotes T181	biological release
-T182	GO_EXT:biological_growth_entity_or_process 28385 28391	growth
-#182	AnnotationNotes T182	biological growth entity or process
-T183	GO_PATO_EXT:aging_or_agedness 28498 28502	aged
-#183	AnnotationNotes T183	aging or agedess
-T184	GO_PATO_EXT:aging_or_agedness 28591 28595	aged
-#184	AnnotationNotes T184	aging or agedess
-T185	GO:0065007 28840 28850	regulating
-#185	AnnotationNotes T185	biological regulation
-T186	GO:0008152 28856 28866	metabolism
-#186	AnnotationNotes T186	metabolic process
-T187	GO:0045453 28964 28979	bone resorption
-#187	AnnotationNotes T187	bone resorption
-T188	GO_RO_EXT:developmental_differentiation_process 29086 29101	differentiation
-#188	AnnotationNotes T188	developmental differentiation process
-T189	GO_PATO_EXT:physiological_process_or_quality 29137 29148	physiologic
-#189	AnnotationNotes T189	physiological process or quality
-T190	GO:0008152 29172 29182	metabolism
-#190	AnnotationNotes T190	metabolic process
-T191	GO:0030154 29216 29236	cell differentiation
-#191	AnnotationNotes T191	cell differentiation
-T192	GO:0010467 29400 29410	expression
-#192	AnnotationNotes T192	gene expression
-T193	GO:0007568 29592 29597	aging
-#193	AnnotationNotes T193	aging
-T194	GO:0007565 29820 29828	pregnant
-#194	AnnotationNotes T194	female pregnancy
-T195	GO_EXT:killing 30349 30358	sacrifice
-#195	AnnotationNotes T195	killing
-T196	GO_EXT:biological_movement_or_translocation_process 32673 32684	transferred
-#196	AnnotationNotes T196	biological movement/translocation process
-T197	GO:0007618 32765 32770	mated
-#197	AnnotationNotes T197	mating
-T198	GO_EXT:fatality_or_lethality 34087 34093	lethal
-#198	AnnotationNotes T198	fatality/lethality
-T199	GO_EXT:killing 34457 34466	sacrifice
-#199	AnnotationNotes T199	killing
-T200	GO_RO_EXT:developmental_differentiation_process 35657 35672	differentiation
-#200	AnnotationNotes T200	developmental differentiation process
-T201	GO_EXT:reverse_transcription_or_reverse_transcriptase 35870 35872	RT
-#201	AnnotationNotes T201	reverse transcription or reverse transcriptase
-T202	GO:0010467 35908 35923	gene expression
-#202	AnnotationNotes T202	gene expression
-T203	GO_RO_EXT:developmental_differentiation_process 36952 36967	differentiation
-#203	AnnotationNotes T203	developmental differentiation process
-T204	GO_RO_EXT:developmental_differentiation_process 37107 37122	differentiation
-#204	AnnotationNotes T204	developmental differentiation process
-T205	GO_EXT:reverse_transcription_or_reverse_transcriptase 37274 37276	RT
-#205	AnnotationNotes T205	reverse transcription or reverse transcriptase
-T206	GO:0060612 37291 37303	adipogenesis
-#206	AnnotationNotes T206	adipose tissue development
-T207	GO:0001171 37486 37505	reverse-transcribed
-#207	AnnotationNotes T207	reverse transcription
-T208	GO_EXT:reverse_transcription_or_reverse_transcriptase 37547 37549	RT
-#208	AnnotationNotes T208	reverse transcription or reverse transcriptase
-T209	GO_EXT:transcription 37576 37591	transcriptional
-#209	AnnotationNotes T209	transcription
-T210	GO:0060612 37662 37672	adipogenic
-#210	AnnotationNotes T210	adipose tissue development
-T211	GO_RO_EXT:developmental_differentiation_process 37673 37688	differentiation
-#211	AnnotationNotes T211	developmental differentiation process
-T212	GO_EXT:negative_regulation 38016 38031	down-regulation
-#212	AnnotationNotes T212	negative regulation
-T213	GO:0009294 38363 38376	Transfections
-#213	AnnotationNotes T213	DNA mediated transformation
-T214	GO:0009294 38486 38498	transfection
-#214	AnnotationNotes T214	DNA mediated transformation
-T215	GO:0001503 38628 38638	Osteogenic
-#215	AnnotationNotes T215	ossification
-T216	GO_RO_EXT:developmental_differentiation_process 38639 38654	differentiation
-#216	AnnotationNotes T216	developmental differentiation process
-T217	GO:0001503 38689 38699	osteogenic
-#217	AnnotationNotes T217	ossification
-T218	GO_RO_EXT:developmental_differentiation_process 38700 38715	differentiation
-#218	AnnotationNotes T218	developmental differentiation process
-T219	GO:0010467 39043 39058	gene expression
-#219	AnnotationNotes T219	gene expression
-T220	GO_EXT:reverse_transcription_or_reverse_transcriptase 39118 39120	RT
-#220	AnnotationNotes T220	reverse transcription or reverse transcriptase
-T221	GO_PATO_EXT:biological_localization_process_or_quality 39163 39175	Localization
-#221	AnnotationNotes T221	biological localization process or quality
-T222	GO:0010467 39295 39310	Gene Expression
-#222	AnnotationNotes T222	gene expression
-T223	GO:0060349 40219 40237	bone morphogenetic
-#223	AnnotationNotes T223	bone morphogenesis
-T224	GO:0007565 40580 40588	pregnant
-#224	AnnotationNotes T224	female pregnancy
-T225	GO_PATO_EXT:biological_localization_process_or_quality 41417 41426	localized
-#225	AnnotationNotes T225	biological localization process or quality
-T226	GO_SO_EXT:sequence_rearrangement_process 41812 41825	recombination
-#226	AnnotationNotes T226	sequence rearrangement process
-T227	GO:0010467 42372 42382	expression
-#227	AnnotationNotes T227	gene expression
-T228	GO_EXT:biological_movement_or_translocation_process 42788 42797	migration
-#228	AnnotationNotes T228	biological movement/translocation process
-T229	GO_EXT:fatality_or_lethality 42970 42976	lethal
-#229	AnnotationNotes T229	fatality/lethality
-T230	GO_RO_EXT:developmental_differentiation_process 45799 45814	differentiation
-#230	AnnotationNotes T230	developmental differentiation process
-T231	GO:0060612 46676 46688	Adipogenesis
-#231	AnnotationNotes T231	adipose tissue development
-T232	GO_RO_EXT:developmental_differentiation_process 46909 46924	differentiation
-#232	AnnotationNotes T232	developmental differentiation process
-T233	GO_EXT:reverse_transcription_or_reverse_transcriptase 47232 47234	RT
-#233	AnnotationNotes T233	reverse transcription or reverse transcriptase
-T234	GO_RO_EXT:developmental_differentiation_process 47292 47307	differentiation
-#234	AnnotationNotes T234	developmental differentiation process
-T235	GO:0010467 47433 47443	expression
-#235	AnnotationNotes T235	gene expression
-T236	GO:0060612 47447 47457	adipogenic
-#236	AnnotationNotes T236	adipose tissue development
-T237	GO:0010467 47526 47536	expression
-#237	AnnotationNotes T237	gene expression
-T238	GO:0001503 47606 47616	Osteogenic
-#238	AnnotationNotes T238	ossification
-T239	GO_RO_EXT:developmental_differentiation_process 47617 47632	Differentiation
-#239	AnnotationNotes T239	developmental differentiation process
-T240	GO:0009294 47720 47731	transfected
-#240	AnnotationNotes T240	DNA mediated transformation
-T241	GO:0001503 48052 48062	Osteogenic
-#241	AnnotationNotes T241	ossification
-T242	GO_RO_EXT:developmental_differentiation_process 48063 48078	differentiation
-#242	AnnotationNotes T242	developmental differentiation process
-T243	GO:0001503 48184 48194	osteogenic
-#243	AnnotationNotes T243	ossification
-T244	GO_RO_EXT:developmental_differentiation_process 48195 48210	differentiation
-#244	AnnotationNotes T244	developmental differentiation process
-T245	GO:0010467 48227 48237	expression
-#245	AnnotationNotes T245	gene expression
-T246	GO_EXT:reverse_transcription_or_reverse_transcriptase 48300 48302	RT
-#246	AnnotationNotes T246	reverse transcription or reverse transcriptase
-T247	GO:0048539 48485 48499;48506 48517	Development of
-#247	AnnotationNotes T247	bone marrow development
-T248	GO_EXT:breeding 49147 49155	Breeding
-#248	AnnotationNotes T248	breeding
+T0	GO_0007067 126 133	mitosis
+T1	GO_0065007 208 216	regulate
+T2	GO_0016070 236 250	RNA metabolism
+T3	GO_PATO_EXT_physiological_process_or_quality 265 276	physiologic
+T4	GO_SO_EXT_sequence_rearrangement_process 369 382	recombination
+T5	GO_PATO_EXT_aging_or_agedness 384 388	Aged
+T6	GO_RO_EXT_developmental_differentiation_process 731 746	differentiation
+T7	GO_0001503 765 775	osteogenic
+T8	GO_0010467 941 951	expression
+T9	GO_RO_EXT_developmental_differentiation_process 1001 1016	differentiation
+T10	GO_0060349 1034 1052	bone morphogenetic
+T11	GO_RO_EXT_developmental_differentiation_process 1166 1179	differentiate
+T12	GO_RO_EXT_developmental_differentiation_process 1315 1330	differentiation
+T13	GO_EXT_positive_regulator 1588 1606	positive regulator
+T14	GO_RO_EXT_developmental_differentiation_process 1620 1635	differentiation
+T15	GO_EXT_negative_regulator 1642 1660	negative regulator
+T16	GO_RO_EXT_developmental_differentiation_process 1675 1690	differentiation
+T17	GO_EXT_regulator 1731 1740	modulator
+T18	GO_0030154 1768 1788	cell differentiation
+T19	GO_0008152 1805 1815	metabolism
+T20	GO_PATO_EXT_aging_or_agedness 1820 1824	aged
+T21	GO_PATO_EXT_physiological_process_or_quality 2280 2291	physiologic
+T22	GO_0007568 2371 2376	aging
+T23	GO_0065007 2577 2586	regulates
+T24	GO_RO_EXT_developmental_differentiation_process 2591 2606	differentiation
+T25	GO_0007568 2703 2708	aging
+T26	GO_PATO_EXT_physiological_process_or_quality 2777 2788	physiologic
+T27	GO_EXT_regulator 2809 2818	modulator
+T28	GO_0008152 2872 2882	metabolism
+T29	GO_0001501 3023 3043	skeletal development
+T30	GO_0007568 3339 3344	aging
+T31	GO_0007568 3542 3547	aging
+T32	GO_0051716 3668 3679;	response of
+3685 3690	response ofcells
+T33	GO_EXT_biological_growth_entity_or_process 3741 3747	growth
+T34	GO_0065007 3847 3855	regulate
+T35	GO_EXT_bone_development_or_ossification 3856 3872	bone development
+T36	GO_0045453 3964 3979	bone resorption
+T37	GO_0006915 4380 4394	cell apoptosis
+T38	GO_0051716 4473 4484;	response of
+4505 4510	response ofcells
+T39	GO_RO_EXT_developmental_differentiation_process 4549 4564	differentiation
+T40	GO_0007568 4634 4639	Aging
+T41	GO_0065007 4891 4898	control
+T42	GO_0060612 4930 4940	adipogenic
+T43	GO_RO_EXT_developmental_differentiation_process 4941 4956	differentiation
+T44	GO_EXT_transcription 5000 5015	transcriptional
+T45	GO_0065007 5016 5026	regulatory
+T46	GO_0001709 5062 5085	cell fate determination
+T47	GO_EXT_regulator 5313 5323	regulators
+T48	GO_0030154 5327 5351	cellular differentiation
+T49	GO_0010467 5366 5376	expression
+T50	GO_EXT_myelin_assembly_or_myelination 5660 5671	myelination
+T51	GO_0010467 5698 5708	expression
+T52	GO_EXT_neuron_development_or_generation 5752 5764;	formation of
+5789 5796	formation ofneurons
+T53	GO_EXT_glial_cell_development_or_generation 5752 5776	formation of glial cells
+T54	GO_0001709 5847 5870	cell fate determination
+T55	GO_RO_EXT_developmental_differentiation_process 6048 6063	differentiation
+T56	GO_0007067 6146 6153	mitosis
+T57	GO_PATO_EXT_physiological_process_or_quality 6256 6267	physiologic
+T58	GO_RO_EXT_biological_export 6516 6522	export
+T59	GO_0008380 6528 6535	spliced
+T60	GO_0065007 6556 6564	regulate
+T61	GO_0065007 6902 6911	regulates
+T62	GO_0030154 6916 6934;	differentiation of
+6955 6960	differentiation ofcells
+T63	GO_0001503 7027 7037	osteogenic
+T64	GO_0060612 7061 7071	adipogenic
+T65	GO_RO_EXT_developmental_differentiation_process 7219 7232	differentiate
+T66	GO_EXT_regulator 7280 7289	regulator
+T67	GO_0030154 7317 7337	cell differentiation
+T68	GO_1990523 7399 7403;	bone
+7416 7428	boneregeneration
+T69	GO_0008152 7404 7414	metabolism
+T70	GO_0007568 7448 7453	aging
+T71	GO_0010467 7474 7483	Expressed
+T72	GO_0010467 7567 7576	expressed
+T73	GO_0010467 7614 7624	expression
+T74	GO_0008283 8457 8470	proliferating
+T75	GO_0010467 8825 8834	expressed
+T76	GO_0010467 8894 8904	expression
+T77	GO_PATO_EXT_physiological_process_or_quality 8989 9000	physiologic
+T78	GO_EXT_reverse_transcription_or_reverse_transcriptase 9395 9397	RT
+T79	GO_0016265 9977 9981	died
+T80	GO_0007567 9985 9990	birth
+T81	GO_0007567 10091 10096	natal
+T82	GO_0010467 10176 10185	expressed
+T83	GO_PATO_EXT_phosphorylation_process_or_quality 10190 10204	phosphorylated
+T84	GO_0007067 10208 10215	mitosis
+T85	GO_EXT_breeding 10362 10370	breeding
+T86	GO_0008152 10557 10567	metabolism
+T87	GO_PATO_EXT_aging_or_agedness 12684 12688	Aged
+T88	GO_PATO_EXT_aging_or_agedness 12791 12795	aged
+T89	GO_0046849 13947 13962	Bone Remodeling
+T90	GO_PATO_EXT_aging_or_agedness 13979 13983	Aged
+T91	GO_PATO_EXT_aging_or_agedness 14077 14081	aged
+T92	GO_0065007 16300 16310	regulating
+T93	GO_RO_EXT_developmental_differentiation_process 17321 17336	differentiation
+T94	GO_EXT_reverse_transcription_or_reverse_transcriptase 17625 17627	RT
+T95	GO_RO_EXT_developmental_differentiation_process 17676 17691	differentiation
+T96	GO_EXT_positive_regulation 17822 17834	up-regulated
+T97	GO_EXT_biological_release 17918 17926	released
+T98	GO_RO_EXT_developmental_differentiation_process 18324 18339	Differentiation
+T99	GO_RO_EXT_developmental_differentiation_process 18364 18379	Differentiation
+T100	GO_RO_EXT_developmental_differentiation_process 18543 18558	differentiation
+T101	GO_RO_EXT_developmental_differentiation_process 18670 18683	differentiate
+T102	GO_0001503 18694 18704	osteogenic
+T103	GO_0060612 18716 18726	adipogenic
+T104	GO_0065007 18786 18794	regulate
+T105	GO_0065007 18848 18855	control
+T106	GO_EXT_negative_regulation 18935 18954	negatively regulate
+T107	GO_0045595 19005 19018;	regulation of
+19029 19044	regulation ofdifferentiation
+T108	GO_PATO_RO_EXT_developmental_differentiation_process_or_quality 19151 19165	differentiated
+T109	GO_0060612 19248 19260	adipogenesis
+T110	GO_0060612 19331 19343	adipogenesis
+T111	GO_0060612 19345 19357	Adipogenesis
+T112	GO_RO_EXT_developmental_differentiation_process 19503 19518	differentiation
+T113	GO_0010467 19535 19545	expression
+T114	GO_EXT_transcription 19553 19566	transcription
+T115	GO_PATO_RO_EXT_developmental_differentiation_process_or_quality 19629 19643	differentiated
+T116	GO_0060612 19703 19715	adipogenesis
+T117	GO_0065007 19908 19917	modulates
+T118	GO_0030154 19922 19940;	differentiation of
+19953 19958	differentiation ofcells
+T119	GO_RO_EXT_developmental_differentiation_process 20143 20158	differentiation
+T120	GO_0010467 20214 20224	expression
+T121	GO_0009294 20299 20310	transfected
+T122	GO_0010467 20447 20457	expression
+T123	GO_RO_EXT_developmental_differentiation_process 20595 20610	differentiation
+T124	GO_0010467 20635 20645	expressing
+T125	GO_0010467 20733 20743	expression
+T126	GO_EXT_reverse_transcription_or_reverse_transcriptase 20802 20804	RT
+T127	GO_0010467 20825 20835	expressing
+T128	GO_0010467 20939 20949	expression
+T129	GO_0065007 21988 21997	regulates
+T130	GO_0030154 22002 22020;	differentiation of
+22045 22050	differentiation ofcells
+T131	GO_RO_EXT_developmental_differentiation_process 22072 22087	differentiation
+T132	GO_RO_EXT_developmental_differentiation_process 22111 22126	differentiation
+T133	GO_0007568 22130 22135	aging
+T134	GO_PATO_EXT_physiological_process_or_quality 22198 22209	physiologic
+T135	GO_0065007 22230 22238	modulate
+T136	GO_PATO_EXT_aging_or_agedness 22383 22387	Aged
+T137	GO_0007568 22637 22642	aging
+T138	GO_0030154 22648 22666;	differentiation of
+22684 22689	differentiation ofcells
+T139	GO_RO_EXT_developmental_differentiation_process 22852 22867	differentiation
+T140	GO_RO_EXT_developmental_differentiation_process 22939 22954	differentiation
+T141	GO_RO_EXT_developmental_differentiation_process 23075 23090	differentiation
+T142	GO_PATO_EXT_physiological_process_or_quality 23150 23161	physiologic
+T143	GO_0065007 23183 23191	regulate
+T144	GO_0060612 23212 23222	adipogenic
+T145	GO_0001503 23227 23237	osteogenic
+T146	GO_RO_EXT_developmental_differentiation_process 23238 23253	differentiation
+T147	GO_0010467 23301 23311	expression
+T148	GO_0010467 23442 23451	expressed
+T149	GO_0010467 23616 23626	expression
+T150	GO_0010467 23779 23789	expression
+T151	GO_0007568 23818 23823	aging
+T152	GO_0007568 23856 23868	senescencing
+T153	GO_0001501 24045 24065	skeletal development
+T154	GO_0009790 24483 24504	embryonic development
+T155	GO_EXT_killing 24575 24581	killed
+T156	GO_0007568 25001 25006	aging
+T157	GO_PATO_EXT_aging_or_agedness 25077 25081	aged
+T158	GO_PATO_EXT_aging_or_agedness 25104 25108	aged
+T159	GO_0007568 25257 25262	aging
+T160	GO_PATO_EXT_aging_or_agedness 25557 25561	aged
+T161	GO_0065007 25743 25753	regulatory
+T162	GO_0046849 25920 25935	bone remodeling
+T163	GO_0016265 25953 25957	died
+T164	GO_0008152 26407 26417	metabolism
+T165	GO_0045453 26552 26567	bone resorption
+T166	GO_0045453 26640 26655	bone resorption
+T167	GO_0030154 27040 27058;	differentiation of
+27087 27092	differentiation ofcells
+T168	GO_0001503 27177 27187	osteogenic
+T169	GO_PATO_EXT_aging_or_agedness 27370 27374	aged
+T170	GO_PATO_RO_EXT_developmental_differentiation_process_or_quality 27521 27535	differentiated
+T171	GO_PATO_EXT_aging_or_agedness 27582 27586	aged
+T172	GO_RO_EXT_developmental_differentiation_process 27700 27715	differentiation
+T173	GO_0065007 27737 27746	regulates
+T174	GO_RO_EXT_developmental_differentiation_process 27777 27792	differentiation
+T175	GO_0065007 27860 27868	regulate
+T176	GO_0030154 27881 27901	cell differentiation
+T177	GO_0065007 27973 27982	regulates
+T178	GO_0065007 28172 28181	regulated
+T179	GO_0065007 28219 28228	regulates
+T180	GO_0045453 28229 28244	bone resorption
+T181	GO_EXT_biological_release 28374 28381	release
+T182	GO_EXT_biological_growth_entity_or_process 28385 28391	growth
+T183	GO_PATO_EXT_aging_or_agedness 28498 28502	aged
+T184	GO_PATO_EXT_aging_or_agedness 28591 28595	aged
+T185	GO_0065007 28840 28850	regulating
+T186	GO_0008152 28856 28866	metabolism
+T187	GO_0045453 28964 28979	bone resorption
+T188	GO_RO_EXT_developmental_differentiation_process 29086 29101	differentiation
+T189	GO_PATO_EXT_physiological_process_or_quality 29137 29148	physiologic
+T190	GO_0008152 29172 29182	metabolism
+T191	GO_0030154 29216 29236	cell differentiation
+T192	GO_0010467 29400 29410	expression
+T193	GO_0007568 29592 29597	aging
+T194	GO_0007565 29820 29828	pregnant
+T195	GO_EXT_killing 30349 30358	sacrifice
+T196	GO_EXT_biological_movement_or_translocation_process 32673 32684	transferred
+T197	GO_0007618 32765 32770	mated
+T198	GO_EXT_fatality_or_lethality 34087 34093	lethal
+T199	GO_EXT_killing 34457 34466	sacrifice
+T200	GO_RO_EXT_developmental_differentiation_process 35657 35672	differentiation
+T201	GO_EXT_reverse_transcription_or_reverse_transcriptase 35870 35872	RT
+T202	GO_0010467 35908 35923	gene expression
+T203	GO_RO_EXT_developmental_differentiation_process 36952 36967	differentiation
+T204	GO_RO_EXT_developmental_differentiation_process 37107 37122	differentiation
+T205	GO_EXT_reverse_transcription_or_reverse_transcriptase 37274 37276	RT
+T206	GO_0060612 37291 37303	adipogenesis
+T207	GO_0001171 37486 37505	reverse-transcribed
+T208	GO_EXT_reverse_transcription_or_reverse_transcriptase 37547 37549	RT
+T209	GO_EXT_transcription 37576 37591	transcriptional
+T210	GO_0060612 37662 37672	adipogenic
+T211	GO_RO_EXT_developmental_differentiation_process 37673 37688	differentiation
+T212	GO_EXT_negative_regulation 38016 38031	down-regulation
+T213	GO_0009294 38363 38376	Transfections
+T214	GO_0009294 38486 38498	transfection
+T215	GO_0001503 38628 38638	Osteogenic
+T216	GO_RO_EXT_developmental_differentiation_process 38639 38654	differentiation
+T217	GO_0001503 38689 38699	osteogenic
+T218	GO_RO_EXT_developmental_differentiation_process 38700 38715	differentiation
+T219	GO_0010467 39043 39058	gene expression
+T220	GO_EXT_reverse_transcription_or_reverse_transcriptase 39118 39120	RT
+T221	GO_PATO_EXT_biological_localization_process_or_quality 39163 39175	Localization
+T222	GO_0010467 39295 39310	Gene Expression
+T223	GO_0060349 40219 40237	bone morphogenetic
+T224	GO_0007565 40580 40588	pregnant
+T225	GO_PATO_EXT_biological_localization_process_or_quality 41417 41426	localized
+T226	GO_SO_EXT_sequence_rearrangement_process 41812 41825	recombination
+T227	GO_0010467 42372 42382	expression
+T228	GO_EXT_biological_movement_or_translocation_process 42788 42797	migration
+T229	GO_EXT_fatality_or_lethality 42970 42976	lethal
+T230	GO_RO_EXT_developmental_differentiation_process 45799 45814	differentiation
+T231	GO_0060612 46676 46688	Adipogenesis
+T232	GO_RO_EXT_developmental_differentiation_process 46909 46924	differentiation
+T233	GO_EXT_reverse_transcription_or_reverse_transcriptase 47232 47234	RT
+T234	GO_RO_EXT_developmental_differentiation_process 47292 47307	differentiation
+T235	GO_0010467 47433 47443	expression
+T236	GO_0060612 47447 47457	adipogenic
+T237	GO_0010467 47526 47536	expression
+T238	GO_0001503 47606 47616	Osteogenic
+T239	GO_RO_EXT_developmental_differentiation_process 47617 47632	Differentiation
+T240	GO_0009294 47720 47731	transfected
+T241	GO_0001503 48052 48062	Osteogenic
+T242	GO_RO_EXT_developmental_differentiation_process 48063 48078	differentiation
+T243	GO_0001503 48184 48194	osteogenic
+T244	GO_RO_EXT_developmental_differentiation_process 48195 48210	differentiation
+T245	GO_0010467 48227 48237	expression
+T246	GO_EXT_reverse_transcription_or_reverse_transcriptase 48300 48302	RT
+T247	GO_0048539 48485 48499;	Development of
+48506 48517	Development ofBone Marrow
+T248	GO_EXT_breeding 49147 49155	Breeding
