@@ -29,6 +29,7 @@ For details of the Uberon anatomical annotations and citation:
 The CRAFT Corpus is available for download in compressed form [here][craft release]
 
 Or simply clone the contents of this repository using the following command:
+
   `$ git clone https://github.com/UCDenver-ccp/CRAFT.git`
 
 The previous release of the CRAFT corpus (v2.0) is located [here][craft2.0]                                                                                                                                                               
