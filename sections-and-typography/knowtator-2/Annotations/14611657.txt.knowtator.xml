@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <knowtator-project>
-    <document id="14611657" text-file="14611657.txt">
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11625" type="identity">
-            <class id="section" label="section"/>
-            <span end="151" id="14611657-993" start="0">Odorant receptor expressed sequence tags demonstrate olfactory expression of over 400 genes, extensive alternate splicing and unequal expression levels</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11628" type="identity">
-            <class id="section" label="section"/>
-            <span end="2668" id="14611657-995" start="153">Previous computational analyses have identified approximately 1,500 mouse olfactory receptors, but experimental evidence confirming olfactory function is available for very few receptors. A mouse olfactory epithelium cDNA library was screened to obtain olfactory receptor expressed sequence tags, providing evidence of olfactory function for many additional olfactory receptors, as well as identifying gene structure and putative promoter regions.
+  <document id="14611657" text-file="14611657.txt">
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11625" type="identity">
+      <class id="section" label="section"/>
+      <span end="151" id="14611657-993" start="0">Odorant receptor expressed sequence tags demonstrate olfactory expression of over 400 genes, extensive alternate splicing and unequal expression levels</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11628" type="identity">
+      <class id="section" label="section"/>
+      <span end="2668" id="14611657-995" start="153">Previous computational analyses have identified approximately 1,500 mouse olfactory receptors, but experimental evidence confirming olfactory function is available for very few receptors. A mouse olfactory epithelium cDNA library was screened to obtain olfactory receptor expressed sequence tags, providing evidence of olfactory function for many additional olfactory receptors, as well as identifying gene structure and putative promoter regions.
 
 Abstract
 
@@ -22,10 +22,10 @@ We identified more than 1,200 odorant receptor cDNAs representing more than 400 
 Conclusions
 
 Our cDNA collection confirms olfactory function of over one-third of the intact mouse olfactory receptors. Most of these genes were previously annotated as olfactory receptors based solely on sequence similarity. Our finding that different olfactory receptors have different expression levels is intriguing given the one-neuron, one-gene expression regime of olfactory receptors. We provide 5' untranslated region sequences and candidate promoter regions for more than 300 olfactory receptors, valuable resources for computational regulatory motif searches and for designing olfactory receptor microarrays and other experimental probes.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11631" type="identity">
-            <class id="section" label="section"/>
-            <span end="8843" id="14611657-997" start="2670">Background
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11631" type="identity">
+      <class id="section" label="section"/>
+      <span end="8843" id="14611657-997" start="2670">Background
 
 The interaction of olfactory (or odorant) receptors with their odorant ligands is the first step in a signal transduction pathway that results in the perception of smell. The olfactory receptor gene family is one of the largest in the mammalian genome, comprising about 1,500 members in the mouse genome [1,2]. Olfactory receptors were originally identified in an elegant experiment based on the hypothesis that they would be seven-transmembrane-domain proteins encoded by a large, diverse gene family whose expression is restricted to the olfactory epithelium [3]. Subsequent studies have shown that some of these receptors do indeed respond to odorants and can confer that responsivity when expressed in heterologous cell types (for example [4]). Recent computational investigations have provided the almost complete human [5,6] and mouse [1,2] olfactory receptor-gene catalogs. However, the assignment of most of these genes as olfactory receptors is based solely on similarity to one of a relatively small number of experimentally confirmed mouse olfactory receptors or, worse, on similarity to a gene that in turn was defined as an olfactory receptor solely by similarity. While similarity-based genome annotation is a good initial method to identify genes and predict their function, in some cases it can be misleading, as genes of similar sequence can carry out different functions and be expressed in different tissues (for example, the sugar transporter gene family [7]).
 
@@ -36,10 +36,10 @@ Within the olfactory epithelium, individual olfactory receptor genes show an int
 Olfactory receptor genes have an intronless coding region, simplifying both computational and experimental olfactory receptor identification. For a small number of olfactory receptors, gene structure has been determined. Additional 5' untranslated exons lie upstream of the coding region and can be alternatively spliced [19,23-26]. The 3' untranslated region is typically intronless. Exceptions to this stereotyped structure have been described for some human olfactory receptors, but are thought to be rare [25-27]. cDNA identification and RACE data have been used to determine gene structure for about 30 genes, see, for example, [19,23]. However, computational prediction of the location of 5' upstream exons and the extent of the 3' UTR from genomic sequence has been extremely difficult. A combination of splice site predictions and similarity to other olfactory receptors has allowed some investigators to predict 5' exon locations for around 15 genes [25,28]. Experimental validation shows that some, but not all, predictions are accurate [24,25]. The total number of olfactory receptors for which gene structure is known is vastly increased by our study.
 
 In this report, we describe the isolation and analysis of over 1,200 cDNAs representing 419 odorant receptor genes. We screened a mouse olfactory epithelium library with degenerate olfactory receptor probes and obtained 5' end sequences (ESTs) from purified cDNAs. These clones confirm olfactory expression of over 400 olfactory receptors, provide their gene structure, demonstrate that not all olfactory receptors are expressed at the same level and show that most olfactory receptor genes have multiple transcriptional isoforms.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11634" type="identity">
-            <class id="section" label="section"/>
-            <span end="28390" id="14611657-999" start="8845">Results
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11634" type="identity">
+      <class id="section" label="section"/>
+      <span end="28390" id="14611657-999" start="8845">Results
 
 At least 419 mouse olfactory receptor genes are expressed in the olfactory epithelium
 
@@ -86,26 +86,26 @@ Both unclustered olfactory receptors and olfactory receptor pseudogenes can be e
 We were interested in whether olfactory receptors need to be part of a cluster in the genome in order to be transcribed, or if the clustered genomic organization of olfactory receptors is simply a consequence of the fact that local duplication is the major mechanism for expanding the gene family [1]. 'Singleton' olfactory receptors (defined as full-length olfactory receptors without another olfactory receptor within 0.5 Mb) are more often pseudogenes than are olfactory receptors in clusters (8 out of 16 versus 271 out of 1,358; χ2 = 8.8, P &lt; 0.005). Of the eight intact singleton olfactory receptors, two have matching cDNAs in our collection, a similar proportion as found for olfactory receptors in clusters, showing that clustering is not an absolute requirement for olfactory receptor expression. However, it is possible these two expressed singleton genes are part of 'extended' olfactory receptor clusters - their nearest olfactory receptor neighbors are 1.7 Mb and 2.6 Mb away, respectively.
 
 We also find that some olfactory receptor pseudogenes are expressed, albeit with a lower probability than intact olfactory receptors. Considering the 1,392 olfactory receptor gene sequences for which reliable full-length data are available, 15 out of 285 (5%) apparent pseudogenes are represented in our cDNA collection, compared to 393 out of 1,107 (36%) intact olfactory receptors. However, three of these 15 'expressed pseudogenes' are intact genes in the public mouse genome sequence. The defects in Celera's version of these genes may be due to sequencing errors or true polymorphism. Publicly available mouse sequence confirms that 11 of the 12 remaining expressed pseudogenes are indeed pseudogenes. No public sequence matches the 12th 'expressed pseudogene' with 99% identity or more.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11637" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="18720" id="14611657-1001" start="18713">In situ</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11639" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="19320" id="14611657-1003" start="19315">et al</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11641" type="identity">
-            <class id="sup" label="sup"/>
-            <span end="27128" id="14611657-1005" start="27127">2</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11643" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="27137" id="14611657-1007" start="27136">P</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11645" type="identity">
-            <class id="section" label="section"/>
-            <span end="37829" id="14611657-1009" start="28392">Discussion
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11637" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="18720" id="14611657-1001" start="18713">In situ</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11639" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="19320" id="14611657-1003" start="19315">et al</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11641" type="identity">
+      <class id="sup" label="sup"/>
+      <span end="27128" id="14611657-1005" start="27127">2</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11643" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="27137" id="14611657-1007" start="27136">P</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11645" type="identity">
+      <class id="section" label="section"/>
+      <span end="37829" id="14611657-1009" start="28392">Discussion
 
 We have identified and sequenced 1,264 odorant receptor cDNAs from 419 olfactory receptor genes, confirming their expression in the olfactory epithelium. We have thus validated the similarity-based prediction of over one-third of the intact olfactory receptor genes annotated in the mouse genome [1,2], thereby vastly increasing the proportion of the family for which experimental evidence of olfactory function is available. We have not found cDNAs for all olfactory receptor genes or an even phylogenetic distribution of cDNAs, probably because the libraries and/or our screen are biased toward certain olfactory receptor subfamilies. Using RT-PCR with both degenerate and specific primers, we have confirmed olfactory expression of a number of additional olfactory receptors, bringing the total number of olfactory receptor genes verified in this study to 436, and ensuring that almost all phylogenetic clades have at least one representative with evidence of olfactory function.
 
@@ -118,20 +118,20 @@ We find that the majority of the olfactory receptors, like most non-olfactory re
 Our study shows that about 5% of olfactory receptor transcripts do not fit the current notion of olfactory receptor gene structure. Occasionally, an intron is spliced out of the 3' untranslated region. A number of cDNAs use splice sites within the olfactory receptor's ORF, meaning that their protein product is different from that predicted on the basis of genomic sequence alone. In two such cases, the transcript would encode a functional olfactory receptor, with the initiating methionine and first few amino acids encoded by an upstream exon, as has been observed previously for a subtelomeric human olfactory receptor gene [25]. Such within-ORF splicing might increase protein-coding diversity, although, given the small number of genes involved, splicing is unlikely to significantly affect the functional receptor repertoire. Most of the atypical splice forms we observe appear to encode non-functional transcripts, containing frameshifts or lacking a start codon or other functional residues conserved throughout the olfactory receptor family. These nonfunctional transcripts are probably aberrant by-products of the splicing system [43] that have not yet been degraded by RNA surveillance systems [40,41]. The neurons expressing these aberrant transcripts might also make normal transcripts for the same genes and thus produce a functional olfactory receptor. Alternatively, the unusual transcriptional regulation of olfactory receptors might ensure that only one splice isoform is expressed per cell (unlikely, but possible if an RNA-based feedback mechanism operates), thus condemning cells expressing these aberrant isoforms to be dysfunctional.
 
 We also observe transcripts from a small number of olfactory receptor pseudogenes, as previously described for three human olfactory receptor pseudogenes [26,44]. Although many fewer pseudogenes than intact genes were represented in our cDNA collection, some neurons in the olfactory epithelium evidently express disrupted olfactory receptors and thus might be unable to respond to odorants or to correctly innervate the olfactory bulb. Wang, Axel and coworkers have shown that an artificial transgenic olfactory receptor gene containing two nonsense mutations can support development of an olfactory neuron, but that pseudogene-expressing neurons fail to converge on a glomerulus in the olfactory bulb [45]. By analogy with an olfactory receptor deletion mutant [45], it is likely that most pseudogene-expressing neurons die or switch to express a different olfactory receptor gene, leaving a small number of pseudogene-expressing neurons in adult mice, but at greatly reduced levels compared to neurons expressing intact olfactory receptors.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11648" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="33262" id="14611657-1011" start="33255">in situ</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11650" type="identity">
-            <class id="section" label="section"/>
-            <span end="38658" id="14611657-1013" start="37831">Conclusions
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11648" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="33262" id="14611657-1011" start="33255">in situ</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11650" type="identity">
+      <class id="section" label="section"/>
+      <span end="38658" id="14611657-1013" start="37831">Conclusions
 
 Our study has provided an olfactory receptor cDNA resource representing over one-third of the olfactory receptor gene family. We have thus established over 400 annotated olfactory receptor genes as having olfactory function. The sequences we generated demonstrate that the majority of the olfactory receptor gene family has multiple transcriptional isoforms. Most olfactory receptor transcripts encode functional receptor proteins, with rare exceptions. We show that individual olfactory receptor genes can have vastly different expression levels, an intriguing finding in light of the unusual one-neuron one-gene transcriptional regime of the olfactory epithelium. Our results and the sequences we provide will facilitate future global studies of the mechanisms and dynamics of olfactory receptor gene expression.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11653" type="identity">
-            <class id="section" label="section"/>
-            <span end="48730" id="14611657-1015" start="38660">Materials and methods
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11653" type="identity">
+      <class id="section" label="section"/>
+      <span end="48730" id="14611657-1015" start="38660">Materials and methods
 
 Identification of olfactory receptor cDNAs
 
@@ -158,52 +158,52 @@ Relative transcript levels were estimated using real-time PCR according to Appli
 In situ hybridization
 
 Coronal sections were cut from the olfactory epithelia of an adult mouse (Figure 4) and a young (P6) C57BL/6 mouse. RNA in situ hybridization was carried out as described previously [15,53] with digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY318555 (0.5 kb) and AY317365 (0.5 kb). Riboprobe sequences were generated by PCR using primer pairs 5'-TCTTCCAAACCTGGACCCCCC-3' and 5'-ATCTCTCCAGCACCTTACTTG-3' for AY318555 and primer pairs 5'-TAAGATGTAAGTGATAATTTAGATTACAGG-3' and 5'-TTTCTGCCTCAGCTATGACAG-3' for AY317365. Hybridization was carried out in 50% formamide at 65°C, and slides were washed at high stringency (65°C, 0.2 × SSC). The probes each hybridize to only one band on a Southern blot, indicating that each probe only detects one olfactory receptor gene. BLAST analyses show that the AY318555 probe is unique in Celera's mouse genome assembly (Release 13), and that the AY317365 probe is similar to only one other genomic region. This potential cross-hybridizing region is over 10 Mb from the nearest olfactory receptor coding region and is thus highly unlikely to be included in any olfactory receptor transcript. Low-power images are composed of three overlapping micrographs (40×) assembled in Adobe Photoshop 7.0.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11656" type="identity">
-            <class id="sup" label="sup"/>
-            <span end="39221" id="14611657-1017" start="39220">6</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11658" type="identity">
-            <class id="sup" label="sup"/>
-            <span end="39294" id="14611657-1019" start="39293">6</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11660" type="identity">
-            <class id="sup" label="sup"/>
-            <span end="39346" id="14611657-1021" start="39345">9</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11662" type="identity">
-            <class id="sup" label="sup"/>
-            <span end="39373" id="14611657-1023" start="39371">10</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11664" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="40226" id="14611657-1025" start="40219">in vivo</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11666" type="identity">
-            <class id="sup" label="sup"/>
-            <span end="43732" id="14611657-1027" start="43730">-μ</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11668" type="identity">
-            <class id="sup" label="sup"/>
-            <span end="43734" id="14611657-1029" start="43733">x</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11670" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="47458" id="14611657-1031" start="47451">In situ</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11672" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="47601" id="14611657-1033" start="47594">in situ</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11674" type="identity">
-            <class id="section" label="section"/>
-            <span end="49012" id="14611657-1035" start="48732">Additional data files
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11656" type="identity">
+      <class id="sup" label="sup"/>
+      <span end="39221" id="14611657-1017" start="39220">6</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11658" type="identity">
+      <class id="sup" label="sup"/>
+      <span end="39294" id="14611657-1019" start="39293">6</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11660" type="identity">
+      <class id="sup" label="sup"/>
+      <span end="39346" id="14611657-1021" start="39345">9</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11662" type="identity">
+      <class id="sup" label="sup"/>
+      <span end="39373" id="14611657-1023" start="39371">10</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11664" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="40226" id="14611657-1025" start="40219">in vivo</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11666" type="identity">
+      <class id="sup" label="sup"/>
+      <span end="43732" id="14611657-1027" start="43730">-μ</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11668" type="identity">
+      <class id="sup" label="sup"/>
+      <span end="43734" id="14611657-1029" start="43733">x</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11670" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="47458" id="14611657-1031" start="47451">In situ</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11672" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="47601" id="14611657-1033" start="47594">in situ</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11674" type="identity">
+      <class id="section" label="section"/>
+      <span end="49012" id="14611657-1035" start="48732">Additional data files
 
 A list of the primers used to confirm the expression of olfactory receptor genes by RT-PCR and PCR from cDNA library templates can be found in Additional data file 1. The experimental conditions used for real-time PCR can be found in Additional data file 2.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11677" type="identity">
-            <class id="section" label="section"/>
-            <span end="49338" id="14611657-1037" start="49014">Supplementary Material
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11677" type="identity">
+      <class id="section" label="section"/>
+      <span end="49338" id="14611657-1037" start="49014">Supplementary Material
 
 Additional data file 1
 
@@ -216,16 +216,16 @@ Additional data file 2
 The experimental conditions used for real-time PCR
 
 Click here for additional data file</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11680" type="identity">
-            <class id="section" label="section"/>
-            <span end="49895" id="14611657-1039" start="49340">Acknowledgements
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11680" type="identity">
+      <class id="section" label="section"/>
+      <span end="49895" id="14611657-1039" start="49340">Acknowledgements
 
 We thank Leslie Vosshall and Tyler Cutforth for providing cDNA libraries, staff of the core facilities at the Fred Hutchinson Cancer Research Center and the University of Washington's former Department of Molecular Biotechnology for sequencing assistance, Linda Buck and Michael Schlador for comments on the manuscript and Colin Pritchard for S16 primers. The data in this paper were analyzed in part through use of the Celera Discovery System™ and Celera Genomics' associated databases. This work was supported by NIH grant R01 DC04209.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11683" type="identity">
-            <class id="section" label="section"/>
-            <span end="55281" id="14611657-1041" start="49897">Figures and Tables
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11683" type="identity">
+      <class id="section" label="section"/>
+      <span end="55281" id="14611657-1041" start="49897">Figures and Tables
 
 Figure 1
 
@@ -260,85 +260,85 @@ Table 2
 Summary of cDNA screen for each library and probe.
 
 Probe names comprise the names of the two primers and the annealing temperature used during PCR to generate the probes, separated by underscores</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11686" type="identity">
-            <class id="section" label="section"/>
-            <span end="50699" id="14611657-1043" start="49917">Figure 1
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11686" type="identity">
+      <class id="section" label="section"/>
+      <span end="50699" id="14611657-1043" start="49917">Figure 1
 
 Olfactory receptor genes whose expression in the mouse olfactory epithelium was confirmed in this study. Genes whose expression has been confirmed by our cDNA screen are colored blue on a phylogenetic tree of 1,107 intact mouse olfactory receptors. Genes whose expression was confirmed by PCR methods are colored red (genes listed in Additional data file 1 were confirmed by specific PCR of the cDNA library or reverse-transcribed RNA, and genes confirmed using the class I degenerate primer for RT-PCR are AY317681, AY317698, AY317700, AY317767, AY317773, AY317774, AY317797 and AY317923). Other olfactory receptors are colored gray, and a chemokine outgroup is colored black. Class I olfactory receptors are bracketed, and the remaining olfactory receptors are class II.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11689" type="identity">
-            <class id="section" label="section"/>
-            <span end="50987" id="14611657-1045" start="50701">Figure 2
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11689" type="identity">
+      <class id="section" label="section"/>
+      <span end="50987" id="14611657-1045" start="50701">Figure 2
 
 The cDNA screen suggests different expression levels for different olfactory receptors. Distribution of number of cDNAs observed (dots) and expected (triangles, line) per olfactory receptor gene among 1,176 olfactory receptor cDNAs identified, based on a Poisson distribution.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11692" type="identity">
-            <class id="section" label="section"/>
-            <span end="52178" id="14611657-1047" start="50989">Figure 3
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11692" type="identity">
+      <class id="section" label="section"/>
+      <span end="52178" id="14611657-1047" start="50989">Figure 3
 
 Differential expression levels among six olfactory receptor genes determined by quantitative PCR. (a) Expression levels of olfactory receptor genes can vary by almost 300-fold (for example, genes A and D). Relative expression levels of six selected olfactory receptor genes (A, AY318555; B, AY318107; C, AY318644; D, AY317365; E, AY317773; and F, AY317797) were determined in olfactory epithelium RNA samples from three mice. Expression levels for each gene were first determined relative to a standard curve made using mouse genomic DNA templates, and then values for each mouse were normalized so that a housekeeping gene, ribosomal S16, had a value of 1 (arbitrary units) (not shown). Error bars show one standard deviation (six replicate reactions). Genes E and F (AY317773 and AY317797) are class I olfactory receptors. Numbers of cDNAs observed in our screen are shown under each gene name. (b) Expression levels of each gene are similar, with some variation, among the three mice sampled. Graphs show pairwise comparisons between the three mice sampled, with relative expression levels (arbitrary units) in one mouse plotted along the x-axis and in a second on the y-axis.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11695" type="identity">
-            <class id="bold" label="bold"/>
-            <span end="51100" id="14611657-1049" start="51097">(a)</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11697" type="identity">
-            <class id="bold" label="bold"/>
-            <span end="51899" id="14611657-1051" start="51896">(b)</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11699" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="52142" id="14611657-1053" start="52141">x</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11701" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="52172" id="14611657-1055" start="52171">y</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11703" type="identity">
-            <class id="section" label="section"/>
-            <span end="52710" id="14611657-1057" start="52180">Figure 4
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11695" type="identity">
+      <class id="bold" label="bold"/>
+      <span end="51100" id="14611657-1049" start="51097">(a)</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11697" type="identity">
+      <class id="bold" label="bold"/>
+      <span end="51899" id="14611657-1051" start="51896">(b)</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11699" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="52142" id="14611657-1053" start="52141">x</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11701" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="52172" id="14611657-1055" start="52171">y</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11703" type="identity">
+      <class id="section" label="section"/>
+      <span end="52710" id="14611657-1057" start="52180">Figure 4
 
 Olfactory receptors showing different expression levels. Different expression levels of one pair of olfactory receptors is due to different numbers of expressing cells and different transcript levels per cell. RNA in situ hybridization with digoxigenin-labeled probes for (a) gene A (AY318555) and (b) gene D (AY317365) on coronal sections of the olfactory turbinates of an adult mouse, shown at low magnification and inset (boxed) at high magnification. Endoturbinates II and III and ectoturbinate 3 are labeled in (b).</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11706" type="identity">
-            <class id="italic" label="italic"/>
-            <span end="52411" id="14611657-1059" start="52404">in situ</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11708" type="identity">
-            <class id="bold" label="bold"/>
-            <span end="52465" id="14611657-1061" start="52462">(a)</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11710" type="identity">
-            <class id="bold" label="bold"/>
-            <span end="52491" id="14611657-1063" start="52488">(b)</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11712" type="identity">
-            <class id="section" label="section"/>
-            <span end="52921" id="14611657-1065" start="52712">Figure 5
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11706" type="identity">
+      <class id="italic" label="italic"/>
+      <span end="52411" id="14611657-1059" start="52404">in situ</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11708" type="identity">
+      <class id="bold" label="bold"/>
+      <span end="52465" id="14611657-1061" start="52462">(a)</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11710" type="identity">
+      <class id="bold" label="bold"/>
+      <span end="52491" id="14611657-1063" start="52488">(b)</span>
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11712" type="identity">
+      <class id="section" label="section"/>
+      <span end="52921" id="14611657-1065" start="52712">Figure 5
 
 Many olfactory receptor genes show alternate splicing. Distribution of the number of transcriptional isoforms observed for the 82 olfactory receptors for which we have identified at least four cDNAs.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11715" type="identity">
-            <class id="section" label="section"/>
-            <span end="54962" id="14611657-1067" start="52923">Figure 6
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11715" type="identity">
+      <class id="section" label="section"/>
+      <span end="54962" id="14611657-1067" start="52923">Figure 6
 
 Sixty-two olfactory receptor cDNAs use splice sites within the coding region. The bar at the top represents an alignment of all olfactory receptor proteins, with transmembrane (TM) regions shaded gray and intracellular (IC) and extracellular (EC) loops in white. Above the bar, the jagged line plots information content [51] for each alignment position, with higher values representing residues conserved across more olfactory receptors. cDNAs with atypical splicing are plotted below, aligned appropriately to the consensus representation. Genbank accessions for each cDNA are shown on the right, and where more than one clone represents the same isoform, both names are given, but a composite sequence is drawn. Multiple isoforms from the same gene are grouped by gray background shading. Thick black lines represent cDNA sequence, and thin lines represent intronic sequence (with diagonal slash marks if not drawn to scale). The uppermost two cDNAs encode potentially functional olfactory receptors. A single cDNA drawn as white boxes (CB173065) is cloned into the vector in the reverse orientation. Introns that result in a frameshift relative to the olfactory receptor consensus are drawn as single dashed lines. The first in-frame methionine in the cDNA is marked with an 'M', and the first stop codon 5' to this methionine (if any) is marked with *. Most sequences are incomplete at the 3' end, as represented by paired dotted lines, although two sequences (CB174400 and CB174364), marked with '(A)n', contain the cDNA's poly(A) tail. The 'X' on sequence CB173500 marks an exon that does not align with genomic sequence near the rest of the gene or anywhere else in Celera's mouse genome sequence, and 'TM4' on sequence CB172879 notes an exon that matches to the reverse-complement of the fourth transmembrane domain of the next downstream olfactory receptor gene. For the two lowermost cDNAs, exon order in the cDNA clone is inconsistent with the corresponding genomic sequence, as represented by the curved intron lines.</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11718" type="identity">
-            <class id="section" label="section"/>
-            <span end="55074" id="14611657-1069" start="54964">Table 1
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11718" type="identity">
+      <class id="section" label="section"/>
+      <span end="55074" id="14611657-1069" start="54964">Table 1
 
 Number of olfactory receptors in old (Release 12) and new (Release 13) Celera mouse genome assemblies</span>
-        </annotation>
-        <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11721" type="identity">
-            <class id="section" label="section"/>
-            <span end="55281" id="14611657-1071" start="55076">Table 2
+    </annotation>
+    <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_11721" type="identity">
+      <class id="section" label="section"/>
+      <span end="55281" id="14611657-1071" start="55076">Table 2
 
 Summary of cDNA screen for each library and probe.
 
 Probe names comprise the names of the two primers and the annealing temperature used during PCR to generate the probes, separated by underscores</span>
-        </annotation>
-        <graph-space id="Old Knowtator Relations"/>
-    </document>
+    </annotation>
+    <graph-space id="Old Knowtator Relations"/>
+  </document>
 </knowtator-project>
