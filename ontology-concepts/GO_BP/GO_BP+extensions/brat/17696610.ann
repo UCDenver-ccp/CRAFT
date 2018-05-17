@@ -1,6 +1,5 @@
 T0	GO_0051598 6 26	Pachytene Checkpoint
-T1	GO_0007129 65 72;	Meiotic
-95 103	MeioticSynapsis
+T1	GO_0007129 65 72;95 103	Meiotic Synapsis
 T2	GO_SO_EXT_sequence_rearrangement_process 73 86	Recombination
 T3	GO_0007126 128 135	meiosis
 T4	GO_0007129 137 167	homologous chromosome synapsis
@@ -33,8 +32,7 @@ T30	GO_0007129 1819 1826	synapse
 T31	GO_SO_EXT_sequence_rearrangement_process 1918 1931	recombination
 T32	GO_0007126 1987 2009	meiotic cell divisions
 T33	GO_PATO_EXT_biological_behavior 2036 2044	behavior
-T34	GO_0033313 2098 2105;	meiotic
-2107 2118	meioticcheckpoints
+T34	GO_0033313 2098 2105;2107 2118	meiotic checkpoints
 T35	GO_0065007 2125 2132	monitor
 T36	GO_0007129 2145 2164	chromosome synapsis
 T37	GO_0006281 2169 2189	repair of DNA damage
@@ -115,8 +113,7 @@ T111	GO_0065007 5557 5564	control
 T112	GO_PATO_EXT_biological_localization_process_or_quality 5677 5686	localized
 T113	GO_0000239 5789 5798	pachytene
 T114	GO_0007129 5810 5818	synaptic
-T115	GO_0051598 5897 5906;	pachytene
-5937 5947	pachytenecheckpoint
+T115	GO_0051598 5897 5906;5937 5947	pachytene checkpoint
 T116	GO_0007129 5907 5915	synapsis
 T117	GO_0006302 5925 5935	DSB repair
 T118	GO_0007129 6028 6036	synaptic
@@ -128,8 +125,7 @@ T123	GO_0065007 6142 6149	monitor
 T124	GO_0051598 6333 6353	pachytene checkpoint
 T125	GO_0000075 6400 6410	checkpoint
 T126	GO_0035825 6476 6485	crossover
-T127	GO_0006302 6492 6501;	repair of
-6510 6514	repair ofDSBs
+T127	GO_0006302 6492 6501;6510 6514	repair of DSBs
 T128	GO_0007126 6502 6509	meiotic
 T129	GO_0010467 6545 6554	Expressed
 T130	GO_EXT_reverse_transcription_or_reverse_transcriptase 7102 7104	RT
@@ -189,8 +185,7 @@ T183	GO_0007283 15851 15864	spermatogenic
 T184	GO_0000239 15914 15923	pachytene
 T185	GO_0007126 16057 16064	meiotic
 T186	GO_0007126 16147 16154	meiotic
-T187	GO_0030435 16259 16264;	spore
-16272 16283	sporedevelopment
+T187	GO_0030435 16259 16264;16272 16283	spore development
 T188	GO_0007276 16265 16283	gamete development
 T189	GO_0007129 16327 16357	Homologous Chromosome Synapsis
 T190	GO_0006281 16384 16392	repaired
@@ -270,8 +265,7 @@ T263	GO_0000239 22137 22146	pachynema
 T264	GO_0000077 22162 22183	DNA damage checkpoint
 T265	GO_0007126 22241 22248	meiotic
 T266	GO_0007126 22288 22295	meiotic
-T267	GO_0006342 22296 22308;	silencing of
-22318 22327	silencing ofchromatin
+T267	GO_0006342 22296 22308;22318 22327	silencing of chromatin
 T268	GO_0007129 22311 22317	paired
 T269	GO_0006302 22381 22391	DSB repair
 T270	GO_PATO_EXT_phosphorylation_process 22436 22451	phosphorylation
@@ -302,8 +296,7 @@ T294	GO_0006281 24234 24242	repaired
 T295	GO_0000239 24481 24490	pachytene
 T296	GO_0035825 24515 24517	CO
 T297	GO_0007128 24615 24625	prophase I
-T298	GO_0070194 24803 24817;	degradation of
-24822 24824	degradation ofSC
+T298	GO_0070194 24803 24817;24822 24824	degradation of SC
 T299	GO_0030261 24826 24849	chromosome condensation
 T300	GO_0007132 24880 24891	metaphase I
 T301	GO_0051323 24906 24915	metaphase
@@ -363,8 +356,7 @@ T354	GO_0006302 30562 30572	DSB repair
 T355	GO_0051598 30790 30810	pachytene checkpoint
 T356	GO_0065007 30811 30819	monitors
 T357	GO_EXT_reaction_or_response 30824 30832	responds
-T358	GO_0000725 30836 30851;	recombinational
-30856 30862	recombinationalrepair
+T358	GO_0000725 30836 30851;30856 30862	recombinational repair
 T359	GO_0006302 30852 30862	DSB repair
 T360	GO_0007129 30867 30875	synapsis
 T361	GO_0000077 30925 30942	repair checkpoint
@@ -386,8 +378,7 @@ T376	GO_0007126 31933 31940	meiotic
 T377	GO_SO_EXT_sequence_rearrangement_process 31941 31954	recombination
 T378	GO_0035825 31983 31985	CO
 T379	GO_SO_EXT_sequence_rearrangement_process 32042 32055	recombination
-T380	GO_0007131 32159 32161;	CO
-32173 32186	COrecombination
+T380	GO_0007131 32159 32161;32173 32186	CO recombination
 T381	GO_0035825 32263 32265	CO
 T382	GO_SO_EXT_sequence_rearrangement_process 32303 32314	recombinant
 T383	GO_0000239 32347 32356	pachynema
@@ -414,12 +405,10 @@ T403	GO_0035825 33721 33723	CO
 T404	GO_0006281 33724 33730	repair
 T405	GO_SO_EXT_sequence_rearrangement_process 33865 33878	recombination
 T406	GO_SO_EXT_sequence_rearrangement_process 33951 33964	recombination
-T407	GO_0032984 34031 34045;	disassembly of
-34073 34082	disassembly ofcomplexes
+T407	GO_0032984 34031 34045;34073 34082	disassembly of complexes
 T408	GO_0000725 34050 34072	recombinational repair
 T409	GO_0000239 34153 34162	pachytene
-T410	GO_0043241 34282 34289;	protein
-34305 34324	proteincomplex disassembly
+T410	GO_0043241 34282 34289;34305 34324	protein complex disassembly
 T411	GO_0032986 34293 34324	protein/DNA complex disassembly
 T412	GO_SO_EXT_sequence_rearrangement_process 34347 34360	recombination
 T413	GO_0007126 34391 34398	meiosis
@@ -435,8 +424,7 @@ T422	GO_0007129 35030 35038	synapsis
 T423	GO_0006281 35128 35136	repaired
 T424	GO_0051598 35180 35200	pachytene checkpoint
 T425	GO_EXT_reaction_or_response 35201 35209	response
-T426	GO_0000077 35323 35333;	DNA damage
-35344 35354	DNA damagecheckpoint
+T426	GO_0000077 35323 35333;35344 35354	DNA damage checkpoint
 T427	GO_0051598 35334 35354	pachytene checkpoint
 T428	GO_0007129 35380 35388	synapsis
 T429	GO_0000075 35389 35399	checkpoint
@@ -466,8 +454,7 @@ T452	GO_0007129 38034 38042	synapsis
 T453	GO_0000075 38043 38053	checkpoint
 T454	GO_0016458 38165 38174	silencing
 T455	GO_0000239 38203 38212	pachytene
-T456	GO_0000725 38294 38309;	recombinational
-38314 38320	recombinationalrepair
+T456	GO_0000725 38294 38309;38314 38320	recombinational repair
 T457	GO_0006302 38310 38320	DSB repair
 T458	GO_0000075 38416 38426	checkpoint
 T459	GO_0051598 38488 38508	pachytene checkpoint
@@ -481,9 +468,7 @@ T466	GO_0051598 39074 39094	pachytene checkpoint
 T467	GO_EXT_reverse_transcription_or_reverse_transcriptase 39655 39657	RT
 T468	GO_EXT_reverse_transcription_or_reverse_transcriptase 41244 41246	RT
 T469	GO_0001171 41387 41406	reverse-transcribed
-T470	GO_EXT_antibody_or_immunoglobulin_biosynthesis_or_production 41963 41974;	Development
-41992 41994;	Developmentof
-42003 42013	Developmentofantibodies
+T470	GO_EXT_antibody_or_immunoglobulin_biosynthesis_or_production 41963 41974;41992 41994;42003 42013	Development of antibodies
 T471	GO_0098762 43594 43608	meiotic stages
 T472	GO_0007132 45296 45307	Metaphase I
 T473	GO_0051323 45348 45357	Metaphase
@@ -497,7 +482,6 @@ T480	GO_0035825 47570 47572	CO
 T481	GO_0035825 47575 47584	crossover
 T482	GO_0007126 47620 47627	meiotic
 T483	GO_0007126 47664 47671	meiotic
-T484	GO_0006342 47672 47684;	silencing of
-47694 47703	silencing ofchromatin
+T484	GO_0006342 47672 47684;47694 47703	silencing of chromatin
 T485	GO_0035825 47714 47723	crossover
 T486	GO_EXT_reverse_transcription_or_reverse_transcriptase 47744 47746	RT

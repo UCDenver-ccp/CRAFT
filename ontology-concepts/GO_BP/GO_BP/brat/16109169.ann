@@ -1,7 +1,6 @@
 T0	GO_0090009 69 85	streak formation
 T1	GO_0007369 299 311	gastrulation
-T2	GO_0048598 480 489;	embryonic
-505 518	embryonicmorphogenesis
+T2	GO_0048598 480 489;505 518	embryonic morphogenesis
 T3	GO_0010467 612 622	expression
 T4	GO_0010467 884 894	expression
 T5	GO_0010467 948 958	expression
@@ -11,11 +10,8 @@ T8	GO_0010467 1140 1150	expression
 T9	GO_0010467 1415 1425	expression
 T10	GO_0065007 1894 1900	govern
 T11	GO_0090009 1917 1935	streak development
-T12	GO_0006461 3037 3045;	assembly
-3084 3086;	assemblyof
-3093 3110	assemblyofprotein complexes
-T13	GO_0031503 3075 3086;	location of
-3093 3110	location ofprotein complexes
+T12	GO_0006461 3037 3045;3084 3086;3093 3110	assembly of protein complexes
+T13	GO_0031503 3075 3086;3093 3110	location of protein complexes
 T14	GO_0009987 3269 3287	cellular processes
 T15	GO_0009790 4052 4073	embryonic development
 T16	GO_0007369 4153 4165	gastrulation
@@ -23,14 +19,11 @@ T17	GO_0022008 4231 4243	neurogenesis
 T18	GO_0007567 4252 4257	natal
 T19	GO_0010467 4623 4633	expression
 T20	GO_0007369 4704 4716	gastrulation
-T21	GO_0008595 4958 4991;	anterior/posterior axis formation
-5007 5009;	anterior/posterior axis formationin
-5025 5031	anterior/posterior axis formationinembryo
+T21	GO_0008595 4958 4991;5007 5009;5025 5031	anterior/posterior axis formation in embryo
 T22	GO_0006826 5326 5340	iron transport
 T23	GO_0006897 5410 5421	endocytosis
 T24	GO_0010467 5843 5853	expression
-T25	GO_0048598 5885 5894;	embryonic
-5910 5923	embryonicmorphogenesis
+T25	GO_0048598 5885 5894;5910 5923	embryonic morphogenesis
 T26	GO_0010467 6135 6145	expression
 T27	GO_0048339 6274 6302	paraxial mesoderm production
 T28	GO_0010467 6500 6510	expression
@@ -45,12 +38,8 @@ T36	GO_0010467 7828 7838	expression
 T37	GO_0010467 7880 7890	expression
 T38	GO_0010467 7933 7943	expression
 T39	GO_0010467 8015 8025	expression
-T40	GO_0001714 8090 8103;	specification
-8117 8119;	specificationof
-8138 8146;	specificationofendoderm
-8153 8158	specificationofendodermcells
-T41	GO_0048870 8108 8119;	movement of
-8153 8158	movement ofcells
+T40	GO_0001714 8090 8103;8117 8119;8138 8146;8153 8158	specification of endoderm cells
+T41	GO_0048870 8108 8119;8153 8158	movement of cells
 T42	GO_0010467 8616 8626	expression
 T43	GO_0010467 8659 8669	expression
 T44	GO_0065007 8741 8748	control
@@ -71,10 +60,8 @@ T58	GO_0010467 10964 10973	expressed
 T59	GO_0010467 11030 11039	expressed
 T60	GO_0010467 11192 11199	express
 T61	GO_0010467 11266 11276	expression
-T62	GO_0090009 11486 11498;	formation of
-11508 11524	formation ofprimitive streak
-T63	GO_0048339 11486 11498;	formation of
-11529 11546	formation ofparaxial mesoderm
+T62	GO_0090009 11486 11498;11508 11524	formation of primitive streak
+T63	GO_0048339 11486 11498;11529 11546	formation of paraxial mesoderm
 T64	GO_0010467 11639 11648	expressed
 T65	GO_0010467 11713 11722	expressed
 T66	GO_0010467 11875 11884	expressed
@@ -88,14 +75,11 @@ T73	GO_0048339 13324 13353	paraxial mesoderm development
 T74	GO_0010467 13373 13383	expression
 T75	GO_0010467 13544 13554	expression
 T76	GO_0090009 13751 13777	primitive streak formation
-T77	GO_0048318 13812 13817;	axial
-13831 13849	axialmesoderm formation
+T77	GO_0048318 13812 13817;13831 13849	axial mesoderm formation
 T78	GO_0048339 13822 13849	paraxial mesoderm formation
 T79	GO_0010467 13931 13941	expression
 T80	GO_0046903 14134 14142	secreted
-T81	GO_0090009 14173 14182;	formation
-14199 14201;	formationof
-14206 14222	formationofprimitive streak
+T81	GO_0090009 14173 14182;14199 14201;14206 14222	formation of primitive streak
 T82	GO_0010467 14275 14284	expressed
 T83	GO_0007566 14355 14367	implantation
 T84	GO_0010467 14509 14519	expression
@@ -143,14 +127,12 @@ T125	GO_0010467 20999 21009	expression
 T126	GO_0010467 21073 21083	expression
 T127	GO_0010467 21879 21888	expressed
 T128	GO_0065007 22063 22073	regulating
-T129	GO_0090009 22078 22090;	formation of
-22104 22120	formation ofprimitive streak
+T129	GO_0090009 22078 22090;22104 22120	formation of primitive streak
 T130	GO_0010467 22238 22248	expression
 T131	GO_0010467 22333 22342	expressed
 T132	GO_0010467 22435 22445	expression
 T133	GO_0010467 23224 23233	expressed
-T134	GO_0038092 23334 23339;	Nodal
-23348 23357	Nodalsignaling
+T134	GO_0038092 23334 23339;23348 23357	Nodal signaling
 T135	GO_0016055 23344 23357	Wnt signaling
 T136	GO_0010467 23446 23455	expressed
 T137	GO_0010467 23626 23636	expression
@@ -186,8 +168,7 @@ T166	GO_0048513 28337 28350	organogenesis
 T167	GO_0010467 28566 28573	express
 T168	GO_0007417 29154 29169	CNS development
 T169	GO_0009790 29326 29347	embryonic development
-T170	GO_0009790 29532 29541;	embryonic
-29551 29562	embryonicdevelopment
+T170	GO_0009790 29532 29541;29551 29562	embryonic development
 T171	GO_0007398 29542 29562	ectoderm development
 T172	GO_0090009 29652 29670	streak development
 T173	GO_0010467 29726 29736	expression
@@ -200,10 +181,8 @@ T179	GO_0065007 31199 31209	regulation
 T180	GO_0010467 31232 31242	expression
 T181	GO_0065007 31373 31383	regulation
 T182	GO_0009790 31499 31512	embryogenesis
-T183	GO_0090009 31534 31540;	streak
-31550 31559	streakformation
-T184	GO_0048339 31591 31608;	paraxial mesoderm
-31623 31632	paraxial mesodermformation
+T183	GO_0090009 31534 31540;31550 31559	streak formation
+T184	GO_0048339 31591 31608;31623 31632	paraxial mesoderm formation
 T185	GO_0010467 31687 31696	expressed
 T186	GO_0007565 32596 32607	pregnancies
 T187	GO_0007618 32613 32619	mating

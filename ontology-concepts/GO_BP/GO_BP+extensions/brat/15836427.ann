@@ -97,10 +97,8 @@ T95	GO_EXT_transcription 5163 5176	transcription
 T96	GO_EXT_transcription 5215 5230	transcriptional
 T97	GO_0042551 5260 5279	neuronal maturation
 T98	GO_EXT_transcription 5373 5388	transcriptional
-T99	GO_0014041 5417 5427;	control of
-5440 5459	control ofneuronal maturation
-T100	GO_EXT_neuron_development_or_generation 5476 5490;	development of
-5510 5517	development ofneurons
+T99	GO_0014041 5417 5427;5440 5459	control of neuronal maturation
+T100	GO_EXT_neuron_development_or_generation 5476 5490;5510 5517	development of neurons
 T101	GO_0019230 5491 5505	proprioceptive
 T102	GO_EXT_transcription 5525 5540	transcriptional
 T103	GO_0065007 5551 5560	regulated
@@ -222,8 +220,7 @@ T218	GO_0007067 19054 19061	mitotic
 T219	GO_0008219 19114 19124	cell death
 T220	GO_EXT_neuron_development_or_generation 19174 19186	neurotrophic
 T221	GO_0010467 19237 19247	expression
-T222	GO_0010941 19288 19301;	regulation of
-19323 19333	regulation ofcell death
+T222	GO_0010941 19288 19301;19323 19333	regulation of cell death
 T223	GO_EXT_regulator 19547 19557	regulators
 T224	GO_PATO_EXT_apoptotic_process_or_quality 19615 19624	apoptotic
 T225	GO_0010467 19715 19725	expression
@@ -251,8 +248,7 @@ T246	GO_0010467 22075 22084	expressed
 T247	GO_0010467 22204 22214	expression
 T248	GO_0010467 22297 22307	expression
 T249	GO_SO_EXT_sequence_rearrangement_process 22438 22451	recombination
-T250	GO_0010629 22535 22552;	downregulation of
-22566 22576	downregulation ofexpression
+T250	GO_0010629 22535 22552;22566 22576	downregulation of expression
 T251	GO_EXT_positive_regulation 22580 22592	upregulation
 T252	GO_SO_EXT_sequence_rearrangement_process 22664 22677	recombination
 T253	GO_0010467 22891 22901	expression
@@ -270,8 +266,7 @@ T264	GO_EXT_transcription 23543 23556	transcription
 T265	GO_EXT_cell_communication_or_signaling_or_signal_transduction 23564 23573	signaling
 T266	GO_0010467 23601 23616	gene expression
 T267	GO_0065007 23737 23747	controlled
-T268	GO_0023056 23749 23764;	upregulation of
-23790 23799	upregulation ofsignaling
+T268	GO_0023056 23749 23764;23790 23799	upregulation of signaling
 T269	GO_EXT_transcription 23769 23782	transcription
 T270	GO_0065007 23846 23855	regulated
 T271	GO_EXT_transcription 23870 23885	transcriptional
@@ -281,8 +276,7 @@ T274	GO_EXT_neuron_development_or_generation 24170 24182	neurotrophic
 T275	GO_0010467 24231 24241	expression
 T276	GO_EXT_cell_communication_or_signaling_or_signal_transduction 24260 24269	signaling
 T277	GO_0010467 24306 24316	expression
-T278	GO_0010629 24421 24438;	downregulation of
-24444 24454	downregulation ofexpression
+T278	GO_0010629 24421 24438;24444 24454	downregulation of expression
 T279	GO_0019230 24458 24472	proprioceptive
 T280	GO_EXT_transcription 24543 24558	transcriptional
 T281	GO_EXT_regulator 24559 24568	regulator
@@ -298,8 +292,7 @@ T290	GO_0019230 25363 25377	proprioceptive
 T291	GO_0065007 25391 25401	controlled
 T292	GO_0019230 25513 25527	proprioceptive
 T293	GO_0007067 25548 25555	mitotic
-T294	GO_0010628 25607 25622;	upregulation of
-25648 25658	upregulation ofexpression
+T294	GO_0010628 25607 25622;25648 25658	upregulation of expression
 T295	GO_EXT_transcription 25627 25640	transcription
 T296	GO_EXT_detection_or_sensing_of_stimulus 25759 25766	sensory
 T297	GO_EXT_biological_movement_or_translocation_process 25797 25802	motor
@@ -336,9 +329,7 @@ T327	GO_0065007 28407 28414	control
 T328	GO_0014019 28519 28540	neuroblast generation
 T329	GO_EXT_transcription 28546 28559	transcription
 T330	GO_0065007 28577 28585	controls
-T331	GO_0014018 28586 28599;	specification
-28620 28622;	specificationof
-28634 28645	specificationofneuroblasts
+T331	GO_0014018 28586 28599;28620 28622;28634 28645	specification of neuroblasts
 T332	GO_RO_EXT_developmental_differentiation_process 28604 28619	differentiation
 T333	GO_EXT_reaction_or_response 28758 28766	response
 T334	GO_0010467 28780 28790	expression
@@ -431,8 +422,7 @@ T420	GO_0010467 48134 48144	Expression
 T421	GO_EXT_cell_communication_or_signaling_or_signal_transduction 48203 48212	Signaling
 T422	GO_0010467 48313 48323	expression
 T423	GO_0070997 48550 48569	neuronal cell death
-T424	GO_0008283 48610 48614;	cell
-48628 48641	cellproliferation
+T424	GO_0008283 48610 48614;48628 48641	cell proliferation
 T425	GO_PATO_EXT_apoptotic_process_or_quality 48878 48887	apoptotic
 T426	GO_0010467 49530 49545	Gene Expression
 T427	GO_EXT_cell_communication_or_signaling_or_signal_transduction 49602 49611	Signaling
@@ -455,24 +445,20 @@ T443	GO_0048665 51071 51093	Neuronal Specification
 T444	GO_EXT_reaction_or_response 51136 51144	Response
 T445	GO_EXT_transcription 51152 51165	Transcription
 T446	GO_EXT_cell_communication_or_signaling_or_signal_transduction 51173 51182	Signaling
-T447	GO_0010628 51264 51279;	upregulation of
-51301 51311	upregulation ofexpression
+T447	GO_0010628 51264 51279;51301 51311	upregulation of expression
 T448	GO_EXT_transcription 51280 51293	transcription
-T449	GO_0048665 51319 51335;	specification of
-51340 51347	specification ofneurons
+T449	GO_0048665 51319 51335;51340 51347	specification of neurons
 T450	GO_RO_EXT_developmental_differentiation_process 51377 51392	differentiation
 T451	GO_0010467 51422 51432	Expression
 T452	GO_0010467 51549 51559	expression
 T453	GO_0019230 51616 51630	proprioceptive
 T454	GO_EXT_cell_communication_or_signaling_or_signal_transduction 51684 51693	signaling
-T455	GO_0031175 51725 51741;	establishment of
-51746 51766	establishment ofneuronal projections
+T455	GO_0031175 51725 51741;51746 51766	establishment of neuronal projections
 T456	GO_0010467 51796 51811	gene expression
 T457	GO_EXT_positive_regulation 51824 51836	upregulation
 T458	GO_EXT_negative_regulation 51853 51867	downregulation
 T459	GO_EXT_cell_communication_or_signaling_or_signal_transduction 51905 51914	signaling
-T460	GO_0048665 51940 51956;	specification of
-51980 51987	specification ofneurons
+T460	GO_0048665 51940 51956;51980 51987	specification of neurons
 T461	GO_0019230 51957 51979	proprioceptive sensory
 T462	GO_RO_EXT_developmental_differentiation_process 52015 52030	differentiation
 T463	GO_EXT_transcription 52134 52147	transcription

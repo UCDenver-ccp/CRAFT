@@ -1,10 +1,7 @@
 T0	CL_0000746 4229 4245	cardiac myocytes
-T1	CL_0002211 4536 4542;	type I
-4570 4583	type Imuscle fibers
-T2	CL_0002210 4544 4553;	oxidative
-4570 4583	oxidativemuscle fibers
-T3	CL_0000189 4556 4567;	slow-twitch
-4570 4583	slow-twitchmuscle fibers
+T1	CL_0002211 4536 4542;4570 4583	type I muscle fibers
+T2	CL_0002210 4544 4553;4570 4583	oxidative muscle fibers
+T3	CL_0000189 4556 4567;4570 4583	slow-twitch muscle fibers
 T4	CL_0000182 23693 23704	hepatocytes
 T5	CL_0000182 23811 23822	hepatocytes
 T6	CL_0000182 23981 23992	hepatocytes
@@ -27,8 +24,7 @@ T22	CL_0000540 29449 29457	neuronal
 T23	CL_0000540 29565 29572	neurons
 T24	CL_0000125 29710 29715	glial
 T25	CL_0000127 29757 29767	astrocytic
-T26	CL_0000121 29887 29895;	Purkinje
-29908 29920	Purkinjecell neurons
+T26	CL_0000121 29887 29895;29908 29920	Purkinje cell neurons
 T27	CL_0000120 29900 29920	granule cell neurons
 T28	CL_0000129 29981 29991	microglial
 T29	CL_0000542 30023 30034	lymphocytic
@@ -42,8 +38,7 @@ T36	CL_0000182 35525 35535	hepatocyte
 T37	CL_0000182 35779 35789	hepatocyte
 T38	CL_0000182 35883 35893	hepatocyte
 T39	CL_0000598 38070 38087	pyramidal neurons
-T40	CL_0010012 38080 38090;	neurons of
-38095 38110	neurons ofcerebral cortex
+T40	CL_0010012 38080 38090;38095 38110	neurons of cerebral cortex
 T41	CL_0000127 38160 38170	astrocytes
 T42	CL_0000129 38493 38503	microglial
 T43	CL_0000182 39621 39631	hepatocyte

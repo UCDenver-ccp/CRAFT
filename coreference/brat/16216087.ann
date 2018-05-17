@@ -67,12 +67,9 @@ T65	Noun_Phrase 1146 1152	GluR-B
 T66	Noun_Phrase 1197 1205	behavior
 T67	IDENTITY_chain 1197 1205	behavior
 T68	Noun_Phrase 1220 1226	GluR-B
-T69	Noun_Phrase 1286 1295;	olfactory
-1306 1320	olfactorydiscrimination
-T70	IDENTITY_chain 1286 1295;	olfactory
-1306 1320	olfactorydiscrimination
-T71	Noun_Phrase 1286 1295;	olfactory
-1326 1332	olfactorymemory
+T69	Noun_Phrase 1286 1295;1306 1320	olfactory discrimination
+T70	IDENTITY_chain 1286 1295;1306 1320	olfactory discrimination
+T71	Noun_Phrase 1286 1295;1326 1332	olfactory memory
 T72	Noun_Phrase 1286 1304	olfactory learning
 T73	IDENTITY_chain 1286 1304	olfactory learning
 T74	Noun_Phrase 1362 1380	The sense of smell
@@ -106,16 +103,12 @@ T101	IDENTITY_chain 2607 2763	contrast enhancement [24], for which physiological
 T102	Noun_Phrase 2765 2790	Such contrast enhancement
 T103	Noun_Phrase 2846 2989	dendrodendritic synapses between the principal output neurons (mitral cells) and local inhibitory neurons (granule cells) of the olfactory bulb
 T104	IDENTITY_chain 2846 2989	dendrodendritic synapses between the principal output neurons (mitral cells) and local inhibitory neurons (granule cells) of the olfactory bulb
-T105	Noun_Phrase 2879 2882;	the
-2927 2989	thelocal inhibitory neurons (granule cells) of the olfactory bulb
-T106	IDENTITY_chain 2879 2882;	the
-2927 2989	thelocal inhibitory neurons (granule cells) of the olfactory bulb
+T105	Noun_Phrase 2879 2882;2927 2989	the local inhibitory neurons (granule cells) of the olfactory bulb
+T106	IDENTITY_chain 2879 2882;2927 2989	the local inhibitory neurons (granule cells) of the olfactory bulb
 T107	Noun_Phrase 2879 2907	the principal output neurons
 T108	APPOS_relation 2879 2907	the principal output neurons
-T109	Noun_Phrase 2879 2922;	the principal output neurons (mitral cells)
-2968 2989	the principal output neurons (mitral cells)of the olfactory bulb
-T110	IDENTITY_chain 2879 2922;	the principal output neurons (mitral cells)
-2968 2989	the principal output neurons (mitral cells)of the olfactory bulb
+T109	Noun_Phrase 2879 2922;2968 2989	the principal output neurons (mitral cells) of the olfactory bulb
+T110	IDENTITY_chain 2879 2922;2968 2989	the principal output neurons (mitral cells) of the olfactory bulb
 T111	Noun_Phrase 2879 2989	the principal output neurons (mitral cells) and local inhibitory neurons (granule cells) of the olfactory bulb
 T112	IDENTITY_chain 2879 2989	the principal output neurons (mitral cells) and local inhibitory neurons (granule cells) of the olfactory bulb
 T113	Noun_Phrase 2909 2921	mitral cells
@@ -200,10 +193,8 @@ T191	Noun_Phrase 6313 6358	Mice with forebrain-specific GluR-B depletion
 T192	IDENTITY_chain 6313 6358	Mice with forebrain-specific GluR-B depletion
 T193	Noun_Phrase 6323 6358	forebrain-specific GluR-B depletion
 T194	Noun_Phrase 6504 6522	olfactory behavior
-T195	Noun_Phrase 6568 6577;	olfactory
-6588 6602	olfactorydiscrimination
-T196	Noun_Phrase 6568 6577;	olfactory
-6608 6614	olfactorymemory
+T195	Noun_Phrase 6568 6577;6588 6602	olfactory discrimination
+T196	Noun_Phrase 6568 6577;6608 6614	olfactory memory
 T197	Noun_Phrase 6568 6586	olfactory learning
 T198	IDENTITY_chain 6568 6586	olfactory learning
 T199	Noun_Phrase 6616 6618	we
@@ -222,8 +213,7 @@ T211	Noun_Phrase 7050 7056	GluR-B
 T212	Noun_Phrase 7085 7090	brain
 T213	Noun_Phrase 7134 7136	we
 T214	Noun_Phrase 7168 7174	GluR-B
-T215	Noun_Phrase 7178 7187;	olfactory
-7207 7213	olfactorymemory
+T215	Noun_Phrase 7178 7187;7207 7213	olfactory memory
 T216	Noun_Phrase 7178 7202	olfactory discrimination
 T217	Noun_Phrase 7242 7247	brain
 T218	Noun_Phrase 7304 7306	we
@@ -234,12 +224,9 @@ T222	Noun_Phrase 7368 7383	piriform cortex
 T223	Noun_Phrase 7388 7399	hippocampus
 T224	Noun_Phrase 7503 7508	AMPAR
 T225	Noun_Phrase 7532 7537	brain
-T226	Noun_Phrase 7549 7553;	odor
-7564 7578	odordiscrimination
-T227	Noun_Phrase 7549 7553;	odor
-7584 7590	odormemory
-T228	IDENTITY_chain 7549 7553;	odor
-7584 7590	odormemory
+T226	Noun_Phrase 7549 7553;7564 7578	odor discrimination
+T227	Noun_Phrase 7549 7553;7584 7590	odor memory
+T228	IDENTITY_chain 7549 7553;7584 7590	odor memory
 T229	Noun_Phrase 7549 7553	odor
 T230	Noun_Phrase 7549 7562	odor learning
 T231	IDENTITY_chain 7549 7562	odor learning
@@ -250,8 +237,7 @@ T235	IDENTITY_chain 7602 7611	GluR-B(Q)
 T236	Noun_Phrase 7602 7639	GluR-B(Q) Expression in the Forebrain
 T237	IDENTITY_chain 7602 7639	GluR-B(Q) Expression in the Forebrain
 T238	Noun_Phrase 7626 7639	the Forebrain
-T239	Noun_Phrase 7650 7659;	Olfactory
-7673 7687	OlfactoryDiscrimination
+T239	Noun_Phrase 7650 7659;7673 7687	Olfactory Discrimination
 T240	Noun_Phrase 7650 7668	Olfactory Learning
 T241	Noun_Phrase 7775 7779	AMPA
 T242	Noun_Phrase 7813 7815	we
@@ -295,10 +281,8 @@ T279	Noun_Phrase 8538 8547	forebrain
 T280	Noun_Phrase 8569 8575	TK-neo
 T281	Noun_Phrase 8604 8614	GluR-B?ECS
 T282	Noun_Phrase 8626 8662	Q/R site-unedited GluR-B(Q) subunits
-T283	Noun_Phrase 8664 8671;	Figures
-8678 8680	FiguresS1
-T284	IDENTITY_chain 8664 8671;	Figures
-8678 8680	FiguresS1
+T283	Noun_Phrase 8664 8671;8678 8680	Figures S1
+T284	IDENTITY_chain 8664 8671;8678 8680	Figures S1
 T285	Noun_Phrase 8664 8673	Figures 1
 T286	IDENTITY_chain 8664 8673	Figures 1
 T287	Noun_Phrase 8797 8801	Ca2+
@@ -333,13 +317,10 @@ T315	Noun_Phrase 9425 9430	their
 T316	Noun_Phrase 9449 9458	Figure 1B
 T317	IDENTITY_chain 9449 9458	Figure 1B
 T318	Noun_Phrase 9466 9479	GluR-B?ECS:FB
-T319	Noun_Phrase 9466 9479;	GluR-B?ECS:FB
-9492 9496	GluR-B?ECS:FBmice
+T319	Noun_Phrase 9466 9479;9492 9496	GluR-B?ECS:FB mice
 T320	Noun_Phrase 9484 9496	control mice
-T321	Noun_Phrase 9548 9571;	the monomolecular odors
-9588 9601	the monomolecular odorsethylbutyrate
-T322	IDENTITY_chain 9548 9571;	the monomolecular odors
-9588 9601	the monomolecular odorsethylbutyrate
+T321	Noun_Phrase 9548 9571;9588 9601	the monomolecular odors ethylbutyrate
+T322	IDENTITY_chain 9548 9571;9588 9601	the monomolecular odors ethylbutyrate
 T323	Noun_Phrase 9548 9583	the monomolecular odors amylacetate
 T324	IDENTITY_chain 9548 9583	the monomolecular odors amylacetate
 T325	Noun_Phrase 9548 9601	the monomolecular odors amylacetate and ethylbutyrate
@@ -400,8 +381,7 @@ T379	Noun_Phrase 11053 11067	GluR-B?FB Mice
 T380	IDENTITY_chain 11053 11067	GluR-B?FB Mice
 T381	Noun_Phrase 11076 11122	Increased Olfactory Discrimination Performance
 T382	IDENTITY_chain 11076 11122	Increased Olfactory Discrimination Performance
-T383	Noun_Phrase 11140 11148;	enhanced
-11172 11191	enhancedodor discrimination
+T383	Noun_Phrase 11140 11148;11172 11191	enhanced odor discrimination
 T384	Noun_Phrase 11140 11167	enhanced olfactory learning
 T385	IDENTITY_chain 11140 11167	enhanced olfactory learning
 T386	Noun_Phrase 11172 11176	odor
@@ -427,12 +407,9 @@ T405	Noun_Phrase 11624 11644	immunohistochemistry
 T406	IDENTITY_chain 11624 11644	immunohistochemistry
 T407	Noun_Phrase 11714 11716	we
 T408	Noun_Phrase 11723 11729	GluR-B
-T409	Noun_Phrase 11797 11800;	the
-11814 11828	thecortical areas
-T410	IDENTITY_chain 11797 11800;	the
-11814 11828	thecortical areas
-T411	Noun_Phrase 11797 11800;	the
-11834 11848	theolfactory bulb
+T409	Noun_Phrase 11797 11800;11814 11828	the cortical areas
+T410	IDENTITY_chain 11797 11800;11814 11828	the cortical areas
+T411	Noun_Phrase 11797 11800;11834 11848	the olfactory bulb
 T412	Noun_Phrase 11797 11812	the hippocampus
 T413	Noun_Phrase 11876 11882	GluR-B
 T414	Noun_Phrase 11893 11903	GluR-B2lox
@@ -473,10 +450,8 @@ T448	Noun_Phrase 13243 13257	GluR-B?FB mice
 T449	Noun_Phrase 13482 13486	Ca2+
 T450	Noun_Phrase 13503 13520	the AMPA channels
 T451	Noun_Phrase 13507 13511	AMPA
-T452	Noun_Phrase 13535 13548;	enhanced odor
-13568 13576	enhanced odorlearning
-T453	IDENTITY_chain 13535 13548;	enhanced odor
-13568 13576	enhanced odorlearning
+T452	Noun_Phrase 13535 13548;13568 13576	enhanced odor learning
+T453	IDENTITY_chain 13535 13548;13568 13576	enhanced odor learning
 T454	Noun_Phrase 13535 13563	enhanced odor discrimination
 T455	Noun_Phrase 13535 13576	enhanced odor discrimination and learning
 T456	IDENTITY_chain 13535 13576	enhanced odor discrimination and learning
@@ -504,12 +479,10 @@ T477	Noun_Phrase 13902 13962	“simple” monomolecular odors and “difficult” binary
 T478	IDENTITY_chain 13935 13962	“difficult” binary mixtures
 T479	IDENTITY_chain 13935 13962	“difficult” binary mixtures
 T480	Noun_Phrase 13935 13962	“difficult” binary mixtures
-T481	Noun_Phrase 13987 13996;	GluR-B?FB
-14009 14013	GluR-B?FBmice
+T481	Noun_Phrase 13987 13996;14009 14013	GluR-B?FB mice
 T482	Noun_Phrase 13987 13996	GluR-B?FB
 T483	Noun_Phrase 14001 14013	control mice
-T484	Noun_Phrase 14051 14083;	the “simple” monomolecular odors
-14100 14113	the “simple” monomolecular odorsethylbutyrate
+T484	Noun_Phrase 14051 14083;14100 14113	the “simple” monomolecular odors ethylbutyrate
 T485	Noun_Phrase 14051 14095	the “simple” monomolecular odors amylacetate
 T486	Noun_Phrase 14051 14113	the “simple” monomolecular odors amylacetate and ethylbutyrate
 T487	Noun_Phrase 14148 14241	a “difficult” discrimination task consisting of similar binary mixtures of cineol and eugenol
@@ -522,17 +495,12 @@ T493	IDENTITY_chain 14234 14241	eugenol
 T494	Noun_Phrase 14264 14351	a “simple” discrimination task with the monomolecular odors pelargonic and valeric acid
 T495	IDENTITY_chain 14264 14351	a “simple” discrimination task with the monomolecular odors pelargonic and valeric acid
 T496	Noun_Phrase 14275 14289	discrimination
-T497	Noun_Phrase 14300 14323;	the monomolecular odors
-14339 14351	the monomolecular odorsvaleric acid
-T498	IDENTITY_chain 14300 14323;	the monomolecular odors
-14339 14351	the monomolecular odorsvaleric acid
-T499	Noun_Phrase 14300 14334;	the monomolecular odors pelargonic
-14347 14351	the monomolecular odors pelargonicacid
-T500	IDENTITY_chain 14300 14334;	the monomolecular odors pelargonic
-14347 14351	the monomolecular odors pelargonicacid
+T497	Noun_Phrase 14300 14323;14339 14351	the monomolecular odors valeric acid
+T498	IDENTITY_chain 14300 14323;14339 14351	the monomolecular odors valeric acid
+T499	Noun_Phrase 14300 14334;14347 14351	the monomolecular odors pelargonic acid
+T500	IDENTITY_chain 14300 14334;14347 14351	the monomolecular odors pelargonic acid
 T501	Noun_Phrase 14364 14377	GluR-B?ECS:FB
-T502	Noun_Phrase 14364 14377;	GluR-B?ECS:FB
-14389 14393	GluR-B?ECS:FBmice
+T502	Noun_Phrase 14364 14377;14389 14393	GluR-B?ECS:FB mice
 T503	Noun_Phrase 14379 14388	GluR-B?FB
 T504	Noun_Phrase 14379 14393	GluR-B?FB mice
 T505	Noun_Phrase 14457 14465	controls
@@ -543,16 +511,13 @@ T509	Noun_Phrase 14529 14543	discrimination
 T510	Noun_Phrase 14637 14747	the more challenging “difficult” discrimination task that is closer to the psychophysical limits of the system
 T511	Noun_Phrase 14670 14684	discrimination
 T512	Noun_Phrase 14804 14813	GluR-B?FB
-T513	Noun_Phrase 14804 14813;	GluR-B?FB
-14826 14830	GluR-B?FBmice
+T513	Noun_Phrase 14804 14813;14826 14830	GluR-B?FB mice
 T514	Noun_Phrase 14818 14830	control mice
 T515	Noun_Phrase 14855 14884	the detailed sampling pattern
 T516	IDENTITY_chain 14855 14884	the detailed sampling pattern
 T517	Noun_Phrase 14889 14903	discrimination
-T518	Noun_Phrase 14929 14935;	Figure
-14943 14945	Figure2D
-T519	IDENTITY_chain 14929 14935;	Figure
-14943 14945	Figure2D
+T518	Noun_Phrase 14929 14935;14943 14945	Figure 2D
+T519	IDENTITY_chain 14929 14935;14943 14945	Figure 2D
 T520	Noun_Phrase 14929 14938	Figure 2C
 T521	IDENTITY_chain 14929 14938	Figure 2C
 T522	Noun_Phrase 15199 15232	the “simple” discrimination tasks
@@ -568,8 +533,7 @@ T531	Noun_Phrase 15560 15598	depletion of GluR-B in forebrain areas
 T532	Noun_Phrase 15573 15579	GluR-B
 T533	Noun_Phrase 15583 15592	forebrain
 T534	Noun_Phrase 15583 15598	forebrain areas
-T535	Noun_Phrase 15618 15637;	increased olfactory
-15651 15678	increased olfactorydiscrimination performances
+T535	Noun_Phrase 15618 15637;15651 15678	increased olfactory discrimination performances
 T536	Noun_Phrase 15728 15737	olfaction
 T537	Noun_Phrase 15751 15753	we
 T538	Noun_Phrase 15762 15780	ten GluR-B?FB mice
@@ -592,8 +556,7 @@ T554	Noun_Phrase 16146 16151	smell
 T555	Noun_Phrase 16176 16210	enhanced discrimination capability
 T556	Noun_Phrase 16185 16199	discrimination
 T557	Noun_Phrase 16285 16289	odor
-T558	Noun_Phrase 16313 16326;	GluR-B?ECS:FB
-16341 16345	GluR-B?ECS:FBmice
+T558	Noun_Phrase 16313 16326;16341 16345	GluR-B?ECS:FB mice
 T559	Noun_Phrase 16313 16326	GluR-B?ECS:FB
 T560	Noun_Phrase 16331 16340	GluR-B?FB
 T561	Noun_Phrase 16331 16345	GluR-B?FB mice
@@ -605,8 +568,7 @@ T566	Noun_Phrase 16467 16473	GluR-B
 T567	Noun_Phrase 16544 16565	Ca2+-permeable AMPARs
 T568	Noun_Phrase 16602 16606	Ca2+
 T569	Noun_Phrase 16618 16624	AMPARs
-T570	Noun_Phrase 16634 16652;	enhanced olfactory
-16666 16680	enhanced olfactorydiscrimination
+T570	Noun_Phrase 16634 16652;16666 16680	enhanced olfactory discrimination
 T571	Noun_Phrase 16634 16661	enhanced olfactory learning
 T572	Noun_Phrase 16683 16699	Olfactory Memory
 T573	Noun_Phrase 16750 16759	GluR-B?FB
@@ -626,8 +588,7 @@ T586	Noun_Phrase 17028 17047	odor discrimination
 T587	Noun_Phrase 17049 17060	amylacetate
 T588	Noun_Phrase 17068 17081	ethylbutyrate
 T589	Noun_Phrase 17084 17127	the training trials for the third odor pair
-T590	Noun_Phrase 17129 17139;	pelargonic
-17155 17159	pelargonicacid
+T590	Noun_Phrase 17129 17139;17155 17159	pelargonic acid
 T591	Noun_Phrase 17147 17159	valeric acid
 T592	Noun_Phrase 17210 17221	amylacetate
 T593	Noun_Phrase 17225 17238	ethylbutyrate
@@ -768,8 +729,7 @@ T727	Noun_Phrase 21671 21686	forebrain areas
 T728	Noun_Phrase 21767 21773	GluR-B
 T729	Noun_Phrase 21784 21799	the hippocampus
 T730	Noun_Phrase 21804 21818	cortical areas
-T731	Noun_Phrase 21820 21833;	Enhanced odor
-21847 21861	Enhanced odordiscrimination
+T731	Noun_Phrase 21820 21833;21847 21861	Enhanced odor discrimination
 T732	Noun_Phrase 21820 21842	Enhanced odor learning
 T733	Noun_Phrase 21820 21861	Enhanced odor learning and discrimination
 T734	Noun_Phrase 21829 21833	odor
@@ -777,8 +737,7 @@ T735	Noun_Phrase 21910 21916	GluR-B
 T736	Noun_Phrase 21927 21945	the olfactory bulb
 T737	Noun_Phrase 21956 21965	forebrain
 T738	Noun_Phrase 21998 22004	GluR-B
-T739	Noun_Phrase 22043 22056;	enhanced odor
-22070 22084	enhanced odordiscrimination
+T739	Noun_Phrase 22043 22056;22070 22084	enhanced odor discrimination
 T740	Noun_Phrase 22043 22065	enhanced odor learning
 T741	Noun_Phrase 22043 22084	enhanced odor learning and discrimination
 T742	Noun_Phrase 22052 22056	odor
@@ -789,10 +748,8 @@ T746	Noun_Phrase 22220 22261	the phenotypes regarding olfactory memory
 T747	IDENTITY_chain 22220 22261	the phenotypes regarding olfactory memory
 T748	Noun_Phrase 22245 22261	olfactory memory
 T749	Noun_Phrase 22403 22409	GluR-B
-T750	Noun_Phrase 22424 22435;	Hippocampus
-22456 22473	Hippocampusin GluR-B?FB Mice
-T751	IDENTITY_chain 22424 22435;	Hippocampus
-22456 22473	Hippocampusin GluR-B?FB Mice
+T750	Noun_Phrase 22424 22435;22456 22473	Hippocampus in GluR-B?FB Mice
+T751	IDENTITY_chain 22424 22435;22456 22473	Hippocampus in GluR-B?FB Mice
 T752	Noun_Phrase 22424 22473	Hippocampus and Piriform Cortex in GluR-B?FB Mice
 T753	IDENTITY_chain 22424 22473	Hippocampus and Piriform Cortex in GluR-B?FB Mice
 T754	Noun_Phrase 22440 22473	Piriform Cortex in GluR-B?FB Mice
@@ -807,12 +764,9 @@ T762	Noun_Phrase 22641 22657	olfactory memory
 T763	Noun_Phrase 22659 22689	The olfactory memory phenotype
 T764	Noun_Phrase 22729 22745	olfactory cortex
 T765	Noun_Phrase 22749 22760	hippocampus
-T766	Noun_Phrase 22762 22770;	enhanced
-22784 22811	enhanceddiscrimination capabilities
-T767	Noun_Phrase 22762 22779;	enhanced learning
-22799 22811	enhanced learningcapabilities
-T768	IDENTITY_chain 22762 22779;	enhanced learning
-22799 22811	enhanced learningcapabilities
+T766	Noun_Phrase 22762 22770;22784 22811	enhanced discrimination capabilities
+T767	Noun_Phrase 22762 22779;22799 22811	enhanced learning capabilities
+T768	IDENTITY_chain 22762 22779;22799 22811	enhanced learning capabilities
 T769	Noun_Phrase 22784 22798	discrimination
 T770	Noun_Phrase 22863 22881	the olfactory bulb
 T771	Noun_Phrase 22975 22996	Ca2+-permeable AMPARs
@@ -820,16 +774,13 @@ T772	Noun_Phrase 22998 23000	we
 T773	Noun_Phrase 23044 23069	green fluorescent protein
 T774	APPOS_relation 23044 23069	green fluorescent protein
 T775	Noun_Phrase 23071 23074	GFP
-T776	Noun_Phrase 23106 23117;	hippocampus
-23138 23155	hippocampusof GluR-B?FB mice
+T776	Noun_Phrase 23106 23117;23138 23155	hippocampus of GluR-B?FB mice
 T777	Noun_Phrase 23106 23155	hippocampus and piriform cortex of GluR-B?FB mice
 T778	Noun_Phrase 23122 23155	piriform cortex of GluR-B?FB mice
 T779	Noun_Phrase 23141 23150	GluR-B?FB
 T780	Noun_Phrase 23141 23155	GluR-B?FB mice
-T781	Noun_Phrase 23157 23163;	Figure
-23171 23173	Figure5B
-T782	IDENTITY_chain 23157 23163;	Figure
-23171 23173	Figure5B
+T781	Noun_Phrase 23157 23163;23171 23173	Figure 5B
+T782	IDENTITY_chain 23157 23163;23171 23173	Figure 5B
 T783	Noun_Phrase 23157 23166	Figure 5A
 T784	IDENTITY_chain 23157 23166	Figure 5A
 T785	Noun_Phrase 23227 23229	we
@@ -859,10 +810,8 @@ T808	Noun_Phrase 23780 23789	Figure 5A
 T809	Noun_Phrase 23800 23821	Materials and Methods
 T810	Noun_Phrase 23859 23868	GFPGluR-B
 T811	Noun_Phrase 23897 23912	the hippocampus
-T812	Noun_Phrase 23947 23953;	Figure
-23961 23963	Figure5D
-T813	IDENTITY_chain 23947 23953;	Figure
-23961 23963	Figure5D
+T812	Noun_Phrase 23947 23953;23961 23963	Figure 5D
+T813	IDENTITY_chain 23947 23953;23961 23963	Figure 5D
 T814	Noun_Phrase 23947 23956	Figure 5C
 T815	IDENTITY_chain 23947 23956	Figure 5C
 T816	Noun_Phrase 23978 23993	?-galactosidase
@@ -886,27 +835,21 @@ T833	Noun_Phrase 24385 24397	GluR-BRescue
 T834	Noun_Phrase 24404 24438	both GluR-B?FB and GluR-B2lox mice
 T835	IDENTITY_chain 24404 24438	both GluR-B?FB and GluR-B2lox mice
 T836	Noun_Phrase 24409 24418	GluR-B?FB
-T837	Noun_Phrase 24409 24418;	GluR-B?FB
-24434 24438	GluR-B?FBmice
+T837	Noun_Phrase 24409 24418;24434 24438	GluR-B?FB mice
 T838	Noun_Phrase 24423 24433	GluR-B2lox
 T839	Noun_Phrase 24423 24438	GluR-B2lox mice
 T840	IDENTITY_chain 24423 24438	GluR-B2lox mice
 T841	Noun_Phrase 24520 24529	Figure 6A
 T842	IDENTITY_chain 24520 24529	Figure 6A
 T843	Noun_Phrase 24532 24538	Memory
-T844	Noun_Phrase 24572 24586;	both GluR-B?FB
-24605 24619;	both GluR-B?FBand GluR-B2lox
-24637 24641	both GluR-B?FBand GluR-B2loxmice
+T844	Noun_Phrase 24572 24586;24605 24619;24637 24641	both GluR-B?FB and GluR-B2lox mice
 T845	Noun_Phrase 24577 24586	GluR-B?FB
-T846	Noun_Phrase 24577 24586;	GluR-B?FB
-24637 24641	GluR-B?FBmice
+T846	Noun_Phrase 24577 24586;24637 24641	GluR-B?FB mice
 T847	Noun_Phrase 24609 24619	GluR-B2lox
-T848	Noun_Phrase 24609 24619;	GluR-B2lox
-24637 24641	GluR-B2loxmice
+T848	Noun_Phrase 24609 24619;24637 24641	GluR-B2lox mice
 T849	Noun_Phrase 24657 24686	experiments performed earlier
 T850	IDENTITY_chain 24657 24686	experiments performed earlier
-T851	Noun_Phrase 24688 24695;	Figures
-24703 24705	Figures4A
+T851	Noun_Phrase 24688 24695;24703 24705	Figures 4A
 T852	Noun_Phrase 24688 24698	Figures 2E
 T853	Noun_Phrase 24741 24753	GluR-BRescue
 T854	Noun_Phrase 24741 24758	GluR-BRescue mice
@@ -920,16 +863,12 @@ T861	Noun_Phrase 25025 25045	increased extinction
 T862	Noun_Phrase 25047 25057	Figure S3B
 T863	IDENTITY_chain 25047 25057	Figure S3B
 T864	Noun_Phrase 25070 25114	the experiments described in Figures 2 and 4
-T865	Noun_Phrase 25099 25106;	Figures
-25113 25114	Figures4
-T866	IDENTITY_chain 25099 25106;	Figures
-25113 25114	Figures4
+T865	Noun_Phrase 25099 25106;25113 25114	Figures 4
+T866	IDENTITY_chain 25099 25106;25113 25114	Figures 4
 T867	Noun_Phrase 25099 25108	Figures 2
 T868	IDENTITY_chain 25099 25108	Figures 2
-T869	Noun_Phrase 25162 25168;	Figure
-25176 25178	Figure6B
-T870	IDENTITY_chain 25162 25168;	Figure
-25176 25178	Figure6B
+T869	Noun_Phrase 25162 25168;25176 25178	Figure 6B
+T870	IDENTITY_chain 25162 25168;25176 25178	Figure 6B
 T871	Noun_Phrase 25162 25171	Figure 6A
 T872	Noun_Phrase 25193 25205	GluR-BRescue
 T873	Noun_Phrase 25193 25210	GluR-BRescue mice
@@ -982,10 +921,8 @@ T919	Noun_Phrase 26498 26502	odor
 T920	Noun_Phrase 26498 26517	odor discrimination
 T921	Noun_Phrase 26531 26555	the discrimination index
 T922	Noun_Phrase 26535 26549	discrimination
-T923	Noun_Phrase 26562 26569;	Figures
-26573 26574	Figures2
-T924	Noun_Phrase 26562 26569;	Figures
-26580 26582	Figures4D
+T923	Noun_Phrase 26562 26569;26573 26574	Figures 2
+T924	Noun_Phrase 26562 26569;26580 26582	Figures 4D
 T925	Noun_Phrase 26562 26571	Figures 1
 T926	Noun_Phrase 26606 26615	GluR-B?FB
 T927	Noun_Phrase 26606 26620	GluR-B?FB mice
@@ -1008,26 +945,20 @@ T943	IDENTITY_chain 27114 27129	GluR-B knockout
 T944	Noun_Phrase 27150 27173	the odor memory deficit
 T945	IDENTITY_chain 27150 27173	the odor memory deficit
 T946	Noun_Phrase 27154 27158	odor
-T947	Noun_Phrase 27185 27203;	enhanced olfactory
-27223 27231	enhanced olfactorylearning
+T947	Noun_Phrase 27185 27203;27223 27231	enhanced olfactory learning
 T948	Noun_Phrase 27185 27218	enhanced olfactory discrimination
 T949	Noun_Phrase 27261 27263	we
-T950	Noun_Phrase 27311 27320;	olfactory
-27337 27345	olfactorylearning
-T951	Noun_Phrase 27311 27320;	olfactory
-27351 27357	olfactorymemory
+T950	Noun_Phrase 27311 27320;27337 27345	olfactory learning
+T951	Noun_Phrase 27311 27320;27351 27357	olfactory memory
 T952	Noun_Phrase 27311 27335	olfactory discrimination
 T953	Noun_Phrase 27359 27361	We
 T954	Noun_Phrase 27499 27503	AMPA
 T955	Noun_Phrase 27546 27551	mouse
-T956	Noun_Phrase 27573 27587;	olfactory bulb
-27599 27612	olfactory bulbgranule cells
+T956	Noun_Phrase 27573 27587;27599 27612	olfactory bulb granule cells
 T957	Noun_Phrase 27573 27587	olfactory bulb
-T958	Noun_Phrase 27573 27594;	olfactory bulb mitral
-27607 27612	olfactory bulb mitralcells
+T958	Noun_Phrase 27573 27594;27607 27612	olfactory bulb mitral cells
 T959	Noun_Phrase 27573 27612	olfactory bulb mitral and granule cells
-T960	Noun_Phrase 27623 27632;	olfactory
-27652 27660	olfactorylearning
+T960	Noun_Phrase 27623 27632;27652 27660	olfactory learning
 T961	Noun_Phrase 27623 27647	olfactory discrimination
 T962	Noun_Phrase 27673 27689	olfactory memory
 T963	Noun_Phrase 27744 27853	a go/no-go operant conditioning task, which provides a quantitative, robust, and reproducible behavioral tool
@@ -1045,8 +976,7 @@ T974	Noun_Phrase 28243 28248	AMPAR
 T975	Noun_Phrase 28267 28273	GluR-B
 T976	Noun_Phrase 28267 28282	GluR-B ablation
 T977	Noun_Phrase 28297 28301	Ca2+
-T978	Noun_Phrase 28348 28357;	olfactory
-28377 28385	olfactorylearning
+T978	Noun_Phrase 28348 28357;28377 28385	olfactory learning
 T979	Noun_Phrase 28348 28372	olfactory discrimination
 T980	Noun_Phrase 28454 28457	Cre
 T981	Noun_Phrase 28500 28505	AMPAR
@@ -1066,21 +996,18 @@ T994	Noun_Phrase 28926 28942	olfactory memory
 T995	Noun_Phrase 28985 28991	GluR-B
 T996	Noun_Phrase 29042 29057	piriform cortex
 T997	Noun_Phrase 29060 29084	Olfactory Discrimination
-T998	Noun_Phrase 29111 29129;	Forebrain-Specific
-29149 29169	Forebrain-SpecificGluR-B(Q) Expression
+T998	Noun_Phrase 29111 29129;29149 29169	Forebrain-Specific GluR-B(Q) Expression
 T999	Noun_Phrase 29111 29145	Forebrain-Specific GluR-B Ablation
 T1000	IDENTITY_chain 29111 29145	Forebrain-Specific GluR-B Ablation
 T1001	Noun_Phrase 29130 29136	GluR-B
 T1002	Noun_Phrase 29149 29158	GluR-B(Q)
-T1003	Noun_Phrase 29176 29194;	forebrain-specific
-29220 29236	forebrain-specificGluR-B depletion
+T1003	Noun_Phrase 29176 29194;29220 29236	forebrain-specific GluR-B depletion
 T1004	Noun_Phrase 29176 29215	forebrain-specific GluR-B(Q) expression
 T1005	Noun_Phrase 29195 29204	GluR-B(Q)
 T1006	Noun_Phrase 29220 29226	GluR-B
 T1007	Noun_Phrase 29244 29304	increased olfactory learning and discrimination capabilities
 T1008	IDENTITY_chain 29244 29304	increased olfactory learning and discrimination capabilities
-T1009	Noun_Phrase 29254 29263;	olfactory
-29277 29291	olfactorydiscrimination
+T1009	Noun_Phrase 29254 29263;29277 29291	olfactory discrimination
 T1010	Noun_Phrase 29254 29272	olfactory learning
 T1011	Noun_Phrase 29306 29310	This
 T1012	Noun_Phrase 29442 29448	GluR-B
@@ -1127,8 +1054,7 @@ T1052	Noun_Phrase 31126 31148	The learning phenotype
 T1053	IDENTITY_chain 31126 31148	The learning phenotype
 T1054	Noun_Phrase 31175 31214	this enhanced discrimination capability
 T1055	Noun_Phrase 31189 31203	discrimination
-T1056	Noun_Phrase 31314 31327;	Enhanced Odor
-31347 31355	Enhanced OdorLearning
+T1056	Noun_Phrase 31314 31327;31347 31355	Enhanced Odor Learning
 T1057	Noun_Phrase 31314 31342	Enhanced Odor Discrimination
 T1058	Noun_Phrase 31314 31355	Enhanced Odor Discrimination and Learning
 T1059	Noun_Phrase 31323 31327	Odor
@@ -1139,8 +1065,7 @@ T1063	Noun_Phrase 31414 31429	forebrain areas
 T1064	Noun_Phrase 31444 31458	olfactory bulb
 T1065	Noun_Phrase 31460 31476	olfactory cortex
 T1066	Noun_Phrase 31507 31518	hippocampus
-T1067	Noun_Phrase 31531 31544;	enhanced odor
-31564 31572	enhanced odorlearning
+T1067	Noun_Phrase 31531 31544;31564 31572	enhanced odor learning
 T1068	Noun_Phrase 31531 31559	enhanced odor discrimination
 T1069	Noun_Phrase 31531 31572	enhanced odor discrimination and learning
 T1070	Noun_Phrase 31540 31544	odor
@@ -1149,14 +1074,11 @@ T1072	Noun_Phrase 31627 31641	GluR-B?FB mice
 T1073	Noun_Phrase 31678 31693	piriform cortex
 T1074	Noun_Phrase 31698 31709	hippocampus
 T1075	Noun_Phrase 31743 31761	the olfactory bulb
-T1076	Noun_Phrase 31777 31785;	enhanced
-31805 31826	enhancedlearning capabilities
-T1077	Noun_Phrase 31777 31800;	enhanced discrimination
-31814 31826	enhanced discriminationcapabilities
+T1076	Noun_Phrase 31777 31785;31805 31826	enhanced learning capabilities
+T1077	Noun_Phrase 31777 31800;31814 31826	enhanced discrimination capabilities
 T1078	Noun_Phrase 31786 31800	discrimination
 T1079	Noun_Phrase 31870 31888	the olfactory bulb
-T1080	Noun_Phrase 31892 31901;	olfactory
-31921 31929	olfactorylearning
+T1080	Noun_Phrase 31892 31901;31921 31929	olfactory learning
 T1081	Noun_Phrase 31892 31916	olfactory discrimination
 T1082	Noun_Phrase 31946 31971	transgenic protein levels
 T1083	IDENTITY_chain 31946 31971	transgenic protein levels
@@ -1171,8 +1093,7 @@ T1091	Noun_Phrase 32299 32339	mice expressing Q/R site-unedited GluR-B
 T1092	IDENTITY_chain 32299 32339	mice expressing Q/R site-unedited GluR-B
 T1093	Noun_Phrase 32315 32339	Q/R site-unedited GluR-B
 T1094	Noun_Phrase 32359 32363	odor
-T1095	Noun_Phrase 32359 32363;	odor
-32377 32391	odordiscrimination
+T1095	Noun_Phrase 32359 32363;32377 32391	odor discrimination
 T1096	Noun_Phrase 32359 32372	odor learning
 T1097	Noun_Phrase 32418 32443	mice with depleted GluR-B
 T1098	IDENTITY_chain 32418 32443	mice with depleted GluR-B
@@ -1200,18 +1121,15 @@ T1119	Noun_Phrase 33104 33131	the seizure-prone phenotype
 T1120	IDENTITY_chain 33104 33131	the seizure-prone phenotype
 T1121	Noun_Phrase 33138 33155	both mouse models
 T1122	Noun_Phrase 33143 33148	mouse
-T1123	Noun_Phrase 33162 33170;	enhanced
-33190 33209	enhancedlearning capability
-T1124	Noun_Phrase 33162 33185;	enhanced discrimination
-33199 33209	enhanced discriminationcapability
+T1123	Noun_Phrase 33162 33170;33190 33209	enhanced learning capability
+T1124	Noun_Phrase 33162 33185;33199 33209	enhanced discrimination capability
 T1125	Noun_Phrase 33171 33185	discrimination
 T1126	Noun_Phrase 33237 33243	GluR-B
 T1127	Noun_Phrase 33237 33253	GluR-B depletion
 T1128	Noun_Phrase 33285 33290	AMPAR
 T1129	Noun_Phrase 33366 33370	Ca2+
 T1130	Noun_Phrase 33445 33450	brain
-T1131	Noun_Phrase 33563 33567;	mice
-33601 33615	micelacking GluR-B
+T1131	Noun_Phrase 33563 33567;33601 33615	mice lacking GluR-B
 T1132	Noun_Phrase 33563 33588	mice expressing GluR-B(Q)
 T1133	Noun_Phrase 33579 33588	GluR-B(Q)
 T1134	Noun_Phrase 33609 33615	GluR-B
@@ -1224,8 +1142,7 @@ T1140	IDENTITY_chain 33630 33633	PHS
 T1141	Noun_Phrase 33665 33689	GluR-B-containing AMPARs
 T1142	IDENTITY_chain 33665 33689	GluR-B-containing AMPARs
 T1143	Noun_Phrase 33719 33801	the dendrodendritic synapse between mitral and granule cells in the olfactory bulb
-T1144	Noun_Phrase 33755 33761;	mitral
-33774 33801	mitralcells in the olfactory bulb
+T1144	Noun_Phrase 33755 33761;33774 33801	mitral cells in the olfactory bulb
 T1145	Noun_Phrase 33755 33801	mitral and granule cells in the olfactory bulb
 T1146	Noun_Phrase 33766 33801	granule cells in the olfactory bulb
 T1147	Noun_Phrase 33783 33801	the olfactory bulb
@@ -1294,21 +1211,14 @@ T1209	Noun_Phrase 36737 36739	We
 T1210	Noun_Phrase 36764 36801	forebrain-specific ablation of GluR-B
 T1211	Noun_Phrase 36795 36801	GluR-B
 T1212	Noun_Phrase 36832 36858	long-term olfactory memory
-T1213	Noun_Phrase 36885 36913;	enhanced odor discrimination
-36927 36939	enhanced odor discriminationcapabilities
+T1213	Noun_Phrase 36885 36913;36927 36939	enhanced odor discrimination capabilities
 T1214	Noun_Phrase 36894 36898	odor
-T1215	Noun_Phrase 36894 36898;	odor
-36918 36926	odorlearning
+T1215	Noun_Phrase 36894 36898;36918 36926	odor learning
 T1216	Noun_Phrase 36894 36913	odor discrimination
-T1217	Noun_Phrase 36953 36956;	the
-36973 36981;	thelearning
-36994 37004	thelearningphenotypes
-T1218	Noun_Phrase 36953 36956;	the
-36987 37004	thememory phenotypes
-T1219	Noun_Phrase 36953 36971;	the discrimination
-36994 37004	the discriminationphenotypes
-T1220	IDENTITY_chain 36953 36971;	the discrimination
-36994 37004	the discriminationphenotypes
+T1217	Noun_Phrase 36953 36956;36973 36981;36994 37004	the learning phenotypes
+T1218	Noun_Phrase 36953 36956;36987 37004	the memory phenotypes
+T1219	Noun_Phrase 36953 36971;36994 37004	the discrimination phenotypes
+T1220	IDENTITY_chain 36953 36971;36994 37004	the discrimination phenotypes
 T1221	Noun_Phrase 36957 36971	discrimination
 T1222	Noun_Phrase 36987 36993	memory
 T1223	Noun_Phrase 37061 37063	we
@@ -1320,8 +1230,7 @@ T1228	Noun_Phrase 37133 37155	residual GluR-B levels
 T1229	IDENTITY_chain 37133 37155	residual GluR-B levels
 T1230	Noun_Phrase 37142 37148	GluR-B
 T1231	Noun_Phrase 37244 37250	levels
-T1232	Noun_Phrase 37272 37276;	odor
-37287 37301	odordiscrimination
+T1232	Noun_Phrase 37272 37276;37287 37301	odor discrimination
 T1233	Noun_Phrase 37272 37276	odor
 T1234	Noun_Phrase 37272 37285	odor learning
 T1235	Noun_Phrase 37307 37323	olfactory memory
@@ -1406,10 +1315,8 @@ T1313	Noun_Phrase 40969 40985	GluR-B depletion
 T1314	Noun_Phrase 41192 41198	GluR-B
 T1315	Noun_Phrase 41213 41222	GluR-B(Q)
 T1316	Noun_Phrase 41237 41252	piriform cortex
-T1317	Noun_Phrase 41392 41395;	the
-41415 41434	thelearning phenotypes
-T1318	Noun_Phrase 41392 41410;	the discrimination
-41424 41434	the discriminationphenotypes
+T1317	Noun_Phrase 41392 41395;41415 41434	the learning phenotypes
+T1318	Noun_Phrase 41392 41410;41424 41434	the discrimination phenotypes
 T1319	Noun_Phrase 41440 41460	the memory phenotype
 T1320	Noun_Phrase 41484 41550	increased variability in the memory of the GluR-B knockout animals
 T1321	IDENTITY_chain 41484 41550	increased variability in the memory of the GluR-B knockout animals
@@ -1448,26 +1355,21 @@ T1353	APPOS_relation 42899 42949	the advantages of “classical” genetic manipulat
 T1354	Noun_Phrase 42950 43009	namely, that the target of the manipulation is well defined
 T1355	Noun_Phrase 43185 43187	we
 T1356	Noun_Phrase 43237 43242	AMPAR
-T1357	Noun_Phrase 43260 43283;	quantitative behavioral
-43298 43306	quantitative behavioralanalyses
-T1358	IDENTITY_chain 43260 43283;	quantitative behavioral
-43298 43306	quantitative behavioralanalyses
+T1357	Noun_Phrase 43260 43283;43298 43306	quantitative behavioral analyses
+T1358	IDENTITY_chain 43260 43283;43298 43306	quantitative behavioral analyses
 T1359	Noun_Phrase 43308 43310	We
 T1360	Noun_Phrase 43370 43376	GluR-B
 T1361	Noun_Phrase 43404 43408	Ca2+
 T1362	Noun_Phrase 43420 43426	AMPARs
-T1363	Noun_Phrase 43430 43439;	olfactory
-43469 43475	olfactorymemory
+T1363	Noun_Phrase 43430 43439;43469 43475	olfactory memory
 T1364	Noun_Phrase 43492 43510	the olfactory bulb
 T1365	Noun_Phrase 43515 43530	piriform cortex
 T1366	Noun_Phrase 43563 43565	we
 T1367	Noun_Phrase 43622 43628	GluR-B
 T1368	Noun_Phrase 43622 43637	GluR-B ablation
 T1369	Noun_Phrase 43680 43684	odor
-T1370	Noun_Phrase 43680 43684;	odor
-43704 43718	odordiscrimination
-T1371	Noun_Phrase 43680 43684;	odor
-43723 43731	odorlearning
+T1370	Noun_Phrase 43680 43684;43704 43718	odor discrimination
+T1371	Noun_Phrase 43680 43684;43723 43731	odor learning
 T1372	Noun_Phrase 43680 43691	odor memory
 T1373	Noun_Phrase 43776 43782	GluR-B
 T1374	Noun_Phrase 43850 43856	GluR-B
@@ -1482,18 +1384,14 @@ T1382	Noun_Phrase 44241 44254	GluR-B?ECS:FB
 T1383	Noun_Phrase 44241 44259	GluR-B?ECS:FB mice
 T1384	Noun_Phrase 44274 44281	C57Bl/6
 T1385	IDENTITY_chain 44274 44281	C57Bl/6
-T1386	Noun_Phrase 44274 44281;	C57Bl/6
-44291 44309	C57Bl/6genetic background
-T1387	IDENTITY_chain 44274 44281;	C57Bl/6
-44291 44309	C57Bl/6genetic background
-T1388	Noun_Phrase 44329 44335;	TgCre4
-44378 44382	TgCre4mice
+T1386	Noun_Phrase 44274 44281;44291 44309	C57Bl/6 genetic background
+T1387	IDENTITY_chain 44274 44281;44291 44309	C57Bl/6 genetic background
+T1388	Noun_Phrase 44329 44335;44378 44382	TgCre4 mice
 T1389	Noun_Phrase 44329 44335	TgCre4
 T1390	APPOS_relation 44329 44335	TgCre4
 T1391	Noun_Phrase 44337 44355	“Camkcre4” in [59]
 T1392	Noun_Phrase 44361 44372	GluR-B+/neo
-T1393	Noun_Phrase 44361 44372;	GluR-B+/neo
-44378 44382	GluR-B+/neomice
+T1393	Noun_Phrase 44361 44372;44378 44382	GluR-B+/neo mice
 T1394	Noun_Phrase 44384 44395	GluR-B+/neo
 T1395	Noun_Phrase 44384 44400	GluR-B+/neo mice
 T1396	Noun_Phrase 44409 44425	wild-type GluR-B
@@ -1515,8 +1413,7 @@ T1411	Noun_Phrase 44676 44690	GluR-B?FB mice
 T1412	Noun_Phrase 44699 44706	C57Bl/6
 T1413	Noun_Phrase 44699 44725	C57Bl/6 genetic background
 T1414	Noun_Phrase 44745 44751	TgCre4
-T1415	Noun_Phrase 44745 44751;	TgCre4
-44767 44771	TgCre4mice
+T1415	Noun_Phrase 44745 44751;44767 44771	TgCre4 mice
 T1416	Noun_Phrase 44756 44771	GluR-B2lox mice
 T1417	Noun_Phrase 44773 44784	TgCN12-itTA
 T1418	IDENTITY_chain 44773 44784	TgCN12-itTA
@@ -1536,14 +1433,10 @@ T1431	Noun_Phrase 45397 45417	Transgenic GFPGluR-B
 T1432	Noun_Phrase 45465 45471	TgOCN1
 T1433	IDENTITY_chain 45465 45471	TgOCN1
 T1434	Noun_Phrase 45465 45476	TgOCN1 mice
-T1435	Noun_Phrase 45581 45585;	Mice
-45614 45671	Miceheterozygous for the TK-neo cassette in the GluR-B allele
-T1436	APPOS_relation 45581 45585;	Mice
-45614 45671	Miceheterozygous for the TK-neo cassette in the GluR-B allele
-T1437	Noun_Phrase 45581 45585;	Mice
-45691 45723	Micehomozygous for the floxed GluR-B
-T1438	APPOS_relation 45581 45585;	Mice
-45691 45723	Micehomozygous for the floxed GluR-B
+T1435	Noun_Phrase 45581 45585;45614 45671	Mice heterozygous for the TK-neo cassette in the GluR-B allele
+T1436	APPOS_relation 45581 45585;45614 45671	Mice heterozygous for the TK-neo cassette in the GluR-B allele
+T1437	Noun_Phrase 45581 45585;45691 45723	Mice homozygous for the floxed GluR-B
+T1438	APPOS_relation 45581 45585;45691 45723	Mice homozygous for the floxed GluR-B
 T1439	Noun_Phrase 45603 45609	TgCre4
 T1440	Noun_Phrase 45673 45686	GluR-B?ECS:FB
 T1441	Noun_Phrase 45725 45734	GluR-B?FB
@@ -1572,10 +1465,8 @@ T1463	Noun_Phrase 46143 46158	GluR-B2lox/2lox
 T1464	IDENTITY_chain 46143 46158	GluR-B2lox/2lox
 T1465	Noun_Phrase 46160 46164	both
 T1466	Noun_Phrase 46178 46184	TgCre4
-T1467	Noun_Phrase 46241 46248;	Figures
-46252 46253	Figures4
-T1468	Noun_Phrase 46241 46248;	Figures
-46259 46260	Figures6
+T1467	Noun_Phrase 46241 46248;46252 46253	Figures 4
+T1468	Noun_Phrase 46241 46248;46259 46260	Figures 6
 T1469	Noun_Phrase 46241 46250	Figures 2
 T1470	Noun_Phrase 46266 46294	the GluR-BRescue experiments
 T1471	Noun_Phrase 46270 46282	GluR-BRescue
@@ -1657,8 +1548,7 @@ T1546	IDENTITY_chain 48211 48216	X-gal
 T1547	Noun_Phrase 48281 48286	Mouse
 T1548	Noun_Phrase 48281 48293	Mouse brains
 T1549	IDENTITY_chain 48281 48293	Mouse brains
-T1550	Noun_Phrase 48312 48315;	the
-48329 48343	theolfactory bulb
+T1550	Noun_Phrase 48312 48315;48329 48343	the olfactory bulb
 T1551	Noun_Phrase 48312 48327	the hippocampus
 T1552	Noun_Phrase 48359 48368	forebrain
 T1553	Noun_Phrase 48422 48433	immunoblots
@@ -1782,14 +1672,10 @@ T1670	Noun_Phrase 53402 53410	the beam
 T1671	Noun_Phrase 53441 53459	an unrewarded odor
 T1672	IDENTITY_chain 53441 53459	an unrewarded odor
 T1673	Noun_Phrase 53460 53468	the head
-T1674	Noun_Phrase 53521 53524;	the
-53538 53553	theunrewarded odor
-T1675	Noun_Phrase 53521 53533;	the rewarded
-53549 53553	the rewardedodor
-T1676	Noun_Phrase 53582 53589;	Figures
-53594 53596	Figures1E
-T1677	Noun_Phrase 53582 53589;	Figures
-53602 53604	Figures2D
+T1674	Noun_Phrase 53521 53524;53538 53553	the unrewarded odor
+T1675	Noun_Phrase 53521 53533;53549 53553	the rewarded odor
+T1676	Noun_Phrase 53582 53589;53594 53596	Figures 1E
+T1677	Noun_Phrase 53582 53589;53602 53604	Figures 2D
 T1678	Noun_Phrase 53582 53592	Figures 1D
 T1679	Noun_Phrase 53640 53670	the discrimination performance
 T1680	Noun_Phrase 53644 53658	discrimination
@@ -1803,12 +1689,9 @@ T1687	Noun_Phrase 53932 53937	< 200
 T1688	Noun_Phrase 53939 53948	the slope
 T1689	IDENTITY_chain 53939 53948	the slope
 T1690	Noun_Phrase 54050 54064	discrimination
-T1691	Noun_Phrase 54082 54089;	Figures
-54094 54096	Figures2C
-T1692	Noun_Phrase 54082 54089;	Figures
-54098 54100	Figures4D
-T1693	Noun_Phrase 54082 54089;	Figures
-54106 54108	Figures6C
+T1691	Noun_Phrase 54082 54089;54094 54096	Figures 2C
+T1692	Noun_Phrase 54082 54089;54098 54100	Figures 4D
+T1693	Noun_Phrase 54082 54089;54106 54108	Figures 6C
 T1694	Noun_Phrase 54082 54092	Figures 1F
 T1695	Noun_Phrase 54215 54232	Identical results
 T1696	IDENTITY_chain 54215 54232	Identical results
@@ -1870,11 +1753,8 @@ T1751	Noun_Phrase 56715 56720	block
 T1752	Noun_Phrase 56786 56808	repeated measure ANOVA
 T1753	Noun_Phrase 56846 56851	block
 T1754	Noun_Phrase 56864 56870	memory
-T1755	Noun_Phrase 56886 56889;	the
-56915 56924;	theGluR-B?FB
-56934 56938	theGluR-B?FBmice
-T1756	Noun_Phrase 56886 56902;	the GluR-BRescue
-56934 56938	the GluR-BRescuemice
+T1755	Noun_Phrase 56886 56889;56915 56924;56934 56938	the GluR-B?FB mice
+T1756	Noun_Phrase 56886 56902;56934 56938	the GluR-BRescue mice
 T1757	Noun_Phrase 56890 56902	GluR-BRescue
 T1758	Noun_Phrase 56915 56924	GluR-B?FB
 T1759	Noun_Phrase 57076 57085	GluR-B?FB
@@ -1933,15 +1813,11 @@ T1811	Noun_Phrase 58183 58195	mitral cells
 T1812	APPOS_relation 58183 58195	mitral cells
 T1813	Noun_Phrase 58197 58199	MC
 T1814	Noun_Phrase 58334 58343	Figure S2
-T1815	Noun_Phrase 58360 58369;	GluR-B?FB
-58411 58415	GluR-B?FBMice
+T1815	Noun_Phrase 58360 58369;58411 58415	GluR-B?FB Mice
 T1816	Noun_Phrase 58360 58369	GluR-B?FB
-T1817	Noun_Phrase 58383 58401;	Littermate Control
-58411 58415	Littermate ControlMice
-T1818	Noun_Phrase 58594 58603;	Figure S3
-58657 58658	Figure S3A
-T1819	Noun_Phrase 58594 58603;	Figure S3
-59268 59269	Figure S3B
+T1817	Noun_Phrase 58383 58401;58411 58415	Littermate Control Mice
+T1818	Noun_Phrase 58594 58603;58657 58658	Figure S3 A
+T1819	Noun_Phrase 58594 58603;59268 59269	Figure S3 B
 T1820	Noun_Phrase 58605 58611	Memory
 T1821	Noun_Phrase 58605 58619	Memory Deficit
 T1822	Noun_Phrase 58634 58654	Increased Extinction
@@ -1949,10 +1825,8 @@ T1823	Noun_Phrase 58660 58666	Memory
 T1824	Noun_Phrase 58705 58742	the experiment described in Figure 2E
 T1825	IDENTITY_chain 58705 58742	the experiment described in Figure 2E
 T1826	Noun_Phrase 58733 58742	Figure 2E
-T1827	Noun_Phrase 58744 58758;	nine GluR-B?FB
-58787 58794	nine GluR-B?FBanimals
-T1828	IDENTITY_chain 58744 58758;	nine GluR-B?FB
-58787 58794	nine GluR-B?FBanimals
+T1827	Noun_Phrase 58744 58758;58787 58794	nine GluR-B?FB animals
+T1828	IDENTITY_chain 58744 58758;58787 58794	nine GluR-B?FB animals
 T1829	Noun_Phrase 58749 58758	GluR-B?FB
 T1830	Noun_Phrase 58763 58794	nine GluR-B2lox control animals
 T1831	IDENTITY_chain 58763 58794	nine GluR-B2lox control animals
@@ -2027,25 +1901,16 @@ T1899	Noun_Phrase 61343 61344	R
 T1900	APPOS_relation 61343 61344	R
 T1901	Noun_Phrase 61347 61355	arginine
 T1902	Noun_Phrase 61377 61385	Figure 1
-T1903	Noun_Phrase 61377 61385;	Figure 1
-61456 61457	Figure 1A
-T1904	Noun_Phrase 61377 61385;	Figure 1
-61897 61898	Figure 1B
-T1905	Noun_Phrase 61377 61385;	Figure 1
-62429 62430	Figure 1C
-T1906	Noun_Phrase 61377 61385;	Figure 1
-62845 62846	Figure 1D
-T1907	Noun_Phrase 61377 61385;	Figure 1
-63094 63095	Figure 1E
-T1908	Noun_Phrase 61377 61385;	Figure 1
-63144 63145	Figure 1D
-T1909	Noun_Phrase 61377 61385;	Figure 1
-63273 63274	Figure 1F
-T1910	Noun_Phrase 61377 61385;	Figure 1
-63280 63281	Figure 1C
+T1903	Noun_Phrase 61377 61385;61456 61457	Figure 1 A
+T1904	Noun_Phrase 61377 61385;61897 61898	Figure 1 B
+T1905	Noun_Phrase 61377 61385;62429 62430	Figure 1 C
+T1906	Noun_Phrase 61377 61385;62845 62846	Figure 1 D
+T1907	Noun_Phrase 61377 61385;63094 63095	Figure 1 E
+T1908	Noun_Phrase 61377 61385;63144 63145	Figure 1 D
+T1909	Noun_Phrase 61377 61385;63273 63274	Figure 1 F
+T1910	Noun_Phrase 61377 61385;63280 63281	Figure 1 C
 T1911	Noun_Phrase 61387 61391	Odor
-T1912	Noun_Phrase 61387 61391;	Odor
-61405 61419	OdorDiscrimination
+T1912	Noun_Phrase 61387 61391;61405 61419	Odor Discrimination
 T1913	Noun_Phrase 61387 61400	Odor Learning
 T1914	Noun_Phrase 61387 61419	Odor Learning and Discrimination
 T1915	IDENTITY_chain 61387 61419	Odor Learning and Discrimination
@@ -2056,8 +1921,7 @@ T1919	Noun_Phrase 61536 61559	the loxP-flanked TK-neo
 T1920	APPOS_relation 61536 61559	the loxP-flanked TK-neo
 T1921	Noun_Phrase 61561 61581	TK-neo pA, GluR-Bneo
 T1922	Noun_Phrase 61594 61703	intron 11, which is acting as a suppressor in expression from the Q/R site editing deficient GluR-Bneo allele
-T1923	Noun_Phrase 61705 61709;	Exon
-61717 61719	Exon11
+T1923	Noun_Phrase 61705 61709;61717 61719	Exon 11
 T1924	Noun_Phrase 61727 61765	membrane-spanning segments 1, 2, and 3
 T1925	APPOS_relation 61727 61765	membrane-spanning segments 1, 2, and 3
 T1926	Noun_Phrase 61767 61775	M1, 2, 3
@@ -2107,19 +1971,15 @@ T1969	Noun_Phrase 62824 62826	EB
 T1970	APPOS_relation 62824 62826	EB
 T1971	Noun_Phrase 62828 62841	ethylbutyrate
 T1972	Noun_Phrase 62856 62860	head
-T1973	Noun_Phrase 62908 62911;	the
-62951 62953;	theS?
-62960 62964	theS?odor
-T1974	Noun_Phrase 62908 62914;	the S+
-62960 62964	the S+odor
+T1973	Noun_Phrase 62908 62911;62951 62953;62960 62964	the S? odor
+T1974	Noun_Phrase 62908 62914;62960 62964	the S+ odor
 T1975	Noun_Phrase 62996 63010	the light beam
 T1976	Noun_Phrase 63012 63016	head
 T1977	Noun_Phrase 63020 63037	the sampling port
 T1978	Noun_Phrase 63059 63063	head
 T1979	Noun_Phrase 63079 63090	the S? odor
 T1980	Noun_Phrase 63123 63127	head
-T1981	Noun_Phrase 63151 63153;	S+
-63161 63166	S+odors
+T1981	Noun_Phrase 63151 63153;63161 63166	S+ odors
 T1982	Noun_Phrase 63158 63166	S? odors
 T1983	Noun_Phrase 63188 63201	sigmoidal fit
 T1984	IDENTITY_chain 63188 63201	sigmoidal fit
@@ -2129,23 +1989,15 @@ T1987	Noun_Phrase 63251 63269	the fitted sigmoid
 T1988	Noun_Phrase 63297 63321	the discrimination index
 T1989	Noun_Phrase 63301 63315	discrimination
 T1990	Noun_Phrase 63394 63402	Figure 2
-T1991	Noun_Phrase 63394 63402;	Figure 2
-63497 63498	Figure 2A
-T1992	Noun_Phrase 63394 63402;	Figure 2
-63599 63600	Figure 2B
-T1993	Noun_Phrase 63394 63402;	Figure 2
-63605 63606	Figure 2C
-T1994	Noun_Phrase 63394 63402;	Figure 2
-64070 64071	Figure 2C
-T1995	Noun_Phrase 63394 63402;	Figure 2
-64201 64202	Figure 2D
-T1996	Noun_Phrase 63394 63402;	Figure 2
-64428 64429	Figure 2E
-T1997	Noun_Phrase 63394 63402;	Figure 2
-64599 64600	Figure 2C
+T1991	Noun_Phrase 63394 63402;63497 63498	Figure 2 A
+T1992	Noun_Phrase 63394 63402;63599 63600	Figure 2 B
+T1993	Noun_Phrase 63394 63402;63605 63606	Figure 2 C
+T1994	Noun_Phrase 63394 63402;64070 64071	Figure 2 C
+T1995	Noun_Phrase 63394 63402;64201 64202	Figure 2 D
+T1996	Noun_Phrase 63394 63402;64428 64429	Figure 2 E
+T1997	Noun_Phrase 63394 63402;64599 64600	Figure 2 C
 T1998	Noun_Phrase 63404 63408	Odor
-T1999	Noun_Phrase 63404 63408;	Odor
-63422 63436	OdorDiscrimination
+T1999	Noun_Phrase 63404 63408;63422 63436	Odor Discrimination
 T2000	Noun_Phrase 63404 63417	Odor Learning
 T2001	Noun_Phrase 63404 63436	Odor Learning and Discrimination
 T2002	Noun_Phrase 63454 63458	Odor
@@ -2172,8 +2024,7 @@ T2022	Noun_Phrase 64363 64372	GluR-B?FB
 T2023	Noun_Phrase 64431 64447	Olfactory memory
 T2024	Noun_Phrase 64464 64488	nine littermate controls
 T2025	Noun_Phrase 64464 64526	nine littermate controls (black) and nine GluR-B?FB (red) mice
-T2026	Noun_Phrase 64501 64515;	nine GluR-B?FB
-64522 64526	nine GluR-B?FBmice
+T2026	Noun_Phrase 64501 64515;64522 64526	nine GluR-B?FB mice
 T2027	Noun_Phrase 64506 64515	GluR-B?FB
 T2028	Noun_Phrase 64528 64544	Olfactory memory
 T2029	Noun_Phrase 64618 64640	the Pel and Val trials
@@ -2202,10 +2053,8 @@ T2051	APPOS_relation 64759 64762	Val
 T2052	Noun_Phrase 64764 64776	valeric acid
 T2053	Noun_Phrase 64779 64787	Figure 3
 T2054	IDENTITY_chain 64779 64787	Figure 3
-T2055	Noun_Phrase 64779 64787;	Figure 3
-64842 64843	Figure 3A
-T2056	Noun_Phrase 64779 64787;	Figure 3
-65125 65126	Figure 3B
+T2055	Noun_Phrase 64779 64787;64842 64843	Figure 3 A
+T2056	Noun_Phrase 64779 64787;65125 65126	Figure 3 B
 T2057	Noun_Phrase 64804 64807	Cre
 T2058	Noun_Phrase 64822 64839	Mouse Line TgCre4
 T2059	Noun_Phrase 64854 64857	Cre
@@ -2219,24 +2068,16 @@ T2066	Noun_Phrase 65071 65076	eosin
 T2067	Noun_Phrase 65177 65182	mouse
 T2068	Noun_Phrase 65195 65201	TgCre4
 T2069	Noun_Phrase 65228 65231	Cre
-T2070	Noun_Phrase 65275 65288;	the wild-type
-65339 65346	the wild-typealleles
+T2070	Noun_Phrase 65275 65288;65339 65346	the wild-type alleles
 T2071	Noun_Phrase 65279 65288	wild-type
 T2072	Noun_Phrase 65349 65357	Figure 4
-T2073	Noun_Phrase 65349 65357;	Figure 4
-65504 65505	Figure 4A
-T2074	Noun_Phrase 65349 65357;	Figure 4
-65765 65768	Figure 4B–C
-T2075	IDENTITY_chain 65349 65357;	Figure 4
-65765 65768	Figure 4B–C
-T2076	Noun_Phrase 65349 65357;	Figure 4
-65916 65917	Figure 4B
-T2077	Noun_Phrase 65349 65357;	Figure 4
-65916 65923	Figure 4B and C
-T2078	Noun_Phrase 65349 65357;	Figure 4
-65922 65923	Figure 4C
-T2079	Noun_Phrase 65349 65357;	Figure 4
-66459 66460	Figure 4D
+T2073	Noun_Phrase 65349 65357;65504 65505	Figure 4 A
+T2074	Noun_Phrase 65349 65357;65765 65768	Figure 4 B–C
+T2075	IDENTITY_chain 65349 65357;65765 65768	Figure 4 B–C
+T2076	Noun_Phrase 65349 65357;65916 65917	Figure 4 B
+T2077	Noun_Phrase 65349 65357;65916 65923	Figure 4 B and C
+T2078	Noun_Phrase 65349 65357;65922 65923	Figure 4 C
+T2079	Noun_Phrase 65349 65357;66459 66460	Figure 4 D
 T2080	Noun_Phrase 65359 65375	Olfactory Memory
 T2081	Noun_Phrase 65384 65388	Odor
 T2082	Noun_Phrase 65384 65412	Odor Learning/Discrimination
@@ -2291,16 +2132,11 @@ T2130	Noun_Phrase 67183 67197	discrimination
 T2131	Noun_Phrase 67208 67231	last 100 mixture trials
 T2132	Noun_Phrase 67268 67282	discrimination
 T2133	Noun_Phrase 67406 67414	Figure 5
-T2134	Noun_Phrase 67406 67414;	Figure 5
-67494 67495	Figure 5A
-T2135	Noun_Phrase 67406 67414;	Figure 5
-67878 67879	Figure 5B
-T2136	Noun_Phrase 67406 67414;	Figure 5
-68257 68258	Figure 5C
-T2137	Noun_Phrase 67406 67414;	Figure 5
-68383 68384	Figure 5D
-T2138	Noun_Phrase 67406 67414;	Figure 5
-68416 68417	Figure 5C
+T2134	Noun_Phrase 67406 67414;67494 67495	Figure 5 A
+T2135	Noun_Phrase 67406 67414;67878 67879	Figure 5 B
+T2136	Noun_Phrase 67406 67414;68257 68258	Figure 5 C
+T2137	Noun_Phrase 67406 67414;68383 68384	Figure 5 D
+T2138	Noun_Phrase 67406 67414;68416 68417	Figure 5 C
 T2139	Noun_Phrase 67425 67436	Hippocampus
 T2140	Noun_Phrase 67441 67456	Piriform Cortex
 T2141	Noun_Phrase 67471 67491	Transgenic GFPGluR-B
@@ -2332,12 +2168,9 @@ T2166	Noun_Phrase 68230 68233	GFP
 T2167	Noun_Phrase 68422 68442	transgenic GFPGluR-B
 T2168	Noun_Phrase 68478 68493	the hippocampus
 T2169	Noun_Phrase 68496 68504	Figure 6
-T2170	Noun_Phrase 68496 68504;	Figure 6
-68610 68611	Figure 6A
-T2171	Noun_Phrase 68496 68504;	Figure 6
-68998 68999	Figure 6B
-T2172	Noun_Phrase 68496 68504;	Figure 6
-69529 69530	Figure 6C
+T2170	Noun_Phrase 68496 68504;68610 68611	Figure 6 A
+T2171	Noun_Phrase 68496 68504;68998 68999	Figure 6 B
+T2172	Noun_Phrase 68496 68504;69529 69530	Figure 6 C
 T2173	Noun_Phrase 68506 68512	GluR-B
 T2174	Noun_Phrase 68527 68538	Hippocampus
 T2175	Noun_Phrase 68543 68552	Forebrain
@@ -2350,8 +2183,7 @@ T2181	Noun_Phrase 68677 68689	GluR-BRescue
 T2182	Noun_Phrase 68722 68740	control GluR-B2lox
 T2183	Noun_Phrase 68761 68770	GluR-B?FB
 T2184	Noun_Phrase 68791 68803	GluR-BRescue
-T2185	Noun_Phrase 68848 68854;	Figure
-68861 68862	Figure4
+T2185	Noun_Phrase 68848 68854;68861 68862	Figure 4
 T2186	Noun_Phrase 68848 68856	Figure 3
 T2187	Noun_Phrase 68917 68926	GluR-B?FB
 T2188	Noun_Phrase 68965 68977	GluR-BRescue
@@ -2375,15 +2207,13 @@ T2205	Noun_Phrase 69486 69492	memory
 T2206	Noun_Phrase 69508 69520	GluR-BRescue
 T2207	Noun_Phrase 69508 69525	GluR-BRescue mice
 T2208	Noun_Phrase 69532 69556	The discrimination index
-T2209	Noun_Phrase 69578 69585;	Figures
-69590 69592	Figures2C
+T2209	Noun_Phrase 69578 69585;69590 69592	Figures 2C
 T2210	Noun_Phrase 69578 69585	Figures
 T2211	Noun_Phrase 69578 69588	Figures 1E
 T2212	Noun_Phrase 69598 69600	4D
 T2213	Noun_Phrase 69602 69652	last 100 trials of the mixture discrimination task
 T2214	Noun_Phrase 69658 69669	GluRBRescue
-T2215	Noun_Phrase 69658 69669;	GluRBRescue
-69720 69727	GluRBRescueanimals
+T2215	Noun_Phrase 69658 69669;69720 69727	GluRBRescue animals
 T2216	Noun_Phrase 69679 69688	GluR-B?FB
 T2217	Noun_Phrase 69741 69747	Author
 T2218	Noun_Phrase 69763 69766	DRS

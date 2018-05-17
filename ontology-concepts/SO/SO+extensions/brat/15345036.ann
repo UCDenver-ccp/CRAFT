@@ -52,8 +52,7 @@ T50	SO_EXT_gene_trap_or_trap_construct 11344 11362	gene-trap reporter
 T51	SO_EXT_gene_trap_or_trap_construct 11397 11406	gene-trap
 T52	SO_EXT_sequence_cloned_entity 11415 11420	clone
 T53	SO_EXT_sequence_insertion_entity_or_process 11439 11448	insertion
-T54	SO_EXT_0000842 11478 11487;	region of
-11492 11496	region ofgene
+T54	SO_EXT_0000842 11478 11487;11492 11496	region of gene
 T55	SO_EXT_sequence_nullness_or_absence 11769 11770	-
 T56	SO_EXT_sequence_nullness_or_absence 11771 11772	-
 T57	SO_EXT_0000673 13594 13604	transcript
@@ -272,8 +271,7 @@ T269	SO_EXT_biological_sequence 49311 49319	sequence
 T270	SO_EXT_0001026 49345 49352	genomic
 T271	SO_EXT_0000153 49353 49356	BAC
 T272	CHEBI_SO_EXT_base 49414 49415	b
-T273	SO_EXT_0001416 49474 49476;	5'
-49484 49500	5'flanking regions
+T273	SO_EXT_0001416 49474 49476;49484 49500	5' flanking regions
 T274	SO_EXT_0001417 49481 49500	3' flanking regions
 T275	SO_EXT_0000153 49525 49528	BAC
 T276	SO_EXT_sequence_cloned_entity 49529 49534	clone
@@ -316,11 +314,9 @@ T312	SO_EXT_wild_type_entity_or_quality 51529 51538	wild-type
 T313	SO_EXT_0001023 51545 51551	allele
 T314	SO_EXT_0000121 51571 51585	forward primer
 T315	SO_EXT_0000132 51622 51636	reverse primer
-T316	SO_EXT_0005850 51675 51681;	primer
-51684 51688	primersite
+T316	SO_EXT_0005850 51675 51681;51684 51688	primer site
 T317	SO_EXT_sequence_deletion_entity_or_process 51710 51718	deletion
-T318	SO_EXT_0005850 51727 51733;	primer
-51736 51740	primersite
+T318	SO_EXT_0005850 51727 51733;51736 51740	primer site
 T319	SO_EXT_sequence_deletion_entity_or_process 51752 51760	deletion
 T320	SO_EXT_0000112 51767 51773	primer
 T321	SO_EXT_0000028 51821 51823	bp

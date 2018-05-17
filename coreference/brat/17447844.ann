@@ -128,14 +128,10 @@ T126	IDENTITY_chain 2295 2309	male germ cell
 T127	Noun_Phrase 2295 2321	male germ cell development
 T128	IDENTITY_chain 2295 2321	male germ cell development
 T129	Noun_Phrase 2331 2336	these
-T130	Noun_Phrase 2381 2384;	the
-2391 2404	theY chromosomes
-T131	IDENTITY_chain 2381 2384;	the
-2391 2404	theY chromosomes
-T132	Noun_Phrase 2381 2386;	the X
-2393 2404	the Xchromosomes
-T133	IDENTITY_chain 2381 2386;	the X
-2393 2404	the Xchromosomes
+T130	Noun_Phrase 2381 2384;2391 2404	the Y chromosomes
+T131	IDENTITY_chain 2381 2384;2391 2404	the Y chromosomes
+T132	Noun_Phrase 2381 2386;2393 2404	the X chromosomes
+T133	IDENTITY_chain 2381 2386;2393 2404	the X chromosomes
 T134	Noun_Phrase 2381 2404	the X and Y chromosomes
 T135	IDENTITY_chain 2381 2404	the X and Y chromosomes
 T136	Noun_Phrase 2410 2452	a specialized structure called the XY body
@@ -147,12 +143,9 @@ T141	Noun_Phrase 2467 2480	DMRT7 protein
 T142	Noun_Phrase 2495 2505	germ cells
 T143	Noun_Phrase 2544 2551	meiosis
 T144	Noun_Phrase 2605 2616	The XY body
-T145	Noun_Phrase 2733 2736;	the
-2751 2778	thediplotene stages of meiosis
-T146	IDENTITY_chain 2733 2736;	the
-2751 2778	thediplotene stages of meiosis
-T147	Noun_Phrase 2733 2746;	the pachytene
-2761 2778	the pachytenestages of meiosis
+T145	Noun_Phrase 2733 2736;2751 2778	the diplotene stages of meiosis
+T146	IDENTITY_chain 2733 2736;2751 2778	the diplotene stages of meiosis
+T147	Noun_Phrase 2733 2746;2761 2778	the pachytene stages of meiosis
 T148	Noun_Phrase 2733 2778	the pachytene and diplotene stages of meiosis
 T149	Noun_Phrase 2751 2778	diplotene stages of meiosis
 T150	Noun_Phrase 2771 2778	meiosis
@@ -245,8 +238,7 @@ T236	Noun_Phrase 5372 5398	the homologous chromosomes
 T237	IDENTITY_chain 5372 5398	the homologous chromosomes
 T238	IDENTITY_chain 5411 5435	homologous recombination
 T239	Noun_Phrase 5411 5435	homologous recombination
-T240	Noun_Phrase 5444 5445;	X
-5452 5462	Xchromosome
+T240	Noun_Phrase 5444 5445;5452 5462	X chromosome
 T241	Noun_Phrase 5444 5462	X and Y chromosome
 T242	Noun_Phrase 5450 5462	Y chromosome
 T243	IDENTITY_chain 5485 5527	a region termed the pseudoautosomal region
@@ -310,8 +302,7 @@ T300	IDENTITY_chain 6879 6935	a Doublesex/MAB-3 DNA-binding motif called the DM 
 T301	Noun_Phrase 6881 6896	Doublesex/MAB-3
 T302	Noun_Phrase 6945 6969	DM domain–encoding genes
 T303	IDENTITY_chain 6945 6969	DM domain–encoding genes
-T304	Noun_Phrase 7017 7042;	sexual differentiation in
-7067 7074	sexual differentiation inmammals
+T304	Noun_Phrase 7017 7042;7067 7074	sexual differentiation in mammals
 T305	Noun_Phrase 7067 7074	mammals
 T306	IDENTITY_chain 7164 7167	DSX
 T307	Noun_Phrase 7164 7167	DSX
@@ -458,10 +449,8 @@ T447	Noun_Phrase 10939 11004	testis sections from 6-wk-old male stained with ant
 T448	IDENTITY_chain 10939 11004	testis sections from 6-wk-old male stained with antibody to DMRT7
 T449	Noun_Phrase 10960 10973	6-wk-old male
 T450	IDENTITY_chain 10960 10973	6-wk-old male
-T451	Noun_Phrase 10987 10998;	antibody to
-11017 11021	antibody toDAPI
-T452	IDENTITY_chain 10987 10998;	antibody to
-11017 11021	antibody toDAPI
+T451	Noun_Phrase 10987 10998;11017 11021	antibody to DAPI
+T452	IDENTITY_chain 10987 10998;11017 11021	antibody to DAPI
 T453	Noun_Phrase 10987 11004	antibody to DMRT7
 T454	IDENTITY_chain 10987 11004	antibody to DMRT7
 T455	Noun_Phrase 10999 11004	DMRT7
@@ -473,10 +462,8 @@ T460	Noun_Phrase 11069 11076	XY body
 T461	Noun_Phrase 11078 11084	Testis
 T462	Noun_Phrase 11078 11145	Testis sections from 6-wk-old male stained with antibodies to DMRT7
 T463	Noun_Phrase 11099 11112	6-wk-old male
-T464	Noun_Phrase 11126 11139;	antibodies to
-11156 11162	antibodies toSUMO-1
-T465	IDENTITY_chain 11126 11139;	antibodies to
-11156 11162	antibodies toSUMO-1
+T464	Noun_Phrase 11126 11139;11156 11162	antibodies to SUMO-1
+T465	IDENTITY_chain 11126 11139;11156 11162	antibodies to SUMO-1
 T466	Noun_Phrase 11126 11145	antibodies to DMRT7
 T467	Noun_Phrase 11140 11145	DMRT7
 T468	Noun_Phrase 11140 11162	DMRT7 (red) and SUMO-1
@@ -500,14 +487,10 @@ T485	IDENTITY_chain 11557 11581	other DM domain proteins
 T486	Noun_Phrase 11563 11572	DM domain
 T487	Noun_Phrase 11624 11629	DMRT7
 T488	Noun_Phrase 11651 11664	DMRT7 protein
-T489	Noun_Phrase 11695 11699;	mid-
-11708 11717	mid-pachytene
-T490	IDENTITY_chain 11695 11699;	mid-
-11708 11717	mid-pachytene
-T491	Noun_Phrase 11695 11699;	mid-
-11708 11731	mid-pachytene spermatocytes
-T492	IDENTITY_chain 11695 11699;	mid-
-11708 11731	mid-pachytene spermatocytes
+T489	Noun_Phrase 11695 11699;11708 11717	mid- pachytene
+T490	IDENTITY_chain 11695 11699;11708 11717	mid- pachytene
+T491	Noun_Phrase 11695 11699;11708 11731	mid- pachytene spermatocytes
+T492	IDENTITY_chain 11695 11699;11708 11731	mid- pachytene spermatocytes
 T493	Noun_Phrase 11695 11731	mid- to late-pachytene spermatocytes
 T494	IDENTITY_chain 11695 11731	mid- to late-pachytene spermatocytes
 T495	Noun_Phrase 11703 11717	late-pachytene
@@ -539,18 +522,14 @@ T520	IDENTITY_chain 12066 12145	an antibody to GATA1, which is expressed in Sert
 T521	Noun_Phrase 12081 12086	GATA1
 T522	IDENTITY_chain 12081 12086	GATA1
 T523	Noun_Phrase 12110 12123	Sertoli cells
-T524	Noun_Phrase 12129 12135;	stages
-12143 12145	stagesIX
-T525	IDENTITY_chain 12129 12135;	stages
-12143 12145	stagesIX
+T524	Noun_Phrase 12129 12135;12143 12145	stages IX
+T525	IDENTITY_chain 12129 12135;12143 12145	stages IX
 T526	Noun_Phrase 12129 12139	stages VII
 T527	IDENTITY_chain 12129 12139	stages VII
 T528	Noun_Phrase 12152 12156	This
 T529	Noun_Phrase 12172 12177	DMRT7
-T530	Noun_Phrase 12194 12198;	mid-
-12207 12216	mid-pachytene
-T531	Noun_Phrase 12194 12198;	mid-
-12207 12230	mid-pachytene spermatocytes
+T530	Noun_Phrase 12194 12198;12207 12216	mid- pachytene
+T531	Noun_Phrase 12194 12198;12207 12230	mid- pachytene spermatocytes
 T532	Noun_Phrase 12194 12230	mid- to late-pachytene spermatocytes
 T533	Noun_Phrase 12202 12216	late-pachytene
 T534	Noun_Phrase 12202 12230	late-pachytene spermatocytes
@@ -602,10 +581,8 @@ T579	Noun_Phrase 13238 13243	DMRT7
 T580	IDENTITY_chain 13244 13253	localizes
 T581	Noun_Phrase 13244 13253	localizes
 T582	Noun_Phrase 13257 13268	the XY body
-T583	Noun_Phrase 13274 13278;	mid-
-13287 13296	mid-pachynema
-T584	IDENTITY_chain 13274 13278;	mid-
-13287 13296	mid-pachynema
+T583	Noun_Phrase 13274 13278;13287 13296	mid- pachynema
+T584	IDENTITY_chain 13274 13278;13287 13296	mid- pachynema
 T585	Noun_Phrase 13274 13296	mid- to late-pachynema
 T586	IDENTITY_chain 13274 13296	mid- to late-pachynema
 T587	Noun_Phrase 13282 13296	late-pachynema
@@ -628,8 +605,7 @@ T603	Noun_Phrase 13661 13666	DMRT7
 T604	Noun_Phrase 13680 13691	the XY body
 T605	Noun_Phrase 13695 13708	spermatocytes
 T606	IDENTITY_chain 13695 13708	spermatocytes
-T607	Noun_Phrase 13710 13716;	Figure
-13724 13726	Figure1D
+T607	Noun_Phrase 13710 13716;13724 13726	Figure 1D
 T608	Noun_Phrase 13710 13719	Figure 1C
 T609	Noun_Phrase 13751 13756	Dmrt7
 T610	Noun_Phrase 13802 13807	Dmrt7
@@ -651,14 +627,10 @@ T625	Noun_Phrase 13931 13945	The Dmrt7 gene
 T626	Noun_Phrase 13950 13979	nine exons with the DM domain
 T627	IDENTITY_chain 13950 13979	nine exons with the DM domain
 T628	Noun_Phrase 13966 13979	the DM domain
-T629	IDENTITY_chain 13991 13994;	the
-14006 14017	thethird exons
-T630	Noun_Phrase 13991 13994;	the
-14006 14017	thethird exons
-T631	IDENTITY_chain 13991 14001;	the second
-14012 14017	the secondexons
-T632	Noun_Phrase 13991 14001;	the second
-14012 14017	the secondexons
+T629	IDENTITY_chain 13991 13994;14006 14017	the third exons
+T630	Noun_Phrase 13991 13994;14006 14017	the third exons
+T631	IDENTITY_chain 13991 14001;14012 14017	the second exons
+T632	Noun_Phrase 13991 14001;14012 14017	the second exons
 T633	Noun_Phrase 13991 14017	the second and third exons
 T634	IDENTITY_chain 13991 14017	the second and third exons
 T635	Noun_Phrase 14027 14040	the DM domain
@@ -736,10 +708,8 @@ T706	Noun_Phrase 15439 15458	Dmrt7 heterozygotes
 T707	Noun_Phrase 15468 15507	homozygous mutant progeny of both sexes
 T708	IDENTITY_chain 15468 15507	homozygous mutant progeny of both sexes
 T709	Noun_Phrase 15497 15507	both sexes
-T710	Noun_Phrase 15549 15553;	Male
-15565 15583	Malehomozygous mutants
-T711	IDENTITY_chain 15549 15553;	Male
-15565 15583	Malehomozygous mutants
+T710	Noun_Phrase 15549 15553;15565 15583	Male homozygous mutants
+T711	IDENTITY_chain 15549 15553;15565 15583	Male homozygous mutants
 T712	Noun_Phrase 15549 15583	Male and female homozygous mutants
 T713	Noun_Phrase 15558 15583	female homozygous mutants
 T714	IDENTITY_chain 15558 15583	female homozygous mutants
@@ -748,8 +718,7 @@ T716	Noun_Phrase 15783 15804	histological analysis
 T717	IDENTITY_chain 15783 15804	histological analysis
 T718	Noun_Phrase 15838 15867	Dmrt7 homozygous mutant males
 T719	Noun_Phrase 15902 15908	testes
-T720	Noun_Phrase 15948 15960;	heterozygous
-15974 15991	heterozygousadult littermates
+T720	Noun_Phrase 15948 15960;15974 15991	heterozygous adult littermates
 T721	IDENTITY_chain 15964 15991	wild-type adult littermates
 T722	Noun_Phrase 15964 15991	wild-type adult littermates
 T723	Noun_Phrase 15993 16001	Figure 2
@@ -758,16 +727,12 @@ T725	Noun_Phrase 16022 16050	defective testis development
 T726	Noun_Phrase 16061 16066	Dmrt7
 T727	Noun_Phrase 16061 16074	Dmrt7 mutants
 T728	Noun_Phrase 16076 16078	we
-T729	Noun_Phrase 16088 16098;	the testes
-16116 16134	the testesmutant littermates
-T730	Noun_Phrase 16088 16111;	the testes of wild-type
-16123 16134	the testes of wild-typelittermates
-T731	IDENTITY_chain 16088 16111;	the testes of wild-type
-16123 16134	the testes of wild-typelittermates
+T729	Noun_Phrase 16088 16098;16116 16134	the testes mutant littermates
+T730	Noun_Phrase 16088 16111;16123 16134	the testes of wild-type littermates
+T731	IDENTITY_chain 16088 16111;16123 16134	the testes of wild-type littermates
 T732	Noun_Phrase 16088 16134	the testes of wild-type and mutant littermates
 T733	IDENTITY_chain 16088 16134	the testes of wild-type and mutant littermates
-T734	Noun_Phrase 16102 16111;	wild-type
-16123 16134	wild-typelittermates
+T734	Noun_Phrase 16102 16111;16123 16134	wild-type littermates
 T735	Noun_Phrase 16102 16111	wild-type
 T736	IDENTITY_chain 16102 16111	wild-type
 T737	Noun_Phrase 16142 16175	the first wave of spermatogenesis
@@ -780,8 +745,7 @@ T743	Noun_Phrase 16210 16223	mutant testes
 T744	IDENTITY_chain 16259 16277	the testis weights
 T745	Noun_Phrase 16259 16277	the testis weights
 T746	Noun_Phrase 16263 16269	testis
-T747	Noun_Phrase 16303 16315;	heterozygous
-16330 16341	heterozygouslittermates
+T747	Noun_Phrase 16303 16315;16330 16341	heterozygous littermates
 T748	Noun_Phrase 16320 16329	wild-type
 T749	Noun_Phrase 16320 16341	wild-type littermates
 T750	Noun_Phrase 16359 16372	spermatogonia
@@ -791,14 +755,10 @@ T753	Noun_Phrase 16459 16494	the testes of the Dmrt7 mutant mice
 T754	Noun_Phrase 16459 16494	the testes of the Dmrt7 mutant mice
 T755	Noun_Phrase 16477 16489	Dmrt7 mutant
 T756	Noun_Phrase 16518 16524	weight
-T757	Noun_Phrase 16580 16583;	P21
-16592 16604	P21Dmrt7 mutant
-T758	IDENTITY_chain 16580 16583;	P21
-16592 16604	P21Dmrt7 mutant
-T759	IDENTITY_chain 16580 16583;	P21
-16592 16611	P21Dmrt7 mutant testes
-T760	Noun_Phrase 16580 16583;	P21
-16592 16611	P21Dmrt7 mutant testes
+T757	Noun_Phrase 16580 16583;16592 16604	P21 Dmrt7 mutant
+T758	IDENTITY_chain 16580 16583;16592 16604	P21 Dmrt7 mutant
+T759	IDENTITY_chain 16580 16583;16592 16611	P21 Dmrt7 mutant testes
+T760	Noun_Phrase 16580 16583;16592 16611	P21 Dmrt7 mutant testes
 T761	Noun_Phrase 16580 16611	P21 and P42 Dmrt7 mutant testes
 T762	IDENTITY_chain 16580 16611	P21 and P42 Dmrt7 mutant testes
 T763	Noun_Phrase 16588 16604	P42 Dmrt7 mutant
@@ -808,10 +768,8 @@ T766	Noun_Phrase 16588 16611	P42 Dmrt7 mutant testes
 T767	Noun_Phrase 16626 16636	germ cells
 T768	Noun_Phrase 16647 16656	pachynema
 T769	Noun_Phrase 16678 16688	germ cells
-T770	Noun_Phrase 16710 16716;	Figure
-16724 16726	Figure2D
-T771	IDENTITY_chain 16710 16716;	Figure
-16724 16726	Figure2D
+T770	Noun_Phrase 16710 16716;16724 16726	Figure 2D
+T771	IDENTITY_chain 16710 16716;16724 16726	Figure 2D
 T772	Noun_Phrase 16710 16719	Figure 2C
 T773	IDENTITY_chain 16710 16719	Figure 2C
 T774	Noun_Phrase 16710 16726	Figure 2C and 2D
@@ -844,16 +802,11 @@ T800	Noun_Phrase 17391 17470	a 6-wk-old wild-type (+/+) mouse and a homozygous (
 T801	IDENTITY_chain 17391 17470	a 6-wk-old wild-type (+/+) mouse and a homozygous (?/?) Dmrt7 mutant littermate
 T802	Noun_Phrase 17428 17470	a homozygous (?/?) Dmrt7 mutant littermate
 T803	IDENTITY_chain 17428 17470	a homozygous (?/?) Dmrt7 mutant littermate
-T804	Noun_Phrase 17491 17502;	testes from
-17517 17525;	testes from21-d-old
-17544 17548	testes from21-d-oldmice
-T805	Noun_Phrase 17491 17502;	testes from
-17517 17548	testes from21-d-old (C), and 42-d-old mice
-T806	Noun_Phrase 17491 17502;	testes from
-17535 17548	testes from42-d-old mice
+T804	Noun_Phrase 17491 17502;17517 17525;17544 17548	testes from 21-d-old mice
+T805	Noun_Phrase 17491 17502;17517 17548	testes from 21-d-old (C), and 42-d-old mice
+T806	Noun_Phrase 17491 17502;17535 17548	testes from 42-d-old mice
 T807	Noun_Phrase 17513 17514	B
-T808	Noun_Phrase 17517 17525;	21-d-old
-17544 17548	21-d-oldmice
+T808	Noun_Phrase 17517 17525;17544 17548	21-d-old mice
 T809	Noun_Phrase 17527 17528	C
 T810	Noun_Phrase 17535 17548	42-d-old mice
 T811	Noun_Phrase 17550 17551	D
@@ -881,16 +834,13 @@ T832	Noun_Phrase 17919 17920	F
 T833	IDENTITY_chain 17919 17920	F
 T834	Noun_Phrase 17940 17968	Dmrt7-deficient mouse testes
 T835	Noun_Phrase 17940 17968	Dmrt7-deficient mouse testes
-T836	Noun_Phrase 17970 17981;	Testes from
-17996 18025	Testes fromhomozygous mutant littermates
-T837	Noun_Phrase 17970 17991;	Testes from wild-type
-18014 18025	Testes from wild-typelittermates
+T836	Noun_Phrase 17970 17981;17996 18025	Testes from homozygous mutant littermates
+T837	Noun_Phrase 17970 17991;18014 18025	Testes from wild-type littermates
 T838	Noun_Phrase 17970 18025	Testes from wild-type and homozygous mutant littermates
 T839	Noun_Phrase 17982 17991	wild-type
 T840	Noun_Phrase 18068 18083	apoptotic cells
 T841	Noun_Phrase 18085 18091	Testis
-T842	Noun_Phrase 18106 18114;	21-d-old
-18132 18136	21-d-oldmice
+T842	Noun_Phrase 18106 18114;18132 18136	21-d-old mice
 T843	Noun_Phrase 18116 18117	E
 T844	Noun_Phrase 18123 18136	6-wk-old mice
 T845	Noun_Phrase 18138 18139	F
@@ -926,8 +876,7 @@ T874	Noun_Phrase 18929 18962	the seminiferous tubule periphery
 T875	Noun_Phrase 18933 18952	seminiferous tubule
 T876	IDENTITY_chain 18933 18952	seminiferous tubule
 T877	Noun_Phrase 18979 18992	Sertoli cells
-T878	Noun_Phrase 19034 19043;	wild-type
-19055 19061	wild-typetestes
+T878	Noun_Phrase 19034 19043;19055 19061	wild-type testes
 T879	Noun_Phrase 19034 19043	wild-type
 T880	Noun_Phrase 19034 19061	wild-type and mutant testes
 T881	Noun_Phrase 19048 19061	mutant testes
@@ -961,8 +910,7 @@ T908	IDENTITY_chain 19811 19820	Figure 3A
 T909	Noun_Phrase 19823 19839	The BC7 antibody
 T910	IDENTITY_chain 19823 19839	The BC7 antibody
 T911	Noun_Phrase 19851 19864	spermatocytes
-T912	Noun_Phrase 19868 19881;	the leptotene
-19901 19907	the leptotenestages
+T912	Noun_Phrase 19868 19881;19901 19907	the leptotene stages
 T913	IDENTITY_chain 19868 19881	the leptotene
 T914	Noun_Phrase 19885 19907	early-pachytene stages
 T915	IDENTITY_chain 19885 19907	early-pachytene stages
@@ -1034,10 +982,8 @@ T980	Noun_Phrase 21224 21244	wild-type and mutant
 T981	Noun_Phrase 21238 21244	mutant
 T982	Noun_Phrase 21248 21249	C
 T983	Noun_Phrase 21251 21266	TRA369 antibody
-T984	Noun_Phrase 21274 21283;	pachytene
-21294 21304	pachytenegerm cells
-T985	IDENTITY_chain 21274 21283;	pachytene
-21294 21304	pachytenegerm cells
+T984	Noun_Phrase 21274 21283;21294 21304	pachytene germ cells
+T985	IDENTITY_chain 21274 21283;21294 21304	pachytene germ cells
 T986	Noun_Phrase 21274 21283	pachytene
 T987	Noun_Phrase 21338 21355	the mutant testis
 T988	Noun_Phrase 21338 21355	the mutant testis
@@ -1064,10 +1010,8 @@ T1008	Noun_Phrase 21877 21896	Dmrt7 mutant testes
 T1009	IDENTITY_chain 21908 21915	homolog
 T1010	Noun_Phrase 21908 21915	homolog
 T1011	Noun_Phrase 21926 21928	we
-T1012	IDENTITY_chain 21934 21947;	antibodies to
-22012 22017	antibodies toSYCP3
-T1013	Noun_Phrase 21934 21947;	antibodies to
-22012 22017	antibodies toSYCP3
+T1012	IDENTITY_chain 21934 21947;22012 22017	antibodies to SYCP3
+T1013	Noun_Phrase 21934 21947;22012 22017	antibodies to SYCP3
 T1014	Noun_Phrase 21948 21953	SYCP1
 T1015	APPOS_relation 21948 21953	SYCP1
 T1016	IDENTITY_chain 21948 21953	SYCP1
@@ -1113,10 +1057,8 @@ T1055	Noun_Phrase 22982 22990	Figure 5
 T1056	IDENTITY_chain 22982 22990	Figure 5
 T1057	Noun_Phrase 23029 23052	Dmrt7 Mutant Germ Cells
 T1058	Noun_Phrase 23055 23056	A
-T1059	Noun_Phrase 23080 23085;	Dmrt7
-23108 23136	Dmrt7homozygous (?/?) mutant mice
-T1060	Noun_Phrase 23080 23104;	Dmrt7 heterozygous (+/?)
-23132 23136	Dmrt7 heterozygous (+/?)mice
+T1059	Noun_Phrase 23080 23085;23108 23136	Dmrt7 homozygous (?/?) mutant mice
+T1060	Noun_Phrase 23080 23104;23132 23136	Dmrt7 heterozygous (+/?) mice
 T1061	Noun_Phrase 23166 23183	antibody to SYCP3
 T1062	Noun_Phrase 23178 23183	SYCP3
 T1063	Noun_Phrase 23219 23235	meiotic prophase
@@ -1125,14 +1067,11 @@ T1065	Noun_Phrase 23296 23305	pachynema
 T1066	Noun_Phrase 23381 23407	the pseudoautosomal region
 T1067	Noun_Phrase 23411 23442	both wild-type and mutant cells
 T1068	IDENTITY_chain 23411 23442	both wild-type and mutant cells
-T1069	Noun_Phrase 23416 23425;	wild-type
-23437 23442	wild-typecells
-T1070	IDENTITY_chain 23416 23425;	wild-type
-23437 23442	wild-typecells
+T1069	Noun_Phrase 23416 23425;23437 23442	wild-type cells
+T1070	IDENTITY_chain 23416 23425;23437 23442	wild-type cells
 T1071	Noun_Phrase 23430 23442	mutant cells
 T1072	Noun_Phrase 23482 23491	pachynema
-T1073	Noun_Phrase 23516 23529;	antibodies to
-23548 23553	antibodies toSYCP3
+T1073	Noun_Phrase 23516 23529;23548 23553	antibodies to SYCP3
 T1074	Noun_Phrase 23530 23535	RAD51
 T1075	Noun_Phrase 23548 23553	SYCP3
 T1076	Noun_Phrase 23586 23591	RAD51
@@ -1157,10 +1096,8 @@ T1094	Noun_Phrase 24052 24057	Dmrt7
 T1095	Noun_Phrase 24052 24065	Dmrt7 mutants
 T1096	Noun_Phrase 24083 24095	Sertoli cell
 T1097	Noun_Phrase 24113 24115	we
-T1098	Noun_Phrase 24139 24163;	the Sertoli cell markers
-24221 24226	the Sertoli cell markersGATA1
-T1099	APPOS_relation 24139 24163;	the Sertoli cell markers
-24221 24226	the Sertoli cell markersGATA1
+T1098	Noun_Phrase 24139 24163;24221 24226	the Sertoli cell markers GATA1
+T1099	APPOS_relation 24139 24163;24221 24226	the Sertoli cell markers GATA1
 T1100	Noun_Phrase 24139 24169	the Sertoli cell markers GATA4
 T1101	APPOS_relation 24139 24169	the Sertoli cell markers GATA4
 T1102	IDENTITY_chain 24139 24169	the Sertoli cell markers GATA4
@@ -1170,10 +1107,8 @@ T1105	Noun_Phrase 24171 24215	a marker of immature postnatal Sertoli cells
 T1106	Noun_Phrase 24228 24256	a mature Sertoli cell marker
 T1107	Noun_Phrase 24273 24287	these proteins
 T1108	Noun_Phrase 24329 24332	P14
-T1109	Noun_Phrase 24342 24348;	Figure
-24352 24354	Figure6C
-T1110	IDENTITY_chain 24342 24348;	Figure
-24352 24354	Figure6C
+T1109	Noun_Phrase 24342 24348;24352 24354	Figure 6C
+T1110	IDENTITY_chain 24342 24348;24352 24354	Figure 6C
 T1111	Noun_Phrase 24364 24385	the androgen receptor
 T1112	IDENTITY_chain 24364 24385	the androgen receptor
 T1113	Noun_Phrase 24387 24396	Figure S3
@@ -1201,10 +1136,8 @@ T1134	Noun_Phrase 24820 24832	Sertoli Cell
 T1135	Noun_Phrase 24849 24861	Dmrt7 Mutant
 T1136	Noun_Phrase 24849 24868	Dmrt7 Mutant Testes
 T1137	Noun_Phrase 24849 24868	Dmrt7 Mutant Testes
-T1138	Noun_Phrase 24874 24899;	Testes from P14 wild-type
-24917 24921	Testes from P14 wild-typemice
-T1139	IDENTITY_chain 24874 24899;	Testes from P14 wild-type
-24917 24921	Testes from P14 wild-typemice
+T1138	Noun_Phrase 24874 24899;24917 24921	Testes from P14 wild-type mice
+T1139	IDENTITY_chain 24874 24899;24917 24921	Testes from P14 wild-type mice
 T1140	Noun_Phrase 24886 24889	P14
 T1141	Noun_Phrase 24966 24971	GATA4
 T1142	Noun_Phrase 24978 24988	P14 testis
@@ -1217,8 +1150,7 @@ T1148	Noun_Phrase 25090 25109	mutant Sertoli cell
 T1149	IDENTITY_chain 25090 25109	mutant Sertoli cell
 T1150	Noun_Phrase 25113 25114	C
 T1151	Noun_Phrase 25130 25143	mutant testis
-T1152	Noun_Phrase 25173 25184;	antibody to
-25201 25205	antibody toDAPI
+T1152	Noun_Phrase 25173 25184;25201 25205	antibody to DAPI
 T1153	Noun_Phrase 25173 25190	antibody to GATA1
 T1154	Noun_Phrase 25185 25190	GATA1
 T1155	Noun_Phrase 25201 25205	DAPI
@@ -1228,14 +1160,10 @@ T1158	Noun_Phrase 25293 25313	mutant Sertoli cells
 T1159	Noun_Phrase 25398 25413	basal membranes
 T1160	Noun_Phrase 25417 25418	D
 T1161	Noun_Phrase 25420 25426	Testis
-T1162	Noun_Phrase 25420 25450;	Testis sections from 10-wk-old
-25465 25552	Testis sections from 10-wk-oldSertoli cell-specific Dmrt7 mutant (SC-Dmrt7KO) mice stained with hematoxylin and eosin
-T1163	IDENTITY_chain 25420 25450;	Testis sections from 10-wk-old
-25465 25552	Testis sections from 10-wk-oldSertoli cell-specific Dmrt7 mutant (SC-Dmrt7KO) mice stained with hematoxylin and eosin
-T1164	Noun_Phrase 25441 25460;	10-wk-old wild-type
-25513 25517	10-wk-old wild-typemice
-T1165	IDENTITY_chain 25441 25460;	10-wk-old wild-type
-25513 25517	10-wk-old wild-typemice
+T1162	Noun_Phrase 25420 25450;25465 25552	Testis sections from 10-wk-old Sertoli cell-specific Dmrt7 mutant (SC-Dmrt7KO) mice stained with hematoxylin and eosin
+T1163	IDENTITY_chain 25420 25450;25465 25552	Testis sections from 10-wk-old Sertoli cell-specific Dmrt7 mutant (SC-Dmrt7KO) mice stained with hematoxylin and eosin
+T1164	Noun_Phrase 25441 25460;25513 25517	10-wk-old wild-type mice
+T1165	IDENTITY_chain 25441 25460;25513 25517	10-wk-old wild-type mice
 T1166	Noun_Phrase 25441 25517	10-wk-old wild-type and Sertoli cell-specific Dmrt7 mutant (SC-Dmrt7KO) mice
 T1167	IDENTITY_chain 25441 25517	10-wk-old wild-type and Sertoli cell-specific Dmrt7 mutant (SC-Dmrt7KO) mice
 T1168	Noun_Phrase 25465 25499	Sertoli cell-specific Dmrt7 mutant
@@ -1251,14 +1179,9 @@ T1177	Noun_Phrase 25574 25588	spermiogenesis
 T1178	Noun_Phrase 25603 25620	SC-Dmrt7KO testis
 T1179	Noun_Phrase 25624 25625	E
 T1180	Noun_Phrase 25627 25633	Testis
-T1181	Noun_Phrase 25648 25657;	10-wk-old
-25672 25720;	10-wk-oldSC-Dmrt7KO mice stained with antibodies to GATA1
-25727 25750	10-wk-oldSC-Dmrt7KO mice stained with antibodies to GATA1and smooth muscle actin
-T1182	IDENTITY_chain 25648 25657;	10-wk-old
-25672 25720;	10-wk-oldSC-Dmrt7KO mice stained with antibodies to GATA1
-25727 25750	10-wk-oldSC-Dmrt7KO mice stained with antibodies to GATA1and smooth muscle actin
-T1183	Noun_Phrase 25648 25667;	10-wk-old wild-type
-25683 25687	10-wk-old wild-typemice
+T1181	Noun_Phrase 25648 25657;25672 25720;25727 25750	10-wk-old SC-Dmrt7KO mice stained with antibodies to GATA1 and smooth muscle actin
+T1182	IDENTITY_chain 25648 25657;25672 25720;25727 25750	10-wk-old SC-Dmrt7KO mice stained with antibodies to GATA1 and smooth muscle actin
+T1183	Noun_Phrase 25648 25667;25683 25687	10-wk-old wild-type mice
 T1184	Noun_Phrase 25648 25687	10-wk-old wild-type and SC-Dmrt7KO mice
 T1185	Noun_Phrase 25672 25687	SC-Dmrt7KO mice
 T1186	Noun_Phrase 25701 25720	antibodies to GATA1
@@ -1298,8 +1221,7 @@ T1219	Noun_Phrase 26416 26419	its
 T1220	Noun_Phrase 26454 26491	Sertoli-targeted (SC-Dmrt7KO) animals
 T1221	Noun_Phrase 26526 26535	wild-type
 T1222	Noun_Phrase 26541 26562	histological analysis
-T1223	Noun_Phrase 26602 26611;	wild-type
-26627 26633	wild-typetestes
+T1223	Noun_Phrase 26602 26611;26627 26633	wild-type testes
 T1224	Noun_Phrase 26616 26633	SC-Dmrt7KO testes
 T1225	Noun_Phrase 26635 26644	Figure 6D
 T1226	IDENTITY_chain 26635 26644	Figure 6D
@@ -1335,10 +1257,8 @@ T1255	Noun_Phrase 27448 27450	We
 T1256	Noun_Phrase 27462 27582	the XY body, which is thought to be essential for meiotic progression and is the site of preferential DMRT7 localization
 T1257	Noun_Phrase 27512 27531	meiotic progression
 T1258	Noun_Phrase 27564 27569	DMRT7
-T1259	Noun_Phrase 27600 27603;	the
-27610 27623	theY chromosomes
-T1260	Noun_Phrase 27600 27605;	the X
-27612 27623	the Xchromosomes
+T1259	Noun_Phrase 27600 27603;27610 27623	the Y chromosomes
+T1260	Noun_Phrase 27600 27605;27612 27623	the X chromosomes
 T1261	Noun_Phrase 27600 27623	the X and Y chromosomes
 T1262	Noun_Phrase 27663 27676	mid-pachynema
 T1263	Noun_Phrase 27683 27704	homologous chromosome
@@ -1371,17 +1291,14 @@ T1289	Noun_Phrase 28311 28317	SUMO-1
 T1290	Noun_Phrase 28334 28351	the mutant testis
 T1291	Noun_Phrase 28334 28351	the mutant testis
 T1292	Noun_Phrase 28353 28359	SUMO-1
-T1293	Noun_Phrase 28408 28414;	early-
-28422 28431	early-pachytene
+T1293	Noun_Phrase 28408 28414;28422 28431	early- pachytene
 T1294	Noun_Phrase 28418 28431	mid-pachytene
 T1295	Noun_Phrase 28418 28445	mid-pachytene spermatocytes
 T1296	Noun_Phrase 28461 28475	sex chromosome
 T1297	Noun_Phrase 28545 28551	SUMO-1
 T1298	Noun_Phrase 28568 28579	the XY body
-T1299	Noun_Phrase 28583 28586;	the
-28593 28606	theY chromosomes
-T1300	Noun_Phrase 28583 28588;	the X
-28595 28606	the Xchromosomes
+T1299	Noun_Phrase 28583 28586;28593 28606	the Y chromosomes
+T1300	Noun_Phrase 28583 28588;28595 28606	the X chromosomes
 T1301	Noun_Phrase 28583 28606	the X and Y chromosomes
 T1302	Noun_Phrase 28667 28690	Dmrt7 mutant germ cells
 T1303	Noun_Phrase 28714 28753	formation of a correctly marked XY body
@@ -1398,8 +1315,7 @@ T1313	Noun_Phrase 28909 28914	cells
 T1314	Noun_Phrase 28916 28961	This accumulation of XY body–containing cells
 T1315	Noun_Phrase 28937 28961	XY body–containing cells
 T1316	Noun_Phrase 28985 28990	?H2AX
-T1317	Noun_Phrase 29065 29069;	mid-
-29078 29087	mid-pachytene
+T1317	Noun_Phrase 29065 29069;29078 29087	mid- pachytene
 T1318	Noun_Phrase 29065 29087	mid- to late-pachytene
 T1319	Noun_Phrase 29073 29087	late-pachytene
 T1320	Noun_Phrase 29089 29091	We
@@ -1427,8 +1343,7 @@ T1341	Noun_Phrase 29623 29630	XY Body
 T1342	Noun_Phrase 29666 29678	Dmrt7 Mutant
 T1343	Noun_Phrase 29666 29683	Dmrt7 Mutant Mice
 T1344	Noun_Phrase 29686 29687	A
-T1345	Noun_Phrase 29730 29743;	antibodies to
-29760 29765	antibodies toSYCP3
+T1345	Noun_Phrase 29730 29743;29760 29765	antibodies to SYCP3
 T1346	Noun_Phrase 29730 29749	antibodies to ?H2AX
 T1347	IDENTITY_chain 29730 29749	antibodies to ?H2AX
 T1348	Noun_Phrase 29744 29749	?H2AX
@@ -1451,8 +1366,7 @@ T1364	Noun_Phrase 30009 30027	antibody to SUMO-1
 T1365	Noun_Phrase 30021 30027	SUMO-1
 T1366	Noun_Phrase 30067 30076	XY bodies
 T1367	Noun_Phrase 30092 30101	wild-type
-T1368	Noun_Phrase 30092 30101;	wild-type
-30113 30119	wild-typetestes
+T1368	Noun_Phrase 30092 30101;30113 30119	wild-type testes
 T1369	Noun_Phrase 30092 30119	wild-type and mutant testes
 T1370	Noun_Phrase 30106 30119	mutant testes
 T1371	Noun_Phrase 30106 30119	mutant testes
@@ -1496,10 +1410,8 @@ T1408	IDENTITY_chain 31027 31066	nascent RNA polymerase II transcription
 T1409	Noun_Phrase 31082 31086	DAPI
 T1410	Noun_Phrase 31106 31117	the XY body
 T1411	Noun_Phrase 31132 31152	seminiferous tubules
-T1412	Noun_Phrase 31154 31160;	Figure
-31168 31170	Figure8B
-T1413	IDENTITY_chain 31154 31160;	Figure
-31168 31170	Figure8B
+T1412	Noun_Phrase 31154 31160;31168 31170	Figure 8B
+T1413	IDENTITY_chain 31154 31160;31168 31170	Figure 8B
 T1414	Noun_Phrase 31154 31163	Figure 8A
 T1415	IDENTITY_chain 31154 31163	Figure 8A
 T1416	Noun_Phrase 31154 31170	Figure 8A and 8B
@@ -1537,10 +1449,8 @@ T1447	Noun_Phrase 31835 31844	diplonema
 T1448	Noun_Phrase 31851 31853	We
 T1449	Noun_Phrase 31865 31869	HP1?
 T1450	Noun_Phrase 31918 31931	mid-pachynema
-T1451	Noun_Phrase 31933 31939;	Figure
-31947 31949	Figure8D
-T1452	IDENTITY_chain 31933 31939;	Figure
-31947 31949	Figure8D
+T1451	Noun_Phrase 31933 31939;31947 31949	Figure 8D
+T1452	IDENTITY_chain 31933 31939;31947 31949	Figure 8D
 T1453	Noun_Phrase 31933 31942	Figure 8C
 T1454	IDENTITY_chain 31933 31942	Figure 8C
 T1455	Noun_Phrase 31933 31949	Figure 8C and 8D
@@ -1658,10 +1568,8 @@ T1566	Noun_Phrase 33734 33743	diplonema
 T1567	Noun_Phrase 33752 33754	we
 T1568	Noun_Phrase 33764 33808	nascent transcription by Cot-1 hybridization
 T1569	Noun_Phrase 33789 33808	Cot-1 hybridization
-T1570	Noun_Phrase 33905 33911;	Figure
-33919 33921	Figure8F
-T1571	IDENTITY_chain 33905 33911;	Figure
-33919 33921	Figure8F
+T1570	Noun_Phrase 33905 33911;33919 33921	Figure 8F
+T1571	IDENTITY_chain 33905 33911;33919 33921	Figure 8F
 T1572	Noun_Phrase 33905 33914	Figure 8E
 T1573	IDENTITY_chain 33905 33914	Figure 8E
 T1574	Noun_Phrase 33905 33921	Figure 8E and 8F
@@ -1672,14 +1580,10 @@ T1578	Noun_Phrase 34012 34021	wild-type
 T1579	Noun_Phrase 34023 34032	Figure 8F
 T1580	Noun_Phrase 34035 34037	We
 T1581	Noun_Phrase 34083 34087	PMSC
-T1582	Noun_Phrase 34089 34099;	histone H3
-34116 34141	histone H3trimethylated at lysine-9
-T1583	APPOS_relation 34089 34099;	histone H3
-34116 34141	histone H3trimethylated at lysine-9
-T1584	Noun_Phrase 34089 34112;	histone H3 dimethylated
-34130 34141	histone H3 dimethylatedat lysine-9
-T1585	APPOS_relation 34089 34112;	histone H3 dimethylated
-34130 34141	histone H3 dimethylatedat lysine-9
+T1582	Noun_Phrase 34089 34099;34116 34141	histone H3 trimethylated at lysine-9
+T1583	APPOS_relation 34089 34099;34116 34141	histone H3 trimethylated at lysine-9
+T1584	Noun_Phrase 34089 34112;34130 34141	histone H3 dimethylated at lysine-9
+T1585	APPOS_relation 34089 34112;34130 34141	histone H3 dimethylated at lysine-9
 T1586	Noun_Phrase 34143 34151	H3-2meK9
 T1587	Noun_Phrase 34153 34161	H3-3meK9
 T1588	Noun_Phrase 34180 34184	HP1?
@@ -1693,28 +1597,23 @@ T1595	Noun_Phrase 34383 34395	X chromosome
 T1596	Noun_Phrase 34436 34449	mid-pachynema
 T1597	Noun_Phrase 34451 34453	we
 T1598	Noun_Phrase 34525 34529	HP1?
-T1599	Noun_Phrase 34553 34559;	Figure
-34567 34569	Figure8H
-T1600	IDENTITY_chain 34553 34559;	Figure
-34567 34569	Figure8H
+T1599	Noun_Phrase 34553 34559;34567 34569	Figure 8H
+T1600	IDENTITY_chain 34553 34559;34567 34569	Figure 8H
 T1601	Noun_Phrase 34553 34562	Figure 8G
 T1602	IDENTITY_chain 34553 34562	Figure 8G
 T1603	Noun_Phrase 34553 34569	Figure 8G and 8H
 T1604	IDENTITY_chain 34553 34569	Figure 8G and 8H
 T1605	Noun_Phrase 34583 34585	we
 T1606	Noun_Phrase 34645 34653	H3-2meK9
-T1607	Noun_Phrase 34645 34653;	H3-2meK9
-34667 34695	H3-2meK9marks onto the sex chromatin
+T1607	Noun_Phrase 34645 34653;34667 34695	H3-2meK9 marks onto the sex chromatin
 T1608	IDENTITY_chain 34645 34695	H3-2meK9 and H3-3meK9 marks onto the sex chromatin
 T1609	Noun_Phrase 34645 34695	H3-2meK9 and H3-3meK9 marks onto the sex chromatin
 T1610	Noun_Phrase 34658 34666	H3-3meK9
 T1611	Noun_Phrase 34658 34695	H3-3meK9 marks onto the sex chromatin
 T1612	Noun_Phrase 34678 34695	the sex chromatin
 T1613	Noun_Phrase 34682 34685	sex
-T1614	Noun_Phrase 34697 34703;	Figure
-34707 34709	Figure8L
-T1615	IDENTITY_chain 34697 34703;	Figure
-34707 34709	Figure8L
+T1614	Noun_Phrase 34697 34703;34707 34709	Figure 8L
+T1615	IDENTITY_chain 34697 34703;34707 34709	Figure 8L
 T1616	Noun_Phrase 34782 34786	HP1?
 T1617	Noun_Phrase 34790 34807	the sex chromatin
 T1618	Noun_Phrase 34794 34797	sex
@@ -1725,8 +1624,7 @@ T1622	Noun_Phrase 34879 34883	HP1?
 T1623	Noun_Phrase 34887 34898	the XY body
 T1624	Noun_Phrase 34939 34941	We
 T1625	Noun_Phrase 35024 35031	meiosis
-T1626	Noun_Phrase 35033 35040;	Figures
-35047 35048	Figures5
+T1626	Noun_Phrase 35033 35040;35047 35048	Figures 5
 T1627	Noun_Phrase 35033 35042	Figures 4
 T1628	Noun_Phrase 35094 35116	abnormal sex chromatin
 T1629	Noun_Phrase 35126 35159	abnormal autosomal ?H2AX staining
@@ -1878,16 +1776,12 @@ T1774	Noun_Phrase 38812 38821	pachynema
 T1775	Noun_Phrase 38845 38854	diplonema
 T1776	Noun_Phrase 38865 38870	cells
 T1777	Noun_Phrase 38882 38890	H3-2meK9
-T1778	Noun_Phrase 38882 38890;	H3-2meK9
-38904 38909;	H3-2meK9marks
-38927 38947	H3-2meK9markson the sex chromatin
-T1779	Noun_Phrase 38882 38909;	H3-2meK9 and H3-3meK9 marks
-38927 38947	H3-2meK9 and H3-3meK9 markson the sex chromatin
+T1778	Noun_Phrase 38882 38890;38904 38909;38927 38947	H3-2meK9 marks on the sex chromatin
+T1779	Noun_Phrase 38882 38909;38927 38947	H3-2meK9 and H3-3meK9 marks on the sex chromatin
 T1780	IDENTITY_chain 38882 38947	H3-2meK9 and H3-3meK9 marks and HP1? protein on the sex chromatin
 T1781	Noun_Phrase 38882 38947	H3-2meK9 and H3-3meK9 marks and HP1? protein on the sex chromatin
 T1782	Noun_Phrase 38895 38903	H3-3meK9
-T1783	Noun_Phrase 38895 38909;	H3-3meK9 marks
-38927 38947	H3-3meK9 markson the sex chromatin
+T1783	Noun_Phrase 38895 38909;38927 38947	H3-3meK9 marks on the sex chromatin
 T1784	Noun_Phrase 38914 38926	HP1? protein
 T1785	Noun_Phrase 38930 38947	the sex chromatin
 T1786	Noun_Phrase 38934 38937	sex
@@ -2085,8 +1979,7 @@ T1977	Noun_Phrase 44979 44981	we
 T1978	Noun_Phrase 45017 45059	336 bp 5? of the Dmrt7 translational start
 T1979	Noun_Phrase 45030 45059	the Dmrt7 translational start
 T1980	Noun_Phrase 45034 45039	Dmrt7
-T1981	Noun_Phrase 45086 45096;	the second
-45107 45121	the secondexons of Dmrt7
+T1981	Noun_Phrase 45086 45096;45107 45121	the second exons of Dmrt7
 T1982	Noun_Phrase 45086 45121	the second and third exons of Dmrt7
 T1983	Noun_Phrase 45101 45121	third exons of Dmrt7
 T1984	Noun_Phrase 45116 45121	Dmrt7
@@ -2317,8 +2210,7 @@ T2208	Noun_Phrase 51697 51708	This allele
 T2209	Noun_Phrase 51718 51792	loxP sites flanking the translational start and the second and third exons
 T2210	IDENTITY_chain 51718 51792	loxP sites flanking the translational start and the second and third exons
 T2211	Noun_Phrase 51738 51761	the translational start
-T2212	Noun_Phrase 51766 51776;	the second
-51787 51792	the secondexons
+T2212	Noun_Phrase 51766 51776;51787 51792	the second exons
 T2213	Noun_Phrase 51766 51792	the second and third exons
 T2214	Noun_Phrase 51781 51792	third exons
 T2215	Noun_Phrase 51805 51818	the DM domain
@@ -2353,8 +2245,7 @@ T2243	Noun_Phrase 52652 52662	adult mice
 T2244	Noun_Phrase 52682 52689	XY body
 T2245	Noun_Phrase 52730 52735	Dmrt7
 T2246	Noun_Phrase 52730 52742	Dmrt7 mutant
-T2247	Noun_Phrase 52730 52742;	Dmrt7 mutant
-52752 52759	Dmrt7 mutantsection
+T2247	Noun_Phrase 52730 52742;52752 52759	Dmrt7 mutant section
 T2248	Noun_Phrase 52761 52766	DMRT7
 T2249	Noun_Phrase 52782 52791	wild-type
 T2250	Noun_Phrase 52812 52817	Dmrt7
@@ -2367,8 +2258,7 @@ T2256	Noun_Phrase 53031 53037	Testis
 T2257	Noun_Phrase 53052 53062	adult mice
 T2258	Noun_Phrase 53088 53105	androgen receptor
 T2259	Noun_Phrase 53136 53140	DAPI
-T2260	Noun_Phrase 53177 53183;	mutant
-53193 53208	mutanttestis sections
+T2260	Noun_Phrase 53177 53183;53193 53208	mutant testis sections
 T2261	Noun_Phrase 53177 53199	mutant (bottom) testis
 T2262	Noun_Phrase 53210 53227	androgen receptor
 T2263	Noun_Phrase 53252 53264	Sertoli cell
@@ -2386,14 +2276,10 @@ T2274	Noun_Phrase 53522 53529	XY Body
 T2275	Noun_Phrase 53533 53545	Dmrt7 Mutant
 T2276	Noun_Phrase 53533 53558	Dmrt7 Mutant Spermatocyte
 T2277	Noun_Phrase 53596 53605	wild-type
-T2278	Noun_Phrase 53596 53605;	wild-type
-53612 53628;	wild-typeand Dmrt7 mutant
-53638 53642	wild-typeand Dmrt7 mutantmice
+T2278	Noun_Phrase 53596 53605;53612 53628;53638 53642	wild-type and Dmrt7 mutant mice
 T2279	Noun_Phrase 53616 53628	Dmrt7 mutant
-T2280	Noun_Phrase 53616 53628;	Dmrt7 mutant
-53638 53642	Dmrt7 mutantmice
-T2281	Noun_Phrase 53657 53668;	antibody to
-53688 53692	antibody toDAPI
+T2280	Noun_Phrase 53616 53628;53638 53642	Dmrt7 mutant mice
+T2281	Noun_Phrase 53657 53668;53688 53692	antibody to DAPI
 T2282	Noun_Phrase 53669 53675	Ub-H2A
 T2283	Noun_Phrase 53688 53692	DAPI
 T2284	Noun_Phrase 53717 53724	XY body
@@ -2407,8 +2293,7 @@ T2291	Noun_Phrase 53893 53919	Dmrt7 Mutant Spermatocytes
 T2292	Noun_Phrase 53925 53930	SYCP3
 T2293	Noun_Phrase 53943 53947	RBMY
 T2294	Noun_Phrase 54027 54036	wild-type
-T2295	Noun_Phrase 54027 54036;	wild-type
-54048 54053	wild-typecells
+T2295	Noun_Phrase 54027 54036;54048 54053	wild-type cells
 T2296	Noun_Phrase 54027 54053	wild-type and mutant cells
 T2297	Noun_Phrase 54041 54053	mutant cells
 T2298	Noun_Phrase 54055 54059	RBMY

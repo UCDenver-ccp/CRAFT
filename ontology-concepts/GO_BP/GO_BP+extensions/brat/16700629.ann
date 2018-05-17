@@ -18,11 +18,9 @@ T16	GO_0030238 1163 1183	male sex-determining
 T17	GO_PATO_EXT_biological_patterning_process_or_quality 1265 1275	patterning
 T18	GO_0007530 1299 1316	sex determination
 T19	GO_EXT_cell_communication_or_signaling_or_signal_transduction 1416 1434	signaling pathways
-T20	GO_0048513 1455 1469;	development of
-1502 1508	development oforgans
+T20	GO_0048513 1455 1469;1502 1508	development of organs
 T21	GO_0000003 1489 1501	reproductive
-T22	GO_0008406 1694 1708;	development of
-1713 1718	development ofgonad
+T22	GO_0008406 1694 1708;1713 1718	development of gonad
 T23	GO_RO_EXT_developmental_differentiation_process 2067 2080	differentiate
 T24	GO_EXT_biological_growth_entity_or_process 2465 2471	growth
 T25	GO_0010467 2550 2559	expressed
@@ -30,8 +28,7 @@ T26	GO_0007530 2642 2659	sex determination
 T27	GO_0048513 2689 2706	organ development
 T28	GO_0008584 2798 2816	testis development
 T29	GO_0009653 2922 2935	morphogenetic
-T30	GO_0008283 3054 3067;	proliferation
-3086 3094	proliferationof cells
+T30	GO_0008283 3054 3067;3086 3094	proliferation of cells
 T31	GO_0016477 3076 3094	migration of cells
 T32	GO_0030154 3181 3201	cell differentiation
 T33	GO_0007530 3252 3267	sex-determining
@@ -66,8 +63,7 @@ T61	GO_0007538 5485 5510	primary sex determination
 T62	GO_0009987 5637 5652	cellular events
 T63	GO_0008283 5664 5682	cell proliferation
 T64	GO_0016477 5696 5710	cell migration
-T65	GO_0030154 5743 5761;	differentiation of
-5770 5775	differentiation ofcells
+T65	GO_0030154 5743 5761;5770 5775	differentiation of cells
 T66	GO_0010467 5853 5862	expressed
 T67	GO_0010467 5927 5936	expressed
 T68	GO_0010467 5962 5972	expression
@@ -111,8 +107,7 @@ T105	GO_0010467 9608 9618	expression
 T106	GO_EXT_transcription 9752 9767	transcriptional
 T107	GO_0065007 9768 9778	regulation
 T108	GO_0010467 9878 9888	expression
-T109	GO_0051170 9935 9946;	import into
-9951 9958	import intonucleus
+T109	GO_0051170 9935 9946;9951 9958	import into nucleus
 T110	GO_0065007 10092 10102	regulation
 T111	GO_EXT_breeding 10107 10111	bred
 T112	GO_0010467 10260 10270	expression
@@ -130,8 +125,7 @@ T123	GO_RO_EXT_developmental_differentiation_process 10959 10974	differentiation
 T124	GO_0010467 11075 11084	expressed
 T125	GO_0010467 11179 11189	expression
 T126	GO_EXT_positive_regulation 11194 11206	up-regulated
-T127	GO_0010628 11362 11378;	up-regulation of
-11384 11394	up-regulation ofexpression
+T127	GO_0010628 11362 11378;11384 11394	up-regulation of expression
 T128	GO_0010467 11731 11741	expression
 T129	GO_EXT_positive_regulation 11987 12000	up-regulation
 T130	GO_EXT_positive_regulation 12037 12050	Up-regulation
@@ -193,8 +187,7 @@ T185	GO_0010467 18768 18778	expression
 T186	GO_0008219 18818 18828	cell death
 T187	GO_0065007 18877 18887	regulation
 T188	GO_0046661 18930 18942	male pathway
-T189	GO_0046661 19033 19037;	male
-19048 19063	maledifferentiation
+T189	GO_0046661 19033 19037;19048 19063	male differentiation
 T190	GO_0046660 19041 19063	female differentiation
 T191	GO_0010467 19081 19091	expression
 T192	GO_EXT_positive_regulation 19147 19159	up-regulated
@@ -230,13 +223,9 @@ T221	GO_0065007 22933 22940	control
 T222	GO_EXT_regulator 22970 22979	regulator
 T223	GO_0007530 22987 23004	sex determination
 T224	GO_0065007 23183 23191	regulate
-T225	GO_0040036 23270 23283;	regulation of
-23289 23292;	regulation ofFGF
-23330 23339	regulation ofFGFsignaling
-T226	GO_0017015 23270 23283;	regulation of
-23298 23339	regulation oftransforming growth factor beta signaling
-T227	GO_0030111 23270 23287;	regulation of WNT
-23330 23339	regulation of WNTsignaling
+T225	GO_0040036 23270 23283;23289 23292;23330 23339	regulation of FGF signaling
+T226	GO_0017015 23270 23283;23298 23339	regulation of transforming growth factor beta signaling
+T227	GO_0030111 23270 23287;23330 23339	regulation of WNT signaling
 T228	GO_0065007 23355 23363	regulate
 T229	GO_EXT_biological_growth_entity_or_process 23368 23374	growth
 T230	GO_0030154 23376 23396	cell differentiation
@@ -244,11 +233,8 @@ T231	GO_0009653 23402 23415	morphogenesis
 T232	GO_0065007 23450 23460	regulation
 T233	GO_0008406 23464 23483	gonad organogenesis
 T234	GO_0007530 23587 23602	sex-determining
-T235	GO_0030238 23624 23640;	establishment of
-23645 23649;	establishment ofmale
-23660 23667	establishment ofmaleprogram
-T236	GO_0030237 23624 23640;	establishment of
-23653 23667	establishment offemale program
+T235	GO_0030238 23624 23640;23645 23649;23660 23667	establishment of male program
+T236	GO_0030237 23624 23640;23653 23667	establishment of female program
 T237	GO_EXT_cell_communication_or_signaling_or_signal_transduction 23727 23745	signaling pathways
 T238	GO_EXT_biological_growth_entity_or_process 23796 23802	growth
 T239	GO_0030154 23804 23824	cell differentiation
@@ -265,8 +251,7 @@ T249	GO_0046661 24926 24938	male pathway
 T250	GO_0008283 25084 25097	proliferation
 T251	GO_0038001 25194 25203	paracrine
 T252	GO_0008283 25334 25352	cell proliferation
-T253	GO_0030238 25382 25398;	establishment of
-25403 25415	establishment ofmale pathway
+T253	GO_0030238 25382 25398;25403 25415	establishment of male pathway
 T254	GO_0010467 25508 25518	expression
 T255	GO_0010467 25599 25614	gene expression
 T256	GO_0008283 25644 25662	cell proliferation
@@ -299,8 +284,7 @@ T282	GO_0010467 27997 28007	expression
 T283	GO_0010467 28058 28067	expressed
 T284	GO_EXT_cell_communication_or_signaling_or_signal_transduction 28198 28207	signaling
 T285	GO_0046661 28244 28256	male pathway
-T286	GO_0010628 28281 28297;	up-regulation of
-28303 28313	up-regulation ofexpression
+T286	GO_0010628 28281 28297;28303 28313	up-regulation of expression
 T287	GO_0010467 28544 28551	express
 T288	GO_0030154 28650 28670	cell differentiation
 T289	GO_0010467 28799 28808	expressed
@@ -316,12 +300,10 @@ T298	GO_0010467 29680 29690	expression
 T299	GO_0046661 29705 29717	male pathway
 T300	GO_EXT_positive_regulation 29721 29734	up-regulating
 T301	GO_EXT_positive_regulation 29746 29758	up-regulates
-T302	GO_0030238 29828 29841;	commitment to
-29846 29858	commitment tomale pathway
+T302	GO_0030238 29828 29841;29846 29858	commitment to male pathway
 T303	GO_0065007 29988 29995	control
 T304	GO_EXT_negative_regulation 30038 30053	down-regulation
-T305	GO_0030237 30099 30112;	commitment to
-30117 30131	commitment tofemale pathway
+T305	GO_0030237 30099 30112;30117 30131	commitment to female pathway
 T306	GO_EXT_cell_communication_or_signaling_or_signal_transduction 30328 30346	signaling pathways
 T307	GO_0065007 30350 30360	regulating
 T308	GO_0010467 30361 30371	expression
@@ -357,8 +339,7 @@ T337	GO_PATO_EXT_phosphorylation_process_or_quality 38185 38199	phosphorylated
 T338	GO_0008283 38224 38237	proliferation
 T339	GO_0008283 38338 38351	proliferation
 T340	GO_0010467 38698 38708	Expression
-T341	GO_0046661 38712 38716;	Male
-38727 38734	MalePathway
+T341	GO_0046661 38712 38716;38727 38734	Male Pathway
 T342	GO_0046660 38720 38734	Female Pathway
 T343	GO_0046661 38799 38811	male pathway
 T344	GO_0010467 38850 38860	expression
@@ -368,8 +349,7 @@ T347	GO_PATO_EXT_apoptotic_process_or_quality 39065 39074	apoptotic
 T348	GO_0006915 39120 39129	apoptosis
 T349	GO_PATO_EXT_apoptotic_process_or_quality 39209 39218	apoptotic
 T350	GO_0010467 39475 39484	expressed
-T351	GO_0010629 39828 39846;	down-regulation of
-39852 39862	down-regulation ofexpression
+T351	GO_0010629 39828 39846;39852 39862	down-regulation of expression
 T352	GO_EXT_positive_regulation 40080 40092	up-regulates
 T353	GO_0010467 40098 40108	expression
 T354	GO_0010467 40247 40257	Expression

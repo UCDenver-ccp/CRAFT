@@ -1,6 +1,5 @@
 T0	CL_GO_EXT_cell 1106 1110	cell
-T1	CL_0000210 1782 1794;	photosensory
-1814 1821	photosensoryneurons
+T1	CL_0000210 1782 1794;1814 1821	photosensory neurons
 T2	CL_0000540 1887 1895	neuronal
 T3	CL_GO_EXT_cell 2259 2263	Cell
 T4	CL_GO_EXT_cell 2317 2321	cell
@@ -18,16 +17,13 @@ T15	CL_0000700 6790 6811	dopaminergic neuronal
 T16	CL_GO_EXT_cell 7382 7386	cell
 T17	CL_0000540 15469 15476	Neurons
 T18	CL_GO_EXT_cell 15635 15643	cellular
-T19	CL_0010009 15659 15671;	photosensory
-15688 15698;	photosensoryneurons of
-15703 15709	photosensoryneurons ofretina
+T19	CL_0010009 15659 15671;15688 15698;15703 15709	photosensory neurons of retina
 T20	CL_0000210 15673 15686	photoreceptor
 T21	CL_GO_EXT_cell 15735 15743	cellular
 T22	CL_0002608 15884 15903	hippocampal neurons
 T23	CL_0010012 15920 15943	cerebral cortex neurons
 T24	CL_GO_EXT_cell 15993 16001	cellular
-T25	CL_0010009 16018 16041;	photosensory neurons of
-16046 16052	photosensory neurons ofretina
+T25	CL_0010009 16018 16041;16046 16052	photosensory neurons of retina
 T26	CL_0000125 16093 16097	glia
 T27	CL_0000540 16102 16108	neuron
 T28	CL_0000540 16401 16408	neurons
@@ -38,11 +34,9 @@ T32	CL_0000210 16854 16875	photoreceptor neurons
 T33	CL_0000210 17186 17200	photoreceptors
 T34	CL_0000540 17406 17413	neurons
 T35	CL_0000125 17418 17429	glial cells
-T36	CL_0002322 17890 17904;	embryonic stem
-17912 17916	embryonic stemcell
+T36	CL_0002322 17890 17904;17912 17916	embryonic stem cell
 T37	CL_0000540 18563 18570	neurons
-T38	CL_0000740 18590 18607;	ganglion cells of
-18618 18624	ganglion cells ofretina
+T38	CL_0000740 18590 18607;18618 18624	ganglion cells of retina
 T39	CL_GO_EXT_cell 19255 19259	cell
 T40	CL_0000210 20289 20303	photoreceptors
 T41	CL_0000740 20344 20358	ganglion cells
@@ -59,14 +53,11 @@ T51	CL_0000604 22528 22552	rod photosensory neurons
 T52	CL_0002608 22850 22869	hippocampal neurons
 T53	CL_0000540 23663 23671	neuronal
 T54	CL_0000540 23805 23813	neuronal
-T55	CL_0000006 27613 27623;	Receptoral
-27651 27658	ReceptoralNeurons
+T55	CL_0000006 27613 27623;27651 27658	Receptoral Neurons
 T56	CL_0000540 27726 27733	neurons
 T57	CL_0000540 27770 27778	neuronal
-T58	CL_0000604 28096 28099;	rod
-28110 28123	rodphotoreceptor
-T59	CL_0000573 28104 28108;	cone
-28110 28123	conephotoreceptor
+T58	CL_0000604 28096 28099;28110 28123	rod photoreceptor
+T59	CL_0000573 28104 28108;28110 28123	cone photoreceptor
 T60	CL_0000540 28149 28156	neurons
 T61	CL_0000604 28247 28264	rod photoreceptor
 T62	CL_0000604 28311 28314	rod
@@ -101,8 +92,7 @@ T90	CL_0000540 36974 36982	neuronal
 T91	CL_0000540 38531 38539	Neuronal
 T92	CL_0000210 38999 39019	photosensory neurons
 T93	CL_0000540 39280 39287	neurons
-T94	CL_0000006 39332 39342;	receptoral
-39362 39369	receptoralneurons
+T94	CL_0000006 39332 39342;39362 39369	receptoral neurons
 T95	CL_GO_EXT_cell 39480 39488	cellular
 T96	CL_0000604 39703 39706	rod
 T97	CL_0000604 39727 39730	rod

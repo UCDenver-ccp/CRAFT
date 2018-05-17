@@ -1,10 +1,6 @@
 T0	CL_0000540 46 53	Neurons
-T1	CL_1001451 188 208;	dorsal root ganglion
-215 222;	dorsal root ganglionsensory
-240 247	dorsal root ganglionsensoryneurons
-T2	CL_1001451 210 213;	DRG
-215 222;	DRGsensory
-240 247	DRGsensoryneurons
+T1	CL_1001451 188 208;215 222;240 247	dorsal root ganglion sensory neurons
+T2	CL_1001451 210 213;215 222;240 247	DRG sensory neurons
 T3	CL_0011001 227 247	spinal motor neurons
 T4	CL_0000540 317 325	neuronal
 T5	CL_0000101 477 491	sensory neuron
@@ -19,14 +15,12 @@ T13	CL_GO_EXT_cell 1364 1368	cell
 T14	CL_GO_EXT_cell 1430 1434	cell
 T15	CL_GO_EXT_cell 1574 1578	cell
 T16	CL_0000540 1634 1642	neuronal
-T17	CL_1001451 1728 1746;	sensory neurons of
-1768 1771	sensory neurons ofDRG
+T17	CL_1001451 1728 1746;1768 1771	sensory neurons of DRG
 T18	CL_1001451 1728 1766	sensory neurons of dorsal root ganglia
 T19	CL_0000540 1848 1856	neuronal
 T20	CL_0000540 1958 1966	neuronal
 T21	CL_0000540 2094 2102	neuronal
-T22	CL_0000198 2498 2509;	nociceptive
-2514 2521	nociceptiveneurons
+T22	CL_0000198 2498 2509;2514 2521	nociceptive neurons
 T23	CL_0000540 2614 2621	neurons
 T24	CL_0000540 2672 2679	neurons
 T25	CL_GO_EXT_cell 2689 2693	cell

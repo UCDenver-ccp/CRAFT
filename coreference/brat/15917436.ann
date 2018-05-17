@@ -1,9 +1,7 @@
 T0	Noun_Phrase 0 3	DNA
 T1	IDENTITY_chain 0 3	DNA
-T2	Noun_Phrase 0 11;	DNA binding
-25 59	DNA bindingactions of mouse MCM4/6/7 helicase
-T3	IDENTITY_chain 0 11;	DNA binding
-25 59	DNA bindingactions of mouse MCM4/6/7 helicase
+T2	Noun_Phrase 0 11;25 59	DNA binding actions of mouse MCM4/6/7 helicase
+T3	IDENTITY_chain 0 11;25 59	DNA binding actions of mouse MCM4/6/7 helicase
 T4	Noun_Phrase 0 59	DNA binding and helicase actions of mouse MCM4/6/7 helicase
 T5	IDENTITY_chain 0 59	DNA binding and helicase actions of mouse MCM4/6/7 helicase
 T6	Noun_Phrase 16 24	helicase
@@ -18,10 +16,8 @@ T14	Noun_Phrase 132 147	DNA replication
 T15	IDENTITY_chain 132 147	DNA replication
 T16	Noun_Phrase 149 151	We
 T17	IDENTITY_chain 149 151	We
-T18	Noun_Phrase 177 185;	helicase
-197 241	helicaseactivities of the mammalian Mcm4/6/7 complex
-T19	IDENTITY_chain 177 185;	helicase
-197 241	helicaseactivities of the mammalian Mcm4/6/7 complex
+T18	Noun_Phrase 177 185;197 241	helicase activities of the mammalian Mcm4/6/7 complex
+T19	IDENTITY_chain 177 185;197 241	helicase activities of the mammalian Mcm4/6/7 complex
 T20	Noun_Phrase 177 185	helicase
 T21	Noun_Phrase 211 241	the mammalian Mcm4/6/7 complex
 T22	IDENTITY_chain 211 241	the mammalian Mcm4/6/7 complex
@@ -29,8 +25,7 @@ T23	Noun_Phrase 272 304	thymine-rich single-stranded DNA
 T24	IDENTITY_chain 272 304	thymine-rich single-stranded DNA
 T25	Noun_Phrase 312 314	we
 T26	Noun_Phrase 324 327	its
-T27	Noun_Phrase 324 327;	its
-353 369	itshelicase actions
+T27	Noun_Phrase 324 327;353 369	its helicase actions
 T28	Noun_Phrase 353 361	helicase
 T29	Noun_Phrase 423 431	Mcm4/6/7
 T30	IDENTITY_chain 423 431	Mcm4/6/7
@@ -84,8 +79,7 @@ T77	Noun_Phrase 1776 1786	duplex DNA
 T78	IDENTITY_chain 1776 1786	duplex DNA
 T79	IDENTITY_chain 1794 1817	The hexameric helicases
 T80	Noun_Phrase 1794 1817	The hexameric helicases
-T81	Noun_Phrase 1828 1854;	minichromosome maintenance
-1861 1869	minichromosome maintenancehelicase
+T81	Noun_Phrase 1828 1854;1861 1869	minichromosome maintenance helicase
 T82	Noun_Phrase 1828 1854	minichromosome maintenance
 T83	APPOS_relation 1828 1854	minichromosome maintenance
 T84	Noun_Phrase 1856 1859	Mcm
@@ -122,10 +116,8 @@ T114	IDENTITY_chain 3047 3072	Schizosaccharomyces pombe
 T115	Noun_Phrase 3077 3101	mouse Mcm4/6/7 complexes
 T116	Noun_Phrase 3159 3161	it
 T117	Noun_Phrase 3207 3215	Mcm4/6/7
-T118	Noun_Phrase 3225 3229;	fork
-3241 3251	forkstructures
-T119	IDENTITY_chain 3225 3229;	fork
-3241 3251	forkstructures
+T118	Noun_Phrase 3225 3229;3241 3251	fork structures
+T119	IDENTITY_chain 3225 3229;3241 3251	fork structures
 T120	Noun_Phrase 3225 3251	fork and bubble structures
 T121	IDENTITY_chain 3225 3251	fork and bubble structures
 T122	Noun_Phrase 3234 3240	bubble
@@ -135,8 +127,7 @@ T125	IDENTITY_chain 3234 3251	bubble structures
 T126	Noun_Phrase 3339 3348	T-antigen
 T127	IDENTITY_chain 3339 3348	T-antigen
 T128	Noun_Phrase 3371 3373	we
-T129	Noun_Phrase 3388 3400;	the helicase
-3420 3452	the helicaseactivities of mammalian Mcm4/6/7
+T129	Noun_Phrase 3388 3400;3420 3452	the helicase activities of mammalian Mcm4/6/7
 T130	Noun_Phrase 3392 3400	helicase
 T131	Noun_Phrase 3405 3408	ATP
 T132	Noun_Phrase 3434 3452	mammalian Mcm4/6/7
@@ -156,8 +147,7 @@ T145	Noun_Phrase 3790 3811	the replication forks
 T146	IDENTITY_chain 3790 3811	the replication forks
 T147	Noun_Phrase 3821 3823	we
 T148	Noun_Phrase 3860 3868	helicase
-T149	Noun_Phrase 3860 3875;	helicase action
-3892 3918	helicase actionof mouse Mcm4/6/7 helicase
+T149	Noun_Phrase 3860 3875;3892 3918	helicase action of mouse Mcm4/6/7 helicase
 T150	Noun_Phrase 3860 3918	helicase action and DNA binding of mouse Mcm4/6/7 helicase
 T151	Noun_Phrase 3880 3883	DNA
 T152	Noun_Phrase 3880 3918	DNA binding of mouse Mcm4/6/7 helicase
@@ -194,10 +184,8 @@ T182	Noun_Phrase 4684 4693	Sequenase
 T183	IDENTITY_chain 4684 4693	Sequenase
 T184	Noun_Phrase 4714 4732	Amersham Pharmacia
 T185	IDENTITY_chain 4714 4732	Amersham Pharmacia
-T186	Noun_Phrase 4734 4741;	M13mp18
-4754 4782	M13mp18single-stranded circular DNA
-T187	IDENTITY_chain 4734 4741;	M13mp18
-4754 4782	M13mp18single-stranded circular DNA
+T186	Noun_Phrase 4734 4741;4754 4782	M13mp18 single-stranded circular DNA
+T187	IDENTITY_chain 4734 4741;4754 4782	M13mp18 single-stranded circular DNA
 T188	Noun_Phrase 4810 4817	DNase I
 T189	IDENTITY_chain 4810 4817	DNase I
 T190	Noun_Phrase 4852 4858	TAKARA
@@ -215,18 +203,12 @@ T201	IDENTITY_chain 5186 5191	Japan
 T202	Noun_Phrase 5215 5233	polyacrylamide gel
 T203	IDENTITY_chain 5215 5233	polyacrylamide gel
 T204	Noun_Phrase 5339 5361	mouse Mcm4/6/7 complex
-T205	Noun_Phrase 5363 5403;	The recombinant baculoviruses expressing
-5422 5440	The recombinant baculoviruses expressingMcm7-FLAG proteins
-T206	IDENTITY_chain 5363 5403;	The recombinant baculoviruses expressing
-5422 5440	The recombinant baculoviruses expressingMcm7-FLAG proteins
-T207	Noun_Phrase 5363 5418;	The recombinant baculoviruses expressing His6-Mcm4/Mcm6
-5432 5440	The recombinant baculoviruses expressing His6-Mcm4/Mcm6proteins
-T208	IDENTITY_chain 5363 5418;	The recombinant baculoviruses expressing His6-Mcm4/Mcm6
-5432 5440	The recombinant baculoviruses expressing His6-Mcm4/Mcm6proteins
-T209	Noun_Phrase 5404 5418;	His6-Mcm4/Mcm6
-5432 5440	His6-Mcm4/Mcm6proteins
-T210	IDENTITY_chain 5404 5418;	His6-Mcm4/Mcm6
-5432 5440	His6-Mcm4/Mcm6proteins
+T205	Noun_Phrase 5363 5403;5422 5440	The recombinant baculoviruses expressing Mcm7-FLAG proteins
+T206	IDENTITY_chain 5363 5403;5422 5440	The recombinant baculoviruses expressing Mcm7-FLAG proteins
+T207	Noun_Phrase 5363 5418;5432 5440	The recombinant baculoviruses expressing His6-Mcm4/Mcm6 proteins
+T208	IDENTITY_chain 5363 5418;5432 5440	The recombinant baculoviruses expressing His6-Mcm4/Mcm6 proteins
+T209	Noun_Phrase 5404 5418;5432 5440	His6-Mcm4/Mcm6 proteins
+T210	IDENTITY_chain 5404 5418;5432 5440	His6-Mcm4/Mcm6 proteins
 T211	Noun_Phrase 5422 5440	Mcm7-FLAG proteins
 T212	IDENTITY_chain 5422 5440	Mcm7-FLAG proteins
 T213	Noun_Phrase 5643 5664	the Mcm4/6/7 proteins
@@ -236,10 +218,8 @@ T216	Noun_Phrase 5772 5802	those expressing the Mcm7-FLAG
 T217	Noun_Phrase 5789 5802	the Mcm7-FLAG
 T218	Noun_Phrase 5927 5941	DNA substrates
 T219	Noun_Phrase 6012 6026	DNA substrates
-T220	Noun_Phrase 6041 6047;	Tables
-6054 6055	Tables2
-T221	IDENTITY_chain 6041 6047;	Tables
-6054 6055	Tables2
+T220	Noun_Phrase 6041 6047;6054 6055	Tables 2
+T221	IDENTITY_chain 6041 6047;6054 6055	Tables 2
 T222	Noun_Phrase 6041 6049	Tables 1
 T223	IDENTITY_chain 6041 6049	Tables 1
 T224	Noun_Phrase 6041 6055	Tables 1 and 2
@@ -249,10 +229,8 @@ T227	Noun_Phrase 6193 6196	its
 T228	Noun_Phrase 6287 6313	Amersham Pharmacia Biotech
 T229	Noun_Phrase 6317 6342	The DNA bubble substrates
 T230	Noun_Phrase 6446 6453	Table 1
-T231	Noun_Phrase 6590 6593;	3?-
-6600 6620	3?-extension substrates
-T232	IDENTITY_chain 6590 6593;	3?-
-6600 6620	3?-extension substrates
+T231	Noun_Phrase 6590 6593;6600 6620	3?- extension substrates
+T232	IDENTITY_chain 6590 6593;6600 6620	3?- extension substrates
 T233	Noun_Phrase 6597 6620	5?-extension substrates
 T234	IDENTITY_chain 6597 6620	5?-extension substrates
 T235	Noun_Phrase 6672 6679	Table 1
@@ -261,20 +239,16 @@ T237	Noun_Phrase 6838 6847	c-myc/DUE
 T238	IDENTITY_chain 6838 6847	c-myc/DUE
 T239	Noun_Phrase 6851 6862	c-myc/DUE-C
 T240	IDENTITY_chain 6851 6862	c-myc/DUE-C
-T241	Noun_Phrase 7151 7169;	a reaction mixture
-7178 7335	a reaction mixturecontaining 20 mM Tris–HCl (pH 7.5), 10 mM MgCl2 and 25 mM NaCl, which were heated to 95°C, kept at 67°C for 1 h, and then allowed to slowly cool down to 37°C
-T242	IDENTITY_chain 7151 7169;	a reaction mixture
-7178 7335	a reaction mixturecontaining 20 mM Tris–HCl (pH 7.5), 10 mM MgCl2 and 25 mM NaCl, which were heated to 95°C, kept at 67°C for 1 h, and then allowed to slowly cool down to 37°C
+T241	Noun_Phrase 7151 7169;7178 7335	a reaction mixture containing 20 mM Tris–HCl (pH 7.5), 10 mM MgCl2 and 25 mM NaCl, which were heated to 95°C, kept at 67°C for 1 h, and then allowed to slowly cool down to 37°C
+T242	IDENTITY_chain 7151 7169;7178 7335	a reaction mixture containing 20 mM Tris–HCl (pH 7.5), 10 mM MgCl2 and 25 mM NaCl, which were heated to 95°C, kept at 67°C for 1 h, and then allowed to slowly cool down to 37°C
 T243	Noun_Phrase 7381 7399	polyacrylamide gel
 T244	Noun_Phrase 7472 7502	a single-stranded circular DNA
 T245	IDENTITY_chain 7472 7502	a single-stranded circular DNA
 T246	Noun_Phrase 7526 7540	duplex regions
 T247	Noun_Phrase 7568 7578	DNA chains
 T248	IDENTITY_chain 7568 7578	DNA chains
-T249	Noun_Phrase 7598 7612;	the dT40-37mer
-7681 7725	the dT40-37merannealed to the single-stranded circular DNA
-T250	IDENTITY_chain 7598 7612;	the dT40-37mer
-7681 7725	the dT40-37merannealed to the single-stranded circular DNA
+T249	Noun_Phrase 7598 7612;7681 7725	the dT40-37mer annealed to the single-stranded circular DNA
+T250	IDENTITY_chain 7598 7612;7681 7725	the dT40-37mer annealed to the single-stranded circular DNA
 T251	Noun_Phrase 7665 7679	M13mp18 vector
 T252	IDENTITY_chain 7665 7679	M13mp18 vector
 T253	Noun_Phrase 7693 7725	the single-stranded circular DNA
@@ -284,22 +258,14 @@ T256	Noun_Phrase 7787 7798	[?-32P]dGTP
 T257	IDENTITY_chain 7787 7798	[?-32P]dGTP
 T258	Noun_Phrase 8016 8036	the Mcm4/6/7 complex
 T259	Noun_Phrase 8056 8072	reaction mixture
-T260	Noun_Phrase 8127 8138;	addition of
-8153 8156	addition ofSDS
-T261	IDENTITY_chain 8127 8138;	addition of
-8153 8156	addition ofSDS
-T262	Noun_Phrase 8127 8138;	addition of
-8168 8185	addition of2 ?g proteinase K
-T263	IDENTITY_chain 8127 8138;	addition of
-8168 8185	addition of2 ?g proteinase K
+T260	Noun_Phrase 8127 8138;8153 8156	addition of SDS
+T261	IDENTITY_chain 8127 8138;8153 8156	addition of SDS
+T262	Noun_Phrase 8127 8138;8168 8185	addition of 2 ?g proteinase K
+T263	IDENTITY_chain 8127 8138;8168 8185	addition of 2 ?g proteinase K
 T264	Noun_Phrase 8127 8143	addition of EDTA
-T265	Noun_Phrase 8127 8143;	addition of EDTA
-8153 8156;	addition of EDTASDS
-8164 8185	addition of EDTASDSand 2 ?g proteinase K
+T265	Noun_Phrase 8127 8143;8153 8156;8164 8185	addition of EDTA SDS and 2 ?g proteinase K
 T266	IDENTITY_chain 8127 8143	addition of EDTA
-T267	IDENTITY_chain 8127 8143;	addition of EDTA
-8153 8156;	addition of EDTASDS
-8164 8185	addition of EDTASDSand 2 ?g proteinase K
+T267	IDENTITY_chain 8127 8143;8153 8156;8164 8185	addition of EDTA SDS and 2 ?g proteinase K
 T268	Noun_Phrase 8139 8143	EDTA
 T269	IDENTITY_chain 8139 8143	EDTA
 T270	Noun_Phrase 8153 8156	SDS
@@ -308,19 +274,15 @@ T272	Noun_Phrase 8173 8185	proteinase K
 T273	IDENTITY_chain 8173 8185	proteinase K
 T274	Noun_Phrase 8311 8344	The single-stranded circular DNAs
 T275	Noun_Phrase 8587 8594	M13mp19
-T276	Noun_Phrase 8644 8656;	DNA helicase
-8671 8677	DNA helicaseassays
-T277	IDENTITY_chain 8644 8656;	DNA helicase
-8671 8677	DNA helicaseassays
+T276	Noun_Phrase 8644 8656;8671 8677	DNA helicase assays
+T277	IDENTITY_chain 8644 8656;8671 8677	DNA helicase assays
 T278	Noun_Phrase 8644 8656	DNA helicase
 T279	Noun_Phrase 8661 8677	gel shift assays
 T280	IDENTITY_chain 8661 8677	gel shift assays
 T281	Noun_Phrase 8682 8698	gel shift assays
 T282	Noun_Phrase 8700 8717	Mcm4/6/7 proteins
-T283	Noun_Phrase 8755 8772;	reaction mixtures
-8781 8947	reaction mixturescontaining 25 mM HEPES–NaOH (pH 7.5), 50 mM sodium acetate, 10 mM Mg(CH3COO)2, 1 mM DTT, 0.25 ?g/ml BSA, 0.5 mM ATP-?-S and labeled substrates of the amount indicated
-T284	IDENTITY_chain 8755 8772;	reaction mixtures
-8781 8947	reaction mixturescontaining 25 mM HEPES–NaOH (pH 7.5), 50 mM sodium acetate, 10 mM Mg(CH3COO)2, 1 mM DTT, 0.25 ?g/ml BSA, 0.5 mM ATP-?-S and labeled substrates of the amount indicated
+T283	Noun_Phrase 8755 8772;8781 8947	reaction mixtures containing 25 mM HEPES–NaOH (pH 7.5), 50 mM sodium acetate, 10 mM Mg(CH3COO)2, 1 mM DTT, 0.25 ?g/ml BSA, 0.5 mM ATP-?-S and labeled substrates of the amount indicated
+T284	IDENTITY_chain 8755 8772;8781 8947	reaction mixtures containing 25 mM HEPES–NaOH (pH 7.5), 50 mM sodium acetate, 10 mM Mg(CH3COO)2, 1 mM DTT, 0.25 ?g/ml BSA, 0.5 mM ATP-?-S and labeled substrates of the amount indicated
 T285	Noun_Phrase 8886 8900	0.5 mM ATP-?-S
 T286	IDENTITY_chain 8886 8900	0.5 mM ATP-?-S
 T287	Noun_Phrase 8989 9010	the reaction mixtures
@@ -331,14 +293,10 @@ T291	Noun_Phrase 9179 9198	DNA helicase assays
 T292	Noun_Phrase 9200 9245	the reaction mixtures of the gel shift assays
 T293	Noun_Phrase 9225 9245	the gel shift assays
 T294	Noun_Phrase 9311 9318	the ATP
-T295	Noun_Phrase 9426 9437;	addition of
-9452 9455	addition ofSDS
-T296	Noun_Phrase 9426 9437;	addition of
-9467 9484	addition of2 ?g proteinase K
+T295	Noun_Phrase 9426 9437;9452 9455	addition of SDS
+T296	Noun_Phrase 9426 9437;9467 9484	addition of 2 ?g proteinase K
 T297	Noun_Phrase 9426 9442	addition of EDTA
-T298	Noun_Phrase 9426 9442;	addition of EDTA
-9452 9455;	addition of EDTASDS
-9463 9484	addition of EDTASDSand 2 ?g proteinase K
+T298	Noun_Phrase 9426 9442;9452 9455;9463 9484	addition of EDTA SDS and 2 ?g proteinase K
 T299	Noun_Phrase 9438 9442	EDTA
 T300	Noun_Phrase 9452 9455	SDS
 T301	Noun_Phrase 9472 9484	proteinase K
@@ -382,10 +340,8 @@ T338	Noun_Phrase 11735 11800	the entire single-stranded regions of both top and 
 T339	IDENTITY_chain 11735 11800	the entire single-stranded regions of both top and bottom strands
 T340	Noun_Phrase 11773 11800	both top and bottom strands
 T341	IDENTITY_chain 11773 11800	both top and bottom strands
-T342	Noun_Phrase 11778 11781;	top
-11793 11800	topstrands
-T343	IDENTITY_chain 11778 11781;	top
-11793 11800	topstrands
+T342	Noun_Phrase 11778 11781;11793 11800	top strands
+T343	IDENTITY_chain 11778 11781;11793 11800	top strands
 T344	Noun_Phrase 11786 11800	bottom strands
 T345	IDENTITY_chain 11786 11800	bottom strands
 T346	Noun_Phrase 11834 11842	Mcm4/6/7
@@ -432,8 +388,7 @@ T386	Noun_Phrase 13696 13735	a single hexameric complex on bubble-20
 T387	APPOS_relation 13696 13735	a single hexameric complex on bubble-20
 T388	Noun_Phrase 13737 13803	a bubble substrate with 20 nt long central single-stranded segment
 T389	Noun_Phrase 13909 13923	double-hexamer
-T390	Noun_Phrase 13935 13976;	a set of synthetic bubble-like substrates
-14026 14085	a set of synthetic bubble-like substratesthat differed in the length of the central unpaired segment
+T390	Noun_Phrase 13935 13976;14026 14085	a set of synthetic bubble-like substrates that differed in the length of the central unpaired segment
 T391	Noun_Phrase 13978 13985	Bub-T10
 T392	IDENTITY_chain 13978 13985	Bub-T10
 T393	Noun_Phrase 13978 14024	Bub-T10, Bub-T20, Bub-T30, Bub-T40 and Bub-T50
@@ -475,8 +430,7 @@ T428	Noun_Phrase 15177 15189	DNA helicase
 T429	Noun_Phrase 15177 15196	DNA helicase assays
 T430	Noun_Phrase 15198 15214	Mcm4/6/7 complex
 T431	Noun_Phrase 15228 15236	helicase
-T432	Noun_Phrase 15256 15262;	Bub-10
-15273 15282	Bub-10substrate
+T432	Noun_Phrase 15256 15262;15273 15282	Bub-10 substrate
 T433	Noun_Phrase 15266 15282	Bub-20 substrate
 T434	Noun_Phrase 15404 15411	Bub-T40
 T435	Noun_Phrase 15416 15423	Bub-T50
@@ -504,9 +458,7 @@ T456	Noun_Phrase 16261 16268	thymine
 T457	Noun_Phrase 16261 16278	thymine stretches
 T458	Noun_Phrase 16282 16325	both strands of the single-stranded segment
 T459	Noun_Phrase 16327 16329	We
-T460	Noun_Phrase 16342 16357;	a hetero-bubble
-16375 16404;	a hetero-bubblein which one strand is T-rich
-16428 16458	a hetero-bubblein which one strand is T-richand the other strand is G-rich
+T460	Noun_Phrase 16342 16357;16375 16404;16428 16458	a hetero-bubble in which one strand is T-rich and the other strand is G-rich
 T461	Noun_Phrase 16359 16373	Bub66/T–G-rich
 T462	APPOS_relation 16359 16373	Bub66/T–G-rich
 T463	IDENTITY_chain 16359 16373	Bub66/T–G-rich
@@ -531,21 +483,15 @@ T481	IDENTITY_chain 17220 17229	Figure 3B
 T482	Noun_Phrase 17248 17254	bubble
 T483	Noun_Phrase 17311 17332	the Mcm4/6/7 hexamers
 T484	Noun_Phrase 17376 17384	helicase
-T485	Noun_Phrase 17376 17414;	helicase actions of Mcm4/6/7 on forked
-17439 17449	helicase actions of Mcm4/6/7 on forkedsubstrates
-T486	IDENTITY_chain 17376 17414;	helicase actions of Mcm4/6/7 on forked
-17439 17449	helicase actions of Mcm4/6/7 on forkedsubstrates
+T485	Noun_Phrase 17376 17414;17439 17449	helicase actions of Mcm4/6/7 on forked substrates
+T486	IDENTITY_chain 17376 17414;17439 17449	helicase actions of Mcm4/6/7 on forked substrates
 T487	Noun_Phrase 17396 17404	Mcm4/6/7
-T488	Noun_Phrase 17419 17422;	3?-
-17429 17449	3?-extension substrates
+T488	Noun_Phrase 17419 17422;17429 17449	3?- extension substrates
 T489	Noun_Phrase 17426 17449	5?-extension substrates
-T490	Noun_Phrase 17486 17489;	the
-17506 17545	thehelicase actions with forked substrates
+T490	Noun_Phrase 17486 17489;17506 17545	the helicase actions with forked substrates
 T491	Noun_Phrase 17506 17514	helicase
-T492	Noun_Phrase 17576 17577;	a
-17615 17637	anascent lagging strand
-T493	IDENTITY_chain 17576 17577;	a
-17615 17637	anascent lagging strand
+T492	Noun_Phrase 17576 17577;17615 17637	a nascent lagging strand
+T493	IDENTITY_chain 17576 17577;17615 17637	a nascent lagging strand
 T494	Noun_Phrase 17602 17612	A-fork[3?]
 T495	IDENTITY_chain 17602 17612	A-fork[3?]
 T496	Noun_Phrase 17639 17649	A-fork[5?]
@@ -600,36 +546,22 @@ T544	Noun_Phrase 19219 19250	3?-extension with poly(dT) tail
 T545	Noun_Phrase 19267 19275	Mcm4/6/7
 T546	Nonreferential_pronoun 19277 19279	It
 T547	Noun_Phrase 19430 19432	We
-T548	Noun_Phrase 19450 19484;	3?-extension substrates containing
-19495 19504;	3?-extension substrates containingpoly(dA),
-19527 19535	3?-extension substrates containingpoly(dA),3?-tails
-T549	IDENTITY_chain 19450 19484;	3?-extension substrates containing
-19495 19504;	3?-extension substrates containingpoly(dA),
-19527 19535	3?-extension substrates containingpoly(dA),3?-tails
-T550	Noun_Phrase 19450 19484;	3?-extension substrates containing
-19505 19513;	3?-extension substrates containingpoly(dC)
-19527 19535	3?-extension substrates containingpoly(dC)3?-tails
-T551	IDENTITY_chain 19450 19484;	3?-extension substrates containing
-19505 19513;	3?-extension substrates containingpoly(dC)
-19527 19535	3?-extension substrates containingpoly(dC)3?-tails
-T552	Noun_Phrase 19450 19484;	3?-extension substrates containing
-19518 19535	3?-extension substrates containingpoly(dG) 3?-tails
-T553	IDENTITY_chain 19450 19484;	3?-extension substrates containing
-19518 19535	3?-extension substrates containingpoly(dG) 3?-tails
-T554	Noun_Phrase 19450 19493;	3?-extension substrates containing poly(dT)
-19527 19535	3?-extension substrates containing poly(dT)3?-tails
-T555	IDENTITY_chain 19450 19493;	3?-extension substrates containing poly(dT)
-19527 19535	3?-extension substrates containing poly(dT)3?-tails
+T548	Noun_Phrase 19450 19484;19495 19504;19527 19535	3?-extension substrates containing poly(dA), 3?-tails
+T549	IDENTITY_chain 19450 19484;19495 19504;19527 19535	3?-extension substrates containing poly(dA), 3?-tails
+T550	Noun_Phrase 19450 19484;19505 19513;19527 19535	3?-extension substrates containing poly(dC) 3?-tails
+T551	IDENTITY_chain 19450 19484;19505 19513;19527 19535	3?-extension substrates containing poly(dC) 3?-tails
+T552	Noun_Phrase 19450 19484;19518 19535	3?-extension substrates containing poly(dG) 3?-tails
+T553	IDENTITY_chain 19450 19484;19518 19535	3?-extension substrates containing poly(dG) 3?-tails
+T554	Noun_Phrase 19450 19493;19527 19535	3?-extension substrates containing poly(dT) 3?-tails
+T555	IDENTITY_chain 19450 19493;19527 19535	3?-extension substrates containing poly(dT) 3?-tails
 T556	Noun_Phrase 19450 19535	3?-extension substrates containing poly(dT), poly(dA), poly(dC) and poly(dG) 3?-tails
 T557	IDENTITY_chain 19450 19535	3?-extension substrates containing poly(dT), poly(dA), poly(dC) and poly(dG) 3?-tails
 T558	Noun_Phrase 19564 19578	mouse Mcm4/6/7
 T559	Noun_Phrase 19592 19608	these substrates
 T560	Noun_Phrase 19610 19612	We
 T561	Noun_Phrase 19630 19638	Mcm4/6/7
-T562	Noun_Phrase 19648 19651;	dT-
-19664 19676	dT-3?-extension
-T563	Noun_Phrase 19653 19656;	dC-
-19664 19676	dC-3?-extension
+T562	Noun_Phrase 19648 19651;19664 19676	dT- 3?-extension
+T563	Noun_Phrase 19653 19656;19664 19676	dC- 3?-extension
 T564	Noun_Phrase 19661 19676	dG-3?-extension
 T565	Noun_Phrase 19707 19722	dA-3?-extension
 T566	Noun_Phrase 19749 19758	Figure 5A
@@ -638,10 +570,8 @@ T568	Noun_Phrase 19811 19819	Mcm4/6/7
 T569	Noun_Phrase 19892 19894	We
 T570	Noun_Phrase 19906 19928	dT-tailed 3?-extension
 T571	Noun_Phrase 19958 19967	Mcm 4/6/7
-T572	Noun_Phrase 20042 20050;	Figure 5
-20056 20057	Figure 5C
-T573	IDENTITY_chain 20042 20050;	Figure 5
-20056 20057	Figure 5C
+T572	Noun_Phrase 20042 20050;20056 20057	Figure 5 C
+T573	IDENTITY_chain 20042 20050;20056 20057	Figure 5 C
 T574	Noun_Phrase 20042 20051	Figure 5B
 T575	IDENTITY_chain 20042 20051	Figure 5B
 T576	Noun_Phrase 20149 20172	3?-extension substrates
@@ -701,10 +631,8 @@ T629	Noun_Phrase 22253 22259	TTCC17
 T630	Noun_Phrase 22367 22377	activation
 T631	Noun_Phrase 22459 22466	thymine
 T632	Noun_Phrase 22478 22489	the 3?-tail
-T633	Noun_Phrase 22528 22536;	Figure 6
-22542 22543	Figure 6C
-T634	IDENTITY_chain 22528 22536;	Figure 6
-22542 22543	Figure 6C
+T633	Noun_Phrase 22528 22536;22542 22543	Figure 6 C
+T634	IDENTITY_chain 22528 22536;22542 22543	Figure 6 C
 T635	Noun_Phrase 22528 22537	Figure 6B
 T636	Noun_Phrase 22564 22571	thymine
 T637	Noun_Phrase 22593 22623	activation of the Mcm helicase
@@ -720,9 +648,7 @@ T646	Noun_Phrase 22992 23000	helicase
 T647	Noun_Phrase 23090 23097	thymine
 T648	Noun_Phrase 23135 23147	Mcm helicase
 T649	Noun_Phrase 23171 23173	we
-T650	Noun_Phrase 23186 23207;	new bubble substrates
-23222 23263;	new bubble substratescontaining sequences derived from the DUE
-23288 23369	new bubble substratescontaining sequences derived from the DUEregion of the human c-myc origin which is essential for c-myc replicator activity
+T650	Noun_Phrase 23186 23207;23222 23263;23288 23369	new bubble substrates containing sequences derived from the DUE region of the human c-myc origin which is essential for c-myc replicator activity
 T651	Noun_Phrase 23209 23220	Bub82/c-myc
 T652	APPOS_relation 23209 23220	Bub82/c-myc
 T653	Noun_Phrase 23260 23263	DUE
@@ -842,20 +768,12 @@ T766	Noun_Phrase 27471 27481	duplex DNA
 T767	Noun_Phrase 27538 27551	A:T base pair
 T768	IDENTITY_chain 27538 27551	A:T base pair
 T769	Noun_Phrase 27558 27560	We
-T770	Noun_Phrase 27573 27616;	the T-tailed fork substrates containing the
-27630 27641;	the T-tailed fork substrates containing the(GCC:CIG)10
-27657 27675	the T-tailed fork substrates containing the(GCC:CIG)10duplex DNA segment
-T771	IDENTITY_chain 27573 27616;	the T-tailed fork substrates containing the
-27630 27641;	the T-tailed fork substrates containing the(GCC:CIG)10
-27657 27675	the T-tailed fork substrates containing the(GCC:CIG)10duplex DNA segment
-T772	Noun_Phrase 27573 27616;	the T-tailed fork substrates containing the
-27645 27675	the T-tailed fork substrates containing the(GAA:CTT)10 duplex DNA segment
-T773	IDENTITY_chain 27573 27616;	the T-tailed fork substrates containing the
-27645 27675	the T-tailed fork substrates containing the(GAA:CTT)10 duplex DNA segment
-T774	Noun_Phrase 27573 27628;	the T-tailed fork substrates containing the (GCC:CGG)10
-27657 27675	the T-tailed fork substrates containing the (GCC:CGG)10duplex DNA segment
-T775	IDENTITY_chain 27573 27628;	the T-tailed fork substrates containing the (GCC:CGG)10
-27657 27675	the T-tailed fork substrates containing the (GCC:CGG)10duplex DNA segment
+T770	Noun_Phrase 27573 27616;27630 27641;27657 27675	the T-tailed fork substrates containing the (GCC:CIG)10 duplex DNA segment
+T771	IDENTITY_chain 27573 27616;27630 27641;27657 27675	the T-tailed fork substrates containing the (GCC:CIG)10 duplex DNA segment
+T772	Noun_Phrase 27573 27616;27645 27675	the T-tailed fork substrates containing the (GAA:CTT)10 duplex DNA segment
+T773	IDENTITY_chain 27573 27616;27645 27675	the T-tailed fork substrates containing the (GAA:CTT)10 duplex DNA segment
+T774	Noun_Phrase 27573 27628;27657 27675	the T-tailed fork substrates containing the (GCC:CGG)10 duplex DNA segment
+T775	IDENTITY_chain 27573 27628;27657 27675	the T-tailed fork substrates containing the (GCC:CGG)10 duplex DNA segment
 T776	Noun_Phrase 27677 27686	Figure 8E
 T777	IDENTITY_chain 27677 27686	Figure 8E
 T778	Noun_Phrase 27689 27697	Mcm4/6/7
@@ -885,8 +803,7 @@ T801	Noun_Phrase 28536 28547	this report
 T802	Noun_Phrase 28549 28551	we
 T803	Noun_Phrase 28600 28608	helicase
 T804	Noun_Phrase 28620 28634	mouse Mcm4/6/7
-T805	Noun_Phrase 28670 28674;	fork
-28686 28696	forkstructures
+T805	Noun_Phrase 28670 28674;28686 28696	fork structures
 T806	Noun_Phrase 28670 28696	fork and bubble structures
 T807	Noun_Phrase 28679 28685	bubble
 T808	Noun_Phrase 28679 28696	bubble structures
@@ -1094,14 +1011,10 @@ T1009	Noun_Phrase 38424 38430	Tables
 T1010	Noun_Phrase 38485 38501	Mcm4/6/7 protein
 T1011	Noun_Phrase 38544 38545	A
 T1012	Noun_Phrase 38547 38573	The Bub66/T-rich substrate
-T1013	Noun_Phrase 38584 38587;	the
-38602 38624	thebottom strand of which
-T1014	IDENTITY_chain 38584 38587;	the
-38602 38624	thebottom strand of which
-T1015	Noun_Phrase 38584 38598;	the top strand
-38616 38624	the top strandof which
-T1016	IDENTITY_chain 38584 38598;	the top strand
-38616 38624	the top strandof which
+T1013	Noun_Phrase 38584 38587;38602 38624	the bottom strand of which
+T1014	IDENTITY_chain 38584 38587;38602 38624	the bottom strand of which
+T1015	Noun_Phrase 38584 38598;38616 38624	the top strand of which
+T1016	IDENTITY_chain 38584 38598;38616 38624	the top strand of which
 T1017	Noun_Phrase 38584 38624	the top strand or bottom strand of which
 T1018	IDENTITY_chain 38584 38624	the top strand or bottom strand of which
 T1019	Noun_Phrase 38619 38624	which
@@ -1112,18 +1025,13 @@ T1023	Noun_Phrase 38993 39009	Mcm4/6/7 protein
 T1024	Noun_Phrase 39044 39051	DNase I
 T1025	Noun_Phrase 39154 39186	duplex regions of the substrates
 T1026	Noun_Phrase 39239 39240	A
-T1027	Noun_Phrase 39243 39246;	top
-39258 39265	topstrands
+T1027	Noun_Phrase 39243 39246;39258 39265	top strands
 T1028	Noun_Phrase 39243 39265	top and bottom strands
 T1029	Noun_Phrase 39251 39265	bottom strands
-T1030	Noun_Phrase 39324 39341;	Regions of strong
-39355 39365	Regions of strongprotection
-T1031	IDENTITY_chain 39324 39341;	Regions of strong
-39355 39365	Regions of strongprotection
-T1032	Noun_Phrase 39383 39387;	bold
-39399 39409	boldgray lines
-T1033	IDENTITY_chain 39383 39387;	bold
-39399 39409	boldgray lines
+T1030	Noun_Phrase 39324 39341;39355 39365	Regions of strong protection
+T1031	IDENTITY_chain 39324 39341;39355 39365	Regions of strong protection
+T1032	Noun_Phrase 39383 39387;39399 39409	bold gray lines
+T1033	IDENTITY_chain 39383 39387;39399 39409	bold gray lines
 T1034	Noun_Phrase 39486 39487	A
 T1035	Noun_Phrase 39530 39576	protected regions indicated by gray bold lines
 T1036	Noun_Phrase 39561 39576	gray bold lines
@@ -1137,15 +1045,11 @@ T1043	Noun_Phrase 39777 39809	radiolabeled 10 and 50 bp ladder
 T1044	Noun_Phrase 39812 39820	Figure 2
 T1045	Noun_Phrase 39834 39842	helicase
 T1046	Noun_Phrase 39854 39868	mouse Mcm4/6/7
-T1047	Noun_Phrase 39945 39954;	Gel shift
-39959 39975;	Gel shiftand DNA helicase
-39980 39986	Gel shiftand DNA helicaseassays
-T1048	Noun_Phrase 39945 39954;	Gel shift
-39980 39986	Gel shiftassays
+T1047	Noun_Phrase 39945 39954;39959 39975;39980 39986	Gel shift and DNA helicase assays
+T1048	Noun_Phrase 39945 39954;39980 39986	Gel shift assays
 T1049	Noun_Phrase 39956 39957	A
 T1050	Noun_Phrase 39963 39975	DNA helicase
-T1051	Noun_Phrase 39963 39975;	DNA helicase
-39980 39986	DNA helicaseassays
+T1051	Noun_Phrase 39963 39975;39980 39986	DNA helicase assays
 T1052	Noun_Phrase 39977 39978	B
 T1053	Noun_Phrase 40007 40021	mouse Mcm4/6/7
 T1054	Noun_Phrase 40025 40046	synthetic bubble DNAs
@@ -1171,8 +1075,7 @@ T1073	Noun_Phrase 40461 40462	A
 T1074	Noun_Phrase 40464 40494	The Mcm4/6/7 helicase activity
 T1075	Noun_Phrase 40468 40485	Mcm4/6/7 helicase
 T1076	Noun_Phrase 40609 40621	Bub66/T-rich
-T1077	Noun_Phrase 40642 40650;	thymine-
-40663 40676	thymine-rich sequence
+T1077	Noun_Phrase 40642 40650;40663 40676	thymine- rich sequence
 T1078	Noun_Phrase 40655 40676	guanine-rich sequence
 T1079	Noun_Phrase 40693 40707	Bub66/T–G-rich
 T1080	Noun_Phrase 40809 40810	B
@@ -1208,8 +1111,7 @@ T1109	Noun_Phrase 41921 41943	32P-labeled 5?-termini
 T1110	Noun_Phrase 41956 41959	DNA
 T1111	Noun_Phrase 41972 41980	helicase
 T1112	Noun_Phrase 41992 42000	Mcm4/6/7
-T1113	Noun_Phrase 42004 42007;	5?-
-42015 42035	5?-extension substrates
+T1113	Noun_Phrase 42004 42007;42015 42035	5?- extension substrates
 T1114	Noun_Phrase 42012 42035	3?-extension substrates
 T1115	Noun_Phrase 42037 42040	DNA
 T1116	Noun_Phrase 42050 42051	A
@@ -1222,10 +1124,8 @@ T1122	Noun_Phrase 42217 42218	D
 T1123	Noun_Phrase 42220 42232	DNA helicase
 T1124	Noun_Phrase 42220 42293	DNA helicase assays on 5?-extension, 3?-extension and Y-forked substrates
 T1125	IDENTITY_chain 42220 42293	DNA helicase assays on 5?-extension, 3?-extension and Y-forked substrates
-T1126	Noun_Phrase 42243 42255;	5?-extension
-42283 42293	5?-extensionsubstrates
-T1127	Noun_Phrase 42257 42269;	3?-extension
-42283 42293	3?-extensionsubstrates
+T1126	Noun_Phrase 42243 42255;42283 42293	5?-extension substrates
+T1127	Noun_Phrase 42257 42269;42283 42293	3?-extension substrates
 T1128	Noun_Phrase 42274 42293	Y-forked substrates
 T1129	Noun_Phrase 42348 42368	the Mcm4/6/7 complex
 T1130	Noun_Phrase 42429 42439	the assays
@@ -1254,16 +1154,9 @@ T1152	Noun_Phrase 43283 43305	the human c-myc origin
 T1153	Noun_Phrase 43308 43309	A
 T1154	Noun_Phrase 43311 43323	DNA helicase
 T1155	Noun_Phrase 43334 43342	Mcm4/6/7
-T1156	Noun_Phrase 43364 43388;	Bub-82 bubble substrates
-43398 43408;	Bub-82 bubble substratescontaining
-43420 43428;	Bub-82 bubble substratescontainingLamin B2
-43445 43454	Bub-82 bubble substratescontainingLamin B2sequences
-T1157	Noun_Phrase 43364 43388;	Bub-82 bubble substrates
-43398 43408;	Bub-82 bubble substratescontaining
-43433 43454	Bub-82 bubble substratescontainingc-myc/DUE-C sequences
-T1158	Noun_Phrase 43364 43388;	Bub-82 bubble substrates
-43398 43418;	Bub-82 bubble substratescontaining c-myc/DUE
-43445 43454	Bub-82 bubble substratescontaining c-myc/DUEsequences
+T1156	Noun_Phrase 43364 43388;43398 43408;43420 43428;43445 43454	Bub-82 bubble substrates containing Lamin B2 sequences
+T1157	Noun_Phrase 43364 43388;43398 43408;43433 43454	Bub-82 bubble substrates containing c-myc/DUE-C sequences
+T1158	Noun_Phrase 43364 43388;43398 43418;43445 43454	Bub-82 bubble substrates containing c-myc/DUE sequences
 T1159	Noun_Phrase 43458 43478	the unpaired segment
 T1160	IDENTITY_chain 43458 43478	the unpaired segment
 T1161	Noun_Phrase 43484 43491	thymine
@@ -1282,8 +1175,7 @@ T1173	Noun_Phrase 43905 43913	Mcm4/6/7
 T1174	Noun_Phrase 43915 43918	DNA
 T1175	Noun_Phrase 43928 43929	A
 T1176	Noun_Phrase 43935 43943	helicase
-T1177	Noun_Phrase 43935 43943;	helicase
-43957 43992	helicaseactivities of the Mcm4/6/7 helicase
+T1177	Noun_Phrase 43935 43943;43957 43992	helicase activities of the Mcm4/6/7 helicase
 T1178	Noun_Phrase 43945 43946	B
 T1179	Noun_Phrase 43948 43949	D
 T1180	Noun_Phrase 43954 43955	E
@@ -1306,8 +1198,7 @@ T1196	Noun_Phrase 44409 44417	Helicase
 T1197	Noun_Phrase 44611 44631	the Mcm4/6/7 protein
 T1198	Noun_Phrase 44839 44840	D
 T1199	Noun_Phrase 44920 44931	[?-32P]dGTP
-T1200	Noun_Phrase 44950 44953;	the
-44972 45024	the32P-labeled 5? ends of the annealed oligonucleotides
+T1200	Noun_Phrase 44950 44953;44972 45024	the 32P-labeled 5? ends of the annealed oligonucleotides
 T1201	Noun_Phrase 44995 45024	the annealed oligonucleotides
 T1202	Noun_Phrase 45033 45034	D
 T1203	Noun_Phrase 45084 45085	E

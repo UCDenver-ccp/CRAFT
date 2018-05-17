@@ -2,10 +2,8 @@ T0	Noun_Phrase 0 8	Membrane
 T1	IDENTITY_chain 0 8	Membrane
 T2	Noun_Phrase 0 20	Membrane trafficking
 T3	IDENTITY_chain 0 20	Membrane trafficking
-T4	Noun_Phrase 0 20;	Membrane trafficking
-39 52	Membrane traffickingabnormalities
-T5	IDENTITY_chain 0 20;	Membrane trafficking
-39 52	Membrane traffickingabnormalities
+T4	Noun_Phrase 0 20;39 52	Membrane trafficking abnormalities
+T5	IDENTITY_chain 0 20;39 52	Membrane trafficking abnormalities
 T6	Noun_Phrase 25 52	mitochondrial abnormalities
 T7	IDENTITY_chain 25 52	mitochondrial abnormalities
 T8	Noun_Phrase 61 70	subunit c
@@ -51,10 +49,8 @@ T47	Noun_Phrase 997 1007	confluency
 T48	IDENTITY_chain 997 1007	confluency
 T49	Noun_Phrase 1020 1036	ATPase subunit c
 T50	Noun_Phrase 1102 1113	cathepsin D
-T51	Noun_Phrase 1102 1113;	cathepsin D
-1128 1138	cathepsin Dprocessing
-T52	IDENTITY_chain 1102 1113;	cathepsin D
-1128 1138	cathepsin Dprocessing
+T51	Noun_Phrase 1102 1113;1128 1138	cathepsin D processing
+T52	IDENTITY_chain 1102 1113;1128 1138	cathepsin D processing
 T53	Noun_Phrase 1102 1123	cathepsin D transport
 T54	IDENTITY_chain 1102 1123	cathepsin D transport
 T55	Noun_Phrase 1102 1138	cathepsin D transport and processing
@@ -63,10 +59,8 @@ T57	Noun_Phrase 1161 1167	enzyme
 T58	IDENTITY_chain 1161 1167	enzyme
 T59	Noun_Phrase 1161 1176	enzyme activity
 T60	IDENTITY_chain 1161 1176	enzyme activity
-T61	Noun_Phrase 1208 1217;	lysosomal
-1227 1239	lysosomaldistribution
-T62	IDENTITY_chain 1208 1217;	lysosomal
-1227 1239	lysosomaldistribution
+T61	Noun_Phrase 1208 1217;1227 1239	lysosomal distribution
+T62	IDENTITY_chain 1208 1217;1227 1239	lysosomal distribution
 T63	Noun_Phrase 1208 1222	lysosomal size
 T64	IDENTITY_chain 1208 1222	lysosomal size
 T65	Noun_Phrase 1208 1239	lysosomal size and distribution
@@ -142,10 +136,8 @@ T134	Noun_Phrase 4043 4062	membrane organelles
 T135	IDENTITY_chain 4043 4062	membrane organelles
 T136	Noun_Phrase 4072 4080	membrane
 T137	Noun_Phrase 4072 4092	membrane trafficking
-T138	Noun_Phrase 4072 4100;	membrane trafficking defects
-4131 4170	membrane trafficking defectsin homozygous mutant CbCln3?ex7/8 cells
-T139	IDENTITY_chain 4072 4100;	membrane trafficking defects
-4131 4170	membrane trafficking defectsin homozygous mutant CbCln3?ex7/8 cells
+T138	Noun_Phrase 4072 4100;4131 4170	membrane trafficking defects in homozygous mutant CbCln3?ex7/8 cells
+T139	IDENTITY_chain 4072 4100;4131 4170	membrane trafficking defects in homozygous mutant CbCln3?ex7/8 cells
 T140	Noun_Phrase 4105 4170	mitochondrial dysfunction in homozygous mutant CbCln3?ex7/8 cells
 T141	IDENTITY_chain 4105 4170	mitochondrial dysfunction in homozygous mutant CbCln3?ex7/8 cells
 T142	Noun_Phrase 4134 4170	homozygous mutant CbCln3?ex7/8 cells
@@ -154,17 +146,13 @@ T144	Noun_Phrase 4258 4316	a precise genetic, neuron-derived JNCL cell culture s
 T145	IDENTITY_chain 4258 4316	a precise genetic, neuron-derived JNCL cell culture system
 T146	Noun_Phrase 4292 4296	JNCL
 T147	Noun_Phrase 4318 4320	we
-T148	Noun_Phrase 4334 4379;	granule neurons cultured from postnatal day 4
-4385 4477	granule neurons cultured from postnatal day 4cerebella of homozygous and heterozygous Cln3?ex7/8 knock-in mice, and wild-type littermates
-T149	IDENTITY_chain 4334 4379;	granule neurons cultured from postnatal day 4
-4385 4477	granule neurons cultured from postnatal day 4cerebella of homozygous and heterozygous Cln3?ex7/8 knock-in mice, and wild-type littermates
+T148	Noun_Phrase 4334 4379;4385 4477	granule neurons cultured from postnatal day 4 cerebella of homozygous and heterozygous Cln3?ex7/8 knock-in mice, and wild-type littermates
+T149	IDENTITY_chain 4334 4379;4385 4477	granule neurons cultured from postnatal day 4 cerebella of homozygous and heterozygous Cln3?ex7/8 knock-in mice, and wild-type littermates
 T150	Noun_Phrase 4364 4379	postnatal day 4
 T151	APPOS_relation 4364 4379	postnatal day 4
-T152	Noun_Phrase 4364 4379;	postnatal day 4
-4385 4450	postnatal day 4cerebella of homozygous and heterozygous Cln3?ex7/8 knock-in mice
+T152	Noun_Phrase 4364 4379;4385 4450	postnatal day 4 cerebella of homozygous and heterozygous Cln3?ex7/8 knock-in mice
 T153	Noun_Phrase 4381 4383	P4
-T154	Noun_Phrase 4398 4408;	homozygous
-4426 4450	homozygousCln3?ex7/8 knock-in mice
+T154	Noun_Phrase 4398 4408;4426 4450	homozygous Cln3?ex7/8 knock-in mice
 T155	Noun_Phrase 4398 4450	homozygous and heterozygous Cln3?ex7/8 knock-in mice
 T156	Noun_Phrase 4413 4450	heterozygous Cln3?ex7/8 knock-in mice
 T157	IDENTITY_chain 4413 4450	heterozygous Cln3?ex7/8 knock-in mice
@@ -178,24 +166,18 @@ T164	IDENTITY_chain 4823 4830	Fig. 1b
 T165	Noun_Phrase 4993 5013	SV40 large T antigen
 T166	Noun_Phrase 5072 5077	cells
 T167	IDENTITY_chain 5072 5077	cells
-T168	Noun_Phrase 5314 5323;	increased
-5333 5348	increasedNeuN expression
-T169	IDENTITY_chain 5314 5323;	increased
-5333 5348	increasedNeuN expression
-T170	Noun_Phrase 5314 5328;	increased MAP2
-5338 5348	increased MAP2expression
-T171	IDENTITY_chain 5314 5328;	increased MAP2
-5338 5348	increased MAP2expression
+T168	Noun_Phrase 5314 5323;5333 5348	increased NeuN expression
+T169	IDENTITY_chain 5314 5323;5333 5348	increased NeuN expression
+T170	Noun_Phrase 5314 5328;5338 5348	increased MAP2 expression
+T171	IDENTITY_chain 5314 5328;5338 5348	increased MAP2 expression
 T172	Noun_Phrase 5314 5348	increased MAP2 and NeuN expression
 T173	IDENTITY_chain 5314 5348	increased MAP2 and NeuN expression
 T174	Noun_Phrase 5324 5328	MAP2
 T175	IDENTITY_chain 5324 5328	MAP2
 T176	Noun_Phrase 5333 5337	NeuN
 T177	IDENTITY_chain 5333 5337	NeuN
-T178	Noun_Phrase 5350 5354;	Fig.
-5358 5360	Fig.1d
-T179	IDENTITY_chain 5350 5354;	Fig.
-5358 5360	Fig.1d
+T178	Noun_Phrase 5350 5354;5358 5360	Fig. 1d
+T179	IDENTITY_chain 5350 5354;5358 5360	Fig. 1d
 T180	Noun_Phrase 5350 5357	Fig. 1c
 T181	IDENTITY_chain 5350 5357	Fig. 1c
 T182	Noun_Phrase 5385 5404	the Purkinje marker
@@ -214,15 +196,11 @@ T194	IDENTITY_chain 5634 5638	GFAP
 T195	Noun_Phrase 5651 5652	b
 T196	Noun_Phrase 5766 5781	CbCln3+/+ cells
 T197	Noun_Phrase 5872 5876	MAP2
-T198	Noun_Phrase 5872 5876;	MAP2
-5881 5889;	MAP2and NeuN
-5894 5904	MAP2and NeuNexpression
-T199	Noun_Phrase 5872 5876;	MAP2
-5894 5904	MAP2expression
+T198	Noun_Phrase 5872 5876;5881 5889;5894 5904	MAP2 and NeuN expression
+T199	Noun_Phrase 5872 5876;5894 5904	MAP2 expression
 T200	Noun_Phrase 5878 5879	c
 T201	Noun_Phrase 5885 5889	NeuN
-T202	Noun_Phrase 5885 5889;	NeuN
-5894 5904	NeuNexpression
+T202	Noun_Phrase 5885 5889;5894 5904	NeuN expression
 T203	Noun_Phrase 5891 5892	d
 T204	Noun_Phrase 5920 5935	CbCln3+/+ cells
 T205	Noun_Phrase 5953 5989	the Purkinje neuron marker calbindin
@@ -244,20 +222,14 @@ T220	Noun_Phrase 6481 6500	C-terminal epitopes
 T221	Noun_Phrase 6565 6571	RT-PCR
 T222	IDENTITY_chain 6565 6571	RT-PCR
 T223	Noun_Phrase 6576 6589	anti-battenin
-T224	Noun_Phrase 6576 6589;	anti-battenin
-6598 6612	anti-batteninimmunostaining
-T225	IDENTITY_chain 6576 6589;	anti-battenin
-6598 6612	anti-batteninimmunostaining
+T224	Noun_Phrase 6576 6589;6598 6612	anti-battenin immunostaining
+T225	IDENTITY_chain 6576 6589;6598 6612	anti-battenin immunostaining
 T226	Noun_Phrase 6641 6649	Figure 2
 T227	IDENTITY_chain 6641 6649	Figure 2
-T228	Noun_Phrase 6651 6672;	Cln3 mRNA isoforms in
-6687 6703	Cln3 mRNA isoforms inhomozygous cells
-T229	IDENTITY_chain 6651 6672;	Cln3 mRNA isoforms in
-6687 6703	Cln3 mRNA isoforms inhomozygous cells
-T230	Noun_Phrase 6651 6682;	Cln3 mRNA isoforms in wild-type
-6698 6703	Cln3 mRNA isoforms in wild-typecells
-T231	IDENTITY_chain 6651 6682;	Cln3 mRNA isoforms in wild-type
-6698 6703	Cln3 mRNA isoforms in wild-typecells
+T228	Noun_Phrase 6651 6672;6687 6703	Cln3 mRNA isoforms in homozygous cells
+T229	IDENTITY_chain 6651 6672;6687 6703	Cln3 mRNA isoforms in homozygous cells
+T230	Noun_Phrase 6651 6682;6698 6703	Cln3 mRNA isoforms in wild-type cells
+T231	IDENTITY_chain 6651 6682;6698 6703	Cln3 mRNA isoforms in wild-type cells
 T232	Noun_Phrase 6651 6703	Cln3 mRNA isoforms in wild-type and homozygous cells
 T233	IDENTITY_chain 6651 6703	Cln3 mRNA isoforms in wild-type and homozygous cells
 T234	Noun_Phrase 6687 6703	homozygous cells
@@ -285,10 +257,8 @@ T255	IDENTITY_chain 7209 7213	Rab7
 T256	Noun_Phrase 7215 7221	Fig. 3
 T257	IDENTITY_chain 7215 7221	Fig. 3
 T258	Noun_Phrase 7366 7371	Lamp1
-T259	Noun_Phrase 7366 7371;	Lamp1
-7381 7412	Lamp1immunocytochemical distribution
-T260	IDENTITY_chain 7366 7371;	Lamp1
-7381 7412	Lamp1immunocytochemical distribution
+T259	Noun_Phrase 7366 7371;7381 7412	Lamp1 immunocytochemical distribution
+T260	IDENTITY_chain 7366 7371;7381 7412	Lamp1 immunocytochemical distribution
 T261	Noun_Phrase 7366 7412	Lamp1 and EEA1 immunocytochemical distribution
 T262	IDENTITY_chain 7366 7412	Lamp1 and EEA1 immunocytochemical distribution
 T263	Noun_Phrase 7376 7380	EEA1
@@ -307,38 +277,25 @@ T275	Noun_Phrase 7739 7744	batp1
 T276	Noun_Phrase 7739 7751	batp1 signal
 T277	Noun_Phrase 7780 7795	wild-type cells
 T278	Noun_Phrase 7815 7823	Figure 2
-T279	Noun_Phrase 7835 7847;	Cln3 mRNA in
-7862 7891	Cln3 mRNA inhomozygous CbCln3?ex7/8 cells
-T280	Noun_Phrase 7835 7857;	Cln3 mRNA in wild-type
-7886 7891	Cln3 mRNA in wild-typecells
+T279	Noun_Phrase 7835 7847;7862 7891	Cln3 mRNA in homozygous CbCln3?ex7/8 cells
+T280	Noun_Phrase 7835 7857;7886 7891	Cln3 mRNA in wild-type cells
 T281	Noun_Phrase 7835 7891	Cln3 mRNA in wild-type and homozygous CbCln3?ex7/8 cells
-T282	Noun_Phrase 7848 7857;	wild-type
-7886 7891	wild-typecells
+T282	Noun_Phrase 7848 7857;7886 7891	wild-type cells
 T283	Noun_Phrase 7862 7891	homozygous CbCln3?ex7/8 cells
 T284	Noun_Phrase 8320 8328	Figure 3
 T285	Noun_Phrase 8330 8338	Battenin
-T286	Noun_Phrase 8343 8352;	lysosomal
-8367 8453	lysosomalmarker co-staining in wild-type and homozygous CbCln3?ex7/8 cerebellar precursor cells
-T287	IDENTITY_chain 8343 8352;	lysosomal
-8367 8453	lysosomalmarker co-staining in wild-type and homozygous CbCln3?ex7/8 cerebellar precursor cells
+T286	Noun_Phrase 8343 8352;8367 8453	lysosomal marker co-staining in wild-type and homozygous CbCln3?ex7/8 cerebellar precursor cells
+T287	IDENTITY_chain 8343 8352;8367 8453	lysosomal marker co-staining in wild-type and homozygous CbCln3?ex7/8 cerebellar precursor cells
 T288	Noun_Phrase 8357 8453	endosomal marker co-staining in wild-type and homozygous CbCln3?ex7/8 cerebellar precursor cells
 T289	IDENTITY_chain 8357 8453	endosomal marker co-staining in wild-type and homozygous CbCln3?ex7/8 cerebellar precursor cells
-T290	Noun_Phrase 8389 8398;	wild-type
-8427 8453	wild-typecerebellar precursor cells
-T291	IDENTITY_chain 8389 8398;	wild-type
-8427 8453	wild-typecerebellar precursor cells
+T290	Noun_Phrase 8389 8398;8427 8453	wild-type cerebellar precursor cells
+T291	IDENTITY_chain 8389 8398;8427 8453	wild-type cerebellar precursor cells
 T292	Noun_Phrase 8403 8453	homozygous CbCln3?ex7/8 cerebellar precursor cells
 T293	Noun_Phrase 8454 8459	Batp1
-T294	Noun_Phrase 8454 8487;	Batp1 immunostaining of wild-type
-8500 8521;	Batp1 immunostaining of wild-typeand homozygous mutant
-8544 8570	Batp1 immunostaining of wild-typeand homozygous mutantcerebellar precursor cells
-T295	Noun_Phrase 8478 8487;	wild-type
-8544 8570	wild-typecerebellar precursor cells
-T296	Noun_Phrase 8504 8521;	homozygous mutant
-8544 8570	homozygous mutantcerebellar precursor cells
-T297	Noun_Phrase 8586 8601;	co-staining for
-8622 8637;	co-staining forearly endosomes
-8646 8664	co-staining forearly endosomesand late endosomes
+T294	Noun_Phrase 8454 8487;8500 8521;8544 8570	Batp1 immunostaining of wild-type and homozygous mutant cerebellar precursor cells
+T295	Noun_Phrase 8478 8487;8544 8570	wild-type cerebellar precursor cells
+T296	Noun_Phrase 8504 8521;8544 8570	homozygous mutant cerebellar precursor cells
+T297	Noun_Phrase 8586 8601;8622 8637;8646 8664	co-staining for early endosomes and late endosomes
 T298	Noun_Phrase 8586 8611	co-staining for lysosomes
 T299	Noun_Phrase 8602 8611	lysosomes
 T300	Noun_Phrase 8613 8619	Lamp 1
@@ -364,24 +321,20 @@ T319	Noun_Phrase 9081 9085	EEA1
 T320	Noun_Phrase 9090 9094	Rab7
 T321	Noun_Phrase 9112 9118	Lamp 1
 T322	Noun_Phrase 9192 9198	Lamp 1
-T323	Noun_Phrase 9192 9198;	Lamp 1
-9208 9220	Lamp 1localization
+T323	Noun_Phrase 9192 9198;9208 9220	Lamp 1 localization
 T324	Noun_Phrase 9192 9220	Lamp 1 and EEA1 localization
 T325	Noun_Phrase 9203 9207	EEA1
 T326	Noun_Phrase 9203 9220	EEA1 localization
 T327	Noun_Phrase 9241 9245	Rab7
 T328	Noun_Phrase 9241 9254	Rab7 staining
 T329	Noun_Phrase 9286 9315	homozygous CbCln3?ex7/8 cells
-T330	Noun_Phrase 9317 9326;	Wild-type
-9342 9370	Wild-typeCbCln3?ex7/8 confocal images
-T331	IDENTITY_chain 9317 9326;	Wild-type
-9342 9370	Wild-typeCbCln3?ex7/8 confocal images
+T330	Noun_Phrase 9317 9326;9342 9370	Wild-type CbCln3?ex7/8 confocal images
+T331	IDENTITY_chain 9317 9326;9342 9370	Wild-type CbCln3?ex7/8 confocal images
 T332	Noun_Phrase 9317 9370	Wild-type and homozygous CbCln3?ex7/8 confocal images
 T333	IDENTITY_chain 9317 9370	Wild-type and homozygous CbCln3?ex7/8 confocal images
 T334	Noun_Phrase 9331 9370	homozygous CbCln3?ex7/8 confocal images
 T335	IDENTITY_chain 9331 9370	homozygous CbCln3?ex7/8 confocal images
-T336	Noun_Phrase 9488 9497;	wild-type
-9526 9531	wild-typecells
+T336	Noun_Phrase 9488 9497;9526 9531	wild-type cells
 T337	Noun_Phrase 9502 9531	homozygous CbCln3?ex7/8 cells
 T338	Noun_Phrase 9542 9558	autofluorescence
 T339	IDENTITY_chain 9542 9558	autofluorescence
@@ -416,10 +369,8 @@ T367	IDENTITY_chain 10446 10522	Subunit c accumulation in homozygous CbCln3?ex7/
 T368	Noun_Phrase 10472 10522	homozygous CbCln3?ex7/8 cerebellar precursor cells
 T369	Noun_Phrase 10523 10524	a
 T370	Noun_Phrase 10526 10535	Subunit c
-T371	Noun_Phrase 10575 10596;	7-day confluency-aged
-10611 10640	7-day confluency-agedhomozygous CbCln3?ex7/8 cells
-T372	Noun_Phrase 10575 10606;	7-day confluency-aged wild-type
-10635 10640	7-day confluency-aged wild-typecells
+T371	Noun_Phrase 10575 10596;10611 10640	7-day confluency-aged homozygous CbCln3?ex7/8 cells
+T372	Noun_Phrase 10575 10606;10635 10640	7-day confluency-aged wild-type cells
 T373	Noun_Phrase 10611 10640	homozygous CbCln3?ex7/8 cells
 T374	Noun_Phrase 10651 10669	Wild-type cultures
 T375	Noun_Phrase 10700 10709	subunit c
@@ -432,12 +383,8 @@ T381	Noun_Phrase 10926 10942	subunit c puncta
 T382	Noun_Phrase 10986 10987	b
 T383	Noun_Phrase 11012 11029	subunit c protein
 T384	IDENTITY_chain 11012 11029	subunit c protein
-T385	Noun_Phrase 11117 11131;	sub-confluency
-11152 11169;	sub-confluencyhomozygous mutant
-11186 11194	sub-confluencyhomozygous mutantcultures
-T386	IDENTITY_chain 11117 11131;	sub-confluency
-11152 11169;	sub-confluencyhomozygous mutant
-11186 11194	sub-confluencyhomozygous mutantcultures
+T385	Noun_Phrase 11117 11131;11152 11169;11186 11194	sub-confluency homozygous mutant cultures
+T386	IDENTITY_chain 11117 11131;11152 11169;11186 11194	sub-confluency homozygous mutant cultures
 T387	Noun_Phrase 11235 11252	subunit c protein
 T388	Noun_Phrase 11294 11323	homozygous CbCln3?ex7/8 cells
 T389	Noun_Phrase 11325 11338	?ex7/8/?ex7/8
@@ -457,8 +404,7 @@ T402	Noun_Phrase 11841 11843	Ln
 T403	Noun_Phrase 11874 11875	M
 T404	APPOS_relation 11874 11875	M
 T405	Noun_Phrase 11877 11889	mitochondria
-T406	Noun_Phrase 11916 11926;	Homozygous
-11950 11974	HomozygousCln3?ex7/8 knock-in mice
+T406	Noun_Phrase 11916 11926;11950 11974	Homozygous Cln3?ex7/8 knock-in mice
 T407	Noun_Phrase 11916 11945	Homozygous CbCln3?ex7/8 cells
 T408	Noun_Phrase 11983 11994	cathepsin D
 T409	IDENTITY_chain 11983 11994	cathepsin D
@@ -471,33 +417,25 @@ T415	Noun_Phrase 12143 12165	ATP synthase subunit c
 T416	Noun_Phrase 12181 12193	the lysosome
 T417	Noun_Phrase 12200 12202	We
 T418	Noun_Phrase 12216 12227	cathepsin D
-T419	Noun_Phrase 12216 12227;	cathepsin D
-12242 12252	cathepsin Dprocessing
+T419	Noun_Phrase 12216 12227;12242 12252	cathepsin D processing
 T420	Noun_Phrase 12216 12237	cathepsin D transport
 T421	Noun_Phrase 12216 12252	cathepsin D transport and processing
-T422	Noun_Phrase 12256 12266;	homozygous
-12290 12305	homozygousCln3?ex7/8 mice
+T422	Noun_Phrase 12256 12266;12290 12305	homozygous Cln3?ex7/8 mice
 T423	Noun_Phrase 12256 12285	homozygous CbCln3?ex7/8 cells
 T424	Noun_Phrase 12312 12337	anti-cathepsin D antibody
 T425	IDENTITY_chain 12312 12337	anti-cathepsin D antibody
 T426	Noun_Phrase 12380 12400	cathepsin D isoforms
 T427	IDENTITY_chain 12380 12400	cathepsin D isoforms
-T428	Noun_Phrase 12402 12419;	Immunostaining of
-12434 12463	Immunostaining ofhomozygous CbCln3?ex7/8 cells
-T429	IDENTITY_chain 12402 12419;	Immunostaining of
-12434 12463	Immunostaining ofhomozygous CbCln3?ex7/8 cells
-T430	Noun_Phrase 12402 12429;	Immunostaining of wild-type
-12458 12463	Immunostaining of wild-typecells
-T431	IDENTITY_chain 12402 12429;	Immunostaining of wild-type
-12458 12463	Immunostaining of wild-typecells
+T428	Noun_Phrase 12402 12419;12434 12463	Immunostaining of homozygous CbCln3?ex7/8 cells
+T429	IDENTITY_chain 12402 12419;12434 12463	Immunostaining of homozygous CbCln3?ex7/8 cells
+T430	Noun_Phrase 12402 12429;12458 12463	Immunostaining of wild-type cells
+T431	IDENTITY_chain 12402 12429;12458 12463	Immunostaining of wild-type cells
 T432	Noun_Phrase 12402 12463	Immunostaining of wild-type and homozygous CbCln3?ex7/8 cells
 T433	IDENTITY_chain 12402 12463	Immunostaining of wild-type and homozygous CbCln3?ex7/8 cells
-T434	Noun_Phrase 12420 12429;	wild-type
-12458 12463	wild-typecells
+T434	Noun_Phrase 12420 12429;12458 12463	wild-type cells
 T435	Noun_Phrase 12434 12463	homozygous CbCln3?ex7/8 cells
 T436	Noun_Phrase 12510 12521	cathepsin D
-T437	Noun_Phrase 12552 12555;	its
-12570 12580	itsprocessing
+T437	Noun_Phrase 12552 12555;12570 12580	its processing
 T438	Noun_Phrase 12552 12555	its
 T439	Noun_Phrase 12552 12565	its transport
 T440	Noun_Phrase 12552 12580	its transport and processing
@@ -509,14 +447,10 @@ T445	IDENTITY_chain 12641 12648	Fig. 5a
 T446	Noun_Phrase 12663 12692	homozygous CbCln3?ex7/8 cells
 T447	Noun_Phrase 12694 12705	cathepsin D
 T448	Noun_Phrase 12777 12792	wild-type cells
-T449	Noun_Phrase 12809 12819;	homozygous
-12842 12868	homozygousCln3?ex7/8 tissue extracts
-T450	IDENTITY_chain 12809 12819;	homozygous
-12842 12868	homozygousCln3?ex7/8 tissue extracts
-T451	Noun_Phrase 12809 12837;	homozygous CbCln3?ex7/8 cell
-12860 12868	homozygous CbCln3?ex7/8 cellextracts
-T452	IDENTITY_chain 12809 12837;	homozygous CbCln3?ex7/8 cell
-12860 12868	homozygous CbCln3?ex7/8 cellextracts
+T449	Noun_Phrase 12809 12819;12842 12868	homozygous Cln3?ex7/8 tissue extracts
+T450	IDENTITY_chain 12809 12819;12842 12868	homozygous Cln3?ex7/8 tissue extracts
+T451	Noun_Phrase 12809 12837;12860 12868	homozygous CbCln3?ex7/8 cell extracts
+T452	IDENTITY_chain 12809 12837;12860 12868	homozygous CbCln3?ex7/8 cell extracts
 T453	Noun_Phrase 12809 12868	homozygous CbCln3?ex7/8 cell and Cln3?ex7/8 tissue extracts
 T454	IDENTITY_chain 12809 12868	homozygous CbCln3?ex7/8 cell and Cln3?ex7/8 tissue extracts
 T455	Noun_Phrase 12908 12928	cathepsin D isoforms
@@ -534,35 +468,26 @@ T466	IDENTITY_chain 13099 13167	the 31 kDa heavy chain of the double-chain form 
 T467	Noun_Phrase 13125 13167	the double-chain form of the mature enzyme
 T468	IDENTITY_chain 13125 13167	the double-chain form of the mature enzyme
 T469	Noun_Phrase 13150 13167	the mature enzyme
-T470	Noun_Phrase 13177 13187;	homozygous
-13210 13236	homozygousCln3?ex7/8 tissue extracts
-T471	Noun_Phrase 13177 13205;	homozygous CbCln3?ex7/8 cell
-13228 13236	homozygous CbCln3?ex7/8 cellextracts
+T470	Noun_Phrase 13177 13187;13210 13236	homozygous Cln3?ex7/8 tissue extracts
+T471	Noun_Phrase 13177 13205;13228 13236	homozygous CbCln3?ex7/8 cell extracts
 T472	Noun_Phrase 13177 13236	homozygous CbCln3?ex7/8 cell and Cln3?ex7/8 tissue extracts
-T473	Noun_Phrase 13238 13241;	the
-13256 13268	theheavy chains
+T473	Noun_Phrase 13238 13241;13256 13268	the heavy chains
 T474	Noun_Phrase 13238 13251	the precursor
 T475	Noun_Phrase 13287 13303	the single chain
 T476	Noun_Phrase 13338 13356	wild-type extracts
 T477	Noun_Phrase 13418 13429	cathepsin D
 T478	Noun_Phrase 13442 13448	enzyme
-T479	Noun_Phrase 13477 13489;	Heterozygous
-13510 13528	HeterozygousCbCln3?ex7/8 cells
+T479	Noun_Phrase 13477 13489;13510 13528	Heterozygous CbCln3?ex7/8 cells
 T480	Noun_Phrase 13477 13505	Heterozygous Cln3?ex7/8 mice
 T481	Noun_Phrase 13643 13654	Cathepsin D
-T482	Noun_Phrase 13643 13654;	Cathepsin D
-13672 13682	Cathepsin Dprocessing
-T483	Noun_Phrase 13686 13695;	wild-type
-13724 13729	wild-typecells
+T482	Noun_Phrase 13643 13654;13672 13682	Cathepsin D processing
+T483	Noun_Phrase 13686 13695;13724 13729	wild-type cells
 T484	Noun_Phrase 13700 13729	homozygous CbCln3?ex7/8 cells
 T485	Noun_Phrase 13730 13731	a
-T486	Noun_Phrase 13733 13750;	Immunostaining of
-13765 13835	Immunostaining ofhomozygous CbCln3?ex7/8 precursor cells with anti-cathepsin D antibody
-T487	Noun_Phrase 13733 13760;	Immunostaining of wild-type
-13789 13835	Immunostaining of wild-typeprecursor cells with anti-cathepsin D antibody
+T486	Noun_Phrase 13733 13750;13765 13835	Immunostaining of homozygous CbCln3?ex7/8 precursor cells with anti-cathepsin D antibody
+T487	Noun_Phrase 13733 13760;13789 13835	Immunostaining of wild-type precursor cells with anti-cathepsin D antibody
 T488	Noun_Phrase 13733 13835	Immunostaining of wild-type and homozygous CbCln3?ex7/8 precursor cells with anti-cathepsin D antibody
-T489	Noun_Phrase 13751 13760;	wild-type
-13789 13804	wild-typeprecursor cells
+T489	Noun_Phrase 13751 13760;13789 13804	wild-type precursor cells
 T490	Noun_Phrase 13765 13804	homozygous CbCln3?ex7/8 precursor cells
 T491	Noun_Phrase 13810 13835	anti-cathepsin D antibody
 T492	Noun_Phrase 13914 13929	CbCln3+/+ cells
@@ -570,19 +495,15 @@ T493	Noun_Phrase 14000 14011	Cathepsin D
 T494	Noun_Phrase 14022 14051	homozygous CbCln3?ex7/8 cells
 T495	Noun_Phrase 14145 14170	wild-type CbCln3+/+ cells
 T496	Noun_Phrase 14192 14193	b
-T497	Noun_Phrase 14254 14264;	homozygous
-14295 14325	homozygousCbCln3?ex7/8 cellular extracts
-T498	Noun_Phrase 14254 14291;	homozygous Cln3?ex7/8 knock-in tissue
-14317 14325	homozygous Cln3?ex7/8 knock-in tissueextracts
+T497	Noun_Phrase 14254 14264;14295 14325	homozygous CbCln3?ex7/8 cellular extracts
+T498	Noun_Phrase 14254 14291;14317 14325	homozygous Cln3?ex7/8 knock-in tissue extracts
 T499	Noun_Phrase 14254 14325	homozygous Cln3?ex7/8 knock-in tissue or CbCln3?ex7/8 cellular extracts
 T500	Noun_Phrase 14337 14365	The ~45 kDa cathepsin D band
-T501	Noun_Phrase 14419 14428;	wild-type
-14434 14462	wild-typetissue and cellular extracts
+T501	Noun_Phrase 14419 14428;14434 14462	wild-type tissue and cellular extracts
 T502	Noun_Phrase 14485 14498	mature enzyme
 T503	Noun_Phrase 14500 14512	single chain
 T504	Noun_Phrase 14527 14538	heavy chain
-T505	Noun_Phrase 14562 14583;	homozygous Cln3?ex7/8
-14612 14620	homozygous Cln3?ex7/8extracts
+T505	Noun_Phrase 14562 14583;14612 14620	homozygous Cln3?ex7/8 extracts
 T506	Noun_Phrase 14663 14713	heavy chain of the double-chain form of the enzyme
 T507	Noun_Phrase 14678 14713	the double-chain form of the enzyme
 T508	Noun_Phrase 14703 14713	the enzyme
@@ -598,8 +519,7 @@ T517	Noun_Phrase 14976 14996	cathepsin D activity
 T518	Noun_Phrase 15057 15086	homozygous CbCln3?ex7/8 cells
 T519	Noun_Phrase 15127 15142	wild-type cells
 T520	Noun_Phrase 15277 15288	cathepsin D
-T521	Noun_Phrase 15277 15288;	cathepsin D
-15303 15313	cathepsin Dprocessing
+T521	Noun_Phrase 15277 15288;15303 15313	cathepsin D processing
 T522	Noun_Phrase 15277 15298	cathepsin D transport
 T523	Noun_Phrase 15277 15313	cathepsin D transport and processing
 T524	Noun_Phrase 15331 15360	homozygous CbCln3?ex7/8 cells
@@ -616,10 +536,8 @@ T534	Noun_Phrase 15740 15761	the secretory pathway
 T535	Noun_Phrase 15876 15898	the respective markers
 T536	Noun_Phrase 15900 15927	protein disulfide isomerase
 T537	APPOS_relation 15900 15927	protein disulfide isomerase
-T538	Noun_Phrase 15900 15927;	protein disulfide isomerase
-15935 15949	protein disulfide isomeraseGM130, and VVL
-T539	APPOS_relation 15900 15927;	protein disulfide isomerase
-15935 15949	protein disulfide isomeraseGM130, and VVL
+T538	Noun_Phrase 15900 15927;15935 15949	protein disulfide isomerase GM130, and VVL
+T539	APPOS_relation 15900 15927;15935 15949	protein disulfide isomerase GM130, and VVL
 T540	IDENTITY_chain 15900 15927	protein disulfide isomerase
 T541	Noun_Phrase 15929 15932	PDI
 T542	Noun_Phrase 15935 15940	GM130
@@ -646,8 +564,7 @@ T562	IDENTITY_chain 16373 16379	Fig. 6
 T563	Noun_Phrase 16382 16388	Lamp 1
 T564	Noun_Phrase 16382 16401	Lamp 1 distribution
 T565	Noun_Phrase 16441 16447	Fig. 3
-T566	Noun_Phrase 16514 16523;	wild-type
-16552 16557	wild-typecells
+T566	Noun_Phrase 16514 16523;16552 16557	wild-type cells
 T567	Noun_Phrase 16528 16557	homozygous CbCln3?ex7/8 cells
 T568	Noun_Phrase 16561 16580	immunoblot analysis
 T569	Noun_Phrase 16593 16611	the altered signal
@@ -655,64 +572,36 @@ T570	Nonreferential_pronoun 16718 16720	It
 T571	Noun_Phrase 16740 16755	Lysotracker dye
 T572	Noun_Phrase 16947 16951	JNCL
 T573	Noun_Phrase 16962 16970	Figure 6
-T574	Noun_Phrase 16972 16983;	Lysotracker
-16995 17006;	Lysotrackerlabeling of
-17021 17054	Lysotrackerlabeling ofhomozygous CbCln3?ex7/8 lysosomes
-T575	IDENTITY_chain 16972 16983;	Lysotracker
-16995 17006;	Lysotrackerlabeling of
-17021 17054	Lysotrackerlabeling ofhomozygous CbCln3?ex7/8 lysosomes
-T576	Noun_Phrase 16972 16983;	Lysotracker
-16995 17016;	Lysotrackerlabeling of wild-type
-17045 17054	Lysotrackerlabeling of wild-typelysosomes
-T577	IDENTITY_chain 16972 16983;	Lysotracker
-16995 17016;	Lysotrackerlabeling of wild-type
-17045 17054	Lysotrackerlabeling of wild-typelysosomes
-T578	Noun_Phrase 16972 16983;	Lysotracker
-16995 17054	Lysotrackerlabeling of wild-type and homozygous CbCln3?ex7/8 lysosomes
-T579	IDENTITY_chain 16972 16983;	Lysotracker
-16995 17054	Lysotrackerlabeling of wild-type and homozygous CbCln3?ex7/8 lysosomes
-T580	Noun_Phrase 16972 17006;	Lysotracker and Lamp 2 labeling of
-17021 17054	Lysotracker and Lamp 2 labeling ofhomozygous CbCln3?ex7/8 lysosomes
-T581	IDENTITY_chain 16972 17006;	Lysotracker and Lamp 2 labeling of
-17021 17054	Lysotracker and Lamp 2 labeling ofhomozygous CbCln3?ex7/8 lysosomes
-T582	Noun_Phrase 16972 17016;	Lysotracker and Lamp 2 labeling of wild-type
-17045 17054	Lysotracker and Lamp 2 labeling of wild-typelysosomes
-T583	IDENTITY_chain 16972 17016;	Lysotracker and Lamp 2 labeling of wild-type
-17045 17054	Lysotracker and Lamp 2 labeling of wild-typelysosomes
+T574	Noun_Phrase 16972 16983;16995 17006;17021 17054	Lysotracker labeling of homozygous CbCln3?ex7/8 lysosomes
+T575	IDENTITY_chain 16972 16983;16995 17006;17021 17054	Lysotracker labeling of homozygous CbCln3?ex7/8 lysosomes
+T576	Noun_Phrase 16972 16983;16995 17016;17045 17054	Lysotracker labeling of wild-type lysosomes
+T577	IDENTITY_chain 16972 16983;16995 17016;17045 17054	Lysotracker labeling of wild-type lysosomes
+T578	Noun_Phrase 16972 16983;16995 17054	Lysotracker labeling of wild-type and homozygous CbCln3?ex7/8 lysosomes
+T579	IDENTITY_chain 16972 16983;16995 17054	Lysotracker labeling of wild-type and homozygous CbCln3?ex7/8 lysosomes
+T580	Noun_Phrase 16972 17006;17021 17054	Lysotracker and Lamp 2 labeling of homozygous CbCln3?ex7/8 lysosomes
+T581	IDENTITY_chain 16972 17006;17021 17054	Lysotracker and Lamp 2 labeling of homozygous CbCln3?ex7/8 lysosomes
+T582	Noun_Phrase 16972 17016;17045 17054	Lysotracker and Lamp 2 labeling of wild-type lysosomes
+T583	IDENTITY_chain 16972 17016;17045 17054	Lysotracker and Lamp 2 labeling of wild-type lysosomes
 T584	Noun_Phrase 16972 17054	Lysotracker and Lamp 2 labeling of wild-type and homozygous CbCln3?ex7/8 lysosomes
 T585	IDENTITY_chain 16972 17054	Lysotracker and Lamp 2 labeling of wild-type and homozygous CbCln3?ex7/8 lysosomes
 T586	Noun_Phrase 16988 16994	Lamp 2
-T587	Noun_Phrase 16988 17006;	Lamp 2 labeling of
-17021 17054	Lamp 2 labeling ofhomozygous CbCln3?ex7/8 lysosomes
-T588	IDENTITY_chain 16988 17006;	Lamp 2 labeling of
-17021 17054	Lamp 2 labeling ofhomozygous CbCln3?ex7/8 lysosomes
-T589	Noun_Phrase 16988 17016;	Lamp 2 labeling of wild-type
-17045 17054	Lamp 2 labeling of wild-typelysosomes
-T590	IDENTITY_chain 16988 17016;	Lamp 2 labeling of wild-type
-17045 17054	Lamp 2 labeling of wild-typelysosomes
+T587	Noun_Phrase 16988 17006;17021 17054	Lamp 2 labeling of homozygous CbCln3?ex7/8 lysosomes
+T588	IDENTITY_chain 16988 17006;17021 17054	Lamp 2 labeling of homozygous CbCln3?ex7/8 lysosomes
+T589	Noun_Phrase 16988 17016;17045 17054	Lamp 2 labeling of wild-type lysosomes
+T590	IDENTITY_chain 16988 17016;17045 17054	Lamp 2 labeling of wild-type lysosomes
 T591	Noun_Phrase 16988 17054	Lamp 2 labeling of wild-type and homozygous CbCln3?ex7/8 lysosomes
 T592	IDENTITY_chain 16988 17054	Lamp 2 labeling of wild-type and homozygous CbCln3?ex7/8 lysosomes
 T593	Noun_Phrase 17021 17054	homozygous CbCln3?ex7/8 lysosomes
-T594	Noun_Phrase 17055 17076;	Lysosomal labeling of
-17091 17135;	Lysosomal labeling ofhomozygous CbCln3?ex7/8 precursor cells with
-17152 17167	Lysosomal labeling ofhomozygous CbCln3?ex7/8 precursor cells withLamp 2 antibody
-T595	Noun_Phrase 17055 17076;	Lysosomal labeling of
-17091 17147	Lysosomal labeling ofhomozygous CbCln3?ex7/8 precursor cells with lysotracker
-T596	Noun_Phrase 17055 17076;	Lysosomal labeling of
-17091 17167	Lysosomal labeling ofhomozygous CbCln3?ex7/8 precursor cells with lysotracker and Lamp 2 antibody
-T597	Noun_Phrase 17055 17086;	Lysosomal labeling of wild-type
-17115 17135;	Lysosomal labeling of wild-typeprecursor cells with
-17152 17167	Lysosomal labeling of wild-typeprecursor cells withLamp 2 antibody
-T598	Noun_Phrase 17055 17086;	Lysosomal labeling of wild-type
-17115 17147	Lysosomal labeling of wild-typeprecursor cells with lysotracker
-T599	Noun_Phrase 17055 17086;	Lysosomal labeling of wild-type
-17115 17167	Lysosomal labeling of wild-typeprecursor cells with lysotracker and Lamp 2 antibody
-T600	Noun_Phrase 17055 17135;	Lysosomal labeling of wild-type and homozygous CbCln3?ex7/8 precursor cells with
-17152 17167	Lysosomal labeling of wild-type and homozygous CbCln3?ex7/8 precursor cells withLamp 2 antibody
+T594	Noun_Phrase 17055 17076;17091 17135;17152 17167	Lysosomal labeling of homozygous CbCln3?ex7/8 precursor cells with Lamp 2 antibody
+T595	Noun_Phrase 17055 17076;17091 17147	Lysosomal labeling of homozygous CbCln3?ex7/8 precursor cells with lysotracker
+T596	Noun_Phrase 17055 17076;17091 17167	Lysosomal labeling of homozygous CbCln3?ex7/8 precursor cells with lysotracker and Lamp 2 antibody
+T597	Noun_Phrase 17055 17086;17115 17135;17152 17167	Lysosomal labeling of wild-type precursor cells with Lamp 2 antibody
+T598	Noun_Phrase 17055 17086;17115 17147	Lysosomal labeling of wild-type precursor cells with lysotracker
+T599	Noun_Phrase 17055 17086;17115 17167	Lysosomal labeling of wild-type precursor cells with lysotracker and Lamp 2 antibody
+T600	Noun_Phrase 17055 17135;17152 17167	Lysosomal labeling of wild-type and homozygous CbCln3?ex7/8 precursor cells with Lamp 2 antibody
 T601	Noun_Phrase 17055 17147	Lysosomal labeling of wild-type and homozygous CbCln3?ex7/8 precursor cells with lysotracker
 T602	Noun_Phrase 17055 17167	Lysosomal labeling of wild-type and homozygous CbCln3?ex7/8 precursor cells with lysotracker and Lamp 2 antibody
-T603	Noun_Phrase 17077 17086;	wild-type
-17115 17130	wild-typeprecursor cells
+T603	Noun_Phrase 17077 17086;17115 17130	wild-type precursor cells
 T604	Noun_Phrase 17091 17130	homozygous CbCln3?ex7/8 precursor cells
 T605	Noun_Phrase 17136 17147	lysotracker
 T606	Noun_Phrase 17136 17167	lysotracker and Lamp 2 antibody
@@ -725,8 +614,7 @@ T612	Noun_Phrase 17398 17417	CbCln3?ex7/8/?ex7/8
 T613	Noun_Phrase 17492 17498	Lamp 2
 T614	Noun_Phrase 17603 17632	homozygous CbCln3?ex7/8 cells
 T615	Noun_Phrase 17705 17720	Lysotracker dye
-T616	Noun_Phrase 17722 17731;	Wild-type
-17747 17775	Wild-typeCbCln3?ex7/8 confocal images
+T616	Noun_Phrase 17722 17731;17747 17775	Wild-type CbCln3?ex7/8 confocal images
 T617	Noun_Phrase 17722 17775	Wild-type and homozygous CbCln3?ex7/8 confocal images
 T618	Noun_Phrase 17736 17775	homozygous CbCln3?ex7/8 confocal images
 T619	Noun_Phrase 17896 17900	EEA1
@@ -740,35 +628,27 @@ T626	IDENTITY_chain 18036 18055	dextran-FITC uptake
 T627	Noun_Phrase 18057 18063	Fig. 7
 T628	IDENTITY_chain 18057 18063	Fig. 7
 T629	Noun_Phrase 18119 18131	dextran-FITC
-T630	Noun_Phrase 18133 18142;	wild-type
-18160 18165	wild-typecells
+T630	Noun_Phrase 18133 18142;18160 18165	wild-type cells
 T631	Noun_Phrase 18147 18165	heterozygote cells
 T632	Noun_Phrase 18242 18264	the perinuclear region
 T633	Noun_Phrase 18275 18304	homozygous CbCln3?ex7/8 cells
 T634	Noun_Phrase 18442 18450	Figure 7
 T635	Noun_Phrase 18452 18463	Endocytosis
-T636	Noun_Phrase 18467 18476;	wild-type
-18519 18524	wild-typecells
-T637	Noun_Phrase 18478 18490;	heterozygous
-18506 18524	heterozygousCbCln3?ex7/8 cells
+T636	Noun_Phrase 18467 18476;18519 18524	wild-type cells
+T637	Noun_Phrase 18478 18490;18506 18524	heterozygous CbCln3?ex7/8 cells
 T638	Noun_Phrase 18495 18524	homozygous CbCln3?ex7/8 cells
 T639	Noun_Phrase 18525 18537	Dextran-FITC
 T640	Noun_Phrase 18525 18615	Dextran-FITC uptake in wild-type, heterozygous and homozygous CbCln3?ex7/8 precursor cells
-T641	Noun_Phrase 18548 18557;	wild-type
-18600 18615	wild-typeprecursor cells
-T642	Noun_Phrase 18559 18571;	heterozygous
-18587 18615	heterozygousCbCln3?ex7/8 precursor cells
+T641	Noun_Phrase 18548 18557;18600 18615	wild-type precursor cells
+T642	Noun_Phrase 18559 18571;18587 18615	heterozygous CbCln3?ex7/8 precursor cells
 T643	Noun_Phrase 18576 18615	homozygous CbCln3?ex7/8 precursor cells
-T644	Noun_Phrase 18629 18638;	wild-type
-18711 18716	wild-typecells
+T644	Noun_Phrase 18629 18638;18711 18716	wild-type cells
 T645	Noun_Phrase 18640 18649	CbCln3+/+
-T646	Noun_Phrase 18667 18679;	heterozygous
-18711 18716	heterozygouscells
+T646	Noun_Phrase 18667 18679;18711 18716	heterozygous cells
 T647	Noun_Phrase 18681 18695	CbCln3+/?ex7/8
 T648	Noun_Phrase 18718 18730	dextran-FITC
 T649	Noun_Phrase 18871 18883	dextran-FITC
-T650	Noun_Phrase 18893 18910;	homozygous mutant
-18946 18951	homozygous mutantcells
+T650	Noun_Phrase 18893 18910;18946 18951	homozygous mutant cells
 T651	Noun_Phrase 18912 18931	CbCln3?ex7/8/?ex7/8
 T652	Noun_Phrase 19147 19156	subunit c
 T653	Noun_Phrase 19188 19191	its
@@ -778,8 +658,7 @@ T656	IDENTITY_chain 19274 19327	homozygous CbCln3?ex7/8 cell mitochondrial morph
 T657	Noun_Phrase 19342 19401	Mitochondrial distribution in homozygous CbCln3?ex7/8 cells
 T658	IDENTITY_chain 19342 19401	Mitochondrial distribution in homozygous CbCln3?ex7/8 cells
 T659	Noun_Phrase 19372 19401	homozygous CbCln3?ex7/8 cells
-T660	Noun_Phrase 19429 19438;	wild-type
-19456 19461	wild-typecells
+T660	Noun_Phrase 19429 19438;19456 19461	wild-type cells
 T661	Noun_Phrase 19443 19461	heterozygous cells
 T662	Noun_Phrase 19472 19508	homozygous CbCln3?ex7/8 mitochondria
 T663	IDENTITY_chain 19472 19508	homozygous CbCln3?ex7/8 mitochondria
@@ -794,8 +673,7 @@ T671	Noun_Phrase 19648 19664	0.6 ?m in length
 T672	IDENTITY_chain 19648 19664	0.6 ?m in length
 T673	Noun_Phrase 19744 19755	this length
 T674	Noun_Phrase 19825 19854	homozygous CbCln3?ex7/8 cells
-T675	Noun_Phrase 19895 19904;	wild-type
-19921 19926	wild-typecells
+T675	Noun_Phrase 19895 19904;19921 19926	wild-type cells
 T676	Noun_Phrase 19908 19926	heterozygous cells
 T677	Noun_Phrase 19928 19957	homozygous CbCln3?ex7/8 cells
 T678	Noun_Phrase 20020 20027	Fig. 8b
@@ -806,13 +684,9 @@ T682	Noun_Phrase 20127 20134	Fig. 8c
 T683	IDENTITY_chain 20127 20134	Fig. 8c
 T684	Noun_Phrase 20241 20305	impaired mitochondrial function in homozygous CbCln3?ex7/8 cells
 T685	Noun_Phrase 20276 20305	homozygous CbCln3?ex7/8 cells
-T686	Noun_Phrase 20318 20342;	Mitochondrial morphology
-20356 20358;	Mitochondrial morphologyin
-20387 20416	Mitochondrial morphologyinhomozygous CbCln3?ex7/8 cells
-T687	Noun_Phrase 20359 20368;	wild-type
-20411 20416	wild-typecells
-T688	Noun_Phrase 20370 20382;	heterozygous
-20398 20416	heterozygousCbCln3?ex7/8 cells
+T686	Noun_Phrase 20318 20342;20356 20358;20387 20416	Mitochondrial morphology in homozygous CbCln3?ex7/8 cells
+T687	Noun_Phrase 20359 20368;20411 20416	wild-type cells
+T688	Noun_Phrase 20370 20382;20398 20416	heterozygous CbCln3?ex7/8 cells
 T689	Noun_Phrase 20387 20416	homozygous CbCln3?ex7/8 cells
 T690	Noun_Phrase 20417 20418	a
 T691	Noun_Phrase 20466 20514	homozygous CbCln3?ex7/8 mitochondrial morphology
@@ -830,39 +704,26 @@ T702	Noun_Phrase 20833 20879	Elongated homozygous CbCln3?ex7/8 mitochondria
 T703	Noun_Phrase 20902 20914	TEM analysis
 T704	Noun_Phrase 20936 20937	b
 T705	Noun_Phrase 20939 20958	Cellular ATP levels
-T706	Noun_Phrase 20939 20961;	Cellular ATP levels in
-20973 20985;	Cellular ATP levels inheterozygous
-21001 21029	Cellular ATP levels inheterozygousCbCln3?ex7/8 precursor cells
-T707	IDENTITY_chain 20939 20961;	Cellular ATP levels in
-20973 20985;	Cellular ATP levels inheterozygous
-21001 21029	Cellular ATP levels inheterozygousCbCln3?ex7/8 precursor cells
-T708	Noun_Phrase 20939 20971;	Cellular ATP levels in wild-type
-21014 21029	Cellular ATP levels in wild-typeprecursor cells
-T709	IDENTITY_chain 20939 20971;	Cellular ATP levels in wild-type
-21014 21029	Cellular ATP levels in wild-typeprecursor cells
-T710	Noun_Phrase 20962 20971;	wild-type
-21014 21029	wild-typeprecursor cells
-T711	Noun_Phrase 20973 20985;	heterozygous
-21001 21029	heterozygousCbCln3?ex7/8 precursor cells
+T706	Noun_Phrase 20939 20961;20973 20985;21001 21029	Cellular ATP levels in heterozygous CbCln3?ex7/8 precursor cells
+T707	IDENTITY_chain 20939 20961;20973 20985;21001 21029	Cellular ATP levels in heterozygous CbCln3?ex7/8 precursor cells
+T708	Noun_Phrase 20939 20971;21014 21029	Cellular ATP levels in wild-type precursor cells
+T709	IDENTITY_chain 20939 20971;21014 21029	Cellular ATP levels in wild-type precursor cells
+T710	Noun_Phrase 20962 20971;21014 21029	wild-type precursor cells
+T711	Noun_Phrase 20973 20985;21001 21029	heterozygous CbCln3?ex7/8 precursor cells
 T712	Noun_Phrase 20990 21029	homozygous CbCln3?ex7/8 precursor cells
-T713	Noun_Phrase 21041 21050;	Wild-type
-21103 21108	Wild-typecells
-T714	Noun_Phrase 21066 21078;	heterozygous
-21090 21108	heterozygousCbCln3?ex7/8 cells
+T713	Noun_Phrase 21041 21050;21103 21108	Wild-type cells
+T714	Noun_Phrase 21066 21078;21090 21108	heterozygous CbCln3?ex7/8 cells
 T715	Noun_Phrase 21137 21166	homozygous CbCln3?ex7/8 cells
 T716	Noun_Phrase 21217 21220	ATP
 T717	IDENTITY_chain 21217 21220	ATP
-T718	Noun_Phrase 21293 21302;	Wild-type
-21320 21352	Wild-typeCbCln3?ex7/8 cellular ATP levels
+T718	Noun_Phrase 21293 21302;21320 21352	Wild-type CbCln3?ex7/8 cellular ATP levels
 T719	Noun_Phrase 21307 21352	heterozygous CbCln3?ex7/8 cellular ATP levels
 T720	Noun_Phrase 21493 21494	c
 T721	Noun_Phrase 21566 21595	Homozygous CbCln3?ex7/8 cells
 T722	Noun_Phrase 21627 21643	oxidative stress
 T723	Noun_Phrase 21647 21674	hydrogen peroxide treatment
-T724	Noun_Phrase 21676 21685;	Wild-type
-21736 21741	Wild-typecells
-T725	Noun_Phrase 21699 21711;	heterozygous
-21723 21741	heterozygousCbCln3?ex7/8 cells
+T724	Noun_Phrase 21676 21685;21736 21741	Wild-type cells
+T725	Noun_Phrase 21699 21711;21723 21741	heterozygous CbCln3?ex7/8 cells
 T726	Noun_Phrase 21801 21830	homozygous CbCln3?ex7/8 cells
 T727	Noun_Phrase 21976 22015	CbCln3?ex7/8 cerebellar precursor cells
 T728	Noun_Phrase 22026 22093	the first genetically accurate neuron-derived culture model of JNCL
@@ -885,8 +746,7 @@ T744	Noun_Phrase 22504 22528	the JNCL disease process
 T745	Noun_Phrase 22557 22574	neuronal function
 T746	IDENTITY_chain 22557 22574	neuronal function
 T747	Noun_Phrase 22586 22597	cathepsin D
-T748	Noun_Phrase 22629 22639;	homozygous
-22663 22678	homozygousCln3?ex7/8 mice
+T748	Noun_Phrase 22629 22639;22663 22678	homozygous Cln3?ex7/8 mice
 T749	Noun_Phrase 22629 22658	homozygous CbCln3?ex7/8 cells
 T750	Noun_Phrase 22732 22744	lysosomal pH
 T751	IDENTITY_chain 22732 22744	lysosomal pH
@@ -920,12 +780,9 @@ T778	Noun_Phrase 23502 23557	subunit c accumulation in homozygous CbCln3?ex7/8 c
 T779	Noun_Phrase 23528 23557	homozygous CbCln3?ex7/8 cells
 T780	Noun_Phrase 23565 23569	they
 T781	Noun_Phrase 23600 23610	confluency
-T782	Noun_Phrase 23612 23621;	Lysosomal
-23636 23640	Lysosomalsize
-T783	Noun_Phrase 23612 23621;	Lysosomal
-23636 23657	Lysosomalsize and distribution
-T784	Noun_Phrase 23612 23621;	Lysosomal
-23645 23657	Lysosomaldistribution
+T782	Noun_Phrase 23612 23621;23636 23640	Lysosomal size
+T783	Noun_Phrase 23612 23621;23636 23657	Lysosomal size and distribution
+T784	Noun_Phrase 23612 23621;23645 23657	Lysosomal distribution
 T785	Noun_Phrase 23675 23687	mitochondria
 T786	Noun_Phrase 23745 23791	sub-confluent homozygous CbCln3?ex7/8 cultures
 T787	Noun_Phrase 23823 23831	membrane
@@ -941,8 +798,7 @@ T796	Noun_Phrase 24427 24468	wild-type CbCln3 neuronal precursor cells
 T797	Noun_Phrase 24437 24443	CbCln3
 T798	IDENTITY_chain 24437 24443	CbCln3
 T799	Noun_Phrase 24469 24477	battenin
-T800	Noun_Phrase 24506 24511;	early
-24521 24530	earlyendosomes
+T800	Noun_Phrase 24506 24511;24521 24530	early endosomes
 T801	Noun_Phrase 24516 24530	late endosomes
 T802	Noun_Phrase 24532 24540	Battenin
 T803	Noun_Phrase 24559 24602	homozygous CbCln3?ex7/8 neuronal precursors
@@ -958,8 +814,7 @@ T812	Noun_Phrase 25059 25067	battenin
 T813	Noun_Phrase 25131 25139	membrane
 T814	Noun_Phrase 25131 25151	membrane trafficking
 T815	Noun_Phrase 25329 25339	this study
-T816	Noun_Phrase 25355 25379;	The membrane trafficking
-25398 25449	The membrane traffickingdeficits uncovered in homozygous CbCln3?ex7/8 cells
+T816	Noun_Phrase 25355 25379;25398 25449	The membrane trafficking deficits uncovered in homozygous CbCln3?ex7/8 cells
 T817	Noun_Phrase 25359 25367	membrane
 T818	Noun_Phrase 25359 25379	membrane trafficking
 T819	Noun_Phrase 25384 25449	mitochondrial deficits uncovered in homozygous CbCln3?ex7/8 cells
@@ -970,19 +825,15 @@ T823	Noun_Phrase 25629 25658	the loss of battenin activity
 T824	Noun_Phrase 25641 25649	battenin
 T825	Noun_Phrase 25641 25658	battenin activity
 T826	Noun_Phrase 25666 25669	our
-T827	Noun_Phrase 25679 25688;	wild-type
-25732 25748	wild-typecerebellar cells
-T828	Noun_Phrase 25690 25702;	heterozygous
-25719 25748	heterozygousCbCln3?ex7/8 cerebellar cells
+T827	Noun_Phrase 25679 25688;25732 25748	wild-type cerebellar cells
+T828	Noun_Phrase 25690 25702;25719 25748	heterozygous CbCln3?ex7/8 cerebellar cells
 T829	Noun_Phrase 25708 25748	homozygous CbCln3?ex7/8 cerebellar cells
 T830	Noun_Phrase 25800 25808	battenin
 T831	Noun_Phrase 25800 25817	battenin function
 T832	Noun_Phrase 25822 25826	JNCL
 T833	Noun_Phrase 25822 25839	JNCL pathogenesis
-T834	Noun_Phrase 25921 25927;	Lamp 1
-25986 26007	Lamp 1monoclonal antibodies
-T835	Noun_Phrase 25955 25961;	Lamp 2
-25986 26007	Lamp 2monoclonal antibodies
+T834	Noun_Phrase 25921 25927;25986 26007	Lamp 1 monoclonal antibodies
+T835	Noun_Phrase 25955 25961;25986 26007	Lamp 2 monoclonal antibodies
 T836	Noun_Phrase 26142 26147	Batp1
 T837	Noun_Phrase 26248 26260	Dr. Kominami
 T838	IDENTITY_chain 26248 26260	Dr. Kominami
@@ -1015,8 +866,7 @@ T864	Noun_Phrase 27262 27304	CbCln3 cerebellar neuronal precursor lines
 T865	Noun_Phrase 27306 27330	Cln3?ex7/8 knock-in mice
 T866	Noun_Phrase 27424 27439	primary culture
 T867	IDENTITY_chain 27424 27439	primary culture
-T868	Noun_Phrase 27548 27563;	Postnatal day 4
-27569 27578	Postnatal day 4cerebella
+T868	Noun_Phrase 27548 27563;27569 27578	Postnatal day 4 cerebella
 T869	Noun_Phrase 27597 27626	Hank's Balanced Salt Solution
 T870	APPOS_relation 27597 27626	Hank's Balanced Salt Solution
 T871	IDENTITY_chain 27597 27626	Hank's Balanced Salt Solution
@@ -1048,8 +898,7 @@ T896	Noun_Phrase 29471 29474	WtR
 T897	Noun_Phrase 29476 29505	5'-CCAACATAGAAAGTAGGGTGTGC-3'
 T898	Noun_Phrase 29535 29551	knock-in primers
 T899	APPOS_relation 29535 29551	knock-in primers
-T900	Noun_Phrase 29553 29557;	552F
-29589 29598	552Fand Ex9RA
+T900	Noun_Phrase 29553 29557;29589 29598	552F and Ex9RA
 T901	Noun_Phrase 29553 29557	552F
 T902	Noun_Phrase 29559 29587	5'-GAGCTTTGTTCTGGTTGCCTTC-3'
 T903	Noun_Phrase 29593 29598	Ex9RA

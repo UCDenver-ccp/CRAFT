@@ -1,7 +1,5 @@
-T0	Noun_Phrase 12 28;	spatial learning
-52 76	spatial learningin ADAM11-deficient mice
-T1	IDENTITY_chain 12 28;	spatial learning
-52 76	spatial learningin ADAM11-deficient mice
+T0	Noun_Phrase 12 28;52 76	spatial learning in ADAM11-deficient mice
+T1	IDENTITY_chain 12 28;52 76	spatial learning in ADAM11-deficient mice
 T2	Noun_Phrase 55 76	ADAM11-deficient mice
 T3	IDENTITY_chain 55 76	ADAM11-deficient mice
 T4	Noun_Phrase 100 106	ADAM11
@@ -25,10 +23,8 @@ T21	IDENTITY_chain 568 577	the brain
 T22	Noun_Phrase 581 592	spinal cord
 T23	IDENTITY_chain 581 592	spinal cord
 T24	Noun_Phrase 602 608	ADAM11
-T25	Noun_Phrase 632 635;	the
-652 662	thecerebellum
-T26	IDENTITY_chain 632 635;	the
-652 662	thecerebellum
+T25	Noun_Phrase 632 635;652 662	the cerebellum
+T26	IDENTITY_chain 632 635;652 662	the cerebellum
 T27	Noun_Phrase 632 647	the hippocampus
 T28	IDENTITY_chain 632 647	the hippocampus
 T29	Noun_Phrase 632 662	the hippocampus and cerebellum
@@ -49,8 +45,7 @@ T43	Noun_Phrase 811 814	Our
 T44	Noun_Phrase 811 822	Our results
 T45	IDENTITY_chain 811 822	Our results
 T46	Noun_Phrase 835 840	their
-T47	Noun_Phrase 892 909;	hidden water maze
-927 931	hidden water mazetask
+T47	Noun_Phrase 892 909;927 931	hidden water maze task
 T48	Noun_Phrase 899 904	water
 T49	Noun_Phrase 914 931	rotating rod task
 T50	Noun_Phrase 955 976	ADAM11-deficient mice
@@ -82,18 +77,14 @@ T75	IDENTITY_chain 2543 2557	cell migration
 T76	Noun_Phrase 2703 2707	mice
 T77	Noun_Phrase 2892 2894	We
 T78	Noun_Phrase 2925 2931	ADAM11
-T79	Noun_Phrase 2925 2931;	ADAM11
-2951 2956	ADAM11genes
-T80	IDENTITY_chain 2925 2931;	ADAM11
-2951 2956	ADAM11genes
+T79	Noun_Phrase 2925 2931;2951 2956	ADAM11 genes
+T80	IDENTITY_chain 2925 2931;2951 2956	ADAM11 genes
 T81	Noun_Phrase 2925 2950	ADAM11, ADAM22 and ADAM23
 T82	IDENTITY_chain 2925 2950	ADAM11, ADAM22 and ADAM23
 T83	Noun_Phrase 2925 2956	ADAM11, ADAM22 and ADAM23 genes
 T84	IDENTITY_chain 2925 2956	ADAM11, ADAM22 and ADAM23 genes
-T85	Noun_Phrase 2933 2939;	ADAM22
-2951 2956	ADAM22genes
-T86	IDENTITY_chain 2933 2939;	ADAM22
-2951 2956	ADAM22genes
+T85	Noun_Phrase 2933 2939;2951 2956	ADAM22 genes
+T86	IDENTITY_chain 2933 2939;2951 2956	ADAM22 genes
 T87	Noun_Phrase 2933 2939	ADAM22
 T88	IDENTITY_chain 2933 2939	ADAM22
 T89	Noun_Phrase 2944 2950	ADAM23
@@ -142,10 +133,8 @@ T131	IDENTITY_chain 4167 4188	in situ hybridisation
 T132	Noun_Phrase 4202 4224	the murine Adam11 gene
 T133	IDENTITY_chain 4202 4224	the murine Adam11 gene
 T134	Noun_Phrase 4213 4219	Adam11
-T135	Noun_Phrase 4246 4249;	the
-4265 4285	theadult nervous system
-T136	IDENTITY_chain 4246 4249;	the
-4265 4285	theadult nervous system
+T135	Noun_Phrase 4246 4249;4265 4285	the adult nervous system
+T136	IDENTITY_chain 4246 4249;4265 4285	the adult nervous system
 T137	Noun_Phrase 4314 4316	us
 T138	Noun_Phrase 4337 4343	ADAM11
 T139	Noun_Phrase 4398 4416	the nervous system
@@ -210,55 +199,38 @@ T197	Noun_Phrase 6082 6090	survival
 T198	Noun_Phrase 6119 6129	(-/-) mice
 T199	Noun_Phrase 6209 6213	data
 T200	Nonreferential_pronoun 6226 6231	There
-T201	Noun_Phrase 6290 6295;	(+/+)
-6313 6322	(+/+)genotypes
-T202	IDENTITY_chain 6290 6295;	(+/+)
-6313 6322	(+/+)genotypes
-T203	Noun_Phrase 6297 6302;	(+/-)
-6313 6322	(+/-)genotypes
-T204	IDENTITY_chain 6297 6302;	(+/-)
-6313 6322	(+/-)genotypes
+T201	Noun_Phrase 6290 6295;6313 6322	(+/+) genotypes
+T202	IDENTITY_chain 6290 6295;6313 6322	(+/+) genotypes
+T203	Noun_Phrase 6297 6302;6313 6322	(+/-) genotypes
+T204	IDENTITY_chain 6297 6302;6313 6322	(+/-) genotypes
 T205	Noun_Phrase 6307 6322	(-/-) genotypes
 T206	IDENTITY_chain 6307 6322	(-/-) genotypes
 T207	Noun_Phrase 6324 6328	data
-T208	Noun_Phrase 6400 6403;	the
-6417 6422	theheart
-T209	IDENTITY_chain 6400 6403;	the
-6417 6422	theheart
-T210	Noun_Phrase 6400 6403;	the
-6430 6435	theliver
-T211	IDENTITY_chain 6400 6403;	the
-6430 6435	theliver
-T212	Noun_Phrase 6400 6403;	the
-6453 6459	thetestis
-T213	IDENTITY_chain 6400 6403;	the
-6453 6459	thetestis
+T208	Noun_Phrase 6400 6403;6417 6422	the heart
+T209	IDENTITY_chain 6400 6403;6417 6422	the heart
+T210	Noun_Phrase 6400 6403;6430 6435	the liver
+T211	IDENTITY_chain 6400 6403;6430 6435	the liver
+T212	Noun_Phrase 6400 6403;6453 6459	the testis
+T213	IDENTITY_chain 6400 6403;6453 6459	the testis
 T214	Noun_Phrase 6400 6415	the spinal cord
 T215	Noun_Phrase 6470 6474	data
 T216	Noun_Phrase 6500 6510	(-/-) mice
-T217	Noun_Phrase 6522 6525;	the
-6552 6562	thecerebellum
+T217	Noun_Phrase 6522 6525;6552 6562	the cerebellum
 T218	Noun_Phrase 6522 6537	the hippocampus
-T219	Noun_Phrase 6522 6537;	the hippocampus
-6548 6562	the hippocampusand cerebellum
+T219	Noun_Phrase 6522 6537;6548 6562	the hippocampus and cerebellum
 T220	Noun_Phrase 6539 6546	Fig. 1D
 T221	IDENTITY_chain 6539 6546	Fig. 1D
 T222	Noun_Phrase 6564 6571	Fig. 1E
 T223	IDENTITY_chain 6564 6571	Fig. 1E
 T224	Noun_Phrase 6595 6597	HE
 T225	IDENTITY_chain 6595 6597	HE
-T226	Noun_Phrase 6612 6617;	(+/+)
-6635 6639	(+/+)mice
-T227	IDENTITY_chain 6612 6617;	(+/+)
-6635 6639	(+/+)mice
-T228	Noun_Phrase 6619 6624;	(+/-)
-6635 6639	(+/-)mice
-T229	IDENTITY_chain 6619 6624;	(+/-)
-6635 6639	(+/-)mice
+T226	Noun_Phrase 6612 6617;6635 6639	(+/+) mice
+T227	IDENTITY_chain 6612 6617;6635 6639	(+/+) mice
+T228	Noun_Phrase 6619 6624;6635 6639	(+/-) mice
+T229	IDENTITY_chain 6619 6624;6635 6639	(+/-) mice
 T230	Noun_Phrase 6629 6639	(-/-) mice
 T231	Noun_Phrase 6661 6667	Adam11
-T232	Noun_Phrase 6698 6701;	the
-6718 6728	thecerebellum
+T232	Noun_Phrase 6698 6701;6718 6728	the cerebellum
 T233	Noun_Phrase 6698 6713	the hippocampus
 T234	Noun_Phrase 6698 6728	the hippocampus and cerebellum
 T235	Noun_Phrase 6730 6732	we
@@ -281,8 +253,7 @@ T251	Noun_Phrase 7117 7126	the water
 T252	Noun_Phrase 7128 7134	Adam11
 T253	Noun_Phrase 7128 7145	Adam11 (-/-) mice
 T254	Noun_Phrase 7203 7222	the hidden platform
-T255	Noun_Phrase 7228 7233;	(+/+)
-7244 7248	(+/+)mice
+T255	Noun_Phrase 7228 7233;7244 7248	(+/+) mice
 T256	Noun_Phrase 7228 7248	(+/+) and (+/-) mice
 T257	IDENTITY_chain 7228 7248	(+/+) and (+/-) mice
 T258	Noun_Phrase 7238 7248	(+/-) mice
@@ -290,15 +261,12 @@ T259	Noun_Phrase 7250 7257	Fig. 2A
 T260	IDENTITY_chain 7250 7257	Fig. 2A
 T261	Noun_Phrase 7324 7343	the hidden platform
 T262	Noun_Phrase 7373 7380	Fig. 2A
-T263	Noun_Phrase 7389 7394;	(+/+)
-7412 7416	(+/+)mice
-T264	Noun_Phrase 7396 7401;	(+/-)
-7412 7416	(+/-)mice
+T263	Noun_Phrase 7389 7394;7412 7416	(+/+) mice
+T264	Noun_Phrase 7396 7401;7412 7416	(+/-) mice
 T265	Noun_Phrase 7406 7416	(-/-) mice
 T266	Noun_Phrase 7452 7471	the hidden platform
 T267	Noun_Phrase 7549 7561	the platform
-T268	Noun_Phrase 7585 7590;	(+/+)
-7601 7605	(+/+)mice
+T268	Noun_Phrase 7585 7590;7601 7605	(+/+) mice
 T269	Noun_Phrase 7585 7605	(+/+) and (+/-) mice
 T270	Noun_Phrase 7595 7605	(+/-) mice
 T271	Noun_Phrase 7607 7609	We
@@ -309,8 +277,7 @@ T275	Noun_Phrase 7710 7729	the hidden platform
 T276	Noun_Phrase 7710 7734	the hidden platform task
 T277	Noun_Phrase 7815 7834	the target quadrant
 T278	IDENTITY_chain 7815 7834	the target quadrant
-T279	Noun_Phrase 7838 7843;	(-/-)
-7886 7890	(-/-)mice
+T279	Noun_Phrase 7838 7843;7886 7890	(-/-) mice
 T280	Noun_Phrase 7880 7890	(+/+) mice
 T281	Noun_Phrase 7892 7899	Fig. 2B
 T282	IDENTITY_chain 7892 7899	Fig. 2B
@@ -318,8 +285,7 @@ T283	Noun_Phrase 7902 7908	Adam11
 T284	Noun_Phrase 7902 7919	Adam11 (+/-) mice
 T285	Noun_Phrase 7956 7975	the target quadrant
 T286	Nonreferential_pronoun 7981 7986	there
-T287	Noun_Phrase 8025 8030;	(+/+)
-8041 8045	(+/+)mice
+T287	Noun_Phrase 8025 8030;8041 8045	(+/+) mice
 T288	Noun_Phrase 8025 8045	(+/+) and (+/-) mice
 T289	Noun_Phrase 8035 8045	(+/-) mice
 T290	Noun_Phrase 8047 8054	Fig. 2B
@@ -327,10 +293,8 @@ T291	Noun_Phrase 8080 8123	a spatial learning impairment in (-/-) mice
 T292	IDENTITY_chain 8080 8123	a spatial learning impairment in (-/-) mice
 T293	Noun_Phrase 8082 8098	spatial learning
 T294	Noun_Phrase 8113 8123	(-/-) mice
-T295	Noun_Phrase 8150 8155;	(+/+)
-8173 8177	(+/+)mice
-T296	Noun_Phrase 8157 8162;	(+/-)
-8173 8177	(+/-)mice
+T295	Noun_Phrase 8150 8155;8173 8177	(+/+) mice
+T296	Noun_Phrase 8157 8162;8173 8177	(+/-) mice
 T297	Noun_Phrase 8167 8177	(-/-) mice
 T298	Noun_Phrase 8207 8222	the probe trial
 T299	Noun_Phrase 8224 8231	Fig. 2C
@@ -339,17 +303,11 @@ T301	IDENTITY_chain 8237 8262	the visible platform task
 T302	Noun_Phrase 8237 8262	the visible platform task
 T303	Noun_Phrase 8241 8257	visible platform
 T304	IDENTITY_chain 8241 8257	visible platform
-T305	Noun_Phrase 8283 8292;	mice with
-8300 8305;	mice with(+/-)
-8316 8325	mice with(+/-)genotypes
-T306	Noun_Phrase 8283 8292;	mice with
-8310 8325	mice with(-/-) genotypes
-T307	Noun_Phrase 8283 8298;	mice with (+/+)
-8316 8325	mice with (+/+)genotypes
-T308	Noun_Phrase 8293 8298;	(+/+)
-8316 8325	(+/+)genotypes
-T309	Noun_Phrase 8300 8305;	(+/-)
-8316 8325	(+/-)genotypes
+T305	Noun_Phrase 8283 8292;8300 8305;8316 8325	mice with (+/-) genotypes
+T306	Noun_Phrase 8283 8292;8310 8325	mice with (-/-) genotypes
+T307	Noun_Phrase 8283 8298;8316 8325	mice with (+/+) genotypes
+T308	Noun_Phrase 8293 8298;8316 8325	(+/+) genotypes
+T309	Noun_Phrase 8300 8305;8316 8325	(+/-) genotypes
 T310	Noun_Phrase 8310 8325	(-/-) genotypes
 T311	Noun_Phrase 8442 8454	the platform
 T312	Noun_Phrase 8456 8463	Fig. 2D
@@ -357,8 +315,7 @@ T313	IDENTITY_chain 8456 8463	Fig. 2D
 T314	Noun_Phrase 8482 8492	(-/-) mice
 T315	Noun_Phrase 8499 8525	this visible platform task
 T316	Noun_Phrase 8504 8520	visible platform
-T317	Noun_Phrase 8542 8547;	(+/+)
-8558 8562	(+/+)mice
+T317	Noun_Phrase 8542 8547;8558 8562	(+/+) mice
 T318	Noun_Phrase 8542 8562	(+/+) and (+/-) mice
 T319	Noun_Phrase 8552 8562	(+/-) mice
 T320	Noun_Phrase 8598 8608	(-/-) mice
@@ -382,34 +339,25 @@ T337	Noun_Phrase 9107 9114	Fig. 3A
 T338	IDENTITY_chain 9107 9114	Fig. 3A
 T339	Noun_Phrase 9120 9130	(+/-) mice
 T340	Nonreferential_pronoun 9208 9213	there
-T341	Noun_Phrase 9252 9257;	(+/+)
-9268 9272	(+/+)mice
+T341	Noun_Phrase 9252 9257;9268 9272	(+/+) mice
 T342	Noun_Phrase 9252 9272	(+/+) and (+/-) mice
 T343	Noun_Phrase 9262 9272	(+/-) mice
-T344	Noun_Phrase 9383 9387;	Figs
-9393 9395	Figs3C
-T345	IDENTITY_chain 9383 9387;	Figs
-9393 9395	Figs3C
-T346	Noun_Phrase 9383 9387;	Figs
-9400 9402	Figs3D
-T347	IDENTITY_chain 9383 9387;	Figs
-9400 9402	Figs3D
+T344	Noun_Phrase 9383 9387;9393 9395	Figs 3C
+T345	IDENTITY_chain 9383 9387;9393 9395	Figs 3C
+T346	Noun_Phrase 9383 9387;9400 9402	Figs 3D
+T347	IDENTITY_chain 9383 9387;9400 9402	Figs 3D
 T348	Noun_Phrase 9383 9391	Figs. 3B
 T349	IDENTITY_chain 9383 9391	Figs. 3B
 T350	Noun_Phrase 9383 9402	Figs. 3B, 3C and 3D
 T351	IDENTITY_chain 9383 9402	Figs. 3B, 3C and 3D
 T352	Noun_Phrase 9414 9424	(-/-) mice
 T353	Noun_Phrase 9448 9455	the rod
-T354	Noun_Phrase 9611 9615;	Figs
-9621 9623	Figs3C
-T355	Noun_Phrase 9611 9615;	Figs
-9628 9630	Figs3D
+T354	Noun_Phrase 9611 9615;9621 9623	Figs 3C
+T355	Noun_Phrase 9611 9615;9628 9630	Figs 3D
 T356	Noun_Phrase 9611 9619	Figs. 3B
 T357	Noun_Phrase 9611 9630	Figs. 3B, 3C and 3D
-T358	Noun_Phrase 9857 9861;	Figs
-9867 9869	Figs3C
-T359	Noun_Phrase 9857 9861;	Figs
-9874 9876	Figs3D
+T358	Noun_Phrase 9857 9861;9867 9869	Figs 3C
+T359	Noun_Phrase 9857 9861;9874 9876	Figs 3D
 T360	Noun_Phrase 9857 9865	Figs. 3B
 T361	Noun_Phrase 9857 9876	Figs. 3B, 3C and 3D
 T362	Noun_Phrase 9882 9897	a traction test
@@ -417,21 +365,17 @@ T363	IDENTITY_chain 9882 9897	a traction test
 T364	Noun_Phrase 9884 9892	traction
 T365	IDENTITY_chain 9884 9892	traction
 T366	Noun_Phrase 9899 9909	(-/-) mice
-T367	Noun_Phrase 9957 9962;	(+/+)
-9973 9977	(+/+)mice
+T367	Noun_Phrase 9957 9962;9973 9977	(+/+) mice
 T368	Noun_Phrase 9957 9977	(+/+) and (+/-) mice
 T369	Noun_Phrase 9967 9977	(+/-) mice
 T370	Noun_Phrase 9979 9985	Fig. 4
 T371	IDENTITY_chain 9979 9985	Fig. 4
 T372	Noun_Phrase 10018 10028	(-/-) mice
-T373	Noun_Phrase 10059 10064;	(+/+)
-10075 10079	(+/+)mice
+T373	Noun_Phrase 10059 10064;10075 10079	(+/+) mice
 T374	Noun_Phrase 10059 10079	(+/+) and (+/-) mice
 T375	Noun_Phrase 10069 10079	(+/-) mice
-T376	IDENTITY_chain 10081 10085;	Figs
-10094 10096	Figs5B
-T377	Noun_Phrase 10081 10085;	Figs
-10094 10096	Figs5B
+T376	IDENTITY_chain 10081 10085;10094 10096	Figs 5B
+T377	Noun_Phrase 10081 10085;10094 10096	Figs 5B
 T378	Noun_Phrase 10081 10089	Figs. 5A
 T379	IDENTITY_chain 10081 10089	Figs. 5A
 T380	Noun_Phrase 10099 10115	A footprint test
@@ -440,10 +384,8 @@ T382	Noun_Phrase 10152 10168	walking patterns
 T383	IDENTITY_chain 10152 10168	walking patterns
 T384	Noun_Phrase 10180 10208	stride length and step width
 T385	IDENTITY_chain 10180 10208	stride length and step width
-T386	Noun_Phrase 10238 10242;	Figs
-10251 10253	Figs6B
-T387	IDENTITY_chain 10238 10242;	Figs
-10251 10253	Figs6B
+T386	Noun_Phrase 10238 10242;10251 10253	Figs 6B
+T387	IDENTITY_chain 10238 10242;10251 10253	Figs 6B
 T388	Noun_Phrase 10238 10246	Figs. 6A
 T389	IDENTITY_chain 10238 10246	Figs. 6A
 T390	Noun_Phrase 10272 10289	the present study
@@ -456,23 +398,17 @@ T396	Noun_Phrase 10361 10367	Adam11
 T397	Nonreferential_pronoun 10374 10376	It
 T398	Noun_Phrase 10400 10415	the Adam11 gene
 T399	Noun_Phrase 10404 10410	Adam11
-T400	Noun_Phrase 10432 10435;	the
-10443 10448	theheart
-T401	Noun_Phrase 10432 10435;	the
-10450 10455	theliver
-T402	Noun_Phrase 10432 10435;	the
-10460 10466	thetestis
+T400	Noun_Phrase 10432 10435;10443 10448	the heart
+T401	Noun_Phrase 10432 10435;10450 10455	the liver
+T402	Noun_Phrase 10432 10435;10460 10466	the testis
 T403	Noun_Phrase 10432 10441	the brain
 T404	Noun_Phrase 10432 10466	the brain, heart, liver and testis
 T405	IDENTITY_chain 10432 10466	the brain, heart, liver and testis
 T406	Noun_Phrase 10485 10498	Northern blot
 T407	Noun_Phrase 10529 10550	ADAM11-deficient mice
-T408	Noun_Phrase 10652 10655;	the
-10663 10668	theheart
-T409	Noun_Phrase 10652 10655;	the
-10670 10675	theliver
-T410	Noun_Phrase 10652 10655;	the
-10680 10686	thetestis
+T408	Noun_Phrase 10652 10655;10663 10668	the heart
+T409	Noun_Phrase 10652 10655;10670 10675	the liver
+T410	Noun_Phrase 10652 10655;10680 10686	the testis
 T411	Noun_Phrase 10652 10661	the brain
 T412	Noun_Phrase 10652 10686	the brain, heart, liver and testis
 T413	Noun_Phrase 10719 10725	Adam11
@@ -480,8 +416,7 @@ T414	Noun_Phrase 10734 10743	the brain
 T415	Noun_Phrase 10768 10789	in situ hybridisation
 T416	Noun_Phrase 10796 10806	This study
 T417	Noun_Phrase 10836 10842	ADAM11
-T418	Noun_Phrase 10851 10854;	the
-10871 10881	thecerebellum
+T418	Noun_Phrase 10851 10854;10871 10881	the cerebellum
 T419	Noun_Phrase 10851 10866	the hippocampus
 T420	Noun_Phrase 10851 10881	the hippocampus and cerebellum
 T421	Noun_Phrase 10883 10885	We
@@ -576,23 +511,19 @@ T509	Noun_Phrase 13936 13950	motor learning
 T510	Noun_Phrase 13962 13983	ADAM11-deficient mice
 T511	Noun_Phrase 13995 13997	we
 T512	Nonreferential_pronoun 14104 14109	There
-T513	Noun_Phrase 14131 14134;	the
-14153 14198	thewire suspension test in ADAM11-deficient mice
-T514	IDENTITY_chain 14131 14134;	the
-14153 14198	thewire suspension test in ADAM11-deficient mice
+T513	Noun_Phrase 14131 14134;14153 14198	the wire suspension test in ADAM11-deficient mice
+T514	IDENTITY_chain 14131 14134;14153 14198	the wire suspension test in ADAM11-deficient mice
 T515	Noun_Phrase 14177 14198	ADAM11-deficient mice
 T516	Noun_Phrase 14251 14272	ADAM11-deficient mice
 T517	Noun_Phrase 14344 14365	the rotating rod test
 T518	Noun_Phrase 14348 14360	rotating rod
 T519	Noun_Phrase 14387 14393	muscle
 T520	Noun_Phrase 14473 14478	brain
-T521	Noun_Phrase 14493 14496;	the
-14513 14523	thecerebellum
+T521	Noun_Phrase 14493 14496;14513 14523	the cerebellum
 T522	Noun_Phrase 14493 14508	the hippocampus
 T523	Noun_Phrase 14493 14523	the hippocampus and cerebellum
 T524	Noun_Phrase 14569 14585	spatial learning
-T525	Noun_Phrase 14569 14596;	spatial learning impairment
-14623 14647	spatial learning impairmentin ADAM11-deficient mice
+T525	Noun_Phrase 14569 14596;14623 14647	spatial learning impairment in ADAM11-deficient mice
 T526	Noun_Phrase 14626 14647	ADAM11-deficient mice
 T527	Noun_Phrase 14649 14670	In situ hybridisation
 T528	Noun_Phrase 14693 14704	Adam11 gene
@@ -603,8 +534,7 @@ T532	Noun_Phrase 14840 14854	the cerebellum
 T533	Nonreferential_pronoun 14861 14863	It
 T534	Noun_Phrase 14943 14959	spatial learning
 T535	Noun_Phrase 14964 14982	motor coordination
-T536	Noun_Phrase 15041 15044;	the
-15061 15071	thecerebellum
+T536	Noun_Phrase 15041 15044;15061 15071	the cerebellum
 T537	Noun_Phrase 15041 15056	the hippocampus
 T538	Noun_Phrase 15041 15071	the hippocampus and cerebellum
 T539	Noun_Phrase 15154 15156	HE
@@ -663,13 +593,11 @@ T591	Noun_Phrase 16897 16903	ADAM22
 T592	Noun_Phrase 16908 16914	ADAM23
 T593	Noun_Phrase 16952 16970	the nervous system
 T594	Noun_Phrase 17019 17025	ADAM11
-T595	Noun_Phrase 17019 17025;	ADAM11
-17045 17050	ADAM11genes
+T595	Noun_Phrase 17019 17025;17045 17050	ADAM11 genes
 T596	Noun_Phrase 17019 17044	ADAM11, ADAM22 and ADAM23
 T597	Noun_Phrase 17019 17050	ADAM11, ADAM22 and ADAM23 genes
 T598	Noun_Phrase 17027 17033	ADAM22
-T599	Noun_Phrase 17027 17033;	ADAM22
-17045 17050	ADAM22genes
+T599	Noun_Phrase 17027 17033;17045 17050	ADAM22 genes
 T600	Noun_Phrase 17038 17044	ADAM23
 T601	Noun_Phrase 17038 17050	ADAM23 genes
 T602	Noun_Phrase 17125 17138	invertebrates
@@ -682,8 +610,7 @@ T608	IDENTITY_chain 17448 17474	spontaneous motor activity
 T609	Noun_Phrase 17476 17482	muscle
 T610	Noun_Phrase 17496 17512	walking patterns
 T611	Noun_Phrase 17668 17689	ADAM11-deficient mice
-T612	Noun_Phrase 17722 17732;	water maze
-17750 17755	water mazetasks
+T612	Noun_Phrase 17722 17732;17750 17755	water maze tasks
 T613	Noun_Phrase 17737 17749	rotating rod
 T614	Noun_Phrase 17737 17755	rotating rod tasks
 T615	Noun_Phrase 17757 17760	Our
@@ -796,12 +723,9 @@ T721	Noun_Phrase 22341 22380	Muromachi Kikai Co., Ltd., Tokyo, Japan
 T722	IDENTITY_chain 22341 22380	Muromachi Kikai Co., Ltd., Tokyo, Japan
 T723	Noun_Phrase 22383 22393	Each mouse
 T724	Noun_Phrase 22436 22444	the pool
-T725	Noun_Phrase 22516 22527;	the trained
-22540 22548	the trainedquadrant
-T726	APPOS_relation 22516 22527;	the trained
-22540 22548	the trainedquadrant
-T727	IDENTITY_chain 22516 22527;	the trained
-22540 22548	the trainedquadrant
+T725	Noun_Phrase 22516 22527;22540 22548	the trained quadrant
+T726	APPOS_relation 22516 22527;22540 22548	the trained quadrant
+T727	IDENTITY_chain 22516 22527;22540 22548	the trained quadrant
 T728	Noun_Phrase 22529 22538	southeast
 T729	Noun_Phrase 22566 22582	Visible platform
 T730	Noun_Phrase 22566 22587	Visible platform task
@@ -860,16 +784,11 @@ T782	IDENTITY_chain 25629 25643	the manuscript
 T783	Noun_Phrase 25756 25770	the manuscript
 T784	Noun_Phrase 25894 25908	the manuscript
 T785	Noun_Phrase 25929 25931	We
-T786	Noun_Phrase 26262 26270;	Figure 1
-26302 26303	Figure 1A
-T787	Noun_Phrase 26262 26270;	Figure 1
-26941 26942	Figure 1B
-T788	Noun_Phrase 26262 26270;	Figure 1
-27163 27164	Figure 1C
-T789	Noun_Phrase 26262 26270;	Figure 1
-27549 27550	Figure 1D
-T790	Noun_Phrase 26262 26270;	Figure 1
-27603 27604	Figure 1E
+T786	Noun_Phrase 26262 26270;26302 26303	Figure 1 A
+T787	Noun_Phrase 26262 26270;26941 26942	Figure 1 B
+T788	Noun_Phrase 26262 26270;27163 27164	Figure 1 C
+T789	Noun_Phrase 26262 26270;27549 27550	Figure 1 D
+T790	Noun_Phrase 26262 26270;27603 27604	Figure 1 E
 T791	Noun_Phrase 26293 26299	Adam11
 T792	Noun_Phrase 26330 26336	ADAM11
 T793	Noun_Phrase 26330 26344	ADAM11 protein
@@ -897,12 +816,9 @@ T814	Noun_Phrase 26593 26604	exons 5 – 7
 T815	Noun_Phrase 26609 26615	MC1/TK
 T816	Noun_Phrase 26716 26729	Southern blot
 T817	Noun_Phrase 26716 26738	Southern blot analysis
-T818	Noun_Phrase 26780 26783;	the
-26809 26825	thewild-type allele
-T819	APPOS_relation 26780 26783;	the
-26809 26825	thewild-type allele
-T820	IDENTITY_chain 26780 26783;	the
-26809 26825	thewild-type allele
+T818	Noun_Phrase 26780 26783;26809 26825	the wild-type allele
+T819	APPOS_relation 26780 26783;26809 26825	the wild-type allele
+T820	IDENTITY_chain 26780 26783;26809 26825	the wild-type allele
 T821	Noun_Phrase 26780 26799	the targeted allele
 T822	APPOS_relation 26780 26799	the targeted allele
 T823	IDENTITY_chain 26780 26799	the targeted allele
@@ -914,10 +830,8 @@ T828	APPOS_relation 26869 26881	AGN1 and 033
 T829	Noun_Phrase 26929 26931	ES
 T830	Noun_Phrase 26944 26957	Southern blot
 T831	Noun_Phrase 26970 26975	mouse
-T832	Noun_Phrase 27020 27023;	the
-27050 27065	thetargeted allele
-T833	APPOS_relation 27020 27023;	the
-27050 27065	thetargeted allele
+T832	Noun_Phrase 27020 27023;27050 27065	the targeted allele
+T833	APPOS_relation 27020 27023;27050 27065	the targeted allele
 T834	Noun_Phrase 27020 27040	the wild-type allele
 T835	APPOS_relation 27020 27040	the wild-type allele
 T836	Noun_Phrase 27042 27044	WT
@@ -943,14 +857,10 @@ T855	Noun_Phrase 27578 27586	HE stain
 T856	Noun_Phrase 27606 27616	Cerebellum
 T857	Noun_Phrase 27631 27633	HE
 T858	Noun_Phrase 27631 27639	HE stain
-T859	Noun_Phrase 27657 27665;	Figure 2
-27717 27718	Figure 2A
-T860	Noun_Phrase 27657 27665;	Figure 2
-27857 27858	Figure 2B
-T861	Noun_Phrase 27657 27665;	Figure 2
-28156 28157	Figure 2C
-T862	Noun_Phrase 27657 27665;	Figure 2
-28207 28208	Figure 2D
+T859	Noun_Phrase 27657 27665;27717 27718	Figure 2 A
+T860	Noun_Phrase 27657 27665;27857 27858	Figure 2 B
+T861	Noun_Phrase 27657 27665;28156 28157	Figure 2 C
+T862	Noun_Phrase 27657 27665;28207 28208	Figure 2 D
 T863	Noun_Phrase 27693 27714	ADAM11-deficient mice
 T864	Noun_Phrase 27750 27765	hidden platform
 T865	Noun_Phrase 27844 27854	(+/+) mice
@@ -977,18 +887,14 @@ T885	Noun_Phrase 28509 28519	(+/+) mice
 T886	Noun_Phrase 28573 28581	Figure 4
 T887	Noun_Phrase 28583 28591	Traction
 T888	Noun_Phrase 28604 28625	ADAM11-deficient mice
-T889	Noun_Phrase 28679 28687;	Figure 5
-28737 28738	Figure 5A
-T890	Noun_Phrase 28679 28687;	Figure 5
-28776 28777	Figure 5B
+T889	Noun_Phrase 28679 28687;28737 28738	Figure 5 A
+T890	Noun_Phrase 28679 28687;28776 28777	Figure 5 B
 T891	Noun_Phrase 28689 28734	Wire suspension test of ADAM11-deficient mice
 T892	Noun_Phrase 28713 28734	ADAM11-deficient mice
 T893	Noun_Phrase 28749 28773	the wire suspension test
 T894	Noun_Phrase 28803 28827	the wire suspension test
-T895	Noun_Phrase 28881 28889;	Figure 6
-28933 28934	Figure 6A
-T896	Noun_Phrase 28881 28889;	Figure 6
-28979 28980	Figure 6B
+T895	Noun_Phrase 28881 28889;28933 28934	Figure 6 A
+T896	Noun_Phrase 28881 28889;28979 28980	Figure 6 B
 T897	Noun_Phrase 28909 28930	ADAM11-deficient mice
 T898	Noun_Phrase 28958 28976	the footprint test
 T899	Noun_Phrase 29001 29019	the footprint test

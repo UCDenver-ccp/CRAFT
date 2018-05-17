@@ -75,10 +75,8 @@ T73	UBERON_0002050 16694 16714	embryonic structures
 T74	UBERON_0004716 16727 16738	conceptuses
 T75	UBERON_0000305 16768 16774	amnion
 T76	UBERON_0003124 16779 16786	chorion
-T77	UBERON_0000301 16816 16824;	amniotic
-16857 16865	amnioticcavities
-T78	UBERON_0003888 16826 16837;	exocoelomic
-16857 16865	exocoelomiccavities
+T77	UBERON_0000301 16816 16824;16857 16865	amniotic cavities
+T78	UBERON_0003888 16826 16837;16857 16865	exocoelomic cavities
 T79	UBERON_0008851 16843 16865	ectoplacental cavities
 T80	UBERON_0000922 16906 16915	embryonic
 T81	UBERON_0000923 16916 16927	germ layers
@@ -125,8 +123,7 @@ T121	UBERON_0002450 20130 20138	decidual
 T122	UBERON_0000060 20139 20143	wall
 T123	UBERON_0000922 20165 20171	embryo
 T124	UBERON_0000088 20207 20218	trophoblast
-T125	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 20284 20297;	population of
-20314 20319	population ofcells
+T125	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 20284 20297;20314 20319	population of cells
 T126	UBERON_0002450 20340 20348	decidual
 T127	UBERON_0000922 20388 20395	embryos
 T128	UBERON_0000922 20565 20572	embryos
@@ -198,8 +195,7 @@ T193	UBERON_0000922 25000 25007	embryos
 T194	UBERON_0002532 25038 25046	epiblast
 T195	PATO_UBERON_EXT_female_or_bearer_of_femaleness 25065 25071	female
 T196	UBERON_0000922 25072 25079	embryos
-T197	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 25114 25125;	clusters of
-25140 25145	clusters ofcells
+T197	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 25114 25125;25140 25145	clusters of cells
 T198	UBERON_0002532 25366 25374	epiblast
 T199	UBERON_0005292 25440 25462	extraembryonic tissues
 T200	PATO_UBERON_EXT_female_or_bearer_of_femaleness 25474 25481	females
@@ -263,8 +259,7 @@ T257	UBERON_0000088 32024 32035	trophoblast
 T258	UBERON_0000922 32137 32144	embryos
 T259	UBERON_0000358 32218 32229	blastocysts
 T260	UBERON_0000995 32247 32253	uterus
-T261	UBERON_0002050 32316 32325;	embryonic
-32344 32354	embryonicstructures
+T261	UBERON_0002050 32316 32325;32344 32354	embryonic structures
 T262	UBERON_0000478 32329 32354	extraembryonic structures
 T263	UBERON_0000922 32386 32393	embryos
 T264	UBERON_0002050 32439 32459	embryonic structures
@@ -312,22 +307,18 @@ T305	PATO_UBERON_EXT_female_or_bearer_of_femaleness 36711 36718	females
 T306	PATO_UBERON_EXT_female_or_bearer_of_femaleness 36802 36808	female
 T307	UBERON_0005292 37021 37043	extraembryonic tissues
 T308	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 37050 37069	population of cells
-T309	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 37472 37485;	population of
-37501 37506	population ofcells
+T309	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 37472 37485;37501 37506	population of cells
 T310	UBERON_0000922 37491 37500	embryonic
-T311	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 37548 37561;	population of
-37577 37582	population ofcells
+T311	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 37548 37561;37577 37582	population of cells
 T312	UBERON_0000922 37567 37576	embryonic
 T313	UBERON_0000922 37757 37764	embryos
-T314	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 37770 37778;	cellular
-37782 37792	cellularpopulation
+T314	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 37770 37778;37782 37792	cellular population
 T315	UBERON_0000922 37897 37906	embryonic
 T316	UBERON_0000922 38163 38170	embryos
 T317	PATO_UBERON_EXT_female_or_bearer_of_femaleness 38240 38247	females
 T318	UBERON_0000922 38316 38325	embryonic
 T319	PATO_UBERON_EXT_female_or_bearer_of_femaleness 38364 38371	females
-T320	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 38396 38409;	population of
-38419 38424	population ofcells
+T320	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 38396 38409;38419 38424	population of cells
 T321	PATO_UBERON_EXT_female_or_bearer_of_femaleness 38589 38596	females
 T322	UBERON_0000922 39130 39139	embryonic
 T323	UBERON_0000088 39203 39214	trophoblast

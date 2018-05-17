@@ -18,11 +18,8 @@ T16	GO_0060173 3350 3366	limb development
 T17	GO_0001708 3458 3481	cell type specification
 T18	GO_0060173 3575 3591	limb development
 T19	GO_0030509 3601 3614	BMP signaling
-T20	GO_0009948 3642 3658;	establishment of
-3663 3681;	establishment ofanterior-posterior
-3687 3691	establishment ofanterior-posterioraxis
-T21	GO_0007224 3780 3787;	Hedghog
-3794 3803	Hedghogsignaling
+T20	GO_0009948 3642 3658;3663 3681;3687 3691	establishment of anterior-posterior axis
+T21	GO_0007224 3780 3787;3794 3803	Hedghog signaling
 T22	GO_0010467 4140 4149	expressed
 T23	GO_0010467 4279 4289	expression
 T24	GO_0010467 4389 4399	expression
@@ -35,14 +32,11 @@ T30	GO_0009952 6103 6161	establishment of anterior-posterior positioned informat
 T31	GO_0030509 6192 6205	BMP signaling
 T32	GO_0010467 6451 6460	expressed
 T33	GO_0030509 6527 6540	BMP signaling
-T34	GO_0016271 7361 7369;	death of
-7387 7393	death oftissue
+T34	GO_0016271 7361 7369;7387 7393	death of tissue
 T35	GO_0030509 7465 7478	BMP signaling
 T36	GO_0090269 7707 7742	fibroblast growth factor production
-T37	GO_0090269 7936 7960;	fibroblast growth factor
-7967 7977	fibroblast growth factorproduction
-T38	GO_0090269 7962 7965;	FGF
-7967 7977	FGFproduction
+T37	GO_0090269 7936 7960;7967 7977	fibroblast growth factor production
+T38	GO_0090269 7962 7965;7967 7977	FGF production
 T39	GO_0008543 8049 8062	FGF signaling
 T40	GO_0060173 8352 8368	limb development
 T41	GO_0001501 8426 8440	skeletogenesis
@@ -93,12 +87,10 @@ T85	GO_0006915 18410 18419	apoptosis
 T86	GO_0006915 18714 18723	apoptosis
 T87	GO_0010467 19233 19243	expression
 T88	GO_0006915 19384 19393	apoptosis
-T89	GO_0006915 19791 19803;	apoptosis in
-19808 19813	apoptosis incells
+T89	GO_0006915 19791 19803;19808 19813	apoptosis in cells
 T90	GO_0030509 19973 19986	BMP Signaling
 T91	GO_0030509 19988 20001	BMP signaling
-T92	GO_0010628 20673 20688;	upregulation of
-20694 20704	upregulation ofexpression
+T92	GO_0010628 20673 20688;20694 20704	upregulation of expression
 T93	GO_0030509 21600 21613	BMP signaling
 T94	GO_0030509 22303 22316	BMP signaling
 T95	GO_0012501 22349 22370	programmed cell death

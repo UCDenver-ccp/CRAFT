@@ -1,22 +1,13 @@
 T0	Noun_Phrase 0 4	Fog2
 T1	IDENTITY_chain 0 4	Fog2
-T2	Noun_Phrase 21 27;	Normal
-42 61;	NormalLung Development in
-71 77	NormalLung Development inHumans
-T3	IDENTITY_chain 21 27;	Normal
-42 66	NormalLung Development in Mice
-T4	Noun_Phrase 21 27;	Normal
-42 66	NormalLung Development in Mice
-T5	Noun_Phrase 21 27;	Normal
-42 77	NormalLung Development in Mice and Humans
-T6	Noun_Phrase 21 37;	Normal Diaphragm
-47 58	Normal DiaphragmDevelopment
-T7	IDENTITY_chain 21 37;	Normal Diaphragm
-47 58	Normal DiaphragmDevelopment
-T8	Noun_Phrase 21 37;	Normal Diaphragm
-47 66	Normal DiaphragmDevelopment in Mice
-T9	Noun_Phrase 21 37;	Normal Diaphragm
-47 77	Normal DiaphragmDevelopment in Mice and Humans
+T2	Noun_Phrase 21 27;42 61;71 77	Normal Lung Development in Humans
+T3	IDENTITY_chain 21 27;42 66	Normal Lung Development in Mice
+T4	Noun_Phrase 21 27;42 66	Normal Lung Development in Mice
+T5	Noun_Phrase 21 27;42 77	Normal Lung Development in Mice and Humans
+T6	Noun_Phrase 21 37;47 58	Normal Diaphragm Development
+T7	IDENTITY_chain 21 37;47 58	Normal Diaphragm Development
+T8	Noun_Phrase 21 37;47 66	Normal Diaphragm Development in Mice
+T9	Noun_Phrase 21 37;47 77	Normal Diaphragm Development in Mice and Humans
 T10	IDENTITY_chain 21 58	Normal Diaphragm and Lung Development
 T11	Noun_Phrase 21 58	Normal Diaphragm and Lung Development
 T12	Noun_Phrase 21 58	Normal Diaphragm and Lung Development
@@ -77,10 +68,8 @@ T66	Noun_Phrase 983 1020	severe bilateral pulmonary hypoplasia
 T67	IDENTITY_chain 983 1020	severe bilateral pulmonary hypoplasia
 T68	Noun_Phrase 1098 1100	we
 T69	Noun_Phrase 1123 1127	Fog2
-T70	Noun_Phrase 1144 1150;	normal
-1165 1181	normallung development
-T71	Noun_Phrase 1144 1160;	normal diaphragm
-1170 1181	normal diaphragmdevelopment
+T70	Noun_Phrase 1144 1150;1165 1181	normal lung development
+T71	Noun_Phrase 1144 1160;1170 1181	normal diaphragm development
 T72	Noun_Phrase 1144 1181	normal diaphragm and lung development
 T73	Noun_Phrase 1151 1160	diaphragm
 T74	Noun_Phrase 1151 1169	diaphragm and lung
@@ -153,8 +142,7 @@ T140	Noun_Phrase 2954 2967	the diaphragm
 T141	Noun_Phrase 2984 3016	Congenital diaphragmatic defects
 T142	IDENTITY_chain 2984 3016	Congenital diaphragmatic defects
 T143	Noun_Phrase 3053 3058	birth
-T144	Noun_Phrase 3068 3081;	The Bochdalek
-3100 3107	The Bochdalekhernias
+T144	Noun_Phrase 3068 3081;3100 3107	The Bochdalek hernias
 T145	Noun_Phrase 3130 3161	congenital diaphragmatic hernia
 T146	APPOS_relation 3130 3161	congenital diaphragmatic hernia
 T147	Noun_Phrase 3163 3166	CDH
@@ -175,8 +163,7 @@ T161	IDENTITY_chain 3458 3480	these types of defects
 T162	Noun_Phrase 3473 3480	defects
 T163	IDENTITY_chain 3473 3480	defects
 T164	Noun_Phrase 3600 3627	these diaphragmatic defects
-T165	Noun_Phrase 3635 3641;	severe
-3656 3665	severemorbidity
+T165	Noun_Phrase 3635 3641;3656 3665	severe morbidity
 T166	Noun_Phrase 3635 3651	severe mortality
 T167	Noun_Phrase 3635 3665	severe mortality and morbidity
 T168	Noun_Phrase 3723 3744	diaphragmatic defects
@@ -235,12 +222,9 @@ T220	Noun_Phrase 5947 6063	a recessive mutation that results in primary pulmonar
 T221	IDENTITY_chain 5947 6063	a recessive mutation that results in primary pulmonary hypoplasia and abnormal diaphragmatic and cardiac development
 T222	Noun_Phrase 5984 6012	primary pulmonary hypoplasia
 T223	IDENTITY_chain 5984 6012	primary pulmonary hypoplasia
-T224	IDENTITY_chain 6017 6025;	abnormal
-6044 6063	abnormalcardiac development
-T225	Noun_Phrase 6017 6025;	abnormal
-6044 6063	abnormalcardiac development
-T226	Noun_Phrase 6017 6039;	abnormal diaphragmatic
-6052 6063	abnormal diaphragmaticdevelopment
+T224	IDENTITY_chain 6017 6025;6044 6063	abnormal cardiac development
+T225	Noun_Phrase 6017 6025;6044 6063	abnormal cardiac development
+T226	Noun_Phrase 6017 6039;6052 6063	abnormal diaphragmatic development
 T227	Noun_Phrase 6065 6268	Positional cloning analysis identified Fog2 (Zfpm2) as a likely candidate, and DNA sequencing revealed a mutation in a splice donor site that generates an abnormal transcript encoding a truncated protein
 T228	IDENTITY_chain 6065 6268	Positional cloning analysis identified Fog2 (Zfpm2) as a likely candidate, and DNA sequencing revealed a mutation in a splice donor site that generates an abnormal transcript encoding a truncated protein
 T229	APPOS_relation 6104 6108	Fog2
@@ -359,24 +343,15 @@ T341	Noun_Phrase 9014 9016	We
 T342	Noun_Phrase 9091 9109	the reduced number
 T343	Noun_Phrase 9121 9141	intra-uterine demise
 T344	IDENTITY_chain 9121 9141	intra-uterine demise
-T345	Noun_Phrase 9169 9170;	E
-9176 9180	E13.5
-T346	IDENTITY_chain 9169 9170;	E
-9176 9180	E13.5
-T347	Noun_Phrase 9169 9170;	E
-9176 9186	E13.5, 15.5
-T348	IDENTITY_chain 9169 9170;	E
-9176 9186	E13.5, 15.5
-T349	IDENTITY_chain 9169 9170;	E
-9182 9186	E15.5
-T350	Noun_Phrase 9169 9170;	E
-9182 9186	E15.5
-T351	IDENTITY_chain 9169 9170;	E
-9188 9192	E17.5
-T352	Noun_Phrase 9169 9170;	E
-9188 9192	E17.5
-T353	Noun_Phrase 9169 9170;	E
-9198 9202	E18.5
+T345	Noun_Phrase 9169 9170;9176 9180	E 13.5
+T346	IDENTITY_chain 9169 9170;9176 9180	E 13.5
+T347	Noun_Phrase 9169 9170;9176 9186	E 13.5, 15.5
+T348	IDENTITY_chain 9169 9170;9176 9186	E 13.5, 15.5
+T349	IDENTITY_chain 9169 9170;9182 9186	E 15.5
+T350	Noun_Phrase 9169 9170;9182 9186	E 15.5
+T351	IDENTITY_chain 9169 9170;9188 9192	E 17.5
+T352	Noun_Phrase 9169 9170;9188 9192	E 17.5
+T353	Noun_Phrase 9169 9170;9198 9202	E 18.5
 T354	Noun_Phrase 9169 9174	E12.5
 T355	IDENTITY_chain 9169 9174	E12.5
 T356	IDENTITY_chain 9208 9215	embryos
@@ -437,12 +412,10 @@ T410	Noun_Phrase 10923 10938	lil mutant mice
 T411	Noun_Phrase 11040 11046	RT-PCR
 T412	IDENTITY_chain 11040 11046	RT-PCR
 T413	Noun_Phrase 11088 11092	Fog2
-T414	Noun_Phrase 11102 11138;	longer transcripts in the lil mutant
-11161 11168	longer transcripts in the lil mutantembryos
+T414	Noun_Phrase 11102 11138;11161 11168	longer transcripts in the lil mutant embryos
 T415	Noun_Phrase 11102 11168	longer transcripts in the lil mutant than in the wild-type embryos
 T416	IDENTITY_chain 11102 11168	longer transcripts in the lil mutant than in the wild-type embryos
-T417	Noun_Phrase 11124 11138;	the lil mutant
-11161 11168	the lil mutantembryos
+T417	Noun_Phrase 11124 11138;11161 11168	the lil mutant embryos
 T418	Noun_Phrase 11128 11138	lil mutant
 T419	Noun_Phrase 11151 11160	wild-type
 T420	Noun_Phrase 11170 11176	Figure
@@ -493,15 +466,12 @@ T464	Noun_Phrase 12079 12090	Experiments
 T465	IDENTITY_chain 12079 12090	Experiments
 T466	Noun_Phrase 12118 12177	the role of Fog2 in pulmonary and diaphragmatic development
 T467	Noun_Phrase 12130 12134	Fog2
-T468	Noun_Phrase 12138 12147;	pulmonary
-12166 12177	pulmonarydevelopment
+T468	Noun_Phrase 12138 12147;12166 12177	pulmonary development
 T469	Noun_Phrase 12152 12177	diaphragmatic development
 T470	IDENTITY_chain 12179 12202	The pulmonary phenotype
 T471	Noun_Phrase 12179 12202	The pulmonary phenotype
-T472	IDENTITY_chain 12246 12262;	specific loss of
-12286 12320	specific loss ofa portion of the right middle lobe
-T473	Noun_Phrase 12246 12262;	specific loss of
-12286 12320	specific loss ofa portion of the right middle lobe
+T472	IDENTITY_chain 12246 12262;12286 12320	specific loss of a portion of the right middle lobe
+T473	Noun_Phrase 12246 12262;12286 12320	specific loss of a portion of the right middle lobe
 T474	Noun_Phrase 12246 12281	specific loss of the accessory lobe
 T475	IDENTITY_chain 12246 12281	specific loss of the accessory lobe
 T476	IDENTITY_chain 12246 12320	specific loss of the accessory lobe and a portion of the right middle lobe
@@ -651,10 +621,8 @@ T619	Noun_Phrase 15366 15370	Fog2
 T620	IDENTITY_chain 15397 15426	the early amuscular diaphragm
 T621	Noun_Phrase 15397 15426	the early amuscular diaphragm
 T622	Noun_Phrase 15430 15435	E11.5
-T623	Noun_Phrase 15488 15494;	Figure
-15502 15504	Figure3D
-T624	IDENTITY_chain 15488 15494;	Figure
-15502 15504	Figure3D
+T623	Noun_Phrase 15488 15494;15502 15504	Figure 3D
+T624	IDENTITY_chain 15488 15494;15502 15504	Figure 3D
 T625	Noun_Phrase 15488 15494	Figure
 T626	Noun_Phrase 15488 15497	Figure 3C
 T627	IDENTITY_chain 15488 15497	Figure 3C
@@ -666,10 +634,8 @@ T632	IDENTITY_chain 15507 15520	Pax3 and MyoD
 T633	IDENTITY_chain 15516 15520	MyoD
 T634	Noun_Phrase 15516 15520	MyoD
 T635	Noun_Phrase 15522 15619	transcription factors required for appropriate migration and determination of myogenic precursors
-T636	IDENTITY_chain 15557 15578;	appropriate migration
-15597 15619	appropriate migrationof myogenic precursors
-T637	Noun_Phrase 15557 15578;	appropriate migration
-15597 15619	appropriate migrationof myogenic precursors
+T636	IDENTITY_chain 15557 15578;15597 15619	appropriate migration of myogenic precursors
+T637	Noun_Phrase 15557 15578;15597 15619	appropriate migration of myogenic precursors
 T638	Noun_Phrase 15600 15619	myogenic precursors
 T639	Noun_Phrase 15638 15663	the PPFs of Fog2 lil mice
 T640	IDENTITY_chain 15638 15663	the PPFs of Fog2 lil mice
@@ -709,8 +675,7 @@ T673	Noun_Phrase 16173 16237	FOG2 Mutation in a Patient with Diaphragm and Lung 
 T674	IDENTITY_chain 16173 16237	FOG2 Mutation in a Patient with Diaphragm and Lung Abnormalities
 T675	Noun_Phrase 16190 16237	a Patient with Diaphragm and Lung Abnormalities
 T676	IDENTITY_chain 16190 16237	a Patient with Diaphragm and Lung Abnormalities
-T677	Noun_Phrase 16205 16214;	Diaphragm
-16224 16237	DiaphragmAbnormalities
+T677	Noun_Phrase 16205 16214;16224 16237	Diaphragm Abnormalities
 T678	Noun_Phrase 16205 16214	Diaphragm
 T679	Noun_Phrase 16205 16223	Diaphragm and Lung
 T680	IDENTITY_chain 16205 16237	Diaphragm and Lung Abnormalities
@@ -794,8 +759,7 @@ T757	Noun_Phrase 18849 18855	Figure
 T758	Noun_Phrase 18849 18857	Figure 7
 T759	Noun_Phrase 18874 18906	Congenital diaphragmatic defects
 T760	Noun_Phrase 18936 18945	disorders
-T761	Noun_Phrase 18967 18998;	The defects that present in the
-19007 19023	The defects that present in theperinatal period
+T761	Noun_Phrase 18967 18998;19007 19023	The defects that present in the perinatal period
 T762	Noun_Phrase 18967 19023	The defects that present in the pre- or perinatal period
 T763	IDENTITY_chain 18967 19023	The defects that present in the pre- or perinatal period
 T764	Noun_Phrase 19007 19023	perinatal period
@@ -847,10 +811,8 @@ T809	Noun_Phrase 20768 20795	the FOG2 mutation we report
 T810	IDENTITY_chain 20768 20795	the FOG2 mutation we report
 T811	Noun_Phrase 20772 20776	FOG2
 T812	Noun_Phrase 20786 20788	we
-T813	Noun_Phrase 20811 20842;	the phenotypes of the pulmonary
-20861 20868	the phenotypes of the pulmonarydefects
-T814	Noun_Phrase 20829 20842;	the pulmonary
-20861 20868	the pulmonarydefects
+T813	Noun_Phrase 20811 20842;20861 20868	the phenotypes of the pulmonary defects
+T814	Noun_Phrase 20829 20842;20861 20868	the pulmonary defects
 T815	Noun_Phrase 20829 20868	the pulmonary and diaphragmatic defects
 T816	Noun_Phrase 20847 20868	diaphragmatic defects
 T817	Noun_Phrase 20889 20894	mouse
@@ -927,8 +889,7 @@ T887	Noun_Phrase 22694 22710	the Gata factors
 T888	APPOS_relation 22712 22721	Gatas 1–6
 T889	Noun_Phrase 22712 22721	Gatas 1–6
 T890	Nonreferential_pronoun 22788 22790	It
-T891	Noun_Phrase 22913 22916;	the
-22926 22935	thediaphragm
+T891	Noun_Phrase 22913 22916;22926 22935	the diaphragm
 T892	Noun_Phrase 22913 22921	the lung
 T893	Noun_Phrase 22913 22935	the lung and diaphragm
 T894	Noun_Phrase 22926 22935	diaphragm
@@ -937,10 +898,8 @@ T896	Noun_Phrase 23019 23021	we
 T897	Noun_Phrase 23062 23082	the diaphragm defect
 T898	Noun_Phrase 23066 23075	diaphragm
 T899	Noun_Phrase 23084 23104	Pulmonary hypoplasia
-T900	IDENTITY_chain 23124 23146;	abnormal diaphragmatic
-23158 23166	abnormal diaphragmaticfunction
-T901	Noun_Phrase 23124 23146;	abnormal diaphragmatic
-23158 23166	abnormal diaphragmaticfunction
+T900	IDENTITY_chain 23124 23146;23158 23166	abnormal diaphragmatic function
+T901	Noun_Phrase 23124 23146;23158 23166	abnormal diaphragmatic function
 T902	Noun_Phrase 23239 23264	diaphragmatic dysfunction
 T903	Noun_Phrase 23338 23340	It
 T904	Noun_Phrase 23371 23374	CDH
@@ -985,8 +944,7 @@ T942	Noun_Phrase 24394 24434	the right middle lobe and accessory buds
 T943	Noun_Phrase 24420 24434	accessory buds
 T944	Noun_Phrase 24438 24449	these lobes
 T945	Noun_Phrase 24456 24460	This
-T946	Noun_Phrase 24486 24503;	right middle lobe
-24523 24527	right middle lobeloss
+T946	Noun_Phrase 24486 24503;24523 24527	right middle lobe loss
 T947	Noun_Phrase 24486 24503	right middle lobe
 T948	Noun_Phrase 24486 24522	right middle lobe and accessory lobe
 T949	Noun_Phrase 24486 24527	right middle lobe and accessory lobe loss
@@ -1022,8 +980,7 @@ T978	Noun_Phrase 25297 25301	Fog2
 T979	Noun_Phrase 25334 25338	Fog2
 T980	Noun_Phrase 25356 25359	its
 T981	Noun_Phrase 25356 25398	its role in diaphragm and lung development
-T982	Noun_Phrase 25368 25377;	diaphragm
-25387 25398	diaphragmdevelopment
+T982	Noun_Phrase 25368 25377;25387 25398	diaphragm development
 T983	Noun_Phrase 25368 25377	diaphragm
 T984	Noun_Phrase 25368 25386	diaphragm and lung
 T985	Noun_Phrase 25368 25398	diaphragm and lung development
@@ -1044,8 +1001,7 @@ T999	Noun_Phrase 25948 25970	the mouse mutation lil
 T1000	Noun_Phrase 25973 25989	The lil mutation
 T1001	Noun_Phrase 25977 25980	lil
 T1002	Noun_Phrase 26021 26028	results
-T1003	Noun_Phrase 26030 26045;	Wild-type FVB/N
-26059 26088	Wild-type FVB/Nmice used for genetic crosses
+T1003	Noun_Phrase 26030 26045;26059 26088	Wild-type FVB/N mice used for genetic crosses
 T1004	Noun_Phrase 26050 26058	C57BL/6J
 T1005	Noun_Phrase 26050 26088	C57BL/6J mice used for genetic crosses
 T1006	Noun_Phrase 26151 26164	United States
@@ -1114,8 +1070,7 @@ T1068	Noun_Phrase 27997 28011	Fog2-lacZ-eGFP
 T1069	Noun_Phrase 27997 28019	Fog2-lacZ-eGFP animals
 T1070	Noun_Phrase 28039 28072	the mixed C57BL/6J/129 background
 T1071	Noun_Phrase 28074 28078	lacZ
-T1072	Noun_Phrase 28218 28224;	RT-PCR
-28247 28259	RT-PCRin the mouse
+T1072	Noun_Phrase 28218 28224;28247 28259	RT-PCR in the mouse
 T1073	Noun_Phrase 28218 28224	RT-PCR
 T1074	Noun_Phrase 28229 28259	sequence analysis in the mouse
 T1075	Noun_Phrase 28250 28259	the mouse
@@ -1179,8 +1134,7 @@ T1132	Noun_Phrase 29862 29898	an outside CLIA-certified laboratory
 T1133	IDENTITY_chain 29862 29898	an outside CLIA-certified laboratory
 T1134	Noun_Phrase 29903 29906	DNA
 T1135	Noun_Phrase 29903 29917	DNA extraction
-T1136	Noun_Phrase 29903 29917;	DNA extraction
-29936 29948	DNA extractionand analysis
+T1136	Noun_Phrase 29903 29917;29936 29948	DNA extraction and analysis
 T1137	Noun_Phrase 29919 29922	PCR
 T1138	Noun_Phrase 29924 29934	sequencing
 T1139	Noun_Phrase 29940 29948	analysis
@@ -1210,10 +1164,8 @@ T1162	Noun_Phrase 30568 30571	her
 T1163	Noun_Phrase 30568 30579	her parents
 T1164	Noun_Phrase 30606 30610	they
 T1165	Noun_Phrase 30632 30634	us
-T1166	Noun_Phrase 30649 30662;	developmental
-30681 30693	developmentallung defects
-T1167	Noun_Phrase 30649 30676;	developmental diaphragmatic
-30686 30693	developmental diaphragmaticdefects
+T1166	Noun_Phrase 30649 30662;30681 30693	developmental lung defects
+T1167	Noun_Phrase 30649 30676;30686 30693	developmental diaphragmatic defects
 T1168	Noun_Phrase 30649 30693	developmental diaphragmatic and lung defects
 T1169	Noun_Phrase 30681 30685	lung
 T1170	Noun_Phrase 30695 30704	This work
@@ -1304,8 +1256,7 @@ T1254	Noun_Phrase 32188 32199	zinc finger
 T1255	Noun_Phrase 32216 32222	Figure
 T1256	Noun_Phrase 32216 32224	Figure 3
 T1257	Noun_Phrase 32226 32230	Fog2
-T1258	Noun_Phrase 32247 32261;	the Developing
-32271 32280	the DevelopingDiaphragm
+T1258	Noun_Phrase 32247 32261;32271 32280	the Developing Diaphragm
 T1259	Noun_Phrase 32282 32286	Fog2
 T1260	Noun_Phrase 32303 32335	the diffuse pulmonary mesenchyme
 T1261	IDENTITY_chain 32303 32335	the diffuse pulmonary mesenchyme
@@ -1343,8 +1294,7 @@ T1292	Noun_Phrase 32861 32887	Embryonic Non-Mutant Lungs
 T1293	IDENTITY_chain 32861 32887	Embryonic Non-Mutant Lungs
 T1294	Noun_Phrase 32892 32918	embryonic non-mutant lungs
 T1295	Noun_Phrase 32920 32924	Fog2
-T1296	Noun_Phrase 32965 32978;	the accessory
-33012 33017	the accessorylobes
+T1296	Noun_Phrase 32965 32978;33012 33017	the accessory lobes
 T1297	Noun_Phrase 32999 33017	right middle lobes
 T1298	Noun_Phrase 33070 33080	expression
 T1299	Noun_Phrase 33108 33114	Figure
@@ -1370,8 +1320,7 @@ T1318	Noun_Phrase 33356 33364	Figure 7
 T1319	Noun_Phrase 33366 33370	FOG2
 T1320	Noun_Phrase 33366 33430	FOG2 Mutation in a Patient with Diaphragm and Lung Abnormalities
 T1321	Noun_Phrase 33398 33407	Diaphragm
-T1322	Noun_Phrase 33398 33407;	Diaphragm
-33417 33430	DiaphragmAbnormalities
+T1322	Noun_Phrase 33398 33407;33417 33430	Diaphragm Abnormalities
 T1323	Noun_Phrase 33398 33416	Diaphragm and Lung
 T1324	Noun_Phrase 33398 33430	Diaphragm and Lung Abnormalities
 T1325	Noun_Phrase 33412 33416	Lung
@@ -1393,10 +1342,8 @@ T1340	Noun_Phrase 33752 33763	The authors
 T1341	Noun_Phrase 33786 33805	competing interests
 T1342	Noun_Phrase 33814 33820	Author
 T1343	Noun_Phrase 33836 33839	KGA
-T1344	IDENTITY_chain 33836 33839;	KGA
-33846 33853	KGAand DRB
-T1345	Noun_Phrase 33836 33839;	KGA
-33846 33853	KGAand DRB
+T1344	IDENTITY_chain 33836 33839;33846 33853	KGA and DRB
+T1345	Noun_Phrase 33836 33839;33846 33853	KGA and DRB
 T1346	Noun_Phrase 33836 33853	KGA, JJG, and DRB
 T1347	IDENTITY_chain 33836 33853	KGA, JJG, and DRB
 T1348	Noun_Phrase 33841 33844	JJG
@@ -1417,10 +1364,8 @@ T1362	Noun_Phrase 33917 33919	CR
 T1363	IDENTITY_chain 33930 33933	JAE
 T1364	Noun_Phrase 33930 33933	JAE
 T1365	Noun_Phrase 33944 33959	the experiments
-T1366	Noun_Phrase 33961 33964;	KGA
-33988 34000	KGAJJG, and DRB
-T1367	Noun_Phrase 33961 33964;	KGA
-33993 34000	KGAand DRB
+T1366	Noun_Phrase 33961 33964;33988 34000	KGA JJG, and DRB
+T1367	Noun_Phrase 33961 33964;33993 34000	KGA and DRB
 T1368	Noun_Phrase 33961 33964	KGA
 T1369	Noun_Phrase 33966 33969	BJH
 T1370	Noun_Phrase 33971 33973	HH
@@ -1429,10 +1374,8 @@ T1372	Noun_Phrase 33979 33981	CR
 T1373	Noun_Phrase 33983 33986	JAE
 T1374	Noun_Phrase 33988 33991	JJG
 T1375	Noun_Phrase 33997 34000	DRB
-T1376	Noun_Phrase 34020 34023;	KGA
-34045 34057	KGAJJG, and DRB
-T1377	Noun_Phrase 34020 34023;	KGA
-34050 34057	KGAand DRB
+T1376	Noun_Phrase 34020 34023;34045 34057	KGA JJG, and DRB
+T1377	Noun_Phrase 34020 34023;34050 34057	KGA and DRB
 T1378	Noun_Phrase 34020 34023	KGA
 T1379	Noun_Phrase 34025 34028	SOV
 T1380	IDENTITY_chain 34025 34028	SOV
@@ -1450,22 +1393,13 @@ T1391	Noun_Phrase 34169 34178	Vargas SO
 T1392	Noun_Phrase 34180 34187	Huang H
 T1393	Noun_Phrase 34189 34200	Tevosian SG
 T1394	Noun_Phrase 34216 34220	Fog2
-T1395	Noun_Phrase 34237 34243;	normal
-34258 34277;	normallung development in
-34287 34293	normallung development inhumans
-T1396	Noun_Phrase 34237 34243;	normal
-34258 34282	normallung development in mice
-T1397	Noun_Phrase 34237 34243;	normal
-34258 34293	normallung development in mice and humans
-T1398	Noun_Phrase 34237 34253;	normal diaphragm
-34263 34277;	normal diaphragmdevelopment in
-34287 34293	normal diaphragmdevelopment inhumans
-T1399	Noun_Phrase 34237 34253;	normal diaphragm
-34263 34282	normal diaphragmdevelopment in mice
-T1400	Noun_Phrase 34237 34253;	normal diaphragm
-34263 34293	normal diaphragmdevelopment in mice and humans
-T1401	Noun_Phrase 34237 34277;	normal diaphragm and lung development in
-34287 34293	normal diaphragm and lung development inhumans
+T1395	Noun_Phrase 34237 34243;34258 34277;34287 34293	normal lung development in humans
+T1396	Noun_Phrase 34237 34243;34258 34282	normal lung development in mice
+T1397	Noun_Phrase 34237 34243;34258 34293	normal lung development in mice and humans
+T1398	Noun_Phrase 34237 34253;34263 34277;34287 34293	normal diaphragm development in humans
+T1399	Noun_Phrase 34237 34253;34263 34282	normal diaphragm development in mice
+T1400	Noun_Phrase 34237 34253;34263 34293	normal diaphragm development in mice and humans
+T1401	Noun_Phrase 34237 34277;34287 34293	normal diaphragm and lung development in humans
 T1402	Noun_Phrase 34237 34282	normal diaphragm and lung development in mice
 T1403	Noun_Phrase 34237 34293	normal diaphragm and lung development in mice and humans
 T1404	Noun_Phrase 34244 34253	diaphragm

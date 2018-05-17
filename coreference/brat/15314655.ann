@@ -22,10 +22,8 @@ T20	APPOS_relation 311 320	moonshine
 T21	Noun_Phrase 322 325	mon
 T22	Noun_Phrase 353 391	both embryonic and adult hematopoiesis
 T23	IDENTITY_chain 353 391	both embryonic and adult hematopoiesis
-T24	Noun_Phrase 358 367;	embryonic
-378 391	embryonichematopoiesis
-T25	IDENTITY_chain 358 367;	embryonic
-378 391	embryonichematopoiesis
+T24	Noun_Phrase 358 367;378 391	embryonic hematopoiesis
+T25	IDENTITY_chain 358 367;378 391	embryonic hematopoiesis
 T26	Noun_Phrase 372 391	adult hematopoiesis
 T27	IDENTITY_chain 372 391	adult hematopoiesis
 T28	Noun_Phrase 413 427	red blood cell
@@ -40,10 +38,8 @@ T36	Noun_Phrase 490 538	mammalian transcriptional intermediary factor 1?
 T37	APPOS_relation 540 545	TIF1?
 T38	Noun_Phrase 540 545	TIF1?
 T39	Noun_Phrase 560 620	a member of the TIF1 family of coactivators and corepressors
-T40	Noun_Phrase 572 590;	the TIF1 family of
-608 620	the TIF1 family ofcorepressors
-T41	IDENTITY_chain 572 590;	the TIF1 family of
-608 620	the TIF1 family ofcorepressors
+T40	Noun_Phrase 572 590;608 620	the TIF1 family of corepressors
+T41	IDENTITY_chain 572 590;608 620	the TIF1 family of corepressors
 T42	Noun_Phrase 572 603	the TIF1 family of coactivators
 T43	IDENTITY_chain 572 603	the TIF1 family of coactivators
 T44	Noun_Phrase 572 620	the TIF1 family of coactivators and corepressors
@@ -98,8 +94,7 @@ T92	Noun_Phrase 1576 1587	vertebrates
 T93	IDENTITY_chain 1576 1587	vertebrates
 T94	Noun_Phrase 1604 1617	Hematopoiesis
 T95	Noun_Phrase 1656 1660	cell
-T96	Noun_Phrase 1773 1776;	red
-1787 1798	redblood cells
+T96	Noun_Phrase 1773 1776;1787 1798	red blood cells
 T97	Noun_Phrase 1800 1819	Thisse and Zon 2002
 T98	IDENTITY_chain 1800 1819	Thisse and Zon 2002
 T99	Noun_Phrase 1839 1850	vertebrates
@@ -107,10 +102,8 @@ T100	Noun_Phrase 1857 1866	zebrafish
 T101	IDENTITY_chain 1857 1866	zebrafish
 T102	Noun_Phrase 1870 1876	humans
 T103	IDENTITY_chain 1870 1876	humans
-T104	IDENTITY_chain 1944 1948;	stem
-1963 1968	stemcells
-T105	Noun_Phrase 1944 1949;	stem 
-1963 2071	stem cells that differ both in their embryonic origins and in the lineages of differentiated blood cells produced
+T104	IDENTITY_chain 1944 1948;1963 1968	stem cells
+T105	Noun_Phrase 1944 1949;1963 2071	stem  cells that differ both in their embryonic origins and in the lineages of differentiated blood cells produced
 T106	Noun_Phrase 1989 1994	their
 T107	Noun_Phrase 2051 2056	blood
 T108	IDENTITY_chain 2051 2056	blood
@@ -126,8 +119,7 @@ T117	Noun_Phrase 2276 2299	embryonic blood islands
 T118	IDENTITY_chain 2276 2299	embryonic blood islands
 T119	Noun_Phrase 2301 2336	The primitive wave of hematopoiesis
 T120	Noun_Phrase 2323 2336	hematopoiesis
-T121	Noun_Phrase 2357 2366;	embryonic
-2384 2395	embryonicmacrophages
+T121	Noun_Phrase 2357 2366;2384 2395	embryonic macrophages
 T122	Noun_Phrase 2397 2445	The second, or definitive, wave of hematopoiesis
 T123	Noun_Phrase 2432 2445	hematopoiesis
 T124	Noun_Phrase 2458 2558	self-renewing stem cells that develop primarily in the intraembryonic aorta–gonad–mesonephros region
@@ -161,8 +153,7 @@ T151	Noun_Phrase 3285 3287	we
 T152	Noun_Phrase 3309 3334	mutations in the mon gene
 T153	Noun_Phrase 3322 3334	the mon gene
 T154	Noun_Phrase 3357 3416	both primitive embryonic and definitive adult hematopoiesis
-T155	Noun_Phrase 3362 3381;	primitive embryonic
-3403 3416	primitive embryonichematopoiesis
+T155	Noun_Phrase 3362 3381;3403 3416	primitive embryonic hematopoiesis
 T156	Noun_Phrase 3386 3416	definitive adult hematopoiesis
 T157	Noun_Phrase 3448 3463	erythroid cells
 T158	IDENTITY_chain 3448 3463	erythroid cells
@@ -178,13 +169,11 @@ T167	Noun_Phrase 3699 3755	mammalian transcriptional intermediary factor 1? (TIF
 T168	APPOS_relation 3749 3754	TIF1?
 T169	Noun_Phrase 3749 3754	TIF1?
 T170	Noun_Phrase 3757 3833	a member of the TIF1 family of transcriptional coactivators and corepressors
-T171	Noun_Phrase 3769 3787;	the TIF1 family of
-3821 3833	the TIF1 family ofcorepressors
+T171	Noun_Phrase 3769 3787;3821 3833	the TIF1 family of corepressors
 T172	Noun_Phrase 3769 3816	the TIF1 family of transcriptional coactivators
 T173	Noun_Phrase 3769 3833	the TIF1 family of transcriptional coactivators and corepressors
 T174	Noun_Phrase 3773 3777	TIF1
-T175	Noun_Phrase 3788 3803;	transcriptional
-3821 3833	transcriptionalcorepressors
+T175	Noun_Phrase 3788 3803;3821 3833	transcriptional corepressors
 T176	Noun_Phrase 3788 3816	transcriptional coactivators
 T177	Noun_Phrase 3788 3833	transcriptional coactivators and corepressors
 T178	Noun_Phrase 3835 3857	Le Douarin et al. 1995
@@ -231,8 +220,7 @@ T218	Noun_Phrase 4648 4668	Friedman et al. 1996
 T219	Noun_Phrase 4670 4688	Abrink et al. 2001
 T220	IDENTITY_chain 4670 4688	Abrink et al. 2001
 T221	Noun_Phrase 4704 4709	TIF1?
-T222	Noun_Phrase 4750 4767;	nuclear receptors
-4784 4826	nuclear receptorsthat bind to the other TIF1 family members
+T222	Noun_Phrase 4750 4767;4784 4826	nuclear receptors that bind to the other TIF1 family members
 T223	Noun_Phrase 4771 4775	KRAB
 T224	Noun_Phrase 4771 4826	KRAB domains that bind to the other TIF1 family members
 T225	Noun_Phrase 4807 4818	TIF1 family
@@ -244,12 +232,9 @@ T230	IDENTITY_chain 4950 4966	hetero-oligomers
 T231	Noun_Phrase 4972 4977	TIF1?
 T232	Noun_Phrase 4991 4996	TIF1?
 T233	Noun_Phrase 4998 5014	Peng et al. 2002
-T234	Noun_Phrase 5017 5027;	The murine
-5038 5049	The murineTif1? genes
-T235	Noun_Phrase 5017 5033;	The murine Tif1?
-5044 5049	The murine Tif1?genes
-T236	IDENTITY_chain 5017 5033;	The murine Tif1?
-5044 5049	The murine Tif1?genes
+T234	Noun_Phrase 5017 5027;5038 5049	The murine Tif1? genes
+T235	Noun_Phrase 5017 5033;5044 5049	The murine Tif1? genes
+T236	IDENTITY_chain 5017 5033;5044 5049	The murine Tif1? genes
 T237	Noun_Phrase 5038 5043	Tif1?
 T238	Noun_Phrase 5081 5085	gene
 T239	IDENTITY_chain 5081 5085	gene
@@ -270,10 +255,8 @@ T253	Noun_Phrase 5449 5452	Our
 T254	Noun_Phrase 5449 5460	Our studies
 T255	IDENTITY_chain 5449 5460	Our studies
 T256	Noun_Phrase 5476 5481	tif1?
-T257	Noun_Phrase 5521 5530;	embryonic
-5541 5569	embryonichematopoiesis in vertebrates
-T258	IDENTITY_chain 5521 5530;	embryonic
-5541 5569	embryonichematopoiesis in vertebrates
+T257	Noun_Phrase 5521 5530;5541 5569	embryonic hematopoiesis in vertebrates
+T258	IDENTITY_chain 5521 5530;5541 5569	embryonic hematopoiesis in vertebrates
 T259	Noun_Phrase 5558 5569	vertebrates
 T260	Noun_Phrase 5571 5575	Cell
 T261	Noun_Phrase 5571 5591	Cell transplantation
@@ -292,19 +275,15 @@ T273	Noun_Phrase 6088 6110	The Zebrafish mon Gene
 T274	Noun_Phrase 6092 6101	Zebrafish
 T275	Noun_Phrase 6128 6172	Both Primitive and Definitive Erythropoiesis
 T276	IDENTITY_chain 6128 6172	Both Primitive and Definitive Erythropoiesis
-T277	Noun_Phrase 6133 6142;	Primitive
-6158 6172	PrimitiveErythropoiesis
-T278	IDENTITY_chain 6133 6142;	Primitive
-6158 6172	PrimitiveErythropoiesis
+T277	Noun_Phrase 6133 6142;6158 6172	Primitive Erythropoiesis
+T278	IDENTITY_chain 6133 6142;6158 6172	Primitive Erythropoiesis
 T279	Noun_Phrase 6147 6172	Definitive Erythropoiesis
 T280	IDENTITY_chain 6147 6172	Definitive Erythropoiesis
 T281	Noun_Phrase 6201 6213	the mon gene
 T282	Noun_Phrase 6229 6240	development
 T283	Noun_Phrase 6242 6244	we
-T284	Noun_Phrase 6260 6289;	hematopoietic gene expression
-6304 6346	hematopoietic gene expressionin zebrafish homozygous mon mutant embryos
-T285	IDENTITY_chain 6260 6289;	hematopoietic gene expression
-6304 6346	hematopoietic gene expressionin zebrafish homozygous mon mutant embryos
+T284	Noun_Phrase 6260 6289;6304 6346	hematopoietic gene expression in zebrafish homozygous mon mutant embryos
+T285	IDENTITY_chain 6260 6289;6304 6346	hematopoietic gene expression in zebrafish homozygous mon mutant embryos
 T286	Noun_Phrase 6294 6346	apoptosis in zebrafish homozygous mon mutant embryos
 T287	IDENTITY_chain 6294 6346	apoptosis in zebrafish homozygous mon mutant embryos
 T288	Noun_Phrase 6307 6316	zebrafish
@@ -340,10 +319,8 @@ T317	APPOS_relation 6780 6797	postfertilization
 T318	Noun_Phrase 6799 6802	hpf
 T319	Noun_Phrase 6805 6811	Figure
 T320	IDENTITY_chain 6805 6811	Figure
-T321	Noun_Phrase 6805 6811;	Figure
-6819 6821	Figure1B
-T322	IDENTITY_chain 6805 6811;	Figure
-6819 6821	Figure1B
+T321	Noun_Phrase 6805 6811;6819 6821	Figure 1B
+T322	IDENTITY_chain 6805 6811;6819 6821	Figure 1B
 T323	Noun_Phrase 6805 6814	Figure 1A
 T324	IDENTITY_chain 6805 6814	Figure 1A
 T325	Noun_Phrase 6805 6821	Figure 1A and 1B
@@ -361,8 +338,7 @@ T336	IDENTITY_chain 6966 6972	ikaros
 T337	Noun_Phrase 6993 7019	the embryonic blood island
 T338	Noun_Phrase 6997 7012	embryonic blood
 T339	Noun_Phrase 7021 7027	Figure
-T340	Noun_Phrase 7021 7027;	Figure
-7035 7037	Figure1B
+T340	Noun_Phrase 7021 7027;7035 7037	Figure 1B
 T341	Noun_Phrase 7021 7030	Figure 1A
 T342	Noun_Phrase 7021 7037	Figure 1A and 1B
 T343	IDENTITY_chain 7021 7037	Figure 1A and 1B
@@ -399,8 +375,7 @@ T373	Noun_Phrase 7557 7562	trunk
 T374	Noun_Phrase 7567 7575	tail bud
 T375	IDENTITY_chain 7567 7575	tail bud
 T376	Noun_Phrase 7585 7591	Figure
-T377	Noun_Phrase 7585 7591;	Figure
-7599 7601	Figure1B
+T377	Noun_Phrase 7585 7591;7599 7601	Figure 1B
 T378	Noun_Phrase 7585 7594	Figure 1A
 T379	Noun_Phrase 7585 7601	Figure 1A and 1B
 T380	Noun_Phrase 7603 7609	arrows
@@ -435,8 +410,7 @@ T408	Noun_Phrase 8547 8560	myeloid cells
 T409	Noun_Phrase 8572 8588	unpublished data
 T410	Noun_Phrase 8618 8626	mon gene
 T411	Noun_Phrase 8647 8691	both primitive and definitive erythropoiesis
-T412	Noun_Phrase 8652 8661;	primitive
-8677 8691	primitiveerythropoiesis
+T412	Noun_Phrase 8652 8661;8677 8691	primitive erythropoiesis
 T413	Noun_Phrase 8666 8691	definitive erythropoiesis
 T414	Noun_Phrase 8724 8727	mon
 T415	Noun_Phrase 8735 8744	Zebrafish
@@ -452,10 +426,8 @@ T424	Noun_Phrase 8962 8972	mon mutant
 T425	Noun_Phrase 8996 9008	Chromosome 8
 T426	Noun_Phrase 8996 9055	Chromosome 8 between microsatellite markers z987 and z11001
 T427	IDENTITY_chain 8996 9055	Chromosome 8 between microsatellite markers z987 and z11001
-T428	Noun_Phrase 9017 9039;	microsatellite markers
-9049 9055	microsatellite markersz11001
-T429	IDENTITY_chain 9017 9039;	microsatellite markers
-9049 9055	microsatellite markersz11001
+T428	Noun_Phrase 9017 9039;9049 9055	microsatellite markers z11001
+T429	IDENTITY_chain 9017 9039;9049 9055	microsatellite markers z11001
 T430	Noun_Phrase 9017 9044	microsatellite markers z987
 T431	IDENTITY_chain 9017 9044	microsatellite markers z987
 T432	Noun_Phrase 9017 9055	microsatellite markers z987 and z11001
@@ -515,10 +487,8 @@ T485	Noun_Phrase 10159 10171	The mon gene
 T486	Noun_Phrase 10192 10236	the TIF1 family of transcriptional cofactors
 T487	Noun_Phrase 10196 10200	TIF1
 T488	Noun_Phrase 10211 10236	transcriptional cofactors
-T489	Noun_Phrase 10238 10244;	Figure
-10252 10254	Figure3C
-T490	IDENTITY_chain 10238 10244;	Figure
-10252 10254	Figure3C
+T489	Noun_Phrase 10238 10244;10252 10254	Figure 3C
+T490	IDENTITY_chain 10238 10244;10252 10254	Figure 3C
 T491	Noun_Phrase 10238 10244	Figure
 T492	Noun_Phrase 10238 10247	Figure 3B
 T493	IDENTITY_chain 10238 10247	Figure 3B
@@ -528,8 +498,7 @@ T496	IDENTITY_chain 10303 10313	human TIF?
 T497	Noun_Phrase 10315 10337	Le Douarin et al. 1995
 T498	Noun_Phrase 10339 10359	Friedman et al. 1996
 T499	Noun_Phrase 10361 10382	Venturini et al. 1999
-T500	Noun_Phrase 10444 10457;	the zebrafish
-10468 10473	the zebrafishgenes
+T500	Noun_Phrase 10444 10457;10468 10473	the zebrafish genes
 T501	Noun_Phrase 10448 10457	zebrafish
 T502	Noun_Phrase 10462 10473	human genes
 T503	IDENTITY_chain 10462 10473	human genes
@@ -565,18 +534,14 @@ T532	APPOS_relation 10946 10963	ethyl-nitrosourea
 T533	Noun_Phrase 10965 10968	ENU
 T534	Noun_Phrase 10997 11017	three alleles of mon
 T535	Noun_Phrase 11014 11017	mon
-T536	Noun_Phrase 11019 11025;	Figure
-11033 11035	Figure3D
-T537	IDENTITY_chain 11019 11025;	Figure
-11033 11035	Figure3D
+T536	Noun_Phrase 11019 11025;11033 11035	Figure 3D
+T537	IDENTITY_chain 11019 11025;11033 11035	Figure 3D
 T538	Noun_Phrase 11019 11025	Figure
 T539	Noun_Phrase 11019 11028	Figure 3C
 T540	Noun_Phrase 11062 11084	a premature stop codon
 T541	IDENTITY_chain 11062 11084	a premature stop codon
-T542	Noun_Phrase 11086 11099;	The montb222b
-11113 11120	The montb222balleles
-T543	IDENTITY_chain 11086 11099;	The montb222b
-11113 11120	The montb222balleles
+T542	Noun_Phrase 11086 11099;11113 11120	The montb222b alleles
+T543	IDENTITY_chain 11086 11099;11113 11120	The montb222b alleles
 T544	Noun_Phrase 11086 11120	The montb222b and montg234 alleles
 T545	IDENTITY_chain 11086 11120	The montb222b and montg234 alleles
 T546	Noun_Phrase 11104 11120	montg234 alleles
@@ -636,8 +601,7 @@ T599	Noun_Phrase 12795 12810	embryonic blood
 T600	Noun_Phrase 12841 12855	The tif1? gene
 T601	Noun_Phrase 12884 12910	the central nervous system
 T602	IDENTITY_chain 12884 12910	the central nervous system
-T603	Noun_Phrase 12922 12943;	the mesenchyme of the
-12954 12958	the mesenchyme of thetail
+T603	Noun_Phrase 12922 12943;12954 12958	the mesenchyme of the tail
 T604	Noun_Phrase 12922 12949	the mesenchyme of the trunk
 T605	IDENTITY_chain 12922 12949	the mesenchyme of the trunk
 T606	Noun_Phrase 12940 12949	the trunk
@@ -667,10 +631,8 @@ T629	IDENTITY_chain 13340 13368	zebrafish mon to mouse Tif1?
 T630	Noun_Phrase 13357 13362	mouse
 T631	Noun_Phrase 13357 13368	mouse Tif1?
 T632	IDENTITY_chain 13357 13368	mouse Tif1?
-T633	Noun_Phrase 13370 13376;	Figure
-13384 13386	Figure4B
-T634	IDENTITY_chain 13370 13376;	Figure
-13384 13386	Figure4B
+T633	Noun_Phrase 13370 13376;13384 13386	Figure 4B
+T634	IDENTITY_chain 13370 13376;13384 13386	Figure 4B
 T635	Noun_Phrase 13370 13376	Figure
 T636	Noun_Phrase 13370 13379	Figure 4A
 T637	Noun_Phrase 13389 13394	Mouse
@@ -960,10 +922,8 @@ T920	Noun_Phrase 21393 21401	Figure 3
 T921	Noun_Phrase 21437 21446	zebrafish
 T922	Noun_Phrase 21437 21452	zebrafish tif1?
 T923	Noun_Phrase 21472 21501	predicted amino acid sequence
-T924	Noun_Phrase 21554 21565;	orthologous
-21576 21587	orthologousmouse genes
-T925	Noun_Phrase 21554 21571;	orthologous human
-21582 21587	orthologous humangenes
+T924	Noun_Phrase 21554 21565;21576 21587	orthologous mouse genes
+T925	Noun_Phrase 21554 21571;21582 21587	orthologous human genes
 T926	Noun_Phrase 21554 21587	orthologous human and mouse genes
 T927	Noun_Phrase 21576 21581	mouse
 T928	Noun_Phrase 21589 21598	Zebrafish
@@ -1003,8 +963,7 @@ T961	Noun_Phrase 22291 22306	mammalian TIF1?
 T962	Noun_Phrase 22308 22330	Le Douarin et al. 1995
 T963	Noun_Phrase 22332 22357	Niederreither et al. 1999
 T964	Noun_Phrase 22364 22371	Figures
-T965	Noun_Phrase 22364 22371;	Figures
-22379 22381	Figures4A
+T965	Noun_Phrase 22364 22371;22379 22381	Figures 4A
 T966	Noun_Phrase 22364 22374	Figures 3A
 T967	Noun_Phrase 22444 22457	Tif1? protein
 T968	Noun_Phrase 22513 22522	zebrafish
@@ -1034,10 +993,8 @@ T991	Noun_Phrase 23211 23216	mouse
 T992	Noun_Phrase 23246 23251	tif1?
 T993	Noun_Phrase 23271 23292	Erythroid Progenitors
 T994	Noun_Phrase 23294 23297	Our
-T995	Noun_Phrase 23313 23342;	hematopoietic gene expression
-23376 23390	hematopoietic gene expressionin mon mutants
-T996	Noun_Phrase 23344 23353;	apoptosis
-23376 23390	apoptosisin mon mutants
+T995	Noun_Phrase 23313 23342;23376 23390	hematopoietic gene expression in mon mutants
+T996	Noun_Phrase 23344 23353;23376 23390	apoptosis in mon mutants
 T997	Noun_Phrase 23359 23365	marrow
 T998	Noun_Phrase 23379 23382	mon
 T999	Noun_Phrase 23379 23390	mon mutants
@@ -1119,8 +1076,7 @@ T1074	Noun_Phrase 25667 25672	gata1
 T1075	Noun_Phrase 25709 25722	hematopoiesis
 T1076	Noun_Phrase 25724 25740	unpublished data
 T1077	Noun_Phrase 25743 25745	We
-T1078	Noun_Phrase 25791 25796;	Tif1?
-25807 25815	Tif1?proteins
+T1078	Noun_Phrase 25791 25796;25807 25815	Tif1? proteins
 T1079	Noun_Phrase 25895 25911	unpublished data
 T1080	Noun_Phrase 25948 25959	these genes
 T1081	Noun_Phrase 25967 25972	cells
@@ -1137,8 +1093,7 @@ T1091	Noun_Phrase 26194 26198	gene
 T1092	Noun_Phrase 26220 26225	blood
 T1093	Noun_Phrase 26220 26231	blood cells
 T1094	Noun_Phrase 26246 26251	Tif1?
-T1095	Noun_Phrase 26255 26264;	Primitive
-26280 26294	PrimitiveErythropoiesis
+T1095	Noun_Phrase 26255 26264;26280 26294	Primitive Erythropoiesis
 T1096	Noun_Phrase 26255 26294	Primitive and Definitive Erythropoiesis
 T1097	Noun_Phrase 26269 26294	Definitive Erythropoiesis
 T1098	Noun_Phrase 26312 26315	our
@@ -1191,8 +1146,7 @@ T1144	IDENTITY_chain 27754 27776	blood cell development
 T1145	Noun_Phrase 27804 27813	Zebrafish
 T1146	Noun_Phrase 27818 27823	mouse
 T1147	Noun_Phrase 27845 27854	Zebrafish
-T1148	Noun_Phrase 27915 27926;	The alleles
-27941 27949	The allelesmontg234
+T1148	Noun_Phrase 27915 27926;27941 27949	The alleles montg234
 T1149	Noun_Phrase 27915 27936	The alleles montb222b
 T1150	Noun_Phrase 27915 27949	The alleles montb222b and montg234
 T1151	Noun_Phrase 28016 28034	Ransom et al. 1996
@@ -1223,8 +1177,7 @@ T1175	Noun_Phrase 29145 29179	adult gata1:EGFP transgenic donors
 T1176	IDENTITY_chain 29145 29179	adult gata1:EGFP transgenic donors
 T1177	Noun_Phrase 29229 29250	5% fetal bovine serum
 T1178	IDENTITY_chain 29229 29250	5% fetal bovine serum
-T1179	Noun_Phrase 29291 29311;	2-d-old montg234 ?/?
-29324 29331	2-d-old montg234 ?/?embryos
+T1179	Noun_Phrase 29291 29311;29324 29331	2-d-old montg234 ?/? embryos
 T1180	Noun_Phrase 29399 29430	Individual transplanted embryos
 T1181	IDENTITY_chain 29399 29430	Individual transplanted embryos
 T1182	Noun_Phrase 29537 29544	Germany
@@ -1310,8 +1263,7 @@ T1261	Noun_Phrase 32363 32374	mouse Tif1?
 T1262	Noun_Phrase 32392 32396	cDNA
 T1263	IDENTITY_chain 32392 32396	cDNA
 T1264	Noun_Phrase 32410 32419	zebrafish
-T1265	Noun_Phrase 32410 32419;	zebrafish
-32434 32439	zebrafishtif1?
+T1265	Noun_Phrase 32410 32419;32434 32439	zebrafish tif1?
 T1266	Noun_Phrase 32410 32429	zebrafish mon/tif1?
 T1267	Noun_Phrase 32555 32557	We
 T1268	Noun_Phrase 32630 32645	this manuscript
@@ -1372,8 +1324,7 @@ T1322	Noun_Phrase 33621 33644	Primitive Hematopoiesis
 T1323	Noun_Phrase 33730 33739	apoptosis
 T1324	Noun_Phrase 33743 33777	homozygous montg234 mutant embryos
 T1325	Noun_Phrase 33754 33762	montg234
-T1326	Noun_Phrase 33834 33841;	the 12-
-33849 33861	the 12-somite stage
+T1326	Noun_Phrase 33834 33841;33849 33861	the 12- somite stage
 T1327	Noun_Phrase 33962 33971	the trunk
 T1328	Noun_Phrase 33962 33980	the trunk and tail
 T1329	Noun_Phrase 33976 33980	tail
@@ -1422,8 +1373,7 @@ T1371	Noun_Phrase 35112 35151	the mon locus on zebrafish Chromosome 8
 T1372	Noun_Phrase 35116 35119	mon
 T1373	Noun_Phrase 35129 35138	zebrafish
 T1374	Noun_Phrase 35129 35151	zebrafish Chromosome 8
-T1375	Noun_Phrase 35153 35175;	Microsatellite markers
-35185 35191	Microsatellite markersz11001
+T1375	Noun_Phrase 35153 35175;35185 35191	Microsatellite markers z11001
 T1376	Noun_Phrase 35153 35180	Microsatellite markers z987
 T1377	Noun_Phrase 35153 35191	Microsatellite markers z987 and z11001
 T1378	Noun_Phrase 35265 35273	montg234
@@ -1446,25 +1396,20 @@ T1394	APPOS_relation 35760 35769	zebrafish
 T1395	Noun_Phrase 35771 35782	Danio rerio
 T1396	APPOS_relation 35771 35782	Danio rerio
 T1397	Noun_Phrase 35784 35786	Dr
-T1398	Noun_Phrase 35789 35794;	Tif1?
-35805 35812	Tif1?peptide
+T1398	Noun_Phrase 35789 35794;35805 35812	Tif1? peptide
 T1399	Noun_Phrase 35799 35812	Tif1? peptide
 T1400	Noun_Phrase 35840 35851	TIF1 family
 T1401	Noun_Phrase 35840 35859	TIF1 family members
 T1402	Noun_Phrase 35861 35866	human
 T1403	APPOS_relation 35861 35866	human
-T1404	Noun_Phrase 35861 35871;	human (Hs)
-35879 35884	human (Hs)TIF1?
-T1405	Noun_Phrase 35861 35871;	human (Hs)
-35890 35895	human (Hs)TIF1?
+T1404	Noun_Phrase 35861 35871;35879 35884	human (Hs) TIF1?
+T1405	Noun_Phrase 35861 35871;35890 35895	human (Hs) TIF1?
 T1406	Noun_Phrase 35861 35877	human (Hs) TIF1?
 T1407	Noun_Phrase 35868 35870	Hs
 T1408	Noun_Phrase 35897 35902	mouse
 T1409	APPOS_relation 35897 35902	mouse
-T1410	Noun_Phrase 35897 35907;	mouse (Mm)
-35915 35920	mouse (Mm)Tif1?
-T1411	Noun_Phrase 35897 35907;	mouse (Mm)
-35926 35931	mouse (Mm)Tif1?
+T1410	Noun_Phrase 35897 35907;35915 35920	mouse (Mm) Tif1?
+T1411	Noun_Phrase 35897 35907;35926 35931	mouse (Mm) Tif1?
 T1412	Noun_Phrase 35897 35913	mouse (Mm) Tif1?
 T1413	Noun_Phrase 35904 35906	Mm
 T1414	Noun_Phrase 35938 35941	fly
@@ -1483,8 +1428,7 @@ T1426	Noun_Phrase 36133 36136	PHD
 T1427	Noun_Phrase 36142 36153	bromodomain
 T1428	APPOS_relation 36142 36153	bromodomain
 T1429	Noun_Phrase 36155 36160	BROMO
-T1430	Noun_Phrase 36265 36274;	zebrafish
-36285 36290	zebrafishTIF1?
+T1430	Noun_Phrase 36265 36274;36285 36290	zebrafish TIF1?
 T1431	Noun_Phrase 36265 36274	zebrafish
 T1432	Noun_Phrase 36279 36290	human TIF1?
 T1433	Noun_Phrase 36342 36343	D
@@ -1598,17 +1542,14 @@ T1540	Noun_Phrase 39200 39204	DAPI
 T1541	Noun_Phrase 39200 39213	DAPI staining
 T1542	Noun_Phrase 39236 39247	the nucleus
 T1543	Noun_Phrase 39258 39263	Tif1?
-T1544	Noun_Phrase 39293 39297;	HP1?
-39306 39333	HP1?staining of heterochromatin
-T1545	IDENTITY_chain 39293 39297;	HP1?
-39306 39333	HP1?staining of heterochromatin
+T1544	Noun_Phrase 39293 39297;39306 39333	HP1? staining of heterochromatin
+T1545	IDENTITY_chain 39293 39297;39306 39333	HP1? staining of heterochromatin
 T1546	Noun_Phrase 39293 39297	HP1?
 T1547	Noun_Phrase 39301 39305	DAPI
 T1548	Noun_Phrase 39301 39333	DAPI staining of heterochromatin
 T1549	IDENTITY_chain 39301 39333	DAPI staining of heterochromatin
 T1550	Noun_Phrase 39318 39333	heterochromatin
-T1551	Noun_Phrase 39340 39344;	HP1?
-39354 39362	HP1?staining
+T1551	Noun_Phrase 39340 39344;39354 39362	HP1? staining
 T1552	Noun_Phrase 39340 39344	HP1?
 T1553	Noun_Phrase 39349 39353	DAPI
 T1554	Noun_Phrase 39349 39362	DAPI staining
@@ -1637,8 +1578,7 @@ T1576	Noun_Phrase 40215 40222	Table 2
 T1577	IDENTITY_chain 40215 40222	Table 2
 T1578	Noun_Phrase 40224 40230	Marrow
 T1579	Noun_Phrase 40224 40246	Marrow Transplantation
-T1580	Noun_Phrase 40255 40268;	Hematopoiesis
-40286 40300	Hematopoiesisin mon Mutants
+T1580	Noun_Phrase 40255 40268;40286 40300	Hematopoiesis in mon Mutants
 T1581	Noun_Phrase 40289 40292	mon
 T1582	Noun_Phrase 40289 40300	mon Mutants
 T1583	Noun_Phrase 40392 40426	adult gata1:EGFP transgenic donors

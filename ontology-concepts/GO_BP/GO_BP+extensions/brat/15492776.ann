@@ -12,11 +12,8 @@ T10	GO_0007567 1285 1290	birth
 T11	GO_0007567 1299 1304	natal
 T12	GO_0007567 1554 1559	birth
 T13	GO_0030509 1710 1732	BMP receptor signaling
-T14	GO_0009888 1764 1775;	development
-1789 1791;	developmentof
-1801 1808	developmentoftissues
-T15	GO_0009888 1780 1791;	creation of
-1801 1808	creation oftissues
+T14	GO_0009888 1764 1775;1789 1791;1801 1808	development of tissues
+T15	GO_0009888 1780 1791;1801 1808	creation of tissues
 T16	GO_0007567 1872 1877	birth
 T17	GO_0030509 1916 1938	BMP receptor signaling
 T18	GO_0030509 2033 2055	BMP receptor signaling
@@ -41,12 +38,10 @@ T36	GO_PATO_EXT_biological_patterning_process_or_quality 5513 5523	patterning
 T37	GO_0010467 5769 5778	expressed
 T38	GO_0010467 5843 5853	expression
 T39	GO_0010467 6017 6027	expression
-T40	GO_EXT_bone_development_or_ossification 6322 6326;	bone
-6337 6346	boneformation
+T40	GO_EXT_bone_development_or_ossification 6322 6326;6337 6346	bone formation
 T41	GO_EXT_fatality_or_lethality 6509 6518	lethality
 T42	GO_0007369 6536 6548	gastrulation
-T43	GO_EXT_bone_development_or_ossification 6772 6776;	bone
-6787 6796	boneformation
+T43	GO_EXT_bone_development_or_ossification 6772 6776;6787 6796	bone formation
 T44	GO_0010467 7054 7064	expression
 T45	GO_0010467 7185 7192	express
 T46	GO_SO_EXT_sequence_rearrangement_process 7449 7462	recombination
@@ -57,12 +52,10 @@ T50	GO_0010467 7907 7917	expression
 T51	GO_0007567 7957 7962	birth
 T52	GO_0030509 8095 8108	BMP signaling
 T53	GO_0007567 8151 8156	natal
-T54	GO_0030510 8187 8200;	modulation of
-8205 8226	modulation ofBMP signaling pathway
+T54	GO_0030510 8187 8200;8205 8226	modulation of BMP signaling pathway
 T55	GO_0010467 8498 8505	express
 T56	GO_0010467 8579 8588	expressed
-T57	GO_0009790 8643 8652;	embryonic
-8659 8668	embryonicformation
+T57	GO_0009790 8643 8652;8659 8668	embryonic formation
 T58	GO_SO_EXT_sequence_rearrangement_process 8763 8776	recombination
 T59	GO_0006413 8913 8930	translation start
 T60	GO_0010467 9088 9098	expression
@@ -110,9 +103,7 @@ T101	GO_0030509 15057 15070	BMP signaling
 T102	GO_EXT_biological_growth_entity_or_process 15099 15105	growth
 T103	GO_0010467 15251 15258	express
 T104	GO_EXT_biological_growth_entity_or_process 16219 16225	growth
-T105	GO_0051216 16386 16396;	generation
-16412 16414;	generationof
-16425 16434	generationofcartilage
+T105	GO_0051216 16386 16396;16412 16414;16425 16434	generation of cartilage
 T106	GO_EXT_killing 16549 16559	eliminated
 T107	GO_0006915 16563 16572	apoptosis
 T108	GO_0009790 16580 16601	embryonic development
@@ -147,8 +138,7 @@ T136	GO_0010467 20312 20322	expression
 T137	GO_0010467 20437 20447	expression
 T138	GO_0007567 20566 20571	birth
 T139	GO_0010467 20906 20915	expressed
-T140	GO_0008283 21084 21092;	cellular
-21106 21119	cellularproliferation
+T140	GO_0008283 21084 21092;21106 21119	cellular proliferation
 T141	GO_0006915 21084 21102	cellular apoptosis
 T142	GO_0010467 21245 21255	expression
 T143	GO_0010467 21285 21294	expressed
@@ -156,9 +146,7 @@ T144	GO_EXT_transcription 21432 21445	transcription
 T145	GO_0010467 21569 21579	expression
 T146	GO_SO_EXT_sequence_rearrangement_process 21645 21658	recombination
 T147	GO_0010467 21802 21817	gene expression
-T148	GO_0051216 21879 21888;	formation
-21906 21908;	formationof
-21919 21928	formationofcartilage
+T148	GO_0051216 21879 21888;21906 21908;21919 21928	formation of cartilage
 T149	GO_0007567 21945 21950	birth
 T150	GO_0010467 22041 22051	expression
 T151	GO_0010467 22330 22340	expression
@@ -217,14 +205,12 @@ T203	GO_0009790 30911 30924	embryogenesis
 T204	GO_0016265 30976 30981	death
 T205	GO_SO_EXT_sequence_rearrangement_process 31026 31039	recombination
 T206	GO_EXT_fatality_or_lethality 31076 31085	lethality
-T207	GO_0060173 31181 31185;	limb
-31199 31210	limbdevelopment
+T207	GO_0060173 31181 31185;31199 31210	limb development
 T208	GO_0001501 31190 31210	skeletal development
 T209	GO_0007567 31439 31444	birth
 T210	GO_0030509 31526 31539	BMP signaling
 T211	GO_0006915 31560 31569	apoptosis
-T212	GO_0060173 31577 31591;	development of
-31596 31600	development oflimb
+T212	GO_0060173 31577 31591;31596 31600	development of limb
 T213	GO_0030509 31660 31681	BMP signaling pathway
 T214	GO_0030509 31842 31855	BMP signaling
 T215	GO_0006915 31885 31894	apoptosis
@@ -240,10 +226,8 @@ T224	GO_SO_EXT_sequence_rearrangement_process 33194 33207	recombination
 T225	GO_SO_EXT_sequence_rearrangement_process 33223 33236	recombination
 T226	GO_0010467 33259 33274	gene expression
 T227	GO_SO_EXT_sequence_rearrangement_process 33444 33457	recombination
-T228	GO_0006402 33573 33581;	decay of
-33589 33593	decay ofmRNA
-T229	GO_0030163 33573 33581;	decay of
-33598 33605	decay ofprotein
+T228	GO_0006402 33573 33581;33589 33593	decay of mRNA
+T229	GO_0030163 33573 33581;33598 33605	decay of protein
 T230	GO_SO_EXT_sequence_rearrangement_process 33691 33701	recombined
 T231	GO_0010467 33885 33900	gene expression
 T232	GO_0007567 33919 33924	birth
@@ -257,8 +241,7 @@ T239	GO_0010467 34729 34736	express
 T240	GO_EXT_transcription 34751 34764	transcription
 T241	GO_0065007 34772 34782	regulating
 T242	GO_0010467 34783 34793	expression
-T243	GO_0030166 34985 34997;	synthesis of
-35015 35028	synthesis ofproteoglycans
+T243	GO_0030166 34985 34997;35015 35028	synthesis of proteoglycans
 T244	GO_0010467 35115 35125	expression
 T245	GO_EXT_transcription 35182 35195	transcription
 T246	GO_0010467 35219 35228	expressed
@@ -280,11 +263,9 @@ T261	GO_0065007 36879 36888	regulated
 T262	GO_0030509 36892 36905	BMP signaling
 T263	GO_0010467 36995 37005	expression
 T264	GO_EXT_biological_growth_entity_or_process 37040 37046	growth
-T265	GO_0007179 37207 37211;	TGF?
-37228 37237	TGF?signaling
+T265	GO_0007179 37207 37211;37228 37237	TGF? signaling
 T266	GO_0030509 37224 37237	BMP signaling
-T267	GO_0007179 37484 37488;	TGF?
-37497 37506	TGF?signaling
+T267	GO_0007179 37484 37488;37497 37506	TGF? signaling
 T268	GO_0030509 37493 37506	BMP signaling
 T269	GO_EXT_bone_development_or_ossification 37669 37683	bone formation
 T270	GO_0051216 37744 37763	cartilage formation
@@ -306,8 +287,7 @@ T285	GO_EXT_breeding 44819 44827	breeding
 T286	GO_0007618 44886 44891	mated
 T287	GO_0007618 45074 45081	matings
 T288	GO_EXT_biological_movement_or_translocation_process 45651 45657	motion
-T289	GO_0008283 46325 46329;	Cell
-46340 46353	Cellproliferation
+T289	GO_0008283 46325 46329;46340 46353	Cell proliferation
 T290	GO_0008219 46325 46335	Cell death
 T291	GO_0008219 46561 46571	Cell Death
 T292	GO_0007067 46825 46832	Mitosis

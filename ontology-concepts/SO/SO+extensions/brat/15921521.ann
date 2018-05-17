@@ -34,15 +34,12 @@ T32	SO_EXT_0000704 4130 4141	genetically
 T33	SO_EXT_sequence_alteration_process 4142 4149	altered
 T34	SO_EXT_0000704 4184 4189	genes
 T35	SO_EXT_0000704 4293 4300	genetic
-T36	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 4316 4325;	region on
-4332 4342	region onchromosome
+T36	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 4316 4325;4332 4342	region on chromosome
 T37	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 4507 4513	Marker
 T38	SO_EXT_0001024 4514 4524	haplotypes
 T39	SO_EXT_0005858 4532 4547	syntenic region
-T40	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 4541 4550;	region of
-4557 4567	region ofchromosome
-T41	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 4665 4674;	region on
-4681 4685	region onchr.
+T40	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 4541 4550;4557 4567	region of chromosome
+T41	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 4665 4674;4681 4685	region on chr.
 T42	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 4837 4849	loci on chr.
 T43	SO_EXT_0001026 5324 5330	Genome
 T44	SO_EXT_0001023 5336 5342	allele
@@ -161,8 +158,7 @@ T156	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 18787 18794	mark
 T157	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 18909 18916	markers
 T158	SO_EXT_0000704 18939 18944	genes
 T159	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 18995 19002	markers
-T160	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 19171 19181;	regions of
-19192 19203	regions ofchromosomes
+T160	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 19171 19181;19192 19203	regions of chromosomes
 T161	SO_EXT_0000704 19278 19283	genes
 T162	GO_SO_EXT_chromosome 19380 19384	chr.
 T163	GO_SO_EXT_chromosome 19405 19409	chr.
@@ -243,10 +239,8 @@ T237	SO_EXT_0000704 25912 25917	genes
 T238	SO_EXT_0000112 25949 25956	primers
 T239	CHEBI_SO_EXT_mRNA 25995 25999	mRNA
 T240	SO_EXT_0000704 26036 26040	gene
-T241	SO_EXT_0000121 26170 26177;	forward
-26260 26267	forwardprimers
-T242	SO_EXT_0000132 26217 26224;	reverse
-26260 26267	reverseprimers
+T241	SO_EXT_0000121 26170 26177;26260 26267	forward primers
+T242	SO_EXT_0000132 26217 26224;26260 26267	reverse primers
 T243	SO_EXT_0000704 26610 26614	Gene
 T244	SO_EXT_genotype_or_entity_with_genotype 26835 26844	genotypes
 T245	SO_EXT_normal_or_wild_type_or_present 26893 26894	+

@@ -49,10 +49,8 @@ T47	Noun_Phrase 1001 1024	canonical Wnt signaling
 T48	IDENTITY_chain 1064 1081	Pygo1-/-/Pygo2-/-
 T49	Noun_Phrase 1064 1081	Pygo1-/-/Pygo2-/-
 T50	Noun_Phrase 1064 1089	Pygo1-/-/Pygo2-/- mutants
-T51	Noun_Phrase 1147 1150;	The
-1161 1172	ThePygo2 genes
-T52	Noun_Phrase 1147 1156;	The Pygo1
-1167 1172	The Pygo1genes
+T51	Noun_Phrase 1147 1150;1161 1172	The Pygo2 genes
+T52	Noun_Phrase 1147 1156;1167 1172	The Pygo1 genes
 T53	Noun_Phrase 1147 1177	The Pygo1 and Pygo2 genes both
 T54	Noun_Phrase 1210 1231	the developing kidney
 T55	IDENTITY_chain 1210 1231	the developing kidney
@@ -209,10 +207,8 @@ T205	IDENTITY_chain 4488 4499	this report
 T206	Noun_Phrase 4488 4499	this report
 T207	Noun_Phrase 4501 4503	we
 T208	IDENTITY_chain 4501 4503	we
-T209	Noun_Phrase 4514 4535;	targeted mutations of
-4546 4551	targeted mutations ofPygo2
-T210	IDENTITY_chain 4514 4535;	targeted mutations of
-4546 4551	targeted mutations ofPygo2
+T209	Noun_Phrase 4514 4535;4546 4551	targeted mutations of Pygo2
+T210	IDENTITY_chain 4514 4535;4546 4551	targeted mutations of Pygo2
 T211	Noun_Phrase 4514 4541	targeted mutations of Pygo1
 T212	IDENTITY_chain 4514 4541	targeted mutations of Pygo1
 T213	Noun_Phrase 4514 4551	targeted mutations of Pygo1 and Pygo2
@@ -246,14 +242,12 @@ T240	Noun_Phrase 5288 5307	microarray analysis
 T241	Noun_Phrase 5343 5350	mammals
 T242	Noun_Phrase 5359 5369	Drosophila
 T243	Noun_Phrase 5475 5482	Results
-T244	Noun_Phrase 5484 5489;	Pygo1
-5500 5518	Pygo1targeted mutations
+T244	Noun_Phrase 5484 5489;5500 5518	Pygo1 targeted mutations
 T245	Noun_Phrase 5484 5518	Pygo1 and Pygo2 targeted mutations
 T246	Noun_Phrase 5494 5518	Pygo2 targeted mutations
 T247	Noun_Phrase 5520 5522	We
 T248	Noun_Phrase 5532 5562	both the Pygo1 and Pygo2 genes
-T249	Noun_Phrase 5537 5546;	the Pygo1
-5557 5562	the Pygo1genes
+T249	Noun_Phrase 5537 5546;5557 5562	the Pygo1 genes
 T250	Noun_Phrase 5551 5562	Pygo2 genes
 T251	Noun_Phrase 5576 5590	LoxP sequences
 T252	IDENTITY_chain 5576 5590	LoxP sequences
@@ -345,21 +339,15 @@ T337	Noun_Phrase 8189 8200	this report
 T338	Noun_Phrase 8202 8204	we
 T339	Noun_Phrase 8210 8228	immunofluorescence
 T340	IDENTITY_chain 8210 8228	immunofluorescence
-T341	Noun_Phrase 8246 8276;	the expression patterns of the
-8287 8298	the expression patterns of thePygo2 genes
-T342	IDENTITY_chain 8246 8276;	the expression patterns of the
-8287 8298	the expression patterns of thePygo2 genes
-T343	Noun_Phrase 8246 8282;	the expression patterns of the Pygo1
-8293 8298	the expression patterns of the Pygo1genes
-T344	IDENTITY_chain 8246 8282;	the expression patterns of the Pygo1
-8293 8298	the expression patterns of the Pygo1genes
+T341	Noun_Phrase 8246 8276;8287 8298	the expression patterns of the Pygo2 genes
+T342	IDENTITY_chain 8246 8276;8287 8298	the expression patterns of the Pygo2 genes
+T343	Noun_Phrase 8246 8282;8293 8298	the expression patterns of the Pygo1 genes
+T344	IDENTITY_chain 8246 8282;8293 8298	the expression patterns of the Pygo1 genes
 T345	Noun_Phrase 8246 8298	the expression patterns of the Pygo1 and Pygo2 genes
 T346	Noun_Phrase 8250 8260	expression
 T347	IDENTITY_chain 8250 8260	expression
-T348	Noun_Phrase 8273 8276;	the
-8287 8298	thePygo2 genes
-T349	Noun_Phrase 8273 8282;	the Pygo1
-8293 8298	the Pygo1genes
+T348	Noun_Phrase 8273 8276;8287 8298	the Pygo2 genes
+T349	Noun_Phrase 8273 8282;8293 8298	the Pygo1 genes
 T350	Noun_Phrase 8273 8298	the Pygo1 and Pygo2 genes
 T351	Noun_Phrase 8302 8323	the developing kidney
 T352	Noun_Phrase 8325 8335	Both genes
@@ -378,8 +366,7 @@ T364	Noun_Phrase 8693 8708	Pygo1 and Pygo2
 T365	Noun_Phrase 8703 8708	Pygo2
 T366	Noun_Phrase 8752 8770	Immunofluorescence
 T367	Noun_Phrase 8793 8803	expression
-T368	Noun_Phrase 8793 8819;	expression patterns of the
-8830 8835	expression patterns of thePygo2
+T368	Noun_Phrase 8793 8819;8830 8835	expression patterns of the Pygo2
 T369	Noun_Phrase 8793 8825	expression patterns of the Pygo1
 T370	Noun_Phrase 8793 8835	expression patterns of the Pygo1 and Pygo2
 T371	Noun_Phrase 8816 8844	the Pygo1 and Pygo2 proteins
@@ -416,17 +403,13 @@ T401	Noun_Phrase 9538 9568	E18.5 Pygo1/Pygo2 null kidneys
 T402	IDENTITY_chain 9538 9568	E18.5 Pygo1/Pygo2 null kidneys
 T403	Noun_Phrase 9585 9593	Figure 3
 T404	IDENTITY_chain 9585 9593	Figure 3
-T405	Noun_Phrase 9596 9599;	Wt1
-9623 9633	Wt1antibodies
+T405	Noun_Phrase 9596 9599;9623 9633	Wt1 antibodies
 T406	Noun_Phrase 9596 9599	Wt1
-T407	IDENTITY_chain 9596 9599;	Wt1
-9623 9633	Wt1antibodies
+T407	IDENTITY_chain 9596 9599;9623 9633	Wt1 antibodies
 T408	IDENTITY_chain 9596 9599	Wt1
-T409	Noun_Phrase 9610 9616;	Cited1
-9623 9633	Cited1antibodies
+T409	Noun_Phrase 9610 9616;9623 9633	Cited1 antibodies
 T410	Noun_Phrase 9610 9616	Cited1
-T411	IDENTITY_chain 9610 9616;	Cited1
-9623 9633	Cited1antibodies
+T411	IDENTITY_chain 9610 9616;9623 9633	Cited1 antibodies
 T412	IDENTITY_chain 9610 9616	Cited1
 T413	Noun_Phrase 9687 9708	the ureteric bud tips
 T414	Noun_Phrase 9691 9703	ureteric bud
@@ -457,10 +440,8 @@ T438	Noun_Phrase 10186 10187	A
 T439	IDENTITY_chain 10186 10187	A
 T440	Noun_Phrase 10189 10190	C
 T441	IDENTITY_chain 10189 10190	C
-T442	Noun_Phrase 10241 10254;	antibodies to
-10262 10268	antibodies toCited1
-T443	Noun_Phrase 10241 10254;	antibodies to
-10279 10282	antibodies toWt1
+T442	Noun_Phrase 10241 10254;10262 10268	antibodies to Cited1
+T443	Noun_Phrase 10241 10254;10279 10282	antibodies to Wt1
 T444	Noun_Phrase 10256 10257	C
 T445	Noun_Phrase 10259 10260	D
 T446	Noun_Phrase 10262 10268	Cited1
@@ -564,8 +545,7 @@ T543	Noun_Phrase 12750 12755	Wnt9b
 T544	Noun_Phrase 12761 12766	Wnt11
 T545	Noun_Phrase 12770 12809	E18.5 Pygo1/Pygo2 compound null kidneys
 T546	IDENTITY_chain 12770 12809	E18.5 Pygo1/Pygo2 compound null kidneys
-T547	Noun_Phrase 12858 12863;	E18.5
-12892 12924	E18.5Pygo1-/-/Pygo2-/- mutant kidneys
+T547	Noun_Phrase 12858 12863;12892 12924	E18.5 Pygo1-/-/Pygo2-/- mutant kidneys
 T548	Noun_Phrase 12858 12881	E18.5 wild-type kidneys
 T549	IDENTITY_chain 12858 12881	E18.5 wild-type kidneys
 T550	Noun_Phrase 12892 12924	Pygo1-/-/Pygo2-/- mutant kidneys
@@ -574,8 +554,7 @@ T552	Noun_Phrase 12988 12993	Wnt9b
 T553	Noun_Phrase 13006 13011	Wnt11
 T554	Noun_Phrase 13013 13031	The mutant kidneys
 T555	Noun_Phrase 13070 13096	the ureteric stalk markers
-T556	Noun_Phrase 13070 13096;	the ureteric stalk markers
-13107 13112	the ureteric stalk markersWnt9b
+T556	Noun_Phrase 13070 13096;13107 13112	the ureteric stalk markers Wnt9b
 T557	Noun_Phrase 13070 13102	the ureteric stalk markers Wnt7b
 T558	Noun_Phrase 13137 13150	ureteric tips
 T559	IDENTITY_chain 13137 13150	ureteric tips
@@ -587,10 +566,8 @@ T564	Noun_Phrase 13267 13284	BAT-gal transgene
 T565	Noun_Phrase 13297 13320	canonical Wnt signaling
 T566	Noun_Phrase 13357 13360	Wnt
 T567	Noun_Phrase 13374 13389	the mutant mice
-T568	Noun_Phrase 13391 13404;	Both Pygo2-/-
-13433 13446	Both Pygo2-/-E10.5 embryos
-T569	IDENTITY_chain 13391 13404;	Both Pygo2-/-
-13433 13446	Both Pygo2-/-E10.5 embryos
+T568	Noun_Phrase 13391 13404;13433 13446	Both Pygo2-/- E10.5 embryos
+T569	IDENTITY_chain 13391 13404;13433 13446	Both Pygo2-/- E10.5 embryos
 T570	Noun_Phrase 13391 13446	Both Pygo2-/- and Pygo1/Pygo2 double-null E10.5 embryos
 T571	IDENTITY_chain 13391 13446	Both Pygo2-/- and Pygo1/Pygo2 double-null E10.5 embryos
 T572	Noun_Phrase 13409 13446	Pygo1/Pygo2 double-null E10.5 embryos
@@ -634,8 +611,7 @@ T609	Noun_Phrase 14473 14478	Pygo1
 T610	Noun_Phrase 14555 14556	D
 T611	IDENTITY_chain 14555 14556	D
 T612	Noun_Phrase 14558 14608	Double-homozygous mutant Pygo1-/-/Pygo2-/- embryos
-T613	Noun_Phrase 14713 14719;	panels
-14728 14731	panels(B)
+T613	Noun_Phrase 14713 14719;14728 14731	panels (B)
 T614	Noun_Phrase 14713 14723	panels (A)
 T615	Noun_Phrase 14808 14809	C
 T616	Noun_Phrase 14816 14817	D
@@ -653,8 +629,7 @@ T627	Noun_Phrase 15146 15169	canonical Wnt signaling
 T628	Noun_Phrase 15173 15189	the nephric duct
 T629	IDENTITY_chain 15173 15189	the nephric duct
 T630	Noun_Phrase 15191 15248	Both Pygo2 null and Pygo1/Pygo2 double-null E10.5 embryos
-T631	Noun_Phrase 15196 15206;	Pygo2 null
-15235 15248	Pygo2 nullE10.5 embryos
+T631	Noun_Phrase 15196 15206;15235 15248	Pygo2 null E10.5 embryos
 T632	Noun_Phrase 15211 15248	Pygo1/Pygo2 double-null E10.5 embryos
 T633	Noun_Phrase 15270 15289	reporter expression
 T634	Noun_Phrase 15293 15309	the nephric duct
@@ -765,8 +740,7 @@ T738	Noun_Phrase 17408 17409	M
 T739	IDENTITY_chain 17408 17409	M
 T740	Noun_Phrase 17411 17412	N
 T741	IDENTITY_chain 17411 17412	N
-T742	Noun_Phrase 17443 17460;	Pygo1-/-/Pygo2-/-
-17469 17482	Pygo1-/-/Pygo2-/-E18.5 kidneys
+T742	Noun_Phrase 17443 17460;17469 17482	Pygo1-/-/Pygo2-/- E18.5 kidneys
 T743	Noun_Phrase 17500 17501	N
 T744	Noun_Phrase 17518 17534	BAT-gal reporter
 T745	Noun_Phrase 17518 17545	BAT-gal reporter expression
@@ -774,21 +748,15 @@ T746	Noun_Phrase 17562 17575	ureteric tree
 T747	Noun_Phrase 17675 17704	the double-homozygous mutants
 T748	Noun_Phrase 17707 17708	O
 T749	IDENTITY_chain 17707 17708	O
-T750	Noun_Phrase 17736 17753;	Pygo1-/-/Pygo2+/-
-17794 17807	Pygo1-/-/Pygo2+/-E18.5 kidneys
-T751	IDENTITY_chain 17736 17753;	Pygo1-/-/Pygo2+/-
-17794 17807	Pygo1-/-/Pygo2+/-E18.5 kidneys
-T752	Noun_Phrase 17768 17785;	Pygo1-/-/Pygo2-/-
-17794 17807	Pygo1-/-/Pygo2-/-E18.5 kidneys
+T750	Noun_Phrase 17736 17753;17794 17807	Pygo1-/-/Pygo2+/- E18.5 kidneys
+T751	IDENTITY_chain 17736 17753;17794 17807	Pygo1-/-/Pygo2+/- E18.5 kidneys
+T752	Noun_Phrase 17768 17785;17794 17807	Pygo1-/-/Pygo2-/- E18.5 kidneys
 T753	Noun_Phrase 17809 17826	Reporter activity
 T754	Noun_Phrase 17875 17892	Pygo1+/-/Pygo2+/+
-T755	Noun_Phrase 17875 17892;	Pygo1+/-/Pygo2+/+
-17931 17938	Pygo1+/-/Pygo2+/+kidneys
-T756	IDENTITY_chain 17875 17892;	Pygo1+/-/Pygo2+/+
-17931 17938	Pygo1+/-/Pygo2+/+kidneys
+T755	Noun_Phrase 17875 17892;17931 17938	Pygo1+/-/Pygo2+/+ kidneys
+T756	IDENTITY_chain 17875 17892;17931 17938	Pygo1+/-/Pygo2+/+ kidneys
 T757	Noun_Phrase 17904 17921	Pygo1-/-/Pygo2+/-
-T758	Noun_Phrase 17952 17973;	the Pygo1-/-/Pygo2-/-
-17982 17988	the Pygo1-/-/Pygo2-/-kidney
+T758	Noun_Phrase 17952 17973;17982 17988	the Pygo1-/-/Pygo2-/- kidney
 T759	Noun_Phrase 17956 17973	Pygo1-/-/Pygo2-/-
 T760	Noun_Phrase 17990 18012	Original magnification
 T761	Noun_Phrase 18063 18064	M
@@ -809,26 +777,20 @@ T775	Noun_Phrase 18643 18666	canonical Wnt signaling
 T776	Noun_Phrase 18691 18701	Pygo1 gene
 T777	Noun_Phrase 18740 18759	reporter expression
 T778	Noun_Phrase 18798 18828	both the Pygo1 and Pygo2 genes
-T779	Noun_Phrase 18803 18806;	the
-18817 18828	thePygo2 genes
-T780	Noun_Phrase 18803 18812;	the Pygo1
-18823 18828	the Pygo1genes
+T779	Noun_Phrase 18803 18806;18817 18828	the Pygo2 genes
+T780	Noun_Phrase 18803 18812;18823 18828	the Pygo1 genes
 T781	Noun_Phrase 18863 18881	BAT-gal expression
 T782	Noun_Phrase 18887 18906	loss of Pygo2 alone
 T783	IDENTITY_chain 18887 18906	loss of Pygo2 alone
 T784	Noun_Phrase 18895 18906	Pygo2 alone
 T785	Noun_Phrase 18908 18917	Figure 6F
 T786	Noun_Phrase 18919 18920	L
-T787	Noun_Phrase 18924 18927;	The
-18938 18949	ThePygo2 genes
-T788	Noun_Phrase 18924 18933;	The Pygo1
-18944 18949	The Pygo1genes
+T787	Noun_Phrase 18924 18927;18938 18949	The Pygo2 genes
+T788	Noun_Phrase 18924 18933;18944 18949	The Pygo1 genes
 T789	Noun_Phrase 18924 18949	The Pygo1 and Pygo2 genes
 T790	Noun_Phrase 18973 18989	BAT-gal reporter
-T791	Noun_Phrase 18973 19023;	BAT-gal reporter expression in the paramesonephric
-19036 19041	BAT-gal reporter expression in the paramesonephricducts
-T792	Noun_Phrase 19004 19023;	the paramesonephric
-19036 19041	the paramesonephricducts
+T791	Noun_Phrase 18973 19023;19036 19041	BAT-gal reporter expression in the paramesonephric ducts
+T792	Noun_Phrase 19004 19023;19036 19041	the paramesonephric ducts
 T793	Noun_Phrase 19046 19054	Pygo2-/-
 T794	IDENTITY_chain 19046 19054	Pygo2-/-
 T795	Noun_Phrase 19046 19059	Pygo2-/- mice
@@ -838,8 +800,7 @@ T798	Noun_Phrase 19114 19128	data not shown
 T799	Noun_Phrase 19135 19160	double-homozygous mutants
 T800	Noun_Phrase 19194 19219	the paramesonephric ducts
 T801	Noun_Phrase 19221 19230	Figure 6K
-T802	Noun_Phrase 19241 19258;	Pygo1-/-/Pygo2+/-
-19281 19285	Pygo1-/-/Pygo2+/-mice
+T802	Noun_Phrase 19241 19258;19281 19285	Pygo1-/-/Pygo2+/- mice
 T803	Noun_Phrase 19241 19258	Pygo1-/-/Pygo2+/-
 T804	Noun_Phrase 19263 19280	Pygo1+/-/Pygo2+/-
 T805	Noun_Phrase 19310 19328	BAT-gal expression
@@ -864,11 +825,9 @@ T823	Noun_Phrase 19898 19908	Pygo2 null
 T824	Noun_Phrase 19930 19949	control littermates
 T825	Noun_Phrase 19951 19960	Figure 6N
 T826	Noun_Phrase 20009 20018	Figure 6O
-T827	Noun_Phrase 20027 20044;	Pygo1-/-/Pygo2+/-
-20107 20120	Pygo1-/-/Pygo2+/-E18.5 kidneys
+T827	Noun_Phrase 20027 20044;20107 20120	Pygo1-/-/Pygo2+/- E18.5 kidneys
 T828	Noun_Phrase 20046 20055	Figure 6O
-T829	Noun_Phrase 20070 20087;	Pygo1-/-/Pygo2-/-
-20107 20120	Pygo1-/-/Pygo2-/-E18.5 kidneys
+T829	Noun_Phrase 20070 20087;20107 20120	Pygo1-/-/Pygo2-/- E18.5 kidneys
 T830	Noun_Phrase 20089 20098	Figure 6O
 T831	Noun_Phrase 20154 20168	the Pygo2 gene
 T832	Noun_Phrase 20172 20195	canonical Wnt signaling
@@ -905,8 +864,7 @@ T862	Noun_Phrase 21056 21073	Pygo1-/-/Pygo2+/+
 T863	Noun_Phrase 21083 21097	data not shown
 T864	Noun_Phrase 21114 21144	these BAT-gal reporter results
 T865	Noun_Phrase 21120 21136	BAT-gal reporter
-T866	Noun_Phrase 21176 21185;	the Pygo1
-21196 21201	the Pygo1genes
+T866	Noun_Phrase 21176 21185;21196 21201	the Pygo1 genes
 T867	Noun_Phrase 21176 21201	the Pygo1 and Pygo2 genes
 T868	Noun_Phrase 21190 21201	Pygo2 genes
 T869	Noun_Phrase 21205 21228	canonical Wnt signaling
@@ -917,8 +875,7 @@ T873	Noun_Phrase 21320 21336	BAT-gal reporter
 T874	Noun_Phrase 21351 21375	Pygo1/Pygo2 E18.5 kidney
 T875	Noun_Phrase 21386 21423	Transgene-specific beta-galactosidase
 T876	Noun_Phrase 21458 21475	Pygo1+/-/Pygo2+/+
-T877	Noun_Phrase 21458 21475;	Pygo1+/-/Pygo2+/+
-21517 21524	Pygo1+/-/Pygo2+/+kidneys
+T877	Noun_Phrase 21458 21475;21517 21524	Pygo1+/-/Pygo2+/+ kidneys
 T878	Noun_Phrase 21477 21494	Pygo1+/-/Pygo2+/-
 T879	Noun_Phrase 21499 21516	Pygo1+/-/Pygo2+/+
 T880	Noun_Phrase 21554 21572	BAT-gal expression
@@ -969,10 +926,8 @@ T924	Noun_Phrase 23497 23500	Wnt
 T925	Noun_Phrase 23497 23510	Wnt signaling
 T926	Noun_Phrase 23512 23523	microarrays
 T927	Noun_Phrase 23546 23556	expression
-T928	Noun_Phrase 23612 23617;	E18.5
-23632 23657	E18.5Pygo1-/-/Pygo2-/- kidneys
-T929	Noun_Phrase 23612 23627;	E18.5 wild-type
-23650 23657	E18.5 wild-typekidneys
+T928	Noun_Phrase 23612 23617;23632 23657	E18.5 Pygo1-/-/Pygo2-/- kidneys
+T929	Noun_Phrase 23612 23627;23650 23657	E18.5 wild-type kidneys
 T930	Noun_Phrase 23865 23872	Table 3
 T931	IDENTITY_chain 23865 23872	Table 3
 T932	Noun_Phrase 23884 23904	both Pygo1 and Pygo2
@@ -1025,10 +980,8 @@ T978	Noun_Phrase 25498 25500	We
 T979	Noun_Phrase 25587 25623	the Pygo1-/-/Pygo2-/- mutant kidneys
 T980	Noun_Phrase 25635 25652	known Wnt targets
 T981	IDENTITY_chain 25635 25652	known Wnt targets
-T982	Noun_Phrase 25678 25683;	Pygo1
-25694 25699	Pygo1probe
-T983	IDENTITY_chain 25678 25683;	Pygo1
-25694 25699	Pygo1probe
+T982	Noun_Phrase 25678 25683;25694 25699	Pygo1 probe
+T983	IDENTITY_chain 25678 25683;25694 25699	Pygo1 probe
 T984	Noun_Phrase 25678 25683	Pygo1
 T985	Noun_Phrase 25678 25693	Pygo1 and Pygo2
 T986	Noun_Phrase 25678 25699	Pygo1 and Pygo2 probe
@@ -1039,10 +992,8 @@ T990	IDENTITY_chain 25688 25699	Pygo2 probe
 T991	Noun_Phrase 25788 25814	the known Wnt target genes
 T992	IDENTITY_chain 25788 25814	the known Wnt target genes
 T993	Noun_Phrase 25792 25808	known Wnt target
-T994	Noun_Phrase 25865 25874;	wild-type
-25886 25893	wild-typekidneys
-T995	IDENTITY_chain 25865 25874;	wild-type
-25886 25893	wild-typekidneys
+T994	Noun_Phrase 25865 25874;25886 25893	wild-type kidneys
+T995	IDENTITY_chain 25865 25874;25886 25893	wild-type kidneys
 T996	Noun_Phrase 25879 25893	mutant kidneys
 T997	Noun_Phrase 25895 25903	Figure 8
 T998	IDENTITY_chain 25895 25903	Figure 8
@@ -1055,12 +1006,10 @@ T1004	Noun_Phrase 26226 26234	Figure 8
 T1005	Noun_Phrase 26295 26328	the E18.5 Pygo1/Pygo2 null kidney
 T1006	Noun_Phrase 26330 26340	Microarray
 T1007	Noun_Phrase 26330 26349	Microarray analysis
-T1008	Noun_Phrase 26381 26390;	wild-type
-26417 26430	wild-typeE18.5 kidneys
+T1008	Noun_Phrase 26381 26390;26417 26430	wild-type E18.5 kidneys
 T1009	Noun_Phrase 26395 26430	Pygo1/2 compound null E18.5 kidneys
 T1010	Noun_Phrase 26596 26612	expression level
-T1011	Noun_Phrase 26698 26703;	Pygo1
-26714 26720	Pygo1probes
+T1011	Noun_Phrase 26698 26703;26714 26720	Pygo1 probes
 T1012	Noun_Phrase 26698 26703	Pygo1
 T1013	Noun_Phrase 26698 26713	Pygo1 and Pygo2
 T1014	Noun_Phrase 26698 26720	Pygo1 and Pygo2 probes
@@ -1107,13 +1056,9 @@ T1054	Noun_Phrase 27714 27727	Pygo mutation
 T1055	IDENTITY_chain 27714 27727	Pygo mutation
 T1056	Noun_Phrase 27841 27845	Pygo
 T1057	Noun_Phrase 27941 27951	Drosophila
-T1058	Noun_Phrase 27987 27996;	mice with
-28023 28051	mice withdouble Pygo1/Pygo2 mutations
-T1059	Noun_Phrase 27987 28005;	mice with targeted
-28013 28018;	mice with targetedPygo2
-28042 28051	mice with targetedPygo2mutations
-T1060	Noun_Phrase 27987 28011;	mice with targeted Pygo1
-28042 28051	mice with targeted Pygo1mutations
+T1058	Noun_Phrase 27987 27996;28023 28051	mice with double Pygo1/Pygo2 mutations
+T1059	Noun_Phrase 27987 28005;28013 28018;28042 28051	mice with targeted Pygo2 mutations
+T1060	Noun_Phrase 27987 28011;28042 28051	mice with targeted Pygo1 mutations
 T1061	Noun_Phrase 28006 28011	Pygo1
 T1062	Noun_Phrase 28013 28018	Pygo2
 T1063	Noun_Phrase 28067 28072	Pygo2
@@ -1123,10 +1068,8 @@ T1066	Noun_Phrase 28140 28164	Pygo1 homozygous mutants
 T1067	Nonreferential_pronoun 28203 28208	there
 T1068	Noun_Phrase 28255 28284	the double Pygo1/Pygo2 mutant
 T1069	Noun_Phrase 28375 28385	expression
-T1070	Noun_Phrase 28503 28506;	the
-28517 28528	thePygo2 genes
-T1071	Noun_Phrase 28503 28512;	the Pygo1
-28523 28528	the Pygo1genes
+T1070	Noun_Phrase 28503 28506;28517 28528	the Pygo2 genes
+T1071	Noun_Phrase 28503 28512;28523 28528	the Pygo1 genes
 T1072	Noun_Phrase 28503 28528	the Pygo1 and Pygo2 genes
 T1073	Noun_Phrase 28572 28583	this report
 T1074	Noun_Phrase 28636 28646	Drosophila
@@ -1157,8 +1100,7 @@ T1098	Noun_Phrase 29840 29856	the ureteric bud
 T1099	Noun_Phrase 29869 29895	the metanephric mesenchyme
 T1100	Noun_Phrase 29907 29920	nephrogenesis
 T1101	Noun_Phrase 29940 29945	Wnt9b
-T1102	Noun_Phrase 29949 29953;	Wnt4
-29959 30002	Wnt4which is made by the metanephric mesenchyme
+T1102	Noun_Phrase 29949 29953;29959 30002	Wnt4 which is made by the metanephric mesenchyme
 T1103	Noun_Phrase 29976 30002	the metanephric mesenchyme
 T1104	Noun_Phrase 30029 30042	nephrogenesis
 T1105	Noun_Phrase 30061 30066	Wnt11
@@ -1261,8 +1203,7 @@ T1201	Noun_Phrase 33544 33554	Drosophila
 T1202	Noun_Phrase 33556 33593	the genes with expression differences
 T1203	IDENTITY_chain 33556 33593	the genes with expression differences
 T1204	Noun_Phrase 33571 33581	expression
-T1205	Noun_Phrase 33604 33625;	candidate Wnt targets
-33647 33668	candidate Wnt targetsin kidney development
+T1205	Noun_Phrase 33604 33625;33647 33668	candidate Wnt targets in kidney development
 T1206	Noun_Phrase 33650 33656	kidney
 T1207	Noun_Phrase 33650 33668	kidney development
 T1208	Noun_Phrase 33670 33672	We
@@ -1308,8 +1249,7 @@ T1247	Noun_Phrase 35397 35426	these Pygopus redundant genes
 T1248	Noun_Phrase 35475 35480	Pygo1
 T1249	Noun_Phrase 35475 35490	Pygo1 and Pygo2
 T1250	Noun_Phrase 35485 35490	Pygo2
-T1251	Noun_Phrase 35492 35497;	Pygo1
-35508 35513	Pygo1genes
+T1251	Noun_Phrase 35492 35497;35508 35513	Pygo1 genes
 T1252	Noun_Phrase 35492 35513	Pygo1 and Pygo2 genes
 T1253	Noun_Phrase 35502 35513	Pygo2 genes
 T1254	Noun_Phrase 35545 35635	the critical coding regions of the third exon containing the PHD motif with LoxP sequences
@@ -1331,14 +1271,10 @@ T1269	Noun_Phrase 36387 36392	Pygo2
 T1270	Noun_Phrase 36394 36428	the genomic sequences used for PCR
 T1271	Noun_Phrase 36425 36428	PCR
 T1272	Noun_Phrase 36654 36665	RI ES cells
-T1273	Noun_Phrase 36899 36923;	Germline null alleles of
-36929 36934	Germline null alleles ofPygo1
-T1274	IDENTITY_chain 36899 36923;	Germline null alleles of
-36929 36934	Germline null alleles ofPygo1
-T1275	Noun_Phrase 36899 36923;	Germline null alleles of
-36939 36944	Germline null alleles ofPygo2
-T1276	IDENTITY_chain 36899 36923;	Germline null alleles of
-36939 36944	Germline null alleles ofPygo2
+T1273	Noun_Phrase 36899 36923;36929 36934	Germline null alleles of Pygo1
+T1274	IDENTITY_chain 36899 36923;36929 36934	Germline null alleles of Pygo1
+T1275	Noun_Phrase 36899 36923;36939 36944	Germline null alleles of Pygo2
+T1276	IDENTITY_chain 36899 36923;36939 36944	Germline null alleles of Pygo2
 T1277	Noun_Phrase 36924 36944	both Pygo1 and Pygo2
 T1278	Noun_Phrase 36929 36934	Pygo1
 T1279	Noun_Phrase 36939 36944	Pygo2
@@ -1353,8 +1289,7 @@ T1287	Noun_Phrase 37138 37145	reverse
 T1288	APPOS_relation 37138 37145	reverse
 T1289	Noun_Phrase 37147 37148	R
 T1290	Noun_Phrase 37256 37273	Pygo1 null allele
-T1291	Noun_Phrase 37332 37340;	Pygo1 WT
-37351 37357	Pygo1 WTallele
+T1291	Noun_Phrase 37332 37340;37351 37357	Pygo1 WT allele
 T1292	Noun_Phrase 37491 37510	Confocal microscopy
 T1293	Noun_Phrase 37512 37519	Kidneys
 T1294	Noun_Phrase 37602 37625	PBS containing Tween-20
@@ -1389,21 +1324,15 @@ T1322	Noun_Phrase 38937 38942	Wnt7b
 T1323	Noun_Phrase 38979 38984	Wnt9b
 T1324	Noun_Phrase 39011 39021	T. Carroll
 T1325	IDENTITY_chain 39011 39021	T. Carroll
-T1326	Noun_Phrase 39077 39093;	anti-human Pygo2
-39143 39164	anti-human Pygo2polyclonal antibodies
-T1327	APPOS_relation 39077 39093;	anti-human Pygo2
-39143 39164	anti-human Pygo2polyclonal antibodies
-T1328	IDENTITY_chain 39077 39093;	anti-human Pygo2
-39143 39164	anti-human Pygo2polyclonal antibodies
+T1326	Noun_Phrase 39077 39093;39143 39164	anti-human Pygo2 polyclonal antibodies
+T1327	APPOS_relation 39077 39093;39143 39164	anti-human Pygo2 polyclonal antibodies
+T1328	IDENTITY_chain 39077 39093;39143 39164	anti-human Pygo2 polyclonal antibodies
 T1329	Noun_Phrase 39077 39164	anti-human Pygo2 (anti-hPygo2) and anti-mouse Pygo1 (anti-mPygo1) polyclonal antibodies
 T1330	IDENTITY_chain 39077 39164	anti-human Pygo2 (anti-hPygo2) and anti-mouse Pygo1 (anti-mPygo1) polyclonal antibodies
 T1331	Noun_Phrase 39095 39106	anti-hPygo2
-T1332	Noun_Phrase 39112 39128;	anti-mouse Pygo1
-39143 39164	anti-mouse Pygo1polyclonal antibodies
-T1333	APPOS_relation 39112 39128;	anti-mouse Pygo1
-39143 39164	anti-mouse Pygo1polyclonal antibodies
-T1334	IDENTITY_chain 39112 39128;	anti-mouse Pygo1
-39143 39164	anti-mouse Pygo1polyclonal antibodies
+T1332	Noun_Phrase 39112 39128;39143 39164	anti-mouse Pygo1 polyclonal antibodies
+T1333	APPOS_relation 39112 39128;39143 39164	anti-mouse Pygo1 polyclonal antibodies
+T1334	IDENTITY_chain 39112 39128;39143 39164	anti-mouse Pygo1 polyclonal antibodies
 T1335	Noun_Phrase 39130 39141	anti-mPygo1
 T1336	Noun_Phrase 39166 39168	we
 T1337	Noun_Phrase 39187 39190	PCR
@@ -1423,10 +1352,8 @@ T1350	Noun_Phrase 39543 39550	rabbits
 T1351	IDENTITY_chain 39543 39550	rabbits
 T1352	Noun_Phrase 39555 39563	antibody
 T1353	Noun_Phrase 39616 39619	USA
-T1354	Noun_Phrase 39622 39644;	The rabbit antisera of
-39661 39672	The rabbit antisera ofanti-hPygo2
-T1355	IDENTITY_chain 39622 39644;	The rabbit antisera of
-39661 39672	The rabbit antisera ofanti-hPygo2
+T1354	Noun_Phrase 39622 39644;39661 39672	The rabbit antisera of anti-hPygo2
+T1355	IDENTITY_chain 39622 39644;39661 39672	The rabbit antisera of anti-hPygo2
 T1356	Noun_Phrase 39622 39656	The rabbit antisera of anti-mPygo1
 T1357	IDENTITY_chain 39622 39656	The rabbit antisera of anti-mPygo1
 T1358	Noun_Phrase 39622 39672	The rabbit antisera of anti-mPygo1 and anti-hPygo2
@@ -1437,10 +1364,8 @@ T1362	Noun_Phrase 39645 39672	anti-mPygo1 and anti-hPygo2
 T1363	Noun_Phrase 39661 39672	anti-hPygo2
 T1364	Noun_Phrase 39707 39730	the GST affinity matrix
 T1365	IDENTITY_chain 39707 39730	the GST affinity matrix
-T1366	Noun_Phrase 39769 39772;	The
-39789 39809	Theanti-mPygo1 antisera
-T1367	Noun_Phrase 39769 39784;	The anti-hPygo2
-39801 39809	The anti-hPygo2antisera
+T1366	Noun_Phrase 39769 39772;39789 39809	The anti-mPygo1 antisera
+T1367	Noun_Phrase 39769 39784;39801 39809	The anti-hPygo2 antisera
 T1368	Noun_Phrase 39769 39809	The anti-hPygo2 and anti-mPygo1 antisera
 T1369	Noun_Phrase 39835 39858	the GST affinity matrix
 T1370	Noun_Phrase 40014 40022	antibody
@@ -1480,8 +1405,7 @@ T1403	Noun_Phrase 41256 41264	Illumina
 T1404	IDENTITY_chain 41256 41264	Illumina
 T1405	Noun_Phrase 41277 41279	CA
 T1406	Noun_Phrase 41378 41388	Microarray
-T1407	Noun_Phrase 41378 41417;	Microarray analysis of Pygo1/Pygo2 null
-41439 41446	Microarray analysis of Pygo1/Pygo2 nullkidneys
+T1407	Noun_Phrase 41378 41417;41439 41446	Microarray analysis of Pygo1/Pygo2 null kidneys
 T1408	Noun_Phrase 41401 41417	Pygo1/Pygo2 null
 T1409	Noun_Phrase 41422 41446	normal wild-type kidneys
 T1410	Noun_Phrase 41579 41587	Illumina
@@ -1491,8 +1415,7 @@ T1413	Noun_Phrase 41794 41831	Previously described Wnt target genes
 T1414	Noun_Phrase 41854 41870	Quantitative PCR
 T1415	Noun_Phrase 41885 41895	microarray
 T1416	Noun_Phrase 41885 41903	microarray results
-T1417	Noun_Phrase 41920 41942;	E18.5 Pygo1/Pygo2 null
-41955 41962	E18.5 Pygo1/Pygo2 nullkidneys
+T1417	Noun_Phrase 41920 41942;41955 41962	E18.5 Pygo1/Pygo2 null kidneys
 T1418	Noun_Phrase 42012 42023	the kidneys
 T1419	Noun_Phrase 42033 42051	microrray analysis
 T1420	Noun_Phrase 42072 42088	a commercial kit

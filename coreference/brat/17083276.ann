@@ -47,21 +47,15 @@ T45	IDENTITY_chain 749 766	wild-type embryos
 T46	Noun_Phrase 768 783	heterochromatin
 T47	Noun_Phrase 768 791	heterochromatin domains
 T48	IDENTITY_chain 768 791	heterochromatin domains
-T49	Noun_Phrase 828 831;	the
-845 862	theblastocyst stages
-T50	IDENTITY_chain 828 831;	the
-845 862	theblastocyst stages
-T51	Noun_Phrase 828 840;	the two-cell
-856 862	the two-cellstages
-T52	IDENTITY_chain 828 840;	the two-cell
-856 862	the two-cellstages
+T49	Noun_Phrase 828 831;845 862	the blastocyst stages
+T50	IDENTITY_chain 828 831;845 862	the blastocyst stages
+T51	Noun_Phrase 828 840;856 862	the two-cell stages
+T52	IDENTITY_chain 828 840;856 862	the two-cell stages
 T53	Noun_Phrase 828 862	the two-cell and blastocyst stages
 T54	IDENTITY_chain 828 862	the two-cell and blastocyst stages
 T55	Noun_Phrase 935 950	heterochromatin
-T56	Noun_Phrase 1012 1016;	two-
-1025 1053	two-cell stage wild-type embryos
-T57	IDENTITY_chain 1012 1016;	two-
-1025 1053	two-cell stage wild-type embryos
+T56	Noun_Phrase 1012 1016;1025 1053	two- cell stage wild-type embryos
+T57	IDENTITY_chain 1012 1016;1025 1053	two- cell stage wild-type embryos
 T58	Noun_Phrase 1012 1053	two- to four-cell stage wild-type embryos
 T59	IDENTITY_chain 1012 1053	two- to four-cell stage wild-type embryos
 T60	Noun_Phrase 1020 1053	four-cell stage wild-type embryos
@@ -168,10 +162,8 @@ T160	APPOS_relation 4072 4099	chromatin assembly factor 1
 T161	Noun_Phrase 4101 4106	CAF-1
 T162	Noun_Phrase 4128 4132	p150
 T163	IDENTITY_chain 4128 4132	p150
-T164	Noun_Phrase 4171 4178;	histone
-4186 4188	histoneH4
-T165	IDENTITY_chain 4171 4178;	histone
-4186 4188	histoneH4
+T164	Noun_Phrase 4171 4178;4186 4188	histone H4
+T165	IDENTITY_chain 4171 4178;4186 4188	histone H4
 T166	Noun_Phrase 4171 4181	histone H3
 T167	IDENTITY_chain 4171 4181	histone H3
 T168	Noun_Phrase 4234 4245	replication
@@ -270,31 +262,24 @@ T260	IDENTITY_chain 6372 6399	Chaf1a+/? mice intercrosses
 T261	Noun_Phrase 6435 6464	the homozygous mutant embryos
 T262	Noun_Phrase 6488 6498	this stage
 T263	IDENTITY_chain 6488 6498	this stage
-T264	Noun_Phrase 6540 6545;	eight
-6552 6557	eightcells
-T265	IDENTITY_chain 6540 6545;	eight
-6552 6557	eightcells
+T264	Noun_Phrase 6540 6545;6552 6557	eight cells
+T265	IDENTITY_chain 6540 6545;6552 6557	eight cells
 T266	Noun_Phrase 6549 6557	16 cells
 T267	IDENTITY_chain 6549 6557	16 cells
 T268	Noun_Phrase 6561 6573	the E4 stage
 T269	Noun_Phrase 6565 6567	E4
-T270	Noun_Phrase 6608 6617;	wild-type
-6634 6645	wild-typeblastocysts
-T271	IDENTITY_chain 6608 6617;	wild-type
-6634 6645	wild-typeblastocysts
+T270	Noun_Phrase 6608 6617;6634 6645	wild-type blastocysts
+T271	IDENTITY_chain 6608 6617;6634 6645	wild-type blastocysts
 T272	Noun_Phrase 6647 6653	Figure
-T273	Noun_Phrase 6647 6653;	Figure
-6661 6663	Figure1D
-T274	IDENTITY_chain 6647 6653;	Figure
-6661 6663	Figure1D
+T273	Noun_Phrase 6647 6653;6661 6663	Figure 1D
+T274	IDENTITY_chain 6647 6653;6661 6663	Figure 1D
 T275	Noun_Phrase 6647 6656	Figure 1C
 T276	IDENTITY_chain 6647 6656	Figure 1C
 T277	Noun_Phrase 6709 6727	immunofluorescence
 T278	APPOS_relation 6709 6727	immunofluorescence
 T279	IDENTITY_chain 6709 6727	immunofluorescence
 T280	Noun_Phrase 6729 6731	IF
-T281	Noun_Phrase 6755 6764;	wild-type
-6788 6795	wild-typeembryos
+T281	Noun_Phrase 6755 6764;6788 6795	wild-type embryos
 T282	Noun_Phrase 6769 6795	p150CAF-1-depleted embryos
 T283	IDENTITY_chain 6769 6795	p150CAF-1-depleted embryos
 T284	Noun_Phrase 6807 6816	p150CAF-1
@@ -338,10 +323,8 @@ T321	Noun_Phrase 7821 7836	genome function
 T322	Noun_Phrase 7843 7845	we
 T323	Noun_Phrase 7919 7921	we
 T324	Noun_Phrase 7945 7960	heterochromatin
-T325	Noun_Phrase 7982 7985;	the
-7999 8016	theblastocyst stages
-T326	Noun_Phrase 7982 7994;	the two-cell
-8010 8016	the two-cellstages
+T325	Noun_Phrase 7982 7985;7999 8016	the blastocyst stages
+T326	Noun_Phrase 7982 7994;8010 8016	the two-cell stages
 T327	Noun_Phrase 7982 8016	the two-cell and blastocyst stages
 T328	Noun_Phrase 8021 8053	two-cell stage wild-type embryos
 T329	Noun_Phrase 8055 8059	DAPI
@@ -369,10 +352,8 @@ T350	Noun_Phrase 8456 8499	the nuclear organization of heterochromatin
 T351	Noun_Phrase 8484 8499	heterochromatin
 T352	Noun_Phrase 8532 8560	pre-implantation development
 T353	Noun_Phrase 8532 8560	pre-implantation development
-T354	Noun_Phrase 8570 8573;	the
-8587 8604	theblastocyst stages
-T355	Noun_Phrase 8570 8582;	the two-cell
-8598 8604	the two-cellstages
+T354	Noun_Phrase 8570 8573;8587 8604	the blastocyst stages
+T355	Noun_Phrase 8570 8582;8598 8604	the two-cell stages
 T356	Noun_Phrase 8570 8604	the two-cell and blastocyst stages
 T357	Noun_Phrase 8609 8629	Chaf1a?/? E4 embryos
 T358	IDENTITY_chain 8609 8629	Chaf1a?/? E4 embryos
@@ -399,13 +380,11 @@ T378	Noun_Phrase 9033 9042	Figure 1D
 T379	Noun_Phrase 9075 9090	heterochromatin
 T380	Noun_Phrase 9094 9111	Chaf1a?/? embryos
 T381	Noun_Phrase 9134 9149	heterochromatin
-T382	Noun_Phrase 9172 9176;	two-
-9185 9213	two-cell stage wild-type embryos
+T382	Noun_Phrase 9172 9176;9185 9213	two- cell stage wild-type embryos
 T383	Noun_Phrase 9172 9213	two- to four-cell stage wild-type embryos
 T384	Noun_Phrase 9180 9213	four-cell stage wild-type embryos
 T385	Noun_Phrase 9223 9229	Figure
-T386	Noun_Phrase 9223 9229;	Figure
-9237 9239	Figure1F
+T386	Noun_Phrase 9223 9229;9237 9239	Figure 1F
 T387	Noun_Phrase 9223 9232	Figure 1D
 T388	Noun_Phrase 9277 9286	p150CAF-1
 T389	Noun_Phrase 9294 9322	pre-implantation development
@@ -470,10 +449,8 @@ T447	IDENTITY_chain 10464 10468	MEFs
 T448	Noun_Phrase 10524 10540	unpublished data
 T449	Noun_Phrase 10579 10594	heterochromatin
 T450	Noun_Phrase 10579 10602	heterochromatin domains
-T451	Noun_Phrase 10604 10611;	Figures
-10619 10621	FiguresS2
-T452	IDENTITY_chain 10604 10611;	Figures
-10619 10621	FiguresS2
+T451	Noun_Phrase 10604 10611;10619 10621	Figures S2
+T452	IDENTITY_chain 10604 10611;10619 10621	Figures S2
 T453	Noun_Phrase 10604 10611	Figures
 T454	Noun_Phrase 10604 10614	Figures 2C
 T455	IDENTITY_chain 10604 10614	Figures 2C
@@ -490,10 +467,8 @@ T465	Noun_Phrase 10809 10811	We
 T466	Noun_Phrase 10842 10851	p150CAF-1
 T467	Noun_Phrase 10855 10863	ES cells
 T468	Nonreferential_pronoun 10940 10942	it
-T469	Noun_Phrase 10981 10988;	nuclear
-11006 11018	nucleararchitecture
-T470	IDENTITY_chain 10981 10988;	nuclear
-11006 11018	nucleararchitecture
+T469	Noun_Phrase 10981 10988;11006 11018	nuclear architecture
+T470	IDENTITY_chain 10981 10988;11006 11018	nuclear architecture
 T471	Noun_Phrase 10981 11001	nuclear organization
 T472	IDENTITY_chain 10981 11001	nuclear organization
 T473	Noun_Phrase 11020 11022	We
@@ -505,10 +480,8 @@ T478	Noun_Phrase 11060 11082	promyelocytic leukemia
 T479	APPOS_relation 11060 11082	promyelocytic leukemia
 T480	Noun_Phrase 11084 11087	PML
 T481	Noun_Phrase 11199 11201	We
-T482	Noun_Phrase 11307 11314;	control
-11338 11346	controlES cells
-T483	IDENTITY_chain 11307 11314;	control
-11338 11346	controlES cells
+T482	Noun_Phrase 11307 11314;11338 11346	control ES cells
+T483	IDENTITY_chain 11307 11314;11338 11346	control ES cells
 T484	Noun_Phrase 11307 11346	control and p150CAF-1-depleted ES cells
 T485	IDENTITY_chain 11307 11346	control and p150CAF-1-depleted ES cells
 T486	Noun_Phrase 11319 11346	p150CAF-1-depleted ES cells
@@ -595,10 +568,8 @@ T566	Noun_Phrase 12856 12890	fluorescence in situ hybridization
 T567	APPOS_relation 12856 12890	fluorescence in situ hybridization
 T568	Noun_Phrase 12892 12896	FISH
 T569	Noun_Phrase 13002 13007	mouse
-T570	Noun_Phrase 13047 13052;	major
-13063 13080	majorsatellite repeats
-T571	IDENTITY_chain 13047 13052;	major
-13063 13080	majorsatellite repeats
+T570	Noun_Phrase 13047 13052;13063 13080	major satellite repeats
+T571	IDENTITY_chain 13047 13052;13063 13080	major satellite repeats
 T572	Noun_Phrase 13057 13072	minor satellite
 T573	IDENTITY_chain 13057 13072	minor satellite
 T574	Noun_Phrase 13057 13080	minor satellite repeats
@@ -635,10 +606,8 @@ T604	Noun_Phrase 13821 13834	DAPI staining
 T605	Noun_Phrase 13955 13966	the nucleus
 T606	Noun_Phrase 14035 14039	DAPI
 T607	Noun_Phrase 14085 14109	p150CAF-1-depleted cells
-T608	Noun_Phrase 14111 14117;	Figure
-14125 14127	Figure4D
-T609	IDENTITY_chain 14111 14117;	Figure
-14125 14127	Figure4D
+T608	Noun_Phrase 14111 14117;14125 14127	Figure 4D
+T609	IDENTITY_chain 14111 14117;14125 14127	Figure 4D
 T610	Noun_Phrase 14111 14117	Figure
 T611	Noun_Phrase 14111 14120	Figure 4C
 T612	IDENTITY_chain 14111 14120	Figure 4C
@@ -655,27 +624,21 @@ T622	Noun_Phrase 14297 14301	they
 T623	Noun_Phrase 14323 14332	p150CAF-1
 T624	Noun_Phrase 14323 14342	p150CAF-1 depletion
 T625	IDENTITY_chain 14323 14342	p150CAF-1 depletion
-T626	Noun_Phrase 14344 14350;	Figure
-14358 14360	Figure4D
+T626	Noun_Phrase 14344 14350;14358 14360	Figure 4D
 T627	Noun_Phrase 14344 14350	Figure
 T628	Noun_Phrase 14344 14353	Figure 4C
 T629	Noun_Phrase 14344 14360	Figure 4C and 4D
 T630	Noun_Phrase 14402 14411	p150CAF-1
-T631	Noun_Phrase 14428 14438;	the proper
-14456 14505	the properclustering of pericentric heterochromatin domains
-T632	IDENTITY_chain 14428 14438;	the proper
-14456 14505	the properclustering of pericentric heterochromatin domains
-T633	Noun_Phrase 14428 14451;	the proper condensation
-14467 14505	the proper condensationof pericentric heterochromatin domains
-T634	IDENTITY_chain 14428 14451;	the proper condensation
-14470 14505	the proper condensationpericentric heterochromatin domains
+T631	Noun_Phrase 14428 14438;14456 14505	the proper clustering of pericentric heterochromatin domains
+T632	IDENTITY_chain 14428 14438;14456 14505	the proper clustering of pericentric heterochromatin domains
+T633	Noun_Phrase 14428 14451;14467 14505	the proper condensation of pericentric heterochromatin domains
+T634	IDENTITY_chain 14428 14451;14470 14505	the proper condensation pericentric heterochromatin domains
 T635	Noun_Phrase 14470 14497	pericentric heterochromatin
 T636	Noun_Phrase 14470 14505	pericentric heterochromatin domains
 T637	Noun_Phrase 14532 14537	CAF-1
 T638	Noun_Phrase 14541 14571	the deposition of histone H3.1
 T639	Noun_Phrase 14559 14566	histone
-T640	Noun_Phrase 14559 14566;	histone
-14576 14578	histoneH4
+T640	Noun_Phrase 14559 14566;14576 14578	histone H4
 T641	Noun_Phrase 14559 14571	histone H3.1
 T642	Noun_Phrase 14595 14598	DNA
 T643	Noun_Phrase 14595 14608	DNA synthesis
@@ -687,8 +650,7 @@ T648	APPOS_relation 14759 14779	micrococcal nuclease
 T649	IDENTITY_chain 14759 14779	micrococcal nuclease
 T650	Noun_Phrase 14781 14786	MNase
 T651	Noun_Phrase 14796 14798	we
-T652	Noun_Phrase 14852 14859;	control
-14883 14891	controlES cells
+T652	Noun_Phrase 14852 14859;14883 14891	control ES cells
 T653	Noun_Phrase 14852 14891	control and p150CAF-1-depleted ES cells
 T654	Noun_Phrase 14864 14891	p150CAF-1-depleted ES cells
 T655	Noun_Phrase 14936 14955	pericentric repeats
@@ -702,15 +664,13 @@ T662	Noun_Phrase 15034 15044	histone H3
 T663	Noun_Phrase 15050 15059	chromatin
 T664	Noun_Phrase 15063 15149	nuclei isolated from cells transfected with control and p150CAF-1 RNAi plasmid vectors
 T665	IDENTITY_chain 15063 15149	nuclei isolated from cells transfected with control and p150CAF-1 RNAi plasmid vectors
-T666	Noun_Phrase 15107 15114;	control
-15129 15149	controlRNAi plasmid vectors
+T666	Noun_Phrase 15107 15114;15129 15149	control RNAi plasmid vectors
 T667	Noun_Phrase 15119 15149	p150CAF-1 RNAi plasmid vectors
 T668	Noun_Phrase 15151 15157	Nuclei
 T669	Noun_Phrase 15290 15297	histone
 T670	Noun_Phrase 15290 15300	histone H3
 T671	Noun_Phrase 15327 15336	chromatin
-T672	Noun_Phrase 15362 15369;	control
-15393 15401	controlES cells
+T672	Noun_Phrase 15362 15369;15393 15401	control ES cells
 T673	Noun_Phrase 15362 15401	control and p150CAF-1-depleted ES cells
 T674	Noun_Phrase 15374 15401	p150CAF-1-depleted ES cells
 T675	Noun_Phrase 15403 15419	unpublished data
@@ -728,8 +688,7 @@ T686	Noun_Phrase 15721 15723	We
 T687	Noun_Phrase 15813 15840	pericentric heterochromatin
 T688	Noun_Phrase 15842 15844	We
 T689	Noun_Phrase 15886 15909	major satellite repeats
-T690	Noun_Phrase 15954 15961;	control
-15985 15990	controlcells
+T690	Noun_Phrase 15954 15961;15985 15990	control cells
 T691	Noun_Phrase 15954 15990	control and p150CAF-1-depleted cells
 T692	Noun_Phrase 15966 15990	p150CAF-1-depleted cells
 T693	Noun_Phrase 15992 15998	Figure
@@ -766,16 +725,12 @@ T723	IDENTITY_chain 16667 16683	native chromatin
 T724	Noun_Phrase 16690 16692	We
 T725	Noun_Phrase 16779 16787	H4K20me3
 T726	IDENTITY_chain 16779 16787	H4K20me3
-T727	Noun_Phrase 16779 16787;	H4K20me3
-16796 16806	H4K20me3antibodies
-T728	IDENTITY_chain 16779 16787;	H4K20me3
-16796 16806	H4K20me3antibodies
+T727	Noun_Phrase 16779 16787;16796 16806	H4K20me3 antibodies
+T728	IDENTITY_chain 16779 16787;16796 16806	H4K20me3 antibodies
 T729	Noun_Phrase 16817 16826	p150CAF-1
 T730	Noun_Phrase 16817 16836	p150CAF-1 depletion
-T731	Noun_Phrase 16838 16844;	Figure
-16852 16854	Figure7B
-T732	IDENTITY_chain 16838 16844;	Figure
-16852 16854	Figure7B
+T731	Noun_Phrase 16838 16844;16852 16854	Figure 7B
+T732	IDENTITY_chain 16838 16844;16852 16854	Figure 7B
 T733	Noun_Phrase 16838 16844	Figure
 T734	Noun_Phrase 16838 16847	Figure 7A
 T735	IDENTITY_chain 16838 16847	Figure 7A
@@ -803,18 +758,15 @@ T756	Noun_Phrase 17418 17425	H3K9me3
 T757	IDENTITY_chain 17418 17425	H3K9me3
 T758	Noun_Phrase 17470 17494	p150CAF-1-depleted cells
 T759	Noun_Phrase 17527 17535	H4K20me3
-T760	Noun_Phrase 17537 17543;	Figure
-17551 17553	Figure7B
+T760	Noun_Phrase 17537 17543;17551 17553	Figure 7B
 T761	Noun_Phrase 17537 17543	Figure
 T762	Noun_Phrase 17537 17546	Figure 7A
 T763	Noun_Phrase 17537 17553	Figure 7A and 7B
 T764	Noun_Phrase 17585 17593	H4K20me3
 T765	Noun_Phrase 17598 17605	H3K9me3
 T766	Noun_Phrase 17680 17682	IF
-T767	Noun_Phrase 17689 17696;	Figures
-17704 17706	Figures7D
-T768	IDENTITY_chain 17689 17696;	Figures
-17704 17706	Figures7D
+T767	Noun_Phrase 17689 17696;17704 17706	Figures 7D
+T768	IDENTITY_chain 17689 17696;17704 17706	Figures 7D
 T769	Noun_Phrase 17689 17696	Figures
 T770	Noun_Phrase 17689 17699	Figures 7C
 T771	IDENTITY_chain 17689 17699	Figures 7C
@@ -874,10 +826,8 @@ T824	IDENTITY_chain 19147 19161	ES cell nuclei
 T825	Noun_Phrase 19176 19196	nuclear architecture
 T826	Noun_Phrase 19235 19244	p150CAF-1
 T827	Noun_Phrase 19235 19254	p150CAF-1 depletion
-T828	Noun_Phrase 19280 19287;	ES cell
-19306 19311	ES celldeath
-T829	IDENTITY_chain 19280 19287;	ES cell
-19306 19311	ES celldeath
+T828	Noun_Phrase 19280 19287;19306 19311	ES cell death
+T829	IDENTITY_chain 19280 19287;19306 19311	ES cell death
 T830	Noun_Phrase 19280 19287	ES cell
 T831	Noun_Phrase 19319 19377	the major defects observed in heterochromatin organization
 T832	IDENTITY_chain 19319 19377	the major defects observed in heterochromatin organization
@@ -892,8 +842,7 @@ T840	Noun_Phrase 19495 19559	The role of CAF-1 in the nuclear organization of he
 T841	IDENTITY_chain 19495 19559	The role of CAF-1 in the nuclear organization of heterochromatin
 T842	Noun_Phrase 19507 19512	CAF-1
 T843	Noun_Phrase 19516 19559	the nuclear organization of heterochromatin
-T844	Noun_Phrase 19591 19603;	condensation
-19620 19642	condensationof pericentric domains
+T844	Noun_Phrase 19591 19603;19620 19642	condensation of pericentric domains
 T845	Noun_Phrase 19609 19642	clustering of pericentric domains
 T846	Noun_Phrase 19623 19642	pericentric domains
 T847	IDENTITY_chain 19623 19642	pericentric domains
@@ -974,8 +923,7 @@ T921	Noun_Phrase 22561 22570	chromatin
 T922	Noun_Phrase 22622 22650	constitutive heterochromatin
 T923	Nonreferential_pronoun 22723 22725	it
 T924	Noun_Phrase 22820 22835	heterochromatin
-T925	Noun_Phrase 22820 22861;	heterochromatin domains in p150CAF-1 null
-22874 22882	heterochromatin domains in p150CAF-1 nullES cells
+T925	Noun_Phrase 22820 22861;22874 22882	heterochromatin domains in p150CAF-1 null ES cells
 T926	Noun_Phrase 22847 22869	p150CAF-1 null embryos
 T927	Noun_Phrase 22874 22882	ES cells
 T928	Noun_Phrase 22884 22889	CAF-1
@@ -994,10 +942,8 @@ T940	Noun_Phrase 23278 23283	CAF-1
 T941	Noun_Phrase 23334 23337	our
 T942	Noun_Phrase 23407 23489	drastic changes in nuclear organization between the two-cell and blastocyst stages
 T943	IDENTITY_chain 23407 23489	drastic changes in nuclear organization between the two-cell and blastocyst stages
-T944	Noun_Phrase 23455 23458;	the
-23472 23489	theblastocyst stages
-T945	Noun_Phrase 23455 23467;	the two-cell
-23483 23489	the two-cellstages
+T944	Noun_Phrase 23455 23458;23472 23489	the blastocyst stages
+T945	Noun_Phrase 23455 23467;23483 23489	the two-cell stages
 T946	Noun_Phrase 23455 23489	the two-cell and blastocyst stages
 T947	Noun_Phrase 23514 23519	mouse
 T948	Noun_Phrase 23538 23588	nuclear organization of heterochromatin in ES cell
@@ -1049,10 +995,8 @@ T993	Noun_Phrase 25150 25158	ES cells
 T994	Noun_Phrase 25162 25177	electroporation
 T995	IDENTITY_chain 25162 25177	electroporation
 T996	Noun_Phrase 25179 25181	We
-T997	Noun_Phrase 25223 25246;	the mutant Chaf1atm1Ger
-25287 25293	the mutant Chaf1atm1Gerallele
-T998	IDENTITY_chain 25223 25246;	the mutant Chaf1atm1Ger
-25287 25293	the mutant Chaf1atm1Gerallele
+T997	Noun_Phrase 25223 25246;25287 25293	the mutant Chaf1atm1Ger allele
+T998	IDENTITY_chain 25223 25246;25287 25293	the mutant Chaf1atm1Ger allele
 T999	Noun_Phrase 25297 25310	Southern blot
 T1000	IDENTITY_chain 25297 25310	Southern blot
 T1001	Noun_Phrase 25312 25318	Figure
@@ -1070,10 +1014,8 @@ T1012	IDENTITY_chain 25486 25510	nested-PCR amplification
 T1013	Noun_Phrase 25512 25519	Embryos
 T1014	Noun_Phrase 25605 25611	Figure
 T1015	Noun_Phrase 25605 25614	Figure 1A
-T1016	Noun_Phrase 25629 25642;	the wild-type
-25654 25661	the wild-typealleles
-T1017	IDENTITY_chain 25629 25642;	the wild-type
-25654 25661	the wild-typealleles
+T1016	Noun_Phrase 25629 25642;25654 25661	the wild-type alleles
+T1017	IDENTITY_chain 25629 25642;25654 25661	the wild-type alleles
 T1018	Noun_Phrase 25647 25661	mutant alleles
 T1019	Noun_Phrase 25669 25695	30 cycles of amplification
 T1020	IDENTITY_chain 25669 25695	30 cycles of amplification
@@ -1083,8 +1025,7 @@ T1023	Noun_Phrase 25753 25756	PCR
 T1024	Noun_Phrase 25820 25846	30 cycles of amplification
 T1025	Noun_Phrase 25833 25846	amplification
 T1026	Noun_Phrase 25848 25851	PCR
-T1027	Noun_Phrase 25923 25936;	the wild-type
-25971 25978	the wild-typealleles
+T1027	Noun_Phrase 25923 25936;25971 25978	the wild-type alleles
 T1028	Noun_Phrase 25981 25990	P150CAF-1
 T1029	Noun_Phrase 25981 26008	P150CAF-1 depletion by RNAi
 T1030	Noun_Phrase 26004 26008	RNAi
@@ -1155,10 +1096,8 @@ T1094	Noun_Phrase 27778 27796	Immunofluorescence
 T1095	Noun_Phrase 27799 27804	Cells
 T1096	Noun_Phrase 27924 27926	E4
 T1097	Noun_Phrase 28093 28101	ES cells
-T1098	Noun_Phrase 28103 28113;	Antibodies
-28153 28166	Antibodiesanti-H4K20me3
-T1099	Noun_Phrase 28103 28113;	Antibodies
-28282 28290	Antibodiesanti-PML
+T1098	Noun_Phrase 28103 28113;28153 28166	Antibodies anti-H4K20me3
+T1099	Noun_Phrase 28103 28113;28282 28290	Antibodies anti-PML
 T1100	Noun_Phrase 28133 28142	Euromedex
 T1101	IDENTITY_chain 28133 28142	Euromedex
 T1102	Noun_Phrase 28144 28150	France
@@ -1171,10 +1110,8 @@ T1108	Noun_Phrase 28261 28275	DakoCytomation
 T1109	Noun_Phrase 28292 28313	Upstate Biotechnology
 T1110	IDENTITY_chain 28292 28313	Upstate Biotechnology
 T1111	Noun_Phrase 28338 28351	United States
-T1112	Noun_Phrase 28387 28397;	Antibodies
-28427 28439	Antibodiesanti-H3K9me3
-T1113	IDENTITY_chain 28387 28397;	Antibodies
-28427 28439	Antibodiesanti-H3K9me3
+T1112	Noun_Phrase 28387 28397;28427 28439	Antibodies anti-H3K9me3
+T1113	IDENTITY_chain 28387 28397;28427 28439	Antibodies anti-H3K9me3
 T1114	Noun_Phrase 28387 28417	Antibodies anti-mouse p150CAF1
 T1115	IDENTITY_chain 28387 28417	Antibodies anti-mouse p150CAF1
 T1116	Noun_Phrase 28441 28462	Upstate Biotechnology
@@ -1230,8 +1167,7 @@ T1165	Noun_Phrase 29994 30001	DNase I
 T1166	Noun_Phrase 30066 30070	DNAs
 T1167	Noun_Phrase 30210 30217	histone
 T1168	Noun_Phrase 30210 30220	histone H3
-T1169	Noun_Phrase 30239 30246;	control
-30265 30270	controlcells
+T1169	Noun_Phrase 30239 30246;30265 30270	control cells
 T1170	Noun_Phrase 30306 30309	ice
 T1171	Noun_Phrase 30314 30320	30 min
 T1172	Noun_Phrase 30560 30572	Western blot
@@ -1274,10 +1210,8 @@ T1208	Noun_Phrase 31669 31670	A
 T1209	Noun_Phrase 31672 31684	Western blot
 T1210	Noun_Phrase 31723 31730	control
 T1211	APPOS_relation 31723 31730	control
-T1212	Noun_Phrase 31723 31737;	control (cont)
-31758 31778	control (cont)RNAi plasmid vectors
-T1213	IDENTITY_chain 31723 31737;	control (cont)
-31758 31778	control (cont)RNAi plasmid vectors
+T1212	Noun_Phrase 31723 31737;31758 31778	control (cont) RNAi plasmid vectors
+T1213	IDENTITY_chain 31723 31737;31758 31778	control (cont) RNAi plasmid vectors
 T1214	Noun_Phrase 31732 31736	cont
 T1215	Noun_Phrase 31741 31778	p150CAF-1 (p150) RNAi plasmid vectors
 T1216	Noun_Phrase 31752 31756	p150
@@ -1291,26 +1225,17 @@ T1223	Noun_Phrase 31956 31957	B
 T1224	Noun_Phrase 31959 31961	IF
 T1225	Noun_Phrase 31959 31970	IF analysis
 T1226	IDENTITY_chain 31959 31970	IF analysis
-T1227	Noun_Phrase 31972 31997;	ES cells transfected with
-32016 32038	ES cells transfected withp150CAF-1 (p150) siRNA
-T1228	IDENTITY_chain 31972 31997;	ES cells transfected with
-32016 32038	ES cells transfected withp150CAF-1 (p150) siRNA
-T1229	Noun_Phrase 31972 31997;	ES cells transfected with
-32016 32045	ES cells transfected withp150CAF-1 (p150) siRNA vector
-T1230	IDENTITY_chain 31972 31997;	ES cells transfected with
-32016 32045	ES cells transfected withp150CAF-1 (p150) siRNA vector
-T1231	Noun_Phrase 31972 32012;	ES cells transfected with control (cont)
-32033 32038	ES cells transfected with control (cont)siRNA
-T1232	IDENTITY_chain 31972 32012;	ES cells transfected with control (cont)
-32033 32038	ES cells transfected with control (cont)siRNA
-T1233	Noun_Phrase 31972 32012;	ES cells transfected with control (cont)
-32033 32038	ES cells transfected with control (cont)siRNA
+T1227	Noun_Phrase 31972 31997;32016 32038	ES cells transfected with p150CAF-1 (p150) siRNA
+T1228	IDENTITY_chain 31972 31997;32016 32038	ES cells transfected with p150CAF-1 (p150) siRNA
+T1229	Noun_Phrase 31972 31997;32016 32045	ES cells transfected with p150CAF-1 (p150) siRNA vector
+T1230	IDENTITY_chain 31972 31997;32016 32045	ES cells transfected with p150CAF-1 (p150) siRNA vector
+T1231	Noun_Phrase 31972 32012;32033 32038	ES cells transfected with control (cont) siRNA
+T1232	IDENTITY_chain 31972 32012;32033 32038	ES cells transfected with control (cont) siRNA
+T1233	Noun_Phrase 31972 32012;32033 32038	ES cells transfected with control (cont) siRNA
 T1234	Noun_Phrase 31998 32005	control
 T1235	APPOS_relation 31998 32005	control
-T1236	Noun_Phrase 31998 32012;	control (cont)
-32033 32045	control (cont)siRNA vector
-T1237	IDENTITY_chain 31998 32012;	control (cont)
-32033 32045	control (cont)siRNA vector
+T1236	Noun_Phrase 31998 32012;32033 32045	control (cont) siRNA vector
+T1237	IDENTITY_chain 31998 32012;32033 32045	control (cont) siRNA vector
 T1238	Noun_Phrase 32007 32011	cont
 T1239	Noun_Phrase 32016 32038	p150CAF-1 (p150) siRNA
 T1240	Noun_Phrase 32016 32045	p150CAF-1 (p150) siRNA vector
@@ -1349,8 +1274,7 @@ T1272	Noun_Phrase 32827 32831	BrdU
 T1273	Noun_Phrase 32841 32845	MEFs
 T1274	Noun_Phrase 32863 32870	control
 T1275	APPOS_relation 32863 32870	control
-T1276	Noun_Phrase 32863 32877;	control (cont)
-32891 32903	control (cont)RNAi vectors
+T1276	Noun_Phrase 32863 32877;32891 32903	control (cont) RNAi vectors
 T1277	Noun_Phrase 32872 32876	cont
 T1278	Noun_Phrase 32881 32903	p150CAF-1 RNAi vectors
 T1279	Noun_Phrase 32905 32909	MEFs
@@ -1474,15 +1398,13 @@ T1396	Noun_Phrase 35763 35771	material
 T1397	Noun_Phrase 35849 35865	the above embryo
 T1398	Noun_Phrase 35906 35994	the typical heterochromatin foci revealed by DAPI and HP1? staining in wild-type embryos
 T1399	IDENTITY_chain 35906 35994	the typical heterochromatin foci revealed by DAPI and HP1? staining in wild-type embryos
-T1400	Noun_Phrase 35951 35955;	DAPI
-35965 35973	DAPIstaining
+T1400	Noun_Phrase 35951 35955;35965 35973	DAPI staining
 T1401	Noun_Phrase 35951 35955	DAPI
 T1402	Noun_Phrase 35960 35964	HP1?
 T1403	Noun_Phrase 35977 35994	wild-type embryos
 T1404	Noun_Phrase 35996 36006	These foci
 T1405	Noun_Phrase 36026 36043	Chaf1a?/? embryos
-T1406	Noun_Phrase 36045 36049;	DAPI
-36059 36067	DAPIstaining
+T1406	Noun_Phrase 36045 36049;36059 36067	DAPI staining
 T1407	Noun_Phrase 36045 36049	DAPI
 T1408	Noun_Phrase 36054 36058	HP1?
 T1409	Noun_Phrase 36102 36128	p150CAF-1-depleted embryos
@@ -1527,16 +1449,12 @@ T1447	Noun_Phrase 37051 37052	B
 T1448	Noun_Phrase 37095 37122	p150CAF-1-depleted ES cells
 T1449	Noun_Phrase 37143 37152	p150CAF-1
 T1450	Noun_Phrase 37165 37169	HP1?
-T1451	Noun_Phrase 37179 37204;	ES cells transfected with
-37224 37239	ES cells transfected withp150CAF-1 siRNA
-T1452	Noun_Phrase 37179 37219;	ES cells transfected with control (cont)
-37234 37239	ES cells transfected with control (cont)siRNA
+T1451	Noun_Phrase 37179 37204;37224 37239	ES cells transfected with p150CAF-1 siRNA
+T1452	Noun_Phrase 37179 37219;37234 37239	ES cells transfected with control (cont) siRNA
 T1453	Noun_Phrase 37205 37212	control
 T1454	APPOS_relation 37205 37212	control
-T1455	Noun_Phrase 37205 37219;	control (cont)
-37234 37239	control (cont)siRNA
-T1456	IDENTITY_chain 37205 37219;	control (cont)
-37234 37239	control (cont)siRNA
+T1455	Noun_Phrase 37205 37219;37234 37239	control (cont) siRNA
+T1456	IDENTITY_chain 37205 37219;37234 37239	control (cont) siRNA
 T1457	Noun_Phrase 37214 37218	cont
 T1458	Noun_Phrase 37224 37233	p150CAF-1
 T1459	Noun_Phrase 37224 37239	p150CAF-1 siRNA
@@ -1556,8 +1474,7 @@ T1472	Noun_Phrase 37508 37517	p150CAF-1
 T1473	Noun_Phrase 37530 37534	HP1?
 T1474	Noun_Phrase 37566 37573	control
 T1475	APPOS_relation 37566 37573	control
-T1476	Noun_Phrase 37566 37580;	control (cont)
-37594 37599	control (cont)siRNA
+T1476	Noun_Phrase 37566 37580;37594 37599	control (cont) siRNA
 T1477	Noun_Phrase 37575 37579	cont
 T1478	Noun_Phrase 37584 37593	p150CAF-1
 T1479	Noun_Phrase 37584 37599	p150CAF-1 siRNA
@@ -1570,14 +1487,11 @@ T1485	Noun_Phrase 37696 37697	D
 T1486	Noun_Phrase 37699 37702	PML
 T1487	Noun_Phrase 37729 37756	p150CAF-1-depleted ES cells
 T1488	Noun_Phrase 37777 37780	PML
-T1489	Noun_Phrase 37790 37815;	ES cells transfected with
-37834 37849	ES cells transfected withp150CAF-1 siRNA
-T1490	Noun_Phrase 37790 37830;	ES cells transfected with control (cont)
-37844 37849	ES cells transfected with control (cont)siRNA
+T1489	Noun_Phrase 37790 37815;37834 37849	ES cells transfected with p150CAF-1 siRNA
+T1490	Noun_Phrase 37790 37830;37844 37849	ES cells transfected with control (cont) siRNA
 T1491	Noun_Phrase 37816 37823	control
 T1492	APPOS_relation 37816 37823	control
-T1493	Noun_Phrase 37816 37830;	control (cont)
-37844 37849	control (cont)siRNA
+T1493	Noun_Phrase 37816 37830;37844 37849	control (cont) siRNA
 T1494	Noun_Phrase 37825 37829	cont
 T1495	Noun_Phrase 37834 37843	p150CAF-1
 T1496	Noun_Phrase 37834 37849	p150CAF-1 siRNA
@@ -1592,10 +1506,8 @@ T1504	Noun_Phrase 37986 38014	Heterochromatin Organization
 T1505	Noun_Phrase 38061 38069	ES Cells
 T1506	Noun_Phrase 38072 38073	A
 T1507	Noun_Phrase 38075 38083	ES cells
-T1508	Noun_Phrase 38106 38115;	p150CAF-1
-38127 38132	p150CAF-1siRNA
-T1509	Noun_Phrase 38106 38115;	p150CAF-1
-38127 38140	p150CAF-1siRNA vectors
+T1508	Noun_Phrase 38106 38115;38127 38132	p150CAF-1 siRNA
+T1509	Noun_Phrase 38106 38115;38127 38140	p150CAF-1 siRNA vectors
 T1510	Noun_Phrase 38119 38140	control siRNA vectors
 T1511	Noun_Phrase 38148 38151	3 d
 T1512	Noun_Phrase 38158 38167	puromycin
@@ -1607,8 +1519,7 @@ T1517	Noun_Phrase 38253 38255	IF
 T1518	Noun_Phrase 38286 38290	BrdU
 T1519	Noun_Phrase 38286 38304	BrdU incorporation
 T1520	IDENTITY_chain 38286 38304	BrdU incorporation
-T1521	Noun_Phrase 38331 38338;	control
-38362 38367	controlcells
+T1521	Noun_Phrase 38331 38338;38362 38367	control cells
 T1522	Noun_Phrase 38331 38367	control and p150CAF-1-depleted cells
 T1523	Noun_Phrase 38343 38367	p150CAF-1-depleted cells
 T1524	Noun_Phrase 38369 38389	The right-hand image
@@ -1619,8 +1530,7 @@ T1528	Noun_Phrase 38451 38460	Scale bar
 T1529	Noun_Phrase 38472 38473	B
 T1530	Noun_Phrase 38494 38498	PCNA
 T1531	Noun_Phrase 38560 38571	replication
-T1532	Noun_Phrase 38585 38592;	control
-38616 38624	controlES cells
+T1532	Noun_Phrase 38585 38592;38616 38624	control ES cells
 T1533	Noun_Phrase 38585 38624	control and p150CAF-1-depleted ES cells
 T1534	Noun_Phrase 38597 38624	p150CAF-1-depleted ES cells
 T1535	Noun_Phrase 38645 38654	p150CAF-1
@@ -1628,8 +1538,7 @@ T1536	Noun_Phrase 38692 38701	p150CAF-1
 T1537	Noun_Phrase 38706 38710	PCNA
 T1538	Noun_Phrase 38732 38733	C
 T1539	Noun_Phrase 38735 38758	Flow cytometry analysis
-T1540	Noun_Phrase 38799 38806;	control
-38830 38838	controlES cells
+T1540	Noun_Phrase 38799 38806;38830 38838	control ES cells
 T1541	Noun_Phrase 38799 38838	control and p150CAF-1-depleted ES cells
 T1542	Noun_Phrase 38811 38838	p150CAF-1-depleted ES cells
 T1543	Noun_Phrase 38906 38920	the cell cycle
@@ -1644,16 +1553,10 @@ T1551	Noun_Phrase 39257 39302	Decondensation of Pericentric Heterochromatin
 T1552	Noun_Phrase 39257 39310	Decondensation of Pericentric Heterochromatin Domains
 T1553	Noun_Phrase 39275 39302	Pericentric Heterochromatin
 T1554	Noun_Phrase 39275 39310	Pericentric Heterochromatin Domains
-T1555	Noun_Phrase 39328 39339;	pericentric
-39346 39357;	pericentricand centric
-39366 39373	pericentricand centricdomains
-T1556	IDENTITY_chain 39328 39339;	pericentric
-39346 39357;	pericentricand centric
-39366 39373	pericentricand centricdomains
-T1557	Noun_Phrase 39328 39339;	pericentric
-39366 39373	pericentricdomains
-T1558	Noun_Phrase 39350 39357;	centric
-39366 39373	centricdomains
+T1555	Noun_Phrase 39328 39339;39346 39357;39366 39373	pericentric and centric domains
+T1556	IDENTITY_chain 39328 39339;39346 39357;39366 39373	pericentric and centric domains
+T1557	Noun_Phrase 39328 39339;39366 39373	pericentric domains
+T1558	Noun_Phrase 39350 39357;39366 39373	centric domains
 T1559	Noun_Phrase 39415 39429	mouse ES cells
 T1560	Noun_Phrase 39433 39436	DNA
 T1561	Noun_Phrase 39433 39441	DNA FISH
@@ -1703,18 +1606,12 @@ T1604	Noun_Phrase 40896 40904	Figure 5
 T1605	Noun_Phrase 40906 40930	Nucleosomal Organization
 T1606	Noun_Phrase 40949 40976	p150CAF-1-Depleted ES Cells
 T1607	Noun_Phrase 40978 40984	Nuclei
-T1608	Noun_Phrase 41004 41029;	ES cells transfected with
-41041 41056	ES cells transfected withp150CAF-1 siRNA
-T1609	Noun_Phrase 41004 41029;	ES cells transfected with
-41041 41063	ES cells transfected withp150CAF-1 siRNA vector
-T1610	Noun_Phrase 41004 41037;	ES cells transfected with control
-41051 41056	ES cells transfected with controlsiRNA
-T1611	Noun_Phrase 41004 41037;	ES cells transfected with control
-41051 41063	ES cells transfected with controlsiRNA vector
-T1612	Noun_Phrase 41030 41037;	control
-41051 41056	controlsiRNA
-T1613	Noun_Phrase 41030 41037;	control
-41051 41063	controlsiRNA vector
+T1608	Noun_Phrase 41004 41029;41041 41056	ES cells transfected with p150CAF-1 siRNA
+T1609	Noun_Phrase 41004 41029;41041 41063	ES cells transfected with p150CAF-1 siRNA vector
+T1610	Noun_Phrase 41004 41037;41051 41056	ES cells transfected with control siRNA
+T1611	Noun_Phrase 41004 41037;41051 41063	ES cells transfected with control siRNA vector
+T1612	Noun_Phrase 41030 41037;41051 41056	control siRNA
+T1613	Noun_Phrase 41030 41037;41051 41063	control siRNA vector
 T1614	Noun_Phrase 41041 41056	p150CAF-1 siRNA
 T1615	Noun_Phrase 41041 41063	p150CAF-1 siRNA vector
 T1616	Noun_Phrase 41065 41071	Nuclei
@@ -1731,8 +1628,7 @@ T1626	Noun_Phrase 41438 41446	Figure 6
 T1627	Noun_Phrase 41471 41498	Pericentric Heterochromatin
 T1628	Noun_Phrase 41517 41544	p150CAF-1-Depleted ES Cells
 T1629	Noun_Phrase 41546 41555	Total DNA
-T1630	Noun_Phrase 41599 41606;	control
-41624 41629	controlsiRNA
+T1630	Noun_Phrase 41599 41606;41624 41629	control siRNA
 T1631	Noun_Phrase 41610 41636	the p150CAF-1 siRNA vector
 T1632	Noun_Phrase 41614 41629	p150CAF-1 siRNA
 T1633	Noun_Phrase 41703 41726	major satellite repeats
@@ -1772,8 +1668,7 @@ T1666	Noun_Phrase 42992 42993	C
 T1667	Noun_Phrase 43003 43011	H4K20me3
 T1668	Noun_Phrase 43013 43014	D
 T1669	Noun_Phrase 43028 43032	HP1?
-T1670	Noun_Phrase 43042 43049;	control
-43081 43089	controlES cells
+T1670	Noun_Phrase 43042 43049;43081 43089	control ES cells
 T1671	Noun_Phrase 43102 43106	HP1?
 T1672	Noun_Phrase 43112 43119	H3K9me3
 T1673	Noun_Phrase 43121 43122	C

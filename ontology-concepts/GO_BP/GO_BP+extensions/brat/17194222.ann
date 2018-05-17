@@ -30,12 +30,9 @@ T28	GO_0001708 3458 3481	cell type specification
 T29	GO_RO_EXT_developmental_differentiation_process 3487 3502	differentiation
 T30	GO_0060173 3575 3591	limb development
 T31	GO_0030509 3601 3614	BMP signaling
-T32	GO_0009948 3642 3658;	establishment of
-3663 3681;	establishment ofanterior-posterior
-3687 3691	establishment ofanterior-posterioraxis
+T32	GO_0009948 3642 3658;3663 3681;3687 3691	establishment of anterior-posterior axis
 T33	GO_EXT_reaction_or_response 3762 3770	response
-T34	GO_0007224 3780 3787;	Hedghog
-3794 3803	Hedghogsignaling
+T34	GO_0007224 3780 3787;3794 3803	Hedghog signaling
 T35	GO_EXT_reaction_or_response 3914 3922	response
 T36	GO_0010467 4140 4149	expressed
 T37	GO_0010467 4279 4289	expression
@@ -61,17 +58,14 @@ T56	GO_EXT_biological_direction_or_guidance 6659 6668	directing
 T57	GO_EXT_regulator 6964 6973	regulator
 T58	GO_PATO_EXT_biological_patterning_process_or_quality 7279 7289	patterning
 T59	GO_PATO_EXT_apoptotic_process_or_quality 7351 7360	apoptotic
-T60	GO_0016271 7361 7369;	death of
-7387 7393	death oftissue
+T60	GO_0016271 7361 7369;7387 7393	death of tissue
 T61	GO_0030509 7465 7478	BMP signaling
 T62	GO_PATO_EXT_biological_patterning_process_or_quality 7605 7615	patterning
 T63	GO_0090269 7707 7742	fibroblast growth factor production
 T64	GO_EXT_positive_regulation 7817 7829	upregulation
 T65	GO_EXT_negative_regulation 7921 7935	downregulating
-T66	GO_0090269 7936 7960;	fibroblast growth factor
-7967 7977	fibroblast growth factorproduction
-T67	GO_0090269 7962 7965;	FGF
-7967 7977	FGFproduction
+T66	GO_0090269 7936 7960;7967 7977	fibroblast growth factor production
+T67	GO_0090269 7962 7965;7967 7977	FGF production
 T68	GO_0008543 8049 8062	FGF signaling
 T69	GO_EXT_cell_communication_or_signaling_or_signal_transduction 8265 8274	signaling
 T70	GO_0060173 8352 8368	limb development
@@ -142,8 +136,7 @@ T134	GO_0006915 18410 18419	apoptosis
 T135	GO_0006915 18714 18723	apoptosis
 T136	GO_0010467 19233 19243	expression
 T137	GO_0006915 19384 19393	apoptosis
-T138	GO_0006915 19791 19803;	apoptosis in
-19808 19813	apoptosis incells
+T138	GO_0006915 19791 19803;19808 19813	apoptosis in cells
 T139	GO_PATO_EXT_biological_patterning_process_or_quality 19912 19922	Patterning
 T140	GO_0030509 19973 19986	BMP Signaling
 T141	GO_0030509 19988 20001	BMP signaling
@@ -151,8 +144,7 @@ T142	GO_PATO_EXT_biological_patterning_process_or_quality 20059 20069	patterning
 T143	GO_EXT_cell_communication_or_signaling_or_signal_transduction 20207 20216	signaling
 T144	GO_PATO_EXT_biological_patterning_process_or_quality 20404 20414	patterning
 T145	GO_EXT_reaction_or_response 20541 20549	response
-T146	GO_0010628 20673 20688;	upregulation of
-20694 20704	upregulation ofexpression
+T146	GO_0010628 20673 20688;20694 20704	upregulation of expression
 T147	GO_PATO_EXT_biological_patterning_process_or_quality 21284 21294	patterning
 T148	GO_0030509 21600 21613	BMP signaling
 T149	GO_PATO_EXT_biological_patterning_process_or_quality 22210 22220	patterning

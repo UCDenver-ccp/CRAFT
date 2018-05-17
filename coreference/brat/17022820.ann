@@ -44,10 +44,8 @@ T42	Noun_Phrase 638 653	A/J chromosomes
 T43	IDENTITY_chain 638 653	A/J chromosomes
 T44	Noun_Phrase 661 669	C57BL/6J
 T45	Noun_Phrase 692 695	A/J
-T46	Noun_Phrase 692 695;	A/J
-709 713	A/Jmice
-T47	IDENTITY_chain 692 695;	A/J
-709 713	A/Jmice
+T46	Noun_Phrase 692 695;709 713	A/J mice
+T47	IDENTITY_chain 692 695;709 713	A/J mice
 T48	Noun_Phrase 692 713	A/J and C57Bl/6J mice
 T49	IDENTITY_chain 692 713	A/J and C57Bl/6J mice
 T50	Noun_Phrase 700 708	C57Bl/6J
@@ -67,10 +65,8 @@ T63	IDENTITY_chain 881 886	blood
 T64	Noun_Phrase 881 891	blood flow
 T65	IDENTITY_chain 881 891	blood flow
 T66	Noun_Phrase 907 917	the vessel
-T67	Noun_Phrase 928 936;	Bleeding
-952 957	Bleedingtimes
-T68	IDENTITY_chain 928 936;	Bleeding
-952 957	Bleedingtimes
+T67	Noun_Phrase 928 936;952 957	Bleeding times
+T68	IDENTITY_chain 928 936;952 957	Bleeding times
 T69	Noun_Phrase 941 951	rebleeding
 T70	Noun_Phrase 941 957	rebleeding times
 T71	IDENTITY_chain 941 957	rebleeding times
@@ -111,8 +107,7 @@ T105	Noun_Phrase 1479 1483	tail
 T106	Noun_Phrase 1479 1494	tail morphology
 T107	IDENTITY_chain 1479 1494	tail morphology
 T108	Noun_Phrase 1549 1552	A/J
-T109	Noun_Phrase 1549 1552;	A/J
-1567 1571	A/Jmice
+T109	Noun_Phrase 1549 1552;1567 1571	A/J mice
 T110	Noun_Phrase 1558 1566	C57BL/6J
 T111	Noun_Phrase 1558 1571	C57BL/6J mice
 T112	Noun_Phrase 1573 1610	Three chromosome substitution strains
@@ -129,10 +124,8 @@ T122	APPOS_relation 1675 1700	increased rebleeding time
 T123	Noun_Phrase 1702 1733	a phenotype similar to A/J mice
 T124	Noun_Phrase 1725 1728	A/J
 T125	Noun_Phrase 1725 1733	A/J mice
-T126	Noun_Phrase 1756 1767;	chromosomes
-1773 1775	chromosomes17
-T127	IDENTITY_chain 1756 1767;	chromosomes
-1773 1775	chromosomes17
+T126	Noun_Phrase 1756 1767;1773 1775	chromosomes 17
+T127	IDENTITY_chain 1756 1767;1773 1775	chromosomes 17
 T128	Noun_Phrase 1756 1769	chromosomes 5
 T129	IDENTITY_chain 1756 1769	chromosomes 5
 T130	Noun_Phrase 1780 1790	rebleeding
@@ -255,14 +248,10 @@ T246	Noun_Phrase 5105 5106	S
 T247	Noun_Phrase 5108 5119	susceptible
 T248	Noun_Phrase 5166 5171	Lepob
 T249	IDENTITY_chain 5166 5171	Lepob
-T250	Noun_Phrase 5166 5171;	Lepob
-5195 5199	Lepobmice
-T251	IDENTITY_chain 5166 5171;	Lepob
-5195 5199	Lepobmice
-T252	Noun_Phrase 5173 5179;	Plg-/-
-5195 5199	Plg-/-mice
-T253	IDENTITY_chain 5173 5179;	Plg-/-
-5195 5199	Plg-/-mice
+T250	Noun_Phrase 5166 5171;5195 5199	Lepob mice
+T251	IDENTITY_chain 5166 5171;5195 5199	Lepob mice
+T252	Noun_Phrase 5173 5179;5195 5199	Plg-/- mice
+T253	IDENTITY_chain 5173 5179;5195 5199	Plg-/- mice
 T254	Noun_Phrase 5173 5179	Plg-/-
 T255	Noun_Phrase 5208 5223	a B6 background
 T256	IDENTITY_chain 5208 5223	a B6 background
@@ -308,8 +297,7 @@ T295	IDENTITY_chain 6440 6465	The results of this study
 T296	Noun_Phrase 6455 6465	this study
 T297	Noun_Phrase 6480 6502	the two inbred strains
 T298	Noun_Phrase 6504 6506	B6
-T299	Noun_Phrase 6504 6506;	B6
-6515 6519	B6mice
+T299	Noun_Phrase 6504 6506;6515 6519	B6 mice
 T300	Noun_Phrase 6504 6519	B6 and A/J mice
 T301	APPOS_relation 6504 6519	B6 and A/J mice
 T302	Noun_Phrase 6511 6514	A/J
@@ -329,11 +317,9 @@ T315	Noun_Phrase 6795 6798	A/J
 T316	Nonreferential_pronoun 6810 6812	it
 T317	Noun_Phrase 6949 6953	Mice
 T318	Noun_Phrase 6975 6977	B6
-T319	Noun_Phrase 6975 6977;	B6
-7086 7090	B6mice
+T319	Noun_Phrase 6975 6977;7086 7090	B6 mice
 T320	Noun_Phrase 6989 6994	Lepob
-T321	Noun_Phrase 6989 6994;	Lepob
-7086 7090	Lepobmice
+T321	Noun_Phrase 6989 6994;7086 7090	Lepob mice
 T322	Noun_Phrase 7006 7009	A/J
 T323	Noun_Phrase 7024 7090	gene-targeted plasminogen (Plg) activator inhibitor deficient mice
 T324	APPOS_relation 7024 7090	gene-targeted plasminogen (Plg) activator inhibitor deficient mice
@@ -408,8 +394,7 @@ T392	Noun_Phrase 9176 9193	Transonic Systems
 T393	Nonreferential_pronoun 9209 9214	There
 T394	Noun_Phrase 9283 9308	the vascular injury model
 T395	Noun_Phrase 9287 9302	vascular injury
-T396	Noun_Phrase 9311 9319;	Bleeding
-9335 9340	Bleedingassay
+T396	Noun_Phrase 9311 9319;9335 9340	Bleeding assay
 T397	Noun_Phrase 9324 9334	rebleeding
 T398	Noun_Phrase 9346 9369	the tail bleeding assay
 T399	Noun_Phrase 9371 9375	mice
@@ -490,8 +475,7 @@ T473	Noun_Phrase 11310 11314	tail
 T474	Noun_Phrase 11472 11487	injured carotid
 T475	IDENTITY_chain 11641 11644	SEM
 T476	Noun_Phrase 11641 11644	SEM
-T477	Noun_Phrase 11695 11698;	A/J
-11706 11710	A/Jmice
+T477	Noun_Phrase 11695 11698;11706 11710	A/J mice
 T478	Noun_Phrase 11695 11698	A/J
 T479	Noun_Phrase 11695 11705	A/J and B6
 T480	Noun_Phrase 11695 11710	A/J and B6 mice
@@ -499,10 +483,8 @@ T481	Noun_Phrase 11703 11705	B6
 T482	Noun_Phrase 11703 11710	B6 mice
 T483	Noun_Phrase 11723 11732	wild-type
 T484	APPOS_relation 11723 11732	wild-type
-T485	Noun_Phrase 11723 11737;	wild-type (WT)
-11749 11760	wild-type (WT)littermates
-T486	IDENTITY_chain 11723 11737;	wild-type (WT)
-11749 11760	wild-type (WT)littermates
+T485	Noun_Phrase 11723 11737;11749 11760	wild-type (WT) littermates
+T486	IDENTITY_chain 11723 11737;11749 11760	wild-type (WT) littermates
 T487	Noun_Phrase 11723 11760	wild-type (WT) and Plg-/- littermates
 T488	IDENTITY_chain 11723 11760	wild-type (WT) and Plg-/- littermates
 T489	Noun_Phrase 11734 11736	WT
@@ -512,11 +494,9 @@ T492	IDENTITY_chain 11742 11760	Plg-/- littermates
 T493	Noun_Phrase 11779 11798	a two-tailed t-test
 T494	IDENTITY_chain 11779 11798	a two-tailed t-test
 T495	Noun_Phrase 11818 11820	B6
-T496	Noun_Phrase 11818 11820;	B6
-11838 11842	B6mice
+T496	Noun_Phrase 11818 11820;11838 11842	B6 mice
 T497	Noun_Phrase 11822 11827	Lepob
-T498	Noun_Phrase 11822 11827;	Lepob
-11838 11842	Lepobmice
+T498	Noun_Phrase 11822 11827;11838 11842	Lepob mice
 T499	Noun_Phrase 11829 11842	PAI-1-/- mice
 T500	Noun_Phrase 12005 12007	B6
 T501	Noun_Phrase 12005 12012	B6 mice
@@ -524,8 +504,7 @@ T502	Noun_Phrase 12017 12020	CSS
 T503	Noun_Phrase 12042 12058	two-tail t-tests
 T504	Noun_Phrase 12208 12215	Results
 T505	Noun_Phrase 12270 12272	B6
-T506	Noun_Phrase 12270 12272;	B6
-12281 12285	B6mice
+T506	Noun_Phrase 12270 12272;12281 12285	B6 mice
 T507	Noun_Phrase 12270 12280	B6 and A/J
 T508	Noun_Phrase 12270 12285	B6 and A/J mice
 T509	Noun_Phrase 12277 12280	A/J
@@ -534,12 +513,10 @@ T511	Noun_Phrase 12287 12324	The FeCl3 cartoid artery injury model
 T512	APPOS_relation 12287 12324	The FeCl3 cartoid artery injury model
 T513	Noun_Phrase 12331 12377	a well-characterized arterial thrombosis model
 T514	Noun_Phrase 12427 12429	B6
-T515	Noun_Phrase 12427 12429;	B6
-12438 12443	B6mouse
+T515	Noun_Phrase 12427 12429;12438 12443	B6 mouse
 T516	Noun_Phrase 12427 12443	B6 and A/J mouse
 T517	Noun_Phrase 12434 12443	A/J mouse
-T518	Noun_Phrase 12547 12553;	the B6
-12566 12570	the B6mice
+T518	Noun_Phrase 12547 12553;12566 12570	the B6 mice
 T519	Noun_Phrase 12547 12570	the B6 and the A/J mice
 T520	Noun_Phrase 12551 12553	B6
 T521	Noun_Phrase 12551 12565	B6 and the A/J
@@ -553,8 +530,7 @@ T528	Noun_Phrase 12610 12613	A/J
 T529	Noun_Phrase 12644 12655	the B6 mice
 T530	Noun_Phrase 12648 12650	B6
 T531	Noun_Phrase 12670 12675	FeCl3
-T532	Noun_Phrase 12690 12697;	the A/J
-12705 12709	the A/Jmice
+T532	Noun_Phrase 12690 12697;12705 12709	the A/J mice
 T533	Noun_Phrase 12690 12709	the A/J and B6 mice
 T534	Noun_Phrase 12694 12697	A/J
 T535	Noun_Phrase 12694 12704	A/J and B6
@@ -562,8 +538,7 @@ T536	Noun_Phrase 12702 12704	B6
 T537	Noun_Phrase 12702 12709	B6 mice
 T538	Noun_Phrase 12714 12732	the occlusion time
 T539	Noun_Phrase 12718 12727	occlusion
-T540	Noun_Phrase 12746 12753;	the A/J
-12766 12770	the A/Jmice
+T540	Noun_Phrase 12746 12753;12766 12770	the A/J mice
 T541	Noun_Phrase 12750 12753	A/J
 T542	Noun_Phrase 12750 12765	A/J than the B6
 T543	Noun_Phrase 12759 12770	the B6 mice
@@ -604,16 +579,13 @@ T577	Noun_Phrase 13720 13722	B6
 T578	Noun_Phrase 13720 13727	B6 mice
 T579	Noun_Phrase 13740 13758	Arterial occlusion
 T580	Noun_Phrase 13767 13769	B6
-T581	Noun_Phrase 13767 13769;	B6
-13778 13782	B6mice
+T581	Noun_Phrase 13767 13769;13778 13782	B6 mice
 T582	Noun_Phrase 13767 13777	B6 and A/J
 T583	Noun_Phrase 13767 13782	B6 and A/J mice
 T584	Noun_Phrase 13774 13777	A/J
 T585	Noun_Phrase 13774 13782	A/J mice
-T586	Noun_Phrase 13784 13790;	Panels
-13797 13798	PanelsB
-T587	IDENTITY_chain 13784 13790;	Panels
-13797 13798	PanelsB
+T586	Noun_Phrase 13784 13790;13797 13798	Panels B
+T587	IDENTITY_chain 13784 13790;13797 13798	Panels B
 T588	Noun_Phrase 13784 13792	Panels A
 T589	IDENTITY_chain 13784 13792	Panels A
 T590	Noun_Phrase 13887 13902	ferric chloride
@@ -634,8 +606,7 @@ T604	Noun_Phrase 14104 14111	B6 mice
 T605	Noun_Phrase 14161 14171	rebleeding
 T606	Noun_Phrase 14161 14176	rebleeding time
 T607	Noun_Phrase 14180 14182	B6
-T608	Noun_Phrase 14180 14182;	B6
-14191 14195	B6mice
+T608	Noun_Phrase 14180 14182;14191 14195	B6 mice
 T609	Noun_Phrase 14180 14190	B6 and A/J
 T610	Noun_Phrase 14180 14195	B6 and A/J mice
 T611	Noun_Phrase 14187 14190	A/J
@@ -663,8 +634,7 @@ T632	Noun_Phrase 14705 14715	hemostasis
 T633	Noun_Phrase 14717 14722	Lepob
 T634	Noun_Phrase 14717 14727	Lepob mice
 T635	Noun_Phrase 14732 14742	thrombosis
-T636	Noun_Phrase 14744 14750;	Plg-/-
-14762 14766	Plg-/-mice
+T636	Noun_Phrase 14744 14750;14762 14766	Plg-/- mice
 T637	Noun_Phrase 14744 14750	Plg-/-
 T638	Noun_Phrase 14755 14766	PAI-/- mice
 T639	Noun_Phrase 14786 14800	The Lepob mice
@@ -692,8 +662,7 @@ T660	Noun_Phrase 15210 15215	Lepob
 T661	Noun_Phrase 15268 15281	bleeding time
 T662	Nonreferential_pronoun 15283 15288	there
 T663	Noun_Phrase 15336 15338	B6
-T664	Noun_Phrase 15336 15338;	B6
-15347 15351	B6mice
+T664	Noun_Phrase 15336 15338;15347 15351	B6 mice
 T665	Noun_Phrase 15336 15346	B6 and A/J
 T666	Noun_Phrase 15336 15351	B6 and A/J mice
 T667	Noun_Phrase 15343 15346	A/J
@@ -702,14 +671,11 @@ T669	Noun_Phrase 15366 15386	platelet aggregation
 T670	Noun_Phrase 15405 15422	these two strains
 T671	Noun_Phrase 15448 15458	rebleeding
 T672	Noun_Phrase 15467 15469	B6
-T673	Noun_Phrase 15467 15469;	B6
-15503 15507	B6mice
+T673	Noun_Phrase 15467 15469;15503 15507	B6 mice
 T674	Noun_Phrase 15471 15474	A/J
 T675	Noun_Phrase 15476 15481	Lepob
-T676	Noun_Phrase 15476 15481;	Lepob
-15503 15507	Lepobmice
-T677	Noun_Phrase 15483 15489;	Plg-/-
-15503 15507	Plg-/-mice
+T676	Noun_Phrase 15476 15481;15503 15507	Lepob mice
+T677	Noun_Phrase 15483 15489;15503 15507	Plg-/- mice
 T678	Noun_Phrase 15483 15489	Plg-/-
 T679	Noun_Phrase 15494 15507	PAI-1-/- mice
 T680	Noun_Phrase 15521 15534	Bleeding time
@@ -722,8 +688,7 @@ T686	Noun_Phrase 15626 15640	values from B6
 T687	Noun_Phrase 15638 15640	B6
 T688	Noun_Phrase 15638 15648	B6 and A/J
 T689	Noun_Phrase 15645 15648	A/J
-T690	Noun_Phrase 15658 15660;	WT
-15672 15683	WTlittermates
+T690	Noun_Phrase 15658 15660;15672 15683	WT littermates
 T691	Noun_Phrase 15658 15683	WT and Plg-/- littermates
 T692	Noun_Phrase 15665 15671	Plg-/-
 T693	Noun_Phrase 15665 15683	Plg-/- littermates
@@ -733,8 +698,7 @@ T696	Noun_Phrase 15733 15741	PAI-1-/-
 T697	Noun_Phrase 15746 15751	Lepob
 T698	Noun_Phrase 15815 15822	Symbols
 T699	Noun_Phrase 15903 15905	B6
-T700	Noun_Phrase 15903 15905;	B6
-15912 15916	B6mice
+T700	Noun_Phrase 15903 15905;15912 15916	B6 mice
 T701	Noun_Phrase 15909 15916	WT mice
 T702	Noun_Phrase 15973 15983	Rebleeding
 T703	Noun_Phrase 15973 15988	Rebleeding time
@@ -750,8 +714,7 @@ T712	Noun_Phrase 16123 16132	Figure 2B
 T713	IDENTITY_chain 16123 16132	Figure 2B
 T714	Noun_Phrase 16135 16145	Rebleeding
 T715	Noun_Phrase 16135 16151	Rebleeding times
-T716	Noun_Phrase 16181 16184;	A/J
-16207 16211	A/Jmice
+T716	Noun_Phrase 16181 16184;16207 16211	A/J mice
 T717	Noun_Phrase 16181 16184	A/J
 T718	Noun_Phrase 16217 16228	the B6 mice
 T719	Noun_Phrase 16221 16223	B6
@@ -763,8 +726,7 @@ T724	Noun_Phrase 16311 16322	the B6 mice
 T725	Noun_Phrase 16315 16317	B6
 T726	Noun_Phrase 16391 16401	rebleeding
 T727	Noun_Phrase 16391 16406	rebleeding time
-T728	Noun_Phrase 16408 16414;	Plg-/-
-16428 16432	Plg-/-mice
+T728	Noun_Phrase 16408 16414;16428 16432	Plg-/- mice
 T729	Noun_Phrase 16408 16414	Plg-/-
 T730	Noun_Phrase 16419 16432	PAI-1-/- mice
 T731	Noun_Phrase 16451 16460	Figure 2B
@@ -785,8 +747,7 @@ T745	Noun_Phrase 16897 16900	Plg
 T746	Noun_Phrase 16928 16933	blood
 T747	Noun_Phrase 16928 16945	blood coagulation
 T748	Noun_Phrase 16954 16956	B6
-T749	Noun_Phrase 16954 16956;	B6
-16965 16969	B6mice
+T749	Noun_Phrase 16954 16956;16965 16969	B6 mice
 T750	Noun_Phrase 16954 16964	B6 and A/J
 T751	Noun_Phrase 16954 16969	B6 and A/J mice
 T752	Noun_Phrase 16961 16964	A/J
@@ -801,21 +762,15 @@ T760	APPOS_relation 17106 17143	activated partial thromboplastin time
 T761	Noun_Phrase 17145 17149	aPTT
 T762	Noun_Phrase 17166 17168	PT
 T763	Noun_Phrase 17273 17277	aPTT
-T764	Noun_Phrase 17335 17342;	Factors
-17352 17354	FactorsIX
-T765	IDENTITY_chain 17335 17342;	Factors
-17352 17354	FactorsIX
-T766	Noun_Phrase 17335 17342;	Factors
-17359 17363	FactorsVIII
-T767	IDENTITY_chain 17335 17342;	Factors
-17359 17363	FactorsVIII
+T764	Noun_Phrase 17335 17342;17352 17354	Factors IX
+T765	IDENTITY_chain 17335 17342;17352 17354	Factors IX
+T766	Noun_Phrase 17335 17342;17359 17363	Factors VIII
+T767	IDENTITY_chain 17335 17342;17359 17363	Factors VIII
 T768	Noun_Phrase 17405 17506	Factor X, which initiates the common pathway leading to thrombin generation and fibrin clot formation
 T769	Noun_Phrase 17508 17510	PT
 T770	Noun_Phrase 17515 17519	aPTT
-T771	Noun_Phrase 17537 17540;	the
-17548 17556	theA/J mice
-T772	Noun_Phrase 17537 17543;	the B6
-17552 17556	the B6mice
+T771	Noun_Phrase 17537 17540;17548 17556	the A/J mice
+T772	Noun_Phrase 17537 17543;17552 17556	the B6 mice
 T773	Noun_Phrase 17537 17556	the B6 and A/J mice
 T774	Noun_Phrase 17541 17543	B6
 T775	Noun_Phrase 17541 17551	B6 and A/J
@@ -836,8 +791,7 @@ T789	Noun_Phrase 17789 17792	A/J
 T790	Noun_Phrase 17800 17805	mouse
 T791	Noun_Phrase 17875 17878	Plg
 T792	Noun_Phrase 17883 17888	PAI-1
-T793	Noun_Phrase 17899 17902;	A/J
-17911 17915	A/Jmice
+T793	Noun_Phrase 17899 17902;17911 17915	A/J mice
 T794	Noun_Phrase 17899 17902	A/J
 T795	Noun_Phrase 17899 17910	A/J than B6
 T796	Noun_Phrase 17899 17915	A/J than B6 mice
@@ -865,16 +819,11 @@ T817	Nonreferential_pronoun 18264 18269	there
 T818	Noun_Phrase 18304 18307	Plg
 T819	Noun_Phrase 18313 18325	the A/J mice
 T820	Noun_Phrase 18317 18320	A/J
-T821	Noun_Phrase 18327 18338;	plasma from
-18350 18362	plasma fromthe A/J mice
-T822	IDENTITY_chain 18327 18338;	plasma from
-18350 18362	plasma fromthe A/J mice
-T823	Noun_Phrase 18327 18345;	plasma from the B6
-18358 18362	plasma from the B6mice
-T824	IDENTITY_chain 18327 18345;	plasma from the B6
-18358 18362	plasma from the B6mice
-T825	Noun_Phrase 18339 18345;	the B6
-18358 18362	the B6mice
+T821	Noun_Phrase 18327 18338;18350 18362	plasma from the A/J mice
+T822	IDENTITY_chain 18327 18338;18350 18362	plasma from the A/J mice
+T823	Noun_Phrase 18327 18345;18358 18362	plasma from the B6 mice
+T824	IDENTITY_chain 18327 18345;18358 18362	plasma from the B6 mice
+T825	Noun_Phrase 18339 18345;18358 18362	the B6 mice
 T826	Noun_Phrase 18339 18362	the B6 and the A/J mice
 T827	Noun_Phrase 18343 18345	B6
 T828	Noun_Phrase 18343 18357	B6 and the A/J
@@ -885,14 +834,12 @@ T832	IDENTITY_chain 18381 18396	electrophoresis
 T833	Noun_Phrase 18542 18556	data not shown
 T834	IDENTITY_chain 18542 18556	data not shown
 T835	Noun_Phrase 18665 18667	B6
-T836	Noun_Phrase 18665 18667;	B6
-18676 18680	B6mice
+T836	Noun_Phrase 18665 18667;18676 18680	B6 mice
 T837	Noun_Phrase 18665 18675	B6 and A/J
 T838	Noun_Phrase 18665 18680	B6 and A/J mice
 T839	Noun_Phrase 18672 18675	A/J
 T840	Noun_Phrase 18672 18680	A/J mice
-T841	Noun_Phrase 18741 18748;	the A/J
-18761 18765	the A/Jmice
+T841	Noun_Phrase 18741 18748;18761 18765	the A/J mice
 T842	Noun_Phrase 18745 18748	A/J
 T843	Noun_Phrase 18754 18765	the B6 mice
 T844	Noun_Phrase 18758 18760	B6
@@ -916,8 +863,7 @@ T861	Noun_Phrase 19162 19172	B6 and A/J
 T862	Noun_Phrase 19169 19172	A/J
 T863	Noun_Phrase 19174 19195	The tails of the mice
 T864	Noun_Phrase 19284 19294	rebleeding
-T865	Noun_Phrase 19329 19335;	the B6
-19344 19348	the B6mice
+T865	Noun_Phrase 19329 19335;19344 19348	the B6 mice
 T866	Noun_Phrase 19329 19348	the B6 and A/J mice
 T867	Noun_Phrase 19333 19335	B6
 T868	Noun_Phrase 19333 19343	B6 and A/J
@@ -938,8 +884,7 @@ T882	Noun_Phrase 19771 19779	thrombus
 T883	Noun_Phrase 19771 19789	thrombus formation
 T884	Noun_Phrase 19791 19799	Collagen
 T885	Noun_Phrase 19903 19911	collagen
-T886	Noun_Phrase 19927 19934;	the A/J
-19947 19951	the A/Jmice
+T886	Noun_Phrase 19927 19934;19947 19951	the A/J mice
 T887	Noun_Phrase 19931 19934	A/J
 T888	Noun_Phrase 19940 19951	the B6 mice
 T889	Noun_Phrase 19944 19946	B6
@@ -958,16 +903,14 @@ T901	Noun_Phrase 20151 20154	OCT
 T902	Noun_Phrase 20184 20201	Hematoxylin/Eosin
 T903	Noun_Phrase 20205 20223	Masson's Trichrome
 T904	Noun_Phrase 20298 20300	B6
-T905	Noun_Phrase 20298 20300;	B6
-20309 20313	B6mice
+T905	Noun_Phrase 20298 20300;20309 20313	B6 mice
 T906	Noun_Phrase 20298 20308	B6 and A/J
 T907	Noun_Phrase 20298 20313	B6 and A/J mice
 T908	Noun_Phrase 20305 20308	A/J
 T909	Noun_Phrase 20305 20313	A/J mice
 T910	Noun_Phrase 20361 20379	Masson's Trichrome
 T911	Noun_Phrase 20385 20387	B6
-T912	Noun_Phrase 20385 20387;	B6
-20396 20400	B6mice
+T912	Noun_Phrase 20385 20387;20396 20400	B6 mice
 T913	Noun_Phrase 20385 20395	B6 and A/J
 T914	Noun_Phrase 20385 20400	B6 and A/J mice
 T915	Noun_Phrase 20392 20395	A/J
@@ -988,18 +931,15 @@ T929	Noun_Phrase 20940 20965	hemostasis and thrombosis
 T930	Noun_Phrase 20955 20965	thrombosis
 T931	Noun_Phrase 20967 20974	the CSS
 T932	Noun_Phrase 20990 21008	The bleeding times
-T933	Noun_Phrase 21025 21031;	the B6
-21044 21048	the B6mice
+T933	Noun_Phrase 21025 21031;21044 21048	the B6 mice
 T934	Noun_Phrase 21025 21048	the B6 and the A/J mice
 T935	Noun_Phrase 21029 21031	B6
 T936	Noun_Phrase 21029 21043	B6 and the A/J
 T937	Noun_Phrase 21036 21048	the A/J mice
 T938	Noun_Phrase 21040 21043	A/J
 T939	Noun_Phrase 21121 21125	YA/J
-T940	Noun_Phrase 21131 21136;	lower
-21149 21163	lowerbleeding times
-T941	APPOS_relation 21131 21136;	lower
-21149 21163	lowerbleeding times
+T940	Noun_Phrase 21131 21136;21149 21163	lower bleeding times
+T941	APPOS_relation 21131 21136;21149 21163	lower bleeding times
 T942	Noun_Phrase 21165 21178	49–79 seconds
 T943	Noun_Phrase 21192 21217	the value for the B6 mice
 T944	APPOS_relation 21192 21217	the value for the B6 mice
@@ -1049,10 +989,8 @@ T987	Noun_Phrase 21870 21880	rebleeding
 T988	Noun_Phrase 21889 21896	600 sec
 T989	Noun_Phrase 21912 21924	the A/J mice
 T990	Noun_Phrase 21916 21919	A/J
-T991	Noun_Phrase 21960 21968;	Bleeding
-21984 21999	Bleedingtime in the CSS
-T992	IDENTITY_chain 21960 21968;	Bleeding
-21984 21999	Bleedingtime in the CSS
+T991	Noun_Phrase 21960 21968;21984 21999	Bleeding time in the CSS
+T992	IDENTITY_chain 21960 21968;21984 21999	Bleeding time in the CSS
 T993	Noun_Phrase 21960 21999	Bleeding and rebleeding time in the CSS
 T994	IDENTITY_chain 21960 21999	Bleeding and rebleeding time in the CSS
 T995	Noun_Phrase 21973 21983	rebleeding
@@ -1076,31 +1014,17 @@ T1012	Noun_Phrase 22344 22354	Rebleeding
 T1013	Noun_Phrase 22386 22389	CSS
 T1014	Noun_Phrase 22462 22464	B6
 T1015	Noun_Phrase 22462 22469	B6 mice
-T1016	IDENTITY_chain 22481 22501;	heterosomic mice for
-22513 22525;	heterosomic mice for(B6xCSS-5)F1
-22551 22558	heterosomic mice for(B6xCSS-5)F1strains
-T1017	Noun_Phrase 22481 22505;	heterosomic mice for the
-22513 22525;	heterosomic mice for the(B6xCSS-5)F1
-22551 22558	heterosomic mice for the(B6xCSS-5)F1strains
-T1018	Noun_Phrase 22481 22505;	heterosomic mice for the
-22513 22558	heterosomic mice for the(B6xCSS-5)F1 and CSS-17 (B6xCSS-17)F1 strains
-T1019	IDENTITY_chain 22481 22505;	heterosomic mice for the
-22513 22558	heterosomic mice for the(B6xCSS-5)F1 and CSS-17 (B6xCSS-17)F1 strains
-T1020	Noun_Phrase 22481 22505;	heterosomic mice for the
-22537 22558	heterosomic mice for the(B6xCSS-17)F1 strains
-T1021	IDENTITY_chain 22481 22505;	heterosomic mice for the
-22537 22558	heterosomic mice for the(B6xCSS-17)F1 strains
-T1022	Noun_Phrase 22502 22511;	the CSS-5
-22523 22525;	the CSS-5F1
-22551 22558	the CSS-5F1strains
-T1023	IDENTITY_chain 22502 22511;	the CSS-5
-22551 22558	the CSS-5strains
-T1024	Noun_Phrase 22513 22525;	(B6xCSS-5)F1
-22551 22558	(B6xCSS-5)F1strains
-T1025	Noun_Phrase 22530 22536;	CSS-17
-22548 22558	CSS-17F1 strains
-T1026	IDENTITY_chain 22530 22536;	CSS-17
-22548 22558	CSS-17F1 strains
+T1016	IDENTITY_chain 22481 22501;22513 22525;22551 22558	heterosomic mice for (B6xCSS-5)F1 strains
+T1017	Noun_Phrase 22481 22505;22513 22525;22551 22558	heterosomic mice for the (B6xCSS-5)F1 strains
+T1018	Noun_Phrase 22481 22505;22513 22558	heterosomic mice for the (B6xCSS-5)F1 and CSS-17 (B6xCSS-17)F1 strains
+T1019	IDENTITY_chain 22481 22505;22513 22558	heterosomic mice for the (B6xCSS-5)F1 and CSS-17 (B6xCSS-17)F1 strains
+T1020	Noun_Phrase 22481 22505;22537 22558	heterosomic mice for the (B6xCSS-17)F1 strains
+T1021	IDENTITY_chain 22481 22505;22537 22558	heterosomic mice for the (B6xCSS-17)F1 strains
+T1022	Noun_Phrase 22502 22511;22523 22525;22551 22558	the CSS-5 F1 strains
+T1023	IDENTITY_chain 22502 22511;22551 22558	the CSS-5 strains
+T1024	Noun_Phrase 22513 22525;22551 22558	(B6xCSS-5)F1 strains
+T1025	Noun_Phrase 22530 22536;22548 22558	CSS-17 F1 strains
+T1026	IDENTITY_chain 22530 22536;22548 22558	CSS-17 F1 strains
 T1027	Noun_Phrase 22530 22558	CSS-17 (B6xCSS-17)F1 strains
 T1028	Noun_Phrase 22560 22568	Figure 5
 T1029	IDENTITY_chain 22560 22568	Figure 5
@@ -1110,8 +1034,7 @@ T1032	Noun_Phrase 22597 22622	CSS-5F1 and CSS-17F1 mice
 T1033	Noun_Phrase 22609 22617	CSS-17F1
 T1034	Noun_Phrase 22609 22622	CSS-17F1 mice
 T1035	IDENTITY_chain 22609 22622	CSS-17F1 mice
-T1036	Noun_Phrase 22639 22645;	the B6
-22666 22670	the B6mice
+T1036	Noun_Phrase 22639 22645;22666 22670	the B6 mice
 T1037	Noun_Phrase 22643 22645	B6
 T1038	Noun_Phrase 22658 22670	the A/J mice
 T1039	Noun_Phrase 22662 22665	A/J
@@ -1130,8 +1053,7 @@ T1051	Noun_Phrase 23064 23083	the A/J chromosomes
 T1052	Noun_Phrase 23068 23071	A/J
 T1053	Noun_Phrase 23112 23125	the phenotype
 T1054	Noun_Phrase 23128 23136	Figure 5
-T1055	Noun_Phrase 23138 23146;	Bleeding
-23162 23177	Bleedingtime in the CSS
+T1055	Noun_Phrase 23138 23146;23162 23177	Bleeding time in the CSS
 T1056	Noun_Phrase 23138 23177	Bleeding and rebleeding time in the CSS
 T1057	Noun_Phrase 23151 23161	rebleeding
 T1058	Noun_Phrase 23151 23177	rebleeding time in the CSS
@@ -1151,8 +1073,7 @@ T1071	Noun_Phrase 23319 23332	(B6xCSS-17)F1
 T1072	APPOS_relation 23319 23332	(B6xCSS-17)F1
 T1073	Noun_Phrase 23334 23338	17F1
 T1074	Noun_Phrase 23344 23392	doubly heterosomic mice for chromosomes 5 and 17
-T1075	Noun_Phrase 23372 23383;	chromosomes
-23390 23392	chromosomes17
+T1075	Noun_Phrase 23372 23383;23390 23392	chromosomes 17
 T1076	Noun_Phrase 23372 23385	chromosomes 5
 T1077	Noun_Phrase 23372 23392	chromosomes 5 and 17
 T1078	IDENTITY_chain 23372 23392	chromosomes 5 and 17
@@ -1165,8 +1086,7 @@ T1084	Noun_Phrase 23655 23657	B6
 T1085	Noun_Phrase 23655 23664	B6 values
 T1086	Noun_Phrase 23694 23697	CSS
 T1087	Noun_Phrase 23702 23707	PAI-1
-T1088	Noun_Phrase 23702 23707;	PAI-1
-23720 23728	PAI-1activity
+T1088	Noun_Phrase 23702 23707;23720 23728	PAI-1 activity
 T1089	Noun_Phrase 23702 23715	PAI-1 antigen
 T1090	Noun_Phrase 23748 23751	Plg
 T1091	Noun_Phrase 23788 23793	PAI-1
@@ -1198,8 +1118,7 @@ T1116	Noun_Phrase 24184 24206	values for the B6 mice
 T1117	Noun_Phrase 24195 24206	the B6 mice
 T1118	Noun_Phrase 24199 24201	B6
 T1119	Noun_Phrase 24208 24229	Fibrinolytic activity
-T1120	Noun_Phrase 24251 24260;	the CSS-5
-24271 24278	the CSS-5strains
+T1120	Noun_Phrase 24251 24260;24271 24278	the CSS-5 strains
 T1121	Noun_Phrase 24264 24278	CSS-17 strains
 T1122	Noun_Phrase 24291 24302	the B6 mice
 T1123	Noun_Phrase 24295 24297	B6
@@ -1213,8 +1132,7 @@ T1130	IDENTITY_chain 24491 24506	CSS-5 × 17 mice
 T1131	Noun_Phrase 24519 24530	the B6 mice
 T1132	Noun_Phrase 24523 24525	B6
 T1133	Noun_Phrase 24533 24538	PAI-1
-T1134	Noun_Phrase 24533 24538;	PAI-1
-24551 24559	PAI-1activity
+T1134	Noun_Phrase 24533 24538;24551 24559	PAI-1 activity
 T1135	Noun_Phrase 24533 24546	PAI-1 antigen
 T1136	Noun_Phrase 24579 24586	the CSS
 T1137	Noun_Phrase 24592 24618	increased rebleeding times
@@ -1238,14 +1156,10 @@ T1154	Noun_Phrase 24819 24826	B6 mice
 T1155	Noun_Phrase 24828 24853	The reduced PAI-1 antigen
 T1156	Noun_Phrase 24971 25016	The CSS-5 × CSS-17 double heterosomic strains
 T1157	Noun_Phrase 24990 24995	doubl
-T1158	Noun_Phrase 25039 25042;	the
-25050 25068	theA/J parent strains
-T1159	IDENTITY_chain 25039 25042;	the
-25050 25068	theA/J parent strains
-T1160	Noun_Phrase 25039 25045;	the B6
-25054 25068	the B6parent strains
-T1161	IDENTITY_chain 25039 25045;	the B6
-25054 25068	the B6parent strains
+T1158	Noun_Phrase 25039 25042;25050 25068	the A/J parent strains
+T1159	IDENTITY_chain 25039 25042;25050 25068	the A/J parent strains
+T1160	Noun_Phrase 25039 25045;25054 25068	the B6 parent strains
+T1161	IDENTITY_chain 25039 25045;25054 25068	the B6 parent strains
 T1162	Noun_Phrase 25039 25068	the B6 and A/J parent strains
 T1163	IDENTITY_chain 25039 25068	the B6 and A/J parent strains
 T1164	Noun_Phrase 25043 25045	B6
@@ -1260,16 +1174,13 @@ T1172	Noun_Phrase 25156 25181	the CSS-5 × CSS-17 strain
 T1173	IDENTITY_chain 25156 25181	the CSS-5 × CSS-17 strain
 T1174	Noun_Phrase 25196 25201	PAI-1
 T1175	Noun_Phrase 25196 25210	PAI-1 activity
-T1176	Noun_Phrase 25240 25243;	the
-25251 25269	theA/J parent strains
-T1177	Noun_Phrase 25240 25246;	the B6
-25255 25269	the B6parent strains
+T1176	Noun_Phrase 25240 25243;25251 25269	the A/J parent strains
+T1177	Noun_Phrase 25240 25246;25255 25269	the B6 parent strains
 T1178	Noun_Phrase 25240 25269	the B6 and A/J parent strains
 T1179	Noun_Phrase 25244 25246	B6
 T1180	Noun_Phrase 25244 25254	B6 and A/J
 T1181	Noun_Phrase 25251 25254	A/J
-T1182	Noun_Phrase 25271 25280;	The PAI-1
-25318 25326	The PAI-1activity
+T1182	Noun_Phrase 25271 25280;25318 25326	The PAI-1 activity
 T1183	Noun_Phrase 25271 25288	The PAI-1 antigen
 T1184	Noun_Phrase 25275 25280	PAI-1
 T1185	Noun_Phrase 25357 25363	CSS-11
@@ -1287,8 +1198,7 @@ T1196	Noun_Phrase 25582 25595	(B6xCSS-17)F1
 T1197	APPOS_relation 25582 25595	(B6xCSS-17)F1
 T1198	Noun_Phrase 25597 25601	17F1
 T1199	Noun_Phrase 25607 25655	doubly heterosomic mice for chromosomes 5 and 17
-T1200	Noun_Phrase 25635 25646;	chromosomes
-25653 25655	chromosomes17
+T1200	Noun_Phrase 25635 25646;25653 25655	chromosomes 17
 T1201	Noun_Phrase 25635 25648	chromosomes 5
 T1202	Noun_Phrase 25635 25655	chromosomes 5 and 17
 T1203	Noun_Phrase 25704 25751	Statistical differences between B6 mice and CSS
@@ -1320,8 +1230,7 @@ T1228	Noun_Phrase 26548 26554	30 min
 T1229	Noun_Phrase 26585 26588	CSS
 T1230	Noun_Phrase 26585 26593	CSS mice
 T1231	Noun_Phrase 26615 26637	the arterial occlusion
-T1232	Noun_Phrase 26692 26702;	chromosome
-26709 26711	chromosome17
+T1232	Noun_Phrase 26692 26702;26709 26711	chromosome 17
 T1233	Noun_Phrase 26692 26704	chromosome 5
 T1234	Noun_Phrase 26692 26711	chromosome 5 and 17
 T1235	Noun_Phrase 26728 26746	arterial occlusion
@@ -1342,8 +1251,7 @@ T1249	Noun_Phrase 26886 26899	(B6xCSS-17)F1
 T1250	APPOS_relation 26886 26899	(B6xCSS-17)F1
 T1251	Noun_Phrase 26901 26905	17F1
 T1252	Noun_Phrase 26912 26969	doubly heterosomic mice for chromosomes 5 and 17 (5 × 17)
-T1253	Noun_Phrase 26940 26951;	chromosomes
-26958 26960	chromosomes17
+T1253	Noun_Phrase 26940 26951;26958 26960	chromosomes 17
 T1254	Noun_Phrase 26940 26953	chromosomes 5
 T1255	Noun_Phrase 26940 26960	chromosomes 5 and 17
 T1256	Noun_Phrase 27009 27056	Statistical differences between B6 mice and CSS
@@ -1363,10 +1271,8 @@ T1269	Noun_Phrase 27495 27501	vessel
 T1270	Noun_Phrase 27495 27512	vessel remodeling
 T1271	Noun_Phrase 27514 27532	Arterial occlusion
 T1272	Noun_Phrase 27514 27537	Arterial occlusion time
-T1273	Noun_Phrase 27539 27543;	tail
-27557 27572	tailrebleeding time
-T1274	Noun_Phrase 27539 27552;	tail bleeding
-27568 27572	tail bleedingtime
+T1273	Noun_Phrase 27539 27543;27557 27572	tail rebleeding time
+T1274	Noun_Phrase 27539 27552;27568 27572	tail bleeding time
 T1275	Noun_Phrase 27651 27673	the two inbred strains
 T1276	Noun_Phrase 27725 27740	the Plg network
 T1277	Noun_Phrase 27729 27732	Plg
@@ -1383,8 +1289,7 @@ T1287	IDENTITY_chain 28074 28179	three chromosomes that harbored genes which con
 T1288	Noun_Phrase 28133 28179	the A/J phenotype of increased rebleeding time
 T1289	Noun_Phrase 28137 28140	A/J
 T1290	Noun_Phrase 28154 28179	increased rebleeding time
-T1291	Noun_Phrase 28181 28185;	Mice
-28221 28276	Micedoubly heterosomic for two of the chromosomes, 5 and 17
+T1291	Noun_Phrase 28181 28185;28221 28276	Mice doubly heterosomic for two of the chromosomes, 5 and 17
 T1292	Noun_Phrase 28200 28217	these chromosomes
 T1293	Noun_Phrase 28221 28276	doubly heterosomic for two of the chromosomes, 5 and 17
 T1294	Noun_Phrase 28221 28276	doubly heterosomic for two of the chromosomes, 5 and 17
@@ -1398,8 +1303,7 @@ T1301	Noun_Phrase 28307 28310	A/J
 T1302	Noun_Phrase 28322 28346	elevated rebleeding time
 T1303	IDENTITY_chain 28322 28346	elevated rebleeding time
 T1304	Noun_Phrase 28348 28353	PAI-1
-T1305	Noun_Phrase 28348 28353;	PAI-1
-28366 28374	PAI-1activity
+T1305	Noun_Phrase 28348 28353;28366 28374	PAI-1 activity
 T1306	Noun_Phrase 28348 28361	PAI-1 antigen
 T1307	Noun_Phrase 28393 28414	both CSS-5 and CSS-17
 T1308	Noun_Phrase 28398 28403	CSS-5
@@ -1420,8 +1324,7 @@ T1322	Noun_Phrase 28570 28572	17
 T1323	Noun_Phrase 28574 28592	Arterial occlusion
 T1324	Noun_Phrase 28574 28597	Arterial occlusion time
 T1325	Noun_Phrase 28613 28615	B6
-T1326	Noun_Phrase 28619 28628;	the CSS-5
-28640 28658	the CSS-5homozygous strains
+T1326	Noun_Phrase 28619 28628;28640 28658	the CSS-5 homozygous strains
 T1327	Noun_Phrase 28619 28658	the CSS-5 and CSS-17 homozygous strains
 T1328	Noun_Phrase 28633 28658	CSS-17 homozygous strains
 T1329	Noun_Phrase 28677 28728	doubly heterosomic for two of chromosomes, 5 and 17
@@ -1446,8 +1349,7 @@ T1347	Noun_Phrase 29103 29105	B6
 T1348	Noun_Phrase 29273 29278	blood
 T1349	Noun_Phrase 29362 29372	this study
 T1350	Noun_Phrase 29485 29503	arterial occlusion
-T1351	Noun_Phrase 29513 29519;	the B6
-29528 29532	the B6mice
+T1351	Noun_Phrase 29513 29519;29528 29532	the B6 mice
 T1352	Noun_Phrase 29513 29532	the B6 and A/J mice
 T1353	Noun_Phrase 29517 29519	B6
 T1354	Noun_Phrase 29517 29527	B6 and A/J
@@ -1456,8 +1358,7 @@ T1356	Noun_Phrase 29524 29532	A/J mice
 T1357	Noun_Phrase 29558 29560	we
 T1358	Noun_Phrase 29606 29618	the thrombus
 T1359	Noun_Phrase 29622 29624	B6
-T1360	Noun_Phrase 29622 29624;	B6
-29633 29637	B6mice
+T1360	Noun_Phrase 29622 29624;29633 29637	B6 mice
 T1361	Noun_Phrase 29622 29632	B6 and A/J
 T1362	Noun_Phrase 29622 29637	B6 and A/J mice
 T1363	Noun_Phrase 29629 29632	A/J
@@ -1490,14 +1391,12 @@ T1389	Noun_Phrase 30627 30632	FVIII
 T1390	Noun_Phrase 30637 30640	FIX
 T1391	Noun_Phrase 30702 30712	rebleeding
 T1392	Noun_Phrase 30702 30717	rebleeding time
-T1393	Noun_Phrase 30771 30779;	thrombus
-30794 30803	thrombusstability
+T1393	Noun_Phrase 30771 30779;30794 30803	thrombus stability
 T1394	Noun_Phrase 30771 30779	thrombus
 T1395	Noun_Phrase 30771 30789	thrombus formation
 T1396	Noun_Phrase 30965 30983	tail bleeding time
 T1397	Noun_Phrase 31076 31089	bleeding time
-T1398	Noun_Phrase 31125 31131;	Plg-/-
-31143 31147	Plg-/-mice
+T1398	Noun_Phrase 31125 31131;31143 31147	Plg-/- mice
 T1399	Noun_Phrase 31125 31131	Plg-/-
 T1400	Noun_Phrase 31136 31147	uPA-/- mice
 T1401	IDENTITY_chain 31136 31147	uPA-/- mice
@@ -1522,8 +1421,7 @@ T1419	Noun_Phrase 31578 31584	Plg-/-
 T1420	Noun_Phrase 31578 31589	Plg-/- mice
 T1421	Noun_Phrase 31594 31617	increased bleeding time
 T1422	IDENTITY_chain 31594 31617	increased bleeding time
-T1423	Noun_Phrase 31619 31627;	PAI-1-/-
-31670 31674	PAI-1-/-mice
+T1423	Noun_Phrase 31619 31627;31670 31674	PAI-1-/- mice
 T1424	Noun_Phrase 31663 31674	uPA-/- mice
 T1425	Noun_Phrase 31717 31732	the Plg-/- mice
 T1426	Noun_Phrase 31721 31727	Plg-/-
@@ -1535,14 +1433,11 @@ T1431	Noun_Phrase 31767 31774	E. Hart
 T1432	IDENTITY_chain 31767 31774	E. Hart
 T1433	Noun_Phrase 31776 31795	unpublished results
 T1434	IDENTITY_chain 31776 31795	unpublished results
-T1435	Noun_Phrase 31798 31807;	Increased
-31820 31836	Increasedrebleeding times
-T1436	Noun_Phrase 31798 31816;	Increased bleeding
-31831 31836	Increased bleedingtimes
+T1435	Noun_Phrase 31798 31807;31820 31836	Increased rebleeding times
+T1436	Noun_Phrase 31798 31816;31831 31836	Increased bleeding times
 T1437	Noun_Phrase 31820 31830	rebleeding
 T1438	Noun_Phrase 31874 31885	Plg network
-T1439	Noun_Phrase 31972 31978;	uPA-/-
-31989 31993	uPA-/-mice
+T1439	Noun_Phrase 31972 31978;31989 31993	uPA-/- mice
 T1440	Noun_Phrase 31980 31993	PAI-1-/- mice
 T1441	Noun_Phrase 32006 32013	WT mice
 T1442	Noun_Phrase 32097 32111	bleeding times
@@ -1564,8 +1459,7 @@ T1457	Noun_Phrase 32419 32432	bleeding time
 T1458	Noun_Phrase 32540 32545	blood
 T1459	Noun_Phrase 32540 32554	blood pressure
 T1460	IDENTITY_chain 32540 32554	blood pressure
-T1461	Noun_Phrase 32687 32690;	A/J
-32699 32703	A/Jmice
+T1461	Noun_Phrase 32687 32690;32699 32703	A/J mice
 T1462	Noun_Phrase 32687 32690	A/J
 T1463	Noun_Phrase 32725 32749	decreased blood pressure
 T1464	IDENTITY_chain 32725 32749	decreased blood pressure
@@ -1584,19 +1478,15 @@ T1476	Noun_Phrase 32907 32917	these mice
 T1477	Noun_Phrase 32923 32945	reduced blood pressure
 T1478	Noun_Phrase 32931 32936	blood
 T1479	Noun_Phrase 32963 32977	WT littermates
-T1480	Noun_Phrase 32983 32989;	uPA-/-
-33013 33017	uPA-/-mice
+T1480	Noun_Phrase 32983 32989;33013 33017	uPA-/- mice
 T1481	Noun_Phrase 32999 33004	Lepob
-T1482	Noun_Phrase 32999 33004;	Lepob
-33013 33017	Lepobmice
+T1482	Noun_Phrase 32999 33004;33013 33017	Lepob mice
 T1483	Noun_Phrase 33036 33041	blood
 T1484	Nonreferential_pronoun 33056 33061	there
 T1485	Noun_Phrase 33091 33096	blood
 T1486	Noun_Phrase 33091 33105	blood pressure
-T1487	Noun_Phrase 33110 33114;	tail
-33127 33143	tailrebleeding times
-T1488	Noun_Phrase 33110 33123;	tail bleeding
-33138 33143	tail bleedingtimes
+T1487	Noun_Phrase 33110 33114;33127 33143	tail rebleeding times
+T1488	Noun_Phrase 33110 33123;33138 33143	tail bleeding times
 T1489	Noun_Phrase 33170 33178	the tail
 T1490	Noun_Phrase 33209 33217	collagen
 T1491	Noun_Phrase 33229 33237	the tail
@@ -1633,8 +1523,7 @@ T1521	Noun_Phrase 33907 33931	elevated rebleeding time
 T1522	Noun_Phrase 33961 33975	?2-antiplasmin
 T1523	Noun_Phrase 33998 34016	the mouse Plg gene
 T1524	Noun_Phrase 34040 34042	B6
-T1525	Noun_Phrase 34040 34042;	B6
-34051 34055	B6mice
+T1525	Noun_Phrase 34040 34042;34051 34055	B6 mice
 T1526	Noun_Phrase 34040 34050	B6 and A/J
 T1527	Noun_Phrase 34040 34055	B6 and A/J mice
 T1528	Noun_Phrase 34047 34050	A/J
@@ -1670,17 +1559,14 @@ T1557	IDENTITY_chain 34668 34681	unknown genes
 T1558	Noun_Phrase 34719 34724	PAI-1
 T1559	Noun_Phrase 34737 34751	?2-antiplasmin
 T1560	Noun_Phrase 34760 34762	B6
-T1561	Noun_Phrase 34760 34762;	B6
-34771 34775	B6mice
+T1561	Noun_Phrase 34760 34762;34771 34775	B6 mice
 T1562	Noun_Phrase 34760 34770	B6 and A/J
 T1563	Noun_Phrase 34760 34775	B6 and A/J mice
 T1564	Noun_Phrase 34767 34770	A/J
 T1565	Noun_Phrase 34767 34775	A/J mice
 T1566	Noun_Phrase 34880 34883	Our
-T1567	Noun_Phrase 34905 34910;	novel
-34922 34927	novelgenes
-T1568	IDENTITY_chain 34905 34910;	novel
-34922 34927	novelgenes
+T1567	Noun_Phrase 34905 34910;34922 34927	novel genes
+T1568	IDENTITY_chain 34905 34910;34922 34927	novel genes
 T1569	Noun_Phrase 34914 34927	unknown genes
 T1570	Noun_Phrase 34946 34971	the Plg system components
 T1571	IDENTITY_chain 34946 34971	the Plg system components
@@ -1712,8 +1598,7 @@ T1596	Noun_Phrase 35390 35405	the Plg network
 T1597	Noun_Phrase 35394 35397	Plg
 T1598	Noun_Phrase 35419 35437	arterial occlusion
 T1599	Noun_Phrase 35445 35455	Conclusion
-T1600	Noun_Phrase 35508 35514;	the B6
-35523 35527	the B6mice
+T1600	Noun_Phrase 35508 35514;35523 35527	the B6 mice
 T1601	Noun_Phrase 35508 35527	the B6 and A/J mice
 T1602	Noun_Phrase 35512 35514	B6
 T1603	Noun_Phrase 35512 35522	B6 and A/J
@@ -1724,8 +1609,7 @@ T1607	Noun_Phrase 35581 35607	thrombosis and haemostasis
 T1608	Noun_Phrase 35596 35607	haemostasis
 T1609	Noun_Phrase 35609 35612	Our
 T1610	Noun_Phrase 35628 35631	CSS
-T1611	Noun_Phrase 35655 35660;	novel
-35672 35677	novelgenes
+T1611	Noun_Phrase 35655 35660;35672 35677	novel genes
 T1612	Noun_Phrase 35664 35677	unknown genes
 T1613	Noun_Phrase 35750 35769	arterial thrombosis
 T1614	Noun_Phrase 35771 35795	tail bleeding/rebleeding

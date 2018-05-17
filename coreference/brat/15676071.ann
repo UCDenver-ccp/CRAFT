@@ -13,14 +13,10 @@ T11	APPOS_relation 123 151	Leber's congenital amaurosis
 T12	IDENTITY_chain 123 151	Leber's congenital amaurosis
 T13	Noun_Phrase 153 156	LCA
 T14	Noun_Phrase 267 284	the neural retina
-T15	Noun_Phrase 317 320;	the
-340 371	thefunction of photoreceptor cells
-T16	IDENTITY_chain 317 320;	the
-340 371	thefunction of photoreceptor cells
-T17	Noun_Phrase 317 332;	the development
-349 371	the developmentof photoreceptor cells
-T18	IDENTITY_chain 317 332;	the development
-349 371	the developmentof photoreceptor cells
+T15	Noun_Phrase 317 320;340 371	the function of photoreceptor cells
+T16	IDENTITY_chain 317 320;340 371	the function of photoreceptor cells
+T17	Noun_Phrase 317 332;349 371	the development of photoreceptor cells
+T18	IDENTITY_chain 317 332;349 371	the development of photoreceptor cells
 T19	Noun_Phrase 352 371	photoreceptor cells
 T20	IDENTITY_chain 352 371	photoreceptor cells
 T21	Noun_Phrase 447 498	mutations in the photoreceptor transcription factor
@@ -246,20 +242,15 @@ T240	Noun_Phrase 7151 7169	the inner segments
 T241	Noun_Phrase 7192 7200	Figure 2
 T242	IDENTITY_chain 7192 7200	Figure 2
 T243	Noun_Phrase 7232 7246	inner segments
-T244	Noun_Phrase 7348 7354;	Figure
-7361 7362	Figure2
+T244	Noun_Phrase 7348 7354;7361 7362	Figure 2
 T245	Noun_Phrase 7348 7356	Figure 1
 T246	IDENTITY_chain 7348 7356	Figure 1
 T247	Noun_Phrase 7503 7511	Figure 1
-T248	Noun_Phrase 7549 7565;	the outer retina
-7573 7575;	the outer retinain
-7595 7609	the outer retinainCrx-/- retinas
+T248	Noun_Phrase 7549 7565;7573 7575;7595 7609	the outer retina in Crx-/- retinas
 T249	Noun_Phrase 7569 7572	P21
 T250	Noun_Phrase 7577 7578	A
-T251	Noun_Phrase 7580 7586;	Crx+/+
-7602 7609	Crx+/+retinas
-T252	IDENTITY_chain 7580 7586;	Crx+/+
-7602 7609	Crx+/+retinas
+T251	Noun_Phrase 7580 7586;7602 7609	Crx+/+ retinas
+T252	IDENTITY_chain 7580 7586;7602 7609	Crx+/+ retinas
 T253	Noun_Phrase 7592 7593	B
 T254	Noun_Phrase 7595 7609	Crx-/- retinas
 T255	Noun_Phrase 7611 7613	pe
@@ -299,8 +290,7 @@ T288	Noun_Phrase 8004 8018	inner segments
 T289	Noun_Phrase 8020 8023	onl
 T290	APPOS_relation 8020 8023	onl
 T291	Noun_Phrase 8025 8044	outer nuclear layer
-T292	Noun_Phrase 8065 8078;	Photoreceptor
-8098 8112	Photoreceptorouter segments
+T292	Noun_Phrase 8065 8078;8098 8112	Photoreceptor outer segments
 T293	Noun_Phrase 8065 8078	Photoreceptor
 T294	Noun_Phrase 8065 8093	Photoreceptor inner segments
 T295	IDENTITY_chain 8065 8093	Photoreceptor inner segments
@@ -308,10 +298,8 @@ T296	Noun_Phrase 8264 8267	P21
 T297	Noun_Phrase 8272 8286	Crx-/- retinas
 T298	Noun_Phrase 8315 8331	connecting cilia
 T299	IDENTITY_chain 8315 8331	connecting cilia
-T300	Noun_Phrase 8344 8350;	Figure
-8358 8360	Figure3B
-T301	IDENTITY_chain 8344 8350;	Figure
-8358 8360	Figure3B
+T300	Noun_Phrase 8344 8350;8358 8360	Figure 3B
+T301	IDENTITY_chain 8344 8350;8358 8360	Figure 3B
 T302	Noun_Phrase 8344 8353	Figure 3A
 T303	IDENTITY_chain 8344 8353	Figure 3A
 T304	Noun_Phrase 8344 8360	Figure 3A and 3B
@@ -390,10 +378,8 @@ T376	Noun_Phrase 10560 10574	photoreceptors
 T377	Noun_Phrase 10618 10622	they
 T378	Noun_Phrase 10698 10721	the outer segment layer
 T379	Noun_Phrase 10702 10715	outer segment
-T380	Noun_Phrase 10727 10750;	numerous small vesicles
-10769 10794	numerous small vesicles100 to 200 nm in diameter
-T381	IDENTITY_chain 10727 10750;	numerous small vesicles
-10769 10794	numerous small vesicles100 to 200 nm in diameter
+T380	Noun_Phrase 10727 10750;10769 10794	numerous small vesicles 100 to 200 nm in diameter
+T381	IDENTITY_chain 10727 10750;10769 10794	numerous small vesicles 100 to 200 nm in diameter
 T382	Noun_Phrase 10752 10761	Figure 3A
 T383	Noun_Phrase 10752 10767	Figure 3A arrow
 T384	Noun_Phrase 10796 10800	They
@@ -421,16 +407,13 @@ T405	Noun_Phrase 11289 11291	P7
 T406	Noun_Phrase 11296 11313	the Crx-/- retina
 T407	Noun_Phrase 11377 11391	inner segments
 T408	Noun_Phrase 11395 11405	this stage
-T409	Noun_Phrase 11407 11413;	Figure
-11421 11423	Figure4B
-T410	IDENTITY_chain 11407 11413;	Figure
-11421 11423	Figure4B
+T409	Noun_Phrase 11407 11413;11421 11423	Figure 4B
+T410	IDENTITY_chain 11407 11413;11421 11423	Figure 4B
 T411	Noun_Phrase 11407 11416	Figure 4A
 T412	IDENTITY_chain 11407 11416	Figure 4A
 T413	Noun_Phrase 11511 11519	Figure 5
 T414	IDENTITY_chain 11511 11519	Figure 5
-T415	Noun_Phrase 11583 11589;	Crx+/+
-11601 11615	Crx+/+photoreceptors
+T415	Noun_Phrase 11583 11589;11601 11615	Crx+/+ photoreceptors
 T416	Noun_Phrase 11594 11615	Crx-/- photoreceptors
 T417	Noun_Phrase 11620 11623	P14
 T418	Noun_Phrase 11665 11686	Crx+/+ photoreceptors
@@ -457,10 +440,8 @@ T438	Noun_Phrase 12142 12181	These putative, abnormal outer segments
 T439	Noun_Phrase 12208 12214	Crx+/+
 T440	Noun_Phrase 12218 12221	P14
 T441	Noun_Phrase 12236 12239	P21
-T442	Noun_Phrase 12241 12247;	Figure
-12255 12257	Figure4E
-T443	IDENTITY_chain 12241 12247;	Figure
-12255 12257	Figure4E
+T442	Noun_Phrase 12241 12247;12255 12257	Figure 4E
+T443	IDENTITY_chain 12241 12247;12255 12257	Figure 4E
 T444	Noun_Phrase 12241 12250	Figure 4C
 T445	Noun_Phrase 12277 12298	Crx-/- photoreceptors
 T446	Noun_Phrase 12344 12353	Figure 4F
@@ -487,8 +468,7 @@ T466	Noun_Phrase 12965 12968	P21
 T467	Noun_Phrase 12981 12982	A
 T468	Noun_Phrase 12984 12985	C
 T469	Noun_Phrase 12991 12992	E
-T470	Noun_Phrase 12998 13004;	Crx-/-
-13015 13026	Crx-/-littermates
+T470	Noun_Phrase 12998 13004;13015 13026	Crx-/- littermates
 T471	Noun_Phrase 13006 13007	B
 T472	Noun_Phrase 13009 13010	D
 T473	Noun_Phrase 13012 13013	F
@@ -529,10 +509,8 @@ T507	Noun_Phrase 13869 13882	photoreceptor
 T508	Noun_Phrase 13910 13931	Crx-/- photoreceptors
 T509	Noun_Phrase 13942 13958	connecting cilia
 T510	Noun_Phrase 13967 13983	this early stage
-T511	Noun_Phrase 14144 14156;	rhodopsin-/-
-14175 14189	rhodopsin-/-photoreceptors
-T512	IDENTITY_chain 14144 14156;	rhodopsin-/-
-14175 14189	rhodopsin-/-photoreceptors
+T511	Noun_Phrase 14144 14156;14175 14189	rhodopsin-/- photoreceptors
+T512	IDENTITY_chain 14144 14156;14175 14189	rhodopsin-/- photoreceptors
 T513	Noun_Phrase 14161 14189	peripherin-/- photoreceptors
 T514	IDENTITY_chain 14161 14189	peripherin-/- photoreceptors
 T515	Noun_Phrase 14191 14200	Rhodopsin
@@ -546,17 +524,13 @@ T522	Noun_Phrase 14451 14465	outer segments
 T523	Noun_Phrase 14529 14532	SEM
 T524	Noun_Phrase 14582 14603	Crx-/- photoreceptors
 T525	Noun_Phrase 14613 14622	Figure 4F
-T526	Noun_Phrase 14626 14632;	Figure
-14640 14642	Figure6B
-T527	IDENTITY_chain 14626 14632;	Figure
-14640 14642	Figure6B
+T526	Noun_Phrase 14626 14632;14640 14642	Figure 6B
+T527	IDENTITY_chain 14626 14632;14640 14642	Figure 6B
 T528	Noun_Phrase 14626 14635	Figure 6A
 T529	IDENTITY_chain 14626 14635	Figure 6A
-T530	Noun_Phrase 14688 14701;	peripherin-/-
-14727 14741	peripherin-/-photoreceptors
+T530	Noun_Phrase 14688 14701;14727 14741	peripherin-/- photoreceptors
 T531	Noun_Phrase 14703 14704	A
-T532	Noun_Phrase 14710 14722;	rhodopsin-/-
-14727 14741	rhodopsin-/-photoreceptors
+T532	Noun_Phrase 14710 14722;14727 14741	rhodopsin-/- photoreceptors
 T533	Noun_Phrase 14724 14725	B
 T534	Noun_Phrase 14745 14748	P21
 T535	Noun_Phrase 14818 14820	cc
@@ -573,8 +547,7 @@ T545	Noun_Phrase 14946 14962	a previous study
 T546	IDENTITY_chain 14946 14962	a previous study
 T547	Noun_Phrase 14964 14966	we
 T548	Noun_Phrase 15036 15039	Crx
-T549	Noun_Phrase 15102 15105;	the
-15138 15152	theouter segments
+T549	Noun_Phrase 15102 15105;15138 15152	the outer segments
 T550	Noun_Phrase 15102 15127	the outer plexiform layer
 T551	Noun_Phrase 15129 15132	OPL
 T552	APPOS_relation 15129 15132	OPL
@@ -592,10 +565,8 @@ T563	Noun_Phrase 15343 15355	The sperules
 T564	Noun_Phrase 15461 15470	Figure 7A
 T565	Noun_Phrase 15472 15477	arrow
 T566	IDENTITY_chain 15472 15477	arrow
-T567	Noun_Phrase 15501 15507;	Figure
-15515 15517	Figure8B
-T568	IDENTITY_chain 15501 15507;	Figure
-15515 15517	Figure8B
+T567	Noun_Phrase 15501 15507;15515 15517	Figure 8B
+T568	IDENTITY_chain 15501 15507;15515 15517	Figure 8B
 T569	Noun_Phrase 15501 15510	Figure 8A
 T570	IDENTITY_chain 15501 15510	Figure 8A
 T571	Noun_Phrase 15608 15617	Figure 8B
@@ -621,18 +592,14 @@ T590	IDENTITY_chain 16119 16125	arrows
 T591	Noun_Phrase 16251 16258	synapse
 T592	Noun_Phrase 16251 16269	synapse components
 T593	IDENTITY_chain 16251 16269	synapse components
-T594	Noun_Phrase 16280 16291;	well formed
-16306 16314	well formedpedicles
-T595	IDENTITY_chain 16280 16291;	well formed
-16306 16314	well formedpedicles
+T594	Noun_Phrase 16280 16291;16306 16314	well formed pedicles
+T595	IDENTITY_chain 16280 16291;16306 16314	well formed pedicles
 T596	Noun_Phrase 16280 16301	well formed spherules
 T597	IDENTITY_chain 16280 16301	well formed spherules
 T598	Noun_Phrase 16280 16314	well formed spherules and pedicles
 T599	IDENTITY_chain 16280 16314	well formed spherules and pedicles
-T600	Noun_Phrase 16400 16406;	Figure
-16414 16416	Figure8D
-T601	IDENTITY_chain 16400 16406;	Figure
-16414 16416	Figure8D
+T600	Noun_Phrase 16400 16406;16414 16416	Figure 8D
+T601	IDENTITY_chain 16400 16406;16414 16416	Figure 8D
 T602	Noun_Phrase 16400 16409	Figure 8C
 T603	IDENTITY_chain 16400 16409	Figure 8C
 T604	Noun_Phrase 16418 16419	r
@@ -656,8 +623,7 @@ T621	Noun_Phrase 16973 16987	Crx+/+ retinas
 T622	Noun_Phrase 16991 16994	P21
 T623	Noun_Phrase 17011 17014	box
 T624	Noun_Phrase 17018 17019	B
-T625	Noun_Phrase 17024 17049;	the outer plexiform layer
-17056 17073	the outer plexiform layerof Crx-/- retinas
+T625	Noun_Phrase 17024 17049;17056 17073	the outer plexiform layer of Crx-/- retinas
 T626	Noun_Phrase 17028 17049	outer plexiform layer
 T627	APPOS_relation 17028 17049	outer plexiform layer
 T628	Noun_Phrase 17051 17054	OPL
@@ -666,8 +632,7 @@ T630	Noun_Phrase 17075 17088	photoreceptor
 T631	Noun_Phrase 17075 17098	photoreceptor terminals
 T632	Noun_Phrase 17131 17134	P21
 T633	Noun_Phrase 17136 17142	arrows
-T634	Noun_Phrase 17145 17156;	Well-formed
-17170 17179	Well-formedspherules
+T634	Noun_Phrase 17145 17156;17170 17179	Well-formed spherules
 T635	Noun_Phrase 17145 17165	Well-formed pedicles
 T636	Noun_Phrase 17145 17179	Well-formed pedicles and spherules
 T637	Noun_Phrase 17308 17315	synapse
@@ -695,8 +660,7 @@ T658	Noun_Phrase 18203 18226	photoreceptor terminals
 T659	Noun_Phrase 18287 18304	synaptic vesicles
 T660	Noun_Phrase 18398 18405	synapse
 T661	Noun_Phrase 18398 18416	synapse components
-T662	Noun_Phrase 18427 18438;	well formed
-18453 18461	well formedpedicles
+T662	Noun_Phrase 18427 18438;18453 18461	well formed pedicles
 T663	Noun_Phrase 18427 18448	well formed spherules
 T664	Noun_Phrase 18427 18461	well formed spherules and pedicles
 T665	Noun_Phrase 18525 18556	multiple ribbon-like structures
@@ -749,14 +713,11 @@ T711	Noun_Phrase 19649 19672	outer segment formation
 T712	Noun_Phrase 19745 19754	rhodopsin
 T713	Noun_Phrase 19781 19794	outer segment
 T714	Noun_Phrase 19781 19804	outer segment formation
-T715	Noun_Phrase 19822 19835;	peripherin-/-
-19847 19860	peripherin-/-photoreceptor
+T715	Noun_Phrase 19822 19835;19847 19860	peripherin-/- photoreceptor
 T716	Noun_Phrase 19840 19860	Crx-/- photoreceptor
 T717	Noun_Phrase 19840 19874	Crx-/- photoreceptor morphogenesis
-T718	Noun_Phrase 19906 19951;	Vesicular structures in Crx-/- photoreceptors
-19966 20040	Vesicular structures in Crx-/- photoreceptorsthat were similar to those previously noted in the rds/peripherin-/- mouse
-T719	IDENTITY_chain 19906 19951;	Vesicular structures in Crx-/- photoreceptors
-19966 20040	Vesicular structures in Crx-/- photoreceptorsthat were similar to those previously noted in the rds/peripherin-/- mouse
+T718	Noun_Phrase 19906 19951;19966 20040	Vesicular structures in Crx-/- photoreceptors that were similar to those previously noted in the rds/peripherin-/- mouse
+T719	IDENTITY_chain 19906 19951;19966 20040	Vesicular structures in Crx-/- photoreceptors that were similar to those previously noted in the rds/peripherin-/- mouse
 T720	Noun_Phrase 19930 19951	Crx-/- photoreceptors
 T721	Nonreferential_pronoun 20042 20044	It
 T722	Noun_Phrase 20073 20087	these vesicles
@@ -886,8 +847,7 @@ T845	IDENTITY_chain 24590 24638	the spontaneously occurring mouse mutant in CRB1
 T846	Noun_Phrase 24634 24638	CRB1
 T847	Noun_Phrase 24640 24653	the Rd8 mouse
 T848	Noun_Phrase 24740 24753	photoreceptor
-T849	Noun_Phrase 24740 24753;	photoreceptor
-24771 24785	photoreceptorsynaptogenesis
+T849	Noun_Phrase 24740 24753;24771 24785	photoreceptor synaptogenesis
 T850	Noun_Phrase 24740 24766	photoreceptor polarization
 T851	Noun_Phrase 24800 24811	this mutant
 T852	Noun_Phrase 24819 24823	CRB1
@@ -910,10 +870,8 @@ T868	Noun_Phrase 25215 25233	the photoreceptors
 T869	Noun_Phrase 25268 25277	rhodopsin
 T870	APPOS_relation 25268 25277	rhodopsin
 T871	Noun_Phrase 25279 25282	Rho
-T872	Noun_Phrase 25288 25328;	cyclic nucleotide-gated channel, alpha-3
-25337 25357	cyclic nucleotide-gated channel, alpha-3double knockout mice
-T873	IDENTITY_chain 25288 25328;	cyclic nucleotide-gated channel, alpha-3
-25337 25357	cyclic nucleotide-gated channel, alpha-3double knockout mice
+T872	Noun_Phrase 25288 25328;25337 25357	cyclic nucleotide-gated channel, alpha-3 double knockout mice
+T873	IDENTITY_chain 25288 25328;25337 25357	cyclic nucleotide-gated channel, alpha-3 double knockout mice
 T874	Noun_Phrase 25423 25441	These observations
 T875	IDENTITY_chain 25423 25441	These observations
 T876	Noun_Phrase 25459 25472	photoreceptor
@@ -1104,8 +1062,7 @@ T1060	Noun_Phrase 33039 33057	pigment epithelium
 T1061	APPOS_relation 33039 33057	pigment epithelium
 T1062	Noun_Phrase 33059 33061	PE
 T1063	Noun_Phrase 33111 33128	the neural retina
-T1064	Noun_Phrase 33130 33148;	Retinae from Crx-/
-33182 33186	Retinae from Crx-/eyes
+T1064	Noun_Phrase 33130 33148;33182 33186	Retinae from Crx-/ eyes
 T1065	Noun_Phrase 33311 33317	Tissue
 T1066	IDENTITY_chain 33311 33317	Tissue
 T1067	Noun_Phrase 33405 33412	Tissues

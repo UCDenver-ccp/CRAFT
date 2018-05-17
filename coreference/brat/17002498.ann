@@ -33,14 +33,10 @@ T31	IDENTITY_chain 427 442	a floxed allele
 T32	Noun_Phrase 444 454	These mice
 T33	Noun_Phrase 489 504	Cre recombinase
 T34	IDENTITY_chain 489 504	Cre recombinase
-T35	Noun_Phrase 511 546;	the control of the human Keratin 14
-553 561	the control of the human Keratin 14promoter
-T36	IDENTITY_chain 511 546;	the control of the human Keratin 14
-553 561	the control of the human Keratin 14promoter
-T37	Noun_Phrase 526 546;	the human Keratin 14
-553 561	the human Keratin 14promoter
-T38	IDENTITY_chain 526 546;	the human Keratin 14
-553 561	the human Keratin 14promoter
+T35	Noun_Phrase 511 546;553 561	the control of the human Keratin 14 promoter
+T36	IDENTITY_chain 511 546;553 561	the control of the human Keratin 14 promoter
+T37	Noun_Phrase 526 546;553 561	the human Keratin 14 promoter
+T38	IDENTITY_chain 526 546;553 561	the human Keratin 14 promoter
 T39	Noun_Phrase 536 546	Keratin 14
 T40	APPOS_relation 536 546	Keratin 14
 T41	Noun_Phrase 548 551	K14
@@ -66,8 +62,7 @@ T60	IDENTITY_chain 963 968	teeth
 T61	Noun_Phrase 1051 1085	various epithelial-derived tissues
 T62	IDENTITY_chain 1051 1085	various epithelial-derived tissues
 T63	Noun_Phrase 1097 1107	the thymus
-T64	Noun_Phrase 1109 1146;	The aberrant growth of hair follicles
-1204 1231	The aberrant growth of hair folliclesin K14-cre; ApcCKO/CKO mice
+T64	Noun_Phrase 1109 1146;1204 1231	The aberrant growth of hair follicles in K14-cre; ApcCKO/CKO mice
 T65	IDENTITY_chain 1109 1146	The aberrant growth of hair follicles
 T66	Noun_Phrase 1132 1146	hair follicles
 T67	Noun_Phrase 1179 1231	the thymic abnormalities in K14-cre; ApcCKO/CKO mice
@@ -79,23 +74,17 @@ T72	IDENTITY_chain 1319 1374	organs that require epithelial–mesenchymal interact
 T73	Noun_Phrase 1339 1374	epithelial–mesenchymal interactions
 T74	IDENTITY_chain 1339 1374	epithelial–mesenchymal interactions
 T75	Noun_Phrase 1379 1384	their
-T76	Noun_Phrase 1409 1422;	Patients with
-1464 1475	Patients withits variant
-T77	IDENTITY_chain 1409 1422;	Patients with
-1464 1475	Patients withits variant
+T76	Noun_Phrase 1409 1422;1464 1475	Patients with its variant
+T77	IDENTITY_chain 1409 1422;1464 1475	Patients with its variant
 T78	Noun_Phrase 1409 1453	Patients with familial adenomatous polyposis
 T79	IDENTITY_chain 1409 1453	Patients with familial adenomatous polyposis
-T80	Noun_Phrase 1409 1453;	Patients with familial adenomatous polyposis
-1460 1475	Patients with familial adenomatous polyposisand its variant
-T81	IDENTITY_chain 1409 1453;	Patients with familial adenomatous polyposis
-1460 1475	Patients with familial adenomatous polyposisand its variant
+T80	Noun_Phrase 1409 1453;1460 1475	Patients with familial adenomatous polyposis and its variant
+T81	IDENTITY_chain 1409 1453;1460 1475	Patients with familial adenomatous polyposis and its variant
 T82	Noun_Phrase 1423 1453	familial adenomatous polyposis
 T83	IDENTITY_chain 1423 1453	familial adenomatous polyposis
 T84	APPOS_relation 1423 1453	familial adenomatous polyposis
-T85	IDENTITY_chain 1423 1453;	familial adenomatous polyposis
-1460 1475	familial adenomatous polyposisand its variant
-T86	Noun_Phrase 1423 1453;	familial adenomatous polyposis
-1460 1475	familial adenomatous polyposisand its variant
+T85	IDENTITY_chain 1423 1453;1460 1475	familial adenomatous polyposis and its variant
+T86	Noun_Phrase 1423 1453;1460 1475	familial adenomatous polyposis and its variant
 T87	Noun_Phrase 1455 1458	FAP
 T88	Noun_Phrase 1464 1467	its
 T89	Noun_Phrase 1464 1475	its variant
@@ -119,24 +108,16 @@ T106	Noun_Phrase 1763 1793	the retinal pigment epithelium
 T107	IDENTITY_chain 1763 1793	the retinal pigment epithelium
 T108	Noun_Phrase 1795 1809	desmoid tumors
 T109	IDENTITY_chain 1795 1809	desmoid tumors
-T110	Noun_Phrase 1829 1845;	disorders of the
-1860 1874	disorders of theskeletal bones
-T111	IDENTITY_chain 1829 1845;	disorders of the
-1860 1874	disorders of theskeletal bones
-T112	Noun_Phrase 1829 1855;	disorders of the maxillary
-1869 1874	disorders of the maxillarybones
-T113	IDENTITY_chain 1829 1855;	disorders of the maxillary
-1869 1874	disorders of the maxillarybones
+T110	Noun_Phrase 1829 1845;1860 1874	disorders of the skeletal bones
+T111	IDENTITY_chain 1829 1845;1860 1874	disorders of the skeletal bones
+T112	Noun_Phrase 1829 1855;1869 1874	disorders of the maxillary bones
+T113	IDENTITY_chain 1829 1855;1869 1874	disorders of the maxillary bones
 T114	Noun_Phrase 1829 1874	disorders of the maxillary and skeletal bones
 T115	IDENTITY_chain 1829 1874	disorders of the maxillary and skeletal bones
-T116	Noun_Phrase 1842 1845;	the
-1860 1874	theskeletal bones
-T117	IDENTITY_chain 1842 1845;	the
-1860 1874	theskeletal bones
-T118	Noun_Phrase 1842 1855;	the maxillary
-1869 1874	the maxillarybones
-T119	IDENTITY_chain 1842 1855;	the maxillary
-1869 1874	the maxillarybones
+T116	Noun_Phrase 1842 1845;1860 1874	the skeletal bones
+T117	IDENTITY_chain 1842 1845;1860 1874	the skeletal bones
+T118	Noun_Phrase 1842 1855;1869 1874	the maxillary bones
+T119	IDENTITY_chain 1842 1855;1869 1874	the maxillary bones
 T120	Noun_Phrase 1842 1874	the maxillary and skeletal bones
 T121	IDENTITY_chain 1842 1874	the maxillary and skeletal bones
 T122	Noun_Phrase 1880 1900	dental abnormalities
@@ -218,8 +199,7 @@ T197	Noun_Phrase 3563 3574	plakoglobin
 T198	Noun_Phrase 3714 3717	APC
 T199	Noun_Phrase 3767 3770	APC
 T200	Noun_Phrase 3882 3885	APC
-T201	Noun_Phrase 3892 3921;	familial adenomatous polypois
-3928 3943	familial adenomatous polypoisand its variant
+T201	Noun_Phrase 3892 3921;3928 3943	familial adenomatous polypois and its variant
 T202	Noun_Phrase 3892 3921	familial adenomatous polypois
 T203	APPOS_relation 3892 3921	familial adenomatous polypois
 T204	Noun_Phrase 3923 3926	FAP
@@ -243,15 +223,11 @@ T221	IDENTITY_chain 4251 4286	upper gastrointestinal tract polyps
 T222	Noun_Phrase 4288 4344	congenital hypertrophy of the retinal pigment epithelium
 T223	Noun_Phrase 4314 4344	the retinal pigment epithelium
 T224	Noun_Phrase 4346 4360	desmoid tumors
-T225	Noun_Phrase 4362 4378;	disorders of the
-4393 4407	disorders of theskeletal bones
-T226	Noun_Phrase 4362 4388;	disorders of the maxillary
-4402 4407	disorders of the maxillarybones
+T225	Noun_Phrase 4362 4378;4393 4407	disorders of the skeletal bones
+T226	Noun_Phrase 4362 4388;4402 4407	disorders of the maxillary bones
 T227	Noun_Phrase 4362 4407	disorders of the maxillary and skeletal bones
-T228	Noun_Phrase 4375 4378;	the
-4393 4407	theskeletal bones
-T229	Noun_Phrase 4375 4388;	the maxillary
-4402 4407	the maxillarybones
+T228	Noun_Phrase 4375 4378;4393 4407	the skeletal bones
+T229	Noun_Phrase 4375 4388;4402 4407	the maxillary bones
 T230	Noun_Phrase 4375 4407	the maxillary and skeletal bones
 T231	Noun_Phrase 4413 4433	dental abnormalities
 T232	Noun_Phrase 4468 4476	APC gene
@@ -290,10 +266,8 @@ T264	Noun_Phrase 5650 5672	the conditional allele
 T265	Noun_Phrase 5723 5726	Apc
 T266	Noun_Phrase 5750 5754	life
 T267	Noun_Phrase 5771 5773	we
-T268	Noun_Phrase 5784 5822;	mice containing a conditional knockout
-5829 5849	mice containing a conditional knockoutmutant allele of Apc
-T269	Noun_Phrase 5800 5822;	a conditional knockout
-5829 5849	a conditional knockoutmutant allele of Apc
+T268	Noun_Phrase 5784 5822;5829 5849	mice containing a conditional knockout mutant allele of Apc
+T269	Noun_Phrase 5800 5822;5829 5849	a conditional knockout mutant allele of Apc
 T270	Noun_Phrase 5802 5822	conditional knockout
 T271	APPOS_relation 5802 5822	conditional knockout
 T272	Noun_Phrase 5824 5827	CKO
@@ -303,10 +277,8 @@ T275	APPOS_relation 5851 5857	ApcCKO
 T276	IDENTITY_chain 5851 5857	ApcCKO
 T277	Noun_Phrase 5860 5870	These mice
 T278	Noun_Phrase 5905 5920	Cre recombinase
-T279	Noun_Phrase 5927 5962;	the control of the human Keratin 14
-5969 5977	the control of the human Keratin 14promoter
-T280	Noun_Phrase 5942 5962;	the human Keratin 14
-5969 5977	the human Keratin 14promoter
+T279	Noun_Phrase 5927 5962;5969 5977	the control of the human Keratin 14 promoter
+T280	Noun_Phrase 5942 5962;5969 5977	the human Keratin 14 promoter
 T281	Noun_Phrase 5952 5962	Keratin 14
 T282	APPOS_relation 5952 5962	Keratin 14
 T283	Noun_Phrase 5964 5967	K14
@@ -331,12 +303,9 @@ T301	Noun_Phrase 6463 6472	?-catenin
 T302	Noun_Phrase 6483 6491	the skin
 T303	Noun_Phrase 6493 6507	its appendages
 T304	Noun_Phrase 6516 6526	the thymus
-T305	Noun_Phrase 6552 6555;	the
-6567 6579	theApc?580 Mice
-T306	IDENTITY_chain 6552 6555;	the
-6567 6579	theApc?580 Mice
-T307	Noun_Phrase 6552 6562;	the ApcCKO
-6575 6579	the ApcCKOMice
+T305	Noun_Phrase 6552 6555;6567 6579	the Apc?580 Mice
+T306	IDENTITY_chain 6552 6555;6567 6579	the Apc?580 Mice
+T307	Noun_Phrase 6552 6562;6575 6579	the ApcCKO Mice
 T308	Noun_Phrase 6608 6611	Apc
 T309	Noun_Phrase 6630 6634	skin
 T310	Noun_Phrase 6630 6653	skin and its appendages
@@ -351,18 +320,15 @@ T318	Noun_Phrase 6748 6750	We
 T319	Noun_Phrase 6763 6777	embryonic stem
 T320	APPOS_relation 6763 6777	embryonic stem
 T321	Noun_Phrase 6779 6781	ES
-T322	Noun_Phrase 6807 6914;	an Apc allele harboring both a pair of loxP sites flanking Apc exon 14 and a pair of FLP recognition target
-6921 6967	an Apc allele harboring both a pair of loxP sites flanking Apc exon 14 and a pair of FLP recognition targetsites flanking PGK-neomycin selection cassette
+T322	Noun_Phrase 6807 6914;6921 6967	an Apc allele harboring both a pair of loxP sites flanking Apc exon 14 and a pair of FLP recognition target sites flanking PGK-neomycin selection cassette
 T323	Noun_Phrase 6836 6877	a pair of loxP sites flanking Apc exon 14
 T324	IDENTITY_chain 6836 6877	a pair of loxP sites flanking Apc exon 14
 T325	Noun_Phrase 6846 6856	loxP sites
 T326	IDENTITY_chain 6846 6856	loxP sites
 T327	Noun_Phrase 6866 6877	Apc exon 14
 T328	IDENTITY_chain 6866 6877	Apc exon 14
-T329	Noun_Phrase 6882 6914;	a pair of FLP recognition target
-6921 6967	a pair of FLP recognition targetsites flanking PGK-neomycin selection cassette
-T330	IDENTITY_chain 6882 6914;	a pair of FLP recognition target
-6921 6967	a pair of FLP recognition targetsites flanking PGK-neomycin selection cassette
+T329	Noun_Phrase 6882 6914;6921 6967	a pair of FLP recognition target sites flanking PGK-neomycin selection cassette
+T330	IDENTITY_chain 6882 6914;6921 6967	a pair of FLP recognition target sites flanking PGK-neomycin selection cassette
 T331	Noun_Phrase 6892 6914	FLP recognition target
 T332	APPOS_relation 6892 6914	FLP recognition target
 T333	Noun_Phrase 6916 6919	FRT
@@ -376,10 +342,8 @@ T340	IDENTITY_chain 7048 7071	A PGK-neomycin cassette
 T341	Noun_Phrase 7128 7131	Apc
 T342	Noun_Phrase 7135 7167	intron 14 of the endogenous gene
 T343	IDENTITY_chain 7135 7167	intron 14 of the endogenous gene
-T344	Noun_Phrase 7169 7172;	The
-7182 7191	TheFRT sites
-T345	Noun_Phrase 7169 7177;	The loxP
-7186 7191	The loxPsites
+T344	Noun_Phrase 7169 7172;7182 7191	The FRT sites
+T345	Noun_Phrase 7169 7177;7186 7191	The loxP sites
 T346	Noun_Phrase 7247 7295	Two mouse lines containing the same modification
 T347	IDENTITY_chain 7247 7295	Two mouse lines containing the same modification
 T348	Noun_Phrase 7316 7341	two independent ES clones
@@ -387,10 +351,8 @@ T349	IDENTITY_chain 7316 7341	two independent ES clones
 T350	Noun_Phrase 7357 7372	these two lines
 T351	Noun_Phrase 7436 7448	FLPe-deleter
 T352	IDENTITY_chain 7436 7448	FLPe-deleter
-T353	Noun_Phrase 7502 7527;	the final Apc conditional
-7537 7647	the final Apc conditionalallele that removed the PGK-neomycin cassette and contains only the loxP sites in the introns flanking exon 14
-T354	IDENTITY_chain 7502 7527;	the final Apc conditional
-7537 7647	the final Apc conditionalallele that removed the PGK-neomycin cassette and contains only the loxP sites in the introns flanking exon 14
+T353	Noun_Phrase 7502 7527;7537 7647	the final Apc conditional allele that removed the PGK-neomycin cassette and contains only the loxP sites in the introns flanking exon 14
+T354	IDENTITY_chain 7502 7527;7537 7647	the final Apc conditional allele that removed the PGK-neomycin cassette and contains only the loxP sites in the introns flanking exon 14
 T355	Noun_Phrase 7512 7527	Apc conditional
 T356	APPOS_relation 7512 7527	Apc conditional
 T357	Noun_Phrase 7529 7535	ApcCKO
@@ -420,10 +382,8 @@ T380	Noun_Phrase 8107 8112	which
 T381	Noun_Phrase 8144 8166	the normal Apc protein
 T382	Noun_Phrase 8169 8255	Southern blot analysis of tail DNA from F1 offspring of both ApcCKON and Apc?580 lines
 T383	IDENTITY_chain 8169 8255	Southern blot analysis of tail DNA from F1 offspring of both ApcCKON and Apc?580 lines
-T384	Noun_Phrase 8230 8237;	ApcCKON
-8250 8255	ApcCKONlines
-T385	IDENTITY_chain 8230 8237;	ApcCKON
-8250 8255	ApcCKONlines
+T384	Noun_Phrase 8230 8237;8250 8255	ApcCKON lines
+T385	IDENTITY_chain 8230 8237;8250 8255	ApcCKON lines
 T386	Noun_Phrase 8242 8255	Apc?580 lines
 T387	IDENTITY_chain 8242 8255	Apc?580 lines
 T388	Noun_Phrase 8316 8325	Figure 1B
@@ -506,10 +466,8 @@ T464	IDENTITY_chain 10912 10923	mature skin
 T465	Noun_Phrase 10947 10949	it
 T466	Noun_Phrase 10963 10981	embryonic ectoderm
 T467	IDENTITY_chain 10963 10981	embryonic ectoderm
-T468	Noun_Phrase 11033 11046;	embryonic day
-11051 11054	embryonic day9.5
-T469	IDENTITY_chain 11033 11046;	embryonic day
-11051 11054	embryonic day9.5
+T468	Noun_Phrase 11033 11046;11051 11054	embryonic day 9.5
+T469	IDENTITY_chain 11033 11046;11051 11054	embryonic day 9.5
 T470	Noun_Phrase 11088 11091	K14
 T471	Noun_Phrase 11109 11132	thymic epithelial cells
 T472	APPOS_relation 11109 11132	thymic epithelial cells
@@ -519,10 +477,8 @@ T475	IDENTITY_chain 11158 11171	normal thymus
 T476	Noun_Phrase 11179 11181	We
 T477	Noun_Phrase 11203 11211	458 pups
 T478	IDENTITY_chain 11203 11211	458 pups
-T479	Noun_Phrase 11272 11280;	K14-cre;
-11294 11309	K14-cre;ApcCKO/CKO mice
-T480	Noun_Phrase 11272 11289;	K14-cre; ApcCKO/+
-11305 11309	K14-cre; ApcCKO/+mice
+T479	Noun_Phrase 11272 11280;11294 11309	K14-cre; ApcCKO/CKO mice
+T480	Noun_Phrase 11272 11289;11305 11309	K14-cre; ApcCKO/+ mice
 T481	Noun_Phrase 11311 11362	The mutant mice of the genotype K14-cre; ApcCKO/CKO
 T482	Noun_Phrase 11427 11437	KA mutants
 T483	Noun_Phrase 11473 11476	458
@@ -542,10 +498,8 @@ T496	Noun_Phrase 11946 11951	their
 T497	Noun_Phrase 12004 12008	they
 T498	Noun_Phrase 12027 12035	Figure 2
 T499	IDENTITY_chain 12027 12035	Figure 2
-T500	Noun_Phrase 12041 12054;	postnatal day
-12059 12063	postnatal day8–10
-T501	IDENTITY_chain 12041 12054;	postnatal day
-12059 12063	postnatal day8–10
+T500	Noun_Phrase 12041 12054;12059 12063	postnatal day 8–10
+T501	IDENTITY_chain 12041 12054;12059 12063	postnatal day 8–10
 T502	Noun_Phrase 12092 12111	many KA mutant pups
 T503	IDENTITY_chain 12092 12111	many KA mutant pups
 T504	Noun_Phrase 12143 12148	their
@@ -594,18 +548,15 @@ T546	Noun_Phrase 13292 13310	two lower incisors
 T547	Noun_Phrase 13329 13347	normal littermates
 T548	Noun_Phrase 13352 13357	these
 T549	Noun_Phrase 13373 13387	the KA mutants
-T550	Noun_Phrase 13389 13395;	Figure
-13403 13405	Figure2D
-T551	IDENTITY_chain 13389 13395;	Figure
-13403 13405	Figure2D
+T550	Noun_Phrase 13389 13395;13403 13405	Figure 2D
+T551	IDENTITY_chain 13389 13395;13403 13405	Figure 2D
 T552	Noun_Phrase 13389 13398	Figure 2C
 T553	IDENTITY_chain 13389 13398	Figure 2C
 T554	Noun_Phrase 13389 13405	Figure 2C and 2D
 T555	IDENTITY_chain 13389 13405	Figure 2C and 2D
 T556	Noun_Phrase 13408 13415	Animals
 T557	IDENTITY_chain 13408 13415	Animals
-T558	Noun_Phrase 13544 13550;	Figure
-13558 13560	Figure2D
+T558	Noun_Phrase 13544 13550;13558 13560	Figure 2D
 T559	Noun_Phrase 13544 13553	Figure 2C
 T560	Noun_Phrase 13544 13560	Figure 2C and 2D
 T561	Noun_Phrase 13594 13599	their
@@ -623,10 +574,8 @@ T572	IDENTITY_chain 13866 13869	age
 T573	Noun_Phrase 13871 13891	surviving KA mutants
 T574	Noun_Phrase 13944 13948	they
 T575	Noun_Phrase 13981 13985	them
-T576	Noun_Phrase 14007 14013;	Figure
-14021 14023	Figure2F
-T577	IDENTITY_chain 14007 14013;	Figure
-14021 14023	Figure2F
+T576	Noun_Phrase 14007 14013;14021 14023	Figure 2F
+T577	IDENTITY_chain 14007 14013;14021 14023	Figure 2F
 T578	Noun_Phrase 14007 14016	Figure 2E
 T579	Noun_Phrase 14049 14064	all the mutants
 T580	IDENTITY_chain 14049 14064	all the mutants
@@ -653,10 +602,8 @@ T600	IDENTITY_chain 15138 15147	Figure 2G
 T601	Noun_Phrase 15315 15326	Mutant mice
 T602	Noun_Phrase 15412 15450	P16–P17 mice stained with Alizarin red
 T603	IDENTITY_chain 15412 15450	P16–P17 mice stained with Alizarin red
-T604	Noun_Phrase 15475 15478;	the
-15490 15504	theKA mutant mice
-T605	IDENTITY_chain 15475 15478;	the
-15490 15504	theKA mutant mice
+T604	Noun_Phrase 15475 15478;15490 15504	the KA mutant mice
+T605	IDENTITY_chain 15475 15478;15490 15504	the KA mutant mice
 T606	Noun_Phrase 15475 15504	the normal and KA mutant mice
 T607	Noun_Phrase 15549 15564	the mutant mice
 T608	Noun_Phrase 15632 15641	Figure 2H
@@ -665,24 +612,16 @@ T610	Noun_Phrase 15644 15646	We
 T611	Noun_Phrase 15740 15769	the Truncated Apc Transcripts
 T612	IDENTITY_chain 15740 15769	the Truncated Apc Transcripts
 T613	Noun_Phrase 15842 15844	we
-T614	Noun_Phrase 15874 15885;	deleted Apc
-15896 15903	deleted Apcalleles
-T615	APPOS_relation 15874 15885;	deleted Apc
-15896 15903	deleted Apcalleles
+T614	Noun_Phrase 15874 15885;15896 15903	deleted Apc alleles
+T615	APPOS_relation 15874 15885;15896 15903	deleted Apc alleles
 T616	Noun_Phrase 15887 15894	Apc?580
-T617	Noun_Phrase 15943 15949;	thymus
-15960 15989	thymusfrom all 4 possible genotypes
-T618	IDENTITY_chain 15943 15949;	thymus
-15960 15989	thymusfrom all 4 possible genotypes
+T617	Noun_Phrase 15943 15949;15960 15989	thymus from all 4 possible genotypes
+T618	IDENTITY_chain 15943 15949;15960 15989	thymus from all 4 possible genotypes
 T619	Noun_Phrase 16114 16132	the Apc?580 allele
-T620	Noun_Phrase 16173 16176;	the
-16186 16221	thethymus of the K14-cre–positive mice
-T621	IDENTITY_chain 16173 16176;	the
-16186 16221	thethymus of the K14-cre–positive mice
-T622	Noun_Phrase 16173 16181;	the skin
-16193 16221	the skinof the K14-cre–positive mice
-T623	IDENTITY_chain 16173 16181;	the skin
-16193 16221	the skinof the K14-cre–positive mice
+T620	Noun_Phrase 16173 16176;16186 16221	the thymus of the K14-cre–positive mice
+T621	IDENTITY_chain 16173 16176;16186 16221	the thymus of the K14-cre–positive mice
+T622	Noun_Phrase 16173 16181;16193 16221	the skin of the K14-cre–positive mice
+T623	IDENTITY_chain 16173 16181;16193 16221	the skin of the K14-cre–positive mice
 T624	Noun_Phrase 16173 16221	the skin and thymus of the K14-cre–positive mice
 T625	IDENTITY_chain 16173 16221	the skin and thymus of the K14-cre–positive mice
 T626	Noun_Phrase 16196 16221	the K14-cre–positive mice
@@ -691,10 +630,8 @@ T628	Noun_Phrase 16239 16256	mutant Apc allele
 T629	Noun_Phrase 16274 16296	K14-cre; ApcCKO/+ mice
 T630	Noun_Phrase 16342 16369	the skin of the same animal
 T631	Noun_Phrase 16392 16406	the KA mutants
-T632	Noun_Phrase 16468 16497;	the liver of K14-cre–positive
-16532 16553	the liver of K14-cre–positivemouse tissues samples
-T633	IDENTITY_chain 16468 16497;	the liver of K14-cre–positive
-16532 16553	the liver of K14-cre–positivemouse tissues samples
+T632	Noun_Phrase 16468 16497;16532 16553	the liver of K14-cre–positive mouse tissues samples
+T633	IDENTITY_chain 16468 16497;16532 16553	the liver of K14-cre–positive mouse tissues samples
 T634	Noun_Phrase 16511 16553	the K14-cre–negative mouse tissues samples
 T635	IDENTITY_chain 16511 16553	the K14-cre–negative mouse tissues samples
 T636	Noun_Phrase 16573 16599	Cre-mediated recombination
@@ -707,14 +644,9 @@ T642	IDENTITY_chain 16733 16739	RT-PCR
 T643	Noun_Phrase 16762 16769	exon 14
 T644	Noun_Phrase 16771 16780	Figure 1A
 T645	Noun_Phrase 16846 16848	We
-T646	Noun_Phrase 16858 16885;	the expected RT-PCR product
-16895 16917;	the expected RT-PCR productfrom the truncated Apc
-16928 16934	the expected RT-PCR productfrom the truncated Apcallele
-T647	IDENTITY_chain 16858 16885;	the expected RT-PCR product
-16895 16917;	the expected RT-PCR productfrom the truncated Apc
-16928 16934	the expected RT-PCR productfrom the truncated Apcallele
-T648	Noun_Phrase 16900 16917;	the truncated Apc
-16928 16934	the truncated Apcallele
+T646	Noun_Phrase 16858 16885;16895 16917;16928 16934	the expected RT-PCR product from the truncated Apc allele
+T647	IDENTITY_chain 16858 16885;16895 16917;16928 16934	the expected RT-PCR product from the truncated Apc allele
+T648	Noun_Phrase 16900 16917;16928 16934	the truncated Apc allele
 T649	Noun_Phrase 16919 16926	Apc?580
 T650	APPOS_relation 16919 16926	Apc?580
 T651	Noun_Phrase 16961 16976	Cre recombinase
@@ -783,10 +715,8 @@ T713	Noun_Phrase 19605 19614	epidermis
 T714	Noun_Phrase 19622 19625	K14
 T715	Noun_Phrase 19622 19636	K14 expression
 T716	IDENTITY_chain 19622 19636	K14 expression
-T717	Noun_Phrase 19655 19661;	Figure
-19669 19671	Figure4D
-T718	IDENTITY_chain 19655 19661;	Figure
-19669 19671	Figure4D
+T717	Noun_Phrase 19655 19661;19669 19671	Figure 4D
+T718	IDENTITY_chain 19655 19661;19669 19671	Figure 4D
 T719	Noun_Phrase 19655 19664	Figure 4C
 T720	IDENTITY_chain 19655 19664	Figure 4C
 T721	Noun_Phrase 19700 19702	K1
@@ -809,10 +739,8 @@ T737	Noun_Phrase 20008 20036	the terminal differentiation
 T738	IDENTITY_chain 20008 20036	the terminal differentiation
 T739	Noun_Phrase 20100 20102	K6
 T740	IDENTITY_chain 20100 20102	K6
-T741	Noun_Phrase 20140 20154;	the suprabasal
-20164 20180	the suprabasallayer of the ORS
-T742	IDENTITY_chain 20140 20154;	the suprabasal
-20164 20180	the suprabasallayer of the ORS
+T741	Noun_Phrase 20140 20154;20164 20180	the suprabasal layer of the ORS
+T742	IDENTITY_chain 20140 20154;20164 20180	the suprabasal layer of the ORS
 T743	Noun_Phrase 20173 20180	the ORS
 T744	Noun_Phrase 20184 20201	the hair follicle
 T745	Noun_Phrase 20213 20226	the epidermis
@@ -831,8 +759,7 @@ T757	Noun_Phrase 20486 20493	the ORS
 T758	Noun_Phrase 20542 20545	K14
 T759	Noun_Phrase 20549 20551	K5
 T760	IDENTITY_chain 20549 20551	K5
-T761	Noun_Phrase 20553 20559;	Figure
-20567 20569	Figure4J
+T761	Noun_Phrase 20553 20559;20567 20569	Figure 4J
 T762	Noun_Phrase 20553 20562	Figure 4I
 T763	IDENTITY_chain 20553 20562	Figure 4I
 T764	Noun_Phrase 20576 20587	normal skin
@@ -853,10 +780,8 @@ T778	Noun_Phrase 20774 20778	Ki67
 T779	IDENTITY_chain 20774 20778	Ki67
 T780	Noun_Phrase 20833 20862	the base of the hair follicle
 T781	Noun_Phrase 20845 20862	the hair follicle
-T782	Noun_Phrase 20963 20969;	Figure
-20977 20980	Figure4G?
-T783	IDENTITY_chain 20963 20969;	Figure
-20977 20980	Figure4G?
+T782	Noun_Phrase 20963 20969;20977 20980	Figure 4G?
+T783	IDENTITY_chain 20963 20969;20977 20980	Figure 4G?
 T784	Noun_Phrase 20963 20972	Figure 4G
 T785	IDENTITY_chain 20963 20972	Figure 4G
 T786	Noun_Phrase 21050 21069	proliferating cells
@@ -864,18 +789,15 @@ T787	Noun_Phrase 21112 21127	the mutant skin
 T788	Noun_Phrase 21129 21142	proliferation
 T789	IDENTITY_chain 21129 21142	proliferation
 T790	Noun_Phrase 21194 21209	the normal skin
-T791	Noun_Phrase 21211 21217;	Figure
-21225 21228	Figure4G?
+T791	Noun_Phrase 21211 21217;21225 21228	Figure 4G?
 T792	Noun_Phrase 21211 21220	Figure 4G
 T793	Noun_Phrase 21334 21363	their disorganized structures
 T794	Noun_Phrase 21383 21398	the mutant skin
 T795	Noun_Phrase 21457 21472	the normal skin
 T796	Noun_Phrase 21485 21524	strong cytosolic ?-catenin localization
 T797	IDENTITY_chain 21485 21524	strong cytosolic ?-catenin localization
-T798	Noun_Phrase 21556 21562;	Figure
-21570 21573	Figure4H?
-T799	IDENTITY_chain 21556 21562;	Figure
-21570 21573	Figure4H?
+T798	Noun_Phrase 21556 21562;21570 21573	Figure 4H?
+T799	IDENTITY_chain 21556 21562;21570 21573	Figure 4H?
 T800	Noun_Phrase 21556 21565	Figure 4H
 T801	IDENTITY_chain 21556 21565	Figure 4H
 T802	Noun_Phrase 21645 21664	proliferating cells
@@ -929,18 +851,15 @@ T849	Noun_Phrase 22974 22977	ISH
 T850	Noun_Phrase 22982 23002	E15.5 mutant embryos
 T851	IDENTITY_chain 22982 23002	E15.5 mutant embryos
 T852	Noun_Phrase 23007 23016	?-catenin
-T853	Noun_Phrase 23018 23024;	Figure
-23032 23035	Figure5F?
-T854	IDENTITY_chain 23018 23024;	Figure
-23032 23035	Figure5F?
+T853	Noun_Phrase 23018 23024;23032 23035	Figure 5F?
+T854	IDENTITY_chain 23018 23024;23032 23035	Figure 5F?
 T855	Noun_Phrase 23018 23027	Figure 5F
 T856	IDENTITY_chain 23018 23027	Figure 5F
 T857	Noun_Phrase 23064 23073	?-catenin
 T858	Noun_Phrase 23141 23154	hair placodes
 T859	Noun_Phrase 23158 23183	the normal embryonic skin
 T860	IDENTITY_chain 23158 23183	the normal embryonic skin
-T861	Noun_Phrase 23185 23191;	Figure
-23199 23202	Figure5E?
+T861	Noun_Phrase 23185 23191;23199 23202	Figure 5E?
 T862	Noun_Phrase 23185 23194	Figure 5E
 T863	IDENTITY_chain 23185 23194	Figure 5E
 T864	Noun_Phrase 23247 23293	often tightly clustered abnormal hair placodes
@@ -993,19 +912,13 @@ T910	Noun_Phrase 24960 24975	the normal skin
 T911	Noun_Phrase 25014 25023	?-catenin
 T912	Noun_Phrase 25090 25101	normal mice
 T913	Noun_Phrase 25106 25113	mutants
-T914	Noun_Phrase 25160 25166;	strong
-25177 25203	strongnuclear ?-catenin staining
-T915	IDENTITY_chain 25160 25166;	strong
-25177 25203	strongnuclear ?-catenin staining
+T914	Noun_Phrase 25160 25166;25177 25203	strong nuclear ?-catenin staining
+T915	IDENTITY_chain 25160 25166;25177 25203	strong nuclear ?-catenin staining
 T916	Noun_Phrase 25220 25235	the mutant skin
-T917	Noun_Phrase 25237 25243;	Figure
-25248 25251	Figure4Q?
-T918	IDENTITY_chain 25237 25243;	Figure
-25248 25251	Figure4Q?
-T919	Noun_Phrase 25237 25243;	Figure
-25257 25259	Figure4R
-T920	IDENTITY_chain 25237 25243;	Figure
-25257 25259	Figure4R
+T917	Noun_Phrase 25237 25243;25248 25251	Figure 4Q?
+T918	IDENTITY_chain 25237 25243;25248 25251	Figure 4Q?
+T919	Noun_Phrase 25237 25243;25257 25259	Figure 4R
+T920	IDENTITY_chain 25237 25243;25257 25259	Figure 4R
 T921	Noun_Phrase 25237 25246	Figure 4Q
 T922	IDENTITY_chain 25237 25246	Figure 4Q
 T923	Noun_Phrase 25298 25313	the mutant mice
@@ -1025,10 +938,8 @@ T936	Noun_Phrase 25780 25794	K14 expression
 T937	Noun_Phrase 25801 25803	It
 T938	Noun_Phrase 25846 25881	thymocyte development and selection
 T939	IDENTITY_chain 25846 25881	thymocyte development and selection
-T940	Noun_Phrase 25883 25913;	Distinct population of TECs of
-25925 25932	Distinct population of TECs ofmedulla
-T941	IDENTITY_chain 25883 25913;	Distinct population of TECs of
-25925 25932	Distinct population of TECs ofmedulla
+T940	Noun_Phrase 25883 25913;25925 25932	Distinct population of TECs of medulla
+T941	IDENTITY_chain 25883 25913;25925 25932	Distinct population of TECs of medulla
 T942	Noun_Phrase 25883 25920	Distinct population of TECs of cortex
 T943	IDENTITY_chain 25883 25920	Distinct population of TECs of cortex
 T944	Noun_Phrase 25883 25932	Distinct population of TECs of cortex and medulla
@@ -1037,8 +948,7 @@ T946	Noun_Phrase 25914 25920	cortex
 T947	IDENTITY_chain 25914 25920	cortex
 T948	Noun_Phrase 25925 25932	medulla
 T949	Noun_Phrase 25942 25974	both of these critical functions
-T950	Noun_Phrase 25976 25984;	Cortical
-25999 26010	CorticalTEC subsets
+T950	Noun_Phrase 25976 25984;25999 26010	Cortical TEC subsets
 T951	Noun_Phrase 25976 26010	Cortical and medullary TEC subsets
 T952	Noun_Phrase 25989 26010	medullary TEC subsets
 T953	Noun_Phrase 26059 26079	four keratin species
@@ -1095,10 +1005,8 @@ T1003	IDENTITY_chain 27280 27289	Figure 6C
 T1004	Noun_Phrase 27307 27310	K14
 T1005	Noun_Phrase 27307 27321	K14 expression
 T1006	Noun_Phrase 27344 27346	K8
-T1007	Noun_Phrase 27363 27379;	epithelial cells
-27385 27399	epithelial cellsin the medulla
-T1008	Noun_Phrase 27388 27391;	the
-27404 27410	thecortex
+T1007	Noun_Phrase 27363 27379;27385 27399	epithelial cells in the medulla
+T1008	Noun_Phrase 27388 27391;27404 27410	the cortex
 T1009	Noun_Phrase 27388 27399	the medulla
 T1010	Noun_Phrase 27424 27435	K1 staining
 T1011	IDENTITY_chain 27424 27435	K1 staining
@@ -1111,10 +1019,8 @@ T1017	Noun_Phrase 27550 27570	Hassall's corpuscles
 T1018	Noun_Phrase 27585 27625	The histological abnormalities of thymus
 T1019	Noun_Phrase 27619 27625	thymus
 T1020	Noun_Phrase 27657 27667	KA mutants
-T1021	Noun_Phrase 27669 27675;	Figure
-27683 27685	Figure6H
-T1022	IDENTITY_chain 27669 27675;	Figure
-27683 27685	Figure6H
+T1021	Noun_Phrase 27669 27675;27683 27685	Figure 6H
+T1022	IDENTITY_chain 27669 27675;27683 27685	Figure 6H
 T1023	Noun_Phrase 27669 27678	Figure 6E
 T1024	IDENTITY_chain 27669 27678	Figure 6E
 T1025	Noun_Phrase 27688 27698	The thymus
@@ -1170,10 +1076,8 @@ T1074	Noun_Phrase 29141 29150	Figure 6H
 T1075	Noun_Phrase 29237 29254	the normal thymus
 T1076	Noun_Phrase 29325 29334	Figure 6I
 T1077	IDENTITY_chain 29325 29334	Figure 6I
-T1078	Noun_Phrase 29347 29350;	the
-29361 29378	themild mutant thymi
-T1079	Noun_Phrase 29347 29357;	the normal
-29373 29378	the normalthymi
+T1078	Noun_Phrase 29347 29350;29361 29378	the mild mutant thymi
+T1079	Noun_Phrase 29347 29357;29373 29378	the normal thymi
 T1080	Noun_Phrase 29380 29407	the severe P3 mutant thymus
 T1081	Noun_Phrase 29425 29428	K14
 T1082	Noun_Phrase 29461 29463	K8
@@ -1185,8 +1089,7 @@ T1087	Noun_Phrase 29515 29538	basal cells of the skin
 T1088	IDENTITY_chain 29515 29538	basal cells of the skin
 T1089	Noun_Phrase 29530 29538	the skin
 T1090	Noun_Phrase 29544 29548	TECs
-T1091	Noun_Phrase 29620 29634;	strong nuclear
-29651 29669	strong nuclear?-catenin staining
+T1091	Noun_Phrase 29620 29634;29651 29669	strong nuclear ?-catenin staining
 T1092	Noun_Phrase 29671 29680	Figure 6J
 T1093	IDENTITY_chain 29671 29680	Figure 6J
 T1094	Noun_Phrase 29683 29716	The nuclear staining of ?-catenin
@@ -1196,16 +1099,13 @@ T1097	Noun_Phrase 29737 29766	the normal age-matched thymus
 T1098	Noun_Phrase 29768 29777	Figure 6C
 T1099	Noun_Phrase 29798 29801	K14
 T1100	Noun_Phrase 29806 29815	?-catenin
-T1101	Noun_Phrase 29859 29865;	Figure
-29873 29875	Figure6K
+T1101	Noun_Phrase 29859 29865;29873 29875	Figure 6K
 T1102	Noun_Phrase 29859 29868	Figure 6J
 T1103	Noun_Phrase 29891 29908	the mutant thymus
 T1104	Noun_Phrase 30060 30082	large keratin deposits
 T1105	IDENTITY_chain 30060 30082	large keratin deposits
-T1106	Noun_Phrase 30084 30090;	Figure
-30098 30100	Figure6O
-T1107	IDENTITY_chain 30084 30090;	Figure
-30098 30100	Figure6O
+T1106	Noun_Phrase 30084 30090;30098 30100	Figure 6O
+T1107	IDENTITY_chain 30084 30090;30098 30100	Figure 6O
 T1108	Noun_Phrase 30084 30093	Figure 6L
 T1109	IDENTITY_chain 30084 30093	Figure 6L
 T1110	Nonreferential_pronoun 30103 30108	There
@@ -1240,8 +1140,7 @@ T1138	Noun_Phrase 31069 31086	the mutant thymus
 T1139	IDENTITY_chain 31069 31086	the mutant thymus
 T1140	Noun_Phrase 31139 31148	?-catenin
 T1141	Noun_Phrase 31220 31222	K8
-T1142	Noun_Phrase 31220 31222;	K8
-31227 31237	K8expression
+T1142	Noun_Phrase 31220 31222;31227 31237	K8 expression
 T1143	Noun_Phrase 31223 31226	K14
 T1144	Noun_Phrase 31223 31237	K14 expression
 T1145	Noun_Phrase 31300 31323	the older mutant thymus
@@ -1251,10 +1150,8 @@ T1148	Noun_Phrase 31411 31420	?-catenin
 T1149	Noun_Phrase 31424 31443	K14-expressing TECs
 T1150	IDENTITY_chain 31424 31443	K14-expressing TECs
 T1151	Noun_Phrase 31452 31457	their
-T1152	Noun_Phrase 31583 31592;	medullary
-31605 31609	medullaryTECs
-T1153	IDENTITY_chain 31583 31592;	medullary
-31605 31609	medullaryTECs
+T1152	Noun_Phrase 31583 31592;31605 31609	medullary TECs
+T1153	IDENTITY_chain 31583 31592;31605 31609	medullary TECs
 T1154	Noun_Phrase 31596 31609	cortical TECs
 T1155	IDENTITY_chain 31596 31609	cortical TECs
 T1156	Noun_Phrase 31706 31714	the mice
@@ -1266,8 +1163,7 @@ T1161	Noun_Phrase 31833 31846	tumorigenesis
 T1162	Noun_Phrase 31848 31879	Human germline mutations in APC
 T1163	IDENTITY_chain 31848 31879	Human germline mutations in APC
 T1164	Noun_Phrase 31876 31879	APC
-T1165	Noun_Phrase 31886 31889;	FAP
-31897 32064	FAPwhich is characterized by hundreds of adenomatous colorectal polyps, with an almost inevitable progression to colorectal cancer in the third and fourth decades of life
+T1165	Noun_Phrase 31886 31889;31897 32064	FAP which is characterized by hundreds of adenomatous colorectal polyps, with an almost inevitable progression to colorectal cancer in the third and fourth decades of life
 T1166	Noun_Phrase 31935 31964	adenomatous colorectal polyps
 T1167	Noun_Phrase 32007 32024	colorectal cancer
 T1168	Noun_Phrase 32028 32064	the third and fourth decades of life
@@ -1286,15 +1182,11 @@ T1180	Noun_Phrase 32257 32292	upper gastrointestinal tract polyps
 T1181	Noun_Phrase 32294 32350	congenital hypertrophy of the retinal pigment epithelium
 T1182	Noun_Phrase 32320 32350	the retinal pigment epithelium
 T1183	Noun_Phrase 32352 32366	desmoid tumors
-T1184	Noun_Phrase 32368 32384;	disorders of the
-32399 32413	disorders of theskeletal bones
-T1185	Noun_Phrase 32368 32394;	disorders of the maxillary
-32408 32413	disorders of the maxillarybones
+T1184	Noun_Phrase 32368 32384;32399 32413	disorders of the skeletal bones
+T1185	Noun_Phrase 32368 32394;32408 32413	disorders of the maxillary bones
 T1186	Noun_Phrase 32368 32413	disorders of the maxillary and skeletal bones
-T1187	Noun_Phrase 32381 32384;	the
-32399 32413	theskeletal bones
-T1188	Noun_Phrase 32381 32394;	the maxillary
-32408 32413	the maxillarybones
+T1187	Noun_Phrase 32381 32384;32399 32413	the skeletal bones
+T1188	Noun_Phrase 32381 32394;32408 32413	the maxillary bones
 T1189	Noun_Phrase 32381 32413	the maxillary and skeletal bones
 T1190	Noun_Phrase 32419 32439	dental abnormalities
 T1191	Noun_Phrase 32455 32489	heterozygous knockout mice for Apc
@@ -1304,8 +1196,7 @@ T1194	Noun_Phrase 32585 32597	gastrulation
 T1195	Noun_Phrase 32641 32644	Apc
 T1196	Noun_Phrase 32641 32649	Apc loss
 T1197	Noun_Phrase 32795 32797	we
-T1198	Noun_Phrase 32830 32857;	a conditional allele of Apc
-32867 32923	a conditional allele of Apcin which exon 14 of the Apc is flanked by loxP sequences
+T1198	Noun_Phrase 32830 32857;32867 32923	a conditional allele of Apc in which exon 14 of the Apc is flanked by loxP sequences
 T1199	Noun_Phrase 32854 32857	Apc
 T1200	Noun_Phrase 32859 32865	ApcCKO
 T1201	APPOS_relation 32859 32865	ApcCKO
@@ -1352,22 +1243,16 @@ T1241	Noun_Phrase 34257 34266	epidermis
 T1242	Noun_Phrase 34326 34330	mice
 T1243	Noun_Phrase 34340 34343	Our
 T1244	Noun_Phrase 34380 34398	embryonic ectoderm
-T1245	Noun_Phrase 34411 34466;	irregularly spaced and often tightly clustered abnormal
-34495 34517	irregularly spaced and often tightly clustered abnormalfollicle morphogenesis
+T1245	Noun_Phrase 34411 34466;34495 34517	irregularly spaced and often tightly clustered abnormal follicle morphogenesis
 T1246	Noun_Phrase 34411 34490	irregularly spaced and often tightly clustered abnormal hair placode initiation
-T1247	Noun_Phrase 34519 34526;	Figures
-34531 34533	Figures5B
-T1248	Noun_Phrase 34519 34526;	Figures
-34535 34537	Figures5D
-T1249	Noun_Phrase 34519 34526;	Figures
-34543 34545	Figures5F
+T1247	Noun_Phrase 34519 34526;34531 34533	Figures 5B
+T1248	Noun_Phrase 34519 34526;34535 34537	Figures 5D
+T1249	Noun_Phrase 34519 34526;34543 34545	Figures 5F
 T1250	Noun_Phrase 34519 34529	Figures 4F
 T1251	Noun_Phrase 34561 34599	the development of multiple tooth buds
 T1252	Noun_Phrase 34580 34599	multiple tooth buds
-T1253	Noun_Phrase 34601 34607;	Figure
-34615 34617	Figure4P
-T1254	IDENTITY_chain 34601 34607;	Figure
-34615 34617	Figure4P
+T1253	Noun_Phrase 34601 34607;34615 34617	Figure 4P
+T1254	IDENTITY_chain 34601 34607;34615 34617	Figure 4P
 T1255	Noun_Phrase 34601 34610	Figure 4O
 T1256	IDENTITY_chain 34601 34610	Figure 4O
 T1257	Noun_Phrase 34601 34617	Figure 4O and 4P
@@ -1390,19 +1275,12 @@ T1273	Noun_Phrase 34948 34957	?-catenin
 T1274	Noun_Phrase 34985 35011	the hair placode formation
 T1275	Noun_Phrase 34989 35001	hair placode
 T1276	Noun_Phrase 35066 35089	the embryonic epidermis
-T1277	Noun_Phrase 35140 35146;	Figure
-35151 35153	Figure5D
-T1278	Noun_Phrase 35140 35146;	Figure
-35155 35157	Figure5F
-T1279	Noun_Phrase 35140 35146;	Figure
-35163 35165	Figure5H
+T1277	Noun_Phrase 35140 35146;35151 35153	Figure 5D
+T1278	Noun_Phrase 35140 35146;35155 35157	Figure 5F
+T1279	Noun_Phrase 35140 35146;35163 35165	Figure 5H
 T1280	Noun_Phrase 35140 35149	Figure 5B
-T1281	Noun_Phrase 35184 35198;	the phenotypic
-35216 35374;	the phenotypicdifferences between our KA mutant mice and the previously described K14-?N87?cat transgenic mice expressing stable ?-catenin under the control of K14 promoter
-35380 35408	the phenotypicdifferences between our KA mutant mice and the previously described K14-?N87?cat transgenic mice expressing stable ?-catenin under the control of K14 promoterand K14-Lef1 transgenic mice
-T1282	IDENTITY_chain 35184 35198;	the phenotypic
-35216 35374;	the phenotypicdifferences between our KA mutant mice and the previously described K14-?N87?cat transgenic mice expressing stable ?-catenin under the control of K14 promoter
-35380 35408	the phenotypicdifferences between our KA mutant mice and the previously described K14-?N87?cat transgenic mice expressing stable ?-catenin under the control of K14 promoterand K14-Lef1 transgenic mice
+T1281	Noun_Phrase 35184 35198;35216 35374;35380 35408	the phenotypic differences between our KA mutant mice and the previously described K14-?N87?cat transgenic mice expressing stable ?-catenin under the control of K14 promoter and K14-Lef1 transgenic mice
+T1282	IDENTITY_chain 35184 35198;35216 35374;35380 35408	the phenotypic differences between our KA mutant mice and the previously described K14-?N87?cat transgenic mice expressing stable ?-catenin under the control of K14 promoter and K14-Lef1 transgenic mice
 T1283	Noun_Phrase 35236 35239	our
 T1284	Noun_Phrase 35236 35254	our KA mutant mice
 T1285	Noun_Phrase 35259 35374	the previously described K14-?N87?cat transgenic mice expressing stable ?-catenin under the control of K14 promoter
@@ -1416,8 +1294,7 @@ T1292	Noun_Phrase 35429 35444	our mutant mice
 T1293	Noun_Phrase 35475 35492	the K14-Lef1 mice
 T1294	Noun_Phrase 35498 35530	the K14-?N87?cat transgenic mice
 T1295	Noun_Phrase 35545 35563	the KA mutant mice
-T1296	Noun_Phrase 35624 35632;	K14-Lef1
-35656 35671	K14-Lef1transgenic mice
+T1296	Noun_Phrase 35624 35632;35656 35671	K14-Lef1 transgenic mice
 T1297	Noun_Phrase 35643 35671	K14-?N87?cat transgenic mice
 T1298	Noun_Phrase 35686 35700	KA mutant mice
 T1299	Noun_Phrase 35812 35825	K14-Lef1 mice
@@ -1469,10 +1346,8 @@ T1344	IDENTITY_chain 38379 38400	these transgenic mice
 T1345	Noun_Phrase 38465 38501	aberrant hair follicle morphogenesis
 T1346	Noun_Phrase 38503 38525	K14-driven loss of Apc
 T1347	Noun_Phrase 38522 38525	Apc
-T1348	Noun_Phrase 38533 38570;	formation of multiple tooth buds that
-38593 38683	formation of multiple tooth buds thatwere known to develop through inductive interactions between the epithelium and mesenchyme
-T1349	Noun_Phrase 38546 38570;	multiple tooth buds that
-38593 38683	multiple tooth buds thatwere known to develop through inductive interactions between the epithelium and mesenchyme
+T1348	Noun_Phrase 38533 38570;38593 38683	formation of multiple tooth buds that were known to develop through inductive interactions between the epithelium and mesenchyme
+T1349	Noun_Phrase 38546 38570;38593 38683	multiple tooth buds that were known to develop through inductive interactions between the epithelium and mesenchyme
 T1350	Noun_Phrase 38577 38591	hair follicles
 T1351	Noun_Phrase 38633 38683	interactions between the epithelium and mesenchyme
 T1352	Noun_Phrase 38654 38668	the epithelium
@@ -1483,8 +1358,7 @@ T1356	Noun_Phrase 38771 38775	Lef1
 T1357	Noun_Phrase 38854 38857	Apc
 T1358	Noun_Phrase 38854 38862	Apc loss
 T1359	Nonreferential_pronoun 39017 39019	It
-T1360	Noun_Phrase 39099 39105;	Figure
-39113 39115	Figure4P
+T1360	Noun_Phrase 39099 39105;39113 39115	Figure 4P
 T1361	Noun_Phrase 39099 39108	Figure 4O
 T1362	Noun_Phrase 39099 39115	Figure 4O and 4P
 T1363	Noun_Phrase 39150 39168	the KA mutant mice
@@ -1559,12 +1433,10 @@ T1431	Noun_Phrase 41815 41832	the mutant thymus
 T1432	Noun_Phrase 41941 41944	K14
 T1433	Noun_Phrase 42008 42031	a mild P3 mutant thymus
 T1434	IDENTITY_chain 42008 42031	a mild P3 mutant thymus
-T1435	Noun_Phrase 42033 42039;	Figure
-42047 42049	Figure6F
+T1435	Noun_Phrase 42033 42039;42047 42049	Figure 6F
 T1436	Noun_Phrase 42033 42042	Figure 6E
 T1437	Nonreferential_pronoun 42052 42054	it
-T1438	Noun_Phrase 42093 42102;	medullary
-42116 42120	medullaryTECs
+T1438	Noun_Phrase 42093 42102;42116 42120	medullary TECs
 T1439	Noun_Phrase 42107 42120	cortical TECs
 T1440	Noun_Phrase 42203 42222	K14-driven Apc loss
 T1441	Noun_Phrase 42266 42306	K8+K14+ double-positive epithelial cells
@@ -1594,8 +1466,7 @@ T1464	Noun_Phrase 43503 43506	Apc
 T1465	Noun_Phrase 43549 43558	?-catenin
 T1466	Noun_Phrase 43562 43566	TECs
 T1467	Noun_Phrase 43594 43598	them
-T1468	Noun_Phrase 43676 43684;	cortical
-43698 43702	corticalTECs
+T1468	Noun_Phrase 43676 43684;43698 43702	cortical TECs
 T1469	Noun_Phrase 43688 43702	medullary TECs
 T1470	Noun_Phrase 43822 43839	the mutant thymus
 T1471	Noun_Phrase 43968 43971	Apc
@@ -1636,8 +1507,7 @@ T1505	IDENTITY_chain 45816 45855	loxP-FRT-PGKneor-FRT selection cassette
 T1506	Noun_Phrase 45861 45885	intron14 of the Apc gene
 T1507	Noun_Phrase 45873 45885	the Apc gene
 T1508	Noun_Phrase 45887 45896	Figure 1A
-T1509	Noun_Phrase 45914 45920;	ApcCKO
-45934 45938	ApcCKOmice
+T1509	Noun_Phrase 45914 45920;45934 45938	ApcCKO mice
 T1510	Noun_Phrase 46163 46168	Roche
 T1511	IDENTITY_chain 46163 46168	Roche
 T1512	Noun_Phrase 46269 46289	the single loxP site
@@ -1675,16 +1545,12 @@ T1543	Noun_Phrase 47776 47784	The mice
 T1544	Noun_Phrase 47846 47850	mice
 T1545	Noun_Phrase 47911 47914	age
 T1546	Noun_Phrase 47959 47980	the following primers
-T1547	Noun_Phrase 47982 47993;	Apc-Int13F2
-48019 48034	Apc-Int13F2and Apc-Int13R2
-T1548	APPOS_relation 47982 47993;	Apc-Int13F2
-48019 48034	Apc-Int13F2and Apc-Int13R2
+T1547	Noun_Phrase 47982 47993;48019 48034	Apc-Int13F2 and Apc-Int13R2
+T1548	APPOS_relation 47982 47993;48019 48034	Apc-Int13F2 and Apc-Int13R2
 T1549	Noun_Phrase 47982 47993	Apc-Int13F2
 T1550	IDENTITY_chain 47982 47993	Apc-Int13F2
-T1551	Noun_Phrase 48106 48109;	the
-48124 48149	theconditional ApcCKO allele
-T1552	Noun_Phrase 48106 48119;	the wild-type
-48143 48149	the wild-typeallele
+T1551	Noun_Phrase 48106 48109;48124 48149	the conditional ApcCKO allele
+T1552	Noun_Phrase 48106 48119;48143 48149	the wild-type allele
 T1553	Noun_Phrase 48186 48217	Cre-mediated deleted Apc allele
 T1554	APPOS_relation 48186 48217	Cre-mediated deleted Apc allele
 T1555	Noun_Phrase 48219 48226	Apc?580
@@ -1722,16 +1588,12 @@ T1586	Noun_Phrase 50119 50125	RT-PCR
 T1587	Noun_Phrase 50220 50234	genotyping PCR
 T1588	IDENTITY_chain 50220 50234	genotyping PCR
 T1589	Noun_Phrase 50231 50234	PCR
-T1590	Noun_Phrase 50345 50354;	wild-type
-50373 50380	wild-typealleles
+T1590	Noun_Phrase 50345 50354;50373 50380	wild-type alleles
 T1591	Noun_Phrase 50453 50478	California, United States
 T1592	Noun_Phrase 50578 50603	thymus from each genotype
-T1593	Noun_Phrase 50758 50761;	the
-50772 50786	theApcCKO alleles
-T1594	Noun_Phrase 50758 50761;	the
-50791 50805	theApc?580 allele
-T1595	Noun_Phrase 50758 50771;	the wild-type
-50779 50786	the wild-typealleles
+T1593	Noun_Phrase 50758 50761;50772 50786	the ApcCKO alleles
+T1594	Noun_Phrase 50758 50761;50791 50805	the Apc?580 allele
+T1595	Noun_Phrase 50758 50771;50779 50786	the wild-type alleles
 T1596	Noun_Phrase 50822 50826	BrdU
 T1597	Noun_Phrase 50838 50842	Mice
 T1598	Noun_Phrase 50917 50921	BrdU
@@ -1751,12 +1613,9 @@ T1611	IDENTITY_chain 51957 51967	the slides
 T1612	Noun_Phrase 52126 52136	The slides
 T1613	Noun_Phrase 52233 52242	?-catenin
 T1614	Noun_Phrase 52276 52301	California, United States
-T1615	Noun_Phrase 52304 52312;	keratins
-52316 52317	keratins5
-T1616	Noun_Phrase 52304 52312;	keratins
-52319 52320	keratins6
-T1617	Noun_Phrase 52304 52312;	keratins
-52322 52324	keratins14
+T1615	Noun_Phrase 52304 52312;52316 52317	keratins 5
+T1616	Noun_Phrase 52304 52312;52319 52320	keratins 6
+T1617	Noun_Phrase 52304 52312;52322 52324	keratins 14
 T1618	Noun_Phrase 52304 52314	keratins 1
 T1619	Noun_Phrase 52326 52336	involucrin
 T1620	Noun_Phrase 52338 52346	loricrin
@@ -1778,22 +1637,16 @@ T1635	Noun_Phrase 53331 53359	small intestine shown in (A)
 T1636	Noun_Phrase 53551 53574	Skin Permeability Assay
 T1637	Noun_Phrase 53598 53638	Skin permeability assay of E18.5 embryos
 T1638	Noun_Phrase 53625 53638	E18.5 embryos
-T1639	Noun_Phrase 53660 53669;	KA mutant
-53674 53681	KA mutantembryos
-T1640	IDENTITY_chain 53660 53669;	KA mutant
-53674 53681	KA mutantembryos
+T1639	Noun_Phrase 53660 53669;53674 53681	KA mutant embryos
+T1640	IDENTITY_chain 53660 53669;53674 53681	KA mutant embryos
 T1641	Noun_Phrase 53694 53706	the blue dye
 T1642	Noun_Phrase 53710 53718	this age
 T1643	Noun_Phrase 53837 53850	mutant embryo
 T1644	Noun_Phrase 53909 53913	they
-T1645	Noun_Phrase 54014 54017;	P13
-54029 54041	P13Mutant Thymi
-T1646	IDENTITY_chain 54014 54017;	P13
-54029 54041	P13Mutant Thymi
-T1647	Noun_Phrase 54014 54024;	P13 Normal
-54036 54041	P13 NormalThymi
-T1648	IDENTITY_chain 54014 54024;	P13 Normal
-54036 54041	P13 NormalThymi
+T1645	Noun_Phrase 54014 54017;54029 54041	P13 Mutant Thymi
+T1646	IDENTITY_chain 54014 54017;54029 54041	P13 Mutant Thymi
+T1647	Noun_Phrase 54014 54024;54036 54041	P13 Normal Thymi
+T1648	IDENTITY_chain 54014 54024;54036 54041	P13 Normal Thymi
 T1649	Noun_Phrase 54049 54066	P13 normal thymus
 T1650	Noun_Phrase 54074 54091	P13 mutant thymus
 T1651	Noun_Phrase 54106 54108	K8
@@ -1848,8 +1701,7 @@ T1699	APPOS_relation 55246 55249	TEC
 T1700	Noun_Phrase 55252 55274	thymic epithelial cell
 T1701	Noun_Phrase 55320 55346	the Conditional Apc Allele
 T1702	Noun_Phrase 55349 55350	A
-T1703	Noun_Phrase 55373 55381;	exons 14
-55389 55410	exons 14of the mouse Apc gene
+T1703	Noun_Phrase 55373 55381;55389 55410	exons 14 of the mouse Apc gene
 T1704	Noun_Phrase 55392 55410	the mouse Apc gene
 T1705	Noun_Phrase 55438 55512	the resulting conditional allele with 2 LoxP sites sandwiching the exon 14
 T1706	Noun_Phrase 55476 55512	2 LoxP sites sandwiching the exon 14
@@ -1880,8 +1732,7 @@ T1730	Noun_Phrase 56520 56535	ApcCKO/CKO mice
 T1731	Noun_Phrase 56564 56578	Apc?580/+ mice
 T1732	Noun_Phrase 56605 56626	wild-type littermates
 T1733	Noun_Phrase 56668 56686	the Apc?580 allele
-T1734	Noun_Phrase 56760 56772;	heterozygous
-56788 56799	heterozygousApcCKO mice
+T1734	Noun_Phrase 56760 56772;56788 56799	heterozygous ApcCKO mice
 T1735	Noun_Phrase 56777 56799	homozygous ApcCKO mice
 T1736	Noun_Phrase 56841 56862	wild-type littermates
 T1737	Noun_Phrase 56865 56873	Figure 2
@@ -1920,48 +1771,34 @@ T1769	Noun_Phrase 57735 57742	Mutants
 T1770	Noun_Phrase 57798 57802	they
 T1771	Noun_Phrase 57843 57854	littermates
 T1772	Noun_Phrase 57877 57878	G
-T1773	Noun_Phrase 57894 57900;	mutant
-57912 57931	mutantthymus from P3 mice
-T1774	IDENTITY_chain 57894 57900;	mutant
-57912 57931	mutantthymus from P3 mice
+T1773	Noun_Phrase 57894 57900;57912 57931	mutant thymus from P3 mice
+T1774	IDENTITY_chain 57894 57900;57912 57931	mutant thymus from P3 mice
 T1775	Noun_Phrase 57905 57931	normal thymus from P3 mice
 T1776	Noun_Phrase 57933 57950	The mutant thymus
 T1777	Noun_Phrase 57986 57989	its
 T1778	Noun_Phrase 58066 58067	H
 T1779	Noun_Phrase 58094 58100	normal
-T1780	Noun_Phrase 58094 58100;	normal
-58108 58118	normaland mutant
+T1780	Noun_Phrase 58094 58100;58108 58118	normal and mutant
 T1781	Noun_Phrase 58112 58118	mutant
 T1782	Noun_Phrase 58259 58278	Deleted Apc Alleles
 T1783	IDENTITY_chain 58259 58278	Deleted Apc Alleles
 T1784	Noun_Phrase 58281 58282	A
-T1785	Noun_Phrase 58346 58349;	the
-58363 58369;	thethymus
-58393 58421	thethymusof mice positive for K14-cre
-T1786	Noun_Phrase 58346 58354;	the skin
-58359 58369;	the skinand thymus
-58393 58421	the skinand thymusof mice positive for K14-cre
-T1787	Noun_Phrase 58346 58354;	the skin
-58393 58421	the skinof mice positive for K14-cre
+T1785	Noun_Phrase 58346 58349;58363 58369;58393 58421	the thymus of mice positive for K14-cre
+T1786	Noun_Phrase 58346 58354;58359 58369;58393 58421	the skin and thymus of mice positive for K14-cre
+T1787	Noun_Phrase 58346 58354;58393 58421	the skin of mice positive for K14-cre
 T1788	Noun_Phrase 58396 58421	mice positive for K14-cre
 T1789	Noun_Phrase 58414 58421	K14-cre
 T1790	Noun_Phrase 58443 58465	deleted Apc?580 allele
 T1791	Noun_Phrase 58469 58470	B
 T1792	Noun_Phrase 58516 58545	the truncated Apc transcripts
 T1793	Noun_Phrase 58571 58577	RT-PCR
-T1794	Noun_Phrase 58634 58637;	the
-58647 58653;	thethymus
-58668 58696	thethymusof mice positive for K14-cre
-T1795	Noun_Phrase 58634 58642;	the skin
-58668 58696	the skinof mice positive for K14-cre
-T1796	Noun_Phrase 58634 58653;	the skin and thymus
-58668 58696	the skin and thymusof mice positive for K14-cre
+T1794	Noun_Phrase 58634 58637;58647 58653;58668 58696	the thymus of mice positive for K14-cre
+T1795	Noun_Phrase 58634 58642;58668 58696	the skin of mice positive for K14-cre
+T1796	Noun_Phrase 58634 58653;58668 58696	the skin and thymus of mice positive for K14-cre
 T1797	Noun_Phrase 58671 58696	mice positive for K14-cre
 T1798	Noun_Phrase 58689 58696	K14-cre
-T1799	Noun_Phrase 58724 58733;	wild-type
-58764 58775	wild-typeApc alleles
-T1800	Noun_Phrase 58747 58754;	deleted
-58764 58775	deletedApc alleles
+T1799	Noun_Phrase 58724 58733;58764 58775	wild-type Apc alleles
+T1800	Noun_Phrase 58747 58754;58764 58775	deleted Apc alleles
 T1801	Noun_Phrase 58778 58786	Figure 4
 T1802	Noun_Phrase 58884 58899	P12 mutant skin
 T1803	Noun_Phrase 58937 58959	P12 mutant oral cavity
@@ -2002,22 +1839,16 @@ T1837	Noun_Phrase 59649 59650	G
 T1838	Noun_Phrase 59678 59680	Q?
 T1839	Noun_Phrase 59684 59692	Figure 5
 T1840	Noun_Phrase 59708 59711	Shh
-T1841	Noun_Phrase 59741 59747;	Normal
-59761 59771;	Normaland Mutant
-59794 59808	Normaland MutantEmbryonic Skin
-T1842	Noun_Phrase 59741 59747;	Normal
-59794 59808	NormalEmbryonic Skin
-T1843	Noun_Phrase 59765 59771;	Mutant
-59794 59808	MutantEmbryonic Skin
+T1841	Noun_Phrase 59741 59747;59761 59771;59794 59808	Normal and Mutant Embryonic Skin
+T1842	Noun_Phrase 59741 59747;59794 59808	Normal Embryonic Skin
+T1843	Noun_Phrase 59765 59771;59794 59808	Mutant Embryonic Skin
 T1844	Noun_Phrase 59860 59861	A
 T1845	Noun_Phrase 59878 59879	B
 T1846	Noun_Phrase 59896 59897	C
 T1847	Noun_Phrase 59918 59919	D
 T1848	Noun_Phrase 59971 59981	epithelium
 T1849	Noun_Phrase 60050 60059	?-catenin
-T1850	Noun_Phrase 60063 60068;	E15.5
-60084 60090;	E15.5mutant
-60098 60105	E15.5mutantembryos
+T1850	Noun_Phrase 60063 60068;60084 60090;60098 60105	E15.5 mutant embryos
 T1851	Noun_Phrase 60077 60078	E
 T1852	Noun_Phrase 60080 60081	G
 T1853	Noun_Phrase 60092 60093	F
@@ -2057,10 +1888,8 @@ T1886	Noun_Phrase 60624 60625	K
 T1887	Noun_Phrase 60627 60628	O
 T1888	Noun_Phrase 60632 60633	B
 T1889	Noun_Phrase 60713 60729	normal P3 thymus
-T1890	Noun_Phrase 60785 60807;	the mutant thymus from
-60817 60826	the mutant thymus fromsevere P3
-T1891	Noun_Phrase 60785 60807;	the mutant thymus from
-60830 60833	the mutant thymus fromP13
+T1890	Noun_Phrase 60785 60807;60817 60826	the mutant thymus from severe P3
+T1891	Noun_Phrase 60785 60807;60830 60833	the mutant thymus from P13
 T1892	Noun_Phrase 60785 60815	the mutant thymus from mild P3
 T1893	Noun_Phrase 60835 60836	A
 T1894	Noun_Phrase 60838 60839	E

@@ -22,8 +22,7 @@ T20	GO_EXT_cell_communication_or_signaling_or_signal_transduction 1235 1252	sign
 T21	GO_EXT_transcription 1324 1339	transcriptional
 T22	GO_EXT_biological_direction_or_guidance 1352 1357	guide
 T23	GO_0009653 1455 1468	morphogenesis
-T24	GO_0048513 1601 1613;	formation of
-1619 1625	formation oforgans
+T24	GO_0048513 1601 1613;1619 1625	formation of organs
 T25	GO_PATO_EXT_biological_adhesion_or_attachedness 1714 1722	adhering
 T26	GO_0009653 1883 1896	morphogenesis
 T27	GO_EXT_biological_direction_or_guidance 1900 1906	guided
@@ -40,11 +39,8 @@ T37	GO_RO_EXT_developmental_differentiation_process 2435 2450	differentiation
 T38	GO_0009653 2568 2581	morphogenetic
 T39	GO_PATO_EXT_biological_patterning_process_or_quality 2664 2673	patterned
 T40	GO_PATO_EXT_biological_behavior 2929 2937	behavior
-T41	GO_0008283 3042 3055;	proliferation
-3091 3093;	proliferationof
-3103 3108	proliferationofcells
-T42	GO_0001709 3272 3288;	determination of
-3298 3308	determination ofcell fates
+T41	GO_0008283 3042 3055;3091 3093;3103 3108	proliferation of cells
+T42	GO_0001709 3272 3288;3298 3308	determination of cell fates
 T43	GO_EXT_biological_growth_entity_or_process 4095 4101	growth
 T44	GO_EXT_biological_growth_entity_or_process 4154 4160	growth
 T45	GO_RO_EXT_developmental_differentiation_process 4175 4190	differentiation
@@ -109,10 +105,7 @@ T103	GO_0009653 10001 10014	morphogenesis
 T104	GO_0010467 10209 10219	expression
 T105	GO_0010467 10566 10576	expressing
 T106	GO_0031069 10837 10864	hair follicle morphogenesis
-T107	GO_0045165 11152 11165;	commitment of
-11178 11183;	commitment ofcells
-11210 11212;	commitment ofcellsto
-11220 11229	commitment ofcellstocell fate
+T107	GO_0045165 11152 11165;11178 11183;11210 11212;11220 11229	commitment of cells to cell fate
 T108	GO_0010467 11550 11559	expressed
 T109	GO_0010467 11725 11735	expression
 T110	GO_PATO_EXT_biological_localization_process_or_quality 11825 11834	localized
@@ -124,8 +117,7 @@ T115	GO_0008283 12465 12478	proliferation
 T116	GO_EXT_biological_growth_entity_or_process 12488 12494	growth
 T117	GO_PATO_EXT_phosphorylation_process_or_quality 12565 12579	phosphorylated
 T118	GO_0008283 12625 12638	proliferating
-T119	GO_0010629 12970 12988;	down-regulation in
-13000 13010	down-regulation inexpression
+T119	GO_0010629 12970 12988;13000 13010	down-regulation in expression
 T120	GO_0010467 13049 13059	Expression
 T121	GO_0008283 13095 13108	proliferation
 T122	GO_RO_EXT_developmental_differentiation_process 13113 13128	Differentiation
@@ -191,9 +183,7 @@ T181	GO_0051235 19991 20002	sequestered
 T182	GO_0008283 20047 20060	proliferation
 T183	GO_EXT_cell_communication_or_signaling_or_signal_transduction 20061 20078	signaling pathway
 T184	GO_EXT_negative_regulation 20143 20158	down-regulation
-T185	GO_0051170 20180 20193;	translocation
-20207 20209;	translocationto
-20214 20221	translocationtonucleus
+T185	GO_0051170 20180 20193;20207 20209;20214 20221	translocation to nucleus
 T186	GO_0065007 20262 20271	regulated
 T187	GO_PATO_EXT_cell_proliferation_or_proliferativity 20389 20402	proliferative
 T188	GO_EXT_transcription 20534 20547	transcription
@@ -212,19 +202,16 @@ T200	GO_0010467 22750 22759	expressed
 T201	GO_0010467 23239 23249	expression
 T202	GO_0008283 23254 23267	proliferation
 T203	GO_PATO_EXT_cell_proliferation_or_proliferativity 23303 23316	proliferative
-T204	GO_0010468 23507 23520;	Regulation of
-23527 23542	Regulation ofGene Expression
+T204	GO_0010468 23507 23520;23527 23542	Regulation of Gene Expression
 T205	GO_EXT_cell_communication_or_signaling_or_signal_transduction 23579 23588	Signaling
 T206	GO_0010467 23650 23660	expression
 T207	GO_0065007 23723 23733	regulating
 T208	GO_0010467 23826 23836	expression
 T209	GO_0010467 23993 24002	expressed
 T210	GO_0046903 24039 24046	secrete
-T211	GO_0016055 24113 24116;	Wnt
-24127 24136	Wntsignaling
+T211	GO_0016055 24113 24116;24127 24136	Wnt signaling
 T212	GO_0007179 24121 24136	TGF-? signaling
-T213	GO_EXT_cell_communication_or_signaling_or_signal_transduction 24240 24255;	transmission of
-24265 24271	transmission ofsignal
+T213	GO_EXT_cell_communication_or_signaling_or_signal_transduction 24240 24255;24265 24271	transmission of signal
 T214	GO_0010467 24386 24396	expression
 T215	GO_EXT_negative_regulation 24429 24443	down-regulated
 T216	GO_0010467 24556 24566	expression
@@ -264,13 +251,11 @@ T249	GO_EXT_cell_communication_or_signaling_or_signal_transduction 30552 30561	s
 T250	GO_0008283 30611 30624	proliferation
 T251	GO_0010467 30771 30781	expression
 T252	GO_0010467 30857 30867	expression
-T253	GO_0065003 31315 31328;	generation of
-31361 31368	generation ofcomplex
+T253	GO_0065003 31315 31328;31361 31368	generation of complex
 T254	GO_EXT_transcription 31347 31360	transcription
 T255	GO_EXT_transcription 31391 31404	transcription
 T256	GO_PATO_EXT_biological_localization_process_or_quality 31543 31555	localization
-T257	GO_0016055 31572 31575;	Wnt
-31583 31600	Wntsignaling pathway
+T257	GO_0016055 31572 31575;31583 31600	Wnt signaling pathway
 T258	GO_0031069 31644 31671	hair follicle morphogenesis
 T259	GO_0010467 31792 31807	gene expression
 T260	GO_EXT_negative_regulation 31873 31886	down-regulate
@@ -282,10 +267,8 @@ T265	GO_EXT_transcription 32089 32104	transcriptional
 T266	GO_PATO_EXT_biological_adhesion_or_adhesiveness 32106 32114	adhesive
 T267	GO_EXT_biological_movement_or_translocation_process 32130 32138	motility
 T268	GO_0009887 32281 32300	organ morphogenesis
-T269	GO_0008283 32566 32574;	cellular
-32587 32600	cellularproliferation
-T270	GO_0030154 32566 32574;	cellular
-32606 32621	cellulardifferentiation
+T269	GO_0008283 32566 32574;32587 32600	cellular proliferation
+T270	GO_0030154 32566 32574;32606 32621	cellular differentiation
 T271	GO_EXT_cell_communication_or_signaling_or_signal_transduction 32748 32757	Signaling
 T272	GO_0031069 32771 32798	Hair Follicle Morphogenesis
 T273	GO_0009653 32827 32840	morphogenesis
@@ -300,8 +283,7 @@ T281	GO_EXT_transcription 33896 33909	transcription
 T282	GO_EXT_cell_communication_or_signaling_or_signal_transduction 34099 34116	signaling pathway
 T283	GO_0007049 34244 34254	cell cycle
 T284	GO_0040007 34331 34338	growing
-T285	GO_0044851 34355 34364;	phases of
-34375 34385	phases ofhair cycle
+T285	GO_0044851 34355 34364;34375 34385	phases of hair cycle
 T286	GO_EXT_biological_growth_entity_or_process 34477 34483	growth
 T287	GO_0006915 34502 34511	apoptosis
 T288	GO_0040007 34612 34619	growing
@@ -348,14 +330,11 @@ T328	GO_0010467 38897 38906	expressed
 T329	GO_PATO_EXT_physiological_process_or_quality 38941 38956	physiologically
 T330	GO_0010467 39020 39030	expression
 T331	GO_EXT_negative_regulation 39175 39190	down-regulation
-T332	GO_0016055 39221 39224;	Wnt
-39232 39241	Wntsignaling
+T332	GO_0016055 39221 39224;39232 39241	Wnt signaling
 T333	GO_0065007 39245 39255	regulating
 T334	GO_0009653 39279 39292	morphogenesis
-T335	GO_0010629 39416 39434;	down-regulation in
-39446 39461	down-regulation ingene expression
-T336	GO_0010629 39574 39592;	down-regulation in
-39604 39614	down-regulation inexpression
+T335	GO_0010629 39416 39434;39446 39461	down-regulation in gene expression
+T336	GO_0010629 39574 39592;39604 39614	down-regulation in expression
 T337	GO_0031069 39772 39799	hair follicle morphogenesis
 T338	GO_0008283 39849 39862	proliferation
 T339	GO_0008283 39935 39948	proliferation
@@ -440,8 +419,7 @@ T417	GO_0010467 57427 57436	expressed
 T418	GO_0008283 58630 58643	proliferation
 T419	GO_0010467 58784 58793	expressed
 T420	GO_EXT_transcription 59007 59020	transcription
-T421	GO_0007265 59362 59365;	Ras
-59371 59388	Rassignaling cascade
+T421	GO_0007265 59362 59365;59371 59388	Ras signaling cascade
 T422	GO_0000165 59366 59388	MAPK signaling cascade
 T423	GO_0010467 59399 59409	expressing
 T424	GO_PATO_EXT_biological_localization_process_or_quality 59642 59654	localization
@@ -462,8 +440,7 @@ T438	GO_0010467 62113 62123	expression
 T439	GO_0010467 62145 62155	expression
 T440	GO_0009294 62346 62358	transfection
 T441	GO_0010467 62616 62626	Expression
-T442	GO_0016055 62652 62655;	Wnt
-62667 62676	Wntsignaling
+T442	GO_0016055 62652 62655;62667 62676	Wnt signaling
 T443	GO_EXT_negative_regulation 62928 62941	down-regulate
 T444	GO_0009294 63125 63136	transfected
 T445	GO_0010467 63194 63204	expression
@@ -484,13 +461,11 @@ T459	GO_0010467 65088 65098	expression
 T460	GO_0007179 65320 65335	TGF-? signaling
 T461	GO_0008283 65349 65362	Proliferation
 T462	GO_EXT_negative_regulation 65494 65507	down-regulate
-T463	GO_0016055 65524 65527;	Wnt
-65539 65557	Wntsignaling pathways
+T463	GO_0016055 65524 65527;65539 65557	Wnt signaling pathways
 T464	GO_0010467 65656 65665	expressed
 T465	GO_0065007 66025 66033	controls
 T466	GO_PATO_EXT_biological_localization_process_or_quality 66068 66080	localization
-T467	GO_0016055 66130 66133;	Wnt
-66145 66154	Wntsignaling
+T467	GO_0016055 66130 66133;66145 66154	Wnt signaling
 T468	GO_EXT_positive_regulation 66273 66285	upregulation
 T469	GO_EXT_negative_regulation 66301 66315	downregulation
 T470	GO_0065007 66366 66377	controlling

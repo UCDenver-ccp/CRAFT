@@ -1,6 +1,4 @@
-T0	Noun_Phrase 10 20;	expression
-38 54;	expressionof annexin A7 in
-69 84	expressionof annexin A7 inred blood cells
+T0	Noun_Phrase 10 20;38 54;69 84	expression of annexin A7 in red blood cells
 T1	Noun_Phrase 41 51	annexin A7
 T2	Noun_Phrase 55 64	platelets
 T3	Noun_Phrase 69 84	red blood cells
@@ -10,10 +8,8 @@ T6	Noun_Phrase 146 156	Background
 T7	IDENTITY_chain 146 156	Background
 T8	Noun_Phrase 158 168	Annexin A7
 T9	IDENTITY_chain 158 168	Annexin A7
-T10	Noun_Phrase 226 230;	a 47
-242 249	a 47isoform
-T11	IDENTITY_chain 226 230;	a 47
-242 249	a 47isoform
+T10	Noun_Phrase 226 230;242 249	a 47 isoform
+T11	IDENTITY_chain 226 230;242 249	a 47 isoform
 T12	Noun_Phrase 226 249	a 47 and 51 kDa isoform
 T13	IDENTITY_chain 226 249	a 47 and 51 kDa isoform
 T14	Noun_Phrase 235 249	51 kDa isoform
@@ -105,10 +101,8 @@ T99	Noun_Phrase 2041 2045	Ca2+
 T100	Noun_Phrase 2047 2060	This activity
 T101	Noun_Phrase 2084 2094	annexin A7
 T102	Noun_Phrase 2160 2171	The protein
-T103	Noun_Phrase 2259 2280;	a variable N-terminal
-2308 2314	a variable N-terminaldomain
-T104	IDENTITY_chain 2259 2280;	a variable N-terminal
-2308 2314	a variable N-terminaldomain
+T103	Noun_Phrase 2259 2280;2308 2314	a variable N-terminal domain
+T104	IDENTITY_chain 2259 2280;2308 2314	a variable N-terminal domain
 T105	IDENTITY_chain 2285 2314	a conserved C-terminal domain
 T106	Noun_Phrase 2285 2314	a conserved C-terminal domain
 T107	Noun_Phrase 2316 2337	The C-terminal domain
@@ -142,8 +136,7 @@ T134	Noun_Phrase 3217 3227	Annexin A7
 T135	Noun_Phrase 3244 3253	membranes
 T136	IDENTITY_chain 3244 3253	membranes
 T137	Noun_Phrase 3306 3310	Ca2+
-T138	Noun_Phrase 3354 3364;	the plasma
-3381 3389	the plasmamembrane
+T138	Noun_Phrase 3354 3364;3381 3389	the plasma membrane
 T139	Noun_Phrase 3404 3426	intracellular vesicles
 T140	IDENTITY_chain 3404 3426	intracellular vesicles
 T141	Noun_Phrase 3441 3451	annexin A7
@@ -217,8 +210,7 @@ T208	Noun_Phrase 5488 5493	tumor
 T209	Noun_Phrase 5584 5591	insulin
 T210	Noun_Phrase 5584 5608	insulin secretion defect
 T211	Noun_Phrase 5723 5725	we
-T212	Noun_Phrase 5758 5773;	red blood cells
-5788 5810	red blood cellsof the anxA7-/- mutant
+T212	Noun_Phrase 5758 5773;5788 5810	red blood cells of the anxA7-/- mutant
 T213	Noun_Phrase 5778 5810	platelets of the anxA7-/- mutant
 T214	IDENTITY_chain 5778 5810	platelets of the anxA7-/- mutant
 T215	Noun_Phrase 5791 5810	the anxA7-/- mutant
@@ -246,12 +238,9 @@ T236	Noun_Phrase 6490 6511	two types of vesicles
 T237	IDENTITY_chain 6490 6511	two types of vesicles
 T238	Noun_Phrase 6503 6511	vesicles
 T239	IDENTITY_chain 6503 6511	vesicles
-T240	Noun_Phrase 6513 6518;	micro
-6528 6558	microvesicles with a size of 180 nm
-T241	IDENTITY_chain 6513 6518;	micro
-6528 6558	microvesicles with a size of 180 nm
-T242	Noun_Phrase 6524 6551;	nanovesicles with a size of
-6563 6568	nanovesicles with a size of60 nm
+T240	Noun_Phrase 6513 6518;6528 6558	micro vesicles with a size of 180 nm
+T241	IDENTITY_chain 6513 6518;6528 6558	micro vesicles with a size of 180 nm
+T242	Noun_Phrase 6524 6551;6563 6568	nanovesicles with a size of 60 nm
 T243	Noun_Phrase 6584 6588	They
 T244	Noun_Phrase 6605 6717	cholesterol and sphingolipid rich lipid raft domains that are associated with proteins like acetylcholinesterase
 T245	IDENTITY_chain 6605 6717	cholesterol and sphingolipid rich lipid raft domains that are associated with proteins like acetylcholinesterase
@@ -284,8 +273,7 @@ T271	Noun_Phrase 7334 7366	the 47 kDa isoform of annexin A7
 T272	Noun_Phrase 7356 7366	annexin A7
 T273	Noun_Phrase 7371 7374	its
 T274	Noun_Phrase 7383 7389	sorcin
-T275	Noun_Phrase 7393 7398;	micro
-7408 7445	microvesicles derived from red blood cells
+T275	Noun_Phrase 7393 7398;7408 7445	micro vesicles derived from red blood cells
 T276	Noun_Phrase 7393 7445	micro- and nanovesicles derived from red blood cells
 T277	Noun_Phrase 7404 7445	nanovesicles derived from red blood cells
 T278	Noun_Phrase 7430 7445	red blood cells
@@ -298,8 +286,7 @@ T284	Noun_Phrase 7624 7662	western blots of human red blood cells
 T285	IDENTITY_chain 7624 7662	western blots of human red blood cells
 T286	Noun_Phrase 7641 7662	human red blood cells
 T287	IDENTITY_chain 7641 7662	human red blood cells
-T288	Noun_Phrase 7663 7669;	the 47
-7677 7689	the 47kDa isoforms
+T288	Noun_Phrase 7663 7669;7677 7689	the 47 kDa isoforms
 T289	Noun_Phrase 7663 7689	the 47 and 51 kDa isoforms
 T290	Noun_Phrase 7674 7689	51 kDa isoforms
 T291	Noun_Phrase 7710 7721	mAb 203–217
@@ -353,8 +340,7 @@ T338	Noun_Phrase 8713 8716	our
 T339	Noun_Phrase 8780 8790	annexin A7
 T340	Noun_Phrase 8791 8816	both types of exovesicles
 T341	Noun_Phrase 8805 8816	exovesicles
-T342	Noun_Phrase 8818 8823;	micro
-8833 8841	microvesicles
+T342	Noun_Phrase 8818 8823;8833 8841	micro vesicles
 T343	Noun_Phrase 8818 8841	micro- and nanovesicles
 T344	APPOS_relation 8818 8841	micro- and nanovesicles
 T345	Noun_Phrase 8863 8887	Ca2+/ionophore treatment
@@ -372,8 +358,7 @@ T356	Noun_Phrase 9053 9059	Fig. 2
 T357	Noun_Phrase 9062 9080	The 51 kDa isoform
 T358	Noun_Phrase 9103 9115	nanovesicles
 T359	Noun_Phrase 9133 9151	both vesicle types
-T360	Noun_Phrase 9175 9184;	wild type
-9199 9222	wild typered blood cell vesicles
+T360	Noun_Phrase 9175 9184;9199 9222	wild type red blood cell vesicles
 T361	Noun_Phrase 9189 9222	knock out red blood cell vesicles
 T362	Noun_Phrase 9199 9213	red blood cell
 T363	Noun_Phrase 9319 9321	wt
@@ -386,8 +371,7 @@ T369	Noun_Phrase 9467 9481	red blood cell
 T370	Noun_Phrase 9467 9493	red blood cell exovesicles
 T371	Noun_Phrase 9500 9502	we
 T372	Noun_Phrase 9530 9536	sorcin
-T373	Noun_Phrase 9540 9549;	wild type
-9561 9569	wild typevesicles
+T373	Noun_Phrase 9540 9549;9561 9569	wild type vesicles
 T374	Noun_Phrase 9554 9569	mutant vesicles
 T375	IDENTITY_chain 9554 9569	mutant vesicles
 T376	Noun_Phrase 9570 9572	we
@@ -402,8 +386,7 @@ T384	Noun_Phrase 9677 9698	annexin A7 and sorcin
 T385	Noun_Phrase 9692 9698	sorcin
 T386	Noun_Phrase 9702 9742	exovesicles derived from red blood cells
 T387	Noun_Phrase 9727 9742	red blood cells
-T388	Noun_Phrase 9744 9757;	Vesicles from
-9777 9797	Vesicles fromanxA7-/- mutant (ko)
+T388	Noun_Phrase 9744 9757;9777 9797	Vesicles from anxA7-/- mutant (ko)
 T389	Noun_Phrase 9744 9772	Vesicles from wild type (wt)
 T390	IDENTITY_chain 9744 9772	Vesicles from wild type (wt)
 T391	Noun_Phrase 9758 9767	wild type
@@ -514,18 +497,12 @@ T495	Noun_Phrase 12216 12242	the ADVIA 120 cell counter
 T496	Noun_Phrase 12245 12251	Figure
 T497	Noun_Phrase 12245 12253	Figure 4
 T498	IDENTITY_chain 12245 12253	Figure 4
-T499	Noun_Phrase 12255 12316;	Dark field microscopy of red blood cells from anxA7-/- mutant
-12335 12339	Dark field microscopy of red blood cells from anxA7-/- mutantmice
-T500	IDENTITY_chain 12255 12316;	Dark field microscopy of red blood cells from anxA7-/- mutant
-12335 12339	Dark field microscopy of red blood cells from anxA7-/- mutantmice
-T501	Noun_Phrase 12280 12300;	red blood cells from
-12325 12339	red blood cells fromwild type mice
-T502	IDENTITY_chain 12280 12300;	red blood cells from
-12325 12339	red blood cells fromwild type mice
-T503	Noun_Phrase 12280 12316;	red blood cells from anxA7-/- mutant
-12335 12339	red blood cells from anxA7-/- mutantmice
-T504	Noun_Phrase 12301 12316;	anxA7-/- mutant
-12335 12339	anxA7-/- mutantmice
+T499	Noun_Phrase 12255 12316;12335 12339	Dark field microscopy of red blood cells from anxA7-/- mutant mice
+T500	IDENTITY_chain 12255 12316;12335 12339	Dark field microscopy of red blood cells from anxA7-/- mutant mice
+T501	Noun_Phrase 12280 12300;12325 12339	red blood cells from wild type mice
+T502	IDENTITY_chain 12280 12300;12325 12339	red blood cells from wild type mice
+T503	Noun_Phrase 12280 12316;12335 12339	red blood cells from anxA7-/- mutant mice
+T504	Noun_Phrase 12301 12316;12335 12339	anxA7-/- mutant mice
 T505	Noun_Phrase 12325 12339	wild type mice
 T506	IDENTITY_chain 12325 12339	wild type mice
 T507	Noun_Phrase 12377 12383	6.0 ?m
@@ -551,10 +528,8 @@ T526	IDENTITY_chain 13057 13075	maximal resistance
 T527	Noun_Phrase 13080 13089	the cells
 T528	Noun_Phrase 13096 13114	Osmotic resistance
 T529	Noun_Phrase 13389 13397	membrane
-T530	Noun_Phrase 13412 13437;	The osmotic resistance of
-13514 13529	The osmotic resistance ofwild type cells
-T531	IDENTITY_chain 13412 13437;	The osmotic resistance of
-13514 13529	The osmotic resistance ofwild type cells
+T530	Noun_Phrase 13412 13437;13514 13529	The osmotic resistance of wild type cells
+T531	IDENTITY_chain 13412 13437;13514 13529	The osmotic resistance of wild type cells
 T532	Noun_Phrase 13412 13474	The osmotic resistance of annexin A7 deficient red blood cells
 T533	IDENTITY_chain 13412 13474	The osmotic resistance of annexin A7 deficient red blood cells
 T534	Noun_Phrase 13438 13448	annexin A7
@@ -567,8 +542,7 @@ T540	IDENTITY_chain 13563 13578	knock out cells
 T541	Noun_Phrase 13594 13616	a 0.60 % NaCl solution
 T542	IDENTITY_chain 13594 13616	a 0.60 % NaCl solution
 T543	Noun_Phrase 13635 13650	wild type cells
-T544	Noun_Phrase 13709 13718;	knock out
-13753 13758	knock outcells
+T544	Noun_Phrase 13709 13718;13753 13758	knock out cells
 T545	Noun_Phrase 13743 13758	wild type cells
 T546	Noun_Phrase 13793 13797	Fig.
 T547	Noun_Phrase 13793 13799	Fig. 5
@@ -598,12 +572,9 @@ T570	Noun_Phrase 14383 14390	results
 T571	Noun_Phrase 14564 14570	Figure
 T572	Noun_Phrase 14564 14572	Figure 5
 T573	IDENTITY_chain 14564 14572	Figure 5
-T574	Noun_Phrase 14603 14623;	red blood cells from
-14638 14658	red blood cells fromanxA7-/- mutant mice
-T575	Noun_Phrase 14603 14633;	red blood cells from wild type
-14654 14658	red blood cells from wild typemice
-T576	Noun_Phrase 14624 14633;	wild type
-14654 14658	wild typemice
+T574	Noun_Phrase 14603 14623;14638 14658	red blood cells from anxA7-/- mutant mice
+T575	Noun_Phrase 14603 14633;14654 14658	red blood cells from wild type mice
+T576	Noun_Phrase 14624 14633;14654 14658	wild type mice
 T577	Noun_Phrase 14638 14658	anxA7-/- mutant mice
 T578	Noun_Phrase 14660 14734	The osmotic resistance towards changes in the extracellular ionic strength
 T579	Noun_Phrase 14738 14801	a convenient assay for analysis of the red blood cell integrity
@@ -673,8 +644,7 @@ T642	Noun_Phrase 15925 15945	the platelet numbers
 T643	IDENTITY_chain 15925 15945	the platelet numbers
 T644	Noun_Phrase 15929 15937	platelet
 T645	Noun_Phrase 16019 16027	platelet
-T646	Noun_Phrase 16040 16049;	wild type
-16070 16074	wild typemice
+T646	Noun_Phrase 16040 16049;16070 16074	wild type mice
 T647	Noun_Phrase 16054 16074	anxA7-/- mutant mice
 T648	Noun_Phrase 16142 16150	platelet
 T649	Noun_Phrase 16161 16175	knock out mice
@@ -746,8 +716,7 @@ T714	IDENTITY_chain 17804 17812	Figure 6
 T715	Noun_Phrase 17814 17822	Platelet
 T716	Noun_Phrase 17814 17910	Platelet aggregation curves from platelet rich plasma of annexin A7 knock out and wild type mice
 T717	Noun_Phrase 17871 17881	annexin A7
-T718	Noun_Phrase 17871 17891;	annexin A7 knock out
-17906 17910	annexin A7 knock outmice
+T718	Noun_Phrase 17871 17891;17906 17910	annexin A7 knock out mice
 T719	Noun_Phrase 17896 17910	wild type mice
 T720	Noun_Phrase 17979 17990	aggregation
 T721	Noun_Phrase 18008 18025	adding ristocetin
@@ -834,8 +803,7 @@ T801	Noun_Phrase 21077 21087	annexin A7
 T802	Noun_Phrase 21102 21116	red blood cell
 T803	Noun_Phrase 21102 21125	red blood cell vesicles
 T804	Noun_Phrase 21127 21130	Our
-T805	Noun_Phrase 21234 21243;	wild type
-21255 21270	wild typered blood cells
+T805	Noun_Phrase 21234 21243;21255 21270	wild type red blood cells
 T806	Noun_Phrase 21334 21341	annexin
 T807	IDENTITY_chain 21334 21341	annexin
 T808	Noun_Phrase 21405 21413	membrane
@@ -846,8 +814,7 @@ T812	Noun_Phrase 21496 21508	phospholipid
 T813	Noun_Phrase 21519 21529	annexin A7
 T814	Noun_Phrase 21554 21558	Ca2+
 T815	Noun_Phrase 21646 21656	annexin A7
-T816	Noun_Phrase 21660 21665;	micro
-21675 21683	microvesicles
+T816	Noun_Phrase 21660 21665;21675 21683	micro vesicles
 T817	Noun_Phrase 21671 21683	nanovesicles
 T818	Noun_Phrase 21735 21762	the red blood cell membrane
 T819	IDENTITY_chain 21735 21762	the red blood cell membrane
@@ -905,8 +872,7 @@ T870	Noun_Phrase 23539 23553	red blood cell
 T871	Noun_Phrase 23569 23577	Membrane
 T872	Noun_Phrase 23601 23615	red blood cell
 T873	Noun_Phrase 23786 23803	the cell membrane
-T874	Noun_Phrase 23786 23803;	the cell membrane
-23808 23821	the cell membranedeformability
+T874	Noun_Phrase 23786 23803;23808 23821	the cell membrane deformability
 T875	Noun_Phrase 23832 23842	Annexin A7
 T876	Noun_Phrase 23832 23874	Annexin A7 knock out mouse red blood cells
 T877	Noun_Phrase 23952 23962	annexin A7
@@ -921,10 +887,8 @@ T885	Noun_Phrase 24244 24248	Ca2+
 T886	Noun_Phrase 24253 24261	membrane
 T887	Noun_Phrase 24253 24279	membrane skeletal proteins
 T888	IDENTITY_chain 24253 24279	membrane skeletal proteins
-T889	Noun_Phrase 24311 24338;	the red blood cell membrane
-24349 24358	the red blood cell membranestability
-T890	IDENTITY_chain 24311 24338;	the red blood cell membrane
-24349 24358	the red blood cell membranestability
+T889	Noun_Phrase 24311 24338;24349 24358	the red blood cell membrane stability
+T890	IDENTITY_chain 24311 24338;24349 24358	the red blood cell membrane stability
 T891	Noun_Phrase 24311 24344	the red blood cell membrane shape
 T892	Noun_Phrase 24315 24338	red blood cell membrane
 T893	Noun_Phrase 24365 24373	Annexins
@@ -989,15 +953,12 @@ T951	Noun_Phrase 26921 26952	erythrocytes lacking annexin A7
 T952	Noun_Phrase 26942 26952	annexin A7
 T953	Noun_Phrase 27043 27050	F-actin
 T954	Noun_Phrase 27099 27106	annexin
-T955	Noun_Phrase 27157 27163;	murine
-27174 27187	murineblood samples
-T956	IDENTITY_chain 27157 27163;	murine
-27174 27187	murineblood samples
+T955	Noun_Phrase 27157 27163;27174 27187	murine blood samples
+T956	IDENTITY_chain 27157 27163;27174 27187	murine blood samples
 T957	Noun_Phrase 27168 27187	human blood samples
 T958	IDENTITY_chain 27168 27187	human blood samples
 T959	Noun_Phrase 27174 27179	blood
-T960	Noun_Phrase 27200 27205;	129Sv
-27241 27245	129Svmice
+T960	Noun_Phrase 27200 27205;27241 27245	129Sv mice
 T961	Noun_Phrase 27200 27205	129Sv
 T962	IDENTITY_chain 27200 27205	129Sv
 T963	Noun_Phrase 27220 27230	annexin A7
@@ -1015,8 +976,7 @@ T974	Noun_Phrase 27587 27595	The mice
 T975	IDENTITY_chain 27587 27595	The mice
 T976	Noun_Phrase 27611 27631	cervical dislocation
 T977	Noun_Phrase 27689 27694	blood
-T978	Noun_Phrase 27707 27720;	The wild type
-27732 27736	The wild typemice
+T978	Noun_Phrase 27707 27720;27732 27736	The wild type mice
 T979	Noun_Phrase 27707 27736	The wild type and mutant mice
 T980	IDENTITY_chain 27707 27736	The wild type and mutant mice
 T981	Noun_Phrase 27725 27736	mutant mice
@@ -1062,8 +1022,7 @@ T1020	Noun_Phrase 29699 29731	a nearly linear density gradient
 T1021	IDENTITY_chain 29699 29731	a nearly linear density gradient
 T1022	Noun_Phrase 29828 29840	the gradient
 T1023	Noun_Phrase 29942 29952	Exovesicle
-T1024	Noun_Phrase 29969 29974;	human
-29986 30001	humanred blood cells
+T1024	Noun_Phrase 29969 29974;29986 30001	human red blood cells
 T1025	Noun_Phrase 30003 30018	Red blood cells
 T1026	Noun_Phrase 30038 30071	hemoglobin containing exovesicles
 T1027	Noun_Phrase 30109 30113	Ca2+
@@ -1149,16 +1108,14 @@ T1106	Noun_Phrase 33272 33282	ristocetin
 T1107	Noun_Phrase 33323 33326	FRG
 T1108	Noun_Phrase 33368 33443	a reagent which worked reliably in our hands with mouse and human platelets
 T1109	Noun_Phrase 33403 33406	our
-T1110	Noun_Phrase 33418 33423;	mouse
-33434 33443	mouseplatelets
+T1110	Noun_Phrase 33418 33423;33434 33443	mouse platelets
 T1111	Noun_Phrase 33506 33525	human blood samples
 T1112	Noun_Phrase 33512 33517	blood
 T1113	Noun_Phrase 33898 33906	platelet
 T1114	Noun_Phrase 33971 33987	the blood sample
 T1115	Noun_Phrase 33975 33980	blood
 T1116	Noun_Phrase 34057 34061	cell
-T1117	Noun_Phrase 34072 34078;	murine
-34089 34102	murineblood samples
+T1117	Noun_Phrase 34072 34078;34089 34102	murine blood samples
 T1118	Noun_Phrase 34083 34102	human blood samples
 T1119	Noun_Phrase 34089 34094	blood
 T1120	Noun_Phrase 34119 34124	blood
@@ -1169,9 +1126,7 @@ T1124	Noun_Phrase 34210 34225	red blood cells
 T1125	Noun_Phrase 34210 34239	red blood cells and platelets
 T1126	Noun_Phrase 34230 34239	platelets
 T1127	Noun_Phrase 34297 34302	their
-T1128	Noun_Phrase 34321 34327;	number
-34339 34341;	numberof
-34362 34371	numberofplatelets
+T1128	Noun_Phrase 34321 34327;34339 34341;34362 34371	number of platelets
 T1129	Noun_Phrase 34342 34357	red blood cells
 T1130	Noun_Phrase 34342 34371	red blood cells and platelets
 T1131	Noun_Phrase 34362 34371	platelets

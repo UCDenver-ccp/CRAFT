@@ -36,10 +36,8 @@ T34	Noun_Phrase 722 736	the Tbx15 gene
 T35	Noun_Phrase 738 743	whose
 T36	Noun_Phrase 738 789	whose embryonic expression in developing mesenchyme
 T37	IDENTITY_chain 738 789	whose embryonic expression in developing mesenchyme
-T38	Noun_Phrase 806 816;	pigmentary
-830 871	pigmentarymalformations observed in deH/deH animals
-T39	IDENTITY_chain 806 816;	pigmentary
-830 871	pigmentarymalformations observed in deH/deH animals
+T38	Noun_Phrase 806 816;830 871	pigmentary malformations observed in deH/deH animals
+T39	IDENTITY_chain 806 816;830 871	pigmentary malformations observed in deH/deH animals
 T40	Noun_Phrase 856 871	deH/deH animals
 T41	IDENTITY_chain 856 871	deH/deH animals
 T42	Noun_Phrase 910 915	Tbx15
@@ -55,10 +53,8 @@ T51	Noun_Phrase 1064 1070	Agouti
 T52	Noun_Phrase 1085 1103	ventral mesenchyme
 T53	IDENTITY_chain 1085 1103	ventral mesenchyme
 T54	Noun_Phrase 1123 1128	Tbx15
-T55	Noun_Phrase 1130 1153;	expression of Agouti in
-1159 1166	expression of Agouti inembryos
-T56	IDENTITY_chain 1130 1153;	expression of Agouti in
-1159 1166	expression of Agouti inembryos
+T55	Noun_Phrase 1130 1153;1159 1166	expression of Agouti in embryos
+T56	IDENTITY_chain 1130 1153;1159 1166	expression of Agouti in embryos
 T57	Noun_Phrase 1144 1150	Agouti
 T58	Noun_Phrase 1159 1166	embryos
 T59	IDENTITY_chain 1159 1166	embryos
@@ -149,8 +145,7 @@ T143	Noun_Phrase 4427 4447	molecular components
 T144	IDENTITY_chain 4427 4447	molecular components
 T145	Noun_Phrase 4453 4458	their
 T146	Noun_Phrase 4553 4564	vertebrates
-T147	Noun_Phrase 4641 4653;	the color of
-4681 4685	the color ofhair
+T147	Noun_Phrase 4641 4653;4681 4685	the color of hair
 T148	Noun_Phrase 4654 4658	skin
 T149	Noun_Phrase 4696 4748	the boundary between dorsal and ventral compartments
 T150	IDENTITY_chain 4696 4748	the boundary between dorsal and ventral compartments
@@ -170,23 +165,17 @@ T163	IDENTITY_chain 5088 5106	Millar et al. 1995
 T164	Noun_Phrase 5109 5123	Agouti protein
 T165	IDENTITY_chain 5109 5123	Agouti protein
 T166	Noun_Phrase 5242 5256	Agouti protein
-T167	Noun_Phrase 5371 5385;	Bultman et al.
-5392 5396	Bultman et al.1994
-T168	IDENTITY_chain 5371 5385;	Bultman et al.
-5392 5396	Bultman et al.1994
+T167	Noun_Phrase 5371 5385;5392 5396	Bultman et al. 1994
+T168	IDENTITY_chain 5371 5385;5392 5396	Bultman et al. 1994
 T169	Noun_Phrase 5371 5390	Bultman et al. 1992
 T170	Noun_Phrase 5398 5416	Miller et al. 1993
 T171	Noun_Phrase 5418 5438	Vrieling et al. 1994
 T172	IDENTITY_chain 5418 5438	Vrieling et al. 1994
 T173	Noun_Phrase 5447 5450	its
-T174	Noun_Phrase 5505 5583;	the cream-colored or yellow ventral surface of mice carrying the black-and-tan
-5589 5595	the cream-colored or yellow ventral surface of mice carrying the black-and-tanallele
-T175	IDENTITY_chain 5505 5583;	the cream-colored or yellow ventral surface of mice carrying the black-and-tan
-5589 5595	the cream-colored or yellow ventral surface of mice carrying the black-and-tanallele
-T176	Noun_Phrase 5552 5583;	mice carrying the black-and-tan
-5589 5595	mice carrying the black-and-tanallele
-T177	Noun_Phrase 5566 5583;	the black-and-tan
-5589 5595	the black-and-tanallele
+T174	Noun_Phrase 5505 5583;5589 5595	the cream-colored or yellow ventral surface of mice carrying the black-and-tan allele
+T175	IDENTITY_chain 5505 5583;5589 5595	the cream-colored or yellow ventral surface of mice carrying the black-and-tan allele
+T176	Noun_Phrase 5552 5583;5589 5595	mice carrying the black-and-tan allele
+T177	Noun_Phrase 5566 5583;5589 5595	the black-and-tan allele
 T178	Noun_Phrase 5585 5587	at
 T179	APPOS_relation 5585 5587	at
 T180	Noun_Phrase 5715 5730	laboratory mice
@@ -197,8 +186,7 @@ T184	IDENTITY_chain 5786 5911	two predominant Agouti mRNA isoforms that differ b
 T185	Noun_Phrase 5848 5853	their
 T186	Noun_Phrase 5964 5992	both dorsal and ventral skin
 T187	IDENTITY_chain 5964 5992	both dorsal and ventral skin
-T188	Noun_Phrase 5969 5975;	dorsal
-5988 5992	dorsalskin
+T188	Noun_Phrase 5969 5975;5988 5992	dorsal skin
 T189	Noun_Phrase 5980 5992	ventral skin
 T190	IDENTITY_chain 5980 5992	ventral skin
 T191	Noun_Phrase 6038 6069	a “ventral-specific” transcript
@@ -228,19 +216,15 @@ T214	IDENTITY_chain 6781 6873	dorsoventral positional cues established in the em
 T215	Noun_Phrase 6825 6835	the embryo
 T216	Noun_Phrase 6840 6845	whose
 T217	Noun_Phrase 6876 6948	The boundary between dorsal and ventral color compartments in at/at mice
-T218	Noun_Phrase 6897 6903;	dorsal
-6916 6948	dorsalcolor compartments in at/at mice
-T219	IDENTITY_chain 6897 6903;	dorsal
-6916 6948	dorsalcolor compartments in at/at mice
-T220	Noun_Phrase 6897 6903;	dorsal
-6916 6948	dorsalcolor compartments in at/at mice
+T218	Noun_Phrase 6897 6903;6916 6948	dorsal color compartments in at/at mice
+T219	IDENTITY_chain 6897 6903;6916 6948	dorsal color compartments in at/at mice
+T220	Noun_Phrase 6897 6903;6916 6948	dorsal color compartments in at/at mice
 T221	Noun_Phrase 6897 6948	dorsal and ventral color compartments in at/at mice
 T222	IDENTITY_chain 6897 6948	dorsal and ventral color compartments in at/at mice
 T223	Noun_Phrase 6908 6948	ventral color compartments in at/at mice
 T224	Noun_Phrase 6938 6948	at/at mice
 T225	IDENTITY_chain 6938 6948	at/at mice
-T226	Noun_Phrase 7077 7083;	dorsal
-7096 7100	dorsalskin
+T226	Noun_Phrase 7077 7083;7096 7100	dorsal skin
 T227	Noun_Phrase 7077 7100	dorsal and ventral skin
 T228	Noun_Phrase 7088 7100	ventral skin
 T229	Noun_Phrase 7155 7162	pigment
@@ -273,8 +257,7 @@ T255	IDENTITY_chain 7533 7614	compartments whose identity contributes to dorsove
 T256	Noun_Phrase 7546 7551	whose
 T257	Noun_Phrase 7576 7614	dorsoventral differences in adult skin
 T258	IDENTITY_chain 7576 7614	dorsoventral differences in adult skin
-T259	Noun_Phrase 7691 7697;	dorsal
-7710 7714	dorsalskin
+T259	Noun_Phrase 7691 7697;7710 7714	dorsal skin
 T260	Noun_Phrase 7691 7714	dorsal and ventral skin
 T261	Noun_Phrase 7702 7714	ventral skin
 T262	Noun_Phrase 7722 7747	the boundary between them
@@ -290,8 +273,7 @@ T271	Noun_Phrase 7898 7932	ventral-specific Agouti expression
 T272	Noun_Phrase 7915 7921	Agouti
 T273	Noun_Phrase 7937 8014	the lineage boundary that distinguishes somite from lateral plate derivatives
 T274	IDENTITY_chain 7937 8014	the lineage boundary that distinguishes somite from lateral plate derivatives
-T275	Noun_Phrase 7977 7983;	somite
-8003 8014	somitederivatives
+T275	Noun_Phrase 7977 7983;8003 8014	somite derivatives
 T276	Noun_Phrase 8016 8019	Our
 T277	Noun_Phrase 8069 8094	the dorsoventral boundary
 T278	Noun_Phrase 8152 8234	melanocyte density and/or differentiation, pigment-type synthesis, and hair length
@@ -334,8 +316,7 @@ T314	Noun_Phrase 9161 9207	region-specific differences in body morphology
 T315	Noun_Phrase 9192 9207	body morphology
 T316	Noun_Phrase 9247 9276	Dorsoventral Skin Differences
 T317	Noun_Phrase 9308 9318	hair color
-T318	Noun_Phrase 9349 9355;	dorsal
-9369 9373	dorsalskin
+T318	Noun_Phrase 9349 9355;9369 9373	dorsal skin
 T319	Noun_Phrase 9361 9373	ventral skin
 T320	Nonreferential_pronoun 9403 9408	there
 T321	Noun_Phrase 9439 9450	hair length
@@ -362,8 +343,7 @@ T341	Noun_Phrase 9954 9959	their
 T342	Noun_Phrase 9993 9999	Agouti
 T343	Noun_Phrase 10045 10056	hair length
 T344	Noun_Phrase 10116 10205	the apparent sharp boundary between dorsal and ventral pigment compartments in at/at mice
-T345	Noun_Phrase 10152 10158;	dorsal
-10171 10205	dorsalpigment compartments in at/at mice
+T345	Noun_Phrase 10152 10158;10171 10205	dorsal pigment compartments in at/at mice
 T346	Noun_Phrase 10152 10205	dorsal and ventral pigment compartments in at/at mice
 T347	Noun_Phrase 10163 10205	ventral pigment compartments in at/at mice
 T348	Noun_Phrase 10195 10205	at/at mice
@@ -398,8 +378,7 @@ T376	Noun_Phrase 11106 11127	the dorsoventral axis
 T377	Noun_Phrase 11209 11220	hair length
 T378	Noun_Phrase 11253 11294	the pigment-type transition in at/at mice
 T379	Noun_Phrase 11284 11294	at/at mice
-T380	Noun_Phrase 11297 11303;	Dorsal
-11316 11320	Dorsalskin
+T380	Noun_Phrase 11297 11303;11316 11320	Dorsal skin
 T381	Noun_Phrase 11297 11320	Dorsal and ventral skin
 T382	Noun_Phrase 11308 11320	ventral skin
 T383	Noun_Phrase 11349 11397	Transverse sections of skin at postnatal day 4.5
@@ -462,11 +441,9 @@ T439	Noun_Phrase 13133 13144	hair length
 T440	Noun_Phrase 13157 13171	skin thickness
 T441	Noun_Phrase 13180 13210	at least three characteristics
 T442	IDENTITY_chain 13180 13210	at least three characteristics
-T443	Noun_Phrase 13223 13229;	dorsal
-13243 13247	dorsalskin
+T443	Noun_Phrase 13223 13229;13243 13247	dorsal skin
 T444	Noun_Phrase 13235 13247	ventral skin
-T445	Noun_Phrase 13249 13286;	differences in pigment-type synthesis
-13319 13381	differences in pigment-type synthesisdifferences in hair length, and differences in melanin content
+T445	Noun_Phrase 13249 13286;13319 13381	differences in pigment-type synthesis differences in hair length, and differences in melanin content
 T446	Noun_Phrase 13264 13286	pigment-type synthesis
 T447	Noun_Phrase 13301 13307	Agouti
 T448	Noun_Phrase 13301 13316	Agouti genotype
@@ -510,18 +487,12 @@ T485	Noun_Phrase 14494 14513	at/at; deH/deH mice
 T486	IDENTITY_chain 14494 14513	at/at; deH/deH mice
 T487	Noun_Phrase 14533 14550	nonmutant animals
 T488	IDENTITY_chain 14533 14550	nonmutant animals
-T489	Noun_Phrase 14592 14599;	ventral
-14621 14628	ventralregions
-T490	IDENTITY_chain 14592 14599;	ventral
-14621 14628	ventralregions
-T491	Noun_Phrase 14601 14608;	lateral
-14621 14628	lateralregions
-T492	IDENTITY_chain 14601 14608;	lateral
-14621 14628	lateralregions
-T493	Noun_Phrase 14630 14637;	Figures
-14645 14647	Figures2A
-T494	IDENTITY_chain 14630 14637;	Figures
-14645 14647	Figures2A
+T489	Noun_Phrase 14592 14599;14621 14628	ventral regions
+T490	IDENTITY_chain 14592 14599;14621 14628	ventral regions
+T491	Noun_Phrase 14601 14608;14621 14628	lateral regions
+T492	IDENTITY_chain 14601 14608;14621 14628	lateral regions
+T493	Noun_Phrase 14630 14637;14645 14647	Figures 2A
+T494	IDENTITY_chain 14630 14637;14645 14647	Figures 2A
 T495	Noun_Phrase 14630 14640	Figures 1G
 T496	Noun_Phrase 14650 14668	The ventral region
 T497	Noun_Phrase 14706 14723	cream-colored tip
@@ -532,8 +503,7 @@ T501	IDENTITY_chain 14724 14738	whose boundary
 T502	Noun_Phrase 14754 14781	the limb–body wall junction
 T503	Noun_Phrase 14806 14817	this region
 T504	Noun_Phrase 14834 14846	the boundary
-T505	Noun_Phrase 14876 14881;	at/at
-14909 14913	at/atmice
+T505	Noun_Phrase 14876 14881;14909 14913	at/at mice
 T506	Noun_Phrase 14894 14913	at/at; deH/deH mice
 T507	Noun_Phrase 14915 14933	The lateral region
 T508	Noun_Phrase 14995 15005	at/at mice
@@ -543,15 +513,11 @@ T511	Noun_Phrase 15082 15101	at/at; deH/deH mice
 T512	Noun_Phrase 15199 15262	a dorsal eumelanic region whose size is correspondingly reduced
 T513	IDENTITY_chain 15199 15262	a dorsal eumelanic region whose size is correspondingly reduced
 T514	Noun_Phrase 15225 15230	whose
-T515	Noun_Phrase 15264 15270;	Figure
-15278 15280	Figure2B
-T516	IDENTITY_chain 15264 15270;	Figure
-15278 15280	Figure2B
+T515	Noun_Phrase 15264 15270;15278 15280	Figure 2B
+T516	IDENTITY_chain 15264 15270;15278 15280	Figure 2B
 T517	Noun_Phrase 15264 15273	Figure 2A
-T518	Noun_Phrase 15313 15319;	mutant
-15342 15349	mutantanimals
-T519	IDENTITY_chain 15313 15319;	mutant
-15342 15349	mutantanimals
+T518	Noun_Phrase 15313 15319;15342 15349	mutant animals
+T519	IDENTITY_chain 15313 15319;15342 15349	mutant animals
 T520	Noun_Phrase 15332 15349	nonmutant animals
 T521	Noun_Phrase 15373 15391	body circumference
 T522	Noun_Phrase 15404 15440	the lateral region in mutant animals
@@ -581,8 +547,7 @@ T545	Noun_Phrase 16124 16130	dorsum
 T546	IDENTITY_chain 16124 16130	dorsum
 T547	Noun_Phrase 16135 16142	ventrum
 T548	IDENTITY_chain 16135 16142	ventrum
-T549	Noun_Phrase 16149 16155;	mutant
-16170 16177	mutantanimals
+T549	Noun_Phrase 16149 16155;16170 16177	mutant animals
 T550	Noun_Phrase 16160 16177	nonmutant animals
 T551	Noun_Phrase 16197 16215	body circumference
 T552	Noun_Phrase 16257 16275	the lateral region
@@ -590,10 +555,8 @@ T553	Noun_Phrase 16277 16286	Figure 2E
 T554	IDENTITY_chain 16277 16286	Figure 2E
 T555	Noun_Phrase 16289 16317	Adult ae/ae; deH/deH animals
 T556	IDENTITY_chain 16289 16317	Adult ae/ae; deH/deH animals
-T557	Noun_Phrase 16437 16442;	ae/ae
-16462 16470	ae/aeneonates
-T558	IDENTITY_chain 16437 16442;	ae/ae
-16462 16470	ae/aeneonates
+T557	Noun_Phrase 16437 16442;16462 16470	ae/ae neonates
+T558	IDENTITY_chain 16437 16442;16462 16470	ae/ae neonates
 T559	Noun_Phrase 16447 16470	ae/ae; deH/deH neonates
 T560	IDENTITY_chain 16447 16470	ae/ae; deH/deH neonates
 T561	Noun_Phrase 16605 16613	the skin
@@ -614,8 +577,7 @@ T575	IDENTITY_chain 17174 17190	skin development
 T576	Noun_Phrase 17222 17271	a lateral region that is normally 3–5 mm in width
 T577	IDENTITY_chain 17222 17271	a lateral region that is normally 3–5 mm in width
 T578	Noun_Phrase 17273 17289	This same region
-T579	Noun_Phrase 17322 17328;	dorsal
-17341 17345	dorsalskin
+T579	Noun_Phrase 17322 17328;17341 17345	dorsal skin
 T580	Noun_Phrase 17322 17345	dorsal and ventral skin
 T581	Noun_Phrase 17333 17345	ventral skin
 T582	Noun_Phrase 17360 17386	melanocyte differentiation
@@ -676,10 +638,8 @@ T636	Noun_Phrase 19235 19276	a mannose-6-phosphate receptor pseudogene
 T637	Noun_Phrase 19278 19285	M6pr-ps
 T638	APPOS_relation 19278 19285	M6pr-ps
 T639	IDENTITY_chain 19278 19285	M6pr-ps
-T640	Noun_Phrase 19287 19293;	Figure
-19301 19303	Figure3C
-T641	IDENTITY_chain 19287 19293;	Figure
-19301 19303	Figure3C
+T640	Noun_Phrase 19287 19293;19301 19303	Figure 3C
+T641	IDENTITY_chain 19287 19293;19301 19303	Figure 3C
 T642	Noun_Phrase 19287 19296	Figure 3B
 T643	IDENTITY_chain 19287 19296	Figure 3B
 T644	Noun_Phrase 19355 19357	we
@@ -733,8 +693,7 @@ T691	Noun_Phrase 20693 20728	craniofacial characteristics of deH
 T692	Noun_Phrase 20725 20728	deH
 T693	Noun_Phrase 20743 20769	loss of function for Tbx15
 T694	Noun_Phrase 20764 20769	Tbx15
-T695	Noun_Phrase 20772 20785;	Expression of
-20796 20802	Expression ofAgouti
+T695	Noun_Phrase 20772 20785;20796 20802	Expression of Agouti
 T696	Noun_Phrase 20772 20791	Expression of Tbx15
 T697	IDENTITY_chain 20772 20791	Expression of Tbx15
 T698	Noun_Phrase 20786 20791	Tbx15
@@ -750,10 +709,8 @@ T707	Noun_Phrase 21091 21093	we
 T708	Noun_Phrase 21105 21123	a Tbx15 mRNA probe
 T709	IDENTITY_chain 21105 21123	a Tbx15 mRNA probe
 T710	Noun_Phrase 21162 21167	E12.5
-T711	Noun_Phrase 21227 21230;	the
-21237 21242	thetrunk
-T712	IDENTITY_chain 21227 21230;	the
-21237 21242	thetrunk
+T711	Noun_Phrase 21227 21230;21237 21242	the trunk
+T712	IDENTITY_chain 21227 21230;21237 21242	the trunk
 T713	Noun_Phrase 21248 21264	developing limbs
 T714	Noun_Phrase 21266 21275	Figure 4A
 T715	IDENTITY_chain 21266 21275	Figure 4A
@@ -785,10 +742,8 @@ T740	Noun_Phrase 22380 22386	Agouti
 T741	Noun_Phrase 22403 22418	developing skin
 T742	Noun_Phrase 22432 22437	E11.5
 T743	Noun_Phrase 22439 22441	We
-T744	Noun_Phrase 22485 22495;	probes for
-22506 22512	probes forAgouti
-T745	IDENTITY_chain 22485 22495;	probes for
-22506 22512	probes forAgouti
+T744	Noun_Phrase 22485 22495;22506 22512	probes for Agouti
+T745	IDENTITY_chain 22485 22495;22506 22512	probes for Agouti
 T746	Noun_Phrase 22485 22501	probes for Tbx15
 T747	Noun_Phrase 22496 22501	Tbx15
 T748	Noun_Phrase 22506 22512	Agouti
@@ -800,10 +755,8 @@ T753	Noun_Phrase 22605 22639	expression of Tbx15 in dorsal skin
 T754	IDENTITY_chain 22605 22639	expression of Tbx15 in dorsal skin
 T755	Noun_Phrase 22619 22624	Tbx15
 T756	Noun_Phrase 22628 22639	dorsal skin
-T757	Noun_Phrase 22641 22647;	Figure
-22655 22657	Figure5B
-T758	IDENTITY_chain 22641 22647;	Figure
-22655 22657	Figure5B
+T757	Noun_Phrase 22641 22647;22655 22657	Figure 5B
+T758	IDENTITY_chain 22641 22647;22655 22657	Figure 5B
 T759	Noun_Phrase 22641 22650	Figure 5A
 T760	IDENTITY_chain 22641 22650	Figure 5A
 T761	Noun_Phrase 22722 22727	E14.5
@@ -812,10 +765,8 @@ T763	Noun_Phrase 22729 22734	Tbx15
 T764	Noun_Phrase 22729 22745	Tbx15 expression
 T765	Noun_Phrase 22794 22800	Agouti
 T766	Noun_Phrase 22794 22811	Agouti expression
-T767	Noun_Phrase 22813 22819;	Figure
-22827 22829	Figure5D
-T768	IDENTITY_chain 22813 22819;	Figure
-22827 22829	Figure5D
+T767	Noun_Phrase 22813 22819;22827 22829	Figure 5D
+T768	IDENTITY_chain 22813 22819;22827 22829	Figure 5D
 T769	Noun_Phrase 22813 22822	Figure 5C
 T770	IDENTITY_chain 22813 22822	Figure 5C
 T771	Noun_Phrase 22833 22835	We
@@ -843,10 +794,8 @@ T792	Noun_Phrase 23323 23365	the pigmentation phenotype of deH/deH mice
 T793	Noun_Phrase 23353 23365	deH/deH mice
 T794	Noun_Phrase 23425 23431	Agouti
 T795	Noun_Phrase 23425 23442	Agouti expression
-T796	Noun_Phrase 23456 23479;	patterned expression of
-23490 23496	patterned expression ofAgouti
-T797	IDENTITY_chain 23456 23479;	patterned expression of
-23490 23496	patterned expression ofAgouti
+T796	Noun_Phrase 23456 23479;23490 23496	patterned expression of Agouti
+T797	IDENTITY_chain 23456 23479;23490 23496	patterned expression of Agouti
 T798	Noun_Phrase 23456 23485	patterned expression of Tbx15
 T799	IDENTITY_chain 23456 23485	patterned expression of Tbx15
 T800	Noun_Phrase 23480 23485	Tbx15
@@ -877,10 +826,8 @@ T824	Noun_Phrase 24239 24244	their
 T825	Noun_Phrase 24301 24306	their
 T826	Noun_Phrase 24321 24326	Tbx15
 T827	Noun_Phrase 24331 24337	Agouti
-T828	Noun_Phrase 24486 24491;	black
-24503 24507	blackhair
-T829	IDENTITY_chain 24486 24491;	black
-24503 24507	blackhair
+T828	Noun_Phrase 24486 24491;24503 24507	black hair
+T829	IDENTITY_chain 24486 24491;24503 24507	black hair
 T830	Noun_Phrase 24496 24507	yellow hair
 T831	IDENTITY_chain 24496 24507	yellow hair
 T832	IDENTITY_chain 24546 24552	testis
@@ -889,33 +836,26 @@ T834	Noun_Phrase 24666 24671	E14.5
 T835	Noun_Phrase 24690 24709	positional identity
 T836	IDENTITY_chain 24690 24709	positional identity
 T837	Noun_Phrase 24781 24783	we
-T838	Noun_Phrase 24830 24836;	dorsal
-24857 24863	dorsalpieces
-T839	IDENTITY_chain 24830 24836;	dorsal
-24857 24863	dorsalpieces
-T840	Noun_Phrase 24838 24843;	flank
-24857 24863	flankpieces
-T841	IDENTITY_chain 24838 24843;	flank
-24857 24863	flankpieces
+T838	Noun_Phrase 24830 24836;24857 24863	dorsal pieces
+T839	IDENTITY_chain 24830 24836;24857 24863	dorsal pieces
+T840	Noun_Phrase 24838 24843;24857 24863	flank pieces
+T841	IDENTITY_chain 24838 24843;24857 24863	flank pieces
 T842	Noun_Phrase 24849 24863	ventral pieces
 T843	IDENTITY_chain 24849 24863	ventral pieces
 T844	Noun_Phrase 24877 24897	the different pieces
 T845	IDENTITY_chain 24877 24897	the different pieces
 T846	Noun_Phrase 24902 24907	their
-T847	Noun_Phrase 24932 24937;	black
-24948 24952	blackhair
+T847	Noun_Phrase 24932 24937;24948 24952	black hair
 T848	Noun_Phrase 24941 24952	yellow hair
 T849	Noun_Phrase 25005 25020	gene expression
 T850	IDENTITY_chain 25005 25020	gene expression
 T851	Noun_Phrase 25027 25048	in situ hybridization
 T852	IDENTITY_chain 25027 25048	in situ hybridization
 T853	Noun_Phrase 25107 25109	we
-T854	Noun_Phrase 25118 25123;	flank
-25137 25141	flankskin
+T854	Noun_Phrase 25118 25123;25137 25141	flank skin
 T855	Noun_Phrase 25129 25141	ventral skin
 T856	Noun_Phrase 25163 25177	skin thickness
-T857	Noun_Phrase 25190 25196;	dorsal
-25208 25212	dorsalskin
+T857	Noun_Phrase 25190 25196;25208 25212	dorsal skin
 T858	Noun_Phrase 25202 25212	flank skin
 T859	Noun_Phrase 25229 25313	an ectodermal notch that lies at the same level as the ventral extent of the myotome
 T860	IDENTITY_chain 25229 25313	an ectodermal notch that lies at the same level as the ventral extent of the myotome
@@ -943,17 +883,13 @@ T881	Noun_Phrase 25659 25670	dorsal skin
 T882	Noun_Phrase 25684 25694	black hair
 T883	Noun_Phrase 25723 25733	flank skin
 T884	Noun_Phrase 25800 25810	black hair
-T885	Noun_Phrase 25900 25905;	black
-25916 25920	blackhair
+T885	Noun_Phrase 25900 25905;25916 25920	black hair
 T886	Noun_Phrase 25909 25920	yellow hair
 T887	Noun_Phrase 25937 25939	we
-T888	Noun_Phrase 25965 25970;	black
-25982 25987	blackhairs
+T888	Noun_Phrase 25965 25970;25982 25987	black hairs
 T889	Noun_Phrase 25975 25987	yellow hairs
-T890	Noun_Phrase 26050 26057;	Figures
-26064 26065	Figures6
-T891	IDENTITY_chain 26050 26057;	Figures
-26064 26065	Figures6
+T890	Noun_Phrase 26050 26057;26064 26065	Figures 6
+T891	IDENTITY_chain 26050 26057;26064 26065	Figures 6
 T892	Noun_Phrase 26050 26059	Figures 5
 T893	IDENTITY_chain 26050 26059	Figures 5
 T894	Noun_Phrase 26068 26081	dorsal pieces
@@ -965,11 +901,8 @@ T899	IDENTITY_chain 26143 26153	both genes
 T900	Noun_Phrase 26159 26167	Figure 7
 T901	Noun_Phrase 26239 26311	the time when patterned expression becomes apparent for Tbx15 and Agouti
 T902	Noun_Phrase 26248 26252	when
-T903	Noun_Phrase 26253 26273;	patterned expression
-26291 26294;	patterned expressionfor
-26305 26311	patterned expressionforAgouti
-T904	Noun_Phrase 26253 26273;	patterned expression
-26291 26300	patterned expressionfor Tbx15
+T903	Noun_Phrase 26253 26273;26291 26294;26305 26311	patterned expression for Agouti
+T904	Noun_Phrase 26253 26273;26291 26300	patterned expression for Tbx15
 T905	Noun_Phrase 26295 26300	Tbx15
 T906	Noun_Phrase 26305 26311	Agouti
 T907	Noun_Phrase 26313 26324	E11.5–E12.5
@@ -979,8 +912,7 @@ T910	Noun_Phrase 26340 26359	positional identity
 T911	Noun_Phrase 26401 26417	skin development
 T912	Noun_Phrase 26431 26450	expression of Tbx15
 T913	Noun_Phrase 26445 26450	Tbx15
-T914	Noun_Phrase 26471 26478;	ventral
-26497 26501	ventralskin
+T914	Noun_Phrase 26471 26478;26497 26501	ventral skin
 T915	Noun_Phrase 26490 26501	dorsal skin
 T916	Noun_Phrase 26504 26610	Relationship of the Dorsoventral Pigment Boundary to Lineage Compartments and the Lateral Somitic Frontier
 T917	IDENTITY_chain 26504 26610	Relationship of the Dorsoventral Pigment Boundary to Lineage Compartments and the Lateral Somitic Frontier
@@ -1029,10 +961,8 @@ T959	Noun_Phrase 27818 27845	the R26R lacZ reporter gene
 T960	IDENTITY_chain 27818 27845	the R26R lacZ reporter gene
 T961	Noun_Phrase 27847 27854	Soriano
 T962	IDENTITY_chain 27847 27854	Soriano
-T963	Noun_Phrase 27887 27909;	lateral plate mesoderm
-27942 27954	lateral plate mesodermof the trunk
-T964	IDENTITY_chain 27887 27909;	lateral plate mesoderm
-27942 27954	lateral plate mesodermof the trunk
+T963	Noun_Phrase 27887 27909;27942 27954	lateral plate mesoderm of the trunk
+T964	IDENTITY_chain 27887 27909;27942 27954	lateral plate mesoderm of the trunk
 T965	Noun_Phrase 27918 27954	somite-derived mesoderm of the trunk
 T966	IDENTITY_chain 27918 27954	somite-derived mesoderm of the trunk
 T967	Noun_Phrase 27945 27954	the trunk
@@ -1052,8 +982,7 @@ T980	Noun_Phrase 28454 28463	Figure 8B
 T981	IDENTITY_chain 28454 28463	Figure 8B
 T982	Noun_Phrase 28494 28519	the pigmentation boundary
 T983	Noun_Phrase 28567 28628	the boundary between lateral plate- and somite-derived dermis
-T984	Noun_Phrase 28588 28602;	lateral plate-
-28614 28628	lateral plate-derived dermis
+T984	Noun_Phrase 28588 28602;28614 28628	lateral plate- derived dermis
 T985	Noun_Phrase 28607 28628	somite-derived dermis
 T986	Noun_Phrase 28639 28664	the pigmentation boundary
 T987	Noun_Phrase 28687 28714	the limb–body wall junction
@@ -1109,8 +1038,7 @@ T1036	Noun_Phrase 30652 30681	patterned expression of Tbx15
 T1037	Noun_Phrase 30676 30681	Tbx15
 T1038	Noun_Phrase 30734 30770	the future identity of dorsal dermis
 T1039	Noun_Phrase 30757 30770	dorsal dermis
-T1040	Noun_Phrase 30786 30796;	pigmentary
-30813 30823	pigmentarypatterning
+T1040	Noun_Phrase 30786 30796;30813 30823	pigmentary patterning
 T1041	Noun_Phrase 30845 30850	Tbx15
 T1042	Noun_Phrase 30865 30885	the developing flank
 T1043	Noun_Phrase 30948 30964	limb development
@@ -1119,10 +1047,8 @@ T1045	Noun_Phrase 30980 31002	lateral plate mesoderm
 T1046	Noun_Phrase 31046 31063	T-box gene action
 T1047	Noun_Phrase 31067 31088	embryonic development
 T1048	Noun_Phrase 31294 31359	The visual boundary between dorsal and ventral skin in at/at mice
-T1049	Noun_Phrase 31322 31328;	dorsal
-31341 31359	dorsalskin in at/at mice
-T1050	IDENTITY_chain 31322 31328;	dorsal
-31341 31359	dorsalskin in at/at mice
+T1049	Noun_Phrase 31322 31328;31341 31359	dorsal skin in at/at mice
+T1050	IDENTITY_chain 31322 31328;31341 31359	dorsal skin in at/at mice
 T1051	Noun_Phrase 31322 31359	dorsal and ventral skin in at/at mice
 T1052	IDENTITY_chain 31322 31359	dorsal and ventral skin in at/at mice
 T1053	Noun_Phrase 31333 31359	ventral skin in at/at mice
@@ -1134,8 +1060,7 @@ T1058	Noun_Phrase 31395 31400	which
 T1059	Noun_Phrase 31479 31494	gene expression
 T1060	Noun_Phrase 31557 31568	Agouti mRNA
 T1061	IDENTITY_chain 31557 31568	Agouti mRNA
-T1062	Noun_Phrase 31577 31586;	embryonic
-31601 31605	embryonicskin
+T1062	Noun_Phrase 31577 31586;31601 31605	embryonic skin
 T1063	Noun_Phrase 31627 31802	a gradient whose dorsal boundary is indistinct and overlaps with two additional gradients recognized by their effects on hair length and histochemical staining for melanocytes
 T1064	IDENTITY_chain 31627 31802	a gradient whose dorsal boundary is indistinct and overlaps with two additional gradients recognized by their effects on hair length and histochemical staining for melanocytes
 T1065	Noun_Phrase 31638 31643	whose
@@ -1150,8 +1075,7 @@ T1073	Noun_Phrase 31804 31823	The three gradients
 T1074	IDENTITY_chain 31804 31823	The three gradients
 T1075	Nonreferential_pronoun 31857 31859	it
 T1076	Noun_Phrase 31863 31868	their
-T1077	Noun_Phrase 31934 31940;	dorsal
-31953 31971	dorsalskin of at/at mice
+T1077	Noun_Phrase 31934 31940;31953 31971	dorsal skin of at/at mice
 T1078	Noun_Phrase 31934 31971	dorsal and ventral skin of at/at mice
 T1079	Noun_Phrase 31945 31971	ventral skin of at/at mice
 T1080	Noun_Phrase 31961 31971	at/at mice
@@ -1159,12 +1083,9 @@ T1081	Noun_Phrase 32038 32060	pigment-type switching
 T1082	Noun_Phrase 32094 32132	a subtle yellow stripe along the flank
 T1083	IDENTITY_chain 32094 32132	a subtle yellow stripe along the flank
 T1084	Noun_Phrase 32123 32132	the flank
-T1085	Noun_Phrase 32138 32145;	Figures
-32149 32150	Figures2
-T1086	Noun_Phrase 32138 32145;	Figures
-32156 32158	Figures9A
-T1087	IDENTITY_chain 32138 32145;	Figures
-32156 32158	Figures9A
+T1085	Noun_Phrase 32138 32145;32149 32150	Figures 2
+T1086	Noun_Phrase 32138 32145;32156 32158	Figures 9A
+T1087	IDENTITY_chain 32138 32145;32156 32158	Figures 9A
 T1088	Noun_Phrase 32138 32147	Figures 1
 T1089	Noun_Phrase 32171 32182	Agouti mRNA
 T1090	Noun_Phrase 32230 32250	hair pigment content
@@ -1176,13 +1097,11 @@ T1095	Noun_Phrase 32402 32425	the yellow flank stripe
 T1096	Noun_Phrase 32428 32441	Loss of Tbx15
 T1097	IDENTITY_chain 32428 32441	Loss of Tbx15
 T1098	Noun_Phrase 32436 32441	Tbx15
-T1099	Noun_Phrase 32450 32477;	dorsoventral transitions of
-32491 32506	dorsoventral transitions ofpigment content
+T1099	Noun_Phrase 32450 32477;32491 32506	dorsoventral transitions of pigment content
 T1100	Noun_Phrase 32450 32489	dorsoventral transitions of hair length
 T1101	Noun_Phrase 32450 32506	dorsoventral transitions of hair length, pigment content
 T1102	IDENTITY_chain 32450 32506	dorsoventral transitions of hair length, pigment content
-T1103	Noun_Phrase 32478 32482;	hair
-32491 32506	hairpigment content
+T1103	Noun_Phrase 32478 32482;32491 32506	hair pigment content
 T1104	Noun_Phrase 32478 32489	hair length
 T1105	IDENTITY_chain 32512 32561	expression of the ventral-specific Agouti isoform
 T1106	Noun_Phrase 32512 32561	expression of the ventral-specific Agouti isoform
@@ -1192,8 +1111,7 @@ T1109	Noun_Phrase 32643 32690	the abnormal pigmentation of adult deH/deH mice
 T1110	Noun_Phrase 32672 32690	adult deH/deH mice
 T1111	Noun_Phrase 32730 32764	dark skin in neonatal deH/deH mice
 T1112	Noun_Phrase 32772 32781	Figure 2D
-T1113	Noun_Phrase 32868 32873;	black
-32885 32889	blackhair
+T1113	Noun_Phrase 32868 32873;32885 32889	black hair
 T1114	Noun_Phrase 32878 32889	yellow hair
 T1115	Noun_Phrase 32891 32900	Figure 9A
 T1116	Noun_Phrase 32916 32921	Tbx15
@@ -1231,10 +1149,8 @@ T1147	Noun_Phrase 33872 33877	Tbx18
 T1148	Noun_Phrase 33883 33888	Tbx22
 T1149	Noun_Phrase 34045 34053	the limb
 T1150	Noun_Phrase 34058 34067	the trunk
-T1151	Noun_Phrase 34103 34116;	Expression of
-34127 34132	Expression ofTbx22
-T1152	IDENTITY_chain 34103 34116;	Expression of
-34127 34132	Expression ofTbx22
+T1151	Noun_Phrase 34103 34116;34127 34132	Expression of Tbx22
+T1152	IDENTITY_chain 34103 34116;34127 34132	Expression of Tbx22
 T1153	Noun_Phrase 34117 34122	Tbx18
 T1154	Noun_Phrase 34127 34132	Tbx22
 T1155	Noun_Phrase 34206 34211	Tbx15
@@ -1279,10 +1195,8 @@ T1193	Noun_Phrase 36082 36092	droopy ear
 T1194	Noun_Phrase 36267 36271	Alx3
 T1195	Noun_Phrase 36276 36279	deH
 T1196	Noun_Phrase 36311 36316	Tbx15
-T1197	Noun_Phrase 36393 36398;	Tbx15
-36414 36432	Tbx15Action in the Skin
-T1198	IDENTITY_chain 36393 36398;	Tbx15
-36414 36432	Tbx15Action in the Skin
+T1197	Noun_Phrase 36393 36398;36414 36432	Tbx15 Action in the Skin
+T1198	IDENTITY_chain 36393 36398;36414 36432	Tbx15 Action in the Skin
 T1199	Noun_Phrase 36393 36398	Tbx15
 T1200	Noun_Phrase 36393 36409	Tbx15 Expression
 T1201	Noun_Phrase 36424 36432	the Skin
@@ -1342,10 +1256,8 @@ T1254	Noun_Phrase 38695 38715	One potential target
 T1255	IDENTITY_chain 38695 38715	One potential target
 T1256	Noun_Phrase 38725 38730	which
 T1257	Noun_Phrase 38737 38743	Agouti
-T1258	Noun_Phrase 38818 38831;	hair-follicle
-38865 38876	hair-follicledevelopment
-T1259	Noun_Phrase 38843 38847;	limb
-38865 38876	limbdevelopment
+T1258	Noun_Phrase 38818 38831;38865 38876	hair-follicle development
+T1259	Noun_Phrase 38843 38847;38865 38876	limb development
 T1260	Noun_Phrase 39009 39013	Alx4
 T1261	Noun_Phrase 39026 39030	Alx3
 T1262	Noun_Phrase 39069 39074	E11.5
@@ -1473,17 +1385,14 @@ T1383	Noun_Phrase 42714 42723	the chick
 T1384	IDENTITY_chain 42714 42723	the chick
 T1385	Noun_Phrase 42725 42730	where
 T1386	Noun_Phrase 42807 42815	the limb
-T1387	Noun_Phrase 42817 42831;	Altabef et al.
-42838 42842	Altabef et al.2000
-T1388	IDENTITY_chain 42817 42831;	Altabef et al.
-42838 42842	Altabef et al.2000
+T1387	Noun_Phrase 42817 42831;42838 42842	Altabef et al. 2000
+T1388	IDENTITY_chain 42817 42831;42838 42842	Altabef et al. 2000
 T1389	Noun_Phrase 42817 42836	Altabef et al. 1997
 T1390	Noun_Phrase 42844 42863	Michaud et al. 1997
 T1391	Noun_Phrase 42865 42883	Kimmel et al. 2000
 T1392	Noun_Phrase 42889 42906	interlimb regions
 T1393	IDENTITY_chain 42889 42906	interlimb regions
-T1394	Noun_Phrase 42908 42922;	Altabef et al.
-42929 42933	Altabef et al.2000
+T1394	Noun_Phrase 42908 42922;42929 42933	Altabef et al. 2000
 T1395	Noun_Phrase 42908 42927	Altabef et al. 1997
 T1396	Noun_Phrase 42963 42982	Altabef et al. 1997
 T1397	Noun_Phrase 42984 43003	Michaud et al. 1997
@@ -1493,8 +1402,7 @@ T1400	Noun_Phrase 43147 43152	Tbx15
 T1401	Noun_Phrase 43156 43165	the trunk
 T1402	Noun_Phrase 43198 43218	the interlimb region
 T1403	Noun_Phrase 43321 43353	the future pigmentation boundary
-T1404	Noun_Phrase 43415 43429;	Altabef et al.
-43436 43440	Altabef et al.2000
+T1404	Noun_Phrase 43415 43429;43436 43440	Altabef et al. 2000
 T1405	Noun_Phrase 43415 43434	Altabef et al. 1997
 T1406	Noun_Phrase 43444 43447	Our
 T1407	Noun_Phrase 43490 43495	Tbx15
@@ -1510,8 +1418,7 @@ T1416	Noun_Phrase 43980 43995	dorsal ectoderm
 T1417	Noun_Phrase 43998 44019	Pigmentation Patterns
 T1418	Noun_Phrase 44024 44029	Tbx15
 T1419	Noun_Phrase 44048 44076	The lateral somitic frontier
-T1420	Noun_Phrase 44118 44132;	somite-derived
-44162 44170	somite-derivedmesoderm
+T1420	Noun_Phrase 44118 44132;44162 44170	somite-derived mesoderm
 T1421	Noun_Phrase 44140 44170	lateral plate-derived mesoderm
 T1422	Noun_Phrase 44217 44228	development
 T1423	Noun_Phrase 44230 44241	Mauger 1972
@@ -1538,10 +1445,8 @@ T1443	Noun_Phrase 45050 45072	pigment-type synthesis
 T1444	Noun_Phrase 45122 45140	expression of Msx1
 T1445	Noun_Phrase 45136 45140	Msx1
 T1446	Noun_Phrase 45160 45185	the pigmentation boundary
-T1447	Noun_Phrase 45260 45264;	hair
-45271 45277	hairlength
-T1448	Noun_Phrase 45260 45264;	hair
-45286 45291	haircolor
+T1447	Noun_Phrase 45260 45264;45271 45277	hair length
+T1448	Noun_Phrase 45260 45264;45286 45291	hair color
 T1449	Noun_Phrase 45260 45269	hair type
 T1450	Noun_Phrase 45308 45329	the dorsoventral axis
 T1451	Noun_Phrase 45397 45412	lateral stripes
@@ -1588,8 +1493,7 @@ T1491	Noun_Phrase 47486 47501	the BTBR strain
 T1492	IDENTITY_chain 47486 47501	the BTBR strain
 T1493	Noun_Phrase 47603 47607	BTBR
 T1494	Noun_Phrase 47611 47613	B6
-T1495	Noun_Phrase 47778 47782;	hair
-47794 47799	haircolor
+T1495	Noun_Phrase 47778 47782;47794 47799	hair color
 T1496	Noun_Phrase 47778 47789	hair length
 T1497	Noun_Phrase 48006 48027	the dorsoventral axis
 T1498	IDENTITY_chain 48006 48027	the dorsoventral axis
@@ -1621,8 +1525,7 @@ T1523	Noun_Phrase 49151 49162	The samples
 T1524	Noun_Phrase 49250 49277	interfollicular melanocytes
 T1525	Noun_Phrase 49365 49383	Positional cloning
 T1526	Noun_Phrase 49411 49414	deH
-T1527	Noun_Phrase 49473 49480;	deH/deH
-49493 49497	deH/deHmice
+T1527	Noun_Phrase 49473 49480;49493 49497	deH/deH mice
 T1528	Noun_Phrase 49485 49497	CAST/Ei mice
 T1529	Noun_Phrase 49499 49501	We
 T1530	Noun_Phrase 49522 49525	deH
@@ -1645,10 +1548,8 @@ T1546	Noun_Phrase 50035 50048	United States
 T1547	Noun_Phrase 50051 50079	End sequence from those BACs
 T1548	IDENTITY_chain 50051 50079	End sequence from those BACs
 T1549	Noun_Phrase 50069 50079	those BACs
-T1550	Noun_Phrase 50100 50112;	SSCP markers
-50119 50121	SSCP markersM3
-T1551	IDENTITY_chain 50100 50112;	SSCP markers
-50119 50121	SSCP markersM3
+T1550	Noun_Phrase 50100 50112;50119 50121	SSCP markers M3
+T1551	IDENTITY_chain 50100 50112;50119 50121	SSCP markers M3
 T1552	Noun_Phrase 50100 50115	SSCP markers M1
 T1553	IDENTITY_chain 50100 50115	SSCP markers M1
 T1554	Noun_Phrase 50100 50121	SSCP markers M1 to M3
@@ -1672,16 +1573,8 @@ T1571	Noun_Phrase 50717 50728	eight genes
 T1572	Noun_Phrase 50730 50774	four hydroxysteroid dehydrogenase isomerases
 T1573	Noun_Phrase 50776 50810	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1
 T1574	APPOS_relation 50776 50810	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1
-T1575	Noun_Phrase 50776 50810;	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1
-50834 50838;	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1Hao3
-50872 50877;	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1Hao3Wars2
-50893 50898;	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1Hao3Wars2Tbx15
-50918 50931	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1Hao3Wars2Tbx154931427F14Rik
-T1576	APPOS_relation 50776 50810;	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1
-50834 50838;	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1Hao3
-50872 50877;	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1Hao3Wars2
-50893 50898;	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1Hao3Wars2Tbx15
-50918 50931	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1Hao3Wars2Tbx154931427F14Rik
+T1575	Noun_Phrase 50776 50810;50834 50838;50872 50877;50893 50898;50918 50931	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1 Hao3 Wars2 Tbx15 4931427F14Rik
+T1576	APPOS_relation 50776 50810;50834 50838;50872 50877;50893 50898;50918 50931	Hsd3b3, Hsd3b2, Hsd3b6, and Hsd3b1 Hao3 Wars2 Tbx15 4931427F14Rik
 T1577	Noun_Phrase 50812 50832	an hydroacid oxidase
 T1578	Noun_Phrase 50834 50838	Hao3
 T1579	APPOS_relation 50834 50838	Hao3
@@ -1735,10 +1628,8 @@ T1626	IDENTITY_chain 52971 53011	(BTBR-at/at × B6-a/a)F1 embryos at E12.5
 T1627	Noun_Phrase 53006 53011	E12.5
 T1628	Noun_Phrase 53061 53075	embryonic skin
 T1629	IDENTITY_chain 53061 53075	embryonic skin
-T1630	Noun_Phrase 53093 53099;	dorsal
-53120 53126	dorsalpieces
-T1631	Noun_Phrase 53101 53106;	flank
-53120 53126	flankpieces
+T1630	Noun_Phrase 53093 53099;53120 53126	dorsal pieces
+T1631	Noun_Phrase 53101 53106;53120 53126	flank pieces
 T1632	Noun_Phrase 53112 53126	ventral pieces
 T1633	Noun_Phrase 53162 53170	Figure 7
 T1634	Noun_Phrase 53172 53186	Skin fragments
@@ -1748,10 +1639,8 @@ T1637	Noun_Phrase 53217 53233	congenic animals
 T1638	IDENTITY_chain 53217 53233	congenic animals
 T1639	Noun_Phrase 53287 53330	a 1.5-cm incision in the skin and body wall
 T1640	IDENTITY_chain 53287 53330	a 1.5-cm incision in the skin and body wall
-T1641	Noun_Phrase 53308 53311;	the
-53321 53330	thebody wall
-T1642	IDENTITY_chain 53308 53311;	the
-53321 53330	thebody wall
+T1641	Noun_Phrase 53308 53311;53321 53330	the body wall
+T1642	IDENTITY_chain 53308 53311;53321 53330	the body wall
 T1643	Noun_Phrase 53308 53316	the skin
 T1644	Noun_Phrase 53373 53382	the limbs
 T1645	Noun_Phrase 53440 53448	the body
@@ -1771,17 +1660,14 @@ T1658	Noun_Phrase 53887 53944	The Hoxb6-Cre transgene described by Kuehn and col
 T1659	Noun_Phrase 53924 53929	Kuehn
 T1660	Noun_Phrase 53924 53944	Kuehn and colleagues
 T1661	Noun_Phrase 53946 53962	Lowe et al. 2000
-T1662	Noun_Phrase 53980 53997;	the lateral plate
-54018 54039	the lateral platemesoderm of the trunk
+T1662	Noun_Phrase 53980 53997;54018 54039	the lateral plate mesoderm of the trunk
 T1663	Noun_Phrase 54006 54039	the somitic mesoderm of the trunk
 T1664	Noun_Phrase 54030 54039	the trunk
 T1665	Noun_Phrase 54054 54058	E9.5
 T1666	Noun_Phrase 54092 54106	this transgene
 T1667	Noun_Phrase 54111 54133	the R26R reporter gene
-T1668	Noun_Phrase 54159 54172;	whole skin at
-54181 54185	whole skin atP4.5
-T1669	IDENTITY_chain 54159 54172;	whole skin at
-54181 54185	whole skin atP4.5
+T1668	Noun_Phrase 54159 54172;54181 54185	whole skin at P4.5
+T1669	IDENTITY_chain 54159 54172;54181 54185	whole skin at P4.5
 T1670	Noun_Phrase 54159 54177	whole skin at P1.5
 T1671	IDENTITY_chain 54159 54177	whole skin at P1.5
 T1672	Noun_Phrase 54159 54185	whole skin at P1.5 or P4.5
@@ -1873,26 +1759,17 @@ T1757	Noun_Phrase 57035 57036	F
 T1758	Noun_Phrase 57092 57096	P4.5
 T1759	Noun_Phrase 57141 57142	G
 T1760	Noun_Phrase 57184 57197	DOPA staining
-T1761	Noun_Phrase 57202 57208;	dorsum
-57241 57243;	dorsumin
-57254 57264	dorsuminat/at mice
-T1762	Noun_Phrase 57214 57219;	flank
-57241 57243;	flankin
-57254 57264	flankinat/at mice
-T1763	Noun_Phrase 57229 57236;	ventrum
-57241 57243;	ventrumin
-57254 57264	ventruminat/at mice
-T1764	Noun_Phrase 57244 57249;	ae/ae
-57260 57264	ae/aemice
+T1761	Noun_Phrase 57202 57208;57241 57243;57254 57264	dorsum in at/at mice
+T1762	Noun_Phrase 57214 57219;57241 57243;57254 57264	flank in at/at mice
+T1763	Noun_Phrase 57229 57236;57241 57243;57254 57264	ventrum in at/at mice
+T1764	Noun_Phrase 57244 57249;57260 57264	ae/ae mice
 T1765	Noun_Phrase 57254 57264	at/at mice
 T1766	Noun_Phrase 57330 57347	the at/at ventrum
 T1767	Noun_Phrase 57479 57487	Figure 2
 T1768	Noun_Phrase 57489 57519	The deH Pigmentation Phenotype
 T1769	Noun_Phrase 57522 57523	A
-T1770	Noun_Phrase 57525 57542;	10-wk-old deH/deH
-57557 57583	10-wk-old deH/deHanimals on a at background
-T1771	IDENTITY_chain 57525 57542;	10-wk-old deH/deH
-57557 57583	10-wk-old deH/deHanimals on a at background
+T1770	Noun_Phrase 57525 57542;57557 57583	10-wk-old deH/deH animals on a at background
+T1771	IDENTITY_chain 57525 57542;57557 57583	10-wk-old deH/deH animals on a at background
 T1772	Noun_Phrase 57585 57613	A thin stripe of yellow hair
 T1773	IDENTITY_chain 57585 57613	A thin stripe of yellow hair
 T1774	Noun_Phrase 57602 57613	yellow hair
@@ -1900,18 +1777,13 @@ T1775	Noun_Phrase 57633 57655	the dorsal black hairs
 T1776	Noun_Phrase 57661 57684	the ventral cream hairs
 T1777	Noun_Phrase 57689 57692	deH
 T1778	Noun_Phrase 57694 57711	the yellow stripe
-T1779	Noun_Phrase 57759 57769;	the yellow
-57784 57789	the yellowhairs
+T1779	Noun_Phrase 57759 57769;57784 57789	the yellow hairs
 T1780	Noun_Phrase 57774 57789	the black hairs
 T1781	Noun_Phrase 57804 57805	B
-T1782	Noun_Phrase 57830 57840;	1.5-mo-old
-57853 57874	1.5-mo-oldnonmutant littermates
-T1783	IDENTITY_chain 57830 57840;	1.5-mo-old
-57853 57874	1.5-mo-oldnonmutant littermates
-T1784	Noun_Phrase 57830 57848;	1.5-mo-old deH/deH
-57863 57874	1.5-mo-old deH/deHlittermates
-T1785	IDENTITY_chain 57830 57848;	1.5-mo-old deH/deH
-57863 57874	1.5-mo-old deH/deHlittermates
+T1782	Noun_Phrase 57830 57840;57853 57874	1.5-mo-old nonmutant littermates
+T1783	IDENTITY_chain 57830 57840;57853 57874	1.5-mo-old nonmutant littermates
+T1784	Noun_Phrase 57830 57848;57863 57874	1.5-mo-old deH/deH littermates
+T1785	IDENTITY_chain 57830 57848;57863 57874	1.5-mo-old deH/deH littermates
 T1786	Noun_Phrase 57899 57900	C
 T1787	Noun_Phrase 57981 58001	the interlimb region
 T1788	Noun_Phrase 58030 58060	the yellow lateral compartment
@@ -1923,10 +1795,8 @@ T1793	Noun_Phrase 58393 58394	D
 T1794	Noun_Phrase 58491 58495	P3.5
 T1795	Noun_Phrase 58500 58501	E
 T1796	Noun_Phrase 58503 58514	Hair length
-T1797	Noun_Phrase 58543 58553;	1.5-mo-old
-58566 58587	1.5-mo-oldnonmutant littermates
-T1798	Noun_Phrase 58543 58561;	1.5-mo-old deH/deH
-58576 58587	1.5-mo-old deH/deHlittermates
+T1797	Noun_Phrase 58543 58553;58566 58587	1.5-mo-old nonmutant littermates
+T1798	Noun_Phrase 58543 58561;58576 58587	1.5-mo-old deH/deH littermates
 T1799	Noun_Phrase 58763 58771	Figure 3
 T1800	Noun_Phrase 58795 58798	deH
 T1801	Noun_Phrase 58803 58808	Tbx15
@@ -1982,8 +1852,7 @@ T1850	Noun_Phrase 60380 60384	P3.5
 T1851	Noun_Phrase 60386 60391	Tbx15
 T1852	Noun_Phrase 60408 60425	the entire dermis
 T1853	Noun_Phrase 60498 60506	Figure 5
-T1854	Noun_Phrase 60508 60531;	Embryonic Expression of
-60550 60556	Embryonic Expression ofAgouti
+T1854	Noun_Phrase 60508 60531;60550 60556	Embryonic Expression of Agouti
 T1855	Noun_Phrase 60508 60537	Embryonic Expression of Tbx15
 T1856	Noun_Phrase 60532 60537	Tbx15
 T1857	Noun_Phrase 60550 60556	Agouti
@@ -2023,8 +1892,7 @@ T1890	Noun_Phrase 61302 61303	B
 T1891	Noun_Phrase 61308 61312	P4.5
 T1892	Noun_Phrase 61314 61320	Agouti
 T1893	Noun_Phrase 61335 61363	both dorsal and ventral skin
-T1894	Noun_Phrase 61340 61346;	dorsal
-61359 61363	dorsalskin
+T1894	Noun_Phrase 61340 61346;61359 61363	dorsal skin
 T1895	Noun_Phrase 61351 61363	ventral skin
 T1896	Noun_Phrase 61378 61385	deH/deH
 T1897	Nonreferential_pronoun 61437 61442	there
@@ -2032,13 +1900,9 @@ T1898	Noun_Phrase 61456 61462	Agouti
 T1899	Noun_Phrase 61477 61484	deH/deH
 T1900	Noun_Phrase 61500 61516	the upper dermis
 T1901	Noun_Phrase 61638 61646	Figure 7
-T1902	Noun_Phrase 61705 61724;	Pieces of skin from
-61733 61738;	Pieces of skin fromflank
-61752 61781	Pieces of skin fromflankregions of at/a E12.5 embryos
-T1903	Noun_Phrase 61705 61724;	Pieces of skin from
-61744 61781	Pieces of skin fromventral regions of at/a E12.5 embryos
-T1904	Noun_Phrase 61705 61731;	Pieces of skin from dorsal
-61752 61781	Pieces of skin from dorsalregions of at/a E12.5 embryos
+T1902	Noun_Phrase 61705 61724;61733 61738;61752 61781	Pieces of skin from flank regions of at/a E12.5 embryos
+T1903	Noun_Phrase 61705 61724;61744 61781	Pieces of skin from ventral regions of at/a E12.5 embryos
+T1904	Noun_Phrase 61705 61731;61752 61781	Pieces of skin from dorsal regions of at/a E12.5 embryos
 T1905	Noun_Phrase 61763 61781	at/a E12.5 embryos
 T1906	Noun_Phrase 61805 61835	the testes of congenic animals
 T1907	Noun_Phrase 61819 61835	congenic animals
@@ -2047,8 +1911,7 @@ T1909	Noun_Phrase 61962 61974	yellow hairs
 T1910	Noun_Phrase 61976 61997	dorsal embryonic skin
 T1911	Noun_Phrase 62015 62026	black hairs
 T1912	Noun_Phrase 62032 62052	flank embryonic skin
-T1913	Noun_Phrase 62084 62089;	black
-62101 62106	blackhairs
+T1913	Noun_Phrase 62084 62089;62101 62106	black hairs
 T1914	Noun_Phrase 62094 62106	yellow hairs
 T1915	Noun_Phrase 62223 62274	the boundary of expression between Agouti and Tbx15
 T1916	IDENTITY_chain 62223 62274	the boundary of expression between Agouti and Tbx15

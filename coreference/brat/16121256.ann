@@ -161,14 +161,10 @@ T159	Noun_Phrase 4514 4526	129P2/OlaHsd
 T160	Noun_Phrase 4565 4579	the MCAD locus
 T161	IDENTITY_chain 4565 4579	the MCAD locus
 T162	Noun_Phrase 4569 4573	MCAD
-T163	Noun_Phrase 4609 4614;	exons
-4618 4619	exons9
-T164	IDENTITY_chain 4609 4614;	exons
-4618 4619	exons9
-T165	Noun_Phrase 4609 4614;	exons
-4625 4627	exons10
-T166	IDENTITY_chain 4609 4614;	exons
-4625 4627	exons10
+T163	Noun_Phrase 4609 4614;4618 4619	exons 9
+T164	IDENTITY_chain 4609 4614;4618 4619	exons 9
+T165	Noun_Phrase 4609 4614;4625 4627	exons 10
+T166	IDENTITY_chain 4609 4614;4625 4627	exons 10
 T167	Noun_Phrase 4609 4616	exons 8
 T168	IDENTITY_chain 4609 4616	exons 8
 T169	Noun_Phrase 4609 4627	exons 8, 9, and 10
@@ -176,10 +172,8 @@ T170	IDENTITY_chain 4609 4627	exons 8, 9, and 10
 T171	Noun_Phrase 4683 4692	Figure 1A
 T172	IDENTITY_chain 4683 4692	Figure 1A
 T173	Noun_Phrase 4695 4715	The insertion vector
-T174	Noun_Phrase 4742 4746;	exon
-4750 4751	exon9
-T175	Noun_Phrase 4742 4746;	exon
-4757 4759	exon10
+T174	Noun_Phrase 4742 4746;4750 4751	exon 9
+T175	Noun_Phrase 4742 4746;4757 4759	exon 10
 T176	Noun_Phrase 4742 4748	exon 8
 T177	Noun_Phrase 4742 4759	exon 8, 9, and 10
 T178	Noun_Phrase 4763 4777	the MCAD locus
@@ -191,12 +185,9 @@ T183	Noun_Phrase 4904 4908	MCAD
 T184	Noun_Phrase 5019 5040	the duplicated exon 8
 T185	Noun_Phrase 5056 5060	MCAD
 T186	Noun_Phrase 5193 5197	MCAD
-T187	Noun_Phrase 5213 5221;	Figure 1
-5273 5274	Figure 1A
-T188	Noun_Phrase 5213 5221;	Figure 1
-5556 5557	Figure 1B
-T189	IDENTITY_chain 5213 5221;	Figure 1
-5556 5557	Figure 1B
+T187	Noun_Phrase 5213 5221;5273 5274	Figure 1 A
+T188	Noun_Phrase 5213 5221;5556 5557	Figure 1 B
+T189	IDENTITY_chain 5213 5221;5556 5557	Figure 1 B
 T190	Noun_Phrase 5250 5270	the Mouse Acadm Gene
 T191	Noun_Phrase 5254 5259	Mouse
 T192	Noun_Phrase 5280 5284	MCAD
@@ -204,8 +195,7 @@ T193	Noun_Phrase 5280 5288	MCAD IV2
 T194	Noun_Phrase 5358 5365	exon 10
 T195	Noun_Phrase 5390 5398	MCAD IV2
 T196	Noun_Phrase 5468 5473	Acadm
-T197	Noun_Phrase 5510 5515;	exons
-5519 5520	exons9
+T197	Noun_Phrase 5510 5515;5519 5520	exons 9
 T198	Noun_Phrase 5510 5517	exons 8
 T199	Noun_Phrase 5510 5528	exons 8, 9, and 10
 T200	Noun_Phrase 5617 5619	ES
@@ -254,10 +244,8 @@ T242	Noun_Phrase 6433 6438	129P2
 T243	Noun_Phrase 6443 6445	B6
 T244	Noun_Phrase 6469 6476	MCAD+/?
 T245	IDENTITY_chain 6469 6476	MCAD+/?
-T246	Noun_Phrase 6469 6476;	MCAD+/?
-6500 6504	MCAD+/?mice
-T247	IDENTITY_chain 6469 6476;	MCAD+/?
-6500 6504	MCAD+/?mice
+T246	Noun_Phrase 6469 6476;6500 6504	MCAD+/? mice
+T247	IDENTITY_chain 6469 6476;6500 6504	MCAD+/? mice
 T248	Noun_Phrase 6492 6499	MCAD?/?
 T249	Noun_Phrase 6492 6504	MCAD?/? mice
 T250	Noun_Phrase 6508 6533	a B6/129 mixed background
@@ -286,8 +274,7 @@ T272	Noun_Phrase 7310 7321	genomic DNA
 T273	IDENTITY_chain 7310 7321	genomic DNA
 T274	Noun_Phrase 7334 7341	MCAD?/?
 T275	Noun_Phrase 7334 7346	MCAD?/? mice
-T276	Noun_Phrase 7432 7439;	MCAD?/?
-7452 7456	MCAD?/?mice
+T276	Noun_Phrase 7432 7439;7452 7456	MCAD?/? mice
 T277	Noun_Phrase 7432 7439	MCAD?/?
 T278	Noun_Phrase 7444 7451	MCAD+/+
 T279	IDENTITY_chain 7444 7451	MCAD+/+
@@ -304,8 +291,7 @@ T289	IDENTITY_chain 7542 7547	heart
 T290	Noun_Phrase 7579 7588	base pair
 T291	APPOS_relation 7579 7588	base pair
 T292	Noun_Phrase 7590 7592	bp
-T293	Noun_Phrase 7606 7613;	MCAD+/+
-7626 7630	MCAD+/+mice
+T293	Noun_Phrase 7606 7613;7626 7630	MCAD+/+ mice
 T294	Noun_Phrase 7606 7613	MCAD+/+
 T295	Noun_Phrase 7618 7625	MCAD+/?
 T296	Noun_Phrase 7618 7630	MCAD+/? mice
@@ -340,13 +326,10 @@ T324	Noun_Phrase 8383 8390	MCAD?/?
 T325	Noun_Phrase 8383 8395	MCAD?/? mice
 T326	Noun_Phrase 8528 8531	RNA
 T327	Noun_Phrase 8540 8548	Figure 2
-T328	Noun_Phrase 8550 8585;	Northern Blot Analysis from MCAD?/?
-8614 8618	Northern Blot Analysis from MCAD?/?Mice
-T329	Noun_Phrase 8578 8585;	MCAD?/?
-8614 8618	MCAD?/?Mice
+T328	Noun_Phrase 8550 8585;8614 8618	Northern Blot Analysis from MCAD?/? Mice
+T329	Noun_Phrase 8578 8585;8614 8618	MCAD?/? Mice
 T330	Noun_Phrase 8578 8585	MCAD?/?
-T331	Noun_Phrase 8598 8605;	MCAD+/+
-8614 8618	MCAD+/+Mice
+T331	Noun_Phrase 8598 8605;8614 8618	MCAD+/+ Mice
 T332	Noun_Phrase 8598 8605	MCAD+/+
 T333	Noun_Phrase 8620 8625	Acadm
 T334	Noun_Phrase 8758 8765	MCAD+/+
@@ -377,8 +360,7 @@ T358	APPOS_relation 9142 9176	short-chain acyl-CoA dehydrogenase
 T359	IDENTITY_chain 9142 9176	short-chain acyl-CoA dehydrogenase
 T360	Noun_Phrase 9178 9182	SCAD
 T361	Noun_Phrase 9244 9248	SCAD
-T362	Noun_Phrase 9265 9272;	MCAD+/+
-9285 9289	MCAD+/+mice
+T362	Noun_Phrase 9265 9272;9285 9289	MCAD+/+ mice
 T363	Noun_Phrase 9265 9272	MCAD+/+
 T364	Noun_Phrase 9277 9284	MCAD?/?
 T365	Noun_Phrase 9277 9289	MCAD?/? mice
@@ -387,8 +369,7 @@ T367	Noun_Phrase 9303 9311	Figure 3
 T368	Noun_Phrase 9313 9375	Immunoblots of Liver Homogenates from MCAD+/+ and MCAD?/? Mice
 T369	IDENTITY_chain 9313 9375	Immunoblots of Liver Homogenates from MCAD+/+ and MCAD?/? Mice
 T370	Noun_Phrase 9328 9333	Liver
-T371	Noun_Phrase 9351 9358;	MCAD+/+
-9371 9375	MCAD+/+Mice
+T371	Noun_Phrase 9351 9358;9371 9375	MCAD+/+ Mice
 T372	Noun_Phrase 9351 9358	MCAD+/+
 T373	Noun_Phrase 9363 9370	MCAD?/?
 T374	Noun_Phrase 9363 9375	MCAD?/? Mice
@@ -408,8 +389,7 @@ T387	Noun_Phrase 9608 9613	liver
 T388	Noun_Phrase 9638 9647	anti-SCAD
 T389	Noun_Phrase 9638 9656	anti-SCAD antibody
 T390	Noun_Phrase 9671 9675	SCAD
-T391	Noun_Phrase 9704 9711;	MCAD+/+
-9724 9728	MCAD+/+mice
+T391	Noun_Phrase 9704 9711;9724 9728	MCAD+/+ mice
 T392	Noun_Phrase 9704 9711	MCAD+/+
 T393	Noun_Phrase 9716 9723	MCAD?/?
 T394	Noun_Phrase 9716 9728	MCAD?/? mice
@@ -461,8 +441,7 @@ T439	Noun_Phrase 10673 10688	Neonatal Deaths
 T440	Noun_Phrase 10734 10741	MCAD?/?
 T441	Noun_Phrase 10734 10746	MCAD?/? pups
 T442	Noun_Phrase 10794 10801	MCAD+/+
-T443	Noun_Phrase 10794 10801;	MCAD+/+
-10814 10818	MCAD+/+mice
+T443	Noun_Phrase 10794 10801;10814 10818	MCAD+/+ mice
 T444	Noun_Phrase 10806 10813	MCAD?/?
 T445	Noun_Phrase 10806 10818	MCAD?/? mice
 T446	Noun_Phrase 10832 10839	MCAD?/?
@@ -519,10 +498,8 @@ T496	Noun_Phrase 12222 12229	MCAD?/?
 T497	Noun_Phrase 12284 12291	MCAD?/?
 T498	Noun_Phrase 12337 12344	MCAD+/+
 T499	Noun_Phrase 12359 12378	the 3-h cold stress
-T500	Noun_Phrase 12435 12447;	Organic Acid
-12466 12474	Organic AcidAnalysis
-T501	IDENTITY_chain 12435 12447;	Organic Acid
-12466 12474	Organic AcidAnalysis
+T500	Noun_Phrase 12435 12447;12466 12474	Organic Acid Analysis
+T501	IDENTITY_chain 12435 12447;12466 12474	Organic Acid Analysis
 T502	Noun_Phrase 12435 12447	Organic Acid
 T503	IDENTITY_chain 12435 12447	Organic Acid
 T504	Noun_Phrase 12452 12465	Acylcarnitine
@@ -537,10 +514,8 @@ T512	Noun_Phrase 12544 12556	organic acid
 T513	Noun_Phrase 12576 12605	MCAD-deficient human patients
 T514	Noun_Phrase 12643 12650	MCAD?/?
 T515	Noun_Phrase 12643 12655	MCAD?/? mice
-T516	Noun_Phrase 12707 12713;	adipic
-12736 12741	adipicacids
-T517	IDENTITY_chain 12707 12713;	adipic
-12736 12741	adipicacids
+T516	Noun_Phrase 12707 12713;12736 12741	adipic acids
+T517	IDENTITY_chain 12707 12713;12736 12741	adipic acids
 T518	Noun_Phrase 12746 12761	hexanoylglycine
 T519	IDENTITY_chain 12746 12761	hexanoylglycine
 T520	Noun_Phrase 12777 12784	MCAD+/+
@@ -551,16 +526,14 @@ T524	Noun_Phrase 12907 12911	MCAD
 T525	Noun_Phrase 12907 12922	MCAD deficiency
 T526	Noun_Phrase 12924 12926	We
 T527	Noun_Phrase 13035 13039	MCAD
-T528	Noun_Phrase 13083 13090;	MCAD+/+
-13103 13107	MCAD+/+mice
+T528	Noun_Phrase 13083 13090;13103 13107	MCAD+/+ mice
 T529	Noun_Phrase 13083 13090	MCAD+/+
 T530	Noun_Phrase 13095 13102	MCAD?/?
 T531	Noun_Phrase 13095 13107	MCAD?/? mice
 T532	Noun_Phrase 13153 13158	serum
 T533	Noun_Phrase 13159 13168	carnitine
 T534	IDENTITY_chain 13159 13168	carnitine
-T535	Noun_Phrase 13192 13199;	MCAD+/+
-13212 13216	MCAD+/+mice
+T535	Noun_Phrase 13192 13199;13212 13216	MCAD+/+ mice
 T536	Noun_Phrase 13192 13199	MCAD+/+
 T537	Noun_Phrase 13204 13211	MCAD?/?
 T538	Noun_Phrase 13204 13216	MCAD?/? mice
@@ -584,10 +557,8 @@ T555	Noun_Phrase 13519 13548	human MCAD-deficient patients
 T556	Noun_Phrase 13550 13559	Figure 4C
 T557	IDENTITY_chain 13550 13559	Figure 4C
 T558	Noun_Phrase 13562 13576	Human patients
-T559	Noun_Phrase 13613 13615;	C8
-13627 13641	C8acylcarnitines
-T560	IDENTITY_chain 13613 13615;	C8
-13627 13641	C8acylcarnitines
+T559	Noun_Phrase 13613 13615;13627 13641	C8 acylcarnitines
+T560	IDENTITY_chain 13613 13615;13627 13641	C8 acylcarnitines
 T561	Noun_Phrase 13621 13641	C10:1 acylcarnitines
 T562	IDENTITY_chain 13621 13641	C10:1 acylcarnitines
 T563	Noun_Phrase 13650 13665	the mutant mice
@@ -598,19 +569,15 @@ T567	Noun_Phrase 13721 13727	humans
 T568	Noun_Phrase 13740 13749	the mouse
 T569	Noun_Phrase 13750 13752	it
 T570	Noun_Phrase 13757 13776	C10:1 acylcarnitine
-T571	Noun_Phrase 13779 13787;	Figure 4
-13814 13815	Figure 4A
-T572	Noun_Phrase 13779 13787;	Figure 4
-14092 14093	Figure 4B
-T573	Noun_Phrase 13779 13787;	Figure 4
-14262 14263	Figure 4C
+T571	Noun_Phrase 13779 13787;13814 13815	Figure 4 A
+T572	Noun_Phrase 13779 13787;14092 14093	Figure 4 B
+T573	Noun_Phrase 13779 13787;14262 14263	Figure 4 C
 T574	Noun_Phrase 13789 13802	Acylcarnitine
 T575	Noun_Phrase 13789 13811	Acylcarnitine Analyses
 T576	Noun_Phrase 13817 13822	Serum
 T577	Noun_Phrase 13823 13836	acylcarnitine
 T578	Noun_Phrase 13849 13856	MCAD+/+
-T579	Noun_Phrase 13849 13856;	MCAD+/+
-13877 13881	MCAD+/+mice
+T579	Noun_Phrase 13849 13856;13877 13881	MCAD+/+ mice
 T580	Noun_Phrase 13869 13876	MCAD?/?
 T581	Noun_Phrase 13869 13881	MCAD?/? mice
 T582	Nonreferential_pronoun 13891 13896	There
@@ -636,18 +603,14 @@ T601	Noun_Phrase 14362 14380	Internal standards
 T602	Noun_Phrase 14412 14426	Histopathology
 T603	IDENTITY_chain 14412 14426	Histopathology
 T604	Noun_Phrase 14492 14499	MCAD+/+
-T605	Noun_Phrase 14607 14617;	6–8-wk-old
-14639 14651	6–8-wk-oldMCAD+/+ mice
-T606	IDENTITY_chain 14607 14617;	6–8-wk-old
-14639 14651	6–8-wk-oldMCAD+/+ mice
+T605	Noun_Phrase 14607 14617;14639 14651	6–8-wk-old MCAD+/+ mice
+T606	IDENTITY_chain 14607 14617;14639 14651	6–8-wk-old MCAD+/+ mice
 T607	Noun_Phrase 14607 14630	6–8-wk-old MCAD?/? mice
 T608	IDENTITY_chain 14607 14630	6–8-wk-old MCAD?/? mice
 T609	Noun_Phrase 14618 14625	MCAD?/?
 T610	Noun_Phrase 14639 14646	MCAD+/+
-T611	Noun_Phrase 14679 14685;	Figure
-14693 14695	Figure5B
-T612	IDENTITY_chain 14679 14685;	Figure
-14693 14695	Figure5B
+T611	Noun_Phrase 14679 14685;14693 14695	Figure 5B
+T612	IDENTITY_chain 14679 14685;14693 14695	Figure 5B
 T613	Noun_Phrase 14679 14688	Figure 5A
 T614	IDENTITY_chain 14679 14688	Figure 5A
 T615	Noun_Phrase 14727 14734	MCAD+/+
@@ -657,24 +620,15 @@ T618	Noun_Phrase 14838 14860	the older MCAD?/? mice
 T619	Noun_Phrase 14848 14855	MCAD?/?
 T620	Noun_Phrase 14918 14920	we
 T621	Noun_Phrase 14964 14971	MCAD?/?
-T622	Noun_Phrase 14979 14987;	Figure 5
-15034 15035	Figure 5A
-T623	Noun_Phrase 14979 14987;	Figure 5
-15148 15149	Figure 5B
-T624	Noun_Phrase 14979 14987;	Figure 5
-15339 15340	Figure 5C
-T625	IDENTITY_chain 14979 14987;	Figure 5
-15339 15340	Figure 5C
-T626	Noun_Phrase 14979 14987;	Figure 5
-15339 15346	Figure 5C and D
-T627	IDENTITY_chain 14979 14987;	Figure 5
-15339 15346	Figure 5C and D
-T628	Noun_Phrase 14979 14987;	Figure 5
-15345 15346	Figure 5D
-T629	IDENTITY_chain 14979 14987;	Figure 5
-15345 15346	Figure 5D
-T630	Noun_Phrase 15007 15014;	MCAD+/+
-15027 15031	MCAD+/+Mice
+T622	Noun_Phrase 14979 14987;15034 15035	Figure 5 A
+T623	Noun_Phrase 14979 14987;15148 15149	Figure 5 B
+T624	Noun_Phrase 14979 14987;15339 15340	Figure 5 C
+T625	IDENTITY_chain 14979 14987;15339 15340	Figure 5 C
+T626	Noun_Phrase 14979 14987;15339 15346	Figure 5 C and D
+T627	IDENTITY_chain 14979 14987;15339 15346	Figure 5 C and D
+T628	Noun_Phrase 14979 14987;15345 15346	Figure 5 D
+T629	IDENTITY_chain 14979 14987;15345 15346	Figure 5 D
+T630	Noun_Phrase 15007 15014;15027 15031	MCAD+/+ Mice
 T631	Noun_Phrase 15007 15014	MCAD+/+
 T632	Noun_Phrase 15019 15026	MCAD?/?
 T633	Noun_Phrase 15019 15031	MCAD?/? Mice
@@ -692,8 +646,7 @@ T644	Noun_Phrase 15323 15335	MCAD?/? mice
 T645	Noun_Phrase 15439 15446	MCAD?/?
 T646	Noun_Phrase 15439 15451	MCAD?/? mice
 T647	Noun_Phrase 15473 15480	MCAD?/?
-T648	Noun_Phrase 15580 15586;	Figure
-15594 15596	Figure5D
+T648	Noun_Phrase 15580 15586;15594 15596	Figure 5D
 T649	Noun_Phrase 15580 15589	Figure 5C
 T650	Noun_Phrase 15580 15596	Figure 5C and 5D
 T651	Noun_Phrase 15610 15631	degenerating myocytes
@@ -792,14 +745,10 @@ T743	Noun_Phrase 19742 19749	LCAD?/?
 T744	IDENTITY_chain 19742 19749	LCAD?/?
 T745	Noun_Phrase 19742 19754	LCAD?/? mice
 T746	IDENTITY_chain 19742 19754	LCAD?/? mice
-T747	Noun_Phrase 19781 19784;	the
-19797 19817	theSCAD?/? mouse models
-T748	IDENTITY_chain 19781 19784;	the
-19797 19817	theSCAD?/? mouse models
-T749	Noun_Phrase 19781 19793;	the VLCAD?/?
-19805 19817	the VLCAD?/?mouse models
-T750	IDENTITY_chain 19781 19793;	the VLCAD?/?
-19805 19817	the VLCAD?/?mouse models
+T747	Noun_Phrase 19781 19784;19797 19817	the SCAD?/? mouse models
+T748	IDENTITY_chain 19781 19784;19797 19817	the SCAD?/? mouse models
+T749	Noun_Phrase 19781 19793;19805 19817	the VLCAD?/? mouse models
+T750	IDENTITY_chain 19781 19793;19805 19817	the VLCAD?/? mouse models
 T751	Noun_Phrase 19785 19793	VLCAD?/?
 T752	IDENTITY_chain 19785 19793	VLCAD?/?
 T753	Noun_Phrase 19797 19804	SCAD?/?
@@ -813,10 +762,8 @@ T760	Noun_Phrase 20044 20094	The significant neonatal mortality in MCAD?/? mice
 T761	Noun_Phrase 20082 20089	MCAD?/?
 T762	Noun_Phrase 20082 20094	MCAD?/? mice
 T763	Noun_Phrase 20186 20193	fasting
-T764	Noun_Phrase 20230 20233;	the
-20247 20259	theSCAD?/? mice
-T765	Noun_Phrase 20230 20242;	the VLCAD?/?
-20255 20259	the VLCAD?/?mice
+T764	Noun_Phrase 20230 20233;20247 20259	the SCAD?/? mice
+T765	Noun_Phrase 20230 20242;20255 20259	the VLCAD?/? mice
 T766	Noun_Phrase 20230 20259	the VLCAD?/? and SCAD?/? mice
 T767	IDENTITY_chain 20230 20259	the VLCAD?/? and SCAD?/? mice
 T768	Noun_Phrase 20234 20242	VLCAD?/?
@@ -836,10 +783,8 @@ T781	Noun_Phrase 20832 20842	the vector
 T782	Noun_Phrase 20861 20866	EcoRI
 T783	Noun_Phrase 20901 20912	pGEMl1Zf(+)
 T784	Noun_Phrase 20936 20941	Acadm
-T785	Noun_Phrase 20968 20973;	exons
-20977 20978	exons9
-T786	Noun_Phrase 20968 20973;	exons
-20984 20986	exons10
+T785	Noun_Phrase 20968 20973;20977 20978	exons 9
+T786	Noun_Phrase 20968 20973;20984 20986	exons 10
 T787	Noun_Phrase 20968 20975	exons 8
 T788	Noun_Phrase 20968 20986	exons 8, 9, and 10
 T789	Noun_Phrase 21064 21069	mouse
@@ -942,12 +887,8 @@ T885	Noun_Phrase 24973 24978	mouse
 T886	Noun_Phrase 24973 24985	mouse tissue
 T887	IDENTITY_chain 24973 24985	mouse tissue
 T888	Noun_Phrase 24987 24992	liver
-T889	Noun_Phrase 25006 25016;	6–8-wk-old
-25037 25041;	6–8-wk-oldMCAD
-25041 25045;	6–8-wk-oldMCAD?/? 
-25053 25057	6–8-wk-oldMCAD?/? mice
-T890	Noun_Phrase 25006 25024;	6–8-wk-old MCAD+/+
-25053 25057	6–8-wk-old MCAD+/+mice
+T889	Noun_Phrase 25006 25016;25037 25041;25041 25045;25053 25057	6–8-wk-old MCAD ?/?  mice
+T890	Noun_Phrase 25006 25024;25053 25057	6–8-wk-old MCAD+/+ mice
 T891	Noun_Phrase 25017 25024	MCAD+/+
 T892	Noun_Phrase 25037 25044	MCAD?/?
 T893	Noun_Phrase 25137 25143	tissue
@@ -966,8 +907,7 @@ T905	Noun_Phrase 26217 26221	mice
 T906	Noun_Phrase 26223 26228	liver
 T907	Noun_Phrase 26223 26240	liver homogenates
 T908	Noun_Phrase 26260 26267	MCAD+/+
-T909	Noun_Phrase 26260 26267;	MCAD+/+
-26288 26292	MCAD+/+mice
+T909	Noun_Phrase 26260 26267;26288 26292	MCAD+/+ mice
 T910	Noun_Phrase 26280 26287	MCAD?/?
 T911	Noun_Phrase 26280 26292	MCAD?/? mice
 T912	Noun_Phrase 26346 26349	ETF

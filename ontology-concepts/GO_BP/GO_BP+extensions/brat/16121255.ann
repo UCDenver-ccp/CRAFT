@@ -14,13 +14,9 @@ T12	GO_0046903 1734 1742	secreted
 T13	GO_0001822 3072 3083	Nephrogenic
 T14	GO_0060073 3149 3158	urination
 T15	GO_0010467 3500 3509	expressed
-T16	GO_0055085 3600 3607;	passage
-3617 3624;	passagethrough
-3636 3644	passagethroughmembrane
+T16	GO_0055085 3600 3607;3617 3624;3636 3644	passage through membrane
 T17	GO_0006833 3600 3616	passage of water
-T18	GO_0070295 3728 3746;	water reabsorption
-3758 3760;	water reabsorptionin
-3765 3771	water reabsorptioninkidney
+T18	GO_0070295 3728 3746;3758 3760;3765 3771	water reabsorption in kidney
 T19	GO_0051262 3848 3859	tetramerize
 T20	GO_EXT_biological_routing_or_transport 3969 3977	targeted
 T21	GO_EXT_biological_routing_or_transport 4030 4036	routed
@@ -142,8 +138,7 @@ T136	GO_PATO_EXT_biological_localization_process_or_quality 22658 22670	localiza
 T137	GO_0009294 22717 22728	transfected
 T138	GO_EXT_reaction_or_response 22852 22860	response
 T139	GO_MOP_EXT_glycosylation 22902 22914	glycosylated
-T140	GO_0015031 22950 22962;	transport of
-22984 22991	transport ofprotein
+T140	GO_0015031 22950 22962;22984 22991	transport of protein
 T141	GO_0006457 23074 23081	folding
 T142	GO_0006833 23130 23148	water transporting
 T143	GO_EXT_biological_growth_entity_or_process 23228 23234	growth

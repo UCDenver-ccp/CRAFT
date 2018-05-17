@@ -56,20 +56,14 @@ T54	Noun_Phrase 1130 1151	the lateral ventricle
 T55	IDENTITY_chain 1130 1151	the lateral ventricle
 T56	Noun_Phrase 1166 1183	embryonic day E16
 T57	IDENTITY_chain 1166 1183	embryonic day E16
-T58	Noun_Phrase 1199 1211;	cells of the
-1229 1260	cells of themarginal zone of the neopallium
-T59	IDENTITY_chain 1199 1211;	cells of the
-1229 1260	cells of themarginal zone of the neopallium
-T60	Noun_Phrase 1199 1224;	cells of the intermediate
-1238 1260	cells of the intermediatezone of the neopallium
-T61	IDENTITY_chain 1199 1224;	cells of the intermediate
-1238 1260	cells of the intermediatezone of the neopallium
+T58	Noun_Phrase 1199 1211;1229 1260	cells of the marginal zone of the neopallium
+T59	IDENTITY_chain 1199 1211;1229 1260	cells of the marginal zone of the neopallium
+T60	Noun_Phrase 1199 1224;1238 1260	cells of the intermediate zone of the neopallium
+T61	IDENTITY_chain 1199 1224;1238 1260	cells of the intermediate zone of the neopallium
 T62	Noun_Phrase 1199 1260	cells of the intermediate and marginal zone of the neopallium
 T63	IDENTITY_chain 1199 1260	cells of the intermediate and marginal zone of the neopallium
-T64	Noun_Phrase 1208 1224;	the intermediate
-1238 1260	the intermediatezone of the neopallium
-T65	IDENTITY_chain 1208 1224;	the intermediate
-1238 1260	the intermediatezone of the neopallium
+T64	Noun_Phrase 1208 1224;1238 1260	the intermediate zone of the neopallium
+T65	IDENTITY_chain 1208 1224;1238 1260	the intermediate zone of the neopallium
 T66	Noun_Phrase 1229 1260	marginal zone of the neopallium
 T67	IDENTITY_chain 1229 1260	marginal zone of the neopallium
 T68	Noun_Phrase 1246 1260	the neopallium
@@ -84,12 +78,9 @@ T76	Noun_Phrase 1413 1417	GFAP
 T77	Noun_Phrase 1505 1523	nuclear Annexin A7
 T78	IDENTITY_chain 1505 1523	nuclear Annexin A7
 T79	Noun_Phrase 1555 1570	the nucleoplasm
-T80	Noun_Phrase 1606 1614;	neuronal
-1630 1634	neuronalcell
-T81	Noun_Phrase 1606 1614;	neuronal
-1630 1640	neuronalcell lines
-T82	IDENTITY_chain 1606 1614;	neuronal
-1630 1640	neuronalcell lines
+T80	Noun_Phrase 1606 1614;1630 1634	neuronal cell
+T81	Noun_Phrase 1606 1614;1630 1640	neuronal cell lines
+T82	IDENTITY_chain 1606 1614;1630 1640	neuronal cell lines
 T83	Noun_Phrase 1606 1640	neuronal and astroglial cell lines
 T84	IDENTITY_chain 1606 1640	neuronal and astroglial cell lines
 T85	Noun_Phrase 1619 1634	astroglial cell
@@ -195,14 +186,10 @@ T184	IDENTITY_chain 4757 4773	Western blotting
 T185	Noun_Phrase 4778 4798	immunohistochemistry
 T186	IDENTITY_chain 4778 4798	immunohistochemistry
 T187	Noun_Phrase 4846 4854	ES-cells
-T188	Noun_Phrase 4862 4876;	embryonic days
-4886 4889	embryonic daysE15
-T189	IDENTITY_chain 4862 4876;	embryonic days
-4886 4889	embryonic daysE15
-T190	Noun_Phrase 4862 4876;	embryonic days
-4895 4898	embryonic daysE17
-T191	IDENTITY_chain 4862 4876;	embryonic days
-4895 4898	embryonic daysE17
+T188	Noun_Phrase 4862 4876;4886 4889	embryonic days E15
+T189	IDENTITY_chain 4862 4876;4886 4889	embryonic days E15
+T190	Noun_Phrase 4862 4876;4895 4898	embryonic days E17
+T191	IDENTITY_chain 4862 4876;4895 4898	embryonic days E17
 T192	Noun_Phrase 4886 4889	E15
 T193	Noun_Phrase 4899 4936	two mRNA species of 1.8 kb and 2.4 kb
 T194	IDENTITY_chain 4899 4936	two mRNA species of 1.8 kb and 2.4 kb
@@ -229,18 +216,12 @@ T214	Noun_Phrase 5456 5457	A
 T215	Noun_Phrase 5485 5502	RNA from ES-cells
 T216	IDENTITY_chain 5485 5502	RNA from ES-cells
 T217	Noun_Phrase 5494 5502	ES-cells
-T218	Noun_Phrase 5507 5514;	embryos
-5519 5522	embryosE11
-T219	IDENTITY_chain 5507 5514;	embryos
-5519 5522	embryosE11
-T220	Noun_Phrase 5507 5514;	embryos
-5524 5527	embryosE15
-T221	IDENTITY_chain 5507 5514;	embryos
-5524 5527	embryosE15
-T222	Noun_Phrase 5507 5514;	embryos
-5529 5532	embryosE17
-T223	IDENTITY_chain 5507 5514;	embryos
-5529 5532	embryosE17
+T218	Noun_Phrase 5507 5514;5519 5522	embryos E11
+T219	IDENTITY_chain 5507 5514;5519 5522	embryos E11
+T220	Noun_Phrase 5507 5514;5524 5527	embryos E15
+T221	IDENTITY_chain 5507 5514;5524 5527	embryos E15
+T222	Noun_Phrase 5507 5514;5529 5532	embryos E17
+T223	IDENTITY_chain 5507 5514;5529 5532	embryos E17
 T224	Noun_Phrase 5507 5517	embryos E7
 T225	IDENTITY_chain 5507 5517	embryos E7
 T226	Noun_Phrase 5559 5569	annexin A7
@@ -263,8 +244,7 @@ T242	Noun_Phrase 5890 5924	brain tissue (CNS) from adult mice
 T243	IDENTITY_chain 5890 5924	brain tissue (CNS) from adult mice
 T244	Noun_Phrase 5904 5907	CNS
 T245	Noun_Phrase 5914 5924	adult mice
-T246	Noun_Phrase 5940 5948;	neuro-2a
-5956 5961	neuro-2acells
+T246	Noun_Phrase 5940 5948;5956 5961	neuro-2a cells
 T247	Noun_Phrase 5940 5948	neuro-2a
 T248	Noun_Phrase 5953 5961	ES cells
 T249	Noun_Phrase 5963 5968	heart
@@ -300,10 +280,8 @@ T278	Noun_Phrase 6706 6716	Annexin A7
 T279	Noun_Phrase 6737 6741	cell
 T280	Noun_Phrase 6798 6800	We
 T281	Noun_Phrase 6840 6851	the protein
-T282	Noun_Phrase 6878 6888;	the neural
-6898 6902	the neuraltube
-T283	IDENTITY_chain 6878 6888;	the neural
-6898 6902	the neuraltube
+T282	Noun_Phrase 6878 6888;6898 6902	the neural tube
+T283	IDENTITY_chain 6878 6888;6898 6902	the neural tube
 T284	Noun_Phrase 6904 6908	Fig.
 T285	Noun_Phrase 6925 6927	E8
 T286	Noun_Phrase 6929 6933	Fig.
@@ -311,10 +289,8 @@ T287	Noun_Phrase 6948 6951	E13
 T288	IDENTITY_chain 6948 6951	E13
 T289	Noun_Phrase 6980 6990	Annexin A7
 T290	Noun_Phrase 7071 7075	Fig.
-T291	Noun_Phrase 7071 7077;	Fig. 2
-7079 7080	Fig. 2F
-T292	IDENTITY_chain 7071 7077;	Fig. 2
-7079 7080	Fig. 2F
+T291	Noun_Phrase 7071 7077;7079 7080	Fig. 2 F
+T292	IDENTITY_chain 7071 7077;7079 7080	Fig. 2 F
 T293	Noun_Phrase 7071 7078	Fig. 2E
 T294	IDENTITY_chain 7071 7078	Fig. 2E
 T295	Noun_Phrase 7151 7157	Figure
@@ -410,14 +386,11 @@ T384	Noun_Phrase 9203 9206	E16
 T385	Noun_Phrase 9207 9209	we
 T386	Noun_Phrase 9259 9269	Annexin A7
 T387	Noun_Phrase 9271 9275	Fig.
-T388	Noun_Phrase 9271 9277;	Fig. 3
-9279 9280	Fig. 3G
-T389	IDENTITY_chain 9271 9277;	Fig. 3
-9279 9280	Fig. 3G
+T388	Noun_Phrase 9271 9277;9279 9280	Fig. 3 G
+T389	IDENTITY_chain 9271 9277;9279 9280	Fig. 3 G
 T390	Noun_Phrase 9271 9278	Fig. 3D
 T391	IDENTITY_chain 9271 9278	Fig. 3D
-T392	Noun_Phrase 9294 9315;	the intermediate zone
-9333 9412	the intermediate zonewhich contains neurons radially migrating towards the growing neopallium cortex
+T392	Noun_Phrase 9294 9315;9333 9412	the intermediate zone which contains neurons radially migrating towards the growing neopallium cortex
 T393	Noun_Phrase 9317 9321	Fig.
 T394	Noun_Phrase 9317 9324	Fig. 3I
 T395	IDENTITY_chain 9317 9324	Fig. 3I
@@ -431,8 +404,7 @@ T402	Noun_Phrase 9688 9699	the nucleus
 T403	Noun_Phrase 9702 9708	Figure
 T404	Noun_Phrase 9702 9710	Figure 3
 T405	Noun_Phrase 9740 9750	Annexin A7
-T406	Noun_Phrase 9754 9761;	embryos
-9767 9770	embryosE15
+T406	Noun_Phrase 9754 9761;9767 9770	embryos E15
 T407	Noun_Phrase 9754 9765	embryos E13
 T408	Noun_Phrase 9775 9778	E16
 T409	Noun_Phrase 9780 9788	Paraffin
@@ -444,10 +416,8 @@ T414	Noun_Phrase 9936 9937	A
 T415	Noun_Phrase 9952 9955	E16
 T416	Noun_Phrase 9960 10060	immature GFAP-negative cells of the forming cerebral neocortex (b) surrounding the lateral ventricle
 T417	IDENTITY_chain 9960 10060	immature GFAP-negative cells of the forming cerebral neocortex (b) surrounding the lateral ventricle
-T418	Noun_Phrase 9992 10022;	the forming cerebral neocortex
-10027 10060	the forming cerebral neocortexsurrounding the lateral ventricle
-T419	IDENTITY_chain 9992 10022;	the forming cerebral neocortex
-10027 10060	the forming cerebral neocortexsurrounding the lateral ventricle
+T418	Noun_Phrase 9992 10022;10027 10060	the forming cerebral neocortex surrounding the lateral ventricle
+T419	IDENTITY_chain 9992 10022;10027 10060	the forming cerebral neocortex surrounding the lateral ventricle
 T420	Noun_Phrase 10039 10060	the lateral ventricle
 T421	Noun_Phrase 10087 10093	square
 T422	IDENTITY_chain 10087 10093	square
@@ -479,8 +449,7 @@ T447	Noun_Phrase 10687 10704	lateral ventricle
 T448	Noun_Phrase 10707 10708	I
 T449	Noun_Phrase 10757 10758	A
 T450	Noun_Phrase 10760 10766	square
-T451	Noun_Phrase 10795 10807;	intermediate
-10822 10827	intermediatezones
+T451	Noun_Phrase 10795 10807;10822 10827	intermediate zones
 T452	Noun_Phrase 10829 10833	oval
 T453	Noun_Phrase 10861 10870	this area
 T454	Noun_Phrase 10884 10885	D
@@ -593,10 +562,8 @@ T560	Noun_Phrase 13168 13185	nuclei of neurons
 T561	IDENTITY_chain 13168 13185	nuclei of neurons
 T562	Noun_Phrase 13178 13185	neurons
 T563	Noun_Phrase 13230 13239	arrowhead
-T564	Noun_Phrase 13248 13261;	the cytoplasm
-13273 13286	the cytoplasmof astrocytes
-T565	IDENTITY_chain 13248 13261;	the cytoplasm
-13273 13286	the cytoplasmof astrocytes
+T564	Noun_Phrase 13248 13261;13273 13286	the cytoplasm of astrocytes
+T565	IDENTITY_chain 13248 13261;13273 13286	the cytoplasm of astrocytes
 T566	Noun_Phrase 13248 13286	the cytoplasm and nuclei of astrocytes
 T567	IDENTITY_chain 13248 13286	the cytoplasm and nuclei of astrocytes
 T568	Noun_Phrase 13266 13286	nuclei of astrocytes
@@ -675,8 +642,7 @@ T640	IDENTITY_chain 14769 14787	the AnxA7-/- brain
 T641	Noun_Phrase 14805 14807	it
 T642	Noun_Phrase 14867 14887	the primary antibody
 T643	Noun_Phrase 14904 14922	Annexin A7 protein
-T644	Noun_Phrase 14926 14931;	brain
-14950 14971	brainof the AnxA7-/- mouse
+T644	Noun_Phrase 14926 14931;14950 14971	brain of the AnxA7-/- mouse
 T645	Noun_Phrase 14953 14971	the AnxA7-/- mouse
 T646	Noun_Phrase 15026 15045	the knock out mouse
 T647	Noun_Phrase 15046 15048	we
@@ -690,10 +656,8 @@ T654	IDENTITY_chain 15248 15255	Fig. 5A
 T655	Noun_Phrase 15279 15301	the stratum granulosum
 T656	IDENTITY_chain 15279 15301	the stratum granulosum
 T657	Noun_Phrase 15336 15340	Fig.
-T658	Noun_Phrase 15336 15342;	Fig. 5
-15344 15345	Fig. 5D
-T659	IDENTITY_chain 15336 15342;	Fig. 5
-15344 15345	Fig. 5D
+T658	Noun_Phrase 15336 15342;15344 15345	Fig. 5 D
+T659	IDENTITY_chain 15336 15342;15344 15345	Fig. 5 D
 T660	Noun_Phrase 15336 15343	Fig. 5C
 T661	IDENTITY_chain 15336 15343	Fig. 5C
 T662	Noun_Phrase 15351 15414	the stratum moleculare, which is poor in cell bodies of neurons
@@ -712,8 +676,7 @@ T674	Noun_Phrase 15634 15646	white matter
 T675	Noun_Phrase 15655 15673	laminae medullares
 T676	IDENTITY_chain 15655 15673	laminae medullares
 T677	Noun_Phrase 15718 15722	Fig.
-T678	Noun_Phrase 15782 15789;	stratum
-15805 15815	stratumgranulosum
+T678	Noun_Phrase 15782 15789;15805 15815	stratum granulosum
 T679	Noun_Phrase 15782 15800	stratum moleculare
 T680	Noun_Phrase 15782 15815	stratum moleculare and granulosum
 T681	IDENTITY_chain 15782 15815	stratum moleculare and granulosum
@@ -858,10 +821,8 @@ T819	Noun_Phrase 19178 19189	the neurons
 T820	Noun_Phrase 19191 19201	arrowheads
 T821	Noun_Phrase 19275 19285	Annexin A7
 T822	Noun_Phrase 19289 19295	nuclei
-T823	Noun_Phrase 19301 19309;	neuronal
-19325 19330	neuronalcells
-T824	IDENTITY_chain 19301 19309;	neuronal
-19325 19330	neuronalcells
+T823	Noun_Phrase 19301 19309;19325 19330	neuronal cells
+T824	IDENTITY_chain 19301 19309;19325 19330	neuronal cells
 T825	Noun_Phrase 19314 19330	astroglial cells
 T826	IDENTITY_chain 19314 19330	astroglial cells
 T827	Noun_Phrase 19360 19370	Annexin A7
@@ -889,13 +850,10 @@ T848	Noun_Phrase 19950 19963	These methods
 T849	Noun_Phrase 20216 20222	nuclei
 T850	Noun_Phrase 20224 20226	we
 T851	Noun_Phrase 20280 20288	neuro-2a
-T852	Noun_Phrase 20280 20288;	neuro-2a
-20304 20309	neuro-2acells
+T852	Noun_Phrase 20280 20288;20304 20309	neuro-2a cells
 T853	Noun_Phrase 20290 20295	PC-12
-T854	Noun_Phrase 20290 20295;	PC-12
-20304 20309	PC-12cells
-T855	IDENTITY_chain 20290 20295;	PC-12
-20304 20309	PC-12cells
+T854	Noun_Phrase 20290 20295;20304 20309	PC-12 cells
+T855	IDENTITY_chain 20290 20295;20304 20309	PC-12 cells
 T856	Noun_Phrase 20301 20303	C6
 T857	Noun_Phrase 20301 20309	C6 cells
 T858	IDENTITY_chain 20301 20309	C6 cells
@@ -911,18 +869,15 @@ T867	IDENTITY_chain 20516 20524	SDS-PAGE
 T868	Noun_Phrase 20529 20545	Western blotting
 T869	Noun_Phrase 20573 20584	mAb 203–217
 T870	Noun_Phrase 20592 20602	Annexin A7
-T871	Noun_Phrase 20625 20633;	neuronal
-20672 20676	neuronalcell
-T872	Noun_Phrase 20625 20651;	neuronal (neuro-2a, PC-12)
-20672 20682	neuronal (neuro-2a, PC-12)cell lines
+T871	Noun_Phrase 20625 20633;20672 20676	neuronal cell
+T872	Noun_Phrase 20625 20651;20672 20682	neuronal (neuro-2a, PC-12) cell lines
 T873	Noun_Phrase 20625 20682	neuronal (neuro-2a, PC-12) and astroglial (C6) cell lines
 T874	IDENTITY_chain 20625 20682	neuronal (neuro-2a, PC-12) and astroglial (C6) cell lines
 T875	Noun_Phrase 20635 20643	neuro-2a
 T876	IDENTITY_chain 20635 20643	neuro-2a
 T877	Noun_Phrase 20645 20650	PC-12
 T878	IDENTITY_chain 20645 20650	PC-12
-T879	Noun_Phrase 20656 20666;	astroglial
-20672 20676	astroglialcell
+T879	Noun_Phrase 20656 20666;20672 20676	astroglial cell
 T880	Noun_Phrase 20656 20682	astroglial (C6) cell lines
 T881	Noun_Phrase 20668 20670	C6
 T882	IDENTITY_chain 20668 20670	C6
@@ -932,10 +887,8 @@ T885	Noun_Phrase 20703 20720	the large isoform
 T886	Noun_Phrase 20775 20777	C6
 T887	Noun_Phrase 20775 20783	C6 cells
 T888	Noun_Phrase 20789 20796	control
-T889	Noun_Phrase 20798 20816;	antibodies against
-20824 20830	antibodies againstEmerin
-T890	IDENTITY_chain 20798 20816;	antibodies against
-20824 20830	antibodies againstEmerin
+T889	Noun_Phrase 20798 20816;20824 20830	antibodies against Emerin
+T890	IDENTITY_chain 20798 20816;20824 20830	antibodies against Emerin
 T891	Noun_Phrase 20798 20822	antibodies against LAP2?
 T892	IDENTITY_chain 20798 20822	antibodies against LAP2?
 T893	Noun_Phrase 20817 20822	LAP2?
@@ -951,15 +904,11 @@ T902	IDENTITY_chain 21001 21018	nuclear membranes
 T903	Noun_Phrase 21027 21033	Emerin
 T904	Noun_Phrase 21041 21050	cytoplasm
 T905	Noun_Phrase 21059 21066	tubulin
-T906	Noun_Phrase 21082 21087;	these
-21101 21122	theseastroglial cell lines
-T907	Noun_Phrase 21082 21096;	these neuronal
-21112 21122	these neuronalcell lines
+T906	Noun_Phrase 21082 21087;21101 21122	these astroglial cell lines
+T907	Noun_Phrase 21082 21096;21112 21122	these neuronal cell lines
 T908	Noun_Phrase 21082 21122	these neuronal and astroglial cell lines
-T909	Noun_Phrase 21088 21096;	neuronal
-21112 21116	neuronalcell
-T910	Noun_Phrase 21088 21096;	neuronal
-21112 21116	neuronalcell
+T909	Noun_Phrase 21088 21096;21112 21116	neuronal cell
+T910	Noun_Phrase 21088 21096;21112 21116	neuronal cell
 T911	Noun_Phrase 21101 21116	astroglial cell
 T912	Noun_Phrase 21101 21116	astroglial cell
 T913	Noun_Phrase 21123 21133	Annexin A7
@@ -972,8 +921,7 @@ T919	IDENTITY_chain 21190 21197	Fig. 7B
 T920	Noun_Phrase 21202 21216	data not shown
 T921	Noun_Phrase 21219 21221	We
 T922	Noun_Phrase 21252 21257	PC-12
-T923	Noun_Phrase 21252 21257;	PC-12
-21271 21276	PC-12cells
+T923	Noun_Phrase 21252 21257;21271 21276	PC-12 cells
 T924	Noun_Phrase 21262 21270	neuro-2a
 T925	Noun_Phrase 21262 21276	neuro-2a cells
 T926	Noun_Phrase 21294 21312	the brain sections
@@ -987,16 +935,13 @@ T933	Noun_Phrase 21444 21445	A
 T934	Noun_Phrase 21461 21471	Annexin A7
 T935	Noun_Phrase 21477 21541	nuclei of neuronal (PC-12, N2A) and an astroglial (C6) cell line
 T936	IDENTITY_chain 21477 21541	nuclei of neuronal (PC-12, N2A) and an astroglial (C6) cell line
-T937	Noun_Phrase 21487 21495;	neuronal
-21532 21536	neuronalcell
-T938	Noun_Phrase 21487 21508;	neuronal (PC-12, N2A)
-21532 21541	neuronal (PC-12, N2A)cell line
+T937	Noun_Phrase 21487 21495;21532 21536	neuronal cell
+T938	Noun_Phrase 21487 21508;21532 21541	neuronal (PC-12, N2A) cell line
 T939	Noun_Phrase 21487 21541	neuronal (PC-12, N2A) and an astroglial (C6) cell line
 T940	IDENTITY_chain 21487 21541	neuronal (PC-12, N2A) and an astroglial (C6) cell line
 T941	Noun_Phrase 21497 21502	PC-12
 T942	Noun_Phrase 21504 21507	N2A
-T943	Noun_Phrase 21516 21526;	astroglial
-21532 21536	astroglialcell
+T943	Noun_Phrase 21516 21526;21532 21536	astroglial cell
 T944	Noun_Phrase 21528 21530	C6
 T945	Noun_Phrase 21579 21590	total cells
 T946	IDENTITY_chain 21579 21590	total cells
@@ -1010,8 +955,7 @@ T953	Noun_Phrase 21716 21743	Annexin A7 (AnxA7) isoforms
 T954	Noun_Phrase 21728 21733	AnxA7
 T955	Noun_Phrase 21765 21799	the nucleus of the indicated cells
 T956	Noun_Phrase 21780 21799	the indicated cells
-T957	Noun_Phrase 21801 21807;	47 kDa
-21819 21826	47 kDaisoform
+T957	Noun_Phrase 21801 21807;21819 21826	47 kDa isoform
 T958	Noun_Phrase 21801 21826	47 kDa and 51 kDa isoform
 T959	Noun_Phrase 21812 21826	51 kDa isoform
 T960	Noun_Phrase 21828 21837	arrowhead
@@ -1045,8 +989,7 @@ T987	Noun_Phrase 22434 22444	Annexin A7
 T988	Noun_Phrase 22452 22457	mouse
 T989	Noun_Phrase 22452 22469	mouse development
 T990	IDENTITY_chain 22452 22469	mouse development
-T991	Noun_Phrase 22473 22481;	the mRNA
-22494 22499	the mRNAlevel
+T991	Noun_Phrase 22473 22481;22494 22499	the mRNA level
 T992	Noun_Phrase 22486 22499	protein level
 T993	Noun_Phrase 22515 22541	the central nervous system
 T994	IDENTITY_chain 22515 22541	the central nervous system
@@ -1076,13 +1019,10 @@ T1017	Noun_Phrase 23253 23266	this staining
 T1018	Noun_Phrase 23293 23314	the following day E16
 T1019	Noun_Phrase 23315 23317	we
 T1020	Noun_Phrase 23325 23335	Annexin A7
-T1021	Noun_Phrase 23354 23366;	cells in the
-23384 23415	cells in themarginal zone of the neopallium
-T1022	Noun_Phrase 23354 23379;	cells in the intermediate
-23393 23415	cells in the intermediatezone of the neopallium
+T1021	Noun_Phrase 23354 23366;23384 23415	cells in the marginal zone of the neopallium
+T1022	Noun_Phrase 23354 23379;23393 23415	cells in the intermediate zone of the neopallium
 T1023	Noun_Phrase 23354 23415	cells in the intermediate and marginal zone of the neopallium
-T1024	Noun_Phrase 23363 23379;	the intermediate
-23393 23415	the intermediatezone of the neopallium
+T1024	Noun_Phrase 23363 23379;23393 23415	the intermediate zone of the neopallium
 T1025	Noun_Phrase 23384 23415	marginal zone of the neopallium
 T1026	Noun_Phrase 23401 23415	the neopallium
 T1027	Noun_Phrase 23417 23584	The different expression patterns of Annexin A7-positive cells from the ventricular germinative zone to the marginal zone of the later neocortex observed in this study
@@ -1114,8 +1054,7 @@ T1052	Noun_Phrase 24553 24555	We
 T1053	Noun_Phrase 24599 24609	Annexin A7
 T1054	Noun_Phrase 24727 24750	two Annexin A7 isoforms
 T1055	Noun_Phrase 24731 24741	Annexin A7
-T1056	Noun_Phrase 24765 24778;	the cytoplasm
-24793 24803	the cytoplasmastrocytes
+T1056	Noun_Phrase 24765 24778;24793 24803	the cytoplasm astrocytes
 T1057	Noun_Phrase 24765 24803	the cytoplasm and nuclei of astrocytes
 T1058	Noun_Phrase 24783 24803	nuclei of astrocytes
 T1059	Noun_Phrase 24793 24803	astrocytes
@@ -1215,29 +1154,20 @@ T1152	Noun_Phrase 28627 28637	Annexin A7
 T1153	Noun_Phrase 28718 28736	the annexin family
 T1154	Noun_Phrase 28760 28779	the plasma membrane
 T1155	Noun_Phrase 28784 28797	the cytoplasm
-T1156	Noun_Phrase 28839 28847;	Annexins
-28852 28854	AnnexinsA2
-T1157	IDENTITY_chain 28839 28847;	Annexins
-28852 28854	AnnexinsA2
-T1158	Noun_Phrase 28839 28847;	Annexins
-28856 28858	AnnexinsA4
-T1159	IDENTITY_chain 28839 28847;	Annexins
-28856 28858	AnnexinsA4
-T1160	Noun_Phrase 28839 28847;	Annexins
-28860 28862	AnnexinsA5
-T1161	IDENTITY_chain 28839 28847;	Annexins
-28860 28862	AnnexinsA5
-T1162	Noun_Phrase 28839 28847;	Annexins
-28867 28870	AnnexinsA11
+T1156	Noun_Phrase 28839 28847;28852 28854	Annexins A2
+T1157	IDENTITY_chain 28839 28847;28852 28854	Annexins A2
+T1158	Noun_Phrase 28839 28847;28856 28858	Annexins A4
+T1159	IDENTITY_chain 28839 28847;28856 28858	Annexins A4
+T1160	Noun_Phrase 28839 28847;28860 28862	Annexins A5
+T1161	IDENTITY_chain 28839 28847;28860 28862	Annexins A5
+T1162	Noun_Phrase 28839 28847;28867 28870	Annexins A11
 T1163	Noun_Phrase 28839 28850	Annexins A1
 T1164	IDENTITY_chain 28839 28850	Annexins A1
 T1165	Noun_Phrase 28929 28940	the nucleus
 T1166	Noun_Phrase 28966 28992	human foreskin fibroblasts
 T1167	IDENTITY_chain 28966 28992	human foreskin fibroblasts
-T1168	Noun_Phrase 29011 29018;	Annexin
-29023 29025	AnnexinA4
-T1169	Noun_Phrase 29011 29018;	Annexin
-29030 29032	AnnexinA5
+T1168	Noun_Phrase 29011 29018;29023 29025	Annexin A4
+T1169	Noun_Phrase 29011 29018;29030 29032	Annexin A5
 T1170	Noun_Phrase 29011 29021	Annexin A1
 T1171	Noun_Phrase 29052 29063	the nucleus
 T1172	Noun_Phrase 29096 29107	the cytosol
@@ -1287,10 +1217,8 @@ T1215	Noun_Phrase 31428 31438	Annexin A7
 T1216	Noun_Phrase 31471 31477	nuclei
 T1217	Noun_Phrase 31523 31541	immunofluorescence
 T1218	Noun_Phrase 31574 31584	Annexin A7
-T1219	Noun_Phrase 31600 31608;	neuronal
-31619 31623	neuronalcell
-T1220	Noun_Phrase 31600 31608;	neuronal
-31619 31629	neuronalcell lines
+T1219	Noun_Phrase 31600 31608;31619 31623	neuronal cell
+T1220	Noun_Phrase 31600 31608;31619 31629	neuronal cell lines
 T1221	Noun_Phrase 31613 31629	glial cell lines
 T1222	Noun_Phrase 31641 31648	Animals
 T1223	Noun_Phrase 31653 31659	tissue
@@ -1441,12 +1369,9 @@ T1367	Noun_Phrase 38429 38439	Annexin A7
 T1368	Noun_Phrase 38448 38453	mouse
 T1369	Noun_Phrase 38448 38462	mouse ES cells
 T1370	IDENTITY_chain 38448 38462	mouse ES cells
-T1371	Noun_Phrase 38467 38474;	embryos
-38479 38482	embryosE11
-T1372	Noun_Phrase 38467 38474;	embryos
-38484 38487	embryosE15
-T1373	Noun_Phrase 38467 38474;	embryos
-38492 38495	embryosE17
+T1371	Noun_Phrase 38467 38474;38479 38482	embryos E11
+T1372	Noun_Phrase 38467 38474;38484 38487	embryos E15
+T1373	Noun_Phrase 38467 38474;38492 38495	embryos E17
 T1374	Noun_Phrase 38467 38477	embryos E7
 T1375	Noun_Phrase 38536 38584	An Embryo Multiple Tissue Northern Blot membrane
 T1376	IDENTITY_chain 38536 38584	An Embryo Multiple Tissue Northern Blot membrane

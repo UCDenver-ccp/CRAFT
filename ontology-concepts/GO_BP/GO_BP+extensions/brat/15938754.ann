@@ -19,16 +19,10 @@ T17	GO_0050913 2131 2145	bitter-tasting
 T18	GO_0010467 2263 2272	expressed
 T19	GO_0050909 2294 2299	taste
 T20	GO_0050909 2329 2338	gustatory
-T21	GO_0001580 2378 2407;	detection and transduction of
-2415 2421;	detection and transduction ofbitter
-2450 2455	detection and transduction ofbittertaste
-T22	GO_0046535 2378 2407;	detection and transduction of
-2426 2431;	detection and transduction ofumami
-2450 2455	detection and transduction ofumamitaste
-T23	GO_0001582 2378 2413;	detection and transduction of sweet
-2450 2455	detection and transduction of sweettaste
-T24	GO_0050916 2466 2472;	sweet-
-2482 2489	sweet-tasting
+T21	GO_0001580 2378 2407;2415 2421;2450 2455	detection and transduction of bitter taste
+T22	GO_0046535 2378 2407;2426 2431;2450 2455	detection and transduction of umami taste
+T23	GO_0001582 2378 2413;2450 2455	detection and transduction of sweet taste
+T24	GO_0050916 2466 2472;2482 2489	sweet- tasting
 T25	GO_0050917 2476 2489	umami-tasting
 T26	GO_0050913 2518 2532	bitter-tasting
 T27	GO_0050913 2715 2727	bitter taste
@@ -125,8 +119,7 @@ T117	GO_SO_EXT_sequence_rearrangement_process 20942 20956	recombinations
 T118	GO_SO_EXT_sequence_rearrangement_process 21041 21055	recombinations
 T119	GO_PATO_EXT_biological_behavior 21099 21109	Behavioral
 T120	GO_0050909 21184 21189	taste
-T121	GO_0050916 21262 21267;	sweet
-21278 21283	sweettaste
+T121	GO_0050916 21262 21267;21278 21283	sweet taste
 T122	GO_0050917 21272 21283	umami taste
 T123	GO_0050909 21426 21431	taste
 T124	GO_0050909 21530 21535	taste

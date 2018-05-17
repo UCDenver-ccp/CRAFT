@@ -84,8 +84,7 @@ T82	Noun_Phrase 1667 1700	multiple transcriptional variants
 T83	IDENTITY_chain 1667 1700	multiple transcriptional variants
 T84	Noun_Phrase 1731 1766	both 5' and 3' untranslated regions
 T85	IDENTITY_chain 1731 1766	both 5' and 3' untranslated regions
-T86	Noun_Phrase 1736 1738;	5'
-1746 1766	5'untranslated regions
+T86	Noun_Phrase 1736 1738;1746 1766	5' untranslated regions
 T87	Noun_Phrase 1743 1766	3' untranslated regions
 T88	Noun_Phrase 1768 1784	Some transcripts
 T89	IDENTITY_chain 1768 1784	Some transcripts
@@ -110,10 +109,8 @@ T107	Noun_Phrase 2307 2317	expression
 T108	Noun_Phrase 2345 2410	the one-neuron, one-gene expression regime of olfactory receptors
 T109	Noun_Phrase 2391 2410	olfactory receptors
 T110	Noun_Phrase 2412 2414	We
-T111	Noun_Phrase 2423 2455;	5' untranslated region sequences
-2487 2524	5' untranslated region sequencesfor more than 300 olfactory receptors
-T112	IDENTITY_chain 2423 2455;	5' untranslated region sequences
-2487 2524	5' untranslated region sequencesfor more than 300 olfactory receptors
+T111	Noun_Phrase 2423 2455;2487 2524	5' untranslated region sequences for more than 300 olfactory receptors
+T112	IDENTITY_chain 2423 2455;2487 2524	5' untranslated region sequences for more than 300 olfactory receptors
 T113	Noun_Phrase 2460 2524	candidate promoter regions for more than 300 olfactory receptors
 T114	Noun_Phrase 2491 2524	more than 300 olfactory receptors
 T115	IDENTITY_chain 2491 2524	more than 300 olfactory receptors
@@ -188,8 +185,7 @@ T183	Noun_Phrase 6957 6981	olfactory receptor genes
 T184	Noun_Phrase 6983 6986	Our
 T185	Noun_Phrase 6983 7020	Our olfactory receptor EST collection
 T186	Noun_Phrase 6987 7005	olfactory receptor
-T187	Noun_Phrase 7030 7052;	5' untranslated region
-7059 7083	5' untranslated regionsequences for many genes
+T187	Noun_Phrase 7030 7052;7059 7083	5' untranslated region sequences for many genes
 T188	Noun_Phrase 7033 7052	untranslated region
 T189	APPOS_relation 7033 7052	untranslated region
 T190	Noun_Phrase 7054 7057	UTR
@@ -275,8 +271,7 @@ T269	Noun_Phrase 9996 10009	the libraries
 T270	IDENTITY_chain 9996 10009	the libraries
 T271	Noun_Phrase 10482 10495	the libraries
 T272	Noun_Phrase 10555 10557	we
-T273	Noun_Phrase 10615 10620;	1,264
-10627 10651	1,264olfactory receptor cDNAs
+T273	Noun_Phrase 10615 10620;10627 10651	1,264 olfactory receptor cDNAs
 T274	Noun_Phrase 10737 10742	cDNAs
 T275	IDENTITY_chain 10737 10742	cDNAs
 T276	Noun_Phrase 10746 10751	their
@@ -325,14 +320,10 @@ T318	Noun_Phrase 12205 12239	confirmed olfactory receptor genes
 T319	Noun_Phrase 12262 12301	the mammalian olfactory receptor family
 T320	Noun_Phrase 12309 12338	two major phylogenetic clades
 T321	IDENTITY_chain 12309 12338	two major phylogenetic clades
-T322	Noun_Phrase 12355 12360;	class
-12367 12389	classII olfactory receptors
-T323	IDENTITY_chain 12355 12360;	class
-12367 12389	classII olfactory receptors
-T324	Noun_Phrase 12355 12362;	class I
-12370 12389	class Iolfactory receptors
-T325	IDENTITY_chain 12355 12362;	class I
-12370 12389	class Iolfactory receptors
+T322	Noun_Phrase 12355 12360;12367 12389	class II olfactory receptors
+T323	IDENTITY_chain 12355 12360;12367 12389	class II olfactory receptors
+T324	Noun_Phrase 12355 12362;12370 12389	class I olfactory receptors
+T325	IDENTITY_chain 12355 12362;12370 12389	class I olfactory receptors
 T326	Noun_Phrase 12408 12435	class I olfactory receptors
 T327	Noun_Phrase 12490 12499	class IIs
 T328	Noun_Phrase 12505 12513	Figure 1
@@ -341,10 +332,8 @@ T330	Noun_Phrase 12556 12559	our
 T331	Noun_Phrase 12556 12575	our cDNA collection
 T332	Noun_Phrase 12560 12564	cDNA
 T333	Noun_Phrase 12590 12592	we
-T334	Noun_Phrase 12735 12738;	983
-12745 12846	983of all intact class II olfactory receptor genes where full-length genomic sequence data are available
-T335	IDENTITY_chain 12735 12738;	983
-12745 12846	983of all intact class II olfactory receptor genes where full-length genomic sequence data are available
+T334	Noun_Phrase 12735 12738;12745 12846	983 of all intact class II olfactory receptor genes where full-length genomic sequence data are available
+T335	IDENTITY_chain 12735 12738;12745 12846	983 of all intact class II olfactory receptor genes where full-length genomic sequence data are available
 T336	Noun_Phrase 12864 12874	The screen
 T337	Noun_Phrase 12911 12914	its
 T338	Noun_Phrase 12927 12955	class II olfactory receptors
@@ -371,16 +360,12 @@ T358	Noun_Phrase 13567 13591	the olfactory epithelium
 T359	Noun_Phrase 13623 13650	class I olfactory receptors
 T360	Noun_Phrase 13668 13692	the olfactory epithelium
 T361	Noun_Phrase 13694 13696	we
-T362	Noun_Phrase 13754 13787;	a motif in transmembrane domain 7
-13813 13864	a motif in transmembrane domain 7enriched among class I olfactory receptor sequences
-T363	IDENTITY_chain 13754 13787;	a motif in transmembrane domain 7
-13813 13864	a motif in transmembrane domain 7enriched among class I olfactory receptor sequences
+T362	Noun_Phrase 13754 13787;13813 13864	a motif in transmembrane domain 7 enriched among class I olfactory receptor sequences
+T363	IDENTITY_chain 13754 13787;13813 13864	a motif in transmembrane domain 7 enriched among class I olfactory receptor sequences
 T364	Noun_Phrase 13874 13883	the motif
 T365	Noun_Phrase 13900 13923	all olfactory receptors
-T366	Noun_Phrase 14003 14006;	124
-14013 14033	124intact class I genes
-T367	Noun_Phrase 14061 14064;	983
-14070 14091	983intact class II genes
+T366	Noun_Phrase 14003 14006;14013 14033	124 intact class I genes
+T367	Noun_Phrase 14061 14064;14070 14091	983 intact class II genes
 T368	Noun_Phrase 14112 14156	another olfactory receptor degenerate primer
 T369	Noun_Phrase 14158 14161	P26
 T370	APPOS_relation 14158 14161	P26
@@ -394,8 +379,7 @@ T377	IDENTITY_chain 14310 14353	seven different class I olfactory receptors
 T378	Noun_Phrase 14534 14578	reverse-transcribed olfactory epithelium RNA
 T379	IDENTITY_chain 14534 14578	reverse-transcribed olfactory epithelium RNA
 T380	Noun_Phrase 14705 14713	Figure 1
-T381	Noun_Phrase 14760 14769;	the adult
-14783 14818	the adultolfactory epithelium cDNA libraries
+T381	Noun_Phrase 14760 14769;14783 14818	the adult olfactory epithelium cDNA libraries
 T382	Noun_Phrase 14773 14818	the fetal olfactory epithelium cDNA libraries
 T383	Noun_Phrase 14825 14843	the class I primer
 T384	Noun_Phrase 14861 14874	the libraries
@@ -496,10 +480,8 @@ T478	Noun_Phrase 17629 17646	mouse genomic DNA
 T479	Noun_Phrase 17648 17650	We
 T480	Noun_Phrase 17661 17671	expression
 T481	Noun_Phrase 17661 17678	expression levels
-T482	Noun_Phrase 17735 17740;	genes
-17747 17748	genesD
-T483	IDENTITY_chain 17735 17740;	genes
-17747 17748	genesD
+T482	Noun_Phrase 17735 17740;17747 17748	genes D
+T483	IDENTITY_chain 17735 17740;17747 17748	genes D
 T484	Noun_Phrase 17735 17742	genes A
 T485	IDENTITY_chain 17735 17742	genes A
 T486	Noun_Phrase 17735 17748	genes A and D
@@ -517,10 +499,8 @@ T497	Noun_Phrase 18088 18098	expression
 T498	Noun_Phrase 18114 18128	all three mice
 T499	Noun_Phrase 18137 18192	two genes for which similar numbers of cDNAs were found
 T500	Noun_Phrase 18176 18181	cDNAs
-T501	Noun_Phrase 18194 18199;	genes
-18206 18207	genesB
-T502	IDENTITY_chain 18194 18199;	genes
-18206 18207	genesB
+T501	Noun_Phrase 18194 18199;18206 18207	genes B
+T502	IDENTITY_chain 18194 18199;18206 18207	genes B
 T503	Noun_Phrase 18194 18201	genes A
 T504	Noun_Phrase 18194 18207	genes A and B
 T505	APPOS_relation 18194 18207	genes A and B
@@ -547,8 +527,7 @@ T525	IDENTITY_chain 18736 18744	Figure 4
 T526	Noun_Phrase 18847 18857	transcript
 T527	Noun_Phrase 18873 18913	two of the genes tested by real-time PCR
 T528	Noun_Phrase 18900 18913	real-time PCR
-T529	Noun_Phrase 18915 18920;	genes
-18927 18928	genesD
+T529	Noun_Phrase 18915 18920;18927 18928	genes D
 T530	Noun_Phrase 18915 18922	genes A
 T531	Noun_Phrase 18915 18928	genes A and D
 T532	APPOS_relation 18915 18928	genes A and D
@@ -572,10 +551,8 @@ T549	Noun_Phrase 19258 19272	the epithelium
 T550	Noun_Phrase 19344 19354	expression
 T551	Noun_Phrase 19366 19372	gene D
 T552	Noun_Phrase 19403 19450	the four 'classical' olfactory epithelial zones
-T553	Noun_Phrase 19502 19516;	endoturbinates
-19524 19527	endoturbinatesIII
-T554	IDENTITY_chain 19502 19516;	endoturbinates
-19524 19527	endoturbinatesIII
+T553	Noun_Phrase 19502 19516;19524 19527	endoturbinates III
+T554	IDENTITY_chain 19502 19516;19524 19527	endoturbinates III
 T555	Noun_Phrase 19502 19519	endoturbinates II
 T556	IDENTITY_chain 19502 19519	endoturbinates II
 T557	Noun_Phrase 19532 19547	ectoturbinate 3
@@ -611,8 +588,7 @@ T586	Noun_Phrase 20701 20755	at least two thirds of the olfactory receptors samp
 T587	IDENTITY_chain 20701 20755	at least two thirds of the olfactory receptors sampled
 T588	Noun_Phrase 20785 20790	their
 T589	Noun_Phrase 20847 20851	sim4
-T590	Noun_Phrase 20866 20870;	cDNA
-20883 20892	cDNAsequences
+T590	Noun_Phrase 20866 20870;20883 20892	cDNA sequences
 T591	Noun_Phrase 20894 20896	we
 T592	Noun_Phrase 20958 21036	191 genes for which we have had some opportunity to observe alternate splicing
 T593	IDENTITY_chain 20958 21036	191 genes for which we have had some opportunity to observe alternate splicing
@@ -634,10 +610,8 @@ T608	Noun_Phrase 21448 21451	our
 T609	Noun_Phrase 21448 21467	our cDNA collection
 T610	Noun_Phrase 21452 21456	cDNA
 T611	Noun_Phrase 21554 21556	We
-T612	Noun_Phrase 21738 21744;	the 77
-21751 21825	the 77genes for which there are at least four cDNAs with 3' UTR size information
-T613	IDENTITY_chain 21738 21744;	the 77
-21751 21825	the 77genes for which there are at least four cDNAs with 3' UTR size information
+T612	Noun_Phrase 21738 21744;21751 21825	the 77 genes for which there are at least four cDNAs with 3' UTR size information
+T613	IDENTITY_chain 21738 21744;21751 21825	the 77 genes for which there are at least four cDNAs with 3' UTR size information
 T614	Noun_Phrase 21761 21766	which
 T615	Noun_Phrase 21827 21829	We
 T616	Noun_Phrase 21944 21958	14 cDNA clones
@@ -795,15 +769,12 @@ T767	IDENTITY_chain 27704 27730	intact olfactory receptors
 T768	Noun_Phrase 27744 27837	the 1,392 olfactory receptor gene sequences for which reliable full-length data are available
 T769	IDENTITY_chain 27744 27837	the 1,392 olfactory receptor gene sequences for which reliable full-length data are available
 T770	Noun_Phrase 27792 27797	which
-T771	Noun_Phrase 27839 27852;	15 out of 285
-27858 27878	15 out of 285apparent pseudogenes
-T772	IDENTITY_chain 27839 27852;	15 out of 285
-27858 27878	15 out of 285apparent pseudogenes
+T771	Noun_Phrase 27839 27852;27858 27878	15 out of 285 apparent pseudogenes
+T772	IDENTITY_chain 27839 27852;27858 27878	15 out of 285 apparent pseudogenes
 T773	Noun_Phrase 27898 27901	our
 T774	Noun_Phrase 27898 27917	our cDNA collection
 T775	Noun_Phrase 27902 27906	cDNA
-T776	Noun_Phrase 27942 27947;	1,107
-27954 27980	1,107intact olfactory receptors
+T776	Noun_Phrase 27942 27947;27954 27980	1,107 intact olfactory receptors
 T777	Noun_Phrase 27991 28032	three of these 15 'expressed pseudogenes'
 T778	IDENTITY_chain 27991 28032	three of these 15 'expressed pseudogenes'
 T779	Noun_Phrase 28000 28032	these 15 'expressed pseudogenes'
@@ -1135,15 +1106,11 @@ T1104	Noun_Phrase 47548 47556	Figure 4
 T1105	Noun_Phrase 47590 47593	RNA
 T1106	Noun_Phrase 47590 47615	RNA in situ hybridization
 T1107	IDENTITY_chain 47590 47615	RNA in situ hybridization
-T1108	Noun_Phrase 47669 47743;	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes
-47766 47774	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genesAY317365
-T1109	IDENTITY_chain 47669 47743;	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes
-47766 47774	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genesAY317365
-T1110	Noun_Phrase 47669 47752;	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY318555
-47762 47774	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY318555and AY317365
+T1108	Noun_Phrase 47669 47743;47766 47774	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY317365
+T1109	IDENTITY_chain 47669 47743;47766 47774	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY317365
+T1110	Noun_Phrase 47669 47752;47762 47774	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY318555 and AY317365
 T1111	Noun_Phrase 47669 47752	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY318555
-T1112	IDENTITY_chain 47669 47752;	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY318555
-47762 47774	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY318555and AY317365
+T1112	IDENTITY_chain 47669 47752;47762 47774	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY318555 and AY317365
 T1113	IDENTITY_chain 47669 47752	digoxigenin-labeled antisense riboprobes specific for the 3' UTRs of genes AY318555
 T1114	Noun_Phrase 47823 47826	PCR
 T1115	Noun_Phrase 48019 48032	Hybridization
@@ -1229,21 +1196,11 @@ T1194	Noun_Phrase 52290 52309	olfactory receptors
 T1195	Noun_Phrase 52362 52398	different transcript levels per cell
 T1196	Noun_Phrase 52372 52382	transcript
 T1197	Noun_Phrase 52400 52403	RNA
-T1198	Noun_Phrase 52400 52461;	RNA in situ hybridization with digoxigenin-labeled probes for
-52466 52472;	RNA in situ hybridization with digoxigenin-labeled probes forgene A
-52484 52487;	RNA in situ hybridization with digoxigenin-labeled probes forgene Aand
-52492 52498;	RNA in situ hybridization with digoxigenin-labeled probes forgene Aandgene D
-52510 52575	RNA in situ hybridization with digoxigenin-labeled probes forgene Aandgene Don coronal sections of the olfactory turbinates of an adult mouse
-T1199	Noun_Phrase 52431 52461;	digoxigenin-labeled probes for
-52466 52472	digoxigenin-labeled probes forgene A
-T1200	Noun_Phrase 52431 52461;	digoxigenin-labeled probes for
-52466 52472;	digoxigenin-labeled probes forgene A
-52484 52487;	digoxigenin-labeled probes forgene Aand
-52492 52498	digoxigenin-labeled probes forgene Aandgene D
-T1201	Noun_Phrase 52431 52461;	digoxigenin-labeled probes for
-52492 52498	digoxigenin-labeled probes forgene D
-T1202	Noun_Phrase 52645 52659;	Endoturbinates
-52667 52670	EndoturbinatesIII
+T1198	Noun_Phrase 52400 52461;52466 52472;52484 52487;52492 52498;52510 52575	RNA in situ hybridization with digoxigenin-labeled probes for gene A and gene D on coronal sections of the olfactory turbinates of an adult mouse
+T1199	Noun_Phrase 52431 52461;52466 52472	digoxigenin-labeled probes for gene A
+T1200	Noun_Phrase 52431 52461;52466 52472;52484 52487;52492 52498	digoxigenin-labeled probes for gene A and gene D
+T1201	Noun_Phrase 52431 52461;52492 52498	digoxigenin-labeled probes for gene D
+T1202	Noun_Phrase 52645 52659;52667 52670	Endoturbinates III
 T1203	Noun_Phrase 52645 52662	Endoturbinates II
 T1204	Noun_Phrase 52675 52690	ectoturbinate 3
 T1205	Noun_Phrase 52712 52720	Figure 5
@@ -1263,15 +1220,11 @@ T1218	Noun_Phrase 54834 54838	exon
 T1219	Noun_Phrase 54834 54862	exon order in the cDNA clone
 T1220	Noun_Phrase 54964 54971	Table 1
 T1221	Noun_Phrase 54983 55002	olfactory receptors
-T1222	Noun_Phrase 55006 55009;	old
-55044 55074	oldCelera mouse genome assemblies
-T1223	APPOS_relation 55006 55009;	old
-55044 55074	oldCelera mouse genome assemblies
+T1222	Noun_Phrase 55006 55009;55044 55074	old Celera mouse genome assemblies
+T1223	APPOS_relation 55006 55009;55044 55074	old Celera mouse genome assemblies
 T1224	Noun_Phrase 55011 55021	Release 12
-T1225	Noun_Phrase 55027 55030;	new
-55044 55074	newCelera mouse genome assemblies
-T1226	APPOS_relation 55027 55030;	new
-55044 55074	newCelera mouse genome assemblies
+T1225	Noun_Phrase 55027 55030;55044 55074	new Celera mouse genome assemblies
+T1226	APPOS_relation 55027 55030;55044 55074	new Celera mouse genome assemblies
 T1227	Noun_Phrase 55032 55042	Release 13
 T1228	Noun_Phrase 55076 55083	Table 2
 T1229	Noun_Phrase 55096 55100	cDNA

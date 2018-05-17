@@ -1,70 +1,42 @@
-T0	Noun_Phrase 25 31;	growth
-44 47	growthQTL
-T1	IDENTITY_chain 25 31;	growth
-44 47	growthQTL
+T0	Noun_Phrase 25 31;44 47	growth QTL
+T1	IDENTITY_chain 25 31;44 47	growth QTL
 T2	Noun_Phrase 25 47	growth and obesity QTL
 T3	IDENTITY_chain 25 47	growth and obesity QTL
 T4	Noun_Phrase 54 82	mouse speed congenic strains
 T5	IDENTITY_chain 54 82	mouse speed congenic strains
-T6	Noun_Phrase 106 117;	High growth
-123 131;	High growthmodifier
-159 182;	High growthmodifierquantitative trait loci
-189 240	High growthmodifierquantitative trait lociaffecting growth, adiposity and carcass composition
+T6	Noun_Phrase 106 117;123 131;159 182;189 240	High growth modifier quantitative trait loci affecting growth, adiposity and carcass composition
 T7	Noun_Phrase 199 205	growth
 T8	IDENTITY_chain 199 205	growth
 T9	Noun_Phrase 207 216	adiposity
 T10	IDENTITY_chain 207 216	adiposity
 T11	Noun_Phrase 221 240	carcass composition
-T12	Noun_Phrase 271 288;	mouse chromosomes
-295 296	mouse chromosomes1
-T13	IDENTITY_chain 271 288;	mouse chromosomes
-295 296	mouse chromosomes1
-T14	Noun_Phrase 271 288;	mouse chromosomes
-295 319	mouse chromosomes1, 2, 5, 8, 9, 11 and 17
-T15	IDENTITY_chain 271 288;	mouse chromosomes
-295 319	mouse chromosomes1, 2, 5, 8, 9, 11 and 17
-T16	IDENTITY_chain 271 288;	mouse chromosomes
-298 299	mouse chromosomes2
-T17	Noun_Phrase 271 288;	mouse chromosomes
-298 299	mouse chromosomes2
-T18	IDENTITY_chain 271 288;	mouse chromosomes
-301 302	mouse chromosomes5
-T19	Noun_Phrase 271 288;	mouse chromosomes
-301 302	mouse chromosomes5
-T20	IDENTITY_chain 271 288;	mouse chromosomes
-304 305	mouse chromosomes8
-T21	Noun_Phrase 271 288;	mouse chromosomes
-304 305	mouse chromosomes8
-T22	IDENTITY_chain 271 288;	mouse chromosomes
-307 308	mouse chromosomes9
-T23	Noun_Phrase 271 288;	mouse chromosomes
-307 308	mouse chromosomes9
-T24	IDENTITY_chain 271 288;	mouse chromosomes
-310 312	mouse chromosomes11
-T25	Noun_Phrase 271 288;	mouse chromosomes
-310 312	mouse chromosomes11
-T26	IDENTITY_chain 271 288;	mouse chromosomes
-317 319	mouse chromosomes17
-T27	Noun_Phrase 271 288;	mouse chromosomes
-317 319	mouse chromosomes17
+T12	Noun_Phrase 271 288;295 296	mouse chromosomes 1
+T13	IDENTITY_chain 271 288;295 296	mouse chromosomes 1
+T14	Noun_Phrase 271 288;295 319	mouse chromosomes 1, 2, 5, 8, 9, 11 and 17
+T15	IDENTITY_chain 271 288;295 319	mouse chromosomes 1, 2, 5, 8, 9, 11 and 17
+T16	IDENTITY_chain 271 288;298 299	mouse chromosomes 2
+T17	Noun_Phrase 271 288;298 299	mouse chromosomes 2
+T18	IDENTITY_chain 271 288;301 302	mouse chromosomes 5
+T19	Noun_Phrase 271 288;301 302	mouse chromosomes 5
+T20	IDENTITY_chain 271 288;304 305	mouse chromosomes 8
+T21	Noun_Phrase 271 288;304 305	mouse chromosomes 8
+T22	IDENTITY_chain 271 288;307 308	mouse chromosomes 9
+T23	Noun_Phrase 271 288;307 308	mouse chromosomes 9
+T24	IDENTITY_chain 271 288;310 312	mouse chromosomes 11
+T25	Noun_Phrase 271 288;310 312	mouse chromosomes 11
+T26	IDENTITY_chain 271 288;317 319	mouse chromosomes 17
+T27	Noun_Phrase 271 288;317 319	mouse chromosomes 17
 T28	Noun_Phrase 367 403	two panels of speed congenic strains
 T29	IDENTITY_chain 367 403	two panels of speed congenic strains
 T30	Noun_Phrase 381 403	speed congenic strains
-T31	Noun_Phrase 436 444;	CAST/EiJ
-452 463	CAST/EiJQTL alleles
-T32	IDENTITY_chain 436 444;	CAST/EiJ
-452 463	CAST/EiJQTL alleles
-T33	Noun_Phrase 476 497;	mutant C57Bl/6J-hg/hg
-530 549	mutant C57Bl/6J-hg/hggenetic backgrounds
-T34	APPOS_relation 476 497;	mutant C57Bl/6J-hg/hg
-530 549	mutant C57Bl/6J-hg/hggenetic backgrounds
-T35	IDENTITY_chain 476 497;	mutant C57Bl/6J-hg/hg
-530 549	mutant C57Bl/6J-hg/hggenetic backgrounds
+T31	Noun_Phrase 436 444;452 463	CAST/EiJ QTL alleles
+T32	IDENTITY_chain 436 444;452 463	CAST/EiJ QTL alleles
+T33	Noun_Phrase 476 497;530 549	mutant C57Bl/6J-hg/hg genetic backgrounds
+T34	APPOS_relation 476 497;530 549	mutant C57Bl/6J-hg/hg genetic backgrounds
+T35	IDENTITY_chain 476 497;530 549	mutant C57Bl/6J-hg/hg genetic backgrounds
 T36	Noun_Phrase 499 501	HG
-T37	Noun_Phrase 506 524;	wild type C57Bl/6J
-530 549	wild type C57Bl/6Jgenetic backgrounds
-T38	IDENTITY_chain 506 524;	wild type C57Bl/6J
-530 549	wild type C57Bl/6Jgenetic backgrounds
+T37	Noun_Phrase 506 524;530 549	wild type C57Bl/6J genetic backgrounds
+T38	IDENTITY_chain 506 524;530 549	wild type C57Bl/6J genetic backgrounds
 T39	Noun_Phrase 561 591	The first speed congenic panel
 T40	IDENTITY_chain 561 591	The first speed congenic panel
 T41	Noun_Phrase 623 683	four overlapping donor regions spanning MMU2 in its entirety
@@ -73,8 +45,7 @@ T43	Noun_Phrase 663 667	MMU2
 T44	Noun_Phrase 671 674	its
 T45	IDENTITY_chain 689 715	both HG and B6 backgrounds
 T46	Noun_Phrase 689 715	both HG and B6 backgrounds
-T47	Noun_Phrase 694 696;	HG
-704 715	HGbackgrounds
+T47	Noun_Phrase 694 696;704 715	HG backgrounds
 T48	Noun_Phrase 701 715	B6 backgrounds
 T49	Noun_Phrase 732 745	eight strains
 T50	IDENTITY_chain 732 745	eight strains
@@ -84,16 +55,11 @@ T53	Noun_Phrase 927 942	the hg deletion
 T54	IDENTITY_chain 927 942	the hg deletion
 T55	Noun_Phrase 944 960	The second panel
 T56	IDENTITY_chain 944 960	The second panel
-T57	Noun_Phrase 1035 1038;	MMU
-1041 1042	MMU5
-T58	Noun_Phrase 1035 1038;	MMU
-1044 1045	MMU8
-T59	Noun_Phrase 1035 1038;	MMU
-1047 1048	MMU9
-T60	Noun_Phrase 1035 1038;	MMU
-1050 1052	MMU11
-T61	Noun_Phrase 1035 1038;	MMU
-1057 1059	MMU17
+T57	Noun_Phrase 1035 1038;1041 1042	MMU 5
+T58	Noun_Phrase 1035 1038;1044 1045	MMU 8
+T59	Noun_Phrase 1035 1038;1047 1048	MMU 9
+T60	Noun_Phrase 1035 1038;1050 1052	MMU 11
+T61	Noun_Phrase 1035 1038;1057 1059	MMU 17
 T62	Noun_Phrase 1035 1039	MMU1
 T63	Noun_Phrase 1035 1059	MMU1, 5, 8, 9, 11 and 17
 T64	IDENTITY_chain 1035 1059	MMU1, 5, 8, 9, 11 and 17
@@ -102,10 +68,8 @@ T66	IDENTITY_chain 1064 1089	the six developed strains
 T67	Noun_Phrase 1091 1095	five
 T68	IDENTITY_chain 1091 1095	five
 T69	Noun_Phrase 1169 1175	growth
-T70	Noun_Phrase 1169 1179;	growth and
-1183 1190	growth andobesity
-T71	IDENTITY_chain 1169 1179;	growth and
-1183 1190	growth andobesity
+T70	Noun_Phrase 1169 1179;1183 1190	growth and obesity
+T71	IDENTITY_chain 1169 1179;1183 1190	growth and obesity
 T72	Noun_Phrase 1183 1190	obesity
 T73	Noun_Phrase 1206 1214	controls
 T74	IDENTITY_chain 1206 1214	controls
@@ -145,14 +109,10 @@ T107	IDENTITY_chain 3532 3538	traits
 T108	Noun_Phrase 3550 3556	growth
 T109	Noun_Phrase 3550 3568	growth and obesity
 T110	Noun_Phrase 3561 3568	obesity
-T111	Noun_Phrase 3578 3596;	The C57Bl/6J-hg/hg
-3602 3607	The C57Bl/6J-hg/hgmouse
-T112	IDENTITY_chain 3578 3596;	The C57Bl/6J-hg/hg
-3602 3607	The C57Bl/6J-hg/hgmouse
-T113	Noun_Phrase 3721 3730;	the Socs2
-3768 3772	the Socs2gene
-T114	IDENTITY_chain 3721 3730;	the Socs2
-3768 3772	the Socs2gene
+T111	Noun_Phrase 3578 3596;3602 3607	The C57Bl/6J-hg/hg mouse
+T112	IDENTITY_chain 3578 3596;3602 3607	The C57Bl/6J-hg/hg mouse
+T113	Noun_Phrase 3721 3730;3768 3772	the Socs2 gene
+T114	IDENTITY_chain 3721 3730;3768 3772	the Socs2 gene
 T115	Noun_Phrase 3725 3730	Socs2
 T116	APPOS_relation 3725 3730	Socs2
 T117	Noun_Phrase 3732 3766	suppressor of cytokine signaling 2
@@ -175,20 +135,16 @@ T133	APPOS_relation 4608 4622	growth hormone
 T134	IDENTITY_chain 4608 4622	growth hormone
 T135	Noun_Phrase 4624 4626	Gh
 T136	Nonreferential_pronoun 4634 4636	it
-T137	Noun_Phrase 4963 4969;	growth
-4994 4997	growthQTL
+T137	Noun_Phrase 4963 4969;4994 4997	growth QTL
 T138	Noun_Phrase 5033 5041	CAST/EiJ
 T139	APPOS_relation 5033 5041	CAST/EiJ
 T140	IDENTITY_chain 5033 5041	CAST/EiJ
 T141	Noun_Phrase 5043 5047	CAST
 T142	Noun_Phrase 5053 5055	HG
-T143	IDENTITY_chain 5073 5096;	mice homozygous for the
-5121 5130	mice homozygous for thewild type
-T144	Noun_Phrase 5073 5096;	mice homozygous for the
-5121 5130	mice homozygous for thewild type
+T143	IDENTITY_chain 5073 5096;5121 5130	mice homozygous for the wild type
+T144	Noun_Phrase 5073 5096;5121 5130	mice homozygous for the wild type
 T145	Noun_Phrase 5073 5108	mice homozygous for the hg deletion
-T146	Noun_Phrase 5073 5108;	mice homozygous for the hg deletion
-5117 5130	mice homozygous for the hg deletionand wild type
+T146	Noun_Phrase 5073 5108;5117 5130	mice homozygous for the hg deletion and wild type
 T147	Noun_Phrase 5093 5108	the hg deletion
 T148	Noun_Phrase 5154 5169	hg modifier QTL
 T149	IDENTITY_chain 5154 5169	hg modifier QTL
@@ -237,8 +193,7 @@ T191	Noun_Phrase 5824 5840	an HG background
 T192	IDENTITY_chain 5824 5840	an HG background
 T193	Noun_Phrase 5893 5897	MMU2
 T194	Noun_Phrase 5982 6008	both B6 and HG backgrounds
-T195	Noun_Phrase 5987 5989;	B6
-5997 6008	B6backgrounds
+T195	Noun_Phrase 5987 5989;5997 6008	B6 backgrounds
 T196	Noun_Phrase 5994 6008	HG backgrounds
 T197	Noun_Phrase 6028 6032	MMU2
 T198	Noun_Phrase 6034 6048	The MMU2 panel
@@ -247,12 +202,9 @@ T200	IDENTITY_chain 6116 6135	QTL-hg interactions
 T201	Noun_Phrase 6226 6238	Gh signaling
 T202	IDENTITY_chain 6226 6238	Gh signaling
 T203	Noun_Phrase 6274 6289	hg modifier QTL
-T204	Noun_Phrase 6293 6296;	MMU
-6299 6300	MMU9
-T205	Noun_Phrase 6293 6296;	MMU
-6302 6304	MMU11
-T206	Noun_Phrase 6293 6296;	MMU
-6309 6311	MMU17
+T204	Noun_Phrase 6293 6296;6299 6300	MMU 9
+T205	Noun_Phrase 6293 6296;6302 6304	MMU 11
+T206	Noun_Phrase 6293 6296;6309 6311	MMU 17
 T207	Noun_Phrase 6293 6297	MMU2
 T208	Noun_Phrase 6293 6311	MMU2, 9, 11 and 17
 T209	IDENTITY_chain 6293 6311	MMU2, 9, 11 and 17
@@ -262,38 +214,23 @@ T212	Noun_Phrase 6374 6399	Two speed congenic panels
 T213	Noun_Phrase 6414 6423	the first
 T214	Noun_Phrase 6450 6454	MMU2
 T215	Noun_Phrase 6461 6471	the second
-T216	Noun_Phrase 6481 6491;	QTL on MMU
-6494 6495	QTL on MMU5
-T217	IDENTITY_chain 6481 6491;	QTL on MMU
-6494 6495	QTL on MMU5
-T218	Noun_Phrase 6481 6491;	QTL on MMU
-6497 6498	QTL on MMU8
-T219	IDENTITY_chain 6481 6491;	QTL on MMU
-6497 6498	QTL on MMU8
-T220	Noun_Phrase 6481 6491;	QTL on MMU
-6500 6501	QTL on MMU9
-T221	IDENTITY_chain 6481 6491;	QTL on MMU
-6500 6501	QTL on MMU9
-T222	Noun_Phrase 6481 6491;	QTL on MMU
-6503 6505	QTL on MMU11
-T223	IDENTITY_chain 6481 6491;	QTL on MMU
-6503 6505	QTL on MMU11
-T224	Noun_Phrase 6481 6491;	QTL on MMU
-6510 6512	QTL on MMU17
-T225	IDENTITY_chain 6481 6491;	QTL on MMU
-6510 6512	QTL on MMU17
+T216	Noun_Phrase 6481 6491;6494 6495	QTL on MMU 5
+T217	IDENTITY_chain 6481 6491;6494 6495	QTL on MMU 5
+T218	Noun_Phrase 6481 6491;6497 6498	QTL on MMU 8
+T219	IDENTITY_chain 6481 6491;6497 6498	QTL on MMU 8
+T220	Noun_Phrase 6481 6491;6500 6501	QTL on MMU 9
+T221	IDENTITY_chain 6481 6491;6500 6501	QTL on MMU 9
+T222	Noun_Phrase 6481 6491;6503 6505	QTL on MMU 11
+T223	IDENTITY_chain 6481 6491;6503 6505	QTL on MMU 11
+T224	Noun_Phrase 6481 6491;6510 6512	QTL on MMU 17
+T225	IDENTITY_chain 6481 6491;6510 6512	QTL on MMU 17
 T226	Noun_Phrase 6481 6492	QTL on MMU1
 T227	IDENTITY_chain 6481 6492	QTL on MMU1
-T228	Noun_Phrase 6488 6491;	MMU
-6494 6495	MMU5
-T229	Noun_Phrase 6488 6491;	MMU
-6497 6498	MMU8
-T230	Noun_Phrase 6488 6491;	MMU
-6500 6501	MMU9
-T231	Noun_Phrase 6488 6491;	MMU
-6503 6505	MMU11
-T232	Noun_Phrase 6488 6491;	MMU
-6510 6512	MMU17
+T228	Noun_Phrase 6488 6491;6494 6495	MMU 5
+T229	Noun_Phrase 6488 6491;6497 6498	MMU 8
+T230	Noun_Phrase 6488 6491;6500 6501	MMU 9
+T231	Noun_Phrase 6488 6491;6503 6505	MMU 11
+T232	Noun_Phrase 6488 6491;6510 6512	MMU 17
 T233	Noun_Phrase 6488 6492	MMU1
 T234	Noun_Phrase 6488 6512	MMU1, 5, 8, 9, 11 and 17
 T235	Noun_Phrase 6514 6521	Table 1
@@ -302,22 +239,16 @@ T237	Noun_Phrase 6524 6538	The MMU2 panel
 T238	Noun_Phrase 6552 6672	eight congenic strains developed by introgressing four overlapping donor regions onto both B6 and HG genetic backgrounds
 T239	Noun_Phrase 6602 6632	four overlapping donor regions
 T240	Noun_Phrase 6638 6672	both B6 and HG genetic backgrounds
-T241	Noun_Phrase 6643 6645;	B6
-6653 6672	B6genetic backgrounds
+T241	Noun_Phrase 6643 6645;6653 6672	B6 genetic backgrounds
 T242	Noun_Phrase 6650 6672	HG genetic backgrounds
 T243	Noun_Phrase 6674 6681	Table 1
 T244	Noun_Phrase 6715 6731	an HG background
 T245	IDENTITY_chain 6715 6731	an HG background
-T246	Noun_Phrase 6777 6780;	MMU
-6783 6784	MMU5
-T247	Noun_Phrase 6777 6780;	MMU
-6786 6787	MMU8
-T248	Noun_Phrase 6777 6780;	MMU
-6789 6790	MMU9
-T249	Noun_Phrase 6777 6780;	MMU
-6792 6794	MMU11
-T250	Noun_Phrase 6777 6780;	MMU
-6799 6801	MMU17
+T246	Noun_Phrase 6777 6780;6783 6784	MMU 5
+T247	Noun_Phrase 6777 6780;6786 6787	MMU 8
+T248	Noun_Phrase 6777 6780;6789 6790	MMU 9
+T249	Noun_Phrase 6777 6780;6792 6794	MMU 11
+T250	Noun_Phrase 6777 6780;6799 6801	MMU 17
 T251	Noun_Phrase 6777 6781	MMU1
 T252	Noun_Phrase 6777 6801	MMU1, 5, 8, 9, 11 and 17
 T253	Noun_Phrase 6883 6920	79 genome-wide microsatellite markers
@@ -330,12 +261,9 @@ T259	IDENTITY_chain 6988 6996	Figure 1
 T260	Noun_Phrase 7077 7084	Table 1
 T261	Noun_Phrase 7101 7121	both congenic panels
 T262	Noun_Phrase 7123 7142	two control strains
-T263	Noun_Phrase 7143 7153;	homozygous
-7176 7178	homozygousHG
-T264	APPOS_relation 7143 7153;	homozygous
-7176 7178	homozygousHG
-T265	IDENTITY_chain 7143 7153;	homozygous
-7176 7178	homozygousHG
+T263	Noun_Phrase 7143 7153;7176 7178	homozygous HG
+T264	APPOS_relation 7143 7153;7176 7178	homozygous HG
+T265	IDENTITY_chain 7143 7153;7176 7178	homozygous HG
 T266	Noun_Phrase 7143 7156	homozygous B6
 T267	APPOS_relation 7143 7156	homozygous B6
 T268	IDENTITY_chain 7143 7156	homozygous B6
@@ -374,61 +302,30 @@ T300	Noun_Phrase 8271 8281	Both sexes
 T301	IDENTITY_chain 8271 8281	Both sexes
 T302	Noun_Phrase 8300 8306	weight
 T303	IDENTITY_chain 8300 8306	weight
-T304	Noun_Phrase 8300 8309;	weight at
-8319 8320;	weight at3
-8348 8360	weight at3weeks of age
-T305	IDENTITY_chain 8300 8309;	weight at
-8319 8320;	weight at3
-8348 8360	weight at3weeks of age
-T306	APPOS_relation 8300 8309;	weight at
-8319 8320;	weight at3
-8348 8360	weight at3weeks of age
-T307	IDENTITY_chain 8300 8309;	weight at
-8319 8320;	weight at3
-8348 8360	weight at3weeks of age
-T308	Noun_Phrase 8300 8309;	weight at
-8328 8329;	weight at6
-8348 8360	weight at6weeks of age
-T309	APPOS_relation 8300 8309;	weight at
-8328 8329;	weight at6
-8348 8360	weight at6weeks of age
-T310	IDENTITY_chain 8300 8309;	weight at
-8328 8329;	weight at6
-8348 8360	weight at6weeks of age
-T311	Noun_Phrase 8300 8309;	weight at
-8340 8341;	weight at9
-8348 8360	weight at9weeks of age
-T312	APPOS_relation 8300 8309;	weight at
-8340 8341;	weight at9
-8348 8360	weight at9weeks of age
-T313	IDENTITY_chain 8300 8309;	weight at
-8340 8341;	weight at9
-8348 8360	weight at9weeks of age
-T314	Noun_Phrase 8300 8311;	weight at 2
-8348 8360	weight at 2weeks of age
-T315	APPOS_relation 8300 8311;	weight at 2
-8348 8360	weight at 2weeks of age
-T316	IDENTITY_chain 8300 8311;	weight at 2
-8348 8360	weight at 2weeks of age
-T317	Noun_Phrase 8310 8311;	2
-8348 8360	2weeks of age
-T318	IDENTITY_chain 8310 8311;	2
-8348 8360	2weeks of age
+T304	Noun_Phrase 8300 8309;8319 8320;8348 8360	weight at 3 weeks of age
+T305	IDENTITY_chain 8300 8309;8319 8320;8348 8360	weight at 3 weeks of age
+T306	APPOS_relation 8300 8309;8319 8320;8348 8360	weight at 3 weeks of age
+T307	IDENTITY_chain 8300 8309;8319 8320;8348 8360	weight at 3 weeks of age
+T308	Noun_Phrase 8300 8309;8328 8329;8348 8360	weight at 6 weeks of age
+T309	APPOS_relation 8300 8309;8328 8329;8348 8360	weight at 6 weeks of age
+T310	IDENTITY_chain 8300 8309;8328 8329;8348 8360	weight at 6 weeks of age
+T311	Noun_Phrase 8300 8309;8340 8341;8348 8360	weight at 9 weeks of age
+T312	APPOS_relation 8300 8309;8340 8341;8348 8360	weight at 9 weeks of age
+T313	IDENTITY_chain 8300 8309;8340 8341;8348 8360	weight at 9 weeks of age
+T314	Noun_Phrase 8300 8311;8348 8360	weight at 2 weeks of age
+T315	APPOS_relation 8300 8311;8348 8360	weight at 2 weeks of age
+T316	IDENTITY_chain 8300 8311;8348 8360	weight at 2 weeks of age
+T317	Noun_Phrase 8310 8311;8348 8360	2 weeks of age
+T318	IDENTITY_chain 8310 8311;8348 8360	2 weeks of age
 T319	Noun_Phrase 8313 8316	2WK
-T320	Noun_Phrase 8319 8320;	3
-8348 8360	3weeks of age
-T321	IDENTITY_chain 8319 8320;	3
-8348 8360	3weeks of age
+T320	Noun_Phrase 8319 8320;8348 8360	3 weeks of age
+T321	IDENTITY_chain 8319 8320;8348 8360	3 weeks of age
 T322	Noun_Phrase 8322 8325	3WK
-T323	Noun_Phrase 8328 8329;	6
-8348 8360	6weeks of age
-T324	IDENTITY_chain 8328 8329;	6
-8348 8360	6weeks of age
+T323	Noun_Phrase 8328 8329;8348 8360	6 weeks of age
+T324	IDENTITY_chain 8328 8329;8348 8360	6 weeks of age
 T325	Noun_Phrase 8331 8334	6WK
-T326	Noun_Phrase 8340 8341;	9
-8348 8360	9weeks of age
-T327	IDENTITY_chain 8340 8341;	9
-8348 8360	9weeks of age
+T326	Noun_Phrase 8340 8341;8348 8360	9 weeks of age
+T327	IDENTITY_chain 8340 8341;8348 8360	9 weeks of age
 T328	Noun_Phrase 8343 8346	9WK
 T329	Noun_Phrase 8373 8389	control B6C mice
 T330	IDENTITY_chain 8373 8389	control B6C mice
@@ -438,15 +335,12 @@ T333	Noun_Phrase 8429 8440	body weight
 T334	Noun_Phrase 8474 8477	G26
 T335	APPOS_relation 8474 8477	G26
 T336	IDENTITY_chain 8474 8477	G26
-T337	Noun_Phrase 8474 8477;	G26
-8509 8516	G26and G29
-T338	IDENTITY_chain 8474 8477;	G26
-8509 8516	G26and G29
+T337	Noun_Phrase 8474 8477;8509 8516	G26 and G29
+T338	IDENTITY_chain 8474 8477;8509 8516	G26 and G29
 T339	Noun_Phrase 8479 8490	weight gain
 T340	IDENTITY_chain 8479 8490	weight gain
 T341	Noun_Phrase 8479 8508	weight gain from 2 to 6 weeks
-T342	Noun_Phrase 8496 8497;	2
-8503 8508	2weeks
+T342	Noun_Phrase 8496 8497;8503 8508	2 weeks
 T343	Noun_Phrase 8496 8508	2 to 6 weeks
 T344	IDENTITY_chain 8496 8508	2 to 6 weeks
 T345	Noun_Phrase 8501 8508	6 weeks
@@ -455,8 +349,7 @@ T347	APPOS_relation 8513 8516	G29
 T348	IDENTITY_chain 8513 8516	G29
 T349	Noun_Phrase 8518 8529	weight gain
 T350	Noun_Phrase 8518 8547	weight gain from 2 to 9 weeks
-T351	Noun_Phrase 8535 8536;	2
-8542 8547	2weeks
+T351	Noun_Phrase 8535 8536;8542 8547	2 weeks
 T352	Noun_Phrase 8535 8547	2 to 9 weeks
 T353	IDENTITY_chain 8535 8547	2 to 9 weeks
 T354	Noun_Phrase 8540 8547	9 weeks
@@ -501,8 +394,7 @@ T392	Noun_Phrase 9430 9465	three QTL with the 2D unique region
 T393	IDENTITY_chain 9430 9465	three QTL with the 2D unique region
 T394	Noun_Phrase 9445 9465	the 2D unique region
 T395	Noun_Phrase 9474 9479	which
-T396	Noun_Phrase 9497 9500;	the
-9510 9522	theB62D strains
+T396	Noun_Phrase 9497 9500;9510 9522	the B62D strains
 T397	Noun_Phrase 9547 9558	body weight
 T398	Noun_Phrase 9563 9574	tail length
 T399	Noun_Phrase 9584 9586	NA
@@ -540,53 +432,25 @@ T430	IDENTITY_chain 10296 10298	B6
 T431	Noun_Phrase 10323 10325	we
 T432	Noun_Phrase 10400 10409	adiposity
 T433	Noun_Phrase 10412 10419	Table 2
-T434	Noun_Phrase 10426 10448;	the weights of gonadal
-10456 10463;	the weights of gonadalfemoral
-10471 10481;	the weights of gonadalfemoralmesenteric
-10488 10507;	the weights of gonadalfemoralmesentericand retroperitoneal
-10514 10522	the weights of gonadalfemoralmesentericand retroperitonealfat pads
-T435	IDENTITY_chain 10426 10448;	the weights of gonadal
-10456 10463;	the weights of gonadalfemoral
-10471 10481;	the weights of gonadalfemoralmesenteric
-10488 10507;	the weights of gonadalfemoralmesentericand retroperitoneal
-10514 10522	the weights of gonadalfemoralmesentericand retroperitonealfat pads
-T436	Noun_Phrase 10441 10448;	gonadal
-10456 10463;	gonadalfemoral
-10471 10481;	gonadalfemoralmesenteric
-10488 10507;	gonadalfemoralmesentericand retroperitoneal
-10514 10522	gonadalfemoralmesentericand retroperitonealfat pads
-T437	IDENTITY_chain 10441 10448;	gonadal
-10456 10463;	gonadalfemoral
-10471 10481;	gonadalfemoralmesenteric
-10488 10507;	gonadalfemoralmesentericand retroperitoneal
-10514 10522	gonadalfemoralmesentericand retroperitonealfat pads
-T438	APPOS_relation 10441 10448;	gonadal
-10514 10522	gonadalfat pads
-T439	Noun_Phrase 10441 10448;	gonadal
-10514 10522	gonadalfat pads
-T440	IDENTITY_chain 10441 10448;	gonadal
-10514 10522	gonadalfat pads
+T434	Noun_Phrase 10426 10448;10456 10463;10471 10481;10488 10507;10514 10522	the weights of gonadal femoral mesenteric and retroperitoneal fat pads
+T435	IDENTITY_chain 10426 10448;10456 10463;10471 10481;10488 10507;10514 10522	the weights of gonadal femoral mesenteric and retroperitoneal fat pads
+T436	Noun_Phrase 10441 10448;10456 10463;10471 10481;10488 10507;10514 10522	gonadal femoral mesenteric and retroperitoneal fat pads
+T437	IDENTITY_chain 10441 10448;10456 10463;10471 10481;10488 10507;10514 10522	gonadal femoral mesenteric and retroperitoneal fat pads
+T438	APPOS_relation 10441 10448;10514 10522	gonadal fat pads
+T439	Noun_Phrase 10441 10448;10514 10522	gonadal fat pads
+T440	IDENTITY_chain 10441 10448;10514 10522	gonadal fat pads
 T441	Noun_Phrase 10450 10453	GFP
-T442	Noun_Phrase 10456 10463;	femoral
-10514 10522	femoralfat pads
-T443	APPOS_relation 10456 10463;	femoral
-10514 10522	femoralfat pads
-T444	IDENTITY_chain 10456 10463;	femoral
-10514 10522	femoralfat pads
+T442	Noun_Phrase 10456 10463;10514 10522	femoral fat pads
+T443	APPOS_relation 10456 10463;10514 10522	femoral fat pads
+T444	IDENTITY_chain 10456 10463;10514 10522	femoral fat pads
 T445	Noun_Phrase 10465 10468	FFP
-T446	Noun_Phrase 10471 10481;	mesenteric
-10514 10522	mesentericfat pads
-T447	APPOS_relation 10471 10481;	mesenteric
-10514 10522	mesentericfat pads
-T448	IDENTITY_chain 10471 10481;	mesenteric
-10514 10522	mesentericfat pads
+T446	Noun_Phrase 10471 10481;10514 10522	mesenteric fat pads
+T447	APPOS_relation 10471 10481;10514 10522	mesenteric fat pads
+T448	IDENTITY_chain 10471 10481;10514 10522	mesenteric fat pads
 T449	Noun_Phrase 10483 10486	MFP
-T450	Noun_Phrase 10492 10507;	retroperitoneal
-10514 10522	retroperitonealfat pads
-T451	APPOS_relation 10492 10507;	retroperitoneal
-10514 10522	retroperitonealfat pads
-T452	IDENTITY_chain 10492 10507;	retroperitoneal
-10514 10522	retroperitonealfat pads
+T450	Noun_Phrase 10492 10507;10514 10522	retroperitoneal fat pads
+T451	APPOS_relation 10492 10507;10514 10522	retroperitoneal fat pads
+T452	IDENTITY_chain 10492 10507;10514 10522	retroperitoneal fat pads
 T453	Noun_Phrase 10509 10512	RFP
 T454	Noun_Phrase 10535 10555	total fat pad weight
 T455	APPOS_relation 10535 10555	total fat pad weight
@@ -616,10 +480,8 @@ T478	Noun_Phrase 11067 11075	Region V
 T479	APPOS_relation 11067 11075	Region V
 T480	Noun_Phrase 11174 11181	Table 2
 T481	Noun_Phrase 11185 11212	HG.CAST MMU2 speed congenic
-T482	Noun_Phrase 11220 11224;	HG2P
-11235 11253	HG2Pmice of both sexes
-T483	IDENTITY_chain 11220 11224;	HG2P
-11235 11253	HG2Pmice of both sexes
+T482	Noun_Phrase 11220 11224;11235 11253	HG2P mice of both sexes
+T483	IDENTITY_chain 11220 11224;11235 11253	HG2P mice of both sexes
 T484	Noun_Phrase 11220 11253	HG2P and HG2PM mice of both sexes
 T485	IDENTITY_chain 11220 11253	HG2P and HG2PM mice of both sexes
 T486	Noun_Phrase 11229 11253	HG2PM mice of both sexes
@@ -629,10 +491,8 @@ T489	IDENTITY_chain 11333 11351	Additional Table 3
 T490	Noun_Phrase 11444 11453	B62M mice
 T491	Noun_Phrase 11455 11462	Table 2
 T492	Noun_Phrase 11499 11508	Region II
-T493	Noun_Phrase 11524 11532;	the HG2P
-11543 11550	the HG2Pstrains
-T494	IDENTITY_chain 11524 11532;	the HG2P
-11543 11550	the HG2Pstrains
+T493	Noun_Phrase 11524 11532;11543 11550	the HG2P strains
+T494	IDENTITY_chain 11524 11532;11543 11550	the HG2P strains
 T495	Noun_Phrase 11524 11550	the HG2P and HG2PM strains
 T496	IDENTITY_chain 11524 11550	the HG2P and HG2PM strains
 T497	Noun_Phrase 11571 11582	weight gain
@@ -647,8 +507,7 @@ T505	Noun_Phrase 11730 11733	MFP
 T506	Noun_Phrase 11735 11738	RFP
 T507	Noun_Phrase 11740 11742	TF
 T508	Noun_Phrase 11747 11749	AI
-T509	Noun_Phrase 11763 11767;	HG2P
-11778 11782	HG2Pmice
+T509	Noun_Phrase 11763 11767;11778 11782	HG2P mice
 T510	Noun_Phrase 11763 11782	HG2P and HG2PM mice
 T511	Noun_Phrase 11772 11782	HG2PM mice
 T512	Noun_Phrase 11784 11793	Region II
@@ -670,10 +529,8 @@ T527	Noun_Phrase 12271 12273	hg
 T528	Noun_Phrase 12292 12311	QTL-hg interactions
 T529	Noun_Phrase 12337 12340	our
 T530	Noun_Phrase 12521 12544	two genetic backgrounds
-T531	Noun_Phrase 12546 12548;	B6
-12555 12561	B6and HG
-T532	APPOS_relation 12546 12548;	B6
-12555 12561	B6and HG
+T531	Noun_Phrase 12546 12548;12555 12561	B6 and HG
+T532	APPOS_relation 12546 12548;12555 12561	B6 and HG
 T533	Noun_Phrase 12546 12548	B6
 T534	Noun_Phrase 12559 12561	HG
 T535	Noun_Phrase 12621 12632	HG genotype
@@ -690,10 +547,8 @@ T545	Noun_Phrase 13065 13067	we
 T546	Noun_Phrase 13086 13089	Wg2
 T547	Noun_Phrase 13101 13182	a set of linked QTL between 74.9 and 181.8 Mbp within the 2M and 2D donor regions
 T548	IDENTITY_chain 13101 13182	a set of linked QTL between 74.9 and 181.8 Mbp within the 2M and 2D donor regions
-T549	Noun_Phrase 13155 13158;	the
-13166 13182	the2D donor regions
-T550	Noun_Phrase 13155 13161;	the 2M
-13169 13182	the 2Mdonor regions
+T549	Noun_Phrase 13155 13158;13166 13182	the 2D donor regions
+T550	Noun_Phrase 13155 13161;13169 13182	the 2M donor regions
 T551	Noun_Phrase 13155 13182	the 2M and 2D donor regions
 T552	Noun_Phrase 13184 13196	Region III–V
 T553	APPOS_relation 13184 13196	Region III–V
@@ -703,10 +558,8 @@ T556	Noun_Phrase 13252 13254	we
 T557	Noun_Phrase 13323 13334	HG genotype
 T558	Noun_Phrase 13364 13366	we
 T559	Noun_Phrase 13472 13481	HG2M mice
-T560	Noun_Phrase 13483 13562;	Significant 2M donor region by HG genotype by sex three-way interactions for AI
-13586 13592	Significant 2M donor region by HG genotype by sex three-way interactions for AIand TF
-T561	IDENTITY_chain 13483 13562;	Significant 2M donor region by HG genotype by sex three-way interactions for AI
-13586 13592	Significant 2M donor region by HG genotype by sex three-way interactions for AIand TF
+T560	Noun_Phrase 13483 13562;13586 13592	Significant 2M donor region by HG genotype by sex three-way interactions for AI and TF
+T561	IDENTITY_chain 13483 13562;13586 13592	Significant 2M donor region by HG genotype by sex three-way interactions for AI and TF
 T562	Noun_Phrase 13514 13525	HG genotype
 T563	Noun_Phrase 13560 13562	AI
 T564	Noun_Phrase 13576 13584	Figure 4
@@ -726,52 +579,33 @@ T577	Noun_Phrase 14190 14194	HG2P
 T578	Noun_Phrase 14207 14210	HGC
 T579	Noun_Phrase 14246 14249	B6C
 T580	Noun_Phrase 14315 14330	the hg deletion
-T581	Noun_Phrase 14333 14370;	Speed congenic strains for QTL on MMU
-14373 14374	Speed congenic strains for QTL on MMU8
-T582	IDENTITY_chain 14333 14370;	Speed congenic strains for QTL on MMU
-14373 14374	Speed congenic strains for QTL on MMU8
-T583	Noun_Phrase 14333 14370;	Speed congenic strains for QTL on MMU
-14376 14377	Speed congenic strains for QTL on MMU9
-T584	IDENTITY_chain 14333 14370;	Speed congenic strains for QTL on MMU
-14376 14377	Speed congenic strains for QTL on MMU9
-T585	Noun_Phrase 14333 14370;	Speed congenic strains for QTL on MMU
-14379 14381	Speed congenic strains for QTL on MMU11
-T586	IDENTITY_chain 14333 14370;	Speed congenic strains for QTL on MMU
-14379 14381	Speed congenic strains for QTL on MMU11
-T587	Noun_Phrase 14333 14370;	Speed congenic strains for QTL on MMU
-14386 14388	Speed congenic strains for QTL on MMU17
-T588	IDENTITY_chain 14333 14370;	Speed congenic strains for QTL on MMU
-14386 14388	Speed congenic strains for QTL on MMU17
+T581	Noun_Phrase 14333 14370;14373 14374	Speed congenic strains for QTL on MMU 8
+T582	IDENTITY_chain 14333 14370;14373 14374	Speed congenic strains for QTL on MMU 8
+T583	Noun_Phrase 14333 14370;14376 14377	Speed congenic strains for QTL on MMU 9
+T584	IDENTITY_chain 14333 14370;14376 14377	Speed congenic strains for QTL on MMU 9
+T585	Noun_Phrase 14333 14370;14379 14381	Speed congenic strains for QTL on MMU 11
+T586	IDENTITY_chain 14333 14370;14379 14381	Speed congenic strains for QTL on MMU 11
+T587	Noun_Phrase 14333 14370;14386 14388	Speed congenic strains for QTL on MMU 17
+T588	IDENTITY_chain 14333 14370;14386 14388	Speed congenic strains for QTL on MMU 17
 T589	Noun_Phrase 14333 14371	Speed congenic strains for QTL on MMU1
 T590	IDENTITY_chain 14333 14371	Speed congenic strains for QTL on MMU1
-T591	Noun_Phrase 14360 14370;	QTL on MMU
-14373 14374	QTL on MMU8
-T592	Noun_Phrase 14360 14370;	QTL on MMU
-14376 14377	QTL on MMU9
-T593	Noun_Phrase 14360 14370;	QTL on MMU
-14379 14381	QTL on MMU11
-T594	Noun_Phrase 14360 14370;	QTL on MMU
-14386 14388	QTL on MMU17
+T591	Noun_Phrase 14360 14370;14373 14374	QTL on MMU 8
+T592	Noun_Phrase 14360 14370;14376 14377	QTL on MMU 9
+T593	Noun_Phrase 14360 14370;14379 14381	QTL on MMU 11
+T594	Noun_Phrase 14360 14370;14386 14388	QTL on MMU 17
 T595	Noun_Phrase 14360 14371	QTL on MMU1
-T596	Noun_Phrase 14367 14370;	MMU
-14373 14374	MMU8
-T597	Noun_Phrase 14367 14370;	MMU
-14376 14377	MMU9
-T598	Noun_Phrase 14367 14370;	MMU
-14379 14381	MMU11
-T599	Noun_Phrase 14367 14370;	MMU
-14386 14388	MMU17
+T596	Noun_Phrase 14367 14370;14373 14374	MMU 8
+T597	Noun_Phrase 14367 14370;14376 14377	MMU 9
+T598	Noun_Phrase 14367 14370;14379 14381	MMU 11
+T599	Noun_Phrase 14367 14370;14386 14388	MMU 17
 T600	Noun_Phrase 14367 14371	MMU1
 T601	Noun_Phrase 14395 14401	Q1Ucd1
 T602	Noun_Phrase 14412 14415	G26
 T603	Noun_Phrase 14467 14490	the original intercross
 T604	IDENTITY_chain 14467 14490	the original intercross
-T605	IDENTITY_chain 14621 14624;	all
-14636 14649	alllength traits
-T606	Noun_Phrase 14621 14624;	all
-14636 14649	alllength traits
-T607	Noun_Phrase 14621 14631;	all growth
-14643 14649	all growthtraits
+T605	IDENTITY_chain 14621 14624;14636 14649	all length traits
+T606	Noun_Phrase 14621 14624;14636 14649	all length traits
+T607	Noun_Phrase 14621 14631;14643 14649	all growth traits
 T608	Noun_Phrase 14672 14675	2WK
 T609	Noun_Phrase 14677 14680	3WK
 T610	Noun_Phrase 14682 14685	6WK
@@ -815,12 +649,9 @@ T647	Noun_Phrase 15854 15858	MMU9
 T648	Noun_Phrase 15952 15964	femur length
 T649	IDENTITY_chain 15952 15964	femur length
 T650	Noun_Phrase 16012 16026	two linked QTL
-T651	Noun_Phrase 16028 16035;	Carfhg2
-16045 16054	Carfhg2and Feml2
-T652	APPOS_relation 16028 16035;	Carfhg2
-16045 16054	Carfhg2and Feml2
-T653	IDENTITY_chain 16028 16035;	Carfhg2
-16045 16054	Carfhg2and Feml2
+T651	Noun_Phrase 16028 16035;16045 16054	Carfhg2 and Feml2
+T652	APPOS_relation 16028 16035;16045 16054	Carfhg2 and Feml2
+T653	IDENTITY_chain 16028 16035;16045 16054	Carfhg2 and Feml2
 T654	Noun_Phrase 16028 16035	Carfhg2
 T655	Noun_Phrase 16049 16054	Feml2
 T656	Noun_Phrase 16119 16126	Table 1
@@ -868,15 +699,10 @@ T697	APPOS_relation 17193 17208	carcass protein
 T698	IDENTITY_chain 17193 17208	carcass protein
 T699	Noun_Phrase 17210 17214	PROT
 T700	Noun_Phrase 17233 17235	we
-T701	Noun_Phrase 17309 17312;	the
-17318 17322;	theHG11
-17332 17339	theHG11strains
-T702	Noun_Phrase 17309 17312;	the
-17327 17339	theHG17 strains
-T703	IDENTITY_chain 17309 17312;	the
-17327 17339	theHG17 strains
-T704	Noun_Phrase 17309 17316;	the HGC
-17332 17339	the HGCstrains
+T701	Noun_Phrase 17309 17312;17318 17322;17332 17339	the HG11 strains
+T702	Noun_Phrase 17309 17312;17327 17339	the HG17 strains
+T703	IDENTITY_chain 17309 17312;17327 17339	the HG17 strains
+T704	Noun_Phrase 17309 17316;17332 17339	the HGC strains
 T705	Noun_Phrase 17309 17339	the HGC, HG11 and HG17 strains
 T706	IDENTITY_chain 17309 17339	the HGC, HG11 and HG17 strains
 T707	Noun_Phrase 17353 17358	Carp2
@@ -913,13 +739,9 @@ T737	Noun_Phrase 18126 18128	NA
 T738	Noun_Phrase 18196 18205	the males
 T739	Noun_Phrase 18224 18231	females
 T740	Noun_Phrase 18237 18240	our
-T741	Noun_Phrase 18253 18256;	the
-18262 18266;	theHG11
-18276 18283	theHG11strains
-T742	Noun_Phrase 18253 18256;	the
-18271 18283	theHG17 strains
-T743	Noun_Phrase 18253 18260;	the HGC
-18276 18283	the HGCstrains
+T741	Noun_Phrase 18253 18256;18262 18266;18276 18283	the HG11 strains
+T742	Noun_Phrase 18253 18256;18271 18283	the HG17 strains
+T743	Noun_Phrase 18253 18260;18276 18283	the HGC strains
 T744	Noun_Phrase 18253 18283	the HGC, HG11 and HG17 strains
 T745	Noun_Phrase 18328 18337	adiposity
 T746	Noun_Phrase 18383 18395	fat pad mass
@@ -1037,18 +859,12 @@ T857	Noun_Phrase 20884 20891	Table 6
 T858	Noun_Phrase 20953 20969	The HG phenotype
 T859	Noun_Phrase 20996 21001	Socs2
 T860	Noun_Phrase 21013 21015	we
-T861	Noun_Phrase 21030 21040;	QTL on MMU
-21043 21044	QTL on MMU9
-T862	Noun_Phrase 21030 21040;	QTL on MMU
-21046 21048	QTL on MMU11
-T863	Noun_Phrase 21030 21040;	QTL on MMU
-21053 21055	QTL on MMU17
-T864	Noun_Phrase 21037 21040;	MMU
-21043 21044	MMU9
-T865	Noun_Phrase 21037 21040;	MMU
-21046 21048	MMU11
-T866	Noun_Phrase 21037 21040;	MMU
-21053 21055	MMU17
+T861	Noun_Phrase 21030 21040;21043 21044	QTL on MMU 9
+T862	Noun_Phrase 21030 21040;21046 21048	QTL on MMU 11
+T863	Noun_Phrase 21030 21040;21053 21055	QTL on MMU 17
+T864	Noun_Phrase 21037 21040;21043 21044	MMU 9
+T865	Noun_Phrase 21037 21040;21046 21048	MMU 11
+T866	Noun_Phrase 21037 21040;21053 21055	MMU 17
 T867	Noun_Phrase 21037 21041	MMU2
 T868	Noun_Phrase 21037 21055	MMU2, 9, 11 and 17
 T869	Noun_Phrase 21073 21075	hg
@@ -1098,10 +914,8 @@ T912	IDENTITY_chain 22281 22308	Fifty-six nonsynonomous SNP
 T913	Noun_Phrase 22356 22373	Additional File 4
 T914	Noun_Phrase 22376 22384	PolyPhen
 T915	IDENTITY_chain 22376 22384	PolyPhen
-T916	Noun_Phrase 22376 22384;	PolyPhen
-22390 22398	PolyPhenand SIFT
-T917	IDENTITY_chain 22376 22384;	PolyPhen
-22390 22398	PolyPhenand SIFT
+T916	Noun_Phrase 22376 22384;22390 22398	PolyPhen and SIFT
+T917	IDENTITY_chain 22376 22384;22390 22398	PolyPhen and SIFT
 T918	Noun_Phrase 22394 22398	SIFT
 T919	IDENTITY_chain 22394 22398	SIFT
 T920	Noun_Phrase 22477 22493	protein function
@@ -1119,32 +933,20 @@ T931	IDENTITY_chain 22803 22810	Table 7
 T932	Noun_Phrase 22826 22848	Speed congenic strains
 T933	Noun_Phrase 22911 22914	QTL
 T934	Noun_Phrase 22965 22982	the current study
-T935	Noun_Phrase 23031 23054;	all previously detected
-23066 23089	all previously detectedcarcass composition QTL
-T936	IDENTITY_chain 23031 23054;	all previously detected
-23066 23089	all previously detectedcarcass composition QTL
-T937	Noun_Phrase 23031 23061;	all previously detected growth
-23086 23089	all previously detected growthQTL
-T938	IDENTITY_chain 23031 23061;	all previously detected growth
-23086 23089	all previously detected growthQTL
-T939	Noun_Phrase 23106 23108;	an
-23115 23128	anB6 background
-T940	IDENTITY_chain 23106 23108;	an
-23115 23128	anB6 background
-T941	Noun_Phrase 23106 23111;	an HG
-23118 23128	an HGbackground
-T942	IDENTITY_chain 23106 23111;	an HG
-23118 23128	an HGbackground
+T935	Noun_Phrase 23031 23054;23066 23089	all previously detected carcass composition QTL
+T936	IDENTITY_chain 23031 23054;23066 23089	all previously detected carcass composition QTL
+T937	Noun_Phrase 23031 23061;23086 23089	all previously detected growth QTL
+T938	IDENTITY_chain 23031 23061;23086 23089	all previously detected growth QTL
+T939	Noun_Phrase 23106 23108;23115 23128	an B6 background
+T940	IDENTITY_chain 23106 23108;23115 23128	an B6 background
+T941	Noun_Phrase 23106 23111;23118 23128	an HG background
+T942	IDENTITY_chain 23106 23111;23118 23128	an HG background
 T943	Noun_Phrase 23156 23181	14 speed congenic strains
 T944	Noun_Phrase 23183 23217	Two distinct speed congenic panels
 T945	Noun_Phrase 23234 23243	the first
-T946	Noun_Phrase 23303 23306;	the
-23311 23313;	theHG
-23323 23330	theHGstrains
-T947	Noun_Phrase 23303 23306;	the
-23318 23330	theCAST strains
-T948	Noun_Phrase 23303 23309;	the B6
-23323 23330	the B6strains
+T946	Noun_Phrase 23303 23306;23311 23313;23323 23330	the HG strains
+T947	Noun_Phrase 23303 23306;23318 23330	the CAST strains
+T948	Noun_Phrase 23303 23309;23323 23330	the B6 strains
 T949	Noun_Phrase 23303 23330	the B6, HG and CAST strains
 T950	IDENTITY_chain 23303 23330	the B6, HG and CAST strains
 T951	Noun_Phrase 23335 23345	the second
@@ -1155,10 +957,8 @@ T955	Noun_Phrase 23630 23657	the speed congenic approach
 T956	Noun_Phrase 23679 23682	QTL
 T957	Noun_Phrase 23699 23721	unwanted donor alleles
 T958	IDENTITY_chain 23699 23721	unwanted donor alleles
-T959	Noun_Phrase 23791 23794;	the
-23808 23823	thecontrol strains
-T960	Noun_Phrase 23791 23803;	the congenic
-23816 23823	the congenicstrains
+T959	Noun_Phrase 23791 23794;23808 23823	the control strains
+T960	Noun_Phrase 23791 23803;23816 23823	the congenic strains
 T961	Noun_Phrase 23857 23884	these contaminating alleles
 T962	Noun_Phrase 23886 23888	We
 T963	Noun_Phrase 23967 23970	our
@@ -1171,18 +971,12 @@ T969	Noun_Phrase 24242 24315	all large previously detected growth and obesity QT
 T970	IDENTITY_chain 24242 24315	all large previously detected growth and obesity QTL in the current cross
 T971	Noun_Phrase 24345 24347	we
 T972	Noun_Phrase 24373 24380	markers
-T973	Noun_Phrase 24401 24404;	MMU
-24407 24408	MMU2
-T974	Noun_Phrase 24401 24404;	MMU
-24410 24411	MMU5
-T975	Noun_Phrase 24401 24404;	MMU
-24413 24414	MMU8
-T976	Noun_Phrase 24401 24404;	MMU
-24416 24417	MMU9
-T977	Noun_Phrase 24401 24404;	MMU
-24419 24421	MMU11
-T978	Noun_Phrase 24401 24404;	MMU
-24426 24428	MMU17
+T973	Noun_Phrase 24401 24404;24407 24408	MMU 2
+T974	Noun_Phrase 24401 24404;24410 24411	MMU 5
+T975	Noun_Phrase 24401 24404;24413 24414	MMU 8
+T976	Noun_Phrase 24401 24404;24416 24417	MMU 9
+T977	Noun_Phrase 24401 24404;24419 24421	MMU 11
+T978	Noun_Phrase 24401 24404;24426 24428	MMU 17
 T979	Noun_Phrase 24401 24405	MMU1
 T980	Noun_Phrase 24401 24428	MMU1, 2, 5, 8, 9, 11 and 17
 T981	Noun_Phrase 24430 24437	Table 1
@@ -1204,8 +998,7 @@ T996	Noun_Phrase 25393 25406	our congenics
 T997	Noun_Phrase 25489 25511	these possible effects
 T998	Noun_Phrase 25596 25623	contaminating donor alleles
 T999	Noun_Phrase 25703 25707	MMU2
-T1000	Noun_Phrase 25725 25731;	growth
-25744 25747	growthQTL
+T1000	Noun_Phrase 25725 25731;25744 25747	growth QTL
 T1001	Noun_Phrase 25725 25747	growth and obesity QTL
 T1002	Noun_Phrase 25901 25917	congenic strains
 T1003	Noun_Phrase 25931 25934	Our
@@ -1346,12 +1139,9 @@ T1137	Noun_Phrase 31193 31206	these effects
 T1138	Noun_Phrase 31273 31278	Sstr5
 T1139	Noun_Phrase 31355 31357	We
 T1140	Noun_Phrase 31434 31453	the speed congenics
-T1141	Noun_Phrase 31457 31460;	MMU
-31463 31464	MMU9
-T1142	Noun_Phrase 31457 31460;	MMU
-31466 31468	MMU11
-T1143	Noun_Phrase 31457 31460;	MMU
-31473 31475	MMU17
+T1141	Noun_Phrase 31457 31460;31463 31464	MMU 9
+T1142	Noun_Phrase 31457 31460;31466 31468	MMU 11
+T1143	Noun_Phrase 31457 31460;31473 31475	MMU 17
 T1144	Noun_Phrase 31457 31461	MMU2
 T1145	Noun_Phrase 31457 31475	MMU2, 9, 11 and 17
 T1146	Noun_Phrase 31590 31592	us
@@ -1359,8 +1149,7 @@ T1147	Noun_Phrase 31670 31672	B6
 T1148	Noun_Phrase 32288 32290	us
 T1149	Noun_Phrase 32350 32353	QTL
 T1150	Noun_Phrase 32355 32359	SIFT
-T1151	Noun_Phrase 32355 32363;	SIFT and
-32367 32375	SIFT andPolyPhen
+T1151	Noun_Phrase 32355 32363;32367 32375	SIFT and PolyPhen
 T1152	Noun_Phrase 32367 32375	PolyPhen
 T1153	Noun_Phrase 32401 32417	protein function
 T1154	Noun_Phrase 32428 32446	the 56 total nsSNP
@@ -1391,13 +1180,10 @@ T1178	Noun_Phrase 33026 33040	adipose tissue
 T1179	Noun_Phrase 33100 33111	body weight
 T1180	Noun_Phrase 33207 33225	All of these genes
 T1181	Noun_Phrase 33382 33425	The speed congenic strains developed herein
-T1182	Noun_Phrase 33434 33481;	previously identified genome-wide QTL affecting
-33502 33521	previously identified genome-wide QTL affectingcarcass composition
+T1182	Noun_Phrase 33434 33481;33502 33521	previously identified genome-wide QTL affecting carcass composition
 T1183	Noun_Phrase 33434 33488	previously identified genome-wide QTL affecting growth
-T1184	Noun_Phrase 33456 33481;	genome-wide QTL affecting
-33490 33497	genome-wide QTL affectingobesity
-T1185	IDENTITY_chain 33456 33481;	genome-wide QTL affecting
-33490 33497	genome-wide QTL affectingobesity
+T1184	Noun_Phrase 33456 33481;33490 33497	genome-wide QTL affecting obesity
+T1185	IDENTITY_chain 33456 33481;33490 33497	genome-wide QTL affecting obesity
 T1186	Noun_Phrase 33456 33488	genome-wide QTL affecting growth
 T1187	IDENTITY_chain 33456 33488	genome-wide QTL affecting growth
 T1188	Noun_Phrase 33482 33488	growth
@@ -1433,18 +1219,14 @@ T1217	IDENTITY_chain 34759 34766	Promega
 T1218	Noun_Phrase 34821 34832	sterile H2O
 T1219	IDENTITY_chain 34821 34832	sterile H2O
 T1220	Noun_Phrase 34846 34856	genotyping
-T1221	Noun_Phrase 35031 35046;	Additional File
-35053 35054	Additional File2
+T1221	Noun_Phrase 35031 35046;35053 35054	Additional File 2
 T1222	Noun_Phrase 35031 35048	Additional File 1
 T1223	Noun_Phrase 35217 35232	the hg deletion
-T1224	Noun_Phrase 35263 35268;	hg/hg
-35278 35282	hg/hgmice
+T1224	Noun_Phrase 35263 35268;35278 35282	hg/hg mice
 T1225	Noun_Phrase 35417 35432	the hg deletion
-T1226	Noun_Phrase 35437 35440;	+/+
-35450 35454	+/+mice
+T1226	Noun_Phrase 35437 35440;35450 35454	+/+ mice
 T1227	Noun_Phrase 35445 35454	+/hg mice
-T1228	Noun_Phrase 35556 35563;	B6.CAST
-35576 35603	B6.CASTMMU2 speed congenic strains
+T1228	Noun_Phrase 35556 35563;35576 35603	B6.CAST MMU2 speed congenic strains
 T1229	Noun_Phrase 35556 35603	B6.CAST and HG.CAST MMU2 speed congenic strains
 T1230	IDENTITY_chain 35556 35603	B6.CAST and HG.CAST MMU2 speed congenic strains
 T1231	Noun_Phrase 35568 35603	HG.CAST MMU2 speed congenic strains
@@ -1472,16 +1254,11 @@ T1252	Noun_Phrase 36895 36898	our
 T1253	Noun_Phrase 36953 36968	the hg deletion
 T1254	Noun_Phrase 36970 36997	MMU2 speed congenic strains
 T1255	Noun_Phrase 37190 37207	Additional File 2
-T1256	Noun_Phrase 37261 37264;	MMU
-37267 37268	MMU5
-T1257	Noun_Phrase 37261 37264;	MMU
-37270 37271	MMU8
-T1258	Noun_Phrase 37261 37264;	MMU
-37273 37274	MMU9
-T1259	Noun_Phrase 37261 37264;	MMU
-37276 37278	MMU11
-T1260	Noun_Phrase 37261 37264;	MMU
-37283 37285	MMU17
+T1256	Noun_Phrase 37261 37264;37267 37268	MMU 5
+T1257	Noun_Phrase 37261 37264;37270 37271	MMU 8
+T1258	Noun_Phrase 37261 37264;37273 37274	MMU 9
+T1259	Noun_Phrase 37261 37264;37276 37278	MMU 11
+T1260	Noun_Phrase 37261 37264;37283 37285	MMU 17
 T1261	Noun_Phrase 37261 37265	MMU1
 T1262	Noun_Phrase 37261 37285	MMU1, 5, 8, 9, 11 and 17
 T1263	Noun_Phrase 37311 37348	the first two crosses described above
@@ -1492,16 +1269,11 @@ T1267	APPOS_relation 37380 37477	D1Mit432, -480, D5Mit353, -311, D9Mit60, -262, 
 T1268	IDENTITY_chain 37380 37477	D1Mit432, -480, D5Mit353, -311, D9Mit60, -262, D11Mit5, -67, D8Mit234, -211 and D17Mit28 and -142
 T1269	Noun_Phrase 37501 37530	the six QTL harboring regions
 T1270	IDENTITY_chain 37501 37530	the six QTL harboring regions
-T1271	Noun_Phrase 37532 37535;	MMU
-37538 37539	MMU5
-T1272	Noun_Phrase 37532 37535;	MMU
-37541 37542	MMU8
-T1273	Noun_Phrase 37532 37535;	MMU
-37544 37545	MMU9
-T1274	Noun_Phrase 37532 37535;	MMU
-37547 37549	MMU11
-T1275	Noun_Phrase 37532 37535;	MMU
-37554 37556	MMU17
+T1271	Noun_Phrase 37532 37535;37538 37539	MMU 5
+T1272	Noun_Phrase 37532 37535;37541 37542	MMU 8
+T1273	Noun_Phrase 37532 37535;37544 37545	MMU 9
+T1274	Noun_Phrase 37532 37535;37547 37549	MMU 11
+T1275	Noun_Phrase 37532 37535;37554 37556	MMU 17
 T1276	Noun_Phrase 37532 37536	MMU1
 T1277	Noun_Phrase 37532 37556	MMU1, 5, 8, 9, 11 and 17
 T1278	Noun_Phrase 37558 37565	Table 1
@@ -1509,26 +1281,18 @@ T1279	Noun_Phrase 37570 37587	Additional File 1
 T1280	Noun_Phrase 37590 37597	Markers
 T1281	Noun_Phrase 37666 37678	Two N2 males
 T1282	IDENTITY_chain 37666 37678	Two N2 males
-T1283	Noun_Phrase 37746 37756;	QTL on MMU
-37762 37763	QTL on MMU9
+T1283	Noun_Phrase 37746 37756;37762 37763	QTL on MMU 9
 T1284	Noun_Phrase 37746 37757	QTL on MMU1
-T1285	Noun_Phrase 37753 37756;	MMU
-37762 37763	MMU9
+T1285	Noun_Phrase 37753 37756;37762 37763	MMU 9
 T1286	Noun_Phrase 37753 37757	MMU1
 T1287	Noun_Phrase 37753 37763	MMU1 and 9
-T1288	Noun_Phrase 37795 37805;	QTL on MMU
-37808 37809	QTL on MMU8
-T1289	Noun_Phrase 37795 37805;	QTL on MMU
-37811 37813	QTL on MMU11
-T1290	Noun_Phrase 37795 37805;	QTL on MMU
-37818 37820	QTL on MMU17
+T1288	Noun_Phrase 37795 37805;37808 37809	QTL on MMU 8
+T1289	Noun_Phrase 37795 37805;37811 37813	QTL on MMU 11
+T1290	Noun_Phrase 37795 37805;37818 37820	QTL on MMU 17
 T1291	Noun_Phrase 37795 37806	QTL on MMU5
-T1292	Noun_Phrase 37802 37805;	MMU
-37808 37809	MMU8
-T1293	Noun_Phrase 37802 37805;	MMU
-37811 37813	MMU11
-T1294	Noun_Phrase 37802 37805;	MMU
-37818 37820	MMU17
+T1292	Noun_Phrase 37802 37805;37808 37809	MMU 8
+T1293	Noun_Phrase 37802 37805;37811 37813	MMU 11
+T1294	Noun_Phrase 37802 37805;37818 37820	MMU 17
 T1295	Noun_Phrase 37802 37806	MMU5
 T1296	Noun_Phrase 37822 37830	Figure 1
 T1297	Noun_Phrase 37833 37843	Both males
@@ -1540,17 +1304,13 @@ T1302	Noun_Phrase 38004 38007	QTL
 T1303	Noun_Phrase 38011 38016	their
 T1304	Noun_Phrase 38050 38061	These males
 T1305	Noun_Phrase 38095 38105	HG females
-T1306	Noun_Phrase 38184 38187;	MMU
-38193 38194	MMU9
+T1306	Noun_Phrase 38184 38187;38193 38194	MMU 9
 T1307	Noun_Phrase 38184 38188	MMU1
 T1308	Noun_Phrase 38184 38194	MMU1 and 9
-T1309	Noun_Phrase 38199 38202;	MMU
-38208 38210	MMU11
+T1309	Noun_Phrase 38199 38202;38208 38210	MMU 11
 T1310	Noun_Phrase 38199 38203	MMU5
-T1311	Noun_Phrase 38215 38218;	MMU
-38221 38223	MMU11
-T1312	Noun_Phrase 38215 38218;	MMU
-38228 38230	MMU17
+T1311	Noun_Phrase 38215 38218;38221 38223	MMU 11
+T1312	Noun_Phrase 38215 38218;38228 38230	MMU 17
 T1313	Noun_Phrase 38215 38219	MMU8
 T1314	Noun_Phrase 38232 38240	Figure 1
 T1315	Noun_Phrase 38328 38350	unwanted donor alleles
@@ -1563,8 +1323,7 @@ T1321	Noun_Phrase 38681 38722	Homozygous HG.CAST speed congenic strains
 T1322	Noun_Phrase 38747 38768	brother-sister mating
 T1323	IDENTITY_chain 38747 38768	brother-sister mating
 T1324	Noun_Phrase 38915 38932	Additional File 2
-T1325	Noun_Phrase 38951 38959;	B6.CASTC
-38973 38988	B6.CASTCcontrol strains
+T1325	Noun_Phrase 38951 38959;38973 38988	B6.CASTC control strains
 T1326	Noun_Phrase 38964 38988	HG.CASTC control strains
 T1327	Noun_Phrase 38990 38992	HG
 T1328	Noun_Phrase 39014 39029	the hg deletion
@@ -1574,46 +1333,33 @@ T1331	Noun_Phrase 39142 39154	the hg locus
 T1332	Noun_Phrase 39212 39214	hg
 T1333	Noun_Phrase 39225 39246	contaminating alleles
 T1334	Noun_Phrase 39263 39283	the nine backcrosses
-T1335	Noun_Phrase 39330 39338;	parental
-39346 39356	parentalHG strains
-T1336	Noun_Phrase 39330 39341;	parental B6
-39349 39356	parental B6strains
+T1335	Noun_Phrase 39330 39338;39346 39356	parental HG strains
+T1336	Noun_Phrase 39330 39341;39349 39356	parental B6 strains
 T1337	Noun_Phrase 39422 39424	we
 T1338	Noun_Phrase 39443 39525	independent control strains originating from the same cross as the congenic panels
 T1339	Noun_Phrase 39506 39525	the congenic panels
-T1340	Noun_Phrase 39527 39535;	Separate
-39562 39577;	SeparateHG.CAST control
-39584 39591	SeparateHG.CAST controlstrains
-T1341	Noun_Phrase 39527 39551;	Separate B6.CAST control
-39584 39591	Separate B6.CAST controlstrains
+T1340	Noun_Phrase 39527 39535;39562 39577;39584 39591	Separate HG.CAST control strains
+T1341	Noun_Phrase 39527 39551;39584 39591	Separate B6.CAST control strains
 T1342	Noun_Phrase 39627 39631	MMU2
 T1343	Noun_Phrase 39714 39735	markers spanning MMU2
 T1344	Noun_Phrase 39731 39735	MMU2
 T1345	Noun_Phrase 39792 39812	Both control strains
 T1346	Noun_Phrase 39850 39871	brother-sister mating
 T1347	Noun_Phrase 39874 39893	The control strains
-T1348	Noun_Phrase 39915 39927;	the parental
-39934 39943	the parentalHG strain
-T1349	Noun_Phrase 39915 39930;	the parental B6
-39937 39943	the parental B6strain
+T1348	Noun_Phrase 39915 39927;39934 39943	the parental HG strain
+T1349	Noun_Phrase 39915 39930;39937 39943	the parental B6 strain
 T1350	Noun_Phrase 39994 40002	congenic
-T1351	Noun_Phrase 40115 40118;	the
-40133 40141	thecontrols
+T1351	Noun_Phrase 40115 40118;40133 40141	the controls
 T1352	Noun_Phrase 40115 40128	the congenics
-T1353	Noun_Phrase 40240 40243;	the
-40252 40263	theHGC strains
-T1354	Noun_Phrase 40240 40247;	the B6C
-40256 40263	the B6Cstrains
+T1353	Noun_Phrase 40240 40243;40252 40263	the HGC strains
+T1354	Noun_Phrase 40240 40247;40256 40263	the B6C strains
 T1355	Noun_Phrase 40376 40397	approximately 40 mice
 T1356	IDENTITY_chain 40376 40397	approximately 40 mice
 T1357	Noun_Phrase 40611 40615	Mice
 T1358	Noun_Phrase 40631 40645	3 weeks of age
-T1359	Noun_Phrase 40780 40783;	2WK
-40803 40809	2WKof age
-T1360	Noun_Phrase 40785 40788;	3WK
-40803 40809	3WKof age
-T1361	Noun_Phrase 40790 40793;	6WK
-40803 40809	6WKof age
+T1359	Noun_Phrase 40780 40783;40803 40809	2WK of age
+T1360	Noun_Phrase 40785 40788;40803 40809	3WK of age
+T1361	Noun_Phrase 40790 40793;40803 40809	6WK of age
 T1362	Noun_Phrase 40799 40809	9WK of age
 T1363	Noun_Phrase 40814 40817	9WK
 T1364	Noun_Phrase 40874 40891	nasal-anal length
@@ -1628,10 +1374,7 @@ T1372	Noun_Phrase 40980 40982	NA
 T1373	Noun_Phrase 40989 40991	NT
 T1374	Noun_Phrase 41067 41082	Femoral fat pad
 T1375	APPOS_relation 41067 41082	Femoral fat pad
-T1376	Noun_Phrase 41067 41082;	Femoral fat pad
-41090 41105;	Femoral fat padgonadal fat pad
-41113 41131;	Femoral fat padgonadal fat padmesenteric fat pad
-41138 41165	Femoral fat padgonadal fat padmesenteric fat padand retroperitoneal fat pad
+T1376	Noun_Phrase 41067 41082;41090 41105;41113 41131;41138 41165	Femoral fat pad gonadal fat pad mesenteric fat pad and retroperitoneal fat pad
 T1377	Noun_Phrase 41084 41087	FFP
 T1378	Noun_Phrase 41090 41105	gonadal fat pad
 T1379	APPOS_relation 41090 41105	gonadal fat pad
@@ -1681,12 +1424,9 @@ T1422	Noun_Phrase 42989 42994	Genes
 T1423	Noun_Phrase 43156 43158	we
 T1424	Noun_Phrase 43253 43261	Figure 5
 T1425	Noun_Phrase 43298 43303	genes
-T1426	Noun_Phrase 43387 43390;	MMU
-43393 43394	MMU9
-T1427	Noun_Phrase 43387 43390;	MMU
-43396 43398	MMU11
-T1428	Noun_Phrase 43387 43390;	MMU
-43403 43405	MMU17
+T1426	Noun_Phrase 43387 43390;43393 43394	MMU 9
+T1427	Noun_Phrase 43387 43390;43396 43398	MMU 11
+T1428	Noun_Phrase 43387 43390;43403 43405	MMU 17
 T1429	Noun_Phrase 43387 43391	MMU2
 T1430	Noun_Phrase 43387 43405	MMU2, 9, 11 and 17
 T1431	Noun_Phrase 43598 43613	the CAST strain
@@ -1720,10 +1460,8 @@ T1458	IDENTITY_chain 46033 46047	the manuscript
 T1459	Noun_Phrase 46117 46120	JFM
 T1460	Noun_Phrase 46176 46190	the manuscript
 T1461	Noun_Phrase 46310 46327	Additional File 1
-T1462	Noun_Phrase 46389 46396;	B6.CAST
-46409 46431	B6.CASTspeed congenic strains
-T1463	IDENTITY_chain 46389 46396;	B6.CAST
-46409 46431	B6.CASTspeed congenic strains
+T1462	Noun_Phrase 46389 46396;46409 46431	B6.CAST speed congenic strains
+T1463	IDENTITY_chain 46389 46396;46409 46431	B6.CAST speed congenic strains
 T1464	Noun_Phrase 46401 46431	HG.CAST speed congenic strains
 T1465	IDENTITY_chain 46401 46431	HG.CAST speed congenic strains
 T1466	Noun_Phrase 46448 46452	file
@@ -1732,8 +1470,7 @@ T1468	Noun_Phrase 46589 46593	file
 T1469	Noun_Phrase 46595 46612	Additional File 3
 T1470	Noun_Phrase 46614 46619	Table
 T1471	Noun_Phrase 46623 46634	body weight
-T1472	Noun_Phrase 46665 46672;	B6.CAST
-46685 46712	B6.CASTMMU2 speed congenic strains
+T1472	Noun_Phrase 46665 46672;46685 46712	B6.CAST MMU2 speed congenic strains
 T1473	Noun_Phrase 46665 46712	B6.CAST and HG.CAST MMU2 speed congenic strains
 T1474	Noun_Phrase 46677 46712	HG.CAST MMU2 speed congenic strains
 T1475	Noun_Phrase 46729 46733	file
@@ -1744,38 +1481,24 @@ T1479	Noun_Phrase 46819 46851	MMU2 hg modifier candidate genes
 T1480	IDENTITY_chain 46819 46851	MMU2 hg modifier candidate genes
 T1481	Noun_Phrase 46868 46872	file
 T1482	Noun_Phrase 46874 46891	Additional File 5
-T1483	Noun_Phrase 46931 46935;	MMU2
-46950 46977	MMU2hg modifier candidate genes
+T1483	Noun_Phrase 46931 46935;46950 46977	MMU2 hg modifier candidate genes
 T1484	Noun_Phrase 46994 46998	file
 T1485	Noun_Phrase 47018 47020	We
 T1486	Noun_Phrase 47242 47244	We
 T1487	Noun_Phrase 47557 47560	CRF
 T1488	Noun_Phrase 47635 47643	Figure 1
-T1489	Noun_Phrase 47700 47711;	genome-wide
-47723 47734	genome-wideobesity QTL
-T1490	Noun_Phrase 47700 47718;	genome-wide growth
-47731 47734	genome-wide growthQTL
+T1489	Noun_Phrase 47700 47711;47723 47734	genome-wide obesity QTL
+T1490	Noun_Phrase 47700 47718;47731 47734	genome-wide growth QTL
 T1491	Noun_Phrase 47825 47854	the MMU2 speed congenic panel
 T1492	Noun_Phrase 47881 47891	the figure
-T1493	Noun_Phrase 48020 48032;	heterozygous
-48040 48042;	heterozygousHG
-48043 48048	heterozygousHG/CAST
-T1494	Noun_Phrase 48020 48035;	heterozygous B6
-48043 48048	heterozygous B6/CAST
+T1493	Noun_Phrase 48020 48032;48040 48042;48043 48048	heterozygous HG /CAST
+T1494	Noun_Phrase 48020 48035;48043 48048	heterozygous B6 /CAST
 T1495	Noun_Phrase 48085 48098	markers typed
-T1496	Noun_Phrase 48184 48187;	MMU
-48193 48194;	MMU8
-48209 48231	MMU8speed congenic strains
-T1497	Noun_Phrase 48184 48187;	MMU
-48196 48197;	MMU9
-48209 48231	MMU9speed congenic strains
-T1498	Noun_Phrase 48184 48187;	MMU
-48199 48201;	MMU11
-48209 48231	MMU11speed congenic strains
-T1499	Noun_Phrase 48184 48187;	MMU
-48206 48231	MMU17 speed congenic strains
-T1500	Noun_Phrase 48184 48188;	MMU1
-48209 48231	MMU1speed congenic strains
+T1496	Noun_Phrase 48184 48187;48193 48194;48209 48231	MMU 8 speed congenic strains
+T1497	Noun_Phrase 48184 48187;48196 48197;48209 48231	MMU 9 speed congenic strains
+T1498	Noun_Phrase 48184 48187;48199 48201;48209 48231	MMU 11 speed congenic strains
+T1499	Noun_Phrase 48184 48187;48206 48231	MMU 17 speed congenic strains
+T1500	Noun_Phrase 48184 48188;48209 48231	MMU1 speed congenic strains
 T1501	Noun_Phrase 48308 48316	Figure 2
 T1502	Noun_Phrase 48368 48379	QTL effects
 T1503	IDENTITY_chain 48368 48379	QTL effects
@@ -1787,12 +1510,8 @@ T1508	Noun_Phrase 48668 48688	I, II, III, IV and V
 T1509	Noun_Phrase 48671 48673	II
 T1510	Noun_Phrase 48680 48682	IV
 T1511	Noun_Phrase 48687 48688	V
-T1512	Noun_Phrase 48718 48733;	male and female
-48735 48738;	male and female+/+
-48750 48754	male and female+/+mice
-T1513	Noun_Phrase 48718 48733;	male and female
-48743 48748;	male and femalehg/hg
-48750 48754	male and femalehg/hgmice
+T1512	Noun_Phrase 48718 48733;48735 48738;48750 48754	male and female +/+ mice
+T1513	Noun_Phrase 48718 48733;48743 48748;48750 48754	male and female hg/hg mice
 T1514	Noun_Phrase 48829 48833	MMU2
 T1515	Noun_Phrase 48856 48867	QTL effects
 T1516	Noun_Phrase 48928 48930	WT
@@ -1818,10 +1537,8 @@ T1535	Noun_Phrase 49065 49068	BMI
 T1536	APPOS_relation 49065 49068	BMI
 T1537	Noun_Phrase 49070 49085	body mass index
 T1538	Noun_Phrase 49088 49096	Figure 3
-T1539	Noun_Phrase 49116 49120;	MMU2
-49133 49163	MMU2HG.CAST speed congenic strains
-T1540	Noun_Phrase 49116 49128;	MMU2 B6.CAST
-49141 49163	MMU2 B6.CASTspeed congenic strains
+T1539	Noun_Phrase 49116 49120;49133 49163	MMU2 HG.CAST speed congenic strains
+T1540	Noun_Phrase 49116 49128;49141 49163	MMU2 B6.CAST speed congenic strains
 T1541	Noun_Phrase 49116 49163	MMU2 B6.CAST and HG.CAST speed congenic strains
 T1542	Noun_Phrase 49400 49408	Figure 4
 T1543	Noun_Phrase 49448 49459	HG genotype
@@ -1833,12 +1550,9 @@ T1548	Noun_Phrase 49653 49661	Figure 5
 T1549	Noun_Phrase 49710 49767	Genes known to be or potentially involved in Gh signaling
 T1550	Noun_Phrase 49755 49767	Gh signaling
 T1551	Noun_Phrase 49831 49836	Genes
-T1552	Noun_Phrase 49970 49973;	MMU
-49976 49977	MMU9
-T1553	Noun_Phrase 49970 49973;	MMU
-49979 49981	MMU11
-T1554	Noun_Phrase 49970 49973;	MMU
-49986 49988	MMU17
+T1552	Noun_Phrase 49970 49973;49976 49977	MMU 9
+T1553	Noun_Phrase 49970 49973;49979 49981	MMU 11
+T1554	Noun_Phrase 49970 49973;49986 49988	MMU 17
 T1555	Noun_Phrase 49970 49974	MMU2
 T1556	Noun_Phrase 49970 49988	MMU2, 9, 11 and 17
 T1557	Noun_Phrase 50100 50149	Forty-four of the genes overlapping QTL intervals
@@ -1870,8 +1584,7 @@ T1582	Noun_Phrase 51023 51043	the recipient strain
 T1583	Noun_Phrase 51054 51070	the donor strain
 T1584	Noun_Phrase 51169 51183	speed congenic
 T1585	Noun_Phrase 51270 51277	Table 2
-T1586	Noun_Phrase 51319 51326;	B6.CAST
-51339 51366	B6.CASTMMU2 speed congenic strains
+T1586	Noun_Phrase 51319 51326;51339 51366	B6.CAST MMU2 speed congenic strains
 T1587	Noun_Phrase 51319 51366	B6.CAST and HG.CAST MMU2 speed congenic strains
 T1588	Noun_Phrase 51331 51366	HG.CAST MMU2 speed congenic strains
 T1589	Noun_Phrase 51368 51370	NA
@@ -1925,16 +1638,14 @@ T1636	Noun_Phrase 52109 52112	G26
 T1637	APPOS_relation 52109 52112	G26
 T1638	Noun_Phrase 52114 52125	weight gain
 T1639	Noun_Phrase 52114 52150	weight gain from 2 to 6 weeks of age
-T1640	Noun_Phrase 52131 52132;	2
-52138 52150	2weeks of age
+T1640	Noun_Phrase 52131 52132;52138 52150	2 weeks of age
 T1641	Noun_Phrase 52131 52150	2 to 6 weeks of age
 T1642	Noun_Phrase 52136 52150	6 weeks of age
 T1643	Noun_Phrase 52152 52155	G29
 T1644	APPOS_relation 52152 52155	G29
 T1645	Noun_Phrase 52157 52168	weight gain
 T1646	Noun_Phrase 52157 52193	weight gain from 2 to 9 weeks of age
-T1647	Noun_Phrase 52174 52175;	2
-52181 52193	2weeks of age
+T1647	Noun_Phrase 52174 52175;52181 52193	2 weeks of age
 T1648	Noun_Phrase 52174 52193	2 to 9 weeks of age
 T1649	Noun_Phrase 52179 52193	9 weeks of age
 T1650	Noun_Phrase 52195 52197	NA
@@ -1973,16 +1684,14 @@ T1682	Noun_Phrase 52622 52625	G26
 T1683	APPOS_relation 52622 52625	G26
 T1684	Noun_Phrase 52627 52638	weight gain
 T1685	Noun_Phrase 52627 52663	weight gain from 2 to 6 weeks of age
-T1686	Noun_Phrase 52644 52645;	2
-52651 52663	2weeks of age
+T1686	Noun_Phrase 52644 52645;52651 52663	2 weeks of age
 T1687	Noun_Phrase 52644 52663	2 to 6 weeks of age
 T1688	Noun_Phrase 52649 52663	6 weeks of age
 T1689	Noun_Phrase 52665 52668	G29
 T1690	APPOS_relation 52665 52668	G29
 T1691	Noun_Phrase 52670 52681	weight gain
 T1692	Noun_Phrase 52670 52706	weight gain from 2 to 9 weeks of age
-T1693	Noun_Phrase 52687 52688;	2
-52694 52706	2weeks of age
+T1693	Noun_Phrase 52687 52688;52694 52706	2 weeks of age
 T1694	Noun_Phrase 52687 52706	2 to 9 weeks of age
 T1695	Noun_Phrase 52692 52706	9 weeks of age
 T1696	Noun_Phrase 52708 52710	NA

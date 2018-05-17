@@ -4,10 +4,8 @@ T2	IDENTITY_chain 0 9	RMCE-ASAP
 T3	Noun_Phrase 11 92	a gene targeting method for ES and somatic cells to accelerate phenotype analyses
 T4	IDENTITY_chain 13 27	gene targeting
 T5	Noun_Phrase 13 27	gene targeting
-T6	IDENTITY_chain 39 41;	ES
-54 59	EScells
-T7	Noun_Phrase 39 41;	ES
-54 59	EScells
+T6	IDENTITY_chain 39 41;54 59	ES cells
+T7	Noun_Phrase 39 41;54 59	ES cells
 T8	Noun_Phrase 46 59	somatic cells
 T9	IDENTITY_chain 46 59	somatic cells
 T10	Noun_Phrase 74 92	phenotype analyses
@@ -97,8 +95,7 @@ T93	Noun_Phrase 1489 1542	homologous recombination in embryonic stem (ES) cells
 T94	Noun_Phrase 1489 1566	homologous recombination in embryonic stem (ES) cells to generate mutant mice
 T95	Noun_Phrase 1517 1531	embryonic stem
 T96	APPOS_relation 1517 1531	embryonic stem
-T97	Noun_Phrase 1517 1531;	embryonic stem
-1537 1542	embryonic stemcells
+T97	Noun_Phrase 1517 1531;1537 1542	embryonic stem cells
 T98	Noun_Phrase 1533 1535	ES
 T99	Noun_Phrase 1555 1566	mutant mice
 T100	Noun_Phrase 1584 1597	this approach
@@ -120,8 +117,7 @@ T115	Noun_Phrase 2476 2480	mice
 T116	Noun_Phrase 2511 2516	mouse
 T117	Noun_Phrase 2511 2516	mouse
 T118	Noun_Phrase 2763 2770	the p53
-T119	Noun_Phrase 2763 2770;	the p53
-2780 2785	the p53genes
+T119	Noun_Phrase 2763 2770;2780 2785	the p53 genes
 T120	Noun_Phrase 2798 2805	methods
 T121	Noun_Phrase 2818 2827	targeting
 T122	Noun_Phrase 2818 2838	targeting efficiency
@@ -249,8 +245,7 @@ T243	IDENTITY_chain 6438 6440	1L
 T244	Noun_Phrase 6444 6463	an inverted WT loxP
 T245	IDENTITY_chain 6456 6458	WT
 T246	Noun_Phrase 6456 6458	WT
-T247	Noun_Phrase 6466 6469;	The
-6482 6489	TheloxP257
+T247	Noun_Phrase 6466 6469;6482 6489	The loxP257
 T248	IDENTITY_chain 6466 6477	The WT loxP
 T249	Noun_Phrase 6466 6477	The WT loxP
 T250	Noun_Phrase 6466 6489	The WT loxP and loxP257
@@ -374,14 +369,10 @@ T367	Noun_Phrase 8877 8881	loxP
 T368	Noun_Phrase 8890 8898	Exchange
 T369	Noun_Phrase 8890 8909	Exchange constructs
 T370	IDENTITY_chain 8890 8909	Exchange constructs
-T371	Noun_Phrase 8918 8921;	the
-8933 8950	thep53?PGFP plasmids
-T372	IDENTITY_chain 8918 8921;	the
-8933 8950	thep53?PGFP plasmids
-T373	Noun_Phrase 8918 8928;	the p53GFP
-8942 8950	the p53GFPplasmids
-T374	IDENTITY_chain 8918 8928;	the p53GFP
-8942 8950	the p53GFPplasmids
+T371	Noun_Phrase 8918 8921;8933 8950	the p53?PGFP plasmids
+T372	IDENTITY_chain 8918 8921;8933 8950	the p53?PGFP plasmids
+T373	Noun_Phrase 8918 8928;8942 8950	the p53GFP plasmids
+T374	IDENTITY_chain 8918 8928;8942 8950	the p53GFP plasmids
 T375	Noun_Phrase 8922 8928	p53GFP
 T376	IDENTITY_chain 8922 8928	p53GFP
 T377	Noun_Phrase 8933 8941	p53?PGFP
@@ -452,21 +443,17 @@ T441	Noun_Phrase 10409 10412	p53
 T442	Noun_Phrase 10430 10434	Flox
 T443	Noun_Phrase 10466 10470	Flox
 T444	Noun_Phrase 10475 10479	RMCE
-T445	Noun_Phrase 10475 10484;	RMCE with
-10495 10512	RMCE withp53?PGFP plasmids
-T446	Noun_Phrase 10475 10491;	RMCE with p53GFP
-10504 10512	RMCE with p53GFPplasmids
+T445	Noun_Phrase 10475 10484;10495 10512	RMCE with p53?PGFP plasmids
+T446	Noun_Phrase 10475 10491;10504 10512	RMCE with p53GFP plasmids
 T447	Noun_Phrase 10485 10491	p53GFP
-T448	Noun_Phrase 10485 10491;	p53GFP
-10504 10512	p53GFPplasmids
+T448	Noun_Phrase 10485 10491;10504 10512	p53GFP plasmids
 T449	Noun_Phrase 10495 10503	p53?PGFP
 T450	Noun_Phrase 10495 10512	p53?PGFP plasmids
 T451	Noun_Phrase 10555 10558	GFP
 T452	Noun_Phrase 10555 10558	GFP
 T453	Noun_Phrase 10577 10581	RMCE
 T454	Noun_Phrase 10587 10593	p53GFP
-T455	Noun_Phrase 10587 10593;	p53GFP
-10605 10613	p53GFPplasmids
+T455	Noun_Phrase 10587 10593;10605 10613	p53GFP plasmids
 T456	Noun_Phrase 10596 10604	p53?PGFP
 T457	Noun_Phrase 10596 10613	p53?PGFP plasmids
 T458	Noun_Phrase 10659 10662	p53
@@ -677,8 +664,7 @@ T662	IDENTITY_chain 15983 15998	the p53 pathway
 T663	Noun_Phrase 15983 16167	the p53 pathway is regulated very differently in ES and somatic cells: ES cells contain relatively high p53 levels and lack the p53-mediated DNA damage responses found in somatic cells
 T664	IDENTITY_chain 15983 16167	the p53 pathway is regulated very differently in ES and somatic cells: ES cells contain relatively high p53 levels and lack the p53-mediated DNA damage responses found in somatic cells
 T665	Noun_Phrase 15987 15990	p53
-T666	Noun_Phrase 16032 16034;	ES
-16047 16052	EScells
+T666	Noun_Phrase 16032 16034;16047 16052	ES cells
 T667	Noun_Phrase 16039 16052	somatic cells
 T668	Noun_Phrase 16039 16053	somatic cells:
 T669	Noun_Phrase 16054 16062	ES cells
@@ -748,10 +734,8 @@ T732	Noun_Phrase 17392 17404	the germline
 T733	Noun_Phrase 17396 17404	germline
 T734	Noun_Phrase 17410 17420	p53+/?PGFP
 T735	Noun_Phrase 17455 17466	blastocysts
-T736	Noun_Phrase 17471 17486;	highly chimeric
-17494 17498	highly chimericmice
-T737	IDENTITY_chain 17471 17486;	highly chimeric
-17494 17498	highly chimericmice
+T736	Noun_Phrase 17471 17486;17494 17498	highly chimeric mice
+T737	IDENTITY_chain 17471 17486;17494 17498	highly chimeric mice
 T738	Noun_Phrase 17563 17575	the chimeras
 T739	Noun_Phrase 17581 17583	WT
 T740	Noun_Phrase 17581 17588	WT mice
@@ -1039,10 +1023,8 @@ T1021	Noun_Phrase 23911 23930	an inverted WT loxP
 T1022	Noun_Phrase 23923 23925	WT
 T1023	Noun_Phrase 23932 23934	1L
 T1024	APPOS_relation 23932 23934	1L
-T1025	Noun_Phrase 23983 24004;	the diphteria ?-toxin
-24011 24015	the diphteria ?-toxingene
-T1026	Noun_Phrase 23983 24004;	the diphteria ?-toxin
-24011 24015	the diphteria ?-toxingene
+T1025	Noun_Phrase 23983 24004;24011 24015	the diphteria ?-toxin gene
+T1026	Noun_Phrase 23983 24004;24011 24015	the diphteria ?-toxin gene
 T1027	Noun_Phrase 24006 24009	DTA
 T1028	APPOS_relation 24006 24009	DTA
 T1029	Noun_Phrase 24020 24029	targeting
@@ -1052,10 +1034,8 @@ T1032	Noun_Phrase 24183 24207	PCR with primers a and b
 T1033	IDENTITY_chain 24183 24207	PCR with primers a and b
 T1034	Noun_Phrase 24192 24199	primers
 T1035	Noun_Phrase 24240 24243	PCR
-T1036	Noun_Phrase 24247 24259;	one positive
-24281 24287	one positiveclones
-T1037	APPOS_relation 24247 24259;	one positive
-24281 24287	one positiveclones
+T1036	Noun_Phrase 24247 24259;24281 24287	one positive clones
+T1037	APPOS_relation 24247 24259;24281 24287	one positive clones
 T1038	Noun_Phrase 24261 24262	?
 T1039	Noun_Phrase 24322 24326	RMCE
 T1040	Noun_Phrase 24322 24338	RMCE in ES cells
@@ -1071,8 +1051,7 @@ T1049	Noun_Phrase 24372 24384	The exchange
 T1050	Noun_Phrase 24372 24392	The exchange plasmid
 T1051	IDENTITY_chain 24372 24392	The exchange plasmid
 T1052	Noun_Phrase 24447 24453	p53GFP
-T1053	Noun_Phrase 24482 24484;	L3
-24492 24497	L3sites
+T1053	Noun_Phrase 24482 24484;24492 24497	L3 sites
 T1054	Noun_Phrase 24482 24484	L3
 T1055	Noun_Phrase 24489 24491	1L
 T1056	Noun_Phrase 24489 24497	1L sites
@@ -1167,8 +1146,7 @@ T1144	IDENTITY_chain 26407 26431	PCR with primers d and e
 T1145	Noun_Phrase 26416 26423	primers
 T1146	Noun_Phrase 26437 26438	B
 T1147	Noun_Phrase 26446 26449	DNA
-T1148	Noun_Phrase 26455 26457;	WT
-26480 26484	WTMEFs
+T1148	Noun_Phrase 26455 26457;26480 26484	WT MEFs
 T1149	Noun_Phrase 26455 26457	WT
 T1150	Noun_Phrase 26471 26479	p53?P/?P
 T1151	Noun_Phrase 26471 26484	p53?P/?P MEFs
@@ -1202,24 +1180,18 @@ T1178	Noun_Phrase 26930 26938	germline
 T1179	Noun_Phrase 26930 26951	germline transmission
 T1180	Noun_Phrase 26955 26979	the p53 RMCE-ready locus
 T1181	Noun_Phrase 26959 26962	p53
-T1182	Noun_Phrase 26983 26987;	MEFs
-26991 26992	MEFs2
-T1183	IDENTITY_chain 26983 26987;	MEFs
-26991 26992	MEFs2
-T1184	Noun_Phrase 26983 26987;	MEFs
-26997 26998	MEFs6
-T1185	IDENTITY_chain 26983 26987;	MEFs
-26997 26998	MEFs6
+T1182	Noun_Phrase 26983 26987;26991 26992	MEFs 2
+T1183	IDENTITY_chain 26983 26987;26991 26992	MEFs 2
+T1184	Noun_Phrase 26983 26987;26997 26998	MEFs 6
+T1185	IDENTITY_chain 26983 26987;26997 26998	MEFs 6
 T1186	Noun_Phrase 26983 26989	MEFs 1
 T1187	IDENTITY_chain 26983 26989	MEFs 1
 T1188	Noun_Phrase 26983 26998	MEFs 1, 2 and 6
 T1189	IDENTITY_chain 26983 26998	MEFs 1, 2 and 6
 T1190	Noun_Phrase 27008 27030	these three MEF clones
 T1191	Noun_Phrase 27020 27023	MEF
-T1192	Noun_Phrase 27066 27073;	primers
-27099 27106	primersh and i
-T1193	IDENTITY_chain 27066 27073;	primers
-27099 27106	primersh and i
+T1192	Noun_Phrase 27066 27073;27099 27106	primers h and i
+T1193	IDENTITY_chain 27066 27073;27099 27106	primers h and i
 T1194	Noun_Phrase 27066 27073	primers
 T1195	Noun_Phrase 27066 27081	primers f and g
 T1196	IDENTITY_chain 27066 27081	primers f and g
@@ -1239,8 +1211,7 @@ T1209	Noun_Phrase 27331 27345	the Neo marker
 T1210	Noun_Phrase 27349 27362	the KO allele
 T1211	Noun_Phrase 27364 27369	MEF 1
 T1212	Noun_Phrase 27374 27383	p53RMCE/+
-T1213	Noun_Phrase 27388 27392;	MEFs
-27399 27400	MEFs6
+T1213	Noun_Phrase 27388 27392;27399 27400	MEFs 6
 T1214	Noun_Phrase 27388 27394	MEFs 2
 T1215	Noun_Phrase 27433 27456	Performing RMCE in MEFs
 T1216	Noun_Phrase 27444 27448	RMCE

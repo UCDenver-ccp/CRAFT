@@ -2,8 +2,7 @@ T0	GO_0090009 69 85	streak formation
 T1	GO_PATO_EXT_biological_patterning_process_or_quality 96 106	patterning
 T2	GO_0007369 299 311	gastrulation
 T3	GO_PATO_EXT_biological_patterning_process_or_quality 356 366	patterning
-T4	GO_0048598 480 489;	embryonic
-505 518	embryonicmorphogenesis
+T4	GO_0048598 480 489;505 518	embryonic morphogenesis
 T5	GO_PATO_EXT_biological_patterning_process_or_quality 490 500	patterning
 T6	GO_0010467 612 622	expression
 T7	GO_PATO_EXT_biological_patterning_process_or_quality 710 720	patterning
@@ -19,11 +18,8 @@ T16	GO_EXT_biological_growth_entity_or_process 1695 1701	growth
 T17	GO_EXT_transcription 1706 1719	transcription
 T18	GO_0065007 1894 1900	govern
 T19	GO_0090009 1917 1935	streak development
-T20	GO_0006461 3037 3045;	assembly
-3084 3086;	assemblyof
-3093 3110	assemblyofprotein complexes
-T21	GO_0031503 3075 3086;	location of
-3093 3110	location ofprotein complexes
+T20	GO_0006461 3037 3045;3084 3086;3093 3110	assembly of protein complexes
+T21	GO_0031503 3075 3086;3093 3110	location of protein complexes
 T22	GO_0009987 3269 3287	cellular processes
 T23	GO_EXT_biological_routing_or_transport 3304 3315	trafficking
 T24	GO_EXT_biological_growth_entity_or_process 3319 3325	growth
@@ -36,9 +32,7 @@ T30	GO_EXT_fatality_or_lethality 4258 4267	lethality
 T31	GO_0010467 4623 4633	expression
 T32	GO_0007369 4704 4716	gastrulation
 T33	GO_EXT_biological_direction_or_guidance 4951 4957	direct
-T34	GO_0008595 4958 4991;	anterior/posterior axis formation
-5007 5009;	anterior/posterior axis formationin
-5025 5031	anterior/posterior axis formationinembryo
+T34	GO_0008595 4958 4991;5007 5009;5025 5031	anterior/posterior axis formation in embryo
 T35	GO_PATO_EXT_biological_patterning_process_or_quality 4996 5006	patterning
 T36	GO_0006826 5326 5340	iron transport
 T37	GO_0006897 5410 5421	endocytosis
@@ -48,8 +42,7 @@ T40	GO_EXT_transcription 5624 5637	transcription
 T41	GO_EXT_transcription 5701 5714	transcription
 T42	GO_PATO_EXT_biological_patterning_process_or_quality 5755 5762	pattern
 T43	GO_0010467 5843 5853	expression
-T44	GO_0048598 5885 5894;	embryonic
-5910 5923	embryonicmorphogenesis
+T44	GO_0048598 5885 5894;5910 5923	embryonic morphogenesis
 T45	GO_PATO_EXT_biological_patterning_process_or_quality 5895 5905	patterning
 T46	GO_PATO_EXT_biological_patterning_process_or_quality 6081 6091	patterning
 T47	GO_0010467 6135 6145	expression
@@ -71,12 +64,8 @@ T62	GO_0010467 7880 7890	expression
 T63	GO_0010467 7933 7943	expression
 T64	GO_PATO_EXT_biological_localization_process_or_quality 7944 7953	localized
 T65	GO_0010467 8015 8025	expression
-T66	GO_0001714 8090 8103;	specification
-8117 8119;	specificationof
-8138 8146;	specificationofendoderm
-8153 8158	specificationofendodermcells
-T67	GO_0048870 8108 8119;	movement of
-8153 8158	movement ofcells
+T66	GO_0001714 8090 8103;8117 8119;8138 8146;8153 8158	specification of endoderm cells
+T67	GO_0048870 8108 8119;8153 8158	movement of cells
 T68	GO_0010467 8616 8626	expression
 T69	GO_0010467 8659 8669	expression
 T70	GO_EXT_transcription 8725 8740	transcriptional
@@ -100,10 +89,8 @@ T87	GO_0010467 10964 10973	expressed
 T88	GO_0010467 11030 11039	expressed
 T89	GO_0010467 11192 11199	express
 T90	GO_0010467 11266 11276	expression
-T91	GO_0090009 11486 11498;	formation of
-11508 11524	formation ofprimitive streak
-T92	GO_0048339 11486 11498;	formation of
-11529 11546	formation ofparaxial mesoderm
+T91	GO_0090009 11486 11498;11508 11524	formation of primitive streak
+T92	GO_0048339 11486 11498;11529 11546	formation of paraxial mesoderm
 T93	GO_0010467 11639 11648	expressed
 T94	GO_0010467 11713 11722	expressed
 T95	GO_0010467 11875 11884	expressed
@@ -119,8 +106,7 @@ T104	GO_0048339 13324 13353	paraxial mesoderm development
 T105	GO_0010467 13373 13383	expression
 T106	GO_0010467 13544 13554	expression
 T107	GO_0090009 13751 13777	primitive streak formation
-T108	GO_0048318 13812 13817;	axial
-13831 13849	axialmesoderm formation
+T108	GO_0048318 13812 13817;13831 13849	axial mesoderm formation
 T109	GO_0048339 13822 13849	paraxial mesoderm formation
 T110	GO_EXT_biological_growth_entity_or_process 13917 13923	growth
 T111	GO_0010467 13931 13941	expression
@@ -128,9 +114,7 @@ T112	GO_PATO_EXT_biological_patterning_process_or_quality 13998 14008	patterning
 T113	GO_EXT_cell_communication_or_signaling_or_signal_transduction 14036 14045	signaling
 T114	GO_PATO_EXT_biological_patterning_process_or_quality 14084 14094	patterning
 T115	GO_0046903 14134 14142	secreted
-T116	GO_0090009 14173 14182;	formation
-14199 14201;	formationof
-14206 14222	formationofprimitive streak
+T116	GO_0090009 14173 14182;14199 14201;14206 14222	formation of primitive streak
 T117	GO_0010467 14275 14284	expressed
 T118	GO_0007566 14355 14367	implantation
 T119	GO_0010467 14509 14519	expression
@@ -199,8 +183,7 @@ T181	GO_EXT_cell_communication_or_signaling_or_signal_transduction 21846 21855	s
 T182	GO_0010467 21879 21888	expressed
 T183	GO_PATO_EXT_biological_localization_process_or_quality 21958 21967	localized
 T184	GO_0065007 22063 22073	regulating
-T185	GO_0090009 22078 22090;	formation of
-22104 22120	formation ofprimitive streak
+T185	GO_0090009 22078 22090;22104 22120	formation of primitive streak
 T186	GO_PATO_EXT_biological_patterning_process_or_quality 22143 22153	patterning
 T187	GO_0010467 22238 22248	expression
 T188	GO_0010467 22333 22342	expressed
@@ -209,8 +192,7 @@ T190	GO_EXT_cell_communication_or_signaling_or_signal_transduction 22560 22569	s
 T191	GO_EXT_cell_communication_or_signaling_or_signal_transduction 22966 22975	signaling
 T192	GO_PATO_EXT_biological_patterning_process_or_quality 23142 23152	patterning
 T193	GO_0010467 23224 23233	expressed
-T194	GO_0038092 23334 23339;	Nodal
-23348 23357	Nodalsignaling
+T194	GO_0038092 23334 23339;23348 23357	Nodal signaling
 T195	GO_0016055 23344 23357	Wnt signaling
 T196	GO_0010467 23446 23455	expressed
 T197	GO_0010467 23626 23636	expression
@@ -254,8 +236,7 @@ T234	GO_0048513 28337 28350	organogenesis
 T235	GO_0010467 28566 28573	express
 T236	GO_0007417 29154 29169	CNS development
 T237	GO_0009790 29326 29347	embryonic development
-T238	GO_0009790 29532 29541;	embryonic
-29551 29562	embryonicdevelopment
+T238	GO_0009790 29532 29541;29551 29562	embryonic development
 T239	GO_0007398 29542 29562	ectoderm development
 T240	GO_0090009 29652 29670	streak development
 T241	GO_0010467 29726 29736	expression
@@ -270,10 +251,8 @@ T249	GO_0010467 31232 31242	expression
 T250	GO_0065007 31373 31383	regulation
 T251	GO_PATO_EXT_biological_patterning_process_or_quality 31459 31469	patterning
 T252	GO_0009790 31499 31512	embryogenesis
-T253	GO_0090009 31534 31540;	streak
-31550 31559	streakformation
-T254	GO_0048339 31591 31608;	paraxial mesoderm
-31623 31632	paraxial mesodermformation
+T253	GO_0090009 31534 31540;31550 31559	streak formation
+T254	GO_0048339 31591 31608;31623 31632	paraxial mesoderm formation
 T255	GO_0010467 31687 31696	expressed
 T256	GO_EXT_biological_growth_entity_or_process 31697 31703	growth
 T257	GO_EXT_transcription 31708 31721	transcription

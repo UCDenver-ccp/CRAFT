@@ -32,13 +32,10 @@ T30	SO_EXT_0000704 3065 3069	gene
 T31	SO_EXT_0001080 3133 3144	coiled coil
 T32	SO_EXT_0000704 3145 3149	gene
 T33	SO_EXT_0001428 3202 3216	expression map
-T34	SO_EXT_0000105 3239 3245;	arm of
-3252 3262	arm ofchromosome
-T35	SO_EXT_0000854 3348 3358;	paralogous
-3371 3378	paralogousregions
+T34	SO_EXT_0000105 3239 3245;3252 3262	arm of chromosome
+T35	SO_EXT_0000854 3348 3358;3371 3378	paralogous regions
 T36	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 3359 3378	chromosomal regions
-T37	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 3371 3381;	regions on
-3388 3399	regions onchromosomes
+T37	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 3371 3381;3388 3399	regions on chromosomes
 T38	SO_EXT_0000704 3456 3460	gene
 T39	SO_EXT_0000704 3540 3544	gene
 T40	SO_EXT_0000704 3678 3683	genes
@@ -132,8 +129,7 @@ T127	SO_EXT_0000043 9681 9701	processed pseudogene
 T128	SO_EXT_0000336 9720 9731	pseudogenes
 T129	CHEBI_SO_EXT_base 9759 9760	b
 T130	GO_SO_EXT_centromere_or_centromeric_region_or_centromeric_orientation 9768 9786	centromeric region
-T131	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 9780 9789;	region of
-9796 9806	region ofchromosome
+T131	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 9780 9789;9796 9806	region of chromosome
 T132	SO_EXT_0000028 9872 9874	bp
 T133	SO_EXT_0000205 9888 9910	3' untranslated region
 T134	SO_EXT_0000336 9915 9926	pseudogenes
@@ -226,8 +222,7 @@ T220	SO_EXT_0000704 14762 14767	genes
 T221	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 14804 14823	chromosomal regions
 T222	SO_EXT_0000704 14844 14848	gene
 T223	SO_EXT_biological_conservation_process_or_quality 14924 14936	conservation
-T224	SO_EXT_0000854 14940 14950;	paralogous
-14963 14971	paralogoussegments
+T224	SO_EXT_0000854 14940 14950;14963 14971	paralogous segments
 T225	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 14951 14971	chromosomal segments
 T226	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 15095 15114	chromosomal segment
 T227	SO_EXT_sequence_duplication_process 15119 15129	duplicated
@@ -236,8 +231,7 @@ T229	GO_SO_EXT_chromosome 15220 15230	chromosome
 T230	GO_SO_EXT_chromosome 15255 15265	chromosome
 T231	SO_EXT_0000704 15397 15401	gene
 T232	SO_EXT_sequence_duplication_entity_or_process 15448 15459	duplication
-T233	SO_EXT_0000854 15495 15505;	paralogous
-15518 15526	paralogoussegments
+T233	SO_EXT_0000854 15495 15505;15518 15526	paralogous segments
 T234	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 15506 15526	chromosomal segments
 T235	SO_EXT_0000704 15622 15626	gene
 T236	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 15667 15685	chromosomal region
@@ -260,8 +254,7 @@ T252	SO_EXT_0000704 16491 16496	genes
 T253	SO_EXT_sequence_insertion_process 16497 16505	inserted
 T254	SO_EXT_sequence_duplication_entity_or_process 16512 16523	duplication
 T255	SO_EXT_0000704 16558 16563	genes
-T256	SO_EXT_0005858 16599 16607;	syntenic
-16626 16633	syntenicregions
+T256	SO_EXT_0005858 16599 16607;16626 16633	syntenic regions
 T257	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 16614 16633	chromosomal regions
 T258	SO_EXT_0001248 16673 16682	scaffolds
 T259	SO_0000857 16726 16736	homologous
@@ -314,20 +307,17 @@ T305	SO_EXT_biological_sequence 18813 18822	sequences
 T306	SO_0000857 18828 18836	homology
 T307	SO_EXT_0001248 18888 18896	scaffold
 T308	SO_EXT_0000704 18909 18914	genes
-T309	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 18928 18938;	regions of
-18945 18955	regions ofchromosome
+T309	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 18928 18938;18945 18955	regions of chromosome
 T310	SO_EXT_0001026 19071 19078	genomic
 T311	SO_EXT_sequence_duplication_entity_or_process 19119 19130	duplication
-T312	SO_EXT_0000854 19148 19158;	paralogous
-19171 19178	paralogoussegment
+T312	SO_EXT_0000854 19148 19158;19171 19178	paralogous segment
 T313	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 19159 19178	chromosomal segment
 T314	SO_EXT_biological_conservation_process_or_quality 19181 19190	Conserved
 T315	SO_0000859 19191 19201	paralogous
 T316	SO_EXT_0000704 19257 19262	genes
 T317	SO_EXT_0001026 19295 19302	genomic
 T318	SO_EXT_0000149 19303 19309	contig
-T319	SO_EXT_0000854 19391 19401;	paralogous
-19414 19422	paralogoussegments
+T319	SO_EXT_0000854 19391 19401;19414 19422	paralogous segments
 T320	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 19402 19422	chromosomal segments
 T321	SO_EXT_0001026 19469 19475	genome
 T322	SO_EXT_0000855 19535 19546	orthologues
@@ -360,15 +350,13 @@ T348	SO_EXT_0000704 21015 21019	gene
 T349	SO_EXT_0000704 21029 21034	genes
 T350	SO_EXT_0000853 21053 21063	homologues
 T351	SO_EXT_0000855 21067 21078	orthologues
-T352	SO_EXT_0000105 21098 21104;	arm of
-21111 21121	arm ofchromosome
+T352	SO_EXT_0000105 21098 21104;21111 21121	arm of chromosome
 T353	SO_EXT_0001248 21140 21148	scaffold
 T354	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 21248 21267	chromosomal segment
 T355	SO_EXT_0001248 21290 21298	scaffold
 T356	SO_EXT_0000855 21319 21330	orthologues
 T357	SO_EXT_0000704 21334 21339	genes
-T358	SO_EXT_0000105 21368 21374;	arm of
-21381 21391	arm ofchromosome
+T358	SO_EXT_0000105 21368 21374;21381 21391	arm of chromosome
 T359	SO_EXT_0000704 21439 21444	genes
 T360	SO_EXT_0000854 21454 21473	paralogous segments
 T361	SO_EXT_0001026 21515 21522	Genomic
@@ -539,8 +527,7 @@ T525	SO_EXT_sequence_alteration_process 34536 34546	processing
 T526	CHEBI_GO_SO_EXT_enzyme 35227 35233	enzyme
 T527	SO_EXT_0000417 35280 35286	domain
 T528	SO_EXT_0000855 35305 35316	orthologues
-T529	SO_EXT_0000410 35486 35502;	binding site for
-35513 35520	binding site forprotein
+T529	SO_EXT_0000410 35486 35502;35513 35520	binding site for protein
 T530	SO_EXT_0001060 35829 35836	isoform
 T531	SO_EXT_0001060 35908 35916	isoforms
 T532	CHEBI_SO_EXT_RNA 36008 36011	RNA
@@ -602,8 +589,7 @@ T587	SO_EXT_0000147 42538 42543	exons
 T588	SO_EXT_cDNA 42610 42615	cDNAs
 T589	SO_EXT_cDNA 42702 42707	cDNAs
 T590	SO_EXT_sequence_cloned_entity 42754 42760	clones
-T591	SO_EXT_0000854 42855 42865;	paralogous
-42878 42886	paralogoussegments
+T591	SO_EXT_0000854 42855 42865;42878 42886	paralogous segments
 T592	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 42866 42886	chromosomal segments
 T593	SO_EXT_0001248 42891 42899	scaffold
 T594	SO_EXT_0001026 42985 42991	Genome
@@ -682,8 +668,7 @@ T666	GO_SO_EXT_chromosome 50451 50461	chromosome
 T667	SO_EXT_0000704 50478 50483	genes
 T668	CHEBI_SO_EXT_base 50498 50499	b
 T669	GO_SO_EXT_telomere_or_telomeric_region_or_telomeric_orientation 50509 50517	telomere
-T670	SO_EXT_0000105 50531 50537;	arm of
-50542 50552	arm ofchromosome
+T670	SO_EXT_0000105 50531 50537;50542 50552	arm of chromosome
 T671	SO_EXT_0000704 50572 50577	genes
 T672	SO_EXT_sequence_copy_entity 50584 50590	copies
 T673	SO_EXT_0000854 50614 50633	paralogous segments

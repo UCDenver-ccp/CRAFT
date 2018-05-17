@@ -71,16 +71,11 @@ T69	Noun_Phrase 1187 1210	ALK5-mediated signaling
 T70	Noun_Phrase 1187 1232	ALK5-mediated signaling in neural crest cells
 T71	Noun_Phrase 1214 1226	neural crest
 T72	Noun_Phrase 1214 1232	neural crest cells
-T73	Noun_Phrase 1276 1279;	the
-1295 1316	thecardiac outflow tract
-T74	IDENTITY_chain 1276 1279;	the
-1295 1328	thecardiac outflow tract development
-T75	Noun_Phrase 1276 1279;	the
-1295 1328	thecardiac outflow tract development
-T76	IDENTITY_chain 1276 1290;	the pharyngeal
-1317 1328	the pharyngealdevelopment
-T77	Noun_Phrase 1276 1290;	the pharyngeal
-1317 1328	the pharyngealdevelopment
+T73	Noun_Phrase 1276 1279;1295 1316	the cardiac outflow tract
+T74	IDENTITY_chain 1276 1279;1295 1328	the cardiac outflow tract development
+T75	Noun_Phrase 1276 1279;1295 1328	the cardiac outflow tract development
+T76	IDENTITY_chain 1276 1290;1317 1328	the pharyngeal development
+T77	Noun_Phrase 1276 1290;1317 1328	the pharyngeal development
 T78	Noun_Phrase 1295 1316	cardiac outflow tract
 T79	Noun_Phrase 1331 1341	Background
 T80	Noun_Phrase 1471 1495	the cardiac neural crest
@@ -94,32 +89,18 @@ T87	IDENTITY_chain 1675 1701	cardiac neural crest cells
 T88	APPOS_relation 1675 1701	cardiac neural crest cells
 T89	Noun_Phrase 1675 1701	cardiac neural crest cells
 T90	Noun_Phrase 1703 1708	CNCCs
-T91	IDENTITY_chain 1763 1765;	an
-1780 1801	anmesenchymal cell type
-T92	Noun_Phrase 1763 1765;	an
-1780 1801	anmesenchymal cell type
-T93	Noun_Phrase 1837 1840;	the
-1846 1849;	the4th
-1858 1882	the4thpharyngeal arch arteries
-T94	IDENTITY_chain 1837 1840;	the
-1846 1849;	the4th
-1858 1882	the4thpharyngeal arch arteries
-T95	IDENTITY_chain 1837 1840;	the
-1846 1882	the4th and 6th pharyngeal arch arteries
-T96	Noun_Phrase 1837 1840;	the
-1846 1882	the4th and 6th pharyngeal arch arteries
-T97	IDENTITY_chain 1837 1840;	the
-1854 1882	the6th pharyngeal arch arteries
-T98	Noun_Phrase 1837 1840;	the
-1854 1882	the6th pharyngeal arch arteries
-T99	Noun_Phrase 1837 1844;	the 3rd
-1858 1882	the 3rdpharyngeal arch arteries
-T100	IDENTITY_chain 1837 1844;	the 3rd
-1858 1882	the 3rdpharyngeal arch arteries
-T101	IDENTITY_chain 1837 1849;	the 3rd, 4th
-1858 1882	the 3rd, 4thpharyngeal arch arteries
-T102	Noun_Phrase 1837 1849;	the 3rd, 4th
-1858 1882	the 3rd, 4thpharyngeal arch arteries
+T91	IDENTITY_chain 1763 1765;1780 1801	an mesenchymal cell type
+T92	Noun_Phrase 1763 1765;1780 1801	an mesenchymal cell type
+T93	Noun_Phrase 1837 1840;1846 1849;1858 1882	the 4th pharyngeal arch arteries
+T94	IDENTITY_chain 1837 1840;1846 1849;1858 1882	the 4th pharyngeal arch arteries
+T95	IDENTITY_chain 1837 1840;1846 1882	the 4th and 6th pharyngeal arch arteries
+T96	Noun_Phrase 1837 1840;1846 1882	the 4th and 6th pharyngeal arch arteries
+T97	IDENTITY_chain 1837 1840;1854 1882	the 6th pharyngeal arch arteries
+T98	Noun_Phrase 1837 1840;1854 1882	the 6th pharyngeal arch arteries
+T99	Noun_Phrase 1837 1844;1858 1882	the 3rd pharyngeal arch arteries
+T100	IDENTITY_chain 1837 1844;1858 1882	the 3rd pharyngeal arch arteries
+T101	IDENTITY_chain 1837 1849;1858 1882	the 3rd, 4th pharyngeal arch arteries
+T102	Noun_Phrase 1837 1849;1858 1882	the 3rd, 4th pharyngeal arch arteries
 T103	APPOS_relation 1858 1882	pharyngeal arch arteries
 T104	Noun_Phrase 1858 1882	pharyngeal arch arteries
 T105	Noun_Phrase 1884 1888	PAAs
@@ -144,8 +125,7 @@ T123	Noun_Phrase 2266 2291	the cardiac outflow tract
 T124	Noun_Phrase 2398 2405	the CNC
 T125	IDENTITY_chain 2409 2418	the chick
 T126	Noun_Phrase 2409 2418	the chick
-T127	Noun_Phrase 2426 2446;	severe outflow tract
-2453 2460	severe outflow tractdefects
+T127	Noun_Phrase 2426 2446;2453 2460	severe outflow tract defects
 T128	Noun_Phrase 2426 2460	severe outflow tract (OFT) defects
 T129	APPOS_relation 2433 2446	outflow tract
 T130	Noun_Phrase 2433 2446	outflow tract
@@ -214,8 +194,7 @@ T192	Noun_Phrase 3924 3935	TGF-? Smads
 T193	IDENTITY_chain 3924 3944	TGF-? Smads (2 and 3
 T194	Noun_Phrase 3924 3944	TGF-? Smads (2 and 3
 T195	Noun_Phrase 3953 3957	BMPs
-T196	Noun_Phrase 3966 3973;	the BMP
-3995 4016	the BMPtype I receptors ALK2
+T196	Noun_Phrase 3966 3973;3995 4016	the BMP type I receptors ALK2
 T197	Noun_Phrase 3966 3990	the BMP type II receptor
 T198	Noun_Phrase 3995 4016	type I receptors ALK2
 T199	Noun_Phrase 4039 4042	BMP
@@ -224,10 +203,8 @@ T201	Noun_Phrase 4090 4118	these signaling interactions
 T202	Noun_Phrase 4384 4393	receptors
 T203	APPOS_relation 4409 4443	growth and differentiation factors
 T204	Noun_Phrase 4409 4443	growth and differentiation factors
-T205	Noun_Phrase 4409 4450;	growth and differentiation factors (GDFs)
-4457 4458	growth and differentiation factors (GDFs)9
-T206	IDENTITY_chain 4409 4450;	growth and differentiation factors (GDFs)
-4457 4458	growth and differentiation factors (GDFs)9
+T205	Noun_Phrase 4409 4450;4457 4458	growth and differentiation factors (GDFs) 9
+T206	IDENTITY_chain 4409 4450;4457 4458	growth and differentiation factors (GDFs) 9
 T207	Noun_Phrase 4409 4452	growth and differentiation factors (GDFs) 8
 T208	IDENTITY_chain 4409 4452	growth and differentiation factors (GDFs) 8
 T209	Noun_Phrase 4445 4449	GDFs
@@ -274,10 +251,8 @@ T249	Noun_Phrase 5265 5276	parathyroid
 T250	IDENTITY_chain 5265 5276	parathyroid
 T251	Noun_Phrase 5319 5337	the mutant embryos
 T252	Noun_Phrase 5323 5337	mutant embryos
-T253	IDENTITY_chain 5346 5363;	severe aortic sac
-5391 5398	severe aortic sacdefects
-T254	Noun_Phrase 5346 5363;	severe aortic sac
-5391 5398	severe aortic sacdefects
+T253	IDENTITY_chain 5346 5363;5391 5398	severe aortic sac defects
+T254	Noun_Phrase 5346 5363;5391 5398	severe aortic sac defects
 T255	Noun_Phrase 5353 5363	aortic sac
 T256	Noun_Phrase 5368 5390	pharyngeal arch artery
 T257	Noun_Phrase 5404 5438	failed aortico-pulmonary septation
@@ -298,10 +273,8 @@ T271	Noun_Phrase 5783 5820	its classical binding partner TGF?RII
 T272	Noun_Phrase 5813 5820	TGF?RII
 T273	Noun_Phrase 5824 5844	cardiac neural crest
 T274	Noun_Phrase 5824 5850	cardiac neural crest cells
-T275	IDENTITY_chain 5858 5865;	cardiac
-5881 5892	cardiacdevelopment
-T276	Noun_Phrase 5858 5865;	cardiac
-5881 5892	cardiacdevelopment
+T275	IDENTITY_chain 5858 5865;5881 5892	cardiac development
+T276	Noun_Phrase 5858 5865;5881 5892	cardiac development
 T277	IDENTITY_chain 5858 5892	cardiac and pharyngeal development
 T278	Noun_Phrase 5858 5892	cardiac and pharyngeal development
 T279	Noun_Phrase 5870 5892	pharyngeal development
@@ -324,17 +297,14 @@ T295	Noun_Phrase 6117 6221	transgenic Wnt1-Cre mice [22], which were also hetero
 T296	IDENTITY_chain 6128 6136	Wnt1-Cre
 T297	Noun_Phrase 6128 6136	Wnt1-Cre
 T298	Noun_Phrase 6181 6205	the Alk5 knockout allele
-T299	Noun_Phrase 6181 6205;	the Alk5 knockout allele
-6215 6221	the Alk5 knockout alleleallele
+T299	Noun_Phrase 6181 6205;6215 6221	the Alk5 knockout allele allele
 T300	Noun_Phrase 6185 6189	Alk5
 T301	Noun_Phrase 6207 6213	Alk5KO
 T302	APPOS_relation 6207 6213	Alk5KO
 T303	IDENTITY_chain 6207 6213	Alk5KO
 T304	Noun_Phrase 6223 6333	The resulting mice heterozygous for the Alk5Flox and Alk5KO alleles, which also carried the Wnt1-Cre transgene
-T305	Noun_Phrase 6259 6262;	the
-6276 6290	theAlk5KO alleles
-T306	Noun_Phrase 6259 6271;	the Alk5Flox
-6283 6290	the Alk5Floxalleles
+T305	Noun_Phrase 6259 6262;6276 6290	the Alk5KO alleles
+T306	Noun_Phrase 6259 6271;6283 6290	the Alk5Flox alleles
 T307	Noun_Phrase 6263 6271	Alk5Flox
 T308	Noun_Phrase 6276 6290	Alk5KO alleles
 T309	Noun_Phrase 6311 6333	the Wnt1-Cre transgene
@@ -369,10 +339,8 @@ T337	Noun_Phrase 6994 7001	Fig. 1A
 T338	Noun_Phrase 7004 7013	the aorta
 T339	Noun_Phrase 7008 7013	aorta
 T340	Noun_Phrase 7041 7060	the pulmonary trunk
-T341	Noun_Phrase 7093 7105;	left carotid
-7126 7134	left carotidarteries
-T342	IDENTITY_chain 7093 7105;	left carotid
-7126 7134	left carotidarteries
+T341	Noun_Phrase 7093 7105;7126 7134	left carotid arteries
+T342	IDENTITY_chain 7093 7105;7126 7134	left carotid arteries
 T343	IDENTITY_chain 7110 7134	left subclavian arteries
 T344	Noun_Phrase 7110 7134	left subclavian arteries
 T345	Noun_Phrase 7157 7172	the aortic arch
@@ -417,10 +385,8 @@ T383	Noun_Phrase 8006 8015	Fig. 1I–L
 T384	IDENTITY_chain 8006 8015	Fig. 1I–L
 T385	IDENTITY_chain 8014 8015	L
 T386	Noun_Phrase 8014 8015	L
-T387	IDENTITY_chain 8023 8028;	right
-8038 8057	rightsubclavian arteries
-T388	Noun_Phrase 8023 8028;	right
-8038 8057	rightsubclavian arteries
+T387	IDENTITY_chain 8023 8028;8038 8057	right subclavian arteries
+T388	Noun_Phrase 8023 8028;8038 8057	right subclavian arteries
 T389	Noun_Phrase 8033 8057	left subclavian arteries
 T390	Noun_Phrase 8087 8125	the descending part of the aortic arch
 T391	Noun_Phrase 8110 8125	the aortic arch
@@ -462,12 +428,9 @@ T426	Noun_Phrase 8810 8821	the truncus
 T427	IDENTITY_chain 8810 8821	the truncus
 T428	Noun_Phrase 8825 8826	P
 T429	Noun_Phrase 8904 8909	E17.0
-T430	APPOS_relation 8931 8934;	the
-8960 8975	thepulmonary trunk
-T431	Noun_Phrase 8931 8934;	the
-8960 8975	thepulmonary trunk
-T432	Noun_Phrase 8931 8934;	the
-8960 8975	thepulmonary trunk
+T430	APPOS_relation 8931 8934;8960 8975	the pulmonary trunk
+T431	Noun_Phrase 8931 8934;8960 8975	the pulmonary trunk
+T432	Noun_Phrase 8931 8934;8960 8975	the pulmonary trunk
 T433	APPOS_relation 8931 8950	the ascending aorta
 T434	Noun_Phrase 8931 8950	the ascending aorta
 T435	IDENTITY_chain 8931 8950	the ascending aorta
@@ -480,8 +443,7 @@ T441	Noun_Phrase 9025 9038	Alk5/Wnt1-Cre
 T442	Noun_Phrase 9025 9046	Alk5/Wnt1-Cre mutants
 T443	Noun_Phrase 9050 9051	P
 T444	Noun_Phrase 9053 9075	the conotruncal septum
-T445	Noun_Phrase 9102 9112;	left-sided
-9140 9151	left-sidedaortic arch
+T445	Noun_Phrase 9102 9112;9140 9151	left-sided aortic arch
 T446	Noun_Phrase 9114 9117	I-L
 T447	Noun_Phrase 9116 9117	L
 T448	Noun_Phrase 9135 9138	M-P
@@ -512,18 +474,13 @@ T472	Noun_Phrase 9418 9441	interrupted aortic arch
 T473	Noun_Phrase 9443 9446	PTA
 T474	APPOS_relation 9443 9446	PTA
 T475	Noun_Phrase 9448 9477	persistent truncus arteriosus
-T476	IDENTITY_chain 9480 9506;	Abnormal patterning of the
-9536 9570	Abnormal patterning of theaortic sac in Alk5/Wnt1Cre mutants
-T477	Noun_Phrase 9480 9506;	Abnormal patterning of the
-9536 9570	Abnormal patterning of theaortic sac in Alk5/Wnt1Cre mutants
-T478	IDENTITY_chain 9480 9531;	Abnormal patterning of the pharyngeal arch arteries
-9547 9570	Abnormal patterning of the pharyngeal arch arteriesin Alk5/Wnt1Cre mutants
-T479	Noun_Phrase 9480 9531;	Abnormal patterning of the pharyngeal arch arteries
-9547 9570	Abnormal patterning of the pharyngeal arch arteriesin Alk5/Wnt1Cre mutants
+T476	IDENTITY_chain 9480 9506;9536 9570	Abnormal patterning of the aortic sac in Alk5/Wnt1Cre mutants
+T477	Noun_Phrase 9480 9506;9536 9570	Abnormal patterning of the aortic sac in Alk5/Wnt1Cre mutants
+T478	IDENTITY_chain 9480 9531;9547 9570	Abnormal patterning of the pharyngeal arch arteries in Alk5/Wnt1Cre mutants
+T479	Noun_Phrase 9480 9531;9547 9570	Abnormal patterning of the pharyngeal arch arteries in Alk5/Wnt1Cre mutants
 T480	IDENTITY_chain 9480 9570	Abnormal patterning of the pharyngeal arch arteries and aortic sac in Alk5/Wnt1Cre mutants
 T481	Noun_Phrase 9480 9570	Abnormal patterning of the pharyngeal arch arteries and aortic sac in Alk5/Wnt1Cre mutants
-T482	Noun_Phrase 9503 9506;	the
-9536 9546	theaortic sac
+T482	Noun_Phrase 9503 9506;9536 9546	the aortic sac
 T483	Noun_Phrase 9503 9531	the pharyngeal arch arteries
 T484	Noun_Phrase 9536 9546	aortic sac
 T485	Noun_Phrase 9550 9562	Alk5/Wnt1Cre
@@ -557,19 +514,15 @@ T512	Noun_Phrase 10114 10130	the carotid duct
 T513	IDENTITY_chain 10114 10130	the carotid duct
 T514	Noun_Phrase 10132 10148	the dorsal aorta
 T515	Noun_Phrase 10132 10177	the dorsal aorta between the 3rd and 4th PAAs
-T516	Noun_Phrase 10157 10160;	the
-10169 10177	the4th PAAs
-T517	Noun_Phrase 10157 10164;	the 3rd
-10173 10177	the 3rdPAAs
+T516	Noun_Phrase 10157 10160;10169 10177	the 4th PAAs
+T517	Noun_Phrase 10157 10164;10173 10177	the 3rd PAAs
 T518	Noun_Phrase 10157 10177	the 3rd and 4th PAAs
 T519	Noun_Phrase 10239 10246	Fig. 2A
 T520	IDENTITY_chain 10239 10246	Fig. 2A
 T521	Noun_Phrase 10252 10265	Alk5/Wnt1-Cre
 T522	Noun_Phrase 10252 10273	Alk5/Wnt1-Cre mutants
-T523	Noun_Phrase 10275 10278;	the
-10287 10304	the4th pairs of PAAs
-T524	Noun_Phrase 10275 10282;	the 3rd
-10291 10304	the 3rdpairs of PAAs
+T523	Noun_Phrase 10275 10278;10287 10304	the 4th pairs of PAAs
+T524	Noun_Phrase 10275 10282;10291 10304	the 3rd pairs of PAAs
 T525	Noun_Phrase 10275 10304	the 3rd and 4th pairs of PAAs
 T526	Noun_Phrase 10300 10304	PAAs
 T527	Noun_Phrase 10343 10363	the 6th pair of PAAs
@@ -591,10 +544,8 @@ T542	IDENTITY_chain 10636 10652	the dorsal aorta
 T543	Noun_Phrase 10636 10652	the dorsal aorta
 T544	Noun_Phrase 10636 10652	the dorsal aorta
 T545	Noun_Phrase 10636 10690	the dorsal aorta between the 4th and 6th pairs of PAAs
-T546	Noun_Phrase 10661 10664;	the
-10673 10690	the6th pairs of PAAs
-T547	Noun_Phrase 10661 10668;	the 4th
-10677 10690	the 4thpairs of PAAs
+T546	Noun_Phrase 10661 10664;10673 10690	the 6th pairs of PAAs
+T547	Noun_Phrase 10661 10668;10677 10690	the 4th pairs of PAAs
 T548	IDENTITY_chain 10661 10690	the 4th and 6th pairs of PAAs
 T549	Noun_Phrase 10661 10690	the 4th and 6th pairs of PAAs
 T550	Noun_Phrase 10686 10690	PAAs
@@ -637,10 +588,8 @@ T586	Noun_Phrase 11064 11074	the mutant
 T587	Noun_Phrase 11116 11117	D
 T588	Noun_Phrase 11157 11173	the dorsal aorta
 T589	Noun_Phrase 11157 11202	the dorsal aorta between the 4th and 6th PAAs
-T590	Noun_Phrase 11182 11185;	the
-11194 11202	the6th PAAs
-T591	Noun_Phrase 11182 11189;	the 4th
-11198 11202	the 4thPAAs
+T590	Noun_Phrase 11182 11185;11194 11202	the 6th PAAs
+T591	Noun_Phrase 11182 11189;11198 11202	the 4th PAAs
 T592	Noun_Phrase 11182 11202	the 4th and 6th PAAs
 T593	APPOS_relation 11204 11206	PT
 T594	Noun_Phrase 11204 11206	PT
@@ -670,8 +619,7 @@ T617	Noun_Phrase 11437 11451	this structure
 T618	Noun_Phrase 11609 11622	Alk5/Wnt1-Cre
 T619	Noun_Phrase 11609 11630	Alk5/Wnt1-Cre mutants
 T620	Noun_Phrase 11632 11655	the T-shaped aortic sac
-T621	Noun_Phrase 11672 11678;	Fig. 3
-11680 11681	Fig. 3D
+T621	Noun_Phrase 11672 11678;11680 11681	Fig. 3 D
 T622	Noun_Phrase 11672 11679	Fig. 3B
 T623	Noun_Phrase 11672 11681	Fig. 3B,D
 T624	IDENTITY_chain 11672 11681	Fig. 3B,D
@@ -680,8 +628,7 @@ T626	Noun_Phrase 11680 11681	D
 T627	Noun_Phrase 11693 11704	the truncus
 T628	Noun_Phrase 11767 11775	the PAAs
 T629	Noun_Phrase 11817 11825	6th PAAs
-T630	Noun_Phrase 11827 11833;	Fig. 3
-11835 11836	Fig. 3D
+T630	Noun_Phrase 11827 11833;11835 11836	Fig. 3 D
 T631	Noun_Phrase 11827 11834	Fig. 3B
 T632	Noun_Phrase 11827 11836	Fig. 3B,D
 T633	Noun_Phrase 11835 11836	D
@@ -771,8 +718,7 @@ T716	Noun_Phrase 13331 13345	the OFT region
 T717	Noun_Phrase 13335 13338	OFT
 T718	Noun_Phrase 13364 13387	CNCCs deficient in Alk5
 T719	Noun_Phrase 13383 13387	Alk5
-T720	Noun_Phrase 13415 13418;	the
-13425 13435	theaortic sac
+T720	Noun_Phrase 13415 13418;13425 13435	the aortic sac
 T721	Noun_Phrase 13415 13423	the PAAs
 T722	Noun_Phrase 13425 13435	aortic sac
 T723	Noun_Phrase 13440 13458	conotruncal ridges
@@ -783,14 +729,10 @@ T727	Noun_Phrase 13550 13563	Alk5/Wnt1-Cre
 T728	Noun_Phrase 13550 13571	Alk5/Wnt1-Cre mutants
 T729	Noun_Phrase 13621 13625	CNCC
 T730	Noun_Phrase 13621 13626	CNCCs
-T731	Noun_Phrase 13630 13633;	the
-13649 13662	theoutflow tract
-T732	Noun_Phrase 13630 13633;	the
-13649 13670	theoutflow tract regions
-T733	IDENTITY_chain 13630 13644;	the pharyngeal
-13663 13670	the pharyngealregions
-T734	Noun_Phrase 13630 13644;	the pharyngeal
-13663 13670	the pharyngealregions
+T731	Noun_Phrase 13630 13633;13649 13662	the outflow tract
+T732	Noun_Phrase 13630 13633;13649 13670	the outflow tract regions
+T733	IDENTITY_chain 13630 13644;13663 13670	the pharyngeal regions
+T734	Noun_Phrase 13630 13644;13663 13670	the pharyngeal regions
 T735	Noun_Phrase 13649 13662	outflow tract
 T736	Noun_Phrase 13673 13681	Figure 4
 T737	Noun_Phrase 13690 13701	cardiac NCC
@@ -816,14 +758,9 @@ T756	Noun_Phrase 13862 13866	R26R
 T757	Noun_Phrase 13892 13897	E11.0
 T758	Noun_Phrase 13901 13902	B
 T759	Noun_Phrase 13949 13950	F
-T760	Noun_Phrase 13988 13991;	the
-14007 14010;	the6th
-14018 14022	the6thPAAs
-T761	Noun_Phrase 13988 13995;	the 4th
-14003 14010;	the 4thand 6th
-14018 14022	the 4thand 6thPAAs
-T762	Noun_Phrase 13988 13995;	the 4th
-14018 14022	the 4thPAAs
+T760	Noun_Phrase 13988 13991;14007 14010;14018 14022	the 6th PAAs
+T761	Noun_Phrase 13988 13995;14003 14010;14018 14022	the 4th and 6th PAAs
+T762	Noun_Phrase 13988 13995;14018 14022	the 4th PAAs
 T763	Noun_Phrase 13988 14022	the 4th (C, D) and 6th (E, F) PAAs
 T764	Noun_Phrase 13997 13998	C
 T765	Noun_Phrase 14000 14001	D
@@ -833,8 +770,7 @@ T768	Noun_Phrase 14034 14035	F
 T769	Noun_Phrase 14095 14123	the ?-galactosidase activity
 T770	IDENTITY_chain 14095 14123	the ?-galactosidase activity
 T771	Noun_Phrase 14099 14114	?-galactosidase
-T772	Noun_Phrase 14126 14136;	Aortic sac
-14166 14204	Aortic sacdefects in Alk5/Wnt1Cre mutant embryos
+T772	Noun_Phrase 14126 14136;14166 14204	Aortic sac defects in Alk5/Wnt1Cre mutant embryos
 T773	Noun_Phrase 14126 14136	Aortic sac
 T774	IDENTITY_chain 14141 14204	aortico-pulmonary septal defects in Alk5/Wnt1Cre mutant embryos
 T775	Noun_Phrase 14141 14204	aortico-pulmonary septal defects in Alk5/Wnt1Cre mutant embryos
@@ -850,8 +786,7 @@ T784	Noun_Phrase 14407 14413	the NC
 T785	IDENTITY_chain 14423 14449	the base of the aortic sac
 T786	Noun_Phrase 14423 14449	the base of the aortic sac
 T787	Noun_Phrase 14435 14449	the aortic sac
-T788	Noun_Phrase 14473 14476;	4th
-14485 14489	4thPAAs
+T788	Noun_Phrase 14473 14476;14485 14489	4th PAAs
 T789	Noun_Phrase 14473 14489	4th and 6th PAAs
 T790	Noun_Phrase 14481 14489	6th PAAs
 T791	Noun_Phrase 14485 14488	PAA
@@ -868,22 +803,18 @@ T801	Noun_Phrase 14678 14715	ink-injected control embryos at E11.5
 T802	Noun_Phrase 14710 14715	E11.5
 T803	Noun_Phrase 14717 14789	a characteristic conotruncal transition separating the truncus and conus
 T804	IDENTITY_chain 14717 14789	a characteristic conotruncal transition separating the truncus and conus
-T805	IDENTITY_chain 14768 14771;	the
-14784 14789	theconus
-T806	Noun_Phrase 14768 14771;	the
-14784 14789	theconus
+T805	IDENTITY_chain 14768 14771;14784 14789	the conus
+T806	Noun_Phrase 14768 14771;14784 14789	the conus
 T807	Noun_Phrase 14768 14779	the truncus
 T808	Noun_Phrase 14784 14789	conus
-T809	Noun_Phrase 14874 14885;	the truncal
-14896 14904	the truncalcushions
+T809	Noun_Phrase 14874 14885;14896 14904	the truncal cushions
 T810	Noun_Phrase 14906 14912	Fig. 5
 T811	IDENTITY_chain 14906 14912	Fig. 5
 T812	Noun_Phrase 14931 14944	Alk5/Wnt1-Cre
 T813	Noun_Phrase 14931 14952	Alk5/Wnt1-Cre mutants
 T814	Noun_Phrase 14953 14970	the outflow tract
 T815	Noun_Phrase 15023 15058	the distinct conotruncal transition
-T816	Noun_Phrase 15060 15066;	Fig. 5
-15068 15069	Fig. 5D
+T816	Noun_Phrase 15060 15066;15068 15069	Fig. 5 D
 T817	Noun_Phrase 15060 15067	Fig. 5B
 T818	Noun_Phrase 15060 15069	Fig. 5B,D
 T819	IDENTITY_chain 15060 15069	Fig. 5B,D
@@ -893,18 +824,14 @@ T822	Noun_Phrase 15072 15082	This assay
 T823	Noun_Phrase 15139 15153	the aortic sac
 T824	IDENTITY_chain 15180 15195	control samples
 T825	Noun_Phrase 15180 15195	control samples
-T826	IDENTITY_chain 15206 15240;	the characteristic rotation of the
-15256 15267	the characteristic rotation of thetruncal OFT
-T827	Noun_Phrase 15206 15240;	the characteristic rotation of the
-15256 15267	the characteristic rotation of thetruncal OFT
+T826	IDENTITY_chain 15206 15240;15256 15267	the characteristic rotation of the truncal OFT
+T827	Noun_Phrase 15206 15240;15256 15267	the characteristic rotation of the truncal OFT
 T828	Noun_Phrase 15206 15251	the characteristic rotation of the aortic sac
 T829	IDENTITY_chain 15206 15251	the characteristic rotation of the aortic sac
 T830	Noun_Phrase 15206 15267	the characteristic rotation of the aortic sac and truncal OFT
 T831	IDENTITY_chain 15206 15267	the characteristic rotation of the aortic sac and truncal OFT
-T832	IDENTITY_chain 15237 15240;	the
-15256 15267	thetruncal OFT
-T833	Noun_Phrase 15237 15240;	the
-15256 15267	thetruncal OFT
+T832	IDENTITY_chain 15237 15240;15256 15267	the truncal OFT
+T833	Noun_Phrase 15237 15240;15256 15267	the truncal OFT
 T834	Noun_Phrase 15237 15251	the aortic sac
 T835	Noun_Phrase 15237 15267	the aortic sac and truncal OFT
 T836	IDENTITY_chain 15237 15267	the aortic sac and truncal OFT
@@ -938,12 +865,10 @@ T863	IDENTITY_chain 15629 15635	Fig 6B
 T864	Noun_Phrase 15629 15635	Fig 6B
 T865	Noun_Phrase 15641 15654	Alk5/Wnt1-Cre
 T866	Noun_Phrase 15641 15662	Alk5/Wnt1-Cre mutants
-T867	Noun_Phrase 15663 15697;	the characteristic rotation of the
-15713 15724	the characteristic rotation of thetruncal OFT
+T867	Noun_Phrase 15663 15697;15713 15724	the characteristic rotation of the truncal OFT
 T868	Noun_Phrase 15663 15708	the characteristic rotation of the aortic sac
 T869	Noun_Phrase 15663 15724	the characteristic rotation of the aortic sac and truncal OFT
-T870	Noun_Phrase 15694 15697;	the
-15713 15724	thetruncal OFT
+T870	Noun_Phrase 15694 15697;15713 15724	the truncal OFT
 T871	Noun_Phrase 15694 15708	the aortic sac
 T872	Noun_Phrase 15694 15724	the aortic sac and truncal OFT
 T873	Noun_Phrase 15713 15724	truncal OFT
@@ -951,8 +876,7 @@ T874	IDENTITY_chain 15746 15755	Fig. 6G–L
 T875	Noun_Phrase 15746 15755	Fig. 6G–L
 T876	IDENTITY_chain 15754 15755	L
 T877	Noun_Phrase 15754 15755	L
-T878	Noun_Phrase 15810 15816;	Fig. 6
-15818 15819	Fig. 6H
+T878	Noun_Phrase 15810 15816;15818 15819	Fig. 6 H
 T879	Noun_Phrase 15810 15817	Fig. 6G
 T880	IDENTITY_chain 15818 15819	H
 T881	Noun_Phrase 15818 15819	H
@@ -965,10 +889,8 @@ T887	Noun_Phrase 15930 15946	NC-derived cells
 T888	Noun_Phrase 15954 15989	the abnomally bifurcated aortic sac
 T889	Noun_Phrase 16027 16038	the truncus
 T890	Noun_Phrase 16059 16063	?SMA
-T891	Noun_Phrase 16074 16080;	Fig. 6
-16082 16083	Fig. 6J
-T892	Noun_Phrase 16074 16080;	Fig. 6
-16084 16085	Fig. 6L
+T891	Noun_Phrase 16074 16080;16082 16083	Fig. 6 J
+T892	Noun_Phrase 16074 16080;16084 16085	Fig. 6 L
 T893	Noun_Phrase 16074 16081	Fig. 6H
 T894	IDENTITY_chain 16082 16083	J
 T895	Noun_Phrase 16082 16083	J
@@ -981,12 +903,10 @@ T901	Noun_Phrase 16183 16186	PTA
 T902	Noun_Phrase 16204 16217	Alk2/Wnt1-Cre
 T903	Noun_Phrase 16204 16225	Alk2/Wnt1-Cre mutants
 T904	IDENTITY_chain 16204 16225	Alk2/Wnt1-Cre mutants
-T905	Noun_Phrase 16227 16246;	the rotation of the
-16262 16273	the rotation of thetruncal OFT
+T905	Noun_Phrase 16227 16246;16262 16273	the rotation of the truncal OFT
 T906	Noun_Phrase 16227 16257	the rotation of the aortic sac
 T907	Noun_Phrase 16227 16273	the rotation of the aortic sac and truncal OFT
-T908	Noun_Phrase 16243 16246;	the
-16262 16273	thetruncal OFT
+T908	Noun_Phrase 16243 16246;16262 16273	the truncal OFT
 T909	Noun_Phrase 16243 16257	the aortic sac
 T910	Noun_Phrase 16243 16273	the aortic sac and truncal OFT
 T911	Noun_Phrase 16262 16273	truncal OFT
@@ -1001,10 +921,8 @@ T919	Noun_Phrase 16361 16385	the 6th pair of the PAAs
 T920	Noun_Phrase 16377 16385	the PAAs
 T921	Noun_Phrase 16421 16446	the Alk2/Wnt1-Cre mutants
 T922	Noun_Phrase 16425 16438	Alk2/Wnt1-Cre
-T923	Noun_Phrase 16502 16505;	the
-16514 16522	the6th PAAs
-T924	Noun_Phrase 16502 16509;	the 4th
-16518 16522	the 4thPAAs
+T923	Noun_Phrase 16502 16505;16514 16522	the 6th PAAs
+T924	Noun_Phrase 16502 16509;16518 16522	the 4th PAAs
 T925	Noun_Phrase 16502 16522	the 4th and 6th PAAs
 T926	IDENTITY_chain 16524 16531	Fig. 6M
 T927	Noun_Phrase 16524 16531	Fig. 6M
@@ -1027,8 +945,7 @@ T943	Noun_Phrase 16799 16804	CNCCs
 T944	Noun_Phrase 16827 16841	the aortic sac
 T945	Noun_Phrase 16846 16865	the truncal cushion
 T946	Noun_Phrase 16850 16865	truncal cushion
-T947	Noun_Phrase 16873 16879;	Fig. 6
-16883 16884	Fig. 6R
+T947	Noun_Phrase 16873 16879;16883 16884	Fig. 6 R
 T948	Noun_Phrase 16873 16880	Fig. 6N
 T949	IDENTITY_chain 16881 16882	P
 T950	Noun_Phrase 16881 16882	P
@@ -1050,17 +967,12 @@ T965	IDENTITY_chain 17118 17139	Alk2 and Alk5 mutants
 T966	Noun_Phrase 17118 17139	Alk2 and Alk5 mutants
 T967	Noun_Phrase 17127 17131	Alk5
 T968	Noun_Phrase 17127 17139	Alk5 mutants
-T969	IDENTITY_chain 17152 17164;	a failure in
-17170 17185;	a failure inthe rotation of
-17205 17220	a failure inthe rotation ofthe truncal OFT
-T970	Noun_Phrase 17152 17164;	a failure in
-17170 17185;	a failure inthe rotation of
-17205 17220	a failure inthe rotation ofthe truncal OFT
+T969	IDENTITY_chain 17152 17164;17170 17185;17205 17220	a failure in the rotation of the truncal OFT
+T970	Noun_Phrase 17152 17164;17170 17185;17205 17220	a failure in the rotation of the truncal OFT
 T971	IDENTITY_chain 17152 17259	a failure in both the rotation of the aortic sac and the truncal OFT, and in the formation of the AP septum
 T972	Noun_Phrase 17152 17259	a failure in both the rotation of the aortic sac and the truncal OFT, and in the formation of the AP septum
 T973	Noun_Phrase 17165 17220	both the rotation of the aortic sac and the truncal OFT
-T974	Noun_Phrase 17170 17185;	the rotation of
-17205 17220	the rotation ofthe truncal OFT
+T974	Noun_Phrase 17170 17185;17205 17220	the rotation of the truncal OFT
 T975	Noun_Phrase 17170 17200	the rotation of the aortic sac
 T976	Noun_Phrase 17186 17200	the aortic sac
 T977	Noun_Phrase 17186 17220	the aortic sac and the truncal OFT
@@ -1078,8 +990,7 @@ T988	IDENTITY_chain 17417 17418	C
 T989	Noun_Phrase 17431 17432	B
 T990	Noun_Phrase 17431 17435	B, D
 T991	Noun_Phrase 17434 17435	D
-T992	Noun_Phrase 17455 17475;	ink-injected control
-17499 17515	ink-injected controlembryos at E11.5
+T992	Noun_Phrase 17455 17475;17499 17515	ink-injected control embryos at E11.5
 T993	Noun_Phrase 17486 17492	mutant
 T994	Noun_Phrase 17496 17497	D
 T995	Noun_Phrase 17510 17515	E11.5
@@ -1099,8 +1010,7 @@ T1008	Noun_Phrase 17766 17767	c
 T1009	Noun_Phrase 17769 17774	conus
 T1010	Noun_Phrase 17777 17785	Figure 6
 T1011	IDENTITY_chain 17777 17785	Figure 6
-T1012	Noun_Phrase 17787 17800;	Signaling via
-17810 17814	Signaling viaALK2
+T1012	Noun_Phrase 17787 17800;17810 17814	Signaling via ALK2
 T1013	Noun_Phrase 17787 17805	Signaling via ALK5
 T1014	Noun_Phrase 17801 17805	ALK5
 T1015	Noun_Phrase 17801 17814	ALK5 and ALK2
@@ -1171,8 +1081,7 @@ T1079	Noun_Phrase 18475 18585	an inadequate amount of AP-septal tissue in the ba
 T1080	Noun_Phrase 18499 18515	AP-septal tissue
 T1081	Noun_Phrase 18519 18545	the base of the aortic sac
 T1082	Noun_Phrase 18531 18545	the aortic sac
-T1083	Noun_Phrase 18569 18572;	4th
-18581 18585	4thPAAs
+T1083	Noun_Phrase 18569 18572;18581 18585	4th PAAs
 T1084	Noun_Phrase 18569 18585	4th and 6th PAAs
 T1085	Noun_Phrase 18577 18585	6th PAAs
 T1086	Noun_Phrase 18606 18620	this phenotype
@@ -1229,8 +1138,7 @@ T1136	Noun_Phrase 19409 19420	OFT cushion
 T1137	Noun_Phrase 19447 19449	we
 T1138	Noun_Phrase 19459 19468	apoptosis
 T1139	Noun_Phrase 19550 19555	E11.0
-T1140	Noun_Phrase 19564 19577;	Alk5/Wnt1-Cre
-19590 19598	Alk5/Wnt1-Crecontrols
+T1140	Noun_Phrase 19564 19577;19590 19598	Alk5/Wnt1-Cre controls
 T1141	Noun_Phrase 19564 19577	Alk5/Wnt1-Cre
 T1142	Noun_Phrase 19564 19585	Alk5/Wnt1-Cre mutants
 T1143	IDENTITY_chain 19600 19607	Fig. 7D
@@ -1251,8 +1159,7 @@ T1157	Noun_Phrase 19811 19862	Aberrant apoptosis of NCCs in Alk5/Wnt1-Cre mutant
 T1158	Noun_Phrase 19833 19837	NCCs
 T1159	Noun_Phrase 19841 19854	Alk5/Wnt1-Cre
 T1160	Noun_Phrase 19841 19862	Alk5/Wnt1-Cre mutants
-T1161	Noun_Phrase 19864 19869;	TUNEL
-19905 19913	TUNELstaining
+T1161	Noun_Phrase 19864 19869;19905 19913	TUNEL staining
 T1162	Noun_Phrase 19864 19869	TUNEL
 T1163	IDENTITY_chain 19873 19874	H
 T1164	Noun_Phrase 19873 19874	H
@@ -1278,11 +1185,8 @@ T1183	Noun_Phrase 20089 20090	C
 T1184	Noun_Phrase 20134 20137	OFT
 T1185	Noun_Phrase 20183 20191	controls
 T1186	Noun_Phrase 20193 20194	D
-T1187	Noun_Phrase 20200 20204;	Alk5
-20209 20216;	Alk5or Alk2
-20221 20228	Alk5or Alk2mutants
-T1188	Noun_Phrase 20200 20204;	Alk5
-20221 20228	Alk5mutants
+T1187	Noun_Phrase 20200 20204;20209 20216;20221 20228	Alk5 or Alk2 mutants
+T1188	Noun_Phrase 20200 20204;20221 20228	Alk5 mutants
 T1189	Noun_Phrase 20200 20204	Alk5
 T1190	Noun_Phrase 20206 20207	E
 T1191	Noun_Phrase 20212 20216	Alk2
@@ -1308,8 +1212,7 @@ T1210	Noun_Phrase 20461 20649	our results suggest that in Alk5/Wnt1-Cre mutants 
 T1211	Noun_Phrase 20489 20502	Alk5/Wnt1-Cre
 T1212	Noun_Phrase 20489 20510	Alk5/Wnt1-Cre mutants
 T1213	Noun_Phrase 20536 20545	apoptosis
-T1214	Noun_Phrase 20561 20587;	the abnormal patterning of
-20601 20615	the abnormal patterning ofthe aortic sac
+T1214	Noun_Phrase 20561 20587;20601 20615	the abnormal patterning of the aortic sac
 T1215	Noun_Phrase 20561 20596	the abnormal patterning of the PAAs
 T1216	Noun_Phrase 20561 20615	the abnormal patterning of the PAAs and the aortic sac
 T1217	Noun_Phrase 20588 20596	the PAAs
@@ -1332,10 +1235,8 @@ T1233	Noun_Phrase 20980 21017	the parathyroid glands and the thymus
 T1234	Noun_Phrase 21007 21017	the thymus
 T1235	Noun_Phrase 21039 21052	Alk5/Wnt1-Cre
 T1236	Noun_Phrase 21039 21060	Alk5/Wnt1-Cre mutants
-T1237	Noun_Phrase 21066 21071;	Figs.
-21078 21079	Figs.8
-T1238	IDENTITY_chain 21066 21071;	Figs.
-21078 21079	Figs.8
+T1237	Noun_Phrase 21066 21071;21078 21079	Figs. 8
+T1238	IDENTITY_chain 21066 21071;21078 21079	Figs. 8
 T1239	Noun_Phrase 21066 21073	Figs. 1
 T1240	Noun_Phrase 21091 21101	the thymus
 T1241	Noun_Phrase 21177 21180	its
@@ -1367,8 +1268,7 @@ T1266	Noun_Phrase 21575 21579	NCCs
 T1267	Noun_Phrase 21588 21596	controls
 T1268	Noun_Phrase 21601 21605	Alk5
 T1269	Noun_Phrase 21601 21613	Alk5 mutants
-T1270	Noun_Phrase 21615 21621;	Fig. 8
-21623 21624	Fig. 8E
+T1270	Noun_Phrase 21615 21621;21623 21624	Fig. 8 E
 T1271	Noun_Phrase 21615 21622	Fig. 8B
 T1272	IDENTITY_chain 21615 21624	Fig. 8B,E
 T1273	Noun_Phrase 21615 21624	Fig. 8B,E
@@ -1394,8 +1294,7 @@ T1292	Noun_Phrase 22014 22047	expression of parathyroid hormone
 T1293	Noun_Phrase 22028 22039	parathyroid
 T1294	IDENTITY_chain 22028 22047	parathyroid hormone
 T1295	Noun_Phrase 22028 22047	parathyroid hormone
-T1296	Noun_Phrase 22078 22082;	Alk5
-22095 22103	Alk5controls
+T1296	Noun_Phrase 22078 22082;22095 22103	Alk5 controls
 T1297	Noun_Phrase 22078 22082	Alk5
 T1298	Noun_Phrase 22078 22090	Alk5 mutants
 T1299	Noun_Phrase 22107 22110	E14
@@ -1493,8 +1392,7 @@ T1390	Noun_Phrase 23564 23579	the Tgfbr2 gene
 T1391	IDENTITY_chain 23589 23644	a distinct set of calvarial, facial and cardiac defects
 T1392	Noun_Phrase 23589 23644	a distinct set of calvarial, facial and cardiac defects
 T1393	Noun_Phrase 23673 23686	these defects
-T1394	Noun_Phrase 23718 23721;	the
-23739 23757	thepharyngeal regions
+T1394	Noun_Phrase 23718 23721;23739 23757	the pharyngeal regions
 T1395	Noun_Phrase 23739 23757	pharyngeal regions
 T1396	Noun_Phrase 23769 23778	the heart
 T1397	Noun_Phrase 23826 23915	Alk5, which encodes the TGF-? type I receptor, a prototypical binding partner of TGF-?RII
@@ -1562,8 +1460,7 @@ T1458	Noun_Phrase 25780 25786	TGF-?s
 T1459	Noun_Phrase 25805 25808	NCC
 T1460	Noun_Phrase 25805 25817	NCC survival
 T1461	IDENTITY_chain 25805 25817	NCC survival
-T1462	Noun_Phrase 25825 25832;	cardiac
-25848 25861	cardiacmorphogenesis
+T1462	Noun_Phrase 25825 25832;25848 25861	cardiac morphogenesis
 T1463	Noun_Phrase 25825 25861	cardiac and pharyngeal morphogenesis
 T1464	Noun_Phrase 25837 25861	pharyngeal morphogenesis
 T1465	Noun_Phrase 25864 25866	We
@@ -1571,8 +1468,7 @@ T1466	Noun_Phrase 25888 25928	apoptosis at the level of the aortic sac
 T1467	Noun_Phrase 25901 25995	the level of the aortic sac, where the AP-septum forms between the origins of 4th and 6th PAAs
 T1468	Noun_Phrase 25914 25928	the aortic sac
 T1469	Noun_Phrase 25936 25949	the AP-septum
-T1470	Noun_Phrase 25979 25982;	4th
-25991 25995	4thPAAs
+T1470	Noun_Phrase 25979 25982;25991 25995	4th PAAs
 T1471	Noun_Phrase 25979 25995	4th and 6th PAAs
 T1472	Noun_Phrase 25987 25995	6th PAAs
 T1473	Noun_Phrase 26008 26013	E10.5
@@ -1656,10 +1552,8 @@ T1550	Noun_Phrase 27766 27782	pharyngeal organ
 T1551	Noun_Phrase 27802 27823	Alk5/Wnt1-Cre mutants
 T1552	Noun_Phrase 27858 27874	mesenchymal cell
 T1553	Noun_Phrase 27884 27905	the pharyngeal region
-T1554	Noun_Phrase 27912 27915;	the
-27924 27931	thethyroid
-T1555	Noun_Phrase 27912 27915;	the
-27936 27947	theparathyroid
+T1554	Noun_Phrase 27912 27915;27924 27931	the thyroid
+T1555	Noun_Phrase 27912 27915;27936 27947	the parathyroid
 T1556	Noun_Phrase 27912 27922	the thymus
 T1557	Noun_Phrase 27924 27931	thyroid
 T1558	Noun_Phrase 27936 27947	parathyroid
@@ -1736,8 +1630,7 @@ T1628	Noun_Phrase 29646 29668	the cushion mesenchyme
 T1629	Noun_Phrase 29650 29657	cushion
 T1630	Noun_Phrase 29686 29699	Alk2/Wnt1-Cre
 T1631	Noun_Phrase 29686 29707	Alk2/Wnt1-Cre mutants
-T1632	Noun_Phrase 29789 29792;	the
-29808 29819	thetruncal OFT
+T1632	Noun_Phrase 29789 29792;29808 29819	the truncal OFT
 T1633	Noun_Phrase 29789 29803	the aortic sac
 T1634	Noun_Phrase 29789 29819	the aortic sac and truncal OFT
 T1635	Noun_Phrase 29808 29819	truncal OFT
@@ -1749,8 +1642,7 @@ T1640	Noun_Phrase 29955 29967	OFT rotation
 T1641	Noun_Phrase 29970 29980	Conclusion
 T1642	Noun_Phrase 29985 29995	this study
 T1643	Noun_Phrase 29997 29999	we
-T1644	Noun_Phrase 30013 30038;	the TGF-? type I receptor
-30046 30050	the TGF-? type I receptorgene
+T1644	Noun_Phrase 30013 30038;30046 30050	the TGF-? type I receptor gene
 T1645	Noun_Phrase 30013 30050	the TGF-? type I receptor (Alk5) gene
 T1646	Noun_Phrase 30017 30038	TGF-? type I receptor
 T1647	APPOS_relation 30040 30044	Alk5
@@ -1764,8 +1656,7 @@ T1654	Noun_Phrase 30091 30093	NC
 T1655	Noun_Phrase 30109 30112	Our
 T1656	Noun_Phrase 30131 30135	ALK5
 T1657	Noun_Phrase 30169 30175	the NC
-T1658	Noun_Phrase 30267 30270;	the
-30293 30304	thecardiac OFT
+T1658	Noun_Phrase 30267 30270;30293 30304	the cardiac OFT
 T1659	Noun_Phrase 30267 30288	the pharyngeal organs
 T1660	Noun_Phrase 30293 30304	cardiac OFT
 T1661	Noun_Phrase 30306 30381	The cardiac and pharyngeal defects observed in the NC-specific Alk5 mutants
@@ -1779,18 +1670,13 @@ T1668	Noun_Phrase 30541 30568	the classical TGF-? ligands
 T1669	Noun_Phrase 30576 30606	cardiac/pharyngeal development
 T1670	Noun_Phrase 30618 30630	Alk5/Wnt1Cre
 T1671	Noun_Phrase 30618 30635	Alk5/Wnt1Cre mice
-T1672	Noun_Phrase 30637 30641;	Alk5
-30653 30659	Alk5mutant
-T1673	Noun_Phrase 30637 30641;	Alk5
-30653 30659;	Alk5mutant
-30672 30679	Alk5mutantembryos
-T1674	Noun_Phrase 30637 30641;	Alk5
-30664 30671	Alk5control
+T1672	Noun_Phrase 30637 30641;30653 30659	Alk5 mutant
+T1673	Noun_Phrase 30637 30641;30653 30659;30672 30679	Alk5 mutant embryos
+T1674	Noun_Phrase 30637 30641;30664 30671	Alk5 control
 T1675	Noun_Phrase 30647 30651	Alk2
 T1676	Noun_Phrase 30705 30742	Alk5ko/+(Alk2ko/+)/Wnt1-Cre male mice
 T1677	Noun_Phrase 30748 30823	females homozygous for the Alk5flox (Alk2flox) allele and the R26R reporter
-T1678	Noun_Phrase 30771 30783;	the Alk5flox
-30795 30801	the Alk5floxallele
+T1678	Noun_Phrase 30771 30783;30795 30801	the Alk5flox allele
 T1679	Noun_Phrase 30806 30823	the R26R reporter
 T1680	Noun_Phrase 30810 30814	R26R
 T1681	Noun_Phrase 30894 30902	Wnt1-Cre

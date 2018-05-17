@@ -55,8 +55,7 @@ T53	SO_EXT_sequence_truncation_process 4312 4321	truncated
 T54	SO_EXT_0001060 4340 4348	isoforms
 T55	SO_EXT_missense_quality_or_entity 4373 4381	missense
 T56	SO_EXT_sequence_alteration_entity_or_process 4382 4391	mutations
-T57	SO_EXT_0000842 4413 4423;	regions of
-4428 4432	regions ofgene
+T57	SO_EXT_0000842 4413 4423;4428 4432	regions of gene
 T58	SO_EXT_0000417 4457 4463	domain
 T59	SO_EXT_0000417 4487 4493	domain
 T60	SO_EXT_sequence_or_structure_motif 4521 4526	motif
@@ -181,8 +180,7 @@ T178	SO_EXT_sequence_repeat_unit_or_region 12128 12138	repetitive
 T179	SO_EXT_biological_sequence 12139 12147	sequence
 T180	CHEBI_SO_EXT_DNA 12177 12180	DNA
 T181	SO_EXT_satellite_unit_or_region 12215 12224	satellite
-T182	SO_EXT_satellite_unit_or_region 12256 12265;	satellite
-12287 12294	satelliterepeats
+T182	SO_EXT_satellite_unit_or_region 12256 12265;12287 12294	satellite repeats
 T183	SO_EXT_sequence_repeat_unit_or_region 12331 12338	repeats
 T184	SO_EXT_sequence_repeat_unit_or_region 12451 12458	repeats
 T185	SO_EXT_satellite_unit_or_region 12530 12539	satellite
@@ -212,12 +210,10 @@ T208	SO_EXT_0000902 13748 13757	transgene
 T209	SO_EXT_0005836 13825 13844	regulatory elements
 T210	SO_EXT_0000704 13865 13869	gene
 T211	SO_EXT_0000902 13927 13936	transgene
-T212	SO_EXT_fusion_gene_or_gene_fusion 14117 14123;	fusion
-14133 14137	fusiongene
+T212	SO_EXT_fusion_gene_or_gene_fusion 14117 14123;14133 14137	fusion gene
 T213	SO_EXT_sequence_deletion_process 14175 14183	excision
 T214	SO_0000359 14187 14199	loxP-flanked
-T215	SO_EXT_0000141 14200 14213;	transcription
-14230 14249	transcriptiontermination signals
+T215	SO_EXT_0000141 14200 14213;14230 14249	transcription termination signals
 T216	SO_EXT_0000319 14218 14249	translation termination signals
 T217	SO_EXT_0000902 14284 14293	transgene
 T218	SO_EXT_sequence_nullness 14414 14418	null
@@ -736,8 +732,7 @@ T730	GO_SO_EXT_sequence_rearrangement_process 57015 57028	recombination
 T731	SO_EXT_0001023 57071 57077	allele
 T732	GO_SO_EXT_sequence_rearrangement_process 57094 57107	recombination
 T733	SO_EXT_sequence_nullness 57134 57138	null
-T734	SO_EXT_0000006 57190 57203;	products from
-57206 57218	products fromPCR reaction
+T734	SO_EXT_0000006 57190 57203;57206 57218	products from PCR reaction
 T735	SO_EXT_0000112 57220 57227	primers
 T736	SO_EXT_0000028 57294 57296	bp
 T737	SO_EXT_0000006 57297 57308	PCR product

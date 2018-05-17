@@ -14,8 +14,7 @@ T12	SO_EXT_sequence_alteration_entity_or_process 945 954	mutations
 T13	SO_EXT_sequence_altered_entity_or_alteration_process 1023 1029	mutant
 T14	SO_EXT_sequence_alteration_entity_or_process 1101 1109	mutation
 T15	SO_EXT_sequence_deletion_entity_or_process 1177 1185	deletion
-T16	SO_EXT_0000831 1196 1203;	part of
-1214 1218	part ofgene
+T16	SO_EXT_0000831 1196 1203;1214 1218	part of gene
 T17	SO_EXT_0000147 1233 1238	exons
 T18	SO_0001817 1366 1374	in-frame
 T19	SO_EXT_sequence_deletion_entity_or_process 1375 1383	deletion
@@ -99,11 +98,9 @@ T96	SO_EXT_sequence_deletion_entity_or_process 7670 7678	deletion
 T97	CHEBI_SO_EXT_base 7695 7696	b
 T98	CHEBI_SO_EXT_base 7706 7707	b
 T99	SO_EXT_0000694 7732 7736	SNPs
-T100	SO_EXT_0000239 7744 7752;	flanking
-7761 7768	flankingregions
+T100	SO_EXT_0000239 7744 7752;7761 7768	flanking regions
 T101	SO_EXT_sequence_deletion_entity_or_process 7777 7785	deletion
-T102	SO_EXT_0000687 7812 7822;	borders of
-7827 7835	borders ofdeletion
+T102	SO_EXT_0000687 7812 7822;7827 7835	borders of deletion
 T103	CHEBI_SO_EXT_base 7844 7845	b
 T104	GO_SO_EXT_telomere_or_telomeric_region_or_telomeric_orientation 7853 7862	telomeric
 T105	SO_EXT_sequence_deletion_entity_or_process 7875 7883	deletion
@@ -123,8 +120,7 @@ T118	SO_EXT_0000188 8503 8509	intron
 T119	CHEBI_SO_EXT_base 8538 8539	b
 T120	SO_EXT_0000147 8550 8554	exon
 T121	SO_EXT_sequence_alteration_entity_or_process 8586 8596	alteration
-T122	SO_EXT_0001415 8690 8704;	breakpoints of
-8725 8733	breakpoints ofdeletion
+T122	SO_EXT_0001415 8690 8704;8725 8733	breakpoints of deletion
 T123	SO_EXT_sequence_deletion_process 8842 8849	deleted
 T124	SO_EXT_biological_sequence 8871 8880	sequences
 T125	CHEBI_SO_EXT_base 8929 8930	b
@@ -222,8 +218,7 @@ T216	SO_EXT_0000147 16522 16527	exons
 T217	SO_EXT_0000112 16548 16554	Primer
 T218	SO_EXT_0000195 16599 16611	coding exons
 T219	SO_EXT_0000028 16628 16630	bp
-T220	SO_EXT_0000239 16639 16647;	flanking
-16657 16665	flankingsequence
+T220	SO_EXT_0000239 16639 16647;16657 16665	flanking sequence
 T221	SO_EXT_0000188 16648 16656	intronic
 T222	SO_EXT_0000147 16702 16706	exon
 T223	CHEBI_SO_EXT_DNA 16727 16730	DNA
@@ -271,8 +266,7 @@ T264	GO_SO_EXT_centromere_or_centromeric_region_or_centromeric_orientation 21813
 T265	SO_EXT_0000239 21825 21840	flanking region
 T266	SO_EXT_0000028 21887 21889	bp
 T267	SO_EXT_genomic_DNA 21939 21950	genomic DNA
-T268	SO_EXT_0000121 22092 22099;	forward
-22112 22119	forwardprimers
+T268	SO_EXT_0000121 22092 22099;22112 22119	forward primers
 T269	SO_EXT_0000132 22104 22119	reverse primers
 T270	SO_EXT_0001026 22270 22276	genome
 T271	SO_EXT_polymorphism 22323 22335	polymorphism

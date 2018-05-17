@@ -53,12 +53,9 @@ T51	Noun_Phrase 1020 1036	running capacity
 T52	IDENTITY_chain 1020 1036	running capacity
 T53	Noun_Phrase 1097 1112	Skeletal muscle
 T54	Noun_Phrase 1097 1119	Skeletal muscle fibers
-T55	Noun_Phrase 1148 1154;	type I
-1201 1207	type Ifibers
-T56	IDENTITY_chain 1175 1182;	type II
-1201 1207	type IIfibers
-T57	Noun_Phrase 1175 1182;	type II
-1201 1207	type IIfibers
+T55	Noun_Phrase 1148 1154;1201 1207	type I fibers
+T56	IDENTITY_chain 1175 1182;1201 1207	type II fibers
+T57	Noun_Phrase 1175 1182;1201 1207	type II fibers
 T58	Noun_Phrase 1209 1213	They
 T59	Noun_Phrase 1302 1309	fatigue
 T60	Noun_Phrase 1311 1324	Type I fibers
@@ -79,11 +76,9 @@ T74	IDENTITY_chain 1595 1616	mitochondrial content
 T75	Noun_Phrase 1621 1638	oxidative enzymes
 T76	IDENTITY_chain 1621 1638	oxidative enzymes
 T77	Noun_Phrase 1719 1726	fatigue
-T78	Noun_Phrase 1777 1781;	type
-1790 1793	typeIIx
+T78	Noun_Phrase 1777 1781;1790 1793	type IIx
 T79	Noun_Phrase 1777 1785	type IIa
-T80	Noun_Phrase 1806 1810;	type
-1817 1820	typeIIb
+T80	Noun_Phrase 1806 1810;1817 1820	type IIb
 T81	Noun_Phrase 1806 1812	type I
 T82	Noun_Phrase 1822 1845	Booth and Thomason 1991
 T83	IDENTITY_chain 1822 1845	Booth and Thomason 1991
@@ -139,8 +134,7 @@ T132	Noun_Phrase 3357 3359	We
 T133	IDENTITY_chain 3393 3435	peroxisome proliferator-activated receptor
 T134	Noun_Phrase 3393 3435	peroxisome proliferator-activated receptor
 T135	APPOS_relation 3393 3435	peroxisome proliferator-activated receptor
-T136	Noun_Phrase 3393 3435;	peroxisome proliferator-activated receptor
-3443 3444	peroxisome proliferator-activated receptor?
+T136	Noun_Phrase 3393 3435;3443 3444	peroxisome proliferator-activated receptor ?
 T137	Noun_Phrase 3437 3441	PPAR
 T138	Noun_Phrase 3485 3488	fat
 T139	Noun_Phrase 3537 3594	enzymes associated with long-chain fatty-acid ?-oxidation
@@ -239,14 +233,12 @@ T231	Noun_Phrase 5633 5649	endogenous PPAR?
 T232	Noun_Phrase 5686 5698	type I fiber
 T233	Noun_Phrase 5712 5717	which
 T234	Noun_Phrase 5759 5764	PPAR?
-T235	Noun_Phrase 5766 5772;	Figure
-5780 5782	Figure1B
+T235	Noun_Phrase 5766 5772;5780 5782	Figure 1B
 T236	Noun_Phrase 5766 5775	Figure 1A
 T237	Noun_Phrase 5786 5792	Type I
 T238	Noun_Phrase 5786 5799	Type I muscle
 T239	Noun_Phrase 5834 5841	type II
-T240	Noun_Phrase 5834 5841;	type II
-5851 5857	type IImuscle
+T240	Noun_Phrase 5834 5841;5851 5857	type II muscle
 T241	Noun_Phrase 5845 5857	mixed muscle
 T242	Noun_Phrase 5861 5864	its
 T243	Noun_Phrase 5887 5890	its
@@ -260,10 +252,8 @@ T250	Noun_Phrase 6007 6026	the transgenic mice
 T251	Noun_Phrase 6044 6053	Figure 2A
 T252	IDENTITY_chain 6044 6053	Figure 2A
 T253	Noun_Phrase 6089 6131	the mixed type I/II fibers of the hindlimb
-T254	Noun_Phrase 6099 6103;	type
-6106 6115	typeII fibers
-T255	Noun_Phrase 6099 6105;	type I
-6109 6115	type Ifibers
+T254	Noun_Phrase 6099 6103;6106 6115	type II fibers
+T255	Noun_Phrase 6099 6105;6109 6115	type I fibers
 T256	Noun_Phrase 6133 6142	Figure 2B
 T257	IDENTITY_chain 6133 6142	Figure 2B
 T258	Noun_Phrase 6228 6237	Figure 2C
@@ -284,10 +274,8 @@ T272	IDENTITY_chain 6557 6569	cytochrome c
 T273	Noun_Phrase 6574 6594	cytochrome c oxidase
 T274	APPOS_relation 6574 6594	cytochrome c oxidase
 T275	IDENTITY_chain 6574 6594	cytochrome c oxidase
-T276	Noun_Phrase 6574 6594;	cytochrome c oxidase
-6601 6603	cytochrome c oxidaseII
-T277	IDENTITY_chain 6574 6594;	cytochrome c oxidase
-6601 6603	cytochrome c oxidaseII
+T276	Noun_Phrase 6574 6594;6601 6603	cytochrome c oxidase II
+T277	IDENTITY_chain 6574 6594;6601 6603	cytochrome c oxidase II
 T278	Noun_Phrase 6596 6599	COX
 T279	Noun_Phrase 6616 6626	fatty-acid
 T280	Noun_Phrase 6616 6638	fatty-acid ?-oxidation
@@ -400,10 +388,8 @@ T386	IDENTITY_chain 9474 9498	the triglyceride content
 T387	Noun_Phrase 9478 9490	triglyceride
 T388	IDENTITY_chain 9478 9490	triglyceride
 T389	Noun_Phrase 9516 9535	the transgenic mice
-T390	Noun_Phrase 9537 9543;	Figure
-9551 9553	Figure4D
-T391	IDENTITY_chain 9537 9543;	Figure
-9551 9553	Figure4D
+T390	Noun_Phrase 9537 9543;9551 9553	Figure 4D
+T391	IDENTITY_chain 9537 9543;9551 9553	Figure 4D
 T392	Noun_Phrase 9537 9546	Figure 4C
 T393	IDENTITY_chain 9537 9546	Figure 4C
 T394	Noun_Phrase 9537 9553	Figure 4C and 4D
@@ -456,29 +442,23 @@ T440	Noun_Phrase 10696 10698	We
 T441	Noun_Phrase 10811 10815	Mice
 T442	IDENTITY_chain 10811 10815	Mice
 T443	Noun_Phrase 10828 10834	oxygen
-T444	Noun_Phrase 10894 10905;	the running
-10915 10923	the runningdistance
-T445	IDENTITY_chain 10894 10905;	the running
-10915 10923	the runningdistance
+T444	Noun_Phrase 10894 10905;10915 10923	the running distance
+T445	IDENTITY_chain 10894 10905;10915 10923	the running distance
 T446	Noun_Phrase 10894 10910	the running time
 T447	IDENTITY_chain 10894 10910	the running time
 T448	Noun_Phrase 10924 10943	the transgenic mice
 T449	Noun_Phrase 11010 11019	Figure 6A
 T450	IDENTITY_chain 11010 11019	Figure 6A
-T451	Noun_Phrase 11030 11036;	Videos
-11044 11046	VideosS2
-T452	IDENTITY_chain 11030 11036;	Videos
-11044 11046	VideosS2
+T451	Noun_Phrase 11030 11036;11044 11046	Videos S2
+T452	IDENTITY_chain 11030 11036;11044 11046	Videos S2
 T453	Noun_Phrase 11030 11039	Videos S1
 T454	IDENTITY_chain 11030 11039	Videos S1
 T455	Noun_Phrase 11049 11068	The transgenic mice
 T456	Noun_Phrase 11095 11107	the controls
 T457	Noun_Phrase 11288 11298	transgenic
 T458	Noun_Phrase 11321 11330	wild-type
-T459	Noun_Phrase 11371 11374;	the
-11390 11402	thecontrol mice
-T460	Noun_Phrase 11371 11385;	the transgenic
-11398 11402	the transgenicmice
+T459	Noun_Phrase 11371 11374;11390 11402	the control mice
+T460	Noun_Phrase 11371 11385;11398 11402	the transgenic mice
 T461	Noun_Phrase 11437 11446	endurance
 T462	Noun_Phrase 11483 11495	muscle fiber
 T463	Noun_Phrase 11483 11510	muscle fiber transformation
@@ -538,10 +518,8 @@ T516	Noun_Phrase 13594 13608	Wu et al. 2002
 T517	Noun_Phrase 13627 13632	PPAR?
 T518	Nonreferential_pronoun 13718 13720	It
 T519	Noun_Phrase 13753 13756	our
-T520	Noun_Phrase 13753 13763;	our ligand
-13796 13803	our ligandstudies
-T521	IDENTITY_chain 13753 13763;	our ligand
-13796 13803	our ligandstudies
+T520	Noun_Phrase 13753 13763;13796 13803	our ligand studies
+T521	IDENTITY_chain 13753 13763;13796 13803	our ligand studies
 T522	Noun_Phrase 13757 13763	ligand
 T523	IDENTITY_chain 13757 13763	ligand
 T524	Noun_Phrase 13805 13810	PPAR?
@@ -614,8 +592,7 @@ T590	Noun_Phrase 16295 16313	physical endurance
 T591	Noun_Phrase 16382 16389	fatigue
 T592	Noun_Phrase 16391 16400	endurance
 T593	Noun_Phrase 16406 16422	running capacity
-T594	Noun_Phrase 16491 16517;	The transactivation domain
-16578 16585	The transactivation domainof VP16
+T594	Noun_Phrase 16491 16517;16578 16585	The transactivation domain of VP16
 T595	Noun_Phrase 16581 16585	VP16
 T596	Noun_Phrase 16610 16639	the N-terminus of mouse PPAR?
 T597	Noun_Phrase 16628 16639	mouse PPAR?
@@ -629,8 +606,7 @@ T604	Noun_Phrase 16853 16861	C57BL/6J
 T605	Noun_Phrase 16880 16895	Transgenic mice
 T606	Noun_Phrase 16918 16926	C57BL/6J
 T607	Noun_Phrase 16948 16969	Wild-type littermates
-T608	Noun_Phrase 17035 17038;	the
-17059 17078	thecontrol littermates
+T608	Noun_Phrase 17035 17038;17059 17078	the control littermates
 T609	Noun_Phrase 17035 17054	the transgenic mice
 T610	Noun_Phrase 17115 17120	PPAR?
 T611	Noun_Phrase 17115 17130	PPAR?-null mice
@@ -777,16 +753,12 @@ T751	Noun_Phrase 21916 21947	Genes Typical for Type I Fibers
 T752	Noun_Phrase 21934 21947	Type I Fibers
 T753	Noun_Phrase 21961 21985	Mitochondrial Biogenesis
 T754	Noun_Phrase 21988 21989	A
-T755	Noun_Phrase 22028 22062;	gastrocnemius muscle of transgenic
-22068 22081;	gastrocnemius muscle of transgenicand wild-type
-22087 22098	gastrocnemius muscle of transgenicand wild-typelittermates
+T755	Noun_Phrase 22028 22062;22068 22081;22087 22098	gastrocnemius muscle of transgenic and wild-type littermates
 T756	Noun_Phrase 22052 22062	transgenic
 T757	APPOS_relation 22052 22062	transgenic
-T758	Noun_Phrase 22052 22062;	transgenic
-22087 22098	transgeniclittermates
+T758	Noun_Phrase 22052 22062;22087 22098	transgenic littermates
 T759	Noun_Phrase 22064 22066	TG
-T760	Noun_Phrase 22072 22081;	wild-type
-22087 22098	wild-typelittermates
+T760	Noun_Phrase 22072 22081;22087 22098	wild-type littermates
 T761	Noun_Phrase 22072 22081	wild-type
 T762	APPOS_relation 22072 22081	wild-type
 T763	Noun_Phrase 22083 22085	WT
@@ -800,8 +772,7 @@ T770	Noun_Phrase 22473 22488	transgenic mice
 T771	Noun_Phrase 22493 22512	control littermates
 T772	Noun_Phrase 22520 22537	mitochondrial DNA
 T773	Noun_Phrase 22610 22627	mitochondrial DNA
-T774	Noun_Phrase 22631 22641;	transgenic
-22656 22660	transgenicmice
+T774	Noun_Phrase 22631 22641;22656 22660	transgenic mice
 T775	Noun_Phrase 22646 22660	wild-type mice
 T776	Noun_Phrase 22677 22678	D
 T777	Noun_Phrase 22680 22754	Western blot analysis of muscle fiber markers and mitochondrial components
@@ -817,17 +788,12 @@ T786	Noun_Phrase 23037 23061	High-Fat-Induced Obesity
 T787	Noun_Phrase 23042 23045	Fat
 T788	Noun_Phrase 23065 23084	the Transgenic Mice
 T789	Noun_Phrase 23087 23088	A
-T790	Noun_Phrase 23090 23115;	Seven-week-old transgenic
-23121 23134;	Seven-week-old transgenicand wild-type
-23140 23151	Seven-week-old transgenicand wild-typelittermates
-T791	IDENTITY_chain 23090 23115;	Seven-week-old transgenic
-23121 23134;	Seven-week-old transgenicand wild-type
-23140 23151	Seven-week-old transgenicand wild-typelittermates
+T790	Noun_Phrase 23090 23115;23121 23134;23140 23151	Seven-week-old transgenic and wild-type littermates
+T791	IDENTITY_chain 23090 23115;23121 23134;23140 23151	Seven-week-old transgenic and wild-type littermates
 T792	Noun_Phrase 23105 23115	transgenic
 T793	APPOS_relation 23105 23115	transgenic
 T794	Noun_Phrase 23117 23119	TG
-T795	Noun_Phrase 23125 23134;	wild-type
-23140 23151	wild-typelittermates
+T795	Noun_Phrase 23125 23134;23140 23151	wild-type littermates
 T796	Noun_Phrase 23125 23134	wild-type
 T797	APPOS_relation 23125 23134	wild-type
 T798	Noun_Phrase 23136 23138	WT
@@ -839,8 +805,7 @@ T803	Noun_Phrase 23390 23393	fat
 T804	Noun_Phrase 23405 23406	B
 T805	Noun_Phrase 23421 23433	inguinal fat
 T806	Noun_Phrase 23421 23437	inguinal fat pad
-T807	Noun_Phrase 23441 23455;	the transgenic
-23470 23481	the transgeniclittermates
+T807	Noun_Phrase 23441 23455;23470 23481	the transgenic littermates
 T808	Noun_Phrase 23460 23481	wild-type littermates
 T809	Noun_Phrase 23495 23498	fat
 T810	Noun_Phrase 23516 23517	C

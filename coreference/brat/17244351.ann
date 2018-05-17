@@ -1,6 +1,5 @@
 T0	IDENTITY_chain 10 23	global genome
-T1	Noun_Phrase 10 23;	global genome
-42 52	global genomeapproaches
+T1	Noun_Phrase 10 23;42 52	global genome approaches
 T2	IDENTITY_chain 28 52	transcriptome approaches
 T3	Noun_Phrase 28 52	transcriptome approaches
 T4	IDENTITY_chain 65 154	the candidate genes of small-effect quantitative trait loci in collagen-induced arthritis
@@ -24,8 +23,7 @@ T21	Noun_Phrase 392 395	QTL
 T22	APPOS_relation 400 426	collagen induced arthritis
 T23	Noun_Phrase 400 426	collagen induced arthritis
 T24	Noun_Phrase 428 431	CIA
-T25	Noun_Phrase 439 452;	global genome
-471 481	global genomeapproaches
+T25	Noun_Phrase 439 452;471 481	global genome approaches
 T26	Noun_Phrase 457 481	transcriptome approaches
 T27	Noun_Phrase 471 481	approaches
 T28	Noun_Phrase 490 492	we
@@ -36,10 +34,8 @@ T32	Noun_Phrase 510 517	linkage
 T33	IDENTITY_chain 530 585	F2 progeny of the CIA susceptible and resistant strains
 T34	Noun_Phrase 530 585	F2 progeny of the CIA susceptible and resistant strains
 T35	Noun_Phrase 544 551	the CIA
-T36	IDENTITY_chain 544 563;	the CIA susceptible
-578 585	the CIA susceptiblestrains
-T37	Noun_Phrase 544 563;	the CIA susceptible
-578 585	the CIA susceptiblestrains
+T36	IDENTITY_chain 544 563;578 585	the CIA susceptible strains
+T37	Noun_Phrase 544 563;578 585	the CIA susceptible strains
 T38	Noun_Phrase 544 585	the CIA susceptible and resistant strains
 T39	IDENTITY_chain 544 585	the CIA susceptible and resistant strains
 T40	IDENTITY_chain 568 585	resistant strains
@@ -207,19 +203,15 @@ T201	Noun_Phrase 5085 5126	the potential candidate genes inside them
 T202	Noun_Phrase 5122 5126	them
 T203	Noun_Phrase 5128 5130	we
 T204	Noun_Phrase 5144 5147	CIA
-T205	Noun_Phrase 5144 5147;	CIA
-5176 5193	CIAresistant strains
+T205	Noun_Phrase 5144 5147;5176 5193	CIA resistant strains
 T206	Noun_Phrase 5144 5193	CIA genetically susceptible and resistant strains
-T207	IDENTITY_chain 5202 5212;	the genome
-5231 5237	the genomelevels
-T208	Noun_Phrase 5202 5212;	the genome
-5231 5237	the genomelevels
+T207	IDENTITY_chain 5202 5212;5231 5237	the genome levels
+T208	Noun_Phrase 5202 5212;5231 5237	the genome levels
 T209	IDENTITY_chain 5217 5237	transcriptome levels
 T210	Noun_Phrase 5217 5237	transcriptome levels
 T211	Noun_Phrase 5242 5258	the genome level
 T212	Noun_Phrase 5260 5331	F2 progeny of the CIA susceptible (DBA/1) and resistant (FVB/N) strains
-T213	Noun_Phrase 5274 5301;	the CIA susceptible (DBA/1)
-5324 5331	the CIA susceptible (DBA/1)strains
+T213	Noun_Phrase 5274 5301;5324 5331	the CIA susceptible (DBA/1) strains
 T214	Noun_Phrase 5274 5331	the CIA susceptible (DBA/1) and resistant (FVB/N) strains
 T215	Noun_Phrase 5278 5281	CIA
 T216	IDENTITY_chain 5295 5300	DBA/1
@@ -235,8 +227,7 @@ T225	Noun_Phrase 5466 5530	the gene expression patterns of both the DBA/1 and FV
 T226	Noun_Phrase 5470 5485	gene expression
 T227	Noun_Phrase 5503 5530	the DBA/1 and FVB/N strains
 T228	Noun_Phrase 5507 5512	DBA/1
-T229	Noun_Phrase 5507 5512;	DBA/1
-5523 5530	DBA/1strains
+T229	Noun_Phrase 5507 5512;5523 5530	DBA/1 strains
 T230	Noun_Phrase 5517 5522	FVB/N
 T231	Noun_Phrase 5517 5530	FVB/N strains
 T232	IDENTITY_chain 5534 5562	four different phases of CIA
@@ -258,10 +249,8 @@ T247	IDENTITY_chain 5888 5900	immunisation
 T248	Noun_Phrase 5888 5900	immunisation
 T249	Noun_Phrase 5919 5928	arthritis
 T250	Noun_Phrase 5935 5940	DBA/1
-T251	IDENTITY_chain 5935 5940;	DBA/1
-5951 5955	DBA/1mice
-T252	Noun_Phrase 5935 5940;	DBA/1
-5951 5955	DBA/1mice
+T251	IDENTITY_chain 5935 5940;5951 5955	DBA/1 mice
+T252	Noun_Phrase 5935 5940;5951 5955	DBA/1 mice
 T253	Noun_Phrase 5945 5950	FVB/N
 T254	IDENTITY_chain 5964 5974	this study
 T255	Noun_Phrase 5964 5974	this study
@@ -511,10 +500,8 @@ T498	Noun_Phrase 12257 12266	arthritis
 T499	Noun_Phrase 12306 12315	arthritis
 T500	IDENTITY_chain 12306 12319	arthritis QTL
 T501	Noun_Phrase 12306 12319	arthritis QTL
-T502	IDENTITY_chain 12363 12368;	Locus
-12375 12376	Locus2
-T503	Noun_Phrase 12363 12368;	Locus
-12375 12376	Locus2
+T502	IDENTITY_chain 12363 12368;12375 12376	Locus 2
+T503	Noun_Phrase 12363 12368;12375 12376	Locus 2
 T504	Noun_Phrase 12363 12370	Locus 1
 T505	Noun_Phrase 12433 12436	CIA
 T506	Noun_Phrase 12441 12446	DBA/1
@@ -534,10 +521,8 @@ T519	Noun_Phrase 12797 12813	the human genome
 T520	Noun_Phrase 12849 12851	RA
 T521	APPOS_relation 12863 12922	genomic regions 22q11 and 12p13-q24 on chromosome 22 and 12
 T522	Noun_Phrase 12863 12922	genomic regions 22q11 and 12p13-q24 on chromosome 22 and 12
-T523	IDENTITY_chain 12902 12912;	chromosome
-12920 12922	chromosome12
-T524	Noun_Phrase 12902 12912;	chromosome
-12920 12922	chromosome12
+T523	IDENTITY_chain 12902 12912;12920 12922	chromosome 12
+T524	Noun_Phrase 12902 12912;12920 12922	chromosome 12
 T525	Noun_Phrase 12924 12951	the counterparts of locus 2
 T526	Noun_Phrase 12944 12951	locus 2
 T527	APPOS_relation 12954 12981	12p13-pter on chromosome 12
@@ -546,8 +531,7 @@ T529	Noun_Phrase 12968 12981	chromosome 12
 T530	Noun_Phrase 12983 13009	the counterpart of locus 3
 T531	APPOS_relation 13012 13059	21q22-qter and 10q22-23 on chromosome 21 and 10
 T532	Noun_Phrase 13012 13059	21q22-qter and 10q22-23 on chromosome 21 and 10
-T533	Noun_Phrase 13039 13049;	chromosome
-13057 13059	chromosome10
+T533	Noun_Phrase 13039 13049;13057 13059	chromosome 10
 T534	Noun_Phrase 13061 13088	the counterparts of locus 5
 T535	Noun_Phrase 13081 13088	locus 5
 T536	APPOS_relation 13091 13116	17q21-25 on chromosome 17
@@ -603,10 +587,8 @@ T585	Noun_Phrase 14140 14149	141 genes
 T586	Noun_Phrase 14187 14192	DBA/1
 T587	Noun_Phrase 14187 14197	DBA/1 mice
 T588	Noun_Phrase 14208 14211	CIA
-T589	IDENTITY_chain 14213 14216;	184
-14224 14254	184differentially expressed genes
-T590	Noun_Phrase 14213 14216;	184
-14224 14254	184differentially expressed genes
+T589	IDENTITY_chain 14213 14216;14224 14254	184 differentially expressed genes
+T590	Noun_Phrase 14213 14216;14224 14254	184 differentially expressed genes
 T591	IDENTITY_chain 14221 14254	85 differentially expressed genes
 T592	Noun_Phrase 14221 14254	85 differentially expressed genes
 T593	Noun_Phrase 14300 14309	the onset
@@ -671,10 +653,8 @@ T651	Noun_Phrase 15793 15808	gene expression
 T652	Noun_Phrase 15824 15827	CIA
 T653	Noun_Phrase 15829 15831	we
 T654	Noun_Phrase 15876 15891	these 310 genes
-T655	IDENTITY_chain 15928 15936;	clusters
-15942 15944	clustersVI
-T656	Noun_Phrase 15928 15936;	clusters
-15942 15944	clustersVI
+T655	IDENTITY_chain 15928 15936;15942 15944	clusters VI
+T656	Noun_Phrase 15928 15936;15942 15944	clusters VI
 T657	IDENTITY_chain 15928 15938	clusters I
 T658	Noun_Phrase 15928 15938	clusters I
 T659	IDENTITY_chain 15928 15944	clusters I to VI
@@ -757,16 +737,13 @@ T735	Noun_Phrase 17769 17777	all loci
 T736	Noun_Phrase 17779 17795	Twenty-one genes
 T737	Noun_Phrase 17847 17860	the eight QTL
 T738	Noun_Phrase 17862 17864	We
-T739	Noun_Phrase 17954 17958;	loci
-17977 17978	loci8
-T740	IDENTITY_chain 17954 17958;	loci
-17977 17978	loci8
+T739	Noun_Phrase 17954 17958;17977 17978	loci 8
+T740	IDENTITY_chain 17954 17958;17977 17978	loci 8
 T741	Noun_Phrase 17954 17960	loci 1
 T742	Noun_Phrase 17962 17963	2
 T743	Noun_Phrase 17968 17969	5
 T744	Noun_Phrase 17971 17972	6
-T745	Noun_Phrase 18037 18041;	loci
-18048 18049	loci7
+T745	Noun_Phrase 18037 18041;18048 18049	loci 7
 T746	IDENTITY_chain 18037 18043	loci 4
 T747	Noun_Phrase 18037 18043	loci 4
 T748	IDENTITY_chain 18051 18058	Table 3
@@ -803,8 +780,7 @@ T778	IDENTITY_chain 18509 18538	Mapk14, Pscd1, Kpnb1 and Wdr1
 T779	Noun_Phrase 18509 18538	Mapk14, Pscd1, Kpnb1 and Wdr1
 T780	Noun_Phrase 18546 18562	these five genes
 T781	Noun_Phrase 18564 18570	H2-Q10
-T782	Noun_Phrase 18611 18620;	the DBA/1
-18636 18642	the DBA/1strain
+T782	Noun_Phrase 18611 18620;18636 18642	the DBA/1 strain
 T783	Noun_Phrase 18615 18620	DBA/1
 T784	Noun_Phrase 18626 18642	the FVB/N strain
 T785	Noun_Phrase 18630 18635	FVB/N
@@ -865,8 +841,7 @@ T839	Noun_Phrase 20067 20076	arthritis
 T840	Noun_Phrase 20106 20110	FVBN
 T841	Noun_Phrase 20127 20136	arthritis
 T842	Noun_Phrase 20237 20257	the resistant strain
-T843	Noun_Phrase 20274 20278;	loci
-20285 20286	loci7
+T843	Noun_Phrase 20274 20278;20285 20286	loci 7
 T844	Noun_Phrase 20274 20280	loci 2
 T845	Noun_Phrase 20314 20323	arthritis
 T846	Noun_Phrase 20350 20352	us
@@ -914,23 +889,19 @@ T887	Noun_Phrase 21233 21236	CIA
 T888	Noun_Phrase 21238 21240	We
 T889	Noun_Phrase 21271 21286	gene expression
 T890	Noun_Phrase 21299 21302	LNs
-T891	Noun_Phrase 21311 21334;	genetically susceptible
-21349 21356	genetically susceptiblestrains
+T891	Noun_Phrase 21311 21334;21349 21356	genetically susceptible strains
 T892	Noun_Phrase 21339 21356	resistant strains
 T893	Noun_Phrase 21360 21388	four different phases of CIA
 T894	Noun_Phrase 21385 21388	CIA
 T895	Noun_Phrase 21393 21405	both strains
 T896	Noun_Phrase 21407 21431	differentially regulated
-T897	Noun_Phrase 21466 21472;	the PI
-21480 21486	the PIphases
+T897	Noun_Phrase 21466 21472;21480 21486	the PI phases
 T898	Noun_Phrase 21477 21486	CA phases
 T899	Noun_Phrase 21619 21622	LNs
-T900	Noun_Phrase 21640 21646;	the PI
-21654 21660	the PIphases
+T900	Noun_Phrase 21640 21646;21654 21660	the PI phases
 T901	Noun_Phrase 21651 21660	CA phases
 T902	Noun_Phrase 21669 21681	the OA phase
-T903	Noun_Phrase 21752 21767;	the susceptible
-21785 21791	the susceptiblestrain
+T903	Noun_Phrase 21752 21767;21785 21791	the susceptible strain
 T904	Noun_Phrase 21771 21791	the resistant strain
 T905	APPOS_relation 21829 21849	one cluster of genes
 T906	Noun_Phrase 21829 21849	one cluster of genes
@@ -988,8 +959,7 @@ T957	Noun_Phrase 22853 22858	their
 T958	Noun_Phrase 22891 22894	CIA
 T959	Noun_Phrase 22899 22904	their
 T960	Noun_Phrase 22927 22942	candidate genes
-T961	Noun_Phrase 22959 22962;	QTL
-22969 22970	QTL7
+T961	Noun_Phrase 22959 22962;22969 22970	QTL 7
 T962	Noun_Phrase 22959 22964	QTL 4
 T963	IDENTITY_chain 22959 22970	QTL 4 and 7
 T964	Noun_Phrase 22959 22970	QTL 4 and 7
@@ -1139,8 +1109,7 @@ T1107	Noun_Phrase 26373 26384	All authors
 T1108	Noun_Phrase 26450 26467	Additional file 1
 T1109	Noun_Phrase 26492 26562	the 509 genes differentially expressed between DBA/1 and FVB/N strains
 T1110	Noun_Phrase 26539 26544	DBA/1
-T1111	Noun_Phrase 26539 26544;	DBA/1
-26555 26562	DBA/1strains
+T1111	Noun_Phrase 26539 26544;26555 26562	DBA/1 strains
 T1112	Noun_Phrase 26539 26562	DBA/1 and FVB/N strains
 T1113	Noun_Phrase 26549 26554	FVB/N
 T1114	Noun_Phrase 26549 26562	FVB/N strains
@@ -1190,16 +1159,12 @@ T1157	Noun_Phrase 27780 27789	This work
 T1158	Noun_Phrase 27884 27892	Figure 1
 T1159	APPOS_relation 27933 27959	collagen-induced arthritis
 T1160	Noun_Phrase 27933 27959	collagen-induced arthritis
-T1161	Noun_Phrase 27933 27965;	collagen-induced arthritis (CIA)
-27982 27999	collagen-induced arthritis (CIA)resistant strains
-T1162	Noun_Phrase 27933 27977;	collagen-induced arthritis (CIA) susceptible
-27992 27999	collagen-induced arthritis (CIA) susceptiblestrains
-T1163	Noun_Phrase 27933 27977;	collagen-induced arthritis (CIA) susceptible
-27992 27999	collagen-induced arthritis (CIA) susceptiblestrains
+T1161	Noun_Phrase 27933 27965;27982 27999	collagen-induced arthritis (CIA) resistant strains
+T1162	Noun_Phrase 27933 27977;27992 27999	collagen-induced arthritis (CIA) susceptible strains
+T1163	Noun_Phrase 27933 27977;27992 27999	collagen-induced arthritis (CIA) susceptible strains
 T1164	Noun_Phrase 27961 27964	CIA
 T1165	Noun_Phrase 28001 28106	Comparison of the gene expression between the DBA/1 and FVB/N strains was performed at four phases of CIA
-T1166	Noun_Phrase 28043 28052;	the DBA/1
-28063 28070	the DBA/1strains
+T1166	Noun_Phrase 28043 28052;28063 28070	the DBA/1 strains
 T1167	Noun_Phrase 28043 28070	the DBA/1 and FVB/N strains
 T1168	Noun_Phrase 28047 28052	DBA/1
 T1169	Noun_Phrase 28057 28062	FVB/N
@@ -1267,8 +1232,7 @@ T1230	Noun_Phrase 29383 29392	that gene
 T1231	Noun_Phrase 29447 29468	the expression matrix
 T1232	APPOS_relation 29470 29493	Six basic gene clusters
 T1233	Noun_Phrase 29470 29493	Six basic gene clusters
-T1234	Noun_Phrase 29495 29503;	clusters
-29509 29511	clustersVI
+T1234	Noun_Phrase 29495 29503;29509 29511	clusters VI
 T1235	Noun_Phrase 29495 29505	clusters I
 T1236	Noun_Phrase 29495 29511	clusters I to VI
 T1237	Noun_Phrase 29555 29593	the gene expression pattern during CIA

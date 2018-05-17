@@ -41,10 +41,8 @@ T39	SO_EXT_0001023 6814 6820	allele
 T40	SO_EXT_0000346 6846 6856	loxP sites
 T41	SO_0000357 6857 6865	flanking
 T42	SO_EXT_0000147 6870 6874	exon
-T43	SO_EXT_0000350 6892 6914;	FLP recognition target
-6921 6926	FLP recognition targetsites
-T44	SO_EXT_0000350 6916 6919;	FRT
-6921 6926	FRTsites
+T43	SO_EXT_0000350 6892 6914;6921 6926	FLP recognition target sites
+T44	SO_EXT_0000350 6916 6919;6921 6926	FRT sites
 T45	SO_0000357 6927 6935	flanking
 T46	SO_EXT_0005853 6959 6967	cassette
 T47	SO_EXT_0001023 7014 7020	allele
@@ -53,8 +51,7 @@ T49	SO_EXT_0005853 7063 7071	cassette
 T50	SO_EXT_sequence_insertion_process 7076 7084	inserted
 T51	SO_EXT_0000188 7135 7141	intron
 T52	SO_EXT_0000704 7163 7167	gene
-T53	SO_EXT_0000346 7173 7177;	loxP
-7186 7191	loxPsites
+T53	SO_EXT_0000346 7173 7177;7186 7191	loxP sites
 T54	SO_EXT_0000350 7182 7191	FRT sites
 T55	GO_SO_EXT_sequence_rearrangement_process 7224 7237	recombination
 T56	SO_EXT_sequence_alteration_entity_or_process 7283 7295	modification
@@ -76,8 +73,7 @@ T71	SO_EXT_0001023 7841 7847	allele
 T72	SO_EXT_0000147 7864 7868	exon
 T73	SO_EXT_0000673 7889 7899	transcript
 T74	SO_EXT_0000147 7913 7917	exon
-T75	GO_SO_EXT_frameshift_entity_or_process 7934 7942;	shift in
-7954 7967	shift inreading frame
+T75	GO_SO_EXT_frameshift_entity_or_process 7934 7942;7954 7967	shift in reading frame
 T76	SO_EXT_0001587 7984 8017	premature chain termination codon
 T77	SO_EXT_sequence_truncation_process 8056 8065	truncated
 T78	CHEBI_SO_EXT_polypeptide 8066 8077	polypeptide
@@ -403,8 +399,7 @@ T397	GO_SO_EXT_sequence_rearrangement_process 55906 55919	recombination
 T398	SO_EXT_0000147 55921 55925	exon
 T399	SO_EXT_sequence_truncation_process 55953 55962	truncated
 T400	CHEBI_SO_EXT_amino_acid 55999 56001	aa
-T401	SO_EXT_genomic_DNA 56073 56080;	genomic
-56086 56089	genomicDNA
+T401	SO_EXT_genomic_DNA 56073 56080;56086 56089	genomic DNA
 T402	SO_EXT_0000028 56179 56181	bp
 T403	CHEBI_SO_EXT_molecular_probe 56182 56187	probe
 T404	SO_EXT_genomic_DNA 56194 56205	genomic DNA

@@ -21,16 +21,10 @@ T19	IDENTITY_chain 594 599	NFR/N
 T20	Noun_Phrase 628 657	The mice in the present study
 T21	IDENTITY_chain 628 657	The mice in the present study
 T22	Noun_Phrase 640 657	the present study
-T23	Noun_Phrase 731 734;	the
-742 751;	theincidence
-764 778	theincidenceof the disease
-T24	IDENTITY_chain 731 734;	the
-742 751;	theincidence
-764 778	theincidenceof the disease
-T25	Noun_Phrase 731 734;	the
-755 778	theseverity of the disease
-T26	IDENTITY_chain 731 734;	the
-755 778	theseverity of the disease
+T23	Noun_Phrase 731 734;742 751;764 778	the incidence of the disease
+T24	IDENTITY_chain 731 734;742 751;764 778	the incidence of the disease
+T25	Noun_Phrase 731 734;755 778	the severity of the disease
+T26	IDENTITY_chain 731 734;755 778	the severity of the disease
 T27	Noun_Phrase 767 778	the disease
 T28	Noun_Phrase 883 885	We
 T29	Noun_Phrase 892 1092	one new significant quantitative trait locus affecting the arthritis incidence, severity and day of onset on chromosome 11 (denoted Cia40), which colocalizes with a locus controlling pregnancy failure
@@ -246,8 +240,7 @@ T238	Noun_Phrase 10270 10273	CIA
 T239	Noun_Phrase 10305 10316	the strains
 T240	Noun_Phrase 10380 10400	primary immunization
 T241	Noun_Phrase 10420 10431	the booster
-T242	Noun_Phrase 10464 10469;	NFR/N
-10480 10491	NFR/Nfemale mice
+T242	Noun_Phrase 10464 10469;10480 10491	NFR/N female mice
 T243	Noun_Phrase 10464 10469	NFR/N
 T244	Noun_Phrase 10474 10491	B10.Q female mice
 T245	Noun_Phrase 10497 10504	Table 1
@@ -292,10 +285,8 @@ T283	Noun_Phrase 12077 12100	anti-CII antibody titer
 T284	Noun_Phrase 12119 12132	chromosome 13
 T285	Noun_Phrase 12134 12142	Figure 2
 T286	Noun_Phrase 12201 12204	MHC
-T287	Noun_Phrase 12213 12216;	the
-12227 12237	theB10.Q mice
-T288	Noun_Phrase 12213 12222;	the NFR/N
-12233 12237	the NFR/Nmice
+T287	Noun_Phrase 12213 12216;12227 12237	the B10.Q mice
+T288	Noun_Phrase 12213 12222;12233 12237	the NFR/N mice
 T289	Noun_Phrase 12217 12222	NFR/N
 T290	Noun_Phrase 12273 12341	The NFR/N mouse, which is an inbred NMRI mouse of the H-2q haplotype
 T291	Noun_Phrase 12277 12282	NFR/N
@@ -322,10 +313,8 @@ T311	Noun_Phrase 13214 13240	their reproductive history
 T312	IDENTITY_chain 13214 13240	their reproductive history
 T313	Nonreferential_pronoun 13246 13248	it
 T314	Noun_Phrase 13277 13281	this
-T315	Noun_Phrase 13309 13312;	the
-13326 13341	theseverity of CIA
-T316	Noun_Phrase 13309 13322;	the incidence
-13335 13341	the incidenceof CIA
+T315	Noun_Phrase 13309 13312;13326 13341	the severity of CIA
+T316	Noun_Phrase 13309 13322;13335 13341	the incidence of CIA
 T317	Noun_Phrase 13433 13437	mice
 T318	Noun_Phrase 13465 13474	male mice
 T319	Noun_Phrase 13544 13546	RA
@@ -334,8 +323,7 @@ T321	Noun_Phrase 13795 13807	this disease
 T322	Noun_Phrase 13836 13853	the present paper
 T323	Noun_Phrase 13862 13873	multiparity
 T324	IDENTITY_chain 13862 13873	multiparity
-T325	Noun_Phrase 13904 13917;	the incidence
-13930 13958	the incidenceof CIA induced later in life
+T325	Noun_Phrase 13904 13917;13930 13958	the incidence of CIA induced later in life
 T326	Noun_Phrase 13904 13958	the incidence or severity of CIA induced later in life
 T327	IDENTITY_chain 13904 13958	the incidence or severity of CIA induced later in life
 T328	Noun_Phrase 13954 13958	life
@@ -351,8 +339,7 @@ T337	Noun_Phrase 14466 14476	this study
 T338	Noun_Phrase 14517 14520	CIA
 T339	Noun_Phrase 14541 14585	two associated with arthritis susceptibility
 T340	IDENTITY_chain 14541 14585	two associated with arthritis susceptibility
-T341	Noun_Phrase 14587 14598;	chromosomes
-14605 14607	chromosomes11
+T341	Noun_Phrase 14587 14598;14605 14607	chromosomes 11
 T342	Noun_Phrase 14587 14600	chromosomes 1
 T343	Noun_Phrase 14587 14607	chromosomes 1 and 11
 T344	IDENTITY_chain 14587 14607	chromosomes 1 and 11
@@ -458,16 +445,14 @@ T443	Noun_Phrase 18390 18392	ML
 T444	Noun_Phrase 18402 18411	the study
 T445	Noun_Phrase 18484 18494	This study
 T446	Noun_Phrase 18657 18665	Figure 1
-T447	Noun_Phrase 18709 18729;	the parental strains
-18748 18762	the parental strainsof female mice
+T447	Noun_Phrase 18709 18729;18748 18762	the parental strains of female mice
 T448	Noun_Phrase 18731 18746	NFR/N and B10.Q
 T449	APPOS_relation 18731 18746	NFR/N and B10.Q
 T450	Noun_Phrase 18765 18773	Figure 2
 T451	Noun_Phrase 18804 18827	quantitative trait loci
 T452	APPOS_relation 18804 18827	quantitative trait loci
 T453	Noun_Phrase 18829 18832	QTL
-T454	Noun_Phrase 18878 18889;	chromosomes
-18896 18898	chromosomes11
+T454	Noun_Phrase 18878 18889;18896 18898	chromosomes 11
 T455	Noun_Phrase 18878 18891	chromosomes 1
 T456	Noun_Phrase 18878 18898	chromosomes 1 and 11
 T457	Noun_Phrase 18908 18924	collagen type II

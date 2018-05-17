@@ -27,8 +27,7 @@ T25	Noun_Phrase 519 548	transforming growth factor ?2
 T26	Noun_Phrase 519 558	transforming growth factor ?2 signaling
 T27	IDENTITY_chain 519 558	transforming growth factor ?2 signaling
 T28	Noun_Phrase 594 624	the transcription factor Snail
-T29	Noun_Phrase 638 678;	the Ras-mitogen-activated protein kinase
-686 693	the Ras-mitogen-activated protein kinasepathway
+T29	Noun_Phrase 638 678;686 693	the Ras-mitogen-activated protein kinase pathway
 T30	Noun_Phrase 642 645	Ras
 T31	IDENTITY_chain 642 645	Ras
 T32	Noun_Phrase 642 678	Ras-mitogen-activated protein kinase
@@ -89,12 +88,8 @@ T86	Noun_Phrase 2071 2109	these molecular communication pathways
 T87	IDENTITY_chain 2071 2109	these molecular communication pathways
 T88	Noun_Phrase 2114 2118	Wnts
 T89	IDENTITY_chain 2114 2118	Wnts
-T90	Noun_Phrase 2114 2145;	Wnts, bone morphogenic proteins
-2154 2183;	Wnts, bone morphogenic proteinstransforming growth factor ?s
-2194 2223	Wnts, bone morphogenic proteinstransforming growth factor ?sand fibroblast growth factors
-T91	IDENTITY_chain 2114 2145;	Wnts, bone morphogenic proteins
-2154 2183;	Wnts, bone morphogenic proteinstransforming growth factor ?s
-2194 2223	Wnts, bone morphogenic proteinstransforming growth factor ?sand fibroblast growth factors
+T90	Noun_Phrase 2114 2145;2154 2183;2194 2223	Wnts, bone morphogenic proteins transforming growth factor ?s and fibroblast growth factors
+T91	IDENTITY_chain 2114 2145;2154 2183;2194 2223	Wnts, bone morphogenic proteins transforming growth factor ?s and fibroblast growth factors
 T92	Noun_Phrase 2120 2145	bone morphogenic proteins
 T93	APPOS_relation 2120 2145	bone morphogenic proteins
 T94	IDENTITY_chain 2120 2145	bone morphogenic proteins
@@ -110,14 +105,10 @@ T103	Noun_Phrase 2225 2229	FGFs
 T104	Noun_Phrase 2267 2280	transmembrane
 T105	IDENTITY_chain 2267 2280	transmembrane
 T106	Noun_Phrase 2292 2326	these external signaling molecules
-T107	Noun_Phrase 2356 2405;	intracellular events that culminate in changes in
-2423 2429	intracellular events that culminate in changes ingrowth
-T108	IDENTITY_chain 2356 2405;	intracellular events that culminate in changes in
-2423 2429	intracellular events that culminate in changes ingrowth
-T109	Noun_Phrase 2356 2405;	intracellular events that culminate in changes in
-2435 2450	intracellular events that culminate in changes indifferentiation
-T110	IDENTITY_chain 2356 2405;	intracellular events that culminate in changes in
-2435 2450	intracellular events that culminate in changes indifferentiation
+T107	Noun_Phrase 2356 2405;2423 2429	intracellular events that culminate in changes in growth
+T108	IDENTITY_chain 2356 2405;2423 2429	intracellular events that culminate in changes in growth
+T109	Noun_Phrase 2356 2405;2435 2450	intracellular events that culminate in changes in differentiation
+T110	IDENTITY_chain 2356 2405;2435 2450	intracellular events that culminate in changes in differentiation
 T111	Noun_Phrase 2356 2421	intracellular events that culminate in changes in gene expression
 T112	IDENTITY_chain 2356 2421	intracellular events that culminate in changes in gene expression
 T113	Noun_Phrase 2356 2450	intracellular events that culminate in changes in gene expression, growth, and differentiation
@@ -213,12 +204,9 @@ T202	IDENTITY_chain 5174 5183	?-catenin
 T203	Noun_Phrase 5174 5183	?-catenin
 T204	Noun_Phrase 5185 5190	which
 T205	Noun_Phrase 5358 5367	?-Catenin
-T206	Noun_Phrase 5382 5415;	the class III Lin-1, Isl-1, Mec-3
-5422 5435	the class III Lin-1, Isl-1, Mec-3protein Ajuba
-T207	APPOS_relation 5382 5415;	the class III Lin-1, Isl-1, Mec-3
-5422 5435	the class III Lin-1, Isl-1, Mec-3protein Ajuba
-T208	IDENTITY_chain 5382 5415;	the class III Lin-1, Isl-1, Mec-3
-5422 5435	the class III Lin-1, Isl-1, Mec-3protein Ajuba
+T206	Noun_Phrase 5382 5415;5422 5435	the class III Lin-1, Isl-1, Mec-3 protein Ajuba
+T207	APPOS_relation 5382 5415;5422 5435	the class III Lin-1, Isl-1, Mec-3 protein Ajuba
+T208	IDENTITY_chain 5382 5415;5422 5435	the class III Lin-1, Isl-1, Mec-3 protein Ajuba
 T209	IDENTITY_chain 5396 5415	Lin-1, Isl-1, Mec-3
 T210	Noun_Phrase 5396 5415	Lin-1, Isl-1, Mec-3
 T211	APPOS_relation 5396 5415	Lin-1, Isl-1, Mec-3
@@ -231,10 +219,8 @@ T217	IDENTITY_chain 5469 5477	proteins
 T218	Noun_Phrase 5480 5485	which
 T219	Noun_Phrase 5521 5529	adhesion
 T220	IDENTITY_chain 5521 5529	adhesion
-T221	Noun_Phrase 5537 5591;	activation of the Ras-mitogen-activated protein kinase
-5599 5606	activation of the Ras-mitogen-activated protein kinasepathway
-T222	Noun_Phrase 5551 5591;	the Ras-mitogen-activated protein kinase
-5599 5606	the Ras-mitogen-activated protein kinasepathway
+T221	Noun_Phrase 5537 5591;5599 5606	activation of the Ras-mitogen-activated protein kinase pathway
+T222	Noun_Phrase 5551 5591;5599 5606	the Ras-mitogen-activated protein kinase pathway
 T223	Noun_Phrase 5555 5558	Ras
 T224	Noun_Phrase 5555 5591	Ras-mitogen-activated protein kinase
 T225	Noun_Phrase 5559 5591	mitogen-activated protein kinase
@@ -318,8 +304,7 @@ T302	APPOS_relation 7650 7660	transgenic
 T303	IDENTITY_chain 7650 7660	transgenic
 T304	Noun_Phrase 7662 7664	Tg
 T305	Noun_Phrase 7708 7714	TGF-?2
-T306	Noun_Phrase 7708 7714;	TGF-?2
-7798 7807	TGF-?2signaling
+T306	Noun_Phrase 7708 7714;7798 7807	TGF-?2 signaling
 T307	Noun_Phrase 7719 7789	small phenotype– and mothers against decapentaplegic–related protein 2
 T308	APPOS_relation 7719 7789	small phenotype– and mothers against decapentaplegic–related protein 2
 T309	IDENTITY_chain 7719 7789	small phenotype– and mothers against decapentaplegic–related protein 2
@@ -338,8 +323,7 @@ T321	Noun_Phrase 8006 8017	Our studies
 T322	Noun_Phrase 8041 8046	Snail
 T323	Noun_Phrase 8120 8127	the bud
 T324	Noun_Phrase 8146 8168	enhanced proliferation
-T325	Noun_Phrase 8194 8199;	Snail
-8209 8216	SnailProtein
+T325	Noun_Phrase 8194 8199;8209 8216	Snail Protein
 T326	Noun_Phrase 8194 8204	Snail mRNA
 T327	IDENTITY_chain 8194 8204	Snail mRNA
 T328	Noun_Phrase 8194 8216	Snail mRNA and Protein
@@ -413,10 +397,8 @@ T395	Noun_Phrase 9587 9596	Figure 1A
 T396	IDENTITY_chain 9587 9596	Figure 1A
 T397	Noun_Phrase 9694 9703	follicles
 T398	Noun_Phrase 9731 9736	their
-T399	Noun_Phrase 9756 9760;	germ
-9769 9775	germstages
-T400	IDENTITY_chain 9756 9760;	germ
-9769 9775	germstages
+T399	Noun_Phrase 9756 9760;9769 9775	germ stages
+T400	IDENTITY_chain 9756 9760;9769 9775	germ stages
 T401	Noun_Phrase 9765 9775	peg stages
 T402	IDENTITY_chain 9765 9775	peg stages
 T403	Noun_Phrase 9778 9782	they
@@ -441,14 +423,10 @@ T421	IDENTITY_chain 10390 10411	Western blot analysis
 T422	Noun_Phrase 10413 10425	the antibody
 T423	Noun_Phrase 10466 10488	cultured keratinocytes
 T424	Noun_Phrase 10494 10496	it
-T425	Noun_Phrase 10540 10592;	keratinocytes transiently expressing a hemagglutinin
-10598 10618	keratinocytes transiently expressing a hemagglutinintagged Snail protein
-T426	IDENTITY_chain 10540 10592;	keratinocytes transiently expressing a hemagglutinin
-10598 10618	keratinocytes transiently expressing a hemagglutinintagged Snail protein
-T427	IDENTITY_chain 10577 10592;	a hemagglutinin
-10598 10618	a hemagglutinintagged Snail protein
-T428	Noun_Phrase 10577 10592;	a hemagglutinin
-10598 10618	a hemagglutinintagged Snail protein
+T425	Noun_Phrase 10540 10592;10598 10618	keratinocytes transiently expressing a hemagglutinin tagged Snail protein
+T426	IDENTITY_chain 10540 10592;10598 10618	keratinocytes transiently expressing a hemagglutinin tagged Snail protein
+T427	IDENTITY_chain 10577 10592;10598 10618	a hemagglutinin tagged Snail protein
+T428	Noun_Phrase 10577 10592;10598 10618	a hemagglutinin tagged Snail protein
 T429	Noun_Phrase 10579 10592	hemagglutinin
 T430	APPOS_relation 10579 10592	hemagglutinin
 T431	IDENTITY_chain 10579 10592	hemagglutinin
@@ -479,8 +457,7 @@ T455	Noun_Phrase 11231 11240	Figure 1D
 T456	IDENTITY_chain 11231 11240	Figure 1D
 T457	Noun_Phrase 11294 11313	anti-Snail antibody
 T458	IDENTITY_chain 11294 11313	anti-Snail antibody
-T459	Noun_Phrase 11327 11331;	hair
-11345 11354	hairfollicles
+T459	Noun_Phrase 11327 11331;11345 11354	hair follicles
 T460	Noun_Phrase 11327 11336	hair buds
 T461	Noun_Phrase 11393 11402	Figure 1E
 T462	IDENTITY_chain 11393 11402	Figure 1E
@@ -521,18 +498,13 @@ T496	Noun_Phrase 12496 12505	Figure 1F
 T497	IDENTITY_chain 12496 12505	Figure 1F
 T498	Noun_Phrase 12534 12593	antibodies against the active (phosphorylated) form of MAPK
 T499	IDENTITY_chain 12534 12593	antibodies against the active (phosphorylated) form of MAPK
-T500	Noun_Phrase 12565 12579;	phosphorylated
-12581 12593	phosphorylatedform of MAPK
-T501	APPOS_relation 12565 12579;	phosphorylated
-12581 12593	phosphorylatedform of MAPK
-T502	IDENTITY_chain 12565 12579;	phosphorylated
-12581 12593	phosphorylatedform of MAPK
+T500	Noun_Phrase 12565 12579;12581 12593	phosphorylated form of MAPK
+T501	APPOS_relation 12565 12579;12581 12593	phosphorylated form of MAPK
+T502	IDENTITY_chain 12565 12579;12581 12593	phosphorylated form of MAPK
 T503	Noun_Phrase 12589 12593	MAPK
 T504	Noun_Phrase 12595 12600	pMAPK
-T505	Noun_Phrase 12621 12638;	the proliferating
-12655 12660	the proliferatingcells
-T506	IDENTITY_chain 12621 12638;	the proliferating
-12655 12660	the proliferatingcells
+T505	Noun_Phrase 12621 12638;12655 12660	the proliferating cells
+T506	IDENTITY_chain 12621 12638;12655 12660	the proliferating cells
 T507	Noun_Phrase 12640 12644	Ki67
 T508	Noun_Phrase 12666 12671	pMAPK
 T509	Noun_Phrase 12666 12686	pMAPK-positive cells
@@ -572,10 +544,8 @@ T542	Noun_Phrase 13265 13267	us
 T543	Noun_Phrase 13322 13327	Snail
 T544	Noun_Phrase 13341 13361	mouse skin epidermis
 T545	IDENTITY_chain 13341 13361	mouse skin epidermis
-T546	Noun_Phrase 13378 13380;	Tg
-13397 13402	TgSnail
-T547	IDENTITY_chain 13378 13380;	Tg
-13397 13402	TgSnail
+T546	Noun_Phrase 13378 13380;13397 13402	Tg Snail
+T547	IDENTITY_chain 13378 13380;13397 13402	Tg Snail
 T548	Noun_Phrase 13386 13402	endogenous Snail
 T549	Noun_Phrase 13404 13406	we
 T550	Noun_Phrase 13416 13418	HA
@@ -613,10 +583,8 @@ T581	Noun_Phrase 14350 14376	These hyperthickened areas
 T582	Noun_Phrase 14392 14415	excessive proliferation
 T583	Noun_Phrase 14432 14489	antibodies against the proliferating nuclear antigen Ki67
 T584	Noun_Phrase 14451 14489	the proliferating nuclear antigen Ki67
-T585	Noun_Phrase 14491 14497;	Figure
-14505 14507	Figure2E
-T586	IDENTITY_chain 14491 14497;	Figure
-14505 14507	Figure2E
+T585	Noun_Phrase 14491 14497;14505 14507	Figure 2E
+T586	IDENTITY_chain 14491 14497;14505 14507	Figure 2E
 T587	Noun_Phrase 14491 14500	Figure 2D
 T588	IDENTITY_chain 14491 14500	Figure 2D
 T589	Noun_Phrase 14491 14507	Figure 2D and 2E
@@ -624,10 +592,8 @@ T590	IDENTITY_chain 14491 14507	Figure 2D and 2E
 T591	Noun_Phrase 14510 14541	Activated, pMAPK-positive cells
 T592	Noun_Phrase 14521 14526	pMAPK
 T593	Noun_Phrase 14565 14576	these areas
-T594	Noun_Phrase 14578 14584;	Figure
-14592 14594	Figure2G
-T595	IDENTITY_chain 14578 14584;	Figure
-14592 14594	Figure2G
+T594	Noun_Phrase 14578 14584;14592 14594	Figure 2G
+T595	IDENTITY_chain 14578 14584;14592 14594	Figure 2G
 T596	Noun_Phrase 14578 14587	Figure 2F
 T597	IDENTITY_chain 14578 14587	Figure 2F
 T598	Noun_Phrase 14578 14594	Figure 2F and 2G
@@ -637,10 +603,8 @@ T601	APPOS_relation 14622 14631	keratin 6
 T602	IDENTITY_chain 14622 14631	keratin 6
 T603	Noun_Phrase 14633 14702	a keratin induced in the suprabasal layers of hyperproliferative skin
 T604	Noun_Phrase 14679 14702	hyperproliferative skin
-T605	Noun_Phrase 14704 14710;	Figure
-14718 14720	Figure2I
-T606	IDENTITY_chain 14704 14710;	Figure
-14718 14720	Figure2I
+T605	Noun_Phrase 14704 14710;14718 14720	Figure 2I
+T606	IDENTITY_chain 14704 14710;14718 14720	Figure 2I
 T607	Noun_Phrase 14704 14713	Figure 2H
 T608	IDENTITY_chain 14704 14713	Figure 2H
 T609	Noun_Phrase 14724 14757	Expression of the Snail transgene
@@ -652,14 +616,10 @@ T614	Noun_Phrase 14838 14840	it
 T615	Noun_Phrase 14851 14853	it
 T616	Noun_Phrase 14926 14931	Snail
 T617	Noun_Phrase 14926 14942	Snail expression
-T618	Noun_Phrase 14971 14982;	layers with
-14995 15014	layers withgranular morphology
-T619	IDENTITY_chain 14971 14982;	layers with
-14995 15014	layers withgranular morphology
-T620	Noun_Phrase 14971 14990;	layers with spinous
-15004 15014	layers with spinousmorphology
-T621	IDENTITY_chain 14971 14990;	layers with spinous
-15004 15014	layers with spinousmorphology
+T618	Noun_Phrase 14971 14982;14995 15014	layers with granular morphology
+T619	IDENTITY_chain 14971 14982;14995 15014	layers with granular morphology
+T620	Noun_Phrase 14971 14990;15004 15014	layers with spinous morphology
+T621	IDENTITY_chain 14971 14990;15004 15014	layers with spinous morphology
 T622	Noun_Phrase 15078 15087	keratin 5
 T623	APPOS_relation 15078 15087	keratin 5
 T624	IDENTITY_chain 15078 15087	keratin 5
@@ -674,8 +634,7 @@ T632	Noun_Phrase 15365 15378	Snail protein
 T633	Noun_Phrase 15400 15402	K5
 T634	Noun_Phrase 15404 15408	Ki67
 T635	Noun_Phrase 15414 15419	pMAPK
-T636	Noun_Phrase 15450 15457;	Figures
-15464 15465	Figures3
+T636	Noun_Phrase 15450 15457;15464 15465	Figures 3
 T637	Noun_Phrase 15450 15459	Figures 2
 T638	Noun_Phrase 15484 15502	hyperproliferation
 T639	Noun_Phrase 15507 15522	differentiation
@@ -683,20 +642,16 @@ T640	Noun_Phrase 15662 15693	areas where Snail was expressed
 T641	IDENTITY_chain 15662 15693	areas where Snail was expressed
 T642	Noun_Phrase 15674 15679	Snail
 T643	Noun_Phrase 15734 15747	these regions
-T644	Noun_Phrase 15749 15755;	Figure
-15763 15765	Figure3J
-T645	IDENTITY_chain 15749 15755;	Figure
-15763 15765	Figure3J
+T644	Noun_Phrase 15749 15755;15763 15765	Figure 3J
+T645	IDENTITY_chain 15749 15755;15763 15765	Figure 3J
 T646	Noun_Phrase 15749 15758	Figure 3I
 T647	IDENTITY_chain 15749 15758	Figure 3I
 T648	Noun_Phrase 15749 15765	Figure 3I and 3J
 T649	IDENTITY_chain 15749 15765	Figure 3I and 3J
 T650	Noun_Phrase 15851 15883	the underlying basement membrane
 T651	IDENTITY_chain 15851 15883	the underlying basement membrane
-T652	Noun_Phrase 15885 15891;	Figure
-15899 15901	Figure3L
-T653	IDENTITY_chain 15885 15891;	Figure
-15899 15901	Figure3L
+T652	Noun_Phrase 15885 15891;15899 15901	Figure 3L
+T653	IDENTITY_chain 15885 15891;15899 15901	Figure 3L
 T654	Noun_Phrase 15885 15894	Figure 3K
 T655	IDENTITY_chain 15885 15894	Figure 3K
 T656	Noun_Phrase 15885 15901	Figure 3K and 3L
@@ -704,10 +659,8 @@ T657	IDENTITY_chain 15885 15901	Figure 3K and 3L
 T658	Noun_Phrase 15978 15996	the hemidesmosomes
 T659	IDENTITY_chain 15978 15996	the hemidesmosomes
 T660	Noun_Phrase 15998 16003	which
-T661	Noun_Phrase 16085 16091;	Figure
-16099 16101	Figure3N
-T662	IDENTITY_chain 16085 16091;	Figure
-16099 16101	Figure3N
+T661	Noun_Phrase 16085 16091;16099 16101	Figure 3N
+T662	IDENTITY_chain 16085 16091;16099 16101	Figure 3N
 T663	Noun_Phrase 16085 16094	Figure 3M
 T664	IDENTITY_chain 16085 16094	Figure 3M
 T665	Noun_Phrase 16085 16101	Figure 3M and 3N
@@ -879,10 +832,8 @@ T830	Noun_Phrase 20141 20172	a down-regulation of E-cadherin
 T831	IDENTITY_chain 20141 20172	a down-regulation of E-cadherin
 T832	Noun_Phrase 20162 20172	E-cadherin
 T833	Noun_Phrase 20197 20206	?-catenin
-T834	Noun_Phrase 20275 20298;	the LEF-1/T cell factor
-20305 20335	the LEF-1/T cell factorfamily of DNA binding proteins
-T835	IDENTITY_chain 20275 20298;	the LEF-1/T cell factor
-20305 20335	the LEF-1/T cell factorfamily of DNA binding proteins
+T834	Noun_Phrase 20275 20298;20305 20335	the LEF-1/T cell factor family of DNA binding proteins
+T835	IDENTITY_chain 20275 20298;20305 20335	the LEF-1/T cell factor family of DNA binding proteins
 T836	Noun_Phrase 20279 20284	LEF-1
 T837	Noun_Phrase 20285 20298	T cell factor
 T838	APPOS_relation 20285 20298	T cell factor
@@ -917,12 +868,9 @@ T866	Noun_Phrase 20886 20894	Snail Tg
 T867	Noun_Phrase 20921 20924	its
 T868	Noun_Phrase 20952 20961	?-catenin
 T869	Noun_Phrase 20968 20973	Ajuba
-T870	Noun_Phrase 20998 21036;	growth factor receptor-bound protein-2
-21045 21061	growth factor receptor-bound protein-2son of sevenless
-T871	APPOS_relation 20998 21036;	growth factor receptor-bound protein-2
-21045 21061	growth factor receptor-bound protein-2son of sevenless
-T872	IDENTITY_chain 20998 21036;	growth factor receptor-bound protein-2
-21045 21061	growth factor receptor-bound protein-2son of sevenless
+T870	Noun_Phrase 20998 21036;21045 21061	growth factor receptor-bound protein-2 son of sevenless
+T871	APPOS_relation 20998 21036;21045 21061	growth factor receptor-bound protein-2 son of sevenless
+T872	IDENTITY_chain 20998 21036;21045 21061	growth factor receptor-bound protein-2 son of sevenless
 T873	Noun_Phrase 20998 21036	growth factor receptor-bound protein-2
 T874	APPOS_relation 20998 21036	growth factor receptor-bound protein-2
 T875	IDENTITY_chain 20998 21036	growth factor receptor-bound protein-2
@@ -951,10 +899,8 @@ T897	IDENTITY_chain 21359 21369	anti-Grb-2
 T898	Noun_Phrase 21413 21435	skins of Snail Tg mice
 T899	Noun_Phrase 21422 21430	Snail Tg
 T900	Noun_Phrase 21422 21435	Snail Tg mice
-T901	Noun_Phrase 21449 21476;	the corresponding wild-type
-21482 21489	the corresponding wild-typeanimals
-T902	IDENTITY_chain 21449 21476;	the corresponding wild-type
-21482 21489	the corresponding wild-typeanimals
+T901	Noun_Phrase 21449 21476;21482 21489	the corresponding wild-type animals
+T902	IDENTITY_chain 21449 21476;21482 21489	the corresponding wild-type animals
 T903	APPOS_relation 21467 21476	wild-type
 T904	IDENTITY_chain 21467 21476	wild-type
 T905	Noun_Phrase 21467 21476	wild-type
@@ -1038,8 +984,7 @@ T982	Noun_Phrase 23157 23177	the Ras-MAPK pathway
 T983	Noun_Phrase 23161 23164	Ras
 T984	Noun_Phrase 23161 23169	Ras-MAPK
 T985	Noun_Phrase 23188 23200	this pathway
-T986	Noun_Phrase 23233 23238;	Snail
-23254 23267	Snailproliferation
+T986	Noun_Phrase 23233 23238;23254 23267	Snail proliferation
 T987	Noun_Phrase 23233 23238	Snail
 T988	Noun_Phrase 23233 23249	Snail expression
 T989	Noun_Phrase 23286 23301	skin epithelium
@@ -1076,8 +1021,7 @@ T1019	Noun_Phrase 24073 24082	Figure 1B
 T1020	Noun_Phrase 24085 24087	we
 T1021	Noun_Phrase 24096 24099	our
 T1022	Noun_Phrase 24113 24116	Wnt
-T1023	Noun_Phrase 24113 24116;	Wnt
-24127 24136	Wntsignaling
+T1023	Noun_Phrase 24113 24116;24127 24136	Wnt signaling
 T1024	Noun_Phrase 24121 24126	TGF-?
 T1025	Noun_Phrase 24121 24136	TGF-? signaling
 T1026	Noun_Phrase 24167 24172	Snail
@@ -1229,16 +1173,13 @@ T1171	Noun_Phrase 27866 27872	pSMAD2
 T1172	Noun_Phrase 27907 27921	the Snail gene
 T1173	Noun_Phrase 27947 27960	Snail protein
 T1174	Noun_Phrase 27993 28001	promoter
-T1175	Noun_Phrase 28028 28033;	Snail
-28043 28050	Snailprotein
-T1176	Noun_Phrase 28028 28033;	Snail
-28043 28060	Snailprotein induction
+T1175	Noun_Phrase 28028 28033;28043 28050	Snail protein
+T1176	Noun_Phrase 28028 28033;28043 28060	Snail protein induction
 T1177	Noun_Phrase 28028 28038	Snail gene
 T1178	Noun_Phrase 28064 28070	TGF-?2
 T1179	Noun_Phrase 28064 28101	TGF-?2 treated cultured keratinocytes
 T1180	Noun_Phrase 28112 28234	the temporal appearance of Snail mRNA and protein at the initiation of hair follicle morphogenesis in embryonic mouse skin
-T1181	Noun_Phrase 28139 28144;	Snail
-28154 28161	Snailprotein
+T1181	Noun_Phrase 28139 28144;28154 28161	Snail protein
 T1182	Noun_Phrase 28139 28149	Snail mRNA
 T1183	Noun_Phrase 28139 28161	Snail mRNA and protein
 T1184	Noun_Phrase 28183 28196	hair follicle
@@ -1265,10 +1206,8 @@ T1204	Noun_Phrase 28705 28711	TGF-?2
 T1205	Noun_Phrase 28705 28721	TGF-?2 signaling
 T1206	Noun_Phrase 28723 28729	pSMAD2
 T1207	APPOS_relation 28723 28729	pSMAD2
-T1208	Noun_Phrase 28753 28755;	WT
-28778 28787	WThair buds
-T1209	IDENTITY_chain 28753 28755;	WT
-28778 28787	WThair buds
+T1208	Noun_Phrase 28753 28755;28778 28787	WT hair buds
+T1209	IDENTITY_chain 28753 28755;28778 28787	WT hair buds
 T1210	Noun_Phrase 28753 28755	WT
 T1211	Noun_Phrase 28765 28771	TGF-?2
 T1212	Noun_Phrase 28765 28787	TGF-?2-null, hair buds
@@ -1354,15 +1293,11 @@ T1291	Noun_Phrase 30545 30551	TGF-?2
 T1292	Noun_Phrase 30545 30561	TGF-?2 signaling
 T1293	Noun_Phrase 30640 30664	the developing hair buds
 T1294	Noun_Phrase 30679 30688	anti-Ki67
-T1295	Noun_Phrase 30679 30688;	anti-Ki67
-30704 30722	anti-Ki67immunofluorescence
-T1296	IDENTITY_chain 30679 30688;	anti-Ki67
-30704 30722	anti-Ki67immunofluorescence
+T1295	Noun_Phrase 30679 30688;30704 30722	anti-Ki67 immunofluorescence
+T1296	IDENTITY_chain 30679 30688;30704 30722	anti-Ki67 immunofluorescence
 T1297	Noun_Phrase 30693 30703	anti-pMAPK
-T1298	Noun_Phrase 30724 30730;	Figure
-30738 30740	Figure6G
-T1299	IDENTITY_chain 30724 30730;	Figure
-30738 30740	Figure6G
+T1298	Noun_Phrase 30724 30730;30738 30740	Figure 6G
+T1299	IDENTITY_chain 30724 30730;30738 30740	Figure 6G
 T1300	Noun_Phrase 30724 30733	Figure 6F
 T1301	Noun_Phrase 30724 30740	Figure 6F and 6G
 T1302	IDENTITY_chain 30724 30740	Figure 6F and 6G
@@ -1389,8 +1324,7 @@ T1322	Noun_Phrase 31097 31113	TGF-?2 null skin
 T1323	Noun_Phrase 31173 31194	their WT counterparts
 T1324	Noun_Phrase 31179 31181	WT
 T1325	Noun_Phrase 31208 31210	we
-T1326	Noun_Phrase 31253 31278;	the extracellular signals
-31287 31293	the extracellular signalsnoggin
+T1326	Noun_Phrase 31253 31278;31287 31293	the extracellular signals noggin
 T1327	Noun_Phrase 31253 31282	the extracellular signals Wnt
 T1328	Noun_Phrase 31253 31293	the extracellular signals Wnt and noggin
 T1329	Noun_Phrase 31331 31336	LEF-1
@@ -1398,14 +1332,11 @@ T1330	Noun_Phrase 31337 31346	?-catenin
 T1331	Noun_Phrase 31380 31390	E-cadherin
 T1332	Noun_Phrase 31421 31430	hair fate
 T1333	IDENTITY_chain 31421 31430	hair fate
-T1334	Noun_Phrase 31458 31464;	Figure
-31472 31474	Figure6J
-T1335	IDENTITY_chain 31458 31464;	Figure
-31472 31474	Figure6J
+T1334	Noun_Phrase 31458 31464;31472 31474	Figure 6J
+T1335	IDENTITY_chain 31458 31464;31472 31474	Figure 6J
 T1336	Noun_Phrase 31458 31467	Figure 6I
 T1337	IDENTITY_chain 31458 31467	Figure 6I
-T1338	Noun_Phrase 31481 31483;	WT
-31495 31504	WTnull buds
+T1338	Noun_Phrase 31481 31483;31495 31504	WT null buds
 T1339	Noun_Phrase 31481 31483	WT
 T1340	Noun_Phrase 31488 31494	TGF-?2
 T1341	Noun_Phrase 31488 31504	TGF-?2 null buds
@@ -1432,8 +1363,7 @@ T1361	Noun_Phrase 31887 31897	E-cadherin
 T1362	Noun_Phrase 31887 31904	E-cadherin levels
 T1363	Noun_Phrase 31945 31970	proliferative circuitries
 T1364	Noun_Phrase 31992 32013	budding morphogenesis
-T1365	Noun_Phrase 32052 32055;	the
-32071 32081	themesenchyme
+T1365	Noun_Phrase 32052 32055;32071 32081	the mesenchyme
 T1366	Noun_Phrase 32052 32066	the epithelium
 T1367	Noun_Phrase 32052 32081	the epithelium and mesenchyme
 T1368	Noun_Phrase 32174 32179	cells
@@ -1441,10 +1371,8 @@ T1369	Noun_Phrase 32433 32455	external cues involved
 T1370	IDENTITY_chain 32433 32455	external cues involved
 T1371	Noun_Phrase 32493 32511	the developing bud
 T1372	Noun_Phrase 32522 32535	these signals
-T1373	Noun_Phrase 32541 32565;	the downstream events of
-32587 32600	the downstream events ofproliferation
-T1374	Noun_Phrase 32541 32565;	the downstream events of
-32606 32621	the downstream events ofdifferentiation
+T1373	Noun_Phrase 32541 32565;32587 32600	the downstream events of proliferation
+T1374	Noun_Phrase 32541 32565;32606 32621	the downstream events of differentiation
 T1375	Noun_Phrase 32541 32585	the downstream events of cellular remodeling
 T1376	Noun_Phrase 32541 32621	the downstream events of cellular remodeling, proliferation, and differentiation
 T1377	Noun_Phrase 32587 32600	proliferation
@@ -1483,13 +1411,10 @@ T1409	Noun_Phrase 33354 33359	LEF-1
 T1410	Noun_Phrase 33361 33364	Shh
 T1411	Noun_Phrase 33369 33375	TGF-?2
 T1412	Noun_Phrase 33385 33390	These
-T1413	Noun_Phrase 33406 33432;	the first wave of follicle
-33452 33465	the first wave of folliclemorphogenesis
-T1414	IDENTITY_chain 33406 33432;	the first wave of follicle
-33452 33465	the first wave of folliclemorphogenesis
+T1413	Noun_Phrase 33406 33432;33452 33465	the first wave of follicle morphogenesis
+T1414	IDENTITY_chain 33406 33432;33452 33465	the first wave of follicle morphogenesis
 T1415	Noun_Phrase 33424 33432	follicle
-T1416	Noun_Phrase 33424 33432;	follicle
-33452 33465	folliclemorphogenesis
+T1416	Noun_Phrase 33424 33432;33452 33465	follicle morphogenesis
 T1417	Noun_Phrase 33440 33450	guard hair
 T1418	IDENTITY_chain 33440 33450	guard hair
 T1419	Noun_Phrase 33467 33472	which
@@ -1603,8 +1528,7 @@ T1526	Noun_Phrase 37346 37363	the hair follicle
 T1527	Noun_Phrase 37399 37429	developing embryonic hair buds
 T1528	Noun_Phrase 37481 37497	The K14 promoter
 T1529	Noun_Phrase 37485 37488	K14
-T1530	Noun_Phrase 37521 37524;	the
-37534 37543	theepidermis
+T1530	Noun_Phrase 37521 37524;37534 37543	the epidermis
 T1531	Noun_Phrase 37521 37528	the ORS
 T1532	Noun_Phrase 37615 37622	the ORS
 T1533	Noun_Phrase 37702 37714	Snail family
@@ -1874,17 +1798,14 @@ T1796	Noun_Phrase 44661 44684	The K14-Smad 2 Tg mouse
 T1797	IDENTITY_chain 44661 44684	The K14-Smad 2 Tg mouse
 T1798	Noun_Phrase 44665 44675	K14-Smad 2
 T1799	Noun_Phrase 44676 44678	Tg
-T1800	Noun_Phrase 44719 44738;	The TGF-?2 knockout
-44744 44749	The TGF-?2 knockoutmouse
-T1801	IDENTITY_chain 44719 44738;	The TGF-?2 knockout
-44744 44749	The TGF-?2 knockoutmouse
+T1800	Noun_Phrase 44719 44738;44744 44749	The TGF-?2 knockout mouse
+T1801	IDENTITY_chain 44719 44738;44744 44749	The TGF-?2 knockout mouse
 T1802	Noun_Phrase 44723 44729	TGF-?2
 T1803	Noun_Phrase 44730 44738	knockout
 T1804	APPOS_relation 44730 44738	knockout
 T1805	IDENTITY_chain 44730 44738	knockout
 T1806	Noun_Phrase 44740 44742	KO
-T1807	Noun_Phrase 44773 44776;	The
-44799 44811	TheTOPGal mouse
+T1807	Noun_Phrase 44773 44776;44799 44811	The TOPGal mouse
 T1808	Noun_Phrase 44777 44780	shh
 T1809	Noun_Phrase 44781 44783	KO
 T1810	Noun_Phrase 44799 44805	TOPGal
@@ -1941,10 +1862,8 @@ T1860	Noun_Phrase 47174 47187	keratinocytes
 T1861	Noun_Phrase 47238 47243	cells
 T1862	Noun_Phrase 47296 47301	cells
 T1863	Noun_Phrase 47307 47310	Wnt
-T1864	Noun_Phrase 47307 47311;	Wnt-
-47323 47341	Wnt-conditioned medium
-T1865	IDENTITY_chain 47307 47311;	Wnt-
-47323 47341	Wnt-conditioned medium
+T1864	Noun_Phrase 47307 47311;47323 47341	Wnt- conditioned medium
+T1865	IDENTITY_chain 47307 47311;47323 47341	Wnt- conditioned medium
 T1866	Noun_Phrase 47316 47322	noggin
 T1867	Noun_Phrase 47316 47341	noggin-conditioned medium
 T1868	IDENTITY_chain 47316 47341	noggin-conditioned medium
@@ -2023,10 +1942,8 @@ T1940	Noun_Phrase 50812 50817	Snail
 T1941	Noun_Phrase 50859 50879	the Fuchs laboratory
 T1942	Noun_Phrase 50982 50988	Y Chai
 T1943	IDENTITY_chain 50982 50988	Y Chai
-T1944	Noun_Phrase 51010 51013;	the
-51028 51042	theK14-Smad2 mice
-T1945	Noun_Phrase 51010 51023;	the TGF-?2 KO
-51038 51042	the TGF-?2 KOmice
+T1944	Noun_Phrase 51010 51013;51028 51042	the K14-Smad2 mice
+T1945	Noun_Phrase 51010 51023;51038 51042	the TGF-?2 KO mice
 T1946	Noun_Phrase 51014 51020	TGF-?2
 T1947	Noun_Phrase 51021 51023	KO
 T1948	Noun_Phrase 51028 51037	K14-Smad2
@@ -2130,8 +2047,7 @@ T2045	Noun_Phrase 52494 52495	E
 T2046	Noun_Phrase 52501 52502	G
 T2047	Noun_Phrase 52534 52535	A
 T2048	Noun_Phrase 52590 52594	cRNA
-T2049	Noun_Phrase 52632 52682;	the basement membrane that separates the epidermis
-52689 52700	the basement membrane that separates the epidermisfrom dermis
+T2049	Noun_Phrase 52632 52682;52689 52700	the basement membrane that separates the epidermis from dermis
 T2050	Noun_Phrase 52669 52682	the epidermis
 T2051	Noun_Phrase 52684 52687	epi
 T2052	APPOS_relation 52684 52687	epi
@@ -2148,8 +2064,7 @@ T2062	Noun_Phrase 52806 52808	It
 T2063	Noun_Phrase 52858 52859	B
 T2064	Noun_Phrase 52861 52888	Expression of Snail protein
 T2065	Noun_Phrase 52875 52888	Snail protein
-T2066	Noun_Phrase 52958 52983;	keratinocytes transfected
-53051 53090	keratinocytes transfectedwith the vector driving HA-tagged Snail
+T2066	Noun_Phrase 52958 52983;53051 53090	keratinocytes transfected with the vector driving HA-tagged Snail
 T2067	Noun_Phrase 52989 53012	empty expression vector
 T2068	Noun_Phrase 53014 53017	K14
 T2069	Noun_Phrase 53031 53047	the K14 promoter
@@ -2173,8 +2088,7 @@ T2086	Noun_Phrase 53366 53378	anti-tubulin
 T2087	IDENTITY_chain 53366 53378	anti-tubulin
 T2088	Noun_Phrase 53432 53459	expression of Snail protein
 T2089	Noun_Phrase 53446 53459	Snail protein
-T2090	Noun_Phrase 53490 53493;	the
-53503 53507	theskin
+T2090	Noun_Phrase 53490 53493;53503 53507	the skin
 T2091	Noun_Phrase 53490 53498	the hair
 T2092	Noun_Phrase 53510 53511	C
 T2093	Noun_Phrase 53513 53518	E13.5
@@ -2188,8 +2102,7 @@ T2100	Noun_Phrase 53721 53726	Snail
 T2101	Noun_Phrase 53775 53776	E
 T2102	Noun_Phrase 53778 53783	Snail
 T2103	Noun_Phrase 53816 53821	E17.5
-T2104	Noun_Phrase 53874 53877;	the
-53886 53889	thepeg
+T2104	Noun_Phrase 53874 53877;53886 53889	the peg
 T2105	Noun_Phrase 53874 53882	the germ
 T2106	Noun_Phrase 53893 53894	F
 T2107	Noun_Phrase 53896 53929	Immunofluorescence with anti-Ki67
@@ -2207,8 +2120,7 @@ T2118	Noun_Phrase 54272 54280	the skin
 T2119	Noun_Phrase 54284 54285	G
 T2120	Noun_Phrase 54313 54318	pMAPK
 T2121	Noun_Phrase 54337 54390	proliferating cells within the epidermis and hair bud
-T2122	Noun_Phrase 54364 54367;	the
-54382 54390	thehair bud
+T2122	Noun_Phrase 54364 54367;54382 54390	the hair bud
 T2123	Noun_Phrase 54364 54377	the epidermis
 T2124	Noun_Phrase 54392 54402	Anti-pMAPK
 T2125	Noun_Phrase 54443 54455	the hair bud
@@ -2248,10 +2160,8 @@ T2158	Noun_Phrase 55180 55182	Tg
 T2159	Noun_Phrase 55180 55187	Tg mice
 T2160	Noun_Phrase 55247 55250	K14
 T2161	Noun_Phrase 55247 55259	K14-promoter
-T2162	Noun_Phrase 55369 55393;	skin sections from young
-55399 55403	skin sections from youngmice
-T2163	IDENTITY_chain 55369 55393;	skin sections from young
-55399 55403	skin sections from youngmice
+T2162	Noun_Phrase 55369 55393;55399 55403	skin sections from young mice
+T2163	IDENTITY_chain 55369 55393;55399 55403	skin sections from young mice
 T2164	Noun_Phrase 55395 55397	P3
 T2165	Noun_Phrase 55427 55428	B
 T2166	Noun_Phrase 55461 55463	Tg
@@ -2295,17 +2205,13 @@ T2203	Noun_Phrase 56431 56432	D
 T2204	Noun_Phrase 56431 56438	D and E
 T2205	Noun_Phrase 56437 56438	E
 T2206	Noun_Phrase 56492 56497	pMAPK
-T2207	Noun_Phrase 56527 56544;	all proliferating
-56561 56566	all proliferatingcells
+T2207	Noun_Phrase 56527 56544;56561 56566	all proliferating cells
 T2208	Noun_Phrase 56546 56550	Ki67
 T2209	Noun_Phrase 56594 56598	Ki67
-T2210	Noun_Phrase 56594 56599;	Ki67-
-56614 56622;	Ki67-positive
-56627 56632	Ki67-positivecells
+T2210	Noun_Phrase 56594 56599;56614 56622;56627 56632	Ki67- positive cells
 T2211	Noun_Phrase 56601 56602	E
 T2212	Noun_Phrase 56608 56613	pMAPK
-T2213	Noun_Phrase 56608 56622;	pMAPK-positive
-56627 56632	pMAPK-positivecells
+T2213	Noun_Phrase 56608 56622;56627 56632	pMAPK-positive cells
 T2214	Noun_Phrase 56624 56625	G
 T2215	Noun_Phrase 56659 56663	Ki67
 T2216	Noun_Phrase 56659 56678	Ki67-positive cells
@@ -2359,22 +2265,12 @@ T2263	Noun_Phrase 57660 57662	Tg
 T2264	Noun_Phrase 57699 57700	I
 T2265	Noun_Phrase 57699 57706	I and J
 T2266	Noun_Phrase 57705 57706	J
-T2267	Noun_Phrase 57739 57754;	sections of P30
-57776 57778;	sections of P30Tg
-57810 57815	sections of P30Tgskins
-T2268	IDENTITY_chain 57739 57754;	sections of P30
-57776 57778;	sections of P30Tg
-57810 57815	sections of P30Tgskins
-T2269	Noun_Phrase 57739 57757;	sections of P30 Wt
-57772 57778;	sections of P30 Wtand Tg
-57810 57815	sections of P30 Wtand Tgskins
-T2270	IDENTITY_chain 57739 57757;	sections of P30 Wt
-57772 57778;	sections of P30 Wtand Tg
-57810 57815	sections of P30 Wtand Tgskins
-T2271	Noun_Phrase 57739 57757;	sections of P30 Wt
-57810 57815	sections of P30 Wtskins
-T2272	IDENTITY_chain 57739 57757;	sections of P30 Wt
-57810 57815	sections of P30 Wtskins
+T2267	Noun_Phrase 57739 57754;57776 57778;57810 57815	sections of P30 Tg skins
+T2268	IDENTITY_chain 57739 57754;57776 57778;57810 57815	sections of P30 Tg skins
+T2269	Noun_Phrase 57739 57757;57772 57778;57810 57815	sections of P30 Wt and Tg skins
+T2270	IDENTITY_chain 57739 57757;57772 57778;57810 57815	sections of P30 Wt and Tg skins
+T2271	Noun_Phrase 57739 57757;57810 57815	sections of P30 Wt skins
+T2272	IDENTITY_chain 57739 57757;57810 57815	sections of P30 Wt skins
 T2273	Noun_Phrase 57751 57754	P30
 T2274	IDENTITY_chain 57751 57754	P30
 T2275	Noun_Phrase 57755 57757	Wt
@@ -2409,8 +2305,7 @@ T2303	Noun_Phrase 58323 58324	M
 T2304	Noun_Phrase 58323 58330	M and N
 T2305	Noun_Phrase 58329 58330	N
 T2306	Noun_Phrase 58361 58362	L
-T2307	Noun_Phrase 58435 58449;	hyperthickened
-58457 58477	hyperthickenedSnail-positive zones
+T2307	Noun_Phrase 58435 58449;58457 58477	hyperthickened Snail-positive zones
 T2308	Noun_Phrase 58457 58462	Snail
 T2309	Noun_Phrase 58542 58564	the legend to Figure 2
 T2310	Noun_Phrase 58556 58564	Figure 2
@@ -2418,10 +2313,8 @@ T2311	Noun_Phrase 58577 58582	Snail
 T2312	Noun_Phrase 58606 58609	AJs
 T2313	Noun_Phrase 58625 58643	Hyperproliferation
 T2314	Noun_Phrase 58646 58647	A
-T2315	Noun_Phrase 58671 58693;	skin sections from P30
-58701 58708	skin sections from P30Tg mice
-T2316	Noun_Phrase 58671 58696;	skin sections from P30 Wt
-58704 58708	skin sections from P30 Wtmice
+T2315	Noun_Phrase 58671 58693;58701 58708	skin sections from P30 Tg mice
+T2316	Noun_Phrase 58671 58696;58704 58708	skin sections from P30 Wt mice
 T2317	Noun_Phrase 58671 58708	skin sections from P30 Wt and Tg mice
 T2318	Noun_Phrase 58690 58693	P30
 T2319	Noun_Phrase 58694 58696	Wt
@@ -2480,16 +2373,13 @@ T2371	Noun_Phrase 59552 59561	?-catenin
 T2372	Noun_Phrase 59552 59580	?-catenin and Ajuba staining
 T2373	Noun_Phrase 59566 59571	Ajuba
 T2374	Noun_Phrase 59604 59619	the boxed areas
-T2375	Noun_Phrase 59719 59730;	cytoplasmic
-59744 59749	cytoplasmicAjuba
+T2375	Noun_Phrase 59719 59730;59744 59749	cytoplasmic Ajuba
 T2376	Noun_Phrase 59753 59754	B
 T2377	Noun_Phrase 59781 59835	protein extracts from P30 Wt and Tg back and ear skins
 T2378	IDENTITY_chain 59781 59835	protein extracts from P30 Wt and Tg back and ear skins
 T2379	Noun_Phrase 59803 59806	P30
-T2380	Noun_Phrase 59803 59806;	P30
-59814 59835	P30Tg back and ear skins
-T2381	Noun_Phrase 59803 59809;	P30 Wt
-59817 59835	P30 Wtback and ear skins
+T2380	Noun_Phrase 59803 59806;59814 59835	P30 Tg back and ear skins
+T2381	Noun_Phrase 59803 59809;59817 59835	P30 Wt back and ear skins
 T2382	Noun_Phrase 59803 59835	P30 Wt and Tg back and ear skins
 T2383	Noun_Phrase 59807 59809	Wt
 T2384	Noun_Phrase 59814 59816	Tg
@@ -2549,10 +2439,8 @@ T2437	Noun_Phrase 61004 61009	cells
 T2438	Noun_Phrase 61095 61114	antibodies to pMAPK
 T2439	Noun_Phrase 61109 61114	pMAPK
 T2440	Noun_Phrase 61116 61118	HA
-T2441	Noun_Phrase 61132 61145;	the HA-tagged
-61156 61174	the HA-taggedE-cadherin protein
-T2442	Noun_Phrase 61132 61151;	the HA-tagged Snail
-61167 61174	the HA-tagged Snailprotein
+T2441	Noun_Phrase 61132 61145;61156 61174	the HA-tagged E-cadherin protein
+T2442	Noun_Phrase 61132 61151;61167 61174	the HA-tagged Snail protein
 T2443	Noun_Phrase 61132 61174	the HA-tagged Snail and E-cadherin protein
 T2444	Noun_Phrase 61136 61138	HA
 T2445	Noun_Phrase 61213 61214	E
@@ -2561,8 +2449,7 @@ T2447	Noun_Phrase 61237 61242	Grb-2
 T2448	Noun_Phrase 61266 61275	?-catenin
 T2449	Noun_Phrase 61266 61282	?-catenin levels
 T2450	Noun_Phrase 61296 61312	Protein extracts
-T2451	Noun_Phrase 61328 61343;	skins of P30 Wt
-61365 61369	skins of P30 Wtmice
+T2451	Noun_Phrase 61328 61343;61365 61369	skins of P30 Wt mice
 T2452	Noun_Phrase 61337 61340	P30
 T2453	Noun_Phrase 61341 61343	Wt
 T2454	Noun_Phrase 61348 61357	K14-Snail
@@ -2585,8 +2472,7 @@ T2470	Noun_Phrase 61810 61819	?-catenin
 T2471	Noun_Phrase 61824 61841	other AJ proteins
 T2472	Noun_Phrase 61830 61832	AJ
 T2473	Noun_Phrase 61875 61876	F
-T2474	Noun_Phrase 61918 61946;	the Grb-2-interacting domain
-61957 61965	the Grb-2-interacting domainof Ajuba
+T2474	Noun_Phrase 61918 61946;61957 61965	the Grb-2-interacting domain of Ajuba
 T2475	Noun_Phrase 61922 61927	Grb-2
 T2476	Noun_Phrase 61960 61965	Ajuba
 T2477	Noun_Phrase 61969 61982	keratinocytes
@@ -2611,10 +2497,8 @@ T2495	Noun_Phrase 62408 62411	SDS
 T2496	Noun_Phrase 62408 62416	SDS-PAGE
 T2497	Noun_Phrase 62412 62416	PAGE
 T2498	Noun_Phrase 62421 62442	Western blot analyses
-T2499	Noun_Phrase 62448 62466;	antibodies against
-62486 62491	antibodies againstAjuba
-T2500	Noun_Phrase 62448 62466;	antibodies against
-62544 62549	antibodies againstSnail
+T2499	Noun_Phrase 62448 62466;62486 62491	antibodies against Ajuba
+T2500	Noun_Phrase 62448 62466;62544 62549	antibodies against Snail
 T2501	Noun_Phrase 62448 62472	antibodies against pMAPK
 T2502	Noun_Phrase 62467 62472	pMAPK
 T2503	Noun_Phrase 62486 62491	Ajuba
@@ -2628,15 +2512,13 @@ T2510	Noun_Phrase 62610 62615	Snail
 T2511	Noun_Phrase 62610 62626	Snail Expression
 T2512	Noun_Phrase 62638 62639	A
 T2513	Noun_Phrase 62652 62655	Wnt
-T2514	Noun_Phrase 62652 62655;	Wnt
-62667 62676	Wntsignaling
+T2514	Noun_Phrase 62652 62655;62667 62676	Wnt signaling
 T2515	Noun_Phrase 62660 62666	noggin
 T2516	Noun_Phrase 62687 62692	Snail
 T2517	Noun_Phrase 62696 62718	cultured keratinocytes
 T2518	Noun_Phrase 62720 62747	Primary mouse keratinocytes
 T2519	Noun_Phrase 62766 62769	Wnt
-T2520	Noun_Phrase 62766 62770;	Wnt-
-62785 62803	Wnt-conditioned medium
+T2520	Noun_Phrase 62766 62770;62785 62803	Wnt- conditioned medium
 T2521	Noun_Phrase 62778 62784	noggin
 T2522	Noun_Phrase 62778 62803	noggin-conditioned medium
 T2523	Noun_Phrase 62888 62923	the LEF-1/?-catenin reporter TOPGal
@@ -2683,8 +2565,7 @@ T2563	Noun_Phrase 63823 63826	PCR
 T2564	Noun_Phrase 63865 63886	reverse transcriptase
 T2565	APPOS_relation 63865 63886	reverse transcriptase
 T2566	Noun_Phrase 63888 63890	RT
-T2567	Noun_Phrase 63926 63931;	Snail
-63942 63947	SnailmRNAs
+T2567	Noun_Phrase 63926 63931;63942 63947	Snail mRNAs
 T2568	Noun_Phrase 63936 63941	GAPDH
 T2569	Noun_Phrase 63959 63969	Snail mRNA
 T2570	Noun_Phrase 63959 63980	Snail mRNA expression
@@ -2713,8 +2594,7 @@ T2592	Noun_Phrase 64814 64816	KO
 T2593	Noun_Phrase 64817 64822	E17.5
 T2594	Noun_Phrase 64863 64877	TGF-?2 protein
 T2595	Noun_Phrase 64879 64880	A
-T2596	Noun_Phrase 64903 64906;	the
-64921 64927	thedermis
+T2596	Noun_Phrase 64903 64906;64921 64927	the dermis
 T2597	Noun_Phrase 64903 64916	the epidermis
 T2598	Noun_Phrase 64964 64976	the hair bud
 T2599	Noun_Phrase 64978 64984	pSMAD2
@@ -2727,15 +2607,13 @@ T2605	Noun_Phrase 65037 65050	the hair buds
 T2606	Noun_Phrase 65054 65055	E
 T2607	Noun_Phrase 65082 65087	Snail
 T2608	Noun_Phrase 65082 65098	Snail expression
-T2609	Noun_Phrase 65115 65144;	2-wk-old K14-Smad2 transgenic
-65179 65183	2-wk-old K14-Smad2 transgenicmice
+T2609	Noun_Phrase 65115 65144;65179 65183	2-wk-old K14-Smad2 transgenic mice
 T2610	Noun_Phrase 65124 65133	K14-Smad2
 T2611	Noun_Phrase 65134 65144	transgenic
 T2612	Noun_Phrase 65146 65151	SMAD2
 T2613	Noun_Phrase 65152 65154	TG
 T2614	Noun_Phrase 65160 65162	WT
-T2615	Noun_Phrase 65160 65173;	WT littermate
-65179 65183	WT littermatemice
+T2615	Noun_Phrase 65160 65173;65179 65183	WT littermate mice
 T2616	Noun_Phrase 65175 65177	WT
 T2617	Noun_Phrase 65185 65204	Antibody to tubulin
 T2618	Noun_Phrase 65197 65204	tubulin
@@ -2746,8 +2624,7 @@ T2622	Noun_Phrase 65269 65271	Tg
 T2623	Noun_Phrase 65310 65335	activated TGF-? signaling
 T2624	Noun_Phrase 65320 65325	TGF-?
 T2625	Noun_Phrase 65344 65347	F–G
-T2626	Noun_Phrase 65349 65370;	Proliferation markers
-65384 65389	Proliferation markerspMAPK
+T2626	Noun_Phrase 65349 65370;65384 65389	Proliferation markers pMAPK
 T2627	Noun_Phrase 65349 65375	Proliferation markers Ki67
 T2628	Noun_Phrase 65377 65378	F
 T2629	Noun_Phrase 65391 65392	G

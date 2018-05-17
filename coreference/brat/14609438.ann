@@ -155,8 +155,7 @@ T153	Noun_Phrase 4890 4895	mouse
 T154	Noun_Phrase 4931 4945	the prosegment
 T155	Noun_Phrase 4959 4967	sequence
 T156	Noun_Phrase 4981 4994	these enzymes
-T157	Noun_Phrase 5059 5068;	the human
-5079 5086	the humanenzymes
+T157	Noun_Phrase 5059 5068;5079 5086	the human enzymes
 T158	Noun_Phrase 5073 5078	mouse
 T159	Noun_Phrase 5240 5254	mammalian CLN2
 T160	Noun_Phrase 5297 5305	Figure 1
@@ -174,20 +173,14 @@ T171	Noun_Phrase 5887 5904	CLN2-like enzymes
 T172	Noun_Phrase 5923 5927	fugu
 T173	Noun_Phrase 5993 5997	fugu
 T174	Noun_Phrase 6023 6032	zebrafish
-T175	IDENTITY_chain 6103 6118;	the sequence of
-6130 6136;	the sequence ofenzyme
-6149 6159	the sequence ofenzymethe former
-T176	Noun_Phrase 6103 6118;	the sequence of
-6130 6136;	the sequence ofenzyme
-6149 6159	the sequence ofenzymethe former
+T175	IDENTITY_chain 6103 6118;6130 6136;6149 6159	the sequence of enzyme the former
+T176	Noun_Phrase 6103 6118;6130 6136;6149 6159	the sequence of enzyme the former
 T177	Noun_Phrase 6103 6136	the sequence of the latter enzyme
 T178	IDENTITY_chain 6103 6136	the sequence of the latter enzyme
 T179	Noun_Phrase 6119 6136	the latter enzyme
 T180	IDENTITY_chain 6119 6136	the latter enzyme
-T181	Noun_Phrase 6130 6136;	enzyme
-6149 6159	enzymethe former
-T182	IDENTITY_chain 6130 6136;	enzyme
-6149 6159	enzymethe former
+T181	Noun_Phrase 6130 6136;6149 6159	enzyme the former
+T182	IDENTITY_chain 6130 6136;6149 6159	enzyme the former
 T183	Noun_Phrase 6170 6209	a few comparatively minor modifications
 T184	IDENTITY_chain 6170 6209	a few comparatively minor modifications
 T185	Noun_Phrase 6220 6242	the zebrafish sequence
@@ -213,19 +206,15 @@ T204	Noun_Phrase 6832 6836	fugu
 T205	Noun_Phrase 6954 6958	fugu
 T206	Noun_Phrase 7076 7084	Figure 3
 T207	IDENTITY_chain 7076 7084	Figure 3
-T208	Noun_Phrase 7163 7166;	the
-7181 7198	thezebrafish enzymes
-T209	Noun_Phrase 7163 7176;	the mammalian
-7191 7198	the mammalianenzymes
+T208	Noun_Phrase 7163 7166;7181 7198	the zebrafish enzymes
+T209	Noun_Phrase 7163 7176;7191 7198	the mammalian enzymes
 T210	Noun_Phrase 7181 7190	zebrafish
 T211	Nonreferential_pronoun 7296 7298	It
 T212	Noun_Phrase 7551 7555	fugu
 T213	Noun_Phrase 7581 7589	Figure 3
 T214	Noun_Phrase 7629 7633	CLN2
-T215	Noun_Phrase 7668 7677;	CLN2 from
-7685 7689	CLN2 fromfugu
-T216	Noun_Phrase 7668 7677;	CLN2 from
-7695 7704	CLN2 fromzebrafish
+T215	Noun_Phrase 7668 7677;7685 7689	CLN2 from fugu
+T216	Noun_Phrase 7668 7677;7695 7704	CLN2 from zebrafish
 T217	Noun_Phrase 7668 7683	CLN2 from human
 T218	Noun_Phrase 7678 7683	human
 T219	Noun_Phrase 7685 7689	fugu
@@ -250,10 +239,8 @@ T237	Noun_Phrase 8388 8392	fugu
 T238	Noun_Phrase 8430 8440	human CLN2
 T239	Noun_Phrase 8442 8450	Figure 3
 T240	Noun_Phrase 8453 8461	Sequence
-T241	Noun_Phrase 8476 8485;	bacterial
-8496 8506	bacterialsedolisins
-T242	IDENTITY_chain 8476 8485;	bacterial
-8496 8506	bacterialsedolisins
+T241	Noun_Phrase 8476 8485;8496 8506	bacterial sedolisins
+T242	IDENTITY_chain 8476 8485;8496 8506	bacterial sedolisins
 T243	Noun_Phrase 8558 8563	frogs
 T244	Noun_Phrase 8614 8618	CLN2
 T245	Noun_Phrase 8648 8682	highly conserved CLN2-like enzymes
@@ -332,8 +319,7 @@ T317	Noun_Phrase 11121 11137	the real protein
 T318	Noun_Phrase 11168 11187	these two cysteines
 T319	IDENTITY_chain 11168 11187	these two cysteines
 T320	Noun_Phrase 11242 11246	CLN2
-T321	Noun_Phrase 11248 11255;	Figures
-11262 11263	Figures3
+T321	Noun_Phrase 11248 11255;11262 11263	Figures 3
 T322	Noun_Phrase 11248 11257	Figures 1
 T323	Noun_Phrase 11275 11279	they
 T324	Noun_Phrase 11317 11337	bacterial sedolisins
@@ -446,8 +432,7 @@ T430	IDENTITY_chain 14550 14580	the residue found here in CLN2
 T431	Noun_Phrase 14576 14580	CLN2
 T432	Noun_Phrase 14613 14616	its
 T433	Nonreferential_pronoun 14631 14636	There
-T434	Noun_Phrase 14692 14698;	Glu175
-14710 14722	Glu175in sedolisin
+T434	Noun_Phrase 14692 14698;14710 14722	Glu175 in sedolisin
 T435	Noun_Phrase 14770 14774	CLN2
 T436	Noun_Phrase 14819 14915	The side of the S1 pocket that is created by the very flexible side chain of Arg179 in sedolisin
 T437	IDENTITY_chain 14819 14915	The side of the S1 pocket that is created by the very flexible side chain of Arg179 in sedolisin
@@ -471,14 +456,10 @@ T454	IDENTITY_chain 15456 15477	The S2 pocket in CLN2
 T455	Noun_Phrase 15473 15477	CLN2
 T456	Noun_Phrase 15515 15522	solvent
 T457	Noun_Phrase 15524 15526	It
-T458	Noun_Phrase 15554 15579;	the equivalent pockets in
-15587 15596	the equivalent pockets insedolisin
-T459	IDENTITY_chain 15554 15579;	the equivalent pockets in
-15587 15596	the equivalent pockets insedolisin
-T460	Noun_Phrase 15554 15579;	the equivalent pockets in
-15600 15611	the equivalent pockets inkumamolisin
-T461	IDENTITY_chain 15554 15579;	the equivalent pockets in
-15600 15611	the equivalent pockets inkumamolisin
+T458	Noun_Phrase 15554 15579;15587 15596	the equivalent pockets in sedolisin
+T459	IDENTITY_chain 15554 15579;15587 15596	the equivalent pockets in sedolisin
+T460	Noun_Phrase 15554 15579;15600 15611	the equivalent pockets in kumamolisin
+T461	IDENTITY_chain 15554 15579;15600 15611	the equivalent pockets in kumamolisin
 T462	Noun_Phrase 15554 15611	the equivalent pockets in either sedolisin or kumamolisin
 T463	IDENTITY_chain 15554 15611	the equivalent pockets in either sedolisin or kumamolisin
 T464	Noun_Phrase 15587 15596	sedolisin
@@ -623,10 +604,8 @@ T602	Noun_Phrase 22191 22203	atomic-scale
 T603	IDENTITY_chain 22191 22203	atomic-scale
 T604	Noun_Phrase 22214 22218	CLN2
 T605	Noun_Phrase 22252 22260	sequence
-T606	Noun_Phrase 22275 22278;	the
-22293 22313	thekumamolisin proteins
-T607	Noun_Phrase 22275 22288;	the sedolisin
-22305 22313	the sedolisinproteins
+T606	Noun_Phrase 22275 22278;22293 22313	the kumamolisin proteins
+T607	Noun_Phrase 22275 22288;22305 22313	the sedolisin proteins
 T608	Noun_Phrase 22275 22313	the sedolisin and kumamolisin proteins
 T609	Noun_Phrase 22382 22393	the enzymes
 T610	Noun_Phrase 22407 22424	these two enzymes
@@ -640,21 +619,15 @@ T617	Noun_Phrase 23055 23063	Sequence
 T618	Noun_Phrase 23055 23108	Sequence files representing the different subfamilies
 T619	IDENTITY_chain 23055 23108	Sequence files representing the different subfamilies
 T620	Noun_Phrase 23175 23184	sedolisin
-T621	Noun_Phrase 23175 23184;	sedolisin
-23218 23227	sedolisinsequences
-T622	IDENTITY_chain 23175 23184;	sedolisin
-23218 23227	sedolisinsequences
+T621	Noun_Phrase 23175 23184;23218 23227	sedolisin sequences
+T622	IDENTITY_chain 23175 23184;23218 23227	sedolisin sequences
 T623	Noun_Phrase 23186 23197	kumamolisin
-T624	Noun_Phrase 23186 23197;	kumamolisin
-23218 23227	kumamolisinsequences
-T625	IDENTITY_chain 23186 23197;	kumamolisin
-23218 23227	kumamolisinsequences
+T624	Noun_Phrase 23186 23197;23218 23227	kumamolisin sequences
+T625	IDENTITY_chain 23186 23197;23218 23227	kumamolisin sequences
 T626	Noun_Phrase 23207 23217	human CLN2
 T627	Noun_Phrase 23310 23318	sequence
-T628	Noun_Phrase 23521 23524;	the
-23539 23560	thekumamolisin sequences
-T629	Noun_Phrase 23521 23534;	the sedolisin
-23551 23560	the sedolisinsequences
+T628	Noun_Phrase 23521 23524;23539 23560	the kumamolisin sequences
+T629	Noun_Phrase 23521 23534;23551 23560	the sedolisin sequences
 T630	Noun_Phrase 23525 23534	sedolisin
 T631	Noun_Phrase 23539 23550	kumamolisin
 T632	Noun_Phrase 23576 23589	the sequences
@@ -665,10 +638,8 @@ T636	IDENTITY_chain 23620 23679	those closer to sedolisin than kumamolisin and v
 T637	Noun_Phrase 23636 23645	sedolisin
 T638	Noun_Phrase 23651 23662	kumamolisin
 T639	Noun_Phrase 23698 23714	these two groups
-T640	Noun_Phrase 23777 23780;	the
-23795 23815	thekumamolisin proteins
-T641	Noun_Phrase 23777 23790;	the sedolisin
-23807 23815	the sedolisinproteins
+T640	Noun_Phrase 23777 23780;23795 23815	the kumamolisin proteins
+T641	Noun_Phrase 23777 23790;23807 23815	the sedolisin proteins
 T642	Noun_Phrase 24018 24041	The model of human CLN2
 T643	Noun_Phrase 24031 24041	human CLN2
 T644	Noun_Phrase 24075 24084	sedolisin

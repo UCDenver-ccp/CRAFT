@@ -21,10 +21,8 @@ T19	Noun_Phrase 535 549	bitter stimuli
 T20	Noun_Phrase 561 582	quinine hydrochloride
 T21	APPOS_relation 561 582	quinine hydrochloride
 T22	IDENTITY_chain 561 582	quinine hydrochloride
-T23	Noun_Phrase 561 582;	quinine hydrochloride
-590 613	quinine hydrochlorideand denatonium benzoate
-T24	IDENTITY_chain 561 582;	quinine hydrochloride
-590 613	quinine hydrochlorideand denatonium benzoate
+T23	Noun_Phrase 561 582;590 613	quinine hydrochloride and denatonium benzoate
+T24	IDENTITY_chain 561 582;590 613	quinine hydrochloride and denatonium benzoate
 T25	Noun_Phrase 584 588	QHCl
 T26	Noun_Phrase 594 613	denatonium benzoate
 T27	APPOS_relation 594 613	denatonium benzoate
@@ -32,17 +30,13 @@ T28	IDENTITY_chain 594 613	denatonium benzoate
 T29	Noun_Phrase 615 617	DB
 T30	Noun_Phrase 630 632	We
 T31	IDENTITY_chain 630 632	We
-T32	Noun_Phrase 679 704;	BXD/Ty recombinant inbred
-710 723	BXD/Ty recombinant inbredmouse strains
-T33	IDENTITY_chain 679 704;	BXD/Ty recombinant inbred
-710 723	BXD/Ty recombinant inbredmouse strains
+T32	Noun_Phrase 679 704;710 723	BXD/Ty recombinant inbred mouse strains
+T33	IDENTITY_chain 679 704;710 723	BXD/Ty recombinant inbred mouse strains
 T34	Noun_Phrase 686 704	recombinant inbred
 T35	APPOS_relation 686 704	recombinant inbred
 T36	Noun_Phrase 706 708	RI
-T37	Noun_Phrase 731 765;	the major quantitative trait locus
-772 801	the major quantitative trait locusfor taste sensitivity to QHCl
-T38	IDENTITY_chain 731 765;	the major quantitative trait locus
-772 801	the major quantitative trait locusfor taste sensitivity to QHCl
+T37	Noun_Phrase 731 765;772 801	the major quantitative trait locus for taste sensitivity to QHCl
+T38	IDENTITY_chain 731 765;772 801	the major quantitative trait locus for taste sensitivity to QHCl
 T39	Noun_Phrase 741 765	quantitative trait locus
 T40	APPOS_relation 741 765	quantitative trait locus
 T41	Noun_Phrase 767 770	QTL
@@ -68,19 +62,14 @@ T60	APPOS_relation 965 996	single nucleotide polymorphisms
 T61	Noun_Phrase 998 1002	SNPs
 T62	Noun_Phrase 1012 1046	the two BXD/Ty RI parental strains
 T63	Noun_Phrase 1048 1056	C57BL/6J
-T64	Noun_Phrase 1048 1056;	C57BL/6J
-1077 1087	C57BL/6Jand DBA/2J
-T65	APPOS_relation 1048 1056;	C57BL/6J
-1077 1087	C57BL/6Jand DBA/2J
+T64	Noun_Phrase 1048 1056;1077 1087	C57BL/6J and DBA/2J
+T65	APPOS_relation 1048 1056;1077 1087	C57BL/6J and DBA/2J
 T66	IDENTITY_chain 1048 1056	C57BL/6J
-T67	IDENTITY_chain 1048 1056;	C57BL/6J
-1077 1087	C57BL/6Jand DBA/2J
+T67	IDENTITY_chain 1048 1056;1077 1087	C57BL/6J and DBA/2J
 T68	Noun_Phrase 1081 1087	DBA/2J
 T69	IDENTITY_chain 1081 1087	DBA/2J
-T70	Noun_Phrase 1207 1215;	C57BL/6J
-1226 1239	C57BL/6JTas2r alleles
-T71	IDENTITY_chain 1207 1215;	C57BL/6J
-1226 1239	C57BL/6JTas2r alleles
+T70	Noun_Phrase 1207 1215;1226 1239	C57BL/6J Tas2r alleles
+T71	IDENTITY_chain 1207 1215;1226 1239	C57BL/6J Tas2r alleles
 T72	Noun_Phrase 1219 1239	DBA/2J Tas2r alleles
 T73	IDENTITY_chain 1219 1239	DBA/2J Tas2r alleles
 T74	Noun_Phrase 1243 1253	this locus
@@ -107,16 +96,11 @@ T94	Noun_Phrase 2256 2261	GPCRs
 T95	Noun_Phrase 2294 2314	taste receptor cells
 T96	APPOS_relation 2294 2314	taste receptor cells
 T97	Noun_Phrase 2316 2320	TRCs
-T98	Noun_Phrase 2408 2413;	sweet
-2450 2455	sweettaste
-T99	IDENTITY_chain 2408 2413;	sweet
-2450 2455	sweettaste
-T100	Noun_Phrase 2415 2421;	bitter
-2450 2455	bittertaste
-T101	Noun_Phrase 2426 2431;	umami
-2450 2455	umamitaste
-T102	IDENTITY_chain 2426 2431;	umami
-2450 2455	umamitaste
+T98	Noun_Phrase 2408 2413;2450 2455	sweet taste
+T99	IDENTITY_chain 2408 2413;2450 2455	sweet taste
+T100	Noun_Phrase 2415 2421;2450 2455	bitter taste
+T101	Noun_Phrase 2426 2431;2450 2455	umami taste
+T102	IDENTITY_chain 2426 2431;2450 2455	umami taste
 T103	Noun_Phrase 2509 2513	T2Rs
 T104	IDENTITY_chain 2552 2578	The genes that encode T2Rs
 T105	Noun_Phrase 2552 2578	The genes that encode T2Rs
@@ -139,18 +123,11 @@ T121	APPOS_relation 3199 3222	quantitative trait loci
 T122	Noun_Phrase 3224 3227	QTL
 T123	Noun_Phrase 3286 3300	bitter stimuli
 T124	Noun_Phrase 3304 3313	the mouse
-T125	Noun_Phrase 3325 3333;	loci for
-3360 3373;	loci forcyclohexamide
-3426 3437	loci forcyclohexamidesensitivity
-T126	APPOS_relation 3325 3333;	loci for
-3360 3373;	loci forcyclohexamide
-3426 3437	loci forcyclohexamidesensitivity
-T127	Noun_Phrase 3325 3341;	loci for quinine
-3426 3437	loci for quininesensitivity
-T128	IDENTITY_chain 3325 3341;	loci for quinine
-3426 3437	loci for quininesensitivity
-T129	APPOS_relation 3325 3341;	loci for quinine
-3426 3437	loci for quininesensitivity
+T125	Noun_Phrase 3325 3333;3360 3373;3426 3437	loci for cyclohexamide sensitivity
+T126	APPOS_relation 3325 3333;3360 3373;3426 3437	loci for cyclohexamide sensitivity
+T127	Noun_Phrase 3325 3341;3426 3437	loci for quinine sensitivity
+T128	IDENTITY_chain 3325 3341;3426 3437	loci for quinine sensitivity
+T129	APPOS_relation 3325 3341;3426 3437	loci for quinine sensitivity
 T130	Noun_Phrase 3343 3346	Qui
 T131	Noun_Phrase 3360 3373	cyclohexamide
 T132	IDENTITY_chain 3360 3373	cyclohexamide
@@ -195,27 +172,16 @@ T170	Noun_Phrase 4645 4653	caffeine
 T171	APPOS_relation 4645 4653	caffeine
 T172	Noun_Phrase 4655 4687	another bitter-tasting substance
 T173	Noun_Phrase 4889 4891	we
-T174	Noun_Phrase 4977 4985;	C57BL/6J
-5021 5039;	C57BL/6Jrecombinant inbred
-5045 5049	C57BL/6Jrecombinant inbredmice
-T175	Noun_Phrase 4992 4998;	DBA/2J
-5021 5039;	DBA/2Jrecombinant inbred
-5045 5049	DBA/2Jrecombinant inbredmice
-T176	IDENTITY_chain 4992 4998;	DBA/2J
-5021 5039;	DBA/2Jrecombinant inbred
-5045 5049	DBA/2Jrecombinant inbredmice
-T177	Noun_Phrase 5008 5014;	BXD/Ty
-5021 5039;	BXD/Tyrecombinant inbred
-5045 5049	BXD/Tyrecombinant inbredmice
-T178	IDENTITY_chain 5008 5014;	BXD/Ty
-5021 5039;	BXD/Tyrecombinant inbred
-5045 5049	BXD/Tyrecombinant inbredmice
+T174	Noun_Phrase 4977 4985;5021 5039;5045 5049	C57BL/6J recombinant inbred mice
+T175	Noun_Phrase 4992 4998;5021 5039;5045 5049	DBA/2J recombinant inbred mice
+T176	IDENTITY_chain 4992 4998;5021 5039;5045 5049	DBA/2J recombinant inbred mice
+T177	Noun_Phrase 5008 5014;5021 5039;5045 5049	BXD/Ty recombinant inbred mice
+T178	IDENTITY_chain 5008 5014;5021 5039;5045 5049	BXD/Ty recombinant inbred mice
 T179	Noun_Phrase 5053 5071	two bitter stimuli
 T180	APPOS_relation 5053 5071	two bitter stimuli
 T181	Noun_Phrase 5073 5094	quinine hydrochloride
 T182	APPOS_relation 5073 5094	quinine hydrochloride
-T183	Noun_Phrase 5073 5094;	quinine hydrochloride
-5102 5125	quinine hydrochlorideand denatonium benzoate
+T183	Noun_Phrase 5073 5094;5102 5125	quinine hydrochloride and denatonium benzoate
 T184	Noun_Phrase 5096 5100	QHCl
 T185	Noun_Phrase 5106 5125	denatonium benzoate
 T186	APPOS_relation 5106 5125	denatonium benzoate
@@ -232,8 +198,7 @@ T196	Noun_Phrase 5271 5290	distal chromosome 6
 T197	Noun_Phrase 5305 5352	all 24 of the Tas2r genes in the distal cluster
 T198	Noun_Phrase 5334 5352	the distal cluster
 T199	Noun_Phrase 5354 5356	We
-T200	Noun_Phrase 5403 5406;	the
-5440 5451	the29 RI lines
+T200	Noun_Phrase 5403 5406;5440 5451	the 29 RI lines
 T201	Noun_Phrase 5403 5423	the parental strains
 T202	Noun_Phrase 5425 5427	B6
 T203	Noun_Phrase 5425 5434	B6 and D2
@@ -252,17 +217,14 @@ T215	Noun_Phrase 5658 5702	Previous efforts to map QTL for bitter taste
 T216	Noun_Phrase 5682 5702	QTL for bitter taste
 T217	Noun_Phrase 5690 5702	bitter taste
 T218	Noun_Phrase 5811 5813	We
-T219	Noun_Phrase 5932 5934;	B6
-5942 5946	B6mice
+T219	Noun_Phrase 5932 5934;5942 5946	B6 mice
 T220	Noun_Phrase 5932 5946	B6 and D2 mice
 T221	Noun_Phrase 5939 5946	D2 mice
 T222	Noun_Phrase 5970 5987	taste sensitivity
-T223	Noun_Phrase 5991 6008;	the taste stimuli
-6018 6020	the taste stimuliDB
+T223	Noun_Phrase 5991 6008;6018 6020	the taste stimuli DB
 T224	Noun_Phrase 5991 6013	the taste stimuli QHCl
 T225	Noun_Phrase 5991 6020	the taste stimuli QHCl and DB
-T226	Noun_Phrase 6048 6050;	B6
-6058 6062	B6mice
+T226	Noun_Phrase 6048 6050;6058 6062	B6 mice
 T227	Noun_Phrase 6048 6062	B6 and D2 mice
 T228	Noun_Phrase 6055 6062	D2 mice
 T229	Noun_Phrase 6144 6146	we
@@ -271,36 +233,22 @@ T231	IDENTITY_chain 6156 6240	two ligand concentrations for each compound that b
 T232	Noun_Phrase 6225 6240	the two strains
 T233	Noun_Phrase 6270 6282	BXD RI lines
 T234	Noun_Phrase 6301 6325	these two concentrations
-T235	Noun_Phrase 6327 6328;	1
-6335 6337;	1mM
-6347 6351	1mMQHCl
-T236	Noun_Phrase 6327 6328;	1
-6335 6337;	1mM
-6356 6358	1mMDB
-T237	IDENTITY_chain 6327 6328;	1
-6335 6337;	1mM
-6356 6358	1mMDB
-T238	Noun_Phrase 6327 6337;	1 and 3 mM
-6347 6351	1 and 3 mMQHCl
-T239	IDENTITY_chain 6327 6337;	1 and 3 mM
-6356 6358	1 and 3 mMDB
-T240	Noun_Phrase 6327 6337;	1 and 3 mM
-6356 6358	1 and 3 mMDB
+T235	Noun_Phrase 6327 6328;6335 6337;6347 6351	1 mM QHCl
+T236	Noun_Phrase 6327 6328;6335 6337;6356 6358	1 mM DB
+T237	IDENTITY_chain 6327 6328;6335 6337;6356 6358	1 mM DB
+T238	Noun_Phrase 6327 6337;6347 6351	1 and 3 mM QHCl
+T239	IDENTITY_chain 6327 6337;6356 6358	1 and 3 mM DB
+T240	Noun_Phrase 6327 6337;6356 6358	1 and 3 mM DB
 T241	Noun_Phrase 6327 6358	1 and 3 mM for both QHCl and DB
 T242	APPOS_relation 6327 6358	1 and 3 mM for both QHCl and DB
-T243	Noun_Phrase 6333 6337;	3 mM
-6347 6351	3 mMQHCl
-T244	Noun_Phrase 6333 6337;	3 mM
-6356 6358	3 mMDB
-T245	IDENTITY_chain 6333 6337;	3 mM
-6356 6358	3 mMDB
+T243	Noun_Phrase 6333 6337;6347 6351	3 mM QHCl
+T244	Noun_Phrase 6333 6337;6356 6358	3 mM DB
+T245	IDENTITY_chain 6333 6337;6356 6358	3 mM DB
 T246	Noun_Phrase 6342 6358	both QHCl and DB
 T247	Noun_Phrase 6347 6351	QHCl
 T248	Noun_Phrase 6356 6358	DB
-T249	Noun_Phrase 6374 6389;	male and female
-6397 6404	male and femaleD2 mice
-T250	Noun_Phrase 6374 6392;	male and female B6
-6400 6404	male and female B6mice
+T249	Noun_Phrase 6374 6389;6397 6404	male and female D2 mice
+T250	Noun_Phrase 6374 6392;6400 6404	male and female B6 mice
 T251	Noun_Phrase 6374 6404	male and female B6 and D2 mice
 T252	Noun_Phrase 6514 6523	Figure 1A
 T253	IDENTITY_chain 6514 6523	Figure 1A
@@ -309,10 +257,8 @@ T255	IDENTITY_chain 6525 6532	Table 1
 T256	Nonreferential_pronoun 6535 6540	There
 T257	Noun_Phrase 6581 6601	both 1 and 3 mM QHCl
 T258	IDENTITY_chain 6581 6601	both 1 and 3 mM QHCl
-T259	Noun_Phrase 6586 6587;	1
-6594 6601	1mM QHCl
-T260	IDENTITY_chain 6586 6587;	1
-6594 6601	1mM QHCl
+T259	Noun_Phrase 6586 6587;6594 6601	1 mM QHCl
+T260	IDENTITY_chain 6586 6587;6594 6601	1 mM QHCl
 T261	Noun_Phrase 6592 6601	3 mM QHCl
 T262	IDENTITY_chain 6592 6601	3 mM QHCl
 T263	Noun_Phrase 6632 6639	D2 mice
@@ -325,24 +271,15 @@ T269	Noun_Phrase 6797 6799	DB
 T270	Noun_Phrase 6801 6810	Figure 1A
 T271	Nonreferential_pronoun 6813 6818	There
 T272	Noun_Phrase 6859 6866	Table 1
-T273	Noun_Phrase 6868 6888;	Mean lick ratios for
-6893 6895;	Mean lick ratios forD2
-6904 6908	Mean lick ratios forD2mice
-T274	IDENTITY_chain 6868 6888;	Mean lick ratios for
-6893 6895;	Mean lick ratios forD2
-6904 6908	Mean lick ratios forD2mice
-T275	Noun_Phrase 6868 6888;	Mean lick ratios for
-6900 6908	Mean lick ratios forBXD mice
-T276	IDENTITY_chain 6868 6888;	Mean lick ratios for
-6900 6908	Mean lick ratios forBXD mice
-T277	Noun_Phrase 6868 6891;	Mean lick ratios for B6
-6904 6908	Mean lick ratios for B6mice
+T273	Noun_Phrase 6868 6888;6893 6895;6904 6908	Mean lick ratios for D2 mice
+T274	IDENTITY_chain 6868 6888;6893 6895;6904 6908	Mean lick ratios for D2 mice
+T275	Noun_Phrase 6868 6888;6900 6908	Mean lick ratios for BXD mice
+T276	IDENTITY_chain 6868 6888;6900 6908	Mean lick ratios for BXD mice
+T277	Noun_Phrase 6868 6891;6904 6908	Mean lick ratios for B6 mice
 T278	Noun_Phrase 6868 6908	Mean lick ratios for B6, D2 and BXD mice
 T279	IDENTITY_chain 6868 6908	Mean lick ratios for B6, D2 and BXD mice
-T280	Noun_Phrase 6889 6891;	B6
-6904 6908	B6mice
-T281	Noun_Phrase 6893 6895;	D2
-6904 6908	D2mice
+T280	Noun_Phrase 6889 6891;6904 6908	B6 mice
+T281	Noun_Phrase 6893 6895;6904 6908	D2 mice
 T282	Noun_Phrase 6900 6908	BXD mice
 T283	Noun_Phrase 7024 7042	the mean lick rate
 T284	Noun_Phrase 7046 7051	water
@@ -361,23 +298,16 @@ T296	APPOS_relation 7158 7179	quinine hydrochloride
 T297	Noun_Phrase 7181 7183	QH
 T298	Noun_Phrase 7243 7251	Figure 1
 T299	IDENTITY_chain 7243 7251	Figure 1
-T300	Noun_Phrase 7281 7283;	B6
-7296 7303	B6strains
+T300	Noun_Phrase 7281 7283;7296 7303	B6 strains
 T301	Noun_Phrase 7281 7303	B6, D2 and BXD strains
 T302	IDENTITY_chain 7281 7303	B6, D2 and BXD strains
-T303	Noun_Phrase 7285 7287;	D2
-7296 7303	D2strains
+T303	Noun_Phrase 7285 7287;7296 7303	D2 strains
 T304	Noun_Phrase 7292 7303	BXD strains
 T305	Noun_Phrase 7306 7307	A
-T306	Noun_Phrase 7309 7329;	Mean lick ratios for
-7354 7356;	Mean lick ratios forD2
-7372 7376	Mean lick ratios forD2mice
-T307	Noun_Phrase 7309 7332;	Mean lick ratios for B6
-7372 7376	Mean lick ratios for B6mice
-T308	Noun_Phrase 7330 7332;	B6
-7372 7376	B6mice
-T309	Noun_Phrase 7354 7356;	D2
-7372 7376	D2mice
+T306	Noun_Phrase 7309 7329;7354 7356;7372 7376	Mean lick ratios for D2 mice
+T307	Noun_Phrase 7309 7332;7372 7376	Mean lick ratios for B6 mice
+T308	Noun_Phrase 7330 7332;7372 7376	B6 mice
+T309	Noun_Phrase 7354 7356;7372 7376	D2 mice
 T310	Noun_Phrase 7380 7413	two concentrations of QHCl and DB
 T311	IDENTITY_chain 7380 7413	two concentrations of QHCl and DB
 T312	Noun_Phrase 7402 7406	QHCl
@@ -417,10 +347,8 @@ T345	Noun_Phrase 8489 8502	Figures 1B–1D
 T346	IDENTITY_chain 8489 8502	Figures 1B–1D
 T347	Noun_Phrase 8504 8511	Table 1
 T348	Noun_Phrase 8523 8527	QHCl
-T349	Noun_Phrase 8523 8527;	QHCl
-8535 8540	QHCltaste
-T350	Noun_Phrase 8523 8527;	QHCl
-8535 8552	QHCltaste sensitivity
+T349	Noun_Phrase 8523 8527;8535 8540	QHCl taste
+T350	Noun_Phrase 8523 8527;8535 8552	QHCl taste sensitivity
 T351	Noun_Phrase 8532 8534	DB
 T352	Noun_Phrase 8532 8540	DB taste
 T353	IDENTITY_chain 8532 8540	DB taste
@@ -436,10 +364,8 @@ T362	IDENTITY_chain 8715 8731	Linkage analysis
 T363	Noun_Phrase 8828 8830	DB
 T364	Noun_Phrase 8828 8836	DB taste
 T365	Noun_Phrase 8828 8848	DB taste sensitivity
-T366	Noun_Phrase 8896 8907;	chromosomes
-8910 8911	chromosomes8
-T367	IDENTITY_chain 8896 8907;	chromosomes
-8910 8911	chromosomes8
+T366	Noun_Phrase 8896 8907;8910 8911	chromosomes 8
+T367	IDENTITY_chain 8896 8907;8910 8911	chromosomes 8
 T368	Noun_Phrase 8975 8992	Additional File 1
 T369	IDENTITY_chain 8975 8992	Additional File 1
 T370	Noun_Phrase 9052 9076	sensitivity to 1 mM QHCl
@@ -484,8 +410,7 @@ T408	Noun_Phrase 9977 9985	D6Mit194
 T409	Noun_Phrase 9987 10017	the physical position of which
 T410	IDENTITY_chain 9987 10017	the physical position of which
 T411	Noun_Phrase 10042 10050	D6Mit374
-T412	Noun_Phrase 10052 10081;	An additional proximal marker
-10092 10131	An additional proximal markerwhich lies between D6Mit194 and D6Mit13
+T412	Noun_Phrase 10052 10081;10092 10131	An additional proximal marker which lies between D6Mit194 and D6Mit13
 T413	Noun_Phrase 10083 10090	D6Mit61
 T414	APPOS_relation 10083 10090	D6Mit61
 T415	IDENTITY_chain 10083 10090	D6Mit61
@@ -586,10 +511,8 @@ T509	Noun_Phrase 12632 12675	the chromosome 6 QHCl taste sensitivity QTL
 T510	Noun_Phrase 12677 12679	we
 T511	Noun_Phrase 12746 12774	three likely characteristics
 T512	IDENTITY_chain 12746 12774	three likely characteristics
-T513	Noun_Phrase 12830 12832;	D2
-12882 12886	D2mice
-T514	Noun_Phrase 12861 12863;	B6
-12882 12886	B6mice
+T513	Noun_Phrase 12830 12832;12882 12886	D2 mice
+T514	Noun_Phrase 12861 12863;12882 12886	B6 mice
 T515	Noun_Phrase 13181 13183	we
 T516	Noun_Phrase 13195 13213	all three of these
 T517	Noun_Phrase 13241 13243	we
@@ -632,8 +555,7 @@ T553	APPOS_relation 14264 14285	Tas2r103 and Tas2r117
 T554	Noun_Phrase 14397 14412	these two genes
 T555	Noun_Phrase 14435 14446	this strain
 T556	Noun_Phrase 14521 14534	All 24 Tas2rs
-T557	Noun_Phrase 14570 14572;	B6
-14580 14584	B6mice
+T557	Noun_Phrase 14570 14572;14580 14584	B6 mice
 T558	Noun_Phrase 14577 14584	D2 mice
 T559	Noun_Phrase 14590 14625	307 single nucleotide polymorphisms
 T560	Noun_Phrase 14759 14772	the receptors
@@ -672,8 +594,7 @@ T592	Noun_Phrase 15793 15797	they
 T593	Noun_Phrase 15824 15826	we
 T594	Noun_Phrase 15910 15912	us
 T595	Noun_Phrase 16010 16012	We
-T596	Noun_Phrase 16029 16040;	three genes
-16075 16139	three geneswhere no diagnostic restriction endonuclease could be identified
+T596	Noun_Phrase 16029 16040;16075 16139	three genes where no diagnostic restriction endonuclease could be identified
 T597	Noun_Phrase 16042 16073	Tas2r104, Tas2r114 and Tas2r110
 T598	APPOS_relation 16042 16073	Tas2r104, Tas2r114 and Tas2r110
 T599	Noun_Phrase 16145 16153	Tas2r120
@@ -684,19 +605,15 @@ T603	Nonreferential_pronoun 16303 16308	there
 T604	Noun_Phrase 16359 16390	the distal chromosome 6 cluster
 T605	Noun_Phrase 16416 16432	the BXD RI lines
 T606	Noun_Phrase 16438 16457	all RI lines tested
-T607	Noun_Phrase 16542 16549;	Figures
-16553 16554	Figures6
-T608	IDENTITY_chain 16542 16549;	Figures
-16553 16554	Figures6
+T607	Noun_Phrase 16542 16549;16553 16554	Figures 6
+T608	IDENTITY_chain 16542 16549;16553 16554	Figures 6
 T609	Noun_Phrase 16542 16551	Figures 5
 T610	Noun_Phrase 16625 16649	the QHCl taste phenotype
 T611	IDENTITY_chain 16625 16649	the QHCl taste phenotype
 T612	Noun_Phrase 16629 16633	QHCl
 T613	Noun_Phrase 16629 16639	QHCl taste
-T614	Noun_Phrase 16651 16658;	Figures
-16662 16663	Figures7
-T615	IDENTITY_chain 16651 16658;	Figures
-16662 16663	Figures7
+T614	Noun_Phrase 16651 16658;16662 16663	Figures 7
+T615	IDENTITY_chain 16651 16658;16662 16663	Figures 7
 T616	Noun_Phrase 16651 16660	Figures 6
 T617	Noun_Phrase 16682 16706	the entire Tas2r cluster
 T618	Noun_Phrase 16746 16750	QHCl
@@ -715,19 +632,13 @@ T630	Noun_Phrase 17177 17191	Tas2r genotype
 T631	Noun_Phrase 17208 17212	QHCl
 T632	Noun_Phrase 17208 17218	QHCl taste
 T633	Noun_Phrase 17208 17228	QHCl taste phenotype
-T634	Noun_Phrase 17230 17249;	Mean lick ratios of
-17254 17256;	Mean lick ratios ofD2
-17265 17293	Mean lick ratios ofD2strains reported in Figure 1
-T635	Noun_Phrase 17230 17249;	Mean lick ratios of
-17261 17293	Mean lick ratios ofBXD strains reported in Figure 1
-T636	Noun_Phrase 17230 17252;	Mean lick ratios of B6
-17265 17293	Mean lick ratios of B6strains reported in Figure 1
+T634	Noun_Phrase 17230 17249;17254 17256;17265 17293	Mean lick ratios of D2 strains reported in Figure 1
+T635	Noun_Phrase 17230 17249;17261 17293	Mean lick ratios of BXD strains reported in Figure 1
+T636	Noun_Phrase 17230 17252;17265 17293	Mean lick ratios of B6 strains reported in Figure 1
 T637	Noun_Phrase 17230 17293	Mean lick ratios of B6, D2 and BXD strains reported in Figure 1
-T638	Noun_Phrase 17250 17252;	B6
-17265 17272	B6strains
+T638	Noun_Phrase 17250 17252;17265 17272	B6 strains
 T639	Noun_Phrase 17250 17272	B6, D2 and BXD strains
-T640	Noun_Phrase 17254 17256;	D2
-17265 17272	D2strains
+T640	Noun_Phrase 17254 17256;17265 17272	D2 strains
 T641	Noun_Phrase 17261 17272	BXD strains
 T642	Noun_Phrase 17285 17293	Figure 1
 T643	Noun_Phrase 17315 17320	Tas2r
@@ -738,8 +649,7 @@ T647	IDENTITY_chain 17353 17365	D2 haplotype
 T648	Noun_Phrase 17374 17381	B6 mice
 T649	Noun_Phrase 17396 17406	left panel
 T650	IDENTITY_chain 17396 17406	left panel
-T651	Noun_Phrase 17430 17434;	1 mM
-17444 17448	1 mMQHCl
+T651	Noun_Phrase 17430 17434;17444 17448	1 mM QHCl
 T652	Noun_Phrase 17430 17448	1 mM and 3 mM QHCl
 T653	Noun_Phrase 17439 17448	3 mM QHCl
 T654	Noun_Phrase 17458 17465	D2 mice
@@ -764,8 +674,7 @@ T672	Noun_Phrase 18214 18233	distal chromosome 6
 T673	Noun_Phrase 18272 18276	QHCL
 T674	Noun_Phrase 18272 18282	QHCL taste
 T675	Noun_Phrase 18272 18294	QHCL taste sensitivity
-T676	Noun_Phrase 18303 18305;	B6
-18313 18317	B6mice
+T676	Noun_Phrase 18303 18305;18313 18317	B6 mice
 T677	Noun_Phrase 18303 18317	B6 and D2 mice
 T678	Noun_Phrase 18310 18317	D2 mice
 T679	Noun_Phrase 18319 18327	This QTL
@@ -817,8 +726,7 @@ T724	Noun_Phrase 19792 19799	quinine
 T725	Noun_Phrase 19792 19811	quinine sensitivity
 T726	Noun_Phrase 19874 19876	B6
 T727	Noun_Phrase 19929 19931	D2
-T728	Noun_Phrase 19987 19994;	Figures
-19998 19999	Figures7
+T728	Noun_Phrase 19987 19994;19998 19999	Figures 7
 T729	Noun_Phrase 19987 19996	Figures 1
 T730	Noun_Phrase 20060 20067	quinine
 T731	Noun_Phrase 20060 20073	quinine taste
@@ -847,15 +755,12 @@ T753	Noun_Phrase 20964 20971	D6Mit13
 T754	Noun_Phrase 20993 21003	the Tas2rs
 T755	Noun_Phrase 21007 21021	these RI lines
 T756	Noun_Phrase 21063 21080	the Tas2r cluster
-T757	Noun_Phrase 21262 21267;	sweet
-21278 21283	sweettaste
+T757	Noun_Phrase 21262 21267;21278 21283	sweet taste
 T758	Noun_Phrase 21272 21283	umami taste
 T759	Noun_Phrase 21400 21419	phenylthiocarbamide
 T760	APPOS_relation 21400 21419	phenylthiocarbamide
-T761	Noun_Phrase 21400 21419;	phenylthiocarbamide
-21426 21431	phenylthiocarbamidetaste
-T762	IDENTITY_chain 21400 21419;	phenylthiocarbamide
-21426 21431	phenylthiocarbamidetaste
+T761	Noun_Phrase 21400 21419;21426 21431	phenylthiocarbamide taste
+T762	IDENTITY_chain 21400 21419;21426 21431	phenylthiocarbamide taste
 T763	IDENTITY_chain 21400 21419	phenylthiocarbamide
 T764	Noun_Phrase 21421 21424	PTC
 T765	Noun_Phrase 21526 21529	PTC
@@ -870,8 +775,7 @@ T773	Noun_Phrase 21913 21921	Figure 2
 T774	Noun_Phrase 21944 21950	Tas2rs
 T775	Nonreferential_pronoun 21990 21992	It
 T776	Noun_Phrase 22025 22047	the 24 Tas2rs examined
-T777	Noun_Phrase 22075 22077;	B6
-22085 22089	B6mice
+T777	Noun_Phrase 22075 22077;22085 22089	B6 mice
 T778	Noun_Phrase 22075 22089	B6 and D2 mice
 T779	Noun_Phrase 22082 22089	D2 mice
 T780	Noun_Phrase 22102 22115	these strains
@@ -888,8 +792,7 @@ T790	Noun_Phrase 23045 23051	Tas2rs
 T791	Noun_Phrase 23109 23115	Tas2rs
 T792	Noun_Phrase 23197 23220	these two mouse strains
 T793	Nonreferential_pronoun 23310 23312	It
-T794	Noun_Phrase 23330 23332;	B6
-23340 23344	B6mice
+T794	Noun_Phrase 23330 23332;23340 23344	B6 mice
 T795	Noun_Phrase 23330 23344	B6 and D2 mice
 T796	Noun_Phrase 23337 23344	D2 mice
 T797	Noun_Phrase 23660 23662	we
@@ -939,8 +842,7 @@ T840	Noun_Phrase 26154 26158	mice
 T841	Noun_Phrase 26232 26245	this interval
 T842	Noun_Phrase 26309 26313	Mice
 T843	Noun_Phrase 26389 26398	3 mM QHCl
-T844	Noun_Phrase 26400 26401;	1
-26408 26413	1mM DB
+T844	Noun_Phrase 26400 26401;26408 26413	1 mM DB
 T845	Noun_Phrase 26400 26413	1 and 3 mM DB
 T846	Noun_Phrase 26406 26413	3 mM DB
 T847	Noun_Phrase 26671 26686	distilled water
@@ -961,8 +863,7 @@ T861	Noun_Phrase 27429 27442	This stimulus
 T862	Noun_Phrase 27535 27540	water
 T863	Nonreferential_pronoun 27640 27645	there
 T864	Noun_Phrase 27668 27672	mice
-T865	Noun_Phrase 27680 27689;	distilled
-27706 27711	distilledwater
+T865	Noun_Phrase 27680 27689;27706 27711	distilled water
 T866	Nonreferential_pronoun 27766 27771	there
 T867	Noun_Phrase 27792 27796	mice
 T868	Noun_Phrase 27876 27887	QTL mapping
@@ -980,8 +881,7 @@ T879	Noun_Phrase 28751 28769	the BXD RI strains
 T880	Noun_Phrase 28795 28806	T2R alleles
 T881	Noun_Phrase 28808 28824	Oligonucleotides
 T882	Noun_Phrase 28891 28911	the public B6 genome
-T883	Noun_Phrase 29013 29015;	D2
-29023 29037	D2RI genomic DNA
+T883	Noun_Phrase 29013 29015;29023 29037	D2 RI genomic DNA
 T884	Noun_Phrase 29039 29059	Jackson Laboratories
 T885	Noun_Phrase 29061 29075	Bar Harbor, ME
 T886	Noun_Phrase 29073 29075	ME
@@ -1000,10 +900,8 @@ T898	Noun_Phrase 29983 29997	the manuscript
 T899	IDENTITY_chain 29983 29997	the manuscript
 T900	Noun_Phrase 29999 30001	JB
 T901	IDENTITY_chain 29999 30001	JB
-T902	Noun_Phrase 30012 30015;	the
-30039 30051	theQTL analysis
-T903	IDENTITY_chain 30012 30015;	the
-30039 30051	theQTL analysis
+T902	Noun_Phrase 30012 30015;30039 30051	the QTL analysis
+T903	IDENTITY_chain 30012 30015;30039 30051	the QTL analysis
 T904	Noun_Phrase 30012 30034	the behavioral studies
 T905	IDENTITY_chain 30012 30034	the behavioral studies
 T906	Noun_Phrase 30053 30055	SM

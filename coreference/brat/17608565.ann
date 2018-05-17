@@ -24,10 +24,8 @@ T22	Noun_Phrase 380 382	we
 T23	IDENTITY_chain 380 382	we
 T24	Noun_Phrase 482 508	Rb-deficient retinal cells
 T25	IDENTITY_chain 482 508	Rb-deficient retinal cells
-T26	Noun_Phrase 526 533;	ectopic
-547 556	ectopicapoptosis
-T27	IDENTITY_chain 526 533;	ectopic
-547 556	ectopicapoptosis
+T26	Noun_Phrase 526 533;547 556	ectopic apoptosis
+T27	IDENTITY_chain 526 533;547 556	ectopic apoptosis
 T28	Noun_Phrase 526 542	ectopic division
 T29	IDENTITY_chain 526 542	ectopic division
 T30	Noun_Phrase 526 556	ectopic division and apoptosis
@@ -205,16 +203,12 @@ T201	Noun_Phrase 3567 3590	the outer nuclear layer
 T202	APPOS_relation 3592 3595	ONL
 T203	IDENTITY_chain 3592 3595	ONL
 T204	Noun_Phrase 3592 3595	ONL
-T205	Noun_Phrase 3598 3608;	horizontal
-3632 3637	horizontalcells
-T206	IDENTITY_chain 3598 3608;	horizontal
-3632 3637	horizontalcells
+T205	Noun_Phrase 3598 3608;3632 3637	horizontal cells
+T206	IDENTITY_chain 3598 3608;3632 3637	horizontal cells
 T207	Noun_Phrase 3598 3673	horizontal, bipolar, and amacrine cells, as well as Müller glia cell bodies
 T208	IDENTITY_chain 3598 3673	horizontal, bipolar, and amacrine cells, as well as Müller glia cell bodies
-T209	Noun_Phrase 3610 3617;	bipolar
-3632 3637	bipolarcells
-T210	IDENTITY_chain 3610 3617;	bipolar
-3632 3637	bipolarcells
+T209	Noun_Phrase 3610 3617;3632 3637	bipolar cells
+T210	IDENTITY_chain 3610 3617;3632 3637	bipolar cells
 T211	Noun_Phrase 3610 3637	bipolar, and amacrine cells
 T212	IDENTITY_chain 3610 3637	bipolar, and amacrine cells
 T213	Noun_Phrase 3623 3637	amacrine cells
@@ -225,10 +219,8 @@ T217	Noun_Phrase 3685 3708	the inner nuclear layer
 T218	APPOS_relation 3710 3713	INL
 T219	IDENTITY_chain 3710 3713	INL
 T220	Noun_Phrase 3710 3713	INL
-T221	Noun_Phrase 3720 3728;	ganglion
-3752 3757	ganglioncells
-T222	IDENTITY_chain 3720 3728;	ganglion
-3752 3757	ganglioncells
+T221	Noun_Phrase 3720 3728;3752 3757	ganglion cells
+T222	IDENTITY_chain 3720 3728;3752 3757	ganglion cells
 T223	Noun_Phrase 3720 3757	ganglion and displaced amacrine cells
 T224	IDENTITY_chain 3720 3757	ganglion and displaced amacrine cells
 T225	Noun_Phrase 3733 3757	displaced amacrine cells
@@ -239,8 +231,7 @@ T229	IDENTITY_chain 3788 3791	GCL
 T230	Noun_Phrase 3788 3791	GCL
 T231	APPOS_relation 3788 3791	GCL
 T232	Noun_Phrase 3794 3803	Figure 1A
-T233	Noun_Phrase 3806 3809;	The
-3842 3863	Theinner plexiform layer
+T233	Noun_Phrase 3806 3809;3842 3863	The inner plexiform layer
 T234	Noun_Phrase 3806 3831	The outer plexiform layer
 T235	Noun_Phrase 3806 3863	The outer plexiform layer (OPL) and inner plexiform layer
 T236	IDENTITY_chain 3806 3863	The outer plexiform layer (OPL) and inner plexiform layer
@@ -255,39 +246,27 @@ T244	Noun_Phrase 3916 3919	INL
 T245	Noun_Phrase 3924 3927	INL
 T246	Noun_Phrase 3928 3931	GCL
 T247	Noun_Phrase 3958 3962	E2f1
-T248	Noun_Phrase 3958 3962;	E2f1
-3977 3990	E2f1or E2f3, Loss
-T249	IDENTITY_chain 3958 3962;	E2f1
-3977 3990	E2f1or E2f3, Loss
-T250	Noun_Phrase 3958 3962;	E2f1
-3986 3990	E2f1Loss
-T251	IDENTITY_chain 3958 3962;	E2f1
-3986 3990	E2f1Loss
-T252	Noun_Phrase 3958 3971;	E2f1, but Not
-3980 3990	E2f1, but NotE2f3, Loss
-T253	IDENTITY_chain 3958 3971;	E2f1, but Not
-3980 3990	E2f1, but NotE2f3, Loss
+T248	Noun_Phrase 3958 3962;3977 3990	E2f1 or E2f3, Loss
+T249	IDENTITY_chain 3958 3962;3977 3990	E2f1 or E2f3, Loss
+T250	Noun_Phrase 3958 3962;3986 3990	E2f1 Loss
+T251	IDENTITY_chain 3958 3962;3986 3990	E2f1 Loss
+T252	Noun_Phrase 3958 3971;3980 3990	E2f1, but Not E2f3, Loss
+T253	IDENTITY_chain 3958 3971;3980 3990	E2f1, but Not E2f3, Loss
 T254	Noun_Phrase 3958 3990	E2f1, but Not E2f2 or E2f3, Loss
 T255	IDENTITY_chain 3958 3990	E2f1, but Not E2f2 or E2f3, Loss
 T256	Noun_Phrase 3972 3976	E2f2
 T257	IDENTITY_chain 3972 3976	E2f2
-T258	Noun_Phrase 3972 3976;	E2f2
-3986 3990	E2f2Loss
-T259	IDENTITY_chain 3972 3976;	E2f2
-3986 3990	E2f2Loss
+T258	Noun_Phrase 3972 3976;3986 3990	E2f2 Loss
+T259	IDENTITY_chain 3972 3976;3986 3990	E2f2 Loss
 T260	Noun_Phrase 3972 3990	E2f2 or E2f3, Loss
 T261	IDENTITY_chain 3972 3990	E2f2 or E2f3, Loss
 T262	Noun_Phrase 3980 3984	E2f3
 T263	Noun_Phrase 3980 3990	E2f3, Loss
 T264	IDENTITY_chain 3980 3990	E2f3, Loss
-T265	Noun_Phrase 3999 4006;	Ectopic
-4020 4050	EctopicCell Death in the Rb KO Retina
-T266	IDENTITY_chain 3999 4006;	Ectopic
-4020 4050	EctopicCell Death in the Rb KO Retina
-T267	Noun_Phrase 3999 4015;	Ectopic Division
-4031 4050	Ectopic Divisionin the Rb KO Retina
-T268	IDENTITY_chain 3999 4015;	Ectopic Division
-4031 4050	Ectopic Divisionin the Rb KO Retina
+T265	Noun_Phrase 3999 4006;4020 4050	Ectopic Cell Death in the Rb KO Retina
+T266	IDENTITY_chain 3999 4006;4020 4050	Ectopic Cell Death in the Rb KO Retina
+T267	Noun_Phrase 3999 4015;4031 4050	Ectopic Division in the Rb KO Retina
+T268	IDENTITY_chain 3999 4015;4031 4050	Ectopic Division in the Rb KO Retina
 T269	Noun_Phrase 3999 4050	Ectopic Division and Cell Death in the Rb KO Retina
 T270	IDENTITY_chain 3999 4050	Ectopic Division and Cell Death in the Rb KO Retina
 T271	Noun_Phrase 4034 4050	the Rb KO Retina
@@ -321,19 +300,14 @@ T298	Noun_Phrase 4444 4449	cones
 T299	APPOS_relation 4444 4449	cones
 T300	Noun_Phrase 4451 4452	c
 T301	Noun_Phrase 4457 4464	the ONL
-T302	Noun_Phrase 4466 4476;	horizontal
-4524 4540	horizontalcells in the INL
+T302	Noun_Phrase 4466 4476;4524 4540	horizontal cells in the INL
 T303	Noun_Phrase 4466 4540	horizontal (h), bipolar (b), Müller (m), and amacrine (a) cells in the INL
-T304	Noun_Phrase 4482 4489;	bipolar
-4507 4540	bipolarand amacrine (a) cells in the INL
-T305	Noun_Phrase 4482 4489;	bipolar
-4524 4540	bipolarcells in the INL
-T306	Noun_Phrase 4495 4501;	Müller
-4524 4540	Müllercells in the INL
+T304	Noun_Phrase 4482 4489;4507 4540	bipolar and amacrine (a) cells in the INL
+T305	Noun_Phrase 4482 4489;4524 4540	bipolar cells in the INL
+T306	Noun_Phrase 4495 4501;4524 4540	Müller cells in the INL
 T307	Noun_Phrase 4511 4540	amacrine (a) cells in the INL
 T308	Noun_Phrase 4533 4540	the INL
-T309	Noun_Phrase 4546 4554;	ganglion
-4582 4598	ganglioncells in the GCL
+T309	Noun_Phrase 4546 4554;4582 4598	ganglion cells in the GCL
 T310	Noun_Phrase 4546 4598	ganglion (g) and displaced amacrine cells in the GCL
 T311	Noun_Phrase 4563 4598	displaced amacrine cells in the GCL
 T312	Noun_Phrase 4591 4598	the GCL
@@ -352,8 +326,7 @@ T324	Noun_Phrase 4756 4793	tissue-specific transcription factors
 T325	Noun_Phrase 4804 4806	Rb
 T326	Noun_Phrase 4804 4811	Rb loss
 T327	Noun_Phrase 4831 4846	differentiation
-T328	Noun_Phrase 4879 4887;	abnormal
-4900 4905	abnormaldeath
+T328	Noun_Phrase 4879 4887;4900 4905	abnormal death
 T329	Noun_Phrase 4879 4896	abnormal division
 T330	Noun_Phrase 4943 4958	differentiation
 T331	Noun_Phrase 4943 4964	differentiation genes
@@ -361,10 +334,8 @@ T332	IDENTITY_chain 4943 4964	differentiation genes
 T333	Noun_Phrase 4968 4972	E2fs
 T334	Noun_Phrase 4985 5048	Horizontal retinal sections of the indicated genotypes and ages
 T335	IDENTITY_chain 4985 5048	Horizontal retinal sections of the indicated genotypes and ages
-T336	Noun_Phrase 5016 5029;	the indicated
-5044 5048	the indicatedages
-T337	IDENTITY_chain 5016 5029;	the indicated
-5044 5048	the indicatedages
+T336	Noun_Phrase 5016 5029;5044 5048	the indicated ages
+T337	IDENTITY_chain 5016 5029;5044 5048	the indicated ages
 T338	Noun_Phrase 5016 5039	the indicated genotypes
 T339	IDENTITY_chain 5016 5039	the indicated genotypes
 T340	Noun_Phrase 5016 5048	the indicated genotypes and ages
@@ -407,10 +378,8 @@ T376	Noun_Phrase 5433 5446	three animals
 T377	IDENTITY_chain 5433 5446	three animals
 T378	Noun_Phrase 5452 5461	asterisks
 T379	IDENTITY_chain 5452 5461	asterisks
-T380	Noun_Phrase 5504 5510;	the WT
-5525 5534	the WTgenotypes
-T381	IDENTITY_chain 5504 5510;	the WT
-5525 5534	the WTgenotypes
+T380	Noun_Phrase 5504 5510;5525 5534	the WT genotypes
+T381	IDENTITY_chain 5504 5510;5525 5534	the WT genotypes
 T382	Noun_Phrase 5504 5534	the WT and indicated genotypes
 T383	IDENTITY_chain 5504 5534	the WT and indicated genotypes
 T384	Noun_Phrase 5515 5534	indicated genotypes
@@ -437,13 +406,10 @@ T404	APPOS_relation 5728 5736	knockout
 T405	Noun_Phrase 5738 5740	KO
 T406	Noun_Phrase 5791 5795	some
 T407	Noun_Phrase 5797 5800	rod
-T408	Noun_Phrase 5797 5800;	rod
-5824 5829	rodcells
-T409	IDENTITY_chain 5797 5800;	rod
-5824 5829	rodcells
+T408	Noun_Phrase 5797 5800;5824 5829	rod cells
+T409	IDENTITY_chain 5797 5800;5824 5829	rod cells
 T410	Noun_Phrase 5797 5829	rod, ganglion, and bipolar cells
-T411	Noun_Phrase 5802 5810;	ganglion
-5824 5829	ganglioncells
+T411	Noun_Phrase 5802 5810;5824 5829	ganglion cells
 T412	Noun_Phrase 5802 5829	ganglion, and bipolar cells
 T413	Noun_Phrase 5816 5829	bipolar cells
 T414	Noun_Phrase 5838 5847	apoptosis
@@ -463,10 +429,8 @@ T427	IDENTITY_chain 6142 6177	proteins of the related Tfdp family
 T428	Noun_Phrase 6154 6177	the related Tfdp family
 T429	IDENTITY_chain 6154 6177	the related Tfdp family
 T430	Noun_Phrase 6179 6183	E2f1
-T431	Noun_Phrase 6179 6183;	E2f1
-6191 6200	E2f1and E2f3a
-T432	IDENTITY_chain 6179 6183;	E2f1
-6191 6200	E2f1and E2f3a
+T431	Noun_Phrase 6179 6183;6191 6200	E2f1 and E2f3a
+T432	IDENTITY_chain 6179 6183;6191 6200	E2f1 and E2f3a
 T433	Noun_Phrase 6179 6189	E2f1, E2f2
 T434	IDENTITY_chain 6179 6189	E2f1, E2f2
 T435	Noun_Phrase 6179 6200	E2f1, E2f2, and E2f3a
@@ -504,8 +468,7 @@ T466	Noun_Phrase 6632 6636	E2f5
 T467	IDENTITY_chain 6632 6636	E2f5
 T468	Noun_Phrase 6652 6667	repressive E2fs
 T469	Noun_Phrase 6677 6681	they
-T470	Noun_Phrase 6759 6768;	quiescent
-6787 6792	quiescentcells
+T470	Noun_Phrase 6759 6768;6787 6792	quiescent cells
 T471	Noun_Phrase 6772 6792	differentiated cells
 T472	IDENTITY_chain 6772 6792	differentiated cells
 T473	Noun_Phrase 6795 6810	Activating E2fs
@@ -520,8 +483,7 @@ T481	Noun_Phrase 6939 6949	the family
 T482	Noun_Phrase 6965 6974	this view
 T483	Nonreferential_pronoun 6996 6998	it
 T484	Noun_Phrase 7021 7025	E2f1
-T485	Noun_Phrase 7021 7025;	E2f1
-7034 7042	E2f1deletion
+T485	Noun_Phrase 7021 7025;7034 7042	E2f1 deletion
 T486	Noun_Phrase 7021 7042	E2f1 or E2f3 deletion
 T487	Noun_Phrase 7029 7033	E2f3
 T488	Noun_Phrase 7029 7042	E2f3 deletion
@@ -551,8 +513,7 @@ T511	Noun_Phrase 7623 7626	E2f
 T512	Noun_Phrase 7623 7633	E2f family
 T513	Noun_Phrase 7659 7663	E2f3
 T514	Noun_Phrase 7659 7672	E2f3 isoforms
-T515	Noun_Phrase 7705 7714;	two forms
-7725 7775	two formsthat are identical except for distinct first exons
+T515	Noun_Phrase 7705 7714;7725 7775	two forms that are identical except for distinct first exons
 T516	Noun_Phrase 7716 7717	a
 T517	Noun_Phrase 7716 7723	a and b
 T518	APPOS_relation 7716 7723	a and b
@@ -563,8 +524,7 @@ T522	Noun_Phrase 7875 7890	quiescent cells
 T523	Noun_Phrase 7922 7927	E2f3b
 T524	Noun_Phrase 7934 7949	repressive E2fs
 T525	IDENTITY_chain 7934 7949	repressive E2fs
-T526	Noun_Phrase 7970 7979;	quiescent
-7993 7998	quiescentcells
+T526	Noun_Phrase 7970 7979;7993 7998	quiescent cells
 T527	Noun_Phrase 8007 8028	quiescent fibroblasts
 T528	IDENTITY_chain 8007 8028	quiescent fibroblasts
 T529	Noun_Phrase 8029 8031	it
@@ -598,8 +558,7 @@ T556	Noun_Phrase 8627 8634	Rb loss
 T557	Noun_Phrase 8644 8668	neuronal differentiation
 T558	Noun_Phrase 8737 8752	differentiation
 T559	Noun_Phrase 8737 8760	differentiation defects
-T560	Noun_Phrase 8799 8807;	abnormal
-8821 8826	abnormaldeath
+T560	Noun_Phrase 8799 8807;8821 8826	abnormal death
 T561	Noun_Phrase 8799 8816	abnormal division
 T562	Noun_Phrase 8799 8826	abnormal division and death
 T563	Noun_Phrase 8831 8833	Rb
@@ -631,14 +590,12 @@ T588	Noun_Phrase 9304 9309	their
 T589	Noun_Phrase 9338 9361	retina-specific factors
 T590	IDENTITY_chain 9338 9361	retina-specific factors
 T591	Noun_Phrase 9377 9392	differentiation
-T592	Noun_Phrase 9452 9459;	ectopic
-9476 9485	ectopicapoptosis
+T592	Noun_Phrase 9452 9459;9476 9485	ectopic apoptosis
 T593	Noun_Phrase 9452 9468	ectopic division
 T594	Noun_Phrase 9452 9485	ectopic division and/or apoptosis
 T595	Noun_Phrase 9487 9496	Figure 1B
 T596	Nonreferential_pronoun 9505 9507	it
-T597	Noun_Phrase 9578 9585;	ectopic
-9604 9609	ectopicdeath
+T597	Noun_Phrase 9578 9585;9604 9609	ectopic death
 T598	Noun_Phrase 9578 9599	ectopic proliferation
 T599	IDENTITY_chain 9578 9599	ectopic proliferation
 T600	Noun_Phrase 9578 9609	ectopic proliferation and death
@@ -773,10 +730,8 @@ T728	IDENTITY_chain 12310 12328	immunofluorescence
 T729	Noun_Phrase 12356 12369	Rb KO retinas
 T730	Noun_Phrase 12380 12427	both spatial and temporal ectopic DNA synthesis
 T731	IDENTITY_chain 12380 12427	both spatial and temporal ectopic DNA synthesis
-T732	Noun_Phrase 12429 12436;	Figures
-12444 12447	FiguresS1A
-T733	IDENTITY_chain 12429 12436;	Figures
-12444 12447	FiguresS1A
+T732	Noun_Phrase 12429 12436;12444 12447	Figures S1A
+T733	IDENTITY_chain 12429 12436;12444 12447	Figures S1A
 T734	Noun_Phrase 12429 12439	Figures 1C
 T735	IDENTITY_chain 12429 12439	Figures 1C
 T736	Noun_Phrase 12429 12447	Figures 1C and S1A
@@ -791,10 +746,8 @@ T744	IDENTITY_chain 12514 12530	the inner retina
 T745	Noun_Phrase 12622 12635	the P0 retina
 T746	IDENTITY_chain 12622 12635	the P0 retina
 T747	Noun_Phrase 12626 12628	P0
-T748	Noun_Phrase 12676 12683;	Figures
-12692 12694	FiguresS2
-T749	IDENTITY_chain 12676 12683;	Figures
-12692 12694	FiguresS2
+T748	Noun_Phrase 12676 12683;12692 12694	Figures S2
+T749	IDENTITY_chain 12676 12683;12692 12694	Figures S2
 T750	Noun_Phrase 12676 12687	Figures S1A
 T751	Noun_Phrase 12676 12694	Figures S1A and S2
 T752	IDENTITY_chain 12676 12694	Figures S1A and S2
@@ -807,8 +760,7 @@ T758	APPOS_relation 12812 12821	wild-type
 T759	Noun_Phrase 12812 12833	wild-type (WT) retina
 T760	IDENTITY_chain 12812 12833	wild-type (WT) retina
 T761	Noun_Phrase 12823 12825	WT
-T762	Noun_Phrase 12835 12842;	Figures
-12850 12853	FiguresS1A
+T762	Noun_Phrase 12835 12842;12850 12853	Figures S1A
 T763	Noun_Phrase 12835 12845	Figures 1C
 T764	Noun_Phrase 12835 12853	Figures 1C and S1A
 T765	Noun_Phrase 12912 12915	E14
@@ -821,27 +773,18 @@ T771	Noun_Phrase 12926 12928	P0
 T772	Noun_Phrase 12962 12964	P8
 T773	Noun_Phrase 12969 12972	P18
 T774	Noun_Phrase 13003 13025	the Rb/E2f1 DKO retina
-T775	Noun_Phrase 13027 13034;	Figures
-13039 13041	Figures1E
-T776	IDENTITY_chain 13027 13034;	Figures
-13039 13041	Figures1E
-T777	Noun_Phrase 13027 13034;	Figures
-13043 13045	Figures1F
-T778	IDENTITY_chain 13027 13034;	Figures
-13043 13045	Figures1F
-T779	Noun_Phrase 13027 13034;	Figures
-13047 13050	FiguresS1A
-T780	Noun_Phrase 13027 13034;	Figures
-13047 13058	FiguresS1A, and S2
-T781	Noun_Phrase 13027 13034;	Figures
-13056 13058	FiguresS2
+T775	Noun_Phrase 13027 13034;13039 13041	Figures 1E
+T776	IDENTITY_chain 13027 13034;13039 13041	Figures 1E
+T777	Noun_Phrase 13027 13034;13043 13045	Figures 1F
+T778	IDENTITY_chain 13027 13034;13043 13045	Figures 1F
+T779	Noun_Phrase 13027 13034;13047 13050	Figures S1A
+T780	Noun_Phrase 13027 13034;13047 13058	Figures S1A, and S2
+T781	Noun_Phrase 13027 13034;13056 13058	Figures S2
 T782	Noun_Phrase 13027 13037	Figures 1C
-T783	Noun_Phrase 13027 13037;	Figures 1C
-13047 13050	Figures 1CS1A
+T783	Noun_Phrase 13027 13037;13047 13050	Figures 1C S1A
 T784	Noun_Phrase 13027 13058	Figures 1C, 1E, 1F, S1A, and S2
 T785	IDENTITY_chain 13027 13058	Figures 1C, 1E, 1F, S1A, and S2
-T786	Noun_Phrase 13074 13085;	deletion of
-13094 13098	deletion ofE2f3
+T786	Noun_Phrase 13074 13085;13094 13098	deletion of E2f3
 T787	Noun_Phrase 13074 13090	deletion of E2f2
 T788	Noun_Phrase 13074 13098	deletion of E2f2 or E2f3
 T789	Noun_Phrase 13086 13090	E2f2
@@ -855,23 +798,16 @@ T796	IDENTITY_chain 13173 13220	anti–phosphohistone 3 (PH3)–specific antibodies
 T797	Noun_Phrase 13178 13194	phosphohistone 3
 T798	APPOS_relation 13178 13194	phosphohistone 3
 T799	Noun_Phrase 13196 13199	PH3
-T800	Noun_Phrase 13236 13243;	loss of
-13258 13262	loss ofE2f2
-T801	Noun_Phrase 13236 13243;	loss of
-13258 13270	loss ofE2f2 or E2f3
-T802	Noun_Phrase 13236 13243;	loss of
-13266 13270	loss ofE2f3
+T800	Noun_Phrase 13236 13243;13258 13262	loss of E2f2
+T801	Noun_Phrase 13236 13243;13258 13270	loss of E2f2 or E2f3
+T802	Noun_Phrase 13236 13243;13266 13270	loss of E2f3
 T803	Noun_Phrase 13236 13248	loss of E2f1
-T804	Noun_Phrase 13236 13248;	loss of E2f1
-13263 13270	loss of E2f1or E2f3
-T805	Noun_Phrase 13236 13248;	loss of E2f1
-13263 13270	loss of E2f1or E2f3
+T804	Noun_Phrase 13236 13248;13263 13270	loss of E2f1 or E2f3
+T805	Noun_Phrase 13236 13248;13263 13270	loss of E2f1 or E2f3
 T806	Noun_Phrase 13236 13270	loss of E2f1, but not E2f2 or E2f3
 T807	Noun_Phrase 13244 13248	E2f1
-T808	Noun_Phrase 13244 13257;	E2f1, but not
-13266 13270	E2f1, but notE2f3
-T809	IDENTITY_chain 13244 13257;	E2f1, but not
-13266 13270	E2f1, but notE2f3
+T808	Noun_Phrase 13244 13257;13266 13270	E2f1, but not E2f3
+T809	IDENTITY_chain 13244 13257;13266 13270	E2f1, but not E2f3
 T810	Noun_Phrase 13244 13270	E2f1, but not E2f2 or E2f3
 T811	IDENTITY_chain 13244 13270	E2f1, but not E2f2 or E2f3
 T812	Noun_Phrase 13258 13262	E2f2
@@ -883,21 +819,14 @@ T817	IDENTITY_chain 13301 13310	Figure S3
 T818	Noun_Phrase 13326 13330	E2f1
 T819	Noun_Phrase 13379 13400	mitosis in Rb KO RTCs
 T820	Noun_Phrase 13390 13400	Rb KO RTCs
-T821	Noun_Phrase 13402 13409;	Figures
-13414 13416	Figures1E
-T822	Noun_Phrase 13402 13409;	Figures
-13418 13420	Figures1F
-T823	Noun_Phrase 13402 13409;	Figures
-13422 13425	FiguresS1A
-T824	Noun_Phrase 13402 13409;	Figures
-13422 13429	FiguresS1A, S2
-T825	Noun_Phrase 13402 13409;	Figures
-13427 13429	FiguresS2
-T826	Noun_Phrase 13402 13409;	Figures
-13435 13437	FiguresS3
+T821	Noun_Phrase 13402 13409;13414 13416	Figures 1E
+T822	Noun_Phrase 13402 13409;13418 13420	Figures 1F
+T823	Noun_Phrase 13402 13409;13422 13425	Figures S1A
+T824	Noun_Phrase 13402 13409;13422 13429	Figures S1A, S2
+T825	Noun_Phrase 13402 13409;13427 13429	Figures S2
+T826	Noun_Phrase 13402 13409;13435 13437	Figures S3
 T827	Noun_Phrase 13402 13412	Figures 1C
-T828	Noun_Phrase 13402 13412;	Figures 1C
-13422 13425	Figures 1CS1A
+T828	Noun_Phrase 13402 13412;13422 13425	Figures 1C S1A
 T829	Noun_Phrase 13402 13429	Figures 1C, 1E, 1F, S1A, S2
 T830	Noun_Phrase 13456 13460	E2f1
 T831	Noun_Phrase 13468 13498	ectopic division in Rb KO RTCs
@@ -910,35 +839,24 @@ T837	Noun_Phrase 13657 13673	ectopic division
 T838	Noun_Phrase 13697 13721	Loss of Rb in the retina
 T839	Noun_Phrase 13705 13707	Rb
 T840	Noun_Phrase 13711 13721	the retina
-T841	Noun_Phrase 13827 13833;	Figure
-13837 13839	Figure2D
-T842	IDENTITY_chain 13827 13833;	Figure
-13837 13839	Figure2D
+T841	Noun_Phrase 13827 13833;13837 13839	Figure 2D
+T842	IDENTITY_chain 13827 13833;13837 13839	Figure 2D
 T843	Noun_Phrase 13827 13836	Figure 2A
 T844	IDENTITY_chain 13827 13836	Figure 2A
 T845	Noun_Phrase 13827 13839	Figure 2A–2D
 T846	IDENTITY_chain 13827 13839	Figure 2A–2D
 T847	Noun_Phrase 13860 13870	Rb KO rods
 T848	IDENTITY_chain 13860 13870	Rb KO rods
-T849	Noun_Phrase 13908 13920;	the death of
-13944 13951;	the death ofbipolar
-13965 13972	the death ofbipolarneurons
-T850	IDENTITY_chain 13908 13920;	the death of
-13944 13951;	the death ofbipolar
-13965 13972	the death ofbipolarneurons
-T851	Noun_Phrase 13908 13920;	the death of
-13944 13972	the death ofbipolar and ganglion neurons
-T852	IDENTITY_chain 13908 13920;	the death of
-13944 13972	the death ofbipolar and ganglion neurons
-T853	Noun_Phrase 13908 13920;	the death of
-13956 13972	the death ofganglion neurons
-T854	IDENTITY_chain 13908 13920;	the death of
-13956 13972	the death ofganglion neurons
+T849	Noun_Phrase 13908 13920;13944 13951;13965 13972	the death of bipolar neurons
+T850	IDENTITY_chain 13908 13920;13944 13951;13965 13972	the death of bipolar neurons
+T851	Noun_Phrase 13908 13920;13944 13972	the death of bipolar and ganglion neurons
+T852	IDENTITY_chain 13908 13920;13944 13972	the death of bipolar and ganglion neurons
+T853	Noun_Phrase 13908 13920;13956 13972	the death of ganglion neurons
+T854	IDENTITY_chain 13908 13920;13956 13972	the death of ganglion neurons
 T855	Noun_Phrase 13908 13932	the death of these cells
 T856	IDENTITY_chain 13908 13932	the death of these cells
 T857	Noun_Phrase 13921 13932	these cells
-T858	Noun_Phrase 13944 13951;	bipolar
-13965 13972	bipolarneurons
+T858	Noun_Phrase 13944 13951;13965 13972	bipolar neurons
 T859	Noun_Phrase 13944 13972	bipolar and ganglion neurons
 T860	Noun_Phrase 13956 13972	ganglion neurons
 T861	Noun_Phrase 14068 14073	M. P.
@@ -955,49 +873,40 @@ T871	Noun_Phrase 14194 14227	D. C. and R. B., unpublished data
 T872	IDENTITY_chain 14194 14227	D. C. and R. B., unpublished data
 T873	Noun_Phrase 14204 14209	R. B.
 T874	Noun_Phrase 14239 14243	E2f1
-T875	Noun_Phrase 14239 14252;	E2f1, but not
-14261 14265	E2f1, but notE2f3
+T875	Noun_Phrase 14239 14252;14261 14265	E2f1, but not E2f3
 T876	Noun_Phrase 14239 14265	E2f1, but not E2f2 or E2f3
 T877	Noun_Phrase 14253 14257	E2f2
 T878	Noun_Phrase 14253 14265	E2f2 or E2f3
 T879	Noun_Phrase 14261 14265	E2f3
 T880	Noun_Phrase 14275 14298	this ectopic cell death
-T881	Noun_Phrase 14328 14335;	Figures
-14340 14342	Figures1G
-T882	IDENTITY_chain 14328 14335;	Figures
-14340 14342	Figures1G
+T881	Noun_Phrase 14328 14335;14340 14342	Figures 1G
+T882	IDENTITY_chain 14328 14335;14340 14342	Figures 1G
 T883	Noun_Phrase 14328 14338	Figures 1D
 T884	IDENTITY_chain 14328 14338	Figures 1D
 T885	Noun_Phrase 14328 14342	Figures 1D, 1G
 T886	IDENTITY_chain 14328 14342	Figures 1D, 1G
 T887	Noun_Phrase 14365 14369	E2f1
 T888	Noun_Phrase 14365 14378	E2f1 Deletion
-T889	Noun_Phrase 14387 14395;	Ganglion
-14414 14439	GanglionCells in the Rb KO Retina
-T890	IDENTITY_chain 14387 14395;	Ganglion
-14414 14439	GanglionCells in the Rb KO Retina
+T889	Noun_Phrase 14387 14395;14414 14439	Ganglion Cells in the Rb KO Retina
+T890	IDENTITY_chain 14387 14395;14414 14439	Ganglion Cells in the Rb KO Retina
 T891	Noun_Phrase 14387 14439	Ganglion, Rod, and Bipolar Cells in the Rb KO Retina
 T892	IDENTITY_chain 14387 14439	Ganglion, Rod, and Bipolar Cells in the Rb KO Retina
 T893	Noun_Phrase 14397 14400	Rod
-T894	Noun_Phrase 14397 14400;	Rod
-14414 14439	RodCells in the Rb KO Retina
+T894	Noun_Phrase 14397 14400;14414 14439	Rod Cells in the Rb KO Retina
 T895	Noun_Phrase 14406 14419	Bipolar Cells
 T896	Noun_Phrase 14423 14439	the Rb KO Retina
 T897	Noun_Phrase 14445 14518	Horizontal retinal sections from mice of the indicated ages and genotypes
 T898	Noun_Phrase 14478 14518	mice of the indicated ages and genotypes
 T899	IDENTITY_chain 14478 14518	mice of the indicated ages and genotypes
-T900	Noun_Phrase 14486 14499;	the indicated
-14509 14518	the indicatedgenotypes
+T900	Noun_Phrase 14486 14499;14509 14518	the indicated genotypes
 T901	Noun_Phrase 14486 14504	the indicated ages
 T902	Noun_Phrase 14486 14518	the indicated ages and genotypes
 T903	Noun_Phrase 14536 14542	nuclei
 T904	Noun_Phrase 14536 14675	nuclei (DAPI, blue) and markers that detect ganglion cells (Pou4f2, red), rods and cones (Sag [rod arrestin], green), and rod bipolar cells
 T905	IDENTITY_chain 14536 14675	nuclei (DAPI, blue) and markers that detect ganglion cells (Pou4f2, red), rods and cones (Sag [rod arrestin], green), and rod bipolar cells
 T906	Noun_Phrase 14544 14548	DAPI
-T907	Noun_Phrase 14560 14579;	markers that detect
-14610 14624	markers that detectrods and cones
-T908	Noun_Phrase 14560 14579;	markers that detect
-14658 14675	markers that detectrod bipolar cells
+T907	Noun_Phrase 14560 14579;14610 14624	markers that detect rods and cones
+T908	Noun_Phrase 14560 14579;14658 14675	markers that detect rod bipolar cells
 T909	Noun_Phrase 14560 14594	markers that detect ganglion cells
 T910	Noun_Phrase 14560 14675	markers that detect ganglion cells (Pou4f2, red), rods and cones (Sag [rod arrestin], green), and rod bipolar cells
 T911	IDENTITY_chain 14560 14675	markers that detect ganglion cells (Pou4f2, red), rods and cones (Sag [rod arrestin], green), and rod bipolar cells
@@ -1026,14 +935,10 @@ T933	Noun_Phrase 14735 14775	Quantification of Pou4f2+ ganglion cells
 T934	IDENTITY_chain 14735 14775	Quantification of Pou4f2+ ganglion cells
 T935	Noun_Phrase 14753 14775	Pou4f2+ ganglion cells
 T936	IDENTITY_chain 14753 14775	Pou4f2+ ganglion cells
-T937	Noun_Phrase 14782 14806;	Quantification of Prkca+
-14818 14831	Quantification of Prkca+bipolar cells
-T938	IDENTITY_chain 14782 14806;	Quantification of Prkca+
-14818 14831	Quantification of Prkca+bipolar cells
-T939	Noun_Phrase 14800 14806;	Prkca+
-14818 14831	Prkca+bipolar cells
-T940	IDENTITY_chain 14800 14806;	Prkca+
-14818 14831	Prkca+bipolar cells
+T937	Noun_Phrase 14782 14806;14818 14831	Quantification of Prkca+ bipolar cells
+T938	IDENTITY_chain 14782 14806;14818 14831	Quantification of Prkca+ bipolar cells
+T939	Noun_Phrase 14800 14806;14818 14831	Prkca+ bipolar cells
+T940	IDENTITY_chain 14800 14806;14818 14831	Prkca+ bipolar cells
 T941	Noun_Phrase 14838 14858	Thickness of the ONL
 T942	IDENTITY_chain 14838 14858	Thickness of the ONL
 T943	Noun_Phrase 14851 14858	the ONL
@@ -1047,16 +952,12 @@ T950	Noun_Phrase 14943 14956	three animals
 T951	Noun_Phrase 14962 14971	asterisks
 T952	Noun_Phrase 14981 15055	a significant difference between retinas of WT and the indicated genotypes
 T953	IDENTITY_chain 14981 15055	a significant difference between retinas of WT and the indicated genotypes
-T954	Noun_Phrase 15014 15024;	retinas of
-15032 15055	retinas ofthe indicated genotypes
-T955	IDENTITY_chain 15014 15024;	retinas of
-15032 15055	retinas ofthe indicated genotypes
-T956	Noun_Phrase 15014 15027;	retinas of WT
-15046 15055	retinas of WTgenotypes
+T954	Noun_Phrase 15014 15024;15032 15055	retinas of the indicated genotypes
+T955	IDENTITY_chain 15014 15024;15032 15055	retinas of the indicated genotypes
+T956	Noun_Phrase 15014 15027;15046 15055	retinas of WT genotypes
 T957	Noun_Phrase 15014 15055	retinas of WT and the indicated genotypes
 T958	IDENTITY_chain 15014 15055	retinas of WT and the indicated genotypes
-T959	Noun_Phrase 15025 15027;	WT
-15046 15055	WTgenotypes
+T959	Noun_Phrase 15025 15027;15046 15055	WT genotypes
 T960	Noun_Phrase 15025 15055	WT and the indicated genotypes
 T961	Noun_Phrase 15032 15055	the indicated genotypes
 T962	Noun_Phrase 15108 15109	p
@@ -1106,8 +1007,7 @@ T1005	IDENTITY_chain 15983 15992	Figure 1H
 T1006	Noun_Phrase 16001 16015	the E2f family
 T1007	Noun_Phrase 16005 16008	E2f
 T1008	Noun_Phrase 16017 16021	E2f1
-T1009	Noun_Phrase 16017 16021;	E2f1
-16029 16034	E2f1E2f3a
+T1009	Noun_Phrase 16017 16021;16029 16034	E2f1 E2f3a
 T1010	Noun_Phrase 16017 16027	E2f1, E2f2
 T1011	Noun_Phrase 16017 16034	E2f1, E2f2, E2f3a
 T1012	Noun_Phrase 16023 16027	E2f2
@@ -1132,10 +1032,8 @@ T1030	Noun_Phrase 16298 16307	Figure 1H
 T1031	Noun_Phrase 16337 16359	the Rb/E2f1 DKO Retina
 T1032	Noun_Phrase 16369 16373	E2f1
 T1033	Noun_Phrase 16369 16382	E2f1 deletion
-T1034	Noun_Phrase 16390 16398;	abnormal
-16412 16437	abnormaldeath in the Rb KO retina
-T1035	Noun_Phrase 16390 16407;	abnormal division
-16418 16437	abnormal divisionin the Rb KO retina
+T1034	Noun_Phrase 16390 16398;16412 16437	abnormal death in the Rb KO retina
+T1035	Noun_Phrase 16390 16407;16418 16437	abnormal division in the Rb KO retina
 T1036	Noun_Phrase 16390 16437	abnormal division and death in the Rb KO retina
 T1037	Noun_Phrase 16421 16437	the Rb KO retina
 T1038	Noun_Phrase 16439 16461	the Rb/E2f1 DKO retina
@@ -1146,21 +1044,16 @@ T1042	Noun_Phrase 16575 16597	The Rb/E2f1 DKO retina
 T1043	Noun_Phrase 16607 16611	Sag+
 T1044	APPOS_relation 16607 16611	Sag+
 T1045	Noun_Phrase 16613 16635	S-antigen/rod arrestin
-T1046	Noun_Phrase 16653 16660;	Pou4f2+
-16669 16683	Pou4f2+ganglion cells
-T1047	APPOS_relation 16653 16660;	Pou4f2+
-16669 16683	Pou4f2+ganglion cells
+T1046	Noun_Phrase 16653 16660;16669 16683	Pou4f2+ ganglion cells
+T1047	APPOS_relation 16653 16660;16669 16683	Pou4f2+ ganglion cells
 T1048	Noun_Phrase 16662 16667	Brn3b
-T1049	Noun_Phrase 16729 16735;	Figure
-16739 16741	Figure2D
+T1049	Noun_Phrase 16729 16735;16739 16741	Figure 2D
 T1050	Noun_Phrase 16729 16738	Figure 2A
 T1051	Noun_Phrase 16729 16741	Figure 2A–2D
 T1052	Nonreferential_pronoun 16757 16762	there
 T1053	Noun_Phrase 16785 16789	cell
-T1054	Noun_Phrase 16799 16806;	Rb/E2f2
-16818 16829	Rb/E2f2DKO retinas
-T1055	IDENTITY_chain 16799 16806;	Rb/E2f2
-16818 16829	Rb/E2f2DKO retinas
+T1054	Noun_Phrase 16799 16806;16818 16829	Rb/E2f2 DKO retinas
+T1055	IDENTITY_chain 16799 16806;16818 16829	Rb/E2f2 DKO retinas
 T1056	Noun_Phrase 16810 16829	Rb/E2f3 DKO retinas
 T1057	IDENTITY_chain 16810 16829	Rb/E2f3 DKO retinas
 T1058	Noun_Phrase 16831 16840	Figure S4
@@ -1189,10 +1082,8 @@ T1080	Noun_Phrase 17155 17157	WT
 T1081	Noun_Phrase 17155 17164	WT retina
 T1082	Noun_Phrase 17166 17178	Bipolar cell
 T1083	Noun_Phrase 17202 17209	the INL
-T1084	Noun_Phrase 17218 17227;	ascending
-17243 17278	ascendingprocesses ending in the OPL and IPL
-T1085	IDENTITY_chain 17218 17227;	ascending
-17243 17278	ascendingprocesses ending in the OPL and IPL
+T1084	Noun_Phrase 17218 17227;17243 17278	ascending processes ending in the OPL and IPL
+T1085	IDENTITY_chain 17218 17227;17243 17278	ascending processes ending in the OPL and IPL
 T1086	Noun_Phrase 17218 17270	ascending and descending processes ending in the OPL
 T1087	IDENTITY_chain 17218 17270	ascending and descending processes ending in the OPL
 T1088	Noun_Phrase 17232 17270	descending processes ending in the OPL
@@ -1203,12 +1094,10 @@ T1092	Noun_Phrase 17275 17278	IPL
 T1093	Noun_Phrase 17294 17303	Figure 2A
 T1094	Noun_Phrase 17319 17341	the Rb/E2f1 DKO retina
 T1095	Noun_Phrase 17417 17455	descending processes ending in the OPL
-T1096	Noun_Phrase 17417 17498;	descending processes ending in the OPL and ascending processes that terminated in
-17509 17523	descending processes ending in the OPL and ascending processes that terminated inouter segments
+T1096	Noun_Phrase 17417 17498;17509 17523	descending processes ending in the OPL and ascending processes that terminated in outer segments
 T1097	Noun_Phrase 17448 17455	the OPL
 T1098	Noun_Phrase 17460 17523	ascending processes that terminated in inner and outer segments
-T1099	Noun_Phrase 17499 17504;	inner
-17515 17523	innersegments
+T1099	Noun_Phrase 17499 17504;17515 17523	inner segments
 T1100	Noun_Phrase 17499 17523	inner and outer segments
 T1101	Noun_Phrase 17509 17523	outer segments
 T1102	Noun_Phrase 17525 17534	Figure 2A
@@ -1232,25 +1121,18 @@ T1119	Noun_Phrase 18007 18010	its
 T1120	Noun_Phrase 18040 18048	survival
 T1121	IDENTITY_chain 18040 18048	survival
 T1122	Noun_Phrase 18050 18059	Figure 1B
-T1123	Noun_Phrase 18071 18078;	ectopic
-18092 18101	ectopicapoptosis
+T1123	Noun_Phrase 18071 18078;18092 18101	ectopic apoptosis
 T1124	Noun_Phrase 18071 18087	ectopic division
 T1125	Noun_Phrase 18071 18101	ectopic division and apoptosis
-T1126	Noun_Phrase 18103 18109;	Figure
-18117 18119	Figure1D
+T1126	Noun_Phrase 18103 18109;18117 18119	Figure 1D
 T1127	Noun_Phrase 18103 18112	Figure 1C
-T1128	Noun_Phrase 18136 18149;	Rb KO retinal
-18159 18167;	Rb KO retinalganglion
-18177 18182	Rb KO retinalganglioncells
-T1129	Noun_Phrase 18136 18149;	Rb KO retinal
-18173 18182	Rb KO retinalrod cells
-T1130	Noun_Phrase 18136 18157;	Rb KO retinal bipolar
-18177 18182	Rb KO retinal bipolarcells
+T1128	Noun_Phrase 18136 18149;18159 18167;18177 18182	Rb KO retinal ganglion cells
+T1129	Noun_Phrase 18136 18149;18173 18182	Rb KO retinal rod cells
+T1130	Noun_Phrase 18136 18157;18177 18182	Rb KO retinal bipolar cells
 T1131	Noun_Phrase 18136 18182	Rb KO retinal bipolar, ganglion, and rod cells
 T1132	Noun_Phrase 18173 18176	rod
 T1133	Noun_Phrase 18200 18204	E2f1
-T1134	Noun_Phrase 18211 18217;	Figure
-18221 18223	Figure2D
+T1134	Noun_Phrase 18211 18217;18221 18223	Figure 2D
 T1135	Noun_Phrase 18211 18220	Figure 2A
 T1136	Noun_Phrase 18211 18223	Figure 2A–2D
 T1137	Noun_Phrase 18240 18243	its
@@ -1281,15 +1163,12 @@ T1161	Noun_Phrase 18624 18631	the ONL
 T1162	Noun_Phrase 18635 18638	P18
 T1163	Noun_Phrase 18635 18645	P18 or P30
 T1164	Noun_Phrase 18642 18645	P30
-T1165	Noun_Phrase 18649 18660;	the E2f1 KO
-18677 18683	the E2f1 KOretina
-T1166	IDENTITY_chain 18649 18660;	the E2f1 KO
-18677 18683	the E2f1 KOretina
+T1165	Noun_Phrase 18649 18660;18677 18683	the E2f1 KO retina
+T1166	IDENTITY_chain 18649 18660;18677 18683	the E2f1 KO retina
 T1167	Noun_Phrase 18649 18683	the E2f1 KO and Rb/E2f1 DKO retina
 T1168	IDENTITY_chain 18649 18683	the E2f1 KO and Rb/E2f1 DKO retina
 T1169	Noun_Phrase 18665 18683	Rb/E2f1 DKO retina
-T1170	Noun_Phrase 18685 18691;	Figure
-18695 18697	Figure2D
+T1170	Noun_Phrase 18685 18691;18695 18697	Figure 2D
 T1171	Noun_Phrase 18738 18740	WT
 T1172	Noun_Phrase 18742 18751	Figure 2A
 T1173	Noun_Phrase 18762 18800	a slight drop in absolute cell numbers
@@ -1297,10 +1176,8 @@ T1174	IDENTITY_chain 18762 18800	a slight drop in absolute cell numbers
 T1175	Noun_Phrase 18874 18876	WT
 T1176	Noun_Phrase 18895 18924	Slightly reduced cell numbers
 T1177	Noun_Phrase 18966 18968	we
-T1178	Noun_Phrase 19079 19086;	Figures
-19091 19093	Figures1G
-T1179	Noun_Phrase 19079 19086;	Figures
-19099 19101	FiguresS2
+T1178	Noun_Phrase 19079 19086;19091 19093	Figures 1G
+T1179	Noun_Phrase 19079 19086;19099 19101	Figures S2
 T1180	Noun_Phrase 19079 19089	Figures 1D
 T1181	Noun_Phrase 19079 19093	Figures 1D, 1G
 T1182	Noun_Phrase 19153 19164	Rb proteins
@@ -1326,10 +1203,8 @@ T1201	Noun_Phrase 19758 19780	the electroretinograms
 T1202	Noun_Phrase 19782 19786	ERGs
 T1203	APPOS_relation 19782 19786	ERGs
 T1204	Noun_Phrase 19791 19799	adult WT
-T1205	Noun_Phrase 19791 19807;	adult WT (?-Cre)
-19867 19871	adult WT (?-Cre)mice
-T1206	IDENTITY_chain 19791 19807;	adult WT (?-Cre)
-19867 19871	adult WT (?-Cre)mice
+T1205	Noun_Phrase 19791 19807;19867 19871	adult WT (?-Cre) mice
+T1206	IDENTITY_chain 19791 19807;19867 19871	adult WT (?-Cre) mice
 T1207	Noun_Phrase 19801 19806	?-Cre
 T1208	APPOS_relation 19801 19806	?-Cre
 T1209	Noun_Phrase 19873 19877	ERGs
@@ -1338,8 +1213,7 @@ T1211	Noun_Phrase 19945 19959	photoreceptors
 T1212	Noun_Phrase 19963 19977	amacrine cells
 T1213	Noun_Phrase 19995 20008	gangion cells
 T1214	Noun_Phrase 20032 20035	rod
-T1215	Noun_Phrase 20032 20035;	rod
-20045 20058	rodbipolar cells
+T1215	Noun_Phrase 20032 20035;20045 20058	rod bipolar cells
 T1216	Noun_Phrase 20040 20044	cone
 T1217	Noun_Phrase 20074 20077	ERG
 T1218	Noun_Phrase 20097 20150	a negative deflection initiated by the photoreceptors
@@ -1359,11 +1233,9 @@ T1231	Noun_Phrase 20354 20368	the rod system
 T1232	IDENTITY_chain 20354 20368	the rod system
 T1233	Noun_Phrase 20358 20361	rod
 T1234	Noun_Phrase 20392 20408	the Rb KO retina
-T1235	Noun_Phrase 20456 20458;	a-
-20465 20470	a-waves
+T1235	Noun_Phrase 20456 20458;20465 20470	a- waves
 T1236	Noun_Phrase 20463 20470	b-waves
-T1237	Noun_Phrase 20490 20493;	rod
-20506 20510	rodcell
+T1237	Noun_Phrase 20490 20493;20506 20510	rod cell
 T1238	Noun_Phrase 20498 20510	bipolar cell
 T1239	Noun_Phrase 20498 20520	bipolar cell apoptosis
 T1240	Noun_Phrase 20526 20566	The sensitivity of the residual response
@@ -1371,8 +1243,7 @@ T1241	IDENTITY_chain 20526 20566	The sensitivity of the residual response
 T1242	Noun_Phrase 20598 20600	it
 T1243	Noun_Phrase 20641 20651	the retina
 T1244	Noun_Phrase 20653 20662	Responses
-T1245	Noun_Phrase 20686 20692;	the WT
-20705 20711	the WTretina
+T1245	Noun_Phrase 20686 20692;20705 20711	the WT retina
 T1246	Noun_Phrase 20686 20711	the WT and E2f1 KO retina
 T1247	IDENTITY_chain 20686 20711	the WT and E2f1 KO retina
 T1248	Noun_Phrase 20690 20692	WT
@@ -1437,15 +1308,12 @@ T1306	Noun_Phrase 22249 22262	E2f1 deletion
 T1307	Noun_Phrase 22284 22287	ERG
 T1308	Noun_Phrase 22304 22308	E2f1
 T1309	Noun_Phrase 22304 22317	E2f1 deletion
-T1310	Noun_Phrase 22360 22363;	rod
-22373 22379	rodsystem
+T1310	Noun_Phrase 22360 22363;22373 22379	rod system
 T1311	Noun_Phrase 22368 22379	cone system
 T1312	Noun_Phrase 22392 22408	the Rb KO retina
 T1313	Noun_Phrase 22455 22465	Cell Cycle
-T1314	Noun_Phrase 22455 22465;	Cell Cycle
-22479 22486	Cell CycleDefects
-T1315	IDENTITY_chain 22455 22465;	Cell Cycle
-22479 22486	Cell CycleDefects
+T1314	Noun_Phrase 22455 22465;22479 22486	Cell Cycle Defects
+T1315	IDENTITY_chain 22455 22465;22479 22486	Cell Cycle Defects
 T1316	Noun_Phrase 22470 22478	Survival
 T1317	Noun_Phrase 22470 22486	Survival Defects
 T1318	IDENTITY_chain 22470 22486	Survival Defects
@@ -1460,17 +1328,13 @@ T1326	Noun_Phrase 22674 22684	43 markers
 T1327	IDENTITY_chain 22674 22684	43 markers
 T1328	Noun_Phrase 22686 22694	Table S1
 T1329	Noun_Phrase 22749 22751	WT
-T1330	Noun_Phrase 22749 22751;	WT
-22778 22784	WTretina
-T1331	Noun_Phrase 22749 22760;	WT, E2f1 KO
-22778 22784	WT, E2f1 KOretina
-T1332	Noun_Phrase 22753 22760;	E2f1 KO
-22778 22784	E2f1 KOretina
+T1330	Noun_Phrase 22749 22751;22778 22784	WT retina
+T1331	Noun_Phrase 22749 22760;22778 22784	WT, E2f1 KO retina
+T1332	Noun_Phrase 22753 22760;22778 22784	E2f1 KO retina
 T1333	Noun_Phrase 22753 22784	E2f1 KO, and Rb/E2f1 DKO retina
 T1334	Noun_Phrase 22766 22784	Rb/E2f1 DKO retina
 T1335	Noun_Phrase 22786 22794	Table S1
-T1336	Noun_Phrase 22829 22840;	cell-cycle–
-22855 22882	cell-cycle–independent differentiation
+T1336	Noun_Phrase 22829 22840;22855 22882	cell-cycle– independent differentiation
 T1337	Noun_Phrase 22893 22897	SACs
 T1338	Noun_Phrase 22899 22901	We
 T1339	Noun_Phrase 22916 22921	Calb2
@@ -1479,8 +1343,7 @@ T1341	IDENTITY_chain 22916 22921	Calb2
 T1342	Noun_Phrase 22923 22933	calretinin
 T1343	Noun_Phrase 22948 22993	a subset of amacrine and ganglion cell bodies
 T1344	IDENTITY_chain 22948 22993	a subset of amacrine and ganglion cell bodies
-T1345	Noun_Phrase 22960 22968;	amacrine
-22982 22986	amacrinecell
+T1345	Noun_Phrase 22960 22968;22982 22986	amacrine cell
 T1346	Noun_Phrase 22973 22986	ganglion cell
 T1347	Noun_Phrase 23035 23040	their
 T1348	Noun_Phrase 23054 23061	the IPL
@@ -1498,10 +1361,8 @@ T1359	Noun_Phrase 23311 23324	the Rb KO INL
 T1360	IDENTITY_chain 23311 23324	the Rb KO INL
 T1361	Noun_Phrase 23343 23356	amacrine cell
 T1362	Noun_Phrase 23402 23404	P8
-T1363	Noun_Phrase 23414 23421;	Figures
-23429 23431	FiguresS6
-T1364	IDENTITY_chain 23414 23421;	Figures
-23429 23431	FiguresS6
+T1363	Noun_Phrase 23414 23421;23429 23431	Figures S6
+T1364	IDENTITY_chain 23414 23421;23429 23431	Figures S6
 T1365	Noun_Phrase 23414 23424	Figures 3C
 T1366	IDENTITY_chain 23414 23424	Figures 3C
 T1367	Noun_Phrase 23435 23443	Figure 3
@@ -1513,14 +1374,10 @@ T1372	Noun_Phrase 23472 23482	Rb KO SACs
 T1373	IDENTITY_chain 23472 23482	Rb KO SACs
 T1374	Noun_Phrase 23488 23491	P18
 T1375	Noun_Phrase 23515 23517	WT
-T1376	Noun_Phrase 23515 23517;	WT
-23542 23548	WTretina
-T1377	Noun_Phrase 23515 23524;	WT, Rb KO
-23542 23548	WT, Rb KOretina
-T1378	IDENTITY_chain 23515 23524;	WT, Rb KO
-23542 23548	WT, Rb KOretina
-T1379	Noun_Phrase 23519 23524;	Rb KO
-23542 23548	Rb KOretina
+T1376	Noun_Phrase 23515 23517;23542 23548	WT retina
+T1377	Noun_Phrase 23515 23524;23542 23548	WT, Rb KO retina
+T1378	IDENTITY_chain 23515 23524;23542 23548	WT, Rb KO retina
+T1379	Noun_Phrase 23519 23524;23542 23548	Rb KO retina
 T1380	Noun_Phrase 23530 23548	Rb/E2f1 DKO retina
 T1381	Noun_Phrase 23566 23572	nuclei
 T1382	Noun_Phrase 23566 23592	nuclei (DAPI, blue), Calb2
@@ -1533,8 +1390,7 @@ T1388	Noun_Phrase 23626 23691	Confocal images of P30 horizontal sections of WT a
 T1389	IDENTITY_chain 23626 23691	Confocal images of P30 horizontal sections of WT and Rb KO retina
 T1390	Noun_Phrase 23645 23648	P30
 T1391	Noun_Phrase 23672 23674	WT
-T1392	Noun_Phrase 23672 23674;	WT
-23685 23691	WTretina
+T1392	Noun_Phrase 23672 23674;23685 23691	WT retina
 T1393	Noun_Phrase 23672 23691	WT and Rb KO retina
 T1394	Noun_Phrase 23679 23691	Rb KO retina
 T1395	Noun_Phrase 23709 23715	nuclei
@@ -1562,13 +1418,10 @@ T1416	Noun_Phrase 24013 24044	measurements from three animals
 T1417	Noun_Phrase 24031 24044	three animals
 T1418	Noun_Phrase 24050 24059	asterisks
 T1419	Noun_Phrase 24069 24142	significant differences between retinas of WT and the indicated genotypes
-T1420	Noun_Phrase 24101 24111;	retinas of
-24119 24142	retinas ofthe indicated genotypes
-T1421	Noun_Phrase 24101 24114;	retinas of WT
-24133 24142	retinas of WTgenotypes
+T1420	Noun_Phrase 24101 24111;24119 24142	retinas of the indicated genotypes
+T1421	Noun_Phrase 24101 24114;24133 24142	retinas of WT genotypes
 T1422	Noun_Phrase 24101 24142	retinas of WT and the indicated genotypes
-T1423	Noun_Phrase 24112 24114;	WT
-24133 24142	WTgenotypes
+T1423	Noun_Phrase 24112 24114;24133 24142	WT genotypes
 T1424	Noun_Phrase 24112 24142	WT and the indicated genotypes
 T1425	Noun_Phrase 24119 24142	the indicated genotypes
 T1426	Noun_Phrase 24147 24148	p
@@ -1608,10 +1461,8 @@ T1459	Noun_Phrase 24916 24921	VAChT
 T1460	Noun_Phrase 24949 24960	this marker
 T1461	Noun_Phrase 24975 25021	the peripheral Rb KO or Rb/E2f1 DKO P18 retina
 T1462	IDENTITY_chain 24975 25021	the peripheral Rb KO or Rb/E2f1 DKO P18 retina
-T1463	Noun_Phrase 25023 25030;	Figures
-25038 25041	FiguresS7B
-T1464	IDENTITY_chain 25023 25030;	Figures
-25038 25041	FiguresS7B
+T1463	Noun_Phrase 25023 25030;25038 25041	Figures S7B
+T1464	IDENTITY_chain 25023 25030;25038 25041	Figures S7B
 T1465	Noun_Phrase 25023 25033	Figures 3A
 T1466	Noun_Phrase 25044 25048	Chat
 T1467	Noun_Phrase 25065 25079	the same locus
@@ -1640,10 +1491,8 @@ T1489	Noun_Phrase 25385 25390	Kcnc2
 T1490	IDENTITY_chain 25385 25390	Kcnc2
 T1491	Noun_Phrase 25392 25495	potassium channels expressed on SAC soma and dendrites as well as a very small number of ganglion cells
 T1492	Noun_Phrase 25424 25427	SAC
-T1493	Noun_Phrase 25424 25427;	SAC
-25437 25446	SACdendrites
-T1494	IDENTITY_chain 25424 25427;	SAC
-25437 25446	SACdendrites
+T1493	Noun_Phrase 25424 25427;25437 25446	SAC dendrites
+T1494	IDENTITY_chain 25424 25427;25437 25446	SAC dendrites
 T1495	Noun_Phrase 25424 25432	SAC soma
 T1496	Noun_Phrase 25424 25446	SAC soma and dendrites
 T1497	IDENTITY_chain 25424 25446	SAC soma and dendrites
@@ -1656,8 +1505,7 @@ T1503	APPOS_relation 25527 25531	GABA
 T1504	Noun_Phrase 25534 25667	an inhibitory neurotransmitter present in about half of amacrine cells including SACs, as well as horizontal and some bipolar neurons
 T1505	Noun_Phrase 25590 25604	amacrine cells
 T1506	Noun_Phrase 25615 25619	SACs
-T1507	Noun_Phrase 25632 25642;	horizontal
-25660 25667	horizontalneurons
+T1507	Noun_Phrase 25632 25642;25660 25667	horizontal neurons
 T1508	Noun_Phrase 25678 25683	Calb1
 T1509	APPOS_relation 25678 25683	Calb1
 T1510	IDENTITY_chain 25678 25683	Calb1
@@ -1665,8 +1513,7 @@ T1511	Noun_Phrase 25685 25694	calbindin
 T1512	Noun_Phrase 25750 25753	SAC
 T1513	Noun_Phrase 25750 25761	SAC process
 T1514	IDENTITY_chain 25750 25761	SAC process
-T1515	Noun_Phrase 25771 25777;	Figure
-25786 25789	FigureS7B
+T1515	Noun_Phrase 25771 25777;25786 25789	Figure S7B
 T1516	Noun_Phrase 25791 25799	Table S1
 T1517	Noun_Phrase 25831 25833	we
 T1518	Noun_Phrase 25862 25864	Rb
@@ -1706,8 +1553,7 @@ T1551	Noun_Phrase 26505 26521	the Rb KO retina
 T1552	Noun_Phrase 26523 26529	Camk2a
 T1553	Noun_Phrase 26558 26570	this context
 T1554	Noun_Phrase 26630 26658	both the WT and Rb KO retina
-T1555	Noun_Phrase 26635 26641;	the WT
-26652 26658	the WTretina
+T1555	Noun_Phrase 26635 26641;26652 26658	the WT retina
 T1556	Noun_Phrase 26639 26641	WT
 T1557	Noun_Phrase 26646 26658	Rb KO retina
 T1558	Noun_Phrase 26660 26669	Figure 3B
@@ -1724,20 +1570,14 @@ T1568	Noun_Phrase 26898 26901	SAC
 T1569	Noun_Phrase 26898 26910	SAC survival
 T1570	Noun_Phrase 26918 26925	process
 T1571	Noun_Phrase 26948 26950	it
-T1572	Noun_Phrase 26969 26983;	the expression
-27001 27003;	the expressionof
-27024 27031	the expressionofSlc18a3
-T1573	IDENTITY_chain 26969 26983;	the expression
-27001 27003;	the expressionof
-27024 27031	the expressionofSlc18a3
+T1572	Noun_Phrase 26969 26983;27001 27003;27024 27031	the expression of Slc18a3
+T1573	IDENTITY_chain 26969 26983;27001 27003;27024 27031	the expression of Slc18a3
 T1574	Noun_Phrase 27004 27009	Calb2
 T1575	Noun_Phrase 27011 27016	Calb1
 T1576	Noun_Phrase 27018 27022	Chat
 T1577	Noun_Phrase 27018 27031	Chat, Slc18a3
-T1578	Noun_Phrase 27024 27031;	Slc18a3
-27054 27062	Slc18a3and GABA
-T1579	IDENTITY_chain 27024 27031;	Slc18a3
-27054 27062	Slc18a3and GABA
+T1578	Noun_Phrase 27024 27031;27054 27062	Slc18a3 and GABA
+T1579	IDENTITY_chain 27024 27031;27054 27062	Slc18a3 and GABA
 T1580	Noun_Phrase 27024 27031	Slc18a3
 T1581	Noun_Phrase 27033 27037	Sv2c
 T1582	Noun_Phrase 27039 27045	Kcnc1b
@@ -1773,8 +1613,7 @@ T1611	IDENTITY_chain 27558 27560	P5
 T1612	Noun_Phrase 27561 27563	it
 T1613	Noun_Phrase 27571 27575	cell
 T1614	Noun_Phrase 27571 27582	cell bodies
-T1615	Noun_Phrase 27627 27634;	Figures
-27642 27644	FiguresS6
+T1615	Noun_Phrase 27627 27634;27642 27644	Figures S6
 T1616	Noun_Phrase 27627 27637	Figures 4A
 T1617	IDENTITY_chain 27627 27637	Figures 4A
 T1618	Noun_Phrase 27647 27654	Slc18a3
@@ -1792,8 +1631,7 @@ T1629	Noun_Phrase 27850 27879	Differentiation of Rb KO SACs
 T1630	IDENTITY_chain 27850 27879	Differentiation of Rb KO SACs
 T1631	Noun_Phrase 27869 27879	Rb KO SACs
 T1632	Noun_Phrase 27885 27948	Horizontal retinal sections of the indicated ages and genotypes
-T1633	Noun_Phrase 27916 27929;	the indicated
-27939 27948	the indicatedgenotypes
+T1633	Noun_Phrase 27916 27929;27939 27948	the indicated genotypes
 T1634	Noun_Phrase 27916 27934	the indicated ages
 T1635	Noun_Phrase 27916 27948	the indicated ages and genotypes
 T1636	Noun_Phrase 27966 27972	nuclei
@@ -1807,17 +1645,13 @@ T1643	Noun_Phrase 28019 28026	Slc18a3
 T1644	Noun_Phrase 28046 28049	SAC
 T1645	Noun_Phrase 28046 28054	SAC soma
 T1646	Noun_Phrase 28090 28093	~P5
-T1647	Noun_Phrase 28138 28143;	Rb KO
-28174 28181	Rb KOretinas
-T1648	Noun_Phrase 28145 28156;	Rb/E2f2 DKO
-28174 28181	Rb/E2f2 DKOretinas
+T1647	Noun_Phrase 28138 28143;28174 28181	Rb KO retinas
+T1648	Noun_Phrase 28145 28156;28174 28181	Rb/E2f2 DKO retinas
 T1649	Noun_Phrase 28162 28181	Rb/E2f3 DKO retinas
 T1650	Noun_Phrase 28183 28187	E2f1
 T1651	Noun_Phrase 28183 28192	E2f1 loss
-T1652	Noun_Phrase 28201 28220;	the ectopic mitosis
-28236 28243	the ectopic mitosisdefects
-T1653	IDENTITY_chain 28201 28220;	the ectopic mitosis
-28236 28243	the ectopic mitosisdefects
+T1652	Noun_Phrase 28201 28220;28236 28243	the ectopic mitosis defects
+T1653	IDENTITY_chain 28201 28220;28236 28243	the ectopic mitosis defects
 T1654	Noun_Phrase 28201 28243	the ectopic mitosis and cell death defects
 T1655	IDENTITY_chain 28201 28243	the ectopic mitosis and cell death defects
 T1656	Noun_Phrase 28205 28220	ectopic mitosis
@@ -1832,8 +1666,7 @@ T1664	Noun_Phrase 28269 28278	E2f2 loss
 T1665	Noun_Phrase 28283 28292	no effect
 T1666	Noun_Phrase 28294 28298	E2f3
 T1667	Noun_Phrase 28294 28303	E2f3 loss
-T1668	Noun_Phrase 28320 28339;	the ectopic mitosis
-28354 28361	the ectopic mitosisdefects
+T1668	Noun_Phrase 28320 28339;28354 28361	the ectopic mitosis defects
 T1669	Noun_Phrase 28320 28361	the ectopic mitosis and cell loss defects
 T1670	Noun_Phrase 28324 28339	ectopic mitosis
 T1671	Noun_Phrase 28344 28353	cell loss
@@ -1844,13 +1677,10 @@ T1675	Noun_Phrase 28404 28408	E2f1
 T1676	Noun_Phrase 28404 28417	E2f1 and E2f3
 T1677	IDENTITY_chain 28404 28417	E2f1 and E2f3
 T1678	Noun_Phrase 28413 28417	E2f3
-T1679	Noun_Phrase 28435 28454;	the ectopic mitosis
-28476 28483	the ectopic mitosisdefects
-T1680	Noun_Phrase 28435 28466;	the ectopic mitosis, cell death
-28476 28483	the ectopic mitosis, cell deathdefects
+T1679	Noun_Phrase 28435 28454;28476 28483	the ectopic mitosis defects
+T1680	Noun_Phrase 28435 28466;28476 28483	the ectopic mitosis, cell death defects
 T1681	Noun_Phrase 28439 28454	ectopic mitosis
-T1682	Noun_Phrase 28456 28466;	cell death
-28476 28483	cell deathdefects
+T1682	Noun_Phrase 28456 28466;28476 28483	cell death defects
 T1683	Noun_Phrase 28456 28466	cell death
 T1684	Noun_Phrase 28472 28475	SAC
 T1685	Noun_Phrase 28472 28483	SAC defects
@@ -1888,13 +1718,10 @@ T1716	Noun_Phrase 29065 29096	measurements from three animals
 T1717	Noun_Phrase 29083 29096	three animals
 T1718	Noun_Phrase 29102 29111	asterisks
 T1719	Noun_Phrase 29121 29194	significant differences between retinas of WT and the indicated genotypes
-T1720	Noun_Phrase 29153 29163;	retinas of
-29171 29194	retinas ofthe indicated genotypes
-T1721	Noun_Phrase 29153 29166;	retinas of WT
-29185 29194	retinas of WTgenotypes
+T1720	Noun_Phrase 29153 29163;29171 29194	retinas of the indicated genotypes
+T1721	Noun_Phrase 29153 29166;29185 29194	retinas of WT genotypes
 T1722	Noun_Phrase 29153 29194	retinas of WT and the indicated genotypes
-T1723	Noun_Phrase 29164 29166;	WT
-29185 29194	WTgenotypes
+T1723	Noun_Phrase 29164 29166;29185 29194	WT genotypes
 T1724	Noun_Phrase 29164 29194	WT and the indicated genotypes
 T1725	Noun_Phrase 29171 29194	the indicated genotypes
 T1726	Noun_Phrase 29199 29200	p
@@ -1932,8 +1759,7 @@ T1757	Noun_Phrase 29652 29655	SAC
 T1758	Noun_Phrase 29652 29671	SAC differentiation
 T1759	Noun_Phrase 29691 29694	E2f
 T1760	Noun_Phrase 29761 29771	cell cycle
-T1761	Noun_Phrase 29761 29771;	cell cycle
-29781 29788	cell cycledefects
+T1761	Noun_Phrase 29761 29771;29781 29788	cell cycle defects
 T1762	Noun_Phrase 29775 29780	death
 T1763	Noun_Phrase 29775 29788	death defects
 T1764	Noun_Phrase 29797 29800	our
@@ -1973,10 +1799,8 @@ T1797	Noun_Phrase 30398 30400	WT
 T1798	Noun_Phrase 30398 30407	WT retina
 T1799	Noun_Phrase 30491 30495	E2f1
 T1800	Noun_Phrase 30505 30522	this minor defect
-T1801	Noun_Phrase 30585 30592;	bipolar
-30606 30610	bipolarcell
-T1802	Noun_Phrase 30585 30592;	bipolar
-30606 30616	bipolarcell death
+T1801	Noun_Phrase 30585 30592;30606 30610	bipolar cell
+T1802	Noun_Phrase 30585 30592;30606 30616	bipolar cell death
 T1803	Noun_Phrase 30585 30616	bipolar and ganglion cell death
 T1804	Noun_Phrase 30597 30610	ganglion cell
 T1805	Noun_Phrase 30597 30616	ganglion cell death
@@ -2057,8 +1881,7 @@ T1879	Noun_Phrase 32433 32455	the Rb/E2f1 DKO retina
 T1880	Noun_Phrase 32463 32465	we
 T1881	Noun_Phrase 32508 32530	the Rb/E2f3 DKO retina
 T1882	Nonreferential_pronoun 32538 32543	there
-T1883	Noun_Phrase 32571 32577;	Figure
-32585 32587	Figure4E
+T1883	Noun_Phrase 32571 32577;32585 32587	Figure 4E
 T1884	Noun_Phrase 32571 32580	Figure 4D
 T1885	Noun_Phrase 32590 32592	We
 T1886	Noun_Phrase 32621 32623	P0
@@ -2123,10 +1946,8 @@ T1944	Noun_Phrase 33786 33795	Figure 5A
 T1945	Noun_Phrase 33801 33804	P18
 T1946	Noun_Phrase 33806 33810	E2f3
 T1947	Noun_Phrase 33846 33853	the IPL
-T1948	Noun_Phrase 33855 33861;	Figure
-33869 33871	Figure5B
-T1949	IDENTITY_chain 33855 33861;	Figure
-33869 33871	Figure5B
+T1948	Noun_Phrase 33855 33861;33869 33871	Figure 5B
+T1949	IDENTITY_chain 33855 33861;33869 33871	Figure 5B
 T1950	Noun_Phrase 33855 33864	Figure 5A
 T1951	Noun_Phrase 33855 33871	Figure 5A and 5B
 T1952	IDENTITY_chain 33855 33871	Figure 5A and 5B
@@ -2134,8 +1955,7 @@ T1953	Noun_Phrase 33889 33892	SAC
 T1954	Noun_Phrase 33909 33913	Chat
 T1955	Noun_Phrase 33909 33925	Chat and Slc18a3
 T1956	Noun_Phrase 33918 33925	Slc18a3
-T1957	Noun_Phrase 33932 33939;	Figures
-33946 33947	Figures4
+T1957	Noun_Phrase 33932 33939;33946 33947	Figures 4
 T1958	Noun_Phrase 33932 33941	Figures 3
 T1959	Noun_Phrase 33950 33980	This cytoplasmic E2f3 staining
 T1960	IDENTITY_chain 33950 33980	This cytoplasmic E2f3 staining
@@ -2153,8 +1973,7 @@ T1971	Noun_Phrase 34146 34153	Slc18a3
 T1972	Noun_Phrase 34177 34181	E2f3
 T1973	Noun_Phrase 34196 34223	both SAC soma and dendrites
 T1974	Noun_Phrase 34201 34204	SAC
-T1975	Noun_Phrase 34201 34204;	SAC
-34214 34223	SACdendrites
+T1975	Noun_Phrase 34201 34204;34214 34223	SAC dendrites
 T1976	Noun_Phrase 34201 34209	SAC soma
 T1977	Noun_Phrase 34225 34234	Figure 5B
 T1978	Noun_Phrase 34237 34239	Rb
@@ -2186,8 +2005,7 @@ T2003	Noun_Phrase 34738 34746	Figure 5
 T2004	Noun_Phrase 34748 34752	E2f3
 T2005	Noun_Phrase 34757 34759	Rb
 T2006	Noun_Phrase 34774 34778	SACs
-T2007	Noun_Phrase 34797 34810;	horizontal P0
-34824 34867	horizontal P0retinal sections of the indicated genotypes
+T2007	Noun_Phrase 34797 34810;34824 34867	horizontal P0 retinal sections of the indicated genotypes
 T2008	Noun_Phrase 34844 34867	the indicated genotypes
 T2009	Noun_Phrase 34885 34889	E2f3
 T2010	Noun_Phrase 34885 34904	E2f3 (red) and DAPI
@@ -2207,8 +2025,7 @@ T2023	IDENTITY_chain 35314 35320	WT P18
 T2024	Noun_Phrase 35355 35361	nuclei
 T2025	Noun_Phrase 35363 35367	DAPI
 T2026	Noun_Phrase 35363 35380	DAPI, blue), E2f3
-T2027	Noun_Phrase 35376 35380;	E2f3
-35400 35421	E2f3and Chat plus Slc18a3
+T2027	Noun_Phrase 35376 35380;35400 35421	E2f3 and Chat plus Slc18a3
 T2028	Noun_Phrase 35376 35380	E2f3
 T2029	Noun_Phrase 35390 35392	Rb
 T2030	Noun_Phrase 35390 35421	Rb (red), and Chat plus Slc18a3
@@ -2250,8 +2067,7 @@ T2065	Noun_Phrase 36403 36416	E2f3 Isoforms
 T2066	Noun_Phrase 36434 36438	E2f3
 T2067	Noun_Phrase 36443 36445	Rb
 T2068	Noun_Phrase 36458 36462	SACs
-T2069	Noun_Phrase 36497 36503;	Figure
-36511 36513	Figure5B
+T2069	Noun_Phrase 36497 36503;36511 36513	Figure 5B
 T2070	Noun_Phrase 36497 36506	Figure 5A
 T2071	Noun_Phrase 36497 36513	Figure 5A and 5B
 T2072	Noun_Phrase 36544 36558	immunostaining
@@ -2267,10 +2083,8 @@ T2081	Noun_Phrase 36769 36773	E2f3
 T2082	Noun_Phrase 36797 36805	isoforms
 T2083	Noun_Phrase 36822 36828	retina
 T2084	Noun_Phrase 36830 36832	we
-T2085	Noun_Phrase 36842 36849;	nuclear
-36866 36875	nuclearfractions
-T2086	IDENTITY_chain 36842 36849;	nuclear
-36866 36875	nuclearfractions
+T2085	Noun_Phrase 36842 36849;36866 36875	nuclear fractions
+T2086	IDENTITY_chain 36842 36849;36866 36875	nuclear fractions
 T2087	Noun_Phrase 36842 36875	nuclear and cytoplasmic fractions
 T2088	IDENTITY_chain 36842 36875	nuclear and cytoplasmic fractions
 T2089	Noun_Phrase 36854 36875	cytoplasmic fractions
@@ -2303,10 +2117,8 @@ T2115	IDENTITY_chain 37334 37343	Figure 7A
 T2116	Noun_Phrase 37345 37361	Western analysis
 T2117	Noun_Phrase 37406 37419	E2f3a?/? mice
 T2118	IDENTITY_chain 37406 37419	E2f3a?/? mice
-T2119	Noun_Phrase 37421 37428;	Figures
-37435 37437	FiguresS8
-T2120	IDENTITY_chain 37421 37428;	Figures
-37435 37437	FiguresS8
+T2119	Noun_Phrase 37421 37428;37435 37437	Figures S8
+T2120	IDENTITY_chain 37421 37428;37435 37437	Figures S8
 T2121	Noun_Phrase 37421 37430	Figures 6
 T2122	Noun_Phrase 37421 37437	Figures 6 and S8
 T2123	IDENTITY_chain 37421 37437	Figures 6 and S8
@@ -2324,8 +2136,7 @@ T2134	Noun_Phrase 37662 37672	P0 and P18
 T2135	Noun_Phrase 37669 37672	P18
 T2136	Noun_Phrase 37674 37679	E2f3a
 T2137	Noun_Phrase 37695 37733	both nuclear and cytoplasmic fractions
-T2138	Noun_Phrase 37700 37707;	nuclear
-37724 37733	nuclearfractions
+T2138	Noun_Phrase 37700 37707;37724 37733	nuclear fractions
 T2139	Noun_Phrase 37712 37733	cytoplasmic fractions
 T2140	Noun_Phrase 37759 37764	E2f3b
 T2141	Noun_Phrase 37792 37802	both times
@@ -2361,18 +2172,15 @@ T2170	Noun_Phrase 38554 38559	E2f3a
 T2171	Noun_Phrase 38643 38651	Figure 6
 T2172	Noun_Phrase 38653 38694	Subcellular Distribution of E2f3 Isoforms
 T2173	Noun_Phrase 38681 38685	E2f3
-T2174	Noun_Phrase 38681 38694;	E2f3 Isoforms
-38725 38749	E2f3 Isoformsin the Developing Retina
+T2174	Noun_Phrase 38681 38694;38725 38749	E2f3 Isoforms in the Developing Retina
 T2175	Noun_Phrase 38728 38749	the Developing Retina
-T2176	Noun_Phrase 38751 38758;	Nuclear
-38775 38872	Nuclearextracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages
+T2176	Noun_Phrase 38751 38758;38775 38872	Nuclear extracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages
 T2177	Noun_Phrase 38751 38872	Nuclear and cytoplasmic extracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages
 T2178	Noun_Phrase 38763 38872	cytoplasmic extracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages
 T2179	Noun_Phrase 38813 38872	retinal cells from mice of the indicated genotypes and ages
 T2180	IDENTITY_chain 38813 38872	retinal cells from mice of the indicated genotypes and ages
 T2181	Noun_Phrase 38832 38872	mice of the indicated genotypes and ages
-T2182	Noun_Phrase 38840 38853;	the indicated
-38868 38872	the indicatedages
+T2182	Noun_Phrase 38840 38853;38868 38872	the indicated ages
 T2183	Noun_Phrase 38840 38863	the indicated genotypes
 T2184	Noun_Phrase 38840 38872	the indicated genotypes and ages
 T2185	Noun_Phrase 38890 38906	Western blotting
@@ -2404,10 +2212,8 @@ T2210	Noun_Phrase 39385 39396	PCR primers
 T2211	IDENTITY_chain 39385 39396	PCR primers
 T2212	Noun_Phrase 39458 39464	RT-PCR
 T2213	IDENTITY_chain 39458 39464	RT-PCR
-T2214	Noun_Phrase 39478 39483;	E2f3a
-39494 39512	E2f3amRNA in the retina
-T2215	IDENTITY_chain 39478 39483;	E2f3a
-39494 39512	E2f3amRNA in the retina
+T2214	Noun_Phrase 39478 39483;39494 39512	E2f3a mRNA in the retina
+T2215	IDENTITY_chain 39478 39483;39494 39512	E2f3a mRNA in the retina
 T2216	Noun_Phrase 39478 39483	E2f3a
 T2217	Noun_Phrase 39478 39512	E2f3a and E2f3b mRNA in the retina
 T2218	IDENTITY_chain 39478 39512	E2f3a and E2f3b mRNA in the retina
@@ -2427,8 +2233,7 @@ T2231	Noun_Phrase 39618 39645	5?-CTCAGTCACTTCTTTGGACAG-3?
 T2232	Noun_Phrase 39648 39650	WT
 T2233	Noun_Phrase 39648 39657	WT retina
 T2234	Noun_Phrase 39668 39693	both E2f3a and E2f3b mRNA
-T2235	Noun_Phrase 39673 39678;	E2f3a
-39689 39693	E2f3amRNA
+T2235	Noun_Phrase 39673 39678;39689 39693	E2f3a mRNA
 T2236	Noun_Phrase 39673 39678	E2f3a
 T2237	Noun_Phrase 39683 39688	E2f3b
 T2238	Noun_Phrase 39683 39693	E2f3b mRNA
@@ -2451,8 +2256,7 @@ T2254	Noun_Phrase 40015 40028	three animals
 T2255	Noun_Phrase 40034 40043	asterisks
 T2256	Noun_Phrase 40053 40116	a significant difference between WT and the indicated genotypes
 T2257	IDENTITY_chain 40053 40116	a significant difference between WT and the indicated genotypes
-T2258	Noun_Phrase 40086 40088;	WT
-40107 40116	WTgenotypes
+T2258	Noun_Phrase 40086 40088;40107 40116	WT genotypes
 T2259	Noun_Phrase 40086 40116	WT and the indicated genotypes
 T2260	Noun_Phrase 40093 40116	the indicated genotypes
 T2261	Noun_Phrase 40121 40122	p
@@ -2467,8 +2271,7 @@ T2269	Noun_Phrase 40185 40195	Rb KO SACs
 T2270	Noun_Phrase 40199 40204	E2f3a
 T2271	Noun_Phrase 40199 40213	E2f3a deletion
 T2272	Noun_Phrase 40215 40278	Horizontal retinal sections of the indicated genotypes and ages
-T2273	Noun_Phrase 40246 40259;	the indicated
-40274 40278	the indicatedages
+T2273	Noun_Phrase 40246 40259;40274 40278	the indicated ages
 T2274	Noun_Phrase 40246 40269	the indicated genotypes
 T2275	Noun_Phrase 40246 40278	the indicated genotypes and ages
 T2276	Noun_Phrase 40296 40302	nuclei
@@ -2512,8 +2315,7 @@ T2313	Noun_Phrase 40912 40930	SACs in the retina
 T2314	Noun_Phrase 40920 40930	the retina
 T2315	Noun_Phrase 40937 40941	E2f1
 T2316	Noun_Phrase 40963 41001	both nuclear and cytoplasmic fractions
-T2317	Noun_Phrase 40968 40975;	nuclear
-40992 41001	nuclearfractions
+T2317	Noun_Phrase 40968 40975;40992 41001	nuclear fractions
 T2318	Noun_Phrase 40980 41001	cytoplasmic fractions
 T2319	Noun_Phrase 41019 41024	E2f3a
 T2320	Noun_Phrase 41025 41027	it
@@ -2528,10 +2330,8 @@ T2328	APPOS_relation 41115 41163	Tfdp1, which lacks a nuclear localization signa
 T2329	Noun_Phrase 41199 41214	both P0 and P18
 T2330	Noun_Phrase 41204 41206	P0
 T2331	Noun_Phrase 41211 41214	P18
-T2332	Noun_Phrase 41220 41238;	the Cdk inhibitors
-41250 41256	the Cdk inhibitorsCdkn1b
-T2333	IDENTITY_chain 41220 41238;	the Cdk inhibitors
-41250 41256	the Cdk inhibitorsCdkn1b
+T2332	Noun_Phrase 41220 41238;41250 41256	the Cdk inhibitors Cdkn1b
+T2333	IDENTITY_chain 41220 41238;41250 41256	the Cdk inhibitors Cdkn1b
 T2334	Noun_Phrase 41220 41245	the Cdk inhibitors Cdkn1a
 T2335	IDENTITY_chain 41220 41245	the Cdk inhibitors Cdkn1a
 T2336	Noun_Phrase 41220 41256	the Cdk inhibitors Cdkn1a and Cdkn1b
@@ -2565,13 +2365,11 @@ T2363	Noun_Phrase 41899 41918	the E2f3a?/? retina
 T2364	Noun_Phrase 41932 41937	E2f3a
 T2365	Noun_Phrase 41932 41945	E2f3a protein
 T2366	Noun_Phrase 41960 41983	E2f3a?/? retinal lysate
-T2367	Noun_Phrase 41985 41992;	Figures
-41999 42001	FiguresS8
+T2367	Noun_Phrase 41985 41992;41999 42001	Figures S8
 T2368	Noun_Phrase 41985 41994	Figures 6
 T2369	Noun_Phrase 41985 42001	Figures 6 and S8
 T2370	Noun_Phrase 42031 42036	E2f3b
-T2371	Noun_Phrase 42061 42070;	the Rb KO
-42088 42094	the Rb KOretina
+T2371	Noun_Phrase 42061 42070;42088 42094	the Rb KO retina
 T2372	Noun_Phrase 42061 42094	the Rb KO and Rb/E2f3a DKO retina
 T2373	IDENTITY_chain 42061 42094	the Rb KO and Rb/E2f3a DKO retina
 T2374	Noun_Phrase 42075 42094	Rb/E2f3a DKO retina
@@ -2583,12 +2381,9 @@ T2379	Noun_Phrase 42206 42211	E2f3b
 T2380	Noun_Phrase 42213 42222	Figure 7C
 T2381	IDENTITY_chain 42213 42222	Figure 7C
 T2382	Noun_Phrase 42245 42255	other E2fs
-T2383	Noun_Phrase 42273 42282;	the Rb KO
-42297 42320	the Rb KOand Rb/E2f3a DKO retina
-T2384	Noun_Phrase 42273 42282;	the Rb KO
-42314 42320	the Rb KOretina
-T2385	Noun_Phrase 42284 42295;	Rb/E2f3 DKO
-42314 42320	Rb/E2f3 DKOretina
+T2383	Noun_Phrase 42273 42282;42297 42320	the Rb KO and Rb/E2f3a DKO retina
+T2384	Noun_Phrase 42273 42282;42314 42320	the Rb KO retina
+T2385	Noun_Phrase 42284 42295;42314 42320	Rb/E2f3 DKO retina
 T2386	Noun_Phrase 42301 42320	Rb/E2f3a DKO retina
 T2387	Noun_Phrase 42363 42372	Figure 7C
 T2388	Noun_Phrase 42380 42385	E2f3a
@@ -2596,8 +2391,7 @@ T2389	Noun_Phrase 42398 42408	cell cycle
 T2390	Noun_Phrase 42432 42435	SAC
 T2391	Noun_Phrase 42432 42443	SAC defects
 T2392	Noun_Phrase 42462 42472	cell cycle
-T2393	Noun_Phrase 42487 42494;	Figures
-42502 42503	Figures4
+T2393	Noun_Phrase 42487 42494;42502 42503	Figures 4
 T2394	Noun_Phrase 42487 42497	Figures 3A
 T2395	Noun_Phrase 42557 42562	E2f3b
 T2396	Noun_Phrase 42557 42569	E2f3b and Rb
@@ -2619,25 +2413,19 @@ T2411	Noun_Phrase 42800 42802	Rb
 T2412	Noun_Phrase 42817 42822	E2f3a
 T2413	Noun_Phrase 42891 42893	Rb
 T2414	Noun_Phrase 42903 42915	Retinal Cell
-T2415	Noun_Phrase 42903 42915;	Retinal Cell
-42929 42934	Retinal CellDeath
+T2415	Noun_Phrase 42903 42915;42929 42934	Retinal Cell Death
 T2416	Noun_Phrase 42903 42924	Retinal Cell Division
 T2417	Noun_Phrase 42903 42934	Retinal Cell Division and Death
 T2418	Noun_Phrase 42943 42947	E2f1
 T2419	Noun_Phrase 42985 42987	Rb
 T2420	Noun_Phrase 42985 42992	Rb loss
-T2421	Noun_Phrase 43002 43021;	defects in neuronal
-43053 43068	defects in neuronaldifferentiation
-T2422	Noun_Phrase 43002 43026;	defects in neuronal cell
-43039 43047	defects in neuronal cellsurvival
-T2423	Noun_Phrase 43013 43021;	neuronal
-43053 43068	neuronaldifferentiation
-T2424	Noun_Phrase 43013 43026;	neuronal cell
-43039 43047	neuronal cellsurvival
+T2421	Noun_Phrase 43002 43021;43053 43068	defects in neuronal differentiation
+T2422	Noun_Phrase 43002 43026;43039 43047	defects in neuronal cell survival
+T2423	Noun_Phrase 43013 43021;43053 43068	neuronal differentiation
+T2424	Noun_Phrase 43013 43026;43039 43047	neuronal cell survival
 T2425	Noun_Phrase 43013 43032	neuronal cell cycle
 T2426	Noun_Phrase 43013 43037	neuronal cell cycle exit
-T2427	Noun_Phrase 43013 43037;	neuronal cell cycle exit
-43049 43068	neuronal cell cycle exitand differentiation
+T2427	Noun_Phrase 43013 43037;43049 43068	neuronal cell cycle exit and differentiation
 T2428	Noun_Phrase 43086 43095	the death
 T2429	Noun_Phrase 43153 43170	placental defects
 T2430	Noun_Phrase 43234 43236	Rb
@@ -2646,32 +2434,27 @@ T2432	Noun_Phrase 43339 43346	neurons
 T2433	Noun_Phrase 43364 43374	the retina
 T2434	Noun_Phrase 43411 43413	Rb
 T2435	Noun_Phrase 43429 43444	differentiation
-T2436	Noun_Phrase 43492 43499;	ectopic
-43513 43518	ectopicdeath
+T2436	Noun_Phrase 43492 43499;43513 43518	ectopic death
 T2437	Noun_Phrase 43492 43508	ectopic division
 T2438	Noun_Phrase 43492 43518	ectopic division and death
 T2439	Noun_Phrase 43555 43557	Rb
 T2440	Noun_Phrase 43571 43590	neuronal maturation
 T2441	Noun_Phrase 43632 43636	E2f1
-T2442	Noun_Phrase 43658 43665;	ectopic
-43679 43704	ectopicdeath in the Rb KO retina
-T2443	Noun_Phrase 43658 43674;	ectopic division
-43685 43704	ectopic divisionin the Rb KO retina
+T2442	Noun_Phrase 43658 43665;43679 43704	ectopic death in the Rb KO retina
+T2443	Noun_Phrase 43658 43674;43685 43704	ectopic division in the Rb KO retina
 T2444	Noun_Phrase 43658 43704	ectopic division and death in the Rb KO retina
 T2445	Noun_Phrase 43688 43704	the Rb KO retina
 T2446	Noun_Phrase 43774 43778	ERGs
 T2447	Noun_Phrase 43811 43833	cone-mediated function
 T2448	Noun_Phrase 43874 43888	photoreceptors
-T2449	Noun_Phrase 43892 43899;	bipolar
-43913 43918	bipolarcells
+T2449	Noun_Phrase 43892 43899;43913 43918	bipolar cells
 T2450	Noun_Phrase 43892 43918	bipolar and amacrine cells
 T2451	Noun_Phrase 43904 43918	amacrine cells
 T2452	Noun_Phrase 43920 43928	Division
 T2453	Noun_Phrase 43933 43938	death
 T2454	Noun_Phrase 43961 43972	Rb KO cells
 T2455	Noun_Phrase 43987 43991	E2f1
-T2456	Noun_Phrase 43987 44000;	E2f1, but not
-44009 44013	E2f1, but notE2f3
+T2456	Noun_Phrase 43987 44000;44009 44013	E2f1, but not E2f3
 T2457	Noun_Phrase 43987 44013	E2f1, but not E2f2 or E2f3
 T2458	Noun_Phrase 44001 44005	E2f2
 T2459	Noun_Phrase 44001 44013	E2f2 or E2f3
@@ -2700,8 +2483,7 @@ T2481	Noun_Phrase 44646 44656	These data
 T2482	Noun_Phrase 44698 44702	E2f1
 T2483	Noun_Phrase 44698 44743	E2f1 overexpression in newborn photoreceptors
 T2484	IDENTITY_chain 44698 44743	E2f1 overexpression in newborn photoreceptors
-T2485	Noun_Phrase 44751 44758;	ectopic
-44772 44781	ectopicapoptosis
+T2485	Noun_Phrase 44751 44758;44772 44781	ectopic apoptosis
 T2486	Noun_Phrase 44751 44767	ectopic division
 T2487	Noun_Phrase 44751 44781	ectopic division and apoptosis
 T2488	Noun_Phrase 44836 44840	E2f1
@@ -2785,10 +2567,8 @@ T2565	Noun_Phrase 47092 47096	RTCs
 T2566	Noun_Phrase 47118 47154	couple RTC birth to terminal mitosis
 T2567	IDENTITY_chain 47118 47154	couple RTC birth to terminal mitosis
 T2568	Noun_Phrase 47125 47128	RTC
-T2569	Noun_Phrase 47125 47134;	RTC birth
-47138 47154	RTC birthterminal mitosis
-T2570	IDENTITY_chain 47125 47134;	RTC birth
-47138 47154	RTC birthterminal mitosis
+T2569	Noun_Phrase 47125 47134;47138 47154	RTC birth terminal mitosis
+T2570	IDENTITY_chain 47125 47134;47138 47154	RTC birth terminal mitosis
 T2571	Noun_Phrase 47125 47134	RTC birth
 T2572	Noun_Phrase 47138 47154	terminal mitosis
 T2573	Noun_Phrase 47169 47173	them
@@ -2818,15 +2598,13 @@ T2596	Noun_Phrase 47604 47613	Rb KO SAC
 T2597	Noun_Phrase 47604 47621	Rb KO SAC defects
 T2598	Noun_Phrase 47684 47688	E2f1
 T2599	Noun_Phrase 47684 47697	E2f1 deletion
-T2600	Noun_Phrase 47707 47715;	abnormal
-47734 47739	abnormaldeath
+T2600	Noun_Phrase 47707 47715;47734 47739	abnormal death
 T2601	Noun_Phrase 47707 47729	abnormal proliferation
 T2602	Noun_Phrase 47707 47739	abnormal proliferation and death
 T2603	Noun_Phrase 47759 47762	SAC
 T2604	Noun_Phrase 47759 47778	SAC differentiation
 T2605	Noun_Phrase 47812 47816	E2f1
-T2606	Noun_Phrase 47812 47816;	E2f1
-47830 47838	E2f1deletion
+T2606	Noun_Phrase 47812 47816;47830 47838	E2f1 deletion
 T2607	Noun_Phrase 47812 47838	E2f1 but not E2f3 deletion
 T2608	Noun_Phrase 47825 47829	E2f3
 T2609	Noun_Phrase 47825 47838	E2f3 deletion
@@ -2898,8 +2676,7 @@ T2674	Noun_Phrase 49468 49473	E2f3b
 T2675	Noun_Phrase 49504 49519	this difference
 T2676	Noun_Phrase 49521 49557	This region in E2f1, E2f2, and E2f3a
 T2677	Noun_Phrase 49536 49540	E2f1
-T2678	Noun_Phrase 49536 49540;	E2f1
-49548 49557	E2f1and E2f3a
+T2678	Noun_Phrase 49536 49540;49548 49557	E2f1 and E2f3a
 T2679	Noun_Phrase 49536 49546	E2f1, E2f2
 T2680	Noun_Phrase 49536 49557	E2f1, E2f2, and E2f3a
 T2681	Noun_Phrase 49542 49546	E2f2
@@ -2914,15 +2691,13 @@ T2689	Noun_Phrase 49695 49706	this domain
 T2690	Noun_Phrase 49734 49739	Ccna2
 T2691	Noun_Phrase 49787 49823	the unique distributions we observed
 T2692	Noun_Phrase 49812 49814	we
-T2693	Noun_Phrase 49825 49834;	Rb family
-49844 49852	Rb familyproteins
+T2693	Noun_Phrase 49825 49834;49844 49852	Rb family proteins
 T2694	Noun_Phrase 49839 49843	Tfdp
 T2695	Noun_Phrase 49839 49852	Tfdp proteins
 T2696	Noun_Phrase 49872 49875	E2f
 T2697	Noun_Phrase 49902 49904	we
 T2698	Noun_Phrase 49934 49936	Rb
-T2699	Noun_Phrase 49934 49936;	Rb
-49947 49955	Rbproteins
+T2699	Noun_Phrase 49934 49936;49947 49955	Rb proteins
 T2700	Noun_Phrase 49941 49946	Tfdp1
 T2701	Noun_Phrase 49975 49988	retinal cells
 T2702	Noun_Phrase 49998 50012	immunostaining
@@ -2956,10 +2731,8 @@ T2729	IDENTITY_chain 50602 50634	terminally differentiating cells
 T2730	Noun_Phrase 50641 50655	the cell cycle
 T2731	Noun_Phrase 50645 50649	cell
 T2732	Noun_Phrase 50663 50670	neurons
-T2733	Noun_Phrase 50672 50675;	gut
-50685 50694	gutepithelia
-T2734	IDENTITY_chain 50672 50675;	gut
-50685 50694	gutepithelia
+T2733	Noun_Phrase 50672 50675;50685 50694	gut epithelia
+T2734	IDENTITY_chain 50672 50675;50685 50694	gut epithelia
 T2735	Noun_Phrase 50696 50702	muscle
 T2736	Noun_Phrase 50789 50791	Rb
 T2737	Noun_Phrase 50837 50839	KO
@@ -3119,10 +2892,8 @@ T2890	Noun_Phrase 55331 55339	sections
 T2891	Noun_Phrase 55425 55430	TUNEL
 T2892	Noun_Phrase 55473 55481	sections
 T2893	Noun_Phrase 55772 55780	sections
-T2894	Noun_Phrase 55801 55811;	Alexa 488–
-55825 55837	Alexa 488–streptavidin
-T2895	IDENTITY_chain 55801 55811;	Alexa 488–
-55825 55837	Alexa 488–streptavidin
+T2894	Noun_Phrase 55801 55811;55825 55837	Alexa 488– streptavidin
+T2895	IDENTITY_chain 55801 55811;55825 55837	Alexa 488– streptavidin
 T2896	Noun_Phrase 55801 55837	Alexa 488– or Alexa 568?streptavidin
 T2897	IDENTITY_chain 55801 55837	Alexa 488– or Alexa 568?streptavidin
 T2898	Noun_Phrase 55815 55837	Alexa 568?streptavidin
@@ -3135,8 +2906,7 @@ T2904	Noun_Phrase 55925 55943	Primary antibodies
 T2905	IDENTITY_chain 55925 55943	Primary antibodies
 T2906	Noun_Phrase 55947 55961	labelled cells
 T2907	IDENTITY_chain 55947 55961	labelled cells
-T2908	Noun_Phrase 56114 56126;	streptavidin
-56140 56149	streptavidinAlexa 568
+T2908	Noun_Phrase 56114 56126;56140 56149	streptavidin Alexa 568
 T2909	Noun_Phrase 56114 56136	streptavidin Alexa 488
 T2910	Noun_Phrase 56114 56149	streptavidin Alexa 488 or Alexa 568
 T2911	Noun_Phrase 56151 56176	1:1,000; Molecular Probes
@@ -3203,8 +2973,7 @@ T2971	Noun_Phrase 58985 58990	Mouse
 T2972	Noun_Phrase 58985 58998	Mouse retinas
 T2973	IDENTITY_chain 58985 58998	Mouse retinas
 T2974	Noun_Phrase 59027 59031	them
-T2975	Noun_Phrase 59113 59120;	Nuclear
-59137 59145	Nuclearproteins
+T2975	Noun_Phrase 59113 59120;59137 59145	Nuclear proteins
 T2976	Noun_Phrase 59113 59145	Nuclear and cytoplasmic proteins
 T2977	IDENTITY_chain 59113 59145	Nuclear and cytoplasmic proteins
 T2978	Noun_Phrase 59125 59145	cytoplasmic proteins
@@ -3240,8 +3009,7 @@ T3007	Noun_Phrase 60395 60399	mice
 T3008	Noun_Phrase 60576 60603	single-flash ERG recordings
 T3009	IDENTITY_chain 60576 60603	single-flash ERG recordings
 T3010	Noun_Phrase 60624 60636	dark-adapted
-T3011	Noun_Phrase 60624 60647;	dark-adapted (scotopic)
-60677 60687	dark-adapted (scotopic)conditions
+T3011	Noun_Phrase 60624 60647;60677 60687	dark-adapted (scotopic) conditions
 T3012	Noun_Phrase 60638 60646	scotopic
 T3013	Noun_Phrase 60652 60665	light-adapted
 T3014	Noun_Phrase 60652 60687	light-adapted (photopic) conditions
@@ -3253,8 +3021,7 @@ T3019	Noun_Phrase 60769 60771	cd
 T3020	Noun_Phrase 60813 60822	recording
 T3021	Noun_Phrase 60875 60885	25 cd·s/m2
 T3022	IDENTITY_chain 60875 60885	25 cd·s/m2
-T3023	Noun_Phrase 61090 61092;	10
-61101 61108	10cd·s/m2
+T3023	Noun_Phrase 61090 61092;61101 61108	10 cd·s/m2
 T3024	Noun_Phrase 61098 61108	25 cd·s/m2
 T3025	Noun_Phrase 61185 61204	Different genotypes
 T3026	Noun_Phrase 61226 61246	analysis of variance
@@ -3265,16 +3032,14 @@ T3030	Noun_Phrase 61277 61308	honestly significant difference
 T3031	APPOS_relation 61277 61308	honestly significant difference
 T3032	Noun_Phrase 61310 61313	HSD
 T3033	Noun_Phrase 61421 61425	E2f1
-T3034	Noun_Phrase 61421 61434;	E2f1, but Not
-61443 61447	E2f1, but NotE2f3
+T3034	Noun_Phrase 61421 61434;61443 61447	E2f1, but Not E2f3
 T3035	Noun_Phrase 61421 61447	E2f1, but Not E2f2 or E2f3
 T3036	Noun_Phrase 61435 61439	E2f2
 T3037	Noun_Phrase 61435 61447	E2f2 or E2f3
 T3038	Noun_Phrase 61443 61447	E2f3
 T3039	Noun_Phrase 61499 61515	P18 Rb KO Retina
 T3040	Noun_Phrase 61517 61572	Horizontal sections of the indicated genotypes and ages
-T3041	Noun_Phrase 61540 61553;	the indicated
-61568 61572	the indicatedages
+T3041	Noun_Phrase 61540 61553;61568 61572	the indicated ages
 T3042	Noun_Phrase 61540 61563	the indicated genotypes
 T3043	Noun_Phrase 61540 61572	the indicated genotypes and ages
 T3044	Noun_Phrase 61590 61596	nuclei
@@ -3295,8 +3060,7 @@ T3058	Noun_Phrase 61866 61879	dividing RPCs
 T3059	Noun_Phrase 61946 61955	Figure S2
 T3060	Noun_Phrase 61966 61970	E2f1
 T3061	Noun_Phrase 62041 62096	Horizontal sections of the indicated genotypes and ages
-T3062	Noun_Phrase 62064 62077;	the indicated
-62092 62096	the indicatedages
+T3062	Noun_Phrase 62064 62077;62092 62096	the indicated ages
 T3063	Noun_Phrase 62064 62087	the indicated genotypes
 T3064	Noun_Phrase 62064 62096	the indicated genotypes and ages
 T3065	Noun_Phrase 62098 62101	E14
@@ -3313,8 +3077,7 @@ T3075	Noun_Phrase 62226 62235	anti-BrdU
 T3076	Noun_Phrase 62245 62254	apoptosis
 T3077	Noun_Phrase 62274 62279	TUNEL
 T3078	Noun_Phrase 62290 62303	Rb?/? retinas
-T3079	Noun_Phrase 62305 62310;	BrdU+
-62322 62327	BrdU+cells
+T3079	Noun_Phrase 62305 62310;62322 62327	BrdU+ cells
 T3080	Noun_Phrase 62305 62359	BrdU+ and TUNEL+ cells can be seen in the inner retina
 T3081	IDENTITY_chain 62305 62359	BrdU+ and TUNEL+ cells can be seen in the inner retina
 T3082	Noun_Phrase 62315 62327	TUNEL+ cells
@@ -3327,8 +3090,7 @@ T3088	Noun_Phrase 62434 62441	The NBL
 T3089	Noun_Phrase 62451 62464	dividing RPCs
 T3090	Noun_Phrase 62531 62540	Figure S3
 T3091	Noun_Phrase 62551 62555	E2f1
-T3092	Noun_Phrase 62551 62564;	E2f1, but Not
-62573 62577	E2f1, but NotE2f3
+T3092	Noun_Phrase 62551 62564;62573 62577	E2f1, but Not E2f3
 T3093	Noun_Phrase 62551 62577	E2f1, but Not E2f2 or E2f3
 T3094	Noun_Phrase 62565 62569	E2f2
 T3095	Noun_Phrase 62565 62577	E2f2 or E2f3
@@ -3336,8 +3098,7 @@ T3096	Noun_Phrase 62573 62577	E2f3
 T3097	Noun_Phrase 62587 62622	Ectopic Mitosis in the Rb KO Retina
 T3098	Noun_Phrase 62606 62622	the Rb KO Retina
 T3099	Noun_Phrase 62628 62691	Horizontal retinal sections of the indicated genotypes and ages
-T3100	Noun_Phrase 62659 62672;	the indicated
-62687 62691	the indicatedages
+T3100	Noun_Phrase 62659 62672;62687 62691	the indicated ages
 T3101	Noun_Phrase 62659 62682	the indicated genotypes
 T3102	Noun_Phrase 62659 62691	the indicated genotypes and ages
 T3103	Noun_Phrase 62709 62715	nuclei
@@ -3353,13 +3114,10 @@ T3112	APPOS_relation 62882 62900	standard deviation
 T3113	Noun_Phrase 62902 62904	SD
 T3114	Noun_Phrase 62911 62920	asterisks
 T3115	Noun_Phrase 62930 62997	significant difference between retina of WT and indicated genotypes
-T3116	Noun_Phrase 62961 62970;	retina of
-62978 62997	retina ofindicated genotypes
-T3117	Noun_Phrase 62961 62973;	retina of WT
-62988 62997	retina of WTgenotypes
+T3116	Noun_Phrase 62961 62970;62978 62997	retina of indicated genotypes
+T3117	Noun_Phrase 62961 62973;62988 62997	retina of WT genotypes
 T3118	Noun_Phrase 62961 62997	retina of WT and indicated genotypes
-T3119	Noun_Phrase 62971 62973;	WT
-62988 62997	WTgenotypes
+T3119	Noun_Phrase 62971 62973;62988 62997	WT genotypes
 T3120	Noun_Phrase 62971 62997	WT and indicated genotypes
 T3121	Noun_Phrase 62978 62997	indicated genotypes
 T3122	Noun_Phrase 63002 63003	p
@@ -3374,27 +3132,21 @@ T3130	Noun_Phrase 63104 63113	Figure S4
 T3131	Noun_Phrase 63124 63128	E2f2
 T3132	Noun_Phrase 63124 63136	E2f2 or E2f3
 T3133	Noun_Phrase 63132 63136	E2f3
-T3134	Noun_Phrase 63153 63161;	Ganglion
-63179 63183	GanglionCell
-T3135	Noun_Phrase 63163 63166;	Rod
-63179 63183	RodCell
-T3136	Noun_Phrase 63163 63166;	Rod
-63179 63209	RodCell Death in the Rb KO Retina
+T3134	Noun_Phrase 63153 63161;63179 63183	Ganglion Cell
+T3135	Noun_Phrase 63163 63166;63179 63183	Rod Cell
+T3136	Noun_Phrase 63163 63166;63179 63209	Rod Cell Death in the Rb KO Retina
 T3137	Noun_Phrase 63171 63183	Bipolar Cell
 T3138	Noun_Phrase 63193 63209	the Rb KO Retina
 T3139	Noun_Phrase 63215 63288	Horizontal retinal sections from mice of the indicated ages and genotypes
 T3140	Noun_Phrase 63248 63288	mice of the indicated ages and genotypes
-T3141	Noun_Phrase 63256 63269;	the indicated
-63279 63288	the indicatedgenotypes
+T3141	Noun_Phrase 63256 63269;63279 63288	the indicated genotypes
 T3142	Noun_Phrase 63256 63274	the indicated ages
 T3143	Noun_Phrase 63256 63288	the indicated ages and genotypes
 T3144	Noun_Phrase 63306 63312	nuclei
 T3145	Noun_Phrase 63306 63445	nuclei (DAPI, blue) and markers that detect ganglion cells (Pou4f2, red), rods and cones (Sag [rod arrestin], green), and rod bipolar cells
 T3146	Noun_Phrase 63314 63318	DAPI
-T3147	Noun_Phrase 63330 63349;	markers that detect
-63380 63394	markers that detectrods and cones
-T3148	Noun_Phrase 63330 63349;	markers that detect
-63428 63445	markers that detectrod bipolar cells
+T3147	Noun_Phrase 63330 63349;63380 63394	markers that detect rods and cones
+T3148	Noun_Phrase 63330 63349;63428 63445	markers that detect rod bipolar cells
 T3149	Noun_Phrase 63330 63364	markers that detect ganglion cells
 T3150	Noun_Phrase 63330 63445	markers that detect ganglion cells (Pou4f2, red), rods and cones (Sag [rod arrestin], green), and rod bipolar cells
 T3151	Noun_Phrase 63350 63364	ganglion cells
@@ -3414,13 +3166,11 @@ T3164	APPOS_relation 63447 63452	Prkca
 T3165	Noun_Phrase 63462 63471	Scale bar
 T3166	Noun_Phrase 63487 63535	Quantification of total ganglion (Pou4f2+) cells
 T3167	Noun_Phrase 63505 63535	total ganglion (Pou4f2+) cells
-T3168	Noun_Phrase 63511 63519;	ganglion
-63530 63535	ganglioncells
+T3168	Noun_Phrase 63511 63519;63530 63535	ganglion cells
 T3169	Noun_Phrase 63521 63528	Pou4f2+
 T3170	APPOS_relation 63521 63528	Pou4f2+
 T3171	Noun_Phrase 63542 63592	Quantification of total rod bipolar (Prkca+) cells
-T3172	Noun_Phrase 63566 63577;	rod bipolar
-63587 63592	rod bipolarcells
+T3172	Noun_Phrase 63566 63577;63587 63592	rod bipolar cells
 T3173	Noun_Phrase 63579 63585	Prkca+
 T3174	APPOS_relation 63579 63585	Prkca+
 T3175	Noun_Phrase 63599 63619	Thickness of the ONL
@@ -3431,13 +3181,10 @@ T3179	Noun_Phrase 63659 63669	Error bars
 T3180	Noun_Phrase 63680 63682	SD
 T3181	Noun_Phrase 63688 63697	asterisks
 T3182	Noun_Phrase 63707 63774	significant difference between retina of WT and indicated genotypes
-T3183	Noun_Phrase 63738 63747;	retina of
-63755 63774	retina ofindicated genotypes
-T3184	Noun_Phrase 63738 63750;	retina of WT
-63765 63774	retina of WTgenotypes
+T3183	Noun_Phrase 63738 63747;63755 63774	retina of indicated genotypes
+T3184	Noun_Phrase 63738 63750;63765 63774	retina of WT genotypes
 T3185	Noun_Phrase 63738 63774	retina of WT and indicated genotypes
-T3186	Noun_Phrase 63748 63750;	WT
-63765 63774	WTgenotypes
+T3186	Noun_Phrase 63748 63750;63765 63774	WT genotypes
 T3187	Noun_Phrase 63748 63774	WT and indicated genotypes
 T3188	Noun_Phrase 63755 63774	indicated genotypes
 T3189	Noun_Phrase 63780 63781	p
@@ -3463,8 +3210,7 @@ T3208	Noun_Phrase 64198 64213	Differentiation
 T3209	Noun_Phrase 64198 64235	Differentiation Defects in Rb KO SACs
 T3210	Noun_Phrase 64225 64235	Rb KO SACs
 T3211	Noun_Phrase 64237 64296	Horizontal retinal sections of indicated genotypes and ages
-T3212	Noun_Phrase 64268 64277;	indicated
-64292 64296	indicatedages
+T3212	Noun_Phrase 64268 64277;64292 64296	indicated ages
 T3213	Noun_Phrase 64268 64287	indicated genotypes
 T3214	Noun_Phrase 64268 64296	indicated genotypes and ages
 T3215	Noun_Phrase 64314 64320	nuclei
@@ -3479,8 +3225,7 @@ T3223	Noun_Phrase 64456 64466	Scale bars
 T3224	Noun_Phrase 64542 64546	GABA
 T3225	Noun_Phrase 64567 64583	the Rb KO Retina
 T3226	Noun_Phrase 64605 64633	Chx10-Cre;RbloxP/loxP Retina
-T3227	Noun_Phrase 64658 64671;	the indicated
-64686 64690	the indicatedages
+T3227	Noun_Phrase 64658 64671;64686 64690	the indicated ages
 T3228	Noun_Phrase 64658 64681	the indicated genotypes
 T3229	Noun_Phrase 64658 64690	the indicated genotypes and ages
 T3230	Noun_Phrase 64694 64700	retina
@@ -3514,14 +3259,12 @@ T3257	Noun_Phrase 65302 65312	Scale bars
 T3258	Noun_Phrase 65377 65386	Figure S8
 T3259	Noun_Phrase 65416 65421	E2f3a
 T3260	Noun_Phrase 65433 65454	the Developing Retina
-T3261	Noun_Phrase 65456 65463;	Nuclear
-65480 65577	Nuclearextracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages
+T3261	Noun_Phrase 65456 65463;65480 65577	Nuclear extracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages
 T3262	Noun_Phrase 65456 65577	Nuclear and cytoplasmic extracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages
 T3263	Noun_Phrase 65468 65577	cytoplasmic extracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages
 T3264	Noun_Phrase 65518 65577	retinal cells from mice of the indicated genotypes and ages
 T3265	Noun_Phrase 65537 65577	mice of the indicated genotypes and ages
-T3266	Noun_Phrase 65545 65558;	the indicated
-65573 65577	the indicatedages
+T3266	Noun_Phrase 65545 65558;65573 65577	the indicated ages
 T3267	Noun_Phrase 65545 65568	the indicated genotypes
 T3268	Noun_Phrase 65545 65577	the indicated genotypes and ages
 T3269	Noun_Phrase 65595 65611	Western blotting
@@ -3546,19 +3289,13 @@ T3287	Noun_Phrase 66056 66073	Accession Numbers
 T3288	IDENTITY_chain 66056 66073	Accession Numbers
 T3289	Noun_Phrase 66075 66204	The GenBank (http://www.ncbi.nlm.nih.gov/genbank) accession numbers for the major genes and gene products discussed in this paper
 T3290	Noun_Phrase 66194 66204	this paper
-T3291	Noun_Phrase 66209 66215;	Camk2a
-66317 66328	Camk2aand Slc18a3
+T3291	Noun_Phrase 66209 66215;66317 66328	Camk2a and Slc18a3
 T3292	Noun_Phrase 66209 66215	Camk2a
-T3293	Noun_Phrase 66229 66233;	Chat
-66283 66287;	ChatE2f3
-66317 66328	ChatE2f3and Slc18a3
-T3294	Noun_Phrase 66229 66233;	Chat
-66301 66328	ChatRb (NM_009029), and Slc18a3
+T3293	Noun_Phrase 66229 66233;66283 66287;66317 66328	Chat E2f3 and Slc18a3
+T3294	Noun_Phrase 66229 66233;66301 66328	Chat Rb (NM_009029), and Slc18a3
 T3295	Noun_Phrase 66229 66233	Chat
-T3296	Noun_Phrase 66229 66233;	Chat
-66317 66328	Chatand Slc18a3
-T3297	Noun_Phrase 66247 66251;	E2f1
-66283 66287	E2f1E2f3
+T3296	Noun_Phrase 66229 66233;66317 66328	Chat and Slc18a3
+T3297	Noun_Phrase 66247 66251;66283 66287	E2f1 E2f3
 T3298	Noun_Phrase 66247 66251	E2f1
 T3299	Noun_Phrase 66247 66269	E2f1 (NM_007891), E2f2
 T3300	Noun_Phrase 66265 66269	E2f2

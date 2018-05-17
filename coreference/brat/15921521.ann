@@ -2,28 +2,20 @@ T0	Noun_Phrase 0 118	Potential genetic modifiers of the cystic fibrosis intestin
 T1	IDENTITY_chain 0 118	Potential genetic modifiers of the cystic fibrosis intestinal inflammatory phenotype on mouse chromosomes 1, 9, and 10
 T2	Noun_Phrase 31 84	the cystic fibrosis intestinal inflammatory phenotype
 T3	IDENTITY_chain 31 84	the cystic fibrosis intestinal inflammatory phenotype
-T4	Noun_Phrase 88 105;	mouse chromosomes
-109 110	mouse chromosomes9
-T5	IDENTITY_chain 88 105;	mouse chromosomes
-109 110	mouse chromosomes9
-T6	Noun_Phrase 88 105;	mouse chromosomes
-116 118	mouse chromosomes10
-T7	IDENTITY_chain 88 105;	mouse chromosomes
-116 118	mouse chromosomes10
+T4	Noun_Phrase 88 105;109 110	mouse chromosomes 9
+T5	IDENTITY_chain 88 105;109 110	mouse chromosomes 9
+T6	Noun_Phrase 88 105;116 118	mouse chromosomes 10
+T7	IDENTITY_chain 88 105;116 118	mouse chromosomes 10
 T8	Noun_Phrase 88 107	mouse chromosomes 1
 T9	IDENTITY_chain 88 107	mouse chromosomes 1
 T10	Noun_Phrase 88 118	mouse chromosomes 1, 9, and 10
 T11	IDENTITY_chain 88 118	mouse chromosomes 1, 9, and 10
 T12	Noun_Phrase 151 166	cystic fibrosis
 T13	IDENTITY_chain 151 166	cystic fibrosis
-T14	Noun_Phrase 180 248;	mutations in the cystic fibrosis transmembrane conductance regulator
-256 260	mutations in the cystic fibrosis transmembrane conductance regulatorgene
-T15	IDENTITY_chain 180 248;	mutations in the cystic fibrosis transmembrane conductance regulator
-256 260	mutations in the cystic fibrosis transmembrane conductance regulatorgene
-T16	Noun_Phrase 193 248;	the cystic fibrosis transmembrane conductance regulator
-256 260	the cystic fibrosis transmembrane conductance regulatorgene
-T17	IDENTITY_chain 193 248;	the cystic fibrosis transmembrane conductance regulator
-256 260	the cystic fibrosis transmembrane conductance regulatorgene
+T14	Noun_Phrase 180 248;256 260	mutations in the cystic fibrosis transmembrane conductance regulator gene
+T15	IDENTITY_chain 180 248;256 260	mutations in the cystic fibrosis transmembrane conductance regulator gene
+T16	Noun_Phrase 193 248;256 260	the cystic fibrosis transmembrane conductance regulator gene
+T17	IDENTITY_chain 193 248;256 260	the cystic fibrosis transmembrane conductance regulator gene
 T18	Noun_Phrase 197 248	cystic fibrosis transmembrane conductance regulator
 T19	IDENTITY_chain 197 248	cystic fibrosis transmembrane conductance regulator
 T20	APPOS_relation 197 248	cystic fibrosis transmembrane conductance regulator
@@ -109,10 +101,8 @@ T99	Noun_Phrase 2154 2156	CF
 T100	Noun_Phrase 2192 2207	Cystic fibrosis
 T101	APPOS_relation 2192 2207	Cystic fibrosis
 T102	Noun_Phrase 2209 2211	CF
-T103	Noun_Phrase 2226 2294;	mutations in the cystic fibrosis transmembrane conductance regulator
-2302 2306	mutations in the cystic fibrosis transmembrane conductance regulatorgene
-T104	Noun_Phrase 2239 2294;	the cystic fibrosis transmembrane conductance regulator
-2302 2306	the cystic fibrosis transmembrane conductance regulatorgene
+T103	Noun_Phrase 2226 2294;2302 2306	mutations in the cystic fibrosis transmembrane conductance regulator gene
+T104	Noun_Phrase 2239 2294;2302 2306	the cystic fibrosis transmembrane conductance regulator gene
 T105	Noun_Phrase 2243 2294	cystic fibrosis transmembrane conductance regulator
 T106	APPOS_relation 2243 2294	cystic fibrosis transmembrane conductance regulator
 T107	Noun_Phrase 2296 2300	CFTR
@@ -164,8 +154,7 @@ T152	IDENTITY_chain 4675 4687	mouse chr. 6
 T153	Noun_Phrase 4809 4811	CF
 T154	Noun_Phrase 4809 4817	CF mouse
 T155	Noun_Phrase 4809 4825	CF mouse airways
-T156	Noun_Phrase 4845 4849;	chr.
-4856 4858	chr.10
+T156	Noun_Phrase 4845 4849;4856 4858	chr. 10
 T157	Noun_Phrase 4845 4851	chr. 1
 T158	Noun_Phrase 4918 4927	this work
 T159	Noun_Phrase 4929 4931	CF
@@ -201,15 +190,12 @@ T188	Noun_Phrase 5588 5619	CF mice on the mixed background
 T189	Noun_Phrase 5625 5650	improved body weight gain
 T190	IDENTITY_chain 5625 5650	improved body weight gain
 T191	Noun_Phrase 5634 5645	body weight
-T192	Noun_Phrase 5679 5683;	male
-5695 5699	malemice
+T192	Noun_Phrase 5679 5683;5695 5699	male mice
 T193	Noun_Phrase 5679 5699	male and female mice
 T194	IDENTITY_chain 5679 5699	male and female mice
 T195	Noun_Phrase 5688 5699	female mice
-T196	Noun_Phrase 5703 5704;	4
-5711 5723	4weeks of age
-T197	IDENTITY_chain 5703 5704;	4
-5711 5723	4weeks of age
+T196	Noun_Phrase 5703 5704;5711 5723	4 weeks of age
+T197	IDENTITY_chain 5703 5704;5711 5723	4 weeks of age
 T198	Noun_Phrase 5703 5723	4 and 8 weeks of age
 T199	IDENTITY_chain 5703 5723	4 and 8 weeks of age
 T200	Noun_Phrase 5709 5723	8 weeks of age
@@ -222,14 +208,11 @@ T206	IDENTITY_chain 5758 5767	male mice
 T207	Noun_Phrase 5795 5809	wild type mice
 T208	IDENTITY_chain 5795 5809	wild type mice
 T209	Noun_Phrase 5813 5838	both 4 and 8 weeks of age
-T210	Noun_Phrase 5818 5819;	4
-5826 5838	4weeks of age
+T210	Noun_Phrase 5818 5819;5826 5838	4 weeks of age
 T211	Noun_Phrase 5824 5838	8 weeks of age
 T212	Noun_Phrase 5835 5838	age
-T213	Noun_Phrase 5840 5846;	Fig. 1
-5849 5850	Fig. 1B
-T214	IDENTITY_chain 5840 5846;	Fig. 1
-5849 5850	Fig. 1B
+T213	Noun_Phrase 5840 5846;5849 5850	Fig. 1 B
+T214	IDENTITY_chain 5840 5846;5849 5850	Fig. 1 B
 T215	Noun_Phrase 5840 5847	Fig. 1A
 T216	IDENTITY_chain 5840 5847	Fig. 1A
 T217	Noun_Phrase 5868 5906	female CF mice on the mixed background
@@ -269,14 +252,11 @@ T250	Noun_Phrase 6437 6455	genetic background
 T251	Noun_Phrase 6475 6477	CF
 T252	Noun_Phrase 6475 6482	CF mice
 T253	Noun_Phrase 6485 6486	A
-T254	Noun_Phrase 6488 6494;	Female
-6508 6512	Femalemice
-T255	Noun_Phrase 6488 6498;	Female and
-6503 6512	Female andmale mice
+T254	Noun_Phrase 6488 6494;6508 6512	Female mice
+T255	Noun_Phrase 6488 6498;6503 6512	Female and male mice
 T256	Noun_Phrase 6500 6501	B
 T257	Noun_Phrase 6503 6512	male mice
-T258	Noun_Phrase 6529 6530;	4
-6537 6549	4weeks of age
+T258	Noun_Phrase 6529 6530;6537 6549	4 weeks of age
 T259	Noun_Phrase 6529 6549	4 and 8 weeks of age
 T260	Noun_Phrase 6535 6549	8 weeks of age
 T261	Noun_Phrase 6546 6549	age
@@ -294,10 +274,8 @@ T272	Noun_Phrase 7131 7159	the mixed genetic background
 T273	Noun_Phrase 7183 7208	inflammatory marker genes
 T274	Noun_Phrase 7210 7240	quantitative, real-time RT-PCR
 T275	IDENTITY_chain 7210 7240	quantitative, real-time RT-PCR
-T276	Noun_Phrase 7328 7337;	wild type
-7345 7386	wild typemice on the different genetic backgrounds
-T277	IDENTITY_chain 7328 7337;	wild type
-7345 7386	wild typemice on the different genetic backgrounds
+T276	Noun_Phrase 7328 7337;7345 7386	wild type mice on the different genetic backgrounds
+T277	IDENTITY_chain 7328 7337;7345 7386	wild type mice on the different genetic backgrounds
 T278	Noun_Phrase 7328 7386	wild type and CF mice on the different genetic backgrounds
 T279	IDENTITY_chain 7328 7386	wild type and CF mice on the different genetic backgrounds
 T280	Noun_Phrase 7342 7344	CF
@@ -364,8 +342,7 @@ T340	IDENTITY_chain 8657 8664	Fig. 2A
 T341	Nonreferential_pronoun 8680 8685	there
 T342	Noun_Phrase 8722 8727	Mcpt2
 T343	Noun_Phrase 8747 8749	CF
-T344	Noun_Phrase 8747 8749;	CF
-8764 8787	CFon the mixed background
+T344	Noun_Phrase 8747 8749;8764 8787	CF on the mixed background
 T345	Noun_Phrase 8754 8787	wild type on the mixed background
 T346	Noun_Phrase 8767 8787	the mixed background
 T347	Noun_Phrase 8789 8796	Fig. 2A
@@ -376,21 +353,18 @@ T351	Noun_Phrase 8866 8883	the B6 background
 T352	Noun_Phrase 8896 8905	wild type
 T353	Nonreferential_pronoun 8911 8916	there
 T354	Noun_Phrase 8955 8957	CF
-T355	Noun_Phrase 8955 8957;	CF
-8972 8995	CFon the mixed background
+T355	Noun_Phrase 8955 8957;8972 8995	CF on the mixed background
 T356	Noun_Phrase 8962 8995	wild type on the mixed background
 T357	Noun_Phrase 8975 8995	the mixed background
 T358	Noun_Phrase 9049 9051	CF
-T359	Noun_Phrase 9049 9056;	CF mice
-9137 9160	CF miceon the mixed background
+T359	Noun_Phrase 9049 9056;9137 9160	CF mice on the mixed background
 T360	Noun_Phrase 9049 9077	CF mice on the B6 background
 T361	Noun_Phrase 9060 9077	the B6 background
 T362	Noun_Phrase 9127 9160	wild type on the mixed background
 T363	Noun_Phrase 9140 9160	the mixed background
 T364	Noun_Phrase 9172 9177	SOCS3
 T365	Noun_Phrase 9212 9214	CF
-T366	Noun_Phrase 9212 9219;	CF mice
-9268 9291	CF miceon the mixed background
+T366	Noun_Phrase 9212 9219;9268 9291	CF mice on the mixed background
 T367	Noun_Phrase 9212 9240	CF mice on the B6 background
 T368	Noun_Phrase 9223 9240	the B6 background
 T369	Noun_Phrase 9253 9262	wild type
@@ -419,8 +393,7 @@ T391	Noun_Phrase 9852 9876	CF mouse small intestine
 T392	Noun_Phrase 9919 9976	quantitative real-time RT-PCR using gene-specific primers
 T393	Noun_Phrase 10009 10019	GAPDH mRNA
 T394	IDENTITY_chain 10009 10019	GAPDH mRNA
-T395	Noun_Phrase 10049 10058;	wild type
-10066 10070	wild typemice
+T395	Noun_Phrase 10049 10058;10066 10070	wild type mice
 T396	Noun_Phrase 10063 10065	CF
 T397	Noun_Phrase 10063 10070	CF mice
 T398	Noun_Phrase 10098 10100	CF
@@ -469,14 +442,11 @@ T440	Noun_Phrase 11125 11173	histological analysis of small intestine tissues
 T441	IDENTITY_chain 11125 11173	histological analysis of small intestine tissues
 T442	Noun_Phrase 11189 11267	The wild type small intestine on both the B6 and the mixed genetic backgrounds
 T443	IDENTITY_chain 11189 11267	The wild type small intestine on both the B6 and the mixed genetic backgrounds
-T444	Noun_Phrase 11227 11233;	the B6
-11248 11267	the B6genetic backgrounds
+T444	Noun_Phrase 11227 11233;11248 11267	the B6 genetic backgrounds
 T445	Noun_Phrase 11238 11267	the mixed genetic backgrounds
 T446	Noun_Phrase 11282 11303	The intestinal crypts
-T447	Noun_Phrase 11369 11373;	Fig.
-11381 11383	Fig.3C
-T448	IDENTITY_chain 11369 11373;	Fig.
-11381 11383	Fig.3C
+T447	Noun_Phrase 11369 11373;11381 11383	Fig. 3C
+T448	IDENTITY_chain 11369 11373;11381 11383	Fig. 3C
 T449	Noun_Phrase 11369 11376	Fig. 3A
 T450	IDENTITY_chain 11369 11376	Fig. 3A
 T451	Noun_Phrase 11369 11383	Fig. 3A and 3C
@@ -532,12 +502,9 @@ T500	Noun_Phrase 12355 12360	mucus
 T501	Noun_Phrase 12386 12388	CF
 T502	Noun_Phrase 12386 12414	CF mice on the B6 background
 T503	Noun_Phrase 12397 12414	the B6 background
-T504	Noun_Phrase 12454 12476;	the small intestine of
-12491 12535	the small intestine ofCF mice on the different genetic backgrounds
-T505	Noun_Phrase 12454 12486;	the small intestine of wild type
-12494 12535	the small intestine of wild typemice on the different genetic backgrounds
-T506	Noun_Phrase 12477 12486;	wild type
-12494 12535	wild typemice on the different genetic backgrounds
+T504	Noun_Phrase 12454 12476;12491 12535	the small intestine of CF mice on the different genetic backgrounds
+T505	Noun_Phrase 12454 12486;12494 12535	the small intestine of wild type mice on the different genetic backgrounds
+T506	Noun_Phrase 12477 12486;12494 12535	wild type mice on the different genetic backgrounds
 T507	Noun_Phrase 12477 12535	wild type and CF mice on the different genetic backgrounds
 T508	Noun_Phrase 12491 12493	CF
 T509	Noun_Phrase 12491 12535	CF mice on the different genetic backgrounds
@@ -604,8 +571,7 @@ T569	IDENTITY_chain 13806 13810	Muc2
 T570	Noun_Phrase 13836 13843	B6 mice
 T571	Noun_Phrase 13901 13921	the mixed background
 T572	Noun_Phrase 13962 13964	CF
-T573	Noun_Phrase 13962 13969;	CF mice
-14055 14078	CF miceon the mixed background
+T573	Noun_Phrase 13962 13969;14055 14078	CF mice on the mixed background
 T574	Noun_Phrase 13962 13990	CF mice on the B6 background
 T575	Noun_Phrase 13973 13990	the B6 background
 T576	Noun_Phrase 14021 14030	Muc2 mRNA
@@ -629,17 +595,14 @@ T593	Noun_Phrase 14436 14456	the mixed background
 T594	Noun_Phrase 14532 14536	Cftr
 T595	Noun_Phrase 14532 14567	Cftr null mice on the B6 background
 T596	Noun_Phrase 14550 14567	the B6 background
-T597	Noun_Phrase 14660 14666;	Tables
-14673 14674	Tables2
-T598	IDENTITY_chain 14660 14666;	Tables
-14673 14674	Tables2
+T597	Noun_Phrase 14660 14666;14673 14674	Tables 2
+T598	IDENTITY_chain 14660 14666;14673 14674	Tables 2
 T599	Noun_Phrase 14660 14668	Tables 1
 T600	IDENTITY_chain 14660 14668	Tables 1
 T601	Noun_Phrase 14660 14674	Tables 1 and 2
 T602	IDENTITY_chain 14660 14674	Tables 1 and 2
 T603	Noun_Phrase 14720 14729	male mice
-T604	Noun_Phrase 14731 14737;	Tables
-14744 14745	Tables2
+T604	Noun_Phrase 14731 14737;14744 14745	Tables 2
 T605	Noun_Phrase 14731 14739	Tables 1
 T606	Noun_Phrase 14731 14745	Tables 1 and 2
 T607	Noun_Phrase 14764 14784	the mixed background
@@ -662,20 +625,16 @@ T623	Noun_Phrase 15132 15247	Distribution of Cftr genotypes in female offspring 
 T624	Noun_Phrase 15148 15247	Cftr genotypes in female offspring from breeding Cftr heterozygotes on the B6 and mixed backgrounds
 T625	Noun_Phrase 15166 15247	female offspring from breeding Cftr heterozygotes on the B6 and mixed backgrounds
 T626	Noun_Phrase 15197 15201	Cftr
-T627	Noun_Phrase 15219 15222;	the
-15230 15247	themixed backgrounds
-T628	Noun_Phrase 15219 15225;	the B6
-15236 15247	the B6backgrounds
+T627	Noun_Phrase 15219 15222;15230 15247	the mixed backgrounds
+T628	Noun_Phrase 15219 15225;15236 15247	the B6 backgrounds
 T629	Noun_Phrase 15325 15336	the B6 mice
 T630	Noun_Phrase 15372 15397	the mixed background mice
 T631	Noun_Phrase 15433 15442	genotypes
 T632	IDENTITY_chain 15433 15442	genotypes
 T633	Noun_Phrase 15445 15452	Table 2
 T634	Noun_Phrase 15517 15521	Cftr
-T635	Noun_Phrase 15539 15542;	the
-15550 15567	themixed backgrounds
-T636	Noun_Phrase 15539 15545;	the B6
-15556 15567	the B6backgrounds
+T635	Noun_Phrase 15539 15542;15550 15567	the mixed backgrounds
+T636	Noun_Phrase 15539 15545;15556 15567	the B6 backgrounds
 T637	Noun_Phrase 15645 15656	the B6 mice
 T638	Noun_Phrase 15692 15717	the mixed background mice
 T639	Noun_Phrase 15753 15762	genotypes
@@ -686,8 +645,7 @@ T643	Noun_Phrase 15832 15854	intestinal obstruction
 T644	Noun_Phrase 15872 15880	the mice
 T645	IDENTITY_chain 15872 15880	the mice
 T646	Noun_Phrase 15889 15914	standard solid mouse chow
-T647	Noun_Phrase 15927 15938;	the CF mice
-15991 16011	the CF miceon the B6 background
+T647	Noun_Phrase 15927 15938;15991 16011	the CF mice on the B6 background
 T648	Noun_Phrase 15927 15962	the CF mice on the mixed background
 T649	Noun_Phrase 15931 15933	CF
 T650	Noun_Phrase 15942 15962	the mixed background
@@ -750,10 +708,8 @@ T706	Noun_Phrase 17068 17096	CF mice on the B6 background
 T707	Noun_Phrase 17079 17096	the B6 background
 T708	Noun_Phrase 17134 17143	wild type
 T709	Noun_Phrase 17177 17200	potential modifier loci
-T710	Noun_Phrase 17236 17238;	B6
-17247 17254	B6alleles
-T711	IDENTITY_chain 17236 17238;	B6
-17247 17254	B6alleles
+T710	Noun_Phrase 17236 17238;17247 17254	B6 alleles
+T711	IDENTITY_chain 17236 17238;17247 17254	B6 alleles
 T712	Noun_Phrase 17236 17254	B6 and 129 alleles
 T713	IDENTITY_chain 17236 17254	B6 and 129 alleles
 T714	IDENTITY_chain 17243 17254	129 alleles
@@ -788,23 +744,20 @@ T742	Noun_Phrase 18231 18236	chr.1
 T743	Noun_Phrase 18250 18257	11 mice
 T744	IDENTITY_chain 18250 18257	11 mice
 T745	Noun_Phrase 18262 18285	both B6 and 129 alleles
-T746	Noun_Phrase 18267 18269;	B6
-18278 18285	B6alleles
+T746	Noun_Phrase 18267 18269;18278 18285	B6 alleles
 T747	Noun_Phrase 18274 18285	129 alleles
 T748	Noun_Phrase 18288 18293	chr.9
 T749	Noun_Phrase 18301 18312	all 11 mice
 T750	Noun_Phrase 18339 18345	chr.10
 T751	Noun_Phrase 18366 18389	both B6 and 129 alleles
-T752	Noun_Phrase 18371 18373;	B6
-18382 18389	B6alleles
+T752	Noun_Phrase 18371 18373;18382 18389	B6 alleles
 T753	Noun_Phrase 18378 18389	129 alleles
 T754	Noun_Phrase 18393 18400	Table 3
 T755	Noun_Phrase 18430 18432	CF
 T756	Noun_Phrase 18430 18461	CF mice on the mixed background
 T757	Noun_Phrase 18441 18461	the mixed background
 T758	Noun_Phrase 18464 18473	The table
-T759	Noun_Phrase 18500 18502;	B6
-18511 18518	B6alleles
+T759	Noun_Phrase 18500 18502;18511 18518	B6 alleles
 T760	Noun_Phrase 18500 18518	B6 and 129 alleles
 T761	Noun_Phrase 18507 18518	129 alleles
 T762	Noun_Phrase 18522 18559	mice from the two genetic backgrounds
@@ -862,10 +815,8 @@ T813	Noun_Phrase 20579 20584	Icam1
 T814	IDENTITY_chain 20579 20584	Icam1
 T815	Noun_Phrase 20586 20591	chr.9
 T816	Noun_Phrase 20649 20665	inflamed tissues
-T817	Noun_Phrase 20672 20676;	Kitl
-20693 20778	Kitlwhich is also known as stem cell factor, and is crucial for mast cell differentiation
-T818	IDENTITY_chain 20672 20676;	Kitl
-20693 20778	Kitlwhich is also known as stem cell factor, and is crucial for mast cell differentiation
+T817	Noun_Phrase 20672 20676;20693 20778	Kitl which is also known as stem cell factor, and is crucial for mast cell differentiation
+T818	IDENTITY_chain 20672 20676;20693 20778	Kitl which is also known as stem cell factor, and is crucial for mast cell differentiation
 T819	Noun_Phrase 20678 20684	chr.10
 T820	Noun_Phrase 20753 20762	mast cell
 T821	Noun_Phrase 20753 20778	mast cell differentiation
@@ -926,8 +877,7 @@ T875	Noun_Phrase 21919 21932	The Kitl gene
 T876	Noun_Phrase 21948 21977	differentiation of mast cells
 T877	Noun_Phrase 21967 21977	mast cells
 T878	Noun_Phrase 21983 21985	CF
-T879	Noun_Phrase 21983 21990;	CF mice
-22054 22074	CF miceon the B6 background
+T879	Noun_Phrase 21983 21990;22054 22074	CF mice on the B6 background
 T880	Noun_Phrase 21983 22014	CF mice on the mixed background
 T881	Noun_Phrase 21994 22014	the mixed background
 T882	Noun_Phrase 22057 22074	the B6 background
@@ -963,10 +913,8 @@ T911	Noun_Phrase 22828 22837	This work
 T912	Noun_Phrase 22856 22885	the CF inflammatory phenotype
 T913	Noun_Phrase 22909 22957	mice with a small contribution of 129/Sv alleles
 T914	Noun_Phrase 22993 23082	regions on chr.1, 9, and 10 are that are potentially associated with the milder phenotype
-T915	Noun_Phrase 23004 23008;	chr.
-23011 23012	chr.9
-T916	Noun_Phrase 23004 23008;	chr.
-23018 23020	chr.10
+T915	Noun_Phrase 23004 23008;23011 23012	chr. 9
+T916	Noun_Phrase 23004 23008;23018 23020	chr. 10
 T917	Noun_Phrase 23004 23009	chr.1
 T918	Noun_Phrase 23004 23020	chr.1, 9, and 10
 T919	Noun_Phrase 23062 23082	the milder phenotype
@@ -976,21 +924,18 @@ T922	Noun_Phrase 23183 23188	mucus
 T923	Noun_Phrase 23213 23311	the identified regions which are involved in mast cell and neutrophil differentiation and behavior
 T924	IDENTITY_chain 23213 23311	the identified regions which are involved in mast cell and neutrophil differentiation and behavior
 T925	Noun_Phrase 23258 23267	mast cell
-T926	Noun_Phrase 23258 23267;	mast cell
-23283 23298	mast celldifferentiation
+T926	Noun_Phrase 23258 23267;23283 23298	mast cell differentiation
 T927	Noun_Phrase 23272 23282	neutrophil
 T928	Noun_Phrase 23406 23419	these regions
 T929	Nonreferential_pronoun 23439 23444	there
 T930	Noun_Phrase 23514 23541	the CF intestinal phenotype
-T931	Noun_Phrase 23574 23583;	Wild type
-23598 23639	Wild typemice on two different genetic backgrounds
+T931	Noun_Phrase 23574 23583;23598 23639	Wild type mice on two different genetic backgrounds
 T932	Noun_Phrase 23574 23639	Wild type and Cftr null mice on two different genetic backgrounds
 T933	Noun_Phrase 23588 23592	Cftr
 T934	Noun_Phrase 23588 23639	Cftr null mice on two different genetic backgrounds
 T935	Noun_Phrase 23606 23639	two different genetic backgrounds
 T936	Noun_Phrase 23653 23663	this study
-T937	Noun_Phrase 23691 23702;	the C57Bl/6
-23708 23718	the C57Bl/6background
+T937	Noun_Phrase 23691 23702;23708 23718	the C57Bl/6 background
 T938	Noun_Phrase 23773 23821	a mixed background of about 95% B6 and 5% 129/Sv
 T939	IDENTITY_chain 23773 23821	a mixed background of about 95% B6 and 5% 129/Sv
 T940	Noun_Phrase 23829 23861	The mice on the mixed background
@@ -1021,8 +966,7 @@ T964	Noun_Phrase 24828 24836	Peptamen
 T965	Noun_Phrase 24865 24892	Mice with apparent distress
 T966	Noun_Phrase 24875 24892	apparent distress
 T967	Noun_Phrase 24925 24929	chow
-T968	Noun_Phrase 24965 24969;	Male
-24981 24985	Malemice
+T968	Noun_Phrase 24965 24969;24981 24985	Male mice
 T969	Noun_Phrase 24965 24985	Male and female mice
 T970	Noun_Phrase 24974 24985	female mice
 T971	Noun_Phrase 25013 25016	age
@@ -1030,8 +974,7 @@ T972	Noun_Phrase 25018 25022	Mice
 T973	Noun_Phrase 25172 25190	Genetic background
 T974	Noun_Phrase 25237 25259	The Jackson Laboratory
 T975	IDENTITY_chain 25237 25259	The Jackson Laboratory
-T976	Noun_Phrase 25320 25327;	C57Bl/6
-25339 25346	C57Bl/6strains
+T976	Noun_Phrase 25320 25327;25339 25346	C57Bl/6 strains
 T977	Noun_Phrase 25404 25426	The Jackson Laboratory
 T978	Noun_Phrase 25529 25547	129 strain alleles
 T979	Noun_Phrase 25838 25868	Quantitative, real-time RT-PCR

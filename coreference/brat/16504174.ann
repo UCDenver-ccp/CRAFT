@@ -12,8 +12,7 @@ T10	Noun_Phrase 101 111	Background
 T11	IDENTITY_chain 101 111	Background
 T12	Noun_Phrase 113 146	Embryonic stem cell-specific gene
 T13	APPOS_relation 113 146	Embryonic stem cell-specific gene
-T14	Noun_Phrase 113 146;	Embryonic stem cell-specific gene
-153 154	Embryonic stem cell-specific gene1
+T14	Noun_Phrase 113 146;153 154	Embryonic stem cell-specific gene 1
 T15	Noun_Phrase 148 151	ESG
 T16	Noun_Phrase 231 244	early embryos
 T17	IDENTITY_chain 231 244	early embryos
@@ -21,10 +20,8 @@ T18	Noun_Phrase 246 256	germ cells
 T19	IDENTITY_chain 246 256	germ cells
 T20	Noun_Phrase 262 276	embryonic stem
 T21	APPOS_relation 262 276	embryonic stem
-T22	Noun_Phrase 262 276;	embryonic stem
-282 287	embryonic stemcells
-T23	IDENTITY_chain 262 276;	embryonic stem
-282 287	embryonic stemcells
+T22	Noun_Phrase 262 276;282 287	embryonic stem cells
+T23	IDENTITY_chain 262 276;282 287	embryonic stem cells
 T24	Noun_Phrase 278 280	ES
 T25	Noun_Phrase 317 383	genomic clones containing the mouse ESG1 gene and five pseudogenes
 T26	IDENTITY_chain 317 383	genomic clones containing the mouse ESG1 gene and five pseudogenes
@@ -88,24 +85,18 @@ T83	Noun_Phrase 1384 1434	blastocysts derived from heterozygous intercrosses
 T84	IDENTITY_chain 1384 1434	blastocysts derived from heterozygous intercrosses
 T85	Noun_Phrase 1409 1434	heterozygous intercrosses
 T86	IDENTITY_chain 1409 1434	heterozygous intercrosses
-T87	Noun_Phrase 1436 1449;	Northern blot
-1467 1475	Northern blotanalyses
-T88	IDENTITY_chain 1436 1449;	Northern blot
-1467 1475	Northern blotanalyses
+T87	Noun_Phrase 1436 1449;1467 1475	Northern blot analyses
+T88	IDENTITY_chain 1436 1449;1467 1475	Northern blot analyses
 T89	Noun_Phrase 1454 1475	western blot analyses
 T90	IDENTITY_chain 1454 1475	western blot analyses
 T91	Noun_Phrase 1486 1520	the absence of ESG1 in these cells
 T92	IDENTITY_chain 1486 1520	the absence of ESG1 in these cells
 T93	Noun_Phrase 1501 1505	ESG1
 T94	Noun_Phrase 1522 1536	These ES cells
-T95	Noun_Phrase 1550 1556;	normal
-1569 1582	normalproliferation
-T96	IDENTITY_chain 1550 1556;	normal
-1569 1582	normalproliferation
-T97	Noun_Phrase 1550 1556;	normal
-1588 1603	normaldifferentiation
-T98	IDENTITY_chain 1550 1556;	normal
-1588 1603	normaldifferentiation
+T95	Noun_Phrase 1550 1556;1569 1582	normal proliferation
+T96	IDENTITY_chain 1550 1556;1569 1582	normal proliferation
+T97	Noun_Phrase 1550 1556;1588 1603	normal differentiation
+T98	IDENTITY_chain 1550 1556;1588 1603	normal differentiation
 T99	Noun_Phrase 1550 1567	normal morphology
 T100	IDENTITY_chain 1550 1567	normal morphology
 T101	Noun_Phrase 1550 1603	normal morphology, proliferation, and differentiation
@@ -128,8 +119,7 @@ T117	Noun_Phrase 1845 1854	germcells
 T118	Noun_Phrase 1857 1867	Background
 T119	Noun_Phrase 1869 1883	Embryonic stem
 T120	APPOS_relation 1869 1883	Embryonic stem
-T121	Noun_Phrase 1869 1883;	Embryonic stem
-1889 1894	Embryonic stemcells
+T121	Noun_Phrase 1869 1883;1889 1894	Embryonic stem cells
 T122	Noun_Phrase 1885 1887	ES
 T123	Noun_Phrase 1919 1934	the blastocysts
 T124	IDENTITY_chain 1919 1934	the blastocysts
@@ -183,10 +173,8 @@ T171	Noun_Phrase 3453 3457	ESG1
 T172	Noun_Phrase 3507 3509	it
 T173	Noun_Phrase 3519 3527	ES cells
 T174	Noun_Phrase 3532 3536	mice
-T175	IDENTITY_chain 3614 3623;	the mouse
-3638 3655	the mouseseven pseudogenes
-T176	Noun_Phrase 3614 3623;	the mouse
-3638 3655	the mouseseven pseudogenes
+T175	IDENTITY_chain 3614 3623;3638 3655	the mouse seven pseudogenes
+T176	Noun_Phrase 3614 3623;3638 3655	the mouse seven pseudogenes
 T177	Noun_Phrase 3614 3633	the mouse ESG1 gene
 T178	Noun_Phrase 3618 3623	mouse
 T179	Noun_Phrase 3624 3628	ESG1
@@ -203,10 +191,8 @@ T189	Noun_Phrase 3870 3875	these
 T190	Noun_Phrase 3916 3920	ESG1
 T191	Noun_Phrase 3934 4002	The chromosomal localizations of the mouse ESG1 gene and pseudogenes
 T192	IDENTITY_chain 3934 4002	The chromosomal localizations of the mouse ESG1 gene and pseudogenes
-T193	IDENTITY_chain 3967 3981;	the mouse ESG1
-3991 4002	the mouse ESG1pseudogenes
-T194	Noun_Phrase 3967 3981;	the mouse ESG1
-3991 4002	the mouse ESG1pseudogenes
+T193	IDENTITY_chain 3967 3981;3991 4002	the mouse ESG1 pseudogenes
+T194	Noun_Phrase 3967 3981;3991 4002	the mouse ESG1 pseudogenes
 T195	Noun_Phrase 3967 3986	the mouse ESG1 gene
 T196	Noun_Phrase 3967 4002	the mouse ESG1 gene and pseudogenes
 T197	IDENTITY_chain 3967 4002	the mouse ESG1 gene and pseudogenes
@@ -225,16 +211,13 @@ T209	Noun_Phrase 4164 4178	gene targeting
 T210	Noun_Phrase 4192 4226	the physiological function of ESG1
 T211	Noun_Phrase 4222 4226	ESG1
 T212	Noun_Phrase 4229 4236	Results
-T213	Noun_Phrase 4253 4277;	Chromosomal localization
-4293 4326	Chromosomal localizationof mouse ESG1 gene and psedogenes
+T213	Noun_Phrase 4253 4277;4293 4326	Chromosomal localization of mouse ESG1 gene and psedogenes
 T214	Noun_Phrase 4296 4301	mouse
-T215	Noun_Phrase 4296 4306;	mouse ESG1
-4316 4326	mouse ESG1psedogenes
+T215	Noun_Phrase 4296 4306;4316 4326	mouse ESG1 psedogenes
 T216	Noun_Phrase 4296 4311	mouse ESG1 gene
 T217	Noun_Phrase 4302 4306	ESG1
 T218	Noun_Phrase 4341 4409	the chromosomal localizations of the mouse ESG1 gene and pseudogenes
-T219	Noun_Phrase 4374 4388;	the mouse ESG1
-4398 4409	the mouse ESG1pseudogenes
+T219	Noun_Phrase 4374 4388;4398 4409	the mouse ESG1 pseudogenes
 T220	Noun_Phrase 4374 4393	the mouse ESG1 gene
 T221	Noun_Phrase 4374 4409	the mouse ESG1 gene and pseudogenes
 T222	Noun_Phrase 4378 4383	mouse
@@ -335,16 +318,14 @@ T316	Noun_Phrase 6848 6858	pseudogene
 T317	APPOS_relation 6848 6858	pseudogene
 T318	Noun_Phrase 6860 6862	PS
 T319	Noun_Phrase 6865 6866	A
-T320	Noun_Phrase 6884 6887;	the
-6897 6899	thePS
+T320	Noun_Phrase 6884 6887;6897 6899	the PS
 T321	Noun_Phrase 6884 6892	the gene
 T322	IDENTITY_chain 6884 6899	the gene and PS
 T323	Noun_Phrase 6884 6899	the gene and PS
 T324	Noun_Phrase 6903 6915	chromosome 9
 T325	Noun_Phrase 6917 6918	B
 T326	IDENTITY_chain 6917 6918	B
-T327	Noun_Phrase 6943 6946;	the
-6956 6958	thePS
+T327	Noun_Phrase 6943 6946;6956 6958	the PS
 T328	Noun_Phrase 6943 6951	the gene
 T329	Noun_Phrase 6943 6958	the gene and PS
 T330	Noun_Phrase 6973 6978	these
@@ -353,16 +334,14 @@ T332	IDENTITY_chain 7046 7081	675 bp downstream of the third exon
 T333	Noun_Phrase 7083 7105	Substitution mutations
 T334	Noun_Phrase 7123 7134	black lines
 T335	Noun_Phrase 7185 7193	Figure 3
-T336	Noun_Phrase 7225 7228;	the
-7243 7253	thepseudogene
+T336	Noun_Phrase 7225 7228;7243 7253	the pseudogene
 T337	Noun_Phrase 7225 7238	the ESG1 gene
 T338	Noun_Phrase 7225 7253	the ESG1 gene and pseudogene
 T339	Noun_Phrase 7229 7233	ESG1
 T340	Noun_Phrase 7272 7278	~6 kbp
 T341	IDENTITY_chain 7272 7278	~6 kbp
 T342	Noun_Phrase 7293 7328	the 5' flanking regions of the gene
-T343	Noun_Phrase 7320 7323;	the
-7333 7335	thePS
+T343	Noun_Phrase 7320 7323;7333 7335	the PS
 T344	Noun_Phrase 7320 7328	the gene
 T345	Noun_Phrase 7320 7335	the gene and PS
 T346	Noun_Phrase 7388 7390	We
@@ -372,10 +351,8 @@ T349	Noun_Phrase 7656 7674	the two BAC clones
 T350	Noun_Phrase 7685 7711	another ESG1-like sequence
 T351	Noun_Phrase 7713 7722	Figure 2A
 T352	Noun_Phrase 7825 7847	The ESG1-like sequence
-T353	Noun_Phrase 7887 7896;	the exons
-7909 7925	the exonsof the ESG1 gene
-T354	IDENTITY_chain 7887 7896;	the exons
-7909 7925	the exonsof the ESG1 gene
+T353	Noun_Phrase 7887 7896;7909 7925	the exons of the ESG1 gene
+T354	IDENTITY_chain 7887 7896;7909 7925	the exons of the ESG1 gene
 T355	Noun_Phrase 7912 7925	the ESG1 gene
 T356	Noun_Phrase 7916 7920	ESG1
 T357	Noun_Phrase 7927 7940	This sequence
@@ -420,10 +397,8 @@ T395	Noun_Phrase 8871 8895	homologous recombination
 T396	Noun_Phrase 8899 8904	mouse
 T397	Noun_Phrase 8899 8913	mouse ES cells
 T398	Noun_Phrase 8915 8917	We
-T399	Noun_Phrase 8967 8970;	the
-8995 9016	the?-galactosidase genes
-T400	APPOS_relation 8967 8970;	the
-8995 9016	the?-galactosidase genes
+T399	Noun_Phrase 8967 8970;8995 9016	the ?-galactosidase genes
+T400	APPOS_relation 8967 8970;8995 9016	the ?-galactosidase genes
 T401	Noun_Phrase 9018 9023	?-geo
 T402	Noun_Phrase 9028 9057	the hygromycin resistant gene
 T403	APPOS_relation 9028 9057	the hygromycin resistant gene
@@ -509,8 +484,7 @@ T482	Noun_Phrase 10361 10365	HygR
 T483	Noun_Phrase 10361 10387	HygR heterozygous ES cells
 T484	Noun_Phrase 10451 10455	ESG1
 T485	Noun_Phrase 10451 10464	ESG1 deletion
-T486	Noun_Phrase 10466 10479;	Northern blot
-10497 10505	Northern blotanalyses
+T486	Noun_Phrase 10466 10479;10497 10505	Northern blot analyses
 T487	Noun_Phrase 10484 10505	western blot analyses
 T488	Noun_Phrase 10516 10550	the absence of ESG1 in these cells
 T489	Noun_Phrase 10531 10535	ESG1
@@ -529,10 +503,8 @@ T501	Noun_Phrase 10781 10798	normal morphology
 T502	Noun_Phrase 10800 10809	Figure 5A
 T503	IDENTITY_chain 10800 10809	Figure 5A
 T504	Noun_Phrase 10812 10823	These cells
-T505	Noun_Phrase 10875 10886;	the control
-10916 10921	the controlcells
-T506	APPOS_relation 10875 10886;	the control
-10916 10921	the controlcells
+T505	Noun_Phrase 10875 10886;10916 10921	the control cells
+T506	APPOS_relation 10875 10886;10916 10921	the control cells
 T507	Noun_Phrase 10888 10914	heterozygous and wild-type
 T508	Noun_Phrase 10923 10932	Figure 5B
 T509	IDENTITY_chain 10923 10932	Figure 5B
@@ -551,10 +523,8 @@ T521	Noun_Phrase 11154 11207	tumors containing components of all three germ laye
 T522	Noun_Phrase 11209 11218	Figure 5C
 T523	IDENTITY_chain 11209 11218	Figure 5C
 T524	Noun_Phrase 11249 11253	ESG1
-T525	Noun_Phrase 11273 11276;	the
-11305 11317	thepluripotency
-T526	Noun_Phrase 11273 11300;	the self-renewal properties
-11318 11329	the self-renewal propertiesof ES cells
+T525	Noun_Phrase 11273 11276;11305 11317	the pluripotency
+T526	Noun_Phrase 11273 11300;11318 11329	the self-renewal properties of ES cells
 T527	Noun_Phrase 11321 11329	ES cells
 T528	Noun_Phrase 11354 11372	ESG1-null ES cells
 T529	Noun_Phrase 11374 11375	A
@@ -562,26 +532,19 @@ T530	Noun_Phrase 11395 11412	ESG1-null ES cell
 T531	Noun_Phrase 11431 11447	STO feeder cells
 T532	IDENTITY_chain 11431 11447	STO feeder cells
 T533	Noun_Phrase 11449 11450	B
-T534	Noun_Phrase 11468 11477;	wild-type
-11523 11531	wild-typeES cells
-T535	APPOS_relation 11468 11477;	wild-type
-11523 11531	wild-typeES cells
+T534	Noun_Phrase 11468 11477;11523 11531	wild-type ES cells
+T535	APPOS_relation 11468 11477;11523 11531	wild-type ES cells
 T536	Noun_Phrase 11479 11481	WT
-T537	Noun_Phrase 11484 11493;	ESG1-null
-11523 11531	ESG1-nullES cells
-T538	APPOS_relation 11484 11493;	ESG1-null
-11523 11531	ESG1-nullES cells
+T537	Noun_Phrase 11484 11493;11523 11531	ESG1-null ES cells
+T538	APPOS_relation 11484 11493;11523 11531	ESG1-null ES cells
 T539	Noun_Phrase 11495 11498	-/-
-T540	Noun_Phrase 11504 11516;	heterozygous
-11523 11531	heterozygousES cells
-T541	APPOS_relation 11504 11516;	heterozygous
-11523 11531	heterozygousES cells
+T540	Noun_Phrase 11504 11516;11523 11531	heterozygous ES cells
+T541	APPOS_relation 11504 11516;11523 11531	heterozygous ES cells
 T542	Noun_Phrase 11518 11521	+/-
 T543	Noun_Phrase 11595 11599	Cell
 T544	Noun_Phrase 11660 11666	6 days
 T545	IDENTITY_chain 11660 11666	6 days
-T546	Noun_Phrase 11676 11679;	+/-
-11688 11693	+/-cells
+T546	Noun_Phrase 11676 11679;11688 11693	+/- cells
 T547	Noun_Phrase 11769 11770	C
 T548	Noun_Phrase 11785 11793	teratoma
 T549	Noun_Phrase 11807 11825	ESG1-null ES cells
@@ -647,8 +610,7 @@ T608	IDENTITY_chain 13013 13035	two independent clones
 T609	Noun_Phrase 13047 13048	B
 T610	Noun_Phrase 13050 13071	Western blot analyses
 T611	Noun_Phrase 13073 13077	Cell
-T612	Noun_Phrase 13091 13098;	ESG1+/-
-13111 13116	ESG1+/-cells
+T612	Noun_Phrase 13091 13098;13111 13116	ESG1+/- cells
 T613	Noun_Phrase 13103 13111	ESG1-/- 
 T614	Noun_Phrase 13103 13116	ESG1-/- cells
 T615	Noun_Phrase 13149 13153	ESG1
@@ -691,10 +653,8 @@ T651	Noun_Phrase 13889 13896	ES cell
 T652	Noun_Phrase 13916 13926	two clones
 T653	Noun_Phrase 13932 13939	ESG1-/-
 T654	Noun_Phrase 13941 13965	These ESG1-null ES cells
-T655	Noun_Phrase 13979 13985;	normal
-13998 14011	normalproliferation
-T656	Noun_Phrase 13979 13985;	normal
-14017 14032	normaldifferentiation
+T655	Noun_Phrase 13979 13985;13998 14011	normal proliferation
+T656	Noun_Phrase 13979 13985;14017 14032	normal differentiation
 T657	Noun_Phrase 13979 13996	normal morphology
 T658	Noun_Phrase 13979 14032	normal morphology, proliferation, and differentiation
 T659	Noun_Phrase 14034 14043	not shown
@@ -731,70 +691,41 @@ T689	Noun_Phrase 14518 14523	mouse
 T690	Noun_Phrase 14524 14528	ESG1
 T691	Noun_Phrase 14547 14578	bacterial artificial chromosome
 T692	APPOS_relation 14547 14578	bacterial artificial chromosome
-T693	Noun_Phrase 14547 14578;	bacterial artificial chromosome
-14585 14618	bacterial artificial chromosomeclones containing mouse ESG1 gene
+T693	Noun_Phrase 14547 14578;14585 14618	bacterial artificial chromosome clones containing mouse ESG1 gene
 T694	Noun_Phrase 14580 14583	BAC
 T695	Noun_Phrase 14603 14608	mouse
 T696	Noun_Phrase 14603 14618	mouse ESG1 gene
 T697	Noun_Phrase 14609 14613	ESG1
 T698	Noun_Phrase 14620 14622	we
 T699	Noun_Phrase 14656 14661	mouse
-T700	Noun_Phrase 14710 14713;	the
-14757 14766;	thepH34-L394
-14796 14803	thepH34-L394primers
-T701	APPOS_relation 14710 14713;	the
-14757 14766;	thepH34-L394
-14796 14803	thepH34-L394primers
-T702	Noun_Phrase 14710 14722;	the pH34-u38
-14796 14803	the pH34-u38primers
-T703	APPOS_relation 14710 14722;	the pH34-u38
-14796 14803	the pH34-u38primers
+T700	Noun_Phrase 14710 14713;14757 14766;14796 14803	the pH34-L394 primers
+T701	APPOS_relation 14710 14713;14757 14766;14796 14803	the pH34-L394 primers
+T702	Noun_Phrase 14710 14722;14796 14803	the pH34-u38 primers
+T703	APPOS_relation 14710 14722;14796 14803	the pH34-u38 primers
 T704	Noun_Phrase 14724 14751	5'-GAAGTCTGGTTCCTTGGCAGG-3'
-T705	IDENTITY_chain 14757 14766;	pH34-L394
-14796 14803	pH34-L394primers
+T705	IDENTITY_chain 14757 14766;14796 14803	pH34-L394 primers
 T706	Noun_Phrase 14768 14794	5'-ACTCGATACACTGGCCTAGC-3'
 T707	Noun_Phrase 14845 14847	we
 T708	Noun_Phrase 14884 14894	BAC clones
-T709	Noun_Phrase 14919 14932;	the pH34-U258
-14973 14981;	the pH34-U258pH34-U65
-15012 15025;	the pH34-U258pH34-U65pH34-intron1L
-15062 15071;	the pH34-U258pH34-U65pH34-intron1LpH34-L545
-15109 15118;	the pH34-U258pH34-U65pH34-intron1LpH34-L545pH34-SCL1
-15153 15159	the pH34-U258pH34-U65pH34-intron1LpH34-L545pH34-SCL1probes
-T710	IDENTITY_chain 14919 14932;	the pH34-U258
-14973 14981;	the pH34-U258pH34-U65
-15012 15025;	the pH34-U258pH34-U65pH34-intron1L
-15062 15071;	the pH34-U258pH34-U65pH34-intron1LpH34-L545
-15109 15118;	the pH34-U258pH34-U65pH34-intron1LpH34-L545pH34-SCL1
-15153 15159	the pH34-U258pH34-U65pH34-intron1LpH34-L545pH34-SCL1probes
-T711	Noun_Phrase 14919 14932;	the pH34-U258
-15153 15159	the pH34-U258probes
-T712	APPOS_relation 14919 14932;	the pH34-U258
-15153 15159	the pH34-U258probes
+T709	Noun_Phrase 14919 14932;14973 14981;15012 15025;15062 15071;15109 15118;15153 15159	the pH34-U258 pH34-U65 pH34-intron1L pH34-L545 pH34-SCL1 probes
+T710	IDENTITY_chain 14919 14932;14973 14981;15012 15025;15062 15071;15109 15118;15153 15159	the pH34-U258 pH34-U65 pH34-intron1L pH34-L545 pH34-SCL1 probes
+T711	Noun_Phrase 14919 14932;15153 15159	the pH34-U258 probes
+T712	APPOS_relation 14919 14932;15153 15159	the pH34-U258 probes
 T713	Noun_Phrase 14934 14970	5'-CTCGAGTGTACAGTCAAGTGGTTGCTGGGA-3'
-T714	Noun_Phrase 14973 14981;	pH34-U65
-15153 15159	pH34-U65probes
-T715	APPOS_relation 14973 14981;	pH34-U65
-15153 15159	pH34-U65probes
+T714	Noun_Phrase 14973 14981;15153 15159	pH34-U65 probes
+T715	APPOS_relation 14973 14981;15153 15159	pH34-U65 probes
 T716	Noun_Phrase 14983 15009	5'-GTGACCCTCGTGACCCGTAA-3'
-T717	Noun_Phrase 15012 15025;	pH34-intron1L
-15153 15159	pH34-intron1Lprobes
-T718	APPOS_relation 15012 15025;	pH34-intron1L
-15153 15159	pH34-intron1Lprobes
+T717	Noun_Phrase 15012 15025;15153 15159	pH34-intron1L probes
+T718	APPOS_relation 15012 15025;15153 15159	pH34-intron1L probes
 T719	Noun_Phrase 15027 15059	5'-CTGCGTGAGAGAAACACCAAACAGGC-3'
-T720	Noun_Phrase 15062 15071;	pH34-L545
-15153 15159	pH34-L545probes
-T721	APPOS_relation 15062 15071;	pH34-L545
-15153 15159	pH34-L545probes
+T720	Noun_Phrase 15062 15071;15153 15159	pH34-L545 probes
+T721	APPOS_relation 15062 15071;15153 15159	pH34-L545 probes
 T722	Noun_Phrase 15073 15103	5'-TGTGAATGGGAAGGTTACCACTCT-3'
-T723	Noun_Phrase 15109 15118;	pH34-SCL1
-15153 15159	pH34-SCL1probes
-T724	APPOS_relation 15109 15118;	pH34-SCL1
-15153 15159	pH34-SCL1probes
+T723	Noun_Phrase 15109 15118;15153 15159	pH34-SCL1 probes
+T724	APPOS_relation 15109 15118;15153 15159	pH34-SCL1 probes
 T725	Noun_Phrase 15120 15151	5'-GCCCTCTTCTGGTTTGTCTCGAAAT-3'
 T726	Noun_Phrase 15180 15192	these probes
-T727	Noun_Phrase 15226 15229;	the
-15243 15254	thepseudogenes
+T727	Noun_Phrase 15226 15229;15243 15254	the pseudogenes
 T728	Noun_Phrase 15226 15239	the ESG1 gene
 T729	Noun_Phrase 15230 15234	ESG1
 T730	Noun_Phrase 15291 15310	the mouse ESG1 gene
@@ -822,12 +753,9 @@ T751	Noun_Phrase 15799 15803	ESG1
 T752	Noun_Phrase 15813 15836	the related pseudogenes
 T753	Noun_Phrase 15838 15840	we
 T754	Noun_Phrase 15865 15875	Invitrogen
-T755	Noun_Phrase 15882 15885;	the
-15938 15955	thepH34-L394 primers
-T756	Noun_Phrase 15882 15894;	the pH34-T2L
-15948 15955	the pH34-T2Lprimers
-T757	APPOS_relation 15882 15894;	the pH34-T2L
-15948 15955	the pH34-T2Lprimers
+T755	Noun_Phrase 15882 15885;15938 15955	the pH34-L394 primers
+T756	Noun_Phrase 15882 15894;15948 15955	the pH34-T2L primers
+T757	APPOS_relation 15882 15894;15948 15955	the pH34-T2L primers
 T758	Noun_Phrase 15896 15932	5'-ACTAGTCGCAGCAGGGATCCAGGAATATCT-3'
 T759	Noun_Phrase 15996 16002	pCR2.1
 T760	IDENTITY_chain 15996 16002	pCR2.1
@@ -853,44 +781,28 @@ T779	Noun_Phrase 16438 16460	ESG1 targeting vectors
 T780	Noun_Phrase 16462 16464	We
 T781	Noun_Phrase 16481 16495	the ESG1 exons
 T782	Noun_Phrase 16485 16489	ESG1
-T783	Noun_Phrase 16501 16563;	two targeting vectors containing either an IRES-?-geo cassette
-16569 16620	two targeting vectors containing either an IRES-?-geo cassetteor an IRES-HygR cassette by promoter trap selection
+T783	Noun_Phrase 16501 16563;16569 16620	two targeting vectors containing either an IRES-?-geo cassette or an IRES-HygR cassette by promoter trap selection
 T784	Noun_Phrase 16541 16563	an IRES-?-geo cassette
 T785	IDENTITY_chain 16541 16563	an IRES-?-geo cassette
 T786	Noun_Phrase 16572 16593	an IRES-HygR cassette
 T787	IDENTITY_chain 16572 16593	an IRES-HygR cassette
 T788	Noun_Phrase 16622 16624	We
-T789	Noun_Phrase 16685 16688;	the
-16747 16765;	thepH34-targetpair5-L
-16805 16812	thepH34-targetpair5-Lprimers
-T790	APPOS_relation 16685 16688;	the
-16747 16765;	thepH34-targetpair5-L
-16805 16812	thepH34-targetpair5-Lprimers
-T791	Noun_Phrase 16685 16707;	the pH34-targetpair5-U
-16805 16812;	the pH34-targetpair5-Uprimers
-16971 16978	the pH34-targetpair5-Uprimersprimers
-T792	APPOS_relation 16685 16707;	the pH34-targetpair5-U
-16805 16812	the pH34-targetpair5-Uprimers
+T789	Noun_Phrase 16685 16688;16747 16765;16805 16812	the pH34-targetpair5-L primers
+T790	APPOS_relation 16685 16688;16747 16765;16805 16812	the pH34-targetpair5-L primers
+T791	Noun_Phrase 16685 16707;16805 16812;16971 16978	the pH34-targetpair5-U primers primers
+T792	APPOS_relation 16685 16707;16805 16812	the pH34-targetpair5-U primers
 T793	Noun_Phrase 16709 16741	5'-CCGCGGAAAGTCAAGAGATTGGGTGG-3'
 T794	Noun_Phrase 16767 16803	5'-GCGGCCGCCTTTACGGGTCACGAGGGTCAC-3'
 T795	Noun_Phrase 16814 16824	The 3' arm
 T796	IDENTITY_chain 16814 16824	The 3' arm
-T797	Noun_Phrase 16855 16858;	the
-16917 16935;	thepH34-targetpair3-L
-16971 16978	thepH34-targetpair3-Lprimers
-T798	APPOS_relation 16855 16858;	the
-16917 16935;	thepH34-targetpair3-L
-16971 16978	thepH34-targetpair3-Lprimers
-T799	Noun_Phrase 16855 16877;	the pH34-targetpair3-U
-16971 16978	the pH34-targetpair3-Uprimers
-T800	APPOS_relation 16855 16877;	the pH34-targetpair3-U
-16971 16978	the pH34-targetpair3-Uprimers
+T797	Noun_Phrase 16855 16858;16917 16935;16971 16978	the pH34-targetpair3-L primers
+T798	APPOS_relation 16855 16858;16917 16935;16971 16978	the pH34-targetpair3-L primers
+T799	Noun_Phrase 16855 16877;16971 16978	the pH34-targetpair3-U primers
+T800	APPOS_relation 16855 16877;16971 16978	the pH34-targetpair3-U primers
 T801	Noun_Phrase 16879 16911	5'-TGTGGCCAGTGTTTGGTTCTGGCGGG-3'
 T802	Noun_Phrase 16937 16969	5'-CTCGAGGACTCGCCATTCTAGCCAAG-3'
-T803	Noun_Phrase 16980 16983;	The
-16998 17017	TheIRES HygR cassettes
-T804	Noun_Phrase 16980 16994;	The IRES ?-geo
-17008 17017	The IRES ?-geocassettes
+T803	Noun_Phrase 16980 16983;16998 17017	The IRES HygR cassettes
+T804	Noun_Phrase 16980 16994;17008 17017	The IRES ?-geo cassettes
 T805	Noun_Phrase 17050 17053	PCR
 T806	Noun_Phrase 17069 17087	diphtheria toxin A
 T807	Noun_Phrase 17122 17132	the 3' arm
@@ -905,10 +817,8 @@ T815	Noun_Phrase 17662 17673	genomic DNA
 T816	Noun_Phrase 17698 17702	PstI
 T817	Noun_Phrase 17797 17814	A 560 bp 5' probe
 T818	IDENTITY_chain 17797 17814	A 560 bp 5' probe
-T819	Noun_Phrase 17835 17838;	the
-17882 17889	theESG1AS5
-T820	APPOS_relation 17835 17838;	the
-17882 17889	theESG1AS5
+T819	Noun_Phrase 17835 17838;17882 17889	the ESG1AS5
+T820	APPOS_relation 17835 17838;17882 17889	the ESG1AS5
 T821	Noun_Phrase 17835 17845	the ESG1S5
 T822	APPOS_relation 17835 17845	the ESG1S5
 T823	Noun_Phrase 17847 17875	5'- GATGGTGGTGGTGACTCAGAG -3
@@ -926,16 +836,10 @@ T834	Noun_Phrase 18081 18092	Genomic DNA
 T835	Noun_Phrase 18116 18120	SpeI
 T836	Noun_Phrase 18152 18171	A 1,010 bp 3' probe
 T837	IDENTITY_chain 18152 18171	A 1,010 bp 3' probe
-T838	Noun_Phrase 18191 18194;	the
-18245 18255;	thepH34L-9000
-18290 18297	thepH34L-9000primers
-T839	APPOS_relation 18191 18194;	the
-18245 18255;	thepH34L-9000
-18290 18297	thepH34L-9000primers
-T840	Noun_Phrase 18191 18205;	the pH34U-8000
-18290 18297	the pH34U-8000primers
-T841	APPOS_relation 18191 18205;	the pH34U-8000
-18290 18297	the pH34U-8000primers
+T838	Noun_Phrase 18191 18194;18245 18255;18290 18297	the pH34L-9000 primers
+T839	APPOS_relation 18191 18194;18245 18255;18290 18297	the pH34L-9000 primers
+T840	Noun_Phrase 18191 18205;18290 18297	the pH34U-8000 primers
+T841	APPOS_relation 18191 18205;18290 18297	the pH34U-8000 primers
 T842	Noun_Phrase 18207 18239	5'- CCAACCAGCCAGAGTTTCAGTTAT -3'
 T843	Noun_Phrase 18257 18288	5'-GATAAGCTGCTGCCAAAAGACAAG -3'
 T844	Noun_Phrase 18299 18308	The probe
@@ -948,16 +852,10 @@ T850	Noun_Phrase 18459 18490	anti-ESG1 polyclonal antibodies
 T851	IDENTITY_chain 18459 18490	anti-ESG1 polyclonal antibodies
 T852	Noun_Phrase 18515 18519	Esg1
 T853	Noun_Phrase 18537 18540	PCR
-T854	Noun_Phrase 18546 18549;	the
-18607 18617;	thepH34-gw-as
-18660 18667	thepH34-gw-asprimers
-T855	APPOS_relation 18546 18549;	the
-18607 18617;	thepH34-gw-as
-18660 18667	thepH34-gw-asprimers
-T856	Noun_Phrase 18546 18559;	the pH34-gw-s
-18660 18667	the pH34-gw-sprimers
-T857	APPOS_relation 18546 18559;	the pH34-gw-s
-18660 18667	the pH34-gw-sprimers
+T854	Noun_Phrase 18546 18549;18607 18617;18660 18667	the pH34-gw-as primers
+T855	APPOS_relation 18546 18549;18607 18617;18660 18667	the pH34-gw-as primers
+T856	Noun_Phrase 18546 18559;18660 18667	the pH34-gw-s primers
+T857	APPOS_relation 18546 18559;18660 18667	the pH34-gw-s primers
 T858	Noun_Phrase 18561 18601	5'- AAAAAGCAGGCTGGATGATGGTGACCCTCGTGA-3'
 T859	Noun_Phrase 18619 18658	5'- AGAAAGCTGGGTCTGCATCCAGGTCGGAGACA-3'
 T860	Noun_Phrase 18682 18692	pDONR-pH34
@@ -1030,8 +928,7 @@ T926	Noun_Phrase 21511 21519	Authors'
 T927	Noun_Phrase 21576 21580	ESG1
 T928	Noun_Phrase 21576 21594	ESG1 knockout mice
 T929	Noun_Phrase 21610 21672	the chromosomal localizations of the ESG1 gene and pseudogenes
-T930	Noun_Phrase 21643 21646;	the
-21661 21672	thepseudogenes
+T930	Noun_Phrase 21643 21646;21661 21672	the pseudogenes
 T931	Noun_Phrase 21643 21656	the ESG1 gene
 T932	Noun_Phrase 21643 21672	the ESG1 gene and pseudogenes
 T933	Noun_Phrase 21647 21651	ESG1

@@ -82,10 +82,8 @@ T80	Noun_Phrase 1853 1859	repair
 T81	Noun_Phrase 1887 1890	DNA
 T82	IDENTITY_chain 1910 1914	Cell
 T83	Noun_Phrase 1910 1914	Cell
-T84	IDENTITY_chain 1910 1933;	Cell lines defective in
-1950 1955	Cell lines defective inBRCA2
-T85	Noun_Phrase 1910 1933;	Cell lines defective in
-1950 1955	Cell lines defective inBRCA2
+T84	IDENTITY_chain 1910 1933;1950 1955	Cell lines defective in BRCA2
+T85	Noun_Phrase 1910 1933;1950 1955	Cell lines defective in BRCA2
 T86	Noun_Phrase 1941 1946	BRCA1
 T87	Noun_Phrase 1950 1955	BRCA2
 T88	IDENTITY_chain 1999 2019	double-strand breaks

@@ -114,10 +114,8 @@ T112	Noun_Phrase 2062 2199	some 'immature' hair cells form in Brn3c null mutants
 T113	IDENTITY_chain 2062 2199	some 'immature' hair cells form in Brn3c null mutants and express cellular markers such as Myosin VI and VIIa, calretinin and parvalbumin
 T114	Noun_Phrase 2097 2102	Brn3c
 T115	Noun_Phrase 2097 2115	Brn3c null mutants
-T116	Noun_Phrase 2153 2159;	Myosin
-2167 2171	MyosinVIIa
-T117	IDENTITY_chain 2153 2159;	Myosin
-2167 2171	MyosinVIIa
+T116	Noun_Phrase 2153 2159;2167 2171	Myosin VIIa
+T117	IDENTITY_chain 2153 2159;2167 2171	Myosin VIIa
 T118	Noun_Phrase 2218 2265	these immature hair cells of Brn3c null mutants
 T119	Noun_Phrase 2247 2252	Brn3c
 T120	Noun_Phrase 2247 2265	Brn3c null mutants
@@ -150,8 +148,7 @@ T146	Noun_Phrase 2936 2948	neurotrophin
 T147	Noun_Phrase 2963 2974	these cells
 T148	Noun_Phrase 2986 3001	sensory neurons
 T149	Noun_Phrase 3010 3031	embryonic development
-T150	Noun_Phrase 3060 3066;	single
-3080 3105	singleneurotrophin null mutants
+T150	Noun_Phrase 3060 3066;3080 3105	single neurotrophin null mutants
 T151	Noun_Phrase 3080 3092	neurotrophin
 T152	Noun_Phrase 3167 3236	topologically restricted loss of sensory neurons in the embryonic ear
 T153	IDENTITY_chain 3167 3236	topologically restricted loss of sensory neurons in the embryonic ear
@@ -166,8 +163,7 @@ T161	Noun_Phrase 3447 3463	supporting cells
 T162	IDENTITY_chain 3447 3463	supporting cells
 T163	Noun_Phrase 3484 3489	birth
 T164	Noun_Phrase 3495 3505	hair cells
-T165	Noun_Phrase 3544 3554;	vestibular
-3579 3594	vestibularsensory neurons
+T165	Noun_Phrase 3544 3554;3579 3594	vestibular sensory neurons
 T166	Noun_Phrase 3570 3594	cochlear sensory neurons
 T167	IDENTITY_chain 3570 3594	cochlear sensory neurons
 T168	Noun_Phrase 3631 3635	NT-3
@@ -186,10 +182,8 @@ T180	Noun_Phrase 3991 4002	innervation
 T181	Noun_Phrase 4006 4023	the Brn3c mutants
 T182	IDENTITY_chain 4006 4023	the Brn3c mutants
 T183	Noun_Phrase 4010 4015	Brn3c
-T184	Noun_Phrase 4036 4053;	the expression of
-4063 4067	the expression ofBDNF
-T185	IDENTITY_chain 4036 4053;	the expression of
-4063 4067	the expression ofBDNF
+T184	Noun_Phrase 4036 4053;4063 4067	the expression of BDNF
+T185	IDENTITY_chain 4036 4053;4063 4067	the expression of BDNF
 T186	Noun_Phrase 4036 4058	the expression of NT-3
 T187	IDENTITY_chain 4036 4058	the expression of NT-3
 T188	Noun_Phrase 4036 4067	the expression of NT-3 and BDNF
@@ -242,10 +236,8 @@ T234	IDENTITY_chain 4952 4975	the Brn3c null mutation
 T235	Noun_Phrase 4956 4961	Brn3c
 T236	Noun_Phrase 4998 5007	inner ear
 T237	Noun_Phrase 5021 5023	we
-T238	Noun_Phrase 5061 5065;	BDNF
-5075 5089	BDNFnull mutations
-T239	IDENTITY_chain 5061 5065;	BDNF
-5075 5089	BDNFnull mutations
+T238	Noun_Phrase 5061 5065;5075 5089	BDNF null mutations
+T239	IDENTITY_chain 5061 5065;5075 5089	BDNF null mutations
 T240	Noun_Phrase 5061 5065	BDNF
 T241	Noun_Phrase 5061 5074	BDNF and NT-3
 T242	Noun_Phrase 5070 5074	NT-3
@@ -253,8 +245,7 @@ T243	Noun_Phrase 5070 5074	NT-3
 T244	Noun_Phrase 5070 5089	NT-3 null mutations
 T245	IDENTITY_chain 5070 5089	NT-3 null mutations
 T246	Noun_Phrase 5093 5098	birth
-T247	Noun_Phrase 5110 5125;	Null mutants of
-5134 5151	Null mutants ofits receptor trkB
+T247	Noun_Phrase 5110 5125;5134 5151	Null mutants of its receptor trkB
 T248	Noun_Phrase 5110 5130	Null mutants of BDNF
 T249	IDENTITY_chain 5110 5130	Null mutants of BDNF
 T250	Noun_Phrase 5110 5151	Null mutants of BDNF or its receptor trkB
@@ -270,8 +261,7 @@ T259	IDENTITY_chain 5247 5254	saccule
 T260	Noun_Phrase 5259 5285	apical turn of the cochlea
 T261	IDENTITY_chain 5259 5285	apical turn of the cochlea
 T262	Noun_Phrase 5274 5285	the cochlea
-T263	Noun_Phrase 5300 5317;	null mutations of
-5325 5329	null mutations ofNT-3
+T263	Noun_Phrase 5300 5317;5325 5329	null mutations of NT-3
 T264	Noun_Phrase 5325 5329	NT-3
 T265	Noun_Phrase 5333 5336	its
 T266	Noun_Phrase 5333 5350	its receptor trkC
@@ -315,8 +305,7 @@ T303	Noun_Phrase 5960 5998	quantitative data published previously
 T304	IDENTITY_chain 5960 5998	quantitative data published previously
 T305	Noun_Phrase 6007 6017	These data
 T306	Noun_Phrase 6046 6072	vestibular sensory neurons
-T307	Noun_Phrase 6076 6080;	BDNF
-6090 6102	BDNFnull mutants
+T307	Noun_Phrase 6076 6080;6090 6102	BDNF null mutants
 T308	Noun_Phrase 6076 6080	BDNF
 T309	Noun_Phrase 6076 6102	BDNF and trkB null mutants
 T310	Noun_Phrase 6085 6089	trkB
@@ -403,10 +392,8 @@ T390	Noun_Phrase 7034 7041	1000 ?m
 T391	IDENTITY_chain 7034 7041	1000 ?m
 T392	Noun_Phrase 7053 7075	the Brn3c null mutants
 T393	Noun_Phrase 7057 7062	Brn3c
-T394	Noun_Phrase 7107 7115;	afferent
-7129 7135	afferentfibers
-T395	IDENTITY_chain 7107 7115;	afferent
-7129 7135	afferentfibers
+T394	Noun_Phrase 7107 7115;7129 7135	afferent fibers
+T395	IDENTITY_chain 7107 7115;7129 7135	afferent fibers
 T396	Noun_Phrase 7120 7135	efferent fibers
 T397	IDENTITY_chain 7120 7135	efferent fibers
 T398	Noun_Phrase 7139 7171	all vestibular sensory epithelia
@@ -421,8 +408,7 @@ T406	Noun_Phrase 7261 7265	Fig.
 T407	Noun_Phrase 7261 7268	Fig. 2a
 T408	IDENTITY_chain 7261 7268	Fig. 2a
 T409	Noun_Phrase 7271 7318	a hallmark of both BDNF and trkB null mutations
-T410	Noun_Phrase 7290 7294;	BDNF
-7304 7318	BDNFnull mutations
+T410	Noun_Phrase 7290 7294;7304 7318	BDNF null mutations
 T411	Noun_Phrase 7290 7294	BDNF
 T412	Noun_Phrase 7299 7303	trkB
 T413	Noun_Phrase 7299 7318	trkB null mutations
@@ -449,8 +435,7 @@ T433	Noun_Phrase 7771 7777	Figure
 T434	Noun_Phrase 7771 7779	Figure 2
 T435	IDENTITY_chain 7771 7779	Figure 2
 T436	Noun_Phrase 7796 7801	Brn3c
-T437	Noun_Phrase 7796 7806;	Brn3c null
-7819 7823	Brn3c nullears
+T437	Noun_Phrase 7796 7806;7819 7823	Brn3c null ears
 T438	Noun_Phrase 7838 7850	newborn mice
 T439	IDENTITY_chain 7838 7850	newborn mice
 T440	Nonreferential_pronoun 7852 7857	There
@@ -490,10 +475,8 @@ T473	Noun_Phrase 8504 8512	our data
 T474	IDENTITY_chain 8504 8512	our data
 T475	Noun_Phrase 8584 8605	P0 Brn3c null mutants
 T476	Noun_Phrase 8587 8592	Brn3c
-T477	Noun_Phrase 8607 8611;	Fig.
-8615 8617	Fig.2d
-T478	IDENTITY_chain 8607 8611;	Fig.
-8615 8617	Fig.2d
+T477	Noun_Phrase 8607 8611;8615 8617	Fig. 2d
+T478	IDENTITY_chain 8607 8611;8615 8617	Fig. 2d
 T479	Noun_Phrase 8607 8611	Fig.
 T480	Noun_Phrase 8607 8614	Fig. 2c
 T481	IDENTITY_chain 8607 8614	Fig. 2c
@@ -567,10 +550,8 @@ T548	Noun_Phrase 10124 10126	P0
 T549	Noun_Phrase 10136 10145	afferents
 T550	Noun_Phrase 10172 10181	efferents
 T551	Noun_Phrase 10205 10216	the utricle
-T552	Noun_Phrase 10218 10222;	Fig.
-10226 10228	Fig.3b
-T553	IDENTITY_chain 10218 10222;	Fig.
-10226 10228	Fig.3b
+T552	Noun_Phrase 10218 10222;10226 10228	Fig. 3b
+T553	IDENTITY_chain 10218 10222;10226 10228	Fig. 3b
 T554	Noun_Phrase 10218 10222	Fig.
 T555	Noun_Phrase 10218 10225	Fig. 3a
 T556	IDENTITY_chain 10218 10225	Fig. 3a
@@ -589,8 +570,7 @@ T568	IDENTITY_chain 10471 10479	Figure 3
 T569	Noun_Phrase 10509 10516	the ear
 T570	Noun_Phrase 10551 10583	all vestibular sensory epithelia
 T571	Noun_Phrase 10606 10607	a
-T572	Noun_Phrase 10613 10621;	efferent
-10626 10637	efferentinnervation
+T572	Noun_Phrase 10613 10621;10626 10637	efferent innervation
 T573	Noun_Phrase 10623 10624	b
 T574	Nonreferential_pronoun 10639 10644	there
 T575	Noun_Phrase 10694 10709	efferent fibers
@@ -641,12 +621,9 @@ T619	IDENTITY_chain 11584 11632	the outer hair cell region in Brn3c null mutants
 T620	Noun_Phrase 11588 11603	outer hair cell
 T621	Noun_Phrase 11614 11619	Brn3c
 T622	Noun_Phrase 11614 11632	Brn3c null mutants
-T623	Noun_Phrase 11634 11639;	Figs.
-11643 11645	Figs.3e
-T624	IDENTITY_chain 11634 11639;	Figs.
-11643 11645	Figs.3e
-T625	Noun_Phrase 11634 11639;	Figs.
-11646 11648	Figs.3f
+T623	Noun_Phrase 11634 11639;11643 11645	Figs. 3e
+T624	IDENTITY_chain 11634 11639;11643 11645	Figs. 3e
+T625	Noun_Phrase 11634 11639;11646 11648	Figs. 3f
 T626	Noun_Phrase 11634 11639	Figs.
 T627	Noun_Phrase 11634 11642	Figs. 3d
 T628	IDENTITY_chain 11634 11642	Figs. 3d
@@ -659,8 +636,7 @@ T634	Noun_Phrase 11787 11828	focal spots around the habenula perforata
 T635	Noun_Phrase 11806 11828	the habenula perforata
 T636	IDENTITY_chain 11806 11828	the habenula perforata
 T637	Noun_Phrase 11830 11838	The apex
-T638	Noun_Phrase 11885 11889;	Fig.
-11893 11895	Fig.3g
+T638	Noun_Phrase 11885 11889;11893 11895	Fig. 3g
 T639	Noun_Phrase 11885 11889	Fig.
 T640	Noun_Phrase 11885 11892	Fig. 3f
 T641	Noun_Phrase 11913 11921	the base
@@ -674,8 +650,7 @@ T648	Noun_Phrase 12091 12166	the focal points where fibers appear to pass throug
 T649	IDENTITY_chain 12091 12166	the focal points where fibers appear to pass through the habenula perforata
 T650	Noun_Phrase 12114 12120	fibers
 T651	Noun_Phrase 12144 12166	the habenula perforata
-T652	Noun_Phrase 12168 12172;	Fig.
-12176 12178	Fig.3g
+T652	Noun_Phrase 12168 12172;12176 12178	Fig. 3g
 T653	Noun_Phrase 12168 12172	Fig.
 T654	Noun_Phrase 12168 12175	Fig. 3f
 T655	IDENTITY_chain 12168 12175	Fig. 3f
@@ -713,8 +688,7 @@ T686	Noun_Phrase 12905 12930	these immature hair cells
 T687	Noun_Phrase 12932 12944	Nerve fibers
 T688	IDENTITY_chain 12932 12944	Nerve fibers
 T689	Noun_Phrase 12990 12992	P0
-T690	Noun_Phrase 12990 12992;	P0
-13000 13018	P0Brn3c null mutants
+T690	Noun_Phrase 12990 12992;13000 13018	P0 Brn3c null mutants
 T691	Noun_Phrase 12997 13018	P8 Brn3c null mutants
 T692	IDENTITY_chain 12997 13018	P8 Brn3c null mutants
 T693	Noun_Phrase 13000 13005	Brn3c
@@ -725,8 +699,7 @@ T697	Noun_Phrase 13107 13124	Rosenthal's canal
 T698	Noun_Phrase 13140 13142	P8
 T699	Noun_Phrase 13140 13161	P8 Brn3c null mutants
 T700	Noun_Phrase 13143 13148	Brn3c
-T701	Noun_Phrase 13163 13167;	Fig.
-13171 13173	Fig.3g
+T701	Noun_Phrase 13163 13167;13171 13173	Fig. 3g
 T702	Noun_Phrase 13163 13167	Fig.
 T703	Noun_Phrase 13163 13170	Fig. 3d
 T704	Noun_Phrase 13176 13187	The cochlea
@@ -754,9 +727,7 @@ T725	IDENTITY_chain 13656 13664	Figure 4
 T726	Noun_Phrase 13686 13696	hair cells
 T727	Noun_Phrase 13716 13722	MyoVII
 T728	Noun_Phrase 13716 13742	MyoVII immunocytochemistry
-T729	Noun_Phrase 13894 13903;	7-day old
-13930 13937;	7-day oldcontrol
-13963 13971	7-day oldcontrolcochleae
+T729	Noun_Phrase 13894 13903;13930 13937;13963 13971	7-day old control cochleae
 T730	Noun_Phrase 13927 13928	h
 T731	IDENTITY_chain 13927 13928	h
 T732	Noun_Phrase 13939 13940	a
@@ -806,8 +777,7 @@ T775	Noun_Phrase 14545 14561	spiral capillary
 T776	APPOS_relation 14545 14561	spiral capillary
 T777	Noun_Phrase 14563 14564	C
 T778	Noun_Phrase 14572 14591	the tunnel of Corti
-T779	Noun_Phrase 14607 14612;	inner
-14623 14633	innerhair cells
+T779	Noun_Phrase 14607 14612;14623 14633	inner hair cells
 T780	Noun_Phrase 14617 14633	outer hair cells
 T781	Noun_Phrase 14637 14652	the P7 wildtype
 T782	IDENTITY_chain 14637 14652	the P7 wildtype
@@ -829,14 +799,10 @@ T797	Noun_Phrase 14997 15002	Table
 T798	Noun_Phrase 14997 15004	Table 1
 T799	IDENTITY_chain 14997 15004	Table 1
 T800	Noun_Phrase 15051 15053	P7
-T801	Noun_Phrase 15051 15053;	P7
-15067 15091	P7Brn3c mutant littermates
-T802	IDENTITY_chain 15051 15053;	P7
-15067 15091	P7Brn3c mutant littermates
-T803	Noun_Phrase 15051 15062;	P7 wildtype
-15080 15091	P7 wildtypelittermates
-T804	IDENTITY_chain 15051 15062;	P7 wildtype
-15080 15091	P7 wildtypelittermates
+T801	Noun_Phrase 15051 15053;15067 15091	P7 Brn3c mutant littermates
+T802	IDENTITY_chain 15051 15053;15067 15091	P7 Brn3c mutant littermates
+T803	Noun_Phrase 15051 15062;15080 15091	P7 wildtype littermates
+T804	IDENTITY_chain 15051 15062;15080 15091	P7 wildtype littermates
 T805	Noun_Phrase 15067 15072	Brn3c
 T806	Noun_Phrase 15113 15121	wildtype
 T807	Noun_Phrase 15126 15133	mutants
@@ -860,10 +826,8 @@ T824	Noun_Phrase 15790 15798	Figure 5
 T825	IDENTITY_chain 15790 15798	Figure 5
 T826	Noun_Phrase 15834 15849	sensory neurons
 T827	Noun_Phrase 15863 15873	hair cells
-T828	Noun_Phrase 15891 15900;	7-day old
-15914 15943	7-day oldBrn3c null mutant littermates
-T829	Noun_Phrase 15891 15909;	7-day old wildtype
-15932 15943	7-day old wildtypelittermates
+T828	Noun_Phrase 15891 15900;15914 15943	7-day old Brn3c null mutant littermates
+T829	Noun_Phrase 15891 15909;15932 15943	7-day old wildtype littermates
 T830	Noun_Phrase 15914 15919	Brn3c
 T831	Noun_Phrase 15973 15975	1%
 T832	Noun_Phrase 15979 16011	the cochlear immature hair cells
@@ -952,8 +916,7 @@ T914	Noun_Phrase 17784 17805	P8 Brn3c null mutants
 T915	Noun_Phrase 17787 17792	Brn3c
 T916	Nonreferential_pronoun 17816 17821	there
 T917	Noun_Phrase 17944 17964	the horizontal canal
-T918	Noun_Phrase 17966 17970;	Fig.
-17974 17976	Fig.7b
+T918	Noun_Phrase 17966 17970;17974 17976	Fig. 7b
 T919	Noun_Phrase 17966 17970	Fig.
 T920	Noun_Phrase 17966 17973	Fig. 7a
 T921	Noun_Phrase 18010 18021	the utricle
@@ -1046,8 +1009,7 @@ T1007	Noun_Phrase 19662 19701	the spatio-temporal loss of innervation
 T1008	IDENTITY_chain 19662 19701	the spatio-temporal loss of innervation
 T1009	Noun_Phrase 19690 19701	innervation
 T1010	Noun_Phrase 19749 19761	neurotrophin
-T1011	Noun_Phrase 19749 19761;	neurotrophin
-19788 19802	neurotrophinnull mutations
+T1011	Noun_Phrase 19749 19761;19788 19802	neurotrophin null mutations
 T1012	Noun_Phrase 19766 19778	neurotrophin
 T1013	Noun_Phrase 19806 19808	it
 T1014	Noun_Phrase 19819 19824	Brn3c
@@ -1059,30 +1021,19 @@ T1019	Noun_Phrase 19891 19903	neurotrophin
 T1020	Noun_Phrase 19916 19918	We
 T1021	Noun_Phrase 19929 19986	four ears of P0 and P8 Brn3c null and control littermates
 T1022	IDENTITY_chain 19929 19986	four ears of P0 and P8 Brn3c null and control littermates
-T1023	Noun_Phrase 19942 19944;	P0
-19952 19962;	P0Brn3c null
-19975 19986	P0Brn3c nulllittermates
-T1024	Noun_Phrase 19942 19944;	P0
-19952 19986	P0Brn3c null and control littermates
-T1025	IDENTITY_chain 19942 19944;	P0
-19952 19986	P0Brn3c null and control littermates
-T1026	Noun_Phrase 19942 19944;	P0
-19967 19986	P0control littermates
-T1027	IDENTITY_chain 19942 19944;	P0
-19967 19986	P0control littermates
-T1028	Noun_Phrase 19949 19951;	P8
-19967 19986	P8control littermates
-T1029	IDENTITY_chain 19949 19951;	P8
-19967 19986	P8control littermates
-T1030	Noun_Phrase 19949 19962;	P8 Brn3c null
-19975 19986	P8 Brn3c nulllittermates
-T1031	IDENTITY_chain 19949 19962;	P8 Brn3c null
-19975 19986	P8 Brn3c nulllittermates
+T1023	Noun_Phrase 19942 19944;19952 19962;19975 19986	P0 Brn3c null littermates
+T1024	Noun_Phrase 19942 19944;19952 19986	P0 Brn3c null and control littermates
+T1025	IDENTITY_chain 19942 19944;19952 19986	P0 Brn3c null and control littermates
+T1026	Noun_Phrase 19942 19944;19967 19986	P0 control littermates
+T1027	IDENTITY_chain 19942 19944;19967 19986	P0 control littermates
+T1028	Noun_Phrase 19949 19951;19967 19986	P8 control littermates
+T1029	IDENTITY_chain 19949 19951;19967 19986	P8 control littermates
+T1030	Noun_Phrase 19949 19962;19975 19986	P8 Brn3c null littermates
+T1031	IDENTITY_chain 19949 19962;19975 19986	P8 Brn3c null littermates
 T1032	Noun_Phrase 19949 19986	P8 Brn3c null and control littermates
 T1033	IDENTITY_chain 19949 19986	P8 Brn3c null and control littermates
 T1034	Noun_Phrase 19952 19957	Brn3c
-T1035	Noun_Phrase 19991 20004;	expression of
-20014 20018	expression ofNT-3
+T1035	Noun_Phrase 19991 20004;20014 20018	expression of NT-3
 T1036	Noun_Phrase 19991 20009	expression of BDNF
 T1037	Noun_Phrase 19991 20018	expression of BDNF and NT-3
 T1038	Noun_Phrase 20005 20009	BDNF
@@ -1123,14 +1074,10 @@ T1072	Noun_Phrase 20736 20740	data
 T1073	Noun_Phrase 20754 20760	Figure
 T1074	Noun_Phrase 20754 20762	Figure 8
 T1075	IDENTITY_chain 20754 20762	Figure 8
-T1076	Noun_Phrase 20764 20781;	The expression of
-20791 20800	The expression ofNT-3 mRNA
-T1077	Noun_Phrase 20764 20786;	The expression of BDNF
-20796 20800	The expression of BDNFmRNA
-T1078	Noun_Phrase 20782 20786;	BDNF
-20796 20800	BDNFmRNA
-T1079	IDENTITY_chain 20782 20786;	BDNF
-20796 20800	BDNFmRNA
+T1076	Noun_Phrase 20764 20781;20791 20800	The expression of NT-3 mRNA
+T1077	Noun_Phrase 20764 20786;20796 20800	The expression of BDNF mRNA
+T1078	Noun_Phrase 20782 20786;20796 20800	BDNF mRNA
+T1079	IDENTITY_chain 20782 20786;20796 20800	BDNF mRNA
 T1080	Noun_Phrase 20782 20786	BDNF
 T1081	Noun_Phrase 20782 20795	BDNF and NT-3
 T1082	Noun_Phrase 20791 20795	NT-3
@@ -1165,43 +1112,33 @@ T1110	APPOS_relation 21248 21267	immature hair cells
 T1111	Noun_Phrase 21269 21272	iHC
 T1112	Noun_Phrase 21275 21294	The NT-3 expression
 T1113	Noun_Phrase 21279 21283	NT-3
-T1114	Noun_Phrase 21324 21331;	control
-21349 21360	controllittermates
+T1114	Noun_Phrase 21324 21331;21349 21360	control littermates
 T1115	Noun_Phrase 21336 21341	Brn3c
 T1116	Noun_Phrase 21336 21360	Brn3c mutant littermates
 T1117	Noun_Phrase 21376 21382	100 ?m
 T1118	Noun_Phrase 21388 21399	the saccule
 T1119	Noun_Phrase 21401 21403	we
 T1120	Noun_Phrase 21426 21430	BDNF
-T1121	Noun_Phrase 21432 21436;	Fig.
-21440 21442	Fig.8d
+T1121	Noun_Phrase 21432 21436;21440 21442	Fig. 8d
 T1122	Noun_Phrase 21432 21436	Fig.
 T1123	Noun_Phrase 21432 21439	Fig. 8c
 T1124	IDENTITY_chain 21432 21439	Fig. 8c
 T1125	Noun_Phrase 21448 21452	NT-3
-T1126	Noun_Phrase 21448 21459;	NT-3 signal
-21473 21497;	NT-3 signalof the Brn3c null mutant
-21511 21534	NT-3 signalof the Brn3c null mutantand control littermates
-T1127	IDENTITY_chain 21448 21459;	NT-3 signal
-21473 21497;	NT-3 signalof the Brn3c null mutant
-21511 21534	NT-3 signalof the Brn3c null mutantand control littermates
-T1128	Noun_Phrase 21461 21465;	Fig.
-21469 21471	Fig.8f
-T1129	IDENTITY_chain 21461 21465;	Fig.
-21469 21471	Fig.8f
+T1126	Noun_Phrase 21448 21459;21473 21497;21511 21534	NT-3 signal of the Brn3c null mutant and control littermates
+T1127	IDENTITY_chain 21448 21459;21473 21497;21511 21534	NT-3 signal of the Brn3c null mutant and control littermates
+T1128	Noun_Phrase 21461 21465;21469 21471	Fig. 8f
+T1129	IDENTITY_chain 21461 21465;21469 21471	Fig. 8f
 T1130	Noun_Phrase 21461 21465	Fig.
 T1131	Noun_Phrase 21461 21468	Fig. 8e
 T1132	IDENTITY_chain 21461 21468	Fig. 8e
 T1133	Noun_Phrase 21476 21497	the Brn3c null mutant
 T1134	Noun_Phrase 21480 21485	Brn3c
-T1135	Noun_Phrase 21499 21503;	Fig.
-21507 21509	Fig.8e
+T1135	Noun_Phrase 21499 21503;21507 21509	Fig. 8e
 T1136	Noun_Phrase 21499 21503	Fig.
 T1137	Noun_Phrase 21499 21506	Fig. 8c
 T1138	Noun_Phrase 21515 21534	control littermates
 T1139	Noun_Phrase 21515 21534	control littermates
-T1140	Noun_Phrase 21536 21540;	Fig.
-21544 21546	Fig.8f
+T1140	Noun_Phrase 21536 21540;21544 21546	Fig. 8f
 T1141	Noun_Phrase 21536 21540	Fig.
 T1142	Noun_Phrase 21536 21543	Fig. 8d
 T1143	IDENTITY_chain 21536 21543	Fig. 8d
@@ -1212,8 +1149,7 @@ T1147	Noun_Phrase 21685 21707	the Brn3c null mutants
 T1148	Noun_Phrase 21689 21694	Brn3c
 T1149	Noun_Phrase 21709 21724	The NT-3 signal
 T1150	Noun_Phrase 21713 21717	NT-3
-T1151	Noun_Phrase 21750 21761;	the control
-21781 21792	the controllittermates
+T1151	Noun_Phrase 21750 21761;21781 21792	the control littermates
 T1152	Noun_Phrase 21766 21792	the Brn3c null littermates
 T1153	Noun_Phrase 21770 21775	Brn3c
 T1154	Noun_Phrase 21857 21879	the sensory epithelium
@@ -1221,11 +1157,8 @@ T1155	Noun_Phrase 21888 21909	the Brn3c null mutant
 T1156	Noun_Phrase 21892 21897	Brn3c
 T1157	Noun_Phrase 21915 21926	the cochlea
 T1158	Noun_Phrase 21932 21936	BDNF
-T1159	Noun_Phrase 21961 21972;	the base in
-21978 21989;	the base inthe control
-22019 22030	the base inthe controllittermates
-T1160	Noun_Phrase 21978 21989;	the control
-22019 22030	the controllittermates
+T1159	Noun_Phrase 21961 21972;21978 21989;22019 22030	the base in the control littermates
+T1160	Noun_Phrase 21978 21989;22019 22030	the control littermates
 T1161	Noun_Phrase 21991 21995	Fig.
 T1162	Noun_Phrase 21991 21998	Fig. 9b
 T1163	IDENTITY_chain 21991 21998	Fig. 9b
@@ -1256,10 +1189,8 @@ T1187	Noun_Phrase 22341 22343	P8
 T1188	Noun_Phrase 22347 22374	the apex of Brn3c null mice
 T1189	Noun_Phrase 22359 22364	Brn3c
 T1190	Noun_Phrase 22359 22374	Brn3c null mice
-T1191	Noun_Phrase 22376 22380;	Fig.
-22384 22386	Fig.9f
-T1192	IDENTITY_chain 22376 22380;	Fig.
-22384 22386	Fig.9f
+T1191	Noun_Phrase 22376 22380;22384 22386	Fig. 9f
+T1192	IDENTITY_chain 22376 22380;22384 22386	Fig. 9f
 T1193	Noun_Phrase 22376 22380	Fig.
 T1194	Noun_Phrase 22376 22383	Fig. 9e
 T1195	IDENTITY_chain 22376 22383	Fig. 9e
@@ -1267,48 +1198,32 @@ T1196	Noun_Phrase 22390 22396	Figure
 T1197	Noun_Phrase 22390 22398	Figure 9
 T1198	IDENTITY_chain 22390 22398	Figure 9
 T1199	Noun_Phrase 22400 22404	BDNF
-T1200	Noun_Phrase 22400 22404;	BDNF
-22414 22429	BDNFmRNA expression
-T1201	IDENTITY_chain 22400 22404;	BDNF
-22414 22429	BDNFmRNA expression
+T1200	Noun_Phrase 22400 22404;22414 22429	BDNF mRNA expression
+T1201	IDENTITY_chain 22400 22404;22414 22429	BDNF mRNA expression
 T1202	Noun_Phrase 22400 22413	BDNF and NT-3
 T1203	Noun_Phrase 22409 22413	NT-3
 T1204	Noun_Phrase 22409 22429	NT-3 mRNA expression
 T1205	IDENTITY_chain 22409 22429	NT-3 mRNA expression
-T1206	Noun_Phrase 22457 22459;	P0
-22479 22489;	P0Brn3c null
-22502 22513	P0Brn3c nulllittermates
-T1207	Noun_Phrase 22457 22459;	P0
-22479 22513	P0Brn3c null and control littermates
+T1206	Noun_Phrase 22457 22459;22479 22489;22502 22513	P0 Brn3c null littermates
+T1207	Noun_Phrase 22457 22459;22479 22513	P0 Brn3c null and control littermates
 T1208	Noun_Phrase 22457 22459	P0
-T1209	Noun_Phrase 22457 22459;	P0
-22494 22513	P0control littermates
-T1210	Noun_Phrase 22470 22472;	P8
-22479 22489;	P8Brn3c null
-22502 22513	P8Brn3c nulllittermates
-T1211	Noun_Phrase 22470 22472;	P8
-22479 22513	P8Brn3c null and control littermates
-T1212	Noun_Phrase 22470 22472;	P8
-22494 22513	P8control littermates
+T1209	Noun_Phrase 22457 22459;22494 22513	P0 control littermates
+T1210	Noun_Phrase 22470 22472;22479 22489;22502 22513	P8 Brn3c null littermates
+T1211	Noun_Phrase 22470 22472;22479 22513	P8 Brn3c null and control littermates
+T1212	Noun_Phrase 22470 22472;22494 22513	P8 control littermates
 T1213	Noun_Phrase 22479 22484	Brn3c
 T1214	Noun_Phrase 22546 22550	BDNF
 T1215	Noun_Phrase 22546 22550	BDNF
-T1216	Noun_Phrase 22558 22571;	basal turn of
-22577 22585;	basal turn ofwildtype
-22597 22608	basal turn ofwildtypelittermates
-T1217	Noun_Phrase 22558 22571;	basal turn of
-22590 22608	basal turn ofmutant littermates
-T1218	IDENTITY_chain 22577 22585;	wildtype
-22597 22608	wildtypelittermates
-T1219	Noun_Phrase 22577 22585;	wildtype
-22597 22608	wildtypelittermates
+T1216	Noun_Phrase 22558 22571;22577 22585;22597 22608	basal turn of wildtype littermates
+T1217	Noun_Phrase 22558 22571;22590 22608	basal turn of mutant littermates
+T1218	IDENTITY_chain 22577 22585;22597 22608	wildtype littermates
+T1219	Noun_Phrase 22577 22585;22597 22608	wildtype littermates
 T1220	Noun_Phrase 22590 22608	mutant littermates
 T1221	Noun_Phrase 22610 22611	a
 T1222	Noun_Phrase 22612 22613	b
 T1223	Noun_Phrase 22651 22655	NT-3
 T1224	Noun_Phrase 22659 22667	the apex
-T1225	Noun_Phrase 22716 22724;	wildtype
-22737 22748	wildtypelittermates
+T1225	Noun_Phrase 22716 22724;22737 22748	wildtype littermates
 T1226	Noun_Phrase 22729 22748	control littermates
 T1227	Noun_Phrase 22750 22751	c
 T1228	Noun_Phrase 22752 22753	d
@@ -1375,10 +1290,8 @@ T1288	Noun_Phrase 24727 24742	primary neurons
 T1289	Noun_Phrase 24747 24752	their
 T1290	Noun_Phrase 24753 24768	afferent fibers
 T1291	Noun_Phrase 24762 24767	fiber
-T1292	Noun_Phrase 24772 24779;	newborn
-24800 24815	newbornBrn3c null mice
-T1293	IDENTITY_chain 24772 24779;	newborn
-24800 24815	newbornBrn3c null mice
+T1292	Noun_Phrase 24772 24779;24800 24815	newborn Brn3c null mice
+T1293	IDENTITY_chain 24772 24779;24800 24815	newborn Brn3c null mice
 T1294	Noun_Phrase 24800 24805	Brn3c
 T1295	Noun_Phrase 24835 24850	this suggestion
 T1296	Noun_Phrase 24852 24855	our
@@ -1386,8 +1299,7 @@ T1297	Noun_Phrase 24874 24914	a severe reduction in expression of BDNF
 T1298	IDENTITY_chain 24874 24914	a severe reduction in expression of BDNF
 T1299	Noun_Phrase 24896 24914	expression of BDNF
 T1300	Noun_Phrase 24910 24914	BDNF
-T1301	Noun_Phrase 24916 24921;	Figs.
-24925 24926	Figs.9
+T1301	Noun_Phrase 24916 24921;24925 24926	Figs. 9
 T1302	Noun_Phrase 24916 24921	Figs.
 T1303	Noun_Phrase 24916 24923	Figs. 8
 T1304	Noun_Phrase 24937 24951	this reduction
@@ -1418,8 +1330,7 @@ T1328	Noun_Phrase 25728 25732	BDNF
 T1329	Noun_Phrase 25752 25769	the canal cristae
 T1330	Noun_Phrase 25771 25775	Fig.
 T1331	Noun_Phrase 25771 25777	Fig. 8
-T1332	Noun_Phrase 25812 25816;	BDNF
-25826 25838	BDNFnull mutants
+T1332	Noun_Phrase 25812 25816;25826 25838	BDNF null mutants
 T1333	Noun_Phrase 25812 25816	BDNF
 T1334	Noun_Phrase 25821 25825	trkB
 T1335	Noun_Phrase 25821 25838	trkB null mutants
@@ -1431,8 +1342,7 @@ T1340	Noun_Phrase 26041 26069	both afferents and efferents
 T1341	Noun_Phrase 26046 26055	afferents
 T1342	Noun_Phrase 26060 26069	efferents
 T1343	Noun_Phrase 26073 26078	birth
-T1344	Noun_Phrase 26090 26095;	Figs.
-26099 26100	Figs.3
+T1344	Noun_Phrase 26090 26095;26099 26100	Figs. 3
 T1345	Noun_Phrase 26090 26095	Figs.
 T1346	Noun_Phrase 26090 26097	Figs. 2
 T1347	Noun_Phrase 26120 26131	the utricle
@@ -1445,8 +1355,7 @@ T1353	Nonreferential_pronoun 26219 26221	it
 T1354	Noun_Phrase 26249 26253	NT-3
 T1355	Noun_Phrase 26249 26264	NT-3 expression
 T1356	Noun_Phrase 26293 26312	control littermates
-T1357	Noun_Phrase 26314 26319;	Figs.
-26323 26324	Figs.9
+T1357	Noun_Phrase 26314 26319;26323 26324	Figs. 9
 T1358	Noun_Phrase 26314 26319	Figs.
 T1359	Noun_Phrase 26314 26321	Figs. 8
 T1360	Noun_Phrase 26365 26388	the apex of the cochlea
@@ -1465,8 +1374,7 @@ T1372	Noun_Phrase 26604 26612	neonates
 T1373	Noun_Phrase 26634 26639	Brn3c
 T1374	Noun_Phrase 26634 26652	Brn3c null mutants
 T1375	Noun_Phrase 26704 26721	8-day old animals
-T1376	Noun_Phrase 26723 26728;	Figs.
-26732 26733	Figs.4
+T1376	Noun_Phrase 26723 26728;26732 26733	Figs. 4
 T1377	Noun_Phrase 26723 26728	Figs.
 T1378	Noun_Phrase 26723 26730	Figs. 3
 T1379	Noun_Phrase 26759 26781	apical sensory neurons
@@ -1536,8 +1444,7 @@ T1442	Noun_Phrase 28945 28964	the tunnel of Corti
 T1443	Noun_Phrase 28968 28984	outer hair cells
 T1444	Noun_Phrase 28986 28995	afferents
 T1445	Noun_Phrase 29053 29073	inner spiral bundles
-T1446	Noun_Phrase 29075 29080;	Figs.
-29084 29085	Figs.7
+T1446	Noun_Phrase 29075 29080;29084 29085	Figs. 7
 T1447	Noun_Phrase 29075 29080	Figs.
 T1448	Noun_Phrase 29075 29082	Figs. 3
 T1449	Nonreferential_pronoun 29088 29090	It
@@ -1640,8 +1547,7 @@ T1545	IDENTITY_chain 32678 32733	afferent and efferent innervation in Brn3c null
 T1546	Noun_Phrase 32700 32711	innervation
 T1547	Noun_Phrase 32715 32720	Brn3c
 T1548	Noun_Phrase 32715 32733	Brn3c null mutants
-T1549	Noun_Phrase 32819 32830;	simple BDNF
-32839 32853	simple BDNFnull mutations
+T1549	Noun_Phrase 32819 32830;32839 32853	simple BDNF null mutations
 T1550	Noun_Phrase 32826 32830	BDNF
 T1551	Noun_Phrase 32834 32838	NT-3
 T1552	Noun_Phrase 32834 32853	NT-3 null mutations
@@ -1729,8 +1635,7 @@ T1633	Noun_Phrase 36026 36044	Brn3c null mutants
 T1634	Noun_Phrase 36046 36048	P0
 T1635	Noun_Phrase 36053 36055	P8
 T1636	Noun_Phrase 36061 36080	control littermates
-T1637	Noun_Phrase 36149 36153;	BDNF
-36158 36167	BDNFNT-3 mRNA
+T1637	Noun_Phrase 36149 36153;36158 36167	BDNF NT-3 mRNA
 T1638	Noun_Phrase 36149 36153	BDNF
 T1639	Noun_Phrase 36149 36162	BDNF and NT-3
 T1640	Noun_Phrase 36158 36162	NT-3
@@ -1738,8 +1643,7 @@ T1641	Noun_Phrase 36309 36315	Images
 T1642	Noun_Phrase 36438 36448	hair cells
 T1643	Noun_Phrase 36471 36481	hair cells
 T1644	Noun_Phrase 36513 36515	P7
-T1645	Noun_Phrase 36544 36577;	the hair cell specific-myosin VII
-36588 36596	the hair cell specific-myosin VIIantibody
+T1645	Noun_Phrase 36544 36577;36588 36596	the hair cell specific-myosin VII antibody
 T1646	Noun_Phrase 36548 36557	hair cell
 T1647	Noun_Phrase 36579 36586	MyoVIIa
 T1648	APPOS_relation 36579 36586	MyoVIIa
@@ -1754,8 +1658,7 @@ T1656	Noun_Phrase 37036 37059	each sensory epithelium
 T1657	IDENTITY_chain 37036 37059	each sensory epithelium
 T1658	Noun_Phrase 37099 37112	each ganglion
 T1659	IDENTITY_chain 37099 37112	each ganglion
-T1660	Noun_Phrase 37216 37220;	each
-37236 37244	eachganglion
+T1660	Noun_Phrase 37216 37220;37236 37244	each ganglion
 T1661	Noun_Phrase 37216 37231	each epithelium
 T1662	Noun_Phrase 37343 37350	Authors
 T1663	IDENTITY_chain 37343 37350	Authors

@@ -11,8 +11,7 @@ T9	GO_EXT_reaction_or_response 1119 1127	response
 T10	GO_0045333 1249 1260	respiratory
 T11	GO_0010467 1287 1297	expression
 T12	GO_0008610 1301 1310	lipogenic
-T13	GO_0051866 1584 1597;	adaptation to
-1628 1637	adaptation tostressors
+T13	GO_0051866 1584 1597;1628 1637	adaptation to stressors
 T14	GO_0008152 1602 1611	metabolic
 T15	GO_PATO_EXT_physiological_process_or_quality 1616 1627	physiologic
 T16	GO_0007567 1645 1650	natal
@@ -20,8 +19,7 @@ T17	GO_0065007 1721 1730	regulated
 T18	GO_0007567 1810 1815	birth
 T19	GO_0007567 1821 1826	natal
 T20	GO_EXT_biogenesis_or_biosynthesis 1841 1851	biogenesis
-T21	GO_EXT_cell_communication_or_signaling_or_signal_transduction 1870 1879;	signaling
-1911 1919	signalingpathways
+T21	GO_EXT_cell_communication_or_signaling_or_signal_transduction 1870 1879;1911 1919	signaling pathways
 T22	GO_EXT_transcription 1884 1899	transcriptional
 T23	GO_0065007 1900 1910	regulatory
 T24	GO_0065007 1925 1932	control
@@ -30,23 +28,19 @@ T26	GO_0008152 2031 2041	metabolism
 T27	GO_EXT_transcription 2098 2113	transcriptional
 T28	GO_0065007 2239 2249	regulatory
 T29	GO_EXT_transcription 2276 2291	transcriptional
-T30	GO_0031323 2292 2311;	control of cellular
-2319 2329	control of cellularmetabolism
+T30	GO_0031323 2292 2311;2319 2329	control of cellular metabolism
 T31	GO_EXT_biogenesis_or_biosynthesis 2368 2378	biogenesis
 T32	GO_0060612 2495 2505	adipogenic
 T33	GO_EXT_transcription 2681 2696	transcriptional
 T34	GO_EXT_transcription 2744 2757	transcription
-T35	GO_0044237 2778 2786;	cellular
-2794 2804	cellularmetabolism
+T35	GO_0044237 2778 2786;2794 2804	cellular metabolism
 T36	GO_0010467 2891 2901	expression
 T37	GO_PATO_EXT_physiological_process_or_quality 2937 2948	physiologic
-T38	GO_0006754 3007 3010;	ATP
-3019 3029	ATPproduction
+T38	GO_0006754 3007 3010;3019 3029	ATP production
 T39	GO_0031649 3014 3029	heat production
 T40	GO_0010467 3194 3204	expression
 T41	GO_PATO_EXT_physiological_process_or_quality 3395 3406	physiologic
-T42	GO_0019222 3407 3417;	control of
-3425 3435	control ofmetabolism
+T42	GO_0019222 3407 3417;3425 3435	control of metabolism
 T43	GO_0010467 3493 3503	expression
 T44	GO_EXT_biogenesis_or_biosynthesis 3573 3583	biogenesis
 T45	GO_0065007 3588 3596	regulate
@@ -61,18 +55,15 @@ T53	GO_0045333 4024 4035	respiratory
 T54	GO_EXT_transcription 4085 4098	transcription
 T55	GO_EXT_transcription 4120 4135	transcriptional
 T56	GO_EXT_regulator 4136 4146	regulators
-T57	GO_0006264 4150 4167;	mitochondrial DNA
-4186 4197	mitochondrial DNAreplication
+T57	GO_0006264 4150 4167;4186 4197	mitochondrial DNA replication
 T58	GO_EXT_transcription 4168 4181	transcription
 T59	GO_0010467 4321 4331	expression
 T60	GO_EXT_biogenesis_or_biosynthesis 4365 4375	biogenesis
 T61	GO_0010467 4400 4410	expression
-T62	GO_0048747 4504 4516;	formation of
-4570 4583	formation ofmuscle fibers
+T62	GO_0048747 4504 4516;4570 4583	formation of muscle fibers
 T63	GO_EXT_biogenesis_or_biosynthesis 4676 4686	biogenesis
 T64	GO_0042592 4735 4754	homeostatic control
-T65	GO_0019222 4747 4757;	control of
-4774 4784	control ofmetabolism
+T65	GO_0019222 4747 4757;4774 4784	control of metabolism
 T66	GO_0065007 4811 4819	regulate
 T67	GO_0006094 4840 4853	gluconeogenic
 T68	GO_0010467 4914 4924	expression
@@ -162,9 +153,7 @@ T151	GO_EXT_cell_communication_or_signaling_or_signal_transduction 22093 22102	s
 T152	GO_EXT_reaction_or_response 22148 22156	response
 T153	GO_EXT_reaction_or_response 22395 22403	response
 T154	GO_0008152 22497 22506	metabolic
-T155	GO_EXT_reaction_or_response 22507 22515;	response
-22523 22525;	responseto
-22535 22543	responsetostimulus
+T155	GO_EXT_reaction_or_response 22507 22515;22523 22525;22535 22543	response to stimulus
 T156	GO_0045333 22679 22690	respiratory
 T157	GO_0008152 22816 22825	metabolic
 T158	GO_0019395 22846 22866	fatty acid oxidation
@@ -212,8 +201,7 @@ T199	GO_0009790 31335 31358	embryologic development
 T200	GO_EXT_biogenesis_or_biosynthesis 31402 31412	biogenesis
 T201	GO_0065007 31519 31527	regulate
 T202	GO_0007567 31532 31537	natal
-T203	GO_0044237 31565 31573;	cellular
-31581 31591	cellularmetabolism
+T203	GO_0044237 31565 31573;31581 31591	cellular metabolism
 T204	GO_0008152 31642 31651	metabolic
 T205	GO_0007567 31670 31675	natal
 T206	GO_0045333 31811 31822	respiratory
@@ -236,8 +224,7 @@ T222	GO_0031649 33780 33791	thermogenic
 T223	GO_0045333 33851 33862	respiration
 T224	GO_0007567 33955 33960	natal
 T225	GO_PATO_EXT_physiological_process_or_quality 34179 34190	physiologic
-T226	GO_0019222 34206 34216;	control of
-34224 34234	control ofmetabolism
+T226	GO_0019222 34206 34216;34224 34234	control of metabolism
 T227	GO_EXT_reaction_or_response 34347 34354	respond
 T228	GO_0007567 34362 34367	natal
 T229	GO_0008152 34382 34391	metabolic
@@ -285,10 +272,8 @@ T270	GO_0007567 43868 43873	natal
 T271	GO_EXT_transcription 43944 43959	transcriptional
 T272	GO_PATO_EXT_physiological_process_or_quality 44033 44044	physiologic
 T273	GO_EXT_transcription 44075 44090	transcriptional
-T274	GO_0019222 44091 44101;	control of
-44109 44119	control ofmetabolism
-T275	GO_0050794 44091 44101;	control of
-44138 44156	control ofcellular processes
+T274	GO_0019222 44091 44101;44109 44119	control of metabolism
+T275	GO_0050794 44091 44101;44138 44156	control of cellular processes
 T276	GO_EXT_transcription 44219 44234	transcriptional
 T277	GO_0008152 44283 44292	metabolic
 T278	GO_0008152 44315 44324	metabolic
@@ -359,8 +344,7 @@ T342	GO_EXT_reverse_transcription_or_reverse_transcriptase 74889 74891	RT
 T343	GO_EXT_reaction_or_response 75052 75060	response
 T344	GO_EXT_reaction_or_response 75131 75139	response
 T345	GO_0045333 75176 75187	respiration
-T346	GO_0001889 75505 75519;	development of
-75527 75532	development ofliver
+T346	GO_0001889 75505 75519;75527 75532	development of liver
 T347	GO_0007631 75665 75668	fed
 T348	GO_0007631 75990 75993	fed
 T349	GO_0045333 76809 76820	respiration

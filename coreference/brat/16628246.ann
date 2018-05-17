@@ -31,8 +31,7 @@ T29	Noun_Phrase 365 378	such proteins
 T30	Noun_Phrase 413 417	ATRX
 T31	Noun_Phrase 421 432	development
 T32	IDENTITY_chain 421 432	development
-T33	Noun_Phrase 469 478;	the ATR-X
-528 536	the ATR-Xsyndrome
+T33	Noun_Phrase 469 478;528 536	the ATR-X syndrome
 T34	APPOS_relation 480 526	alpha thalassemia mental retardation, X-linked
 T35	IDENTITY_chain 480 526	alpha thalassemia mental retardation, X-linked
 T36	Noun_Phrase 480 526	alpha thalassemia mental retardation, X-linked
@@ -89,12 +88,9 @@ T86	Noun_Phrase 1711 1715	ATRX
 T87	Noun_Phrase 1742 1767	the female sex chromosome
 T88	APPOS_relation 1742 1767	the female sex chromosome
 T89	Noun_Phrase 1769 1770	X
-T90	Noun_Phrase 1782 1818;	the first example of a human disease
-1836 1876	the first example of a human diseaseassociated with defects in such proteins
-T91	Noun_Phrase 1803 1818;	a human disease
-1836 1876	a human diseaseassociated with defects in such proteins
-T92	IDENTITY_chain 1803 1818;	a human disease
-1836 1876	a human diseaseassociated with defects in such proteins
+T90	Noun_Phrase 1782 1818;1836 1876	the first example of a human disease associated with defects in such proteins
+T91	Noun_Phrase 1803 1818;1836 1876	a human disease associated with defects in such proteins
+T92	IDENTITY_chain 1803 1818;1836 1876	a human disease associated with defects in such proteins
 T93	APPOS_relation 1820 1834	ATR-X syndrome
 T94	Noun_Phrase 1820 1834	ATR-X syndrome
 T95	Noun_Phrase 1863 1876	such proteins
@@ -130,17 +126,11 @@ T124	Noun_Phrase 2351 2355	they
 T125	Noun_Phrase 2369 2374	their
 T126	APPOS_relation 2384 2386	Xp
 T127	Noun_Phrase 2384 2386	Xp
-T128	Noun_Phrase 2392 2444;	if females inherit from their mother an X chromosome
-2450 2486;	if females inherit from their mother an X chromosomethat bears the abnormal copy of Atrx
-2498 2520;	if females inherit from their mother an X chromosomethat bears the abnormal copy of Atrxone would predict that
-2522 2584	if females inherit from their mother an X chromosomethat bears the abnormal copy of Atrxone would predict thatlike affected males, they would fail to form a normal placenta
-T129	IDENTITY_chain 2392 2444;	if females inherit from their mother an X chromosome
-2450 2486;	if females inherit from their mother an X chromosomethat bears the abnormal copy of Atrx
-2498 2584	if females inherit from their mother an X chromosomethat bears the abnormal copy of Atrxone would predict that, like affected males, they would fail to form a normal placenta
+T128	Noun_Phrase 2392 2444;2450 2486;2498 2520;2522 2584	if females inherit from their mother an X chromosome that bears the abnormal copy of Atrx one would predict that like affected males, they would fail to form a normal placenta
+T129	IDENTITY_chain 2392 2444;2450 2486;2498 2584	if females inherit from their mother an X chromosome that bears the abnormal copy of Atrx one would predict that, like affected males, they would fail to form a normal placenta
 T130	Noun_Phrase 2395 2402	females
 T131	Noun_Phrase 2416 2421	their
-T132	Noun_Phrase 2429 2444;	an X chromosome
-2450 2486	an X chromosomethat bears the abnormal copy of Atrx
+T132	Noun_Phrase 2429 2444;2450 2486	an X chromosome that bears the abnormal copy of Atrx
 T133	Noun_Phrase 2429 2444	an X chromosome
 T134	APPOS_relation 2446 2448	Xm
 T135	IDENTITY_chain 2446 2448	Xm
@@ -176,12 +166,9 @@ T164	Noun_Phrase 3532 3562	this skewing of X-inactivation
 T165	Noun_Phrase 3548 3562	X-inactivation
 T166	Noun_Phrase 3616 3624	carriers
 T167	Noun_Phrase 3627 3645	The ATR-X syndrome
-T168	Noun_Phrase 3659 3678;	mutations in a gene
-3686 3761	mutations in a genethat comprises 36 exons spanning 300 kb of genomic DNA at Chromosome Xq13.3
-T169	Noun_Phrase 3672 3678;	a gene
-3686 3761	a genethat comprises 36 exons spanning 300 kb of genomic DNA at Chromosome Xq13.3
-T170	IDENTITY_chain 3672 3678;	a gene
-3686 3761	a genethat comprises 36 exons spanning 300 kb of genomic DNA at Chromosome Xq13.3
+T168	Noun_Phrase 3659 3678;3686 3761	mutations in a gene that comprises 36 exons spanning 300 kb of genomic DNA at Chromosome Xq13.3
+T169	Noun_Phrase 3672 3678;3686 3761	a gene that comprises 36 exons spanning 300 kb of genomic DNA at Chromosome Xq13.3
+T170	IDENTITY_chain 3672 3678;3686 3761	a gene that comprises 36 exons spanning 300 kb of genomic DNA at Chromosome Xq13.3
 T171	APPOS_relation 3680 3684	ATRX
 T172	Noun_Phrase 3680 3684	ATRX
 T173	Noun_Phrase 3701 3761	36 exons spanning 300 kb of genomic DNA at Chromosome Xq13.3
@@ -218,15 +205,13 @@ T203	Noun_Phrase 4201 4205	ATRX
 T204	APPOS_relation 4212 4216	Atrx
 T205	Noun_Phrase 4212 4216	Atrx
 T206	Noun_Phrase 4238 4254	the X chromosome
-T207	Noun_Phrase 4279 4290;	full-length
-4340 4348	full-lengthisoforms
+T207	Noun_Phrase 4279 4290;4340 4348	full-length isoforms
 T208	Noun_Phrase 4292 4296	Atrx
 T209	Noun_Phrase 4292 4306	Atrx, ~280 kDa
 T210	APPOS_relation 4292 4306	Atrx, ~280 kDa
 T211	IDENTITY_chain 4292 4306	Atrx, ~280 kDa
 T212	Noun_Phrase 4298 4306	~280 kDa
-T213	Noun_Phrase 4312 4321;	truncated
-4340 4348	truncatedisoforms
+T213	Noun_Phrase 4312 4321;4340 4348	truncated isoforms
 T214	Noun_Phrase 4323 4328	Atrxt
 T215	Noun_Phrase 4323 4338	Atrxt, ~200 kDa
 T216	APPOS_relation 4323 4338	Atrxt, ~200 kDa
@@ -282,10 +267,8 @@ T265	Noun_Phrase 5658 5660	we
 T266	Noun_Phrase 5705 5718	the Atrx gene
 T267	Noun_Phrase 5709 5713	Atrx
 T268	Noun_Phrase 5722 5727	mouse
-T269	Noun_Phrase 5722 5742;	mouse embryonic stem
-5748 5753	mouse embryonic stemcells
-T270	IDENTITY_chain 5722 5742;	mouse embryonic stem
-5748 5753	mouse embryonic stemcells
+T269	Noun_Phrase 5722 5742;5748 5753	mouse embryonic stem cells
+T270	IDENTITY_chain 5722 5742;5748 5753	mouse embryonic stem cells
 T271	Noun_Phrase 5728 5742	embryonic stem
 T272	APPOS_relation 5728 5742	embryonic stem
 T273	Noun_Phrase 5744 5746	ES
@@ -343,18 +326,14 @@ T324	IDENTITY_chain 6993 7038	a loxP-flanked MC1-neor cassette in intron 17
 T325	Noun_Phrase 7029 7038	intron 17
 T326	IDENTITY_chain 7029 7038	intron 17
 T327	Noun_Phrase 7040 7049	Figure 2A
-T328	Noun_Phrase 7052 7060;	Northern
-7073 7086	Northernblot analyses
-T329	IDENTITY_chain 7052 7060;	Northern
-7073 7086	Northernblot analyses
+T328	Noun_Phrase 7052 7060;7073 7086	Northern blot analyses
+T329	IDENTITY_chain 7052 7060;7073 7086	Northern blot analyses
 T330	Noun_Phrase 7052 7086	Northern and Western blot analyses
 T331	IDENTITY_chain 7052 7086	Northern and Western blot analyses
 T332	Noun_Phrase 7065 7086	Western blot analyses
 T333	IDENTITY_chain 7065 7086	Western blot analyses
-T334	Noun_Phrase 7088 7094;	Figure
-7102 7104	Figure2E
-T335	IDENTITY_chain 7088 7094;	Figure
-7102 7104	Figure2E
+T334	Noun_Phrase 7088 7094;7102 7104	Figure 2E
+T335	IDENTITY_chain 7088 7094;7102 7104	Figure 2E
 T336	Noun_Phrase 7088 7097	Figure 2D
 T337	IDENTITY_chain 7088 7097	Figure 2D
 T338	Noun_Phrase 7088 7104	Figure 2D and 2E
@@ -379,8 +358,7 @@ T356	IDENTITY_chain 7379 7398	pCAGGS-Cre-IRESpuro
 T357	Noun_Phrase 7379 7398	pCAGGS-Cre-IRESpuro
 T358	Noun_Phrase 7405 7414	subclones
 T359	IDENTITY_chain 7405 7414	subclones
-T360	Noun_Phrase 7438 7447;	an allele
-7475 7558	an allelein which both exon 18 and the neor cassette had been deleted by the Cre recombinase
+T360	Noun_Phrase 7438 7447;7475 7558	an allele in which both exon 18 and the neor cassette had been deleted by the Cre recombinase
 T361	Noun_Phrase 7449 7473	Atrx?18?neo in Figure 2A
 T362	APPOS_relation 7449 7473	Atrx?18?neo in Figure 2A
 T363	IDENTITY_chain 7449 7473	Atrx?18?neo in Figure 2A
@@ -397,16 +375,13 @@ T373	Noun_Phrase 7619 7627	Atrxflox
 T374	Noun_Phrase 7644 7653	Figure 2A
 T375	Noun_Phrase 7656 7665	Figure 2C
 T376	IDENTITY_chain 7656 7665	Figure 2C
-T377	Noun_Phrase 7668 7676;	Northern
-7689 7702	Northernblot analyses
+T377	Noun_Phrase 7668 7676;7689 7702	Northern blot analyses
 T378	Noun_Phrase 7668 7702	Northern and Western blot analyses
 T379	Noun_Phrase 7681 7702	Western blot analyses
-T380	Noun_Phrase 7704 7710;	Figure
-7718 7720	Figure2E
+T380	Noun_Phrase 7704 7710;7718 7720	Figure 2E
 T381	Noun_Phrase 7704 7713	Figure 2D
 T382	Noun_Phrase 7704 7720	Figure 2D and 2E
-T383	Noun_Phrase 7736 7756;	the full-length Atrx
-7772 7779	the full-length Atrxprotein
+T383	Noun_Phrase 7736 7756;7772 7779	the full-length Atrx protein
 T384	Noun_Phrase 7736 7767	the full-length Atrx transcript
 T385	Noun_Phrase 7811 7822	Atrx?18?neo
 T386	Noun_Phrase 7871 7882	this region
@@ -426,10 +401,8 @@ T399	Noun_Phrase 8227 8235	Figure 1
 T400	Noun_Phrase 8283 8306	the full-length protein
 T401	Noun_Phrase 8371 8414	ES cells that are null for full-length Atrx
 T402	Noun_Phrase 8398 8414	full-length Atrx
-T403	Noun_Phrase 8417 8433;	Perturbed Growth
-8450 8478	Perturbed GrowthDefects in Atrxnull ES Cells
-T404	IDENTITY_chain 8417 8433;	Perturbed Growth
-8450 8478	Perturbed GrowthDefects in Atrxnull ES Cells
+T403	Noun_Phrase 8417 8433;8450 8478	Perturbed Growth Defects in Atrxnull ES Cells
+T404	IDENTITY_chain 8417 8433;8450 8478	Perturbed Growth Defects in Atrxnull ES Cells
 T405	Noun_Phrase 8438 8449	Methylation
 T406	IDENTITY_chain 8438 8449	Methylation
 T407	Noun_Phrase 8438 8478	Methylation Defects in Atrxnull ES Cells
@@ -446,29 +419,21 @@ T417	Noun_Phrase 8625 8652	spontaneous differentiation
 T418	Noun_Phrase 8654 8656	We
 T419	Noun_Phrase 8693 8697	Atrx
 T420	Noun_Phrase 8701 8708	ES cell
-T421	Noun_Phrase 8729 8734;	Atrx+
-8748 8762	Atrx+ES cell clones
+T421	Noun_Phrase 8729 8734;8748 8762	Atrx+ ES cell clones
 T422	Noun_Phrase 8739 8755	Atrxnull ES cell
-T423	Noun_Phrase 8805 8810;	Atrx+
-8905 8913	Atrx+ES cells
-T424	APPOS_relation 8805 8810;	Atrx+
-8905 8913	Atrx+ES cells
-T425	IDENTITY_chain 8805 8810;	Atrx+
-8905 8913	Atrx+ES cells
+T423	Noun_Phrase 8805 8810;8905 8913	Atrx+ ES cells
+T424	APPOS_relation 8805 8810;8905 8913	Atrx+ ES cells
+T425	IDENTITY_chain 8805 8810;8905 8913	Atrx+ ES cells
 T426	Noun_Phrase 8812 8858	bearing either an AtrxWT or an Atrxflox allele
-T427	Noun_Phrase 8827 8836;	an AtrxWT
-8852 8858	an AtrxWTallele
-T428	IDENTITY_chain 8827 8836;	an AtrxWT
-8852 8858	an AtrxWTallele
+T427	Noun_Phrase 8827 8836;8852 8858	an AtrxWT allele
+T428	IDENTITY_chain 8827 8836;8852 8858	an AtrxWT allele
 T429	Noun_Phrase 8830 8836	AtrxWT
 T430	IDENTITY_chain 8830 8836	AtrxWT
 T431	Noun_Phrase 8840 8858	an Atrxflox allele
 T432	IDENTITY_chain 8840 8858	an Atrxflox allele
 T433	Noun_Phrase 8843 8851	Atrxflox
-T434	APPOS_relation 8864 8872;	Atrxnull
-8905 8913	AtrxnullES cells
-T435	Noun_Phrase 8864 8872;	Atrxnull
-8905 8913	AtrxnullES cells
+T434	APPOS_relation 8864 8872;8905 8913	Atrxnull ES cells
+T435	Noun_Phrase 8864 8872;8905 8913	Atrxnull ES cells
 T436	Noun_Phrase 8874 8903	bearing an Atrx?18?neo allele
 T437	Noun_Phrase 8882 8903	an Atrx?18?neo allele
 T438	IDENTITY_chain 8882 8903	an Atrx?18?neo allele
@@ -600,16 +565,14 @@ T563	Noun_Phrase 11701 11723	the mouse rDNA repeats
 T564	IDENTITY_chain 11701 11723	the mouse rDNA repeats
 T565	Noun_Phrase 11705 11710	mouse
 T566	Noun_Phrase 11727 11744	Atrxnull ES cells
-T567	Noun_Phrase 11782 11790;	ES cells
-11811 11843	ES cellsbearing a functional Atrx allele
+T567	Noun_Phrase 11782 11790;11811 11843	ES cells bearing a functional Atrx allele
 T568	Noun_Phrase 11819 11843	a functional Atrx allele
 T569	Noun_Phrase 11832 11836	Atrx
 T570	Noun_Phrase 11845 11851	AtrxWT
 T571	Noun_Phrase 11845 11863	AtrxWT or Atrxflox
 T572	APPOS_relation 11845 11863	AtrxWT or Atrxflox
 T573	Noun_Phrase 11855 11863	Atrxflox
-T574	Noun_Phrase 11866 11872;	Figure
-11880 11882	Figure3C
+T574	Noun_Phrase 11866 11872;11880 11882	Figure 3C
 T575	Noun_Phrase 11866 11875	Figure 3B
 T576	IDENTITY_chain 11866 11875	Figure 3B
 T577	IDENTITY_chain 11880 11882	3C
@@ -622,10 +585,8 @@ T583	Noun_Phrase 12100 12114	ATR-X patients
 T584	Noun_Phrase 12116 12180	Other mouse repetitive sequence elements surveyed in ES cell DNA
 T585	IDENTITY_chain 12116 12180	Other mouse repetitive sequence elements surveyed in ES cell DNA
 T586	Noun_Phrase 12122 12127	mouse
-T587	Noun_Phrase 12193 12208;	heterochromatic
-12250 12265	heterochromaticminor satellite
-T588	IDENTITY_chain 12193 12208;	heterochromatic
-12250 12265	heterochromaticminor satellite
+T587	Noun_Phrase 12193 12208;12250 12265	heterochromatic minor satellite
+T588	IDENTITY_chain 12193 12208;12250 12265	heterochromatic minor satellite
 T589	Noun_Phrase 12193 12224	heterochromatic major satellite
 T590	IDENTITY_chain 12193 12224	heterochromatic major satellite
 T591	Noun_Phrase 12280 12285	HpaII
@@ -640,12 +601,8 @@ T599	Noun_Phrase 12402 12409	Sine B1
 T600	IDENTITY_chain 12402 12409	Sine B1
 T601	Noun_Phrase 12437 12442	HpaII
 T602	Noun_Phrase 12445 12458	These repeats
-T603	Noun_Phrase 12445 12486;	These repeats were found to be moderately
-12508 12517;	These repeats were found to be moderatelyor highly
-12558 12590	These repeats were found to be moderatelyor highlymethylated in wild-type ES cells
-T604	IDENTITY_chain 12445 12486;	These repeats were found to be moderately
-12508 12517;	These repeats were found to be moderatelyor highly
-12558 12590	These repeats were found to be moderatelyor highlymethylated in wild-type ES cells
+T603	Noun_Phrase 12445 12486;12508 12517;12558 12590	These repeats were found to be moderately or highly methylated in wild-type ES cells
+T604	IDENTITY_chain 12445 12486;12508 12517;12558 12590	These repeats were found to be moderately or highly methylated in wild-type ES cells
 T605	Noun_Phrase 12488 12494	Line 1
 T606	Noun_Phrase 12499 12506	Sine B1
 T607	Noun_Phrase 12519 12522	IAP
@@ -684,8 +641,7 @@ T639	Noun_Phrase 13150 13169	C57BL/6 blastocysts
 T640	IDENTITY_chain 13150 13169	C57BL/6 blastocysts
 T641	Noun_Phrase 13228 13249	germline transmission
 T642	IDENTITY_chain 13228 13249	germline transmission
-T643	Noun_Phrase 13272 13288;	males hemizygous
-13341 13362	males hemizygousfor the floxed allele
+T643	Noun_Phrase 13272 13288;13341 13362	males hemizygous for the floxed allele
 T644	Noun_Phrase 13290 13300	Atrxflox/Y
 T645	APPOS_relation 13290 13300	Atrxflox/Y
 T646	IDENTITY_chain 13290 13300	Atrxflox/Y
@@ -698,12 +654,9 @@ T652	Noun_Phrase 13397 13415	homozygous females
 T653	Noun_Phrase 13417 13430	Atrxflox/flox
 T654	APPOS_relation 13417 13430	Atrxflox/flox
 T655	IDENTITY_chain 13417 13430	Atrxflox/flox
-T656	Noun_Phrase 13433 13449;	Males hemizygous
-13489 13512	Males hemizygousfor the Atrxflox allele
-T657	Noun_Phrase 13454 13461;	females
-13478 13512	femaleshomozygous for the Atrxflox allele
-T658	Noun_Phrase 13454 13474;	females heterozygous
-13489 13512	females heterozygousfor the Atrxflox allele
+T656	Noun_Phrase 13433 13449;13489 13512	Males hemizygous for the Atrxflox allele
+T657	Noun_Phrase 13454 13461;13478 13512	females homozygous for the Atrxflox allele
+T658	Noun_Phrase 13454 13474;13489 13512	females heterozygous for the Atrxflox allele
 T659	Noun_Phrase 13493 13512	the Atrxflox allele
 T660	Noun_Phrase 13497 13505	Atrxflox
 T661	Noun_Phrase 13593 13612	the Atrxflox allele
@@ -769,14 +722,10 @@ T720	Noun_Phrase 14773 14783	Discussion
 T721	IDENTITY_chain 14773 14783	Discussion
 T722	Noun_Phrase 14786 14793	Embryos
 T723	IDENTITY_chain 14786 14793	Embryos
-T724	Noun_Phrase 14812 14815;	7.5
-14830 14833	7.5dpc
-T725	IDENTITY_chain 14812 14815;	7.5
-14830 14833	7.5dpc
-T726	Noun_Phrase 14817 14820;	8.5
-14830 14833	8.5dpc
-T727	IDENTITY_chain 14817 14820;	8.5
-14830 14833	8.5dpc
+T724	Noun_Phrase 14812 14815;14830 14833	7.5 dpc
+T725	IDENTITY_chain 14812 14815;14830 14833	7.5 dpc
+T726	Noun_Phrase 14817 14820;14830 14833	8.5 dpc
+T727	IDENTITY_chain 14817 14820;14830 14833	8.5 dpc
 T728	Noun_Phrase 14826 14833	9.5 dpc
 T729	Noun_Phrase 14851 14854	PCR
 T730	IDENTITY_chain 14851 14854	PCR
@@ -825,10 +774,8 @@ T772	Noun_Phrase 15517 15526	Figure 5A
 T773	IDENTITY_chain 15517 15526	Figure 5A
 T774	Noun_Phrase 15536 15557	an anti-ATRX antibody
 T775	IDENTITY_chain 15536 15557	an anti-ATRX antibody
-T776	Noun_Phrase 15559 15565;	Figure
-15569 15571	Figure5E
-T777	IDENTITY_chain 15559 15565;	Figure
-15569 15571	Figure5E
+T776	Noun_Phrase 15559 15565;15569 15571	Figure 5E
+T777	IDENTITY_chain 15559 15565;15569 15571	Figure 5E
 T778	Noun_Phrase 15559 15568	Figure 5B
 T779	IDENTITY_chain 15559 15568	Figure 5B
 T780	Noun_Phrase 15574 15602	Immunohistochemical staining
@@ -859,10 +806,8 @@ T804	IDENTITY_chain 15937 15952	Atrx expression
 T805	Noun_Phrase 15956 15967	trophoblast
 T806	Noun_Phrase 15956 15979	trophoblast giant cells
 T807	APPOS_relation 15956 15979	trophoblast giant cells
-T808	Noun_Phrase 15956 15979;	trophoblast giant cells
-15987 16022	trophoblast giant cellssurrounding the Reichert's membrane
-T809	IDENTITY_chain 15956 15979;	trophoblast giant cells
-15987 16022	trophoblast giant cellssurrounding the Reichert's membrane
+T808	Noun_Phrase 15956 15979;15987 16022	trophoblast giant cells surrounding the Reichert's membrane
+T809	IDENTITY_chain 15956 15979;15987 16022	trophoblast giant cells surrounding the Reichert's membrane
 T810	Noun_Phrase 15981 15985	TGCs
 T811	Noun_Phrase 15999 16022	the Reichert's membrane
 T812	IDENTITY_chain 15999 16022	the Reichert's membrane
@@ -871,8 +816,7 @@ T814	Noun_Phrase 16063 16073	these TGCs
 T815	Noun_Phrase 16110 16114	Atrx
 T816	Noun_Phrase 16162 16166	[15]
 T817	IDENTITY_chain 16162 16166	[15]
-T818	Noun_Phrase 16274 16280;	Figure
-16284 16286	Figure5D
+T818	Noun_Phrase 16274 16280;16284 16286	Figure 5D
 T819	Noun_Phrase 16274 16283	Figure 5B
 T820	Noun_Phrase 16309 16340	the surrounding decidual tissue
 T821	Noun_Phrase 16417 16433	unpublished data
@@ -881,32 +825,21 @@ T823	IDENTITY_chain 16453 16477	7.5 dpc Atrxnull embryos
 T824	Noun_Phrase 16453 16477	7.5 dpc Atrxnull embryos
 T825	Noun_Phrase 16453 16511	7.5 dpc Atrxnull embryos were dramatically reduced in size
 T826	IDENTITY_chain 16453 16511	7.5 dpc Atrxnull embryos were dramatically reduced in size
-T827	Noun_Phrase 16595 16601;	Figure
-16609 16611	Figure5B
+T827	Noun_Phrase 16595 16601;16609 16611	Figure 5B
 T828	Noun_Phrase 16595 16604	Figure 5A
 T829	Noun_Phrase 16631 16649	their reduced size
 T830	Noun_Phrase 16718 16738	Atrxnull conceptuses
 T831	IDENTITY_chain 16718 16738	Atrxnull conceptuses
-T832	Noun_Phrase 16764 16767;	The
-16779 16786	Thechorion
+T832	Noun_Phrase 16764 16767;16779 16786	The chorion
 T833	Noun_Phrase 16764 16774	The amnion
 T834	IDENTITY_chain 16764 16774	The amnion
-T835	Noun_Phrase 16812 16815;	the
-16826 16837;	theexocoelomic
-16857 16865	theexocoelomiccavities
-T836	IDENTITY_chain 16812 16815;	the
-16826 16837;	theexocoelomic
-16857 16865	theexocoelomiccavities
-T837	Noun_Phrase 16812 16815;	the
-16843 16865	theectoplacental cavities
-T838	IDENTITY_chain 16812 16815;	the
-16843 16865	theectoplacental cavities
-T839	Noun_Phrase 16812 16824;	the amniotic
-16857 16865	the amnioticcavities
-T840	IDENTITY_chain 16812 16824;	the amniotic
-16857 16865	the amnioticcavities
-T841	Noun_Phrase 16929 16935;	Figure
-16939 16941	Figure5C
+T835	Noun_Phrase 16812 16815;16826 16837;16857 16865	the exocoelomic cavities
+T836	IDENTITY_chain 16812 16815;16826 16837;16857 16865	the exocoelomic cavities
+T837	Noun_Phrase 16812 16815;16843 16865	the ectoplacental cavities
+T838	IDENTITY_chain 16812 16815;16843 16865	the ectoplacental cavities
+T839	Noun_Phrase 16812 16824;16857 16865	the amniotic cavities
+T840	IDENTITY_chain 16812 16824;16857 16865	the amniotic cavities
+T841	Noun_Phrase 16929 16935;16939 16941	Figure 5C
 T842	Noun_Phrase 16929 16938	Figure 5A
 T843	Noun_Phrase 16944 16963	At 8.5 dpc, embryos
 T844	IDENTITY_chain 16944 16963	At 8.5 dpc, embryos
@@ -932,8 +865,7 @@ T863	IDENTITY_chain 17335 17370	the early mesoderm marker brachyury
 T864	Noun_Phrase 17372 17373	T
 T865	Noun_Phrase 17375 17379	[16]
 T866	IDENTITY_chain 17375 17379	[16]
-T867	Noun_Phrase 17396 17399;	the
-17421 17439	theemerging notochord
+T867	Noun_Phrase 17396 17399;17421 17439	the emerging notochord
 T868	Noun_Phrase 17396 17416	the primitive streak
 T869	IDENTITY_chain 17396 17416	the primitive streak
 T870	IDENTITY_chain 17421 17439	emerging notochord
@@ -953,10 +885,8 @@ T883	IDENTITY_chain 17662 17707	sections of paraffin-embedded 7.5 dpc embryos
 T884	Noun_Phrase 17692 17699	7.5 dpc
 T885	Noun_Phrase 17711 17746	TdT-mediated dUTP nick end labeling
 T886	APPOS_relation 17711 17746	TdT-mediated dUTP nick end labeling
-T887	Noun_Phrase 17711 17746;	TdT-mediated dUTP nick end labeling
-17755 17760	TdT-mediated dUTP nick end labelingassay
-T888	IDENTITY_chain 17711 17746;	TdT-mediated dUTP nick end labeling
-17755 17760	TdT-mediated dUTP nick end labelingassay
+T887	Noun_Phrase 17711 17746;17755 17760	TdT-mediated dUTP nick end labeling assay
+T888	IDENTITY_chain 17711 17746;17755 17760	TdT-mediated dUTP nick end labeling assay
 T889	Noun_Phrase 17748 17753	TUNEL
 T890	Noun_Phrase 17762 17771	Figure 6A
 T891	IDENTITY_chain 17762 17771	Figure 6A
@@ -1015,14 +945,10 @@ T943	IDENTITY_chain 19871 19880	Figure 7A
 T944	Noun_Phrase 19883 19950	Vacated deciduas surrounding 8.5 dpc wild-type and Atrxnull embryos
 T945	IDENTITY_chain 19883 19950	Vacated deciduas surrounding 8.5 dpc wild-type and Atrxnull embryos
 T946	Noun_Phrase 19912 19919	8.5 dpc
-T947	IDENTITY_chain 19912 19919;	8.5 dpc
-19934 19950	8.5 dpcAtrxnull embryos
-T948	Noun_Phrase 19912 19919;	8.5 dpc
-19934 19950	8.5 dpcAtrxnull embryos
-T949	Noun_Phrase 19912 19929;	8.5 dpc wild-type
-19943 19950	8.5 dpc wild-typeembryos
-T950	IDENTITY_chain 19912 19929;	8.5 dpc wild-type
-19943 19950	8.5 dpc wild-typeembryos
+T947	IDENTITY_chain 19912 19919;19934 19950	8.5 dpc Atrxnull embryos
+T948	Noun_Phrase 19912 19919;19934 19950	8.5 dpc Atrxnull embryos
+T949	Noun_Phrase 19912 19929;19943 19950	8.5 dpc wild-type embryos
+T950	IDENTITY_chain 19912 19929;19943 19950	8.5 dpc wild-type embryos
 T951	Noun_Phrase 19934 19950	Atrxnull embryos
 T952	Noun_Phrase 19981 19986	WMISH
 T953	Noun_Phrase 19991 20001	expression
@@ -1133,9 +1059,7 @@ T1057	IDENTITY_chain 21873 21878	n = 6
 T1058	Noun_Phrase 21904 21920	an AtrxWT allele
 T1059	APPOS_relation 21904 21920	an AtrxWT allele
 T1060	Noun_Phrase 21907 21913	AtrxWT
-T1061	Noun_Phrase 21922 21931;	AtrxWT/WT
-21940 21951;	AtrxWT/WTAtrxWT/null
-21960 21968	AtrxWT/WTAtrxWT/nullAtrxWT/Y
+T1061	Noun_Phrase 21922 21931;21940 21951;21960 21968	AtrxWT/WT AtrxWT/null AtrxWT/Y
 T1062	Noun_Phrase 21922 21931	AtrxWT/WT
 T1063	Noun_Phrase 21933 21938	n = 6
 T1064	Noun_Phrase 21953 21958	n = 6
@@ -1175,12 +1099,9 @@ T1097	Noun_Phrase 22823 22830	Table 1
 T1098	Noun_Phrase 22849 22854	birth
 T1099	Noun_Phrase 22856 22872	unpublished data
 T1100	Noun_Phrase 22918 22933	carrier females
-T1101	Noun_Phrase 22957 22966;	wild-type
-22992 22999	wild-typefemales
-T1102	APPOS_relation 22957 22966;	wild-type
-22992 22999	wild-typefemales
-T1103	IDENTITY_chain 22957 22966;	wild-type
-22992 22999	wild-typefemales
+T1101	Noun_Phrase 22957 22966;22992 22999	wild-type females
+T1102	APPOS_relation 22957 22966;22992 22999	wild-type females
+T1103	IDENTITY_chain 22957 22966;22992 22999	wild-type females
 T1104	Noun_Phrase 22968 22990	AtrxWT/WT;GATA1-cre+/?
 T1105	Noun_Phrase 23033 23047	carrier female
 T1106	Noun_Phrase 23033 23055	carrier female embryos
@@ -1495,8 +1416,7 @@ T1414	Noun_Phrase 31316 31333	mouse development
 T1415	Noun_Phrase 31387 31406	Atrx-negative cells
 T1416	Noun_Phrase 31434 31453	carrier female mice
 T1417	Noun_Phrase 31455 31460	whose
-T1418	Noun_Phrase 31500 31513;	Atrx-positive
-31532 31537	Atrx-positivecells
+T1418	Noun_Phrase 31500 31513;31532 31537	Atrx-positive cells
 T1419	Noun_Phrase 31518 31537	Atrx-negative cells
 T1420	Noun_Phrase 31553 31574	random X-inactivation
 T1421	Noun_Phrase 31612 31616	Atrx
@@ -1509,13 +1429,10 @@ T1427	Noun_Phrase 31884 31907	trophoblast development
 T1428	Noun_Phrase 31909 31928	Atrx-mutant embryos
 T1429	IDENTITY_chain 31909 31928	Atrx-mutant embryos
 T1430	Noun_Phrase 32024 32035	trophoblast
-T1431	Noun_Phrase 32177 32180;	3.5
-32189 32192	3.5dpc
+T1431	Noun_Phrase 32177 32180;32189 32192	3.5 dpc
 T1432	Noun_Phrase 32277 32289	implantation
-T1433	Noun_Phrase 32306 32325;	organised embryonic
-32344 32354	organised embryonicstructures
-T1434	IDENTITY_chain 32306 32325;	organised embryonic
-32344 32354	organised embryonicstructures
+T1433	Noun_Phrase 32306 32325;32344 32354	organised embryonic structures
+T1434	IDENTITY_chain 32306 32325;32344 32354	organised embryonic structures
 T1435	Noun_Phrase 32374 32393	Atrx-mutant embryos
 T1436	Noun_Phrase 32429 32459	organised embryonic structures
 T1437	Noun_Phrase 32463 32470	7.5 dpc
@@ -1542,8 +1459,7 @@ T1457	Noun_Phrase 33146 33160	secondary TGCs
 T1458	Noun_Phrase 33169 33172	its
 T1459	Noun_Phrase 33181 33192	trophoblast
 T1460	Noun_Phrase 33230 33252	the ectoplacental cone
-T1461	Noun_Phrase 33286 33295;	the Atrx-
-33306 33323	the Atrx-mutant phenotypes
+T1461	Noun_Phrase 33286 33295;33306 33323	the Atrx- mutant phenotypes
 T1462	Noun_Phrase 33348 33352	Atrx
 T1463	Noun_Phrase 33402 33411	chromatin
 T1464	Nonreferential_pronoun 33423 33425	it
@@ -1647,10 +1563,8 @@ T1561	Noun_Phrase 36368 36372	Atrx
 T1562	Noun_Phrase 36401 36403	Xp
 T1563	Noun_Phrase 36418 36440	extraembryonic tissues
 T1564	Nonreferential_pronoun 36451 36453	it
-T1565	Noun_Phrase 36485 36502;	the paternal Atrx
-36516 36522	the paternal Atrxallele
-T1566	IDENTITY_chain 36485 36502;	the paternal Atrx
-36516 36522	the paternal Atrxallele
+T1565	Noun_Phrase 36485 36502;36516 36522	the paternal Atrx allele
+T1566	IDENTITY_chain 36485 36502;36516 36522	the paternal Atrx allele
 T1567	Noun_Phrase 36498 36502	Atrx
 T1568	Noun_Phrase 36558 36563	mouse
 T1569	Noun_Phrase 36558 36575	mouse trophoblast
@@ -1775,8 +1689,7 @@ T1687	Noun_Phrase 40711 40724	Southern blot
 T1688	Noun_Phrase 40830 40840	a 3? probe
 T1689	APPOS_relation 40830 40840	a 3? probe
 T1690	Noun_Phrase 40842 40866	a 0.9-kb HaeIII fragment
-T1691	Noun_Phrase 40880 40886;	Figure
-40894 40896	Figure2B
+T1691	Noun_Phrase 40880 40886;40894 40896	Figure 2B
 T1692	Noun_Phrase 40880 40889	Figure 2A
 T1693	Noun_Phrase 40977 40990	Southern blot
 T1694	Noun_Phrase 41014 41043	a probe from within intron 17
@@ -1814,8 +1727,7 @@ T1725	Noun_Phrase 41772 41793	the MC1neopA cassette
 T1726	Noun_Phrase 41807 41820	Southern blot
 T1727	Noun_Phrase 41844 41879	the intron 17 probe described above
 T1728	Noun_Phrase 41848 41857	intron 17
-T1729	Noun_Phrase 41881 41887;	Figure
-41895 41897	Figure2C
+T1729	Noun_Phrase 41881 41887;41895 41897	Figure 2C
 T1730	Noun_Phrase 41881 41890	Figure 2A
 T1731	Noun_Phrase 41881 41897	Figure 2A and 2C
 T1732	Noun_Phrase 41900 41914	Northern blots
@@ -1855,10 +1767,8 @@ T1765	Noun_Phrase 42918 42939	the mouse rDNA repeat
 T1766	Noun_Phrase 42922 42927	mouse
 T1767	Noun_Phrase 42972 42976	[11]
 T1768	Noun_Phrase 43011 43017	Line 1
-T1769	Noun_Phrase 43011 43017;	Line 1
-43030 43037	Line 1repeats
-T1770	IDENTITY_chain 43011 43017;	Line 1
-43030 43037	Line 1repeats
+T1769	Noun_Phrase 43011 43017;43030 43037	Line 1 repeats
+T1770	IDENTITY_chain 43011 43017;43030 43037	Line 1 repeats
 T1771	Noun_Phrase 43022 43029	Sine B1
 T1772	Noun_Phrase 43022 43037	Sine B1 repeats
 T1773	IDENTITY_chain 43022 43037	Sine B1 repeats
@@ -1901,8 +1811,7 @@ T1809	Noun_Phrase 43828 43845	Southern blotting
 T1810	Noun_Phrase 43828 43845	Southern blotting
 T1811	Noun_Phrase 43878 43897	the intron 17 probe
 T1812	Noun_Phrase 43882 43891	intron 17
-T1813	Noun_Phrase 43910 43916;	Figure
-43924 43926	Figure2C
+T1813	Noun_Phrase 43910 43916;43924 43926	Figure 2C
 T1814	Noun_Phrase 43910 43919	Figure 2A
 T1815	Noun_Phrase 43910 43926	Figure 2A and 2C
 T1816	Noun_Phrase 43932 43949	Cre-recombination
@@ -1963,8 +1872,7 @@ T1870	Noun_Phrase 45433 45440	8.5 dpc
 T1871	Noun_Phrase 45433 45448	8.5 dpc embryos
 T1872	APPOS_relation 45433 45448	8.5 dpc embryos
 T1873	Noun_Phrase 45450 45505	dissected away from maternal and extraembryonic tissues
-T1874	Noun_Phrase 45470 45478;	maternal
-45498 45505	maternaltissues
+T1874	Noun_Phrase 45470 45478;45498 45505	maternal tissues
 T1875	Noun_Phrase 45483 45505	extraembryonic tissues
 T1876	Noun_Phrase 45515 45524	brachyury
 T1877	APPOS_relation 45515 45524	brachyury
@@ -1995,16 +1903,13 @@ T1901	Noun_Phrase 46236 46239	PCR
 T1902	Noun_Phrase 46256 46267	Protocol S1
 T1903	Noun_Phrase 46305 46309	Cell
 T1904	Noun_Phrase 46305 46315	Cell Cycle
-T1905	Noun_Phrase 46328 46341;	Atrx-Positive
-46355 46363	Atrx-PositiveES Cells
+T1905	Noun_Phrase 46328 46341;46355 46363	Atrx-Positive ES Cells
 T1906	Noun_Phrase 46346 46363	Atrxnull ES Cells
-T1907	Noun_Phrase 46437 46447;	functional
-46491 46503	functionalAtrx alleles
+T1907	Noun_Phrase 46437 46447;46491 46503	functional Atrx alleles
 T1908	Noun_Phrase 46449 46467	AtrxWT or Atrxflox
 T1909	APPOS_relation 46449 46467	AtrxWT or Atrxflox
 T1910	Noun_Phrase 46459 46467	Atrxflox
-T1911	Noun_Phrase 46472 46476;	null
-46491 46503	nullAtrx alleles
+T1911	Noun_Phrase 46472 46476;46491 46503	null Atrx alleles
 T1912	Noun_Phrase 46478 46489	Atrx?18?neo
 T1913	APPOS_relation 46478 46489	Atrx?18?neo
 T1914	Noun_Phrase 46523 46529	y-axis
@@ -2019,34 +1924,16 @@ T1922	Noun_Phrase 46584 46596	linear scale
 T1923	IDENTITY_chain 46584 46596	linear scale
 T1924	Noun_Phrase 46599 46620	The gated populations
 T1925	IDENTITY_chain 46599 46620	The gated populations
-T1926	Noun_Phrase 46626 46634;	cells in
-46667 46668;	cells inS
-46727 46751	cells inSphases of the cell cycle
-T1927	IDENTITY_chain 46626 46634;	cells in
-46667 46668;	cells inS
-46727 46751	cells inSphases of the cell cycle
-T1928	Noun_Phrase 46626 46634;	cells in
-46695 46699;	cells inG2/M
-46727 46751	cells inG2/Mphases of the cell cycle
-T1929	IDENTITY_chain 46626 46634;	cells in
-46695 46699;	cells inG2/M
-46727 46751	cells inG2/Mphases of the cell cycle
-T1930	Noun_Phrase 46626 46637;	cells in G1
-46667 46668;	cells in G1S
-46691 46699;	cells in G1Sand G2/M
-46727 46751	cells in G1Sand G2/Mphases of the cell cycle
-T1931	IDENTITY_chain 46626 46637;	cells in G1
-46667 46668;	cells in G1S
-46691 46699;	cells in G1Sand G2/M
-46727 46751	cells in G1Sand G2/Mphases of the cell cycle
-T1932	Noun_Phrase 46626 46637;	cells in G1
-46727 46751	cells in G1phases of the cell cycle
-T1933	IDENTITY_chain 46626 46637;	cells in G1
-46727 46751	cells in G1phases of the cell cycle
-T1934	Noun_Phrase 46635 46637;	G1
-46727 46751	G1phases of the cell cycle
-T1935	IDENTITY_chain 46635 46637;	G1
-46727 46751	G1phases of the cell cycle
+T1926	Noun_Phrase 46626 46634;46667 46668;46727 46751	cells in S phases of the cell cycle
+T1927	IDENTITY_chain 46626 46634;46667 46668;46727 46751	cells in S phases of the cell cycle
+T1928	Noun_Phrase 46626 46634;46695 46699;46727 46751	cells in G2/M phases of the cell cycle
+T1929	IDENTITY_chain 46626 46634;46695 46699;46727 46751	cells in G2/M phases of the cell cycle
+T1930	Noun_Phrase 46626 46637;46667 46668;46691 46699;46727 46751	cells in G1 S and G2/M phases of the cell cycle
+T1931	IDENTITY_chain 46626 46637;46667 46668;46691 46699;46727 46751	cells in G1 S and G2/M phases of the cell cycle
+T1932	Noun_Phrase 46626 46637;46727 46751	cells in G1 phases of the cell cycle
+T1933	IDENTITY_chain 46626 46637;46727 46751	cells in G1 phases of the cell cycle
+T1934	Noun_Phrase 46635 46637;46727 46751	G1 phases of the cell cycle
+T1935	IDENTITY_chain 46635 46637;46727 46751	G1 phases of the cell cycle
 T1936	Noun_Phrase 46639 46644	PIlow
 T1937	IDENTITY_chain 46639 46644	PIlow
 T1938	Noun_Phrase 46701 46705	PIhi
@@ -2058,25 +1945,18 @@ T1943	Noun_Phrase 46737 46751	the cell cycle
 T1944	Noun_Phrase 46741 46745	cell
 T1945	Noun_Phrase 46788 46805	gated populations
 T1946	Noun_Phrase 46836 46841	cells
-T1947	Noun_Phrase 46836 46844;	cells in
-46849 46850;	cells inS
-46861 46878	cells inScell-cycle phases
-T1948	Noun_Phrase 46836 46844;	cells in
-46856 46878	cells inG2/M cell-cycle phases
-T1949	Noun_Phrase 46836 46847;	cells in G1
-46861 46878	cells in G1cell-cycle phases
+T1947	Noun_Phrase 46836 46844;46849 46850;46861 46878	cells in S cell-cycle phases
+T1948	Noun_Phrase 46836 46844;46856 46878	cells in G2/M cell-cycle phases
+T1949	Noun_Phrase 46836 46847;46861 46878	cells in G1 cell-cycle phases
 T1950	Noun_Phrase 46836 46878	cells in G1, S, and G2/M cell-cycle phases
-T1951	Noun_Phrase 46845 46847;	G1
-46861 46878	G1cell-cycle phases
+T1951	Noun_Phrase 46845 46847;46861 46878	G1 cell-cycle phases
 T1952	Noun_Phrase 46861 46878	cell-cycle phases
 T1953	Noun_Phrase 46882 46894	each culture
-T1954	Noun_Phrase 46942 46952;	functional
-46996 47008	functionalAtrx alleles
+T1954	Noun_Phrase 46942 46952;46996 47008	functional Atrx alleles
 T1955	Noun_Phrase 46954 46972	AtrxWT or Atrxflox
 T1956	APPOS_relation 46954 46972	AtrxWT or Atrxflox
 T1957	Noun_Phrase 46964 46972	Atrxflox
-T1958	Noun_Phrase 46977 46981;	null
-46996 47008	nullAtrx alleles
+T1958	Noun_Phrase 46977 46981;46996 47008	null Atrx alleles
 T1959	Noun_Phrase 46983 46994	Atrx?18?neo
 T1960	APPOS_relation 46983 46994	Atrx?18?neo
 T1961	Noun_Phrase 47021 47073	the mitosis marker phosphorylated (Ser10) histone H3
@@ -2096,8 +1976,7 @@ T1974	IDENTITY_chain 47347 47367	additional data file
 T1975	Noun_Phrase 47347 47367	additional data file
 T1976	Noun_Phrase 47370 47379	Figure S2
 T1977	Noun_Phrase 47393 47402	Apoptosis
-T1978	Noun_Phrase 47406 47419;	Atrx-Positive
-47433 47441	Atrx-PositiveES Cells
+T1978	Noun_Phrase 47406 47419;47433 47441	Atrx-Positive ES Cells
 T1979	Noun_Phrase 47424 47441	Atrxnull ES Cells
 T1980	Noun_Phrase 47477 47508	different Atrx alleles as shown
 T1981	IDENTITY_chain 47477 47508	different Atrx alleles as shown
@@ -2118,24 +1997,15 @@ T1995	Noun_Phrase 47873 47878	Mouse
 T1996	Noun_Phrase 47873 47898	Mouse Repetitive Elements
 T1997	IDENTITY_chain 47873 47898	Mouse Repetitive Elements
 T1998	Noun_Phrase 47902 47919	Atrxnull ES Cells
-T1999	Noun_Phrase 47930 47943;	Atrx-positive
-47990 48001;	Atrx-positiveor Atrxnull
-48035 48043	Atrx-positiveor AtrxnullES cells
-T2000	IDENTITY_chain 47930 47943;	Atrx-positive
-47990 48001;	Atrx-positiveor Atrxnull
-48035 48043	Atrx-positiveor AtrxnullES cells
-T2001	Noun_Phrase 47930 47943;	Atrx-positive
-48035 48043	Atrx-positiveES cells
-T2002	APPOS_relation 47930 47943;	Atrx-positive
-48035 48043	Atrx-positiveES cells
+T1999	Noun_Phrase 47930 47943;47990 48001;48035 48043	Atrx-positive or Atrxnull ES cells
+T2000	IDENTITY_chain 47930 47943;47990 48001;48035 48043	Atrx-positive or Atrxnull ES cells
+T2001	Noun_Phrase 47930 47943;48035 48043	Atrx-positive ES cells
+T2002	APPOS_relation 47930 47943;48035 48043	Atrx-positive ES cells
 T2003	Noun_Phrase 47945 47988	bearing either an AtrxWT or Atrxflox allele
-T2004	Noun_Phrase 47960 47962;	an
-47973 47988	anAtrxflox allele
-T2005	IDENTITY_chain 47960 47962;	an
-47973 47988	anAtrxflox allele
+T2004	Noun_Phrase 47960 47962;47973 47988	an Atrxflox allele
+T2005	IDENTITY_chain 47960 47962;47973 47988	an Atrxflox allele
 T2006	Noun_Phrase 47973 47981	Atrxflox
-T2007	Noun_Phrase 47993 48001;	Atrxnull
-48035 48043	AtrxnullES cells
+T2007	Noun_Phrase 47993 48001;48035 48043	Atrxnull ES cells
 T2008	Noun_Phrase 48003 48033	bearing the Atrx?18?neo allele
 T2009	Noun_Phrase 48011 48033	the Atrx?18?neo allele
 T2010	Noun_Phrase 48069 48109	a CpG-methylation-sensitive enzyme HpaII
@@ -2163,17 +2033,14 @@ T2031	IDENTITY_chain 48505 48524	loss of methylation
 T2032	Noun_Phrase 48513 48524	methylation
 T2033	Noun_Phrase 48535 48646	ES cells lacking either the Dnmt1 (Dnmt1?/?) or both the Dnmt3a and Dnmt3b (Dnmt3a3b?/?) DNA methyltransferases
 T2034	IDENTITY_chain 48535 48646	ES cells lacking either the Dnmt1 (Dnmt1?/?) or both the Dnmt3a and Dnmt3b (Dnmt3a3b?/?) DNA methyltransferases
-T2035	Noun_Phrase 48559 48568;	the Dnmt1
-48624 48646	the Dnmt1DNA methyltransferases
+T2035	Noun_Phrase 48559 48568;48624 48646	the Dnmt1 DNA methyltransferases
 T2036	Noun_Phrase 48570 48578	Dnmt1?/?
 T2037	APPOS_relation 48570 48578	Dnmt1?/?
-T2038	Noun_Phrase 48583 48609;	both the Dnmt3a and Dnmt3b
-48624 48646	both the Dnmt3a and Dnmt3bDNA methyltransferases
+T2038	Noun_Phrase 48583 48609;48624 48646	both the Dnmt3a and Dnmt3b DNA methyltransferases
 T2039	Noun_Phrase 48611 48622	Dnmt3a3b?/?
 T2040	APPOS_relation 48611 48622	Dnmt3a3b?/?
 T2041	Noun_Phrase 48679 48685	Line 1
-T2042	Noun_Phrase 48679 48685;	Line 1
-48698 48705	Line 1repeats
+T2042	Noun_Phrase 48679 48685;48698 48705	Line 1 repeats
 T2043	Noun_Phrase 48690 48697	Sine B1
 T2044	Noun_Phrase 48690 48705	Sine B1 repeats
 T2045	Noun_Phrase 48707 48730	Loss of CpG-methylation
@@ -2220,8 +2087,7 @@ T2085	Noun_Phrase 49389 49403	carrier female
 T2086	Noun_Phrase 49405 49416	AtrxWT/null
 T2087	APPOS_relation 49405 49416	AtrxWT/null
 T2088	Noun_Phrase 49426 49437	This tissue
-T2089	Noun_Phrase 49474 49487;	Atrx-positive
-49506 49511	Atrx-positivecells
+T2089	Noun_Phrase 49474 49487;49506 49511	Atrx-positive cells
 T2090	Noun_Phrase 49492 49511	Atrx-negative cells
 T2091	Noun_Phrase 49519 49540	random X-inactivation
 T2092	Noun_Phrase 49542 49554	This section
@@ -2232,10 +2098,8 @@ T2096	Noun_Phrase 49624 49628	400×
 T2097	Noun_Phrase 49633 49664	the same embryo depicted in (A)
 T2098	Noun_Phrase 49662 49663	A
 T2099	Noun_Phrase 49674 49719	the extraembryonic derived-chorionic ectoderm
-T2100	Noun_Phrase 49674 49719;	the extraembryonic derived-chorionic ectoderm
-49725 49746	the extraembryonic derived-chorionic ectodermand visceral endoderm
-T2101	APPOS_relation 49674 49719;	the extraembryonic derived-chorionic ectoderm
-49725 49746	the extraembryonic derived-chorionic ectodermand visceral endoderm
+T2100	Noun_Phrase 49674 49719;49725 49746	the extraembryonic derived-chorionic ectoderm and visceral endoderm
+T2101	APPOS_relation 49674 49719;49725 49746	the extraembryonic derived-chorionic ectoderm and visceral endoderm
 T2102	Noun_Phrase 49721 49723	ce
 T2103	Noun_Phrase 49729 49746	visceral endoderm
 T2104	APPOS_relation 49729 49746	visceral endoderm
@@ -2320,13 +2184,11 @@ T2182	APPOS_relation 51893 51915	the principal features
 T2183	Noun_Phrase 51917 51936	the PHD-like domain
 T2184	Noun_Phrase 51917 51970	the PHD-like domain and the seven SWI/SNF-like motifs
 T2185	Noun_Phrase 51993 52009	full-length ATRX
-T2186	Noun_Phrase 52019 52046;	the truncated ATRXt isoform
-52087 52180	the truncated ATRXt isoformthat arises through the failure to splice intron 11 and the use of an intronic poly(A) signal
+T2186	Noun_Phrase 52019 52046;52087 52180	the truncated ATRXt isoform that arises through the failure to splice intron 11 and the use of an intronic poly(A) signal
 T2187	Noun_Phrase 52077 52085	~200 kDa
 T2188	Noun_Phrase 52129 52138	intron 11
 T2189	Noun_Phrase 52211 52216	ATRXt
-T2190	Noun_Phrase 52265 52285;	recombinant proteins
-52309 52336	recombinant proteinsused to generate antibodies
+T2190	Noun_Phrase 52265 52285;52309 52336	recombinant proteins used to generate antibodies
 T2191	Noun_Phrase 52287 52307	A2, FXNP5, and H-300
 T2192	APPOS_relation 52287 52307	A2, FXNP5, and H-300
 T2193	Noun_Phrase 52302 52307	H-300
@@ -2344,10 +2206,8 @@ T2204	Noun_Phrase 52569 52575	AtrxWT
 T2205	APPOS_relation 52569 52575	AtrxWT
 T2206	IDENTITY_chain 52569 52575	AtrxWT
 T2207	Noun_Phrase 52603 52610	exon 18
-T2208	Noun_Phrase 52627 52647;	the targeting vector
-52683 52722	the targeting vectorresulting from homologous recombination
-T2209	Noun_Phrase 52652 52671;	the targeted allele
-52683 52722	the targeted alleleresulting from homologous recombination
+T2208	Noun_Phrase 52627 52647;52683 52722	the targeting vector resulting from homologous recombination
+T2209	Noun_Phrase 52652 52671;52683 52722	the targeted allele resulting from homologous recombination
 T2210	Noun_Phrase 52673 52681	Atrxflox
 T2211	APPOS_relation 52673 52681	Atrxflox
 T2212	Noun_Phrase 52724 52768	The loxP target sites of the Cre recombinase
@@ -2356,8 +2216,7 @@ T2214	Noun_Phrase 52867 52886	the Cre recombinase
 T2215	Noun_Phrase 52921 52945	C in the Atrxflox allele
 T2216	Noun_Phrase 52926 52945	the Atrxflox allele
 T2217	Noun_Phrase 52930 52938	Atrxflox
-T2218	Noun_Phrase 52967 52992;	the Cre-recombined allele
-53046 53121	the Cre-recombined allelein which both exon 18 and the MC1neopA selection cassette have been deleted
+T2218	Noun_Phrase 52967 52992;53046 53121	the Cre-recombined allele in which both exon 18 and the MC1neopA selection cassette have been deleted
 T2219	Noun_Phrase 52994 53005	Atrx?18?neo
 T2220	APPOS_relation 52994 53005	Atrx?18?neo
 T2221	Noun_Phrase 53023 53044	recombination event C
@@ -2372,14 +2231,10 @@ T2229	Noun_Phrase 53427 53446	the Atrxflox allele
 T2230	Noun_Phrase 53431 53439	Atrxflox
 T2231	Noun_Phrase 53448 53463	1/F12 and 1/G11
 T2232	APPOS_relation 53448 53463	1/F12 and 1/G11
-T2233	Noun_Phrase 53488 53497;	the 20/27
-53533 53539	the 20/27probes
-T2234	IDENTITY_chain 53488 53497;	the 20/27
-53533 53539	the 20/27probes
-T2235	Noun_Phrase 53513 53519;	Hae0.9
-53533 53539	Hae0.9probes
-T2236	IDENTITY_chain 53513 53519;	Hae0.9
-53533 53539	Hae0.9probes
+T2233	Noun_Phrase 53488 53497;53533 53539	the 20/27 probes
+T2234	IDENTITY_chain 53488 53497;53533 53539	the 20/27 probes
+T2235	Noun_Phrase 53513 53519;53533 53539	Hae0.9 probes
+T2236	IDENTITY_chain 53513 53519;53533 53539	Hae0.9 probes
 T2237	Noun_Phrase 53563 53580	the AtrxWT allele
 T2238	Noun_Phrase 53567 53573	AtrxWT
 T2239	Noun_Phrase 53649 53660	20/27 probe
@@ -2407,10 +2262,8 @@ T2260	Noun_Phrase 54143 54155	The membrane
 T2261	Noun_Phrase 54193 54200	exon 10
 T2262	Noun_Phrase 54204 54217	the Atrx gene
 T2263	Noun_Phrase 54208 54212	Atrx
-T2264	Noun_Phrase 54336 54352;	full-length Atrx
-54362 54394	full-length Atrxand the truncated Atrxt isoforms
-T2265	Noun_Phrase 54336 54352;	full-length Atrx
-54386 54394	full-length Atrxisoforms
+T2264	Noun_Phrase 54336 54352;54362 54394	full-length Atrx and the truncated Atrxt isoforms
+T2265	Noun_Phrase 54336 54352;54386 54394	full-length Atrx isoforms
 T2266	Noun_Phrase 54366 54394	the truncated Atrxt isoforms
 T2267	Noun_Phrase 54420 54421	E
 T2268	Noun_Phrase 54494 54495	C
@@ -2422,13 +2275,10 @@ T2273	Noun_Phrase 54542 54611	raised against peptide A2 of the human ATRX protei
 T2274	Noun_Phrase 54571 54593	the human ATRX protein
 T2275	Noun_Phrase 54575 54585	human ATRX
 T2276	Noun_Phrase 54603 54611	Figure 1
-T2277	Noun_Phrase 54614 54617;	The
-54634 54657	Thetruncated Atrx isoforms
-T2278	Noun_Phrase 54614 54629;	The full-length
-54644 54657	The full-lengthAtrx isoforms
+T2277	Noun_Phrase 54614 54617;54634 54657	The truncated Atrx isoforms
+T2278	Noun_Phrase 54614 54629;54644 54657	The full-length Atrx isoforms
 T2279	Noun_Phrase 54614 54657	The full-length and truncated Atrx isoforms
-T2280	Noun_Phrase 54684 54690;	Growth
-54707 54735	GrowthDefects in Atrxnull ES Cells
+T2280	Noun_Phrase 54684 54690;54707 54735	Growth Defects in Atrxnull ES Cells
 T2281	Noun_Phrase 54695 54706	Methylation
 T2282	Noun_Phrase 54695 54735	Methylation Defects in Atrxnull ES Cells
 T2283	Noun_Phrase 54718 54735	Atrxnull ES Cells
@@ -2449,8 +2299,7 @@ T2297	IDENTITY_chain 55132 55153	the different alleles
 T2298	Noun_Phrase 55171 55172	B
 T2299	Noun_Phrase 55222 55243	the mouse rDNA repeat
 T2300	Noun_Phrase 55226 55231	mouse
-T2301	Noun_Phrase 55379 55389;	the probes
-55406 55444	the probesused in the Southern blots shown in (C
+T2301	Noun_Phrase 55379 55389;55406 55444	the probes used in the Southern blots shown in (C
 T2302	Noun_Phrase 55391 55404	RIB3 and RIB4
 T2303	APPOS_relation 55391 55404	RIB3 and RIB4
 T2304	Noun_Phrase 55414 55445	the Southern blots shown in (C)
@@ -2463,17 +2312,13 @@ T2310	Noun_Phrase 55557 55568	methylation
 T2311	Noun_Phrase 55597 55628	the Southern blots shown in (C)
 T2312	Noun_Phrase 55626 55627	C
 T2313	Noun_Phrase 55632 55633	C
-T2314	Noun_Phrase 55644 55657;	Atrx-positive
-55756 55764	Atrx-positiveES cells
-T2315	APPOS_relation 55644 55657;	Atrx-positive
-55756 55764	Atrx-positiveES cells
+T2314	Noun_Phrase 55644 55657;55756 55764	Atrx-positive ES cells
+T2315	APPOS_relation 55644 55657;55756 55764	Atrx-positive ES cells
 T2316	Noun_Phrase 55659 55664	Atrx+
-T2317	Noun_Phrase 55681 55690;	an AtrxWT
-55703 55709	an AtrxWTallele
+T2317	Noun_Phrase 55681 55690;55703 55709	an AtrxWT allele
 T2318	Noun_Phrase 55684 55690	AtrxWT
 T2319	Noun_Phrase 55694 55702	Atrxflox
-T2320	Noun_Phrase 55714 55722;	Atrxnull
-55756 55764	AtrxnullES cells
+T2320	Noun_Phrase 55714 55722;55756 55764	Atrxnull ES cells
 T2321	Noun_Phrase 55732 55754	the Atrx?18?neo allele
 T2322	Noun_Phrase 55842 55886	Southern blotting using the probes indicated
 T2323	Noun_Phrase 56032 56042	The y-axis
@@ -2517,25 +2362,19 @@ T2360	Noun_Phrase 57329 57334	mouse
 T2361	Noun_Phrase 57376 57384	Figure 5
 T2362	IDENTITY_chain 57376 57384	Figure 5
 T2363	Noun_Phrase 57400 57416	Atrxnull Embryos
-T2364	Noun_Phrase 57400 57419;	Atrxnull Embryos at
-57432 57439	Atrxnull Embryos at8.5 dpc
+T2364	Noun_Phrase 57400 57419;57432 57439	Atrxnull Embryos at 8.5 dpc
 T2365	Noun_Phrase 57400 57427	Atrxnull Embryos at 7.5 dpc
 T2366	Noun_Phrase 57420 57427	7.5 dpc
 T2367	Noun_Phrase 57420 57439	7.5 dpc and 8.5 dpc
 T2368	Noun_Phrase 57432 57439	8.5 dpc
 T2369	Noun_Phrase 57441 57449	Paraffin
-T2370	Noun_Phrase 57441 57461;	Paraffin sections of
-57475 57499	Paraffin sections ofAtrxnull 7.5 dpc embryos
-T2371	IDENTITY_chain 57441 57461;	Paraffin sections of
-57475 57499	Paraffin sections ofAtrxnull 7.5 dpc embryos
-T2372	Noun_Phrase 57441 57471;	Paraffin sections of wild-type
-57484 57499	Paraffin sections of wild-type7.5 dpc embryos
-T2373	IDENTITY_chain 57441 57471;	Paraffin sections of wild-type
-57484 57499	Paraffin sections of wild-type7.5 dpc embryos
+T2370	Noun_Phrase 57441 57461;57475 57499	Paraffin sections of Atrxnull 7.5 dpc embryos
+T2371	IDENTITY_chain 57441 57461;57475 57499	Paraffin sections of Atrxnull 7.5 dpc embryos
+T2372	Noun_Phrase 57441 57471;57484 57499	Paraffin sections of wild-type 7.5 dpc embryos
+T2373	IDENTITY_chain 57441 57471;57484 57499	Paraffin sections of wild-type 7.5 dpc embryos
 T2374	Noun_Phrase 57441 57499	Paraffin sections of wild-type or Atrxnull 7.5 dpc embryos
 T2375	IDENTITY_chain 57441 57499	Paraffin sections of wild-type or Atrxnull 7.5 dpc embryos
-T2376	Noun_Phrase 57462 57471;	wild-type
-57484 57499	wild-type7.5 dpc embryos
+T2376	Noun_Phrase 57462 57471;57484 57499	wild-type 7.5 dpc embryos
 T2377	Noun_Phrase 57462 57499	wild-type or Atrxnull 7.5 dpc embryos
 T2378	IDENTITY_chain 57462 57499	wild-type or Atrxnull 7.5 dpc embryos
 T2379	Noun_Phrase 57475 57499	Atrxnull 7.5 dpc embryos
@@ -2612,13 +2451,10 @@ T2449	Noun_Phrase 58302 58309	Mitosis
 T2450	Noun_Phrase 58313 58329	Atrxnull Embryos
 T2451	Noun_Phrase 58332 58333	A
 T2452	Noun_Phrase 58335 58343	Paraffin
-T2453	Noun_Phrase 58335 58355;	Paraffin sections of
-58369 58393	Paraffin sections ofAtrxnull 7.5 dpc embryos
-T2454	Noun_Phrase 58335 58365;	Paraffin sections of wild-type
-58378 58393	Paraffin sections of wild-type7.5 dpc embryos
+T2453	Noun_Phrase 58335 58355;58369 58393	Paraffin sections of Atrxnull 7.5 dpc embryos
+T2454	Noun_Phrase 58335 58365;58378 58393	Paraffin sections of wild-type 7.5 dpc embryos
 T2455	Noun_Phrase 58335 58393	Paraffin sections of wild-type or Atrxnull 7.5 dpc embryos
-T2456	Noun_Phrase 58356 58365;	wild-type
-58378 58393	wild-type7.5 dpc embryos
+T2456	Noun_Phrase 58356 58365;58378 58393	wild-type 7.5 dpc embryos
 T2457	Noun_Phrase 58356 58393	wild-type or Atrxnull 7.5 dpc embryos
 T2458	Noun_Phrase 58369 58393	Atrxnull 7.5 dpc embryos
 T2459	Noun_Phrase 58378 58385	7.5 dpc
@@ -2629,13 +2465,10 @@ T2463	Noun_Phrase 58505 58513	Sections
 T2464	Noun_Phrase 58539 58543	DAPI
 T2465	Noun_Phrase 58547 58548	B
 T2466	Noun_Phrase 58550 58558	Paraffin
-T2467	Noun_Phrase 58550 58570;	Paraffin sections of
-58584 58608	Paraffin sections ofAtrxnull 7.5 dpc embryos
-T2468	Noun_Phrase 58550 58580;	Paraffin sections of wild-type
-58593 58608	Paraffin sections of wild-type7.5 dpc embryos
+T2467	Noun_Phrase 58550 58570;58584 58608	Paraffin sections of Atrxnull 7.5 dpc embryos
+T2468	Noun_Phrase 58550 58580;58593 58608	Paraffin sections of wild-type 7.5 dpc embryos
 T2469	Noun_Phrase 58550 58608	Paraffin sections of wild-type or Atrxnull 7.5 dpc embryos
-T2470	Noun_Phrase 58571 58580;	wild-type
-58593 58608	wild-type7.5 dpc embryos
+T2470	Noun_Phrase 58571 58580;58593 58608	wild-type 7.5 dpc embryos
 T2471	Noun_Phrase 58571 58608	wild-type or Atrxnull 7.5 dpc embryos
 T2472	Noun_Phrase 58584 58608	Atrxnull 7.5 dpc embryos
 T2473	Noun_Phrase 58593 58600	7.5 dpc
@@ -2646,8 +2479,7 @@ T2477	Noun_Phrase 58701 58709	Sections
 T2478	Noun_Phrase 58735 58747	haematoxylin
 T2479	Noun_Phrase 58759 58760	A
 T2480	Noun_Phrase 58767 58768	B
-T2481	Noun_Phrase 58771 58774;	the
-58787 58802	theabsence of Atrx
+T2481	Noun_Phrase 58771 58774;58787 58802	the absence of Atrx
 T2482	Noun_Phrase 58798 58802	Atrx
 T2483	Noun_Phrase 58806 58817	each embryo
 T2484	IDENTITY_chain 58806 58817	each embryo
@@ -2683,21 +2515,13 @@ T2513	Noun_Phrase 59702 59706	Pl-1
 T2514	APPOS_relation 59702 59706	Pl-1
 T2515	Noun_Phrase 59708 59724	a marker of TGCs
 T2516	Noun_Phrase 59720 59724	TGCs
-T2517	Noun_Phrase 59729 59798;	the implantation sites in vacated deciduas that had contained 8.5 dpc
-59824 59832;	the implantation sites in vacated deciduas that had contained 8.5 dpcAtrxnull
-59849 59856	the implantation sites in vacated deciduas that had contained 8.5 dpcAtrxnullembryos
-T2518	Noun_Phrase 59729 59808;	the implantation sites in vacated deciduas that had contained 8.5 dpc wild-type
-59849 59856	the implantation sites in vacated deciduas that had contained 8.5 dpc wild-typeembryos
+T2517	Noun_Phrase 59729 59798;59824 59832;59849 59856	the implantation sites in vacated deciduas that had contained 8.5 dpc Atrxnull embryos
+T2518	Noun_Phrase 59729 59808;59849 59856	the implantation sites in vacated deciduas that had contained 8.5 dpc wild-type embryos
 T2519	Noun_Phrase 59733 59745	implantation
-T2520	Noun_Phrase 59755 59808;	vacated deciduas that had contained 8.5 dpc wild-type
-59821 59832;	vacated deciduas that had contained 8.5 dpc wild-typeor Atrxnull
-59849 59856	vacated deciduas that had contained 8.5 dpc wild-typeor Atrxnullembryos
+T2520	Noun_Phrase 59755 59808;59821 59832;59849 59856	vacated deciduas that had contained 8.5 dpc wild-type or Atrxnull embryos
 T2521	Noun_Phrase 59791 59798	8.5 dpc
-T2522	Noun_Phrase 59791 59798;	8.5 dpc
-59824 59832;	8.5 dpcAtrxnull
-59849 59856	8.5 dpcAtrxnullembryos
-T2523	Noun_Phrase 59791 59808;	8.5 dpc wild-type
-59849 59856	8.5 dpc wild-typeembryos
+T2522	Noun_Phrase 59791 59798;59824 59832;59849 59856	8.5 dpc Atrxnull embryos
+T2523	Noun_Phrase 59791 59808;59849 59856	8.5 dpc wild-type embryos
 T2524	Noun_Phrase 59799 59808	wild-type
 T2525	Noun_Phrase 59810 59819	AtrxWT/WT
 T2526	APPOS_relation 59810 59819	AtrxWT/WT
@@ -2709,20 +2533,16 @@ T2531	Noun_Phrase 59933 59937	TGCs
 T2532	Noun_Phrase 59955 59959	Pl-1
 T2533	Noun_Phrase 59963 59964	C
 T2534	Noun_Phrase 59966 59974	Paraffin
-T2535	Noun_Phrase 59966 59986;	Paraffin sections of
-60000 60024	Paraffin sections ofAtrxnull 7.5 dpc embryos
-T2536	Noun_Phrase 59966 59996;	Paraffin sections of wild-type
-60009 60024	Paraffin sections of wild-type7.5 dpc embryos
+T2535	Noun_Phrase 59966 59986;60000 60024	Paraffin sections of Atrxnull 7.5 dpc embryos
+T2536	Noun_Phrase 59966 59996;60009 60024	Paraffin sections of wild-type 7.5 dpc embryos
 T2537	Noun_Phrase 59966 60024	Paraffin sections of wild-type or Atrxnull 7.5 dpc embryos
-T2538	Noun_Phrase 59987 59996;	wild-type
-60009 60024	wild-type7.5 dpc embryos
+T2538	Noun_Phrase 59987 59996;60009 60024	wild-type 7.5 dpc embryos
 T2539	Noun_Phrase 59987 60024	wild-type or Atrxnull 7.5 dpc embryos
 T2540	Noun_Phrase 60000 60024	Atrxnull 7.5 dpc embryos
 T2541	Noun_Phrase 60009 60016	7.5 dpc
 T2542	Noun_Phrase 60039 60044	their
 T2543	Noun_Phrase 60039 60053	their deciduas
-T2544	Noun_Phrase 60096 60099;	The
-60112 60127	Theabsence of Atrx
+T2544	Noun_Phrase 60096 60099;60112 60127	The absence of Atrx
 T2545	Noun_Phrase 60123 60127	Atrx
 T2546	Noun_Phrase 60131 60142	each embryo
 T2547	Noun_Phrase 60170 60187	adjacent sections
@@ -2750,22 +2570,14 @@ T2568	Noun_Phrase 60533 60571	the Paternally Inherited AtrxWT Allele
 T2569	Noun_Phrase 60558 60564	AtrxWT
 T2570	Noun_Phrase 60575 60590	Carrier Females
 T2571	Noun_Phrase 60592 60600	Paraffin
-T2572	Noun_Phrase 60592 60622;	Paraffin sections of wild-type
-60667 60682	Paraffin sections of wild-type7.5 dpc embryos
-T2573	IDENTITY_chain 60613 60622;	wild-type
-60638 60652;	wild-typecarrier female
-60667 60668;	wild-typecarrier female7
-60669 60682	wild-typecarrier female75 dpc embryos
-T2574	Noun_Phrase 60613 60622;	wild-type
-60638 60652;	wild-typecarrier female
-60667 60682	wild-typecarrier female7.5 dpc embryos
-T2575	Noun_Phrase 60613 60622;	wild-type
-60667 60682	wild-type7.5 dpc embryos
+T2572	Noun_Phrase 60592 60622;60667 60682	Paraffin sections of wild-type 7.5 dpc embryos
+T2573	IDENTITY_chain 60613 60622;60638 60652;60667 60668;60669 60682	wild-type carrier female 7 5 dpc embryos
+T2574	Noun_Phrase 60613 60622;60638 60652;60667 60682	wild-type carrier female 7.5 dpc embryos
+T2575	Noun_Phrase 60613 60622;60667 60682	wild-type 7.5 dpc embryos
 T2576	Noun_Phrase 60613 60622	wild-type
 T2577	Noun_Phrase 60624 60632	AtrxWT/Y
 T2578	APPOS_relation 60624 60632	AtrxWT/Y
-T2579	APPOS_relation 60638 60652;	carrier female
-60667 60682	carrier female7.5 dpc embryos
+T2579	APPOS_relation 60638 60652;60667 60682	carrier female 7.5 dpc embryos
 T2580	Noun_Phrase 60654 60665	AtrxWT/null
 T2581	Noun_Phrase 60667 60674	7.5 dpc
 T2582	Noun_Phrase 60697 60702	their

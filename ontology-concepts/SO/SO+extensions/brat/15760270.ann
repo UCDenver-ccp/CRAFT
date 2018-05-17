@@ -21,8 +21,7 @@ T19	SO_EXT_sequence_nullness_or_absence 1340 1341	?
 T20	SO_EXT_wild_type_entity_or_quality 1409 1418	wild-type
 T21	SO_EXT_sequence_nullness_or_absence 1507 1508	?
 T22	SO_EXT_sequence_nullness_or_absence 1509 1510	?
-T23	SO_EXT_0000087 1962 1969;	nuclear
-1988 1993	nucleargenes
+T23	SO_EXT_0000087 1962 1969;1988 1993	nuclear genes
 T24	SO_EXT_0000088 1974 1993	mitochondrial genes
 T25	SO_EXT_0000704 3212 3216	gene
 T26	SO_EXT_sequence_coding_function 3217 3225	encoding
@@ -64,15 +63,12 @@ T61	SO_EXT_sequence_nullness_or_absence 6786 6787	?
 T62	SO_EXT_sequence_nullness_or_absence 6788 6789	?
 T63	SO_EXT_0000704 6902 6906	gene
 T64	SO_EXT_0000112 6941 6948	primers
-T65	SO_EXT_0000833 6976 6985;	region of
-7002 7012	region oftranscript
+T65	SO_EXT_0000833 6976 6985;7002 7012	region of transcript
 T66	SO_EXT_0000704 6997 7001	gene
-T67	SO_EXT_0000333 7028 7032;	exon
-7037 7043	exonborder
+T67	SO_EXT_0000333 7028 7032;7037 7043	exon border
 T68	SO_EXT_sequence_nullness_or_absence 7077 7078	?
 T69	SO_EXT_sequence_nullness_or_absence 7079 7080	?
-T70	SO_EXT_0000333 7094 7098;	exon
-7103 7109	exonborder
+T70	SO_EXT_0000333 7094 7098;7103 7109	exon border
 T71	SO_EXT_sequence_nullness_or_absence 7153 7154	?
 T72	SO_EXT_sequence_nullness_or_absence 7155 7156	?
 T73	SO_EXT_0000147 7168 7172	exon
@@ -83,8 +79,7 @@ T77	SO_EXT_sequence_nullness_or_absence 7250 7251	?
 T78	SO_EXT_0000147 7286 7290	exon
 T79	SO_EXT_sequence_nullness_or_absence 7329 7330	?
 T80	SO_EXT_sequence_nullness_or_absence 7331 7332	?
-T81	SO_EXT_0000333 7354 7358;	exon
-7365 7371	exonborder
+T81	SO_EXT_0000333 7354 7358;7365 7371	exon border
 T82	SO_EXT_genotype_or_entity_with_genotype 7414 7423	genotypes
 T83	SO_EXT_wild_type_entity_or_quality 7441 7443	WT
 T84	SO_EXT_sequence_nullness_or_absence 7454 7455	?
@@ -521,8 +516,7 @@ T514	SO_EXT_0000673 42795 42805	transcript
 T515	SO_EXT_sequence_coding_function 42811 42818	encodes
 T516	SO_EXT_sequence_truncation_process 42821 42830	truncated
 T517	SO_EXT_0000673 42872 42882	transcript
-T518	SO_EXT_0000333 42897 42901;	exon
-42906 42912	exonborder
+T518	SO_EXT_0000333 42897 42901;42906 42912	exon border
 T519	SO_EXT_sequence_altered_entity_or_alteration_process 43199 43205	mutant
 T520	SO_EXT_sequence_truncation_process 43207 43216	truncated
 T521	SO_EXT_0000417 43321 43328	domains
@@ -552,8 +546,7 @@ T544	SO_EXT_sequence_alteration_process 45342 45350	mutating
 T545	CHEBI_SO_EXT_base 45355 45360	bases
 T546	SO_EXT_sequence_downstreamness 45430 45440	downstream
 T547	SO_EXT_0000147 45444 45448	exon
-T548	SO_EXT_0000121 45536 45538;	5?
-45546 45553	5?primers
+T548	SO_EXT_0000121 45536 45538;45546 45553	5? primers
 T549	SO_EXT_0000132 45543 45553	3? primers
 T550	SO_EXT_sequence_cloning_process 45650 45656	cloned
 T551	SO_EXT_0001644 45681 45697	targeting vector
@@ -649,8 +642,7 @@ T640	SO_EXT_wild_type_entity_or_quality 66772 66781	wild-type
 T641	SO_EXT_sequence_deletion_entity_or_process 66813 66821	Deletion
 T642	SO_EXT_0000704 66836 66840	Gene
 T643	SO_EXT_0000704 66863 66867	gene
-T644	SO_EXT_0000842 66890 66899;	region of
-66918 66922	region ofgene
+T644	SO_EXT_0000842 66890 66899;66918 66922	region of gene
 T645	SO_EXT_0000147 66934 66939	exons
 T646	SO_EXT_0000061 66988 67018	restriction endonuclease sites
 T647	SO_EXT_engineered_biological_sequence 67049 67058	construct
@@ -752,8 +744,7 @@ T742	SO_EXT_sequence_nullness_or_absence 70448 70449	?
 T743	SO_EXT_normal_or_wild_type_or_present 70756 70757	+
 T744	SO_EXT_normal_or_wild_type_or_present 70758 70759	+
 T745	SO_EXT_0000704 70773 70777	Gene
-T746	SO_EXT_0000087 70836 70843;	nuclear
-70862 70867	nucleargenes
+T746	SO_EXT_0000087 70836 70843;70862 70867	nuclear genes
 T747	SO_EXT_0000088 70848 70867	mitochondrial genes
 T748	SO_EXT_wild_type_entity_or_quality 71123 71125	WT
 T749	SO_EXT_normal_or_wild_type_or_present 71225 71226	+

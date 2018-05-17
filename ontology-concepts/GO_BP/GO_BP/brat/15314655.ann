@@ -1,8 +1,7 @@
 T0	GO_0030097 103 116	Hematopoiesis
 T1	GO_0030097 128 141	Hematopoiesis
 T2	GO_0065007 214 222	regulate
-T3	GO_0035162 358 367;	embryonic
-378 391	embryonichematopoiesis
+T3	GO_0035162 358 367;378 391	embryonic hematopoiesis
 T4	GO_0030097 642 655	hematopoietic
 T5	GO_0010467 696 703	express
 T6	GO_0030097 721 734	hematopoietic
@@ -11,18 +10,15 @@ T8	GO_0010467 881 891	expression
 T9	GO_0035162 924 947	embryonic hematopoiesis
 T10	GO_0010467 1024 1034	expression
 T11	GO_0030097 1070 1083	hematopoietic
-T12	GO_0048468 1089 1093;	cell
-1109 1118	cellformation
+T12	GO_0048468 1089 1093;1109 1118	cell formation
 T13	GO_0010467 1134 1144	expression
 T14	GO_0010467 1392 1402	expression
 T15	GO_0048469 1430 1445	cell maturation
-T16	GO_0030154 1534 1552;	differentiation of
-1567 1572	differentiation ofcells
+T16	GO_0030154 1534 1552;1567 1572	differentiation of cells
 T17	GO_0030097 1553 1566	hematopoietic
 T18	GO_0030097 1604 1617	Hematopoiesis
 T19	GO_0008283 1656 1674	cell proliferation
-T20	GO_0030154 1679 1697;	differentiation of
-1738 1743	differentiation ofcells
+T20	GO_0030154 1679 1697;1738 1743	differentiation of cells
 T21	GO_0030097 1822 1835	Hematopoiesis
 T22	GO_0030097 2172 2185	hematopoiesis
 T23	GO_0030097 2323 2336	hematopoiesis
@@ -32,24 +28,20 @@ T26	GO_0065007 2822 2829	control
 T27	GO_0030097 2830 2843	hematopoiesis
 T28	GO_0010467 3022 3029	express
 T29	GO_0035162 3083 3106	embryonic hematopoietic
-T30	GO_0060215 3362 3381;	primitive embryonic
-3403 3416	primitive embryonichematopoiesis
-T31	GO_0060216 3386 3396;	definitive
-3403 3416	definitivehematopoiesis
+T30	GO_0060215 3362 3381;3403 3416	primitive embryonic hematopoiesis
+T31	GO_0060216 3386 3396;3403 3416	definitive hematopoiesis
 T32	GO_0010467 3542 3549	express
 T33	GO_0030097 3567 3580	hematopoietic
 T34	GO_0006915 3615 3624	apoptosis
 T35	GO_0006338 4283 4303	chromatin remodeling
 T36	GO_0007566 5187 5199	implantation
 T37	GO_0009790 5200 5213	embryogenesis
-T38	GO_0035162 5521 5530;	embryonic
-5541 5554	embryonichematopoiesis
+T38	GO_0035162 5521 5530;5541 5554	embryonic hematopoiesis
 T39	GO_0035162 5663 5686	embryonic hematopoiesis
 T40	GO_0010467 5706 5715	expressed
 T41	GO_0030097 5753 5766	hematopoietic
 T42	GO_0048468 6047 6063	cell development
-T43	GO_0060319 6133 6142;	Primitive
-6158 6172	PrimitiveErythropoiesis
+T43	GO_0060319 6133 6142;6158 6172	Primitive Erythropoiesis
 T44	GO_0060318 6147 6172	Definitive Erythropoiesis
 T45	GO_0030097 6260 6273	hematopoietic
 T46	GO_0010467 6274 6289	gene expression
@@ -62,23 +54,16 @@ T52	GO_0009566 6784 6797	fertilization
 T53	GO_0010467 6853 6863	expression
 T54	GO_0030097 6904 6917	hematopoietic
 T55	GO_0030097 7062 7075	hematopoietic
-T56	GO_0009790 7128 7142;	development of
-7154 7161	development ofembryos
+T56	GO_0009790 7128 7142;7154 7161	development of embryos
 T57	GO_0008219 7192 7202	cell death
 T58	GO_0010467 7213 7223	expression
 T59	GO_0097152 7519 7549	apoptosis of mesenchymal cells
-T60	GO_0048468 7653 7664;	development
-7678 7680;	developmentof
-7717 7722	developmentofcells
-T61	GO_0014031 7653 7664;	development
-7678 7680;	developmentof
-7737 7754	developmentofmesenchymal cells
+T60	GO_0048468 7653 7664;7678 7680;7717 7722	development of cells
+T61	GO_0014031 7653 7664;7678 7680;7737 7754	development of mesenchymal cells
 T62	GO_0060216 7774 7798	definitive hematopoiesis
 T63	GO_0030097 8235 8248	hematopoiesis
-T64	GO_0030154 8528 8546;	differentiation of
-8555 8560	differentiation ofcells
-T65	GO_0060319 8652 8661;	primitive
-8677 8691	primitiveerythropoiesis
+T64	GO_0030154 8528 8546;8555 8560	differentiation of cells
+T65	GO_0060319 8652 8661;8677 8691	primitive erythropoiesis
 T66	GO_0060318 8666 8691	definitive erythropoiesis
 T67	GO_0007126 9716 9723	meioses
 T68	GO_0006412 11688 11699	translation
@@ -112,10 +97,8 @@ T95	GO_0010467 14922 14931	expressed
 T96	GO_0010467 15025 15034	expressed
 T97	GO_0010467 15137 15147	Expression
 T98	GO_0030097 15165 15178	Hematopoiesis
-T99	GO_0048821 15444 15456;	formation of
-15467 15479	formation oferythrocytes
-T100	GO_0048568 15543 15552;	embryonic
-15567 15580	embryonicorganogenesis
+T99	GO_0048821 15444 15456;15467 15479	formation of erythrocytes
+T100	GO_0048568 15543 15552;15567 15580	embryonic organogenesis
 T101	GO_0010467 15997 16007	expression
 T102	GO_0030097 16332 16345	hematopoiesis
 T103	GO_0030218 16379 16393	Erythropoiesis
@@ -131,12 +114,10 @@ T112	GO_0010467 19057 19067	expression
 T113	GO_0065007 19096 19105	regulated
 T114	GO_0006281 19416 19426	DNA repair
 T115	GO_0010467 19545 19555	expression
-T116	GO_0030154 19584 19602;	differentiation of
-19607 19612	differentiation ofcells
+T116	GO_0030154 19584 19602;19607 19612	differentiation of cells
 T117	GO_0010467 19869 19879	expression
 T118	GO_0010467 20006 20016	expression
-T119	GO_0048469 20043 20056;	maturation of
-20081 20086	maturation ofcells
+T119	GO_0048469 20043 20056;20081 20086	maturation of cells
 T120	GO_0010467 20187 20196	expressed
 T121	GO_0065007 20581 20592	controlling
 T122	GO_0010467 20593 20608	gene expression
@@ -148,8 +129,7 @@ T127	GO_0030097 21898 21911	hematopoietic
 T128	GO_0009790 21929 21942	embryogenesis
 T129	GO_0010467 22012 22022	expression
 T130	GO_0030097 22067 22080	hematopoiesis
-T131	GO_0035162 22117 22133;	hematopoiesis in
-22144 22151	hematopoiesis inembryos
+T131	GO_0035162 22117 22133;22144 22151	hematopoiesis in embryos
 T132	GO_0010467 22255 22264	expressed
 T133	GO_0030097 22472 22485	hematopoietic
 T134	GO_0030097 23217 23230	hematopoiesis
@@ -178,11 +158,9 @@ T156	GO_0030097 25226 25239	hematopoietic
 T157	GO_0030218 25554 25568	erythropoiesis
 T158	GO_0030097 25709 25722	hematopoiesis
 T159	GO_0065007 26185 26193	regulate
-T160	GO_0060319 26255 26264;	Primitive
-26280 26294	PrimitiveErythropoiesis
+T160	GO_0060319 26255 26264;26280 26294	Primitive Erythropoiesis
 T161	GO_0060318 26269 26294	Definitive Erythropoiesis
-T162	GO_0010468 26412 26422;	control of
-26437 26452	control ofgene expression
+T162	GO_0010468 26412 26422;26437 26452	control of gene expression
 T163	GO_0030097 26423 26436	hematopoietic
 T164	GO_0030097 26549 26562	hematopoietic
 T165	GO_0065007 26940 26950	regulatory

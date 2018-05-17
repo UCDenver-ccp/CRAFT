@@ -2,12 +2,9 @@ T0	Noun_Phrase 48 50	A?
 T1	IDENTITY_chain 48 50	A?
 T2	Noun_Phrase 87 104	Alzheimer Disease
 T3	IDENTITY_chain 87 104	Alzheimer Disease
-T4	Noun_Phrase 128 141;	The proteases
-155 230	The proteasesthat cleave amyloid-? (A?) peptide from the amyloid precursor protein (APP)
-T5	APPOS_relation 128 141;	The proteases
-155 230	The proteasesthat cleave amyloid-? (A?) peptide from the amyloid precursor protein (APP)
-T6	IDENTITY_chain 128 141;	The proteases
-155 230	The proteasesthat cleave amyloid-? (A?) peptide from the amyloid precursor protein (APP)
+T4	Noun_Phrase 128 141;155 230	The proteases that cleave amyloid-? (A?) peptide from the amyloid precursor protein (APP)
+T5	APPOS_relation 128 141;155 230	The proteases that cleave amyloid-? (A?) peptide from the amyloid precursor protein (APP)
+T6	IDENTITY_chain 128 141;155 230	The proteases that cleave amyloid-? (A?) peptide from the amyloid precursor protein (APP)
 T7	Noun_Phrase 143 153	secretases
 T8	Noun_Phrase 167 176	amyloid-?
 T9	APPOS_relation 167 176	amyloid-?
@@ -135,8 +132,7 @@ T130	Noun_Phrase 3595 3598	its
 T131	Noun_Phrase 3615 3640	the precursor protein APP
 T132	Noun_Phrase 3642 3652	Peptide A?
 T133	Noun_Phrase 3670 3673	APP
-T134	Noun_Phrase 3691 3702;	two enzymes
-3757 3829	two enzymeswhich cleave the holoprotein at the N- and C-termini of A?, respectively
+T134	Noun_Phrase 3691 3702;3757 3829	two enzymes which cleave the holoprotein at the N- and C-termini of A?, respectively
 T135	Noun_Phrase 3704 3731	the ?-APP cleaving enzyme 1
 T136	APPOS_relation 3704 3755	the ?-APP cleaving enzyme 1 (BACE1) and ?-secretase
 T137	Noun_Phrase 3704 3755	the ?-APP cleaving enzyme 1 (BACE1) and ?-secretase
@@ -242,21 +238,12 @@ T236	Noun_Phrase 6911 6923	tetracycline
 T237	Noun_Phrase 7008 7018	moPrP.XhoI
 T238	Noun_Phrase 7046 7057	pBluescript
 T239	Noun_Phrase 7075 7077	We
-T240	Noun_Phrase 7091 7094;	the
-7121 7128;	theIndiana
-7137 7146	theIndianamutations
-T241	APPOS_relation 7091 7094;	the
-7121 7128;	theIndiana
-7137 7146	theIndianamutations
-T242	IDENTITY_chain 7091 7094;	the
-7121 7128;	theIndiana
-7137 7146	theIndianamutations
-T243	Noun_Phrase 7091 7102;	the Swedish
-7137 7146	the Swedishmutations
-T244	APPOS_relation 7091 7102;	the Swedish
-7137 7146	the Swedishmutations
-T245	IDENTITY_chain 7091 7102;	the Swedish
-7137 7146	the Swedishmutations
+T240	Noun_Phrase 7091 7094;7121 7128;7137 7146	the Indiana mutations
+T241	APPOS_relation 7091 7094;7121 7128;7137 7146	the Indiana mutations
+T242	IDENTITY_chain 7091 7094;7121 7128;7137 7146	the Indiana mutations
+T243	Noun_Phrase 7091 7102;7137 7146	the Swedish mutations
+T244	APPOS_relation 7091 7102;7137 7146	the Swedish mutations
+T245	IDENTITY_chain 7091 7102;7137 7146	the Swedish mutations
 T246	Noun_Phrase 7104 7115	KM570/571NL
 T247	Noun_Phrase 7130 7135	V617F
 T248	Noun_Phrase 7152 7172	the mo/huAPP695 cDNA
@@ -286,8 +273,7 @@ T271	IDENTITY_chain 8329 8358	calcium-calmodulin kinase II?
 T272	Noun_Phrase 8360 8367	CaMKII?
 T273	Noun_Phrase 8392 8410	Jackson Laboratory
 T274	IDENTITY_chain 8392 8410	Jackson Laboratory
-T275	Noun_Phrase 8551 8561;	transgenic
-8570 8573	transgenicAPP
+T275	Noun_Phrase 8551 8561;8570 8573	transgenic APP
 T276	Noun_Phrase 8605 8608	APP
 T277	Noun_Phrase 8672 8678	Animal
 T278	Noun_Phrase 8830 8841	Doxycycline
@@ -312,10 +298,8 @@ T296	IDENTITY_chain 9648 9659	supernatant
 T297	Noun_Phrase 9673 9686	amplification
 T298	IDENTITY_chain 9673 9686	amplification
 T299	Noun_Phrase 9704 9707	APP
-T300	Noun_Phrase 9704 9707;	APP
-9716 9726	APPtransgenes
-T301	IDENTITY_chain 9704 9707;	APP
-9716 9726	APPtransgenes
+T300	Noun_Phrase 9704 9707;9716 9726	APP transgenes
+T301	IDENTITY_chain 9704 9707;9716 9726	APP transgenes
 T302	Noun_Phrase 9704 9726	APP and tTA transgenes
 T303	IDENTITY_chain 9704 9726	APP and tTA transgenes
 T304	Noun_Phrase 9712 9715	tTA
@@ -490,8 +474,7 @@ T472	Noun_Phrase 16475 16479	goat
 T473	Noun_Phrase 16511 16514	TBS
 T474	Noun_Phrase 16516 16522	Slides
 T475	Noun_Phrase 16545 16561	primary antibody
-T476	Noun_Phrase 16563 16605;	rabbit anti-A? peptide polyclonal antibody
-16675 16773	rabbit anti-A? peptide polyclonal antibodyrabbit anti-ubiquitin and rabbit anti–glial fibrillary acidic protein (GFAP) polyclonal antibodies
+T476	Noun_Phrase 16563 16605;16675 16773	rabbit anti-A? peptide polyclonal antibody rabbit anti-ubiquitin and rabbit anti–glial fibrillary acidic protein (GFAP) polyclonal antibodies
 T477	Noun_Phrase 16607 16673	Zymed Laboratories, South San Francisco, California, United States
 T478	IDENTITY_chain 16607 16673	Zymed Laboratories, South San Francisco, California, United States
 T479	Noun_Phrase 16713 16744	glial fibrillary acidic protein
@@ -620,8 +603,7 @@ T601	Noun_Phrase 21533 21535	we
 T602	Noun_Phrase 21551 21578	the four controllable lines
 T603	Noun_Phrase 21587 21601	transgenic APP
 T604	Noun_Phrase 21716 21719	APP
-T605	Noun_Phrase 21730 21743;	nontransgenic
-21760 21764	nontransgenicmice
+T605	Noun_Phrase 21730 21743;21760 21764	nontransgenic mice
 T606	Noun_Phrase 21748 21764	tet-off APP mice
 T607	IDENTITY_chain 21748 21764	tet-off APP mice
 T608	Noun_Phrase 21771 21884	an antibody that recognizes both endogenous APP (and amyloid precursor-like protein 2) and the transgenic protein
@@ -643,10 +625,8 @@ T623	Noun_Phrase 22118 22126	line 107
 T624	APPOS_relation 22118 22126	line 107
 T625	IDENTITY_chain 22118 22126	line 107
 T626	Noun_Phrase 22188 22197	transgene
-T627	Noun_Phrase 22227 22232;	acute
-22244 22262	acutetreatment with dox
-T628	IDENTITY_chain 22227 22232;	acute
-22244 22262	acutetreatment with dox
+T627	Noun_Phrase 22227 22232;22244 22262	acute treatment with dox
+T628	IDENTITY_chain 22227 22232;22244 22262	acute treatment with dox
 T629	Noun_Phrase 22236 22262	chronic treatment with dox
 T630	IDENTITY_chain 22236 22262	chronic treatment with dox
 T631	Noun_Phrase 22259 22262	dox
@@ -731,8 +711,7 @@ T709	Noun_Phrase 24660 24673	dox treatment
 T710	Noun_Phrase 24692 24709	chronic treatment
 T711	Noun_Phrase 24711 24720	Figure 2A
 T712	IDENTITY_chain 24711 24720	Figure 2A
-T713	Noun_Phrase 24790 24794;	2-wk
-24807 24820	2-wkdox treatment
+T713	Noun_Phrase 24790 24794;24807 24820	2-wk dox treatment
 T714	Noun_Phrase 24798 24820	lifelong dox treatment
 T715	Noun_Phrase 24807 24810	dox
 T716	Noun_Phrase 24822 24831	Figure 2B
@@ -761,19 +740,14 @@ T738	Noun_Phrase 25675 25677	A?
 T739	Noun_Phrase 25675 25684	A? levels
 T740	Noun_Phrase 25687 25701	The ELISA data
 T741	Noun_Phrase 25691 25696	ELISA
-T742	Noun_Phrase 25739 25742;	the
-25755 25772	theIndiana mutations
-T743	Noun_Phrase 25739 25750;	the Swedish
-25763 25772	the Swedishmutations
+T742	Noun_Phrase 25739 25742;25755 25772	the Indiana mutations
+T743	Noun_Phrase 25739 25750;25763 25772	the Swedish mutations
 T744	Noun_Phrase 25795 25799	A?42
 T745	Noun_Phrase 25807 25809	we
 T746	Noun_Phrase 25839 25845	plaque
-T747	Noun_Phrase 25911 25928;	double transgenic
-25960 25964	double transgenicmice
-T748	APPOS_relation 25911 25928;	double transgenic
-25960 25964	double transgenicmice
-T749	IDENTITY_chain 25911 25928;	double transgenic
-25960 25964	double transgenicmice
+T747	Noun_Phrase 25911 25928;25960 25964	double transgenic mice
+T748	APPOS_relation 25911 25928;25960 25964	double transgenic mice
+T749	IDENTITY_chain 25911 25928;25960 25964	double transgenic mice
 T750	Noun_Phrase 25930 25958	CaMKII?-tTA × tet-APPswe/ind
 T751	Noun_Phrase 25986 25993	amyloid
 T752	Noun_Phrase 26007 26025	all four new lines
@@ -783,10 +757,8 @@ T755	IDENTITY_chain 26027 26042	Amyloid plaques
 T756	Noun_Phrase 26086 26090	data
 T757	Noun_Phrase 26103 26110	Plaques
 T758	Noun_Phrase 26127 26140	the forebrain
-T759	Noun_Phrase 26152 26155;	the
-26164 26175	thehippocampus
-T760	IDENTITY_chain 26152 26155;	the
-26164 26175	thehippocampus
+T759	Noun_Phrase 26152 26155;26164 26175	the hippocampus
+T760	IDENTITY_chain 26152 26155;26164 26175	the hippocampus
 T761	Noun_Phrase 26152 26162	the cortex
 T762	IDENTITY_chain 26152 26162	the cortex
 T763	Noun_Phrase 26213 26233	the CaMKII? promoter
@@ -795,8 +767,7 @@ T765	Noun_Phrase 26270 26279	Figure S2
 T766	IDENTITY_chain 26270 26279	Figure S2
 T767	Noun_Phrase 26298 26305	amyloid
 T768	Noun_Phrase 26298 26312	amyloid burden
-T769	Noun_Phrase 26352 26355;	the
-26367 26378	thehippocampus
+T769	Noun_Phrase 26352 26355;26367 26378	the hippocampus
 T770	Noun_Phrase 26352 26362	the cortex
 T771	Noun_Phrase 26380 26389	Figure S3
 T772	IDENTITY_chain 26380 26389	Figure S3
@@ -822,10 +793,8 @@ T791	Noun_Phrase 27063 27070	amyloid
 T792	Noun_Phrase 27186 27198	the thalamus
 T793	Noun_Phrase 27228 27250	double transgenic mice
 T794	Noun_Phrase 27263 27294	both the tTA and APP transgenes
-T795	Noun_Phrase 27268 27271;	the
-27280 27294	theAPP transgenes
-T796	Noun_Phrase 27268 27275;	the tTA
-27284 27294	the tTAtransgenes
+T795	Noun_Phrase 27268 27271;27280 27294	the APP transgenes
+T796	Noun_Phrase 27268 27275;27284 27294	the tTA transgenes
 T797	Noun_Phrase 27272 27275	tTA
 T798	Noun_Phrase 27280 27283	APP
 T799	Noun_Phrase 27306 27313	amyloid
@@ -906,17 +875,13 @@ T873	Noun_Phrase 29262 29269	amyloid
 T874	Noun_Phrase 29285 29310	the 9 mo untreated cohort
 T875	Noun_Phrase 29334 29341	amyloid
 T876	Noun_Phrase 29377 29384	amyloid
-T877	Noun_Phrase 29408 29411;	the
-29435 29462	the6 mo + 6 mo treated cohorts
-T878	Noun_Phrase 29408 29431;	the 6 mo + 3 mo treated
-29455 29462	the 6 mo + 3 mo treatedcohorts
+T877	Noun_Phrase 29408 29411;29435 29462	the 6 mo + 6 mo treated cohorts
+T878	Noun_Phrase 29408 29431;29455 29462	the 6 mo + 3 mo treated cohorts
 T879	Noun_Phrase 29408 29462	the 6 mo + 3 mo treated or 6 mo + 6 mo treated cohorts
 T880	IDENTITY_chain 29408 29462	the 6 mo + 3 mo treated or 6 mo + 6 mo treated cohorts
 T881	Noun_Phrase 29489 29514	the 6 mo untreated cohort
-T882	Noun_Phrase 29563 29566;	the
-29579 29595	theuntreated groups
-T883	Noun_Phrase 29563 29574;	the treated
-29589 29595	the treatedgroups
+T882	Noun_Phrase 29563 29566;29579 29595	the untreated groups
+T883	Noun_Phrase 29563 29574;29589 29595	the treated groups
 T884	Noun_Phrase 29597 29606	Figures 4
 T885	IDENTITY_chain 29597 29606	Figures 4
 T886	Noun_Phrase 29611 29620	Figure S3
@@ -985,10 +950,8 @@ T948	Noun_Phrase 31533 31585	line 107 tTA/APP mice treated with dox for 3 or 6 m
 T949	Noun_Phrase 31609 31622	aggregated A?
 T950	IDENTITY_chain 31609 31622	aggregated A?
 T951	Noun_Phrase 31631 31635	they
-T952	Noun_Phrase 31670 31676;	Figure
-31684 31686	Figure4B
-T953	IDENTITY_chain 31670 31676;	Figure
-31684 31686	Figure4B
+T952	Noun_Phrase 31670 31676;31684 31686	Figure 4B
+T953	IDENTITY_chain 31670 31676;31684 31686	Figure 4B
 T954	Noun_Phrase 31670 31679	Figure 4A
 T955	IDENTITY_chain 31670 31679	Figure 4A
 T956	Noun_Phrase 31702 31725	untreated 9-mo-old mice
@@ -999,10 +962,8 @@ T960	Noun_Phrase 31822 31842	line 18 tTA/APP mice
 T961	Noun_Phrase 31910 31953	untreated animals between 6 and 9 mo of age
 T962	Noun_Phrase 31981 31990	transgene
 T963	Noun_Phrase 31981 32002	transgene suppression
-T964	Noun_Phrase 32004 32010;	Figure
-32019 32022	FigureS5D
-T965	IDENTITY_chain 32004 32010;	Figure
-32019 32022	FigureS5D
+T964	Noun_Phrase 32004 32010;32019 32022	Figure S5D
+T965	IDENTITY_chain 32004 32010;32019 32022	Figure S5D
 T966	Noun_Phrase 32004 32014	Figure S5C
 T967	IDENTITY_chain 32004 32014	Figure S5C
 T968	Noun_Phrase 32026 32028	We
@@ -1012,50 +973,39 @@ T971	Noun_Phrase 32179 32189	APPswe/ind
 T972	Noun_Phrase 32217 32237	Cortical homogenates
 T973	IDENTITY_chain 32217 32237	Cortical homogenates
 T974	Noun_Phrase 32278 32285	peptide
-T975	Noun_Phrase 32291 32295;	PBS-
-32310 32327	PBS-soluble fractions
-T976	IDENTITY_chain 32291 32295;	PBS-
-32310 32327	PBS-soluble fractions
-T977	Noun_Phrase 32297 32301;	SDS-
-32310 32327	SDS-soluble fractions
-T978	IDENTITY_chain 32297 32301;	SDS-
-32310 32327	SDS-soluble fractions
+T975	Noun_Phrase 32291 32295;32310 32327	PBS- soluble fractions
+T976	IDENTITY_chain 32291 32295;32310 32327	PBS- soluble fractions
+T977	Noun_Phrase 32297 32301;32310 32327	SDS- soluble fractions
+T978	IDENTITY_chain 32297 32301;32310 32327	SDS- soluble fractions
 T979	Noun_Phrase 32307 32327	FA-soluble fractions
 T980	IDENTITY_chain 32307 32327	FA-soluble fractions
 T981	Noun_Phrase 32435 32442	amyloid
 T982	Noun_Phrase 32435 32451	amyloid deposits
 T983	Noun_Phrase 32453 32455	we
 T984	Noun_Phrase 32488 32490	A?
-T985	Noun_Phrase 32517 32520;	the
-32529 32541	theFA fractions
-T986	Noun_Phrase 32517 32524;	the SDS
-32532 32541	the SDSfractions
+T985	Noun_Phrase 32517 32520;32529 32541	the FA fractions
+T986	Noun_Phrase 32517 32524;32532 32541	the SDS fractions
 T987	Noun_Phrase 32521 32524	SDS
 T988	Noun_Phrase 32529 32531	FA
-T989	Noun_Phrase 32543 32549;	Figure
-32557 32559	Figure5B
-T990	IDENTITY_chain 32543 32549;	Figure
-32557 32559	Figure5B
+T989	Noun_Phrase 32543 32549;32557 32559	Figure 5B
+T990	IDENTITY_chain 32543 32549;32557 32559	Figure 5B
 T991	Noun_Phrase 32543 32552	Figure 5A
 T992	IDENTITY_chain 32543 32552	Figure 5A
 T993	Noun_Phrase 32582 32593	filter trap
 T994	Nonreferential_pronoun 32619 32624	there
 T995	Noun_Phrase 32690 32715	the 6 mo untreated cohort
 T996	Noun_Phrase 32720 32781	either the 6 mo + 3 mo treated or 6 mo + 6 mo treated cohorts
-T997	Noun_Phrase 32727 32750;	the 6 mo + 3 mo treated
-32774 32781	the 6 mo + 3 mo treatedcohorts
+T997	Noun_Phrase 32727 32750;32774 32781	the 6 mo + 3 mo treated cohorts
 T998	Noun_Phrase 32754 32781	6 mo + 6 mo treated cohorts
 T999	Noun_Phrase 32802 32850	both 6 mo + 3 mo and 6 mo + 6 mo treated cohorts
 T1000	IDENTITY_chain 32802 32850	both 6 mo + 3 mo and 6 mo + 6 mo treated cohorts
-T1001	Noun_Phrase 32807 32818;	6 mo + 3 mo
-32835 32850	6 mo + 3 motreated cohorts
+T1001	Noun_Phrase 32807 32818;32835 32850	6 mo + 3 mo treated cohorts
 T1002	Noun_Phrase 32823 32850	6 mo + 6 mo treated cohorts
 T1003	Noun_Phrase 32903 32926	untreated 6-mo-old mice
 T1004	Noun_Phrase 32928 32937	Figure 5C
 T1005	IDENTITY_chain 32928 32937	Figure 5C
 T1006	Noun_Phrase 32950 32954	A?42
-T1007	Noun_Phrase 33071 33086;	the 6 mo + 3 mo
-33103 33118	the 6 mo + 3 motreated cohorts
+T1007	Noun_Phrase 33071 33086;33103 33118	the 6 mo + 3 mo treated cohorts
 T1008	Noun_Phrase 33071 33118	the 6 mo + 3 mo and 6 mo + 6 mo treated cohorts
 T1009	Noun_Phrase 33091 33118	6 mo + 6 mo treated cohorts
 T1010	Noun_Phrase 33148 33173	the 9 mo untreated cohort
@@ -1096,8 +1046,7 @@ T1044	Noun_Phrase 34847 34860	hyperactivity
 T1045	Noun_Phrase 34888 34890	us
 T1046	Noun_Phrase 34967 34973	APPswe
 T1047	Noun_Phrase 34979 34981	we
-T1048	Noun_Phrase 35005 35010;	lines
-35019 35023	linesC3–3
+T1048	Noun_Phrase 35005 35010;35019 35023	lines C3–3
 T1049	Noun_Phrase 35136 35138	we
 T1050	Noun_Phrase 35180 35187	amyloid
 T1051	Noun_Phrase 35180 35192	amyloid load
@@ -1111,15 +1060,11 @@ T1058	Noun_Phrase 35524 35557	hyperactivity in the tTA/APP mice
 T1059	Noun_Phrase 35541 35557	the tTA/APP mice
 T1060	Noun_Phrase 35559 35561	we
 T1061	Noun_Phrase 35598 35623	double transgenic animals
-T1062	Noun_Phrase 35635 35640;	their
-35663 35685	theirnontransgenic siblings
-T1063	IDENTITY_chain 35635 35640;	their
-35663 35685	theirnontransgenic siblings
+T1062	Noun_Phrase 35635 35640;35663 35685	their nontransgenic siblings
+T1063	IDENTITY_chain 35635 35640;35663 35685	their nontransgenic siblings
 T1064	Noun_Phrase 35635 35640	their
-T1065	Noun_Phrase 35635 35658;	their single transgenic
-35677 35685	their single transgenicsiblings
-T1066	IDENTITY_chain 35635 35658;	their single transgenic
-35677 35685	their single transgenicsiblings
+T1065	Noun_Phrase 35635 35658;35677 35685	their single transgenic siblings
+T1066	IDENTITY_chain 35635 35658;35677 35685	their single transgenic siblings
 T1067	Noun_Phrase 35777 35785	Figure 7
 T1068	IDENTITY_chain 35777 35785	Figure 7
 T1069	Noun_Phrase 35787 35813	the double transgenic mice
@@ -1268,8 +1213,7 @@ T1211	Noun_Phrase 41605 41611	humans
 T1212	Noun_Phrase 41626 41635	pathology
 T1213	Noun_Phrase 41680 41691	This system
 T1214	Noun_Phrase 41700 41702	us
-T1215	Noun_Phrase 41846 41856;	aggregated
-41875 41887	aggregatedstates of A?
+T1215	Noun_Phrase 41846 41856;41875 41887	aggregated states of A?
 T1216	Noun_Phrase 41885 41887	A?
 T1217	Noun_Phrase 41921 41928	amyloid
 T1218	Noun_Phrase 41921 41937	amyloid deposits
@@ -1308,10 +1252,8 @@ T1250	Noun_Phrase 43258 43277	the human condition
 T1251	Noun_Phrase 43282 43298	the mouse models
 T1252	Noun_Phrase 43370 43377	the two
 T1253	Noun_Phrase 43413 43420	amyloid
-T1254	Noun_Phrase 43413 43433;	amyloid clearance in
-43484 43504	amyloid clearance inthe tet-off APP mice
-T1255	IDENTITY_chain 43413 43433;	amyloid clearance in
-43484 43504	amyloid clearance inthe tet-off APP mice
+T1254	Noun_Phrase 43413 43433;43484 43504	amyloid clearance in the tet-off APP mice
+T1255	IDENTITY_chain 43413 43433;43484 43504	amyloid clearance in the tet-off APP mice
 T1256	Noun_Phrase 43448 43464	patients with AD
 T1257	Noun_Phrase 43462 43464	AD
 T1258	Noun_Phrase 43470 43472	we
@@ -1529,18 +1471,12 @@ T1469	Noun_Phrase 53230 53242	treated mice
 T1470	Noun_Phrase 53334 53350	Campbell-Switzer
 T1471	Noun_Phrase 53627 53631	data
 T1472	Noun_Phrase 53639 53648	Figure S5
-T1473	Noun_Phrase 53639 53648;	Figure S5
-53801 53802	Figure S5A
-T1474	IDENTITY_chain 53639 53648;	Figure S5
-53801 53802	Figure S5A
-T1475	Noun_Phrase 53639 53648;	Figure S5
-54337 54338	Figure S5A
-T1476	Noun_Phrase 53639 53648;	Figure S5
-54604 54605	Figure S5C
-T1477	Noun_Phrase 53639 53648;	Figure S5
-54703 54704	Figure S5D
-T1478	Noun_Phrase 53639 53648;	Figure S5
-54792 54793	Figure S5C
+T1473	Noun_Phrase 53639 53648;53801 53802	Figure S5 A
+T1474	IDENTITY_chain 53639 53648;53801 53802	Figure S5 A
+T1475	Noun_Phrase 53639 53648;54337 54338	Figure S5 A
+T1476	Noun_Phrase 53639 53648;54604 54605	Figure S5 C
+T1477	Noun_Phrase 53639 53648;54703 54704	Figure S5 D
+T1478	Noun_Phrase 53639 53648;54792 54793	Figure S5 C
 T1479	Noun_Phrase 53658 53667	Transgene
 T1480	Noun_Phrase 53694 53696	A?
 T1481	Noun_Phrase 53720 53759	an Independent Line of Tet-Off APP Mice
@@ -1552,8 +1488,7 @@ T1486	Noun_Phrase 53884 53909	a second tet-off APP line
 T1487	APPOS_relation 53884 53909	a second tet-off APP line
 T1488	IDENTITY_chain 53884 53909	a second tet-off APP line
 T1489	Noun_Phrase 53911 53918	line 18
-T1490	Noun_Phrase 53989 54006;	untreated control
-54041 54045	untreated controlmice
+T1490	Noun_Phrase 53989 54006;54041 54045	untreated control mice
 T1491	Noun_Phrase 54011 54045	dox-treated double transgenic mice
 T1492	Noun_Phrase 54090 54122	the human-specific antibody 6E10
 T1493	Noun_Phrase 54134 54143	transgene
@@ -1754,20 +1689,13 @@ T1687	Noun_Phrase 60724 60727	tTA
 T1688	APPOS_relation 60724 60727	tTA
 T1689	Noun_Phrase 60730 60757	tetracycline transactivator
 T1690	Noun_Phrase 60779 60787	Figure 1
-T1691	Noun_Phrase 60779 60787;	Figure 1
-60835 60836	Figure 1A
-T1692	Noun_Phrase 60779 60787;	Figure 1
-61360 61361	Figure 1B
-T1693	IDENTITY_chain 60779 60787;	Figure 1
-61360 61361	Figure 1B
-T1694	Noun_Phrase 60779 60787;	Figure 1
-61545 61546	Figure 1C
-T1695	Noun_Phrase 60779 60787;	Figure 1
-61606 61607	Figure 1A
-T1696	Noun_Phrase 60779 60787;	Figure 1
-61991 61992	Figure 1D
-T1697	Noun_Phrase 60779 60787;	Figure 1
-62052 62053	Figure 1B
+T1691	Noun_Phrase 60779 60787;60835 60836	Figure 1 A
+T1692	Noun_Phrase 60779 60787;61360 61361	Figure 1 B
+T1693	IDENTITY_chain 60779 60787;61360 61361	Figure 1 B
+T1694	Noun_Phrase 60779 60787;61545 61546	Figure 1 C
+T1695	Noun_Phrase 60779 60787;61606 61607	Figure 1 A
+T1696	Noun_Phrase 60779 60787;61991 61992	Figure 1 D
+T1697	Noun_Phrase 60779 60787;62052 62053	Figure 1 B
 T1698	Noun_Phrase 60800 60814	Transgenic APP
 T1699	Noun_Phrase 60800 60825	Transgenic APP Expression
 T1700	Noun_Phrase 60829 60832	Dox
@@ -1803,8 +1731,7 @@ T1729	Noun_Phrase 61615 61629	transgenic APP
 T1730	Noun_Phrase 61615 61636	transgenic APP levels
 T1731	IDENTITY_chain 61615 61636	transgenic APP levels
 T1732	Noun_Phrase 61668 61671	dox
-T1733	Noun_Phrase 61680 61687;	acutely
-61704 61719	acutelytreated animals
+T1733	Noun_Phrase 61680 61687;61704 61719	acutely treated animals
 T1734	Noun_Phrase 61692 61719	chronically treated animals
 T1735	Noun_Phrase 61731 61746	4 wk + 2 wk dox
 T1736	Noun_Phrase 61758 61771	reared on dox
@@ -1822,14 +1749,10 @@ T1747	Noun_Phrase 62086 62110	dox-treated tTA/APP mice
 T1748	Noun_Phrase 62143 62166	4-wk-old untreated mice
 T1749	Noun_Phrase 62262 62283	nontransgenic animals
 T1750	Noun_Phrase 62336 62359	untreated 4-wk-old mice
-T1751	Noun_Phrase 62428 62436;	Figure 2
-62816 62817	Figure 2A
-T1752	Noun_Phrase 62428 62436;	Figure 2
-63131 63132	Figure 2B
-T1753	Noun_Phrase 62428 62436;	Figure 2
-63854 63855	Figure 2C
-T1754	Noun_Phrase 62428 62436;	Figure 2
-64442 64443	Figure 2D
+T1751	Noun_Phrase 62428 62436;62816 62817	Figure 2 A
+T1752	Noun_Phrase 62428 62436;63131 63132	Figure 2 B
+T1753	Noun_Phrase 62428 62436;63854 63855	Figure 2 C
+T1754	Noun_Phrase 62428 62436;64442 64443	Figure 2 D
 T1755	Noun_Phrase 62438 62440	A?
 T1756	Noun_Phrase 62438 62447	A? Levels
 T1757	Noun_Phrase 62476 62485	Transgene
@@ -1839,8 +1762,7 @@ T1760	Noun_Phrase 62591 62599	line 107
 T1761	Noun_Phrase 62775 62779	A?40
 T1762	Noun_Phrase 62799 62803	A?42
 T1763	Noun_Phrase 62819 62833	PBS-soluble A?
-T1764	Noun_Phrase 62875 62880;	acute
-62893 62906	acutedox treatment
+T1764	Noun_Phrase 62875 62880;62893 62906	acute dox treatment
 T1765	Noun_Phrase 62885 62906	chronic dox treatment
 T1766	Noun_Phrase 62893 62896	dox
 T1767	Noun_Phrase 62983 62987	A?40
@@ -1891,21 +1813,14 @@ T1811	Noun_Phrase 64826 64845	acute dox treatment
 T1812	Noun_Phrase 64832 64835	dox
 T1813	Noun_Phrase 64863 64867	A?40
 T1814	Noun_Phrase 64986 65015	acutely treated young animals
-T1815	Noun_Phrase 65063 65066;	the
-65075 65087	theFA fractions
-T1816	Noun_Phrase 65063 65070;	the SDS
-65078 65087	the SDSfractions
+T1815	Noun_Phrase 65063 65066;65075 65087	the FA fractions
+T1816	Noun_Phrase 65063 65070;65078 65087	the SDS fractions
 T1817	Noun_Phrase 65139 65162	4-wk-old untreated mice
-T1818	Noun_Phrase 65226 65234;	Figure 3
-65316 65317	Figure 3A
-T1819	IDENTITY_chain 65226 65234;	Figure 3
-65316 65317	Figure 3A
-T1820	Noun_Phrase 65226 65234;	Figure 3
-65650 65651	Figure 3B
-T1821	Noun_Phrase 65226 65234;	Figure 3
-65718 65719	Figure 3A
-T1822	Noun_Phrase 65226 65234;	Figure 3
-66428 66429	Figure 3D
+T1818	Noun_Phrase 65226 65234;65316 65317	Figure 3 A
+T1819	IDENTITY_chain 65226 65234;65316 65317	Figure 3 A
+T1820	Noun_Phrase 65226 65234;65650 65651	Figure 3 B
+T1821	Noun_Phrase 65226 65234;65718 65719	Figure 3 A
+T1822	Noun_Phrase 65226 65234;66428 66429	Figure 3 D
 T1823	Noun_Phrase 65243 65252	Transgene
 T1824	Noun_Phrase 65296 65303	Amyloid
 T1825	Noun_Phrase 65413 65421	line 107
@@ -1952,18 +1867,14 @@ T1865	Noun_Phrase 66758 66760	A?
 T1866	Noun_Phrase 66856 66878	superoxide dismutase 1
 T1867	Noun_Phrase 66963 66967	6E10
 T1868	Noun_Phrase 66976 66984	Figure 4
-T1869	Noun_Phrase 66976 66984;	Figure 4
-67059 67060	Figure 4A
-T1870	Noun_Phrase 66976 66984;	Figure 4
-67363 67364	Figure 4B
-T1871	Noun_Phrase 66976 66984;	Figure 4
-67466 67467	Figure 4A
+T1869	Noun_Phrase 66976 66984;67059 67060	Figure 4 A
+T1870	Noun_Phrase 66976 66984;67363 67364	Figure 4 B
+T1871	Noun_Phrase 66976 66984;67466 67467	Figure 4 A
 T1872	Noun_Phrase 67001 67015	Transgenic APP
 T1873	Noun_Phrase 67039 67046	Amyloid
 T1874	Noun_Phrase 67039 67056	Amyloid Pathology
 T1875	Noun_Phrase 67062 67075	Aggregated A?
-T1876	Noun_Phrase 67115 67126;	dox-treated
-67147 67151	dox-treatedmice
+T1876	Noun_Phrase 67115 67126;67147 67151	dox-treated mice
 T1877	Noun_Phrase 67131 67151	control tTA/APP mice
 T1878	Noun_Phrase 67153 67161	line 107
 T1879	Noun_Phrase 67171 67182	filter trap
@@ -1996,16 +1907,11 @@ T1905	Noun_Phrase 68510 68525	6 mo + 3 mo dox
 T1906	Noun_Phrase 68530 68545	6 mo + 6 mo dox
 T1907	Noun_Phrase 68612 68619	amyloid
 T1908	Noun_Phrase 68650 68658	Figure 5
-T1909	Noun_Phrase 68650 68658;	Figure 5
-69239 69240	Figure 5A
-T1910	Noun_Phrase 68650 68658;	Figure 5
-69245 69246	Figure 5B
-T1911	Noun_Phrase 68650 68658;	Figure 5
-70000 70001	Figure 5C
-T1912	Noun_Phrase 68650 68658;	Figure 5
-70091 70092	Figure 5A
-T1913	Noun_Phrase 68650 68658;	Figure 5
-70099 70100	Figure 5B
+T1909	Noun_Phrase 68650 68658;69239 69240	Figure 5 A
+T1910	Noun_Phrase 68650 68658;69245 69246	Figure 5 B
+T1911	Noun_Phrase 68650 68658;70000 70001	Figure 5 C
+T1912	Noun_Phrase 68650 68658;70091 70092	Figure 5 A
+T1913	Noun_Phrase 68650 68658;70099 70100	Figure 5 B
 T1914	Noun_Phrase 68660 68662	A?
 T1915	Noun_Phrase 68660 68668	A? ELISA
 T1916	Noun_Phrase 68766 68768	A?
@@ -2018,18 +1924,15 @@ T1922	Noun_Phrase 69003 69023	Cortical homogenates
 T1923	Noun_Phrase 69083 69106	PBS, 2% SDS, and 70% FA
 T1924	Noun_Phrase 69198 69202	A?40
 T1925	Noun_Phrase 69222 69226	A?42
-T1926	Noun_Phrase 69311 69314;	the
-69322 69335	theSDS fractions
-T1927	Noun_Phrase 69311 69317;	the FA
-69326 69335	the FAfractions
+T1926	Noun_Phrase 69311 69314;69322 69335	the SDS fractions
+T1927	Noun_Phrase 69311 69317;69326 69335	the FA fractions
 T1928	Noun_Phrase 69353 69360	amyloid
 T1929	Noun_Phrase 69353 69367	amyloid burden
 T1930	Noun_Phrase 69369 69378	Figures 4
 T1931	Noun_Phrase 69383 69392	Figure S3
 T1932	Noun_Phrase 69430 69453	untreated 9-mo-old mice
 T1933	Noun_Phrase 69488 69511	untreated 6-mo-old mice
-T1934	Noun_Phrase 69582 69585;	SDS
-69593 69602	SDSfractions
+T1934	Noun_Phrase 69582 69585;69593 69602	SDS fractions
 T1935	Noun_Phrase 69590 69602	FA fractions
 T1936	Noun_Phrase 69660 69669	transgene
 T1937	Noun_Phrase 69660 69681	transgene suppression
@@ -2048,10 +1951,8 @@ T1949	Noun_Phrase 70273 70300	the untreated 6-mo-old mice
 T1950	Noun_Phrase 70307 70311	A?40
 T1951	Noun_Phrase 70484 70488	A?42
 T1952	Noun_Phrase 70544 70560	PBS-soluble A?42
-T1953	Noun_Phrase 70636 70649;	the untreated
-70657 70672	the untreated9-mo-old groups
-T1954	Noun_Phrase 70636 70652;	the untreated 6-
-70659 70672	the untreated 6-mo-old groups
+T1953	Noun_Phrase 70636 70649;70657 70672	the untreated 9-mo-old groups
+T1954	Noun_Phrase 70636 70652;70659 70672	the untreated 6- mo-old groups
 T1955	Noun_Phrase 70693 70716	6-mo-old untreated mice
 T1956	Noun_Phrase 70761 70784	6-mo-old untreated mice
 T1957	Noun_Phrase 70805 70813	Figure 6
@@ -2068,24 +1969,15 @@ T1967	Noun_Phrase 71262 71281	Hirano silver stain
 T1968	Noun_Phrase 71293 71297	GFAP
 T1969	Noun_Phrase 71333 71342	ubiquitin
 T1970	Noun_Phrase 71379 71387	Figure 7
-T1971	Noun_Phrase 71379 71387;	Figure 7
-71454 71455	Figure 7A
-T1972	IDENTITY_chain 71379 71387;	Figure 7
-71454 71455	Figure 7A
-T1973	Noun_Phrase 71379 71387;	Figure 7
-71709 71710	Figure 7B
-T1974	IDENTITY_chain 71379 71387;	Figure 7
-71709 71710	Figure 7B
-T1975	Noun_Phrase 71379 71387;	Figure 7
-71736 71737	Figure 7A
-T1976	Noun_Phrase 71379 71387;	Figure 7
-71818 71819	Figure 7C
-T1977	Noun_Phrase 71379 71387;	Figure 7
-71878 71879	Figure 7A
-T1978	Noun_Phrase 71379 71387;	Figure 7
-71886 71887	Figure 7B
-T1979	Noun_Phrase 71379 71387;	Figure 7
-72113 72114	Figure 7A
+T1971	Noun_Phrase 71379 71387;71454 71455	Figure 7 A
+T1972	IDENTITY_chain 71379 71387;71454 71455	Figure 7 A
+T1973	Noun_Phrase 71379 71387;71709 71710	Figure 7 B
+T1974	IDENTITY_chain 71379 71387;71709 71710	Figure 7 B
+T1975	Noun_Phrase 71379 71387;71736 71737	Figure 7 A
+T1976	Noun_Phrase 71379 71387;71818 71819	Figure 7 C
+T1977	Noun_Phrase 71379 71387;71878 71879	Figure 7 A
+T1978	Noun_Phrase 71379 71387;71886 71887	Figure 7 B
+T1979	Noun_Phrase 71379 71387;72113 72114	Figure 7 A
 T1980	Noun_Phrase 71389 71398	Transgene
 T1981	Noun_Phrase 71389 71410	Transgene Suppression
 T1982	Noun_Phrase 71422 71451	Hyperactivity in tTA/APP Mice
@@ -2093,18 +1985,14 @@ T1983	Noun_Phrase 71439 71451	tTA/APP Mice
 T1984	Noun_Phrase 71439 71451	tTA/APP Mice
 T1985	Noun_Phrase 71494 71551	extreme hyperactivity in untreated double transgenic mice
 T1986	Noun_Phrase 71519 71551	untreated double transgenic mice
-T1987	Noun_Phrase 71564 71581;	single transgenic
-71600 71608	single transgeniccontrols
+T1987	Noun_Phrase 71564 71581;71600 71608	single transgenic controls
 T1988	Noun_Phrase 71586 71608	nontransgenic controls
 T1989	Noun_Phrase 71610 71618	line 107
 T1990	Noun_Phrase 71672 71698	the double transgenic mice
 T1991	Noun_Phrase 71702 71705	dox
-T1992	Noun_Phrase 71774 71791;	untreated control
-71808 71814	untreated controlgroups
+T1992	Noun_Phrase 71774 71791;71808 71814	untreated control groups
 T1993	Noun_Phrase 71796 71814	dox-treated groups
-T1994	Noun_Phrase 71929 71932;	the
-71954 71982	thenontransgenic control groups
-T1995	Noun_Phrase 71929 71950;	the single transgenic
-71968 71982	the single transgeniccontrol groups
+T1994	Noun_Phrase 71929 71932;71954 71982	the nontransgenic control groups
+T1995	Noun_Phrase 71929 71950;71968 71982	the single transgenic control groups
 T1996	Noun_Phrase 71991 72045	the hyperactivity present in untreated tTA/APP animals
 T1997	Noun_Phrase 72020 72045	untreated tTA/APP animals

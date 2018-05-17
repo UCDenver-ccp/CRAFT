@@ -11,20 +11,16 @@ T9	IDENTITY_chain 136 154	the Pea3 subfamily
 T10	Noun_Phrase 140 144	Pea3
 T11	Noun_Phrase 188 208	dorsal root ganglion
 T12	APPOS_relation 188 208	dorsal root ganglion
-T13	Noun_Phrase 188 222;	dorsal root ganglion (DRG) sensory
-240 247	dorsal root ganglion (DRG) sensoryneurons
-T14	IDENTITY_chain 188 222;	dorsal root ganglion (DRG) sensory
-240 247	dorsal root ganglion (DRG) sensoryneurons
+T13	Noun_Phrase 188 222;240 247	dorsal root ganglion (DRG) sensory neurons
+T14	IDENTITY_chain 188 222;240 247	dorsal root ganglion (DRG) sensory neurons
 T15	Noun_Phrase 210 213	DRG
 T16	Noun_Phrase 251 273	target-derived factors
 T17	IDENTITY_chain 251 273	target-derived factors
 T18	Noun_Phrase 275 280	Their
 T19	Noun_Phrase 317 341	neuronal differentiation
 T20	IDENTITY_chain 317 341	neuronal differentiation
-T21	Noun_Phrase 350 356;	target
-370 379	targetbranching
-T22	IDENTITY_chain 350 356;	target
-370 379	targetbranching
+T21	Noun_Phrase 350 356;370 379	target branching
+T22	IDENTITY_chain 350 356;370 379	target branching
 T23	Noun_Phrase 350 365	target invasion
 T24	IDENTITY_chain 350 365	target invasion
 T25	Noun_Phrase 350 379	target invasion and branching
@@ -113,10 +109,8 @@ T107	IDENTITY_chain 3022 3042	Apterous and Squeeze
 T108	Noun_Phrase 3035 3042	Squeeze
 T109	IDENTITY_chain 3035 3042	Squeeze
 T110	Noun_Phrase 3055 3066	vertebrates
-T111	Noun_Phrase 3153 3182;	the ETS transcription factors
-3192 3196	the ETS transcription factorsPea3
-T112	IDENTITY_chain 3153 3182;	the ETS transcription factors
-3192 3196	the ETS transcription factorsPea3
+T111	Noun_Phrase 3153 3182;3192 3196	the ETS transcription factors Pea3
+T112	IDENTITY_chain 3153 3182;3192 3196	the ETS transcription factors Pea3
 T113	Noun_Phrase 3153 3187	the ETS transcription factors Er81
 T114	IDENTITY_chain 3153 3187	the ETS transcription factors Er81
 T115	Noun_Phrase 3153 3196	the ETS transcription factors Er81 and Pea3
@@ -345,20 +339,16 @@ T337	Noun_Phrase 9177 9179	we
 T338	Noun_Phrase 9206 9221	the projections
 T339	Noun_Phrase 9266 9280	Er81EWS-Pea3/?
 T340	Noun_Phrase 9266 9285	Er81EWS-Pea3/? mice
-T341	Noun_Phrase 9287 9293;	Figure
-9301 9303	Figure2F
-T342	IDENTITY_chain 9287 9293;	Figure
-9301 9303	Figure2F
+T341	Noun_Phrase 9287 9293;9301 9303	Figure 2F
+T342	IDENTITY_chain 9287 9293;9301 9303	Figure 2F
 T343	Noun_Phrase 9287 9293	Figure
 T344	Noun_Phrase 9287 9296	Figure 2C
 T345	IDENTITY_chain 9287 9296	Figure 2C
 T346	Noun_Phrase 9287 9303	Figure 2C and 2F
 T347	IDENTITY_chain 9287 9303	Figure 2C and 2F
 T348	Noun_Phrase 9313 9329	the ventral horn
-T349	Noun_Phrase 9352 9361;	wild-type
-9381 9385	wild-typemice
-T350	IDENTITY_chain 9352 9361;	wild-type
-9381 9385	wild-typemice
+T349	Noun_Phrase 9352 9361;9381 9385	wild-type mice
+T350	IDENTITY_chain 9352 9361;9381 9385	wild-type mice
 T351	Noun_Phrase 9352 9361	wild-type
 T352	Noun_Phrase 9366 9380	Er81EWS-Pea3/?
 T353	Noun_Phrase 9366 9385	Er81EWS-Pea3/? mice
@@ -374,8 +364,7 @@ T362	Noun_Phrase 9623 9647	quadriceps motor neurons
 T363	IDENTITY_chain 9623 9647	quadriceps motor neurons
 T364	Noun_Phrase 9717 9719	We
 T365	Noun_Phrase 9778 9802	quadriceps motor neurons
-T366	Noun_Phrase 9818 9827;	wild-type
-9846 9850	wild-typemice
+T366	Noun_Phrase 9818 9827;9846 9850	wild-type mice
 T367	Noun_Phrase 9818 9827	wild-type
 T368	Noun_Phrase 9831 9845	Er81EWS-Pea3/?
 T369	Noun_Phrase 9831 9850	Er81EWS-Pea3/? mice
@@ -411,14 +400,10 @@ T398	IDENTITY_chain 10678 10688	loxP sites
 T399	Noun_Phrase 10731 10744	the Tau locus
 T400	IDENTITY_chain 10731 10744	the Tau locus
 T401	Noun_Phrase 10735 10738	Tau
-T402	Noun_Phrase 10772 10801;	mice conditionally expressing
-10809 10817	mice conditionally expressingEWS-Pea3
-T403	IDENTITY_chain 10772 10801;	mice conditionally expressing
-10809 10817	mice conditionally expressingEWS-Pea3
-T404	Noun_Phrase 10772 10801;	mice conditionally expressing
-10821 10873	mice conditionally expressinga membrane-targeted green fluorescent protein (mGFP)
-T405	IDENTITY_chain 10772 10801;	mice conditionally expressing
-10821 10873	mice conditionally expressinga membrane-targeted green fluorescent protein (mGFP)
+T402	Noun_Phrase 10772 10801;10809 10817	mice conditionally expressing EWS-Pea3
+T403	IDENTITY_chain 10772 10801;10809 10817	mice conditionally expressing EWS-Pea3
+T404	Noun_Phrase 10772 10801;10821 10873	mice conditionally expressing a membrane-targeted green fluorescent protein (mGFP)
+T405	IDENTITY_chain 10772 10801;10821 10873	mice conditionally expressing a membrane-targeted green fluorescent protein (mGFP)
 T406	Noun_Phrase 10809 10817	EWS-Pea3
 T407	Noun_Phrase 10821 10866	a membrane-targeted green fluorescent protein
 T408	IDENTITY_chain 10868 10872	mGFP
@@ -429,23 +414,14 @@ T412	Noun_Phrase 10905 10916	DRG neurons
 T413	Noun_Phrase 10918 10924	Figure
 T414	Noun_Phrase 10918 10927	Figure S3
 T415	IDENTITY_chain 10918 10927	Figure S3
-T416	Noun_Phrase 10936 10956;	Embryos positive for
-10964 10991;	Embryos positive forIsl1Cre/+ and TauEWS-Pea3/+
-11019 11026	Embryos positive forIsl1Cre/+ and TauEWS-Pea3/+alleles
-T417	IDENTITY_chain 10936 10956;	Embryos positive for
-10964 10991;	Embryos positive forIsl1Cre/+ and TauEWS-Pea3/+
-11019 11026	Embryos positive forIsl1Cre/+ and TauEWS-Pea3/+alleles
-T418	Noun_Phrase 10964 10973;	Isl1Cre/+
-11019 11026	Isl1Cre/+alleles
-T419	IDENTITY_chain 10964 10973;	Isl1Cre/+
-11019 11026	Isl1Cre/+alleles
-T420	Noun_Phrase 10964 10991;	Isl1Cre/+ and TauEWS-Pea3/+
-11019 11026	Isl1Cre/+ and TauEWS-Pea3/+alleles
-T421	IDENTITY_chain 10964 10991;	Isl1Cre/+ and TauEWS-Pea3/+
-11019 11026	Isl1Cre/+ and TauEWS-Pea3/+alleles
+T416	Noun_Phrase 10936 10956;10964 10991;11019 11026	Embryos positive for Isl1Cre/+ and TauEWS-Pea3/+ alleles
+T417	IDENTITY_chain 10936 10956;10964 10991;11019 11026	Embryos positive for Isl1Cre/+ and TauEWS-Pea3/+ alleles
+T418	Noun_Phrase 10964 10973;11019 11026	Isl1Cre/+ alleles
+T419	IDENTITY_chain 10964 10973;11019 11026	Isl1Cre/+ alleles
+T420	Noun_Phrase 10964 10991;11019 11026	Isl1Cre/+ and TauEWS-Pea3/+ alleles
+T421	IDENTITY_chain 10964 10991;11019 11026	Isl1Cre/+ and TauEWS-Pea3/+ alleles
 T422	Noun_Phrase 10964 10991	Isl1Cre/+ and TauEWS-Pea3/+
-T423	Noun_Phrase 10995 11004;	Isl1Cre/+
-11019 11026	Isl1Cre/+alleles
+T423	Noun_Phrase 10995 11004;11019 11026	Isl1Cre/+ alleles
 T424	Noun_Phrase 11009 11026	TaumGFP/+ alleles
 T425	IDENTITY_chain 11009 11026	TaumGFP/+ alleles
 T426	Noun_Phrase 11098 11113	all DRG neurons
@@ -480,10 +456,8 @@ T454	Noun_Phrase 11665 11696	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T455	Noun_Phrase 11714 11729	the spinal cord
 T456	Noun_Phrase 11791 11802	dorsal root
 T457	Noun_Phrase 11858 11864	Figure
-T458	Noun_Phrase 11858 11864;	Figure
-11875 11880	Figure3G–3I
-T459	IDENTITY_chain 11858 11864;	Figure
-11875 11880	Figure3G–3I
+T458	Noun_Phrase 11858 11864;11875 11880	Figure 3G–3I
+T459	IDENTITY_chain 11858 11864;11875 11880	Figure 3G–3I
 T460	Noun_Phrase 11858 11870	Figure 3A–3C
 T461	Noun_Phrase 11882 11896	data not shown
 T462	Noun_Phrase 11899 11901	We
@@ -510,10 +484,8 @@ T482	Noun_Phrase 12360 12391	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T483	Noun_Phrase 12457 12472	afferent fibers
 T484	Noun_Phrase 12499 12510	the midline
 T485	Noun_Phrase 12512 12518	Figure
-T486	Noun_Phrase 12512 12518;	Figure
-12526 12528	Figure3Q
-T487	IDENTITY_chain 12512 12518;	Figure
-12526 12528	Figure3Q
+T486	Noun_Phrase 12512 12518;12526 12528	Figure 3Q
+T487	IDENTITY_chain 12512 12518;12526 12528	Figure 3Q
 T488	Noun_Phrase 12512 12521	Figure 3O
 T489	IDENTITY_chain 12512 12521	Figure 3O
 T490	Noun_Phrase 12512 12528	Figure 3O and 3Q
@@ -536,10 +508,8 @@ T506	Noun_Phrase 13020 13025	E16.5
 T507	IDENTITY_chain 13020 13025	E16.5
 T508	Noun_Phrase 13090 13098	the skin
 T509	Noun_Phrase 13100 13106	Figure
-T510	Noun_Phrase 13100 13106;	Figure
-13114 13116	Figure3J
-T511	IDENTITY_chain 13100 13106;	Figure
-13114 13116	Figure3J
+T510	Noun_Phrase 13100 13106;13114 13116	Figure 3J
+T511	IDENTITY_chain 13100 13106;13114 13116	Figure 3J
 T512	Noun_Phrase 13100 13109	Figure 3D
 T513	IDENTITY_chain 13100 13109	Figure 3D
 T514	Noun_Phrase 13100 13116	Figure 3D and 3J
@@ -553,18 +523,12 @@ T521	IDENTITY_chain 13349 13373	intrafusal muscle fibers
 T522	Noun_Phrase 13382 13386	Egr3
 T523	IDENTITY_chain 13382 13386	Egr3
 T524	Noun_Phrase 13388 13394	Figure
-T525	Noun_Phrase 13388 13394;	Figure
-13399 13401	Figure3F
-T526	IDENTITY_chain 13388 13394;	Figure
-13399 13401	Figure3F
-T527	Noun_Phrase 13388 13394;	Figure
-13403 13405	Figure3K
-T528	IDENTITY_chain 13388 13394;	Figure
-13403 13405	Figure3K
-T529	Noun_Phrase 13388 13394;	Figure
-13411 13413	Figure3L
-T530	IDENTITY_chain 13388 13394;	Figure
-13411 13413	Figure3L
+T525	Noun_Phrase 13388 13394;13399 13401	Figure 3F
+T526	IDENTITY_chain 13388 13394;13399 13401	Figure 3F
+T527	Noun_Phrase 13388 13394;13403 13405	Figure 3K
+T528	IDENTITY_chain 13388 13394;13403 13405	Figure 3K
+T529	Noun_Phrase 13388 13394;13411 13413	Figure 3L
+T530	IDENTITY_chain 13388 13394;13411 13413	Figure 3L
 T531	Noun_Phrase 13388 13397	Figure 3E
 T532	IDENTITY_chain 13388 13397	Figure 3E
 T533	IDENTITY_chain 13442 13475	isochronic expression of EWS-Pea3
@@ -600,16 +564,12 @@ T562	Noun_Phrase 14288 14293	their
 T563	Noun_Phrase 14306 14308	We
 T564	Noun_Phrase 14318 14323	E13.5
 T565	Noun_Phrase 14348 14357	wild-type
-T566	Noun_Phrase 14348 14357;	wild-type
-14386 14393	wild-typeembryos
-T567	IDENTITY_chain 14348 14357;	wild-type
-14386 14393	wild-typeembryos
+T566	Noun_Phrase 14348 14357;14386 14393	wild-type embryos
+T567	IDENTITY_chain 14348 14357;14386 14393	wild-type embryos
 T568	Noun_Phrase 14362 14385	TauEWS-Pea3/+ Isl1Cre/+
 T569	Noun_Phrase 14362 14393	TauEWS-Pea3/+ Isl1Cre/+ embryos
-T570	Noun_Phrase 14397 14412;	the presence of
-14420 14424	the presence ofNT-3
-T571	IDENTITY_chain 14397 14412;	the presence of
-14420 14424	the presence ofNT-3
+T570	Noun_Phrase 14397 14412;14420 14424	the presence of NT-3
+T571	IDENTITY_chain 14397 14412;14420 14424	the presence of NT-3
 T572	Noun_Phrase 14413 14416	NGF
 T573	IDENTITY_chain 14413 14416	NGF
 T574	IDENTITY_chain 14420 14424	NT-3
@@ -665,10 +625,8 @@ T623	Noun_Phrase 15325 15342	neuronal survival
 T624	Noun_Phrase 15393 15396	NGF
 T625	Noun_Phrase 15400 15404	NT-3
 T626	Noun_Phrase 15406 15412	Figure
-T627	Noun_Phrase 15406 15412;	Figure
-15420 15422	Figure4F
-T628	IDENTITY_chain 15406 15412;	Figure
-15420 15422	Figure4F
+T627	Noun_Phrase 15406 15412;15420 15422	Figure 4F
+T628	IDENTITY_chain 15406 15412;15420 15422	Figure 4F
 T629	Noun_Phrase 15406 15415	Figure 4E
 T630	IDENTITY_chain 15406 15415	Figure 4E
 T631	Noun_Phrase 15446 15458	neurotrophin
@@ -694,8 +652,7 @@ T650	Noun_Phrase 15840 15854	data not shown
 T651	Noun_Phrase 15857 15859	We
 T652	Noun_Phrase 15874 15879	E14.5
 T653	Noun_Phrase 15957 15970	48 h in vitro
-T654	Noun_Phrase 15974 15986;	the presence
-15998 16005	the presenceof NT-3
+T654	Noun_Phrase 15974 15986;15998 16005	the presence of NT-3
 T655	Noun_Phrase 15990 16005	absence of NT-3
 T656	IDENTITY_chain 15990 16005	absence of NT-3
 T657	Noun_Phrase 16001 16005	NT-3
@@ -715,10 +672,8 @@ T670	Noun_Phrase 16146 16165	the absence of NT-3
 T671	Noun_Phrase 16161 16165	NT-3
 T672	Noun_Phrase 16167 16173	Figure
 T673	Noun_Phrase 16167 16175	Figure 5
-T674	Noun_Phrase 16221 16231;	precocious
-16251 16279	precociousETS signaling in DRG neurons
-T675	IDENTITY_chain 16221 16231;	precocious
-16251 16279	precociousETS signaling in DRG neurons
+T674	Noun_Phrase 16221 16231;16251 16279	precocious ETS signaling in DRG neurons
+T675	IDENTITY_chain 16221 16231;16251 16279	precocious ETS signaling in DRG neurons
 T676	Noun_Phrase 16240 16279	isochronic ETS signaling in DRG neurons
 T677	IDENTITY_chain 16240 16279	isochronic ETS signaling in DRG neurons
 T678	Noun_Phrase 16268 16271	DRG
@@ -759,10 +714,8 @@ T712	Noun_Phrase 16987 16993	Figure
 T713	Noun_Phrase 16987 16996	Figure 4D
 T714	Noun_Phrase 17048 17068	neurotrophic support
 T715	Noun_Phrase 17074 17080	Figure
-T716	Noun_Phrase 17074 17080;	Figure
-17088 17090	Figure4I
-T717	IDENTITY_chain 17074 17080;	Figure
-17088 17090	Figure4I
+T716	Noun_Phrase 17074 17080;17088 17090	Figure 4I
+T717	IDENTITY_chain 17074 17080;17088 17090	Figure 4I
 T718	Noun_Phrase 17074 17083	Figure 4H
 T719	IDENTITY_chain 17074 17083	Figure 4H
 T720	Noun_Phrase 17204 17212	EWS-Pea3
@@ -781,14 +734,10 @@ T732	Noun_Phrase 17543 17574	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T733	Noun_Phrase 17576 17582	Figure
 T734	Noun_Phrase 17576 17584	Figure 6
 T735	IDENTITY_chain 17576 17584	Figure 6
-T736	Noun_Phrase 17609 17635;	the neurotrophin receptors
-17642 17646	the neurotrophin receptorsTrkB
-T737	IDENTITY_chain 17609 17635;	the neurotrophin receptors
-17642 17646	the neurotrophin receptorsTrkB
-T738	Noun_Phrase 17609 17635;	the neurotrophin receptors
-17652 17656	the neurotrophin receptorsTrkC
-T739	IDENTITY_chain 17609 17635;	the neurotrophin receptors
-17652 17656	the neurotrophin receptorsTrkC
+T736	Noun_Phrase 17609 17635;17642 17646	the neurotrophin receptors TrkB
+T737	IDENTITY_chain 17609 17635;17642 17646	the neurotrophin receptors TrkB
+T738	Noun_Phrase 17609 17635;17652 17656	the neurotrophin receptors TrkC
+T739	IDENTITY_chain 17609 17635;17652 17656	the neurotrophin receptors TrkC
 T740	Noun_Phrase 17609 17640	the neurotrophin receptors TrkA
 T741	IDENTITY_chain 17609 17640	the neurotrophin receptors TrkA
 T742	Noun_Phrase 17707 17731	DRG of wild-type embryos
@@ -829,14 +778,10 @@ T776	Noun_Phrase 18410 18433	TauEWS-Pea3/+ Isl1Cre/+
 T777	Noun_Phrase 18410 18441	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T778	Noun_Phrase 18459 18468	wild-type
 T779	Noun_Phrase 18470 18476	Figure
-T780	Noun_Phrase 18470 18476;	Figure
-18481 18483	Figure6J
-T781	IDENTITY_chain 18470 18476;	Figure
-18481 18483	Figure6J
-T782	Noun_Phrase 18470 18476;	Figure
-18489 18491	Figure6M
-T783	IDENTITY_chain 18470 18476;	Figure
-18489 18491	Figure6M
+T780	Noun_Phrase 18470 18476;18481 18483	Figure 6J
+T781	IDENTITY_chain 18470 18476;18481 18483	Figure 6J
+T782	Noun_Phrase 18470 18476;18489 18491	Figure 6M
+T783	IDENTITY_chain 18470 18476;18489 18491	Figure 6M
 T784	Noun_Phrase 18470 18479	Figure 6D
 T785	IDENTITY_chain 18470 18479	Figure 6D
 T786	Noun_Phrase 18544 18589	lumbar DRG of TauEWS-Pea3/+ Isl1Cre/+ embryos
@@ -845,14 +790,10 @@ T788	Noun_Phrase 18558 18581	TauEWS-Pea3/+ Isl1Cre/+
 T789	Noun_Phrase 18558 18589	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T790	Noun_Phrase 18647 18656	wild-type
 T791	Noun_Phrase 18665 18671	Figure
-T792	Noun_Phrase 18665 18671;	Figure
-18676 18678	Figure6K
-T793	IDENTITY_chain 18665 18671;	Figure
-18676 18678	Figure6K
-T794	Noun_Phrase 18665 18671;	Figure
-18684 18686	Figure6N
-T795	IDENTITY_chain 18665 18671;	Figure
-18684 18686	Figure6N
+T792	Noun_Phrase 18665 18671;18676 18678	Figure 6K
+T793	IDENTITY_chain 18665 18671;18676 18678	Figure 6K
+T794	Noun_Phrase 18665 18671;18684 18686	Figure 6N
+T795	IDENTITY_chain 18665 18671;18684 18686	Figure 6N
 T796	Noun_Phrase 18665 18674	Figure 6E
 T797	IDENTITY_chain 18665 18674	Figure 6E
 T798	Noun_Phrase 18699 18727	BrdU pulse-chase experiments
@@ -863,10 +804,8 @@ T802	Noun_Phrase 18774 18797	TauEWS-Pea3/+ Isl1Cre/+
 T803	Noun_Phrase 18774 18805	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T804	Noun_Phrase 18814 18828	the cell cycle
 T805	Noun_Phrase 18898 18904	Figure
-T806	Noun_Phrase 18898 18904;	Figure
-18912 18914	Figure6L
-T807	IDENTITY_chain 18898 18904;	Figure
-18912 18914	Figure6L
+T806	Noun_Phrase 18898 18904;18912 18914	Figure 6L
+T807	IDENTITY_chain 18898 18904;18912 18914	Figure 6L
 T808	Noun_Phrase 18898 18907	Figure 6F
 T809	IDENTITY_chain 18898 18907	Figure 6F
 T810	Noun_Phrase 18898 18914	Figure 6F and 6L
@@ -888,10 +827,8 @@ T825	Noun_Phrase 19395 19397	We
 T826	Noun_Phrase 19484 19487	DRG
 T827	IDENTITY_chain 19484 19487	DRG
 T828	Noun_Phrase 19489 19495	Figure
-T829	Noun_Phrase 19489 19495;	Figure
-19503 19505	Figure6P
-T830	IDENTITY_chain 19489 19495;	Figure
-19503 19505	Figure6P
+T829	Noun_Phrase 19489 19495;19503 19505	Figure 6P
+T830	IDENTITY_chain 19489 19495;19503 19505	Figure 6P
 T831	Noun_Phrase 19489 19498	Figure 6O
 T832	IDENTITY_chain 19489 19498	Figure 6O
 T833	Noun_Phrase 19489 19505	Figure 6O and 6P
@@ -900,22 +837,18 @@ T835	Noun_Phrase 19561 19578	neuronal survival
 T836	Noun_Phrase 19608 19647	the proapoptotic Bcl2 family member Bax
 T837	IDENTITY_chain 19608 19647	the proapoptotic Bcl2 family member Bax
 T838	Noun_Phrase 19679 19685	Figure
-T839	Noun_Phrase 19679 19685;	Figure
-19693 19695	Figure6P
+T839	Noun_Phrase 19679 19685;19693 19695	Figure 6P
 T840	Noun_Phrase 19679 19688	Figure 6O
 T841	Noun_Phrase 19679 19695	Figure 6O and 6P
-T842	Noun_Phrase 19735 19773;	the anti-apoptotic Bcl2 family members
-19785 19789	the anti-apoptotic Bcl2 family membersBcl2
-T843	IDENTITY_chain 19735 19773;	the anti-apoptotic Bcl2 family members
-19785 19789	the anti-apoptotic Bcl2 family membersBcl2
+T842	Noun_Phrase 19735 19773;19785 19789	the anti-apoptotic Bcl2 family members Bcl2
+T843	IDENTITY_chain 19735 19773;19785 19789	the anti-apoptotic Bcl2 family members Bcl2
 T844	Noun_Phrase 19735 19780	the anti-apoptotic Bcl2 family members Bcl-xl
 T845	IDENTITY_chain 19735 19780	the anti-apoptotic Bcl2 family members Bcl-xl
 T846	Noun_Phrase 19835 19844	wild-type
 T847	Noun_Phrase 19853 19857	Bcl2
 T848	Noun_Phrase 19865 19871	Bcl-xl
 T849	Noun_Phrase 19921 19927	Figure
-T850	Noun_Phrase 19921 19927;	Figure
-19935 19937	Figure6P
+T850	Noun_Phrase 19921 19927;19935 19937	Figure 6P
 T851	Noun_Phrase 19921 19930	Figure 6O
 T852	Noun_Phrase 19921 19937	Figure 6O and 6P
 T853	Noun_Phrase 20022 20025	DRG
@@ -925,8 +858,7 @@ T856	Noun_Phrase 20037 20068	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T857	Noun_Phrase 20087 20099	Trk receptor
 T858	Noun_Phrase 20087 20110	Trk receptor expression
 T859	IDENTITY_chain 20087 20110	Trk receptor expression
-T860	Noun_Phrase 20123 20133;	Precocious
-20153 20181	PrecociousETS Signaling in DRG Neurons
+T860	Noun_Phrase 20123 20133;20153 20181	Precocious ETS Signaling in DRG Neurons
 T861	Noun_Phrase 20142 20181	Isochronic ETS Signaling in DRG Neurons
 T862	Noun_Phrase 20170 20173	DRG
 T863	Noun_Phrase 20170 20181	DRG Neurons
@@ -935,8 +867,7 @@ T865	Noun_Phrase 20253 20270	neuronal survival
 T866	Noun_Phrase 20253 20292	neuronal survival and neurite outgrowth
 T867	Noun_Phrase 20275 20282	neurite
 T868	Noun_Phrase 20275 20292	neurite outgrowth
-T869	Noun_Phrase 20301 20311;	precocious
-20327 20349	precociousexpression of EWS-Pea3
+T869	Noun_Phrase 20301 20311;20327 20349	precocious expression of EWS-Pea3
 T870	Noun_Phrase 20316 20349	isochronic expression of EWS-Pea3
 T871	Noun_Phrase 20341 20349	EWS-Pea3
 T872	Noun_Phrase 20359 20361	us
@@ -957,8 +888,7 @@ T886	Noun_Phrase 20749 20773	proprioceptive afferents
 T887	Noun_Phrase 20787 20789	we
 T888	Noun_Phrase 20800 20813	this analysis
 T889	Noun_Phrase 20822 20836	Er81EWS-Pea3/?
-T890	Noun_Phrase 20822 20836;	Er81EWS-Pea3/?
-20863 20870	Er81EWS-Pea3/?embryos
+T890	Noun_Phrase 20822 20836;20863 20870	Er81EWS-Pea3/? embryos
 T891	Noun_Phrase 20822 20870	Er81EWS-Pea3/? and TauEWS-Pea3/+ PVCre/+ embryos
 T892	IDENTITY_chain 20822 20870	Er81EWS-Pea3/? and TauEWS-Pea3/+ PVCre/+ embryos
 T893	IDENTITY_chain 20841 20870	TauEWS-Pea3/+ PVCre/+ embryos
@@ -974,34 +904,25 @@ T902	Noun_Phrase 20935 20981	DRG neurons of TauEWS-Pea3/+ Isl1Cre/+ embryos
 T903	Noun_Phrase 20950 20973	TauEWS-Pea3/+ Isl1Cre/+
 T904	Noun_Phrase 20950 20981	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T905	Noun_Phrase 20983 20989	Figure
-T906	Noun_Phrase 20983 20989;	Figure
-20997 20999	Figure7B
-T907	IDENTITY_chain 20983 20989;	Figure
-20997 20999	Figure7B
+T906	Noun_Phrase 20983 20989;20997 20999	Figure 7B
+T907	IDENTITY_chain 20983 20989;20997 20999	Figure 7B
 T908	Noun_Phrase 20983 20992	Figure 7A
 T909	IDENTITY_chain 20983 20992	Figure 7A
 T910	Noun_Phrase 21015 21033	expression of TrkC
 T911	Noun_Phrase 21029 21033	TrkC
 T912	Noun_Phrase 21061 21070	wild-type
 T913	Noun_Phrase 21074 21077	DRG
-T914	Noun_Phrase 21074 21088;	DRG neurons of
-21108 21137	DRG neurons ofTauEWS-Pea3/+ PVCre/+ embryos
-T915	Noun_Phrase 21074 21103;	DRG neurons of Er81EWS-Pea3/?
-21130 21137	DRG neurons of Er81EWS-Pea3/?embryos
+T914	Noun_Phrase 21074 21088;21108 21137	DRG neurons of TauEWS-Pea3/+ PVCre/+ embryos
+T915	Noun_Phrase 21074 21103;21130 21137	DRG neurons of Er81EWS-Pea3/? embryos
 T916	Noun_Phrase 21089 21103	Er81EWS-Pea3/?
-T917	Noun_Phrase 21089 21103;	Er81EWS-Pea3/?
-21130 21137	Er81EWS-Pea3/?embryos
+T917	Noun_Phrase 21089 21103;21130 21137	Er81EWS-Pea3/? embryos
 T918	Noun_Phrase 21089 21137	Er81EWS-Pea3/? and TauEWS-Pea3/+ PVCre/+ embryos
 T919	Noun_Phrase 21108 21137	TauEWS-Pea3/+ PVCre/+ embryos
 T920	Noun_Phrase 21139 21145	Figure
-T921	Noun_Phrase 21139 21145;	Figure
-21150 21152	Figure7C
-T922	IDENTITY_chain 21139 21145;	Figure
-21150 21152	Figure7C
-T923	Noun_Phrase 21139 21145;	Figure
-21158 21160	Figure7D
-T924	IDENTITY_chain 21139 21145;	Figure
-21158 21160	Figure7D
+T921	Noun_Phrase 21139 21145;21150 21152	Figure 7C
+T922	IDENTITY_chain 21139 21145;21150 21152	Figure 7C
+T923	Noun_Phrase 21139 21145;21158 21160	Figure 7D
+T924	IDENTITY_chain 21139 21145;21158 21160	Figure 7D
 T925	Noun_Phrase 21139 21148	Figure 7A
 T926	Noun_Phrase 21173 21175	PV
 T927	Noun_Phrase 21197 21200	DRG
@@ -1012,13 +933,11 @@ T931	Noun_Phrase 21245 21251	Figure
 T932	Noun_Phrase 21245 21254	Figure S5
 T933	IDENTITY_chain 21245 21254	Figure S5
 T934	Noun_Phrase 21310 21319	wild-type
-T935	Noun_Phrase 21310 21319;	wild-type
-21339 21346	wild-typeembryos
+T935	Noun_Phrase 21310 21319;21339 21346	wild-type embryos
 T936	Noun_Phrase 21324 21338	Er81EWS-Pea3/?
 T937	Noun_Phrase 21324 21346	Er81EWS-Pea3/? embryos
 T938	Noun_Phrase 21352 21359	Figures
-T939	Noun_Phrase 21352 21359;	Figures
-21366 21368	FiguresS5
+T939	Noun_Phrase 21352 21359;21366 21368	Figures S5
 T940	Noun_Phrase 21352 21361	Figures 1
 T941	Noun_Phrase 21376 21378	We
 T942	Noun_Phrase 21441 21444	DRG
@@ -1036,38 +955,27 @@ T953	Noun_Phrase 21515 21524	Calbindin
 T954	IDENTITY_chain 21515 21524	Calbindin
 T955	Noun_Phrase 21526 21671	two different calcium-binding proteins expressed by subpopulations of DRG neurons in wild-type, Er81EWS-Pea3/?, and TauEWS-Pea3/+ PVCre/+ embryos
 T956	Noun_Phrase 21596 21599	DRG
-T957	Noun_Phrase 21596 21607;	DRG neurons
-21642 21671	DRG neuronsTauEWS-Pea3/+ PVCre/+ embryos
-T958	Noun_Phrase 21596 21610;	DRG neurons in
-21622 21636;	DRG neurons inEr81EWS-Pea3/?
-21664 21671	DRG neurons inEr81EWS-Pea3/?embryos
-T959	Noun_Phrase 21596 21620;	DRG neurons in wild-type
-21664 21671	DRG neurons in wild-typeembryos
+T957	Noun_Phrase 21596 21607;21642 21671	DRG neurons TauEWS-Pea3/+ PVCre/+ embryos
+T958	Noun_Phrase 21596 21610;21622 21636;21664 21671	DRG neurons in Er81EWS-Pea3/? embryos
+T959	Noun_Phrase 21596 21620;21664 21671	DRG neurons in wild-type embryos
 T960	Noun_Phrase 21611 21620	wild-type
-T961	Noun_Phrase 21611 21620;	wild-type
-21664 21671	wild-typeembryos
+T961	Noun_Phrase 21611 21620;21664 21671	wild-type embryos
 T962	Noun_Phrase 21622 21636	Er81EWS-Pea3/?
-T963	Noun_Phrase 21622 21636;	Er81EWS-Pea3/?
-21664 21671	Er81EWS-Pea3/?embryos
+T963	Noun_Phrase 21622 21636;21664 21671	Er81EWS-Pea3/? embryos
 T964	Noun_Phrase 21622 21671	Er81EWS-Pea3/?, and TauEWS-Pea3/+ PVCre/+ embryos
 T965	Noun_Phrase 21642 21671	TauEWS-Pea3/+ PVCre/+ embryos
 T966	Noun_Phrase 21673 21679	Figure
-T967	Noun_Phrase 21673 21679;	Figure
-21684 21686	Figure7G
-T968	IDENTITY_chain 21673 21679;	Figure
-21684 21686	Figure7G
-T969	Noun_Phrase 21673 21679;	Figure
-21692 21694	Figure7H
-T970	IDENTITY_chain 21673 21679;	Figure
-21692 21694	Figure7H
+T967	Noun_Phrase 21673 21679;21684 21686	Figure 7G
+T968	IDENTITY_chain 21673 21679;21684 21686	Figure 7G
+T969	Noun_Phrase 21673 21679;21692 21694	Figure 7H
+T970	IDENTITY_chain 21673 21679;21692 21694	Figure 7H
 T971	Noun_Phrase 21673 21682	Figure 7E
 T972	IDENTITY_chain 21673 21682	Figure 7E
 T973	Noun_Phrase 21696 21710	data not shown
 T974	Noun_Phrase 21773 21796	TauEWS-Pea3/+ Isl1Cre/+
 T975	Noun_Phrase 21773 21804	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T976	Noun_Phrase 21806 21813	Figures
-T977	Noun_Phrase 21806 21813;	Figures
-21821 21823	FiguresS5
+T977	Noun_Phrase 21806 21813;21821 21823	Figures S5
 T978	Noun_Phrase 21806 21816	Figures 7F
 T979	IDENTITY_chain 21806 21816	Figures 7F
 T980	Noun_Phrase 21854 21857	DRG
@@ -1080,10 +988,8 @@ T986	IDENTITY_chain 22066 22097	EWS-Pea3 expressed precociously
 T987	Noun_Phrase 22144 22146	it
 T988	Noun_Phrase 22191 22193	we
 T989	Noun_Phrase 22218 22226	EWS-Pea3
-T990	Noun_Phrase 22455 22477;	TauEWS-Pea3/+ Hb9Cre/+
-22501 22508	TauEWS-Pea3/+ Hb9Cre/+embryos
-T991	IDENTITY_chain 22455 22477;	TauEWS-Pea3/+ Hb9Cre/+
-22501 22508	TauEWS-Pea3/+ Hb9Cre/+embryos
+T990	Noun_Phrase 22455 22477;22501 22508	TauEWS-Pea3/+ Hb9Cre/+ embryos
+T991	IDENTITY_chain 22455 22477;22501 22508	TauEWS-Pea3/+ Hb9Cre/+ embryos
 T992	Noun_Phrase 22482 22508	TaumGFP/+ Hb9Cre/+ embryos
 T993	IDENTITY_chain 22482 22508	TaumGFP/+ Hb9Cre/+ embryos
 T994	Noun_Phrase 22510 22516	Figure
@@ -1100,8 +1006,7 @@ T1004	Noun_Phrase 22704 22730	TaumGFP/+ Hb9Cre/+ embryos
 T1005	Noun_Phrase 22732 22738	Figure
 T1006	Noun_Phrase 22732 22740	Figure 8
 T1007	Noun_Phrase 22798 22826	in vitro culture experiments
-T1008	Noun_Phrase 22832 22839;	Figures
-22846 22847	Figures5
+T1008	Noun_Phrase 22832 22839;22846 22847	Figures 5
 T1009	Noun_Phrase 22832 22839	Figures
 T1010	Noun_Phrase 22832 22841	Figures 4
 T1011	IDENTITY_chain 22832 22841	Figures 4
@@ -1200,8 +1105,7 @@ T1103	Noun_Phrase 26575 26597	Target-derived factors
 T1104	Noun_Phrase 26605 26636	predetermined neuronal lineages
 T1105	IDENTITY_chain 26605 26636	predetermined neuronal lineages
 T1106	Noun_Phrase 26647 26652	their
-T1107	Noun_Phrase 26720 26726;	target
-26740 26749	targetbranching
+T1107	Noun_Phrase 26720 26726;26740 26749	target branching
 T1108	Noun_Phrase 26720 26735	target invasion
 T1109	Noun_Phrase 26720 26749	target invasion and branching
 T1110	Noun_Phrase 26925 26955	specific transcription factors
@@ -1331,8 +1235,7 @@ T1233	IDENTITY_chain 32676 32681	placZ
 T1234	Noun_Phrase 32687 32694	pTK-Luc
 T1235	Noun_Phrase 32838 32850	pRc/RSV-Er81
 T1236	Noun_Phrase 32855 32871	pRc/RSV-EWS-Pea3
-T1237	Noun_Phrase 32880 32901;	the reporter plasmids
-32915 32927	the reporter plasmidspTP-5xETSmut
+T1237	Noun_Phrase 32880 32901;32915 32927	the reporter plasmids pTP-5xETSmut
 T1238	Noun_Phrase 32880 32911	the reporter plasmids pTP-5xETS
 T1239	Noun_Phrase 32933 32938	placZ
 T1240	Noun_Phrase 33025 33029	LacZ
@@ -1497,14 +1400,9 @@ T1398	Noun_Phrase 37812 37816	LacZ
 T1399	IDENTITY_chain 37812 37816	LacZ
 T1400	Noun_Phrase 37818 37823	green
 T1401	Noun_Phrase 37865 37870	E16.5
-T1402	Noun_Phrase 37865 37884;	E16.5 lumbar DRG of
-37913 37927;	E16.5 lumbar DRG ofEr81EWS-Pea3/?
-37942 37949	E16.5 lumbar DRG ofEr81EWS-Pea3/?embryos
-T1403	IDENTITY_chain 37865 37884;	E16.5 lumbar DRG of
-37913 37927;	E16.5 lumbar DRG ofEr81EWS-Pea3/?
-37942 37949	E16.5 lumbar DRG ofEr81EWS-Pea3/?embryos
-T1404	Noun_Phrase 37913 37927;	Er81EWS-Pea3/?
-37942 37949	Er81EWS-Pea3/?embryos
+T1402	Noun_Phrase 37865 37884;37913 37927;37942 37949	E16.5 lumbar DRG of Er81EWS-Pea3/? embryos
+T1403	IDENTITY_chain 37865 37884;37913 37927;37942 37949	E16.5 lumbar DRG of Er81EWS-Pea3/? embryos
+T1404	Noun_Phrase 37913 37927;37942 37949	Er81EWS-Pea3/? embryos
 T1405	Noun_Phrase 37913 37927	Er81EWS-Pea3/?
 T1406	Noun_Phrase 37952 37961	Scale bar
 T1407	IDENTITY_chain 37952 37961	Scale bar
@@ -1527,17 +1425,14 @@ T1423	Noun_Phrase 38094 38121	Ia Proprioceptive Afferents
 T1424	Noun_Phrase 38172 38192	Er81EWS-Pea3 Mutants
 T1425	Noun_Phrase 38266 38277	Ia afferent
 T1426	Noun_Phrase 38300 38324	quadriceps motor neurons
-T1427	Noun_Phrase 38389 38398;	wild-type
-38433 38440	wild-typeanimals
+T1427	Noun_Phrase 38389 38398;38433 38440	wild-type animals
 T1428	Noun_Phrase 38389 38398	wild-type
 T1429	Noun_Phrase 38407 38421	Er81EWS-Pea3/?
-T1430	Noun_Phrase 38407 38428;	Er81EWS-Pea3/? mutant
-38433 38440	Er81EWS-Pea3/? mutantanimals
+T1430	Noun_Phrase 38407 38428;38433 38440	Er81EWS-Pea3/? mutant animals
 T1431	Noun_Phrase 38600 38620	additional data file
 T1432	Noun_Phrase 38623 38629	Figure
 T1433	Noun_Phrase 38623 38632	Figure S3
-T1434	Noun_Phrase 38648 38663;	Mice Expressing
-38676 38680	Mice ExpressingmGFP
+T1434	Noun_Phrase 38648 38663;38676 38680	Mice Expressing mGFP
 T1435	Noun_Phrase 38648 38672	Mice Expressing EWS-Pea3
 T1436	Noun_Phrase 38664 38672	EWS-Pea3
 T1437	Noun_Phrase 38676 38680	mGFP
@@ -1559,10 +1454,8 @@ T1452	IDENTITY_chain 38950 38953	ATG
 T1453	Noun_Phrase 38980 39004	homologous recombination
 T1454	Noun_Phrase 39017 39027	a grey box
 T1455	IDENTITY_chain 39017 39027	a grey box
-T1456	Noun_Phrase 39029 39035;	Middle
-39047 39053	Middlepanels
-T1457	IDENTITY_chain 39029 39035;	Middle
-39047 39053	Middlepanels
+T1456	Noun_Phrase 39029 39035;39047 39053	Middle panels
+T1457	IDENTITY_chain 39029 39035;39047 39053	Middle panels
 T1458	Noun_Phrase 39040 39053	bottom panels
 T1459	IDENTITY_chain 39040 39053	bottom panels
 T1460	Noun_Phrase 39059 39062	Tau
@@ -1615,20 +1508,14 @@ T1506	Noun_Phrase 40039 40042	GFP
 T1507	Noun_Phrase 40051 40055	LacZ
 T1508	Noun_Phrase 40087 40092	E13.5
 T1509	Noun_Phrase 40099 40102	DRG
-T1510	Noun_Phrase 40099 40113;	DRG neurons of
-40131 40154;	DRG neurons ofTauEWS-Pea3/+ Isl1Cre/+
-40192 40199	DRG neurons ofTauEWS-Pea3/+ Isl1Cre/+embryos
+T1510	Noun_Phrase 40099 40113;40131 40154;40192 40199	DRG neurons of TauEWS-Pea3/+ Isl1Cre/+ embryos
 T1511	Noun_Phrase 40099 40123	DRG neurons of wild-type
-T1512	Noun_Phrase 40114 40123;	wild-type
-40192 40199	wild-typeembryos
+T1512	Noun_Phrase 40114 40123;40192 40199	wild-type embryos
 T1513	Noun_Phrase 40114 40123	wild-type
-T1514	Noun_Phrase 40131 40154;	TauEWS-Pea3/+ Isl1Cre/+
-40192 40199	TauEWS-Pea3/+ Isl1Cre/+embryos
+T1514	Noun_Phrase 40131 40154;40192 40199	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T1515	Noun_Phrase 40131 40154	TauEWS-Pea3/+ Isl1Cre/+
-T1516	Noun_Phrase 40166 40185;	TaumGFP/+ Isl1Cre/+
-40192 40199	TaumGFP/+ Isl1Cre/+embryos
-T1517	IDENTITY_chain 40166 40185;	TaumGFP/+ Isl1Cre/+
-40192 40199	TaumGFP/+ Isl1Cre/+embryos
+T1516	Noun_Phrase 40166 40185;40192 40199	TaumGFP/+ Isl1Cre/+ embryos
+T1517	IDENTITY_chain 40166 40185;40192 40199	TaumGFP/+ Isl1Cre/+ embryos
 T1518	Noun_Phrase 40192 40199	embryos
 T1519	Noun_Phrase 40202 40211	Scale bar
 T1520	Noun_Phrase 40286 40306	additional data file
@@ -1695,22 +1582,16 @@ T1580	Noun_Phrase 41244 41252	EWS-Pea3
 T1581	Noun_Phrase 41256 41259	DRG
 T1582	Noun_Phrase 41256 41267	DRG Neurons
 T1583	Noun_Phrase 41301 41303	PV
-T1584	Noun_Phrase 41315 41325;	Calretinin
-41361 41371	Calretininexpression
-T1585	IDENTITY_chain 41315 41325;	Calretinin
-41361 41371	Calretininexpression
+T1584	Noun_Phrase 41315 41325;41361 41371	Calretinin expression
+T1585	IDENTITY_chain 41315 41325;41361 41371	Calretinin expression
 T1586	Noun_Phrase 41315 41325	Calretinin
 T1587	Noun_Phrase 41341 41350	Calbindin
 T1588	Noun_Phrase 41375 41380	E16.5
-T1589	Noun_Phrase 41375 41404;	E16.5 lumbar DRG of wild-type
-41445 41452	E16.5 lumbar DRG of wild-typeembryos
-T1590	IDENTITY_chain 41375 41404;	E16.5 lumbar DRG of wild-type
-41445 41452	E16.5 lumbar DRG of wild-typeembryos
-T1591	Noun_Phrase 41395 41404;	wild-type
-41445 41452	wild-typeembryos
+T1589	Noun_Phrase 41375 41404;41445 41452	E16.5 lumbar DRG of wild-type embryos
+T1590	IDENTITY_chain 41375 41404;41445 41452	E16.5 lumbar DRG of wild-type embryos
+T1591	Noun_Phrase 41395 41404;41445 41452	wild-type embryos
 T1592	Noun_Phrase 41395 41404	wild-type
-T1593	Noun_Phrase 41415 41438;	TauEWS-Pea3/+ Isl1Cre/+
-41445 41452	TauEWS-Pea3/+ Isl1Cre/+embryos
+T1593	Noun_Phrase 41415 41438;41445 41452	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T1594	Noun_Phrase 41415 41438	TauEWS-Pea3/+ Isl1Cre/+
 T1595	Noun_Phrase 41455 41464	Scale bar
 T1596	Noun_Phrase 41504 41524	additional data file
@@ -1802,40 +1683,24 @@ T1681	Noun_Phrase 43730 43750	the wild-type allele
 T1682	IDENTITY_chain 43730 43750	the wild-type allele
 T1683	Noun_Phrase 43761 43762	E
 T1684	Noun_Phrase 43776 43780	Er81
-T1685	Noun_Phrase 43795 43822;	lumbar DRG neurons of E16.5
-43855 43881	lumbar DRG neurons of E16.5Er81EWS-Pea3/? (E) embryos
-T1686	Noun_Phrase 43795 43832;	lumbar DRG neurons of E16.5 wild-type
-43874 43881	lumbar DRG neurons of E16.5 wild-typeembryos
-T1687	Noun_Phrase 43817 43822;	E16.5
-43838 43845;	E16.5Er81?/?
-43874 43881	E16.5Er81?/?embryos
-T1688	IDENTITY_chain 43817 43822;	E16.5
-43838 43845;	E16.5Er81?/?
-43874 43881	E16.5Er81?/?embryos
-T1689	Noun_Phrase 43817 43822;	E16.5
-43855 43881	E16.5Er81EWS-Pea3/? (E) embryos
-T1690	IDENTITY_chain 43817 43822;	E16.5
-43855 43881	E16.5Er81EWS-Pea3/? (E) embryos
+T1685	Noun_Phrase 43795 43822;43855 43881	lumbar DRG neurons of E16.5 Er81EWS-Pea3/? (E) embryos
+T1686	Noun_Phrase 43795 43832;43874 43881	lumbar DRG neurons of E16.5 wild-type embryos
+T1687	Noun_Phrase 43817 43822;43838 43845;43874 43881	E16.5 Er81?/? embryos
+T1688	IDENTITY_chain 43817 43822;43838 43845;43874 43881	E16.5 Er81?/? embryos
+T1689	Noun_Phrase 43817 43822;43855 43881	E16.5 Er81EWS-Pea3/? (E) embryos
+T1690	IDENTITY_chain 43817 43822;43855 43881	E16.5 Er81EWS-Pea3/? (E) embryos
 T1691	Noun_Phrase 43817 43822	E16.5
-T1692	Noun_Phrase 43817 43832;	E16.5 wild-type
-43874 43881	E16.5 wild-typeembryos
-T1693	IDENTITY_chain 43817 43832;	E16.5 wild-type
-43874 43881	E16.5 wild-typeembryos
+T1692	Noun_Phrase 43817 43832;43874 43881	E16.5 wild-type embryos
+T1693	IDENTITY_chain 43817 43832;43874 43881	E16.5 wild-type embryos
 T1694	Noun_Phrase 43855 43869	Er81EWS-Pea3/?
 T1695	Noun_Phrase 43931 43935	Isl1
 T1696	Noun_Phrase 43977 43979	PV
-T1697	Noun_Phrase 43994 44013;	lumbar DRG of E16.5
-44046 44072	lumbar DRG of E16.5Er81EWS-Pea3/? (H) embryos
-T1698	Noun_Phrase 43994 44023;	lumbar DRG of E16.5 wild-type
-44065 44072	lumbar DRG of E16.5 wild-typeembryos
-T1699	Noun_Phrase 44008 44013;	E16.5
-44029 44036;	E16.5Er81?/?
-44065 44072	E16.5Er81?/?embryos
-T1700	Noun_Phrase 44008 44013;	E16.5
-44046 44072	E16.5Er81EWS-Pea3/? (H) embryos
+T1697	Noun_Phrase 43994 44013;44046 44072	lumbar DRG of E16.5 Er81EWS-Pea3/? (H) embryos
+T1698	Noun_Phrase 43994 44023;44065 44072	lumbar DRG of E16.5 wild-type embryos
+T1699	Noun_Phrase 44008 44013;44029 44036;44065 44072	E16.5 Er81?/? embryos
+T1700	Noun_Phrase 44008 44013;44046 44072	E16.5 Er81EWS-Pea3/? (H) embryos
 T1701	Noun_Phrase 44008 44013	E16.5
-T1702	Noun_Phrase 44008 44023;	E16.5 wild-type
-44065 44072	E16.5 wild-typeembryos
+T1702	Noun_Phrase 44008 44023;44065 44072	E16.5 wild-type embryos
 T1703	Noun_Phrase 44046 44060	Er81EWS-Pea3/?
 T1704	Noun_Phrase 44133 44134	J
 T1705	Noun_Phrase 44353 44357	Er81
@@ -1854,24 +1719,12 @@ T1717	Noun_Phrase 44694 44697	A–C
 T1718	IDENTITY_chain 44694 44697	A–C
 T1719	Noun_Phrase 44706 44709	DRG
 T1720	Noun_Phrase 44749 44778	fluorescently labeled dextran
-T1721	Noun_Phrase 44815 44819;	P0.5
-44838 44847;	P0.5wild-type
-44907 44911	P0.5wild-typemice
-T1722	IDENTITY_chain 44815 44819;	P0.5
-44838 44847;	P0.5wild-type
-44907 44911	P0.5wild-typemice
-T1723	IDENTITY_chain 44815 44819;	P0.5
-44859 44866;	P0.5Er81?/?
-44907 44911	P0.5Er81?/?mice
-T1724	Noun_Phrase 44815 44819;	P0.5
-44859 44866;	P0.5Er81?/?
-44907 44911	P0.5Er81?/?mice
-T1725	Noun_Phrase 44815 44819;	P0.5
-44882 44896;	P0.5Er81EWS-Pea3/?
-44907 44911	P0.5Er81EWS-Pea3/?mice
-T1726	IDENTITY_chain 44815 44819;	P0.5
-44882 44896;	P0.5Er81EWS-Pea3/?
-44907 44911	P0.5Er81EWS-Pea3/?mice
+T1721	Noun_Phrase 44815 44819;44838 44847;44907 44911	P0.5 wild-type mice
+T1722	IDENTITY_chain 44815 44819;44838 44847;44907 44911	P0.5 wild-type mice
+T1723	IDENTITY_chain 44815 44819;44859 44866;44907 44911	P0.5 Er81?/? mice
+T1724	Noun_Phrase 44815 44819;44859 44866;44907 44911	P0.5 Er81?/? mice
+T1725	Noun_Phrase 44815 44819;44882 44896;44907 44911	P0.5 Er81EWS-Pea3/? mice
+T1726	IDENTITY_chain 44815 44819;44882 44896;44907 44911	P0.5 Er81EWS-Pea3/? mice
 T1727	Noun_Phrase 44821 44824	A–C
 T1728	Noun_Phrase 44833 44836	D–F
 T1729	IDENTITY_chain 44833 44836	D–F
@@ -1883,28 +1736,19 @@ T1734	Noun_Phrase 44904 44905	F
 T1735	Noun_Phrase 44961 44972	spinal cord
 T1736	Noun_Phrase 44976 44979	G–I
 T1737	IDENTITY_chain 44976 44979	G–I
-T1738	Noun_Phrase 45043 45047;	P0.5
-45063 45070;	P0.5Er81?/?
-45099 45103	P0.5Er81?/?mice
-T1739	Noun_Phrase 45043 45047;	P0.5
-45080 45094;	P0.5Er81EWS-Pea3/?
-45099 45103	P0.5Er81EWS-Pea3/?mice
-T1740	Noun_Phrase 45043 45057;	P0.5 wild-type
-45099 45103	P0.5 wild-typemice
+T1738	Noun_Phrase 45043 45047;45063 45070;45099 45103	P0.5 Er81?/? mice
+T1739	Noun_Phrase 45043 45047;45080 45094;45099 45103	P0.5 Er81EWS-Pea3/? mice
+T1740	Noun_Phrase 45043 45057;45099 45103	P0.5 wild-type mice
 T1741	Noun_Phrase 45080 45094	Er81EWS-Pea3/?
 T1742	Noun_Phrase 45165 45168	G–I
 T1743	Noun_Phrase 45236 45262	Ia proprioceptive afferent
 T1744	Noun_Phrase 45276 45280	blue
 T1745	Noun_Phrase 45287 45310	the ventral spinal cord
-T1746	Noun_Phrase 45323 45332;	wild-type
-45374 45378	wild-typemice
+T1746	Noun_Phrase 45323 45332;45374 45378	wild-type mice
 T1747	Noun_Phrase 45323 45332	wild-type
-T1748	Noun_Phrase 45338 45345;	Er81?/?
-45374 45378	Er81?/?mice
-T1749	IDENTITY_chain 45338 45345;	Er81?/?
-45374 45378	Er81?/?mice
-T1750	Noun_Phrase 45355 45369;	Er81EWS-Pea3/?
-45374 45378	Er81EWS-Pea3/?mice
+T1748	Noun_Phrase 45338 45345;45374 45378	Er81?/? mice
+T1749	IDENTITY_chain 45338 45345;45374 45378	Er81?/? mice
+T1750	Noun_Phrase 45355 45369;45374 45378	Er81EWS-Pea3/? mice
 T1751	Noun_Phrase 45355 45369	Er81EWS-Pea3/?
 T1752	Noun_Phrase 45380 45383	DRG
 T1753	Noun_Phrase 45415 45428	motor neurons
@@ -1923,23 +1767,14 @@ T1765	IDENTITY_chain 45633 45636	A–C
 T1766	Noun_Phrase 45633 45636	A–C
 T1767	IDENTITY_chain 45641 45644	G–I
 T1768	Noun_Phrase 45641 45644	G–I
-T1769	Noun_Phrase 45724 45733;	wild-type
-45774 45784;	wild-typeembryos at
-45812 45817	wild-typeembryos atE16.5
-T1770	Noun_Phrase 45724 45733;	wild-type
-45774 45790	wild-typeembryos at E13.5
+T1769	Noun_Phrase 45724 45733;45774 45784;45812 45817	wild-type embryos at E16.5
+T1770	Noun_Phrase 45724 45733;45774 45790	wild-type embryos at E13.5
 T1771	Noun_Phrase 45724 45733	wild-type
 T1772	Noun_Phrase 45735 45738	A–C
-T1773	Noun_Phrase 45744 45767;	TauEWS-Pea3/+ Isl1Cre/+
-45774 45784;	TauEWS-Pea3/+ Isl1Cre/+embryos at
-45812 45817	TauEWS-Pea3/+ Isl1Cre/+embryos atE16.5
-T1774	IDENTITY_chain 45744 45767;	TauEWS-Pea3/+ Isl1Cre/+
-45774 45784;	TauEWS-Pea3/+ Isl1Cre/+embryos at
-45812 45817	TauEWS-Pea3/+ Isl1Cre/+embryos atE16.5
-T1775	Noun_Phrase 45744 45767;	TauEWS-Pea3/+ Isl1Cre/+
-45774 45790	TauEWS-Pea3/+ Isl1Cre/+embryos at E13.5
-T1776	IDENTITY_chain 45744 45767;	TauEWS-Pea3/+ Isl1Cre/+
-45774 45790	TauEWS-Pea3/+ Isl1Cre/+embryos at E13.5
+T1773	Noun_Phrase 45744 45767;45774 45784;45812 45817	TauEWS-Pea3/+ Isl1Cre/+ embryos at E16.5
+T1774	IDENTITY_chain 45744 45767;45774 45784;45812 45817	TauEWS-Pea3/+ Isl1Cre/+ embryos at E16.5
+T1775	Noun_Phrase 45744 45767;45774 45790	TauEWS-Pea3/+ Isl1Cre/+ embryos at E13.5
+T1776	IDENTITY_chain 45744 45767;45774 45790	TauEWS-Pea3/+ Isl1Cre/+ embryos at E13.5
 T1777	Noun_Phrase 45744 45767	TauEWS-Pea3/+ Isl1Cre/+
 T1778	Noun_Phrase 45769 45772	G–I
 T1779	Noun_Phrase 45785 45790	E13.5
@@ -1981,17 +1816,13 @@ T1814	Noun_Phrase 46276 46277	J
 T1815	Noun_Phrase 46290 46291	E
 T1816	Noun_Phrase 46296 46297	K
 T1817	Noun_Phrase 46299 46302	red
-T1818	Noun_Phrase 46328 46337;	wild-type
-46378 46394	wild-typeembryos at E16.5
+T1818	Noun_Phrase 46328 46337;46378 46394	wild-type embryos at E16.5
 T1819	Noun_Phrase 46328 46337	wild-type
-T1820	Noun_Phrase 46348 46371;	TauEWS-Pea3/+ Isl1Cre/+
-46378 46394	TauEWS-Pea3/+ Isl1Cre/+embryos at E16.5
+T1820	Noun_Phrase 46348 46371;46378 46394	TauEWS-Pea3/+ Isl1Cre/+ embryos at E16.5
 T1821	Noun_Phrase 46348 46371	TauEWS-Pea3/+ Isl1Cre/+
 T1822	Noun_Phrase 46389 46394	E16.5
-T1823	Noun_Phrase 46398 46441;	Cre-recombinase-mediated activation of mGFP
-46459 46488	Cre-recombinase-mediated activation of mGFPexpression from the Tau locus
-T1824	Noun_Phrase 46437 46441;	mGFP
-46459 46488	mGFPexpression from the Tau locus
+T1823	Noun_Phrase 46398 46441;46459 46488	Cre-recombinase-mediated activation of mGFP expression from the Tau locus
+T1824	Noun_Phrase 46437 46441;46459 46488	mGFP expression from the Tau locus
 T1825	Noun_Phrase 46443 46444	D
 T1826	Noun_Phrase 46446 46447	E
 T1827	Noun_Phrase 46449 46450	J
@@ -2005,12 +1836,9 @@ T1834	Noun_Phrase 46524 46548	intrafusal muscle fibers
 T1835	Noun_Phrase 46555 46576	in situ hybridization
 T1836	Noun_Phrase 46603 46604	E
 T1837	Noun_Phrase 46609 46610	K
-T1838	Noun_Phrase 46714 46719;	E13.5
-46738 46761;	E13.5TauEWS-Pea3/+ Isl1Cre/+
-46772 46779	E13.5TauEWS-Pea3/+ Isl1Cre/+embryos
+T1838	Noun_Phrase 46714 46719;46738 46761;46772 46779	E13.5 TauEWS-Pea3/+ Isl1Cre/+ embryos
 T1839	Noun_Phrase 46714 46719	E13.5
-T1840	Noun_Phrase 46714 46729;	E13.5 wild-type
-46772 46779	E13.5 wild-typeembryos
+T1840	Noun_Phrase 46714 46729;46772 46779	E13.5 wild-type embryos
 T1841	Noun_Phrase 46731 46732	M
 T1842	Noun_Phrase 46738 46761	TauEWS-Pea3/+ Isl1Cre/+
 T1843	Noun_Phrase 46763 46764	O
@@ -2048,10 +1876,8 @@ T1874	Noun_Phrase 47327 47336	wild-type
 T1875	Noun_Phrase 47338 47339	A
 T1876	Noun_Phrase 47341 47342	B
 T1877	Noun_Phrase 47348 47349	C
-T1878	Noun_Phrase 47352 47375;	TauEWS-Pea3/+ Isl1Cre/+
-47415 47469	TauEWS-Pea3/+ Isl1Cre/+embryos cultured for 48 h without neurotrophic support
-T1879	IDENTITY_chain 47352 47375;	TauEWS-Pea3/+ Isl1Cre/+
-47415 47469	TauEWS-Pea3/+ Isl1Cre/+embryos cultured for 48 h without neurotrophic support
+T1878	Noun_Phrase 47352 47375;47415 47469	TauEWS-Pea3/+ Isl1Cre/+ embryos cultured for 48 h without neurotrophic support
+T1879	IDENTITY_chain 47352 47375;47415 47469	TauEWS-Pea3/+ Isl1Cre/+ embryos cultured for 48 h without neurotrophic support
 T1880	Noun_Phrase 47352 47375	TauEWS-Pea3/+ Isl1Cre/+
 T1881	Noun_Phrase 47377 47378	D
 T1882	Noun_Phrase 47380 47381	E
@@ -2084,8 +1910,7 @@ T1908	Noun_Phrase 47780 47781	A
 T1909	IDENTITY_chain 47780 47781	A
 T1910	Noun_Phrase 47786 47787	B
 T1911	IDENTITY_chain 47786 47787	B
-T1912	Noun_Phrase 47793 47814;	TauEWS-Pea3/+ PVCre/+
-47825 47879	TauEWS-Pea3/+ PVCre/+embryos cultured for 48 h without neurotrophic support
+T1912	Noun_Phrase 47793 47814;47825 47879	TauEWS-Pea3/+ PVCre/+ embryos cultured for 48 h without neurotrophic support
 T1913	Noun_Phrase 47816 47817	C
 T1914	IDENTITY_chain 47816 47817	C
 T1915	Noun_Phrase 47822 47823	D
@@ -2115,29 +1940,21 @@ T1938	Noun_Phrase 48262 48266	TrkA
 T1939	Noun_Phrase 48278 48282	TrkB
 T1940	Noun_Phrase 48298 48302	TrkC
 T1941	Noun_Phrase 48327 48332	E16.5
-T1942	Noun_Phrase 48327 48356;	E16.5 lumbar DRG of wild-type
-48397 48404	E16.5 lumbar DRG of wild-typeembryos
-T1943	Noun_Phrase 48347 48356;	wild-type
-48397 48404	wild-typeembryos
+T1942	Noun_Phrase 48327 48356;48397 48404	E16.5 lumbar DRG of wild-type embryos
+T1943	Noun_Phrase 48347 48356;48397 48404	wild-type embryos
 T1944	Noun_Phrase 48347 48356	wild-type
 T1945	Noun_Phrase 48358 48361	A–C
-T1946	Noun_Phrase 48367 48390;	TauEWS-Pea3/+ Isl1Cre/+
-48397 48404	TauEWS-Pea3/+ Isl1Cre/+embryos
+T1946	Noun_Phrase 48367 48390;48397 48404	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T1947	Noun_Phrase 48367 48390	TauEWS-Pea3/+ Isl1Cre/+
 T1948	Noun_Phrase 48392 48395	G–I
-T1949	Noun_Phrase 48433 48446;	lumbar DRG of
-48496 48519;	lumbar DRG ofTauEWS-Pea3/+ Isl1Cre/+
-48534 48541	lumbar DRG ofTauEWS-Pea3/+ Isl1Cre/+embryos
-T1950	Noun_Phrase 48447 48456;	wild-type
-48534 48541	wild-typeembryos
+T1949	Noun_Phrase 48433 48446;48496 48519;48534 48541	lumbar DRG of TauEWS-Pea3/+ Isl1Cre/+ embryos
+T1950	Noun_Phrase 48447 48456;48534 48541	wild-type embryos
 T1951	Noun_Phrase 48447 48456	wild-type
 T1952	Noun_Phrase 48458 48459	D
-T1953	Noun_Phrase 48462 48478;	TaumGFP/+ IslCre
-48534 48541	TaumGFP/+ IslCreembryos
+T1953	Noun_Phrase 48462 48478;48534 48541	TaumGFP/+ IslCre embryos
 T1954	Noun_Phrase 48482 48483	E
 T1955	Noun_Phrase 48488 48489	F
-T1956	Noun_Phrase 48496 48519;	TauEWS-Pea3/+ Isl1Cre/+
-48534 48541	TauEWS-Pea3/+ Isl1Cre/+embryos
+T1956	Noun_Phrase 48496 48519;48534 48541	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T1957	Noun_Phrase 48496 48519	TauEWS-Pea3/+ Isl1Cre/+
 T1958	Noun_Phrase 48521 48522	J
 T1959	Noun_Phrase 48524 48525	K
@@ -2166,12 +1983,10 @@ T1981	Noun_Phrase 48907 48916	wild-type
 T1982	Noun_Phrase 48937 48938	M
 T1983	Noun_Phrase 48966 48967	N
 T1984	Noun_Phrase 48983 48992	wild-type
-T1985	Noun_Phrase 49003 49016;	lumbar levels
-49023 49025	lumbar levelsL5
+T1985	Noun_Phrase 49003 49016;49023 49025	lumbar levels L5
 T1986	Noun_Phrase 49003 49019	lumbar levels L1
 T1987	Noun_Phrase 49062 49063	O
-T1988	Noun_Phrase 49121 49150;	lumbar DRG of E16.5 wild-type
-49190 49197	lumbar DRG of E16.5 wild-typeembryos
+T1988	Noun_Phrase 49121 49150;49190 49197	lumbar DRG of E16.5 wild-type embryos
 T1989	Noun_Phrase 49135 49140	E16.5
 T1990	Noun_Phrase 49141 49150	wild-type
 T1991	APPOS_relation 49141 49150	wild-type
@@ -2203,8 +2018,7 @@ T2016	Noun_Phrase 49508 49509	L
 T2017	Noun_Phrase 49520 49526	Figure
 T2018	Noun_Phrase 49520 49528	Figure 7
 T2019	Noun_Phrase 49530 49545	Gene Expression
-T2020	Noun_Phrase 49573 49583;	Precocious
-49598 49611	PrecociousETS Signaling
+T2020	Noun_Phrase 49573 49583;49598 49611	Precocious ETS Signaling
 T2021	Noun_Phrase 49631 49635	TrkC
 T2022	Noun_Phrase 49631 49646	TrkC expression
 T2023	Noun_Phrase 49650 49671	in situ hybridization
@@ -2217,36 +2031,28 @@ T2029	Noun_Phrase 49709 49714	green
 T2030	Noun_Phrase 49730 49750	immunohistochemistry
 T2031	Noun_Phrase 49752 49755	E–H
 T2032	IDENTITY_chain 49752 49755	E–H
-T2033	Noun_Phrase 49760 49780;	 E16.5 lumbar DRG of
-49837 49851;	 E16.5 lumbar DRG ofEr81EWS-Pea3/?
-49899 49906	 E16.5 lumbar DRG ofEr81EWS-Pea3/?embryos
+T2033	Noun_Phrase 49760 49780;49837 49851;49899 49906	 E16.5 lumbar DRG of Er81EWS-Pea3/? embryos
 T2034	Noun_Phrase 49761 49766	E16.5
-T2035	Noun_Phrase 49761 49790;	E16.5 lumbar DRG of wild-type
-49899 49906	E16.5 lumbar DRG of wild-typeembryos
-T2036	Noun_Phrase 49781 49790;	wild-type
-49899 49906	wild-typeembryos
+T2035	Noun_Phrase 49761 49790;49899 49906	E16.5 lumbar DRG of wild-type embryos
+T2036	Noun_Phrase 49781 49790;49899 49906	wild-type embryos
 T2037	Noun_Phrase 49781 49790	wild-type
 T2038	Noun_Phrase 49792 49793	A
 T2039	Noun_Phrase 49798 49799	E
-T2040	Noun_Phrase 49802 49825;	TauEWS-Pea3/+ Isl1Cre/+
-49899 49906	TauEWS-Pea3/+ Isl1Cre/+embryos
+T2040	Noun_Phrase 49802 49825;49899 49906	TauEWS-Pea3/+ Isl1Cre/+ embryos
 T2041	Noun_Phrase 49802 49825	TauEWS-Pea3/+ Isl1Cre/+
 T2042	Noun_Phrase 49827 49828	B
 T2043	Noun_Phrase 49833 49834	F
-T2044	Noun_Phrase 49837 49851;	Er81EWS-Pea3/?
-49899 49906	Er81EWS-Pea3/?embryos
+T2044	Noun_Phrase 49837 49851;49899 49906	Er81EWS-Pea3/? embryos
 T2045	Noun_Phrase 49837 49851	Er81EWS-Pea3/?
 T2046	Noun_Phrase 49853 49854	C
 T2047	Noun_Phrase 49859 49860	G
-T2048	Noun_Phrase 49867 49888;	TauEWS-Pea3/+ PVCre/+
-49899 49906	TauEWS-Pea3/+ PVCre/+embryos
+T2048	Noun_Phrase 49867 49888;49899 49906	TauEWS-Pea3/+ PVCre/+ embryos
 T2049	Noun_Phrase 49890 49891	D
 T2050	Noun_Phrase 49896 49897	H
 T2051	Noun_Phrase 49958 49962	TrkC
 T2052	Noun_Phrase 49964 49974	red arrows
 T2053	Noun_Phrase 49996 50006	Calretinin
-T2054	Noun_Phrase 49996 50006;	Calretinin
-50036 50046	Calretininexpression
+T2054	Noun_Phrase 49996 50006;50036 50046	Calretinin expression
 T2055	Noun_Phrase 50064 50065	B
 T2056	Noun_Phrase 50070 50071	F
 T2057	Noun_Phrase 50086 50094	EWS-Pea3
@@ -2293,28 +2099,16 @@ T2097	Noun_Phrase 50661 50662	D
 T2098	IDENTITY_chain 50661 50662	D
 T2099	Noun_Phrase 50676 50680	LacZ
 T2100	Noun_Phrase 50691 50696	E16.5
-T2101	Noun_Phrase 50691 50710;	E16.5 lumbar DRG of
-50744 50766;	E16.5 lumbar DRG ofTauEWS-Pea3/+ Hb9Cre/+
-50777 50784	E16.5 lumbar DRG ofTauEWS-Pea3/+ Hb9Cre/+embryos
-T2102	IDENTITY_chain 50691 50710;	E16.5 lumbar DRG of
-50744 50766;	E16.5 lumbar DRG ofTauEWS-Pea3/+ Hb9Cre/+
-50777 50784	E16.5 lumbar DRG ofTauEWS-Pea3/+ Hb9Cre/+embryos
-T2103	Noun_Phrase 50691 50729;	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+
-50740 50766;	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+and TauEWS-Pea3/+ Hb9Cre/+
-50777 50784	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+and TauEWS-Pea3/+ Hb9Cre/+embryos
-T2104	IDENTITY_chain 50691 50729;	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+
-50740 50766;	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+and TauEWS-Pea3/+ Hb9Cre/+
-50777 50784	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+and TauEWS-Pea3/+ Hb9Cre/+embryos
-T2105	Noun_Phrase 50691 50729;	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+
-50777 50784	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+embryos
-T2106	IDENTITY_chain 50691 50729;	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+
-50777 50784	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+embryos
-T2107	Noun_Phrase 50711 50729;	TaumGFP/+ Hb9Cre/+
-50777 50784	TaumGFP/+ Hb9Cre/+embryos
+T2101	Noun_Phrase 50691 50710;50744 50766;50777 50784	E16.5 lumbar DRG of TauEWS-Pea3/+ Hb9Cre/+ embryos
+T2102	IDENTITY_chain 50691 50710;50744 50766;50777 50784	E16.5 lumbar DRG of TauEWS-Pea3/+ Hb9Cre/+ embryos
+T2103	Noun_Phrase 50691 50729;50740 50766;50777 50784	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+ and TauEWS-Pea3/+ Hb9Cre/+ embryos
+T2104	IDENTITY_chain 50691 50729;50740 50766;50777 50784	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+ and TauEWS-Pea3/+ Hb9Cre/+ embryos
+T2105	Noun_Phrase 50691 50729;50777 50784	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+ embryos
+T2106	IDENTITY_chain 50691 50729;50777 50784	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+ embryos
+T2107	Noun_Phrase 50711 50729;50777 50784	TaumGFP/+ Hb9Cre/+ embryos
 T2108	Noun_Phrase 50731 50732	A
 T2109	Noun_Phrase 50737 50738	B
-T2110	Noun_Phrase 50744 50766;	TauEWS-Pea3/+ Hb9Cre/+
-50777 50784	TauEWS-Pea3/+ Hb9Cre/+embryos
+T2110	Noun_Phrase 50744 50766;50777 50784	TauEWS-Pea3/+ Hb9Cre/+ embryos
 T2111	Noun_Phrase 50768 50769	C
 T2112	Noun_Phrase 50774 50775	D
 T2113	Noun_Phrase 50788 50791	E–L
@@ -2330,27 +2124,14 @@ T2122	Noun_Phrase 50855 50856	H
 T2123	IDENTITY_chain 50855 50856	H
 T2124	Noun_Phrase 50862 50863	L
 T2125	IDENTITY_chain 50862 50863	L
-T2126	Noun_Phrase 50874 50879;	E16.5
-50899 50905;	E16.5lumbar
-50912 50918;	E16.5lumbarDRG of
-50959 50981;	E16.5lumbarDRG ofTauEWS-Pea3/+ Hb9Cre/+
-50999 51006	E16.5lumbarDRG ofTauEWS-Pea3/+ Hb9Cre/+embryos
-T2127	Noun_Phrase 50874 50879;	E16.5
-50899 50905;	E16.5lumbar
-50912 50937;	E16.5lumbarDRG of TaumGFP/+ Hb9Cre/+
-50955 50981;	E16.5lumbarDRG of TaumGFP/+ Hb9Cre/+and TauEWS-Pea3/+ Hb9Cre/+
-50999 51006	E16.5lumbarDRG of TaumGFP/+ Hb9Cre/+and TauEWS-Pea3/+ Hb9Cre/+embryos
-T2128	Noun_Phrase 50874 50879;	E16.5
-50899 50905;	E16.5lumbar
-50912 50937;	E16.5lumbarDRG of TaumGFP/+ Hb9Cre/+
-50999 51006	E16.5lumbarDRG of TaumGFP/+ Hb9Cre/+embryos
+T2126	Noun_Phrase 50874 50879;50899 50905;50912 50918;50959 50981;50999 51006	E16.5 lumbar DRG of TauEWS-Pea3/+ Hb9Cre/+ embryos
+T2127	Noun_Phrase 50874 50879;50899 50905;50912 50937;50955 50981;50999 51006	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+ and TauEWS-Pea3/+ Hb9Cre/+ embryos
+T2128	Noun_Phrase 50874 50879;50899 50905;50912 50937;50999 51006	E16.5 lumbar DRG of TaumGFP/+ Hb9Cre/+ embryos
 T2129	Noun_Phrase 50874 50879	E16.5
-T2130	Noun_Phrase 50919 50937;	TaumGFP/+ Hb9Cre/+
-50999 51006	TaumGFP/+ Hb9Cre/+embryos
+T2130	Noun_Phrase 50919 50937;50999 51006	TaumGFP/+ Hb9Cre/+ embryos
 T2131	Noun_Phrase 50942 50943	F
 T2132	Noun_Phrase 50952 50953	J
-T2133	Noun_Phrase 50959 50981;	TauEWS-Pea3/+ Hb9Cre/+
-50999 51006	TauEWS-Pea3/+ Hb9Cre/+embryos
+T2133	Noun_Phrase 50959 50981;50999 51006	TauEWS-Pea3/+ Hb9Cre/+ embryos
 T2134	Noun_Phrase 50986 50987	H
 T2135	Noun_Phrase 50996 50997	L
 T2136	Noun_Phrase 51009 51018	Scale bar

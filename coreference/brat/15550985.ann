@@ -136,19 +136,14 @@ T134	Noun_Phrase 2701 2718	Patel et al. 2000
 T135	IDENTITY_chain 2701 2718	Patel et al. 2000
 T136	Noun_Phrase 2726 2730	they
 T137	Noun_Phrase 2770 2772	We
-T138	Noun_Phrase 2778 2795;	NT-3 heterozygote
-2804 2812;	NT-3 heterozygoteknockout
-2818 2822	NT-3 heterozygoteknockoutmice
-T139	Noun_Phrase 2800 2812;	Bax knockout
-2818 2822	Bax knockoutmice
-T140	IDENTITY_chain 2800 2812;	Bax knockout
-2818 2822	Bax knockoutmice
+T138	Noun_Phrase 2778 2795;2804 2812;2818 2822	NT-3 heterozygote knockout mice
+T139	Noun_Phrase 2800 2812;2818 2822	Bax knockout mice
+T140	IDENTITY_chain 2800 2812;2818 2822	Bax knockout mice
 T141	Noun_Phrase 2804 2812	knockout
 T142	APPOS_relation 2804 2812	knockout
 T143	Noun_Phrase 2814 2816	KO
 T144	Noun_Phrase 2833 2879	mice with double KO of both NT-3 and Bax genes
-T145	Noun_Phrase 2861 2865;	NT-3
-2874 2879	NT-3genes
+T145	Noun_Phrase 2861 2865;2874 2879	NT-3 genes
 T146	Noun_Phrase 2870 2879	Bax genes
 T147	Noun_Phrase 2983 2993	Tessarollo
 T148	Noun_Phrase 2983 3005	Tessarollo et al. 1994
@@ -157,10 +152,8 @@ T150	Noun_Phrase 3021 3058	TrkA/TrkC double immunohistochemistry
 T151	IDENTITY_chain 3021 3058	TrkA/TrkC double immunohistochemistry
 T152	Noun_Phrase 3060 3077	Huang et al. 1999
 T153	IDENTITY_chain 3060 3077	Huang et al. 1999
-T154	Noun_Phrase 3136 3149;	TrkC-positive
-3172 3178	TrkC-positivefibers
-T155	IDENTITY_chain 3136 3149;	TrkC-positive
-3172 3178	TrkC-positivefibers
+T154	Noun_Phrase 3136 3149;3172 3178	TrkC-positive fibers
+T155	IDENTITY_chain 3136 3149;3172 3178	TrkC-positive fibers
 T156	Noun_Phrase 3136 3155	TrkC-positive cells
 T157	IDENTITY_chain 3136 3155	TrkC-positive cells
 T158	Noun_Phrase 3157 3166	Figure 1A
@@ -168,16 +161,13 @@ T159	IDENTITY_chain 3157 3166	Figure 1A
 T160	Noun_Phrase 3180 3189	Figure 1E
 T161	IDENTITY_chain 3180 3189	Figure 1E
 T162	Noun_Phrase 3206 3214	NT-3 KOs
-T163	Noun_Phrase 3218 3231;	embryonic day
-3236 3238	embryonic day15
+T163	Noun_Phrase 3218 3231;3236 3238	embryonic day 15
 T164	Noun_Phrase 3283 3287	TrkA
 T165	IDENTITY_chain 3283 3287	TrkA
 T166	Noun_Phrase 3291 3295	TrkC
 T167	Noun_Phrase 3313 3323	double KOs
-T168	Noun_Phrase 3336 3345;	wild-type
-3361 3368	wild-typeanimals
-T169	IDENTITY_chain 3336 3345;	wild-type
-3361 3368	wild-typeanimals
+T168	Noun_Phrase 3336 3345;3361 3368	wild-type animals
+T169	IDENTITY_chain 3336 3345;3361 3368	wild-type animals
 T170	Noun_Phrase 3336 3345	wild-type
 T171	APPOS_relation 3336 3345	wild-type
 T172	Noun_Phrase 3347 3349	WT
@@ -191,10 +181,8 @@ T179	IDENTITY_chain 3564 3573	Figure 1B
 T180	Noun_Phrase 3597 3600	our
 T181	Noun_Phrase 3610 3612	we
 T182	Noun_Phrase 3635 3639	TrkA
-T183	Noun_Phrase 3635 3639;	TrkA
-3649 3728	TrkAimmunopositive cells from four different DRGs of animals of different genotypes
-T184	IDENTITY_chain 3635 3639;	TrkA
-3649 3728	TrkAimmunopositive cells from four different DRGs of animals of different genotypes
+T183	Noun_Phrase 3635 3639;3649 3728	TrkA immunopositive cells from four different DRGs of animals of different genotypes
+T184	IDENTITY_chain 3635 3639;3649 3728	TrkA immunopositive cells from four different DRGs of animals of different genotypes
 T185	Noun_Phrase 3635 3728	TrkA and TrkC immunopositive cells from four different DRGs of animals of different genotypes
 T186	IDENTITY_chain 3635 3728	TrkA and TrkC immunopositive cells from four different DRGs of animals of different genotypes
 T187	Noun_Phrase 3644 3648	TrkC
@@ -225,10 +213,8 @@ T211	Noun_Phrase 4215 4224	Figure 1E
 T212	Noun_Phrase 4323 4343	TrkC-positive fibers
 T213	Noun_Phrase 4352 4360	the cord
 T214	Noun_Phrase 4395 4412	the ventral horns
-T215	Noun_Phrase 4416 4418;	WT
-4454 4461	WTembryos
-T216	IDENTITY_chain 4416 4418;	WT
-4454 4461	WTembryos
+T215	Noun_Phrase 4416 4418;4454 4461	WT embryos
+T216	IDENTITY_chain 4416 4418;4454 4461	WT embryos
 T217	Noun_Phrase 4420 4425	Ozaki
 T218	IDENTITY_chain 4420 4425	Ozaki
 T219	Noun_Phrase 4420 4436	Ozaki and Snider
@@ -289,10 +275,8 @@ T273	Noun_Phrase 5637 5641	they
 T274	Noun_Phrase 5657 5676	the ventral midline
 T275	IDENTITY_chain 5657 5676	the ventral midline
 T276	Noun_Phrase 5691 5702	the midline
-T277	Noun_Phrase 5753 5759;	Figure
-5767 5769	Figure2C
-T278	IDENTITY_chain 5753 5759;	Figure
-5767 5769	Figure2C
+T277	Noun_Phrase 5753 5759;5767 5769	Figure 2C
+T278	IDENTITY_chain 5753 5759;5767 5769	Figure 2C
 T279	Noun_Phrase 5753 5762	Figure 2A
 T280	Noun_Phrase 5815 5819	NT-3
 T281	Noun_Phrase 5837 5849	motor neuron
@@ -316,17 +300,14 @@ T298	Noun_Phrase 6066 6084	DiI-labeled fibers
 T299	IDENTITY_chain 6066 6084	DiI-labeled fibers
 T300	Noun_Phrase 6102 6149	nerve growth factor–dependent nociceptive axons
 T301	IDENTITY_chain 6102 6149	nerve growth factor–dependent nociceptive axons
-T302	Noun_Phrase 6154 6156;	WT
-6168 6175	WTembryos
+T302	Noun_Phrase 6154 6156;6168 6175	WT embryos
 T303	Noun_Phrase 6161 6175	Bax KO embryos
 T304	Noun_Phrase 6177 6198	proprioceptive fibers
 T305	Noun_Phrase 6216 6228	ventral horn
 T306	Noun_Phrase 6216 6242	ventral horn motor neurons
 T307	IDENTITY_chain 6216 6242	ventral horn motor neurons
-T308	Noun_Phrase 6244 6250;	Figure
-6258 6260	Figure3B
-T309	IDENTITY_chain 6244 6250;	Figure
-6258 6260	Figure3B
+T308	Noun_Phrase 6244 6250;6258 6260	Figure 3B
+T309	IDENTITY_chain 6244 6250;6258 6260	Figure 3B
 T310	Noun_Phrase 6244 6253	Figure 3A
 T311	IDENTITY_chain 6244 6253	Figure 3A
 T312	Noun_Phrase 6292 6311	the NT-3 KO embryos
@@ -371,18 +352,14 @@ T350	IDENTITY_chain 7220 7244	the gastrocnemius muscle
 T351	Noun_Phrase 7246 7261	Muscle spindles
 T352	Noun_Phrase 7302 7316	Bax KO animals
 T353	Noun_Phrase 7320 7325	their
-T354	Noun_Phrase 7353 7359;	Figure
-7367 7369	Figure4B
-T355	IDENTITY_chain 7353 7359;	Figure
-7367 7369	Figure4B
+T354	Noun_Phrase 7353 7359;7367 7369	Figure 4B
+T355	IDENTITY_chain 7353 7359;7367 7369	Figure 4B
 T356	Noun_Phrase 7353 7362	Figure 4A
 T357	IDENTITY_chain 7353 7362	Figure 4A
 T358	Noun_Phrase 7353 7369	Figure 4A and 4B
 T359	IDENTITY_chain 7353 7369	Figure 4A and 4B
-T360	Noun_Phrase 7372 7422;	Proprioceptive fibers labeled with neurofilament-M
-7430 7438	Proprioceptive fibers labeled with neurofilament-Mantibody
-T361	IDENTITY_chain 7372 7422;	Proprioceptive fibers labeled with neurofilament-M
-7430 7438	Proprioceptive fibers labeled with neurofilament-Mantibody
+T360	Noun_Phrase 7372 7422;7430 7438	Proprioceptive fibers labeled with neurofilament-M antibody
+T361	IDENTITY_chain 7372 7422;7430 7438	Proprioceptive fibers labeled with neurofilament-M antibody
 T362	Noun_Phrase 7407 7422	neurofilament-M
 T363	APPOS_relation 7407 7422	neurofilament-M
 T364	IDENTITY_chain 7407 7422	neurofilament-M
@@ -408,24 +385,20 @@ T383	Noun_Phrase 7885 7905	NT-3-dependent cells
 T384	IDENTITY_chain 7885 7905	NT-3-dependent cells
 T385	Noun_Phrase 7923 7938	muscle spindles
 T386	Noun_Phrase 7969 7979	double KOs
-T387	Noun_Phrase 7981 7987;	Figure
-7995 7997	Figure4B
+T387	Noun_Phrase 7981 7987;7995 7997	Figure 4B
 T388	Noun_Phrase 7981 7990	Figure 4A
 T389	Noun_Phrase 7981 7997	Figure 4A and 4B
 T390	Noun_Phrase 8000 8015	Muscle spindles
 T391	Noun_Phrase 8039 8043	TrkC
-T392	Noun_Phrase 8056 8058;	WT
-8070 8077	WTanimals
+T392	Noun_Phrase 8056 8058;8070 8077	WT animals
 T393	Noun_Phrase 8063 8077	Bax KO animals
-T394	Noun_Phrase 8090 8094;	NT-3
-8105 8108	NT-3KOs
+T394	Noun_Phrase 8090 8094;8105 8108	NT-3 KOs
 T395	Noun_Phrase 8098 8108	double KOs
 T396	Noun_Phrase 8110 8119	Figure 4E
 T397	IDENTITY_chain 8110 8119	Figure 4E
 T398	Noun_Phrase 8125 8156	both NT-3 and double KO animals
 T399	IDENTITY_chain 8125 8156	both NT-3 and double KO animals
-T400	Noun_Phrase 8130 8134;	NT-3
-8146 8156	NT-3KO animals
+T400	Noun_Phrase 8130 8134;8146 8156	NT-3 KO animals
 T401	Noun_Phrase 8139 8156	double KO animals
 T402	Noun_Phrase 8158 8162	NF-M
 T403	Noun_Phrase 8158 8177	NF-M-labeled fibers
@@ -462,8 +435,7 @@ T433	Noun_Phrase 8854 8857	E15
 T434	Noun_Phrase 8859 8868	Figure S2
 T435	IDENTITY_chain 8859 8868	Figure S2
 T436	Noun_Phrase 8932 8935	E17
-T437	Noun_Phrase 8939 8941;	WT
-8974 8981	WTembryos
+T437	Noun_Phrase 8939 8941;8974 8981	WT embryos
 T438	Noun_Phrase 8946 8953	Bax KOs
 T439	Noun_Phrase 8966 8981	NT-3 KO embryos
 T440	Noun_Phrase 8983 8992	Figure 4C
@@ -485,8 +457,7 @@ T455	Noun_Phrase 9210 9213	E17
 T456	Noun_Phrase 9244 9259	muscle spindles
 T457	Noun_Phrase 9320 9329	Figure 4D
 T458	IDENTITY_chain 9320 9329	Figure 4D
-T459	Noun_Phrase 9343 9347;	NT-3
-9358 9368	NT-3KO animals
+T459	Noun_Phrase 9343 9347;9358 9368	NT-3 KO animals
 T460	Noun_Phrase 9351 9368	double KO animals
 T461	Noun_Phrase 9379 9382	DiI
 T462	Noun_Phrase 9379 9397	DiI-labeled fibers
@@ -502,10 +473,8 @@ T471	Noun_Phrase 9677 9685	NT-3 KOs
 T472	Noun_Phrase 9724 9740	the tibial nerve
 T473	Nonreferential_pronoun 9745 9750	there
 T474	Noun_Phrase 9759 9778	TrkC-positive axons
-T475	Noun_Phrase 9842 9844;	WT
-9868 9875	WTanimals
-T476	Noun_Phrase 9846 9852;	Bax KO
-9868 9875	Bax KOanimals
+T475	Noun_Phrase 9842 9844;9868 9875	WT animals
+T476	Noun_Phrase 9846 9852;9868 9875	Bax KO animals
 T477	Noun_Phrase 9858 9875	double KO animals
 T478	Noun_Phrase 9877 9886	Figure 4F
 T479	IDENTITY_chain 9877 9886	Figure 4F
@@ -539,22 +508,16 @@ T506	Noun_Phrase 10482 10509	NT-3-soaked sepharose beads
 T507	IDENTITY_chain 10482 10509	NT-3-soaked sepharose beads
 T508	Noun_Phrase 10520 10536	Control cultures
 T509	IDENTITY_chain 10520 10536	Control cultures
-T510	Noun_Phrase 10555 10575;	bovine serum albumin
-10581 10582;	bovine serum albumin–
-10616 10628	bovine serum albumin–soaked beads
+T510	Noun_Phrase 10555 10575;10581 10582;10616 10628	bovine serum albumin – soaked beads
 T511	Noun_Phrase 10555 10575	bovine serum albumin
 T512	APPOS_relation 10555 10575	bovine serum albumin
-T513	IDENTITY_chain 10555 10575;	bovine serum albumin
-10581 10582;	bovine serum albumin–
-10616 10628	bovine serum albumin–soaked beads
+T513	IDENTITY_chain 10555 10575;10581 10582;10616 10628	bovine serum albumin – soaked beads
 T514	IDENTITY_chain 10555 10575	bovine serum albumin
 T515	Noun_Phrase 10577 10580	BSA
-T516	Noun_Phrase 10586 10609;	phosphate buffer saline
-10615 10628	phosphate buffer saline–soaked beads
+T516	Noun_Phrase 10586 10609;10615 10628	phosphate buffer saline –soaked beads
 T517	Noun_Phrase 10586 10609	phosphate buffer saline
 T518	APPOS_relation 10586 10609	phosphate buffer saline
-T519	IDENTITY_chain 10586 10609;	phosphate buffer saline
-10615 10628	phosphate buffer saline–soaked beads
+T519	IDENTITY_chain 10586 10609;10615 10628	phosphate buffer saline –soaked beads
 T520	IDENTITY_chain 10586 10609	phosphate buffer saline
 T521	Noun_Phrase 10611 10614	PBS
 T522	Noun_Phrase 10639 10642	DRG
@@ -565,10 +528,8 @@ T526	IDENTITY_chain 10754 10778	a strong chemoattraction
 T527	Noun_Phrase 10804 10808	they
 T528	Noun_Phrase 10842 10845	BSA
 T529	Noun_Phrase 10842 10866	BSA-loaded control beads
-T530	Noun_Phrase 10868 10874;	Figure
-10882 10884	Figure5B
-T531	IDENTITY_chain 10868 10874;	Figure
-10882 10884	Figure5B
+T530	Noun_Phrase 10868 10874;10882 10884	Figure 5B
+T531	IDENTITY_chain 10868 10874;10882 10884	Figure 5B
 T532	Noun_Phrase 10868 10877	Figure 5A
 T533	IDENTITY_chain 10868 10877	Figure 5A
 T534	Noun_Phrase 10938 10942	NT-3
@@ -665,8 +626,7 @@ T624	Noun_Phrase 12886 12890	NT-3
 T625	Noun_Phrase 12947 12950	DRG
 T626	Noun_Phrase 12947 12956	DRG axons
 T627	Noun_Phrase 13010 13014	NT-3
-T628	Noun_Phrase 13046 13053;	sensory
-13064 13069	sensoryaxons
+T628	Noun_Phrase 13046 13053;13064 13069	sensory axons
 T629	Noun_Phrase 13058 13069	motor axons
 T630	Noun_Phrase 13230 13234	NT-3
 T631	Noun_Phrase 13239 13272	brain-derived neurotrophic factor
@@ -679,12 +639,9 @@ T637	Noun_Phrase 13347 13404	developing sensory and motor axons in limb slice cu
 T638	IDENTITY_chain 13347 13404	developing sensory and motor axons in limb slice cultures
 T639	Noun_Phrase 13433 13445	neurotrophin
 T640	Noun_Phrase 13480 13485	their
-T641	Noun_Phrase 13599 13606;	sensory
-13617 13621	sensoryaxon
-T642	Noun_Phrase 13599 13606;	sensory
-13617 13628	sensoryaxon growth
-T643	IDENTITY_chain 13599 13606;	sensory
-13617 13628	sensoryaxon growth
+T641	Noun_Phrase 13599 13606;13617 13621	sensory axon
+T642	Noun_Phrase 13599 13606;13617 13628	sensory axon growth
+T643	IDENTITY_chain 13599 13606;13617 13628	sensory axon growth
 T644	Noun_Phrase 13611 13621	motor axon
 T645	Noun_Phrase 13686 13690	NT-3
 T646	Noun_Phrase 13762 13790	the proprioceptive afferents
@@ -806,8 +763,7 @@ T761	Noun_Phrase 17348 17353	these
 T762	Nonreferential_pronoun 17436 17438	it
 T763	Noun_Phrase 17460 17472	TrkC protein
 T764	Noun_Phrase 17548 17561	this receptor
-T765	Noun_Phrase 17685 17689;	NT-3
-17698 17707	NT-3null mice
+T765	Noun_Phrase 17685 17689;17698 17707	NT-3 null mice
 T766	Noun_Phrase 17693 17697	TrkC
 T767	Noun_Phrase 17709 17711	we
 T768	Noun_Phrase 17723 17727	TrkC
@@ -819,10 +775,8 @@ T773	Noun_Phrase 17775 17795	proprioceptive axons
 T774	Noun_Phrase 17815 17820	their
 T775	Noun_Phrase 17852 17855	our
 T776	Noun_Phrase 17884 17888	NT-3
-T777	Noun_Phrase 17906 17912;	muscle
-17929 17936	musclespindle
-T778	Noun_Phrase 17906 17912;	muscle
-17929 17952	musclespindle differentiation
+T777	Noun_Phrase 17906 17912;17929 17936	muscle spindle
+T778	Noun_Phrase 17906 17912;17929 17952	muscle spindle differentiation
 T779	Noun_Phrase 17956 17980	the proprioceptive axons
 T780	Noun_Phrase 17983 17995	Patel et al.
 T781	Noun_Phrase 17983 18002	Patel et al. (2003)
@@ -882,8 +836,7 @@ T834	Noun_Phrase 19297 19309	Patel et al.
 T835	Noun_Phrase 19297 19316	Patel et al. (2003)
 T836	Noun_Phrase 19329 19333	Er81
 T837	Noun_Phrase 19387 19427	both NT-3 KO and Bax/NT-3 double KO mice
-T838	Noun_Phrase 19392 19399;	NT-3 KO
-19423 19427	NT-3 KOmice
+T838	Noun_Phrase 19392 19399;19423 19427	NT-3 KO mice
 T839	Noun_Phrase 19404 19427	Bax/NT-3 double KO mice
 T840	Noun_Phrase 19500 19518	the double KO mice
 T841	Nonreferential_pronoun 19520 19522	It
@@ -922,10 +875,8 @@ T873	Noun_Phrase 20308 20312	them
 T874	Noun_Phrase 20339 20359	proprioceptive axons
 T875	Noun_Phrase 20369 20394	the lateral motor columns
 T876	Nonreferential_pronoun 20405 20410	there
-T877	Noun_Phrase 20439 20443;	NT-3
-20452 20459	NT-3protein
-T878	IDENTITY_chain 20439 20443;	NT-3
-20452 20459	NT-3protein
+T877	Noun_Phrase 20439 20443;20452 20459	NT-3 protein
+T878	IDENTITY_chain 20439 20443;20452 20459	NT-3 protein
 T879	Noun_Phrase 20439 20448	NT-3 mRNA
 T880	IDENTITY_chain 20439 20448	NT-3 mRNA
 T881	Noun_Phrase 20473 20496	the ventral spinal cord
@@ -1054,10 +1005,8 @@ T1003	IDENTITY_chain 24324 24342	Jackson Laboratory
 T1004	Noun_Phrase 24363 24376	United States
 T1005	IDENTITY_chain 24363 24376	United States
 T1006	Noun_Phrase 24561 24575	the double KOs
-T1007	Noun_Phrase 24903 24905;	WT
-24927 24938	WTlittermates
-T1008	Noun_Phrase 24907 24913;	Bax KO
-24927 24938	Bax KOlittermates
+T1007	Noun_Phrase 24903 24905;24927 24938	WT littermates
+T1008	Noun_Phrase 24907 24913;24927 24938	Bax KO littermates
 T1009	Noun_Phrase 24919 24938	NT-3 KO littermates
 T1010	Noun_Phrase 24973 24999	11 Bax/NT-3 double KO mice
 T1011	IDENTITY_chain 24973 24999	11 Bax/NT-3 double KO mice
@@ -1071,10 +1020,8 @@ T1018	IDENTITY_chain 25606 25639	the National Institutes of Health
 T1019	Noun_Phrase 25685 25715	TrkA/TrkC immunohistochemistry
 T1020	Noun_Phrase 25718 25745	Frozen spinal cord sections
 T1021	IDENTITY_chain 25718 25745	Frozen spinal cord sections
-T1022	Noun_Phrase 25804 25820;	rabbit anti-TrkA
-25840 25850	rabbit anti-TrkAantibodies
-T1023	IDENTITY_chain 25804 25820;	rabbit anti-TrkA
-25840 25850	rabbit anti-TrkAantibodies
+T1022	Noun_Phrase 25804 25820;25840 25850	rabbit anti-TrkA antibodies
+T1023	IDENTITY_chain 25804 25820;25840 25850	rabbit anti-TrkA antibodies
 T1024	Noun_Phrase 25825 25850	goat anti-TrkC antibodies
 T1025	IDENTITY_chain 25825 25850	goat anti-TrkC antibodies
 T1026	Noun_Phrase 25860 25873	Dr. Reichardt
@@ -1096,8 +1043,7 @@ T1041	Noun_Phrase 26307 26326	Vector Laboratories
 T1042	IDENTITY_chain 26307 26326	Vector Laboratories
 T1043	Noun_Phrase 26340 26365	California, United States
 T1044	Noun_Phrase 26352 26365	United States
-T1045	Noun_Phrase 26397 26402;	TrkA-
-26412 26467	TrkA-labeled cells from four different DRGs of each genotype
+T1045	Noun_Phrase 26397 26402;26412 26467	TrkA- labeled cells from four different DRGs of each genotype
 T1046	Noun_Phrase 26397 26467	TrkA- and TrkC-labeled cells from four different DRGs of each genotype
 T1047	Noun_Phrase 26407 26467	TrkC-labeled cells from four different DRGs of each genotype
 T1048	Noun_Phrase 26431 26467	four different DRGs of each genotype
@@ -1128,12 +1074,9 @@ T1072	Noun_Phrase 27951 27976	In vitro co-culture assay
 T1073	Noun_Phrase 27971 27976	assay
 T1074	Noun_Phrase 27979 27982	DRG
 T1075	Noun_Phrase 27979 27991	DRG explants
-T1076	Noun_Phrase 28010 28023;	Swiss Webster
-28048 28061	Swiss Webstermouse embryos
-T1077	IDENTITY_chain 28010 28023;	Swiss Webster
-28048 28061	Swiss Webstermouse embryos
-T1078	Noun_Phrase 28025 28033;	Bax null
-28048 28061	Bax nullmouse embryos
+T1076	Noun_Phrase 28010 28023;28048 28061	Swiss Webster mouse embryos
+T1077	IDENTITY_chain 28010 28023;28048 28061	Swiss Webster mouse embryos
+T1078	Noun_Phrase 28025 28033;28048 28061	Bax null mouse embryos
 T1079	Noun_Phrase 28039 28042	p75
 T1080	Noun_Phrase 28063 28066	E13
 T1081	Noun_Phrase 28097 28101	DRGs
@@ -1164,11 +1107,9 @@ T1105	Noun_Phrase 29375 29378	E13
 T1106	Noun_Phrase 29504 29532	Massachusetts, United States
 T1107	IDENTITY_chain 29504 29532	Massachusetts, United States
 T1108	Noun_Phrase 29519 29532	United States
-T1109	Noun_Phrase 29535 29546;	NT-3-loaded
-29578 29593	NT-3-loadedsepharose beads
+T1109	Noun_Phrase 29535 29546;29578 29593	NT-3-loaded sepharose beads
 T1110	Noun_Phrase 29559 29562	PBS
-T1111	Noun_Phrase 29559 29569;	PBS-loaded
-29578 29593	PBS-loadedsepharose beads
+T1111	Noun_Phrase 29559 29569;29578 29593	PBS-loaded sepharose beads
 T1112	Noun_Phrase 29642 29653	the midline
 T1113	Noun_Phrase 29657 29678	mid-spinal cord level
 T1114	Noun_Phrase 29724 29741	serum-free medium
@@ -1203,8 +1144,7 @@ T1142	Noun_Phrase 31449 31462	L. Tessarollo
 T1143	Noun_Phrase 31477 31492	NT-3 KO animals
 T1144	Noun_Phrase 31494 31506	L. Reichardt
 T1145	Noun_Phrase 31511 31515	TrkA
-T1146	Noun_Phrase 31511 31515;	TrkA
-31525 31535	TrkAantibodies
+T1146	Noun_Phrase 31511 31515;31525 31535	TrkA antibodies
 T1147	Noun_Phrase 31520 31524	TrkC
 T1148	Noun_Phrase 31520 31535	TrkC antibodies
 T1149	Noun_Phrase 31537 31549	F. Stockdale
@@ -1251,8 +1191,7 @@ T1189	Noun_Phrase 32208 32212	TrkC
 T1190	Noun_Phrase 32259 32261	WT
 T1191	APPOS_relation 32259 32261	WT
 T1192	Noun_Phrase 32264 32273	wild-type
-T1193	Noun_Phrase 32305 32314;	TrkA/TrkC
-32322 32342	TrkA/TrkCImmunohistochemistry
+T1193	Noun_Phrase 32305 32314;32322 32342	TrkA/TrkC Immunohistochemistry
 T1194	Noun_Phrase 32319 32321	PV
 T1195	Noun_Phrase 32346 32349	DRG
 T1196	Noun_Phrase 32354 32365	Spinal Cord
@@ -1276,8 +1215,7 @@ T1213	IDENTITY_chain 32657 32663	P0 DRG
 T1214	Noun_Phrase 32665 32692	Rescued TrkC-positive cells
 T1215	Noun_Phrase 32709 32711	PV
 T1216	Noun_Phrase 32715 32716	D
-T1217	Noun_Phrase 32785 32788;	E15
-32796 32800	E15DRGs
+T1217	Noun_Phrase 32785 32788;32796 32800	E15 DRGs
 T1218	Noun_Phrase 32793 32800	P0 DRGs
 T1219	Noun_Phrase 32869 32879	Double KOs
 T1220	Noun_Phrase 32909 32916	Bax KOs
@@ -1367,12 +1305,9 @@ T1303	Noun_Phrase 35216 35236	gastrocnemius muscle
 T1304	Noun_Phrase 35240 35242	P0
 T1305	Noun_Phrase 35246 35247	F
 T1306	Noun_Phrase 35249 35253	TrkA
-T1307	Noun_Phrase 35249 35253;	TrkA
-35260 35268;	TrkAand TrkC
-35277 35325	TrkAand TrkCimmunostaining in the tibial nerve cross section
+T1307	Noun_Phrase 35249 35253;35260 35268;35277 35325	TrkA and TrkC immunostaining in the tibial nerve cross section
 T1308	Noun_Phrase 35264 35268	TrkC
-T1309	Noun_Phrase 35264 35268;	TrkC
-35277 35325	TrkCimmunostaining in the tibial nerve cross section
+T1309	Noun_Phrase 35264 35268;35277 35325	TrkC immunostaining in the tibial nerve cross section
 T1310	Noun_Phrase 35329 35331	P0
 T1311	Noun_Phrase 35333 35353	TrkC-positive fibers
 T1312	Noun_Phrase 35369 35377	NT-3 KOs

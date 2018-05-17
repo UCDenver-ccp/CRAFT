@@ -232,25 +232,17 @@ T230	Noun_Phrase 7130 7146	gonadal fat mass
 T231	Noun_Phrase 7319 7322	sex
 T232	Noun_Phrase 7334 7341	linkage
 T233	Noun_Phrase 7343 7345	we
-T234	Noun_Phrase 7355 7363;	additive
-7411 7441	additiveparameters in our calculations
-T235	IDENTITY_chain 7355 7363;	additive
-7411 7441	additiveparameters in our calculations
+T234	Noun_Phrase 7355 7363;7411 7441	additive parameters in our calculations
+T235	IDENTITY_chain 7355 7363;7411 7441	additive parameters in our calculations
 T236	Noun_Phrase 7355 7441	additive, dominant, sex, sex-additive, and sex-dominant parameters in our calculations
 T237	IDENTITY_chain 7355 7441	additive, dominant, sex, sex-additive, and sex-dominant parameters in our calculations
-T238	Noun_Phrase 7365 7373;	dominant
-7411 7441	dominantparameters in our calculations
-T239	IDENTITY_chain 7365 7373;	dominant
-7411 7441	dominantparameters in our calculations
+T238	Noun_Phrase 7365 7373;7411 7441	dominant parameters in our calculations
+T239	IDENTITY_chain 7365 7373;7411 7441	dominant parameters in our calculations
 T240	Noun_Phrase 7375 7378	sex
-T241	Noun_Phrase 7375 7378;	sex
-7411 7441	sexparameters in our calculations
-T242	IDENTITY_chain 7375 7378;	sex
-7411 7441	sexparameters in our calculations
-T243	Noun_Phrase 7380 7392;	sex-additive
-7411 7441	sex-additiveparameters in our calculations
-T244	IDENTITY_chain 7380 7392;	sex-additive
-7411 7441	sex-additiveparameters in our calculations
+T241	Noun_Phrase 7375 7378;7411 7441	sex parameters in our calculations
+T242	IDENTITY_chain 7375 7378;7411 7441	sex parameters in our calculations
+T243	Noun_Phrase 7380 7392;7411 7441	sex-additive parameters in our calculations
+T244	IDENTITY_chain 7380 7392;7411 7441	sex-additive parameters in our calculations
 T245	Noun_Phrase 7380 7441	sex-additive, and sex-dominant parameters in our calculations
 T246	IDENTITY_chain 7380 7441	sex-additive, and sex-dominant parameters in our calculations
 T247	Noun_Phrase 7398 7441	sex-dominant parameters in our calculations
@@ -313,14 +305,12 @@ T303	Noun_Phrase 8883 8925	both sex*add and sex*dom interaction terms
 T304	Noun_Phrase 8997 9006	LOD score
 T305	Noun_Phrase 8997 9017	LOD score thresholds
 T306	Noun_Phrase 9086 9093	p-value
-T307	Noun_Phrase 9121 9135;	One suggestive
-9203 9239	One suggestivecQTLs for the gonadal fat mass trait
+T307	Noun_Phrase 9121 9135;9203 9239	One suggestive cQTLs for the gonadal fat mass trait
 T308	Noun_Phrase 9121 9239	One suggestive (Chromosome 1) and four significant (Chromosomes 3, 5, 11, and 19) cQTLs for the gonadal fat mass trait
 T309	IDENTITY_chain 9121 9239	One suggestive (Chromosome 1) and four significant (Chromosomes 3, 5, 11, and 19) cQTLs for the gonadal fat mass trait
 T310	Noun_Phrase 9137 9149	Chromosome 1
 T311	APPOS_relation 9137 9149	Chromosome 1
-T312	Noun_Phrase 9155 9171;	four significant
-9203 9239	four significantcQTLs for the gonadal fat mass trait
+T312	Noun_Phrase 9155 9171;9203 9239	four significant cQTLs for the gonadal fat mass trait
 T313	Noun_Phrase 9173 9201	Chromosomes 3, 5, 11, and 19
 T314	APPOS_relation 9173 9201	Chromosomes 3, 5, 11, and 19
 T315	IDENTITY_chain 9173 9201	Chromosomes 3, 5, 11, and 19
@@ -362,8 +352,7 @@ T350	Noun_Phrase 10383 10404	the interaction terms
 T351	Noun_Phrase 10412 10415	QTL
 T352	Noun_Phrase 10560 10582	four of the five cQTLs
 T353	Noun_Phrase 10568 10582	the five cQTLs
-T354	Noun_Phrase 10588 10600;	sex-additive
-10618 10635	sex-additiveinteraction terms
+T354	Noun_Phrase 10588 10600;10618 10635	sex-additive interaction terms
 T355	Noun_Phrase 10588 10635	sex-additive and sex-dominant interaction terms
 T356	Noun_Phrase 10605 10635	sex-dominant interaction terms
 T357	Noun_Phrase 10653 10655	we
@@ -373,14 +362,10 @@ T360	Noun_Phrase 10721 10737	gonadal fat mass
 T361	Noun_Phrase 10765 10774	the sexes
 T362	Noun_Phrase 10776 10784	Figure 2
 T363	IDENTITY_chain 10776 10784	Figure 2
-T364	IDENTITY_chain 10795 10823;	cQTLs located on Chromosomes
-10827 10828	cQTLs located on Chromosomes3
-T365	Noun_Phrase 10795 10823;	cQTLs located on Chromosomes
-10827 10828	cQTLs located on Chromosomes3
-T366	Noun_Phrase 10812 10823;	Chromosomes
-10827 10828	Chromosomes3
-T367	IDENTITY_chain 10812 10823;	Chromosomes
-10827 10828	Chromosomes3
+T364	IDENTITY_chain 10795 10823;10827 10828	cQTLs located on Chromosomes 3
+T365	Noun_Phrase 10795 10823;10827 10828	cQTLs located on Chromosomes 3
+T366	Noun_Phrase 10812 10823;10827 10828	Chromosomes 3
+T367	IDENTITY_chain 10812 10823;10827 10828	Chromosomes 3
 T368	Noun_Phrase 10863 10871	fat mass
 T369	Noun_Phrase 10906 10931	the cQTL on Chromosome 11
 T370	IDENTITY_chain 10906 10931	the cQTL on Chromosome 11
@@ -488,10 +473,8 @@ T471	Noun_Phrase 14299 14326	the 6,676 significant eQTLs
 T472	Noun_Phrase 14328 14333	1,166
 T473	IDENTITY_chain 14328 14333	1,166
 T474	Noun_Phrase 14355 14358	sex
-T475	Noun_Phrase 14430 14433;	the
-14451 14469	thesex-dominant terms
-T476	Noun_Phrase 14430 14446;	the sex-additive
-14464 14469	the sex-additiveterms
+T475	Noun_Phrase 14430 14433;14451 14469	the sex-dominant terms
+T476	Noun_Phrase 14430 14446;14464 14469	the sex-additive terms
 T477	Noun_Phrase 14430 14469	the sex-additive and sex-dominant terms
 T478	Noun_Phrase 14492 14519	all 6,676 significant eQTLs
 T479	Noun_Phrase 14578 14587	Figure 4A
@@ -552,10 +535,8 @@ T533	Noun_Phrase 16481 16489	fat mass
 T534	Noun_Phrase 16519 16528	the trait
 T535	Noun_Phrase 16547 16575	significant sex interactions
 T536	IDENTITY_chain 16547 16575	significant sex interactions
-T537	Noun_Phrase 16633 16639;	Tables
-16646 16647	Tables5
-T538	IDENTITY_chain 16633 16639;	Tables
-16646 16647	Tables5
+T537	Noun_Phrase 16633 16639;16646 16647	Tables 5
+T538	IDENTITY_chain 16633 16639;16646 16647	Tables 5
 T539	Noun_Phrase 16633 16641	Tables 4
 T540	IDENTITY_chain 16633 16641	Tables 4
 T541	Noun_Phrase 16633 16647	Tables 4 and 5
@@ -571,10 +552,8 @@ T550	Noun_Phrase 16791 16793	we
 T551	Noun_Phrase 16864 16892	the trait “gonadal fat mass”
 T552	Noun_Phrase 16875 16891	gonadal fat mass
 T553	Noun_Phrase 16902 16912	transcript
-T554	Noun_Phrase 16946 16955;	the terms
-16975 16988	the terms“gene-by-sex,
-T555	IDENTITY_chain 16946 16955;	the terms
-16975 16988	the terms“gene-by-sex,
+T554	Noun_Phrase 16946 16955;16975 16988	the terms “gene-by-sex,
+T555	IDENTITY_chain 16946 16955;16975 16988	the terms “gene-by-sex,
 T556	Noun_Phrase 16957 16961	gene
 T557	Noun_Phrase 16965 16968	sex
 T558	Noun_Phrase 16976 16987	gene-by-sex
@@ -764,8 +743,7 @@ T741	Noun_Phrase 23293 23369	five cQTLs for the gonadal fat mass trait on Chromo
 T742	Noun_Phrase 23312 23328	gonadal fat mass
 T743	Noun_Phrase 23388 23402	all five cQTLs
 T744	Noun_Phrase 23440 23447	females
-T745	Noun_Phrase 23502 23514;	sex*additive
-23532 23542	sex*additiveparameters
+T745	Noun_Phrase 23502 23514;23532 23542	sex*additive parameters
 T746	Noun_Phrase 23519 23542	sex*dominant parameters
 T747	Noun_Phrase 23565 23572	obesity
 T748	Noun_Phrase 23574 23585	gonadal fat
@@ -863,8 +841,7 @@ T839	Noun_Phrase 28113 28117	QTLs
 T840	Noun_Phrase 28176 28187	4,613 genes
 T841	Noun_Phrase 28235 28246	gonadal fat
 T842	Noun_Phrase 28235 28251	gonadal fat mass
-T843	Noun_Phrase 28321 28327;	Tables
-28334 28335	Tables5
+T843	Noun_Phrase 28321 28327;28334 28335	Tables 5
 T844	Noun_Phrase 28321 28329	Tables 4
 T845	Noun_Phrase 28321 28335	Tables 4 and 5
 T846	Noun_Phrase 28416 28425	the trait
@@ -876,8 +853,7 @@ T851	Noun_Phrase 28730 28741	trans-eQTLs
 T852	IDENTITY_chain 28730 28741	trans-eQTLs
 T853	Noun_Phrase 28805 28809	them
 T854	Noun_Phrase 28828 28832	eQTL
-T855	Noun_Phrase 28854 28858;	this
-28872 28879	thisstudies
+T855	Noun_Phrase 28854 28858;28872 28879	this studies
 T856	Noun_Phrase 28907 28918	trans-eQTLs
 T857	Noun_Phrase 28979 28992	these regions
 T858	Noun_Phrase 28997 29045	the 4,613 genes correlated with gonadal fat mass
@@ -1001,10 +977,8 @@ T975	IDENTITY_chain 34524 34531	mlratio
 T976	Noun_Phrase 34899 34909	Genotyping
 T977	IDENTITY_chain 34899 34909	Genotyping
 T978	Noun_Phrase 34914 34921	linkage
-T979	Noun_Phrase 35099 35102;	the
-35110 35121	theC3H strains
-T980	Noun_Phrase 35099 35105;	the B6
-35114 35121	the B6strains
+T979	Noun_Phrase 35099 35102;35110 35121	the C3H strains
+T980	Noun_Phrase 35099 35105;35114 35121	the B6 strains
 T981	Noun_Phrase 35138 35145	linkage
 T982	Noun_Phrase 35246 35256	Genotyping
 T983	Noun_Phrase 35343 35368	molecular-inversion probe
@@ -1027,10 +1001,8 @@ T999	Noun_Phrase 35988 35990	?1
 T1000	IDENTITY_chain 35988 35990	?1
 T1001	Noun_Phrase 35995 35997	?2
 T1002	IDENTITY_chain 35995 35997	?2
-T1003	Noun_Phrase 36033 36036;	the
-36050 36069	thedominant parameters
-T1004	Noun_Phrase 36033 36045;	the additive
-36059 36069	the additiveparameters
+T1003	Noun_Phrase 36033 36036;36050 36069	the dominant parameters
+T1004	Noun_Phrase 36033 36045;36059 36069	the additive parameters
 T1005	Noun_Phrase 36085 36098	The LOD score
 T1006	Noun_Phrase 36089 36092	LOD
 T1007	Noun_Phrase 36205 36210	model
@@ -1061,10 +1033,8 @@ T1031	Noun_Phrase 37049 37059	Equation 6
 T1032	IDENTITY_chain 37049 37059	Equation 6
 T1033	Noun_Phrase 37068 37070	us
 T1034	Noun_Phrase 37166 37168	us
-T1035	Noun_Phrase 37201 37204;	the
-37213 37234	thesex-interaction terms
-T1036	Noun_Phrase 37201 37208;	the sex
-37229 37234	the sexterms
+T1035	Noun_Phrase 37201 37204;37213 37234	the sex-interaction terms
+T1036	Noun_Phrase 37201 37208;37229 37234	the sex terms
 T1037	Noun_Phrase 37258 37273	all 334 animals
 T1038	Noun_Phrase 37323 37337	the full model
 T1039	Noun_Phrase 37423 37426	our
@@ -1152,15 +1122,12 @@ T1120	Noun_Phrase 40414 40429	model selection
 T1121	Nonreferential_pronoun 40442 40444	It
 T1122	Noun_Phrase 40459 40473	the ROC curves
 T1123	Noun_Phrase 40463 40466	ROC
-T1124	Noun_Phrase 40479 40482;	the
-40491 40512	thesex-interaction terms
-T1125	Noun_Phrase 40479 40486;	the sex
-40507 40512	the sexterms
+T1124	Noun_Phrase 40479 40482;40491 40512	the sex-interaction terms
+T1125	Noun_Phrase 40479 40486;40507 40512	the sex terms
 T1126	Noun_Phrase 40536 40551	gene expression
 T1127	Noun_Phrase 40590 40592	we
 T1128	Noun_Phrase 40629 40663	the set of 3,000 genes for model 1
-T1129	Noun_Phrase 40738 40747;	Equations
-40754 40755	Equations6
+T1129	Noun_Phrase 40738 40747;40754 40755	Equations 6
 T1130	Noun_Phrase 40738 40749	Equations 4
 T1131	Noun_Phrase 40771 40784	These results
 T1132	IDENTITY_chain 40771 40784	These results
@@ -1272,10 +1239,8 @@ T1237	Noun_Phrase 44322 44355	receiver operating characteristic
 T1238	Noun_Phrase 44357 44360	SNP
 T1239	APPOS_relation 44357 44360	SNP
 T1240	Noun_Phrase 44363 44393	single nucleotide polymorphism
-T1241	Noun_Phrase 44415 44423;	Figure 1
-44460 44461	Figure 1A
-T1242	Noun_Phrase 44415 44423;	Figure 1
-44979 44980	Figure 1B
+T1241	Noun_Phrase 44415 44423;44460 44461	Figure 1 A
+T1242	Noun_Phrase 44415 44423;44979 44980	Figure 1 B
 T1243	Noun_Phrase 44441 44452	Gonadal Fat
 T1244	Noun_Phrase 44441 44457	Gonadal Fat Mass
 T1245	Noun_Phrase 44463 44470	Animals
@@ -1285,10 +1250,8 @@ T1248	Noun_Phrase 44600 44603	sex
 T1249	Noun_Phrase 44654 44673	significant linkage
 T1250	Noun_Phrase 44725 44728	sex
 T1251	Noun_Phrase 44733 44736	QTL
-T1252	Noun_Phrase 44882 44896;	thresholds for
-44927 44946	thresholds forsignificant linkage
-T1253	Noun_Phrase 44897 44907;	suggestive
-44939 44946	suggestivelinkage
+T1252	Noun_Phrase 44882 44896;44927 44946	thresholds for significant linkage
+T1253	Noun_Phrase 44897 44907;44939 44946	suggestive linkage
 T1254	Noun_Phrase 44927 44946	significant linkage
 T1255	Noun_Phrase 44999 45010	gonadal fat
 T1256	Noun_Phrase 44999 45015	gonadal fat mass
@@ -1302,10 +1265,8 @@ T1263	Noun_Phrase 45334 45337	sex
 T1264	Noun_Phrase 45334 45345	sex effects
 T1265	Noun_Phrase 45415 45477	the model incorporating both the “sex*add” and “sex*dom” terms
 T1266	Noun_Phrase 45439 45477	both the “sex*add” and “sex*dom” terms
-T1267	Noun_Phrase 45444 45447;	the
-45462 45477	the“sex*dom” terms
-T1268	Noun_Phrase 45444 45457;	the “sex*add”
-45472 45477	the “sex*add”terms
+T1267	Noun_Phrase 45444 45447;45462 45477	the “sex*dom” terms
+T1268	Noun_Phrase 45444 45457;45472 45477	the “sex*add” terms
 T1269	Noun_Phrase 45536 45545	the terms
 T1270	Noun_Phrase 45578 45586	Figure 2
 T1271	Noun_Phrase 45610 45618	Fat Mass
@@ -1339,14 +1300,10 @@ T1298	Noun_Phrase 46187 46200	a common pool
 T1299	IDENTITY_chain 46187 46200	a common pool
 T1300	Noun_Phrase 46254 46258	pool
 T1301	Noun_Phrase 46261 46269	Figure 4
-T1302	Noun_Phrase 46261 46269;	Figure 4
-46303 46304	Figure 4A
-T1303	Noun_Phrase 46261 46269;	Figure 4
-46535 46536	Figure 4B
-T1304	Noun_Phrase 46261 46269;	Figure 4
-46693 46694	Figure 4C
-T1305	Noun_Phrase 46261 46269;	Figure 4
-47140 47141	Figure 4D
+T1302	Noun_Phrase 46261 46269;46303 46304	Figure 4 A
+T1303	Noun_Phrase 46261 46269;46535 46536	Figure 4 B
+T1304	Noun_Phrase 46261 46269;46693 46694	Figure 4 C
+T1305	Noun_Phrase 46261 46269;47140 47141	Figure 4 D
 T1306	Noun_Phrase 46289 46294	Liver
 T1307	Noun_Phrase 46338 46343	liver
 T1308	Noun_Phrase 46393 46416	6,676 significant eQTLs
@@ -1366,14 +1323,10 @@ T1321	Noun_Phrase 47226 47249	significant sex effects
 T1322	Noun_Phrase 47288 47297	cis-eQTLs
 T1323	Noun_Phrase 47461 47495	eQTLs with significant sex effects
 T1324	Noun_Phrase 47472 47495	significant sex effects
-T1325	Noun_Phrase 47508 47516;	Figure 5
-47593 47594	Figure 5A
-T1326	Noun_Phrase 47508 47516;	Figure 5
-47771 47772	Figure 5B
-T1327	Noun_Phrase 47508 47516;	Figure 5
-47932 47933	Figure 5C
-T1328	Noun_Phrase 47508 47516;	Figure 5
-48044 48045	Figure 5D
+T1325	Noun_Phrase 47508 47516;47593 47594	Figure 5 A
+T1326	Noun_Phrase 47508 47516;47771 47772	Figure 5 B
+T1327	Noun_Phrase 47508 47516;47932 47933	Figure 5 C
+T1328	Noun_Phrase 47508 47516;48044 48045	Figure 5 D
 T1329	Noun_Phrase 47574 47585	Gonadal Fat
 T1330	Noun_Phrase 47574 47590	Gonadal Fat Mass
 T1331	Noun_Phrase 47657 47668	transcripts
@@ -1399,12 +1352,9 @@ T1350	Noun_Phrase 48447 48460	Chromosome 19
 T1351	Noun_Phrase 48507 48518	gonadal fat
 T1352	Noun_Phrase 48507 48523	gonadal fat mass
 T1353	Noun_Phrase 48552 48560	Figure 6
-T1354	Noun_Phrase 48552 48560;	Figure 6
-48630 48631	Figure 6A
-T1355	Noun_Phrase 48552 48560;	Figure 6
-49190 49191	Figure 6B
-T1356	Noun_Phrase 48552 48560;	Figure 6
-49447 49448	Figure 6A
+T1354	Noun_Phrase 48552 48560;48630 48631	Figure 6 A
+T1355	Noun_Phrase 48552 48560;49190 49191	Figure 6 B
+T1356	Noun_Phrase 48552 48560;49447 49448	Figure 6 A
 T1357	Noun_Phrase 48611 48622	Gonadal Fat
 T1358	Noun_Phrase 48611 48627	Gonadal Fat Mass
 T1359	Noun_Phrase 48687 48691	gene

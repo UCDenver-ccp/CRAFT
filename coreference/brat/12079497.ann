@@ -71,18 +71,12 @@ T69	Noun_Phrase 1202 1205	GFP
 T70	IDENTITY_chain 1202 1205	GFP
 T71	Noun_Phrase 1220 1222	we
 T72	Noun_Phrase 1249 1257	ES cells
-T73	Noun_Phrase 1303 1327;	widespread expression of
-1347 1373	widespread expression ofEYFP GFP-variant reporters
-T74	IDENTITY_chain 1303 1327;	widespread expression of
-1347 1373	widespread expression ofEYFP GFP-variant reporters
-T75	Noun_Phrase 1335 1338;	the
-1347 1373	theEYFP GFP-variant reporters
-T76	IDENTITY_chain 1335 1338;	the
-1347 1373	theEYFP GFP-variant reporters
-T77	Noun_Phrase 1335 1343;	the ECFP
-1352 1373	the ECFPGFP-variant reporters
-T78	IDENTITY_chain 1335 1343;	the ECFP
-1352 1373	the ECFPGFP-variant reporters
+T73	Noun_Phrase 1303 1327;1347 1373	widespread expression of EYFP GFP-variant reporters
+T74	IDENTITY_chain 1303 1327;1347 1373	widespread expression of EYFP GFP-variant reporters
+T75	Noun_Phrase 1335 1338;1347 1373	the EYFP GFP-variant reporters
+T76	IDENTITY_chain 1335 1338;1347 1373	the EYFP GFP-variant reporters
+T77	Noun_Phrase 1335 1343;1352 1373	the ECFP GFP-variant reporters
+T78	IDENTITY_chain 1335 1343;1352 1373	the ECFP GFP-variant reporters
 T79	Noun_Phrase 1339 1343	ECFP
 T80	Noun_Phrase 1347 1351	EYFP
 T81	Noun_Phrase 1384 1386	we
@@ -110,8 +104,7 @@ T102	Noun_Phrase 2187 2190	its
 T103	Noun_Phrase 2187 2197	its genome
 T104	IDENTITY_chain 2187 2197	its genome
 T105	Noun_Phrase 2219 2228	the mouse
-T106	Noun_Phrase 2369 2381;	transgenesis
-2401 2412	transgenesisin ES cells
+T106	Noun_Phrase 2369 2381;2401 2412	transgenesis in ES cells
 T107	Noun_Phrase 2404 2412	ES cells
 T108	Noun_Phrase 2606 2635	Fluorescent protein reporters
 T109	IDENTITY_chain 2606 2635	Fluorescent protein reporters
@@ -160,10 +153,8 @@ T151	Noun_Phrase 4017 4025	reporter
 T152	Noun_Phrase 4037 4041	mice
 T153	Noun_Phrase 4063 4065	we
 T154	Noun_Phrase 4094 4096	we
-T155	Noun_Phrase 4113 4119;	viable
-4132 4188	viablemice with widespread expression of GFP variant reporters
-T156	IDENTITY_chain 4113 4119;	viable
-4132 4188	viablemice with widespread expression of GFP variant reporters
+T155	Noun_Phrase 4113 4119;4132 4188	viable mice with widespread expression of GFP variant reporters
+T156	IDENTITY_chain 4113 4119;4132 4188	viable mice with widespread expression of GFP variant reporters
 T157	Noun_Phrase 4113 4188	viable and fertile mice with widespread expression of GFP variant reporters
 T158	IDENTITY_chain 4113 4188	viable and fertile mice with widespread expression of GFP variant reporters
 T159	Noun_Phrase 4124 4188	fertile mice with widespread expression of GFP variant reporters
@@ -177,8 +168,7 @@ T166	Noun_Phrase 4215 4217	We
 T167	Noun_Phrase 4250 4255	wtGFP
 T168	Noun_Phrase 4395 4432	the Enhanced Cyan Fluorescent Protein
 T169	APPOS_relation 4395 4432	the Enhanced Cyan Fluorescent Protein
-T170	Noun_Phrase 4395 4439;	the Enhanced Cyan Fluorescent Protein (ECFP)
-4487 4510	the Enhanced Cyan Fluorescent Protein (ECFP)wtGFP spectral variants
+T170	Noun_Phrase 4395 4439;4487 4510	the Enhanced Cyan Fluorescent Protein (ECFP) wtGFP spectral variants
 T171	Noun_Phrase 4395 4510	the Enhanced Cyan Fluorescent Protein (ECFP) and Enhanced Yellow Fluorescent Protein (EYFP) wtGFP spectral variants
 T172	Noun_Phrase 4434 4438	ECFP
 T173	Noun_Phrase 4444 4479	Enhanced Yellow Fluorescent Protein
@@ -224,18 +214,12 @@ T212	IDENTITY_chain 5952 5981	the two GFP variant reporters
 T213	Noun_Phrase 5960 5963	GFP
 T214	Noun_Phrase 6038 6042	Fig.
 T215	IDENTITY_chain 6038 6042	Fig.
-T216	Noun_Phrase 6038 6042;	Fig.
-6046 6048	Fig.1b
-T217	IDENTITY_chain 6038 6042;	Fig.
-6046 6048	Fig.1b
-T218	Noun_Phrase 6038 6042;	Fig.
-6049 6051	Fig.1c
-T219	IDENTITY_chain 6038 6042;	Fig.
-6049 6051	Fig.1c
-T220	Noun_Phrase 6038 6042;	Fig.
-6052 6054	Fig.1d
-T221	IDENTITY_chain 6038 6042;	Fig.
-6052 6054	Fig.1d
+T216	Noun_Phrase 6038 6042;6046 6048	Fig. 1b
+T217	IDENTITY_chain 6038 6042;6046 6048	Fig. 1b
+T218	Noun_Phrase 6038 6042;6049 6051	Fig. 1c
+T219	IDENTITY_chain 6038 6042;6049 6051	Fig. 1c
+T220	Noun_Phrase 6038 6042;6052 6054	Fig. 1d
+T221	IDENTITY_chain 6038 6042;6052 6054	Fig. 1d
 T222	Noun_Phrase 6038 6045	Fig. 1a
 T223	IDENTITY_chain 6038 6045	Fig. 1a
 T224	Noun_Phrase 6079 6081	we
@@ -276,10 +260,8 @@ T258	Noun_Phrase 7313 7321	ES cells
 T259	Noun_Phrase 7342 7350	CK6/ECFP
 T260	IDENTITY_chain 7342 7350	CK6/ECFP
 T261	APPOS_relation 7342 7350	CK6/ECFP
-T262	Noun_Phrase 7342 7358;	CK6/ECFP (ECFP+)
-7380 7388	CK6/ECFP (ECFP+)ES cells
-T263	IDENTITY_chain 7342 7358;	CK6/ECFP (ECFP+)
-7380 7388	CK6/ECFP (ECFP+)ES cells
+T262	Noun_Phrase 7342 7358;7380 7388	CK6/ECFP (ECFP+) ES cells
+T263	IDENTITY_chain 7342 7358;7380 7388	CK6/ECFP (ECFP+) ES cells
 T264	Noun_Phrase 7352 7357	ECFP+
 T265	Noun_Phrase 7363 7371	YC5/EYFP
 T266	IDENTITY_chain 7363 7371	YC5/EYFP
@@ -304,8 +286,7 @@ T284	Noun_Phrase 7554 7558	ECFP
 T285	Noun_Phrase 7568 7569	d
 T286	Noun_Phrase 7571 7657	dark field double exposure image acquired by consecutively using ECFP and EYFP filters
 T287	IDENTITY_chain 7571 7657	dark field double exposure image acquired by consecutively using ECFP and EYFP filters
-T288	Noun_Phrase 7636 7640;	ECFP
-7650 7657	ECFPfilters
+T288	Noun_Phrase 7636 7640;7650 7657	ECFP filters
 T289	Noun_Phrase 7636 7640	ECFP
 T290	Noun_Phrase 7636 7657	ECFP and EYFP filters
 T291	IDENTITY_chain 7636 7657	ECFP and EYFP filters
@@ -316,11 +297,9 @@ T295	Noun_Phrase 7659 7670	ECFP+ cells
 T296	Noun_Phrase 7701 7706	EYFP+
 T297	Noun_Phrase 7701 7712	EYFP+ cells
 T298	Noun_Phrase 7772 7777	ECFP+
-T299	Noun_Phrase 7772 7777;	ECFP+
-7794 7799	ECFP+cells
+T299	Noun_Phrase 7772 7777;7794 7799	ECFP+ cells
 T300	Noun_Phrase 7779 7784	EYFP+
-T301	Noun_Phrase 7779 7784;	EYFP+
-7794 7799	EYFP+cells
+T301	Noun_Phrase 7779 7784;7794 7799	EYFP+ cells
 T302	Noun_Phrase 7835 7840	ECFP+
 T303	Noun_Phrase 7849 7854	EYFP+
 T304	Noun_Phrase 7915 7923	chimeras
@@ -347,35 +326,24 @@ T324	Noun_Phrase 8583 8591	reporter
 T325	Noun_Phrase 8624 8633	transgene
 T326	Noun_Phrase 8677 8683	Figure
 T327	Noun_Phrase 8677 8685	Figure 2
-T328	Noun_Phrase 8687 8730;	Dual non-invasive reporter visualization in
-8743 8753	Dual non-invasive reporter visualization inadult mice
+T328	Noun_Phrase 8687 8730;8743 8753	Dual non-invasive reporter visualization in adult mice
 T329	Noun_Phrase 8705 8713	reporter
 T330	Noun_Phrase 8731 8738	embryos
 T331	IDENTITY_chain 8731 8738	embryos
 T332	Noun_Phrase 8743 8753	adult mice
-T333	Noun_Phrase 8800 8803;	the
-8816 8835	theYC5/EYFP transgenes
-T334	IDENTITY_chain 8800 8803;	the
-8816 8835	theYC5/EYFP transgenes
-T335	Noun_Phrase 8800 8812;	the CK6/ECFP
-8825 8835	the CK6/ECFPtransgenes
-T336	IDENTITY_chain 8800 8812;	the CK6/ECFP
-8825 8835	the CK6/ECFPtransgenes
+T333	Noun_Phrase 8800 8803;8816 8835	the YC5/EYFP transgenes
+T334	IDENTITY_chain 8800 8803;8816 8835	the YC5/EYFP transgenes
+T335	Noun_Phrase 8800 8812;8825 8835	the CK6/ECFP transgenes
+T336	IDENTITY_chain 8800 8812;8825 8835	the CK6/ECFP transgenes
 T337	Noun_Phrase 8804 8812	CK6/ECFP
 T338	Noun_Phrase 8816 8824	YC5/EYFP
-T339	Noun_Phrase 8843 8884;	blastocyst stage (E3.5) embryos, that are
-8892 8903	blastocyst stage (E3.5) embryos, that arefluorescent
-T340	IDENTITY_chain 8843 8884;	blastocyst stage (E3.5) embryos, that are
-8892 8903	blastocyst stage (E3.5) embryos, that arefluorescent
-T341	Noun_Phrase 8843 8884;	blastocyst stage (E3.5) embryos, that are
-8907 8922	blastocyst stage (E3.5) embryos, that arenon-fluorescent
-T342	IDENTITY_chain 8843 8884;	blastocyst stage (E3.5) embryos, that are
-8907 8922	blastocyst stage (E3.5) embryos, that arenon-fluorescent
+T339	Noun_Phrase 8843 8884;8892 8903	blastocyst stage (E3.5) embryos, that are fluorescent
+T340	IDENTITY_chain 8843 8884;8892 8903	blastocyst stage (E3.5) embryos, that are fluorescent
+T341	Noun_Phrase 8843 8884;8907 8922	blastocyst stage (E3.5) embryos, that are non-fluorescent
+T342	IDENTITY_chain 8843 8884;8907 8922	blastocyst stage (E3.5) embryos, that are non-fluorescent
 T343	Noun_Phrase 8924 8943	Fluorescent embryos
-T344	Noun_Phrase 9018 9021;	the
-9034 9053	theYC5/EYFP transgenes
-T345	Noun_Phrase 9018 9030;	the CK6/ECFP
-9043 9053	the CK6/ECFPtransgenes
+T344	Noun_Phrase 9018 9021;9034 9053	the YC5/EYFP transgenes
+T345	Noun_Phrase 9018 9030;9043 9053	the CK6/ECFP transgenes
 T346	Noun_Phrase 9022 9030	CK6/ECFP
 T347	Noun_Phrase 9034 9042	YC5/EYFP
 T348	Noun_Phrase 9068 9091	Non-fluorescent embryos
@@ -401,8 +369,7 @@ T367	Noun_Phrase 9318 9322	ECFP
 T368	Noun_Phrase 9332 9333	d
 T369	IDENTITY_chain 9332 9333	d
 T370	Noun_Phrase 9335 9421	dark field double exposure image acquired by consecutively using ECFP and EYFP filters
-T371	Noun_Phrase 9400 9404;	ECFP
-9414 9421	ECFPfilters
+T371	Noun_Phrase 9400 9404;9414 9421	ECFP filters
 T372	Noun_Phrase 9400 9404	ECFP
 T373	Noun_Phrase 9400 9421	ECFP and EYFP filters
 T374	Noun_Phrase 9409 9413	EYFP
@@ -438,20 +405,16 @@ T403	Noun_Phrase 9795 9799	ECFP
 T404	Noun_Phrase 9809 9810	h
 T405	IDENTITY_chain 9809 9810	h
 T406	Noun_Phrase 9812 9881	double exposure acquired by consecutively using ECFP and EYFP filters
-T407	Noun_Phrase 9860 9864;	ECFP
-9874 9881	ECFPfilters
+T407	Noun_Phrase 9860 9864;9874 9881	ECFP filters
 T408	Noun_Phrase 9860 9864	ECFP
 T409	Noun_Phrase 9860 9881	ECFP and EYFP filters
 T410	Noun_Phrase 9869 9873	EYFP
 T411	Noun_Phrase 9869 9881	EYFP filters
-T412	Noun_Phrase 9959 9962;	the
-9971 9984	theEYFP reporter
-T413	Noun_Phrase 9959 9967;	the ECFP
-9976 9984	the ECFPreporter
+T412	Noun_Phrase 9959 9962;9971 9984	the EYFP reporter
+T413	Noun_Phrase 9959 9967;9976 9984	the ECFP reporter
 T414	Noun_Phrase 9963 9967	ECFP
 T415	Noun_Phrase 9971 9975	EYFP
-T416	Noun_Phrase 10053 10057;	ECFP
-10076 10083	ECFPfilters
+T416	Noun_Phrase 10053 10057;10076 10083	ECFP filters
 T417	Noun_Phrase 10053 10057	ECFP
 T418	Noun_Phrase 10067 10083	the EYFP filters
 T419	Noun_Phrase 10071 10075	EYFP
@@ -476,12 +439,9 @@ T437	Noun_Phrase 10335 10336	i
 T438	Noun_Phrase 10341 10342	j
 T439	Noun_Phrase 10371 10373	FP
 T440	Noun_Phrase 10429 10433	Fig.
-T441	Noun_Phrase 10429 10433;	Fig.
-10437 10439	Fig.2b
-T442	Noun_Phrase 10429 10433;	Fig.
-10440 10442	Fig.2c
-T443	Noun_Phrase 10429 10433;	Fig.
-10443 10445	Fig.2d
+T441	Noun_Phrase 10429 10433;10437 10439	Fig. 2b
+T442	Noun_Phrase 10429 10433;10440 10442	Fig. 2c
+T443	Noun_Phrase 10429 10433;10443 10445	Fig. 2d
 T444	Noun_Phrase 10429 10436	Fig. 2a
 T445	Noun_Phrase 10482 10486	Fig.
 T446	Noun_Phrase 10482 10488	Fig. 2
@@ -491,28 +451,20 @@ T449	Noun_Phrase 10518 10523	ECFP+
 T450	Noun_Phrase 10565 10570	EYFP+
 T451	Noun_Phrase 10632 10654	preimplantation stages
 T452	Noun_Phrase 10656 10660	Fig.
-T453	Noun_Phrase 10656 10660;	Fig.
-10664 10666	Fig.2b
-T454	Noun_Phrase 10656 10660;	Fig.
-10667 10669	Fig.2c
-T455	Noun_Phrase 10656 10660;	Fig.
-10670 10672	Fig.2d
+T453	Noun_Phrase 10656 10660;10664 10666	Fig. 2b
+T454	Noun_Phrase 10656 10660;10667 10669	Fig. 2c
+T455	Noun_Phrase 10656 10660;10670 10672	Fig. 2d
 T456	Noun_Phrase 10656 10663	Fig. 2a
 T457	Noun_Phrase 10702 10706	Fig.
-T458	Noun_Phrase 10702 10706;	Fig.
-10710 10712	Fig.2f
-T459	Noun_Phrase 10702 10706;	Fig.
-10713 10715	Fig.2g
-T460	Noun_Phrase 10702 10706;	Fig.
-10716 10718	Fig.2h
+T458	Noun_Phrase 10702 10706;10710 10712	Fig. 2f
+T459	Noun_Phrase 10702 10706;10713 10715	Fig. 2g
+T460	Noun_Phrase 10702 10706;10716 10718	Fig. 2h
 T461	Noun_Phrase 10702 10709	Fig. 2e
 T462	Noun_Phrase 10734 10744	adult mice
 T463	Noun_Phrase 10800 10805	their
 T464	Noun_Phrase 10820 10824	Fig.
-T465	Noun_Phrase 10820 10824;	Fig.
-10828 10830	Fig.2j
-T466	Noun_Phrase 10820 10824;	Fig.
-10831 10833	Fig.2k
+T465	Noun_Phrase 10820 10824;10828 10830	Fig. 2j
+T466	Noun_Phrase 10820 10824;10831 10833	Fig. 2k
 T467	Noun_Phrase 10820 10827	Fig. 2i
 T468	Noun_Phrase 10849 10852	our
 T469	Noun_Phrase 10853 10856	RFP
@@ -551,10 +503,8 @@ T501	Noun_Phrase 11759 11763	mice
 T502	Noun_Phrase 11766 11768	We
 T503	Noun_Phrase 11778 11803	double FP-tagged chimeras
 T504	IDENTITY_chain 11778 11803	double FP-tagged chimeras
-T505	Noun_Phrase 11831 11834;	the
-11844 11858	theEYFP reporters
-T506	Noun_Phrase 11831 11839;	the ECFP
-11849 11858	the ECFPreporters
+T505	Noun_Phrase 11831 11834;11844 11858	the EYFP reporters
+T506	Noun_Phrase 11831 11839;11849 11858	the ECFP reporters
 T507	Noun_Phrase 11831 11858	the ECFP and EYFP reporters
 T508	Noun_Phrase 11835 11839	ECFP
 T509	Noun_Phrase 11844 11848	EYFP
@@ -576,22 +526,14 @@ T524	IDENTITY_chain 12262 12303	the tetraploid extraembryonic compartment
 T525	Noun_Phrase 12307 12312	EYFP+
 T526	IDENTITY_chain 12307 12312	EYFP+
 T527	Noun_Phrase 12314 12318	Fig.
-T528	Noun_Phrase 12314 12318;	Fig.
-12322 12324	Fig.3c
-T529	IDENTITY_chain 12314 12318;	Fig.
-12322 12324	Fig.3c
-T530	Noun_Phrase 12314 12318;	Fig.
-12325 12327	Fig.3d
-T531	IDENTITY_chain 12314 12318;	Fig.
-12325 12327	Fig.3d
-T532	Noun_Phrase 12314 12318;	Fig.
-12328 12330	Fig.3e
-T533	IDENTITY_chain 12314 12318;	Fig.
-12328 12330	Fig.3e
-T534	Noun_Phrase 12314 12318;	Fig.
-12331 12333	Fig.3f
-T535	IDENTITY_chain 12314 12318;	Fig.
-12331 12333	Fig.3f
+T528	Noun_Phrase 12314 12318;12322 12324	Fig. 3c
+T529	IDENTITY_chain 12314 12318;12322 12324	Fig. 3c
+T530	Noun_Phrase 12314 12318;12325 12327	Fig. 3d
+T531	IDENTITY_chain 12314 12318;12325 12327	Fig. 3d
+T532	Noun_Phrase 12314 12318;12328 12330	Fig. 3e
+T533	IDENTITY_chain 12314 12318;12328 12330	Fig. 3e
+T534	Noun_Phrase 12314 12318;12331 12333	Fig. 3f
+T535	IDENTITY_chain 12314 12318;12331 12333	Fig. 3f
 T536	Noun_Phrase 12314 12321	Fig. 3b
 T537	IDENTITY_chain 12314 12321	Fig. 3b
 T538	Noun_Phrase 12345 12347	we
@@ -601,10 +543,8 @@ T541	IDENTITY_chain 12390 12460	balanced adult chimeras comprised of both ECFP+ 
 T542	Noun_Phrase 12427 12460	both ECFP+ and EYFP+ compartments
 T543	IDENTITY_chain 12427 12460	both ECFP+ and EYFP+ compartments
 T544	Noun_Phrase 12432 12437	ECFP+
-T545	Noun_Phrase 12432 12437;	ECFP+
-12448 12460	ECFP+compartments
-T546	IDENTITY_chain 12432 12437;	ECFP+
-12448 12460	ECFP+compartments
+T545	Noun_Phrase 12432 12437;12448 12460	ECFP+ compartments
+T546	IDENTITY_chain 12432 12437;12448 12460	ECFP+ compartments
 T547	Noun_Phrase 12442 12447	EYFP+
 T548	Noun_Phrase 12442 12460	EYFP+ compartments
 T549	IDENTITY_chain 12442 12460	EYFP+ compartments
@@ -666,8 +606,7 @@ T604	IDENTITY_chain 13973 13987	an ECFP filter
 T605	Noun_Phrase 13976 13980	ECFP
 T606	Noun_Phrase 13990 13991	d
 T607	Noun_Phrase 13993 14079	dark field double exposure image acquired by consecutively using ECFP and EYFP filters
-T608	Noun_Phrase 14058 14062;	ECFP
-14072 14079	ECFPfilters
+T608	Noun_Phrase 14058 14062;14072 14079	ECFP filters
 T609	Noun_Phrase 14058 14062	ECFP
 T610	Noun_Phrase 14058 14079	ECFP and EYFP filters
 T611	Noun_Phrase 14067 14071	EYFP
@@ -711,8 +650,7 @@ T648	Noun_Phrase 14910 14916	Figure
 T649	Noun_Phrase 14910 14918	Figure 4
 T650	Noun_Phrase 14938 14946	reporter
 T651	Noun_Phrase 14964 14992	the organs of adult chimeras
-T652	Noun_Phrase 15072 15076;	ECFP
-15086 15093	ECFPfilters
+T652	Noun_Phrase 15072 15076;15086 15093	ECFP filters
 T653	Noun_Phrase 15072 15076	ECFP
 T654	Noun_Phrase 15072 15093	ECFP and EYFP filters
 T655	Noun_Phrase 15081 15085	EYFP
@@ -721,24 +659,18 @@ T657	Noun_Phrase 15349 15426	ventricle of a chimeric heart generated by aggregat
 T658	IDENTITY_chain 15349 15426	ventricle of a chimeric heart generated by aggregation of two diploid morulae
 T659	Noun_Phrase 15362 15426	a chimeric heart generated by aggregation of two diploid morulae
 T660	IDENTITY_chain 15362 15426	a chimeric heart generated by aggregation of two diploid morulae
-T661	Noun_Phrase 15447 15459;	the CK6/ECFP
-15468 15477	the CK6/ECFPtransgene
-T662	APPOS_relation 15447 15459;	the CK6/ECFP
-15468 15477	the CK6/ECFPtransgene
+T661	Noun_Phrase 15447 15459;15468 15477	the CK6/ECFP transgene
+T662	APPOS_relation 15447 15459;15468 15477	the CK6/ECFP transgene
 T663	Noun_Phrase 15451 15459	CK6/ECFP
 T664	APPOS_relation 15451 15459	CK6/ECFP
 T665	Noun_Phrase 15461 15466	ECFP+
-T666	Noun_Phrase 15507 15519;	the YC5/EYFP
-15528 15537	the YC5/EYFPtransgene
-T667	APPOS_relation 15507 15519;	the YC5/EYFP
-15528 15537	the YC5/EYFPtransgene
+T666	Noun_Phrase 15507 15519;15528 15537	the YC5/EYFP transgene
+T667	APPOS_relation 15507 15519;15528 15537	the YC5/EYFP transgene
 T668	Noun_Phrase 15511 15519	YC5/EYFP
 T669	APPOS_relation 15511 15519	YC5/EYFP
 T670	Noun_Phrase 15521 15526	EYFP+
-T671	Noun_Phrase 15554 15566;	yellow/green
-15576 15588	yellow/greenfluorescence
-T672	IDENTITY_chain 15554 15566;	yellow/green
-15576 15588	yellow/greenfluorescence
+T671	Noun_Phrase 15554 15566;15576 15588	yellow/green fluorescence
+T672	IDENTITY_chain 15554 15566;15576 15588	yellow/green fluorescence
 T673	Noun_Phrase 15653 15665	fluorescence
 T674	Noun_Phrase 15715 15728	the ventricle
 T675	Noun_Phrase 15734 15849	chimeric pancreas generated by aggregation of a morula hemizygous for the YC5/EYFP transgene with CK6/ECFP ES cells
@@ -770,14 +702,12 @@ T700	Noun_Phrase 16431 16435	cell
 T701	Noun_Phrase 16472 16482	this organ
 T702	Noun_Phrase 16485 16496	Conclusions
 T703	Noun_Phrase 16522 16524	we
-T704	Noun_Phrase 16539 16560;	the blue-shifted ECFP
-16587 16604	the blue-shifted ECFPvariants of wtGFP
+T704	Noun_Phrase 16539 16560;16587 16604	the blue-shifted ECFP variants of wtGFP
 T705	Noun_Phrase 16582 16586	EYFP
 T706	Noun_Phrase 16599 16604	wtGFP
 T707	Noun_Phrase 16633 16637	mice
 T708	Noun_Phrase 16650 16652	we
-T709	Noun_Phrase 16679 16685;	viable
-16698 16734	viablemice having widespread FP expression
+T709	Noun_Phrase 16679 16685;16698 16734	viable mice having widespread FP expression
 T710	Noun_Phrase 16679 16734	viable and fertile mice having widespread FP expression
 T711	Noun_Phrase 16690 16734	fertile mice having widespread FP expression
 T712	Noun_Phrase 16721 16723	FP
@@ -797,8 +727,7 @@ T725	Noun_Phrase 17140 17144	ECFP
 T726	Noun_Phrase 17140 17153	ECFP and EYFP
 T727	Noun_Phrase 17149 17153	EYFP
 T728	Noun_Phrase 17191 17196	their
-T729	Noun_Phrase 17265 17269;	ECFP
-17279 17298	ECFPtagged compartments
+T729	Noun_Phrase 17265 17269;17279 17298	ECFP tagged compartments
 T730	Noun_Phrase 17265 17269	ECFP
 T731	Noun_Phrase 17265 17298	ECFP and EYFP tagged compartments
 T732	Noun_Phrase 17274 17278	EYFP

@@ -32,12 +32,10 @@ T30	UBERON_0003104 3633 3644	mesenchymal
 T31	UBERON_EXT_zone_of_skin_or_skin_of_body 3664 3668	skin
 T32	UBERON_0000483 3724 3734	epithelial
 T33	UBERON_0003104 3735 3746	mesenchymal
-T34	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 3812 3822;	cluster of
-3834 3839	cluster ofcells
+T34	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 3812 3822;3834 3839	cluster of cells
 T35	UBERON_0000483 3823 3833	epithelial
 T36	UBERON_EXT_placode 3845 3852	placode
-T37	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 3866 3874;	group of
-3898 3903	group ofcells
+T37	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 3866 3874;3898 3903	group of cells
 T38	UBERON_0003104 3886 3897	mesenchymal
 T39	UBERON_0000412 3937 3951	dermal papilla
 T40	UBERON_0002073 3994 4007	hair follicle
@@ -94,8 +92,7 @@ T90	UBERON_0007376 11062 11071	epidermis
 T91	UBERON_EXT_placode 11095 11102	placode
 T92	UBERON_0000924 11191 11209	embryonic ectoderm
 T93	UBERON_0001037 11215 11219	hair
-T94	UBERON_0002073 11327 11331;	hair
-11345 11354	hairfollicles
+T94	UBERON_0002073 11327 11331;11345 11354	hair follicles
 T95	UBERON_EXT_zone_of_skin_or_skin_of_body 11584 11588	skin
 T96	UBERON_0001037 11743 11747	hair
 T97	UBERON_0001037 11856 11860	hair
@@ -119,8 +116,7 @@ T114	UBERON_0007376 14161 14170	epidermal
 T115	UBERON_0010402 14658 14675	suprabasal layers
 T116	UBERON_EXT_zone_of_skin_or_skin_of_body 14698 14702	skin
 T117	UBERON_0007376 14823 14832	epidermis
-T118	UBERON_0002026 14971 14977;	layers
-14983 14990	layersspinous
+T118	UBERON_0002026 14971 14977;14983 14990	layers spinous
 T119	UBERON_0002025 15131 15142	basal layer
 T120	UBERON_EXT_zone_of_skin_or_skin_of_body 15294 15298	skin
 T121	UBERON_0010402 15420 15432	suprabasally
@@ -175,8 +171,7 @@ T169	UBERON_0000948 24893 24898	heart
 T170	UBERON_0002073 25048 25061	hair follicle
 T171	UBERON_EXT_follicle 25175 25183	follicle
 T172	UBERON_0001037 25203 25207	hair
-T173	UBERON_0002025 25358 25372;	basal layer of
-25377 25386	basal layer ofepidermis
+T173	UBERON_0002025 25358 25372;25377 25386	basal layer of epidermis
 T174	UBERON_EXT_placode 25459 25467	placodal
 T175	UBERON_0000483 25586 25596	epithelial
 T176	UBERON_EXT_placode 25610 25617	placode
@@ -253,14 +248,9 @@ T246	UBERON_EXT_follicle 36990 36998	follicle
 T247	UBERON_0001037 37076 37081	hairs
 T248	UBERON_0007376 37115 37124	epidermis
 T249	UBERON_EXT_follicle 37181 37189	follicle
-T250	UBERON_0002025 37282 37296;	basal layer of
-37301 37310	basal layer ofepidermis
-T251	UBERON_0005942 37319 37336;	outer root sheath
-37343 37345;	outer root sheathof
-37350 37363	outer root sheathofhair follicle
-T252	UBERON_0005942 37338 37341;	ORS
-37343 37345;	ORSof
-37350 37363	ORSofhair follicle
+T250	UBERON_0002025 37282 37296;37301 37310	basal layer of epidermis
+T251	UBERON_0005942 37319 37336;37343 37345;37350 37363	outer root sheath of hair follicle
+T252	UBERON_0005942 37338 37341;37343 37345;37350 37363	ORS of hair follicle
 T253	UBERON_0000922 37410 37419	embryonic
 T254	UBERON_0001037 37420 37424	hair
 T255	UBERON_0001037 37458 37462	hair
@@ -338,8 +328,7 @@ T326	UBERON_EXT_zone_of_skin_or_skin_of_body 53715 53719	skin
 T327	UBERON_0001037 53804 53808	hair
 T328	UBERON_EXT_zone_of_skin_or_skin_of_body 53822 53826	skin
 T329	UBERON_EXT_zone_of_skin_or_skin_of_body 53980 53984	skin
-T330	UBERON_0002025 54004 54018;	basal layer of
-54023 54032	basal layer ofepidermis
+T330	UBERON_0002025 54004 54018;54023 54032	basal layer of epidermis
 T331	UBERON_0002073 54048 54062	hair follicles
 T332	GO_UBERON_EXT_basement_membrane 54200 54217	basement membrane
 T333	UBERON_EXT_zone_of_skin_or_skin_of_body 54276 54280	skin
@@ -363,8 +352,7 @@ T350	UBERON_EXT_zone_of_skin_or_skin_of_body 55681 55685	skin
 T351	UBERON_0007376 55877 55886	epidermis
 T352	UBERON_0007376 55929 55938	epidermis
 T353	UBERON_EXT_zone_of_skin_or_skin_of_body 55982 55986	skin
-T354	UBERON_0002025 56194 56208;	basal layer of
-56213 56222	basal layer ofepidermis
+T354	UBERON_0002025 56194 56208;56213 56222	basal layer of epidermis
 T355	UBERON_0007376 56281 56290	epidermis
 T356	UBERON_0010402 56641 56651	suprabasal
 T357	GO_UBERON_EXT_basement_membrane 56768 56785	Basement Membrane
@@ -376,8 +364,7 @@ T362	UBERON_0002025 57175 57182	basally
 T363	UBERON_0010402 57209 57219	suprabasal
 T364	UBERON_0002026 57242 57255	spinous layer
 T365	UBERON_0010402 57283 57295	suprabasally
-T366	UBERON_0002026 57348 57355;	spinous
-57369 57374	spinouslayer
+T366	UBERON_0002026 57348 57355;57369 57374	spinous layer
 T367	UBERON_0002069 57360 57374	granular layer
 T368	UBERON_0002069 57444 57458	granular layer
 T369	UBERON_0002069 57529 57543	granular layer

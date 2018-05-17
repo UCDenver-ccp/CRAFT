@@ -20,8 +20,7 @@ T18	Noun_Phrase 307 309	We
 T19	Noun_Phrase 348 355	pendrin
 T20	IDENTITY_chain 360 368	deafness
 T21	Noun_Phrase 360 368	deafness
-T22	Noun_Phrase 375 384;	mice that
-406 447	mice thatlack a complete Slc26a4 gene (Slc26a4-/-)
+T22	Noun_Phrase 375 384;406 447	mice that lack a complete Slc26a4 gene (Slc26a4-/-)
 T23	Noun_Phrase 375 402	mice that have (Slc26a4+/+)
 T24	Noun_Phrase 391 401	Slc26a4+/+
 T25	IDENTITY_chain 391 401	Slc26a4+/+
@@ -78,14 +77,10 @@ T75	IDENTITY_chain 1113 1128	Slc26a4-/- mice
 T76	Noun_Phrase 1147 1153	tissue
 T77	Noun_Phrase 1147 1215	tissue masses in areas normally occupied by type I and II fibrocytes
 T78	IDENTITY_chain 1147 1215	tissue masses in areas normally occupied by type I and II fibrocytes
-T79	Noun_Phrase 1191 1195;	type
-1202 1215	typeII fibrocytes
-T80	IDENTITY_chain 1191 1195;	type
-1202 1215	typeII fibrocytes
-T81	Noun_Phrase 1191 1197;	type I
-1205 1215	type Ifibrocytes
-T82	IDENTITY_chain 1191 1197;	type I
-1205 1215	type Ifibrocytes
+T79	Noun_Phrase 1191 1195;1202 1215	type II fibrocytes
+T80	IDENTITY_chain 1191 1195;1202 1215	type II fibrocytes
+T81	Noun_Phrase 1191 1197;1205 1215	type I fibrocytes
+T82	IDENTITY_chain 1191 1197;1205 1215	type I fibrocytes
 T83	Noun_Phrase 1191 1215	type I and II fibrocytes
 T84	IDENTITY_chain 1191 1215	type I and II fibrocytes
 T85	Noun_Phrase 1230 1240	Slc26a4-/-
@@ -200,17 +195,12 @@ T193	Noun_Phrase 4225 4240	Slc26a4-/- mice
 T194	Noun_Phrase 4243 4250	Methods
 T195	Noun_Phrase 4252 4278	The endocochlear potential
 T196	Noun_Phrase 4252 4300	The endocochlear potential and the endolymphatic
-T197	Noun_Phrase 4283 4300;	the endolymphatic
-4319 4336	the endolymphaticK+ concentrations
-T198	Noun_Phrase 4287 4300;	endolymphatic
-4319 4321	endolymphaticK+
+T197	Noun_Phrase 4283 4300;4319 4336	the endolymphatic K+ concentrations
+T198	Noun_Phrase 4287 4300;4319 4321	endolymphatic K+
 T199	Noun_Phrase 4305 4336	perilymphatic K+ concentrations
 T200	IDENTITY_chain 4305 4336	perilymphatic K+ concentrations
-T201	Noun_Phrase 4354 4394;	young adult mice (1–4 month of age) that
-4402 4406;	young adult mice (1–4 month of age) thathave
-4441 4470	young adult mice (1–4 month of age) thathavea functional gene for pendrin
-T202	Noun_Phrase 4354 4394;	young adult mice (1–4 month of age) that
-4423 4470	young adult mice (1–4 month of age) thatlack (Slc26a4-/-) a functional gene for pendrin
+T201	Noun_Phrase 4354 4394;4402 4406;4441 4470	young adult mice (1–4 month of age) that have a functional gene for pendrin
+T202	Noun_Phrase 4354 4394;4423 4470	young adult mice (1–4 month of age) that lack (Slc26a4-/-) a functional gene for pendrin
 T203	Noun_Phrase 4408 4418	Slc26a4+/+
 T204	Noun_Phrase 4429 4439	Slc26a4-/-
 T205	Noun_Phrase 4463 4470	pendrin
@@ -318,8 +308,7 @@ T306	Noun_Phrase 8041 8057	Real time RT-PCR
 T307	IDENTITY_chain 8041 8057	Real time RT-PCR
 T308	Noun_Phrase 8171 8173	CA
 T309	Noun_Phrase 8213 8229	Molecular Probes
-T310	Noun_Phrase 8269 8284;	the K+ channels
-8293 8298	the K+ channelsKCNQ1
+T310	Noun_Phrase 8269 8284;8293 8298	the K+ channels KCNQ1
 T311	Noun_Phrase 8269 8291	the K+ channels KCNJ10
 T312	Noun_Phrase 8303 8308	KCNQ4
 T313	Noun_Phrase 8330 8351	gene-specific primers
@@ -433,8 +422,7 @@ T420	Noun_Phrase 12502 12556	spindle-shaped cells that are part of stria vascula
 T421	Noun_Phrase 12540 12556	stria vascularis
 T422	IDENTITY_chain 12558 12562	Fig.
 T423	Noun_Phrase 12558 12562	Fig.
-T424	Noun_Phrase 12558 12562;	Fig.
-12569 12571	Fig.1c
+T424	Noun_Phrase 12558 12562;12569 12571	Fig. 1c
 T425	Noun_Phrase 12558 12565	Fig. 1a
 T426	IDENTITY_chain 12558 12565	Fig. 1a
 T427	Noun_Phrase 12590 12597	pendrin
@@ -475,15 +463,10 @@ T461	IDENTITY_chain 13238 13243	KCNQ1
 T462	Noun_Phrase 13245 13249	ZO-1
 T463	IDENTITY_chain 13245 13249	ZO-1
 T464	Noun_Phrase 13254 13261	F actin
-T465	Noun_Phrase 13265 13272;	cochlea
-13298 13300;	cochleaof
-13316 13331	cochleaofSlc26a4-/- mice
-T466	Noun_Phrase 13265 13272;	cochlea
-13298 13311;	cochleaof Slc26a4+/+
-13327 13331	cochleaof Slc26a4+/+mice
+T465	Noun_Phrase 13265 13272;13298 13300;13316 13331	cochlea of Slc26a4-/- mice
+T466	Noun_Phrase 13265 13272;13298 13311;13327 13331	cochlea of Slc26a4+/+ mice
 T467	Noun_Phrase 13301 13311	Slc26a4+/+
-T468	Noun_Phrase 13301 13311;	Slc26a4+/+
-13327 13331	Slc26a4+/+mice
+T468	Noun_Phrase 13301 13311;13327 13331	Slc26a4+/+ mice
 T469	Noun_Phrase 13301 13331	Slc26a4+/+ and Slc26a4-/- mice
 T470	Noun_Phrase 13316 13326	Slc26a4-/-
 T471	Noun_Phrase 13316 13331	Slc26a4-/- mice
@@ -548,8 +531,7 @@ T529	IDENTITY_chain 13903 13948	tight junctions with surface epithelial cells
 T530	Noun_Phrase 13924 13948	surface epithelial cells
 T531	IDENTITY_chain 13924 13948	surface epithelial cells
 T532	Noun_Phrase 13965 13972	pendrin
-T533	Noun_Phrase 13965 13986;	pendrin expression in
-14015 14031	pendrin expression instria vascularis
+T533	Noun_Phrase 13965 13986;14015 14031	pendrin expression in stria vascularis
 T534	Noun_Phrase 13987 14004	spiral prominence
 T535	Noun_Phrase 13987 14010	spiral prominence cells
 T536	Noun_Phrase 14015 14031	stria vascularis
@@ -603,8 +585,7 @@ T583	Noun_Phrase 15213 15226	embryonic day
 T584	APPOS_relation 15213 15226	embryonic day
 T585	Noun_Phrase 15228 15230	ED
 T586	Noun_Phrase 15301 15311	Slc26a4+/+
-T587	Noun_Phrase 15301 15311;	Slc26a4+/+
-15327 15331	Slc26a4+/+mice
+T587	Noun_Phrase 15301 15311;15327 15331	Slc26a4+/+ mice
 T588	Noun_Phrase 15301 15331	Slc26a4+/+ and Slc26a4-/- mice
 T589	Noun_Phrase 15316 15326	Slc26a4-/-
 T590	Noun_Phrase 15316 15331	Slc26a4-/- mice
@@ -638,8 +619,7 @@ T617	Noun_Phrase 15907 15917	Slc26a4-/-
 T618	Noun_Phrase 15933 15935	PD
 T619	Noun_Phrase 15933 15937	PD 7
 T620	Noun_Phrase 15963 15965	PD
-T621	Noun_Phrase 15963 15965;	PD
-15972 15974	PD15
+T621	Noun_Phrase 15963 15965;15972 15974	PD 15
 T622	Noun_Phrase 15963 15967	PD 7
 T623	Noun_Phrase 15992 16018	the endocochlear potential
 T624	Noun_Phrase 16058 16060	We
@@ -654,13 +634,11 @@ T632	Noun_Phrase 16301 16317	endolymphatic K+
 T633	Noun_Phrase 16364 16368	Fig.
 T634	Noun_Phrase 16364 16371	Fig. 2a
 T635	Noun_Phrase 16409 16419	Slc26a4+/+
-T636	Noun_Phrase 16409 16419;	Slc26a4+/+
-16435 16439	Slc26a4+/+mice
+T636	Noun_Phrase 16409 16419;16435 16439	Slc26a4+/+ mice
 T637	Noun_Phrase 16409 16439	Slc26a4+/+ and Slc26a4-/- mice
 T638	Noun_Phrase 16424 16434	Slc26a4-/-
 T639	Noun_Phrase 16424 16439	Slc26a4-/- mice
-T640	Noun_Phrase 16454 16467;	perilymphatic
-16488 16505	perilymphaticK+ concentrations
+T640	Noun_Phrase 16454 16467;16488 16505	perilymphatic K+ concentrations
 T641	Noun_Phrase 16469 16473	Fig.
 T642	Noun_Phrase 16469 16476	Fig. 2a
 T643	IDENTITY_chain 16469 16476	Fig. 2a
@@ -683,19 +661,14 @@ T659	Noun_Phrase 16860 16866	Figure
 T660	Noun_Phrase 16881 16883	K+
 T661	Noun_Phrase 16903 16969	pigmentation of stria vascularis in Slc26a4+/+ and Slc26a4-/- mice
 T662	IDENTITY_chain 16903 16969	pigmentation of stria vascularis in Slc26a4+/+ and Slc26a4-/- mice
-T663	Noun_Phrase 16919 16938;	stria vascularis in
-16954 16969	stria vascularis inSlc26a4-/- mice
-T664	IDENTITY_chain 16919 16938;	stria vascularis in
-16954 16969	stria vascularis inSlc26a4-/- mice
-T665	IDENTITY_chain 16919 16949;	stria vascularis in Slc26a4+/+
-16965 16969	stria vascularis in Slc26a4+/+mice
-T666	Noun_Phrase 16919 16950;	stria vascularis in Slc26a4+/+ 
-16965 16969	stria vascularis in Slc26a4+/+ mice
+T663	Noun_Phrase 16919 16938;16954 16969	stria vascularis in Slc26a4-/- mice
+T664	IDENTITY_chain 16919 16938;16954 16969	stria vascularis in Slc26a4-/- mice
+T665	IDENTITY_chain 16919 16949;16965 16969	stria vascularis in Slc26a4+/+ mice
+T666	Noun_Phrase 16919 16950;16965 16969	stria vascularis in Slc26a4+/+  mice
 T667	Noun_Phrase 16919 16969	stria vascularis in Slc26a4+/+ and Slc26a4-/- mice
 T668	IDENTITY_chain 16919 16969	stria vascularis in Slc26a4+/+ and Slc26a4-/- mice
 T669	Noun_Phrase 16939 16949	Slc26a4+/+
-T670	Noun_Phrase 16939 16949;	Slc26a4+/+
-16965 16969	Slc26a4+/+mice
+T670	Noun_Phrase 16939 16949;16965 16969	Slc26a4+/+ mice
 T671	Noun_Phrase 16939 16969	Slc26a4+/+ and Slc26a4-/- mice
 T672	Noun_Phrase 16954 16964	Slc26a4-/-
 T673	Noun_Phrase 16954 16969	Slc26a4-/- mice
@@ -711,14 +684,11 @@ T682	APPOS_relation 17066 17070	base
 T683	Noun_Phrase 17072 17073	B
 T684	Noun_Phrase 17078 17089	the cochlea
 T685	Noun_Phrase 17155 17221	Pigmentation of stria vascularis in Slc26a4+/+ and Slc26a4-/- mice
-T686	Noun_Phrase 17171 17190;	stria vascularis in
-17206 17221	stria vascularis inSlc26a4-/- mice
-T687	Noun_Phrase 17171 17201;	stria vascularis in Slc26a4+/+
-17217 17221	stria vascularis in Slc26a4+/+mice
+T686	Noun_Phrase 17171 17190;17206 17221	stria vascularis in Slc26a4-/- mice
+T687	Noun_Phrase 17171 17201;17217 17221	stria vascularis in Slc26a4+/+ mice
 T688	Noun_Phrase 17171 17221	stria vascularis in Slc26a4+/+ and Slc26a4-/- mice
 T689	Noun_Phrase 17191 17201	Slc26a4+/+
-T690	Noun_Phrase 17191 17201;	Slc26a4+/+
-17217 17221	Slc26a4+/+mice
+T690	Noun_Phrase 17191 17201;17217 17221	Slc26a4+/+ mice
 T691	Noun_Phrase 17191 17221	Slc26a4+/+ and Slc26a4-/- mice
 T692	Noun_Phrase 17206 17216	Slc26a4-/-
 T693	Noun_Phrase 17206 17221	Slc26a4-/- mice
@@ -784,8 +754,7 @@ T752	IDENTITY_chain 18456 18463	Fig. 2b
 T753	Noun_Phrase 18486 18504	intermediate cells
 T754	Noun_Phrase 18549 18565	stria vascularis
 T755	Noun_Phrase 18587 18597	Slc26a4-/-
-T756	Noun_Phrase 18587 18597;	Slc26a4-/-
-18617 18621	Slc26a4-/-mice
+T756	Noun_Phrase 18587 18597;18617 18621	Slc26a4-/- mice
 T757	Noun_Phrase 18606 18616	Slc26a4+/+
 T758	Noun_Phrase 18606 18621	Slc26a4+/+ mice
 T759	Noun_Phrase 18668 18725	the loss of the endocochlear potential in Slc26a4-/- mice
@@ -793,26 +762,17 @@ T760	Noun_Phrase 18680 18706	the endocochlear potential
 T761	Noun_Phrase 18710 18720	Slc26a4-/-
 T762	Noun_Phrase 18710 18725	Slc26a4-/- mice
 T763	Noun_Phrase 18727 18729	we
-T764	Noun_Phrase 18754 18770;	stria vascularis
-18790 18792;	stria vascularisof
-18831 18836;	stria vascularisofyoung
-18857 18872	stria vascularisofyoungSlc26a4-/- mice
-T765	Noun_Phrase 18754 18770;	stria vascularis
-18790 18872	stria vascularisof young (1–4 month) Slc26a4+/+ and both young and old (~12 month) Slc26a4-/- mice
-T766	IDENTITY_chain 18754 18770;	stria vascularis
-18790 18872	stria vascularisof young (1–4 month) Slc26a4+/+ and both young and old (~12 month) Slc26a4-/- mice
-T767	Noun_Phrase 18775 18792;	spiral ganglia of
-18826 18872	spiral ganglia ofboth young and old (~12 month) Slc26a4-/- mice
-T768	Noun_Phrase 18775 18792;	spiral ganglia of
-18831 18836;	spiral ganglia ofyoung
-18857 18872	spiral ganglia ofyoungSlc26a4-/- mice
+T764	Noun_Phrase 18754 18770;18790 18792;18831 18836;18857 18872	stria vascularis of young Slc26a4-/- mice
+T765	Noun_Phrase 18754 18770;18790 18872	stria vascularis of young (1–4 month) Slc26a4+/+ and both young and old (~12 month) Slc26a4-/- mice
+T766	IDENTITY_chain 18754 18770;18790 18872	stria vascularis of young (1–4 month) Slc26a4+/+ and both young and old (~12 month) Slc26a4-/- mice
+T767	Noun_Phrase 18775 18792;18826 18872	spiral ganglia of both young and old (~12 month) Slc26a4-/- mice
+T768	Noun_Phrase 18775 18792;18831 18836;18857 18872	spiral ganglia of young Slc26a4-/- mice
 T769	Noun_Phrase 18793 18821	young (1–4 month) Slc26a4+/+
 T770	IDENTITY_chain 18793 18821	young (1–4 month) Slc26a4+/+
 T771	Noun_Phrase 18793 18872	young (1–4 month) Slc26a4+/+ and both young and old (~12 month) Slc26a4-/- mice
 T772	IDENTITY_chain 18793 18872	young (1–4 month) Slc26a4+/+ and both young and old (~12 month) Slc26a4-/- mice
 T773	Noun_Phrase 18826 18872	both young and old (~12 month) Slc26a4-/- mice
-T774	Noun_Phrase 18831 18836;	young
-18857 18872	youngSlc26a4-/- mice
+T774	Noun_Phrase 18831 18836;18857 18872	young Slc26a4-/- mice
 T775	Noun_Phrase 18841 18872	old (~12 month) Slc26a4-/- mice
 T776	Noun_Phrase 18857 18867	Slc26a4-/-
 T777	Noun_Phrase 18932 18940	18S rRNA
@@ -824,10 +784,8 @@ T782	Noun_Phrase 19033 19053	these different mice
 T783	Noun_Phrase 19130 19138	18S rRNA
 T784	Noun_Phrase 19154 19158	rRNA
 T785	IDENTITY_chain 19154 19158	rRNA
-T786	Noun_Phrase 19224 19258;	spiral ganglia isolated from young
-19267 19282	spiral ganglia isolated from youngSlc26a4-/- mice
-T787	IDENTITY_chain 19224 19258;	spiral ganglia isolated from young
-19267 19282	spiral ganglia isolated from youngSlc26a4-/- mice
+T786	Noun_Phrase 19224 19258;19267 19282	spiral ganglia isolated from young Slc26a4-/- mice
+T787	IDENTITY_chain 19224 19258;19267 19282	spiral ganglia isolated from young Slc26a4-/- mice
 T788	Noun_Phrase 19224 19282	spiral ganglia isolated from young and old Slc26a4-/- mice
 T789	Noun_Phrase 19253 19282	young and old Slc26a4-/- mice
 T790	Noun_Phrase 19263 19282	old Slc26a4-/- mice
@@ -840,10 +798,8 @@ T796	Noun_Phrase 19471 19496	Expression of KCNJ10 mRNA
 T797	IDENTITY_chain 19471 19496	Expression of KCNJ10 mRNA
 T798	Noun_Phrase 19485 19491	KCNJ10
 T799	Noun_Phrase 19485 19496	KCNJ10 mRNA
-T800	Noun_Phrase 19511 19527;	stria vascularis
-19547 19571	stria vascularisof young Slc26a4-/- mice
-T801	IDENTITY_chain 19511 19527;	stria vascularis
-19547 19571	stria vascularisof young Slc26a4-/- mice
+T800	Noun_Phrase 19511 19527;19547 19571	stria vascularis of young Slc26a4-/- mice
+T801	IDENTITY_chain 19511 19527;19547 19571	stria vascularis of young Slc26a4-/- mice
 T802	Noun_Phrase 19532 19571	spiral ganglia of young Slc26a4-/- mice
 T803	Noun_Phrase 19550 19571	young Slc26a4-/- mice
 T804	IDENTITY_chain 19550 19571	young Slc26a4-/- mice
@@ -852,40 +808,31 @@ T806	IDENTITY_chain 19601 19620	old Slc26a4-/- mice
 T807	Noun_Phrase 19622 19626	Fig.
 T808	Noun_Phrase 19622 19628	Fig. 3
 T809	Noun_Phrase 19650 19655	KCNQ1
-T810	Noun_Phrase 19650 19655;	KCNQ1
-19666 19670	KCNQ1mRNA
+T810	Noun_Phrase 19650 19655;19666 19670	KCNQ1 mRNA
 T811	Noun_Phrase 19660 19665	KCNQ4
 T812	Noun_Phrase 19660 19670	KCNQ4 mRNA
 T813	IDENTITY_chain 19660 19670	KCNQ4 mRNA
 T814	IDENTITY_chain 19666 19670	mRNA
-T815	Noun_Phrase 19728 19748;	the stria vascularis
-19768 19780	the stria vascularispreparations
-T816	IDENTITY_chain 19728 19748;	the stria vascularis
-19768 19780	the stria vascularispreparations
+T815	Noun_Phrase 19728 19748;19768 19780	the stria vascularis preparations
+T816	IDENTITY_chain 19728 19748;19768 19780	the stria vascularis preparations
 T817	Noun_Phrase 19732 19748	stria vascularis
 T818	Noun_Phrase 19753 19767	spiral ganglia
 T819	Noun_Phrase 19753 19780	spiral ganglia preparations
 T820	IDENTITY_chain 19753 19780	spiral ganglia preparations
 T821	Noun_Phrase 19815 19820	KCNQ1
-T822	Noun_Phrase 19837 19845;	cells of
-19875 19905	cells ofthe spiral ganglia preparation
-T823	Noun_Phrase 19837 19866;	cells of the stria vascularis
-19894 19905	cells of the stria vascularispreparation
+T822	Noun_Phrase 19837 19845;19875 19905	cells of the spiral ganglia preparation
+T823	Noun_Phrase 19837 19866;19894 19905	cells of the stria vascularis preparation
 T824	IDENTITY_chain 19837 19866	cells of the stria vascularis
-T825	Noun_Phrase 19846 19866;	the stria vascularis
-19894 19905	the stria vascularispreparation
+T825	Noun_Phrase 19846 19866;19894 19905	the stria vascularis preparation
 T826	Noun_Phrase 19850 19866	stria vascularis
 T827	Noun_Phrase 19875 19905	the spiral ganglia preparation
 T828	Noun_Phrase 19879 19893	spiral ganglia
 T829	Noun_Phrase 19914 19919	KCNQ4
 T830	IDENTITY_chain 19914 19919	KCNQ4
-T831	Noun_Phrase 19936 19944;	cells of
-19972 20004	cells ofthe stria vascularis preparation
-T832	Noun_Phrase 19936 19963;	cells of the spiral ganglia
-19993 20004	cells of the spiral gangliapreparation
+T831	Noun_Phrase 19936 19944;19972 20004	cells of the stria vascularis preparation
+T832	Noun_Phrase 19936 19963;19993 20004	cells of the spiral ganglia preparation
 T833	IDENTITY_chain 19936 19963	cells of the spiral ganglia
-T834	Noun_Phrase 19945 19963;	the spiral ganglia
-19993 20004	the spiral gangliapreparation
+T834	Noun_Phrase 19945 19963;19993 20004	the spiral ganglia preparation
 T835	Noun_Phrase 19949 19963	spiral ganglia
 T836	Noun_Phrase 19972 20004	the stria vascularis preparation
 T837	Noun_Phrase 19976 19992	stria vascularis
@@ -906,16 +853,11 @@ T851	Noun_Phrase 20403 20411	Figure 3
 T852	IDENTITY_chain 20403 20411	Figure 3
 T853	Noun_Phrase 20431 20437	KCNJ10
 T854	Noun_Phrase 20442 20452	KCNQ1 mRNA
-T855	Noun_Phrase 20442 20483;	KCNQ1 mRNA expression in stria vascularis
-20503 20505;	KCNQ1 mRNA expression in stria vascularisof
-20521 20536	KCNQ1 mRNA expression in stria vascularisofSlc26a4-/- mice
-T856	Noun_Phrase 20488 20505;	spiral ganglia of
-20521 20536	spiral ganglia ofSlc26a4-/- mice
-T857	IDENTITY_chain 20488 20505;	spiral ganglia of
-20521 20536	spiral ganglia ofSlc26a4-/- mice
+T855	Noun_Phrase 20442 20483;20503 20505;20521 20536	KCNQ1 mRNA expression in stria vascularis of Slc26a4-/- mice
+T856	Noun_Phrase 20488 20505;20521 20536	spiral ganglia of Slc26a4-/- mice
+T857	IDENTITY_chain 20488 20505;20521 20536	spiral ganglia of Slc26a4-/- mice
 T858	Noun_Phrase 20506 20516	Slc26a4+/+
-T859	Noun_Phrase 20506 20516;	Slc26a4+/+
-20532 20536	Slc26a4+/+mice
+T859	Noun_Phrase 20506 20516;20532 20536	Slc26a4+/+ mice
 T860	Noun_Phrase 20506 20536	Slc26a4+/+ and Slc26a4-/- mice
 T861	Noun_Phrase 20521 20531	Slc26a4-/-
 T862	Noun_Phrase 20521 20536	Slc26a4-/- mice
@@ -925,8 +867,7 @@ T865	Noun_Phrase 20647 20656	total RNA
 T866	Noun_Phrase 20721 20729	18S rRNA
 T867	Noun_Phrase 20764 20776	the 18S peak
 T868	IDENTITY_chain 20764 20776	the 18S peak
-T869	Noun_Phrase 20778 20806;	Sharp peaks representing 18S
-20815 20819	Sharp peaks representing 18SrRNA
+T869	Noun_Phrase 20778 20806;20815 20819	Sharp peaks representing 18S rRNA
 T870	Noun_Phrase 20852 20855	RNA
 T871	Noun_Phrase 20865 20892	Genotype of Slc26a4-/- mice
 T872	Noun_Phrase 20877 20887	Slc26a4-/-
@@ -952,14 +893,11 @@ T891	Noun_Phrase 21248 21250	SG
 T892	Noun_Phrase 21252 21266	spiral ganglia
 T893	APPOS_relation 21252 21266	spiral ganglia
 T894	Noun_Phrase 21289 21295	KCNJ10
-T895	Noun_Phrase 21289 21295;	KCNJ10
-21306 21313;	KCNJ10mRNA in
-21335 21364	KCNJ10mRNA inyoung and old Slc26a4-/- mice
+T895	Noun_Phrase 21289 21295;21306 21313;21335 21364	KCNJ10 mRNA in young and old Slc26a4-/- mice
 T896	Noun_Phrase 21300 21305	KCNQ1
 T897	Noun_Phrase 21314 21330	young Slc26a4+/+
 T898	Noun_Phrase 21314 21364	young Slc26a4+/+ and young and old Slc26a4-/- mice
-T899	Noun_Phrase 21335 21340;	young
-21349 21364	youngSlc26a4-/- mice
+T899	Noun_Phrase 21335 21340;21349 21364	young Slc26a4-/- mice
 T900	Noun_Phrase 21335 21364	young and old Slc26a4-/- mice
 T901	Noun_Phrase 21383 21389	KCNJ10
 T902	Noun_Phrase 21383 21433	KCNJ10 mRNA in stria vascularis of Slc26a4-/- mice
@@ -987,17 +925,12 @@ T923	Noun_Phrase 21842 21848	Figure
 T924	Noun_Phrase 21842 21850	Figure 4
 T925	IDENTITY_chain 21842 21850	Figure 4
 T926	Noun_Phrase 21876 21882	KCNJ10
-T927	Noun_Phrase 21886 21900;	the cochlea of
-21916 21931	the cochlea ofSlc26a4-/- mice
-T928	IDENTITY_chain 21886 21900;	the cochlea of
-21916 21931	the cochlea ofSlc26a4-/- mice
-T929	Noun_Phrase 21886 21911;	the cochlea of Slc26a4+/+
-21927 21931	the cochlea of Slc26a4+/+mice
-T930	IDENTITY_chain 21886 21911;	the cochlea of Slc26a4+/+
-21927 21931	the cochlea of Slc26a4+/+mice
+T927	Noun_Phrase 21886 21900;21916 21931	the cochlea of Slc26a4-/- mice
+T928	IDENTITY_chain 21886 21900;21916 21931	the cochlea of Slc26a4-/- mice
+T929	Noun_Phrase 21886 21911;21927 21931	the cochlea of Slc26a4+/+ mice
+T930	IDENTITY_chain 21886 21911;21927 21931	the cochlea of Slc26a4+/+ mice
 T931	Noun_Phrase 21901 21911	Slc26a4+/+
-T932	Noun_Phrase 21901 21911;	Slc26a4+/+
-21927 21931	Slc26a4+/+mice
+T932	Noun_Phrase 21901 21911;21927 21931	Slc26a4+/+ mice
 T933	Noun_Phrase 21901 21931	Slc26a4+/+ and Slc26a4-/- mice
 T934	Noun_Phrase 21916 21926	Slc26a4-/-
 T935	Noun_Phrase 21916 21931	Slc26a4-/- mice
@@ -1047,10 +980,8 @@ T978	Noun_Phrase 22823 22841	intermediate cells
 T979	Noun_Phrase 22857 22859	we
 T980	Noun_Phrase 22889 22895	tissue
 T981	Noun_Phrase 22889 22976	tissue masses in areas that are normally occupied primarily by type I and II fibrocytes
-T982	Noun_Phrase 22952 22956;	type
-22963 22976	typeII fibrocytes
-T983	Noun_Phrase 22952 22958;	type I
-22966 22976	type Ifibrocytes
+T982	Noun_Phrase 22952 22956;22963 22976	type II fibrocytes
+T983	Noun_Phrase 22952 22958;22966 22976	type I fibrocytes
 T984	Noun_Phrase 22952 22976	type I and II fibrocytes
 T985	Noun_Phrase 22999 23009	Slc26a4-/-
 T986	Noun_Phrase 22999 23014	Slc26a4-/- mice
@@ -1071,10 +1002,8 @@ T1000	Noun_Phrase 23425 23462	the tight junctions of marginal cells
 T1001	IDENTITY_chain 23425 23462	the tight junctions of marginal cells
 T1002	Noun_Phrase 23448 23462	marginal cells
 T1003	Noun_Phrase 23464 23468	Fig.
-T1004	Noun_Phrase 23464 23468;	Fig.
-23473 23474	Fig.6
-T1005	Noun_Phrase 23464 23468;	Fig.
-23475 23476	Fig.7
+T1004	Noun_Phrase 23464 23468;23473 23474	Fig. 6
+T1005	Noun_Phrase 23464 23468;23475 23476	Fig. 7
 T1006	Noun_Phrase 23464 23471	Fig. 2c
 T1007	IDENTITY_chain 23464 23471	Fig. 2c
 T1008	Noun_Phrase 23479 23494	Tight junctions
@@ -1084,8 +1013,7 @@ T1011	Noun_Phrase 23587 23593	Figure
 T1012	Noun_Phrase 23587 23595	Figure 5
 T1013	IDENTITY_chain 23587 23595	Figure 5
 T1014	Noun_Phrase 23648 23658	Slc26a4+/+
-T1015	Noun_Phrase 23648 23658;	Slc26a4+/+
-23674 23678	Slc26a4+/+mice
+T1015	Noun_Phrase 23648 23658;23674 23678	Slc26a4+/+ mice
 T1016	Noun_Phrase 23648 23678	Slc26a4+/+ and Slc26a4-/- mice
 T1017	Noun_Phrase 23663 23673	Slc26a4-/-
 T1018	Noun_Phrase 23663 23678	Slc26a4-/- mice
@@ -1120,21 +1048,13 @@ T1046	Noun_Phrase 24481 24485	bone
 T1047	Noun_Phrase 24550 24556	Figure
 T1048	Noun_Phrase 24550 24558	Figure 6
 T1049	IDENTITY_chain 24550 24558	Figure 6
-T1050	Noun_Phrase 24572 24580;	marginal
-24591 24595	marginalcell
-T1051	Noun_Phrase 24572 24580;	marginal
-24591 24604;	marginalcell barriers
-24608 24626	marginalcell barriersin Slc26a4-/- mice
-T1052	IDENTITY_chain 24572 24580;	marginal
-24591 24604;	marginalcell barriers
-24608 24626	marginalcell barriersin Slc26a4-/- mice
-T1053	Noun_Phrase 24572 24604;	marginal and basal cell barriers
-24608 24626	marginal and basal cell barriersin Slc26a4-/- mice
+T1050	Noun_Phrase 24572 24580;24591 24595	marginal cell
+T1051	Noun_Phrase 24572 24580;24591 24604;24608 24626	marginal cell barriers in Slc26a4-/- mice
+T1052	IDENTITY_chain 24572 24580;24591 24604;24608 24626	marginal cell barriers in Slc26a4-/- mice
+T1053	Noun_Phrase 24572 24604;24608 24626	marginal and basal cell barriers in Slc26a4-/- mice
 T1054	Noun_Phrase 24585 24595	basal cell
-T1055	Noun_Phrase 24585 24604;	basal cell barriers
-24608 24626	basal cell barriersin Slc26a4-/- mice
-T1056	IDENTITY_chain 24585 24604;	basal cell barriers
-24608 24626	basal cell barriersin Slc26a4-/- mice
+T1055	Noun_Phrase 24585 24604;24608 24626	basal cell barriers in Slc26a4-/- mice
+T1056	IDENTITY_chain 24585 24604;24608 24626	basal cell barriers in Slc26a4-/- mice
 T1057	Noun_Phrase 24611 24621	Slc26a4-/-
 T1058	Noun_Phrase 24611 24626	Slc26a4-/- mice
 T1059	Noun_Phrase 24628 24643	Tight junctions
@@ -1165,8 +1085,7 @@ T1083	Noun_Phrase 25100 25110	basal cell
 T1084	Noun_Phrase 25120 25122	BC
 T1085	Noun_Phrase 25138 25193	Both the marginal cell (e-f) and the basal cell barrier
 T1086	IDENTITY_chain 25138 25193	Both the marginal cell (e-f) and the basal cell barrier
-T1087	Noun_Phrase 25143 25160;	the marginal cell
-25186 25193	the marginal cellbarrier
+T1087	Noun_Phrase 25143 25160;25186 25193	the marginal cell barrier
 T1088	Noun_Phrase 25147 25160	marginal cell
 T1089	Noun_Phrase 25171 25193	the basal cell barrier
 T1090	Noun_Phrase 25175 25185	basal cell
@@ -1183,25 +1102,17 @@ T1100	Noun_Phrase 25470 25476	images
 T1101	Noun_Phrase 25544 25550	Figure
 T1102	Noun_Phrase 25544 25552	Figure 7
 T1103	IDENTITY_chain 25544 25552	Figure 7
-T1104	Noun_Phrase 25566 25574;	marginal
-25585 25589	marginalcell
-T1105	Noun_Phrase 25566 25574;	marginal
-25585 25601;	marginalcell barriers in
-25617 25632	marginalcell barriers inSlc26a4-/- mice
-T1106	Noun_Phrase 25566 25574;	marginal
-25585 25632	marginalcell barriers in Slc26a4+/+ and Slc26a4-/- mice
+T1104	Noun_Phrase 25566 25574;25585 25589	marginal cell
+T1105	Noun_Phrase 25566 25574;25585 25601;25617 25632	marginal cell barriers in Slc26a4-/- mice
+T1106	Noun_Phrase 25566 25574;25585 25632	marginal cell barriers in Slc26a4+/+ and Slc26a4-/- mice
 T1107	Noun_Phrase 25566 25632	marginal and basal cell barriers in Slc26a4+/+ and Slc26a4-/- mice
 T1108	Noun_Phrase 25579 25589	basal cell
-T1109	Noun_Phrase 25579 25601;	basal cell barriers in
-25617 25632	basal cell barriers inSlc26a4-/- mice
-T1110	Noun_Phrase 25579 25612;	basal cell barriers in Slc26a4+/+
-25628 25632	basal cell barriers in Slc26a4+/+mice
-T1111	IDENTITY_chain 25579 25612;	basal cell barriers in Slc26a4+/+
-25628 25632	basal cell barriers in Slc26a4+/+mice
+T1109	Noun_Phrase 25579 25601;25617 25632	basal cell barriers in Slc26a4-/- mice
+T1110	Noun_Phrase 25579 25612;25628 25632	basal cell barriers in Slc26a4+/+ mice
+T1111	IDENTITY_chain 25579 25612;25628 25632	basal cell barriers in Slc26a4+/+ mice
 T1112	Noun_Phrase 25579 25632	basal cell barriers in Slc26a4+/+ and Slc26a4-/- mice
 T1113	Noun_Phrase 25602 25612	Slc26a4+/+
-T1114	Noun_Phrase 25602 25612;	Slc26a4+/+
-25628 25632	Slc26a4+/+mice
+T1114	Noun_Phrase 25602 25612;25628 25632	Slc26a4+/+ mice
 T1115	Noun_Phrase 25602 25632	Slc26a4+/+ and Slc26a4-/- mice
 T1116	Noun_Phrase 25617 25627	Slc26a4-/-
 T1117	Noun_Phrase 25617 25632	Slc26a4-/- mice
@@ -1237,8 +1148,7 @@ T1146	Noun_Phrase 26261 26271	basal cell
 T1147	Noun_Phrase 26281 26283	BC
 T1148	Noun_Phrase 26297 26355	Both the basal cell (f) and the marginal cell (h) barriers
 T1149	IDENTITY_chain 26297 26355	Both the basal cell (f) and the marginal cell (h) barriers
-T1150	Noun_Phrase 26302 26316;	the basal cell
-26347 26355	the basal cellbarriers
+T1150	Noun_Phrase 26302 26316;26347 26355	the basal cell barriers
 T1151	Noun_Phrase 26306 26316	basal cell
 T1152	Noun_Phrase 26325 26355	the marginal cell (h) barriers
 T1153	Noun_Phrase 26329 26342	marginal cell
@@ -1262,8 +1172,7 @@ T1170	Noun_Phrase 26939 26965	the endocochlear potential
 T1171	Noun_Phrase 26995 27010	this connection
 T1172	Noun_Phrase 27012 27014	we
 T1173	Noun_Phrase 27029 27057	confocal immunocytochemistry
-T1174	Noun_Phrase 27058 27075;	the expression of
-27088 27095	the expression ofF-actin
+T1174	Noun_Phrase 27058 27075;27088 27095	the expression of F-actin
 T1175	Noun_Phrase 27058 27080	the expression of ZO-1
 T1176	IDENTITY_chain 27058 27080	the expression of ZO-1
 T1177	Noun_Phrase 27058 27095	the expression of ZO-1 and of F-actin
@@ -1271,8 +1180,7 @@ T1178	Noun_Phrase 27076 27080	ZO-1
 T1179	Noun_Phrase 27088 27095	F-actin
 T1180	Noun_Phrase 27118 27132	tight junction
 T1181	Noun_Phrase 27144 27148	ZO-1
-T1182	Noun_Phrase 27144 27148;	ZO-1
-27161 27171	ZO-1expression
+T1182	Noun_Phrase 27144 27148;27161 27171	ZO-1 expression
 T1183	Noun_Phrase 27144 27171	ZO-1 and F-actin expression
 T1184	IDENTITY_chain 27144 27171	ZO-1 and F-actin expression
 T1185	Noun_Phrase 27153 27160	F-actin
@@ -1283,20 +1191,16 @@ T1189	Noun_Phrase 27240 27251	basal cells
 T1190	Noun_Phrase 27285 27295	Slc26a4-/-
 T1191	Noun_Phrase 27285 27300	Slc26a4-/- mice
 T1192	Noun_Phrase 27330 27334	Fig.
-T1193	Noun_Phrase 27330 27334;	Fig.
-27347 27348	Fig.6
-T1194	Noun_Phrase 27330 27334;	Fig.
-27349 27350	Fig.7
+T1193	Noun_Phrase 27330 27334;27347 27348	Fig. 6
+T1194	Noun_Phrase 27330 27334;27349 27350	Fig. 7
 T1195	Noun_Phrase 27330 27337	Fig. 1c
 T1196	Nonreferential_pronoun 27377 27379	it
 T1197	Noun_Phrase 27415 27453	the loss of the endocochlear potential
 T1198	Noun_Phrase 27427 27453	the endocochlear potential
 T1199	Noun_Phrase 27473 27495	the basal cell barrier
 T1200	Noun_Phrase 27477 27487	basal cell
-T1201	Noun_Phrase 27519 27532;	endolymphatic
-27551 27553	endolymphaticK+
-T1202	Noun_Phrase 27519 27532;	endolymphatic
-27551 27568	endolymphaticK+ concentrations
+T1201	Noun_Phrase 27519 27532;27551 27553	endolymphatic K+
+T1202	Noun_Phrase 27519 27532;27551 27568	endolymphatic K+ concentrations
 T1203	Noun_Phrase 27537 27568	perilymphatic K+ concentrations
 T1204	Noun_Phrase 27584 27594	Slc26a4-/-
 T1205	Noun_Phrase 27584 27599	Slc26a4-/- mice
@@ -1319,10 +1223,8 @@ T1221	Noun_Phrase 28104 28120	stria vascularis
 T1222	Noun_Phrase 28128 28172	the apical membrane of strial marginal cells
 T1223	IDENTITY_chain 28128 28172	the apical membrane of strial marginal cells
 T1224	Noun_Phrase 28151 28172	strial marginal cells
-T1225	Noun_Phrase 28206 28218;	the proteins
-28226 28231	the proteinsKCNE1
-T1226	Noun_Phrase 28206 28218;	the proteins
-28236 28243	the proteinsSLC12A2
+T1225	Noun_Phrase 28206 28218;28226 28231	the proteins KCNE1
+T1226	Noun_Phrase 28206 28218;28236 28243	the proteins SLC12A2
 T1227	Noun_Phrase 28206 28224	the proteins KCNQ1
 T1228	Noun_Phrase 28269 28271	K+
 T1229	Noun_Phrase 28269 28281	K+ secretion
@@ -1338,8 +1240,7 @@ T1238	Noun_Phrase 28499 28528	Bumetanide-sensitive currents
 T1239	IDENTITY_chain 28499 28528	Bumetanide-sensitive currents
 T1240	Noun_Phrase 28543 28578	both Slc26a4+/+ and Slc26a4-/- mice
 T1241	Noun_Phrase 28548 28558	Slc26a4+/+
-T1242	Noun_Phrase 28548 28558;	Slc26a4+/+
-28574 28578	Slc26a4+/+mice
+T1242	Noun_Phrase 28548 28558;28574 28578	Slc26a4+/+ mice
 T1243	Noun_Phrase 28563 28573	Slc26a4-/-
 T1244	Noun_Phrase 28563 28578	Slc26a4-/- mice
 T1245	Noun_Phrase 28605 28616	the current
@@ -1359,15 +1260,13 @@ T1258	Noun_Phrase 28923 28944	strial marginal cells
 T1259	Noun_Phrase 28959 28975	stria vascularis
 T1260	Noun_Phrase 28981 29010	the gap junction protein GJB2
 T1261	Noun_Phrase 29043 29053	Slc26a4+/+
-T1262	Noun_Phrase 29043 29053;	Slc26a4+/+
-29069 29073	Slc26a4+/+mice
+T1262	Noun_Phrase 29043 29053;29069 29073	Slc26a4+/+ mice
 T1263	Noun_Phrase 29043 29073	Slc26a4+/+ and Slc26a4-/- mice
 T1264	Noun_Phrase 29058 29068	Slc26a4-/-
 T1265	Noun_Phrase 29058 29073	Slc26a4-/- mice
 T1266	Noun_Phrase 29075 29079	Fig.
 T1267	Noun_Phrase 29075 29081	Fig. 8
-T1268	Noun_Phrase 29103 29108;	KCNQ1
-29119 29127	KCNQ1proteins
+T1268	Noun_Phrase 29103 29108;29119 29127	KCNQ1 proteins
 T1269	Noun_Phrase 29103 29127	KCNQ1 and KCNE1 proteins
 T1270	Noun_Phrase 29113 29127	KCNE1 proteins
 T1271	Noun_Phrase 29149 29170	vestibular dark cells
@@ -1396,8 +1295,7 @@ T1293	Noun_Phrase 29568 29573	KCNE1
 T1294	Noun_Phrase 29575 29582	SLC12A2
 T1295	Noun_Phrase 29587 29591	GJB2
 T1296	Noun_Phrase 29624 29634	Slc26a4+/+
-T1297	Noun_Phrase 29624 29634;	Slc26a4+/+
-29650 29654	Slc26a4+/+mice
+T1297	Noun_Phrase 29624 29634;29650 29654	Slc26a4+/+ mice
 T1298	Noun_Phrase 29624 29654	Slc26a4+/+ and Slc26a4-/- mice
 T1299	Noun_Phrase 29639 29649	Slc26a4-/-
 T1300	Noun_Phrase 29639 29654	Slc26a4-/- mice

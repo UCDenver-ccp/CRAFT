@@ -1,7 +1,6 @@
 T0	GO_UBERON_EXT_innervation_entity_or_process 87 98	innervation
 T1	GO_0006915 238 247	apoptosis
-T2	GO_0048468 274 288;	development of
-294 299	development ofcells
+T2	GO_0048468 274 288;294 299	development of cells
 T3	GO_0010467 334 344	expression
 T4	GO_EXT_detection_or_sensing_of_stimulus 356 363	sensory
 T5	GO_0009790 380 401	embryonic development
@@ -26,11 +25,8 @@ T23	GO_0010467 2120 2127	express
 T24	GO_0006915 2274 2283	apoptosis
 T25	GO_0007567 2449 2454	natal
 T26	GO_UBERON_EXT_innervation_entity_or_process 2789 2800	innervation
-T27	GO_0048468 2837 2848;	development
-2877 2879;	developmentof
-2885 2890	developmentofcells
-T28	GO_0030154 2861 2879;	differentiation of
-2885 2890	differentiation ofcells
+T27	GO_0048468 2837 2848;2877 2879;2885 2890	development of cells
+T28	GO_0030154 2861 2879;2885 2890	differentiation of cells
 T29	GO_0010467 2949 2959	expression
 T30	GO_EXT_detection_or_sensing_of_stimulus 2986 2993	sensory
 T31	GO_0009790 3010 3031	embryonic development
@@ -41,8 +37,7 @@ T35	GO_0007567 3484 3489	birth
 T36	GO_EXT_detection_or_sensing_of_stimulus 3579 3586	sensory
 T37	GO_0010467 3636 3646	expression
 T38	GO_EXT_negative_regulation 3659 3672	downregulated
-T39	GO_0030154 3742 3760;	differentiation of
-3772 3777	differentiation ofcells
+T39	GO_0030154 3742 3760;3772 3777	differentiation of cells
 T40	GO_EXT_negative_regulation 3864 3877	downregulated
 T41	GO_0007567 3885 3890	natal
 T42	GO_UBERON_EXT_innervation_entity_or_process 3991 4002	innervation
@@ -57,8 +52,7 @@ T50	GO_UBERON_EXT_innervation_entity_or_process 5008 5019	innervation
 T51	GO_0007567 5093 5098	birth
 T52	GO_UBERON_EXT_innervation_entity_or_process 5161 5172	innervation
 T53	GO_UBERON_EXT_innervation_entity_or_process 5219 5230	innervation
-T54	GO_EXT_neurotrophin_biosynthesis_or_production 5573 5586;	production of
-5593 5606	production ofneurotrophins
+T54	GO_EXT_neurotrophin_biosynthesis_or_production 5573 5586;5593 5606	production of neurotrophins
 T55	GO_0007567 5698 5703	birth
 T56	GO_EXT_detection_or_sensing_of_stimulus 6057 6064	sensory
 T57	GO_EXT_detection_or_sensing_of_stimulus 6133 6140	sensory
@@ -90,12 +84,10 @@ T82	GO_EXT_cell_communication_or_signaling_or_signal_transduction 12040 12053	co
 T83	GO_UBERON_EXT_innervation_entity_or_process 12250 12261	innervation
 T84	GO_EXT_detection_or_sensing_of_stimulus 12968 12975	sensory
 T85	GO_EXT_detection_or_sensing_of_stimulus 13088 13095	sensory
-T86	GO_0048468 13393 13405;	formation of
-13413 13418	formation ofcells
+T86	GO_0048468 13393 13405;13413 13418	formation of cells
 T87	GO_PATO_RO_EXT_developmental_differentiation_process_or_quality 13422 13436	differentiated
 T88	GO_0030154 13816 13843	cytological differentiation
-T89	GO_0030154 14408 14426;	differentiation of
-14432 14437	differentiation ofcells
+T89	GO_0030154 14408 14426;14432 14437	differentiation of cells
 T90	GO_0060384 14448 14459	innervating
 T91	GO_0030154 14849 14877	cyotological differentiation
 T92	GO_EXT_detection_or_sensing_of_stimulus 15032 15039	sensory
@@ -161,8 +153,7 @@ T151	GO_EXT_detection_or_sensing_of_stimulus 25179 25186	sensory
 T152	GO_0010467 25305 25315	expression
 T153	GO_EXT_detection_or_sensing_of_stimulus 25425 25432	sensory
 T154	GO_UBERON_EXT_innervation_entity_or_process 25507 25518	innervation
-T155	GO_0030154 25642 25660;	differentiation of
-25666 25671	differentiation ofcells
+T155	GO_0030154 25642 25660;25666 25671	differentiation of cells
 T156	GO_0010467 25714 25724	expression
 T157	GO_UBERON_EXT_innervation_entity_or_process 25844 25855	innervation
 T158	GO_0007567 25888 25893	birth
@@ -179,8 +170,7 @@ T168	GO_EXT_detection_or_sensing_of_stimulus 26766 26773	sensory
 T169	GO_PATO_RO_EXT_developmental_differentiation_process_or_quality 26798 26812	differentiated
 T170	GO_0010467 26932 26942	expression
 T171	GO_0007567 26972 26977	birth
-T172	GO_0048468 27248 27260;	formation of
-27273 27278	formation ofcells
+T172	GO_0048468 27248 27260;27273 27278	formation of cells
 T173	GO_EXT_biological_release 27349 27357	released
 T174	GO_PATO_RO_EXT_developmental_differentiation_process_or_quality 27361 27375	differentiated
 T175	GO_0010467 27441 27451	expression
@@ -197,15 +187,12 @@ T185	GO_PATO_RO_EXT_developmental_differentiation_process_or_quality 28707 28721
 T186	GO_0016265 28794 28798	died
 T187	GO_0007567 28806 28811	birth
 T188	GO_EXT_biological_growth_entity_or_process 28832 28838	growth
-T189	GO_0030154 29115 29133;	differentiation of
-29141 29146	differentiation ofcells
-T190	GO_0048468 29281 29293;	formation of
-29305 29310	formation ofcells
+T189	GO_0030154 29115 29133;29141 29146	differentiation of cells
+T190	GO_0048468 29281 29293;29305 29310	formation of cells
 T191	GO_0010467 29348 29358	expression
 T192	GO_0065007 29422 29431	regulated
 T193	GO_0007219 29439 29462	Notch signaling pathway
-T194	GO_0030154 29587 29605;	differentiation of
-29617 29622	differentiation ofcells
+T194	GO_0030154 29587 29605;29617 29622	differentiation of cells
 T195	GO_0010467 29683 29693	expression
 T196	GO_EXT_neuron_development_or_generation 30139 30151	neurotrophic
 T197	GO_0007605 30677 30684	hearing
@@ -225,8 +212,7 @@ T210	GO_UBERON_EXT_innervation_entity_or_process 33029 33040	innervation
 T211	GO_EXT_detection_or_sensing_of_stimulus 33085 33092	sensory
 T212	GO_0038179 33136 33158	neurotrophin signaling
 T213	GO_0010467 33280 33290	expression
-T214	GO_0030154 33482 33500;	differentiation of
-33506 33511	differentiation ofcells
+T214	GO_0030154 33482 33500;33506 33511	differentiation of cells
 T215	GO_0007567 33555 33559	born
 T216	GO_EXT_breeding 33760 33768	Breeding
 T217	GO_EXT_breeding 33801 33805	bred

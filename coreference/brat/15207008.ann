@@ -34,8 +34,7 @@ T32	IDENTITY_chain 791 802	coiled coil
 T33	Noun_Phrase 848 864	the rabbit TACC4
 T34	IDENTITY_chain 848 864	the rabbit TACC4
 T35	Noun_Phrase 852 858	rabbit
-T36	Noun_Phrase 886 891;	human
-903 908	humanRHAMM
+T36	Noun_Phrase 886 891;903 908	human RHAMM
 T37	Noun_Phrase 886 897	human TACC3
 T38	IDENTITY_chain 886 897	human TACC3
 T39	Noun_Phrase 933 944	coiled coil
@@ -61,10 +60,8 @@ T58	Noun_Phrase 1448 1455	protein
 T59	IDENTITY_chain 1448 1455	protein
 T60	Noun_Phrase 1448 1467	protein translation
 T61	IDENTITY_chain 1448 1467	protein translation
-T62	Noun_Phrase 1469 1472;	RNA
-1488 1501	RNAtranscription
-T63	IDENTITY_chain 1469 1472;	RNA
-1488 1501	RNAtranscription
+T62	Noun_Phrase 1469 1472;1488 1501	RNA transcription
+T63	IDENTITY_chain 1469 1472;1488 1501	RNA transcription
 T64	Noun_Phrase 1469 1472	RNA
 T65	IDENTITY_chain 1469 1472	RNA
 T66	Noun_Phrase 1469 1483	RNA processing
@@ -145,10 +142,8 @@ T140	Noun_Phrase 3552 3563	protostomes
 T141	IDENTITY_chain 3564 3585	Caenorhabitis elegans
 T142	Noun_Phrase 3591 3614	Drosophila melanogaster
 T143	IDENTITY_chain 3591 3614	Drosophila melanogaster
-T144	Noun_Phrase 3650 3663;	the ancestral
-3673 3683	the ancestralTACC genes
-T145	IDENTITY_chain 3650 3663;	the ancestral
-3673 3683	the ancestralTACC genes
+T144	Noun_Phrase 3650 3663;3673 3683	the ancestral TACC genes
+T145	IDENTITY_chain 3650 3663;3673 3683	the ancestral TACC genes
 T146	Noun_Phrase 3673 3677	TACC
 T147	Noun_Phrase 3742 3770	the evolution of vertebrates
 T148	IDENTITY_chain 3742 3770	the evolution of vertebrates
@@ -180,8 +175,7 @@ T173	Noun_Phrase 4251 4256	mouse
 T174	Noun_Phrase 4262 4276	Xenopus laevis
 T175	IDENTITY_chain 4262 4276	Xenopus laevis
 T176	Noun_Phrase 4282 4297	D. melanogaster
-T177	Noun_Phrase 4282 4297;	D. melanogaster
-4303 4317	D. melanogasterand C. elegans
+T177	Noun_Phrase 4282 4297;4303 4317	D. melanogaster and C. elegans
 T178	Noun_Phrase 4307 4317	C. elegans
 T179	Noun_Phrase 4334 4382	two additional new candidate TACC family members
 T180	Noun_Phrase 4363 4367	TACC
@@ -217,8 +211,7 @@ T209	IDENTITY_chain 4989 5001	invertebrate
 T210	Noun_Phrase 5044 5083	the publicly available genome databases
 T211	IDENTITY_chain 5044 5083	the publicly available genome databases
 T212	Noun_Phrase 5146 5150	TACC
-T213	Noun_Phrase 5146 5150;	TACC
-5161 5172	TACCorthologues
+T213	Noun_Phrase 5146 5150;5161 5172	TACC orthologues
 T214	Noun_Phrase 5155 5160	RHAMM
 T215	Noun_Phrase 5195 5222	the coiled coil superfamily
 T216	Noun_Phrase 5199 5210	coiled coil
@@ -316,8 +309,7 @@ T307	Noun_Phrase 7747 7751	TACC
 T308	Noun_Phrase 7777 7788	T. rubripes
 T309	IDENTITY_chain 7777 7788	T. rubripes
 T310	Noun_Phrase 7830 7841	T. rubripes
-T311	Noun_Phrase 7857 7862;	human
-7873 7878	humanTACC3
+T311	Noun_Phrase 7857 7862;7873 7878	human TACC3
 T312	Noun_Phrase 7857 7868	human TACC2
 T313	Noun_Phrase 7889 7908	the other two genes
 T314	IDENTITY_chain 7910 7918	trTACC1A
@@ -351,8 +343,7 @@ T341	Noun_Phrase 8458 8472	the pufferfish
 T342	Noun_Phrase 8548 8560	the organism
 T343	Noun_Phrase 8601 8609	trTACC1A
 T344	Noun_Phrase 8625 8633	the cell
-T345	Noun_Phrase 8698 8710;	the trTACC1A
-8724 8729	the trTACC1Agenes
+T345	Noun_Phrase 8698 8710;8724 8729	the trTACC1A genes
 T346	Noun_Phrase 8698 8729	the trTACC1A and trTACC1B genes
 T347	Noun_Phrase 8715 8729	trTACC1B genes
 T348	Noun_Phrase 8955 8966	T. rubripes
@@ -395,8 +386,7 @@ T384	Noun_Phrase 9818 9822	8q21
 T385	APPOS_relation 9818 9822	8q21
 T386	Noun_Phrase 9824 9910	a shorter region 86% identical to the final 359 bp of the TACC1 3' untranslated region
 T387	Noun_Phrase 9882 9887	TACC1
-T388	Noun_Phrase 9915 9943;	pseudogenes corresponding to
-9953 9958	pseudogenes corresponding toTACC3
+T388	Noun_Phrase 9915 9943;9953 9958	pseudogenes corresponding to TACC3
 T389	Noun_Phrase 9944 9949	TACC2
 T390	Noun_Phrase 9953 9958	TACC3
 T391	IDENTITY_chain 9953 9958	TACC3
@@ -433,8 +423,7 @@ T421	Noun_Phrase 10883 10892	this gene
 T422	Noun_Phrase 10888 10892	gene
 T423	Noun_Phrase 10902 10928	a single 2.3 kb transcript
 T424	IDENTITY_chain 10902 10928	a single 2.3 kb transcript
-T425	Noun_Phrase 11036 11041;	human
-11052 11057	humanTACC3
+T425	Noun_Phrase 11036 11041;11052 11057	human TACC3
 T426	Noun_Phrase 11036 11057	human and mouse TACC3
 T427	IDENTITY_chain 11036 11057	human and mouse TACC3
 T428	Noun_Phrase 11046 11051	mouse
@@ -447,24 +436,18 @@ T434	Noun_Phrase 11159 11161	we
 T435	Noun_Phrase 11179 11213	the complete rabbit TACC3 sequence
 T436	IDENTITY_chain 11179 11213	the complete rabbit TACC3 sequence
 T437	Noun_Phrase 11192 11204	rabbit TACC3
-T438	Noun_Phrase 11248 11253;	human
-11264 11269	humanTACC3
+T438	Noun_Phrase 11248 11253;11264 11269	human TACC3
 T439	Noun_Phrase 11248 11269	human and mouse TACC3
 T440	Noun_Phrase 11258 11263	mouse
 T441	Noun_Phrase 11258 11269	mouse TACC3
 T442	Noun_Phrase 11271 11273	We
-T443	Noun_Phrase 11342 11345;	the
-11356 11376	themouse TACC3 proteins
-T444	IDENTITY_chain 11342 11345;	the
-11356 11376	themouse TACC3 proteins
-T445	Noun_Phrase 11342 11351;	the human
-11362 11376	the humanTACC3 proteins
-T446	IDENTITY_chain 11342 11351;	the human
-11362 11376	the humanTACC3 proteins
+T443	Noun_Phrase 11342 11345;11356 11376	the mouse TACC3 proteins
+T444	IDENTITY_chain 11342 11345;11356 11376	the mouse TACC3 proteins
+T445	Noun_Phrase 11342 11351;11362 11376	the human TACC3 proteins
+T446	IDENTITY_chain 11342 11351;11362 11376	the human TACC3 proteins
 T447	Noun_Phrase 11342 11376	the human and mouse TACC3 proteins
 T448	IDENTITY_chain 11342 11376	the human and mouse TACC3 proteins
-T449	Noun_Phrase 11346 11351;	human
-11362 11367	humanTACC3
+T449	Noun_Phrase 11346 11351;11362 11367	human TACC3
 T450	Noun_Phrase 11346 11367	human and mouse TACC3
 T451	Noun_Phrase 11356 11367	mouse TACC3
 T452	Noun_Phrase 11468 11479	these genes
@@ -510,8 +493,7 @@ T491	Noun_Phrase 12461 12466	TACC4
 T492	Noun_Phrase 12521 12525	cDNA
 T493	Noun_Phrase 12608 12612	they
 T494	Noun_Phrase 12677 12682	their
-T495	Noun_Phrase 12697 12715;	The rabbit "TACC4"
-12737 12745	The rabbit "TACC4"sequence
+T495	Noun_Phrase 12697 12715;12737 12745	The rabbit "TACC4" sequence
 T496	Noun_Phrase 12701 12715	rabbit "TACC4"
 T497	Noun_Phrase 12720 12767	the rabbit TACC3 sequence that we have isolated
 T498	Noun_Phrase 12724 12730	rabbit
@@ -663,8 +645,7 @@ T643	Noun_Phrase 16298 16355	Paralogous genes present in at least two of the fou
 T644	IDENTITY_chain 16298 16355	Paralogous genes present in at least two of the four loci
 T645	Noun_Phrase 16342 16355	the four loci
 T646	Noun_Phrase 16389 16438	the region between GPX3 and NKX2E on chromosome 5
-T647	Noun_Phrase 16408 16412;	GPX3
-16423 16438	GPX3on chromosome 5
+T647	Noun_Phrase 16408 16412;16423 16438	GPX3 on chromosome 5
 T648	Noun_Phrase 16408 16438	GPX3 and NKX2E on chromosome 5
 T649	Noun_Phrase 16417 16438	NKX2E on chromosome 5
 T650	Noun_Phrase 16426 16436	chromosome
@@ -745,8 +726,7 @@ T724	IDENTITY_chain 18870 18873	LDB
 T725	Noun_Phrase 18909 19011	genes found in the regions of human chromosome 4 and 10 that also contain the loci for TACC3 and TACC2
 T726	IDENTITY_chain 18909 19011	genes found in the regions of human chromosome 4 and 10 that also contain the loci for TACC3 and TACC2
 T727	Noun_Phrase 18939 18955	human chromosome
-T728	Noun_Phrase 18939 18955;	human chromosome
-18962 18964	human chromosome10
+T728	Noun_Phrase 18939 18955;18962 18964	human chromosome 10
 T729	Noun_Phrase 18996 19001	TACC3
 T730	Noun_Phrase 19006 19011	TACC2
 T731	Noun_Phrase 19107 19178	the initial duplication of the ancestral paralogous chromosomal segment
@@ -759,12 +739,9 @@ T737	Noun_Phrase 19550 19554	FGFR
 T738	Noun_Phrase 19560 19565	WHSC1
 T739	Noun_Phrase 19633 19659	the C. intestinalis genome
 T740	Noun_Phrase 19637 19652	C. intestinalis
-T741	Noun_Phrase 19710 19732;	paralogous segments of
-19739 19741	paralogous segments of8p
-T742	Noun_Phrase 19710 19732;	paralogous segments of
-19746 19749	paralogous segments of10q
-T743	IDENTITY_chain 19710 19732;	paralogous segments of
-19746 19749	paralogous segments of10q
+T741	Noun_Phrase 19710 19732;19739 19741	paralogous segments of 8p
+T742	Noun_Phrase 19710 19732;19746 19749	paralogous segments of 10q
+T743	IDENTITY_chain 19710 19732;19746 19749	paralogous segments of 10q
 T744	Noun_Phrase 19710 19737	paralogous segments of 4p16
 T745	IDENTITY_chain 19710 19737	paralogous segments of 4p16
 T746	Noun_Phrase 19733 19737	4p16
@@ -801,8 +778,7 @@ T776	Noun_Phrase 20792 20800	Figure 3
 T777	IDENTITY_chain 20792 20800	Figure 3
 T778	Noun_Phrase 20832 20849	Takifugu rubripes
 T779	Noun_Phrase 20854 20872	Ciona intestinalis
-T780	Noun_Phrase 20925 20946;	the Takifugu rubripes
-20960 20974	the Takifugu rubripestrTACC1B genes
+T780	Noun_Phrase 20925 20946;20960 20974	the Takifugu rubripes trTACC1B genes
 T781	Noun_Phrase 20925 20955	the Takifugu rubripes trTACC1A
 T782	Noun_Phrase 20925 20974	the Takifugu rubripes trTACC1A and trTACC1B genes
 T783	Noun_Phrase 20976 20987	Scaffold 12
@@ -810,8 +786,7 @@ T784	APPOS_relation 20976 20987	Scaffold 12
 T785	Noun_Phrase 20989 21019	the site for the trTACC1A gene
 T786	Noun_Phrase 21002 21019	the trTACC1A gene
 T787	Noun_Phrase 21105 21121	human chromosome
-T788	Noun_Phrase 21105 21121;	human chromosome
-21129 21133	human chromosome4p16
+T788	Noun_Phrase 21105 21121;21129 21133	human chromosome 4p16
 T789	Noun_Phrase 21105 21124	human chromosome 10
 T790	Noun_Phrase 21135 21148	This scaffold
 T791	Noun_Phrase 21269 21277	trTACC1B
@@ -820,14 +795,11 @@ T793	Noun_Phrase 21349 21393	the proximal short arm of human chromosome 8
 T794	Noun_Phrase 21375 21391	human chromosome
 T795	Noun_Phrase 21375 21393	human chromosome 8
 T796	Noun_Phrase 21400 21418	Ciona intestinalis
-T797	Noun_Phrase 21454 21482;	paralogous segments on human
-21486 21490	paralogous segments on human4p16
-T798	Noun_Phrase 21454 21482;	paralogous segments on human
-21492 21495	paralogous segments on human10q
+T797	Noun_Phrase 21454 21482;21486 21490	paralogous segments on human 4p16
+T798	Noun_Phrase 21454 21482;21492 21495	paralogous segments on human 10q
 T799	Noun_Phrase 21454 21484	paralogous segments on human 8
 T800	IDENTITY_chain 21454 21484	paralogous segments on human 8
-T801	Noun_Phrase 21477 21482;	human
-21486 21490	human4p16
+T801	Noun_Phrase 21477 21482;21486 21490	human 4p16
 T802	Noun_Phrase 21477 21484	human 8
 T803	Noun_Phrase 21505 21511	Figure
 T804	Noun_Phrase 21505 21513	Figure 4
@@ -851,10 +823,8 @@ T821	Noun_Phrase 21984 21999	the TACC family
 T822	Noun_Phrase 21988 21992	TACC
 T823	Noun_Phrase 22013 22016	DNA
 T824	IDENTITY_chain 22013 22016	DNA
-T825	Noun_Phrase 22044 22073;	the orthologous TACC genes of
-22081 22086	the orthologous TACC genes ofmouse
-T826	IDENTITY_chain 22044 22073;	the orthologous TACC genes of
-22081 22086	the orthologous TACC genes ofmouse
+T825	Noun_Phrase 22044 22073;22081 22086	the orthologous TACC genes of mouse
+T826	IDENTITY_chain 22044 22073;22081 22086	the orthologous TACC genes of mouse
 T827	Noun_Phrase 22074 22079	human
 T828	Noun_Phrase 22081 22086	mouse
 T829	Noun_Phrase 22088 22091	rat
@@ -876,8 +846,7 @@ T844	Noun_Phrase 22468 22479	T. rubripes
 T845	Noun_Phrase 22505 22531	the fresh water pufferfish
 T846	Noun_Phrase 22533 22555	Tetraodon nigroviridis
 T847	APPOS_relation 22533 22555	Tetraodon nigroviridis
-T848	Noun_Phrase 22643 22651;	the TACC
-22662 22670	the TACCproteins
+T848	Noun_Phrase 22643 22651;22662 22670	the TACC proteins
 T849	Noun_Phrase 22643 22657	the TACC genes
 T850	Noun_Phrase 22647 22651	TACC
 T851	Noun_Phrase 22686 22690	Fig.
@@ -944,8 +913,7 @@ T911	Noun_Phrase 24189 24253	the conserved TACC domain distributed over the fina
 T912	Noun_Phrase 24203 24207	TACC
 T913	Noun_Phrase 24347 24407	the central portion of the TACC3 proteins of human and mouse
 T914	IDENTITY_chain 24347 24407	the central portion of the TACC3 proteins of human and mouse
-T915	Noun_Phrase 24370 24391;	the TACC3 proteins of
-24402 24407	the TACC3 proteins ofmouse
+T915	Noun_Phrase 24370 24391;24402 24407	the TACC3 proteins of mouse
 T916	Noun_Phrase 24370 24397	the TACC3 proteins of human
 T917	Noun_Phrase 24370 24407	the TACC3 proteins of human and mouse
 T918	Noun_Phrase 24374 24379	TACC3
@@ -962,8 +930,7 @@ T928	Noun_Phrase 24676 24687	this region
 T929	Noun_Phrase 24719 24746	seven 24 amino acid repeats
 T930	IDENTITY_chain 24719 24746	seven 24 amino acid repeats
 T931	Noun_Phrase 24790 24795	mouse
-T932	Noun_Phrase 24790 24795;	mouse
-24804 24815	mouseTACC3 genes
+T932	Noun_Phrase 24790 24795;24804 24815	mouse TACC3 genes
 T933	Noun_Phrase 24800 24815	rat TACC3 genes
 T934	IDENTITY_chain 24800 24815	rat TACC3 genes
 T935	Nonreferential_pronoun 24817 24819	It
@@ -999,8 +966,7 @@ T964	IDENTITY_chain 25717 25723	a gene
 T965	Noun_Phrase 25860 25865	TACC3
 T966	IDENTITY_chain 25860 25865	TACC3
 T967	Noun_Phrase 25913 25919	tissue
-T968	Noun_Phrase 25953 25962;	the TACC1
-25973 25978	the TACC1genes
+T968	Noun_Phrase 25953 25962;25973 25978	the TACC1 genes
 T969	Noun_Phrase 25967 25978	TACC2 genes
 T970	Noun_Phrase 25995 26000	TACC2
 T971	Noun_Phrase 26002 26033	an additional large (5 kb) exon
@@ -1045,10 +1011,8 @@ T1009	Noun_Phrase 27173 27187	RNA processing
 T1010	Noun_Phrase 27249 27254	TACC1
 T1011	Noun_Phrase 27267 27275	the cell
 T1012	Noun_Phrase 27314 27317	RNA
-T1013	Noun_Phrase 27390 27396;	TACC1D
-27408 27416	TACC1Disoforms
-T1014	IDENTITY_chain 27390 27396;	TACC1D
-27408 27416	TACC1Disoforms
+T1013	Noun_Phrase 27390 27396;27408 27416	TACC1D isoforms
+T1014	IDENTITY_chain 27390 27396;27408 27416	TACC1D isoforms
 T1015	Noun_Phrase 27482 27488	Figure
 T1016	Noun_Phrase 27482 27490	Figure 5
 T1017	IDENTITY_chain 27482 27490	Figure 5
@@ -1068,8 +1032,7 @@ T1030	Noun_Phrase 27855 27859	exon
 T1031	Noun_Phrase 27855 27861	exon 1
 T1032	Noun_Phrase 27949 27954	lanes
 T1033	IDENTITY_chain 27949 27954	lanes
-T1034	Noun_Phrase 27949 27954;	lanes
-27961 27962	lanes3
+T1034	Noun_Phrase 27949 27954;27961 27962	lanes 3
 T1035	Noun_Phrase 27949 27956	lanes 1
 T1036	IDENTITY_chain 27949 27956	lanes 1
 T1037	Noun_Phrase 27965 27969	Exon
@@ -1078,10 +1041,8 @@ T1039	Noun_Phrase 27989 27993	exon
 T1040	Noun_Phrase 27989 27995	exon 2
 T1041	IDENTITY_chain 27989 27995	exon 2
 T1042	Noun_Phrase 28042 28047	lanes
-T1043	Noun_Phrase 28042 28047;	lanes
-28050 28052	lanes12
-T1044	Noun_Phrase 28042 28047;	lanes
-28057 28059	lanes13
+T1043	Noun_Phrase 28042 28047;28050 28052	lanes 12
+T1044	Noun_Phrase 28042 28047;28057 28059	lanes 13
 T1045	Noun_Phrase 28042 28049	lanes 3
 T1046	Noun_Phrase 28062 28112	Variants that functionally delete exons 2 and/or 3
 T1047	IDENTITY_chain 28062 28112	Variants that functionally delete exons 2 and/or 3
@@ -1187,14 +1148,10 @@ T1146	Noun_Phrase 30565 30575	C. elegans
 T1147	Noun_Phrase 30565 30595	C. elegans and D. melanogaster
 T1148	Noun_Phrase 30580 30595	D. melanogaster
 T1149	Noun_Phrase 30703 30708	ceTAC
-T1150	Noun_Phrase 30727 30737;	C. elegans
-30746 30751	C. eleganslin36
-T1151	IDENTITY_chain 30727 30737;	C. elegans
-30746 30751	C. eleganslin36
-T1152	Noun_Phrase 30727 30737;	C. elegans
-30756 30761	C. eleganslin37
-T1153	IDENTITY_chain 30727 30737;	C. elegans
-30756 30761	C. eleganslin37
+T1150	Noun_Phrase 30727 30737;30746 30751	C. elegans lin36
+T1151	IDENTITY_chain 30727 30737;30746 30751	C. elegans lin36
+T1152	Noun_Phrase 30727 30737;30756 30761	C. elegans lin37
+T1153	IDENTITY_chain 30727 30737;30756 30761	C. elegans lin37
 T1154	Noun_Phrase 30727 30737	C. elegans
 T1155	Noun_Phrase 30727 30744	C. elegans lin15A
 T1156	IDENTITY_chain 30727 30744	C. elegans lin15A
@@ -1218,10 +1175,8 @@ T1173	Noun_Phrase 31205 31215	Drosophila
 T1174	Noun_Phrase 31205 31220	Drosophila TACC
 T1175	IDENTITY_chain 31205 31220	Drosophila TACC
 T1176	Noun_Phrase 31236 31248	two proteins
-T1177	Noun_Phrase 31250 31273;	the RNA binding protein
-31283 31290	the RNA binding proteinCG14540
-T1178	IDENTITY_chain 31250 31273;	the RNA binding protein
-31283 31290	the RNA binding proteinCG14540
+T1177	Noun_Phrase 31250 31273;31283 31290	the RNA binding protein CG14540
+T1178	IDENTITY_chain 31250 31273;31283 31290	the RNA binding protein CG14540
 T1179	Noun_Phrase 31250 31278	the RNA binding protein TBPH
 T1180	IDENTITY_chain 31250 31278	the RNA binding protein TBPH
 T1181	Noun_Phrase 31250 31290	the RNA binding protein TBPH and CG14540
@@ -1247,8 +1202,7 @@ T1200	Noun_Phrase 31689 31714	these large scale methods
 T1201	Noun_Phrase 31771 31789	the aurora kinases
 T1202	Noun_Phrase 31794 31821	the stu2/msps/ch-TOG family
 T1203	Noun_Phrase 31824 31830	Figure
-T1204	Noun_Phrase 31858 31886;	the TACC proteins modeled in
-31902 31917	the TACC proteins modeled inD. melanogaster
+T1204	Noun_Phrase 31858 31886;31902 31917	the TACC proteins modeled in D. melanogaster
 T1205	Noun_Phrase 31858 31917	the TACC proteins modeled in C. elegans and D. melanogaster
 T1206	IDENTITY_chain 31858 31917	the TACC proteins modeled in C. elegans and D. melanogaster
 T1207	Noun_Phrase 31887 31897	C. elegans
@@ -1274,10 +1228,8 @@ T1226	IDENTITY_chain 32191 32217	histone acetyltransferases
 T1227	Noun_Phrase 32220 32230	DNA damage
 T1228	Noun_Phrase 32220 32247	DNA damage repair machinery
 T1229	Noun_Phrase 32265 32268	RNA
-T1230	Noun_Phrase 32265 32277;	RNA splicing
-32307 32316	RNA splicingmachinery
-T1231	Noun_Phrase 32279 32288;	transport
-32307 32316	transportmachinery
+T1230	Noun_Phrase 32265 32277;32307 32316	RNA splicing machinery
+T1231	Noun_Phrase 32279 32288;32307 32316	transport machinery
 T1232	Noun_Phrase 32319 32320	C
 T1233	Noun_Phrase 32353 32363	vertebrate
 T1234	Noun_Phrase 32353 32369	vertebrate TACCs
@@ -1287,8 +1239,7 @@ T1237	Nonreferential_pronoun 32462 32464	It
 T1238	Noun_Phrase 32534 32548	the LDB family
 T1239	Noun_Phrase 32538 32541	LDB
 T1240	Noun_Phrase 32585 32589	TACC
-T1241	Noun_Phrase 32630 32634;	Figs
-32638 32639	Figs3
+T1241	Noun_Phrase 32630 32634;32638 32639	Figs 3
 T1242	Noun_Phrase 32630 32634	Figs
 T1243	Noun_Phrase 32630 32636	Figs 2
 T1244	Noun_Phrase 32644 32659	Additional file
@@ -1303,8 +1254,7 @@ T1252	Noun_Phrase 32827 32837	vertebrate
 T1253	Noun_Phrase 32852 32853	C
 T1254	Noun_Phrase 32855 32856	D
 T1255	Noun_Phrase 32861 32862	E
-T1256	Noun_Phrase 32899 32907;	the TACC
-32925 32931	the TACCfamily
+T1256	Noun_Phrase 32899 32907;32925 32931	the TACC family
 T1257	Noun_Phrase 32903 32907	TACC
 T1258	Noun_Phrase 32978 32993	the TACC domain
 T1259	Noun_Phrase 32982 32986	TACC
@@ -1314,10 +1264,8 @@ T1262	Noun_Phrase 33061 33091	C. elegans and D. melanogaster
 T1263	Noun_Phrase 33076 33091	D. melanogaster
 T1264	Noun_Phrase 33236 33246	vertebrate
 T1265	Noun_Phrase 33236 33252	vertebrate TACCs
-T1266	Noun_Phrase 33254 33258;	Fig.
-33266 33268	Fig.6D
-T1267	IDENTITY_chain 33254 33258;	Fig.
-33266 33268	Fig.6D
+T1266	Noun_Phrase 33254 33258;33266 33268	Fig. 6D
+T1267	IDENTITY_chain 33254 33258;33266 33268	Fig. 6D
 T1268	Noun_Phrase 33254 33258	Fig.
 T1269	Noun_Phrase 33254 33261	Fig. 6C
 T1270	IDENTITY_chain 33254 33261	Fig. 6C
@@ -1348,8 +1296,7 @@ T1294	Noun_Phrase 34398 34433	centrosome/mitotic spindle dynamics
 T1295	Noun_Phrase 34463 34467	gene
 T1296	Noun_Phrase 34463 34478	gene regulation
 T1297	Noun_Phrase 34503 34516	transcription
-T1298	Noun_Phrase 34532 34535;	RNA
-34551 34562	RNAtranslation
+T1298	Noun_Phrase 34532 34535;34551 34562	RNA translation
 T1299	Noun_Phrase 34532 34535	RNA
 T1300	Noun_Phrase 34532 34546	RNA processing
 T1301	Noun_Phrase 34601 34615	these proteins
@@ -1357,8 +1304,7 @@ T1302	Noun_Phrase 34656 34676	the protostome TACCs
 T1303	Noun_Phrase 34660 34670	protostome
 T1304	IDENTITY_chain 34660 34676	protostome TACCs
 T1305	Noun_Phrase 34718 34725	protein
-T1306	Noun_Phrase 34735 34739;	Fig.
-34743 34745	Fig.6D
+T1306	Noun_Phrase 34735 34739;34743 34745	Fig. 6D
 T1307	Noun_Phrase 34735 34739	Fig.
 T1308	Noun_Phrase 34735 34742	Fig. 6C
 T1309	Noun_Phrase 34749 34887	Significant analysis of the association of the TACCs with the centrosome and the dynamics of mitotic spindle assembly from yeast to humans
@@ -1395,10 +1341,8 @@ T1339	Noun_Phrase 35812 35836	the human TACC1A isoform
 T1340	IDENTITY_chain 35812 35836	the human TACC1A isoform
 T1341	Noun_Phrase 35864 35886	the eIF4E/CPEB complex
 T1342	Noun_Phrase 35902 35907	TACC1
-T1343	Noun_Phrase 36004 36020;	the RNA splicing
-36035 36044	the RNA splicingmachinery
-T1344	IDENTITY_chain 36004 36020;	the RNA splicing
-36035 36044	the RNA splicingmachinery
+T1343	Noun_Phrase 36004 36020;36035 36044	the RNA splicing machinery
+T1344	IDENTITY_chain 36004 36020;36035 36044	the RNA splicing machinery
 T1345	Noun_Phrase 36008 36011	RNA
 T1346	Noun_Phrase 36025 36044	transport machinery
 T1347	IDENTITY_chain 36025 36044	transport machinery
@@ -1514,8 +1458,7 @@ T1456	Noun_Phrase 39450 39457	protein
 T1457	Noun_Phrase 39480 39490	DNA damage
 T1458	Noun_Phrase 39499 39506	protein
 T1459	Noun_Phrase 39499 39518	protein translation
-T1460	Noun_Phrase 39520 39523;	RNA
-39539 39552	RNAtranscription
+T1460	Noun_Phrase 39520 39523;39539 39552	RNA transcription
 T1461	Noun_Phrase 39520 39523	RNA
 T1462	Noun_Phrase 39520 39534	RNA processing
 T1463	Noun_Phrase 39583 39600	evolutionary time
@@ -1696,12 +1639,9 @@ T1637	Noun_Phrase 45718 45736	Ciona intestinalis
 T1638	Noun_Phrase 45755 45773	Ciona intestinalis
 T1639	Noun_Phrase 45885 45896	coiled coil
 T1640	Noun_Phrase 45906 45913	protein
-T1641	Noun_Phrase 45906 45957;	protein sequences representing the major members of
-45987 45991	protein sequences representing the major members ofTACC
-T1642	Noun_Phrase 45906 45957;	protein sequences representing the major members of
-45993 45998	protein sequences representing the major members ofRHAMM
-T1643	Noun_Phrase 45906 45957;	protein sequences representing the major members of
-46000 46003	protein sequences representing the major members ofKLP
+T1641	Noun_Phrase 45906 45957;45987 45991	protein sequences representing the major members of TACC
+T1642	Noun_Phrase 45906 45957;45993 45998	protein sequences representing the major members of RHAMM
+T1643	Noun_Phrase 45906 45957;46000 46003	protein sequences representing the major members of KLP
 T1644	Noun_Phrase 45958 45975	this super family
 T1645	Noun_Phrase 45987 45991	TACC
 T1646	Noun_Phrase 45993 45998	RHAMM
@@ -1774,8 +1714,7 @@ T1712	IDENTITY_chain 48360 48375	TACC2 and RXR?3
 T1713	Noun_Phrase 48370 48375	RXR?3
 T1714	Noun_Phrase 48381 48386	TACC2
 T1715	Noun_Phrase 48473 48476	USA
-T1716	Noun_Phrase 48479 48482;	GST
-48497 48505	GSTproteins
+T1716	Noun_Phrase 48479 48482;48497 48505	GST proteins
 T1717	Noun_Phrase 48487 48505	GST-TACC2 proteins
 T1718	Noun_Phrase 48592 48597	Cells
 T1719	Noun_Phrase 48648 48669	20 mM Tris-HCl pH.8.0
@@ -1822,13 +1761,10 @@ T1759	Noun_Phrase 49642 49654	The proteins
 T1760	Noun_Phrase 49751 49769	GST fusion protein
 T1761	Noun_Phrase 49830 49835	I.H.S
 T1762	IDENTITY_chain 49830 49835	I.H.S
-T1763	Noun_Phrase 49908 49912;	TACC
-49933 49942	TACCsequences
+T1763	Noun_Phrase 49908 49912;49933 49942	TACC sequences
 T1764	Noun_Phrase 49908 49912	TACC
-T1765	Noun_Phrase 49914 49917;	KLP
-49933 49942	KLPsequences
-T1766	IDENTITY_chain 49914 49917;	KLP
-49933 49942	KLPsequences
+T1765	Noun_Phrase 49914 49917;49933 49942	KLP sequences
+T1766	IDENTITY_chain 49914 49917;49933 49942	KLP sequences
 T1767	Noun_Phrase 49919 49922	KIF
 T1768	Noun_Phrase 49927 49932	RHAMM
 T1769	Noun_Phrase 49927 49942	RHAMM sequences
@@ -1852,10 +1788,8 @@ T1786	Noun_Phrase 50304 50327	the complete manuscript
 T1787	Noun_Phrase 50354 50369	Additional file
 T1788	Noun_Phrase 50354 50371	Additional file 1
 T1789	IDENTITY_chain 50354 50371	Additional file 1
-T1790	Noun_Phrase 50411 50416;	human
-50444 50446	human8p
-T1791	IDENTITY_chain 50411 50416;	human
-50444 50446	human8p
+T1790	Noun_Phrase 50411 50416;50444 50446	human 8p
+T1791	IDENTITY_chain 50411 50416;50444 50446	human 8p
 T1792	Noun_Phrase 50411 50421	human 4p16
 T1793	Noun_Phrase 50451 50461	chromosome
 T1794	Noun_Phrase 50451 50461	chromosome

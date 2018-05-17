@@ -12,10 +12,8 @@ T10	Noun_Phrase 77 91	Skeletogenesis
 T11	IDENTITY_chain 77 91	Skeletogenesis
 T12	Noun_Phrase 103 129	Bone morphogenetic protein
 T13	APPOS_relation 103 129	Bone morphogenetic protein
-T14	Noun_Phrase 103 129;	Bone morphogenetic protein
-136 150	Bone morphogenetic proteinfamily members
-T15	IDENTITY_chain 103 129;	Bone morphogenetic protein
-136 150	Bone morphogenetic proteinfamily members
+T14	Noun_Phrase 103 129;136 150	Bone morphogenetic protein family members
+T15	IDENTITY_chain 103 129;136 150	Bone morphogenetic protein family members
 T16	Noun_Phrase 131 134	BMP
 T17	Noun_Phrase 162 166	BMP2
 T18	Noun_Phrase 162 182	BMP2, BMP4, and BMP7
@@ -68,10 +66,8 @@ T64	Noun_Phrase 1249 1253	BMP2
 T65	IDENTITY_chain 1249 1262	BMP2 and BMP4
 T66	Noun_Phrase 1249 1262	BMP2 and BMP4
 T67	Noun_Phrase 1258 1262	BMP4
-T68	Noun_Phrase 1374 1388;	the absence of
-1406 1419	the absence ofBMP2 and BMP4
-T69	IDENTITY_chain 1374 1388;	the absence of
-1406 1419	the absence ofBMP2 and BMP4
+T68	Noun_Phrase 1374 1388;1406 1419	the absence of BMP2 and BMP4
+T69	IDENTITY_chain 1374 1388;1406 1419	the absence of BMP2 and BMP4
 T70	Noun_Phrase 1374 1402	the absence of BMP2 and BMP7
 T71	IDENTITY_chain 1374 1402	the absence of BMP2 and BMP7
 T72	Noun_Phrase 1389 1393	BMP2
@@ -136,10 +132,8 @@ T130	Noun_Phrase 3368 3372	BMPs
 T131	Noun_Phrase 3575 3591	limb development
 T132	Noun_Phrase 3601 3614	BMP signaling
 T133	Noun_Phrase 3659 3691	the anterior-posterior limb axis
-T134	Noun_Phrase 3753 3787;	a graded response to Sonic Hedghog
-3794 3855	a graded response to Sonic Hedghogsignaling emanating from the posterior margin of the limb bud
-T135	IDENTITY_chain 3753 3787;	a graded response to Sonic Hedghog
-3794 3855	a graded response to Sonic Hedghogsignaling emanating from the posterior margin of the limb bud
+T134	Noun_Phrase 3753 3787;3794 3855	a graded response to Sonic Hedghog signaling emanating from the posterior margin of the limb bud
+T135	IDENTITY_chain 3753 3787;3794 3855	a graded response to Sonic Hedghog signaling emanating from the posterior margin of the limb bud
 T136	Noun_Phrase 3774 3787	Sonic Hedghog
 T137	APPOS_relation 3774 3787	Sonic Hedghog
 T138	Noun_Phrase 3789 3792	SHH
@@ -158,8 +152,7 @@ T150	Noun_Phrase 4131 4135	Both
 T151	Noun_Phrase 4175 4178	SHH
 T152	Noun_Phrase 4238 4242	BMP7
 T153	Noun_Phrase 4327 4331	BMP2
-T154	Noun_Phrase 4327 4331;	BMP2
-4336 4344	BMP2and BMP7
+T154	Noun_Phrase 4327 4331;4336 4344	BMP2 and BMP7
 T155	Noun_Phrase 4340 4344	BMP7
 T156	Noun_Phrase 4383 4388	their
 T157	Noun_Phrase 4440 4443	SHH
@@ -175,10 +168,8 @@ T166	Noun_Phrase 4604 4612	the limb
 T167	Noun_Phrase 4703 4706	SHH
 T168	Nonreferential_pronoun 4713 4715	It
 T169	Noun_Phrase 4750 4754	BMP2
-T170	Noun_Phrase 4750 4754;	BMP2
-4764 4772	BMP2activity
-T171	IDENTITY_chain 4750 4754;	BMP2
-4764 4772	BMP2activity
+T170	Noun_Phrase 4750 4754;4764 4772	BMP2 activity
+T171	IDENTITY_chain 4750 4754;4764 4772	BMP2 activity
 T172	Noun_Phrase 4759 4763	BMP7
 T173	Noun_Phrase 4759 4772	BMP7 activity
 T174	IDENTITY_chain 4759 4772	BMP7 activity
@@ -210,14 +201,10 @@ T199	Noun_Phrase 5403 5407	BMP7
 T200	Noun_Phrase 5409 5411	it
 T201	Noun_Phrase 5428 5494	both the anterior and posterior margins of the limb bud mesenchyme
 T202	IDENTITY_chain 5428 5494	both the anterior and posterior margins of the limb bud mesenchyme
-T203	Noun_Phrase 5433 5436;	the
-5450 5494	theposterior margins of the limb bud mesenchyme
-T204	IDENTITY_chain 5433 5436;	the
-5450 5494	theposterior margins of the limb bud mesenchyme
-T205	Noun_Phrase 5433 5445;	the anterior
-5460 5494	the anteriormargins of the limb bud mesenchyme
-T206	IDENTITY_chain 5433 5445;	the anterior
-5460 5494	the anteriormargins of the limb bud mesenchyme
+T203	Noun_Phrase 5433 5436;5450 5494	the posterior margins of the limb bud mesenchyme
+T204	IDENTITY_chain 5433 5436;5450 5494	the posterior margins of the limb bud mesenchyme
+T205	Noun_Phrase 5433 5445;5460 5494	the anterior margins of the limb bud mesenchyme
+T206	IDENTITY_chain 5433 5445;5460 5494	the anterior margins of the limb bud mesenchyme
 T207	Noun_Phrase 5471 5494	the limb bud mesenchyme
 T208	Noun_Phrase 5512 5514	it
 T209	Noun_Phrase 5548 5561	SHH signaling
@@ -241,8 +228,7 @@ T226	IDENTITY_chain 6027 6036	phalanges
 T227	Noun_Phrase 6058 6069	the autopod
 T228	IDENTITY_chain 6058 6069	the autopod
 T229	Noun_Phrase 6169 6177	the limb
-T230	Noun_Phrase 6181 6184;	SHH
-6196 6205	SHHsignaling
+T230	Noun_Phrase 6181 6184;6196 6205	SHH signaling
 T231	Noun_Phrase 6192 6205	BMP signaling
 T232	Noun_Phrase 6207 6252	the interdigital mesenchyme of the hand plate
 T233	Nonreferential_pronoun 6344 6346	it
@@ -341,23 +327,18 @@ T325	Noun_Phrase 9556 9580	skeletal differentiation
 T326	IDENTITY_chain 9556 9580	skeletal differentiation
 T327	Noun_Phrase 9677 9690	BMP signaling
 T328	Noun_Phrase 9741 9743	we
-T329	Noun_Phrase 9758 9785;	mice simultaneously lacking
-9812 9880	mice simultaneously lackingBMP2 and BMP7 activity in the limb mesechyme during limb development
-T330	Noun_Phrase 9758 9808;	mice simultaneously lacking BMP2 and BMP4 activity
-9835 9880	mice simultaneously lacking BMP2 and BMP4 activityin the limb mesechyme during limb development
+T329	Noun_Phrase 9758 9785;9812 9880	mice simultaneously lacking BMP2 and BMP7 activity in the limb mesechyme during limb development
+T330	Noun_Phrase 9758 9808;9835 9880	mice simultaneously lacking BMP2 and BMP4 activity in the limb mesechyme during limb development
 T331	Noun_Phrase 9786 9790	BMP2
-T332	Noun_Phrase 9786 9790;	BMP2
-9800 9808	BMP2activity
+T332	Noun_Phrase 9786 9790;9800 9808	BMP2 activity
 T333	Noun_Phrase 9795 9799	BMP4
 T334	Noun_Phrase 9795 9808	BMP4 activity
 T335	Noun_Phrase 9812 9816	BMP2
-T336	Noun_Phrase 9812 9816;	BMP2
-9826 9834	BMP2activity
+T336	Noun_Phrase 9812 9816;9826 9834	BMP2 activity
 T337	Noun_Phrase 9821 9825	BMP7
 T338	Noun_Phrase 9821 9834	BMP7 activity
 T339	Noun_Phrase 9864 9880	limb development
-T340	Noun_Phrase 9888 9892;	Bmp2
-9902 9909	Bmp2mutants
+T340	Noun_Phrase 9888 9892;9902 9909	Bmp2 mutants
 T341	Noun_Phrase 9897 9909	Bmp4 mutants
 T342	Noun_Phrase 9958 9960	we
 T343	Noun_Phrase 9966 10005	conditional alleles of both these genes
@@ -381,14 +362,10 @@ T360	IDENTITY_chain 10464 10492	The Bmp2/Bmp4 double mutants
 T361	Noun_Phrase 10464 10492	The Bmp2/Bmp4 double mutants
 T362	Noun_Phrase 10515 10531	posterior digits
 T363	IDENTITY_chain 10515 10531	posterior digits
-T364	Noun_Phrase 10727 10751;	the combined activity of
-10760 10773	the combined activity ofBMP2 and BMP4
-T365	IDENTITY_chain 10727 10751;	the combined activity of
-10760 10773	the combined activity ofBMP2 and BMP4
-T366	Noun_Phrase 10727 10751;	the combined activity of
-10781 10794	the combined activity ofBMP2 and BMP7
-T367	IDENTITY_chain 10727 10751;	the combined activity of
-10781 10794	the combined activity ofBMP2 and BMP7
+T364	Noun_Phrase 10727 10751;10760 10773	the combined activity of BMP2 and BMP4
+T365	IDENTITY_chain 10727 10751;10760 10773	the combined activity of BMP2 and BMP4
+T366	Noun_Phrase 10727 10751;10781 10794	the combined activity of BMP2 and BMP7
+T367	IDENTITY_chain 10727 10751;10781 10794	the combined activity of BMP2 and BMP7
 T368	Noun_Phrase 10760 10764	BMP2
 T369	Noun_Phrase 10760 10773	BMP2 and BMP4
 T370	Noun_Phrase 10769 10773	BMP4
@@ -458,10 +435,8 @@ T433	Noun_Phrase 12319 12359	complete recombination of floxed alleles
 T434	IDENTITY_chain 12319 12359	complete recombination of floxed alleles
 T435	Noun_Phrase 12386 12388	We
 T436	Noun_Phrase 12413 12422	Prx1::cre
-T437	Noun_Phrase 12436 12451;	the conditional
-12461 12473	the conditionalBmp4 alleles
-T438	Noun_Phrase 12436 12456;	the conditional Bmp2
-12466 12473	the conditional Bmp2alleles
+T437	Noun_Phrase 12436 12451;12461 12473	the conditional Bmp4 alleles
+T438	Noun_Phrase 12436 12456;12466 12473	the conditional Bmp2 alleles
 T439	Noun_Phrase 12436 12473	the conditional Bmp2 and Bmp4 alleles
 T440	Noun_Phrase 12531 12535	Bmp2
 T441	Noun_Phrase 12558 12577	the limb mesenchyme
@@ -481,10 +456,8 @@ T454	IDENTITY_chain 12874 12879	E10.5
 T455	Noun_Phrase 12880 12884	Bmp4
 T456	Noun_Phrase 12901 12979	the mouse limb mesenchyme in two stripes at the anterior and posterior margins
 T457	IDENTITY_chain 12901 12979	the mouse limb mesenchyme in two stripes at the anterior and posterior margins
-T458	Noun_Phrase 12945 12948;	the
-12962 12979	theposterior margins
-T459	Noun_Phrase 12945 12957;	the anterior
-12972 12979	the anteriormargins
+T458	Noun_Phrase 12945 12948;12962 12979	the posterior margins
+T459	Noun_Phrase 12945 12957;12972 12979	the anterior margins
 T460	Noun_Phrase 12945 12979	the anterior and posterior margins
 T461	Noun_Phrase 12981 13002	Figure 1C, red arrows
 T462	IDENTITY_chain 12981 13002	Figure 1C, red arrows
@@ -502,14 +475,10 @@ T473	Noun_Phrase 13193 13206	these domains
 T474	Noun_Phrase 13301 13320	BMP-Deficient Limbs
 T475	IDENTITY_chain 13301 13320	BMP-Deficient Limbs
 T476	Noun_Phrase 13322 13326	Mice
-T477	Noun_Phrase 13347 13365;	limbs deficient in
-13381 13385	limbs deficient inBMP7
-T478	IDENTITY_chain 13347 13365;	limbs deficient in
-13381 13385	limbs deficient inBMP7
-T479	Noun_Phrase 13347 13365;	limbs deficient in
-13387 13405	limbs deficient inboth BMP2 and BMP4
-T480	Noun_Phrase 13347 13365;	limbs deficient in
-13410 13428	limbs deficient inboth BMP2 and BMP7
+T477	Noun_Phrase 13347 13365;13381 13385	limbs deficient in BMP7
+T478	IDENTITY_chain 13347 13365;13381 13385	limbs deficient in BMP7
+T479	Noun_Phrase 13347 13365;13387 13405	limbs deficient in both BMP2 and BMP4
+T480	Noun_Phrase 13347 13365;13410 13428	limbs deficient in both BMP2 and BMP7
 T481	Noun_Phrase 13347 13370	limbs deficient in BMP2
 T482	IDENTITY_chain 13347 13370	limbs deficient in BMP2
 T483	Noun_Phrase 13366 13370	BMP2
@@ -531,10 +500,8 @@ T498	Noun_Phrase 13630 13646	skeletal pattern
 T499	IDENTITY_chain 13630 13646	skeletal pattern
 T500	Noun_Phrase 13671 13685	chondrogenesis
 T501	Noun_Phrase 13690 13702	osteogenesis
-T502	Noun_Phrase 13716 13727;	Alcian blue
-13741 13749	Alcian bluestaining
-T503	IDENTITY_chain 13716 13727;	Alcian blue
-13741 13749	Alcian bluestaining
+T502	Noun_Phrase 13716 13727;13741 13749	Alcian blue staining
+T503	IDENTITY_chain 13716 13727;13741 13749	Alcian blue staining
 T504	Noun_Phrase 13777 13802	the appendicular skeleton
 T505	IDENTITY_chain 13777 13802	the appendicular skeleton
 T506	Noun_Phrase 13806 13819	these animals
@@ -549,26 +516,20 @@ T514	Noun_Phrase 14125 14153	the absence of BMP4 activity
 T515	IDENTITY_chain 14125 14153	the absence of BMP4 activity
 T516	Noun_Phrase 14140 14144	BMP4
 T517	Noun_Phrase 14140 14153	BMP4 activity
-T518	Noun_Phrase 14194 14202;	preaxial
-14217 14228	preaxialpolydactyly
-T519	IDENTITY_chain 14194 14202;	preaxial
-14217 14228	preaxialpolydactyly
+T518	Noun_Phrase 14194 14202;14217 14228	preaxial polydactyly
+T519	IDENTITY_chain 14194 14202;14217 14228	preaxial polydactyly
 T520	Noun_Phrase 14194 14228	preaxial and postaxial polydactyly
 T521	IDENTITY_chain 14194 14228	preaxial and postaxial polydactyly
-T522	Noun_Phrase 14315 14321;	Figure
-14329 14331	Figure1O
-T523	IDENTITY_chain 14315 14321;	Figure
-14329 14331	Figure1O
+T522	Noun_Phrase 14315 14321;14329 14331	Figure 1O
+T523	IDENTITY_chain 14315 14321;14329 14331	Figure 1O
 T524	Noun_Phrase 14315 14324	Figure 1G
 T525	IDENTITY_chain 14315 14324	Figure 1G
 T526	Noun_Phrase 14315 14331	Figure 1G and 1O
 T527	IDENTITY_chain 14315 14331	Figure 1G and 1O
 T528	Noun_Phrase 14370 14413	mice homozygous for a null mutation in Bmp7
 T529	Noun_Phrase 14409 14413	Bmp7
-T530	Noun_Phrase 14498 14504;	Figure
-14512 14514	Figure1P
-T531	IDENTITY_chain 14498 14504;	Figure
-14512 14514	Figure1P
+T530	Noun_Phrase 14498 14504;14512 14514	Figure 1P
+T531	IDENTITY_chain 14498 14504;14512 14514	Figure 1P
 T532	Noun_Phrase 14498 14507	Figure 1H
 T533	IDENTITY_chain 14498 14507	Figure 1H
 T534	Noun_Phrase 14498 14514	Figure 1H and 1P
@@ -594,10 +555,8 @@ T553	Noun_Phrase 14918 14926	the limb
 T554	Noun_Phrase 15072 15109	mice deficient in BMP4 activity alone
 T555	Noun_Phrase 15090 15094	BMP4
 T556	Noun_Phrase 15090 15103	BMP4 activity
-T557	Noun_Phrase 15111 15117;	Figure
-15125 15127	Figure1R
-T558	IDENTITY_chain 15111 15117;	Figure
-15125 15127	Figure1R
+T557	Noun_Phrase 15111 15117;15125 15127	Figure 1R
+T558	IDENTITY_chain 15111 15117;15125 15127	Figure 1R
 T559	Noun_Phrase 15111 15120	Figure 1J
 T560	IDENTITY_chain 15111 15120	Figure 1J
 T561	Noun_Phrase 15111 15127	Figure 1J and 1R
@@ -609,25 +568,20 @@ T566	IDENTITY_chain 15157 15176	both copies of Bmp2
 T567	Noun_Phrase 15172 15176	Bmp2
 T568	Noun_Phrase 15193 15197	Bmp4
 T569	Noun_Phrase 15364 15377	those animals
-T570	Noun_Phrase 15401 15407;	Figure
-15415 15417	Figure1Q
-T571	IDENTITY_chain 15401 15407;	Figure
-15415 15417	Figure1Q
+T570	Noun_Phrase 15401 15407;15415 15417	Figure 1Q
+T571	IDENTITY_chain 15401 15407;15415 15417	Figure 1Q
 T572	Noun_Phrase 15401 15410	Figure 1I
 T573	IDENTITY_chain 15401 15410	Figure 1I
 T574	Noun_Phrase 15401 15417	Figure 1I and 1Q
 T575	IDENTITY_chain 15401 15417	Figure 1I and 1Q
 T576	Noun_Phrase 15420 15478	Animals in which both copies of Bmp2 and Bmp4 were removed
 T577	IDENTITY_chain 15420 15478	Animals in which both copies of Bmp2 and Bmp4 were removed
-T578	Noun_Phrase 15437 15451;	both copies of
-15461 15465	both copies ofBmp4
+T578	Noun_Phrase 15437 15451;15461 15465	both copies of Bmp4
 T579	Noun_Phrase 15437 15456	both copies of Bmp2
 T580	Noun_Phrase 15452 15456	Bmp2
 T581	Noun_Phrase 15461 15465	Bmp4
-T582	Noun_Phrase 15540 15546;	Figure
-15554 15556	Figure1S
-T583	IDENTITY_chain 15540 15546;	Figure
-15554 15556	Figure1S
+T582	Noun_Phrase 15540 15546;15554 15556	Figure 1S
+T583	IDENTITY_chain 15540 15546;15554 15556	Figure 1S
 T584	Noun_Phrase 15540 15549	Figure 1K
 T585	IDENTITY_chain 15540 15549	Figure 1K
 T586	Noun_Phrase 15540 15556	Figure 1K and 1S
@@ -639,8 +593,7 @@ T591	Noun_Phrase 15621 15642	the zeugopod elements
 T592	IDENTITY_chain 15621 15642	the zeugopod elements
 T593	Nonreferential_pronoun 15713 15715	it
 T594	Noun_Phrase 15742 15753	the element
-T595	Noun_Phrase 15823 15831;	zeugopod
-15845 15853	zeugopodelements
+T595	Noun_Phrase 15823 15831;15845 15853	zeugopod elements
 T596	Noun_Phrase 15879 15893	Figure S1A–S1C
 T597	IDENTITY_chain 15879 15893	Figure S1A–S1C
 T598	Noun_Phrase 15911 15923	the autopods
@@ -650,8 +603,7 @@ T601	Noun_Phrase 16116 16129	these animals
 T602	Noun_Phrase 16156 16160	BMP2
 T603	Noun_Phrase 16156 16169	BMP2 and BMP7
 T604	Noun_Phrase 16165 16169	BMP7
-T605	Noun_Phrase 16216 16220;	BMP2
-16230 16238	BMP2activity
+T605	Noun_Phrase 16216 16220;16230 16238	BMP2 activity
 T606	Noun_Phrase 16216 16220	BMP2
 T607	Noun_Phrase 16225 16229	BMP4
 T608	Noun_Phrase 16225 16238	BMP4 activity
@@ -660,8 +612,7 @@ T610	Noun_Phrase 16273 16286	BMP2 and BMP7
 T611	Noun_Phrase 16282 16286	BMP7
 T612	Noun_Phrase 16345 16349	BMP2
 T613	Noun_Phrase 16375 16379	BMP7
-T614	Noun_Phrase 16444 16452;	skeletal
-16465 16480	skeletaldifferentiation
+T614	Noun_Phrase 16444 16452;16465 16480	skeletal differentiation
 T615	Noun_Phrase 16444 16460	skeletal pattern
 T616	Noun_Phrase 16532 16536	Bmp2
 T617	Noun_Phrase 16558 16562	Bmp7
@@ -670,8 +621,7 @@ T619	IDENTITY_chain 16643 16669	Bmp2C/C; Prx1::cre mutants
 T620	Noun_Phrase 16699 16770	limbs developing in the complete absence of both BMP7 and BMP2 activity
 T621	Noun_Phrase 16719 16770	the complete absence of both BMP7 and BMP2 activity
 T622	Noun_Phrase 16743 16770	both BMP7 and BMP2 activity
-T623	Noun_Phrase 16748 16752;	BMP7
-16762 16770	BMP7activity
+T623	Noun_Phrase 16748 16752;16762 16770	BMP7 activity
 T624	Noun_Phrase 16748 16752	BMP7
 T625	Noun_Phrase 16757 16761	BMP2
 T626	Noun_Phrase 16757 16770	BMP2 activity
@@ -694,8 +644,7 @@ T642	Noun_Phrase 17323 17349	the limbs of these animals
 T643	Noun_Phrase 17336 17349	these animals
 T644	Noun_Phrase 17387 17433	Limbs of Mice Devoid of BMP2 and BMP4 Activity
 T645	Noun_Phrase 17396 17433	Mice Devoid of BMP2 and BMP4 Activity
-T646	Noun_Phrase 17411 17415;	BMP2
-17425 17433	BMP2Activity
+T646	Noun_Phrase 17411 17415;17425 17433	BMP2 Activity
 T647	Noun_Phrase 17411 17415	BMP2
 T648	Noun_Phrase 17420 17424	BMP4
 T649	Noun_Phrase 17420 17433	BMP4 Activity
@@ -753,10 +702,8 @@ T700	Noun_Phrase 19145 19160	wild-type limbs
 T701	IDENTITY_chain 19145 19160	wild-type limbs
 T702	Noun_Phrase 19275 19279	Fgf8
 T703	IDENTITY_chain 19275 19279	Fgf8
-T704	Noun_Phrase 19281 19287;	Figure
-19295 19297	Figure2J
-T705	IDENTITY_chain 19281 19287;	Figure
-19295 19297	Figure2J
+T704	Noun_Phrase 19281 19287;19295 19297	Figure 2J
+T705	IDENTITY_chain 19281 19287;19295 19297	Figure 2J
 T706	Noun_Phrase 19281 19290	Figure 2I
 T707	IDENTITY_chain 19281 19290	Figure 2I
 T708	Noun_Phrase 19281 19297	Figure 2I and 2J
@@ -770,8 +717,7 @@ T715	Noun_Phrase 19605 19608	AER
 T716	Noun_Phrase 19610 19629	Figure 2H, asterisk
 T717	IDENTITY_chain 19610 19629	Figure 2H, asterisk
 T718	Noun_Phrase 19667 19674	the AER
-T719	Noun_Phrase 19716 19722;	Figure
-19730 19732	Figure2J
+T719	Noun_Phrase 19716 19722;19730 19732	Figure 2J
 T720	Noun_Phrase 19716 19725	Figure 2F
 T721	IDENTITY_chain 19716 19725	Figure 2F
 T722	Noun_Phrase 19817 19824	the AER
@@ -793,8 +739,7 @@ T737	Noun_Phrase 20503 20507	BMP7
 T738	Noun_Phrase 20553 20556	SHH
 T739	Noun_Phrase 20558 20560	We
 T740	Noun_Phrase 20574 20603	both BMP2 and BMP7 activities
-T741	Noun_Phrase 20579 20583;	BMP2
-20593 20603	BMP2activities
+T741	Noun_Phrase 20579 20583;20593 20603	BMP2 activities
 T742	Noun_Phrase 20579 20583	BMP2
 T743	Noun_Phrase 20579 20592	BMP2 and BMP7
 T744	Noun_Phrase 20588 20592	BMP7
@@ -808,19 +753,14 @@ T751	Noun_Phrase 20738 20750	Figure 3A–3D
 T752	IDENTITY_chain 20738 20750	Figure 3A–3D
 T753	Noun_Phrase 20753 20851	The skeletal phenotypes of mouse limbs formed in the absence of BMP2, BMP7, and both BMP2 and BMP7
 T754	IDENTITY_chain 20753 20851	The skeletal phenotypes of mouse limbs formed in the absence of BMP2, BMP7, and both BMP2 and BMP7
-T755	Noun_Phrase 20780 20816;	mouse limbs formed in the absence of
-20823 20827	mouse limbs formed in the absence ofBMP7
-T756	Noun_Phrase 20780 20816;	mouse limbs formed in the absence of
-20833 20851	mouse limbs formed in the absence ofboth BMP2 and BMP7
+T755	Noun_Phrase 20780 20816;20823 20827	mouse limbs formed in the absence of BMP7
+T756	Noun_Phrase 20780 20816;20833 20851	mouse limbs formed in the absence of both BMP2 and BMP7
 T757	Noun_Phrase 20780 20821	mouse limbs formed in the absence of BMP2
 T758	Noun_Phrase 20780 20851	mouse limbs formed in the absence of BMP2, BMP7, and both BMP2 and BMP7
 T759	IDENTITY_chain 20780 20851	mouse limbs formed in the absence of BMP2, BMP7, and both BMP2 and BMP7
-T760	Noun_Phrase 20802 20816;	the absence of
-20823 20827	the absence ofBMP7
-T761	IDENTITY_chain 20802 20816;	the absence of
-20823 20827	the absence ofBMP7
-T762	Noun_Phrase 20802 20816;	the absence of
-20833 20851	the absence ofboth BMP2 and BMP7
+T760	Noun_Phrase 20802 20816;20823 20827	the absence of BMP7
+T761	IDENTITY_chain 20802 20816;20823 20827	the absence of BMP7
+T762	Noun_Phrase 20802 20816;20833 20851	the absence of both BMP2 and BMP7
 T763	Noun_Phrase 20802 20821	the absence of BMP2
 T764	IDENTITY_chain 20802 20821	the absence of BMP2
 T765	Noun_Phrase 20817 20821	BMP2
@@ -840,8 +780,7 @@ T778	Noun_Phrase 21344 21348	BMP7
 T779	Noun_Phrase 21434 21461	the anterior-posterior axis
 T780	Noun_Phrase 21495 21509	digit identity
 T781	Noun_Phrase 21542 21579	the absence of BMP2 and BMP7 activity
-T782	Noun_Phrase 21557 21561;	BMP2
-21571 21579	BMP2activity
+T782	Noun_Phrase 21557 21561;21571 21579	BMP2 activity
 T783	Noun_Phrase 21557 21561	BMP2
 T784	Noun_Phrase 21557 21570	BMP2 and BMP7
 T785	Noun_Phrase 21566 21570	BMP7
@@ -908,10 +847,8 @@ T845	Noun_Phrase 23381 23386	E10.5
 T846	Noun_Phrase 23415 23420	E12.5
 T847	IDENTITY_chain 23415 23420	E12.5
 T848	Noun_Phrase 23449 23452	Shh
-T849	Noun_Phrase 23486 23492;	Figure
-23500 23502	Figure3P
-T850	IDENTITY_chain 23486 23492;	Figure
-23500 23502	Figure3P
+T849	Noun_Phrase 23486 23492;23500 23502	Figure 3P
+T850	IDENTITY_chain 23486 23492;23500 23502	Figure 3P
 T851	Noun_Phrase 23486 23495	Figure 3L
 T852	IDENTITY_chain 23486 23495	Figure 3L
 T853	Noun_Phrase 23486 23502	Figure 3L and 3P
@@ -943,10 +880,8 @@ T878	Noun_Phrase 24141 24163	the skeletal phenotype
 T879	Noun_Phrase 24228 24257	the formation of extra digits
 T880	Noun_Phrase 24259 24270	polydactyly
 T881	APPOS_relation 24259 24270	polydactyly
-T882	Noun_Phrase 24279 24285;	Figure
-24293 24309	Figure1O of this paper
-T883	Noun_Phrase 24279 24288;	Figure 1G
-24296 24309	Figure 1Gof this paper
+T882	Noun_Phrase 24279 24285;24293 24309	Figure 1O of this paper
+T883	Noun_Phrase 24279 24288;24296 24309	Figure 1G of this paper
 T884	Noun_Phrase 24279 24309	Figure 1G and 1O of this paper
 T885	Noun_Phrase 24299 24309	this paper
 T886	IDENTITY_chain 24299 24309	this paper
@@ -1004,8 +939,7 @@ T937	Noun_Phrase 25799 25814	these forelimbs
 T938	Noun_Phrase 25833 25845	the hindlimb
 T939	Noun_Phrase 25849 25859	the mutant
 T940	Noun_Phrase 25898 25912	this threshold
-T941	Noun_Phrase 25979 25986;	Figures
-25994 25996	Figures1S
+T941	Noun_Phrase 25979 25986;25994 25996	Figures 1S
 T942	Noun_Phrase 25979 25989	Figures 3K
 T943	IDENTITY_chain 25979 25989	Figures 3K
 T944	Noun_Phrase 26027 26031	Msx2
@@ -1017,12 +951,9 @@ T949	Noun_Phrase 26203 26208	their
 T950	Noun_Phrase 26232 26234	We
 T951	Noun_Phrase 26520 26608	The skeletal elements that formed in the absence of BMP2, BMP4, or BMP7 or BMP2 and BMP7
 T952	IDENTITY_chain 26520 26608	The skeletal elements that formed in the absence of BMP2, BMP4, or BMP7 or BMP2 and BMP7
-T953	Noun_Phrase 26557 26571;	the absence of
-26578 26582	the absence ofBMP4
-T954	Noun_Phrase 26557 26571;	the absence of
-26587 26591	the absence ofBMP7
-T955	Noun_Phrase 26557 26571;	the absence of
-26595 26608	the absence ofBMP2 and BMP7
+T953	Noun_Phrase 26557 26571;26578 26582	the absence of BMP4
+T954	Noun_Phrase 26557 26571;26587 26591	the absence of BMP7
+T955	Noun_Phrase 26557 26571;26595 26608	the absence of BMP2 and BMP7
 T956	Noun_Phrase 26557 26576	the absence of BMP2
 T957	Noun_Phrase 26572 26576	BMP2
 T958	Noun_Phrase 26578 26582	BMP4
@@ -1039,10 +970,8 @@ T968	Noun_Phrase 26866 26880	toluidine blue
 T969	IDENTITY_chain 26866 26880	toluidine blue
 T970	Noun_Phrase 26892 26899	osteoid
 T971	IDENTITY_chain 26892 26899	osteoid
-T972	Noun_Phrase 26946 26952;	Figure
-26961 26964	FigureS2E
-T973	IDENTITY_chain 26946 26952;	Figure
-26961 26964	FigureS2E
+T972	Noun_Phrase 26946 26952;26961 26964	Figure S2E
+T973	IDENTITY_chain 26946 26952;26961 26964	Figure S2E
 T974	Noun_Phrase 26946 26956	Figure S2A
 T975	IDENTITY_chain 26946 26956	Figure S2A
 T976	Noun_Phrase 26989 27049	The skeletal elements in these various BMP-deficient animals
@@ -1062,8 +991,7 @@ T989	Noun_Phrase 27308 27322	Figure S2B–S2D
 T990	IDENTITY_chain 27308 27322	Figure S2B–S2D
 T991	Noun_Phrase 27369 27426	limbs completely deficient in both BMP2 and BMP4 activity
 T992	Noun_Phrase 27399 27426	both BMP2 and BMP4 activity
-T993	Noun_Phrase 27404 27408;	BMP2
-27418 27426	BMP2activity
+T993	Noun_Phrase 27404 27408;27418 27426	BMP2 activity
 T994	Noun_Phrase 27404 27408	BMP2
 T995	Noun_Phrase 27413 27417	BMP4
 T996	Noun_Phrase 27413 27426	BMP4 activity
@@ -1082,10 +1010,8 @@ T1008	Noun_Phrase 27745 27750	E11.5
 T1009	Noun_Phrase 27811 27841	the proximal skeletal elements
 T1010	Noun_Phrase 27843 27857	Figure S1H–S1M
 T1011	IDENTITY_chain 27843 27857	Figure S1H–S1M
-T1012	Noun_Phrase 27933 27939;	Figure
-27948 27951	FigureS1O
-T1013	IDENTITY_chain 27933 27939;	Figure
-27948 27951	FigureS1O
+T1012	Noun_Phrase 27933 27939;27948 27951	Figure S1O
+T1013	IDENTITY_chain 27933 27939;27948 27951	Figure S1O
 T1014	Noun_Phrase 27933 27943	Figure S1N
 T1015	IDENTITY_chain 27933 27943	Figure S1N
 T1016	Noun_Phrase 27933 27951	Figure S1N and S1O
@@ -1101,10 +1027,8 @@ T1025	IDENTITY_chain 28138 28143	E13.5
 T1026	Noun_Phrase 28201 28215	chondrogenesis
 T1027	Noun_Phrase 28219 28239	Alcian blue staining
 T1028	Noun_Phrase 28275 28309	the BMP2, BMP4–deficient limb buds
-T1029	Noun_Phrase 28311 28317;	Figure
-28325 28327	Figure4B
-T1030	IDENTITY_chain 28311 28317;	Figure
-28325 28327	Figure4B
+T1029	Noun_Phrase 28311 28317;28325 28327	Figure 4B
+T1030	IDENTITY_chain 28311 28317;28325 28327	Figure 4B
 T1031	Noun_Phrase 28311 28320	Figure 4A
 T1032	IDENTITY_chain 28311 28320	Figure 4A
 T1033	Noun_Phrase 28311 28327	Figure 4A and 4B
@@ -1116,10 +1040,8 @@ T1038	IDENTITY_chain 28394 28422	hypertrophic differentiation
 T1039	Noun_Phrase 28534 28539	E13.5
 T1040	Noun_Phrase 28558 28586	chondrogenic differentiation
 T1041	Noun_Phrase 28640 28668	hypertrophic differentiation
-T1042	Noun_Phrase 28682 28688;	Figure
-28696 28698	Figure4D
-T1043	IDENTITY_chain 28682 28688;	Figure
-28696 28698	Figure4D
+T1042	Noun_Phrase 28682 28688;28696 28698	Figure 4D
+T1043	IDENTITY_chain 28682 28688;28696 28698	Figure 4D
 T1044	Noun_Phrase 28682 28691	Figure 4C
 T1045	IDENTITY_chain 28682 28691	Figure 4C
 T1046	Noun_Phrase 28682 28698	Figure 4C and 4D
@@ -1127,10 +1049,8 @@ T1047	IDENTITY_chain 28682 28698	Figure 4C and 4D
 T1048	Noun_Phrase 28713 28718	E15.5
 T1049	Noun_Phrase 28747 28761	these elements
 T1050	Noun_Phrase 28773 28788	type X collagen
-T1051	Noun_Phrase 28801 28807;	Figure
-28815 28817	Figure4F
-T1052	IDENTITY_chain 28801 28807;	Figure
-28815 28817	Figure4F
+T1051	Noun_Phrase 28801 28807;28815 28817	Figure 4F
+T1052	IDENTITY_chain 28801 28807;28815 28817	Figure 4F
 T1053	Noun_Phrase 28801 28810	Figure 4E
 T1054	IDENTITY_chain 28801 28810	Figure 4E
 T1055	Noun_Phrase 28801 28817	Figure 4E and 4F
@@ -1176,10 +1096,8 @@ T1094	Noun_Phrase 29873 29877	BMP2
 T1095	Noun_Phrase 29873 29886	BMP2 and BMP4
 T1096	Noun_Phrase 29882 29886	BMP4
 T1097	Noun_Phrase 30032 30059	the osteoblast marker Col I
-T1098	Noun_Phrase 30071 30077;	Figure
-30085 30087	Figure5D
-T1099	IDENTITY_chain 30071 30077;	Figure
-30085 30087	Figure5D
+T1098	Noun_Phrase 30071 30077;30085 30087	Figure 5D
+T1099	IDENTITY_chain 30071 30077;30085 30087	Figure 5D
 T1100	Noun_Phrase 30071 30080	Figure 5C
 T1101	IDENTITY_chain 30071 30080	Figure 5C
 T1102	Noun_Phrase 30071 30087	Figure 5C and 5D
@@ -1188,10 +1106,8 @@ T1104	Noun_Phrase 30093 30098	E17.5
 T1105	IDENTITY_chain 30093 30098	E17.5
 T1106	Noun_Phrase 30305 30325	a bone marrow cavity
 T1107	IDENTITY_chain 30305 30325	a bone marrow cavity
-T1108	Noun_Phrase 30340 30346;	Figure
-30354 30356	Figure5I
-T1109	IDENTITY_chain 30340 30346;	Figure
-30354 30356	Figure5I
+T1108	Noun_Phrase 30340 30346;30354 30356	Figure 5I
+T1109	IDENTITY_chain 30340 30346;30354 30356	Figure 5I
 T1110	Noun_Phrase 30340 30349	Figure 5E
 T1111	IDENTITY_chain 30340 30349	Figure 5E
 T1112	Noun_Phrase 30340 30356	Figure 5E and 5I
@@ -1242,10 +1158,8 @@ T1156	Noun_Phrase 31362 31366	bone
 T1157	Noun_Phrase 31375 31385	these BMPs
 T1158	Noun_Phrase 31387 31389	we
 T1159	Noun_Phrase 31425 31457	Bmp2C/C; Bmp4C/C; Prx1::cre mice
-T1160	Noun_Phrase 31490 31496;	Figure
-31508 31510	Figure6E
-T1161	IDENTITY_chain 31490 31496;	Figure
-31508 31510	Figure6E
+T1160	Noun_Phrase 31490 31496;31508 31510	Figure 6E
+T1161	IDENTITY_chain 31490 31496;31508 31510	Figure 6E
 T1162	Noun_Phrase 31490 31499	Figure 6A
 T1163	IDENTITY_chain 31490 31499	Figure 6A
 T1164	Noun_Phrase 31490 31510	Figure 6A through 6E
@@ -1253,10 +1167,8 @@ T1165	IDENTITY_chain 31490 31510	Figure 6A through 6E
 T1166	Noun_Phrase 31515 31531	the control mice
 T1167	IDENTITY_chain 31515 31531	the control mice
 T1168	Noun_Phrase 31580 31610	late hypertrophic chondrocytes
-T1169	Noun_Phrase 31620 31626;	Figure
-31634 31636	Figure6B
-T1170	IDENTITY_chain 31620 31626;	Figure
-31634 31636	Figure6B
+T1169	Noun_Phrase 31620 31626;31634 31636	Figure 6B
+T1170	IDENTITY_chain 31620 31626;31634 31636	Figure 6B
 T1171	Noun_Phrase 31620 31629	Figure 6A
 T1172	Noun_Phrase 31718 31739	Figure 6C, blue arrow
 T1173	IDENTITY_chain 31718 31739	Figure 6C, blue arrow
@@ -1305,24 +1217,16 @@ T1215	Noun_Phrase 32745 32749	bone
 T1216	Noun_Phrase 32745 32759	bone formation
 T1217	Noun_Phrase 32782 32791	Figure 6J
 T1218	IDENTITY_chain 32782 32791	Figure 6J
-T1219	Noun_Phrase 32802 32809;	Figures
-32817 32819	FiguresS3
-T1220	IDENTITY_chain 32802 32809;	Figures
-32817 32819	FiguresS3
+T1219	Noun_Phrase 32802 32809;32817 32819	Figures S3
+T1220	IDENTITY_chain 32802 32809;32817 32819	Figures S3
 T1221	Noun_Phrase 32802 32812	Figures 6L
 T1222	Noun_Phrase 32822 32831	This void
-T1223	Noun_Phrase 32902 32903;	s
-32925 32937	sin Figure 6J
-T1224	IDENTITY_chain 32902 32903;	s
-32925 32937	sin Figure 6J
-T1225	Noun_Phrase 32902 32909;	s and m
-32925 32937	s and min Figure 6J
-T1226	IDENTITY_chain 32902 32909;	s and m
-32925 32937	s and min Figure 6J
-T1227	Noun_Phrase 32908 32909;	m
-32925 32937	min Figure 6J
-T1228	IDENTITY_chain 32908 32909;	m
-32925 32937	min Figure 6J
+T1223	Noun_Phrase 32902 32903;32925 32937	s in Figure 6J
+T1224	IDENTITY_chain 32902 32903;32925 32937	s in Figure 6J
+T1225	Noun_Phrase 32902 32909;32925 32937	s and m in Figure 6J
+T1226	IDENTITY_chain 32902 32909;32925 32937	s and m in Figure 6J
+T1227	Noun_Phrase 32908 32909;32925 32937	m in Figure 6J
+T1228	IDENTITY_chain 32908 32909;32925 32937	m in Figure 6J
 T1229	Noun_Phrase 32928 32937	Figure 6J
 T1230	Noun_Phrase 32958 32962	bone
 T1231	Noun_Phrase 33079 33101	Figure 6L, black arrow
@@ -1330,10 +1234,8 @@ T1232	IDENTITY_chain 33079 33101	Figure 6L, black arrow
 T1233	Noun_Phrase 33130 33140	osteoblast
 T1234	IDENTITY_chain 33130 33140	osteoblast
 T1235	Noun_Phrase 33160 33196	the Bmp2C/C; Bmp4C/C; Prx1::cre mice
-T1236	Noun_Phrase 33269 33275;	Figure
-33284 33287	FigureS3H
-T1237	IDENTITY_chain 33269 33275;	Figure
-33284 33287	FigureS3H
+T1236	Noun_Phrase 33269 33275;33284 33287	Figure S3H
+T1237	IDENTITY_chain 33269 33275;33284 33287	Figure S3H
 T1238	Noun_Phrase 33269 33279	Figure S3G
 T1239	IDENTITY_chain 33269 33279	Figure S3G
 T1240	Noun_Phrase 33348 33385	Bmp2C/C; Bmp4C/C; Prx1::cre forelimbs
@@ -1341,27 +1243,19 @@ T1241	Noun_Phrase 33387 33389	we
 T1242	Noun_Phrase 33435 33443	Figure 7
 T1243	IDENTITY_chain 33435 33443	Figure 7
 T1244	Noun_Phrase 33449 33465	the control mice
-T1245	Noun_Phrase 33467 33500;	osteoblasts lining the surface of
-33516 33529	osteoblasts lining the surface ofcortical bone
-T1246	IDENTITY_chain 33467 33500;	osteoblasts lining the surface of
-33516 33529	osteoblasts lining the surface ofcortical bone
-T1247	Noun_Phrase 33501 33511;	trabecular
-33525 33529	trabecularbone
+T1245	Noun_Phrase 33467 33500;33516 33529	osteoblasts lining the surface of cortical bone
+T1246	IDENTITY_chain 33467 33500;33516 33529	osteoblasts lining the surface of cortical bone
+T1247	Noun_Phrase 33501 33511;33525 33529	trabecular bone
 T1248	Noun_Phrase 33516 33529	cortical bone
-T1249	Noun_Phrase 33538 33553;	type I collagen
-33574 33579	type I collagengenes
+T1249	Noun_Phrase 33538 33553;33574 33579	type I collagen genes
 T1250	Noun_Phrase 33538 33579	type I collagen, runx2, and osterix genes
 T1251	IDENTITY_chain 33538 33579	type I collagen, runx2, and osterix genes
-T1252	Noun_Phrase 33555 33560;	runx2
-33574 33579	runx2genes
-T1253	IDENTITY_chain 33555 33560;	runx2
-33574 33579	runx2genes
+T1252	Noun_Phrase 33555 33560;33574 33579	runx2 genes
+T1253	IDENTITY_chain 33555 33560;33574 33579	runx2 genes
 T1254	Noun_Phrase 33566 33579	osterix genes
 T1255	IDENTITY_chain 33566 33579	osterix genes
-T1256	Noun_Phrase 33616 33622;	Figure
-33633 33638	Figure7I–7L
-T1257	IDENTITY_chain 33616 33622;	Figure
-33633 33638	Figure7I–7L
+T1256	Noun_Phrase 33616 33622;33633 33638	Figure 7I–7L
+T1257	IDENTITY_chain 33616 33622;33633 33638	Figure 7I–7L
 T1258	Noun_Phrase 33616 33628	Figure 7A–7D
 T1259	IDENTITY_chain 33616 33628	Figure 7A–7D
 T1260	Noun_Phrase 33644 33672	the absence of BMP2 and BMP4
@@ -1378,10 +1272,8 @@ T1270	Noun_Phrase 33838 33843	runx2
 T1271	Noun_Phrase 33866 33877	osteoblasts
 T1272	Noun_Phrase 33883 33888	their
 T1273	Noun_Phrase 33903 33910	osterix
-T1274	Noun_Phrase 33976 33982;	Figure
-33993 33998	Figure7M–7P
-T1275	IDENTITY_chain 33976 33982;	Figure
-33993 33998	Figure7M–7P
+T1274	Noun_Phrase 33976 33982;33993 33998	Figure 7M–7P
+T1275	IDENTITY_chain 33976 33982;33993 33998	Figure 7M–7P
 T1276	Noun_Phrase 33976 33988	Figure 7E–7H
 T1277	IDENTITY_chain 33976 33988	Figure 7E–7H
 T1278	Noun_Phrase 34021 34023	us
@@ -1402,11 +1294,9 @@ T1292	Noun_Phrase 34480 34484	BMP4
 T1293	Noun_Phrase 34565 34567	We
 T1294	Noun_Phrase 34589 34603	chondrogenesis
 T1295	Noun_Phrase 34625 34653	chondrogenic differentiation
-T1296	Noun_Phrase 34678 34697;	the absence of both
-34715 34728	the absence of bothBMP2 and BMP7
+T1296	Noun_Phrase 34678 34697;34715 34728	the absence of both BMP2 and BMP7
 T1297	Noun_Phrase 34678 34711	the absence of both BMP2 and BMP4
-T1298	Noun_Phrase 34693 34697;	both
-34715 34728	bothBMP2 and BMP7
+T1298	Noun_Phrase 34693 34697;34715 34728	both BMP2 and BMP7
 T1299	Noun_Phrase 34693 34711	both BMP2 and BMP4
 T1300	Noun_Phrase 34698 34702	BMP2
 T1301	Noun_Phrase 34707 34711	BMP4
@@ -1422,8 +1312,7 @@ T1310	Noun_Phrase 34881 34894	BMP signaling
 T1311	Noun_Phrase 34968 34975	the ZPA
 T1312	Noun_Phrase 35069 35073	BMP2
 T1313	APPOS_relation 35069 35073	BMP2
-T1314	Noun_Phrase 35075 35115;	a secreted factor that is induced by SHH
-35120 35145	a secreted factor that is induced by SHHin the posterior limb bud
+T1314	Noun_Phrase 35075 35115;35120 35145	a secreted factor that is induced by SHH in the posterior limb bud
 T1315	Noun_Phrase 35112 35115	SHH
 T1316	Noun_Phrase 35123 35145	the posterior limb bud
 T1317	Noun_Phrase 35206 35219	SHH signaling
@@ -1514,8 +1403,7 @@ T1401	Noun_Phrase 39167 39204	the identical Bmp4 conditional allele
 T1402	Noun_Phrase 39209 39225	Prx1::cre driver
 T1403	IDENTITY_chain 39209 39225	Prx1::cre driver
 T1404	Noun_Phrase 39252 39256	ours
-T1405	Noun_Phrase 39268 39276;	preaxial
-39291 39302	preaxialpolydactyly
+T1405	Noun_Phrase 39268 39276;39291 39302	preaxial polydactyly
 T1406	Noun_Phrase 39268 39302	preaxial and postaxial polydactyly
 T1407	Noun_Phrase 39327 39343	these phenotypes
 T1408	Noun_Phrase 39445 39447	we
@@ -1535,8 +1423,7 @@ T1421	Noun_Phrase 39834 39854	the Prx1::cre driver
 T1422	Nonreferential_pronoun 39856 39858	It
 T1423	Noun_Phrase 39997 39999	we
 T1424	Noun_Phrase 40048 40052	BMP4
-T1425	Noun_Phrase 40119 40122;	the
-40134 40153	thewild-type limb buds
+T1425	Noun_Phrase 40119 40122;40134 40153	the wild-type limb buds
 T1426	Noun_Phrase 40325 40338	BMP signaling
 T1427	Noun_Phrase 40342 40364	interdigital apoptosis
 T1428	Noun_Phrase 40388 40390	we
@@ -1587,10 +1474,8 @@ T1472	Noun_Phrase 41584 41608	mesenchymal condensation
 T1473	Noun_Phrase 41709 41722	BMP signaling
 T1474	Noun_Phrase 41726 41740	chondrogenesis
 T1475	Noun_Phrase 41774 41778	mice
-T1476	Noun_Phrase 41784 41793;	both Alk3
-41803 41811	both Alk3and Alk6
-T1477	APPOS_relation 41784 41793;	both Alk3
-41803 41811	both Alk3and Alk6
+T1476	Noun_Phrase 41784 41793;41803 41811	both Alk3 and Alk6
+T1477	APPOS_relation 41784 41793;41803 41811	both Alk3 and Alk6
 T1478	Noun_Phrase 41789 41793	Alk3
 T1479	IDENTITY_chain 41789 41793	Alk3
 T1480	Noun_Phrase 41807 41811	Alk6
@@ -1607,25 +1492,20 @@ T1490	Noun_Phrase 42364 42368	bone
 T1491	Nonreferential_pronoun 42397 42399	It
 T1492	Noun_Phrase 42417 42473	a triple mutant removing BMP2, BMP4, and BMP7 activities
 T1493	IDENTITY_chain 42417 42473	a triple mutant removing BMP2, BMP4, and BMP7 activities
-T1494	Noun_Phrase 42442 42446;	BMP2
-42463 42473	BMP2activities
+T1494	Noun_Phrase 42442 42446;42463 42473	BMP2 activities
 T1495	Noun_Phrase 42442 42446	BMP2
 T1496	Noun_Phrase 42442 42462	BMP2, BMP4, and BMP7
-T1497	Noun_Phrase 42448 42452;	BMP4
-42463 42473	BMP4activities
+T1497	Noun_Phrase 42448 42452;42463 42473	BMP4 activities
 T1498	Noun_Phrase 42448 42452	BMP4
-T1499	Noun_Phrase 42458 42462;	BMP7
-42463 42473	BMP7activities
+T1499	Noun_Phrase 42458 42462;42463 42473	BMP7 activities
 T1500	Noun_Phrase 42458 42462	BMP7
 T1501	Noun_Phrase 42600 42602	We
 T1502	Noun_Phrase 42626 42638	osteogenesis
 T1503	Noun_Phrase 42655 42665	these mice
 T1504	Noun_Phrase 42676 42680	bone
 T1505	Noun_Phrase 42676 42690	bone formation
-T1506	Noun_Phrase 42761 42764;	the
-42773 42782	theBmp4 gene
-T1507	Noun_Phrase 42761 42769;	the Bmp2
-42778 42782	the Bmp2gene
+T1506	Noun_Phrase 42761 42764;42773 42782	the Bmp4 gene
+T1507	Noun_Phrase 42761 42769;42778 42782	the Bmp2 gene
 T1508	Noun_Phrase 42784 42793	Figure S4
 T1509	IDENTITY_chain 42784 42793	Figure S4
 T1510	Noun_Phrase 42799 42801	it
@@ -1633,8 +1513,7 @@ T1511	Noun_Phrase 42810 42852	mice completely deficient in BMP2 and BMP7
 T1512	Noun_Phrase 42839 42843	BMP2
 T1513	Noun_Phrase 42839 42852	BMP2 and BMP7
 T1514	Noun_Phrase 42848 42852	BMP7
-T1515	Noun_Phrase 42854 42861;	Figures
-42868 42870	FiguresS2
+T1515	Noun_Phrase 42854 42861;42868 42870	Figures S2
 T1516	Noun_Phrase 42854 42863	Figures 1
 T1517	Noun_Phrase 42888 42890	we
 T1518	Noun_Phrase 42902 42943	limbs of Bmp2C/C; Bmp4C/C; Prx1::cre mice
@@ -1656,10 +1535,8 @@ T1533	Noun_Phrase 43377 43393	osteoprogenitors
 T1534	Noun_Phrase 43416 43418	we
 T1535	Noun_Phrase 43430 43437	osterix
 T1536	Noun_Phrase 43511 43539	both the Bmp2 and Bmp4 genes
-T1537	Noun_Phrase 43516 43519;	the
-43529 43539	theBmp4 genes
-T1538	Noun_Phrase 43516 43524;	the Bmp2
-43534 43539	the Bmp2genes
+T1537	Noun_Phrase 43516 43519;43529 43539	the Bmp4 genes
+T1538	Noun_Phrase 43516 43524;43534 43539	the Bmp2 genes
 T1539	Noun_Phrase 43748 43761	BMP signaling
 T1540	Noun_Phrase 43835 43847	osteogenesis
 T1541	Noun_Phrase 43860 43884	osteogenic BMP molecules
@@ -1684,10 +1561,8 @@ T1559	Noun_Phrase 44218 44222	BMP4
 T1560	Noun_Phrase 44224 44228	BMP5
 T1561	Noun_Phrase 44230 44234	BMP6
 T1562	Noun_Phrase 44240 44244	BMP7
-T1563	Noun_Phrase 44257 44265;	the same
-44300 44317	the sametype II receptors
-T1564	Noun_Phrase 44257 44272;	the same type I
-44308 44317	the same type Ireceptors
+T1563	Noun_Phrase 44257 44265;44300 44317	the same type II receptors
+T1564	Noun_Phrase 44257 44272;44308 44317	the same type I receptors
 T1565	Noun_Phrase 44274 44294	Alk2, Alk3, and Alk6
 T1566	APPOS_relation 44274 44294	Alk2, Alk3, and Alk6
 T1567	Noun_Phrase 44280 44284	Alk3
@@ -1709,14 +1584,10 @@ T1582	Noun_Phrase 44901 44904	our
 T1583	Noun_Phrase 44943 44947	Bmp2
 T1584	Noun_Phrase 44951 44955	Bmp4
 T1585	Noun_Phrase 45020 45052	Bmp2C/C; Bmp4C/C; Prx1::cre mice
-T1586	Noun_Phrase 45058 45065;	Figures
-45070 45072	Figures1J
-T1587	Noun_Phrase 45058 45065;	Figures
-45074 45076	Figures1Q
-T1588	Noun_Phrase 45058 45065;	Figures
-45082 45084	Figures1R
-T1589	Noun_Phrase 45058 45065;	Figures
-45089 45091	FiguresS4
+T1586	Noun_Phrase 45058 45065;45070 45072	Figures 1J
+T1587	Noun_Phrase 45058 45065;45074 45076	Figures 1Q
+T1588	Noun_Phrase 45058 45065;45082 45084	Figures 1R
+T1589	Noun_Phrase 45058 45065;45089 45091	Figures S4
 T1590	Noun_Phrase 45058 45068	Figures 1I
 T1591	Noun_Phrase 45094 45096	we
 T1592	Noun_Phrase 45123 45127	bone
@@ -1747,10 +1618,8 @@ T1616	Noun_Phrase 45633 45647	chondrogenesis
 T1617	Noun_Phrase 45704 45710	Xylene
 T1618	IDENTITY_chain 45704 45710	Xylene
 T1619	Noun_Phrase 45826 45840	toluidine blue
-T1620	Noun_Phrase 46152 46165;	Generation of
-46175 46203	Generation ofBmp4 conditional null allele
-T1621	IDENTITY_chain 46152 46165;	Generation of
-46175 46203	Generation ofBmp4 conditional null allele
+T1620	Noun_Phrase 46152 46165;46175 46203	Generation of Bmp4 conditional null allele
+T1621	IDENTITY_chain 46152 46165;46175 46203	Generation of Bmp4 conditional null allele
 T1622	Noun_Phrase 46206 46238	Mice carrying floxed Bmp2 allele
 T1623	IDENTITY_chain 46206 46238	Mice carrying floxed Bmp2 allele
 T1624	Noun_Phrase 46220 46238	floxed Bmp2 allele
@@ -1768,17 +1637,13 @@ T1635	Noun_Phrase 46699 46714	Bmp4C/C animals
 T1636	Noun_Phrase 46727 46751	Bmp2C/+; Bmp4C/+ animals
 T1637	IDENTITY_chain 46727 46751	Bmp2C/+; Bmp4C/+ animals
 T1638	Noun_Phrase 46753 46766	These animals
-T1639	Noun_Phrase 46785 46792;	Bmp2C/C
-46804 46811	Bmp2C/Canimals
+T1639	Noun_Phrase 46785 46792;46804 46811	Bmp2C/C animals
 T1640	Noun_Phrase 46796 46811	Bmp4C/C animals
-T1641	Noun_Phrase 46824 46840;	Bmp2C/C; Bmp4C/+
-46861 46868	Bmp2C/C; Bmp4C/+animals
-T1642	IDENTITY_chain 46824 46840;	Bmp2C/C; Bmp4C/+
-46861 46868	Bmp2C/C; Bmp4C/+animals
+T1641	Noun_Phrase 46824 46840;46861 46868	Bmp2C/C; Bmp4C/+ animals
+T1642	IDENTITY_chain 46824 46840;46861 46868	Bmp2C/C; Bmp4C/+ animals
 T1643	Noun_Phrase 46844 46868	Bmp2C/+; Bmp4C/C animals
 T1644	IDENTITY_chain 46844 46868	Bmp2C/+; Bmp4C/C animals
-T1645	Noun_Phrase 46884 46900;	Bmp2C/C; Bmp4C/+
-46921 46928	Bmp2C/C; Bmp4C/+animals
+T1645	Noun_Phrase 46884 46900;46921 46928	Bmp2C/C; Bmp4C/+ animals
 T1646	Noun_Phrase 46904 46928	Bmp2C/+; Bmp4C/C animals
 T1647	Noun_Phrase 46996 47020	Bmp2C/C; Bmp4C/C females
 T1648	IDENTITY_chain 46996 47020	Bmp2C/C; Bmp4C/C females
@@ -1813,10 +1678,8 @@ T1676	Noun_Phrase 48844 48855	Bmp7_ExI_5?
 T1677	IDENTITY_chain 48844 48855	Bmp7_ExI_5?
 T1678	Noun_Phrase 48892 48903	Bmp7_ExI_3?
 T1679	IDENTITY_chain 48892 48903	Bmp7_ExI_3?
-T1680	Noun_Phrase 48944 48953;	Beta-geo 
-48959 48960	Beta-geo 3
-T1681	IDENTITY_chain 48944 48953;	Beta-geo 
-48959 48960	Beta-geo 3
+T1680	Noun_Phrase 48944 48953;48959 48960	Beta-geo  3
+T1681	IDENTITY_chain 48944 48953;48959 48960	Beta-geo  3
 T1682	Noun_Phrase 48944 48955	Beta-geo 5?
 T1683	IDENTITY_chain 48944 48955	Beta-geo 5?
 T1684	Noun_Phrase 49027 49038	Bmp7_ExI_5?
@@ -1825,12 +1688,10 @@ T1686	IDENTITY_chain 49027 49054	Bmp7_ExI_5? and Bmp7_ExI_3?
 T1687	Noun_Phrase 49043 49054	Bmp7_ExI_3?
 T1688	Noun_Phrase 49139 49148	this pair
 T1689	Noun_Phrase 49179 49190	Bmp7_ExI_5?
-T1690	Noun_Phrase 49195 49204;	Beta-geo 
-49210 49211	Beta-geo 3
+T1690	Noun_Phrase 49195 49204;49210 49211	Beta-geo  3
 T1691	Noun_Phrase 49195 49206	Beta-geo 5?
 T1692	Noun_Phrase 49366 49369	Our
-T1693	Noun_Phrase 49440 49447;	Newborn
-49458 49465	Newbornanimals
+T1693	Noun_Phrase 49440 49447;49458 49465	Newborn animals
 T1694	Noun_Phrase 49691 49704	E13.5 embryos
 T1695	Noun_Phrase 50341 50344	PBS
 T1696	IDENTITY_chain 50341 50344	PBS
@@ -1852,8 +1713,7 @@ T1711	Noun_Phrase 50829 50858	section in situ hybridization
 T1712	Noun_Phrase 50882 50908	4% paraformaldehyde in PBS
 T1713	IDENTITY_chain 50882 50908	4% paraformaldehyde in PBS
 T1714	Noun_Phrase 50905 50908	PBS
-T1715	Noun_Phrase 50928 50935;	Newborn
-50946 50953	Newbornanimals
+T1715	Noun_Phrase 50928 50935;50946 50953	Newborn animals
 T1716	Noun_Phrase 51142 51148	xylene
 T1717	Noun_Phrase 51221 51242	hematoxylin and eosin
 T1718	APPOS_relation 51221 51242	hematoxylin and eosin
@@ -1897,8 +1757,7 @@ T1755	Noun_Phrase 53793 53805	the forelimb
 T1756	Noun_Phrase 53869 53877	forelimb
 T1757	Noun_Phrase 53888 53896	hindlimb
 T1758	IDENTITY_chain 53888 53896	hindlimb
-T1759	Noun_Phrase 53931 53934;	the
-53948 53956	thestylopod
+T1759	Noun_Phrase 53931 53934;53948 53956	the stylopod
 T1760	Noun_Phrase 53931 53943	the zeugopod
 T1761	IDENTITY_chain 53931 53943	the zeugopod
 T1762	Noun_Phrase 53931 53956	the zeugopod and stylopod
@@ -1908,40 +1767,24 @@ T1765	Noun_Phrase 53990 53991	D
 T1766	IDENTITY_chain 53990 53991	D
 T1767	Noun_Phrase 53996 53997	E
 T1768	IDENTITY_chain 53996 53997	E
-T1769	Noun_Phrase 54034 54039;	E11.5
-54058 54093	E11.5Bmp2C/C; Bmp4C/C; Prx1::cre embryos
-T1770	IDENTITY_chain 54034 54039;	E11.5
-54058 54093	E11.5Bmp2C/C; Bmp4C/C; Prx1::cre embryos
-T1771	Noun_Phrase 54034 54049;	E11.5 wild-type
-54054 54093	E11.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre embryos
-T1772	IDENTITY_chain 54034 54049;	E11.5 wild-type
-54054 54093	E11.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre embryos
-T1773	Noun_Phrase 54034 54049;	E11.5 wild-type
-54086 54093	E11.5 wild-typeembryos
-T1774	IDENTITY_chain 54034 54049;	E11.5 wild-type
-54086 54093	E11.5 wild-typeembryos
+T1769	Noun_Phrase 54034 54039;54058 54093	E11.5 Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T1770	IDENTITY_chain 54034 54039;54058 54093	E11.5 Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T1771	Noun_Phrase 54034 54049;54054 54093	E11.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T1772	IDENTITY_chain 54034 54049;54054 54093	E11.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T1773	Noun_Phrase 54034 54049;54086 54093	E11.5 wild-type embryos
+T1774	IDENTITY_chain 54034 54049;54086 54093	E11.5 wild-type embryos
 T1775	Noun_Phrase 54051 54052	D
 T1776	Noun_Phrase 54095 54096	E
 T1777	Noun_Phrase 54101 54102	F
 T1778	IDENTITY_chain 54101 54102	F
 T1779	Noun_Phrase 54107 54108	G
 T1780	IDENTITY_chain 54107 54108	G
-T1781	Noun_Phrase 54149 54154;	E13.5
-54173 54200;	E13.5Bmp2C/C; Bmp4C/C; Prx1::cre
-54205 54212	E13.5Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T1782	IDENTITY_chain 54149 54154;	E13.5
-54173 54200;	E13.5Bmp2C/C; Bmp4C/C; Prx1::cre
-54205 54212	E13.5Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T1783	Noun_Phrase 54149 54164;	E13.5 wild-type
-54169 54200;	E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre
-54205 54212	E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T1784	IDENTITY_chain 54149 54164;	E13.5 wild-type
-54169 54200;	E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre
-54205 54212	E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T1785	Noun_Phrase 54149 54164;	E13.5 wild-type
-54205 54212	E13.5 wild-typeembryos
-T1786	IDENTITY_chain 54149 54164;	E13.5 wild-type
-54205 54212	E13.5 wild-typeembryos
+T1781	Noun_Phrase 54149 54154;54173 54200;54205 54212	E13.5 Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T1782	IDENTITY_chain 54149 54154;54173 54200;54205 54212	E13.5 Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T1783	Noun_Phrase 54149 54164;54169 54200;54205 54212	E13.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T1784	IDENTITY_chain 54149 54164;54169 54200;54205 54212	E13.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T1785	Noun_Phrase 54149 54164;54205 54212	E13.5 wild-type embryos
+T1786	IDENTITY_chain 54149 54164;54205 54212	E13.5 wild-type embryos
 T1787	Noun_Phrase 54166 54167	F
 T1788	Noun_Phrase 54202 54203	G
 T1789	Noun_Phrase 54216 54219	H–M
@@ -1956,8 +1799,7 @@ T1797	Noun_Phrase 54373 54374	H
 T1798	IDENTITY_chain 54373 54374	H
 T1799	Noun_Phrase 54379 54380	I
 T1800	IDENTITY_chain 54379 54380	I
-T1801	Noun_Phrase 54386 54391;	E11.5
-54398 54405	E11.5embryos
+T1801	Noun_Phrase 54386 54391;54398 54405	E11.5 embryos
 T1802	Noun_Phrase 54408 54409	H
 T1803	Noun_Phrase 54411 54412	J
 T1804	IDENTITY_chain 54411 54412	J
@@ -2000,26 +1842,18 @@ T1840	Noun_Phrase 55086 55087	A
 T1841	Noun_Phrase 55143 55158	Bmp2C/C animals
 T1842	Noun_Phrase 55162 55165	B–D
 T1843	Noun_Phrase 55208 55223	Bmp2C/C animals
-T1844	Noun_Phrase 55240 55246;	Col II
-55277 55288	Col IImRNA probes
-T1845	Noun_Phrase 55252 55257;	Col X
-55277 55288	Col XmRNA probes
-T1846	IDENTITY_chain 55252 55257;	Col X
-55277 55288	Col XmRNA probes
-T1847	Noun_Phrase 55267 55272;	Col I
-55277 55288	Col ImRNA probes
-T1848	IDENTITY_chain 55267 55272;	Col I
-55277 55288	Col ImRNA probes
+T1844	Noun_Phrase 55240 55246;55277 55288	Col II mRNA probes
+T1845	Noun_Phrase 55252 55257;55277 55288	Col X mRNA probes
+T1846	IDENTITY_chain 55252 55257;55277 55288	Col X mRNA probes
+T1847	Noun_Phrase 55267 55272;55277 55288	Col I mRNA probes
+T1848	IDENTITY_chain 55267 55272;55277 55288	Col I mRNA probes
 T1849	Noun_Phrase 55292 55293	E
 T1850	Noun_Phrase 55349 55375	Bmp2C/C; Prx1::cre animals
 T1851	Noun_Phrase 55379 55382	F–H
 T1852	Noun_Phrase 55425 55451	Bmp2C/C; Prx1::cre animals
-T1853	Noun_Phrase 55468 55474;	Col II
-55505 55516	Col IImRNA probes
-T1854	Noun_Phrase 55480 55485;	Col X
-55505 55516	Col XmRNA probes
-T1855	Noun_Phrase 55495 55500;	Col I
-55505 55516	Col ImRNA probes
+T1853	Noun_Phrase 55468 55474;55505 55516	Col II mRNA probes
+T1854	Noun_Phrase 55480 55485;55505 55516	Col X mRNA probes
+T1855	Noun_Phrase 55495 55500;55505 55516	Col I mRNA probes
 T1856	Noun_Phrase 55570 55579	Figure S3
 T1857	Noun_Phrase 55731 55732	A
 T1858	IDENTITY_chain 55731 55732	A
@@ -2040,10 +1874,8 @@ T1872	Noun_Phrase 55813 55814	B
 T1873	Noun_Phrase 55816 55817	D
 T1874	Noun_Phrase 55823 55824	F
 T1875	Noun_Phrase 55826 55861	Bmp2C/C; Bmp4C/C; Prx1::cre animals
-T1876	Noun_Phrase 55863 55903;	The limbs of Bmp2C/C; Bmp4C/C; Prx1::cre
-55908 55915	The limbs of Bmp2C/C; Bmp4C/C; Prx1::creanimals
-T1877	Noun_Phrase 55876 55903;	Bmp2C/C; Bmp4C/C; Prx1::cre
-55908 55915	Bmp2C/C; Bmp4C/C; Prx1::creanimals
+T1876	Noun_Phrase 55863 55903;55908 55915	The limbs of Bmp2C/C; Bmp4C/C; Prx1::cre animals
+T1877	Noun_Phrase 55876 55903;55908 55915	Bmp2C/C; Bmp4C/C; Prx1::cre animals
 T1878	Noun_Phrase 55905 55906	H
 T1879	Noun_Phrase 55964 55965	G
 T1880	Noun_Phrase 56096 56105	Figure 6L
@@ -2052,8 +1884,7 @@ T1882	Noun_Phrase 56160 56169	Figure S4
 T1883	Noun_Phrase 56171 56183	Osteogenesis
 T1884	Noun_Phrase 56232 56236	Bmp2
 T1885	Noun_Phrase 56241 56245	Bmp4
-T1886	Noun_Phrase 56318 56345;	Bmp2C/+; Bmp4C/C; Prx1::cre
-56379 56386	Bmp2C/+; Bmp4C/C; Prx1::creanimals
+T1886	Noun_Phrase 56318 56345;56379 56386	Bmp2C/+; Bmp4C/C; Prx1::cre animals
 T1887	Noun_Phrase 56351 56386	Bmp2C/C; Bmp4C/+; Prx1::cre animals
 T1888	Noun_Phrase 56458 56460	We
 T1889	Noun_Phrase 56467 56482	Dr. Andy Dudley
@@ -2061,8 +1892,7 @@ T1890	IDENTITY_chain 56467 56482	Dr. Andy Dudley
 T1891	Noun_Phrase 56487 56490	his
 T1892	Noun_Phrase 56538 56540	We
 T1893	Noun_Phrase 56619 56621	We
-T1894	Noun_Phrase 56648 56652;	Drs.
-56670 56684	Drs.Holger Kulessa
+T1894	Noun_Phrase 56648 56652;56670 56684	Drs. Holger Kulessa
 T1895	Noun_Phrase 56648 56665	Drs. Brigid Hogan
 T1896	Noun_Phrase 56648 56684	Drs. Brigid Hogan and Holger Kulessa
 T1897	Noun_Phrase 56708 56735	the Bmp4 conditional allele
@@ -2098,8 +1928,7 @@ T1926	Noun_Phrase 57314 57333	polarizing activity
 T1927	Noun_Phrase 57355 57363	Figure 1
 T1928	Noun_Phrase 57397 57416	BMP-Deficient Limbs
 T1929	Noun_Phrase 57424 57433	Prx1::cre
-T1930	Noun_Phrase 57457 57461;	Bmp2
-57471 57490	Bmp2conditional alleles
+T1930	Noun_Phrase 57457 57461;57471 57490	Bmp2 conditional alleles
 T1931	Noun_Phrase 57457 57490	Bmp2 and Bmp4 conditional alleles
 T1932	Noun_Phrase 57466 57490	Bmp4 conditional alleles
 T1933	Noun_Phrase 57494 57503	the limbs
@@ -2220,20 +2049,11 @@ T2047	Noun_Phrase 59537 59538	I
 T2048	Noun_Phrase 59537 59544	I and J
 T2049	Noun_Phrase 59543 59544	J
 T2050	Noun_Phrase 59546 59555	Fgf8 mRNA
-T2051	Noun_Phrase 59546 59602;	Fgf8 mRNA expression in the hindlimbs of E13.5 wild-type
-59607 59638;	Fgf8 mRNA expression in the hindlimbs of E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre
-59643 59650	Fgf8 mRNA expression in the hindlimbs of E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T2052	IDENTITY_chain 59546 59602;	Fgf8 mRNA expression in the hindlimbs of E13.5 wild-type
-59607 59638;	Fgf8 mRNA expression in the hindlimbs of E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre
-59643 59650	Fgf8 mRNA expression in the hindlimbs of E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T2053	Noun_Phrase 59587 59592;	E13.5
-59611 59638;	E13.5Bmp2C/C; Bmp4C/C; Prx1::cre
-59643 59650	E13.5Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T2054	Noun_Phrase 59587 59602;	E13.5 wild-type
-59607 59638;	E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre
-59643 59650	E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T2055	Noun_Phrase 59587 59602;	E13.5 wild-type
-59643 59650	E13.5 wild-typeembryos
+T2051	Noun_Phrase 59546 59602;59607 59638;59643 59650	Fgf8 mRNA expression in the hindlimbs of E13.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T2052	IDENTITY_chain 59546 59602;59607 59638;59643 59650	Fgf8 mRNA expression in the hindlimbs of E13.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T2053	Noun_Phrase 59587 59592;59611 59638;59643 59650	E13.5 Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T2054	Noun_Phrase 59587 59602;59607 59638;59643 59650	E13.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T2055	Noun_Phrase 59587 59602;59643 59650	E13.5 wild-type embryos
 T2056	Noun_Phrase 59604 59605	I
 T2057	Noun_Phrase 59640 59641	J
 T2058	Noun_Phrase 59679 59680	J
@@ -2241,14 +2061,9 @@ T2059	Noun_Phrase 59687 59696	Fgf8 mRNA
 T2060	Noun_Phrase 59687 59707	Fgf8 mRNA expression
 T2061	Noun_Phrase 59710 59718	Figure 3
 T2062	Noun_Phrase 59803 59806	A–D
-T2063	Noun_Phrase 59842 59847;	E11.5
-59872 59900;	E11.5Bmp2C/C, Bmp7??/?; Prx1::cre
-59911 59924	E11.5Bmp2C/C, Bmp7??/?; Prx1::cremouse embryos
-T2064	Noun_Phrase 59842 59857;	E11.5 wild-type
-59868 59900;	E11.5 wild-typeand Bmp2C/C, Bmp7??/?; Prx1::cre
-59911 59924	E11.5 wild-typeand Bmp2C/C, Bmp7??/?; Prx1::cremouse embryos
-T2065	Noun_Phrase 59842 59857;	E11.5 wild-type
-59911 59924	E11.5 wild-typemouse embryos
+T2063	Noun_Phrase 59842 59847;59872 59900;59911 59924	E11.5 Bmp2C/C, Bmp7??/?; Prx1::cre mouse embryos
+T2064	Noun_Phrase 59842 59857;59868 59900;59911 59924	E11.5 wild-type and Bmp2C/C, Bmp7??/?; Prx1::cre mouse embryos
+T2065	Noun_Phrase 59842 59857;59911 59924	E11.5 wild-type mouse embryos
 T2066	Noun_Phrase 59859 59860	A
 T2067	IDENTITY_chain 59859 59860	A
 T2068	Noun_Phrase 59865 59866	C
@@ -2275,8 +2090,7 @@ T2088	Noun_Phrase 59999 60000	G
 T2089	IDENTITY_chain 59999 60000	G
 T2090	Noun_Phrase 60005 60006	H
 T2091	IDENTITY_chain 60005 60006	H
-T2092	Noun_Phrase 60022 60027;	E11.5
-60042 60051	E11.5hindlimbs
+T2092	Noun_Phrase 60022 60027;60042 60051	E11.5 hindlimbs
 T2093	Noun_Phrase 60022 60037	E11.5 forelimbs
 T2094	Noun_Phrase 60068 60069	E
 T2095	Noun_Phrase 60074 60075	G
@@ -2286,24 +2100,12 @@ T2098	Noun_Phrase 60103 60104	H
 T2099	Noun_Phrase 60106 60141	Bmp2C/C; Bmp4C/C; Prx1::cre embryos
 T2100	Noun_Phrase 60150 60154	Sox9
 T2101	Noun_Phrase 60165 60169	Msx2
-T2102	Noun_Phrase 60190 60195;	E12.5
-60220 60263;	E12.5Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonic
-60288 60297	E12.5Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonichindlimbs
-T2103	IDENTITY_chain 60190 60195;	E12.5
-60220 60263;	E12.5Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonic
-60288 60297	E12.5Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonichindlimbs
-T2104	Noun_Phrase 60190 60205;	E12.5 wild-type
-60216 60263;	E12.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonic
-60288 60297	E12.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonichindlimbs
-T2105	IDENTITY_chain 60190 60205;	E12.5 wild-type
-60216 60263;	E12.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonic
-60288 60297	E12.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonichindlimbs
-T2106	Noun_Phrase 60190 60205;	E12.5 wild-type
-60248 60263;	E12.5 wild-typemouse embryonic
-60288 60297	E12.5 wild-typemouse embryonichindlimbs
-T2107	IDENTITY_chain 60190 60205;	E12.5 wild-type
-60248 60263;	E12.5 wild-typemouse embryonic
-60288 60297	E12.5 wild-typemouse embryonichindlimbs
+T2102	Noun_Phrase 60190 60195;60220 60263;60288 60297	E12.5 Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonic hindlimbs
+T2103	IDENTITY_chain 60190 60195;60220 60263;60288 60297	E12.5 Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonic hindlimbs
+T2104	Noun_Phrase 60190 60205;60216 60263;60288 60297	E12.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonic hindlimbs
+T2105	IDENTITY_chain 60190 60205;60216 60263;60288 60297	E12.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre mouse embryonic hindlimbs
+T2106	Noun_Phrase 60190 60205;60248 60263;60288 60297	E12.5 wild-type mouse embryonic hindlimbs
+T2107	IDENTITY_chain 60190 60205;60248 60263;60288 60297	E12.5 wild-type mouse embryonic hindlimbs
 T2108	Noun_Phrase 60207 60208	I
 T2109	Noun_Phrase 60213 60214	M
 T2110	Noun_Phrase 60275 60276	J
@@ -2314,20 +2116,14 @@ T2114	Noun_Phrase 60310 60311	L
 T2115	Noun_Phrase 60310 60317	L and P
 T2116	Noun_Phrase 60316 60317	P
 T2117	Noun_Phrase 60319 60322	Shh
-T2118	Noun_Phrase 60337 60342;	E12.5
-60361 60388;	E12.5Bmp2C/C; Bmp4C/C; Prx1::cre
-60393 60412	E12.5Bmp2C/C; Bmp4C/C; Prx1::creembryonic hindlimbs
-T2119	Noun_Phrase 60337 60352;	E12.5 wild-type
-60357 60388;	E12.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre
-60393 60412	E12.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::creembryonic hindlimbs
-T2120	Noun_Phrase 60337 60352;	E12.5 wild-type
-60393 60412	E12.5 wild-typeembryonic hindlimbs
+T2118	Noun_Phrase 60337 60342;60361 60388;60393 60412	E12.5 Bmp2C/C; Bmp4C/C; Prx1::cre embryonic hindlimbs
+T2119	Noun_Phrase 60337 60352;60357 60388;60393 60412	E12.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre embryonic hindlimbs
+T2120	Noun_Phrase 60337 60352;60393 60412	E12.5 wild-type embryonic hindlimbs
 T2121	Noun_Phrase 60354 60355	L
 T2122	Noun_Phrase 60390 60391	P
 T2123	Noun_Phrase 60436 60437	F
 T2124	Noun_Phrase 60444 60445	H
-T2125	Noun_Phrase 60477 60491;	expressions of
-60500 60504	expressions ofFgf8
+T2125	Noun_Phrase 60477 60491;60500 60504	expressions of Fgf8
 T2126	Noun_Phrase 60477 60495	expressions of Shh
 T2127	Noun_Phrase 60492 60495	Shh
 T2128	Noun_Phrase 60500 60504	Fgf8
@@ -2346,31 +2142,23 @@ T2140	Noun_Phrase 60703 60719	Wild-type embryo
 T2141	Noun_Phrase 60722 60723	B
 T2142	Noun_Phrase 60725 60759	Bmp2C/C; Bmp4C/C; Prx1::cre embryo
 T2143	Noun_Phrase 60777 60778	B
-T2144	Noun_Phrase 60800 60803;	the
-60817 60825	thestylopod
+T2144	Noun_Phrase 60800 60803;60817 60825	the stylopod
 T2145	Noun_Phrase 60800 60812	the zeugopod
 T2146	Noun_Phrase 60800 60825	the zeugopod and stylopod
 T2147	Noun_Phrase 60829 60830	C
 T2148	Noun_Phrase 60829 60836	C and D
 T2149	Noun_Phrase 60835 60836	D
-T2150	Noun_Phrase 60901 60906;	E13.5
-60925 60952;	E13.5Bmp2C/C; Bmp4C/C; Prx1::cre
-60957 60964	E13.5Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T2151	Noun_Phrase 60901 60916;	E13.5 wild-type
-60921 60952;	E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::cre
-60957 60964	E13.5 wild-typeand Bmp2C/C; Bmp4C/C; Prx1::creembryos
-T2152	Noun_Phrase 60901 60916;	E13.5 wild-type
-60957 60964	E13.5 wild-typeembryos
+T2150	Noun_Phrase 60901 60906;60925 60952;60957 60964	E13.5 Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T2151	Noun_Phrase 60901 60916;60921 60952;60957 60964	E13.5 wild-type and Bmp2C/C; Bmp4C/C; Prx1::cre embryos
+T2152	Noun_Phrase 60901 60916;60957 60964	E13.5 wild-type embryos
 T2153	Noun_Phrase 60918 60919	C
 T2154	Noun_Phrase 60954 60955	D
 T2155	Noun_Phrase 60986 60987	C
 T2156	Noun_Phrase 61022 61023	E
 T2157	Noun_Phrase 61022 61029	E and F
 T2158	Noun_Phrase 61028 61029	F
-T2159	Noun_Phrase 61052 61061;	wild-type
-61102 61127	wild-typehumeri from E15.5 embryos
-T2160	IDENTITY_chain 61052 61061;	wild-type
-61102 61127	wild-typehumeri from E15.5 embryos
+T2159	Noun_Phrase 61052 61061;61102 61127	wild-type humeri from E15.5 embryos
+T2160	IDENTITY_chain 61052 61061;61102 61127	wild-type humeri from E15.5 embryos
 T2161	Noun_Phrase 61063 61064	E
 T2162	Noun_Phrase 61099 61100	F
 T2163	Noun_Phrase 61114 61127	E15.5 embryos
@@ -2379,10 +2167,8 @@ T2165	Noun_Phrase 61201 61202	G
 T2166	Noun_Phrase 61201 61208	G and H
 T2167	IDENTITY_chain 61201 61208	G and H
 T2168	Noun_Phrase 61207 61208	H
-T2169	Noun_Phrase 61246 61249;	E13
-61266 61294	E13BMP2, BMP4–deficient embryos
-T2170	Noun_Phrase 61246 61261;	E13.5 wild-type
-61287 61294	E13.5 wild-typeembryos
+T2169	Noun_Phrase 61246 61249;61266 61294	E13 BMP2, BMP4–deficient embryos
+T2170	Noun_Phrase 61246 61261;61287 61294	E13.5 wild-type embryos
 T2171	Noun_Phrase 61406 61417	(G) and (H)
 T2172	Noun_Phrase 61407 61408	G
 T2173	Noun_Phrase 61415 61416	H
@@ -2479,8 +2265,7 @@ T2263	Noun_Phrase 63498 63499	G
 T2264	Noun_Phrase 63533 63534	C
 T2265	Noun_Phrase 63539 63573	Bmp2C/C; Bmp4C/C; Prx1::cre femurs
 T2266	IDENTITY_chain 63539 63573	Bmp2C/C; Bmp4C/C; Prx1::cre femurs
-T2267	Noun_Phrase 63575 63583;	Red star
-63595 63598	Red star(D)
+T2267	Noun_Phrase 63575 63583;63595 63598	Red star (D)
 T2268	Noun_Phrase 63575 63590	Red star in (A)
 T2269	Noun_Phrase 63588 63589	A
 T2270	Noun_Phrase 63596 63597	D
@@ -2541,14 +2326,10 @@ T2324	Noun_Phrase 64801 64813	control mice
 T2325	Noun_Phrase 64833 64836	M–P
 T2326	Noun_Phrase 64838 64889	Distal femurs from Bmp2C/C; Bmp4C/C; Prx1::cre mice
 T2327	Noun_Phrase 64857 64889	Bmp2C/C; Bmp4C/C; Prx1::cre mice
-T2328	Noun_Phrase 64933 64986;	early osteoblast differentiation-related marker genes
-65011 65016	early osteoblast differentiation-related marker genesrunx2
-T2329	Noun_Phrase 64933 64986;	early osteoblast differentiation-related marker genes
-65038 65045	early osteoblast differentiation-related marker genesosterix
+T2328	Noun_Phrase 64933 64986;65011 65016	early osteoblast differentiation-related marker genes runx2
+T2329	Noun_Phrase 64933 64986;65038 65045	early osteoblast differentiation-related marker genes osterix
 T2330	Noun_Phrase 64933 64992	early osteoblast differentiation-related marker genes Col I
-T2331	Noun_Phrase 64933 64992;	early osteoblast differentiation-related marker genes Col I
-65011 65016;	early osteoblast differentiation-related marker genes Col Irunx2
-65034 65045	early osteoblast differentiation-related marker genes Col Irunx2and osterix
+T2331	Noun_Phrase 64933 64992;65011 65016;65034 65045	early osteoblast differentiation-related marker genes Col I runx2 and osterix
 T2332	Noun_Phrase 65313 65315	AB
 T2333	IDENTITY_chain 65313 65315	AB
 T2334	Noun_Phrase 65317 65319	KT

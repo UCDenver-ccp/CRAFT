@@ -2,13 +2,8 @@ T0	GO_EXT_cell_communication_or_signaling_or_signal_transduction 15 24	signaling
 T1	GO_EXT_biological_movement_or_translocation_process 68 77	migratory
 T2	GO_0006915 91 105	cell apoptosis
 T3	GO_0007567 225 230	birth
-T4	GO_0001755 339 348;	migration
-381 383;	migrationof
-404 416;	migrationofneural crest
-422 427	migrationofneural crestcells
-T5	GO_0030154 350 365;	differentiation
-381 383;	differentiationof
-422 427	differentiationofcells
+T4	GO_0001755 339 348;381 383;404 416;422 427	migration of neural crest cells
+T5	GO_0030154 350 365;381 383;422 427	differentiation of cells
 T6	GO_PATO_EXT_biological_patterning_process_or_quality 370 380	patterning
 T7	GO_0007179 435 462	TGF-?-superfamily signaling
 T8	GO_0014032 495 524	neural crest cell development
@@ -18,8 +13,7 @@ T11	GO_EXT_biological_movement_or_translocation_process 922 931	migration
 T12	GO_0001755 998 1025	neural crest cell migration
 T13	GO_EXT_biological_movement_or_translocation_process 1107 1116	migratory
 T14	GO_EXT_cell_communication_or_signaling_or_signal_transduction 1201 1210	signaling
-T15	GO_0060465 1280 1290;	pharyngeal
-1317 1328	pharyngealdevelopment
+T15	GO_0060465 1280 1290;1317 1328	pharyngeal development
 T16	GO_0007567 1380 1385	birth
 T17	GO_EXT_biological_movement_or_translocation_process 1427 1436	migration
 T18	GO_RO_EXT_developmental_differentiation_process 1438 1453	differentiation
@@ -41,12 +35,10 @@ T33	GO_EXT_biological_growth_entity_or_process 4409 4415	growth
 T34	GO_RO_EXT_developmental_differentiation_process 4420 4435	differentiation
 T35	GO_EXT_cell_communication_or_signaling_or_signal_transduction 5028 5037	signaling
 T36	GO_EXT_biological_movement_or_translocation_process 5286 5293	migrate
-T37	GO_0006915 5572 5584;	apoptosis of
-5620 5625	apoptosis ofcells
+T37	GO_0006915 5572 5584;5620 5625	apoptosis of cells
 T38	GO_EXT_biological_movement_or_translocation_process 5589 5598	migratory
 T39	GO_EXT_cell_communication_or_signaling_or_signal_transduction 5761 5770	signaling
-T40	GO_0007507 5858 5865;	cardiac
-5881 5892	cardiacdevelopment
+T40	GO_0007507 5858 5865;5881 5892	cardiac development
 T41	GO_0060465 5870 5892	pharyngeal development
 T42	GO_0007565 6610 6619	gestation
 T43	GO_0016265 6717 6721	died
@@ -72,8 +64,7 @@ T62	GO_EXT_cell_communication_or_signaling_or_signal_transduction 17004 17013	si
 T63	GO_0030154 17043 17063	cell differentiation
 T64	GO_EXT_cell_communication_or_signaling_or_signal_transduction 17787 17796	Signaling
 T65	GO_0065007 17815 17823	controls
-T66	GO_0006915 18375 18387;	apoptosis of
-18416 18421	apoptosis ofcells
+T66	GO_0006915 18375 18387;18416 18421	apoptosis of cells
 T67	GO_EXT_biological_movement_or_translocation_process 18393 18402	migratory
 T68	GO_0008283 18657 18670	proliferation
 T69	GO_0006915 18688 18697	apoptosis
@@ -82,8 +73,7 @@ T71	GO_EXT_biological_movement_or_translocation_process 19079 19088	migratory
 T72	GO_0006915 19247 19256	apoptosis
 T73	GO_PATO_EXT_apoptotic_process_or_quality 19284 19293	apoptotic
 T74	GO_0006915 19459 19468	apoptosis
-T75	GO_0006915 19662 19674;	apoptosis of
-19686 19691	apoptosis ofcells
+T75	GO_0006915 19662 19674;19686 19691	apoptosis of cells
 T76	GO_0006915 19820 19829	apoptosis
 T77	GO_0006915 19958 19967	apoptosis
 T78	GO_PATO_EXT_apoptotic_process_or_quality 20292 20301	apoptotic
@@ -91,11 +81,9 @@ T79	GO_PATO_EXT_apoptotic_process_or_quality 20403 20412	apoptotic
 T80	GO_0006915 20536 20545	apoptosis
 T81	GO_PATO_EXT_biological_patterning_process_or_quality 20574 20584	patterning
 T82	GO_EXT_cell_communication_or_signaling_or_signal_transduction 20695 20704	signaling
-T83	GO_0006915 20771 20783;	apoptosis of
-20795 20800	apoptosis ofcells
+T83	GO_0006915 20771 20783;20795 20800	apoptosis of cells
 T84	GO_EXT_biological_movement_or_translocation_process 20874 20881	migrate
-T85	GO_0048513 20940 20954;	development of
-20966 20972	development oforgans
+T85	GO_0048513 20940 20954;20966 20972	development of organs
 T86	GO_EXT_biological_movement_or_translocation_process 21156 21164	migrates
 T87	GO_EXT_biological_movement_or_translocation_process 21669 21676	migrate
 T88	GO_EXT_biological_movement_or_translocation_process 21762 21769	migrate
@@ -104,8 +92,7 @@ T90	GO_EXT_biological_movement_or_translocation_process 22294 22301	migrate
 T91	GO_0010467 22910 22919	expressed
 T92	GO_PATO_EXT_biological_patterning_process_or_quality 24147 24157	patterning
 T93	GO_PATO_EXT_biological_patterning_process_or_quality 24294 24304	patterning
-T94	GO_0006915 24764 24776;	apoptosis of
-24820 24825	apoptosis ofcells
+T94	GO_0006915 24764 24776;24820 24825	apoptosis of cells
 T95	GO_EXT_biological_movement_or_translocation_process 24797 24806	migratory
 T96	GO_0008219 24889 24899	cell death
 T97	GO_0007179 24993 25008	TGF-? signaling
@@ -113,8 +100,7 @@ T98	GO_EXT_cell_communication_or_signaling_or_signal_transduction 25110 25119	si
 T99	GO_EXT_biological_growth_entity_or_process 25421 25427	growth
 T100	GO_RO_EXT_developmental_differentiation_process 25432 25447	differentiation
 T101	GO_0010467 25585 25594	expressed
-T102	GO_0003007 25825 25832;	cardiac
-25848 25861	cardiacmorphogenesis
+T102	GO_0003007 25825 25832;25848 25861	cardiac morphogenesis
 T103	GO_0006915 25888 25897	apoptosis
 T104	GO_0006915 26036 26045	apoptosis
 T105	GO_EXT_biological_movement_or_translocation_process 26060 26069	migratory
@@ -124,10 +110,8 @@ T108	GO_0008219 26536 26546	cell death
 T109	GO_0016265 26610 26613	die
 T110	GO_RO_EXT_developmental_differentiation_process 26646 26659	differentiate
 T111	GO_0007179 26751 26766	TGF-?-signaling
-T112	GO_0051145 26770 26785;	differentiation
-26794 26818	differentiationinto smooth muscle cells
-T113	GO_0030154 26919 26939;	differentiation into
-26954 26959	differentiation intocells
+T112	GO_0051145 26770 26785;26794 26818	differentiation into smooth muscle cells
+T113	GO_0030154 26919 26939;26954 26959	differentiation into cells
 T114	GO_EXT_cell_communication_or_signaling_or_signal_transduction 27128 27137	signaling
 T115	GO_RO_EXT_developmental_differentiation_process 27181 27196	differentiation
 T116	GO_EXT_biological_movement_or_translocation_process 27783 27792	migration
@@ -143,8 +127,7 @@ T125	GO_0030154 29911 29931	cell differentiation
 T126	GO_EXT_cell_communication_or_signaling_or_signal_transduction 30201 30210	signaling
 T127	GO_PATO_EXT_biological_patterning_process_or_quality 30253 30263	patterning
 T128	GO_EXT_cell_communication_or_signaling_or_signal_transduction 30496 30505	signaling
-T129	GO_0007507 30576 30583;	cardiac
-30595 30606	cardiacdevelopment
+T129	GO_0007507 30576 30583;30595 30606	cardiac development
 T130	GO_0060465 30584 30606	pharyngeal development
 T131	GO_0007618 30698 30704	mating
 T132	GO_0007618 31207 31215	mataings

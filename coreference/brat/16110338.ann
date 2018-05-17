@@ -2,10 +2,8 @@ T0	Noun_Phrase 34 51	Both Rod and Cone
 T1	Noun_Phrase 34 57	Both Rod and Cone Genes
 T2	IDENTITY_chain 34 57	Both Rod and Cone Genes
 T3	Noun_Phrase 39 42	Rod
-T4	Noun_Phrase 39 42;	Rod
-52 57	RodGenes
-T5	IDENTITY_chain 39 42;	Rod
-52 57	RodGenes
+T4	Noun_Phrase 39 42;52 57	Rod Genes
+T5	IDENTITY_chain 39 42;52 57	Rod Genes
 T6	Noun_Phrase 47 51	Cone
 T7	Noun_Phrase 47 57	Cone Genes
 T8	IDENTITY_chain 47 57	Cone Genes
@@ -15,10 +13,8 @@ T11	Noun_Phrase 63 68	Mouse
 T12	IDENTITY_chain 63 68	Mouse
 T13	Noun_Phrase 78 102	Enhanced S-Cone Syndrome
 T14	IDENTITY_chain 78 102	Enhanced S-Cone Syndrome
-T15	Noun_Phrase 114 117;	Rod
-127 141	Rodphotoreceptors
-T16	IDENTITY_chain 114 117;	Rod
-127 141	Rodphotoreceptors
+T15	Noun_Phrase 114 117;127 141	Rod photoreceptors
+T16	IDENTITY_chain 114 117;127 141	Rod photoreceptors
 T17	Noun_Phrase 114 141	Rod and cone photoreceptors
 T18	IDENTITY_chain 114 141	Rod and cone photoreceptors
 T19	Noun_Phrase 122 141	cone photoreceptors
@@ -56,10 +52,8 @@ T50	Noun_Phrase 591 654	an orphan nuclear receptor transcription factor mutated 
 T51	Noun_Phrase 618 631	transcription
 T52	Noun_Phrase 650 654	ESCS
 T53	Noun_Phrase 666 676	microarray
-T54	Noun_Phrase 666 676;	microarray
-703 711	microarrayanalysis
-T55	IDENTITY_chain 666 676;	microarray
-703 711	microarrayanalysis
+T54	Noun_Phrase 666 676;703 711	microarray analysis
+T55	IDENTITY_chain 666 676;703 711	microarray analysis
 T56	Noun_Phrase 681 702	in situ hybridization
 T57	Noun_Phrase 681 711	in situ hybridization analysis
 T58	IDENTITY_chain 681 711	in situ hybridization analysis
@@ -74,8 +68,7 @@ T66	Noun_Phrase 915 918	rd7
 T67	Noun_Phrase 936 1019	a morphologically hybrid cell type that expresses both rod- and cone-specific genes
 T68	IDENTITY_chain 936 1019	a morphologically hybrid cell type that expresses both rod- and cone-specific genes
 T69	Noun_Phrase 986 1019	both rod- and cone-specific genes
-T70	Noun_Phrase 991 995;	rod-
-1005 1019	rod-specific genes
+T70	Noun_Phrase 991 995;1005 1019	rod- specific genes
 T71	Noun_Phrase 1000 1019	cone-specific genes
 T72	Noun_Phrase 1034 1055	in situ hybridization
 T73	Noun_Phrase 1103 1124	the rd7 mutant retina
@@ -84,10 +77,8 @@ T75	Noun_Phrase 1107 1110	rd7
 T76	Noun_Phrase 1107 1117	rd7 mutant
 T77	Noun_Phrase 1128 1138	microarray
 T78	IDENTITY_chain 1128 1138	microarray
-T79	Noun_Phrase 1150 1171;	ten new cone-specific
-1195 1237	ten new cone-specificwith a wide range of biochemical functions
-T80	IDENTITY_chain 1150 1171;	ten new cone-specific
-1195 1237	ten new cone-specificwith a wide range of biochemical functions
+T79	Noun_Phrase 1150 1171;1195 1237	ten new cone-specific with a wide range of biochemical functions
+T80	IDENTITY_chain 1150 1171;1195 1237	ten new cone-specific with a wide range of biochemical functions
 T81	Noun_Phrase 1313 1315	We
 T82	Noun_Phrase 1362 1387	slow retinal degeneration
 T83	Noun_Phrase 1423 1439	humans with ESCS
@@ -127,10 +118,8 @@ T116	Noun_Phrase 2090 2094	Rods
 T117	Noun_Phrase 2115 2131	nighttime vision
 T118	IDENTITY_chain 2115 2131	nighttime vision
 T119	Noun_Phrase 2137 2142	cones
-T120	Noun_Phrase 2147 2154;	daytime
-2165 2171	daytimevision
-T121	IDENTITY_chain 2147 2154;	daytime
-2165 2171	daytimevision
+T120	Noun_Phrase 2147 2154;2165 2171	daytime vision
+T121	IDENTITY_chain 2147 2154;2165 2171	daytime vision
 T122	Noun_Phrase 2159 2171	color vision
 T123	IDENTITY_chain 2159 2171	color vision
 T124	Noun_Phrase 2176 2186	this study
@@ -145,10 +134,8 @@ T132	IDENTITY_chain 2436 2471	photoreceptors in this mutant mouse
 T133	Noun_Phrase 2454 2471	this mutant mouse
 T134	Noun_Phrase 2503 2529	both normal rods and cones
 T135	IDENTITY_chain 2503 2529	both normal rods and cones
-T136	Noun_Phrase 2508 2514;	normal
-2524 2529	normalcones
-T137	IDENTITY_chain 2508 2514;	normal
-2524 2529	normalcones
+T136	Noun_Phrase 2508 2514;2524 2529	normal cones
+T137	IDENTITY_chain 2508 2514;2524 2529	normal cones
 T138	Noun_Phrase 2508 2519	normal rods
 T139	IDENTITY_chain 2508 2519	normal rods
 T140	Nonreferential_pronoun 2531 2533	It
@@ -163,15 +150,12 @@ T148	Noun_Phrase 2779 2791	this disease
 T149	Noun_Phrase 2793 2803	This study
 T150	Noun_Phrase 2820 2890	previously unknown molecular differences between normal rods and cones
 T151	IDENTITY_chain 2820 2890	previously unknown molecular differences between normal rods and cones
-T152	Noun_Phrase 2869 2875;	normal
-2885 2890	normalcones
+T152	Noun_Phrase 2869 2875;2885 2890	normal cones
 T153	Noun_Phrase 2869 2880	normal rods
 T154	Noun_Phrase 2869 2890	normal rods and cones
 T155	Noun_Phrase 2892 2910	This new knowledge
-T156	Noun_Phrase 2989 2994;	night
-3011 3017	nightvision
-T157	Noun_Phrase 2996 2999;	day
-3011 3017	dayvision
+T156	Noun_Phrase 2989 2994;3011 3017	night vision
+T157	Noun_Phrase 2996 2999;3011 3017	day vision
 T158	Noun_Phrase 3005 3017	color vision
 T159	Noun_Phrase 3034 3058	Enhanced S-cone syndrome
 T160	APPOS_relation 3034 3058	Enhanced S-cone syndrome
@@ -185,10 +169,8 @@ T167	APPOS_relation 3181 3198	electroretinogram
 T168	Noun_Phrase 3200 3203	ERG
 T169	Noun_Phrase 3252 3282	both light and dark adaptation
 T170	IDENTITY_chain 3252 3282	both light and dark adaptation
-T171	Noun_Phrase 3257 3262;	light
-3272 3282	lightadaptation
-T172	IDENTITY_chain 3257 3262;	light
-3272 3282	lightadaptation
+T171	Noun_Phrase 3257 3262;3272 3282	light adaptation
+T172	IDENTITY_chain 3257 3262;3272 3282	light adaptation
 T173	Noun_Phrase 3257 3262	light
 T174	Noun_Phrase 3267 3282	dark adaptation
 T175	IDENTITY_chain 3267 3282	dark adaptation
@@ -242,8 +224,7 @@ T222	Noun_Phrase 4981 4998	rosette formation
 T223	IDENTITY_chain 4981 4998	rosette formation
 T224	Noun_Phrase 5030 5039	the mouse
 T225	Noun_Phrase 5046 5076	both light and dark adaptation
-T226	Noun_Phrase 5051 5056;	light
-5066 5076	lightadaptation
+T226	Noun_Phrase 5051 5056;5066 5076	light adaptation
 T227	Noun_Phrase 5051 5056	light
 T228	Noun_Phrase 5061 5076	dark adaptation
 T229	Noun_Phrase 5146 5150	time
@@ -261,8 +242,7 @@ T240	Noun_Phrase 5525 5595	ultrastructural analysis of the photoreceptors of the
 T241	IDENTITY_chain 5525 5595	ultrastructural analysis of the photoreceptors of the rd7 mutant mouse
 T242	Noun_Phrase 5553 5595	the photoreceptors of the rd7 mutant mouse
 T243	Noun_Phrase 5575 5595	the rd7 mutant mouse
-T244	Noun_Phrase 5597 5607;	Microarray
-5634 5642	Microarrayanalyses
+T244	Noun_Phrase 5597 5607;5634 5642	Microarray analyses
 T245	Noun_Phrase 5597 5607	Microarray
 T246	Noun_Phrase 5612 5633	in situ hybridization
 T247	Noun_Phrase 5612 5642	in situ hybridization analyses
@@ -276,8 +256,7 @@ T254	Noun_Phrase 5865 5883	rod and cone genes
 T255	Noun_Phrase 5873 5877	cone
 T256	Noun_Phrase 5887 5901	the rd7 retina
 T257	Noun_Phrase 5891 5894	rd7
-T258	Noun_Phrase 5969 5975;	normal
-5985 5990	normalcones
+T258	Noun_Phrase 5969 5975;5985 5990	normal cones
 T259	Noun_Phrase 5969 5980	normal rods
 T260	Noun_Phrase 5969 5990	normal rods and cones
 T261	Noun_Phrase 6030 6034	Cone
@@ -310,8 +289,7 @@ T287	IDENTITY_chain 6636 6643	Methods
 T288	Noun_Phrase 6648 6655	details
 T289	IDENTITY_chain 6648 6655	details
 T290	Noun_Phrase 6659 6676	These experiments
-T291	Noun_Phrase 6718 6731;	cone-specific
-6750 6755	cone-specificgenes
+T291	Noun_Phrase 6718 6731;6750 6755	cone-specific genes
 T292	Noun_Phrase 6718 6773	cone-specific and cone-enriched genes in the rd7 retina
 T293	IDENTITY_chain 6718 6773	cone-specific and cone-enriched genes in the rd7 retina
 T294	Noun_Phrase 6736 6755	cone-enriched genes
@@ -330,10 +308,8 @@ T306	Noun_Phrase 6821 6827	Figure
 T307	IDENTITY_chain 6821 6827	Figure
 T308	Noun_Phrase 6821 6829	Figure 1
 T309	IDENTITY_chain 6821 6829	Figure 1
-T310	Noun_Phrase 6832 6856;	Most known cone-specific
-6874 6879	Most known cone-specificgenes
-T311	IDENTITY_chain 6832 6856;	Most known cone-specific
-6874 6879	Most known cone-specificgenes
+T310	Noun_Phrase 6832 6856;6874 6879	Most known cone-specific genes
+T311	IDENTITY_chain 6832 6856;6874 6879	Most known cone-specific genes
 T312	Noun_Phrase 6860 6879	cone-enriched genes
 T313	Noun_Phrase 6913 6923	the mutant
 T314	Noun_Phrase 6925 6931	Figure
@@ -354,8 +330,7 @@ T328	Noun_Phrase 7415 7429	the rd7 mutant
 T329	Noun_Phrase 7419 7422	rd7
 T330	Noun_Phrase 7431 7437	Figure
 T331	Noun_Phrase 7431 7439	Figure 1
-T332	Noun_Phrase 7450 7456;	Tables
-7464 7466	TablesS2
+T332	Noun_Phrase 7450 7456;7464 7466	Tables S2
 T333	Noun_Phrase 7450 7459	Tables S1
 T334	IDENTITY_chain 7450 7459	Tables S1
 T335	Noun_Phrase 7450 7466	Tables S1 and S2
@@ -471,10 +446,8 @@ T444	Noun_Phrase 9922 9928	Opn1sw
 T445	APPOS_relation 9922 9928	Opn1sw
 T446	Noun_Phrase 9943 9963	type II derepression
 T447	Noun_Phrase 9965 9972	Figures
-T448	Noun_Phrase 9965 9972;	Figures
-9979 9984	Figures3A–3C
-T449	IDENTITY_chain 9965 9972;	Figures
-9979 9984	Figures3A–3C
+T448	Noun_Phrase 9965 9972;9979 9984	Figures 3A–3C
+T449	IDENTITY_chain 9965 9972;9979 9984	Figures 3A–3C
 T450	Noun_Phrase 9965 9974	Figures 2
 T451	Noun_Phrase 9987 9994	S-opsin
 T452	IDENTITY_chain 9987 9994	S-opsin
@@ -858,8 +831,7 @@ T829	Noun_Phrase 18902 18905	rd7
 T830	Noun_Phrase 18918 18924	Figure
 T831	Noun_Phrase 18918 18926	Figure 2
 T832	Noun_Phrase 18928 18955	lower left photomicrographs
-T833	Noun_Phrase 19000 19004;	rod-
-19019 19033	rod-specific genes
+T833	Noun_Phrase 19000 19004;19019 19033	rod- specific genes
 T834	Noun_Phrase 19009 19033	many cone-specific genes
 T835	Noun_Phrase 19087 19101	the rd7 mutant
 T836	Noun_Phrase 19091 19094	rd7
@@ -887,8 +859,7 @@ T857	Noun_Phrase 19653 19656	Crx
 T858	Noun_Phrase 19705 19724	both rods and cones
 T859	Noun_Phrase 19710 19714	rods
 T860	Noun_Phrase 19719 19724	cones
-T861	Noun_Phrase 19776 19780;	rod-
-19790 19804	rod-specific genes
+T861	Noun_Phrase 19776 19780;19790 19804	rod- specific genes
 T862	Noun_Phrase 19776 19804	rod- and cone-specific genes
 T863	Noun_Phrase 19785 19804	cone-specific genes
 T864	Noun_Phrase 19842 19856	the Nrl mutant
@@ -998,10 +969,8 @@ T967	Noun_Phrase 22528 22534	S-cone
 T968	Noun_Phrase 22528 22540	S-cone opsin
 T969	Noun_Phrase 22564 22568	they
 T970	Noun_Phrase 22613 22619	Figure
-T971	Noun_Phrase 22613 22619;	Figure
-22627 22629	Figure7F
-T972	IDENTITY_chain 22613 22619;	Figure
-22627 22629	Figure7F
+T971	Noun_Phrase 22613 22619;22627 22629	Figure 7F
+T972	IDENTITY_chain 22613 22619;22627 22629	Figure 7F
 T973	Noun_Phrase 22613 22622	Figure 7D
 T974	IDENTITY_chain 22613 22622	Figure 7D
 T975	Noun_Phrase 22708 22714	S-cone
@@ -1037,8 +1006,7 @@ T1004	Noun_Phrase 23522 23531	Figure 7H
 T1005	IDENTITY_chain 23522 23531	Figure 7H
 T1006	Noun_Phrase 23572 23577	cones
 T1007	Noun_Phrase 23655 23669	wild-type rods
-T1008	Noun_Phrase 23679 23685;	Figure
-23693 23695	Figure7H
+T1008	Noun_Phrase 23679 23685;23693 23695	Figure 7H
 T1009	Noun_Phrase 23679 23685	Figure
 T1010	Noun_Phrase 23679 23688	Figure 7G
 T1011	IDENTITY_chain 23679 23688	Figure 7G
@@ -1046,8 +1014,7 @@ T1012	Noun_Phrase 23679 23695	Figure 7G and 7H
 T1013	Noun_Phrase 23778 23781	rd7
 T1014	Noun_Phrase 23782 23785	ONL
 T1015	Noun_Phrase 23851 23854	rd7
-T1016	Noun_Phrase 23889 23895;	Figure
-23903 23905	Figure7D
+T1016	Noun_Phrase 23889 23895;23903 23905	Figure 7D
 T1017	Noun_Phrase 23889 23895	Figure
 T1018	Noun_Phrase 23889 23898	Figure 7C
 T1019	IDENTITY_chain 23889 23898	Figure 7C
@@ -1064,8 +1031,7 @@ T1029	Noun_Phrase 24180 24200	wild-type rod somata
 T1030	Noun_Phrase 24215 24218	rd7
 T1031	Noun_Phrase 24273 24287	wild-type rods
 T1032	Noun_Phrase 24449 24452	rd7
-T1033	Noun_Phrase 24605 24611;	Figure
-24619 24621	Figure7D
+T1033	Noun_Phrase 24605 24611;24619 24621	Figure 7D
 T1034	Noun_Phrase 24605 24611	Figure
 T1035	Noun_Phrase 24605 24614	Figure 7C
 T1036	Noun_Phrase 24605 24621	Figure 7C and 7D
@@ -1087,11 +1053,9 @@ T1051	Noun_Phrase 24985 25030	this second cell population in the rd7 retina
 T1052	Noun_Phrase 25016 25030	the rd7 retina
 T1053	Noun_Phrase 25020 25023	rd7
 T1054	Noun_Phrase 25061 25087	both normal rods and cones
-T1055	Noun_Phrase 25066 25072;	normal
-25082 25087	normalcones
+T1055	Noun_Phrase 25066 25072;25082 25087	normal cones
 T1056	Noun_Phrase 25066 25077	normal rods
-T1057	Noun_Phrase 25124 25133;	many rod-
-25143 25157	many rod-specific genes
+T1057	Noun_Phrase 25124 25133;25143 25157	many rod- specific genes
 T1058	Noun_Phrase 25161 25172	these cells
 T1059	Noun_Phrase 25190 25200	this paper
 T1060	IDENTITY_chain 25190 25200	this paper
@@ -1121,8 +1085,7 @@ T1083	Noun_Phrase 25637 25648	These cells
 T1084	Noun_Phrase 25682 25685	rod
 T1085	Noun_Phrase 25738 25753	gene expression
 T1086	Noun_Phrase 25757 25768	these cells
-T1087	Noun_Phrase 25857 25863;	normal
-25873 25878	normalcones
+T1087	Noun_Phrase 25857 25863;25873 25878	normal cones
 T1088	Noun_Phrase 25857 25868	normal rods
 T1089	Noun_Phrase 25857 25878	normal rods and cones
 T1090	Noun_Phrase 25890 25923	genes showing type I derepression
@@ -1155,10 +1118,8 @@ T1116	Noun_Phrase 26651 26685	the hybrid cells of the rd7 retina
 T1117	Noun_Phrase 26671 26685	the rd7 retina
 T1118	Noun_Phrase 26675 26678	rd7
 T1119	Noun_Phrase 26749 26759	expression
-T1120	Noun_Phrase 26792 26795;	rd7
-26814 26825	rd7backgrounds
-T1121	IDENTITY_chain 26792 26795;	rd7
-26814 26825	rd7backgrounds
+T1120	Noun_Phrase 26792 26795;26814 26825	rd7 backgrounds
+T1121	IDENTITY_chain 26792 26795;26814 26825	rd7 backgrounds
 T1122	Noun_Phrase 26792 26795	rd7
 T1123	Noun_Phrase 26800 26813	Nrl?/? mutant
 T1124	Noun_Phrase 26847 26850	Nrl
@@ -1256,8 +1217,7 @@ T1215	Noun_Phrase 29318 29326	Figure 1
 T1216	Noun_Phrase 29329 29350	in situ hybridization
 T1217	Noun_Phrase 29329 29350	in situ hybridization
 T1218	Noun_Phrase 29363 29368	Fabp7
-T1219	Noun_Phrase 29396 29405;	wild-type
-29416 29422	wild-typeretina
+T1219	Noun_Phrase 29396 29405;29416 29422	wild-type retina
 T1220	Noun_Phrase 29409 29422	mutant retina
 T1221	Noun_Phrase 29424 29440	unpublished data
 T1222	Noun_Phrase 29457 29473	previous studies
@@ -1317,10 +1277,8 @@ T1275	Noun_Phrase 31386 31389	Nrl
 T1276	Noun_Phrase 31396 31428	termed “transcription factor X.”
 T1277	APPOS_relation 31396 31428	termed “transcription factor X.”
 T1278	Nonreferential_pronoun 31438 31440	it
-T1279	Noun_Phrase 31478 31484;	type I
-31497 31507	type Icone genes
-T1280	IDENTITY_chain 31478 31484;	type I
-31497 31507	type Icone genes
+T1279	Noun_Phrase 31478 31484;31497 31507	type I cone genes
+T1280	IDENTITY_chain 31478 31484;31497 31507	type I cone genes
 T1281	Noun_Phrase 31478 31507	type I and type II cone genes
 T1282	IDENTITY_chain 31478 31507	type I and type II cone genes
 T1283	Noun_Phrase 31489 31507	type II cone genes
@@ -1368,10 +1326,8 @@ T1324	Noun_Phrase 32699 32706	S-opsin
 T1325	Noun_Phrase 32822 32829	S-opsin
 T1326	Noun_Phrase 32834 32841	M-opsin
 T1327	Noun_Phrase 32898 32905	S-opsin
-T1328	Noun_Phrase 33008 33013;	older
-33026 33033	olderretinas
-T1329	IDENTITY_chain 33008 33013;	older
-33026 33033	olderretinas
+T1328	Noun_Phrase 33008 33013;33026 33033	older retinas
+T1329	IDENTITY_chain 33008 33013;33026 33033	older retinas
 T1330	Noun_Phrase 33058 33071	older retinas
 T1331	Noun_Phrase 33159 33166	M-opsin
 T1332	Noun_Phrase 33218 33221	our
@@ -1402,8 +1358,7 @@ T1356	Noun_Phrase 33640 33647	M-opsin
 T1357	Noun_Phrase 33640 33658	M-opsin transcript
 T1358	Noun_Phrase 33662 33672	the mutant
 T1359	Noun_Phrase 33704 33717	that location
-T1360	Noun_Phrase 33733 33752;	novel cone-specific
-33770 33775	novel cone-specificgenes
+T1360	Noun_Phrase 33733 33752;33770 33775	novel cone-specific genes
 T1361	Noun_Phrase 33798 33808	this study
 T1362	Noun_Phrase 33810 33828	One of these genes
 T1363	Noun_Phrase 33830 33834	Pygm
@@ -1554,10 +1509,8 @@ T1507	Noun_Phrase 37856 37866	the retina
 T1508	Noun_Phrase 37872 37955	an atypical ERG waveform that is preferentially sensitive to short-wavelength light
 T1509	IDENTITY_chain 37872 37955	an atypical ERG waveform that is preferentially sensitive to short-wavelength light
 T1510	Noun_Phrase 37933 37955	short-wavelength light
-T1511	Noun_Phrase 37961 38005;	slowly progressive retinal degeneration, and
-38010 38060	slowly progressive retinal degeneration, andabnormal retinal lamination with rosette formation
-T1512	IDENTITY_chain 37961 38005;	slowly progressive retinal degeneration, and
-38010 38060	slowly progressive retinal degeneration, andabnormal retinal lamination with rosette formation
+T1511	Noun_Phrase 37961 38005;38010 38060	slowly progressive retinal degeneration, and abnormal retinal lamination with rosette formation
+T1512	IDENTITY_chain 37961 38005;38010 38060	slowly progressive retinal degeneration, and abnormal retinal lamination with rosette formation
 T1513	Noun_Phrase 38043 38060	rosette formation
 T1514	Noun_Phrase 38072 38091	The rd7 mutant mice
 T1515	Noun_Phrase 38109 38131	the latter two defects
@@ -1573,8 +1526,7 @@ T1524	IDENTITY_chain 38524 38582	a population of cells coexpressing both rod and
 T1525	Noun_Phrase 38559 38576	both rod and cone
 T1526	Noun_Phrase 38559 38582	both rod and cone genes
 T1527	Noun_Phrase 38564 38567	rod
-T1528	Noun_Phrase 38564 38567;	rod
-38577 38582	rodgenes
+T1528	Noun_Phrase 38564 38567;38577 38582	rod genes
 T1529	Noun_Phrase 38572 38576	cone
 T1530	Noun_Phrase 38572 38582	cone genes
 T1531	Noun_Phrase 38587 38592	whose
@@ -1632,8 +1584,7 @@ T1582	Noun_Phrase 40202 40219	the present study
 T1583	Noun_Phrase 40241 40258	both rod and cone
 T1584	Noun_Phrase 40241 40264	both rod and cone genes
 T1585	Noun_Phrase 40246 40249	rod
-T1586	Noun_Phrase 40246 40249;	rod
-40259 40264	rodgenes
+T1586	Noun_Phrase 40246 40249;40259 40264	rod genes
 T1587	Noun_Phrase 40254 40258	cone
 T1588	Noun_Phrase 40254 40264	cone genes
 T1589	Noun_Phrase 40268 40281	the same cell
@@ -1793,28 +1744,21 @@ T1742	Noun_Phrase 47217 47223	mutant
 T1743	Noun_Phrase 47228 47237	wild-type
 T1744	Noun_Phrase 47258 47277	custom Perl scripts
 T1745	Noun_Phrase 47307 47310	JCC
-T1746	Noun_Phrase 47390 47411;	Those genes that were
-47419 47467	Those genes that weredown-regulated in three out of three experiments
-T1747	IDENTITY_chain 47390 47411;	Those genes that were
-47419 47467	Those genes that weredown-regulated in three out of three experiments
-T1748	Noun_Phrase 47390 47415;	Those genes that were up-
-47424 47467	Those genes that were up-regulated in three out of three experiments
-T1749	IDENTITY_chain 47390 47415;	Those genes that were up-
-47424 47467	Those genes that were up-regulated in three out of three experiments
+T1746	Noun_Phrase 47390 47411;47419 47467	Those genes that were down-regulated in three out of three experiments
+T1747	IDENTITY_chain 47390 47411;47419 47467	Those genes that were down-regulated in three out of three experiments
+T1748	Noun_Phrase 47390 47415;47424 47467	Those genes that were up- regulated in three out of three experiments
+T1749	IDENTITY_chain 47390 47415;47424 47467	Those genes that were up- regulated in three out of three experiments
 T1750	Noun_Phrase 47437 47467	three out of three experiments
 T1751	Noun_Phrase 47450 47467	three experiments
-T1752	Noun_Phrase 47483 47489;	Tables
-47497 47499	TablesS5
-T1753	IDENTITY_chain 47483 47489;	Tables
-47497 47499	TablesS5
+T1752	Noun_Phrase 47483 47489;47497 47499	Tables S5
+T1753	IDENTITY_chain 47483 47489;47497 47499	Tables S5
 T1754	Noun_Phrase 47483 47492	Tables S4
 T1755	Noun_Phrase 47589 47610	In Situ hybridization
 T1756	Noun_Phrase 47589 47610	In Situ hybridization
 T1757	Noun_Phrase 47613 47642	Section in situ hybridization
 T1758	Noun_Phrase 48009 48022	United States
 T1759	Noun_Phrase 48074 48084	this study
-T1760	Noun_Phrase 48102 48108;	Tables
-48116 48118	TablesS2
+T1760	Noun_Phrase 48102 48108;48116 48118	Tables S2
 T1761	Noun_Phrase 48102 48111	Tables S1
 T1762	Noun_Phrase 48102 48118	Tables S1 and S2
 T1763	Noun_Phrase 48120 48158	Dissociated cell in situ hybridization
@@ -1826,8 +1770,7 @@ T1768	IDENTITY_chain 48371 48376	Japan
 T1769	Noun_Phrase 48416 48423	S-opsin
 T1770	Noun_Phrase 48416 48438	S-opsin positive cells
 T1771	Noun_Phrase 48459 48497	dissociated cell in situ hybridization
-T1772	Noun_Phrase 48605 48608;	rd7
-48623 48630	rd7retinas
+T1772	Noun_Phrase 48605 48608;48623 48630	rd7 retinas
 T1773	Noun_Phrase 48605 48608	rd7
 T1774	Noun_Phrase 48613 48630	wild-type retinas
 T1775	Noun_Phrase 48660 48677	antibody staining
@@ -1887,10 +1830,8 @@ T1828	Noun_Phrase 51606 51611	Tokyo
 T1829	Noun_Phrase 51613 51618	Japan
 T1830	Noun_Phrase 51656 51662	Figure
 T1831	Noun_Phrase 51656 51664	Figure 7
-T1832	Noun_Phrase 51703 51706;	the
-51721 51735	themutant retinas
-T1833	Noun_Phrase 51703 51716;	the wild-type
-51728 51735	the wild-typeretinas
+T1832	Noun_Phrase 51703 51706;51721 51735	the mutant retinas
+T1833	Noun_Phrase 51703 51716;51728 51735	the wild-type retinas
 T1834	Noun_Phrase 51769 51777	the rods
 T1835	Noun_Phrase 51867 51887	the following manner
 T1836	IDENTITY_chain 51867 51887	the following manner
@@ -1907,8 +1848,7 @@ T1846	Noun_Phrase 53243 53256	Figures S1–S7
 T1847	Noun_Phrase 53266 53287	in situ hybridization
 T1848	Noun_Phrase 53266 53287	in situ hybridization
 T1849	Noun_Phrase 53321 53330	the paper
-T1850	Noun_Phrase 53336 53342;	Tables
-53350 53352	TablesS2
+T1850	Noun_Phrase 53336 53342;53350 53352	Tables S2
 T1851	Noun_Phrase 53336 53345	Tables S1
 T1852	Noun_Phrase 53336 53352	Tables S1 and S2
 T1853	Noun_Phrase 53385 53406	the wild-type control
@@ -1989,32 +1929,20 @@ T1927	Noun_Phrase 54975 54989	the rd7 mutant
 T1928	Noun_Phrase 54979 54982	rd7
 T1929	Noun_Phrase 55021 55041	additional data file
 T1930	Noun_Phrase 55044 55052	Table S1
-T1931	Noun_Phrase 55054 55067;	Cone-Specific
-55086 55122;	Cone-SpecificGenes Evaluated in the rd7 Mutant by
-55138 55159	Cone-SpecificGenes Evaluated in the rd7 Mutant byIn Situ Hybridization
-T1932	IDENTITY_chain 55054 55067;	Cone-Specific
-55086 55122;	Cone-SpecificGenes Evaluated in the rd7 Mutant by
-55138 55159	Cone-SpecificGenes Evaluated in the rd7 Mutant byIn Situ Hybridization
-T1933	Noun_Phrase 55054 55067;	Cone-Specific
-55086 55133	Cone-SpecificGenes Evaluated in the rd7 Mutant by Microarray
-T1934	IDENTITY_chain 55054 55067;	Cone-Specific
-55086 55133	Cone-SpecificGenes Evaluated in the rd7 Mutant by Microarray
-T1935	Noun_Phrase 55054 55067;	Cone-Specific
-55086 55159	Cone-SpecificGenes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
-T1936	IDENTITY_chain 55054 55067;	Cone-Specific
-55086 55159	Cone-SpecificGenes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
-T1937	Noun_Phrase 55054 55122;	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by
-55138 55159	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant byIn Situ Hybridization
-T1938	IDENTITY_chain 55054 55122;	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by
-55138 55159	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant byIn Situ Hybridization
+T1931	Noun_Phrase 55054 55067;55086 55122;55138 55159	Cone-Specific Genes Evaluated in the rd7 Mutant by In Situ Hybridization
+T1932	IDENTITY_chain 55054 55067;55086 55122;55138 55159	Cone-Specific Genes Evaluated in the rd7 Mutant by In Situ Hybridization
+T1933	Noun_Phrase 55054 55067;55086 55133	Cone-Specific Genes Evaluated in the rd7 Mutant by Microarray
+T1934	IDENTITY_chain 55054 55067;55086 55133	Cone-Specific Genes Evaluated in the rd7 Mutant by Microarray
+T1935	Noun_Phrase 55054 55067;55086 55159	Cone-Specific Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
+T1936	IDENTITY_chain 55054 55067;55086 55159	Cone-Specific Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
+T1937	Noun_Phrase 55054 55122;55138 55159	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by In Situ Hybridization
+T1938	IDENTITY_chain 55054 55122;55138 55159	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by In Situ Hybridization
 T1939	Noun_Phrase 55054 55133	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray
 T1940	IDENTITY_chain 55054 55133	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray
 T1941	Noun_Phrase 55054 55159	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
 T1942	IDENTITY_chain 55054 55159	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
-T1943	Noun_Phrase 55072 55122;	Cone-Enriched Genes Evaluated in the rd7 Mutant by
-55138 55159	Cone-Enriched Genes Evaluated in the rd7 Mutant byIn Situ Hybridization
-T1944	IDENTITY_chain 55072 55122;	Cone-Enriched Genes Evaluated in the rd7 Mutant by
-55138 55159	Cone-Enriched Genes Evaluated in the rd7 Mutant byIn Situ Hybridization
+T1943	Noun_Phrase 55072 55122;55138 55159	Cone-Enriched Genes Evaluated in the rd7 Mutant by In Situ Hybridization
+T1944	IDENTITY_chain 55072 55122;55138 55159	Cone-Enriched Genes Evaluated in the rd7 Mutant by In Situ Hybridization
 T1945	Noun_Phrase 55072 55133	Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray
 T1946	IDENTITY_chain 55072 55133	Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray
 T1947	Noun_Phrase 55072 55159	Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
@@ -2055,8 +1983,7 @@ T1981	Noun_Phrase 55781 55802	the rd7 mutant retina
 T1982	Noun_Phrase 55785 55795	rd7 mutant
 T1983	Noun_Phrase 55805 55811	Figure
 T1984	Noun_Phrase 55836 55842	figure
-T1985	Noun_Phrase 55844 55850;	Figure
-55857 55859	FigureS7
+T1985	Noun_Phrase 55844 55850;55857 55859	Figure S7
 T1986	Noun_Phrase 55844 55850	Figure
 T1987	Noun_Phrase 55844 55853	Figure S6
 T1988	Noun_Phrase 55874 55895	in situ hybridization
@@ -2085,10 +2012,8 @@ T2010	Noun_Phrase 56565 56586	Materials and Methods
 T2011	Noun_Phrase 56579 56586	Methods
 T2012	Noun_Phrase 56632 56664	all three microarray experiments
 T2013	Noun_Phrase 56673 56677	time
-T2014	Noun_Phrase 56814 56823;	wild-type
-56835 56838	wild-typeRNA
-T2015	IDENTITY_chain 56814 56823;	wild-type
-56835 56838	wild-typeRNA
+T2014	Noun_Phrase 56814 56823;56835 56838	wild-type RNA
+T2015	IDENTITY_chain 56814 56823;56835 56838	wild-type RNA
 T2016	Noun_Phrase 56828 56838	mutant RNA
 T2017	Noun_Phrase 56867 56876	Materials
 T2018	Noun_Phrase 56867 56888	Materials and Methods
@@ -2237,19 +2162,13 @@ T2160	APPOS_relation 60138 60160	postnatal day [number]
 T2161	Noun_Phrase 60162 60169	Figures
 T2162	Noun_Phrase 60171 60177	Figure
 T2163	Noun_Phrase 60171 60179	Figure 1
-T2164	Noun_Phrase 60181 60194;	Cone-Specific
-60213 60249;	Cone-SpecificGenes Evaluated in the rd7 Mutant by
-60265 60286	Cone-SpecificGenes Evaluated in the rd7 Mutant byIn Situ Hybridization
-T2165	Noun_Phrase 60181 60194;	Cone-Specific
-60213 60260	Cone-SpecificGenes Evaluated in the rd7 Mutant by Microarray
-T2166	Noun_Phrase 60181 60194;	Cone-Specific
-60213 60286	Cone-SpecificGenes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
-T2167	Noun_Phrase 60181 60249;	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by
-60265 60286	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant byIn Situ Hybridization
+T2164	Noun_Phrase 60181 60194;60213 60249;60265 60286	Cone-Specific Genes Evaluated in the rd7 Mutant by In Situ Hybridization
+T2165	Noun_Phrase 60181 60194;60213 60260	Cone-Specific Genes Evaluated in the rd7 Mutant by Microarray
+T2166	Noun_Phrase 60181 60194;60213 60286	Cone-Specific Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
+T2167	Noun_Phrase 60181 60249;60265 60286	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by In Situ Hybridization
 T2168	Noun_Phrase 60181 60260	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray
 T2169	Noun_Phrase 60181 60286	Cone-Specific and Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
-T2170	Noun_Phrase 60199 60249;	Cone-Enriched Genes Evaluated in the rd7 Mutant by
-60265 60286	Cone-Enriched Genes Evaluated in the rd7 Mutant byIn Situ Hybridization
+T2170	Noun_Phrase 60199 60249;60265 60286	Cone-Enriched Genes Evaluated in the rd7 Mutant by In Situ Hybridization
 T2171	Noun_Phrase 60199 60260	Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray
 T2172	Noun_Phrase 60199 60286	Cone-Enriched Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization
 T2173	Noun_Phrase 60232 60246	the rd7 Mutant
@@ -2354,14 +2273,12 @@ T2271	Noun_Phrase 63326 63352	retinal pigment epithelium
 T2272	APPOS_relation 63326 63352	retinal pigment epithelium
 T2273	Noun_Phrase 63355 63361	Figure
 T2274	Noun_Phrase 63355 63363	Figure 2
-T2275	Noun_Phrase 63365 63369;	Cone
-63378 63382	ConeGene
+T2275	Noun_Phrase 63365 63369;63378 63382	Cone Gene
 T2276	Noun_Phrase 63374 63382	Rod Gene
 T2277	Noun_Phrase 63397 63411	the rd7 Mutant
 T2278	Noun_Phrase 63401 63404	rd7
 T2279	Noun_Phrase 63415 63418	P14
-T2280	Noun_Phrase 63479 63485;	type I
-63498 63507	type Icone gene
+T2280	Noun_Phrase 63479 63485;63498 63507	type I cone gene
 T2281	Noun_Phrase 63479 63507	type I and type II cone gene
 T2282	Noun_Phrase 63490 63507	type II cone gene
 T2283	Noun_Phrase 63524 63545	the rd7 mutant retina

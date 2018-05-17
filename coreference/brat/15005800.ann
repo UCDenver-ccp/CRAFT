@@ -98,8 +98,7 @@ T96	IDENTITY_chain 1634 1656	its downstream targets
 T97	Noun_Phrase 1660 1680	immunohistochemistry
 T98	IDENTITY_chain 1660 1680	immunohistochemistry
 T99	Noun_Phrase 1703 1711	knockout
-T100	Noun_Phrase 1703 1711;	knockout
-1726 1731	knockoutlungs
+T100	Noun_Phrase 1703 1711;1726 1731	knockout lungs
 T101	Noun_Phrase 1716 1725	wild-type
 T102	IDENTITY_chain 1716 1725	wild-type
 T103	Noun_Phrase 1716 1731	wild-type lungs
@@ -300,8 +299,7 @@ T297	Noun_Phrase 7708 7724	Dhcr7-/- embryos
 T298	Noun_Phrase 7726 7734	Dhcr7-/-
 T299	Noun_Phrase 7726 7739	Dhcr7-/- mice
 T300	Noun_Phrase 7821 7831	these pups
-T301	Noun_Phrase 7837 7848;	within 24 h
-7870 7878	within 24 hof birth
+T301	Noun_Phrase 7837 7848;7870 7878	within 24 h of birth
 T302	Noun_Phrase 7873 7878	birth
 T303	Noun_Phrase 7888 7893	birth
 T304	Noun_Phrase 7895 7899	they
@@ -344,10 +342,8 @@ T340	IDENTITY_chain 8675 8679	Fig.
 T341	Noun_Phrase 8675 8681	Fig. 1
 T342	Noun_Phrase 8714 8718	body
 T343	Noun_Phrase 8734 8743	wild-type
-T344	Noun_Phrase 8734 8743;	wild-type
-8761 8768	wild-typeembryos
-T345	IDENTITY_chain 8734 8743;	wild-type
-8761 8768	wild-typeembryos
+T344	Noun_Phrase 8734 8743;8761 8768	wild-type embryos
+T345	IDENTITY_chain 8734 8743;8761 8768	wild-type embryos
 T346	Noun_Phrase 8734 8768	wild-type and heterozygous embryos
 T347	IDENTITY_chain 8734 8768	wild-type and heterozygous embryos
 T348	Noun_Phrase 8748 8768	heterozygous embryos
@@ -378,8 +374,7 @@ T372	Noun_Phrase 9129 9133	Body
 T373	Noun_Phrase 9182 9189	Control
 T374	Noun_Phrase 9182 9197	Control embryos
 T375	Noun_Phrase 9217 9226	wild-type
-T376	Noun_Phrase 9217 9226;	wild-type
-9244 9251	wild-typeembryos
+T376	Noun_Phrase 9217 9226;9244 9251	wild-type embryos
 T377	Noun_Phrase 9217 9251	wild-type and heterozygous embryos
 T378	Noun_Phrase 9231 9251	heterozygous embryos
 T379	Nonreferential_pronoun 9276 9281	there
@@ -414,10 +409,8 @@ T407	Noun_Phrase 9915 9926	late stages
 T408	Noun_Phrase 9963 9991	delayed saccular development
 T409	Noun_Phrase 9993 10009	Wet lung weights
 T410	Noun_Phrase 10022 10026	lung
-T411	Noun_Phrase 10022 10026;	lung
-10035 10041	lungweight
-T412	IDENTITY_chain 10022 10026;	lung
-10035 10041	lungweight
+T411	Noun_Phrase 10022 10026;10035 10041	lung weight
+T412	IDENTITY_chain 10022 10026;10035 10041	lung weight
 T413	Noun_Phrase 10022 10048	lung to body weight ratios
 T414	Noun_Phrase 10030 10041	body weight
 T415	IDENTITY_chain 10030 10041	body weight
@@ -426,8 +419,7 @@ T417	Noun_Phrase 10089 10094	E18.5
 T418	Noun_Phrase 10116 10125	wild-type
 T419	Noun_Phrase 10137 10142	E13.5
 T420	Noun_Phrase 10144 10151	Table 1
-T421	Noun_Phrase 10159 10163;	body
-10173 10180	bodyweights
+T421	Noun_Phrase 10159 10163;10173 10180	body weights
 T422	Noun_Phrase 10168 10180	lung weights
 T423	IDENTITY_chain 10168 10180	lung weights
 T424	Noun_Phrase 10199 10204	lungs
@@ -440,10 +432,8 @@ T430	Noun_Phrase 10296 10301	birth
 T431	Noun_Phrase 10315 10319	Fig.
 T432	Noun_Phrase 10332 10339	Table 1
 T433	IDENTITY_chain 10332 10339	Table 1
-T434	Noun_Phrase 10341 10351;	Whole body
-10361 10385	Whole bodyweights of mouse embryos
-T435	IDENTITY_chain 10341 10351;	Whole body
-10361 10385	Whole bodyweights of mouse embryos
+T434	Noun_Phrase 10341 10351;10361 10385	Whole body weights of mouse embryos
+T435	IDENTITY_chain 10341 10351;10361 10385	Whole body weights of mouse embryos
 T436	Noun_Phrase 10356 10385	lung weights of mouse embryos
 T437	IDENTITY_chain 10356 10385	lung weights of mouse embryos
 T438	Noun_Phrase 10372 10377	mouse
@@ -477,18 +467,12 @@ T465	Noun_Phrase 10754 10761	panel B
 T466	IDENTITY_chain 10754 10761	panel B
 T467	Noun_Phrase 10764 10771	Panel C
 T468	IDENTITY_chain 10764 10771	Panel C
-T469	Noun_Phrase 10794 10804;	lungs from
-10818 10836	lungs fromwild-type at E13.5
-T470	IDENTITY_chain 10794 10804;	lungs from
-10818 10836	lungs fromwild-type at E13.5
-T471	Noun_Phrase 10794 10813;	lungs from knockout
-10828 10836	lungs from knockoutat E13.5
-T472	IDENTITY_chain 10794 10813;	lungs from knockout
-10828 10836	lungs from knockoutat E13.5
-T473	Noun_Phrase 10794 10813;	lungs from knockout
-10855 10860	lungs from knockoutat P0
-T474	IDENTITY_chain 10794 10813;	lungs from knockout
-10855 10860	lungs from knockoutat P0
+T469	Noun_Phrase 10794 10804;10818 10836	lungs from wild-type at E13.5
+T470	IDENTITY_chain 10794 10804;10818 10836	lungs from wild-type at E13.5
+T471	Noun_Phrase 10794 10813;10828 10836	lungs from knockout at E13.5
+T472	IDENTITY_chain 10794 10813;10828 10836	lungs from knockout at E13.5
+T473	Noun_Phrase 10794 10813;10855 10860	lungs from knockout at P0
+T474	IDENTITY_chain 10794 10813;10855 10860	lungs from knockout at P0
 T475	Noun_Phrase 10831 10836	E13.5
 T476	Noun_Phrase 10841 10848	panel D
 T477	IDENTITY_chain 10841 10848	panel D
@@ -499,21 +483,17 @@ T481	Noun_Phrase 10930 10944	prior to birth
 T482	Noun_Phrase 10939 10944	birth
 T483	Noun_Phrase 10992 11000	knockout
 T484	Noun_Phrase 10992 11008	knockout animals
-T485	Noun_Phrase 11065 11071;	panels
-11078 11079	panelsF
-T486	IDENTITY_chain 11065 11071;	panels
-11078 11079	panelsF
+T485	Noun_Phrase 11065 11071;11078 11079	panels F
+T486	IDENTITY_chain 11065 11071;11078 11079	panels F
 T487	Noun_Phrase 11065 11073	panels E
 T488	IDENTITY_chain 11065 11073	panels E
 T489	Noun_Phrase 11065 11079	panels E and F
 T490	IDENTITY_chain 11065 11079	panels E and F
 T491	Noun_Phrase 11082 11104	Original magnification
 T492	IDENTITY_chain 11082 11104	Original magnification
-T493	Noun_Phrase 11106 11112;	Panels
-11119 11120	PanelsC
+T493	Noun_Phrase 11106 11112;11119 11120	Panels C
 T494	Noun_Phrase 11106 11114	Panels A
-T495	Noun_Phrase 11126 11132;	panels
-11139 11140	panelsD
+T495	Noun_Phrase 11126 11132;11139 11140	panels D
 T496	Noun_Phrase 11126 11134	panels B
 T497	Noun_Phrase 11148 11149	E
 T498	Noun_Phrase 11148 11155	E and F
@@ -561,8 +541,7 @@ T539	Noun_Phrase 11578 11582	Fig.
 T540	Noun_Phrase 11616 11621	E13.5
 T541	Noun_Phrase 11660 11664	Fig.
 T542	Noun_Phrase 11677 11686	wild-type
-T543	Noun_Phrase 11677 11686;	wild-type
-11700 11707	wild-typeembryos
+T543	Noun_Phrase 11677 11686;11700 11707	wild-type embryos
 T544	Noun_Phrase 11677 11707	wild-type and knockout embryos
 T545	Noun_Phrase 11691 11699	knockout
 T546	Noun_Phrase 11691 11707	knockout embryos
@@ -576,23 +555,17 @@ T553	Noun_Phrase 12026 12040	data not shown
 T554	Noun_Phrase 12109 12126	the knockout pups
 T555	Noun_Phrase 12113 12121	knockout
 T556	Noun_Phrase 12287 12295	Dhcr7-/-
-T557	Noun_Phrase 12287 12295;	Dhcr7-/-
-12310 12318;	Dhcr7-/-lungs at
-12333 12338	Dhcr7-/-lungs atE14.5
+T557	Noun_Phrase 12287 12295;12310 12318;12333 12338	Dhcr7-/- lungs at E14.5
 T558	Noun_Phrase 12300 12309	wild-type
-T559	Noun_Phrase 12300 12318;	wild-type lungs at
-12326 12331	wild-type lungs atE13.5
-T560	Noun_Phrase 12300 12318;	wild-type lungs at
-12333 12338	wild-type lungs atE14.5
-T561	IDENTITY_chain 12300 12318;	wild-type lungs at
-12333 12338	wild-type lungs atE14.5
+T559	Noun_Phrase 12300 12318;12326 12331	wild-type lungs at E13.5
+T560	Noun_Phrase 12300 12318;12333 12338	wild-type lungs at E14.5
+T561	IDENTITY_chain 12300 12318;12333 12338	wild-type lungs at E14.5
 T562	Noun_Phrase 12319 12324	E10.5
 T563	Noun_Phrase 12326 12331	E13.5
 T564	Noun_Phrase 12333 12338	E14.5
 T565	Noun_Phrase 12343 12348	E16.5
 T566	IDENTITY_chain 12343 12348	E16.5
-T567	Noun_Phrase 12352 12361;	low (10X)
-12376 12390	low (10X)magnifications
+T567	Noun_Phrase 12352 12361;12376 12390	low (10X) magnifications
 T568	Noun_Phrase 12365 12390	high (40X) magnifications
 T569	IDENTITY_chain 12365 12390	high (40X) magnifications
 T570	Noun_Phrase 12392 12396	Fig.
@@ -812,10 +785,8 @@ T783	Noun_Phrase 15523 15527	term
 T784	IDENTITY_chain 15523 15527	term
 T785	Noun_Phrase 15529 15533	Fig.
 T786	Noun_Phrase 15529 15535	Fig. 4
-T787	Noun_Phrase 15541 15547;	panels
-15554 15555	panelsJ
-T788	IDENTITY_chain 15541 15547;	panels
-15554 15555	panelsJ
+T787	Noun_Phrase 15541 15547;15554 15555	panels J
+T788	IDENTITY_chain 15541 15547;15554 15555	panels J
 T789	Noun_Phrase 15541 15549	panels I
 T790	IDENTITY_chain 15541 15549	panels I
 T791	Noun_Phrase 15541 15555	panels I and J
@@ -833,22 +804,14 @@ T802	Noun_Phrase 15714 15719	E20.5
 T803	Noun_Phrase 15731 15736	E14.5
 T804	Noun_Phrase 15738 15742	Fig.
 T805	Noun_Phrase 15738 15744	Fig. 4
-T806	Noun_Phrase 15746 15752;	panels
-15756 15757	panelsL
-T807	IDENTITY_chain 15746 15752;	panels
-15756 15757	panelsL
-T808	Noun_Phrase 15746 15752;	panels
-15759 15760	panelsO
-T809	IDENTITY_chain 15746 15752;	panels
-15759 15760	panelsO
-T810	Noun_Phrase 15746 15752;	panels
-15759 15766	panelsO and P
-T811	IDENTITY_chain 15746 15752;	panels
-15759 15766	panelsO and P
-T812	Noun_Phrase 15746 15752;	panels
-15765 15766	panelsP
-T813	IDENTITY_chain 15746 15752;	panels
-15765 15766	panelsP
+T806	Noun_Phrase 15746 15752;15756 15757	panels L
+T807	IDENTITY_chain 15746 15752;15756 15757	panels L
+T808	Noun_Phrase 15746 15752;15759 15760	panels O
+T809	IDENTITY_chain 15746 15752;15759 15760	panels O
+T810	Noun_Phrase 15746 15752;15759 15766	panels O and P
+T811	IDENTITY_chain 15746 15752;15759 15766	panels O and P
+T812	Noun_Phrase 15746 15752;15765 15766	panels P
+T813	IDENTITY_chain 15746 15752;15765 15766	panels P
 T814	Noun_Phrase 15746 15754	panels K
 T815	IDENTITY_chain 15746 15754	panels K
 T816	Noun_Phrase 15788 15803	the TUNEL assay
@@ -861,10 +824,8 @@ T822	Noun_Phrase 15889 15897	knockout
 T823	Noun_Phrase 15907 15912	E18.5
 T824	Noun_Phrase 15914 15918	Fig.
 T825	Noun_Phrase 15914 15920	Fig. 4
-T826	Noun_Phrase 15926 15932;	panels
-15939 15940	panelsN
-T827	IDENTITY_chain 15926 15932;	panels
-15939 15940	panelsN
+T826	Noun_Phrase 15926 15932;15939 15940	panels N
+T827	IDENTITY_chain 15926 15932;15939 15940	panels N
 T828	Noun_Phrase 15926 15934	panels M
 T829	IDENTITY_chain 15926 15934	panels M
 T830	Noun_Phrase 15926 15940	panels M and N
@@ -889,37 +850,27 @@ T848	Noun_Phrase 16141 16151	cell death
 T849	Noun_Phrase 16153 16157	Cell
 T850	Noun_Phrase 16153 16171	Cell proliferation
 T851	Noun_Phrase 16173 16177	PCNA
-T852	Noun_Phrase 16179 16185;	panels
-16192 16193	panelsE
-T853	IDENTITY_chain 16179 16185;	panels
-16192 16193	panelsE
-T854	Noun_Phrase 16179 16185;	panels
-16198 16199	panelsF
-T855	IDENTITY_chain 16179 16185;	panels
-16198 16199	panelsF
+T852	Noun_Phrase 16179 16185;16192 16193	panels E
+T853	IDENTITY_chain 16179 16185;16192 16193	panels E
+T854	Noun_Phrase 16179 16185;16198 16199	panels F
+T855	IDENTITY_chain 16179 16185;16198 16199	panels F
 T856	Noun_Phrase 16201 16205	BrdU
 T857	Noun_Phrase 16230 16234	cell
 T858	Noun_Phrase 16230 16243	cell division
 T859	Noun_Phrase 16245 16249	pHH3
-T860	Noun_Phrase 16251 16257;	panels
-16261 16262	panelsL
-T861	Noun_Phrase 16251 16257;	panels
-16264 16265	panelsO
-T862	Noun_Phrase 16251 16257;	panels
-16264 16271	panelsO and P
-T863	Noun_Phrase 16251 16257;	panels
-16270 16271	panelsP
+T860	Noun_Phrase 16251 16257;16261 16262	panels L
+T861	Noun_Phrase 16251 16257;16264 16265	panels O
+T862	Noun_Phrase 16251 16257;16264 16271	panels O and P
+T863	Noun_Phrase 16251 16257;16270 16271	panels P
 T864	Noun_Phrase 16251 16259	panels K
 T865	Noun_Phrase 16277 16281	cell
 T866	Noun_Phrase 16277 16287	cell death
 T867	Noun_Phrase 16289 16294	TUNEL
-T868	Noun_Phrase 16296 16302;	panels
-16309 16310	panelsN
+T868	Noun_Phrase 16296 16302;16309 16310	panels N
 T869	Noun_Phrase 16296 16304	panels M
 T870	Noun_Phrase 16296 16310	panels M and N
 T871	Noun_Phrase 16347 16351	lung
-T872	Noun_Phrase 16364 16369;	early
-16379 16397	earlygestational stages
+T872	Noun_Phrase 16364 16369;16379 16397	early gestational stages
 T873	Noun_Phrase 16374 16397	late gestational stages
 T874	Noun_Phrase 16404 16408	PCNA
 T875	Noun_Phrase 16404 16417	PCNA and BrdU
@@ -933,8 +884,7 @@ T882	Noun_Phrase 16537 16541	BrdU
 T883	IDENTITY_chain 16537 16541	BrdU
 T884	Noun_Phrase 16551 16560	wild-type
 T885	APPOS_relation 16551 16560	wild-type
-T886	Noun_Phrase 16551 16566;	wild-type (+/+)
-16586 16591	wild-type (+/+)lungs
+T886	Noun_Phrase 16551 16566;16586 16591	wild-type (+/+) lungs
 T887	Noun_Phrase 16562 16565	+/+
 T888	Noun_Phrase 16571 16579	knockout
 T889	APPOS_relation 16571 16579	knockout
@@ -950,8 +900,7 @@ T898	Noun_Phrase 16741 16750	wild-type
 T899	Noun_Phrase 16752 16756	PCNA
 T900	Noun_Phrase 16807 16815	knockout
 T901	Noun_Phrase 16827 16832	E20.5
-T902	Noun_Phrase 16838 16844;	panels
-16851 16852	panelsJ
+T902	Noun_Phrase 16838 16844;16851 16852	panels J
 T903	Noun_Phrase 16838 16846	panels I
 T904	Noun_Phrase 16838 16852	panels I and J
 T905	Noun_Phrase 16882 16887	TUNEL
@@ -963,8 +912,7 @@ T910	Noun_Phrase 16975 16998	The pHH3 immunostaining
 T911	IDENTITY_chain 16975 16998	The pHH3 immunostaining
 T912	Noun_Phrase 16979 16983	pHH3
 T913	Noun_Phrase 17022 17031	wild-type
-T914	Noun_Phrase 17022 17031;	wild-type
-17045 17059	wild-typelungs at E14.5
+T914	Noun_Phrase 17022 17031;17045 17059	wild-type lungs at E14.5
 T915	Noun_Phrase 17036 17044	knockout
 T916	Noun_Phrase 17036 17059	knockout lungs at E14.5
 T917	IDENTITY_chain 17036 17059	knockout lungs at E14.5
@@ -986,20 +934,14 @@ T932	Noun_Phrase 17572 17594	lungs of Dhcr7-/- mice
 T933	IDENTITY_chain 17572 17594	lungs of Dhcr7-/- mice
 T934	Noun_Phrase 17581 17589	Dhcr7-/-
 T935	Noun_Phrase 17581 17594	Dhcr7-/- mice
-T936	Noun_Phrase 17607 17611;	~60%
-17621 17653	~60%of total tissue sterols at E13.5
-T937	IDENTITY_chain 17607 17611;	~60%
-17621 17653	~60%of total tissue sterols at E13.5
+T936	Noun_Phrase 17607 17611;17621 17653	~60% of total tissue sterols at E13.5
+T937	IDENTITY_chain 17607 17611;17621 17653	~60% of total tissue sterols at E13.5
 T938	Noun_Phrase 17607 17665	~60% and ~30% of total tissue sterols at E13.5 and neonate
 T939	IDENTITY_chain 17607 17665	~60% and ~30% of total tissue sterols at E13.5 and neonate
-T940	Noun_Phrase 17616 17647;	~30% of total tissue sterols at
-17658 17665	~30% of total tissue sterols atneonate
-T941	IDENTITY_chain 17616 17647;	~30% of total tissue sterols at
-17658 17665	~30% of total tissue sterols atneonate
-T942	Noun_Phrase 17624 17647;	total tissue sterols at
-17658 17665	total tissue sterols atneonate
-T943	IDENTITY_chain 17624 17647;	total tissue sterols at
-17658 17665	total tissue sterols atneonate
+T940	Noun_Phrase 17616 17647;17658 17665	~30% of total tissue sterols at neonate
+T941	IDENTITY_chain 17616 17647;17658 17665	~30% of total tissue sterols at neonate
+T942	Noun_Phrase 17624 17647;17658 17665	total tissue sterols at neonate
+T943	IDENTITY_chain 17624 17647;17658 17665	total tissue sterols at neonate
 T944	Noun_Phrase 17624 17653	total tissue sterols at E13.5
 T945	IDENTITY_chain 17624 17653	total tissue sterols at E13.5
 T946	Noun_Phrase 17624 17665	total tissue sterols at E13.5 and neonate
@@ -1048,14 +990,11 @@ T988	Noun_Phrase 18300 18310	black bars
 T989	IDENTITY_chain 18300 18310	black bars
 T990	Noun_Phrase 18316 18325	7DHC/8DHC
 T991	IDENTITY_chain 18316 18325	7DHC/8DHC
-T992	Noun_Phrase 18373 18383;	lungs from
-18404 18426	lungs fromknockout (-/-) embryos
-T993	Noun_Phrase 18373 18399;	lungs from wild-type (+/+)
-18419 18426	lungs from wild-type (+/+)embryos
+T992	Noun_Phrase 18373 18383;18404 18426	lungs from knockout (-/-) embryos
+T993	Noun_Phrase 18373 18399;18419 18426	lungs from wild-type (+/+) embryos
 T994	Noun_Phrase 18384 18393	wild-type
 T995	APPOS_relation 18384 18393	wild-type
-T996	Noun_Phrase 18384 18399;	wild-type (+/+)
-18419 18426	wild-type (+/+)embryos
+T996	Noun_Phrase 18384 18399;18419 18426	wild-type (+/+) embryos
 T997	Noun_Phrase 18384 18426	wild-type (+/+) and knockout (-/-) embryos
 T998	Noun_Phrase 18395 18398	+/+
 T999	Noun_Phrase 18404 18412	knockout
@@ -1106,8 +1045,7 @@ T1043	IDENTITY_chain 19821 19824	IHC
 T1044	Noun_Phrase 19844 19848	lung
 T1045	Noun_Phrase 19863 19872	wild-type
 T1046	Noun_Phrase 19876 19881	Dhcr7
-T1047	Noun_Phrase 19905 19910;	E18.5
-19923 19939	E18.5gestational ages
+T1047	Noun_Phrase 19905 19910;19923 19939	E18.5 gestational ages
 T1048	Noun_Phrase 19917 19939	E20.5 gestational ages
 T1049	Noun_Phrase 19941 19945	Fig.
 T1050	Noun_Phrase 19941 19947	Fig. 6
@@ -1142,8 +1080,7 @@ T1078	Noun_Phrase 20294 20299	E18.5
 T1079	Noun_Phrase 20304 20309	E20.5
 T1080	Noun_Phrase 20315 20324	wild-type
 T1081	APPOS_relation 20315 20324	wild-type
-T1082	Noun_Phrase 20315 20330;	wild-type (+/+)
-20350 20357	wild-type (+/+)embryos
+T1082	Noun_Phrase 20315 20330;20350 20357	wild-type (+/+) embryos
 T1083	Noun_Phrase 20315 20357	wild-type (+/+) and knockout (-/-) embryos
 T1084	Noun_Phrase 20326 20329	+/+
 T1085	Noun_Phrase 20335 20343	knockout
@@ -1153,8 +1090,7 @@ T1088	Noun_Phrase 20345 20348	-/-
 T1089	Noun_Phrase 20389 20418	the patterns of SP-C staining
 T1090	Noun_Phrase 20405 20409	SP-C
 T1091	Noun_Phrase 20440 20449	wild-type
-T1092	Noun_Phrase 20440 20449;	wild-type
-20463 20468	wild-typelungs
+T1092	Noun_Phrase 20440 20449;20463 20468	wild-type lungs
 T1093	Noun_Phrase 20454 20462	knockout
 T1094	Noun_Phrase 20454 20468	knockout lungs
 T1095	Noun_Phrase 20470 20477	panel A
@@ -1206,8 +1142,7 @@ T1140	Noun_Phrase 21728 21732	lung
 T1141	Noun_Phrase 21728 21744	lung type I AECs
 T1142	Noun_Phrase 21746 21750	Fig.
 T1143	Noun_Phrase 21746 21752	Fig. 7
-T1144	Noun_Phrase 21758 21764;	panels
-21771 21772	panelsD
+T1144	Noun_Phrase 21758 21764;21771 21772	panels D
 T1145	Noun_Phrase 21758 21766	panels C
 T1146	IDENTITY_chain 21758 21766	panels C
 T1147	Noun_Phrase 21804 21808	AQP5
@@ -1223,10 +1158,8 @@ T1156	Noun_Phrase 21899 21906	control
 T1157	Noun_Phrase 21899 21912	control lungs
 T1158	Noun_Phrase 21914 21918	Fig.
 T1159	Noun_Phrase 21914 21920	Fig. 7
-T1160	Noun_Phrase 21926 21932;	panels
-21939 21940	panelsF
-T1161	IDENTITY_chain 21926 21932;	panels
-21939 21940	panelsF
+T1160	Noun_Phrase 21926 21932;21939 21940	panels F
+T1161	IDENTITY_chain 21926 21932;21939 21940	panels F
 T1162	Noun_Phrase 21926 21934	panels E
 T1163	IDENTITY_chain 21926 21934	panels E
 T1164	Noun_Phrase 21943 21950	Megalin
@@ -1286,34 +1219,27 @@ T1217	Noun_Phrase 22838 22854	black arrowheads
 T1218	IDENTITY_chain 22838 22854	black arrowheads
 T1219	Noun_Phrase 22909 22916	panel B
 T1220	IDENTITY_chain 22909 22916	panel B
-T1221	Noun_Phrase 22937 22975;	Immunostaining for type I cell markers
-22984 22988	Immunostaining for type I cell markersAQP5
-T1222	IDENTITY_chain 22937 22975;	Immunostaining for type I cell markers
-22984 22988	Immunostaining for type I cell markersAQP5
+T1221	Noun_Phrase 22937 22975;22984 22988	Immunostaining for type I cell markers AQP5
+T1222	IDENTITY_chain 22937 22975;22984 22988	Immunostaining for type I cell markers AQP5
 T1223	Noun_Phrase 22937 22979	Immunostaining for type I cell markers T1?
 T1224	IDENTITY_chain 22937 22979	Immunostaining for type I cell markers T1?
-T1225	Noun_Phrase 22956 22975;	type I cell markers
-22984 22988	type I cell markersAQP5
-T1226	Noun_Phrase 22956 22975;	type I cell markers
-22984 22988	type I cell markersAQP5
+T1225	Noun_Phrase 22956 22975;22984 22988	type I cell markers AQP5
+T1226	Noun_Phrase 22956 22975;22984 22988	type I cell markers AQP5
 T1227	Noun_Phrase 22956 22979	type I cell markers T1?
 T1228	Noun_Phrase 23025 23074	flat epithelial cells in wild-type lungs at E20.5
 T1229	IDENTITY_chain 23025 23074	flat epithelial cells in wild-type lungs at E20.5
 T1230	Noun_Phrase 23050 23059	wild-type
 T1231	Noun_Phrase 23069 23074	E20.5
-T1232	Noun_Phrase 23076 23082;	panels
-23089 23090	panelsE
+T1232	Noun_Phrase 23076 23082;23089 23090	panels E
 T1233	Noun_Phrase 23076 23084	panels C
 T1234	Noun_Phrase 23092 23102	arrowheads
 T1235	Noun_Phrase 23121 23129	knockout
 T1236	Noun_Phrase 23121 23146	knockout littermate lungs
 T1237	Noun_Phrase 23148 23151	T1?
-T1238	Noun_Phrase 23148 23151;	T1?
-23161 23169	T1?staining
+T1238	Noun_Phrase 23148 23151;23161 23169	T1? staining
 T1239	Noun_Phrase 23156 23160	AQP5
 T1240	Noun_Phrase 23156 23169	AQP5 staining
-T1241	Noun_Phrase 23198 23204;	panels
-23211 23212	panelsF
+T1241	Noun_Phrase 23198 23204;23211 23212	panels F
 T1242	Noun_Phrase 23198 23206	panels D
 T1243	IDENTITY_chain 23198 23206	panels D
 T1244	Noun_Phrase 23214 23224	arrowheads
@@ -1322,8 +1248,7 @@ T1246	Noun_Phrase 23227 23251	Megalin expression (Meg)
 T1247	IDENTITY_chain 23227 23251	Megalin expression (Meg)
 T1248	Noun_Phrase 23247 23250	Meg
 T1249	Noun_Phrase 23346 23360	data not shown
-T1250	Noun_Phrase 23365 23379;	the lungs from
-23399 23416	the lungs fromknockout at E20.5
+T1250	Noun_Phrase 23365 23379;23399 23416	the lungs from knockout at E20.5
 T1251	Noun_Phrase 23411 23416	E20.5
 T1252	Noun_Phrase 23548 23557	wild-type
 T1253	Noun_Phrase 23548 23563	wild-type lungs
@@ -1362,8 +1287,7 @@ T1285	Noun_Phrase 24194 24217	late gestational stages
 T1286	Noun_Phrase 24245 24255	mesenchyme
 T1287	Noun_Phrase 24338 24362	delayed lung sacculation
 T1288	Noun_Phrase 24346 24350	lung
-T1289	Noun_Phrase 24412 24434;	immunostaining for the
-24472 24526	immunostaining for theplatelet endothelial cell adhesion molecular (PECAM-1)
+T1289	Noun_Phrase 24412 24434;24472 24526	immunostaining for the platelet endothelial cell adhesion molecular (PECAM-1)
 T1290	Noun_Phrase 24412 24467	immunostaining for the ?-isoform of caveolin-1 (cav-1?)
 T1291	IDENTITY_chain 24412 24467	immunostaining for the ?-isoform of caveolin-1 (cav-1?)
 T1292	Noun_Phrase 24431 24458	the ?-isoform of caveolin-1
@@ -1375,13 +1299,11 @@ T1297	Noun_Phrase 24472 24516	platelet endothelial cell adhesion molecular
 T1298	APPOS_relation 24472 24516	platelet endothelial cell adhesion molecular
 T1299	Noun_Phrase 24518 24525	PECAM-1
 T1300	Noun_Phrase 24559 24568	wild-type
-T1301	Noun_Phrase 24559 24568;	wild-type
-24582 24587	wild-typelungs
+T1301	Noun_Phrase 24559 24568;24582 24587	wild-type lungs
 T1302	Noun_Phrase 24573 24581	Dhcr7-/-
 T1303	Noun_Phrase 24573 24587	Dhcr7-/- lungs
 T1304	Noun_Phrase 24613 24619	cav-1?
-T1305	Noun_Phrase 24664 24674;	developing
-24689 24702	developingblood vessels
+T1305	Noun_Phrase 24664 24674;24689 24702	developing blood vessels
 T1306	Noun_Phrase 24664 24684	developing capillary
 T1307	IDENTITY_chain 24664 24684	developing capillary
 T1308	Noun_Phrase 24704 24710	Cav-1?
@@ -1396,21 +1318,17 @@ T1316	Noun_Phrase 24865 24875	mesenchyme
 T1317	Noun_Phrase 24894 24900	cav-1?
 T1318	Noun_Phrase 24894 24909	cav-1? staining
 T1319	Noun_Phrase 24915 24921	cav-1?
-T1320	Noun_Phrase 24938 24952;	the developing
-24971 24982	the developingcapillaries
+T1320	Noun_Phrase 24938 24952;24971 24982	the developing capillaries
 T1321	Noun_Phrase 24938 24966	the developing blood vessels
 T1322	IDENTITY_chain 24938 24966	the developing blood vessels
 T1323	Noun_Phrase 25021 25030	wild-type
-T1324	Noun_Phrase 25021 25030;	wild-type
-25044 25049	wild-typelungs
+T1324	Noun_Phrase 25021 25030;25044 25049	wild-type lungs
 T1325	Noun_Phrase 25035 25043	Dhcr7-/-
 T1326	Noun_Phrase 25035 25049	Dhcr7-/- lungs
 T1327	Noun_Phrase 25051 25055	Fig.
 T1328	Noun_Phrase 25051 25057	Fig. 8
-T1329	Noun_Phrase 25059 25065;	panels
-25072 25073	panelsB
-T1330	IDENTITY_chain 25059 25065;	panels
-25072 25073	panelsB
+T1329	Noun_Phrase 25059 25065;25072 25073	panels B
+T1330	IDENTITY_chain 25059 25065;25072 25073	panels B
 T1331	Noun_Phrase 25059 25067	panels A
 T1332	IDENTITY_chain 25059 25067	panels A
 T1333	Noun_Phrase 25059 25073	panels A and B
@@ -1423,8 +1341,7 @@ T1339	Noun_Phrase 25244 25249	E20.5
 T1340	Noun_Phrase 25382 25398	flat type I AECs
 T1341	Noun_Phrase 25414 25418	Fig.
 T1342	Noun_Phrase 25414 25420	Fig. 8
-T1343	Noun_Phrase 25422 25428;	panels
-25435 25436	panelsE
+T1343	Noun_Phrase 25422 25428;25435 25436	panels E
 T1344	Noun_Phrase 25422 25430	panels C
 T1345	IDENTITY_chain 25422 25430	panels C
 T1346	Noun_Phrase 25456 25462	cav-1?
@@ -1433,8 +1350,7 @@ T1348	Noun_Phrase 25486 25494	Dhcr7-/-
 T1349	Noun_Phrase 25486 25502	Dhcr7-/- embryos
 T1350	Noun_Phrase 25562 25566	Fig.
 T1351	Noun_Phrase 25562 25568	Fig. 8
-T1352	Noun_Phrase 25570 25576;	panels
-25583 25584	panelsF
+T1352	Noun_Phrase 25570 25576;25583 25584	panels F
 T1353	Noun_Phrase 25570 25578	panels D
 T1354	IDENTITY_chain 25570 25578	panels D
 T1355	Noun_Phrase 25590 25595	E20.5
@@ -1458,10 +1374,8 @@ T1372	Noun_Phrase 25928 25933	Dhcr7
 T1373	Noun_Phrase 25928 25951	Dhcr7 deficient embryos
 T1374	Noun_Phrase 25953 25957	Fig.
 T1375	Noun_Phrase 25953 25959	Fig. 8
-T1376	Noun_Phrase 25965 25971;	panels
-25978 25979	panelsH
-T1377	IDENTITY_chain 25965 25971;	panels
-25978 25979	panelsH
+T1376	Noun_Phrase 25965 25971;25978 25979	panels H
+T1377	IDENTITY_chain 25965 25971;25978 25979	panels H
 T1378	Noun_Phrase 25965 25973	panels G
 T1379	IDENTITY_chain 25965 25973	panels G
 T1380	Noun_Phrase 25983 25989	Figure
@@ -1483,20 +1397,17 @@ T1395	Noun_Phrase 26146 26160	the epithelium
 T1396	Noun_Phrase 26165 26175	mesenchyme
 T1397	Noun_Phrase 26194 26200	cav-1?
 T1398	Noun_Phrase 26204 26209	E14.5
-T1399	Noun_Phrase 26211 26221;	Developing
-26257 26268	Developingcapillaries
+T1399	Noun_Phrase 26211 26221;26257 26268	Developing capillaries
 T1400	Noun_Phrase 26211 26235	Developing blood vessels
 T1401	Noun_Phrase 26270 26276	arrows
 T1402	IDENTITY_chain 26270 26276	arrows
-T1403	Noun_Phrase 26279 26285;	panels
-26292 26293	panelsB
+T1403	Noun_Phrase 26279 26285;26292 26293	panels B
 T1404	Noun_Phrase 26279 26287	panels A
 T1405	Noun_Phrase 26279 26293	panels A and B
 T1406	Noun_Phrase 26323 26329	cav-1?
 T1407	APPOS_relation 26365 26374	wild-type
 T1408	Noun_Phrase 26365 26374	wild-type
-T1409	Noun_Phrase 26365 26380;	wild-type (+/+)
-26400 26405	wild-type (+/+)lungs
+T1409	Noun_Phrase 26365 26380;26400 26405	wild-type (+/+) lungs
 T1410	Noun_Phrase 26376 26379	+/+
 T1411	APPOS_relation 26385 26393	knockout
 T1412	Noun_Phrase 26385 26393	knockout
@@ -1508,8 +1419,7 @@ T1417	Noun_Phrase 26535 26540	E17.5
 T1418	Noun_Phrase 26578 26584	cav-1?
 T1419	Noun_Phrase 26578 26593	cav-1? staining
 T1420	Noun_Phrase 26622 26628	cav-1?
-T1421	Noun_Phrase 26668 26674;	panels
-26681 26682	panelsD
+T1421	Noun_Phrase 26668 26674;26681 26682	panels D
 T1422	Noun_Phrase 26668 26676	panels C
 T1423	Noun_Phrase 26668 26682	panels C and D
 T1424	IDENTITY_chain 26668 26682	panels C and D
@@ -1521,29 +1431,25 @@ T1429	Noun_Phrase 26776 26785	wild-type
 T1430	Noun_Phrase 26776 26793	wild-type embryos
 T1431	Noun_Phrase 26840 26848	knockout
 T1432	Noun_Phrase 26840 26854	knockout lungs
-T1433	Noun_Phrase 26860 26866;	panels
-26873 26874	panelsD
+T1433	Noun_Phrase 26860 26866;26873 26874	panels D
 T1434	Noun_Phrase 26860 26868	panels C
 T1435	Noun_Phrase 26860 26874	panels C and D
 T1436	Noun_Phrase 26880 26885	E20.5
 T1437	Noun_Phrase 26889 26898	wild-type
 T1438	Noun_Phrase 26889 26904	wild-type lungs
 T1439	Noun_Phrase 26911 26917	cav-1?
-T1440	Noun_Phrase 26911 26917;	cav-1?
-26930 26938	cav-1?staining
+T1440	Noun_Phrase 26911 26917;26930 26938	cav-1? staining
 T1441	Noun_Phrase 26922 26929	PECAM-1
 T1442	Noun_Phrase 26922 26938	PECAM-1 staining
 T1443	IDENTITY_chain 26922 26938	PECAM-1 staining
-T1444	Noun_Phrase 27104 27110;	panels
-27117 27118	panelsG
+T1444	Noun_Phrase 27104 27110;27117 27118	panels G
 T1445	Noun_Phrase 27104 27112	panels E
 T1446	IDENTITY_chain 27104 27112	panels E
 T1447	Noun_Phrase 27120 27126	arrows
 T1448	Noun_Phrase 27138 27166	delayed vascular development
 T1449	Noun_Phrase 27183 27191	knockout
 T1450	Noun_Phrase 27183 27197	knockout lungs
-T1451	Noun_Phrase 27220 27226;	panels
-27233 27234	panelsH
+T1451	Noun_Phrase 27220 27226;27233 27234	panels H
 T1452	Noun_Phrase 27220 27228	panels F
 T1453	Noun_Phrase 27236 27242	arrows
 T1454	Noun_Phrase 27251 27259	knockout
@@ -1552,8 +1458,7 @@ T1456	Noun_Phrase 27329 27416	the undeveloped epithelial tubules in which the ep
 T1457	Noun_Phrase 27373 27393	the epithelial cells
 T1458	Noun_Phrase 27418 27428	arrowheads
 T1459	Noun_Phrase 27431 27453	Original magnification
-T1460	Noun_Phrase 27500 27514;	sonic hedgehog
-27529 27538	sonic hedgehogsignaling
+T1460	Noun_Phrase 27500 27514;27529 27538	sonic hedgehog signaling
 T1461	Noun_Phrase 27500 27525	sonic hedgehog expression
 T1462	Noun_Phrase 27550 27558	Dhcr7-/-
 T1463	Noun_Phrase 27550 27566	Dhcr7-/- embryos
@@ -1573,8 +1478,7 @@ T1476	Noun_Phrase 27962 27965	Shh
 T1477	Noun_Phrase 27985 27993	Dhcr7-/-
 T1478	Noun_Phrase 28010 28065	distribution of Shh in the Dhcr7-/- and wild-type lungs
 T1479	Noun_Phrase 28026 28029	Shh
-T1480	Noun_Phrase 28037 28045;	Dhcr7-/-
-28060 28065	Dhcr7-/-lungs
+T1480	Noun_Phrase 28037 28045;28060 28065	Dhcr7-/- lungs
 T1481	Noun_Phrase 28037 28045	Dhcr7-/-
 T1482	Noun_Phrase 28050 28059	wild-type
 T1483	Noun_Phrase 28050 28065	wild-type lungs
@@ -1602,8 +1506,7 @@ T1504	IDENTITY_chain 28344 28351	mid gut
 T1505	Noun_Phrase 28353 28357	Fig.
 T1506	Noun_Phrase 28353 28359	Fig. 9
 T1507	Noun_Phrase 28361 28371	left panel
-T1508	Noun_Phrase 28415 28423;	Dhcr7-/-
-28436 28443	Dhcr7-/-embryos
+T1508	Noun_Phrase 28415 28423;28436 28443	Dhcr7-/- embryos
 T1509	Noun_Phrase 28415 28423	Dhcr7-/-
 T1510	Noun_Phrase 28428 28435	control
 T1511	Noun_Phrase 28428 28443	control embryos
@@ -1619,8 +1522,7 @@ T1520	Noun_Phrase 28745 28748	Shh
 T1521	Noun_Phrase 28745 28757	Shh and Ptch
 T1522	IDENTITY_chain 28745 28757	Shh and Ptch
 T1523	Noun_Phrase 28753 28757	Ptch
-T1524	Noun_Phrase 28813 28821;	Dhcr7-/-
-28836 28840	Dhcr7-/-mice
+T1524	Noun_Phrase 28813 28821;28836 28840	Dhcr7-/- mice
 T1525	Noun_Phrase 28813 28821	Dhcr7-/-
 T1526	Noun_Phrase 28826 28835	wild-type
 T1527	Noun_Phrase 28842 28852	Left panel
@@ -1633,8 +1535,7 @@ T1533	Nonreferential_pronoun 28998 29003	There
 T1534	Noun_Phrase 29052 29071	the stages examined
 T1535	Noun_Phrase 29080 29089	wild-type
 T1536	APPOS_relation 29080 29089	wild-type
-T1537	Noun_Phrase 29080 29095;	wild-type (+/+)
-29115 29122	wild-type (+/+)embryos
+T1537	Noun_Phrase 29080 29095;29115 29122	wild-type (+/+) embryos
 T1538	Noun_Phrase 29080 29122	wild-type (+/+) and knockout (-/-) embryos
 T1539	Noun_Phrase 29091 29094	+/+
 T1540	Noun_Phrase 29100 29108	knockout
@@ -1685,8 +1586,7 @@ T1584	Noun_Phrase 29777 29780	P 0
 T1585	Noun_Phrase 29808 29811	Shh
 T1586	Noun_Phrase 29808 29822	Shh expression
 T1587	IDENTITY_chain 29808 29822	Shh expression
-T1588	Noun_Phrase 29867 29876;	wild-type
-29890 29897	wild-typeembryos
+T1588	Noun_Phrase 29867 29876;29890 29897	wild-type embryos
 T1589	Noun_Phrase 29867 29876	wild-type
 T1590	Noun_Phrase 29867 29897	wild-type and knockout embryos
 T1591	IDENTITY_chain 29867 29897	wild-type and knockout embryos
@@ -1714,8 +1614,7 @@ T1612	Noun_Phrase 30272 30275	Shh
 T1613	Noun_Phrase 30303 30307	Ptch
 T1614	Noun_Phrase 30311 30315	lung
 T1615	Noun_Phrase 30330 30356	various gestational stages
-T1616	Noun_Phrase 30393 30402;	wild-type
-30416 30423	wild-typeembryos
+T1616	Noun_Phrase 30393 30402;30416 30423	wild-type embryos
 T1617	Noun_Phrase 30393 30402	wild-type
 T1618	Noun_Phrase 30393 30423	wild-type and knockout embryos
 T1619	Noun_Phrase 30407 30415	knockout
@@ -1761,13 +1660,10 @@ T1658	Noun_Phrase 30863 30867	Fig.
 T1659	Noun_Phrase 30863 30870	Fig. 10
 T1660	Noun_Phrase 30872 30885	bottom panels
 T1661	IDENTITY_chain 30872 30885	bottom panels
-T1662	Noun_Phrase 30906 30915;	wild-type
-30929 30943;	wild-typelungs at E13.5
-30961 30977	wild-typelungs at E13.5gestational days
+T1662	Noun_Phrase 30906 30915;30929 30943;30961 30977	wild-type lungs at E13.5 gestational days
 T1663	Noun_Phrase 30906 30915	wild-type
 T1664	Noun_Phrase 30920 30928	knockout
-T1665	Noun_Phrase 30920 30943;	knockout lungs at E13.5
-30961 30977	knockout lungs at E13.5gestational days
+T1665	Noun_Phrase 30920 30943;30961 30977	knockout lungs at E13.5 gestational days
 T1666	Noun_Phrase 30938 30943	E13.5
 T1667	Noun_Phrase 30945 30950	E15.5
 T1668	Noun_Phrase 30955 30960	E17.5
@@ -1793,8 +1689,7 @@ T1687	Noun_Phrase 31213 31217	Fig.
 T1688	Noun_Phrase 31213 31219	Fig. 7
 T1689	Noun_Phrase 31245 31254	wild-type
 T1690	APPOS_relation 31245 31254	wild-type
-T1691	Noun_Phrase 31245 31260;	wild-type (+/+)
-31280 31287	wild-type (+/+)embryos
+T1691	Noun_Phrase 31245 31260;31280 31287	wild-type (+/+) embryos
 T1692	Noun_Phrase 31256 31259	+/+
 T1693	Noun_Phrase 31265 31273	knockout
 T1694	APPOS_relation 31265 31273	knockout
@@ -1841,17 +1736,11 @@ T1734	IDENTITY_chain 32087 32146	two slower migrating bands that correspond to t
 T1735	Noun_Phrase 32133 32146	truncated Shh
 T1736	IDENTITY_chain 32133 32146	truncated Shh
 T1737	Noun_Phrase 32261 32267	tissue
-T1738	Noun_Phrase 32261 32280;	tissue lysates from
-32292 32300;	tissue lysates fromDhcr7+/-
-32314 32330	tissue lysates fromDhcr7+/-embryos at E11.5
-T1739	Noun_Phrase 32261 32280;	tissue lysates from
-32305 32330	tissue lysates fromDhcr7-/- embryos at E11.5
-T1740	IDENTITY_chain 32261 32280;	tissue lysates from
-32305 32330	tissue lysates fromDhcr7-/- embryos at E11.5
-T1741	Noun_Phrase 32261 32290;	tissue lysates from wild-type
-32314 32330	tissue lysates from wild-typeembryos at E11.5
-T1742	IDENTITY_chain 32261 32290;	tissue lysates from wild-type
-32314 32330	tissue lysates from wild-typeembryos at E11.5
+T1738	Noun_Phrase 32261 32280;32292 32300;32314 32330	tissue lysates from Dhcr7+/- embryos at E11.5
+T1739	Noun_Phrase 32261 32280;32305 32330	tissue lysates from Dhcr7-/- embryos at E11.5
+T1740	IDENTITY_chain 32261 32280;32305 32330	tissue lysates from Dhcr7-/- embryos at E11.5
+T1741	Noun_Phrase 32261 32290;32314 32330	tissue lysates from wild-type embryos at E11.5
+T1742	IDENTITY_chain 32261 32290;32314 32330	tissue lysates from wild-type embryos at E11.5
 T1743	Noun_Phrase 32281 32290	wild-type
 T1744	Noun_Phrase 32305 32313	Dhcr7-/-
 T1745	Noun_Phrase 32325 32330	E11.5
@@ -1879,25 +1768,17 @@ T1766	IDENTITY_chain 32828 32837	Figure 11
 T1767	Noun_Phrase 32839 32842	Shh
 T1768	Noun_Phrase 32869 32874	mouse
 T1769	Noun_Phrase 32869 32882	mouse embryos
-T1770	Noun_Phrase 32904 32916;	lysates from
-32938 32950;	lysates fromheterozygous
-32984 33000	lysates fromheterozygousembryos at E11.5
-T1771	IDENTITY_chain 32904 32916;	lysates from
-32938 32950;	lysates fromheterozygous
-32984 33000	lysates fromheterozygousembryos at E11.5
-T1772	Noun_Phrase 32904 32916;	lysates from
-32965 33000	lysates fromknockout (track 5) embryos at E11.5
-T1773	Noun_Phrase 32904 32926;	lysates from wild-type
-32984 33000	lysates from wild-typeembryos at E11.5
+T1770	Noun_Phrase 32904 32916;32938 32950;32984 33000	lysates from heterozygous embryos at E11.5
+T1771	IDENTITY_chain 32904 32916;32938 32950;32984 33000	lysates from heterozygous embryos at E11.5
+T1772	Noun_Phrase 32904 32916;32965 33000	lysates from knockout (track 5) embryos at E11.5
+T1773	Noun_Phrase 32904 32926;32984 33000	lysates from wild-type embryos at E11.5
 T1774	Noun_Phrase 32917 32926	wild-type
 T1775	Noun_Phrase 32965 32973	knockout
 T1776	Noun_Phrase 32995 33000	E11.5
 T1777	Noun_Phrase 33005 33009	COS1
 T1778	IDENTITY_chain 33005 33009	COS1
-T1779	Noun_Phrase 33005 33032;	COS1 cells transfected with
-33050 33055	COS1 cells transfected withShh-N
-T1780	IDENTITY_chain 33005 33032;	COS1 cells transfected with
-33050 33055	COS1 cells transfected withShh-N
+T1779	Noun_Phrase 33005 33032;33050 33055	COS1 cells transfected with Shh-N
+T1780	IDENTITY_chain 33005 33032;33050 33055	COS1 cells transfected with Shh-N
 T1781	Noun_Phrase 33005 33036	COS1 cells transfected with Shh
 T1782	IDENTITY_chain 33005 33036	COS1 cells transfected with Shh
 T1783	Noun_Phrase 33033 33036	Shh
@@ -1912,12 +1793,10 @@ T1791	Noun_Phrase 33118 33124	lysate
 T1792	Noun_Phrase 33139 33142	Shh
 T1793	Noun_Phrase 33139 33165	Shh transfected COS1 cells
 T1794	Noun_Phrase 33182 33189	embryos
-T1795	Noun_Phrase 33207 33218;	unprocessed
-33321 33333	unprocessedforms of Shh
+T1795	Noun_Phrase 33207 33218;33321 33333	unprocessed forms of Shh
 T1796	Noun_Phrase 33220 33223	Shh
 T1797	APPOS_relation 33220 33223	Shh
-T1798	Noun_Phrase 33264 33273;	processed
-33321 33333	processedforms of Shh
+T1798	Noun_Phrase 33264 33273;33321 33333	processed forms of Shh
 T1799	Noun_Phrase 33275 33281	Shh-Np
 T1800	APPOS_relation 33275 33281	Shh-Np
 T1801	Noun_Phrase 33312 33319	track 1
@@ -1935,8 +1814,7 @@ T1812	Noun_Phrase 33519 33522	its
 T1813	Noun_Phrase 33580 33593	processed Shh
 T1814	Noun_Phrase 33623 33638	all the embryos
 T1815	IDENTITY_chain 33623 33638	all the embryos
-T1816	Noun_Phrase 33692 33703;	unprocessed
-33728 33740	unprocessedShh proteins
+T1816	Noun_Phrase 33692 33703;33728 33740	unprocessed Shh proteins
 T1817	Noun_Phrase 33728 33731	Shh
 T1818	Noun_Phrase 33758 33801	lysates from knockout embryos at this stage
 T1819	Noun_Phrase 33771 33779	knockout
@@ -1999,12 +1877,9 @@ T1875	Noun_Phrase 35893 35901	the AECs
 T1876	Noun_Phrase 35959 35997	normal differentiation of type II AECs
 T1877	Noun_Phrase 35985 35992	type II
 T1878	Noun_Phrase 35985 35997	type II AECs
-T1879	Noun_Phrase 36049 36068;	surfactant proteins
-36072 36073	surfactant proteinsB
-T1880	Noun_Phrase 36049 36068;	surfactant proteins
-36075 36076	surfactant proteinsC
-T1881	Noun_Phrase 36049 36068;	surfactant proteins
-36080 36081	surfactant proteinsD
+T1879	Noun_Phrase 36049 36068;36072 36073	surfactant proteins B
+T1880	Noun_Phrase 36049 36068;36075 36076	surfactant proteins C
+T1881	Noun_Phrase 36049 36068;36080 36081	surfactant proteins D
 T1882	Noun_Phrase 36049 36070	surfactant proteins A
 T1883	Noun_Phrase 36132 36136	SP-C
 T1884	Noun_Phrase 36148 36175	lungs from knockout embryos
@@ -2071,13 +1946,10 @@ T1944	Noun_Phrase 37676 37681	brain
 T1945	Noun_Phrase 37693 37707	data not shown
 T1946	Noun_Phrase 37726 37735	7DHC/8DHC
 T1947	Noun_Phrase 37774 37785	cholesterol
-T1948	Noun_Phrase 37813 37817;	~60%
-37827 37859	~60%of total tissue sterols at E13.5
+T1948	Noun_Phrase 37813 37817;37827 37859	~60% of total tissue sterols at E13.5
 T1949	Noun_Phrase 37813 37871	~60% and ~30% of total tissue sterols at E13.5 and neonate
-T1950	Noun_Phrase 37822 37853;	~30% of total tissue sterols at
-37864 37871	~30% of total tissue sterols atneonate
-T1951	Noun_Phrase 37830 37853;	total tissue sterols at
-37864 37871	total tissue sterols atneonate
+T1950	Noun_Phrase 37822 37853;37864 37871	~30% of total tissue sterols at neonate
+T1951	Noun_Phrase 37830 37853;37864 37871	total tissue sterols at neonate
 T1952	Noun_Phrase 37830 37859	total tissue sterols at E13.5
 T1953	Noun_Phrase 37830 37871	total tissue sterols at E13.5 and neonate
 T1954	Noun_Phrase 37836 37842	tissue
@@ -2127,8 +1999,7 @@ T1997	Noun_Phrase 39517 39533	Dhcr7-/- embryos
 T1998	Noun_Phrase 39565 39568	Shh
 T1999	Noun_Phrase 39591 39594	Shh
 T2000	Noun_Phrase 39636 39641	E11.5
-T2001	Noun_Phrase 39672 39681;	wild-type
-39695 39702	wild-typeembryos
+T2001	Noun_Phrase 39672 39681;39695 39702	wild-type embryos
 T2002	Noun_Phrase 39672 39681	wild-type
 T2003	Noun_Phrase 39672 39694	wild-type and Dhcr7-/-
 T2004	IDENTITY_chain 39672 39694	wild-type and Dhcr7-/-
@@ -2152,10 +2023,8 @@ T2021	Noun_Phrase 40157 40160	Shh
 T2022	Noun_Phrase 40157 40178	Shh signaling pathway
 T2023	IDENTITY_chain 40157 40178	Shh signaling pathway
 T2024	Noun_Phrase 40230 40242	this pathway
-T2025	Noun_Phrase 40252 40259;	patched
-40280 40288	patchedproteins
-T2026	Noun_Phrase 40261 40271;	smoothened
-40280 40288	smoothenedproteins
+T2025	Noun_Phrase 40252 40259;40280 40288	patched proteins
+T2026	Noun_Phrase 40261 40271;40280 40288	smoothened proteins
 T2027	Noun_Phrase 40276 40288	Gli proteins
 T2028	Noun_Phrase 40290 40293	Shh
 T2029	Noun_Phrase 40290 40303	Shh signaling
@@ -2218,8 +2087,7 @@ T2085	Noun_Phrase 42101 42105	IUGR
 T2086	APPOS_relation 42101 42105	IUGR
 T2087	Noun_Phrase 42107 42247	a distinct lung saccular hypoplasia with impaired differentiation of type I but not type II AECs and delayed associated vascular development
 T2088	Noun_Phrase 42118 42122	lung
-T2089	Noun_Phrase 42176 42182;	type I
-42199 42203	type IAECs
+T2089	Noun_Phrase 42176 42182;42199 42203	type I AECs
 T2090	Noun_Phrase 42191 42198	type II
 T2091	Noun_Phrase 42191 42203	type II AECs
 T2092	Noun_Phrase 42295 42308	the membranes
@@ -2326,8 +2194,7 @@ T2192	Noun_Phrase 46251 46255	lung
 T2193	Noun_Phrase 46279 46291	per genotype
 T2194	IDENTITY_chain 46279 46291	per genotype
 T2195	Noun_Phrase 46322 46326	cell
-T2196	Noun_Phrase 46368 46372;	cell
-46391 46399	celldivision
+T2196	Noun_Phrase 46368 46372;46391 46399	cell division
 T2197	Noun_Phrase 46368 46372	cell
 T2198	Noun_Phrase 46368 46386	cell proliferation
 T2199	Noun_Phrase 46417 46451	proliferating cell nuclear antigen
@@ -2388,14 +2255,10 @@ T2253	Noun_Phrase 48845 48859	manufacturer's
 T2254	Noun_Phrase 48871 48897	Perkin-Elmer Life Sciences
 T2255	IDENTITY_chain 48871 48897	Perkin-Elmer Life Sciences
 T2256	Noun_Phrase 49022 49024	P0
-T2257	IDENTITY_chain 49037 49056;	The cDNA probes for
-49063 49067	The cDNA probes forSP-B
-T2258	Noun_Phrase 49037 49056;	The cDNA probes for
-49063 49067	The cDNA probes forSP-B
-T2259	Noun_Phrase 49037 49056;	The cDNA probes for
-49072 49076	The cDNA probes forSP-C
-T2260	IDENTITY_chain 49037 49056;	The cDNA probes for
-49072 49076	The cDNA probes forSP-C
+T2257	IDENTITY_chain 49037 49056;49063 49067	The cDNA probes for SP-B
+T2258	Noun_Phrase 49037 49056;49063 49067	The cDNA probes for SP-B
+T2259	Noun_Phrase 49037 49056;49072 49076	The cDNA probes for SP-C
+T2260	IDENTITY_chain 49037 49056;49072 49076	The cDNA probes for SP-C
 T2261	Noun_Phrase 49037 49061	The cDNA probes for SP-A
 T2262	IDENTITY_chain 49037 49061	The cDNA probes for SP-A
 T2263	Noun_Phrase 49041 49045	cDNA
@@ -2421,10 +2284,8 @@ T2282	Noun_Phrase 49622 49624	HY
 T2283	Noun_Phrase 49629 49632	SBP
 T2284	Noun_Phrase 49729 49731	We
 T2285	Noun_Phrase 49779 49783	cDNA
-T2286	Noun_Phrase 49779 49794;	cDNA probes for
-49801 49805	cDNA probes forSP-B
-T2287	Noun_Phrase 49779 49794;	cDNA probes for
-49810 49814	cDNA probes forSP-C
+T2286	Noun_Phrase 49779 49794;49801 49805	cDNA probes for SP-B
+T2287	Noun_Phrase 49779 49794;49810 49814	cDNA probes for SP-C
 T2288	Noun_Phrase 49779 49799	cDNA probes for SP-A
 T2289	Noun_Phrase 49843 49846	Shh
 T2290	Noun_Phrase 49851 49856	Shh-N

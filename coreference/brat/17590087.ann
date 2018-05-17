@@ -157,14 +157,10 @@ T155	Noun_Phrase 4496 4500	6qE1
 T156	IDENTITY_chain 4602 4603	1
 T157	Noun_Phrase 4602 4603	1
 T158	Noun_Phrase 4665 4732	a homozygous in-frame deletion of exons 43 and 44 of the gene Itpr1
-T159	IDENTITY_chain 4699 4704;	exons
-4712 4714	exons44
-T160	Noun_Phrase 4699 4704;	exons
-4712 4732	exons44 of the gene Itpr1
-T161	Noun_Phrase 4699 4707;	exons 43
-4715 4732	exons 43of the gene Itpr1
-T162	IDENTITY_chain 4699 4707;	exons 43
-4715 4732	exons 43of the gene Itpr1
+T159	IDENTITY_chain 4699 4704;4712 4714	exons 44
+T160	Noun_Phrase 4699 4704;4712 4732	exons 44 of the gene Itpr1
+T161	Noun_Phrase 4699 4707;4715 4732	exons 43 of the gene Itpr1
+T162	IDENTITY_chain 4699 4707;4715 4732	exons 43 of the gene Itpr1
 T163	Noun_Phrase 4699 4732	exons 43 and 44 of the gene Itpr1
 T164	IDENTITY_chain 4699 4732	exons 43 and 44 of the gene Itpr1
 T165	Noun_Phrase 4718 4732	the gene Itpr1
@@ -218,8 +214,7 @@ T212	Noun_Phrase 5563 5564	4
 T213	IDENTITY_chain 5563 5564	4
 T214	Noun_Phrase 5575 5596	the Itpr1opt/opt mice
 T215	Noun_Phrase 5579 5591	Itpr1opt/opt
-T216	Noun_Phrase 5620 5625;	exons
-5633 5635	exons44
+T216	Noun_Phrase 5620 5625;5633 5635	exons 44
 T217	Noun_Phrase 5620 5628	exons 43
 T218	Noun_Phrase 5620 5635	exons 43 and 44
 T219	Noun_Phrase 5707 5750	the in-frame Itpr1?18/?18 deletion mutation
@@ -254,10 +249,8 @@ T247	Noun_Phrase 6627 6632	SCA15
 T248	Noun_Phrase 6635 6637	We
 T249	Noun_Phrase 6647 7715	genomic DNA from three affected family members and one family member with unknown disease status from the kindred originally used to define and map SCA15 (family AUS1, of Australian Anglo-Celtic origin) [2]. We performed two experiments concurrently in three affected members of this family: sequence analysis of the coding exons of ITPR1 and high-density genome-wide SNP genotyping. Sequence analysis failed to show any coding alterations segregating with disease or any alterations that were inconsistent with Mendelian patterns of inheritance within the family. However, visualization of log R ratio and B allele frequency metrics from the genome-wide SNP genotyping experiments clearly showed data consistent with a heterozygous genomic deletion across the first one-third of ITPR1 and across the first half of a neighboring gene, SUMF1 (Figure 2). This deletion was apparent in all three affected family members studied and absent from the family member with unknown affection status (Figure 3). The SNP data showed a deletion of between 188 kb and 210 kb in size
 T250	IDENTITY_chain 6647 7715	genomic DNA from three affected family members and one family member with unknown disease status from the kindred originally used to define and map SCA15 (family AUS1, of Australian Anglo-Celtic origin) [2]. We performed two experiments concurrently in three affected members of this family: sequence analysis of the coding exons of ITPR1 and high-density genome-wide SNP genotyping. Sequence analysis failed to show any coding alterations segregating with disease or any alterations that were inconsistent with Mendelian patterns of inheritance within the family. However, visualization of log R ratio and B allele frequency metrics from the genome-wide SNP genotyping experiments clearly showed data consistent with a heterozygous genomic deletion across the first one-third of ITPR1 and across the first half of a neighboring gene, SUMF1 (Figure 2). This deletion was apparent in all three affected family members studied and absent from the family member with unknown affection status (Figure 3). The SNP data showed a deletion of between 188 kb and 210 kb in size
-T251	Noun_Phrase 6664 6693;	three affected family members
-6716 6848	three affected family memberswith unknown disease status from the kindred originally used to define and map SCA15 (family AUS1, of Australian Anglo-Celtic origin
-T252	IDENTITY_chain 6664 6693;	three affected family members
-6716 6848	three affected family memberswith unknown disease status from the kindred originally used to define and map SCA15 (family AUS1, of Australian Anglo-Celtic origin
+T251	Noun_Phrase 6664 6693;6716 6848	three affected family members with unknown disease status from the kindred originally used to define and map SCA15 (family AUS1, of Australian Anglo-Celtic origin
+T252	IDENTITY_chain 6664 6693;6716 6848	three affected family members with unknown disease status from the kindred originally used to define and map SCA15 (family AUS1, of Australian Anglo-Celtic origin
 T253	Noun_Phrase 6698 6848	one family member with unknown disease status from the kindred originally used to define and map SCA15 (family AUS1, of Australian Anglo-Celtic origin
 T254	IDENTITY_chain 6698 6848	one family member with unknown disease status from the kindred originally used to define and map SCA15 (family AUS1, of Australian Anglo-Celtic origin
 T255	Noun_Phrase 6729 6736	disease
@@ -329,10 +322,8 @@ T320	Noun_Phrase 8988 8990	We
 T321	Noun_Phrase 9069 9105	the newly defined telomeric boundary
 T322	Noun_Phrase 9157 9195	the newly defined centromeric boundary
 T323	Noun_Phrase 9242 9281	the deletion in affected family members
-T324	Noun_Phrase 9289 9300;	PCR primers
-9309 9313	PCR primersC11R
-T325	IDENTITY_chain 9289 9300;	PCR primers
-9309 9313	PCR primersC11R
+T324	Noun_Phrase 9289 9300;9309 9313	PCR primers C11R
+T325	IDENTITY_chain 9289 9300;9309 9313	PCR primers C11R
 T326	Noun_Phrase 9289 9304	PCR primers T3F
 T327	IDENTITY_chain 9289 9304	PCR primers T3F
 T328	Noun_Phrase 9289 9313	PCR primers T3F and C11R
@@ -383,26 +374,22 @@ T372	Noun_Phrase 10479 10489	family H27
 T373	Noun_Phrase 10498 10508	family H33
 T374	Noun_Phrase 10513 10523	the former
 T375	Noun_Phrase 10525 10537	the deletion
-T376	Noun_Phrase 10565 10570;	exons
-10573 10583	exons3 of SUMF1
-T377	IDENTITY_chain 10565 10570;	exons
-10573 10583	exons3 of SUMF1
+T376	Noun_Phrase 10565 10570;10573 10583	exons 3 of SUMF1
+T377	IDENTITY_chain 10565 10570;10573 10583	exons 3 of SUMF1
 T378	Noun_Phrase 10578 10583	SUMF1
 T379	Noun_Phrase 10596 10601	ITPR1
 T380	Noun_Phrase 10606 10616	the latter
 T381	Noun_Phrase 10618 10620	we
 T382	Noun_Phrase 10635 10647	the deletion
 T383	Noun_Phrase 10677 10679	it
-T384	Noun_Phrase 10688 10693;	exons
-10696 10706	exons3 of SUMF1
+T384	Noun_Phrase 10688 10693;10696 10706	exons 3 of SUMF1
 T385	Noun_Phrase 10725 10730	ITPR1
 T386	Noun_Phrase 10744 10752	mutation
 T387	Noun_Phrase 10782 10902	the fact that in each of the three families the telomeric end of the deletion is anchored between exons 3 and 4 of SUMF1
 T388	IDENTITY_chain 10782 10902	the fact that in each of the three families the telomeric end of the deletion is anchored between exons 3 and 4 of SUMF1
 T389	Noun_Phrase 10807 10825	the three families
 T390	Noun_Phrase 10826 10859	the telomeric end of the deletion
-T391	Noun_Phrase 10880 10887;	exons 3
-10894 10902	exons 3of SUMF1
+T391	Noun_Phrase 10880 10887;10894 10902	exons 3 of SUMF1
 T392	Noun_Phrase 10897 10902	SUMF1
 T393	Noun_Phrase 10981 10996	this phenomenon
 T394	Noun_Phrase 11003 11035	three cerebellar ataxia families
@@ -445,8 +432,7 @@ T430	Noun_Phrase 12224 12242	Epstein-Barr virus
 T431	APPOS_relation 12224 12242	Epstein-Barr virus
 T432	IDENTITY_chain 12224 12242	Epstein-Barr virus
 T433	Noun_Phrase 12244 12247	EBV
-T434	Noun_Phrase 12279 12287;	affected
-12303 12322	affectedAUS1 family members
+T434	Noun_Phrase 12279 12287;12303 12322	affected AUS1 family members
 T435	Noun_Phrase 12337 12357	all affected members
 T436	Noun_Phrase 12388 12393	ITPR1
 T437	Noun_Phrase 12460 12468	Figure 4
@@ -541,10 +527,8 @@ T525	Noun_Phrase 16422 16426	This
 T526	Noun_Phrase 16436 16458	the Itpr1opt/opt mouse
 T527	Noun_Phrase 16440 16452	Itpr1opt/opt
 T528	Noun_Phrase 16469 16476	disease
-T529	Noun_Phrase 16522 16527;	exons
-16535 16546	exons44 of Itpr1
-T530	Noun_Phrase 16522 16530;	exons 43
-16538 16546	exons 43of Itpr1
+T529	Noun_Phrase 16522 16527;16535 16546	exons 44 of Itpr1
+T530	Noun_Phrase 16522 16530;16538 16546	exons 43 of Itpr1
 T531	Noun_Phrase 16522 16546	exons 43 and 44 of Itpr1
 T532	Noun_Phrase 16541 16546	Itpr1
 T533	Noun_Phrase 16669 16674	Itpr1
@@ -660,8 +644,7 @@ T642	Noun_Phrase 23475 23495	the centromeric side
 T643	Noun_Phrase 23497 23528	C11r 5?-GGGAAAATGGATAGAGGGTG-3?
 T644	Noun_Phrase 23531 23543	The fragment
 T645	Noun_Phrase 23640 23656	the human genome
-T646	Noun_Phrase 23744 23752;	families
-23761 23764	familiesH33
+T646	Noun_Phrase 23744 23752;23761 23764	families H33
 T647	Noun_Phrase 23744 23756	families H27
 T648	Noun_Phrase 23744 23764	families H27 and H33
 T649	Noun_Phrase 23766 23768	we
@@ -710,8 +693,7 @@ T691	Noun_Phrase 26901 26910	Figure S4
 T692	Noun_Phrase 26942 26955	Families AUS1
 T693	Noun_Phrase 26960 26963	H27
 T694	Noun_Phrase 26971 26982	Family AUS1
-T695	Noun_Phrase 27030 27037;	primers
-27046 27050	primersC11r
+T695	Noun_Phrase 27030 27037;27046 27050	primers C11r
 T696	Noun_Phrase 27030 27041	primers T3f
 T697	Noun_Phrase 27030 27050	primers T3f and C11r
 T698	Noun_Phrase 27195 27205	Family H27

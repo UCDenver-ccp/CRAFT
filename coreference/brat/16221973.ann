@@ -203,10 +203,8 @@ T201	Noun_Phrase 4719 4724	MTF-1
 T202	Noun_Phrase 4781 4806	selenoprotein W, muscle 1
 T203	APPOS_relation 4781 4806	selenoprotein W, muscle 1
 T204	Noun_Phrase 4808 4813	Sepw1
-T205	Noun_Phrase 4830 4859;	cadmium-induced expression of
-4906 4968	cadmium-induced expression ofthe gene encoding cysteine- and glycine-rich protein 1 (Csrp1)
-T206	IDENTITY_chain 4830 4859;	cadmium-induced expression of
-4906 4968	cadmium-induced expression ofthe gene encoding cysteine- and glycine-rich protein 1 (Csrp1)
+T205	Noun_Phrase 4830 4859;4906 4968	cadmium-induced expression of the gene encoding cysteine- and glycine-rich protein 1 (Csrp1)
+T206	IDENTITY_chain 4830 4859;4906 4968	cadmium-induced expression of the gene encoding cysteine- and glycine-rich protein 1 (Csrp1)
 T207	Noun_Phrase 4830 4901	cadmium-induced expression of N-myc downstream regulated gene 1 (Ndrg1)
 T208	Noun_Phrase 4830 4968	cadmium-induced expression of N-myc downstream regulated gene 1 (Ndrg1) and the gene encoding cysteine- and glycine-rich protein 1 (Csrp1)
 T209	IDENTITY_chain 4830 4968	cadmium-induced expression of N-myc downstream regulated gene 1 (Ndrg1) and the gene encoding cysteine- and glycine-rich protein 1 (Csrp1)
@@ -523,10 +521,8 @@ T519	Noun_Phrase 13959 13962	CMV
 T520	Noun_Phrase 14066 14068	TK
 T521	Noun_Phrase 14263 14266	Cre
 T522	Noun_Phrase 14263 14278	Cre recombinase
-T523	Noun_Phrase 14295 14300;	exons
-14307 14316	exons4 of Mtf1
-T524	Noun_Phrase 14295 14302;	exons 3
-14309 14316	exons 3of Mtf1
+T523	Noun_Phrase 14295 14300;14307 14316	exons 4 of Mtf1
+T524	Noun_Phrase 14295 14302;14309 14316	exons 3 of Mtf1
 T525	Noun_Phrase 14295 14316	exons 3 and 4 of Mtf1
 T526	IDENTITY_chain 14295 14316	exons 3 and 4 of Mtf1
 T527	Noun_Phrase 14312 14316	Mtf1
@@ -562,8 +558,7 @@ T556	Noun_Phrase 15178 15182	mice
 T557	Noun_Phrase 15202 15233	a modified Mtf1 allele Mtf1loxP
 T558	IDENTITY_chain 15202 15233	a modified Mtf1 allele Mtf1loxP
 T559	Noun_Phrase 15213 15217	Mtf1
-T560	Noun_Phrase 15240 15245;	exons
-15252 15253	exons4
+T560	Noun_Phrase 15240 15245;15252 15253	exons 4
 T561	Noun_Phrase 15240 15247	exons 3
 T562	Noun_Phrase 15240 15253	exons 3 and 4
 T563	Noun_Phrase 15296 15318	the DNA-binding domain
@@ -584,8 +579,7 @@ T577	Noun_Phrase 15512 15521	this line
 T578	Noun_Phrase 15547 15552	mouse
 T579	Noun_Phrase 15641 15676	synthetic double-stranded RNA pI–pC
 T580	Noun_Phrase 15736 15745	the liver
-T581	Noun_Phrase 15858 15863;	exons
-15870 15871	exons4
+T581	Noun_Phrase 15858 15863;15870 15871	exons 4
 T582	Noun_Phrase 15858 15865	exons 3
 T583	Noun_Phrase 15858 15871	exons 3 and 4
 T584	Noun_Phrase 15938 15954	functional MTF-1
@@ -666,24 +660,16 @@ T658	Noun_Phrase 17977 17987	Affymetrix
 T659	Noun_Phrase 17977 18025	Affymetrix GeneChip® Mouse Genome 430 2.0 Arrays
 T660	Noun_Phrase 18027 18034	Table 1
 T661	IDENTITY_chain 18027 18034	Table 1
-T662	Noun_Phrase 18076 18100;	livers from mock-treated
-18116 18129	livers from mock-treatedMtf1loxP mice
-T663	IDENTITY_chain 18076 18100;	livers from mock-treated
-18116 18129	livers from mock-treatedMtf1loxP mice
-T664	Noun_Phrase 18076 18111;	livers from mock-treated Mtf1Mx-cre
-18125 18129	livers from mock-treated Mtf1Mx-cremice
-T665	IDENTITY_chain 18076 18111;	livers from mock-treated Mtf1Mx-cre
-18125 18129	livers from mock-treated Mtf1Mx-cremice
+T662	Noun_Phrase 18076 18100;18116 18129	livers from mock-treated Mtf1loxP mice
+T663	IDENTITY_chain 18076 18100;18116 18129	livers from mock-treated Mtf1loxP mice
+T664	Noun_Phrase 18076 18111;18125 18129	livers from mock-treated Mtf1Mx-cre mice
+T665	IDENTITY_chain 18076 18111;18125 18129	livers from mock-treated Mtf1Mx-cre mice
 T666	Noun_Phrase 18076 18129	livers from mock-treated Mtf1Mx-cre and Mtf1loxP mice
 T667	IDENTITY_chain 18076 18129	livers from mock-treated Mtf1Mx-cre and Mtf1loxP mice
-T668	Noun_Phrase 18088 18100;	mock-treated
-18116 18129	mock-treatedMtf1loxP mice
-T669	IDENTITY_chain 18088 18100;	mock-treated
-18116 18129	mock-treatedMtf1loxP mice
-T670	Noun_Phrase 18088 18111;	mock-treated Mtf1Mx-cre
-18125 18129	mock-treated Mtf1Mx-cremice
-T671	IDENTITY_chain 18088 18111;	mock-treated Mtf1Mx-cre
-18125 18129	mock-treated Mtf1Mx-cremice
+T668	Noun_Phrase 18088 18100;18116 18129	mock-treated Mtf1loxP mice
+T669	IDENTITY_chain 18088 18100;18116 18129	mock-treated Mtf1loxP mice
+T670	Noun_Phrase 18088 18111;18125 18129	mock-treated Mtf1Mx-cre mice
+T671	IDENTITY_chain 18088 18111;18125 18129	mock-treated Mtf1Mx-cre mice
 T672	Noun_Phrase 18088 18129	mock-treated Mtf1Mx-cre and Mtf1loxP mice
 T673	IDENTITY_chain 18088 18129	mock-treated Mtf1Mx-cre and Mtf1loxP mice
 T674	Noun_Phrase 18101 18111	Mtf1Mx-cre
@@ -710,24 +696,16 @@ T694	IDENTITY_chain 18604 18614	Table 1, b
 T695	Noun_Phrase 18623 18637	these 24 genes
 T696	Noun_Phrase 18646 18649	MRE
 T697	Noun_Phrase 18703 18707	data
-T698	Noun_Phrase 18716 18741;	livers of cadmium-treated
-18757 18770	livers of cadmium-treatedMtf1loxP mice
-T699	IDENTITY_chain 18716 18741;	livers of cadmium-treated
-18757 18770	livers of cadmium-treatedMtf1loxP mice
-T700	Noun_Phrase 18716 18752;	livers of cadmium-treated Mtf1Mx-cre
-18766 18770	livers of cadmium-treated Mtf1Mx-cremice
-T701	IDENTITY_chain 18716 18752;	livers of cadmium-treated Mtf1Mx-cre
-18766 18770	livers of cadmium-treated Mtf1Mx-cremice
+T698	Noun_Phrase 18716 18741;18757 18770	livers of cadmium-treated Mtf1loxP mice
+T699	IDENTITY_chain 18716 18741;18757 18770	livers of cadmium-treated Mtf1loxP mice
+T700	Noun_Phrase 18716 18752;18766 18770	livers of cadmium-treated Mtf1Mx-cre mice
+T701	IDENTITY_chain 18716 18752;18766 18770	livers of cadmium-treated Mtf1Mx-cre mice
 T702	Noun_Phrase 18716 18770	livers of cadmium-treated Mtf1Mx-cre and Mtf1loxP mice
 T703	IDENTITY_chain 18716 18770	livers of cadmium-treated Mtf1Mx-cre and Mtf1loxP mice
-T704	Noun_Phrase 18726 18741;	cadmium-treated
-18757 18770	cadmium-treatedMtf1loxP mice
-T705	IDENTITY_chain 18726 18741;	cadmium-treated
-18757 18770	cadmium-treatedMtf1loxP mice
-T706	Noun_Phrase 18726 18752;	cadmium-treated Mtf1Mx-cre
-18766 18770	cadmium-treated Mtf1Mx-cremice
-T707	IDENTITY_chain 18726 18752;	cadmium-treated Mtf1Mx-cre
-18766 18770	cadmium-treated Mtf1Mx-cremice
+T704	Noun_Phrase 18726 18741;18757 18770	cadmium-treated Mtf1loxP mice
+T705	IDENTITY_chain 18726 18741;18757 18770	cadmium-treated Mtf1loxP mice
+T706	Noun_Phrase 18726 18752;18766 18770	cadmium-treated Mtf1Mx-cre mice
+T707	IDENTITY_chain 18726 18752;18766 18770	cadmium-treated Mtf1Mx-cre mice
 T708	Noun_Phrase 18726 18770	cadmium-treated Mtf1Mx-cre and Mtf1loxP mice
 T709	IDENTITY_chain 18726 18770	cadmium-treated Mtf1Mx-cre and Mtf1loxP mice
 T710	Noun_Phrase 18742 18752	Mtf1Mx-cre
@@ -744,13 +722,11 @@ T720	Noun_Phrase 18979 18984	their
 T721	Noun_Phrase 19036 19067	9 different characterized genes
 T722	IDENTITY_chain 19036 19067	9 different characterized genes
 T723	Noun_Phrase 19125 19135	Table 1, d
-T724	IDENTITY_chain 19125 19135;	Table 1, d
-46553 46558	Table 1, daOnly
+T724	IDENTITY_chain 19125 19135;46553 46558	Table 1, d aOnly
 T725	Noun_Phrase 19146 19150	them
 T726	Noun_Phrase 19159 19162	MRE
 T727	Noun_Phrase 19274 19284	Mtf1Mx-cre
-T728	Noun_Phrase 19274 19284;	Mtf1Mx-cre
-19298 19304	Mtf1Mx-crelivers
+T728	Noun_Phrase 19274 19284;19298 19304	Mtf1Mx-cre livers
 T729	Noun_Phrase 19289 19297	Mtf1loxP
 T730	Noun_Phrase 19289 19304	Mtf1loxP livers
 T731	IDENTITY_chain 19289 19304	Mtf1loxP livers
@@ -782,14 +758,11 @@ T756	Noun_Phrase 20180 20185	MTF-1
 T757	Noun_Phrase 20187 20192	Sepw1
 T758	Noun_Phrase 20206 20216	microarray
 T759	Noun_Phrase 20206 20225	microarray analysis
-T760	Noun_Phrase 20263 20283;	livers from cadmium-
-20293 20316	livers from cadmium-treated Mtf1Mx-cre mice
-T761	Noun_Phrase 20275 20283;	cadmium-
-20293 20316	cadmium-treated Mtf1Mx-cre mice
+T760	Noun_Phrase 20263 20283;20293 20316	livers from cadmium- treated Mtf1Mx-cre mice
+T761	Noun_Phrase 20275 20283;20293 20316	cadmium- treated Mtf1Mx-cre mice
 T762	Noun_Phrase 20288 20316	mock-treated Mtf1Mx-cre mice
 T763	Noun_Phrase 20301 20311	Mtf1Mx-cre
-T764	Noun_Phrase 20318 20325;	Table 1
-20333 20334	Table 1c
+T764	Noun_Phrase 20318 20325;20333 20334	Table 1 c
 T765	Noun_Phrase 20318 20328	Table 1, a
 T766	Noun_Phrase 20337 20342	SEPW1
 T767	Noun_Phrase 20393 20404	glutathione
@@ -797,10 +770,8 @@ T768	Noun_Phrase 20465 20470	Sepw1
 T769	Noun_Phrase 20495 20563	pI–pC-induced, mock- or cadmium-treated Mtf1Mx-cre and Mtf1loxP mice
 T770	Noun_Phrase 20588 20612	semiquantitative RT–PCRs
 T771	Noun_Phrase 20617 20628	S1 analysis
-T772	Noun_Phrase 20630 20636;	Figure
-20644 20645	Figureb
-T773	IDENTITY_chain 20630 20636;	Figure
-20644 20645	Figureb
+T772	Noun_Phrase 20630 20636;20644 20645	Figure b
+T773	IDENTITY_chain 20630 20636;20644 20645	Figure b
 T774	Noun_Phrase 20630 20639	Figure 2a
 T775	IDENTITY_chain 20630 20639	Figure 2a
 T776	Noun_Phrase 20667 20677	microarray
@@ -812,12 +783,9 @@ T781	IDENTITY_chain 20717 20736	Sepw1 transcription
 T782	Noun_Phrase 20765 20773	Mtf1loxP
 T783	Noun_Phrase 20784 20791	cadmium
 T784	Noun_Phrase 20784 20801	cadmium treatment
-T785	Noun_Phrase 20834 20845;	livers from
-20856 20887	livers fromcadmium-treated Mtf1Mx-cre mice
-T786	Noun_Phrase 20834 20851;	livers from mock-
-20864 20887	livers from mock-treated Mtf1Mx-cre mice
-T787	Noun_Phrase 20846 20851;	mock-
-20864 20887	mock-treated Mtf1Mx-cre mice
+T785	Noun_Phrase 20834 20845;20856 20887	livers from cadmium-treated Mtf1Mx-cre mice
+T786	Noun_Phrase 20834 20851;20864 20887	livers from mock- treated Mtf1Mx-cre mice
+T787	Noun_Phrase 20846 20851;20864 20887	mock- treated Mtf1Mx-cre mice
 T788	Noun_Phrase 20856 20887	cadmium-treated Mtf1Mx-cre mice
 T789	Noun_Phrase 20872 20882	Mtf1Mx-cre
 T790	Noun_Phrase 20928 20957	the basal expression of Sepw1
@@ -840,8 +808,7 @@ T806	Noun_Phrase 21159 21172	transcription
 T807	Noun_Phrase 21180 21184	MRE1
 T808	Noun_Phrase 21238 21242	MRE2
 T809	Noun_Phrase 21274 21279	MTF-1
-T810	Noun_Phrase 21283 21288;	Sepw1
-21302 21306	Sepw1MRE2
+T810	Noun_Phrase 21283 21288;21302 21306	Sepw1 MRE2
 T811	Noun_Phrase 21283 21293	Sepw1 MRE1
 T812	Noun_Phrase 21349 21354	liver
 T813	Noun_Phrase 21349 21362	liver protein
@@ -927,8 +894,7 @@ T892	Noun_Phrase 23185 23190	MTF-1
 T893	Noun_Phrase 23192 23197	Csrp1
 T894	Noun_Phrase 23211 23221	microarray
 T895	Noun_Phrase 23211 23230	microarray analyses
-T896	Noun_Phrase 23268 23283;	cadmium-treated
-23312 23325	cadmium-treatedMtf1loxP mice
+T896	Noun_Phrase 23268 23283;23312 23325	cadmium-treated Mtf1loxP mice
 T897	Noun_Phrase 23268 23299	cadmium-treated Mtf1Mx-cre mice
 T898	Noun_Phrase 23284 23294	Mtf1Mx-cre
 T899	Noun_Phrase 23312 23320	Mtf1loxP
@@ -978,8 +944,7 @@ T942	Noun_Phrase 24249 24257	Slc39a10
 T943	Noun_Phrase 24274 24284	microarray
 T944	Noun_Phrase 24274 24293	microarray analysis
 T945	Noun_Phrase 24372 24382	Mtf1Mx-cre
-T946	Noun_Phrase 24417 24424;	Table 1
-24432 24433	Table 1d
+T946	Noun_Phrase 24417 24424;24432 24433	Table 1 d
 T947	Noun_Phrase 24417 24427	Table 1, b
 T948	Noun_Phrase 24436 24441	SLC39
 T949	IDENTITY_chain 24436 24441	SLC39
@@ -1016,8 +981,7 @@ T979	Noun_Phrase 25066 25074	Slc39a10
 T980	Noun_Phrase 25066 25088	Slc39a10 transcription
 T981	IDENTITY_chain 25066 25088	Slc39a10 transcription
 T982	Noun_Phrase 25107 25117	Mtf1Mx-cre
-T983	Noun_Phrase 25107 25117;	Mtf1Mx-cre
-25131 25135	Mtf1Mx-cremice
+T983	Noun_Phrase 25107 25117;25131 25135	Mtf1Mx-cre mice
 T984	Noun_Phrase 25122 25130	Mtf1loxP
 T985	Noun_Phrase 25122 25135	Mtf1loxP mice
 T986	Noun_Phrase 25163 25168	MTF-1
@@ -1115,8 +1079,7 @@ T1077	Noun_Phrase 27712 27736	the tetrazolium salt MTT
 T1078	IDENTITY_chain 27712 27736	the tetrazolium salt MTT
 T1079	Noun_Phrase 27738 27746	Figure 6
 T1080	IDENTITY_chain 27738 27746	Figure 6
-T1081	Noun_Phrase 27778 27781;	BSO
-27793 27798	BSOalone
+T1081	Noun_Phrase 27778 27781;27793 27798	BSO alone
 T1082	Noun_Phrase 27785 27798	cadmium alone
 T1083	Noun_Phrase 27963 27978	functional Mtf1
 T1084	Noun_Phrase 27996 28022	a depletion of glutathione
@@ -1153,34 +1116,17 @@ T1114	Noun_Phrase 28936 28951	the adult liver
 T1115	Noun_Phrase 28973 28976	its
 T1116	Noun_Phrase 28995 29010	embryonic liver
 T1117	Noun_Phrase 28995 29022	embryonic liver development
-T1118	Noun_Phrase 29067 29076;	livers of
-29086 29101;	livers ofcadmium-treated
-29117 29130	livers ofcadmium-treatedMtf1loxP mice
-T1119	Noun_Phrase 29067 29076;	livers of
-29086 29112;	livers ofcadmium-treated Mtf1Mx-cre
-29126 29130	livers ofcadmium-treated Mtf1Mx-cremice
-T1120	Noun_Phrase 29067 29076;	livers of
-29086 29130	livers ofcadmium-treated Mtf1Mx-cre and Mtf1loxP mice
-T1121	Noun_Phrase 29067 29082;	livers of mock-
-29094 29101;	livers of mock-treated
-29117 29130	livers of mock-treatedMtf1loxP mice
-T1122	Noun_Phrase 29067 29082;	livers of mock-
-29094 29112;	livers of mock-treated Mtf1Mx-cre
-29126 29130	livers of mock-treated Mtf1Mx-cremice
-T1123	Noun_Phrase 29067 29082;	livers of mock-
-29094 29130	livers of mock-treated Mtf1Mx-cre and Mtf1loxP mice
-T1124	Noun_Phrase 29077 29082;	mock-
-29094 29101;	mock-treated
-29117 29130	mock-treatedMtf1loxP mice
-T1125	Noun_Phrase 29077 29082;	mock-
-29094 29112;	mock-treated Mtf1Mx-cre
-29126 29130	mock-treated Mtf1Mx-cremice
-T1126	Noun_Phrase 29077 29082;	mock-
-29094 29130	mock-treated Mtf1Mx-cre and Mtf1loxP mice
-T1127	Noun_Phrase 29086 29101;	cadmium-treated
-29117 29130	cadmium-treatedMtf1loxP mice
-T1128	Noun_Phrase 29086 29112;	cadmium-treated Mtf1Mx-cre
-29126 29130	cadmium-treated Mtf1Mx-cremice
+T1118	Noun_Phrase 29067 29076;29086 29101;29117 29130	livers of cadmium-treated Mtf1loxP mice
+T1119	Noun_Phrase 29067 29076;29086 29112;29126 29130	livers of cadmium-treated Mtf1Mx-cre mice
+T1120	Noun_Phrase 29067 29076;29086 29130	livers of cadmium-treated Mtf1Mx-cre and Mtf1loxP mice
+T1121	Noun_Phrase 29067 29082;29094 29101;29117 29130	livers of mock- treated Mtf1loxP mice
+T1122	Noun_Phrase 29067 29082;29094 29112;29126 29130	livers of mock- treated Mtf1Mx-cre mice
+T1123	Noun_Phrase 29067 29082;29094 29130	livers of mock- treated Mtf1Mx-cre and Mtf1loxP mice
+T1124	Noun_Phrase 29077 29082;29094 29101;29117 29130	mock- treated Mtf1loxP mice
+T1125	Noun_Phrase 29077 29082;29094 29112;29126 29130	mock- treated Mtf1Mx-cre mice
+T1126	Noun_Phrase 29077 29082;29094 29130	mock- treated Mtf1Mx-cre and Mtf1loxP mice
+T1127	Noun_Phrase 29086 29101;29117 29130	cadmium-treated Mtf1loxP mice
+T1128	Noun_Phrase 29086 29112;29126 29130	cadmium-treated Mtf1Mx-cre mice
 T1129	Noun_Phrase 29086 29130	cadmium-treated Mtf1Mx-cre and Mtf1loxP mice
 T1130	Noun_Phrase 29102 29112	Mtf1Mx-cre
 T1131	Noun_Phrase 29117 29125	Mtf1loxP
@@ -1214,10 +1160,8 @@ T1158	Noun_Phrase 30035 30044	rat Sepw1
 T1159	Noun_Phrase 30121 30126	MTF-1
 T1160	Noun_Phrase 30138 30151	that sequence
 T1161	Noun_Phrase 30158 30161	Our
-T1162	Noun_Phrase 30158 30172;	Our expression
-30189 30196	Our expressionstudies
-T1163	IDENTITY_chain 30158 30172;	Our expression
-30189 30196	Our expressionstudies
+T1162	Noun_Phrase 30158 30172;30189 30196	Our expression studies
+T1163	IDENTITY_chain 30158 30172;30189 30196	Our expression studies
 T1164	Noun_Phrase 30219 30224	MTF-1
 T1165	Noun_Phrase 30266 30271	mouse
 T1166	Noun_Phrase 30266 30277	mouse Sepw1
@@ -1285,8 +1229,7 @@ T1227	Noun_Phrase 32428 32433	MTF-1
 T1228	Noun_Phrase 32444 32475	basal transcription of Slc39a10
 T1229	Noun_Phrase 32467 32475	Slc39a10
 T1230	Noun_Phrase 32492 32495	its
-T1231	Noun_Phrase 32536 32559;	other target genes like
-32565 32568	other target genes likeMt2
+T1231	Noun_Phrase 32536 32559;32565 32568	other target genes like Mt2
 T1232	Noun_Phrase 32536 32563	other target genes like Mt1
 T1233	Noun_Phrase 32536 32578	other target genes like Mt1, Mt2, and Znt1
 T1234	Noun_Phrase 32574 32578	Znt1
@@ -1309,8 +1252,7 @@ T1250	Noun_Phrase 33139 33144	MTF-1
 T1251	Noun_Phrase 33211 33216	mouse
 T1252	Noun_Phrase 33233 33236	ZnT
 T1253	IDENTITY_chain 33233 33236	ZnT
-T1254	Noun_Phrase 33419 33422;	the
-33431 33441	theZIP family
+T1254	Noun_Phrase 33419 33422;33431 33441	the ZIP family
 T1255	Noun_Phrase 33423 33426	ZnT
 T1256	Noun_Phrase 33431 33434	ZIP
 T1257	Noun_Phrase 33447 33451	zinc
@@ -1389,8 +1331,7 @@ T1329	Noun_Phrase 35630 35635	mouse
 T1330	Noun_Phrase 35645 35661	oxidative stress
 T1331	Noun_Phrase 35645 35670	oxidative stress response
 T1332	Noun_Phrase 35685 35690	MTF-1
-T1333	Noun_Phrase 35706 35739;	the cadmium-induced expression of
-35750 35755	the cadmium-induced expression ofCsrp1
+T1333	Noun_Phrase 35706 35739;35750 35755	the cadmium-induced expression of Csrp1
 T1334	Noun_Phrase 35706 35745	the cadmium-induced expression of Ndrg1
 T1335	Noun_Phrase 35706 35755	the cadmium-induced expression of Ndrg1 and Csrp1
 T1336	Noun_Phrase 35770 35775	MTF-1
@@ -1404,10 +1345,8 @@ T1343	Noun_Phrase 35927 35940	transcription
 T1344	Noun_Phrase 36045 36050	liver
 T1345	Noun_Phrase 36045 36100	liver gene expression of cadmium- and mock-treated mice
 T1346	IDENTITY_chain 36045 36100	liver gene expression of cadmium- and mock-treated mice
-T1347	Noun_Phrase 36070 36078;	cadmium-
-36088 36100	cadmium-treated mice
-T1348	IDENTITY_chain 36070 36078;	cadmium-
-36088 36100	cadmium-treated mice
+T1347	Noun_Phrase 36070 36078;36088 36100	cadmium- treated mice
+T1348	IDENTITY_chain 36070 36078;36088 36100	cadmium- treated mice
 T1349	Noun_Phrase 36070 36100	cadmium- and mock-treated mice
 T1350	IDENTITY_chain 36070 36100	cadmium- and mock-treated mice
 T1351	Noun_Phrase 36083 36100	mock-treated mice
@@ -1491,12 +1430,9 @@ T1428	Noun_Phrase 38662 38673	Mx-Cre mice
 T1429	Noun_Phrase 38792 38803	the figures
 T1430	IDENTITY_chain 38792 38803	the figures
 T1431	Noun_Phrase 38957 38964	Figures
-T1432	Noun_Phrase 38977 38985;	Figure 1
-39027 39028	Figure 1a
-T1433	Noun_Phrase 38977 38985;	Figure 1
-39784 39785	Figure 1b
-T1434	Noun_Phrase 38977 38985;	Figure 1
-40000 40001	Figure 1c
+T1432	Noun_Phrase 38977 38985;39027 39028	Figure 1 a
+T1433	Noun_Phrase 38977 38985;39784 39785	Figure 1 b
+T1434	Noun_Phrase 38977 38985;40000 40001	Figure 1 c
 T1435	Noun_Phrase 38999 39024	Mtf1 in adult mouse liver
 T1436	Noun_Phrase 39007 39024	adult mouse liver
 T1437	Noun_Phrase 39044 39048	Mtf1
@@ -1511,8 +1447,7 @@ T1445	Noun_Phrase 39230 39233	NEO
 T1446	Noun_Phrase 39238 39241	Cre
 T1447	Noun_Phrase 39238 39253	Cre recombinase
 T1448	Noun_Phrase 39261 39301	the conditional knockout allele Mtf1loxP
-T1449	Noun_Phrase 39340 39345;	exons
-39352 39353	exons4
+T1449	Noun_Phrase 39340 39345;39352 39353	exons 4
 T1450	Noun_Phrase 39340 39347	exons 3
 T1451	Noun_Phrase 39340 39353	exons 3 and 4
 T1452	Noun_Phrase 39423 39445	the DNA-binding domain
@@ -1545,8 +1480,7 @@ T1478	Noun_Phrase 39821 39867	pI–pC-induced male Mtf1Mx-cre or Mtf1loxP mice
 T1479	IDENTITY_chain 39821 39867	pI–pC-induced male Mtf1Mx-cre or Mtf1loxP mice
 T1480	Noun_Phrase 39840 39850	Mtf1Mx-cre
 T1481	Noun_Phrase 39854 39862	Mtf1loxP
-T1482	Noun_Phrase 39970 39975;	exons
-39982 39983	exons4
+T1482	Noun_Phrase 39970 39975;39982 39983	exons 4
 T1483	Noun_Phrase 39970 39977	exons 3
 T1484	Noun_Phrase 39970 39983	exons 3 and 4
 T1485	Noun_Phrase 40013 40018	liver
@@ -1573,16 +1507,11 @@ T1505	IDENTITY_chain 40302 40363	Sp1 bandshifts with 32P-labeled Sp1 consensus o
 T1506	Noun_Phrase 40334 40337	Sp1
 T1507	Noun_Phrase 40381 40398	a loading control
 T1508	IDENTITY_chain 40381 40398	a loading control
-T1509	Noun_Phrase 40401 40409;	Figure 2
-40453 40454	Figure 2a
-T1510	Noun_Phrase 40401 40409;	Figure 2
-40811 40812	Figure 2b
-T1511	Noun_Phrase 40401 40409;	Figure 2
-40864 40865	Figure 2a
-T1512	Noun_Phrase 40401 40409;	Figure 2
-40985 40986	Figure 2c
-T1513	Noun_Phrase 40401 40409;	Figure 2
-41183 41184	Figure 2d
+T1509	Noun_Phrase 40401 40409;40453 40454	Figure 2 a
+T1510	Noun_Phrase 40401 40409;40811 40812	Figure 2 b
+T1511	Noun_Phrase 40401 40409;40864 40865	Figure 2 a
+T1512	Noun_Phrase 40401 40409;40985 40986	Figure 2 c
+T1513	Noun_Phrase 40401 40409;41183 41184	Figure 2 d
 T1514	Noun_Phrase 40411 40416	Sepw1
 T1515	Noun_Phrase 40411 40433	Sepw1 basal expression
 T1516	Noun_Phrase 40445 40450	MTF-1
@@ -1632,8 +1561,7 @@ T1559	Noun_Phrase 41300 41305	MTF-1
 T1560	Noun_Phrase 41300 41325	MTF-1 protein–DNA complex
 T1561	Noun_Phrase 41300 41335	MTF-1 protein–DNA complex formation
 T1562	Noun_Phrase 41364 41369	Sepw1
-T1563	Noun_Phrase 41364 41369;	Sepw1
-41378 41382	Sepw1MRE2
+T1563	Noun_Phrase 41364 41369;41378 41382	Sepw1 MRE2
 T1564	Noun_Phrase 41364 41374	Sepw1 MRE1
 T1565	Noun_Phrase 41414 41436	Specificity of binding
 T1566	Noun_Phrase 41455 41524	excess of unlabeled competitor MREd or unrelated Gal4 oligonucleotide
@@ -1644,12 +1572,9 @@ T1570	Noun_Phrase 41607 41704	bandshifts for the common transcription factor Sp1
 T1571	Noun_Phrase 41675 41678	Sp1
 T1572	Noun_Phrase 41722 41729	protein
 T1573	Noun_Phrase 41722 41745	protein loading control
-T1574	Noun_Phrase 41748 41756;	Figure 3
-41803 41804	Figure 3a
-T1575	Noun_Phrase 41748 41756;	Figure 3
-42161 42162	Figure 3b
-T1576	Noun_Phrase 41748 41756;	Figure 3
-42359 42360	Figure 3c
+T1574	Noun_Phrase 41748 41756;41803 41804	Figure 3 a
+T1575	Noun_Phrase 41748 41756;42161 42162	Figure 3 b
+T1576	Noun_Phrase 41748 41756;42359 42360	Figure 3 c
 T1577	Noun_Phrase 41758 41765	Cadmium
 T1578	Noun_Phrase 41758 41783	Cadmium response of Ndrg1
 T1579	Noun_Phrase 41778 41783	Ndrg1
@@ -1687,8 +1612,7 @@ T1610	Noun_Phrase 42476 42481	MTF-1
 T1611	Noun_Phrase 42476 42501	MTF-1 protein–DNA complex
 T1612	Noun_Phrase 42476 42511	MTF-1 protein–DNA complex formation
 T1613	Noun_Phrase 42540 42545	Ndrg1
-T1614	Noun_Phrase 42540 42545;	Ndrg1
-42554 42558	Ndrg1MRE2
+T1614	Noun_Phrase 42540 42545;42554 42558	Ndrg1 MRE2
 T1615	Noun_Phrase 42540 42550	Ndrg1 MRE1
 T1616	Noun_Phrase 42624 42637	MRE3 and MRE4
 T1617	APPOS_relation 42624 42637	MRE3 and MRE4
@@ -1703,12 +1627,9 @@ T1625	Noun_Phrase 42841 42902	Sp1 bandshifts with 32P-labeled Sp1 consensus olig
 T1626	Noun_Phrase 42873 42876	Sp1
 T1627	Noun_Phrase 42920 42927	protein
 T1628	Noun_Phrase 42920 42943	protein loading control
-T1629	Noun_Phrase 42946 42954;	Figure 4
-43001 43002	Figure 4a
-T1630	Noun_Phrase 42946 42954;	Figure 4
-43359 43360	Figure 4b
-T1631	Noun_Phrase 42946 42954;	Figure 4
-43557 43558	Figure 4c
+T1629	Noun_Phrase 42946 42954;43001 43002	Figure 4 a
+T1630	Noun_Phrase 42946 42954;43359 43360	Figure 4 b
+T1631	Noun_Phrase 42946 42954;43557 43558	Figure 4 c
 T1632	Noun_Phrase 42956 42963	Cadmium
 T1633	Noun_Phrase 42956 42981	Cadmium response of Csrp1
 T1634	Noun_Phrase 42976 42981	Csrp1
@@ -1745,12 +1666,9 @@ T1664	Noun_Phrase 43655 43659	both
 T1665	Noun_Phrase 43674 43679	MTF-1
 T1666	Noun_Phrase 43674 43699	MTF-1 protein–DNA complex
 T1667	Noun_Phrase 43674 43709	MTF-1 protein–DNA complex formation
-T1668	Noun_Phrase 43738 43743;	Csrp1
-43750 43754	Csrp1MRE2
-T1669	Noun_Phrase 43738 43743;	Csrp1
-43756 43760	Csrp1MRE3
-T1670	Noun_Phrase 43738 43743;	Csrp1
-43764 43768	Csrp1MRE4
+T1668	Noun_Phrase 43738 43743;43750 43754	Csrp1 MRE2
+T1669	Noun_Phrase 43738 43743;43756 43760	Csrp1 MRE3
+T1670	Noun_Phrase 43738 43743;43764 43768	Csrp1 MRE4
 T1671	Noun_Phrase 43738 43748	Csrp1 MRE1
 T1672	Noun_Phrase 43800 43822	Specificity of binding
 T1673	Noun_Phrase 43841 43910	excess of unlabeled competitor MREd or unrelated Gal4 oligonucleotide
@@ -1762,12 +1680,9 @@ T1678	Noun_Phrase 43993 44054	Sp1 bandshifts with 32P-labeled Sp1 consensus olig
 T1679	Noun_Phrase 44025 44028	Sp1
 T1680	Noun_Phrase 44072 44079	protein
 T1681	Noun_Phrase 44072 44095	protein loading control
-T1682	Noun_Phrase 44098 44106;	Figure 5
-44155 44156	Figure 5a
-T1683	Noun_Phrase 44098 44106;	Figure 5
-44516 44517	Figure 5b
-T1684	Noun_Phrase 44098 44106;	Figure 5
-44717 44718	Figure 5c
+T1682	Noun_Phrase 44098 44106;44155 44156	Figure 5 a
+T1683	Noun_Phrase 44098 44106;44516 44517	Figure 5 b
+T1684	Noun_Phrase 44098 44106;44717 44718	Figure 5 c
 T1685	Noun_Phrase 44108 44113	MTF-1
 T1686	Noun_Phrase 44124 44152	basal expression of Slc39a10
 T1687	Noun_Phrase 44144 44152	Slc39a10
@@ -1803,8 +1718,7 @@ T1716	Noun_Phrase 44834 44839	MTF-1
 T1717	Noun_Phrase 44834 44859	MTF-1 protein–DNA complex
 T1718	Noun_Phrase 44834 44869	MTF-1 protein–DNA complex formation
 T1719	Noun_Phrase 44898 44906	Slc39a10
-T1720	Noun_Phrase 44898 44906;	Slc39a10
-44915 44919	Slc39a10MRE2
+T1720	Noun_Phrase 44898 44906;44915 44919	Slc39a10 MRE2
 T1721	Noun_Phrase 44898 44911	Slc39a10 MRE1
 T1722	Noun_Phrase 44951 44973	Specificity of binding
 T1723	Noun_Phrase 44992 45061	excess of unlabeled competitor MREd or unrelated Gal4 oligonucleotide
@@ -1834,12 +1748,9 @@ T1746	Noun_Phrase 45647 45652	CdCl2
 T1747	APPOS_relation 45647 45652	CdCl2
 T1748	Noun_Phrase 45654 45656	Cd
 T1749	Noun_Phrase 45661 45696	the specified pre-incubation medium
-T1750	Noun_Phrase 45827 45834;	Table 1
-46553 46554	Table 1a
-T1751	Noun_Phrase 45827 45834;	Table 1
-46644 46645	Table 1b
-T1752	Noun_Phrase 45827 45834;	Table 1
-46700 46701	Table 1c
+T1750	Noun_Phrase 45827 45834;46553 46554	Table 1 a
+T1751	Noun_Phrase 45827 45834;46644 46645	Table 1 b
+T1752	Noun_Phrase 45827 45834;46700 46701	Table 1 c
 T1753	Noun_Phrase 45850 45855	liver
 T1754	Noun_Phrase 45876 45918	pI–pC-induced Mtf1Mx-cre and Mtf1loxP mice
 T1755	IDENTITY_chain 45876 45918	pI–pC-induced Mtf1Mx-cre and Mtf1loxP mice
@@ -1861,14 +1772,11 @@ T1770	Noun_Phrase 46597 46610	transcription
 T1771	Noun_Phrase 46676 46686	Affymetrix
 T1772	Noun_Phrase 46732 46742	Affymetrix
 T1773	Noun_Phrase 46756 46763	Table 2
-T1774	Noun_Phrase 46756 46763;	Table 2
-47195 47196	Table 2a
-T1775	Noun_Phrase 46756 46763;	Table 2
-47253 47254	Table 2b
+T1774	Noun_Phrase 46756 46763;47195 47196	Table 2 a
+T1775	Noun_Phrase 46756 46763;47253 47254	Table 2 b
 T1776	Noun_Phrase 46779 46784	liver
 T1777	Noun_Phrase 46779 46835	liver gene expression for cadmium- and mock-treated mice
-T1778	Noun_Phrase 46805 46813;	cadmium-
-46823 46835	cadmium-treated mice
+T1778	Noun_Phrase 46805 46813;46823 46835	cadmium- treated mice
 T1779	Noun_Phrase 46805 46835	cadmium- and mock-treated mice
 T1780	Noun_Phrase 46818 46835	mock-treated mice
 T1781	Noun_Phrase 46887 46898	The animals

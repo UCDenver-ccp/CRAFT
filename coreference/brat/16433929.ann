@@ -33,10 +33,8 @@ T31	Noun_Phrase 472 500	both ?-calpain and m-calpain
 T32	IDENTITY_chain 472 509	both ?-calpain and m-calpain activity
 T33	Noun_Phrase 472 509	both ?-calpain and m-calpain activity
 T34	Noun_Phrase 477 486	?-calpain
-T35	Noun_Phrase 477 486;	?-calpain
-501 509	?-calpainactivity
-T36	IDENTITY_chain 477 486;	?-calpain
-501 509	?-calpainactivity
+T35	Noun_Phrase 477 486;501 509	?-calpain activity
+T36	IDENTITY_chain 477 486;501 509	?-calpain activity
 T37	Noun_Phrase 491 500	m-calpain
 T38	Noun_Phrase 491 509	m-calpain activity
 T39	IDENTITY_chain 491 509	m-calpain activity
@@ -68,10 +66,8 @@ T64	IDENTITY_chain 1124 1141	homozygous mutant
 T65	Noun_Phrase 1181 1191	nested PCR
 T66	IDENTITY_chain 1181 1191	nested PCR
 T67	Noun_Phrase 1260 1266	mutant
-T68	Noun_Phrase 1292 1302;	the morula
-1329 1334	the morulastage
-T69	IDENTITY_chain 1292 1302;	the morula
-1329 1334	the morulastage
+T68	Noun_Phrase 1292 1302;1329 1334	the morula stage
+T69	IDENTITY_chain 1292 1302;1329 1334	the morula stage
 T70	Noun_Phrase 1296 1302	morula
 T71	IDENTITY_chain 1296 1302	morula
 T72	Noun_Phrase 1314 1334	the blastocyts stage
@@ -82,10 +78,8 @@ T76	Noun_Phrase 1349 1351	We
 T77	Noun_Phrase 1391 1405	the Capn2 gene
 T78	IDENTITY_chain 1391 1405	the Capn2 gene
 T79	Noun_Phrase 1395 1400	Capn2
-T80	Noun_Phrase 1462 1465;	the
-1477 1493	theblastocyst stage
-T81	Noun_Phrase 1462 1472;	the morula
-1488 1493	the morulastage
+T80	Noun_Phrase 1462 1465;1477 1493	the blastocyst stage
+T81	Noun_Phrase 1462 1472;1488 1493	the morula stage
 T82	Noun_Phrase 1466 1472	morula
 T83	Noun_Phrase 1477 1487	blastocyst
 T84	Noun_Phrase 1517 1526	?-calpain
@@ -105,11 +99,8 @@ T97	Noun_Phrase 1761 1769	capain-2
 T98	Noun_Phrase 1802 1806	gene
 T99	IDENTITY_chain 1802 1806	gene
 T100	Noun_Phrase 1852 1856	Both
-T101	Noun_Phrase 1897 1947;	distinct 80 kDa catalytic subunits, encoded by the
-1967 1972;	distinct 80 kDa catalytic subunits, encoded by theCapn2
-1982 1987	distinct 80 kDa catalytic subunits, encoded by theCapn2genes
-T102	Noun_Phrase 1897 1953;	distinct 80 kDa catalytic subunits, encoded by the Capn1
-1982 1987	distinct 80 kDa catalytic subunits, encoded by the Capn1genes
+T101	Noun_Phrase 1897 1947;1967 1972;1982 1987	distinct 80 kDa catalytic subunits, encoded by the Capn2 genes
+T102	Noun_Phrase 1897 1953;1982 1987	distinct 80 kDa catalytic subunits, encoded by the Capn1 genes
 T103	Noun_Phrase 1955 1961	?-80 k
 T104	APPOS_relation 1955 1961	?-80 k
 T105	IDENTITY_chain 1955 1961	?-80 k
@@ -119,17 +110,14 @@ T108	IDENTITY_chain 1974 1980	m-80 k
 T109	Noun_Phrase 2069 2083	the Capn4 gene
 T110	IDENTITY_chain 2069 2083	the Capn4 gene
 T111	Noun_Phrase 2073 2078	Capn4
-T112	Noun_Phrase 2085 2088;	The
-2100 2115	Them-80 k subunits
-T113	Noun_Phrase 2085 2095;	The ?-80 k
-2107 2115	The ?-80 ksubunits
+T112	Noun_Phrase 2085 2088;2100 2115	The m-80 k subunits
+T113	Noun_Phrase 2085 2095;2107 2115	The ?-80 k subunits
 T114	Noun_Phrase 2369 2373	they
 T115	Noun_Phrase 2405 2423	distinct functions
 T116	Noun_Phrase 2541 2550	?-calpain
 T117	Noun_Phrase 2576 2585	m-calpain
 T118	Nonreferential_pronoun 2587 2589	It
-T119	Noun_Phrase 2616 2618;	?-
-2625 2632	?-calpain
+T119	Noun_Phrase 2616 2618;2625 2632	?- calpain
 T120	Noun_Phrase 2616 2632	?- and m-calpain
 T121	Noun_Phrase 2623 2632	m-calpain
 T122	Noun_Phrase 2642 2647	their
@@ -177,8 +165,7 @@ T163	Noun_Phrase 4567 4576	m-calpain
 T164	Noun_Phrase 4581 4585	cell
 T165	Noun_Phrase 4611 4615	gene
 T166	Noun_Phrase 4628 4632	mice
-T167	Noun_Phrase 4704 4706;	?-
-4713 4720	?-calpain
+T167	Noun_Phrase 4704 4706;4713 4720	?- calpain
 T168	Noun_Phrase 4704 4720	?- and m-calpain
 T169	Noun_Phrase 4711 4720	m-calpain
 T170	Noun_Phrase 4753 4758	their
@@ -186,8 +173,7 @@ T171	Noun_Phrase 4812 4817	Capn4
 T172	Noun_Phrase 4855 4875	this calpain subunit
 T173	Noun_Phrase 4860 4867	calpain
 T174	Noun_Phrase 4902 4923	both ?- and m-calpain
-T175	Noun_Phrase 4907 4909;	?-
-4916 4923	?-calpain
+T175	Noun_Phrase 4907 4909;4916 4923	?- calpain
 T176	Noun_Phrase 4914 4923	m-calpain
 T177	Noun_Phrase 4925 4933	Capn4-/-
 T178	Noun_Phrase 4925 4948	Capn4-/- murine embryos
@@ -195,11 +181,9 @@ T179	IDENTITY_chain 4925 4948	Capn4-/- murine embryos
 T180	Noun_Phrase 4980 4989	gestation
 T181	IDENTITY_chain 4980 4989	gestation
 T182	Nonreferential_pronoun 4995 5000	there
-T183	Noun_Phrase 5019 5021;	?-
-5027 5034	?-calpain
+T183	Noun_Phrase 5019 5021;5027 5034	?- calpain
 T184	Noun_Phrase 5025 5034	m-calpain
-T185	Noun_Phrase 5047 5052;	these
-5064 5071	theseembryos
+T185	Noun_Phrase 5047 5052;5064 5071	these embryos
 T186	Noun_Phrase 5078 5086	Capn4-/-
 T187	Noun_Phrase 5078 5122	Capn4-/- murine embryonic fibroblasts (MEFs)
 T188	IDENTITY_chain 5078 5122	Capn4-/- murine embryonic fibroblasts (MEFs)
@@ -211,10 +195,8 @@ T193	Noun_Phrase 5170 5174	they
 T194	Noun_Phrase 5187 5194	calpain
 T195	Noun_Phrase 5219 5236	casein zymography
 T196	IDENTITY_chain 5219 5236	casein zymography
-T197	Noun_Phrase 5219 5239;	casein zymography or
-5243 5302	casein zymography orthe formation of characteristic spectrin breakdown products
-T198	IDENTITY_chain 5219 5239;	casein zymography or
-5243 5302	casein zymography orthe formation of characteristic spectrin breakdown products
+T197	Noun_Phrase 5219 5239;5243 5302	casein zymography or the formation of characteristic spectrin breakdown products
+T198	IDENTITY_chain 5219 5239;5243 5302	casein zymography or the formation of characteristic spectrin breakdown products
 T199	Noun_Phrase 5243 5302	the formation of characteristic spectrin breakdown products
 T200	IDENTITY_chain 5243 5302	the formation of characteristic spectrin breakdown products
 T201	Noun_Phrase 5308 5312	they
@@ -327,10 +309,8 @@ T307	Noun_Phrase 8197 8224	the two targeted cell lines
 T308	Noun_Phrase 8214 8218	cell
 T309	Noun_Phrase 8226 8235	Figure 2B
 T310	IDENTITY_chain 8226 8235	Figure 2B
-T311	Noun_Phrase 8239 8247;	Figure 2
-8294 8295	Figure 2A
-T312	Noun_Phrase 8239 8247;	Figure 2
-8811 8812	Figure 2B
+T311	Noun_Phrase 8239 8247;8294 8295	Figure 2 A
+T312	Noun_Phrase 8239 8247;8811 8812	Figure 2 B
 T313	Noun_Phrase 8269 8291	targeted ES cell lines
 T314	Noun_Phrase 8278 8285	ES cell
 T315	Noun_Phrase 8320 8335	the Capn2 locus
@@ -496,10 +476,8 @@ T474	Noun_Phrase 12928 12940	the oviducts
 T475	IDENTITY_chain 12928 12940	the oviducts
 T476	Noun_Phrase 12964 12976	proteinase K
 T477	IDENTITY_chain 12964 12976	proteinase K
-T478	Noun_Phrase 13037 13040;	the
-13054 13068	themutant alleles
-T479	Noun_Phrase 13037 13050;	the wild-type
-13061 13068	the wild-typealleles
+T478	Noun_Phrase 13037 13040;13054 13068	the mutant alleles
+T479	Noun_Phrase 13037 13050;13061 13068	the wild-type alleles
 T480	Noun_Phrase 13041 13050	wild-type
 T481	Noun_Phrase 13054 13060	mutant
 T482	Noun_Phrase 13092 13120	an internal control sequence
@@ -521,10 +499,8 @@ T497	Noun_Phrase 13781 13791	genotyping
 T498	IDENTITY_chain 13781 13791	genotyping
 T499	Noun_Phrase 13804 13813	weanlings
 T500	IDENTITY_chain 13804 13813	weanlings
-T501	Noun_Phrase 13815 13832;	post-implantation
-13855 13862	post-implantationembryos
-T502	IDENTITY_chain 13815 13832;	post-implantation
-13855 13862	post-implantationembryos
+T501	Noun_Phrase 13815 13832;13855 13862	post-implantation embryos
+T502	IDENTITY_chain 13815 13832;13855 13862	post-implantation embryos
 T503	Noun_Phrase 13838 13862	pre-implantation embryos
 T504	Noun_Phrase 13876 13883	Table 2
 T505	Noun_Phrase 13909 13917	Capn2+/+
@@ -547,8 +523,7 @@ T521	Nonreferential_pronoun 14340 14345	there
 T522	Noun_Phrase 14464 14472	Capn2+/-
 T523	Noun_Phrase 14464 14480	Capn2+/- animals
 T524	IDENTITY_chain 14464 14480	Capn2+/- animals
-T525	Noun_Phrase 14506 14523;	post-implantation
-14545 14552	post-implantationembryos
+T525	Noun_Phrase 14506 14523;14545 14552	post-implantation embryos
 T526	Noun_Phrase 14528 14552	pre-implantation embryos
 T527	Noun_Phrase 14554 14561	Table 2
 T528	Noun_Phrase 14612 14632	heterozygous animals
@@ -607,8 +582,7 @@ T580	IDENTITY_chain 15953 15967	cell viability
 T581	Noun_Phrase 15999 16006	ES cell
 T582	Noun_Phrase 16037 16044	calpain
 T583	Noun_Phrase 16037 16053	calpain activity
-T584	Noun_Phrase 16118 16132;	the substrates
-16147 16161	the substratesof the enzymes
+T584	Noun_Phrase 16118 16132;16147 16161	the substrates of the enzymes
 T585	Noun_Phrase 16137 16161	functions of the enzymes
 T586	Noun_Phrase 16150 16161	the enzymes
 T587	Noun_Phrase 16283 16295	the calpains
@@ -620,16 +594,14 @@ T592	Noun_Phrase 16683 16688	Capn4
 T593	Noun_Phrase 16704 16764	the small regulatory subunit common to both ?- and m-calpain
 T594	IDENTITY_chain 16704 16764	the small regulatory subunit common to both ?- and m-calpain
 T595	Noun_Phrase 16743 16764	both ?- and m-calpain
-T596	Noun_Phrase 16748 16750;	?-
-16757 16764	?-calpain
+T596	Noun_Phrase 16748 16750;16757 16764	?- calpain
 T597	Noun_Phrase 16755 16764	m-calpain
 T598	Noun_Phrase 16827 16832	Capn4
 T599	Noun_Phrase 16827 16846	Capn4 knockout mice
 T600	IDENTITY_chain 16827 16846	Capn4 knockout mice
 T601	Noun_Phrase 16948 16965	the small subunit
 T602	Noun_Phrase 16982 17003	both ?- and m-calpain
-T603	Noun_Phrase 16986 16989;	 ?-
-16996 17003	 ?-calpain
+T603	Noun_Phrase 16986 16989;16996 17003	 ?- calpain
 T604	Noun_Phrase 16994 17003	m-calpain
 T605	Noun_Phrase 17031 17103	four possibilities regarding their requirement for embryonic development
 T606	IDENTITY_chain 17031 17103	four possibilities regarding their requirement for embryonic development
@@ -638,8 +610,7 @@ T608	Noun_Phrase 17082 17103	embryonic development
 T609	Noun_Phrase 17108 17121	both isoforms
 T610	Noun_Phrase 17140 17149	?-calpain
 T611	Noun_Phrase 17167 17176	m-calpain
-T612	Noun_Phrase 17197 17199;	?-
-17206 17213	?-calpain
+T612	Noun_Phrase 17197 17199;17206 17213	?- calpain
 T613	Noun_Phrase 17197 17213	?- and m-calpain
 T614	Noun_Phrase 17204 17213	m-calpain
 T615	Noun_Phrase 17272 17285	These options
@@ -752,8 +723,7 @@ T721	Noun_Phrase 21820 21825	cells
 T722	Nonreferential_pronoun 21827 21829	It
 T723	Noun_Phrase 21853 21857	gene
 T724	Noun_Phrase 21881 21885	mice
-T725	Noun_Phrase 21892 21894;	?-
-21901 21908	?-calpain
+T725	Noun_Phrase 21892 21894;21901 21908	?- calpain
 T726	Noun_Phrase 21892 21908	?- and m-calpain
 T727	Noun_Phrase 21899 21908	m-calpain
 T728	Noun_Phrase 21965 21978	embryogenesis
@@ -767,10 +737,8 @@ T735	Noun_Phrase 22208 22213	Capn1
 T736	Noun_Phrase 22251 22259	platelet
 T737	Noun_Phrase 22356 22364	platelet
 T738	Noun_Phrase 22377 22409	Both ?- and m-calpain activities
-T739	Noun_Phrase 22382 22384;	?-
-22391 22398	?-calpain
-T740	Noun_Phrase 22382 22384;	?-
-22391 22409	?-calpain activities
+T739	Noun_Phrase 22382 22384;22391 22398	?- calpain
+T740	Noun_Phrase 22382 22384;22391 22409	?- calpain activities
 T741	Noun_Phrase 22382 22398	?- and m-calpain
 T742	Noun_Phrase 22389 22398	m-calpain
 T743	Noun_Phrase 22389 22409	m-calpain activities
@@ -843,8 +811,7 @@ T809	Noun_Phrase 25008 25022	cell viability
 T810	Noun_Phrase 25041 25049	Capn4-/-
 T811	Noun_Phrase 25041 25054	Capn4-/- MEFs
 T812	Noun_Phrase 25065 25069	cell
-T813	Noun_Phrase 25143 25145;	?-
-25152 25159	?-calpain
+T813	Noun_Phrase 25143 25145;25152 25159	?- calpain
 T814	Noun_Phrase 25143 25159	?- and m-calpain
 T815	Noun_Phrase 25150 25159	m-calpain
 T816	Noun_Phrase 25183 25190	calpain
@@ -864,8 +831,7 @@ T829	IDENTITY_chain 25628 25638	the oocyte
 T830	Noun_Phrase 25693 25714	the acrosome reaction
 T831	IDENTITY_chain 25693 25714	the acrosome reaction
 T832	Noun_Phrase 25721 25742	Both ?- and m-calpain
-T833	Noun_Phrase 25726 25728;	?-
-25735 25742	?-calpain
+T833	Noun_Phrase 25726 25728;25735 25742	?- calpain
 T834	Noun_Phrase 25733 25742	m-calpain
 T835	Noun_Phrase 25796 25803	oocytes
 T836	Noun_Phrase 25810 25819	m-calpain
@@ -883,13 +849,11 @@ T847	Noun_Phrase 26167 26177	chromosome
 T848	Noun_Phrase 26196 26206	Polyspermy
 T849	Noun_Phrase 26220 26230	chromosome
 T850	Nonreferential_pronoun 26307 26309	It
-T851	Noun_Phrase 26339 26347;	Capn4-/-
-26355 26358	Capn4-/-MEF
+T851	Noun_Phrase 26339 26347;26355 26358	Capn4-/- MEF
 T852	Noun_Phrase 26462 26469	calpain
 T853	Noun_Phrase 26462 26478	calpain activity
 T854	Noun_Phrase 26495 26512	casein zymography
-T855	Noun_Phrase 26495 26515;	casein zymography or
-26519 26579	casein zymography orthe appearance of characteristic spectrin breakdown products
+T855	Noun_Phrase 26495 26515;26519 26579	casein zymography or the appearance of characteristic spectrin breakdown products
 T856	Noun_Phrase 26519 26579	the appearance of characteristic spectrin breakdown products
 T857	Nonreferential_pronoun 26581 26583	It
 T858	Noun_Phrase 26627 26661	a trace amount of calpain activity
@@ -904,10 +868,8 @@ T866	Noun_Phrase 26874 26878	cell
 T867	Noun_Phrase 26874 26888	cell viability
 T868	Noun_Phrase 26910 26914	cell
 T869	Noun_Phrase 26996 27000	gene
-T870	Noun_Phrase 27015 27023;	Capn2+/-
-27036 27038	Capn2+/-ES
-T871	Noun_Phrase 27015 27023;	Capn2+/-
-27036 27044	Capn2+/-ES cells
+T870	Noun_Phrase 27015 27023;27036 27038	Capn2+/- ES
+T871	Noun_Phrase 27015 27023;27036 27044	Capn2+/- ES cells
 T872	Noun_Phrase 27027 27038	Capn2-/- ES
 T873	Noun_Phrase 27027 27044	Capn2-/- ES cells
 T874	Noun_Phrase 27117 27134	homozygous mutant
@@ -948,8 +910,7 @@ T908	Noun_Phrase 28642 28687	an indispensable role in murine embryogenesis
 T909	IDENTITY_chain 28642 28687	an indispensable role in murine embryogenesis
 T910	Noun_Phrase 28752 28765	this function
 T911	Noun_Phrase 28791 28800	?-calpain
-T912	Noun_Phrase 28847 28849;	?-
-28856 28863	?-calpain
+T912	Noun_Phrase 28847 28849;28856 28863	?- calpain
 T913	Noun_Phrase 28847 28863	?- and m-calpain
 T914	Noun_Phrase 28854 28863	m-calpain
 T915	Noun_Phrase 28884 28900	the two isoforms
@@ -1000,18 +961,15 @@ T959	Noun_Phrase 30853 30859	mutant
 T960	Noun_Phrase 30907 30912	BamHI
 T961	Noun_Phrase 30935 30955	the PGK-Neo cassette
 T962	Noun_Phrase 30939 30946	PGK-Neo
-T963	Noun_Phrase 30993 30996;	the
-31011 31025	themutant alleles
-T964	Noun_Phrase 30993 31006;	the wild-type
-31018 31025	the wild-typealleles
+T963	Noun_Phrase 30993 30996;31011 31025	the mutant alleles
+T964	Noun_Phrase 30993 31006;31018 31025	the wild-type alleles
 T965	Noun_Phrase 30997 31006	wild-type
 T966	Noun_Phrase 31011 31017	mutant
 T967	Noun_Phrase 31029 31046	Southern blotting
 T968	Noun_Phrase 31048 31085	The long (downstream) arm of homology
 T969	Noun_Phrase 31147 31155	intron 7
 T970	IDENTITY_chain 31147 31155	intron 7
-T971	Noun_Phrase 31187 31198;	the PGK-Neo
-31225 31234	the PGK-Neocassettes
+T971	Noun_Phrase 31187 31198;31225 31234	the PGK-Neo cassettes
 T972	Noun_Phrase 31191 31198	PGK-Neo
 T973	Noun_Phrase 31203 31219	thymidine kinase
 T974	APPOS_relation 31203 31219	thymidine kinase
@@ -1184,10 +1142,8 @@ T1140	Noun_Phrase 36925 36948	the nested PCR strategy
 T1141	Noun_Phrase 36929 36939	nested PCR
 T1142	Noun_Phrase 37068 37105	the short arm of the targeting vector
 T1143	Noun_Phrase 37085 37105	the targeting vector
-T1144	Noun_Phrase 37132 37135;	the
-37150 37164	themutant alleles
-T1145	Noun_Phrase 37132 37145;	the wild-type
-37157 37164	the wild-typealleles
+T1144	Noun_Phrase 37132 37135;37150 37164	the mutant alleles
+T1145	Noun_Phrase 37132 37145;37157 37164	the wild-type alleles
 T1146	Noun_Phrase 37136 37145	wild-type
 T1147	Noun_Phrase 37150 37156	mutant
 T1148	Noun_Phrase 37191 37206	the control PCR

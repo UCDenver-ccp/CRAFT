@@ -2,10 +2,8 @@ T0	Noun_Phrase 0 6	RanBP2
 T1	IDENTITY_chain 0 6	RanBP2
 T2	Noun_Phrase 17 22	Cox11
 T3	IDENTITY_chain 17 22	Cox11
-T4	Noun_Phrase 17 22;	Cox11
-40 50	Cox11Activities
-T5	IDENTITY_chain 17 22;	Cox11
-40 50	Cox11Activities
+T4	Noun_Phrase 17 22;40 50	Cox11 Activities
+T5	IDENTITY_chain 17 22;40 50	Cox11 Activities
 T6	Noun_Phrase 17 39	Cox11 and Hexokinase I
 T7	IDENTITY_chain 17 39	Cox11 and Hexokinase I
 T8	Noun_Phrase 17 50	Cox11 and Hexokinase I Activities
@@ -49,8 +47,7 @@ T45	Noun_Phrase 622 628	RanBP2
 T46	Noun_Phrase 682 716	the mitochondrial metallochaperone
 T47	Noun_Phrase 718 723	Cox11
 T48	APPOS_relation 718 723	Cox11
-T49	Noun_Phrase 718 728;	Cox11, and
-758 775	Cox11, andhexokinase type I
+T49	Noun_Phrase 718 728;758 775	Cox11, and hexokinase type I
 T50	Noun_Phrase 729 756	the pacemaker of glycolysis
 T51	Noun_Phrase 746 756	glycolysis
 T52	IDENTITY_chain 746 756	glycolysis
@@ -63,10 +60,8 @@ T58	Noun_Phrase 786 809	its leucine-rich domain
 T59	IDENTITY_chain 786 809	its leucine-rich domain
 T60	Noun_Phrase 811 844	The leucine-rich domain of RanBP2
 T61	Noun_Phrase 838 844	RanBP2
-T62	Noun_Phrase 892 904;	intermediate
-916 940	intermediatefolding species of Cox11
-T63	IDENTITY_chain 892 904;	intermediate
-916 940	intermediatefolding species of Cox11
+T62	Noun_Phrase 892 904;916 940	intermediate folding species of Cox11
+T63	IDENTITY_chain 892 904;916 940	intermediate folding species of Cox11
 T64	Noun_Phrase 892 940	intermediate and mature folding species of Cox11
 T65	IDENTITY_chain 892 940	intermediate and mature folding species of Cox11
 T66	Noun_Phrase 935 940	Cox11
@@ -95,11 +90,9 @@ T88	Noun_Phrase 1294 1354	a mouse model harboring a genetically disrupted RanBP2
 T89	IDENTITY_chain 1294 1354	a mouse model harboring a genetically disrupted RanBP2 locus
 T90	Noun_Phrase 1296 1301	mouse
 T91	Noun_Phrase 1432 1438	RanBP2
-T92	IDENTITY_chain 1491 1494;	HKI
-1503 1551	HKIlevels selectively in the central nervous system
+T92	IDENTITY_chain 1491 1494;1503 1551	HKI levels selectively in the central nervous system
 T93	Noun_Phrase 1491 1494	HKI
-T94	Noun_Phrase 1491 1494;	HKI
-1503 1551	HKIlevels selectively in the central nervous system
+T94	Noun_Phrase 1491 1494;1503 1551	HKI levels selectively in the central nervous system
 T95	Noun_Phrase 1491 1502	HKI and ATP
 T96	IDENTITY_chain 1491 1502	HKI and ATP
 T97	Noun_Phrase 1491 1551	HKI and ATP levels selectively in the central nervous system
@@ -121,10 +114,8 @@ T112	IDENTITY_chain 1600 1612	growth rates
 T113	Noun_Phrase 1617 1624	glucose
 T114	Noun_Phrase 1617 1635	glucose catabolism
 T115	IDENTITY_chain 1617 1635	glucose catabolism
-T116	Noun_Phrase 1644 1657;	impairment of
-1677 1692	impairment ofgluconeogenesis
-T117	IDENTITY_chain 1644 1657;	impairment of
-1677 1692	impairment ofgluconeogenesis
+T116	Noun_Phrase 1644 1657;1677 1692	impairment of gluconeogenesis
+T117	IDENTITY_chain 1644 1657;1677 1692	impairment of gluconeogenesis
 T118	Noun_Phrase 1658 1665	glucose
 T119	Noun_Phrase 1658 1672	glucose uptake
 T120	IDENTITY_chain 1658 1672	glucose uptake
@@ -133,16 +124,12 @@ T122	IDENTITY_chain 1677 1692	gluconeogenesis
 T123	Noun_Phrase 1694 1710	These phenotypes
 T124	Noun_Phrase 1730 1821	a decrease in the electrophysiological responses of photosensory and postreceptoral neurons
 T125	IDENTITY_chain 1730 1821	a decrease in the electrophysiological responses of photosensory and postreceptoral neurons
-T126	Noun_Phrase 1744 1781;	the electrophysiological responses of
-1799 1821	the electrophysiological responses ofpostreceptoral neurons
-T127	IDENTITY_chain 1744 1781;	the electrophysiological responses of
-1799 1821	the electrophysiological responses ofpostreceptoral neurons
+T126	Noun_Phrase 1744 1781;1799 1821	the electrophysiological responses of postreceptoral neurons
+T127	IDENTITY_chain 1744 1781;1799 1821	the electrophysiological responses of postreceptoral neurons
 T128	Noun_Phrase 1744 1821	the electrophysiological responses of photosensory and postreceptoral neurons
 T129	IDENTITY_chain 1744 1821	the electrophysiological responses of photosensory and postreceptoral neurons
-T130	Noun_Phrase 1782 1794;	photosensory
-1814 1821	photosensoryneurons
-T131	IDENTITY_chain 1782 1794;	photosensory
-1814 1821	photosensoryneurons
+T130	Noun_Phrase 1782 1794;1814 1821	photosensory neurons
+T131	IDENTITY_chain 1782 1794;1814 1821	photosensory neurons
 T132	Noun_Phrase 1782 1821	photosensory and postreceptoral neurons
 T133	IDENTITY_chain 1782 1821	photosensory and postreceptoral neurons
 T134	Noun_Phrase 1799 1821	postreceptoral neurons
@@ -179,8 +166,7 @@ T164	Noun_Phrase 2390 2397	protein
 T165	IDENTITY_chain 2390 2397	protein
 T166	Noun_Phrase 2434 2441	cytosol
 T167	Noun_Phrase 2498 2502	cell
-T168	Noun_Phrase 2520 2562;	the genetic and physiological implications
-2619 2668	the genetic and physiological implicationsof the function of RanBP2 in a whole-animal model
+T168	Noun_Phrase 2520 2562;2619 2668	the genetic and physiological implications of the function of RanBP2 in a whole-animal model
 T169	Noun_Phrase 2591 2597	RanBP2
 T170	Noun_Phrase 2591 2614	RanBP2 and its partners
 T171	Noun_Phrase 2602 2605	its
@@ -234,8 +220,7 @@ T218	Noun_Phrase 3165 3185	breakdown of glucose
 T219	IDENTITY_chain 3165 3185	breakdown of glucose
 T220	Noun_Phrase 3178 3185	glucose
 T221	Noun_Phrase 3219 3222	HKI
-T222	Noun_Phrase 3219 3222;	HKI
-3231 3279	HKIlevels selectively in the central nervous system
+T222	Noun_Phrase 3219 3222;3231 3279	HKI levels selectively in the central nervous system
 T223	Noun_Phrase 3219 3230	HKI and ATP
 T224	Noun_Phrase 3219 3279	HKI and ATP levels selectively in the central nervous system
 T225	Noun_Phrase 3227 3230	ATP
@@ -311,8 +296,7 @@ T294	Noun_Phrase 5135 5162	the cyclophilin-like domain
 T295	APPOS_relation 5135 5162	the cyclophilin-like domain
 T296	IDENTITY_chain 5135 5162	the cyclophilin-like domain
 T297	Noun_Phrase 5164 5167	CLD
-T298	Noun_Phrase 5170 5189;	the internal repeat
-5228 5245	the internal repeatdomains of RanBP2
+T298	Noun_Phrase 5170 5189;5228 5245	the internal repeat domains of RanBP2
 T299	Noun_Phrase 5191 5198	W1W2/IR
 T300	APPOS_relation 5191 5198	W1W2/IR
 T301	IDENTITY_chain 5191 5198	W1W2/IR
@@ -389,10 +373,8 @@ T371	Noun_Phrase 6879 6885	parkin
 T372	Noun_Phrase 6879 7190	parkin?/? mice exhibit mitochondrial dysfunction and energy and growth deficits, and a fraction of parkin localizes to the cytoplasmic face of the mitochondria, where together with other partners is thought to promote the degradation of selective mitochondrial substrates and to exert a neuroprotective function
 T373	IDENTITY_chain 6879 7190	parkin?/? mice exhibit mitochondrial dysfunction and energy and growth deficits, and a fraction of parkin localizes to the cytoplasmic face of the mitochondria, where together with other partners is thought to promote the degradation of selective mitochondrial substrates and to exert a neuroprotective function
 T374	Noun_Phrase 6932 6938	energy
-T375	Noun_Phrase 6932 6938;	energy
-6950 6958	energydeficits
-T376	IDENTITY_chain 6932 6938;	energy
-6950 6958	energydeficits
+T375	Noun_Phrase 6932 6938;6950 6958	energy deficits
+T376	IDENTITY_chain 6932 6938;6950 6958	energy deficits
 T377	Noun_Phrase 6932 6958	energy and growth deficits
 T378	IDENTITY_chain 6932 6958	energy and growth deficits
 T379	Noun_Phrase 6943 6949	growth
@@ -409,14 +391,11 @@ T389	Noun_Phrase 7236 7242	RanBP2
 T390	Noun_Phrase 7247 7253	parkin
 T391	Noun_Phrase 7330 7336	RanBP2
 T392	Noun_Phrase 7361 7367	RanBP2
-T393	Noun_Phrase 7371 7377;	animal
-7387 7397	animalphysiology
-T394	IDENTITY_chain 7371 7377;	animal
-7387 7397	animalphysiology
+T393	Noun_Phrase 7371 7377;7387 7397	animal physiology
+T394	IDENTITY_chain 7371 7377;7387 7397	animal physiology
 T395	Noun_Phrase 7382 7386	cell
 T396	Noun_Phrase 7421 7423	we
-T397	Noun_Phrase 7434 7452;	the identification
-7466 7497	the identificationof two novel partners of RanBP2
+T397	Noun_Phrase 7434 7452;7466 7497	the identification of two novel partners of RanBP2
 T398	Noun_Phrase 7457 7526	function of two novel partners of RanBP2, Cox11 and hexokinase type I
 T399	Noun_Phrase 7469 7497	two novel partners of RanBP2
 T400	Noun_Phrase 7491 7497	RanBP2
@@ -455,10 +434,8 @@ T432	Noun_Phrase 8012 8014	LD
 T433	IDENTITY_chain 8012 8014	LD
 T434	Noun_Phrase 8016 8021	Cox11
 T435	Noun_Phrase 8053 8064	this domain
-T436	Noun_Phrase 8066 8072;	Figure
-8080 8082	Figure1C
-T437	IDENTITY_chain 8066 8072;	Figure
-8080 8082	Figure1C
+T436	Noun_Phrase 8066 8072;8080 8082	Figure 1C
+T437	IDENTITY_chain 8066 8072;8080 8082	Figure 1C
 T438	Noun_Phrase 8085 8090	Cox11
 T439	Noun_Phrase 8166 8241	Structure-function analysis of the interaction between mCox11, LD of RanBP2
 T440	IDENTITY_chain 8166 8241	Structure-function analysis of the interaction between mCox11, LD of RanBP2
@@ -501,10 +478,8 @@ T476	IDENTITY_chain 8649 8821	other mitochondrial components such as the outer m
 T477	Noun_Phrase 8688 8725	the outer membrane-associated protein
 T478	Noun_Phrase 8727 8730	HKI
 T479	APPOS_relation 8727 8730	HKI
-T480	Noun_Phrase 8727 8730;	HKI
-8762 8772	HKIand mHsp70
-T481	IDENTITY_chain 8727 8730;	HKI
-8762 8772	HKIand mHsp70
+T480	Noun_Phrase 8727 8730;8762 8772	HKI and mHsp70
+T481	IDENTITY_chain 8727 8730;8762 8772	HKI and mHsp70
 T482	Noun_Phrase 8737 8746	Figure 1D
 T483	Noun_Phrase 8766 8772	mHsp70
 T484	IDENTITY_chain 8766 8772	mHsp70
@@ -512,10 +487,8 @@ T485	Noun_Phrase 8809 8821	LD of RanBP2
 T486	Noun_Phrase 8815 8821	RanBP2
 T487	Noun_Phrase 8823 8839	This association
 T488	Noun_Phrase 8871 8874	HKI
-T489	Noun_Phrase 8892 8896;	HKII
-8905 8920	HKIIand glucokinase
-T490	IDENTITY_chain 8892 8896;	HKII
-8905 8920	HKIIand glucokinase
+T489	Noun_Phrase 8892 8896;8905 8920	HKII and glucokinase
+T490	IDENTITY_chain 8892 8896;8905 8920	HKII and glucokinase
 T491	Noun_Phrase 8892 8896	HKII
 T492	IDENTITY_chain 8892 8896	HKII
 T493	Noun_Phrase 8892 8903	HKII, HKIII
@@ -533,10 +506,8 @@ T504	Noun_Phrase 8953 8959	RanBP2
 T505	Noun_Phrase 8980 9033	The interaction of Cox11, HKI, and mHsp70 with RanBP2
 T506	IDENTITY_chain 8980 9033	The interaction of Cox11, HKI, and mHsp70 with RanBP2
 T507	Noun_Phrase 8999 9004	Cox11
-T508	Noun_Phrase 8999 9004;	Cox11
-9011 9021	Cox11and mHsp70
-T509	IDENTITY_chain 8999 9004;	Cox11
-9011 9021	Cox11and mHsp70
+T508	Noun_Phrase 8999 9004;9011 9021	Cox11 and mHsp70
+T509	IDENTITY_chain 8999 9004;9011 9021	Cox11 and mHsp70
 T510	Noun_Phrase 8999 9009	Cox11, HKI
 T511	Noun_Phrase 8999 9021	Cox11, HKI, and mHsp70
 T512	IDENTITY_chain 8999 9021	Cox11, HKI, and mHsp70
@@ -545,17 +516,14 @@ T514	Noun_Phrase 9006 9021	HKI, and mHsp70
 T515	Noun_Phrase 9015 9021	mHsp70
 T516	Noun_Phrase 9027 9033	RanBP2
 T517	Noun_Phrase 9054 9070	retinal extracts
-T518	Noun_Phrase 9078 9096;	antibodies against
-9107 9113	antibodies againstRanBP2
+T518	Noun_Phrase 9078 9096;9107 9113	antibodies against RanBP2
 T519	Noun_Phrase 9078 9113	antibodies against these and RanBP2
 T520	IDENTITY_chain 9078 9113	antibodies against these and RanBP2
 T521	Noun_Phrase 9097 9102	these
 T522	Noun_Phrase 9107 9113	RanBP2
 T523	Noun_Phrase 9135 9141	RanBP2
-T524	Noun_Phrase 9135 9141;	RanBP2
-9154 9161	RanBP2and HKI
-T525	IDENTITY_chain 9135 9141;	RanBP2
-9154 9161	RanBP2and HKI
+T524	Noun_Phrase 9135 9141;9154 9161	RanBP2 and HKI
+T525	IDENTITY_chain 9135 9141;9154 9161	RanBP2 and HKI
 T526	Noun_Phrase 9158 9161	HKI
 T527	Noun_Phrase 9193 9211	these interactions
 T528	Noun_Phrase 9233 9250	different tissues
@@ -588,17 +556,14 @@ T554	Noun_Phrase 9577 9581	urea
 T555	IDENTITY_chain 9577 9581	urea
 T556	Noun_Phrase 9601 9613	native Cox11
 T557	IDENTITY_chain 9601 9613	native Cox11
-T558	Noun_Phrase 9615 9621;	Figure
-9629 9631	Figure1H
-T559	IDENTITY_chain 9615 9621;	Figure
-9629 9631	Figure1H
+T558	Noun_Phrase 9615 9621;9629 9631	Figure 1H
+T559	IDENTITY_chain 9615 9621;9629 9631	Figure 1H
 T560	Noun_Phrase 9615 9624	Figure 1G
 T561	IDENTITY_chain 9615 9624	Figure 1G
 T562	Noun_Phrase 9634 9657	Partial denatured Cox11
 T563	IDENTITY_chain 9634 9657	Partial denatured Cox11
 T564	Noun_Phrase 9740 9742	LD
-T565	Noun_Phrase 9757 9767;	the native
-9788 9793	the nativeCox11
+T565	Noun_Phrase 9757 9767;9788 9793	the native Cox11
 T566	Noun_Phrase 9757 9793	the native and fully denatured Cox11
 T567	IDENTITY_chain 9757 9793	the native and fully denatured Cox11
 T568	Noun_Phrase 9772 9793	fully denatured Cox11
@@ -630,19 +595,14 @@ T593	Noun_Phrase 10138 10141	its
 T594	Noun_Phrase 10194 10200	RanBP2
 T595	Noun_Phrase 10254 10265	yeast Cox11
 T596	IDENTITY_chain 10254 10265	yeast Cox11
-T597	Noun_Phrase 10267 10282;	The yeast Cox11
-10290 10308	The yeast Cox11N-terminal domains
-T598	IDENTITY_chain 10267 10282;	The yeast Cox11
-10290 10308	The yeast Cox11N-terminal domains
-T599	Noun_Phrase 10267 10285;	The yeast Cox11 C-
-10292 10308	The yeast Cox11 C-terminal domains
-T600	IDENTITY_chain 10267 10285;	The yeast Cox11 C-
-10292 10308	The yeast Cox11 C-terminal domains
+T597	Noun_Phrase 10267 10282;10290 10308	The yeast Cox11 N-terminal domains
+T598	IDENTITY_chain 10267 10282;10290 10308	The yeast Cox11 N-terminal domains
+T599	Noun_Phrase 10267 10285;10292 10308	The yeast Cox11 C- terminal domains
+T600	IDENTITY_chain 10267 10285;10292 10308	The yeast Cox11 C- terminal domains
 T601	Noun_Phrase 10267 10308	The yeast Cox11 C- and N-terminal domains
 T602	IDENTITY_chain 10267 10308	The yeast Cox11 C- and N-terminal domains
 T603	Noun_Phrase 10271 10282	yeast Cox11
-T604	Noun_Phrase 10512 10519;	Cox11-N
-10532 10561	Cox11-Nconstructs shown in Figure 1C
+T604	Noun_Phrase 10512 10519;10532 10561	Cox11-N constructs shown in Figure 1C
 T605	Noun_Phrase 10512 10561	Cox11-N and Cox11-C constructs shown in Figure 1C
 T606	Noun_Phrase 10524 10561	Cox11-C constructs shown in Figure 1C
 T607	Noun_Phrase 10552 10561	Figure 1C
@@ -694,8 +654,7 @@ T652	Noun_Phrase 11360 11366	The LD
 T653	Noun_Phrase 11376 11411	the leucine zipper domain of RanBP2
 T654	Noun_Phrase 11405 11411	RanBP2
 T655	Noun_Phrase 11428 11433	Cox11
-T656	Noun_Phrase 11428 11433;	Cox11
-11454 11461	Cox11and HKI
+T656	Noun_Phrase 11428 11433;11454 11461	Cox11 and HKI
 T657	Noun_Phrase 11446 11452	lane 1
 T658	IDENTITY_chain 11446 11452	lane 1
 T659	Noun_Phrase 11458 11461	HKI
@@ -707,19 +666,14 @@ T664	Noun_Phrase 11547 11550	its
 T665	Noun_Phrase 11547 11569	its molecular partners
 T666	Noun_Phrase 11581 11587	RanBP2
 T667	Noun_Phrase 11617 11620	HKI
-T668	Noun_Phrase 11617 11620;	HKI
-11638 11644	HKImHsp70
-T669	Noun_Phrase 11617 11620;	HKI
-11655 11664	HKIand Cox11
+T668	Noun_Phrase 11617 11620;11638 11644	HKI mHsp70
+T669	Noun_Phrase 11617 11620;11655 11664	HKI and Cox11
 T670	Noun_Phrase 11617 11664	HKI (lanes 1 and 2), mHsp70 (lane 3), and Cox11
 T671	Noun_Phrase 11638 11644	mHsp70
-T672	Noun_Phrase 11638 11644;	mHsp70
-11655 11664	mHsp70and Cox11
+T672	Noun_Phrase 11638 11644;11655 11664	mHsp70 and Cox11
 T673	Noun_Phrase 11659 11664	Cox11
-T674	Noun_Phrase 11740 11787;	different antibodies against the RanBP2 domains
-11794 11797	different antibodies against the RanBP2 domainsZnF
-T675	IDENTITY_chain 11740 11787;	different antibodies against the RanBP2 domains
-11794 11797	different antibodies against the RanBP2 domainsZnF
+T674	Noun_Phrase 11740 11787;11794 11797	different antibodies against the RanBP2 domains ZnF
+T675	IDENTITY_chain 11740 11787;11794 11797	different antibodies against the RanBP2 domains ZnF
 T676	Noun_Phrase 11740 11792	different antibodies against the RanBP2 domains, KBD
 T677	IDENTITY_chain 11740 11792	different antibodies against the RanBP2 domains, KBD
 T678	Noun_Phrase 11740 11797	different antibodies against the RanBP2 domains, KBD, ZnF
@@ -734,12 +688,9 @@ T686	Noun_Phrase 11877 11902	antibodies against RanBP2
 T687	Noun_Phrase 11896 11902	RanBP2
 T688	Noun_Phrase 11933 12204	Reconstitution pull-down assays with purified LD and increasing concentrations of native (top panel), denatured (middle panel), and partially denatured (bottom panel) Cox11, respectively, in the absence and presence of denaturating agent, GnHCl and chaotropic agent, urea
 T689	Noun_Phrase 11970 11981	purified LD
-T690	Noun_Phrase 12015 12021;	native
-12100 12105	nativeCox11
-T691	Noun_Phrase 12015 12044;	native (top panel), denatured
-12100 12105	native (top panel), denaturedCox11
-T692	Noun_Phrase 12035 12044;	denatured
-12100 12105	denaturedCox11
+T690	Noun_Phrase 12015 12021;12100 12105	native Cox11
+T691	Noun_Phrase 12015 12044;12100 12105	native (top panel), denatured Cox11
+T692	Noun_Phrase 12035 12044;12100 12105	denatured Cox11
 T693	Noun_Phrase 12065 12105	partially denatured (bottom panel) Cox11
 T694	Noun_Phrase 12152 12170	denaturating agent
 T695	Noun_Phrase 12152 12204	denaturating agent, GnHCl and chaotropic agent, urea
@@ -748,14 +699,12 @@ T697	APPOS_relation 12172 12177	GnHCl
 T698	Noun_Phrase 12182 12198	chaotropic agent
 T699	Noun_Phrase 12200 12204	urea
 T700	APPOS_relation 12200 12204	urea
-T701	Noun_Phrase 12206 12227;	Folding intermediates
-12242 12250	Folding intermediatesof Cox11
+T701	Noun_Phrase 12206 12227;12242 12250	Folding intermediates of Cox11
 T702	Noun_Phrase 12245 12250	Cox11
 T703	Noun_Phrase 12295 12311	the LD of RanBP2
 T704	Noun_Phrase 12305 12311	RanBP2
 T705	Noun_Phrase 12371 12383	native Cox11
-T706	Noun_Phrase 12397 12408;	the absence
-12448 12456	the absenceof CuSO4
+T706	Noun_Phrase 12397 12408;12448 12456	the absence of CuSO4
 T707	Noun_Phrase 12424 12456	presence (bottom panel) of CuSO4
 T708	Noun_Phrase 12451 12456	CuSO4
 T709	Noun_Phrase 12534 12550	the LD of RanBP2
@@ -862,8 +811,7 @@ T809	Noun_Phrase 13930 13936	itself
 T810	Noun_Phrase 13964 13967	HKI
 T811	Noun_Phrase 13964 13976	HKI activity
 T812	Noun_Phrase 14016 14018	LD
-T813	Noun_Phrase 14027 14035;	the Vmax
-14051 14057	the Vmaxof HKI
+T813	Noun_Phrase 14027 14035;14051 14057	the Vmax of HKI
 T814	Noun_Phrase 14044 14057	the Km of HKI
 T815	IDENTITY_chain 14044 14057	the Km of HKI
 T816	Noun_Phrase 14054 14057	HKI
@@ -883,8 +831,7 @@ T829	IDENTITY_chain 14163 14273	Saturation kinetics, rate versus glucose of HKI 
 T830	Noun_Phrase 14207 14210	HKI
 T831	Noun_Phrase 14212 14219	0.24 ?g
 T832	IDENTITY_chain 14212 14219	0.24 ?g
-T833	Noun_Phrase 14224 14235;	the absence
-14265 14273	the absenceof Cox11
+T833	Noun_Phrase 14224 14235;14265 14273	the absence of Cox11
 T834	Noun_Phrase 14256 14273	presence of Cox11
 T835	IDENTITY_chain 14256 14273	presence of Cox11
 T836	Noun_Phrase 14268 14273	Cox11
@@ -941,8 +888,7 @@ T886	APPOS_relation 15382 15383	S
 T887	Noun_Phrase 15385 15392	glucose
 T888	Noun_Phrase 15395 15401	RanBP2
 T889	Noun_Phrase 15419 15422	HK1
-T890	Noun_Phrase 15419 15422;	HK1
-15431 15441	HK1and mHsp70
+T890	Noun_Phrase 15419 15422;15431 15441	HK1 and mHsp70
 T891	Noun_Phrase 15419 15429	HK1, Cox11
 T892	Noun_Phrase 15419 15441	HK1, Cox11, and mHsp70
 T893	Noun_Phrase 15424 15429	Cox11
@@ -965,20 +911,16 @@ T909	Noun_Phrase 15781 15799	its novel partners
 T910	Noun_Phrase 15803 15822	immunocytochemistry
 T911	IDENTITY_chain 15803 15822	immunocytochemistry
 T912	Noun_Phrase 15839 15845	RanBP2
-T913	Noun_Phrase 15839 15845;	RanBP2
-15854 15857	RanBP2HKI
-T914	Noun_Phrase 15839 15845;	RanBP2
-15859 15869	RanBP2and mHsp70
-T915	IDENTITY_chain 15839 15845;	RanBP2
-15859 15869	RanBP2and mHsp70
+T913	Noun_Phrase 15839 15845;15854 15857	RanBP2 HKI
+T914	Noun_Phrase 15839 15845;15859 15869	RanBP2 and mHsp70
+T915	IDENTITY_chain 15839 15845;15859 15869	RanBP2 and mHsp70
 T916	Noun_Phrase 15839 15852	RanBP2, Cox11
 T917	Noun_Phrase 15839 15857	RanBP2, Cox11, HKI
 T918	IDENTITY_chain 15839 15857	RanBP2, Cox11, HKI
 T919	Noun_Phrase 15839 15869	RanBP2, Cox11, HKI, and mHsp70
 T920	IDENTITY_chain 15839 15869	RanBP2, Cox11, HKI, and mHsp70
 T921	Noun_Phrase 15847 15852	Cox11
-T922	Noun_Phrase 15847 15852;	Cox11
-15859 15869	Cox11and mHsp70
+T922	Noun_Phrase 15847 15852;15859 15869	Cox11 and mHsp70
 T923	Noun_Phrase 15847 15857	Cox11, HKI
 T924	Noun_Phrase 15847 15869	Cox11, HKI, and mHsp70
 T925	Noun_Phrase 15854 15857	HKI
@@ -999,16 +941,13 @@ T939	Noun_Phrase 16073 16132	dissociated primary glia and neuron cultures from t
 T940	IDENTITY_chain 16073 16132	dissociated primary glia and neuron cultures from the brain
 T941	Noun_Phrase 16102 16132	neuron cultures from the brain
 T942	Noun_Phrase 16123 16132	the brain
-T943	Noun_Phrase 16134 16140;	Figure
-16144 16146	Figure3Z
-T944	IDENTITY_chain 16134 16140;	Figure
-16144 16146	Figure3Z
+T943	Noun_Phrase 16134 16140;16144 16146	Figure 3Z
+T944	IDENTITY_chain 16134 16140;16144 16146	Figure 3Z
 T945	Noun_Phrase 16176 16209	antibodies against these proteins
 T946	Noun_Phrase 16195 16209	these proteins
 T947	Noun_Phrase 16222 16226	they
 T948	Noun_Phrase 16241 16257	the mitochondria
-T949	Noun_Phrase 16259 16265;	Figure
-16269 16271	Figure3Z
+T949	Noun_Phrase 16259 16265;16269 16271	Figure 3Z
 T950	Noun_Phrase 16259 16268	Figure 3A
 T951	Noun_Phrase 16275 16283	Figure 3
 T952	IDENTITY_chain 16275 16283	Figure 3
@@ -1021,8 +960,7 @@ T958	Noun_Phrase 16312 16337	Its LD Molecular Partners
 T959	Noun_Phrase 16316 16318	LD
 T960	Noun_Phrase 16414 16429	cerebral cortex
 T961	Noun_Phrase 16467 16470	HKI
-T962	Noun_Phrase 16467 16470;	HKI
-16482 16488	HKIRanBP2
+T962	Noun_Phrase 16467 16470;16482 16488	HKI RanBP2
 T963	Noun_Phrase 16482 16488	RanBP2
 T964	Noun_Phrase 16553 16559	RanBP2
 T965	Noun_Phrase 16553 16567	RanBP2 and HKI
@@ -1033,15 +971,9 @@ T969	Noun_Phrase 16657 16681	localization with RanBP2
 T970	Noun_Phrase 16675 16681	RanBP2
 T971	Noun_Phrase 16854 16875	photoreceptor neurons
 T972	Noun_Phrase 16880 16885	their
-T973	Noun_Phrase 16880 16891;	their inner
-16893 16898;	their innermyoid
-16914 16933	their innermyoidsegment compartment
-T974	IDENTITY_chain 16880 16891;	their inner
-16893 16898;	their innermyoid
-16914 16933	their innermyoidsegment compartment
-T975	Noun_Phrase 16880 16891;	their inner
-16903 16912;	their innerellipsoid
-16914 16933	their innerellipsoidsegment compartment
+T973	Noun_Phrase 16880 16891;16893 16898;16914 16933	their inner myoid segment compartment
+T974	IDENTITY_chain 16880 16891;16893 16898;16914 16933	their inner myoid segment compartment
+T975	Noun_Phrase 16880 16891;16903 16912;16914 16933	their inner ellipsoid segment compartment
 T976	Noun_Phrase 16880 16933	their inner (myoid and ellipsoid) segment compartment
 T977	IDENTITY_chain 16880 16933	their inner (myoid and ellipsoid) segment compartment
 T978	Noun_Phrase 16966 16972	mHsp70
@@ -1054,8 +986,7 @@ T984	Noun_Phrase 17019 17022	HKI
 T985	Noun_Phrase 17019 17036	HKI (M) and Cox11
 T986	Noun_Phrase 17031 17036	Cox11
 T987	Noun_Phrase 17110 17116	RanBP2
-T988	Noun_Phrase 17110 17116;	RanBP2
-17126 17135	RanBP2and Cox11
+T988	Noun_Phrase 17110 17116;17126 17135	RanBP2 and Cox11
 T989	Noun_Phrase 17110 17124	RanBP2, mHsp70
 T990	Noun_Phrase 17118 17124	mHsp70
 T991	Noun_Phrase 17118 17135	mHsp70, and Cox11
@@ -1071,8 +1002,7 @@ T1000	Noun_Phrase 17273 17302	HKI colocalization with Cox11
 T1001	IDENTITY_chain 17273 17302	HKI colocalization with Cox11
 T1002	Noun_Phrase 17297 17302	Cox11
 T1003	Noun_Phrase 17318 17333	restricted foci
-T1004	Noun_Phrase 17377 17396;	dissociated primary
-17418 17429	dissociated primaryglial cells
+T1004	Noun_Phrase 17377 17396;17418 17429	dissociated primary glial cells
 T1005	Noun_Phrase 17445 17480	the colocalization of HKI and Cox11
 T1006	Noun_Phrase 17467 17470	HKI
 T1007	Noun_Phrase 17467 17480	HKI and Cox11
@@ -1100,10 +1030,8 @@ T1028	Noun_Phrase 17852 17866	other partners
 T1029	Noun_Phrase 17869 17871	we
 T1030	Noun_Phrase 17881 17976	a murine embryonic stem 129Ola cell line with a targeted RanBP2 locus produced by gene-trapping
 T1031	IDENTITY_chain 17881 17976	a murine embryonic stem 129Ola cell line with a targeted RanBP2 locus produced by gene-trapping
-T1032	Noun_Phrase 17988 18014;	stable inbred (coisogenic)
-18036 18041	stable inbred (coisogenic)lines
-T1033	IDENTITY_chain 17988 18014;	stable inbred (coisogenic)
-18036 18041	stable inbred (coisogenic)lines
+T1032	Noun_Phrase 17988 18014;18036 18041	stable inbred (coisogenic) lines
+T1033	IDENTITY_chain 17988 18014;18036 18041	stable inbred (coisogenic) lines
 T1034	Noun_Phrase 17995 18001	inbred
 T1035	Noun_Phrase 18003 18013	coisogenic
 T1036	Noun_Phrase 18284 18297	E12.5 embryos
@@ -1154,21 +1082,16 @@ T1080	Noun_Phrase 19517 19524	F1 mice
 T1081	IDENTITY_chain 19517 19524	F1 mice
 T1082	Noun_Phrase 19712 19727	the RanBP2 gene
 T1083	Noun_Phrase 19833 19837	PLAP
-T1084	Noun_Phrase 19833 19837;	PLAP
-19864 19874	PLAPactivities
-T1085	IDENTITY_chain 19833 19837;	PLAP
-19864 19874	PLAPactivities
+T1084	Noun_Phrase 19833 19837;19864 19874	PLAP activities
+T1085	IDENTITY_chain 19833 19837;19864 19874	PLAP activities
 T1086	Noun_Phrase 19833 19874	PLAP and ?-gal (inset picture) activities
 T1087	IDENTITY_chain 19833 19874	PLAP and ?-gal (inset picture) activities
 T1088	Noun_Phrase 19842 19847	?-gal
-T1089	Noun_Phrase 19842 19847;	?-gal
-19864 19874	?-galactivities
-T1090	IDENTITY_chain 19842 19847;	?-gal
-19864 19874	?-galactivities
+T1089	Noun_Phrase 19842 19847;19864 19874	?-gal activities
+T1090	IDENTITY_chain 19842 19847;19864 19874	?-gal activities
 T1091	Noun_Phrase 19885 19889	PLAP
 T1092	Noun_Phrase 19939 19942	CNS
-T1093	Noun_Phrase 19945 19953;	the PLAP
-19980 19990	the PLAPexpression
+T1093	Noun_Phrase 19945 19953;19980 19990	the PLAP expression
 T1094	Noun_Phrase 19949 19953	PLAP
 T1095	Noun_Phrase 19958 19963	?-Gal
 T1096	Noun_Phrase 20016 20033	the optic vesicle
@@ -1234,8 +1157,7 @@ T1155	Noun_Phrase 20772 20778	RanBP2
 T1156	Noun_Phrase 20784 20789	Cox11
 T1157	Noun_Phrase 20784 20797	Cox11 and HKI
 T1158	Noun_Phrase 20794 20797	HKI
-T1159	Noun_Phrase 20799 20806;	Figures
-20813 20814	Figures3
+T1159	Noun_Phrase 20799 20806;20813 20814	Figures 3
 T1160	Noun_Phrase 20799 20808	Figures 1
 T1161	Noun_Phrase 20849 20852	HKI
 T1162	Noun_Phrase 20849 20871	HKI enzymatic activity
@@ -1265,10 +1187,8 @@ T1185	Noun_Phrase 21304 21309	brain
 T1186	Noun_Phrase 21304 21320	brain and retina
 T1187	Noun_Phrase 21314 21320	retina
 T1188	Noun_Phrase 21325 21331	129Ola
-T1189	Noun_Phrase 21333 21339;	Figure
-21343 21345	Figure5D
-T1190	IDENTITY_chain 21333 21339;	Figure
-21343 21345	Figure5D
+T1189	Noun_Phrase 21333 21339;21343 21345	Figure 5D
+T1190	IDENTITY_chain 21333 21339;21343 21345	Figure 5D
 T1191	Noun_Phrase 21333 21342	Figure 5B
 T1192	IDENTITY_chain 21333 21342	Figure 5B
 T1193	Noun_Phrase 21414 21416	we
@@ -1277,25 +1197,19 @@ T1195	Noun_Phrase 21441 21479	the inbred RanBP2+/? 129Ola mouse line
 T1196	Noun_Phrase 21490 21510	the levels of RanBP2
 T1197	IDENTITY_chain 21490 21510	the levels of RanBP2
 T1198	Noun_Phrase 21504 21510	RanBP2
-T1199	Noun_Phrase 21529 21539;	the retina
-21564 21580	the retinaof RanBP2+/?mice
-T1200	IDENTITY_chain 21529 21539;	the retina
-21564 21580	the retinaof RanBP2+/?mice
+T1199	Noun_Phrase 21529 21539;21564 21580	the retina of RanBP2+/?mice
+T1200	IDENTITY_chain 21529 21539;21564 21580	the retina of RanBP2+/?mice
 T1201	Noun_Phrase 21552 21580	hippocampus of RanBP2+/?mice
 T1202	IDENTITY_chain 21552 21580	hippocampus of RanBP2+/?mice
 T1203	Noun_Phrase 21567 21580	RanBP2+/?mice
-T1204	Noun_Phrase 21594 21600;	Figure
-21608 21610	Figure5C
-T1205	IDENTITY_chain 21594 21600;	Figure
-21608 21610	Figure5C
+T1204	Noun_Phrase 21594 21600;21608 21610	Figure 5C
+T1205	IDENTITY_chain 21594 21600;21608 21610	Figure 5C
 T1206	Noun_Phrase 21594 21603	Figure 5B
 T1207	Noun_Phrase 21594 21610	Figure 5B and 5C
 T1208	IDENTITY_chain 21594 21610	Figure 5B and 5C
 T1209	Noun_Phrase 21627 21646	others nucleoporins
-T1210	Noun_Phrase 21648 21654;	Nup153
-21666 21676	Nup153and mHsp70
-T1211	IDENTITY_chain 21648 21654;	Nup153
-21666 21676	Nup153and mHsp70
+T1210	Noun_Phrase 21648 21654;21666 21676	Nup153 and mHsp70
+T1211	IDENTITY_chain 21648 21654;21666 21676	Nup153 and mHsp70
 T1212	Noun_Phrase 21648 21654	Nup153
 T1213	IDENTITY_chain 21648 21654	Nup153
 T1214	Noun_Phrase 21648 21664	Nup153 and Nup62
@@ -1310,8 +1224,7 @@ T1222	IDENTITY_chain 21763 21801	a strong decrease of the levels of HKI
 T1223	Noun_Phrase 21784 21801	the levels of HKI
 T1224	IDENTITY_chain 21784 21801	the levels of HKI
 T1225	Noun_Phrase 21798 21801	HKI
-T1226	Noun_Phrase 21818 21824;	Figure
-21832 21834	Figure5C
+T1226	Noun_Phrase 21818 21824;21832 21834	Figure 5C
 T1227	Noun_Phrase 21818 21827	Figure 5B
 T1228	Noun_Phrase 21818 21834	Figure 5B and 5C
 T1229	Noun_Phrase 21837 21850	This decrease
@@ -1333,8 +1246,7 @@ T1244	Noun_Phrase 22062 22065	HKI
 T1245	Noun_Phrase 22112 22119	the CNS
 T1246	Noun_Phrase 22129 22131	we
 T1247	Noun_Phrase 22153 22156	HKI
-T1248	Noun_Phrase 22153 22156;	HKI
-22168 22177	HKIreduction
+T1248	Noun_Phrase 22153 22156;22168 22177	HKI reduction
 T1249	Noun_Phrase 22153 22167	HKI and RanBP2
 T1250	Noun_Phrase 22161 22167	RanBP2
 T1251	Noun_Phrase 22181 22198	the levels of ATP
@@ -1350,24 +1262,19 @@ T1260	Noun_Phrase 22309 22315	retina
 T1261	Noun_Phrase 22329 22349	non-neuronal tissues
 T1262	IDENTITY_chain 22329 22349	non-neuronal tissues
 T1263	Noun_Phrase 22360 22362	we
-T1264	Noun_Phrase 22377 22384;	partial
-22399 22420	partialdelocalization of HKI
-T1265	IDENTITY_chain 22377 22384;	partial
-22399 22420	partialdelocalization of HKI
+T1264	Noun_Phrase 22377 22384;22399 22420	partial delocalization of HKI
+T1265	IDENTITY_chain 22377 22384;22399 22420	partial delocalization of HKI
 T1266	Noun_Phrase 22377 22552	partial and selective delocalization of HKI, but not of Cox11, from the ellipsoid (mitochondria-rich) to the adjacent myoid subcellular compartment of rod photosensory neurons
 T1267	IDENTITY_chain 22377 22552	partial and selective delocalization of HKI, but not of Cox11, from the ellipsoid (mitochondria-rich) to the adjacent myoid subcellular compartment of rod photosensory neurons
 T1268	Noun_Phrase 22417 22420	HKI
 T1269	Noun_Phrase 22433 22438	Cox11
-T1270	Noun_Phrase 22445 22478;	the ellipsoid (mitochondria-rich)
-22501 22552	the ellipsoid (mitochondria-rich)subcellular compartment of rod photosensory neurons
+T1270	Noun_Phrase 22445 22478;22501 22552	the ellipsoid (mitochondria-rich) subcellular compartment of rod photosensory neurons
 T1271	Noun_Phrase 22482 22552	the adjacent myoid subcellular compartment of rod photosensory neurons
 T1272	Noun_Phrase 22528 22531	rod
 T1273	Noun_Phrase 22528 22552	rod photosensory neurons
 T1274	IDENTITY_chain 22528 22552	rod photosensory neurons
-T1275	Noun_Phrase 22554 22560;	Figure
-22565 22568	FigureS2E
-T1276	IDENTITY_chain 22554 22560;	Figure
-22565 22568	FigureS2E
+T1275	Noun_Phrase 22554 22560;22565 22568	Figure S2E
+T1276	IDENTITY_chain 22554 22560;22565 22568	Figure S2E
 T1277	Noun_Phrase 22554 22564	Figure S2A
 T1278	IDENTITY_chain 22554 22564	Figure S2A
 T1279	Noun_Phrase 22554 22568	Figure S2A–S2E
@@ -1378,88 +1285,63 @@ T1283	IDENTITY_chain 22600 22693	reduced HKI levels in the inner retina, in part
 T1284	Noun_Phrase 22657 22693	the inner plexiform (synaptic) layer
 T1285	Noun_Phrase 22667 22676	plexiform
 T1286	Noun_Phrase 22678 22686	synaptic
-T1287	Noun_Phrase 22695 22701;	Figure
-22706 22709	FigureS2E
+T1287	Noun_Phrase 22695 22701;22706 22709	Figure S2E
 T1288	Noun_Phrase 22695 22705	Figure S2A
 T1289	Noun_Phrase 22695 22709	Figure S2A–S2E
 T1290	Noun_Phrase 22713 22721	Figure 5
 T1291	IDENTITY_chain 22713 22721	Figure 5
 T1292	Noun_Phrase 22723 22751	Haploinsufficiency of RanBP2
 T1293	Noun_Phrase 22745 22751	RanBP2
-T1294	Noun_Phrase 22759 22772;	a Decrease in
-22789 22799	a Decrease inATP Levels
-T1295	IDENTITY_chain 22759 22772;	a Decrease in
-22789 22799	a Decrease inATP Levels
+T1294	Noun_Phrase 22759 22772;22789 22799	a Decrease in ATP Levels
+T1295	IDENTITY_chain 22759 22772;22789 22799	a Decrease in ATP Levels
 T1296	Noun_Phrase 22773 22776	HKI
 T1297	Noun_Phrase 22789 22792	ATP
 T1298	Noun_Phrase 22789 22799	ATP Levels
-T1299	Noun_Phrase 22873 22888;	wild-type (+/+)
-22912 22916	wild-type (+/+)mice
-T1300	IDENTITY_chain 22873 22888;	wild-type (+/+)
-22912 22916	wild-type (+/+)mice
+T1299	Noun_Phrase 22873 22888;22912 22916	wild-type (+/+) mice
+T1300	IDENTITY_chain 22873 22888;22912 22916	wild-type (+/+) mice
 T1301	Noun_Phrase 22873 22916	wild-type (+/+) and heterozygote (+/?) mice
 T1302	IDENTITY_chain 22873 22916	wild-type (+/+) and heterozygote (+/?) mice
 T1303	Noun_Phrase 22893 22916	heterozygote (+/?) mice
 T1304	Noun_Phrase 22942 22948	mAb414
 T1305	IDENTITY_chain 22942 22948	mAb414
 T1306	Noun_Phrase 23004 23024	the nuclear envelope
-T1307	Noun_Phrase 23043 23052;	RanBP2+/+
-23067 23071	RanBP2+/+mice
+T1307	Noun_Phrase 23043 23052;23067 23071	RanBP2+/+ mice
 T1308	Noun_Phrase 23043 23071	RanBP2+/+ and RanBP2+/? mice
 T1309	Noun_Phrase 23057 23071	RanBP2+/? mice
-T1310	Noun_Phrase 23095 23099;	anti
-23130 23134;	anti?HKI
-23145 23166	anti?HKIand ?Cox11 antibodies
-T1311	IDENTITY_chain 23095 23099;	anti
-23130 23134;	anti?HKI
-23145 23166	anti?HKIand ?Cox11 antibodies
-T1312	Noun_Phrase 23095 23099;	anti
-23130 23134;	anti?HKI
-23156 23166	anti?HKIantibodies
-T1313	IDENTITY_chain 23095 23099;	anti
-23130 23134;	anti?HKI
-23156 23166	anti?HKIantibodies
-T1314	Noun_Phrase 23095 23099;	anti
-23149 23166	anti?Cox11 antibodies
-T1315	IDENTITY_chain 23095 23099;	anti
-23149 23166	anti?Cox11 antibodies
+T1310	Noun_Phrase 23095 23099;23130 23134;23145 23166	anti ?HKI and ?Cox11 antibodies
+T1311	IDENTITY_chain 23095 23099;23130 23134;23145 23166	anti ?HKI and ?Cox11 antibodies
+T1312	Noun_Phrase 23095 23099;23130 23134;23156 23166	anti ?HKI antibodies
+T1313	IDENTITY_chain 23095 23099;23130 23134;23156 23166	anti ?HKI antibodies
+T1314	Noun_Phrase 23095 23099;23149 23166	anti ?Cox11 antibodies
+T1315	IDENTITY_chain 23095 23099;23149 23166	anti ?Cox11 antibodies
 T1316	Noun_Phrase 23100 23119	RanBP2/Nup153/Nup62
 T1317	Noun_Phrase 23121 23127	mAb414
-T1318	Noun_Phrase 23221 23224;	+/+
-23233 23237	+/+mice
+T1318	Noun_Phrase 23221 23224;23233 23237	+/+ mice
 T1319	Noun_Phrase 23221 23237	+/+ and +/? mice
 T1320	Noun_Phrase 23256 23265	RanBP2+/+
 T1321	Noun_Phrase 23267 23281	RanBP2+/? mice
-T1322	IDENTITY_chain 23290 23329;	a reduction in the expression levels of
-23341 23344	a reduction in the expression levels ofHKI
-T1323	Noun_Phrase 23290 23329;	a reduction in the expression levels of
-23341 23344	a reduction in the expression levels ofHKI
-T1324	Noun_Phrase 23305 23329;	the expression levels of
-23341 23344	the expression levels ofHKI
+T1322	IDENTITY_chain 23290 23329;23341 23344	a reduction in the expression levels of HKI
+T1323	Noun_Phrase 23290 23329;23341 23344	a reduction in the expression levels of HKI
+T1324	Noun_Phrase 23305 23329;23341 23344	the expression levels of HKI
 T1325	Noun_Phrase 23305 23336	the expression levels of RanBP2
 T1326	Noun_Phrase 23330 23336	RanBP2
 T1327	Noun_Phrase 23330 23344	RanBP2 and HKI
 T1328	Noun_Phrase 23341 23344	HKI
 T1329	Noun_Phrase 23440 23446	RanBP2
-T1330	Noun_Phrase 23440 23446;	RanBP2
-23455 23458	RanBP2HKI
-T1331	Noun_Phrase 23440 23446;	RanBP2
-23460 23470	RanBP2and mHsp70
+T1330	Noun_Phrase 23440 23446;23455 23458	RanBP2 HKI
+T1331	Noun_Phrase 23440 23446;23460 23470	RanBP2 and mHsp70
 T1332	Noun_Phrase 23440 23453	RanBP2, Cox11
 T1333	Noun_Phrase 23440 23458	RanBP2, Cox11, HKI
 T1334	Noun_Phrase 23440 23470	RanBP2, Cox11, HKI, and mHsp70
 T1335	Noun_Phrase 23448 23453	Cox11
-T1336	Noun_Phrase 23448 23453;	Cox11
-23460 23470	Cox11and mHsp70
+T1336	Noun_Phrase 23448 23453;23460 23470	Cox11 and mHsp70
 T1337	Noun_Phrase 23448 23458	Cox11, HKI
 T1338	Noun_Phrase 23448 23470	Cox11, HKI, and mHsp70
 T1339	Noun_Phrase 23455 23458	HKI
 T1340	Noun_Phrase 23455 23470	HKI, and mHsp70
 T1341	Noun_Phrase 23464 23470	mHsp70
-T1342	Noun_Phrase 23474 23492;	the hippocampus of
-23507 23520	the hippocampus ofRanBP2+/?mice
-T1343	Noun_Phrase 23493 23502;	RanBP2+/+
-23516 23520	RanBP2+/+mice
+T1342	Noun_Phrase 23474 23492;23507 23520	the hippocampus of RanBP2+/?mice
+T1343	Noun_Phrase 23493 23502;23516 23520	RanBP2+/+ mice
 T1344	Noun_Phrase 23493 23520	RanBP2+/+ and RanBP2+/?mice
 T1345	Noun_Phrase 23507 23520	RanBP2+/?mice
 T1346	Nonreferential_pronoun 23522 23527	There
@@ -1485,10 +1367,8 @@ T1365	Noun_Phrase 23836 23842	spleen
 T1366	Noun_Phrase 23879 23907	Haploinsufficiency of RanBP2
 T1367	Noun_Phrase 23901 23907	RanBP2
 T1368	Noun_Phrase 23913 23919	growth
-T1369	Noun_Phrase 23929 23974;	inbred RanBP2+/? mice on high-fat (~10% fat) 
-23974 23978	inbred RanBP2+/? mice on high-fat (~10% fat) diet
-T1370	IDENTITY_chain 23929 23974;	inbred RanBP2+/? mice on high-fat (~10% fat) 
-23974 23978	inbred RanBP2+/? mice on high-fat (~10% fat) diet
+T1369	Noun_Phrase 23929 23974;23974 23978	inbred RanBP2+/? mice on high-fat (~10% fat)  diet
+T1370	IDENTITY_chain 23929 23974;23974 23978	inbred RanBP2+/? mice on high-fat (~10% fat)  diet
 T1371	Noun_Phrase 23954 23978	high-fat (~10% fat) diet
 T1372	IDENTITY_chain 23954 23978	high-fat (~10% fat) diet
 T1373	Noun_Phrase 23964 23972	~10% fat
@@ -1537,13 +1417,11 @@ T1415	Noun_Phrase 24811 24836	129Ola genetic background
 T1416	Noun_Phrase 24839 24905	the difference in body weight between RanBP2+/+ and RanBP2+/? mice
 T1417	Noun_Phrase 24857 24861	body
 T1418	Noun_Phrase 24857 24905	body weight between RanBP2+/+ and RanBP2+/? mice
-T1419	Noun_Phrase 24877 24886;	RanBP2+/+
-24901 24905	RanBP2+/+mice
+T1419	Noun_Phrase 24877 24886;24901 24905	RanBP2+/+ mice
 T1420	Noun_Phrase 24877 24905	RanBP2+/+ and RanBP2+/? mice
 T1421	Noun_Phrase 24891 24905	RanBP2+/? mice
 T1422	Noun_Phrase 24929 24934	these
-T1423	Noun_Phrase 24985 24994;	RanBP2+/+
-25008 25019	RanBP2+/+inbred mice
+T1423	Noun_Phrase 24985 24994;25008 25019	RanBP2+/+ inbred mice
 T1424	Noun_Phrase 24985 25019	RanBP2+/+ and RanBP2+/?inbred mice
 T1425	Noun_Phrase 24999 25019	RanBP2+/?inbred mice
 T1426	Noun_Phrase 25045 25061	food consumption
@@ -1577,8 +1455,7 @@ T1453	Noun_Phrase 25514 25532	the body's glucose
 T1454	Noun_Phrase 25518 25524	body's
 T1455	Noun_Phrase 25597 25603	RanBP2
 T1456	Noun_Phrase 25597 25622	RanBP2 haploinsufficiency
-T1457	Noun_Phrase 25626 25641;	the utilization
-25665 25675	the utilizationof glucose
+T1457	Noun_Phrase 25626 25641;25665 25675	the utilization of glucose
 T1458	Noun_Phrase 25658 25675	uptake of glucose
 T1459	Noun_Phrase 25668 25675	glucose
 T1460	Noun_Phrase 25677 25679	we
@@ -1613,10 +1490,8 @@ T1488	Noun_Phrase 26235 26237	we
 T1489	Noun_Phrase 26253 26259	RanBP2
 T1490	Noun_Phrase 26268 26297	impairment of gluconeogenesis
 T1491	Noun_Phrase 26282 26297	gluconeogenesis
-T1492	Noun_Phrase 26325 26358;	the pathophysiological production
-26373 26383	the pathophysiological productionof glucose
-T1493	IDENTITY_chain 26325 26358;	the pathophysiological production
-26373 26383	the pathophysiological productionof glucose
+T1492	Noun_Phrase 26325 26358;26373 26383	the pathophysiological production of glucose
+T1493	IDENTITY_chain 26325 26358;26373 26383	the pathophysiological production of glucose
 T1494	Noun_Phrase 26363 26383	clearance of glucose
 T1495	Noun_Phrase 26376 26383	glucose
 T1496	Noun_Phrase 26420 26457	the gluconeogenic substrate precursor
@@ -1638,8 +1513,7 @@ T1511	Noun_Phrase 26686 26693	glucose
 T1512	Noun_Phrase 26686 26704	glucose production
 T1513	Noun_Phrase 26715 26745	the clearance rates of glucose
 T1514	Noun_Phrase 26738 26745	glucose
-T1515	Noun_Phrase 26781 26790;	RanBP2+/?
-26809 26813	RanBP2+/?mice
+T1515	Noun_Phrase 26781 26790;26809 26813	RanBP2+/? mice
 T1516	Noun_Phrase 26799 26813	RanBP2+/+ mice
 T1517	Noun_Phrase 26815 26824	Figure 7D
 T1518	Noun_Phrase 26855 26862	glucose
@@ -1675,20 +1549,16 @@ T1547	Noun_Phrase 27378 27383	n = 5
 T1548	Noun_Phrase 27391 27399	Pyruvate
 T1549	Noun_Phrase 27391 27414	Pyruvate tolerance test
 T1550	Noun_Phrase 27436 27443	glucose
-T1551	Noun_Phrase 27484 27500;	inbred RanBP2+/+
-27515 27519	inbred RanBP2+/+mice
+T1551	Noun_Phrase 27484 27500;27515 27519	inbred RanBP2+/+ mice
 T1552	Noun_Phrase 27484 27519	inbred RanBP2+/+ and RanBP2+/? mice
 T1553	Noun_Phrase 27505 27519	RanBP2+/? mice
 T1554	Noun_Phrase 27521 27522	n
 T1555	Noun_Phrase 27521 27526	n = 5
 T1556	Noun_Phrase 27530 27558	Haploinsufficiency of RanBP2
 T1557	Noun_Phrase 27552 27558	RanBP2
-T1558	Noun_Phrase 27578 27612;	the Electrophysiological Output of
-27628 27658	the Electrophysiological Output ofPostreceptoral Retinal Neurons
-T1559	Noun_Phrase 27613 27623;	Receptoral
-27651 27658	ReceptoralNeurons
-T1560	IDENTITY_chain 27613 27623;	Receptoral
-27651 27658	ReceptoralNeurons
+T1558	Noun_Phrase 27578 27612;27628 27658	the Electrophysiological Output of Postreceptoral Retinal Neurons
+T1559	Noun_Phrase 27613 27623;27651 27658	Receptoral Neurons
+T1560	IDENTITY_chain 27613 27623;27651 27658	Receptoral Neurons
 T1561	Noun_Phrase 27613 27658	Receptoral and Postreceptoral Retinal Neurons
 T1562	IDENTITY_chain 27613 27658	Receptoral and Postreceptoral Retinal Neurons
 T1563	Noun_Phrase 27628 27658	Postreceptoral Retinal Neurons
@@ -1703,14 +1573,10 @@ T1571	Noun_Phrase 27801 27808	glucose
 T1572	Noun_Phrase 27842 27848	energy
 T1573	Noun_Phrase 27842 27859	energy production
 T1574	Noun_Phrase 27985 27987	we
-T1575	Noun_Phrase 28009 28020;	deficits in
-28029 28032	deficits inHKI
-T1576	IDENTITY_chain 28009 28020;	deficits in
-28029 28032	deficits inHKI
-T1577	Noun_Phrase 28009 28020;	deficits in
-28038 28041	deficits inATP
-T1578	IDENTITY_chain 28009 28020;	deficits in
-28038 28041	deficits inATP
+T1575	Noun_Phrase 28009 28020;28029 28032	deficits in HKI
+T1576	IDENTITY_chain 28009 28020;28029 28032	deficits in HKI
+T1577	Noun_Phrase 28009 28020;28038 28041	deficits in ATP
+T1578	IDENTITY_chain 28009 28020;28038 28041	deficits in ATP
 T1579	Noun_Phrase 28009 28027	deficits in RanBP2
 T1580	Noun_Phrase 28021 28027	RanBP2
 T1581	Noun_Phrase 28021 28032	RanBP2, HKI
@@ -1722,10 +1588,8 @@ T1586	Noun_Phrase 28096 28108	rod and cone
 T1587	IDENTITY_chain 28096 28108	rod and cone
 T1588	Noun_Phrase 28104 28108	cone
 T1589	IDENTITY_chain 28104 28108	cone
-T1590	Noun_Phrase 28160 28169;	RanBP2+/?
-28187 28191	RanBP2+/?mice
-T1591	Noun_Phrase 28160 28173;	RanBP2+/? and
-28177 28191	RanBP2+/? andRanBP2+/+ mice
+T1590	Noun_Phrase 28160 28169;28187 28191	RanBP2+/? mice
+T1591	Noun_Phrase 28160 28173;28177 28191	RanBP2+/? and RanBP2+/+ mice
 T1592	Noun_Phrase 28177 28191	RanBP2+/+ mice
 T1593	Noun_Phrase 28193 28361	The scotopic (dark-adapted) responses mediated by the rod photoreceptor pathway at low-stimulus intensities and mixed rod and cone pathways at high-stimulus intensities
 T1594	IDENTITY_chain 28193 28361	The scotopic (dark-adapted) responses mediated by the rod photoreceptor pathway at low-stimulus intensities and mixed rod and cone pathways at high-stimulus intensities
@@ -1752,20 +1616,15 @@ T1614	IDENTITY_chain 28674 28711	increasing light stimulus intensities
 T1615	Noun_Phrase 28742 28764	the scotopic responses
 T1616	Noun_Phrase 28787 28821	both b-wave (Figure 8C) and a-wave
 T1617	IDENTITY_chain 28787 28821	both b-wave (Figure 8C) and a-wave
-T1618	Noun_Phrase 28792 28798;	b-wave
-28834 28908	b-waveamplitudes mediated by postreceptoral and receptoral neurons, respectively
-T1619	IDENTITY_chain 28792 28798;	b-wave
-28834 28908	b-waveamplitudes mediated by postreceptoral and receptoral neurons, respectively
+T1618	Noun_Phrase 28792 28798;28834 28908	b-wave amplitudes mediated by postreceptoral and receptoral neurons, respectively
+T1619	IDENTITY_chain 28792 28798;28834 28908	b-wave amplitudes mediated by postreceptoral and receptoral neurons, respectively
 T1620	Noun_Phrase 28792 28798	b-wave
 T1621	IDENTITY_chain 28792 28798	b-wave
-T1622	Noun_Phrase 28815 28821;	a-wave
-28834 28908	a-waveamplitudes mediated by postreceptoral and receptoral neurons, respectively
-T1623	IDENTITY_chain 28815 28821;	a-wave
-28834 28908	a-waveamplitudes mediated by postreceptoral and receptoral neurons, respectively
+T1622	Noun_Phrase 28815 28821;28834 28908	a-wave amplitudes mediated by postreceptoral and receptoral neurons, respectively
+T1623	IDENTITY_chain 28815 28821;28834 28908	a-wave amplitudes mediated by postreceptoral and receptoral neurons, respectively
 T1624	Noun_Phrase 28815 28821	a-wave
 T1625	IDENTITY_chain 28815 28821	a-wave
-T1626	Noun_Phrase 28857 28871;	postreceptoral
-28887 28894	postreceptoralneurons
+T1626	Noun_Phrase 28857 28871;28887 28894	postreceptoral neurons
 T1627	Noun_Phrase 28857 28894	postreceptoral and receptoral neurons
 T1628	Noun_Phrase 28876 28894	receptoral neurons
 T1629	Noun_Phrase 28910 28954	Postreceptoral second-order neuron responses
@@ -1800,10 +1659,8 @@ T1657	Noun_Phrase 29909 29923	both genotypes
 T1658	Noun_Phrase 29945 29953	Figure 8
 T1659	IDENTITY_chain 29945 29953	Figure 8
 T1660	Noun_Phrase 29979 29987	6-Mo-Old
-T1661	Noun_Phrase 29979 29987;	6-Mo-Old
-30001 30022	6-Mo-OldRanBP2+/+ Inbred Mice
-T1662	Noun_Phrase 29979 29997;	6-Mo-Old RanBP2+/?
-30011 30022	6-Mo-Old RanBP2+/?Inbred Mice
+T1661	Noun_Phrase 29979 29987;30001 30022	6-Mo-Old RanBP2+/+ Inbred Mice
+T1662	Noun_Phrase 29979 29997;30011 30022	6-Mo-Old RanBP2+/? Inbred Mice
 T1663	Noun_Phrase 30031 30044	Photoreceptor
 T1664	Noun_Phrase 30049 30098	Postreceptor Neuron Electrophysiological Response
 T1665	Noun_Phrase 30115 30123	Scotopic
@@ -1819,8 +1676,7 @@ T1674	Noun_Phrase 30289 30303	RanBP2+/+ mice
 T1675	Noun_Phrase 30366 30404	the rod photoreceptor neuronal pathway
 T1676	Noun_Phrase 30370 30387	rod photoreceptor
 T1677	Noun_Phrase 30468 30498	both the rod and cone pathways
-T1678	Noun_Phrase 30473 30480;	the rod
-30490 30498	the rodpathways
+T1678	Noun_Phrase 30473 30480;30490 30498	the rod pathways
 T1679	Noun_Phrase 30477 30480	rod
 T1680	Noun_Phrase 30477 30489	rod and cone
 T1681	Noun_Phrase 30485 30489	cone
@@ -1838,24 +1694,20 @@ T1692	Noun_Phrase 30673 30705	those observed in RanBP2+/+ mice
 T1693	Noun_Phrase 30691 30705	RanBP2+/+ mice
 T1694	Noun_Phrase 30712 30869	Average ± SE (n = 9) scotopic b-wave amplitudes from RanBP2+/? (open circles) and RanBP2+/+ (filled squares) mice representing postreceptoral neuron function
 T1695	Noun_Phrase 30726 30727	n
-T1696	Noun_Phrase 30765 30774;	RanBP2+/?
-30821 30825	RanBP2+/?mice
+T1696	Noun_Phrase 30765 30774;30821 30825	RanBP2+/? mice
 T1697	Noun_Phrase 30765 30825	RanBP2+/? (open circles) and RanBP2+/+ (filled squares) mice
-T1698	Noun_Phrase 30794 30803;	RanBP2+/+
-30821 30825	RanBP2+/+mice
+T1698	Noun_Phrase 30794 30803;30821 30825	RanBP2+/+ mice
 T1699	Noun_Phrase 30839 30860	postreceptoral neuron
 T1700	Noun_Phrase 30905 30952	Average ± SE (n = 5) scotopic a-wave amplitudes
 T1701	Noun_Phrase 30919 30920	n
 T1702	Noun_Phrase 30919 30924	n = 5
 T1703	Noun_Phrase 30967 30980	photoreceptor
-T1704	Noun_Phrase 30995 31004;	RanBP2+/?
-31019 31023	RanBP2+/?mice
+T1704	Noun_Phrase 30995 31004;31019 31023	RanBP2+/? mice
 T1705	Noun_Phrase 30995 31023	RanBP2+/? and RanBP2+/+ mice
 T1706	Noun_Phrase 31009 31023	RanBP2+/+ mice
 T1707	Noun_Phrase 31084 31098	RanBP2+/? mice
 T1708	Noun_Phrase 31160 31179	both b- and a-waves
-T1709	Noun_Phrase 31165 31167;	b-
-31174 31179	b-waves
+T1709	Noun_Phrase 31165 31167;31174 31179	b- waves
 T1710	Noun_Phrase 31172 31179	a-waves
 T1711	Noun_Phrase 31233 31243	the groups
 T1712	Noun_Phrase 31263 31264	p
@@ -1876,8 +1728,7 @@ T1726	Noun_Phrase 31553 31556	HKI
 T1727	Noun_Phrase 31561 31610	novel partners in vivo for the large LD of RanBP2
 T1728	Noun_Phrase 31588 31610	the large LD of RanBP2
 T1729	Noun_Phrase 31604 31610	RanBP2
-T1730	Noun_Phrase 31612 31619;	Figures
-31626 31627	Figures2
+T1730	Noun_Phrase 31612 31619;31626 31627	Figures 2
 T1731	Noun_Phrase 31612 31621	Figures 1
 T1732	Noun_Phrase 31630 31646	The LD of RanBP2
 T1733	Noun_Phrase 31640 31646	RanBP2
@@ -1891,8 +1742,7 @@ T1740	Noun_Phrase 31803 31806	HKI
 T1741	Noun_Phrase 31830 31835	Cox11
 T1742	Noun_Phrase 31859 31864	Cox11
 T1743	Noun_Phrase 31933 31936	HKI
-T1744	Noun_Phrase 31938 31944;	Figure
-31952 31954	Figure2B
+T1744	Noun_Phrase 31938 31944;31952 31954	Figure 2B
 T1745	Noun_Phrase 31938 31947	Figure 2A
 T1746	Noun_Phrase 31938 31954	Figure 2A and 2B
 T1747	IDENTITY_chain 31938 31954	Figure 2A and 2B
@@ -1910,8 +1760,7 @@ T1758	Noun_Phrase 32196 32228	the Km of the active site of HKI
 T1759	Noun_Phrase 32206 32228	the active site of HKI
 T1760	Noun_Phrase 32225 32228	HKI
 T1761	Noun_Phrase 32236 32243	glucose
-T1762	Noun_Phrase 32245 32251;	Figure
-32259 32261	Figure2B
+T1762	Noun_Phrase 32245 32251;32259 32261	Figure 2B
 T1763	Noun_Phrase 32245 32254	Figure 2A
 T1764	Noun_Phrase 32245 32261	Figure 2A and 2B
 T1765	Noun_Phrase 32264 32305	The inhibitory property of Cox11 over HKI
@@ -1931,8 +1780,7 @@ T1778	Noun_Phrase 32596 32629	Cox11-dependent inhibition of HKI
 T1779	Noun_Phrase 32626 32629	HKI
 T1780	Noun_Phrase 32633 32639	RanBP2
 T1781	Noun_Phrase 32650 32656	RanBP2
-T1782	Noun_Phrase 32691 32694;	HK1
-32705 32715	HK1activities
+T1782	Noun_Phrase 32691 32694;32705 32715	HK1 activities
 T1783	Noun_Phrase 32691 32694	HK1
 T1784	Noun_Phrase 32691 32704	HK1 and Cox11
 T1785	Noun_Phrase 32691 32715	HK1 and Cox11 activities
@@ -1961,8 +1809,7 @@ T1807	Noun_Phrase 33106 33128	its chaperone activity
 T1808	Noun_Phrase 33133 33267	the selective degradation of HKI as reflected by the reduced levels of HKI (and ATP) but not of other mitochondrial and NPC components
 T1809	IDENTITY_chain 33133 33267	the selective degradation of HKI as reflected by the reduced levels of HKI (and ATP) but not of other mitochondrial and NPC components
 T1810	Noun_Phrase 33162 33165	HKI
-T1811	Noun_Phrase 33182 33203;	the reduced levels of
-33213 33216	the reduced levels ofATP
+T1811	Noun_Phrase 33182 33203;33213 33216	the reduced levels of ATP
 T1812	Noun_Phrase 33182 33207	the reduced levels of HKI
 T1813	Noun_Phrase 33204 33207	HKI
 T1814	Noun_Phrase 33204 33217	HKI (and ATP)
@@ -1976,8 +1823,7 @@ T1821	Noun_Phrase 33339 33345	RanBP2
 T1822	Noun_Phrase 33369 33415	the equilibrium between Cox11, HK1, and RanBP2
 T1823	IDENTITY_chain 33369 33415	the equilibrium between Cox11, HK1, and RanBP2
 T1824	Noun_Phrase 33393 33398	Cox11
-T1825	Noun_Phrase 33393 33398;	Cox11
-33405 33415	Cox11and RanBP2
+T1825	Noun_Phrase 33393 33398;33405 33415	Cox11 and RanBP2
 T1826	Noun_Phrase 33393 33403	Cox11, HK1
 T1827	Noun_Phrase 33393 33415	Cox11, HK1, and RanBP2
 T1828	Noun_Phrase 33400 33403	HK1
@@ -1997,8 +1843,7 @@ T1841	Noun_Phrase 33619 33622	HKI
 T1842	Noun_Phrase 33644 33671	the decreased levels in ATP
 T1843	Noun_Phrase 33668 33671	ATP
 T1844	Noun_Phrase 33742 33756	RanBP2+/? mice
-T1845	Noun_Phrase 33758 33765;	Figures
-33768 33769	Figures7
+T1845	Noun_Phrase 33758 33765;33768 33769	Figures 7
 T1846	Noun_Phrase 33758 33767	Figures 5
 T1847	Noun_Phrase 33799 33829	the ATP deficits in the retina
 T1848	Noun_Phrase 33803 33806	ATP
@@ -2057,8 +1902,7 @@ T1900	Noun_Phrase 35200 35206	RanBP2
 T1901	Noun_Phrase 35226 35232	parkin
 T1902	Noun_Phrase 35226 35249	parkin loss-of-function
 T1903	Noun_Phrase 35262 35268	energy
-T1904	Noun_Phrase 35262 35268;	energy
-35280 35288	energydeficits
+T1904	Noun_Phrase 35262 35268;35280 35288	energy deficits
 T1905	Noun_Phrase 35262 35288	energy and growth deficits
 T1906	Noun_Phrase 35273 35279	growth
 T1907	Noun_Phrase 35273 35288	growth deficits
@@ -2084,13 +1928,10 @@ T1926	Noun_Phrase 35848 35892	The presence of such compensatory mechanisms
 T1927	Noun_Phrase 35864 35892	such compensatory mechanisms
 T1928	Noun_Phrase 35982 35988	RanBP2
 T1929	Noun_Phrase 36056 36071	The data herein
-T1930	Noun_Phrase 36090 36103;	a decrease of
-36115 36125	a decrease ofHKI levels
-T1931	IDENTITY_chain 36090 36103;	a decrease of
-36115 36125	a decrease ofHKI levels
+T1930	Noun_Phrase 36090 36103;36115 36125	a decrease of HKI levels
+T1931	IDENTITY_chain 36090 36103;36115 36125	a decrease of HKI levels
 T1932	Noun_Phrase 36104 36110	RanBP2
-T1933	Noun_Phrase 36104 36110;	RanBP2
-36119 36125	RanBP2levels
+T1933	Noun_Phrase 36104 36110;36119 36125	RanBP2 levels
 T1934	Noun_Phrase 36104 36118	RanBP2 and HKI
 T1935	Noun_Phrase 36115 36118	HKI
 T1936	Noun_Phrase 36115 36125	HKI levels
@@ -2098,14 +1939,10 @@ T1937	Noun_Phrase 36148 36162	the ATP levels
 T1938	Noun_Phrase 36152 36155	ATP
 T1939	Noun_Phrase 36170 36205	the constitutive Na+/K+ ATPase pump
 T1940	IDENTITY_chain 36170 36205	the constitutive Na+/K+ ATPase pump
-T1941	Noun_Phrase 36170 36264;	the constitutive Na+/K+ ATPase pump and the ATP-dependent conversion of glutamine to glutamate
-36331 36391	the constitutive Na+/K+ ATPase pump and the ATP-dependent conversion of glutamine to glutamateconsumes the vast majority of the energy produced by the CNS
-T1942	IDENTITY_chain 36170 36264;	the constitutive Na+/K+ ATPase pump and the ATP-dependent conversion of glutamine to glutamate
-36331 36391	the constitutive Na+/K+ ATPase pump and the ATP-dependent conversion of glutamine to glutamateconsumes the vast majority of the energy produced by the CNS
-T1943	Noun_Phrase 36242 36251;	glutamine
-36255 36264	glutamineglutamate
-T1944	IDENTITY_chain 36242 36251;	glutamine
-36255 36264	glutamineglutamate
+T1941	Noun_Phrase 36170 36264;36331 36391	the constitutive Na+/K+ ATPase pump and the ATP-dependent conversion of glutamine to glutamate consumes the vast majority of the energy produced by the CNS
+T1942	IDENTITY_chain 36170 36264;36331 36391	the constitutive Na+/K+ ATPase pump and the ATP-dependent conversion of glutamine to glutamate consumes the vast majority of the energy produced by the CNS
+T1943	Noun_Phrase 36242 36251;36255 36264	glutamine glutamate
+T1944	IDENTITY_chain 36242 36251;36255 36264	glutamine glutamate
 T1945	Noun_Phrase 36266 36270	both
 T1946	Noun_Phrase 36322 36329	the CNS
 T1947	Noun_Phrase 36361 36391	the energy produced by the CNS
@@ -2162,8 +1999,7 @@ T1997	Noun_Phrase 38044 38051	the CNS
 T1998	Noun_Phrase 38073 38082	Parkinson
 T1999	Noun_Phrase 38227 38249	the RanBP2 mouse model
 T2000	Noun_Phrase 38231 38237	RanBP2
-T2001	Noun_Phrase 38306 38314;	multiple
-38325 38333	multiplepathways
+T2001	Noun_Phrase 38306 38314;38325 38333	multiple pathways
 T2002	Noun_Phrase 38319 38443	novel pathways, which may have not been anticipated to be linked to metabolic processes and allied pathophysiological states
 T2003	IDENTITY_chain 38319 38443	novel pathways, which may have not been anticipated to be linked to metabolic processes and allied pathophysiological states
 T2004	Noun_Phrase 38387 38406	metabolic processes
@@ -2195,8 +2031,7 @@ T2029	IDENTITY_chain 38820 38837	production of ATP
 T2030	Noun_Phrase 38834 38837	ATP
 T2031	Noun_Phrase 38839 38861	The glycolytic pathway
 T2032	Noun_Phrase 38882 38917	the constitutive Na+/K+-ATPase pump
-T2033	Noun_Phrase 38955 38964;	the inner
-38975 39019	the innersegment compartments of photosensory neurons
+T2033	Noun_Phrase 38955 38964;38975 39019	the inner segment compartments of photosensory neurons
 T2034	Noun_Phrase 38969 39019	outer segment compartments of photosensory neurons
 T2035	Noun_Phrase 38999 39019	photosensory neurons
 T2036	Noun_Phrase 39021 39030	A deficit
@@ -2207,8 +2042,7 @@ T2040	APPOS_relation 39032 39050	haploinsufficiency
 T2041	Noun_Phrase 39055 39061	RanBP2
 T2042	Noun_Phrase 39071 39117	the equilibrium between RanBP2, HKI, and Cox11
 T2043	Noun_Phrase 39095 39101	RanBP2
-T2044	Noun_Phrase 39095 39101;	RanBP2
-39108 39117	RanBP2and Cox11
+T2044	Noun_Phrase 39095 39101;39108 39117	RanBP2 and Cox11
 T2045	Noun_Phrase 39095 39106	RanBP2, HKI
 T2046	Noun_Phrase 39095 39117	RanBP2, HKI, and Cox11
 T2047	Noun_Phrase 39103 39106	HKI
@@ -2219,8 +2053,7 @@ T2051	Noun_Phrase 39182 39200	degradation of HKI
 T2052	Noun_Phrase 39197 39200	HKI
 T2053	Noun_Phrase 39219 39222	ATP
 T2054	Noun_Phrase 39219 39233	ATP production
-T2055	Noun_Phrase 39332 39342;	receptoral
-39362 39369	receptoralneurons
+T2055	Noun_Phrase 39332 39342;39362 39369	receptoral neurons
 T2056	Noun_Phrase 39332 39369	receptoral and postreceptoral neurons
 T2057	Noun_Phrase 39347 39369	postreceptoral neurons
 T2058	Noun_Phrase 39386 39389	ATP
@@ -2271,8 +2104,7 @@ T2102	IDENTITY_chain 40744 40805	these apparent outcome disparities among experi
 T2103	Noun_Phrase 40822 40826	they
 T2104	Noun_Phrase 40980 40999	whole-animal models
 T2105	Noun_Phrase 41023 41047	novel molecular pathways
-T2106	Noun_Phrase 41210 41226;	Yeast two-hybrid
-41241 41247	Yeast two-hybridassays
+T2106	Noun_Phrase 41210 41226;41241 41247	Yeast two-hybrid assays
 T2107	Noun_Phrase 41260 41272	human RanBP2
 T2108	IDENTITY_chain 41260 41272	human RanBP2
 T2109	Noun_Phrase 41350 41361	bait vector
@@ -2288,10 +2120,8 @@ T2118	IDENTITY_chain 41438 41462	HybriZAP pBD-GAL4 vector
 T2119	Noun_Phrase 41464 41511	Stratagene, La Jolla, California, United States
 T2120	IDENTITY_chain 41464 41511	Stratagene, La Jolla, California, United States
 T2121	Noun_Phrase 41514 41524	The former
-T2122	Noun_Phrase 41579 41607;	murine 9- to 10-d-old embryo
-41618 41721	murine 9- to 10-d-old embryocDNA libraries at the Molecular Interaction Facility (MIF), University of Wisconsin, Madison, Wisconsin
-T2123	IDENTITY_chain 41579 41607;	murine 9- to 10-d-old embryo
-41618 41721	murine 9- to 10-d-old embryocDNA libraries at the Molecular Interaction Facility (MIF), University of Wisconsin, Madison, Wisconsin
+T2122	Noun_Phrase 41579 41607;41618 41721	murine 9- to 10-d-old embryo cDNA libraries at the Molecular Interaction Facility (MIF), University of Wisconsin, Madison, Wisconsin
+T2123	IDENTITY_chain 41579 41607;41618 41721	murine 9- to 10-d-old embryo cDNA libraries at the Molecular Interaction Facility (MIF), University of Wisconsin, Madison, Wisconsin
 T2124	Noun_Phrase 41579 41721	murine 9- to 10-d-old embryo and brain cDNA libraries at the Molecular Interaction Facility (MIF), University of Wisconsin, Madison, Wisconsin
 T2125	IDENTITY_chain 41579 41721	murine 9- to 10-d-old embryo and brain cDNA libraries at the Molecular Interaction Facility (MIF), University of Wisconsin, Madison, Wisconsin
 T2126	Noun_Phrase 41612 41617	brain
@@ -2305,8 +2135,7 @@ T2133	IDENTITY_chain 41703 41721	Madison, Wisconsin
 T2134	Noun_Phrase 41723 41733	The latter
 T2135	Noun_Phrase 41868 41895	One and two in-frame clones
 T2136	IDENTITY_chain 41868 41895	One and two in-frame clones
-T2137	Noun_Phrase 41929 41942;	the embryonic
-41959 41968	the embryoniclibraries
+T2137	Noun_Phrase 41929 41942;41959 41968	the embryonic libraries
 T2138	Noun_Phrase 41929 41968	the embryonic and adult brain libraries
 T2139	Noun_Phrase 41947 41968	adult brain libraries
 T2140	Noun_Phrase 42021 42037	The three clones
@@ -2347,8 +2176,7 @@ T2174	Noun_Phrase 42872 42890	pBUTE [62] vectors
 T2175	Noun_Phrase 42892 42901	GST-LDZIP
 T2176	Noun_Phrase 42938 42950	human RanBP2
 T2177	Noun_Phrase 42953 42956	GST
-T2178	Noun_Phrase 42953 42966;	GST pull-down
-42991 42997	GST pull-downassays
+T2178	Noun_Phrase 42953 42966;42991 42997	GST pull-down assays
 T2179	Noun_Phrase 42971 42997	immunoprecipitation assays
 T2180	IDENTITY_chain 42971 42997	immunoprecipitation assays
 T2181	Noun_Phrase 43133 43136	GST
@@ -2358,10 +2186,8 @@ T2184	IDENTITY_chain 43273 43334	Western blot with antibodies described in the R
 T2185	Noun_Phrase 43291 43334	antibodies described in the Results section
 T2186	Noun_Phrase 43315 43334	the Results section
 T2187	Noun_Phrase 43349 43374	partially denatured Cox11
-T2188	Noun_Phrase 43404 43415;	recombinant
-43427 43432	recombinantCox11
-T2189	IDENTITY_chain 43404 43415;	recombinant
-43427 43432	recombinantCox11
+T2188	Noun_Phrase 43404 43415;43427 43432	recombinant Cox11
+T2189	IDENTITY_chain 43404 43415;43427 43432	recombinant Cox11
 T2190	Noun_Phrase 43420 43432	native Cox11
 T2191	Noun_Phrase 43512 43517	Cox11
 T2192	Noun_Phrase 43591 43597	GST-LD
@@ -2383,8 +2209,7 @@ T2207	IDENTITY_chain 44111 44120	J. Wilson
 T2208	Noun_Phrase 44269 44302	glucose 6-phosphate dehydrogenase
 T2209	Noun_Phrase 44319 44379	hexokinase activity measured in the presence of Cox11 and LD
 T2210	IDENTITY_chain 44319 44379	hexokinase activity measured in the presence of Cox11 and LD
-T2211	Noun_Phrase 44351 44366;	the presence of
-44377 44379	the presence ofLD
+T2211	Noun_Phrase 44351 44366;44377 44379	the presence of LD
 T2212	Noun_Phrase 44351 44372	the presence of Cox11
 T2213	Noun_Phrase 44367 44372	Cox11
 T2214	Noun_Phrase 44367 44379	Cox11 and LD
@@ -2397,14 +2222,12 @@ T2220	Noun_Phrase 44788 44793	Cox11
 T2221	Noun_Phrase 44788 44804	Cox11 antibodies
 T2222	IDENTITY_chain 44788 44804	Cox11 antibodies
 T2223	Noun_Phrase 44850 44879	The monoclonal antibody Hsp70
-T2224	Noun_Phrase 44948 44970;	antibodies against the
-44985 45006	antibodies against theZnF domains of RanBP2
+T2224	Noun_Phrase 44948 44970;44985 45006	antibodies against the ZnF domains of RanBP2
 T2225	Noun_Phrase 44948 44980	antibodies against the KBD (JX2)
 T2226	Noun_Phrase 44948 45006	antibodies against the KBD (JX2) and ZnF domains of RanBP2
 T2227	Noun_Phrase 44967 44974	the KBD
 T2228	APPOS_relation 44967 44974	the KBD
-T2229	Noun_Phrase 44967 44974;	the KBD
-44997 45006	the KBDof RanBP2
+T2229	Noun_Phrase 44967 44974;44997 45006	the KBD of RanBP2
 T2230	Noun_Phrase 44976 44979	JX2
 T2231	Noun_Phrase 44985 45006	ZnF domains of RanBP2
 T2232	Noun_Phrase 45000 45006	RanBP2
@@ -2418,8 +2241,7 @@ T2239	Noun_Phrase 45226 45236	microscopy
 T2240	IDENTITY_chain 45226 45236	microscopy
 T2241	Noun_Phrase 45259 45278	radial cryosections
 T2242	IDENTITY_chain 45259 45278	radial cryosections
-T2243	Noun_Phrase 45515 45522;	Primary
-45541 45552	Primaryglial cells
+T2243	Noun_Phrase 45515 45522;45541 45552	Primary glial cells
 T2244	Noun_Phrase 45515 45552	Primary brain neurons and glial cells
 T2245	Noun_Phrase 45572 45591	the cerebral cortex
 T2246	Noun_Phrase 45593 45597	This
@@ -2427,14 +2249,10 @@ T2247	Noun_Phrase 45881 45900	immunocytochemistry
 T2248	Noun_Phrase 46083 46091	proteins
 T2249	Noun_Phrase 46235 46243	proteins
 T2250	Noun_Phrase 46264 46424	wide-field epifluorescence microscopy on Nikon (Tokyo, Japan) E600 upright and TE2000U inverted research microscopes equipped with similar Apochromat objectives
-T2251	Noun_Phrase 46305 46310;	Nikon
-46343 46424	NikonTE2000U inverted research microscopes equipped with similar Apochromat objectives
-T2252	IDENTITY_chain 46305 46310;	Nikon
-46343 46424	NikonTE2000U inverted research microscopes equipped with similar Apochromat objectives
-T2253	Noun_Phrase 46305 46338;	Nikon (Tokyo, Japan) E600 upright
-46360 46424	Nikon (Tokyo, Japan) E600 uprightresearch microscopes equipped with similar Apochromat objectives
-T2254	IDENTITY_chain 46305 46338;	Nikon (Tokyo, Japan) E600 upright
-46360 46424	Nikon (Tokyo, Japan) E600 uprightresearch microscopes equipped with similar Apochromat objectives
+T2251	Noun_Phrase 46305 46310;46343 46424	Nikon TE2000U inverted research microscopes equipped with similar Apochromat objectives
+T2252	IDENTITY_chain 46305 46310;46343 46424	Nikon TE2000U inverted research microscopes equipped with similar Apochromat objectives
+T2253	Noun_Phrase 46305 46338;46360 46424	Nikon (Tokyo, Japan) E600 upright research microscopes equipped with similar Apochromat objectives
+T2254	IDENTITY_chain 46305 46338;46360 46424	Nikon (Tokyo, Japan) E600 upright research microscopes equipped with similar Apochromat objectives
 T2255	Noun_Phrase 46438 46452	the Nikon E600
 T2256	Noun_Phrase 46508 46522	the microscope
 T2257	Noun_Phrase 46745 46752	Protein
@@ -2471,8 +2289,7 @@ T2287	Noun_Phrase 48578 48699	The two resulting and independent F1s lines, with 
 T2288	Noun_Phrase 48628 48640	129P2/OlaHsd
 T2289	Noun_Phrase 48652 48699	129P2/OlaHsd/C57BL/6J mixed genetic backgrounds
 T2290	Noun_Phrase 48794 48799	?-gal
-T2291	Noun_Phrase 48794 48799;	?-gal
-48809 48863	?-galactivities in whole mount embryos and retinal sections
+T2291	Noun_Phrase 48794 48799;48809 48863	?-gal activities in whole mount embryos and retinal sections
 T2292	Noun_Phrase 48794 48863	?-gal and PLAP activities in whole mount embryos and retinal sections
 T2293	Noun_Phrase 48804 48808	PLAP
 T2294	Noun_Phrase 48804 48863	PLAP activities in whole mount embryos and retinal sections
@@ -2551,8 +2368,7 @@ T2366	Noun_Phrase 52425 52436	the GST-JX2
 T2367	Noun_Phrase 52457 52480	seven different tissues
 T2368	IDENTITY_chain 52457 52480	seven different tissues
 T2369	Noun_Phrase 52498 52552	Western blot with the antibodies against HKI and Cox11
-T2370	Noun_Phrase 52516 52538;	the antibodies against
-52547 52552	the antibodies againstCox11
+T2370	Noun_Phrase 52516 52538;52547 52552	the antibodies against Cox11
 T2371	Noun_Phrase 52516 52542	the antibodies against HKI
 T2372	Noun_Phrase 52516 52552	the antibodies against HKI and Cox11
 T2373	Noun_Phrase 52539 52542	HKI
@@ -2563,14 +2379,11 @@ T2377	Noun_Phrase 52564 52570	RanBP2
 T2378	Noun_Phrase 52608 52632	all seven tissues tested
 T2379	Noun_Phrase 52686 52695	Figure S2
 T2380	Noun_Phrase 52715 52796	Radial Cryosections of Wild-Type (+/+) and Heterozygote (+/?) RanBP2 Mice Retinas
-T2381	Noun_Phrase 52738 52753;	Wild-Type (+/+)
-52777 52788	Wild-Type (+/+)RanBP2 Mice
+T2381	Noun_Phrase 52738 52753;52777 52788	Wild-Type (+/+) RanBP2 Mice
 T2382	Noun_Phrase 52738 52788	Wild-Type (+/+) and Heterozygote (+/?) RanBP2 Mice
 T2383	Noun_Phrase 52758 52796	Heterozygote (+/?) RanBP2 Mice Retinas
-T2384	Noun_Phrase 52802 52806;	Anti
-52815 52832	Anti?Cox11 Antibodies
-T2385	Noun_Phrase 52802 52810;	Anti-HKI
-52822 52832	Anti-HKIAntibodies
+T2384	Noun_Phrase 52802 52806;52815 52832	Anti ?Cox11 Antibodies
+T2385	Noun_Phrase 52802 52810;52822 52832	Anti-HKI Antibodies
 T2386	Noun_Phrase 52802 52832	Anti-HKI and ?Cox11 Antibodies
 T2387	Noun_Phrase 52841 52843	B1
 T2388	IDENTITY_chain 52841 52843	B1
@@ -2599,8 +2412,7 @@ T2410	Noun_Phrase 53207 53211	This
 T2411	Noun_Phrase 53303 53318	arbitrary units
 T2412	IDENTITY_chain 53303 53318	arbitrary units
 T2413	Noun_Phrase 53323 53326	HKI
-T2414	Noun_Phrase 53323 53333;	HKI in the
-53344 53377	HKI in theinner plexiform (synaptic) layers
+T2414	Noun_Phrase 53323 53333;53344 53377	HKI in the inner plexiform (synaptic) layers
 T2415	Noun_Phrase 53344 53377	inner plexiform (synaptic) layers
 T2416	Noun_Phrase 53350 53359	plexiform
 T2417	Noun_Phrase 53361 53369	synaptic
@@ -2631,8 +2443,7 @@ T2441	Noun_Phrase 53573 53576	GCL
 T2442	APPOS_relation 53573 53576	GCL
 T2443	Noun_Phrase 53578 53591	ganglion cell
 T2444	Noun_Phrase 53578 53597	ganglion cell layer
-T2445	Noun_Phrase 53626 53659;	the ellipsoid (mitochondria-rich)
-53670 53706	the ellipsoid (mitochondria-rich)compartments of photosensory neurons
+T2445	Noun_Phrase 53626 53659;53670 53706	the ellipsoid (mitochondria-rich) compartments of photosensory neurons
 T2446	Noun_Phrase 53626 53706	the ellipsoid (mitochondria-rich) and myoid compartments of photosensory neurons
 T2447	Noun_Phrase 53630 53639	ellipsoid
 T2448	Noun_Phrase 53641 53658	mitochondria-rich
@@ -2649,8 +2460,7 @@ T2458	Noun_Phrase 54069 54080	John Wilson
 T2459	Noun_Phrase 54085 54097	purified HKI
 T2460	Noun_Phrase 54099 54121	antibodies against HKI
 T2461	Noun_Phrase 54118 54121	HKI
-T2462	Noun_Phrase 54123 54127;	HKII
-54136 54151	HKIIand glucokinase
+T2462	Noun_Phrase 54123 54127;54136 54151	HKII and glucokinase
 T2463	Noun_Phrase 54123 54127	HKII
 T2464	Noun_Phrase 54123 54134	HKII, HKIII
 T2465	Noun_Phrase 54123 54151	HKII, HKIII, and glucokinase

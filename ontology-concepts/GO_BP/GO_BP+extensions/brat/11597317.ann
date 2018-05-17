@@ -1,9 +1,7 @@
 T0	GO_SO_EXT_sequence_rearrangement_process 21 34	recombination
 T1	GO_0006281 156 166	DNA repair
-T2	GO_0000724 242 260;	homology-dependent
-279 313	homology-dependentrepair of DNA double-strand breaks
-T3	GO_0000724 262 277;	recombinational
-279 313	recombinationalrepair of DNA double-strand breaks
+T2	GO_0000724 242 260;279 313	homology-dependent repair of DNA double-strand breaks
+T3	GO_0000724 262 277;279 313	recombinational repair of DNA double-strand breaks
 T4	GO_0000725 428 450	recombinational repair
 T5	GO_SO_EXT_sequence_rearrangement_process 481 494	recombination
 T6	GO_0006281 757 763	repair
@@ -13,14 +11,11 @@ T9	GO_0006281 1424 1434	DNA repair
 T10	GO_PATO_EXT_biological_localization_process_or_quality 1525 1534	localizes
 T11	GO_0000725 1667 1703	recombinational repair of DNA damage
 T12	GO_0051320 1759 1766	S phase
-T13	GO_0006281 1853 1862;	repair of
-1887 1897	repair ofDNA damage
+T13	GO_0006281 1853 1862;1887 1897	repair of DNA damage
 T14	GO_0000725 2065 2087	recombinational repair
-T15	GO_0065003 2556 2568;	formation of
-2581 2590	formation ofcomplexes
+T15	GO_0065003 2556 2568;2581 2590	formation of complexes
 T16	GO_SO_EXT_sequence_rearrangement_process 2660 2673	recombination
-T17	GO_0000725 2752 2767;	recombinational
-2772 2778	recombinationalrepair
+T17	GO_0000725 2752 2767;2772 2778	recombinational repair
 T18	GO_0006302 2768 2778	DSB repair
 T19	GO_0006281 2962 2968	repair
 T20	GO_0000725 3059 3081	recombinational repair
@@ -30,8 +25,7 @@ T23	GO_SO_EXT_sequence_rearrangement_process 3336 3349	recombination
 T24	GO_0009294 3627 3639	transfection
 T25	GO_0010467 3653 3663	expression
 T26	GO_0042148 3781 3790	invade(s)
-T27	GO_0006302 3859 3868;	repair of
-3873 3876	repair ofDSB
+T27	GO_0006302 3859 3868;3873 3876	repair of DSB
 T28	GO_0035822 3901 3916	gene conversion
 T29	GO_0006281 3994 4000	repair
 T30	GO_0010467 4156 4166	expression
@@ -80,14 +74,12 @@ T72	GO_0006281 9858 9864	repair
 T73	GO_0065007 10073 10083	regulatory
 T74	GO_0051235 10169 10182	sequestration
 T75	GO_0006260 10388 10403	DNA replication
-T76	GO_0065003 10434 10447;	assembly into
-10471 10480	assembly intocomplexes
+T76	GO_0065003 10434 10447;10471 10480	assembly into complexes
 T77	GO_0000725 10448 10470	recombinational repair
 T78	GO_EXT_negative_regulation 10487 10506	negative regulatory
 T79	GO_0000725 10927 10949	recombinational repair
 T80	GO_PATO_EXT_biological_localization_process_or_quality 11444 11453	localizes
-T81	GO_0065003 11573 11584;	assembly of
-11603 11610	assembly ofcomplex
+T81	GO_0065003 11573 11584;11603 11610	assembly of complex
 T82	GO_SO_EXT_sequence_rearrangement_process 11589 11602	recombination
 T83	GO_EXT_reaction_or_response 11910 11918	response
 T84	GO_0000725 12031 12053	recombinational repair
@@ -101,8 +93,7 @@ T91	GO_0006281 13054 13062	repaired
 T92	GO_0035822 13082 13097	gene conversion
 T93	GO_0035822 13251 13266	gene conversion
 T94	GO_EXT_biological_recruitment 13695 13704	recruited
-T95	GO_0065003 13814 13825;	assembly of
-13837 13846	assembly ofcomplexes
+T95	GO_0065003 13814 13825;13837 13846	assembly of complexes
 T96	GO_0051235 13924 13935	sequestered
 T97	GO_EXT_biological_recruitment 14074 14083	recruited
 T98	GO_EXT_positive_regulation 14108 14127	Positive regulation

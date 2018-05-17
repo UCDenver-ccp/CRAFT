@@ -26,8 +26,7 @@ T24	GO_EXT_transcription 5284 5297	transcription
 T25	GO_EXT_transcription 5457 5472	transcriptional
 T26	GO_0065007 5473 5483	regulation
 T27	GO_0010467 5810 5820	expression
-T28	GO_0048468 5897 5910;	Generation of
-5914 5919	Generation ofCells
+T28	GO_0048468 5897 5910;5914 5919	Generation of Cells
 T29	GO_SO_EXT_sequence_rearrangement_process 6186 6199	recombination
 T30	GO_0010467 6513 6528	gene expression
 T31	GO_EXT_biological_growth_entity_or_process 6649 6655	growth
@@ -135,10 +134,8 @@ T132	GO_PATO_EXT_biological_behavior 23157 23168	behavioural
 T133	GO_0000003 23204 23213	reproduce
 T134	GO_0009048 23386 23411	X chromosome inactivation
 T135	GO_0071514 23435 23445	imprinting
-T136	GO_0060817 23558 23573;	inactivation of
-23578 23599	inactivation ofpaternal X chromosome
-T137	GO_0060817 23558 23573;	inactivation of
-23601 23603	inactivation ofXp
+T136	GO_0060817 23558 23573;23578 23599	inactivation of paternal X chromosome
+T137	GO_0060817 23558 23573;23601 23603	inactivation of Xp
 T138	GO_0009048 23709 23723	X-inactivation
 T139	GO_0060819 23819 23843	imprinted X-inactivation
 T140	GO_0016458 23875 23884	silencing
@@ -191,10 +188,8 @@ T186	GO_RO_EXT_developmental_differentiation_process 31217 31232	differentiation
 T187	GO_0009048 31560 31574	X-inactivation
 T188	GO_0007566 31702 31714	implantation
 T189	GO_EXT_fatality_or_lethality 31715 31724	lethality
-T190	GO_0048866 32007 32023;	specification of
-32036 32046	specification ofstem cells
-T191	GO_0072089 32068 32077;	stem cell
-32094 32107	stem cellproliferation
+T190	GO_0048866 32007 32023;32036 32046	specification of stem cells
+T191	GO_0072089 32068 32077;32094 32107	stem cell proliferation
 T192	GO_0019827 32068 32089	stem cell maintenance
 T193	GO_0007566 32153 32160	implant
 T194	GO_0016265 32165 32168	die
@@ -229,8 +224,7 @@ T222	GO_0016265 35776 35779	die
 T223	GO_EXT_biological_growth_entity_or_process 35922 35928	growth
 T224	GO_0010467 36033 36040	express
 T225	GO_0010467 36093 36103	expression
-T226	GO_0016458 36265 36277;	silencing of
-36287 36291	silencing ofgene
+T226	GO_0016458 36265 36277;36287 36291	silencing of gene
 T227	GO_0016458 36537 36545	silenced
 T228	GO_0060819 36643 36667	imprinted X-inactivation
 T229	GO_0010467 36730 36740	expression
@@ -240,16 +234,13 @@ T232	GO_0016458 37449 37457	silenced
 T233	GO_0006260 37636 37647	replication
 T234	GO_0071514 37873 37882	imprinted
 T235	GO_0016458 37930 37939	silencing
-T236	GO_0030154 37958 37962;	cell
-37973 37988	celldifferentiation
+T236	GO_0030154 37958 37962;37973 37988	cell differentiation
 T237	GO_EXT_biological_growth_entity_or_process 37963 37969	growth
 T238	GO_0071514 38082 38092	imprinting
 T239	GO_0016265 38617 38622	dying
-T240	GO_0060817 38720 38735;	inactivation of
-38740 38750	inactivation ofpaternal X
+T240	GO_0060817 38720 38735;38740 38750	inactivation of paternal X
 T241	GO_0016458 38956 38965	silencing
-T242	GO_0060817 39082 39097;	inactivation of
-39109 39122	inactivation ofXp chromosome
+T242	GO_0060817 39082 39097;39109 39122	inactivation of Xp chromosome
 T243	GO_EXT_fatality_or_lethality 39140 39149	lethality
 T244	GO_0010467 39167 39177	expression
 T245	GO_0006338 39318 39339	chromatin remodelling
@@ -258,8 +249,7 @@ T247	GO_PATO_EXT_biological_behavior 39440 39449	behaviour
 T248	GO_RO_EXT_developmental_differentiation_process 39803 39818	differentiating
 T249	GO_EXT_fatality_or_lethality 39981 39987	lethal
 T250	GO_0060819 40116 40151	imprinted X-chromosome inactivation
-T251	GO_0048468 40235 40248;	Generation of
-40252 40257	Generation ofcells
+T251	GO_0048468 40235 40248;40252 40257	Generation of cells
 T252	GO_0035825 41177 41189	crossed-over
 T253	GO_SO_EXT_sequence_rearrangement_process 41266 41279	recombination
 T254	GO_0009294 41420 41431	transfected
@@ -281,19 +271,11 @@ T269	GO_0007566 45569 45581	implantation
 T270	GO_0030728 45749 45757	ovulated
 T271	GO_0007618 45802 45807	mated
 T272	GO_0007049 46305 46315	Cell Cycle
-T273	GO_0051318 46635 46637;	G1
-46727 46736;	G1phases of
-46741 46751	G1phases ofcell cycle
-T274	GO_0051320 46667 46668;	S
-46727 46736;	Sphases of
-46741 46751	Sphases ofcell cycle
-T275	GO_0000086 46695 46699;	G2/M
-46727 46736;	G2/Mphases of
-46741 46751	G2/Mphases ofcell cycle
-T276	GO_0051318 46845 46847;	G1
-46861 46878	G1cell-cycle phases
-T277	GO_0051320 46849 46850;	S
-46861 46878	Scell-cycle phases
+T273	GO_0051318 46635 46637;46727 46736;46741 46751	G1 phases of cell cycle
+T274	GO_0051320 46667 46668;46727 46736;46741 46751	S phases of cell cycle
+T275	GO_0000086 46695 46699;46727 46736;46741 46751	G2/M phases of cell cycle
+T276	GO_0051318 46845 46847;46861 46878	G1 cell-cycle phases
+T277	GO_0051320 46849 46850;46861 46878	S cell-cycle phases
 T278	GO_0000086 46856 46878	G2/M cell-cycle phases
 T279	GO_0007067 47025 47032	mitosis
 T280	GO_PATO_EXT_phosphorylation_process_or_quality 47040 47054	phosphorylated

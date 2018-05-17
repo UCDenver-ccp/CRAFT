@@ -1,15 +1,11 @@
 T0	Noun_Phrase 0 102	Production and characterization of murine models of classic and intermediate maple syrup urine disease
 T1	IDENTITY_chain 0 102	Production and characterization of murine models of classic and intermediate maple syrup urine disease
-T2	Noun_Phrase 35 59;	murine models of classic
-77 102	murine models of classicmaple syrup urine disease
-T3	IDENTITY_chain 35 59;	murine models of classic
-77 102	murine models of classicmaple syrup urine disease
+T2	Noun_Phrase 35 59;77 102	murine models of classic maple syrup urine disease
+T3	IDENTITY_chain 35 59;77 102	murine models of classic maple syrup urine disease
 T4	Noun_Phrase 35 102	murine models of classic and intermediate maple syrup urine disease
 T5	IDENTITY_chain 35 102	murine models of classic and intermediate maple syrup urine disease
-T6	Noun_Phrase 52 59;	classic
-77 102	classicmaple syrup urine disease
-T7	IDENTITY_chain 52 59;	classic
-77 102	classicmaple syrup urine disease
+T6	Noun_Phrase 52 59;77 102	classic maple syrup urine disease
+T7	IDENTITY_chain 52 59;77 102	classic maple syrup urine disease
 T8	Noun_Phrase 64 102	intermediate maple syrup urine disease
 T9	IDENTITY_chain 64 102	intermediate maple syrup urine disease
 T10	Noun_Phrase 126 151	Maple Syrup Urine Disease
@@ -87,8 +83,7 @@ T81	Noun_Phrase 1741 1751	These mice
 T82	IDENTITY_chain 1741 1751	These mice
 T83	Noun_Phrase 1828 1882	humans with the classic and intermediate forms of MSUD
 T84	IDENTITY_chain 1828 1882	humans with the classic and intermediate forms of MSUD
-T85	Noun_Phrase 1840 1851;	the classic
-1869 1882	the classicforms of MSUD
+T85	Noun_Phrase 1840 1851;1869 1882	the classic forms of MSUD
 T86	Noun_Phrase 1856 1882	intermediate forms of MSUD
 T87	Noun_Phrase 1884 1897	These animals
 T88	Noun_Phrase 1944 1968	the pathogenesis of MSUD
@@ -96,10 +91,8 @@ T89	IDENTITY_chain 1944 1968	the pathogenesis of MSUD
 T90	Noun_Phrase 1964 1968	MSUD
 T91	Noun_Phrase 1996 2061	novel therapeutic strategies, such as gene and cellular therapies
 T92	IDENTITY_chain 1996 2061	novel therapeutic strategies, such as gene and cellular therapies
-T93	Noun_Phrase 2034 2038;	gene
-2052 2061	genetherapies
-T94	IDENTITY_chain 2034 2038;	gene
-2052 2061	genetherapies
+T93	Noun_Phrase 2034 2038;2052 2061	gene therapies
+T94	IDENTITY_chain 2034 2038;2052 2061	gene therapies
 T95	Noun_Phrase 2034 2061	gene and cellular therapies
 T96	IDENTITY_chain 2034 2061	gene and cellular therapies
 T97	Noun_Phrase 2043 2061	cellular therapies
@@ -178,8 +171,7 @@ T169	APPOS_relation 3613 3642	a dihydrolipoyl dehydrogenase
 T170	Noun_Phrase 3644 3646	E3
 T171	Noun_Phrase 3649 3665	The E1 component
 T172	IDENTITY_chain 3649 3665	The E1 component
-T173	Noun_Phrase 3728 3734;	The E1
-3742 3752	The E1components
+T173	Noun_Phrase 3728 3734;3742 3752	The E1 components
 T174	Noun_Phrase 3739 3741	E2
 T175	Noun_Phrase 3769 3774	BCKDH
 T176	Noun_Phrase 3897 3902	BCKDH
@@ -193,8 +185,7 @@ T183	Noun_Phrase 4058 4070	inactivation
 T184	Noun_Phrase 4076 4093	dephosphorylation
 T185	APPOS_relation 4076 4093	dephosphorylation
 T186	Noun_Phrase 4095 4105	activation
-T187	Noun_Phrase 4153 4169;	the genes of the
-4177 4197	the genes of theE2 subunits of BCKDH
+T187	Noun_Phrase 4153 4169;4177 4197	the genes of the E2 subunits of BCKDH
 T188	Noun_Phrase 4192 4197	BCKDH
 T189	Noun_Phrase 4244 4248	MSUD
 T190	Noun_Phrase 4286 4300	the E2 subunit
@@ -307,16 +298,13 @@ T296	Noun_Phrase 6992 7058	the generation and characterization of these murine m
 T297	Noun_Phrase 7031 7058	these murine models of MSUD
 T298	Noun_Phrase 7054 7058	MSUD
 T299	Noun_Phrase 7060 7072	These models
-T300	Noun_Phrase 7143 7147;	gene
-7161 7170	genetherapies
+T300	Noun_Phrase 7143 7147;7161 7170	gene therapies
 T301	Noun_Phrase 7191 7195	MSUD
 T302	Noun_Phrase 7229 7236	animals
 T303	Noun_Phrase 7267 7297	the University of Pittsburgh's
 T304	IDENTITY_chain 7267 7297	the University of Pittsburgh's
-T305	Noun_Phrase 7443 7450;	Exons 4
-7457 7471	Exons 4of the E2 gene
-T306	IDENTITY_chain 7443 7450;	Exons 4
-7457 7471	Exons 4of the E2 gene
+T305	Noun_Phrase 7443 7450;7457 7471	Exons 4 of the E2 gene
+T306	IDENTITY_chain 7443 7450;7457 7471	Exons 4 of the E2 gene
 T307	Noun_Phrase 7460 7471	the E2 gene
 T308	Noun_Phrase 7800 7807	Fig. 1A
 T309	IDENTITY_chain 7800 7807	Fig. 1A
@@ -331,14 +319,10 @@ T317	IDENTITY_chain 8328 8355	Correctly targeted ES cells
 T318	Noun_Phrase 8407 8420	chimeric mice
 T319	IDENTITY_chain 8407 8420	chimeric mice
 T320	Noun_Phrase 8533 8548	wild type (+/+)
-T321	Noun_Phrase 8533 8548;	wild type (+/+)
-8599 8603	wild type (+/+)mice
-T322	IDENTITY_chain 8533 8548;	wild type (+/+)
-8599 8603	wild type (+/+)mice
-T323	Noun_Phrase 8550 8568;	heterozygous (+/-)
-8599 8603	heterozygous (+/-)mice
-T324	IDENTITY_chain 8550 8568;	heterozygous (+/-)
-8599 8603	heterozygous (+/-)mice
+T321	Noun_Phrase 8533 8548;8599 8603	wild type (+/+) mice
+T322	IDENTITY_chain 8533 8548;8599 8603	wild type (+/+) mice
+T323	Noun_Phrase 8550 8568;8599 8603	heterozygous (+/-) mice
+T324	IDENTITY_chain 8550 8568;8599 8603	heterozygous (+/-) mice
 T325	Noun_Phrase 8573 8603	homozygous knockout (-/-) mice
 T326	Noun_Phrase 8813 8835	E2 gene knockout mouse
 T327	Noun_Phrase 8894 8924	the E2 locus in mouse ES cells
@@ -364,10 +348,8 @@ T346	APPOS_relation 9508 9510	R1
 T347	Noun_Phrase 9508 9510	R1
 T348	Noun_Phrase 9513 9549	a heterozygous targeted ES cell line
 T349	Noun_Phrase 9566 9581	wild type (+/+)
-T350	Noun_Phrase 9566 9581;	wild type (+/+)
-9632 9636	wild type (+/+)mice
-T351	Noun_Phrase 9583 9601;	heterozygous (+/-)
-9632 9636	heterozygous (+/-)mice
+T350	Noun_Phrase 9566 9581;9632 9636	wild type (+/+) mice
+T351	Noun_Phrase 9583 9601;9632 9636	heterozygous (+/-) mice
 T352	Noun_Phrase 9606 9636	homozygous knockout (-/-) mice
 T353	Noun_Phrase 9638 9646	The blot
 T354	Noun_Phrase 9667 9691	an Exon 6 specific probe
@@ -474,13 +456,10 @@ T454	Noun_Phrase 14442 14447	liver
 T455	Noun_Phrase 14474 14486	newborn pups
 T456	Noun_Phrase 14488 14493	BCKDH
 T457	Noun_Phrase 14488 14502	BCKDH activity
-T458	Noun_Phrase 14557 14563;	?-keto
-14572 14583	?-ketoisocaproate
-T459	IDENTITY_chain 14557 14563;	?-keto
-14572 14583	?-ketoisocaproate
+T458	Noun_Phrase 14557 14563;14572 14583	?-keto isocaproate
+T459	IDENTITY_chain 14557 14563;14572 14583	?-keto isocaproate
 T460	Noun_Phrase 14724 14741	?-ketoisocaproate
-T461	Noun_Phrase 14861 14867;	?-keto
-14876 14887	?-ketoisocaproate
+T461	Noun_Phrase 14861 14867;14876 14887	?-keto isocaproate
 T462	Noun_Phrase 14904 14909	liver
 T463	Noun_Phrase 14904 14920	liver homogenate
 T464	Noun_Phrase 14929 14936	protein
@@ -488,13 +467,10 @@ T465	Noun_Phrase 15098 15119	Western blot analysis
 T466	IDENTITY_chain 15098 15119	Western blot analysis
 T467	Noun_Phrase 15121 15128	Protein
 T468	Noun_Phrase 15215 15223	wildtype
-T469	Noun_Phrase 15215 15223;	wildtype
-15247 15262	wildtypetransgenic mice
+T469	Noun_Phrase 15215 15223;15247 15262	wildtype transgenic mice
 T470	Noun_Phrase 15225 15234	Line 525A
-T471	Noun_Phrase 15225 15234;	Line 525A
-15247 15262	Line 525Atransgenic mice
-T472	IDENTITY_chain 15225 15234;	Line 525A
-15247 15262	Line 525Atransgenic mice
+T471	Noun_Phrase 15225 15234;15247 15262	Line 525A transgenic mice
+T472	IDENTITY_chain 15225 15234;15247 15262	Line 525A transgenic mice
 T473	IDENTITY_chain 15225 15234	Line 525A
 T474	Noun_Phrase 15240 15246	Line A
 T475	IDENTITY_chain 15240 15246	Line A
@@ -532,10 +508,8 @@ T506	Noun_Phrase 16575 16603	The gene targeting construct
 T507	Noun_Phrase 16808 16830	Southern blot analysis
 T508	Noun_Phrase 16938 16950	the E2 locus
 T509	Noun_Phrase 16942 16944	E2
-T510	Noun_Phrase 16970 16974;	Fig.
-16982 16984	Fig.1B
-T511	IDENTITY_chain 16970 16974;	Fig.
-16982 16984	Fig.1B
+T510	Noun_Phrase 16970 16974;16982 16984	Fig. 1B
+T511	IDENTITY_chain 16970 16974;16982 16984	Fig. 1B
 T512	Noun_Phrase 16970 16977	Fig. 1A
 T513	Noun_Phrase 16986 17013	an E2 Exon 6 specific probe
 T514	IDENTITY_chain 16986 17013	an E2 Exon 6 specific probe
@@ -551,10 +525,8 @@ T523	Noun_Phrase 17460 17469	Chimerics
 T524	Noun_Phrase 17554 17566	heterozygous
 T525	Noun_Phrase 17554 17571	heterozygous mice
 T526	Noun_Phrase 17598 17613	wild type (+/+)
-T527	Noun_Phrase 17598 17613;	wild type (+/+)
-17655 17662	wild type (+/+)animals
-T528	Noun_Phrase 17615 17633;	heterozygous (+/-)
-17655 17662	heterozygous (+/-)animals
+T527	Noun_Phrase 17598 17613;17655 17662	wild type (+/+) animals
+T528	Noun_Phrase 17615 17633;17655 17662	heterozygous (+/-) animals
 T529	Noun_Phrase 17638 17662	homozygous (-/-) animals
 T530	IDENTITY_chain 17638 17662	homozygous (-/-) animals
 T531	Noun_Phrase 17664 17668	Mice
@@ -571,11 +543,9 @@ T541	Noun_Phrase 17944 17966	the expected frequency
 T542	IDENTITY_chain 17944 17966	the expected frequency
 T543	Noun_Phrase 18007 18025	+/- by +/- matings
 T544	IDENTITY_chain 18007 18025	+/- by +/- matings
-T545	Noun_Phrase 18040 18043;	+/+
-18058 18062	+/+mice
+T545	Noun_Phrase 18040 18043;18058 18062	+/+ mice
 T546	Noun_Phrase 18040 18043	+/+
-T547	Noun_Phrase 18045 18048;	+/-
-18058 18062	+/-mice
+T547	Noun_Phrase 18045 18048;18058 18062	+/- mice
 T548	Noun_Phrase 18054 18062	-/- mice
 T549	Noun_Phrase 18167 18170	+/+
 T550	Noun_Phrase 18186 18189	+/-
@@ -586,10 +556,8 @@ T554	IDENTITY_chain 18383 18388	birth
 T555	Noun_Phrase 18390 18405	homozygous pups
 T556	IDENTITY_chain 18390 18405	homozygous pups
 T557	Noun_Phrase 18434 18439	their
-T558	Noun_Phrase 18440 18443;	+/+
-18452 18463	+/+littermates
-T559	IDENTITY_chain 18440 18443;	+/+
-18452 18463	+/+littermates
+T558	Noun_Phrase 18440 18443;18452 18463	+/+ littermates
+T559	IDENTITY_chain 18440 18443;18452 18463	+/+ littermates
 T560	Noun_Phrase 18440 18443	+/+
 T561	Noun_Phrase 18448 18463	+/- littermates
 T562	IDENTITY_chain 18448 18463	+/- littermates
@@ -634,20 +602,12 @@ T600	Noun_Phrase 19463 19475	classic MSUD
 T601	Noun_Phrase 19524 19553	the classic MSUD murine model
 T602	Noun_Phrase 19528 19540	classic MSUD
 T603	Noun_Phrase 19558 19563	BCKDH
-T604	Noun_Phrase 19592 19599;	newborn
-19625 19643;	newbornheterozygous (+/-)
-19666 19679	newbornheterozygous (+/-)knockout mice
-T605	IDENTITY_chain 19592 19599;	newborn
-19625 19643;	newbornheterozygous (+/-)
-19666 19679	newbornheterozygous (+/-)knockout mice
-T606	Noun_Phrase 19592 19599;	newborn
-19649 19679	newbornhomozygous (-/-) knockout mice
-T607	IDENTITY_chain 19592 19599;	newborn
-19649 19679	newbornhomozygous (-/-) knockout mice
-T608	Noun_Phrase 19592 19623;	newborn wild type control (+/+)
-19666 19679	newborn wild type control (+/+)knockout mice
-T609	IDENTITY_chain 19592 19623;	newborn wild type control (+/+)
-19666 19679	newborn wild type control (+/+)knockout mice
+T604	Noun_Phrase 19592 19599;19625 19643;19666 19679	newborn heterozygous (+/-) knockout mice
+T605	IDENTITY_chain 19592 19599;19625 19643;19666 19679	newborn heterozygous (+/-) knockout mice
+T606	Noun_Phrase 19592 19599;19649 19679	newborn homozygous (-/-) knockout mice
+T607	IDENTITY_chain 19592 19599;19649 19679	newborn homozygous (-/-) knockout mice
+T608	Noun_Phrase 19592 19623;19666 19679	newborn wild type control (+/+) knockout mice
+T609	IDENTITY_chain 19592 19623;19666 19679	newborn wild type control (+/+) knockout mice
 T610	Noun_Phrase 19681 19696	Enzyme activity
 T611	Noun_Phrase 19793 19802	-/- liver
 T612	Noun_Phrase 19807 19817	Total BCAA
@@ -667,8 +627,7 @@ T625	IDENTITY_chain 20021 20068	Ratio of total BCAA to alanine in blood of mice
 T626	Noun_Phrase 20064 20068	mice
 T627	Noun_Phrase 20070 20080	This ratio
 T628	Noun_Phrase 20111 20119	-/- mice
-T629	Noun_Phrase 20132 20135;	+/+
-20144 20148	+/+mice
+T629	Noun_Phrase 20132 20135;20144 20148	+/+ mice
 T630	Noun_Phrase 20132 20135	+/+
 T631	Noun_Phrase 20140 20148	+/- mice
 T632	Noun_Phrase 20245 20248	+/+
@@ -731,8 +690,7 @@ T688	Noun_Phrase 21300 21307	Table 1
 T689	IDENTITY_chain 21300 21307	Table 1
 T690	Noun_Phrase 21323 21344	all three amino acids
 T691	Noun_Phrase 21348 21363	homozygous mice
-T692	Noun_Phrase 21403 21406;	+/+
-21414 21418	+/+mice
+T692	Noun_Phrase 21403 21406;21414 21418	+/+ mice
 T693	Noun_Phrase 21403 21406	+/+
 T694	Noun_Phrase 21410 21418	+/- mice
 T695	Noun_Phrase 21434 21451	these amino acids
@@ -758,8 +716,7 @@ T714	Noun_Phrase 21909 21918	Figure 2C
 T715	IDENTITY_chain 21909 21918	Figure 2C
 T716	Noun_Phrase 21920 21930	this ratio
 T717	Noun_Phrase 21934 21942	-/- pups
-T718	Noun_Phrase 21976 21979;	+/+
-21987 21998	+/+littermates
+T718	Noun_Phrase 21976 21979;21987 21998	+/+ littermates
 T719	Noun_Phrase 21976 21979	+/+
 T720	Noun_Phrase 21983 21998	+/- littermates
 T721	Noun_Phrase 22000 22030	These blood amino acid results
@@ -855,19 +812,16 @@ T810	Noun_Phrase 24076 24081	human
 T811	Noun_Phrase 24094 24101	alanine
 T812	Noun_Phrase 24225 24240	transgenic mice
 T813	Noun_Phrase 24270 24272	E2
-T814	Noun_Phrase 24293 24300;	control
-24323 24327	controlmice
+T814	Noun_Phrase 24293 24300;24323 24327	control mice
 T815	Noun_Phrase 24305 24322	intermediate MSUD
 T816	Noun_Phrase 24305 24327	intermediate MSUD mice
 T817	IDENTITY_chain 24305 24327	intermediate MSUD mice
 T818	Noun_Phrase 24353 24361	human E2
-T819	Noun_Phrase 24395 24410;	mice from Lines
-24417 24422	mice from Lines525 A
+T819	Noun_Phrase 24395 24410;24417 24422	mice from Lines 525 A
 T820	Noun_Phrase 24395 24412	mice from Lines A
 T821	Noun_Phrase 24395 24422	mice from Lines A and 525 A
 T822	IDENTITY_chain 24395 24422	mice from Lines A and 525 A
-T823	Noun_Phrase 24405 24410;	Lines
-24417 24422	Lines525 A
+T823	Noun_Phrase 24405 24410;24417 24422	Lines 525 A
 T824	Noun_Phrase 24405 24412	Lines A
 T825	Noun_Phrase 24405 24422	Lines A and 525 A
 T826	Noun_Phrase 24451 24462	the animals
@@ -947,16 +901,12 @@ T899	Noun_Phrase 27389 27406	TRE-E2 transgenes
 T900	Noun_Phrase 27468 27481	this genotype
 T901	Noun_Phrase 27497 27523	this population of animals
 T902	Noun_Phrase 27516 27523	animals
-T903	Noun_Phrase 27648 27657;	mice from
-27671 27676;	mice fromLines
-27683 27687	mice fromLines525A
-T904	Noun_Phrase 27648 27657;	mice from
-27671 27678	mice fromLines A
+T903	Noun_Phrase 27648 27657;27671 27676;27683 27687	mice from Lines 525A
+T904	Noun_Phrase 27648 27657;27671 27678	mice from Lines A
 T905	Noun_Phrase 27648 27666	mice from controls
 T906	Noun_Phrase 27648 27687	mice from controls and Lines A and 525A
 T907	IDENTITY_chain 27648 27687	mice from controls and Lines A and 525A
-T908	Noun_Phrase 27671 27676;	Lines
-27683 27687	Lines525A
+T908	Noun_Phrase 27671 27676;27683 27687	Lines 525A
 T909	Noun_Phrase 27671 27678	Lines A
 T910	Noun_Phrase 27671 27687	Lines A and 525A
 T911	IDENTITY_chain 27671 27687	Lines A and 525A
@@ -966,40 +916,29 @@ T914	Noun_Phrase 27721 27752	leucine, isoleucine, and valine
 T915	Noun_Phrase 27730 27740	isoleucine
 T916	Noun_Phrase 27746 27752	valine
 T917	Noun_Phrase 27754 27766	BCAA/alanine
-T918	Noun_Phrase 27805 27810;	Lines
-27817 27821	Lines525A
+T918	Noun_Phrase 27805 27810;27817 27821	Lines 525A
 T919	Noun_Phrase 27805 27812	Lines A
 T920	Noun_Phrase 27805 27821	Lines A and 525A
 T921	Noun_Phrase 27933 27934	P
 T922	Noun_Phrase 27947 27948	P
 T923	Noun_Phrase 27961 27966	BCKDH
-T924	Noun_Phrase 27986 27994;	liver of
-28007 28028	liver ofLines A and 525A mice
-T925	IDENTITY_chain 27986 27994;	liver of
-28007 28028	liver ofLines A and 525A mice
-T926	Noun_Phrase 27986 28002;	liver of control
-28024 28028	liver of controlmice
-T927	IDENTITY_chain 27986 28002;	liver of control
-28024 28028	liver of controlmice
-T928	Noun_Phrase 27995 28002;	control
-28024 28028	controlmice
+T924	Noun_Phrase 27986 27994;28007 28028	liver of Lines A and 525A mice
+T925	IDENTITY_chain 27986 27994;28007 28028	liver of Lines A and 525A mice
+T926	Noun_Phrase 27986 28002;28024 28028	liver of control mice
+T927	IDENTITY_chain 27986 28002;28024 28028	liver of control mice
+T928	Noun_Phrase 27995 28002;28024 28028	control mice
 T929	Noun_Phrase 27995 28028	control and Lines A and 525A mice
-T930	Noun_Phrase 28007 28012;	Lines
-28019 28023	Lines525A
-T931	Noun_Phrase 28007 28012;	Lines
-28019 28028	Lines525A mice
+T930	Noun_Phrase 28007 28012;28019 28023	Lines 525A
+T931	Noun_Phrase 28007 28012;28019 28028	Lines 525A mice
 T932	Noun_Phrase 28007 28014	Lines A
-T933	Noun_Phrase 28007 28014;	Lines A
-28024 28028	Lines Amice
+T933	Noun_Phrase 28007 28014;28024 28028	Lines A mice
 T934	Noun_Phrase 28007 28023	Lines A and 525A
 T935	Noun_Phrase 28033 28034	P
 T936	Noun_Phrase 28048 28049	P
-T937	Noun_Phrase 28083 28098;	mice from Lines
-28105 28109	mice from Lines525A
+T937	Noun_Phrase 28083 28098;28105 28109	mice from Lines 525A
 T938	Noun_Phrase 28083 28100	mice from Lines A
 T939	Noun_Phrase 28083 28109	mice from Lines A and 525A
-T940	Noun_Phrase 28093 28098;	Lines
-28105 28109	Lines525A
+T940	Noun_Phrase 28093 28098;28105 28109	Lines 525A
 T941	Noun_Phrase 28093 28100	Lines A
 T942	Noun_Phrase 28093 28109	Lines A and 525A
 T943	Noun_Phrase 28111 28139	Rescue mice alive at weaning
@@ -1007,8 +946,7 @@ T944	IDENTITY_chain 28111 28139	Rescue mice alive at weaning
 T945	Noun_Phrase 28132 28139	weaning
 T946	Noun_Phrase 28161 28165	they
 T947	Noun_Phrase 28230 28235	their
-T948	Noun_Phrase 28244 28249;	Lines
-28256 28260	Lines525A
+T948	Noun_Phrase 28244 28249;28256 28260	Lines 525A
 T949	Noun_Phrase 28244 28251	Lines A
 T950	Noun_Phrase 28244 28260	Lines A and 525A
 T951	Noun_Phrase 28335 28351	blood amino acid
@@ -1060,14 +998,12 @@ T996	Noun_Phrase 29339 29344	liver
 T997	Noun_Phrase 29371 29376	BCKDH
 T998	Noun_Phrase 29411 29419	human E2
 T999	Noun_Phrase 29431 29456	liver of Lines A and 525A
-T1000	Noun_Phrase 29440 29445;	Lines
-29452 29456	Lines525A
+T1000	Noun_Phrase 29440 29445;29452 29456	Lines 525A
 T1001	Noun_Phrase 29440 29447	Lines A
 T1002	Noun_Phrase 29440 29456	Lines A and 525A
 T1003	Noun_Phrase 29471 29476	BCKDH
 T1004	Noun_Phrase 29499 29526	liver from Lines A and 525A
-T1005	Noun_Phrase 29510 29515;	Lines
-29522 29526	Lines525A
+T1005	Noun_Phrase 29510 29515;29522 29526	Lines 525A
 T1006	Noun_Phrase 29510 29517	Lines A
 T1007	Noun_Phrase 29510 29526	Lines A and 525A
 T1008	Noun_Phrase 29593 29600	control
@@ -1141,8 +1077,7 @@ T1075	Noun_Phrase 32085 32273	the development and characterization of two geneti
 T1076	Noun_Phrase 32125 32273	two genetically engineered mouse models that are phenotypically very similar to MSUD patients with the classic and intermediate forms of the disease
 T1077	Noun_Phrase 32205 32209	MSUD
 T1078	Noun_Phrase 32205 32273	MSUD patients with the classic and intermediate forms of the disease
-T1079	Noun_Phrase 32224 32235;	the classic
-32253 32273	the classicforms of the disease
+T1079	Noun_Phrase 32224 32235;32253 32273	the classic forms of the disease
 T1080	Noun_Phrase 32240 32273	intermediate forms of the disease
 T1081	Noun_Phrase 32262 32273	the disease
 T1082	Noun_Phrase 32276 32279	Our
@@ -1282,8 +1217,7 @@ T1215	Noun_Phrase 36967 36977	human MSUD
 T1216	Noun_Phrase 37026 37047	the MSUD mouse models
 T1217	Noun_Phrase 37030 37034	MSUD
 T1218	Noun_Phrase 37059 37121	novel treatments such as gene [38-41] and cell based therapies
-T1219	Noun_Phrase 37084 37088;	gene
-37112 37121	genetherapies
+T1219	Noun_Phrase 37084 37088;37112 37121	gene therapies
 T1220	Noun_Phrase 37084 37121	gene [38-41] and cell based therapies
 T1221	Noun_Phrase 37101 37121	cell based therapies
 T1222	Noun_Phrase 37152 37172	embryonic stem cells
@@ -1293,8 +1227,7 @@ T1225	Noun_Phrase 37296 37302	animal
 T1226	Noun_Phrase 37334 37353	preclinical studies
 T1227	Noun_Phrase 37355 37435	The testing of gene and cell based therapies on appropriate animal model systems
 T1228	IDENTITY_chain 37355 37435	The testing of gene and cell based therapies on appropriate animal model systems
-T1229	Noun_Phrase 37370 37374;	gene
-37390 37399	genetherapies
+T1229	Noun_Phrase 37370 37374;37390 37399	gene therapies
 T1230	Noun_Phrase 37556 37562	animal
 T1231	Noun_Phrase 37594 37621	such therapeutic approaches
 T1232	Noun_Phrase 37649 37666	studies in humans
@@ -1331,15 +1264,13 @@ T1262	Noun_Phrase 39029 39039	Conclusion
 T1263	Noun_Phrase 39053 39064	this report
 T1264	Noun_Phrase 39075 39190	the development and characterization of genetically engineered mouse models of classic as well as intermediate MSUD
 T1265	Noun_Phrase 39115 39190	genetically engineered mouse models of classic as well as intermediate MSUD
-T1266	Noun_Phrase 39154 39161;	classic
-39186 39190	classicMSUD
+T1266	Noun_Phrase 39154 39161;39186 39190	classic MSUD
 T1267	Noun_Phrase 39173 39190	intermediate MSUD
 T1268	Noun_Phrase 39192 39205	These animals
 T1269	Noun_Phrase 39252 39276	the pathogenesis of MSUD
 T1270	Noun_Phrase 39272 39276	MSUD
 T1271	Noun_Phrase 39304 39369	novel therapeutic strategies, such as gene and cellular therapies
-T1272	Noun_Phrase 39342 39346;	gene
-39360 39369	genetherapies
+T1272	Noun_Phrase 39342 39346;39360 39369	gene therapies
 T1273	Noun_Phrase 39342 39369	gene and cellular therapies
 T1274	Noun_Phrase 39351 39369	cellular therapies
 T1275	Noun_Phrase 39380 39414	this devastating metabolic disease

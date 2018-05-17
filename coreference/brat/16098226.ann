@@ -2,10 +2,8 @@ T0	Noun_Phrase 13 45	proteins that interact with PAX6
 T1	IDENTITY_chain 13 45	proteins that interact with PAX6
 T2	Noun_Phrase 41 45	PAX6
 T3	IDENTITY_chain 41 45	PAX6
-T4	Noun_Phrase 76 92;	interaction with
-111 117	interaction withTRIM11
-T5	IDENTITY_chain 76 92;	interaction with
-111 117	interaction withTRIM11
+T4	Noun_Phrase 76 92;111 117	interaction with TRIM11
+T5	IDENTITY_chain 76 92;111 117	interaction with TRIM11
 T6	Noun_Phrase 93 99	HOMER3
 T7	IDENTITY_chain 93 99	HOMER3
 T8	Noun_Phrase 101 106	DNCL1
@@ -20,10 +18,8 @@ T16	Noun_Phrase 141 157	The PAX6 protein
 T17	Noun_Phrase 305 318	the PAX6 gene
 T18	IDENTITY_chain 305 318	the PAX6 gene
 T19	Noun_Phrase 309 313	PAX6
-T20	Noun_Phrase 341 344;	the
-353 358	thebrain
-T21	IDENTITY_chain 341 344;	the
-353 358	thebrain
+T20	Noun_Phrase 341 344;353 358	the brain
+T21	IDENTITY_chain 341 344;353 358	the brain
 T22	Noun_Phrase 341 348	the eye
 T23	IDENTITY_chain 341 348	the eye
 T24	Noun_Phrase 402 406	PAX6
@@ -74,10 +70,8 @@ T68	Noun_Phrase 1206 1211	DNCL1
 T69	Noun_Phrase 1206 1222	DNCL1 and TRIM11
 T70	Noun_Phrase 1216 1222	TRIM11
 T71	Noun_Phrase 1224 1226	We
-T72	Noun_Phrase 1240 1268;	the interaction of PAX6 with
-1280 1285	the interaction of PAX6 withDNCL1
-T73	IDENTITY_chain 1240 1268;	the interaction of PAX6 with
-1280 1285	the interaction of PAX6 withDNCL1
+T72	Noun_Phrase 1240 1268;1280 1285	the interaction of PAX6 with DNCL1
+T73	IDENTITY_chain 1240 1268;1280 1285	the interaction of PAX6 with DNCL1
 T74	Noun_Phrase 1240 1275	the interaction of PAX6 with HOMER3
 T75	IDENTITY_chain 1240 1275	the interaction of PAX6 with HOMER3
 T76	IDENTITY_chain 1240 1285	the interaction of PAX6 with HOMER3 and DNCL1
@@ -133,18 +127,14 @@ T125	IDENTITY_chain 2598 2625	distinctive brain anomalies
 T126	Noun_Phrase 2598 2625	distinctive brain anomalies
 T127	Noun_Phrase 2610 2615	brain
 T128	Noun_Phrase 2674 2679	these
-T129	Noun_Phrase 2684 2691;	absence
-2706 2732	absenceof the anterior commissure
-T130	IDENTITY_chain 2684 2691;	absence
-2706 2732	absenceof the anterior commissure
+T129	Noun_Phrase 2684 2691;2706 2732	absence of the anterior commissure
+T130	IDENTITY_chain 2684 2691;2706 2732	absence of the anterior commissure
 T131	Noun_Phrase 2695 2732	hypoplasia of the anterior commissure
 T132	IDENTITY_chain 2695 2732	hypoplasia of the anterior commissure
 T133	Noun_Phrase 2709 2732	the anterior commissure
 T134	IDENTITY_chain 2709 2732	the anterior commissure
-T135	Noun_Phrase 2762 2769;	absence
-2784 2803	absenceof the pineal gland
-T136	IDENTITY_chain 2762 2769;	absence
-2784 2803	absenceof the pineal gland
+T135	Noun_Phrase 2762 2769;2784 2803	absence of the pineal gland
+T136	IDENTITY_chain 2762 2769;2784 2803	absence of the pineal gland
 T137	Noun_Phrase 2773 2803	hypoplasia of the pineal gland
 T138	IDENTITY_chain 2773 2803	hypoplasia of the pineal gland
 T139	Noun_Phrase 2787 2803	the pineal gland
@@ -335,8 +325,7 @@ T323	IDENTITY_chain 8158 8162	cDNA
 T324	Noun_Phrase 8177 8204	the yeast two-hybrid system
 T325	IDENTITY_chain 8177 8204	the yeast two-hybrid system
 T326	Noun_Phrase 8181 8186	yeast
-T327	Noun_Phrase 8210 8221;	a construct
-8232 8324	a constructin which the 32 amino acid C-terminal peptide was fused to the yeast GAL4 DNA binding domain
+T327	Noun_Phrase 8210 8221;8232 8324	a construct in which the 32 amino acid C-terminal peptide was fused to the yeast GAL4 DNA binding domain
 T328	Noun_Phrase 8223 8230	PAX6CTP
 T329	APPOS_relation 8223 8230	PAX6CTP
 T330	IDENTITY_chain 8223 8230	PAX6CTP
@@ -427,24 +416,14 @@ T414	IDENTITY_chain 9938 9946	proteins
 T415	Noun_Phrase 9951 9955	PAX6
 T416	Noun_Phrase 9977 9998	Semi-quantitative PCR
 T417	IDENTITY_chain 9977 9998	Semi-quantitative PCR
-T418	Noun_Phrase 10014 10017;	the
-10026 10031;	theDncl1
-10043 10049	theDncl1clones
-T419	IDENTITY_chain 10014 10017;	the
-10026 10031;	theDncl1
-10043 10049	theDncl1clones
-T420	Noun_Phrase 10014 10017;	the
-10026 10049	theDncl1 and Trim11 clones
-T421	IDENTITY_chain 10014 10017;	the
-10026 10049	theDncl1 and Trim11 clones
-T422	Noun_Phrase 10014 10017;	the
-10036 10049	theTrim11 clones
-T423	IDENTITY_chain 10014 10017;	the
-10036 10049	theTrim11 clones
-T424	Noun_Phrase 10014 10024;	the Homer3
-10043 10049	the Homer3clones
-T425	IDENTITY_chain 10014 10024;	the Homer3
-10043 10049	the Homer3clones
+T418	Noun_Phrase 10014 10017;10026 10031;10043 10049	the Dncl1 clones
+T419	IDENTITY_chain 10014 10017;10026 10031;10043 10049	the Dncl1 clones
+T420	Noun_Phrase 10014 10017;10026 10049	the Dncl1 and Trim11 clones
+T421	IDENTITY_chain 10014 10017;10026 10049	the Dncl1 and Trim11 clones
+T422	Noun_Phrase 10014 10017;10036 10049	the Trim11 clones
+T423	IDENTITY_chain 10014 10017;10036 10049	the Trim11 clones
+T424	Noun_Phrase 10014 10024;10043 10049	the Homer3 clones
+T425	IDENTITY_chain 10014 10024;10043 10049	the Homer3 clones
 T426	Noun_Phrase 10018 10024	Homer3
 T427	Noun_Phrase 10026 10031	Dncl1
 T428	Noun_Phrase 10036 10042	Trim11
@@ -500,25 +479,21 @@ T477	Noun_Phrase 10825 10831	Homer3
 T478	Noun_Phrase 10847 10852	Dncl1
 T479	Noun_Phrase 10866 10872	Trim11
 T480	Noun_Phrase 10911 10917	Atp5a1
-T481	Noun_Phrase 10911 10917;	Atp5a1
-10927 10936	Atp5a1and Gapdh
+T481	Noun_Phrase 10911 10917;10927 10936	Atp5a1 and Gapdh
 T482	Noun_Phrase 10931 10936	Gapdh
 T483	Noun_Phrase 10977 10986	the brain
 T484	Noun_Phrase 11131 11133	We
 T485	Noun_Phrase 11149 11155	Homer3
-T486	Noun_Phrase 11149 11155;	Homer3
-11174 11180	Homer3clones
+T486	Noun_Phrase 11149 11155;11174 11180	Homer3 clones
 T487	Noun_Phrase 11157 11162	Dncl1
-T488	Noun_Phrase 11157 11162;	Dncl1
-11174 11180	Dncl1clones
+T488	Noun_Phrase 11157 11162;11174 11180	Dncl1 clones
 T489	Noun_Phrase 11157 11180	Dncl1 and Trim11 clones
 T490	Noun_Phrase 11167 11173	Trim11
 T491	Noun_Phrase 11167 11180	Trim11 clones
 T492	Noun_Phrase 11209 11220	the library
 T493	Noun_Phrase 11213 11220	library
 T494	Noun_Phrase 11260 11264	they
-T495	Noun_Phrase 11337 11359;	the C-terminal peptide
-11374 11381	the C-terminal peptideof PAX6
+T495	Noun_Phrase 11337 11359;11374 11381	the C-terminal peptide of PAX6
 T496	Noun_Phrase 11363 11366	PST
 T497	Noun_Phrase 11363 11381	PST domain of PAX6
 T498	Noun_Phrase 11377 11381	PAX6
@@ -548,12 +523,9 @@ T521	Noun_Phrase 11764 11767	PST
 T522	Noun_Phrase 11776 11778	We
 T523	Noun_Phrase 11874 11892	the library screen
 T524	Noun_Phrase 11878 11885	library
-T525	Noun_Phrase 11920 11952;	the interaction between PAX6 and
-11961 11966	the interaction between PAX6 andDNCL1
-T526	Noun_Phrase 11920 11952;	the interaction between PAX6 and
-11971 11977	the interaction between PAX6 andTRIM11
-T527	IDENTITY_chain 11920 11952;	the interaction between PAX6 and
-11971 11977	the interaction between PAX6 andTRIM11
+T525	Noun_Phrase 11920 11952;11961 11966	the interaction between PAX6 and DNCL1
+T526	Noun_Phrase 11920 11952;11971 11977	the interaction between PAX6 and TRIM11
+T527	IDENTITY_chain 11920 11952;11971 11977	the interaction between PAX6 and TRIM11
 T528	Noun_Phrase 11920 11959	the interaction between PAX6 and HOMER3
 T529	Noun_Phrase 11944 11948	PAX6
 T530	Noun_Phrase 11944 11959	PAX6 and HOMER3
@@ -595,10 +567,8 @@ T565	Noun_Phrase 12548 12553	Table
 T566	IDENTITY_chain 12548 12553	Table
 T567	Noun_Phrase 12548 12555	Table 1
 T568	IDENTITY_chain 12548 12555	Table 1
-T569	Noun_Phrase 12570 12620;	the interaction between the C-terminal peptide and
-12631 12636	the interaction between the C-terminal peptide andDNCL1
-T570	IDENTITY_chain 12570 12620;	the interaction between the C-terminal peptide and
-12631 12636	the interaction between the C-terminal peptide andDNCL1
+T569	Noun_Phrase 12570 12620;12631 12636	the interaction between the C-terminal peptide and DNCL1
+T570	IDENTITY_chain 12570 12620;12631 12636	the interaction between the C-terminal peptide and DNCL1
 T571	Noun_Phrase 12570 12627	the interaction between the C-terminal peptide and HOMER3
 T572	IDENTITY_chain 12570 12627	the interaction between the C-terminal peptide and HOMER3
 T573	Noun_Phrase 12594 12616	the C-terminal peptide
@@ -609,10 +579,8 @@ T577	Noun_Phrase 12681 12686	Table
 T578	Noun_Phrase 12681 12688	Table 1
 T579	Noun_Phrase 12826 12843	the URA3 reporter
 T580	IDENTITY_chain 12826 12843	the URA3 reporter
-T581	Noun_Phrase 12853 12857;	HIS3
-12867 12877	HIS3activation
-T582	IDENTITY_chain 12853 12857;	HIS3
-12867 12877	HIS3activation
+T581	Noun_Phrase 12853 12857;12867 12877	HIS3 activation
+T582	IDENTITY_chain 12853 12857;12867 12877	HIS3 activation
 T583	Noun_Phrase 12862 12866	LacZ
 T584	Noun_Phrase 12862 12877	LacZ activation
 T585	IDENTITY_chain 12862 12877	LacZ activation
@@ -622,8 +590,7 @@ T588	Noun_Phrase 13020 13038	the library screen
 T589	Noun_Phrase 13024 13031	library
 T590	Noun_Phrase 13048 13050	we
 T591	Noun_Phrase 13077 13099	the C-terminal peptide
-T592	Noun_Phrase 13117 13137;	the interaction with
-13149 13154	the interaction withDNCL1
+T592	Noun_Phrase 13117 13137;13149 13154	the interaction with DNCL1
 T593	Noun_Phrase 13117 13144	the interaction with HOMER3
 T594	Noun_Phrase 13138 13144	HOMER3
 T595	Noun_Phrase 13149 13154	DNCL1
@@ -819,13 +786,9 @@ T784	Noun_Phrase 16457 16483	the 3' untranslated region
 T785	Noun_Phrase 16485 16488	MRI
 T786	Noun_Phrase 16519 16532	this mutation
 T787	Noun_Phrase 16551 16556	brain
-T788	Noun_Phrase 16575 16582;	absence
-16597 16603;	absenceof the
-16625 16637	absenceof thepineal gland
-T789	Noun_Phrase 16575 16582;	absence
-16597 16623	absenceof the anterior commissure
-T790	Noun_Phrase 16586 16603;	hypoplasia of the
-16625 16637	hypoplasia of thepineal gland
+T788	Noun_Phrase 16575 16582;16597 16603;16625 16637	absence of the pineal gland
+T789	Noun_Phrase 16575 16582;16597 16623	absence of the anterior commissure
+T790	Noun_Phrase 16586 16603;16625 16637	hypoplasia of the pineal gland
 T791	Noun_Phrase 16586 16623	hypoplasia of the anterior commissure
 T792	Noun_Phrase 16600 16623	the anterior commissure
 T793	Noun_Phrase 16625 16637	pineal gland
@@ -906,14 +869,10 @@ T867	Noun_Phrase 18014 18036	the C-terminal peptide
 T868	Noun_Phrase 18043 18049	TRIM11
 T869	Noun_Phrase 18091 18105	the PST domain
 T870	Noun_Phrase 18095 18098	PST
-T871	Noun_Phrase 18107 18150;	The interactions between the PST domain and
-18159 18164	The interactions between the PST domain andDNCL1
-T872	IDENTITY_chain 18107 18150;	The interactions between the PST domain and
-18159 18164	The interactions between the PST domain andDNCL1
-T873	Noun_Phrase 18107 18150;	The interactions between the PST domain and
-18169 18175	The interactions between the PST domain andTRIM11
-T874	IDENTITY_chain 18107 18150;	The interactions between the PST domain and
-18169 18175	The interactions between the PST domain andTRIM11
+T871	Noun_Phrase 18107 18150;18159 18164	The interactions between the PST domain and DNCL1
+T872	IDENTITY_chain 18107 18150;18159 18164	The interactions between the PST domain and DNCL1
+T873	Noun_Phrase 18107 18150;18169 18175	The interactions between the PST domain and TRIM11
+T874	IDENTITY_chain 18107 18150;18169 18175	The interactions between the PST domain and TRIM11
 T875	Noun_Phrase 18107 18157	The interactions between the PST domain and HOMER3
 T876	IDENTITY_chain 18107 18157	The interactions between the PST domain and HOMER3
 T877	Noun_Phrase 18132 18146	the PST domain
@@ -930,8 +889,7 @@ T887	Noun_Phrase 18287 18305	C-terminal peptide
 T888	Noun_Phrase 18319 18333	pairwise tests
 T889	Noun_Phrase 18339 18341	we
 T890	Noun_Phrase 18354 18376	the C-terminal peptide
-T891	Noun_Phrase 18395 18406;	PAX6/HOMER3
-18421 18432	PAX6/HOMER3interaction
+T891	Noun_Phrase 18395 18406;18421 18432	PAX6/HOMER3 interaction
 T892	Noun_Phrase 18410 18432	PAX6/DNCL1 interaction
 T893	Noun_Phrase 18441 18447	HOMER3
 T894	Noun_Phrase 18441 18457	HOMER3 and DNCL1
@@ -963,8 +921,7 @@ T919	Noun_Phrase 19176 19185	myosin Va
 T920	Noun_Phrase 19192 19198	Dynein
 T921	Noun_Phrase 19192 19212	Dynein and myosin Va
 T922	Noun_Phrase 19203 19212	myosin Va
-T923	Noun_Phrase 19302 19312;	organelles
-19326 19336	organellesin neurons
+T923	Noun_Phrase 19302 19312;19326 19336	organelles in neurons
 T924	Noun_Phrase 19317 19336	vesicles in neurons
 T925	Noun_Phrase 19329 19336	neurons
 T926	Noun_Phrase 19346 19355	Myosin Va
@@ -987,8 +944,7 @@ T942	Noun_Phrase 19966 19972	TRIM11
 T943	Noun_Phrase 19980 19987	Humanin
 T944	Noun_Phrase 20094 20097	our
 T945	Noun_Phrase 20142 20158	the interactions
-T946	Noun_Phrase 20250 20278;	the interaction of PAX6 with
-20290 20295	the interaction of PAX6 withDNCL1
+T946	Noun_Phrase 20250 20278;20290 20295	the interaction of PAX6 with DNCL1
 T947	Noun_Phrase 20250 20285	the interaction of PAX6 with HOMER3
 T948	Noun_Phrase 20250 20295	the interaction of PAX6 with HOMER3 and DNCL1
 T949	Noun_Phrase 20269 20273	PAX6
@@ -1063,8 +1019,7 @@ T1017	Noun_Phrase 22489 22496	A Brown
 T1018	IDENTITY_chain 22489 22496	A Brown
 T1019	Noun_Phrase 22498 22512	data not shown
 T1020	Noun_Phrase 22516 22518	We
-T1021	Noun_Phrase 22537 22579;	the interaction between the PST domain and
-22590 22595	the interaction between the PST domain andDNCL1
+T1021	Noun_Phrase 22537 22579;22590 22595	the interaction between the PST domain and DNCL1
 T1022	Noun_Phrase 22537 22586	the interaction between the PST domain and HOMER3
 T1023	Noun_Phrase 22561 22575	the PST domain
 T1024	Noun_Phrase 22565 22568	PST
@@ -1077,29 +1032,23 @@ T1030	Noun_Phrase 22697 22715	The Q422R mutation
 T1031	Noun_Phrase 22772 22808	the last amino acid position of PAX6
 T1032	Noun_Phrase 22781 22791	amino acid
 T1033	Noun_Phrase 22804 22808	PAX6
-T1034	Noun_Phrase 22832 22852;	the interaction with
-22864 22869	the interaction withDNCL1
+T1034	Noun_Phrase 22832 22852;22864 22869	the interaction with DNCL1
 T1035	Noun_Phrase 22832 22859	the interaction with HOMER3
 T1036	Noun_Phrase 22832 22869	the interaction with HOMER3 and DNCL1
 T1037	IDENTITY_chain 22832 22869	the interaction with HOMER3 and DNCL1
 T1038	Noun_Phrase 22853 22859	HOMER3
 T1039	Noun_Phrase 22864 22869	DNCL1
-T1040	Noun_Phrase 22871 22874;	The
-22885 22904	The1615del10 mutations
-T1041	Noun_Phrase 22871 22880;	The X423L
-22895 22904	The X423Lmutations
+T1040	Noun_Phrase 22871 22874;22885 22904	The 1615del10 mutations
+T1041	Noun_Phrase 22871 22880;22895 22904	The X423L mutations
 T1042	Noun_Phrase 22871 22904	The X423L and 1615del10 mutations
 T1043	IDENTITY_chain 22871 22904	The X423L and 1615del10 mutations
-T1044	Noun_Phrase 22946 22966;	the interaction with
-22974 22983	the interaction withand DNCL1
+T1044	Noun_Phrase 22946 22966;22974 22983	the interaction with and DNCL1
 T1045	Noun_Phrase 22946 22973	the interaction with HOMER3
 T1046	Noun_Phrase 22946 22983	the interaction with HOMER3 and DNCL1
 T1047	Noun_Phrase 22967 22973	HOMER3
 T1048	Noun_Phrase 22978 22983	DNCL1
-T1049	Noun_Phrase 23009 23012;	the
-23023 23042	the1615del10 mutations
-T1050	Noun_Phrase 23009 23018;	the X423L
-23033 23042	the X423Lmutations
+T1049	Noun_Phrase 23009 23012;23023 23042	the 1615del10 mutations
+T1050	Noun_Phrase 23009 23018;23033 23042	the X423L mutations
 T1051	Noun_Phrase 23009 23042	the X423L and 1615del10 mutations
 T1052	Noun_Phrase 23072 23098	the 3' untranslated region
 T1053	Noun_Phrase 23204 23237	the C-terminal end of the protein
@@ -1150,8 +1099,7 @@ T1097	Noun_Phrase 24757 24763	HOMER3
 T1098	Noun_Phrase 24765 24770	DNCL1
 T1099	Noun_Phrase 24775 24781	TRIM11
 T1100	Noun_Phrase 24783 24785	We
-T1101	Noun_Phrase 24799 24827;	the interaction of PAX6 with
-24839 24844	the interaction of PAX6 withDNCL1
+T1101	Noun_Phrase 24799 24827;24839 24844	the interaction of PAX6 with DNCL1
 T1102	Noun_Phrase 24799 24834	the interaction of PAX6 with HOMER3
 T1103	Noun_Phrase 24799 24844	the interaction of PAX6 with HOMER3 and DNCL1
 T1104	Noun_Phrase 24818 24822	PAX6
@@ -1221,10 +1169,8 @@ T1167	Noun_Phrase 26773 26780	PAX6PST
 T1168	Noun_Phrase 26814 26817	PCR
 T1169	Noun_Phrase 26919 26929	nucleotide
 T1170	Noun_Phrase 26958 26962	cDNA
-T1171	Noun_Phrase 26984 26997;	the mutations
-27017 27025	the mutations1629insT
-T1172	APPOS_relation 26984 26997;	the mutations
-27017 27025	the mutations1629insT
+T1171	Noun_Phrase 26984 26997;27017 27025	the mutations 1629insT
+T1172	APPOS_relation 26984 26997;27017 27025	the mutations 1629insT
 T1173	Noun_Phrase 26984 27007	the mutations 1615del10
 T1174	Noun_Phrase 26988 26997	mutations
 T1175	Noun_Phrase 27027 27032	X423L
@@ -1316,22 +1262,13 @@ T1260	Noun_Phrase 29046 29050	bait
 T1261	Noun_Phrase 29065 29071	pDBLeu
 T1262	Noun_Phrase 29081 29085	prey
 T1263	Noun_Phrase 29100 29105	pPC86
-T1264	Noun_Phrase 29146 29163;	activation of the
-29170 29174;	activation of theURA3
-29184 29193	activation of theURA3reporters
-T1265	Noun_Phrase 29146 29163;	activation of the
-29179 29193	activation of theLacZ reporters
-T1266	Noun_Phrase 29146 29168;	activation of the HIS3
-29184 29193	activation of the HIS3reporters
-T1267	Noun_Phrase 29160 29163;	the
-29170 29174;	theURA3
-29184 29193	theURA3reporters
-T1268	Noun_Phrase 29160 29163;	the
-29179 29193	theLacZ reporters
-T1269	IDENTITY_chain 29160 29163;	the
-29179 29193	theLacZ reporters
-T1270	Noun_Phrase 29160 29168;	the HIS3
-29184 29193	the HIS3reporters
+T1264	Noun_Phrase 29146 29163;29170 29174;29184 29193	activation of the URA3 reporters
+T1265	Noun_Phrase 29146 29163;29179 29193	activation of the LacZ reporters
+T1266	Noun_Phrase 29146 29168;29184 29193	activation of the HIS3 reporters
+T1267	Noun_Phrase 29160 29163;29170 29174;29184 29193	the URA3 reporters
+T1268	Noun_Phrase 29160 29163;29179 29193	the LacZ reporters
+T1269	IDENTITY_chain 29160 29163;29179 29193	the LacZ reporters
+T1270	Noun_Phrase 29160 29168;29184 29193	the HIS3 reporters
 T1271	Noun_Phrase 29179 29183	LacZ
 T1272	Noun_Phrase 29230 29236	Homer3
 T1273	Noun_Phrase 29247 29261	pairwise tests
@@ -1355,8 +1292,7 @@ T1290	Noun_Phrase 29800 29804	Pax6
 T1291	Noun_Phrase 29806 29812	Homer3
 T1292	Noun_Phrase 29814 29819	Dncl1
 T1293	Noun_Phrase 29821 29827	Trim11
-T1294	Noun_Phrase 29832 29866;	the constitutively expressed genes
-29877 29883	the constitutively expressed genesAtp5a1
+T1294	Noun_Phrase 29832 29866;29877 29883	the constitutively expressed genes Atp5a1
 T1295	Noun_Phrase 29832 29872	the constitutively expressed genes Gapdh
 T1296	Noun_Phrase 29832 29883	the constitutively expressed genes Gapdh and Atp5a1
 T1297	Noun_Phrase 29861 29866	genes

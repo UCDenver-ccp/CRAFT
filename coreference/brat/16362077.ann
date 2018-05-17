@@ -45,14 +45,10 @@ T43	Noun_Phrase 497 506	bone mass
 T44	Noun_Phrase 559 563	bone
 T45	Noun_Phrase 574 604	the 12-month-old Sam68?/? mice
 T46	Noun_Phrase 591 600	Sam68?/? 
-T47	IDENTITY_chain 650 661;	4-month-old
-675 688	4-month-oldSam68?/? mice
-T48	Noun_Phrase 650 661;	4-month-old
-675 688	4-month-oldSam68?/? mice
-T49	IDENTITY_chain 650 671;	4-month-old wild-type
-684 688	4-month-old wild-typemice
-T50	Noun_Phrase 650 671;	4-month-old wild-type
-684 688	4-month-old wild-typemice
+T47	IDENTITY_chain 650 661;675 688	4-month-old Sam68?/? mice
+T48	Noun_Phrase 650 661;675 688	4-month-old Sam68?/? mice
+T49	IDENTITY_chain 650 671;684 688	4-month-old wild-type mice
+T50	Noun_Phrase 650 671;684 688	4-month-old wild-type mice
 T51	Noun_Phrase 650 671	4-month-old wild-type
 T52	IDENTITY_chain 650 688	4-month-old wild-type or Sam68?/? mice
 T53	Noun_Phrase 650 688	4-month-old wild-type or Sam68?/? mice
@@ -80,14 +76,10 @@ T74	Noun_Phrase 1001 1016	differentiation
 T75	IDENTITY_chain 1034 1062	bone morphogenetic protein-2
 T76	Noun_Phrase 1034 1062	bone morphogenetic protein-2
 T77	Noun_Phrase 1076 1081	mouse
-T78	IDENTITY_chain 1076 1115;	mouse embryo fibroblasts generated from
-1129 1149	mouse embryo fibroblasts generated fromSam68?/? littermates
-T79	Noun_Phrase 1076 1115;	mouse embryo fibroblasts generated from
-1129 1149	mouse embryo fibroblasts generated fromSam68?/? littermates
-T80	Noun_Phrase 1116 1124;	Sam68+/+
-1138 1149	Sam68+/+littermates
-T81	IDENTITY_chain 1116 1124;	Sam68+/+
-1138 1149	Sam68+/+littermates
+T78	IDENTITY_chain 1076 1115;1129 1149	mouse embryo fibroblasts generated from Sam68?/? littermates
+T79	Noun_Phrase 1076 1115;1129 1149	mouse embryo fibroblasts generated from Sam68?/? littermates
+T80	Noun_Phrase 1116 1124;1138 1149	Sam68+/+ littermates
+T81	IDENTITY_chain 1116 1124;1138 1149	Sam68+/+ littermates
 T82	Noun_Phrase 1116 1125	Sam68+/+ 
 T83	IDENTITY_chain 1116 1149	Sam68+/+ and Sam68?/? littermates
 T84	Noun_Phrase 1116 1149	Sam68+/+ and Sam68?/? littermates
@@ -220,8 +212,7 @@ T210	Noun_Phrase 3301 3321	the remodeling cycle
 T211	Nonreferential_pronoun 3346 3351	there
 T212	Nonreferential_pronoun 3346 3351	there
 T213	Noun_Phrase 3366 3377	the balance
-T214	Noun_Phrase 3390 3400;	osteoclast
-3417 3425	osteoclastactivity
+T214	Noun_Phrase 3390 3400;3417 3425	osteoclast activity
 T215	Noun_Phrase 3390 3400	osteoclast
 T216	Noun_Phrase 3390 3425	osteoclast over osteoblast activity
 T217	Noun_Phrase 3406 3416	osteoblast
@@ -428,14 +419,10 @@ T417	IDENTITY_chain 8052 8718	Intense staining was seen in the nucleus of cells 
 T418	Noun_Phrase 8052 8718	Intense staining was seen in the nucleus of cells in the developing brain, heart, and small intestine (Figure 1B), as well as in chondrocytes in the nasal septum and the glandular tissue adjacent to the nasal cartilage (Figure 1C, panels A–D), in the vertebra and intervertebral discs (panels E–H) and in the epiphysis (panels I–K) and metaphysis (panel L) of long bones. Nuclear staining was observed in proliferating chondrocytes and hypertrophic chondrocytes (Figure 1C, panel H), in osteoblasts (panel L; Dataset S1), and in osteoclasts (Dataset S1). No staining was observed with preimmune serum or when the antiserum was preadsorbed with the immunizing peptide
 T419	Noun_Phrase 8081 8092	the nucleus
 T420	Noun_Phrase 8096 8101	cells
-T421	IDENTITY_chain 8105 8119;	the developing
-8127 8132	the developingheart
-T422	Noun_Phrase 8105 8119;	the developing
-8127 8132	the developingheart
-T423	Noun_Phrase 8105 8119;	the developing
-8138 8153	the developingsmall intestine
-T424	IDENTITY_chain 8105 8119;	the developing
-8138 8153	the developingsmall intestine
+T421	IDENTITY_chain 8105 8119;8127 8132	the developing heart
+T422	Noun_Phrase 8105 8119;8127 8132	the developing heart
+T423	Noun_Phrase 8105 8119;8138 8153	the developing small intestine
+T424	IDENTITY_chain 8105 8119;8138 8153	the developing small intestine
 T425	IDENTITY_chain 8105 8125	the developing brain
 T426	Noun_Phrase 8105 8125	the developing brain
 T427	IDENTITY_chain 8155 8164	Figure 1B
@@ -447,19 +434,15 @@ T432	Noun_Phrase 8197 8213	the nasal septum
 T433	IDENTITY_chain 8197 8213	the nasal septum
 T434	IDENTITY_chain 8272 8281	Figure 1C
 T435	Noun_Phrase 8272 8281	Figure 1C
-T436	IDENTITY_chain 8283 8289;	panels
-8292 8293	panelsD
-T437	Noun_Phrase 8283 8289;	panels
-8292 8293	panelsD
+T436	IDENTITY_chain 8283 8289;8292 8293	panels D
+T437	Noun_Phrase 8283 8289;8292 8293	panels D
 T438	IDENTITY_chain 8283 8291	panels A
 T439	Noun_Phrase 8283 8291	panels A
 T440	IDENTITY_chain 8283 8293	panels A–D
 T441	Noun_Phrase 8283 8293	panels A–D
 T442	Noun_Phrase 8299 8311	the vertebra
-T443	IDENTITY_chain 8338 8344;	panels
-8347 8348	panelsH
-T444	Noun_Phrase 8338 8344;	panels
-8347 8348	panelsH
+T443	IDENTITY_chain 8338 8344;8347 8348	panels H
+T444	Noun_Phrase 8338 8344;8347 8348	panels H
 T445	IDENTITY_chain 8338 8346	panels E
 T446	Noun_Phrase 8338 8346	panels E
 T447	IDENTITY_chain 8338 8348	panels E–H
@@ -499,16 +482,11 @@ T480	Noun_Phrase 8985 9014	the physiologic role of Sam68
 T481	Noun_Phrase 9009 9014	Sam68
 T482	Noun_Phrase 9016 9018	we
 T483	Noun_Phrase 9029 9049	Sam68-deficient mice
-T484	Noun_Phrase 9076 9081;	exons
-9088 9089	exons5
-T485	IDENTITY_chain 9076 9081;	exons
-9088 9107	exons5 of the sam68 gene
-T486	Noun_Phrase 9076 9081;	exons
-9088 9107	exons5 of the sam68 gene
-T487	IDENTITY_chain 9076 9083;	exons 4
-9090 9107	exons 4of the sam68 gene
-T488	Noun_Phrase 9076 9083;	exons 4
-9090 9107	exons 4of the sam68 gene
+T484	Noun_Phrase 9076 9081;9088 9089	exons 5
+T485	IDENTITY_chain 9076 9081;9088 9107	exons 5 of the sam68 gene
+T486	Noun_Phrase 9076 9081;9088 9107	exons 5 of the sam68 gene
+T487	IDENTITY_chain 9076 9083;9090 9107	exons 4 of the sam68 gene
+T488	Noun_Phrase 9076 9083;9090 9107	exons 4 of the sam68 gene
 T489	IDENTITY_chain 9093 9107	the sam68 gene
 T490	Noun_Phrase 9093 9107	the sam68 gene
 T491	Noun_Phrase 9097 9102	sam68
@@ -531,8 +509,7 @@ T507	Noun_Phrase 9306 9322	unpublished data
 T508	Noun_Phrase 9325 9330	Sam68
 T509	IDENTITY_chain 9325 9726	Sam68 transcripts encoded by exons 1 to 5 were absent as evidenced by RT-PCR (Dataset S2), and Sam68?/? mice were devoid of Sam68 protein, as visualized by immunoblotting with anti-Sam68 AD1 and SC-333 antibodies or control normal rabbit serum or anti-Sam68 AD1 preabsorbed with peptide (Figure 2C). SC-333 is a rabbit anti-Sam68 antibody that was raised against the C-terminal 20 amino acids of Sam68
 T510	Noun_Phrase 9325 9726	Sam68 transcripts encoded by exons 1 to 5 were absent as evidenced by RT-PCR (Dataset S2), and Sam68?/? mice were devoid of Sam68 protein, as visualized by immunoblotting with anti-Sam68 AD1 and SC-333 antibodies or control normal rabbit serum or anti-Sam68 AD1 preabsorbed with peptide (Figure 2C). SC-333 is a rabbit anti-Sam68 antibody that was raised against the C-terminal 20 amino acids of Sam68
-T511	Noun_Phrase 9354 9359;	exons
-9365 9366	exons5
+T511	Noun_Phrase 9354 9359;9365 9366	exons 5
 T512	Noun_Phrase 9395 9401	RT-PCR
 T513	IDENTITY_chain 9395 9401	RT-PCR
 T514	IDENTITY_chain 9403 9413	Dataset S2
@@ -540,15 +517,11 @@ T515	Noun_Phrase 9403 9413	Dataset S2
 T516	Noun_Phrase 9420 9433	Sam68?/? mice
 T517	Noun_Phrase 9449 9454	Sam68
 T518	Noun_Phrase 9449 9462	Sam68 protein
-T519	Noun_Phrase 9481 9515;	immunoblotting with anti-Sam68 AD1
-9527 9537	immunoblotting with anti-Sam68 AD1antibodies
-T520	IDENTITY_chain 9481 9515;	immunoblotting with anti-Sam68 AD1
-9527 9537	immunoblotting with anti-Sam68 AD1antibodies
+T519	Noun_Phrase 9481 9515;9527 9537	immunoblotting with anti-Sam68 AD1 antibodies
+T520	IDENTITY_chain 9481 9515;9527 9537	immunoblotting with anti-Sam68 AD1 antibodies
 T521	Noun_Phrase 9481 9515	immunoblotting with anti-Sam68 AD1
-T522	Noun_Phrase 9501 9511;	anti-Sam68
-9520 9537	anti-Sam68SC-333 antibodies
-T523	Noun_Phrase 9501 9515;	anti-Sam68 AD1
-9527 9537	anti-Sam68 AD1antibodies
+T522	Noun_Phrase 9501 9511;9520 9537	anti-Sam68 SC-333 antibodies
+T523	Noun_Phrase 9501 9515;9527 9537	anti-Sam68 AD1 antibodies
 T524	IDENTITY_chain 9520 9526	SC-333
 T525	Noun_Phrase 9520 9526	SC-333
 T526	IDENTITY_chain 9520 9537	SC-333 antibodies
@@ -609,17 +582,13 @@ T580	Noun_Phrase 10635 10642	analyze
 T581	Noun_Phrase 10647 10652	Sam68
 T582	Noun_Phrase 10686 10723	Cohorts of Sam68+/+ and Sam68?/? mice
 T583	IDENTITY_chain 10686 10723	Cohorts of Sam68+/+ and Sam68?/? mice
-T584	Noun_Phrase 10697 10705;	Sam68+/+
-10719 10723	Sam68+/+mice
+T584	Noun_Phrase 10697 10705;10719 10723	Sam68+/+ mice
 T585	Noun_Phrase 10697 10706	Sam68+/+ 
-T586	Noun_Phrase 10697 10706;	Sam68+/+ 
-10719 10723	Sam68+/+ mice
+T586	Noun_Phrase 10697 10706;10719 10723	Sam68+/+  mice
 T587	Noun_Phrase 10697 10723	Sam68+/+ and Sam68?/? mice
 T588	Noun_Phrase 10710 10723	Sam68?/? mice
-T589	IDENTITY_chain 10743 10744;	4
-10752 10765	4months of age
-T590	Noun_Phrase 10743 10744;	4
-10752 10765	4months of age
+T589	IDENTITY_chain 10743 10744;10752 10765	4 months of age
+T590	Noun_Phrase 10743 10744;10752 10765	4 months of age
 T591	IDENTITY_chain 10743 10765	4 and 12 months of age
 T592	Noun_Phrase 10743 10765	4 and 12 months of age
 T593	IDENTITY_chain 10749 10765	12 months of age
@@ -641,15 +610,13 @@ T608	Noun_Phrase 11004 11015	body weight
 T609	Noun_Phrase 11026 11051	4-month-old Sam68?/? mice
 T610	Noun_Phrase 11038 11047	Sam68?/? 
 T611	Noun_Phrase 11070 11079	Sam68+/+ 
-T612	Noun_Phrase 11070 11079;	Sam68+/+ 
-11079 11083	Sam68+/+ mice
+T612	Noun_Phrase 11070 11079;11079 11083	Sam68+/+  mice
 T613	IDENTITY_chain 11070 11083	Sam68+/+ mice
 T614	Noun_Phrase 11070 11083	Sam68+/+ mice
 T615	Noun_Phrase 11108 11112	bone
 T616	IDENTITY_chain 11124 11159	the axial and appendicular skeleton
 T617	Noun_Phrase 11124 11159	the axial and appendicular skeleton
-T618	Noun_Phrase 11168 11169;	4
-11177 11190	4months of age
+T618	Noun_Phrase 11168 11169;11177 11190	4 months of age
 T619	Noun_Phrase 11168 11190	4 and 12 months of age
 T620	Noun_Phrase 11174 11190	12 months of age
 T621	Noun_Phrase 11187 11190	age
@@ -711,8 +678,7 @@ T676	Noun_Phrase 11881 11894	United States
 T677	Noun_Phrase 11910 11941	both Sam68+/+ and Sam68?/? mice
 T678	Noun_Phrase 11915 11924	Sam68+/+ 
 T679	Noun_Phrase 11928 11937	Sam68?/? 
-T680	Noun_Phrase 11950 11958;	4 months
-11973 11979	4 monthsof age
+T680	Noun_Phrase 11950 11958;11973 11979	4 months of age
 T681	Noun_Phrase 11950 11979	4 months and 12 months of age
 T682	Noun_Phrase 11963 11979	12 months of age
 T683	Noun_Phrase 11976 11979	age
@@ -721,8 +687,7 @@ T685	Noun_Phrase 12018 12027	Sam68?/?
 T686	Noun_Phrase 12033 12040	Table 2
 T687	IDENTITY_chain 12076 12079	BMC
 T688	Noun_Phrase 12076 12079	BMC
-T689	Noun_Phrase 12092 12095;	the
-12106 12114	thevertebra
+T689	Noun_Phrase 12092 12095;12106 12114	the vertebra
 T690	Noun_Phrase 12092 12101	the femur
 T691	Noun_Phrase 12106 12114	vertebra
 T692	Noun_Phrase 12118 12135	the Sam68?/? mice
@@ -824,13 +789,10 @@ T787	Noun_Phrase 14064 14073	bone mass
 T788	Noun_Phrase 14077 14095	aged Sam68?/? mice
 T789	Noun_Phrase 14082 14091	Sam68?/? 
 T790	Noun_Phrase 14097 14099	we
-T791	IDENTITY_chain 14109 14139;	sections from plastic-embedded
-14151 14156	sections from plastic-embeddedtibia
-T792	Noun_Phrase 14109 14139;	sections from plastic-embedded
-14151 14156	sections from plastic-embeddedtibia
+T791	IDENTITY_chain 14109 14139;14151 14156	sections from plastic-embedded tibia
+T792	Noun_Phrase 14109 14139;14151 14156	sections from plastic-embedded tibia
 T793	Noun_Phrase 14169 14179	osteoblast
-T794	Noun_Phrase 14169 14179;	osteoblast
-14195 14203	osteoblastactivity
+T794	Noun_Phrase 14169 14179;14195 14203	osteoblast activity
 T795	Noun_Phrase 14169 14203	osteoblast and osteoclast activity
 T796	Noun_Phrase 14184 14194	osteoclast
 T797	Noun_Phrase 14184 14203	osteoclast activity
@@ -852,18 +814,14 @@ T812	APPOS_relation 14375 14410	tartrate-resistant acid phosphatase
 T813	Noun_Phrase 14375 14410	tartrate-resistant acid phosphatase
 T814	Noun_Phrase 14412 14416	TRAP
 T815	Noun_Phrase 14455 14466	osteoclasts
-T816	Noun_Phrase 14503 14511;	Sam68+/+
-14563 14567	Sam68+/+mice
+T816	Noun_Phrase 14503 14511;14563 14567	Sam68+/+ mice
 T817	Noun_Phrase 14503 14512	Sam68+/+ 
-T818	Noun_Phrase 14503 14512;	Sam68+/+ 
-14563 14586	Sam68+/+ mice at 4 months of age
+T818	Noun_Phrase 14503 14512;14563 14586	Sam68+/+  mice at 4 months of age
 T819	IDENTITY_chain 14513 14529	Figure 5A and 5B
 T820	Noun_Phrase 14513 14529	Figure 5A and 5B
-T821	Noun_Phrase 14535 14543;	Sam68?/?
-14563 14567	Sam68?/?mice
+T821	Noun_Phrase 14535 14543;14563 14567	Sam68?/? mice
 T822	Noun_Phrase 14535 14544	Sam68?/? 
-T823	Noun_Phrase 14535 14544;	Sam68?/? 
-14563 14586	Sam68?/? mice at 4 months of age
+T823	Noun_Phrase 14535 14544;14563 14586	Sam68?/?  mice at 4 months of age
 T824	IDENTITY_chain 14545 14561	Figure 5C and 5D
 T825	Noun_Phrase 14545 14561	Figure 5C and 5D
 T826	Noun_Phrase 14571 14586	4 months of age
@@ -882,23 +840,20 @@ T838	IDENTITY_chain 14737 14753	Figure 5G and 5H
 T839	Noun_Phrase 14737 14753	Figure 5G and 5H
 T840	Noun_Phrase 14773 14812	both osteoblast and osteoclast activity
 T841	Noun_Phrase 14778 14788	osteoblast
-T842	Noun_Phrase 14778 14788;	osteoblast
-14804 14812	osteoblastactivity
+T842	Noun_Phrase 14778 14788;14804 14812	osteoblast activity
 T843	Noun_Phrase 14793 14803	osteoclast
 T844	Noun_Phrase 14793 14812	osteoclast activity
 T845	Noun_Phrase 14816 14846	the 12-month-old Sam68+/+ mice
 T846	Noun_Phrase 14833 14842	Sam68+/+ 
 T847	Noun_Phrase 14862 14866	bone
-T848	Noun_Phrase 14918 14928;	osteoclast
-14945 14953	osteoclastactivity
+T848	Noun_Phrase 14918 14928;14945 14953	osteoclast activity
 T849	Noun_Phrase 14918 14928	osteoclast
 T850	Noun_Phrase 14918 14953	osteoclast over osteoblast activity
 T851	Noun_Phrase 14934 14944	osteoblast
 T852	Noun_Phrase 14934 14953	osteoblast activity
 T853	IDENTITY_chain 14989 14991	49
 T854	Noun_Phrase 14989 14991	49
-T855	Noun_Phrase 14995 15021;	Histomorphometric analyses
-15027 15044	Histomorphometric analysesof the long bones
+T855	Noun_Phrase 14995 15021;15027 15044	Histomorphometric analyses of the long bones
 T856	IDENTITY_chain 14995 15044	Histomorphometric analyses [50] of the long bones
 T857	Noun_Phrase 14995 15044	Histomorphometric analyses [50] of the long bones
 T858	IDENTITY_chain 15023 15025	50
@@ -909,10 +864,7 @@ T862	Noun_Phrase 15046 15053	Table 3
 T863	Noun_Phrase 15095 15116	age-related bone loss
 T864	Noun_Phrase 15107 15111	bone
 T865	Noun_Phrase 15118 15122	Bone
-T866	Noun_Phrase 15118 15129;	Bone volume
-15139 15159;	Bone volumenewly formed osteoid
-15169 15196;	Bone volumenewly formed osteoidand mineral apposition rate
-15203 15303	Bone volumenewly formed osteoidand mineral apposition ratewere all significantly reduced in 12-month-old Sam68+/+ mice compared with 4-month-old Sam68+/+ mice
+T866	Noun_Phrase 15118 15129;15139 15159;15169 15196;15203 15303	Bone volume newly formed osteoid and mineral apposition rate were all significantly reduced in 12-month-old Sam68+/+ mice compared with 4-month-old Sam68+/+ mice
 T867	Noun_Phrase 15118 15129	Bone volume
 T868	IDENTITY_chain 15118 15303	Bone volume (BV/TV), newly formed osteoid (OV/TV), and mineral apposition rate (MAR) were all significantly reduced in 12-month-old Sam68+/+ mice compared with 4-month-old Sam68+/+ mice
 T869	Noun_Phrase 15118 15303	Bone volume (BV/TV), newly formed osteoid (OV/TV), and mineral apposition rate (MAR) were all significantly reduced in 12-month-old Sam68+/+ mice compared with 4-month-old Sam68+/+ mice
@@ -949,8 +901,7 @@ T899	Noun_Phrase 15837 15848	osteoclasts
 T900	Noun_Phrase 15864 15882	all groups of mice
 T901	Noun_Phrase 15878 15882	mice
 T902	Noun_Phrase 15884 15891	Table 3
-T903	Noun_Phrase 15895 16250;	Circulating levels of serum C-telopeptide (sCTX; Roche Diagnostics, Mannheim, Germany) and ALP showed little difference among the groups, except for a small decrease in 12-month-old Sam68?/? mice and (Dataset S3). Serum estrogen was significantly decreased in all 12-month-old mice regardless of genotype with a reciprocal increase in interleukin-6 levels
-16388 16506	Circulating levels of serum C-telopeptide (sCTX; Roche Diagnostics, Mannheim, Germany) and ALP showed little difference among the groups, except for a small decrease in 12-month-old Sam68?/? mice and (Dataset S3). Serum estrogen was significantly decreased in all 12-month-old mice regardless of genotype with a reciprocal increase in interleukin-6 levelsTwelve-month-old Sam68?/? mice had significantly lower levels than young and old Sam68+/+ mice and young Sam68?/? mice
+T903	Noun_Phrase 15895 16250;16388 16506	Circulating levels of serum C-telopeptide (sCTX; Roche Diagnostics, Mannheim, Germany) and ALP showed little difference among the groups, except for a small decrease in 12-month-old Sam68?/? mice and (Dataset S3). Serum estrogen was significantly decreased in all 12-month-old mice regardless of genotype with a reciprocal increase in interleukin-6 levels Twelve-month-old Sam68?/? mice had significantly lower levels than young and old Sam68+/+ mice and young Sam68?/? mice
 T904	Noun_Phrase 15917 15922	serum
 T905	APPOS_relation 15917 15936	serum C-telopeptide
 T906	Noun_Phrase 15917 15936	serum C-telopeptide
@@ -974,18 +925,15 @@ T923	Noun_Phrase 16290 16296	leptin
 T924	Noun_Phrase 16320 16324	bone
 T925	Noun_Phrase 16320 16329	bone mass
 T926	Noun_Phrase 16331 16336	serum
-T927	Noun_Phrase 16360 16368;	Sam68+/+
-16382 16386	Sam68+/+mice
+T927	Noun_Phrase 16360 16368;16382 16386	Sam68+/+ mice
 T928	Noun_Phrase 16360 16369	Sam68+/+ 
-T929	Noun_Phrase 16360 16369;	Sam68+/+ 
-16382 16386	Sam68+/+ mice
+T929	Noun_Phrase 16360 16369;16382 16386	Sam68+/+  mice
 T930	Noun_Phrase 16360 16386	Sam68+/+ and Sam68?/? mice
 T931	Noun_Phrase 16373 16382	Sam68?/? 
 T932	Noun_Phrase 16373 16386	Sam68?/? mice
 T933	Noun_Phrase 16388 16418	Twelve-month-old Sam68?/? mice
 T934	Noun_Phrase 16405 16414	Sam68?/? 
-T935	Noun_Phrase 16455 16460;	young
-16469 16482	youngSam68+/+ mice
+T935	Noun_Phrase 16455 16460;16469 16482	young Sam68+/+ mice
 T936	Noun_Phrase 16465 16482	old Sam68+/+ mice
 T937	Noun_Phrase 16469 16478	Sam68+/+ 
 T938	Noun_Phrase 16487 16506	young Sam68?/? mice
@@ -1003,10 +951,8 @@ T949	IDENTITY_chain 16651 16659	estrogen
 T950	Noun_Phrase 16651 16659	estrogen
 T951	Noun_Phrase 16728 16734	leptin
 T952	Noun_Phrase 16744 16754	Osteoblast
-T953	Noun_Phrase 16744 16754;	Osteoblast
-16776 16784	OsteoblastActivity
-T954	Noun_Phrase 16764 16774;	Osteoclast
-16776 16784	OsteoclastActivity
+T953	Noun_Phrase 16744 16754;16776 16784	Osteoblast Activity
+T954	Noun_Phrase 16764 16774;16776 16784	Osteoclast Activity
 T955	Noun_Phrase 16764 16774	Osteoclast
 T956	Noun_Phrase 16764 16784	Osteoclast, Activity
 T957	Noun_Phrase 16799 16808	Sam68?/? 
@@ -1016,8 +962,7 @@ T960	Noun_Phrase 16837 16841	bone
 T961	Noun_Phrase 16837 16846	bone mass
 T962	Noun_Phrase 16854 16880	the adult remodeling cycle
 T963	Noun_Phrase 16913 16923	osteoblast
-T964	Noun_Phrase 16913 16923;	osteoblast
-16938 16946	osteoblastactivity
+T964	Noun_Phrase 16913 16923;16938 16946	osteoblast activity
 T965	Noun_Phrase 16927 16937	osteoclast
 T966	Noun_Phrase 16927 16946	osteoclast activity
 T967	Nonreferential_pronoun 16958 16963	there
@@ -1028,19 +973,14 @@ T971	Noun_Phrase 17049 17058	Sam68?/?
 T972	Noun_Phrase 17049 17062	Sam68?/? mice
 T973	Noun_Phrase 17079 17083	bone
 T974	Noun_Phrase 17098 17100	we
-T975	Noun_Phrase 17137 17145;	Sam68?/?
-17162 17173	Sam68?/?osteoclasts
-T976	IDENTITY_chain 17137 17145;	Sam68?/?
-17162 17173	Sam68?/?osteoclasts
-T977	Noun_Phrase 17137 17145;	Sam68?/?
-17162 17181	Sam68?/?osteoclasts ex vivo
+T975	Noun_Phrase 17137 17145;17162 17173	Sam68?/? osteoclasts
+T976	IDENTITY_chain 17137 17145;17162 17173	Sam68?/? osteoclasts
+T977	Noun_Phrase 17137 17145;17162 17181	Sam68?/? osteoclasts ex vivo
 T978	Noun_Phrase 17137 17146	Sam68?/? 
 T979	IDENTITY_chain 17137 17157	Sam68?/? osteoblasts
 T980	Noun_Phrase 17137 17157	Sam68?/? osteoblasts
-T981	Noun_Phrase 17183 17189;	Figure
-17197 17199	Figure6B
-T982	IDENTITY_chain 17183 17189;	Figure
-17197 17199	Figure6B
+T981	Noun_Phrase 17183 17189;17197 17199	Figure 6B
+T982	IDENTITY_chain 17183 17189;17197 17199	Figure 6B
 T983	IDENTITY_chain 17183 17192	Figure 6A
 T984	Noun_Phrase 17183 17192	Figure 6A
 T985	Noun_Phrase 17197 17199	6B
@@ -1077,11 +1017,9 @@ T1015	Noun_Phrase 17693 17703	Dataset S2
 T1016	IDENTITY_chain 17737 17741	time
 T1017	Noun_Phrase 17737 17741	time
 T1018	Noun_Phrase 17745 17780	RNA from Sam68+/+ and Sam68?/? mice
-T1019	Noun_Phrase 17754 17762;	Sam68+/+
-17776 17780	Sam68+/+mice
+T1019	Noun_Phrase 17754 17762;17776 17780	Sam68+/+ mice
 T1020	Noun_Phrase 17754 17763	Sam68+/+ 
-T1021	Noun_Phrase 17754 17763;	Sam68+/+ 
-17776 17780	Sam68+/+ mice
+T1021	Noun_Phrase 17754 17763;17776 17780	Sam68+/+  mice
 T1022	Noun_Phrase 17754 17780	Sam68+/+ and Sam68?/? mice
 T1023	Noun_Phrase 17767 17776	Sam68?/? 
 T1024	Noun_Phrase 17767 17780	Sam68?/? mice
@@ -1093,11 +1031,9 @@ T1029	Noun_Phrase 17861 17874	Sam68?/? mice
 T1030	IDENTITY_chain 17876 18142	Short-term cultures of mature osteoclasts released from the crushed long bones of Sam68+/+ and Sam68?/? mice stained equally well for TRAP and excavated approximately equal numbers of pits of equal size in dentin slices, as visualized by scanning electron microscopy
 T1031	Noun_Phrase 17876 18142	Short-term cultures of mature osteoclasts released from the crushed long bones of Sam68+/+ and Sam68?/? mice stained equally well for TRAP and excavated approximately equal numbers of pits of equal size in dentin slices, as visualized by scanning electron microscopy
 T1032	Noun_Phrase 17932 17954	the crushed long bones
-T1033	Noun_Phrase 17958 17966;	Sam68+/+
-17980 17984	Sam68+/+mice
+T1033	Noun_Phrase 17958 17966;17980 17984	Sam68+/+ mice
 T1034	Noun_Phrase 17958 17967	Sam68+/+ 
-T1035	Noun_Phrase 17958 17967;	Sam68+/+ 
-17980 17984	Sam68+/+ mice
+T1035	Noun_Phrase 17958 17967;17980 17984	Sam68+/+  mice
 T1036	Noun_Phrase 17958 17984	Sam68+/+ and Sam68?/? mice
 T1037	Noun_Phrase 17971 17980	Sam68?/? 
 T1038	Noun_Phrase 17971 17984	Sam68?/? mice
@@ -1141,8 +1077,7 @@ T1075	Noun_Phrase 18603 18620	the loss of Sam68
 T1076	Noun_Phrase 18615 18620	Sam68
 T1077	Noun_Phrase 18637 18666	the bone marrow stromal cells
 T1078	Noun_Phrase 18641 18652	bone marrow
-T1079	Noun_Phrase 18690 18704;	the osteogenic
-18727 18734	the osteogenicpathway
+T1079	Noun_Phrase 18690 18704;18727 18734	the osteogenic pathway
 T1080	Noun_Phrase 18751 18768	the loss of Sam68
 T1081	Noun_Phrase 18763 18768	Sam68
 T1082	Noun_Phrase 18795 18799	bone
@@ -1155,10 +1090,8 @@ T1088	Noun_Phrase 18992 18997	Sam68
 T1089	Noun_Phrase 19019 19028	adipocyte
 T1090	Noun_Phrase 19019 19044	adipocyte differentiation
 T1091	Noun_Phrase 19046 19048	we
-T1092	Noun_Phrase 19058 19088;	primary MEFs from 14.5-day-old
-19102 19118	primary MEFs from 14.5-day-oldSam68?/? embryos
-T1093	IDENTITY_chain 19058 19088;	primary MEFs from 14.5-day-old
-19102 19118	primary MEFs from 14.5-day-oldSam68?/? embryos
+T1092	Noun_Phrase 19058 19088;19102 19118	primary MEFs from 14.5-day-old Sam68?/? embryos
+T1093	IDENTITY_chain 19058 19088;19102 19118	primary MEFs from 14.5-day-old Sam68?/? embryos
 T1094	IDENTITY_chain 19076 19118	14.5-day-old Sam68+/+ and Sam68?/? embryos
 T1095	Noun_Phrase 19076 19118	14.5-day-old Sam68+/+ and Sam68?/? embryos
 T1096	Noun_Phrase 19089 19098	Sam68+/+ 
@@ -1170,18 +1103,12 @@ T1101	Noun_Phrase 19194 19201	culture
 T1102	Noun_Phrase 19194 19237	culture medium containing 5 ?M pioglitazone
 T1103	IDENTITY_chain 19248 19260	adipogenesis
 T1104	Noun_Phrase 19248 19260	adipogenesis
-T1105	IDENTITY_chain 19271 19275;	days
-19279 19280	days4
-T1106	Noun_Phrase 19271 19275;	days
-19279 19280	days4
-T1107	Noun_Phrase 19271 19275;	days
-19282 19283	days6
-T1108	IDENTITY_chain 19271 19275;	days
-19282 19283	days6
-T1109	IDENTITY_chain 19271 19275;	days
-19289 19291	days12
-T1110	Noun_Phrase 19271 19275;	days
-19289 19291	days12
+T1105	IDENTITY_chain 19271 19275;19279 19280	days 4
+T1106	Noun_Phrase 19271 19275;19279 19280	days 4
+T1107	Noun_Phrase 19271 19275;19282 19283	days 6
+T1108	IDENTITY_chain 19271 19275;19282 19283	days 6
+T1109	IDENTITY_chain 19271 19275;19289 19291	days 12
+T1110	Noun_Phrase 19271 19275;19289 19291	days 12
 T1111	IDENTITY_chain 19271 19277	days 0
 T1112	Noun_Phrase 19271 19277	days 0
 T1113	Noun_Phrase 19310 19319	Oil red O
@@ -1201,8 +1128,7 @@ T1126	Noun_Phrase 19520 19528	Figure 7
 T1127	IDENTITY_chain 19531 19739	The expression of key transcription factors including the PPAR? and KLF5 was impaired in Sam68?/? differentiated MEFs compared with Sam68+/+ MEFs, consistent with impaired adipogenesis in the absence of Sam68
 T1128	Noun_Phrase 19531 19739	The expression of key transcription factors including the PPAR? and KLF5 was impaired in Sam68?/? differentiated MEFs compared with Sam68+/+ MEFs, consistent with impaired adipogenesis in the absence of Sam68
 T1129	Noun_Phrase 19584 19594	 the PPAR?
-T1130	Noun_Phrase 19585 19588;	the
-19599 19603	theKLF5
+T1130	Noun_Phrase 19585 19588;19599 19603	the KLF5
 T1131	Noun_Phrase 19585 19603	the PPAR? and KLF5
 T1132	Noun_Phrase 19589 19594	PPAR?
 T1133	Noun_Phrase 19599 19603	KLF5
@@ -1248,8 +1174,7 @@ T1172	Noun_Phrase 20245 20248	OCN
 T1173	IDENTITY_chain 20261 20335	Populations of C3H10T1/2 cells stably transfected with either pSuper-retro
 T1174	Noun_Phrase 20261 20335	Populations of C3H10T1/2 cells stably transfected with either pSuper-retro
 T1175	Noun_Phrase 20276 20291	C3H10T1/2 cells
-T1176	Noun_Phrase 20276 20310;	C3H10T1/2 cells stably transfected
-20350 20402	C3H10T1/2 cells stably transfectedpSuper-retro harboring a short hairpin against Sam68
+T1176	Noun_Phrase 20276 20310;20350 20402	C3H10T1/2 cells stably transfected pSuper-retro harboring a short hairpin against Sam68
 T1177	Noun_Phrase 20323 20335	pSuper-retro
 T1178	IDENTITY_chain 20323 20335	pSuper-retro
 T1179	IDENTITY_chain 20350 20402	pSuper-retro harboring a short hairpin against Sam68
@@ -1291,8 +1216,7 @@ T1214	Noun_Phrase 21005 21023	mineralized nodule
 T1215	Noun_Phrase 21037 21046	Sam68?/? 
 T1216	Noun_Phrase 21037 21071	Sam68?/? bone marrow stromal cells
 T1217	Noun_Phrase 21046 21057	bone marrow
-T1218	Noun_Phrase 21112 21129;	short hairpin RNA
-21138 21155	short hairpin RNAtreated C3H10T1/2
+T1218	Noun_Phrase 21112 21129;21138 21155	short hairpin RNA treated C3H10T1/2
 T1219	APPOS_relation 21112 21129	short hairpin RNA
 T1220	Noun_Phrase 21112 21129	short hairpin RNA
 T1221	IDENTITY_chain 21112 21155	short hairpin RNA (shRNA)-treated C3H10T1/2
@@ -1300,8 +1224,7 @@ T1222	Noun_Phrase 21112 21155	short hairpin RNA (shRNA)-treated C3H10T1/2
 T1223	Noun_Phrase 21131 21136	shRNA
 T1224	Noun_Phrase 21157 21159	we
 T1225	Noun_Phrase 21180 21184	bone
-T1226	Noun_Phrase 21190 21192;	4-
-21200 21214	4-month-old mice
+T1226	Noun_Phrase 21190 21192;21200 21214	4- month-old mice
 T1227	IDENTITY_chain 21190 21214	4- and 12-month-old mice
 T1228	Noun_Phrase 21190 21214	4- and 12-month-old mice
 T1229	IDENTITY_chain 21197 21214	12-month-old mice
@@ -1316,21 +1239,14 @@ T1237	Noun_Phrase 21287 21305	undecalcified bone
 T1238	IDENTITY_chain 21287 21399	undecalcified bone from 4- and 12-month-old Sam68+/+ and Sam68?/? mice stained with von Kossa and toluidine blue
 T1239	Noun_Phrase 21287 21399	undecalcified bone from 4- and 12-month-old Sam68+/+ and Sam68?/? mice stained with von Kossa and toluidine blue
 T1240	Noun_Phrase 21301 21305	bone
-T1241	Noun_Phrase 21311 21312;	4
-21321 21330;	4month-old
-21344 21357	4month-oldSam68?/? mice
-T1242	Noun_Phrase 21311 21313;	4-
-21321 21357	4-month-old Sam68+/+ and Sam68?/? mice
-T1243	Noun_Phrase 21311 21330;	4- and 12-month-old
-21344 21357	4- and 12-month-oldSam68?/? mice
+T1241	Noun_Phrase 21311 21312;21321 21330;21344 21357	4 month-old Sam68?/? mice
+T1242	Noun_Phrase 21311 21313;21321 21357	4- month-old Sam68+/+ and Sam68?/? mice
+T1243	Noun_Phrase 21311 21330;21344 21357	4- and 12-month-old Sam68?/? mice
 T1244	Noun_Phrase 21311 21357	4- and 12-month-old Sam68+/+ and Sam68?/? mice
-T1245	Noun_Phrase 21318 21330;	12-month-old
-21344 21357	12-month-oldSam68?/? mice
-T1246	Noun_Phrase 21318 21339;	12-month-old Sam68+/+
-21353 21357	12-month-old Sam68+/+mice
+T1245	Noun_Phrase 21318 21330;21344 21357	12-month-old Sam68?/? mice
+T1246	Noun_Phrase 21318 21339;21353 21357	12-month-old Sam68+/+ mice
 T1247	Noun_Phrase 21318 21357	12-month-old Sam68+/+ and Sam68?/? mice
-T1248	Noun_Phrase 21331 21339;	Sam68+/+
-21353 21357	Sam68+/+mice
+T1248	Noun_Phrase 21331 21339;21353 21357	Sam68+/+ mice
 T1249	Noun_Phrase 21331 21340	Sam68+/+ 
 T1250	Noun_Phrase 21344 21353	Sam68?/? 
 T1251	IDENTITY_chain 21371 21380	von Kossa
@@ -1392,8 +1308,7 @@ T1306	Noun_Phrase 22275 22294	Young Sam68?/? mice
 T1307	Noun_Phrase 22281 22290	Sam68?/? 
 T1308	Noun_Phrase 22336 22340	bone
 T1309	Noun_Phrase 22360 22381	wild-type littermates
-T1310	Noun_Phrase 22383 22387;	Aged
-22400 22413	AgedSam68?/? mice
+T1310	Noun_Phrase 22383 22387;22400 22413	Aged Sam68?/? mice
 T1311	Noun_Phrase 22383 22413	Aged (12 months) Sam68?/? mice
 T1312	Noun_Phrase 22389 22398	12 months
 T1313	Noun_Phrase 22400 22409	Sam68?/? 
@@ -1437,8 +1352,7 @@ T1350	Noun_Phrase 23105 23114	Sam68+/+
 T1351	Noun_Phrase 23105 23118	Sam68+/+ MEFs
 T1352	Noun_Phrase 23120 23134	These findings
 T1353	Noun_Phrase 23171 23176	Sam68
-T1354	Noun_Phrase 23212 23222;	adipogenic
-23238 23253	adipogenicdifferentiation
+T1354	Noun_Phrase 23212 23222;23238 23253	adipogenic differentiation
 T1355	IDENTITY_chain 23227 23253	osteogenic differentiation
 T1356	Noun_Phrase 23227 23253	osteogenic differentiation
 T1357	Noun_Phrase 23257 23284	the bone marrow mesenchymal
@@ -1452,15 +1366,11 @@ T1364	Noun_Phrase 23418 23423	Sam68
 T1365	Noun_Phrase 23453 23455	38
 T1366	Noun_Phrase 23458 23460	We
 T1367	Noun_Phrase 23469 23474	Sam68
-T1368	Noun_Phrase 23469 23518;	Sam68 staining in the brain, heart, and intestine
-23534 23568;	Sam68 staining in the brain, heart, and intestineas well as liver, skin, and kidney
-23588 23609	Sam68 staining in the brain, heart, and intestineas well as liver, skin, and kidneyof late-stage embryos
+T1368	Noun_Phrase 23469 23518;23534 23568;23588 23609	Sam68 staining in the brain, heart, and intestine as well as liver, skin, and kidney of late-stage embryos
 T1369	IDENTITY_chain 23469 23568	Sam68 staining in the brain, heart, and intestine (see Figure 1) as well as liver, skin, and kidney
 T1370	Noun_Phrase 23469 23568	Sam68 staining in the brain, heart, and intestine (see Figure 1) as well as liver, skin, and kidney
-T1371	Noun_Phrase 23487 23490;	the
-23498 23503	theheart
-T1372	Noun_Phrase 23487 23490;	the
-23509 23518	theintestine
+T1371	Noun_Phrase 23487 23490;23498 23503	the heart
+T1372	Noun_Phrase 23487 23490;23509 23518	the intestine
 T1373	Noun_Phrase 23487 23496	the brain
 T1374	Noun_Phrase 23509 23518	intestine
 T1375	Noun_Phrase 23524 23532	Figure 1
@@ -1498,8 +1408,7 @@ T1406	Noun_Phrase 24397 24408	development
 T1407	Noun_Phrase 24397 24408	development
 T1408	Noun_Phrase 24434 24436	47
 T1409	Noun_Phrase 24454 24459	Sam68
-T1410	Noun_Phrase 24529 24541;	the Sam68?/?
-24564 24568	the Sam68?/?pups
+T1410	Noun_Phrase 24529 24541;24564 24568	the Sam68?/? pups
 T1411	Noun_Phrase 24533 24541	Sam68?/?
 T1412	Noun_Phrase 24555 24564	Sam68+/- 
 T1413	Noun_Phrase 24585 24590	their
@@ -1550,11 +1459,9 @@ T1457	Noun_Phrase 25407 25413	weight
 T1458	Noun_Phrase 25428 25434	female
 T1459	Noun_Phrase 25452 25517	The skeletal phenotyping of cohorts of Sam68+/+ and Sam68?/? mice
 T1460	Noun_Phrase 25480 25517	cohorts of Sam68+/+ and Sam68?/? mice
-T1461	Noun_Phrase 25491 25499;	Sam68+/+
-25513 25517	Sam68+/+mice
+T1461	Noun_Phrase 25491 25499;25513 25517	Sam68+/+ mice
 T1462	Noun_Phrase 25491 25500	Sam68+/+ 
-T1463	Noun_Phrase 25491 25500;	Sam68+/+ 
-25513 25517	Sam68+/+ mice
+T1463	Noun_Phrase 25491 25500;25513 25517	Sam68+/+  mice
 T1464	Noun_Phrase 25491 25517	Sam68+/+ and Sam68?/? mice
 T1465	Noun_Phrase 25504 25513	Sam68?/? 
 T1466	Noun_Phrase 25504 25517	Sam68?/? mice
@@ -1562,8 +1469,7 @@ T1467	Noun_Phrase 25530 25534	bone
 T1468	Noun_Phrase 25530 25539	bone mass
 T1469	Noun_Phrase 25557 25575	aged Sam68?/? mice
 T1470	Noun_Phrase 25562 25571	Sam68?/? 
-T1471	Noun_Phrase 25674 25684;	osteoblast
-25700 25708	osteoblastactivity
+T1471	Noun_Phrase 25674 25684;25700 25708	osteoblast activity
 T1472	Noun_Phrase 25674 25684	osteoblast
 T1473	Noun_Phrase 25674 25708	osteoblast and osteoclast activity
 T1474	Noun_Phrase 25689 25699	osteoclast
@@ -1592,11 +1498,9 @@ T1496	Noun_Phrase 26086 26088	We
 T1497	IDENTITY_chain 26108 26176	mature osteoclasts harvested from Sam68+/+ and Sam68?/? mice ex vivo
 T1498	Noun_Phrase 26108 26176	mature osteoclasts harvested from Sam68+/+ and Sam68?/? mice ex vivo
 T1499	Noun_Phrase 26108 26193	mature osteoclasts harvested from Sam68+/+ and Sam68?/? mice ex vivo on dentin slices
-T1500	Noun_Phrase 26142 26150;	Sam68+/+
-26164 26168	Sam68+/+mice
+T1500	Noun_Phrase 26142 26150;26164 26168	Sam68+/+ mice
 T1501	Noun_Phrase 26142 26151	Sam68+/+ 
-T1502	Noun_Phrase 26142 26151;	Sam68+/+ 
-26164 26168	Sam68+/+ mice
+T1502	Noun_Phrase 26142 26151;26164 26168	Sam68+/+  mice
 T1503	Noun_Phrase 26142 26168	Sam68+/+ and Sam68?/? mice
 T1504	Noun_Phrase 26155 26164	Sam68?/? 
 T1505	Noun_Phrase 26155 26168	Sam68?/? mice
@@ -1618,8 +1522,7 @@ T1520	IDENTITY_chain 26449 26731	The fact that the CTX levels were lower in youn
 T1521	Noun_Phrase 26449 26731	The fact that the CTX levels were lower in young and old Sam68?/? mice suggested that there is reduced bone resorption compared with wild-type littermate controls. However, this reduction in bone resorption occurred with normal osteoclast activity, as assessed by in vitro culturing
 T1522	Noun_Phrase 26467 26470	CTX
 T1523	IDENTITY_chain 26467 26470	CTX
-T1524	Noun_Phrase 26492 26497;	young
-26506 26519	youngSam68?/? mice
+T1524	Noun_Phrase 26492 26497;26506 26519	young Sam68?/? mice
 T1525	Noun_Phrase 26492 26519	young and old Sam68?/? mice
 T1526	Noun_Phrase 26502 26519	old Sam68?/? mice
 T1527	Noun_Phrase 26506 26515	Sam68?/? 
@@ -1651,11 +1554,9 @@ T1552	Noun_Phrase 26946 26950	life
 T1553	Noun_Phrase 26978 26982	bone
 T1554	Noun_Phrase 26987 26991	this
 T1555	Noun_Phrase 27067 27078	bone marrow
-T1556	Noun_Phrase 27109 27117;	Sam68+/+
-27131 27135	Sam68+/+mice
+T1556	Noun_Phrase 27109 27117;27131 27135	Sam68+/+ mice
 T1557	Noun_Phrase 27109 27118	Sam68+/+ 
-T1558	Noun_Phrase 27109 27118;	Sam68+/+ 
-27131 27135	Sam68+/+ mice
+T1558	Noun_Phrase 27109 27118;27131 27135	Sam68+/+  mice
 T1559	Noun_Phrase 27109 27135	Sam68+/+ and Sam68?/? mice
 T1560	Noun_Phrase 27122 27131	Sam68?/? 
 T1561	Noun_Phrase 27122 27135	Sam68?/? mice
@@ -1687,8 +1588,7 @@ T1586	Noun_Phrase 27661 27675	Sam68 ?/? mice
 T1587	Noun_Phrase 27681 27715	impaired adipocyte differentiation
 T1588	Noun_Phrase 27690 27699	adipocyte
 T1589	Noun_Phrase 27731 27736	Sam68
-T1590	Noun_Phrase 27752 27761;	adipocyte
-27777 27792	adipocytedifferentiation
+T1590	Noun_Phrase 27752 27761;27777 27792	adipocyte differentiation
 T1591	Noun_Phrase 27752 27761	adipocyte
 T1592	Noun_Phrase 27766 27776	osteoblast
 T1593	Noun_Phrase 27766 27792	osteoblast differentiation
@@ -1748,11 +1648,9 @@ T1646	Noun_Phrase 28964 28979	bone resorption
 T1647	Noun_Phrase 28984 29014	the sympathetic nervous system
 T1648	Noun_Phrase 29023 29043	the absence of Sam68
 T1649	Noun_Phrase 29038 29043	Sam68
-T1650	Noun_Phrase 29051 29061;	osteoblast
-29086 29101	osteoblastdifferentiation
+T1650	Noun_Phrase 29051 29061;29086 29101	osteoblast differentiation
 T1651	Noun_Phrase 29051 29061	osteoblast
-T1652	Noun_Phrase 29075 29084;	adipocyte
-29086 29101	adipocytedifferentiation
+T1652	Noun_Phrase 29075 29084;29086 29101	adipocyte differentiation
 T1653	Noun_Phrase 29075 29084	adipocyte
 T1654	Noun_Phrase 29075 29101	adipocyte, differentiation
 T1655	Noun_Phrase 29119 29122	our
@@ -1804,8 +1702,7 @@ T1700	Noun_Phrase 30087 30093	Canada
 T1701	Noun_Phrase 30129 30156	the AD1 anti-Sam68 antibody
 T1702	Noun_Phrase 30142 30147	Sam68
 T1703	Noun_Phrase 30158 30160	46
-T1704	Noun_Phrase 30166 30185;	counterstained with
-30193 30205	counterstained withmethyl green
+T1704	Noun_Phrase 30166 30185;30193 30205	counterstained with methyl green
 T1705	Noun_Phrase 30193 30205	methyl green
 T1706	IDENTITY_chain 30193 30205	methyl green
 T1707	IDENTITY_chain 30209 30220	hematoxylin
@@ -1816,8 +1713,7 @@ T1711	IDENTITY_chain 30406 30447	overnight fixation in 4% paraformaldehyde
 T1712	Noun_Phrase 30406 30447	overnight fixation in 4% paraformaldehyde
 T1713	Noun_Phrase 30428 30447	4% paraformaldehyde
 T1714	Noun_Phrase 30463 30466	PBS
-T1715	Noun_Phrase 30468 30471;	the
-30487 30492	thetibia
+T1715	Noun_Phrase 30468 30471;30487 30492	the tibia
 T1716	Noun_Phrase 30468 30482	the left femur
 T1717	IDENTITY_chain 30468 30482	the left femur
 T1718	Noun_Phrase 30510 30532	polymethylmethacrylate
@@ -1830,8 +1726,7 @@ T1724	Noun_Phrase 30684 30712	von Kossa and toluidine blue
 T1725	Noun_Phrase 30698 30712	toluidine blue
 T1726	Noun_Phrase 30721 30735	toluidine blue
 T1727	Noun_Phrase 30788 30792	TRAP
-T1728	Noun_Phrase 30788 30792;	TRAP
-30801 30809	TRAPactivity
+T1728	Noun_Phrase 30788 30792;30801 30809	TRAP activity
 T1729	Noun_Phrase 30797 30800	ALP
 T1730	Noun_Phrase 30797 30809	ALP activity
 T1731	Noun_Phrase 30801 30809	activity
@@ -1853,10 +1748,8 @@ T1746	Noun_Phrase 31298 31312	the sam68 gene
 T1747	Noun_Phrase 31302 31307	sam68
 T1748	Noun_Phrase 31352 31357	Sam68
 T1749	Noun_Phrase 31433 31438	Sam68
-T1750	Noun_Phrase 31456 31500;	XbaI-digested Sam68 genomic DNA fragments of
-31551 31554	XbaI-digested Sam68 genomic DNA fragments of3kb
-T1751	IDENTITY_chain 31456 31500;	XbaI-digested Sam68 genomic DNA fragments of
-31551 31554	XbaI-digested Sam68 genomic DNA fragments of3kb
+T1750	Noun_Phrase 31456 31500;31551 31554	XbaI-digested Sam68 genomic DNA fragments of 3kb
+T1751	IDENTITY_chain 31456 31500;31551 31554	XbaI-digested Sam68 genomic DNA fragments of 3kb
 T1752	Noun_Phrase 31470 31475	Sam68
 T1753	Noun_Phrase 31520 31526	exon 4
 T1754	IDENTITY_chain 31531 31545	part of exon 5
@@ -1907,8 +1800,7 @@ T1798	Noun_Phrase 33125 33130	mouse
 T1799	Noun_Phrase 33176 33193	McGill University
 T1800	Noun_Phrase 33247 33253	Animal
 T1801	Noun_Phrase 33260 33271	Genomic DNA
-T1802	Noun_Phrase 33320 33337;	Southern blotting
-33354 33362	Southern blottinganalysis
+T1802	Noun_Phrase 33320 33337;33354 33362	Southern blotting analysis
 T1803	Noun_Phrase 33320 33337	Southern blotting
 T1804	IDENTITY_chain 33342 33353	genomic PCR
 T1805	Noun_Phrase 33342 33353	genomic PCR
@@ -1918,8 +1810,7 @@ T1808	Noun_Phrase 33364 33437	The DNA fragment utilized as the probe for the Sou
 T1809	IDENTITY_chain 33364 33437	The DNA fragment utilized as the probe for the Southern blotting analysis
 T1810	Noun_Phrase 33407 33437	the Southern blotting analysis
 T1811	Noun_Phrase 33457 33491	the following two oligonucleotides
-T1812	Noun_Phrase 33493 33524;	5?-AAG CCT TTA CTG GTT GTG T-3?
-33531 33563	5?-AAG CCT TTA CTG GTT GTG T-3?5?-CTT GAA ACG CAC CGT AGG CT-3?
+T1812	Noun_Phrase 33493 33524;33531 33563	5?-AAG CCT TTA CTG GTT GTG T-3? 5?-CTT GAA ACG CAC CGT AGG CT-3?
 T1813	Noun_Phrase 33566 33592	The wild-type sam68 allele
 T1814	IDENTITY_chain 33566 33592	The wild-type sam68 allele
 T1815	Noun_Phrase 33570 33585	wild-type sam68
@@ -1934,11 +1825,9 @@ T1823	Noun_Phrase 33802 33832	the following oligonucleotides
 T1824	Noun_Phrase 33833 33906	5?-CTT GGG TGG AGA GGC TAT TCG-3? and 5?-GTC GGG CAT GCG CGC CTT GAG C-3?
 T1825	Noun_Phrase 33923 33928	serum
 T1826	Noun_Phrase 33923 33941	serum biochemistry
-T1827	Noun_Phrase 33945 33953;	Sam68+/+
-33967 33971	Sam68+/+mice
+T1827	Noun_Phrase 33945 33953;33967 33971	Sam68+/+ mice
 T1828	Noun_Phrase 33945 33954	Sam68+/+ 
-T1829	Noun_Phrase 33945 33954;	Sam68+/+ 
-33967 33971	Sam68+/+ mice
+T1829	Noun_Phrase 33945 33954;33967 33971	Sam68+/+  mice
 T1830	Noun_Phrase 33945 33971	Sam68+/+ and Sam68?/? mice
 T1831	Noun_Phrase 33958 33967	Sam68?/? 
 T1832	Noun_Phrase 33958 33971	Sam68?/? mice
@@ -1965,10 +1854,8 @@ T1852	Noun_Phrase 34445 34453	the time
 T1853	Noun_Phrase 34457 34466	sacrifice
 T1854	Noun_Phrase 34501 34509	Faxitron
 T1855	Noun_Phrase 34523 34531	Micro-CT
-T1856	Noun_Phrase 34549 34552;	the
-34568 34590	thefourth lumbar vertebra
-T1857	IDENTITY_chain 34549 34552;	the
-34568 34590	thefourth lumbar vertebra
+T1856	Noun_Phrase 34549 34552;34568 34590	the fourth lumbar vertebra
+T1857	IDENTITY_chain 34549 34552;34568 34590	the fourth lumbar vertebra
 T1858	Noun_Phrase 34549 34563	the left femur
 T1859	Noun_Phrase 34568 34590	fourth lumbar vertebra
 T1860	Noun_Phrase 34608 34620	soft tissues
@@ -2001,8 +1888,7 @@ T1886	Noun_Phrase 35359 35411	R & D Systems, Minneapolis, Minnesota, United Stat
 T1887	Noun_Phrase 35398 35411	United States
 T1888	Noun_Phrase 35418 35431	interleukin-6
 T1889	Noun_Phrase 35433 35446	R & D Systems
-T1890	Noun_Phrase 35472 35482;	osteoblast
-35498 35506	osteoblastactivity
+T1890	Noun_Phrase 35472 35482;35498 35506	osteoblast activity
 T1891	Noun_Phrase 35472 35482	osteoblast
 T1892	Noun_Phrase 35472 35506	osteoblast and osteoclast activity
 T1893	Noun_Phrase 35487 35497	osteoclast
@@ -2010,18 +1896,15 @@ T1894	Noun_Phrase 35487 35506	osteoclast activity
 T1895	Noun_Phrase 35509 35513	Bone
 T1896	Noun_Phrase 35509 35520	Bone marrow
 T1897	Noun_Phrase 35538 35547	the tibia
-T1898	Noun_Phrase 35562 35581;	juvenile 4-week-old
-35595 35608	juvenile 4-week-oldSam68?/? mice
-T1899	Noun_Phrase 35562 35591;	juvenile 4-week-old Sam68+/+ 
-35604 35608	juvenile 4-week-old Sam68+/+ mice
+T1898	Noun_Phrase 35562 35581;35595 35608	juvenile 4-week-old Sam68?/? mice
+T1899	Noun_Phrase 35562 35591;35604 35608	juvenile 4-week-old Sam68+/+  mice
 T1900	IDENTITY_chain 35562 35608	juvenile 4-week-old Sam68+/+ and Sam68?/? mice
 T1901	Noun_Phrase 35562 35608	juvenile 4-week-old Sam68+/+ and Sam68?/? mice
 T1902	Noun_Phrase 35582 35591	Sam68+/+ 
 T1903	Noun_Phrase 35595 35604	Sam68?/? 
 T1904	Noun_Phrase 35657 35672	differentiation
 T1905	Noun_Phrase 35657 35679	differentiation medium
-T1906	Noun_Phrase 35684 35685;	6
-35692 35696	6days
+T1906	Noun_Phrase 35684 35685;35692 35696	6 days
 T1907	Noun_Phrase 35689 35696	18 days
 T1908	Noun_Phrase 35711 35713	63
 T1909	Noun_Phrase 35716 35724	Cultures
@@ -2041,10 +1924,8 @@ T1922	Noun_Phrase 35965 35976	Osteoclasts
 T1923	Noun_Phrase 35996 36018	the crushed long bones
 T1924	IDENTITY_chain 35996 36057	the crushed long bones of juvenile Sam68+/+ and Sam68?/? mice
 T1925	Noun_Phrase 35996 36057	the crushed long bones of juvenile Sam68+/+ and Sam68?/? mice
-T1926	Noun_Phrase 36022 36030;	juvenile
-36044 36057	juvenileSam68?/? mice
-T1927	Noun_Phrase 36022 36039;	juvenile Sam68+/+
-36053 36057	juvenile Sam68+/+mice
+T1926	Noun_Phrase 36022 36030;36044 36057	juvenile Sam68?/? mice
+T1927	Noun_Phrase 36022 36039;36053 36057	juvenile Sam68+/+ mice
 T1928	Noun_Phrase 36022 36057	juvenile Sam68+/+ and Sam68?/? mice
 T1929	Noun_Phrase 36031 36040	Sam68+/+ 
 T1930	Noun_Phrase 36044 36053	Sam68?/? 
@@ -2123,12 +2004,9 @@ T2002	Noun_Phrase 38418 38428	Invitrogen
 T2003	Noun_Phrase 38458 38470	empty vector
 T2004	Noun_Phrase 38486 38498	transfection
 T2005	Noun_Phrase 38554 38625	the knockdown observed by immunoblotting with anti-Sam68 (AD1) antibody
-T2006	Noun_Phrase 38580 38610;	immunoblotting with anti-Sam68
-38617 38625	immunoblotting with anti-Sam68antibody
-T2007	APPOS_relation 38600 38610;	anti-Sam68
-38617 38625	anti-Sam68antibody
-T2008	Noun_Phrase 38600 38610;	anti-Sam68
-38617 38625	anti-Sam68antibody
+T2006	Noun_Phrase 38580 38610;38617 38625	immunoblotting with anti-Sam68 antibody
+T2007	APPOS_relation 38600 38610;38617 38625	anti-Sam68 antibody
+T2008	Noun_Phrase 38600 38610;38617 38625	anti-Sam68 antibody
 T2009	Noun_Phrase 38600 38610	anti-Sam68
 T2010	Noun_Phrase 38600 38625	anti-Sam68 (AD1) antibody
 T2011	Noun_Phrase 38612 38615	AD1
@@ -2137,8 +2015,7 @@ T2013	Noun_Phrase 38639 38654	differentiation
 T2014	Noun_Phrase 38667 38682	C3HT101/2 cells
 T2015	IDENTITY_chain 38667 38682	C3HT101/2 cells
 T2016	Noun_Phrase 38689 38715	osteogenic differentiation
-T2017	Noun_Phrase 38717 38726;	C3HT101/2
-38734 38739	C3HT101/2cells
+T2017	Noun_Phrase 38717 38726;38734 38739	C3HT101/2 cells
 T2018	Noun_Phrase 38717 38726	C3HT101/2
 T2019	Noun_Phrase 38717 38739	C3HT101/2 (ATCC) cells
 T2020	Noun_Phrase 38728 38732	ATCC
@@ -2149,8 +2026,7 @@ T2024	Noun_Phrase 38894 38909	300 ng/ml BMP-2
 T2025	Noun_Phrase 38939 38952	United States
 T2026	Noun_Phrase 38955 38973	Total cellular RNA
 T2027	Noun_Phrase 38987 39005	as described above
-T2028	Noun_Phrase 39011 39022;	osteocalcin
-39043 39058	osteocalcingene expression
+T2028	Noun_Phrase 39011 39022;39043 39058	osteocalcin gene expression
 T2029	Noun_Phrase 39011 39022	osteocalcin
 T2030	Noun_Phrase 39024 39031	?-actin
 T2031	Noun_Phrase 39037 39042	GAPDH
@@ -2160,18 +2036,15 @@ T2034	Noun_Phrase 39084 39099	BMP-2 treatment
 T2035	Noun_Phrase 39118 39124	RT-PCR
 T2036	Noun_Phrase 39151 39161	Dataset S1
 T2037	Noun_Phrase 39179 39184	Sam68
-T2038	IDENTITY_chain 39188 39201;	Primary Mouse
-39218 39229	Primary MouseOsteoclasts
-T2039	Noun_Phrase 39188 39201;	Primary Mouse
-39218 39229	Primary MouseOsteoclasts
+T2038	IDENTITY_chain 39188 39201;39218 39229	Primary Mouse Osteoclasts
+T2039	Noun_Phrase 39188 39201;39218 39229	Primary Mouse Osteoclasts
 T2040	Noun_Phrase 39196 39201	Mouse
 T2041	Noun_Phrase 39245 39280	Click here for additional data file
 T2042	Noun_Phrase 39283 39293	Dataset S2
 T2043	Noun_Phrase 39348 39354	Days 6
 T2044	Noun_Phrase 39348 39361	Days 6 and 18
 T2045	Noun_Phrase 39387 39395	Sam68+/+
-T2046	Noun_Phrase 39387 39396;	Sam68+/+ 
-39409 39413	Sam68+/+ Mice
+T2046	Noun_Phrase 39387 39396;39409 39413	Sam68+/+  Mice
 T2047	Noun_Phrase 39387 39413	Sam68+/+ and Sam68?/? Mice
 T2048	Noun_Phrase 39400 39409	Sam68?/? 
 T2049	Noun_Phrase 39400 39413	Sam68?/? Mice
@@ -2180,8 +2053,7 @@ T2051	Noun_Phrase 39429 39464	Click here for additional data file
 T2052	Noun_Phrase 39467 39477	Dataset S3
 T2053	Noun_Phrase 39479 39484	Serum
 T2054	Noun_Phrase 39502 39506	Bone
-T2055	Noun_Phrase 39521 39523;	4-
-39531 39545	4-Month-Old Mice
+T2055	Noun_Phrase 39521 39523;39531 39545	4- Month-Old Mice
 T2056	Noun_Phrase 39521 39545	4- and 12-Month-Old Mice
 T2057	Noun_Phrase 39528 39545	12-Month-Old Mice
 T2058	Noun_Phrase 39560 39595	Click here for additional data file
@@ -2253,10 +2125,8 @@ T2123	Noun_Phrase 40743 40775	counterstained with methyl green
 T2124	Noun_Phrase 40763 40775	methyl green
 T2125	Noun_Phrase 40781 40790	the image
 T2126	Noun_Phrase 40829 40830	B
-T2127	Noun_Phrase 40860 40863;	the
-40871 40876	theheart
-T2128	Noun_Phrase 40860 40863;	the
-40881 40884	thegut
+T2127	Noun_Phrase 40860 40863;40871 40876	the heart
+T2128	Noun_Phrase 40860 40863;40881 40884	the gut
 T2129	Noun_Phrase 40860 40869	the brain
 T2130	Noun_Phrase 40871 40876	heart
 T2131	Noun_Phrase 40881 40884	gut
@@ -2269,14 +2139,11 @@ T2137	Noun_Phrase 41023 41024	C
 T2138	Noun_Phrase 41074 41086	chondrocytes
 T2139	Noun_Phrase 41074 41106	chondrocytes in the nasal septum
 T2140	Noun_Phrase 41090 41106	the nasal septum
-T2141	Noun_Phrase 41108 41114;	panels
-41117 41118	panelsD
-T2142	Noun_Phrase 41108 41114;	panels
-41117 41118	panelsD
+T2141	Noun_Phrase 41108 41114;41117 41118	panels D
+T2142	Noun_Phrase 41108 41114;41117 41118	panels D
 T2143	Noun_Phrase 41108 41116	panels A
 T2144	Noun_Phrase 41108 41118	panels A–D
-T2145	Noun_Phrase 41145 41151;	panels
-41154 41155	panelsH
+T2145	Noun_Phrase 41145 41151;41154 41155	panels H
 T2146	Noun_Phrase 41145 41153	panels E
 T2147	Noun_Phrase 41145 41155	panels E–H
 T2148	Noun_Phrase 41165 41186	the femoral epiphysis
@@ -2284,10 +2151,8 @@ T2149	Noun_Phrase 41188 41196	panels I
 T2150	Noun_Phrase 41188 41198	panels I–K
 T2151	Noun_Phrase 41239 41246	panel L
 T2152	Noun_Phrase 41285 41296	hematoxylin
-T2153	Noun_Phrase 41308 41314;	panels
-41318 41319	panelsE
-T2154	Noun_Phrase 41308 41314;	panels
-41325 41326	panelsI
+T2153	Noun_Phrase 41308 41314;41318 41319	panels E
+T2154	Noun_Phrase 41308 41314;41325 41326	panels I
 T2155	Noun_Phrase 41308 41316	panels A
 T2156	Noun_Phrase 41308 41326	panels A, E, and I
 T2157	Noun_Phrase 41336 41344	antibody
@@ -2297,10 +2162,8 @@ T2160	Noun_Phrase 41407 41412	Sam68
 T2161	Noun_Phrase 41440 41451	the nucleus
 T2162	Noun_Phrase 41455 41460	cells
 T2163	Noun_Phrase 41535 41562	Magnification at source ×20
-T2164	Noun_Phrase 41575 41581;	panels
-41585 41586	panelsH
-T2165	Noun_Phrase 41575 41581;	panels
-41592 41593	panelsL
+T2164	Noun_Phrase 41575 41581;41585 41586	panels H
+T2165	Noun_Phrase 41575 41581;41592 41593	panels L
 T2166	Noun_Phrase 41575 41581	panels
 T2167	Noun_Phrase 41575 41583	panels D
 T2168	Noun_Phrase 41592 41593	L
@@ -2311,26 +2174,20 @@ T2172	Noun_Phrase 41685 41719	Generation of Sam68-Deficient Mice
 T2173	Noun_Phrase 41699 41704	Sam68
 T2174	Noun_Phrase 41699 41719	Sam68-Deficient Mice
 T2175	Noun_Phrase 41722 41723	A
-T2176	Noun_Phrase 41754 41757;	the
-41772 41794	thetargeted sam68 alleles
-T2177	Noun_Phrase 41754 41767;	the wild-type
-41781 41794	the wild-typesam68 alleles
-T2178	Noun_Phrase 41758 41767;	wild-type
-41781 41786	wild-typesam68
+T2176	Noun_Phrase 41754 41757;41772 41794	the targeted sam68 alleles
+T2177	Noun_Phrase 41754 41767;41781 41794	the wild-type sam68 alleles
+T2178	Noun_Phrase 41758 41767;41781 41786	wild-type sam68
 T2179	Noun_Phrase 41772 41794	targeted sam68 alleles
 T2180	Noun_Phrase 41781 41786	sam68
 T2181	Noun_Phrase 41801 41825	homologous recombination
 T2182	Noun_Phrase 41856 41919	the DNA fragment used as a probe for the Southern blot analysis
 T2183	Noun_Phrase 41893 41919	the Southern blot analysis
-T2184	Noun_Phrase 41991 42000;	wild-type
-42014 42019	wild-typesam68
-T2185	Noun_Phrase 41991 42000;	wild-type
-42014 42027	wild-typesam68 alleles
+T2184	Noun_Phrase 41991 42000;42014 42019	wild-type sam68
+T2185	Noun_Phrase 41991 42000;42014 42027	wild-type sam68 alleles
 T2186	Noun_Phrase 42005 42027	targeted sam68 alleles
 T2187	Noun_Phrase 42014 42019	sam68
 T2188	Noun_Phrase 42029 42048	The targeted allele
-T2189	Noun_Phrase 42058 42064;	exon 4
-42084 42092	exon 4of sam68
+T2189	Noun_Phrase 42058 42064;42084 42092	exon 4 of sam68
 T2190	Noun_Phrase 42069 42092	part of exon 5 of sam68
 T2191	Noun_Phrase 42077 42083	exon 5
 T2192	Noun_Phrase 42077 42092	exon 5 of sam68
@@ -2346,10 +2203,8 @@ T2201	Noun_Phrase 42202 42205	+/?
 T2202	Noun_Phrase 42212 42222	homozygous
 T2203	Noun_Phrase 42212 42233	homozygous (?/?) mice
 T2204	Noun_Phrase 42224 42227	?/?
-T2205	Noun_Phrase 42266 42275;	wild-type
-42311 42318	wild-typealleles
-T2206	Noun_Phrase 42289 42301;	the targeted
-42311 42318	the targetedalleles
+T2205	Noun_Phrase 42266 42275;42311 42318	wild-type alleles
+T2206	Noun_Phrase 42289 42301;42311 42318	the targeted alleles
 T2207	Noun_Phrase 42338 42339	C
 T2208	Noun_Phrase 42366 42371	Sam68
 T2209	Noun_Phrase 42366 42382	Sam68 expression
@@ -2371,19 +2226,12 @@ T2224	Noun_Phrase 42698 42736	the C-terminal 20 amino acids of Sam68
 T2225	Noun_Phrase 42731 42736	Sam68
 T2226	Noun_Phrase 42767 42782	loading control
 T2227	Noun_Phrase 42893 42902	the Femur
-T2228	Noun_Phrase 42906 42911;	Young
-42920 42928;	YoungSam68+/+
-42942 42946	YoungSam68+/+Mice
-T2229	Noun_Phrase 42906 42911;	Young
-42920 42929;	YoungSam68+/+ 
-42942 42946	YoungSam68+/+ Mice
-T2230	Noun_Phrase 42906 42911;	Young
-42933 42946	YoungSam68?/? Mice
-T2231	Noun_Phrase 42916 42919;	Old
-42933 42946	OldSam68?/? Mice
+T2228	Noun_Phrase 42906 42911;42920 42928;42942 42946	Young Sam68+/+ Mice
+T2229	Noun_Phrase 42906 42911;42920 42929;42942 42946	Young Sam68+/+  Mice
+T2230	Noun_Phrase 42906 42911;42933 42946	Young Sam68?/? Mice
+T2231	Noun_Phrase 42916 42919;42933 42946	Old Sam68?/? Mice
 T2232	Noun_Phrase 42916 42928	Old Sam68+/+
-T2233	Noun_Phrase 42916 42929;	Old Sam68+/+ 
-42942 42946	Old Sam68+/+ Mice
+T2233	Noun_Phrase 42916 42929;42942 42946	Old Sam68+/+  Mice
 T2234	Noun_Phrase 42920 42929	Sam68+/+ 
 T2235	Noun_Phrase 42933 42942	Sam68?/? 
 T2236	Noun_Phrase 42949 42950	A
@@ -2392,24 +2240,16 @@ T2238	Noun_Phrase 42985 42995	anesthetic
 T2239	Noun_Phrase 42999 43018	the indicated times
 T2240	Noun_Phrase 43047 43064	the distal femora
 T2241	Noun_Phrase 43084 43092	Faxitron
-T2242	IDENTITY_chain 43167 43186;	the distal femur of
-43206 43225	the distal femur ofSam68?/? (?/?) mice
-T2243	Noun_Phrase 43167 43186;	the distal femur of
-43206 43225	the distal femur ofSam68?/? (?/?) mice
-T2244	Noun_Phrase 43167 43196;	the distal femur of Sam68+/+ 
-43221 43225	the distal femur of Sam68+/+ mice
-T2245	Noun_Phrase 43187 43195;	Sam68+/+
-43221 43225	Sam68+/+mice
+T2242	IDENTITY_chain 43167 43186;43206 43225	the distal femur of Sam68?/? (?/?) mice
+T2243	Noun_Phrase 43167 43186;43206 43225	the distal femur of Sam68?/? (?/?) mice
+T2244	Noun_Phrase 43167 43196;43221 43225	the distal femur of Sam68+/+  mice
+T2245	Noun_Phrase 43187 43195;43221 43225	Sam68+/+ mice
 T2246	Noun_Phrase 43187 43196	Sam68+/+ 
-T2247	Noun_Phrase 43187 43196;	Sam68+/+ 
-43221 43225	Sam68+/+ mice
-T2248	APPOS_relation 43187 43196;	Sam68+/+ 
-43221 43225	Sam68+/+ mice
+T2247	Noun_Phrase 43187 43196;43221 43225	Sam68+/+  mice
+T2248	APPOS_relation 43187 43196;43221 43225	Sam68+/+  mice
 T2249	Noun_Phrase 43197 43200	+/+
-T2250	APPOS_relation 43206 43215;	Sam68?/? 
-43221 43225	Sam68?/? mice
-T2251	Noun_Phrase 43206 43215;	Sam68?/? 
-43221 43225	Sam68?/? mice
+T2250	APPOS_relation 43206 43215;43221 43225	Sam68?/?  mice
+T2251	Noun_Phrase 43206 43215;43221 43225	Sam68?/?  mice
 T2252	Noun_Phrase 43206 43215	Sam68?/? 
 T2253	Noun_Phrase 43206 43225	Sam68?/? (?/?) mice
 T2254	Noun_Phrase 43216 43219	?/?
@@ -2418,8 +2258,7 @@ T2256	Noun_Phrase 43281 43290	12 months
 T2257	Noun_Phrase 43300 43317	cortical thinning
 T2258	Noun_Phrase 43319 43324	arrow
 T2259	Noun_Phrase 43344 43352	asterisk
-T2260	Noun_Phrase 43371 43390;	the distal femur of
-43408 43416	the distal femur of?/? mice
+T2260	Noun_Phrase 43371 43390;43408 43416	the distal femur of ?/? mice
 T2261	Noun_Phrase 43371 43399	the distal femur of +/+ mice
 T2262	Noun_Phrase 43391 43399	+/+ mice
 T2263	Noun_Phrase 43408 43416	?/? mice
@@ -2432,21 +2271,15 @@ T2269	Noun_Phrase 43526 43603	a Skyscan 1072 static instrument equipped with 3D 
 T2270	IDENTITY_chain 43526 43603	a Skyscan 1072 static instrument equipped with 3D Creator analytical software
 T2271	Noun_Phrase 43573 43603	3D Creator analytical software
 T2272	Noun_Phrase 43605 43654	Representative three-dimensional re-constructions
-T2273	Noun_Phrase 43734 43753;	the distal femur of
-43773 43792	the distal femur ofSam68?/? (?/?) mice
+T2273	Noun_Phrase 43734 43753;43773 43792	the distal femur of Sam68?/? (?/?) mice
 T2274	Noun_Phrase 43734 43763	the distal femur of Sam68+/+ 
-T2275	Noun_Phrase 43754 43762;	Sam68+/+
-43788 43792	Sam68+/+mice
+T2275	Noun_Phrase 43754 43762;43788 43792	Sam68+/+ mice
 T2276	Noun_Phrase 43754 43763	Sam68+/+ 
-T2277	APPOS_relation 43754 43763;	Sam68+/+ 
-43788 43792	Sam68+/+ mice
-T2278	Noun_Phrase 43754 43763;	Sam68+/+ 
-43788 43792	Sam68+/+ mice
+T2277	APPOS_relation 43754 43763;43788 43792	Sam68+/+  mice
+T2278	Noun_Phrase 43754 43763;43788 43792	Sam68+/+  mice
 T2279	Noun_Phrase 43764 43767	+/+
-T2280	Noun_Phrase 43773 43782;	Sam68?/? 
-43788 43792	Sam68?/? mice
-T2281	APPOS_relation 43773 43782;	Sam68?/? 
-43788 43792	Sam68?/? mice
+T2280	Noun_Phrase 43773 43782;43788 43792	Sam68?/?  mice
+T2281	APPOS_relation 43773 43782;43788 43792	Sam68?/?  mice
 T2282	Noun_Phrase 43773 43782	Sam68?/? 
 T2283	Noun_Phrase 43773 43792	Sam68?/? (?/?) mice
 T2284	Noun_Phrase 43783 43786	?/?
@@ -2467,8 +2300,7 @@ T2298	Noun_Phrase 44178 44183	BV/TV
 T2299	APPOS_relation 44189 44210	structure model index
 T2300	Noun_Phrase 44189 44210	structure model index
 T2301	Noun_Phrase 44212 44215	SMI
-T2302	Noun_Phrase 44236 44239;	the
-44250 44272	thefourth lumbar vertebra
+T2302	Noun_Phrase 44236 44239;44250 44272	the fourth lumbar vertebra
 T2303	Noun_Phrase 44236 44245	the femur
 T2304	Noun_Phrase 44250 44272	fourth lumbar vertebra
 T2305	Noun_Phrase 44297 44307	each group
@@ -2502,8 +2334,7 @@ T2332	Noun_Phrase 44946 44954	p < 0.01
 T2333	Noun_Phrase 44957 44965	Figure 5
 T2334	Noun_Phrase 44990 45008	Undecalcified Bone
 T2335	Noun_Phrase 44990 45040	Undecalcified Bone from Sam68+/+ and Sam68?/? Mice
-T2336	Noun_Phrase 45014 45022;	Sam68+/+
-45036 45040	Sam68+/+Mice
+T2336	Noun_Phrase 45014 45022;45036 45040	Sam68+/+ Mice
 T2337	Noun_Phrase 45014 45023	Sam68+/+ 
 T2338	Noun_Phrase 45014 45040	Sam68+/+ and Sam68?/? Mice
 T2339	Noun_Phrase 45027 45036	Sam68?/? 
@@ -2511,29 +2342,22 @@ T2340	Noun_Phrase 45027 45040	Sam68?/? Mice
 T2341	Noun_Phrase 45042 45112	Sections of tibia fixed in 4% paraformaldehyde and embedded in plastic
 T2342	Noun_Phrase 45054 45059	tibia
 T2343	Noun_Phrase 45069 45088	4% paraformaldehyde
-T2344	Noun_Phrase 45130 45133;	ALP
-45145 45153	ALPactivity
+T2344	Noun_Phrase 45130 45133;45145 45153	ALP activity
 T2345	Noun_Phrase 45130 45133	ALP
 T2346	Noun_Phrase 45166 45177	osteoblasts
 T2347	Noun_Phrase 45185 45189	TRAP
-T2348	Noun_Phrase 45185 45189;	TRAP
-45201 45209	TRAPactivity
+T2348	Noun_Phrase 45185 45189;45201 45209	TRAP activity
 T2349	Noun_Phrase 45222 45233	osteoclasts
 T2350	Noun_Phrase 45235 45252	Staining patterns
-T2351	Noun_Phrase 45269 45289;	4-month-old Sam68+/+
-45369 45373	4-month-old Sam68+/+mice
+T2351	Noun_Phrase 45269 45289;45369 45373	4-month-old Sam68+/+ mice
 T2352	Noun_Phrase 45269 45290	4-month-old Sam68+/+ 
 T2353	Noun_Phrase 45281 45290	Sam68+/+ 
 T2354	Noun_Phrase 45291 45298	A and B
-T2355	Noun_Phrase 45301 45321;	4-month-old Sam68?/?
-45369 45373	4-month-old Sam68?/?mice
-T2356	Noun_Phrase 45301 45322;	4-month-old Sam68?/? 
-45369 45373	4-month-old Sam68?/? mice
+T2355	Noun_Phrase 45301 45321;45369 45373	4-month-old Sam68?/? mice
+T2356	Noun_Phrase 45301 45322;45369 45373	4-month-old Sam68?/?  mice
 T2357	Noun_Phrase 45323 45330	C and D
-T2358	Noun_Phrase 45337 45358;	12-month-old Sam68?/?
-45369 45373	12-month-old Sam68?/?mice
-T2359	Noun_Phrase 45337 45359;	12-month-old Sam68?/? 
-45369 45373	12-month-old Sam68?/? mice
+T2358	Noun_Phrase 45337 45358;45369 45373	12-month-old Sam68?/? mice
+T2359	Noun_Phrase 45337 45359;45369 45373	12-month-old Sam68?/?  mice
 T2360	Noun_Phrase 45350 45359	Sam68?/? 
 T2361	Noun_Phrase 45360 45367	G and H
 T2362	Noun_Phrase 45388 45414	12-month-old Sam68+/+ mice
@@ -2541,14 +2365,11 @@ T2363	Noun_Phrase 45401 45410	Sam68+/+
 T2364	Noun_Phrase 45416 45423	E and F
 T2365	Noun_Phrase 45489 45500	Micrographs
 T2366	Noun_Phrase 45566 45587	each group of animals
-T2367	Noun_Phrase 45620 45628;	Sam68+/+
-45658 45669	Sam68+/+Osteoclasts
+T2367	Noun_Phrase 45620 45628;45658 45669	Sam68+/+ Osteoclasts
 T2368	Noun_Phrase 45620 45629	Sam68+/+ 
-T2369	Noun_Phrase 45620 45629;	Sam68+/+ 
-45658 45669	Sam68+/+ Osteoclasts
+T2369	Noun_Phrase 45620 45629;45658 45669	Sam68+/+  Osteoclasts
 T2370	Noun_Phrase 45633 45641	Sam68?/?
-T2371	Noun_Phrase 45633 45641;	Sam68?/?
-45658 45669	Sam68?/?Osteoclasts
+T2371	Noun_Phrase 45633 45641;45658 45669	Sam68?/? Osteoclasts
 T2372	Noun_Phrase 45633 45653	Sam68?/? Osteoblasts
 T2373	Noun_Phrase 45658 45669	Osteoclasts
 T2374	Noun_Phrase 45671 45691	Marrow stromal cells
@@ -2559,8 +2380,7 @@ T2378	Noun_Phrase 45788 45814	osteoblast differentiation
 T2379	Noun_Phrase 45818 45819	A
 T2380	Noun_Phrase 45821 45829	Cultures
 T2381	Noun_Phrase 45844 45863	4% paraformaldehyde
-T2382	Noun_Phrase 45870 45871;	6
-45878 45882	6days
+T2382	Noun_Phrase 45870 45871;45878 45882	6 days
 T2383	Noun_Phrase 45875 45882	18 days
 T2384	Noun_Phrase 45907 45910	ALP
 T2385	Noun_Phrase 45907 45919	ALP activity
@@ -2597,8 +2417,7 @@ T2415	Noun_Phrase 46701 46737	Sam68?/? Mouse Embryonic Fibroblasts
 T2416	Noun_Phrase 46739 46743	MEFs
 T2417	Noun_Phrase 46763 46768	mouse
 T2418	Noun_Phrase 46780 46798	embryonic day 14.5
-T2419	Noun_Phrase 46816 46825;	MEFs from
-46839 46847	MEFs fromSam68?/?
+T2419	Noun_Phrase 46816 46825;46839 46847	MEFs from Sam68?/?
 T2420	Noun_Phrase 46816 46835	MEFs from Sam68+/+ 
 T2421	Noun_Phrase 46826 46834	Sam68+/+
 T2422	Noun_Phrase 46826 46835	Sam68+/+ 
@@ -2619,12 +2438,9 @@ T2436	Noun_Phrase 47232 47238	RT-PCR
 T2437	Noun_Phrase 47258 47276	total cellular RNA
 T2438	Noun_Phrase 47292 47307	differentiation
 T2439	Noun_Phrase 47311 47319	the MEFs
-T2440	Noun_Phrase 47324 47327;	day
-47334 47335	day4
-T2441	Noun_Phrase 47324 47327;	day
-47337 47338	day6
-T2442	Noun_Phrase 47324 47327;	day
-47344 47346	day12
+T2440	Noun_Phrase 47324 47327;47334 47335	day 4
+T2441	Noun_Phrase 47324 47327;47337 47338	day 6
+T2442	Noun_Phrase 47324 47327;47344 47346	day 12
 T2443	Noun_Phrase 47324 47329	day 0
 T2444	Noun_Phrase 47348 47365	The DNA fragments
 T2445	IDENTITY_chain 47385 47427	agarose gels stained with ethidium bromide
@@ -2649,12 +2465,9 @@ T2463	Noun_Phrase 47848 47857	knockdown
 T2464	Noun_Phrase 47882 47887	Sam68
 T2465	Noun_Phrase 47922 47927	Sam68
 T2466	Noun_Phrase 47922 47935	Sam68 protein
-T2467	Noun_Phrase 47952 47982;	immunoblotting with anti-Sam68
-47989 47997	immunoblotting with anti-Sam68antibody
-T2468	APPOS_relation 47972 47982;	anti-Sam68
-47989 47997	anti-Sam68antibody
-T2469	Noun_Phrase 47972 47982;	anti-Sam68
-47989 47997	anti-Sam68antibody
+T2467	Noun_Phrase 47952 47982;47989 47997	immunoblotting with anti-Sam68 antibody
+T2468	APPOS_relation 47972 47982;47989 47997	anti-Sam68 antibody
+T2469	Noun_Phrase 47972 47982;47989 47997	anti-Sam68 antibody
 T2470	Noun_Phrase 47972 47997	anti-Sam68 (AD1) antibody
 T2471	Noun_Phrase 47984 47987	AD1
 T2472	Noun_Phrase 48029 48045	loading controls
@@ -2719,8 +2532,7 @@ T2530	Noun_Phrase 49181 49185	Bone
 T2531	Noun_Phrase 49238 49245	Table 3
 T2532	Noun_Phrase 49247 49317	Histomorphometric Analysis of Long Bones from 4- and 12-Month-Old Mice
 T2533	Noun_Phrase 49277 49287	Long Bones
-T2534	Noun_Phrase 49293 49295;	4-
-49303 49317	4-Month-Old Mice
+T2534	Noun_Phrase 49293 49295;49303 49317	4- Month-Old Mice
 T2535	Noun_Phrase 49293 49317	4- and 12-Month-Old Mice
 T2536	Noun_Phrase 49300 49317	12-Month-Old Mice
 T2537	IDENTITY_chain 49330 49349	Competing interests

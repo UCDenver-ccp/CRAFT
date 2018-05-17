@@ -2,8 +2,7 @@ T0	GO_0055085 0 20	Membrane trafficking
 T1	GO_0010467 526 533	express
 T2	GO_0010467 941 948	express
 T3	GO_0006897 1257 1268	endocytosis
-T4	GO_0046907 1486 1499;	intracellular
-1509 1520	intracellulartrafficking
+T4	GO_0046907 1486 1499;1509 1520	intracellular trafficking
 T5	GO_0055085 1500 1520	membrane trafficking
 T6	GO_0050890 1893 1902	cognitive
 T7	GO_0016265 1922 1927	death
@@ -38,26 +37,20 @@ T35	GO_0000422 19218 19255	autophagic engulfment of mitochondria
 T36	GO_0008152 20164 20174	metabolism
 T37	GO_0010467 22125 22132	express
 T38	GO_0007569 22217 22231	aging of cells
-T39	GO_0016197 22303 22312;	endosomal
-22332 22343	endosomaltrafficking
-T40	GO_0007041 22313 22322;	lysosomal
-22332 22343	lysosomaltrafficking
+T39	GO_0016197 22303 22312;22332 22343	endosomal trafficking
+T40	GO_0007041 22313 22322;22332 22343	lysosomal trafficking
 T41	GO_0055085 22323 22343	membrane trafficking
 T42	GO_0016192 22703 22724	vesicular trafficking
 T43	GO_0010467 22820 22830	expression
 T44	GO_0006885 22916 22930	pH homeostasis
-T45	GO_0007569 23333 23341;	Aging of
-23366 23371	Aging ofcells
+T45	GO_0007569 23333 23341;23366 23371	Aging of cells
 T46	GO_0007568 23591 23596	aging
 T47	GO_0055085 23823 23843	membrane trafficking
 T48	GO_0006914 24165 24174	autophagy
-T49	GO_0015031 24371 24380;	transport
-24396 24398;	transportof
-24413 24421	transportofproteins
+T49	GO_0015031 24371 24380;24396 24398;24413 24421	transport of proteins
 T50	GO_0034982 24385 24421	processing of mitochondrial proteins
 T51	GO_0055085 25131 25151	membrane trafficking
-T52	GO_0006906 25185 25194;	vesicular
-25212 25218	vesicularfusion
+T52	GO_0006906 25185 25194;25212 25218	vesicular fusion
 T53	GO_0016192 25185 25204	vesicular transport
 T54	GO_0006897 25220 25229	Endocytic
 T55	GO_0000422 25273 25296	mitochondrial autophagy

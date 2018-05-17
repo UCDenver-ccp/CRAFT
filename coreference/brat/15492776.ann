@@ -7,10 +7,8 @@ T5	IDENTITY_chain 95 114	Articular cartilage
 T6	Noun_Phrase 153 161	mobility
 T7	IDENTITY_chain 153 161	mobility
 T8	Noun_Phrase 232 241	arthritis
-T9	Noun_Phrase 243 272;	The molecular mechanisms that
-284 371	The molecular mechanisms thatmaintain this thin layer of cartilage that covers the surface of bones in joint regions
-T10	Noun_Phrase 243 279;	The molecular mechanisms that create
-293 371	The molecular mechanisms that createthis thin layer of cartilage that covers the surface of bones in joint regions
+T9	Noun_Phrase 243 272;284 371	The molecular mechanisms that maintain this thin layer of cartilage that covers the surface of bones in joint regions
+T10	Noun_Phrase 243 279;293 371	The molecular mechanisms that create this thin layer of cartilage that covers the surface of bones in joint regions
 T11	Noun_Phrase 243 371	The molecular mechanisms that create and maintain this thin layer of cartilage that covers the surface of bones in joint regions
 T12	Noun_Phrase 293 371	this thin layer of cartilage that covers the surface of bones in joint regions
 T13	Noun_Phrase 312 321	cartilage
@@ -105,14 +103,10 @@ T101	Noun_Phrase 2415 2433	arthritic diseases
 T102	Noun_Phrase 2560 2569	arthritis
 T103	IDENTITY_chain 2560 2569	arthritis
 T104	Noun_Phrase 2575 2577	it
-T105	IDENTITY_chain 2707 2736;	the molecular mechanisms that
-2748 2776	the molecular mechanisms thatmaintain articular cartilage
-T106	Noun_Phrase 2707 2736;	the molecular mechanisms that
-2748 2776	the molecular mechanisms thatmaintain articular cartilage
-T107	Noun_Phrase 2707 2743;	the molecular mechanisms that create
-2757 2776	the molecular mechanisms that createarticular cartilage
-T108	IDENTITY_chain 2707 2743;	the molecular mechanisms that create
-2757 2776	the molecular mechanisms that createarticular cartilage
+T105	IDENTITY_chain 2707 2736;2748 2776	the molecular mechanisms that maintain articular cartilage
+T106	Noun_Phrase 2707 2736;2748 2776	the molecular mechanisms that maintain articular cartilage
+T107	Noun_Phrase 2707 2743;2757 2776	the molecular mechanisms that create articular cartilage
+T108	IDENTITY_chain 2707 2743;2757 2776	the molecular mechanisms that create articular cartilage
 T109	Noun_Phrase 2707 2776	the molecular mechanisms that create and maintain articular cartilage
 T110	IDENTITY_chain 2707 2776	the molecular mechanisms that create and maintain articular cartilage
 T111	Noun_Phrase 2757 2776	articular cartilage
@@ -168,14 +162,10 @@ T160	Noun_Phrase 3911 3914	BMP
 T161	Noun_Phrase 3977 4016	stripes at sites where joints will form
 T162	Noun_Phrase 3988 4016	sites where joints will form
 T163	Noun_Phrase 4000 4006	joints
-T164	Noun_Phrase 4045 4054;	the genes
-4061 4065	the genesGdf6
-T165	IDENTITY_chain 4045 4054;	the genes
-4061 4065	the genesGdf6
-T166	Noun_Phrase 4045 4054;	the genes
-4073 4077	the genesBmp2
-T167	Noun_Phrase 4045 4054;	the genes
-4083 4087	the genesBmp4
+T164	Noun_Phrase 4045 4054;4061 4065	the genes Gdf6
+T165	IDENTITY_chain 4045 4054;4061 4065	the genes Gdf6
+T166	Noun_Phrase 4045 4054;4073 4077	the genes Bmp2
+T167	Noun_Phrase 4045 4054;4083 4087	the genes Bmp4
 T168	Noun_Phrase 4045 4059	the genes Gdf5
 T169	IDENTITY_chain 4045 4059	the genes Gdf5
 T170	Noun_Phrase 4049 4054	genes
@@ -198,8 +188,7 @@ T186	Noun_Phrase 4476 4491	these molecules
 T187	IDENTITY_chain 4476 4491	these molecules
 T188	Noun_Phrase 4514 4519	joint
 T189	Noun_Phrase 4558 4576	Settle et al. 2003
-T190	Noun_Phrase 4588 4600;	mutations in
-4609 4613	mutations inBmp4
+T190	Noun_Phrase 4588 4600;4609 4613	mutations in Bmp4
 T191	Noun_Phrase 4601 4605	Bmp2
 T192	IDENTITY_chain 4601 4605	Bmp2
 T193	Noun_Phrase 4601 4613	Bmp2 or Bmp4
@@ -266,10 +255,8 @@ T253	IDENTITY_chain 6216 6231	Zou et al. 1997
 T254	Noun_Phrase 6233 6249	Baur et al. 2000
 T255	IDENTITY_chain 6233 6249	Baur et al. 2000
 T256	Noun_Phrase 6270 6285	the Bmpr1b gene
-T257	Noun_Phrase 6322 6326;	bone
-6337 6346	boneformation
-T258	IDENTITY_chain 6322 6326;	bone
-6337 6346	boneformation
+T257	Noun_Phrase 6322 6326;6337 6346	bone formation
+T258	IDENTITY_chain 6322 6326;6337 6346	bone formation
 T259	Noun_Phrase 6322 6326	bone
 T260	Noun_Phrase 6322 6346	bone and joint formation
 T261	IDENTITY_chain 6322 6346	bone and joint formation
@@ -292,8 +279,7 @@ T277	Noun_Phrase 6624 6643	Winnier et al. 1995
 T278	Noun_Phrase 6666 6680	floxed alleles
 T279	Noun_Phrase 6694 6700	Bmpr1a
 T280	Noun_Phrase 6759 6762	its
-T281	Noun_Phrase 6772 6776;	bone
-6787 6796	boneformation
+T281	Noun_Phrase 6772 6776;6787 6796	bone formation
 T282	Noun_Phrase 6772 6776	bone
 T283	Noun_Phrase 6772 6796	bone and joint formation
 T284	Noun_Phrase 6781 6786	joint
@@ -468,8 +454,7 @@ T452	Noun_Phrase 10690 10694	LACZ
 T453	Noun_Phrase 10690 10705	LACZ expression
 T454	IDENTITY_chain 10690 10705	LACZ expression
 T455	Noun_Phrase 10761 10770	the limbs
-T456	Noun_Phrase 10772 10778;	Figure
-10786 10788	Figure1C
+T456	Noun_Phrase 10772 10778;10786 10788	Figure 1C
 T457	Noun_Phrase 10772 10778	Figure
 T458	Noun_Phrase 10772 10781	Figure 1B
 T459	IDENTITY_chain 10772 10781	Figure 1B
@@ -510,10 +495,8 @@ T493	Noun_Phrase 11611 11634	the articular cartilage
 T494	Noun_Phrase 11636 11641	joint
 T495	Noun_Phrase 11636 11649	joint capsule
 T496	Noun_Phrase 11655 11672	synovial membrane
-T497	Noun_Phrase 11674 11680;	Figure
-11688 11690	Figure1E
-T498	IDENTITY_chain 11674 11680;	Figure
-11688 11690	Figure1E
+T497	Noun_Phrase 11674 11680;11688 11690	Figure 1E
+T498	IDENTITY_chain 11674 11680;11688 11690	Figure 1E
 T499	Noun_Phrase 11674 11680	Figure
 T500	Noun_Phrase 11674 11683	Figure 1D
 T501	IDENTITY_chain 11674 11683	Figure 1D
@@ -667,10 +650,8 @@ T648	IDENTITY_chain 15715 15730	fusion of bones
 T649	Noun_Phrase 15725 15730	bones
 T650	Noun_Phrase 15925 15933	controls
 T651	Noun_Phrase 15948 15954	Figure
-T652	Noun_Phrase 15948 15954;	Figure
-15962 15964	Figure3C
-T653	IDENTITY_chain 15948 15954;	Figure
-15962 15964	Figure3C
+T652	Noun_Phrase 15948 15954;15962 15964	Figure 3C
+T653	IDENTITY_chain 15948 15954;15962 15964	Figure 3C
 T654	Noun_Phrase 15948 15957	Figure 3B
 T655	IDENTITY_chain 15948 15957	Figure 3B
 T656	Noun_Phrase 15987 15993	joints
@@ -684,10 +665,8 @@ T663	IDENTITY_chain 16096 16108	Figure 3B–3E
 T664	Noun_Phrase 16111 16127	unpublished data
 T665	Noun_Phrase 16137 16148	Alcian blue
 T666	Noun_Phrase 16233 16239	Figure
-T667	Noun_Phrase 16233 16239;	Figure
-16247 16249	Figure3E
-T668	IDENTITY_chain 16233 16239;	Figure
-16247 16249	Figure3E
+T667	Noun_Phrase 16233 16239;16247 16249	Figure 3E
+T668	IDENTITY_chain 16233 16239;16247 16249	Figure 3E
 T669	Noun_Phrase 16233 16242	Figure 3D
 T670	IDENTITY_chain 16233 16242	Figure 3D
 T671	Noun_Phrase 16251 16259	asterisk
@@ -715,10 +694,8 @@ T692	Noun_Phrase 16839 16874	Gdf5-Cre/Bmpr1afloxP mutant embryos
 T693	IDENTITY_chain 16839 16874	Gdf5-Cre/Bmpr1afloxP mutant embryos
 T694	Noun_Phrase 16979 16984	E14.5
 T695	Noun_Phrase 16996 17002	Figure
-T696	Noun_Phrase 16996 17002;	Figure
-17010 17012	Figure2B
-T697	IDENTITY_chain 16996 17002;	Figure
-17010 17012	Figure2B
+T696	Noun_Phrase 16996 17002;17010 17012	Figure 2B
+T697	IDENTITY_chain 16996 17002;17010 17012	Figure 2B
 T698	Noun_Phrase 16996 17005	Figure 2A
 T699	IDENTITY_chain 16996 17005	Figure 2A
 T700	Noun_Phrase 16996 17012	Figure 2A and 2B
@@ -736,14 +713,10 @@ T711	Noun_Phrase 17272 17298	Cre-mediated recombination
 T712	IDENTITY_chain 17272 17298	Cre-mediated recombination
 T713	Noun_Phrase 17315 17320	E13.5
 T714	Noun_Phrase 17324 17356	the metacarpal-phalangeal joints
-T715	Noun_Phrase 17397 17406;	the first
-17434 17440	the firstdigits
-T716	IDENTITY_chain 17397 17406;	the first
-17434 17440	the firstdigits
-T717	Noun_Phrase 17397 17417;	the first and second
-17434 17440	the first and seconddigits
-T718	Noun_Phrase 17411 17417;	second
-17434 17440	seconddigits
+T715	Noun_Phrase 17397 17406;17434 17440	the first digits
+T716	IDENTITY_chain 17397 17406;17434 17440	the first digits
+T717	Noun_Phrase 17397 17417;17434 17440	the first and second digits
+T718	Noun_Phrase 17411 17417;17434 17440	second digits
 T719	Noun_Phrase 17485 17503	expression of LACZ
 T720	Noun_Phrase 17499 17503	LACZ
 T721	Noun_Phrase 17533 17570	the posterior half of the fifth digit
@@ -753,17 +726,14 @@ T724	Noun_Phrase 17572 17581	Figure 2C
 T725	Noun_Phrase 17584 17674	Terminal deoxynucleotidyl transferase–mediated deoxyuridine triphosphate nick end labeling
 T726	APPOS_relation 17584 17674	Terminal deoxynucleotidyl transferase–mediated deoxyuridine triphosphate nick end labeling
 T727	Noun_Phrase 17676 17681	TUNEL
-T728	Noun_Phrase 17727 17736;	the first
-17748 17754	the firstdigits
+T728	Noun_Phrase 17727 17736;17748 17754	the first digits
 T729	Noun_Phrase 17727 17754	the first and second digits
 T730	IDENTITY_chain 17727 17754	the first and second digits
 T731	Noun_Phrase 17741 17754	second digits
 T732	IDENTITY_chain 17741 17754	second digits
 T733	Noun_Phrase 17756 17762	Figure
-T734	Noun_Phrase 17756 17762;	Figure
-17770 17772	Figure2E
-T735	IDENTITY_chain 17756 17762;	Figure
-17770 17772	Figure2E
+T734	Noun_Phrase 17756 17762;17770 17772	Figure 2E
+T735	IDENTITY_chain 17756 17762;17770 17772	Figure 2E
 T736	Noun_Phrase 17756 17765	Figure 2D
 T737	IDENTITY_chain 17756 17765	Figure 2D
 T738	Noun_Phrase 17756 17772	Figure 2D and 2E
@@ -816,10 +786,8 @@ T784	Noun_Phrase 18816 18828	ankle joints
 T785	Noun_Phrase 18836 18841	E14.5
 T786	Noun_Phrase 18863 18868	E15.5
 T787	Noun_Phrase 18870 18876	Figure
-T788	Noun_Phrase 18870 18876;	Figure
-18884 18886	Figure4J
-T789	IDENTITY_chain 18870 18876;	Figure
-18884 18886	Figure4J
+T788	Noun_Phrase 18870 18876;18884 18886	Figure 4J
+T789	IDENTITY_chain 18870 18876;18884 18886	Figure 4J
 T790	Noun_Phrase 18870 18879	Figure 4G
 T791	IDENTITY_chain 18870 18879	Figure 4G
 T792	Noun_Phrase 18889 18905	unpublished data
@@ -920,16 +888,13 @@ T886	Noun_Phrase 20952 20955	Agg
 T887	Noun_Phrase 20958 21026	the genes encoding the major structural proteins of cartilage matrix
 T888	Noun_Phrase 21010 21019	cartilage
 T889	Noun_Phrase 21010 21026	cartilage matrix
-T890	Noun_Phrase 21028 21034;	Figure
-21042 21044	Figure5G
-T891	IDENTITY_chain 21028 21034;	Figure
-21042 21044	Figure5G
+T890	Noun_Phrase 21028 21034;21042 21044	Figure 5G
+T891	IDENTITY_chain 21028 21034;21042 21044	Figure 5G
 T892	Noun_Phrase 21028 21034	Figure
 T893	Noun_Phrase 21028 21037	Figure 5B
 T894	IDENTITY_chain 21028 21037	Figure 5B
 T895	Noun_Phrase 21047 21063	unpublished data
-T896	Noun_Phrase 21084 21092;	cellular
-21106 21119	cellularproliferation
+T896	Noun_Phrase 21084 21092;21106 21119	cellular proliferation
 T897	Noun_Phrase 21084 21102	cellular apoptosis
 T898	Noun_Phrase 21135 21151	unpublished data
 T899	Noun_Phrase 21176 21191	articular cells
@@ -945,8 +910,7 @@ T908	Noun_Phrase 21278 21374	a gene expressed specifically in the periarticular 
 T909	Noun_Phrase 21357 21374	developing joints
 T910	Noun_Phrase 21399 21430	both control and mutant animals
 T911	IDENTITY_chain 21399 21430	both control and mutant animals
-T912	Noun_Phrase 21404 21411;	control
-21423 21430	controlanimals
+T912	Noun_Phrase 21404 21411;21423 21430	control animals
 T913	Noun_Phrase 21416 21430	mutant animals
 T914	Noun_Phrase 21449 21453	Mat4
 T915	Noun_Phrase 21484 21503	articular cartilage
@@ -957,18 +921,12 @@ T919	Noun_Phrase 21583 21587	LACZ
 T920	Noun_Phrase 21599 21616	articular regions
 T921	Noun_Phrase 21632 21658	Cre-mediated recombination
 T922	Noun_Phrase 21683 21704	the articular regions
-T923	Noun_Phrase 21706 21712;	Figure
-21717 21719	Figure5H
-T924	IDENTITY_chain 21706 21712;	Figure
-21717 21719	Figure5H
-T925	Noun_Phrase 21706 21712;	Figure
-21721 21723	Figure5E
-T926	IDENTITY_chain 21706 21712;	Figure
-21721 21723	Figure5E
-T927	Noun_Phrase 21706 21712;	Figure
-21729 21731	Figure5J
-T928	IDENTITY_chain 21706 21712;	Figure
-21729 21731	Figure5J
+T923	Noun_Phrase 21706 21712;21717 21719	Figure 5H
+T924	IDENTITY_chain 21706 21712;21717 21719	Figure 5H
+T925	Noun_Phrase 21706 21712;21721 21723	Figure 5E
+T926	IDENTITY_chain 21706 21712;21721 21723	Figure 5E
+T927	Noun_Phrase 21706 21712;21729 21731	Figure 5J
+T928	IDENTITY_chain 21706 21712;21729 21731	Figure 5J
 T929	Noun_Phrase 21706 21712	Figure
 T930	Noun_Phrase 21706 21715	Figure 5C
 T931	IDENTITY_chain 21706 21715	Figure 5C
@@ -991,18 +949,14 @@ T947	Noun_Phrase 22318 22321	age
 T948	Noun_Phrase 22323 22329	Col2a1
 T949	Noun_Phrase 22323 22340	Col2a1 expression
 T950	Noun_Phrase 22370 22390	the articular region
-T951	Noun_Phrase 22392 22398;	Figure
-22406 22408	Figure5Q
-T952	IDENTITY_chain 22392 22398;	Figure
-22406 22408	Figure5Q
+T951	Noun_Phrase 22392 22398;22406 22408	Figure 5Q
+T952	IDENTITY_chain 22392 22398;22406 22408	Figure 5Q
 T953	Noun_Phrase 22392 22398	Figure
 T954	Noun_Phrase 22392 22401	Figure 5L
 T955	IDENTITY_chain 22392 22401	Figure 5L
 T956	Noun_Phrase 22443 22453	Safranin O
-T957	Noun_Phrase 22464 22470;	Figure
-22478 22480	Figure5P
-T958	IDENTITY_chain 22464 22470;	Figure
-22478 22480	Figure5P
+T957	Noun_Phrase 22464 22470;22478 22480	Figure 5P
+T958	IDENTITY_chain 22464 22470;22478 22480	Figure 5P
 T959	Noun_Phrase 22464 22470	Figure
 T960	Noun_Phrase 22464 22473	Figure 5K
 T961	IDENTITY_chain 22464 22473	Figure 5K
@@ -1017,10 +971,8 @@ T969	Noun_Phrase 22602 22608	Col3a1
 T970	Noun_Phrase 22614 22625	Collagen 10
 T971	APPOS_relation 22614 22625	Collagen 10
 T972	Noun_Phrase 22627 22634	Col10a1
-T973	Noun_Phrase 22637 22643;	Figure
-22651 22653	Figure5R
-T974	IDENTITY_chain 22637 22643;	Figure
-22651 22653	Figure5R
+T973	Noun_Phrase 22637 22643;22651 22653	Figure 5R
+T974	IDENTITY_chain 22637 22643;22651 22653	Figure 5R
 T975	Noun_Phrase 22637 22643	Figure
 T976	Noun_Phrase 22637 22646	Figure 5M
 T977	IDENTITY_chain 22637 22646	Figure 5M
@@ -1035,18 +987,11 @@ T985	Noun_Phrase 22820 22833	proliferation
 T986	Noun_Phrase 22938 22940	we
 T987	Noun_Phrase 22978 22984	Col1a1
 T988	Noun_Phrase 23023 23036	proliferation
-T989	Noun_Phrase 23053 23071;	articular cells of
-23079 23085;	articular cells ofmutant
-23097 23104	articular cells ofmutantanimals
-T990	IDENTITY_chain 23053 23071;	articular cells of
-23079 23085;	articular cells ofmutant
-23097 23104	articular cells ofmutantanimals
-T991	Noun_Phrase 23053 23071;	articular cells of
-23089 23104	articular cells ofcontrol animals
-T992	IDENTITY_chain 23053 23071;	articular cells of
-23089 23104	articular cells ofcontrol animals
-T993	Noun_Phrase 23079 23085;	mutant
-23097 23104	mutantanimals
+T989	Noun_Phrase 23053 23071;23079 23085;23097 23104	articular cells of mutant animals
+T990	IDENTITY_chain 23053 23071;23079 23085;23097 23104	articular cells of mutant animals
+T991	Noun_Phrase 23053 23071;23089 23104	articular cells of control animals
+T992	IDENTITY_chain 23053 23071;23089 23104	articular cells of control animals
+T993	Noun_Phrase 23079 23085;23097 23104	mutant animals
 T994	Noun_Phrase 23089 23104	control animals
 T995	Noun_Phrase 23106 23122	unpublished data
 T996	Noun_Phrase 23131 23164	recombined LACZ marker expression
@@ -1055,10 +1000,8 @@ T998	Noun_Phrase 23213 23215	it
 T999	Noun_Phrase 23274 23286	growth plate
 T1000	Noun_Phrase 23305 23316	osteoblasts
 T1001	IDENTITY_chain 23305 23316	osteoblasts
-T1002	Noun_Phrase 23318 23324;	Figure
-23332 23334	Figure5T
-T1003	IDENTITY_chain 23318 23324;	Figure
-23332 23334	Figure5T
+T1002	Noun_Phrase 23318 23324;23332 23334	Figure 5T
+T1003	IDENTITY_chain 23318 23324;23332 23334	Figure 5T
 T1004	Noun_Phrase 23318 23324	Figure
 T1005	Noun_Phrase 23318 23327	Figure 5O
 T1006	IDENTITY_chain 23318 23327	Figure 5O
@@ -1068,10 +1011,8 @@ T1009	Noun_Phrase 23337 23353	unpublished data
 T1010	Noun_Phrase 23383 23386	BMP
 T1011	Noun_Phrase 23383 23396	BMP signaling
 T1012	Noun_Phrase 23473 23496	the articular cartilage
-T1013	Noun_Phrase 23511 23522;	Osteocalcin
-23534 23544	Osteocalcinexpression
-T1014	IDENTITY_chain 23511 23522;	Osteocalcin
-23534 23544	Osteocalcinexpression
+T1013	Noun_Phrase 23511 23522;23534 23544	Osteocalcin expression
+T1014	IDENTITY_chain 23511 23522;23534 23544	Osteocalcin expression
 T1015	Noun_Phrase 23527 23544	Col1a1 expression
 T1016	IDENTITY_chain 23527 23544	Col1a1 expression
 T1017	Noun_Phrase 23564 23575	osteoblasts
@@ -1102,22 +1043,16 @@ T1041	IDENTITY_chain 24188 24201	Bmpr1a mutant
 T1042	Noun_Phrase 24188 24206	Bmpr1a mutant mice
 T1043	Noun_Phrase 24208 24224	the SOX9 protein
 T1044	Noun_Phrase 24257 24274	articular regions
-T1045	Noun_Phrase 24318 24326;	2-wk-old
-24351 24355	2-wk-oldmice
-T1046	IDENTITY_chain 24318 24326;	2-wk-old
-24351 24355	2-wk-oldmice
-T1047	Noun_Phrase 24328 24336;	7-wk-old
-24351 24355	7-wk-oldmice
-T1048	IDENTITY_chain 24328 24336;	7-wk-old
-24351 24355	7-wk-oldmice
+T1045	Noun_Phrase 24318 24326;24351 24355	2-wk-old mice
+T1046	IDENTITY_chain 24318 24326;24351 24355	2-wk-old mice
+T1047	Noun_Phrase 24328 24336;24351 24355	7-wk-old mice
+T1048	IDENTITY_chain 24328 24336;24351 24355	7-wk-old mice
 T1049	Noun_Phrase 24328 24355	7-wk-old, and 9-mo-old mice
 T1050	IDENTITY_chain 24328 24355	7-wk-old, and 9-mo-old mice
 T1051	Noun_Phrase 24342 24355	9-mo-old mice
 T1052	IDENTITY_chain 24342 24355	9-mo-old mice
-T1053	Noun_Phrase 24357 24363;	Figure
-24371 24373	Figure5S
-T1054	IDENTITY_chain 24357 24363;	Figure
-24371 24373	Figure5S
+T1053	Noun_Phrase 24357 24363;24371 24373	Figure 5S
+T1054	IDENTITY_chain 24357 24363;24371 24373	Figure 5S
 T1055	Noun_Phrase 24357 24363	Figure
 T1056	Noun_Phrase 24357 24366	Figure 5N
 T1057	IDENTITY_chain 24357 24366	Figure 5N
@@ -1139,10 +1074,8 @@ T1072	Noun_Phrase 24707 24712	joint
 T1073	Noun_Phrase 24759 24793	erosion of the articular cartilage
 T1074	IDENTITY_chain 24759 24793	erosion of the articular cartilage
 T1075	Noun_Phrase 24770 24793	the articular cartilage
-T1076	Noun_Phrase 24795 24801;	Figure
-24809 24811	Figure6B
-T1077	IDENTITY_chain 24795 24801;	Figure
-24809 24811	Figure6B
+T1076	Noun_Phrase 24795 24801;24809 24811	Figure 6B
+T1077	IDENTITY_chain 24795 24801;24809 24811	Figure 6B
 T1078	Noun_Phrase 24795 24801	Figure
 T1079	Noun_Phrase 24795 24804	Figure 6A
 T1080	IDENTITY_chain 24795 24804	Figure 6A
@@ -1158,10 +1091,8 @@ T1089	IDENTITY_chain 24870 24901	increased expression of Col10a1
 T1090	Noun_Phrase 24894 24901	Col10a1
 T1091	IDENTITY_chain 24894 24901	Col10a1
 T1092	Noun_Phrase 24953 24975	the articular erosions
-T1093	Noun_Phrase 24977 24983;	Figure
-24991 24993	Figure6D
-T1094	IDENTITY_chain 24977 24983;	Figure
-24991 24993	Figure6D
+T1093	Noun_Phrase 24977 24983;24991 24993	Figure 6D
+T1094	IDENTITY_chain 24977 24983;24991 24993	Figure 6D
 T1095	Noun_Phrase 24977 24983	Figure
 T1096	Noun_Phrase 24977 24986	Figure 6C
 T1097	IDENTITY_chain 24977 24986	Figure 6C
@@ -1179,8 +1110,7 @@ T1108	Noun_Phrase 25298 25320	the ossification front
 T1109	APPOS_relation 25298 25320	the ossification front
 T1110	Noun_Phrase 25322 25385	where Col10a1 is normally expressed in maturing cartilage cells
 T1111	Noun_Phrase 25328 25335	Col10a1
-T1112	Noun_Phrase 25473 25479;	Figure
-25487 25489	Figure6B
+T1112	Noun_Phrase 25473 25479;25487 25489	Figure 6B
 T1113	Noun_Phrase 25473 25479	Figure
 T1114	Noun_Phrase 25473 25482	Figure 6A
 T1115	Noun_Phrase 25473 25489	Figure 6A and 6B
@@ -1210,8 +1140,7 @@ T1138	Noun_Phrase 26481 26496	central tarsals
 T1139	IDENTITY_chain 26481 26496	central tarsals
 T1140	Noun_Phrase 26511 26534	the articular cartilage
 T1141	Noun_Phrase 26570 26589	Articular Cartilage
-T1142	Noun_Phrase 26593 26598;	Digit
-26608 26614	DigitJoints
+T1142	Noun_Phrase 26593 26598;26608 26614	Digit Joints
 T1143	Noun_Phrase 26593 26598	Digit
 T1144	Noun_Phrase 26603 26607	Knee
 T1145	Noun_Phrase 26627 26643	the ankle region
@@ -1230,8 +1159,7 @@ T1157	Noun_Phrase 26869 26885	2-wk-old animals
 T1158	Noun_Phrase 26887 26897	Safranin O
 T1159	Noun_Phrase 26887 26906	Safranin O staining
 T1160	IDENTITY_chain 26887 26906	Safranin O staining
-T1161	Noun_Phrase 26911 26914;	Agg
-26925 26935	Aggexpression
+T1161	Noun_Phrase 26911 26914;26925 26935	Agg expression
 T1162	Noun_Phrase 26911 26914	Agg
 T1163	Noun_Phrase 26919 26935	Col10 expression
 T1164	IDENTITY_chain 26919 26935	Col10 expression
@@ -1250,8 +1178,7 @@ T1176	Noun_Phrase 27239 27250	the surface
 T1177	Noun_Phrase 27252 27258	Figure
 T1178	Noun_Phrase 27252 27264	Figure 7A–7D
 T1179	IDENTITY_chain 27252 27264	Figure 7A–7D
-T1180	Noun_Phrase 27295 27312;	the expression of
-27326 27332	the expression ofCol1a1
+T1180	Noun_Phrase 27295 27312;27326 27332	the expression of Col1a1
 T1181	Noun_Phrase 27295 27324	the expression of Osteocalcin
 T1182	Noun_Phrase 27313 27324	Osteocalcin
 T1183	IDENTITY_chain 27313 27324	Osteocalcin
@@ -1271,8 +1198,7 @@ T1196	Noun_Phrase 27616 27631	joint formation
 T1197	Noun_Phrase 27652 27668	unpublished data
 T1198	Noun_Phrase 27691 27701	Safranin O
 T1199	Noun_Phrase 27691 27710	Safranin O staining
-T1200	Noun_Phrase 27715 27721;	Col2a1
-27730 27740	Col2a1expression
+T1200	Noun_Phrase 27715 27721;27730 27740	Col2a1 expression
 T1201	Noun_Phrase 27715 27721	Col2a1
 T1202	Noun_Phrase 27726 27729	Agg
 T1203	Noun_Phrase 27726 27740	Agg expression
@@ -1298,22 +1224,15 @@ T1222	Noun_Phrase 28105 28119	these elements
 T1223	Noun_Phrase 28212 28228	unpublished data
 T1224	Noun_Phrase 28249 28261	the meniscus
 T1225	IDENTITY_chain 28249 28261	the meniscus
-T1226	Noun_Phrase 28296 28301;	7-wk-
-28311 28322	7-wk-old animals
+T1226	Noun_Phrase 28296 28301;28311 28322	7-wk- old animals
 T1227	Noun_Phrase 28296 28322	7-wk- and 9-mo-old animals
 T1228	Noun_Phrase 28306 28322	9-mo-old animals
-T1229	Noun_Phrase 28324 28330;	Figure
-28335 28337	Figure7H
-T1230	IDENTITY_chain 28324 28330;	Figure
-28335 28337	Figure7H
-T1231	Noun_Phrase 28324 28330;	Figure
-28339 28341	Figure7K
-T1232	IDENTITY_chain 28324 28330;	Figure
-28339 28341	Figure7K
-T1233	Noun_Phrase 28324 28330;	Figure
-28347 28349	Figure7N
-T1234	IDENTITY_chain 28324 28330;	Figure
-28347 28349	Figure7N
+T1229	Noun_Phrase 28324 28330;28335 28337	Figure 7H
+T1230	IDENTITY_chain 28324 28330;28335 28337	Figure 7H
+T1231	Noun_Phrase 28324 28330;28339 28341	Figure 7K
+T1232	IDENTITY_chain 28324 28330;28339 28341	Figure 7K
+T1233	Noun_Phrase 28324 28330;28347 28349	Figure 7N
+T1234	IDENTITY_chain 28324 28330;28347 28349	Figure 7N
 T1235	Noun_Phrase 28324 28330	Figure
 T1236	Noun_Phrase 28324 28333	Figure 7E
 T1237	IDENTITY_chain 28324 28333	Figure 7E
@@ -1326,18 +1245,15 @@ T1243	Noun_Phrase 28456 28470	mutant animals
 T1244	Noun_Phrase 28511 28527	the growth plate
 T1245	IDENTITY_chain 28511 28527	the growth plate
 T1246	Noun_Phrase 28532 28549	articular surface
-T1247	Noun_Phrase 28551 28557;	Figure
-28565 28567	Figure7H
+T1247	Noun_Phrase 28551 28557;28565 28567	Figure 7H
 T1248	Noun_Phrase 28551 28557	Figure
 T1249	Noun_Phrase 28551 28560	Figure 7E
 T1250	Noun_Phrase 28584 28603	Articular cartilage
 T1251	Noun_Phrase 28629 28644	control animals
 T1252	Noun_Phrase 28680 28690	Safranin O
 T1253	Noun_Phrase 28680 28699	Safranin O staining
-T1254	Noun_Phrase 28770 28776;	Figure
-28784 28786	Figure7I
-T1255	IDENTITY_chain 28770 28776;	Figure
-28784 28786	Figure7I
+T1254	Noun_Phrase 28770 28776;28784 28786	Figure 7I
+T1255	IDENTITY_chain 28770 28776;28784 28786	Figure 7I
 T1256	Noun_Phrase 28770 28776	Figure
 T1257	Noun_Phrase 28770 28779	Figure 7F
 T1258	IDENTITY_chain 28770 28779	Figure 7F
@@ -1345,10 +1261,8 @@ T1259	Noun_Phrase 28770 28786	Figure 7F and 7I
 T1260	IDENTITY_chain 28770 28786	Figure 7F and 7I
 T1261	Noun_Phrase 28972 28978	Bmpr1a
 T1262	Noun_Phrase 29012 29031	articular cartilage
-T1263	Noun_Phrase 29033 29039;	Figure
-29047 29049	Figure7J
-T1264	IDENTITY_chain 29033 29039;	Figure
-29047 29049	Figure7J
+T1263	Noun_Phrase 29033 29039;29047 29049	Figure 7J
+T1264	IDENTITY_chain 29033 29039;29047 29049	Figure 7J
 T1265	Noun_Phrase 29033 29039	Figure
 T1266	Noun_Phrase 29033 29042	Figure 7I
 T1267	Noun_Phrase 29033 29049	Figure 7I and 7J
@@ -1368,14 +1282,10 @@ T1280	Noun_Phrase 29234 29260	the epiphysis of the tibia
 T1281	Noun_Phrase 29251 29260	the tibia
 T1282	Noun_Phrase 29304 29316	growth plate
 T1283	Noun_Phrase 29369 29377	the bone
-T1284	Noun_Phrase 29379 29385;	Figure
-29390 29392	Figure7L
-T1285	Noun_Phrase 29379 29385;	Figure
-29394 29396	Figure7N
-T1286	Noun_Phrase 29379 29385;	Figure
-29402 29404	Figure7O
-T1287	IDENTITY_chain 29379 29385;	Figure
-29402 29404	Figure7O
+T1284	Noun_Phrase 29379 29385;29390 29392	Figure 7L
+T1285	Noun_Phrase 29379 29385;29394 29396	Figure 7N
+T1286	Noun_Phrase 29379 29385;29402 29404	Figure 7O
+T1287	IDENTITY_chain 29379 29385;29402 29404	Figure 7O
 T1288	Noun_Phrase 29379 29385	Figure
 T1289	Noun_Phrase 29379 29388	Figure 7K
 T1290	Noun_Phrase 29431 29435	7 wk
@@ -1383,12 +1293,9 @@ T1291	Noun_Phrase 29440 29444	9 mo
 T1292	Noun_Phrase 29452 29473	subchondral sclerosis
 T1293	IDENTITY_chain 29452 29473	subchondral sclerosis
 T1294	Noun_Phrase 29506 29515	the femur
-T1295	Noun_Phrase 29517 29523;	Figure
-29528 29530	Figure7H
-T1296	Noun_Phrase 29517 29523;	Figure
-29532 29534	Figure7K
-T1297	Noun_Phrase 29517 29523;	Figure
-29540 29542	Figure7N
+T1295	Noun_Phrase 29517 29523;29528 29530	Figure 7H
+T1296	Noun_Phrase 29517 29523;29532 29534	Figure 7K
+T1297	Noun_Phrase 29517 29523;29540 29542	Figure 7N
 T1298	Noun_Phrase 29517 29523	Figure
 T1299	Noun_Phrase 29517 29526	Figure 7E
 T1300	Noun_Phrase 29544 29553	asterisks
@@ -1436,8 +1343,7 @@ T1341	Noun_Phrase 31013 31046	The Gdf5-Cre recombination system
 T1342	Noun_Phrase 31017 31039	Gdf5-Cre recombination
 T1343	Noun_Phrase 31089 31095	Bmpr1a
 T1344	Noun_Phrase 31164 31177	this receptor
-T1345	Noun_Phrase 31181 31185;	limb
-31199 31210	limbdevelopment
+T1345	Noun_Phrase 31181 31185;31199 31210	limb development
 T1346	Noun_Phrase 31181 31185	limb
 T1347	Noun_Phrase 31229 31233	limb
 T1348	Noun_Phrase 31269 31275	Bmpr1a
@@ -1518,10 +1424,8 @@ T1422	IDENTITY_chain 33259 33274	gene expression
 T1423	Noun_Phrase 33311 33316	digit
 T1424	Noun_Phrase 33329 33335	Figure
 T1425	Noun_Phrase 33329 33338	Figure 1C
-T1426	Noun_Phrase 33364 33370;	Bmpr1a
-33380 33387	Bmpr1aprotein
-T1427	IDENTITY_chain 33364 33370;	Bmpr1a
-33380 33387	Bmpr1aprotein
+T1426	Noun_Phrase 33364 33370;33380 33387	Bmpr1a protein
+T1427	IDENTITY_chain 33364 33370;33380 33387	Bmpr1a protein
 T1428	Noun_Phrase 33364 33370	Bmpr1a
 T1429	Noun_Phrase 33364 33375	Bmpr1a mRNA
 T1430	IDENTITY_chain 33364 33375	Bmpr1a mRNA
@@ -1533,8 +1437,7 @@ T1435	Nonreferential_pronoun 33466 33468	it
 T1436	Noun_Phrase 33513 33519	Bmpr1a
 T1437	Noun_Phrase 33523 33528	joint
 T1438	Noun_Phrase 33542 33556	some locations
-T1439	Noun_Phrase 33582 33588;	Bmpr1a
-33598 33605	Bmpr1aprotein
+T1439	Noun_Phrase 33582 33588;33598 33605	Bmpr1a protein
 T1440	Noun_Phrase 33582 33588	Bmpr1a
 T1441	Noun_Phrase 33582 33593	Bmpr1a mRNA
 T1442	Noun_Phrase 33582 33605	Bmpr1a mRNA and protein
@@ -1561,8 +1464,7 @@ T1462	Noun_Phrase 34304 34316	the skeleton
 T1463	Noun_Phrase 34323 34332	cartilage
 T1464	Noun_Phrase 34352 34361	adulthood
 T1465	Noun_Phrase 34389 34408	articular cartilage
-T1466	Noun_Phrase 34412 34417;	joint
-34429 34437	jointmobility
+T1466	Noun_Phrase 34412 34417;34429 34437	joint mobility
 T1467	Noun_Phrase 34412 34417	joint
 T1468	Noun_Phrase 34498 34500	it
 T1469	Noun_Phrase 34531 34541	long bones
@@ -1616,8 +1518,7 @@ T1516	Noun_Phrase 35734 35740	L-Sox5
 T1517	IDENTITY_chain 35734 35740	L-Sox5
 T1518	Noun_Phrase 35751 35755	Sox6
 T1519	IDENTITY_chain 35751 35755	Sox6
-T1520	Noun_Phrase 35760 35802;	the cartilage matrix structural components
-35814 35817	the cartilage matrix structural componentsAgg
+T1520	Noun_Phrase 35760 35802;35814 35817	the cartilage matrix structural components Agg
 T1521	Noun_Phrase 35760 35809	the cartilage matrix structural components Col2a1
 T1522	Noun_Phrase 35764 35773	cartilage
 T1523	Noun_Phrase 35764 35780	cartilage matrix
@@ -1785,8 +1686,7 @@ T1684	IDENTITY_chain 41323 41349	the ATG start site of Gdf5
 T1685	Noun_Phrase 41345 41349	Gdf5
 T1686	Noun_Phrase 41395 41399	Gdf5
 T1687	Noun_Phrase 41513 41516	PCR
-T1688	Noun_Phrase 41537 41541;	XhoI
-41554 41571	XhoIrestriction sites
+T1688	Noun_Phrase 41537 41541;41554 41571	XhoI restriction sites
 T1689	Noun_Phrase 41537 41541	XhoI
 T1690	IDENTITY_chain 41537 41541	XhoI
 T1691	Noun_Phrase 41607 41611	Gdf5
@@ -1858,18 +1758,14 @@ T1756	Noun_Phrase 44502 44511	Figure 1E
 T1757	Noun_Phrase 44607 44620	United States
 T1758	Noun_Phrase 44652 44665	Bmpr1a mutant
 T1759	Noun_Phrase 44652 44670	Bmpr1a mutant mice
-T1760	Noun_Phrase 44672 44678;	Bmpr1a
-44688 44702	Bmpr1afloxed alleles
+T1760	Noun_Phrase 44672 44678;44688 44702	Bmpr1a floxed alleles
 T1761	Noun_Phrase 44672 44678	Bmpr1a
-T1762	Noun_Phrase 44672 44683;	Bmpr1a null
-44695 44702	Bmpr1a nullalleles
-T1763	IDENTITY_chain 44672 44683;	Bmpr1a null
-44695 44702	Bmpr1a nullalleles
+T1762	Noun_Phrase 44672 44683;44695 44702	Bmpr1a null alleles
+T1763	IDENTITY_chain 44672 44683;44695 44702	Bmpr1a null alleles
 T1764	Noun_Phrase 44672 44702	Bmpr1a null and floxed alleles
 T1765	IDENTITY_chain 44672 44702	Bmpr1a null and floxed alleles
 T1766	Noun_Phrase 44721 44740	Mishina et al. 2002
-T1767	Noun_Phrase 44843 44851;	the null
-44863 44870	the nullalleles
+T1767	Noun_Phrase 44843 44851;44863 44870	the null alleles
 T1768	Noun_Phrase 44843 44870	the null and floxed alleles
 T1769	Noun_Phrase 44856 44870	floxed alleles
 T1770	Noun_Phrase 44886 44891	mated
@@ -1897,8 +1793,7 @@ T1791	Noun_Phrase 46122 46132	Bmpr1anull
 T1792	Noun_Phrase 46169 46180	Bmpr1afloxP
 T1793	Noun_Phrase 46186 46192	Figure
 T1794	Noun_Phrase 46186 46194	Figure 3
-T1795	Noun_Phrase 46325 46329;	Cell
-46340 46353	Cellproliferation
+T1795	Noun_Phrase 46325 46329;46340 46353	Cell proliferation
 T1796	Noun_Phrase 46325 46335	Cell death
 T1797	Noun_Phrase 46403 46408	E13.5
 T1798	Noun_Phrase 46413 46418	E14.5
@@ -1926,8 +1821,7 @@ T1819	Noun_Phrase 47083 47102	Vector Laboratories
 T1820	IDENTITY_chain 47083 47102	Vector Laboratories
 T1821	Noun_Phrase 47116 47126	California
 T1822	Noun_Phrase 47128 47141	United States
-T1823	Noun_Phrase 47456 47477;	metacarpal-phalangeal
-47504 47510	metacarpal-phalangealjoints
+T1823	Noun_Phrase 47456 47477;47504 47510	metacarpal-phalangeal joints
 T1824	Noun_Phrase 47593 47632	The posterior region of the fifth digit
 T1825	Noun_Phrase 47617 47632	the fifth digit
 T1826	Noun_Phrase 47679 47688	the digit
@@ -1944,8 +1838,7 @@ T1836	Noun_Phrase 48131 48140	the stage
 T1837	Noun_Phrase 48163 48166	OCT
 T1838	Noun_Phrase 48168 48205	Tissue from animals aged 7 wk to 9 mo
 T1839	IDENTITY_chain 48168 48205	Tissue from animals aged 7 wk to 9 mo
-T1840	Noun_Phrase 48180 48192;	animals aged
-48201 48205	animals aged9 mo
+T1840	Noun_Phrase 48180 48192;48201 48205	animals aged 9 mo
 T1841	Noun_Phrase 48180 48197	animals aged 7 wk
 T1842	Noun_Phrase 48193 48197	7 wk
 T1843	Noun_Phrase 48201 48205	9 mo
@@ -2004,11 +1897,9 @@ T1895	Noun_Phrase 50256 50259	PBS
 T1896	Noun_Phrase 50307 50316	the stage
 T1897	Noun_Phrase 50345 50348	PBS
 T1898	Noun_Phrase 50436 50439	PBS
-T1899	Noun_Phrase 50436 50465;	PBS + 0.05% Tween20 + 5% goat
-50482 50487	PBS + 0.05% Tween20 + 5% goatserum
+T1899	Noun_Phrase 50436 50465;50482 50487	PBS + 0.05% Tween20 + 5% goat serum
 T1900	Noun_Phrase 50442 50455	0.05% Tween20
-T1901	Noun_Phrase 50458 50465;	5% goat
-50482 50487	5% goatserum
+T1901	Noun_Phrase 50458 50465;50482 50487	5% goat serum
 T1902	Noun_Phrase 50544 50547	PBS
 T1903	Noun_Phrase 50550 50564	0.05% Tween 20
 T1904	Noun_Phrase 50653 50664	Vector Labs
@@ -2106,8 +1997,7 @@ T1995	Noun_Phrase 53181 53194	LACZ activity
 T1996	Noun_Phrase 53226 53233	the ear
 T1997	APPOS_relation 53226 53233	the ear
 T1998	Noun_Phrase 53235 53237	ea
-T1999	Noun_Phrase 53243 53260;	the joints of the
-53319 53327	the joints of thevertebra
+T1999	Noun_Phrase 53243 53260;53319 53327	the joints of the vertebra
 T2000	Noun_Phrase 53257 53269	the shoulder
 T2001	APPOS_relation 53257 53269	the shoulder
 T2002	Noun_Phrase 53271 53272	s
@@ -2141,8 +2031,7 @@ T2029	Noun_Phrase 53673 53678	HPLAP
 T2030	Noun_Phrase 53673 53687	HPLAP activity
 T2031	Noun_Phrase 53757 53768	black arrow
 T2032	IDENTITY_chain 53757 53768	black arrow
-T2033	Noun_Phrase 53783 53788;	HPLAP
-53798 53808	HPLAPexpression
+T2033	Noun_Phrase 53783 53788;53798 53808	HPLAP expression
 T2034	Noun_Phrase 53783 53788	HPLAP
 T2035	Noun_Phrase 53793 53797	LACZ
 T2036	Noun_Phrase 53793 53808	LACZ expression
@@ -2175,8 +2064,7 @@ T2062	Noun_Phrase 54524 54531	A and B
 T2063	Noun_Phrase 54541 54546	E14.5
 T2064	Noun_Phrase 54557 54558	A
 T2065	Noun_Phrase 54598 54599	B
-T2066	Noun_Phrase 54625 54631;	digits
-54638 54639	digits2
+T2066	Noun_Phrase 54625 54631;54638 54639	digits 2
 T2067	Noun_Phrase 54625 54631	digits
 T2068	Noun_Phrase 54625 54633	digits 1
 T2069	Noun_Phrase 54625 54639	digits 1 and 2
@@ -2191,8 +2079,7 @@ T2077	Noun_Phrase 54762 54767	E13.5
 T2078	Noun_Phrase 54785 54789	LACZ
 T2079	Noun_Phrase 54809 54837	metacarpal-phalangeal joints
 T2080	IDENTITY_chain 54809 54837	metacarpal-phalangeal joints
-T2081	Noun_Phrase 54847 54853;	digits
-54860 54861	digits2
+T2081	Noun_Phrase 54847 54853;54860 54861	digits 2
 T2082	Noun_Phrase 54847 54853	digits
 T2083	Noun_Phrase 54847 54855	digits 1
 T2084	Noun_Phrase 54847 54861	digits 1 and 2
@@ -2208,8 +2095,7 @@ T2093	Noun_Phrase 54992 55006	TUNEL staining
 T2094	IDENTITY_chain 54992 55006	TUNEL staining
 T2095	Noun_Phrase 55019 55032	proliferation
 T2096	Noun_Phrase 55094 55102	Controls
-T2097	Noun_Phrase 55147 55153;	digits
-55160 55161	digits2
+T2097	Noun_Phrase 55147 55153;55160 55161	digits 2
 T2098	Noun_Phrase 55147 55153	digits
 T2099	Noun_Phrase 55147 55155	digits 1
 T2100	Noun_Phrase 55147 55161	digits 1 and 2
@@ -2270,8 +2156,7 @@ T2154	Noun_Phrase 56483 56493	arrowheads
 T2155	Noun_Phrase 56519 56535	the growth plate
 T2156	Noun_Phrase 56523 56529	growth
 T2157	Noun_Phrase 56537 56546	asterisks
-T2158	Noun_Phrase 56614 56623;	the first
-56635 56640	the firstdigit
+T2158	Noun_Phrase 56614 56623;56635 56640	the first digit
 T2159	Noun_Phrase 56614 56640	the first and second digit
 T2160	Noun_Phrase 56628 56640	second digit
 T2161	Noun_Phrase 56642 56657	black arrowhead
@@ -2432,14 +2317,8 @@ T2315	Noun_Phrase 59665 59666	B
 T2316	Noun_Phrase 59668 59672	LACZ
 T2317	Noun_Phrase 59668 59681	LACZ staining
 T2318	Noun_Phrase 59695 59721	Cre-mediated recombination
-T2319	Noun_Phrase 59747 59756;	articular
-59783 59788;	articularcells
-59801 59803;	articularcellsin
-59809 59817	articularcellsincontrols
-T2320	Noun_Phrase 59747 59756;	articular
-59783 59788;	articularcells
-59801 59803;	articularcellsin
-59822 59829	articularcellsinmutants
+T2319	Noun_Phrase 59747 59756;59783 59788;59801 59803;59809 59817	articular cells in controls
+T2320	Noun_Phrase 59747 59756;59783 59788;59801 59803;59822 59829	articular cells in mutants
 T2321	Noun_Phrase 59758 59768	arrowheads
 T2322	Noun_Phrase 59790 59799	asterisks
 T2323	Noun_Phrase 59804 59829	both controls and mutants
@@ -2489,8 +2368,7 @@ T2366	Noun_Phrase 60948 60963	LACZ expression
 T2367	Noun_Phrase 60973 60999	Cre-mediated recombination
 T2368	Noun_Phrase 61016 61031	articular cells
 T2369	Noun_Phrase 61076 61080	knee
-T2370	Noun_Phrase 61091 61096;	7-wk-
-61111 61122	7-wk-old animals
+T2370	Noun_Phrase 61091 61096;61111 61122	7-wk- old animals
 T2371	Noun_Phrase 61106 61122	9-mo-old animals
 T2372	Noun_Phrase 61130 61132	fe
 T2373	Noun_Phrase 61134 61139	femur

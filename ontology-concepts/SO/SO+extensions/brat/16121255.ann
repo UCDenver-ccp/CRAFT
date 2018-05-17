@@ -50,10 +50,8 @@ T48	SO_EXT_sequence_alteration_entity_or_process 6761 6770	mutations
 T49	SO_EXT_0000704 7160 7165	genic
 T50	SO_EXT_0000704 7219 7223	gene
 T51	SO_EXT_coding_sequence 7244 7257	coding region
-T52	SO_EXT_1000022 7288 7306;	thymine to guanine
-7316 7328	thymine to guaninetransversion
-T53	SO_EXT_1000022 7308 7314;	T to G
-7316 7328	T to Gtransversion
+T52	SO_EXT_1000022 7288 7306;7316 7328	thymine to guanine transversion
+T53	SO_EXT_1000022 7308 7314;7316 7328	T to G transversion
 T54	CHEBI_SO_EXT_valine 7374 7380	valine
 T55	CHEBI_SO_EXT_phenylalanine 7385 7398	phenylalanine
 T56	SO_EXT_sequence_substitution_entity_or_process 7399 7411	substitution

@@ -1,11 +1,7 @@
-T0	IDENTITY_chain 0 9;	Molecular
-22 68	Molecularcharacterization of the mouse Acdp gene family
-T1	Noun_Phrase 0 9;	Molecular
-22 68	Molecularcharacterization of the mouse Acdp gene family
-T2	Noun_Phrase 0 17;	Molecular cloning
-39 68	Molecular cloningof the mouse Acdp gene family
-T3	IDENTITY_chain 0 17;	Molecular cloning
-39 68	Molecular cloningof the mouse Acdp gene family
+T0	IDENTITY_chain 0 9;22 68	Molecular characterization of the mouse Acdp gene family
+T1	Noun_Phrase 0 9;22 68	Molecular characterization of the mouse Acdp gene family
+T2	Noun_Phrase 0 17;39 68	Molecular cloning of the mouse Acdp gene family
+T3	IDENTITY_chain 0 17;39 68	Molecular cloning of the mouse Acdp gene family
 T4	Noun_Phrase 0 68	Molecular cloning and characterization of the mouse Acdp gene family
 T5	IDENTITY_chain 0 68	Molecular cloning and characterization of the mouse Acdp gene family
 T6	Noun_Phrase 22 68	characterization of the mouse Acdp gene family
@@ -52,56 +48,33 @@ T46	IDENTITY_chain 408 423	Acdp3 and Acdp4
 T47	Noun_Phrase 408 423	Acdp3 and Acdp4
 T48	IDENTITY_chain 418 423	Acdp4
 T49	Noun_Phrase 418 423	Acdp4
-T50	Noun_Phrase 433 441;	3,631 bp
-475 492	3,631 bpof cDNA sequences
-T51	IDENTITY_chain 433 441;	3,631 bp
-475 492	3,631 bpof cDNA sequences
+T50	Noun_Phrase 433 441;475 492	3,631 bp of cDNA sequences
+T51	IDENTITY_chain 433 441;475 492	3,631 bp of cDNA sequences
 T52	Noun_Phrase 433 441	3,631 bp
-T53	Noun_Phrase 443 451;	3,244 bp
-475 492	3,244 bpof cDNA sequences
-T54	IDENTITY_chain 443 451;	3,244 bp
-475 492	3,244 bpof cDNA sequences
+T53	Noun_Phrase 443 451;475 492	3,244 bp of cDNA sequences
+T54	IDENTITY_chain 443 451;475 492	3,244 bp of cDNA sequences
 T55	Noun_Phrase 443 451	3,244 bp
-T56	Noun_Phrase 453 461;	2,684 bp
-475 492	2,684 bpof cDNA sequences
-T57	IDENTITY_chain 453 461;	2,684 bp
-475 492	2,684 bpof cDNA sequences
+T56	Noun_Phrase 453 461;475 492	2,684 bp of cDNA sequences
+T57	IDENTITY_chain 453 461;475 492	2,684 bp of cDNA sequences
 T58	Noun_Phrase 453 461	2,684 bp
 T59	Noun_Phrase 466 474	2,743 bp
 T60	Noun_Phrase 466 492	2,743 bp of cDNA sequences
 T61	IDENTITY_chain 466 492	2,743 bp of cDNA sequences
 T62	Noun_Phrase 478 492	cDNA sequences
 T63	IDENTITY_chain 478 492	cDNA sequences
-T64	Noun_Phrase 505 524;	deduced proteins of
-530 533;	deduced proteins of874
-547 558	deduced proteins of874amino acids
-T65	IDENTITY_chain 505 524;	deduced proteins of
-530 533;	deduced proteins of874
-547 558	deduced proteins of874amino acids
-T66	Noun_Phrase 505 524;	deduced proteins of
-535 538;	deduced proteins of713
-547 558	deduced proteins of713amino acids
-T67	IDENTITY_chain 505 524;	deduced proteins of
-535 538;	deduced proteins of713
-547 558	deduced proteins of713amino acids
-T68	Noun_Phrase 505 524;	deduced proteins of
-543 558	deduced proteins of771 amino acids
-T69	IDENTITY_chain 505 524;	deduced proteins of
-543 558	deduced proteins of771 amino acids
-T70	Noun_Phrase 505 528;	deduced proteins of 951
-547 558	deduced proteins of 951amino acids
-T71	Noun_Phrase 525 528;	951
-547 558	951amino acids
-T72	IDENTITY_chain 525 528;	951
-547 558	951amino acids
-T73	Noun_Phrase 530 533;	874
-547 558	874amino acids
-T74	IDENTITY_chain 530 533;	874
-547 558	874amino acids
-T75	Noun_Phrase 535 538;	713
-547 558	713amino acids
-T76	IDENTITY_chain 535 538;	713
-547 558	713amino acids
+T64	Noun_Phrase 505 524;530 533;547 558	deduced proteins of 874 amino acids
+T65	IDENTITY_chain 505 524;530 533;547 558	deduced proteins of 874 amino acids
+T66	Noun_Phrase 505 524;535 538;547 558	deduced proteins of 713 amino acids
+T67	IDENTITY_chain 505 524;535 538;547 558	deduced proteins of 713 amino acids
+T68	Noun_Phrase 505 524;543 558	deduced proteins of 771 amino acids
+T69	IDENTITY_chain 505 524;543 558	deduced proteins of 771 amino acids
+T70	Noun_Phrase 505 528;547 558	deduced proteins of 951 amino acids
+T71	Noun_Phrase 525 528;547 558	951 amino acids
+T72	IDENTITY_chain 525 528;547 558	951 amino acids
+T73	Noun_Phrase 530 533;547 558	874 amino acids
+T74	IDENTITY_chain 530 533;547 558	874 amino acids
+T75	Noun_Phrase 535 538;547 558	713 amino acids
+T76	IDENTITY_chain 535 538;547 558	713 amino acids
 T77	Noun_Phrase 543 558	771 amino acids
 T78	IDENTITY_chain 543 558	771 amino acids
 T79	Noun_Phrase 574 594	The mouse Acdp genes
@@ -112,20 +85,16 @@ T83	Noun_Phrase 635 675	both nucleotide and amino acid sequences
 T84	IDENTITY_chain 635 675	both nucleotide and amino acid sequences
 T85	IDENTITY_chain 640 650	nucleotide
 T86	Noun_Phrase 640 650	nucleotide
-T87	Noun_Phrase 640 650;	nucleotide
-666 675	nucleotidesequences
-T88	Noun_Phrase 640 650;	nucleotide
-666 675	nucleotidesequences
-T89	IDENTITY_chain 640 650;	nucleotide
-666 675	nucleotidesequences
+T87	Noun_Phrase 640 650;666 675	nucleotide sequences
+T88	Noun_Phrase 640 650;666 675	nucleotide sequences
+T89	IDENTITY_chain 640 650;666 675	nucleotide sequences
 T90	IDENTITY_chain 655 675	amino acid sequences
 T91	Noun_Phrase 655 675	amino acid sequences
 T92	Noun_Phrase 679 684	their
 T93	Noun_Phrase 718 758	both nucleotide and amino acid sequences
 T94	Noun_Phrase 718 799	both nucleotide and amino acid sequences within the Ancient Conserved Domain (ACD
 T95	Noun_Phrase 723 733	nucleotide
-T96	Noun_Phrase 723 733;	nucleotide
-749 758	nucleotidesequences
+T96	Noun_Phrase 723 733;749 758	nucleotide sequences
 T97	Noun_Phrase 766 794	the Ancient Conserved Domain
 T98	APPOS_relation 766 794	the Ancient Conserved Domain
 T99	Noun_Phrase 778 787	Conserved
@@ -145,10 +114,8 @@ T112	IDENTITY_chain 950 983	35% AA identity with 55% homology
 T113	Noun_Phrase 950 983	35% AA identity with 55% homology
 T114	IDENTITY_chain 971 983	55% homology
 T115	Noun_Phrase 971 983	55% homology
-T116	IDENTITY_chain 1007 1016;	magnesium
-1028 1034	magnesiumefflux
-T117	Noun_Phrase 1007 1016;	magnesium
-1028 1034	magnesiumefflux
+T116	IDENTITY_chain 1007 1016;1028 1034	magnesium efflux
+T117	Noun_Phrase 1007 1016;1028 1034	magnesium efflux
 T118	IDENTITY_chain 1007 1016	magnesium
 T119	Noun_Phrase 1007 1016	magnesium
 T120	Noun_Phrase 1007 1034	magnesium and cobalt efflux
@@ -187,8 +154,7 @@ T152	Noun_Phrase 1328 1609	The Acdp genes are evolutionarily conserved in divers
 T153	IDENTITY_chain 1328 1609	The Acdp genes are evolutionarily conserved in diverse species and ubiquitously expressed throughout development and adult tissues suggesting that Acdp may be an essential gene. Acdp showed strong homology to bacteria CorC protein and predominantly localized on the plasma membrane
 T154	Noun_Phrase 1347 1371	evolutionarily conserved
 T155	Noun_Phrase 1375 1390	diverse species
-T156	Noun_Phrase 1429 1440;	development
-1451 1458	developmenttissues
+T156	Noun_Phrase 1429 1440;1451 1458	development tissues
 T157	Noun_Phrase 1429 1440	development
 T158	IDENTITY_chain 1429 1440	development
 T159	IDENTITY_chain 1429 1458	development and adult tissues
@@ -253,14 +219,10 @@ T217	Noun_Phrase 2449 2456	protein
 T218	IDENTITY_chain 2487 2509	the mouse EST database
 T219	Noun_Phrase 2487 2509	the mouse EST database
 T220	Noun_Phrase 2491 2500	mouse EST
-T221	IDENTITY_chain 2515 2518;	the
-2530 2546	thetblastn programs
-T222	Noun_Phrase 2515 2518;	the
-2530 2546	thetblastn programs
-T223	IDENTITY_chain 2515 2525;	the blastn
-2538 2546	the blastnprograms
-T224	Noun_Phrase 2515 2525;	the blastn
-2538 2546	the blastnprograms
+T221	IDENTITY_chain 2515 2518;2530 2546	the tblastn programs
+T222	Noun_Phrase 2515 2518;2530 2546	the tblastn programs
+T223	IDENTITY_chain 2515 2525;2538 2546	the blastn programs
+T224	Noun_Phrase 2515 2525;2538 2546	the blastn programs
 T225	Noun_Phrase 2548 2557	Mouse EST
 T226	IDENTITY_chain 2548 2599	Mouse EST markers corresponding to each Acdp member
 T227	Noun_Phrase 2548 2599	Mouse EST markers corresponding to each Acdp member
@@ -307,19 +269,15 @@ T267	Noun_Phrase 3524 3538	Acdp2, 3 and 4
 T268	Noun_Phrase 3531 3532	3
 T269	Noun_Phrase 3531 3538	3 and 4
 T270	Noun_Phrase 3537 3538	4
-T271	Noun_Phrase 3548 3556;	3,244 bp
-3580 3597	3,244 bpof cDNA sequences
+T271	Noun_Phrase 3548 3556;3580 3597	3,244 bp of cDNA sequences
 T272	Noun_Phrase 3548 3556	3,244 bp
-T273	Noun_Phrase 3558 3566;	2,684 bp
-3580 3597	2,684 bpof cDNA sequences
+T273	Noun_Phrase 3558 3566;3580 3597	2,684 bp of cDNA sequences
 T274	Noun_Phrase 3558 3566	2,684 bp
 T275	Noun_Phrase 3571 3579	2,743 bp
 T276	Noun_Phrase 3571 3597	2,743 bp of cDNA sequences
 T277	Noun_Phrase 3583 3597	cDNA sequences
-T278	Noun_Phrase 3610 3629;	deduced proteins of
-3647 3662	deduced proteins of713 amino acids
-T279	Noun_Phrase 3610 3629;	deduced proteins of
-3667 3682	deduced proteins of771 amino acids
+T278	Noun_Phrase 3610 3629;3647 3662	deduced proteins of 713 amino acids
+T279	Noun_Phrase 3610 3629;3667 3682	deduced proteins of 771 amino acids
 T280	Noun_Phrase 3610 3645	deduced proteins of 874 amino acids
 T281	Noun_Phrase 3630 3645	874 amino acids
 T282	Noun_Phrase 3647 3662	713 amino acids
@@ -381,21 +339,15 @@ T337	Noun_Phrase 4500 4505	Acdp4
 T338	Noun_Phrase 4533 4543	expression
 T339	Noun_Phrase 4547 4565	all tissues tested
 T340	Noun_Phrase 4595 4600	Acdp3
-T341	Noun_Phrase 4618 4621;	the
-4629 4635	thekidney
-T342	Noun_Phrase 4618 4621;	the
-4637 4642	theliver
+T341	Noun_Phrase 4618 4621;4629 4635	the kidney
+T342	Noun_Phrase 4618 4621;4637 4642	the liver
 T343	Noun_Phrase 4618 4627	the brain
 T344	Noun_Phrase 4686 4691	Acdp4
-T345	IDENTITY_chain 4709 4712;	the
-4721 4736	thesmall intestine
-T346	Noun_Phrase 4709 4712;	the
-4721 4736	thesmall intestine
-T347	Noun_Phrase 4709 4712;	the
-4741 4747	thetestis
+T345	IDENTITY_chain 4709 4712;4721 4736	the small intestine
+T346	Noun_Phrase 4709 4712;4721 4736	the small intestine
+T347	Noun_Phrase 4709 4712;4741 4747	the testis
 T348	Noun_Phrase 4709 4719	the kidney
-T349	Noun_Phrase 4709 4719;	the kidney
-4737 4747	the kidneyand testis
+T349	Noun_Phrase 4709 4719;4737 4747	the kidney and testis
 T350	Noun_Phrase 4753 4763	expression
 T351	Noun_Phrase 4775 4780	Acdp3
 T352	Noun_Phrase 4775 4786	Acdp3 and 4
@@ -429,10 +381,8 @@ T379	Noun_Phrase 5476 5489	chromosome 19
 T380	Noun_Phrase 5566 5580	The Acdp2 gene
 T381	Noun_Phrase 5610 5619	the Acdp1
 T382	Noun_Phrase 5623 5636	chromosome 19
-T383	Noun_Phrase 5702 5705;	The
-5716 5727	TheAcdp4 genes
-T384	Noun_Phrase 5702 5711;	The Acdp3
-5722 5727	The Acdp3genes
+T383	Noun_Phrase 5702 5705;5716 5727	The Acdp4 genes
+T384	Noun_Phrase 5702 5711;5722 5727	The Acdp3 genes
 T385	Noun_Phrase 5702 5727	The Acdp3 and Acdp4 genes
 T386	Noun_Phrase 5878 5886	Sequence
 T387	Noun_Phrase 5878 5895	Sequence homology
@@ -440,8 +390,7 @@ T388	Noun_Phrase 5927 5947	The mouse Acdp genes
 T389	Noun_Phrase 5931 5936	mouse
 T390	Noun_Phrase 5955 6037	very strong homologies of both nucleotide and AA sequences to the human ACDP genes
 T391	Noun_Phrase 5986 5996	nucleotide
-T392	Noun_Phrase 5986 5996;	nucleotide
-6004 6013	nucleotidesequences
+T392	Noun_Phrase 5986 5996;6004 6013	nucleotide sequences
 T393	Noun_Phrase 6001 6013	AA sequences
 T394	Noun_Phrase 6017 6037	the human ACDP genes
 T395	Noun_Phrase 6039 6046	Table 1
@@ -505,8 +454,7 @@ T452	Noun_Phrase 6977 7084	bacteria CorC protein (35% AA identity with 55% homol
 T453	Noun_Phrase 7000 7033	35% AA identity with 55% homology
 T454	Noun_Phrase 7021 7024	55%
 T455	Noun_Phrase 7021 7033	55% homology
-T456	Noun_Phrase 7057 7066;	magnesium
-7078 7084	magnesiumefflux
+T456	Noun_Phrase 7057 7066;7078 7084	magnesium efflux
 T457	Noun_Phrase 7057 7066	magnesium
 T458	Noun_Phrase 7057 7084	magnesium and cobalt efflux
 T459	Noun_Phrase 7057 7084	magnesium and cobalt efflux
@@ -544,18 +492,15 @@ T490	Noun_Phrase 7597 7607	Nucleotide
 T491	Noun_Phrase 7597 7679	Nucleotide and amino acid homologies (%) between human ACDP and mouse Acdp members
 T492	Noun_Phrase 7612 7679	amino acid homologies (%) between human ACDP and mouse Acdp members
 T493	Noun_Phrase 7646 7656	human ACDP
-T494	Noun_Phrase 7646 7656;	human ACDP
-7672 7679	human ACDPmembers
+T494	Noun_Phrase 7646 7656;7672 7679	human ACDP members
 T495	Noun_Phrase 7661 7671	mouse Acdp
 T496	Noun_Phrase 7682 7690	Figure 2
 T497	Noun_Phrase 7692 7711	Amino acid sequence
 T498	Noun_Phrase 7692 7720	Amino acid sequence homology
 T499	Noun_Phrase 7692 7787	Amino acid sequence homology alignment for all of the ACDP and Acdp genes within the ACD domain
 T500	IDENTITY_chain 7692 7787	Amino acid sequence homology alignment for all of the ACDP and Acdp genes within the ACD domain
-T501	Noun_Phrase 7742 7745;	the
-7755 7765	theAcdp genes
-T502	Noun_Phrase 7742 7750;	the ACDP
-7760 7765	the ACDPgenes
+T501	Noun_Phrase 7742 7745;7755 7765	the Acdp genes
+T502	Noun_Phrase 7742 7750;7760 7765	the ACDP genes
 T503	Noun_Phrase 7773 7787	the ACD domain
 T504	Noun_Phrase 7811 7825	the Acdp genes
 T505	Noun_Phrase 7849 7856	GenBank
@@ -616,8 +561,7 @@ T559	Noun_Phrase 8944 8952	Figure 4
 T560	Noun_Phrase 8954 9054	Phylogenetic tree showing relationships among proteins containing the ACD domain from figure 2 and 3
 T561	Noun_Phrase 9000 9034	proteins containing the ACD domain
 T562	Noun_Phrase 9020 9034	the ACD domain
-T563	Noun_Phrase 9040 9046;	figure
-9053 9054	figure3
+T563	Noun_Phrase 9040 9046;9053 9054	figure 3
 T564	Noun_Phrase 9040 9048	figure 2
 T565	Noun_Phrase 9040 9048	figure 2
 T566	Noun_Phrase 9056 9077	The phylogenetic tree
@@ -630,14 +574,12 @@ T572	Noun_Phrase 9258 9268	mouse Acdp
 T573	Noun_Phrase 9285 9320	four distinct transmembrane domains
 T574	Noun_Phrase 9322 9328	Fig. 5
 T575	IDENTITY_chain 9322 9328	Fig. 5
-T576	Noun_Phrase 9331 9346;	two CBS domains
-9366 9422	two CBS domainsthat are found in bacteria CorC and yeast Amip3 proteins
+T576	Noun_Phrase 9331 9346;9366 9422	two CBS domains that are found in bacteria CorC and yeast Amip3 proteins
 T577	IDENTITY_chain 9331 9346	two CBS domains
 T578	Noun_Phrase 9351 9365	a DUF21 domain
 T579	IDENTITY_chain 9351 9365	a DUF21 domain
 T580	Noun_Phrase 9384 9392	bacteria
-T581	Noun_Phrase 9384 9397;	bacteria CorC
-9414 9422	bacteria CorCproteins
+T581	Noun_Phrase 9384 9397;9414 9422	bacteria CorC proteins
 T582	Noun_Phrase 9402 9407	yeast
 T583	Noun_Phrase 9402 9422	yeast Amip3 proteins
 T584	Noun_Phrase 9408 9413	Amip3
@@ -677,36 +619,22 @@ T617	Noun_Phrase 10934 10949	Western results
 T618	IDENTITY_chain 10934 10949	Western results
 T619	Noun_Phrase 10954 10978	subcellular localization
 T620	IDENTITY_chain 10954 10978	subcellular localization
-T621	IDENTITY_chain 10980 10999;	Peptides from Acdp1
-11034 11035;	Peptides from Acdp1C
-11054 11064	Peptides from Acdp1Cterminuses
-T622	Noun_Phrase 10980 10999;	Peptides from Acdp1
-11034 11036;	Peptides from Acdp1C-
-11054 11064	Peptides from Acdp1C-terminuses
-T623	APPOS_relation 10980 10999;	Peptides from Acdp1
-11034 11036;	Peptides from Acdp1C-
-11054 11064	Peptides from Acdp1C-terminuses
-T624	Noun_Phrase 10980 11002;	Peptides from Acdp1 N-
-11054 11064	Peptides from Acdp1 N-terminuses
-T625	APPOS_relation 10980 11002;	Peptides from Acdp1 N-
-11054 11064	Peptides from Acdp1 N-terminuses
-T626	IDENTITY_chain 10980 11002;	Peptides from Acdp1 N-
-11054 11064	Peptides from Acdp1 N-terminuses
+T621	IDENTITY_chain 10980 10999;11034 11035;11054 11064	Peptides from Acdp1 C terminuses
+T622	Noun_Phrase 10980 10999;11034 11036;11054 11064	Peptides from Acdp1 C- terminuses
+T623	APPOS_relation 10980 10999;11034 11036;11054 11064	Peptides from Acdp1 C- terminuses
+T624	Noun_Phrase 10980 11002;11054 11064	Peptides from Acdp1 N- terminuses
+T625	APPOS_relation 10980 11002;11054 11064	Peptides from Acdp1 N- terminuses
+T626	IDENTITY_chain 10980 11002;11054 11064	Peptides from Acdp1 N- terminuses
 T627	Noun_Phrase 10980 11064	Peptides from Acdp1 N- (TSFLLRVYFQPGPPATAAPVPSPT) and C- (TQQLTLSPAAVPTR) terminuses
 T628	IDENTITY_chain 10980 11108	Peptides from Acdp1 N- (TSFLLRVYFQPGPPATAAPVPSPT) and C- (TQQLTLSPAAVPTR) terminuses, conserved peptide from ACD domain of Acdp1
 T629	Noun_Phrase 10980 11108	Peptides from Acdp1 N- (TSFLLRVYFQPGPPATAAPVPSPT) and C- (TQQLTLSPAAVPTR) terminuses, conserved peptide from ACD domain of Acdp1
 T630	Noun_Phrase 10994 10999	Acdp1
-T631	IDENTITY_chain 10994 10999;	Acdp1
-11034 11064	Acdp1C- (TQQLTLSPAAVPTR) terminuses
-T632	Noun_Phrase 10994 10999;	Acdp1
-11034 11064	Acdp1C- (TQQLTLSPAAVPTR) terminuses
-T633	IDENTITY_chain 10994 11002;	Acdp1 N-
-11054 11064	Acdp1 N-terminuses
-T634	Noun_Phrase 10994 11002;	Acdp1 N-
-11054 11064	Acdp1 N-terminuses
+T631	IDENTITY_chain 10994 10999;11034 11064	Acdp1 C- (TQQLTLSPAAVPTR) terminuses
+T632	Noun_Phrase 10994 10999;11034 11064	Acdp1 C- (TQQLTLSPAAVPTR) terminuses
+T633	IDENTITY_chain 10994 11002;11054 11064	Acdp1 N- terminuses
+T634	Noun_Phrase 10994 11002;11054 11064	Acdp1 N- terminuses
 T635	Noun_Phrase 11004 11028	TSFLLRVYFQPGPPATAAPVPSPT
-T636	Noun_Phrase 11034 11036;	C-
-11054 11064	C-terminuses
+T636	Noun_Phrase 11034 11036;11054 11064	C- terminuses
 T637	Noun_Phrase 11038 11052	TQQLTLSPAAVPTR
 T638	Noun_Phrase 11103 11108	Acdp1
 T639	Noun_Phrase 11172 11185	Sigma Genosys
@@ -752,16 +680,12 @@ T678	Noun_Phrase 11887 11907	the Acdp1 C-terminus
 T679	Noun_Phrase 11891 11896	Acdp1
 T680	Noun_Phrase 11909 11911	we
 T681	Noun_Phrase 11933 11939	HEK293
-T682	Noun_Phrase 11933 11939;	HEK293
-11954 11959	HEK293cells
-T683	IDENTITY_chain 11933 11939;	HEK293
-11954 11959	HEK293cells
+T682	Noun_Phrase 11933 11939;11954 11959	HEK293 cells
+T683	IDENTITY_chain 11933 11939;11954 11959	HEK293 cells
 T684	Noun_Phrase 11933 11959	HEK293, 3T3 and PC12 cells
 T685	IDENTITY_chain 11933 11959	HEK293, 3T3 and PC12 cells
-T686	IDENTITY_chain 11941 11944;	3T3
-11954 11959	3T3cells
-T687	Noun_Phrase 11941 11944;	3T3
-11954 11959	3T3cells
+T686	IDENTITY_chain 11941 11944;11954 11959	3T3 cells
+T687	Noun_Phrase 11941 11944;11954 11959	3T3 cells
 T688	IDENTITY_chain 11949 11959	PC12 cells
 T689	Noun_Phrase 11949 11959	PC12 cells
 T690	Noun_Phrase 11954 11959	cells
@@ -776,26 +700,17 @@ T698	IDENTITY_chain 12117 12154	10 ?g extracts of HEK293 cell lysates
 T699	Noun_Phrase 12135 12146	HEK293 cell
 T700	Noun_Phrase 12135 12154	HEK293 cell lysates
 T701	IDENTITY_chain 12135 12154	HEK293 cell lysates
-T702	IDENTITY_chain 12156 12174;	100 ?g extracts of
-12183 12200	100 ?g extracts ofPC12 cell lysates
-T703	Noun_Phrase 12156 12174;	100 ?g extracts of
-12183 12200	100 ?g extracts ofPC12 cell lysates
-T704	Noun_Phrase 12156 12174;	100 ?g extracts of
-12183 12200	100 ?g extracts ofPC12 cell lysates
-T705	IDENTITY_chain 12156 12178;	100 ?g extracts of 3T3
-12188 12200	100 ?g extracts of 3T3cell lysates
-T706	Noun_Phrase 12156 12178;	100 ?g extracts of 3T3
-12188 12200	100 ?g extracts of 3T3cell lysates
-T707	Noun_Phrase 12156 12178;	100 ?g extracts of 3T3
-12188 12200	100 ?g extracts of 3T3cell lysates
+T702	IDENTITY_chain 12156 12174;12183 12200	100 ?g extracts of PC12 cell lysates
+T703	Noun_Phrase 12156 12174;12183 12200	100 ?g extracts of PC12 cell lysates
+T704	Noun_Phrase 12156 12174;12183 12200	100 ?g extracts of PC12 cell lysates
+T705	IDENTITY_chain 12156 12178;12188 12200	100 ?g extracts of 3T3 cell lysates
+T706	Noun_Phrase 12156 12178;12188 12200	100 ?g extracts of 3T3 cell lysates
+T707	Noun_Phrase 12156 12178;12188 12200	100 ?g extracts of 3T3 cell lysates
 T708	Noun_Phrase 12156 12200	100 ?g extracts of 3T3 and PC12 cell lysates
 T709	IDENTITY_chain 12156 12200	100 ?g extracts of 3T3 and PC12 cell lysates
-T710	Noun_Phrase 12175 12178;	3T3
-12188 12192	3T3cell
-T711	Noun_Phrase 12175 12178;	3T3
-12188 12200	3T3cell lysates
-T712	IDENTITY_chain 12175 12178;	3T3
-12188 12200	3T3cell lysates
+T710	Noun_Phrase 12175 12178;12188 12192	3T3 cell
+T711	Noun_Phrase 12175 12178;12188 12200	3T3 cell lysates
+T712	IDENTITY_chain 12175 12178;12188 12200	3T3 cell lysates
 T713	IDENTITY_chain 12175 12200	3T3 and PC12 cell lysates
 T714	Noun_Phrase 12175 12200	3T3 and PC12 cell lysates
 T715	Noun_Phrase 12183 12192	PC12 cell
@@ -868,24 +783,19 @@ T781	Noun_Phrase 13550 13555	Acdp1
 T782	Noun_Phrase 13566 13571	Acdp2
 T783	Noun_Phrase 13582 13587	Acdp4
 T784	Noun_Phrase 13600 13605	Acdp3
-T785	Noun_Phrase 13615 13619;	Lane
-13626 13627	Lane3
+T785	Noun_Phrase 13615 13619;13626 13627	Lane 3
 T786	Noun_Phrase 13615 13621	Lane 2
-T787	Noun_Phrase 13641 13674;	the Acdp1 antibodies generated by
-13690 13709	the Acdp1 antibodies generated byC-terminal peptides
+T787	Noun_Phrase 13641 13674;13690 13709	the Acdp1 antibodies generated by C-terminal peptides
 T788	Noun_Phrase 13645 13650	Acdp1
-T789	Noun_Phrase 13675 13685;	N-terminal
-13701 13709	N-terminalpeptides
+T789	Noun_Phrase 13675 13685;13701 13709	N-terminal peptides
 T790	Noun_Phrase 13690 13708	C-terminal peptide
 T791	Noun_Phrase 13725 13732	Fig. 6B
 T792	Noun_Phrase 13734 13792	Immunoblot analysis of Acdp1 in HEK293, 3T3 and PC12 cells
 T793	IDENTITY_chain 13734 13792	Immunoblot analysis of Acdp1 in HEK293, 3T3 and PC12 cells
 T794	Noun_Phrase 13757 13762	Acdp1
 T795	Noun_Phrase 13766 13772	HEK293
-T796	Noun_Phrase 13766 13772;	HEK293
-13787 13792	HEK293cells
-T797	Noun_Phrase 13774 13777;	3T3
-13787 13792	3T3cells
+T796	Noun_Phrase 13766 13772;13787 13792	HEK293 cells
+T797	Noun_Phrase 13774 13777;13787 13792	3T3 cells
 T798	Noun_Phrase 13782 13792	PC12 cells
 T799	Noun_Phrase 13794 13803	The blots
 T800	Noun_Phrase 13821 13866	the antibody against the C-terminus of Acdp-1
@@ -896,19 +806,14 @@ T804	Noun_Phrase 13876 13904	10 ?g of HEK293 cell lysates
 T805	Noun_Phrase 13885 13891	HEK293
 T806	Noun_Phrase 13885 13896	HEK293 cell
 T807	Noun_Phrase 13885 13904	HEK293 cell lysates
-T808	Noun_Phrase 13906 13910;	Lane
-13917 13918	Lane3
+T808	Noun_Phrase 13906 13910;13917 13918	Lane 3
 T809	Noun_Phrase 13906 13912	Lane 2
 T810	Noun_Phrase 13906 13918	Lane 2 and 3
-T811	Noun_Phrase 13920 13929;	100 ?g of
-13938 13955	100 ?g ofPC12 cell lysates
-T812	Noun_Phrase 13920 13933;	100 ?g of 3T3
-13943 13955	100 ?g of 3T3cell lysates
+T811	Noun_Phrase 13920 13929;13938 13955	100 ?g of PC12 cell lysates
+T812	Noun_Phrase 13920 13933;13943 13955	100 ?g of 3T3 cell lysates
 T813	Noun_Phrase 13920 13955	100 ?g of 3T3 and PC12 cell lysates
-T814	Noun_Phrase 13930 13933;	3T3
-13943 13947	3T3cell
-T815	Noun_Phrase 13930 13933;	3T3
-13943 13955	3T3cell lysates
+T814	Noun_Phrase 13930 13933;13943 13947	3T3 cell
+T815	Noun_Phrase 13930 13933;13943 13955	3T3 cell lysates
 T816	Noun_Phrase 13930 13955	3T3 and PC12 cell lysates
 T817	Noun_Phrase 13938 13947	PC12 cell
 T818	Noun_Phrase 13938 13955	PC12 cell lysates
@@ -930,15 +835,12 @@ T833	Noun_Phrase 14395 14415	biological processes
 T834	Noun_Phrase 14424 14435	these genes
 T835	Noun_Phrase 14468 14507	many phylogenetically divergent species
 T836	Noun_Phrase 14565 14576	these genes
-T837	Noun_Phrase 14615 14626;	development
-14637 14644	developmenttissues
+T837	Noun_Phrase 14615 14626;14637 14644	development tissues
 T838	Noun_Phrase 14615 14626	development
 T839	Noun_Phrase 14615 14644	development and adult tissues
 T840	Noun_Phrase 14631 14644	adult tissues
-T841	Noun_Phrase 14665 14668;	The
-14681 14727	Thecharacterization of the mouse Acdp gene family
-T842	Noun_Phrase 14665 14676;	The cloning
-14698 14727	The cloningof the mouse Acdp gene family
+T841	Noun_Phrase 14665 14668;14681 14727	The characterization of the mouse Acdp gene family
+T842	Noun_Phrase 14665 14676;14698 14727	The cloning of the mouse Acdp gene family
 T843	Noun_Phrase 14665 14727	The cloning and characterization of the mouse Acdp gene family
 T844	Noun_Phrase 14701 14727	the mouse Acdp gene family
 T845	Noun_Phrase 14705 14710	mouse
@@ -958,8 +860,7 @@ T858	IDENTITY_chain 14964 14968	CorA
 T859	Noun_Phrase 14964 14968	CorA
 T860	Noun_Phrase 14973 14974	C
 T861	Noun_Phrase 14993 15000	protein
-T862	Noun_Phrase 15036 15045;	efflux of
-15060 15066	efflux ofcobalt
+T862	Noun_Phrase 15036 15045;15060 15066	efflux of cobalt
 T863	Noun_Phrase 15036 15055	efflux of magnesium
 T864	Noun_Phrase 15036 15066	efflux of magnesium and cobalt
 T865	Noun_Phrase 15046 15055	magnesium
@@ -972,10 +873,8 @@ T871	Noun_Phrase 15125 15140	cobalt toxicity
 T872	Noun_Phrase 15146 15151	Amip3
 T873	Noun_Phrase 15146 15151	Amip3
 T874	Noun_Phrase 15182 15258	CorC protein which is involved in efflux of magnesium and cobalt in bacteria
-T875	Noun_Phrase 15216 15225;	efflux of
-15240 15258	efflux ofcobalt in bacteria
-T876	Noun_Phrase 15216 15235;	efflux of magnesium
-15247 15258	efflux of magnesiumin bacteria
+T875	Noun_Phrase 15216 15225;15240 15258	efflux of cobalt in bacteria
+T876	Noun_Phrase 15216 15235;15247 15258	efflux of magnesium in bacteria
 T877	Noun_Phrase 15216 15258	efflux of magnesium and cobalt in bacteria
 T878	Noun_Phrase 15226 15235	magnesium
 T879	Noun_Phrase 15226 15235	magnesium
@@ -988,8 +887,7 @@ T885	Noun_Phrase 15294 15309	copper toxicity
 T886	Noun_Phrase 15311 15315	Acdp
 T887	Noun_Phrase 15311 15324	Acdp proteins
 T888	Noun_Phrase 15368 15376	bacteria
-T889	Noun_Phrase 15368 15381;	bacteria CorC
-15398 15406	bacteria CorCproteins
+T889	Noun_Phrase 15368 15381;15398 15406	bacteria CorC proteins
 T890	Noun_Phrase 15386 15391	yeast
 T891	Noun_Phrase 15386 15406	yeast Amip3 proteins
 T892	Noun_Phrase 15392 15397	Amip3
@@ -1017,14 +915,10 @@ T913	Noun_Phrase 16089 16118	the Acdp1 C-terminus antibody
 T914	Noun_Phrase 16093 16109	Acdp1 C-terminus
 T915	Noun_Phrase 16135 16140	Acdp1
 T916	Noun_Phrase 16144 16165	brain tissue extracts
-T917	Noun_Phrase 16180 16186;	HEK293
-16201 16205	HEK293cell
-T918	Noun_Phrase 16180 16186;	HEK293
-16201 16213	HEK293cell lysates
-T919	Noun_Phrase 16188 16191;	3T3
-16201 16205	3T3cell
-T920	Noun_Phrase 16188 16191;	3T3
-16201 16213	3T3cell lysates
+T917	Noun_Phrase 16180 16186;16201 16205	HEK293 cell
+T918	Noun_Phrase 16180 16186;16201 16213	HEK293 cell lysates
+T919	Noun_Phrase 16188 16191;16201 16205	3T3 cell
+T920	Noun_Phrase 16188 16191;16201 16213	3T3 cell lysates
 T921	Noun_Phrase 16196 16205	PC12 cell
 T922	Noun_Phrase 16196 16213	PC12 cell lysates
 T923	Noun_Phrase 16226 16257	the specificity of the antibody
@@ -1053,10 +947,8 @@ T945	Noun_Phrase 16816 16900	the evolutionary relationships of Acdp genes in dif
 T946	Noun_Phrase 16850 16860	Acdp genes
 T947	Noun_Phrase 16864 16881	different species
 T948	Noun_Phrase 16883 16900	phylogenetic tree
-T949	Noun_Phrase 16907 16916;	Molecular
-16929 16972	Molecularcharacterization of murine Acdp gene family
-T950	Noun_Phrase 16907 16924;	Molecular cloning
-16946 16972	Molecular cloningof murine Acdp gene family
+T949	Noun_Phrase 16907 16916;16929 16972	Molecular characterization of murine Acdp gene family
+T950	Noun_Phrase 16907 16924;16946 16972	Molecular cloning of murine Acdp gene family
 T951	Noun_Phrase 16907 16972	Molecular cloning and characterization of murine Acdp gene family
 T952	Noun_Phrase 16949 16972	murine Acdp gene family
 T953	Noun_Phrase 17000 17022	this novel gene family
@@ -1146,17 +1038,14 @@ T1036	Noun_Phrase 19466 19477	X-ray films
 T1037	IDENTITY_chain 19466 19477	X-ray films
 T1038	Noun_Phrase 19510 19529	Antibody production
 T1039	Noun_Phrase 19534 19555	Western blot analyses
-T1040	Noun_Phrase 19557 19619;	Peptides linked to KLH (keyhole limpet hemacyanin) from Acdp1 
-19626 19637	Peptides linked to KLH (keyhole limpet hemacyanin) from Acdp1 C-terminals
-T1041	Noun_Phrase 19557 19620;	Peptides linked to KLH (keyhole limpet hemacyanin) from Acdp1 N
-19628 19637	Peptides linked to KLH (keyhole limpet hemacyanin) from Acdp1 Nterminals
+T1040	Noun_Phrase 19557 19619;19626 19637	Peptides linked to KLH (keyhole limpet hemacyanin) from Acdp1  C-terminals
+T1041	Noun_Phrase 19557 19620;19628 19637	Peptides linked to KLH (keyhole limpet hemacyanin) from Acdp1 N terminals
 T1042	Noun_Phrase 19557 19637	Peptides linked to KLH (keyhole limpet hemacyanin) from Acdp1 N- and C-terminals
 T1043	Noun_Phrase 19576 19579	KLH
 T1044	APPOS_relation 19576 19579	KLH
 T1045	Noun_Phrase 19581 19606	keyhole limpet hemacyanin
 T1046	Noun_Phrase 19613 19618	Acdp1
-T1047	Noun_Phrase 19613 19618;	Acdp1
-19626 19637	Acdp1C-terminals
+T1047	Noun_Phrase 19613 19618;19626 19637	Acdp1 C-terminals
 T1048	Noun_Phrase 19613 19621	Acdp1 N-
 T1049	Noun_Phrase 19642 19662	the conserved domain
 T1050	APPOS_relation 19664 19667	ACD
@@ -1189,8 +1078,7 @@ T1076	Noun_Phrase 20281 20286	mouse
 T1077	Noun_Phrase 20392 20400	Sequence
 T1078	Noun_Phrase 20411 20419	Sequence
 T1079	Noun_Phrase 20486 20493	Protein
-T1080	Noun_Phrase 20542 20549;	tblastn
-20578 20586	tblastnprograms
+T1080	Noun_Phrase 20542 20549;20578 20586	tblastn programs
 T1081	Noun_Phrase 20571 20577	blastn
 T1082	Noun_Phrase 20571 20586	blastn programs
 T1083	Noun_Phrase 20598 20606	sequence

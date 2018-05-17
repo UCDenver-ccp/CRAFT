@@ -82,10 +82,8 @@ T80	UBERON_0000479 8232 8238	tissue
 T81	UBERON_0001823 8255 8270	nasal cartilage
 T82	UBERON_0002412 8303 8311	vertebra
 T83	UBERON_0001066 8316 8336	intervertebral discs
-T84	UBERON_0001437 8361 8370;	epiphysis
-8409 8422	epiphysisof long bones
-T85	UBERON_0001438 8388 8398;	metaphysis
-8409 8422	metaphysisof long bones
+T84	UBERON_0001437 8361 8370;8409 8422	epiphysis of long bones
+T85	UBERON_0001438 8388 8398;8409 8422	metaphysis of long bones
 T86	UBERON_0001977 8647 8652	serum
 T87	UBERON_0001977 8669 8674	serum
 T88	UBERON_0000922 8859 8865	embryo
@@ -106,8 +104,7 @@ T102	PATO_UBERON_EXT_female_or_bearer_of_femaleness 10922 10928	female
 T103	PATO_UBERON_EXT_female_or_bearer_of_femaleness 10958 10964	female
 T104	UBERON_EXT_body 11004 11008	body
 T105	UBERON_EXT_bone_element_or_tissue 11108 11112	bone
-T106	UBERON_0011137 11128 11133;	axial
-11151 11159	axialskeleton
+T106	UBERON_0011137 11128 11133;11151 11159	axial skeleton
 T107	UBERON_0002091 11138 11159	appendicular skeleton
 T108	UBERON_0001851 11367 11375	cortical
 T109	UBERON_0001438 11412 11423	metaphyseal
@@ -124,8 +121,7 @@ T119	UBERON_EXT_body 12258 12262	body
 T120	UBERON_0000981 12274 12281	femoral
 T121	UBERON_0002412 12286 12295	vertebral
 T122	UBERON_EXT_bone_element_or_tissue 12411 12415	bone
-T123	UBERON_0011137 12423 12428;	axial
-12446 12454	axialskeleton
+T123	UBERON_0011137 12423 12428;12446 12454	axial skeleton
 T124	UBERON_0002091 12433 12454	appendicular skeleton
 T125	UBERON_EXT_bone_element_or_tissue 12589 12593	bone
 T126	UBERON_EXT_bone_element_or_tissue 12663 12667	Bone
@@ -176,8 +172,7 @@ T170	UBERON_0000922 19111 19118	embryos
 T171	UBERON_0003104 19941 19952	mesenchymal
 T172	UBERON_0000922 20037 20046	embryonic
 T173	UBERON_0003104 20047 20058	mesenchymal
-T174	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 20261 20275;	Populations of
-20286 20291	Populations ofcells
+T174	UBERON_EXT_cell_clump_or_cluster_or_group_or_mass_or_population 20261 20275;20286 20291	Populations of cells
 T175	UBERON_0007195 21046 21065	bone marrow stromal
 T176	UBERON_EXT_bone_element_or_tissue 21180 21184	bone
 T177	UBERON_0002371 21242 21248	marrow

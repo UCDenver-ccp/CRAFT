@@ -105,8 +105,7 @@ T103	SO_EXT_0000154 9874 9877	PAC
 T104	SO_EXT_0001026 9912 9919	genomic
 T105	SO_EXT_biological_sequence 9920 9928	sequence
 T106	SO_EXT_0000149 9929 9935	contig
-T107	SO_EXT_0000996 9996 10005;	predicted
-10028 10032	predictedgene
+T107	SO_EXT_0000996 9996 10005;10028 10032	predicted gene
 T108	SO_EXT_0000154 10039 10042	PAC
 T109	SO_EXT_cDNA 10070 10074	cDNA
 T110	SO_EXT_sequence_cloned_entity 10119 10125	clones
@@ -117,11 +116,9 @@ T114	SO_EXT_coding_sequence 10261 10276	coding sequence
 T115	SO_EXT_0000333 10406 10421	exon boundaries
 T116	SO_EXT_biological_conservation_process_or_quality 10426 10435	conserved
 T117	SO_EXT_0000704 10468 10473	genes
-T118	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 10502 10510;	locus on
-10521 10531	locus onChromosome
+T118	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 10502 10510;10521 10531	locus on Chromosome
 T119	SO_0000860 10558 10566	syntenic
-T120	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 10574 10583;	region of
-10590 10600	region ofChromosome
+T120	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 10574 10583;10590 10600	region of Chromosome
 T121	SO_EXT_0000704 10628 10632	gene
 T122	SO_EXT_biological_conservation_process_or_quality 10646 10655	conserved
 T123	SO_0000858 10678 10689	orthologous
@@ -172,15 +169,13 @@ T167	CHEBI_SO_EXT_amino_acid 14142 14152	amino acid
 T168	SO_EXT_biological_sequence 14153 14162	sequences
 T169	SO_EXT_0000345 14209 14213	ESTs
 T170	SO_0000860 14253 14261	syntenic
-T171	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 14269 14278;	region of
-14285 14295	region ofChromosome
+T171	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 14269 14278;14285 14295	region of Chromosome
 T172	SO_EXT_0000704 14322 14326	gene
 T173	SO_EXT_biological_conservation_process_or_quality 14340 14349	conserved
 T174	SO_0000858 14375 14386	orthologous
 T175	SO_EXT_0000704 14387 14391	gene
 T176	CHEBI_SO_EXT_mRNA 14547 14551	mRNA
-T177	SO_EXT_0000996 14665 14674;	predicted
-14691 14695	predictedgene
+T177	SO_EXT_0000996 14665 14674;14691 14695	predicted gene
 T178	SO_EXT_sequence_rescue_process 15157 15164	Rescues
 T179	SO_EXT_sequence_altered_entity 15186 15193	Mutants
 T180	SO_EXT_sequence_alteration_entity_or_process 15221 15229	mutation
@@ -247,14 +242,11 @@ T240	CHEBI_SO_EXT_amino_acid 21482 21492	amino acid
 T241	SO_EXT_biological_sequence 21493 21501	sequence
 T242	SO_EXT_0000188 21506 21512	intron
 T243	SO_EXT_0000147 21513 21517	exon
-T244	SO_EXT_0000996 21544 21553;	predicted
-21582 21587	predictedgenes
+T244	SO_EXT_0000996 21544 21553;21582 21587	predicted genes
 T245	SO_0000858 21554 21565	orthologous
-T246	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 21621 21630;	region of
-21641 21651	region ofChromosome
+T246	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 21621 21630;21641 21651	region of Chromosome
 T247	SO_0000860 21654 21662	syntenic
-T248	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 21670 21679;	region of
-21686 21696	region ofChromosome
+T248	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 21670 21679;21686 21696	region of Chromosome
 T249	SO_EXT_point_mutation_entity_or_process 21731 21746	point mutations
 T250	SO_EXT_0001023 21777 21784	alleles
 T251	SO_EXT_0001587 21812 21833	premature stop codons
@@ -367,8 +359,7 @@ T357	SO_EXT_sequence_altered_entity_or_alteration_process 35003 35009	mutant
 T358	SO_EXT_sequence_cloning_process 35040 35047	Cloning
 T359	SO_EXT_0000704 35067 35071	Gene
 T360	SO_EXT_0001249 35096 35108	Physical map
-T361	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 35120 35128;	locus on
-35139 35149	locus onChromosome
+T361	GO_SO_EXT_chromosomal_part_or_position_or_region_or_site 35120 35128;35139 35149	locus on Chromosome
 T362	SO_EXT_microsatellite_unit_or_region 35153 35167	Microsatellite
 T363	CHEBI_SO_EXT_molecular_indicator_or_label_or_marker_or_tag 35168 35175	markers
 T364	SO_EXT_sequence_recombinant_entity 35224 35236	recombinants

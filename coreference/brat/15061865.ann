@@ -15,10 +15,8 @@ T13	IDENTITY_chain 414 432	the cellular level
 T14	Noun_Phrase 434 442	dopamine
 T15	Noun_Phrase 434 452	dopamine signaling
 T16	IDENTITY_chain 434 452	dopamine signaling
-T17	Noun_Phrase 473 480;	D1-like
-492 501	D1-likereceptors
-T18	IDENTITY_chain 473 480;	D1-like
-492 501	D1-likereceptors
+T17	Noun_Phrase 473 480;492 501	D1-like receptors
+T18	IDENTITY_chain 473 480;492 501	D1-like receptors
 T19	Noun_Phrase 484 501	D2-like receptors
 T20	IDENTITY_chain 484 501	D2-like receptors
 T21	Noun_Phrase 523 540	D1-like receptors
@@ -28,10 +26,8 @@ T24	Noun_Phrase 629 641	D2 receptors
 T25	Noun_Phrase 697 705	dopamine
 T26	Noun_Phrase 697 736	dopamine D2 receptor-mediated signaling
 T27	IDENTITY_chain 697 736	dopamine D2 receptor-mediated signaling
-T28	Noun_Phrase 752 763;	associative
-777 785	associativelearning
-T29	IDENTITY_chain 752 763;	associative
-777 785	associativelearning
+T28	Noun_Phrase 752 763;777 785	associative learning
+T29	IDENTITY_chain 752 763;777 785	associative learning
 T30	Noun_Phrase 752 785	associative and reversal learning
 T31	IDENTITY_chain 752 785	associative and reversal learning
 T32	Noun_Phrase 768 785	reversal learning
@@ -114,8 +110,7 @@ T108	IDENTITY_chain 2214 2233	unexpected outcomes
 T109	Noun_Phrase 2305 2351	signaling mediated by the dopamine D2 receptor
 T110	Noun_Phrase 2327 2351	the dopamine D2 receptor
 T111	Noun_Phrase 2331 2339	dopamine
-T112	Noun_Phrase 2380 2391;	associative
-2405 2413	associativelearning
+T112	Noun_Phrase 2380 2391;2405 2413	associative learning
 T113	Noun_Phrase 2380 2413	associative and reversal learning
 T114	Noun_Phrase 2396 2413	reversal learning
 T115	Noun_Phrase 2489 2499	Background
@@ -173,8 +168,7 @@ T166	IDENTITY_chain 4270 4273	D4R
 T167	Noun_Phrase 4324 4332	dopamine
 T168	Noun_Phrase 4324 4341	dopamine receptor
 T169	Nonreferential_pronoun 4351 4356	there
-T170	Noun_Phrase 4405 4412;	D1-like
-4425 4434	D1-likereceptors
+T170	Noun_Phrase 4405 4412;4425 4434	D1-like receptors
 T171	Noun_Phrase 4417 4434	D2-like receptors
 T172	Noun_Phrase 4527 4544	dopamine receptor
 T173	Noun_Phrase 4557 4595	various stages of associative learning
@@ -237,10 +231,8 @@ T229	Noun_Phrase 7448 7450	it
 T230	Noun_Phrase 7499 7507	dopamine
 T231	Noun_Phrase 7499 7538	dopamine D2 receptor-mediated signaling
 T232	Noun_Phrase 7603 7605	we
-T233	Noun_Phrase 7615 7619;	mice
-7625 7707	micethat had developed in the complete absence of all functional dopamine D2 receptors
-T234	APPOS_relation 7615 7619;	mice
-7625 7707	micethat had developed in the complete absence of all functional dopamine D2 receptors
+T233	Noun_Phrase 7615 7619;7625 7707	mice that had developed in the complete absence of all functional dopamine D2 receptors
+T234	APPOS_relation 7615 7619;7625 7707	mice that had developed in the complete absence of all functional dopamine D2 receptors
 T235	Noun_Phrase 7686 7694	dopamine
 T236	Noun_Phrase 7709 7715	D2R-/-
 T237	Noun_Phrase 7720 7729	wild-type
@@ -263,8 +255,7 @@ T253	Noun_Phrase 8156 8163	Results
 T254	Noun_Phrase 8165 8202	Both wild-type and D2R deficient mice
 T255	IDENTITY_chain 8165 8202	Both wild-type and D2R deficient mice
 T256	Noun_Phrase 8170 8179	wild-type
-T257	Noun_Phrase 8170 8179;	wild-type
-8198 8202	wild-typemice
+T257	Noun_Phrase 8170 8179;8198 8202	wild-type mice
 T258	Noun_Phrase 8184 8187	D2R
 T259	Noun_Phrase 8184 8202	D2R deficient mice
 T260	Noun_Phrase 8241 8284	Mildly food-deprived D2R+/+ and D2R-/- mice
@@ -387,8 +378,7 @@ T376	Noun_Phrase 10342 10348	D2R+/+
 T377	Noun_Phrase 10342 10353	D2R+/+ mice
 T378	Noun_Phrase 10365 10373	p < 0.05
 T379	Nonreferential_pronoun 10380 10385	there
-T380	Noun_Phrase 10414 10420;	D2R-/-
-10432 10436	D2R-/-mice
+T380	Noun_Phrase 10414 10420;10432 10436	D2R-/- mice
 T381	Noun_Phrase 10414 10420	D2R-/-
 T382	Noun_Phrase 10414 10436	D2R-/- and D2R+/+ mice
 T383	Noun_Phrase 10425 10431	D2R+/+
@@ -445,10 +435,8 @@ T433	IDENTITY_chain 11686 11696	this study
 T434	Noun_Phrase 11698 11700	we
 T435	Noun_Phrase 11741 11749	dopamine
 T436	Noun_Phrase 11741 11780	dopamine D2 receptor-mediated signaling
-T437	Noun_Phrase 11784 11817;	the various stages of associative
-11831 11839	the various stages of associativelearning
-T438	Noun_Phrase 11806 11817;	associative
-11831 11839	associativelearning
+T437	Noun_Phrase 11784 11817;11831 11839	the various stages of associative learning
+T438	Noun_Phrase 11806 11817;11831 11839	associative learning
 T439	Noun_Phrase 11806 11839	associative and reversal learning
 T440	Noun_Phrase 11822 11839	reversal learning
 T441	Noun_Phrase 11841 11847	D2R-/-
@@ -472,10 +460,8 @@ T458	Noun_Phrase 12392 12403	D2R-/- mice
 T459	Noun_Phrase 12483 12491	dopamine
 T460	Noun_Phrase 12515 12523	dopamine
 T461	Noun_Phrase 12515 12528	dopamine D2Rs
-T462	Noun_Phrase 12585 12589;	Mice
-12598 12644	Micewithout intact dopamine D2R-mediated signaling
-T463	Noun_Phrase 12585 12594;	Mice with
-12606 12644	Mice withintact dopamine D2R-mediated signaling
+T462	Noun_Phrase 12585 12589;12598 12644	Mice without intact dopamine D2R-mediated signaling
+T463	Noun_Phrase 12585 12594;12606 12644	Mice with intact dopamine D2R-mediated signaling
 T464	Noun_Phrase 12613 12621	dopamine
 T465	Noun_Phrase 12698 12719	unhidden food pellets
 T466	Noun_Phrase 12707 12711	food
@@ -490,8 +476,7 @@ T474	Noun_Phrase 12948 12954	6-OHDA
 T475	Noun_Phrase 13020 13023	Our
 T476	Noun_Phrase 13095 13103	dopamine
 T477	Noun_Phrase 13128 13132	D2Rs
-T478	Noun_Phrase 13174 13181;	natural
-13189 13200	naturalreinforcers
+T478	Noun_Phrase 13174 13181;13189 13200	natural reinforcers
 T479	Noun_Phrase 13183 13187	food
 T480	APPOS_relation 13183 13187	food
 T481	Noun_Phrase 13241 13247	D2R-/-
@@ -527,8 +512,7 @@ T510	Noun_Phrase 14080 14095	the antagonists
 T511	Noun_Phrase 14162 14184	D2R-mediated signaling
 T512	Nonreferential_pronoun 14197 14199	it
 T513	Noun_Phrase 14244 14266	D2R-mediated signaling
-T514	Noun_Phrase 14270 14281;	associative
-14295 14303	associativelearning
+T514	Noun_Phrase 14270 14281;14295 14303	associative learning
 T515	Noun_Phrase 14270 14303	associative and reversal learning
 T516	Noun_Phrase 14286 14303	reversal learning
 T517	Noun_Phrase 14327 14340	these studies
@@ -588,14 +572,12 @@ T570	Noun_Phrase 16384 16412	animals in the present study
 T571	Noun_Phrase 16395 16412	the present study
 T572	Noun_Phrase 16438 16456	locomotor behavior
 T573	Noun_Phrase 16479 16485	D2R-/-
-T574	Noun_Phrase 16479 16485;	D2R-/-
-16497 16501	D2R-/-mice
+T574	Noun_Phrase 16479 16485;16497 16501	D2R-/- mice
 T575	Noun_Phrase 16479 16501	D2R-/- and D2R+/+ mice
 T576	Noun_Phrase 16490 16496	D2R+/+
 T577	Noun_Phrase 16490 16501	D2R+/+ mice
 T578	Noun_Phrase 16503 16508	Figs.
-T579	Noun_Phrase 16503 16508;	Figs.
-16512 16513	Figs.2
+T579	Noun_Phrase 16503 16508;16512 16513	Figs. 2
 T580	Noun_Phrase 16503 16510	Figs. 1
 T581	Noun_Phrase 16559 16581	D2R-mediated signaling
 T582	Noun_Phrase 16585 16605	associative learning
@@ -652,10 +634,8 @@ T632	Noun_Phrase 18270 18278	dopamine
 T633	Noun_Phrase 18287 18290	our
 T634	Noun_Phrase 18338 18348	this study
 T635	Noun_Phrase 18434 18439	error
-T636	Noun_Phrase 18468 18486;	the discrimination
-18509 18514	the discriminationtasks
-T637	IDENTITY_chain 18468 18486;	the discrimination
-18509 18514	the discriminationtasks
+T636	Noun_Phrase 18468 18486;18509 18514	the discrimination tasks
+T637	IDENTITY_chain 18468 18486;18509 18514	the discrimination tasks
 T638	Noun_Phrase 18611 18695	the apparent difference in absolute number of errors demonstrated by the mutant mice
 T639	Noun_Phrase 18680 18695	the mutant mice
 T640	Noun_Phrase 18697 18729	the putative performance deficit
@@ -741,8 +721,7 @@ T719	Noun_Phrase 22476 22491	the D2R-/- mice
 T720	Noun_Phrase 22480 22486	D2R-/-
 T721	Noun_Phrase 22513 22530	the present study
 T722	Noun_Phrase 22571 22575	D2Rs
-T723	Noun_Phrase 22579 22590;	associative
-22604 22612	associativelearning
+T723	Noun_Phrase 22579 22590;22604 22612	associative learning
 T724	Noun_Phrase 22579 22612	associative and reversal learning
 T725	Noun_Phrase 22595 22612	reversal learning
 T726	Noun_Phrase 22624 22632	Subjects
@@ -765,10 +744,8 @@ T742	Noun_Phrase 23774 23782	genotype
 T743	Noun_Phrase 23799 23803	Mice
 T744	Noun_Phrase 23816 23820	food
 T745	Noun_Phrase 23870 23878	Dopamine
-T746	Noun_Phrase 23870 23878;	Dopamine
-23890 23901	DopamineD2R+/+ mice
-T747	Noun_Phrase 23870 23885;	Dopamine D2R-/-
-23897 23901	Dopamine D2R-/-mice
+T746	Noun_Phrase 23870 23878;23890 23901	Dopamine D2R+/+ mice
+T747	Noun_Phrase 23870 23885;23897 23901	Dopamine D2R-/- mice
 T748	Noun_Phrase 23870 23901	Dopamine D2R-/- and D2R+/+ mice
 T749	Noun_Phrase 23879 23885	D2R-/-
 T750	Noun_Phrase 23890 23896	D2R+/+
@@ -828,8 +805,7 @@ T803	Noun_Phrase 25854 25874	inter-trial-interval
 T804	APPOS_relation 25854 25874	inter-trial-interval
 T805	Noun_Phrase 25876 25879	ITI
 T806	Noun_Phrase 26041 26050	wild-type
-T807	Noun_Phrase 26041 26050;	wild-type
-26061 26065	wild-typemice
+T807	Noun_Phrase 26041 26050;26061 26065	wild-type mice
 T808	Noun_Phrase 26054 26065	mutant mice
 T809	Noun_Phrase 26070 26090	this particular task
 T810	IDENTITY_chain 26070 26090	this particular task
@@ -910,8 +886,7 @@ T884	Noun_Phrase 28710 28719	p < 0.001
 T885	Noun_Phrase 28723 28729	Figure
 T886	Noun_Phrase 28723 28731	Figure 2
 T887	Noun_Phrase 28733 28742	Wild-type
-T888	Noun_Phrase 28733 28742;	Wild-type
-28761 28765	Wild-typemice
+T888	Noun_Phrase 28733 28742;28761 28765	Wild-type mice
 T889	Noun_Phrase 28733 28765	Wild-type and D2R-deficient mice
 T890	Noun_Phrase 28747 28765	D2R-deficient mice
 T891	Noun_Phrase 28774 28790	the digging task
@@ -925,10 +900,8 @@ T898	Noun_Phrase 29133 29172	Dopamine D2 receptor-mediated signaling
 T899	Noun_Phrase 29207 29211	odor
 T900	Noun_Phrase 29207 29211	odor
 T901	Noun_Phrase 29249 29258	Wild-type
-T902	Noun_Phrase 29249 29258;	Wild-type
-29268 29272	Wild-typemice
-T903	APPOS_relation 29249 29258;	Wild-type
-29268 29272	Wild-typemice
+T902	Noun_Phrase 29249 29258;29268 29272	Wild-type mice
+T903	APPOS_relation 29249 29258;29268 29272	Wild-type mice
 T904	Noun_Phrase 29260 29266	D2R+/+
 T905	Noun_Phrase 29268 29272	mice
 T906	Noun_Phrase 29310 29325	the D2R-/- mice
@@ -952,8 +925,7 @@ T923	Noun_Phrase 29676 29684	p < 0.01
 T924	Noun_Phrase 29692 29693	B
 T925	Noun_Phrase 29723 29731	p < 0.01
 T926	Noun_Phrase 29736 29742	D2R-/-
-T927	Noun_Phrase 29736 29742;	D2R-/-
-29754 29758	D2R-/-mice
+T927	Noun_Phrase 29736 29742;29754 29758	D2R-/- mice
 T928	Noun_Phrase 29736 29758	D2R-/- and D2R+/+ mice
 T929	Noun_Phrase 29747 29753	D2R+/+
 T930	Noun_Phrase 29747 29758	D2R+/+ mice

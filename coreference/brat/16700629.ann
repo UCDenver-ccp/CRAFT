@@ -97,10 +97,8 @@ T95	Noun_Phrase 1470 1488	sexually dimorphic
 T96	Noun_Phrase 1535 1541	animal
 T97	Noun_Phrase 1535 1549	animal species
 T98	IDENTITY_chain 1535 1549	animal species
-T99	Noun_Phrase 1551 1554;	The
-1566 1571	Theovary
-T100	IDENTITY_chain 1551 1554;	The
-1566 1571	Theovary
+T99	Noun_Phrase 1551 1554;1566 1571	The ovary
+T100	IDENTITY_chain 1551 1554;1566 1571	The ovary
 T101	Noun_Phrase 1551 1561	The testis
 T102	Noun_Phrase 1582 1656	two divergent pathways of development from the bipotential embryonic gonad
 T103	IDENTITY_chain 1582 1656	two divergent pathways of development from the bipotential embryonic gonad
@@ -135,8 +133,7 @@ T131	Noun_Phrase 2454 2480	fibroblast growth factor 9
 T132	Noun_Phrase 2487 2491	Wnt4
 T133	APPOS_relation 2487 2491	Wnt4
 T134	Noun_Phrase 2493 2533	wingless-related MMTV integration site 4
-T135	Noun_Phrase 2583 2585;	XX
-2593 2599	XXgonads
+T135	Noun_Phrase 2583 2585;2593 2599	XX gonads
 T136	Noun_Phrase 2583 2599	XX and XY gonads
 T137	Noun_Phrase 2590 2599	XY gonads
 T138	IDENTITY_chain 2590 2599	XY gonads
@@ -340,10 +337,8 @@ T335	Noun_Phrase 7298 7307	the gonad
 T336	Noun_Phrase 7309 7313	WNT4
 T337	Noun_Phrase 7330 7346	the male pathway
 T338	IDENTITY_chain 7330 7346	the male pathway
-T339	Noun_Phrase 7361 7374;	expression of
-7384 7388	expression ofFGF9
-T340	IDENTITY_chain 7361 7374;	expression of
-7384 7388	expression ofFGF9
+T339	Noun_Phrase 7361 7374;7384 7388	expression of FGF9
+T340	IDENTITY_chain 7361 7374;7384 7388	expression of FGF9
 T341	Noun_Phrase 7361 7379	expression of SOX9
 T342	Noun_Phrase 7375 7379	SOX9
 T343	IDENTITY_chain 7375 7388	SOX9 and FGF9
@@ -377,10 +372,8 @@ T370	Noun_Phrase 7944 7946	we
 T371	Noun_Phrase 8000 8004	FGF9
 T372	Noun_Phrase 8044 8052	11.5 dpc
 T373	IDENTITY_chain 8044 8052	11.5 dpc
-T374	Noun_Phrase 8074 8080;	Figure
-8088 8090	Figure1B
-T375	IDENTITY_chain 8074 8080;	Figure
-8088 8090	Figure1B
+T374	Noun_Phrase 8074 8080;8088 8090	Figure 1B
+T375	IDENTITY_chain 8074 8080;8088 8090	Figure 1B
 T376	Noun_Phrase 8074 8083	Figure 1A
 T377	IDENTITY_chain 8074 8083	Figure 1A
 T378	Noun_Phrase 8105 8113	12.5 dpc
@@ -396,10 +389,8 @@ T387	Noun_Phrase 8231 8243	testis cords
 T388	Noun_Phrase 8245 8281	This sex-specific expression pattern
 T389	Noun_Phrase 8310 8318	13.5 dpc
 T390	IDENTITY_chain 8310 8318	13.5 dpc
-T391	Noun_Phrase 8320 8326;	Figure
-8330 8332	Figure1F
-T392	IDENTITY_chain 8320 8326;	Figure
-8330 8332	Figure1F
+T391	Noun_Phrase 8320 8326;8330 8332	Figure 1F
+T392	IDENTITY_chain 8320 8326;8330 8332	Figure 1F
 T393	Noun_Phrase 8320 8329	Figure 1C
 T394	IDENTITY_chain 8320 8329	Figure 1C
 T395	Noun_Phrase 8320 8332	Figure 1C–1F
@@ -417,8 +408,7 @@ T406	Noun_Phrase 8470 8513	platelet/endothelial cell adhesion molecule
 T407	APPOS_relation 8470 8513	platelet/endothelial cell adhesion molecule
 T408	IDENTITY_chain 8470 8513	platelet/endothelial cell adhesion molecule
 T409	Noun_Phrase 8515 8520	PECAM
-T410	Noun_Phrase 8523 8529;	Figure
-8537 8539	Figure1F
+T410	Noun_Phrase 8523 8529;8537 8539	Figure 1F
 T411	Noun_Phrase 8523 8532	Figure 1D
 T412	IDENTITY_chain 8523 8532	Figure 1D
 T413	Noun_Phrase 8553 8564	this result
@@ -432,10 +422,8 @@ T420	Noun_Phrase 8696 8700	FGF9
 T421	Noun_Phrase 8736 8742	testis
 T422	Noun_Phrase 8755 8762	KitW/Wv
 T423	Noun_Phrase 8831 8841	germ cells
-T424	Noun_Phrase 8843 8849;	Figure
-8853 8855	Figure1J
-T425	IDENTITY_chain 8843 8849;	Figure
-8853 8855	Figure1J
+T424	Noun_Phrase 8843 8849;8853 8855	Figure 1J
+T425	IDENTITY_chain 8843 8849;8853 8855	Figure 1J
 T426	Noun_Phrase 8843 8852	Figure 1G
 T427	IDENTITY_chain 8843 8852	Figure 1G
 T428	Noun_Phrase 8874 8878	FGF9
@@ -481,10 +469,8 @@ T467	Noun_Phrase 9656 9663	Fgf9?/?
 T468	Noun_Phrase 9656 9673	Fgf9?/? XY gonads
 T469	IDENTITY_chain 9656 9673	Fgf9?/? XY gonads
 T470	Noun_Phrase 9688 9695	Fgf9+/?
-T471	Noun_Phrase 9717 9723;	Figure
-9731 9733	Figure2B
-T472	IDENTITY_chain 9717 9723;	Figure
-9731 9733	Figure2B
+T471	Noun_Phrase 9717 9723;9731 9733	Figure 2B
+T472	IDENTITY_chain 9717 9723;9731 9733	Figure 2B
 T473	Noun_Phrase 9717 9726	Figure 2A
 T474	IDENTITY_chain 9717 9726	Figure 2A
 T475	Noun_Phrase 9782 9785	Sry
@@ -506,8 +492,7 @@ T490	Noun_Phrase 10104 10106	we
 T491	Noun_Phrase 10112 10119	Fgf9+/?
 T492	Noun_Phrase 10112 10124	Fgf9+/? mice
 T493	Noun_Phrase 10138 10141	Sry
-T494	Noun_Phrase 10171 10197;	a Myc-tagged Sry transgene
-10207 10278	a Myc-tagged Sry transgenewhich recapitulates the endogenous intracellular SRY expression pattern
+T494	Noun_Phrase 10171 10197;10207 10278	a Myc-tagged Sry transgene which recapitulates the endogenous intracellular SRY expression pattern
 T495	Noun_Phrase 10184 10187	Sry
 T496	APPOS_relation 10199 10205	SryMyc
 T497	IDENTITY_chain 10199 10205	SryMyc
@@ -522,10 +507,8 @@ T505	Noun_Phrase 10379 10386	Fgf9?/?
 T506	Noun_Phrase 10379 10393	Fgf9?/? gonads
 T507	Noun_Phrase 10379 10440	Fgf9?/? gonads was indistinguishable from littermate controls
 T508	IDENTITY_chain 10379 10440	Fgf9?/? gonads was indistinguishable from littermate controls
-T509	Noun_Phrase 10442 10448;	Figure
-10456 10458	Figure2D
-T510	IDENTITY_chain 10442 10448;	Figure
-10456 10458	Figure2D
+T509	Noun_Phrase 10442 10448;10456 10458	Figure 2D
+T510	IDENTITY_chain 10442 10448;10456 10458	Figure 2D
 T511	Noun_Phrase 10442 10451	Figure 2C
 T512	IDENTITY_chain 10442 10451	Figure 2C
 T513	Noun_Phrase 10461 10471	These data
@@ -583,18 +566,14 @@ T564	IDENTITY_chain 11783 11799	SOX9 in XX cells
 T565	IDENTITY_chain 11791 11799	XX cells
 T566	Noun_Phrase 11791 11799	XX cells
 T567	Noun_Phrase 11822 11836	Exogenous FGF9
-T568	Noun_Phrase 11822 12020;	Exogenous FGF9 increased cell number in XX and XY cell cultures compared with cells in a duplicate culture without FGF9 treatment (unpublished data), and caused the up-regulation of SOX9 in XX cells
-12647 12759	Exogenous FGF9 increased cell number in XX and XY cell cultures compared with cells in a duplicate culture without FGF9 treatment (unpublished data), and caused the up-regulation of SOX9 in XX cellsSOX9 expression was up-regulated locally in cells near the surface of the XX gonad in contact with the FGF9 bead
-T569	IDENTITY_chain 11822 12020;	Exogenous FGF9 increased cell number in XX and XY cell cultures compared with cells in a duplicate culture without FGF9 treatment (unpublished data), and caused the up-regulation of SOX9 in XX cells
-12647 12759	Exogenous FGF9 increased cell number in XX and XY cell cultures compared with cells in a duplicate culture without FGF9 treatment (unpublished data), and caused the up-regulation of SOX9 in XX cellsSOX9 expression was up-regulated locally in cells near the surface of the XX gonad in contact with the FGF9 bead
+T568	Noun_Phrase 11822 12020;12647 12759	Exogenous FGF9 increased cell number in XX and XY cell cultures compared with cells in a duplicate culture without FGF9 treatment (unpublished data), and caused the up-regulation of SOX9 in XX cells SOX9 expression was up-regulated locally in cells near the surface of the XX gonad in contact with the FGF9 bead
+T569	IDENTITY_chain 11822 12020;12647 12759	Exogenous FGF9 increased cell number in XX and XY cell cultures compared with cells in a duplicate culture without FGF9 treatment (unpublished data), and caused the up-regulation of SOX9 in XX cells SOX9 expression was up-regulated locally in cells near the surface of the XX gonad in contact with the FGF9 bead
 T570	Noun_Phrase 11937 11941	FGF9
 T571	Noun_Phrase 12004 12008	SOX9
 T572	Noun_Phrase 12004 12020	SOX9 in XX cells
 T573	Noun_Phrase 12012 12020	XX cells
-T574	Noun_Phrase 12022 12028;	Figure
-12032 12034	Figure2H
-T575	IDENTITY_chain 12022 12028;	Figure
-12032 12034	Figure2H
+T574	Noun_Phrase 12022 12028;12032 12034	Figure 2H
+T575	IDENTITY_chain 12022 12028;12032 12034	Figure 2H
 T576	Noun_Phrase 12022 12031	Figure 2E
 T577	IDENTITY_chain 12022 12031	Figure 2E
 T578	Noun_Phrase 12037 12058	Up-regulation of SOX9
@@ -612,10 +591,8 @@ T589	Noun_Phrase 12515 12606	we modified the XX gonad culture by stably immobili
 T590	IDENTITY_chain 12515 12606	we modified the XX gonad culture by stably immobilizing FGF9, or BSA as a control, on beads
 T591	Noun_Phrase 12531 12539	XX gonad
 T592	Noun_Phrase 12571 12575	FGF9
-T593	Noun_Phrase 12608 12614;	Figure
-12618 12620	Figure2K
-T594	IDENTITY_chain 12608 12614;	Figure
-12618 12620	Figure2K
+T593	Noun_Phrase 12608 12614;12618 12620	Figure 2K
+T594	IDENTITY_chain 12608 12614;12618 12620	Figure 2K
 T595	Noun_Phrase 12608 12617	Figure 2I
 T596	IDENTITY_chain 12608 12617	Figure 2I
 T597	Noun_Phrase 12629 12645	these conditions
@@ -640,10 +617,8 @@ T615	Noun_Phrase 13098 13100	we
 T616	Noun_Phrase 13110 13114	SOX9
 T617	Noun_Phrase 13146 13153	Fgf9+/?
 T618	Noun_Phrase 13158 13165	Fgf9?/?
-T619	Noun_Phrase 13194 13200;	Figure
-13204 13206	Figure3F
-T620	IDENTITY_chain 13194 13200;	Figure
-13204 13206	Figure3F
+T619	Noun_Phrase 13194 13200;13204 13206	Figure 3F
+T620	IDENTITY_chain 13194 13200;13204 13206	Figure 3F
 T621	Noun_Phrase 13194 13203	Figure 3A
 T622	IDENTITY_chain 13194 13203	Figure 3A
 T623	Noun_Phrase 13209 14044	In wild-type and heterozygous mutant XY gonads at 11.5 dpc, SOX9 was detected in a small number of cells in the gonad (Figure 3A). Over the next 6 h of development, nuclear SOX9 accumulated rapidly in cells toward the cortex and the anterior and posterior poles of the gonad, replicating patterns previously reported for both Sry and Sox9 expression [2,16,34–36]. This unique pattern was also observed in Fgf9?/? XY gonads (Figure 3D and 3E). Somatic cells within Fgf9?/? gonads were positive for SOX9 at 11.5 dpc, the earliest stages examined, demonstrating that initial expression and up-regulation of SOX9 were not disrupted in Fgf9?/? mutant XY gonads prior to 12.0 dpc. Notably, in Fgf9?/? XY gonads, SOX9 was no longer detectable by 12.5 dpc, and Sertoli precursor cells never began to organize into normal testis cord structures
@@ -656,8 +631,7 @@ T629	Noun_Phrase 13361 13372	development
 T630	Noun_Phrase 13374 13558	nuclear SOX9 accumulated rapidly in cells toward the cortex and the anterior and posterior poles of the gonad, replicating patterns previously reported for both Sry and Sox9 expression
 T631	IDENTITY_chain 13374 13558	nuclear SOX9 accumulated rapidly in cells toward the cortex and the anterior and posterior poles of the gonad, replicating patterns previously reported for both Sry and Sox9 expression
 T632	Noun_Phrase 13474 13483	the gonad
-T633	Noun_Phrase 13535 13538;	Sry
-13548 13558	Sryexpression
+T633	Noun_Phrase 13535 13538;13548 13558	Sry expression
 T634	Noun_Phrase 13535 13538	Sry
 T635	Noun_Phrase 13543 13547	Sox9
 T636	Noun_Phrase 13543 13558	Sox9 expression
@@ -666,10 +640,8 @@ T638	Noun_Phrase 13562 13564	16
 T639	Noun_Phrase 13573 13592	This unique pattern
 T640	Noun_Phrase 13614 13621	Fgf9?/?
 T641	Noun_Phrase 13614 13631	Fgf9?/? XY gonads
-T642	Noun_Phrase 13633 13639;	Figure
-13647 13649	Figure3E
-T643	IDENTITY_chain 13633 13639;	Figure
-13647 13649	Figure3E
+T642	Noun_Phrase 13633 13639;13647 13649	Figure 3E
+T643	IDENTITY_chain 13633 13639;13647 13649	Figure 3E
 T644	Noun_Phrase 13633 13642	Figure 3D
 T645	IDENTITY_chain 13633 13642	Figure 3D
 T646	Noun_Phrase 13673 13680	Fgf9?/?
@@ -747,10 +719,8 @@ T717	Noun_Phrase 15182 15190	11.5 dpc
 T718	Noun_Phrase 15215 15217	we
 T719	Noun_Phrase 15247 15273	mRNA in situ hybridization
 T720	IDENTITY_chain 15247 15273	mRNA in situ hybridization
-T721	Noun_Phrase 15275 15281;	Figure
-15285 15287	Figure3J
-T722	IDENTITY_chain 15275 15281;	Figure
-15285 15287	Figure3J
+T721	Noun_Phrase 15275 15281;15285 15287	Figure 3J
+T722	IDENTITY_chain 15275 15281;15285 15287	Figure 3J
 T723	Noun_Phrase 15275 15284	Figure 3G
 T724	IDENTITY_chain 15275 15284	Figure 3G
 T725	Noun_Phrase 15290 15312	The expression of Fgf9
@@ -760,10 +730,8 @@ T728	Noun_Phrase 15375 15383	11.5 dpc
 T729	Noun_Phrase 15385 15394	Figure 3J
 T730	Noun_Phrase 15403 15406	Sry
 T731	Noun_Phrase 15403 15417	Sry expression
-T732	Noun_Phrase 15444 15450;	Figure
-15458 15460	Figure3H
-T733	IDENTITY_chain 15444 15450;	Figure
-15458 15460	Figure3H
+T732	Noun_Phrase 15444 15450;15458 15460	Figure 3H
+T733	IDENTITY_chain 15444 15450;15458 15460	Figure 3H
 T734	Noun_Phrase 15444 15453	Figure 3G
 T735	Noun_Phrase 15487 15489	20
 T736	Noun_Phrase 15508 15512	Fgf9
@@ -815,10 +783,8 @@ T781	IDENTITY_chain 16506 16516	Sox9flox/?
 T782	Noun_Phrase 16562 16569	Sox9?/?
 T783	Noun_Phrase 16562 16579	Sox9?/? XY gonads
 T784	Noun_Phrase 16621 16630	XX gonads
-T785	Noun_Phrase 16632 16638;	Figure
-16642 16644	Figure3O
-T786	IDENTITY_chain 16632 16638;	Figure
-16642 16644	Figure3O
+T785	Noun_Phrase 16632 16638;16642 16644	Figure 3O
+T786	IDENTITY_chain 16632 16638;16642 16644	Figure 3O
 T787	Noun_Phrase 16632 16641	Figure 3L
 T788	IDENTITY_chain 16632 16641	Figure 3L
 T789	Noun_Phrase 16647 16658	This result
@@ -856,15 +822,12 @@ T820	Noun_Phrase 17224 17241	Fgf9?/? XY gonads
 T821	Noun_Phrase 17248 17281	whole-mount in situ hybridization
 T822	IDENTITY_chain 17248 17281	whole-mount in situ hybridization
 T823	Noun_Phrase 17283 17286	Dhh
-T824	Noun_Phrase 17310 17322;	XY wild-type
-17340 17346	XY wild-typegonads
+T824	Noun_Phrase 17310 17322;17340 17346	XY wild-type gonads
 T825	Noun_Phrase 17360 17368	11.5 dpc
 T826	Noun_Phrase 17386 17393	Fgf9?/?
 T827	Noun_Phrase 17386 17403	Fgf9?/? XY gonads
-T828	Noun_Phrase 17457 17463;	Figure
-17471 17473	Figure4B
-T829	IDENTITY_chain 17457 17463;	Figure
-17471 17473	Figure4B
+T828	Noun_Phrase 17457 17463;17471 17473	Figure 4B
+T829	IDENTITY_chain 17457 17463;17471 17473	Figure 4B
 T830	Noun_Phrase 17457 17466	Figure 4A
 T831	IDENTITY_chain 17457 17466	Figure 4A
 T832	Noun_Phrase 17476 17479	Amh
@@ -875,10 +838,8 @@ T836	Noun_Phrase 17598 17605	Fgf9?/?
 T837	Noun_Phrase 17598 17627	Fgf9?/? XY gonads at 12.5 dpc
 T838	IDENTITY_chain 17598 17627	Fgf9?/? XY gonads at 12.5 dpc
 T839	Noun_Phrase 17619 17627	12.5 dpc
-T840	Noun_Phrase 17629 17635;	Figure
-17639 17641	Figure4F
-T841	IDENTITY_chain 17629 17635;	Figure
-17639 17641	Figure4F
+T840	Noun_Phrase 17629 17635;17639 17641	Figure 4F
+T841	IDENTITY_chain 17629 17635;17639 17641	Figure 4F
 T842	Noun_Phrase 17629 17638	Figure 4C
 T843	IDENTITY_chain 17629 17638	Figure 4C
 T844	Noun_Phrase 17666 17669	Amh
@@ -899,8 +860,7 @@ T858	Noun_Phrase 18014 18018	Sox9
 T859	Noun_Phrase 18033 18040	Fgf9?/?
 T860	Noun_Phrase 18033 18059	Fgf9?/? gonads at 11.5 dpc
 T861	Noun_Phrase 18051 18059	11.5 dpc
-T862	Noun_Phrase 18061 18068;	Figures
-18075 18077	Figures3D
+T862	Noun_Phrase 18061 18068;18075 18077	Figures 3D
 T863	Noun_Phrase 18061 18070	Figures 2
 T864	IDENTITY_chain 18061 18070	Figures 2
 T865	Noun_Phrase 18089 18093	SOX9
@@ -908,12 +868,10 @@ T866	Noun_Phrase 18089 18223	SOX9 expression in XY Fgf9?/? gonads rapidly disapp
 T867	IDENTITY_chain 18089 18223	SOX9 expression in XY Fgf9?/? gonads rapidly disappeared (Figure 3E and 3F), and other Sertoli markers were absent or severely reduced
 T868	Noun_Phrase 18108 18125	XY Fgf9?/? gonads
 T869	Noun_Phrase 18111 18118	Fgf9?/?
-T870	Noun_Phrase 18147 18153;	Figure
-18161 18163	Figure3F
+T870	Noun_Phrase 18147 18153;18161 18163	Figure 3F
 T871	Noun_Phrase 18147 18156	Figure 3E
 T872	Noun_Phrase 18176 18183	Sertoli
-T873	Noun_Phrase 18225 18231;	Figure
-18235 18237	Figure4F
+T873	Noun_Phrase 18225 18231;18235 18237	Figure 4F
 T874	Noun_Phrase 18225 18234	Figure 4A
 T875	Noun_Phrase 18276 18285	this loss
 T876	Noun_Phrase 18309 18311	we
@@ -932,10 +890,8 @@ T888	Noun_Phrase 18523 18530	Fgf9?/?
 T889	Noun_Phrase 18586 18593	Fgf9?/?
 T890	Noun_Phrase 18689 18693	Fgf9
 T891	Noun_Phrase 18689 18704	Fgf9 expression
-T892	Noun_Phrase 18706 18712;	Figure
-18720 18722	Figure4H
-T893	IDENTITY_chain 18706 18712;	Figure
-18720 18722	Figure4H
+T892	Noun_Phrase 18706 18712;18720 18722	Figure 4H
+T893	IDENTITY_chain 18706 18712;18720 18722	Figure 4H
 T894	Noun_Phrase 18706 18715	Figure 4G
 T895	IDENTITY_chain 18706 18715	Figure 4G
 T896	Noun_Phrase 18725 18735	These data
@@ -955,10 +911,8 @@ T909	Noun_Phrase 19129 19137	12.5 dpc
 T910	Noun_Phrase 19138 19142	Wnt4
 T911	Noun_Phrase 19166 19173	Fgf9?/?
 T912	Noun_Phrase 19188 19195	Fgf9+/?
-T913	Noun_Phrase 19212 19218;	Figure
-19222 19224	Figure4K
-T914	IDENTITY_chain 19212 19218;	Figure
-19222 19224	Figure4K
+T913	Noun_Phrase 19212 19218;19222 19224	Figure 4K
+T914	IDENTITY_chain 19212 19218;19222 19224	Figure 4K
 T915	Noun_Phrase 19212 19221	Figure 4I
 T916	IDENTITY_chain 19212 19221	Figure 4I
 T917	Noun_Phrase 19227 19238	This result
@@ -995,10 +949,8 @@ T947	Noun_Phrase 19837 19870	whole-mount in situ hybridization
 T948	Noun_Phrase 19885 19894	XX gonads
 T949	Noun_Phrase 19900 19914	exogenous FGF9
 T950	Noun_Phrase 19951 19955	Wnt4
-T951	Noun_Phrase 19957 19963;	Figure
-19967 19969	Figure5C
-T952	IDENTITY_chain 19957 19963;	Figure
-19967 19969	Figure5C
+T951	Noun_Phrase 19957 19963;19967 19969	Figure 5C
+T952	IDENTITY_chain 19957 19963;19967 19969	Figure 5C
 T953	Noun_Phrase 19957 19966	Figure 5A
 T954	IDENTITY_chain 19957 19966	Figure 5A
 T955	Noun_Phrase 20003 20007	Fgf9
@@ -1015,21 +967,15 @@ T965	Noun_Phrase 20183 20187	Wnt4
 T966	Noun_Phrase 20201 20213	the XX gonad
 T967	Noun_Phrase 20264 20278	exogenous FGF9
 T968	Noun_Phrase 20288 20304	this possibility
-T969	Noun_Phrase 20306 20308;	XX
-20321 20335	XXWnt4+/+ gonads
-T970	IDENTITY_chain 20306 20308;	XX
-20321 20335	XXWnt4+/+ gonads
-T971	Noun_Phrase 20306 20316;	XX Wnt4+/?
-20329 20335	XX Wnt4+/?gonads
-T972	IDENTITY_chain 20306 20316;	XX Wnt4+/?
-20329 20335	XX Wnt4+/?gonads
+T969	Noun_Phrase 20306 20308;20321 20335	XX Wnt4+/+ gonads
+T970	IDENTITY_chain 20306 20308;20321 20335	XX Wnt4+/+ gonads
+T971	Noun_Phrase 20306 20316;20329 20335	XX Wnt4+/? gonads
+T972	IDENTITY_chain 20306 20316;20329 20335	XX Wnt4+/? gonads
 T973	Noun_Phrase 20376 20380	FGF9
 T974	Noun_Phrase 20404 20408	SOX9
 T975	Noun_Phrase 20404 20419	SOX9 expression
-T976	Noun_Phrase 20421 20427;	Figure
-20431 20433	Figure5G
-T977	IDENTITY_chain 20421 20427;	Figure
-20431 20433	Figure5G
+T976	Noun_Phrase 20421 20427;20431 20433	Figure 5G
+T977	IDENTITY_chain 20421 20427;20431 20433	Figure 5G
 T978	Noun_Phrase 20421 20430	Figure 5D
 T979	IDENTITY_chain 20421 20430	Figure 5D
 T980	Noun_Phrase 20436 20438	We
@@ -1039,8 +985,7 @@ T983	IDENTITY_chain 20450 20532	FGF9 induced SOX9 up-regulation in XX Wnt4+/? go
 T984	Noun_Phrase 20463 20467	SOX9
 T985	Noun_Phrase 20485 20502	XX Wnt4+/? gonads
 T986	Noun_Phrase 20515 20532	Wnt4+/+ XX gonads
-T987	Noun_Phrase 20534 20540;	Figure
-20548 20550	Figure5G
+T987	Noun_Phrase 20534 20540;20548 20550	Figure 5G
 T988	Noun_Phrase 20534 20543	Figure 5F
 T989	IDENTITY_chain 20534 20543	Figure 5F
 T990	Noun_Phrase 20553 20566	These results
@@ -1050,10 +995,8 @@ T993	Noun_Phrase 20607 20611	FGF9
 T994	Noun_Phrase 20740 20742	we
 T995	Noun_Phrase 20764 20768	Fgf9
 T996	Noun_Phrase 20802 20806	Wnt4
-T997	Noun_Phrase 20808 20814;	Figure
-20818 20820	Figure6C
-T998	IDENTITY_chain 20808 20814;	Figure
-20818 20820	Figure6C
+T997	Noun_Phrase 20808 20814;20818 20820	Figure 6C
+T998	IDENTITY_chain 20808 20814;20818 20820	Figure 6C
 T999	Noun_Phrase 20808 20817	Figure 6A
 T1000	IDENTITY_chain 20808 20817	Figure 6A
 T1001	Noun_Phrase 20849 20853	FGF9
@@ -1064,8 +1007,7 @@ T1005	IDENTITY_chain 20869 20939	FGF9 was expressed in Wnt4?/? XX gonads but not
 T1006	Noun_Phrase 20891 20908	Wnt4?/? XX gonads
 T1007	Noun_Phrase 20920 20939	Wnt4+/? XX controls
 T1008	IDENTITY_chain 20920 20939	Wnt4+/? XX controls
-T1009	Noun_Phrase 20941 20947;	Figure
-20955 20957	Figure6C
+T1009	Noun_Phrase 20941 20947;20955 20957	Figure 6C
 T1010	Noun_Phrase 20941 20950	Figure 6B
 T1011	IDENTITY_chain 20941 20950	Figure 6B
 T1012	Noun_Phrase 20960 20971	This result
@@ -1082,10 +1024,8 @@ T1022	Noun_Phrase 21138 21140	we
 T1023	Noun_Phrase 21155 21173	expression of SOX9
 T1024	Noun_Phrase 21169 21173	SOX9
 T1025	Noun_Phrase 21194 21211	XX Wnt4?/? gonads
-T1026	Noun_Phrase 21213 21219;	Figure
-21223 21225	Figure6L
-T1027	IDENTITY_chain 21213 21219;	Figure
-21223 21225	Figure6L
+T1026	Noun_Phrase 21213 21219;21223 21225	Figure 6L
+T1027	IDENTITY_chain 21213 21219;21223 21225	Figure 6L
 T1028	Noun_Phrase 21213 21222	Figure 6D
 T1029	IDENTITY_chain 21213 21222	Figure 6D
 T1030	Noun_Phrase 21248 21252	SOX9
@@ -1096,16 +1036,13 @@ T1034	IDENTITY_chain 21267 21431	expression was initially up-regulated in Wnt4?/
 T1035	Noun_Phrase 21308 21337	Wnt4?/? XX gonads at 11.5 dpc
 T1036	IDENTITY_chain 21308 21337	Wnt4?/? XX gonads at 11.5 dpc
 T1037	Noun_Phrase 21329 21337	11.5 dpc
-T1038	Noun_Phrase 21339 21345;	Figure
-21353 21355	Figure6I
-T1039	IDENTITY_chain 21339 21345;	Figure
-21353 21355	Figure6I
+T1038	Noun_Phrase 21339 21345;21353 21355	Figure 6I
+T1039	IDENTITY_chain 21339 21345;21353 21355	Figure 6I
 T1040	Noun_Phrase 21339 21348	Figure 6F
 T1041	IDENTITY_chain 21339 21348	Figure 6F
 T1042	Noun_Phrase 21367 21369	it
 T1043	Noun_Phrase 21423 21431	12.5 dpc
-T1044	Noun_Phrase 21433 21439;	Figure
-21447 21449	Figure6L
+T1044	Noun_Phrase 21433 21439;21447 21449	Figure 6L
 T1045	Noun_Phrase 21433 21442	Figure 6I
 T1046	Noun_Phrase 21452 21464	This finding
 T1047	Noun_Phrase 21482 21508	mRNA in situ hybridization
@@ -1115,12 +1052,9 @@ T1050	Noun_Phrase 21550 21576	11.5 dpc Wnt4?/? XX gonads
 T1051	Noun_Phrase 21578 21587	Figure S1
 T1052	IDENTITY_chain 21578 21587	Figure S1
 T1053	Noun_Phrase 21590 21607	Wnt4?/? XX gonads
-T1054	Noun_Phrase 21664 21670;	Figure
-21675 21677	Figure6F
-T1055	Noun_Phrase 21664 21670;	Figure
-21679 21681	Figure6I
-T1056	Noun_Phrase 21664 21670;	Figure
-21687 21689	Figure6L
+T1054	Noun_Phrase 21664 21670;21675 21677	Figure 6F
+T1055	Noun_Phrase 21664 21670;21679 21681	Figure 6I
+T1056	Noun_Phrase 21664 21670;21687 21689	Figure 6L
 T1057	Noun_Phrase 21664 21673	Figure 6C
 T1058	Noun_Phrase 21696 21708	Sertoli cell
 T1059	Noun_Phrase 21696 21724	Sertoli cell differentiation
@@ -1320,8 +1254,7 @@ T1252	IDENTITY_chain 28009 28162	It has been observed that several other WNTs ar
 T1253	Noun_Phrase 28035 28083	several other WNTs are expressed in the XX gonad
 T1254	IDENTITY_chain 28035 28083	several other WNTs are expressed in the XX gonad
 T1255	Noun_Phrase 28071 28083	the XX gonad
-T1256	Noun_Phrase 28094 28099;	these
-28109 28116	thesefactors
+T1256	Noun_Phrase 28094 28099;28109 28116	these factors
 T1257	Noun_Phrase 28146 28162	the loss of Wnt4
 T1258	Noun_Phrase 28158 28162	Wnt4
 T1259	Noun_Phrase 28165 28179	These findings
@@ -1614,10 +1547,8 @@ T1545	Noun_Phrase 37870 37874	Fgf9
 T1546	Noun_Phrase 37870 37885	Fgf9 expression
 T1547	Noun_Phrase 37887 37890	Sry
 T1548	Noun_Phrase 37887 37901	Sry expression
-T1549	Noun_Phrase 37922 37932;	Sox9flox/?
-37945 37963	Sox9flox/?gonads at 11.5 dpc
-T1550	IDENTITY_chain 37922 37932;	Sox9flox/?
-37945 37963	Sox9flox/?gonads at 11.5 dpc
+T1549	Noun_Phrase 37922 37932;37945 37963	Sox9flox/? gonads at 11.5 dpc
+T1550	IDENTITY_chain 37922 37932;37945 37963	Sox9flox/? gonads at 11.5 dpc
 T1551	Noun_Phrase 37922 37932	Sox9flox/?
 T1552	Noun_Phrase 37937 37944	Sox9?/?
 T1553	Noun_Phrase 37937 37963	Sox9?/? gonads at 11.5 dpc
@@ -1634,8 +1565,7 @@ T1563	Noun_Phrase 38068 38069	J
 T1564	Noun_Phrase 38074 38075	K
 T1565	IDENTITY_chain 38074 38075	K
 T1566	Noun_Phrase 38076 38077	O
-T1567	Noun_Phrase 38115 38122;	Sox9?/?
-38141 38159	Sox9?/?gonads at 11.5 dpc
+T1567	Noun_Phrase 38115 38122;38141 38159	Sox9?/? gonads at 11.5 dpc
 T1568	Noun_Phrase 38115 38122	Sox9?/?
 T1569	Noun_Phrase 38130 38140	Sox9flox/?
 T1570	Noun_Phrase 38130 38159	Sox9flox/? gonads at 11.5 dpc
@@ -1656,8 +1586,7 @@ T1584	Noun_Phrase 38607 38608	F
 T1585	Noun_Phrase 38613 38614	K
 T1586	Noun_Phrase 38662 38674	Sertoli Cell
 T1587	Noun_Phrase 38662 38685	Sertoli Cell Precursors
-T1588	Noun_Phrase 38712 38716;	Male
-38727 38734	MalePathway
+T1588	Noun_Phrase 38712 38716;38727 38734	Male Pathway
 T1589	Noun_Phrase 38720 38734	Female Pathway
 T1590	Noun_Phrase 38743 38744	A
 T1591	Noun_Phrase 38745 38746	F

@@ -9,25 +9,13 @@ T7	IDENTITY_chain 91 110	biliary cholesterol
 T8	Noun_Phrase 157 192	two genes comprising the STSL locus
 T9	Noun_Phrase 178 192	the STSL locus
 T10	IDENTITY_chain 178 192	the STSL locus
-T11	IDENTITY_chain 194 214;	ATP-binding cassette
-220 233;	ATP-binding cassette-transporters
-266 271	ATP-binding cassette-transportersABCG8
-T12	Noun_Phrase 194 214;	ATP-binding cassette
-220 233;	ATP-binding cassette-transporters
-266 271	ATP-binding cassette-transportersABCG8
-T13	Noun_Phrase 194 214;	ATP-binding cassette
-220 239	ATP-binding cassette-transporters ABCG5
-T14	IDENTITY_chain 194 214;	ATP-binding cassette
-220 239	ATP-binding cassette-transporters ABCG5
-T15	IDENTITY_chain 194 214;	ATP-binding cassette
-220 239;	ATP-binding cassette-transporters ABCG5
-262 271	ATP-binding cassette-transporters ABCG5and ABCG8
-T16	Noun_Phrase 194 214;	ATP-binding cassette
-220 239;	ATP-binding cassette-transporters ABCG5
-262 271	ATP-binding cassette-transporters ABCG5and ABCG8
-T17	APPOS_relation 194 214;	ATP-binding cassette
-220 239;	ATP-binding cassette-transporters ABCG5
-262 271	ATP-binding cassette-transporters ABCG5and ABCG8
+T11	IDENTITY_chain 194 214;220 233;266 271	ATP-binding cassette -transporters ABCG8
+T12	Noun_Phrase 194 214;220 233;266 271	ATP-binding cassette -transporters ABCG8
+T13	Noun_Phrase 194 214;220 239	ATP-binding cassette -transporters ABCG5
+T14	IDENTITY_chain 194 214;220 239	ATP-binding cassette -transporters ABCG5
+T15	IDENTITY_chain 194 214;220 239;262 271	ATP-binding cassette -transporters ABCG5 and ABCG8
+T16	Noun_Phrase 194 214;220 239;262 271	ATP-binding cassette -transporters ABCG5 and ABCG8
+T17	APPOS_relation 194 214;220 239;262 271	ATP-binding cassette -transporters ABCG5 and ABCG8
 T18	IDENTITY_chain 250 260	sterolin-1
 T19	Noun_Phrase 250 260	sterolin-1
 T20	Noun_Phrase 282 292	sterolin-2
@@ -71,14 +59,10 @@ T57	IDENTITY_chain 973 997	Homozygous knockout mice
 T58	Noun_Phrase 1021 1035	sitosterolemia
 T59	Noun_Phrase 1047 1070	Mice deficient in Abcg8
 T60	Noun_Phrase 1065 1070	Abcg8
-T61	Noun_Phrase 1076 1099;	significantly increased
-1111 1137	significantly increasedtissue plant sterol levels
-T62	IDENTITY_chain 1076 1099;	significantly increased
-1111 1137	significantly increasedtissue plant sterol levels
-T63	Noun_Phrase 1076 1106;	significantly increased plasma
-1118 1137	significantly increased plasmaplant sterol levels
-T64	Noun_Phrase 1100 1106;	plasma
-1118 1130	plasmaplant sterol
+T61	Noun_Phrase 1076 1099;1111 1137	significantly increased tissue plant sterol levels
+T62	IDENTITY_chain 1076 1099;1111 1137	significantly increased tissue plant sterol levels
+T63	Noun_Phrase 1076 1106;1118 1137	significantly increased plasma plant sterol levels
+T64	Noun_Phrase 1100 1106;1118 1130	plasma plant sterol
 T65	Noun_Phrase 1111 1130	tissue plant sterol
 T66	IDENTITY_chain 1111 1130	tissue plant sterol
 T67	Noun_Phrase 1139 1149	sitosterol
@@ -87,10 +71,8 @@ T69	Noun_Phrase 1154 1165	campesterol
 T70	IDENTITY_chain 1154 1165	campesterol
 T71	Noun_Phrase 1183 1197	sitosterolemia
 T72	Noun_Phrase 1214 1230	Abcg5/sterolin-1
-T73	Noun_Phrase 1253 1258;	liver
-1273 1307	liverin Abcg8/sterolin-2 deficient mice
-T74	IDENTITY_chain 1253 1258;	liver
-1273 1307	liverin Abcg8/sterolin-2 deficient mice
+T73	Noun_Phrase 1253 1258;1273 1307	liver in Abcg8/sterolin-2 deficient mice
+T74	IDENTITY_chain 1253 1258;1273 1307	liver in Abcg8/sterolin-2 deficient mice
 T75	Noun_Phrase 1276 1292	Abcg8/sterolin-2
 T76	Noun_Phrase 1276 1307	Abcg8/sterolin-2 deficient mice
 T77	Noun_Phrase 1364 1369	Abcg8
@@ -111,8 +93,7 @@ T91	Noun_Phrase 1724 1740	Abcg8/sterolin-2
 T92	Noun_Phrase 1758 1772	biliary sterol
 T93	Noun_Phrase 1758 1782	biliary sterol secretion
 T94	Noun_Phrase 1800 1816	Abcg8/sterolin-2
-T95	Noun_Phrase 1849 1856;	biliary
-1884 1894	biliarysitosterol
+T95	Noun_Phrase 1849 1856;1884 1894	biliary sitosterol
 T96	Noun_Phrase 1849 1868	biliary cholesterol
 T97	Noun_Phrase 1849 1878	biliary cholesterol secretion
 T98	IDENTITY_chain 1849 1878	biliary cholesterol secretion
@@ -161,8 +142,7 @@ T140	Noun_Phrase 3076 3096	a rare human disease
 T141	IDENTITY_chain 3076 3096	a rare human disease
 T142	Noun_Phrase 3112 3124	this process
 T143	Noun_Phrase 3141 3155	Sitosterolemia
-T144	Noun_Phrase 3269 3277;	elevated
-3288 3314	elevatedtissue plant sterol levels
+T144	Noun_Phrase 3269 3277;3288 3314	elevated tissue plant sterol levels
 T145	Noun_Phrase 3288 3307	tissue plant sterol
 T146	Noun_Phrase 3320 3340	Affected individuals
 T147	IDENTITY_chain 3320 3340	Affected individuals
@@ -191,8 +171,7 @@ T169	Noun_Phrase 4668 4673	ABCG5
 T170	Noun_Phrase 4668 4683	ABCG5 and ABCG8
 T171	APPOS_relation 4668 4683	ABCG5 and ABCG8
 T172	Noun_Phrase 4678 4683	ABCG8
-T173	Noun_Phrase 4698 4710;	the proteins
-4726 4736	the proteinssterolin-2
+T173	Noun_Phrase 4698 4710;4726 4736	the proteins sterolin-2
 T174	Noun_Phrase 4698 4721	the proteins sterolin-1
 T175	Noun_Phrase 4698 4736	the proteins sterolin-1 and sterolin-2
 T176	Noun_Phrase 4751 4756	which
@@ -248,14 +227,10 @@ T225	Noun_Phrase 7259 7269	sitosterol
 T226	Noun_Phrase 7357 7370	knockout mice
 T227	Noun_Phrase 7505 7508	USA
 T228	IDENTITY_chain 7505 7508	USA
-T229	Noun_Phrase 7571 7576;	mouse
-7587 7597	mouseAbcg8 cDNA
-T230	IDENTITY_chain 7571 7576;	mouse
-7587 7597	mouseAbcg8 cDNA
-T231	Noun_Phrase 7571 7582;	mouse Abcg5
-7593 7597	mouse Abcg5cDNA
-T232	IDENTITY_chain 7571 7582;	mouse Abcg5
-7593 7597	mouse Abcg5cDNA
+T229	Noun_Phrase 7571 7576;7587 7597	mouse Abcg8 cDNA
+T230	IDENTITY_chain 7571 7576;7587 7597	mouse Abcg8 cDNA
+T231	Noun_Phrase 7571 7582;7593 7597	mouse Abcg5 cDNA
+T232	IDENTITY_chain 7571 7582;7593 7597	mouse Abcg5 cDNA
 T233	Noun_Phrase 7571 7597	mouse Abcg5 and Abcg8 cDNA
 T234	IDENTITY_chain 7571 7597	mouse Abcg5 and Abcg8 cDNA
 T235	Noun_Phrase 7707 7712	Abcg8
@@ -279,8 +254,7 @@ T252	Noun_Phrase 8657 8669	The ES cells
 T253	Noun_Phrase 8716 8719	PCR
 T254	Noun_Phrase 9033 9038	BamHI
 T255	IDENTITY_chain 9033 9038	BamHI
-T256	Noun_Phrase 9092 9099;	partial
-9113 9133	partialexon 3 of Abcg8 gene
+T256	Noun_Phrase 9092 9099;9113 9133	partial exon 3 of Abcg8 gene
 T257	Noun_Phrase 9123 9133	Abcg8 gene
 T258	Noun_Phrase 9360 9373	C57BL/6J mice
 T259	IDENTITY_chain 9360 9373	C57BL/6J mice
@@ -289,34 +263,24 @@ T261	Noun_Phrase 9502 9515	C57BL/6J mice
 T262	Noun_Phrase 9580 9593	knockout mice
 T263	Noun_Phrase 10147 10150	PCR
 T264	Noun_Phrase 11498 11504	Bam HI
-T265	Noun_Phrase 11794 11799;	liver
-11815 11829;	livertotal RNA from
-11853 11866	livertotal RNA fromAbcg8-/- mice
-T266	IDENTITY_chain 11794 11799;	liver
-11815 11829;	livertotal RNA from
-11853 11866	livertotal RNA fromAbcg8-/- mice
-T267	Noun_Phrase 11830 11838;	Abcg8+/+
-11862 11866	Abcg8+/+mice
-T268	Noun_Phrase 11840 11848;	Abcg8+/-
-11862 11866	Abcg8+/-mice
+T265	Noun_Phrase 11794 11799;11815 11829;11853 11866	liver total RNA from Abcg8-/- mice
+T266	IDENTITY_chain 11794 11799;11815 11829;11853 11866	liver total RNA from Abcg8-/- mice
+T267	Noun_Phrase 11830 11838;11862 11866	Abcg8+/+ mice
+T268	Noun_Phrase 11840 11848;11862 11866	Abcg8+/- mice
 T269	Noun_Phrase 11853 11866	Abcg8-/- mice
 T270	Noun_Phrase 11953 11958	Abcg5
 T271	Noun_Phrase 12037 12042	Abcg8
-T272	Noun_Phrase 12105 12126;	Reverse Transcription
-12131 12135	Reverse Transcription-PCR
+T272	Noun_Phrase 12105 12126;12131 12135	Reverse Transcription -PCR
 T273	Noun_Phrase 12105 12126	Reverse Transcription
-T274	IDENTITY_chain 12105 12126;	Reverse Transcription
-12131 12135	Reverse Transcription-PCR
+T274	IDENTITY_chain 12105 12126;12131 12135	Reverse Transcription -PCR
 T275	APPOS_relation 12105 12126	Reverse Transcription
 T276	Noun_Phrase 12128 12130	RT
 T277	Nonreferential_pronoun 12153 12158	there
 T278	Noun_Phrase 12212 12218	RT-PCR
 T279	Noun_Phrase 12245 12263	pooled mouse liver
 T280	IDENTITY_chain 12245 12263	pooled mouse liver
-T281	Noun_Phrase 12285 12294;	total RNA
-12304 12328	total RNAfrom pooled mouse livers
-T282	IDENTITY_chain 12285 12294;	total RNA
-12304 12328	total RNAfrom pooled mouse livers
+T281	Noun_Phrase 12285 12294;12304 12328	total RNA from pooled mouse livers
+T282	IDENTITY_chain 12285 12294;12304 12328	total RNA from pooled mouse livers
 T283	Noun_Phrase 12309 12328	pooled mouse livers
 T284	Noun_Phrase 12423 12433	Invitrogen
 T285	IDENTITY_chain 12423 12433	Invitrogen
@@ -334,8 +298,7 @@ T296	Noun_Phrase 12821 12840	Quantitative RT-PCR
 T297	IDENTITY_chain 12821 12840	Quantitative RT-PCR
 T298	Noun_Phrase 12968 12972	mRNA
 T299	IDENTITY_chain 12968 12972	mRNA
-T300	Noun_Phrase 13095 13104;	total RNA
-13114 13138	total RNAfrom pooled mouse livers
+T300	Noun_Phrase 13095 13104;13114 13138	total RNA from pooled mouse livers
 T301	Noun_Phrase 13119 13138	pooled mouse livers
 T302	Noun_Phrase 13233 13243	Invitrogen
 T303	Noun_Phrase 13245 13262	Carlsbad, CA, USA
@@ -360,13 +323,9 @@ T321	Noun_Phrase 14234 14236	CT
 T322	Noun_Phrase 14970 14984	the calibrator
 T323	IDENTITY_chain 14970 14984	the calibrator
 T324	Noun_Phrase 15089 15103	the calibrator
-T325	Noun_Phrase 15243 15246;	the
-15257 15265;	theAbcg8+/-
-15279 15283	theAbcg8+/-mice
-T326	Noun_Phrase 15243 15246;	the
-15270 15283	theAbcg8-/- mice
-T327	Noun_Phrase 15243 15255;	the Abcg8+/+
-15279 15283	the Abcg8+/+mice
+T325	Noun_Phrase 15243 15246;15257 15265;15279 15283	the Abcg8+/- mice
+T326	Noun_Phrase 15243 15246;15270 15283	the Abcg8-/- mice
+T327	Noun_Phrase 15243 15255;15279 15283	the Abcg8+/+ mice
 T328	Noun_Phrase 15480 15486	plasma
 T329	IDENTITY_chain 15480 15486	plasma
 T330	Noun_Phrase 15584 15618	fast protein liquid chromatography
@@ -385,13 +344,9 @@ T342	IDENTITY_chain 15811 15859	12-week-old mice fed on regular rodent chow diet
 T343	Noun_Phrase 15861 15866	blood
 T344	IDENTITY_chain 15861 15866	blood
 T345	Noun_Phrase 15871 15878	tissues
-T346	Noun_Phrase 15936 15939;	the
-15950 15958;	theAbcg8+/-
-15972 15976	theAbcg8+/-mice
-T347	Noun_Phrase 15936 15939;	the
-15963 15976	theAbcg8-/- mice
-T348	Noun_Phrase 15936 15948;	the Abcg8+/+
-15972 15976	the Abcg8+/+mice
+T346	Noun_Phrase 15936 15939;15950 15958;15972 15976	the Abcg8+/- mice
+T347	Noun_Phrase 15936 15939;15963 15976	the Abcg8-/- mice
+T348	Noun_Phrase 15936 15948;15972 15976	the Abcg8+/+ mice
 T349	Noun_Phrase 16001 16006	Blood
 T350	Noun_Phrase 16085 16096	The animals
 T351	Noun_Phrase 16141 16147	tissue
@@ -405,8 +360,7 @@ T358	Noun_Phrase 16634 16640	sterol
 T359	Noun_Phrase 16721 16727	sterol
 T360	Noun_Phrase 16954 16961	NJ, USA
 T361	Noun_Phrase 16958 16961	USA
-T362	Noun_Phrase 17068 17074;	plasma
-17086 17093	plasmasterols
+T362	Noun_Phrase 17068 17074;17086 17093	plasma sterols
 T363	Noun_Phrase 17079 17093	tissue sterols
 T364	Noun_Phrase 17192 17250	Three separate polyclonal anti-Abcg5/sterolin-1 antibodies
 T365	Noun_Phrase 17320 17352	anti-Abcg5/sterolin-1 antibodies
@@ -480,12 +434,9 @@ T432	Noun_Phrase 22484 22497	the bile duct
 T433	IDENTITY_chain 22484 22497	the bile duct
 T434	Noun_Phrase 22531 22535	Bile
 T435	Noun_Phrase 22610 22614	Bile
-T436	Noun_Phrase 22652 22659;	Biliary
-22671 22677	Biliarysterol
-T437	Noun_Phrase 22652 22659;	Biliary
-22682 22694	Biliaryphospholipid
-T438	IDENTITY_chain 22652 22659;	Biliary
-22682 22694	Biliaryphospholipid
+T436	Noun_Phrase 22652 22659;22671 22677	Biliary sterol
+T437	Noun_Phrase 22652 22659;22682 22694	Biliary phospholipid
+T438	IDENTITY_chain 22652 22659;22682 22694	Biliary phospholipid
 T439	Noun_Phrase 22652 22669	Biliary bile salt
 T440	IDENTITY_chain 22652 22669	Biliary bile salt
 T441	Noun_Phrase 22796 22809	biliary lipid
@@ -506,12 +457,10 @@ T455	Noun_Phrase 23355 23363	the mice
 T456	Noun_Phrase 23431 23452	tauroursodeoxycholate
 T457	Noun_Phrase 23497 23503	Sterol
 T458	Noun_Phrase 23516 23520	bile
-T459	Noun_Phrase 23580 23587;	HMG-CoA
-23619 23634	HMG-CoAenzyme activity
+T459	Noun_Phrase 23580 23587;23619 23634	HMG-CoA enzyme activity
 T460	Noun_Phrase 23580 23587	HMG-CoA
 T461	IDENTITY_chain 23580 23587	HMG-CoA
-T462	IDENTITY_chain 23580 23587;	HMG-CoA
-23619 23634	HMG-CoAenzyme activity
+T462	IDENTITY_chain 23580 23587;23619 23634	HMG-CoA enzyme activity
 T463	Noun_Phrase 23592 23625	cholesterol 7?-hydroxylase enzyme
 T464	Noun_Phrase 23592 23634	cholesterol 7?-hydroxylase enzyme activity
 T465	Noun_Phrase 23636 23658	Mouse liver microsomes
@@ -530,8 +479,7 @@ T477	Noun_Phrase 25608 25611	USA
 T478	Noun_Phrase 25723 25730	CA, USA
 T479	Noun_Phrase 25727 25730	USA
 T480	Noun_Phrase 25810 25827	HMG-CoA reductase
-T481	Noun_Phrase 25810 25827;	HMG-CoA reductase
-25843 25851	HMG-CoA reductaseactivity
+T481	Noun_Phrase 25810 25827;25843 25851	HMG-CoA reductase activity
 T482	Noun_Phrase 26181 26197	Abcg8/sterolin-2
 T483	Noun_Phrase 26181 26212	Abcg8/sterolin-2 deficient mice
 T484	Noun_Phrase 26239 26248	Figure 1a
@@ -540,10 +488,8 @@ T486	IDENTITY_chain 26444 26480	two homologous recombinant ES clones
 T487	Noun_Phrase 26553 26558	these
 T488	Noun_Phrase 26812 26829	Heterozygous mice
 T489	Noun_Phrase 26890 26910	heterozygous animals
-T490	Noun_Phrase 26918 26927;	wild-type
-26966 26970	wild-typemice
-T491	Noun_Phrase 26929 26941;	heterozygous
-26966 26970	heterozygousmice
+T490	Noun_Phrase 26918 26927;26966 26970	wild-type mice
+T491	Noun_Phrase 26929 26941;26966 26970	heterozygous mice
 T492	Noun_Phrase 26946 26970	homozygous knockout mice
 T493	Noun_Phrase 27091 27108	the knockout mice
 T494	Noun_Phrase 27139 27144	Abcg8
@@ -558,29 +504,23 @@ T502	Noun_Phrase 27489 27505	Abcg8/sterolin-2
 T503	Noun_Phrase 27558 27564	exon 4
 T504	IDENTITY_chain 27558 27564	exon 4
 T505	Noun_Phrase 27572 27592	Abcg8-deficient mice
-T506	Noun_Phrase 27626 27631;	exons
-27638 27640	exons13
-T507	IDENTITY_chain 27626 27631;	exons
-27638 27640	exons13
+T506	Noun_Phrase 27626 27631;27638 27640	exons 13
+T507	IDENTITY_chain 27626 27631;27638 27640	exons 13
 T508	Noun_Phrase 27626 27633	exons 4
 T509	Noun_Phrase 27626 27640	exons 4 and 13
 T510	IDENTITY_chain 27626 27640	exons 4 and 13
-T511	Noun_Phrase 27642 27647;	exons
-27654 27656	exons13
+T511	Noun_Phrase 27642 27647;27654 27656	exons 13
 T512	Noun_Phrase 27642 27649	exons 9
 T513	IDENTITY_chain 27642 27649	exons 9
 T514	Noun_Phrase 27642 27656	exons 9 and 13
 T515	IDENTITY_chain 27642 27656	exons 9 and 13
-T516	Noun_Phrase 27660 27665;	exons
-27673 27675	exons13
+T516	Noun_Phrase 27660 27665;27673 27675	exons 13
 T517	Noun_Phrase 27660 27668	exons 10
 T518	IDENTITY_chain 27660 27668	exons 10
 T519	Noun_Phrase 27660 27675	exons 10 and 13
 T520	IDENTITY_chain 27660 27675	exons 10 and 13
-T521	Noun_Phrase 27677 27683;	Figure
-27687 27689	Figure1e
-T522	IDENTITY_chain 27677 27683;	Figure
-27687 27689	Figure1e
+T521	Noun_Phrase 27677 27683;27687 27689	Figure 1e
+T522	IDENTITY_chain 27677 27683;27687 27689	Figure 1e
 T523	Noun_Phrase 27677 27686	Figure 1d
 T524	IDENTITY_chain 27677 27686	Figure 1d
 T525	Noun_Phrase 27718 27750	an alternatively spliced message
@@ -603,31 +543,25 @@ T541	Noun_Phrase 28058 28166	Sterol levels, as determined by gas chromatography 
 T542	Noun_Phrase 28090 28108	gas chromatography
 T543	APPOS_relation 28090 28108	gas chromatography
 T544	Noun_Phrase 28110 28112	GC
-T545	Noun_Phrase 28127 28133;	plasma
-28146 28166	plasmaof the Abcg8-/- mice
-T546	IDENTITY_chain 28127 28133;	plasma
-28146 28166	plasmaof the Abcg8-/- mice
+T545	Noun_Phrase 28127 28133;28146 28166	plasma of the Abcg8-/- mice
+T546	IDENTITY_chain 28127 28133;28146 28166	plasma of the Abcg8-/- mice
 T547	Noun_Phrase 28149 28166	the Abcg8-/- mice
 T548	Nonreferential_pronoun 28189 28194	There
 T549	Noun_Phrase 28241 28251	wild types
 T550	Noun_Phrase 28253 28266	heterozygotes
 T551	Noun_Phrase 28271 28280	knockouts
-T552	Noun_Phrase 28311 28314;	the
-28330 28347	theheterozygous mice
-T553	Noun_Phrase 28311 28325;	the homozygous
-28343 28347	the homozygousmice
+T552	Noun_Phrase 28311 28314;28330 28347	the heterozygous mice
+T553	Noun_Phrase 28311 28325;28343 28347	the homozygous mice
 T554	Noun_Phrase 28414 28428	wild-type mice
 T555	Noun_Phrase 28458 28471	Plant sterols
-T556	Noun_Phrase 28500 28509;	wild-type
-28527 28531	wild-typemice
+T556	Noun_Phrase 28500 28509;28527 28531	wild-type mice
 T557	Noun_Phrase 28514 28531	heterozygous mice
 T558	Noun_Phrase 28568 28581	Abcg8-/- mice
 T559	Noun_Phrase 28658 28671	Abcg8-/- mice
 T560	Noun_Phrase 28684 28698	wild-type mice
 T561	Nonreferential_pronoun 28793 28798	There
 T562	Noun_Phrase 28836 28855	plasma plant sterol
-T563	Noun_Phrase 28871 28883;	heterozygous
-28898 28902	heterozygousmice
+T563	Noun_Phrase 28871 28883;28898 28902	heterozygous mice
 T564	Noun_Phrase 28888 28902	wild-type mice
 T565	Noun_Phrase 28904 28950	Liver cholesterol content of the Abcg8-/- mice
 T566	IDENTITY_chain 28904 28950	Liver cholesterol content of the Abcg8-/- mice
@@ -639,8 +573,7 @@ T571	Noun_Phrase 29200 29210	sitosterol
 T572	Noun_Phrase 29283 29305	Abcg8-/- knockout mice
 T573	Noun_Phrase 29318 29332	wild-type mice
 T574	Nonreferential_pronoun 29409 29414	There
-T575	Noun_Phrase 29501 29509;	Abcg8+/+
-29523 29527	Abcg8+/+mice
+T575	Noun_Phrase 29501 29509;29523 29527	Abcg8+/+ mice
 T576	Noun_Phrase 29514 29527	Abcg8+/- mice
 T577	Noun_Phrase 29622 29634	brain sterol
 T578	IDENTITY_chain 29622 29634	brain sterol
@@ -652,27 +585,16 @@ T583	Noun_Phrase 29845 29861	knockout animals
 T584	Noun_Phrase 29874 29879	blood
 T585	Noun_Phrase 29901 29907	tissue
 T586	Noun_Phrase 29952 29985	the elevated tissue plant sterols
-T587	Noun_Phrase 30004 30023;	The livers of Abcg8
-30028 30031;	The livers of Abcg8+/-
-30040 30044	The livers of Abcg8+/-mice
-T588	IDENTITY_chain 30004 30023;	The livers of Abcg8
-30028 30031;	The livers of Abcg8+/-
-30040 30044	The livers of Abcg8+/-mice
-T589	Noun_Phrase 30004 30023;	The livers of Abcg8
-30036 30044	The livers of Abcg8-/- mice
-T590	IDENTITY_chain 30004 30023;	The livers of Abcg8
-30036 30044	The livers of Abcg8-/- mice
-T591	Noun_Phrase 30004 30026;	The livers of Abcg8+/+
-30040 30044	The livers of Abcg8+/+mice
+T587	Noun_Phrase 30004 30023;30028 30031;30040 30044	The livers of Abcg8 +/- mice
+T588	IDENTITY_chain 30004 30023;30028 30031;30040 30044	The livers of Abcg8 +/- mice
+T589	Noun_Phrase 30004 30023;30036 30044	The livers of Abcg8 -/- mice
+T590	IDENTITY_chain 30004 30023;30036 30044	The livers of Abcg8 -/- mice
+T591	Noun_Phrase 30004 30026;30040 30044	The livers of Abcg8+/+ mice
 T592	Noun_Phrase 30004 30044	The livers of Abcg8+/+, +/- and -/- mice
 T593	IDENTITY_chain 30004 30044	The livers of Abcg8+/+, +/- and -/- mice
-T594	Noun_Phrase 30018 30023;	Abcg8
-30028 30031;	Abcg8+/-
-30040 30044	Abcg8+/-mice
-T595	Noun_Phrase 30018 30023;	Abcg8
-30036 30044	Abcg8-/- mice
-T596	Noun_Phrase 30018 30026;	Abcg8+/+
-30040 30044	Abcg8+/+mice
+T594	Noun_Phrase 30018 30023;30028 30031;30040 30044	Abcg8 +/- mice
+T595	Noun_Phrase 30018 30023;30036 30044	Abcg8 -/- mice
+T596	Noun_Phrase 30018 30026;30040 30044	Abcg8+/+ mice
 T597	Noun_Phrase 30079 30101	esterified cholesterol
 T598	IDENTITY_chain 30079 30101	esterified cholesterol
 T599	Noun_Phrase 30103 30112	Figure 2a
@@ -680,10 +602,8 @@ T600	IDENTITY_chain 30103 30112	Figure 2a
 T601	Nonreferential_pronoun 30124 30129	there
 T602	Noun_Phrase 30165 30175	sitosterol
 T603	Noun_Phrase 30179 30190	campesterol
-T604	Noun_Phrase 30192 30198;	Figure
-30202 30204	Figure2c
-T605	IDENTITY_chain 30192 30198;	Figure
-30202 30204	Figure2c
+T604	Noun_Phrase 30192 30198;30202 30204	Figure 2c
+T605	IDENTITY_chain 30192 30198;30202 30204	Figure 2c
 T606	Noun_Phrase 30192 30201	Figure 2b
 T607	IDENTITY_chain 30192 30201	Figure 2b
 T608	Noun_Phrase 30338 30345	sterols
@@ -691,8 +611,7 @@ T609	Noun_Phrase 30550 30556	sterol
 T610	Noun_Phrase 30567 30576	Figure 3a
 T611	IDENTITY_chain 30567 30576	Figure 3a
 T612	Noun_Phrase 30597 30623	the Abcg8-/- knockout mice
-T613	Noun_Phrase 30715 30724;	wild-type
-30742 30746	wild-typemice
+T613	Noun_Phrase 30715 30724;30742 30746	wild-type mice
 T614	Noun_Phrase 30729 30746	heterozygous mice
 T615	Noun_Phrase 30748 30757	Figure 3b
 T616	IDENTITY_chain 30748 30757	Figure 3b
@@ -719,10 +638,8 @@ T636	Noun_Phrase 31911 31916	Abcg5
 T637	Noun_Phrase 31920 31938	the knock-out mice
 T638	Noun_Phrase 31985 32003	the wild-type mice
 T639	Noun_Phrase 32039 32060	the heterozygous mice
-T640	Noun_Phrase 32133 32136;	the
-32154 32167	theknockout mice
-T641	Noun_Phrase 32133 32149;	the heterozygote
-32163 32167	the heterozygotemice
+T640	Noun_Phrase 32133 32136;32154 32167	the knockout mice
+T641	Noun_Phrase 32133 32149;32163 32167	the heterozygote mice
 T642	Noun_Phrase 32222 32255	human patients with this disorder
 T643	Noun_Phrase 32242 32255	this disorder
 T644	Noun_Phrase 32284 32288	mRNA
@@ -737,10 +654,8 @@ T652	Noun_Phrase 32432 32441	Figure 4b
 T653	IDENTITY_chain 32432 32441	Figure 4b
 T654	Noun_Phrase 32444 32461	HMG-CoA reductase
 T655	Noun_Phrase 32444 32470	HMG-CoA reductase activity
-T656	Noun_Phrase 32501 32504;	the
-32518 32531	theAbcg8-/- mice
-T657	Noun_Phrase 32501 32513;	the Abcg8+/-
-32527 32531	the Abcg8+/-mice
+T656	Noun_Phrase 32501 32504;32518 32531	the Abcg8-/- mice
+T657	Noun_Phrase 32501 32513;32527 32531	the Abcg8+/- mice
 T658	Noun_Phrase 32547 32556	Figure 4b
 T659	Noun_Phrase 32593 32597	mRNA
 T660	Noun_Phrase 32636 32647	Cyp7a1 mRNA
@@ -749,10 +664,8 @@ T662	Noun_Phrase 32696 32714	the knockout mouse
 T663	Noun_Phrase 32716 32722	Cyp7a1
 T664	Noun_Phrase 32716 32731	Cyp7a1 activity
 T665	Noun_Phrase 32782 32803	the heterozygous mice
-T666	Noun_Phrase 32810 32813;	the
-32823 32841	theactivity of Cyp7a1
-T667	Noun_Phrase 32810 32818;	the mRNA
-32832 32841	the mRNAof Cyp7a1
+T666	Noun_Phrase 32810 32813;32823 32841	the activity of Cyp7a1
+T667	Noun_Phrase 32810 32818;32832 32841	the mRNA of Cyp7a1
 T668	Noun_Phrase 32835 32841	Cyp7a1
 T669	Noun_Phrase 32858 32868	Sitosterol
 T670	Noun_Phrase 32918 32924	Cyp7a1
@@ -766,8 +679,7 @@ T677	Noun_Phrase 33160 33176	Abcg5/sterolin-1
 T678	Noun_Phrase 33422 33474	rabbit polyclonal antibody to mouse Abcg5/sterolin-1
 T679	IDENTITY_chain 33422 33474	rabbit polyclonal antibody to mouse Abcg5/sterolin-1
 T680	Noun_Phrase 33476 33498	These three antibodies
-T681	Noun_Phrase 33569 33578;	the liver
-33593 33609	the liverof Abcg8-/- mice
+T681	Noun_Phrase 33569 33578;33593 33609	the liver of Abcg8-/- mice
 T682	Noun_Phrase 33596 33609	Abcg8-/- mice
 T683	Noun_Phrase 33671 33734	the three separately-developed anti-Abcg5/sterolin-1 antibodies
 T684	Noun_Phrase 33795 33811	Abcg5/sterolin-1
@@ -781,8 +693,7 @@ T691	IDENTITY_chain 33983 33996	a 75 kDa band
 T692	Noun_Phrase 34010 34019	Figure 5a
 T693	IDENTITY_chain 34010 34019	Figure 5a
 T694	Noun_Phrase 34022 34035	This antibody
-T695	Noun_Phrase 34085 34094;	wild-type
-34107 34114	wild-typeanimals
+T695	Noun_Phrase 34085 34094;34107 34114	wild-type animals
 T696	Noun_Phrase 34098 34114	knockout animals
 T697	Noun_Phrase 34122 34137	the 75 kDa band
 T698	Noun_Phrase 34158 34164	Endo-H
@@ -798,11 +709,9 @@ T707	Noun_Phrase 34306 34323	wild-type animals
 T708	Noun_Phrase 34332 34345	the knockouts
 T709	Noun_Phrase 34362 34388	the 'immature' 75 kDa band
 T710	Noun_Phrase 34404 34417	this antibody
-T711	Noun_Phrase 34443 34449;	Endo-H
-34463 34472	Endo-Htreatment
+T711	Noun_Phrase 34443 34449;34463 34472	Endo-H treatment
 T712	Noun_Phrase 34443 34449	Endo-H
-T713	IDENTITY_chain 34443 34449;	Endo-H
-34463 34472	Endo-Htreatment
+T713	IDENTITY_chain 34443 34449;34463 34472	Endo-H treatment
 T714	Noun_Phrase 34443 34472	Endo-H and PNGase F treatment
 T715	IDENTITY_chain 34443 34472	Endo-H and PNGase F treatment
 T716	Noun_Phrase 34454 34462	PNGase F
@@ -820,16 +729,13 @@ T727	Noun_Phrase 34695 34711	Abcg5/sterolin-1
 T728	Noun_Phrase 34804 34824	all three antibodies
 T729	Noun_Phrase 34857 34872	the SC antibody
 T730	Noun_Phrase 34925 34936	COS-1 cells
-T731	Noun_Phrase 34970 34976;	Figure
-34980 34982	Figure6c
-T732	IDENTITY_chain 34970 34976;	Figure
-34980 34982	Figure6c
+T731	Noun_Phrase 34970 34976;34980 34982	Figure 6c
+T732	IDENTITY_chain 34970 34976;34980 34982	Figure 6c
 T733	Noun_Phrase 34970 34979	Figure 6b
 T734	IDENTITY_chain 34970 34979	Figure 6b
 T735	Noun_Phrase 35004 35015	COS-1 cells
 T736	Noun_Phrase 35021 35047	both Abcg5 and Abcg8 cDNAs
-T737	Noun_Phrase 35026 35031;	Abcg5
-35042 35047	Abcg5cDNAs
+T737	Noun_Phrase 35026 35031;35042 35047	Abcg5 cDNAs
 T738	Noun_Phrase 35036 35047	Abcg8 cDNAs
 T739	Noun_Phrase 35106 35108	we
 T740	Noun_Phrase 35160 35165	Abcg8
@@ -844,14 +750,10 @@ T748	Noun_Phrase 35392 35408	Abcg8/sterolin-2
 T749	Noun_Phrase 35468 35489	anti-Abcg5/sterolin-1
 T750	Noun_Phrase 35528 35544	Abcg5/sterolin-1
 T751	Noun_Phrase 35573 35589	Abcg5/sterolin-1
-T752	Noun_Phrase 35682 35688;	Figure
-35692 35694	Figure6h
-T753	IDENTITY_chain 35682 35688;	Figure
-35692 35694	Figure6h
-T754	Noun_Phrase 35682 35688;	Figure
-35695 35697	Figure6i
-T755	IDENTITY_chain 35682 35688;	Figure
-35695 35697	Figure6i
+T752	Noun_Phrase 35682 35688;35692 35694	Figure 6h
+T753	IDENTITY_chain 35682 35688;35692 35694	Figure 6h
+T754	Noun_Phrase 35682 35688;35695 35697	Figure 6i
+T755	IDENTITY_chain 35682 35688;35695 35697	Figure 6i
 T756	Noun_Phrase 35682 35691	Figure 6g
 T757	IDENTITY_chain 35682 35691	Figure 6g
 T758	Noun_Phrase 35682 35697	Figure 6g,6h,6i
@@ -866,28 +768,21 @@ T766	Noun_Phrase 35944 35953	Figure 6f
 T767	IDENTITY_chain 35944 35953	Figure 6f
 T768	Noun_Phrase 35980 35996	Abcg5/sterolin-1
 T769	Noun_Phrase 36094 36110	the AMC antibody
-T770	Noun_Phrase 36120 36139;	liver sections from
-36154 36167	liver sections fromknockout mice
-T771	IDENTITY_chain 36120 36139;	liver sections from
-36154 36167	liver sections fromknockout mice
-T772	Noun_Phrase 36120 36149;	liver sections from wild-type
-36163 36167	liver sections from wild-typemice
-T773	IDENTITY_chain 36120 36149;	liver sections from wild-type
-36163 36167	liver sections from wild-typemice
+T770	Noun_Phrase 36120 36139;36154 36167	liver sections from knockout mice
+T771	IDENTITY_chain 36120 36139;36154 36167	liver sections from knockout mice
+T772	Noun_Phrase 36120 36149;36163 36167	liver sections from wild-type mice
+T773	IDENTITY_chain 36120 36149;36163 36167	liver sections from wild-type mice
 T774	Noun_Phrase 36120 36167	liver sections from wild-type and knockout mice
 T775	IDENTITY_chain 36120 36167	liver sections from wild-type and knockout mice
-T776	Noun_Phrase 36140 36149;	wild-type
-36163 36167	wild-typemice
+T776	Noun_Phrase 36140 36149;36163 36167	wild-type mice
 T777	Noun_Phrase 36154 36167	knockout mice
 T778	Noun_Phrase 36206 36212	Abcb11
 T779	APPOS_relation 36206 36212	Abcb11
 T780	Noun_Phrase 36214 36285	an ABC transporter known to be responsible for the export of bile salts
 T781	Noun_Phrase 36275 36285	bile salts
 T782	Noun_Phrase 36311 36327	Abcg5/sterolin-1
-T783	Noun_Phrase 36329 36335;	Figure
-36339 36341	Figure6k
-T784	IDENTITY_chain 36329 36335;	Figure
-36339 36341	Figure6k
+T783	Noun_Phrase 36329 36335;36339 36341	Figure 6k
+T784	IDENTITY_chain 36329 36335;36339 36341	Figure 6k
 T785	Noun_Phrase 36329 36338	Figure 6j
 T786	IDENTITY_chain 36329 36338	Figure 6j
 T787	Noun_Phrase 36391 36425	liver sections from wild-type mice
@@ -895,32 +790,24 @@ T788	Noun_Phrase 36411 36425	wild-type mice
 T789	Noun_Phrase 36473 36497	liver from knockout mice
 T790	Noun_Phrase 36484 36497	knockout mice
 T791	Noun_Phrase 36532 36548	Abcg5/sterolin-1
-T792	Noun_Phrase 36588 36594;	Figure
-36598 36600	Figure6m
-T793	IDENTITY_chain 36588 36594;	Figure
-36598 36600	Figure6m
+T792	Noun_Phrase 36588 36594;36598 36600	Figure 6m
+T793	IDENTITY_chain 36588 36594;36598 36600	Figure 6m
 T794	Noun_Phrase 36588 36597	Figure 6l
 T795	IDENTITY_chain 36588 36597	Figure 6l
 T796	Noun_Phrase 36647 36663	Abcg5/sterolin-1
 T797	Noun_Phrase 36667 36684	the knockout mice
 T798	Noun_Phrase 36686 36703	the UTSW antibody
-T799	Noun_Phrase 36722 36739;	liver sections of
-36754 36767	liver sections ofknockout mice
-T800	Noun_Phrase 36722 36749;	liver sections of wild-type
-36763 36767	liver sections of wild-typemice
+T799	Noun_Phrase 36722 36739;36754 36767	liver sections of knockout mice
+T800	Noun_Phrase 36722 36749;36763 36767	liver sections of wild-type mice
 T801	Noun_Phrase 36722 36767	liver sections of wild-type and knockout mice
-T802	Noun_Phrase 36740 36749;	wild-type
-36763 36767	wild-typemice
+T802	Noun_Phrase 36740 36749;36763 36767	wild-type mice
 T803	Noun_Phrase 36754 36767	knockout mice
 T804	Nonreferential_pronoun 36776 36781	there
 T805	Noun_Phrase 36806 36822	Abcg5/sterolin-1
-T806	Noun_Phrase 36831 36840;	wild-type
-36854 36860	wild-typelivers
+T806	Noun_Phrase 36831 36840;36854 36860	wild-type livers
 T807	Noun_Phrase 36845 36860	knockout livers
-T808	Noun_Phrase 36862 36868;	Figure
-36872 36874	Figure7b
-T809	IDENTITY_chain 36862 36868;	Figure
-36872 36874	Figure7b
+T808	Noun_Phrase 36862 36868;36872 36874	Figure 7b
+T809	IDENTITY_chain 36862 36868;36872 36874	Figure 7b
 T810	Noun_Phrase 36862 36871	Figure 7a
 T811	IDENTITY_chain 36862 36871	Figure 7a
 T812	Noun_Phrase 36878 36909	Biliary secretion of bile salts
@@ -940,14 +827,10 @@ T825	Noun_Phrase 37223 37229	sterol
 T826	Noun_Phrase 37234 37246	phospholipid
 T827	Noun_Phrase 37259 37272	Abcg8-/- mice
 T828	Noun_Phrase 37301 37315	wild-type mice
-T829	Noun_Phrase 37318 37324;	Figure
-37328 37330	Figure8b
-T830	IDENTITY_chain 37318 37324;	Figure
-37328 37330	Figure8b
-T831	Noun_Phrase 37318 37324;	Figure
-37331 37333	Figure8c
-T832	IDENTITY_chain 37318 37324;	Figure
-37331 37333	Figure8c
+T829	Noun_Phrase 37318 37324;37328 37330	Figure 8b
+T830	IDENTITY_chain 37318 37324;37328 37330	Figure 8b
+T831	Noun_Phrase 37318 37324;37331 37333	Figure 8c
+T832	IDENTITY_chain 37318 37324;37331 37333	Figure 8c
 T833	Noun_Phrase 37318 37327	Figure 8a
 T834	IDENTITY_chain 37318 37327	Figure 8a
 T835	Noun_Phrase 37335 37344	bile salt
@@ -983,8 +866,7 @@ T864	Noun_Phrase 38035 38047	phospholipid
 T865	Noun_Phrase 38049 38058	Figure 8f
 T866	IDENTITY_chain 38049 38058	Figure 8f
 T867	Nonreferential_pronoun 38061 38066	There
-T868	Noun_Phrase 38093 38102;	wild-type
-38120 38124	wild-typemice
+T868	Noun_Phrase 38093 38102;38120 38124	wild-type mice
 T869	Noun_Phrase 38107 38124	heterozygous mice
 T870	Noun_Phrase 38130 38143	knockout mice
 T871	Noun_Phrase 38168 38180	phospholipid
@@ -1060,8 +942,7 @@ T940	Noun_Phrase 40729 40736	J Oatis
 T941	IDENTITY_chain 40729 40736	J Oatis
 T942	Noun_Phrase 40845 40851	humans
 T943	Noun_Phrase 40869 40875	humans
-T944	Noun_Phrase 40877 40892;	the activity of
-40915 40921	the activity ofCYP7a1
+T944	Noun_Phrase 40877 40892;40915 40921	the activity of CYP7a1
 T945	Noun_Phrase 40877 40910	the activity of HMG-CoA reductase
 T946	Noun_Phrase 40877 40921	the activity of HMG-CoA reductase and CYP7a1
 T947	Noun_Phrase 40893 40910	HMG-CoA reductase
@@ -1104,8 +985,7 @@ T983	Noun_Phrase 42391 42404	Abcg8-/- mice
 T984	Noun_Phrase 42475 42480	Their
 T985	Noun_Phrase 42549 42599	a mouse deficient in both sterolins simultaneously
 T986	Noun_Phrase 42570 42584	both sterolins
-T987	Noun_Phrase 42650 42658;	Abcg8-/-
-42675 42683	Abcg8-/-knockout
+T987	Noun_Phrase 42650 42658;42675 42683	Abcg8-/- knockout
 T988	Noun_Phrase 42663 42683	Abcg5/Abcg8 knockout
 T989	Noun_Phrase 42733 42744	cholesterol
 T990	Noun_Phrase 42798 42815	the Abcg8-/- mice
@@ -1114,8 +994,7 @@ T992	Noun_Phrase 42945 42949	FPLC
 T993	Noun_Phrase 43190 43203	Abcg8-/- mice
 T994	Noun_Phrase 43216 43230	wild-type mice
 T995	Noun_Phrase 43251 43268	HMG-CoA reductase
-T996	Noun_Phrase 43251 43268;	HMG-CoA reductase
-43280 43288	HMG-CoA reductaseactivity
+T996	Noun_Phrase 43251 43268;43280 43288	HMG-CoA reductase activity
 T997	Noun_Phrase 43489 43499	Sitosterol
 T998	Noun_Phrase 43535 43541	Cyp7a1
 T999	Noun_Phrase 43535 43550	Cyp7a1 activity
@@ -1170,8 +1049,7 @@ T1047	Noun_Phrase 45583 45597	biliary sterol
 T1048	Noun_Phrase 45631 45645	wild-type mice
 T1049	Noun_Phrase 45653 45674	the heterozygous mice
 T1050	Noun_Phrase 45722 45736	these proteins
-T1051	Noun_Phrase 45984 45990;	tissue
-46002 46014	tissueplant sterol
+T1051	Noun_Phrase 45984 45990;46002 46014	tissue plant sterol
 T1052	Noun_Phrase 45995 46014	plasma plant sterol
 T1053	Noun_Phrase 46025 46045	heterozygous animals
 T1054	Noun_Phrase 46090 46103	these animals
@@ -1319,53 +1197,38 @@ T1195	Noun_Phrase 53021 53026	Abcg5
 T1196	Noun_Phrase 53040 53045	Abcg8
 T1197	Noun_Phrase 53159 53186	exon 4 in the Abcg8-/- mice
 T1198	Noun_Phrase 53169 53186	the Abcg8-/- mice
-T1199	Noun_Phrase 53220 53225;	exons
-53232 53234	exons13
+T1199	Noun_Phrase 53220 53225;53232 53234	exons 13
 T1200	Noun_Phrase 53220 53227	exons 4
 T1201	Noun_Phrase 53220 53234	exons 4 and 13
 T1202	Noun_Phrase 53236 53243	panel d
-T1203	Noun_Phrase 53246 53251;	exons
-53258 53260	exons13
+T1203	Noun_Phrase 53246 53251;53258 53260	exons 13
 T1204	Noun_Phrase 53246 53253	exons 9
 T1205	Noun_Phrase 53246 53260	exons 9 and 13
-T1206	Noun_Phrase 53264 53269;	exons
-53277 53279	exons13
+T1206	Noun_Phrase 53264 53269;53277 53279	exons 13
 T1207	Noun_Phrase 53264 53272	exons 10
 T1208	Noun_Phrase 53264 53279	exons 10 and 13
 T1209	Noun_Phrase 53281 53288	panel e
-T1210	Noun_Phrase 53342 53355;	the livers of
-53366 53374;	the livers ofAbcg8+/-
-53388 53392	the livers ofAbcg8+/-mice
-T1211	Noun_Phrase 53342 53355;	the livers of
-53379 53392	the livers ofAbcg8-/- mice
-T1212	Noun_Phrase 53342 53364;	the livers of Abcg8+/+
-53388 53392	the livers of Abcg8+/+mice
+T1210	Noun_Phrase 53342 53355;53366 53374;53388 53392	the livers of Abcg8+/- mice
+T1211	Noun_Phrase 53342 53355;53379 53392	the livers of Abcg8-/- mice
+T1212	Noun_Phrase 53342 53364;53388 53392	the livers of Abcg8+/+ mice
 T1213	Noun_Phrase 53342 53392	the livers of Abcg8+/+, Abcg8+/- and Abcg8-/- mice
-T1214	Noun_Phrase 53356 53364;	Abcg8+/+
-53388 53392	Abcg8+/+mice
-T1215	Noun_Phrase 53366 53374;	Abcg8+/-
-53388 53392	Abcg8+/-mice
+T1214	Noun_Phrase 53356 53364;53388 53392	Abcg8+/+ mice
+T1215	Noun_Phrase 53366 53374;53388 53392	Abcg8+/- mice
 T1216	Noun_Phrase 53379 53392	Abcg8-/- mice
 T1217	Noun_Phrase 53394 53400	Sterol
 T1218	Noun_Phrase 53532 53539	sterols
 T1219	Noun_Phrase 53575 53597	Esterified cholesterol
 T1220	Noun_Phrase 53599 53606	panel a
-T1221	Noun_Phrase 53692 53707;	the livers from
-53721 53734	the livers fromAbcg8+/- mice
-T1222	Noun_Phrase 53692 53716;	the livers from Abcg8+/+
-53730 53734	the livers from Abcg8+/+mice
-T1223	Noun_Phrase 53708 53716;	Abcg8+/+
-53730 53734	Abcg8+/+mice
+T1221	Noun_Phrase 53692 53707;53721 53734	the livers from Abcg8+/- mice
+T1222	Noun_Phrase 53692 53716;53730 53734	the livers from Abcg8+/+ mice
+T1223	Noun_Phrase 53708 53716;53730 53734	Abcg8+/+ mice
 T1224	Noun_Phrase 53721 53734	Abcg8+/- mice
 T1225	Noun_Phrase 53756 53769	Abcg8-/- mice
 T1226	Noun_Phrase 53784 53791	panel b
 T1227	Noun_Phrase 53874 53881	panel c
-T1228	Noun_Phrase 53913 53926;	the plasma of
-53950 53963	the plasma ofAbcg8-/- mice
-T1229	Noun_Phrase 53927 53935;	Abcg8+/+
-53959 53963	Abcg8+/+mice
-T1230	Noun_Phrase 53937 53945;	Abcg8+/-
-53959 53963	Abcg8+/-mice
+T1228	Noun_Phrase 53913 53926;53950 53963	the plasma of Abcg8-/- mice
+T1229	Noun_Phrase 53927 53935;53959 53963	Abcg8+/+ mice
+T1230	Noun_Phrase 53937 53945;53959 53963	Abcg8+/- mice
 T1231	Noun_Phrase 53950 53963	Abcg8-/- mice
 T1232	Noun_Phrase 54029 54033	FPLC
 T1233	Noun_Phrase 54050 54057	panel a
@@ -1379,14 +1242,10 @@ T1240	Noun_Phrase 54427 54436	Panel (a)
 T1241	Noun_Phrase 54482 54487	Abcg5
 T1242	Noun_Phrase 54489 54494	Abcg8
 T1243	Noun_Phrase 54502 54508	Cyp7a1
-T1244	Noun_Phrase 54552 54569;	mouse livers from
-54592 54600	mouse livers fromAbcg8+/-
-T1245	Noun_Phrase 54552 54569;	mouse livers from
-54620 54628	mouse livers fromAbcg8-/-
+T1244	Noun_Phrase 54552 54569;54592 54600	mouse livers from Abcg8+/-
+T1245	Noun_Phrase 54552 54569;54620 54628	mouse livers from Abcg8-/-
 T1246	Noun_Phrase 54552 54578	mouse livers from Abcg8+/+
-T1247	Noun_Phrase 54552 54578;	mouse livers from Abcg8+/+
-54592 54600;	mouse livers from Abcg8+/+Abcg8+/-
-54616 54628	mouse livers from Abcg8+/+Abcg8+/-and Abcg8-/-
+T1247	Noun_Phrase 54552 54578;54592 54600;54616 54628	mouse livers from Abcg8+/+ Abcg8+/- and Abcg8-/-
 T1248	Noun_Phrase 54570 54578	Abcg8+/+
 T1249	Noun_Phrase 54592 54600	Abcg8+/-
 T1250	Noun_Phrase 54620 54628	Abcg8-/-
@@ -1396,27 +1255,19 @@ T1253	Noun_Phrase 54752 54769	HMG CoA reductase
 T1254	Noun_Phrase 54797 54813	Abcg8/sterolin-2
 T1255	Noun_Phrase 54830 54847	the knockout mice
 T1256	Noun_Phrase 54849 54858	Panel (b)
-T1257	Noun_Phrase 54865 54890;	the enzyme activities for
-54913 54919	the enzyme activities forCYP7a1
+T1257	Noun_Phrase 54865 54890;54913 54919	the enzyme activities for CYP7a1
 T1258	Noun_Phrase 54865 54908	the enzyme activities for HMG-CoA reductase
 T1259	Noun_Phrase 54865 54919	the enzyme activities for HMG-CoA reductase and CYP7a1
 T1260	Noun_Phrase 54891 54908	HMG-CoA reductase
 T1261	Noun_Phrase 54913 54919	CYP7a1
-T1262	Noun_Phrase 54923 54934;	livers from
-54945 54953;	livers fromAbcg8+/-
-54967 54971	livers fromAbcg8+/-mice
-T1263	Noun_Phrase 54923 54934;	livers from
-54958 54971	livers fromAbcg8-/- mice
-T1264	Noun_Phrase 54923 54943;	livers from Abcg8+/+
-54967 54971	livers from Abcg8+/+mice
+T1262	Noun_Phrase 54923 54934;54945 54953;54967 54971	livers from Abcg8+/- mice
+T1263	Noun_Phrase 54923 54934;54958 54971	livers from Abcg8-/- mice
+T1264	Noun_Phrase 54923 54943;54967 54971	livers from Abcg8+/+ mice
 T1265	Noun_Phrase 54923 54971	livers from Abcg8+/+, Abcg8+/- and Abcg8-/- mice
-T1266	Noun_Phrase 54935 54943;	Abcg8+/+
-54967 54971	Abcg8+/+mice
-T1267	Noun_Phrase 54945 54953;	Abcg8+/-
-54967 54971	Abcg8+/-mice
+T1266	Noun_Phrase 54935 54943;54967 54971	Abcg8+/+ mice
+T1267	Noun_Phrase 54945 54953;54967 54971	Abcg8+/- mice
 T1268	Noun_Phrase 54958 54971	Abcg8-/- mice
-T1269	Noun_Phrase 54973 54986;	Activities of
-55009 55015	Activities ofCYP7a1
+T1269	Noun_Phrase 54973 54986;55009 55015	Activities of CYP7a1
 T1270	Noun_Phrase 54973 55004	Activities of HMG-CoA reductase
 T1271	Noun_Phrase 54973 55015	Activities of HMG-CoA reductase and CYP7a1
 T1272	Noun_Phrase 54987 55004	HMG-CoA reductase
@@ -1425,8 +1276,7 @@ T1274	Noun_Phrase 55046 55070	the Abcg8-/- mouse liver
 T1275	Noun_Phrase 55139 55155	Abcg5/sterolin-1
 T1276	Noun_Phrase 55168 55188	Abcg8-/- mouse liver
 T1277	Noun_Phrase 55226 55250	SC anti-Abcg5/sterolin-1
-T1278	Noun_Phrase 55257 55271;	treatment with
-55282 55289	treatment withPNGaseF
+T1278	Noun_Phrase 55257 55271;55282 55289	treatment with PNGaseF
 T1279	Noun_Phrase 55257 55278	treatment with Endo-H
 T1280	Noun_Phrase 55257 55289	treatment with Endo-H or PNGaseF
 T1281	Noun_Phrase 55272 55278	Endo-H
@@ -1445,8 +1295,7 @@ T1293	Noun_Phrase 55788 55803	deglycosylation
 T1294	Noun_Phrase 55841 55867	UTSW anti-Abcg5/sterolin-1
 T1295	Noun_Phrase 55931 55949	the wild-type mice
 T1296	Noun_Phrase 55979 55996	the Abcg8-/- mice
-T1297	Noun_Phrase 55998 56012;	Treatment with
-56023 56030	Treatment withPNGaseF
+T1297	Noun_Phrase 55998 56012;56023 56030	Treatment with PNGaseF
 T1298	Noun_Phrase 55998 56019	Treatment with Endo-H
 T1299	Noun_Phrase 55998 56030	Treatment with Endo-H or PNGaseF
 T1300	Noun_Phrase 56013 56019	Endo-H
@@ -1468,10 +1317,8 @@ T1315	Noun_Phrase 56851 56884	SC anti-Abcg5/sterolin-1 antibody
 T1316	Noun_Phrase 56931 56936	Abcg5
 T1317	Noun_Phrase 56944 56951	panel d
 T1318	Noun_Phrase 57131 57138	panel f
-T1319	Noun_Phrase 57212 57218;	panels
-57222 57223	panelsh
-T1320	Noun_Phrase 57212 57218;	panels
-57228 57229	panelsi
+T1319	Noun_Phrase 57212 57218;57222 57223	panels h
+T1320	Noun_Phrase 57212 57218;57228 57229	panels i
 T1321	Noun_Phrase 57212 57220	panels g
 T1322	Noun_Phrase 57212 57229	panels g, h and i
 T1323	Noun_Phrase 57259 57292	SC anti-Abcg5/sterolin-1 antibody
@@ -1480,8 +1327,7 @@ T1325	Noun_Phrase 57379 57396	the knockout mice
 T1326	Noun_Phrase 57564 57584	the AMC Liver Center
 T1327	Noun_Phrase 57615 57626	Bsep/Abcb11
 T1328	IDENTITY_chain 57615 57626	Bsep/Abcb11
-T1329	Noun_Phrase 57683 57692;	wild-type
-57722 57726	wild-typemice
+T1329	Noun_Phrase 57683 57692;57722 57726	wild-type mice
 T1330	Noun_Phrase 57694 57701	panel j
 T1331	Noun_Phrase 57707 57712	Abcg8
 T1332	Noun_Phrase 57707 57726	Abcg8 knockout mice
@@ -1502,36 +1348,27 @@ T1346	Noun_Phrase 58317 58361	the same UTSW anti-Abcg5/sterolin-1 antibody
 T1347	Noun_Phrase 58437 58444	panel b
 T1348	Noun_Phrase 58469 58484	bile canaliculi
 T1349	Noun_Phrase 58555 58563	Figure 8
-T1350	Noun_Phrase 58565 58572;	Biliary
-58581 58593	Biliaryphospholipid
-T1351	Noun_Phrase 58565 58572;	Biliary
-58598 58607	Biliarybile salt
+T1350	Noun_Phrase 58565 58572;58581 58593	Biliary phospholipid
+T1351	Noun_Phrase 58565 58572;58598 58607	Biliary bile salt
 T1352	Noun_Phrase 58565 58579	Biliary sterol
 T1353	Noun_Phrase 58618 58627	Bile salt
 T1354	Noun_Phrase 58629 58635	sterol
 T1355	Noun_Phrase 58640 58652	phospholipid
 T1356	Noun_Phrase 58773 58782	Bile salt
 T1357	Noun_Phrase 58773 58792	Bile salt secretion
-T1358	Noun_Phrase 58839 58847;	Abcg8+/-
-58861 58865	Abcg8+/-mice
+T1358	Noun_Phrase 58839 58847;58861 58865	Abcg8+/- mice
 T1359	Noun_Phrase 58852 58865	Abcg8-/- mice
 T1360	Noun_Phrase 58878 58887	wild type
 T1361	Noun_Phrase 58889 58896	panel a
-T1362	Noun_Phrase 58957 58964;	Biliary
-58976 58988	Biliaryphospholipid
+T1362	Noun_Phrase 58957 58964;58976 58988	Biliary phospholipid
 T1363	Noun_Phrase 58957 58971	Biliary sterol
 T1364	Noun_Phrase 59019 59036	the Abcg8-/- mice
 T1365	Noun_Phrase 59049 59062	the wild-type
-T1366	Noun_Phrase 59064 59070;	panels
-59077 59078	panelsc
+T1366	Noun_Phrase 59064 59070;59077 59078	panels c
 T1367	Noun_Phrase 59064 59072	panels b
-T1368	Noun_Phrase 59114 59121;	biliary
-59133 59139	biliarysterol
-T1369	Noun_Phrase 59114 59121;	biliary
-59133 59139;	biliarysterol
-59157 59166	biliarysterolsecretion
-T1370	Noun_Phrase 59114 59121;	biliary
-59144 59156	biliaryphospholipid
+T1368	Noun_Phrase 59114 59121;59133 59139	biliary sterol
+T1369	Noun_Phrase 59114 59121;59133 59139;59157 59166	biliary sterol secretion
+T1370	Noun_Phrase 59114 59121;59144 59156	biliary phospholipid
 T1371	Noun_Phrase 59114 59131	biliary bile salt
 T1372	Noun_Phrase 59317 59321	TUDC
 T1373	Noun_Phrase 59378 59382	TUDC
@@ -1546,20 +1383,14 @@ T1381	Noun_Phrase 59628 59640	phospholipid
 T1382	Noun_Phrase 59642 59649	panel f
 T1383	Noun_Phrase 59663 59672	wild type
 T1384	Noun_Phrase 59675 59683	Figure 9
-T1385	Noun_Phrase 59685 59692;	Biliary
-59709 59719	Biliarysitosterol
-T1386	Noun_Phrase 59685 59692;	Biliary
-59709 59729	Biliarysitosterol secretion
+T1385	Noun_Phrase 59685 59692;59709 59719	Biliary sitosterol
+T1386	Noun_Phrase 59685 59692;59709 59729	Biliary sitosterol secretion
 T1387	Noun_Phrase 59685 59704	Biliary cholesterol
-T1388	Noun_Phrase 59685 59704;	Biliary cholesterol
-59720 59729	Biliary cholesterolsecretion
+T1388	Noun_Phrase 59685 59704;59720 59729	Biliary cholesterol secretion
 T1389	Noun_Phrase 59731 59746	Biliary sterols
-T1390	Noun_Phrase 59779 59787;	Abcg8+/+
-59835 59839	Abcg8+/+mice
-T1391	Noun_Phrase 59797 59805;	Abcg8+/-
-59835 59839	Abcg8+/-mice
-T1392	Noun_Phrase 59818 59826;	Abcg8-/-
-59835 59839	Abcg8-/-mice
+T1390	Noun_Phrase 59779 59787;59835 59839	Abcg8+/+ mice
+T1391	Noun_Phrase 59797 59805;59835 59839	Abcg8+/- mice
+T1392	Noun_Phrase 59818 59826;59835 59839	Abcg8-/- mice
 T1393	Noun_Phrase 59905 59909	TUDC
 T1394	Noun_Phrase 59944 59957	Abcg8-/- mice
 T1395	Noun_Phrase 59981 59992	cholesterol
