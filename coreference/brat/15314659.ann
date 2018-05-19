@@ -57,8 +57,8 @@ T55	Noun_Phrase 888 895	C57BL/6
 T56	Noun_Phrase 888 900	C57BL/6 mice
 T57	Noun_Phrase 912 934;951 956	the lupus-prone hybrid model
 T58	Noun_Phrase 936 939	129
-T59	Noun_Phrase 936 949	129 � C57BL/6
-T60	APPOS_relation 936 949	129 � C57BL/6
+T59	Noun_Phrase 936 949	129 × C57BL/6
+T60	APPOS_relation 936 949	129 × C57BL/6
 T61	Noun_Phrase 942 949	C57BL/6
 T62	Noun_Phrase 972 979	C57BL/6
 T63	IDENTITY_chain 1005 1039	a 129-derived Chromosome 1 segment
@@ -208,10 +208,10 @@ T206	Noun_Phrase 4873 4880	C57BL/6
 T207	Noun_Phrase 4873 4885	C57BL/6 mice
 T208	Noun_Phrase 4873 4893	C57BL/6 mice strains
 T209	Noun_Phrase 4953 4955	we
-T210	Noun_Phrase 4997 5040	two large cohorts of (129 � C57BL/6)F2 mice
-T211	IDENTITY_chain 4997 5040	two large cohorts of (129 � C57BL/6)F2 mice
-T212	Noun_Phrase 5018 5040	(129 � C57BL/6)F2 mice
-T213	IDENTITY_chain 5018 5040	(129 � C57BL/6)F2 mice
+T210	Noun_Phrase 4997 5040	two large cohorts of (129 × C57BL/6)F2 mice
+T211	IDENTITY_chain 4997 5040	two large cohorts of (129 × C57BL/6)F2 mice
+T212	Noun_Phrase 5018 5040	(129 × C57BL/6)F2 mice
+T213	IDENTITY_chain 5018 5040	(129 × C57BL/6)F2 mice
 T214	Noun_Phrase 5019 5022	129
 T215	Noun_Phrase 5025 5032	C57BL/6
 T216	Noun_Phrase 5042 5054	one of which
@@ -223,15 +223,15 @@ T221	Noun_Phrase 5113 5117	Apcs
 T222	Noun_Phrase 5120 5143	The Apcs-deficient mice
 T223	APPOS_relation 5120 5143	The Apcs-deficient mice
 T224	IDENTITY_chain 5120 5143	The Apcs-deficient mice
-T225	Noun_Phrase 5145 5152	Apcs?/?
+T225	Noun_Phrase 5145 5152	Apcs−/−
 T226	Noun_Phrase 5261 5290	the hybrid genetic background
 T227	IDENTITY_chain 5261 5290	the hybrid genetic background
 T228	APPOS_relation 5261 5290	the hybrid genetic background
 T229	Noun_Phrase 5292 5295	129
-T230	Noun_Phrase 5292 5305	129 � C57BL/6
+T230	Noun_Phrase 5292 5305	129 × C57BL/6
 T231	Noun_Phrase 5298 5305	C57BL/6
-T232	Noun_Phrase 5324 5331	Apcs?/?
-T233	Noun_Phrase 5324 5336	Apcs?/? mice
+T232	Noun_Phrase 5324 5331	Apcs−/−
+T233	Noun_Phrase 5324 5336	Apcs−/− mice
 T234	Noun_Phrase 5370 5386	the mutated gene
 T235	Noun_Phrase 5392 5399	C57BL/6
 T236	Noun_Phrase 5401 5424	Bickerstaff et al. 1999
@@ -264,8 +264,8 @@ T262	IDENTITY_chain 5736 5755	Haywood et al. 2000
 T263	Noun_Phrase 5792 5796	BXSB
 T264	Noun_Phrase 5792 5816	BXSB lupus-prone strains
 T265	Noun_Phrase 5832 5843	This region
-T266	Noun_Phrase 5893 5899	Fc?RII
-T267	IDENTITY_chain 5893 5899	Fc?RII
+T266	Noun_Phrase 5893 5899	FcγRII
+T267	IDENTITY_chain 5893 5899	FcγRII
 T268	Noun_Phrase 5901 5930	the complement receptor CR1/2
 T269	IDENTITY_chain 5901 5930	the complement receptor CR1/2
 T270	APPOS_relation 5901 5930	the complement receptor CR1/2
@@ -320,17 +320,17 @@ T318	Noun_Phrase 6774 6786	autoimmunity
 T319	Noun_Phrase 6827 6843	background genes
 T320	IDENTITY_chain 6827 6843	background genes
 T321	Noun_Phrase 6960 6967	Disease
-T322	Noun_Phrase 6978 6995;7026 7030	(129 � C57BL/6)F2 Mice
-T323	Noun_Phrase 6978 7030	(129 � C57BL/6)F2 and (129 � C57BL/6)F2.Apcs?/? Mice
-T324	IDENTITY_chain 6978 7030	(129 � C57BL/6)F2 and (129 � C57BL/6)F2.Apcs?/? Mice
-T325	Noun_Phrase 7000 7030	(129 � C57BL/6)F2.Apcs?/? Mice
-T326	IDENTITY_chain 7000 7030	(129 � C57BL/6)F2.Apcs?/? Mice
-T327	Noun_Phrase 7103 7134	the (129 � C57BL/6) hybrid mice
-T328	IDENTITY_chain 7103 7134	the (129 � C57BL/6) hybrid mice
-T329	Noun_Phrase 7108 7121	129 � C57BL/6
+T322	Noun_Phrase 6978 6995;7026 7030	(129 × C57BL/6)F2 Mice
+T323	Noun_Phrase 6978 7030	(129 × C57BL/6)F2 and (129 × C57BL/6)F2.Apcs−/− Mice
+T324	IDENTITY_chain 6978 7030	(129 × C57BL/6)F2 and (129 × C57BL/6)F2.Apcs−/− Mice
+T325	Noun_Phrase 7000 7030	(129 × C57BL/6)F2.Apcs−/− Mice
+T326	IDENTITY_chain 7000 7030	(129 × C57BL/6)F2.Apcs−/− Mice
+T327	Noun_Phrase 7103 7134	the (129 × C57BL/6) hybrid mice
+T328	IDENTITY_chain 7103 7134	the (129 × C57BL/6) hybrid mice
+T329	Noun_Phrase 7108 7121	129 × C57BL/6
 T330	Noun_Phrase 7136 7138	we
-T331	Noun_Phrase 7149 7195	two large cohorts of (129 � C57BL/6)F2 animals
-T332	Noun_Phrase 7170 7195	(129 � C57BL/6)F2 animals
+T331	Noun_Phrase 7149 7195	two large cohorts of (129 × C57BL/6)F2 animals
+T332	Noun_Phrase 7170 7195	(129 × C57BL/6)F2 animals
 T333	Noun_Phrase 7197 7200	one
 T334	Noun_Phrase 7224 7237	the Apcs gene
 T335	Noun_Phrase 7253 7257	them
@@ -350,7 +350,7 @@ T348	IDENTITY_chain 7513 7519	Tables
 T349	Noun_Phrase 7513 7521	Tables 1
 T350	IDENTITY_chain 7513 7521	Tables 1
 T351	Noun_Phrase 7553 7570	Botto et al. 1998
-T352	Noun_Phrase 7573 7609	the wild-type (129 � C57BL/6)F2 mice
+T352	Noun_Phrase 7573 7609	the wild-type (129 × C57BL/6)F2 mice
 T353	Noun_Phrase 7620 7625	lupus
 T354	Noun_Phrase 7657 7665	auto-Abs
 T355	IDENTITY_chain 7657 7665	auto-Abs
@@ -371,7 +371,7 @@ T369	IDENTITY_chain 7859 7904	anti-nuclear Abs (ANAs) and anti-chromatin Ab
 T370	Noun_Phrase 7877 7881	ANAs
 T371	Noun_Phrase 7887 7904	anti-chromatin Ab
 T372	IDENTITY_chain 7887 7904	anti-chromatin Ab
-T373	Noun_Phrase 7934 7968	the (129 � C57BL/6)F2.Apcs?/? mice
+T373	Noun_Phrase 7934 7968	the (129 × C57BL/6)F2.Apcs−/− mice
 T374	Noun_Phrase 8036 8039	our
 T375	Noun_Phrase 8073 8123	the other two disease serological markers analysed
 T376	Noun_Phrase 8087 8094	disease
@@ -404,7 +404,7 @@ T402	IDENTITY_chain 8572 8577	Lupus
 T403	Noun_Phrase 8581 8598	the Hybrid Strain
 T404	APPOS_relation 8581 8598	the Hybrid Strain
 T405	IDENTITY_chain 8581 8598	the Hybrid Strain
-T406	Noun_Phrase 8600 8613	129 � C57BL/6
+T406	Noun_Phrase 8600 8613	129 × C57BL/6
 T407	Noun_Phrase 8616 8620	Mice
 T408	IDENTITY_chain 8616 8620	Mice
 T409	Noun_Phrase 8641 8704	143 microsatellite markers distributed throughout the autosomes
@@ -429,7 +429,7 @@ T427	Noun_Phrase 9067 9098	the Chromosome 1 distal segment
 T428	IDENTITY_chain 9067 9098	the Chromosome 1 distal segment
 T429	Noun_Phrase 9071 9081	Chromosome
 T430	Noun_Phrase 9106 9126	the linkage analysis
-T431	Noun_Phrase 9151 9185	the (129 � C57BL/6)F2.Apcs?/? mice
+T431	Noun_Phrase 9151 9185	the (129 × C57BL/6)F2.Apcs−/− mice
 T432	Noun_Phrase 9189 9200	this region
 T433	Noun_Phrase 9214 9217	129
 T434	Noun_Phrase 9244 9252	linkages
@@ -479,8 +479,8 @@ T477	Noun_Phrase 9859 9871	Chromosome 1
 T478	Noun_Phrase 9925 9945	the 129 mouse strain
 T479	Noun_Phrase 9929 9938	129 mouse
 T480	Noun_Phrase 9978 9980	we
-T481	Noun_Phrase 10064 10080	the Apcs?/? mice
-T482	Noun_Phrase 10068 10075	Apcs?/?
+T481	Noun_Phrase 10064 10080	the Apcs−/− mice
+T482	Noun_Phrase 10068 10075	Apcs−/−
 T483	Noun_Phrase 10113 10167	the fixed 129 region surrounding the mutated Apcs gene
 T484	Noun_Phrase 10123 10126	129
 T485	Noun_Phrase 10146 10167	the mutated Apcs gene
@@ -546,7 +546,7 @@ T544	Noun_Phrase 12021 12029	Figure 7
 T545	IDENTITY_chain 12021 12029	Figure 7
 T546	Noun_Phrase 12054 12074	autoimmune phenotype
 T547	Noun_Phrase 12078 12081;12098 12123	the hybrid genetic background
-T548	Noun_Phrase 12083 12096	129 � C57BL/6
+T548	Noun_Phrase 12083 12096	129 × C57BL/6
 T549	Noun_Phrase 12128 12131	its
 T550	Noun_Phrase 12153 12180	the inbred parental strains
 T551	Nonreferential_pronoun 12192 12197	there
@@ -557,7 +557,7 @@ T555	IDENTITY_chain 12352 12374	the C57BL/6 background
 T556	Noun_Phrase 12356 12363	C57BL/6
 T557	Noun_Phrase 12388 12408	the linkage analysis
 T558	IDENTITY_chain 12388 12408	the linkage analysis
-T559	Noun_Phrase 12412 12434	(129 � C57BL/6)F2 mice
+T559	Noun_Phrase 12412 12434	(129 × C57BL/6)F2 mice
 T560	Noun_Phrase 12475 12478	129
 T561	Noun_Phrase 12489 12508	distal Chromosome 1
 T562	Noun_Phrase 12496 12506	Chromosome
@@ -589,9 +589,9 @@ T587	Noun_Phrase 13119 13126	C57BL/6
 T588	Noun_Phrase 13135 13138	LOD
 T589	Noun_Phrase 13158 13161	LOD
 T590	Noun_Phrase 13181 13194	the wild-type
-T591	Noun_Phrase 13181 13211	the wild-type and Apcs?/? mice
-T592	Noun_Phrase 13199 13206	Apcs?/?
-T593	Noun_Phrase 13199 13211	Apcs?/? mice
+T591	Noun_Phrase 13181 13211	the wild-type and Apcs−/− mice
+T592	Noun_Phrase 13199 13206	Apcs−/−
+T593	Noun_Phrase 13199 13211	Apcs−/− mice
 T594	Noun_Phrase 13253 13271	glomerulonephritis
 T595	Noun_Phrase 13367 13370	QTL
 T596	Noun_Phrase 13384 13402	this disease trait
@@ -608,8 +608,8 @@ T606	Noun_Phrase 13559 13569	Chromosome
 T607	Noun_Phrase 13559 13571	Chromosome 1
 T608	Noun_Phrase 13577 13597	the 129 mouse strain
 T609	Noun_Phrase 13581 13590	129 mouse
-T610	Noun_Phrase 13619 13700	the complex polygenic disease phenotype of the (C57BL/6 � 129/Sv)F2 hybrid strain
-T611	IDENTITY_chain 13619 13700	the complex polygenic disease phenotype of the (C57BL/6 � 129/Sv)F2 hybrid strain
+T610	Noun_Phrase 13619 13700	the complex polygenic disease phenotype of the (C57BL/6 × 129/Sv)F2 hybrid strain
+T611	IDENTITY_chain 13619 13700	the complex polygenic disease phenotype of the (C57BL/6 × 129/Sv)F2 hybrid strain
 T612	Noun_Phrase 13641 13648	disease
 T613	Noun_Phrase 13706 13709	its
 T614	Noun_Phrase 13741 13757	The 129 interval
@@ -628,21 +628,21 @@ T626	Noun_Phrase 14179 14209	microsatellite marker D1Mit105
 T627	Noun_Phrase 14272 14275	129
 T628	Noun_Phrase 14354 14387	Female Chromosome 1 congenic mice
 T629	APPOS_relation 14354 14387	Female Chromosome 1 congenic mice
-T630	Noun_Phrase 14389 14414	C57BL/6.129[D1Mit105�223]
-T631	IDENTITY_chain 14389 14414	C57BL/6.129[D1Mit105�223]
-T632	Noun_Phrase 14431 14500	sex-matched Apcs?/? mice backcrossed onto C57BL/6 for ten generations
-T633	Noun_Phrase 14443 14450	Apcs?/?
+T630	Noun_Phrase 14389 14414	C57BL/6.129[D1Mit105–223]
+T631	IDENTITY_chain 14389 14414	C57BL/6.129[D1Mit105–223]
+T632	Noun_Phrase 14431 14500	sex-matched Apcs−/− mice backcrossed onto C57BL/6 for ten generations
+T633	Noun_Phrase 14443 14450	Apcs−/−
 T634	Noun_Phrase 14473 14480	C57BL/6
 T635	Noun_Phrase 14485 14500	ten generations
 T636	IDENTITY_chain 14485 14500	ten generations
-T637	Noun_Phrase 14502 14517	C57BL/6.Apcs?/?
-T638	APPOS_relation 14502 14517	C57BL/6.Apcs?/?
+T637	Noun_Phrase 14502 14517	C57BL/6.Apcs−/−
+T638	APPOS_relation 14502 14517	C57BL/6.Apcs−/−
 T639	Noun_Phrase 14523 14530	C57BL/6
 T640	Noun_Phrase 14523 14539	C57BL/6 controls
 T641	IDENTITY_chain 14523 14539	C57BL/6 controls
 T642	Noun_Phrase 14576 14581	lupus
-T643	Noun_Phrase 14586 14610	the C57BL/6.Apcs?/? mice
-T644	IDENTITY_chain 14586 14610	the C57BL/6.Apcs?/? mice
+T643	Noun_Phrase 14586 14610	the C57BL/6.Apcs−/− mice
+T644	IDENTITY_chain 14586 14610	the C57BL/6.Apcs−/− mice
 T645	Noun_Phrase 14612 14648	the 129 genome around the Apcs locus
 T646	IDENTITY_chain 14612 14648	the 129 genome around the Apcs locus
 T647	Noun_Phrase 14616 14619	129
@@ -655,7 +655,7 @@ T653	Noun_Phrase 14742 14749	D1Mit17
 T654	IDENTITY_chain 14742 14749	D1Mit17
 T655	Noun_Phrase 14758 14775	the congenic line
 T656	Noun_Phrase 14794 14797	129
-T657	Noun_Phrase 14839 14863	the C57BL/6.Apcs?/? mice
+T657	Noun_Phrase 14839 14863	the C57BL/6.Apcs−/− mice
 T658	Noun_Phrase 14882 14892	1 y of age
 T659	Noun_Phrase 14889 14892	age
 T660	Noun_Phrase 14894 14905	all animals
@@ -668,10 +668,10 @@ T666	Noun_Phrase 15056 15079	Bickerstaff et al. 1999
 T667	Noun_Phrase 15082 15104	the levels of auto-Abs
 T668	IDENTITY_chain 15082 15104	the levels of auto-Abs
 T669	Noun_Phrase 15096 15104	auto-Abs
-T670	Noun_Phrase 15132 15151	the C57BL/6.Apcs?/?
+T670	Noun_Phrase 15132 15151	the C57BL/6.Apcs−/−
 T671	Noun_Phrase 15164 15194	the wild-type C57BL/6 controls
 T672	Noun_Phrase 15168 15185	wild-type C57BL/6
-T673	Noun_Phrase 15205 15242	the C57BL/6.129(D1Mit105�223) animals
+T673	Noun_Phrase 15205 15242	the C57BL/6.129(D1Mit105–223) animals
 T674	Noun_Phrase 15273 15281	auto-Abs
 T675	Noun_Phrase 15287 15299	these titres
 T676	Noun_Phrase 15398 15411	the Apcs gene
@@ -687,7 +687,7 @@ T685	Noun_Phrase 15566 15599	tolerance to nuclear autoantigens
 T686	Noun_Phrase 15579 15599	nuclear autoantigens
 T687	Noun_Phrase 15678 15689	the kidneys
 T688	IDENTITY_chain 15678 15689	the kidneys
-T689	Noun_Phrase 15750 15769	the C57BL/6.Apcs?/?
+T689	Noun_Phrase 15750 15769	the C57BL/6.Apcs−/−
 T690	Noun_Phrase 15803 15809	Figure
 T691	Noun_Phrase 15803 15811	Figure 9
 T692	IDENTITY_chain 15803 15811	Figure 9
@@ -792,10 +792,10 @@ T790	Noun_Phrase 18907 18914	disease
 T791	Noun_Phrase 19169 19171	We
 T792	Noun_Phrase 19236 19243	disease
 T793	Noun_Phrase 19259 19262;19279 19292	the hybrid strain
-T794	Noun_Phrase 19259 19292	the (129 � C57BL/6) hybrid strain
-T795	APPOS_relation 19259 19292	the (129 � C57BL/6) hybrid strain
-T796	APPOS_relation 19264 19277	129 � C57BL/6
-T797	Noun_Phrase 19264 19277	129 � C57BL/6
+T794	Noun_Phrase 19259 19292	the (129 × C57BL/6) hybrid strain
+T795	APPOS_relation 19259 19292	the (129 × C57BL/6) hybrid strain
+T796	APPOS_relation 19264 19277	129 × C57BL/6
+T797	Noun_Phrase 19264 19277	129 × C57BL/6
 T798	Noun_Phrase 19294 19350	the most common genetic background in gene-targeted mice
 T799	Noun_Phrase 19332 19350	gene-targeted mice
 T800	Noun_Phrase 19361 19385	spontaneous autoimmunity
@@ -803,8 +803,8 @@ T801	Noun_Phrase 19423 19431;19439 19454	the pure C57BL/6 strains
 T802	Noun_Phrase 19423 19435;19447 19454	the pure 129 strains
 T803	Noun_Phrase 19432 19435	129
 T804	Noun_Phrase 19439 19446	C57BL/6
-T805	APPOS_relation 19514 19527	129 � C57BL/6
-T806	Noun_Phrase 19514 19527	129 � C57BL/6
+T805	APPOS_relation 19514 19527	129 × C57BL/6
+T806	Noun_Phrase 19514 19527	129 × C57BL/6
 T807	Noun_Phrase 19529 19543	hybrid strains
 T808	Noun_Phrase 19545 19562	Obata et al. 1979
 T809	Noun_Phrase 19564 19581	Botto et al. 1998
@@ -870,7 +870,7 @@ T868	Noun_Phrase 20908 20911	SLE
 T869	Noun_Phrase 20935 20952	Morel et al. 1999
 T870	Noun_Phrase 21046 21049	our
 T871	Noun_Phrase 21046 21057	our results
-T872	Noun_Phrase 21107 21120	129 � C57BL/6
+T872	Noun_Phrase 21107 21120	129 × C57BL/6
 T873	Noun_Phrase 21153 21213	both enhancing as well as inhibitory loci from the 129 mouse
 T874	IDENTITY_chain 21153 21213	both enhancing as well as inhibitory loci from the 129 mouse
 T875	Noun_Phrase 21200 21213	the 129 mouse
@@ -879,8 +879,8 @@ T877	Noun_Phrase 21246 21258	autoimmunity
 T878	Noun_Phrase 21264 21280	the C57BL/6 mice
 T879	Noun_Phrase 21268 21275	C57BL/6
 T880	Noun_Phrase 21298 21320	these interacting loci
-T881	Noun_Phrase 21431 21438	Apcs?/?
-T882	Noun_Phrase 21431 21443	Apcs?/? mice
+T881	Noun_Phrase 21431 21438	Apcs−/−
+T882	Noun_Phrase 21431 21443	Apcs−/− mice
 T883	Noun_Phrase 21449 21459	Chromosome
 T884	Noun_Phrase 21449 21490	Chromosome 1 genetically matched controls
 T885	IDENTITY_chain 21449 21490	Chromosome 1 genetically matched controls
@@ -922,8 +922,8 @@ T920	Noun_Phrase 22771 22774;22797 22803	ANA levels
 T921	Noun_Phrase 22771 22803	ANA and anti-chromatin Ab levels
 T922	Noun_Phrase 22779 22796	anti-chromatin Ab
 T923	Noun_Phrase 22779 22803	anti-chromatin Ab levels
-T924	Noun_Phrase 22836 22870	the (129 � C57BL/6)F2.Apcs?/? mice
-T925	Noun_Phrase 22945 22952	Apcs?/?
+T924	Noun_Phrase 22836 22870	the (129 × C57BL/6)F2.Apcs−/− mice
+T925	Noun_Phrase 22945 22952	Apcs−/−
 T926	Noun_Phrase 23095 23103	the loci
 T927	Noun_Phrase 23181 23221	the 129 region surrounding the Apcs gene
 T928	Noun_Phrase 23185 23188	129
@@ -932,7 +932,7 @@ T930	Noun_Phrase 23275 23278	ANA
 T931	Noun_Phrase 23275 23300	ANA and anti-chromatin Ab
 T932	Noun_Phrase 23283 23300	anti-chromatin Ab
 T933	Noun_Phrase 23331 23333	we
-T934	Noun_Phrase 23377 23411	the (129 � C57BL/6)F2.Apcs?/? mice
+T934	Noun_Phrase 23377 23411	the (129 × C57BL/6)F2.Apcs−/− mice
 T935	Noun_Phrase 23416 23426	Chromosome
 T936	Noun_Phrase 23416 23457	Chromosome 1 genetically matched controls
 T937	Noun_Phrase 23459 23461	we
@@ -995,12 +995,12 @@ T993	Noun_Phrase 25335 25345	Chromosome
 T994	Noun_Phrase 25335 25347	Chromosome 7
 T995	Noun_Phrase 25396 25421	anti-nuclear autoimmunity
 T996	Noun_Phrase 25446 25458;25476 25480	the congenic mice
-T997	Noun_Phrase 25464 25480	the Apcs?/? mice
-T998	Noun_Phrase 25468 25475	Apcs?/?
+T997	Noun_Phrase 25464 25480	the Apcs−/− mice
+T998	Noun_Phrase 25468 25475	Apcs−/−
 T999	Noun_Phrase 25476 25480	mice
 T1000	Noun_Phrase 25559 25577	glomerulonephritis
-T1001	Noun_Phrase 25608 25624	the Apcs?/? mice
-T1002	Noun_Phrase 25612 25619	Apcs?/?
+T1001	Noun_Phrase 25608 25624	the Apcs−/− mice
+T1002	Noun_Phrase 25612 25619	Apcs−/−
 T1003	Noun_Phrase 25639 25656	the congenic mice
 T1004	Noun_Phrase 25667 25681	these findings
 T1005	IDENTITY_chain 25667 25681	these findings
@@ -1016,8 +1016,8 @@ T1014	Noun_Phrase 25994 25998	Apcs
 T1015	Noun_Phrase 26306 26319	SLE in humans
 T1016	Noun_Phrase 26313 26319	humans
 T1017	Noun_Phrase 26355 26372	the congenic mice
-T1018	Noun_Phrase 26377 26393	the Apcs?/? mice
-T1019	Noun_Phrase 26381 26388	Apcs?/?
+T1018	Noun_Phrase 26377 26393	the Apcs−/− mice
+T1019	Noun_Phrase 26381 26388	Apcs−/−
 T1020	Noun_Phrase 26428 26431	129
 T1021	Noun_Phrase 26443 26453	Chromosome
 T1022	Noun_Phrase 26443 26455	Chromosome 1
@@ -1064,21 +1064,21 @@ T1062	Noun_Phrase 27432 27438	London
 T1063	IDENTITY_chain 27432 27438	London
 T1064	Noun_Phrase 27440 27454	United Kingdom
 T1065	IDENTITY_chain 27440 27454	United Kingdom
-T1066	Noun_Phrase 27456 27478	(129 � C57BL/6)F1 mice
-T1067	IDENTITY_chain 27456 27478	(129 � C57BL/6)F1 mice
+T1066	Noun_Phrase 27456 27478	(129 × C57BL/6)F1 mice
+T1067	IDENTITY_chain 27456 27478	(129 × C57BL/6)F1 mice
 T1068	Noun_Phrase 27511 27536	the two wild-type strains
-T1069	Noun_Phrase 27541 27563	(129 � C57BL/6)F2 mice
-T1070	Noun_Phrase 27581 27607	the (129 � C57BL/6)F1 mice
-T1071	Noun_Phrase 27609 27624	The Apcs?/?mice
-T1072	Noun_Phrase 27613 27620	Apcs?/?
-T1073	Noun_Phrase 27688 27722	the (129 � C57BL/6)F2.Apcs?/? mice
-T1074	Noun_Phrase 27755 27762	Apcs?/?
+T1069	Noun_Phrase 27541 27563	(129 × C57BL/6)F2 mice
+T1070	Noun_Phrase 27581 27607	the (129 × C57BL/6)F1 mice
+T1071	Noun_Phrase 27609 27624	The Apcs−/−mice
+T1072	Noun_Phrase 27613 27620	Apcs−/−
+T1073	Noun_Phrase 27688 27722	the (129 × C57BL/6)F2.Apcs−/− mice
+T1074	Noun_Phrase 27755 27762	Apcs−/−
 T1075	Noun_Phrase 27775 27778	129
-T1076	Noun_Phrase 27803 27810	Apcs?/?
+T1076	Noun_Phrase 27803 27810	Apcs−/−
 T1077	Noun_Phrase 27836 27843	C57BL/6
 T1078	Noun_Phrase 27848 27863	ten generations
 T1079	Noun_Phrase 27976 27979	1 y
-T1080	Noun_Phrase 27981 28030	Wild-type congenic C57BL/6.129(D1Mit105�223) mice
+T1080	Noun_Phrase 27981 28030	Wild-type congenic C57BL/6.129(D1Mit105–223) mice
 T1081	Noun_Phrase 28062 28124	the 129 interval between microsatellites D1Mit105 and D1Mit223
 T1082	Noun_Phrase 28066 28069	129
 T1083	Noun_Phrase 28087 28102	microsatellites
@@ -1103,7 +1103,7 @@ T1101	Noun_Phrase 28513 28520	D1Mit17
 T1102	Noun_Phrase 28552 28559	C57BL/6
 T1103	Noun_Phrase 28587 28595	D1Mit159
 T1104	Noun_Phrase 28625 28637	the interval
-T1105	Noun_Phrase 28642 28666	the C57BL/6.Apcs?/? mice
+T1105	Noun_Phrase 28642 28666	the C57BL/6.Apcs−/− mice
 T1106	Noun_Phrase 28685 28692	C57BL/6
 T1107	Noun_Phrase 28697 28712	ten generations
 T1108	Noun_Phrase 28715 28751	the 129 genome around the Apcs locus
@@ -1158,7 +1158,7 @@ T1156	Noun_Phrase 30274 30288	United Kingdom
 T1157	Noun_Phrase 30291 30298	Samples
 T1158	Noun_Phrase 30487 30491	Apcs
 T1159	Noun_Phrase 30493 30503	Calbiochem
-T1160	Noun_Phrase 30506 30519	Apcs?/? mouse
+T1160	Noun_Phrase 30506 30519	Apcs−/− mouse
 T1161	Noun_Phrase 30587 30599	All the mice
 T1162	Noun_Phrase 30679 30689	1 y of age
 T1163	Noun_Phrase 30686 30689	age
@@ -1173,19 +1173,19 @@ T1171	APPOS_relation 30891 30898	grade 0
 T1172	Noun_Phrase 30900 30906	normal
 T1173	Noun_Phrase 30908 30915	grade 1
 T1174	APPOS_relation 30908 30915	grade 1
-T1175	Noun_Phrase 30917 31007	hypercellularity involving greater than 50% of the glomerular tuft in 25%�50% of glomeruli
+T1175	Noun_Phrase 30917 31007	hypercellularity involving greater than 50% of the glomerular tuft in 25%–50% of glomeruli
 T1176	Noun_Phrase 30998 31007	glomeruli
 T1177	IDENTITY_chain 30998 31007	glomeruli
 T1178	Noun_Phrase 31009 31016	grade 2
 T1179	APPOS_relation 31009 31016	grade 2
-T1180	Noun_Phrase 31018 31108	hypercellularity involving greater than 50% of the glomerular tuft in 50%�75% of glomeruli
+T1180	Noun_Phrase 31018 31108	hypercellularity involving greater than 50% of the glomerular tuft in 50%–75% of glomeruli
 T1181	Noun_Phrase 31099 31108	glomeruli
 T1182	Noun_Phrase 31170 31179	glomeruli
 T1183	Noun_Phrase 31216 31225	glomeruli
 T1184	Noun_Phrase 31452 31465	United States
 T1185	IDENTITY_chain 31452 31465	United States
-T1186	Noun_Phrase 31581 31602	The Mann�Whitney test
-T1187	IDENTITY_chain 31581 31602	The Mann�Whitney test
+T1186	Noun_Phrase 31581 31602	The Mann–Whitney test
+T1187	IDENTITY_chain 31581 31602	The Mann–Whitney test
 T1188	Noun_Phrase 31800 31818	PCR of genomic DNA
 T1189	IDENTITY_chain 31800 31818	PCR of genomic DNA
 T1190	Noun_Phrase 31807 31818	genomic DNA
@@ -1226,7 +1226,7 @@ T1224	Noun_Phrase 33097 33106	CD35/CD21
 T1225	Noun_Phrase 33129 33133	CD55
 T1226	Noun_Phrase 33156 33177	the FAS receptor gene
 T1227	Noun_Phrase 33160 33172	FAS receptor
-T1228	Noun_Phrase 33204 33210	Fc?RII
+T1228	Noun_Phrase 33204 33210	FcγRII
 T1229	Noun_Phrase 33252 33254	We
 T1230	Noun_Phrase 33335 33358	F. Reid and D. Mitchell
 T1231	IDENTITY_chain 33335 33358	F. Reid and D. Mitchell
@@ -1246,7 +1246,7 @@ T1244	APPOS_relation 33659 33680	anti-nuclear antibody
 T1245	Noun_Phrase 33682 33685	AEU
 T1246	Noun_Phrase 33688 33708	arbitrary ELISA unit
 T1247	APPOS_relation 33688 33708	arbitrary ELISA unit
-T1248	Noun_Phrase 33710 33717	Apcs?/?
+T1248	Noun_Phrase 33710 33717	Apcs−/−
 T1249	Noun_Phrase 33720 33739	Apcs-deficient mice
 T1250	APPOS_relation 33720 33739	Apcs-deficient mice
 T1251	Noun_Phrase 33741 33745	Apcs
@@ -1271,12 +1271,12 @@ T1269	APPOS_relation 33912 33936	anti-single-stranded DNA
 T1270	Noun_Phrase 33938 33945	Figures
 T1271	Noun_Phrase 33950 33956	Tables
 T1272	Noun_Phrase 33958 33964	Figure
-T1273	Noun_Phrase 33968 34057	Linkage of Chromosome 2 with ANA and Anti-Chromatin Abs in (129 � C57BL/6)F2.Apcs?/? Mice
-T1274	IDENTITY_chain 33968 34057	Linkage of Chromosome 2 with ANA and Anti-Chromatin Abs in (129 � C57BL/6)F2.Apcs?/? Mice
+T1273	Noun_Phrase 33968 34057	Linkage of Chromosome 2 with ANA and Anti-Chromatin Abs in (129 × C57BL/6)F2.Apcs−/− Mice
+T1274	IDENTITY_chain 33968 34057	Linkage of Chromosome 2 with ANA and Anti-Chromatin Abs in (129 × C57BL/6)F2.Apcs−/− Mice
 T1275	Noun_Phrase 33979 33989	Chromosome
-T1276	Noun_Phrase 34027 34057	(129 � C57BL/6)F2.Apcs?/? Mice
+T1276	Noun_Phrase 34027 34057	(129 × C57BL/6)F2.Apcs−/− Mice
 T1277	Noun_Phrase 34059 34077	These associations
-T1278	Noun_Phrase 34099 34124	(129 � C57BL/6)F2 animals
+T1278	Noun_Phrase 34099 34124	(129 × C57BL/6)F2 animals
 T1279	Noun_Phrase 34126 34137	Centimorgan
 T1280	IDENTITY_chain 34126 34137	Centimorgan
 T1281	Noun_Phrase 34126 34147	Centimorgan positions
@@ -1305,8 +1305,8 @@ T1303	Noun_Phrase 34425 34431	Figure
 T1304	Noun_Phrase 34446 34456	Chromosome
 T1305	Noun_Phrase 34464 34474	Anti-dsDNA
 T1306	Noun_Phrase 34464 34478	Anti-dsDNA Abs
-T1307	Noun_Phrase 34502 34524	(129 � C57BL/6)F2 mice
-T1308	Noun_Phrase 34560 34596	the (129 � C57BL/6)F2.Apcs?/?animals
+T1307	Noun_Phrase 34502 34524	(129 × C57BL/6)F2 mice
+T1308	Noun_Phrase 34560 34596	the (129 × C57BL/6)F2.Apcs−/−animals
 T1309	Noun_Phrase 34688 34699	Centimorgan
 T1310	Noun_Phrase 34688 34709	Centimorgan positions
 T1311	Noun_Phrase 34726 34742	interval mapping
@@ -1381,11 +1381,11 @@ T1379	Noun_Phrase 35936 35943	Auto-Ab
 T1380	Noun_Phrase 35955 35956	A
 T1381	IDENTITY_chain 35955 35956	A
 T1382	Noun_Phrase 35958 35961	ANA
-T1383	Noun_Phrase 35958 36006	ANA titres in the (129 � C57BL/6)F2.Apcs?/? mice
-T1384	IDENTITY_chain 35958 36006	ANA titres in the (129 � C57BL/6)F2.Apcs?/? mice
-T1385	Noun_Phrase 35972 36006	the (129 � C57BL/6)F2.Apcs?/? mice
-T1386	Noun_Phrase 35972 36042	the (129 � C57BL/6)F2.Apcs?/? mice and (129 � C57BL/6)F2 at 1 y of age
-T1387	IDENTITY_chain 35972 36042	the (129 � C57BL/6)F2.Apcs?/? mice and (129 � C57BL/6)F2 at 1 y of age
+T1383	Noun_Phrase 35958 36006	ANA titres in the (129 × C57BL/6)F2.Apcs−/− mice
+T1384	IDENTITY_chain 35958 36006	ANA titres in the (129 × C57BL/6)F2.Apcs−/− mice
+T1385	Noun_Phrase 35972 36006	the (129 × C57BL/6)F2.Apcs−/− mice
+T1386	Noun_Phrase 35972 36042	the (129 × C57BL/6)F2.Apcs−/− mice and (129 × C57BL/6)F2 at 1 y of age
+T1387	IDENTITY_chain 35972 36042	the (129 × C57BL/6)F2.Apcs−/− mice and (129 × C57BL/6)F2 at 1 y of age
 T1388	Noun_Phrase 36032 36042	1 y of age
 T1389	Noun_Phrase 36039 36042	age
 T1390	Noun_Phrase 36070 36079	one mouse
@@ -1397,10 +1397,10 @@ T1395	Noun_Phrase 36187 36195	endpoint
 T1396	Noun_Phrase 36199 36200	B
 T1397	IDENTITY_chain 36199 36200	B
 T1398	Noun_Phrase 36202 36205	ANA
-T1399	Noun_Phrase 36202 36251	ANA titres in the (129 � C57BL/6)F2.Apcs ?/? mice
-T1400	Noun_Phrase 36216 36251	the (129 � C57BL/6)F2.Apcs ?/? mice
-T1401	Noun_Phrase 36216 36401	the (129 � C57BL/6)F2.Apcs ?/? mice and a selected number of wild-type (129 � C57BL/6)F2 animals carrying the Chromosome 1 region between D1Mit105 and D1Mit223 (80�106 cM) of 129 origin
-T1402	IDENTITY_chain 36216 36401	the (129 � C57BL/6)F2.Apcs ?/? mice and a selected number of wild-type (129 � C57BL/6)F2 animals carrying the Chromosome 1 region between D1Mit105 and D1Mit223 (80�106 cM) of 129 origin
+T1399	Noun_Phrase 36202 36251	ANA titres in the (129 × C57BL/6)F2.Apcs −/− mice
+T1400	Noun_Phrase 36216 36251	the (129 × C57BL/6)F2.Apcs −/− mice
+T1401	Noun_Phrase 36216 36401	the (129 × C57BL/6)F2.Apcs −/− mice and a selected number of wild-type (129 × C57BL/6)F2 animals carrying the Chromosome 1 region between D1Mit105 and D1Mit223 (80–106 cM) of 129 origin
+T1402	IDENTITY_chain 36216 36401	the (129 × C57BL/6)F2.Apcs −/− mice and a selected number of wild-type (129 × C57BL/6)F2 animals carrying the Chromosome 1 region between D1Mit105 and D1Mit223 (80–106 cM) of 129 origin
 T1403	Noun_Phrase 36322 36375	the Chromosome 1 region between D1Mit105 and D1Mit223
 T1404	Noun_Phrase 36326 36336	Chromosome
 T1405	Noun_Phrase 36354 36362	D1Mit105
@@ -1488,8 +1488,8 @@ T1486	Noun_Phrase 37859 37865	Figure
 T1487	Noun_Phrase 37859 37867	Figure 9
 T1488	Noun_Phrase 37900 37907	C57BL/6
 T1489	Noun_Phrase 37900 37912	C57BL/6 mice
-T1490	Noun_Phrase 37914 37934	C57BL/6.Apcs?/? mice
-T1491	Noun_Phrase 37940 37979	C57BL/6.129(D1Mit105�223) congenic mice
+T1490	Noun_Phrase 37914 37934	C57BL/6.Apcs−/− mice
+T1491	Noun_Phrase 37940 37979	C57BL/6.129(D1Mit105–223) congenic mice
 T1492	Noun_Phrase 37999 38009	1 y of age
 T1493	Noun_Phrase 38006 38009	age
 T1494	Noun_Phrase 38051 38058	Bouin's
@@ -1502,15 +1502,15 @@ T1500	Noun_Phrase 38189 38196	Methods
 T1501	Noun_Phrase 38201 38208	details
 T1502	IDENTITY_chain 38201 38208	details
 T1503	Noun_Phrase 38212 38218	Figure
-T1504	Noun_Phrase 38222 38310	Linkage of Chromosome 8 with Anti-Chromatin and Anti-dsDNA Abs in (129 � C57BL/6)F2 Mice
-T1505	IDENTITY_chain 38222 38310	Linkage of Chromosome 8 with Anti-Chromatin and Anti-dsDNA Abs in (129 � C57BL/6)F2 Mice
+T1504	Noun_Phrase 38222 38310	Linkage of Chromosome 8 with Anti-Chromatin and Anti-dsDNA Abs in (129 × C57BL/6)F2 Mice
+T1505	IDENTITY_chain 38222 38310	Linkage of Chromosome 8 with Anti-Chromatin and Anti-dsDNA Abs in (129 × C57BL/6)F2 Mice
 T1506	Noun_Phrase 38233 38243	Chromosome
 T1507	Noun_Phrase 38251 38265;38281 38284	Anti-Chromatin Abs
 T1508	Noun_Phrase 38270 38280	Anti-dsDNA
 T1509	Noun_Phrase 38270 38284	Anti-dsDNA Abs
-T1510	Noun_Phrase 38288 38310	(129 � C57BL/6)F2 Mice
+T1510	Noun_Phrase 38288 38310	(129 × C57BL/6)F2 Mice
 T1511	Noun_Phrase 38312 38326	These linkages
-T1512	Noun_Phrase 38348 38381	(129 � C57BL/6)F2.Apcs?/? animals
+T1512	Noun_Phrase 38348 38381	(129 × C57BL/6)F2.Apcs−/− animals
 T1513	Noun_Phrase 38383 38394	Centimorgan
 T1514	Noun_Phrase 38383 38404	Centimorgan positions
 T1515	Noun_Phrase 38421 38437	interval mapping
@@ -1525,14 +1525,14 @@ T1523	Noun_Phrase 38607 38628	Materials and Methods
 T1524	Noun_Phrase 38621 38628	Methods
 T1525	Noun_Phrase 38631 38636	Table
 T1526	Noun_Phrase 38631 38638	Table 1
-T1527	Noun_Phrase 38664 38671;38704 38715	Apcs?/? Female Mice
-T1528	IDENTITY_chain 38664 38671;38704 38715	Apcs?/? Female Mice
-T1529	Noun_Phrase 38676 38715	Wild-Type (129 � C57BL/6)F2 Female Mice
-T1530	IDENTITY_chain 38676 38715	Wild-Type (129 � C57BL/6)F2 Female Mice
-T1531	Noun_Phrase 38749 38756	Apcs?/?
-T1532	Noun_Phrase 38749 38779	Apcs?/? and wild-type controls
-T1533	IDENTITY_chain 38749 38779	Apcs?/? and wild-type controls
-T1534	Noun_Phrase 38783 38802	Mann�Whitney U test
+T1527	Noun_Phrase 38664 38671;38704 38715	Apcs−/− Female Mice
+T1528	IDENTITY_chain 38664 38671;38704 38715	Apcs−/− Female Mice
+T1529	Noun_Phrase 38676 38715	Wild-Type (129 × C57BL/6)F2 Female Mice
+T1530	IDENTITY_chain 38676 38715	Wild-Type (129 × C57BL/6)F2 Female Mice
+T1531	Noun_Phrase 38749 38756	Apcs−/−
+T1532	Noun_Phrase 38749 38779	Apcs−/− and wild-type controls
+T1533	IDENTITY_chain 38749 38779	Apcs−/− and wild-type controls
+T1534	Noun_Phrase 38783 38802	Mann–Whitney U test
 T1535	Noun_Phrase 38891 38896	serum
 T1536	Noun_Phrase 38909 38917	the mice
 T1537	Noun_Phrase 38936 38950	the experiment
@@ -1543,8 +1543,8 @@ T1541	APPOS_relation 38956 38971	not significant
 T1542	Noun_Phrase 38973 38978	Table
 T1543	Noun_Phrase 38973 38980	Table 2
 T1544	Noun_Phrase 39009 39015	Kidney
-T1545	Noun_Phrase 39028 39035;39068 39079	Apcs?/? Female Mice
-T1546	Noun_Phrase 39040 39079	Wild-Type (129 � C57BL/6)F2 Female Mice
+T1545	Noun_Phrase 39028 39035;39068 39079	Apcs−/− Female Mice
+T1546	Noun_Phrase 39040 39079	Wild-Type (129 × C57BL/6)F2 Female Mice
 T1547	Noun_Phrase 39081 39099	The renal sections
 T1548	Noun_Phrase 39204 39213	Materials
 T1549	Noun_Phrase 39204 39225	Materials and Methods
@@ -1552,8 +1552,8 @@ T1550	Noun_Phrase 39218 39225	Methods
 T1551	Noun_Phrase 39250 39277	the two experimental groups
 T1552	Noun_Phrase 39299 39304	Table
 T1553	Noun_Phrase 39299 39306	Table 3
-T1554	Noun_Phrase 39351 39358;39391 39402	Apcs?/? Female Mice
-T1555	Noun_Phrase 39363 39402	Wild-Type (129 � C57BL/6)F2 Female Mice
+T1554	Noun_Phrase 39351 39358;39391 39402	Apcs−/− Female Mice
+T1555	Noun_Phrase 39363 39402	Wild-Type (129 × C57BL/6)F2 Female Mice
 T1556	Noun_Phrase 39406 39424	Suggestive linkage
 T1557	Noun_Phrase 39428 39447	Significant linkage
 T1558	Noun_Phrase 39451 39477	Highly significant linkage

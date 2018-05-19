@@ -3,29 +3,29 @@
   <document id="17083276" text-file="17083276.txt">
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46328" type="identity">
       <class id="section" label="section"/>
-      <span end="82" id="17083276-25405" start="0">CAF-1 Is Essential for Heterochromatin Organization in Pluripotent Embryonic Cells</span>
+      <span end="82" id="17083276-25406" start="0">CAF-1 Is Essential for Heterochromatin Organization in Pluripotent Embryonic Cells</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46331" type="identity">
       <class id="section" label="section"/>
-      <span end="1951" id="17083276-25407" start="84">Abstract
+      <span end="1951" id="17083276-25408" start="84">Abstract
 
 During mammalian development, chromatin dynamics and epigenetic marking are important for genome reprogramming. Recent data suggest an important role for the chromatin assembly machinery in this process. To analyze the role of chromatin assembly factor 1 (CAF-1) during pre-implantation development, we generated a mouse line carrying a targeted mutation in the gene encoding its large subunit, p150CAF-1. Loss of p150CAF-1 in homozygous mutants leads to developmental arrest at the 16-cell stage. Absence of p150CAF-1 in these embryos results in severe alterations in the nuclear organization of constitutive heterochromatin. We provide evidence that in wild-type embryos, heterochromatin domains are extensively reorganized between the two-cell and blastocyst stages. In p150CAF-1 mutant 16-cell stage embryos, the altered organization of heterochromatin displays similarities to the structure of heterochromatin in two- to four-cell stage wild-type embryos, suggesting that CAF-1 is required for the maturation of heterochromatin during preimplantation development. In embryonic stem cells, depletion of p150CAF-1 using RNA interference results in the mislocalization, loss of clustering, and decondensation of pericentric heterochromatin domains. Furthermore, loss of CAF-1 in these cells results in the alteration of epigenetic histone methylation marks at the level of pericentric heterochromatin. These alterations of heterochromatin are not found in p150CAF-1-depleted mouse embryonic fibroblasts, which are cells that are already lineage committed, suggesting that CAF-1 is specifically required for heterochromatin organization in pluripotent embryonic cells. Our findings underline the role of the chromatin assembly machinery in controlling the spatial organization and epigenetic marking of the genome in early embryos and embryonic stem cells.</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46334" type="identity">
       <class id="section" label="section"/>
-      <span end="3188" id="17083276-25409" start="1953">Synopsis
+      <span end="3188" id="17083276-25410" start="1953">Synopsis
 
 Chromatin is the support of our genetic information. It is composed of numerous repeated units called nucleosomes, in which DNA wraps around a core of histone proteins. Modifications in the composition and biochemical properties of nucleosomes play major roles in the regulation of genome function. Such modifications are termed “epigenetic” when they are inherited across cell divisions and confer new information to chromatin, in addition to the genetic information provided by DNA. It is usually believed that during genome replication, the basic chromatin assembly machinery builds up “naïve” nucleosomes, and, in a subsequent step, nucleosomes are selectively modified by a series of enzymes to acquire epigenetic information. Here, the authors studied the role of a basic chromatin assembly factor (CAF-1) in mouse embryonic stem cells and early embryos. Surprisingly, they show that CAF-1 confers epigenetic information to specific genomic regions. In addition, this study revealed that CAF-1 is required for the proper spatial organization of chromosomes in the nucleus. This new knowledge may contribute to better understanding the role of chromatin in the maintenance of embryonic stem cell identity and plasticity.</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46337" type="identity">
       <class id="section" label="section"/>
-      <span end="5786" id="17083276-25411" start="3190">Introduction
+      <span end="5786" id="17083276-25412" start="3190">Introduction
 
 During mouse pre-implantation development, the genome undergoes a series of major epigenetic changes required for embryonic gene expression, the maintenance of totipotency, and the first differentiation events [1,2]. While many studies have established the importance of DNA methylation in epigenetic reprogramming, recent data point to a crucial role of chromatin in this process [3–5]. Yet we know very little about the role of histone modifying enzymes, chromatin remodeling factors, and histone chaperones during pre-implantation development, or in stem cells derived from early embryos [6]. A subset of identified histone chaperones and chromatin remodeling complexes can collaborate to promote nucleosome assembly in vitro and are therefore in a strategic position to control chromatin assembly and maturation during development [7,8]. Among histone chaperones, chromatin assembly factor 1 (CAF-1) is a three-subunit (p150, p60, and p48) complex which promotes histone H3 and H4 deposition onto newly synthesized DNA during replication or DNA repair [9,10]. Specifically, CAF-1 deposits the histone H3 variant H3.1 into chromatin, in a pathway coupled to DNA synthesis, whereas a second histone chaperone, HIRA, is involved in the deposition of the H3.3 variant in a DNA synthesis independent pathway [11,12]. In addition to this specific chromatin assembly activity, CAF-1 interacts with several proteins present in heterochromatin, including heterochromatin protein 1 (HP1) and MBD1, a methyl-CpG binding domain protein that recruits histone deacetylase and repressive histone methyltransferase activities [13–15]. Furthermore, p150CAF-1 is required to ensure a replication-specific pool of HP1 molecules at replication sites in pericentric heterochromatin during mid-late S phase [16]. Taken together, these data suggest roles for CAF-1 in the formation of heterochromatin and in the heritability of epigenetic traits. While the function of this evolutionary conserved histone chaperone has been studied extensively biochemically, we still lack information concerning its importance during early development in mammals and in pluripotent cells such as embryonic stem (ES) cells. Here, we have analyzed the importance of CAF-1 during early mouse development by genetic ablation and in ES cells by depletion using RNA interference (RNAi). We show that CAF-1 is essential for viability in early mouse embryos and ES cells. We provide evidence that CAF-1 is required for the spatial organization and epigenetic marking of heterochromatin domains in pluripotent embryonic cells.</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46340" type="identity">
       <class id="section" label="section"/>
-      <span end="18297" id="17083276-25413" start="5788">Results
+      <span end="18297" id="17083276-25414" start="5788">Results
 
 We used gene targeting in ES cells to delete exon 3 in the Chaf1a gene, which encodes p150CAF-1 (Figure 1A). Chaf1a+/− mice were born at a Mendelian frequency, were of normal size and weight, displayed no obvious abnormalities, and were fertile. Crossing heterozygous mice failed to generate viable newborn Chaf1a−/− mice. Furthermore, no homozygous Chaf1a−/− embryos were detected at any of the post-implantation stages. However, we could detect Chaf1a−/− embryos at embryonic day 4 (E4) using a PCR strategy (Figure 1B). They represent only 10% of E4 embryos obtained from Chaf1a+/− mice intercrosses, suggesting that more than half of the homozygous mutant embryos had degenerated before this stage. Moreover, mutant embryos contained only eight to 16 cells at the E4 stage, instead of 32 cells observed for wild-type or heterozygous blastocysts (Figure 1C and 1D). Further analysis by light microscopy using immunofluorescence (IF) allowed us to compare wild-type and p150CAF-1-depleted embryos. A loss of p150CAF-1 staining could not be detected before the eight-cell stage (unpublished data) suggesting that maternally contributed protein is present in the embryo up to the four-cell stage. Thus, depletion of p150CAF-1 protein from this stage allows a maximum of two additional cell divisions before developmental arrest.
 
@@ -47,155 +47,155 @@ In wild-type cells, most of H4K20me3 and H3K9me3 signals are present at the leve
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46343" type="identity">
       <class id="italic" label="italic"/>
-      <span end="5862" id="17083276-25415" start="5856">Chaf1a</span>
+      <span end="5862" id="17083276-25416" start="5856">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46345" type="identity">
       <class id="italic" label="italic"/>
-      <span end="5912" id="17083276-25417" start="5906">Chaf1a</span>
+      <span end="5912" id="17083276-25418" start="5906">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46347" type="identity">
       <class id="sup" label="sup"/>
-      <span end="5915" id="17083276-25419" start="5912">+/−</span>
+      <span end="5915" id="17083276-25420" start="5912">+/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46349" type="identity">
       <class id="italic" label="italic"/>
-      <span end="5915" id="17083276-25421" start="5914">−</span>
+      <span end="5915" id="17083276-25422" start="5914">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46351" type="identity">
       <class id="italic" label="italic"/>
-      <span end="6110" id="17083276-25423" start="6104">Chaf1a</span>
+      <span end="6110" id="17083276-25424" start="6104">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46353" type="identity">
       <class id="sup" label="sup"/>
-      <span end="6113" id="17083276-25425" start="6110">−/−</span>
+      <span end="6113" id="17083276-25426" start="6110">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46355" type="identity">
       <class id="italic" label="italic"/>
-      <span end="6113" id="17083276-25427" start="6112">−</span>
+      <span end="6113" id="17083276-25428" start="6112">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46357" type="identity">
       <class id="italic" label="italic"/>
-      <span end="6153" id="17083276-25429" start="6147">Chaf1a</span>
+      <span end="6153" id="17083276-25430" start="6147">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46359" type="identity">
       <class id="sup" label="sup"/>
-      <span end="6156" id="17083276-25431" start="6153">−/−</span>
+      <span end="6156" id="17083276-25432" start="6153">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46361" type="identity">
       <class id="italic" label="italic"/>
-      <span end="6156" id="17083276-25433" start="6155">−</span>
+      <span end="6156" id="17083276-25434" start="6155">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46363" type="identity">
       <class id="italic" label="italic"/>
-      <span end="6250" id="17083276-25435" start="6244">Chaf1a</span>
+      <span end="6250" id="17083276-25436" start="6244">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46365" type="identity">
       <class id="sup" label="sup"/>
-      <span end="6253" id="17083276-25437" start="6250">−/−</span>
+      <span end="6253" id="17083276-25438" start="6250">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46367" type="identity">
       <class id="italic" label="italic"/>
-      <span end="6253" id="17083276-25439" start="6252">−</span>
+      <span end="6253" id="17083276-25440" start="6252">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46369" type="identity">
       <class id="italic" label="italic"/>
-      <span end="6378" id="17083276-25441" start="6372">Chaf1a</span>
+      <span end="6378" id="17083276-25442" start="6372">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46371" type="identity">
       <class id="sup" label="sup"/>
-      <span end="6381" id="17083276-25443" start="6378">+/−</span>
+      <span end="6381" id="17083276-25444" start="6378">+/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46373" type="identity">
       <class id="italic" label="italic"/>
-      <span end="6381" id="17083276-25445" start="6380">−</span>
+      <span end="6381" id="17083276-25446" start="6380">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46375" type="identity">
       <class id="italic" label="italic"/>
-      <span end="7238" id="17083276-25447" start="7232">Chaf1a</span>
+      <span end="7238" id="17083276-25448" start="7232">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46377" type="identity">
       <class id="sup" label="sup"/>
-      <span end="7241" id="17083276-25449" start="7238">−/−</span>
+      <span end="7241" id="17083276-25450" start="7238">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46379" type="identity">
       <class id="italic" label="italic"/>
-      <span end="7241" id="17083276-25451" start="7240">−</span>
+      <span end="7241" id="17083276-25452" start="7240">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46381" type="identity">
       <class id="italic" label="italic"/>
-      <span end="7721" id="17083276-25453" start="7715">Chaf1a</span>
+      <span end="7721" id="17083276-25454" start="7715">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46383" type="identity">
       <class id="sup" label="sup"/>
-      <span end="7724" id="17083276-25455" start="7721">−/−</span>
+      <span end="7724" id="17083276-25456" start="7721">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46385" type="identity">
       <class id="italic" label="italic"/>
-      <span end="7724" id="17083276-25457" start="7723">−</span>
+      <span end="7724" id="17083276-25458" start="7723">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46387" type="identity">
       <class id="italic" label="italic"/>
-      <span end="8615" id="17083276-25459" start="8609">Chaf1a</span>
+      <span end="8615" id="17083276-25460" start="8609">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46389" type="identity">
       <class id="sup" label="sup"/>
-      <span end="8618" id="17083276-25461" start="8615">−/−</span>
+      <span end="8618" id="17083276-25462" start="8615">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46391" type="identity">
       <class id="italic" label="italic"/>
-      <span end="8618" id="17083276-25463" start="8617">−</span>
+      <span end="8618" id="17083276-25464" start="8617">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46393" type="identity">
       <class id="italic" label="italic"/>
-      <span end="9100" id="17083276-25465" start="9094">Chaf1a</span>
+      <span end="9100" id="17083276-25466" start="9094">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46395" type="identity">
       <class id="sup" label="sup"/>
-      <span end="9103" id="17083276-25467" start="9100">−/−</span>
+      <span end="9103" id="17083276-25468" start="9100">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46397" type="identity">
       <class id="italic" label="italic"/>
-      <span end="9103" id="17083276-25469" start="9102">−</span>
+      <span end="9103" id="17083276-25470" start="9102">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46399" type="identity">
       <class id="italic" label="italic"/>
-      <span end="9651" id="17083276-25471" start="9645">Chaf1a</span>
+      <span end="9651" id="17083276-25472" start="9645">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46401" type="identity">
       <class id="sup" label="sup"/>
-      <span end="9654" id="17083276-25473" start="9651">−/−</span>
+      <span end="9654" id="17083276-25474" start="9651">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46403" type="identity">
       <class id="italic" label="italic"/>
-      <span end="9654" id="17083276-25475" start="9653">−</span>
+      <span end="9654" id="17083276-25476" start="9653">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46405" type="identity">
       <class id="italic" label="italic"/>
-      <span end="9954" id="17083276-25477" start="9948">Chaf1a</span>
+      <span end="9954" id="17083276-25478" start="9948">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46407" type="identity">
       <class id="sup" label="sup"/>
-      <span end="9957" id="17083276-25479" start="9954">−/−</span>
+      <span end="9957" id="17083276-25480" start="9954">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46409" type="identity">
       <class id="italic" label="italic"/>
-      <span end="9957" id="17083276-25481" start="9956">−</span>
+      <span end="9957" id="17083276-25482" start="9956">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46411" type="identity">
       <class id="italic" label="italic"/>
-      <span end="15676" id="17083276-25483" start="15670">Chaf1a</span>
+      <span end="15676" id="17083276-25484" start="15670">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46413" type="identity">
       <class id="sup" label="sup"/>
-      <span end="15679" id="17083276-25485" start="15676">−/−</span>
+      <span end="15679" id="17083276-25486" start="15676">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46415" type="identity">
       <class id="italic" label="italic"/>
-      <span end="15679" id="17083276-25487" start="15678">−</span>
+      <span end="15679" id="17083276-25488" start="15678">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46417" type="identity">
       <class id="section" label="section"/>
-      <span end="24816" id="17083276-25489" start="18299">Discussion
+      <span end="24816" id="17083276-25490" start="18299">Discussion
 
 Here, we provide evidence that p150CAF-1 has a crucial function during mouse early embryogenesis and in ES cells. Previous studies showed that CAF-1 is essential for the progression of DNA replication in vertebrates. In Xenopus laevis, p150CAF-1 function is required for the rapid cell divisions that occur during early development [33]. Similarly, CAF-1 is essential in mammalian cell lines for the progression of DNA replication [16,23,24,34]. Our findings reveal a role for CAF-1 in the nuclear organization of heterochromatin domains during early development and in ES cells. We show that in p150CAF-1-depleted ES cells, while DNA replication initially persists without significant perturbation in nucleosomal organization, severe heterochromatin organization defects can be observed. Loss of p150CAF-1 did not affect PML bodies in ES cell nuclei, showing that nuclear architecture is not generally altered. Ultimately, p150CAF-1 depletion results in the arrest of ES cell division and cell death. Given the major defects observed in heterochromatin organization, it is tempting to speculate that these defects cause the developmental arrest in the embryos and death in ES cells. The role of CAF-1 in the nuclear organization of heterochromatin includes spatial localization, condensation, and clustering of pericentric domains. This important function of CAF-1 was not revealed in primary MEFs, 3T3 cells, or human cell lines, suggesting that it is specific of pluripotent embryonic cells. Alternatively, early embryos and ES cells, whose genome is more plastic than somatic cells, might represent a particularly sensitive context in which the importance of CAF-1 in heterochromatin organization is exacerbated. In ES cells, major architectural chromatin proteins are hyperdynamic and bind relatively loosely to chromatin [35]. In this cellular context, our findings show that proper heterochromatin nuclear architecture relies on CAF-1 function. In contrast, in undifferentiated cells that are already lineage committed (such as MEFs) genome architecture might be more stable than in ES cells and thus cannot be disrupted by CAF-1 depletion. This important function of CAF-1 in pluripotent embryonic cells could be partially conserved during evolution. Indeed, in Arabidopsis thaliana, in which CAF-1 is not essential for viability [36], loss of CAF-1 is associated with a mild alteration in chromocenter size [37]. This phenotype is somehow reminiscent of loss of CAF-1-mediated defects in heterochromatin organization in early mouse embryos. In mouse ES cells, we show that CAF-1 is also required for regular levels of H4K20me3 at pericentric repeats, but not at IAP elements, which are repeated sequences spread all over the mouse genome. These data suggest that proper nuclear organization and epigenetic marking of pericentric heterochromatin are coupled in ES cells. Alternatively, 3-D organization of heterochromatin and epigenetic marking might represent two independent functions of CAF-1.
 
@@ -205,27 +205,27 @@ In agreement with a recent report [40], our analysis of heterochromatin in pre-i
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46420" type="identity">
       <class id="italic" label="italic"/>
-      <span end="18546" id="17083276-25491" start="18531">Xenopus laevis,</span>
+      <span end="18546" id="17083276-25492" start="18531">Xenopus laevis,</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46422" type="identity">
       <class id="italic" label="italic"/>
-      <span end="20602" id="17083276-25493" start="20581">Arabidopsis thaliana,</span>
+      <span end="20602" id="17083276-25494" start="20581">Arabidopsis thaliana,</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46424" type="identity">
       <class id="italic" label="italic"/>
-      <span end="21860" id="17083276-25495" start="21846">S. cerevisiae.</span>
+      <span end="21860" id="17083276-25496" start="21846">S. cerevisiae.</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46426" type="identity">
       <class id="italic" label="italic"/>
-      <span end="23997" id="17083276-25497" start="23988">Chaf1a−/−</span>
+      <span end="23997" id="17083276-25498" start="23988">Chaf1a−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46428" type="identity">
       <class id="sup" label="sup"/>
-      <span end="23997" id="17083276-25499" start="23994">−/−</span>
+      <span end="23997" id="17083276-25500" start="23994">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46430" type="identity">
       <class id="section" label="section"/>
-      <span end="31565" id="17083276-25501" start="24818">Materials and Methods
+      <span end="31565" id="17083276-25502" start="24818">Materials and Methods
 
 Generation of Chaf1a mutant mice and embryos.
 
@@ -265,75 +265,75 @@ For Southern blot analysis, we used a 240-bp EcoRI/BamHI fragment from pSAT (maj
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46433" type="identity">
       <class id="italic" label="italic"/>
-      <span end="24861" id="17083276-25503" start="24855">Chaf1a</span>
+      <span end="24861" id="17083276-25504" start="24855">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46435" type="identity">
       <class id="italic" label="italic"/>
-      <span end="24967" id="17083276-25505" start="24961">Chaf1a</span>
+      <span end="24967" id="17083276-25506" start="24961">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46437" type="identity">
       <class id="italic" label="italic"/>
-      <span end="25240" id="17083276-25507" start="25234">Chaf1a</span>
+      <span end="25240" id="17083276-25508" start="25234">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46439" type="identity">
       <class id="sup" label="sup"/>
-      <span end="25246" id="17083276-25509" start="25240">tm1Ger</span>
+      <span end="25246" id="17083276-25510" start="25240">tm1Ger</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46441" type="identity">
       <class id="italic" label="italic"/>
-      <span end="25266" id="17083276-25511" start="25260">Chaf1a</span>
+      <span end="25266" id="17083276-25512" start="25260">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46443" type="identity">
       <class id="sup" label="sup"/>
-      <span end="25267" id="17083276-25513" start="25266">−</span>
+      <span end="25267" id="17083276-25514" start="25266">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46445" type="identity">
       <class id="italic" label="italic"/>
-      <span end="25341" id="17083276-25515" start="25335">Chaf1a</span>
+      <span end="25341" id="17083276-25516" start="25335">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46447" type="identity">
       <class id="sup" label="sup"/>
-      <span end="25344" id="17083276-25517" start="25341">+/−</span>
+      <span end="25344" id="17083276-25518" start="25341">+/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46449" type="identity">
       <class id="italic" label="italic"/>
-      <span end="25344" id="17083276-25519" start="25343">−</span>
+      <span end="25344" id="17083276-25520" start="25343">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46451" type="identity">
       <class id="italic" label="italic"/>
-      <span end="25459" id="17083276-25521" start="25453">Chaf1a</span>
+      <span end="25459" id="17083276-25522" start="25453">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46453" type="identity">
       <class id="sup" label="sup"/>
-      <span end="25462" id="17083276-25523" start="25459">+/−</span>
+      <span end="25462" id="17083276-25524" start="25459">+/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46455" type="identity">
       <class id="italic" label="italic"/>
-      <span end="25462" id="17083276-25525" start="25461">−</span>
+      <span end="25462" id="17083276-25526" start="25461">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46457" type="identity">
       <class id="italic" label="italic"/>
-      <span end="29634" id="17083276-25527" start="29633">g</span>
+      <span end="29634" id="17083276-25528" start="29633">g</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46459" type="identity">
       <class id="sub" label="sub"/>
-      <span end="29805" id="17083276-25529" start="29804">2</span>
+      <span end="29805" id="17083276-25530" start="29804">2</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46461" type="identity">
       <class id="sub" label="sub"/>
-      <span end="29817" id="17083276-25531" start="29816">2</span>
+      <span end="29817" id="17083276-25532" start="29816">2</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46463" type="identity">
       <class id="sup" label="sup"/>
-      <span end="29831" id="17083276-25533" start="29830">6</span>
+      <span end="29831" id="17083276-25534" start="29830">6</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46465" type="identity">
       <class id="italic" label="italic"/>
-      <span end="30519" id="17083276-25535" start="30517">g,</span>
+      <span end="30519" id="17083276-25536" start="30517">g,</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46467" type="identity">
       <class id="section" label="section"/>
-      <span end="33210" id="17083276-25537" start="31567">Supporting Information
+      <span end="33210" id="17083276-25538" start="31567">Supporting Information
 
 Figure S1
 
@@ -361,13 +361,13 @@ Click here for additional data file.</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46470" type="identity">
       <class id="section" label="section"/>
-      <span end="33660" id="17083276-25539" start="33212">Acknowledgements
+      <span end="33660" id="17083276-25540" start="33212">Acknowledgements
 
 We thank E. Heard and S. Khochbin for critical reading and suggestions; S. Jounier and H. Humbertclaude for cell culture; J. Mitja, S. Thessier, and J. C. Robillard for animal care; M. Vernet for AT-1 cells; K. Nacerddine for the PML antibody; N. Gilbert and T. Bestor for probes; G. Hamard for advice on blastocyst injection; P. Le Baccon for help on image analysis; and C. Mann, A. Sentenac, and E. Moustacchi for their support.</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46473" type="identity">
       <class id="section" label="section"/>
-      <span end="34083" id="17083276-25541" start="33662">Abbreviations
+      <span end="34083" id="17083276-25542" start="33662">Abbreviations
 
 BrdU - bromodeoxyuridine
 
@@ -397,7 +397,7 @@ siRNA - short interfering RNA</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46476" type="identity">
       <class id="section" label="section"/>
-      <span end="43188" id="17083276-25543" start="34085">Figures and Tables
+      <span end="43188" id="17083276-25544" start="34085">Figures and Tables
 
 Figure 1
 
@@ -473,7 +473,7 @@ Alteration of Epigenetic Marking at Pericentric Heterochromatin in p150CAF-1-Dep
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46479" type="identity">
       <class id="section" label="section"/>
-      <span end="36665" id="17083276-25545" start="34105">Figure 1
+      <span end="36665" id="17083276-25546" start="34105">Figure 1
 
 Loss of p150CAF-1 Function Leads to Early Developmental Arrest and Alteration of Heterochromatin Organization
 
@@ -489,83 +489,83 @@ Loss of p150CAF-1 Function Leads to Early Developmental Arrest and Alteration of
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46482" type="identity">
       <class id="italic" label="italic"/>
-      <span end="34250" id="17083276-25547" start="34244">Chaf1a</span>
+      <span end="34250" id="17083276-25548" start="34244">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46484" type="identity">
       <class id="sup" label="sup"/>
-      <span end="34253" id="17083276-25549" start="34250">+/−</span>
+      <span end="34253" id="17083276-25550" start="34250">+/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46486" type="identity">
       <class id="italic" label="italic"/>
-      <span end="34253" id="17083276-25551" start="34252">−</span>
+      <span end="34253" id="17083276-25552" start="34252">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46488" type="identity">
       <class id="italic" label="italic"/>
-      <span end="34466" id="17083276-25553" start="34460">Chaf1a</span>
+      <span end="34466" id="17083276-25554" start="34460">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46490" type="identity">
       <class id="italic" label="italic"/>
-      <span end="34608" id="17083276-25555" start="34602">Chaf1a</span>
+      <span end="34608" id="17083276-25556" start="34602">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46492" type="identity">
       <class id="italic" label="italic"/>
-      <span end="34822" id="17083276-25557" start="34819">Sca</span>
+      <span end="34822" id="17083276-25558" start="34819">Sca</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46494" type="identity">
       <class id="italic" label="italic"/>
-      <span end="34912" id="17083276-25559" start="34906">Chaf1a</span>
+      <span end="34912" id="17083276-25560" start="34906">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46496" type="identity">
       <class id="sup" label="sup"/>
-      <span end="34915" id="17083276-25561" start="34912">−/−</span>
+      <span end="34915" id="17083276-25562" start="34912">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46498" type="identity">
       <class id="italic" label="italic"/>
-      <span end="34915" id="17083276-25563" start="34914">−</span>
+      <span end="34915" id="17083276-25564" start="34914">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46500" type="identity">
       <class id="italic" label="italic"/>
-      <span end="35181" id="17083276-25565" start="35175">Chaf1a</span>
+      <span end="35181" id="17083276-25566" start="35175">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46502" type="identity">
       <class id="sup" label="sup"/>
-      <span end="35184" id="17083276-25567" start="35181">+/−</span>
+      <span end="35184" id="17083276-25568" start="35181">+/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46504" type="identity">
       <class id="italic" label="italic"/>
-      <span end="35184" id="17083276-25569" start="35183">−</span>
+      <span end="35184" id="17083276-25570" start="35183">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46506" type="identity">
       <class id="italic" label="italic"/>
-      <span end="35213" id="17083276-25571" start="35207">Chaf1a</span>
+      <span end="35213" id="17083276-25572" start="35207">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46508" type="identity">
       <class id="sup" label="sup"/>
-      <span end="35216" id="17083276-25573" start="35213">+/+</span>
+      <span end="35216" id="17083276-25574" start="35213">+/+</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46510" type="identity">
       <class id="italic" label="italic"/>
-      <span end="35227" id="17083276-25575" start="35221">Chaf1a</span>
+      <span end="35227" id="17083276-25576" start="35221">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46512" type="identity">
       <class id="sup" label="sup"/>
-      <span end="35230" id="17083276-25577" start="35227">+/−</span>
+      <span end="35230" id="17083276-25578" start="35227">+/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46514" type="identity">
       <class id="italic" label="italic"/>
-      <span end="35230" id="17083276-25579" start="35229">−</span>
+      <span end="35230" id="17083276-25580" start="35229">−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46516" type="identity">
       <class id="italic" label="italic"/>
-      <span end="36032" id="17083276-25581" start="36026">Chaf1a</span>
+      <span end="36032" id="17083276-25582" start="36026">Chaf1a</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46518" type="identity">
       <class id="sup" label="sup"/>
-      <span end="36035" id="17083276-25583" start="36032">−/−</span>
+      <span end="36035" id="17083276-25584" start="36032">−/−</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46520" type="identity">
       <class id="section" label="section"/>
-      <span end="37942" id="17083276-25585" start="36667">Figure 2
+      <span end="37942" id="17083276-25586" start="36667">Figure 2
 
 Depletion of p150CAF-1 in ES Cells Results in a Severe Alteration of Heterochromatin Organization
 
@@ -579,7 +579,7 @@ Depletion of p150CAF-1 in ES Cells Results in a Severe Alteration of Heterochrom
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46523" type="identity">
       <class id="section" label="section"/>
-      <span end="39167" id="17083276-25587" start="37944">Figure 3
+      <span end="39167" id="17083276-25588" start="37944">Figure 3
 
 p150CAF-1 Depletion and Loss of Heterochromatin Organization Are Compatible with Active DNA Replication in ES Cells
 
@@ -591,7 +591,7 @@ p150CAF-1 Depletion and Loss of Heterochromatin Organization Are Compatible with
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46526" type="identity">
       <class id="section" label="section"/>
-      <span end="40894" id="17083276-25589" start="39169">Figure 4
+      <span end="40894" id="17083276-25590" start="39169">Figure 4
 
 Depletion of p150CAF-1 Leads to Loss of Clustering, Altered Localization, and Decondensation of Pericentric Heterochromatin Domains
 
@@ -605,7 +605,7 @@ Distribution of pericentric (red) and centric (green) domains was analyzed in th
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46529" type="identity">
       <class id="section" label="section"/>
-      <span end="41436" id="17083276-25591" start="40896">Figure 5
+      <span end="41436" id="17083276-25592" start="40896">Figure 5
 
 Nucleosomal Organization Is Not Altered in p150CAF-1-Depleted ES Cells
 
@@ -615,11 +615,11 @@ Nuclei were prepared from ES cells transfected with control or p150CAF-1 siRNA v
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46532" type="identity">
       <class id="sup" label="sup"/>
-      <span end="41387" id="17083276-25593" start="41385">32</span>
+      <span end="41387" id="17083276-25594" start="41385">32</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46534" type="identity">
       <class id="section" label="section"/>
-      <span end="41845" id="17083276-25595" start="41438">Figure 6
+      <span end="41845" id="17083276-25596" start="41438">Figure 6
 
 DNA CpG Methylation at Pericentric Heterochromatin Is Not Altered in p150CAF-1-Depleted ES Cells
 
@@ -627,11 +627,11 @@ Total DNA was isolated from cells transfected with a control or the p150CAF-1 si
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46537" type="identity">
       <class id="italic" label="italic"/>
-      <span end="41658" id="17083276-25597" start="41655">Mae</span>
+      <span end="41658" id="17083276-25598" start="41655">Mae</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46539" type="identity">
       <class id="section" label="section"/>
-      <span end="43188" id="17083276-25599" start="41847">Figure 7
+      <span end="43188" id="17083276-25600" start="41847">Figure 7
 
 Alteration of Epigenetic Marking at Pericentric Heterochromatin in p150CAF-1-Depleted Cells
 
@@ -643,7 +643,7 @@ Alteration of Epigenetic Marking at Pericentric Heterochromatin in p150CAF-1-Dep
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46542" type="identity">
       <class id="section" label="section"/>
-      <span end="44256" id="17083276-25601" start="43190">Footnotes
+      <span end="44256" id="17083276-25602" start="43190">Footnotes
 
 ¤ Current address: Unité de Génétique Fonctionnelle de la Souris, Centre National de la Recherche Scientifique URA 2578, Institut Pasteur, Paris, France
 
@@ -657,15 +657,15 @@ Funding. This study was funded by grants from the Association Pour la Recherche 
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46545" type="identity">
       <class id="bold" label="bold"/>
-      <span end="43375" id="17083276-25603" start="43355">Competing interests.</span>
+      <span end="43375" id="17083276-25604" start="43355">Competing interests.</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46547" type="identity">
       <class id="bold" label="bold"/>
-      <span end="43594" id="17083276-25605" start="43573">Author contributions.</span>
+      <span end="43594" id="17083276-25606" start="43573">Author contributions.</span>
     </annotation>
     <annotation annotator="CCP Colorado Computational Pharmacology, UC Denver" id="formatting_Instance_46549" type="identity">
       <class id="bold" label="bold"/>
-      <span end="43780" id="17083276-25607" start="43772">Funding.</span>
+      <span end="43780" id="17083276-25608" start="43772">Funding.</span>
     </annotation>
     <graph-space id="Old Knowtator Relations"/>
   </document>

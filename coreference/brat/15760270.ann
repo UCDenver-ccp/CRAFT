@@ -1,5 +1,5 @@
-T0	Noun_Phrase 0 6	PGC-1?
-T1	Noun_Phrase 0 17	PGC-1? Deficiency
+T0	Noun_Phrase 0 6	PGC-1α
+T1	Noun_Phrase 0 17	PGC-1α Deficiency
 T2	Noun_Phrase 69 75	Muscle
 T3	IDENTITY_chain 69 75	Muscle
 T4	Noun_Phrase 69 87	Muscle Dysfunction
@@ -7,18 +7,18 @@ T5	Noun_Phrase 89 104	Abnormal Weight
 T6	IDENTITY_chain 89 104	Abnormal Weight
 T7	Noun_Phrase 89 112	Abnormal Weight Control
 T8	Noun_Phrase 117 134	Hepatic Steatosis
-T9	Noun_Phrase 146 264	The gene encoding the transcriptional coactivator peroxisome proliferator-activated receptor-? coactivator-1? (PGC-1?)
-T10	Noun_Phrase 164 255	the transcriptional coactivator peroxisome proliferator-activated receptor-? coactivator-1?
-T11	APPOS_relation 164 255	the transcriptional coactivator peroxisome proliferator-activated receptor-? coactivator-1?
-T12	Noun_Phrase 257 263	PGC-1?
+T9	Noun_Phrase 146 264	The gene encoding the transcriptional coactivator peroxisome proliferator-activated receptor-γ coactivator-1α (PGC-1α)
+T10	Noun_Phrase 164 255	the transcriptional coactivator peroxisome proliferator-activated receptor-γ coactivator-1α
+T11	APPOS_relation 164 255	the transcriptional coactivator peroxisome proliferator-activated receptor-γ coactivator-1α
+T12	Noun_Phrase 257 263	PGC-1α
 T13	Noun_Phrase 281 285	mice
 T14	IDENTITY_chain 281 285	mice
-T15	APPOS_relation 287 298	PGC-1? null
-T16	IDENTITY_chain 287 298	PGC-1? null
-T17	Noun_Phrase 287 298	PGC-1? null
-T18	Noun_Phrase 287 315	PGC-1? null (PGC-1??/?) mice
-T19	IDENTITY_chain 287 315	PGC-1? null (PGC-1??/?) mice
-T20	Noun_Phrase 300 309	PGC-1??/?
+T15	APPOS_relation 287 298	PGC-1α null
+T16	IDENTITY_chain 287 298	PGC-1α null
+T17	Noun_Phrase 287 298	PGC-1α null
+T18	Noun_Phrase 287 315	PGC-1α null (PGC-1α−/−) mice
+T19	IDENTITY_chain 287 315	PGC-1α null (PGC-1α−/−) mice
+T20	Noun_Phrase 300 309	PGC-1α−/−
 T21	Noun_Phrase 474 479	heart
 T22	Noun_Phrase 474 511	heart and slow-twitch skeletal muscle
 T23	APPOS_relation 474 511	heart and slow-twitch skeletal muscle
@@ -26,33 +26,33 @@ T24	Noun_Phrase 484 511	slow-twitch skeletal muscle
 T25	Noun_Phrase 513 558	organs with high mitochondrial energy demands
 T26	Noun_Phrase 525 558	high mitochondrial energy demands
 T27	IDENTITY_chain 525 558	high mitochondrial energy demands
-T28	Noun_Phrase 574 583	PGC-1??/?
-T29	Noun_Phrase 574 588	PGC-1??/? mice
+T28	Noun_Phrase 574 583	PGC-1α−/−
+T29	Noun_Phrase 574 588	PGC-1α−/− mice
 T30	Noun_Phrase 595 598	age
-T31	Noun_Phrase 600 618	the PGC-1??/? mice
-T32	Noun_Phrase 604 613	PGC-1??/?
+T31	Noun_Phrase 600 618	the PGC-1α−/− mice
+T32	Noun_Phrase 604 613	PGC-1α−/−
 T33	Noun_Phrase 627 656	abnormally increased body fat
 T34	APPOS_relation 627 656	abnormally increased body fat
 T35	Noun_Phrase 648 652	body
 T36	IDENTITY_chain 648 652	body
 T37	Noun_Phrase 658 700	a phenotype that is more severe in females
 T38	Noun_Phrase 702 715;727 747	Mitochondrial respiratory capacity
-T39	Noun_Phrase 765 810	slow-twitch skeletal muscle of PGC-1??/? mice
-T40	IDENTITY_chain 765 810	slow-twitch skeletal muscle of PGC-1??/? mice
-T41	Noun_Phrase 796 805	PGC-1??/?
-T42	Noun_Phrase 796 810	PGC-1??/? mice
+T39	Noun_Phrase 765 810	slow-twitch skeletal muscle of PGC-1α−/− mice
+T40	IDENTITY_chain 765 810	slow-twitch skeletal muscle of PGC-1α−/− mice
+T41	Noun_Phrase 796 805	PGC-1α−/−
+T42	Noun_Phrase 796 810	PGC-1α−/− mice
 T43	Noun_Phrase 854 862	exercise
 T44	Noun_Phrase 854 871	exercise capacity
 T45	IDENTITY_chain 854 871	exercise capacity
-T46	Noun_Phrase 873 882	PGC-1??/?
-T47	Noun_Phrase 873 887	PGC-1??/? mice
+T46	Noun_Phrase 873 882	PGC-1α−/−
+T47	Noun_Phrase 873 887	PGC-1α−/− mice
 T48	Noun_Phrase 919 935	cardiac function
 T49	IDENTITY_chain 919 935	cardiac function
 T50	Noun_Phrase 975 980	heart
 T51	Noun_Phrase 975 985	heart rate
 T52	IDENTITY_chain 975 985	heart rate
-T53	Noun_Phrase 987 1005	The PGC-1??/? mice
-T54	Noun_Phrase 991 1000	PGC-1??/?
+T53	Noun_Phrase 987 1005	The PGC-1α−/− mice
+T54	Noun_Phrase 991 1000	PGC-1α−/−
 T55	Noun_Phrase 1030 1051	core body temperature
 T56	IDENTITY_chain 1030 1051	core body temperature
 T57	Noun_Phrase 1035 1039	body
@@ -62,19 +62,19 @@ T60	Noun_Phrase 1074 1078	cold
 T61	IDENTITY_chain 1074 1078	cold
 T62	Noun_Phrase 1139 1160	short-term starvation
 T63	IDENTITY_chain 1139 1160	short-term starvation
-T64	Noun_Phrase 1162 1171	PGC-1??/?
-T65	Noun_Phrase 1162 1176	PGC-1??/? mice
-T66	Noun_Phrase 1332 1341	PGC-1??/?
-T67	Noun_Phrase 1332 1346	PGC-1??/? mice
+T64	Noun_Phrase 1162 1171	PGC-1α−/−
+T65	Noun_Phrase 1162 1176	PGC-1α−/− mice
+T66	Noun_Phrase 1332 1341	PGC-1α−/−
+T67	Noun_Phrase 1332 1346	PGC-1α−/− mice
 T68	Noun_Phrase 1372 1403	diet-induced insulin resistance
 T69	IDENTITY_chain 1372 1403	diet-induced insulin resistance
 T70	Noun_Phrase 1409 1427	wild-type controls
-T71	Noun_Phrase 1471 1515	the central nervous system of PGC-1??/? mice
-T72	IDENTITY_chain 1471 1515	the central nervous system of PGC-1??/? mice
-T73	Noun_Phrase 1501 1510	PGC-1??/?
-T74	Noun_Phrase 1501 1515	PGC-1??/? mice
-T75	Noun_Phrase 1548 1554	PGC-1?
-T76	IDENTITY_chain 1548 1554	PGC-1?
+T71	Noun_Phrase 1471 1515	the central nervous system of PGC-1α−/− mice
+T72	IDENTITY_chain 1471 1515	the central nervous system of PGC-1α−/− mice
+T73	Noun_Phrase 1501 1510	PGC-1α−/−
+T74	Noun_Phrase 1501 1515	PGC-1α−/− mice
+T75	Noun_Phrase 1548 1554	PGC-1α
+T76	IDENTITY_chain 1548 1554	PGC-1α
 T77	Noun_Phrase 1616 1655	physiologic stressors of postnatal life
 T78	IDENTITY_chain 1616 1655	physiologic stressors of postnatal life
 T79	Noun_Phrase 1641 1655	postnatal life
@@ -87,14 +87,14 @@ T85	Noun_Phrase 2006 2019;2031 2041	mitochondrial metabolism
 T86	Noun_Phrase 2006 2019;2047 2060	mitochondrial proliferation
 T87	IDENTITY_chain 2006 2019;2047 2060	mitochondrial proliferation
 T88	Noun_Phrase 2096 2125	a transcriptional coactivator
-T89	Noun_Phrase 2127 2171	peroxisome proliferator-activated receptor-?
-T90	APPOS_relation 2127 2171	peroxisome proliferator-activated receptor-?
-T91	Noun_Phrase 2127 2194	peroxisome proliferator-activated receptor-? (PPAR?) coactivator-1?
-T92	APPOS_relation 2127 2194	peroxisome proliferator-activated receptor-? (PPAR?) coactivator-1?
-T93	Noun_Phrase 2127 2203	peroxisome proliferator-activated receptor-? (PPAR?) coactivator-1? (PGC-1?)
-T94	APPOS_relation 2127 2203	peroxisome proliferator-activated receptor-? (PPAR?) coactivator-1? (PGC-1?)
-T95	Noun_Phrase 2173 2178	PPAR?
-T96	Noun_Phrase 2196 2202	PGC-1?
+T89	Noun_Phrase 2127 2171	peroxisome proliferator-activated receptor-γ
+T90	APPOS_relation 2127 2171	peroxisome proliferator-activated receptor-γ
+T91	Noun_Phrase 2127 2194	peroxisome proliferator-activated receptor-γ (PPARγ) coactivator-1α
+T92	APPOS_relation 2127 2194	peroxisome proliferator-activated receptor-γ (PPARγ) coactivator-1α
+T93	Noun_Phrase 2127 2203	peroxisome proliferator-activated receptor-γ (PPARγ) coactivator-1α (PGC-1α)
+T94	APPOS_relation 2127 2203	peroxisome proliferator-activated receptor-γ (PPARγ) coactivator-1α (PGC-1α)
+T95	Noun_Phrase 2173 2178	PPARγ
+T96	Noun_Phrase 2196 2202	PGC-1α
 T97	Noun_Phrase 2303 2318	cellular energy
 T98	IDENTITY_chain 2303 2318	cellular energy
 T99	Noun_Phrase 2303 2329	cellular energy metabolism
@@ -104,26 +104,26 @@ T102	Noun_Phrase 2341 2363	mitochondrial function
 T103	IDENTITY_chain 2341 2363	mitochondrial function
 T104	Noun_Phrase 2341 2378	mitochondrial function and biogenesis
 T105	IDENTITY_chain 2341 2378	mitochondrial function and biogenesis
-T106	Noun_Phrase 2386 2392	PGC-1?
-T107	Noun_Phrase 2491 2528	the adipogenic nuclear receptor PPAR?
+T106	Noun_Phrase 2386 2392	PGC-1α
+T107	Noun_Phrase 2491 2528	the adipogenic nuclear receptor PPARγ
 T108	Noun_Phrase 2563 2575	PGC-1 family
 T109	IDENTITY_chain 2563 2575	PGC-1 family
 T110	IDENTITY_chain 2601 2626	PGC-1 related coactivator
 T111	Noun_Phrase 2601 2626	PGC-1 related coactivator
 T112	APPOS_relation 2601 2626	PGC-1 related coactivator
-T113	Noun_Phrase 2601 2647	PGC-1 related coactivator (PRC) [3] and PGC-1?
+T113	Noun_Phrase 2601 2647	PGC-1 related coactivator (PRC) [3] and PGC-1β
 T114	Noun_Phrase 2628 2631	PRC
-T115	Noun_Phrase 2641 2647	PGC-1?
-T116	IDENTITY_chain 2641 2647	PGC-1?
-T117	Noun_Phrase 2655 2661	PGC-1?
+T115	Noun_Phrase 2641 2647	PGC-1β
+T116	IDENTITY_chain 2641 2647	PGC-1β
+T117	Noun_Phrase 2655 2661	PGC-1α
 T118	Noun_Phrase 2778 2793	cellular energy
 T119	Noun_Phrase 2778 2804	cellular energy metabolism
-T120	Noun_Phrase 2810 2816	PGC-1?
+T120	Noun_Phrase 2810 2816	PGC-1α
 T121	Noun_Phrase 2861 2863	it
 T122	Noun_Phrase 2993 3010;3019 3029	mitochondrial ATP production
 T123	Noun_Phrase 2993 3010	mitochondrial ATP
 T124	IDENTITY_chain 2993 3010	mitochondrial ATP
-T125	Noun_Phrase 3039 3045	PGC-1?
+T125	Noun_Phrase 3039 3045	PGC-1α
 T126	IDENTITY_chain 3061 3081	brown adipose tissue
 T127	Noun_Phrase 3061 3081	brown adipose tissue
 T128	APPOS_relation 3061 3081	brown adipose tissue
@@ -134,29 +134,29 @@ T132	Noun_Phrase 3096 3123	slow-twitch skeletal muscle
 T133	IDENTITY_chain 3096 3123	slow-twitch skeletal muscle
 T134	Noun_Phrase 3129 3135	kidney
 T135	IDENTITY_chain 3129 3135	kidney
-T136	Noun_Phrase 3208 3232	the gene encoding PGC-1?
-T137	IDENTITY_chain 3208 3232	the gene encoding PGC-1?
-T138	Noun_Phrase 3226 3232	PGC-1?
+T136	Noun_Phrase 3208 3232	the gene encoding PGC-1α
+T137	IDENTITY_chain 3208 3232	the gene encoding PGC-1α
+T138	Noun_Phrase 3226 3232	PGC-1α
 T139	Noun_Phrase 3255 3268	cold exposure
-T140	Noun_Phrase 3369 3375	PGC-1?
+T140	Noun_Phrase 3369 3375	PGC-1α
 T141	Noun_Phrase 3418 3424	energy
 T142	IDENTITY_chain 3418 3424	energy
 T143	Noun_Phrase 3418 3435	energy metabolism
 T144	IDENTITY_chain 3418 3435	energy metabolism
-T145	Noun_Phrase 3527 3533	PGC-1?
+T145	Noun_Phrase 3527 3533	PGC-1α
 T146	Noun_Phrase 3559 3583	mitochondrial biogenesis
 T147	IDENTITY_chain 3559 3583	mitochondrial biogenesis
 T148	Noun_Phrase 3597 3631	mitochondrial respiratory capacity
 T149	IDENTITY_chain 3597 3631	mitochondrial respiratory capacity
-T150	Noun_Phrase 3640 3646	PGC-1?
+T150	Noun_Phrase 3640 3646	PGC-1α
 T151	IDENTITY_chain 3678 3712	mitochondrial uncoupling protein-1
 T152	Noun_Phrase 3678 3712	mitochondrial uncoupling protein-1
 T153	APPOS_relation 3678 3712	mitochondrial uncoupling protein-1
 T154	Noun_Phrase 3714 3719	UCP-1
 T155	Noun_Phrase 3724 3727	BAT
-T156	Noun_Phrase 3754 3789	the nuclear hormone receptors PPAR?
-T157	IDENTITY_chain 3754 3789	the nuclear hormone receptors PPAR?
-T158	Noun_Phrase 3916 3922	PGC-1?
+T156	Noun_Phrase 3754 3789	the nuclear hormone receptors PPARγ
+T157	IDENTITY_chain 3754 3789	the nuclear hormone receptors PPARγ
+T158	Noun_Phrase 3916 3922	PGC-1α
 T159	Noun_Phrase 3933 3957	mitochondrial biogenesis
 T160	Noun_Phrase 4016 4043;4050 4051	nuclear respiratory factors 2
 T161	APPOS_relation 4016 4043;4050 4051	nuclear respiratory factors 2
@@ -174,23 +174,23 @@ T172	Noun_Phrase 4150 4167	mitochondrial DNA
 T173	IDENTITY_chain 4150 4167	mitochondrial DNA
 T174	Noun_Phrase 4278 4293	transgenic mice
 T175	IDENTITY_chain 4278 4293	transgenic mice
-T176	Noun_Phrase 4335 4341	PGC-1?
+T176	Noun_Phrase 4335 4341	PGC-1α
 T177	Noun_Phrase 4351 4375	mitochondrial biogenesis
-T178	Noun_Phrase 4414 4420	PGC-1?
+T178	Noun_Phrase 4414 4420	PGC-1α
 T179	Noun_Phrase 4443 4458	transgenic mice
 T180	Noun_Phrase 4468 4495	mitochondrial proliferation
 T181	Noun_Phrase 4517 4553;4570 4583	mitochondrial-rich type I, oxidative muscle fibers
 T182	APPOS_relation 4517 4553;4570 4583	mitochondrial-rich type I, oxidative muscle fibers
-T183	Noun_Phrase 4555 4568	�slow-twitch�
-T184	Noun_Phrase 4632 4638	PGC-1?
+T183	Noun_Phrase 4555 4568	“slow-twitch”
+T184	Noun_Phrase 4632 4638	PGC-1α
 T185	Noun_Phrase 4662 4686	mitochondrial biogenesis
-T186	Noun_Phrase 4721 4727	PGC-1?
+T186	Noun_Phrase 4721 4727	PGC-1α
 T187	Noun_Phrase 4758 4773	systemic energy
 T188	IDENTITY_chain 4758 4773	systemic energy
-T189	Noun_Phrase 4786 4792	PGC-1?
+T189	Noun_Phrase 4786 4792	PGC-1α
 T190	Noun_Phrase 4875 4889	Recent studies
 T191	IDENTITY_chain 4875 4889	Recent studies
-T192	Noun_Phrase 4928 4934	PGC-1?
+T192	Noun_Phrase 4928 4934	PGC-1α
 T193	Noun_Phrase 5014 5021	insulin
 T194	IDENTITY_chain 5014 5021	insulin
 T195	Noun_Phrase 5014 5032	insulin resistance
@@ -202,36 +202,36 @@ T200	IDENTITY_chain 5037 5045	diabetes
 T201	Noun_Phrase 5170 5177	obesity
 T202	IDENTITY_chain 5170 5177	obesity
 T203	Noun_Phrase 5197 5205	diabetes
-T204	Noun_Phrase 5308 5314	PGC-1?
+T204	Noun_Phrase 5308 5314	PGC-1α
 T205	Noun_Phrase 5340 5356	postnatal energy
 T206	IDENTITY_chain 5340 5356	postnatal energy
-T207	Noun_Phrase 5395 5401	PGC-1?
+T207	Noun_Phrase 5395 5401	PGC-1α
 T208	Noun_Phrase 5406 5412	energy
 T209	Noun_Phrase 5436 5460	mitochondrial biogenesis
 T210	Noun_Phrase 5556 5558	we
 T211	IDENTITY_chain 5556 5558	we
-T212	Noun_Phrase 5594 5640	mice with targeted deletion of the PGC-1? gene
-T213	Noun_Phrase 5625 5640	the PGC-1? gene
-T214	Noun_Phrase 5629 5635	PGC-1?
+T212	Noun_Phrase 5594 5640	mice with targeted deletion of the PGC-1α gene
+T213	Noun_Phrase 5625 5640	the PGC-1α gene
+T214	Noun_Phrase 5629 5635	PGC-1α
 T215	Noun_Phrase 5642 5645	Our
-T216	Noun_Phrase 5657 5666	PGC-1??/?
-T217	Noun_Phrase 5657 5671	PGC-1??/? mice
-T218	Noun_Phrase 5689 5695	PGC-1?
+T216	Noun_Phrase 5657 5666	PGC-1α−/−
+T217	Noun_Phrase 5657 5671	PGC-1α−/− mice
+T218	Noun_Phrase 5689 5695	PGC-1α
 T219	Noun_Phrase 5756 5780	mitochondrial biogenesis
 T220	Noun_Phrase 5791 5794	our
-T221	Noun_Phrase 5818 5840	the coactivator PGC-1?
+T221	Noun_Phrase 5818 5840	the coactivator PGC-1α
 T222	Noun_Phrase 5950 5990	physiologic stress during postnatal life
 T223	Noun_Phrase 5976 5990	postnatal life
-T224	Noun_Phrase 6016 6039	the PGC-1? Gene in Mice
-T225	Noun_Phrase 6020 6026	PGC-1?
+T224	Noun_Phrase 6016 6039	the PGC-1α Gene in Mice
+T225	Noun_Phrase 6020 6026	PGC-1α
 T226	Noun_Phrase 6035 6039	Mice
 T227	Noun_Phrase 6041 6079	A neomycin-based gene targeting vector
 T228	IDENTITY_chain 6041 6079	A neomycin-based gene targeting vector
-T229	Noun_Phrase 6104 6109;6116 6143	exons 5 of the murine PGC-1? gene
+T229	Noun_Phrase 6104 6109;6116 6143	exons 5 of the murine PGC-1α gene
 T230	Noun_Phrase 6104 6109	exons
 T231	IDENTITY_chain 6104 6109	exons
-T232	Noun_Phrase 6121 6143	the murine PGC-1? gene
-T233	IDENTITY_chain 6121 6143	the murine PGC-1? gene
+T232	Noun_Phrase 6121 6143	the murine PGC-1α gene
+T233	IDENTITY_chain 6121 6143	the murine PGC-1α gene
 T234	Noun_Phrase 6145 6164	The targeting event
 T235	IDENTITY_chain 6145 6164	The targeting event
 T236	Noun_Phrase 6212 6255	insertion of the remainder of the construct
@@ -260,10 +260,10 @@ T258	Noun_Phrase 6616 6619	PCR
 T259	IDENTITY_chain 6616 6619	PCR
 T260	Noun_Phrase 6621 6637	unpublished data
 T261	IDENTITY_chain 6621 6637	unpublished data
-T262	Noun_Phrase 6644 6655	PGC-1? gene
-T263	Noun_Phrase 6753 6758;6777 6794	heart in PGC-1??/? mice
-T264	Noun_Phrase 6780 6789	PGC-1??/?
-T265	Noun_Phrase 6780 6794	PGC-1??/? mice
+T262	Noun_Phrase 6644 6655	PGC-1α gene
+T263	Noun_Phrase 6753 6758;6777 6794	heart in PGC-1α−/− mice
+T264	Noun_Phrase 6780 6789	PGC-1α−/−
+T265	Noun_Phrase 6780 6794	PGC-1α−/− mice
 T266	Noun_Phrase 6796 6802	Figure
 T267	Noun_Phrase 6796 6805	Figure 1C
 T268	IDENTITY_chain 6796 6805	Figure 1C
@@ -275,114 +275,114 @@ T273	IDENTITY_chain 6898 6916	the gene targeting
 T274	Noun_Phrase 6902 6906	gene
 T275	IDENTITY_chain 6902 6906	gene
 T276	Noun_Phrase 6937 6940	PCR
-T277	Noun_Phrase 6990 7001	PGC-1? gene
-T278	Noun_Phrase 7028 7036	exon 5�6
-T279	IDENTITY_chain 7028 7036	exon 5�6
-T280	Noun_Phrase 7071 7080	PGC-1??/?
-T281	Noun_Phrase 7071 7085	PGC-1??/? mice
-T282	Noun_Phrase 7090 7109	the exon 5�3 border
-T283	IDENTITY_chain 7090 7109	the exon 5�3 border
-T284	Noun_Phrase 7094 7102	exon 5�3
-T285	IDENTITY_chain 7094 7102	exon 5�3
-T286	Noun_Phrase 7143 7161	the PGC-1??/? mice
-T287	Noun_Phrase 7147 7156	PGC-1??/?
-T288	Noun_Phrase 7168 7176	exon 5�6
+T277	Noun_Phrase 6990 7001	PGC-1α gene
+T278	Noun_Phrase 7028 7036	exon 5–6
+T279	IDENTITY_chain 7028 7036	exon 5–6
+T280	Noun_Phrase 7071 7080	PGC-1α−/−
+T281	Noun_Phrase 7071 7085	PGC-1α−/− mice
+T282	Noun_Phrase 7090 7109	the exon 5–3 border
+T283	IDENTITY_chain 7090 7109	the exon 5–3 border
+T284	Noun_Phrase 7094 7102	exon 5–3
+T285	IDENTITY_chain 7094 7102	exon 5–3
+T286	Noun_Phrase 7143 7161	the PGC-1α−/− mice
+T287	Noun_Phrase 7147 7156	PGC-1α−/−
+T288	Noun_Phrase 7168 7176	exon 5–6
 T289	Noun_Phrase 7219 7228	wild-type
 T290	APPOS_relation 7219 7228	wild-type
 T291	Noun_Phrase 7219 7233;7252 7256	wild-type (WT) mice
 T292	Noun_Phrase 7230 7232	WT
-T293	Noun_Phrase 7242 7251	PGC-1??/?
-T294	Noun_Phrase 7242 7256	PGC-1??/? mice
+T293	Noun_Phrase 7242 7251	PGC-1α−/−
+T294	Noun_Phrase 7242 7256	PGC-1α−/− mice
 T295	Noun_Phrase 7258 7264	Figure
 T296	Noun_Phrase 7258 7267	Figure 1D
 T297	IDENTITY_chain 7258 7267	Figure 1D
-T298	Noun_Phrase 7282 7302	the exon 5�3 product
-T299	Noun_Phrase 7286 7294	exon 5�3
-T300	Noun_Phrase 7323 7332	PGC-1??/?
-T301	Noun_Phrase 7323 7337	PGC-1??/? mice
+T298	Noun_Phrase 7282 7302	the exon 5–3 product
+T299	Noun_Phrase 7286 7294	exon 5–3
+T300	Noun_Phrase 7323 7332	PGC-1α−/−
+T301	Noun_Phrase 7323 7337	PGC-1α−/− mice
 T302	Noun_Phrase 7339 7345	Figure
 T303	Noun_Phrase 7339 7348	Figure 1D
-T304	Noun_Phrase 7351 7380	An exon 10�11 border amplicon
-T305	IDENTITY_chain 7351 7380	An exon 10�11 border amplicon
+T304	Noun_Phrase 7351 7380	An exon 10–11 border amplicon
+T305	IDENTITY_chain 7351 7380	An exon 10–11 border amplicon
 T306	Noun_Phrase 7354 7358	exon
 T307	Noun_Phrase 7409 7423	both genotypes
 T308	IDENTITY_chain 7409 7423	both genotypes
 T309	Noun_Phrase 7441 7443;7458 7462	WT mice
 T310	IDENTITY_chain 7441 7443;7458 7462	WT mice
-T311	Noun_Phrase 7448 7457	PGC-1??/?
-T312	Noun_Phrase 7448 7462	PGC-1??/? mice
-T313	Noun_Phrase 7494 7512	the PGC-1??/? mice
-T314	Noun_Phrase 7498 7507	PGC-1??/?
+T311	Noun_Phrase 7448 7457	PGC-1α−/−
+T312	Noun_Phrase 7448 7462	PGC-1α−/− mice
+T313	Noun_Phrase 7494 7512	the PGC-1α−/− mice
+T314	Noun_Phrase 7498 7507	PGC-1α−/−
 T315	Noun_Phrase 7530 7551	the mutant transcript
 T316	IDENTITY_chain 7530 7551	the mutant transcript
-T317	Noun_Phrase 7565 7579	PGC-1? protein
+T317	Noun_Phrase 7565 7579	PGC-1α protein
 T318	Noun_Phrase 7612 7618	Figure
 T319	Noun_Phrase 7612 7621	Figure 1E
 T320	IDENTITY_chain 7612 7621	Figure 1E
 T321	Noun_Phrase 7652 7668	unpublished data
-T322	Noun_Phrase 7691 7700	PGC-1??/?
+T322	Noun_Phrase 7691 7700	PGC-1α−/−
 T323	Noun_Phrase 7712 7728	basal conditions
 T324	IDENTITY_chain 7712 7728	basal conditions
 T325	Noun_Phrase 7747 7760	cold exposure
 T326	APPOS_relation 7747 7760	cold exposure
-T327	Noun_Phrase 7762 7830	a condition known to markedly induce the expression of PGC-1? in BAT
-T328	Noun_Phrase 7817 7823	PGC-1?
-T329	Noun_Phrase 7832 7862	Smaller mutant PGC-1? proteins
-T330	IDENTITY_chain 7832 7862	Smaller mutant PGC-1? proteins
+T327	Noun_Phrase 7762 7830	a condition known to markedly induce the expression of PGC-1α in BAT
+T328	Noun_Phrase 7817 7823	PGC-1α
+T329	Noun_Phrase 7832 7862	Smaller mutant PGC-1α proteins
+T330	IDENTITY_chain 7832 7862	Smaller mutant PGC-1α proteins
 T331	Noun_Phrase 7889 7901	Western blot
 T332	IDENTITY_chain 7889 7901	Western blot
 T333	Noun_Phrase 7912 7928	unpublished data
 T334	Noun_Phrase 7972 8008	the other known PGC-1 family members
 T335	Noun_Phrase 7988 8000	PGC-1 family
-T336	Noun_Phrase 8010 8016	PGC-1?
-T337	Noun_Phrase 8010 8024	PGC-1? and PRC
-T338	APPOS_relation 8010 8024	PGC-1? and PRC
-T339	IDENTITY_chain 8010 8024	PGC-1? and PRC
+T336	Noun_Phrase 8010 8016	PGC-1β
+T337	Noun_Phrase 8010 8024	PGC-1β and PRC
+T338	APPOS_relation 8010 8024	PGC-1β and PRC
+T339	IDENTITY_chain 8010 8024	PGC-1β and PRC
 T340	Noun_Phrase 8021 8024	PRC
-T341	Noun_Phrase 8059 8082	heart of PGC-1??/? mice
-T342	IDENTITY_chain 8059 8082	heart of PGC-1??/? mice
-T343	Noun_Phrase 8068 8077	PGC-1??/?
+T341	Noun_Phrase 8059 8082	heart of PGC-1α−/− mice
+T342	IDENTITY_chain 8059 8082	heart of PGC-1α−/− mice
+T343	Noun_Phrase 8068 8077	PGC-1α−/−
 T344	Noun_Phrase 8084 8090	Figure
 T345	Noun_Phrase 8084 8093	Figure 1C
 T346	Noun_Phrase 8158 8172	gene targeting
-T347	Noun_Phrase 8193 8204	PGC-1? null
-T348	Noun_Phrase 8241 8259	the PGC-1??/? Mice
-T349	Noun_Phrase 8245 8254	PGC-1??/?
+T347	Noun_Phrase 8193 8204	PGC-1α null
+T348	Noun_Phrase 8241 8259	the PGC-1α−/− Mice
+T349	Noun_Phrase 8245 8254	PGC-1α−/−
 T350	Noun_Phrase 8261 8291	Age- and Sex-Dependent Obesity
 T351	Noun_Phrase 8293 8305	Heterozygous
-T352	Noun_Phrase 8307 8316	PGC-1?+/?
-T353	APPOS_relation 8307 8316	PGC-1?+/?
-T354	IDENTITY_chain 8307 8316	PGC-1?+/?
-T355	Noun_Phrase 8345 8354	PGC-1??/?
-T356	Noun_Phrase 8345 8364	PGC-1??/? offspring
-T357	IDENTITY_chain 8345 8364	PGC-1??/? offspring
+T352	Noun_Phrase 8307 8316	PGC-1α+/−
+T353	APPOS_relation 8307 8316	PGC-1α+/−
+T354	IDENTITY_chain 8307 8316	PGC-1α+/−
+T355	Noun_Phrase 8345 8354	PGC-1α−/−
+T356	Noun_Phrase 8345 8364	PGC-1α−/− offspring
+T357	IDENTITY_chain 8345 8364	PGC-1α−/− offspring
 T358	Noun_Phrase 8398 8411	the offspring
 T359	IDENTITY_chain 8398 8411	the offspring
 T360	Noun_Phrase 8464 8480	unpublished data
 T361	Noun_Phrase 8504 8517	the offspring
-T362	Noun_Phrase 8541 8550	PGC-1?+/?
-T363	Noun_Phrase 8555 8564	PGC-1??/?
-T364	Noun_Phrase 8555 8574	PGC-1??/? offspring
+T362	Noun_Phrase 8541 8550	PGC-1α+/−
+T363	Noun_Phrase 8555 8564	PGC-1α−/−
+T364	Noun_Phrase 8555 8574	PGC-1α−/− offspring
 T365	Noun_Phrase 8631 8636	birth
 T366	Noun_Phrase 8675 8679	body
-T367	Noun_Phrase 8689 8693;8705 8719	male PGC-1??/? mice
-T368	IDENTITY_chain 8689 8693;8705 8719	male PGC-1??/? mice
-T369	Noun_Phrase 8689 8719	male and female PGC-1??/? mice
-T370	IDENTITY_chain 8689 8719	male and female PGC-1??/? mice
-T371	Noun_Phrase 8698 8719	female PGC-1??/? mice
-T372	IDENTITY_chain 8698 8719	female PGC-1??/? mice
-T373	Noun_Phrase 8732 8765	sex-matched PGC-1?+/+ littermates
-T374	IDENTITY_chain 8732 8765	sex-matched PGC-1?+/+ littermates
+T367	Noun_Phrase 8689 8693;8705 8719	male PGC-1α−/− mice
+T368	IDENTITY_chain 8689 8693;8705 8719	male PGC-1α−/− mice
+T369	Noun_Phrase 8689 8719	male and female PGC-1α−/− mice
+T370	IDENTITY_chain 8689 8719	male and female PGC-1α−/− mice
+T371	Noun_Phrase 8698 8719	female PGC-1α−/− mice
+T372	IDENTITY_chain 8698 8719	female PGC-1α−/− mice
+T373	Noun_Phrase 8732 8765	sex-matched PGC-1α+/+ littermates
+T374	IDENTITY_chain 8732 8765	sex-matched PGC-1α+/+ littermates
 T375	Noun_Phrase 8767 8773	Figure
 T376	Noun_Phrase 8767 8775	Figure 2
 T377	IDENTITY_chain 8767 8775	Figure 2
 T378	Noun_Phrase 8782 8788	weight
 T379	IDENTITY_chain 8782 8788	weight
-T380	Noun_Phrase 8807 8816	PGC-1??/?
-T381	Noun_Phrase 8821 8830	PGC-1?+/+
-T382	IDENTITY_chain 8821 8830	PGC-1?+/+
-T383	Noun_Phrase 8821 8842	PGC-1?+/+ littermates
-T384	IDENTITY_chain 8821 8842	PGC-1?+/+ littermates
+T380	Noun_Phrase 8807 8816	PGC-1α−/−
+T381	Noun_Phrase 8821 8830	PGC-1α+/+
+T382	IDENTITY_chain 8821 8830	PGC-1α+/+
+T383	Noun_Phrase 8821 8842	PGC-1α+/+ littermates
+T384	IDENTITY_chain 8821 8842	PGC-1α+/+ littermates
 T385	Noun_Phrase 8858 8869	3 wk of age
 T386	IDENTITY_chain 8858 8869	3 wk of age
 T387	Noun_Phrase 8866 8869	age
@@ -395,23 +395,23 @@ T393	IDENTITY_chain 8886 8898	18 wk of age
 T394	Noun_Phrase 8895 8898	age
 T395	Noun_Phrase 8900 8911	body weight
 T396	IDENTITY_chain 8900 8911	body weight
-T397	Noun_Phrase 8954 8958;8970 8984	male PGC-1??/? mice
-T398	Noun_Phrase 8954 8984	male and female PGC-1??/? mice
-T399	Noun_Phrase 8963 8984	female PGC-1??/? mice
-T400	Noun_Phrase 8997 9027	sex-matched PGC-1?+/+ controls
+T397	Noun_Phrase 8954 8958;8970 8984	male PGC-1α−/− mice
+T398	Noun_Phrase 8954 8984	male and female PGC-1α−/− mice
+T399	Noun_Phrase 8963 8984	female PGC-1α−/− mice
+T400	Noun_Phrase 8997 9027	sex-matched PGC-1α+/+ controls
 T401	Noun_Phrase 9029 9035	Figure
 T402	Noun_Phrase 9029 9038	Figure 2A
 T403	Noun_Phrase 9046 9052	weight
-T404	Noun_Phrase 9089 9126	female PGC-1??/? mice at 24 wk of age
-T405	IDENTITY_chain 9089 9126	female PGC-1??/? mice at 24 wk of age
+T404	Noun_Phrase 9089 9126	female PGC-1α−/− mice at 24 wk of age
+T405	IDENTITY_chain 9089 9126	female PGC-1α−/− mice at 24 wk of age
 T406	Noun_Phrase 9114 9126	24 wk of age
 T407	IDENTITY_chain 9114 9126	24 wk of age
 T408	Noun_Phrase 9123 9126	age
 T409	Noun_Phrase 9128 9134	Figure
 T410	Noun_Phrase 9128 9137	Figure 2A
 T411	Noun_Phrase 9144 9159	abnormal weight
-T412	Noun_Phrase 9168 9177	PGC-1??/?
-T413	Noun_Phrase 9168 9182	PGC-1??/? mice
+T412	Noun_Phrase 9168 9177	PGC-1α−/−
+T413	Noun_Phrase 9168 9182	PGC-1α−/− mice
 T414	Noun_Phrase 9222 9226	food
 T415	Noun_Phrase 9222 9233	food intake
 T416	IDENTITY_chain 9222 9233	food intake
@@ -426,7 +426,7 @@ T424	Noun_Phrase 9358 9386	dual-energy X-ray absorption
 T425	APPOS_relation 9358 9386	dual-energy X-ray absorption
 T426	IDENTITY_chain 9358 9386	dual-energy X-ray absorption
 T427	Noun_Phrase 9388 9392	DEXA
-T428	Noun_Phrase 9418 9449	24-wk-old female PGC-1??/? mice
+T428	Noun_Phrase 9418 9449	24-wk-old female PGC-1α−/− mice
 T429	Noun_Phrase 9525 9536	body weight
 T430	Noun_Phrase 9588 9592	body
 T431	Noun_Phrase 9598 9604	Figure
@@ -454,9 +454,9 @@ T452	Noun_Phrase 9974 10005	mitochondrial energy metabolism
 T453	IDENTITY_chain 9974 10005	mitochondrial energy metabolism
 T454	Noun_Phrase 10061 10066	heart
 T455	Noun_Phrase 10144 10150	soleus
-T456	Noun_Phrase 10226 10230;10242 10256	male PGC-1??/? mice
-T457	Noun_Phrase 10226 10256	male and female PGC-1??/? mice
-T458	Noun_Phrase 10235 10256	female PGC-1??/? mice
+T456	Noun_Phrase 10226 10230;10242 10256	male PGC-1α−/− mice
+T457	Noun_Phrase 10226 10256	male and female PGC-1α−/− mice
+T458	Noun_Phrase 10235 10256	female PGC-1α−/− mice
 T459	Noun_Phrase 10313 10314;10321 10330	3 wk of age
 T460	Noun_Phrase 10319 10330	8 wk of age
 T461	IDENTITY_chain 10319 10330	8 wk of age
@@ -477,18 +477,18 @@ T475	Noun_Phrase 10502 10511	Figure 2B
 T476	Noun_Phrase 10541 10579	high mitochondrial energy requirements
 T477	Noun_Phrase 10589 10594	heart
 T478	Noun_Phrase 10599 10626	slow-twitch skeletal muscle
-T479	Noun_Phrase 10661 10670	PGC-1??/?
-T480	Noun_Phrase 10721 10730	PGC-1??/?
-T481	Noun_Phrase 10721 10735	PGC-1??/? Mice
-T482	Noun_Phrase 10853 10890	skeletal muscle of the PGC-1??/? mice
-T483	IDENTITY_chain 10853 10890	skeletal muscle of the PGC-1??/? mice
-T484	Noun_Phrase 10872 10890	the PGC-1??/? mice
-T485	Noun_Phrase 10876 10885	PGC-1??/?
+T479	Noun_Phrase 10661 10670	PGC-1α−/−
+T480	Noun_Phrase 10721 10730	PGC-1α−/−
+T481	Noun_Phrase 10721 10735	PGC-1α−/− Mice
+T482	Noun_Phrase 10853 10890	skeletal muscle of the PGC-1α−/− mice
+T483	IDENTITY_chain 10853 10890	skeletal muscle of the PGC-1α−/− mice
+T484	Noun_Phrase 10872 10890	the PGC-1α−/− mice
+T485	Noun_Phrase 10876 10885	PGC-1α−/−
 T486	Nonreferential_pronoun 10892 10897	There
-T487	Noun_Phrase 10997 11022	1�2-mo-old PGC-1??/? mice
-T488	IDENTITY_chain 10997 11022	1�2-mo-old PGC-1??/? mice
+T487	Noun_Phrase 10997 11022	1–2-mo-old PGC-1α−/− mice
+T488	IDENTITY_chain 10997 11022	1–2-mo-old PGC-1α−/− mice
 T489	Noun_Phrase 11024 11040	unpublished data
-T490	Noun_Phrase 11071 11077	PGC-1?
+T490	Noun_Phrase 11071 11077	PGC-1α
 T491	Noun_Phrase 11081 11094;11108 11118	mitochondrial biogenesis
 T492	Noun_Phrase 11081 11103	mitochondrial function
 T493	Noun_Phrase 11081 11118	mitochondrial function and biogenesis
@@ -497,13 +497,13 @@ T495	Noun_Phrase 11186 11194	Electron
 T496	IDENTITY_chain 11186 11194	Electron
 T497	Noun_Phrase 11186 11215	Electron microscopic analysis
 T498	IDENTITY_chain 11186 11215	Electron microscopic analysis
-T499	Noun_Phrase 11259 11290	soleus muscle of PGC-1??/? mice
-T500	IDENTITY_chain 11259 11290	soleus muscle of PGC-1??/? mice
-T501	Noun_Phrase 11276 11285	PGC-1??/?
-T502	Noun_Phrase 11276 11290	PGC-1??/? mice
-T503	Noun_Phrase 11303 11307;11317 11343	sex- matched PGC-1?+/+ controls
-T504	Noun_Phrase 11312 11343	age- matched PGC-1?+/+ controls
-T505	IDENTITY_chain 11312 11343	age- matched PGC-1?+/+ controls
+T499	Noun_Phrase 11259 11290	soleus muscle of PGC-1α−/− mice
+T500	IDENTITY_chain 11259 11290	soleus muscle of PGC-1α−/− mice
+T501	Noun_Phrase 11276 11285	PGC-1α−/−
+T502	Noun_Phrase 11276 11290	PGC-1α−/− mice
+T503	Noun_Phrase 11303 11307;11317 11343	sex- matched PGC-1α+/+ controls
+T504	Noun_Phrase 11312 11343	age- matched PGC-1α+/+ controls
+T505	IDENTITY_chain 11312 11343	age- matched PGC-1α+/+ controls
 T506	Noun_Phrase 11345 11351	Figure
 T507	Noun_Phrase 11345 11354	Figure 3A
 T508	IDENTITY_chain 11345 11354	Figure 3A
@@ -514,10 +514,10 @@ T512	Noun_Phrase 11425 11475	the cellular volume density of soleus mitochondria
 T513	IDENTITY_chain 11425 11475	the cellular volume density of soleus mitochondria
 T514	Noun_Phrase 11429 11444	cellular volume
 T515	IDENTITY_chain 11429 11444	cellular volume
-T516	Noun_Phrase 11503 11512	PGC-1??/?
-T517	Noun_Phrase 11503 11517	PGC-1??/? mice
-T518	Noun_Phrase 11530 11539	PGC-1?+/+
-T519	Noun_Phrase 11530 11548	PGC-1?+/+ controls
+T516	Noun_Phrase 11503 11512	PGC-1α−/−
+T517	Noun_Phrase 11503 11517	PGC-1α−/− mice
+T518	Noun_Phrase 11530 11539	PGC-1α+/+
+T519	Noun_Phrase 11530 11548	PGC-1α+/+ controls
 T520	Noun_Phrase 11603 11609	Figure
 T521	Noun_Phrase 11603 11612	Figure 3B
 T522	IDENTITY_chain 11603 11612	Figure 3B
@@ -535,18 +535,18 @@ T533	Noun_Phrase 11860 11888	beta subunit of ATP synthase
 T534	APPOS_relation 11860 11888	beta subunit of ATP synthase
 T535	Noun_Phrase 11876 11879	ATP
 T536	IDENTITY_chain 11876 11879	ATP
-T537	Noun_Phrase 11893 11924	soleus muscle of PGC-1??/? mice
-T538	Noun_Phrase 11910 11919	PGC-1??/?
-T539	Noun_Phrase 11939 11948	PGC-1?+/+
-T540	Noun_Phrase 11939 11957	PGC-1?+/+ controls
+T537	Noun_Phrase 11893 11924	soleus muscle of PGC-1α−/− mice
+T538	Noun_Phrase 11910 11919	PGC-1α−/−
+T539	Noun_Phrase 11939 11948	PGC-1α+/+
+T540	Noun_Phrase 11939 11957	PGC-1α+/+ controls
 T541	Noun_Phrase 11990 11994	Tfam
 T542	APPOS_relation 11990 11994	Tfam
 T543	IDENTITY_chain 11990 11994	Tfam
-T544	Noun_Phrase 11996 12073	a known PGC-1? target involved in mitochondrial DNA replication/transcription
-T545	Noun_Phrase 12004 12010	PGC-1?
+T544	Noun_Phrase 11996 12073	a known PGC-1α target involved in mitochondrial DNA replication/transcription
+T545	Noun_Phrase 12004 12010	PGC-1α
 T546	Noun_Phrase 12030 12047	mitochondrial DNA
-T547	Noun_Phrase 12093 12102	PGC-1??/?
-T548	Noun_Phrase 12093 12109	PGC-1??/? soleus
+T547	Noun_Phrase 12093 12102	PGC-1α−/−
+T548	Noun_Phrase 12093 12109	PGC-1α−/− soleus
 T549	Noun_Phrase 12185 12191	Figure
 T550	Noun_Phrase 12185 12194	Figure 3C
 T551	IDENTITY_chain 12185 12194	Figure 3C
@@ -556,19 +556,19 @@ T554	IDENTITY_chain 12267 12295	mitochondrial ultrastructure
 T555	Noun_Phrase 12299 12305	volume
 T556	IDENTITY_chain 12299 12305	volume
 T557	Noun_Phrase 12299 12313	volume density
-T558	Noun_Phrase 12328 12333;12341 12358	heart of PGC-1??/? mice
-T559	Noun_Phrase 12344 12353	PGC-1??/?
+T558	Noun_Phrase 12328 12333;12341 12358	heart of PGC-1α−/− mice
+T559	Noun_Phrase 12344 12353	PGC-1α−/−
 T560	Noun_Phrase 12360 12376	unpublished data
 T561	Noun_Phrase 12401 12423	mitochondrial function
-T562	Noun_Phrase 12439 12476	the skeletal muscle of PGC-1??/? mice
-T563	Noun_Phrase 12462 12471	PGC-1??/?
-T564	Noun_Phrase 12462 12476	PGC-1??/? mice
+T562	Noun_Phrase 12439 12476	the skeletal muscle of PGC-1α−/− mice
+T563	Noun_Phrase 12462 12471	PGC-1α−/−
+T564	Noun_Phrase 12462 12476	PGC-1α−/− mice
 T565	Noun_Phrase 12530 12536	tissue
 T566	Noun_Phrase 12558 12571	soleus muscle
 T567	IDENTITY_chain 12558 12571	soleus muscle
-T568	Noun_Phrase 12576 12600	soleus of PGC-1??/? mice
-T569	Noun_Phrase 12586 12595	PGC-1??/?
-T570	Noun_Phrase 12586 12600	PGC-1??/? mice
+T568	Noun_Phrase 12576 12600	soleus of PGC-1α−/− mice
+T569	Noun_Phrase 12586 12595	PGC-1α−/−
+T570	Noun_Phrase 12586 12600	PGC-1α−/− mice
 T571	Noun_Phrase 12626 12662	state 3 (ADP-stimulated) respiration
 T572	IDENTITY_chain 12626 12662	state 3 (ADP-stimulated) respiration
 T573	Noun_Phrase 12672 12687	state 2 (basal)
@@ -586,14 +586,14 @@ T584	Noun_Phrase 12832 12845	the genotypes
 T585	Noun_Phrase 12894 12897	ATP
 T586	Noun_Phrase 12894 12908	ATP production
 T587	IDENTITY_chain 12894 12908	ATP production
-T588	Noun_Phrase 12942 12951	PGC-1??/?
-T589	Noun_Phrase 12942 12956	PGC-1??/? mice
+T588	Noun_Phrase 12942 12951	PGC-1α−/−
+T589	Noun_Phrase 12942 12956	PGC-1α−/− mice
 T590	Noun_Phrase 13032 13052	mitochondrial volume
 T591	IDENTITY_chain 13032 13052	mitochondrial volume
 T592	Noun_Phrase 13032 13060	mitochondrial volume density
 T593	Noun_Phrase 13071 13086	Skeletal Muscle
-T594	Noun_Phrase 13099 13108	PGC-1??/?
-T595	Noun_Phrase 13099 13113	PGC-1??/? Mice
+T594	Noun_Phrase 13099 13108	PGC-1α−/−
+T595	Noun_Phrase 13099 13113	PGC-1α−/− Mice
 T596	Noun_Phrase 13183 13198	skeletal muscle
 T597	IDENTITY_chain 13183 13198	skeletal muscle
 T598	Noun_Phrase 13226 13255	the skeletal muscle phenotype
@@ -603,46 +603,46 @@ T601	Noun_Phrase 13277 13279	we
 T602	Noun_Phrase 13289 13307	locomotor activity
 T603	Noun_Phrase 13320 13332	a 1-h period
 T604	IDENTITY_chain 13320 13332	a 1-h period
-T605	Noun_Phrase 13375 13394	PGC-1??/? male mice
+T605	Noun_Phrase 13375 13394	PGC-1α−/− male mice
 T606	Noun_Phrase 13474 13482	the hour
-T607	Noun_Phrase 13495 13529	the PGC-1?+/+ age-matched controls
-T608	IDENTITY_chain 13495 13529	the PGC-1?+/+ age-matched controls
+T607	Noun_Phrase 13495 13529	the PGC-1α+/+ age-matched controls
+T608	IDENTITY_chain 13495 13529	the PGC-1α+/+ age-matched controls
 T609	Noun_Phrase 13531 13537	Figure
 T610	Noun_Phrase 13531 13539	Figure 4
 T611	IDENTITY_chain 13531 13539	Figure 4
 T612	Noun_Phrase 13566 13586	exploratory behavior
 T613	IDENTITY_chain 13566 13586	exploratory behavior
-T614	Noun_Phrase 13599 13617	the PGC-1??/? mice
-T615	Noun_Phrase 13603 13612	PGC-1??/?
-T616	Noun_Phrase 13644 13669	the center of the �field�
-T617	IDENTITY_chain 13644 13669	the center of the �field�
-T618	Noun_Phrase 13658 13669	the �field�
-T619	IDENTITY_chain 13658 13669	the �field�
+T614	Noun_Phrase 13599 13617	the PGC-1α−/− mice
+T615	Noun_Phrase 13603 13612	PGC-1α−/−
+T616	Noun_Phrase 13644 13669	the center of the “field”
+T617	IDENTITY_chain 13644 13669	the center of the “field”
+T618	Noun_Phrase 13658 13669	the “field”
+T619	IDENTITY_chain 13658 13669	the “field”
 T620	Noun_Phrase 13682 13690	controls
-T621	Noun_Phrase 13706 13715	PGC-1??/?
-T622	Noun_Phrase 13706 13720	PGC-1??/? mice
-T623	Noun_Phrase 13843 13873;13874 13875	the central area of the �field �
-T624	Noun_Phrase 13863 13873;13874 13875	the �field �
-T625	Noun_Phrase 13921 13955	the peripheral zone of the �field�
-T626	Noun_Phrase 13944 13955	the �field�
+T621	Noun_Phrase 13706 13715	PGC-1α−/−
+T622	Noun_Phrase 13706 13720	PGC-1α−/− mice
+T623	Noun_Phrase 13843 13873;13874 13875	the central area of the “field ”
+T624	Noun_Phrase 13863 13873;13874 13875	the “field ”
+T625	Noun_Phrase 13921 13955	the peripheral zone of the “field”
+T626	Noun_Phrase 13944 13955	the “field”
 T627	Noun_Phrase 14004 14010	Figure
 T628	Noun_Phrase 14004 14013	Figure S2
 T629	IDENTITY_chain 14004 14013	Figure S2
 T630	Noun_Phrase 14040 14066	the general activity level
 T631	IDENTITY_chain 14040 14066	the general activity level
 T632	Noun_Phrase 14044 14060	general activity
-T633	Noun_Phrase 14115 14124	PGC-1??/?
-T634	Noun_Phrase 14115 14129	PGC-1??/? mice
+T633	Noun_Phrase 14115 14124	PGC-1α−/−
+T634	Noun_Phrase 14115 14129	PGC-1α−/− mice
 T635	Noun_Phrase 14141 14170	the central area of the field
 T636	Noun_Phrase 14161 14170	the field
 T637	Noun_Phrase 14190 14203	the periphery
 T638	IDENTITY_chain 14190 14203	the periphery
-T639	Noun_Phrase 14376 14394	the PGC-1??/? mice
-T640	Noun_Phrase 14380 14389	PGC-1??/?
-T641	Noun_Phrase 14430 14439	PGC-1??/?
-T642	Noun_Phrase 14430 14444	PGC-1??/? mice
-T643	Noun_Phrase 14449 14458	PGC-1?+/+
-T644	Noun_Phrase 14449 14467	PGC-1?+/+ controls
+T639	Noun_Phrase 14376 14394	the PGC-1α−/− mice
+T640	Noun_Phrase 14380 14389	PGC-1α−/−
+T641	Noun_Phrase 14430 14439	PGC-1α−/−
+T642	Noun_Phrase 14430 14444	PGC-1α−/− mice
+T643	Noun_Phrase 14449 14458	PGC-1α+/+
+T644	Noun_Phrase 14449 14467	PGC-1α+/+ controls
 T645	Noun_Phrase 14471 14480;14544 14549	the ledge tests
 T646	IDENTITY_chain 14471 14480;14544 14549	the ledge tests
 T647	Noun_Phrase 14475 14480	ledge
@@ -653,28 +653,28 @@ T651	Noun_Phrase 14482 14490	platform
 T652	IDENTITY_chain 14482 14490	platform
 T653	Noun_Phrase 14492 14510;14544 14549	walking initiation tests
 T654	IDENTITY_chain 14492 14510;14544 14549	walking initiation tests
-T655	Noun_Phrase 14516 14519;14528 14543	60� inclined screen
-T656	IDENTITY_chain 14516 14519;14528 14543	60� inclined screen
-T657	Noun_Phrase 14516 14543	60� and 90� inclined screen
-T658	IDENTITY_chain 14516 14543	60� and 90� inclined screen
-T659	Noun_Phrase 14524 14543	90� inclined screen
-T660	IDENTITY_chain 14524 14543	90� inclined screen
+T655	Noun_Phrase 14516 14519;14528 14543	60° inclined screen
+T656	IDENTITY_chain 14516 14519;14528 14543	60° inclined screen
+T657	Noun_Phrase 14516 14543	60° and 90° inclined screen
+T658	IDENTITY_chain 14516 14543	60° and 90° inclined screen
+T659	Noun_Phrase 14524 14543	90° inclined screen
+T660	IDENTITY_chain 14524 14543	90° inclined screen
 T661	Noun_Phrase 14551 14567	unpublished data
-T662	Noun_Phrase 14632 14650	the PGC-1??/? mice
-T663	Noun_Phrase 14636 14645	PGC-1??/?
-T664	Noun_Phrase 14661 14679	the PGC-1??/? mice
-T665	Noun_Phrase 14665 14674	PGC-1??/?
+T662	Noun_Phrase 14632 14650	the PGC-1α−/− mice
+T663	Noun_Phrase 14636 14645	PGC-1α−/−
+T664	Noun_Phrase 14661 14679	the PGC-1α−/− mice
+T665	Noun_Phrase 14665 14674	PGC-1α−/−
 T666	Noun_Phrase 14705 14723	an inverted screen
 T667	IDENTITY_chain 14705 14723	an inverted screen
-T668	Noun_Phrase 14739 14761	the PGC-1?+/+ controls
-T669	Noun_Phrase 14743 14752	PGC-1?+/+
+T668	Noun_Phrase 14739 14761	the PGC-1α+/+ controls
+T669	Noun_Phrase 14743 14752	PGC-1α+/+
 T670	Noun_Phrase 14763 14769	Figure
 T671	Noun_Phrase 14763 14772	Figure 4A
 T672	IDENTITY_chain 14763 14772	Figure 4A
 T673	Nonreferential_pronoun 14820 14822	it
-T674	Noun_Phrase 14867 14870;14879 14895	60� inclined screens
-T675	Noun_Phrase 14867 14895	60� and 90� inclined screens
-T676	Noun_Phrase 14875 14895	90� inclined screens
+T674	Noun_Phrase 14867 14870;14879 14895	60° inclined screens
+T675	Noun_Phrase 14867 14895	60° and 90° inclined screens
+T676	Noun_Phrase 14875 14895	90° inclined screens
 T677	Noun_Phrase 14897 14940	the differences on the inverted screen test
 T678	IDENTITY_chain 14897 14940	the differences on the inverted screen test
 T679	Noun_Phrase 14916 14940	the inverted screen test
@@ -685,21 +685,21 @@ T683	Noun_Phrase 15070 15099	the skeletal muscle phenotype
 T684	Noun_Phrase 15074 15089	skeletal muscle
 T685	Noun_Phrase 15101 15109	exercise
 T686	Noun_Phrase 15101 15118	exercise capacity
-T687	Noun_Phrase 15135 15153	the PGC-1??/? mice
-T688	Noun_Phrase 15139 15148	PGC-1??/?
-T689	Noun_Phrase 15168 15186	the PGC-1??/? mice
-T690	Noun_Phrase 15172 15181	PGC-1??/?
+T687	Noun_Phrase 15135 15153	the PGC-1α−/− mice
+T688	Noun_Phrase 15139 15148	PGC-1α−/−
+T689	Noun_Phrase 15168 15186	the PGC-1α−/− mice
+T690	Noun_Phrase 15172 15181	PGC-1α−/−
 T691	Noun_Phrase 15243 15269	a run-to-exhaustion format
 T692	IDENTITY_chain 15243 15269	a run-to-exhaustion format
-T693	Noun_Phrase 15271 15280	PGC-1??/?
-T694	Noun_Phrase 15271 15301	PGC-1??/? mice (6�8 mo of age)
-T695	IDENTITY_chain 15271 15301	PGC-1??/? mice (6�8 mo of age)
-T696	Noun_Phrase 15287 15300	6�8 mo of age
-T697	IDENTITY_chain 15287 15300	6�8 mo of age
+T693	Noun_Phrase 15271 15280	PGC-1α−/−
+T694	Noun_Phrase 15271 15301	PGC-1α−/− mice (6–8 mo of age)
+T695	IDENTITY_chain 15271 15301	PGC-1α−/− mice (6–8 mo of age)
+T696	Noun_Phrase 15287 15300	6–8 mo of age
+T697	IDENTITY_chain 15287 15300	6–8 mo of age
 T698	Noun_Phrase 15297 15300	age
-T699	Noun_Phrase 15369 15378	PGC-1??/?
-T700	Noun_Phrase 15369 15383	PGC-1??/? mice
-T701	Noun_Phrase 15395 15421	age-matched PGC-1?+/+ mice
+T699	Noun_Phrase 15369 15378	PGC-1α−/−
+T700	Noun_Phrase 15369 15383	PGC-1α−/− mice
+T701	Noun_Phrase 15395 15421	age-matched PGC-1α+/+ mice
 T702	Noun_Phrase 15436 15442	Figure
 T703	Noun_Phrase 15436 15445	Figure 4B
 T704	IDENTITY_chain 15436 15445	Figure 4B
@@ -718,10 +718,10 @@ T716	Noun_Phrase 15753 15773	indirect calorimetry
 T717	IDENTITY_chain 15753 15773	indirect calorimetry
 T718	Noun_Phrase 15775 15781	VO2max
 T719	IDENTITY_chain 15775 15781	VO2max
-T720	Noun_Phrase 15810 15828	the PGC-1??/? mice
-T721	Noun_Phrase 15814 15823	PGC-1??/?
-T722	Noun_Phrase 15876 15885	PGC-1?+/+
-T723	Noun_Phrase 15876 15894	PGC-1?+/+ controls
+T720	Noun_Phrase 15810 15828	the PGC-1α−/− mice
+T721	Noun_Phrase 15814 15823	PGC-1α−/−
+T722	Noun_Phrase 15876 15885	PGC-1α+/+
+T723	Noun_Phrase 15876 15894	PGC-1α+/+ controls
 T724	Noun_Phrase 15931 15937	Figure
 T725	Noun_Phrase 15931 15940	Figure 4B
 T726	Noun_Phrase 15964 15970	muscle
@@ -731,29 +731,29 @@ T729	Noun_Phrase 16150 16167	mitochondrial ATP
 T730	Noun_Phrase 16150 16178	mitochondrial ATP production
 T731	Nonreferential_pronoun 16232 16237	there
 T732	Noun_Phrase 16259 16264	force
-T733	Noun_Phrase 16301 16310	PGC-1??/?
-T734	Noun_Phrase 16301 16315	PGC-1??/? mice
-T735	Noun_Phrase 16301 16338	PGC-1??/? mice and PGC-1?+/+ controls
-T736	IDENTITY_chain 16301 16338	PGC-1??/? mice and PGC-1?+/+ controls
-T737	Noun_Phrase 16320 16329	PGC-1?+/+
-T738	Noun_Phrase 16320 16338	PGC-1?+/+ controls
+T733	Noun_Phrase 16301 16310	PGC-1α−/−
+T734	Noun_Phrase 16301 16315	PGC-1α−/− mice
+T735	Noun_Phrase 16301 16338	PGC-1α−/− mice and PGC-1α+/+ controls
+T736	IDENTITY_chain 16301 16338	PGC-1α−/− mice and PGC-1α+/+ controls
+T737	Noun_Phrase 16320 16329	PGC-1α+/+
+T738	Noun_Phrase 16320 16338	PGC-1α+/+ controls
 T739	Noun_Phrase 16349 16367	fatigue resistance
 T740	IDENTITY_chain 16349 16367	fatigue resistance
 T741	Noun_Phrase 16349 16373	fatigue resistance index
 T742	IDENTITY_chain 16349 16373	fatigue resistance index
-T743	Noun_Phrase 16504 16522	the PGC-1??/? mice
-T744	Noun_Phrase 16508 16517	PGC-1??/?
-T745	Noun_Phrase 16537 16567	compared to PGC-1?+/+ controls
-T746	Noun_Phrase 16549 16558	PGC-1?+/+
+T743	Noun_Phrase 16504 16522	the PGC-1α−/− mice
+T744	Noun_Phrase 16508 16517	PGC-1α−/−
+T745	Noun_Phrase 16537 16567	compared to PGC-1α+/+ controls
+T746	Noun_Phrase 16549 16558	PGC-1α+/+
 T747	Noun_Phrase 16583 16589	Figure
 T748	Noun_Phrase 16583 16592	Figure 4C
 T749	IDENTITY_chain 16583 16592	Figure 4C
 T750	Noun_Phrase 16654 16669	skeletal muscle
-T751	Noun_Phrase 16722 16728	PGC-1?
+T751	Noun_Phrase 16722 16728	PGC-1α
 T752	Noun_Phrase 16771 16786	skeletal muscle
-T753	Noun_Phrase 16840 16864	Hearts of PGC-1??/? Mice
-T754	Noun_Phrase 16850 16859	PGC-1??/?
-T755	Noun_Phrase 16866 16872	PGC-1?
+T753	Noun_Phrase 16840 16864	Hearts of PGC-1α−/− Mice
+T754	Noun_Phrase 16850 16859	PGC-1α−/−
+T755	Noun_Phrase 16866 16872	PGC-1α
 T756	Noun_Phrase 16899 16904	heart
 T757	APPOS_relation 16899 16904	heart
 T758	Noun_Phrase 16906 17051	a tissue that relies heavily on mitochondrial energy metabolism to maintain pump function throughout the postnatal life of the mammalian organism
@@ -761,7 +761,7 @@ T759	Noun_Phrase 16938 16958	mitochondrial energy
 T760	Noun_Phrase 16938 16969	mitochondrial energy metabolism
 T761	Noun_Phrase 17007 17051	the postnatal life of the mammalian organism
 T762	Noun_Phrase 17029 17051	the mammalian organism
-T763	Noun_Phrase 17092 17101	PGC-1??/?
+T763	Noun_Phrase 17092 17101	PGC-1α−/−
 T764	Noun_Phrase 17218 17229	WT controls
 T765	Noun_Phrase 17231 17247	unpublished data
 T766	IDENTITY_chain 17311 17352	exercise echocardiographic stress testing
@@ -769,43 +769,43 @@ T767	Noun_Phrase 17311 17352	exercise echocardiographic stress testing
 T768	APPOS_relation 17311 17352	exercise echocardiographic stress testing
 T769	Noun_Phrase 17354 17357	EST
 T770	Noun_Phrase 17375 17383	exercise
-T771	Noun_Phrase 17396 17405	PGC-1??/?
-T772	Noun_Phrase 17396 17410	PGC-1??/? mice
+T771	Noun_Phrase 17396 17405	PGC-1α−/−
+T772	Noun_Phrase 17396 17410	PGC-1α−/− mice
 T773	Noun_Phrase 17426 17476	a series of preliminary treadmill exercise studies
 T774	IDENTITY_chain 17426 17476	a series of preliminary treadmill exercise studies
 T775	Noun_Phrase 17591 17598	the EST
 T776	IDENTITY_chain 17591 17598	the EST
 T777	Noun_Phrase 17624 17637	these studies
 T778	Noun_Phrase 17642 17645	EST
-T779	Noun_Phrase 17677 17702	PGC-1?+/+ control animals
+T779	Noun_Phrase 17677 17702	PGC-1α+/+ control animals
 T780	Noun_Phrase 17736 17740	60 s
 T781	IDENTITY_chain 17736 17740	60 s
-T782	Noun_Phrase 17776 17808	the PGC-1??/? mice (ages 6�8 mo)
-T783	Noun_Phrase 17780 17789	PGC-1??/?
-T784	Noun_Phrase 17796 17807	ages 6�8 mo
+T782	Noun_Phrase 17776 17808	the PGC-1α−/− mice (ages 6–8 mo)
+T783	Noun_Phrase 17780 17789	PGC-1α−/−
+T784	Noun_Phrase 17796 17807	ages 6–8 mo
 T785	Noun_Phrase 17879 17887	exercise
 T786	IDENTITY_chain 17879 17887	exercise
-T787	Noun_Phrase 17892 17914	the PGC-1?+/+ controls
-T788	Noun_Phrase 17896 17905	PGC-1?+/+
-T789	Noun_Phrase 17949 17958	PGC-1??/?
-T790	Noun_Phrase 17949 17963	PGC-1??/? mice
+T787	Noun_Phrase 17892 17914	the PGC-1α+/+ controls
+T788	Noun_Phrase 17896 17905	PGC-1α+/+
+T789	Noun_Phrase 17949 17958	PGC-1α−/−
+T790	Noun_Phrase 17949 17963	PGC-1α−/− mice
 T791	Noun_Phrase 17998 18065	Echocardiographic-determined left ventricular fractional shortening
 T792	IDENTITY_chain 17998 18065	Echocardiographic-determined left ventricular fractional shortening
 T793	Noun_Phrase 18070 18075	heart
 T794	Noun_Phrase 18070 18080	heart rate
 T795	Noun_Phrase 18154 18159	heart
-T796	Noun_Phrase 18168 18186	the PGC-1??/? mice
-T797	Noun_Phrase 18172 18181	PGC-1??/?
+T796	Noun_Phrase 18168 18186	the PGC-1α−/− mice
+T797	Noun_Phrase 18172 18181	PGC-1α−/−
 T798	Noun_Phrase 18229 18253	the post exercise period
 T799	IDENTITY_chain 18229 18253	the post exercise period
 T800	Noun_Phrase 18255 18261	Figure
 T801	Noun_Phrase 18255 18264	Figure 5A
 T802	IDENTITY_chain 18255 18264	Figure 5A
 T803	Noun_Phrase 18280 18351	echocardiographically determined left ventricular fractional shortening
-T804	Noun_Phrase 18369 18387	the PGC-1??/? mice
-T805	Noun_Phrase 18373 18382	PGC-1??/?
-T806	Noun_Phrase 18397 18415	the PGC-1?+/+ mice
-T807	Noun_Phrase 18401 18410	PGC-1?+/+
+T804	Noun_Phrase 18369 18387	the PGC-1α−/− mice
+T805	Noun_Phrase 18373 18382	PGC-1α−/−
+T806	Noun_Phrase 18397 18415	the PGC-1α+/+ mice
+T807	Noun_Phrase 18401 18410	PGC-1α+/+
 T808	Noun_Phrase 18442 18466	the post exercise period
 T809	Noun_Phrase 18468 18474	Figure
 T810	Noun_Phrase 18468 18477	Figure 5A
@@ -814,22 +814,22 @@ T812	Noun_Phrase 18653 18668	skeletal muscle
 T813	Noun_Phrase 18653 18680	skeletal muscle dysfunction
 T814	IDENTITY_chain 18653 18680	skeletal muscle dysfunction
 T815	Noun_Phrase 18701 18717	cardiac function
-T816	Noun_Phrase 18719 18742;18757 18761	the hearts of PGC-1??/? mice
-T817	Noun_Phrase 18733 18742	PGC-1??/?
-T818	Noun_Phrase 18733 18742;18757 18761	PGC-1??/? mice
-T819	Noun_Phrase 18733 18761	PGC-1??/? and PGC-1?+/+ mice
-T820	Noun_Phrase 18747 18756	PGC-1?+/+
-T821	Noun_Phrase 18747 18761	PGC-1?+/+ mice
-T822	Noun_Phrase 18810 18845	Hearts isolated from PGC-1??/? mice
-T823	Noun_Phrase 18831 18840	PGC-1??/?
-T824	Noun_Phrase 18831 18845	PGC-1??/? mice
+T816	Noun_Phrase 18719 18742;18757 18761	the hearts of PGC-1α−/− mice
+T817	Noun_Phrase 18733 18742	PGC-1α−/−
+T818	Noun_Phrase 18733 18742;18757 18761	PGC-1α−/− mice
+T819	Noun_Phrase 18733 18761	PGC-1α−/− and PGC-1α+/+ mice
+T820	Noun_Phrase 18747 18756	PGC-1α+/+
+T821	Noun_Phrase 18747 18761	PGC-1α+/+ mice
+T822	Noun_Phrase 18810 18845	Hearts isolated from PGC-1α−/− mice
+T823	Noun_Phrase 18831 18840	PGC-1α−/−
+T824	Noun_Phrase 18831 18845	PGC-1α−/− mice
 T825	Noun_Phrase 18856 18874	lower cardiac work
 T826	IDENTITY_chain 18856 18874	lower cardiac work
 T827	Noun_Phrase 18876 18890	cardiac output
 T828	Noun_Phrase 18905 18927	peak systolic pressure
 T829	IDENTITY_chain 18905 18927	peak systolic pressure
-T830	Noun_Phrase 18941 18950	PGC-1?+/+
-T831	Noun_Phrase 18941 18955	PGC-1?+/+ mice
+T830	Noun_Phrase 18941 18950	PGC-1α+/+
+T831	Noun_Phrase 18941 18955	PGC-1α+/+ mice
 T832	Noun_Phrase 18989 18994	Table
 T833	IDENTITY_chain 18989 18994	Table
 T834	Noun_Phrase 18989 18996	Table 1
@@ -843,63 +843,63 @@ T841	Noun_Phrase 19106 19111	heart
 T842	Noun_Phrase 19106 19116	heart rate
 T843	Noun_Phrase 19106 19134	heart rate and stroke volume
 T844	IDENTITY_chain 19106 19134	heart rate and stroke volume
-T845	Noun_Phrase 19167 19185	the PGC-1??/? mice
-T846	Noun_Phrase 19171 19180	PGC-1??/?
+T845	Noun_Phrase 19167 19185	the PGC-1α−/− mice
+T846	Noun_Phrase 19171 19180	PGC-1α−/−
 T847	Noun_Phrase 19219 19223	both
 T848	Noun_Phrase 19276 19281	Table
 T849	Noun_Phrase 19276 19283	Table 1
 T850	Noun_Phrase 19334 19339	heart
 T851	Noun_Phrase 19334 19344	heart rate
-T852	IDENTITY_chain 19403 19452	the ?1,?1-adrenergic-selective agonist dobutamine
-T853	Noun_Phrase 19403 19452	the ?1,?1-adrenergic-selective agonist dobutamine
+T852	IDENTITY_chain 19403 19452	the β1,α1-adrenergic-selective agonist dobutamine
+T853	Noun_Phrase 19403 19452	the β1,α1-adrenergic-selective agonist dobutamine
 T854	Noun_Phrase 19544 19554	dobutamine
-T855	Noun_Phrase 19570 19579	PGC-1?+/+
-T856	Noun_Phrase 19570 19579;19594 19598	PGC-1?+/+ mice
-T857	Noun_Phrase 19570 19598	PGC-1?+/+ and PGC-1??/? mice
-T858	Noun_Phrase 19584 19593	PGC-1??/?
-T859	Noun_Phrase 19584 19598	PGC-1??/? mice
+T855	Noun_Phrase 19570 19579	PGC-1α+/+
+T856	Noun_Phrase 19570 19579;19594 19598	PGC-1α+/+ mice
+T857	Noun_Phrase 19570 19598	PGC-1α+/+ and PGC-1α−/− mice
+T858	Noun_Phrase 19584 19593	PGC-1α−/−
+T859	Noun_Phrase 19584 19598	PGC-1α−/− mice
 T860	Noun_Phrase 19600 19606	Figure
 T861	Noun_Phrase 19600 19609	Figure 5B
 T862	IDENTITY_chain 19600 19609	Figure 5B
 T863	Noun_Phrase 19611 19622	right graph
-T864	Noun_Phrase 19634 19643	PGC-1??/?
-T865	Noun_Phrase 19634 19648	PGC-1??/? mice
-T866	Noun_Phrase 19706 19730	?-adrenergic stimulation
-T867	IDENTITY_chain 19706 19730	?-adrenergic stimulation
+T864	Noun_Phrase 19634 19643	PGC-1α−/−
+T865	Noun_Phrase 19634 19648	PGC-1α−/− mice
+T866	Noun_Phrase 19706 19730	β-adrenergic stimulation
+T867	IDENTITY_chain 19706 19730	β-adrenergic stimulation
 T868	Noun_Phrase 19732 19738	Figure
 T869	Noun_Phrase 19732 19741	Figure 5B
 T870	Noun_Phrase 19743 19753	left graph
 T871	IDENTITY_chain 19743 19753	left graph
 T872	Noun_Phrase 19776 19783	the EST
-T873	Noun_Phrase 19821 19841	the PGC-1??/? hearts
-T874	Noun_Phrase 19825 19834	PGC-1??/?
+T873	Noun_Phrase 19821 19841	the PGC-1α−/− hearts
+T874	Noun_Phrase 19825 19834	PGC-1α−/−
 T875	Noun_Phrase 19902 19910	exercise
 T876	Noun_Phrase 19977 19986	the heart
 T877	Noun_Phrase 19997 20000	our
-T878	Noun_Phrase 20063 20072	PGC-1??/?
-T879	Noun_Phrase 20063 20077	PGC-1??/? Mice
+T878	Noun_Phrase 20063 20072	PGC-1α−/−
+T879	Noun_Phrase 20063 20077	PGC-1α−/− Mice
 T880	Noun_Phrase 20086 20118	an Abnormal Thermogenic Response
 T881	IDENTITY_chain 20086 20118	an Abnormal Thermogenic Response
-T882	Noun_Phrase 20120 20126	PGC-1?
+T882	Noun_Phrase 20120 20126	PGC-1α
 T883	Noun_Phrase 20176 20212	mitochondrial respiratory uncoupling
 T884	APPOS_relation 20176 20212	mitochondrial respiratory uncoupling
 T885	Noun_Phrase 20214 20259	an important source of heat production in BAT
 T886	Noun_Phrase 20256 20259	BAT
-T887	Noun_Phrase 20286 20292	PGC-1?
-T888	Noun_Phrase 20347 20356	PGC-1?+/+
-T889	Noun_Phrase 20347 20356;20371 20375	PGC-1?+/+ mice
-T890	Noun_Phrase 20347 20375	PGC-1?+/+ and PGC-1??/? mice
-T891	Noun_Phrase 20361 20370	PGC-1??/?
-T892	Noun_Phrase 20361 20375	PGC-1??/? mice
+T887	Noun_Phrase 20286 20292	PGC-1α
+T888	Noun_Phrase 20347 20356	PGC-1α+/+
+T889	Noun_Phrase 20347 20356;20371 20375	PGC-1α+/+ mice
+T890	Noun_Phrase 20347 20375	PGC-1α+/+ and PGC-1α−/− mice
+T891	Noun_Phrase 20361 20370	PGC-1α−/−
+T892	Noun_Phrase 20361 20375	PGC-1α−/− mice
 T893	Noun_Phrase 20394 20407	cold exposure
-T894	Noun_Phrase 20409 20413	4 �C
-T895	IDENTITY_chain 20409 20413	4 �C
+T894	Noun_Phrase 20409 20413	4 °C
+T895	IDENTITY_chain 20409 20413	4 °C
 T896	Noun_Phrase 20419 20431	a 5-h period
 T897	IDENTITY_chain 20419 20431	a 5-h period
 T898	Noun_Phrase 20438 20459	core body temperature
 T899	Noun_Phrase 20443 20447	body
-T900	Noun_Phrase 20475 20484	PGC-1??/?
-T901	Noun_Phrase 20475 20489	PGC-1??/? mice
+T900	Noun_Phrase 20475 20484	PGC-1α−/−
+T901	Noun_Phrase 20475 20489	PGC-1α−/− mice
 T902	Noun_Phrase 20528 20544	core temperature
 T903	Noun_Phrase 20557 20572	the WT controls
 T904	Noun_Phrase 20574 20580	Figure
@@ -907,10 +907,10 @@ T905	Noun_Phrase 20574 20583	Figure 6A
 T906	IDENTITY_chain 20574 20583	Figure 6A
 T907	Noun_Phrase 20620 20636	core temperature
 T908	Noun_Phrase 20663 20681	the 5-h time point
-T909	Noun_Phrase 20685 20694	PGC-1??/?
-T910	Noun_Phrase 20685 20699	PGC-1??/? mice
-T911	Noun_Phrase 20748 20757	PGC-1?+/+
-T912	Noun_Phrase 20748 20766	PGC-1?+/+ controls
+T909	Noun_Phrase 20685 20694	PGC-1α−/−
+T910	Noun_Phrase 20685 20699	PGC-1α−/− mice
+T911	Noun_Phrase 20748 20757	PGC-1α+/+
+T912	Noun_Phrase 20748 20766	PGC-1α+/+ controls
 T913	Noun_Phrase 20777 20803	this thermogenic phenotype
 T914	IDENTITY_chain 20777 20803	this thermogenic phenotype
 T915	Noun_Phrase 20851 20853	it
@@ -919,14 +919,14 @@ T917	IDENTITY_chain 20868 20878	older mice
 T918	Noun_Phrase 20880 20896	unpublished data
 T919	Noun_Phrase 20930 20943	neutral lipid
 T920	Noun_Phrase 20954 20957	BAT
-T921	Noun_Phrase 21007 21060	the thermogenic phenotype exhibited by PGC-1??/? mice
-T922	Noun_Phrase 21046 21055	PGC-1??/?
-T923	Noun_Phrase 21046 21060	PGC-1??/? mice
+T921	Noun_Phrase 21007 21060	the thermogenic phenotype exhibited by PGC-1α−/− mice
+T922	Noun_Phrase 21046 21055	PGC-1α−/−
+T923	Noun_Phrase 21046 21060	PGC-1α−/− mice
 T924	Noun_Phrase 21122 21130	Electron
 T925	Noun_Phrase 21122 21151	Electron microscopic analyses
 T926	Noun_Phrase 21167 21199	the mitochondrial ultrastructure
-T927	Noun_Phrase 21233 21242	PGC-1??/?
-T928	Noun_Phrase 21247 21256	PGC-1?+/+
+T927	Noun_Phrase 21233 21242	PGC-1α−/−
+T928	Noun_Phrase 21247 21256	PGC-1α+/+
 T929	Noun_Phrase 21279 21292	cold exposure
 T930	Noun_Phrase 21294 21310	unpublished data
 T931	Noun_Phrase 21336 21339	BAT
@@ -936,52 +936,52 @@ T934	Noun_Phrase 21412 21417	UCP-1
 T935	Noun_Phrase 21458 21494	mitochondrial respiratory uncoupling
 T936	IDENTITY_chain 21458 21494	mitochondrial respiratory uncoupling
 T937	Noun_Phrase 21515 21518	BAT
-T938	Noun_Phrase 21573 21579	PGC-1?
-T939	Noun_Phrase 21660 21669	PGC-1?+/+
-T940	Noun_Phrase 21660 21669;21684 21688	PGC-1?+/+ mice
-T941	Noun_Phrase 21660 21688	PGC-1?+/+ and PGC-1??/? mice
-T942	Noun_Phrase 21674 21683	PGC-1??/?
-T943	Noun_Phrase 21674 21688	PGC-1??/? mice
+T938	Noun_Phrase 21573 21579	PGC-1α
+T939	Noun_Phrase 21660 21669	PGC-1α+/+
+T940	Noun_Phrase 21660 21669;21684 21688	PGC-1α+/+ mice
+T941	Noun_Phrase 21660 21688	PGC-1α+/+ and PGC-1α−/− mice
+T942	Noun_Phrase 21674 21683	PGC-1α−/−
+T943	Noun_Phrase 21674 21688	PGC-1α−/− mice
 T944	Noun_Phrase 21690 21696	Figure
 T945	Noun_Phrase 21690 21699	Figure 6B
 T946	IDENTITY_chain 21690 21699	Figure 6B
-T947	Noun_Phrase 21729 21735	PGC-1?
+T947	Noun_Phrase 21729 21735	PGC-1α
 T948	Noun_Phrase 21792 21797	UCP-1
 T949	Noun_Phrase 21803 21816	cold exposure
 T950	Noun_Phrase 21871 21896	mitochondrial respiration
 T951	IDENTITY_chain 21871 21896	mitochondrial respiration
 T952	Noun_Phrase 21919 21952	the abnormal thermogenic response
-T953	Noun_Phrase 21956 21974	the PGC-1??/? mice
-T954	Noun_Phrase 21960 21969	PGC-1??/?
+T953	Noun_Phrase 21956 21974	the PGC-1α−/− mice
+T954	Noun_Phrase 21960 21969	PGC-1α−/−
 T955	Noun_Phrase 22013 22037	mitochondrial uncoupling
-T956	Noun_Phrase 22160 22185	?3-adrenergic stimulation
-T957	IDENTITY_chain 22160 22185	?3-adrenergic stimulation
-T958	Noun_Phrase 22202 22211	PGC-1??/?
-T959	Noun_Phrase 22202 22216	PGC-1??/? mice
+T956	Noun_Phrase 22160 22185	β3-adrenergic stimulation
+T957	IDENTITY_chain 22160 22185	β3-adrenergic stimulation
+T958	Noun_Phrase 22202 22211	PGC-1α−/−
+T959	Noun_Phrase 22202 22216	PGC-1α−/− mice
 T960	Noun_Phrase 22241 22244	VO2
 T961	Noun_Phrase 22246 22264	oxygen consumption
 T962	APPOS_relation 22246 22264	oxygen consumption
-T963	Noun_Phrase 22307 22331	the ?3-agonist BRL 37344
-T964	IDENTITY_chain 22307 22331	the ?3-agonist BRL 37344
+T963	Noun_Phrase 22307 22331	the β3-agonist BRL 37344
+T964	IDENTITY_chain 22307 22331	the β3-agonist BRL 37344
 T965	Noun_Phrase 22338 22358	indirect calorimetry
 T966	Noun_Phrase 22360 22363	VO2
 T967	IDENTITY_chain 22360 22363	VO2
-T968	Noun_Phrase 22419 22428	PGC-1?+/+
-T969	Noun_Phrase 22419 22428;22447 22451	PGC-1?+/+ mice
-T970	Noun_Phrase 22437 22446	PGC-1??/?
-T971	Noun_Phrase 22437 22451	PGC-1??/? mice
+T968	Noun_Phrase 22419 22428	PGC-1α+/+
+T969	Noun_Phrase 22419 22428;22447 22451	PGC-1α+/+ mice
+T970	Noun_Phrase 22437 22446	PGC-1α−/−
+T971	Noun_Phrase 22437 22451	PGC-1α−/− mice
 T972	Noun_Phrase 22453 22459	Figure
 T973	Noun_Phrase 22453 22462	Figure 6C
 T974	IDENTITY_chain 22453 22462	Figure 6C
 T975	Noun_Phrase 22519 22522	BAT
 T976	Noun_Phrase 22552 22556	cold
-T977	Noun_Phrase 22564 22589	?3-adrenergic stimulation
-T978	Noun_Phrase 22608 22619	PGC-1? null
-T979	Noun_Phrase 22608 22624	PGC-1? null mice
+T977	Noun_Phrase 22564 22589	β3-adrenergic stimulation
+T978	Noun_Phrase 22608 22619	PGC-1α null
+T979	Noun_Phrase 22608 22624	PGC-1α null mice
 T980	Noun_Phrase 22665 22701	mitochondrial respiratory uncoupling
-T981	Noun_Phrase 22741 22750	PGC-1??/?
-T982	Noun_Phrase 22741 22755	PGC-1??/? Mice
-T983	Noun_Phrase 22790 22796	PGC-1?
+T981	Noun_Phrase 22741 22750	PGC-1α−/−
+T982	Noun_Phrase 22741 22755	PGC-1α−/− Mice
+T983	Noun_Phrase 22790 22796	PGC-1α
 T984	Noun_Phrase 22846 22856	fatty acid
 T985	IDENTITY_chain 22846 22856	fatty acid
 T986	Noun_Phrase 22846 22866	fatty acid oxidation
@@ -995,13 +995,13 @@ T993	Noun_Phrase 23001 23081	a stimulus known to induce fatty acid oxidation and
 T994	Noun_Phrase 23028 23048	fatty acid oxidation
 T995	Noun_Phrase 23076 23081	liver
 T996	Noun_Phrase 23089 23109	basal fed conditions
-T997	Noun_Phrase 23111 23143	the livers of the PGC-1??/? mice
-T998	IDENTITY_chain 23111 23143	the livers of the PGC-1??/? mice
-T999	Noun_Phrase 23125 23143	the PGC-1??/? mice
-T1000	Noun_Phrase 23129 23138	PGC-1??/?
+T997	Noun_Phrase 23111 23143	the livers of the PGC-1α−/− mice
+T998	IDENTITY_chain 23111 23143	the livers of the PGC-1α−/− mice
+T999	Noun_Phrase 23125 23143	the PGC-1α−/− mice
+T1000	Noun_Phrase 23129 23138	PGC-1α−/−
 T1001	Noun_Phrase 23214 23230	unpublished data
-T1002	Noun_Phrase 23265 23283	the PGC-1??/? mice
-T1003	Noun_Phrase 23269 23278	PGC-1??/?
+T1002	Noun_Phrase 23265 23283	the PGC-1α−/− mice
+T1003	Noun_Phrase 23269 23278	PGC-1α−/−
 T1004	Noun_Phrase 23301 23318	hepatic steatosis
 T1005	Noun_Phrase 23354 23363	oil red O
 T1006	IDENTITY_chain 23354 23363	oil red O
@@ -1025,13 +1025,13 @@ T1023	Noun_Phrase 23561 23574	fasted states
 T1024	IDENTITY_chain 23561 23574	fasted states
 T1025	Noun_Phrase 23576 23592	unpublished data
 T1026	Noun_Phrase 23693 23704	hepatocytes
-T1027	Noun_Phrase 23724 23733	PGC-1??/?
-T1028	Noun_Phrase 23724 23738	PGC-1??/? mice
-T1029	Noun_Phrase 23724 23754	PGC-1??/? mice and WT controls
+T1027	Noun_Phrase 23724 23733	PGC-1α−/−
+T1028	Noun_Phrase 23724 23738	PGC-1α−/− mice
+T1029	Noun_Phrase 23724 23754	PGC-1α−/− mice and WT controls
 T1030	Noun_Phrase 23743 23754	WT controls
-T1031	Noun_Phrase 23797 23822	the PGC-1??/? hepatocytes
-T1032	IDENTITY_chain 23797 23822	the PGC-1??/? hepatocytes
-T1033	Noun_Phrase 23801 23810	PGC-1??/?
+T1031	Noun_Phrase 23797 23822	the PGC-1α−/− hepatocytes
+T1032	IDENTITY_chain 23797 23822	the PGC-1α−/− hepatocytes
+T1033	Noun_Phrase 23801 23810	PGC-1α−/−
 T1034	Noun_Phrase 23835 23848	neutral lipid
 T1035	IDENTITY_chain 23835 23848	neutral lipid
 T1036	Noun_Phrase 23902 23908	Figure
@@ -1041,31 +1041,31 @@ T1039	Noun_Phrase 23914 23936	3H-palmitate oxidation
 T1040	IDENTITY_chain 23914 23936	3H-palmitate oxidation
 T1041	Noun_Phrase 23914 23942	3H-palmitate oxidation rates
 T1042	IDENTITY_chain 23914 23942	3H-palmitate oxidation rates
-T1043	Noun_Phrase 23971 23980	PGC-1??/?
-T1044	Noun_Phrase 23971 23992	PGC-1??/? hepatocytes
-T1045	Noun_Phrase 24005 24014	PGC-1?+/+
-T1046	Noun_Phrase 24005 24026	PGC-1?+/+ hepatocytes
-T1047	IDENTITY_chain 24005 24026	PGC-1?+/+ hepatocytes
+T1043	Noun_Phrase 23971 23980	PGC-1α−/−
+T1044	Noun_Phrase 23971 23992	PGC-1α−/− hepatocytes
+T1045	Noun_Phrase 24005 24014	PGC-1α+/+
+T1046	Noun_Phrase 24005 24026	PGC-1α+/+ hepatocytes
+T1047	IDENTITY_chain 24005 24026	PGC-1α+/+ hepatocytes
 T1048	Noun_Phrase 24033 24049	basal conditions
 T1049	Noun_Phrase 24076 24082	oleate
 T1050	IDENTITY_chain 24076 24082	oleate
 T1051	Noun_Phrase 24084 24090	Figure
 T1052	Noun_Phrase 24084 24093	Figure 8B
 T1053	IDENTITY_chain 24084 24093	Figure 8B
-T1054	Noun_Phrase 24170 24179	PGC-1??/?
-T1055	Noun_Phrase 24170 24191	PGC-1??/? hepatocytes
+T1054	Noun_Phrase 24170 24179	PGC-1α−/−
+T1055	Noun_Phrase 24170 24191	PGC-1α−/− hepatocytes
 T1056	Noun_Phrase 24296 24301	lipid
 T1057	IDENTITY_chain 24296 24301	lipid
 T1058	IDENTITY_chain 24332 24336	PPAR
 T1059	Noun_Phrase 24332 24336	PPAR
 T1060	APPOS_relation 24332 24336	PPAR
 T1061	Noun_Phrase 24338 24424	a known regulator of hepatic mitochondrial fatty acid oxidation enzyme gene expression
-T1062	Noun_Phrase 24458 24464	PGC-1?
+T1062	Noun_Phrase 24458 24464	PGC-1α
 T1063	Noun_Phrase 24482 24484	we
-T1064	Noun_Phrase 24513 24558	the steatotic phenotype of the PGC-1??/? mice
-T1065	IDENTITY_chain 24513 24558	the steatotic phenotype of the PGC-1??/? mice
-T1066	Noun_Phrase 24540 24558	the PGC-1??/? mice
-T1067	Noun_Phrase 24544 24553	PGC-1??/?
+T1064	Noun_Phrase 24513 24558	the steatotic phenotype of the PGC-1α−/− mice
+T1065	IDENTITY_chain 24513 24558	the steatotic phenotype of the PGC-1α−/− mice
+T1066	Noun_Phrase 24540 24558	the PGC-1α−/− mice
+T1067	Noun_Phrase 24544 24553	PGC-1α−/−
 T1068	Noun_Phrase 24592 24609	PPAR target genes
 T1069	Noun_Phrase 24750 24813	PPAR target genes involved in cellular fatty acid and oxidation
 T1070	Noun_Phrase 24815 24828	MCPT and MCAD
@@ -1080,12 +1080,12 @@ T1078	Noun_Phrase 24917 24924	Table 2
 T1079	IDENTITY_chain 24917 24924	Table 2
 T1080	Noun_Phrase 24933 24935	we
 T1081	Noun_Phrase 25004 25007	fat
-T1082	Noun_Phrase 25021 25058	the hepatocytes of the PGC-1??/? mice
-T1083	Noun_Phrase 25040 25058	the PGC-1??/? mice
-T1084	Noun_Phrase 25044 25053	PGC-1??/?
+T1082	Noun_Phrase 25021 25058	the hepatocytes of the PGC-1α−/− mice
+T1083	Noun_Phrase 25040 25058	the PGC-1α−/− mice
+T1084	Noun_Phrase 25044 25053	PGC-1α−/−
 T1085	Noun_Phrase 25130 25145	the WT controls
-T1086	Noun_Phrase 25147 25156	PGC-1??/?
-T1087	Noun_Phrase 25147 25168	PGC-1??/? hepatocytes
+T1086	Noun_Phrase 25147 25156	PGC-1α−/−
+T1087	Noun_Phrase 25147 25168	PGC-1α−/− hepatocytes
 T1088	Noun_Phrase 25222 25229;25242 25253	state 2 respiration
 T1089	Noun_Phrase 25222 25229;25242 25259	state 2 respiration rates
 T1090	IDENTITY_chain 25222 25229;25242 25259	state 2 respiration rates
@@ -1102,8 +1102,8 @@ T1100	Noun_Phrase 25375 25454	reduced capacity for fat oxidation due to mitochon
 T1101	APPOS_relation 25375 25454	reduced capacity for fat oxidation due to mitochondrial respiratory dysfunction
 T1102	Noun_Phrase 25396 25399	fat
 T1103	Noun_Phrase 25546 25566	fatty acid oxidation
-T1104	Noun_Phrase 25578 25596	the PGC-1??/? mice
-T1105	Noun_Phrase 25582 25591	PGC-1??/?
+T1104	Noun_Phrase 25578 25596	the PGC-1α−/− mice
+T1105	Noun_Phrase 25582 25591	PGC-1α−/−
 T1106	Noun_Phrase 25649 25697	the sterol regulatory element binding protein-1c
 T1107	APPOS_relation 25649 25697	the sterol regulatory element binding protein-1c
 T1108	Noun_Phrase 25699 25707	SREBP-1c
@@ -1113,8 +1113,8 @@ T1111	Noun_Phrase 25796 25799	its
 T1112	Noun_Phrase 25812 25835	stearoyl-CoA desaturase
 T1113	APPOS_relation 25812 25835	stearoyl-CoA desaturase
 T1114	Noun_Phrase 25837 25841	SCD1
-T1115	Noun_Phrase 25861 25870	PGC-1??/?
-T1116	Noun_Phrase 25861 25875	PGC-1??/? mice
+T1115	Noun_Phrase 25861 25870	PGC-1α−/−
+T1116	Noun_Phrase 25861 25875	PGC-1α−/− mice
 T1117	Noun_Phrase 25877 25882	Table
 T1118	Noun_Phrase 25877 25884	Table 2
 T1119	IDENTITY_chain 25932 25959	diglyceride acyltransferase
@@ -1125,33 +1125,33 @@ T1123	Noun_Phrase 26001 26004	TAG
 T1124	Noun_Phrase 26001 26014	TAG synthesis
 T1125	Noun_Phrase 26033 26041	baseline
 T1126	IDENTITY_chain 26033 26041	baseline
-T1127	Noun_Phrase 26087 26096	PGC-1??/?
-T1128	Noun_Phrase 26087 26101	PGC-1??/? mice
+T1127	Noun_Phrase 26087 26096	PGC-1α−/−
+T1128	Noun_Phrase 26087 26101	PGC-1α−/− mice
 T1129	Noun_Phrase 26103 26108	Table
 T1130	Noun_Phrase 26103 26110	Table 2
 T1131	Noun_Phrase 26197 26210	TAG synthesis
-T1132	Noun_Phrase 26236 26254	the PGC-1??/? mice
-T1133	Noun_Phrase 26240 26249	PGC-1??/?
+T1132	Noun_Phrase 26236 26254	the PGC-1α−/− mice
+T1133	Noun_Phrase 26240 26249	PGC-1α−/−
 T1134	Noun_Phrase 26304 26338	3H-glycerol incorporation into TAG
 T1135	IDENTITY_chain 26304 26338	3H-glycerol incorporation into TAG
 T1136	Noun_Phrase 26335 26338	TAG
 T1137	Noun_Phrase 26358 26378	isolated hepatocytes
 T1138	IDENTITY_chain 26358 26378	isolated hepatocytes
 T1139	Noun_Phrase 26380 26400	3H-TAG incorporation
-T1140	Noun_Phrase 26429 26454;26482 26500	hepatocytes isolated from PGC-1?+/+ controls
-T1141	Noun_Phrase 26429 26469	hepatocytes isolated from PGC-1??/? mice
-T1142	Noun_Phrase 26455 26464	PGC-1??/?
-T1143	Noun_Phrase 26455 26469	PGC-1??/? mice
-T1144	Noun_Phrase 26482 26491	PGC-1?+/+
-T1145	Noun_Phrase 26482 26500	PGC-1?+/+ controls
+T1140	Noun_Phrase 26429 26454;26482 26500	hepatocytes isolated from PGC-1α+/+ controls
+T1141	Noun_Phrase 26429 26469	hepatocytes isolated from PGC-1α−/− mice
+T1142	Noun_Phrase 26455 26464	PGC-1α−/−
+T1143	Noun_Phrase 26455 26469	PGC-1α−/− mice
+T1144	Noun_Phrase 26482 26491	PGC-1α+/+
+T1145	Noun_Phrase 26482 26500	PGC-1α+/+ controls
 T1146	Noun_Phrase 26502 26508	Figure
 T1147	Noun_Phrase 26502 26511	Figure 8D
 T1148	IDENTITY_chain 26502 26511	Figure 8D
 T1149	Noun_Phrase 26530 26543	TAG synthesis
-T1150	Noun_Phrase 26567 26578	PGC-1? null
-T1151	Noun_Phrase 26567 26590	PGC-1? null hepatocytes
+T1150	Noun_Phrase 26567 26578	PGC-1α null
+T1151	Noun_Phrase 26567 26590	PGC-1α null hepatocytes
 T1152	Noun_Phrase 26649 26686	the fasting-induced hepatic steatosis
-T1153	Noun_Phrase 26721 26742	Female PGC-1??/? Mice
+T1153	Noun_Phrase 26721 26742	Female PGC-1α−/− Mice
 T1154	Noun_Phrase 26758 26765	Insulin
 T1155	Noun_Phrase 26758 26776	Insulin Resistance
 T1156	Noun_Phrase 26778 26792	Recent studies
@@ -1162,24 +1162,24 @@ T1160	Noun_Phrase 26932 26940	diabetes
 T1161	Noun_Phrase 27082 27089	insulin
 T1162	Noun_Phrase 27082 27104	insulin responsiveness
 T1163	IDENTITY_chain 27082 27104	insulin responsiveness
-T1164	Noun_Phrase 27122 27131	PGC-1??/?
-T1165	Noun_Phrase 27122 27136	PGC-1??/? mice
+T1164	Noun_Phrase 27122 27131	PGC-1α−/−
+T1165	Noun_Phrase 27122 27136	PGC-1α−/− mice
 T1166	Noun_Phrase 27167 27180;27192 27196	2-mo-old male mice
 T1167	IDENTITY_chain 27167 27180;27192 27196	2-mo-old male mice
 T1168	Noun_Phrase 27235 27248	blood glucose
 T1169	IDENTITY_chain 27235 27248	blood glucose
 T1170	Noun_Phrase 27241 27248	glucose
-T1171	Noun_Phrase 27267 27276	PGC-1?+/+
-T1172	Noun_Phrase 27267 27276;27291 27297	PGC-1?+/+ groups
-T1173	IDENTITY_chain 27267 27276;27291 27297	PGC-1?+/+ groups
-T1174	Noun_Phrase 27267 27297	PGC-1?+/+ and PGC-1??/? groups
-T1175	IDENTITY_chain 27267 27297	PGC-1?+/+ and PGC-1??/? groups
-T1176	Noun_Phrase 27281 27290	PGC-1??/?
-T1177	Noun_Phrase 27281 27297	PGC-1??/? groups
-T1178	IDENTITY_chain 27281 27297	PGC-1??/? groups
+T1171	Noun_Phrase 27267 27276	PGC-1α+/+
+T1172	Noun_Phrase 27267 27276;27291 27297	PGC-1α+/+ groups
+T1173	IDENTITY_chain 27267 27276;27291 27297	PGC-1α+/+ groups
+T1174	Noun_Phrase 27267 27297	PGC-1α+/+ and PGC-1α−/− groups
+T1175	IDENTITY_chain 27267 27297	PGC-1α+/+ and PGC-1α−/− groups
+T1176	Noun_Phrase 27281 27290	PGC-1α−/−
+T1177	Noun_Phrase 27281 27297	PGC-1α−/− groups
+T1178	IDENTITY_chain 27281 27297	PGC-1α−/− groups
 T1179	Noun_Phrase 27299 27315	unpublished data
-T1180	Noun_Phrase 27329 27356	older female PGC-1??/? mice
-T1181	IDENTITY_chain 27329 27356	older female PGC-1??/? mice
+T1180	Noun_Phrase 27329 27356	older female PGC-1α−/− mice
+T1181	IDENTITY_chain 27329 27356	older female PGC-1α−/− mice
 T1182	Noun_Phrase 27380 27388	body fat
 T1183	Noun_Phrase 27397 27404	glucose
 T1184	IDENTITY_chain 27397 27404	glucose
@@ -1192,12 +1192,12 @@ T1190	IDENTITY_chain 27595 27621	standard error of the mean
 T1191	Noun_Phrase 27595 27621	standard error of the mean
 T1192	APPOS_relation 27595 27621	standard error of the mean
 T1193	Noun_Phrase 27623 27626	SEM
-T1194	Noun_Phrase 27638 27647	PGC-1?+/+
-T1195	Noun_Phrase 27638 27652	PGC-1?+/+ mice
-T1196	Noun_Phrase 27670 27679	PGC-1??/?
-T1197	Noun_Phrase 27670 27684	PGC-1??/? mice
-T1198	Noun_Phrase 27703 27712	PGC-1??/?
-T1199	Noun_Phrase 27703 27717	PGC-1??/? mice
+T1194	Noun_Phrase 27638 27647	PGC-1α+/+
+T1195	Noun_Phrase 27638 27652	PGC-1α+/+ mice
+T1196	Noun_Phrase 27670 27679	PGC-1α−/−
+T1197	Noun_Phrase 27670 27684	PGC-1α−/− mice
+T1198	Noun_Phrase 27703 27712	PGC-1α−/−
+T1199	Noun_Phrase 27703 27717	PGC-1α−/− mice
 T1200	Noun_Phrase 27746 27753	glucose
 T1201	Noun_Phrase 27746 27763	glucose tolerance
 T1202	Noun_Phrase 27776 27783	WT mice
@@ -1209,11 +1209,11 @@ T1207	IDENTITY_chain 27809 27817	Figure 9
 T1208	Noun_Phrase 27831 27838	glucose
 T1209	Noun_Phrase 27866 27879	high-fat diet
 T1210	IDENTITY_chain 27866 27879	high-fat diet
-T1211	Noun_Phrase 27881 27887;27902 27916	female PGC-1??/? mice
-T1212	Noun_Phrase 27881 27897;27912 27916	female PGC-1?+/+ mice
-T1213	IDENTITY_chain 27881 27897;27912 27916	female PGC-1?+/+ mice
-T1214	Noun_Phrase 27881 27916	female PGC-1?+/+ and PGC-1??/? mice
-T1215	IDENTITY_chain 27881 27916	female PGC-1?+/+ and PGC-1??/? mice
+T1211	Noun_Phrase 27881 27887;27902 27916	female PGC-1α−/− mice
+T1212	Noun_Phrase 27881 27897;27912 27916	female PGC-1α+/+ mice
+T1213	IDENTITY_chain 27881 27897;27912 27916	female PGC-1α+/+ mice
+T1214	Noun_Phrase 27881 27916	female PGC-1α+/+ and PGC-1α−/− mice
+T1215	IDENTITY_chain 27881 27916	female PGC-1α+/+ and PGC-1α−/− mice
 T1216	Noun_Phrase 27932 27945	high-fat chow
 T1217	IDENTITY_chain 27932 27945	high-fat chow
 T1218	Noun_Phrase 27947 27968	43% calories from fat
@@ -1225,27 +1225,27 @@ T1223	IDENTITY_chain 27974 27978	6 wk
 T1224	Noun_Phrase 27991 28002	8 wk of age
 T1225	Noun_Phrase 27999 28002	age
 T1226	Noun_Phrase 28025 28042	the high-fat diet
-T1227	Noun_Phrase 28058 28072;28087 28093	 the PGC-1?+/+ groups
-T1228	Noun_Phrase 28059 28093	the PGC-1?+/+ and PGC-1??/? groups
-T1229	Noun_Phrase 28063 28072	PGC-1?+/+
-T1230	Noun_Phrase 28077 28086	PGC-1??/?
-T1231	Noun_Phrase 28077 28093	PGC-1??/? groups
+T1227	Noun_Phrase 28058 28072;28087 28093	 the PGC-1α+/+ groups
+T1228	Noun_Phrase 28059 28093	the PGC-1α+/+ and PGC-1α−/− groups
+T1229	Noun_Phrase 28063 28072	PGC-1α+/+
+T1230	Noun_Phrase 28077 28086	PGC-1α−/−
+T1231	Noun_Phrase 28077 28093	PGC-1α−/− groups
 T1232	Noun_Phrase 28095 28101	Figure
 T1233	Noun_Phrase 28095 28104	Figure S3
 T1234	IDENTITY_chain 28095 28104	Figure S3
-T1235	Noun_Phrase 28121 28139	the PGC-1??/? mice
-T1236	Noun_Phrase 28125 28134	PGC-1??/?
-T1237	Noun_Phrase 28234 28252	the PGC-1?+/+ mice
-T1238	Noun_Phrase 28238 28247	PGC-1?+/+
+T1235	Noun_Phrase 28121 28139	the PGC-1α−/− mice
+T1236	Noun_Phrase 28125 28134	PGC-1α−/−
+T1237	Noun_Phrase 28234 28252	the PGC-1α+/+ mice
+T1238	Noun_Phrase 28238 28247	PGC-1α+/+
 T1239	Noun_Phrase 28254 28260	Figure
 T1240	Noun_Phrase 28254 28263	Figure 9B
 T1241	IDENTITY_chain 28254 28263	Figure 9B
 T1242	Noun_Phrase 28326 28330	body
-T1243	Noun_Phrase 28362 28387	the female PGC-1??/? mice
+T1243	Noun_Phrase 28362 28387	the female PGC-1α−/− mice
 T1244	Noun_Phrase 28403 28410	insulin
 T1245	Noun_Phrase 28403 28421	insulin resistance
-T1246	Noun_Phrase 28433 28451	the PGC-1??/? mice
-T1247	Noun_Phrase 28437 28446	PGC-1??/?
+T1246	Noun_Phrase 28433 28451	the PGC-1α−/− mice
+T1247	Noun_Phrase 28437 28446	PGC-1α−/−
 T1248	Noun_Phrase 28456 28460;28482 28499	more insulin-sensitive
 T1249	IDENTITY_chain 28456 28460;28482 28499	more insulin-sensitive
 T1250	Noun_Phrase 28456 28477	more glucose-tolerant
@@ -1254,41 +1254,41 @@ T1252	Noun_Phrase 28456 28499	more glucose-tolerant and insulin-sensitive
 T1253	IDENTITY_chain 28456 28499	more glucose-tolerant and insulin-sensitive
 T1254	Noun_Phrase 28505 28531	WT mice on a high-fat diet
 T1255	IDENTITY_chain 28505 28531	WT mice on a high-fat diet
-T1256	Noun_Phrase 28562 28606	the Central Nervous System in PGC-1??/? Mice
-T1257	Noun_Phrase 28592 28601	PGC-1??/?
-T1258	Noun_Phrase 28592 28606	PGC-1??/? Mice
-T1259	Noun_Phrase 28636 28654	the PGC-1??/? mice
-T1260	Noun_Phrase 28640 28649	PGC-1??/?
+T1256	Noun_Phrase 28562 28606	the Central Nervous System in PGC-1α−/− Mice
+T1257	Noun_Phrase 28592 28601	PGC-1α−/−
+T1258	Noun_Phrase 28592 28606	PGC-1α−/− Mice
+T1259	Noun_Phrase 28636 28654	the PGC-1α−/− mice
+T1260	Noun_Phrase 28640 28649	PGC-1α−/−
 T1261	Noun_Phrase 28684 28693	the brain
-T1262	Noun_Phrase 28928 28937	PGC-1?+/+
-T1263	Noun_Phrase 28969 28978	PGC-1??/?
+T1262	Noun_Phrase 28928 28937	PGC-1α+/+
+T1263	Noun_Phrase 28969 28978	PGC-1α−/−
 T1264	Noun_Phrase 29065 29077;29111 29152	the neuropil of the deep layers of the cerebral cortex
 T1265	IDENTITY_chain 29065 29077;29111 29152	the neuropil of the deep layers of the cerebral cortex
 T1266	Noun_Phrase 29133 29152	the cerebral cortex
 T1267	IDENTITY_chain 29133 29152	the cerebral cortex
-T1268	Noun_Phrase 29167 29185	the PGC-1??/? mice
-T1269	Noun_Phrase 29171 29180	PGC-1??/?
-T1270	Noun_Phrase 29194 29212	the PGC-1?+/+ mice
-T1271	Noun_Phrase 29198 29207	PGC-1?+/+
+T1268	Noun_Phrase 29167 29185	the PGC-1α−/− mice
+T1269	Noun_Phrase 29171 29180	PGC-1α−/−
+T1270	Noun_Phrase 29194 29212	the PGC-1α+/+ mice
+T1271	Noun_Phrase 29198 29207	PGC-1α+/+
 T1272	Noun_Phrase 29214 29220	Figure
 T1273	Noun_Phrase 29214 29224	Figure 10A
 T1274	IDENTITY_chain 29214 29224	Figure 10A
 T1275	Noun_Phrase 29249 29269	an astrocytic marker
 T1276	Noun_Phrase 29271 29302	glial fibrillary acidic protein
 T1277	APPOS_relation 29271 29302	glial fibrillary acidic protein
-T1278	Noun_Phrase 29369 29384	PGC-1??/? mouse
-T1279	Noun_Phrase 29369 29400	PGC-1??/? mouse cerebral cortex
-T1280	IDENTITY_chain 29369 29400	PGC-1??/? mouse cerebral cortex
+T1278	Noun_Phrase 29369 29384	PGC-1α−/− mouse
+T1279	Noun_Phrase 29369 29400	PGC-1α−/− mouse cerebral cortex
+T1280	IDENTITY_chain 29369 29400	PGC-1α−/− mouse cerebral cortex
 T1281	Noun_Phrase 29402 29418	unpublished data
-T1282	Noun_Phrase 29580 29589	PGC-1??/?
+T1282	Noun_Phrase 29580 29589	PGC-1α−/−
 T1283	Noun_Phrase 29779 29795	unpublished data
-T1284	Noun_Phrase 29940 29971	the PGC-1??/? cerebellar cortex
-T1285	Noun_Phrase 29944 29953	PGC-1??/?
-T1286	Noun_Phrase 30074 30091	the PGC-1??/? CNS
-T1287	Noun_Phrase 30078 30087	PGC-1??/?
-T1288	Noun_Phrase 30125 30163	the PGC-1??/? parietal cerebral cortex
-T1289	IDENTITY_chain 30125 30163	the PGC-1??/? parietal cerebral cortex
-T1290	Noun_Phrase 30129 30138	PGC-1??/?
+T1284	Noun_Phrase 29940 29971	the PGC-1α−/− cerebellar cortex
+T1285	Noun_Phrase 29944 29953	PGC-1α−/−
+T1286	Noun_Phrase 30074 30091	the PGC-1α−/− CNS
+T1287	Noun_Phrase 30078 30087	PGC-1α−/−
+T1288	Noun_Phrase 30125 30163	the PGC-1α−/− parietal cerebral cortex
+T1289	IDENTITY_chain 30125 30163	the PGC-1α−/− parietal cerebral cortex
+T1290	Noun_Phrase 30129 30138	PGC-1α−/−
 T1291	Noun_Phrase 30218 30226	neuropil
 T1292	Noun_Phrase 30228 30234	Figure
 T1293	Noun_Phrase 30228 30238	Figure 10B
@@ -1296,26 +1296,26 @@ T1294	Noun_Phrase 30241 30294	Vacuoles containing aggregates of membranous mater
 T1295	IDENTITY_chain 30241 30294	Vacuoles containing aggregates of membranous material
 T1296	Noun_Phrase 30369 30381	the vacuoles
 T1297	Noun_Phrase 30452 30464	the neuropil
-T1298	Noun_Phrase 30663 30685	the coactivator PGC-1?
+T1298	Noun_Phrase 30663 30685	the coactivator PGC-1α
 T1299	Noun_Phrase 30759 30765	energy
 T1300	Noun_Phrase 30796 30806	fatty acid
 T1301	Noun_Phrase 30796 30816	fatty acid oxidation
 T1302	Noun_Phrase 30818 30826	electron
-T1303	Noun_Phrase 30894 30900	PGC-1?
+T1303	Noun_Phrase 30894 30900	PGC-1α
 T1304	Noun_Phrase 30910 30934	mitochondrial biogenesis
 T1305	Noun_Phrase 30990 30995	NRF-1
 T1306	IDENTITY_chain 30990 30995	NRF-1
 T1307	Noun_Phrase 30997 31002	NRF-2
 T1308	IDENTITY_chain 30997 31002	NRF-2
-T1309	Noun_Phrase 31135 31141	PGC-1?
+T1309	Noun_Phrase 31135 31141	PGC-1α
 T1310	Noun_Phrase 31205 31218;31234 31242	mitochondrial function
 T1311	Noun_Phrase 31205 31229	mitochondrial biogenesis
 T1312	Noun_Phrase 31205 31242	mitochondrial biogenesis and function
 T1313	Noun_Phrase 31276 31280	mice
 T1314	Noun_Phrase 31282 31284	we
-T1315	Noun_Phrase 31300 31306	PGC-1?
+T1315	Noun_Phrase 31300 31306	PGC-1α
 T1316	Noun_Phrase 31388 31412	mitochondrial biogenesis
-T1317	Noun_Phrase 31477 31483	PGC-1?
+T1317	Noun_Phrase 31477 31483	PGC-1α
 T1318	Noun_Phrase 31528 31591	postnatal mitochondrial function and cellular energy metabolism
 T1319	APPOS_relation 31528 31591	postnatal mitochondrial function and cellular energy metabolism
 T1320	Noun_Phrase 31565 31580	cellular energy
@@ -1327,14 +1327,14 @@ T1325	Noun_Phrase 31662 31687	the postnatal environment
 T1326	IDENTITY_chain 31662 31687	the postnatal environment
 T1327	Noun_Phrase 31696 31716	mitochondrial volume
 T1328	Noun_Phrase 31696 31724	mitochondrial volume density
-T1329	Noun_Phrase 31742 31787	slow-twitch skeletal muscle of PGC-1??/? mice
-T1330	Noun_Phrase 31773 31782	PGC-1??/?
-T1331	Noun_Phrase 31773 31787	PGC-1??/? mice
+T1329	Noun_Phrase 31742 31787	slow-twitch skeletal muscle of PGC-1α−/− mice
+T1330	Noun_Phrase 31773 31782	PGC-1α−/−
+T1331	Noun_Phrase 31773 31787	PGC-1α−/− mice
 T1332	Noun_Phrase 31797 31831	mitochondrial respiratory capacity
-T1333	Noun_Phrase 31873 31888;31899 31916	skeletal muscle of PGC-1??/? mice
-T1334	Noun_Phrase 31893 31916	liver of PGC-1??/? mice
-T1335	Noun_Phrase 31902 31911	PGC-1??/?
-T1336	Noun_Phrase 31902 31916	PGC-1??/? mice
+T1333	Noun_Phrase 31873 31888;31899 31916	skeletal muscle of PGC-1α−/− mice
+T1334	Noun_Phrase 31893 31916	liver of PGC-1α−/− mice
+T1335	Noun_Phrase 31902 31911	PGC-1α−/−
+T1336	Noun_Phrase 31902 31916	PGC-1α−/− mice
 T1337	Noun_Phrase 31939 31944	heart
 T1338	Noun_Phrase 31939 31962	heart and soleus muscle
 T1339	APPOS_relation 31939 31962	heart and soleus muscle
@@ -1342,32 +1342,32 @@ T1340	Noun_Phrase 31949 31962	soleus muscle
 T1341	Noun_Phrase 31964 32025	tissues with high reliance on mitochondrial energy production
 T1342	Noun_Phrase 31994 32014	mitochondrial energy
 T1343	Noun_Phrase 32058 32066	body fat
-T1344	Noun_Phrase 32087 32105	the PGC-1??/? mice
-T1345	Noun_Phrase 32091 32100	PGC-1??/?
-T1346	Noun_Phrase 32116 32125	PGC-1??/?
-T1347	Noun_Phrase 32116 32130	PGC-1??/? mice
-T1348	Noun_Phrase 32300 32306	PGC-1?
+T1344	Noun_Phrase 32087 32105	the PGC-1α−/− mice
+T1345	Noun_Phrase 32091 32100	PGC-1α−/−
+T1346	Noun_Phrase 32116 32125	PGC-1α−/−
+T1347	Noun_Phrase 32116 32130	PGC-1α−/− mice
+T1348	Noun_Phrase 32300 32306	PGC-1α
 T1349	Noun_Phrase 32394 32400	energy
 T1350	Noun_Phrase 32412 32437	the postnatal environment
-T1351	Noun_Phrase 32501 32507	PGC-1?
+T1351	Noun_Phrase 32501 32507	PGC-1α
 T1352	Noun_Phrase 32601 32616	skeletal muscle
-T1353	Noun_Phrase 32643 32652	PGC-1??/?
-T1354	Noun_Phrase 32643 32657	PGC-1??/? mice
+T1353	Noun_Phrase 32643 32652	PGC-1α−/−
+T1354	Noun_Phrase 32643 32657	PGC-1α−/− mice
 T1355	Noun_Phrase 32684 32690	energy
-T1356	Noun_Phrase 32794 32803	PGC-1??/?
-T1357	Noun_Phrase 32794 32808	PGC-1??/? mice
-T1358	Noun_Phrase 32914 32923	PGC-1??/?
-T1359	Noun_Phrase 32914 32928	PGC-1??/? mice
+T1356	Noun_Phrase 32794 32803	PGC-1α−/−
+T1357	Noun_Phrase 32794 32808	PGC-1α−/− mice
+T1358	Noun_Phrase 32914 32923	PGC-1α−/−
+T1359	Noun_Phrase 32914 32928	PGC-1α−/− mice
 T1360	Noun_Phrase 33080 33093	cardiac heart
 T1361	Noun_Phrase 33080 33098	cardiac heart rate
-T1362	Noun_Phrase 33132 33156	?-adrenergic stimulation
+T1362	Noun_Phrase 33132 33156	β-adrenergic stimulation
 T1363	Noun_Phrase 33268 33274	energy
 T1364	Noun_Phrase 33268 33285	energy metabolism
-T1365	Noun_Phrase 33310 33316	PGC-1?
+T1365	Noun_Phrase 33310 33316	PGC-1α
 T1366	Noun_Phrase 33358 33361	BAT
 T1367	Noun_Phrase 33375 33377	we
-T1368	Noun_Phrase 33401 33419	the PGC-1??/? mice
-T1369	Noun_Phrase 33405 33414	PGC-1??/?
+T1368	Noun_Phrase 33401 33419	the PGC-1α−/− mice
+T1369	Noun_Phrase 33405 33414	PGC-1α−/−
 T1370	Noun_Phrase 33423 33427	cold
 T1371	APPOS_relation 33423 33427	cold
 T1372	Noun_Phrase 33429 33464	another relevant physiologic stress
@@ -1375,8 +1375,8 @@ T1373	Noun_Phrase 33498 33519	core body temperature
 T1374	Noun_Phrase 33503 33507	body
 T1375	Noun_Phrase 33601 33606	UCP-1
 T1376	Noun_Phrase 33615 33618	BAT
-T1377	Noun_Phrase 33744 33753	PGC-1??/?
-T1378	Noun_Phrase 33744 33758	PGC-1??/? mice
+T1377	Noun_Phrase 33744 33753	PGC-1α−/−
+T1378	Noun_Phrase 33744 33758	PGC-1α−/− mice
 T1379	Noun_Phrase 33760 33762	We
 T1380	Noun_Phrase 33780 33801	thermogenic phenotype
 T1381	Noun_Phrase 33866 33869	BAT
@@ -1386,26 +1386,26 @@ T1384	Noun_Phrase 33967 33990	Animals at an older age
 T1385	Noun_Phrase 34007 34023	cold intolerance
 T1386	IDENTITY_chain 34007 34023	cold intolerance
 T1387	Noun_Phrase 34080 34084	body
-T1388	Noun_Phrase 34149 34155	PGC-1?
+T1388	Noun_Phrase 34149 34155	PGC-1α
 T1389	Noun_Phrase 34217 34223	energy
 T1390	Noun_Phrase 34217 34234	energy metabolism
 T1391	Noun_Phrase 34256 34289	fasting-induced hepatic steatosis
-T1392	Noun_Phrase 34329 34338	PGC-1??/?
-T1393	Noun_Phrase 34329 34343	PGC-1??/? mice
+T1392	Noun_Phrase 34329 34338	PGC-1α−/−
+T1393	Noun_Phrase 34329 34343	PGC-1α−/− mice
 T1394	Noun_Phrase 34411 34432	short-term starvation
 T1395	Noun_Phrase 34434 34436	we
-T1396	Noun_Phrase 34448 34466	the PGC-1??/? mice
-T1397	Noun_Phrase 34452 34461	PGC-1??/?
+T1396	Noun_Phrase 34448 34466	the PGC-1α−/− mice
+T1397	Noun_Phrase 34452 34461	PGC-1α−/−
 T1398	Noun_Phrase 34484 34507	hepatocyte triglyceride
 T1399	Noun_Phrase 34553 34578	palmitate oxidation rates
 T1400	IDENTITY_chain 34553 34578	palmitate oxidation rates
-T1401	Noun_Phrase 34595 34639	hepatocytes isolated from the PGC-1??/? mice
-T1402	Noun_Phrase 34621 34639	the PGC-1??/? mice
-T1403	Noun_Phrase 34625 34634	PGC-1??/?
+T1401	Noun_Phrase 34595 34639	hepatocytes isolated from the PGC-1α−/− mice
+T1402	Noun_Phrase 34621 34639	the PGC-1α−/− mice
+T1403	Noun_Phrase 34625 34634	PGC-1α−/−
 T1404	Noun_Phrase 34667 34672	lipid
 T1405	Noun_Phrase 34718 34738	fatty acid oxidation
-T1406	Noun_Phrase 34748 34759	PGC-1? null
-T1407	Noun_Phrase 34748 34771	PGC-1? null hepatocytes
+T1406	Noun_Phrase 34748 34759	PGC-1α null
+T1407	Noun_Phrase 34748 34771	PGC-1α null hepatocytes
 T1408	Noun_Phrase 34953 34955	we
 T1409	Noun_Phrase 34967 34979	triglyceride
 T1410	IDENTITY_chain 34967 34979	triglyceride
@@ -1415,14 +1415,14 @@ T1413	Noun_Phrase 35053 35061	SREBP-1c
 T1414	Noun_Phrase 35053 35071	SREBP-1c and SCD-1
 T1415	APPOS_relation 35053 35071	SREBP-1c and SCD-1
 T1416	Noun_Phrase 35073 35118	key proteins in the hepatic lipogenic pathway
-T1417	Noun_Phrase 35165 35186	fasted PGC-1??/? mice
-T1418	IDENTITY_chain 35165 35186	fasted PGC-1??/? mice
+T1417	Noun_Phrase 35165 35186	fasted PGC-1α−/− mice
+T1418	IDENTITY_chain 35165 35186	fasted PGC-1α−/− mice
 T1419	Noun_Phrase 35325 35348	the steatotic phenotype
 T1420	Noun_Phrase 35380 35383	our
-T1421	Noun_Phrase 35451 35457	PGC-1?
-T1422	Noun_Phrase 35451 35468	PGC-1? deficiency
-T1423	IDENTITY_chain 35451 35468	PGC-1? deficiency
-T1424	Noun_Phrase 35632 35638	PGC-1?
+T1421	Noun_Phrase 35451 35457	PGC-1α
+T1422	Noun_Phrase 35451 35468	PGC-1α deficiency
+T1423	IDENTITY_chain 35451 35468	PGC-1α deficiency
+T1424	Noun_Phrase 35632 35638	PGC-1α
 T1425	Noun_Phrase 35651 35675	the nuclear receptor FXR
 T1426	APPOS_relation 35651 35675	the nuclear receptor FXR
 T1427	Noun_Phrase 35677 35747	a negative regulator of SREBP-1c expression and triglyceride synthesis
@@ -1435,13 +1435,13 @@ T1433	Noun_Phrase 35968 35979	fatty acids
 T1434	Noun_Phrase 36010 36012	We
 T1435	Noun_Phrase 36030 36042	18 wk of age
 T1436	Noun_Phrase 36039 36042	age
-T1437	Noun_Phrase 36044 36065	female PGC-1??/? mice
+T1437	Noun_Phrase 36044 36065	female PGC-1α−/− mice
 T1438	Noun_Phrase 36162 36171	Lean mass
 T1439	Noun_Phrase 36193 36197	time
 T1440	IDENTITY_chain 36193 36197	time
 T1441	Noun_Phrase 36272 36280	body fat
 T1442	IDENTITY_chain 36272 36280	body fat
-T1443	Noun_Phrase 36299 36318	male PGC-1??/? mice
+T1443	Noun_Phrase 36299 36318	male PGC-1α−/− mice
 T1444	Noun_Phrase 36320 36336	unpublished data
 T1445	Noun_Phrase 36353 36397	the observed abnormalities in weight control
 T1446	IDENTITY_chain 36353 36397	the observed abnormalities in weight control
@@ -1453,15 +1453,15 @@ T1451	Noun_Phrase 36441 36445	food
 T1452	Noun_Phrase 36441 36452	food intake
 T1453	Noun_Phrase 36456 36464	activity
 T1454	IDENTITY_chain 36456 36464	activity
-T1455	Noun_Phrase 36456 36496	activity levels in female PGC-1??/? mice
-T1456	IDENTITY_chain 36456 36496	activity levels in female PGC-1??/? mice
-T1457	Noun_Phrase 36475 36496	female PGC-1??/? mice
+T1455	Noun_Phrase 36456 36496	activity levels in female PGC-1α−/− mice
+T1456	IDENTITY_chain 36456 36496	activity levels in female PGC-1α−/− mice
+T1457	Noun_Phrase 36475 36496	female PGC-1α−/− mice
 T1458	Nonreferential_pronoun 36498 36500	It
 T1459	Noun_Phrase 36533 36548	systemic energy
 T1460	Noun_Phrase 36636 36642	weight
-T1461	Noun_Phrase 36651 36669	the PGC-1??/? mice
-T1462	Noun_Phrase 36655 36664	PGC-1??/?
-T1463	Noun_Phrase 36709 36720	PGC-1? gene
+T1461	Noun_Phrase 36651 36669	the PGC-1α−/− mice
+T1462	Noun_Phrase 36655 36664	PGC-1α−/−
+T1463	Noun_Phrase 36709 36720	PGC-1α gene
 T1464	Noun_Phrase 36851 36874	pure-strain backgrounds
 T1465	IDENTITY_chain 36851 36874	pure-strain backgrounds
 T1466	Noun_Phrase 36891 36895	ages
@@ -1474,86 +1474,86 @@ T1472	Noun_Phrase 37032 37039	glucose
 T1473	Noun_Phrase 37032 37051	glucose intolerance
 T1474	Noun_Phrase 37055 37062	insulin
 T1475	Noun_Phrase 37055 37073	insulin resistance
-T1476	Noun_Phrase 37081 37090	PGC-1??/?
+T1476	Noun_Phrase 37081 37090	PGC-1α−/−
 T1477	Noun_Phrase 37102 37115	standard chow
-T1478	Noun_Phrase 37127 37148	female PGC-1??/? mice
+T1478	Noun_Phrase 37127 37148	female PGC-1α−/− mice
 T1479	Noun_Phrase 37154 37158;37180 37197	more insulin-sensitive
 T1480	Noun_Phrase 37154 37175	more glucose-tolerant
 T1481	Noun_Phrase 37154 37197	more glucose-tolerant and insulin-sensitive
-T1482	Noun_Phrase 37203 37212	PGC-1?+/+
-T1483	Noun_Phrase 37203 37221	PGC-1?+/+ controls
+T1482	Noun_Phrase 37203 37212	PGC-1α+/+
+T1483	Noun_Phrase 37203 37221	PGC-1α+/+ controls
 T1484	Noun_Phrase 37237 37252	a high-fat diet
 T1485	IDENTITY_chain 37237 37252	a high-fat diet
 T1486	Noun_Phrase 37254 37268	These findings
 T1487	IDENTITY_chain 37254 37268	These findings
-T1488	Noun_Phrase 37365 37371	PGC-1?
+T1488	Noun_Phrase 37365 37371	PGC-1α
 T1489	Nonreferential_pronoun 37415 37417	It
-T1490	Noun_Phrase 37513 37538	the PGC-1?-deficient mice
+T1490	Noun_Phrase 37513 37538	the PGC-1α-deficient mice
 T1491	Noun_Phrase 37555 37571	this observation
-T1492	Noun_Phrase 37588 37594	PGC-1?
+T1492	Noun_Phrase 37588 37594	PGC-1α
 T1493	Noun_Phrase 37648 37679	diet-induced insulin resistance
 T1494	Noun_Phrase 37710 37712	we
-T1495	Noun_Phrase 37753 37775	the PGC-1? target PPAR
-T1496	Noun_Phrase 37757 37763	PGC-1?
+T1495	Noun_Phrase 37753 37775	the PGC-1α target PPAR
+T1496	Noun_Phrase 37757 37763	PGC-1α
 T1497	Noun_Phrase 37811 37818	glucose
-T1498	Noun_Phrase 37866 37884	the PGC-1??/? mice
-T1499	Noun_Phrase 37870 37879	PGC-1??/?
+T1498	Noun_Phrase 37866 37884	the PGC-1α−/− mice
+T1499	Noun_Phrase 37870 37879	PGC-1α−/−
 T1500	Noun_Phrase 37927 37953	the central nervous system
 T1501	IDENTITY_chain 37927 37953	the central nervous system
-T1502	Noun_Phrase 38006 38015	PGC-1??/?
-T1503	Noun_Phrase 38006 38020	PGC-1??/? mice
+T1502	Noun_Phrase 38006 38015	PGC-1α−/−
+T1503	Noun_Phrase 38006 38020	PGC-1α−/− mice
 T1504	Noun_Phrase 38091 38110	the cerebral cortex
 T1505	Nonreferential_pronoun 38271 38273	It
-T1506	Noun_Phrase 38291 38297	PGC-1?
+T1506	Noun_Phrase 38291 38297	PGC-1α
 T1507	Noun_Phrase 38325 38330	lipid
 T1508	Noun_Phrase 38517 38543	the central nervous system
-T1509	Noun_Phrase 38603 38612	PGC-1??/?
-T1510	Noun_Phrase 38603 38617	PGC-1??/? mice
-T1511	Noun_Phrase 38717 38735	the PGC-1??/? mice
-T1512	Noun_Phrase 38721 38730	PGC-1??/?
+T1509	Noun_Phrase 38603 38612	PGC-1α−/−
+T1510	Noun_Phrase 38603 38617	PGC-1α−/− mice
+T1511	Noun_Phrase 38717 38735	the PGC-1α−/− mice
+T1512	Noun_Phrase 38721 38730	PGC-1α−/−
 T1513	Noun_Phrase 38743 38785	clear deficits on the inverted screen test
 T1514	IDENTITY_chain 38743 38785	clear deficits on the inverted screen test
 T1515	Noun_Phrase 38761 38785	the inverted screen test
 T1516	Noun_Phrase 38765 38780	inverted screen
 T1517	Noun_Phrase 38787 38801	These deficits
 T1518	Noun_Phrase 38829 38835	muscle
-T1519	Noun_Phrase 38848 38866	the PGC-1??/? mice
-T1520	Noun_Phrase 38852 38861	PGC-1??/?
+T1519	Noun_Phrase 38848 38866	the PGC-1α−/− mice
+T1520	Noun_Phrase 38852 38861	PGC-1α−/−
 T1521	Noun_Phrase 38903 38925	central nervous system
-T1522	Noun_Phrase 39111 39120	PGC-1??/?
-T1523	Noun_Phrase 39111 39125	PGC-1??/? mice
+T1522	Noun_Phrase 39111 39120	PGC-1α−/−
+T1523	Noun_Phrase 39111 39125	PGC-1α−/− mice
 T1524	Nonreferential_pronoun 39127 39129	It
-T1525	Noun_Phrase 39254 39274	the PGC-1? null mice
-T1526	Noun_Phrase 39258 39269	PGC-1? null
+T1525	Noun_Phrase 39254 39274	the PGC-1α null mice
+T1526	Noun_Phrase 39258 39269	PGC-1α null
 T1527	Noun_Phrase 39303 39318	this manuscript
 T1528	IDENTITY_chain 39303 39318	this manuscript
 T1529	Noun_Phrase 39320 39330	Lin et al.
 T1530	IDENTITY_chain 39320 39330	Lin et al.
 T1531	Noun_Phrase 39355 39360	mouse
-T1532	Noun_Phrase 39375 39390	the PGC-1? gene
-T1533	Noun_Phrase 39379 39385	PGC-1?
+T1532	Noun_Phrase 39375 39390	the PGC-1α gene
+T1533	Noun_Phrase 39379 39385	PGC-1α
 T1534	Noun_Phrase 39439 39442	our
 T1535	Noun_Phrase 39478 39488	Lin et al.
-T1536	Noun_Phrase 39559 39586	Both PGC-1?-deficient lines
-T1537	IDENTITY_chain 39559 39586	Both PGC-1?-deficient lines
+T1536	Noun_Phrase 39559 39586	Both PGC-1α-deficient lines
+T1537	IDENTITY_chain 39559 39586	Both PGC-1α-deficient lines
 T1538	Noun_Phrase 39595 39611	cold intolerance
 T1539	Noun_Phrase 39755 39765	Lin et al.
-T1540	Noun_Phrase 39767 39800	the PGC-1??/? mice described here
-T1541	IDENTITY_chain 39767 39800	the PGC-1??/? mice described here
-T1542	Noun_Phrase 39771 39780	PGC-1??/?
+T1540	Noun_Phrase 39767 39800	the PGC-1α−/− mice described here
+T1541	IDENTITY_chain 39767 39800	the PGC-1α−/− mice described here
+T1542	Noun_Phrase 39771 39780	PGC-1α−/−
 T1543	Noun_Phrase 39849 39851	we
 T1544	Noun_Phrase 39890 39905	gluconeogenesis
 T1545	Noun_Phrase 39945 39961	unpublished data
 T1546	Noun_Phrase 39985 39995	Lin et al.
 T1547	Noun_Phrase 40175 40183	baseline
-T1548	Noun_Phrase 40204 40222	the PGC-1??/? mice
-T1549	Noun_Phrase 40208 40217	PGC-1??/?
+T1548	Noun_Phrase 40204 40222	the PGC-1α−/− mice
+T1549	Noun_Phrase 40208 40217	PGC-1α−/−
 T1550	Noun_Phrase 40224 40226	we
 T1551	Noun_Phrase 40236 40252	unpublished data
 T1552	Noun_Phrase 40262 40264	we
 T1553	Noun_Phrase 40311 40319	body fat
-T1554	Noun_Phrase 40323 40332	PGC-1??/?
-T1555	Noun_Phrase 40323 40337	PGC-1??/? mice
+T1554	Noun_Phrase 40323 40332	PGC-1α−/−
+T1555	Noun_Phrase 40323 40337	PGC-1α−/− mice
 T1556	Noun_Phrase 40339 40346	females
 T1557	Noun_Phrase 40360 40365	males
 T1558	Noun_Phrase 40376 40386	Lin et al.
@@ -1563,29 +1563,29 @@ T1561	IDENTITY_chain 40428 40448	diet-induced obesity
 T1562	Noun_Phrase 40453 40460	insulin
 T1563	Noun_Phrase 40453 40471	insulin resistance
 T1564	Noun_Phrase 40473 40475	We
-T1565	Noun_Phrase 40497 40523	male PGC-1?-deficient mice
+T1565	Noun_Phrase 40497 40523	male PGC-1α-deficient mice
 T1566	Noun_Phrase 40555 40575	diet-induced obesity
 T1567	Noun_Phrase 40577 40583	Figure
 T1568	Noun_Phrase 40577 40586	Figure S4
 T1569	IDENTITY_chain 40577 40586	Figure S4
 T1570	Noun_Phrase 40598 40600	we
-T1571	Noun_Phrase 40650 40675	the female PGC-1??/? mice
+T1571	Noun_Phrase 40650 40675	the female PGC-1α−/− mice
 T1572	Noun_Phrase 40727 40740	high-fat diet
-T1573	Noun_Phrase 40812 40821	PGC-1??/?
-T1574	Noun_Phrase 40812 40826	PGC-1??/? mice
-T1575	Noun_Phrase 40900 40948	the nuclear receptor estrogen-related receptor ?
-T1576	APPOS_relation 40900 40948	the nuclear receptor estrogen-related receptor ?
-T1577	Noun_Phrase 40950 40974	a known target of PGC-1?
-T1578	Noun_Phrase 40968 40974	PGC-1?
+T1573	Noun_Phrase 40812 40821	PGC-1α−/−
+T1574	Noun_Phrase 40812 40826	PGC-1α−/− mice
+T1575	Noun_Phrase 40900 40948	the nuclear receptor estrogen-related receptor α
+T1576	APPOS_relation 40900 40948	the nuclear receptor estrogen-related receptor α
+T1577	Noun_Phrase 40950 40974	a known target of PGC-1α
+T1578	Noun_Phrase 40968 40974	PGC-1α
 T1579	Noun_Phrase 40998 41018	diet-induced obesity
-T1580	Noun_Phrase 41038 41059	male PGC-1? null mice
-T1581	Noun_Phrase 41074 41107	the PGC-1??/? mice described here
-T1582	Noun_Phrase 41078 41087	PGC-1??/?
+T1580	Noun_Phrase 41038 41059	male PGC-1α null mice
+T1581	Noun_Phrase 41074 41107	the PGC-1α−/− mice described here
+T1582	Noun_Phrase 41078 41087	PGC-1α−/−
 T1583	Noun_Phrase 41218 41228	Lin et al.
 T1584	Noun_Phrase 41261 41266	males
 T1585	IDENTITY_chain 41261 41266	males
-T1586	Noun_Phrase 41307 41340	the PGC-1??/? mice described here
-T1587	Noun_Phrase 41311 41320	PGC-1??/?
+T1586	Noun_Phrase 41307 41340	the PGC-1α−/− mice described here
+T1587	Noun_Phrase 41311 41320	PGC-1α−/−
 T1588	Nonreferential_pronoun 41383 41385	it
 T1589	Noun_Phrase 41407 41409	we
 T1590	Noun_Phrase 41424 41432	activity
@@ -1597,20 +1597,20 @@ T1595	Noun_Phrase 41523 41526	our
 T1596	Noun_Phrase 41594 41605	the animals
 T1597	Noun_Phrase 41648 41650	we
 T1598	Noun_Phrase 41747 41757	Lin et al.
-T1599	Noun_Phrase 41891 41927	the two PGC-1?-deficient mouse lines
+T1599	Noun_Phrase 41891 41927	the two PGC-1α-deficient mouse lines
 T1600	Nonreferential_pronoun 41943 41945	It
-T1601	Noun_Phrase 42149 42167	the PGC-1??/? mice
-T1602	Noun_Phrase 42153 42162	PGC-1??/?
+T1601	Noun_Phrase 42149 42167	the PGC-1α−/− mice
+T1602	Noun_Phrase 42153 42162	PGC-1α−/−
 T1603	Noun_Phrase 42180 42190	Lin et al.
 T1604	Nonreferential_pronoun 42330 42332	It
 T1605	Noun_Phrase 42369 42373	gene
 T1606	Noun_Phrase 42369 42383	gene targeting
 T1607	Noun_Phrase 42413 42423	Lin et al.
-T1608	Noun_Phrase 42434 42443	PGC-1??/?
-T1609	Noun_Phrase 42434 42448	PGC-1??/? mice
+T1608	Noun_Phrase 42434 42443	PGC-1α−/−
+T1609	Noun_Phrase 42434 42448	PGC-1α−/− mice
 T1610	Noun_Phrase 42489 42494	exons
-T1611	Noun_Phrase 42511 42544	The PGC-1??/? mice described here
-T1612	Noun_Phrase 42515 42524	PGC-1??/?
+T1611	Noun_Phrase 42511 42544	The PGC-1α−/− mice described here
+T1612	Noun_Phrase 42515 42524	PGC-1α−/−
 T1613	Noun_Phrase 42652 42672	the targeting vector
 T1614	Noun_Phrase 42707 42712	exons
 T1615	Noun_Phrase 42707 42714	exons 5
@@ -1618,39 +1618,39 @@ T1616	Noun_Phrase 42707 42720	exons 5 and 6
 T1617	Noun_Phrase 42726 42730	exon
 T1618	Noun_Phrase 42767 42773	RT-PCR
 T1619	Noun_Phrase 42840 42842	We
-T1620	Noun_Phrase 42897 42905	exon 5�6
+T1620	Noun_Phrase 42897 42905	exon 5–6
 T1621	Noun_Phrase 42984 42986	we
-T1622	Noun_Phrase 43004 43015;43027 43042	full-length PGC-1? proteins
-T1623	Noun_Phrase 43019 43042	smaller PGC-1? proteins
+T1622	Noun_Phrase 43004 43015;43027 43042	full-length PGC-1α proteins
+T1623	Noun_Phrase 43019 43042	smaller PGC-1α proteins
 T1624	Noun_Phrase 43046 43062	Western blotting
 T1625	IDENTITY_chain 43046 43062	Western blotting
 T1626	Noun_Phrase 43073 43075	we
 T1627	Noun_Phrase 43131 43149	the immunoblotting
-T1628	Noun_Phrase 43199 43232	mutant (truncated) PGC-1? protein
+T1628	Noun_Phrase 43199 43232	mutant (truncated) PGC-1α protein
 T1629	Noun_Phrase 43275 43277	it
-T1630	Noun_Phrase 43391 43397	PGC-1?
+T1630	Noun_Phrase 43391 43397	PGC-1α
 T1631	Noun_Phrase 43422 43444	the mice reported here
 T1632	Nonreferential_pronoun 43446 43448	it
-T1633	Noun_Phrase 43585 43613	the PGC-1??/? mice described
-T1634	Noun_Phrase 43589 43598	PGC-1??/?
-T1635	Noun_Phrase 43642 43648	PGC-1?
+T1633	Noun_Phrase 43585 43613	the PGC-1α−/− mice described
+T1634	Noun_Phrase 43589 43598	PGC-1α−/−
+T1635	Noun_Phrase 43642 43648	PGC-1α
 T1636	Noun_Phrase 43678 43697	the two mouse lines
 T1637	Noun_Phrase 43701 43724	pure background strains
 T1638	Noun_Phrase 43759 43776	this body of work
-T1639	Noun_Phrase 43800 43806	PGC-l?
+T1639	Noun_Phrase 43800 43806	PGC-lα
 T1640	Noun_Phrase 43864 43880	postnatal energy
 T1641	Noun_Phrase 43890 43893	Our
-T1642	Noun_Phrase 43981 43987	PGC-1?
+T1642	Noun_Phrase 43981 43987	PGC-1α
 T1643	Noun_Phrase 44102 44108	energy
 T1644	Noun_Phrase 44102 44119	energy metabolism
-T1645	Noun_Phrase 44174 44206	the inducible coactivator PGC-1?
-T1646	Noun_Phrase 44375 44386	PGC-1? null
-T1647	Noun_Phrase 44375 44391	PGC-1? null mice
+T1645	Noun_Phrase 44174 44206	the inducible coactivator PGC-1α
+T1646	Noun_Phrase 44375 44386	PGC-1α null
+T1647	Noun_Phrase 44375 44391	PGC-1α null mice
 T1648	Noun_Phrase 44448 44451	our
-T1649	Noun_Phrase 44523 44529	PGC-1?
+T1649	Noun_Phrase 44523 44529	PGC-1α
 T1650	Noun_Phrase 44571 44573	we
-T1651	Noun_Phrase 44587 44605	the PGC-1??/? mice
-T1652	Noun_Phrase 44591 44600	PGC-1??/?
+T1651	Noun_Phrase 44587 44605	the PGC-1α−/− mice
+T1652	Noun_Phrase 44591 44600	PGC-1α−/−
 T1653	Noun_Phrase 44679 44685	energy
 T1654	Noun_Phrase 44700 44707	obesity
 T1655	Noun_Phrase 44709 44717	diabetes
@@ -1665,13 +1665,13 @@ T1663	Noun_Phrase 44811 44832	Materials and Methods
 T1664	IDENTITY_chain 44811 44832	Materials and Methods
 T1665	Noun_Phrase 44825 44832	Methods
 T1666	IDENTITY_chain 44825 44832	Methods
-T1667	Noun_Phrase 44846 44861	the PGC-1? gene
-T1668	Noun_Phrase 44846 44869	the PGC-1? gene in mice
-T1669	Noun_Phrase 44850 44856	PGC-1?
+T1667	Noun_Phrase 44846 44861	the PGC-1α gene
+T1668	Noun_Phrase 44846 44869	the PGC-1α gene in mice
+T1669	Noun_Phrase 44850 44856	PGC-1α
 T1670	Noun_Phrase 44865 44869	mice
-T1671	Noun_Phrase 44871 44964	A BAC genomic clone containing the murine PGC-1? gene, isolated from an Sv129 genomic library
-T1672	IDENTITY_chain 44871 44964	A BAC genomic clone containing the murine PGC-1? gene, isolated from an Sv129 genomic library
-T1673	Noun_Phrase 44902 44924	the murine PGC-1? gene
+T1671	Noun_Phrase 44871 44964	A BAC genomic clone containing the murine PGC-1α gene, isolated from an Sv129 genomic library
+T1672	IDENTITY_chain 44871 44964	A BAC genomic clone containing the murine PGC-1α gene, isolated from an Sv129 genomic library
+T1673	Noun_Phrase 44902 44924	the murine PGC-1α gene
 T1674	Noun_Phrase 45012 45022	California
 T1675	IDENTITY_chain 45012 45022	California
 T1676	Noun_Phrase 45024 45037	United States
@@ -1680,14 +1680,14 @@ T1678	Noun_Phrase 45063 45067	exon
 T1679	Noun_Phrase 45063 45069	exon 3
 T1680	IDENTITY_chain 45063 45069	exon 3
 T1681	Noun_Phrase 45089 45106	the genomic clone
-T1682	Noun_Phrase 45108 45119	A 5? primer
-T1683	IDENTITY_chain 45108 45119	A 5? primer
-T1684	Noun_Phrase 45160 45170	the 5? end
-T1685	IDENTITY_chain 45160 45170	the 5? end
+T1682	Noun_Phrase 45108 45119	A 5′ primer
+T1683	IDENTITY_chain 45108 45119	A 5′ primer
+T1684	Noun_Phrase 45160 45170	the 5′ end
+T1685	IDENTITY_chain 45160 45170	the 5′ end
 T1686	Noun_Phrase 45200 45204	exon
 T1687	Noun_Phrase 45200 45206	exon 3
-T1688	Noun_Phrase 45291 45304	The 3? primer
-T1689	IDENTITY_chain 45291 45304	The 3? primer
+T1688	Noun_Phrase 45291 45304	The 3′ primer
+T1689	IDENTITY_chain 45291 45304	The 3′ primer
 T1690	Noun_Phrase 45412 45450	A second fragment downstream of exon 5
 T1691	IDENTITY_chain 45412 45450	A second fragment downstream of exon 5
 T1692	Noun_Phrase 45444 45448	exon
@@ -1695,8 +1695,8 @@ T1693	Noun_Phrase 45444 45450	exon 5
 T1694	Noun_Phrase 45469 45489	this latter amplicon
 T1695	Noun_Phrase 45500 45504	Xho1
 T1696	IDENTITY_chain 45500 45504	Xho1
-T1697	Noun_Phrase 45532 45538;45546 45553	the 5? primers
-T1698	Noun_Phrase 45543 45553	3? primers
+T1697	Noun_Phrase 45532 45538;45546 45553	the 5′ primers
+T1698	Noun_Phrase 45543 45553	3′ primers
 T1699	Noun_Phrase 45662 45697	p1339-PGK-Neomycin targeting vector
 T1700	Noun_Phrase 45699 45712	The construct
 T1701	Noun_Phrase 45733 45737	Xho1
@@ -1712,7 +1712,7 @@ T1710	Noun_Phrase 46020 46026	Figure
 T1711	Noun_Phrase 46020 46029	Figure 1A
 T1712	Noun_Phrase 46039 46082	One clone out of approximately 400 screened
 T1713	IDENTITY_chain 46039 46082	One clone out of approximately 400 screened
-T1714	Noun_Phrase 46163 46173	the 5? end
+T1714	Noun_Phrase 46163 46173	the 5′ end
 T1715	Noun_Phrase 46175 46185	This clone
 T1716	Noun_Phrase 46206 46214	C57BL6/J
 T1717	IDENTITY_chain 46206 46214	C57BL6/J
@@ -1725,29 +1725,29 @@ T1723	Noun_Phrase 46342 46351	Figure 1B
 T1724	Noun_Phrase 46415 46434	littermate controls
 T1725	Noun_Phrase 46699 46720	Washington University
 T1726	Noun_Phrase 46723 46730	Animals
-T1727	Noun_Phrase 46779 46785;46792 46829	female 8-wk-old PGC-1?+/+ and PGC-1??/? mice
+T1727	Noun_Phrase 46779 46785;46792 46829	female 8-wk-old PGC-1α+/+ and PGC-1α−/− mice
 T1728	Noun_Phrase 46851 46858	tissues
 T1729	IDENTITY_chain 46851 46858	tissues
 T1730	Noun_Phrase 46912 46918	Tissue
 T1731	Noun_Phrase 46983 46987	DEXA
-T1732	Noun_Phrase 47098 47102;47114 47123;47138 47142	male PGC-1?+/+ mice
-T1733	Noun_Phrase 47098 47102;47114 47142	male PGC-1?+/+ and PGC-1??/? mice
-T1734	Noun_Phrase 47098 47102;47128 47142	male PGC-1??/? mice
-T1735	Noun_Phrase 47098 47113;47128 47142	male and female PGC-1??/? mice
-T1736	Noun_Phrase 47098 47123;47138 47142	male and female PGC-1?+/+ mice
-T1737	Noun_Phrase 47098 47142	male and female PGC-1?+/+ and PGC-1??/? mice
-T1738	Noun_Phrase 47107 47113;47128 47142	female PGC-1??/? mice
-T1739	Noun_Phrase 47107 47123;47138 47142	female PGC-1?+/+ mice
-T1740	Noun_Phrase 47107 47142	female PGC-1?+/+ and PGC-1??/? mice
-T1741	Noun_Phrase 47175 47179;47191 47200;47215 47219	male PGC-1?+/+ mice
-T1742	Noun_Phrase 47175 47179;47191 47219	male PGC-1?+/+ and PGC-1??/? mice
-T1743	IDENTITY_chain 47175 47179;47191 47219	male PGC-1?+/+ and PGC-1??/? mice
-T1744	Noun_Phrase 47175 47179;47205 47219	male PGC-1??/? mice
-T1745	Noun_Phrase 47175 47190;47205 47219	male and female PGC-1??/? mice
-T1746	Noun_Phrase 47184 47190;47205 47219	female PGC-1??/? mice
-T1747	Noun_Phrase 47184 47200;47215 47219	female PGC-1?+/+ mice
-T1748	Noun_Phrase 47184 47219	female PGC-1?+/+ and PGC-1??/? mice
-T1749	Noun_Phrase 47253 47257	4 �C
+T1732	Noun_Phrase 47098 47102;47114 47123;47138 47142	male PGC-1α+/+ mice
+T1733	Noun_Phrase 47098 47102;47114 47142	male PGC-1α+/+ and PGC-1α−/− mice
+T1734	Noun_Phrase 47098 47102;47128 47142	male PGC-1α−/− mice
+T1735	Noun_Phrase 47098 47113;47128 47142	male and female PGC-1α−/− mice
+T1736	Noun_Phrase 47098 47123;47138 47142	male and female PGC-1α+/+ mice
+T1737	Noun_Phrase 47098 47142	male and female PGC-1α+/+ and PGC-1α−/− mice
+T1738	Noun_Phrase 47107 47113;47128 47142	female PGC-1α−/− mice
+T1739	Noun_Phrase 47107 47123;47138 47142	female PGC-1α+/+ mice
+T1740	Noun_Phrase 47107 47142	female PGC-1α+/+ and PGC-1α−/− mice
+T1741	Noun_Phrase 47175 47179;47191 47200;47215 47219	male PGC-1α+/+ mice
+T1742	Noun_Phrase 47175 47179;47191 47219	male PGC-1α+/+ and PGC-1α−/− mice
+T1743	IDENTITY_chain 47175 47179;47191 47219	male PGC-1α+/+ and PGC-1α−/− mice
+T1744	Noun_Phrase 47175 47179;47205 47219	male PGC-1α−/− mice
+T1745	Noun_Phrase 47175 47190;47205 47219	male and female PGC-1α−/− mice
+T1746	Noun_Phrase 47184 47190;47205 47219	female PGC-1α−/− mice
+T1747	Noun_Phrase 47184 47200;47215 47219	female PGC-1α+/+ mice
+T1748	Noun_Phrase 47184 47219	female PGC-1α+/+ and PGC-1α−/− mice
+T1749	Noun_Phrase 47253 47257	4 °C
 T1750	Noun_Phrase 47274 47278	food
 T1751	IDENTITY_chain 47274 47278	food
 T1752	Noun_Phrase 47280 47302	Core body temperatures
@@ -1779,13 +1779,13 @@ T1777	Noun_Phrase 48262 48271	genotypes
 T1778	Noun_Phrase 48274 48277	RNA
 T1779	Noun_Phrase 48279 48282	DNA
 T1780	Noun_Phrase 48288 48295	protein
-T1781	Noun_Phrase 48451 48457	PGC-1?
+T1781	Noun_Phrase 48451 48457	PGC-1β
 T1782	Noun_Phrase 48462 48465	PRC
 T1783	Noun_Phrase 48462 48471	PRC cDNAs
 T1784	IDENTITY_chain 48462 48471	PRC cDNAs
 T1785	Noun_Phrase 48555 48560	UCP-1
 T1786	Noun_Phrase 48599 48605	RT-PCR
-T1787	Noun_Phrase 48706 48716;48730 48742	1�2-mo-old PGC??/? mice
+T1787	Noun_Phrase 48706 48716;48730 48742	1–2-mo-old PGCα−/− mice
 T1788	Noun_Phrase 48811 48829	Applied Biosystems
 T1789	IDENTITY_chain 48811 48829	Applied Biosystems
 T1790	Noun_Phrase 48844 48854	California
@@ -1843,7 +1843,7 @@ T1841	Noun_Phrase 50430 50440	0.5 mM DTT
 T1842	IDENTITY_chain 50430 50440	0.5 mM DTT
 T1843	Noun_Phrase 50442 50448	pH 7.1
 T1844	IDENTITY_chain 50442 50448	pH 7.1
-T1845	Noun_Phrase 50518 50522	4 �C
+T1845	Noun_Phrase 50518 50522	4 °C
 T1846	Noun_Phrase 50545 50551	Fibers
 T1847	Noun_Phrase 50592 50609	2.77 mM K2Ca-EGTA
 T1848	Noun_Phrase 50611 50625	7.23 mM K2EGTA
@@ -1891,7 +1891,7 @@ T1889	Noun_Phrase 51730 51743	United States
 T1890	Noun_Phrase 51775 51786	body weight
 T1891	Noun_Phrase 51925 51945	Indirect calorimetry
 T1892	Noun_Phrase 51973 51976	VO2
-T1893	Noun_Phrase 52140 52165	?3-adrenergic stimulation
+T1893	Noun_Phrase 52140 52165	β3-adrenergic stimulation
 T1894	Noun_Phrase 52175 52184	BRL 37344
 T1895	Noun_Phrase 52186 52191	Sigma
 T1896	Noun_Phrase 52252 52263	body weight
@@ -1920,9 +1920,9 @@ T1918	Noun_Phrase 53383 53398	cerebral cortex
 T1919	Noun_Phrase 53599 53604	mouse
 T1920	Noun_Phrase 53599 53616	mouse hepatocytes
 T1921	IDENTITY_chain 53599 53616	mouse hepatocytes
-T1922	Noun_Phrase 53635 53669	 male PGC-1?+/+ and PGC-1??/? mice
-T1923	Noun_Phrase 53636 53640;53655 53669	male PGC-1??/? mice
-T1924	Noun_Phrase 53636 53650;53665 53669	male PGC-1?+/+ mice
+T1922	Noun_Phrase 53635 53669	 male PGC-1α+/+ and PGC-1α−/− mice
+T1923	Noun_Phrase 53636 53640;53655 53669	male PGC-1α−/− mice
+T1924	Noun_Phrase 53636 53650;53665 53669	male PGC-1α+/+ mice
 T1925	Noun_Phrase 53701 53721	Fatty acid oxidation
 T1926	Noun_Phrase 53726 53748	triglyceride synthesis
 T1927	Noun_Phrase 53788 53797	the cells
@@ -1940,14 +1940,14 @@ T1938	Noun_Phrase 54453 54469	general activity
 T1939	Noun_Phrase 54453 54476	general activity levels
 T1940	Noun_Phrase 54481 54487	muscle
 T1941	Noun_Phrase 54493 54497	mice
-T1942	Noun_Phrase 54534 54598	transparent (47.6 cm � 25.4 cm � 20.6 cm) polystyrene enclosures
+T1942	Noun_Phrase 54534 54598	transparent (47.6 cm × 25.4 cm × 20.6 cm) polystyrene enclosures
 T1943	Noun_Phrase 54685 54700	Hamilton-Kinder
 T1944	IDENTITY_chain 54685 54700	Hamilton-Kinder
 T1945	Noun_Phrase 54709 54719	California
 T1946	Noun_Phrase 54721 54734	United States
 T1947	Noun_Phrase 54897 54912	Hamilton-Kinder
-T1948	Noun_Phrase 54933 54961	a 33 cm � 11 cm central zone
-T1949	IDENTITY_chain 54933 54961	a 33 cm � 11 cm central zone
+T1948	Noun_Phrase 54933 54961	a 33 cm × 11 cm central zone
+T1949	IDENTITY_chain 54933 54961	a 33 cm × 11 cm central zone
 T1950	Noun_Phrase 54966 55075	a peripheral or surrounding zone that was 5.5 cm wide with the sides of the cage being the outermost boundary
 T1951	IDENTITY_chain 54966 55075	a peripheral or surrounding zone that was 5.5 cm wide with the sides of the cage being the outermost boundary
 T1952	Noun_Phrase 55038 55046	the cage
@@ -1970,8 +1970,8 @@ T1968	Noun_Phrase 55477 55481	mice
 T1969	Noun_Phrase 55497 55513	a wire mesh grid
 T1970	IDENTITY_chain 55497 55513	a wire mesh grid
 T1971	Noun_Phrase 55541 55551	the screen
-T1972	Noun_Phrase 55568 55572	180�
-T1973	IDENTITY_chain 55568 55572	180�
+T1972	Noun_Phrase 55568 55572	180°
+T1973	IDENTITY_chain 55568 55572	180°
 T1974	Noun_Phrase 55593 55597	60 s
 T1975	Noun_Phrase 55658 55682	the sensorimotor battery
 T1976	IDENTITY_chain 55658 55682	the sensorimotor battery
@@ -1983,8 +1983,8 @@ T1981	Noun_Phrase 55765 55786	inverted screen tests
 T1982	Noun_Phrase 55792 55817	the inclined screen tests
 T1983	IDENTITY_chain 55792 55817	the inclined screen tests
 T1984	Noun_Phrase 55796 55811	inclined screen
-T1985	Noun_Phrase 55851 55956	an elevated (47 cm above the floor) wire mesh grid (16 squares per 10 cm) that was inclined to 60� or 90�
-T1986	IDENTITY_chain 55851 55956	an elevated (47 cm above the floor) wire mesh grid (16 squares per 10 cm) that was inclined to 60� or 90�
+T1985	Noun_Phrase 55851 55956	an elevated (47 cm above the floor) wire mesh grid (16 squares per 10 cm) that was inclined to 60° or 90°
+T1986	IDENTITY_chain 55851 55956	an elevated (47 cm above the floor) wire mesh grid (16 squares per 10 cm) that was inclined to 60° or 90°
 T1987	Noun_Phrase 55958 55969	Each animal
 T1988	IDENTITY_chain 55958 55969	Each animal
 T1989	Noun_Phrase 55998 56008	the screen
@@ -1997,7 +1997,7 @@ T1995	Noun_Phrase 56150 56174	the inverted screen test
 T1996	Noun_Phrase 56154 56169	inverted screen
 T1997	Noun_Phrase 56176 56180	mice
 T1998	Noun_Phrase 56211 56221	the screen
-T1999	Noun_Phrase 56238 56242	180�
+T1999	Noun_Phrase 56238 56242	180°
 T2000	Noun_Phrase 56263 56267	60 s
 T2001	Noun_Phrase 56309 56317	Platform
 T2002	Noun_Phrase 56309 56322	Platform test
@@ -2028,15 +2028,15 @@ T2026	Noun_Phrase 56821 56825	60 s
 T2027	Noun_Phrase 56847 56856	the mouse
 T2028	Noun_Phrase 56896 56915	the Plexiglas ledge
 T2029	Noun_Phrase 56990 57013	Walking initiation test
-T2030	Noun_Phrase 57054 57153	a square outlined by white cloth tape (21 cm � 21 cm) on a smooth black surface of a large tabletop
-T2031	IDENTITY_chain 57054 57153	a square outlined by white cloth tape (21 cm � 21 cm) on a smooth black surface of a large tabletop
+T2030	Noun_Phrase 57054 57153	a square outlined by white cloth tape (21 cm × 21 cm) on a smooth black surface of a large tabletop
+T2031	IDENTITY_chain 57054 57153	a square outlined by white cloth tape (21 cm × 21 cm) on a smooth black surface of a large tabletop
 T2032	Noun_Phrase 57075 57091	white cloth tape
 T2033	IDENTITY_chain 57075 57091	white cloth tape
 T2034	Nonreferential_pronoun 57164 57166	it
 T2035	Noun_Phrase 57192 57202	the square
 T2036	Noun_Phrase 57235 57243	the tape
 T2037	Noun_Phrase 57288 57292	60 s
-T2038	Noun_Phrase 57295 57305;57328 57350	6�8-mo-old PGC-1??/? (n = 8) mice
+T2038	Noun_Phrase 57295 57305;57328 57350	6–8-mo-old PGC-1α−/− (n = 8) mice
 T2039	Noun_Phrase 57363 57373	exhaustion
 T2040	IDENTITY_chain 57363 57373	exhaustion
 T2041	Noun_Phrase 57384 57439	a motorized, speed controlled, modular treadmill system
@@ -2087,7 +2087,7 @@ T2085	Noun_Phrase 59377 59395	Fatigue resistance
 T2086	Noun_Phrase 59547 59552	force
 T2087	Noun_Phrase 59588 59595	fatigue
 T2088	Noun_Phrase 59607 59615	Exercise
-T2089	Noun_Phrase 59653 59663	6�8 mo old
+T2089	Noun_Phrase 59653 59663	6–8 mo old
 T2090	Noun_Phrase 59683 59706	the motorized treadmill
 T2091	Noun_Phrase 59717 59759	run-to-exhaustion settings described above
 T2092	Noun_Phrase 59764 59768	60 s
@@ -2098,8 +2098,8 @@ T2096	IDENTITY_chain 59853 59862	the mouse
 T2097	Noun_Phrase 59993 60028	In vivo cardiac hemodynamic studies
 T2098	IDENTITY_chain 59993 60028	In vivo cardiac hemodynamic studies
 T2099	Noun_Phrase 60030 60049	Hemodynamic studies
-T2100	Noun_Phrase 60129 60150	adult mice (10�12 wk)
-T2101	IDENTITY_chain 60129 60150	adult mice (10�12 wk)
+T2100	Noun_Phrase 60129 60150	adult mice (10–12 wk)
+T2101	IDENTITY_chain 60129 60150	adult mice (10–12 wk)
 T2102	Noun_Phrase 60169 60186	intraperitoneally
 T2103	APPOS_relation 60169 60186	intraperitoneally
 T2104	Noun_Phrase 60188 60190	IP
@@ -2117,8 +2117,8 @@ T2115	Noun_Phrase 60916 60929	United States
 T2116	Noun_Phrase 60933 60971	Isolated working mouse heart perfusion
 T2117	IDENTITY_chain 60933 60971	Isolated working mouse heart perfusion
 T2118	Noun_Phrase 60973 61011	Isolated working mouse heart perfusion
-T2119	Noun_Phrase 61064 61087	Adult mice (4�7 mo old)
-T2120	IDENTITY_chain 61064 61087	Adult mice (4�7 mo old)
+T2119	Noun_Phrase 61064 61087	Adult mice (4–7 mo old)
+T2120	IDENTITY_chain 61064 61087	Adult mice (4–7 mo old)
 T2121	Noun_Phrase 61148 61155	Animals
 T2122	Noun_Phrase 61227 61233	Hearts
 T2123	Noun_Phrase 61273 61300	Krebs-Henseleit bicarbonate
@@ -2150,8 +2150,8 @@ T2148	IDENTITY_chain 62320 62326	ANOVAs
 T2149	Noun_Phrase 62340 62356	general activity
 T2150	Noun_Phrase 62361 62381	sensorimotor battery
 T2151	Noun_Phrase 62444 62448	Data
-T2152	Noun_Phrase 62465 62482	mean values � SEM
-T2153	IDENTITY_chain 62465 62482	mean values � SEM
+T2152	Noun_Phrase 62465 62482	mean values ± SEM
+T2153	IDENTITY_chain 62465 62482	mean values ± SEM
 T2154	Noun_Phrase 62479 62482	SEM
 T2155	Noun_Phrase 62508 62562	The ANOVA model used to analyze each sensorimotor test
 T2156	IDENTITY_chain 62508 62562	The ANOVA model used to analyze each sensorimotor test
@@ -2165,11 +2165,11 @@ T2163	Noun_Phrase 62934 62939	ANOVA
 T2164	Noun_Phrase 63133 63139	Figure
 T2165	Noun_Phrase 63133 63142	Figure S1
 T2166	Noun_Phrase 63144 63152	Activity
-T2167	Noun_Phrase 63144 63184	Activity Levels in Female PGC-1??/? Mice
-T2168	Noun_Phrase 63163 63184	Female PGC-1??/? Mice
-T2169	Noun_Phrase 63221 63230;63239 63252;63261 63272	PGC-1?+/+ and PGC-1??/? female mice
-T2170	Noun_Phrase 63221 63230;63261 63272	PGC-1?+/+ female mice
-T2171	Noun_Phrase 63243 63252;63261 63272	PGC-1??/? female mice
+T2167	Noun_Phrase 63144 63184	Activity Levels in Female PGC-1α−/− Mice
+T2168	Noun_Phrase 63163 63184	Female PGC-1α−/− Mice
+T2169	Noun_Phrase 63221 63230;63239 63252;63261 63272	PGC-1α+/+ and PGC-1α−/− female mice
+T2170	Noun_Phrase 63221 63230;63261 63272	PGC-1α+/+ female mice
+T2171	Noun_Phrase 63243 63252;63261 63272	PGC-1α−/− female mice
 T2172	Noun_Phrase 63413 63423	the bottom
 T2173	IDENTITY_chain 63413 63423	the bottom
 T2174	Noun_Phrase 63452 63455	SEM
@@ -2177,8 +2177,8 @@ T2175	Noun_Phrase 63521 63541	additional data file
 T2176	IDENTITY_chain 63521 63541	additional data file
 T2177	Noun_Phrase 63544 63550	Figure
 T2178	Noun_Phrase 63544 63553	Figure S2
-T2179	Noun_Phrase 63579 63588	PGC-1??/?
-T2180	Noun_Phrase 63579 63593	PGC-1??/? Mice
+T2179	Noun_Phrase 63579 63588	PGC-1α−/−
+T2180	Noun_Phrase 63579 63593	PGC-1α−/− Mice
 T2181	Noun_Phrase 63610 63630	exploratory behavior
 T2182	Noun_Phrase 63667 63689	the center of the cage
 T2183	IDENTITY_chain 63667 63689	the center of the cage
@@ -2194,14 +2194,14 @@ T2192	Noun_Phrase 63828 63834	meters
 T2193	APPOS_relation 63828 63834	meters
 T2194	Noun_Phrase 63836 63837	m
 T2195	Noun_Phrase 63888 63901	the periphery
-T2196	Noun_Phrase 63940 63958	the PGC-1?+/+ mice
-T2197	Noun_Phrase 63944 63953	PGC-1?+/+
+T2196	Noun_Phrase 63940 63958	the PGC-1α+/+ mice
+T2197	Noun_Phrase 63944 63953	PGC-1α+/+
 T2198	Noun_Phrase 63991 64011	additional data file
 T2199	Noun_Phrase 64014 64020	Figure
 T2200	Noun_Phrase 64014 64023	Figure S3
 T2201	Noun_Phrase 64042 64048	Weight
 T2202	Noun_Phrase 64076 64082;64110 64121	Female WT Controls
-T2203	Noun_Phrase 64076 64097	Female PGC-1??/? Mice
+T2203	Noun_Phrase 64076 64097	Female PGC-1α−/− Mice
 T2204	Noun_Phrase 64123 64143	8-wk-old female mice
 T2205	IDENTITY_chain 64123 64143	8-wk-old female mice
 T2206	Noun_Phrase 64168 64171	fat
@@ -2210,28 +2210,28 @@ T2208	Noun_Phrase 64191 64194	fat
 T2209	Noun_Phrase 64200 64204	6 wk
 T2210	Noun_Phrase 64220 64231	body weight
 T2211	Noun_Phrase 64246 64250	6 wk
-T2212	Noun_Phrase 64283 64292;64301 64314;64324 64328	PGC-1?+/+ and PGC-1??/? mice
-T2213	Noun_Phrase 64283 64292;64324 64328	PGC-1?+/+ mice
-T2214	Noun_Phrase 64283 64292	PGC-1?+/+
-T2215	Noun_Phrase 64305 64314;64324 64328	PGC-1??/? mice
-T2216	Noun_Phrase 64305 64314	PGC-1??/?
+T2212	Noun_Phrase 64283 64292;64301 64314;64324 64328	PGC-1α+/+ and PGC-1α−/− mice
+T2213	Noun_Phrase 64283 64292;64324 64328	PGC-1α+/+ mice
+T2214	Noun_Phrase 64283 64292	PGC-1α+/+
+T2215	Noun_Phrase 64305 64314;64324 64328	PGC-1α−/− mice
+T2216	Noun_Phrase 64305 64314	PGC-1α−/−
 T2217	Noun_Phrase 64330 64332	NS
 T2218	Noun_Phrase 64334 64349	not significant
 T2219	APPOS_relation 64334 64349	not significant
 T2220	Noun_Phrase 64382 64402	additional data file
 T2221	Noun_Phrase 64405 64411	Figure
 T2222	Noun_Phrase 64405 64414	Figure S4
-T2223	Noun_Phrase 64416 64435	Male PGC-1??/? Mice
+T2223	Noun_Phrase 64416 64435	Male PGC-1α−/− Mice
 T2224	Noun_Phrase 64462 64482	Diet-Induced Obesity
-T2225	Noun_Phrase 64484 64488;64500 64509;64518 64531;64540 64544	Male PGC-1?+/+ and PGC-1??/? mice
-T2226	Noun_Phrase 64484 64488;64500 64509;64540 64544	Male PGC-1?+/+ mice
-T2227	Noun_Phrase 64484 64488;64522 64531;64540 64544	Male PGC-1??/? mice
-T2228	Noun_Phrase 64484 64499;64521 64531;64540 64544	Male and female  PGC-1??/? mice
-T2229	Noun_Phrase 64484 64509;64540 64544	Male and female PGC-1?+/+ mice
-T2230	IDENTITY_chain 64484 64509;64540 64544	Male and female PGC-1?+/+ mice
-T2231	Noun_Phrase 64493 64499;64522 64531;64540 64544	female PGC-1??/? mice
-T2232	Noun_Phrase 64493 64509;64518 64531;64540 64544	female PGC-1?+/+ and PGC-1??/? mice
-T2233	Noun_Phrase 64493 64509;64540 64544	female PGC-1?+/+ mice
+T2225	Noun_Phrase 64484 64488;64500 64509;64518 64531;64540 64544	Male PGC-1α+/+ and PGC-1α−/− mice
+T2226	Noun_Phrase 64484 64488;64500 64509;64540 64544	Male PGC-1α+/+ mice
+T2227	Noun_Phrase 64484 64488;64522 64531;64540 64544	Male PGC-1α−/− mice
+T2228	Noun_Phrase 64484 64499;64521 64531;64540 64544	Male and female  PGC-1α−/− mice
+T2229	Noun_Phrase 64484 64509;64540 64544	Male and female PGC-1α+/+ mice
+T2230	IDENTITY_chain 64484 64509;64540 64544	Male and female PGC-1α+/+ mice
+T2231	Noun_Phrase 64493 64499;64522 64531;64540 64544	female PGC-1α−/− mice
+T2232	Noun_Phrase 64493 64509;64518 64531;64540 64544	female PGC-1α+/+ and PGC-1α−/− mice
+T2233	Noun_Phrase 64493 64509;64540 64544	female PGC-1α+/+ mice
 T2234	Noun_Phrase 64554 64569	a high-fat diet
 T2235	IDENTITY_chain 64554 64569	a high-fat diet
 T2236	Noun_Phrase 64571 64592	43% calories from fat
@@ -2241,8 +2241,8 @@ T2239	Noun_Phrase 64620 64631	Body weight
 T2240	Noun_Phrase 64665 64686	the graph on the left
 T2241	Noun_Phrase 64700 64703	SEM
 T2242	Noun_Phrase 64715 64726	body weight
-T2243	Noun_Phrase 64805 64827	the PGC-1?+/+ controls
-T2244	Noun_Phrase 64809 64818	PGC-1?+/+
+T2243	Noun_Phrase 64805 64827	the PGC-1α+/+ controls
+T2244	Noun_Phrase 64809 64818	PGC-1α+/+
 T2245	Noun_Phrase 64870 64890	additional data file
 T2246	Noun_Phrase 64893 64898	Table
 T2247	Noun_Phrase 64893 64901	Table S1
@@ -2294,8 +2294,8 @@ T2292	Noun_Phrase 66418 66421	NRF
 T2293	Noun_Phrase 66424 66450	nuclear respiratory factor
 T2294	APPOS_relation 66424 66450	nuclear respiratory factor
 T2295	Noun_Phrase 66452 66455	PGC
-T2296	Noun_Phrase 66458 66475	PPAR? coactivator
-T2297	APPOS_relation 66458 66475	PPAR? coactivator
+T2296	Noun_Phrase 66458 66475	PPARγ coactivator
+T2297	APPOS_relation 66458 66475	PPARγ coactivator
 T2298	Noun_Phrase 66477 66481	PPAR
 T2299	Noun_Phrase 66484 66526	peroxisome proliferator-activated receptor
 T2300	APPOS_relation 66484 66526	peroxisome proliferator-activated receptor
@@ -2328,8 +2328,8 @@ T2326	APPOS_relation 66772 66781	wild-type
 T2327	Noun_Phrase 66783 66790	Figures
 T2328	Noun_Phrase 66795 66801	Tables
 T2329	Noun_Phrase 66803 66809	Figure
-T2330	Noun_Phrase 66825 66840	the PGC-1? Gene
-T2331	Noun_Phrase 66829 66835	PGC-1?
+T2330	Noun_Phrase 66825 66840	the PGC-1α Gene
+T2331	Noun_Phrase 66829 66835	PGC-1α
 T2332	Noun_Phrase 66843 66844	A
 T2333	Noun_Phrase 66863 66877	gene targeting
 T2334	Noun_Phrase 66934 66939	exons
@@ -2337,16 +2337,16 @@ T2335	Noun_Phrase 67035 67095	The targeting construct containing a neomycin (Neo
 T2336	Noun_Phrase 67072 67080	neomycin
 T2337	APPOS_relation 67072 67080	neomycin
 T2338	Noun_Phrase 67082 67085	Neo
-T2339	Noun_Phrase 67111 67126	the PGC-1? gene
-T2340	Noun_Phrase 67115 67121	PGC-1?
+T2339	Noun_Phrase 67111 67126	the PGC-1α gene
+T2340	Noun_Phrase 67115 67121	PGC-1α
 T2341	Noun_Phrase 67181 67205	homologous recombination
-T2342	Noun_Phrase 67207 67294	Homologous recombination between the 3? end of the targeting vector and the PGC-1? gene
-T2343	IDENTITY_chain 67207 67294	Homologous recombination between the 3? end of the targeting vector and the PGC-1? gene
+T2342	Noun_Phrase 67207 67294	Homologous recombination between the 3′ end of the targeting vector and the PGC-1α gene
+T2343	IDENTITY_chain 67207 67294	Homologous recombination between the 3′ end of the targeting vector and the PGC-1α gene
 T2344	Noun_Phrase 67254 67274	the targeting vector
-T2345	Noun_Phrase 67279 67294	the PGC-1? gene
-T2346	Noun_Phrase 67283 67289	PGC-1?
-T2347	Noun_Phrase 67366 67381	the PGC-1? gene
-T2348	Noun_Phrase 67370 67376	PGC-1?
+T2345	Noun_Phrase 67279 67294	the PGC-1α gene
+T2346	Noun_Phrase 67283 67289	PGC-1α
+T2347	Noun_Phrase 67366 67381	the PGC-1α gene
+T2348	Noun_Phrase 67370 67376	PGC-1α
 T2349	Noun_Phrase 67412 67416	exon
 T2350	Noun_Phrase 67412 67418	exon 3
 T2351	Noun_Phrase 67521 67546	the Southern blot studies
@@ -2361,27 +2361,27 @@ T2359	Noun_Phrase 67723 67731	tail DNA
 T2360	Noun_Phrase 67747 67751	Pst1
 T2361	Noun_Phrase 67814 67820	Figure
 T2362	Noun_Phrase 67814 67823	Figure 1A
-T2363	Noun_Phrase 67837 67846	PGC-1?+/+
-T2364	APPOS_relation 67837 67846	PGC-1?+/+
-T2365	Noun_Phrase 67837 67852;67891 67900	PGC-1?+/+ (+/+) genotypes
+T2363	Noun_Phrase 67837 67846	PGC-1α+/+
+T2364	APPOS_relation 67837 67846	PGC-1α+/+
+T2365	Noun_Phrase 67837 67852;67891 67900	PGC-1α+/+ (+/+) genotypes
 T2366	Noun_Phrase 67848 67851	+/+
 T2367	Noun_Phrase 67854 67859	PGC-1
-T2368	Noun_Phrase 67854 67863	PGC-1?+/?
-T2369	APPOS_relation 67854 67863	PGC-1?+/?
-T2370	Noun_Phrase 67854 67869;67891 67900	PGC-1?+/? (+/?) genotypes
-T2371	Noun_Phrase 67865 67868	+/?
-T2372	Noun_Phrase 67875 67884	PGC-1??/?
-T2373	APPOS_relation 67875 67884	PGC-1??/?
-T2374	Noun_Phrase 67875 67900	PGC-1??/? (?/?) genotypes
-T2375	Noun_Phrase 67886 67889	?/?
+T2368	Noun_Phrase 67854 67863	PGC-1α+/−
+T2369	APPOS_relation 67854 67863	PGC-1α+/−
+T2370	Noun_Phrase 67854 67869;67891 67900	PGC-1α+/− (+/−) genotypes
+T2371	Noun_Phrase 67865 67868	+/−
+T2372	Noun_Phrase 67875 67884	PGC-1α−/−
+T2373	APPOS_relation 67875 67884	PGC-1α−/−
+T2374	Noun_Phrase 67875 67900	PGC-1α−/− (−/−) genotypes
+T2375	Noun_Phrase 67886 67889	−/−
 T2376	Noun_Phrase 67925 67935	the bottom
 T2377	Noun_Phrase 67939 67940	C
 T2378	Noun_Phrase 67942 67955	Northern blot
 T2379	IDENTITY_chain 67942 67955	Northern blot
-T2380	Noun_Phrase 68022 68028	PGC-1?
+T2380	Noun_Phrase 68022 68028	PGC-1α
 T2381	Noun_Phrase 68046 68052	Figure
 T2382	Noun_Phrase 68046 68055	Figure 1B
-T2383	Noun_Phrase 68072 68078	PGC-1?
+T2383	Noun_Phrase 68072 68078	PGC-1α
 T2384	Noun_Phrase 68120 68128	PRC cDNA
 T2385	Noun_Phrase 68156 68172	Ethidium bromide
 T2386	IDENTITY_chain 68156 68172	Ethidium bromide
@@ -2392,80 +2392,80 @@ T2390	IDENTITY_chain 68185 68202	18S ribosomal RNA
 T2391	Noun_Phrase 68215 68225	the bottom
 T2392	Noun_Phrase 68229 68230	D
 T2393	Noun_Phrase 68232 68261	Quantitative real time RT-PCR
-T2394	Noun_Phrase 68294 68300	PGC-1?
-T2395	Noun_Phrase 68379 68387	exon 5�3
+T2394	Noun_Phrase 68294 68300	PGC-1α
+T2395	Noun_Phrase 68379 68387	exon 5–3
 T2396	Noun_Phrase 68412 68433	the mutant transcript
 T2397	Noun_Phrase 68486 68503	the WT transcript
 T2398	IDENTITY_chain 68486 68503	the WT transcript
-T2399	Noun_Phrase 68616 68625	PGC-1?+/+
-T2400	Noun_Phrase 68630 68639	PGC-1??/?
+T2399	Noun_Phrase 68616 68625	PGC-1α+/+
+T2400	Noun_Phrase 68630 68639	PGC-1α−/−
 T2401	Noun_Phrase 68641 68645	N.D.
 T2402	Noun_Phrase 68648 68662	not detectable
 T2403	APPOS_relation 68648 68662	not detectable
-T2404	Noun_Phrase 68664 68687	The exon 10�11 amplicon
+T2404	Noun_Phrase 68664 68687	The exon 10–11 amplicon
 T2405	Noun_Phrase 68668 68672	exon
 T2406	Noun_Phrase 68722 68728;68739 68750	mutant transcripts
 T2407	Noun_Phrase 68736 68750	WT transcripts
 T2408	Noun_Phrase 68820 68821	E
 T2409	Noun_Phrase 68823 68835	Western blot
 T2410	Noun_Phrase 68903 68919	basal conditions
-T2411	Noun_Phrase 68946 68950	4 �C
+T2411	Noun_Phrase 68946 68950	4 °C
 T2412	Noun_Phrase 69108 69128	an adenoviral vector
-T2413	Noun_Phrase 69130 69139	Ad-PGC-1?
-T2414	APPOS_relation 69130 69139	Ad-PGC-1?
+T2413	Noun_Phrase 69130 69139	Ad-PGC-1α
+T2414	APPOS_relation 69130 69139	Ad-PGC-1α
 T2415	Noun_Phrase 69178 69187	Ponceau S
 T2416	Noun_Phrase 69201 69208	protein
 T2417	Noun_Phrase 69225 69235	the bottom
 T2418	Noun_Phrase 69238 69244	Figure
 T2419	Noun_Phrase 69238 69246	Figure 2
-T2420	Noun_Phrase 69302 69359	Mild Sex-Limited, Age-Dependent Obesity in PGC-1??/? Mice
-T2421	IDENTITY_chain 69302 69359	Mild Sex-Limited, Age-Dependent Obesity in PGC-1??/? Mice
-T2422	Noun_Phrase 69345 69354	PGC-1??/?
-T2423	Noun_Phrase 69345 69359	PGC-1??/? Mice
+T2420	Noun_Phrase 69302 69359	Mild Sex-Limited, Age-Dependent Obesity in PGC-1α−/− Mice
+T2421	IDENTITY_chain 69302 69359	Mild Sex-Limited, Age-Dependent Obesity in PGC-1α−/− Mice
+T2422	Noun_Phrase 69345 69354	PGC-1α−/−
+T2423	Noun_Phrase 69345 69359	PGC-1α−/− Mice
 T2424	Noun_Phrase 69362 69363	A
-T2425	Noun_Phrase 69429 69433;69447 69457;69473 69482;69497 69501	male and female PGC-1?+/+ mice
-T2426	Noun_Phrase 69429 69433;69447 69457;69473 69501	male and female PGC-1?+/+ and PGC-1??/? mice
-T2427	Noun_Phrase 69429 69433;69447 69457;69487 69501	male and female PGC-1??/? mice
+T2425	Noun_Phrase 69429 69433;69447 69457;69473 69482;69497 69501	male and female PGC-1α+/+ mice
+T2426	Noun_Phrase 69429 69433;69447 69457;69473 69501	male and female PGC-1α+/+ and PGC-1α−/− mice
+T2427	Noun_Phrase 69429 69433;69447 69457;69487 69501	male and female PGC-1α−/− mice
 T2428	Noun_Phrase 69429 69433;69447 69457	male and female
-T2429	Noun_Phrase 69429 69433;69473 69482;69497 69501	male PGC-1?+/+ mice
-T2430	Noun_Phrase 69429 69433;69473 69501	male PGC-1?+/+ and PGC-1??/? mice
-T2431	Noun_Phrase 69429 69433;69487 69501	male PGC-1??/? mice
+T2429	Noun_Phrase 69429 69433;69473 69482;69497 69501	male PGC-1α+/+ mice
+T2430	Noun_Phrase 69429 69433;69473 69501	male PGC-1α+/+ and PGC-1α−/− mice
+T2431	Noun_Phrase 69429 69433;69487 69501	male PGC-1α−/− mice
 T2432	Noun_Phrase 69435 69445	left graph
-T2433	Noun_Phrase 69451 69457;69473 69482;69497 69501	female PGC-1?+/+ mice
-T2434	Noun_Phrase 69451 69457;69473 69501	female PGC-1?+/+ and PGC-1??/? mice
-T2435	Noun_Phrase 69451 69457;69487 69501	female PGC-1??/? mice
+T2433	Noun_Phrase 69451 69457;69473 69482;69497 69501	female PGC-1α+/+ mice
+T2434	Noun_Phrase 69451 69457;69473 69501	female PGC-1α+/+ and PGC-1α−/− mice
+T2435	Noun_Phrase 69451 69457;69487 69501	female PGC-1α−/− mice
 T2436	Noun_Phrase 69459 69471	center graph
 T2437	IDENTITY_chain 69459 69471	center graph
-T2438	Noun_Phrase 69473 69482;69497 69501	PGC-1?+/+ mice
-T2439	Noun_Phrase 69473 69482	PGC-1?+/+
-T2440	Noun_Phrase 69487 69496	PGC-1??/?
+T2438	Noun_Phrase 69473 69482;69497 69501	PGC-1α+/+ mice
+T2439	Noun_Phrase 69473 69482	PGC-1α+/+
+T2440	Noun_Phrase 69487 69496	PGC-1α−/−
 T2441	Noun_Phrase 69503 69518	The body weight
 T2442	APPOS_relation 69503 69518	The body weight
 T2443	Noun_Phrase 69520 69522	BW
-T2444	Noun_Phrase 69581 69590	PGC-1?+/+
-T2445	Noun_Phrase 69581 69602	PGC-1?+/+ littermates
-T2446	Noun_Phrase 69711 69720	PGC-1??/?
-T2447	Noun_Phrase 69711 69725	PGC-1??/? mice
+T2444	Noun_Phrase 69581 69590	PGC-1α+/+
+T2445	Noun_Phrase 69581 69602	PGC-1α+/+ littermates
+T2446	Noun_Phrase 69711 69720	PGC-1α−/−
+T2447	Noun_Phrase 69711 69725	PGC-1α−/− mice
 T2448	Noun_Phrase 69743 69763	age-matched controls
 T2449	Noun_Phrase 69807 69811	DEXA
-T2450	Noun_Phrase 69825 69834;69849 69853	PGC-1?+/+ mice
-T2451	Noun_Phrase 69825 69834	PGC-1?+/+
-T2452	Noun_Phrase 69825 69853	PGC-1?+/+ and PGC-1??/? mice
-T2453	Noun_Phrase 69839 69848	PGC-1??/?
-T2454	Noun_Phrase 69839 69853	PGC-1??/? mice
+T2450	Noun_Phrase 69825 69834;69849 69853	PGC-1α+/+ mice
+T2451	Noun_Phrase 69825 69834	PGC-1α+/+
+T2452	Noun_Phrase 69825 69853	PGC-1α+/+ and PGC-1α−/− mice
+T2453	Noun_Phrase 69839 69848	PGC-1α−/−
+T2454	Noun_Phrase 69839 69853	PGC-1α−/− mice
 T2455	Noun_Phrase 69855 69866	right graph
 T2456	IDENTITY_chain 69855 69866	right graph
-T2457	Noun_Phrase 69977 70000	corresponding PGC-1?+/+
-T2458	Noun_Phrase 69977 70005	corresponding PGC-1?+/+ mice
-T2459	IDENTITY_chain 69977 70005	corresponding PGC-1?+/+ mice
+T2457	Noun_Phrase 69977 70000	corresponding PGC-1α+/+
+T2458	Noun_Phrase 69977 70005	corresponding PGC-1α+/+ mice
+T2459	IDENTITY_chain 69977 70005	corresponding PGC-1α+/+ mice
 T2460	Noun_Phrase 70009 70010	B
 T2461	Noun_Phrase 70156 70159	SEM
-T2462	Noun_Phrase 70225 70248	corresponding PGC-1?+/+
-T2463	Noun_Phrase 70225 70253	corresponding PGC-1?+/+ mice
+T2462	Noun_Phrase 70225 70248	corresponding PGC-1α+/+
+T2463	Noun_Phrase 70225 70253	corresponding PGC-1α+/+ mice
 T2464	Noun_Phrase 70256 70262	Figure
-T2465	Noun_Phrase 70302 70347	Slow-Twitch Skeletal Muscle of PGC-1??/? Mice
-T2466	Noun_Phrase 70333 70342	PGC-1??/?
-T2467	Noun_Phrase 70333 70347	PGC-1??/? Mice
+T2465	Noun_Phrase 70302 70347	Slow-Twitch Skeletal Muscle of PGC-1α−/− Mice
+T2466	Noun_Phrase 70333 70342	PGC-1α−/−
+T2467	Noun_Phrase 70333 70347	PGC-1α−/− Mice
 T2468	Noun_Phrase 70350 70351	A
 T2469	Noun_Phrase 70368 70376	electron
 T2470	Noun_Phrase 70458 70459	B
@@ -2478,44 +2478,44 @@ T2476	APPOS_relation 70564 70576	myofibrillar
 T2477	Noun_Phrase 70578 70581	Myo
 T2478	Noun_Phrase 70614 70622	electron
 T2479	Noun_Phrase 70614 70634	electron micrographs
-T2480	Noun_Phrase 70701 70711	mean � SEM
-T2481	IDENTITY_chain 70701 70711	mean � SEM
+T2480	Noun_Phrase 70701 70711	mean ± SEM
+T2481	IDENTITY_chain 70701 70711	mean ± SEM
 T2482	Noun_Phrase 70708 70711	SEM
-T2483	Noun_Phrase 70736 70759	corresponding PGC-1?+/+
-T2484	Noun_Phrase 70736 70766	corresponding PGC-1?+/+ values
-T2485	IDENTITY_chain 70736 70766	corresponding PGC-1?+/+ values
+T2483	Noun_Phrase 70736 70759	corresponding PGC-1α+/+
+T2484	Noun_Phrase 70736 70766	corresponding PGC-1α+/+ values
+T2485	IDENTITY_chain 70736 70766	corresponding PGC-1α+/+ values
 T2486	Noun_Phrase 70770 70771	C
 T2487	Noun_Phrase 70902 70926	mitochondrial metabolism
 T2488	Noun_Phrase 70931 70955	mitochondrial biogenesis
 T2489	Noun_Phrase 70957 70969	cytochrome C
 T2490	APPOS_relation 70957 70969	cytochrome C
 T2491	Noun_Phrase 70971 70977	Cyto c
-T2492	Noun_Phrase 70980 70994	ATP synthase ?
-T2493	IDENTITY_chain 70980 70994	ATP synthase ?
+T2492	Noun_Phrase 70980 70994	ATP synthase β
+T2493	IDENTITY_chain 70980 70994	ATP synthase β
 T2494	Noun_Phrase 70996 71000	Tfam
 T2495	Noun_Phrase 71006 71027	cytochrome oxidase IV
 T2496	APPOS_relation 71006 71027	cytochrome oxidase IV
 T2497	Noun_Phrase 71029 71035	COX IV
 T2498	Noun_Phrase 71097 71100	age
-T2499	Noun_Phrase 71205 71228	corresponding PGC-1?+/+
-T2500	Noun_Phrase 71205 71235	corresponding PGC-1?+/+ values
+T2499	Noun_Phrase 71205 71228	corresponding PGC-1α+/+
+T2500	Noun_Phrase 71205 71235	corresponding PGC-1α+/+ values
 T2501	Noun_Phrase 71239 71240	D
 T2502	Noun_Phrase 71291 71309	oxygen consumption
 T2503	APPOS_relation 71291 71309	oxygen consumption
 T2504	Noun_Phrase 71311 71314	VO2
-T2505	Noun_Phrase 71379 71388;71403 71417	soleus of PGC-1??/? mice
-T2506	Noun_Phrase 71389 71398;71413 71417	PGC-1?+/+ mice
-T2507	Noun_Phrase 71389 71398	PGC-1?+/+
-T2508	Noun_Phrase 71389 71417	PGC-1?+/+ and PGC-1??/? mice
-T2509	Noun_Phrase 71403 71412	PGC-1??/?
-T2510	Noun_Phrase 71403 71417	PGC-1??/? mice
+T2505	Noun_Phrase 71379 71388;71403 71417	soleus of PGC-1α−/− mice
+T2506	Noun_Phrase 71389 71398;71413 71417	PGC-1α+/+ mice
+T2507	Noun_Phrase 71389 71398	PGC-1α+/+
+T2508	Noun_Phrase 71389 71417	PGC-1α+/+ and PGC-1α−/− mice
+T2509	Noun_Phrase 71403 71412	PGC-1α−/−
+T2510	Noun_Phrase 71403 71417	PGC-1α−/− mice
 T2511	Noun_Phrase 71435 71444	Materials
 T2512	Noun_Phrase 71435 71456	Materials and Methods
 T2513	Noun_Phrase 71449 71456	Methods
 T2514	Noun_Phrase 71524 71533	succinate
 T2515	Noun_Phrase 71552 71576	the presence of rotenone
 T2516	Noun_Phrase 71568 71576	rotenone
-T2517	Noun_Phrase 71578 71597	Mean values (� SEM)
+T2517	Noun_Phrase 71578 71597	Mean values (± SEM)
 T2518	Noun_Phrase 71593 71596	SEM
 T2519	Noun_Phrase 71612 71627;71667 71678	state 2 (basal) respiration
 T2520	Noun_Phrase 71629 71653;71667 71678	state 3 (ADP-stimulated) respiration
@@ -2523,8 +2523,8 @@ T2521	Noun_Phrase 71659 71703	state 4 respiration (presence of oligomycin)
 T2522	Noun_Phrase 71692 71702	oligomycin
 T2523	Noun_Phrase 71706 71712	Figure
 T2524	Noun_Phrase 71706 71714	Figure 4
-T2525	Noun_Phrase 71716 71725	PGC-1??/?
-T2526	Noun_Phrase 71716 71730	PGC-1??/? Mice
+T2525	Noun_Phrase 71716 71725	PGC-1α−/−
+T2526	Noun_Phrase 71716 71730	PGC-1α−/− Mice
 T2527	Noun_Phrase 71790 71791	A
 T2528	Noun_Phrase 71805 71821	general activity
 T2529	Noun_Phrase 71805 71841	general activity and muscle strength
@@ -2541,7 +2541,7 @@ T2539	Noun_Phrase 72029 72039	left graph
 T2540	Noun_Phrase 72056 72068	center graph
 T2541	Noun_Phrase 72099 72117	locomotor activity
 T2542	Noun_Phrase 72153 72164	right graph
-T2543	Noun_Phrase 72287 72310	corresponding PGC-1?+/+
+T2543	Noun_Phrase 72287 72310	corresponding PGC-1α+/+
 T2544	Noun_Phrase 72314 72315	B
 T2545	Noun_Phrase 72317 72325	Exercise
 T2546	Noun_Phrase 72317 72333	Exercise studies
@@ -2550,8 +2550,8 @@ T2548	Noun_Phrase 72453 72463	left graph
 T2549	Noun_Phrase 72481 72490	Materials
 T2550	Noun_Phrase 72481 72502	Materials and Methods
 T2551	Noun_Phrase 72495 72502	Methods
-T2552	Noun_Phrase 72528 72551	corresponding PGC-1?+/+
-T2553	Noun_Phrase 72528 72558	corresponding PGC-1?+/+ values
+T2552	Noun_Phrase 72528 72551	corresponding PGC-1α+/+
+T2553	Noun_Phrase 72528 72558	corresponding PGC-1α+/+ values
 T2554	Noun_Phrase 72560 72566	VO2max
 T2555	Noun_Phrase 72600 72636	2-mo-old male mice for each genotype
 T2556	Noun_Phrase 72623 72636	each genotype
@@ -2560,8 +2560,8 @@ T2558	Noun_Phrase 72723 72734	right graph
 T2559	Noun_Phrase 72752 72761	Materials
 T2560	Noun_Phrase 72752 72773	Materials and Methods
 T2561	Noun_Phrase 72766 72773	Methods
-T2562	Noun_Phrase 72798 72821	corresponding PGC-1?+/+
-T2563	Noun_Phrase 72798 72828	corresponding PGC-1?+/+ values
+T2562	Noun_Phrase 72798 72821	corresponding PGC-1α+/+
+T2563	Noun_Phrase 72798 72828	corresponding PGC-1α+/+ values
 T2564	Noun_Phrase 72832 72833	C
 T2565	Noun_Phrase 72835 72839	Time
 T2566	Noun_Phrase 72892 72905	soleus muscle
@@ -2569,23 +2569,23 @@ T2567	Noun_Phrase 72979 72989	left graph
 T2568	Noun_Phrase 73035 73053	Fatigue Resistance
 T2569	Noun_Phrase 73035 73059	Fatigue Resistance Index
 T2570	Noun_Phrase 73071 73082	right graph
-T2571	Noun_Phrase 73108 73131	corresponding PGC-1?+/+
-T2572	Noun_Phrase 73108 73138	corresponding PGC-1?+/+ values
+T2571	Noun_Phrase 73108 73131	corresponding PGC-1α+/+
+T2572	Noun_Phrase 73108 73138	corresponding PGC-1α+/+ values
 T2573	Noun_Phrase 73141 73147	Figure
-T2574	Noun_Phrase 73202 73211	PGC-1??/?
-T2575	Noun_Phrase 73202 73216	PGC-1??/? Mice
+T2574	Noun_Phrase 73202 73211	PGC-1α−/−
+T2575	Noun_Phrase 73202 73216	PGC-1α−/− Mice
 T2576	Noun_Phrase 73219 73220	A
 T2577	Noun_Phrase 73222 73230	Exercise
-T2578	Noun_Phrase 73258 73321	PGC-1?+/+ (n = 4) and PGC-1??/? (n = 8) female mice aged 6�8 mo
-T2579	IDENTITY_chain 73258 73321	PGC-1?+/+ (n = 4) and PGC-1??/? (n = 8) female mice aged 6�8 mo
-T2580	Noun_Phrase 73280 73321	PGC-1??/? (n = 8) female mice aged 6�8 mo
-T2581	IDENTITY_chain 73280 73321	PGC-1??/? (n = 8) female mice aged 6�8 mo
+T2578	Noun_Phrase 73258 73321	PGC-1α+/+ (n = 4) and PGC-1α−/− (n = 8) female mice aged 6–8 mo
+T2579	IDENTITY_chain 73258 73321	PGC-1α+/+ (n = 4) and PGC-1α−/− (n = 8) female mice aged 6–8 mo
+T2580	Noun_Phrase 73280 73321	PGC-1α−/− (n = 8) female mice aged 6–8 mo
+T2581	IDENTITY_chain 73280 73321	PGC-1α−/− (n = 8) female mice aged 6–8 mo
 T2582	Noun_Phrase 73340 73385	an exercise protocol on a motorized treadmill
 T2583	IDENTITY_chain 73340 73385	an exercise protocol on a motorized treadmill
 T2584	Noun_Phrase 73343 73351	exercise
 T2585	Noun_Phrase 73387 73400	This protocol
-T2586	Noun_Phrase 73424 73442	the PGC-1??/? mice
-T2587	Noun_Phrase 73428 73437	PGC-1??/?
+T2586	Noun_Phrase 73424 73442	the PGC-1α−/− mice
+T2587	Noun_Phrase 73428 73437	PGC-1α−/−
 T2588	Noun_Phrase 73450 73460	exhaustion
 T2589	Noun_Phrase 73485 73505	the exercise studies
 T2590	Noun_Phrase 73489 73497	exercise
@@ -2603,7 +2603,7 @@ T2601	Noun_Phrase 73710 73712	FS
 T2602	Noun_Phrase 73728 73739	right graph
 T2603	Noun_Phrase 73807 73808	B
 T2604	Nonreferential_pronoun 73810 73838	In vivo hemodynamic response
-T2605	Noun_Phrase 73842 73881	the ?1,?1-adrenergic agonist dobutamine
+T2605	Noun_Phrase 73842 73881	the β1,α1-adrenergic agonist dobutamine
 T2606	Noun_Phrase 73959 73962	age
 T2607	Noun_Phrase 74033 74051	the carotid artery
 T2608	Noun_Phrase 74057 74075	the left ventricle
@@ -2619,14 +2619,14 @@ T2617	Noun_Phrase 74194 74199	dP/dt
 T2618	Noun_Phrase 74201 74212	right graph
 T2619	Noun_Phrase 74251 74261	dobutamine
 T2620	Noun_Phrase 74276 74282	Figure
-T2621	Noun_Phrase 74286 74295	PGC-1??/?
-T2622	Noun_Phrase 74286 74300	PGC-1??/? Mice
+T2621	Noun_Phrase 74286 74295	PGC-1α−/−
+T2622	Noun_Phrase 74286 74300	PGC-1α−/− Mice
 T2623	Noun_Phrase 74344 74345	A
-T2624	Noun_Phrase 74347 74356	PGC-1?+/+
-T2625	Noun_Phrase 74370 74379	PGC-1??/?
+T2624	Noun_Phrase 74347 74356	PGC-1α+/+
+T2625	Noun_Phrase 74370 74379	PGC-1α−/−
 T2626	Noun_Phrase 74425 74429	cold
 T2627	APPOS_relation 74425 74429	cold
-T2628	Noun_Phrase 74431 74435	4 �C
+T2628	Noun_Phrase 74431 74435	4 °C
 T2629	Noun_Phrase 74438 74461	Core rectal temperature
 T2630	Noun_Phrase 74509 74525	core temperature
 T2631	Noun_Phrase 74528 74531	SEM
@@ -2640,7 +2640,7 @@ T2638	IDENTITY_chain 74708 74724	UCP-1 transcript
 T2639	Noun_Phrase 74728 74736	baseline
 T2640	Noun_Phrase 74771 74775	cold
 T2641	APPOS_relation 74771 74775	cold
-T2642	Noun_Phrase 74777 74781	4 �C
+T2642	Noun_Phrase 74777 74781	4 °C
 T2643	Noun_Phrase 74791 74807	Ethidium bromide
 T2644	APPOS_relation 74791 74807	Ethidium bromide
 T2645	Noun_Phrase 74791 74842	Ethidium bromide (Eth Br) staining of ribosomal RNA
@@ -2651,59 +2651,59 @@ T2649	Noun_Phrase 74900 74905	UCP-1
 T2650	Noun_Phrase 74900 74916	UCP-1 transcript
 T2651	Noun_Phrase 74942 74952	the bottom
 T2652	Noun_Phrase 75041 75042	C
-T2653	Noun_Phrase 75064 75085	?3-adrenergic agonist
+T2653	Noun_Phrase 75064 75085	β3-adrenergic agonist
 T2654	Noun_Phrase 75099 75121	the oxygen consumption
 T2655	APPOS_relation 75099 75121	the oxygen consumption
 T2656	Noun_Phrase 75123 75126	VO2
-T2657	Noun_Phrase 75189 75224	the ?3-adrenergic agonist BRL 37344
+T2657	Noun_Phrase 75189 75224	the β3-adrenergic agonist BRL 37344
 T2658	Noun_Phrase 75335 75338	VO2
 T2659	Noun_Phrase 75342 75362	indirect calorimetry
 T2660	Noun_Phrase 75371 75374	SEM
 T2661	Noun_Phrase 75402 75408	Figure
 T2662	Noun_Phrase 75402 75410	Figure 7
 T2663	Noun_Phrase 75412 75445	Fasting-Induced Hepatic Steatosis
-T2664	Noun_Phrase 75458 75467	PGC-1??/?
-T2665	Noun_Phrase 75458 75472	PGC-1??/? Mice
-T2666	Noun_Phrase 75536 75545	PGC-1??/?
-T2667	Noun_Phrase 75536 75575	PGC-1??/? mice subjected to a 24-h fast
-T2668	IDENTITY_chain 75536 75575	PGC-1??/? mice subjected to a 24-h fast
+T2664	Noun_Phrase 75458 75467	PGC-1α−/−
+T2665	Noun_Phrase 75458 75472	PGC-1α−/− Mice
+T2666	Noun_Phrase 75536 75545	PGC-1α−/−
+T2667	Noun_Phrase 75536 75575	PGC-1α−/− mice subjected to a 24-h fast
+T2668	IDENTITY_chain 75536 75575	PGC-1α−/− mice subjected to a 24-h fast
 T2669	Noun_Phrase 75582 75591	Oil red O
-T2670	Noun_Phrase 75582 75695	Oil red O staining of histologic sections of liver taken from PGC-1??/? mice under fed and 24 h fasted conditions
-T2671	Noun_Phrase 75644 75653	PGC-1??/?
-T2672	Noun_Phrase 75644 75664;75673 75695	PGC-1??/? mice under 24 h fasted conditions
-T2673	Noun_Phrase 75644 75668;75685 75695	PGC-1??/? mice under fed conditions
-T2674	IDENTITY_chain 75644 75668;75685 75695	PGC-1??/? mice under fed conditions
-T2675	Noun_Phrase 75644 75695	PGC-1??/? mice under fed and 24 h fasted conditions
-T2676	IDENTITY_chain 75644 75695	PGC-1??/? mice under fed and 24 h fasted conditions
+T2670	Noun_Phrase 75582 75695	Oil red O staining of histologic sections of liver taken from PGC-1α−/− mice under fed and 24 h fasted conditions
+T2671	Noun_Phrase 75644 75653	PGC-1α−/−
+T2672	Noun_Phrase 75644 75664;75673 75695	PGC-1α−/− mice under 24 h fasted conditions
+T2673	Noun_Phrase 75644 75668;75685 75695	PGC-1α−/− mice under fed conditions
+T2674	IDENTITY_chain 75644 75668;75685 75695	PGC-1α−/− mice under fed conditions
+T2675	Noun_Phrase 75644 75695	PGC-1α−/− mice under fed and 24 h fasted conditions
+T2676	IDENTITY_chain 75644 75695	PGC-1α−/− mice under fed and 24 h fasted conditions
 T2677	Noun_Phrase 75665 75668;75685 75695	fed conditions
 T2678	Noun_Phrase 75673 75695	24 h fasted conditions
 T2679	Noun_Phrase 75697 75713	The red staining
 T2680	Noun_Phrase 75724 75737	neutral lipid
 T2681	Noun_Phrase 75759 75767	electron
-T2682	Noun_Phrase 75798 75807;75822 75826	PGC-1?+/+ mice
-T2683	Noun_Phrase 75798 75807	PGC-1?+/+
-T2684	Noun_Phrase 75798 75826	PGC-1?+/+ and PGC-1??/? mice
-T2685	Noun_Phrase 75811 75826	 PGC-1??/? mice
-T2686	Noun_Phrase 75812 75821	PGC-1??/?
+T2682	Noun_Phrase 75798 75807;75822 75826	PGC-1α+/+ mice
+T2683	Noun_Phrase 75798 75807	PGC-1α+/+
+T2684	Noun_Phrase 75798 75826	PGC-1α+/+ and PGC-1α−/− mice
+T2685	Noun_Phrase 75811 75826	 PGC-1α−/− mice
+T2686	Noun_Phrase 75812 75821	PGC-1α−/−
 T2687	Noun_Phrase 75881 75894	neutral lipid
-T2688	Noun_Phrase 75939 75948	PGC-1?+/+
-T2689	Noun_Phrase 75961 75970;75979 75989;75998 76020	PGC-1??/? mice under 24-h fasted conditions
-T2690	Noun_Phrase 75961 75970;75979 75993;76010 76020	PGC-1??/? mice under fed conditions
-T2691	Noun_Phrase 75961 75970;75979 76020	PGC-1??/? mice under fed and 24-h fasted conditions
-T2692	Noun_Phrase 75961 75970	PGC-1??/?
+T2688	Noun_Phrase 75939 75948	PGC-1α+/+
+T2689	Noun_Phrase 75961 75970;75979 75989;75998 76020	PGC-1α−/− mice under 24-h fasted conditions
+T2690	Noun_Phrase 75961 75970;75979 75993;76010 76020	PGC-1α−/− mice under fed conditions
+T2691	Noun_Phrase 75961 75970;75979 76020	PGC-1α−/− mice under fed and 24-h fasted conditions
+T2692	Noun_Phrase 75961 75970	PGC-1α−/−
 T2693	Noun_Phrase 75990 75993;76010 76020	fed conditions
 T2694	Noun_Phrase 75998 76020	24-h fasted conditions
 T2695	Noun_Phrase 76035 76041	Figure
-T2696	Noun_Phrase 76045 76085	Hepatocytes Isolated from PGC-1??/? Mice
-T2697	Noun_Phrase 76071 76080	PGC-1??/?
-T2698	Noun_Phrase 76071 76085	PGC-1??/? Mice
+T2696	Noun_Phrase 76045 76085	Hepatocytes Isolated from PGC-1α−/− Mice
+T2697	Noun_Phrase 76071 76080	PGC-1α−/−
+T2698	Noun_Phrase 76071 76085	PGC-1α−/− Mice
 T2699	Noun_Phrase 76123 76124	A
 T2700	Noun_Phrase 76126 76135	Oil red O
 T2701	Noun_Phrase 76180 76189	BSA alone
 T2702	APPOS_relation 76180 76189	BSA alone
 T2703	IDENTITY_chain 76180 76189	BSA alone
 T2704	Noun_Phrase 76191 76194	BSA
-T2705	Noun_Phrase 76199 76228	50 ?M oleate complexed to BSA
+T2705	Noun_Phrase 76199 76228	50 μM oleate complexed to BSA
 T2706	Noun_Phrase 76225 76228	BSA
 T2707	Noun_Phrase 76230 76236	oleate
 T2708	Noun_Phrase 76241 76242	B
@@ -2711,64 +2711,64 @@ T2709	Noun_Phrase 76244 76266	3H-palmitate oxidation
 T2710	Noun_Phrase 76244 76272	3H-palmitate oxidation rates
 T2711	Noun_Phrase 76274 76296	3H-palmitate oxidation
 T2712	Noun_Phrase 76274 76302	3H-palmitate oxidation rates
-T2713	Noun_Phrase 76317 76352;76367 76416	hepatocytes isolated from PGC-1?+/+ mice under cell culture conditions containing BSA
-T2714	IDENTITY_chain 76317 76352;76367 76416	hepatocytes isolated from PGC-1?+/+ mice under cell culture conditions containing BSA
-T2715	Noun_Phrase 76343 76352	PGC-1?+/+
-T2716	Noun_Phrase 76357 76366	PGC-1??/?
+T2713	Noun_Phrase 76317 76352;76367 76416	hepatocytes isolated from PGC-1α+/+ mice under cell culture conditions containing BSA
+T2714	IDENTITY_chain 76317 76352;76367 76416	hepatocytes isolated from PGC-1α+/+ mice under cell culture conditions containing BSA
+T2715	Noun_Phrase 76343 76352	PGC-1α+/+
+T2716	Noun_Phrase 76357 76366	PGC-1α−/−
 T2717	Noun_Phrase 76413 76416	BSA
-T2718	Noun_Phrase 76420 76438	BSA + 50 ?M oleate
+T2718	Noun_Phrase 76420 76438	BSA + 50 μM oleate
 T2719	Noun_Phrase 76440 76460	2:1 oleate/BSA ratio
 T2720	APPOS_relation 76440 76460	2:1 oleate/BSA ratio
 T2721	Noun_Phrase 76560 76573	each genotype
-T2722	Noun_Phrase 76656 76665	PGC-1?+/+
-T2723	Noun_Phrase 76656 76678	PGC-1?+/+ in BSA alone
+T2722	Noun_Phrase 76656 76665	PGC-1α+/+
+T2723	Noun_Phrase 76656 76678	PGC-1α+/+ in BSA alone
 T2724	Noun_Phrase 76669 76678	BSA alone
-T2725	Noun_Phrase 76703 76735	the corresponding PGC-1?+/+ mice
-T2726	Noun_Phrase 76707 76730	corresponding PGC-1?+/+
+T2725	Noun_Phrase 76703 76735	the corresponding PGC-1α+/+ mice
+T2726	Noun_Phrase 76707 76730	corresponding PGC-1α+/+
 T2727	Noun_Phrase 76775 76778	BSA
 T2728	Noun_Phrase 76792 76793	C
 T2729	Noun_Phrase 76795 76800;76807 76820	State 3 respiration
 T2730	Noun_Phrase 76795 76800;76807 76826	State 3 respiration rates
 T2731	Noun_Phrase 76795 76802;76809 76820	State 2 respiration
 T2732	Noun_Phrase 76795 76802;76809 76826	State 2 respiration rates
-T2733	Noun_Phrase 76842 76867;76890 76899;76908 76912	hepatocytes isolated from PGC-1??/? mice
-T2734	Noun_Phrase 76868 76877	PGC-1?+/+
-T2735	Noun_Phrase 76890 76899	PGC-1??/?
-T2736	Noun_Phrase 76977 77000	corresponding PGC-1?+/+
+T2733	Noun_Phrase 76842 76867;76890 76899;76908 76912	hepatocytes isolated from PGC-1α−/− mice
+T2734	Noun_Phrase 76868 76877	PGC-1α+/+
+T2735	Noun_Phrase 76890 76899	PGC-1α−/−
+T2736	Noun_Phrase 76977 77000	corresponding PGC-1α+/+
 T2737	Noun_Phrase 77004 77005	D
 T2738	Noun_Phrase 77007 77020	TAG synthesis
 T2739	Noun_Phrase 77030 77050	isolated hepatocytes
 T2740	Noun_Phrase 77125 77134	Materials
 T2741	Noun_Phrase 77125 77146	Materials and Methods
 T2742	Noun_Phrase 77139 77146	Methods
-T2743	Noun_Phrase 77152 77177;77200 77209;77218 77222	hepatocytes isolated from PGC-1??/? mice
-T2744	Noun_Phrase 77178 77187	PGC-1?+/+
-T2745	Noun_Phrase 77200 77209	PGC-1??/?
-T2746	Noun_Phrase 77251 77274	corresponding PGC-1?+/+
+T2743	Noun_Phrase 77152 77177;77200 77209;77218 77222	hepatocytes isolated from PGC-1α−/− mice
+T2744	Noun_Phrase 77178 77187	PGC-1α+/+
+T2745	Noun_Phrase 77200 77209	PGC-1α−/−
+T2746	Noun_Phrase 77251 77274	corresponding PGC-1α+/+
 T2747	Noun_Phrase 77287 77293	Figure
 T2748	Noun_Phrase 77287 77295	Figure 9
-T2749	Noun_Phrase 77297 77318	Female PGC-1??/? Mice
+T2749	Noun_Phrase 77297 77318	Female PGC-1α−/− Mice
 T2750	Noun_Phrase 77328 77335	Glucose
 T2751	Noun_Phrase 77349 77356	Insulin
-T2752	Noun_Phrase 77379 77405	PGC-1?+/+ on High-Fat Diet
+T2752	Noun_Phrase 77379 77405	PGC-1α+/+ on High-Fat Diet
 T2753	Noun_Phrase 77392 77405	High-Fat Diet
 T2754	Noun_Phrase 77424 77427	age
 T2755	Noun_Phrase 77429 77454	glucose tolerance testing
 T2756	APPOS_relation 77429 77454	glucose tolerance testing
 T2757	IDENTITY_chain 77429 77454	glucose tolerance testing
 T2758	Noun_Phrase 77456 77459	GTT
-T2759	Noun_Phrase 77478 77484;77507 77516;77525 77529	female PGC-1??/? mice
-T2760	Noun_Phrase 77478 77494;77503 77516;77525 77529	female PGC-1?+/+ and PGC-1??/? mice
-T2761	Noun_Phrase 77478 77494;77525 77529	female PGC-1?+/+ mice
+T2759	Noun_Phrase 77478 77484;77507 77516;77525 77529	female PGC-1α−/− mice
+T2760	Noun_Phrase 77478 77494;77503 77516;77525 77529	female PGC-1α+/+ and PGC-1α−/− mice
+T2761	Noun_Phrase 77478 77494;77525 77529	female PGC-1α+/+ mice
 T2762	Noun_Phrase 77544 77557	standard chow
 T2763	Noun_Phrase 77561 77562	B
 T2764	Noun_Phrase 77567 77578	8 wk of age
 T2765	Noun_Phrase 77575 77578	age
-T2766	Noun_Phrase 77580 77589;77598 77611;77621 77625	PGC-1?+/+ and PGC-1??/? mice
-T2767	Noun_Phrase 77580 77589;77621 77625	PGC-1?+/+ mice
-T2768	Noun_Phrase 77580 77589	PGC-1?+/+
-T2769	Noun_Phrase 77602 77611;77621 77625	PGC-1??/? mice
-T2770	Noun_Phrase 77602 77611	PGC-1??/?
+T2766	Noun_Phrase 77580 77589;77598 77611;77621 77625	PGC-1α+/+ and PGC-1α−/− mice
+T2767	Noun_Phrase 77580 77589;77621 77625	PGC-1α+/+ mice
+T2768	Noun_Phrase 77580 77589	PGC-1α+/+
+T2769	Noun_Phrase 77602 77611;77621 77625	PGC-1α−/− mice
+T2770	Noun_Phrase 77602 77611	PGC-1α−/−
 T2771	Noun_Phrase 77640 77646	a diet
 T2772	IDENTITY_chain 77640 77646	a diet
 T2773	Noun_Phrase 77640 77686	a diet containing 43% of its calories from fat
@@ -2778,8 +2778,8 @@ T2776	Noun_Phrase 77688 77695	HF chow
 T2777	APPOS_relation 77688 77695	HF chow
 T2778	Noun_Phrase 77716 77729	blood glucose
 T2779	Noun_Phrase 77739 77742	SEM
-T2780	Noun_Phrase 77746 77755	PGC-1??/?
-T2781	Noun_Phrase 77746 77760	PGC-1??/? mice
+T2780	Noun_Phrase 77746 77755	PGC-1α−/−
+T2781	Noun_Phrase 77746 77760	PGC-1α−/− mice
 T2782	Noun_Phrase 77768 77771;77785 77792;77807 77814	GTT and ITT studies
 T2783	IDENTITY_chain 77768 77771;77785 77792;77807 77814	GTT and ITT studies
 T2784	Noun_Phrase 77768 77771;77807 77814	GTT studies
@@ -2791,42 +2791,42 @@ T2789	IDENTITY_chain 77839 77906	5 wk (GTT) and 6 wk (ITT) after the initiation 
 T2790	Noun_Phrase 77845 77848	GTT
 T2791	Noun_Phrase 77860 77863	ITT
 T2792	Noun_Phrase 77889 77906	the high-fat diet
-T2793	Noun_Phrase 77931 77940	PGC-1?+/+
+T2793	Noun_Phrase 77931 77940	PGC-1α+/+
 T2794	Noun_Phrase 77949 77968	the same time point
 T2795	Noun_Phrase 77971 77977	Figure
-T2796	Noun_Phrase 78000 78044	the Central Nervous System of PGC-1??/? Mice
-T2797	Noun_Phrase 78030 78039	PGC-1??/?
-T2798	Noun_Phrase 78030 78044	PGC-1??/? Mice
+T2796	Noun_Phrase 78000 78044	the Central Nervous System of PGC-1α−/− Mice
+T2797	Noun_Phrase 78030 78039	PGC-1α−/−
+T2798	Noun_Phrase 78030 78044	PGC-1α−/− Mice
 T2799	Noun_Phrase 78047 78048	A
 T2800	Noun_Phrase 78175 78187	the neuropil
 T2801	Noun_Phrase 78189 78195	arrows
 T2802	IDENTITY_chain 78189 78195	arrows
-T2803	Noun_Phrase 78251 78260	PGC-1?+/+
-T2804	Noun_Phrase 78251 78265	PGC-1?+/+ mice
+T2803	Noun_Phrase 78251 78260	PGC-1α+/+
+T2804	Noun_Phrase 78251 78265	PGC-1α+/+ mice
 T2805	Noun_Phrase 78267 78288	hematoxylin and eosin
-T2806	Noun_Phrase 78377 78422;78449 78504	typical vacuoles containing membranous debris the cerebral cortex of a representative PGC-1??/? mouse
+T2806	Noun_Phrase 78377 78422;78449 78504	typical vacuoles containing membranous debris the cerebral cortex of a representative PGC-1α−/− mouse
 T2807	Noun_Phrase 78435 78444	the arrow
-T2808	Noun_Phrase 78449 78504	the cerebral cortex of a representative PGC-1??/? mouse
-T2809	Noun_Phrase 78522 78531	PGC-1?+/+
+T2808	Noun_Phrase 78449 78504	the cerebral cortex of a representative PGC-1α−/− mouse
+T2809	Noun_Phrase 78522 78531	PGC-1α+/+
 T2810	Noun_Phrase 78556 78561	Table
 T2811	Noun_Phrase 78556 78563	Table 1
-T2812	Noun_Phrase 78615 78624;78639 78653	Hearts of PGC-1??/? Mice
-T2813	Noun_Phrase 78625 78634;78649 78653	PGC-1?+/+ Mice
-T2814	Noun_Phrase 78625 78634	PGC-1?+/+
-T2815	Noun_Phrase 78625 78653	PGC-1?+/+ and PGC-1??/? Mice
-T2816	Noun_Phrase 78639 78648	PGC-1??/?
-T2817	Noun_Phrase 78639 78653	PGC-1??/? Mice
-T2818	Noun_Phrase 78672 78682	mean � SEM
+T2812	Noun_Phrase 78615 78624;78639 78653	Hearts of PGC-1α−/− Mice
+T2813	Noun_Phrase 78625 78634;78649 78653	PGC-1α+/+ Mice
+T2814	Noun_Phrase 78625 78634	PGC-1α+/+
+T2815	Noun_Phrase 78625 78653	PGC-1α+/+ and PGC-1α−/− Mice
+T2816	Noun_Phrase 78639 78648	PGC-1α−/−
+T2817	Noun_Phrase 78639 78653	PGC-1α−/− Mice
+T2818	Noun_Phrase 78672 78682	mean ± SEM
 T2819	Noun_Phrase 78679 78682	SEM
 T2820	Noun_Phrase 78696 78701	Table
 T2821	Noun_Phrase 78696 78703	Table 2
-T2822	Noun_Phrase 78743 78746;78758 78767;78782 78786	Fed PGC-1?+/+ Mice
-T2823	Noun_Phrase 78751 78757;78772 78786	Fasted PGC-1??/? Mice
+T2822	Noun_Phrase 78743 78746;78758 78767;78782 78786	Fed PGC-1α+/+ Mice
+T2823	Noun_Phrase 78751 78757;78772 78786	Fasted PGC-1α−/− Mice
 T2824	Noun_Phrase 78813 78816	SEM
 T2825	Noun_Phrase 78870 78886	real-time RT-PCR
-T2826	Noun_Phrase 78964 78982	fed PGC-1?+/+ mice
-T2827	IDENTITY_chain 78964 78982	fed PGC-1?+/+ mice
-T2828	Noun_Phrase 79051 79060	PGC-1?+/+
+T2826	Noun_Phrase 78964 78982	fed PGC-1α+/+ mice
+T2827	IDENTITY_chain 78964 78982	fed PGC-1α+/+ mice
+T2828	Noun_Phrase 79051 79060	PGC-1α+/+
 T2829	Noun_Phrase 79097 79104	L-CPT I
 T2830	Noun_Phrase 79106 79147	liver-type carnitine palmitoyltransferase
 T2831	APPOS_relation 79106 79147	liver-type carnitine palmitoyltransferase
@@ -2907,7 +2907,7 @@ T2905	Noun_Phrase 79740 79749	Lehman JJ
 T2906	Noun_Phrase 79751 79759	Finck BN
 T2907	Noun_Phrase 79761 79773	Schaeffer PJ
 T2908	Noun_Phrase 79775 79783	Wende AR
-T2909	Noun_Phrase 79799 79816	PGC-1?-deficiency
+T2909	Noun_Phrase 79799 79816	PGC-1α-deficiency
 T2910	Noun_Phrase 79868 79874	Muscle
 T2911	Noun_Phrase 79868 79886	Muscle dysfunction
 T2912	Noun_Phrase 79888 79903	abnormal weight

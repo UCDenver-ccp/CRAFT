@@ -23,9 +23,9 @@ T21	Noun_Phrase 411 424	this disorder
 T22	Noun_Phrase 438 483	a homozygous in-frame 18-bp deletion in Itpr1
 T23	Noun_Phrase 478 483	Itpr1
 T24	IDENTITY_chain 478 483	Itpr1
-T25	Noun_Phrase 485 497	Itpr1?18/?18
-T26	APPOS_relation 485 497	Itpr1?18/?18
-T27	IDENTITY_chain 485 497	Itpr1?18/?18
+T25	Noun_Phrase 485 497	Itpr1Δ18/Δ18
+T26	APPOS_relation 485 497	Itpr1Δ18/Δ18
+T27	IDENTITY_chain 485 497	Itpr1Δ18/Δ18
 T28	Noun_Phrase 509 547	inositol 1,4,5-triphosphate receptor 1
 T29	IDENTITY_chain 509 547	inositol 1,4,5-triphosphate receptor 1
 T30	Noun_Phrase 583 588	Itpr1
@@ -179,29 +179,29 @@ T177	Noun_Phrase 4940 4945	Itpr1
 T178	Noun_Phrase 4947 4996	a novel in-frame deletion of 18 bp within exon 36
 T179	Noun_Phrase 4989 4996	exon 36
 T180	IDENTITY_chain 4989 4996	exon 36
-T181	Noun_Phrase 4998 5010	Itpr1?18/?18
-T182	APPOS_relation 4998 5010	Itpr1?18/?18
+T181	Noun_Phrase 4998 5010	Itpr1Δ18/Δ18
+T182	APPOS_relation 4998 5010	Itpr1Δ18/Δ18
 T183	Noun_Phrase 5045 5058	this mutation
 T184	Noun_Phrase 5059 5061	we
-T185	Noun_Phrase 5062 5181	crossed heterozygous mice from the current study (Itpr1wt/?18) with mice heterozygous for the opt mutation (Itpr1wt/opt
-T186	IDENTITY_chain 5062 5181	crossed heterozygous mice from the current study (Itpr1wt/?18) with mice heterozygous for the opt mutation (Itpr1wt/opt
+T185	Noun_Phrase 5062 5181	crossed heterozygous mice from the current study (Itpr1wt/Δ18) with mice heterozygous for the opt mutation (Itpr1wt/opt
+T186	IDENTITY_chain 5062 5181	crossed heterozygous mice from the current study (Itpr1wt/Δ18) with mice heterozygous for the opt mutation (Itpr1wt/opt
 T187	Noun_Phrase 5070 5110	heterozygous mice from the current study
 T188	IDENTITY_chain 5070 5110	heterozygous mice from the current study
 T189	Noun_Phrase 5093 5110	the current study
-T190	Noun_Phrase 5112 5123	Itpr1wt/?18
-T191	APPOS_relation 5112 5123	Itpr1wt/?18
-T192	IDENTITY_chain 5112 5123	Itpr1wt/?18
+T190	Noun_Phrase 5112 5123	Itpr1wt/Δ18
+T191	APPOS_relation 5112 5123	Itpr1wt/Δ18
+T192	IDENTITY_chain 5112 5123	Itpr1wt/Δ18
 T193	Noun_Phrase 5130 5168	mice heterozygous for the opt mutation
 T194	Noun_Phrase 5170 5181	Itpr1wt/opt
 T195	APPOS_relation 5170 5181	Itpr1wt/opt
 T196	IDENTITY_chain 5170 5181	Itpr1wt/opt
 T197	Noun_Phrase 5184 5188	This
 T198	Noun_Phrase 5216 5220	mice
-T199	Noun_Phrase 5237 5268	four affected Itpr1opt/?18 pups
-T200	IDENTITY_chain 5237 5268	four affected Itpr1opt/?18 pups
-T201	Noun_Phrase 5295 5376	a phenotype indistinguishable from that of the Itpr1?18/?18 and Itpr1opt/opt mice
-T202	IDENTITY_chain 5295 5376	a phenotype indistinguishable from that of the Itpr1?18/?18 and Itpr1opt/opt mice
-T203	Noun_Phrase 5342 5354	Itpr1?18/?18
+T199	Noun_Phrase 5237 5268	four affected Itpr1opt/Δ18 pups
+T200	IDENTITY_chain 5237 5268	four affected Itpr1opt/Δ18 pups
+T201	Noun_Phrase 5295 5376	a phenotype indistinguishable from that of the Itpr1Δ18/Δ18 and Itpr1opt/opt mice
+T202	IDENTITY_chain 5295 5376	a phenotype indistinguishable from that of the Itpr1Δ18/Δ18 and Itpr1opt/opt mice
+T203	Noun_Phrase 5342 5354	Itpr1Δ18/Δ18
 T204	Noun_Phrase 5359 5371	Itpr1opt/opt
 T205	Noun_Phrase 5359 5376	Itpr1opt/opt mice
 T206	IDENTITY_chain 5359 5376	Itpr1opt/opt mice
@@ -217,7 +217,7 @@ T215	Noun_Phrase 5579 5591	Itpr1opt/opt
 T216	Noun_Phrase 5620 5625;5633 5635	exons 44
 T217	Noun_Phrase 5620 5628	exons 43
 T218	Noun_Phrase 5620 5635	exons 43 and 44
-T219	Noun_Phrase 5707 5750	the in-frame Itpr1?18/?18 deletion mutation
+T219	Noun_Phrase 5707 5750	the in-frame Itpr1Δ18/Δ18 deletion mutation
 T220	Noun_Phrase 5791 5796	Itpr1
 T221	Noun_Phrase 5800 5825	cerebellar Purkinje cells
 T222	Noun_Phrase 5861 5862	1
@@ -300,8 +300,8 @@ T298	Noun_Phrase 8291 8293	We
 T299	Noun_Phrase 8369 8374	ITPR1
 T300	Noun_Phrase 8378 8383	SUMF1
 T301	Noun_Phrase 8385 8387	we
-T302	Noun_Phrase 8436 8557	a possible heterozygous deletion approximately 6 kb in size within intron 40�41 of ITPR1, at least 5 kb away from exon 40
-T303	IDENTITY_chain 8436 8557	a possible heterozygous deletion approximately 6 kb in size within intron 40�41 of ITPR1, at least 5 kb away from exon 40
+T302	Noun_Phrase 8436 8557	a possible heterozygous deletion approximately 6 kb in size within intron 40–41 of ITPR1, at least 5 kb away from exon 40
+T303	IDENTITY_chain 8436 8557	a possible heterozygous deletion approximately 6 kb in size within intron 40–41 of ITPR1, at least 5 kb away from exon 40
 T304	Noun_Phrase 8519 8524	ITPR1
 T305	Noun_Phrase 8581 8596	this alteration
 T306	Noun_Phrase 8597 8599	it
@@ -393,8 +393,8 @@ T391	Noun_Phrase 10880 10887;10894 10902	exons 3 of SUMF1
 T392	Noun_Phrase 10897 10902	SUMF1
 T393	Noun_Phrase 10981 10996	this phenomenon
 T394	Noun_Phrase 11003 11035	three cerebellar ataxia families
-T395	Noun_Phrase 11048 11070	a SUMF1�ITPR1 deletion
-T396	IDENTITY_chain 11048 11070	a SUMF1�ITPR1 deletion
+T395	Noun_Phrase 11048 11070	a SUMF1–ITPR1 deletion
+T396	IDENTITY_chain 11048 11070	a SUMF1–ITPR1 deletion
 T397	Noun_Phrase 11076 11089	this deletion
 T398	Noun_Phrase 11128 11130	we
 T399	Noun_Phrase 11196 11208	the deletion
@@ -467,9 +467,9 @@ T465	Noun_Phrase 13870 13872	We
 T466	Noun_Phrase 13924 13929	mouse
 T467	Noun_Phrase 13957 13962	human
 T468	Noun_Phrase 13957 13970	human disease
-T469	Noun_Phrase 14003 14027	aged Itpr1wt/?18 animals
-T470	IDENTITY_chain 14003 14027	aged Itpr1wt/?18 animals
-T471	Noun_Phrase 14008 14019	Itpr1wt/?18
+T469	Noun_Phrase 14003 14027	aged Itpr1wt/Δ18 animals
+T470	IDENTITY_chain 14003 14027	aged Itpr1wt/Δ18 animals
+T471	Noun_Phrase 14008 14019	Itpr1wt/Δ18
 T472	Noun_Phrase 14038 14040	us
 T473	Noun_Phrase 14056 14066	these mice
 T474	Noun_Phrase 14122 14127	SCA15
@@ -532,21 +532,21 @@ T530	Noun_Phrase 16522 16530;16538 16546	exons 43 of Itpr1
 T531	Noun_Phrase 16522 16546	exons 43 and 44 of Itpr1
 T532	Noun_Phrase 16541 16546	Itpr1
 T533	Noun_Phrase 16669 16674	Itpr1
-T534	Noun_Phrase 16768 16793	The Itpr1?18/?18 mutation
+T534	Noun_Phrase 16768 16793	The Itpr1Δ18/Δ18 mutation
 T535	Noun_Phrase 16844 16853	Figure S2
 T536	IDENTITY_chain 16844 16853	Figure S2
-T537	Noun_Phrase 16857 17037	Breeding experiments were performed between two female mice heterozygous for the current mutation (Itpr1wt/?18) and a male mouse heterozygous for the Itpr1opt mutation (Itpr1wt/opt
-T538	IDENTITY_chain 16857 17037	Breeding experiments were performed between two female mice heterozygous for the current mutation (Itpr1wt/?18) and a male mouse heterozygous for the Itpr1opt mutation (Itpr1wt/opt
+T537	Noun_Phrase 16857 17037	Breeding experiments were performed between two female mice heterozygous for the current mutation (Itpr1wt/Δ18) and a male mouse heterozygous for the Itpr1opt mutation (Itpr1wt/opt
+T538	IDENTITY_chain 16857 17037	Breeding experiments were performed between two female mice heterozygous for the current mutation (Itpr1wt/Δ18) and a male mouse heterozygous for the Itpr1opt mutation (Itpr1wt/opt
 T539	Noun_Phrase 16934 16954	the current mutation
-T540	Noun_Phrase 16956 16967	Itpr1wt/?18
-T541	APPOS_relation 16956 16967	Itpr1wt/?18
+T540	Noun_Phrase 16956 16967	Itpr1wt/Δ18
+T541	APPOS_relation 16956 16967	Itpr1wt/Δ18
 T542	Noun_Phrase 17003 17024	the Itpr1opt mutation
 T543	APPOS_relation 17003 17024	the Itpr1opt mutation
 T544	Noun_Phrase 17026 17037	Itpr1wt/opt
 T545	Noun_Phrase 17040 17044	This
-T546	Noun_Phrase 17093 17124	four affected Itpr1opt/?18 pups
-T547	Noun_Phrase 17107 17119	Itpr1opt/?18
-T548	Noun_Phrase 17267 17279	Itpr1?18/?18
+T546	Noun_Phrase 17093 17124	four affected Itpr1opt/Δ18 pups
+T547	Noun_Phrase 17107 17119	Itpr1opt/Δ18
+T548	Noun_Phrase 17267 17279	Itpr1Δ18/Δ18
 T549	Noun_Phrase 17284 17296	Itpr1opt/opt
 T550	Noun_Phrase 17284 17301	Itpr1opt/opt mice
 T551	Noun_Phrase 17316 17321	Itpr1
@@ -570,8 +570,8 @@ T568	Noun_Phrase 19141 19149	Sections
 T569	Noun_Phrase 19300 19308	Sections
 T570	Noun_Phrase 19504 19561	the wild-type, heterozygous, and homozygous mutant brains
 T571	Noun_Phrase 19582 19587	Itpr1
-T572	Noun_Phrase 19650 19825	Antibody dilutions were incubated for 24 h at 4 �C with the immunizing peptide. Tissue sections were incubated with the preabsorbed antibodies and processed as described above
-T573	IDENTITY_chain 19650 19825	Antibody dilutions were incubated for 24 h at 4 �C with the immunizing peptide. Tissue sections were incubated with the preabsorbed antibodies and processed as described above
+T572	Noun_Phrase 19650 19825	Antibody dilutions were incubated for 24 h at 4 °C with the immunizing peptide. Tissue sections were incubated with the preabsorbed antibodies and processed as described above
+T573	IDENTITY_chain 19650 19825	Antibody dilutions were incubated for 24 h at 4 °C with the immunizing peptide. Tissue sections were incubated with the preabsorbed antibodies and processed as described above
 T574	Noun_Phrase 19833 19849	these conditions
 T575	Noun_Phrase 19922 19927	SCA15
 T576	Noun_Phrase 19922 19936	SCA15 patients
@@ -637,11 +637,11 @@ T635	IDENTITY_chain 23323 23340	A single fragment
 T636	Noun_Phrase 23359 23407	the third forward primer from the telomeric side
 T637	APPOS_relation 23359 23407	the third forward primer from the telomeric side
 T638	Noun_Phrase 23389 23407	the telomeric side
-T639	Noun_Phrase 23409 23439	T3f 5?-TGAATGCTCAATTTTCCAGC-3?
+T639	Noun_Phrase 23409 23439	T3f 5′-TGAATGCTCAATTTTCCAGC-3′
 T640	Noun_Phrase 23446 23495	the 11th reverse primer from the centromeric side
 T641	APPOS_relation 23446 23495	the 11th reverse primer from the centromeric side
 T642	Noun_Phrase 23475 23495	the centromeric side
-T643	Noun_Phrase 23497 23528	C11r 5?-GGGAAAATGGATAGAGGGTG-3?
+T643	Noun_Phrase 23497 23528	C11r 5′-GGGAAAATGGATAGAGGGTG-3′
 T644	Noun_Phrase 23531 23543	The fragment
 T645	Noun_Phrase 23640 23656	the human genome
 T646	Noun_Phrase 23744 23752;23761 23764	families H33
@@ -727,16 +727,16 @@ T725	Noun_Phrase 28434 28439	Iptr1
 T726	Noun_Phrase 28463 28481	the Purkinje cells
 T727	Nonreferential_pronoun 28492 28497	there
 T728	Noun_Phrase 28542 28547	Itpr1
-T729	Noun_Phrase 28601 28713	Western blot performed to examine Itpr1 levels in whole brain from wild-type, Itpr1wt/?18, and Itpr1?18/?18 mice
-T730	IDENTITY_chain 28601 28713	Western blot performed to examine Itpr1 levels in whole brain from wild-type, Itpr1wt/?18, and Itpr1?18/?18 mice
+T729	Noun_Phrase 28601 28713	Western blot performed to examine Itpr1 levels in whole brain from wild-type, Itpr1wt/Δ18, and Itpr1Δ18/Δ18 mice
+T730	IDENTITY_chain 28601 28713	Western blot performed to examine Itpr1 levels in whole brain from wild-type, Itpr1wt/Δ18, and Itpr1Δ18/Δ18 mice
 T731	Noun_Phrase 28635 28640	Itpr1
-T732	Noun_Phrase 28679 28690	Itpr1wt/?18
-T733	Noun_Phrase 28696 28708	Itpr1?18/?18
+T732	Noun_Phrase 28679 28690	Itpr1wt/Δ18
+T733	Noun_Phrase 28696 28708	Itpr1Δ18/Δ18
 T734	Noun_Phrase 28715 28719	this
 T735	Noun_Phrase 28749 28754	Itpr1
-T736	Noun_Phrase 28776 28787	Itpr1wt/?18
+T736	Noun_Phrase 28776 28787	Itpr1wt/Δ18
 T737	Noun_Phrase 28820 28825	Itpr1
-T738	Noun_Phrase 28829 28841	Itpr1?18/?18
+T738	Noun_Phrase 28829 28841	Itpr1Δ18/Δ18
 T739	Noun_Phrase 28849 28857	Figure 2
 T740	Noun_Phrase 28932 28978	Illumina Infinium HumanHap550 Genotyping Chips
 T741	Noun_Phrase 29641 29743	these plots show a contiguous region ~200 kb long with decreased copy number and apparent homozygosity

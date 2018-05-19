@@ -7,13 +7,13 @@ T5	Noun_Phrase 53 83	the Smith-Lemli-Opitz syndrome
 T6	Noun_Phrase 95 105	Background
 T7	IDENTITY_chain 95 105	Background
 T8	Noun_Phrase 128 139	cholesterol
-T9	Noun_Phrase 203 275	Neonatal mice lacking functional dehydrocholesterol ?7-reductase (Dhcr7)
-T10	APPOS_relation 203 275	Neonatal mice lacking functional dehydrocholesterol ?7-reductase (Dhcr7)
-T11	Noun_Phrase 225 275	functional dehydrocholesterol ?7-reductase (Dhcr7)
-T12	IDENTITY_chain 225 275	functional dehydrocholesterol ?7-reductase (Dhcr7)
-T13	Noun_Phrase 236 267	dehydrocholesterol ?7-reductase
-T14	APPOS_relation 236 267	dehydrocholesterol ?7-reductase
-T15	Noun_Phrase 236 275	dehydrocholesterol ?7-reductase (Dhcr7)
+T9	Noun_Phrase 203 275	Neonatal mice lacking functional dehydrocholesterol Δ7-reductase (Dhcr7)
+T10	APPOS_relation 203 275	Neonatal mice lacking functional dehydrocholesterol Δ7-reductase (Dhcr7)
+T11	Noun_Phrase 225 275	functional dehydrocholesterol Δ7-reductase (Dhcr7)
+T12	IDENTITY_chain 225 275	functional dehydrocholesterol Δ7-reductase (Dhcr7)
+T13	Noun_Phrase 236 267	dehydrocholesterol Δ7-reductase
+T14	APPOS_relation 236 267	dehydrocholesterol Δ7-reductase
+T15	Noun_Phrase 236 275	dehydrocholesterol Δ7-reductase (Dhcr7)
 T16	Noun_Phrase 269 274	Dhcr7
 T17	Noun_Phrase 277 336	a model for the human disease of Smith-Lemli-Opitz syndrome
 T18	Noun_Phrase 289 336	the human disease of Smith-Lemli-Opitz syndrome
@@ -142,8 +142,8 @@ T140	APPOS_relation 3083 3109	Smith-Lemli-Opitz syndrome
 T141	Noun_Phrase 3111 3115	SLOS
 T142	APPOS_relation 3111 3115	SLOS
 T143	Noun_Phrase 3130 3170	a relative common dysmorphology disorder
-T144	Noun_Phrase 3229 3262	7-dehydrocholesterol ?7-reductase
-T145	IDENTITY_chain 3229 3262	7-dehydrocholesterol ?7-reductase
+T144	Noun_Phrase 3229 3262	7-dehydrocholesterol Δ7-reductase
+T145	IDENTITY_chain 3229 3262	7-dehydrocholesterol Δ7-reductase
 T146	Noun_Phrase 3293 3304	cholesterol
 T147	Noun_Phrase 3293 3317	cholesterol biosynthesis
 T148	IDENTITY_chain 3293 3317	cholesterol biosynthesis
@@ -402,8 +402,8 @@ T400	Noun_Phrase 9730 9738	controls
 T401	Noun_Phrase 9769 9777	Dhcr7-/-
 T402	Noun_Phrase 9847 9855	controls
 T403	Noun_Phrase 9857 9864	Results
-T404	Noun_Phrase 9882 9892	mean � s.d
-T405	IDENTITY_chain 9882 9892	mean � s.d
+T404	Noun_Phrase 9882 9892	mean ± s.d
+T405	IDENTITY_chain 9882 9892	mean ± s.d
 T406	Noun_Phrase 9895 9903	Dhcr7-/-
 T407	Noun_Phrase 9915 9926	late stages
 T408	Noun_Phrase 9963 9991	delayed saccular development
@@ -730,7 +730,7 @@ T728	Noun_Phrase 14771 14793	the terminal sac space
 T729	Noun_Phrase 14809 14814	E17.5
 T730	Noun_Phrase 14809 14822	E17.5 onwards
 T731	Noun_Phrase 14824 14831	Results
-T732	Noun_Phrase 14849 14859	mean � s.d
+T732	Noun_Phrase 14849 14859	mean ± s.d
 T733	Noun_Phrase 14873 14877	cell
 T734	Noun_Phrase 14895 14926	late gestational Dhcr7-/- lungs
 T735	IDENTITY_chain 14895 14926	late gestational Dhcr7-/- lungs
@@ -1134,9 +1134,9 @@ T1132	Noun_Phrase 21574 21578	Fig.
 T1133	Noun_Phrase 21614 21625	type I AECs
 T1134	Noun_Phrase 21614 21641	type I AECs differentiation
 T1135	IDENTITY_chain 21614 21641	type I AECs differentiation
-T1136	Noun_Phrase 21686 21689	T1?
-T1137	APPOS_relation 21686 21689	T1?
-T1138	IDENTITY_chain 21686 21689	T1?
+T1136	Noun_Phrase 21686 21689	T1α
+T1137	APPOS_relation 21686 21689	T1α
+T1138	IDENTITY_chain 21686 21689	T1α
 T1139	Noun_Phrase 21691 21744	an apical membrane protein marker of lung type I AECs
 T1140	Noun_Phrase 21728 21732	lung
 T1141	Noun_Phrase 21728 21744	lung type I AECs
@@ -1221,11 +1221,11 @@ T1219	Noun_Phrase 22909 22916	panel B
 T1220	IDENTITY_chain 22909 22916	panel B
 T1221	Noun_Phrase 22937 22975;22984 22988	Immunostaining for type I cell markers AQP5
 T1222	IDENTITY_chain 22937 22975;22984 22988	Immunostaining for type I cell markers AQP5
-T1223	Noun_Phrase 22937 22979	Immunostaining for type I cell markers T1?
-T1224	IDENTITY_chain 22937 22979	Immunostaining for type I cell markers T1?
+T1223	Noun_Phrase 22937 22979	Immunostaining for type I cell markers T1α
+T1224	IDENTITY_chain 22937 22979	Immunostaining for type I cell markers T1α
 T1225	Noun_Phrase 22956 22975;22984 22988	type I cell markers AQP5
 T1226	Noun_Phrase 22956 22975;22984 22988	type I cell markers AQP5
-T1227	Noun_Phrase 22956 22979	type I cell markers T1?
+T1227	Noun_Phrase 22956 22979	type I cell markers T1α
 T1228	Noun_Phrase 23025 23074	flat epithelial cells in wild-type lungs at E20.5
 T1229	IDENTITY_chain 23025 23074	flat epithelial cells in wild-type lungs at E20.5
 T1230	Noun_Phrase 23050 23059	wild-type
@@ -1235,8 +1235,8 @@ T1233	Noun_Phrase 23076 23084	panels C
 T1234	Noun_Phrase 23092 23102	arrowheads
 T1235	Noun_Phrase 23121 23129	knockout
 T1236	Noun_Phrase 23121 23146	knockout littermate lungs
-T1237	Noun_Phrase 23148 23151	T1?
-T1238	Noun_Phrase 23148 23151;23161 23169	T1? staining
+T1237	Noun_Phrase 23148 23151	T1α
+T1238	Noun_Phrase 23148 23151;23161 23169	T1α staining
 T1239	Noun_Phrase 23156 23160	AQP5
 T1240	Noun_Phrase 23156 23169	AQP5 staining
 T1241	Noun_Phrase 23198 23204;23211 23212	panels F
@@ -1288,12 +1288,12 @@ T1286	Noun_Phrase 24245 24255	mesenchyme
 T1287	Noun_Phrase 24338 24362	delayed lung sacculation
 T1288	Noun_Phrase 24346 24350	lung
 T1289	Noun_Phrase 24412 24434;24472 24526	immunostaining for the platelet endothelial cell adhesion molecular (PECAM-1)
-T1290	Noun_Phrase 24412 24467	immunostaining for the ?-isoform of caveolin-1 (cav-1?)
-T1291	IDENTITY_chain 24412 24467	immunostaining for the ?-isoform of caveolin-1 (cav-1?)
-T1292	Noun_Phrase 24431 24458	the ?-isoform of caveolin-1
-T1293	APPOS_relation 24431 24458	the ?-isoform of caveolin-1
-T1294	IDENTITY_chain 24431 24458	the ?-isoform of caveolin-1
-T1295	Noun_Phrase 24460 24466	cav-1?
+T1290	Noun_Phrase 24412 24467	immunostaining for the α-isoform of caveolin-1 (cav-1α)
+T1291	IDENTITY_chain 24412 24467	immunostaining for the α-isoform of caveolin-1 (cav-1α)
+T1292	Noun_Phrase 24431 24458	the α-isoform of caveolin-1
+T1293	APPOS_relation 24431 24458	the α-isoform of caveolin-1
+T1294	IDENTITY_chain 24431 24458	the α-isoform of caveolin-1
+T1295	Noun_Phrase 24460 24466	cav-1α
 T1296	IDENTITY_chain 24472 24516	platelet endothelial cell adhesion molecular
 T1297	Noun_Phrase 24472 24516	platelet endothelial cell adhesion molecular
 T1298	APPOS_relation 24472 24516	platelet endothelial cell adhesion molecular
@@ -1302,11 +1302,11 @@ T1300	Noun_Phrase 24559 24568	wild-type
 T1301	Noun_Phrase 24559 24568;24582 24587	wild-type lungs
 T1302	Noun_Phrase 24573 24581	Dhcr7-/-
 T1303	Noun_Phrase 24573 24587	Dhcr7-/- lungs
-T1304	Noun_Phrase 24613 24619	cav-1?
+T1304	Noun_Phrase 24613 24619	cav-1α
 T1305	Noun_Phrase 24664 24674;24689 24702	developing blood vessels
 T1306	Noun_Phrase 24664 24684	developing capillary
 T1307	IDENTITY_chain 24664 24684	developing capillary
-T1308	Noun_Phrase 24704 24710	Cav-1?
+T1308	Noun_Phrase 24704 24710	Cav-1α
 T1309	Noun_Phrase 24793 24796	its
 T1310	Noun_Phrase 24812 24824	type II AECs
 T1311	Noun_Phrase 24834 24839	E14.5
@@ -1315,9 +1315,9 @@ T1313	IDENTITY_chain 24841 24875	both the epithelium and mesenchyme
 T1314	Noun_Phrase 24846 24860	the epithelium
 T1315	IDENTITY_chain 24846 24860	the epithelium
 T1316	Noun_Phrase 24865 24875	mesenchyme
-T1317	Noun_Phrase 24894 24900	cav-1?
-T1318	Noun_Phrase 24894 24909	cav-1? staining
-T1319	Noun_Phrase 24915 24921	cav-1?
+T1317	Noun_Phrase 24894 24900	cav-1α
+T1318	Noun_Phrase 24894 24909	cav-1α staining
+T1319	Noun_Phrase 24915 24921	cav-1α
 T1320	Noun_Phrase 24938 24952;24971 24982	the developing capillaries
 T1321	Noun_Phrase 24938 24966	the developing blood vessels
 T1322	IDENTITY_chain 24938 24966	the developing blood vessels
@@ -1333,8 +1333,8 @@ T1331	Noun_Phrase 25059 25067	panels A
 T1332	IDENTITY_chain 25059 25067	panels A
 T1333	Noun_Phrase 25059 25073	panels A and B
 T1334	IDENTITY_chain 25059 25073	panels A and B
-T1335	Noun_Phrase 25076 25082	Cav-1?
-T1336	Noun_Phrase 25076 25097	Cav-1? immunostaining
+T1335	Noun_Phrase 25076 25082	Cav-1α
+T1336	Noun_Phrase 25076 25097	Cav-1α immunostaining
 T1337	Noun_Phrase 25199 25204	E17.5
 T1338	Noun_Phrase 25209 25214	E20.5
 T1339	Noun_Phrase 25244 25249	E20.5
@@ -1344,7 +1344,7 @@ T1342	Noun_Phrase 25414 25420	Fig. 8
 T1343	Noun_Phrase 25422 25428;25435 25436	panels E
 T1344	Noun_Phrase 25422 25430	panels C
 T1345	IDENTITY_chain 25422 25430	panels C
-T1346	Noun_Phrase 25456 25462	cav-1?
+T1346	Noun_Phrase 25456 25462	cav-1α
 T1347	Noun_Phrase 25475 25502	lungs from Dhcr7-/- embryos
 T1348	Noun_Phrase 25486 25494	Dhcr7-/-
 T1349	Noun_Phrase 25486 25502	Dhcr7-/- embryos
@@ -1354,9 +1354,9 @@ T1352	Noun_Phrase 25570 25576;25583 25584	panels F
 T1353	Noun_Phrase 25570 25578	panels D
 T1354	IDENTITY_chain 25570 25578	panels D
 T1355	Noun_Phrase 25590 25595	E20.5
-T1356	Noun_Phrase 25597 25603	cav-1?
-T1357	Noun_Phrase 25597 25635	cav-1? stained cells in knockout lungs
-T1358	IDENTITY_chain 25597 25635	cav-1? stained cells in knockout lungs
+T1356	Noun_Phrase 25597 25603	cav-1α
+T1357	Noun_Phrase 25597 25635	cav-1α stained cells in knockout lungs
+T1358	IDENTITY_chain 25597 25635	cav-1α stained cells in knockout lungs
 T1359	Noun_Phrase 25621 25629	knockout
 T1360	Noun_Phrase 25621 25635	knockout lungs
 T1361	Noun_Phrase 25695 25725	undeveloped epithelial tubules
@@ -1381,13 +1381,13 @@ T1379	IDENTITY_chain 25965 25973	panels G
 T1380	Noun_Phrase 25983 25989	Figure
 T1381	Noun_Phrase 25983 25991	Figure 8
 T1382	IDENTITY_chain 25983 25991	Figure 8
-T1383	Noun_Phrase 26021 26032	caveolin-1?
+T1383	Noun_Phrase 26021 26032	caveolin-1α
 T1384	Noun_Phrase 26037 26044	PECAM-1
 T1385	Noun_Phrase 26048 26052	lung
 T1386	Noun_Phrase 26048 26061	lung sections
 T1387	IDENTITY_chain 26048 26061	lung sections
-T1388	Noun_Phrase 26063 26069	Cav-1?
-T1389	Noun_Phrase 26063 26078	Cav-1? staining
+T1388	Noun_Phrase 26063 26069	Cav-1α
+T1389	Noun_Phrase 26063 26078	Cav-1α staining
 T1390	Noun_Phrase 26095 26100	E14.5
 T1391	Noun_Phrase 26102 26107	E17.5
 T1392	Noun_Phrase 26112 26117	E20.5
@@ -1395,7 +1395,7 @@ T1393	Noun_Phrase 26128 26139	development
 T1394	Noun_Phrase 26141 26175	Both the epithelium and mesenchyme
 T1395	Noun_Phrase 26146 26160	the epithelium
 T1396	Noun_Phrase 26165 26175	mesenchyme
-T1397	Noun_Phrase 26194 26200	cav-1?
+T1397	Noun_Phrase 26194 26200	cav-1α
 T1398	Noun_Phrase 26204 26209	E14.5
 T1399	Noun_Phrase 26211 26221;26257 26268	Developing capillaries
 T1400	Noun_Phrase 26211 26235	Developing blood vessels
@@ -1404,7 +1404,7 @@ T1402	IDENTITY_chain 26270 26276	arrows
 T1403	Noun_Phrase 26279 26285;26292 26293	panels B
 T1404	Noun_Phrase 26279 26287	panels A
 T1405	Noun_Phrase 26279 26293	panels A and B
-T1406	Noun_Phrase 26323 26329	cav-1?
+T1406	Noun_Phrase 26323 26329	cav-1α
 T1407	APPOS_relation 26365 26374	wild-type
 T1408	Noun_Phrase 26365 26374	wild-type
 T1409	Noun_Phrase 26365 26380;26400 26405	wild-type (+/+) lungs
@@ -1413,18 +1413,18 @@ T1411	APPOS_relation 26385 26393	knockout
 T1412	Noun_Phrase 26385 26393	knockout
 T1413	Noun_Phrase 26385 26405	knockout (-/-) lungs
 T1414	Noun_Phrase 26395 26398	-/-
-T1415	Noun_Phrase 26424 26430	Cav-1?
+T1415	Noun_Phrase 26424 26430	Cav-1α
 T1416	Noun_Phrase 26513 26529	black arrowheads
 T1417	Noun_Phrase 26535 26540	E17.5
-T1418	Noun_Phrase 26578 26584	cav-1?
-T1419	Noun_Phrase 26578 26593	cav-1? staining
-T1420	Noun_Phrase 26622 26628	cav-1?
+T1418	Noun_Phrase 26578 26584	cav-1α
+T1419	Noun_Phrase 26578 26593	cav-1α staining
+T1420	Noun_Phrase 26622 26628	cav-1α
 T1421	Noun_Phrase 26668 26674;26681 26682	panels D
 T1422	Noun_Phrase 26668 26676	panels C
 T1423	Noun_Phrase 26668 26682	panels C and D
 T1424	IDENTITY_chain 26668 26682	panels C and D
 T1425	Noun_Phrase 26684 26690	arrows
-T1426	Noun_Phrase 26693 26699	Cav-1?
+T1426	Noun_Phrase 26693 26699	Cav-1α
 T1427	Noun_Phrase 26734 26742	knockout
 T1428	Noun_Phrase 26754 26759	E17.5
 T1429	Noun_Phrase 26776 26785	wild-type
@@ -1437,8 +1437,8 @@ T1435	Noun_Phrase 26860 26874	panels C and D
 T1436	Noun_Phrase 26880 26885	E20.5
 T1437	Noun_Phrase 26889 26898	wild-type
 T1438	Noun_Phrase 26889 26904	wild-type lungs
-T1439	Noun_Phrase 26911 26917	cav-1?
-T1440	Noun_Phrase 26911 26917;26930 26938	cav-1? staining
+T1439	Noun_Phrase 26911 26917	cav-1α
+T1440	Noun_Phrase 26911 26917;26930 26938	cav-1α staining
 T1441	Noun_Phrase 26922 26929	PECAM-1
 T1442	Noun_Phrase 26922 26938	PECAM-1 staining
 T1443	IDENTITY_chain 26922 26938	PECAM-1 staining
@@ -1868,7 +1868,7 @@ T1866	Noun_Phrase 35593 35605	type II AECs
 T1867	Noun_Phrase 35609 35617	Dhcr7-/-
 T1868	Noun_Phrase 35609 35623	Dhcr7-/- lungs
 T1869	Noun_Phrase 35733 35744	type I AECs
-T1870	Noun_Phrase 35746 35749	T1?
+T1870	Noun_Phrase 35746 35749	T1α
 T1871	Noun_Phrase 35754 35758	AQP5
 T1872	Noun_Phrase 35760 35788	Delayed vascular development
 T1873	Noun_Phrase 35837 35845	Dhcr7-/-
@@ -2144,8 +2144,8 @@ T2142	APPOS_relation 44339 44355	room temperature
 T2143	IDENTITY_chain 44339 44355	room temperature
 T2144	Noun_Phrase 44357 44359	RT
 T2145	Noun_Phrase 44372 44375	PBS
-T2146	Noun_Phrase 44461 44478	Five ? m sections
-T2147	IDENTITY_chain 44461 44478	Five ? m sections
+T2146	Noun_Phrase 44461 44478	Five μ m sections
+T2147	IDENTITY_chain 44461 44478	Five μ m sections
 T2148	APPOS_relation 44562 44582	immunohistochemistry
 T2149	Noun_Phrase 44562 44582	immunohistochemistry
 T2150	Noun_Phrase 44584 44587	IHC
@@ -2166,7 +2166,7 @@ T2164	Noun_Phrase 45133 45137	Gli1
 T2165	Noun_Phrase 45221 45225	AQP5
 T2166	Noun_Phrase 45235 45242	megalin
 T2167	Noun_Phrase 45252 45259	PECAM-1
-T2168	Noun_Phrase 45314 45317	T1?
+T2168	Noun_Phrase 45314 45317	T1α
 T2169	Noun_Phrase 45347 45383	Developmental Studies Hybridoma Bank
 T2170	IDENTITY_chain 45347 45383	Developmental Studies Hybridoma Bank
 T2171	Noun_Phrase 45385 45394	Iowa City

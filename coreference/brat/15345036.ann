@@ -126,8 +126,8 @@ T124	Noun_Phrase 3544 3559	apoptotic cells
 T125	Noun_Phrase 3561 3566	These
 T126	Noun_Phrase 3651 3655	CD36
 T127	IDENTITY_chain 3651 3655	CD36
-T128	Noun_Phrase 3690 3719	the vitronectin receptor ?v?3
-T129	IDENTITY_chain 3690 3719	the vitronectin receptor ?v?3
+T128	Noun_Phrase 3690 3719	the vitronectin receptor αvβ3
+T129	IDENTITY_chain 3690 3719	the vitronectin receptor αvβ3
 T130	Noun_Phrase 3725 3756	members of the collectin family
 T131	IDENTITY_chain 3725 3756	members of the collectin family
 T132	Noun_Phrase 3761 3766	their
@@ -173,7 +173,7 @@ T171	Nonreferential_pronoun 5243 5245	it
 T172	Noun_Phrase 5269 5274	GAS-6
 T173	Noun_Phrase 5291 5323	the tyrosine kinase receptor Mer
 T174	Noun_Phrase 5333 5339	MFG-E8
-T175	Noun_Phrase 5352 5381	the vitronectin receptor ?v?3
+T175	Noun_Phrase 5352 5381	the vitronectin receptor αvβ3
 T176	Noun_Phrase 5417 5419	PS
 T177	Noun_Phrase 5449 5508	the lectin-like oxidized low-density lipoprotein receptor-1
 T178	Noun_Phrase 5453 5459	lectin
@@ -192,10 +192,10 @@ T190	Noun_Phrase 5804 5819	apoptotic cells
 T191	Noun_Phrase 6004 6009	Ptdsr
 T192	Noun_Phrase 6013 6015	PS
 T193	Noun_Phrase 6019 6034	apoptotic cells
-T194	Noun_Phrase 6127 6156	transforming growth factor-?1
-T195	APPOS_relation 6127 6156	transforming growth factor-?1
-T196	IDENTITY_chain 6127 6156	transforming growth factor-?1
-T197	Noun_Phrase 6158 6164	TGF-?1
+T194	Noun_Phrase 6127 6156	transforming growth factor-β1
+T195	APPOS_relation 6127 6156	transforming growth factor-β1
+T196	IDENTITY_chain 6127 6156	transforming growth factor-β1
+T197	Noun_Phrase 6158 6164	TGF-β1
 T198	Noun_Phrase 6167 6193	platelet-activating factor
 T199	APPOS_relation 6167 6193	platelet-activating factor
 T200	Noun_Phrase 6195 6198	PAF
@@ -392,12 +392,12 @@ T390	Noun_Phrase 11105 11113	ES cells
 T391	IDENTITY_chain 11105 11113	ES cells
 T392	Noun_Phrase 11229 11234	Ptdsr
 T393	Noun_Phrase 11315 11317	we
-T394	Noun_Phrase 11330 11420	a Ptdsr-?-geo gene-trap reporter mouse line generated from a Ptdsr gene-trap ES cell clone
-T395	IDENTITY_chain 11330 11420	a Ptdsr-?-geo gene-trap reporter mouse line generated from a Ptdsr gene-trap ES cell clone
+T394	Noun_Phrase 11330 11420	a Ptdsr-β-geo gene-trap reporter mouse line generated from a Ptdsr gene-trap ES cell clone
+T395	IDENTITY_chain 11330 11420	a Ptdsr-β-geo gene-trap reporter mouse line generated from a Ptdsr gene-trap ES cell clone
 T396	Noun_Phrase 11391 11396	Ptdsr
 T397	Noun_Phrase 11422 11431	This line
-T398	Noun_Phrase 11452 11467	?-galactosidase
-T399	IDENTITY_chain 11452 11467	?-galactosidase
+T398	Noun_Phrase 11452 11467	β-galactosidase
+T399	IDENTITY_chain 11452 11467	β-galactosidase
 T400	Noun_Phrase 11488 11496	the gene
 T401	Noun_Phrase 11498 11507	Figure 2a
 T402	IDENTITY_chain 11498 11507	Figure 2a
@@ -442,7 +442,7 @@ T440	Noun_Phrase 12173 12182	Figure 2b
 T441	Noun_Phrase 12185 12190	Ptdsr
 T442	Noun_Phrase 12185 12201	Ptdsr expression
 T443	Noun_Phrase 12217 12222	E12.5
-T444	Noun_Phrase 12244 12259	?-galactosidase
+T444	Noun_Phrase 12244 12259	β-galactosidase
 T445	Noun_Phrase 12272 12280	the eyes
 T446	Noun_Phrase 12310 12313;12325 12336	the neural tube
 T447	Noun_Phrase 12310 12313;12341 12346	the brain
@@ -1006,7 +1006,7 @@ T1004	Noun_Phrase 27194 27221	anti-inflammatory cytokines
 T1005	Noun_Phrase 27228 27256	ingestion of apoptotic cells
 T1006	Noun_Phrase 27241 27256	apoptotic cells
 T1007	Noun_Phrase 27258 27260	We
-T1008	Noun_Phrase 27280 27286	TGF-?1
+T1008	Noun_Phrase 27280 27286	TGF-β1
 T1009	Noun_Phrase 27291 27305	interleukin-10
 T1010	APPOS_relation 27291 27305	interleukin-10
 T1011	IDENTITY_chain 27291 27305	interleukin-10
@@ -1017,7 +1017,7 @@ T1015	Noun_Phrase 27346 27364	lipopolysaccharide
 T1016	APPOS_relation 27346 27364	lipopolysaccharide
 T1017	Noun_Phrase 27366 27369	LPS
 T1018	Noun_Phrase 27403 27418	apoptotic cells
-T1019	Noun_Phrase 27438 27444	TGF-?1
+T1019	Noun_Phrase 27438 27444	TGF-β1
 T1020	Noun_Phrase 27449 27454	IL-10
 T1021	Noun_Phrase 27506 27527	Ptdsr -/- macrophages
 T1022	Noun_Phrase 27549 27582	these anti-inflammatory cytokines
@@ -1040,25 +1040,25 @@ T1038	Noun_Phrase 27966 27968	we
 T1039	Noun_Phrase 27991 27999;28014 28018	Ptdsr+/+ mice
 T1040	Noun_Phrase 28004 28018	Ptdsr -/- mice
 T1041	Noun_Phrase 28024 28027	LPS
-T1042	Noun_Phrase 28051 28074	tumor necrosis factor-?
-T1043	IDENTITY_chain 28051 28074	tumor necrosis factor-?
-T1044	APPOS_relation 28051 28074	tumor necrosis factor-?
-T1045	Noun_Phrase 28076 28081	TNF-?
+T1042	Noun_Phrase 28051 28074	tumor necrosis factor-α
+T1043	IDENTITY_chain 28051 28074	tumor necrosis factor-α
+T1044	APPOS_relation 28051 28074	tumor necrosis factor-α
+T1045	Noun_Phrase 28076 28081	TNF-α
 T1046	Noun_Phrase 28114 28125	stimulation
 T1047	Noun_Phrase 28127 28136	Figure 8c
 T1048	IDENTITY_chain 28127 28136	Figure 8c
 T1049	Noun_Phrase 28139 28160	Ptdsr -/- macrophages
-T1050	Noun_Phrase 28189 28194	TNF-?
+T1050	Noun_Phrase 28189 28194	TNF-α
 T1051	Noun_Phrase 28204 28225	wild-type macrophages
-T1052	Noun_Phrase 28245 28250	TNF-?
+T1052	Noun_Phrase 28245 28250	TNF-α
 T1053	Noun_Phrase 28292 28295	LPS
 T1054	Noun_Phrase 28292 28307	LPS stimulation
 T1055	Noun_Phrase 28406 28409	LPS
 T1056	Noun_Phrase 28406 28421	LPS stimulation
 T1057	Noun_Phrase 28423 28432	Figure 8c
-T1058	Noun_Phrase 28454 28459	TNF-?
-T1059	Noun_Phrase 28454 28492	TNF-? release by Ptdsr -/- macrophages
-T1060	IDENTITY_chain 28454 28492	TNF-? release by Ptdsr -/- macrophages
+T1058	Noun_Phrase 28454 28459	TNF-α
+T1059	Noun_Phrase 28454 28492	TNF-α release by Ptdsr -/- macrophages
+T1060	IDENTITY_chain 28454 28492	TNF-α release by Ptdsr -/- macrophages
 T1061	Noun_Phrase 28471 28492	Ptdsr -/- macrophages
 T1062	Noun_Phrase 28512 28541	engulfment of apoptotic cells
 T1063	Noun_Phrase 28526 28541	apoptotic cells
@@ -1066,13 +1066,13 @@ T1064	Noun_Phrase 28543 28545	we
 T1065	Noun_Phrase 28557 28562	FLDMs
 T1066	Noun_Phrase 28568 28571	LPS
 T1067	Noun_Phrase 28573 28588	apoptotic cells
-T1068	Noun_Phrase 28616 28621	TNF-?
-T1069	Noun_Phrase 28616 28628	TNF-? levels
-T1070	IDENTITY_chain 28616 28628	TNF-? levels
+T1068	Noun_Phrase 28616 28621	TNF-α
+T1069	Noun_Phrase 28616 28628	TNF-α levels
+T1070	IDENTITY_chain 28616 28628	TNF-α levels
 T1071	Noun_Phrase 28632 28637	ELISA
 T1072	IDENTITY_chain 28632 28637	ELISA
 T1073	Noun_Phrase 28661 28688	Ptdsr-deficient macrophages
-T1074	Noun_Phrase 28702 28707	TNF-?
+T1074	Noun_Phrase 28702 28707	TNF-α
 T1075	Noun_Phrase 28714 28740	stimulation with LPS alone
 T1076	Noun_Phrase 28731 28734	LPS
 T1077	Noun_Phrase 28757 28819	double stimulation of macrophages with LPS and apoptotic cells
@@ -1083,8 +1083,8 @@ T1081	Noun_Phrase 28804 28819	apoptotic cells
 T1082	Noun_Phrase 28821 28830	Figure 8d
 T1083	IDENTITY_chain 28821 28830	Figure 8d
 T1084	Noun_Phrase 28843 28865	the double stimulation
-T1085	Noun_Phrase 28900 28905	TNF-?
-T1086	Noun_Phrase 28900 28938	TNF-? release by Ptdsr -/- macrophages
+T1085	Noun_Phrase 28900 28905	TNF-α
+T1086	Noun_Phrase 28900 28938	TNF-α release by Ptdsr -/- macrophages
 T1087	Noun_Phrase 28917 28938	Ptdsr -/- macrophages
 T1088	Noun_Phrase 28982 28997	apoptotic cells
 T1089	Noun_Phrase 29038 29059	wild-type macrophages
@@ -1607,8 +1607,8 @@ T1605	IDENTITY_chain 50414 50417	PCR
 T1606	Noun_Phrase 50488 50493	Ptdsr
 T1607	Noun_Phrase 50508 50540	generation of germ-line chimeras
 T1608	Noun_Phrase 50522 50540	germ-line chimeras
-T1609	Noun_Phrase 50567 50591	a ?-geo gene-trap vector
-T1610	IDENTITY_chain 50567 50591	a ?-geo gene-trap vector
+T1609	Noun_Phrase 50567 50591	a β-geo gene-trap vector
+T1610	IDENTITY_chain 50567 50591	a β-geo gene-trap vector
 T1611	Noun_Phrase 50595 50610	the Ptdsr locus
 T1612	Noun_Phrase 50599 50604	Ptdsr
 T1613	Noun_Phrase 50693 50696	USA
@@ -1620,7 +1620,7 @@ T1618	Noun_Phrase 50968 50982	Chimeric males
 T1619	Noun_Phrase 51047 51074	the mutant gene-trap allele
 T1620	Noun_Phrase 51091 51110	expression analysis
 T1621	IDENTITY_chain 51091 51110	expression analysis
-T1622	Noun_Phrase 51117 51132	?-galactosidase
+T1622	Noun_Phrase 51117 51132	β-galactosidase
 T1623	Noun_Phrase 51146 51152	RT-PCR
 T1624	Noun_Phrase 51191 51198	embryos
 T1625	IDENTITY_chain 51191 51198	embryos
@@ -1825,20 +1825,20 @@ T1823	Noun_Phrase 60060 60066	medium
 T1824	Noun_Phrase 60068 60071	LPS
 T1825	Noun_Phrase 60084 60099	apoptotic cells
 T1826	Noun_Phrase 60146 60151	IL-10
-T1827	Noun_Phrase 60153 60159	TGF-?1
-T1828	Noun_Phrase 60163 60168	TNF-?
-T1829	Noun_Phrase 60163 60175	TNF-? levels
-T1830	Noun_Phrase 60207 60212	TNF-?
+T1827	Noun_Phrase 60153 60159	TGF-β1
+T1828	Noun_Phrase 60163 60168	TNF-α
+T1829	Noun_Phrase 60163 60175	TNF-α levels
+T1830	Noun_Phrase 60207 60212	TNF-α
 T1831	Noun_Phrase 60252 60257	FLDMs
 T1832	Noun_Phrase 60301 60304	LPS
 T1833	Noun_Phrase 60318 60338	Culture supernatants
 T1834	IDENTITY_chain 60318 60338	Culture supernatants
-T1835	Noun_Phrase 60358 60363	TNF-?
+T1835	Noun_Phrase 60358 60363	TNF-α
 T1836	Noun_Phrase 60389 60403	BD Biosciences
 T1837	IDENTITY_chain 60389 60403	BD Biosciences
 T1838	Noun_Phrase 60417 60424	Germany
-T1839	Noun_Phrase 60430 60436	TGF-?1
-T1840	Noun_Phrase 60450 60456	TGF-?1
+T1839	Noun_Phrase 60430 60436	TGF-β1
+T1840	Noun_Phrase 60450 60456	TGF-β1
 T1841	Noun_Phrase 60470 60481	R&D Systems
 T1842	Noun_Phrase 60500 60505	ELISA
 T1843	Noun_Phrase 60536 60541	IL-10
@@ -1985,11 +1985,11 @@ T1983	Noun_Phrase 64383 64404	embryonic development
 T1984	Noun_Phrase 64407 64408	a
 T1985	Noun_Phrase 64462 64467	Ptdsr
 T1986	Noun_Phrase 64498 64517	expression analysis
-T1987	Noun_Phrase 64628 64633	?-geo
-T1988	APPOS_relation 64628 64633	?-geo
-T1989	Noun_Phrase 64635 64717	the ?-galactosidase/neomycin phosphotransferase fusion protein-expression cassette
+T1987	Noun_Phrase 64628 64633	β-geo
+T1988	APPOS_relation 64628 64633	β-geo
+T1989	Noun_Phrase 64635 64717	the β-galactosidase/neomycin phosphotransferase fusion protein-expression cassette
 T1990	Noun_Phrase 64768 64780	Figure 1 (b)
-T1991	Noun_Phrase 64793 64808	?-galactosidase
+T1991	Noun_Phrase 64793 64808	β-galactosidase
 T1992	Noun_Phrase 64834 64839	Ptdsr
 T1993	Noun_Phrase 64876 64895	Expression of Ptdsr
 T1994	Noun_Phrase 64890 64895	Ptdsr
@@ -2224,8 +2224,8 @@ T2222	Noun_Phrase 71245 71246	a
 T2223	Noun_Phrase 71247 71248	b
 T2224	Noun_Phrase 71249 71250	d
 T2225	Noun_Phrase 71285 71286	c
-T2226	Noun_Phrase 71289 71294	TNF-?
-T2227	Noun_Phrase 71299 71305	TGF-?1
+T2226	Noun_Phrase 71289 71294	TNF-α
+T2227	Noun_Phrase 71299 71305	TGF-β1
 T2228	Noun_Phrase 71325 71330	ELISA
 T2229	Noun_Phrase 71335 71340	IL-10
 T2230	Noun_Phrase 71344 71365	cytometric bead array

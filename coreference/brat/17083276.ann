@@ -235,14 +235,14 @@ T233	IDENTITY_chain 5894 5900	Figure
 T234	Noun_Phrase 5894 5903	Figure 1A
 T235	IDENTITY_chain 5894 5903	Figure 1A
 T236	Noun_Phrase 5906 5912	Chaf1a
-T237	Noun_Phrase 5906 5920	Chaf1a+/? mice
-T238	IDENTITY_chain 5906 5920	Chaf1a+/? mice
+T237	Noun_Phrase 5906 5920	Chaf1a+/− mice
+T238	IDENTITY_chain 5906 5920	Chaf1a+/− mice
 T239	Noun_Phrase 6052 6069	heterozygous mice
 T240	Noun_Phrase 6228 6230	we
-T241	Noun_Phrase 6244 6261	Chaf1a?/? embryos
-T242	IDENTITY_chain 6244 6261	Chaf1a?/? embryos
-T243	Noun_Phrase 6244 6285	Chaf1a?/? embryos at embryonic day 4 (E4)
-T244	IDENTITY_chain 6244 6285	Chaf1a?/? embryos at embryonic day 4 (E4)
+T241	Noun_Phrase 6244 6261	Chaf1a−/− embryos
+T242	IDENTITY_chain 6244 6261	Chaf1a−/− embryos
+T243	Noun_Phrase 6244 6285	Chaf1a−/− embryos at embryonic day 4 (E4)
+T244	IDENTITY_chain 6244 6285	Chaf1a−/− embryos at embryonic day 4 (E4)
 T245	Noun_Phrase 6265 6280	embryonic day 4
 T246	APPOS_relation 6265 6280	embryonic day 4
 T247	IDENTITY_chain 6265 6280	embryonic day 4
@@ -254,11 +254,11 @@ T252	Noun_Phrase 6308 6317	Figure 1B
 T253	IDENTITY_chain 6308 6317	Figure 1B
 T254	Noun_Phrase 6320 6324	They
 T255	Noun_Phrase 6347 6349	E4
-T256	Noun_Phrase 6347 6399	E4 embryos obtained from Chaf1a+/? mice intercrosses
-T257	IDENTITY_chain 6347 6399	E4 embryos obtained from Chaf1a+/? mice intercrosses
-T258	Noun_Phrase 6372 6386	Chaf1a+/? mice
-T259	Noun_Phrase 6372 6399	Chaf1a+/? mice intercrosses
-T260	IDENTITY_chain 6372 6399	Chaf1a+/? mice intercrosses
+T256	Noun_Phrase 6347 6399	E4 embryos obtained from Chaf1a+/− mice intercrosses
+T257	IDENTITY_chain 6347 6399	E4 embryos obtained from Chaf1a+/− mice intercrosses
+T258	Noun_Phrase 6372 6386	Chaf1a+/− mice
+T259	Noun_Phrase 6372 6399	Chaf1a+/− mice intercrosses
+T260	IDENTITY_chain 6372 6399	Chaf1a+/− mice intercrosses
 T261	Noun_Phrase 6435 6464	the homozygous mutant embryos
 T262	Noun_Phrase 6488 6498	this stage
 T263	IDENTITY_chain 6488 6498	this stage
@@ -296,14 +296,14 @@ T294	Noun_Phrase 7139 7141	we
 T295	Noun_Phrase 7153 7196	the nuclear organization of heterochromatin
 T296	IDENTITY_chain 7153 7196	the nuclear organization of heterochromatin
 T297	Noun_Phrase 7181 7196	heterochromatin
-T298	Noun_Phrase 7232 7249	Chaf1a?/? embryos
+T298	Noun_Phrase 7232 7249	Chaf1a−/− embryos
 T299	Noun_Phrase 7251 7278	Pericentric heterochromatin
 T300	APPOS_relation 7251 7278	Pericentric heterochromatin
 T301	Noun_Phrase 7280 7331	the major component of constitutive heterochromatin
 T302	Noun_Phrase 7303 7331	constitutive heterochromatin
 T303	Noun_Phrase 7361 7378	interphase nuclei
-T304	Noun_Phrase 7431 7435	HP1?
-T305	IDENTITY_chain 7431 7435	HP1?
+T304	Noun_Phrase 7431 7435	HP1α
+T305	IDENTITY_chain 7431 7435	HP1α
 T306	Noun_Phrase 7451 7472	wild-type blastocysts
 T307	Noun_Phrase 7501 7528	pericentric heterochromatin
 T308	Noun_Phrase 7501 7536	pericentric heterochromatin domains
@@ -314,7 +314,7 @@ T312	IDENTITY_chain 7648 7663	DAPI-dense foci
 T313	Noun_Phrase 7665 7671	Figure
 T314	Noun_Phrase 7665 7674	Figure 1C
 T315	Noun_Phrase 7677 7693	These structures
-T316	Noun_Phrase 7715 7732	Chaf1a?/? embryos
+T316	Noun_Phrase 7715 7732	Chaf1a−/− embryos
 T317	Noun_Phrase 7734 7740	Figure
 T318	Noun_Phrase 7734 7743	Figure 1D
 T319	Noun_Phrase 7752 7761	chromatin
@@ -340,9 +340,9 @@ T338	Noun_Phrase 8234 8249	DAPI-dense foci
 T339	Noun_Phrase 8303 8309	Figure
 T340	Noun_Phrase 8303 8312	Figure 1F
 T341	IDENTITY_chain 8303 8312	Figure 1F
-T342	Noun_Phrase 8315 8335	Localization of HP1?
-T343	IDENTITY_chain 8315 8335	Localization of HP1?
-T344	Noun_Phrase 8331 8335	HP1?
+T342	Noun_Phrase 8315 8335	Localization of HP1α
+T343	IDENTITY_chain 8315 8335	Localization of HP1α
+T344	Noun_Phrase 8331 8335	HP1α
 T345	Noun_Phrase 8380 8384	DAPI
 T346	Noun_Phrase 8380 8393	DAPI staining
 T347	Noun_Phrase 8408 8436	constitutive heterochromatin
@@ -355,8 +355,8 @@ T353	Noun_Phrase 8532 8560	pre-implantation development
 T354	Noun_Phrase 8570 8573;8587 8604	the blastocyst stages
 T355	Noun_Phrase 8570 8582;8598 8604	the two-cell stages
 T356	Noun_Phrase 8570 8604	the two-cell and blastocyst stages
-T357	Noun_Phrase 8609 8629	Chaf1a?/? E4 embryos
-T358	IDENTITY_chain 8609 8629	Chaf1a?/? E4 embryos
+T357	Noun_Phrase 8609 8629	Chaf1a−/− E4 embryos
+T358	IDENTITY_chain 8609 8629	Chaf1a−/− E4 embryos
 T359	Noun_Phrase 8688 8703	DAPI-dense foci
 T360	Noun_Phrase 8728 8734	Figure
 T361	Noun_Phrase 8728 8737	Figure 1D
@@ -370,15 +370,15 @@ T368	IDENTITY_chain 8853 8880	the periphery of the nuclei
 T369	Noun_Phrase 8870 8880	the nuclei
 T370	Noun_Phrase 8882 8888	Figure
 T371	Noun_Phrase 8882 8891	Figure 1D
-T372	Noun_Phrase 8894 8914	Localization of HP1?
-T373	Noun_Phrase 8910 8914	HP1?
+T372	Noun_Phrase 8894 8914	Localization of HP1α
+T373	Noun_Phrase 8910 8914	HP1α
 T374	Noun_Phrase 8951 8959	the DAPI
 T375	Noun_Phrase 8985 9006	the nuclear periphery
 T376	Noun_Phrase 9019 9031	the nucleoli
 T377	Noun_Phrase 9033 9039	Figure
 T378	Noun_Phrase 9033 9042	Figure 1D
 T379	Noun_Phrase 9075 9090	heterochromatin
-T380	Noun_Phrase 9094 9111	Chaf1a?/? embryos
+T380	Noun_Phrase 9094 9111	Chaf1a−/− embryos
 T381	Noun_Phrase 9134 9149	heterochromatin
 T382	Noun_Phrase 9172 9176;9185 9213	two- cell stage wild-type embryos
 T383	Noun_Phrase 9172 9213	two- to four-cell stage wild-type embryos
@@ -396,7 +396,7 @@ T394	Noun_Phrase 9499 9504	CAF-1
 T395	Noun_Phrase 9531 9539	ES cells
 T396	Noun_Phrase 9564 9594	the blastocyst inner cell mass
 T397	IDENTITY_chain 9564 9594	the blastocyst inner cell mass
-T398	Noun_Phrase 9645 9662	Chaf1a?/? embryos
+T398	Noun_Phrase 9645 9662	Chaf1a−/− embryos
 T399	Noun_Phrase 9664 9674	such cells
 T400	Noun_Phrase 9710 9722	null embryos
 T401	IDENTITY_chain 9710 9722	null embryos
@@ -416,10 +416,10 @@ T414	IDENTITY_chain 9847 9849	IF
 T415	Noun_Phrase 9852 9858	Figure
 T416	IDENTITY_chain 9852 9861	Figure S1
 T417	Noun_Phrase 9852 9861	Figure S1
-T418	Noun_Phrase 9948 9965	Chaf1a?/? E4 mice
+T418	Noun_Phrase 9948 9965	Chaf1a−/− E4 mice
 T419	Noun_Phrase 9967 9982	DAPI-dense foci
 T420	Noun_Phrase 9998 10000	we
-T421	Noun_Phrase 10018 10022	HP1?
+T421	Noun_Phrase 10018 10022	HP1α
 T422	Noun_Phrase 10027 10031	DAPI
 T423	Noun_Phrase 10027 10040	DAPI staining
 T424	Noun_Phrase 10048 10060	the nucleoli
@@ -498,7 +498,7 @@ T496	Noun_Phrase 11509 11524	CAF-1 depletion
 T497	IDENTITY_chain 11509 11524	CAF-1 depletion
 T498	Noun_Phrase 11602 11609	histone
 T499	Noun_Phrase 11602 11612	histone H3
-T500	Noun_Phrase 11617 11621	HP1?
+T500	Noun_Phrase 11617 11621	HP1α
 T501	Noun_Phrase 11623 11629	Figure
 T502	Noun_Phrase 11623 11632	Figure S1
 T503	Noun_Phrase 11641 11646	CAF-1
@@ -681,8 +681,8 @@ T679	Noun_Phrase 15562 15586	nucleosomal organization
 T680	IDENTITY_chain 15562 15586	nucleosomal organization
 T681	Noun_Phrase 15589 15592	Our
 T682	Noun_Phrase 15589 15601	Our findings
-T683	Noun_Phrase 15642 15646	HP1?
-T684	Noun_Phrase 15670 15687	Chaf1a?/? embryos
+T683	Noun_Phrase 15642 15646	HP1α
+T684	Noun_Phrase 15670 15687	Chaf1a−/− embryos
 T685	Noun_Phrase 15692 15719	p150CAF-1-depleted ES cells
 T686	Noun_Phrase 15721 15723	We
 T687	Noun_Phrase 15813 15840	pericentric heterochromatin
@@ -774,9 +774,9 @@ T772	Noun_Phrase 17689 17706	Figures 7C and 7D
 T773	IDENTITY_chain 17689 17706	Figures 7C and 7D
 T774	Noun_Phrase 17709 17716	H3K9me3
 T775	Noun_Phrase 17743 17767	p150CAF-1-depleted cells
-T776	Noun_Phrase 17780 17813	a diffuse pattern similar to HP1?
-T777	IDENTITY_chain 17780 17813	a diffuse pattern similar to HP1?
-T778	Noun_Phrase 17809 17813	HP1?
+T776	Noun_Phrase 17780 17813	a diffuse pattern similar to HP1α
+T777	IDENTITY_chain 17780 17813	a diffuse pattern similar to HP1α
+T778	Noun_Phrase 17809 17813	HP1α
 T779	Noun_Phrase 17815 17821	Figure
 T780	Noun_Phrase 17815 17824	Figure 7C
 T781	Noun_Phrase 17827 17847	The H4K20me3 pattern
@@ -1002,13 +1002,13 @@ T1000	IDENTITY_chain 25297 25310	Southern blot
 T1001	Noun_Phrase 25312 25318	Figure
 T1002	Noun_Phrase 25312 25321	Figure 1A
 T1003	Noun_Phrase 25324 25326	We
-T1004	Noun_Phrase 25335 25349	Chaf1a+/? mice
+T1004	Noun_Phrase 25335 25349	Chaf1a+/− mice
 T1005	Noun_Phrase 25363 25382	recombined ES cells
 T1006	IDENTITY_chain 25363 25382	recombined ES cells
 T1007	Noun_Phrase 25410 25412	E4
-T1008	Noun_Phrase 25410 25467	E4 embryos obtained from the intercross of Chaf1a+/? mice
-T1009	Noun_Phrase 25435 25467	the intercross of Chaf1a+/? mice
-T1010	Noun_Phrase 25453 25467	Chaf1a+/? mice
+T1008	Noun_Phrase 25410 25467	E4 embryos obtained from the intercross of Chaf1a+/− mice
+T1009	Noun_Phrase 25435 25467	the intercross of Chaf1a+/− mice
+T1010	Noun_Phrase 25453 25467	Chaf1a+/− mice
 T1011	Noun_Phrase 25486 25510	nested-PCR amplification
 T1012	IDENTITY_chain 25486 25510	nested-PCR amplification
 T1013	Noun_Phrase 25512 25519	Embryos
@@ -1122,15 +1122,15 @@ T1120	Noun_Phrase 28611 28632	Western blot analysis
 T1121	Noun_Phrase 28635 28640	Cells
 T1122	Noun_Phrase 28714 28716	We
 T1123	Noun_Phrase 28722 28750	antibodies against p150CAF-1
-T1124	Noun_Phrase 28775 28779	HP1?
+T1124	Noun_Phrase 28775 28779	HP1α
 T1125	Noun_Phrase 28786 28795	Euromedex
 T1126	Noun_Phrase 28805 28812	Histone
 T1127	Noun_Phrase 28805 28815	Histone H3
 T1128	Noun_Phrase 28817 28822	Abcam
 T1129	Noun_Phrase 28832 28839	H3K9me3
 T1130	Noun_Phrase 28841 28848	Upstate
-T1131	Noun_Phrase 28861 28868	?-actin
-T1132	IDENTITY_chain 28861 28868	?-actin
+T1131	Noun_Phrase 28861 28868	β-actin
+T1132	IDENTITY_chain 28861 28868	β-actin
 T1133	Noun_Phrase 28870 28877	Upstate
 T1134	Noun_Phrase 28891 28894	DNA
 T1135	Noun_Phrase 28891 28899	DNA FISH
@@ -1215,9 +1215,9 @@ T1213	IDENTITY_chain 31723 31737;31758 31778	control (cont) RNAi plasmid vectors
 T1214	Noun_Phrase 31732 31736	cont
 T1215	Noun_Phrase 31741 31778	p150CAF-1 (p150) RNAi plasmid vectors
 T1216	Noun_Phrase 31752 31756	p150
-T1217	Noun_Phrase 31780 31787	?-actin
+T1217	Noun_Phrase 31780 31787	β-actin
 T1218	Noun_Phrase 31867 31876	p150CAF-1
-T1219	Noun_Phrase 31917 31921	HP1?
+T1219	Noun_Phrase 31917 31921	HP1α
 T1220	Noun_Phrase 31923 31930	histone
 T1221	Noun_Phrase 31923 31933	histone H3
 T1222	Noun_Phrase 31938 31945	H3K9me3
@@ -1342,7 +1342,7 @@ T1340	Noun_Phrase 34123 34141	p150CAF-1 Function
 T1341	Noun_Phrase 34196 34211	Heterochromatin
 T1342	Noun_Phrase 34196 34224	Heterochromatin Organization
 T1343	Noun_Phrase 34227 34228	A
-T1344	Noun_Phrase 34244 34258	Chaf1a+/? mice
+T1344	Noun_Phrase 34244 34258	Chaf1a+/− mice
 T1345	Noun_Phrase 34290 34298	ES cells
 T1346	Noun_Phrase 34352 34371	interacting domains
 T1347	APPOS_relation 34352 34371	interacting domains
@@ -1363,17 +1363,17 @@ T1361	Noun_Phrase 34819 34823	ScaI
 T1362	APPOS_relation 34819 34823	ScaI
 T1363	Noun_Phrase 34825 34826	S
 T1364	Noun_Phrase 34855 34856	B
-T1365	Noun_Phrase 34903 34923	E4 Chaf1a?/? embryos
+T1365	Noun_Phrase 34903 34923	E4 Chaf1a−/− embryos
 T1366	Noun_Phrase 34953 34956	PCR
 T1367	Noun_Phrase 35011 35012	A
 T1368	Noun_Phrase 35093 35094	C
 T1369	Noun_Phrase 35115 35124	p150CAF-1
-T1370	Noun_Phrase 35137 35141	HP1?
+T1370	Noun_Phrase 35137 35141	HP1α
 T1371	Noun_Phrase 35151 35153	E4
-T1372	Noun_Phrase 35151 35197	E4 embryos derived from Chaf1a+/? intercrosses
-T1373	Noun_Phrase 35175 35197	Chaf1a+/? intercrosses
-T1374	Noun_Phrase 35207 35238	Chaf1a+/+ and Chaf1a+/? embryos
-T1375	IDENTITY_chain 35207 35238	Chaf1a+/+ and Chaf1a+/? embryos
+T1372	Noun_Phrase 35151 35197	E4 embryos derived from Chaf1a+/− intercrosses
+T1373	Noun_Phrase 35175 35197	Chaf1a+/− intercrosses
+T1374	Noun_Phrase 35207 35238	Chaf1a+/+ and Chaf1a+/− embryos
+T1375	IDENTITY_chain 35207 35238	Chaf1a+/+ and Chaf1a+/− embryos
 T1376	Noun_Phrase 35239 35243	both
 T1377	Noun_Phrase 35281 35290	p150CAF-1
 T1378	Noun_Phrase 35292 35296	they
@@ -1386,27 +1386,27 @@ T1384	IDENTITY_chain 35485 35535	a 12-cell embryo labeling negatively for p150CA
 T1385	Noun_Phrase 35526 35535	p150CAF-1
 T1386	Noun_Phrase 35606 35626	the right-hand image
 T1387	IDENTITY_chain 35606 35626	the right-hand image
-T1388	Noun_Phrase 35633 35693	the merge between the HP1? fluorescence and DAPI-stained DNA
-T1389	IDENTITY_chain 35633 35693	the merge between the HP1? fluorescence and DAPI-stained DNA
-T1390	Noun_Phrase 35651 35672	the HP1? fluorescence
-T1391	IDENTITY_chain 35651 35672	the HP1? fluorescence
-T1392	Noun_Phrase 35655 35659	HP1?
+T1388	Noun_Phrase 35633 35693	the merge between the HP1α fluorescence and DAPI-stained DNA
+T1389	IDENTITY_chain 35633 35693	the merge between the HP1α fluorescence and DAPI-stained DNA
+T1390	Noun_Phrase 35651 35672	the HP1α fluorescence
+T1391	IDENTITY_chain 35651 35672	the HP1α fluorescence
+T1392	Noun_Phrase 35655 35659	HP1α
 T1393	Noun_Phrase 35677 35693	DAPI-stained DNA
 T1394	IDENTITY_chain 35677 35693	DAPI-stained DNA
 T1395	Noun_Phrase 35743 35746	HP1
 T1396	Noun_Phrase 35763 35771	material
 T1397	Noun_Phrase 35849 35865	the above embryo
-T1398	Noun_Phrase 35906 35994	the typical heterochromatin foci revealed by DAPI and HP1? staining in wild-type embryos
-T1399	IDENTITY_chain 35906 35994	the typical heterochromatin foci revealed by DAPI and HP1? staining in wild-type embryos
+T1398	Noun_Phrase 35906 35994	the typical heterochromatin foci revealed by DAPI and HP1α staining in wild-type embryos
+T1399	IDENTITY_chain 35906 35994	the typical heterochromatin foci revealed by DAPI and HP1α staining in wild-type embryos
 T1400	Noun_Phrase 35951 35955;35965 35973	DAPI staining
 T1401	Noun_Phrase 35951 35955	DAPI
-T1402	Noun_Phrase 35960 35964	HP1?
+T1402	Noun_Phrase 35960 35964	HP1α
 T1403	Noun_Phrase 35977 35994	wild-type embryos
 T1404	Noun_Phrase 35996 36006	These foci
-T1405	Noun_Phrase 36026 36043	Chaf1a?/? embryos
+T1405	Noun_Phrase 36026 36043	Chaf1a−/− embryos
 T1406	Noun_Phrase 36045 36049;36059 36067	DAPI staining
 T1407	Noun_Phrase 36045 36049	DAPI
-T1408	Noun_Phrase 36054 36058	HP1?
+T1408	Noun_Phrase 36054 36058	HP1α
 T1409	Noun_Phrase 36102 36128	p150CAF-1-depleted embryos
 T1410	Noun_Phrase 36149 36170	the nuclear periphery
 T1411	Noun_Phrase 36221 36231	Scale bars
@@ -1448,7 +1448,7 @@ T1446	Noun_Phrase 37020 37024	48 h
 T1447	Noun_Phrase 37051 37052	B
 T1448	Noun_Phrase 37095 37122	p150CAF-1-depleted ES cells
 T1449	Noun_Phrase 37143 37152	p150CAF-1
-T1450	Noun_Phrase 37165 37169	HP1?
+T1450	Noun_Phrase 37165 37169	HP1α
 T1451	Noun_Phrase 37179 37204;37224 37239	ES cells transfected with p150CAF-1 siRNA
 T1452	Noun_Phrase 37179 37219;37234 37239	ES cells transfected with control (cont) siRNA
 T1453	Noun_Phrase 37205 37212	control
@@ -1461,9 +1461,9 @@ T1459	Noun_Phrase 37224 37239	p150CAF-1 siRNA
 T1460	Noun_Phrase 37241 37257	siRNA expression
 T1461	Noun_Phrase 37269 37298	efficient p150CAF-1 depletion
 T1462	Noun_Phrase 37300 37320	The right-hand image
-T1463	Noun_Phrase 37327 37383	the merge between HP1? fluorescence and DAPI-stained DNA
-T1464	Noun_Phrase 37345 37349	HP1?
-T1465	Noun_Phrase 37345 37362	HP1? fluorescence
+T1463	Noun_Phrase 37327 37383	the merge between HP1α fluorescence and DAPI-stained DNA
+T1464	Noun_Phrase 37345 37349	HP1α
+T1465	Noun_Phrase 37345 37362	HP1α fluorescence
 T1466	Noun_Phrase 37367 37383	DAPI-stained DNA
 T1467	Noun_Phrase 37393 37402	Scale bar
 T1468	Noun_Phrase 37414 37415	C
@@ -1471,7 +1471,7 @@ T1469	Noun_Phrase 37417 37432	Heterochromatin
 T1470	Noun_Phrase 37417 37445	Heterochromatin organization
 T1471	Noun_Phrase 37464 37487	p150CAF-1-depleted MEFs
 T1472	Noun_Phrase 37508 37517	p150CAF-1
-T1473	Noun_Phrase 37530 37534	HP1?
+T1473	Noun_Phrase 37530 37534	HP1α
 T1474	Noun_Phrase 37566 37573	control
 T1475	APPOS_relation 37566 37573	control
 T1476	Noun_Phrase 37566 37580;37594 37599	control (cont) siRNA
@@ -1479,9 +1479,9 @@ T1477	Noun_Phrase 37575 37579	cont
 T1478	Noun_Phrase 37584 37593	p150CAF-1
 T1479	Noun_Phrase 37584 37599	p150CAF-1 siRNA
 T1480	Noun_Phrase 37601 37621	The right-hand image
-T1481	Noun_Phrase 37628 37684	the merge between HP1? fluorescence and DAPI-stained DNA
-T1482	Noun_Phrase 37646 37650	HP1?
-T1483	Noun_Phrase 37646 37663	HP1? fluorescence
+T1481	Noun_Phrase 37628 37684	the merge between HP1α fluorescence and DAPI-stained DNA
+T1482	Noun_Phrase 37646 37650	HP1α
+T1483	Noun_Phrase 37646 37663	HP1α fluorescence
 T1484	Noun_Phrase 37668 37684	DAPI-stained DNA
 T1485	Noun_Phrase 37696 37697	D
 T1486	Noun_Phrase 37699 37702	PML
@@ -1622,7 +1622,7 @@ T1620	IDENTITY_chain 41181 41190	total DNA
 T1621	Noun_Phrase 41305 41312	The DNA
 T1622	Noun_Phrase 41330 41346	a nylon membrane
 T1623	IDENTITY_chain 41330 41346	a nylon membrane
-T1624	Noun_Phrase 41379 41430	the ?-32P-labeled pSAT major satellite repeat probe
+T1624	Noun_Phrase 41379 41430	the α-32P-labeled pSAT major satellite repeat probe
 T1625	Noun_Phrase 41438 41444	Figure
 T1626	Noun_Phrase 41438 41446	Figure 6
 T1627	Noun_Phrase 41471 41498	Pericentric Heterochromatin
@@ -1667,9 +1667,9 @@ T1665	Noun_Phrase 42983 42990	H3K9me3
 T1666	Noun_Phrase 42992 42993	C
 T1667	Noun_Phrase 43003 43011	H4K20me3
 T1668	Noun_Phrase 43013 43014	D
-T1669	Noun_Phrase 43028 43032	HP1?
+T1669	Noun_Phrase 43028 43032	HP1α
 T1670	Noun_Phrase 43042 43049;43081 43089	control ES cells
-T1671	Noun_Phrase 43102 43106	HP1?
+T1671	Noun_Phrase 43102 43106	HP1α
 T1672	Noun_Phrase 43112 43119	H3K9me3
 T1673	Noun_Phrase 43121 43122	C
 T1674	Noun_Phrase 43128 43136	H4K20me3
