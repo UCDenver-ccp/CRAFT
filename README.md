@@ -118,11 +118,11 @@ Each annotation set that has been provided in the Knowtator 2 format has been pa
 
 Please direct comments, questions, and suggestions to either in the Issues section of the CRAFT GitHub page, or send e-mail to Mike Bada at mike.bada@ucdenver.edu.
 
-[craft release](https://github.com/UCDenver-ccp/CRAFT/releases)
-[craft2.0](http://bionlp-corpora.sourceforge.net/CRAFT/)
-[clear parser](https://code.google.com/archive/p/clearparser/)
-[knowtator](http://knowtator.sourceforge.net/)
-[knowtator2](https://github.com/UCDenver-ccp/Knowtator-2.0)
-[brat viewer](http://compbio.ucdenver.edu/Craft/index.xhtml#/)
-[brat](http://brat.nlplab.org)
-[cleartk](http://code.google.com/p/cleartk/)
+[craft release]: https://github.com/UCDenver-ccp/CRAFT/releases
+[craft2.0]: http://bionlp-corpora.sourceforge.net/CRAFT/
+[clear parser]: https://code.google.com/archive/p/clearparser/
+[knowtator]: http://knowtator.sourceforge.net/
+[knowtator2]: https://github.com/UCDenver-ccp/Knowtator-2.0
+[brat viewer]: http://compbio.ucdenver.edu/Craft/index.xhtml#/
+[brat]: http://brat.nlplab.org
+[cleartk]: http://code.google.com/p/cleartk/
