@@ -3,14 +3,23 @@
 As of version 3.0, the articles of the CRAFT Corpus have been modularly annotated with the classes from 10 Open Biomedical Ontologies (OBOs): 
 
 Chemical Entities of Biological Interest (CHEBI): chemical entities, subatomic particles, and chemical roles
+
 Cell Ontology (CL): cells
+
 Gene Ontology Biological Process (GO_BP): biological processes
+
 Gene Ontology Cellular Component (GO_CC): cellular and extracellular components and regions
+
 Gene Ontology Molecular Function (GO_MF): molecular functionalities possessed by genes/gene products
+
 Molecular Process Ontology (MOP): chemical/molecular reactions and other processes
+
 NCBI Taxonomy (NCBITaxon): biological taxa and taxon levels
+
 Protein Ontology (PR): proteins (which are also used to annotate corresponding genes and transcripts)
+
 Sequence Ontology (SO): biomacromolecular entities, sequence features and attributes
+
 Uberon (UBERON): anatomical entities and multicellular organisms defined in terms of developmental and sexual characteristics
 
 For each of these, the concept annotations are modularly distributed in two sets, one using only proper classes from the given ontology, and another additionally using extension classes created by us but defined in terms of proper OBO classes.  These extension classes were created for various reasons: Some were created to unify classes from different ontologies that were semantically equivalent or very close so that there would not be multiple concept annotations for the same text spans if the disparate annotation sets were aggregated.  (This also adds to the semantic integration of the ontologies.)  Others were created to unify multiple classes for cases in which they were difficult to consistently use for text annotation; that is, we have found it not possible or very difficult to reliably differentiate among the concepts for observed textual mentions.  Others were created to create representations for new concepts in terms of existing classes.  (These cases are not mutually exclusive, so a given extension class may have had multiple motivations.)  In any case, an extension class was only created if we were able to create a formal logical definition for it in terms of existing OBO classes.  We have not implemented these as formal logical definitions yet, as some require logical expressions beyond that which can be represented in OBO format (which is the format that we have been using for these ontologies), but these logical definitions can be seen in the text definition fields of the extension classes’ OBO stanzas in the form of Manchester OWL syntax.  Note that since there are no logical definitions implemented and no other explicit superclass assertions, the extension classes are situated at the level of the root(s) of the ontologies.  In the future, we intend to distribute the ontologies in OWL rather than OBO format and will implement these logical definitions, which will also allow them to be properly automatically classified within the ontologies by OWL reasoners.  Note that an extension class may be an extension of more than ontology (and many are).
