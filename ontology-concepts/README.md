@@ -1,26 +1,26 @@
 # Concept Annotations
 
-As of version 3.0, the articles of the CRAFT Corpus have been modularly annotated with the classes from 10 Open Biomedical Ontologies (OBOs): 
+As of version 3.0, the articles of the CRAFT Corpus have been modularly annotated with classes from 10 Open Biomedical Ontologies (OBOs): 
 
-Chemical Entities of Biological Interest (CHEBI): chemical entities, subatomic particles, and chemical roles
+Chemical Entities of Biological Interest (CHEBI): chemical entities, subatomic particles, and chemical roles (e.g., methylglyoxal, 3-isobutyl-1-methylxanthine, asparagine, iodide, streptomycin, water, potassium, protein, histone, polysaccharide, DNA, mineral, mixture, solution, anion, atom, carbon-14 atom, radical, amino group, disulfanediyl group, gelatin, electron, dye, reagent, anti-inflammatory agent, insecticide, mitogen)
 
-Cell Ontology (CL): cells
+Cell Ontology (CL): cells (e.g., cell, platelet, enterocyte, endothelial cell, peritoneal macrophage, cardiac muscle cell, brown fat cell, CD4-positive alpha-beta T-cell, embryonic stem cell, circulating cell, cultured cell, apoptosis-fated cell)
 
-Gene Ontology Biological Process (GO_BP): biological processes
+Gene Ontology Biological Process (GO_BP): biological processes (e.g., behavior, cell adhesion, anaphase, menopause, biological regulation, macromolecular complex assembly, autophagy, drug metabolic process, translational initiation, protein folding, DNA repair, sexual reproduction, immune response, BMP signaling pathway, locomotion, asymmetric stem cell division, neuron projection morphogenesis)
 
-Gene Ontology Cellular Component (GO_CC): cellular and extracellular components and regions
+Gene Ontology Cellular Component (GO_CC): cellular and extracellular components and regions (e.g., cell-cell junction, cell projection, nuclear envelope, intracellular, cytoplasm, endoplasmic reticulum, chromatin, actin filament, mitochondrial membrane, ribosome, DNA repair complex, protein phosphatase type 2A complex, extracellular matrix)
 
-Gene Ontology Molecular Function (GO_MF): molecular functionalities possessed by genes/gene products
+Gene Ontology Molecular Function (GO_MF): molecular functionalities possessed by genes/gene products (e.g., binding, annealing activity, protein dimerization activity), but also largely annotated as the bearers of these functionalities (e.g., antioxidant, transposase, NAD-dependent histone deacetylase, chemoattractant, metallochaperone, calcium channel inhibitor, protein kinase activator, receptor, 9-cis retinoic acid receptor, MAP kinase, morphogen, transcription factor, sterol transporter)
 
-Molecular Process Ontology (MOP): chemical/molecular reactions and other processes
+Molecular Process Ontology (MOP): chemical reactions and other molecular processes (e.g., acetylation, N-gylcosylation, isomerization, oxidation, polymerization, catalysis, hydrolysis, chain reaction, electron transfer)
 
-NCBI Taxonomy (NCBITaxon): biological taxa and taxon levels
+NCBI Taxonomy (NCBITaxon): biological taxa and their corresponding organisms, and taxon levels (e.g., organism, Bartonellaceae, Rhizobiales/rhizobacteria, Vertebrata/vertebrate, Magniolophyta/angiosperm, Tetraodontidae/pufferfish, Oryctolagus cuniculus/rabbit, Homo sapiens/human, Dictyostelium discoideum, Escherichia coli K-12, kingdom, phylum, species)
 
-Protein Ontology (PR): proteins (which are also used to annotate corresponding genes and transcripts)
+Protein Ontology (PR): proteins, which are also used to annotate their corresponding genes and transcripts (e.g., protein, cadherin, AKT kinase, cyclin-dependent kinase inhibitor, G-protein coupled receptor, annexin A1/ANXA1, oligoadenylate synthetase 1A/Oas1a, bile acid receptor/NR1H4)
 
-Sequence Ontology (SO): biomacromolecular entities, sequence features and attributes
+Sequence Ontology (SO): biomacromolecular entities, sequence features and attributes (e.g., mature transcript, variant, plasmid, clone, PCR product, gene, pseudogene, genetic marker, QTL, SNP, insertion, open chromatin region, origin of replication, splice junction, chromosome breakpoint, assembly, contig, homologous, cryptic, floxed, antisense, in-frame)
 
-Uberon (UBERON): anatomical entities and multicellular organisms defined in terms of developmental and sexual characteristics
+Uberon (UBERON): anatomical entities and multicellular organisms defined in terms of developmental and sexual characteristics (e.g., tongue, brain, brain ventricle, skeleton, feather, iris, venous plexus, basilar membrane of cochlea, endolymphatic duct, aortic sac, trophoblast, coat of hair, abdominal cavity, bladder lumen, cardiovascular system, aqueous humor, bile, embryo/embryonic stage, male organism)
 
 For each of these, the concept annotations are modularly distributed in two sets, one using only proper classes from the given ontology, and another additionally using extension classes created by us but defined in terms of proper OBO classes.  These extension classes were created for various reasons: Some were created to unify classes from different ontologies that were semantically equivalent or very close so that there would not be multiple concept annotations for the same text spans if the disparate annotation sets were aggregated.  (This also adds to the semantic integration of the ontologies.)  Others were created to unify multiple classes for cases in which they were difficult to consistently use for text annotation; that is, we have found it not possible or very difficult to reliably differentiate among the concepts for observed textual mentions.  Others were created to create representations for new concepts in terms of existing classes.  (These cases are not mutually exclusive, so a given extension class may have had multiple motivations.)  In any case, an extension class was only created if we were able to create a formal logical definition for it in terms of existing OBO classes.  We have not implemented these as formal logical definitions yet, as some require logical expressions beyond that which can be represented in OBO format (which is the format that we have been using for these ontologies), but these logical definitions can be seen in the text definition fields of the extension classes’ OBO stanzas in the form of Manchester OWL syntax.  Note that since there are no logical definitions implemented and no other explicit superclass assertions, the extension classes are situated at the level of the root(s) of the ontologies.  In the future, we intend to distribute the ontologies in OWL rather than OBO format and will implement these logical definitions, which will also allow them to be properly automatically classified within the ontologies by OWL reasoners.  Note that an extension class may be an extension of more than ontology (and many are).
 
