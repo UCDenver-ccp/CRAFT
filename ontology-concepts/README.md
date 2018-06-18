@@ -12,7 +12,7 @@ Gene Ontology Cellular Component (GO_CC): cellular and extracellular components 
 
 Gene Ontology Molecular Function (GO_MF): molecular functionalities possessed by genes/gene products (e.g., binding, annealing, protein dimerization), but also largely annotated as the bearers of these functionalities (e.g., antioxidant, transposase, DNA ligase, carbonate dehydratase, NAD-dependent histone deacetylase, chemoattractant, metallochaperone, calcium channel inhibitor, protein kinase activator, receptor, 9-cis retinoic acid receptor, MAP kinase, morphogen, transcription factor, transcription corepressor, sterol transporter, cytochrome-c oxidase, nitric oxide synthase)
 
-Molecular Process Ontology (MOP): chemical reactions and other molecular processes (e.g., acetylation, deacetylation, biotinylation, N-gylcosylation, isomerization, oxidation, polymerization, catalysis, hydrolysis, chain reaction, electron transfer)
+Molecular Process Ontology (MOP): chemical reactions and other molecular processes (e.g., acetylation, deacetylation, butylation, myristoylation, biotinylation, N-gylcosylation, isomerization, oxidation, reduction, dehydrogenation, polymerization, depolymerization, catalysis, hydrolysis, chain reaction, electron transfer, covalent bond formation)
 
 NCBI Taxonomy (NCBITaxon): biological taxa and their corresponding organisms, and taxon levels (e.g., organism, Archaea, Bartonellaceae, Chlamydomonas, Rhizobiales/rhizobacteria, Vertebrata/vertebrate, Magniolophyta/angiosperm, Tetraodontidae/pufferfish, Oryctolagus cuniculus/rabbit, Saccharomyces cerevisiae/baker's yeast, Homo sapiens/human, Dictyostelium discoideum, Escherichia coli K-12, Phix174 virus, kingdom, phylum, species)
 
