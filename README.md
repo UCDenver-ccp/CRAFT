@@ -78,7 +78,7 @@ The CRAFT Corpus has been made available in a number of different formats. Avail
 | CoNLL dep. tree | dependency parse trees                                                                 |
 | GENIA XML       | parts of speech, sentences, tokens                                                     |
 | Knowtator XML   | coreference, document sections and typography, ontology concepts                       |
-| Knowtator 2 XML | coreference, document section and typography, ontology concepts                        |
+| Knowtator 2 XML | coreference, document sections and typography, ontology concepts                        |
 | Penn TreeBank   | full syntactic trees                                                                   |
 | UIMA XMI        | coreference, document sections and typography, full syntactic trees, ontology concepts |                        
 
@@ -116,7 +116,7 @@ Each annotation set that has been provided in the Knowtator 2 format has been pa
        
 ## Feedback
 
-Please direct comments, questions, and suggestions to either in the Issues section of the CRAFT GitHub page, or send e-mail to Mike Bada at mike.bada@ucdenver.edu.
+Please direct comments, questions, and suggestions to the Issues section of the CRAFT GitHub page, or send e-mail to Mike Bada at mike.bada@ucdenver.edu.
 
 [craft release]: https://github.com/UCDenver-ccp/CRAFT/releases
 [craft2.0]: http://bionlp-corpora.sourceforge.net/CRAFT/
