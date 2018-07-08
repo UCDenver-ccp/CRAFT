@@ -1,30 +1,30 @@
 # The CRAFT (Colorado Richly Annotated Full-Text) Corpus
 
-The contents of this repository consist of the v3.0 release of the CRAFT Corpus.  This release consists of 67 articles from the PubMed CentralOpen Access subset, each of which has been annotated along a number of different axes. For the syntactic annotation of the corpus, all sentences have been marked up with respect to sentence segmentation, tokenization, part-of-speech tags, grammatical dependency, and treebanking.  Document sections (e.g., Abstract, Results) and typography (e.g., italics, boldface, subscript, superscript) have also been specified.  Additionally, the corpus has been annotated with coreference relations, including identity and appositives, for all coreferring base noun phrases.  Finally, semantically, concepts mentioned in these articles have been mapped (“normalized”) to specific ontology classes, relying on ten Open Biomedical Ontologies.
+The contents of this repository consist of the v3.0 release of the CRAFT Corpus.  This release consists of 67 articles from the PubMed Central Open Access subset, each of which has been annotated along a number of different axes. For the syntactic annotation of the corpus, all sentences have been marked up with respect to sentence segmentation, tokenization, part-of-speech tags, grammatical dependency, and treebanking.  Document sections (e.g., Abstract, Results) and typography (e.g., italics, boldface, subscript, superscript) have also been specified.  Additionally, the corpus has been annotated with coreference relations, including identity and appositives, for all coreferring base noun phrases.  Finally, semantically, concepts mentioned in these articles have been mapped (“normalized”) to specific ontology classes, relying on ten Open Biomedical Ontologies.  (There is an additional README in the ontology-concepts directory with much more information about these concept annotations.)
 
 For details of the concept annotations and citation:
 
-  Bada, M., Eckert, M., Evans, D., Garcia, K., Shipley, K., Sitnikov, D., Baumgartner Jr., W. A., Cohen, K. B., Verspoor, K., Blake, J. A., and Hunter, L. E. (2012) Concept annotation in the CRAFT corpus. BMC Bioinformatics 12:161.
+Bada, M., Eckert, M., Evans, D., Garcia, K., Shipley, K., Sitnikov, D., Baumgartner Jr., W. A., Cohen, K. B., Verspoor, K., Blake, J. A., and Hunter, L. E. (2012) Concept annotation in the CRAFT corpus. BMC Bioinformatics 12:161.
 
 For syntactic tool performance over CRAFT and citation:
 
-  Verspoor, K., Cohen, K.B., Lanfranchi, A., Warner, C., Johnson, H.L., Roeder, C., Choi, J.D., Funk, C., Malenkiy, Y., Eckert, M., Xue, N., Baumgartner Jr., W.A., Bada, M., Palmer, M., Hunter L.E. (2012) A corpus of full-text journal articles is a robust evaluation tool for revealing differences in performance of biomedical natural language processing tools. BMC Bioinformatics 13:207.
+Verspoor, K., Cohen, K.B., Lanfranchi, A., Warner, C., Johnson, H.L., Roeder, C., Choi, J.D., Funk, C., Malenkiy, Y., Eckert, M., Xue, N., Baumgartner Jr., W.A., Bada, M., Palmer, M., Hunter L.E. (2012) A corpus of full-text journal articles is a robust evaluation tool for revealing differences in performance of biomedical natural language processing tools. BMC Bioinformatics 13:207.
 
 For an overview of the concept annotation guidelines and citation:
 
-  Bada, M., Eckert, M., Palmer, M., and Hunter, L.E. (2010) An overview of the CRAFT annotation guidelines.  Proceedings of the Fourth Linguistic Annotation Workshop, ACL 2010, pp. 207-211.
+Bada, M., Eckert, M., Palmer, M., and Hunter, L.E. (2010) An overview of the CRAFT annotation guidelines.  Proceedings of the Fourth Linguistic Annotation Workshop, ACL 2010, pp. 207-211.
 
 For evaluation of concept recognition tools on the concept annotations and citation:
 
-  Funk, C., Baumgartner, W.A., Garcia, B., Roeder, C., Bada, M., Cohen, K.B., Hunter, L.E., and Verspoor, K. (2014) Large-scale biomedical concept recognition: an evaluation   of current automatic annotators and their parameters. BMC Bioinformatics 15:59.
+Funk, C., Baumgartner, W.A., Garcia, B., Roeder, C., Bada, M., Cohen, K.B., Hunter, L.E., and Verspoor, K. (2014) Large-scale biomedical concept recognition: an evaluation   of current automatic annotators and their parameters. BMC Bioinformatics 15:59.
 
 For details of the coreference annotations and citation:
 
-  Cohen, K.B., Lanfranchi, A., Choi, M.J., Bada, M., Baumgartner Jr., W.A., Panteleyeva, N., Verspoor, K., Palmer, M., and Hunter, L.E. (2017) Coreference annotation and  resolution in the Colorado Richly Annotated Full Text (CRAFT) corpus of biomedical  journal articles. BMC Bioinformatics 18:372.
+Cohen, K.B., Lanfranchi, A., Choi, M.J., Bada, M., Baumgartner Jr., W.A., Panteleyeva, N., Verspoor, K., Palmer, M., and Hunter, L.E. (2017) Coreference annotation and  resolution in the Colorado Richly Annotated Full Text (CRAFT) corpus of biomedical  journal articles. BMC Bioinformatics 18:372.
 
 For details of the Uberon anatomical annotations and citation:
 
-  Bada, M., Vasilevsky, N., Baumgartner Jr., W.A., Haendel, M., and Hunter, L.E. (2017) Gold-standard ontology-based anatomical annotation in the CRAFT Corpus. Database  Volume 2017, bax087.
+Bada, M., Vasilevsky, N., Baumgartner Jr., W.A., Haendel, M., and Hunter, L.E. (2017) Gold-standard ontology-based anatomical annotation in the CRAFT Corpus. Database  Volume 2017, bax087.
 
 The CRAFT Corpus is available for download in compressed form [here][craft release]
 
