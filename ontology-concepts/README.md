@@ -128,6 +128,8 @@ The overwhelming majority of the classes of the PR ontology represent types of p
 
 Also, note that the PR ontology imports many classes from a number of external terminologies, identifiable by their different class namespace prefixes (e.g., BFO, CGNC, EcoGene, FlyBase).  Since these non-PR classes were not used for the PR annotations, these should be ignored when parsing either PR.obo or PR+extensions.obo to extract information for dictionary construction; this can be done by examining the class prefixes in the ID fields.  However, if parsing the latter, the purposely created extension PR classes (all of which have namespaces ending in "\_EXT") should not be ignored in the process.
 
+Note also that nearly all of the PR annotations use species-nonspecific PR protein classes; the only use of species-specific PR protein classes are for mentions in which the species is attached to the protein mention in abbreviated form, e.g., hPLAP, which is annotated with PR:'alkaline phosphatase, placental type (human)' (PR:P05187).  Additionally, nearly all of the PR annotations use isoform-nonspecific PR protein classes.  (In the PR, the species-specific and isoform-specific protein classes are subclasses of their corresponding species- and isoform-nonspecific protein classes.)
+
 Many of the protein classes of the PR have their corresponding gene names and acronyms stored as related synonyms.  Since we have used the PR protein classes to also mark up corresponding genes and transcripts, these related synonyms are very likely to be useful; therefore, unlike the other ontologies, we recommend also using the related synonyms for PR concept recognition in text.
 
 ## SO
