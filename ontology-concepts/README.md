@@ -16,7 +16,7 @@ As of version 3.0, the articles of the CRAFT Corpus have been modularly annotate
 
 **Gene Ontology Cellular Component (GO_CC):** cellular and extracellular components and regions; species-nonspecific macromolecular complexes  
 *Example proper GO_CC classes used in core annotation set*: vesicle, nucleolus, caveola, actin cytoskeleton, cell-cell junction, cell projection, nuclear envelope, cytoplasm, cis-Golgi network, excitatory synapse, chromatin, endoplasmic reticulum, actin filament, mitochondrial membrane, extracellular matrix, photoreceptor outer segment, axoneme, extrinsic component of membrane, ribosome, DNA repair complex, protein complex, protein phosphatase type 2A complex  
-*Example additional GO_CC extension classes used in core+extensions annotation set*: hemoglobin protein/complex, high-density lipoprotein, cell, basal body, dimer, flagellum, tight junction, calcineurin complex, integrin, centromere, chromosome, chromosomal location/part/region, basal lamina, cellular component/part, lumen, nerve ending/terminal
+*Example additional GO_CC extension classes used in core+extensions annotation set*: hemoglobin protein/complex, high-density lipoprotein, cell, basal body, dimer, flagellum, tight junction, calcineurin complex, integrin protein/complex, centromere, chromosome, chromosomal location/part/region, basal lamina, cellular component/part, lumen, nerve ending/terminal
 
 **Gene Ontology Molecular Function (GO_MF):** molecular functionalities possessed by genes/gene products, which are also used to annotate the bearers of these functionalities  
 *Example proper GO_MF classes used in core annotation set*: annealing/hybridization, dimerization, protein anchoring   
