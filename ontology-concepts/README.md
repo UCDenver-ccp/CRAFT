@@ -27,7 +27,7 @@ As of version 3.0, the articles of the CRAFT Corpus have been modularly annotate
 *Additional MOP extension classes used in MOP+extensions annotation set*: catalysis, glycosylation, metal chelation, methylation, oxidant entity/process 
 
 **NCBI Taxonomy (NCBITaxon):** biological taxa and their corresponding organisms; taxon levels  
-*Example proper NCBITaxon classes used in NCBITaxon annotation set*: organism, Archaea, Bartonellaceae, _Chlamydomonas_, _Crithidia luciliae_, Rhizobiales/rhizobacteria, Vertebrata/vertebrate, Magniolophyta/angiosperm, Deuterostomia/deuterostome, Tetraodontidae/pufferfish, _Oryctolagus cuniculus_/rabbit, _Saccharomyces cerevisiae_/baker's yeast, _Homo sapiens_/human, Enterobacteria phage T7, _Escherichia coli_ K-12, Phix174 virus, kingdom, phylum, species, subspecies  
+*Example proper NCBITaxon classes used in NCBITaxon annotation set*: organism, Archaea, Bartonellaceae, _Crithidia luciliae_, _Chlamydomonas_, Rhizobiales/rhizobacteria, Vertebrata/vertebrate, Magniolophyta/angiosperm, Deuterostomia/deuterostome, Tetraodontidae/pufferfish, _Oryctolagus cuniculus_/rabbit, _Saccharomyces cerevisiae_/baker's yeast, _Homo sapiens_/human, Enterobacteria phage T7, _Escherichia coli_ K-12, Phix174 virus, kingdom, phylum, species, subspecies  
 *Additional NCBITaxon extension classes used in NCBITaxon+extensions annotation set*: carp, fish, ground squirrel, HIV, HSV, invertebrate, monkey, quail, reptile, ungulate, worm, yeast, calf, chick, child, girl, man, mare, pup, woman
 
 **Protein Ontology (PR):** proteins, which are also used to annotate their corresponding genes and transcripts  
