@@ -23,7 +23,7 @@ As of version 3.0, the articles of the CRAFT Corpus have been modularly annotate
 *Example additional GO_MF extension classes used in GO_MF+extensions annotation set*: binding, agonist, antioxidant, DNA ligase, ATPase, transposase, carbonate dehydratase, NAD-dependent histone deacetylase, chemoattractant, nitric acid synthase, metallochaperone, calcium channel inhibitor, protein kinase activator, receptor, 9-cis-retinoic acid receptor, MAP kinase, morphogen, transcription factor, transcription corepressor, enzyme, enzyme inhibitor, cytochrome-c oxidase, hormone, triglyceride lipase, peptidase/protease/proteinase, biological mover/transporter, nucleotide exchange factor
 
 **Molecular Process Ontology (MOP):** chemical reactions and other molecular processes  
-*Example proper MOP classes used in MOP annotation set*: acetylation, deacetylation, butylation, myristoylation, biotinylation, N-gylcosylation, isomerization, oxidation, reduction, dehydrogenation, polymerization, depolymerization, catalysis, hydrolysis, chain reaction, electron transfer, covalent bond formation  
+*Example proper MOP classes used in MOP annotation set*: acetylation, deacetylation, butylation, myristoylation, biotinylation, N-gylcosylation, isomerization, oxidation, reduction, dehydrogenation, polymerization, depolymerization, hydrolysis, chain reaction, electron transfer, covalent bond formation  
 *Additional MOP extension classes used in MOP+extensions annotation set*: catalysis, glycosylation, metal chelation, methylation, oxidant entity/process 
 
 **NCBI Taxonomy (NCBITaxon):** biological taxa and their corresponding organisms; taxon levels  
