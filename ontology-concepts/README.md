@@ -1,6 +1,6 @@
 # Concept Annotations
 
-As of version 3.0, the articles of the CRAFT Corpus have been modularly annotated with classes from 10 Open Biomedical Ontologies (OBOs): 
+As of version 3.0, the articles of the CRAFT Corpus have been semantically annotated with classes based on specific Open Biomedical Ontologies (OBOs), organized into 10 modules: 
 
 **Chemical Entities of Biological Interest (CHEBI):** chemical entities, subatomic particles, and chemical roles  
 *Example proper CHEBI classes used in CHEBI annotation set*: methylglyoxal, 3-isobutyl-1-methylxanthine, iodide, water, streptomycin, ammonium chloride, bicarbonate, ozone, sodium(1+), histone, polysaccharide, mineral, mixture, solution, anion, atom, carbon-14 atom, radical, amino group, disulfanediyl group, gelatin, electron, dye, detergent, insecticide, anti-inflammatory agent, mitogen, chromophore, acid, PPAR modulator, microtubule-stabilizing agent, carcinogen, toxin  
