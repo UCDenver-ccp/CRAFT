@@ -2,7 +2,7 @@
 
 As of version 3.0, the articles of the CRAFT Corpus have been semantically annotated with classes based on specific Open Biomedical Ontologies (OBOs), organized into 10 modules: 
 
-**Chemical Entities of Biological Interest (CHEBI):** chemical entities, subatomic particles, and chemical roles  
+**Chemical Entities of Biological Interest (CHEBI):** chemical entities (atoms, chemical substances, chemical groups, and molecular entities), subatomic particles, and roles possessed by chemical entities (applications by humans, biological roles, and chemical roles)  
 *Example proper CHEBI classes used in CHEBI annotation set*: methylglyoxal, 3-isobutyl-1-methylxanthine, iodide, water, streptomycin, ammonium chloride, bicarbonate, ozone, sodium(1+), histone, polysaccharide, mineral, mixture, solution, anion, atom, carbon-14 atom, radical, amino group, disulfanediyl group, gelatin, electron, dye, detergent, insecticide, anti-inflammatory agent, mitogen, chromophore, acid, PPAR modulator, carcinogen, toxin, analgesic  
 *Example additional CHEBI extension classes used in CHEBI+extensions annotation set*: buffering, buffer solution, acrylic, ADP, 2-oxoglutarate, aluminum, adenine/adenosine, biochemical, carboxy/carboxylato group, chemical substance, EDTA, phosphate, eosin, metal, glycerol 1-phosphate, phosphatidylcholine, purine, residue, radiolabeling, antioxidant, saline solution, agonist, cyclin-dependent kinase inhibitor, high-density lipoprotein, hormone, adiponectin, protein, angiotensin,  ribonucleoprotein, enzyme, peptidase/protease/proteinase, beta-amyloid protein/aggregate, glucagon, alanine, amino acid, polypeptide, nucleobase, biomarker, DNA, epitope, molecular probe, oligonuncleotide
 
