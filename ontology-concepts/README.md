@@ -81,6 +81,7 @@ Also, the OBO classes in the ontology files contain four types of synonyms (exac
 
 Finally, the user is recommended to take note of the ontology-specific comments below.
 
+## Ontology-Specific Notes and Recommendations
 
 ## CHEBI
 
