@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="annotations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="annotation"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="classMention"/>
+          <xs:element ref="complexSlotMention"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="textSource" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="annotation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="mention"/>
+        <xs:element ref="annotator"/>
+        <xs:sequence minOccurs="0">
+          <xs:element maxOccurs="unbounded" ref="span"/>
+          <xs:element ref="spannedText"/>
+        </xs:sequence>
+        <xs:element ref="creationDate"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mention">
+    <xs:complexType>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="annotator">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="span">
+    <xs:complexType>
+      <xs:attribute name="end" use="required" type="xs:integer"/>
+      <xs:attribute name="start" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="spannedText" type="xs:string"/>
+  <xs:element name="creationDate" type="xs:string"/>
+  <xs:element name="classMention">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="mentionClass"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="hasSlotMention"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mentionClass">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hasSlotMention">
+    <xs:complexType>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="complexSlotMention">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="mentionSlot"/>
+        <xs:element maxOccurs="unbounded" ref="complexSlotMentionValue"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mentionSlot">
+    <xs:complexType>
+      <xs:attribute name="id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="complexSlotMentionValue">
+    <xs:complexType>
+      <xs:attribute name="value" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
