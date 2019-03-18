@@ -1,5 +1,5 @@
-(set-env! :dependencies '[[edu.ucdenver.ccp/file-conversion "0.1"]]
-          :repositories {"bionlp" "http://svn.code.sf.net/p/bionlp/code/repo/"})
+(set-env! :dependencies '[[edu.ucdenver.ccp/file-conversion-onejar "0.1"]]
+          :repositories {"bionlp" "https://svn.code.sf.net/p/bionlp/code/repo/"})
 (require '[clojure.java.io :refer [file]]
          '[clojure.java.io :as io])
 (import edu.ucdenver.ccp.common.file.CharacterEncoding
