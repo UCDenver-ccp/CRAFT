@@ -75,7 +75,7 @@
 
 (deftask concept
          "Indicates that concept annotations will be processed."
-         [t concept-type VAL str "indicates annotation type to be processed. Must be one of CHEBI, CL, GO_BP, GO_CC, GO_MF, MOP, NCBITaxon, PR, SO, or UBERON to indicate all concept types should be processed. Note case-sensitivity in the concept types."
+         [t concept-type VAL str "indicates annotation type to be processed. Must be one of CHEBI, CL, GO_BP, GO_CC, GO_MF, MOP, NCBITaxon, PR, SO, or UBERON. To indicate all concept types should be processed, use the all-concepts task instead. Note case-sensitivity in the concept types."
           x include-extensions bool "indicates that extension classes should be included"]
          (with-pre-wrap fileset
                         (let [valid-concept-types #{"CHEBI" "CL" "GO_BP" "GO_CC" "GO_MF" "MOP" "NCBITaxon" "PR" "SO" "UBERON"}
