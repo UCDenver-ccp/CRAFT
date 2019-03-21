@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="knowtator-project">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="document"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="annotation"/>
+        <xs:element ref="graph-space"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="text-file" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="annotation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="class"/>
+        <xs:element maxOccurs="unbounded" ref="span"/>
+      </xs:sequence>
+      <xs:attribute name="annotator" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="class">
+    <xs:complexType>
+      <xs:attribute name="id" use="required" type="xs:anyURI"/>
+      <xs:attribute name="label" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="span">
+    <xs:complexType mixed="true">
+      <xs:attribute name="end" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="start" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="graph-space">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element maxOccurs="unbounded" ref="vertex"/>
+        <xs:element maxOccurs="unbounded" ref="triple"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vertex">
+    <xs:complexType>
+      <xs:attribute name="annotation" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="triple">
+    <xs:complexType>
+      <xs:attribute name="annotator" use="required"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="object" use="required" type="xs:NCName"/>
+      <xs:attribute name="property" use="required"/>
+      <xs:attribute name="quantifier" use="required"/>
+      <xs:attribute name="subject" use="required" type="xs:NCName"/>
+      <xs:attribute name="value" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,6 +1,27 @@
 
 # CRAFT Corpus Changes
 
+## Version 3.1
+* The top-level directory has been reorganized into three main directories for annotations.
+  * **concept_annotation/** stores all annotations of ontology concept mentions
+  * **structural_annotation/** stores all syntactic annotations and annotations related to document structure
+  * **coreference_annotation/** stores all coreference annotations
+
+* A Clojure Boot script has been added to the distribution to facilitate dynamic generation of annotation files in different formats at a user's request. With this addition, annotation files in alternative formats (e.g. brat, uima, knowtator-2 etc.) have been removed leaving only the native file format for each annotation type. Doing so has reduced the overall size of the CRAFT project to under the 1GB threshold imposed by GitHub.
+
+* Knowtator-2 project archives have been removed from the distribution. They can now be created dynamically using the new Clojure Boot script.
+
+* Some treebank files have been adjusted based on errors reported by the CoNLL 2018 universal dependency shared task evaluation script (http://universaldependencies.org/conll18/evaluation.html) when run over dependency parses derived from the treebank files. Most errors took the form of multiple ROOT nodes present in the dependency parse and were related to nested CAPTION constructs in the treebank files. These were addressed by un-nesting the CAPTION constructs. There were also a few errors related to empty forms in the resulting dependency parses. These stemmed from lists in the treebank files that used empty forms, e.g. (:  ) or (SYM  ) and these were removed from the treebank files.
+
+* New versions of the dependency files have been derived from the manually annotated treebank files using the ClearNLP library, specifically the C2DConvert.java application (https://github.com/clir/clearnlp/blob/master/src/main/java/edu/emory/clir/clearnlp/bin/C2DConvert.java). The file format for the dependency files has also been updated to use the CoNLL-U file format (https://universaldependencies.org/format.html). The original versions of the dependency files have been removed from the repository.
+
+* Some erroneous relations were removed from a single knowtator-2 annotation file for the CL+extension concepts
+
+* Coreference annotations in the Knowtator-2 file format have been removed due to an issue with their representation of APPOS relations. These files can be regenerated with the Clojure Boot script (referenced above) if desired.
+
+* The distribution now includes XSD files for the knowtator and knowtator-2 XML file formats. See the **schema/** directory
+
+
 ## Version 3.0 
 * The directory structure of the distribution has been substantially changed.  Along with the journal articles, the top level is organized by annotation type (coreference, dependency structures, ontology concepts, sentences/tokens/parts of speech, sections/typography, and full syntactic parses).  All available formats for a given annotation type are organized under it.
 
