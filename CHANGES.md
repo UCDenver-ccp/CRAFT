@@ -17,7 +17,7 @@
 
 * Some erroneous relations were removed from a single knowtator-2 annotation file for the CL+extension concepts
 
-* Coreference annotations in the Knowtator-2 file format have been removed due to an issue with their representation of APPOS relations. These files can be regenerated with the Clojure Boot script (referenced above) if desired.
+* The coreference annotations have been revised to resolve instances of identity chains sharing mentions. The original knowtator files have been removed and replaced with knowtator-2 format files that contain the revised annotations. For details on the changes to the coreference annotations, please see this [README](https://github.com/UCDenver-ccp/CRAFT/blob/master/coreference-annotation/README.md).
 
 * The distribution now includes XSD files for the knowtator and knowtator-2 XML file formats. See the **schema/** directory
 
