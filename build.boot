@@ -1,4 +1,4 @@
-(set-env! :dependencies '[[edu.ucdenver.ccp/file-conversion-onejar "0.2"]]
+(set-env! :dependencies '[[edu.ucdenver.ccp/file-conversion-onejar "0.2.1"]]
           :repositories {"bionlp" "https://svn.code.sf.net/p/bionlp/code/repo/"})
 (require '[clojure.java.io :refer [file]]
          '[clojure.java.io :as io])
@@ -395,9 +395,9 @@
          "convert constituent parse files to dependency parse files"
          (with-pre-wrap fileset
                         (let [treebank-dir (file "structural-annotation" "treebank" "penn")
-                              dependency-dir (file "structural-annotation" "dependency" "conllu")]
+                              dependency-dir (file "structural-annotation" "dependency" "conllx")]
                              (.mkdirs dependency-dir)
-                             (TreebankToDependencyConverter/convert treebank-dir dependency-dir HeadRule/STANFORD))
+                             (TreebankToDependencyConverter/convert treebank-dir dependency-dir HeadRule/CONLL))
                         fileset))
 
 ;;; Task below was used to transform the coreference annotations in their
@@ -462,7 +462,7 @@
                 (convert :pubannotation true :output-directory (.getAbsolutePath (file coref-dir "pubannotation")))
                 (convert :uima true :output-directory (.getAbsolutePath (file coref-dir "uima")))
                 (part-of-speech)                            ;; tokens and sentences are needed for the CoNLL-Coref format
-                (coreference) (convert :conll-coref-ident true :output-directory (.getAbsolutePath (file coref-dir "conllcoref" "ident")))
+                (convert :conll-coref-ident true :output-directory (.getAbsolutePath (file coref-dir "conllcoref" "ident")))
 
                 ;; dependency
                 (reset-fs)
