@@ -3,7 +3,11 @@
 ## Version 3.1.1
 * Returned the dependency file format for the CRAFT dependency data back to the CoNLL-X format. The CoNLL-U files in v3.1 were improperly formatted (XPOS and UPOS columns were mistakenly swapped among other things) and there is no UPOS data to include. This change aligns the dependency files more closely with the original CRAFT dependency files (available in CRAFT v3.0 and earlier releases). Those original files were missing one POS column which is now included to fully comply with the CoNLL-X format. The non-compliant CoNLL-U files have been removed from the distribution. Also, a minor change was made to the HeadRule used in the conversion from treebank files to the dependency files. The CONLL HeadRule is now used instead of the STANFORD HeadRule.
   
-* The file-conversion library dependency was updated to 0.2.1 to include changes to support the CoNLL-X file generation mentioned above as well as updates to allow the boot script to work with Java >= 9.0. 
+* The file-conversion library dependency was updated to 0.2.1 to include changes to support the CoNLL-X file generation mentioned above as well as updates to allow the boot script to work with Java >= 9.0.
+ 
+* The parse for final sentence of document 14611657 was added to the 14611657.tree file and the dependency parse was automatically derived and added to 14611657.conll
+  
+* For document 16098226, use of NCBITaxon:1910954 was swapped with NCBITaxon:10847 (partly because NCBITaxon:1910954 is not present in the NCBITaxonomy OBO file that is distributed with CRAFT)  
 
 ## Version 3.1
 * The top-level directory has been reorganized into three main directories for annotations.
