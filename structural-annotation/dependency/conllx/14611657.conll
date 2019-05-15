@@ -10247,3 +10247,28 @@
 9	probe	probe	NN	NN	_	7	conj	_	_
 10	.	.	.	.	_	1	punct	_	_
 
+1	Probe	probe	NN	NN	_	2	compound	_	_
+2	names	name	NNS	NNS	_	3	nsubj	_	_
+3	comprise	comprise	VBP	VBP	_	0	root	_	_
+4	the	the	DT	DT	_	5	det	_	_
+5	names	name	NNS	NNS	_	3	dobj	_	_
+6	of	of	IN	IN	_	5	prep	_	_
+7	the	the	DT	DT	_	9	det	_	_
+8	two	#crd#	CD	CD	_	9	nummod	_	_
+9	primers	primer	NNS	NNS	_	6	pobj	_	_
+10	and	and	CC	CC	_	5	cc	_	_
+11	the	the	DT	DT	_	13	det	_	_
+12	annealing	annealing	JJ	JJ	_	13	amod	_	_
+13	temperature	temperature	NN	NN	_	5	conj	_	_
+14	used	use	VBN	VBN	_	13	acl	_	_
+15	during	during	IN	IN	sem=TMP	14	prep	_	_
+16	PCR	pcr	NN	NN	_	15	pobj	_	_
+17	to	to	TO	TO	sem=PRP	14	advcl	_	_
+18	generate	generate	VB	VB	_	17	dep	_	_
+19	the	the	DT	DT	_	20	det	_	_
+20	probes	probe	NNS	NNS	_	18	dobj	_	_
+21	,	,	,	,	_	13	punct	_	_
+22	separated	separate	VBN	VBN	_	13	conj	_	_
+23	by	by	IN	IN	_	22	prep	_	_
+24	underscores	underscore	NNS	NNS	_	23	pobj	_	_
+
