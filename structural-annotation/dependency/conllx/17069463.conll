@@ -37,7 +37,7 @@
 
 1	Several	several	JJ	JJ	_	3	amod	_	_
 2	molecular	molecular	JJ	JJ	_	3	amod	_	_
-3	partners	partner	NNS	NNS	_	14	nsubj	_	_
+3	partners	partner	NNS	NNS	_	16	nsubjpass	_	_
 4	with	with	IN	IN	_	3	prep	_	_
 5	distinct	distinct	JJ	JJ	_	6	amod	_	_
 6	functions	function	NNS	NNS	_	4	pobj	_	_
@@ -48,10 +48,10 @@
 11	modules	module	NNS	NNS	_	9	pobj	_	_
 12	of	of	IN	IN	_	11	prep	_	_
 13	RanBP2	ranbp0	NN	NN	_	12	pobj	_	_
-14	have	have	VBP	VBP	_	0	root	_	_
-15	been	be	VBN	VBN	_	14	dep	_	_
-16	identified	identify	VBN	VBN	_	15	dep	_	_
-17	.	.	.	.	_	14	punct	_	_
+14	have	have	VBP	VBP	_	16	aux	_	_
+15	been	be	VBN	VBN	_	16	auxpass	_	_
+16	identified	identify	VBN	VBN	_	0	root	_	_
+17	.	.	.	.	_	16	punct	_	_
 
 1	Yet	yet	RB	RB	_	27	advmod	_	_
 2	,	,	,	,	_	27	punct	_	_
@@ -215,8 +215,8 @@
 18	HKI	hki	NN	NN	_	17	pobj	_	_
 19	.	.	.	.	_	11	punct	_	_
 
-1	To	to	TO	TO	sem=PRP	24	advcl	_	_
-2	probe	probe	VB	VB	_	1	dep	_	_
+1	To	to	TO	TO	_	2	aux	_	_
+2	probe	probe	VB	VB	sem=PRP	25	advcl	_	_
 3	the	the	DT	DT	_	5	det	_	_
 4	physiological	physiological	JJ	JJ	_	5	amod	_	_
 5	role	role	NN	NN	_	2	dobj	_	_
@@ -228,19 +228,19 @@
 11	in	in	IN	IN	_	10	prep	_	_
 12	HKI	hki	NN	NN	_	13	compound	_	_
 13	function	function	NN	NN	_	11	pobj	_	_
-14	,	,	,	,	_	24	punct	_	_
+14	,	,	,	,	_	25	punct	_	_
 15	a	a	DT	DT	_	17	det	_	_
 16	mouse	mouse	NN	NN	_	17	compound	_	_
-17	model	model	NN	NN	_	24	nsubj	_	_
+17	model	model	NN	NN	_	25	nsubjpass	_	_
 18	harboring	harbor	VBG	VBG	_	17	acl	_	_
 19	a	a	DT	DT	_	23	det	_	_
 20	genetically	genetically	RB	RB	_	21	advmod	_	_
 21	disrupted	disrupt	VBN	VBN	_	23	amod	_	_
 22	RanBP2	ranbp0	NN	NN	_	23	compound	_	_
 23	locus	locus	NN	NN	_	18	dobj	_	_
-24	was	be	VBD	VBD	_	0	root	_	_
-25	generated	generate	VBN	VBN	_	24	dep	_	_
-26	.	.	.	.	_	24	punct	_	_
+24	was	be	VBD	VBD	_	25	auxpass	_	_
+25	generated	generate	VBN	VBN	_	0	root	_	_
+26	.	.	.	.	_	25	punct	_	_
 
 1	RanBP2	ranbp0	NN	NN	_	5	nsubj	_	_
 2	−	−	SYM	SYM	_	1	punct	_	_
@@ -300,9 +300,9 @@
 23	.	.	.	.	_	8	punct	_	_
 
 1	These	these	DT	DT	_	2	det	_	_
-2	phenotypes	phenotype	NNS	NNS	_	3	nsubj	_	_
-3	are	be	VBP	VBP	_	0	root	_	_
-4	accompanied	accompany	VBN	VBN	_	3	dep	_	_
+2	phenotypes	phenotype	NNS	NNS	_	4	nsubjpass	_	_
+3	are	be	VBP	VBP	_	4	auxpass	_	_
+4	accompanied	accompany	VBN	VBN	_	0	root	_	_
 5	by	by	IN	IN	_	4	agent	_	_
 6	a	a	DT	DT	_	7	det	_	_
 7	decrease	decrease	NN	NN	_	5	pobj	_	_
@@ -315,7 +315,7 @@
 14	and	and	CC	CC	_	13	cc	_	_
 15	postreceptoral	postreceptoral	JJ	JJ	_	13	conj	_	_
 16	neurons	neuron	NNS	NNS	_	12	pobj	_	_
-17	.	.	.	.	_	3	punct	_	_
+17	.	.	.	.	_	4	punct	_	_
 
 1	Hence	hence	RB	RB	_	7	advmod	_	_
 2	,	,	,	,	_	7	punct	_	_
@@ -369,26 +369,26 @@
 16	domains	domain	NNS	NNS	_	14	pobj	_	_
 17	.	.	.	.	_	10	punct	_	_
 
-1	Although	although	IN	IN	syn=ADV	19	mark	_	_
+1	Although	although	IN	IN	_	6	mark	_	_
 2	several	several	JJ	JJ	_	4	amod	_	_
 3	protein	protein	NN	NN	_	4	compound	_	_
-4	partners	partner	NNS	NNS	_	5	nsubj	_	_
-5	were	be	VBD	VBD	_	1	ccomp	_	_
-6	found	find	VBN	VBN	_	5	dep	_	_
-7	to	to	TO	TO	_	6	xcomp	_	_
-8	interact	interact	VB	VB	_	7	dep	_	_
+4	partners	partner	NNS	NNS	_	6	nsubjpass	_	_
+5	were	be	VBD	VBD	_	6	auxpass	_	_
+6	found	find	VBN	VBN	syn=ADV	20	advcl	_	_
+7	to	to	TO	TO	_	8	aux	_	_
+8	interact	interact	VB	VB	_	6	xcomp	_	_
 9	with	with	IN	IN	_	8	prep	_	_
 10	selective	selective	JJ	JJ	_	11	amod	_	_
 11	domains	domain	NNS	NNS	_	9	pobj	_	_
 12	of	of	IN	IN	_	11	prep	_	_
 13	RanBP2	ranbp0	NN	NN	_	12	pobj	_	_
-14	,	,	,	,	_	19	punct	_	_
-15	none	none	NN	NN	_	19	nsubj	_	_
-16	to	to	IN	IN	sem=TMP	19	prep	_	_
+14	,	,	,	,	_	20	punct	_	_
+15	none	none	NN	NN	_	20	nsubjpass	_	_
+16	to	to	IN	IN	sem=TMP	20	prep	_	_
 17	this	this	DT	DT	_	18	det	_	_
 18	date	date	NN	NN	_	16	pobj	_	_
-19	were	be	VBD	VBD	_	0	root	_	_
-20	found	find	VBN	VBN	_	19	dep	_	_
+19	were	be	VBD	VBD	_	20	auxpass	_	_
+20	found	find	VBN	VBN	_	0	root	_	_
 21	toward	toward	IN	IN	_	20	prep	_	_
 22	its	its	PRP$	PRP$	_	27	poss	_	_
 23	large	large	JJ	JJ	_	27	amod	_	_
@@ -398,8 +398,8 @@
 27	domain	domain	NN	NN	_	21	pobj	_	_
 28	(	(	-LRB-	-LRB-	_	27	punct	_	_
 29	LD	ld	NN	NN	_	27	appos	_	_
-30	)	)	-RRB-	-RRB-	_	19	punct	_	_
-31	.	.	.	.	_	19	punct	_	_
+30	)	)	-RRB-	-RRB-	_	20	punct	_	_
+31	.	.	.	.	_	20	punct	_	_
 
 1	Cell	cell	NN	NN	_	3	npadvmod	_	_
 2	-	-	HYPH	HYPH	_	3	punct	_	_
@@ -526,9 +526,9 @@
 1	The	the	DT	DT	_	2	det	_	_
 2	authors	author	NNS	NNS	_	3	nsubj	_	_
 3	found	find	VBD	VBD	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	6	mark	_	_
 5	RanBP2	ranbp0	NN	NN	_	6	nsubj	_	_
-6	exhibits	exhibit	VBZ	VBZ	_	4	ccomp	_	_
+6	exhibits	exhibit	VBZ	VBZ	_	3	ccomp	_	_
 7	chaperone	chaperone	NN	NN	_	8	compound	_	_
 8	activity	activity	NN	NN	_	6	dobj	_	_
 9	toward	toward	IN	IN	_	8	prep	_	_
@@ -642,11 +642,11 @@
 25	.	.	.	.	_	5	punct	_	_
 
 1	Several	several	JJ	JJ	_	2	amod	_	_
-2	roles	role	NNS	NNS	_	5	nsubj	_	_
+2	roles	role	NNS	NNS	_	6	nsubj	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	RanBP2	ranbp0	NN	NN	_	3	pobj	_	_
-5	have	have	VBP	VBP	_	0	root	_	_
-6	emerged	emerge	VBN	VBN	_	5	dep	_	_
+5	have	have	VBP	VBP	_	6	aux	_	_
+6	emerged	emerge	VBN	VBN	_	0	root	_	_
 7	that	that	WDT	WDT	_	8	dep	_	_
 8	implicate	implicate	VBP	VBP	_	6	ccomp	_	_
 9	RanBP2	ranbp0	NN	NN	_	8	dobj	_	_
@@ -703,7 +703,7 @@
 60	[	[	-LRB-	-LRB-	_	61	punct	_	_
 61	9	0	CD	CD	_	45	parataxis	_	_
 62	]	]	-RRB-	-RRB-	_	61	punct	_	_
-63	.	.	.	.	_	5	punct	_	_
+63	.	.	.	.	_	6	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	specific	specific	JJ	JJ	_	3	amod	_	_
@@ -736,11 +736,11 @@
 29	pathways	pathway	NNS	NNS	_	27	pobj	_	_
 30	.	.	.	.	_	13	punct	_	_
 
-1	On	on	IN	IN	_	21	prep	_	_
+1	On	on	IN	IN	_	23	prep	_	_
 2	the	the	DT	DT	_	4	det	_	_
 3	other	other	JJ	JJ	_	4	amod	_	_
 4	hand	hand	NN	NN	_	1	pobj	_	_
-5	,	,	,	,	_	21	punct	_	_
+5	,	,	,	,	_	23	punct	_	_
 6	the	the	DT	DT	_	13	det	_	_
 7	cell	cell	NN	NN	_	12	npadvmod	_	_
 8	(	(	-LRB-	-LRB-	_	7	punct	_	_
@@ -748,7 +748,7 @@
 10	)	)	-RRB-	-RRB-	_	12	punct	_	_
 11	-	-	HYPH	HYPH	_	12	punct	_	_
 12	selective	selective	JJ	JJ	_	13	amod	_	_
-13	interaction	interaction	NN	NN	_	21	nsubj	_	_
+13	interaction	interaction	NN	NN	_	23	nsubj	_	_
 14	of	of	IN	IN	_	13	prep	_	_
 15	RanBP2	ranbp0	NN	NN	_	14	pobj	_	_
 16	with	with	IN	IN	_	13	prep	_	_
@@ -756,16 +756,16 @@
 18	of	of	IN	IN	_	17	prep	_	_
 19	its	its	PRP$	PRP$	_	20	poss	_	_
 20	partners	partner	NNS	NNS	_	18	pobj	_	_
-21	may	may	MD	MD	_	0	root	_	_
-22	also	also	RB	RB	_	21	advmod	_	_
-23	impart	impart	VB	VB	_	21	dep	_	_
+21	may	may	MD	MD	_	23	aux	_	_
+22	also	also	RB	RB	_	23	advmod	_	_
+23	impart	impart	VB	VB	_	0	root	_	_
 24	cell	cell	NN	NN	_	26	npadvmod	_	_
 25	-	-	HYPH	HYPH	_	26	punct	_	_
 26	restricted	restricted	JJ	JJ	_	27	amod	_	_
 27	roles	role	NNS	NNS	_	23	dobj	_	_
 28	to	to	IN	IN	_	23	prep	_	_
 29	RanBP2	ranbp0	NN	NN	_	28	pobj	_	_
-30	.	.	.	.	_	21	punct	_	_
+30	.	.	.	.	_	23	punct	_	_
 
 1	For	for	IN	IN	_	16	prep	_	_
 2	example	example	NN	NN	_	1	pobj	_	_
@@ -880,7 +880,7 @@
 50	7	0	CD	CD	_	43	parataxis	_	_
 51	]	]	-RRB-	-RRB-	_	50	punct	_	_
 52	,	,	,	,	_	21	punct	_	_
-53	while	while	IN	IN	syn=ADV	21	mark	_	_
+53	while	while	IN	IN	_	80	mark	_	_
 54	the	the	DT	DT	_	55	det	_	_
 55	interaction	interaction	NN	NN	_	80	nsubj	_	_
 56	of	of	IN	IN	_	55	prep	_	_
@@ -907,7 +907,7 @@
 77	and	and	CC	CC	_	76	cc	_	_
 78	KIF5C	kif0c	NN	NN	_	76	conj	_	_
 79	,	,	,	,	_	80	punct	_	_
-80	occurs	occur	VBZ	VBZ	_	53	ccomp	_	_
+80	occurs	occur	VBZ	VBZ	syn=ADV	21	advcl	_	_
 81	selectively	selectively	RB	RB	_	80	advmod	_	_
 82	in	in	IN	IN	sem=LOC	80	prep	_	_
 83	the	the	DT	DT	_	86	det	_	_
@@ -942,8 +942,8 @@
 18	,	,	,	,	_	19	punct	_	_
 19	are	be	VBP	VBP	_	0	root	_	_
 20	likely	likely	JJ	JJ	syn=PRD	19	acomp	_	_
-21	to	to	TO	TO	_	20	xcomp	_	_
-22	impart	impart	VB	VB	_	21	dep	_	_
+21	to	to	TO	TO	_	22	aux	_	_
+22	impart	impart	VB	VB	_	20	xcomp	_	_
 23	and	and	CC	CC	_	22	cc	_	_
 24	integrate	integrate	VB	VB	_	22	conj	_	_
 25	additional	additional	JJ	JJ	_	26	amod	_	_
@@ -1032,13 +1032,13 @@
 78	respectively	respectively	RB	RB	_	33	advmod	_	_
 79	.	.	.	.	_	33	punct	_	_
 
-1	RanBP2	ranbp0	NN	NN	_	3	nsubj	_	_
-2	itself	itself	PRP	PRP	syn=ADV	3	npadvmod	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	also	also	RB	RB	_	3	advmod	_	_
-5	found	find	VBN	VBN	_	3	dep	_	_
-6	to	to	TO	TO	_	5	xcomp	_	_
-7	exhibit	exhibit	VB	VB	_	6	dep	_	_
+1	RanBP2	ranbp0	NN	NN	_	5	nsubjpass	_	_
+2	itself	itself	PRP	PRP	syn=ADV	5	npadvmod	_	_
+3	was	be	VBD	VBD	_	5	auxpass	_	_
+4	also	also	RB	RB	_	5	advmod	_	_
+5	found	find	VBN	VBN	_	0	root	_	_
+6	to	to	TO	TO	_	7	aux	_	_
+7	exhibit	exhibit	VB	VB	_	5	xcomp	_	_
 8	SUMO1	sumo0	NN	NN	_	10	compound	_	_
 9	E3	e0	NN	NN	_	10	compound	_	_
 10	ligase	ligase	NN	NN	_	11	compound	_	_
@@ -1089,16 +1089,16 @@
 55	[	[	-LRB-	-LRB-	_	56	punct	_	_
 56	18	0	CD	CD	_	16	parataxis	_	_
 57	]	]	-RRB-	-RRB-	_	56	punct	_	_
-58	.	.	.	.	_	3	punct	_	_
+58	.	.	.	.	_	5	punct	_	_
 
-1	Finally	finally	RB	RB	_	4	advmod	_	_
-2	,	,	,	,	_	4	punct	_	_
-3	RanBP2	ranbp0	NN	NN	_	4	nsubj	_	_
-4	was	be	VBD	VBD	_	0	root	_	_
-5	also	also	RB	RB	_	4	advmod	_	_
-6	found	find	VBN	VBN	_	4	dep	_	_
-7	to	to	TO	TO	_	6	xcomp	_	_
-8	localize	localize	VB	VB	_	7	dep	_	_
+1	Finally	finally	RB	RB	_	6	advmod	_	_
+2	,	,	,	,	_	6	punct	_	_
+3	RanBP2	ranbp0	NN	NN	_	6	nsubjpass	_	_
+4	was	be	VBD	VBD	_	6	auxpass	_	_
+5	also	also	RB	RB	_	6	advmod	_	_
+6	found	find	VBN	VBN	_	0	root	_	_
+7	to	to	TO	TO	_	8	aux	_	_
+8	localize	localize	VB	VB	_	6	xcomp	_	_
 9	prominently	prominently	RB	RB	_	8	advmod	_	_
 10	to	to	IN	IN	_	8	prep	_	_
 11	the	the	DT	DT	_	17	det	_	_
@@ -1150,22 +1150,22 @@
 57	,	,	,	,	_	58	punct	_	_
 58	19	0	CD	CD	_	8	parataxis	_	_
 59	]	]	-RRB-	-RRB-	_	58	punct	_	_
-60	.	.	.	.	_	4	punct	_	_
+60	.	.	.	.	_	6	punct	_	_
 
 1	Emerging	emerge	VBG	VBG	_	2	amod	_	_
 2	evidence	evidence	NN	NN	_	3	nsubj	_	_
 3	supports	support	VBZ	VBZ	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	14	mark	_	_
 5	the	the	DT	DT	_	9	det	_	_
 6	CNS	cns	NN	NN	_	8	npadvmod	_	_
 7	-	-	HYPH	HYPH	_	8	punct	_	_
 8	selective	selective	JJ	JJ	_	9	amod	_	_
-9	effects	effect	NNS	NNS	_	12	nsubj	_	_
+9	effects	effect	NNS	NNS	_	14	nsubj	_	_
 10	of	of	IN	IN	_	9	prep	_	_
 11	RanBP2	ranbp0	NN	NN	_	10	pobj	_	_
-12	may	may	MD	MD	_	4	ccomp	_	_
-13	also	also	RB	RB	_	12	advmod	_	_
-14	underlie	underlie	VB	VB	_	12	dep	_	_
+12	may	may	MD	MD	_	14	aux	_	_
+13	also	also	RB	RB	_	14	advmod	_	_
+14	underlie	underlie	VB	VB	_	3	ccomp	_	_
 15	the	the	DT	DT	_	16	det	_	_
 16	pathogenesis	pathogenesis	NN	NN	_	14	dobj	_	_
 17	of	of	IN	IN	_	16	prep	_	_
@@ -1173,12 +1173,12 @@
 19	neuropathies	neuropathy	NNS	NNS	_	17	pobj	_	_
 20	.	.	.	.	_	3	punct	_	_
 
-1	Parkin	parkin	NN	NN	_	2	nsubj	_	_
-2	is	be	VBZ	VBZ	_	0	root	_	_
-3	ubiquitously	ubiquitously	RB	RB	_	2	advmod	_	_
-4	expressed	express	VBN	VBN	_	2	dep	_	_
-5	and	and	CC	CC	_	2	cc	_	_
-6	interacts	interact	VBZ	VBZ	_	2	conj	_	_
+1	Parkin	parkin	NN	NN	_	4	nsubjpass	_	_
+2	is	be	VBZ	VBZ	_	4	auxpass	_	_
+3	ubiquitously	ubiquitously	RB	RB	_	4	advmod	_	_
+4	expressed	express	VBN	VBN	_	0	root	_	_
+5	and	and	CC	CC	_	4	cc	_	_
+6	interacts	interact	VBZ	VBZ	_	4	conj	_	_
 7	with	with	IN	IN	_	6	prep	_	_
 8	the	the	DT	DT	_	12	det	_	_
 9	Ubc9	ubc0	NN	NN	_	11	npadvmod	_	_
@@ -1190,7 +1190,7 @@
 15	[	[	-LRB-	-LRB-	_	16	punct	_	_
 16	20	0	CD	CD	_	6	parataxis	_	_
 17	]	]	-RRB-	-RRB-	_	16	punct	_	_
-18	.	.	.	.	_	2	punct	_	_
+18	.	.	.	.	_	4	punct	_	_
 
 1	This	this	DT	DT	_	2	nsubj	_	_
 2	promotes	promote	VBZ	VBZ	_	0	root	_	_
@@ -1227,15 +1227,15 @@
 33	]	]	-RRB-	-RRB-	_	32	punct	_	_
 34	.	.	.	.	_	2	punct	_	_
 
-1	Interestingly	interestingly	RB	RB	_	29	advmod	_	_
-2	,	,	,	,	_	29	punct	_	_
+1	Interestingly	interestingly	RB	RB	_	31	advmod	_	_
+2	,	,	,	,	_	31	punct	_	_
 3	the	the	DT	DT	_	9	det	_	_
 4	small	small	JJ	JJ	_	9	amod	_	_
 5	yeast	yeast	NN	NN	_	9	nmod	_	_
 6	Ran	ran	NN	NN	_	8	npadvmod	_	_
 7	-	-	HYPH	HYPH	_	8	punct	_	_
 8	binding	bind	VBG	VBG	_	9	amod	_	_
-9	protein	protein	NN	NN	_	29	nsubj	_	_
+9	protein	protein	NN	NN	_	31	nsubjpass	_	_
 10	1	0	CD	CD	_	9	nummod	_	_
 11	(	(	-LRB-	-LRB-	_	9	punct	_	_
 12	RanBP1	ranbp0	NN	NN	_	9	appos	_	_
@@ -1254,10 +1254,10 @@
 25	domains	domain	NNS	NNS	_	20	pobj	_	_
 26	of	of	IN	IN	_	25	prep	_	_
 27	RanBP2	ranbp0	NN	NN	_	26	pobj	_	_
-28	,	,	,	,	_	29	punct	_	_
-29	is	be	VBZ	VBZ	_	0	root	_	_
-30	also	also	RB	RB	_	29	advmod	_	_
-31	required	require	VBN	VBN	_	29	dep	_	_
+28	,	,	,	,	_	31	punct	_	_
+29	is	be	VBZ	VBZ	_	31	auxpass	_	_
+30	also	also	RB	RB	_	31	advmod	_	_
+31	required	require	VBN	VBN	_	0	root	_	_
 32	for	for	IN	IN	_	31	prep	_	_
 33	cell	cell	NN	NN	_	35	compound	_	_
 34	-	-	HYPH	HYPH	_	35	punct	_	_
@@ -1268,7 +1268,7 @@
 39	[	[	-LRB-	-LRB-	_	40	punct	_	_
 40	21	0	CD	CD	_	31	parataxis	_	_
 41	]	]	-RRB-	-RRB-	_	40	punct	_	_
-42	.	.	.	.	_	29	punct	_	_
+42	.	.	.	.	_	31	punct	_	_
 
 1	Parkin	parkin	NN	NN	_	9	nsubj	_	_
 2	,	,	,	,	_	1	punct	_	_
@@ -1310,7 +1310,7 @@
 38	]	]	-RRB-	-RRB-	_	37	punct	_	_
 39	.	.	.	.	_	28	punct	_	_
 
-1	While	while	IN	IN	syn=ADV	24	mark	_	_
+1	While	while	IN	IN	_	12	mark	_	_
 2	the	the	DT	DT	_	7	det	_	_
 3	dopaminergic	dopaminergic	JJ	JJ	_	7	amod	_	_
 4	neuronal	neuronal	JJ	JJ	_	6	amod	_	_
@@ -1321,7 +1321,7 @@
 9	mutations	mutation	NNS	NNS	_	8	pobj	_	_
 10	in	in	IN	IN	sem=LOC	9	prep	_	_
 11	parkin	parkin	NN	NN	_	10	pobj	_	_
-12	are	be	VBP	VBP	_	1	ccomp	_	_
+12	are	be	VBP	VBP	syn=ADV	24	advcl	_	_
 13	not	not	RB	RB	_	12	neg	_	_
 14	understood	understood	JJ	JJ	syn=PRD	12	acomp	_	_
 15	[	[	-LRB-	-LRB-	_	16	punct	_	_
@@ -1356,24 +1356,24 @@
 44	the	the	DT	DT	_	45	det	_	_
 45	mitochondria	mitochondrion	NNS	NNS	_	43	pobj	_	_
 46	,	,	,	,	_	42	punct	_	_
-47	where	where	WRB	WRB	_	52	advmod	_	42:ref
-48	together	together	RB	RB	_	52	advmod	_	_
+47	where	where	WRB	WRB	_	53	advmod	_	42:ref
+48	together	together	RB	RB	_	53	advmod	_	_
 49	with	with	IN	IN	_	48	prep	_	_
 50	other	other	JJ	JJ	_	51	amod	_	_
 51	partners	partner	NNS	NNS	_	49	pobj	_	_
-52	is	be	VBZ	VBZ	_	42	relcl	_	_
-53	thought	think	VBN	VBN	_	52	dep	_	_
-54	to	to	TO	TO	_	53	xcomp	_	_
-55	promote	promote	VB	VB	_	54	dep	_	_
+52	is	be	VBZ	VBZ	_	53	auxpass	_	_
+53	thought	think	VBN	VBN	_	42	relcl	_	_
+54	to	to	TO	TO	_	55	aux	_	_
+55	promote	promote	VB	VB	_	53	xcomp	_	_
 56	the	the	DT	DT	_	57	det	_	_
 57	degradation	degradation	NN	NN	_	55	dobj	_	_
 58	of	of	IN	IN	_	57	prep	_	_
 59	selective	selective	JJ	JJ	_	61	amod	_	_
 60	mitochondrial	mitochondrial	JJ	JJ	_	61	amod	_	_
 61	substrates	substrate	NNS	NNS	_	58	pobj	_	_
-62	and	and	CC	CC	_	54	cc	_	_
-63	to	to	TO	TO	_	54	conj	_	_
-64	exert	exert	VB	VB	_	63	dep	_	_
+62	and	and	CC	CC	_	55	cc	_	_
+63	to	to	TO	TO	_	64	aux	_	_
+64	exert	exert	VB	VB	_	55	conj	_	_
 65	a	a	DT	DT	_	67	det	_	_
 66	neuroprotective	neuroprotective	JJ	JJ	_	67	amod	_	_
 67	function	function	NN	NN	_	64	dobj	_	_
@@ -1387,14 +1387,14 @@
 1	These	these	DT	DT	_	2	det	_	_
 2	data	datum	NNS	NNS	_	3	nsubj	_	_
 3	suggest	suggest	VBP	VBP	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
-5	deficits	deficit	NNS	NNS	_	10	nsubj	_	_
+4	that	that	IN	IN	_	11	mark	_	_
+5	deficits	deficit	NNS	NNS	_	11	nsubj	_	_
 6	in	in	IN	IN	_	5	prep	_	_
 7	RanBP2	ranbp0	NN	NN	_	6	pobj	_	_
 8	and	and	CC	CC	_	7	cc	_	_
 9	parkin	parkin	NN	NN	_	7	conj	_	_
-10	may	may	MD	MD	_	4	ccomp	_	_
-11	share	share	VB	VB	_	10	dep	_	_
+10	may	may	MD	MD	_	11	aux	_	_
+11	share	share	VB	VB	_	3	ccomp	_	_
 12	(	(	-LRB-	-LRB-	_	15	punct	_	_
 13	patho	patho	AFX	AFX	_	15	advmod	_	_
 14	)	)	-RRB-	-RRB-	_	15	punct	_	_
@@ -1530,14 +1530,14 @@
 22	kDa	kda	NN	NN	_	18	appos	_	_
 23	)	)	-RRB-	-RRB-	_	14	punct	_	_
 24	,	,	,	,	_	14	punct	_	_
-25	for	for	IN	IN	_	30	prep	_	_
+25	for	for	IN	IN	_	32	prep	_	_
 26	which	which	WDT	WDT	_	25	pobj	_	14:ref
 27	no	no	DT	DT	_	29	det	_	_
 28	molecular	molecular	JJ	JJ	_	29	amod	_	_
-29	partners	partner	NNS	NNS	_	30	nsubj	_	_
-30	have	have	VBP	VBP	_	14	relcl	_	_
-31	been	be	VBN	VBN	_	30	dep	_	_
-32	identified	identify	VBN	VBN	_	31	dep	_	_
+29	partners	partner	NNS	NNS	_	32	nsubjpass	_	_
+30	have	have	VBP	VBP	_	32	aux	_	_
+31	been	be	VBN	VBN	_	32	auxpass	_	_
+32	identified	identify	VBN	VBN	_	14	relcl	_	_
 33	until	until	IN	IN	sem=TMP	32	prep	_	_
 34	this	this	DT	DT	_	35	det	_	_
 35	date	date	NN	NN	_	33	pobj	_	_
@@ -1550,16 +1550,16 @@
 5	two	#crd#	CD	CD	_	7	nummod	_	_
 6	-	-	HYPH	HYPH	_	7	punct	_	_
 7	hybrid	hybrid	NN	NN	_	8	compound	_	_
-8	libraries	library	NNS	NNS	_	9	nsubj	_	_
-9	were	be	VBD	VBD	_	0	root	_	_
-10	screened	screen	VBN	VBN	_	9	dep	_	_
+8	libraries	library	NNS	NNS	_	10	nsubjpass	_	_
+9	were	be	VBD	VBD	_	10	auxpass	_	_
+10	screened	screen	VBN	VBN	_	0	root	_	_
 11	with	with	IN	IN	sem=MNR	10	prep	_	_
 12	LD	ld	NN	NN	_	11	pobj	_	_
-13	.	.	.	.	_	9	punct	_	_
+13	.	.	.	.	_	10	punct	_	_
 
-1	Cox11	cox0	NN	NN	_	2	nsubj	_	_
-2	was	be	VBD	VBD	_	0	root	_	_
-3	identified	identify	VBN	VBN	_	2	dep	_	_
+1	Cox11	cox0	NN	NN	_	3	nsubjpass	_	_
+2	was	be	VBD	VBD	_	3	auxpass	_	_
+3	identified	identify	VBN	VBN	_	0	root	_	_
 4	as	as	IN	IN	_	3	prep	_	_
 5	a	a	DT	DT	_	6	det	_	_
 6	partner	partner	NN	NN	_	4	pobj	_	_
@@ -1572,7 +1572,7 @@
 13	and	and	CC	CC	_	12	cc	_	_
 14	1C	0c	NN	NN	_	12	conj	_	_
 15	)	)	-RRB-	-RRB-	_	12	punct	_	_
-16	.	.	.	.	_	2	punct	_	_
+16	.	.	.	.	_	3	punct	_	_
 
 1	Cox11	cox0	NN	NN	_	2	nsubj	_	_
 2	is	be	VBZ	VBZ	_	0	root	_	_
@@ -1672,10 +1672,10 @@
 34	panel	panel	NN	NN	_	26	parataxis	_	_
 35	)	)	-RRB-	-RRB-	_	34	punct	_	_
 36	,	,	,	,	_	26	punct	_	_
-37	which	which	WDT	WDT	_	38	dep	_	26:ref
-38	does	do	VBZ	VBZ	_	26	relcl	_	_
-39	not	not	RB	RB	_	38	neg	_	_
-40	bind	bind	VB	VB	_	38	dep	_	_
+37	which	which	WDT	WDT	_	40	dep	_	26:ref
+38	does	do	VBZ	VBZ	_	40	aux	_	_
+39	not	not	RB	RB	_	40	neg	_	_
+40	bind	bind	VB	VB	_	26	relcl	_	_
 41	to	to	IN	IN	_	40	prep	_	_
 42	GST	gst	NN	NN	_	44	compound	_	_
 43	-	-	HYPH	HYPH	_	44	punct	_	_
@@ -1691,7 +1691,7 @@
 6	we	we	PRP	PRP	_	8	nsubj	_	_
 7	also	also	RB	RB	_	8	advmod	_	_
 8	found	find	VBD	VBD	_	0	root	_	_
-9	that	that	IN	IN	_	8	mark	_	_
+9	that	that	IN	IN	_	40	mark	_	_
 10	other	other	JJ	JJ	_	12	amod	_	_
 11	mitochondrial	mitochondrial	JJ	JJ	_	12	amod	_	_
 12	components	component	NNS	NNS	_	40	nsubj	_	_
@@ -1722,7 +1722,7 @@
 37	data	datum	NNS	NNS	_	34	meta	_	_
 38	)	)	-RRB-	-RRB-	_	37	punct	_	_
 39	,	,	,	,	_	40	punct	_	_
-40	associated	associate	VBD	VBD	_	9	ccomp	_	_
+40	associated	associate	VBD	VBD	_	8	ccomp	_	_
 41	with	with	IN	IN	_	40	prep	_	_
 42	LD	ld	NN	NN	_	41	pobj	_	_
 43	of	of	IN	IN	_	42	prep	_	_
@@ -1739,16 +1739,16 @@
 8	HKI	hki	NN	NN	_	9	compound	_	_
 9	isoform	isoform	NN	NN	_	6	pobj	_	_
 10	,	,	,	,	_	3	punct	_	_
-11	because	because	IN	IN	sem=PRP	3	mark	_	_
-12	HKII	hkii	NN	NN	_	18	nsubj	_	_
+11	because	because	IN	IN	_	20	mark	_	_
+12	HKII	hkii	NN	NN	_	20	nsubj	_	_
 13	,	,	,	,	_	12	punct	_	_
 14	HKIII	hkiii	NN	NN	_	12	conj	_	_
 15	,	,	,	,	_	14	punct	_	_
 16	and	and	CC	CC	_	14	cc	_	_
 17	glucokinase	glucokinase	NN	NN	_	14	conj	_	_
-18	did	do	VBD	VBD	_	11	ccomp	_	_
-19	not	not	RB	RB	_	18	neg	_	_
-20	interact	interact	VB	VB	_	18	dep	_	_
+18	did	do	VBD	VBD	_	20	aux	_	_
+19	not	not	RB	RB	_	20	neg	_	_
+20	interact	interact	VB	VB	sem=PRP	3	advcl	_	_
 21	with	with	IN	IN	_	20	prep	_	_
 22	the	the	DT	DT	_	23	det	_	_
 23	LD	ld	NN	NN	_	21	pobj	_	_
@@ -1778,13 +1778,13 @@
 16	retinal	retinal	JJ	JJ	_	17	amod	_	_
 17	extracts	extract	NNS	NNS	_	15	pobj	_	_
 18	,	,	,	,	_	12	punct	_	_
-19	since	since	IN	IN	sem=TMP	12	mark	_	_
+19	since	since	IN	IN	_	25	mark	_	_
 20	antibodies	antibody	NNS	NNS	_	25	nsubj	_	_
 21	against	against	IN	IN	_	20	prep	_	_
 22	these	these	DT	DT	_	24	det	_	_
 23	and	and	CC	CC	_	24	cc	_	_
 24	RanBP2	ranbp0	NN	NN	_	21	pobj	_	_
-25	coimmunoprecipitated	coimmunoprecipitated	VBD	VBD	_	19	ccomp	_	_
+25	coimmunoprecipitated	coimmunoprecipitated	VBD	VBD	sem=TMP	12	advcl	_	_
 26	RanBP2	ranbp0	NN	NN	_	25	dobj	_	_
 27	(	(	-LRB-	-LRB-	_	29	punct	_	_
 28	Figure	figure	NN	NN	_	29	compound	_	_
@@ -1801,9 +1801,9 @@
 39	,	,	,	,	_	25	punct	_	_
 40	and	and	CC	CC	_	25	cc	_	_
 41	these	these	DT	DT	_	42	det	_	_
-42	interactions	interaction	NNS	NNS	_	43	nsubj	_	_
-43	were	be	VBD	VBD	_	25	conj	_	_
-44	observed	observe	VBN	VBN	_	43	dep	_	_
+42	interactions	interaction	NNS	NNS	_	44	nsubjpass	_	_
+43	were	be	VBD	VBD	_	44	auxpass	_	_
+44	observed	observe	VBN	VBN	_	25	conj	_	_
 45	across	across	IN	IN	sem=LOC	44	prep	_	_
 46	different	different	JJ	JJ	_	47	amod	_	_
 47	tissues	tissue	NNS	NNS	_	45	pobj	_	_
@@ -1813,15 +1813,15 @@
 51	)	)	-RRB-	-RRB-	_	50	punct	_	_
 52	.	.	.	.	_	12	punct	_	_
 
-1	Since	since	IN	IN	sem=PRP	8	mark	_	_
+1	Since	since	IN	IN	_	3	mark	_	_
 2	RanBP2	ranbp0	NN	NN	_	3	nsubj	_	_
-3	exhibits	exhibit	VBZ	VBZ	_	1	ccomp	_	_
+3	exhibits	exhibit	VBZ	VBZ	sem=PRP	8	advcl	_	_
 4	chaperone	chaperone	NN	NN	_	5	compound	_	_
 5	activity	activity	NN	NN	_	3	dobj	_	_
 6	,	,	,	,	_	8	punct	_	_
 7	we	we	PRP	PRP	_	8	nsubj	_	_
 8	assessed	assess	VBD	VBD	_	0	root	_	_
-9	whether	whether	IN	IN	_	8	mark	_	_
+9	whether	whether	IN	IN	_	19	mark	_	_
 10	the	the	DT	DT	_	11	det	_	_
 11	interaction	interaction	NN	NN	_	19	nsubj	_	11:gap
 12	between	between	IN	IN	_	11	prep	_	_
@@ -1831,7 +1831,7 @@
 16	RanBP2	ranbp0	NN	NN	_	15	pobj	_	_
 17	and	and	CC	CC	_	14	cc	_	_
 18	Cox11	cox0	NN	NN	_	14	conj	_	_
-19	was	be	VBD	VBD	_	9	ccomp	_	_
+19	was	be	VBD	VBD	_	8	ccomp	_	_
 20	direct	direct	JJ	JJ	syn=PRD	19	acomp	_	_
 21	and	and	CC	CC	_	24	cc	_	_
 22	the	the	DT	DT	_	24	det	_	_
@@ -1848,9 +1848,9 @@
 
 1	Reconstitution	reconstitution	NN	NN	_	2	compound	_	_
 2	binding	binding	NN	NN	_	3	compound	_	_
-3	assays	assay	NNS	NNS	_	4	nsubj	_	_
-4	were	be	VBD	VBD	_	0	root	_	_
-5	carried	carry	VBN	VBN	_	4	dep	_	_
+3	assays	assay	NNS	NNS	_	5	nsubjpass	_	_
+4	were	be	VBD	VBD	_	5	auxpass	_	_
+5	carried	carry	VBN	VBN	_	0	root	_	_
 6	out	out	RP	RP	_	5	prt	_	_
 7	between	between	IN	IN	_	5	prep	_	_
 8	purified	purify	VBN	VBN	_	9	amod	_	_
@@ -1878,7 +1878,7 @@
 30	and	and	CC	CC	_	29	cc	_	_
 31	1H	0h	NN	NN	_	29	conj	_	_
 32	)	)	-RRB-	-RRB-	_	29	punct	_	_
-33	.	.	.	.	_	4	punct	_	_
+33	.	.	.	.	_	5	punct	_	_
 
 1	Partial	partial	JJ	JJ	_	2	amod	_	_
 2	denatured	denature	VBN	VBN	_	3	amod	_	_
@@ -1989,12 +1989,12 @@
 2	N	n	NN	NN	_	4	npadvmod	_	_
 3	-	-	HYPH	HYPH	_	4	punct	_	_
 4	terminal	terminal	JJ	JJ	_	5	amod	_	_
-5	LD	ld	NN	NN	_	8	nsubj	_	_
+5	LD	ld	NN	NN	_	9	nsubjpass	_	_
 6	of	of	IN	IN	_	5	prep	_	_
 7	RanBP2	ranbp0	NN	NN	_	6	pobj	_	_
-8	is	be	VBZ	VBZ	_	0	root	_	_
-9	underlined	underline	VBN	VBN	_	8	dep	_	_
-10	.	.	.	.	_	8	punct	_	_
+8	is	be	VBZ	VBZ	_	9	auxpass	_	_
+9	underlined	underline	VBN	VBN	_	0	root	_	_
+10	.	.	.	.	_	9	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	B	b	LS	LS	_	5	meta	_	_
@@ -2017,11 +2017,11 @@
 7	N	n	NN	NN	_	4	conj	_	_
 8	-	-	HYPH	HYPH	_	9	punct	_	_
 9	terminal	terminal	JJ	JJ	_	10	amod	_	_
-10	domains	domain	NNS	NNS	_	11	nsubj	_	_
-11	are	be	VBP	VBP	_	0	root	_	_
-12	poorly	poorly	RB	RB	_	11	advmod	_	_
-13	conserved	conserve	VBN	VBN	_	11	dep	_	_
-14	.	.	.	.	_	11	punct	_	_
+10	domains	domain	NNS	NNS	_	13	nsubjpass	_	_
+11	are	be	VBP	VBP	_	13	auxpass	_	_
+12	poorly	poorly	RB	RB	_	13	advmod	_	_
+13	conserved	conserve	VBN	VBN	_	0	root	_	_
+14	.	.	.	.	_	13	punct	_	_
 
 1	Arrow	arrow	NN	NN	_	5	nsubj	_	_
 2	and	and	CC	CC	_	1	cc	_	_
@@ -2108,7 +2108,7 @@
 20	Cox11	cox0	NN	NN	_	18	conj	_	_
 21	.	.	.	.	_	8	punct	_	_
 
-1	Although	although	IN	IN	syn=ADV	46	mark	_	_
+1	Although	although	IN	IN	_	15	mark	_	_
 2	removal	removal	NN	NN	_	15	nsubj	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	the	the	DT	DT	_	6	det	_	_
@@ -2122,7 +2122,7 @@
 12	C	c	NN	NN	_	2	appos	_	_
 13	)	)	-RRB-	-RRB-	_	15	punct	_	_
 14	significantly	significantly	RB	RB	_	15	advmod	_	_
-15	decreased	decrease	VBD	VBD	_	1	ccomp	_	_
+15	decreased	decrease	VBD	VBD	syn=ADV	46	advcl	_	_
 16	the	the	DT	DT	_	17	det	_	_
 17	interaction	interaction	NN	NN	_	15	dobj	_	_
 18	with	with	IN	IN	_	17	prep	_	_
@@ -2282,9 +2282,9 @@
 11	molecular	molecular	JJ	JJ	_	12	amod	_	_
 12	partners	partner	NNS	NNS	_	9	pobj	_	_
 13	shows	show	VBZ	VBZ	_	0	root	_	_
-14	that	that	IN	IN	_	13	mark	_	_
+14	that	that	IN	IN	_	16	mark	_	_
 15	RanBP2	ranbp0	NN	NN	_	16	nsubj	_	_
-16	forms	form	VBZ	VBZ	_	14	ccomp	_	_
+16	forms	form	VBZ	VBZ	_	13	ccomp	_	_
 17	a	a	DT	DT	_	18	det	_	_
 18	complex	complex	JJ	JJ	_	16	dobj	_	_
 19	in	in	FW	FW	_	20	advmod	_	_
@@ -2571,9 +2571,9 @@
 16	over	over	IN	IN	_	13	prep	_	_
 17	HKI	hki	NN	NN	_	16	pobj	_	_
 
-1	To	to	TO	TO	sem=PRP	24	advcl	_	_
-2	probe	probe	VB	VB	_	1	dep	_	_
-3	whether	whether	IN	IN	_	2	mark	_	_
+1	To	to	TO	TO	_	2	aux	_	_
+2	probe	probe	VB	VB	sem=PRP	24	advcl	_	_
+3	whether	whether	IN	IN	_	15	mark	_	_
 4	the	the	DT	DT	_	5	det	_	_
 5	interaction	interaction	NN	NN	_	15	nsubj	_	_
 6	of	of	IN	IN	_	5	prep	_	_
@@ -2585,7 +2585,7 @@
 12	LD	ld	NN	NN	_	10	pobj	_	_
 13	of	of	IN	IN	_	12	prep	_	_
 14	RanBP2	ranbp0	NN	NN	_	13	pobj	_	_
-15	modulates	modulate	VBZ	VBZ	_	3	ccomp	_	_
+15	modulates	modulate	VBZ	VBZ	_	2	ccomp	_	_
 16	the	the	DT	DT	_	18	det	_	_
 17	enzymatic	enzymatic	JJ	JJ	_	18	amod	_	_
 18	activity	activity	NN	NN	_	15	dobj	_	_
@@ -2629,24 +2629,24 @@
 11	fashion	fashion	NN	NN	_	6	pobj	_	_
 12	,	,	,	,	_	3	punct	_	_
 13	and	and	CC	CC	_	3	cc	_	_
-14	at	at	IN	IN	_	23	prep	_	_
+14	at	at	IN	IN	_	26	prep	_	_
 15	~	~	SYM	SYM	_	16	punct	_	_
 16	15	0	CD	CD	_	17	nummod	_	_
 17	nM	nm	NN	NN	_	14	pobj	_	_
 18	of	of	IN	IN	_	17	prep	_	_
 19	Cox11	cox0	NN	NN	_	18	pobj	_	_
-20	,	,	,	,	_	23	punct	_	_
+20	,	,	,	,	_	26	punct	_	_
 21	HKI	hki	NN	NN	_	22	compound	_	_
-22	activity	activity	NN	NN	_	23	nsubj	_	_
-23	could	could	MD	MD	_	3	conj	_	_
-24	not	not	RB	RB	_	23	neg	_	_
-25	be	be	VB	VB	_	23	dep	_	_
-26	recorded	record	VBN	VBN	_	25	dep	_	_
+22	activity	activity	NN	NN	_	26	nsubjpass	_	_
+23	could	could	MD	MD	_	26	aux	_	_
+24	not	not	RB	RB	_	26	neg	_	_
+25	be	be	VB	VB	_	26	auxpass	_	_
+26	recorded	record	VBN	VBN	_	3	conj	_	_
 27	(	(	-LRB-	-LRB-	_	29	punct	_	_
 28	Figure	figure	NN	NN	_	29	compound	_	_
 29	2A	0a	NN	NN	_	26	parataxis	_	_
 30	)	)	-RRB-	-RRB-	_	29	punct	_	_
-31	.	.	.	.	_	23	punct	_	_
+31	.	.	.	.	_	26	punct	_	_
 
 1	Cox11	cox0	NN	NN	_	2	nsubj	_	_
 2	behaves	behave	VBZ	VBZ	_	0	root	_	_
@@ -2710,8 +2710,8 @@
 37	LD	ld	NN	NN	_	36	pobj	_	_
 38	.	.	.	.	_	4	punct	_	_
 
-1	As	as	IN	IN	syn=ADV	11	mark	_	_
-2	shown	show	VBN	VBN	_	1	advcl	_	_
+1	As	as	IN	IN	_	2	mark	_	_
+2	shown	show	VBN	VBN	syn=ADV	11	advcl	_	_
 3	in	in	IN	IN	_	2	prep	_	_
 4	Figure	figure	NN	NN	_	5	compound	_	_
 5	2C	0c	NN	NN	_	3	pobj	_	_
@@ -2737,7 +2737,7 @@
 25	manner	manner	NN	NN	_	20	pobj	_	_
 26	,	,	,	,	_	11	punct	_	_
 27	but	but	CC	CC	_	11	cc	_	_
-28	under	under	IN	IN	_	43	prep	_	_
+28	under	under	IN	IN	_	45	prep	_	_
 29	saturating	saturate	VBG	VBG	_	34	amod	_	_
 30	(	(	-LRB-	-LRB-	_	29	punct	_	_
 31	and	and	CC	CC	_	29	cc	_	_
@@ -2746,15 +2746,15 @@
 34	amounts	amount	NNS	NNS	_	28	pobj	_	_
 35	of	of	IN	IN	_	34	prep	_	_
 36	LD	ld	NN	NN	_	35	pobj	_	_
-37	,	,	,	,	_	43	punct	_	_
+37	,	,	,	,	_	45	punct	_	_
 38	the	the	DT	DT	_	39	det	_	_
-39	velocity	velocity	NN	NN	_	43	nsubj	_	_
+39	velocity	velocity	NN	NN	_	45	nsubj	_	_
 40	of	of	IN	IN	_	39	prep	_	_
 41	the	the	DT	DT	_	42	det	_	_
 42	reaction	reaction	NN	NN	_	40	pobj	_	_
-43	did	do	VBD	VBD	_	11	conj	_	_
-44	not	not	RB	RB	_	43	neg	_	_
-45	reach	reach	VB	VB	_	43	dep	_	_
+43	did	do	VBD	VBD	_	45	aux	_	_
+44	not	not	RB	RB	_	45	neg	_	_
+45	reach	reach	VB	VB	_	11	conj	_	_
 46	that	that	DT	DT	_	45	dobj	_	_
 47	observed	observe	VBN	VBN	_	46	acl	_	_
 48	for	for	IN	IN	_	47	prep	_	_
@@ -2772,18 +2772,18 @@
 60	,	,	,	,	_	45	punct	_	_
 61	suggesting	suggest	VBG	VBG	syn=ADV	45	advcl	_	_
 62	the	the	DT	DT	_	63	det	_	_
-63	LD	ld	NN	NN	_	66	nsubj	_	_
-64	by	by	IN	IN	_	66	prep	_	_
+63	LD	ld	NN	NN	_	68	nsubj	_	_
+64	by	by	IN	IN	_	68	prep	_	_
 65	itself	itself	PRP	PRP	_	64	pobj	_	_
-66	may	may	MD	MD	_	61	advcl	_	_
-67	also	also	RB	RB	_	66	advmod	_	_
-68	have	have	VB	VB	_	66	dep	_	_
+66	may	may	MD	MD	_	68	aux	_	_
+67	also	also	RB	RB	_	68	advmod	_	_
+68	have	have	VB	VB	_	61	advcl	_	_
 69	an	an	DT	DT	_	70	det	_	_
 70	effect	effect	NN	NN	_	68	dobj	_	_
 71	on	on	IN	IN	_	70	prep	_	_
 72	HKI	hki	NN	NN	_	73	compound	_	_
 73	activity	activity	NN	NN	_	71	pobj	_	_
-74	.	.	.	.	_	43	punct	_	_
+74	.	.	.	.	_	45	punct	_	_
 
 1	Indeed	indeed	RB	RB	_	8	advmod	_	_
 2	,	,	,	,	_	8	punct	_	_
@@ -2882,9 +2882,9 @@
 1	No	no	DT	DT	_	4	det	_	_
 2	measurable	measurable	JJ	JJ	_	4	amod	_	_
 3	HKI	hki	NN	NN	_	4	compound	_	_
-4	activity	activity	NN	NN	_	5	nsubj	_	_
-5	was	be	VBD	VBD	_	0	root	_	_
-6	recorded	record	VBN	VBN	_	5	dep	_	_
+4	activity	activity	NN	NN	_	6	nsubjpass	_	_
+5	was	be	VBD	VBD	_	6	auxpass	_	_
+6	recorded	record	VBN	VBN	_	0	root	_	_
 7	in	in	IN	IN	_	6	prep	_	_
 8	the	the	DT	DT	_	9	det	_	_
 9	presence	presence	NN	NN	_	7	pobj	_	_
@@ -2897,7 +2897,7 @@
 16	unpublished	unpublished	JJ	JJ	_	17	amod	_	_
 17	data	datum	NNS	NNS	_	6	meta	_	_
 18	)	)	-RRB-	-RRB-	_	17	punct	_	_
-19	.	.	.	.	_	5	punct	_	_
+19	.	.	.	.	_	6	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	B	b	LS	LS	_	7	meta	_	_
@@ -2970,12 +2970,12 @@
 21	.	.	.	.	_	2	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	C	c	LS	LS	_	6	meta	_	_
+2	C	c	LS	LS	_	7	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	HKI	hki	NN	NN	_	5	compound	_	_
-5	rate	rate	NN	NN	_	6	nsubj	_	_
-6	is	be	VBZ	VBZ	_	0	root	_	_
-7	plotted	plot	VBN	VBN	_	6	dep	_	_
+5	rate	rate	NN	NN	_	7	nsubjpass	_	_
+6	is	be	VBZ	VBZ	_	7	auxpass	_	_
+7	plotted	plot	VBN	VBN	_	0	root	_	_
 8	as	as	IN	IN	_	7	prep	_	_
 9	a	a	DT	DT	_	10	det	_	_
 10	function	function	NN	NN	_	8	pobj	_	_
@@ -2993,10 +2993,10 @@
 22	nM	nm	NNS	NNS	_	19	parataxis	_	_
 23	)	)	-RRB-	-RRB-	_	22	punct	_	_
 24	concentrations	concentration	NNS	NNS	_	14	pobj	_	_
-25	.	.	.	.	_	6	punct	_	_
+25	.	.	.	.	_	7	punct	_	_
 
 1	Note	note	VB	VB	_	0	root	_	_
-2	that	that	IN	IN	_	1	mark	_	_
+2	that	that	IN	IN	_	10	mark	_	_
 3	increasing	increase	VBG	VBG	_	4	amod	_	_
 4	concentrations	concentration	NNS	NNS	_	10	nsubj	_	_
 5	of	of	IN	IN	_	4	prep	_	_
@@ -3004,7 +3004,7 @@
 7	LD	ld	NN	NN	_	5	pobj	_	_
 8	of	of	IN	IN	_	7	prep	_	_
 9	RanBP2	ranbp0	NN	NN	_	8	pobj	_	_
-10	reverse	reverse	VBP	VBP	_	2	ccomp	_	_
+10	reverse	reverse	VBP	VBP	_	1	ccomp	_	_
 11	the	the	DT	DT	_	12	det	_	_
 12	inhibition	inhibition	NN	NN	_	10	dobj	_	_
 13	of	of	IN	IN	_	12	prep	_	_
@@ -3018,7 +3018,7 @@
 2	half	half	RB	RB	_	4	advmod	_	_
 3	-	-	HYPH	HYPH	_	4	punct	_	_
 4	maximal	maximal	JJ	JJ	_	5	amod	_	_
-5	effect	effect	NN	NN	_	22	nsubj	_	_
+5	effect	effect	NN	NN	_	23	nsubjpass	_	_
 6	of	of	IN	IN	_	5	prep	_	_
 7	the	the	DT	DT	_	8	det	_	_
 8	LD	ld	NN	NN	_	6	pobj	_	_
@@ -3035,8 +3035,8 @@
 19	nM	nm	NNS	NNS	_	17	pobj	_	_
 20	of	of	IN	IN	_	19	prep	_	_
 21	Cox11	cox0	NN	NN	_	20	pobj	_	_
-22	was	be	VBD	VBD	_	0	root	_	_
-23	observed	observe	VBN	VBN	_	22	dep	_	_
+22	was	be	VBD	VBD	_	23	auxpass	_	_
+23	observed	observe	VBN	VBN	_	0	root	_	_
 24	at	at	IN	IN	_	23	prep	_	_
 25	a	a	DT	DT	_	26	det	_	_
 26	concentration	concentration	NN	NN	_	24	pobj	_	_
@@ -3046,7 +3046,7 @@
 30	nM	nm	NNS	NNS	_	27	pobj	_	_
 31	of	of	IN	IN	_	30	prep	_	_
 32	LD	ld	NN	NN	_	31	pobj	_	_
-33	.	.	.	.	_	22	punct	_	_
+33	.	.	.	.	_	23	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	D	d	LS	LS	_	7	meta	_	_
@@ -3067,7 +3067,7 @@
 17	RanBP2	ranbp0	NN	NN	_	16	pobj	_	_
 18	.	.	.	.	_	7	punct	_	_
 
-1	At	at	IN	IN	_	18	prep	_	_
+1	At	at	IN	IN	_	19	prep	_	_
 2	a	a	DT	DT	_	4	det	_	_
 3	saturating	saturating	NN	NN	_	4	compound	_	_
 4	concentration	concentration	NN	NN	_	1	pobj	_	_
@@ -3080,17 +3080,17 @@
 11	3.75	0	CD	CD	_	12	nummod	_	_
 12	nM	nm	NNS	NNS	_	4	parataxis	_	_
 13	)	)	-RRB-	-RRB-	_	12	punct	_	_
-14	,	,	,	,	_	18	punct	_	_
+14	,	,	,	,	_	19	punct	_	_
 15	the	the	DT	DT	_	17	det	_	_
 16	HKI	hki	NN	NN	_	17	compound	_	_
-17	activity	activity	NN	NN	_	18	nsubj	_	_
-18	was	be	VBD	VBD	_	0	root	_	_
-19	reduced	reduce	VBN	VBN	_	18	dep	_	_
+17	activity	activity	NN	NN	_	19	nsubjpass	_	_
+18	was	be	VBD	VBD	_	19	auxpass	_	_
+19	reduced	reduce	VBN	VBN	_	0	root	_	_
 20	by	by	IN	IN	sem=EXT	19	prep	_	_
 21	about	about	IN	IN	_	22	quantmod	_	_
 22	20	0	CD	CD	_	23	nummod	_	_
 23	%	%	NN	NN	_	20	pobj	_	_
-24	.	.	.	.	_	18	punct	_	_
+24	.	.	.	.	_	19	punct	_	_
 
 1	v	v	NN	NN	_	0	root	_	_
 2	,	,	,	,	_	1	punct	_	_
@@ -3117,7 +3117,7 @@
 14	Cultured	culture	VBN	VBN	_	15	amod	_	_
 15	Neurons	neuron	NNS	NNS	_	12	conj	_	_
 
-1	In	in	IN	IN	_	13	prep	_	_
+1	In	in	IN	IN	_	14	prep	_	_
 2	addition	addition	NN	NN	_	1	pobj	_	_
 3	to	to	IN	IN	_	2	prep	_	_
 4	its	its	PRP$	PRP$	_	5	poss	_	_
@@ -3127,14 +3127,14 @@
 8	vicinity	vicinity	NN	NN	_	6	pobj	_	_
 9	of	of	IN	IN	_	8	prep	_	_
 10	NPCs	npc	NNS	NNS	_	9	pobj	_	_
-11	,	,	,	,	_	13	punct	_	_
-12	we	we	PRP	PRP	_	13	nsubj	_	_
-13	have	have	VBP	VBP	_	0	root	_	_
-14	shown	show	VBN	VBN	_	13	dep	_	_
+11	,	,	,	,	_	14	punct	_	_
+12	we	we	PRP	PRP	_	14	nsubj	_	_
+13	have	have	VBP	VBP	_	14	aux	_	_
+14	shown	show	VBN	VBN	_	0	root	_	_
 15	previously	previously	RB	RB	sem=TMP	14	advmod	_	_
-16	that	that	IN	IN	_	14	mark	_	_
+16	that	that	IN	IN	_	18	mark	_	_
 17	RanBP2	ranbp0	NN	NN	_	18	nsubj	_	_
-18	is	be	VBZ	VBZ	_	16	ccomp	_	_
+18	is	be	VBZ	VBZ	_	14	ccomp	_	_
 19	localized	localize	VBN	VBN	syn=PRD	18	dep	_	_
 20	to	to	IN	IN	sem=LOC	19	prep	_	_
 21	and	and	CC	CC	_	19	cc	_	_
@@ -3159,7 +3159,7 @@
 40	[	[	-LRB-	-LRB-	_	41	punct	_	_
 41	19	0	CD	CD	_	18	parataxis	_	_
 42	]	]	-RRB-	-RRB-	_	41	punct	_	_
-43	.	.	.	.	_	13	punct	_	_
+43	.	.	.	.	_	14	punct	_	_
 
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	extended	extend	VBD	VBD	_	0	root	_	_
@@ -3175,9 +3175,9 @@
 12	partners	partner	NNS	NNS	_	8	conj	_	_
 13	by	by	IN	IN	sem=MNR	2	prep	_	_
 14	immunocytochemistry	immunocytochemistry	NN	NN	_	13	pobj	_	_
-15	to	to	TO	TO	sem=PRP	2	advcl	_	_
-16	determine	determine	VB	VB	_	15	dep	_	_
-17	if	if	IN	IN	_	16	mark	_	_
+15	to	to	TO	TO	_	16	aux	_	_
+16	determine	determine	VB	VB	sem=PRP	2	advcl	_	_
+17	if	if	IN	IN	_	26	mark	_	_
 18	RanBP2	ranbp0	NN	NN	_	26	nsubj	_	_
 19	,	,	,	,	_	18	punct	_	_
 20	Cox11	cox0	NN	NN	_	18	conj	_	_
@@ -3186,7 +3186,7 @@
 23	,	,	,	,	_	22	punct	_	_
 24	and	and	CC	CC	_	22	cc	_	_
 25	mHsp70	mhsp0	NN	NN	_	22	conj	_	_
-26	colocalize	colocalize	VBP	VBP	_	17	ccomp	_	_
+26	colocalize	colocalize	VBP	VBP	_	16	ccomp	_	_
 27	in	in	IN	IN	sem=LOC	26	prep	_	_
 28	hippocampal	hippocampal	JJ	JJ	_	29	amod	_	_
 29	neurons	neuron	NNS	NNS	_	27	pobj	_	_
@@ -3254,9 +3254,9 @@
 6	these	these	DT	DT	_	7	det	_	_
 7	proteins	proteins	NN	NN	_	5	pobj	_	_
 8	showed	show	VBD	VBD	_	0	root	_	_
-9	that	that	IN	IN	_	8	mark	_	_
+9	that	that	IN	IN	_	11	mark	_	_
 10	they	they	PRP	PRP	_	11	nsubj	_	_
-11	colocalize	colocalize	VBP	VBP	_	9	ccomp	_	_
+11	colocalize	colocalize	VBP	VBP	_	8	ccomp	_	_
 12	to	to	IN	IN	_	11	prep	_	_
 13	the	the	DT	DT	_	14	det	_	_
 14	mitochondria	mitochondrion	NNS	NNS	_	12	pobj	_	_
@@ -3332,32 +3332,32 @@
 50	.	.	.	.	_	6	punct	_	_
 
 1	Note	note	VB	VB	_	0	root	_	_
-2	that	that	IN	IN	_	1	mark	_	_
-3	while	while	IN	IN	syn=ADV	26	mark	_	_
-4	RanBP2	ranbp0	NN	NN	_	7	nsubj	_	_
+2	that	that	IN	IN	_	27	mark	_	_
+3	while	while	IN	IN	_	9	mark	_	_
+4	RanBP2	ranbp0	NN	NN	_	9	nsubjpass	_	_
 5	and	and	CC	CC	_	4	cc	_	_
 6	HKI	hki	NN	NN	_	4	conj	_	_
-7	are	be	VBP	VBP	_	3	ccomp	_	_
-8	widely	widely	RB	RB	_	7	advmod	_	_
-9	expressed	express	VBN	VBN	_	7	dep	_	_
+7	are	be	VBP	VBP	_	9	auxpass	_	_
+8	widely	widely	RB	RB	_	9	advmod	_	_
+9	expressed	express	VBN	VBN	syn=ADV	27	advcl	_	_
 10	among	among	IN	IN	_	9	prep	_	_
-11	and	and	CC	CC	_	7	cc	_	_
-12	colocalize	colocalize	VBP	VBP	_	7	conj	_	_
+11	and	and	CC	CC	_	9	cc	_	_
+12	colocalize	colocalize	VBP	VBP	_	9	conj	_	_
 13	to	to	IN	IN	_	12	prep	_	_
 14	hippocampal	hippocampal	JJ	JJ	_	15	amod	_	_
 15	neurons	neuron	NNS	NNS	_	12	dobj	_	_
 16	(	(	-LRB-	-LRB-	_	17	punct	_	_
 17	C	c	NN	NN	_	12	parataxis	_	_
 18	)	)	-RRB-	-RRB-	_	17	punct	_	_
-19	,	,	,	,	_	26	punct	_	_
+19	,	,	,	,	_	27	punct	_	_
 20	HKI	hki	NN	NN	_	21	compound	_	_
-21	expression	expression	NN	NN	_	26	nsubj	_	_
+21	expression	expression	NN	NN	_	27	nsubjpass	_	_
 22	and	and	CC	CC	_	21	cc	_	_
 23	localization	localization	NN	NN	_	21	conj	_	_
 24	with	with	IN	IN	_	21	prep	_	_
 25	RanBP2	ranbp0	NN	NN	_	24	pobj	_	_
-26	is	be	VBZ	VBZ	_	2	ccomp	_	_
-27	restricted	restrict	VBN	VBN	_	26	dep	_	_
+26	is	be	VBZ	VBZ	_	27	auxpass	_	_
+27	restricted	restrict	VBN	VBN	_	1	ccomp	_	_
 28	to	to	IN	IN	_	27	prep	_	_
 29	a	a	DT	DT	_	30	det	_	_
 30	subset	subset	NN	NN	_	28	pobj	_	_
@@ -3367,13 +3367,13 @@
 34	(	(	-LRB-	-LRB-	_	30	punct	_	_
 35	likely	likely	JJ	JJ	_	36	amod	_	_
 36	interneurons	interneurons	NNS	NNS	_	30	appos	_	_
-37	)	)	-RRB-	-RRB-	_	26	punct	_	_
+37	)	)	-RRB-	-RRB-	_	27	punct	_	_
 38	(	(	-LRB-	-LRB-	_	39	punct	_	_
-39	F	f	NN	NN	_	26	parataxis	_	_
+39	F	f	NN	NN	_	27	parataxis	_	_
 40	)	)	-RRB-	-RRB-	_	39	punct	_	_
 41	.	.	.	.	_	1	punct	_	_
 
-1	Images	image	NNS	NNS	_	34	nsubj	_	_
+1	Images	image	NNS	NNS	_	35	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	the	the	DT	DT	_	5	det	_	_
 4	distal	distal	JJ	JJ	_	5	amod	_	_
@@ -3406,8 +3406,8 @@
 31	–	-	SYM	SYM	_	32	punct	_	_
 32	O	o	NN	NN	_	30	prep	_	_
 33	)	)	-RRB-	-RRB-	_	30	punct	_	_
-34	are	be	VBP	VBP	_	0	root	_	_
-35	immunostained	immunostained	VBN	VBN	_	34	dep	_	_
+34	are	be	VBP	VBP	_	35	auxpass	_	_
+35	immunostained	immunostained	VBN	VBN	_	0	root	_	_
 36	against	against	IN	IN	_	35	prep	_	_
 37	mHsp70	mhsp0	NN	NN	_	36	pobj	_	_
 38	(	(	-LRB-	-LRB-	_	39	punct	_	_
@@ -3448,7 +3448,7 @@
 73	–	-	SYM	SYM	_	74	punct	_	_
 74	O	o	NN	NN	_	72	prep	_	_
 75	)	)	-RRB-	-RRB-	_	72	punct	_	_
-76	.	.	.	.	_	34	punct	_	_
+76	.	.	.	.	_	35	punct	_	_
 
 1	Note	note	VB	VB	_	0	root	_	_
 2	the	the	DT	DT	_	4	det	_	_
@@ -3485,13 +3485,13 @@
 33	L	l	NN	NN	_	31	conj	_	_
 34	)	)	-RRB-	-RRB-	_	31	punct	_	_
 35	,	,	,	,	_	1	punct	_	_
-36	while	while	IN	IN	syn=ADV	1	mark	_	_
+36	while	while	IN	IN	_	42	mark	_	_
 37	HKI	hki	NN	NN	_	38	compound	_	_
-38	colocalization	colocalization	NN	NN	_	41	nsubj	_	_
+38	colocalization	colocalization	NN	NN	_	42	nsubjpass	_	_
 39	with	with	IN	IN	_	38	prep	_	_
 40	Cox11	cox0	NN	NN	_	39	pobj	_	_
-41	was	be	VBD	VBD	_	36	ccomp	_	_
-42	limited	limit	VBN	VBN	_	41	dep	_	_
+41	was	be	VBD	VBD	_	42	auxpass	_	_
+42	limited	limit	VBN	VBN	syn=ADV	1	advcl	_	_
 43	to	to	IN	IN	_	42	prep	_	_
 44	restricted	restrict	VBN	VBN	_	45	amod	_	_
 45	foci	focus	NNS	NNS	_	43	pobj	_	_
@@ -3515,14 +3515,14 @@
 11	glial	glial	JJ	JJ	_	12	amod	_	_
 12	cells	cell	NNS	NNS	_	9	conj	_	_
 13	confirmed	confirm	VBD	VBD	_	0	root	_	_
-14	that	that	IN	IN	_	13	mark	_	_
+14	that	that	IN	IN	_	21	mark	_	_
 15	the	the	DT	DT	_	16	det	_	_
 16	colocalization	colocalization	NN	NN	_	21	nsubj	_	_
 17	of	of	IN	IN	_	16	prep	_	_
 18	HKI	hki	NN	NN	_	17	pobj	_	_
 19	and	and	CC	CC	_	18	cc	_	_
 20	Cox11	cox0	NN	NN	_	18	conj	_	_
-21	was	be	VBD	VBD	_	14	ccomp	_	_
+21	was	be	VBD	VBD	_	13	ccomp	_	_
 22	highly	highly	RB	RB	_	23	advmod	_	_
 23	restricted	restricted	JJ	JJ	syn=PRD	21	acomp	_	_
 24	(	(	-LRB-	-LRB-	_	25	punct	_	_
@@ -3531,10 +3531,10 @@
 27	R	r	NN	NN	_	25	prep	_	_
 28	)	)	-RRB-	-RRB-	_	25	punct	_	_
 29	,	,	,	,	_	21	punct	_	_
-30	while	while	IN	IN	syn=ADV	21	mark	_	_
+30	while	while	IN	IN	_	33	mark	_	_
 31	RanBP2	ranbp0	NN	NN	_	33	nsubj	_	_
 32	extensively	extensively	RB	RB	_	33	advmod	_	_
-33	colocalized	colocalized	VBD	VBD	_	30	ccomp	_	_
+33	colocalized	colocalized	VBD	VBD	syn=ADV	21	advcl	_	_
 34	with	with	IN	IN	_	33	prep	_	_
 35	HKI	hki	NN	NN	_	34	pobj	_	_
 36	(	(	-LRB-	-LRB-	_	37	punct	_	_
@@ -3591,8 +3591,8 @@
 12	of	of	IN	IN	_	11	prep	_	_
 13	HKI	hki	NN	NN	_	12	pobj	_	_
 
-1	To	to	TO	TO	sem=PRP	20	advcl	_	_
-2	determine	determine	VB	VB	_	1	dep	_	_
+1	To	to	TO	TO	_	2	aux	_	_
+2	determine	determine	VB	VB	sem=PRP	20	advcl	_	_
 3	the	the	DT	DT	_	5	det	_	_
 4	physiological	physiological	JJ	JJ	_	5	amod	_	_
 5	implications	implication	NNS	NNS	_	2	dobj	_	_
@@ -3628,8 +3628,8 @@
 35	gene	gene	NN	NN	_	37	compound	_	_
 36	-	-	HYPH	HYPH	_	37	punct	_	_
 37	trapping	trapping	NN	NN	_	34	pobj	_	_
-38	to	to	TO	TO	sem=PRP	33	advcl	_	_
-39	produce	produce	VB	VB	_	38	dep	_	_
+38	to	to	TO	TO	_	39	aux	_	_
+39	produce	produce	VB	VB	sem=PRP	33	advcl	_	_
 40	stable	stable	JJ	JJ	_	48	amod	_	_
 41	inbred	inbred	JJ	JJ	_	48	amod	_	_
 42	(	(	-LRB-	-LRB-	_	43	punct	_	_
@@ -3687,14 +3687,14 @@
 36	ratio	ratio	NN	NN	_	32	pobj	_	_
 37	and	and	CC	CC	_	31	cc	_	_
 38	supports	support	VBZ	VBZ	_	31	conj	_	_
-39	that	that	IN	IN	_	38	mark	_	_
+39	that	that	IN	IN	_	46	mark	_	_
 40	the	the	DT	DT	_	45	det	_	_
 41	RanBP2	ranbp0	NN	NN	_	45	nmod	_	_
 42	−	−	SYM	SYM	_	41	punct	_	_
 43	/	/	HYPH	HYPH	_	41	punct	_	_
 44	−	−	SYM	SYM	_	41	punct	_	_
 45	mice	mouse	NNS	NNS	_	46	nsubj	_	_
-46	were	be	VBD	VBD	_	39	ccomp	_	_
+46	were	be	VBD	VBD	_	38	ccomp	_	_
 47	embryonically	embryonically	RB	RB	_	48	advmod	_	_
 48	lethal	lethal	JJ	JJ	syn=PRD	46	acomp	_	_
 49	.	.	.	.	_	6	punct	_	_
@@ -3729,7 +3729,7 @@
 28	)	)	-RRB-	-RRB-	_	27	punct	_	_
 29	.	.	.	.	_	3	punct	_	_
 
-1	In	in	IN	IN	_	14	prep	_	_
+1	In	in	IN	IN	_	15	prep	_	_
 2	agreement	agreement	NN	NN	_	1	pobj	_	_
 3	with	with	IN	IN	_	2	prep	_	_
 4	previous	previous	JJ	JJ	_	6	amod	_	_
@@ -3738,18 +3738,18 @@
 7	[	[	-LRB-	-LRB-	_	8	punct	_	_
 8	19	0	CD	CD	_	6	parataxis	_	_
 9	]	]	-RRB-	-RRB-	_	8	punct	_	_
-10	,	,	,	,	_	14	punct	_	_
+10	,	,	,	,	_	15	punct	_	_
 11	the	the	DT	DT	_	13	det	_	_
 12	RanBP2	ranbp0	NN	NN	_	13	compound	_	_
-13	gene	gene	NN	NN	_	14	nsubj	_	_
-14	is	be	VBZ	VBZ	_	0	root	_	_
-15	expressed	express	VBN	VBN	_	14	dep	_	_
+13	gene	gene	NN	NN	_	15	nsubjpass	_	_
+14	is	be	VBZ	VBZ	_	15	auxpass	_	_
+15	expressed	express	VBN	VBN	_	0	root	_	_
 16	across	across	IN	IN	sem=LOC	15	prep	_	_
 17	mature	mature	JJ	JJ	_	19	amod	_	_
 18	retinal	retinal	JJ	JJ	_	19	amod	_	_
 19	neurons	neuron	NNS	NNS	_	16	pobj	_	_
-20	,	,	,	,	_	14	punct	_	_
-21	but	but	CC	CC	_	14	cc	_	_
+20	,	,	,	,	_	15	punct	_	_
+21	but	but	CC	CC	_	15	cc	_	_
 22	expression	expression	NN	NN	_	30	nsubj	_	_
 23	in	in	IN	IN	sem=LOC	22	prep	_	_
 24	ganglion	ganglion	NN	NN	_	25	compound	_	_
@@ -3758,7 +3758,7 @@
 27	the	the	DT	DT	_	29	det	_	_
 28	adult	adult	JJ	JJ	_	29	amod	_	_
 29	retina	retina	NN	NN	_	26	pobj	_	_
-30	was	be	VBD	VBD	_	14	conj	_	_
+30	was	be	VBD	VBD	_	15	conj	_	_
 31	extremely	extremely	RB	RB	_	32	advmod	_	_
 32	strong	strong	JJ	JJ	syn=PRD	30	acomp	_	_
 33	(	(	-LRB-	-LRB-	_	35	punct	_	_
@@ -3819,13 +3819,13 @@
 10	RanBP2	ranbp0	NN	NN	_	9	pobj	_	_
 11	.	.	.	.	_	4	punct	_	_
 
-1	Upon	upon	IN	IN	sem=TMP	27	prep	_	_
+1	Upon	upon	IN	IN	sem=TMP	28	prep	_	_
 2	splicing	splicing	NN	NN	_	1	pobj	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	RanBP2	ranbp0	NN	NN	_	3	pobj	_	_
-5	,	,	,	,	_	27	punct	_	_
+5	,	,	,	,	_	28	punct	_	_
 6	a	a	DT	DT	_	7	det	_	_
-7	fusion	fusion	NN	NN	_	27	nsubj	_	_
+7	fusion	fusion	NN	NN	_	28	nsubjpass	_	_
 8	between	between	IN	IN	_	7	prep	_	_
 9	exon	exon	NN	NN	_	8	pobj	_	_
 10	1	0	CD	CD	_	9	nummod	_	_
@@ -3844,52 +3844,52 @@
 23	and	and	CC	CC	_	22	cc	_	_
 24	neo	neo	NN	NN	_	22	conj	_	_
 25	genes	gene	NNS	NNS	_	18	pobj	_	_
-26	)	)	-RRB-	-RRB-	_	27	punct	_	_
-27	is	be	VBZ	VBZ	_	0	root	_	_
-28	generated	generate	VBN	VBN	_	27	dep	_	_
+26	)	)	-RRB-	-RRB-	_	28	punct	_	_
+27	is	be	VBZ	VBZ	_	28	auxpass	_	_
+28	generated	generate	VBN	VBN	_	0	root	_	_
 29	,	,	,	,	_	28	punct	_	_
-30	while	while	IN	IN	syn=ADV	28	mark	_	_
+30	while	while	IN	IN	_	40	mark	_	_
 31	human	human	JJ	JJ	_	34	amod	_	_
 32	placental	placental	JJ	JJ	_	34	amod	_	_
 33	alkaline	alkaline	NN	NN	_	34	compound	_	_
-34	phophatase	phophatase	NN	NN	_	38	nsubj	_	_
+34	phophatase	phophatase	NN	NN	_	40	nsubjpass	_	_
 35	(	(	-LRB-	-LRB-	_	34	punct	_	_
 36	PLAP	plap	NN	NN	_	34	appos	_	_
-37	)	)	-RRB-	-RRB-	_	38	punct	_	_
-38	is	be	VBZ	VBZ	_	30	ccomp	_	_
-39	independently	independently	RB	RB	sem=MNR	38	advmod	_	_
-40	translated	translate	VBN	VBN	_	38	dep	_	_
+37	)	)	-RRB-	-RRB-	_	40	punct	_	_
+38	is	be	VBZ	VBZ	_	40	auxpass	_	_
+39	independently	independently	RB	RB	sem=MNR	40	advmod	_	_
+40	translated	translate	VBN	VBN	syn=ADV	28	advcl	_	_
 41	using	use	VBG	VBG	sem=MNR	40	advcl	_	_
 42	the	the	DT	DT	_	46	det	_	_
 43	internal	internal	JJ	JJ	_	45	amod	_	_
 44	ribosome	ribosome	NN	NN	_	45	compound	_	_
 45	entry	entry	NN	NN	_	46	compound	_	_
 46	site	site	NN	NN	_	41	dobj	_	_
-47	.	.	.	.	_	27	punct	_	_
+47	.	.	.	.	_	28	punct	_	_
 
-1	Consistent	consistent	JJ	JJ	syn=PRD	11	advcl	_	_
+1	Consistent	consistent	JJ	JJ	syn=PRD	12	advcl	_	_
 2	with	with	IN	IN	_	1	prep	_	_
 3	previous	previous	JJ	JJ	_	4	amod	_	_
 4	studies	study	NNS	NNS	_	2	pobj	_	_
-5	,	,	,	,	_	11	punct	_	_
+5	,	,	,	,	_	12	punct	_	_
 6	the	the	DT	DT	_	7	det	_	_
-7	expression	expression	NN	NN	_	11	nsubj	_	_
+7	expression	expression	NN	NN	_	12	nsubjpass	_	_
 8	of	of	IN	IN	_	7	prep	_	_
 9	the	the	DT	DT	_	10	det	_	_
 10	former	former	JJ	JJ	_	8	pobj	_	_
-11	is	be	VBZ	VBZ	_	0	root	_	_
-12	directed	direct	VBN	VBN	_	11	dep	_	_
+11	is	be	VBZ	VBZ	_	12	auxpass	_	_
+12	directed	direct	VBN	VBN	_	0	root	_	_
 13	to	to	IN	IN	_	12	prep	_	_
 14	cell	cell	NN	NN	_	15	compound	_	_
 15	bodies	body	NNS	NNS	_	13	pobj	_	_
 16	,	,	,	,	_	12	punct	_	_
-17	while	while	IN	IN	syn=ADV	12	mark	_	_
-18	expression	expression	NN	NN	_	22	nsubj	_	_
+17	while	while	IN	IN	_	23	mark	_	_
+18	expression	expression	NN	NN	_	23	nsubjpass	_	_
 19	of	of	IN	IN	_	18	prep	_	_
 20	the	the	DT	DT	_	21	det	_	_
 21	latter	latter	JJ	JJ	_	19	pobj	_	_
-22	is	be	VBZ	VBZ	_	17	ccomp	_	_
-23	targeted	target	VBN	VBN	_	22	dep	_	_
+22	is	be	VBZ	VBZ	_	23	auxpass	_	_
+23	targeted	target	VBN	VBN	syn=ADV	12	advcl	_	_
 24	to	to	IN	IN	_	23	prep	_	_
 25	the	the	DT	DT	_	27	det	_	_
 26	axonal	axonal	JJ	JJ	_	27	amod	_	_
@@ -3899,7 +3899,7 @@
 30	,	,	,	,	_	31	punct	_	_
 31	68	0	CD	CD	_	23	parataxis	_	_
 32	]	]	-RRB-	-RRB-	_	31	punct	_	_
-33	.	.	.	.	_	11	punct	_	_
+33	.	.	.	.	_	12	punct	_	_
 
 1	Transcriptional	transcriptional	JJ	JJ	_	5	amod	_	_
 2	5	0	CD	CD	_	5	nummod	_	_
@@ -4026,11 +4026,11 @@
 29	activities	activity	NNS	NNS	_	19	pobj	_	_
 30	.	.	.	.	_	5	punct	_	_
 
-1	Although	although	IN	IN	syn=ADV	28	mark	_	_
-2	PLAP	plap	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	1	ccomp	_	_
-4	broadly	broadly	RB	RB	_	3	advmod	_	_
-5	expressed	express	VBN	VBN	_	3	dep	_	_
+1	Although	although	IN	IN	_	5	mark	_	_
+2	PLAP	plap	NN	NN	_	5	nsubjpass	_	_
+3	was	be	VBD	VBD	_	5	auxpass	_	_
+4	broadly	broadly	RB	RB	_	5	advmod	_	_
+5	expressed	express	VBN	VBN	syn=ADV	28	advcl	_	_
 6	(	(	-LRB-	-LRB-	_	5	punct	_	_
 7	e.g.	e.g.	FW	FW	_	9	advmod	_	_
 8	,	,	,	,	_	9	punct	_	_
@@ -4098,18 +4098,18 @@
 31	mouse	mouse	NN	NN	_	20	pobj	_	_
 32	.	.	.	.	_	10	punct	_	_
 
-1	Consistent	consistent	JJ	JJ	syn=PRD	11	advcl	_	_
+1	Consistent	consistent	JJ	JJ	syn=PRD	12	advcl	_	_
 2	with	with	IN	IN	_	1	prep	_	_
 3	previous	previous	JJ	JJ	_	5	amod	_	_
 4	immunocytochemistry	immunocytochemistry	NN	NN	_	5	compound	_	_
 5	studies	study	NNS	NNS	_	2	pobj	_	_
-6	,	,	,	,	_	11	punct	_	_
+6	,	,	,	,	_	12	punct	_	_
 7	β	β	NN	NN	_	9	compound	_	_
 8	-	-	HYPH	HYPH	_	9	punct	_	_
 9	Gal	gal	NN	NN	_	10	compound	_	_
-10	activity	activity	NN	NN	_	11	nsubj	_	_
-11	is	be	VBZ	VBZ	_	0	root	_	_
-12	detected	detect	VBN	VBN	_	11	dep	_	_
+10	activity	activity	NN	NN	_	12	nsubjpass	_	_
+11	is	be	VBZ	VBZ	_	12	auxpass	_	_
+12	detected	detect	VBN	VBN	_	0	root	_	_
 13	in	in	IN	IN	sem=LOC	12	prep	_	_
 14	the	the	DT	DT	_	16	det	_	_
 15	neuroretinal	neuroretinal	JJ	JJ	_	16	amod	_	_
@@ -4127,12 +4127,12 @@
 27	in	in	IN	IN	sem=LOC	26	prep	_	_
 28	ganglion	ganglion	NN	NN	_	29	compound	_	_
 29	cells	cell	NNS	NNS	_	27	pobj	_	_
-30	.	.	.	.	_	11	punct	_	_
+30	.	.	.	.	_	12	punct	_	_
 
 1	PLAP	plap	NN	NN	_	2	compound	_	_
-2	expression	expression	NN	NN	_	3	nsubj	_	_
-3	is	be	VBZ	VBZ	_	0	root	_	_
-4	found	find	VBN	VBN	_	3	dep	_	_
+2	expression	expression	NN	NN	_	4	nsubjpass	_	_
+3	is	be	VBZ	VBZ	_	4	auxpass	_	_
+4	found	find	VBN	VBN	_	0	root	_	_
 5	throughout	throughout	IN	IN	sem=LOC	4	prep	_	_
 6	the	the	DT	DT	_	10	det	_	_
 7	plexiform	plexiform	JJ	JJ	_	9	amod	_	_
@@ -4147,7 +4147,7 @@
 16	(	(	-LRB-	-LRB-	_	17	punct	_	_
 17	E	e	NN	NN	_	4	parataxis	_	_
 18	)	)	-RRB-	-RRB-	_	17	punct	_	_
-19	.	.	.	.	_	3	punct	_	_
+19	.	.	.	.	_	4	punct	_	_
 
 1	GC	gc	NN	NN	_	0	root	_	_
 2	,	,	,	,	_	1	punct	_	_
@@ -4265,13 +4265,13 @@
 53	,	,	,	,	_	55	punct	_	_
 54	we	we	PRP	PRP	_	55	nsubj	_	_
 55	probed	probe	VBD	VBD	_	0	root	_	_
-56	whether	whether	IN	IN	_	55	mark	_	_
+56	whether	whether	IN	IN	_	62	mark	_	_
 57	RanBP2	ranbp0	NN	NN	_	61	nmod	_	_
 58	+	+	SYM	SYM	_	57	punct	_	_
 59	/	/	HYPH	HYPH	_	57	punct	_	_
 60	−	−	SYM	SYM	_	57	punct	_	_
 61	mice	mouse	NNS	NNS	_	62	nsubj	_	_
-62	presented	present	VBD	VBD	_	56	ccomp	_	_
+62	presented	present	VBD	VBD	_	55	ccomp	_	_
 63	disturbances	disturbance	NNS	NNS	_	62	dobj	_	_
 64	in	in	IN	IN	_	63	prep	_	_
 65	HKI	hki	NN	NN	_	64	pobj	_	_
@@ -4284,12 +4284,12 @@
 72	.	.	.	.	_	55	punct	_	_
 
 1	Monoallelic	monoallelic	JJ	JJ	_	2	amod	_	_
-2	expression	expression	NN	NN	_	5	nsubj	_	_
+2	expression	expression	NN	NN	_	7	nsubj	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	RanBP2	ranbp0	NN	NN	_	3	pobj	_	_
-5	does	do	VBZ	VBZ	_	0	root	_	_
-6	not	not	RB	RB	_	5	neg	_	_
-7	affect	affect	VB	VB	_	5	dep	_	_
+5	does	do	VBZ	VBZ	_	7	aux	_	_
+6	not	not	RB	RB	_	7	neg	_	_
+7	affect	affect	VB	VB	_	0	root	_	_
 8	the	the	DT	DT	_	9	det	_	_
 9	number	number	NN	NN	_	7	dobj	_	_
 10	of	of	IN	IN	_	9	prep	_	_
@@ -4307,10 +4307,10 @@
 22	unpublished	unpublished	JJ	JJ	_	23	amod	_	_
 23	data	datum	NNS	NNS	_	7	parataxis	_	_
 24	)	)	-RRB-	-RRB-	_	23	punct	_	_
-25	,	,	,	,	_	5	punct	_	_
-26	but	but	CC	CC	_	5	cc	_	_
+25	,	,	,	,	_	7	punct	_	_
+26	but	but	CC	CC	_	7	cc	_	_
 27	it	it	PRP	PRP	_	28	nsubj	_	_
-28	led	lead	VBD	VBD	_	5	conj	_	_
+28	led	lead	VBD	VBD	_	7	conj	_	_
 29	to	to	IN	IN	_	28	prep	_	_
 30	consistent	consistent	JJ	JJ	_	32	amod	_	_
 31	lower	low	JJR	JJR	_	32	amod	_	_
@@ -4372,13 +4372,13 @@
 16	line	line	NN	NN	_	7	pobj	_	_
 17	.	.	.	.	_	4	punct	_	_
 
-1	Although	although	IN	IN	syn=ADV	51	mark	_	_
+1	Although	although	IN	IN	_	7	mark	_	_
 2	the	the	DT	DT	_	3	det	_	_
-3	levels	level	NNS	NNS	_	6	nsubj	_	_
+3	levels	level	NNS	NNS	_	7	nsubjpass	_	_
 4	of	of	IN	IN	_	3	prep	_	_
 5	RanBP2	ranbp0	NN	NN	_	4	pobj	_	_
-6	were	be	VBD	VBD	_	1	ccomp	_	_
-7	decreased	decrease	VBN	VBN	_	6	dep	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	decreased	decrease	VBN	VBN	syn=ADV	51	advcl	_	_
 8	in	in	IN	IN	sem=LOC	7	prep	_	_
 9	the	the	DT	DT	_	10	det	_	_
 10	retina	retina	NN	NN	_	8	pobj	_	_
@@ -4468,10 +4468,10 @@
 6	the	the	DT	DT	_	7	det	_	_
 7	CNS	cns	NN	NN	_	5	pobj	_	_
 8	,	,	,	,	_	3	punct	_	_
-9	since	since	IN	IN	sem=PRP	3	mark	_	_
+9	since	since	IN	IN	_	12	mark	_	_
 10	HKI	hki	NN	NN	_	11	compound	_	_
 11	levels	level	NNS	NNS	_	12	nsubj	_	_
-12	remained	remain	VBD	VBD	_	9	ccomp	_	_
+12	remained	remain	VBD	VBD	sem=PRP	3	advcl	_	_
 13	largely	largely	RB	RB	_	14	advmod	_	_
 14	unaffected	unaffected	JJ	JJ	syn=PRD	12	acomp	_	_
 15	in	in	IN	IN	sem=LOC	12	prep	_	_
@@ -4489,9 +4489,9 @@
 27	)	)	-RRB-	-RRB-	_	26	punct	_	_
 28	.	.	.	.	_	3	punct	_	_
 
-1	Because	because	IN	IN	sem=PRP	33	mark	_	_
+1	Because	because	IN	IN	_	3	mark	_	_
 2	HKI	hki	NN	NN	_	3	nsubj	_	_
-3	plays	play	VBZ	VBZ	_	1	ccomp	_	_
+3	plays	play	VBZ	VBZ	sem=PRP	33	advcl	_	_
 4	a	a	DT	DT	_	6	det	_	_
 5	key	key	JJ	JJ	_	6	amod	_	_
 6	role	role	NN	NN	_	3	dobj	_	_
@@ -4536,8 +4536,8 @@
 45	ATP	atp	NN	NN	_	44	pobj	_	_
 46	.	.	.	.	_	33	punct	_	_
 
-1	As	as	IN	IN	syn=ADV	8	mark	_	_
-2	shown	show	VBN	VBN	_	1	advcl	_	_
+1	As	as	IN	IN	_	2	mark	_	_
+2	shown	show	VBN	VBN	syn=ADV	8	advcl	_	_
 3	in	in	IN	IN	_	2	prep	_	_
 4	Figure	figure	NN	NN	_	5	compound	_	_
 5	5E	0e	NN	NN	_	3	pobj	_	_
@@ -4611,10 +4611,10 @@
 41	)	)	-RRB-	-RRB-	_	38	punct	_	_
 42	.	.	.	.	_	5	punct	_	_
 
-1	This	this	DT	DT	_	2	nsubj	_	_
-2	was	be	VBD	VBD	_	0	root	_	_
-3	also	also	RB	RB	_	2	advmod	_	_
-4	accompanied	accompany	VBN	VBN	_	2	dep	_	_
+1	This	this	DT	DT	_	4	nsubjpass	_	_
+2	was	be	VBD	VBD	_	4	auxpass	_	_
+3	also	also	RB	RB	_	4	advmod	_	_
+4	accompanied	accompany	VBN	VBN	_	0	root	_	_
 5	by	by	IN	IN	_	4	agent	_	_
 6	reduced	reduce	VBN	VBN	_	8	amod	_	_
 7	HKI	hki	NN	NN	_	8	compound	_	_
@@ -4640,7 +4640,7 @@
 27	–	-	SYM	SYM	_	28	punct	_	_
 28	S2E	s0e	NN	NN	_	26	prep	_	_
 29	)	)	-RRB-	-RRB-	_	26	punct	_	_
-30	.	.	.	.	_	2	punct	_	_
+30	.	.	.	.	_	4	punct	_	_
 
 1	Figure	figure	NN	NN	_	0	root	_	_
 2	5	0	CD	CD	_	1	nummod	_	_
@@ -4693,7 +4693,7 @@
 33	.	.	.	.	_	5	punct	_	_
 
 1	No	no	DT	DT	_	2	det	_	_
-2	difference	difference	NN	NN	_	20	nsubj	_	_
+2	difference	difference	NN	NN	_	21	nsubjpass	_	_
 3	in	in	IN	IN	_	2	prep	_	_
 4	the	the	DT	DT	_	5	det	_	_
 5	density	density	NN	NN	_	3	pobj	_	_
@@ -4711,8 +4711,8 @@
 17	the	the	DT	DT	_	19	det	_	_
 18	nuclear	nuclear	JJ	JJ	_	19	amod	_	_
 19	envelope	envelope	NN	NN	_	16	pobj	_	_
-20	was	be	VBD	VBD	_	0	root	_	_
-21	found	find	VBN	VBN	_	20	dep	_	_
+20	was	be	VBD	VBD	_	21	auxpass	_	_
+21	found	find	VBN	VBN	_	0	root	_	_
 22	between	between	IN	IN	_	21	prep	_	_
 23	RanBP2	ranbp0	NN	NN	_	32	nmod	_	_
 24	+	+	SYM	SYM	_	23	punct	_	_
@@ -4724,7 +4724,7 @@
 30	/	/	HYPH	HYPH	_	28	punct	_	_
 31	−	−	SYM	SYM	_	28	punct	_	_
 32	mice	mouse	NNS	NNS	_	22	pobj	_	_
-33	.	.	.	.	_	20	punct	_	_
+33	.	.	.	.	_	21	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	B	b	LS	LS	_	4	meta	_	_
@@ -4854,14 +4854,14 @@
 16	.	.	.	.	_	2	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	D	d	LS	LS	_	8	meta	_	_
+2	D	d	LS	LS	_	9	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	The	the	DT	DT	_	5	det	_	_
-5	level	level	NN	NN	_	8	nsubj	_	_
+5	level	level	NN	NN	_	9	nsubjpass	_	_
 6	of	of	IN	IN	_	5	prep	_	_
 7	HKI	hki	NN	NN	_	6	pobj	_	_
-8	is	be	VBZ	VBZ	_	0	root	_	_
-9	reduced	reduce	VBN	VBN	_	8	dep	_	_
+8	is	be	VBZ	VBZ	_	9	auxpass	_	_
+9	reduced	reduce	VBN	VBN	_	0	root	_	_
 10	in	in	IN	IN	sem=LOC	9	prep	_	_
 11	the	the	DT	DT	_	12	det	_	_
 12	brain	brain	NN	NN	_	10	pobj	_	_
@@ -4879,18 +4879,18 @@
 24	,	,	,	,	_	23	punct	_	_
 25	and	and	CC	CC	_	23	cc	_	_
 26	liver	liver	NN	NN	_	23	conj	_	_
-27	)	)	-RRB-	-RRB-	_	8	punct	_	_
-28	.	.	.	.	_	8	punct	_	_
+27	)	)	-RRB-	-RRB-	_	9	punct	_	_
+28	.	.	.	.	_	9	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	E	e	LS	LS	_	8	meta	_	_
+2	E	e	LS	LS	_	9	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	The	the	DT	DT	_	7	det	_	_
 5	total	total	JJ	JJ	_	7	amod	_	_
 6	ATP	atp	NN	NN	_	7	compound	_	_
-7	level	level	NN	NN	_	8	nsubj	_	_
-8	is	be	VBZ	VBZ	_	0	root	_	_
-9	reduced	reduce	VBN	VBN	_	8	dep	_	_
+7	level	level	NN	NN	_	9	nsubjpass	_	_
+8	is	be	VBZ	VBZ	_	9	auxpass	_	_
+9	reduced	reduce	VBN	VBN	_	0	root	_	_
 10	in	in	IN	IN	sem=LOC	9	prep	_	_
 11	the	the	DT	DT	_	13	det	_	_
 12	CNS	cns	NN	NN	_	13	compound	_	_
@@ -4910,8 +4910,8 @@
 26	e.g.	e.g.	FW	FW	_	28	advmod	_	_
 27	,	,	,	,	_	28	punct	_	_
 28	spleen	spleen	NN	NN	_	23	appos	_	_
-29	)	)	-RRB-	-RRB-	_	8	punct	_	_
-30	.	.	.	.	_	8	punct	_	_
+29	)	)	-RRB-	-RRB-	_	9	punct	_	_
+30	.	.	.	.	_	9	punct	_	_
 
 1	Metabolic	metabolic	JJ	JJ	_	2	amod	_	_
 2	Disturbances	disturbance	NNS	NNS	_	0	root	_	_
@@ -5003,9 +5003,9 @@
 12	in	in	IN	IN	_	11	prep	_	_
 13	body	body	NN	NN	_	14	compound	_	_
 14	mass	mass	NN	NN	_	12	pobj	_	_
-15	that	that	WDT	WDT	_	16	dep	_	11:ref
-16	were	be	VBD	VBD	_	11	relcl	_	_
-17	erased	erase	VBN	VBN	_	16	dep	_	_
+15	that	that	WDT	WDT	_	17	dep	_	11:ref
+16	were	be	VBD	VBD	_	17	auxpass	_	_
+17	erased	erase	VBN	VBN	_	11	relcl	_	_
 18	by	by	IN	IN	sem=MNR	17	prep	_	_
 19	changing	change	VBG	VBG	syn=NOM	18	pcomp	_	_
 20	the	the	DT	DT	_	22	det	_	_
@@ -5026,10 +5026,10 @@
 35	.	.	.	.	_	10	punct	_	_
 
 1	Food	food	NN	NN	_	2	compound	_	_
-2	consumption	consumption	NN	NN	_	3	nsubj	_	_
-3	did	do	VBD	VBD	_	0	root	_	_
-4	not	not	RB	RB	_	3	neg	_	_
-5	account	account	VB	VB	_	3	dep	_	_
+2	consumption	consumption	NN	NN	_	5	nsubj	_	_
+3	did	do	VBD	VBD	_	5	aux	_	_
+4	not	not	RB	RB	_	5	neg	_	_
+5	account	account	VB	VB	_	0	root	_	_
 6	for	for	IN	IN	_	5	prep	_	_
 7	the	the	DT	DT	_	10	det	_	_
 8	body	body	NN	NN	_	9	compound	_	_
@@ -5040,7 +5040,7 @@
 13	Figure	figure	NN	NN	_	14	compound	_	_
 14	6C	0c	NN	NN	_	5	parataxis	_	_
 15	)	)	-RRB-	-RRB-	_	14	punct	_	_
-16	.	.	.	.	_	3	punct	_	_
+16	.	.	.	.	_	5	punct	_	_
 
 1	Figure	figure	NN	NN	_	0	root	_	_
 2	6	0	CD	CD	_	1	nummod	_	_
@@ -5092,25 +5092,25 @@
 30	,	,	,	,	_	17	punct	_	_
 31	and	and	CC	CC	_	17	cc	_	_
 32	the	the	DT	DT	_	33	det	_	_
-33	difference	difference	NN	NN	_	39	nsubj	_	_
+33	difference	difference	NN	NN	_	40	nsubjpass	_	_
 34	in	in	IN	IN	_	33	prep	_	_
 35	body	body	NN	NN	_	36	compound	_	_
 36	weight	weight	NN	NN	_	34	pobj	_	_
 37	between	between	IN	IN	_	33	prep	_	_
 38	these	these	DT	DT	_	37	pobj	_	_
-39	is	be	VBZ	VBZ	_	17	conj	_	_
-40	maintained	maintain	VBN	VBN	_	39	dep	_	_
+39	is	be	VBZ	VBZ	_	40	auxpass	_	_
+40	maintained	maintain	VBN	VBN	_	17	conj	_	_
 41	afterward	afterward	RB	RB	sem=TMP	40	advmod	_	_
-42	.	.	.	.	_	39	punct	_	_
+42	.	.	.	.	_	40	punct	_	_
 
 1	Note	note	VB	VB	_	0	root	_	_
-2	that	that	IN	IN	_	1	mark	_	_
+2	that	that	IN	IN	_	8	mark	_	_
 3	RanBP2	ranbp0	NN	NN	_	7	nmod	_	_
 4	+	+	SYM	SYM	_	3	punct	_	_
 5	/	/	HYPH	HYPH	_	3	punct	_	_
 6	−	−	SYM	SYM	_	3	punct	_	_
 7	mice	mouse	NNS	NNS	_	8	nsubj	_	_
-8	lack	lack	VBP	VBP	_	2	ccomp	_	_
+8	lack	lack	VBP	VBP	_	1	ccomp	_	_
 9	the	the	DT	DT	_	11	det	_	_
 10	growth	growth	NN	NN	_	11	compound	_	_
 11	spur	spur	NN	NN	_	8	dobj	_	_
@@ -5130,9 +5130,9 @@
 25	.	.	.	.	_	1	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	B	b	LS	LS	_	35	meta	_	_
+2	B	b	LS	LS	_	36	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
-4	In	in	IN	IN	_	35	prep	_	_
+4	In	in	IN	IN	_	36	prep	_	_
 5	comparison	comparison	NN	NN	_	4	pobj	_	_
 6	to	to	IN	IN	_	5	prep	_	_
 7	inbred	inbred	JJ	JJ	_	12	amod	_	_
@@ -5145,10 +5145,10 @@
 14	129Ola	0ola	NN	NN	_	16	nmod	_	_
 15	genetic	genetic	JJ	JJ	_	16	amod	_	_
 16	background	background	NN	NN	_	12	appos	_	_
-17	)	)	-RRB-	-RRB-	_	35	punct	_	_
-18	,	,	,	,	_	35	punct	_	_
+17	)	)	-RRB-	-RRB-	_	36	punct	_	_
+18	,	,	,	,	_	36	punct	_	_
 19	the	the	DT	DT	_	20	det	_	_
-20	difference	difference	NN	NN	_	35	nsubj	_	_
+20	difference	difference	NN	NN	_	36	nsubjpass	_	_
 21	in	in	IN	IN	_	20	prep	_	_
 22	body	body	NN	NN	_	23	compound	_	_
 23	weight	weight	NN	NN	_	21	pobj	_	_
@@ -5163,8 +5163,8 @@
 32	/	/	HYPH	HYPH	_	30	punct	_	_
 33	−	−	SYM	SYM	_	30	punct	_	_
 34	mice	mouse	NNS	NNS	_	24	pobj	_	_
-35	is	be	VBZ	VBZ	_	0	root	_	_
-36	masked	mask	VBN	VBN	_	35	dep	_	_
+35	is	be	VBZ	VBZ	_	36	auxpass	_	_
+36	masked	mask	VBN	VBN	_	0	root	_	_
 37	upon	upon	IN	IN	sem=TMP	36	prep	_	_
 38	placing	place	VBG	VBG	syn=NOM	37	pcomp	_	_
 39	these	these	DT	DT	_	38	dobj	_	_
@@ -5176,7 +5176,7 @@
 45	C57Bl6	c0bl0	NN	NN	_	47	nmod	_	_
 46	genetic	genetic	JJ	JJ	_	47	amod	_	_
 47	background	background	NN	NN	_	40	pobj	_	_
-48	.	.	.	.	_	35	punct	_	_
+48	.	.	.	.	_	36	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	C	c	LS	LS	_	15	meta	_	_
@@ -5200,7 +5200,7 @@
 20	consumption	consumption	NN	NN	_	18	pobj	_	_
 21	.	.	.	.	_	15	punct	_	_
 
-1	Mice	mouse	NNS	NNS	_	15	nsubj	_	_
+1	Mice	mouse	NNS	NNS	_	16	nsubjpass	_	_
 2	in	in	IN	IN	_	1	prep	_	_
 3	(	(	-LRB-	-LRB-	_	2	punct	_	_
 4	A	a	NN	NN	_	2	pobj	_	_
@@ -5213,9 +5213,9 @@
 11	and	and	CC	CC	_	8	cc	_	_
 12	(	(	-LRB-	-LRB-	_	13	punct	_	_
 13	C	c	NN	NN	_	8	conj	_	_
-14	)	)	-RRB-	-RRB-	_	15	punct	_	_
-15	were	be	VBD	VBD	_	0	root	_	_
-16	placed	place	VBN	VBN	_	15	dep	_	_
+14	)	)	-RRB-	-RRB-	_	16	punct	_	_
+15	were	be	VBD	VBD	_	16	auxpass	_	_
+16	placed	place	VBN	VBN	_	0	root	_	_
 17	on	on	IN	IN	_	16	prep	_	_
 18	a	a	DT	DT	_	22	det	_	_
 19	high	high	JJ	JJ	_	21	amod	_	_
@@ -5229,7 +5229,7 @@
 27	=	=	SYM	SYM	_	28	punct	_	_
 28	5	0	CD	CD	_	16	parataxis	_	_
 29	)	)	-RRB-	-RRB-	_	28	punct	_	_
-30	.	.	.	.	_	15	punct	_	_
+30	.	.	.	.	_	16	punct	_	_
 
 1	HKI	hki	NN	NN	_	10	nsubj	_	_
 2	in	in	IN	IN	sem=LOC	1	prep	_	_
@@ -5326,8 +5326,8 @@
 63	]	]	-RRB-	-RRB-	_	62	punct	_	_
 64	.	.	.	.	_	42	punct	_	_
 
-1	To	to	TO	TO	sem=PRP	20	advcl	_	_
-2	determine	determine	VB	VB	_	1	dep	_	_
+1	To	to	TO	TO	_	2	aux	_	_
+2	determine	determine	VB	VB	sem=PRP	20	advcl	_	_
 3	the	the	DT	DT	_	4	det	_	_
 4	impact	impact	NN	NN	_	2	dobj	_	_
 5	of	of	IN	IN	_	4	prep	_	_
@@ -5411,14 +5411,14 @@
 57	,	,	,	,	_	37	punct	_	_
 58	thus	thus	RB	RB	_	59	advmod	_	_
 59	supporting	support	VBG	VBG	syn=ADV	37	advcl	_	_
-60	that	that	IN	IN	_	59	mark	_	_
+60	that	that	IN	IN	_	67	mark	_	_
 61	the	the	DT	DT	_	66	det	_	_
 62	RanBP2	ranbp0	NN	NN	_	66	nmod	_	_
 63	+	+	SYM	SYM	_	62	punct	_	_
 64	/	/	HYPH	HYPH	_	62	punct	_	_
 65	−	−	SYM	SYM	_	62	punct	_	_
 66	mice	mouse	NNS	NNS	_	67	nsubj	_	_
-67	exhibited	exhibit	VBD	VBD	_	60	ccomp	_	_
+67	exhibited	exhibit	VBD	VBD	_	59	ccomp	_	_
 68	a	a	DT	DT	_	69	det	_	_
 69	deficit	deficit	NN	NN	_	67	dobj	_	_
 70	in	in	IN	IN	_	69	prep	_	_
@@ -5427,9 +5427,9 @@
 73	.	.	.	.	_	37	punct	_	_
 
 1	This	this	DT	DT	_	2	det	_	_
-2	deficit	deficit	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	rescued	rescue	VBN	VBN	_	3	dep	_	_
+2	deficit	deficit	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	rescued	rescue	VBN	VBN	_	0	root	_	_
 5	in	in	IN	IN	sem=LOC	4	prep	_	_
 6	RanBP2	ranbp0	NN	NN	_	10	nmod	_	_
 7	+	+	SYM	SYM	_	6	punct	_	_
@@ -5448,13 +5448,13 @@
 20	Figure	figure	NN	NN	_	21	compound	_	_
 21	S3	s0	NN	NN	_	4	parataxis	_	_
 22	)	)	-RRB-	-RRB-	_	21	punct	_	_
-23	.	.	.	.	_	3	punct	_	_
+23	.	.	.	.	_	4	punct	_	_
 
 1	Glucose	glucose	NN	NN	_	2	compound	_	_
-2	clearance	clearance	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	not	not	RB	RB	_	3	neg	_	_
-5	affected	affect	VBN	VBN	_	3	dep	_	_
+2	clearance	clearance	NN	NN	_	5	nsubjpass	_	_
+3	was	be	VBD	VBD	_	5	auxpass	_	_
+4	not	not	RB	RB	_	5	neg	_	_
+5	affected	affect	VBN	VBN	_	0	root	_	_
 6	due	due	IN	IN	sem=PRP	5	prep	_	_
 7	to	to	IN	IN	_	6	pcomp	_	_
 8	a	a	DT	DT	_	9	det	_	_
@@ -5469,22 +5469,22 @@
 17	Figure	figure	NN	NN	_	18	compound	_	_
 18	7C	0c	NN	NN	_	5	parataxis	_	_
 19	)	)	-RRB-	-RRB-	_	18	punct	_	_
-20	.	.	.	.	_	3	punct	_	_
+20	.	.	.	.	_	5	punct	_	_
 
 1	Then	then	RB	RB	sem=TMP	4	advmod	_	_
 2	,	,	,	,	_	4	punct	_	_
 3	we	we	PRP	PRP	_	4	nsubj	_	_
 4	probed	probe	VBD	VBD	_	0	root	_	_
-5	whether	whether	IN	IN	_	4	mark	_	_
+5	whether	whether	IN	IN	_	7	mark	_	_
 6	RanBP2	ranbp0	NN	NN	_	7	nsubj	_	_
-7	induces	induce	VBZ	VBZ	_	5	ccomp	_	_
+7	induces	induce	VBZ	VBZ	_	4	ccomp	_	_
 8	impairment	impairment	NN	NN	_	7	dobj	_	_
 9	of	of	IN	IN	_	8	prep	_	_
 10	gluconeogenesis	gluconeogenesis	NN	NN	_	9	pobj	_	_
 11	,	,	,	,	_	8	punct	_	_
-12	which	which	WDT	WDT	_	13	dep	_	8:ref
-13	could	could	MD	MD	_	8	relcl	_	_
-14	contribute	contribute	VB	VB	_	13	dep	_	_
+12	which	which	WDT	WDT	_	14	dep	_	8:ref
+13	could	could	MD	MD	_	14	aux	_	_
+14	contribute	contribute	VB	VB	_	8	relcl	_	_
 15	to	to	IN	IN	_	14	prep	_	_
 16	the	the	DT	DT	_	18	det	_	_
 17	pathophysiological	pathophysiological	JJ	JJ	_	18	amod	_	_
@@ -5515,9 +5515,9 @@
 18	)	)	-RRB-	-RRB-	_	20	punct	_	_
 19	,	,	,	,	_	20	punct	_	_
 20	showed	show	VBD	VBD	_	0	root	_	_
-21	that	that	IN	IN	_	20	mark	_	_
+21	that	that	IN	IN	_	23	mark	_	_
 22	there	there	EX	EX	_	23	expl	_	_
-23	was	be	VBD	VBD	_	21	ccomp	_	_
+23	was	be	VBD	VBD	_	20	ccomp	_	_
 24	no	no	DT	DT	_	25	det	_	_
 25	difference	difference	NN	NN	syn=PRD	23	attr	_	_
 26	in	in	IN	IN	_	25	prep	_	_
@@ -5715,8 +5715,8 @@
 29	mediated	mediated	JJ	JJ	_	31	amod	_	_
 30	glucose	glucose	NN	NN	_	31	compound	_	_
 31	uptake	uptake	NN	NN	_	26	pobj	_	_
-32	as	as	IN	IN	syn=ADV	23	mark	_	_
-33	assayed	assay	VBN	VBN	_	32	advcl	_	_
+32	as	as	IN	IN	_	33	mark	_	_
+33	assayed	assay	VBN	VBN	syn=ADV	23	advcl	_	_
 34	by	by	IN	IN	sem=MNR	33	prep	_	_
 35	insulin	insulin	NN	NN	_	36	compound	_	_
 36	tolerance	tolerance	NN	NN	_	37	compound	_	_
@@ -5895,7 +5895,7 @@
 5	-	-	HYPH	HYPH	_	6	punct	_	_
 6	adapted	adapt	VBN	VBN	_	2	parataxis	_	_
 7	)	)	-RRB-	-RRB-	_	6	punct	_	_
-8	responses	response	NNS	NNS	_	31	nsubj	_	_
+8	responses	response	NNS	NNS	_	33	nsubjpass	_	_
 9	mediated	mediate	VBN	VBN	_	8	acl	_	_
 10	by	by	IN	IN	_	9	agent	_	_
 11	the	the	DT	DT	_	14	det	_	_
@@ -5918,9 +5918,9 @@
 28	-	-	HYPH	HYPH	_	29	punct	_	_
 29	stimulus	stimulus	NN	NN	_	30	compound	_	_
 30	intensities	intensity	NNS	NNS	_	26	pobj	_	_
-31	were	be	VBD	VBD	_	0	root	_	_
-32	substantially	substantially	RB	RB	_	31	advmod	_	_
-33	reduced	reduce	VBN	VBN	_	31	dep	_	_
+31	were	be	VBD	VBD	_	33	auxpass	_	_
+32	substantially	substantially	RB	RB	_	33	advmod	_	_
+33	reduced	reduce	VBN	VBN	_	0	root	_	_
 34	in	in	IN	IN	sem=LOC	33	prep	_	_
 35	RanBP2	ranbp0	NN	NN	_	39	nmod	_	_
 36	+	+	SYM	SYM	_	35	punct	_	_
@@ -5931,7 +5931,7 @@
 41	Figure	figure	NN	NN	_	42	compound	_	_
 42	8A	0a	NN	NN	_	33	parataxis	_	_
 43	)	)	-RRB-	-RRB-	_	42	punct	_	_
-44	.	.	.	.	_	31	punct	_	_
+44	.	.	.	.	_	33	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
 2	differences	difference	NNS	NNS	_	35	nsubj	_	_
@@ -6043,8 +6043,8 @@
 13	wave	wave	NN	NN	_	9	pobj	_	_
 14	,	,	,	,	_	15	punct	_	_
 15	tended	tend	VBD	VBD	_	0	root	_	_
-16	to	to	TO	TO	_	15	xcomp	_	_
-17	be	be	VB	VB	_	16	dep	_	_
+16	to	to	TO	TO	_	17	aux	_	_
+17	be	be	VB	VB	_	15	xcomp	_	_
 18	more	more	RBR	RBR	_	22	advmod	_	_
 19	consistently	consistently	RB	RB	_	18	advmod	_	_
 20	and	and	CC	CC	_	19	cc	_	_
@@ -6063,13 +6063,13 @@
 33	activity	activity	NN	NN	_	31	dobj	_	_
 34	.	.	.	.	_	15	punct	_	_
 
-1	Since	since	IN	IN	sem=TMP	14	mark	_	_
+1	Since	since	IN	IN	_	7	mark	_	_
 2	second	#ord#	JJ	JJ	_	4	amod	_	_
 3	-	-	HYPH	HYPH	_	4	punct	_	_
 4	order	order	NN	NN	_	6	compound	_	_
 5	neuron	neuron	NN	NN	_	6	compound	_	_
 6	responses	response	NNS	NNS	_	7	nsubj	_	_
-7	depend	depend	VBP	VBP	_	1	ccomp	_	_
+7	depend	depend	VBP	VBP	sem=TMP	14	advcl	_	_
 8	on	on	IN	IN	_	7	prep	_	_
 9	input	input	NN	NN	_	8	pobj	_	_
 10	from	from	IN	IN	_	9	prep	_	_
@@ -6077,13 +6077,13 @@
 12	,	,	,	,	_	14	punct	_	_
 13	this	this	DT	DT	_	14	nsubj	_	_
 14	suggests	suggest	VBZ	VBZ	_	0	root	_	_
-15	that	that	IN	IN	_	14	mark	_	_
+15	that	that	IN	IN	_	21	mark	_	_
 16	reduced	reduce	VBN	VBN	_	20	amod	_	_
 17	b	b	NN	NN	_	19	compound	_	_
 18	-	-	HYPH	HYPH	_	19	punct	_	_
 19	wave	wave	NN	NN	_	20	compound	_	_
 20	amplitudes	amplitude	NNS	NNS	_	21	nsubj	_	_
-21	are	be	VBP	VBP	_	15	ccomp	_	_
+21	are	be	VBP	VBP	_	14	ccomp	_	_
 22	the	the	DT	DT	_	23	det	_	_
 23	result	result	NN	NN	syn=PRD	21	attr	_	_
 24	of	of	IN	IN	_	23	prep	_	_
@@ -6103,13 +6103,13 @@
 38	neurons	neuron	NNS	NNS	_	35	conj	_	_
 39	.	.	.	.	_	14	punct	_	_
 
-1	Anesthetics	anesthetic	NNS	NNS	_	6	nsubj	_	_
+1	Anesthetics	anesthetic	NNS	NNS	_	7	nsubj	_	_
 2	,	,	,	,	_	1	punct	_	_
 3	particularly	particularly	RB	RB	_	4	advmod	_	_
 4	ketamine	ketamine	NN	NN	_	1	appos	_	_
-5	,	,	,	,	_	6	punct	_	_
-6	can	can	MD	MD	_	0	root	_	_
-7	cause	cause	VB	VB	_	6	dep	_	_
+5	,	,	,	,	_	7	punct	_	_
+6	can	can	MD	MD	_	7	aux	_	_
+7	cause	cause	VB	VB	_	0	root	_	_
 8	sustained	sustained	JJ	JJ	_	9	amod	_	_
 9	elevation	elevation	NN	NN	_	7	dobj	_	_
 10	of	of	IN	IN	_	9	prep	_	_
@@ -6126,15 +6126,15 @@
 21	[	[	-LRB-	-LRB-	_	22	punct	_	_
 22	39	0	CD	CD	_	18	parataxis	_	_
 23	]	]	-RRB-	-RRB-	_	22	punct	_	_
-24	.	.	.	.	_	6	punct	_	_
+24	.	.	.	.	_	7	punct	_	_
 
 1	Thus	thus	RB	RB	_	4	advmod	_	_
 2	,	,	,	,	_	4	punct	_	_
 3	we	we	PRP	PRP	_	4	nsubj	_	_
 4	were	be	VBD	VBD	_	0	root	_	_
 5	concerned	concerned	JJ	JJ	syn=PRD	4	acomp	_	_
-6	that	that	IN	IN	_	5	mark	_	_
-7	differences	difference	NNS	NNS	_	21	nsubj	_	_
+6	that	that	IN	IN	_	22	mark	_	_
+7	differences	difference	NNS	NNS	_	22	nsubj	_	_
 8	in	in	IN	IN	_	7	prep	_	_
 9	electroretinogram	electroretinogram	NN	NN	_	10	compound	_	_
 10	amplitudes	amplitude	NNS	NNS	_	8	pobj	_	_
@@ -6148,8 +6148,8 @@
 18	+	+	SYM	SYM	_	17	punct	_	_
 19	/	/	HYPH	HYPH	_	17	punct	_	_
 20	+	+	SYM	SYM	_	17	punct	_	_
-21	may	may	MD	MD	_	6	ccomp	_	_
-22	reflect	reflect	VB	VB	_	21	dep	_	_
+21	may	may	MD	MD	_	22	aux	_	_
+22	reflect	reflect	VB	VB	_	5	ccomp	_	_
 23	differences	difference	NNS	NNS	_	22	dobj	_	_
 24	in	in	IN	IN	_	23	prep	_	_
 25	glucose	glucose	NN	NN	_	26	compound	_	_
@@ -6306,9 +6306,9 @@
 
 1	The	the	DT	DT	_	3	det	_	_
 2	upper	upper	JJ	JJ	_	3	amod	_	_
-3	intensities	intensity	NNS	NNS	_	4	nsubj	_	_
-4	are	be	VBP	VBP	_	0	root	_	_
-5	comprised	comprise	VBN	VBN	_	4	dep	_	_
+3	intensities	intensity	NNS	NNS	_	5	nsubjpass	_	_
+4	are	be	VBP	VBP	_	5	auxpass	_	_
+5	comprised	comprise	VBN	VBN	_	0	root	_	_
 6	of	of	IN	IN	_	5	prep	_	_
 7	responses	response	NNS	NNS	_	6	pobj	_	_
 8	generated	generate	VBN	VBN	_	7	acl	_	_
@@ -6319,7 +6319,7 @@
 13	and	and	CC	CC	_	12	cc	_	_
 14	cone	cone	NN	NN	_	12	conj	_	_
 15	pathways	pathway	NNS	NNS	_	9	pobj	_	_
-16	.	.	.	.	_	4	punct	_	_
+16	.	.	.	.	_	5	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	B	b	LS	LS	_	27	meta	_	_
@@ -6499,9 +6499,9 @@
 18	.	.	.	.	_	2	punct	_	_
 
 1	Statistical	statistical	JJ	JJ	_	2	amod	_	_
-2	significance	significance	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	found	find	VBN	VBN	_	3	dep	_	_
+2	significance	significance	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	found	find	VBN	VBN	_	0	root	_	_
 5	across	across	IN	IN	_	4	prep	_	_
 6	all	all	DT	DT	_	7	det	_	_
 7	intensities	intensity	NNS	NNS	_	5	pobj	_	_
@@ -6528,16 +6528,16 @@
 28	a	a	NN	NN	_	30	compound	_	_
 29	-	-	HYPH	HYPH	_	30	punct	_	_
 30	wave	wave	NN	NN	_	26	pobj	_	_
-31	.	.	.	.	_	3	punct	_	_
+31	.	.	.	.	_	4	punct	_	_
 
 1	Discussion	discussion	NN	NN	_	0	root	_	_
 
 1	Our	our	PRP$	PRP$	_	2	poss	_	_
 2	findings	finding	NNS	NNS	_	3	nsubj	_	_
 3	support	support	VBP	VBP	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	6	mark	_	_
 5	RanBP2	ranbp0	NN	NN	_	6	nsubj	_	_
-6	plays	play	VBZ	VBZ	_	4	ccomp	_	_
+6	plays	play	VBZ	VBZ	_	3	ccomp	_	_
 7	a	a	DT	DT	_	9	det	_	_
 8	determinant	determinant	JJ	JJ	_	9	amod	_	_
 9	role	role	NN	NN	_	6	dobj	_	_
@@ -6552,11 +6552,11 @@
 1	The	the	DT	DT	_	2	det	_	_
 2	data	datum	NNS	NNS	_	3	nsubj	_	_
 3	support	support	VBP	VBP	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	8	mark	_	_
 5	Cox1	cox0	NN	NN	_	8	nsubj	_	_
 6	and	and	CC	CC	_	5	cc	_	_
 7	HKI	hki	NN	NN	_	5	conj	_	_
-8	are	be	VBP	VBP	_	4	ccomp	_	_
+8	are	be	VBP	VBP	_	3	ccomp	_	_
 9	novel	novel	JJ	JJ	_	10	amod	_	_
 10	partners	partner	NNS	NNS	syn=PRD	8	attr	_	_
 11	in	in	FW	FW	_	12	advmod	_	_
@@ -6607,7 +6607,7 @@
 5	activity	activity	NN	NN	_	2	dobj	_	_
 6	of	of	IN	IN	_	5	prep	_	_
 7	HKI	hki	NN	NN	_	6	pobj	_	_
-8	with	with	IN	IN	syn=ADV	2	mark	_	_
+8	with	with	IN	IN	_	23	mark	_	_
 9	~	~	SYM	SYM	_	12	punct	_	_
 10	2	0	CD	CD	_	12	quantmod	_	_
 11	–	-	SYM	SYM	_	12	punct	_	_
@@ -6622,9 +6622,9 @@
 20	Cox11	cox0	NN	NN	_	21	compound	_	_
 21	dimer	dimer	NN	NN	_	19	pobj	_	_
 22	)	)	-RRB-	-RRB-	_	17	punct	_	_
-23	required	require	VBN	VBN	_	8	ccomp	_	_
-24	to	to	TO	TO	sem=PRP	23	advcl	_	_
-25	inhibit	inhibit	VB	VB	_	24	dep	_	_
+23	required	require	VBN	VBN	syn=ADV	2	advcl	_	_
+24	to	to	TO	TO	_	25	aux	_	_
+25	inhibit	inhibit	VB	VB	sem=PRP	23	advcl	_	_
 26	completely	completely	RB	RB	_	25	advmod	_	_
 27	the	the	DT	DT	_	28	det	_	_
 28	activity	activity	NN	NN	_	25	dobj	_	_
@@ -6672,9 +6672,9 @@
 29	catalysis	catalysis	NN	NN	_	28	pobj	_	_
 30	.	.	.	.	_	2	punct	_	_
 
-1	This	this	DT	DT	_	2	nsubj	_	_
-2	is	be	VBZ	VBZ	_	0	root	_	_
-3	reflected	reflect	VBN	VBN	_	2	dep	_	_
+1	This	this	DT	DT	_	3	nsubjpass	_	_
+2	is	be	VBZ	VBZ	_	3	auxpass	_	_
+3	reflected	reflect	VBN	VBN	_	0	root	_	_
 4	by	by	IN	IN	_	3	agent	_	_
 5	a	a	DT	DT	_	6	det	_	_
 6	reduction	reduction	NN	NN	_	4	pobj	_	_
@@ -6702,17 +6702,17 @@
 28	and	and	CC	CC	_	27	cc	_	_
 29	2B	0b	NN	NN	_	27	conj	_	_
 30	)	)	-RRB-	-RRB-	_	27	punct	_	_
-31	.	.	.	.	_	2	punct	_	_
+31	.	.	.	.	_	3	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	inhibitory	inhibitory	JJ	JJ	_	3	amod	_	_
-3	property	property	NN	NN	_	8	nsubj	_	_
+3	property	property	NN	NN	_	9	nsubjpass	_	_
 4	of	of	IN	IN	_	3	prep	_	_
 5	Cox11	cox0	NN	NN	_	4	pobj	_	_
 6	over	over	IN	IN	_	3	prep	_	_
 7	HKI	hki	NN	NN	_	6	pobj	_	_
-8	is	be	VBZ	VBZ	_	0	root	_	_
-9	suppressed	suppress	VBN	VBN	_	8	dep	_	_
+8	is	be	VBZ	VBZ	_	9	auxpass	_	_
+9	suppressed	suppress	VBN	VBN	_	0	root	_	_
 10	by	by	IN	IN	_	9	agent	_	_
 11	RanBP2	ranbp0	NN	NN	_	10	pobj	_	_
 12	(	(	-LRB-	-LRB-	_	14	punct	_	_
@@ -6736,7 +6736,7 @@
 30	Figure	figure	NN	NN	_	31	compound	_	_
 31	2D	0d	NN	NN	_	20	parataxis	_	_
 32	)	)	-RRB-	-RRB-	_	31	punct	_	_
-33	.	.	.	.	_	8	punct	_	_
+33	.	.	.	.	_	9	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	sub-stochiometry	sub-stochiometry	JJ	JJ	_	3	amod	_	_
@@ -6754,7 +6754,7 @@
 14	by	by	IN	IN	_	11	prep	_	_
 15	Cox11	cox0	NN	NN	_	14	pobj	_	_
 16	supports	support	VBZ	VBZ	_	0	root	_	_
-17	that	that	IN	IN	_	16	mark	_	_
+17	that	that	IN	IN	_	26	mark	_	_
 18	a	a	DT	DT	_	25	det	_	_
 19	LD	ld	NN	NN	_	21	npadvmod	_	_
 20	-	-	HYPH	HYPH	_	21	punct	_	_
@@ -6763,7 +6763,7 @@
 23	-	-	HYPH	HYPH	_	24	punct	_	_
 24	like	like	JJ	JJ	_	25	amod	_	_
 25	mechanism	mechanism	NN	NN	_	26	nsubj	_	_
-26	underlies	underly	VBZ	VBZ	_	17	ccomp	_	_
+26	underlies	underly	VBZ	VBZ	_	16	advcl	_	_
 27	the	the	DT	DT	_	28	det	_	_
 28	suppression	suppression	NN	NN	_	26	dobj	_	_
 29	of	of	IN	IN	_	28	prep	_	_
@@ -6775,11 +6775,11 @@
 35	HKI	hki	NN	NN	_	34	pobj	_	_
 36	by	by	IN	IN	_	33	prep	_	_
 37	RanBP2	ranbp0	NN	NN	_	36	pobj	_	_
-38	,	,	,	,	_	17	punct	_	_
-39	and	and	CC	CC	_	17	cc	_	_
-40	that	that	IN	IN	_	17	mark	_	_
+38	,	,	,	,	_	26	punct	_	_
+39	and	and	CC	CC	_	26	cc	_	_
+40	that	that	IN	IN	_	42	mark	_	_
 41	RanBP2	ranbp0	NN	NN	_	42	nsubj	_	_
-42	acts	act	VBZ	VBZ	_	40	ccomp	_	_
+42	acts	act	VBZ	VBZ	_	26	conj	_	_
 43	as	as	IN	IN	_	42	prep	_	_
 44	a	a	DT	DT	_	47	det	_	_
 45	molecular	molecular	JJ	JJ	_	47	amod	_	_
@@ -6848,7 +6848,7 @@
 1	The	the	DT	DT	_	2	det	_	_
 2	data	datum	NNS	NNS	_	3	nsubj	_	_
 3	support	support	VBP	VBP	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	24	mark	_	_
 5	the	the	DT	DT	_	8	det	_	_
 6	ultimate	ultimate	JJ	JJ	_	8	amod	_	_
 7	pathophysiological	pathophysiological	JJ	JJ	_	8	amod	_	_
@@ -6868,14 +6868,14 @@
 21	chaperone	chaperone	NN	NN	_	22	compound	_	_
 22	activity	activity	NN	NN	_	18	conj	_	_
 23	,	,	,	,	_	24	punct	_	_
-24	is	be	VBZ	VBZ	_	4	ccomp	_	_
+24	is	be	VBZ	VBZ	_	3	ccomp	_	_
 25	the	the	DT	DT	_	27	det	_	_
 26	selective	selective	JJ	JJ	_	27	amod	_	_
 27	degradation	degradation	NN	NN	syn=PRD	24	attr	_	_
 28	of	of	IN	IN	_	27	prep	_	_
 29	HKI	hki	NN	NN	_	28	pobj	_	_
-30	as	as	IN	IN	syn=ADV	24	mark	_	_
-31	reflected	reflect	VBN	VBN	_	30	advcl	_	_
+30	as	as	IN	IN	_	31	mark	_	_
+31	reflected	reflect	VBN	VBN	syn=ADV	24	advcl	_	_
 32	by	by	IN	IN	_	31	agent	_	_
 33	the	the	DT	DT	_	35	det	_	_
 34	reduced	reduce	VBN	VBN	_	35	amod	_	_
@@ -6908,11 +6908,11 @@
 6	is	be	VBZ	VBZ	_	0	root	_	_
 7	also	also	RB	RB	_	6	advmod	_	_
 8	possible	possible	JJ	JJ	syn=PRD	6	acomp	_	_
-9	that	that	IN	IN	_	6	mark	_	_
+9	that	that	IN	IN	_	13	mark	_	_
 10	deficits	deficit	NNS	NNS	_	13	nsubj	_	_
 11	in	in	IN	IN	_	10	prep	_	_
 12	RanBP2	ranbp0	NN	NN	_	11	pobj	_	_
-13	cause	cause	VBP	VBP	_	9	ccomp	_	_
+13	cause	cause	VBP	VBP	_	6	ccomp	_	_
 14	a	a	DT	DT	_	15	det	_	_
 15	disturbance	disturbance	NN	NN	_	13	dobj	_	_
 16	in	in	IN	IN	_	15	prep	_	_
@@ -6978,8 +6978,8 @@
 20	and	and	CC	CC	_	18	cc	_	_
 21	diminished	diminish	VBN	VBN	_	22	amod	_	_
 22	ability	ability	NN	NN	_	18	conj	_	_
-23	to	to	TO	TO	_	22	acl	_	_
-24	metabolize	metabolize	VB	VB	_	23	dep	_	_
+23	to	to	TO	TO	_	24	aux	_	_
+24	metabolize	metabolize	VB	VB	_	22	acl	_	_
 25	glucose	glucose	NN	NN	_	24	dobj	_	_
 26	of	of	IN	IN	_	25	prep	_	_
 27	RanBP2	ranbp0	NN	NN	_	31	nmod	_	_
@@ -6995,8 +6995,8 @@
 37	)	)	-RRB-	-RRB-	_	33	punct	_	_
 38	.	.	.	.	_	8	punct	_	_
 
-1	As	as	IN	IN	syn=ADV	12	mark	_	_
-2	discussed	discuss	VBN	VBN	_	1	advcl	_	_
+1	As	as	IN	IN	_	2	mark	_	_
+2	discussed	discuss	VBN	VBN	syn=ADV	12	advcl	_	_
 3	subsequently	subsequently	RB	RB	sem=TMP	2	advmod	_	_
 4	,	,	,	,	_	12	punct	_	_
 5	the	the	DT	DT	_	7	det	_	_
@@ -7022,13 +7022,13 @@
 25	.	.	.	.	_	12	punct	_	_
 
 1	Various	various	JJ	JJ	_	2	amod	_	_
-2	domains	domain	NNS	NNS	_	5	nsubj	_	_
+2	domains	domain	NNS	NNS	_	8	nsubjpass	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	RanBP2	ranbp0	NN	NN	_	3	pobj	_	_
-5	have	have	VBP	VBP	_	0	root	_	_
-6	been	be	VBN	VBN	_	5	dep	_	_
-7	previously	previously	RB	RB	sem=TMP	6	advmod	_	_
-8	implicated	implicate	VBN	VBN	_	6	dep	_	_
+5	have	have	VBP	VBP	_	8	aux	_	_
+6	been	be	VBN	VBN	_	8	auxpass	_	_
+7	previously	previously	RB	RB	sem=TMP	8	advmod	_	_
+8	implicated	implicate	VBN	VBN	_	0	root	_	_
 9	with	with	IN	IN	_	8	prep	_	_
 10	a	a	DT	DT	_	12	det	_	_
 11	chaperone	chaperone	NN	NN	_	12	compound	_	_
@@ -7036,7 +7036,7 @@
 13	in	in	IN	IN	_	12	prep	_	_
 14	the	the	DT	DT	_	15	det	_	_
 15	cell	cell	NN	NN	_	13	pobj	_	_
-16	.	.	.	.	_	5	punct	_	_
+16	.	.	.	.	_	8	punct	_	_
 
 1	These	these	DT	DT	_	2	nsubj	_	_
 2	include	include	VBP	VBP	_	0	root	_	_
@@ -7106,13 +7106,13 @@
 2	data	datum	NNS	NNS	_	4	nsubj	_	_
 3	herein	herein	RB	RB	_	2	advmod	_	_
 4	show	show	VBP	VBP	_	0	root	_	_
-5	that	that	IN	IN	_	4	mark	_	_
+5	that	that	IN	IN	_	11	mark	_	_
 6	the	the	DT	DT	_	8	det	_	_
 7	multi-chaperone	multi-chaperone	JJ	JJ	_	8	amod	_	_
 8	role	role	NN	NN	_	11	nsubj	_	_
 9	of	of	IN	IN	_	8	prep	_	_
 10	RanBP2	ranbp0	NN	NN	_	9	pobj	_	_
-11	extends	extend	VBZ	VBZ	_	5	ccomp	_	_
+11	extends	extend	VBZ	VBZ	_	4	ccomp	_	_
 12	also	also	RB	RB	_	11	advmod	_	_
 13	to	to	IN	IN	_	11	prep	_	_
 14	its	its	PRP$	PRP$	_	15	poss	_	_
@@ -7122,21 +7122,21 @@
 18	of	of	IN	IN	_	17	prep	_	_
 19	its	its	PRP$	PRP$	_	20	poss	_	_
 20	ability	ability	NN	NN	_	18	pobj	_	_
-21	to	to	TO	TO	_	20	acl	_	_
-22	associate	associate	VB	VB	_	21	dep	_	_
+21	to	to	TO	TO	_	22	aux	_	_
+22	associate	associate	VB	VB	_	20	acl	_	_
 23	to	to	IN	IN	_	22	prep	_	_
 24	distinct	distinct	JJ	JJ	_	26	amod	_	_
 25	folding	folding	NN	NN	_	26	compound	_	_
 26	species	species	NNS	NNS	_	23	pobj	_	_
 27	of	of	IN	IN	_	26	prep	_	_
 28	Cox11	cox0	NN	NN	_	27	pobj	_	_
-29	and	and	CC	CC	_	21	cc	_	_
-30	to	to	TO	TO	_	21	conj	_	_
-31	prevent	prevent	VB	VB	_	30	dep	_	_
+29	and	and	CC	CC	_	22	cc	_	_
+30	to	to	TO	TO	_	31	aux	_	_
+31	prevent	prevent	VB	VB	_	22	conj	_	_
 32	HKI	hki	NN	NN	_	31	dobj	_	_
 33	from	from	IN	IN	_	31	prep	_	_
-34	being	be	VBG	VBG	syn=NOM	33	pcomp	_	_
-35	degraded	degrade	VBN	VBN	_	34	dep	_	_
+34	being	be	VBG	VBG	_	35	auxpass	_	_
+35	degraded	degrade	VBN	VBN	syn=NOM	33	pcomp	_	_
 36	.	.	.	.	_	4	punct	_	_
 
 1	This	this	DT	DT	_	3	det	_	_
@@ -7144,9 +7144,9 @@
 3	function	function	NN	NN	_	4	nsubj	_	_
 4	is	be	VBZ	VBZ	_	0	root	_	_
 5	likely	likely	JJ	JJ	syn=PRD	4	acomp	_	_
-6	to	to	TO	TO	_	5	xcomp	_	_
-7	be	be	VB	VB	_	6	dep	_	_
-8	complemented	complement	VBN	VBN	_	7	dep	_	_
+6	to	to	TO	TO	_	8	aux	_	_
+7	be	be	VB	VB	_	8	auxpass	_	_
+8	complemented	complement	VBN	VBN	_	5	xcomp	_	_
 9	by	by	IN	IN	_	8	agent	_	_
 10	other	other	JJ	JJ	_	11	amod	_	_
 11	partners	partner	NNS	NNS	_	9	pobj	_	_
@@ -7159,11 +7159,11 @@
 18	functions	function	NNS	NNS	_	14	pobj	_	_
 19	.	.	.	.	_	4	punct	_	_
 
-1	For	for	IN	IN	_	61	prep	_	_
+1	For	for	IN	IN	_	62	prep	_	_
 2	example	example	NN	NN	_	1	pobj	_	_
-3	,	,	,	,	_	61	punct	_	_
+3	,	,	,	,	_	62	punct	_	_
 4	the	the	DT	DT	_	5	det	_	_
-5	combination	combination	NN	NN	_	61	nsubj	_	_
+5	combination	combination	NN	NN	_	62	nsubj	_	_
 6	of	of	IN	IN	_	5	prep	_	6:gap
 7	the	the	DT	DT	_	8	det	_	_
 8	CLD	cld	NN	NN	_	6	pobj	_	_
@@ -7219,8 +7219,8 @@
 58	[	[	-LRB-	-LRB-	_	59	punct	_	_
 59	15	0	CD	CD	_	57	parataxis	_	_
 60	]	]	-RRB-	-RRB-	_	59	punct	_	_
-61	may	may	MD	MD	_	0	root	_	_
-62	contribute	contribute	VB	VB	_	61	dep	_	_
+61	may	may	MD	MD	_	62	aux	_	_
+62	contribute	contribute	VB	VB	_	0	root	_	_
 63	to	to	IN	IN	_	62	prep	_	_
 64	the	the	DT	DT	_	67	det	_	_
 65	down	down	JJ	JJ	_	67	amod	_	_
@@ -7245,22 +7245,22 @@
 84	of	of	IN	IN	_	83	prep	_	_
 85	these	these	DT	DT	_	86	det	_	_
 86	partners	partner	NNS	NNS	_	84	pobj	_	_
-87	.	.	.	.	_	61	punct	_	_
+87	.	.	.	.	_	62	punct	_	_
 
-1	In	in	IN	IN	_	6	prep	_	_
+1	In	in	IN	IN	_	7	prep	_	_
 2	this	this	DT	DT	_	3	det	_	_
 3	regard	regard	NN	NN	_	1	pobj	_	_
-4	,	,	,	,	_	6	punct	_	_
-5	it	it	PRP	PRP	_	6	nsubj	_	_
-6	will	will	MD	MD	_	0	root	_	_
-7	be	be	VB	VB	_	6	dep	_	_
+4	,	,	,	,	_	7	punct	_	_
+5	it	it	PRP	PRP	_	7	nsubj	_	_
+6	will	will	MD	MD	_	7	aux	_	_
+7	be	be	VB	VB	_	0	root	_	_
 8	interesting	interesting	JJ	JJ	syn=PRD	7	acomp	_	_
-9	to	to	TO	TO	_	7	xcomp	_	_
-10	probe	probe	VB	VB	_	9	dep	_	_
-11	whether	whether	IN	IN	_	10	mark	_	_
+9	to	to	TO	TO	_	10	aux	_	_
+10	probe	probe	VB	VB	_	7	xcomp	_	_
+11	whether	whether	IN	IN	_	14	mark	_	_
 12	parkin	parkin	NN	NN	_	14	nsubj	_	_
 13	also	also	RB	RB	_	14	advmod	_	_
-14	causes	cause	VBZ	VBZ	_	11	ccomp	_	_
+14	causes	cause	VBZ	VBZ	_	10	ccomp	_	_
 15	deficits	deficit	NNS	NNS	_	14	dobj	_	_
 16	in	in	IN	IN	_	15	prep	_	_
 17	HKI	hki	NN	NN	_	16	pobj	_	_
@@ -7268,19 +7268,19 @@
 19	dopaminergic	dopaminergic	JJ	JJ	_	20	amod	_	_
 20	neurons	neuron	NNS	NNS	_	18	pobj	_	_
 21	,	,	,	,	_	7	punct	_	_
-22	since	since	IN	IN	sem=PRP	7	mark	_	_
-23	parkin	parkin	NN	NN	_	24	nsubj	_	_
-24	was	be	VBD	VBD	_	22	ccomp	_	_
-25	reported	report	VBN	VBN	_	24	dep	_	_
-26	to	to	TO	TO	_	25	xcomp	_	_
-27	modulate	modulate	VB	VB	_	26	dep	_	_
+22	since	since	IN	IN	_	25	mark	_	_
+23	parkin	parkin	NN	NN	_	25	nsubjpass	_	_
+24	was	be	VBD	VBD	_	25	auxpass	_	_
+25	reported	report	VBN	VBN	sem=PRP	7	advcl	_	_
+26	to	to	TO	TO	_	27	aux	_	_
+27	modulate	modulate	VB	VB	_	25	xcomp	_	_
 28	RanBP2	ranbp0	NN	NN	_	29	compound	_	_
 29	turnover	turnover	NN	NN	_	27	dobj	_	_
 30	[	[	-LRB-	-LRB-	_	31	punct	_	_
 31	20	0	CD	CD	_	25	parataxis	_	_
 32	]	]	-RRB-	-RRB-	_	31	punct	_	_
-33	,	,	,	,	_	24	punct	_	_
-34	and	and	CC	CC	_	24	cc	_	_
+33	,	,	,	,	_	25	punct	_	_
+34	and	and	CC	CC	_	25	cc	_	_
 35	parkin	parkin	NN	NN	_	36	compound	_	_
 36	loss	loss	NN	NN	_	42	nsubj	_	_
 37	-	-	HYPH	HYPH	_	36	punct	_	_
@@ -7288,7 +7288,7 @@
 39	-	-	HYPH	HYPH	_	38	punct	_	_
 40	function	function	NN	NN	_	38	pobj	_	_
 41	also	also	RB	RB	_	42	advmod	_	_
-42	causes	cause	VBZ	VBZ	_	24	conj	_	_
+42	causes	cause	VBZ	VBZ	_	25	conj	_	_
 43	energy	energy	NN	NN	_	46	nmod	_	_
 44	and	and	CC	CC	_	43	cc	_	_
 45	growth	growth	NN	NN	_	43	conj	_	_
@@ -7300,7 +7300,7 @@
 51	,	,	,	,	_	52	punct	_	_
 52	42	0	CD	CD	_	42	parataxis	_	_
 53	]	]	-RRB-	-RRB-	_	52	punct	_	_
-54	.	.	.	.	_	6	punct	_	_
+54	.	.	.	.	_	7	punct	_	_
 
 1	These	these	DT	DT	_	2	det	_	_
 2	data	datum	NNS	NNS	_	3	nsubj	_	_
@@ -7335,12 +7335,12 @@
 31	supplying	supply	VBG	VBG	syn=NOM	30	pcomp	_	_
 32	energy	energy	NN	NN	_	31	dobj	_	_
 33	and	and	CC	CC	_	26	cc	_	_
-34	where	where	WRB	WRB	_	38	advmod	_	22:ref
+34	where	where	WRB	WRB	_	39	advmod	_	22:ref
 35	the	the	DT	DT	_	37	det	_	_
 36	proteasome	proteasome	NN	NN	_	37	compound	_	_
-37	machinery	machinery	NN	NN	_	38	nsubj	_	_
-38	may	may	MD	MD	_	26	conj	_	_
-39	play	play	VB	VB	_	38	dep	_	_
+37	machinery	machinery	NN	NN	_	39	nsubj	_	_
+38	may	may	MD	MD	_	39	aux	_	_
+39	play	play	VB	VB	_	26	conj	_	_
 40	a	a	DT	DT	_	42	det	_	_
 41	critical	critical	JJ	JJ	_	42	amod	_	_
 42	role	role	NN	NN	_	39	dobj	_	_
@@ -7357,10 +7357,10 @@
 53	]	]	-RRB-	-RRB-	_	52	punct	_	_
 54	.	.	.	.	_	3	punct	_	_
 
-1	This	this	DT	DT	_	2	nsubj	_	_
-2	is	be	VBZ	VBZ	_	0	root	_	_
-3	further	far	RB	RB	_	2	advmod	_	_
-4	evidenced	evidence	VBN	VBN	_	2	dep	_	_
+1	This	this	DT	DT	_	4	nsubjpass	_	_
+2	is	be	VBZ	VBZ	_	4	auxpass	_	_
+3	further	far	RB	RB	_	4	advmod	_	_
+4	evidenced	evidence	VBN	VBN	_	0	root	_	_
 5	by	by	IN	IN	_	4	agent	_	_
 6	the	the	DT	DT	_	7	det	_	_
 7	presence	presence	NN	NN	_	5	pobj	_	_
@@ -7394,23 +7394,23 @@
 35	/	/	HYPH	HYPH	_	36	punct	_	_
 36	energy	energy	NN	NN	_	37	compound	_	_
 37	homeostasis	homeostasis	NN	NN	_	33	pobj	_	_
-38	as	as	IN	IN	syn=ADV	23	mark	_	_
-39	observed	observe	VBN	VBN	_	38	advcl	_	_
+38	as	as	IN	IN	_	39	mark	_	_
+39	observed	observe	VBN	VBN	syn=ADV	23	advcl	_	_
 40	in	in	IN	IN	_	39	prep	_	_
 41	the	the	DT	DT	_	43	det	_	_
 42	coisogenic	coisogenic	JJ	JJ	_	43	amod	_	_
 43	line	line	NN	NN	_	40	pobj	_	_
-44	.	.	.	.	_	2	punct	_	_
+44	.	.	.	.	_	4	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	presence	presence	NN	NN	_	7	nsubj	_	_
+2	presence	presence	NN	NN	_	9	nsubjpass	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	such	such	JJ	JJ	_	6	amod	_	_
 5	compensatory	compensatory	JJ	JJ	_	6	amod	_	_
 6	mechanisms	mechanism	NNS	NNS	_	3	pobj	_	_
-7	is	be	VBZ	VBZ	_	0	root	_	_
-8	also	also	RB	RB	_	7	advmod	_	_
-9	supported	support	VBN	VBN	_	7	dep	_	_
+7	is	be	VBZ	VBZ	_	9	auxpass	_	_
+8	also	also	RB	RB	_	9	advmod	_	_
+9	supported	support	VBN	VBN	_	0	root	_	_
 10	by	by	IN	IN	_	9	agent	_	_
 11	the	the	DT	DT	_	12	det	_	_
 12	identification	identification	NN	NN	_	10	pobj	_	_
@@ -7423,9 +7423,9 @@
 19	which	which	WDT	WDT	_	20	dep	_	17:ref
 20	encompasses	encompass	VBZ	VBZ	_	17	relcl	_	_
 21	RanBP2	ranbp0	NN	NN	_	20	dobj	_	_
-22	,	,	,	,	_	7	punct	_	_
-23	and	and	CC	CC	_	7	cc	_	_
-24	modifies	modify	VBZ	VBZ	_	7	conj	_	_
+22	,	,	,	,	_	9	punct	_	_
+23	and	and	CC	CC	_	9	cc	_	_
+24	modifies	modify	VBZ	VBZ	_	9	conj	_	_
 25	the	the	DT	DT	_	26	det	_	_
 26	expression	expression	NN	NN	_	24	dobj	_	_
 27	of	of	IN	IN	_	26	prep	_	_
@@ -7436,7 +7436,7 @@
 32	[	[	-LRB-	-LRB-	_	33	punct	_	_
 33	44	0	CD	CD	_	24	parataxis	_	_
 34	]	]	-RRB-	-RRB-	_	33	punct	_	_
-35	.	.	.	.	_	7	punct	_	_
+35	.	.	.	.	_	9	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
 2	data	datum	NNS	NNS	_	4	nsubj	_	_
@@ -7460,7 +7460,7 @@
 20	levels	level	NNS	NNS	_	17	pobj	_	_
 21	.	.	.	.	_	14	punct	_	_
 
-1	Since	since	IN	IN	sem=PRP	50	mark	_	_
+1	Since	since	IN	IN	_	31	mark	_	_
 2	the	the	DT	DT	_	8	det	_	_
 3	constitutive	constitutive	JJ	JJ	_	8	amod	_	_
 4	Na+	na+	NN	NN	_	6	compound	_	_
@@ -7481,8 +7481,8 @@
 19	(	(	-LRB-	-LRB-	_	31	punct	_	_
 20	both	both	DT	DT	_	21	nsubj	_	_
 21	fundamental	fundamental	JJ	JJ	syn=PRD	31	advcl	_	_
-22	to	to	TO	TO	sem=PRP	21	advcl	_	_
-23	maintain	maintain	VB	VB	_	22	dep	_	_
+22	to	to	TO	TO	_	23	aux	_	_
+23	maintain	maintain	VB	VB	sem=PRP	21	advcl	_	_
 24	the	the	DT	DT	_	26	det	_	_
 25	electrical	electrical	JJ	JJ	_	26	amod	_	_
 26	activity	activity	NN	NN	_	23	dobj	_	_
@@ -7490,7 +7490,7 @@
 28	the	the	DT	DT	_	29	det	_	_
 29	CNS	cns	NN	NN	_	27	pobj	_	_
 30	)	)	-RRB-	-RRB-	_	31	punct	_	_
-31	consumes	consume	VBZ	VBZ	_	1	ccomp	_	_
+31	consumes	consume	VBZ	VBZ	sem=PRP	50	advcl	_	_
 32	the	the	DT	DT	_	34	det	_	_
 33	vast	vast	JJ	JJ	_	34	amod	_	_
 34	majority	majority	NN	NN	_	31	dobj	_	_
@@ -7526,13 +7526,13 @@
 64	)	)	-RRB-	-RRB-	_	62	punct	_	_
 65	.	.	.	.	_	50	punct	_	_
 
-1	Moreover	moreover	RB	RB	_	6	advmod	_	_
-2	,	,	,	,	_	6	punct	_	_
-3	deficits	deficit	NNS	NNS	_	6	nsubj	_	_
+1	Moreover	moreover	RB	RB	_	7	advmod	_	_
+2	,	,	,	,	_	7	punct	_	_
+3	deficits	deficit	NNS	NNS	_	7	nsubj	_	_
 4	in	in	IN	IN	_	3	prep	_	_
 5	HKI	hki	NN	NN	_	4	pobj	_	_
-6	may	may	MD	MD	_	0	root	_	_
-7	lead	lead	VB	VB	_	6	dep	_	_
+6	may	may	MD	MD	_	7	aux	_	_
+7	lead	lead	VB	VB	_	0	root	_	_
 8	to	to	IN	IN	_	7	prep	_	_
 9	intracellular	intracellular	JJ	JJ	_	10	amod	_	_
 10	hyperglycemia	hyperglycemia	NN	NN	_	8	pobj	_	_
@@ -7564,36 +7564,36 @@
 36	–	-	SYM	SYM	_	37	punct	_	_
 37	50	0	CD	CD	_	35	prep	_	_
 38	]	]	-RRB-	-RRB-	_	35	punct	_	_
-39	.	.	.	.	_	6	punct	_	_
+39	.	.	.	.	_	7	punct	_	_
 
-1	This	this	DT	DT	_	2	nsubj	_	_
-2	may	may	MD	MD	_	0	root	_	_
-3	be	be	VB	VB	_	2	dep	_	_
-4	exacerbated	exacerbate	VBN	VBN	_	3	dep	_	_
+1	This	this	DT	DT	_	4	nsubjpass	_	_
+2	may	may	MD	MD	_	4	aux	_	_
+3	be	be	VB	VB	_	4	auxpass	_	_
+4	exacerbated	exacerbate	VBN	VBN	_	0	root	_	_
 5	by	by	IN	IN	_	4	agent	_	_
 6	a	a	DT	DT	_	7	det	_	_
 7	decrease	decrease	NN	NN	_	5	pobj	_	_
 8	of	of	IN	IN	_	7	prep	_	_
 9	ATP	atp	NN	NN	_	8	pobj	_	_
 10	,	,	,	,	_	4	punct	_	_
-11	since	since	IN	IN	sem=PRP	4	mark	_	_
+11	since	since	IN	IN	_	18	mark	_	_
 12	the	the	DT	DT	_	13	det	_	_
-13	activity	activity	NN	NN	_	16	nsubj	_	_
+13	activity	activity	NN	NN	_	18	nsubjpass	_	_
 14	of	of	IN	IN	_	13	prep	_	_
 15	HKI	hki	NN	NN	_	14	pobj	_	_
-16	is	be	VBZ	VBZ	_	11	ccomp	_	_
-17	also	also	RB	RB	_	16	advmod	_	_
-18	stimulated	stimulate	VBN	VBN	_	16	dep	_	_
+16	is	be	VBZ	VBZ	_	18	auxpass	_	_
+17	also	also	RB	RB	_	18	advmod	_	_
+18	stimulated	stimulate	VBN	VBN	sem=PRP	4	advcl	_	_
 19	by	by	IN	IN	_	18	agent	_	_
 20	ATP	atp	NN	NN	_	19	pobj	_	_
 21	[	[	-LRB-	-LRB-	_	22	punct	_	_
 22	51	0	CD	CD	_	18	parataxis	_	_
 23	]	]	-RRB-	-RRB-	_	22	punct	_	_
-24	.	.	.	.	_	2	punct	_	_
+24	.	.	.	.	_	4	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	cumulative	cumulative	JJ	JJ	_	3	amod	_	_
-3	effects	effect	NNS	NNS	_	12	nsubj	_	_
+3	effects	effect	NNS	NNS	_	13	nsubjpass	_	_
 4	of	of	IN	IN	_	3	prep	_	_
 5	a	a	DT	DT	_	6	det	_	_
 6	reduction	reduction	NN	NN	_	4	pobj	_	_
@@ -7602,10 +7602,10 @@
 9	and	and	CC	CC	_	6	cc	_	_
 10	intracellular	intracellular	JJ	JJ	_	11	amod	_	_
 11	hyperglycemia	hyperglycemia	NN	NN	_	6	conj	_	_
-12	are	be	VBP	VBP	_	0	root	_	_
-13	known	know	VBN	VBN	_	12	dep	_	_
-14	to	to	TO	TO	_	13	xcomp	_	_
-15	act	act	VB	VB	_	14	dep	_	_
+12	are	be	VBP	VBP	_	13	auxpass	_	_
+13	known	know	VBN	VBN	_	0	root	_	_
+14	to	to	TO	TO	_	15	aux	_	_
+15	act	act	VB	VB	_	13	xcomp	_	_
 16	synergistically	synergistically	RB	RB	sem=MNR	15	advmod	_	_
 17	and	and	CC	CC	_	15	cc	_	_
 18	modulate	modulate	VB	VB	_	15	conj	_	_
@@ -7615,7 +7615,7 @@
 22	of	of	IN	IN	_	21	prep	_	_
 23	neuronal	neuronal	JJ	JJ	_	24	amod	_	_
 24	activity	activity	NN	NN	_	22	pobj	_	_
-25	.	.	.	.	_	12	punct	_	_
+25	.	.	.	.	_	13	punct	_	_
 
 1	Figure	figure	NN	NN	_	3	nsubj	_	_
 2	9	0	CD	CD	_	1	nummod	_	_
@@ -7652,8 +7652,8 @@
 16	become	become	VBP	VBP	_	0	root	_	_
 17	strong	strong	JJ	JJ	_	18	amod	_	_
 18	candidates	candidate	NNS	NNS	syn=PRD	16	attr	_	_
-19	to	to	TO	TO	_	18	advcl	_	_
-20	play	play	VB	VB	_	19	dep	_	_
+19	to	to	TO	TO	_	20	aux	_	_
+20	play	play	VB	VB	_	18	advcl	_	_
 21	a	a	DT	DT	_	22	det	_	_
 22	role	role	NN	NN	_	20	dobj	_	_
 23	in	in	IN	IN	_	20	prep	_	_
@@ -7661,14 +7661,14 @@
 25	homeostasis	homeostasis	NN	NN	_	23	pobj	_	_
 26	.	.	.	.	_	16	punct	_	_
 
-1	For	for	IN	IN	_	18	prep	_	_
+1	For	for	IN	IN	_	20	prep	_	_
 2	example	example	NN	NN	_	1	pobj	_	_
-3	,	,	,	,	_	18	punct	_	_
+3	,	,	,	,	_	20	punct	_	_
 4	the	the	DT	DT	_	8	det	_	_
 5	unfolding	unfolding	JJ	JJ	_	7	amod	_	_
 6	and	and	CC	CC	_	7	cc	_	_
 7	chaperone	chaperone	NN	NN	_	8	compound	_	_
-8	activity	activity	NN	NN	_	18	nsubj	_	_
+8	activity	activity	NN	NN	_	20	nsubjpass	_	_
 9	of	of	IN	IN	_	8	prep	_	_
 10	components	component	NNS	NNS	_	9	pobj	_	_
 11	of	of	IN	IN	_	10	prep	_	_
@@ -7678,9 +7678,9 @@
 15	of	of	IN	IN	_	14	prep	_	_
 16	the	the	DT	DT	_	17	det	_	_
 17	proteasome	proteasome	NN	NN	_	15	pobj	_	_
-18	may	may	MD	MD	_	0	root	_	_
-19	be	be	VB	VB	_	18	dep	_	_
-20	modulated	modulate	VBN	VBN	_	19	dep	_	_
+18	may	may	MD	MD	_	20	aux	_	_
+19	be	be	VB	VB	_	20	auxpass	_	_
+20	modulated	modulate	VBN	VBN	_	0	root	_	_
 21	by	by	IN	IN	_	20	agent	_	_
 22	the	the	DT	DT	_	23	det	_	_
 23	CLD	cld	NN	NN	_	21	pobj	_	_
@@ -7689,8 +7689,8 @@
 26	[	[	-LRB-	-LRB-	_	27	punct	_	_
 27	14	0	CD	CD	_	20	parataxis	_	_
 28	]	]	-RRB-	-RRB-	_	27	punct	_	_
-29	and	and	CC	CC	_	19	cc	_	_
-30	contribute	contribute	VB	VB	_	19	conj	_	_
+29	and	and	CC	CC	_	20	cc	_	_
+30	contribute	contribute	VB	VB	_	20	conj	_	_
 31	to	to	IN	IN	_	30	prep	_	_
 32	the	the	DT	DT	_	40	det	_	_
 33	selective	selective	JJ	JJ	_	40	amod	_	_
@@ -7704,9 +7704,9 @@
 41	[	[	-LRB-	-LRB-	_	42	punct	_	_
 42	43	0	CD	CD	_	30	parataxis	_	_
 43	]	]	-RRB-	-RRB-	_	42	punct	_	_
-44	,	,	,	,	_	19	punct	_	_
-45	while	while	IN	IN	syn=ADV	19	mark	_	_
-46	association	association	NN	NN	_	69	nsubj	_	_
+44	,	,	,	,	_	20	punct	_	_
+45	while	while	IN	IN	_	70	mark	_	_
+46	association	association	NN	NN	_	70	nsubj	_	_
 47	of	of	IN	IN	_	46	prep	_	_
 48	nuclear	nuclear	JJ	JJ	_	50	amod	_	_
 49	import	import	NN	NN	_	50	compound	_	_
@@ -7728,9 +7728,9 @@
 65	,	,	,	,	_	66	punct	_	_
 66	11	0	CD	CD	_	46	parataxis	_	_
 67	]	]	-RRB-	-RRB-	_	66	punct	_	_
-68	,	,	,	,	_	69	punct	_	_
-69	may	may	MD	MD	_	45	ccomp	_	_
-70	mediate	mediate	VB	VB	_	69	dep	_	_
+68	,	,	,	,	_	70	punct	_	_
+69	may	may	MD	MD	_	70	aux	_	_
+70	mediate	mediate	VB	VB	syn=ADV	20	advcl	_	_
 71	the	the	DT	DT	_	73	det	_	_
 72	nuclear	nuclear	JJ	JJ	_	73	amod	_	_
 73	translocation	translocation	NN	NN	_	70	dobj	_	_
@@ -7746,14 +7746,14 @@
 83	-	-	HYPH	HYPH	_	84	punct	_	_
 84	phosphate	phosphate	NN	NN	_	85	compound	_	_
 85	dehydrogenase	dehydrogenase	NN	NN	_	79	pobj	_	_
-86	.	.	.	.	_	18	punct	_	_
+86	.	.	.	.	_	20	punct	_	_
 
 1	This	this	DT	DT	_	3	det	_	_
 2	trafficking	trafficking	NN	NN	_	3	compound	_	_
-3	process	process	NN	NN	_	4	nsubj	_	_
-4	is	be	VBZ	VBZ	_	0	root	_	_
-5	selectively	selectively	RB	RB	_	4	advmod	_	_
-6	inhibited	inhibit	VBN	VBN	_	4	dep	_	_
+3	process	process	NN	NN	_	6	nsubjpass	_	_
+4	is	be	VBZ	VBZ	_	6	auxpass	_	_
+5	selectively	selectively	RB	RB	_	6	advmod	_	_
+6	inhibited	inhibit	VBN	VBN	_	0	root	_	_
 7	by	by	IN	IN	_	6	agent	_	_
 8	the	the	DT	DT	_	10	det	_	_
 9	neuroprotective	neuroprotective	JJ	JJ	_	10	amod	_	_
@@ -7769,13 +7769,13 @@
 19	and	and	CC	CC	_	10	cc	_	_
 20	derivates	derivates	VBZ	VBZ	_	10	conj	_	_
 21	thereof	thereof	RB	RB	_	20	advmod	_	_
-22	,	,	,	,	_	4	punct	_	_
-23	and	and	CC	CC	_	4	cc	_	_
-24	are	be	VBP	VBP	_	4	conj	_	_
-25	often	often	RB	RB	sem=TMP	24	advmod	_	_
-26	employed	employ	VBN	VBN	_	24	dep	_	_
-27	to	to	TO	TO	sem=PRP	26	advcl	_	_
-28	treat	treat	VB	VB	_	27	dep	_	_
+22	,	,	,	,	_	6	punct	_	_
+23	and	and	CC	CC	_	6	cc	_	_
+24	are	be	VBP	VBP	_	26	auxpass	_	_
+25	often	often	RB	RB	sem=TMP	26	advmod	_	_
+26	employed	employ	VBN	VBN	_	6	conj	_	_
+27	to	to	TO	TO	_	28	aux	_	_
+28	treat	treat	VB	VB	sem=PRP	26	advcl	_	_
 29	Parkinson	parkinson	NNP	NNP	_	30	compound	_	_
 30	disease	disease	NN	NN	_	28	dobj	_	_
 31	[	[	-LRB-	-LRB-	_	32	punct	_	_
@@ -7783,7 +7783,7 @@
 33	–	-	SYM	SYM	_	34	punct	_	_
 34	57	0	CD	CD	_	32	prep	_	_
 35	]	]	-RRB-	-RRB-	_	32	punct	_	_
-36	.	.	.	.	_	4	punct	_	_
+36	.	.	.	.	_	6	punct	_	_
 
 1	Hence	hence	RB	RB	_	7	advmod	_	_
 2	,	,	,	,	_	7	punct	_	_
@@ -7839,23 +7839,23 @@
 52	manifestations	manifestation	NNS	NNS	_	50	pobj	_	_
 53	.	.	.	.	_	7	punct	_	_
 
-1	To	to	IN	IN	sem=PRP	9	prep	_	_
+1	To	to	IN	IN	sem=PRP	10	prep	_	_
 2	this	this	DT	DT	_	3	det	_	_
 3	effect	effect	NN	NN	_	1	pobj	_	_
-4	,	,	,	,	_	9	punct	_	_
+4	,	,	,	,	_	10	punct	_	_
 5	the	the	DT	DT	_	8	det	_	_
 6	RanBP2	ranbp0	NN	NN	_	8	compound	_	_
 7	mouse	mouse	NN	NN	_	8	compound	_	_
-8	model	model	NN	NN	_	9	nsubj	_	_
-9	will	will	MD	MD	_	0	root	_	_
-10	serve	serve	VB	VB	_	9	dep	_	_
+8	model	model	NN	NN	_	10	nsubj	_	_
+9	will	will	MD	MD	_	10	aux	_	_
+10	serve	serve	VB	VB	_	0	root	_	_
 11	as	as	IN	IN	_	10	prep	_	_
 12	a	a	DT	DT	_	15	det	_	_
 13	unique	unique	JJ	JJ	_	15	amod	_	_
 14	genetic	genetic	JJ	JJ	_	15	amod	_	_
 15	tool	tool	NN	NN	_	11	pobj	_	_
-16	to	to	TO	TO	_	15	advcl	_	_
-17	probe	probe	VB	VB	_	16	dep	_	_
+16	to	to	TO	TO	_	17	aux	_	_
+17	probe	probe	VB	VB	_	15	advcl	_	_
 18	selective	selective	JJ	JJ	_	23	amod	_	_
 19	,	,	,	,	_	18	punct	_	_
 20	multiple	multiple	JJ	JJ	_	18	conj	_	_
@@ -7863,15 +7863,15 @@
 22	novel	novel	JJ	JJ	_	20	conj	_	_
 23	pathways	pathway	NNS	NNS	_	17	dobj	_	_
 24	,	,	,	,	_	23	punct	_	_
-25	which	which	WDT	WDT	_	26	dep	_	23:ref
-26	may	may	MD	MD	_	23	relcl	_	_
-27	have	have	VB	VB	_	26	dep	_	_
-28	not	not	RB	RB	_	27	neg	_	_
-29	been	be	VBN	VBN	_	27	dep	_	_
-30	anticipated	anticipate	VBN	VBN	_	29	dep	_	_
-31	to	to	TO	TO	_	30	xcomp	_	_
-32	be	be	VB	VB	_	31	dep	_	_
-33	linked	link	VBN	VBN	_	32	dep	_	_
+25	which	which	WDT	WDT	_	30	dep	_	23:ref
+26	may	may	MD	MD	_	30	aux	_	_
+27	have	have	VB	VB	_	30	aux	_	_
+28	not	not	RB	RB	_	30	neg	_	_
+29	been	be	VBN	VBN	_	30	auxpass	_	_
+30	anticipated	anticipate	VBN	VBN	_	23	relcl	_	_
+31	to	to	TO	TO	_	33	aux	_	_
+32	be	be	VB	VB	_	33	auxpass	_	_
+33	linked	link	VBN	VBN	_	30	xcomp	_	_
 34	to	to	IN	IN	_	33	prep	_	_
 35	metabolic	metabolic	JJ	JJ	_	36	amod	_	_
 36	processes	process	NNS	NNS	_	34	pobj	_	_
@@ -7879,7 +7879,7 @@
 38	allied	ally	VBN	VBN	_	40	amod	_	_
 39	pathophysiological	pathophysiological	JJ	JJ	_	40	amod	_	_
 40	states	state	NNS	NNS	_	36	conj	_	_
-41	.	.	.	.	_	9	punct	_	_
+41	.	.	.	.	_	10	punct	_	_
 
 1	Figure	figure	NN	NN	_	0	root	_	_
 2	9	0	CD	CD	_	1	nummod	_	_
@@ -7958,8 +7958,8 @@
 3	pathway	pathway	NN	NN	_	4	nsubj	_	_
 4	is	be	VBZ	VBZ	_	0	root	_	_
 5	critical	critical	JJ	JJ	syn=PRD	4	acomp	_	_
-6	to	to	TO	TO	sem=PRP	4	advcl	_	_
-7	fuel	fuel	VB	VB	_	6	dep	_	_
+6	to	to	TO	TO	_	7	aux	_	_
+7	fuel	fuel	VB	VB	sem=PRP	4	advcl	_	_
 8	the	the	DT	DT	_	15	det	_	_
 9	constitutive	constitutive	JJ	JJ	_	15	amod	_	_
 10	Na+	na+	NN	NN	_	12	nmod	_	_
@@ -7968,8 +7968,8 @@
 13	-	-	HYPH	HYPH	_	14	punct	_	_
 14	ATPase	atpase	NN	NN	_	15	compound	_	_
 15	pump	pump	NN	NN	_	7	dobj	_	_
-16	to	to	TO	TO	sem=PRP	7	advcl	_	_
-17	maintain	maintain	VB	VB	_	16	dep	_	_
+16	to	to	TO	TO	_	17	aux	_	_
+17	maintain	maintain	VB	VB	sem=PRP	7	advcl	_	_
 18	the	the	DT	DT	_	20	det	_	_
 19	dark	dark	JJ	JJ	_	20	amod	_	_
 20	current	current	NN	NN	_	17	dobj	_	_
@@ -8021,8 +8021,8 @@
 15	ATP	atp	NN	NN	_	16	compound	_	_
 16	production	production	NN	NN	_	14	pobj	_	_
 17	required	require	VBN	VBN	_	16	acl	_	_
-18	to	to	TO	TO	sem=PRP	17	advcl	_	_
-19	maintain	maintain	VB	VB	_	18	dep	_	_
+18	to	to	TO	TO	_	19	aux	_	_
+19	maintain	maintain	VB	VB	sem=PRP	17	advcl	_	_
 20	the	the	DT	DT	_	23	det	_	_
 21	depolarization	depolarization	NN	NN	_	23	compound	_	_
 22	state	state	NN	NN	_	23	compound	_	_
@@ -8085,17 +8085,17 @@
 25	.	.	.	.	_	5	punct	_	_
 
 1	Pathophysiological	pathophysiological	JJ	JJ	_	2	amod	_	_
-2	pathways	pathway	NNS	NNS	_	7	nsubj	_	_
+2	pathways	pathway	NNS	NNS	_	8	nsubjpass	_	_
 3	promoted	promote	VBN	VBN	_	2	acl	_	_
 4	by	by	IN	IN	_	3	agent	_	_
 5	RanBP2	ranbp0	NN	NN	_	6	compound	_	_
 6	haploinsufficiency	haploinsufficiency	NN	NN	_	4	pobj	_	_
-7	are	be	VBP	VBP	_	0	root	_	_
-8	represented	represented	VBN	VBN	_	7	dep	_	_
+7	are	be	VBP	VBP	_	8	auxpass	_	_
+8	represented	represented	VBN	VBN	_	0	root	_	_
 9	by	by	IN	IN	_	8	agent	_	_
 10	dash	dash	NN	NN	_	11	compound	_	_
 11	lines	line	NNS	NNS	_	9	pobj	_	_
-12	.	.	.	.	_	7	punct	_	_
+12	.	.	.	.	_	8	punct	_	_
 
 1	RIS	ris	NN	NN	_	0	root	_	_
 2	,	,	,	,	_	1	punct	_	_
@@ -8114,8 +8114,8 @@
 2	,	,	,	,	_	4	punct	_	_
 3	RanBP2	ranbp0	NN	NN	_	4	nsubj	_	_
 4	appears	appear	VBZ	VBZ	_	0	root	_	_
-5	to	to	TO	TO	_	4	xcomp	_	_
-6	join	join	VB	VB	_	5	dep	_	_
+5	to	to	TO	TO	_	6	aux	_	_
+6	join	join	VB	VB	_	4	xcomp	_	_
 7	other	other	JJ	JJ	_	8	amod	_	_
 8	nucleoporins	nucleoporins	NNS	NNS	_	6	dobj	_	_
 9	,	,	,	,	_	8	punct	_	_
@@ -8137,10 +8137,10 @@
 25	complex	complex	JJ	JJ	_	26	amod	_	_
 26	organisms	organism	NNS	NNS	_	24	pobj	_	_
 27	and	and	CC	CC	_	22	cc	_	_
-28	that	that	WDT	WDT	_	29	dep	_	20:ref
-29	were	be	VBD	VBD	_	22	conj	_	_
-30	not	not	RB	RB	_	29	neg	_	_
-31	anticipated	anticipate	VBN	VBN	_	29	dep	_	_
+28	that	that	WDT	WDT	_	31	dep	_	20:ref
+29	were	be	VBD	VBD	_	31	auxpass	_	_
+30	not	not	RB	RB	_	31	neg	_	_
+31	anticipated	anticipate	VBN	VBN	_	22	conj	_	_
 32	from	from	IN	IN	_	31	prep	_	_
 33	cell	cell	NN	NN	_	35	npadvmod	_	_
 34	-	-	HYPH	HYPH	_	35	punct	_	_
@@ -8168,13 +8168,13 @@
 18	restricted	restricted	JJ	JJ	syn=PRD	15	acomp	_	_
 19	and	and	CC	CC	_	15	cc	_	_
 20	more	more	RBR	RBR	_	21	advmod	_	_
-21	importantly	importantly	RB	RB	_	23	advmod	_	_
-22	,	,	,	,	_	23	punct	_	_
-23	do	do	VBP	VBP	_	15	conj	_	_
-24	not	not	RB	RB	_	23	neg	_	_
-25	seem	seem	VB	VB	_	23	dep	_	_
-26	to	to	TO	TO	_	25	xcomp	_	_
-27	recapitulate	recapitulate	VB	VB	_	26	dep	_	_
+21	importantly	importantly	RB	RB	_	25	advmod	_	_
+22	,	,	,	,	_	25	punct	_	_
+23	do	do	VBP	VBP	_	25	aux	_	_
+24	not	not	RB	RB	_	25	neg	_	_
+25	seem	seem	VB	VB	_	15	conj	_	_
+26	to	to	TO	TO	_	27	aux	_	_
+27	recapitulate	recapitulate	VB	VB	_	25	xcomp	_	_
 28	phenotypes	phenotype	NNS	NNS	_	27	dobj	_	_
 29	observed	observe	VBN	VBN	_	28	acl	_	_
 30	with	with	IN	IN	sem=MNR	29	prep	_	_
@@ -8188,15 +8188,15 @@
 38	assays	assay	NNS	NNS	_	33	pobj	_	_
 39	.	.	.	.	_	12	punct	_	_
 
-1	For	for	IN	IN	_	28	prep	_	_
+1	For	for	IN	IN	_	29	prep	_	_
 2	example	example	NN	NN	_	1	pobj	_	_
-3	,	,	,	,	_	28	punct	_	_
+3	,	,	,	,	_	29	punct	_	_
 4	short	short	JJ	JJ	_	9	amod	_	_
 5	interfering	interfere	VBG	VBG	_	9	amod	_	_
 6	RNA	rna	NN	NN	_	8	npadvmod	_	_
 7	-	-	HYPH	HYPH	_	8	punct	_	_
 8	mediated	mediate	VBN	VBN	_	9	amod	_	_
-9	knockdown	knockdown	NN	NN	_	28	nsubj	_	_
+9	knockdown	knockdown	NN	NN	_	29	nsubj	_	_
 10	of	of	IN	IN	_	9	prep	_	_
 11	RanBP2	ranbp0	NN	NN	_	10	pobj	_	_
 12	[	[	-LRB-	-LRB-	_	13	punct	_	_
@@ -8215,13 +8215,13 @@
 25	–	-	SYM	SYM	_	26	punct	_	_
 26	61	0	CD	CD	_	24	prep	_	_
 27	]	]	-RRB-	-RRB-	_	24	punct	_	_
-28	have	have	VBP	VBP	_	0	root	_	_
-29	shown	show	VBN	VBN	_	28	dep	_	_
+28	have	have	VBP	VBP	_	29	aux	_	_
+29	shown	show	VBN	VBN	_	0	root	_	_
 30	,	,	,	,	_	29	punct	_	_
 31	respectively	respectively	RB	RB	_	29	advmod	_	_
 32	,	,	,	,	_	29	punct	_	_
-33	to	to	TO	TO	_	29	xcomp	_	_
-34	cause	cause	VB	VB	_	33	dep	_	_
+33	to	to	TO	TO	_	34	aux	_	_
+34	cause	cause	VB	VB	_	29	xcomp	_	_
 35	mitotic	mitotic	JJ	JJ	_	36	amod	_	_
 36	arrest	arrest	NN	NN	_	34	dobj	_	_
 37	and	and	CC	CC	_	36	cc	_	_
@@ -8238,7 +8238,7 @@
 48	in	in	IN	IN	sem=LOC	34	prep	_	_
 49	cell	cell	NN	NN	_	50	compound	_	_
 50	culture	culture	NN	NN	_	48	pobj	_	_
-51	.	.	.	.	_	28	punct	_	_
+51	.	.	.	.	_	29	punct	_	_
 
 1	Yet	yet	RB	RB	_	16	advmod	_	_
 2	,	,	,	,	_	16	punct	_	_
@@ -8295,7 +8295,7 @@
 53	respectively	respectively	RB	RB	_	33	advmod	_	_
 54	.	.	.	.	_	16	punct	_	_
 
-1	While	while	IN	IN	syn=ADV	13	mark	_	_
+1	While	while	IN	IN	_	9	mark	_	_
 2	these	these	DT	DT	_	5	det	_	_
 3	apparent	apparent	JJ	JJ	_	5	amod	_	_
 4	outcome	outcome	NN	NN	_	5	compound	_	_
@@ -8303,13 +8303,13 @@
 6	among	among	IN	IN	_	5	prep	_	_
 7	experimental	experimental	JJ	JJ	_	8	amod	_	_
 8	systems	system	NNS	NNS	_	6	pobj	_	_
-9	remain	remain	VBP	VBP	_	1	ccomp	_	_
+9	remain	remain	VBP	VBP	syn=ADV	15	advcl	_	_
 10	unclear	unclear	JJ	JJ	syn=PRD	9	acomp	_	_
-11	,	,	,	,	_	13	punct	_	_
-12	they	they	PRP	PRP	_	13	nsubj	_	_
-13	could	could	MD	MD	_	0	root	_	_
-14	potentially	potentially	RB	RB	_	13	advmod	_	_
-15	result	result	VB	VB	_	13	dep	_	_
+11	,	,	,	,	_	15	punct	_	_
+12	they	they	PRP	PRP	_	15	nsubj	_	_
+13	could	could	MD	MD	_	15	aux	_	_
+14	potentially	potentially	RB	RB	_	15	advmod	_	_
+15	result	result	VB	VB	_	0	root	_	_
 16	from	from	IN	IN	_	15	prep	_	_
 17	variations	variation	NNS	NNS	_	16	pobj	_	_
 18	in	in	IN	IN	_	17	prep	_	_
@@ -8322,7 +8322,7 @@
 25	each	each	DT	DT	_	27	det	_	_
 26	experimental	experimental	JJ	JJ	_	27	amod	_	_
 27	system	system	NN	NN	_	24	pobj	_	_
-28	.	.	.	.	_	13	punct	_	_
+28	.	.	.	.	_	15	punct	_	_
 
 1	Regardless	regardless	RB	RB	_	10	advmod	_	_
 2	,	,	,	,	_	10	punct	_	_
@@ -8336,8 +8336,8 @@
 10	set	set	VBD	VBD	_	0	root	_	_
 11	the	the	DT	DT	_	12	det	_	_
 12	stage	stage	NN	NN	_	10	dobj	_	_
-13	to	to	TO	TO	sem=PRP	10	advcl	_	_
-14	probe	probe	VB	VB	_	13	dep	_	_
+13	to	to	TO	TO	_	14	aux	_	_
+14	probe	probe	VB	VB	sem=PRP	10	advcl	_	_
 15	novel	novel	JJ	JJ	_	17	amod	_	_
 16	molecular	molecular	JJ	JJ	_	17	amod	_	_
 17	pathways	pathway	NNS	NNS	_	14	dobj	_	_
@@ -8376,7 +8376,7 @@
 8	.	.	.	.	_	5	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	LD	ld	NN	NN	_	12	nsubj	_	_
+2	LD	ld	NN	NN	_	13	nsubjpass	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	human	human	JJ	JJ	_	5	amod	_	_
 5	RanBP2	ranbp0	NN	NN	_	3	pobj	_	_
@@ -8386,8 +8386,8 @@
 9	–	-	SYM	SYM	_	10	punct	_	_
 10	711	0	CD	CD	_	8	prep	_	_
 11	)	)	-RRB-	-RRB-	_	8	punct	_	_
-12	was	be	VBD	VBD	_	0	root	_	_
-13	subcloned	subcloned	VBN	VBN	_	12	dep	_	_
+12	was	be	VBD	VBD	_	13	auxpass	_	_
+13	subcloned	subcloned	VBN	VBN	_	0	root	_	_
 14	in	in	IN	IN	sem=MNR	13	prep	_	_
 15	-	-	HYPH	HYPH	_	14	punct	_	_
 16	frame	frame	NN	NN	_	14	pobj	_	_
@@ -8435,14 +8435,14 @@
 58	United	united	NNP	NNP	_	59	compound	_	_
 59	States	state	NNP	NNP	sem=LOC	51	npadvmod	_	_
 60	)	)	-RRB-	-RRB-	_	51	punct	_	_
-61	.	.	.	.	_	12	punct	_	_
+61	.	.	.	.	_	13	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	former	former	JJ	JJ	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	used	use	VBN	VBN	_	3	dep	_	_
-5	to	to	TO	TO	sem=PRP	4	advcl	_	_
-6	screen	screen	VB	VB	_	5	dep	_	_
+2	former	former	JJ	JJ	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	used	use	VBN	VBN	_	0	root	_	_
+5	to	to	TO	TO	_	6	aux	_	_
+6	screen	screen	VB	VB	sem=PRP	4	advcl	_	_
 7	~	~	SYM	SYM	_	9	punct	_	_
 8	18	0	CD	CD	_	9	compound	_	_
 9	million	#crd#	CD	CD	_	10	nummod	_	_
@@ -8480,14 +8480,14 @@
 41	Madison	madison	NNP	NNP	sem=LOC	37	npadvmod	_	_
 42	,	,	,	,	_	37	punct	_	_
 43	Wisconsin	wisconsin	NNP	NNP	sem=LOC	37	npadvmod	_	_
-44	.	.	.	.	_	3	punct	_	_
+44	.	.	.	.	_	4	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	latter	latter	JJ	JJ	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	used	use	VBN	VBN	_	3	dep	_	_
-5	to	to	TO	TO	sem=PRP	4	advcl	_	_
-6	screen	screen	VB	VB	_	5	dep	_	_
+2	latter	latter	JJ	JJ	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	used	use	VBN	VBN	_	0	root	_	_
+5	to	to	TO	TO	_	6	aux	_	_
+6	screen	screen	VB	VB	sem=PRP	4	advcl	_	_
 7	via	via	IN	IN	sem=MNR	6	prep	_	_
 8	transformation	transformation	NN	NN	_	7	pobj	_	_
 9	of	of	IN	IN	_	8	prep	_	_
@@ -8503,7 +8503,7 @@
 19	[	[	-LRB-	-LRB-	_	20	punct	_	_
 20	32	0	CD	CD	_	6	parataxis	_	_
 21	]	]	-RRB-	-RRB-	_	20	punct	_	_
-22	.	.	.	.	_	3	punct	_	_
+22	.	.	.	.	_	4	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
 2	screens	screen	NNS	NNS	_	3	nsubj	_	_
@@ -8518,10 +8518,10 @@
 4	in	in	IN	IN	_	7	nmod	_	_
 5	-	-	HYPH	HYPH	_	4	punct	_	_
 6	frame	frame	NN	NN	_	4	pobj	_	_
-7	clones	clone	NNS	NNS	_	8	nsubj	_	_
-8	were	be	VBD	VBD	_	0	root	_	_
-9	independently	independently	RB	RB	_	8	advmod	_	_
-10	isolated	isolate	VBN	VBN	_	8	dep	_	_
+7	clones	clone	NNS	NNS	_	10	nsubjpass	_	_
+8	were	be	VBD	VBD	_	10	auxpass	_	_
+9	independently	independently	RB	RB	_	10	advmod	_	_
+10	isolated	isolate	VBN	VBN	_	0	root	_	_
 11	from	from	IN	IN	_	10	prep	_	_
 12	the	the	DT	DT	_	17	det	_	_
 13	embryonic	embryonic	JJ	JJ	_	17	amod	_	_
@@ -8531,13 +8531,13 @@
 17	libraries	library	NNS	NNS	_	11	pobj	_	_
 18	,	,	,	,	_	10	punct	_	_
 19	respectively	respectively	RB	RB	_	10	advmod	_	_
-20	,	,	,	,	_	8	punct	_	_
-21	and	and	CC	CC	_	8	cc	_	_
+20	,	,	,	,	_	10	punct	_	_
+21	and	and	CC	CC	_	10	cc	_	_
 22	the	the	DT	DT	_	23	det	_	_
-23	interactions	interaction	NNS	NNS	_	24	nsubj	_	_
-24	were	be	VBD	VBD	_	8	conj	_	_
-25	validated	validate	VBN	VBN	_	24	dep	_	_
-26	.	.	.	.	_	24	punct	_	_
+23	interactions	interaction	NNS	NNS	_	25	nsubjpass	_	_
+24	were	be	VBD	VBD	_	25	auxpass	_	_
+25	validated	validate	VBN	VBN	_	10	conj	_	_
+26	.	.	.	.	_	25	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	three	#crd#	CD	CD	_	3	nummod	_	_
@@ -8546,7 +8546,7 @@
 5	Cox11	cox0	NN	NN	_	4	dobj	_	_
 6	.	.	.	.	_	4	punct	_	_
 
-1	Interactions	interaction	NNS	NNS	_	10	nsubj	_	_
+1	Interactions	interaction	NNS	NNS	_	11	nsubjpass	_	_
 2	between	between	IN	IN	_	1	prep	_	_
 3	Cox11	cox0	NN	NN	_	2	pobj	_	_
 4	,	,	,	,	_	3	punct	_	_
@@ -8555,8 +8555,8 @@
 7	and	and	CC	CC	_	5	cc	_	_
 8	subdomains	subdomain	NNS	NNS	_	5	conj	_	_
 9	thereof	thereof	RB	RB	_	8	advmod	_	_
-10	were	be	VBD	VBD	_	0	root	_	_
-11	quantified	quantify	VBN	VBN	_	10	dep	_	_
+10	were	be	VBD	VBD	_	11	auxpass	_	_
+11	quantified	quantify	VBN	VBN	_	0	root	_	_
 12	by	by	IN	IN	sem=MNR	11	prep	_	_
 13	liquid	liquid	JJ	JJ	_	16	amod	_	_
 14	β	β	NN	NN	_	16	compound	_	_
@@ -8580,18 +8580,18 @@
 32	[	[	-LRB-	-LRB-	_	33	punct	_	_
 33	63	0	CD	CD	_	11	parataxis	_	_
 34	]	]	-RRB-	-RRB-	_	33	punct	_	_
-35	.	.	.	.	_	10	punct	_	_
+35	.	.	.	.	_	11	punct	_	_
 
 1	The	the	DT	DT	_	5	det	_	_
 2	maximum	maximum	NN	NN	_	5	nmod	_	_
 3	specific	specific	JJ	JJ	_	5	amod	_	_
 4	growth	growth	NN	NN	_	5	compound	_	_
-5	speed	speed	NN	NN	_	9	nsubj	_	_
+5	speed	speed	NN	NN	_	10	nsubjpass	_	_
 6	(	(	-LRB-	-LRB-	_	5	punct	_	_
 7	μmax	μmax	NN	NN	_	5	appos	_	_
-8	)	)	-RRB-	-RRB-	_	9	punct	_	_
-9	was	be	VBD	VBD	_	0	root	_	_
-10	determined	determine	VBN	VBN	_	9	dep	_	_
+8	)	)	-RRB-	-RRB-	_	10	punct	_	_
+9	was	be	VBD	VBD	_	10	auxpass	_	_
+10	determined	determine	VBN	VBN	_	0	root	_	_
 11	by	by	IN	IN	sem=MNR	10	prep	_	_
 12	calculating	calculate	VBG	VBG	syn=NOM	11	pcomp	_	_
 13	μmax	μmax	NN	NN	_	18	nsubj	_	_
@@ -8640,11 +8640,11 @@
 56	x0	x0	NN	NN	_	55	pobj	_	_
 57	and	and	CC	CC	_	56	cc	_	_
 58	xt	xt	NN	NN	_	56	conj	_	_
-59	.	.	.	.	_	9	punct	_	_
+59	.	.	.	.	_	10	punct	_	_
 
-1	Assays	assay	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	performed	performed	VBN	VBN	_	2	dep	_	_
+1	Assays	assay	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	performed	performed	VBN	VBN	_	0	root	_	_
 4	with	with	IN	IN	sem=MNR	3	prep	_	_
 5	three	#crd#	CD	CD	_	7	nummod	_	_
 6	independent	independent	JJ	JJ	_	7	amod	_	_
@@ -8655,17 +8655,17 @@
 11	of	of	IN	IN	_	10	prep	_	_
 12	each	each	DT	DT	_	13	det	_	_
 13	clone	clone	NN	NN	_	11	pobj	_	_
-14	,	,	,	,	_	2	punct	_	_
+14	,	,	,	,	_	3	punct	_	_
 15	the	the	DT	DT	_	16	det	_	_
-16	results	result	NNS	NNS	_	17	nsubj	_	16:gap
-17	were	be	VBD	VBD	_	2	conj	_	_
-18	averaged	average	VBN	VBN	_	17	dep	_	18:gap
-19	,	,	,	,	_	17	punct	_	_
-20	and	and	CC	CC	_	17	cc	_	_
+16	results	result	NNS	NNS	_	18	nsubjpass	_	16:gap
+17	were	be	VBD	VBD	_	18	auxpass	_	_
+18	averaged	average	VBN	VBN	_	3	conj	_	18:gap
+19	,	,	,	,	_	18	punct	_	_
+20	and	and	CC	CC	_	18	cc	_	_
 21	the	the	DT	DT	_	23	det	_	_
 22	standard	standard	JJ	JJ	_	23	amod	_	_
 23	deviations	deviation	NNS	NNS	_	24	nsubj	_	16:gap
-24	calculated	calculate	VBN	VBN	_	17	conj	_	18:gap
+24	calculated	calculate	VBN	VBN	_	18	conj	_	18:gap
 25	.	.	.	.	_	24	punct	_	_
 
 1	Site	site	NN	NN	_	3	npadvmod	_	_
@@ -8680,9 +8680,9 @@
 10	.	.	.	.	_	9	punct	_	_
 
 1	Deletion	deletion	NN	NN	_	2	compound	_	_
-2	mutagenesis	mutagenesis	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	carried	carry	VBN	VBN	_	3	dep	_	_
+2	mutagenesis	mutagenesis	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	carried	carry	VBN	VBN	_	0	root	_	_
 5	out	out	RP	RP	_	4	prt	_	_
 6	with	with	IN	IN	sem=MNR	4	prep	_	_
 7	pairs	pair	NNS	NNS	_	6	pobj	_	_
@@ -8697,12 +8697,12 @@
 16	the	the	DT	DT	_	18	det	_	_
 17	figure	figure	NN	NN	_	18	compound	_	_
 18	legends	legend	NNS	NNS	_	15	pobj	_	_
-19	.	.	.	.	_	3	punct	_	_
+19	.	.	.	.	_	4	punct	_	_
 
 1	PCR	pcr	NN	NN	_	2	compound	_	_
-2	products	product	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	subcloned	subcloned	VBN	VBN	_	3	dep	_	_
+2	products	product	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	subcloned	subcloned	VBN	VBN	_	0	root	_	_
 5	into	into	IN	IN	sem=LOC	4	prep	_	_
 6	pGEX	pgex	NN	NN	_	8	compound	_	_
 7	-	-	HYPH	HYPH	_	8	punct	_	_
@@ -8726,7 +8726,7 @@
 25	62	0	CD	CD	_	23	parataxis	_	_
 26	]	]	-RRB-	-RRB-	_	25	punct	_	_
 27	vectors	vector	NNS	NNS	_	17	conj	_	_
-28	.	.	.	.	_	3	punct	_	_
+28	.	.	.	.	_	4	punct	_	_
 
 1	GST	gst	NN	NN	_	3	compound	_	_
 2	-	-	HYPH	HYPH	_	3	punct	_	_
@@ -8755,7 +8755,7 @@
 2	-	-	HYPH	HYPH	_	3	punct	_	_
 3	solubilized	solubilized	VBN	VBN	_	5	amod	_	_
 4	retinal	retinal	JJ	JJ	_	5	amod	_	_
-5	extracts	extract	NNS	NNS	_	16	nsubj	_	_
+5	extracts	extract	NNS	NNS	_	17	nsubjpass	_	_
 6	,	,	,	,	_	5	punct	_	_
 7	expression	expression	NN	NN	_	5	conj	_	_
 8	,	,	,	,	_	7	punct	_	_
@@ -8766,23 +8766,23 @@
 13	-	-	HYPH	HYPH	_	14	punct	_	_
 14	fused	fuse	VBN	VBN	_	15	amod	_	_
 15	constructs	construct	NNS	NNS	_	11	pobj	_	_
-16	were	be	VBD	VBD	_	0	root	_	_
-17	prepared	prepare	VBN	VBN	_	16	dep	_	_
-18	as	as	IN	IN	sem=MNR	17	mark	_	_
+16	were	be	VBD	VBD	_	17	auxpass	_	_
+17	prepared	prepare	VBN	VBN	_	0	root	_	_
+18	as	as	IN	IN	_	20	mark	_	_
 19	previously	previously	RB	RB	sem=TMP	20	advmod	_	_
-20	described	describe	VBN	VBN	_	18	advcl	_	_
+20	described	describe	VBN	VBN	sem=MNR	17	advcl	_	_
 21	[	[	-LRB-	-LRB-	_	22	punct	_	_
 22	65	0	CD	CD	_	17	parataxis	_	_
 23	]	]	-RRB-	-RRB-	_	22	punct	_	_
-24	.	.	.	.	_	16	punct	_	_
+24	.	.	.	.	_	17	punct	_	_
 
 1	GST	gst	NN	NN	_	5	nmod	_	_
 2	pull	pull	VB	VB	_	5	amod	_	_
 3	-	-	HYPH	HYPH	_	2	punct	_	_
 4	down	down	RP	RP	_	2	prt	_	_
-5	assays	assay	NNS	NNS	_	6	nsubj	_	_
-6	were	be	VBD	VBD	_	0	root	_	_
-7	carried	carry	VBN	VBN	_	6	dep	_	_
+5	assays	assay	NNS	NNS	_	7	nsubjpass	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	carried	carry	VBN	VBN	_	0	root	_	_
 8	out	out	RP	RP	_	7	prt	_	_
 9	with	with	IN	IN	sem=MNR	7	prep	_	_
 10	0.5	0	CD	CD	_	12	quantmod	_	_
@@ -8797,11 +8797,11 @@
 19	[	[	-LRB-	-LRB-	_	20	punct	_	_
 20	65	0	CD	CD	_	7	parataxis	_	_
 21	]	]	-RRB-	-RRB-	_	20	punct	_	_
-22	.	.	.	.	_	6	punct	_	_
+22	.	.	.	.	_	7	punct	_	_
 
-1	Co-precipitates	co-precipitates	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	resolved	resolve	VBN	VBN	_	2	dep	_	_
+1	Co-precipitates	co-precipitates	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	resolved	resolve	VBN	VBN	_	0	root	_	_
 4	on	on	IN	IN	_	3	prep	_	_
 5	SDS	sds	NN	NN	_	7	compound	_	_
 6	-	-	HYPH	HYPH	_	7	punct	_	_
@@ -8818,15 +8818,15 @@
 17	the	the	DT	DT	_	19	det	_	_
 18	Results	result	NNS	NNS	_	19	compound	_	_
 19	section	section	NN	NN	_	16	pobj	_	_
-20	.	.	.	.	_	2	punct	_	_
+20	.	.	.	.	_	3	punct	_	_
 
 1	Unfolded	unfold	VBN	VBN	_	5	amod	_	_
 2	and	and	CC	CC	_	1	cc	_	_
 3	partially	partially	RB	RB	_	4	advmod	_	_
 4	denatured	denature	VBN	VBN	_	1	conj	_	_
-5	Cox11	cox0	NN	NN	_	6	nsubj	_	_
-6	were	be	VBD	VBD	_	0	root	_	_
-7	generated	generate	VBN	VBN	_	6	dep	_	_
+5	Cox11	cox0	NN	NN	_	7	nsubjpass	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	generated	generate	VBN	VBN	_	0	root	_	_
 8	by	by	IN	IN	sem=MNR	7	prep	_	_
 9	incubating	incubate	VBG	VBG	syn=NOM	8	pcomp	_	_
 10	recombinant	recombinant	JJ	JJ	_	13	amod	_	_
@@ -8845,14 +8845,14 @@
 23	urea	urea	NN	NN	_	21	conj	_	_
 24	,	,	,	,	_	7	punct	_	_
 25	respectively	respectively	RB	RB	_	7	advmod	_	_
-26	.	.	.	.	_	6	punct	_	_
+26	.	.	.	.	_	7	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	Cox11	cox0	NN	NN	_	3	compound	_	_
-3	conformers	conformers	NNS	NNS	_	4	nsubj	_	_
-4	were	be	VBD	VBD	_	0	root	_	_
-5	then	then	RB	RB	sem=TMP	4	advmod	_	_
-6	diluted	dilute	VBN	VBN	_	4	dep	_	_
+3	conformers	conformers	NNS	NNS	_	6	nsubjpass	_	_
+4	were	be	VBD	VBD	_	6	auxpass	_	_
+5	then	then	RB	RB	sem=TMP	6	advmod	_	_
+6	diluted	dilute	VBN	VBN	_	0	root	_	_
 7	~	~	SYM	SYM	_	8	punct	_	_
 8	20-fold	0-fold	RB	RB	sem=EXT	6	advmod	_	_
 9	in	in	IN	IN	sem=LOC	6	prep	_	_
@@ -8864,10 +8864,10 @@
 15	GST	gst	NN	NN	_	17	compound	_	_
 16	-	-	HYPH	HYPH	_	17	punct	_	_
 17	LD	ld	NN	NN	_	14	dobj	_	_
-18	.	.	.	.	_	4	punct	_	_
+18	.	.	.	.	_	6	punct	_	_
 
 1	Immunoprecipitation	immunoprecipitation	NN	NN	_	2	compound	_	_
-2	assays	assay	NNS	NNS	_	22	nsubj	_	_
+2	assays	assay	NNS	NNS	_	23	nsubjpass	_	_
 3	with	with	IN	IN	_	2	prep	_	_
 4	5	0	CD	CD	_	5	nummod	_	_
 5	μg	μg	NNS	NNS	_	3	pobj	_	_
@@ -8887,16 +8887,16 @@
 19	of	of	IN	IN	_	18	prep	_	_
 20	antibody	antibody	NN	NN	_	19	pobj	_	_
 21	)	)	-RRB-	-RRB-	_	16	punct	_	_
-22	were	be	VBD	VBD	_	0	root	_	_
-23	performed	performed	VBN	VBN	_	22	dep	_	_
-24	exactly	exactly	RB	RB	_	25	advmod	_	_
-25	as	as	IN	IN	sem=MNR	23	mark	_	_
-26	described	describe	VBN	VBN	_	25	advcl	_	_
+22	were	be	VBD	VBD	_	23	auxpass	_	_
+23	performed	performed	VBN	VBN	_	0	root	_	_
+24	exactly	exactly	RB	RB	_	26	advmod	_	_
+25	as	as	IN	IN	_	26	mark	_	_
+26	described	describe	VBN	VBN	sem=MNR	23	advcl	_	_
 27	previously	previously	RB	RB	sem=TMP	26	advmod	_	_
 28	[	[	-LRB-	-LRB-	_	29	punct	_	_
 29	13	0	CD	CD	_	26	parataxis	_	_
 30	]	]	-RRB-	-RRB-	_	29	punct	_	_
-31	.	.	.	.	_	22	punct	_	_
+31	.	.	.	.	_	23	punct	_	_
 
 1	Hexokinase	hexokinase	NN	NN	_	3	nmod	_	_
 2	I	i	CD	CD	_	1	nummod	_	_
@@ -8905,9 +8905,9 @@
 
 1	Hexokinase	hexokinase	NN	NN	_	3	nmod	_	_
 2	I	i	CD	CD	_	1	nummod	_	_
-3	activity	activity	NN	NN	_	4	nsubj	_	_
-4	was	be	VBD	VBD	_	0	root	_	_
-5	determined	determine	VBN	VBN	_	4	dep	_	_
+3	activity	activity	NN	NN	_	5	nsubjpass	_	_
+4	was	be	VBD	VBD	_	5	auxpass	_	_
+5	determined	determine	VBN	VBN	_	0	root	_	_
 6	spectrophotometrically	spectrophotometrically	RB	RB	sem=MNR	5	advmod	_	_
 7	at	at	IN	IN	_	5	prep	_	_
 8	25	0	CD	CD	_	9	nummod	_	_
@@ -8943,18 +8943,18 @@
 38	340	0	CD	CD	_	39	nummod	_	_
 39	nm	nm	NN	NN	_	37	pobj	_	_
 40	and	and	CC	CC	_	10	cc	_	_
-41	as	as	IN	IN	_	10	mark	_	_
-42	described	describe	VBN	VBN	_	41	advcl	_	_
+41	as	as	IN	IN	_	42	mark	_	_
+42	described	describe	VBN	VBN	_	10	conj	_	_
 43	by	by	IN	IN	_	42	agent	_	_
 44	[	[	-LRB-	-LRB-	_	45	punct	_	_
 45	66	0	CD	CD	_	43	pobj	_	_
-46	]	]	-RRB-	-RRB-	_	4	punct	_	_
-47	.	.	.	.	_	4	punct	_	_
+46	]	]	-RRB-	-RRB-	_	5	punct	_	_
+47	.	.	.	.	_	5	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	reaction	reaction	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	started	start	VBN	VBN	_	3	dep	_	_
+2	reaction	reaction	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	started	start	VBN	VBN	_	0	root	_	_
 5	by	by	IN	IN	_	4	agent	_	_
 6	the	the	DT	DT	_	7	det	_	_
 7	addition	addition	NN	NN	_	5	pobj	_	_
@@ -9015,9 +9015,9 @@
 62	-	-	HYPH	HYPH	_	63	punct	_	_
 63	phosphate	phosphate	NN	NN	_	64	compound	_	_
 64	dehydrogenase	dehydrogenase	NN	NN	_	59	pobj	_	_
-65	.	.	.	.	_	3	punct	_	_
+65	.	.	.	.	_	4	punct	_	_
 
-1	In	in	IN	IN	_	19	prep	_	_
+1	In	in	IN	IN	_	20	prep	_	_
 2	the	the	DT	DT	_	3	det	_	_
 3	case	case	NN	NN	_	1	pobj	_	_
 4	of	of	IN	IN	_	3	prep	_	_
@@ -9031,12 +9031,12 @@
 12	Cox11	cox0	NN	NN	_	11	pobj	_	_
 13	and	and	CC	CC	_	12	cc	_	_
 14	LD	ld	NN	NN	_	12	conj	_	_
-15	,	,	,	,	_	19	punct	_	_
+15	,	,	,	,	_	20	punct	_	_
 16	the	the	DT	DT	_	18	det	_	_
 17	purified	purify	VBN	VBN	_	18	amod	_	_
-18	HKI	hki	NN	NN	_	19	nsubj	_	_
-19	was	be	VBD	VBD	_	0	root	_	_
-20	incubated	incubate	VBN	VBN	_	19	dep	_	_
+18	HKI	hki	NN	NN	_	20	nsubjpass	_	_
+19	was	be	VBD	VBD	_	20	auxpass	_	_
+20	incubated	incubate	VBN	VBN	_	0	root	_	_
 21	with	with	IN	IN	sem=MNR	20	prep	_	_
 22	the	the	DT	DT	_	24	det	_	_
 23	recombinant	recombinant	JJ	JJ	_	24	amod	_	_
@@ -9052,12 +9052,12 @@
 33	of	of	IN	IN	_	32	prep	_	_
 34	the	the	DT	DT	_	35	det	_	_
 35	activity	activity	NN	NN	_	33	pobj	_	_
-36	.	.	.	.	_	19	punct	_	_
+36	.	.	.	.	_	20	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	data	datum	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	fitted	fit	VBN	VBN	_	3	dep	_	_
+2	data	datum	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	fitted	fit	VBN	VBN	_	0	root	_	_
 5	directly	directly	RB	RB	sem=MNR	4	advmod	_	_
 6	into	into	IN	IN	_	4	prep	_	_
 7	the	the	DT	DT	_	11	det	_	_
@@ -9071,15 +9071,15 @@
 15	SPSS	spss	NNP	NNP	_	16	compound	_	_
 16	Science	science	NNP	NNP	_	13	parataxis	_	_
 17	)	)	-RRB-	-RRB-	_	16	punct	_	_
-18	.	.	.	.	_	3	punct	_	_
+18	.	.	.	.	_	4	punct	_	_
 
 1	Antibodies	antibody	NNS	NNS	_	0	root	_	_
 2	.	.	.	.	_	1	punct	_	_
 
 1	Rabbit	rabbit	NN	NN	_	2	compound	_	_
-2	antisera	antiserum	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	raised	raise	VBN	VBN	_	3	dep	_	_
+2	antisera	antiserum	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	raised	raise	VBN	VBN	_	0	root	_	_
 5	against	against	IN	IN	_	4	prep	_	_
 6	the	the	DT	DT	_	9	det	_	_
 7	recombinant	recombinant	JJ	JJ	_	9	amod	_	_
@@ -9101,18 +9101,18 @@
 23	(	(	-LRB-	-LRB-	_	24	punct	_	_
 24	Stereogene	stereogene	NNP	NNP	_	22	parataxis	_	_
 25	)	)	-RRB-	-RRB-	_	24	punct	_	_
-26	as	as	IN	IN	sem=MNR	19	mark	_	_
+26	as	as	IN	IN	_	28	mark	_	_
 27	previously	previously	RB	RB	sem=TMP	28	advmod	_	_
-28	described	describe	VBN	VBN	_	26	advcl	_	_
+28	described	describe	VBN	VBN	sem=MNR	19	advcl	_	_
 29	[	[	-LRB-	-LRB-	_	30	punct	_	_
 30	13	0	CD	CD	_	28	parataxis	_	_
 31	]	]	-RRB-	-RRB-	_	30	punct	_	_
-32	.	.	.	.	_	3	punct	_	_
+32	.	.	.	.	_	4	punct	_	_
 
 1	Cox11	cox0	NN	NN	_	2	compound	_	_
-2	antibodies	antibody	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	used	use	VBN	VBN	_	3	dep	_	_
+2	antibodies	antibody	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	used	use	VBN	VBN	_	0	root	_	_
 5	at	at	IN	IN	_	4	prep	_	_
 6	200	0	CD	CD	_	7	nummod	_	_
 7	ng	ng	NNS	NNS	_	5	pobj	_	_
@@ -9121,7 +9121,7 @@
 10	for	for	IN	IN	sem=PRP	4	prep	_	_
 11	Western	western	NNP	NNP	_	12	compound	_	_
 12	analysis	analysis	NN	NN	_	10	pobj	_	_
-13	.	.	.	.	_	3	punct	_	_
+13	.	.	.	.	_	4	punct	_	_
 
 1	The	the	DT	DT	_	4	det	_	_
 2	monoclonal	monoclonal	JJ	JJ	_	4	amod	_	_
@@ -9140,7 +9140,7 @@
 15	States	state	NNP	NNP	sem=LOC	10	npadvmod	_	_
 16	)	)	-RRB-	-RRB-	_	10	punct	_	_
 17	and	and	CC	CC	_	5	cc	_	_
-18	antibodies	antibody	NNS	NNS	_	30	nsubj	_	_
+18	antibodies	antibody	NNS	NNS	_	32	nsubjpass	_	_
 19	against	against	IN	IN	_	18	prep	_	_
 20	the	the	DT	DT	_	27	det	_	_
 21	KBD	kbd	NN	NN	_	27	nmod	_	_
@@ -9152,34 +9152,34 @@
 27	domains	domain	NNS	NNS	_	19	pobj	_	_
 28	of	of	IN	IN	_	27	prep	_	_
 29	RanBP2	ranbp0	NN	NN	_	28	pobj	_	_
-30	have	have	VBP	VBP	_	5	conj	_	_
-31	been	be	VBN	VBN	_	30	dep	_	_
-32	described	describe	VBN	VBN	_	31	dep	_	_
+30	have	have	VBP	VBP	_	32	aux	_	_
+31	been	be	VBN	VBN	_	32	auxpass	_	_
+32	described	describe	VBN	VBN	_	5	conj	_	_
 33	[	[	-LRB-	-LRB-	_	36	punct	_	_
 34	13	0	CD	CD	_	36	nummod	_	_
 35	,	,	,	,	_	36	punct	_	_
 36	16	0	CD	CD	_	32	parataxis	_	_
 37	]	]	-RRB-	-RRB-	_	36	punct	_	_
-38	.	.	.	.	_	30	punct	_	_
+38	.	.	.	.	_	32	punct	_	_
 
 1	Polyclonal	polyclonal	JJ	JJ	_	4	amod	_	_
 2	and	and	CC	CC	_	1	cc	_	_
 3	monoclonal	monoclonal	JJ	JJ	_	1	conj	_	_
-4	antibodies	antibody	NNS	NNS	_	8	nsubj	_	_
+4	antibodies	antibody	NNS	NNS	_	9	nsubjpass	_	_
 5	against	against	IN	IN	_	4	prep	_	_
 6	Hexokinase	hexokinase	NN	NN	_	5	pobj	_	_
 7	I	I	PRP	PRP	_	6	nmod	_	_
-8	were	be	VBD	VBD	_	0	root	_	_
-9	provided	provided	VBN	VBN	_	8	dep	_	_
+8	were	be	VBD	VBD	_	9	auxpass	_	_
+9	provided	provided	VBN	VBN	_	0	root	_	_
 10	by	by	IN	IN	_	9	agent	_	_
 11	J.	j.	NNP	NNP	_	12	compound	_	_
 12	Wilson	wilson	NNP	NNP	_	10	pobj	_	_
-13	.	.	.	.	_	8	punct	_	_
+13	.	.	.	.	_	9	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	mAb414	mab0	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	purchased	purchase	VBN	VBN	_	3	dep	_	_
+2	mAb414	mab0	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	purchased	purchase	VBN	VBN	_	0	root	_	_
 5	from	from	IN	IN	_	4	prep	_	_
 6	Abcam	abcam	NNP	NNP	_	5	pobj	_	_
 7	(	(	-LRB-	-LRB-	_	8	punct	_	_
@@ -9190,7 +9190,7 @@
 12	United	united	NNP	NNP	_	13	compound	_	_
 13	States	state	NNP	NNP	sem=LOC	8	npadvmod	_	_
 14	)	)	-RRB-	-RRB-	_	8	punct	_	_
-15	.	.	.	.	_	3	punct	_	_
+15	.	.	.	.	_	4	punct	_	_
 
 1	Immunocytochemistry	immunocytochemistry	NN	NN	_	0	root	_	_
 2	and	and	CC	CC	_	1	cc	_	_
@@ -9198,7 +9198,7 @@
 4	.	.	.	.	_	3	punct	_	_
 
 1	Retina	retina	NN	NN	_	2	compound	_	_
-2	dissections	dissection	NNS	NNS	_	15	nsubj	_	_
+2	dissections	dissection	NNS	NNS	_	16	nsubjpass	_	_
 3	,	,	,	,	_	2	punct	_	_
 4	radial	radial	JJ	JJ	_	5	amod	_	_
 5	cryosections	cryosections	NNS	NNS	_	2	conj	_	_
@@ -9211,18 +9211,18 @@
 12	and	and	CC	CC	_	5	cc	_	_
 13	immunohistochemistry	immunohistochemistry	NN	NN	_	14	compound	_	_
 14	procedures	procedure	NNS	NNS	_	5	conj	_	_
-15	were	be	VBD	VBD	_	0	root	_	_
-16	carried	carry	VBN	VBN	_	15	dep	_	_
+15	were	be	VBD	VBD	_	16	auxpass	_	_
+16	carried	carry	VBN	VBN	_	0	root	_	_
 17	out	out	RP	RP	_	16	prt	_	_
-18	as	as	IN	IN	sem=MNR	16	mark	_	_
-19	described	describe	VBN	VBN	_	18	advcl	_	_
+18	as	as	IN	IN	_	19	mark	_	_
+19	described	describe	VBN	VBN	sem=MNR	16	advcl	_	_
 20	elsewhere	elsewhere	RB	RB	_	19	advmod	_	_
 21	[	[	-LRB-	-LRB-	_	22	punct	_	_
 22	19	0	CD	CD	_	19	parataxis	_	_
 23	]	]	-RRB-	-RRB-	_	22	punct	_	_
-24	.	.	.	.	_	15	punct	_	_
+24	.	.	.	.	_	16	punct	_	_
 
-1	Brains	brain	NNS	NNS	_	15	nsubj	_	_
+1	Brains	brain	NNS	NNS	_	16	nsubjpass	_	_
 2	from	from	IN	IN	_	1	prep	_	_
 3	3	0	CD	CD	_	6	quantmod	_	_
 4	-	-	HYPH	HYPH	_	6	punct	_	_
@@ -9236,8 +9236,8 @@
 12	/	/	HYPH	HYPH	_	11	punct	_	_
 13	6	0	CD	CD	_	11	nummod	_	_
 14	mice	mouse	NNS	NNS	_	2	pobj	_	_
-15	were	be	VBD	VBD	_	0	root	_	_
-16	fixed	fix	VBN	VBN	_	15	dep	_	_
+15	were	be	VBD	VBD	_	16	auxpass	_	_
+16	fixed	fix	VBN	VBN	_	0	root	_	_
 17	overnight	overnight	RB	RB	sem=TMP	16	advmod	_	_
 18	in	in	IN	IN	sem=LOC	16	prep	_	_
 19	2	0	CD	CD	_	20	nummod	_	_
@@ -9254,25 +9254,25 @@
 30	processed	process	VBN	VBN	_	23	conj	_	_
 31	for	for	IN	IN	sem=PRP	30	prep	_	_
 32	cryosectioning	cryosectioning	VBG	VBG	_	31	pobj	_	_
-33	.	.	.	.	_	15	punct	_	_
+33	.	.	.	.	_	16	punct	_	_
 
 1	Primary	primary	JJ	JJ	_	3	amod	_	_
 2	brain	brain	NN	NN	_	3	compound	_	_
-3	neurons	neuron	NNS	NNS	_	7	nsubj	_	_
+3	neurons	neuron	NNS	NNS	_	8	nsubjpass	_	_
 4	and	and	CC	CC	_	3	cc	_	_
 5	glial	glial	JJ	JJ	_	6	amod	_	_
 6	cells	cell	NNS	NNS	_	3	conj	_	_
-7	were	be	VBD	VBD	_	0	root	_	_
-8	prepared	prepare	VBN	VBN	_	7	dep	_	_
+7	were	be	VBD	VBD	_	8	auxpass	_	_
+8	prepared	prepare	VBN	VBN	_	0	root	_	_
 9	from	from	IN	IN	_	8	prep	_	_
 10	the	the	DT	DT	_	12	det	_	_
 11	cerebral	cerebral	JJ	JJ	_	12	amod	_	_
 12	cortex	cortex	NN	NN	_	9	pobj	_	_
-13	.	.	.	.	_	7	punct	_	_
+13	.	.	.	.	_	8	punct	_	_
 
-1	This	this	DT	DT	_	2	nsubj	_	_
-2	was	be	VBD	VBD	_	0	root	_	_
-3	macerated	macerate	VBN	VBN	_	2	dep	_	_
+1	This	this	DT	DT	_	3	nsubjpass	_	_
+2	was	be	VBD	VBD	_	3	auxpass	_	_
+3	macerated	macerate	VBN	VBN	_	0	root	_	_
 4	in	in	IN	IN	sem=LOC	3	prep	_	_
 5	the	the	DT	DT	_	10	det	_	_
 6	Hank	hank	NNP	NNP	_	9	poss	_	_
@@ -9282,12 +9282,12 @@
 10	solution	solution	NN	NN	_	4	pobj	_	_
 11	and	and	CC	CC	_	3	cc	_	_
 12	triturated	triturated	VBN	VBN	_	3	conj	_	_
-13	.	.	.	.	_	2	punct	_	_
+13	.	.	.	.	_	3	punct	_	_
 
 1	Primary	primary	JJ	JJ	_	2	amod	_	_
-2	cells	cell	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	cultured	culture	VBN	VBN	_	3	dep	_	_
+2	cells	cell	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	cultured	culture	VBN	VBN	_	0	root	_	_
 5	in	in	IN	IN	sem=LOC	4	prep	_	_
 6	DMEM	dmem	NN	NN	_	5	pobj	_	_
 7	(	(	-LRB-	-LRB-	_	8	punct	_	_
@@ -9335,12 +9335,12 @@
 49	processed	process	VBN	VBN	_	4	conj	_	_
 50	for	for	IN	IN	_	49	prep	_	_
 51	immunocytochemistry	immunocytochemistry	NN	NN	_	50	pobj	_	_
-52	.	.	.	.	_	3	punct	_	_
+52	.	.	.	.	_	4	punct	_	_
 
 1	Primary	primary	JJ	JJ	_	2	amod	_	_
-2	antibodies	antibody	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	used	use	VBN	VBN	_	3	dep	_	_
+2	antibodies	antibody	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	used	use	VBN	VBN	_	0	root	_	_
 5	at	at	IN	IN	_	4	prep	_	_
 6	concentrations	concentration	NNS	NNS	_	5	pobj	_	_
 7	~	~	SYM	SYM	_	10	punct	_	_
@@ -9350,7 +9350,7 @@
 11	μg	μg	NN	NN	syn=ADV	6	npadvmod	_	_
 12	/	/	SYM	SYM	_	13	punct	_	_
 13	ml	ml	NN	NN	_	11	prep	_	_
-14	.	.	.	.	_	3	punct	_	_
+14	.	.	.	.	_	4	punct	_	_
 
 1	Alexa	alexa	NNP	NNP	_	8	npadvmod	_	_
 2	488	0	CD	CD	_	1	nummod	_	_
@@ -9361,7 +9361,7 @@
 7	-	-	HYPH	HYPH	_	8	punct	_	_
 8	conjugated	conjugated	JJ	JJ	_	10	amod	_	_
 9	secondary	secondary	JJ	JJ	_	10	amod	_	_
-10	antibodies	antibody	NNS	NNS	_	21	nsubj	_	_
+10	antibodies	antibody	NNS	NNS	_	22	nsubjpass	_	_
 11	(	(	-LRB-	-LRB-	_	13	punct	_	_
 12	2.5	0	CD	CD	_	13	nummod	_	_
 13	μg	μg	NNS	NNS	_	10	parataxis	_	_
@@ -9372,15 +9372,15 @@
 18	Molecular	molecular	NNP	NNP	_	19	compound	_	_
 19	Probes	probes	NNP	NNP	_	10	parataxis	_	_
 20	)	)	-RRB-	-RRB-	_	19	punct	_	_
-21	were	be	VBD	VBD	_	0	root	_	_
-22	used	use	VBN	VBN	_	21	dep	_	_
+21	were	be	VBD	VBD	_	22	auxpass	_	_
+22	used	use	VBN	VBN	_	0	root	_	_
 23	for	for	IN	IN	sem=PRP	22	prep	_	_
 24	visualization	visualization	NN	NN	_	23	pobj	_	_
 25	of	of	IN	IN	_	24	prep	_	_
 26	proteins	proteins	NN	NN	_	25	pobj	_	_
-27	.	.	.	.	_	21	punct	_	_
+27	.	.	.	.	_	22	punct	_	_
 
-1	Crossover	crossover	NN	NN	_	10	nsubj	_	_
+1	Crossover	crossover	NN	NN	_	11	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	fluorescent	fluorescent	JJ	JJ	_	4	amod	_	_
 4	probes	probe	NNS	NNS	_	2	pobj	_	_
@@ -9389,22 +9389,22 @@
 7	,	,	,	,	_	6	punct	_	_
 8	and	and	CC	CC	_	6	cc	_	_
 9	autofluorescence	autofluorescence	NN	NN	_	6	conj	_	_
-10	were	be	VBD	VBD	_	0	root	_	_
-11	found	find	VBN	VBN	_	10	dep	_	_
-12	to	to	TO	TO	_	11	xcomp	_	_
-13	be	be	VB	VB	_	12	dep	_	_
+10	were	be	VBD	VBD	_	11	auxpass	_	_
+11	found	find	VBN	VBN	_	0	root	_	_
+12	to	to	TO	TO	_	13	aux	_	_
+13	be	be	VB	VB	_	11	xcomp	_	_
 14	negligible	negligible	JJ	JJ	syn=PRD	13	acomp	_	_
-15	.	.	.	.	_	10	punct	_	_
+15	.	.	.	.	_	11	punct	_	_
 
-1	Visualization	visualization	NN	NN	_	8	nsubj	_	_
+1	Visualization	visualization	NN	NN	_	9	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	specimens	specimen	NNS	NNS	_	2	pobj	_	_
 4	and	and	CC	CC	_	1	cc	_	_
 5	localization	localization	NN	NN	_	1	conj	_	_
 6	of	of	IN	IN	_	5	prep	_	_
 7	proteins	proteins	NN	NN	_	6	pobj	_	_
-8	were	be	VBD	VBD	_	0	root	_	_
-9	carried	carry	VBN	VBN	_	8	dep	_	_
+8	were	be	VBD	VBD	_	9	auxpass	_	_
+9	carried	carry	VBN	VBN	_	0	root	_	_
 10	out	out	RP	RP	_	9	prt	_	_
 11	by	by	IN	IN	sem=MNR	9	prep	_	_
 12	wide	wide	JJ	JJ	_	14	amod	_	_
@@ -9431,15 +9431,15 @@
 33	similar	similar	JJ	JJ	_	35	amod	_	_
 34	Apochromat	apochromat	NN	NN	_	35	compound	_	_
 35	objectives	objective	NNS	NNS	_	32	pobj	_	_
-36	.	.	.	.	_	8	punct	_	_
+36	.	.	.	.	_	9	punct	_	_
 
-1	Images	image	NNS	NNS	_	6	nsubj	_	_
+1	Images	image	NNS	NNS	_	7	nsubjpass	_	_
 2	with	with	IN	IN	_	1	prep	_	_
 3	the	the	DT	DT	_	5	det	_	_
 4	Nikon	nikon	NNP	NNP	_	5	compound	_	_
 5	E600	e0	NN	NN	_	2	pobj	_	_
-6	were	be	VBD	VBD	_	0	root	_	_
-7	acquired	acquire	VBN	VBN	_	6	dep	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	acquired	acquire	VBN	VBN	_	0	root	_	_
 8	with	with	IN	IN	sem=MNR	7	prep	_	_
 9	a	a	DT	DT	_	14	det	_	_
 10	SPOT	spot	NN	NN	_	12	nmod	_	_
@@ -9470,12 +9470,12 @@
 35	United	united	NNP	NNP	_	36	compound	_	_
 36	States	state	NNP	NNP	sem=LOC	28	npadvmod	_	_
 37	)	)	-RRB-	-RRB-	_	28	punct	_	_
-38	.	.	.	.	_	6	punct	_	_
+38	.	.	.	.	_	7	punct	_	_
 
 1	All	all	DT	DT	_	2	det	_	_
-2	images	image	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	captured	capture	VBN	VBN	_	3	dep	_	_
+2	images	image	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	captured	capture	VBN	VBN	_	0	root	_	_
 5	at	at	IN	IN	_	4	prep	_	_
 6	nonsaturating	nonsaturating	NN	NN	_	8	compound	_	_
 7	integration	integration	NN	NN	_	8	compound	_	_
@@ -9492,13 +9492,13 @@
 18	and	and	CC	CC	_	4	cc	_	_
 19	then	then	RB	RB	sem=TMP	20	advmod	_	_
 20	pseudo-colored	pseudo-colored	VBN	VBN	_	4	conj	_	_
-21	.	.	.	.	_	3	punct	_	_
+21	.	.	.	.	_	4	punct	_	_
 
 1	Protein	protein	NN	NN	_	2	compound	_	_
 2	colocalization	colocalization	NN	NN	_	3	compound	_	_
-3	analysis	analysis	NN	NN	_	4	nsubj	_	_
-4	was	be	VBD	VBD	_	0	root	_	_
-5	carried	carry	VBN	VBN	_	4	dep	_	_
+3	analysis	analysis	NN	NN	_	5	nsubjpass	_	_
+4	was	be	VBD	VBD	_	5	auxpass	_	_
+5	carried	carry	VBN	VBN	_	0	root	_	_
 6	out	out	RP	RP	_	5	prt	_	_
 7	on	on	IN	IN	_	5	prep	_	_
 8	the	the	DT	DT	_	11	det	_	_
@@ -9574,17 +9574,17 @@
 78	United	united	NNP	NNP	_	79	compound	_	_
 79	States	state	NNP	NNP	sem=LOC	72	npadvmod	_	_
 80	)	)	-RRB-	-RRB-	_	72	punct	_	_
-81	.	.	.	.	_	4	punct	_	_
+81	.	.	.	.	_	5	punct	_	_
 
-1	Images	image	NNS	NNS	_	8	nsubj	_	_
+1	Images	image	NNS	NNS	_	9	nsubjpass	_	_
 2	with	with	IN	IN	_	1	prep	_	_
 3	the	the	DT	DT	_	7	det	_	_
 4	inverted	invert	VBN	VBN	_	7	amod	_	_
 5	Nikon	nikon	NNP	NNP	_	6	compound	_	_
 6	TE2000U	te0u	NN	NN	_	7	compound	_	_
 7	microscope	microscope	NN	NN	_	2	pobj	_	_
-8	were	be	VBD	VBD	_	0	root	_	_
-9	obtained	obtain	VBN	VBN	_	8	dep	_	_
+8	were	be	VBD	VBD	_	9	auxpass	_	_
+9	obtained	obtain	VBN	VBN	_	0	root	_	_
 10	using	use	VBG	VBG	sem=MNR	9	advcl	_	_
 11	a	a	DT	DT	_	13	det	_	_
 12	CCD	ccd	NN	NN	_	13	compound	_	_
@@ -9604,16 +9604,16 @@
 26	United	united	NNP	NNP	_	27	compound	_	_
 27	States	state	NNP	NNP	sem=LOC	19	npadvmod	_	_
 28	)	)	-RRB-	-RRB-	_	19	punct	_	_
-29	.	.	.	.	_	8	punct	_	_
+29	.	.	.	.	_	9	punct	_	_
 
-1	Images	image	NNS	NNS	_	7	nsubj	_	_
+1	Images	image	NNS	NNS	_	8	nsubjpass	_	_
 2	acquired	acquire	VBN	VBN	_	1	acl	_	_
 3	under	under	IN	IN	_	2	prep	_	_
 4	identical	identical	JJ	JJ	_	6	amod	_	_
 5	acquisition	acquisition	NN	NN	_	6	compound	_	_
 6	parameters	parameter	NNS	NNS	_	3	pobj	_	_
-7	were	be	VBD	VBD	_	0	root	_	_
-8	analyzed	analyze	VBN	VBN	_	7	dep	_	_
+7	were	be	VBD	VBD	_	8	auxpass	_	_
+8	analyzed	analyze	VBN	VBN	_	0	root	_	_
 9	using	use	VBG	VBG	sem=MNR	8	advcl	_	_
 10	Metamorph	metamorph	NNP	NNP	_	12	compound	_	_
 11	Software	software	NNP	NNP	_	12	compound	_	_
@@ -9629,16 +9629,16 @@
 21	United	united	NNP	NNP	_	22	compound	_	_
 22	States	state	NNP	NNP	sem=LOC	15	npadvmod	_	_
 23	)	)	-RRB-	-RRB-	_	15	punct	_	_
-24	.	.	.	.	_	7	punct	_	_
+24	.	.	.	.	_	8	punct	_	_
 
 1	Whenever	whenever	RB	RB	_	2	advmod	_	_
-2	applicable	applicable	JJ	JJ	sem=TMP	21	advcl	_	_
-3	,	,	,	,	_	21	punct	_	_
+2	applicable	applicable	JJ	JJ	sem=TMP	22	advcl	_	_
+3	,	,	,	,	_	22	punct	_	_
 4	serial	serial	JJ	JJ	_	8	amod	_	_
 5	optical	optical	JJ	JJ	_	8	amod	_	_
 6	Z	z	NN	NN	_	8	compound	_	_
 7	-	-	HYPH	HYPH	_	8	punct	_	_
-8	stacks	stack	NNS	NNS	_	21	nsubj	_	_
+8	stacks	stack	NNS	NNS	_	22	nsubjpass	_	_
 9	(	(	-LRB-	-LRB-	_	8	punct	_	_
 10	20	0	CD	CD	_	12	quantmod	_	_
 11	–	-	SYM	SYM	_	12	punct	_	_
@@ -9650,9 +9650,9 @@
 17	-	-	HYPH	HYPH	_	18	punct	_	_
 18	nm	nm	NN	NN	_	19	compound	_	_
 19	intervals	interval	NNS	NNS	_	15	pobj	_	_
-20	)	)	-RRB-	-RRB-	_	21	punct	_	_
-21	were	be	VBD	VBD	_	0	root	_	_
-22	captured	capture	VBN	VBN	_	21	dep	_	_
+20	)	)	-RRB-	-RRB-	_	22	punct	_	_
+21	were	be	VBD	VBD	_	22	auxpass	_	_
+22	captured	capture	VBN	VBN	_	0	root	_	_
 23	and	and	CC	CC	_	22	cc	_	_
 24	computationally	computationally	RB	RB	sem=MNR	25	advmod	_	_
 25	processed	process	VBN	VBN	_	22	conj	_	_
@@ -9667,7 +9667,7 @@
 34	the	the	DT	DT	_	36	det	_	_
 35	same	same	JJ	JJ	_	36	amod	_	_
 36	software	software	NN	NN	_	33	pobj	_	_
-37	.	.	.	.	_	21	punct	_	_
+37	.	.	.	.	_	22	punct	_	_
 
 1	Generation	generation	NN	NN	_	0	root	_	_
 2	of	of	IN	IN	_	1	prep	_	_
@@ -9695,7 +9695,7 @@
 5	mouse	mouse	NN	NN	_	8	compound	_	_
 6	ES	es	NN	NN	_	7	compound	_	_
 7	cell	cell	NN	NN	_	8	compound	_	_
-8	line	line	NN	NN	_	44	nsubj	_	_
+8	line	line	NN	NN	_	45	nsubjpass	_	_
 9	derived	derive	VBN	VBN	_	8	acl	_	_
 10	from	from	IN	IN	_	9	prep	_	_
 11	the	the	DT	DT	_	15	det	_	_
@@ -9729,10 +9729,10 @@
 39	by	by	IN	IN	_	38	agent	_	_
 40	W.	w.	NNP	NNP	_	41	compound	_	_
 41	Skarnes	skarnes	NNP	NNP	_	39	pobj	_	_
-42	)	)	-RRB-	-RRB-	_	44	punct	_	_
-43	,	,	,	,	_	44	punct	_	_
-44	was	be	VBD	VBD	_	0	root	_	_
-45	obtained	obtain	VBN	VBN	_	44	dep	_	_
+42	)	)	-RRB-	-RRB-	_	45	punct	_	_
+43	,	,	,	,	_	45	punct	_	_
+44	was	be	VBD	VBD	_	45	auxpass	_	_
+45	obtained	obtain	VBN	VBN	_	0	root	_	_
 46	from	from	IN	IN	_	45	prep	_	_
 47	the	the	DT	DT	_	52	det	_	_
 48	Mutant	mutant	NNP	NNP	_	49	compound	_	_
@@ -9753,7 +9753,7 @@
 63	United	united	NNP	NNP	_	64	compound	_	_
 64	States	state	NNP	NNP	sem=LOC	54	npadvmod	_	_
 65	)	)	-RRB-	-RRB-	_	54	punct	_	_
-66	.	.	.	.	_	44	punct	_	_
+66	.	.	.	.	_	45	punct	_	_
 
 1	The	the	DT	DT	_	4	det	_	_
 2	gene	gene	NN	NN	_	3	compound	_	_
@@ -9802,25 +9802,25 @@
 2	RanBP2	ranbp0	NN	NN	_	3	compound	_	_
 3	129Ola	0ola	NN	NN	_	5	compound	_	_
 4	ES	es	NN	NN	_	5	compound	_	_
-5	line	line	NN	NN	_	6	nsubj	_	_
-6	was	be	VBD	VBD	_	0	root	_	_
-7	injected	inject	VBN	VBN	_	6	dep	_	_
+5	line	line	NN	NN	_	7	nsubjpass	_	_
+6	was	be	VBD	VBD	_	7	auxpass	_	_
+7	injected	inject	VBN	VBN	_	0	root	_	_
 8	into	into	IN	IN	sem=DIR	7	prep	_	_
 9	C57BL	c0bl	NN	NN	_	11	compound	_	_
 10	/	/	HYPH	HYPH	_	11	punct	_	_
 11	6J	0j	NN	NN	_	12	compound	_	_
 12	blastocysts	blastocyst	NNS	NNS	_	8	pobj	_	_
-13	and	and	CC	CC	_	6	cc	_	_
+13	and	and	CC	CC	_	7	cc	_	_
 14	four	#crd#	CD	CD	_	16	nummod	_	_
 15	male	male	JJ	JJ	_	16	amod	_	_
-16	chimeras	chimera	NNS	NNS	_	17	nsubj	_	_
-17	were	be	VBD	VBD	_	6	conj	_	_
-18	generated	generate	VBN	VBN	_	17	dep	_	_
-19	.	.	.	.	_	17	punct	_	_
+16	chimeras	chimera	NNS	NNS	_	18	nsubjpass	_	_
+17	were	be	VBD	VBD	_	18	auxpass	_	_
+18	generated	generate	VBN	VBN	_	7	conj	_	_
+19	.	.	.	.	_	18	punct	_	_
 
-1	These	these	DT	DT	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	bred	breed	VBN	VBN	_	2	dep	_	_
+1	These	these	DT	DT	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	bred	breed	VBN	VBN	_	0	root	_	_
 4	into	into	IN	IN	sem=LOC	3	prep	_	_
 5	129P2	0p0	NN	NN	_	7	nmod	_	_
 6	/	/	HYPH	HYPH	_	7	punct	_	_
@@ -9852,7 +9852,7 @@
 32	States	state	NNP	NNP	sem=LOC	24	npadvmod	_	_
 33	)	)	-RRB-	-RRB-	_	24	punct	_	_
 34	females	female	NNS	NNS	_	4	pobj	_	_
-35	.	.	.	.	_	2	punct	_	_
+35	.	.	.	.	_	3	punct	_	_
 
 1	The	the	DT	DT	_	7	det	_	_
 2	two	#crd#	CD	CD	_	7	nummod	_	_
@@ -9860,7 +9860,7 @@
 4	and	and	CC	CC	_	3	cc	_	_
 5	independent	independent	JJ	JJ	_	3	conj	_	_
 6	F1s	f0s	NN	NN	_	7	compound	_	_
-7	lines	line	NNS	NNS	_	26	nsubj	_	_
+7	lines	line	NNS	NNS	_	27	nsubjpass	_	_
 8	,	,	,	,	_	7	punct	_	_
 9	with	with	IN	IN	_	7	prep	_	_
 10	129P2	0p0	NN	NN	_	12	compound	_	_
@@ -9878,9 +9878,9 @@
 22	mixed	mixed	JJ	JJ	_	21	amod	_	_
 23	genetic	genetic	JJ	JJ	_	21	amod	_	_
 24	backgrounds	background	NNS	NNS	_	12	conj	_	_
-25	,	,	,	,	_	26	punct	_	_
-26	were	be	VBD	VBD	_	0	root	_	_
-27	tested	test	VBN	VBN	_	26	dep	_	_
+25	,	,	,	,	_	27	punct	_	_
+26	were	be	VBD	VBD	_	27	auxpass	_	_
+27	tested	test	VBN	VBN	_	0	root	_	_
 28	for	for	IN	IN	sem=PRP	27	prep	_	_
 29	germline	germline	NN	NN	_	30	compound	_	_
 30	transmission	transmission	NN	NN	_	28	pobj	_	_
@@ -9894,14 +9894,14 @@
 38	tail	tail	NN	NN	_	40	nmod	_	_
 39	genomic	genomic	JJ	JJ	_	40	amod	_	_
 40	DNA	dna	NN	NN	_	37	pobj	_	_
-41	.	.	.	.	_	26	punct	_	_
+41	.	.	.	.	_	27	punct	_	_
 
 1	β	β	NN	NN	_	3	nmod	_	_
 2	-	-	HYPH	HYPH	_	3	punct	_	_
 3	gal	gal	NN	NN	_	6	nmod	_	_
 4	and	and	CC	CC	_	3	cc	_	_
 5	PLAP	plap	NN	NN	_	3	conj	_	_
-6	activities	activity	NNS	NNS	_	14	nsubj	_	_
+6	activities	activity	NNS	NNS	_	15	nsubjpass	_	_
 7	in	in	IN	IN	sem=LOC	6	prep	_	_
 8	whole	whole	JJ	JJ	_	9	amod	_	_
 9	mount	mount	NN	NN	_	10	compound	_	_
@@ -9909,8 +9909,8 @@
 11	and	and	CC	CC	_	10	cc	_	_
 12	retinal	retinal	JJ	JJ	_	13	amod	_	_
 13	sections	section	NNS	NNS	_	10	conj	_	_
-14	were	be	VBD	VBD	_	0	root	_	_
-15	detected	detect	VBN	VBN	_	14	dep	_	_
+14	were	be	VBD	VBD	_	15	auxpass	_	_
+15	detected	detect	VBN	VBN	_	0	root	_	_
 16	,	,	,	,	_	15	punct	_	_
 17	respectively	respectively	RB	RB	_	15	advmod	_	_
 18	,	,	,	,	_	15	punct	_	_
@@ -9980,15 +9980,15 @@
 82	mM	mm	NNS	NNS	_	83	compound	_	_
 83	MgCl2	mgcl0	NN	NN	_	71	appos	_	_
 84	)	)	-RRB-	-RRB-	_	65	punct	_	_
-85	as	as	IN	IN	sem=MNR	15	mark	_	_
-86	described	describe	VBN	VBN	_	85	advcl	_	_
+85	as	as	IN	IN	_	86	mark	_	_
+86	described	describe	VBN	VBN	sem=MNR	15	advcl	_	_
 87	elsewhere	elsewhere	RB	RB	_	86	advmod	_	_
 88	[	[	-LRB-	-LRB-	_	91	punct	_	_
 89	67	0	CD	CD	_	91	nummod	_	_
 90	,	,	,	,	_	91	punct	_	_
 91	68	0	CD	CD	_	86	parataxis	_	_
 92	]	]	-RRB-	-RRB-	_	91	punct	_	_
-93	.	.	.	.	_	14	punct	_	_
+93	.	.	.	.	_	15	punct	_	_
 
 1	Western	western	NNP	NNP	_	2	compound	_	_
 2	blot	blot	NN	NN	_	0	root	_	_
@@ -10003,7 +10003,7 @@
 11	levels	level	NNS	NNS	_	8	conj	_	_
 12	.	.	.	.	_	2	punct	_	_
 
-1	Homogenates	homogenate	NNS	NNS	_	10	nsubj	_	_
+1	Homogenates	homogenate	NNS	NNS	_	11	nsubjpass	_	_
 2	and	and	CC	CC	_	1	cc	_	_
 3	detergent	detergent	NN	NN	_	4	npadvmod	_	_
 4	solubilized	solubilized	VBN	VBN	_	5	amod	_	_
@@ -10012,17 +10012,17 @@
 7	tissues	tissue	NNS	NNS	_	6	pobj	_	_
 8	and	and	CC	CC	_	7	cc	_	_
 9	immunoblots	immunoblots	NNS	NNS	_	7	conj	_	_
-10	were	be	VBD	VBD	_	0	root	_	_
-11	prepared	prepare	VBN	VBN	_	10	dep	_	_
-12	as	as	IN	IN	sem=MNR	11	mark	_	_
-13	described	describe	VBN	VBN	_	12	advcl	_	_
+10	were	be	VBD	VBD	_	11	auxpass	_	_
+11	prepared	prepare	VBN	VBN	_	0	root	_	_
+12	as	as	IN	IN	_	13	mark	_	_
+13	described	describe	VBN	VBN	sem=MNR	11	advcl	_	_
 14	elsewhere	elsewhere	RB	RB	_	13	advmod	_	_
 15	[	[	-LRB-	-LRB-	_	16	punct	_	_
 16	69	0	CD	CD	_	13	parataxis	_	_
 17	]	]	-RRB-	-RRB-	_	16	punct	_	_
-18	.	.	.	.	_	10	punct	_	_
+18	.	.	.	.	_	11	punct	_	_
 
-1	Quantitation	quantitation	NN	NN	_	17	nsubj	_	_
+1	Quantitation	quantitation	NN	NN	_	18	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	immunoblot	immunoblot	NN	NN	_	4	compound	_	_
 4	bands	band	NNS	NNS	_	2	pobj	_	_
@@ -10037,9 +10037,9 @@
 13	mHsp70	mhsp0	NN	NN	_	12	pobj	_	_
 14	and	and	CC	CC	_	13	cc	_	_
 15	Nup153	nup0	NN	NN	_	13	conj	_	_
-16	,	,	,	,	_	17	punct	_	_
-17	was	be	VBD	VBD	_	0	root	_	_
-18	carried	carry	VBN	VBN	_	17	dep	_	_
+16	,	,	,	,	_	18	punct	_	_
+17	was	be	VBD	VBD	_	18	auxpass	_	_
+18	carried	carry	VBN	VBN	_	0	root	_	_
 19	out	out	RP	RP	_	18	prt	_	_
 20	with	with	IN	IN	sem=MNR	18	prep	_	_
 21	Gel	gel	NNP	NNP	_	23	compound	_	_
@@ -10056,23 +10056,23 @@
 32	United	united	NNP	NNP	_	33	compound	_	_
 33	States	state	NNP	NNP	sem=LOC	25	npadvmod	_	_
 34	)	)	-RRB-	-RRB-	_	25	punct	_	_
-35	.	.	.	.	_	17	punct	_	_
+35	.	.	.	.	_	18	punct	_	_
 
-1	For	for	IN	IN	sem=PRP	14	prep	_	_
+1	For	for	IN	IN	sem=PRP	15	prep	_	_
 2	determination	determination	NN	NN	_	1	pobj	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	ATP	atp	NN	NN	_	5	compound	_	_
 5	levels	level	NNS	NNS	_	3	pobj	_	_
-6	,	,	,	,	_	14	punct	_	_
+6	,	,	,	,	_	15	punct	_	_
 7	freshly	freshly	RB	RB	_	8	advmod	_	_
 8	dissected	dissect	VBN	VBN	_	13	amod	_	_
 9	and	and	CC	CC	_	8	cc	_	_
 10	flash	flash	NN	NN	_	12	npadvmod	_	_
 11	-	-	HYPH	HYPH	_	12	punct	_	_
 12	frozen	freeze	VBN	VBN	_	8	conj	_	_
-13	tissues	tissue	NNS	NNS	_	14	nsubj	_	_
-14	were	be	VBD	VBD	_	0	root	_	_
-15	homogenized	homogenize	VBN	VBN	_	14	dep	_	_
+13	tissues	tissue	NNS	NNS	_	15	nsubjpass	_	_
+14	were	be	VBD	VBD	_	15	auxpass	_	_
+15	homogenized	homogenize	VBN	VBN	_	0	root	_	_
 16	in	in	IN	IN	sem=LOC	15	prep	_	_
 17	2.5	0	CD	CD	_	18	nummod	_	_
 18	%	%	NN	NN	_	16	pobj	_	_
@@ -10101,12 +10101,12 @@
 41	pH	ph	NN	NN	_	39	parataxis	_	_
 42	7.75	0	CD	CD	_	41	nummod	_	_
 43	)	)	-RRB-	-RRB-	_	41	punct	_	_
-44	.	.	.	.	_	14	punct	_	_
+44	.	.	.	.	_	15	punct	_	_
 
 1	ATP	atp	NN	NN	_	2	compound	_	_
-2	measurements	measurement	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	carried	carry	VBN	VBN	_	3	dep	_	_
+2	measurements	measurement	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	carried	carry	VBN	VBN	_	0	root	_	_
 5	out	out	RP	RP	_	4	prt	_	_
 6	with	with	IN	IN	sem=MNR	4	prep	_	_
 7	the	the	DT	DT	_	14	det	_	_
@@ -10150,12 +10150,12 @@
 45	United	united	NNP	NNP	_	46	compound	_	_
 46	States	state	NNP	NNP	sem=LOC	39	npadvmod	_	_
 47	)	)	-RRB-	-RRB-	_	39	punct	_	_
-48	.	.	.	.	_	3	punct	_	_
+48	.	.	.	.	_	4	punct	_	_
 
 1	Protein	protein	NN	NN	_	2	compound	_	_
-2	concentration	concentration	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	measured	measure	VBN	VBN	_	3	dep	_	_
+2	concentration	concentration	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	measured	measure	VBN	VBN	_	0	root	_	_
 5	by	by	IN	IN	sem=MNR	4	prep	_	_
 6	the	the	DT	DT	_	8	det	_	_
 7	BCA	bca	NN	NN	_	8	compound	_	_
@@ -10175,19 +10175,19 @@
 21	as	as	IN	IN	_	19	prep	_	_
 22	a	a	DT	DT	_	23	det	_	_
 23	standard	standard	NN	NN	_	21	pobj	_	_
-24	.	.	.	.	_	3	punct	_	_
+24	.	.	.	.	_	4	punct	_	_
 
 1	Metabolic	metabolic	JJ	JJ	_	2	amod	_	_
 2	assays	assay	NNS	NNS	_	0	root	_	_
 3	.	.	.	.	_	2	punct	_	_
 
 1	Two	#crd#	CD	CD	_	2	nummod	_	_
-2	groups	group	NNS	NNS	_	6	nsubj	_	_
+2	groups	group	NNS	NNS	_	7	nsubjpass	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	male	male	JJ	JJ	_	5	amod	_	_
 5	mice	mouse	NNS	NNS	_	3	pobj	_	_
-6	were	be	VBD	VBD	_	0	root	_	_
-7	kept	keep	VBN	VBN	_	6	dep	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	kept	keep	VBN	VBN	_	0	root	_	_
 8	under	under	IN	IN	_	7	prep	_	_
 9	separate	separate	JJ	JJ	_	10	amod	_	_
 10	diet	diet	NN	NN	_	8	pobj	_	_
@@ -10195,12 +10195,12 @@
 12	gestation	gestation	NN	NN	_	11	pobj	_	_
 13	or	or	CC	CC	_	12	cc	_	_
 14	birth	birth	NN	NN	_	12	conj	_	_
-15	.	.	.	.	_	6	punct	_	_
+15	.	.	.	.	_	7	punct	_	_
 
 1	One	#crd#	CD	CD	_	2	nummod	_	_
-2	group	group	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	fed	feed	VBN	VBN	_	3	dep	_	_
+2	group	group	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	fed	feed	VBN	VBN	_	0	root	_	_
 5	with	with	IN	IN	sem=MNR	4	prep	_	_
 6	a	a	DT	DT	_	9	det	_	_
 7	normal	normal	JJ	JJ	_	9	amod	_	_
@@ -10224,11 +10224,11 @@
 25	States	state	NNP	NNP	sem=LOC	18	npadvmod	_	_
 26	)	)	-RRB-	-RRB-	_	18	punct	_	_
 27	,	,	,	,	_	4	punct	_	_
-28	while	while	IN	IN	syn=ADV	4	mark	_	_
+28	while	while	IN	IN	_	32	mark	_	_
 29	the	the	DT	DT	_	30	det	_	_
-30	other	other	NN	NN	_	31	nsubj	_	_
-31	was	be	VBD	VBD	_	28	ccomp	_	_
-32	placed	place	VBN	VBN	_	31	dep	_	_
+30	other	other	NN	NN	_	32	nsubjpass	_	_
+31	was	be	VBD	VBD	_	32	auxpass	_	_
+32	placed	place	VBN	VBN	syn=ADV	4	advcl	_	_
 33	on	on	IN	IN	_	32	prep	_	_
 34	a	a	DT	DT	_	39	det	_	_
 35	higher	high	JJR	JJR	_	36	amod	_	_
@@ -10246,13 +10246,13 @@
 47	;	;	:	:	_	48	punct	_	_
 48	LabDiet	labdiet	NNP	NNP	_	39	parataxis	_	_
 49	)	)	-RRB-	-RRB-	_	48	punct	_	_
-50	.	.	.	.	_	3	punct	_	_
+50	.	.	.	.	_	4	punct	_	_
 
 1	Glucose	glucose	NN	NN	_	2	compound	_	_
 2	tolerance	tolerance	NN	NN	_	3	compound	_	_
-3	test	test	NN	NN	_	4	nsubj	_	_
-4	was	be	VBD	VBD	_	0	root	_	_
-5	performed	performed	VBN	VBN	_	4	dep	_	_
+3	test	test	NN	NN	_	5	nsubjpass	_	_
+4	was	be	VBD	VBD	_	5	auxpass	_	_
+5	performed	performed	VBN	VBN	_	0	root	_	_
 6	on	on	IN	IN	_	5	prep	_	_
 7	overnight	overnight	JJ	JJ	_	9	amod	_	_
 8	-	-	HYPH	HYPH	_	9	punct	_	_
@@ -10270,14 +10270,14 @@
 20	of	of	IN	IN	_	19	prep	_	_
 21	body	body	NN	NN	_	22	compound	_	_
 22	weight	weight	NN	NN	_	20	pobj	_	_
-23	.	.	.	.	_	4	punct	_	_
+23	.	.	.	.	_	5	punct	_	_
 
 1	Venous	venous	JJ	JJ	_	4	amod	_	_
 2	blood	blood	NN	NN	_	3	compound	_	_
 3	glucose	glucose	NN	NN	_	4	compound	_	_
-4	values	value	NNS	NNS	_	5	nsubj	_	_
-5	were	be	VBD	VBD	_	0	root	_	_
-6	determined	determine	VBN	VBN	_	5	dep	_	_
+4	values	value	NNS	NNS	_	6	nsubjpass	_	_
+5	were	be	VBD	VBD	_	6	auxpass	_	_
+6	determined	determine	VBN	VBN	_	0	root	_	_
 7	at	at	IN	IN	sem=TMP	6	prep	_	_
 8	immediately	immediately	RB	RB	_	9	advmod	_	_
 9	before	before	IN	IN	sem=TMP	7	prep	_	_
@@ -10312,13 +10312,13 @@
 38	,	,	,	,	_	39	punct	_	_
 39	Lifescan	lifescan	NNP	NNP	_	33	parataxis	_	_
 40	)	)	-RRB-	-RRB-	_	39	punct	_	_
-41	.	.	.	.	_	5	punct	_	_
+41	.	.	.	.	_	6	punct	_	_
 
 1	Insulin	insulin	NN	NN	_	2	compound	_	_
 2	tolerance	tolerance	NN	NN	_	3	compound	_	_
-3	test	test	NN	NN	_	4	nsubj	_	_
-4	was	be	VBD	VBD	_	0	root	_	_
-5	performed	performed	VBN	VBN	_	4	dep	_	_
+3	test	test	NN	NN	_	5	nsubjpass	_	_
+4	was	be	VBD	VBD	_	5	auxpass	_	_
+5	performed	performed	VBN	VBN	_	0	root	_	_
 6	the	the	DT	DT	_	8	det	_	_
 7	same	same	JJ	JJ	_	8	amod	_	_
 8	way	way	NN	NN	sem=MNR	5	npadvmod	_	_
@@ -10333,9 +10333,9 @@
 17	with	with	IN	IN	_	8	prep	_	_
 18	the	the	DT	DT	_	19	det	_	_
 19	exception	exception	NN	NN	_	17	pobj	_	_
-20	that	that	IN	IN	_	19	mark	_	_
+20	that	that	IN	IN	_	33	mark	_	_
 21	human	human	JJ	JJ	_	22	amod	_	_
-22	insulin	insulin	NN	NN	_	32	nsubj	_	_
+22	insulin	insulin	NN	NN	_	33	nsubjpass	_	_
 23	(	(	-LRB-	-LRB-	_	25	punct	_	_
 24	0.75	0	CD	CD	_	25	nummod	_	_
 25	U	u	NNS	NNS	_	22	parataxis	_	_
@@ -10345,19 +10345,19 @@
 29	body	body	NN	NN	_	30	compound	_	_
 30	mass	mass	NN	NN	_	28	pobj	_	_
 31	)	)	-RRB-	-RRB-	_	25	punct	_	_
-32	was	be	VBD	VBD	_	20	ccomp	_	_
-33	injected	inject	VBN	VBN	_	32	dep	_	_
+32	was	be	VBD	VBD	_	33	auxpass	_	_
+33	injected	inject	VBN	VBN	_	19	acl	_	_
 34	intraperitoneally	intraperitoneally	RB	RB	sem=MNR	33	advmod	_	_
 35	in	in	IN	IN	sem=LOC	33	prep	_	_
 36	non-fasted	non-fasted	JJ	JJ	_	37	amod	_	_
 37	mice	mouse	NNS	NNS	_	35	pobj	_	_
-38	.	.	.	.	_	4	punct	_	_
+38	.	.	.	.	_	5	punct	_	_
 
 1	Pyruvate	pyruvate	NN	NN	_	2	compound	_	_
 2	challenge	challenge	NN	NN	_	3	compound	_	_
-3	test	test	NN	NN	_	4	nsubj	_	_
-4	was	be	VBD	VBD	_	0	root	_	_
-5	performed	performed	VBN	VBN	_	4	dep	_	_
+3	test	test	NN	NN	_	5	nsubjpass	_	_
+4	was	be	VBD	VBD	_	5	auxpass	_	_
+5	performed	performed	VBN	VBN	_	0	root	_	_
 6	the	the	DT	DT	_	8	det	_	_
 7	same	same	JJ	JJ	_	8	amod	_	_
 8	way	way	NN	NN	sem=MNR	5	npadvmod	_	_
@@ -10372,8 +10372,8 @@
 17	with	with	IN	IN	_	8	prep	_	_
 18	the	the	DT	DT	_	19	det	_	_
 19	exception	exception	NN	NN	_	17	pobj	_	_
-20	that	that	IN	IN	_	19	mark	_	_
-21	pyruvate	pyruvate	NN	NN	_	34	nsubj	_	_
+20	that	that	IN	IN	_	35	mark	_	_
+21	pyruvate	pyruvate	NN	NN	_	35	nsubjpass	_	_
 22	dissolved	dissolve	VBN	VBN	_	21	acl	_	_
 23	in	in	IN	IN	sem=LOC	22	prep	_	_
 24	saline	saline	NN	NN	_	23	pobj	_	_
@@ -10386,15 +10386,15 @@
 31	body	body	NN	NN	_	32	compound	_	_
 32	mass	mass	NN	NN	_	30	pobj	_	_
 33	)	)	-RRB-	-RRB-	_	27	punct	_	_
-34	was	be	VBD	VBD	_	20	ccomp	_	_
-35	injected	inject	VBN	VBN	_	34	dep	_	_
+34	was	be	VBD	VBD	_	35	auxpass	_	_
+35	injected	inject	VBN	VBN	_	19	acl	_	_
 36	intraperitoneally	intraperitoneally	RB	RB	sem=MNR	35	advmod	_	_
 37	in	in	IN	IN	sem=LOC	35	prep	_	_
 38	overnight	overnight	JJ	JJ	_	40	amod	_	_
 39	-	-	HYPH	HYPH	_	40	punct	_	_
 40	fasted	fast	VBN	VBN	_	41	amod	_	_
 41	mice	mouse	NNS	NNS	_	37	pobj	_	_
-42	.	.	.	.	_	4	punct	_	_
+42	.	.	.	.	_	5	punct	_	_
 
 1	Electroretinography	electroretinography	NN	NN	_	0	root	_	_
 2	.	.	.	.	_	1	punct	_	_
@@ -10416,12 +10416,12 @@
 15	+	+	SYM	SYM	_	14	punct	_	_
 16	/	/	HYPH	HYPH	_	14	punct	_	_
 17	−	−	SYM	SYM	_	14	punct	_	_
-18	mice	mouse	NNS	NNS	_	22	nsubj	_	_
+18	mice	mouse	NNS	NNS	_	23	nsubjpass	_	_
 19	in	in	IN	IN	_	18	prep	_	_
 20	129ola	0ola	NN	NN	_	21	compound	_	_
 21	background	background	NN	NN	_	19	pobj	_	_
-22	were	be	VBD	VBD	_	0	root	_	_
-23	kept	keep	VBN	VBN	_	22	dep	_	_
+22	were	be	VBD	VBD	_	23	auxpass	_	_
+23	kept	keep	VBN	VBN	_	0	root	_	_
 24	in	in	IN	IN	_	23	prep	_	_
 25	dim	dim	NN	NN	_	27	nmod	_	_
 26	cyclic	cyclic	JJ	JJ	_	27	amod	_	_
@@ -10433,17 +10433,17 @@
 32	for	for	IN	IN	sem=TMP	23	prep	_	_
 33	2	0	CD	CD	_	34	nummod	_	_
 34	wk	wk	NNS	NNS	_	32	pobj	_	_
-35	before	before	IN	IN	sem=TMP	23	mark	_	_
+35	before	before	IN	IN	_	39	mark	_	_
 36	electroretinographic	electroretinographic	JJ	JJ	_	37	amod	_	_
-37	responses	response	NNS	NNS	_	38	nsubj	_	_
-38	were	be	VBD	VBD	_	35	ccomp	_	_
-39	recorded	record	VBN	VBN	_	38	dep	_	_
-40	.	.	.	.	_	22	punct	_	_
+37	responses	response	NNS	NNS	_	39	nsubjpass	_	_
+38	were	be	VBD	VBD	_	39	auxpass	_	_
+39	recorded	record	VBN	VBN	sem=TMP	23	advcl	_	_
+40	.	.	.	.	_	23	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	mice	mouse	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	anesthetized	anesthetize	VBN	VBN	_	3	dep	_	_
+2	mice	mouse	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	anesthetized	anesthetize	VBN	VBN	_	0	root	_	_
 5	intraperitoneally	intraperitoneally	RB	RB	sem=MNR	4	advmod	_	_
 6	with	with	IN	IN	sem=MNR	4	prep	_	_
 7	ketamine	ketamine	NN	NN	_	6	pobj	_	_
@@ -10461,12 +10461,12 @@
 19	/	/	SYM	SYM	_	20	punct	_	_
 20	kg	kg	NN	NN	_	18	prep	_	_
 21	)	)	-RRB-	-RRB-	_	18	punct	_	_
-22	.	.	.	.	_	3	punct	_	_
+22	.	.	.	.	_	4	punct	_	_
 
 1	Body	body	NN	NN	_	2	compound	_	_
-2	temperature	temperature	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	maintained	maintain	VBN	VBN	_	3	dep	_	_
+2	temperature	temperature	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	maintained	maintain	VBN	VBN	_	0	root	_	_
 5	with	with	IN	IN	sem=MNR	4	prep	_	_
 6	a	a	DT	DT	_	8	det	_	_
 7	heating	heating	NN	NN	_	8	compound	_	_
@@ -10479,13 +10479,13 @@
 14	throughout	throughout	IN	IN	sem=TMP	4	prep	_	_
 15	the	the	DT	DT	_	16	det	_	_
 16	recording	recording	NN	NN	_	14	pobj	_	_
-17	.	.	.	.	_	3	punct	_	_
+17	.	.	.	.	_	4	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	pupils	pupil	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	fully	fully	RB	RB	_	3	advmod	_	_
-5	dilated	dilate	VBN	VBN	_	3	dep	_	_
+2	pupils	pupil	NNS	NNS	_	5	nsubjpass	_	_
+3	were	be	VBD	VBD	_	5	auxpass	_	_
+4	fully	fully	RB	RB	_	5	advmod	_	_
+5	dilated	dilate	VBN	VBN	_	0	root	_	_
 6	with	with	IN	IN	sem=MNR	5	prep	_	_
 7	0.5	0	CD	CD	_	8	nummod	_	_
 8	%	%	NN	NN	_	9	compound	_	_
@@ -10495,22 +10495,22 @@
 12	%	%	NN	NN	_	14	compound	_	_
 13	phenylephrine	phenylephrine	NN	NN	_	14	compound	_	_
 14	HCl	hcl	NN	NN	_	9	conj	_	_
-15	,	,	,	,	_	3	punct	_	_
-16	and	and	CC	CC	_	3	cc	_	_
+15	,	,	,	,	_	5	punct	_	_
+16	and	and	CC	CC	_	5	cc	_	_
 17	both	both	DT	DT	_	18	det	_	_
-18	eyes	eye	NNS	NNS	_	19	nsubj	_	_
-19	were	be	VBD	VBD	_	3	conj	_	_
-20	recorded	record	VBN	VBN	_	19	dep	_	_
+18	eyes	eye	NNS	NNS	_	20	nsubjpass	_	_
+19	were	be	VBD	VBD	_	20	auxpass	_	_
+20	recorded	record	VBN	VBN	_	5	conj	_	_
 21	simultaneously	simultaneously	RB	RB	sem=TMP	20	advmod	_	_
-22	.	.	.	.	_	19	punct	_	_
+22	.	.	.	.	_	20	punct	_	_
 
 1	Corneal	corneal	JJ	JJ	_	5	amod	_	_
 2	gold	gold	JJ	JJ	_	4	amod	_	_
 3	-	-	HYPH	HYPH	_	4	punct	_	_
 4	wire	wire	NN	NN	_	5	compound	_	_
-5	loops	loop	NNS	NNS	_	6	nsubj	_	_
-6	were	be	VBD	VBD	_	0	root	_	_
-7	used	use	VBN	VBN	_	6	dep	_	_
+5	loops	loop	NNS	NNS	_	7	nsubjpass	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	used	use	VBN	VBN	_	0	root	_	_
 8	as	as	IN	IN	_	7	prep	_	_
 9	the	the	DT	DT	_	11	det	_	_
 10	active	active	JJ	JJ	_	11	amod	_	_
@@ -10522,7 +10522,7 @@
 16	hydrochloride	hydrochloride	NN	NN	_	18	nmod	_	_
 17	topical	topical	JJ	JJ	_	18	amod	_	_
 18	anesthesia	anesthesia	NN	NN	_	12	pobj	_	_
-19	.	.	.	.	_	6	punct	_	_
+19	.	.	.	.	_	7	punct	_	_
 
 1	Gold	gold	JJ	JJ	_	3	amod	_	_
 2	-	-	HYPH	HYPH	_	3	punct	_	_
@@ -10543,18 +10543,18 @@
 
 1	A	a	DT	DT	_	3	det	_	_
 2	ground	ground	NN	NN	_	3	compound	_	_
-3	wire	wire	NN	NN	_	4	nsubj	_	_
-4	was	be	VBD	VBD	_	0	root	_	_
-5	attached	attach	VBN	VBN	_	4	dep	_	_
+3	wire	wire	NN	NN	_	5	nsubjpass	_	_
+4	was	be	VBD	VBD	_	5	auxpass	_	_
+5	attached	attach	VBN	VBN	_	0	root	_	_
 6	to	to	IN	IN	_	5	prep	_	_
 7	the	the	DT	DT	_	8	det	_	_
 8	ear	ear	NN	NN	_	6	pobj	_	_
-9	.	.	.	.	_	4	punct	_	_
+9	.	.	.	.	_	5	punct	_	_
 
 1	Scotopic	scotopic	JJ	JJ	_	2	amod	_	_
-2	responses	response	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	recorded	record	VBN	VBN	_	3	dep	_	_
+2	responses	response	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	recorded	record	VBN	VBN	_	0	root	_	_
 5	from	from	IN	IN	sem=TMP	4	prep	_	_
 6	threshold	threshold	NN	NN	_	5	pobj	_	_
 7	to	to	IN	IN	_	5	prep	_	_
@@ -10579,25 +10579,25 @@
 26	1,000	0	CD	CD	_	27	nummod	_	_
 27	Hz	hz	NN	NN	_	19	parataxis	_	_
 28	)	)	-RRB-	-RRB-	_	27	punct	_	_
-29	.	.	.	.	_	3	punct	_	_
+29	.	.	.	.	_	4	punct	_	_
 
-1	For	for	IN	IN	sem=PRP	11	prep	_	_
+1	For	for	IN	IN	sem=PRP	12	prep	_	_
 2	photopic	photopic	JJ	JJ	_	3	amod	_	_
 3	recordings	recording	NNS	NNS	_	1	pobj	_	_
 4	background	background	NN	NN	_	5	compound	_	_
-5	light	light	NN	NN	_	11	nsubj	_	_
+5	light	light	NN	NN	_	12	nsubjpass	_	_
 6	at	at	IN	IN	_	5	prep	_	_
 7	34	0	CD	CD	_	8	nummod	_	_
 8	cd	cd	NNS	NNS	_	6	pobj	_	_
 9	/	/	SYM	SYM	_	10	punct	_	_
 10	m2	m0	NN	NN	_	8	prep	_	_
-11	was	be	VBD	VBD	_	0	root	_	_
-12	used	use	VBN	VBN	_	11	dep	_	_
-13	to	to	TO	TO	sem=PRP	12	advcl	_	_
-14	suppress	suppress	VB	VB	_	13	dep	_	_
+11	was	be	VBD	VBD	_	12	auxpass	_	_
+12	used	use	VBN	VBN	_	0	root	_	_
+13	to	to	TO	TO	_	14	aux	_	_
+14	suppress	suppress	VB	VB	sem=PRP	12	advcl	_	_
 15	rod	rod	NN	NN	_	16	compound	_	_
 16	function	function	NN	NN	_	14	dobj	_	_
-17	.	.	.	.	_	11	punct	_	_
+17	.	.	.	.	_	12	punct	_	_
 
 1	Supporting	support	VBG	VBG	_	2	amod	_	_
 2	Information	information	NN	NN	_	0	root	_	_
@@ -10624,13 +10624,13 @@
 
 1	GST	gst	NN	NN	_	3	compound	_	_
 2	-	-	HYPH	HYPH	_	3	punct	_	_
-3	JX2	jx0	NN	NN	_	8	nsubj	_	_
+3	JX2	jx0	NN	NN	_	9	nsubjpass	_	_
 4	(	(	-LRB-	-LRB-	_	6	punct	_	_
 5	2.2	0	CD	CD	_	6	nummod	_	_
 6	μM	μm	NNS	NNS	_	3	parataxis	_	_
 7	)	)	-RRB-	-RRB-	_	6	punct	_	_
-8	was	be	VBD	VBD	_	0	root	_	_
-9	incubated	incubate	VBN	VBN	_	8	dep	_	_
+8	was	be	VBD	VBD	_	9	auxpass	_	_
+9	incubated	incubate	VBN	VBN	_	0	root	_	_
 10	with	with	IN	IN	sem=MNR	9	prep	_	_
 11	different	different	JJ	JJ	_	13	amod	_	_
 12	tissue	tissue	NN	NN	_	13	compound	_	_
@@ -10640,18 +10640,18 @@
 16	2.0	0	CD	CD	_	17	nummod	_	_
 17	mg	mg	NNS	NNS	_	9	parataxis	_	_
 18	)	)	-RRB-	-RRB-	_	17	punct	_	_
-19	and	and	CC	CC	_	8	cc	_	_
+19	and	and	CC	CC	_	9	cc	_	_
 20	the	the	DT	DT	_	23	det	_	_
 21	GST	gst	NN	NN	_	23	compound	_	_
 22	-	-	HYPH	HYPH	_	23	punct	_	_
-23	JX2	jx0	NN	NN	_	29	nsubj	_	_
+23	JX2	jx0	NN	NN	_	30	nsubjpass	_	_
 24	coprecipitates	coprecipitates	VBZ	VBZ	_	23	nmod	_	_
 25	from	from	IN	IN	_	23	prep	_	_
 26	seven	#crd#	CD	CD	_	28	nummod	_	_
 27	different	different	JJ	JJ	_	28	amod	_	_
 28	tissues	tissue	NNS	NNS	_	25	pobj	_	_
-29	were	be	VBD	VBD	_	8	conj	_	_
-30	analyzed	analyze	VBN	VBN	_	29	dep	_	_
+29	were	be	VBD	VBD	_	30	auxpass	_	_
+30	analyzed	analyze	VBN	VBN	_	9	conj	_	_
 31	by	by	IN	IN	sem=MNR	30	prep	_	_
 32	Western	western	NNP	NNP	_	33	compound	_	_
 33	blot	blot	NN	NN	_	31	pobj	_	_
@@ -10662,7 +10662,7 @@
 38	HKI	hki	NN	NN	_	37	pobj	_	_
 39	and	and	CC	CC	_	38	cc	_	_
 40	Cox11	cox0	NN	NN	_	38	conj	_	_
-41	.	.	.	.	_	29	punct	_	_
+41	.	.	.	.	_	30	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
 2	LD	ld	NN	NN	_	0	root	_	_
@@ -10802,9 +10802,9 @@
 46	)	)	-RRB-	-RRB-	_	43	punct	_	_
 47	.	.	.	.	_	1	punct	_	_
 
-1	This	this	DT	DT	_	2	nsubj	_	_
-2	is	be	VBZ	VBZ	_	0	root	_	_
-3	reflected	reflect	VBN	VBN	_	2	dep	_	_
+1	This	this	DT	DT	_	3	nsubjpass	_	_
+2	is	be	VBZ	VBZ	_	3	auxpass	_	_
+3	reflected	reflect	VBN	VBN	_	0	root	_	_
 4	by	by	IN	IN	sem=MNR	3	prep	_	_
 5	a	a	DT	DT	_	7	det	_	_
 6	significant	significant	JJ	JJ	_	7	amod	_	_
@@ -10838,7 +10838,7 @@
 34	(	(	-LRB-	-LRB-	_	35	punct	_	_
 35	E	e	NN	NN	_	3	parataxis	_	_
 36	)	)	-RRB-	-RRB-	_	35	punct	_	_
-37	.	.	.	.	_	2	punct	_	_
+37	.	.	.	.	_	3	punct	_	_
 
 1	AU	au	NN	NN	_	51	dep	_	_
 2	,	,	,	,	_	1	punct	_	_
@@ -11114,15 +11114,15 @@
 3	.	.	.	.	_	2	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	authors	author	NNS	NNS	_	3	nsubj	_	_
-3	have	have	VBP	VBP	_	0	root	_	_
-4	declared	declare	VBN	VBN	_	3	dep	_	_
-5	that	that	IN	IN	_	4	mark	_	_
+2	authors	author	NNS	NNS	_	4	nsubj	_	_
+3	have	have	VBP	VBP	_	4	aux	_	_
+4	declared	declare	VBN	VBN	_	0	root	_	_
+5	that	that	IN	IN	_	9	mark	_	_
 6	no	no	DT	DT	_	8	det	_	_
 7	competing	compete	VBG	VBG	_	8	amod	_	_
 8	interests	interest	NNS	NNS	_	9	nsubj	_	_
-9	exist	exist	VBP	VBP	_	5	ccomp	_	_
-10	.	.	.	.	_	3	punct	_	_
+9	exist	exist	VBP	VBP	_	4	ccomp	_	_
+10	.	.	.	.	_	4	punct	_	_
 
 1	A	a	DT	DT	_	3	det	_	_
 2	previous	previous	JJ	JJ	_	3	amod	_	_
@@ -11264,8 +11264,8 @@
 6	Doris	doris	NNP	NNP	_	4	conj	_	_
 7	Stein	stein	NNP	NNP	_	12	nmod	_	_
 8	Research	research	NN	NN	_	12	nmod	_	_
-9	to	to	TO	TO	_	8	advcl	_	_
-10	Prevent	prevent	VB	VB	_	9	dep	_	_
+9	to	to	TO	TO	_	10	aux	_	_
+10	Prevent	prevent	VB	VB	_	8	advcl	_	_
 11	Blindness	blindness	NN	NN	_	10	dobj	_	_
 12	Professor	professor	NN	NN	syn=PRD	2	attr	_	_
 13	.	.	.	.	_	2	punct	_	_
