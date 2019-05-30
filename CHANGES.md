@@ -1,5 +1,12 @@
 # CRAFT Corpus Changes
 
+## Version 3.1.2
+* Corrected erroneous extension class prefixes in the `concept-annotation/GO_MF/GO_MF+extensions/GO_MF_stub+GO_MF_extensions.obo` file
+
+* Reverted Head rule used in dependency conversion back to STANFORD to match newly added CoNLL-U files.
+
+* Added correctly formatted CoNLL-U files for the dependency parses. See `structural-annotation/dependency/conllu`. Many thanks to Manuel Ciosici and Sampo Pyysalo for their help in creating and vetting these files.
+
 ## Version 3.1.1
 * Returned the dependency file format for the CRAFT dependency data back to the CoNLL-X format. The CoNLL-U files in v3.1 were improperly formatted (XPOS and UPOS columns were mistakenly swapped among other things) and there is no UPOS data to include. This change aligns the dependency files more closely with the original CRAFT dependency files (available in CRAFT v3.0 and earlier releases). Those original files were missing one POS column which is now included to fully comply with the CoNLL-X format. The non-compliant CoNLL-U files have been removed from the distribution. Also, a minor change was made to the HeadRule used in the conversion from treebank files to the dependency files. The CONLL HeadRule is now used instead of the STANFORD HeadRule.
   
