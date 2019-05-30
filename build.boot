@@ -382,6 +382,7 @@
                         fileset))
 
 
+;;; TODO: NOTE: knowtator projects created with the concept extension classes need to update their ontology using the provided mapping files in the CRAFT corpus. This should be done programmatically here in a future release.
 (deftask knowtator-project
          "Create the directory structure for a Knowtator2 project and populated it with annotation files"
          [o output-directory VAL str "the directory where the Knowtator2 project will be created"]
@@ -397,7 +398,7 @@
                         (let [treebank-dir (file "structural-annotation" "treebank" "penn")
                               dependency-dir (file "structural-annotation" "dependency" "conllx")]
                           (.mkdirs dependency-dir)
-                          (TreebankToDependencyConverter/convert treebank-dir dependency-dir HeadRule/CONLL))
+                          (TreebankToDependencyConverter/convert treebank-dir dependency-dir HeadRule/STANFORD))
                         fileset))
 
 ;;; Task below was used to transform the coreference annotations in their

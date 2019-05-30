@@ -45,8 +45,8 @@
 14	process	process	NN	NN	_	12	pobj	_	_
 15	.	.	.	.	_	3	punct	_	_
 
-1	To	to	TO	TO	sem=PRP	20	advcl	_	_
-2	analyze	analyze	VB	VB	_	1	dep	_	_
+1	To	to	TO	TO	_	2	aux	_	_
+2	analyze	analyze	VB	VB	sem=PRP	20	advcl	_	_
 3	the	the	DT	DT	_	4	det	_	_
 4	role	role	NN	NN	_	2	dobj	_	_
 5	of	of	IN	IN	_	4	prep	_	_
@@ -129,18 +129,18 @@
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	provide	provide	VBP	VBP	_	0	root	_	_
 3	evidence	evidence	NN	NN	_	2	dobj	_	_
-4	that	that	IN	IN	_	3	mark	_	_
-5	in	in	IN	IN	sem=LOC	13	prep	_	_
+4	that	that	IN	IN	_	15	mark	_	_
+5	in	in	IN	IN	sem=LOC	15	prep	_	_
 6	wild	wild	JJ	JJ	_	8	amod	_	_
 7	-	-	HYPH	HYPH	_	8	punct	_	_
 8	type	type	NN	NN	_	9	compound	_	_
 9	embryos	embryo	NNS	NNS	_	5	pobj	_	_
-10	,	,	,	,	_	13	punct	_	_
+10	,	,	,	,	_	15	punct	_	_
 11	heterochromatin	heterochromatin	NN	NN	_	12	compound	_	_
-12	domains	domain	NNS	NNS	_	13	nsubj	_	_
-13	are	be	VBP	VBP	_	4	ccomp	_	_
-14	extensively	extensively	RB	RB	_	13	advmod	_	_
-15	reorganized	reorganize	VBN	VBN	_	13	dep	_	_
+12	domains	domain	NNS	NNS	_	15	nsubjpass	_	_
+13	are	be	VBP	VBP	_	15	auxpass	_	_
+14	extensively	extensively	RB	RB	_	15	advmod	_	_
+15	reorganized	reorganize	VBN	VBN	_	3	acl	_	_
 16	between	between	IN	IN	sem=TMP	15	prep	_	_
 17	the	the	DT	DT	_	23	det	_	_
 18	two	#crd#	CD	CD	_	20	nummod	_	_
@@ -188,12 +188,12 @@
 35	embryos	embryo	NNS	NNS	_	24	pobj	_	_
 36	,	,	,	,	_	17	punct	_	_
 37	suggesting	suggest	VBG	VBG	syn=ADV	17	advcl	_	_
-38	that	that	IN	IN	_	37	mark	_	_
-39	CAF	caf	NN	NN	_	42	nsubj	_	_
+38	that	that	IN	IN	_	43	mark	_	_
+39	CAF	caf	NN	NN	_	43	nsubjpass	_	_
 40	-	-	HYPH	HYPH	_	39	punct	_	_
 41	1	0	CD	CD	_	39	nummod	_	_
-42	is	be	VBZ	VBZ	_	38	ccomp	_	_
-43	required	require	VBN	VBN	_	42	dep	_	_
+42	is	be	VBZ	VBZ	_	43	auxpass	_	_
+43	required	require	VBN	VBN	_	37	ccomp	_	_
 44	for	for	IN	IN	sem=PRP	43	prep	_	_
 45	the	the	DT	DT	_	46	det	_	_
 46	maturation	maturation	NN	NN	_	44	pobj	_	_
@@ -262,12 +262,12 @@
 26	.	.	.	.	_	11	punct	_	_
 
 1	These	these	DT	DT	_	2	det	_	_
-2	alterations	alteration	NNS	NNS	_	5	nsubj	_	_
+2	alterations	alteration	NNS	NNS	_	7	nsubjpass	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	heterochromatin	heterochromatin	NN	NN	_	3	pobj	_	_
-5	are	be	VBP	VBP	_	0	root	_	_
-6	not	not	RB	RB	_	5	neg	_	_
-7	found	find	VBN	VBN	_	5	dep	_	_
+5	are	be	VBP	VBP	_	7	auxpass	_	_
+6	not	not	RB	RB	_	7	neg	_	_
+7	found	find	VBN	VBN	_	0	root	_	_
 8	in	in	IN	IN	sem=LOC	7	prep	_	_
 9	p150CAF	p0caf	NN	NN	_	13	npadvmod	_	_
 10	-	-	HYPH	HYPH	_	9	punct	_	_
@@ -281,20 +281,20 @@
 18	which	which	WDT	WDT	_	19	dep	_	16:ref
 19	are	be	VBP	VBP	_	16	relcl	_	_
 20	cells	cell	NNS	NNS	syn=PRD	19	attr	_	_
-21	that	that	WDT	WDT	_	22	dep	_	20:ref
-22	are	be	VBP	VBP	_	20	relcl	_	_
-23	already	already	RB	RB	_	22	advmod	_	_
+21	that	that	WDT	WDT	_	25	dep	_	20:ref
+22	are	be	VBP	VBP	_	25	auxpass	_	_
+23	already	already	RB	RB	_	25	advmod	_	_
 24	lineage	lineage	NN	NN	_	25	dep	_	_
-25	committed	commit	VBN	VBN	_	22	dep	_	_
+25	committed	commit	VBN	VBN	_	20	relcl	_	_
 26	,	,	,	,	_	7	punct	_	_
 27	suggesting	suggest	VBG	VBG	syn=ADV	7	advcl	_	_
-28	that	that	IN	IN	_	27	mark	_	_
-29	CAF	caf	NN	NN	_	32	nsubj	_	_
+28	that	that	IN	IN	_	34	mark	_	_
+29	CAF	caf	NN	NN	_	34	nsubjpass	_	_
 30	-	-	HYPH	HYPH	_	29	punct	_	_
 31	1	0	CD	CD	_	29	nummod	_	_
-32	is	be	VBZ	VBZ	_	28	ccomp	_	_
-33	specifically	specifically	RB	RB	_	32	advmod	_	_
-34	required	require	VBN	VBN	_	32	dep	_	_
+32	is	be	VBZ	VBZ	_	34	auxpass	_	_
+33	specifically	specifically	RB	RB	_	34	advmod	_	_
+34	required	require	VBN	VBN	_	27	ccomp	_	_
 35	for	for	IN	IN	sem=PRP	34	prep	_	_
 36	heterochromatin	heterochromatin	NN	NN	_	37	compound	_	_
 37	organization	organization	NN	NN	_	35	pobj	_	_
@@ -302,7 +302,7 @@
 39	pluripotent	pluripotent	JJ	JJ	_	41	amod	_	_
 40	embryonic	embryonic	JJ	JJ	_	41	amod	_	_
 41	cells	cell	NNS	NNS	_	38	pobj	_	_
-42	.	.	.	.	_	5	punct	_	_
+42	.	.	.	.	_	7	punct	_	_
 
 1	Our	our	PRP$	PRP$	_	2	poss	_	_
 2	findings	finding	NNS	NNS	_	3	nsubj	_	_
@@ -346,9 +346,9 @@
 8	information	information	NN	NN	_	5	pobj	_	_
 9	.	.	.	.	_	2	punct	_	_
 
-1	It	it	PRP	PRP	_	2	nsubj	_	_
-2	is	be	VBZ	VBZ	_	0	root	_	_
-3	composed	compose	VBN	VBN	_	2	dep	_	_
+1	It	it	PRP	PRP	_	3	nsubjpass	_	_
+2	is	be	VBZ	VBZ	_	3	auxpass	_	_
+3	composed	compose	VBN	VBN	_	0	root	_	_
 4	of	of	IN	IN	_	3	prep	_	_
 5	numerous	numerous	JJ	JJ	_	7	amod	_	_
 6	repeated	repeat	VBN	VBN	_	7	amod	_	_
@@ -366,7 +366,7 @@
 18	of	of	IN	IN	_	17	prep	_	_
 19	histone	histone	NN	NN	_	20	compound	_	_
 20	proteins	proteins	NN	NN	_	18	pobj	_	_
-21	.	.	.	.	_	2	punct	_	_
+21	.	.	.	.	_	3	punct	_	_
 
 1	Modifications	modification	NNS	NNS	_	10	nsubj	_	_
 2	in	in	IN	IN	_	1	prep	_	_
@@ -389,21 +389,21 @@
 19	.	.	.	.	_	10	punct	_	_
 
 1	Such	such	JJ	JJ	_	2	amod	_	_
-2	modifications	modification	NNS	NNS	_	3	nsubj	_	_
-3	are	be	VBP	VBP	_	0	root	_	_
-4	termed	term	VBN	VBN	_	3	dep	_	_
+2	modifications	modification	NNS	NNS	_	4	nsubjpass	_	_
+3	are	be	VBP	VBP	_	4	auxpass	_	_
+4	termed	term	VBN	VBN	_	0	root	_	_
 5	“	"	``	``	_	6	punct	_	_
 6	epigenetic	epigenetic	JJ	JJ	syn=PRD	4	oprd	_	_
 7	”	"	''	''	_	6	punct	_	_
-8	when	when	WRB	WRB	_	10	advmod	_	_
-9	they	they	PRP	PRP	_	10	nsubj	_	_
-10	are	be	VBP	VBP	sem=TMP	4	advcl	_	_
-11	inherited	inherit	VBN	VBN	_	10	dep	_	_
+8	when	when	WRB	WRB	_	11	advmod	_	_
+9	they	they	PRP	PRP	_	11	nsubjpass	_	_
+10	are	be	VBP	VBP	_	11	auxpass	_	_
+11	inherited	inherit	VBN	VBN	sem=TMP	4	advcl	_	_
 12	across	across	IN	IN	_	11	prep	_	_
 13	cell	cell	NN	NN	_	14	compound	_	_
 14	divisions	division	NNS	NNS	_	12	pobj	_	_
-15	and	and	CC	CC	_	10	cc	_	_
-16	confer	confer	VBP	VBP	_	10	conj	_	_
+15	and	and	CC	CC	_	11	cc	_	_
+16	confer	confer	VBP	VBP	_	11	conj	_	_
 17	new	new	JJ	JJ	_	18	amod	_	_
 18	information	information	NN	NN	_	16	dobj	_	_
 19	to	to	IN	IN	_	16	prep	_	_
@@ -418,13 +418,13 @@
 28	provided	provided	VBN	VBN	_	27	acl	_	_
 29	by	by	IN	IN	_	28	agent	_	_
 30	DNA	dna	NN	NN	_	29	pobj	_	_
-31	.	.	.	.	_	3	punct	_	_
+31	.	.	.	.	_	4	punct	_	_
 
-1	It	it	PRP	PRP	_	2	nsubj	_	_
-2	is	be	VBZ	VBZ	_	0	root	_	_
-3	usually	usually	RB	RB	_	2	advmod	_	_
-4	believed	believe	VBN	VBN	_	2	dep	_	_
-5	that	that	IN	IN	_	4	mark	_	_
+1	It	it	PRP	PRP	_	4	nsubjpass	_	_
+2	is	be	VBZ	VBZ	_	4	auxpass	_	_
+3	usually	usually	RB	RB	_	4	advmod	_	_
+4	believed	believe	VBN	VBN	_	0	root	_	_
+5	that	that	IN	IN	_	15	mark	_	_
 6	during	during	IN	IN	sem=TMP	15	prep	_	_
 7	genome	genome	NN	NN	_	8	compound	_	_
 8	replication	replication	NN	NN	_	6	pobj	_	_
@@ -434,34 +434,34 @@
 12	chromatin	chromatin	NN	NN	_	13	compound	_	_
 13	assembly	assembly	NN	NN	_	14	compound	_	_
 14	machinery	machinery	NN	NN	_	15	nsubj	_	_
-15	builds	build	VBZ	VBZ	_	5	ccomp	_	_
+15	builds	build	VBZ	VBZ	_	4	ccomp	_	_
 16	up	up	RP	RP	_	15	prt	_	_
 17	“	"	``	``	_	20	punct	_	_
 18	naïve	naïve	JJ	JJ	_	20	amod	_	_
 19	”	"	''	''	_	20	punct	_	_
 20	nucleosomes	nucleosomes	NNS	NNS	_	15	dobj	_	_
-21	,	,	,	,	_	2	punct	_	_
-22	and	and	CC	CC	_	2	cc	_	_
-23	,	,	,	,	_	2	punct	_	_
-24	in	in	IN	IN	_	30	prep	_	_
+21	,	,	,	,	_	4	punct	_	_
+22	and	and	CC	CC	_	4	cc	_	_
+23	,	,	,	,	_	4	punct	_	_
+24	in	in	IN	IN	_	32	prep	_	_
 25	a	a	DT	DT	_	27	det	_	_
 26	subsequent	subsequent	JJ	JJ	_	27	amod	_	_
 27	step	step	NN	NN	_	24	pobj	_	_
-28	,	,	,	,	_	30	punct	_	_
-29	nucleosomes	nucleosomes	NNS	NNS	_	30	nsubj	_	_
-30	are	be	VBP	VBP	_	2	conj	_	_
-31	selectively	selectively	RB	RB	_	30	advmod	_	_
-32	modified	modify	VBN	VBN	_	30	dep	_	_
+28	,	,	,	,	_	32	punct	_	_
+29	nucleosomes	nucleosomes	NNS	NNS	_	32	nsubjpass	_	_
+30	are	be	VBP	VBP	_	32	auxpass	_	_
+31	selectively	selectively	RB	RB	_	32	advmod	_	_
+32	modified	modify	VBN	VBN	_	4	conj	_	_
 33	by	by	IN	IN	_	32	agent	_	_
 34	a	a	DT	DT	_	35	det	_	_
 35	series	series	NN	NN	_	33	pobj	_	_
 36	of	of	IN	IN	_	35	prep	_	_
 37	enzymes	enzyme	NNS	NNS	_	36	pobj	_	_
-38	to	to	TO	TO	sem=PRP	32	advcl	_	_
-39	acquire	acquire	VB	VB	_	38	dep	_	_
+38	to	to	TO	TO	_	39	aux	_	_
+39	acquire	acquire	VB	VB	sem=PRP	32	advcl	_	_
 40	epigenetic	epigenetic	JJ	JJ	_	41	amod	_	_
 41	information	information	NN	NN	_	39	dobj	_	_
-42	.	.	.	.	_	30	punct	_	_
+42	.	.	.	.	_	32	punct	_	_
 
 1	Here	here	RB	RB	_	5	advmod	_	_
 2	,	,	,	,	_	5	punct	_	_
@@ -495,11 +495,11 @@
 2	,	,	,	,	_	4	punct	_	_
 3	they	they	PRP	PRP	_	4	nsubj	_	_
 4	show	show	VBP	VBP	_	0	root	_	_
-5	that	that	IN	IN	_	4	mark	_	_
+5	that	that	IN	IN	_	9	mark	_	_
 6	CAF	caf	NN	NN	_	9	nsubj	_	_
 7	-	-	HYPH	HYPH	_	6	punct	_	_
 8	1	0	CD	CD	_	6	nummod	_	_
-9	confers	confer	VBZ	VBZ	_	5	ccomp	_	_
+9	confers	confer	VBZ	VBZ	_	4	ccomp	_	_
 10	epigenetic	epigenetic	JJ	JJ	_	11	amod	_	_
 11	information	information	NN	NN	_	9	dobj	_	_
 12	to	to	IN	IN	_	9	prep	_	_
@@ -514,12 +514,12 @@
 4	this	this	DT	DT	_	5	det	_	_
 5	study	study	NN	NN	_	6	nsubj	_	_
 6	revealed	reveal	VBD	VBD	_	0	root	_	_
-7	that	that	IN	IN	_	6	mark	_	_
-8	CAF	caf	NN	NN	_	11	nsubj	_	_
+7	that	that	IN	IN	_	12	mark	_	_
+8	CAF	caf	NN	NN	_	12	nsubjpass	_	_
 9	-	-	HYPH	HYPH	_	8	punct	_	_
 10	1	0	CD	CD	_	8	nummod	_	_
-11	is	be	VBZ	VBZ	_	7	ccomp	_	_
-12	required	require	VBN	VBN	_	11	dep	_	_
+11	is	be	VBZ	VBZ	_	12	auxpass	_	_
+12	required	require	VBN	VBN	_	6	ccomp	_	_
 13	for	for	IN	IN	sem=PRP	12	prep	_	_
 14	the	the	DT	DT	_	17	det	_	_
 15	proper	proper	JJ	JJ	_	17	amod	_	_
@@ -534,9 +534,9 @@
 
 1	This	this	DT	DT	_	3	det	_	_
 2	new	new	JJ	JJ	_	3	amod	_	_
-3	knowledge	knowledge	NN	NN	_	4	nsubj	_	_
-4	may	may	MD	MD	_	0	root	_	_
-5	contribute	contribute	VB	VB	_	4	dep	_	_
+3	knowledge	knowledge	NN	NN	_	5	nsubj	_	_
+4	may	may	MD	MD	_	5	aux	_	_
+5	contribute	contribute	VB	VB	_	0	root	_	_
 6	to	to	IN	IN	_	5	prep	_	_
 7	better	well	RBR	RBR	_	8	advmod	_	_
 8	understanding	understand	VBG	VBG	syn=NOM	6	pcomp	_	_
@@ -554,7 +554,7 @@
 20	identity	identity	NN	NN	_	19	appos	_	_
 21	and	and	CC	CC	_	20	cc	_	_
 22	plasticity	plasticity	NN	NN	_	20	conj	_	_
-23	.	.	.	.	_	4	punct	_	_
+23	.	.	.	.	_	5	punct	_	_
 
 1	Introduction	introduction	NN	NN	_	0	root	_	_
 
@@ -595,11 +595,11 @@
 35	]	]	-RRB-	-RRB-	_	34	punct	_	_
 36	.	.	.	.	_	8	punct	_	_
 
-1	While	while	IN	IN	syn=ADV	17	mark	_	_
+1	While	while	IN	IN	_	5	mark	_	_
 2	many	many	JJ	JJ	_	3	amod	_	_
-3	studies	study	NNS	NNS	_	4	nsubj	_	_
-4	have	have	VBP	VBP	_	1	ccomp	_	_
-5	established	establish	VBN	VBN	_	4	dep	_	_
+3	studies	study	NNS	NNS	_	5	nsubj	_	_
+4	have	have	VBP	VBP	_	5	aux	_	_
+5	established	establish	VBN	VBN	syn=ADV	17	advcl	_	_
 6	the	the	DT	DT	_	7	det	_	_
 7	importance	importance	NN	NN	_	5	dobj	_	_
 8	of	of	IN	IN	_	7	prep	_	_
@@ -666,7 +666,7 @@
 36	.	.	.	.	_	3	punct	_	_
 
 1	A	a	DT	DT	_	2	det	_	_
-2	subset	subset	NN	NN	_	11	nsubj	_	_
+2	subset	subset	NN	NN	_	12	nsubj	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	identified	identify	VBN	VBN	_	6	amod	_	_
 5	histone	histone	NN	NN	_	6	compound	_	_
@@ -675,10 +675,10 @@
 8	chromatin	chromatin	NN	NN	_	9	compound	_	_
 9	remodeling	remodeling	NN	NN	_	10	compound	_	_
 10	complexes	complex	NNS	NNS	_	6	conj	_	_
-11	can	can	MD	MD	_	0	root	_	_
-12	collaborate	collaborate	VB	VB	_	11	dep	_	_
-13	to	to	TO	TO	sem=PRP	12	advcl	_	_
-14	promote	promote	VB	VB	_	13	dep	_	_
+11	can	can	MD	MD	_	12	aux	_	_
+12	collaborate	collaborate	VB	VB	_	0	root	_	_
+13	to	to	TO	TO	_	14	aux	_	_
+14	promote	promote	VB	VB	sem=PRP	12	advcl	_	_
 15	nucleosome	nucleosome	NN	NN	_	16	compound	_	_
 16	assembly	assembly	NN	NN	_	14	dobj	_	_
 17	in	in	FW	FW	_	18	advmod	_	_
@@ -690,8 +690,8 @@
 23	a	a	DT	DT	_	25	det	_	_
 24	strategic	strategic	JJ	JJ	_	25	amod	_	_
 25	position	position	NN	NN	_	22	pobj	_	_
-26	to	to	TO	TO	_	25	advcl	_	_
-27	control	control	VB	VB	_	26	dep	_	_
+26	to	to	TO	TO	_	27	aux	_	_
+27	control	control	VB	VB	_	25	advcl	_	_
 28	chromatin	chromatin	NN	NN	_	29	compound	_	_
 29	assembly	assembly	NN	NN	_	27	dobj	_	_
 30	and	and	CC	CC	_	29	cc	_	_
@@ -703,7 +703,7 @@
 36	,	,	,	,	_	37	punct	_	_
 37	8	0	CD	CD	_	20	parataxis	_	_
 38	]	]	-RRB-	-RRB-	_	37	punct	_	_
-39	.	.	.	.	_	11	punct	_	_
+39	.	.	.	.	_	12	punct	_	_
 
 1	Among	among	IN	IN	_	14	prep	_	_
 2	histone	histone	NN	NN	_	3	compound	_	_
@@ -777,16 +777,16 @@
 20	DNA	dna	NN	NN	_	21	compound	_	_
 21	synthesis	synthesis	NN	NN	_	19	pobj	_	_
 22	,	,	,	,	_	6	punct	_	_
-23	whereas	whereas	IN	IN	syn=ADV	6	mark	_	_
+23	whereas	whereas	IN	IN	_	32	mark	_	_
 24	a	a	DT	DT	_	27	det	_	_
 25	second	#ord#	JJ	JJ	_	27	amod	_	_
 26	histone	histone	NN	NN	_	27	compound	_	_
-27	chaperone	chaperone	NN	NN	_	31	nsubj	_	_
+27	chaperone	chaperone	NN	NN	_	32	nsubjpass	_	_
 28	,	,	,	,	_	27	punct	_	_
 29	HIRA	hira	NN	NN	_	27	appos	_	_
-30	,	,	,	,	_	31	punct	_	_
-31	is	be	VBZ	VBZ	_	23	ccomp	_	_
-32	involved	involve	VBN	VBN	_	31	dep	_	_
+30	,	,	,	,	_	32	punct	_	_
+31	is	be	VBZ	VBZ	_	32	auxpass	_	_
+32	involved	involve	VBN	VBN	syn=ADV	6	advcl	_	_
 33	in	in	IN	IN	_	32	prep	_	_
 34	the	the	DT	DT	_	35	det	_	_
 35	deposition	deposition	NN	NN	_	33	pobj	_	_
@@ -860,15 +860,15 @@
 51	]	]	-RRB-	-RRB-	_	48	punct	_	_
 52	.	.	.	.	_	13	punct	_	_
 
-1	Furthermore	furthermore	RB	RB	_	6	advmod	_	_
-2	,	,	,	,	_	6	punct	_	_
-3	p150CAF	p0caf	NN	NN	_	6	nsubj	_	_
+1	Furthermore	furthermore	RB	RB	_	7	advmod	_	_
+2	,	,	,	,	_	7	punct	_	_
+3	p150CAF	p0caf	NN	NN	_	7	nsubjpass	_	_
 4	-	-	HYPH	HYPH	_	3	punct	_	_
 5	1	0	CD	CD	_	3	nummod	_	_
-6	is	be	VBZ	VBZ	_	0	root	_	_
-7	required	require	VBN	VBN	_	6	dep	_	_
-8	to	to	TO	TO	sem=PRP	7	advcl	_	_
-9	ensure	ensure	VB	VB	_	8	dep	_	_
+6	is	be	VBZ	VBZ	_	7	auxpass	_	_
+7	required	require	VBN	VBN	_	0	root	_	_
+8	to	to	TO	TO	_	9	aux	_	_
+9	ensure	ensure	VB	VB	sem=PRP	7	advcl	_	_
 10	a	a	DT	DT	_	14	det	_	_
 11	replication	replication	NN	NN	_	13	npadvmod	_	_
 12	-	-	HYPH	HYPH	_	13	punct	_	_
@@ -892,7 +892,7 @@
 30	[	[	-LRB-	-LRB-	_	31	punct	_	_
 31	16	0	CD	CD	_	7	parataxis	_	_
 32	]	]	-RRB-	-RRB-	_	31	punct	_	_
-33	.	.	.	.	_	6	punct	_	_
+33	.	.	.	.	_	7	punct	_	_
 
 1	Taken	take	VBN	VBN	syn=ADV	6	advcl	_	_
 2	together	together	RB	RB	_	1	advmod	_	_
@@ -919,18 +919,18 @@
 23	traits	trait	NNS	NNS	_	21	pobj	_	_
 24	.	.	.	.	_	6	punct	_	_
 
-1	While	while	IN	IN	syn=ADV	18	mark	_	_
+1	While	while	IN	IN	_	12	mark	_	_
 2	the	the	DT	DT	_	3	det	_	_
-3	function	function	NN	NN	_	10	nsubj	_	_
+3	function	function	NN	NN	_	12	nsubjpass	_	_
 4	of	of	IN	IN	_	3	prep	_	_
 5	this	this	DT	DT	_	9	det	_	_
 6	evolutionary	evolutionary	JJ	JJ	_	7	amod	_	_
 7	conserved	conserve	VBN	VBN	_	9	amod	_	_
 8	histone	histone	NN	NN	_	9	compound	_	_
 9	chaperone	chaperone	NN	NN	_	4	pobj	_	_
-10	has	have	VBZ	VBZ	_	1	ccomp	_	_
-11	been	be	VBN	VBN	_	10	dep	_	_
-12	studied	study	VBN	VBN	_	11	dep	_	_
+10	has	have	VBZ	VBZ	_	12	aux	_	_
+11	been	be	VBN	VBN	_	12	auxpass	_	_
+12	studied	study	VBN	VBN	syn=ADV	18	advcl	_	_
 13	extensively	extensively	RB	RB	_	12	advmod	_	_
 14	biochemically	biochemically	RB	RB	sem=MNR	12	advmod	_	_
 15	,	,	,	,	_	18	punct	_	_
@@ -960,11 +960,11 @@
 39	cells	cell	NNS	NNS	_	33	pobj	_	_
 40	.	.	.	.	_	18	punct	_	_
 
-1	Here	here	RB	RB	_	4	advmod	_	_
-2	,	,	,	,	_	4	punct	_	_
-3	we	we	PRP	PRP	_	4	nsubj	_	_
-4	have	have	VBP	VBP	_	0	root	_	_
-5	analyzed	analyze	VBN	VBN	_	4	dep	_	_
+1	Here	here	RB	RB	_	5	advmod	_	_
+2	,	,	,	,	_	5	punct	_	_
+3	we	we	PRP	PRP	_	5	nsubj	_	_
+4	have	have	VBP	VBP	_	5	aux	_	_
+5	analyzed	analyze	VBN	VBN	_	0	root	_	_
 6	the	the	DT	DT	_	7	det	_	_
 7	importance	importance	NN	NN	_	5	dobj	_	_
 8	of	of	IN	IN	_	7	prep	_	_
@@ -989,16 +989,16 @@
 27	interference	interference	NN	NN	_	25	dobj	_	_
 28	(	(	-LRB-	-LRB-	_	27	punct	_	_
 29	RNAi	rnai	NN	NN	_	27	appos	_	_
-30	)	)	-RRB-	-RRB-	_	4	punct	_	_
-31	.	.	.	.	_	4	punct	_	_
+30	)	)	-RRB-	-RRB-	_	5	punct	_	_
+31	.	.	.	.	_	5	punct	_	_
 
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	show	show	VBP	VBP	_	0	root	_	_
-3	that	that	IN	IN	_	2	mark	_	_
+3	that	that	IN	IN	_	7	mark	_	_
 4	CAF	caf	NN	NN	_	7	nsubj	_	_
 5	-	-	HYPH	HYPH	_	4	punct	_	_
 6	1	0	CD	CD	_	4	nummod	_	_
-7	is	be	VBZ	VBZ	_	3	ccomp	_	_
+7	is	be	VBZ	VBZ	_	2	ccomp	_	_
 8	essential	essential	JJ	JJ	syn=PRD	7	acomp	_	_
 9	for	for	IN	IN	_	8	prep	_	_
 10	viability	viability	NN	NN	_	9	pobj	_	_
@@ -1014,12 +1014,12 @@
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	provide	provide	VBP	VBP	_	0	root	_	_
 3	evidence	evidence	NN	NN	_	2	dobj	_	_
-4	that	that	IN	IN	_	3	mark	_	_
-5	CAF	caf	NN	NN	_	8	nsubj	_	_
+4	that	that	IN	IN	_	9	mark	_	_
+5	CAF	caf	NN	NN	_	9	nsubjpass	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
-8	is	be	VBZ	VBZ	_	4	ccomp	_	_
-9	required	require	VBN	VBN	_	8	dep	_	_
+8	is	be	VBZ	VBZ	_	9	auxpass	_	_
+9	required	require	VBN	VBN	_	3	acl	_	_
 10	for	for	IN	IN	sem=PRP	9	prep	_	_
 11	the	the	DT	DT	_	13	det	_	_
 12	spatial	spatial	JJ	JJ	_	13	amod	_	_
@@ -1045,8 +1045,8 @@
 5	in	in	IN	IN	sem=LOC	2	prep	_	_
 6	ES	es	NN	NN	_	7	compound	_	_
 7	cells	cell	NNS	NNS	_	5	pobj	_	_
-8	to	to	TO	TO	sem=PRP	2	advcl	_	_
-9	delete	delete	VB	VB	_	8	dep	_	_
+8	to	to	TO	TO	_	9	aux	_	_
+9	delete	delete	VB	VB	sem=PRP	2	advcl	_	_
 10	exon	exon	NN	NN	_	9	dobj	_	_
 11	3	0	CD	CD	_	10	nummod	_	_
 12	in	in	IN	IN	sem=LOC	9	prep	_	_
@@ -1069,15 +1069,15 @@
 2	+	+	SYM	SYM	_	1	punct	_	_
 3	/	/	HYPH	HYPH	_	1	punct	_	_
 4	−	−	SYM	SYM	_	1	punct	_	_
-5	mice	mouse	NNS	NNS	_	6	nsubj	_	_
-6	were	be	VBD	VBD	_	0	root	_	_
-7	born	bear	VBN	VBN	_	6	dep	_	_
+5	mice	mouse	NNS	NNS	_	7	nsubjpass	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	born	bear	VBN	VBN	_	0	root	_	_
 8	at	at	IN	IN	_	7	prep	_	_
 9	a	a	DT	DT	_	11	det	_	_
 10	Mendelian	mendelian	JJ	JJ	_	11	amod	_	_
 11	frequency	frequency	NN	NN	_	8	pobj	_	_
-12	,	,	,	,	_	6	punct	_	_
-13	were	be	VBD	VBD	_	6	conj	_	_
+12	,	,	,	,	_	7	punct	_	_
+13	were	be	VBD	VBD	_	7	conj	_	_
 14	of	of	IN	IN	syn=PRD	13	prep	_	_
 15	normal	normal	JJ	JJ	_	16	amod	_	_
 16	size	size	NN	NN	_	14	pobj	_	_
@@ -1092,14 +1092,14 @@
 25	and	and	CC	CC	_	20	cc	_	_
 26	were	be	VBD	VBD	_	20	conj	_	_
 27	fertile	fertile	JJ	JJ	syn=PRD	26	acomp	_	_
-28	.	.	.	.	_	6	punct	_	_
+28	.	.	.	.	_	7	punct	_	_
 
 1	Crossing	cross	VBG	VBG	syn=NOM	4	csubj	_	_
 2	heterozygous	heterozygous	JJ	JJ	_	3	amod	_	_
 3	mice	mouse	NNS	NNS	_	1	dobj	_	_
 4	failed	fail	VBD	VBD	_	0	root	_	_
-5	to	to	TO	TO	_	4	xcomp	_	_
-6	generate	generate	VB	VB	_	5	dep	_	_
+5	to	to	TO	TO	_	6	aux	_	_
+6	generate	generate	VB	VB	_	4	xcomp	_	_
 7	viable	viable	JJ	JJ	_	13	amod	_	_
 8	newborn	newborn	JJ	JJ	_	13	amod	_	_
 9	Chaf1a	chaf0a	NN	NN	_	13	nmod	_	_
@@ -1109,30 +1109,30 @@
 13	mice	mouse	NNS	NNS	_	6	dobj	_	_
 14	.	.	.	.	_	4	punct	_	_
 
-1	Furthermore	furthermore	RB	RB	_	10	advmod	_	_
-2	,	,	,	,	_	10	punct	_	_
+1	Furthermore	furthermore	RB	RB	_	11	advmod	_	_
+2	,	,	,	,	_	11	punct	_	_
 3	no	no	DT	DT	_	9	det	_	_
 4	homozygous	homozygous	JJ	JJ	_	9	amod	_	_
 5	Chaf1a	chaf0a	NN	NN	_	9	nmod	_	_
 6	−	−	SYM	SYM	_	5	punct	_	_
 7	/	/	HYPH	HYPH	_	5	punct	_	_
 8	−	−	SYM	SYM	_	5	punct	_	_
-9	embryos	embryo	NNS	NNS	_	10	nsubj	_	_
-10	were	be	VBD	VBD	_	0	root	_	_
-11	detected	detect	VBN	VBN	_	10	dep	_	_
+9	embryos	embryo	NNS	NNS	_	11	nsubjpass	_	_
+10	were	be	VBD	VBD	_	11	auxpass	_	_
+11	detected	detect	VBN	VBN	_	0	root	_	_
 12	at	at	IN	IN	sem=TMP	11	prep	_	_
 13	any	any	DT	DT	_	12	pobj	_	_
 14	of	of	IN	IN	_	13	prep	_	_
 15	the	the	DT	DT	_	17	det	_	_
 16	post-implantation	post-implantation	JJ	JJ	_	17	amod	_	_
 17	stages	stage	NNS	NNS	_	14	pobj	_	_
-18	.	.	.	.	_	10	punct	_	_
+18	.	.	.	.	_	11	punct	_	_
 
-1	However	however	RB	RB	_	4	advmod	_	_
-2	,	,	,	,	_	4	punct	_	_
-3	we	we	PRP	PRP	_	4	nsubj	_	_
-4	could	could	MD	MD	_	0	root	_	_
-5	detect	detect	VB	VB	_	4	dep	_	_
+1	However	however	RB	RB	_	5	advmod	_	_
+2	,	,	,	,	_	5	punct	_	_
+3	we	we	PRP	PRP	_	5	nsubj	_	_
+4	could	could	MD	MD	_	5	aux	_	_
+5	detect	detect	VB	VB	_	0	root	_	_
 6	Chaf1a	chaf0a	NN	NN	_	10	nmod	_	_
 7	−	−	SYM	SYM	_	6	punct	_	_
 8	/	/	HYPH	HYPH	_	6	punct	_	_
@@ -1153,7 +1153,7 @@
 23	Figure	figure	NN	NN	_	24	compound	_	_
 24	1B	0b	NN	NN	_	5	parataxis	_	_
 25	)	)	-RRB-	-RRB-	_	24	punct	_	_
-26	.	.	.	.	_	4	punct	_	_
+26	.	.	.	.	_	5	punct	_	_
 
 1	They	they	PRP	PRP	_	2	nsubj	_	_
 2	represent	represent	VBP	VBP	_	0	root	_	_
@@ -1173,17 +1173,17 @@
 16	intercrosses	intercrosses	NNS	NNS	_	10	pobj	_	_
 17	,	,	,	,	_	2	punct	_	_
 18	suggesting	suggest	VBG	VBG	syn=ADV	2	advcl	_	_
-19	that	that	IN	IN	_	18	mark	_	_
+19	that	that	IN	IN	_	29	mark	_	_
 20	more	more	JJR	JJR	_	22	amod	_	_
 21	than	than	IN	IN	_	22	quantmod	_	_
-22	half	half	NN	NN	_	28	nsubj	_	_
+22	half	half	NN	NN	_	29	nsubj	_	_
 23	of	of	IN	IN	_	22	prep	_	_
 24	the	the	DT	DT	_	27	det	_	_
 25	homozygous	homozygous	JJ	JJ	_	26	amod	_	_
 26	mutant	mutant	NN	NN	_	27	compound	_	_
 27	embryos	embryo	NNS	NNS	_	23	pobj	_	_
-28	had	have	VBD	VBD	_	19	ccomp	_	_
-29	degenerated	degenerate	VBN	VBN	_	28	dep	_	_
+28	had	have	VBD	VBD	_	29	aux	_	_
+29	degenerated	degenerate	VBN	VBN	_	18	ccomp	_	_
 30	before	before	IN	IN	sem=TMP	29	prep	_	_
 31	this	this	DT	DT	_	32	det	_	_
 32	stage	stage	NN	NN	_	30	pobj	_	_
@@ -1235,9 +1235,9 @@
 9	IF	if	NN	NN	_	7	parataxis	_	_
 10	)	)	-RRB-	-RRB-	_	9	punct	_	_
 11	allowed	allow	VBD	VBD	_	0	root	_	_
-12	us	us	PRP	PRP	_	13	nsubj	_	_
-13	to	to	TO	TO	_	11	ccomp	_	_
-14	compare	compare	VB	VB	_	13	dep	_	_
+12	us	us	PRP	PRP	_	14	nsubj	_	_
+13	to	to	TO	TO	_	14	aux	_	_
+14	compare	compare	VB	VB	_	11	ccomp	_	_
 15	wild	wild	JJ	JJ	_	17	amod	_	_
 16	-	-	HYPH	HYPH	_	17	punct	_	_
 17	type	type	NN	NN	_	24	nmod	_	_
@@ -1251,16 +1251,16 @@
 25	.	.	.	.	_	11	punct	_	_
 
 1	A	a	DT	DT	_	2	det	_	_
-2	loss	loss	NN	NN	_	8	nsubj	_	_
+2	loss	loss	NN	NN	_	11	nsubjpass	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	p150CAF	p0caf	NN	NN	_	7	nmod	_	_
 5	-	-	HYPH	HYPH	_	4	punct	_	_
 6	1	0	CD	CD	_	4	nummod	_	_
 7	staining	staining	NN	NN	_	3	pobj	_	_
-8	could	could	MD	MD	_	0	root	_	_
-9	not	not	RB	RB	_	8	neg	_	_
-10	be	be	VB	VB	_	8	dep	_	_
-11	detected	detect	VBN	VBN	_	10	dep	_	_
+8	could	could	MD	MD	_	11	aux	_	_
+9	not	not	RB	RB	_	11	neg	_	_
+10	be	be	VB	VB	_	11	auxpass	_	_
+11	detected	detect	VBN	VBN	_	0	root	_	_
 12	before	before	IN	IN	sem=TMP	11	prep	_	_
 13	the	the	DT	DT	_	17	det	_	_
 14	eight	#crd#	CD	CD	_	16	nummod	_	_
@@ -1272,11 +1272,11 @@
 20	data	datum	NNS	NNS	_	11	meta	_	_
 21	)	)	-RRB-	-RRB-	_	20	punct	_	_
 22	suggesting	suggest	VBG	VBG	syn=ADV	11	advcl	_	_
-23	that	that	IN	IN	_	22	mark	_	_
+23	that	that	IN	IN	_	27	mark	_	_
 24	maternally	maternally	RB	RB	_	25	advmod	_	_
 25	contributed	contribute	VBN	VBN	_	26	amod	_	_
 26	protein	protein	NN	NN	_	27	nsubj	_	_
-27	is	be	VBZ	VBZ	_	23	ccomp	_	_
+27	is	be	VBZ	VBZ	_	22	ccomp	_	_
 28	present	present	JJ	JJ	syn=PRD	27	acomp	_	_
 29	in	in	IN	IN	sem=LOC	27	prep	_	_
 30	the	the	DT	DT	_	31	det	_	_
@@ -1288,7 +1288,7 @@
 36	-	-	HYPH	HYPH	_	37	punct	_	_
 37	cell	cell	NN	NN	_	38	compound	_	_
 38	stage	stage	NN	NN	_	33	pobj	_	_
-39	.	.	.	.	_	8	punct	_	_
+39	.	.	.	.	_	11	punct	_	_
 
 1	Thus	thus	RB	RB	_	12	advmod	_	_
 2	,	,	,	,	_	12	punct	_	_
@@ -1318,13 +1318,13 @@
 2	,	,	,	,	_	4	punct	_	_
 3	we	we	PRP	PRP	_	4	nsubj	_	_
 4	found	find	VBD	VBD	_	0	root	_	_
-5	that	that	IN	IN	_	4	mark	_	_
+5	that	that	IN	IN	_	11	mark	_	_
 6	the	the	DT	DT	_	8	det	_	_
 7	nuclear	nuclear	JJ	JJ	_	8	amod	_	_
 8	organization	organization	NN	NN	_	11	nsubj	_	_
 9	of	of	IN	IN	_	8	prep	_	_
 10	heterochromatin	heterochromatin	NN	NN	_	9	pobj	_	_
-11	appeared	appear	VBD	VBD	_	5	ccomp	_	_
+11	appeared	appear	VBD	VBD	_	4	ccomp	_	_
 12	abnormal	abnormal	JJ	JJ	syn=PRD	11	oprd	_	_
 13	in	in	IN	IN	sem=LOC	11	prep	_	_
 14	the	the	DT	DT	_	15	det	_	_
@@ -1338,7 +1338,7 @@
 22	.	.	.	.	_	4	punct	_	_
 
 1	Pericentric	pericentric	JJ	JJ	_	2	amod	_	_
-2	heterochromatin	heterochromatin	NN	NN	_	11	nsubj	_	_
+2	heterochromatin	heterochromatin	NN	NN	_	14	nsubjpass	_	_
 3	,	,	,	,	_	2	punct	_	_
 4	the	the	DT	DT	_	6	det	_	_
 5	major	major	JJ	JJ	_	6	amod	_	_
@@ -1346,11 +1346,11 @@
 7	of	of	IN	IN	_	6	prep	_	_
 8	constitutive	constitutive	JJ	JJ	_	9	amod	_	_
 9	heterochromatin	heterochromatin	NN	NN	_	7	pobj	_	_
-10	,	,	,	,	_	11	punct	_	_
-11	can	can	MD	MD	_	0	root	_	_
-12	easily	easily	RB	RB	_	11	advmod	_	_
-13	be	be	VB	VB	_	11	dep	_	_
-14	visualized	visualize	VBN	VBN	_	13	dep	_	_
+10	,	,	,	,	_	14	punct	_	_
+11	can	can	MD	MD	_	14	aux	_	_
+12	easily	easily	RB	RB	_	14	advmod	_	_
+13	be	be	VB	VB	_	14	auxpass	_	_
+14	visualized	visualize	VBN	VBN	_	0	root	_	_
 15	in	in	IN	IN	sem=LOC	14	prep	_	_
 16	interphase	interphase	NN	NN	_	17	compound	_	_
 17	nuclei	nucleus	NNS	NNS	_	15	pobj	_	_
@@ -1370,7 +1370,7 @@
 31	–	-	SYM	SYM	_	32	punct	_	_
 32	19	0	CD	CD	_	30	prep	_	_
 33	]	]	-RRB-	-RRB-	_	28	punct	_	_
-34	.	.	.	.	_	11	punct	_	_
+34	.	.	.	.	_	14	punct	_	_
 
 1	In	in	IN	IN	sem=LOC	15	prep	_	_
 2	wild	wild	JJ	JJ	_	4	amod	_	_
@@ -1401,9 +1401,9 @@
 27	20	0	CD	CD	_	24	parataxis	_	_
 28	]	]	-RRB-	-RRB-	_	27	punct	_	_
 29	,	,	,	,	_	23	punct	_	_
-30	which	which	WDT	WDT	_	31	dep	_	23:ref
-31	are	be	VBP	VBP	_	23	relcl	_	_
-32	visualized	visualize	VBN	VBN	_	31	dep	_	_
+30	which	which	WDT	WDT	_	32	dep	_	23:ref
+31	are	be	VBP	VBP	_	32	auxpass	_	_
+32	visualized	visualize	VBN	VBN	_	23	relcl	_	_
 33	as	as	IN	IN	sem=MNR	32	prep	_	_
 34	DAPI	dapi	NN	NN	_	36	npadvmod	_	_
 35	-	-	HYPH	HYPH	_	36	punct	_	_
@@ -1416,10 +1416,10 @@
 42	.	.	.	.	_	15	punct	_	_
 
 1	These	these	DT	DT	_	2	det	_	_
-2	structures	structure	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	not	not	RB	RB	_	3	neg	_	_
-5	detected	detect	VBN	VBN	_	3	dep	_	_
+2	structures	structure	NNS	NNS	_	5	nsubjpass	_	_
+3	were	be	VBD	VBD	_	5	auxpass	_	_
+4	not	not	RB	RB	_	5	neg	_	_
+5	detected	detect	VBN	VBN	_	0	root	_	_
 6	in	in	IN	IN	sem=LOC	5	prep	_	_
 7	Chaf1a	chaf0a	NN	NN	_	11	nmod	_	_
 8	−	−	SYM	SYM	_	7	punct	_	_
@@ -1430,9 +1430,9 @@
 13	Figure	figure	NN	NN	_	14	compound	_	_
 14	1D	0d	NN	NN	_	5	parataxis	_	_
 15	)	)	-RRB-	-RRB-	_	14	punct	_	_
-16	.	.	.	.	_	3	punct	_	_
+16	.	.	.	.	_	5	punct	_	_
 
-1	Since	since	IN	IN	sem=PRP	19	mark	_	_
+1	Since	since	IN	IN	_	9	mark	_	_
 2	chromatin	chromatin	NN	NN	_	3	compound	_	_
 3	architecture	architecture	NN	NN	_	9	nsubj	_	_
 4	and	and	CC	CC	_	3	cc	_	_
@@ -1440,7 +1440,7 @@
 6	-	-	HYPH	HYPH	_	7	punct	_	_
 7	order	order	NN	NN	_	8	compound	_	_
 8	structures	structure	NNS	NNS	_	3	conj	_	_
-9	are	be	VBP	VBP	_	1	ccomp	_	_
+9	are	be	VBP	VBP	sem=PRP	19	advcl	_	_
 10	important	important	JJ	JJ	syn=PRD	9	acomp	_	_
 11	for	for	IN	IN	_	10	prep	_	_
 12	genome	genome	NN	NN	_	13	compound	_	_
@@ -1451,8 +1451,8 @@
 17	,	,	,	,	_	19	punct	_	_
 18	we	we	PRP	PRP	_	19	nsubj	_	_
 19	decided	decide	VBD	VBD	_	0	root	_	_
-20	to	to	TO	TO	_	19	xcomp	_	_
-21	characterize	characterize	VB	VB	_	20	dep	_	_
+20	to	to	TO	TO	_	21	aux	_	_
+21	characterize	characterize	VB	VB	_	19	xcomp	_	_
 22	this	this	DT	DT	_	23	det	_	_
 23	phenotype	phenotype	NN	NN	_	21	dobj	_	_
 24	in	in	IN	IN	_	21	prep	_	_
@@ -1515,10 +1515,10 @@
 32	.	.	.	.	_	13	punct	_	_
 
 1	Heterochromatin	heterochromatin	NN	NN	_	2	compound	_	_
-2	domains	domain	NNS	NNS	_	3	nsubj	_	_
-3	are	be	VBP	VBP	_	0	root	_	_
-4	progressively	progressively	RB	RB	_	3	advmod	_	_
-5	assembled	assemble	VBN	VBN	_	3	dep	_	_
+2	domains	domain	NNS	NNS	_	5	nsubjpass	_	_
+3	are	be	VBP	VBP	_	5	auxpass	_	_
+4	progressively	progressively	RB	RB	_	5	advmod	_	_
+5	assembled	assemble	VBN	VBN	_	0	root	_	_
 6	into	into	IN	IN	_	5	prep	_	_
 7	DAPI	dapi	NN	NN	_	9	npadvmod	_	_
 8	-	-	HYPH	HYPH	_	9	punct	_	_
@@ -1539,20 +1539,20 @@
 23	Figure	figure	NN	NN	_	24	compound	_	_
 24	1F	0f	NN	NN	_	5	parataxis	_	_
 25	)	)	-RRB-	-RRB-	_	24	punct	_	_
-26	.	.	.	.	_	3	punct	_	_
+26	.	.	.	.	_	5	punct	_	_
 
 1	Localization	localization	NN	NN	_	4	nsubj	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	HP1α	hp0α	NN	NN	_	2	pobj	_	_
 4	confirmed	confirm	VBD	VBD	_	0	root	_	_
-5	that	that	IN	IN	_	4	mark	_	_
+5	that	that	IN	IN	_	12	mark	_	_
 6	the	the	DT	DT	_	7	det	_	_
 7	structures	structure	NNS	NNS	_	12	nsubj	_	_
 8	visualized	visualize	VBN	VBN	_	7	acl	_	_
 9	by	by	IN	IN	sem=MNR	8	prep	_	_
 10	DAPI	dapi	NN	NN	_	11	compound	_	_
 11	staining	staining	NN	NN	_	9	pobj	_	_
-12	correspond	correspond	VBP	VBP	_	5	ccomp	_	_
+12	correspond	correspond	VBP	VBP	_	4	ccomp	_	_
 13	to	to	IN	IN	_	12	prep	_	_
 14	constitutive	constitutive	JJ	JJ	_	15	amod	_	_
 15	heterochromatin	heterochromatin	NN	NN	_	13	pobj	_	_
@@ -1562,16 +1562,16 @@
 19	)	)	-RRB-	-RRB-	_	18	punct	_	_
 20	.	.	.	.	_	4	punct	_	_
 
-1	Thus	thus	RB	RB	_	8	advmod	_	_
-2	,	,	,	,	_	8	punct	_	_
+1	Thus	thus	RB	RB	_	10	advmod	_	_
+2	,	,	,	,	_	10	punct	_	_
 3	the	the	DT	DT	_	5	det	_	_
 4	nuclear	nuclear	JJ	JJ	_	5	amod	_	_
-5	organization	organization	NN	NN	_	8	nsubj	_	_
+5	organization	organization	NN	NN	_	10	nsubjpass	_	_
 6	of	of	IN	IN	_	5	prep	_	_
 7	heterochromatin	heterochromatin	NN	NN	_	6	pobj	_	_
-8	is	be	VBZ	VBZ	_	0	root	_	_
-9	dramatically	dramatically	RB	RB	_	8	advmod	_	_
-10	modified	modify	VBN	VBN	_	8	dep	_	_
+8	is	be	VBZ	VBZ	_	10	auxpass	_	_
+9	dramatically	dramatically	RB	RB	_	10	advmod	_	_
+10	modified	modify	VBN	VBN	_	0	root	_	_
 11	during	during	IN	IN	sem=TMP	10	prep	_	_
 12	pre-implantation	pre-implantation	JJ	JJ	_	13	amod	_	_
 13	development	development	NN	NN	_	11	pobj	_	_
@@ -1584,7 +1584,7 @@
 20	and	and	CC	CC	_	19	cc	_	_
 21	blastocyst	blastocyst	NN	NN	_	19	conj	_	_
 22	stages	stage	NNS	NNS	_	15	pobj	_	_
-23	.	.	.	.	_	8	punct	_	_
+23	.	.	.	.	_	10	punct	_	_
 
 1	In	in	IN	IN	sem=LOC	26	prep	_	_
 2	Chaf1a	chaf0a	NN	NN	_	7	nmod	_	_
@@ -1594,9 +1594,9 @@
 6	E4	e0	NN	NN	_	7	compound	_	_
 7	embryos	embryo	NNS	NNS	_	1	pobj	_	_
 8	,	,	,	,	_	7	punct	_	_
-9	which	which	WDT	WDT	_	10	dep	_	7:ref
-10	are	be	VBP	VBP	_	7	relcl	_	_
-11	arrested	arrest	VBN	VBN	_	10	dep	_	_
+9	which	which	WDT	WDT	_	11	dep	_	7:ref
+10	are	be	VBP	VBP	_	11	auxpass	_	_
+11	arrested	arrest	VBN	VBN	_	7	relcl	_	_
 12	between	between	IN	IN	sem=TMP	11	prep	_	_
 13	the	the	DT	DT	_	20	det	_	_
 14	eight	#crd#	CD	CD	_	19	nummod	_	_
@@ -1736,11 +1736,11 @@
 14	,	,	,	,	_	3	punct	_	_
 15	and	and	CC	CC	_	3	cc	_	_
 16	reveal	reveal	VBP	VBP	_	3	conj	_	_
-17	that	that	IN	IN	_	16	mark	_	_
+17	that	that	IN	IN	_	21	mark	_	_
 18	this	this	DT	DT	_	19	det	_	_
-19	protein	protein	NN	NN	_	20	nsubj	_	_
-20	is	be	VBZ	VBZ	_	17	ccomp	_	_
-21	required	require	VBN	VBN	_	20	dep	_	_
+19	protein	protein	NN	NN	_	21	nsubjpass	_	_
+20	is	be	VBZ	VBZ	_	21	auxpass	_	_
+21	required	require	VBN	VBN	_	16	ccomp	_	_
 22	for	for	IN	IN	sem=PRP	21	prep	_	_
 23	the	the	DT	DT	_	28	det	_	_
 24	proper	proper	JJ	JJ	_	28	amod	_	_
@@ -1760,25 +1760,25 @@
 2	,	,	,	,	_	4	punct	_	_
 3	we	we	PRP	PRP	_	4	nsubj	_	_
 4	wondered	wonder	VBD	VBD	_	0	root	_	_
-5	whether	whether	IN	IN	_	4	mark	_	_
+5	whether	whether	IN	IN	_	16	mark	_	_
 6	a	a	DT	DT	_	8	det	_	_
 7	similar	similar	JJ	JJ	_	8	amod	_	_
-8	requirement	requirement	NN	NN	_	13	nsubj	_	_
+8	requirement	requirement	NN	NN	_	16	nsubjpass	_	_
 9	for	for	IN	IN	_	8	prep	_	_
 10	CAF	caf	NN	NN	_	9	pobj	_	_
 11	-	-	HYPH	HYPH	_	10	punct	_	_
 12	1	0	CD	CD	_	10	nummod	_	_
-13	could	could	MD	MD	_	5	ccomp	_	_
-14	also	also	RB	RB	_	13	advmod	_	_
-15	be	be	VB	VB	_	13	dep	_	_
-16	observed	observe	VBN	VBN	_	15	dep	_	_
+13	could	could	MD	MD	_	16	aux	_	_
+14	also	also	RB	RB	_	16	advmod	_	_
+15	be	be	VB	VB	_	16	auxpass	_	_
+16	observed	observe	VBN	VBN	_	4	ccomp	_	_
 17	in	in	IN	IN	sem=LOC	16	prep	_	_
 18	ES	es	NN	NN	_	19	compound	_	_
 19	cells	cell	NNS	NNS	_	17	pobj	_	_
 20	,	,	,	,	_	19	punct	_	_
-21	which	which	WDT	WDT	_	22	dep	_	19:ref
-22	are	be	VBP	VBP	_	19	relcl	_	_
-23	derived	derive	VBN	VBN	_	22	dep	_	_
+21	which	which	WDT	WDT	_	23	dep	_	19:ref
+22	are	be	VBP	VBP	_	23	auxpass	_	_
+23	derived	derive	VBN	VBN	_	19	relcl	_	_
 24	from	from	IN	IN	_	23	prep	_	_
 25	the	the	DT	DT	_	29	det	_	_
 26	blastocyst	blastocyst	NN	NN	_	29	nmod	_	_
@@ -1787,7 +1787,7 @@
 29	mass	mass	NN	NN	_	24	pobj	_	_
 30	.	.	.	.	_	4	punct	_	_
 
-1	Given	give	VBN	VBN	_	16	prep	_	_
+1	Given	give	VBN	VBN	_	19	prep	_	_
 2	the	the	DT	DT	_	5	det	_	_
 3	early	early	JJ	JJ	_	5	amod	_	_
 4	developmental	developmental	JJ	JJ	_	5	amod	_	_
@@ -1799,22 +1799,22 @@
 10	/	/	HYPH	HYPH	_	8	punct	_	_
 11	−	−	SYM	SYM	_	8	punct	_	_
 12	embryos	embryo	NNS	NNS	_	7	pobj	_	_
-13	,	,	,	,	_	16	punct	_	_
+13	,	,	,	,	_	19	punct	_	_
 14	such	such	JJ	JJ	_	15	amod	_	_
-15	cells	cell	NNS	NNS	_	16	nsubj	_	_
-16	could	could	MD	MD	_	0	root	_	_
-17	not	not	RB	RB	_	16	neg	_	_
-18	be	be	VB	VB	_	16	dep	_	_
-19	derived	derive	VBN	VBN	_	18	dep	_	_
+15	cells	cell	NNS	NNS	_	19	nsubjpass	_	_
+16	could	could	MD	MD	_	19	aux	_	_
+17	not	not	RB	RB	_	19	neg	_	_
+18	be	be	VB	VB	_	19	auxpass	_	_
+19	derived	derive	VBN	VBN	_	0	root	_	_
 20	directly	directly	RB	RB	_	19	advmod	_	_
 21	from	from	IN	IN	_	19	prep	_	_
 22	null	null	JJ	JJ	_	23	amod	_	_
 23	embryos	embryo	NNS	NNS	_	21	pobj	_	_
-24	,	,	,	,	_	16	punct	_	_
-25	and	and	CC	CC	_	16	cc	_	_
+24	,	,	,	,	_	19	punct	_	_
+25	and	and	CC	CC	_	19	cc	_	_
 26	we	we	PRP	PRP	_	28	nsubj	_	_
 27	thus	thus	RB	RB	_	28	advmod	_	_
-28	used	use	VBD	VBD	_	16	conj	_	_
+28	used	use	VBD	VBD	_	19	conj	_	_
 29	an	an	DT	DT	_	31	det	_	_
 30	RNAi	rnai	NN	NN	_	31	compound	_	_
 31	strategy	strategy	NN	NN	_	28	dobj	_	_
@@ -1822,24 +1822,24 @@
 33	Figure	figure	NN	NN	_	34	compound	_	_
 34	2A	0a	NN	NN	_	28	parataxis	_	_
 35	)	)	-RRB-	-RRB-	_	34	punct	_	_
-36	.	.	.	.	_	16	punct	_	_
+36	.	.	.	.	_	19	punct	_	_
 
 1	p150CAF	p0caf	NN	NN	_	4	nmod	_	_
 2	-	-	HYPH	HYPH	_	1	punct	_	_
 3	1	0	CD	CD	_	1	nummod	_	_
-4	knockdown	knockdown	NN	NN	_	8	nsubj	_	_
+4	knockdown	knockdown	NN	NN	_	9	nsubjpass	_	_
 5	in	in	IN	IN	sem=LOC	4	prep	_	_
 6	ES	es	NN	NN	_	7	compound	_	_
 7	cells	cell	NNS	NNS	_	5	pobj	_	_
-8	was	be	VBD	VBD	_	0	root	_	_
-9	quantified	quantify	VBN	VBN	_	8	dep	_	_
+8	was	be	VBD	VBD	_	9	auxpass	_	_
+9	quantified	quantify	VBN	VBN	_	0	root	_	_
 10	by	by	IN	IN	sem=MNR	9	prep	_	_
 11	Western	western	NNP	NNP	_	12	compound	_	_
 12	blot	blot	NN	NN	_	13	compound	_	_
 13	analysis	analysis	NN	NN	_	10	pobj	_	_
 14	and	and	CC	CC	_	13	cc	_	_
 15	IF	if	NN	NN	_	13	conj	_	_
-16	.	.	.	.	_	8	punct	_	_
+16	.	.	.	.	_	9	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	3	punct	_	_
 2	Figure	figure	NN	NN	_	3	compound	_	_
@@ -1875,13 +1875,13 @@
 1	DAPI	dapi	NN	NN	_	3	npadvmod	_	_
 2	-	-	HYPH	HYPH	_	3	punct	_	_
 3	dense	dense	JJ	JJ	_	4	amod	_	_
-4	foci	focus	NNS	NNS	_	5	nsubj	_	_
-5	were	be	VBD	VBD	_	0	root	_	_
-6	lost	lose	VBN	VBN	_	5	dep	_	_
-7	,	,	,	,	_	5	punct	_	_
-8	and	and	CC	CC	_	5	cc	_	_
+4	foci	focus	NNS	NNS	_	6	nsubjpass	_	_
+5	were	be	VBD	VBD	_	6	auxpass	_	_
+6	lost	lose	VBN	VBN	_	0	root	_	_
+7	,	,	,	,	_	6	punct	_	_
+8	and	and	CC	CC	_	6	cc	_	_
 9	we	we	PRP	PRP	_	10	nsubj	_	_
-10	observed	observe	VBD	VBD	_	5	conj	_	_
+10	observed	observe	VBD	VBD	_	6	conj	_	_
 11	diffuse	diffuse	JJ	JJ	_	15	amod	_	_
 12	HP1α	hp0α	NN	NN	_	15	nmod	_	_
 13	and	and	CC	CC	_	12	cc	_	_
@@ -1906,11 +1906,11 @@
 1	This	this	DT	DT	_	2	det	_	_
 2	result	result	NN	NN	_	3	nsubj	_	_
 3	indicates	indicate	VBZ	VBZ	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	8	mark	_	_
 5	p150CAF	p0caf	NN	NN	_	8	nsubj	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
-8	is	be	VBZ	VBZ	_	4	ccomp	_	_
+8	is	be	VBZ	VBZ	_	3	ccomp	_	_
 9	essential	essential	JJ	JJ	syn=PRD	8	acomp	_	_
 10	for	for	IN	IN	_	9	prep	_	_
 11	nuclear	nuclear	JJ	JJ	_	12	amod	_	_
@@ -1930,12 +1930,12 @@
 25	embryos	embryo	NNS	NNS	_	22	pobj	_	_
 26	.	.	.	.	_	3	punct	_	_
 
-1	Surprisingly	surprisingly	RB	RB	_	4	advmod	_	_
-2	,	,	,	,	_	4	punct	_	_
-3	we	we	PRP	PRP	_	4	nsubj	_	_
-4	did	do	VBD	VBD	_	0	root	_	_
-5	not	not	RB	RB	_	4	neg	_	_
-6	observe	observe	VB	VB	_	4	dep	_	_
+1	Surprisingly	surprisingly	RB	RB	_	6	advmod	_	_
+2	,	,	,	,	_	6	punct	_	_
+3	we	we	PRP	PRP	_	6	nsubj	_	_
+4	did	do	VBD	VBD	_	6	aux	_	_
+5	not	not	RB	RB	_	6	neg	_	_
+6	observe	observe	VB	VB	_	0	root	_	_
 7	this	this	DT	DT	_	9	det	_	_
 8	severe	severe	JJ	JJ	_	9	amod	_	_
 9	alteration	alteration	NN	NN	_	6	dobj	_	_
@@ -1957,7 +1957,7 @@
 25	depletion	depletion	NN	NN	_	21	pobj	_	_
 26	by	by	IN	IN	_	25	prep	_	_
 27	RNAi	rnai	NN	NN	_	26	pobj	_	_
-28	.	.	.	.	_	4	punct	_	_
+28	.	.	.	.	_	6	punct	_	_
 
 1	p150CAF	p0caf	NN	NN	_	4	nmod	_	_
 2	-	-	HYPH	HYPH	_	1	punct	_	_
@@ -1979,9 +1979,9 @@
 18	)	)	-RRB-	-RRB-	_	17	punct	_	_
 19	,	,	,	,	_	7	punct	_	_
 20	but	but	CC	CC	_	7	cc	_	_
-21	did	do	VBD	VBD	_	7	conj	_	_
-22	not	not	RB	RB	_	21	neg	_	_
-23	alter	alter	VB	VB	_	21	dep	_	_
+21	did	do	VBD	VBD	_	23	aux	_	_
+22	not	not	RB	RB	_	23	neg	_	_
+23	alter	alter	VB	VB	_	7	conj	_	_
 24	the	the	DT	DT	_	25	det	_	_
 25	clustering	clustering	NN	NN	_	23	dobj	_	_
 26	of	of	IN	IN	_	25	prep	_	_
@@ -1995,24 +1995,24 @@
 34	)	)	-RRB-	-RRB-	_	31	punct	_	_
 35	.	.	.	.	_	7	punct	_	_
 
-1	Similarly	similarly	RB	RB	_	10	advmod	_	_
-2	,	,	,	,	_	10	punct	_	_
+1	Similarly	similarly	RB	RB	_	12	advmod	_	_
+2	,	,	,	,	_	12	punct	_	_
 3	p150CAF	p0caf	NN	NN	_	6	nmod	_	_
 4	-	-	HYPH	HYPH	_	3	punct	_	_
 5	1	0	CD	CD	_	3	nummod	_	_
-6	depletion	depletion	NN	NN	_	10	nsubj	_	_
+6	depletion	depletion	NN	NN	_	12	nsubj	_	_
 7	in	in	IN	IN	sem=LOC	6	prep	_	_
 8	3T3	0t0	NN	NN	_	9	compound	_	_
 9	cells	cell	NNS	NNS	_	7	pobj	_	_
-10	did	do	VBD	VBD	_	0	root	_	_
-11	not	not	RB	RB	_	10	neg	_	_
-12	affect	affect	VB	VB	_	10	dep	_	_
+10	did	do	VBD	VBD	_	12	aux	_	_
+11	not	not	RB	RB	_	12	neg	_	_
+12	affect	affect	VB	VB	_	0	root	_	_
 13	heterochromatin	heterochromatin	NN	NN	_	14	compound	_	_
 14	organization	organization	NN	NN	_	12	dobj	_	_
 15	[	[	-LRB-	-LRB-	_	16	punct	_	_
 16	16	0	CD	CD	_	12	parataxis	_	_
 17	]	]	-RRB-	-RRB-	_	16	punct	_	_
-18	.	.	.	.	_	10	punct	_	_
+18	.	.	.	.	_	12	punct	_	_
 
 1	These	these	DT	DT	_	2	det	_	_
 2	observations	observation	NNS	NNS	_	3	nsubj	_	_
@@ -2036,7 +2036,7 @@
 1	We	we	PRP	PRP	_	3	nsubj	_	_
 2	also	also	RB	RB	_	3	advmod	_	_
 3	wondered	wonder	VBD	VBD	_	0	root	_	_
-4	whether	whether	IN	IN	_	3	mark	_	_
+4	whether	whether	IN	IN	_	14	mark	_	_
 5	loss	loss	NN	NN	_	14	nsubj	_	_
 6	of	of	IN	IN	_	5	prep	_	_
 7	p150CAF	p0caf	NN	NN	_	6	pobj	_	_
@@ -2046,17 +2046,17 @@
 11	ES	es	NN	NN	_	12	compound	_	_
 12	cells	cell	NNS	NNS	_	10	pobj	_	_
 13	specifically	specifically	RB	RB	_	14	advmod	_	_
-14	affects	affect	VBZ	VBZ	_	4	ccomp	_	_
+14	affects	affect	VBZ	VBZ	_	3	advcl	_	_
 15	the	the	DT	DT	_	18	det	_	_
 16	heterochromatin	heterochromatin	NN	NN	_	18	nmod	_	_
 17	nuclear	nuclear	JJ	JJ	_	18	amod	_	_
 18	subcompartment	subcompartment	NN	NN	_	14	dobj	_	_
-19	,	,	,	,	_	4	punct	_	_
-20	or	or	CC	CC	_	4	cc	_	_
-21	whether	whether	IN	IN	_	4	mark	_	_
-22	it	it	PRP	PRP	_	23	nsubj	_	_
-23	might	might	MD	MD	_	21	ccomp	_	_
-24	result	result	VB	VB	_	23	dep	_	_
+19	,	,	,	,	_	14	punct	_	_
+20	or	or	CC	CC	_	14	cc	_	_
+21	whether	whether	IN	IN	_	24	mark	_	_
+22	it	it	PRP	PRP	_	24	nsubj	_	_
+23	might	might	MD	MD	_	24	aux	_	_
+24	result	result	VB	VB	_	14	conj	_	_
 25	in	in	IN	IN	_	24	prep	_	_
 26	a	a	DT	DT	_	29	det	_	_
 27	more	more	RBR	RBR	_	28	advmod	_	_
@@ -2082,8 +2082,8 @@
 11	PML	pml	NN	NN	_	9	appos	_	_
 12	)	)	-RRB-	-RRB-	_	13	punct	_	_
 13	protein	protein	NN	NN	_	6	pobj	_	_
-14	to	to	TO	TO	sem=PRP	2	advcl	_	_
-15	study	study	VB	VB	_	14	dep	_	_
+14	to	to	TO	TO	_	15	aux	_	_
+15	study	study	VB	VB	sem=PRP	2	advcl	_	_
 16	the	the	DT	DT	_	17	det	_	_
 17	fate	fate	NN	NN	_	15	dobj	_	_
 18	of	of	IN	IN	_	17	prep	_	_
@@ -2104,10 +2104,10 @@
 33	]	]	-RRB-	-RRB-	_	32	punct	_	_
 34	.	.	.	.	_	2	punct	_	_
 
-1	We	we	PRP	PRP	_	2	nsubj	_	_
-2	could	could	MD	MD	_	0	root	_	_
-3	not	not	RB	RB	_	2	neg	_	_
-4	detect	detect	VB	VB	_	2	dep	_	_
+1	We	we	PRP	PRP	_	4	nsubj	_	_
+2	could	could	MD	MD	_	4	aux	_	_
+3	not	not	RB	RB	_	4	neg	_	_
+4	detect	detect	VB	VB	_	0	root	_	_
 5	any	any	DT	DT	_	7	det	_	_
 6	significant	significant	JJ	JJ	_	7	amod	_	_
 7	difference	difference	NN	NN	_	4	dobj	_	_
@@ -2134,18 +2134,18 @@
 28	Figure	figure	NN	NN	_	29	compound	_	_
 29	2D	0d	NN	NN	_	4	parataxis	_	_
 30	)	)	-RRB-	-RRB-	_	29	punct	_	_
-31	.	.	.	.	_	2	punct	_	_
+31	.	.	.	.	_	4	punct	_	_
 
 1	These	these	DT	DT	_	2	det	_	_
 2	data	datum	NNS	NNS	_	3	nsubj	_	_
 3	show	show	VBP	VBP	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	10	mark	_	_
 5	nuclear	nuclear	JJ	JJ	_	6	amod	_	_
-6	architecture	architecture	NN	NN	_	7	nsubj	_	_
-7	is	be	VBZ	VBZ	_	4	ccomp	_	_
-8	not	not	RB	RB	_	7	neg	_	_
-9	globally	globally	RB	RB	_	7	advmod	_	_
-10	altered	alter	VBN	VBN	_	7	dep	_	_
+6	architecture	architecture	NN	NN	_	10	nsubjpass	_	_
+7	is	be	VBZ	VBZ	_	10	auxpass	_	_
+8	not	not	RB	RB	_	10	neg	_	_
+9	globally	globally	RB	RB	_	10	advmod	_	_
+10	altered	alter	VBN	VBN	_	3	ccomp	_	_
 11	following	follow	VBG	VBG	sem=TMP	10	prep	_	_
 12	CAF	caf	NN	NN	_	11	pobj	_	_
 13	-	-	HYPH	HYPH	_	12	punct	_	_
@@ -2164,14 +2164,14 @@
 5	blot	blot	NN	NN	_	6	compound	_	_
 6	analysis	analysis	NN	NN	_	7	nsubj	_	_
 7	revealed	reveal	VBD	VBD	_	0	root	_	_
-8	that	that	IN	IN	_	7	mark	_	_
+8	that	that	IN	IN	_	15	mark	_	_
 9	CAF	caf	NN	NN	_	12	nmod	_	_
 10	-	-	HYPH	HYPH	_	9	punct	_	_
 11	1	0	CD	CD	_	9	nummod	_	_
-12	depletion	depletion	NN	NN	_	13	nsubj	_	_
-13	did	do	VBD	VBD	_	8	ccomp	_	_
-14	not	not	RB	RB	_	13	neg	_	_
-15	result	result	VB	VB	_	13	dep	_	_
+12	depletion	depletion	NN	NN	_	15	nsubj	_	_
+13	did	do	VBD	VBD	_	15	aux	_	_
+14	not	not	RB	RB	_	15	neg	_	_
+15	result	result	VB	VB	_	7	ccomp	_	_
 16	in	in	IN	IN	_	15	prep	_	_
 17	altered	alter	VBN	VBN	_	18	amod	_	_
 18	levels	level	NNS	NNS	_	16	pobj	_	_
@@ -2191,14 +2191,14 @@
 32	)	)	-RRB-	-RRB-	_	31	punct	_	_
 33	.	.	.	.	_	7	punct	_	_
 
-1	Thus	thus	RB	RB	_	6	advmod	_	_
-2	,	,	,	,	_	6	punct	_	_
-3	CAF	caf	NN	NN	_	6	nsubj	_	_
+1	Thus	thus	RB	RB	_	8	advmod	_	_
+2	,	,	,	,	_	8	punct	_	_
+3	CAF	caf	NN	NN	_	8	nsubjpass	_	_
 4	-	-	HYPH	HYPH	_	3	punct	_	_
 5	1	0	CD	CD	_	3	nummod	_	_
-6	is	be	VBZ	VBZ	_	0	root	_	_
-7	specifically	specifically	RB	RB	_	6	advmod	_	_
-8	required	require	VBN	VBN	_	6	dep	_	_
+6	is	be	VBZ	VBZ	_	8	auxpass	_	_
+7	specifically	specifically	RB	RB	_	8	advmod	_	_
+8	required	require	VBN	VBN	_	0	root	_	_
 9	in	in	IN	IN	sem=LOC	8	prep	_	_
 10	early	early	JJ	JJ	_	11	amod	_	_
 11	embryos	embryo	NNS	NNS	_	9	pobj	_	_
@@ -2215,7 +2215,7 @@
 22	heterochromatin	heterochromatin	NN	NN	_	24	nmod	_	_
 23	subnuclear	subnuclear	JJ	JJ	_	24	amod	_	_
 24	compartment	compartment	NN	NN	_	20	pobj	_	_
-25	.	.	.	.	_	6	punct	_	_
+25	.	.	.	.	_	8	punct	_	_
 
 1	Previous	previous	JJ	JJ	_	2	amod	_	_
 2	studies	study	NNS	NNS	_	8	nsubj	_	_
@@ -2225,13 +2225,13 @@
 6	cell	cell	NN	NN	_	7	compound	_	_
 7	lines	line	NNS	NNS	_	4	pobj	_	_
 8	showed	show	VBD	VBD	_	0	root	_	_
-9	that	that	IN	IN	_	8	mark	_	_
+9	that	that	IN	IN	_	15	mark	_	_
 10	CAF	caf	NN	NN	_	13	nmod	_	_
 11	-	-	HYPH	HYPH	_	10	punct	_	_
 12	1	0	CD	CD	_	10	nummod	_	_
-13	activity	activity	NN	NN	_	14	nsubj	_	_
-14	is	be	VBZ	VBZ	_	9	ccomp	_	_
-15	required	require	VBN	VBN	_	14	dep	_	_
+13	activity	activity	NN	NN	_	15	nsubjpass	_	_
+14	is	be	VBZ	VBZ	_	15	auxpass	_	_
+15	required	require	VBN	VBN	_	8	ccomp	_	_
 16	for	for	IN	IN	sem=PRP	15	prep	_	_
 17	S	s	NN	NN	_	18	compound	_	_
 18	phase	phase	NN	NN	_	19	compound	_	_
@@ -2248,7 +2248,7 @@
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	show	show	VBP	VBP	_	0	root	_	_
 3	here	here	RB	RB	_	2	advmod	_	_
-4	that	that	IN	IN	_	2	mark	_	_
+4	that	that	IN	IN	_	33	mark	_	_
 5	3	0	CD	CD	_	6	nummod	_	_
 6	d	d	NN	NN	syn=ADV	7	npadvmod	_	_
 7	after	after	IN	IN	sem=TMP	33	prep	_	_
@@ -2277,14 +2277,14 @@
 30	IF	if	NN	NN	_	31	compound	_	_
 31	signal	signal	NN	NN	_	26	pobj	_	_
 32	)	)	-RRB-	-RRB-	_	19	punct	_	_
-33	appear	appear	VBP	VBP	_	4	ccomp	_	_
+33	appear	appear	VBP	VBP	_	2	ccomp	_	_
 34	still	still	RB	RB	_	35	advmod	_	_
 35	active	active	JJ	JJ	syn=PRD	33	oprd	_	_
 36	for	for	IN	IN	_	35	prep	_	_
 37	replication	replication	NN	NN	_	36	pobj	_	_
 38	,	,	,	,	_	33	punct	_	_
-39	as	as	IN	IN	syn=ADV	33	mark	_	_
-40	revealed	reveal	VBN	VBN	_	39	advcl	_	_
+39	as	as	IN	IN	_	40	mark	_	_
+40	revealed	reveal	VBN	VBN	syn=ADV	33	advcl	_	_
 41	by	by	IN	IN	_	40	agent	_	_
 42	incorporation	incorporation	NN	NN	_	41	pobj	_	_
 43	of	of	IN	IN	_	42	prep	_	_
@@ -2351,18 +2351,18 @@
 7	ES	es	NN	NN	_	8	compound	_	_
 8	cells	cell	NNS	NNS	_	9	nsubj	_	_
 9	cease	cease	VBP	VBP	_	0	root	_	_
-10	to	to	TO	TO	_	9	xcomp	_	_
-11	proliferate	proliferate	VB	VB	_	10	dep	_	_
+10	to	to	TO	TO	_	11	aux	_	_
+11	proliferate	proliferate	VB	VB	_	9	xcomp	_	_
 12	and	and	CC	CC	_	9	cc	_	_
 13	die	die	VB	VB	_	9	conj	_	_
 14	,	,	,	,	_	9	punct	_	_
 15	revealing	reveal	VBG	VBG	syn=ADV	9	advcl	_	_
-16	that	that	IN	IN	_	15	mark	_	_
-17	p150CAF	p0caf	NN	NN	_	20	nsubj	_	_
+16	that	that	IN	IN	_	21	mark	_	_
+17	p150CAF	p0caf	NN	NN	_	21	nsubjpass	_	_
 18	-	-	HYPH	HYPH	_	17	punct	_	_
 19	1	0	CD	CD	_	17	nummod	_	_
-20	is	be	VBZ	VBZ	_	16	ccomp	_	_
-21	required	require	VBN	VBN	_	20	dep	_	_
+20	is	be	VBZ	VBZ	_	21	auxpass	_	_
+21	required	require	VBN	VBN	_	15	ccomp	_	_
 22	for	for	IN	IN	sem=PRP	21	prep	_	_
 23	an	an	DT	DT	_	26	det	_	_
 24	essential	essential	JJ	JJ	_	26	amod	_	_
@@ -2379,7 +2379,7 @@
 3	our	our	PRP$	PRP$	_	4	poss	_	_
 4	data	datum	NNS	NNS	_	5	nsubj	_	_
 5	demonstrate	demonstrate	VBP	VBP	_	0	root	_	_
-6	that	that	IN	IN	_	5	mark	_	_
+6	that	that	IN	IN	_	19	mark	_	_
 7	loss	loss	NN	NN	_	19	nsubj	_	_
 8	of	of	IN	IN	_	7	prep	_	_
 9	p150CAF	p0caf	NN	NN	_	12	nmod	_	_
@@ -2392,7 +2392,7 @@
 16	and	and	CC	CC	_	15	cc	_	_
 17	early	early	JJ	JJ	_	18	amod	_	_
 18	embryos	embryo	NNS	NNS	_	15	conj	_	_
-19	alters	alter	VBZ	VBZ	_	6	ccomp	_	_
+19	alters	alter	VBZ	VBZ	_	5	ccomp	_	_
 20	first	#ord#	RB	RB	_	19	advmod	_	_
 21	the	the	DT	DT	_	22	det	_	_
 22	organization	organization	NN	NN	_	19	dobj	_	22:gap
@@ -2416,9 +2416,9 @@
 
 1	In	in	IN	IN	_	13	prep	_	_
 2	order	order	NN	NN	_	1	pobj	_	_
-3	to	to	TO	TO	_	2	acl	_	_
-4	better	well	RBR	RBR	_	3	advmod	_	_
-5	characterize	characterize	VB	VB	_	3	dep	_	_
+3	to	to	TO	TO	_	5	aux	_	_
+4	better	well	RBR	RBR	_	5	advmod	_	_
+5	characterize	characterize	VB	VB	_	2	acl	_	_
 6	the	the	DT	DT	_	7	det	_	_
 7	defects	defect	NNS	NNS	_	5	dobj	_	_
 8	in	in	IN	IN	_	7	prep	_	_
@@ -2439,8 +2439,8 @@
 23	FISH	fish	NN	NN	_	21	appos	_	_
 24	)	)	-RRB-	-RRB-	_	25	punct	_	_
 25	experiments	experiment	NNS	NNS	_	13	dobj	_	_
-26	to	to	TO	TO	sem=PRP	13	advcl	_	_
-27	reveal	reveal	VB	VB	_	26	dep	_	_
+26	to	to	TO	TO	_	27	aux	_	_
+27	reveal	reveal	VB	VB	sem=PRP	13	advcl	_	_
 28	the	the	DT	DT	_	30	det	_	_
 29	spatial	spatial	JJ	JJ	_	30	amod	_	_
 30	distribution	distribution	NN	NN	_	27	dobj	_	_
@@ -2451,12 +2451,12 @@
 35	chromosomal	chromosomal	JJ	JJ	_	36	amod	_	_
 36	regions	region	NNS	NNS	_	31	pobj	_	_
 37	,	,	,	,	_	36	punct	_	_
-38	which	which	WDT	WDT	_	41	dep	_	36:ref
-39	in	in	IN	IN	sem=LOC	41	prep	_	_
+38	which	which	WDT	WDT	_	43	dep	_	36:ref
+39	in	in	IN	IN	sem=LOC	43	prep	_	_
 40	mouse	mouse	NN	NN	_	39	pobj	_	_
-41	are	be	VBP	VBP	_	36	relcl	_	_
-42	mainly	mainly	RB	RB	_	41	advmod	_	_
-43	composed	compose	VBN	VBN	_	41	dep	_	_
+41	are	be	VBP	VBP	_	43	auxpass	_	_
+42	mainly	mainly	RB	RB	_	43	advmod	_	_
+43	composed	compose	VBN	VBN	_	36	relcl	_	_
 44	of	of	IN	IN	_	43	prep	_	_
 45	large	large	JJ	JJ	_	46	amod	_	_
 46	blocks	block	NNS	NNS	_	44	pobj	_	_
@@ -2481,9 +2481,9 @@
 6	form	form	VBP	VBP	_	0	root	_	_
 7	clusters	cluster	NNS	NNS	_	6	dobj	_	_
 8	,	,	,	,	_	7	punct	_	_
-9	which	which	WDT	WDT	_	10	dep	_	7:ref
-10	are	be	VBP	VBP	_	7	relcl	_	_
-11	revealed	reveal	VBN	VBN	_	10	dep	_	_
+9	which	which	WDT	WDT	_	11	dep	_	7:ref
+10	are	be	VBP	VBP	_	11	auxpass	_	_
+11	revealed	reveal	VBN	VBN	_	7	relcl	_	_
 12	by	by	IN	IN	sem=MNR	11	prep	_	_
 13	FISH	fish	NN	NN	_	12	pobj	_	_
 14	as	as	IN	IN	_	11	prep	_	_
@@ -2560,13 +2560,13 @@
 
 1	Individual	individual	JJ	JJ	_	3	amod	_	_
 2	pericentric	pericentric	JJ	JJ	_	3	amod	_	_
-3	domains	domain	NNS	NNS	_	7	nsubj	_	_
+3	domains	domain	NNS	NNS	_	9	nsubjpass	_	_
 4	from	from	IN	IN	_	3	prep	_	_
 5	single	single	JJ	JJ	_	6	amod	_	_
 6	chromosomes	chromosome	NNS	NNS	_	4	pobj	_	_
-7	are	be	VBP	VBP	_	0	root	_	_
-8	now	now	RB	RB	sem=TMP	7	advmod	_	_
-9	found	find	VBN	VBN	_	7	dep	_	_
+7	are	be	VBP	VBP	_	9	auxpass	_	_
+8	now	now	RB	RB	sem=TMP	9	advmod	_	_
+9	found	find	VBN	VBN	_	0	root	_	_
 10	either	either	CC	CC	_	11	preconj	_	_
 11	isolated	isolated	JJ	JJ	syn=PRD	9	oprd	_	_
 12	or	or	CC	CC	_	11	cc	_	_
@@ -2588,23 +2588,23 @@
 28	Figure	figure	NN	NN	_	29	compound	_	_
 29	4B	0b	NN	NN	_	9	parataxis	_	_
 30	)	)	-RRB-	-RRB-	_	29	punct	_	_
-31	.	.	.	.	_	7	punct	_	_
+31	.	.	.	.	_	9	punct	_	_
 
 1	Such	such	JJ	JJ	_	2	amod	_	_
-2	aggregates	aggregate	NNS	NNS	_	13	nsubj	_	_
+2	aggregates	aggregate	NNS	NNS	_	15	nsubjpass	_	_
 3	,	,	,	,	_	2	punct	_	_
-4	which	which	WDT	WDT	_	5	dep	_	2:ref
-5	are	be	VBP	VBP	_	2	relcl	_	_
-6	often	often	RB	RB	_	5	advmod	_	_
-7	found	find	VBN	VBN	_	5	dep	_	_
+4	which	which	WDT	WDT	_	7	dep	_	2:ref
+5	are	be	VBP	VBP	_	7	auxpass	_	_
+6	often	often	RB	RB	_	7	advmod	_	_
+7	found	find	VBN	VBN	_	2	relcl	_	_
 8	at	at	IN	IN	sem=LOC	7	prep	_	_
 9	the	the	DT	DT	_	11	det	_	_
 10	nuclear	nuclear	JJ	JJ	_	11	amod	_	_
 11	periphery	periphery	NN	NN	_	8	pobj	_	_
-12	,	,	,	,	_	13	punct	_	_
-13	are	be	VBP	VBP	_	0	root	_	_
-14	also	also	RB	RB	_	13	advmod	_	_
-15	revealed	reveal	VBN	VBN	_	13	dep	_	_
+12	,	,	,	,	_	15	punct	_	_
+13	are	be	VBP	VBP	_	15	auxpass	_	_
+14	also	also	RB	RB	_	15	advmod	_	_
+15	revealed	reveal	VBN	VBN	_	0	root	_	_
 16	by	by	IN	IN	sem=MNR	15	prep	_	_
 17	DAPI	dapi	NN	NN	_	18	compound	_	_
 18	staining	staining	NN	NN	_	16	pobj	_	_
@@ -2621,7 +2621,7 @@
 29	of	of	IN	IN	_	27	prep	_	_
 30	-	-	HYPH	HYPH	_	29	punct	_	_
 31	function	function	NN	NN	_	29	pobj	_	_
-32	.	.	.	.	_	13	punct	_	_
+32	.	.	.	.	_	15	punct	_	_
 
 1	Quantification	quantification	NN	NN	_	12	nsubj	_	_
 2	of	of	IN	IN	_	1	prep	_	_
@@ -2687,9 +2687,9 @@
 14	cells	cell	NNS	NNS	_	12	pobj	_	_
 15	,	,	,	,	_	6	punct	_	_
 16	suggesting	suggest	VBG	VBG	syn=ADV	6	advcl	_	_
-17	that	that	IN	IN	_	16	mark	_	_
+17	that	that	IN	IN	_	19	mark	_	_
 18	they	they	PRP	PRP	_	19	nsubj	_	_
-19	remain	remain	VBP	VBP	_	17	ccomp	_	_
+19	remain	remain	VBP	VBP	_	16	ccomp	_	_
 20	unaffected	unaffected	JJ	JJ	syn=PRD	19	acomp	_	_
 21	by	by	IN	IN	_	20	prep	_	_
 22	p150CAF	p0caf	NN	NN	_	25	nmod	_	_
@@ -2710,12 +2710,12 @@
 4	these	these	DT	DT	_	5	det	_	_
 5	results	result	NNS	NNS	_	6	nsubj	_	_
 6	show	show	VBP	VBP	_	0	root	_	_
-7	that	that	IN	IN	_	6	mark	_	_
-8	p150CAF	p0caf	NN	NN	_	11	nsubj	_	_
+7	that	that	IN	IN	_	12	mark	_	_
+8	p150CAF	p0caf	NN	NN	_	12	nsubjpass	_	_
 9	-	-	HYPH	HYPH	_	8	punct	_	_
 10	1	0	CD	CD	_	8	nummod	_	_
-11	is	be	VBZ	VBZ	_	7	ccomp	_	_
-12	required	require	VBN	VBN	_	11	dep	_	_
+11	is	be	VBZ	VBZ	_	12	auxpass	_	_
+12	required	require	VBN	VBN	_	6	ccomp	_	_
 13	for	for	IN	IN	sem=PRP	12	prep	_	_
 14	the	the	DT	DT	_	16	det	_	_
 15	proper	proper	JJ	JJ	_	16	amod	_	_
@@ -2756,24 +2756,24 @@
 26	,	,	,	,	_	28	punct	_	_
 27	we	we	PRP	PRP	_	28	nsubj	_	_
 28	wondered	wonder	VBD	VBD	_	0	root	_	_
-29	whether	whether	IN	IN	_	28	mark	_	_
+29	whether	whether	IN	IN	_	39	mark	_	_
 30	this	this	DT	DT	_	31	det	_	_
-31	defect	defect	NN	NN	_	38	nsubj	_	_
+31	defect	defect	NN	NN	_	39	nsubj	_	_
 32	in	in	IN	IN	_	31	prep	_	_
 33	higher	high	JJR	JJR	_	35	amod	_	_
 34	-	-	HYPH	HYPH	_	35	punct	_	_
 35	order	order	NN	NN	_	37	compound	_	_
 36	chromatin	chromatin	NN	NN	_	37	compound	_	_
 37	organization	organization	NN	NN	_	32	pobj	_	_
-38	could	could	MD	MD	_	29	ccomp	_	_
-39	reflect	reflect	VB	VB	_	38	dep	_	_
+38	could	could	MD	MD	_	39	aux	_	_
+39	reflect	reflect	VB	VB	_	28	ccomp	_	_
 40	an	an	DT	DT	_	43	det	_	_
 41	aberrant	aberrant	JJ	JJ	_	43	amod	_	_
 42	nucleosomal	nucleosomal	JJ	JJ	_	43	amod	_	_
 43	organization	organization	NN	NN	_	39	dobj	_	_
 44	.	.	.	.	_	28	punct	_	_
 
-1	Using	use	VBG	VBG	sem=MNR	13	advcl	_	_
+1	Using	use	VBG	VBG	sem=MNR	15	advcl	_	_
 2	DNase	dnase	NN	NN	_	1	dobj	_	_
 3	I	i	CD	CD	_	2	nummod	_	_
 4	and	and	CC	CC	_	2	cc	_	_
@@ -2783,11 +2783,11 @@
 8	MNase	mnase	NN	NN	_	6	appos	_	_
 9	)	)	-RRB-	-RRB-	_	10	punct	_	_
 10	assays	assay	NNS	NNS	_	2	conj	_	_
-11	,	,	,	,	_	13	punct	_	_
-12	we	we	PRP	PRP	_	13	nsubj	_	_
-13	could	could	MD	MD	_	0	root	_	_
-14	not	not	RB	RB	_	13	neg	_	_
-15	observe	observe	VB	VB	_	13	dep	_	_
+11	,	,	,	,	_	15	punct	_	_
+12	we	we	PRP	PRP	_	15	nsubj	_	_
+13	could	could	MD	MD	_	15	aux	_	_
+14	not	not	RB	RB	_	15	neg	_	_
+15	observe	observe	VB	VB	_	0	root	_	_
 16	any	any	DT	DT	_	18	det	_	_
 17	significant	significant	JJ	JJ	_	18	amod	_	_
 18	difference	difference	NN	NN	_	15	dobj	_	_
@@ -2816,7 +2816,7 @@
 41	Figure	figure	NN	NN	_	15	parataxis	_	_
 42	5	0	CD	CD	_	41	nummod	_	_
 43	)	)	-RRB-	-RRB-	_	41	punct	_	_
-44	.	.	.	.	_	13	punct	_	_
+44	.	.	.	.	_	15	punct	_	_
 
 1	In	in	IN	IN	_	9	prep	_	_
 2	a	a	DT	DT	_	4	det	_	_
@@ -2851,9 +2851,9 @@
 31	vectors	vector	NNS	NNS	_	23	pobj	_	_
 32	.	.	.	.	_	9	punct	_	_
 
-1	Nuclei	nucleus	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	incubated	incubate	VBN	VBN	_	2	dep	_	_
+1	Nuclei	nucleus	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	incubated	incubate	VBN	VBN	_	0	root	_	_
 4	in	in	IN	IN	sem=MNR	3	prep	_	_
 5	buffers	buffer	NNS	NNS	_	4	pobj	_	_
 6	with	with	IN	IN	_	5	prep	_	_
@@ -2869,7 +2869,7 @@
 16	1	0	CD	CD	_	17	nummod	_	_
 17	M	m	NN	NN	_	18	compound	_	_
 18	NaCl	nacl	NN	NN	_	15	pobj	_	_
-19	.	.	.	.	_	2	punct	_	_
+19	.	.	.	.	_	3	punct	_	_
 
 1	In	in	IN	IN	_	14	prep	_	_
 2	all	all	DT	DT	_	3	det	_	_
@@ -2915,8 +2915,8 @@
 11	heterochromatin	heterochromatin	NN	NN	_	9	pobj	_	_
 12	are	be	VBP	VBP	_	0	root	_	_
 13	unlikely	unlikely	JJ	JJ	syn=PRD	12	acomp	_	_
-14	to	to	TO	TO	_	13	xcomp	_	_
-15	be	be	VB	VB	_	14	dep	_	_
+14	to	to	TO	TO	_	15	aux	_	_
+15	be	be	VB	VB	_	13	xcomp	_	_
 16	the	the	DT	DT	_	17	det	_	_
 17	consequence	consequence	NN	NN	syn=PRD	15	attr	_	_
 18	of	of	IN	IN	_	17	prep	_	_
@@ -2930,15 +2930,15 @@
 1	Our	our	PRP$	PRP$	_	2	poss	_	_
 2	findings	finding	NNS	NNS	_	3	nsubj	_	_
 3	showed	show	VBD	VBD	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	12	mark	_	_
 5	the	the	DT	DT	_	7	det	_	_
 6	nuclear	nuclear	JJ	JJ	_	7	amod	_	_
-7	localization	localization	NN	NN	_	10	nsubj	_	_
+7	localization	localization	NN	NN	_	12	nsubjpass	_	_
 8	of	of	IN	IN	_	7	prep	_	_
 9	HP1α	hp0α	NN	NN	_	8	pobj	_	_
-10	is	be	VBZ	VBZ	_	4	ccomp	_	_
-11	severely	severely	RB	RB	_	10	advmod	_	_
-12	altered	alter	VBN	VBN	_	10	dep	_	_
+10	is	be	VBZ	VBZ	_	12	auxpass	_	_
+11	severely	severely	RB	RB	_	12	advmod	_	_
+12	altered	alter	VBN	VBN	_	3	ccomp	_	_
 13	in	in	IN	IN	sem=LOC	12	prep	_	_
 14	Chaf1a	chaf0a	NN	NN	_	18	nmod	_	_
 15	−	−	SYM	SYM	_	14	punct	_	_
@@ -2966,8 +2966,8 @@
 9	marks	mark	NNS	NNS	_	6	pobj	_	_
 10	previously	previously	RB	RB	sem=TMP	11	advmod	_	_
 11	shown	show	VBN	VBN	_	9	acl	_	_
-12	to	to	TO	TO	_	11	xcomp	_	_
-13	characterize	characterize	VB	VB	_	12	dep	_	_
+12	to	to	TO	TO	_	13	aux	_	_
+13	characterize	characterize	VB	VB	_	11	xcomp	_	_
 14	pericentric	pericentric	JJ	JJ	_	15	amod	_	_
 15	heterochromatin	heterochromatin	NN	NN	_	13	dobj	_	_
 16	.	.	.	.	_	3	punct	_	_
@@ -3005,7 +3005,7 @@
 31	)	)	-RRB-	-RRB-	_	29	punct	_	_
 32	.	.	.	.	_	3	punct	_	_
 
-1	As	as	IN	IN	syn=ADV	25	mark	_	_
+1	As	as	IN	IN	_	14	mark	_	_
 2	the	the	DT	DT	_	6	det	_	_
 3	LTM7	ltm0	NN	NN	_	6	compound	_	_
 4	ES	es	NN	NN	_	6	compound	_	_
@@ -3018,7 +3018,7 @@
 11	our	our	PRP$	PRP$	_	13	poss	_	_
 12	RNAi	rnai	NN	NN	_	13	compound	_	_
 13	experiments	experiment	NNS	NNS	_	10	pobj	_	_
-14	is	be	VBZ	VBZ	_	1	ccomp	_	_
+14	is	be	VBZ	VBZ	syn=ADV	27	advcl	_	_
 15	a	a	DT	DT	_	21	det	_	_
 16	female	female	JJ	JJ	_	21	amod	_	_
 17	(	(	-LRB-	-LRB-	_	18	punct	_	_
@@ -3026,32 +3026,32 @@
 19	)	)	-RRB-	-RRB-	_	18	punct	_	_
 20	cell	cell	NN	NN	_	21	compound	_	_
 21	line	line	NN	NN	syn=PRD	14	attr	_	_
-22	,	,	,	,	_	25	punct	_	_
+22	,	,	,	,	_	27	punct	_	_
 23	DNA	dna	NN	NN	_	24	compound	_	_
-24	methylation	methylation	NN	NN	_	25	nsubj	_	_
-25	is	be	VBZ	VBZ	_	0	root	_	_
-26	globally	globally	RB	RB	_	25	advmod	_	_
-27	reduced	reduce	VBN	VBN	_	25	dep	_	_
+24	methylation	methylation	NN	NN	_	27	nsubjpass	_	_
+25	is	be	VBZ	VBZ	_	27	auxpass	_	_
+26	globally	globally	RB	RB	_	27	advmod	_	_
+27	reduced	reduce	VBN	VBN	_	0	root	_	_
 28	in	in	IN	IN	sem=LOC	27	prep	_	_
 29	these	these	DT	DT	_	30	det	_	_
 30	cells	cell	NNS	NNS	_	28	pobj	_	_
 31	[	[	-LRB-	-LRB-	_	32	punct	_	_
 32	26	0	CD	CD	_	27	parataxis	_	_
 33	]	]	-RRB-	-RRB-	_	32	punct	_	_
-34	.	.	.	.	_	25	punct	_	_
+34	.	.	.	.	_	27	punct	_	_
 
-1	To	to	TO	TO	sem=PRP	29	advcl	_	_
-2	rule	rule	VB	VB	_	1	dep	_	_
+1	To	to	TO	TO	_	2	aux	_	_
+2	rule	rule	VB	VB	sem=PRP	29	advcl	_	_
 3	out	out	RP	RP	_	2	prt	_	_
 4	the	the	DT	DT	_	5	det	_	_
 5	possibility	possibility	NN	NN	_	2	dobj	_	_
-6	that	that	IN	IN	_	5	mark	_	_
-7	hypomethylation	hypomethylation	NN	NN	_	11	nsubj	_	_
+6	that	that	IN	IN	_	12	mark	_	_
+7	hypomethylation	hypomethylation	NN	NN	_	12	nsubj	_	_
 8	of	of	IN	IN	_	7	prep	_	_
 9	pericentric	pericentric	JJ	JJ	_	10	amod	_	_
 10	repeats	repeat	NNS	NNS	_	8	pobj	_	_
-11	might	might	MD	MD	_	6	ccomp	_	_
-12	contribute	contribute	VB	VB	_	11	dep	_	_
+11	might	might	MD	MD	_	12	aux	_	_
+12	contribute	contribute	VB	VB	_	5	acl	_	_
 13	to	to	IN	IN	_	12	prep	_	_
 14	the	the	DT	DT	_	15	det	_	_
 15	destabilization	destabilization	NN	NN	_	13	pobj	_	_
@@ -3082,13 +3082,13 @@
 40	,	,	,	,	_	29	punct	_	_
 41	and	and	CC	CC	_	29	cc	_	_
 42	confirmed	confirm	VBD	VBD	_	29	conj	_	_
-43	that	that	IN	IN	_	42	mark	_	_
+43	that	that	IN	IN	_	49	mark	_	_
 44	loss	loss	NN	NN	_	49	nsubj	_	_
 45	of	of	IN	IN	_	44	prep	_	_
 46	p150CAF	p0caf	NN	NN	_	45	pobj	_	_
 47	-	-	HYPH	HYPH	_	46	punct	_	_
 48	1	0	CD	CD	_	46	nummod	_	_
-49	leads	lead	VBZ	VBZ	_	43	ccomp	_	_
+49	leads	lead	VBZ	VBZ	_	42	ccomp	_	_
 50	to	to	IN	IN	_	49	prep	_	_
 51	disruption	disruption	NN	NN	_	50	pobj	_	_
 52	of	of	IN	IN	_	51	prep	_	_
@@ -3136,11 +3136,11 @@
 
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	found	find	VBD	VBD	_	0	root	_	_
-3	that	that	IN	IN	_	2	mark	_	_
+3	that	that	IN	IN	_	7	mark	_	_
 4	pericentric	pericentric	JJ	JJ	_	5	amod	_	_
-5	DNA	dna	NN	NN	_	6	nsubj	_	_
-6	was	be	VBD	VBD	_	3	ccomp	_	_
-7	immunoprecipitated	immunoprecipitated	VBN	VBN	_	6	dep	_	_
+5	DNA	dna	NN	NN	_	7	nsubjpass	_	_
+6	was	be	VBD	VBD	_	7	auxpass	_	_
+7	immunoprecipitated	immunoprecipitated	VBN	VBN	_	2	ccomp	_	_
 8	with	with	IN	IN	_	7	prep	_	_
 9	a	a	DT	DT	_	14	det	_	_
 10	2	0	CD	CD	_	13	npadvmod	_	_
@@ -3169,7 +3169,7 @@
 33	)	)	-RRB-	-RRB-	_	30	punct	_	_
 34	.	.	.	.	_	2	punct	_	_
 
-1	Immunoprecipitation	immunoprecipitation	NN	NN	_	10	nsubj	_	_
+1	Immunoprecipitation	immunoprecipitation	NN	NN	_	12	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	minor	minor	JJ	JJ	_	5	amod	_	_
 4	satellite	satellite	NN	NN	_	5	compound	_	_
@@ -3178,16 +3178,16 @@
 7	the	the	DT	DT	_	9	det	_	_
 8	same	same	JJ	JJ	_	9	amod	_	_
 9	experiment	experiment	NN	NN	_	6	pobj	_	_
-10	was	be	VBD	VBD	_	0	root	_	_
-11	less	less	RBR	RBR	_	10	advmod	_	_
-12	affected	affect	VBN	VBN	_	10	dep	_	_
+10	was	be	VBD	VBD	_	12	auxpass	_	_
+11	less	less	RBR	RBR	_	12	advmod	_	_
+12	affected	affect	VBN	VBN	_	0	root	_	_
 13	(	(	-LRB-	-LRB-	_	15	punct	_	_
 14	Figure	figure	NN	NN	_	15	compound	_	_
 15	7B	0b	NN	NN	_	12	parataxis	_	_
 16	)	)	-RRB-	-RRB-	_	15	punct	_	_
 17	,	,	,	,	_	12	punct	_	_
 18	showing	show	VBG	VBG	syn=ADV	12	advcl	_	_
-19	that	that	IN	IN	_	18	mark	_	_
+19	that	that	IN	IN	_	27	mark	_	_
 20	loss	loss	NN	NN	_	27	nsubj	_	_
 21	of	of	IN	IN	_	20	prep	_	_
 22	p150CAF	p0caf	NN	NN	_	25	nmod	_	_
@@ -3195,23 +3195,23 @@
 24	1	0	CD	CD	_	22	nummod	_	_
 25	function	function	NN	NN	_	21	pobj	_	_
 26	mainly	mainly	RB	RB	_	27	advmod	_	_
-27	affects	affect	VBZ	VBZ	_	19	ccomp	_	_
+27	affects	affect	VBZ	VBZ	_	18	ccomp	_	_
 28	H4K20me3	h0k0me0	NN	NN	_	27	dobj	_	_
 29	at	at	IN	IN	_	28	prep	_	_
 30	pericentric	pericentric	JJ	JJ	_	31	amod	_	_
 31	heterochromatin	heterochromatin	NN	NN	_	29	pobj	_	_
-32	.	.	.	.	_	10	punct	_	_
+32	.	.	.	.	_	12	punct	_	_
 
-1	Moreover	moreover	RB	RB	_	9	advmod	_	_
-2	,	,	,	,	_	9	punct	_	_
+1	Moreover	moreover	RB	RB	_	10	advmod	_	_
+2	,	,	,	,	_	10	punct	_	_
 3	no	no	DT	DT	_	5	det	_	_
 4	significant	significant	JJ	JJ	_	5	amod	_	_
-5	difference	difference	NN	NN	_	9	nsubj	_	_
+5	difference	difference	NN	NN	_	10	nsubjpass	_	_
 6	in	in	IN	IN	_	5	prep	_	_
 7	immunoprecipitation	immunoprecipitation	NN	NN	_	8	compound	_	_
 8	efficiency	efficiency	NN	NN	_	6	pobj	_	_
-9	was	be	VBD	VBD	_	0	root	_	_
-10	detected	detect	VBN	VBN	_	9	dep	_	_
+9	was	be	VBD	VBD	_	10	auxpass	_	_
+10	detected	detect	VBN	VBN	_	0	root	_	_
 11	at	at	IN	IN	_	10	prep	_	_
 12	intracisternal	intracisternal	JJ	JJ	_	14	amod	_	_
 13	A	a	NN	NN	_	14	nmod	_	_
@@ -3238,16 +3238,16 @@
 34	[	[	-LRB-	-LRB-	_	35	punct	_	_
 35	31	0	CD	CD	_	10	parataxis	_	_
 36	]	]	-RRB-	-RRB-	_	35	punct	_	_
-37	.	.	.	.	_	9	punct	_	_
+37	.	.	.	.	_	10	punct	_	_
 
 1	This	this	DT	DT	_	2	det	_	_
 2	result	result	NN	NN	_	3	nsubj	_	_
 3	shows	show	VBZ	VBZ	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	8	mark	_	_
 5	p150CAF	p0caf	NN	NN	_	8	nsubj	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
-8	contributes	contribute	VBZ	VBZ	_	4	ccomp	_	_
+8	contributes	contribute	VBZ	VBZ	_	3	ccomp	_	_
 9	to	to	IN	IN	_	8	prep	_	_
 10	normal	normal	JJ	JJ	_	11	amod	_	_
 11	levels	level	NNS	NNS	_	9	pobj	_	_
@@ -3267,14 +3267,14 @@
 
 1	The	the	DT	DT	_	3	det	_	_
 2	H3K9me3	h0k0me0	NN	NN	_	3	compound	_	_
-3	mark	mark	NN	NN	_	7	nsubj	_	_
+3	mark	mark	NN	NN	_	10	nsubjpass	_	_
 4	[	[	-LRB-	-LRB-	_	5	punct	_	_
 5	32	0	CD	CD	_	3	parataxis	_	_
 6	]	]	-RRB-	-RRB-	_	5	punct	_	_
-7	was	be	VBD	VBD	_	0	root	_	_
-8	also	also	RB	RB	_	7	advmod	_	_
-9	significantly	significantly	RB	RB	_	7	advmod	_	_
-10	reduced	reduce	VBN	VBN	_	7	dep	_	_
+7	was	be	VBD	VBD	_	10	auxpass	_	_
+8	also	also	RB	RB	_	10	advmod	_	_
+9	significantly	significantly	RB	RB	_	10	advmod	_	_
+10	reduced	reduce	VBN	VBN	_	0	root	_	_
 11	in	in	IN	IN	sem=LOC	10	prep	_	_
 12	p150CAF	p0caf	NN	NN	_	16	npadvmod	_	_
 13	-	-	HYPH	HYPH	_	12	punct	_	_
@@ -3283,8 +3283,8 @@
 16	depleted	deplete	VBN	VBN	_	17	amod	_	_
 17	cells	cell	NNS	NNS	_	11	pobj	_	_
 18	,	,	,	,	_	10	punct	_	_
-19	though	though	IN	IN	syn=ADV	10	mark	_	_
-20	to	to	IN	IN	_	19	prep	_	_
+19	though	though	IN	IN	_	20	mark	_	_
+20	to	to	IN	IN	syn=ADV	10	advcl	_	_
 21	a	a	DT	DT	_	23	det	_	_
 22	lesser	less	JJR	JJR	_	23	amod	_	_
 23	extent	extent	NN	NN	_	20	pobj	_	_
@@ -3296,7 +3296,7 @@
 29	and	and	CC	CC	_	28	cc	_	_
 30	7B	0b	NN	NN	_	28	conj	_	_
 31	)	)	-RRB-	-RRB-	_	28	punct	_	_
-32	.	.	.	.	_	7	punct	_	_
+32	.	.	.	.	_	10	punct	_	_
 
 1	In	in	IN	IN	sem=LOC	13	prep	_	_
 2	wild	wild	JJ	JJ	_	4	amod	_	_
@@ -3335,10 +3335,10 @@
 35	)	)	-RRB-	-RRB-	_	32	punct	_	_
 36	.	.	.	.	_	13	punct	_	_
 
-1	H3K9me3	h0k0me0	NN	NN	_	2	nsubj	_	_
-2	was	be	VBD	VBD	_	0	root	_	_
-3	severely	severely	RB	RB	_	2	advmod	_	_
-4	perturbed	perturb	VBN	VBN	_	2	dep	_	_
+1	H3K9me3	h0k0me0	NN	NN	_	4	nsubjpass	_	_
+2	was	be	VBD	VBD	_	4	auxpass	_	_
+3	severely	severely	RB	RB	_	4	advmod	_	_
+4	perturbed	perturb	VBN	VBN	_	0	root	_	_
 5	in	in	IN	IN	sem=LOC	4	prep	_	_
 6	p150CAF	p0caf	NN	NN	_	10	npadvmod	_	_
 7	-	-	HYPH	HYPH	_	6	punct	_	_
@@ -3358,16 +3358,16 @@
 21	Figure	figure	NN	NN	_	22	compound	_	_
 22	7C	0c	NN	NN	_	4	parataxis	_	_
 23	)	)	-RRB-	-RRB-	_	22	punct	_	_
-24	.	.	.	.	_	2	punct	_	_
+24	.	.	.	.	_	4	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	H4K20me3	h0k0me0	NN	NN	_	3	compound	_	_
-3	pattern	pattern	NN	NN	_	4	nsubj	_	_
-4	was	be	VBD	VBD	_	0	root	_	_
+3	pattern	pattern	NN	NN	_	8	nsubjpass	_	_
+4	was	be	VBD	VBD	_	8	auxpass	_	_
 5	even	even	RB	RB	_	6	advmod	_	_
 6	more	more	RBR	RBR	_	7	advmod	_	_
-7	severely	severely	RB	RB	_	4	advmod	_	_
-8	altered	alter	VBN	VBN	_	4	dep	_	_
+7	severely	severely	RB	RB	_	8	advmod	_	_
+8	altered	alter	VBN	VBN	_	0	root	_	_
 9	,	,	,	,	_	8	punct	_	_
 10	showing	show	VBG	VBG	syn=ADV	8	advcl	_	_
 11	both	both	CC	CC	_	13	preconj	_	_
@@ -3391,19 +3391,19 @@
 29	Figure	figure	NN	NN	_	30	compound	_	_
 30	7D	0d	NN	NN	_	8	parataxis	_	_
 31	)	)	-RRB-	-RRB-	_	30	punct	_	_
-32	.	.	.	.	_	4	punct	_	_
+32	.	.	.	.	_	8	punct	_	_
 
-1	Consistent	consistent	JJ	JJ	syn=PRD	10	advcl	_	_
+1	Consistent	consistent	JJ	JJ	syn=PRD	11	advcl	_	_
 2	with	with	IN	IN	_	1	prep	_	_
 3	our	our	PRP$	PRP$	_	5	poss	_	_
 4	ChIP	chip	NN	NN	_	5	compound	_	_
 5	experiments	experiment	NNS	NNS	_	2	pobj	_	_
-6	,	,	,	,	_	10	punct	_	_
+6	,	,	,	,	_	11	punct	_	_
 7	residual	residual	JJ	JJ	_	9	amod	_	_
 8	H4K20me3	h0k0me0	NN	NN	_	9	compound	_	_
-9	epitopes	epitope	NNS	NNS	_	10	nsubj	_	_
-10	were	be	VBD	VBD	_	0	root	_	_
-11	detected	detect	VBN	VBN	_	10	dep	_	_
+9	epitopes	epitope	NNS	NNS	_	11	nsubjpass	_	_
+10	were	be	VBD	VBD	_	11	auxpass	_	_
+11	detected	detect	VBN	VBN	_	0	root	_	_
 12	at	at	IN	IN	sem=LOC	11	prep	_	_
 13	the	the	DT	DT	_	14	det	_	_
 14	level	level	NN	NN	_	12	pobj	_	_
@@ -3413,14 +3413,14 @@
 18	-	-	HYPH	HYPH	_	19	punct	_	_
 19	dense	dense	JJ	JJ	_	20	amod	_	_
 20	material	material	NN	NN	_	15	pobj	_	_
-21	.	.	.	.	_	10	punct	_	_
+21	.	.	.	.	_	11	punct	_	_
 
 1	Altogether	altogether	RB	RB	_	5	advmod	_	_
 2	,	,	,	,	_	5	punct	_	_
 3	our	our	PRP$	PRP$	_	4	poss	_	_
 4	results	result	NNS	NNS	_	5	nsubj	_	_
 5	show	show	VBP	VBP	_	0	root	_	_
-6	that	that	IN	IN	_	5	mark	_	_
+6	that	that	IN	IN	_	15	mark	_	_
 7	depletion	depletion	NN	NN	_	15	nsubj	_	_
 8	of	of	IN	IN	_	7	prep	_	_
 9	CAF	caf	NN	NN	_	8	pobj	_	_
@@ -3429,7 +3429,7 @@
 12	in	in	IN	IN	sem=LOC	7	prep	_	_
 13	ES	es	NN	NN	_	14	compound	_	_
 14	cells	cell	NNS	NNS	_	12	pobj	_	_
-15	leads	lead	VBZ	VBZ	_	6	ccomp	_	_
+15	leads	lead	VBZ	VBZ	_	5	ccomp	_	_
 16	to	to	IN	IN	_	15	prep	_	_
 17	a	a	DT	DT	_	19	det	_	_
 18	simultaneous	simultaneous	JJ	JJ	_	19	amod	_	_
@@ -3455,11 +3455,11 @@
 3	we	we	PRP	PRP	_	4	nsubj	_	_
 4	provide	provide	VBP	VBP	_	0	root	_	_
 5	evidence	evidence	NN	NN	_	4	dobj	_	_
-6	that	that	IN	IN	_	5	mark	_	_
+6	that	that	IN	IN	_	10	mark	_	_
 7	p150CAF	p0caf	NN	NN	_	10	nsubj	_	_
 8	-	-	HYPH	HYPH	_	7	punct	_	_
 9	1	0	CD	CD	_	7	nummod	_	_
-10	has	have	VBZ	VBZ	_	6	ccomp	_	_
+10	has	have	VBZ	VBZ	_	5	acl	_	_
 11	a	a	DT	DT	_	13	det	_	_
 12	crucial	crucial	JJ	JJ	_	13	amod	_	_
 13	function	function	NN	NN	_	10	dobj	_	_
@@ -3476,11 +3476,11 @@
 1	Previous	previous	JJ	JJ	_	2	amod	_	_
 2	studies	study	NNS	NNS	_	3	nsubj	_	_
 3	showed	show	VBD	VBD	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	8	mark	_	_
 5	CAF	caf	NN	NN	_	8	nsubj	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
-8	is	be	VBZ	VBZ	_	4	ccomp	_	_
+8	is	be	VBZ	VBZ	_	3	ccomp	_	_
 9	essential	essential	JJ	JJ	syn=PRD	8	acomp	_	_
 10	for	for	IN	IN	_	9	prep	_	_
 11	the	the	DT	DT	_	12	det	_	_
@@ -3492,16 +3492,16 @@
 17	vertebrates	vertebrate	NNS	NNS	_	16	pobj	_	_
 18	.	.	.	.	_	3	punct	_	_
 
-1	In	in	IN	IN	sem=LOC	9	prep	_	_
+1	In	in	IN	IN	sem=LOC	10	prep	_	_
 2	Xenopus	xenopus	NNP	NNP	_	3	compound	_	_
 3	laevis	laevis	NNP	NNP	_	1	pobj	_	_
-4	,	,	,	,	_	9	punct	_	_
+4	,	,	,	,	_	10	punct	_	_
 5	p150CAF	p0caf	NN	NN	_	8	nmod	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
-8	function	function	NN	NN	_	9	nsubj	_	_
-9	is	be	VBZ	VBZ	_	0	root	_	_
-10	required	require	VBN	VBN	_	9	dep	_	_
+8	function	function	NN	NN	_	10	nsubjpass	_	_
+9	is	be	VBZ	VBZ	_	10	auxpass	_	_
+10	required	require	VBN	VBN	_	0	root	_	_
 11	for	for	IN	IN	sem=PRP	10	prep	_	_
 12	the	the	DT	DT	_	15	det	_	_
 13	rapid	rapid	JJ	JJ	_	15	amod	_	_
@@ -3515,7 +3515,7 @@
 21	[	[	-LRB-	-LRB-	_	22	punct	_	_
 22	33	0	CD	CD	_	10	parataxis	_	_
 23	]	]	-RRB-	-RRB-	_	22	punct	_	_
-24	.	.	.	.	_	9	punct	_	_
+24	.	.	.	.	_	10	punct	_	_
 
 1	Similarly	similarly	RB	RB	_	6	advmod	_	_
 2	,	,	,	,	_	6	punct	_	_
@@ -3572,8 +3572,8 @@
 
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	show	show	VBP	VBP	_	0	root	_	_
-3	that	that	IN	IN	_	2	mark	_	_
-4	in	in	IN	IN	sem=LOC	29	prep	_	_
+3	that	that	IN	IN	_	31	mark	_	_
+4	in	in	IN	IN	sem=LOC	31	prep	_	_
 5	p150CAF	p0caf	NN	NN	_	9	npadvmod	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
@@ -3581,36 +3581,36 @@
 9	depleted	deplete	VBN	VBN	_	11	amod	_	_
 10	ES	es	NN	NN	_	11	compound	_	_
 11	cells	cell	NNS	NNS	_	4	pobj	_	_
-12	,	,	,	,	_	29	punct	_	_
-13	while	while	IN	IN	syn=ADV	29	mark	_	_
+12	,	,	,	,	_	31	punct	_	_
+13	while	while	IN	IN	_	17	mark	_	_
 14	DNA	dna	NN	NN	_	15	compound	_	_
 15	replication	replication	NN	NN	_	17	nsubj	_	_
 16	initially	initially	RB	RB	_	17	advmod	_	_
-17	persists	persist	VBZ	VBZ	_	13	ccomp	_	_
+17	persists	persist	VBZ	VBZ	syn=ADV	31	advcl	_	_
 18	without	without	IN	IN	_	17	prep	_	_
 19	significant	significant	JJ	JJ	_	20	amod	_	_
 20	perturbation	perturbation	NN	NN	_	18	pobj	_	_
 21	in	in	IN	IN	_	20	prep	_	_
 22	nucleosomal	nucleosomal	JJ	JJ	_	23	amod	_	_
 23	organization	organization	NN	NN	_	21	pobj	_	_
-24	,	,	,	,	_	29	punct	_	_
+24	,	,	,	,	_	31	punct	_	_
 25	severe	severe	JJ	JJ	_	28	amod	_	_
 26	heterochromatin	heterochromatin	NN	NN	_	28	compound	_	_
 27	organization	organization	NN	NN	_	28	compound	_	_
-28	defects	defect	NNS	NNS	_	29	nsubj	_	_
-29	can	can	MD	MD	_	3	ccomp	_	_
-30	be	be	VB	VB	_	29	dep	_	_
-31	observed	observe	VBN	VBN	_	30	dep	_	_
+28	defects	defect	NNS	NNS	_	31	nsubjpass	_	_
+29	can	can	MD	MD	_	31	aux	_	_
+30	be	be	VB	VB	_	31	auxpass	_	_
+31	observed	observe	VBN	VBN	_	2	ccomp	_	_
 32	.	.	.	.	_	2	punct	_	_
 
-1	Loss	loss	NN	NN	_	6	nsubj	_	_
+1	Loss	loss	NN	NN	_	8	nsubj	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	p150CAF	p0caf	NN	NN	_	2	pobj	_	_
 4	-	-	HYPH	HYPH	_	3	punct	_	_
 5	1	0	CD	CD	_	3	nummod	_	_
-6	did	do	VBD	VBD	_	0	root	_	_
-7	not	not	RB	RB	_	6	neg	_	_
-8	affect	affect	VB	VB	_	6	dep	_	_
+6	did	do	VBD	VBD	_	8	aux	_	_
+7	not	not	RB	RB	_	8	neg	_	_
+8	affect	affect	VB	VB	_	0	root	_	_
 9	PML	pml	NN	NN	_	10	compound	_	_
 10	bodies	body	NNS	NNS	_	8	dobj	_	_
 11	in	in	IN	IN	sem=LOC	8	prep	_	_
@@ -3619,14 +3619,14 @@
 14	nuclei	nucleus	NNS	NNS	_	11	pobj	_	_
 15	,	,	,	,	_	8	punct	_	_
 16	showing	show	VBG	VBG	syn=ADV	8	advcl	_	_
-17	that	that	IN	IN	_	16	mark	_	_
+17	that	that	IN	IN	_	23	mark	_	_
 18	nuclear	nuclear	JJ	JJ	_	19	amod	_	_
-19	architecture	architecture	NN	NN	_	20	nsubj	_	_
-20	is	be	VBZ	VBZ	_	17	ccomp	_	_
-21	not	not	RB	RB	_	20	neg	_	_
-22	generally	generally	RB	RB	_	20	advmod	_	_
-23	altered	alter	VBN	VBN	_	20	dep	_	_
-24	.	.	.	.	_	6	punct	_	_
+19	architecture	architecture	NN	NN	_	23	nsubjpass	_	_
+20	is	be	VBZ	VBZ	_	23	auxpass	_	_
+21	not	not	RB	RB	_	23	neg	_	_
+22	generally	generally	RB	RB	_	23	advmod	_	_
+23	altered	alter	VBN	VBN	_	16	ccomp	_	_
+24	.	.	.	.	_	8	punct	_	_
 
 1	Ultimately	ultimately	RB	RB	_	7	advmod	_	_
 2	,	,	,	,	_	7	punct	_	_
@@ -3659,12 +3659,12 @@
 10	it	it	PRP	PRP	_	11	nsubj	_	_
 11	is	be	VBZ	VBZ	_	0	root	_	_
 12	tempting	tempt	VBG	VBG	syn=PRD	11	acomp	_	_
-13	to	to	TO	TO	_	11	xcomp	_	_
-14	speculate	speculate	VB	VB	_	13	dep	_	_
-15	that	that	IN	IN	_	14	mark	_	_
+13	to	to	TO	TO	_	14	aux	_	_
+14	speculate	speculate	VB	VB	_	11	xcomp	_	_
+15	that	that	IN	IN	_	18	mark	_	_
 16	these	these	DT	DT	_	17	det	_	_
 17	defects	defect	NNS	NNS	_	18	nsubj	_	_
-18	cause	cause	VBP	VBP	_	15	ccomp	_	_
+18	cause	cause	VBP	VBP	_	14	ccomp	_	_
 19	the	the	DT	DT	_	21	det	_	_
 20	developmental	developmental	JJ	JJ	_	21	amod	_	_
 21	arrest	arrest	NN	NN	_	18	dobj	_	_
@@ -3705,14 +3705,14 @@
 
 1	This	this	DT	DT	_	3	det	_	_
 2	important	important	JJ	JJ	_	3	amod	_	_
-3	function	function	NN	NN	_	8	nsubj	_	_
+3	function	function	NN	NN	_	10	nsubjpass	_	_
 4	of	of	IN	IN	_	3	prep	_	_
 5	CAF	caf	NN	NN	_	4	pobj	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
-8	was	be	VBD	VBD	_	0	root	_	_
-9	not	not	RB	RB	_	8	neg	_	_
-10	revealed	reveal	VBN	VBN	_	8	dep	_	_
+8	was	be	VBD	VBD	_	10	auxpass	_	_
+9	not	not	RB	RB	_	10	neg	_	_
+10	revealed	reveal	VBN	VBN	_	0	root	_	_
 11	in	in	IN	IN	sem=LOC	10	prep	_	_
 12	primary	primary	JJ	JJ	_	13	amod	_	_
 13	MEFs	mefs	NNS	NNS	_	11	pobj	_	_
@@ -3726,20 +3726,20 @@
 21	lines	line	NNS	NNS	_	16	conj	_	_
 22	,	,	,	,	_	10	punct	_	_
 23	suggesting	suggest	VBG	VBG	syn=ADV	10	advcl	_	_
-24	that	that	IN	IN	_	23	mark	_	_
+24	that	that	IN	IN	_	26	mark	_	_
 25	it	it	PRP	PRP	_	26	nsubj	_	_
-26	is	be	VBZ	VBZ	_	24	ccomp	_	_
+26	is	be	VBZ	VBZ	_	23	ccomp	_	_
 27	specific	specific	JJ	JJ	syn=PRD	26	acomp	_	_
 28	of	of	IN	IN	_	27	prep	_	_
 29	pluripotent	pluripotent	JJ	JJ	_	31	amod	_	_
 30	embryonic	embryonic	JJ	JJ	_	31	amod	_	_
 31	cells	cell	NNS	NNS	_	28	pobj	_	_
-32	.	.	.	.	_	8	punct	_	_
+32	.	.	.	.	_	10	punct	_	_
 
-1	Alternatively	alternatively	RB	RB	_	18	advmod	_	_
-2	,	,	,	,	_	18	punct	_	_
+1	Alternatively	alternatively	RB	RB	_	19	advmod	_	_
+2	,	,	,	,	_	19	punct	_	_
 3	early	early	JJ	JJ	_	4	amod	_	_
-4	embryos	embryo	NNS	NNS	_	18	nsubj	_	_
+4	embryos	embryo	NNS	NNS	_	19	nsubj	_	_
 5	and	and	CC	CC	_	4	cc	_	_
 6	ES	es	NN	NN	_	7	compound	_	_
 7	cells	cell	NNS	NNS	_	4	conj	_	_
@@ -3752,17 +3752,17 @@
 14	than	than	IN	IN	_	13	prep	_	_
 15	somatic	somatic	JJ	JJ	_	16	amod	_	_
 16	cells	cell	NNS	NNS	_	14	pobj	_	_
-17	,	,	,	,	_	18	punct	_	_
-18	might	might	MD	MD	_	0	root	_	_
-19	represent	represent	VB	VB	_	18	dep	_	_
+17	,	,	,	,	_	19	punct	_	_
+18	might	might	MD	MD	_	19	aux	_	_
+19	represent	represent	VB	VB	_	0	root	_	_
 20	a	a	DT	DT	_	23	det	_	_
 21	particularly	particularly	RB	RB	_	22	advmod	_	_
 22	sensitive	sensitive	JJ	JJ	_	23	amod	_	_
 23	context	context	NN	NN	_	19	dobj	_	_
-24	in	in	IN	IN	_	35	prep	_	_
+24	in	in	IN	IN	_	36	prep	_	_
 25	which	which	WDT	WDT	_	24	pobj	_	23:ref
 26	the	the	DT	DT	_	27	det	_	_
-27	importance	importance	NN	NN	_	35	nsubj	_	_
+27	importance	importance	NN	NN	_	36	nsubjpass	_	_
 28	of	of	IN	IN	_	27	prep	_	_
 29	CAF	caf	NN	NN	_	28	pobj	_	_
 30	-	-	HYPH	HYPH	_	29	punct	_	_
@@ -3770,9 +3770,9 @@
 32	in	in	IN	IN	_	27	prep	_	_
 33	heterochromatin	heterochromatin	NN	NN	_	34	compound	_	_
 34	organization	organization	NN	NN	_	32	pobj	_	_
-35	is	be	VBZ	VBZ	_	23	relcl	_	_
-36	exacerbated	exacerbate	VBN	VBN	_	35	dep	_	_
-37	.	.	.	.	_	18	punct	_	_
+35	is	be	VBZ	VBZ	_	36	auxpass	_	_
+36	exacerbated	exacerbate	VBN	VBN	_	23	relcl	_	_
+37	.	.	.	.	_	19	punct	_	_
 
 1	In	in	IN	IN	sem=LOC	9	prep	_	_
 2	ES	es	NN	NN	_	3	compound	_	_
@@ -3803,12 +3803,12 @@
 6	our	our	PRP$	PRP$	_	7	poss	_	_
 7	findings	finding	NNS	NNS	_	8	nsubj	_	_
 8	show	show	VBP	VBP	_	0	root	_	_
-9	that	that	IN	IN	_	8	mark	_	_
+9	that	that	IN	IN	_	14	mark	_	_
 10	proper	proper	JJ	JJ	_	13	amod	_	_
 11	heterochromatin	heterochromatin	NN	NN	_	13	nmod	_	_
 12	nuclear	nuclear	JJ	JJ	_	13	amod	_	_
 13	architecture	architecture	NN	NN	_	14	nsubj	_	_
-14	relies	rely	VBZ	VBZ	_	9	ccomp	_	_
+14	relies	rely	VBZ	VBZ	_	8	ccomp	_	_
 15	on	on	IN	IN	_	14	prep	_	_
 16	CAF	caf	NN	NN	_	19	nmod	_	_
 17	-	-	HYPH	HYPH	_	16	punct	_	_
@@ -3816,48 +3816,48 @@
 19	function	function	NN	NN	_	15	pobj	_	_
 20	.	.	.	.	_	8	punct	_	_
 
-1	In	in	IN	IN	_	19	prep	_	_
+1	In	in	IN	IN	_	20	prep	_	_
 2	contrast	contrast	NN	NN	_	1	pobj	_	_
-3	,	,	,	,	_	19	punct	_	_
-4	in	in	IN	IN	sem=LOC	19	prep	_	_
+3	,	,	,	,	_	20	punct	_	_
+4	in	in	IN	IN	sem=LOC	20	prep	_	_
 5	undifferentiated	undifferentiated	JJ	JJ	_	6	amod	_	_
 6	cells	cell	NNS	NNS	_	4	pobj	_	_
-7	that	that	WDT	WDT	_	8	dep	_	6:ref
-8	are	be	VBP	VBP	_	6	relcl	_	_
-9	already	already	RB	RB	_	8	advmod	_	_
+7	that	that	WDT	WDT	_	11	dep	_	6:ref
+8	are	be	VBP	VBP	_	11	auxpass	_	_
+9	already	already	RB	RB	_	11	advmod	_	_
 10	lineage	lineage	NN	NN	_	11	dep	_	_
-11	committed	commit	VBN	VBN	_	8	dep	_	_
+11	committed	commit	VBN	VBN	_	6	relcl	_	_
 12	(	(	-LRB-	-LRB-	_	6	punct	_	_
 13	such	such	JJ	JJ	_	14	amod	_	_
 14	as	as	IN	IN	_	6	prep	_	_
 15	MEFs	mefs	NNS	NNS	_	14	pobj	_	_
-16	)	)	-RRB-	-RRB-	_	19	punct	_	_
+16	)	)	-RRB-	-RRB-	_	20	punct	_	_
 17	genome	genome	NN	NN	_	18	compound	_	_
-18	architecture	architecture	NN	NN	_	19	nsubj	_	_
-19	might	might	MD	MD	_	0	root	_	_
-20	be	be	VB	VB	_	19	dep	_	_
+18	architecture	architecture	NN	NN	_	20	nsubj	_	_
+19	might	might	MD	MD	_	20	aux	_	_
+20	be	be	VB	VB	_	0	root	_	_
 21	more	more	RBR	RBR	_	22	advmod	_	_
 22	stable	stable	JJ	JJ	syn=PRD	20	acomp	_	_
 23	than	than	IN	IN	_	22	prep	_	_
 24	in	in	IN	IN	sem=LOC	23	prep	_	_
 25	ES	es	NN	NN	_	26	compound	_	_
 26	cells	cell	NNS	NNS	_	24	pobj	_	_
-27	and	and	CC	CC	_	19	cc	_	_
-28	thus	thus	RB	RB	_	29	advmod	_	_
-29	can	can	MD	MD	_	19	conj	_	_
-30	not	not	RB	RB	_	29	neg	_	_
-31	be	be	VB	VB	_	29	dep	_	_
-32	disrupted	disrupt	VBN	VBN	_	31	dep	_	_
+27	and	and	CC	CC	_	20	cc	_	_
+28	thus	thus	RB	RB	_	32	advmod	_	_
+29	can	can	MD	MD	_	32	aux	_	_
+30	not	not	RB	RB	_	32	neg	_	_
+31	be	be	VB	VB	_	32	auxpass	_	_
+32	disrupted	disrupt	VBN	VBN	_	20	conj	_	_
 33	by	by	IN	IN	_	32	agent	_	_
 34	CAF	caf	NN	NN	_	37	nmod	_	_
 35	-	-	HYPH	HYPH	_	34	punct	_	_
 36	1	0	CD	CD	_	34	nummod	_	_
 37	depletion	depletion	NN	NN	_	33	pobj	_	_
-38	.	.	.	.	_	19	punct	_	_
+38	.	.	.	.	_	20	punct	_	_
 
 1	This	this	DT	DT	_	3	det	_	_
 2	important	important	JJ	JJ	_	3	amod	_	_
-3	function	function	NN	NN	_	12	nsubj	_	_
+3	function	function	NN	NN	_	15	nsubjpass	_	_
 4	of	of	IN	IN	_	3	prep	_	_
 5	CAF	caf	NN	NN	_	4	pobj	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
@@ -3866,17 +3866,17 @@
 9	pluripotent	pluripotent	JJ	JJ	_	11	amod	_	_
 10	embryonic	embryonic	JJ	JJ	_	11	amod	_	_
 11	cells	cell	NNS	NNS	_	8	pobj	_	_
-12	could	could	MD	MD	_	0	root	_	_
-13	be	be	VB	VB	_	12	dep	_	_
-14	partially	partially	RB	RB	_	13	advmod	_	_
-15	conserved	conserve	VBN	VBN	_	13	dep	_	_
+12	could	could	MD	MD	_	15	aux	_	_
+13	be	be	VB	VB	_	15	auxpass	_	_
+14	partially	partially	RB	RB	_	15	advmod	_	_
+15	conserved	conserve	VBN	VBN	_	0	root	_	_
 16	during	during	IN	IN	sem=TMP	15	prep	_	_
 17	evolution	evolution	NN	NN	_	16	pobj	_	_
-18	.	.	.	.	_	12	punct	_	_
+18	.	.	.	.	_	15	punct	_	_
 
-1	Indeed	indeed	RB	RB	_	26	advmod	_	_
-2	,	,	,	,	_	26	punct	_	_
-3	in	in	IN	IN	sem=LOC	26	prep	_	_
+1	Indeed	indeed	RB	RB	_	27	advmod	_	_
+2	,	,	,	,	_	27	punct	_	_
+3	in	in	IN	IN	sem=LOC	27	prep	_	_
 4	Arabidopsis	arabidopsis	NNP	NNP	_	5	compound	_	_
 5	thaliana	thaliana	NNP	NNP	_	3	pobj	_	_
 6	,	,	,	,	_	5	punct	_	_
@@ -3893,14 +3893,14 @@
 17	[	[	-LRB-	-LRB-	_	18	punct	_	_
 18	36	0	CD	CD	_	12	parataxis	_	_
 19	]	]	-RRB-	-RRB-	_	18	punct	_	_
-20	,	,	,	,	_	26	punct	_	_
-21	loss	loss	NN	NN	_	26	nsubj	_	_
+20	,	,	,	,	_	27	punct	_	_
+21	loss	loss	NN	NN	_	27	nsubjpass	_	_
 22	of	of	IN	IN	_	21	prep	_	_
 23	CAF	caf	NN	NN	_	22	pobj	_	_
 24	-	-	HYPH	HYPH	_	23	punct	_	_
 25	1	0	CD	CD	_	23	nummod	_	_
-26	is	be	VBZ	VBZ	_	0	root	_	_
-27	associated	associate	VBN	VBN	_	26	dep	_	_
+26	is	be	VBZ	VBZ	_	27	auxpass	_	_
+27	associated	associate	VBN	VBN	_	0	root	_	_
 28	with	with	IN	IN	_	27	prep	_	_
 29	a	a	DT	DT	_	31	det	_	_
 30	mild	mild	JJ	JJ	_	31	amod	_	_
@@ -3911,7 +3911,7 @@
 35	[	[	-LRB-	-LRB-	_	36	punct	_	_
 36	37	0	CD	CD	_	27	parataxis	_	_
 37	]	]	-RRB-	-RRB-	_	36	punct	_	_
-38	.	.	.	.	_	26	punct	_	_
+38	.	.	.	.	_	27	punct	_	_
 
 1	This	this	DT	DT	_	2	det	_	_
 2	phenotype	phenotype	NN	NN	_	3	nsubj	_	_
@@ -3943,13 +3943,13 @@
 5	,	,	,	,	_	7	punct	_	_
 6	we	we	PRP	PRP	_	7	nsubj	_	_
 7	show	show	VBP	VBP	_	0	root	_	_
-8	that	that	IN	IN	_	7	mark	_	_
-9	CAF	caf	NN	NN	_	12	nsubj	_	_
+8	that	that	IN	IN	_	14	mark	_	_
+9	CAF	caf	NN	NN	_	14	nsubjpass	_	_
 10	-	-	HYPH	HYPH	_	9	punct	_	_
 11	1	0	CD	CD	_	9	nummod	_	_
-12	is	be	VBZ	VBZ	_	8	ccomp	_	_
-13	also	also	RB	RB	_	12	advmod	_	_
-14	required	require	VBN	VBN	_	12	dep	_	_
+12	is	be	VBZ	VBZ	_	14	auxpass	_	_
+13	also	also	RB	RB	_	14	advmod	_	_
+14	required	require	VBN	VBN	_	7	ccomp	_	_
 15	for	for	IN	IN	sem=PRP	14	prep	_	_
 16	regular	regular	JJ	JJ	_	17	amod	_	_
 17	levels	level	NNS	NNS	_	15	pobj	_	_
@@ -3980,36 +3980,36 @@
 1	These	these	DT	DT	_	2	det	_	_
 2	data	datum	NNS	NNS	_	3	nsubj	_	_
 3	suggest	suggest	VBP	VBP	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
+4	that	that	IN	IN	_	15	mark	_	_
 5	proper	proper	JJ	JJ	_	7	amod	_	_
 6	nuclear	nuclear	JJ	JJ	_	7	amod	_	_
-7	organization	organization	NN	NN	_	14	nsubj	_	_
+7	organization	organization	NN	NN	_	15	nsubjpass	_	_
 8	and	and	CC	CC	_	7	cc	_	_
 9	epigenetic	epigenetic	JJ	JJ	_	10	amod	_	_
 10	marking	marking	NN	NN	_	7	conj	_	_
 11	of	of	IN	IN	_	10	prep	_	_
 12	pericentric	pericentric	JJ	JJ	_	13	amod	_	_
 13	heterochromatin	heterochromatin	NN	NN	_	11	pobj	_	_
-14	are	be	VBP	VBP	_	4	ccomp	_	_
-15	coupled	couple	VBN	VBN	_	14	dep	_	_
+14	are	be	VBP	VBP	_	15	auxpass	_	_
+15	coupled	couple	VBN	VBN	_	3	ccomp	_	_
 16	in	in	IN	IN	sem=LOC	15	prep	_	_
 17	ES	es	NN	NN	_	18	compound	_	_
 18	cells	cell	NNS	NNS	_	16	pobj	_	_
 19	.	.	.	.	_	3	punct	_	_
 
-1	Alternatively	alternatively	RB	RB	_	12	advmod	_	_
-2	,	,	,	,	_	12	punct	_	_
+1	Alternatively	alternatively	RB	RB	_	13	advmod	_	_
+2	,	,	,	,	_	13	punct	_	_
 3	3	0	CD	CD	_	5	nummod	_	_
 4	-	-	HYPH	HYPH	_	5	punct	_	_
 5	D	d	NN	NN	_	6	compound	_	_
-6	organization	organization	NN	NN	_	12	nsubj	_	_
+6	organization	organization	NN	NN	_	13	nsubj	_	_
 7	of	of	IN	IN	_	6	prep	_	_
 8	heterochromatin	heterochromatin	NN	NN	_	7	pobj	_	_
 9	and	and	CC	CC	_	8	cc	_	_
 10	epigenetic	epigenetic	JJ	JJ	_	11	amod	_	_
 11	marking	marking	NN	NN	_	8	conj	_	_
-12	might	might	MD	MD	_	0	root	_	_
-13	represent	represent	VB	VB	_	12	dep	_	_
+12	might	might	MD	MD	_	13	aux	_	_
+13	represent	represent	VB	VB	_	0	root	_	_
 14	two	#crd#	CD	CD	_	16	nummod	_	_
 15	independent	independent	JJ	JJ	_	16	amod	_	_
 16	functions	function	NNS	NNS	_	13	dobj	_	_
@@ -4017,19 +4017,19 @@
 18	CAF	caf	NN	NN	_	17	pobj	_	_
 19	-	-	HYPH	HYPH	_	18	punct	_	_
 20	1	0	CD	CD	_	18	nummod	_	_
-21	.	.	.	.	_	12	punct	_	_
+21	.	.	.	.	_	13	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	variable	variable	JJ	JJ	_	3	amod	_	_
-3	requirement	requirement	NN	NN	_	10	nsubj	_	_
+3	requirement	requirement	NN	NN	_	11	nsubj	_	_
 4	for	for	IN	IN	_	3	prep	_	_
 5	CAF	caf	NN	NN	_	4	pobj	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
 8	across	across	IN	IN	_	3	prep	_	_
 9	species	species	NNS	NNS	_	8	pobj	_	_
-10	might	might	MD	MD	_	0	root	_	_
-11	reflect	reflect	VB	VB	_	10	dep	_	_
+10	might	might	MD	MD	_	11	aux	_	_
+11	reflect	reflect	VB	VB	_	0	root	_	_
 12	the	the	DT	DT	_	13	det	_	_
 13	acquisition	acquisition	NN	NN	_	11	dobj	_	_
 14	of	of	IN	IN	_	13	prep	_	_
@@ -4046,7 +4046,7 @@
 25	evolution	evolution	NN	NN	_	24	pobj	_	_
 26	of	of	IN	IN	_	25	prep	_	_
 27	eukaryotes	eukaryote	NNS	NNS	_	26	pobj	_	_
-28	.	.	.	.	_	10	punct	_	_
+28	.	.	.	.	_	11	punct	_	_
 
 1	CAF	caf	NN	NN	_	4	nsubj	_	_
 2	-	-	HYPH	HYPH	_	1	punct	_	_
@@ -4065,15 +4065,15 @@
 15	]	]	-RRB-	-RRB-	_	14	punct	_	_
 16	.	.	.	.	_	4	punct	_	_
 
-1	Interestingly	interestingly	RB	RB	_	7	advmod	_	_
-2	,	,	,	,	_	7	punct	_	_
+1	Interestingly	interestingly	RB	RB	_	9	advmod	_	_
+2	,	,	,	,	_	9	punct	_	_
 3	the	the	DT	DT	_	6	det	_	_
 4	budding	bud	VBG	VBG	_	6	amod	_	_
 5	yeast	yeast	NN	NN	_	6	compound	_	_
-6	genome	genome	NN	NN	_	7	nsubj	_	_
-7	does	do	VBZ	VBZ	_	0	root	_	_
-8	not	not	RB	RB	_	7	neg	_	_
-9	contain	contain	VB	VB	_	7	dep	_	_
+6	genome	genome	NN	NN	_	9	nsubj	_	_
+7	does	do	VBZ	VBZ	_	9	aux	_	_
+8	not	not	RB	RB	_	9	neg	_	_
+9	contain	contain	VB	VB	_	0	root	_	_
 10	heterochromatin	heterochromatin	NN	NN	_	11	compound	_	_
 11	regions	region	NNS	NNS	_	9	dobj	_	_
 12	equivalent	equivalent	JJ	JJ	_	11	amod	_	_
@@ -4082,11 +4082,11 @@
 15	of	of	IN	IN	_	14	prep	_	_
 16	higher	high	JJR	JJR	_	17	amod	_	_
 17	eukaryotes	eukaryote	NNS	NNS	_	15	pobj	_	_
-18	,	,	,	,	_	7	punct	_	_
-19	and	and	CC	CC	_	7	cc	_	_
+18	,	,	,	,	_	9	punct	_	_
+19	and	and	CC	CC	_	9	cc	_	_
 20	several	several	JJ	JJ	_	22	amod	_	_
 21	hallmark	hallmark	NN	NN	_	22	compound	_	_
-22	features	feature	NNS	NNS	_	38	nsubj	_	_
+22	features	feature	NNS	NNS	_	40	nsubjpass	_	_
 23	of	of	IN	IN	_	22	prep	_	_
 24	heterochromatin	heterochromatin	NN	NN	_	23	pobj	_	_
 25	such	such	JJ	JJ	_	26	amod	_	_
@@ -4102,9 +4102,9 @@
 35	,	,	,	,	_	34	punct	_	_
 36	and	and	CC	CC	_	34	cc	_	_
 37	H4K20	h0k0	NN	NN	_	34	conj	_	_
-38	are	be	VBP	VBP	_	7	conj	_	_
-39	not	not	RB	RB	_	38	neg	_	_
-40	observed	observe	VBN	VBN	_	38	dep	_	_
+38	are	be	VBP	VBP	_	40	auxpass	_	_
+39	not	not	RB	RB	_	40	neg	_	_
+40	observed	observe	VBN	VBN	_	9	conj	_	_
 41	in	in	IN	IN	sem=LOC	40	prep	_	_
 42	the	the	DT	DT	_	44	det	_	_
 43	silent	silent	JJ	JJ	_	44	amod	_	_
@@ -4112,16 +4112,16 @@
 45	of	of	IN	IN	_	44	prep	_	_
 46	S.	s.	NNP	NNP	_	47	compound	_	_
 47	cerevisiae	cerevisiae	NNP	NNP	_	45	pobj	_	_
-48	.	.	.	.	_	7	punct	_	_
+48	.	.	.	.	_	9	punct	_	_
 
-1	In	in	IN	IN	sem=LOC	6	prep	_	_
+1	In	in	IN	IN	sem=LOC	8	prep	_	_
 2	mammals	mammal	NNS	NNS	_	1	pobj	_	_
-3	,	,	,	,	_	6	punct	_	_
+3	,	,	,	,	_	8	punct	_	_
 4	H3K9	h0k0	NN	NN	_	5	compound	_	_
-5	dimethylation	dimethylation	NN	NN	_	6	nsubj	_	_
-6	is	be	VBZ	VBZ	_	0	root	_	_
-7	predominantly	predominantly	RB	RB	_	6	advmod	_	_
-8	associated	associate	VBN	VBN	_	6	dep	_	_
+5	dimethylation	dimethylation	NN	NN	_	8	nsubjpass	_	_
+6	is	be	VBZ	VBZ	_	8	auxpass	_	_
+7	predominantly	predominantly	RB	RB	_	8	advmod	_	_
+8	associated	associate	VBN	VBN	_	0	root	_	_
 9	with	with	IN	IN	_	8	prep	_	_
 10	H3.1	h0	NN	NN	_	9	pobj	_	_
 11	,	,	,	,	_	9	punct	_	_
@@ -4142,7 +4142,7 @@
 26	[	[	-LRB-	-LRB-	_	27	punct	_	_
 27	39	0	CD	CD	_	8	parataxis	_	_
 28	]	]	-RRB-	-RRB-	_	27	punct	_	_
-29	.	.	.	.	_	6	punct	_	_
+29	.	.	.	.	_	8	punct	_	_
 
 1	Outside	outside	IN	IN	_	10	prep	_	_
 2	of	of	IN	IN	_	1	prep	_	_
@@ -4157,9 +4157,9 @@
 11	only	only	RB	RB	_	12	advmod	_	_
 12	H3.3	h0	NN	NN	_	10	dobj	_	_
 13	,	,	,	,	_	12	punct	_	_
-14	which	which	WDT	WDT	_	15	dep	_	12:ref
-15	is	be	VBZ	VBZ	_	12	relcl	_	_
-16	expressed	express	VBN	VBN	_	15	dep	_	_
+14	which	which	WDT	WDT	_	16	dep	_	12:ref
+15	is	be	VBZ	VBZ	_	16	aux	_	_
+16	expressed	express	VBN	VBN	_	12	relcl	_	_
 17	and	and	CC	CC	_	16	cc	_	_
 18	incorporated	incorporate	VBN	VBN	_	16	conj	_	_
 19	into	into	IN	IN	_	18	prep	_	_
@@ -4194,8 +4194,8 @@
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	show	show	VBP	VBP	_	0	root	_	_
 3	here	here	RB	RB	_	2	advmod	_	_
-4	that	that	IN	IN	_	2	mark	_	_
-5	CAF	caf	NN	NN	_	22	nsubj	_	_
+4	that	that	IN	IN	_	24	mark	_	_
+5	CAF	caf	NN	NN	_	24	nsubjpass	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
 8	,	,	,	,	_	5	punct	_	_
@@ -4211,10 +4211,10 @@
 18	[	[	-LRB-	-LRB-	_	19	punct	_	_
 19	11	0	CD	CD	_	5	parataxis	_	_
 20	]	]	-RRB-	-RRB-	_	19	punct	_	_
-21	,	,	,	,	_	22	punct	_	_
-22	is	be	VBZ	VBZ	_	4	ccomp	_	_
-23	specifically	specifically	RB	RB	_	22	advmod	_	_
-24	required	require	VBN	VBN	_	22	dep	_	_
+21	,	,	,	,	_	24	punct	_	_
+22	is	be	VBZ	VBZ	_	24	auxpass	_	_
+23	specifically	specifically	RB	RB	_	24	advmod	_	_
+24	required	require	VBN	VBN	_	2	ccomp	_	_
 25	for	for	IN	IN	sem=PRP	24	prep	_	_
 26	the	the	DT	DT	_	28	det	_	_
 27	nuclear	nuclear	JJ	JJ	_	28	amod	_	_
@@ -4230,20 +4230,20 @@
 37	.	.	.	.	_	2	punct	_	_
 
 1	One	#crd#	CD	CD	_	2	nummod	_	_
-2	possibility	possibility	NN	NN	_	3	nsubj	_	_
-3	would	would	MD	MD	_	0	root	_	_
-4	be	be	VB	VB	_	3	dep	_	_
+2	possibility	possibility	NN	NN	_	4	nsubj	_	_
+3	would	would	MD	MD	_	4	aux	_	_
+4	be	be	VB	VB	_	0	root	_	_
 5	a	a	DT	DT	_	6	det	_	_
 6	scenario	scenario	NN	NN	syn=PRD	4	attr	_	_
-7	in	in	IN	IN	_	14	prep	_	_
+7	in	in	IN	IN	_	15	prep	_	_
 8	which	which	WDT	WDT	_	7	pobj	_	6:ref
-9	incorporation	incorporation	NN	NN	_	14	nsubj	_	_
+9	incorporation	incorporation	NN	NN	_	15	nsubjpass	_	_
 10	of	of	IN	IN	_	9	prep	_	_
 11	H3.1	h0	NN	NN	_	10	pobj	_	_
 12	into	into	IN	IN	_	9	prep	_	_
 13	chromatin	chromatin	NN	NN	_	12	pobj	_	_
-14	is	be	VBZ	VBZ	_	6	relcl	_	_
-15	required	require	VBN	VBN	_	14	dep	_	_
+14	is	be	VBZ	VBZ	_	15	auxpass	_	_
+15	required	require	VBN	VBN	_	6	relcl	_	_
 16	for	for	IN	IN	sem=PRP	15	prep	_	_
 17	the	the	DT	DT	_	20	det	_	_
 18	proper	proper	JJ	JJ	_	20	amod	_	_
@@ -4256,28 +4256,28 @@
 25	an	an	DT	DT	_	27	det	_	_
 26	embryonic	embryonic	JJ	JJ	_	27	amod	_	_
 27	context	context	NN	NN	_	24	pobj	_	_
-28	.	.	.	.	_	3	punct	_	_
+28	.	.	.	.	_	4	punct	_	_
 
-1	While	while	IN	IN	syn=ADV	10	mark	_	_
+1	While	while	IN	IN	_	3	mark	_	_
 2	this	this	DT	DT	_	3	nsubj	_	_
-3	has	have	VBZ	VBZ	_	1	ccomp	_	_
-4	to	to	TO	TO	_	3	xcomp	_	_
-5	be	be	VB	VB	_	4	dep	_	_
-6	addressed	address	VBN	VBN	_	5	dep	_	_
+3	has	have	VBZ	VBZ	syn=ADV	10	advcl	_	_
+4	to	to	TO	TO	_	6	aux	_	_
+5	be	be	VB	VB	_	6	auxpass	_	_
+6	addressed	address	VBN	VBN	_	3	xcomp	_	_
 7	experimentally	experimentally	RB	RB	sem=MNR	6	advmod	_	_
 8	,	,	,	,	_	10	punct	_	_
 9	it	it	PRP	PRP	_	10	nsubj	_	_
 10	is	be	VBZ	VBZ	_	0	root	_	_
 11	worthwhile	worthwhile	JJ	JJ	syn=PRD	10	acomp	_	_
-12	to	to	TO	TO	_	10	xcomp	_	_
-13	mention	mention	VB	VB	_	12	dep	_	_
+12	to	to	TO	TO	_	13	aux	_	_
+13	mention	mention	VB	VB	_	10	xcomp	_	_
 14	an	an	DT	DT	_	17	det	_	_
 15	alternate	alternate	JJ	JJ	_	17	amod	_	_
 16	possible	possible	JJ	JJ	_	17	amod	_	_
 17	mechanism	mechanism	NN	NN	_	13	dobj	_	_
-18	that	that	WDT	WDT	_	19	dep	_	17:ref
-19	might	might	MD	MD	_	17	relcl	_	_
-20	explain	explain	VB	VB	_	19	dep	_	_
+18	that	that	WDT	WDT	_	20	dep	_	17:ref
+19	might	might	MD	MD	_	20	aux	_	_
+20	explain	explain	VB	VB	_	17	relcl	_	_
 21	the	the	DT	DT	_	22	det	_	_
 22	disruption	disruption	NN	NN	_	20	dobj	_	_
 23	of	of	IN	IN	_	22	prep	_	_
@@ -4294,12 +4294,12 @@
 34	cells	cell	NNS	NNS	_	31	conj	_	_
 35	.	.	.	.	_	10	punct	_	_
 
-1	CAF	caf	NN	NN	_	4	nsubj	_	_
+1	CAF	caf	NN	NN	_	6	nsubjpass	_	_
 2	-	-	HYPH	HYPH	_	1	punct	_	_
 3	1	0	CD	CD	_	1	nummod	_	_
-4	could	could	MD	MD	_	0	root	_	_
-5	be	be	VB	VB	_	4	dep	_	_
-6	required	require	VBN	VBN	_	5	dep	_	_
+4	could	could	MD	MD	_	6	aux	_	_
+5	be	be	VB	VB	_	6	auxpass	_	_
+6	required	require	VBN	VBN	_	0	root	_	_
 7	for	for	IN	IN	sem=PRP	6	prep	_	_
 8	the	the	DT	DT	_	9	det	_	_
 9	loading	loading	NN	NN	_	7	pobj	_	_
@@ -4318,9 +4318,9 @@
 22	of	of	IN	IN	_	21	prep	_	_
 23	pericentric	pericentric	JJ	JJ	_	24	amod	_	_
 24	domains	domain	NNS	NNS	_	22	pobj	_	_
-25	.	.	.	.	_	4	punct	_	_
+25	.	.	.	.	_	6	punct	_	_
 
-1	Following	follow	VBG	VBG	sem=TMP	18	prep	_	_
+1	Following	follow	VBG	VBG	sem=TMP	19	prep	_	_
 2	one	#crd#	CD	CD	_	5	nummod	_	_
 3	or	or	CC	CC	_	2	cc	_	_
 4	two	#crd#	CD	CD	_	2	conj	_	_
@@ -4335,18 +4335,18 @@
 13	p150CAF	p0caf	NN	NN	_	12	pobj	_	_
 14	-	-	HYPH	HYPH	_	13	punct	_	_
 15	1	0	CD	CD	_	13	nummod	_	_
-16	,	,	,	,	_	18	punct	_	_
-17	heterochromatin	heterochromatin	NN	NN	_	18	nsubj	_	_
-18	would	would	MD	MD	_	0	root	_	_
-19	become	become	VB	VB	_	18	dep	_	_
+16	,	,	,	,	_	19	punct	_	_
+17	heterochromatin	heterochromatin	NN	NN	_	19	nsubj	_	_
+18	would	would	MD	MD	_	19	aux	_	_
+19	become	become	VB	VB	_	0	root	_	_
 20	deprived	deprived	JJ	JJ	syn=PRD	19	acomp	_	_
 21	of	of	IN	IN	_	20	prep	_	_
 22	this	this	DT	DT	_	23	det	_	_
 23	molecule	molecule	NN	NN	_	21	pobj	_	_
 24	,	,	,	,	_	19	punct	_	_
-25	which	which	WDT	WDT	_	26	dep	_	_
-26	would	would	MD	MD	syn=ADV	19	advcl	_	_
-27	cause	cause	VB	VB	_	26	dep	_	_
+25	which	which	WDT	WDT	_	27	dep	_	_
+26	would	would	MD	MD	_	27	aux	_	_
+27	cause	cause	VB	VB	syn=ADV	19	advcl	_	_
 28	the	the	DT	DT	_	29	det	_	_
 29	disruption	disruption	NN	NN	_	27	dobj	_	_
 30	of	of	IN	IN	_	29	prep	_	_
@@ -4355,7 +4355,7 @@
 33	-	-	HYPH	HYPH	_	34	punct	_	_
 34	D	d	NN	NN	_	35	compound	_	_
 35	organization	organization	NN	NN	_	30	pobj	_	_
-36	.	.	.	.	_	18	punct	_	_
+36	.	.	.	.	_	19	punct	_	_
 
 1	A	a	DT	DT	_	3	det	_	_
 2	potential	potential	JJ	JJ	_	3	amod	_	_
@@ -4378,7 +4378,7 @@
 19	]	]	-RRB-	-RRB-	_	18	punct	_	_
 20	.	.	.	.	_	4	punct	_	_
 
-1	In	in	IN	IN	_	18	prep	_	_
+1	In	in	IN	IN	_	19	prep	_	_
 2	agreement	agreement	NN	NN	_	1	pobj	_	_
 3	with	with	IN	IN	_	2	prep	_	_
 4	a	a	DT	DT	_	6	det	_	_
@@ -4387,16 +4387,16 @@
 7	[	[	-LRB-	-LRB-	_	8	punct	_	_
 8	40	0	CD	CD	_	2	parataxis	_	_
 9	]	]	-RRB-	-RRB-	_	8	punct	_	_
-10	,	,	,	,	_	18	punct	_	_
+10	,	,	,	,	_	19	punct	_	_
 11	our	our	PRP$	PRP$	_	12	poss	_	_
-12	analysis	analysis	NN	NN	_	18	nsubj	_	_
+12	analysis	analysis	NN	NN	_	19	nsubj	_	_
 13	of	of	IN	IN	_	12	prep	_	_
 14	heterochromatin	heterochromatin	NN	NN	_	13	pobj	_	_
 15	in	in	IN	IN	sem=LOC	14	prep	_	_
 16	pre-implantation	pre-implantation	JJ	JJ	_	17	amod	_	_
 17	embryos	embryo	NNS	NNS	_	15	pobj	_	_
-18	has	have	VBZ	VBZ	_	0	root	_	_
-19	revealed	reveal	VBN	VBN	_	18	dep	_	_
+18	has	have	VBZ	VBZ	_	19	aux	_	_
+19	revealed	reveal	VBN	VBN	_	0	root	_	_
 20	drastic	drastic	JJ	JJ	_	21	amod	_	_
 21	changes	change	NNS	NNS	_	19	dobj	_	_
 22	in	in	IN	IN	_	21	prep	_	_
@@ -4410,26 +4410,26 @@
 30	and	and	CC	CC	_	29	cc	_	_
 31	blastocyst	blastocyst	NN	NN	_	29	conj	_	_
 32	stages	stage	NNS	NNS	_	25	pobj	_	_
-33	.	.	.	.	_	18	punct	_	_
+33	.	.	.	.	_	19	punct	_	_
 
 1	Cloning	cloning	NN	NN	_	2	compound	_	_
 2	experiments	experiment	NNS	NNS	_	5	nsubj	_	_
 3	in	in	IN	IN	sem=LOC	2	prep	_	_
 4	mouse	mouse	NN	NN	_	3	pobj	_	_
 5	revealed	reveal	VBD	VBD	_	0	root	_	_
-6	that	that	IN	IN	_	5	mark	_	_
+6	that	that	IN	IN	_	18	mark	_	_
 7	the	the	DT	DT	_	9	det	_	_
 8	nuclear	nuclear	JJ	JJ	_	9	amod	_	_
-9	organization	organization	NN	NN	_	16	nsubj	_	_
+9	organization	organization	NN	NN	_	18	nsubjpass	_	_
 10	of	of	IN	IN	_	9	prep	_	_
 11	heterochromatin	heterochromatin	NN	NN	_	10	pobj	_	_
 12	in	in	IN	IN	sem=LOC	9	prep	_	_
 13	ES	es	NN	NN	_	15	compound	_	_
 14	cell	cell	NN	NN	_	15	compound	_	_
 15	nuclei	nucleus	NNS	NNS	_	12	pobj	_	_
-16	was	be	VBD	VBD	_	6	ccomp	_	_
-17	quickly	quickly	RB	RB	sem=TMP	16	advmod	_	_
-18	reverted	revert	VBN	VBN	_	16	dep	_	_
+16	was	be	VBD	VBD	_	18	auxpass	_	_
+17	quickly	quickly	RB	RB	sem=TMP	18	advmod	_	_
+18	reverted	revert	VBN	VBN	_	5	ccomp	_	_
 19	into	into	IN	IN	_	18	prep	_	_
 20	the	the	DT	DT	_	27	det	_	_
 21	one	#crd#	CD	CD	_	23	nummod	_	_
@@ -4507,12 +4507,12 @@
 1	These	these	DT	DT	_	2	det	_	_
 2	data	datum	NNS	NNS	_	3	nsubj	_	_
 3	show	show	VBP	VBP	_	0	root	_	_
-4	that	that	IN	IN	_	3	mark	_	_
-5	CAF	caf	NN	NN	_	8	nsubj	_	_
+4	that	that	IN	IN	_	9	mark	_	_
+5	CAF	caf	NN	NN	_	9	nsubjpass	_	_
 6	-	-	HYPH	HYPH	_	5	punct	_	_
 7	1	0	CD	CD	_	5	nummod	_	_
-8	is	be	VBZ	VBZ	_	4	ccomp	_	_
-9	involved	involve	VBN	VBN	_	8	dep	_	_
+8	is	be	VBZ	VBZ	_	9	auxpass	_	_
+9	involved	involve	VBN	VBN	_	3	ccomp	_	_
 10	in	in	IN	IN	_	9	prep	_	_
 11	setting	set	VBG	VBG	syn=NOM	10	pcomp	_	_
 12	up	up	RP	RP	_	11	prt	_	_
@@ -4550,11 +4550,11 @@
 19	this	this	DT	DT	_	20	det	_	_
 20	finding	finding	NN	NN	_	21	nsubj	_	_
 21	suggests	suggest	VBZ	VBZ	_	0	root	_	_
-22	that	that	IN	IN	_	21	mark	_	_
+22	that	that	IN	IN	_	26	mark	_	_
 23	CAF	caf	NN	NN	_	26	nsubj	_	_
 24	-	-	HYPH	HYPH	_	23	punct	_	_
 25	1	0	CD	CD	_	23	nummod	_	_
-26	contributes	contribute	VBZ	VBZ	_	22	ccomp	_	_
+26	contributes	contribute	VBZ	VBZ	_	21	ccomp	_	_
 27	to	to	IN	IN	_	26	prep	_	_
 28	the	the	DT	DT	_	30	det	_	_
 29	coordinated	coordinate	VBN	VBN	_	30	amod	_	_
@@ -4588,10 +4588,10 @@
 19	cells	cell	NNS	NNS	_	16	pobj	_	_
 20	.	.	.	.	_	3	punct	_	_
 
-1	While	while	IN	IN	syn=ADV	21	mark	_	_
+1	While	while	IN	IN	_	4	mark	_	_
 2	most	most	JJS	JJS	_	3	amod	_	_
 3	studies	study	NNS	NNS	_	4	nsubj	_	_
-4	focused	focus	VBD	VBD	_	1	ccomp	_	_
+4	focused	focus	VBD	VBD	syn=ADV	21	advcl	_	_
 5	on	on	IN	IN	_	4	prep	_	_
 6	the	the	DT	DT	_	7	det	_	_
 7	role	role	NN	NN	_	5	pobj	_	_
@@ -4621,7 +4621,7 @@
 
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	show	show	VBP	VBP	_	0	root	_	_
-3	that	that	IN	IN	_	2	mark	_	_
+3	that	that	IN	IN	_	13	mark	_	_
 4	in	in	IN	IN	_	13	prep	_	_
 5	addition	addition	NN	NN	_	4	pobj	_	_
 6	to	to	IN	IN	_	5	prep	_	_
@@ -4631,7 +4631,7 @@
 10	CAF	caf	NN	NN	_	13	nsubj	_	_
 11	-	-	HYPH	HYPH	_	10	punct	_	_
 12	1	0	CD	CD	_	10	nummod	_	_
-13	provides	provide	VBZ	VBZ	_	3	ccomp	_	_
+13	provides	provide	VBZ	VBZ	_	2	ccomp	_	_
 14	spatial	spatial	JJ	JJ	_	17	amod	_	_
 15	and	and	CC	CC	_	14	cc	_	_
 16	epigenetic	epigenetic	JJ	JJ	_	14	conj	_	_
@@ -4682,9 +4682,9 @@
 
 1	These	these	DT	DT	_	3	det	_	_
 2	DNA	dna	NN	NN	_	3	compound	_	_
-3	fragments	fragment	NNS	NNS	_	4	nsubj	_	_
-4	were	be	VBD	VBD	_	0	root	_	_
-5	assembled	assemble	VBN	VBN	_	4	dep	_	_
+3	fragments	fragment	NNS	NNS	_	5	nsubjpass	_	_
+4	were	be	VBD	VBD	_	5	auxpass	_	_
+5	assembled	assemble	VBN	VBN	_	0	root	_	_
 6	by	by	IN	IN	sem=MNR	5	prep	_	_
 7	conventional	conventional	JJ	JJ	_	8	amod	_	_
 8	cloning	cloning	NN	NN	_	6	pobj	_	_
@@ -4699,23 +4699,23 @@
 17	)	)	-RRB-	-RRB-	_	18	punct	_	_
 18	cassettes	cassette	NNS	NNS	_	9	pobj	_	_
 19	,	,	,	,	_	5	punct	_	_
-20	as	as	IN	IN	syn=ADV	5	mark	_	_
-21	described	describe	VBN	VBN	_	20	advcl	_	_
+20	as	as	IN	IN	_	21	mark	_	_
+21	described	describe	VBN	VBN	syn=ADV	5	advcl	_	_
 22	in	in	IN	IN	_	21	prep	_	_
 23	Figure	figure	NN	NN	_	24	compound	_	_
 24	1A	0a	NN	NN	_	22	pobj	_	_
-25	.	.	.	.	_	4	punct	_	_
+25	.	.	.	.	_	5	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	construct	construct	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	transfected	transfected	VBN	VBN	_	3	dep	_	_
+2	construct	construct	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	transfected	transfected	VBN	VBN	_	0	root	_	_
 5	in	in	IN	IN	sem=LOC	4	prep	_	_
 6	ES	es	NN	NN	_	7	compound	_	_
 7	cells	cell	NNS	NNS	_	5	pobj	_	_
 8	by	by	IN	IN	sem=MNR	4	prep	_	_
 9	electroporation	electroporation	NN	NN	_	8	pobj	_	_
-10	.	.	.	.	_	3	punct	_	_
+10	.	.	.	.	_	4	punct	_	_
 
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	identified	identify	VBD	VBD	_	0	root	_	_
@@ -4764,7 +4764,7 @@
 18	.	.	.	.	_	2	punct	_	_
 
 1	E4	e0	NN	NN	_	2	compound	_	_
-2	embryos	embryo	NNS	NNS	_	13	nsubj	_	_
+2	embryos	embryo	NNS	NNS	_	14	nsubjpass	_	_
 3	obtained	obtain	VBN	VBN	_	2	acl	_	_
 4	from	from	IN	IN	_	3	prep	_	_
 5	the	the	DT	DT	_	6	det	_	_
@@ -4775,18 +4775,18 @@
 10	/	/	HYPH	HYPH	_	8	punct	_	_
 11	−	−	SYM	SYM	_	8	punct	_	_
 12	mice	mouse	NNS	NNS	_	7	pobj	_	_
-13	were	be	VBD	VBD	_	0	root	_	_
-14	genotyped	genotyped	VBN	VBN	_	13	dep	_	_
+13	were	be	VBD	VBD	_	14	auxpass	_	_
+14	genotyped	genotyped	VBN	VBN	_	0	root	_	_
 15	by	by	IN	IN	sem=MNR	14	prep	_	_
 16	nested	nested	NN	NN	_	18	compound	_	_
 17	-	-	HYPH	HYPH	_	18	punct	_	_
 18	PCR	pcr	NN	NN	_	19	compound	_	_
 19	amplification	amplification	NN	NN	_	15	pobj	_	_
-20	.	.	.	.	_	13	punct	_	_
+20	.	.	.	.	_	14	punct	_	_
 
-1	Embryos	embryo	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	collected	collect	VBN	VBN	_	2	dep	_	_
+1	Embryos	embryo	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	collected	collect	VBN	VBN	_	0	root	_	_
 4	in	in	IN	IN	sem=MNR	3	prep	_	_
 5	a	a	DT	DT	_	8	det	_	_
 6	PCR	pcr	NN	NN	_	8	compound	_	_
@@ -4814,22 +4814,22 @@
 28	and	and	CC	CC	_	27	cc	_	_
 29	mutant	mutant	NN	NN	_	27	conj	_	_
 30	alleles	allele	NNS	NNS	_	23	dobj	_	_
-31	.	.	.	.	_	2	punct	_	_
+31	.	.	.	.	_	3	punct	_	_
 
-1	After	after	IN	IN	sem=TMP	13	prep	_	_
+1	After	after	IN	IN	sem=TMP	14	prep	_	_
 2	30	0	CD	CD	_	3	nummod	_	_
 3	cycles	cycle	NNS	NNS	_	1	pobj	_	_
 4	of	of	IN	IN	_	3	prep	_	_
 5	amplification	amplification	NN	NN	_	4	pobj	_	_
-6	,	,	,	,	_	13	punct	_	_
+6	,	,	,	,	_	14	punct	_	_
 7	1	0	CD	CD	_	8	nummod	_	_
-8	μl	μl	NN	NN	_	13	nsubj	_	_
+8	μl	μl	NN	NN	_	14	nsubjpass	_	_
 9	of	of	IN	IN	_	8	prep	_	_
 10	each	each	DT	DT	_	12	det	_	_
 11	PCR	pcr	NN	NN	_	12	compound	_	_
 12	reaction	reaction	NN	NN	_	9	pobj	_	_
-13	was	be	VBD	VBD	_	0	root	_	_
-14	used	use	VBN	VBN	_	13	dep	_	_
+13	was	be	VBD	VBD	_	14	auxpass	_	_
+14	used	use	VBN	VBN	_	0	root	_	_
 15	in	in	IN	IN	_	14	prep	_	_
 16	a	a	DT	DT	_	18	det	_	_
 17	second	#ord#	JJ	JJ	_	18	amod	_	_
@@ -4844,18 +4844,18 @@
 26	of	of	IN	IN	_	25	prep	_	_
 27	oligonucleotide	oligonucleotide	NN	NN	_	28	compound	_	_
 28	primers	primer	NNS	NNS	_	26	pobj	_	_
-29	.	.	.	.	_	13	punct	_	_
+29	.	.	.	.	_	14	punct	_	_
 
-1	After	after	IN	IN	sem=TMP	9	prep	_	_
+1	After	after	IN	IN	sem=TMP	10	prep	_	_
 2	30	0	CD	CD	_	3	nummod	_	_
 3	cycles	cycle	NNS	NNS	_	1	pobj	_	_
 4	of	of	IN	IN	_	3	prep	_	_
 5	amplification	amplification	NN	NN	_	4	pobj	_	_
-6	,	,	,	,	_	9	punct	_	_
+6	,	,	,	,	_	10	punct	_	_
 7	PCR	pcr	NN	NN	_	8	compound	_	_
-8	reactions	reaction	NNS	NNS	_	9	nsubj	_	_
-9	were	be	VBD	VBD	_	0	root	_	_
-10	run	run	VBN	VBN	_	9	dep	_	_
+8	reactions	reaction	NNS	NNS	_	10	nsubjpass	_	_
+9	were	be	VBD	VBD	_	10	auxpass	_	_
+10	run	run	VBN	VBN	_	0	root	_	_
 11	onto	onto	IN	IN	_	10	prep	_	_
 12	an	an	DT	DT	_	14	det	_	_
 13	agarose	agarose	NN	NN	_	14	compound	_	_
@@ -4881,7 +4881,7 @@
 33	bp	bp	NN	NN	_	30	parataxis	_	_
 34	)	)	-RRB-	-RRB-	_	33	punct	_	_
 35	alleles	allele	NNS	NNS	_	20	pobj	_	_
-36	.	.	.	.	_	9	punct	_	_
+36	.	.	.	.	_	10	punct	_	_
 
 1	P150CAF	p0caf	NN	NN	_	4	nmod	_	_
 2	-	-	HYPH	HYPH	_	1	punct	_	_
@@ -4976,7 +4976,7 @@
 53	.	.	.	.	_	26	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	sequence	sequence	NN	NN	_	17	nsubj	_	_
+2	sequence	sequence	NN	NN	_	18	nsubjpass	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	p150CAF	p0caf	NN	NN	_	13	nmod	_	_
 5	-	-	HYPH	HYPH	_	4	punct	_	_
@@ -4991,12 +4991,12 @@
 14	[	[	-LRB-	-LRB-	_	15	punct	_	_
 15	16	0	CD	CD	_	2	parataxis	_	_
 16	]	]	-RRB-	-RRB-	_	15	punct	_	_
-17	was	be	VBD	VBD	_	0	root	_	_
-18	cloned	clone	VBN	VBN	_	17	dep	_	_
+17	was	be	VBD	VBD	_	18	auxpass	_	_
+18	cloned	clone	VBN	VBN	_	0	root	_	_
 19	into	into	IN	IN	_	18	prep	_	_
 20	this	this	DT	DT	_	21	det	_	_
 21	plasmid	plasmid	NN	NN	_	19	pobj	_	_
-22	.	.	.	.	_	17	punct	_	_
+22	.	.	.	.	_	18	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	control	control	NN	NN	_	3	compound	_	_
@@ -5012,9 +5012,9 @@
 12	.	.	.	.	_	4	punct	_	_
 
 1	ES	es	NN	NN	_	2	compound	_	_
-2	cells	cell	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	transfected	transfected	VBN	VBN	_	3	dep	_	_
+2	cells	cell	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	transfected	transfected	VBN	VBN	_	0	root	_	_
 5	by	by	IN	IN	sem=MNR	4	prep	_	_
 6	electroporation	electroporation	NN	NN	_	5	pobj	_	_
 7	with	with	IN	IN	sem=MNR	4	prep	_	_
@@ -5040,25 +5040,25 @@
 27	absence	absence	NN	NN	_	25	pobj	_	_
 28	of	of	IN	IN	_	27	prep	_	_
 29	selection	selection	NN	NN	_	28	pobj	_	_
-30	.	.	.	.	_	3	punct	_	_
+30	.	.	.	.	_	4	punct	_	_
 
-1	Puromycin	puromycin	NN	NN	_	8	nsubj	_	_
+1	Puromycin	puromycin	NN	NN	_	9	nsubjpass	_	_
 2	(	(	-LRB-	-LRB-	_	4	punct	_	_
 3	2	0	CD	CD	_	4	nummod	_	_
 4	μg	μg	NN	NN	_	1	parataxis	_	_
 5	/	/	SYM	SYM	_	6	punct	_	_
 6	ml	ml	NN	NN	_	4	prep	_	_
 7	)	)	-RRB-	-RRB-	_	4	punct	_	_
-8	was	be	VBD	VBD	_	0	root	_	_
-9	added	add	VBN	VBN	_	8	dep	_	_
+8	was	be	VBD	VBD	_	9	auxpass	_	_
+9	added	add	VBN	VBN	_	0	root	_	_
 10	to	to	IN	IN	_	9	prep	_	_
 11	the	the	DT	DT	_	13	det	_	_
 12	culture	culture	NN	NN	_	13	compound	_	_
 13	medium	medium	NN	NN	_	10	pobj	_	_
-14	and	and	CC	CC	_	8	cc	_	_
-15	cells	cell	NNS	NNS	_	16	nsubj	_	_
-16	were	be	VBD	VBD	_	8	conj	_	_
-17	cultured	culture	VBN	VBN	_	16	dep	_	_
+14	and	and	CC	CC	_	9	cc	_	_
+15	cells	cell	NNS	NNS	_	17	nsubjpass	_	_
+16	were	be	VBD	VBD	_	17	auxpass	_	_
+17	cultured	culture	VBN	VBN	_	9	conj	_	_
 18	for	for	IN	IN	sem=TMP	17	prep	_	_
 19	an	an	DT	DT	_	24	det	_	_
 20	additional	additional	JJ	JJ	_	24	amod	_	_
@@ -5066,7 +5066,7 @@
 22	-	-	HYPH	HYPH	_	23	punct	_	_
 23	h	h	NN	NN	_	24	compound	_	_
 24	period	period	NN	NN	_	18	pobj	_	_
-25	.	.	.	.	_	16	punct	_	_
+25	.	.	.	.	_	17	punct	_	_
 
 1	Using	use	VBG	VBG	sem=MNR	12	advcl	_	_
 2	the	the	DT	DT	_	7	det	_	_
@@ -5109,24 +5109,24 @@
 12	1	0	CD	CD	_	10	nummod	_	_
 13	expression	expression	NN	NN	_	8	dobj	_	_
 14	,	,	,	,	_	8	punct	_	_
-15	as	as	IN	IN	syn=ADV	8	mark	_	_
-16	expected	expect	VBN	VBN	_	15	advcl	_	_
+15	as	as	IN	IN	_	16	mark	_	_
+16	expected	expect	VBN	VBN	syn=ADV	8	advcl	_	_
 17	from	from	IN	IN	_	16	prep	_	_
 18	the	the	DT	DT	_	20	det	_	_
 19	15	0	CD	CD	_	20	nummod	_	_
 20	%	%	NN	NN	_	17	pobj	_	_
 21	of	of	IN	IN	_	20	prep	_	_
 22	cells	cell	NNS	NNS	_	21	pobj	_	_
-23	that	that	WDT	WDT	_	24	dep	_	20:ref
-24	do	do	VBP	VBP	_	20	relcl	_	_
-25	not	not	RB	RB	_	24	neg	_	_
-26	inhibit	inhibit	VB	VB	_	24	dep	_	_
+23	that	that	WDT	WDT	_	26	dep	_	20:ref
+24	do	do	VBP	VBP	_	26	aux	_	_
+25	not	not	RB	RB	_	26	neg	_	_
+26	inhibit	inhibit	VB	VB	_	20	relcl	_	_
 27	the	the	DT	DT	_	29	det	_	_
 28	target	target	NN	NN	_	29	compound	_	_
 29	gene	gene	NN	NN	_	26	dobj	_	_
 30	.	.	.	.	_	8	punct	_	_
 
-1	MEFs	mefs	NNS	NNS	_	10	nsubj	_	_
+1	MEFs	mefs	NNS	NNS	_	11	nsubjpass	_	_
 2	(	(	-LRB-	-LRB-	_	3	punct	_	_
 3	passage	passage	NN	NN	_	1	parataxis	_	_
 4	3	0	CD	CD	_	3	nummod	_	_
@@ -5135,8 +5135,8 @@
 7	%	%	NN	NN	_	8	compound	_	_
 8	confluence	confluence	NN	NN	_	3	appos	_	_
 9	)	)	-RRB-	-RRB-	_	3	punct	_	_
-10	were	be	VBD	VBD	_	0	root	_	_
-11	transfected	transfected	VBN	VBN	_	10	dep	_	_
+10	were	be	VBD	VBD	_	11	auxpass	_	_
+11	transfected	transfected	VBN	VBN	_	0	root	_	_
 12	during	during	IN	IN	sem=TMP	11	prep	_	_
 13	4	0	CD	CD	_	14	nummod	_	_
 14	h	h	NN	NN	_	12	pobj	_	_
@@ -5163,11 +5163,11 @@
 35	manufacturer	manufacturer	NN	NN	_	37	poss	_	_
 36	's	's	POS	POS	_	35	case	_	_
 37	conditions	condition	NNS	NNS	_	34	pobj	_	_
-38	.	.	.	.	_	10	punct	_	_
+38	.	.	.	.	_	11	punct	_	_
 
-1	Cells	cell	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	trypsinized	trypsinized	VBN	VBN	_	2	dep	_	_
+1	Cells	cell	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	trypsinized	trypsinized	VBN	VBN	_	0	root	_	_
 4	,	,	,	,	_	3	punct	_	_
 5	plated	plate	VBN	VBN	_	3	conj	_	_
 6	at	at	IN	IN	_	5	prep	_	_
@@ -5186,7 +5186,7 @@
 19	presence	presence	NN	NN	_	17	pobj	_	_
 20	of	of	IN	IN	_	19	prep	_	_
 21	puromycin	puromycin	NN	NN	_	20	pobj	_	_
-22	.	.	.	.	_	2	punct	_	_
+22	.	.	.	.	_	3	punct	_	_
 
 1	Cell	cell	NN	NN	_	2	compound	_	_
 2	lines	line	NNS	NNS	_	0	root	_	_
@@ -5196,7 +5196,7 @@
 2	-	-	HYPH	HYPH	_	1	punct	_	_
 3	1	0	CD	CD	_	1	nummod	_	_
 4	ES	es	NN	NN	_	5	compound	_	_
-5	cells	cell	NNS	NNS	_	16	nsubj	_	_
+5	cells	cell	NNS	NNS	_	17	nsubjpass	_	_
 6	[	[	-LRB-	-LRB-	_	7	punct	_	_
 7	42	0	CD	CD	_	5	parataxis	_	_
 8	]	]	-RRB-	-RRB-	_	7	punct	_	_
@@ -5207,23 +5207,23 @@
 13	M.	m.	NNP	NNP	_	14	compound	_	_
 14	Vernet	vernet	NNP	NNP	_	12	pobj	_	_
 15	)	)	-RRB-	-RRB-	_	11	punct	_	_
-16	were	be	VBD	VBD	_	0	root	_	_
-17	used	use	VBN	VBN	_	16	dep	_	_
+16	were	be	VBD	VBD	_	17	auxpass	_	_
+17	used	use	VBN	VBN	_	0	root	_	_
 18	for	for	IN	IN	sem=PRP	17	prep	_	_
 19	gene	gene	NN	NN	_	20	compound	_	_
 20	targeting	targeting	NN	NN	_	18	pobj	_	_
-21	.	.	.	.	_	16	punct	_	_
+21	.	.	.	.	_	17	punct	_	_
 
 1	LTM7	ltm0	NN	NN	_	3	compound	_	_
 2	ES	es	NN	NN	_	3	compound	_	_
-3	cells	cell	NNS	NNS	_	4	nsubj	_	_
-4	were	be	VBD	VBD	_	0	root	_	_
-5	used	use	VBN	VBN	_	4	dep	_	_
+3	cells	cell	NNS	NNS	_	5	nsubjpass	_	_
+4	were	be	VBD	VBD	_	5	auxpass	_	_
+5	used	use	VBN	VBN	_	0	root	_	_
 6	in	in	IN	IN	sem=MNR	5	prep	_	_
 7	all	all	DT	DT	_	9	det	_	_
 8	RNAi	rnai	NN	NN	_	9	compound	_	_
 9	experiments	experiment	NNS	NNS	_	6	pobj	_	_
-10	.	.	.	.	_	4	punct	_	_
+10	.	.	.	.	_	5	punct	_	_
 
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	derived	derive	VBD	VBD	_	0	root	_	_
@@ -5262,26 +5262,26 @@
 12	.	.	.	.	_	2	punct	_	_
 
 1	Primary	primary	JJ	JJ	_	2	amod	_	_
-2	MEFs	mefs	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	derived	derive	VBN	VBN	_	3	dep	_	_
+2	MEFs	mefs	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	derived	derive	VBN	VBN	_	0	root	_	_
 5	from	from	IN	IN	_	4	prep	_	_
 6	E13	e0	NN	NN	_	7	compound	_	_
 7	embryos	embryo	NNS	NNS	_	5	pobj	_	_
-8	as	as	IN	IN	syn=ADV	4	mark	_	_
-9	described	describe	VBN	VBN	_	8	advcl	_	_
+8	as	as	IN	IN	_	9	mark	_	_
+9	described	describe	VBN	VBN	syn=ADV	4	advcl	_	_
 10	in	in	IN	IN	_	9	prep	_	_
 11	[	[	-LRB-	-LRB-	_	10	punct	_	_
 12	43	0	CD	CD	_	10	pobj	_	_
-13	]	]	-RRB-	-RRB-	_	3	punct	_	_
-14	.	.	.	.	_	3	punct	_	_
+13	]	]	-RRB-	-RRB-	_	4	punct	_	_
+14	.	.	.	.	_	4	punct	_	_
 
 1	Immunofluorescence	immunofluorescence	NN	NN	_	0	root	_	_
 2	.	.	.	.	_	1	punct	_	_
 
-1	Cells	cell	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	fixed	fix	VBN	VBN	_	2	dep	_	_
+1	Cells	cell	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	fixed	fix	VBN	VBN	_	0	root	_	_
 4	for	for	IN	IN	sem=TMP	3	prep	_	_
 5	20	0	CD	CD	_	6	nummod	_	_
 6	min	min	NN	NN	_	4	pobj	_	_
@@ -5291,30 +5291,30 @@
 10	4	0	CD	CD	_	11	nummod	_	_
 11	%	%	NN	NN	_	12	compound	_	_
 12	paraformaldehyde	paraformaldehyde	NN	NN	_	9	pobj	_	_
-13	,	,	,	,	_	2	punct	_	_
-14	and	and	CC	CC	_	2	cc	_	_
-15	immunodetection	immunodetection	NN	NN	_	16	nsubj	_	_
-16	was	be	VBD	VBD	_	2	conj	_	_
-17	performed	performed	VBN	VBN	_	16	dep	_	_
-18	as	as	IN	IN	syn=ADV	17	mark	_	_
+13	,	,	,	,	_	3	punct	_	_
+14	and	and	CC	CC	_	3	cc	_	_
+15	immunodetection	immunodetection	NN	NN	_	17	nsubjpass	_	_
+16	was	be	VBD	VBD	_	17	auxpass	_	_
+17	performed	performed	VBN	VBN	_	3	conj	_	_
+18	as	as	IN	IN	_	20	mark	_	_
 19	previously	previously	RB	RB	sem=TMP	20	advmod	_	_
-20	described	describe	VBN	VBN	_	18	advcl	_	_
+20	described	describe	VBN	VBN	syn=ADV	17	advcl	_	_
 21	[	[	-LRB-	-LRB-	_	22	punct	_	_
 22	44	0	CD	CD	_	17	parataxis	_	_
 23	]	]	-RRB-	-RRB-	_	22	punct	_	_
-24	.	.	.	.	_	16	punct	_	_
+24	.	.	.	.	_	17	punct	_	_
 
 1	E4	e0	NN	NN	_	2	compound	_	_
-2	embryos	embryo	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	collected	collect	VBN	VBN	_	3	dep	_	_
+2	embryos	embryo	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	collected	collect	VBN	VBN	_	0	root	_	_
 5	and	and	CC	CC	_	4	cc	_	_
 6	treated	treat	VBN	VBN	_	4	conj	_	_
 7	with	with	IN	IN	sem=MNR	6	prep	_	_
 8	tyrode	tyrode	NN	NN	_	9	compound	_	_
 9	acid	acid	NN	NN	_	7	pobj	_	_
-10	to	to	TO	TO	sem=PRP	6	advcl	_	_
-11	remove	remove	VB	VB	_	10	dep	_	_
+10	to	to	TO	TO	_	11	aux	_	_
+11	remove	remove	VB	VB	sem=PRP	6	advcl	_	_
 12	the	the	DT	DT	_	14	det	_	_
 13	zona	zona	NN	NN	_	14	compound	_	_
 14	pellucida	pellucida	NN	NN	_	11	dobj	_	_
@@ -5328,14 +5328,14 @@
 22	processed	process	VBN	VBN	_	16	conj	_	_
 23	for	for	IN	IN	sem=PRP	22	prep	_	_
 24	immunostaining	immunostaining	NN	NN	_	23	pobj	_	_
-25	as	as	IN	IN	syn=ADV	22	mark	_	_
-26	described	describe	VBN	VBN	_	25	advcl	_	_
+25	as	as	IN	IN	_	26	mark	_	_
+26	described	describe	VBN	VBN	syn=ADV	22	advcl	_	_
 27	for	for	IN	IN	_	26	prep	_	_
 28	ES	es	NN	NN	_	29	compound	_	_
 29	cells	cell	NNS	NNS	_	27	pobj	_	_
-30	.	.	.	.	_	3	punct	_	_
+30	.	.	.	.	_	4	punct	_	_
 
-1	Antibodies	antibody	NNS	NNS	_	50	nsubj	_	_
+1	Antibodies	antibody	NNS	NNS	_	52	nsubjpass	_	_
 2	anti-HP1α	anti-hp0α	JJ	JJ	_	1	appos	_	_
 3	(	(	-LRB-	-LRB-	_	4	punct	_	_
 4	2HP1H5	0hp0h0	NN	NN	_	2	parataxis	_	_
@@ -5384,19 +5384,19 @@
 47	United	united	NNP	NNP	_	48	compound	_	_
 48	States	state	NNP	NNP	sem=LOC	39	npadvmod	_	_
 49	)	)	-RRB-	-RRB-	_	39	punct	_	_
-50	were	be	VBD	VBD	_	0	root	_	_
-51	all	all	RB	RB	_	50	advmod	_	_
-52	used	use	VBN	VBN	_	50	dep	_	_
+50	were	be	VBD	VBD	_	52	auxpass	_	_
+51	all	all	RB	RB	_	52	advmod	_	_
+52	used	use	VBN	VBN	_	0	root	_	_
 53	at	at	IN	IN	_	52	prep	_	_
 54	1	0	CD	CD	_	57	nummod	_	_
 55	/	/	SYM	SYM	_	56	punct	_	_
 56	1000	0	CD	CD	_	54	prep	_	_
 57	dilution	dilution	NN	NN	_	53	pobj	_	_
-58	.	.	.	.	_	50	punct	_	_
+58	.	.	.	.	_	52	punct	_	_
 
 1	Antibodies	antibody	NNS	NNS	_	3	nmod	_	_
 2	anti-mouse	anti-mouse	JJ	JJ	_	3	amod	_	_
-3	p150CAF1	p0caf0	NN	NN	_	13	nsubj	_	_
+3	p150CAF1	p0caf0	NN	NN	_	14	nsubjpass	_	_
 4	[	[	-LRB-	-LRB-	_	5	punct	_	_
 5	16	0	CD	CD	_	3	parataxis	_	_
 6	]	]	-RRB-	-RRB-	_	5	punct	_	_
@@ -5406,8 +5406,8 @@
 10	Upstate	upstate	NNP	NNP	_	11	compound	_	_
 11	Biotechnology	biotechnology	NNP	NNP	_	8	parataxis	_	_
 12	)	)	-RRB-	-RRB-	_	11	punct	_	_
-13	were	be	VBD	VBD	_	0	root	_	_
-14	used	use	VBN	VBN	_	13	dep	_	_
+13	were	be	VBD	VBD	_	14	auxpass	_	_
+14	used	use	VBN	VBN	_	0	root	_	_
 15	at	at	IN	IN	_	14	prep	_	_
 16	1	0	CD	CD	_	15	pobj	_	_
 17	/	/	SYM	SYM	_	18	punct	_	_
@@ -5418,13 +5418,13 @@
 22	500	0	CD	CD	_	20	prep	_	_
 23	,	,	,	,	_	14	punct	_	_
 24	respectively	respectively	RB	RB	_	14	advmod	_	_
-25	.	.	.	.	_	13	punct	_	_
+25	.	.	.	.	_	14	punct	_	_
 
 1	All	all	DT	DT	_	3	det	_	_
 2	secondary	secondary	JJ	JJ	_	3	amod	_	_
-3	antibodies	antibody	NNS	NNS	_	4	nsubj	_	_
-4	were	be	VBD	VBD	_	0	root	_	_
-5	purchased	purchase	VBN	VBN	_	4	dep	_	_
+3	antibodies	antibody	NNS	NNS	_	5	nsubjpass	_	_
+4	were	be	VBD	VBD	_	5	auxpass	_	_
+5	purchased	purchase	VBN	VBN	_	0	root	_	_
 6	from	from	IN	IN	_	5	prep	_	_
 7	Molecular	molecular	NNP	NNP	_	8	compound	_	_
 8	Probes	probes	NNP	NNP	_	6	pobj	_	_
@@ -5436,16 +5436,16 @@
 14	United	united	NNP	NNP	_	15	compound	_	_
 15	States	state	NNP	NNP	sem=LOC	10	npadvmod	_	_
 16	)	)	-RRB-	-RRB-	_	10	punct	_	_
-17	.	.	.	.	_	4	punct	_	_
+17	.	.	.	.	_	5	punct	_	_
 
 1	Western	western	NNP	NNP	_	2	compound	_	_
 2	blot	blot	NN	NN	_	3	compound	_	_
 3	analysis	analysis	NN	NN	_	0	root	_	_
 4	.	.	.	.	_	3	punct	_	_
 
-1	Cells	cell	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	lysed	lysed	VBN	VBN	_	2	dep	_	_
+1	Cells	cell	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	lysed	lysed	VBN	VBN	_	0	root	_	_
 4	in	in	IN	IN	sem=MNR	3	prep	_	_
 5	Laemli	laemli	NNP	NNP	_	6	compound	_	_
 6	buffer	buffer	NN	NN	_	4	pobj	_	_
@@ -5462,7 +5462,7 @@
 17	PAGE	page	NN	NN	_	19	compound	_	_
 18	gradient	gradient	NN	NN	_	19	compound	_	_
 19	gel	gel	NN	NN	_	9	pobj	_	_
-20	.	.	.	.	_	2	punct	_	_
+20	.	.	.	.	_	3	punct	_	_
 
 1	We	we	PRP	PRP	_	2	nsubj	_	_
 2	used	use	VBD	VBD	_	0	root	_	_
@@ -5529,14 +5529,14 @@
 2	FISH	fish	NN	NN	_	0	root	_	_
 3	.	.	.	.	_	2	punct	_	_
 
-1	Probes	probe	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	described	describe	VBN	VBN	_	2	dep	_	_
+1	Probes	probe	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	described	describe	VBN	VBN	_	0	root	_	_
 4	previously	previously	RB	RB	sem=TMP	3	advmod	_	_
 5	[	[	-LRB-	-LRB-	_	6	punct	_	_
 6	20	0	CD	CD	_	3	parataxis	_	_
 7	]	]	-RRB-	-RRB-	_	6	punct	_	_
-8	.	.	.	.	_	2	punct	_	_
+8	.	.	.	.	_	3	punct	_	_
 
 1	Biotin	biotin	NN	NN	_	5	nmod	_	_
 2	-	-	HYPH	HYPH	_	5	punct	_	_
@@ -5557,29 +5557,29 @@
 17	Switzerland	switzerland	NNP	NNP	sem=LOC	13	npadvmod	_	_
 18	)	)	-RRB-	-RRB-	_	13	punct	_	_
 19	labeled	label	VBN	VBN	_	20	amod	_	_
-20	probes	probe	NNS	NNS	_	21	nsubj	_	20:gap
-21	were	be	VBD	VBD	_	0	root	_	_
-22	generated	generate	VBN	VBN	_	21	dep	_	22:gap
+20	probes	probe	NNS	NNS	_	22	nsubjpass	_	20:gap
+21	were	be	VBD	VBD	_	22	auxpass	_	_
+22	generated	generate	VBN	VBN	_	0	root	_	22:gap
 23	by	by	IN	IN	sem=MNR	22	prep	_	_
 24	nick	nick	NN	NN	_	25	compound	_	_
 25	translation	translation	NN	NN	_	23	pobj	_	_
 26	(	(	-LRB-	-LRB-	_	27	punct	_	_
 27	Roche	roche	NNP	NNP	_	22	parataxis	_	_
 28	)	)	-RRB-	-RRB-	_	27	punct	_	_
-29	and	and	CC	CC	_	21	cc	_	_
+29	and	and	CC	CC	_	22	cc	_	_
 30	FISH	fish	NN	NN	_	31	nsubj	_	20:gap
-31	performed	performed	VBN	VBN	_	21	conj	_	22:gap
-32	as	as	IN	IN	syn=ADV	31	mark	_	_
-33	described	describe	VBN	VBN	_	32	advcl	_	_
+31	performed	performed	VBN	VBN	_	22	conj	_	22:gap
+32	as	as	IN	IN	_	33	mark	_	_
+33	described	describe	VBN	VBN	syn=ADV	31	advcl	_	_
 34	[	[	-LRB-	-LRB-	_	35	punct	_	_
 35	20	0	CD	CD	_	31	parataxis	_	_
 36	]	]	-RRB-	-RRB-	_	35	punct	_	_
 37	.	.	.	.	_	31	punct	_	_
 
 1	Image	image	NN	NN	_	2	compound	_	_
-2	acquisition	acquisition	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	performed	performed	VBN	VBN	_	3	dep	_	_
+2	acquisition	acquisition	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	performed	performed	VBN	VBN	_	0	root	_	_
 5	with	with	IN	IN	sem=MNR	4	prep	_	_
 6	the	the	DT	DT	_	9	det	_	_
 7	Deltavision	deltavision	NNP	NNP	_	8	compound	_	_
@@ -5593,15 +5593,15 @@
 15	NA	na	NN	NN	_	16	compound	_	_
 16	objective	objective	NN	NN	_	9	parataxis	_	_
 17	)	)	-RRB-	-RRB-	_	16	punct	_	_
-18	,	,	,	,	_	3	punct	_	_
-19	images	image	NNS	NNS	_	20	nsubj	_	19:gap
-20	were	be	VBD	VBD	_	3	conj	_	_
-21	deconvoluted	deconvoluted	VBN	VBN	_	20	dep	_	21:gap
-22	,	,	,	,	_	20	punct	_	_
-23	and	and	CC	CC	_	20	cc	_	_
+18	,	,	,	,	_	4	punct	_	_
+19	images	image	NNS	NNS	_	21	nsubjpass	_	19:gap
+20	were	be	VBD	VBD	_	21	auxpass	_	_
+21	deconvoluted	deconvoluted	VBN	VBN	_	4	conj	_	21:gap
+22	,	,	,	,	_	21	punct	_	_
+23	and	and	CC	CC	_	21	cc	_	_
 24	fluorescence	fluorescence	NN	NN	_	25	compound	_	_
 25	profiles	profile	NNS	NNS	_	26	nsubj	_	19:gap
-26	measured	measure	VBN	VBN	_	20	conj	_	21:gap
+26	measured	measure	VBN	VBN	_	21	conj	_	21:gap
 27	along	along	IN	IN	sem=MNR	26	prep	_	_
 28	an	an	DT	DT	_	30	det	_	_
 29	arbitrary	arbitrary	JJ	JJ	_	30	amod	_	_
@@ -5624,9 +5624,9 @@
 12	.	.	.	.	_	9	punct	_	_
 
 1	ES	es	NN	NN	_	2	compound	_	_
-2	cells	cell	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	incubated	incubate	VBN	VBN	_	3	dep	_	_
+2	cells	cell	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	incubated	incubate	VBN	VBN	_	0	root	_	_
 5	on	on	IN	IN	sem=MNR	4	prep	_	_
 6	ice	ice	NN	NN	_	5	pobj	_	_
 7	for	for	IN	IN	sem=TMP	4	prep	_	_
@@ -5681,11 +5681,11 @@
 56	United	united	NNP	NNP	_	57	compound	_	_
 57	States	state	NNP	NNP	sem=LOC	49	npadvmod	_	_
 58	)	)	-RRB-	-RRB-	_	49	punct	_	_
-59	.	.	.	.	_	3	punct	_	_
+59	.	.	.	.	_	4	punct	_	_
 
-1	Nuclei	nucleus	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	purified	purify	VBN	VBN	_	2	dep	_	_
+1	Nuclei	nucleus	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	purified	purify	VBN	VBN	_	0	root	_	_
 4	by	by	IN	IN	sem=MNR	3	prep	_	_
 5	centrifugation	centrifugation	NN	NN	_	4	pobj	_	_
 6	(	(	-LRB-	-LRB-	_	9	punct	_	_
@@ -5743,13 +5743,13 @@
 58	mM	mm	NN	NN	_	59	compound	_	_
 59	CaCl2	cacl0	NN	NN	_	39	appos	_	_
 60	)	)	-RRB-	-RRB-	_	39	punct	_	_
-61	.	.	.	.	_	2	punct	_	_
+61	.	.	.	.	_	3	punct	_	_
 
 1	About	about	IN	IN	_	2	quantmod	_	_
 2	2.106	0	CD	CD	_	3	nummod	_	_
-3	nuclei	nucleus	NNS	NNS	_	4	nsubj	_	_
-4	were	be	VBD	VBD	_	0	root	_	_
-5	incubated	incubate	VBN	VBN	_	4	dep	_	_
+3	nuclei	nucleus	NNS	NNS	_	5	nsubjpass	_	_
+4	were	be	VBD	VBD	_	5	auxpass	_	_
+5	incubated	incubate	VBN	VBN	_	0	root	_	_
 6	with	with	IN	IN	sem=MNR	5	prep	_	_
 7	increasing	increase	VBG	VBG	_	8	amod	_	_
 8	quantities	quantity	NNS	NNS	_	6	pobj	_	_
@@ -5770,7 +5770,7 @@
 23	16	0	CD	CD	_	24	nummod	_	_
 24	units	unit	NNS	NNS	_	18	parataxis	_	_
 25	)	)	-RRB-	-RRB-	_	24	punct	_	_
-26	.	.	.	.	_	4	punct	_	_
+26	.	.	.	.	_	5	punct	_	_
 
 1	Digestion	digestion	NN	NN	_	2	compound	_	_
 2	time	time	NN	NN	_	6	nsubj	_	_
@@ -5790,9 +5790,9 @@
 16	I	i	CD	CD	_	15	nummod	_	_
 17	.	.	.	.	_	6	punct	_	_
 
-1	Digestions	digestion	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	stopped	stop	VBN	VBN	_	2	dep	_	_
+1	Digestions	digestion	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	stopped	stop	VBN	VBN	_	0	root	_	_
 4	by	by	IN	IN	sem=MNR	3	prep	_	_
 5	adding	add	VBG	VBG	syn=NOM	4	pcomp	_	_
 6	SDS	sds	NN	NN	_	5	dobj	_	6:gap
@@ -5804,11 +5804,11 @@
 12	to	to	IN	IN	_	11	prep	_	7:gap
 13	50	0	CD	CD	_	14	nummod	_	_
 14	mM	mm	NN	NN	_	12	pobj	_	_
-15	.	.	.	.	_	2	punct	_	_
+15	.	.	.	.	_	3	punct	_	_
 
-1	DNAs	dna	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	prepared	prepare	VBN	VBN	_	2	dep	_	_
+1	DNAs	dna	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	prepared	prepare	VBN	VBN	_	0	root	_	_
 4	by	by	IN	IN	sem=MNR	3	prep	_	_
 5	proteinase	proteinase	NN	NN	_	6	compound	_	_
 6	K	k	NN	NN	_	7	compound	_	_
@@ -5822,10 +5822,10 @@
 14	and	and	CC	CC	_	13	cc	_	_
 15	isopropanol	isopropanol	NN	NN	_	16	compound	_	_
 16	precipitation	precipitation	NN	NN	_	13	conj	_	_
-17	.	.	.	.	_	2	punct	_	_
+17	.	.	.	.	_	3	punct	_	_
 
-1	To	to	TO	TO	sem=PRP	20	advcl	_	_
-2	test	test	VB	VB	_	1	dep	_	_
+1	To	to	TO	TO	_	2	aux	_	_
+2	test	test	VB	VB	sem=PRP	21	advcl	_	_
 3	the	the	DT	DT	_	4	det	_	_
 4	association	association	NN	NN	_	2	dobj	_	_
 5	of	of	IN	IN	_	4	prep	_	_
@@ -5840,11 +5840,11 @@
 14	-	-	HYPH	HYPH	_	15	punct	_	_
 15	depleted	deplete	VBN	VBN	_	11	conj	_	_
 16	cells	cell	NNS	NNS	_	10	pobj	_	_
-17	,	,	,	,	_	20	punct	_	_
+17	,	,	,	,	_	21	punct	_	_
 18	isolated	isolate	VBN	VBN	_	19	amod	_	_
-19	nuclei	nucleus	NNS	NNS	_	20	nsubj	_	_
-20	were	be	VBD	VBD	_	0	root	_	_
-21	incubated	incubate	VBN	VBN	_	20	dep	_	_
+19	nuclei	nucleus	NNS	NNS	_	21	nsubjpass	_	_
+20	were	be	VBD	VBD	_	21	auxpass	_	_
+21	incubated	incubate	VBN	VBN	_	0	root	_	_
 22	on	on	IN	IN	sem=MNR	21	prep	_	_
 23	ice	ice	NN	NN	_	22	pobj	_	_
 24	for	for	IN	IN	sem=TMP	21	prep	_	_
@@ -5900,19 +5900,19 @@
 74	1	0	CD	CD	_	75	nummod	_	_
 75	M	m	NN	NN	_	71	conj	_	_
 76	NaCl	nacl	NN	NN	_	59	pobj	_	_
-77	.	.	.	.	_	20	punct	_	_
+77	.	.	.	.	_	21	punct	_	_
 
-1	After	after	IN	IN	sem=TMP	10	prep	_	_
+1	After	after	IN	IN	sem=TMP	11	prep	_	_
 2	centrifugation	centrifugation	NN	NN	_	1	pobj	_	_
 3	at	at	IN	IN	_	2	prep	_	_
 4	15,000	0	CD	CD	_	5	nummod	_	_
 5	g	g	NN	NN	_	3	pobj	_	_
-6	,	,	,	,	_	10	punct	_	_
-7	pellets	pellet	NNS	NNS	_	10	nsubj	_	_
+6	,	,	,	,	_	11	punct	_	_
+7	pellets	pellet	NNS	NNS	_	11	nsubjpass	_	_
 8	and	and	CC	CC	_	7	cc	_	_
 9	supernants	supernants	NNS	NNS	_	7	conj	_	_
-10	were	be	VBD	VBD	_	0	root	_	_
-11	analyzed	analyze	VBN	VBN	_	10	dep	_	_
+10	were	be	VBD	VBD	_	11	auxpass	_	_
+11	analyzed	analyze	VBN	VBN	_	0	root	_	_
 12	by	by	IN	IN	sem=MNR	11	prep	_	_
 13	Western	western	NNP	NNP	_	14	compound	_	_
 14	blot	blot	NN	NN	_	12	pobj	_	_
@@ -5924,7 +5924,7 @@
 20	(	(	-LRB-	-LRB-	_	21	punct	_	_
 21	Abcam	abcam	NNP	NNP	_	19	parataxis	_	_
 22	)	)	-RRB-	-RRB-	_	21	punct	_	_
-23	.	.	.	.	_	10	punct	_	_
+23	.	.	.	.	_	11	punct	_	_
 
 1	ChIP	chip	NN	NN	_	0	root	_	_
 2	.	.	.	.	_	1	punct	_	_
@@ -5941,19 +5941,19 @@
 10	nucleosomes	nucleosomes	NNS	NNS	_	6	pobj	_	_
 11	in	in	IN	IN	_	10	prep	_	_
 12	length	length	NN	NN	_	11	pobj	_	_
-13	as	as	IN	IN	syn=ADV	2	mark	_	_
-14	described	describe	VBN	VBN	_	13	advcl	_	_
+13	as	as	IN	IN	_	14	mark	_	_
+14	described	describe	VBN	VBN	syn=ADV	2	advcl	_	_
 15	[	[	-LRB-	-LRB-	_	16	punct	_	_
 16	28	0	CD	CD	_	2	parataxis	_	_
 17	]	]	-RRB-	-RRB-	_	16	punct	_	_
 18	.	.	.	.	_	2	punct	_	_
 
 1	5	0	CD	CD	_	2	nummod	_	_
-2	μg	μg	NN	NN	_	5	nsubj	_	_
+2	μg	μg	NN	NN	_	6	nsubjpass	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	chromatin	chromatin	NN	NN	_	3	pobj	_	_
-5	were	be	VBD	VBD	_	0	root	_	_
-6	incubated	incubate	VBN	VBN	_	5	dep	_	_
+5	were	be	VBD	VBD	_	6	auxpass	_	_
+6	incubated	incubate	VBN	VBN	_	0	root	_	_
 7	overnight	overnight	RB	RB	sem=TMP	6	advmod	_	_
 8	with	with	IN	IN	sem=MNR	6	prep	_	_
 9	10	0	CD	CD	_	10	nummod	_	_
@@ -5961,9 +5961,9 @@
 11	of	of	IN	IN	_	10	prep	_	_
 12	commercial	commercial	JJ	JJ	_	13	amod	_	_
 13	antibodies	antibody	NNS	NNS	_	11	pobj	_	_
-14	.	.	.	.	_	5	punct	_	_
+14	.	.	.	.	_	6	punct	_	_
 
-1	After	after	IN	IN	sem=TMP	14	prep	_	_
+1	After	after	IN	IN	sem=TMP	15	prep	_	_
 2	incubation	incubation	NN	NN	_	1	pobj	_	_
 3	with	with	IN	IN	_	2	prep	_	_
 4	protein	protein	NN	NN	_	6	compound	_	_
@@ -5973,11 +5973,11 @@
 8	and	and	CC	CC	_	2	cc	_	_
 9	three	#crd#	CD	CD	_	10	nummod	_	_
 10	washes	wash	NNS	NNS	_	2	conj	_	_
-11	,	,	,	,	_	14	punct	_	_
+11	,	,	,	,	_	15	punct	_	_
 12	immunoprecipitated	immunoprecipitated	VBN	VBN	_	13	amod	_	_
-13	DNA	dna	NN	NN	_	14	nsubj	_	_
-14	was	be	VBD	VBD	_	0	root	_	_
-15	purified	purify	VBN	VBN	_	14	dep	_	_
+13	DNA	dna	NN	NN	_	15	nsubjpass	_	_
+14	was	be	VBD	VBD	_	15	auxpass	_	_
+15	purified	purify	VBN	VBN	_	0	root	_	_
 16	,	,	,	,	_	15	punct	_	_
 17	sized	size	VBN	VBN	_	15	conj	_	_
 18	onto	onto	IN	IN	sem=LOC	17	prep	_	_
@@ -5990,12 +5990,12 @@
 25	by	by	IN	IN	sem=MNR	24	prep	_	_
 26	Southern	southern	NNP	NNP	_	27	compound	_	_
 27	blot	blot	NN	NN	_	25	pobj	_	_
-28	.	.	.	.	_	14	punct	_	_
+28	.	.	.	.	_	15	punct	_	_
 
 1	Hybridization	hybridization	NN	NN	_	2	compound	_	_
-2	signals	signal	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	quantified	quantify	VBN	VBN	_	3	dep	_	_
+2	signals	signal	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	quantified	quantify	VBN	VBN	_	0	root	_	_
 5	using	use	VBG	VBG	sem=MNR	4	advcl	_	_
 6	an	an	DT	DT	_	8	det	_	_
 7	Instant	instant	NNP	NNP	_	8	compound	_	_
@@ -6010,34 +6010,34 @@
 16	United	united	NNP	NNP	_	17	compound	_	_
 17	States	state	NNP	NNP	sem=LOC	10	npadvmod	_	_
 18	)	)	-RRB-	-RRB-	_	10	punct	_	_
-19	.	.	.	.	_	3	punct	_	_
+19	.	.	.	.	_	4	punct	_	_
 
-1	Antibodies	antibody	NNS	NNS	_	5	nsubj	_	_
+1	Antibodies	antibody	NNS	NNS	_	6	nsubjpass	_	_
 2	specific	specific	JJ	JJ	_	1	amod	_	_
 3	for	for	IN	IN	_	1	prep	_	_
 4	H4K20me3	h0k0me0	NN	NN	_	3	pobj	_	_
-5	were	be	VBD	VBD	_	0	root	_	_
-6	purchased	purchase	VBN	VBN	_	5	dep	_	_
+5	were	be	VBD	VBD	_	6	auxpass	_	_
+6	purchased	purchase	VBN	VBN	_	0	root	_	_
 7	from	from	IN	IN	_	6	prep	_	_
 8	Abcam	abcam	NNP	NNP	_	7	pobj	_	_
-9	.	.	.	.	_	5	punct	_	_
+9	.	.	.	.	_	6	punct	_	_
 
-1	Antibodies	antibody	NNS	NNS	_	4	nsubj	_	_
+1	Antibodies	antibody	NNS	NNS	_	5	nsubjpass	_	_
 2	for	for	IN	IN	_	1	prep	_	_
 3	H3K9me3	h0k0me0	NN	NN	_	2	pobj	_	_
-4	were	be	VBD	VBD	_	0	root	_	_
-5	purchased	purchase	VBN	VBN	_	4	dep	_	_
+4	were	be	VBD	VBD	_	5	auxpass	_	_
+5	purchased	purchase	VBN	VBN	_	0	root	_	_
 6	from	from	IN	IN	_	5	prep	_	_
 7	both	both	CC	CC	_	8	preconj	_	_
 8	Abcam	abcam	NNP	NNP	_	6	pobj	_	_
 9	and	and	CC	CC	_	8	cc	_	_
 10	Upstate	upstate	NNP	NNP	_	11	compound	_	_
 11	Biotechnology	biotechnology	NNP	NNP	_	8	conj	_	_
-12	and	and	CC	CC	_	4	cc	_	_
-13	gave	give	VBD	VBD	_	4	conj	_	_
+12	and	and	CC	CC	_	5	cc	_	_
+13	gave	give	VBD	VBD	_	5	conj	_	_
 14	similar	similar	JJ	JJ	_	15	amod	_	_
 15	results	result	NNS	NNS	_	13	dobj	_	_
-16	.	.	.	.	_	4	punct	_	_
+16	.	.	.	.	_	5	punct	_	_
 
 1	For	for	IN	IN	sem=PRP	7	prep	_	_
 2	Southern	southern	NNP	NNP	_	3	compound	_	_
@@ -6095,33 +6095,33 @@
 54	]	]	-RRB-	-RRB-	_	53	punct	_	_
 55	.	.	.	.	_	7	punct	_	_
 
-1	Probes	probe	NNS	NNS	_	6	nsubj	_	_
+1	Probes	probe	NNS	NNS	_	7	nsubjpass	_	_
 2	used	use	VBN	VBN	_	1	acl	_	_
 3	in	in	IN	IN	sem=MNR	2	prep	_	_
 4	FISH	fish	NN	NN	_	5	compound	_	_
 5	experiments	experiment	NNS	NNS	_	3	pobj	_	_
-6	were	be	VBD	VBD	_	0	root	_	_
-7	described	describe	VBN	VBN	_	6	dep	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	described	describe	VBN	VBN	_	0	root	_	_
 8	in	in	IN	IN	_	7	prep	_	_
 9	[	[	-LRB-	-LRB-	_	8	punct	_	_
 10	46	0	CD	CD	_	8	pobj	_	_
 11	–	-	SYM	SYM	_	12	punct	_	_
 12	48	0	CD	CD	_	10	prep	_	_
-13	]	]	-RRB-	-RRB-	_	6	punct	_	_
-14	.	.	.	.	_	6	punct	_	_
+13	]	]	-RRB-	-RRB-	_	7	punct	_	_
+14	.	.	.	.	_	7	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	probe	probe	NN	NN	_	6	nsubj	_	_
+2	probe	probe	NN	NN	_	7	nsubjpass	_	_
 3	for	for	IN	IN	_	2	prep	_	_
 4	IAP	iap	NN	NN	_	5	compound	_	_
 5	elements	element	NNS	NNS	_	3	pobj	_	_
-6	was	be	VBD	VBD	_	0	root	_	_
-7	described	describe	VBN	VBN	_	6	dep	_	_
+6	was	be	VBD	VBD	_	7	auxpass	_	_
+7	described	describe	VBN	VBN	_	0	root	_	_
 8	in	in	IN	IN	_	7	prep	_	_
 9	[	[	-LRB-	-LRB-	_	8	punct	_	_
 10	50	0	CD	CD	_	8	pobj	_	_
-11	]	]	-RRB-	-RRB-	_	6	punct	_	_
-12	.	.	.	.	_	6	punct	_	_
+11	]	]	-RRB-	-RRB-	_	7	punct	_	_
+12	.	.	.	.	_	7	punct	_	_
 
 1	Supporting	support	VBG	VBG	_	2	amod	_	_
 2	Information	information	NN	NN	_	0	root	_	_
@@ -6172,34 +6172,34 @@
 
 1	β	β	NN	NN	_	3	compound	_	_
 2	-	-	HYPH	HYPH	_	3	punct	_	_
-3	actin	actin	NN	NN	_	4	nsubj	_	_
-4	was	be	VBD	VBD	_	0	root	_	_
-5	used	use	VBN	VBN	_	4	dep	_	_
+3	actin	actin	NN	NN	_	5	nsubjpass	_	_
+4	was	be	VBD	VBD	_	5	auxpass	_	_
+5	used	use	VBN	VBN	_	0	root	_	_
 6	as	as	IN	IN	sem=MNR	5	prep	_	_
 7	a	a	DT	DT	_	9	det	_	_
 8	loading	loading	NN	NN	_	9	compound	_	_
 9	control	control	NN	NN	_	6	pobj	_	_
-10	.	.	.	.	_	4	punct	_	_
+10	.	.	.	.	_	5	punct	_	_
 
-1	Amount	amount	NN	NN	_	8	nsubj	_	_
+1	Amount	amount	NN	NN	_	9	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	cells	cell	NNS	NNS	_	2	pobj	_	_
 4	used	use	VBN	VBN	_	1	acl	_	_
 5	in	in	IN	IN	_	4	prep	_	_
 6	each	each	DT	DT	_	7	det	_	_
 7	lane	lane	NN	NN	_	5	pobj	_	_
-8	is	be	VBZ	VBZ	_	0	root	_	_
-9	indicated	indicate	VBN	VBN	_	8	dep	_	_
-10	.	.	.	.	_	8	punct	_	_
+8	is	be	VBZ	VBZ	_	9	auxpass	_	_
+9	indicated	indicate	VBN	VBN	_	0	root	_	_
+10	.	.	.	.	_	9	punct	_	_
 
 1	p150CAF	p0caf	NN	NN	_	4	nmod	_	_
 2	-	-	HYPH	HYPH	_	1	punct	_	_
 3	1	0	CD	CD	_	1	nummod	_	_
-4	knockdown	knockdown	NN	NN	_	5	nsubj	_	_
-5	does	do	VBZ	VBZ	_	0	root	_	_
-6	not	not	RB	RB	_	5	neg	_	_
-7	significantly	significantly	RB	RB	_	5	advmod	_	_
-8	affect	affect	VB	VB	_	5	dep	_	_
+4	knockdown	knockdown	NN	NN	_	8	nsubj	_	_
+5	does	do	VBZ	VBZ	_	8	aux	_	_
+6	not	not	RB	RB	_	8	neg	_	_
+7	significantly	significantly	RB	RB	_	8	advmod	_	_
+8	affect	affect	VB	VB	_	0	root	_	_
 9	HP1α	hp0α	NN	NN	_	16	nmod	_	_
 10	,	,	,	,	_	9	punct	_	_
 11	histone	histone	NN	NN	_	12	compound	_	_
@@ -6208,7 +6208,7 @@
 14	or	or	CC	CC	_	12	cc	_	_
 15	H3K9me3	h0k0me0	NN	NN	_	12	conj	_	_
 16	levels	level	NNS	NNS	_	8	dobj	_	_
-17	.	.	.	.	_	5	punct	_	_
+17	.	.	.	.	_	8	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	B	b	LS	LS	_	5	meta	_	_
@@ -6218,7 +6218,7 @@
 6	.	.	.	.	_	5	punct	_	_
 
 1	ES	es	NN	NN	_	2	compound	_	_
-2	cells	cell	NNS	NNS	_	18	nsubj	_	_
+2	cells	cell	NNS	NNS	_	19	nsubjpass	_	_
 3	transfected	transfected	VBN	VBN	_	2	acl	_	_
 4	with	with	IN	IN	sem=MNR	3	prep	_	_
 5	control	control	NN	NN	_	17	nmod	_	_
@@ -6234,8 +6234,8 @@
 15	)	)	-RRB-	-RRB-	_	10	punct	_	_
 16	siRNA	sirna	NN	NN	_	17	compound	_	_
 17	vector	vector	NN	NN	_	4	pobj	_	_
-18	were	be	VBD	VBD	_	0	root	_	_
-19	immunostained	immunostained	VBN	VBN	_	18	dep	_	_
+18	were	be	VBD	VBD	_	19	auxpass	_	_
+19	immunostained	immunostained	VBN	VBN	_	0	root	_	_
 20	with	with	IN	IN	sem=MNR	19	prep	_	_
 21	p150CAF	p0caf	NN	NN	_	24	nmod	_	_
 22	-	-	HYPH	HYPH	_	21	punct	_	_
@@ -6249,7 +6249,7 @@
 30	(	(	-LRB-	-LRB-	_	31	punct	_	_
 31	blue	blue	JJ	JJ	_	29	parataxis	_	_
 32	)	)	-RRB-	-RRB-	_	31	punct	_	_
-33	.	.	.	.	_	18	punct	_	_
+33	.	.	.	.	_	19	punct	_	_
 
 1	Scale	scale	NN	NN	_	2	compound	_	_
 2	bar	bar	NN	NN	_	5	nsubj	_	_
@@ -6258,9 +6258,9 @@
 5	μm	μm	NN	NN	_	0	root	_	_
 6	.	.	.	.	_	5	punct	_	_
 
-1	Fluorescence	fluorescence	NN	NN	_	2	nsubj	_	_
-2	was	be	VBD	VBD	_	0	root	_	_
-3	quantified	quantify	VBN	VBN	_	2	dep	_	_
+1	Fluorescence	fluorescence	NN	NN	_	3	nsubjpass	_	_
+2	was	be	VBD	VBD	_	3	auxpass	_	_
+3	quantified	quantify	VBN	VBN	_	0	root	_	_
 4	along	along	IN	IN	sem=MNR	3	prep	_	_
 5	a	a	DT	DT	_	6	det	_	_
 6	line	line	NN	NN	_	4	pobj	_	_
@@ -6268,10 +6268,10 @@
 8	across	across	IN	IN	sem=LOC	7	prep	_	_
 9	the	the	DT	DT	_	10	det	_	_
 10	nucleus	nucleus	NN	NN	_	8	pobj	_	_
-11	and	and	CC	CC	_	2	cc	_	_
-12	data	datum	NNS	NNS	_	13	nsubj	_	_
-13	were	be	VBD	VBD	_	2	conj	_	_
-14	plotted	plot	VBN	VBN	_	13	dep	_	_
+11	and	and	CC	CC	_	3	cc	_	_
+12	data	datum	NNS	NNS	_	14	nsubjpass	_	_
+13	were	be	VBD	VBD	_	14	auxpass	_	_
+14	plotted	plot	VBN	VBN	_	3	conj	_	_
 15	,	,	,	,	_	14	punct	_	_
 16	revealing	reveal	VBG	VBG	syn=ADV	14	advcl	_	_
 17	efficient	efficient	JJ	JJ	_	21	amod	_	_
@@ -6281,7 +6281,7 @@
 21	depletion	depletion	NN	NN	_	16	dobj	_	_
 22	by	by	IN	IN	_	21	prep	_	_
 23	RNAi	rnai	NN	NN	_	22	pobj	_	_
-24	.	.	.	.	_	13	punct	_	_
+24	.	.	.	.	_	14	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	apparent	apparent	JJ	JJ	_	3	amod	_	_
@@ -6304,7 +6304,7 @@
 19	reflects	reflect	VBZ	VBZ	_	0	root	_	_
 20	the	the	DT	DT	_	21	det	_	_
 21	observation	observation	NN	NN	_	19	dobj	_	_
-22	that	that	IN	IN	_	21	mark	_	_
+22	that	that	IN	IN	_	31	mark	_	_
 23	the	the	DT	DT	_	26	det	_	_
 24	RNAi	rnai	NN	NN	_	26	compound	_	_
 25	plasmid	plasmid	NN	NN	_	26	compound	_	_
@@ -6313,7 +6313,7 @@
 28	in	in	IN	IN	_	27	prep	_	_
 29	this	this	DT	DT	_	30	det	_	_
 30	study	study	NN	NN	_	28	pobj	_	_
-31	is	be	VBZ	VBZ	_	22	ccomp	_	_
+31	is	be	VBZ	VBZ	_	21	acl	_	_
 32	efficient	efficient	JJ	JJ	syn=PRD	31	acomp	_	_
 33	in	in	IN	IN	sem=LOC	31	prep	_	_
 34	85	0	CD	CD	_	35	nummod	_	_
@@ -6325,12 +6325,12 @@
 40	cell	cell	NN	NN	_	41	compound	_	_
 41	population	population	NN	NN	_	36	pobj	_	_
 42	,	,	,	,	_	31	punct	_	_
-43	whereas	whereas	IN	IN	syn=ADV	31	mark	_	_
+43	whereas	whereas	IN	IN	_	48	mark	_	_
 44	15	0	CD	CD	_	45	nummod	_	_
 45	%	%	NN	NN	_	48	nsubj	_	_
 46	of	of	IN	IN	_	45	prep	_	_
 47	cells	cell	NNS	NNS	_	46	pobj	_	_
-48	display	display	VBP	VBP	_	43	ccomp	_	_
+48	display	display	VBP	VBP	syn=ADV	31	advcl	_	_
 49	no	no	DT	DT	_	50	det	_	_
 50	inhibition	inhibition	NN	NN	_	48	dobj	_	_
 51	of	of	IN	IN	_	50	prep	_	_
@@ -6368,14 +6368,14 @@
 4	-	-	HYPH	HYPH	_	5	punct	_	_
 5	Depleted	deplete	VBN	VBN	_	7	amod	_	_
 6	Embryonic	embryonic	JJ	JJ	_	7	amod	_	_
-7	Fibroblasts	fibroblast	NNS	NNS	_	12	nsubj	_	_
+7	Fibroblasts	fibroblast	NNS	NNS	_	14	nsubj	_	_
 8	Active	active	JJ	JJ	_	7	amod	_	_
 9	for	for	IN	IN	_	8	prep	_	_
 10	DNA	dna	NN	NN	_	11	compound	_	_
 11	Replication	replication	NN	NN	_	9	pobj	_	_
-12	Do	do	VBP	VBP	_	0	root	_	_
-13	Not	not	RB	RB	_	12	neg	_	_
-14	Display	display	VB	VB	_	12	dep	_	_
+12	Do	do	VBP	VBP	_	14	aux	_	_
+13	Not	not	RB	RB	_	14	neg	_	_
+14	Display	display	VB	VB	_	0	root	_	_
 15	an	an	DT	DT	_	19	det	_	_
 16	Altered	alter	VBN	VBN	_	19	amod	_	_
 17	Heterochromatin	heterochromatin	NN	NN	_	19	nmod	_	_
@@ -6411,11 +6411,11 @@
 27	vectors	vector	NNS	NNS	_	17	pobj	_	_
 28	.	.	.	.	_	1	punct	_	_
 
-1	MEFs	mefs	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
+1	MEFs	mefs	NNS	NNS	_	5	nsubjpass	_	_
+2	were	be	VBD	VBD	_	5	auxpass	_	_
 3	pulse	pulse	NN	NN	_	5	dep	_	_
 4	-	-	HYPH	HYPH	_	5	punct	_	_
-5	labeled	label	VBN	VBN	_	2	dep	_	_
+5	labeled	label	VBN	VBN	_	0	root	_	_
 6	for	for	IN	IN	sem=TMP	5	prep	_	_
 7	1	0	CD	CD	_	8	nummod	_	_
 8	h	h	NN	NN	_	6	pobj	_	_
@@ -6427,7 +6427,7 @@
 14	and	and	CC	CC	_	13	cc	_	_
 15	IF	if	NN	NN	_	16	compound	_	_
 16	analysis	analysis	NN	NN	_	13	conj	_	_
-17	.	.	.	.	_	2	punct	_	_
+17	.	.	.	.	_	5	punct	_	_
 
 1	The	the	DT	DT	_	5	det	_	_
 2	p150	p0	NN	NN	_	5	nmod	_	_
@@ -6447,16 +6447,16 @@
 16	.	.	.	.	_	6	punct	_	_
 
 1	DAPI	dapi	NN	NN	_	2	compound	_	_
-2	staining	staining	NN	NN	_	3	nsubj	_	_
-3	is	be	VBZ	VBZ	_	0	root	_	_
-4	shown	show	VBN	VBN	_	3	dep	_	_
+2	staining	staining	NN	NN	_	4	nsubjpass	_	_
+3	is	be	VBZ	VBZ	_	4	auxpass	_	_
+4	shown	show	VBN	VBN	_	0	root	_	_
 5	in	in	IN	IN	_	4	prep	_	_
 6	the	the	DT	DT	_	10	det	_	_
 7	right	right	JJ	JJ	_	9	amod	_	_
 8	-	-	HYPH	HYPH	_	9	punct	_	_
 9	hand	hand	NN	NN	_	10	compound	_	_
 10	panel	panel	NN	NN	_	5	pobj	_	_
-11	.	.	.	.	_	3	punct	_	_
+11	.	.	.	.	_	4	punct	_	_
 
 1	The	the	DT	DT	_	7	det	_	_
 2	cytoplasmic	cytoplasmic	JJ	JJ	_	7	amod	_	_
@@ -6757,13 +6757,13 @@
 7	site	site	NN	NN	_	3	dobj	_	_
 8	.	.	.	.	_	3	punct	_	_
 
-1	Below	below	RB	RB	_	2	advmod	_	_
-2	is	be	VBZ	VBZ	_	0	root	_	_
-3	shown	show	VBN	VBN	_	2	dep	_	_
+1	Below	below	RB	RB	_	3	advmod	_	_
+2	is	be	VBZ	VBZ	_	3	auxpass	_	_
+3	shown	show	VBN	VBN	_	0	root	_	_
 4	the	the	DT	DT	_	7	det	_	_
 5	Chaf1a	chaf0a	NN	NN	_	7	compound	_	_
 6	targeting	targeting	NN	NN	_	7	compound	_	_
-7	vector	vector	NN	NN	_	2	nsubj	_	_
+7	vector	vector	NN	NN	_	3	nsubjpass	_	_
 8	,	,	,	,	_	7	punct	_	_
 9	which	which	WDT	WDT	_	10	dep	_	7:ref
 10	includes	include	VBZ	VBZ	_	7	relcl	_	_
@@ -6790,18 +6790,18 @@
 31	neomycin	neomycin	NN	NN	_	32	compound	_	_
 32	selection	selection	NN	NN	_	33	compound	_	_
 33	genes	gene	NNS	NNS	_	25	conj	_	_
-34	.	.	.	.	_	2	punct	_	_
+34	.	.	.	.	_	3	punct	_	_
 
 1	Recombined	recombine	VBN	VBN	_	6	amod	_	_
 2	(	(	-LRB-	-LRB-	_	3	punct	_	_
 3	Rec	rec	NN	NN	_	1	parataxis	_	_
 4	)	)	-RRB-	-RRB-	_	3	punct	_	_
 5	ES	es	NN	NN	_	6	compound	_	_
-6	cells	cell	NNS	NNS	_	9	nsubj	_	_
+6	cells	cell	NNS	NNS	_	10	nsubjpass	_	_
 7	and	and	CC	CC	_	6	cc	_	_
 8	mice	mouse	NNS	NNS	_	6	conj	_	_
-9	were	be	VBD	VBD	_	0	root	_	_
-10	identified	identify	VBN	VBN	_	9	dep	_	_
+9	were	be	VBD	VBD	_	10	auxpass	_	_
+10	identified	identify	VBN	VBN	_	0	root	_	_
 11	by	by	IN	IN	sem=MNR	10	prep	_	_
 12	Southern	southern	NNP	NNP	_	13	compound	_	_
 13	blot	blot	NN	NN	_	11	pobj	_	_
@@ -6814,7 +6814,7 @@
 20	the	the	DT	DT	_	22	det	_	_
 21	indicated	indicate	VBN	VBN	_	22	amod	_	_
 22	probe	probe	NN	NN	_	15	conj	_	_
-23	.	.	.	.	_	9	punct	_	_
+23	.	.	.	.	_	10	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	B	b	LS	LS	_	5	meta	_	_
@@ -6834,9 +6834,9 @@
 16	embryos	embryo	NNS	NNS	_	10	pobj	_	_
 17	.	.	.	.	_	5	punct	_	_
 
-1	Genotyping	genotyping	NN	NN	_	2	nsubj	_	_
-2	was	be	VBD	VBD	_	0	root	_	_
-3	performed	performed	VBN	VBN	_	2	dep	_	_
+1	Genotyping	genotyping	NN	NN	_	3	nsubjpass	_	_
+2	was	be	VBD	VBD	_	3	auxpass	_	_
+3	performed	performed	VBN	VBN	_	0	root	_	_
 4	by	by	IN	IN	sem=MNR	3	prep	_	_
 5	PCR	pcr	NN	NN	_	4	pobj	_	_
 6	using	use	VBG	VBG	sem=MNR	3	advcl	_	_
@@ -6857,10 +6857,10 @@
 21	and	and	CC	CC	_	19	cc	_	_
 22	3	0	CD	CD	_	19	conj	_	_
 23	)	)	-RRB-	-RRB-	_	17	punct	_	_
-24	.	.	.	.	_	2	punct	_	_
+24	.	.	.	.	_	3	punct	_	_
 
 1	An	an	DT	DT	_	2	det	_	_
-2	example	example	NN	NN	_	10	nsubj	_	_
+2	example	example	NN	NN	_	11	nsubjpass	_	_
 3	of	of	IN	IN	_	2	prep	_	_
 4	the	the	DT	DT	_	5	det	_	_
 5	result	result	NN	NN	_	3	pobj	_	_
@@ -6868,9 +6868,9 @@
 7	a	a	DT	DT	_	9	det	_	_
 8	genotyping	genotyping	NN	NN	_	9	compound	_	_
 9	experiment	experiment	NN	NN	_	6	pobj	_	_
-10	is	be	VBZ	VBZ	_	0	root	_	_
-11	shown	show	VBN	VBN	_	10	dep	_	_
-12	.	.	.	.	_	10	punct	_	_
+10	is	be	VBZ	VBZ	_	11	auxpass	_	_
+11	shown	show	VBN	VBN	_	0	root	_	_
+12	.	.	.	.	_	11	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	C	c	LS	LS	_	4	meta	_	_
@@ -6900,7 +6900,7 @@
 26	intercrosses	intercrosses	NNS	NNS	_	21	pobj	_	_
 27	.	.	.	.	_	4	punct	_	_
 
-1	Because	because	IN	IN	sem=PRP	24	mark	_	_
+1	Because	because	IN	IN	_	13	mark	_	_
 2	Chaf1a	chaf0a	NN	NN	_	11	nmod	_	_
 3	+	+	SYM	SYM	_	2	punct	_	_
 4	/	/	HYPH	HYPH	_	2	punct	_	_
@@ -6912,7 +6912,7 @@
 10	−	−	SYM	SYM	_	7	punct	_	_
 11	embryos	embryo	NNS	NNS	_	13	nsubj	_	_
 12	both	both	DT	DT	_	11	appos	_	_
-13	stain	stain	VBP	VBP	_	1	ccomp	_	_
+13	stain	stain	VBP	VBP	sem=PRP	26	advcl	_	_
 14	positively	positively	RB	RB	_	13	advmod	_	_
 15	for	for	IN	IN	_	13	prep	_	_
 16	the	the	DT	DT	_	17	det	_	_
@@ -6921,31 +6921,31 @@
 19	p150CAF	p0caf	NN	NN	_	18	pobj	_	_
 20	-	-	HYPH	HYPH	_	19	punct	_	_
 21	1	0	CD	CD	_	19	nummod	_	_
-22	,	,	,	,	_	24	punct	_	_
-23	they	they	PRP	PRP	_	24	nsubj	_	_
-24	are	be	VBP	VBP	_	0	root	_	_
-25	both	both	RB	RB	_	24	advmod	_	_
-26	designated	designate	VBN	VBN	_	24	dep	_	_
+22	,	,	,	,	_	26	punct	_	_
+23	they	they	PRP	PRP	_	26	nsubjpass	_	_
+24	are	be	VBP	VBP	_	26	auxpass	_	_
+25	both	both	RB	RB	_	26	advmod	_	_
+26	designated	designate	VBN	VBN	_	0	root	_	_
 27	as	as	IN	IN	sem=MNR	26	prep	_	_
 28	wild	wild	JJ	JJ	_	30	amod	_	_
 29	-	-	HYPH	HYPH	_	30	punct	_	_
 30	type	type	NN	NN	_	27	pobj	_	_
-31	.	.	.	.	_	24	punct	_	_
+31	.	.	.	.	_	26	punct	_	_
 
 1	p150CAF	p0caf	NN	NN	_	4	nmod	_	_
 2	-	-	HYPH	HYPH	_	1	punct	_	_
 3	1	0	CD	CD	_	1	nummod	_	_
-4	expression	expression	NN	NN	_	12	nsubj	_	_
+4	expression	expression	NN	NN	_	14	nsubjpass	_	_
 5	,	,	,	,	_	4	punct	_	_
 6	which	which	WDT	WDT	_	7	dep	_	4:ref
 7	indicates	indicate	VBZ	VBZ	_	4	relcl	_	_
 8	ongoing	ongoing	JJ	JJ	_	10	amod	_	_
 9	S	s	NN	NN	_	10	compound	_	_
 10	phase	phase	NN	NN	_	7	dobj	_	_
-11	,	,	,	,	_	12	punct	_	_
-12	can	can	MD	MD	_	0	root	_	_
-13	be	be	VB	VB	_	12	dep	_	_
-14	detected	detect	VBN	VBN	_	13	dep	_	_
+11	,	,	,	,	_	14	punct	_	_
+12	can	can	MD	MD	_	14	aux	_	_
+13	be	be	VB	VB	_	14	auxpass	_	_
+14	detected	detect	VBN	VBN	_	0	root	_	_
 15	in	in	IN	IN	sem=LOC	14	prep	_	_
 16	most	most	JJS	JJS	_	17	amod	_	_
 17	cells	cell	NNS	NNS	_	15	pobj	_	_
@@ -6959,7 +6959,7 @@
 25	upper	upper	JJ	JJ	_	26	amod	_	_
 26	panel	panel	NN	NN	_	14	parataxis	_	_
 27	)	)	-RRB-	-RRB-	_	26	punct	_	_
-28	.	.	.	.	_	12	punct	_	_
+28	.	.	.	.	_	14	punct	_	_
 
 1	The	the	DT	DT	_	3	det	_	_
 2	lower	low	JJR	JJR	_	3	amod	_	_
@@ -6981,11 +6981,11 @@
 1	Only	only	RB	RB	_	4	advmod	_	_
 2	nonspecific	nonspecific	JJ	JJ	_	4	amod	_	_
 3	background	background	NN	NN	_	4	compound	_	_
-4	labeling	labeling	NN	NN	_	5	nsubj	_	_
-5	can	can	MD	MD	_	0	root	_	_
-6	be	be	VB	VB	_	5	dep	_	_
-7	observed	observe	VBN	VBN	_	6	dep	_	_
-8	.	.	.	.	_	5	punct	_	_
+4	labeling	labeling	NN	NN	_	7	nsubjpass	_	_
+5	can	can	MD	MD	_	7	aux	_	_
+6	be	be	VB	VB	_	7	auxpass	_	_
+7	observed	observe	VBN	VBN	_	0	root	_	_
+8	.	.	.	.	_	7	punct	_	_
 
 1	In	in	IN	IN	_	10	prep	_	_
 2	each	each	DT	DT	_	3	det	_	_
@@ -7119,12 +7119,12 @@
 6	.	.	.	.	_	3	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	E	e	LS	LS	_	44	meta	_	_
+2	E	e	LS	LS	_	45	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	Wild	wild	JJ	JJ	_	6	amod	_	_
 5	-	-	HYPH	HYPH	_	6	punct	_	_
 6	type	type	NN	NN	_	7	compound	_	_
-7	embryos	embryo	NNS	NNS	_	44	nsubj	_	_
+7	embryos	embryo	NNS	NNS	_	45	nsubjpass	_	_
 8	isolated	isolate	VBN	VBN	_	7	acl	_	_
 9	at	at	IN	IN	sem=TMP	8	prep	_	_
 10	embryonic	embryonic	JJ	JJ	_	11	amod	_	_
@@ -7161,13 +7161,13 @@
 41	32	0	CD	CD	_	42	nummod	_	_
 42	cells	cell	NNS	NNS	_	39	parataxis	_	_
 43	)	)	-RRB-	-RRB-	_	42	punct	_	_
-44	are	be	VBP	VBP	_	0	root	_	_
-45	shown	show	VBN	VBN	_	44	dep	_	_
-46	.	.	.	.	_	44	punct	_	_
+44	are	be	VBP	VBP	_	45	auxpass	_	_
+45	shown	show	VBN	VBN	_	0	root	_	_
+46	.	.	.	.	_	45	punct	_	_
 
-1	Heterochromatin	heterochromatin	NN	NN	_	2	nsubj	_	_
-2	was	be	VBD	VBD	_	0	root	_	_
-3	monitored	monitor	VBN	VBN	_	2	dep	_	_
+1	Heterochromatin	heterochromatin	NN	NN	_	3	nsubjpass	_	_
+2	was	be	VBD	VBD	_	3	auxpass	_	_
+3	monitored	monitor	VBN	VBN	_	0	root	_	_
 4	by	by	IN	IN	sem=MNR	3	prep	_	_
 5	DAPI	dapi	NN	NN	_	6	compound	_	_
 6	staining	staining	NN	NN	_	4	pobj	_	_
@@ -7185,7 +7185,7 @@
 18	lower	low	JJR	JJR	_	19	amod	_	_
 19	panel	panel	NN	NN	_	13	parataxis	_	_
 20	)	)	-RRB-	-RRB-	_	19	punct	_	_
-21	.	.	.	.	_	2	punct	_	_
+21	.	.	.	.	_	3	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	F	f	LS	LS	_	4	meta	_	_
@@ -7251,8 +7251,8 @@
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	Strategy	strategy	NN	NN	_	0	root	_	_
 5	used	use	VBN	VBN	_	4	acl	_	_
-6	to	to	TO	TO	sem=PRP	5	advcl	_	_
-7	deplete	deplete	VB	VB	_	6	dep	_	_
+6	to	to	TO	TO	_	7	aux	_	_
+7	deplete	deplete	VB	VB	sem=PRP	5	advcl	_	_
 8	p150CAF	p0caf	NN	NN	_	7	dobj	_	_
 9	-	-	HYPH	HYPH	_	8	punct	_	_
 10	1	0	CD	CD	_	8	nummod	_	_
@@ -7289,9 +7289,9 @@
 24	.	.	.	.	_	5	punct	_	_
 
 1	ES	es	NN	NN	_	2	compound	_	_
-2	cells	cell	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	kept	keep	VBN	VBN	_	3	dep	_	_
+2	cells	cell	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	kept	keep	VBN	VBN	_	0	root	_	_
 5	under	under	IN	IN	_	4	prep	_	_
 6	puromycin	puromycin	NN	NN	_	7	compound	_	_
 7	selection	selection	NN	NN	_	5	pobj	_	_
@@ -7300,7 +7300,7 @@
 10	h	h	NN	NN	_	8	pobj	_	_
 11	following	follow	VBG	VBG	_	10	prep	_	_
 12	transfection	transfection	NN	NN	_	11	pobj	_	_
-13	.	.	.	.	_	3	punct	_	_
+13	.	.	.	.	_	4	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	B	b	LS	LS	_	6	meta	_	_
@@ -7386,13 +7386,13 @@
 6	.	.	.	.	_	5	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	C	c	LS	LS	_	6	meta	_	_
+2	C	c	LS	LS	_	8	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	Heterochromatin	heterochromatin	NN	NN	_	5	compound	_	_
-5	organization	organization	NN	NN	_	6	nsubj	_	_
-6	is	be	VBZ	VBZ	_	0	root	_	_
-7	not	not	RB	RB	_	6	neg	_	_
-8	altered	alter	VBN	VBN	_	6	dep	_	_
+5	organization	organization	NN	NN	_	8	nsubjpass	_	_
+6	is	be	VBZ	VBZ	_	8	auxpass	_	_
+7	not	not	RB	RB	_	8	neg	_	_
+8	altered	alter	VBN	VBN	_	0	root	_	_
 9	in	in	IN	IN	sem=LOC	8	prep	_	_
 10	p150CAF	p0caf	NN	NN	_	14	npadvmod	_	_
 11	-	-	HYPH	HYPH	_	10	punct	_	_
@@ -7400,7 +7400,7 @@
 13	-	-	HYPH	HYPH	_	14	punct	_	_
 14	depleted	deplete	VBN	VBN	_	15	amod	_	_
 15	MEFs	mefs	NNS	NNS	_	9	pobj	_	_
-16	.	.	.	.	_	6	punct	_	_
+16	.	.	.	.	_	8	punct	_	_
 
 1	Immunodetection	immunodetection	NN	NN	_	0	root	_	_
 2	of	of	IN	IN	_	1	prep	_	_
@@ -7451,13 +7451,13 @@
 19	.	.	.	.	_	6	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	D	d	LS	LS	_	6	meta	_	_
+2	D	d	LS	LS	_	8	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	PML	pml	NN	NN	_	5	compound	_	_
-5	bodies	body	NNS	NNS	_	6	nsubj	_	_
-6	are	be	VBP	VBP	_	0	root	_	_
-7	not	not	RB	RB	_	6	neg	_	_
-8	altered	alter	VBN	VBN	_	6	dep	_	_
+5	bodies	body	NNS	NNS	_	8	nsubjpass	_	_
+6	are	be	VBP	VBP	_	8	auxpass	_	_
+7	not	not	RB	RB	_	8	neg	_	_
+8	altered	alter	VBN	VBN	_	0	root	_	_
 9	in	in	IN	IN	sem=LOC	8	prep	_	_
 10	p150CAF	p0caf	NN	NN	_	14	npadvmod	_	_
 11	-	-	HYPH	HYPH	_	10	punct	_	_
@@ -7466,7 +7466,7 @@
 14	depleted	deplete	VBN	VBN	_	16	amod	_	_
 15	ES	es	NN	NN	_	16	compound	_	_
 16	cells	cell	NNS	NNS	_	9	pobj	_	_
-17	.	.	.	.	_	6	punct	_	_
+17	.	.	.	.	_	8	punct	_	_
 
 1	Immunodetection	immunodetection	NN	NN	_	0	root	_	_
 2	of	of	IN	IN	_	1	prep	_	_
@@ -7533,12 +7533,12 @@
 18	Cells	cell	NNS	NNS	_	16	pobj	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	A	a	LS	LS	_	6	meta	_	_
+2	A	a	LS	LS	_	7	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	ES	es	NN	NN	_	5	compound	_	_
-5	cells	cell	NNS	NNS	_	6	nsubj	_	_
-6	were	be	VBD	VBD	_	0	root	_	_
-7	transfected	transfected	VBN	VBN	_	6	dep	_	_
+5	cells	cell	NNS	NNS	_	7	nsubjpass	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	transfected	transfected	VBN	VBN	_	0	root	_	_
 8	with	with	IN	IN	sem=MNR	7	prep	_	_
 9	p150CAF	p0caf	NN	NN	_	15	nmod	_	_
 10	-	-	HYPH	HYPH	_	9	punct	_	_
@@ -7547,41 +7547,41 @@
 13	control	control	NN	NN	_	9	conj	_	_
 14	siRNA	sirna	NN	NN	_	15	compound	_	_
 15	vectors	vector	NNS	NNS	_	8	pobj	_	_
-16	.	.	.	.	_	6	punct	_	_
+16	.	.	.	.	_	7	punct	_	_
 
-1	After	after	IN	IN	sem=TMP	9	prep	_	_
+1	After	after	IN	IN	sem=TMP	12	prep	_	_
 2	3	0	CD	CD	_	3	nummod	_	_
 3	d	d	NN	NN	_	1	pobj	_	_
 4	under	under	IN	IN	_	3	prep	_	_
 5	puromycin	puromycin	NN	NN	_	6	compound	_	_
 6	selection	selection	NN	NN	_	4	pobj	_	_
-7	,	,	,	,	_	9	punct	_	_
-8	cells	cell	NNS	NNS	_	9	nsubj	_	_
-9	were	be	VBD	VBD	_	0	root	_	_
+7	,	,	,	,	_	12	punct	_	_
+8	cells	cell	NNS	NNS	_	12	nsubjpass	_	_
+9	were	be	VBD	VBD	_	12	auxpass	_	_
 10	pulse	pulse	NN	NN	_	12	dep	_	_
 11	-	-	HYPH	HYPH	_	12	punct	_	_
-12	labeled	label	VBN	VBN	_	9	dep	_	_
+12	labeled	label	VBN	VBN	_	0	root	_	_
 13	for	for	IN	IN	sem=TMP	12	prep	_	_
 14	10	0	CD	CD	_	15	nummod	_	_
 15	min	min	NN	NN	_	13	pobj	_	_
 16	with	with	IN	IN	sem=MNR	12	prep	_	_
 17	BrdU	brdu	NN	NN	_	16	pobj	_	_
-18	and	and	CC	CC	_	9	cc	_	_
+18	and	and	CC	CC	_	12	cc	_	_
 19	immediately	immediately	RB	RB	sem=TMP	20	advmod	_	_
-20	analyzed	analyze	VBN	VBN	_	9	conj	_	_
+20	analyzed	analyze	VBN	VBN	_	12	conj	_	_
 21	by	by	IN	IN	sem=MNR	20	prep	_	_
 22	IF	if	NN	NN	_	21	pobj	_	_
-23	.	.	.	.	_	9	punct	_	_
+23	.	.	.	.	_	12	punct	_	_
 
 1	No	no	DT	DT	_	3	det	_	_
 2	significant	significant	JJ	JJ	_	3	amod	_	_
-3	difference	difference	NN	NN	_	7	nsubj	_	_
+3	difference	difference	NN	NN	_	9	nsubjpass	_	_
 4	in	in	IN	IN	_	3	prep	_	_
 5	BrdU	brdu	NN	NN	_	6	compound	_	_
 6	incorporation	incorporation	NN	NN	_	4	pobj	_	_
-7	could	could	MD	MD	_	0	root	_	_
-8	be	be	VB	VB	_	7	dep	_	_
-9	detected	detect	VBN	VBN	_	8	dep	_	_
+7	could	could	MD	MD	_	9	aux	_	_
+8	be	be	VB	VB	_	9	auxpass	_	_
+9	detected	detect	VBN	VBN	_	0	root	_	_
 10	between	between	IN	IN	_	9	prep	_	_
 11	control	control	NN	NN	_	18	nmod	_	_
 12	and	and	CC	CC	_	11	cc	_	_
@@ -7591,7 +7591,7 @@
 16	-	-	HYPH	HYPH	_	17	punct	_	_
 17	depleted	deplete	VBN	VBN	_	11	conj	_	_
 18	cells	cell	NNS	NNS	_	10	pobj	_	_
-19	.	.	.	.	_	7	punct	_	_
+19	.	.	.	.	_	9	punct	_	_
 
 1	The	the	DT	DT	_	5	det	_	_
 2	right	right	JJ	JJ	_	4	amod	_	_
@@ -7649,16 +7649,16 @@
 29	cells	cell	NNS	NNS	_	20	pobj	_	_
 30	.	.	.	.	_	10	punct	_	_
 
-1	Immunodetection	immunodetection	NN	NN	_	6	nsubj	_	_
+1	Immunodetection	immunodetection	NN	NN	_	7	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	p150CAF	p0caf	NN	NN	_	2	pobj	_	_
 4	-	-	HYPH	HYPH	_	3	punct	_	_
 5	1	0	CD	CD	_	3	nummod	_	_
-6	is	be	VBZ	VBZ	_	0	root	_	_
-7	shown	show	VBN	VBN	_	6	dep	_	_
+6	is	be	VBZ	VBZ	_	7	auxpass	_	_
+7	shown	show	VBN	VBN	_	0	root	_	_
 8	in	in	IN	IN	sem=MNR	7	prep	_	_
 9	green	green	NN	NN	_	8	pobj	_	_
-10	and	and	CC	CC	_	6	cc	_	_
+10	and	and	CC	CC	_	7	cc	_	_
 11	the	the	DT	DT	_	12	det	_	_
 12	merging	merging	NN	NN	_	19	nsubj	_	_
 13	of	of	IN	IN	_	12	prep	_	_
@@ -7667,7 +7667,7 @@
 16	1	0	CD	CD	_	14	nummod	_	_
 17	and	and	CC	CC	_	14	cc	_	_
 18	PCNA	pcna	NN	NN	_	14	conj	_	_
-19	appears	appear	VBZ	VBZ	_	6	conj	_	_
+19	appears	appear	VBZ	VBZ	_	7	conj	_	_
 20	in	in	IN	IN	_	19	prep	_	_
 21	yellow	yellow	NN	NN	_	20	pobj	_	_
 22	.	.	.	.	_	19	punct	_	_
@@ -7697,9 +7697,9 @@
 23	cells	cell	NNS	NNS	_	14	pobj	_	_
 24	.	.	.	.	_	7	punct	_	_
 
-1	Results	result	NNS	NNS	_	2	nsubj	_	_
-2	are	be	VBP	VBP	_	0	root	_	_
-3	presented	present	VBN	VBN	_	2	dep	_	_
+1	Results	result	NNS	NNS	_	3	nsubjpass	_	_
+2	are	be	VBP	VBP	_	3	auxpass	_	_
+3	presented	present	VBN	VBN	_	0	root	_	_
 4	as	as	IN	IN	sem=MNR	3	prep	_	_
 5	the	the	DT	DT	_	6	det	_	_
 6	percentage	percentage	NN	NN	_	4	pobj	_	_
@@ -7722,15 +7722,15 @@
 23	M	m	NN	NN	_	17	appos	_	_
 24	)	)	-RRB-	-RRB-	_	17	punct	_	_
 25	,	,	,	,	_	6	punct	_	_
-26	as	as	IN	IN	syn=ADV	6	mark	_	_
-27	defined	define	VBN	VBN	_	26	advcl	_	_
+26	as	as	IN	IN	_	27	mark	_	_
+27	defined	define	VBN	VBN	syn=ADV	6	advcl	_	_
 28	by	by	IN	IN	_	27	agent	_	_
 29	BrdU	brdu	NN	NN	_	30	compound	_	_
 30	incorporation	incorporation	NN	NN	_	28	pobj	_	_
 31	and	and	CC	CC	_	30	cc	_	_
 32	DNA	dna	NN	NN	_	33	compound	_	_
 33	content	content	NN	NN	_	30	conj	_	_
-34	.	.	.	.	_	2	punct	_	_
+34	.	.	.	.	_	3	punct	_	_
 
 1	Data	datum	NNS	NNS	_	3	nsubj	_	_
 2	presented	present	VBN	VBN	_	1	acl	_	_
@@ -7751,9 +7751,9 @@
 17	.	.	.	.	_	13	punct	_	_
 
 1	All	all	DT	DT	_	2	det	_	_
-2	experiments	experiment	NNS	NNS	_	3	nsubj	_	_
-3	were	be	VBD	VBD	_	0	root	_	_
-4	performed	performed	VBN	VBN	_	3	dep	_	_
+2	experiments	experiment	NNS	NNS	_	4	nsubjpass	_	_
+3	were	be	VBD	VBD	_	4	auxpass	_	_
+4	performed	performed	VBN	VBN	_	0	root	_	_
 5	3	0	CD	CD	_	6	nummod	_	_
 6	d	d	NN	NN	syn=ADV	7	npadvmod	_	_
 7	after	after	IN	IN	sem=TMP	4	prep	_	_
@@ -7762,7 +7762,7 @@
 10	the	the	DT	DT	_	12	det	_	_
 11	siRNA	sirna	NN	NN	_	12	compound	_	_
 12	vectors	vector	NNS	NNS	_	9	pobj	_	_
-13	.	.	.	.	_	3	punct	_	_
+13	.	.	.	.	_	4	punct	_	_
 
 1	Figure	figure	NN	NN	_	0	root	_	_
 2	4	0	CD	CD	_	1	nummod	_	_
@@ -7788,7 +7788,7 @@
 19	Heterochromatin	heterochromatin	NN	NN	_	20	compound	_	_
 20	Domains	domain	NNS	NNS	_	17	pobj	_	_
 
-1	Distribution	distribution	NN	NN	_	13	nsubj	_	_
+1	Distribution	distribution	NN	NN	_	14	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	pericentric	pericentric	JJ	JJ	_	12	amod	_	_
 4	(	(	-LRB-	-LRB-	_	5	punct	_	_
@@ -7800,8 +7800,8 @@
 10	green	green	JJ	JJ	_	8	parataxis	_	_
 11	)	)	-RRB-	-RRB-	_	10	punct	_	_
 12	domains	domain	NNS	NNS	_	2	pobj	_	_
-13	was	be	VBD	VBD	_	0	root	_	_
-14	analyzed	analyze	VBN	VBN	_	13	dep	_	_
+13	was	be	VBD	VBD	_	14	auxpass	_	_
+14	analyzed	analyze	VBN	VBN	_	0	root	_	_
 15	in	in	IN	IN	sem=LOC	14	prep	_	_
 16	the	the	DT	DT	_	18	det	_	_
 17	interphase	interphase	NN	NN	_	18	compound	_	_
@@ -7836,7 +7836,7 @@
 46	probes	probe	NNS	NNS	_	27	dobj	_	_
 47	,	,	,	,	_	27	punct	_	_
 48	respectively	respectively	RB	RB	_	27	advmod	_	_
-49	.	.	.	.	_	13	punct	_	_
+49	.	.	.	.	_	14	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	A	a	LS	LS	_	19	meta	_	_
@@ -7868,8 +7868,8 @@
 2	chromocenters	chromocenters	NNS	NNS	_	3	nsubj	_	_
 3	form	form	VBP	VBP	_	0	root	_	_
 4	foci	focus	NNS	NNS	_	3	dobj	_	_
-5	as	as	IN	IN	syn=ADV	3	mark	_	_
-6	revealed	reveal	VBN	VBN	_	5	advcl	_	_
+5	as	as	IN	IN	_	6	mark	_	_
+6	revealed	reveal	VBN	VBN	syn=ADV	3	advcl	_	_
 7	by	by	IN	IN	_	6	agent	_	_
 8	DAPI	dapi	NN	NN	_	9	compound	_	_
 9	staining	staining	NN	NN	_	7	pobj	_	_
@@ -7880,13 +7880,13 @@
 14	image	image	NN	NN	_	6	parataxis	_	_
 15	)	)	-RRB-	-RRB-	_	14	punct	_	_
 16	,	,	,	,	_	3	punct	_	_
-17	while	while	IN	IN	syn=ADV	3	mark	_	_
+17	while	while	IN	IN	_	23	mark	_	_
 18	centric	centric	JJ	JJ	_	19	amod	_	_
 19	regions	region	NNS	NNS	_	23	nsubj	_	_
 20	(	(	-LRB-	-LRB-	_	21	punct	_	_
 21	green	green	JJ	JJ	_	19	parataxis	_	_
 22	)	)	-RRB-	-RRB-	_	21	punct	_	_
-23	remain	remain	VBP	VBP	_	17	ccomp	_	_
+23	remain	remain	VBP	VBP	syn=ADV	3	advcl	_	_
 24	independent	independent	JJ	JJ	_	25	amod	_	_
 25	entities	entity	NNS	NNS	syn=PRD	23	attr	_	_
 26	at	at	IN	IN	sem=LOC	23	prep	_	_
@@ -7915,15 +7915,15 @@
 16	.	.	.	.	_	6	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	B	b	LS	LS	_	9	meta	_	_
+2	B	b	LS	LS	_	10	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	The	the	DT	DT	_	5	det	_	_
-5	organization	organization	NN	NN	_	9	nsubj	_	_
+5	organization	organization	NN	NN	_	10	nsubjpass	_	_
 6	of	of	IN	IN	_	5	prep	_	_
 7	pericentric	pericentric	JJ	JJ	_	8	amod	_	_
 8	domains	domain	NNS	NNS	_	6	pobj	_	_
-9	was	be	VBD	VBD	_	0	root	_	_
-10	altered	alter	VBN	VBN	_	9	dep	_	_
+9	was	be	VBD	VBD	_	10	auxpass	_	_
+10	altered	alter	VBN	VBN	_	0	root	_	_
 11	in	in	IN	IN	sem=LOC	10	prep	_	_
 12	cells	cell	NNS	NNS	_	11	pobj	_	_
 13	expressing	express	VBG	VBG	_	12	acl	_	_
@@ -7931,20 +7931,20 @@
 15	-	-	HYPH	HYPH	_	14	punct	_	_
 16	1	0	CD	CD	_	14	nummod	_	_
 17	siRNA	sirna	NN	NN	_	13	dobj	_	_
-18	.	.	.	.	_	9	punct	_	_
+18	.	.	.	.	_	10	punct	_	_
 
 1	Instead	instead	RB	RB	_	2	advmod	_	_
-2	of	of	IN	IN	_	11	prep	_	_
+2	of	of	IN	IN	_	12	prep	_	_
 3	forming	form	VBG	VBG	syn=NOM	2	pcomp	_	_
 4	well	well	JJ	JJ	_	6	amod	_	_
 5	-	-	HYPH	HYPH	_	6	punct	_	_
 6	defined	define	VBN	VBN	_	7	amod	_	_
 7	chromocenters	chromocenters	NNS	NNS	_	3	dobj	_	_
-8	,	,	,	,	_	11	punct	_	_
+8	,	,	,	,	_	12	punct	_	_
 9	pericentric	pericentric	JJ	JJ	_	10	amod	_	_
-10	domains	domain	NNS	NNS	_	11	nsubj	_	_
-11	were	be	VBD	VBD	_	0	root	_	_
-12	found	find	VBN	VBN	_	11	dep	_	_
+10	domains	domain	NNS	NNS	_	12	nsubjpass	_	_
+11	were	be	VBD	VBD	_	12	auxpass	_	_
+12	found	find	VBN	VBN	_	0	root	_	_
 13	either	either	CC	CC	_	14	preconj	_	_
 14	isolated	isolated	JJ	JJ	syn=PRD	12	oprd	_	_
 15	or	or	CC	CC	_	14	cc	_	_
@@ -7961,7 +7961,7 @@
 26	the	the	DT	DT	_	28	det	_	_
 27	nuclear	nuclear	JJ	JJ	_	28	amod	_	_
 28	periphery	periphery	NN	NN	_	25	pobj	_	_
-29	.	.	.	.	_	11	punct	_	_
+29	.	.	.	.	_	12	punct	_	_
 
 1	Scale	scale	NN	NN	_	2	compound	_	_
 2	bar	bar	NN	NN	_	5	nsubj	_	_
@@ -7978,9 +7978,9 @@
 6	cells	cell	NNS	NNS	_	0	root	_	_
 7	.	.	.	.	_	6	punct	_	_
 
-1	Fluorescence	fluorescence	NN	NN	_	2	nsubj	_	_
-2	was	be	VBD	VBD	_	0	root	_	_
-3	quantified	quantify	VBN	VBN	_	2	dep	_	_
+1	Fluorescence	fluorescence	NN	NN	_	3	nsubjpass	_	_
+2	was	be	VBD	VBD	_	3	auxpass	_	_
+3	quantified	quantify	VBN	VBN	_	0	root	_	_
 4	along	along	IN	IN	_	3	prep	_	_
 5	a	a	DT	DT	_	6	det	_	_
 6	line	line	NN	NN	_	4	pobj	_	_
@@ -7993,15 +7993,15 @@
 13	the	the	DT	DT	_	15	det	_	_
 14	merged	merge	VBN	VBN	_	15	amod	_	_
 15	image	image	NN	NN	_	12	pobj	_	_
-16	and	and	CC	CC	_	2	cc	_	_
-17	data	datum	NNS	NNS	_	18	nsubj	_	_
-18	were	be	VBD	VBD	_	2	conj	_	_
-19	plotted	plot	VBN	VBN	_	18	dep	_	_
-20	.	.	.	.	_	18	punct	_	_
+16	and	and	CC	CC	_	3	cc	_	_
+17	data	datum	NNS	NNS	_	19	nsubjpass	_	_
+18	were	be	VBD	VBD	_	19	auxpass	_	_
+19	plotted	plot	VBN	VBN	_	3	conj	_	_
+20	.	.	.	.	_	19	punct	_	_
 
-1	One	#crd#	CD	CD	_	2	nsubj	_	_
-2	can	can	MD	MD	_	0	root	_	_
-3	distinguish	distinguish	VB	VB	_	2	dep	_	_
+1	One	#crd#	CD	CD	_	3	nsubj	_	_
+2	can	can	MD	MD	_	3	aux	_	_
+3	distinguish	distinguish	VB	VB	_	0	root	_	_
 4	clear	clear	JJ	JJ	_	5	amod	_	_
 5	peaks	peak	NNS	NNS	_	3	dobj	_	_
 6	corresponding	correspond	VBG	VBG	_	5	acl	_	_
@@ -8018,7 +8018,7 @@
 17	(	(	-LRB-	-LRB-	_	18	punct	_	_
 18	green	green	JJ	JJ	_	16	parataxis	_	_
 19	)	)	-RRB-	-RRB-	_	18	punct	_	_
-20	.	.	.	.	_	2	punct	_	_
+20	.	.	.	.	_	3	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
 2	D	d	LS	LS	_	5	meta	_	_
@@ -8063,14 +8063,14 @@
 29	,	,	,	,	_	28	punct	_	_
 30	plot	plot	NN	NN	_	28	conj	_	_
 31	)	)	-RRB-	-RRB-	_	28	punct	_	_
-32	while	while	IN	IN	syn=ADV	5	mark	_	_
+32	while	while	IN	IN	_	39	mark	_	_
 33	the	the	DT	DT	_	34	det	_	_
 34	organization	organization	NN	NN	_	39	nsubj	_	_
 35	of	of	IN	IN	_	34	prep	_	_
 36	the	the	DT	DT	_	38	det	_	_
 37	minor	minor	JJ	JJ	_	38	amod	_	_
 38	satellites	satellite	NNS	NNS	_	35	pobj	_	_
-39	remained	remain	VBD	VBD	_	32	ccomp	_	_
+39	remained	remain	VBD	VBD	syn=ADV	5	advcl	_	_
 40	unaffected	unaffected	JJ	JJ	syn=PRD	39	acomp	_	_
 41	.	.	.	.	_	5	punct	_	_
 
@@ -8111,10 +8111,10 @@
 2	5	0	CD	CD	_	1	nummod	_	_
 
 1	Nucleosomal	nucleosomal	JJ	JJ	_	2	amod	_	_
-2	Organization	organization	NN	NN	_	3	nsubj	_	_
-3	Is	be	VBZ	VBZ	_	0	root	_	_
-4	Not	not	RB	RB	_	3	neg	_	_
-5	Altered	alter	VBN	VBN	_	3	dep	_	_
+2	Organization	organization	NN	NN	_	5	nsubjpass	_	_
+3	Is	be	VBZ	VBZ	_	5	auxpass	_	_
+4	Not	not	RB	RB	_	5	neg	_	_
+5	Altered	alter	VBN	VBN	_	0	root	_	_
 6	in	in	IN	IN	sem=LOC	5	prep	_	_
 7	p150CAF	p0caf	NN	NN	_	11	npadvmod	_	_
 8	-	-	HYPH	HYPH	_	7	punct	_	_
@@ -8124,9 +8124,9 @@
 12	ES	es	NN	NN	_	13	compound	_	_
 13	Cells	cell	NNS	NNS	_	6	pobj	_	_
 
-1	Nuclei	nucleus	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	prepared	prepare	VBN	VBN	_	2	dep	_	_
+1	Nuclei	nucleus	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	prepared	prepare	VBN	VBN	_	0	root	_	_
 4	from	from	IN	IN	_	3	prep	_	_
 5	ES	es	NN	NN	_	6	compound	_	_
 6	cells	cell	NNS	NNS	_	4	pobj	_	_
@@ -8139,11 +8139,11 @@
 13	1	0	CD	CD	_	11	nummod	_	_
 14	siRNA	sirna	NN	NN	_	15	compound	_	_
 15	vector	vector	NN	NN	_	8	pobj	_	_
-16	.	.	.	.	_	2	punct	_	_
+16	.	.	.	.	_	3	punct	_	_
 
-1	Nuclei	nucleus	NNS	NNS	_	2	nsubj	_	_
-2	were	be	VBD	VBD	_	0	root	_	_
-3	digested	digest	VBN	VBN	_	2	dep	_	_
+1	Nuclei	nucleus	NNS	NNS	_	3	nsubjpass	_	_
+2	were	be	VBD	VBD	_	3	auxpass	_	_
+3	digested	digest	VBN	VBN	_	0	root	_	_
 4	with	with	IN	IN	sem=MNR	3	prep	_	_
 5	increasing	increase	VBG	VBG	_	6	amod	_	_
 6	amounts	amount	NNS	NNS	_	4	pobj	_	_
@@ -8152,57 +8152,57 @@
 9	I	i	CD	CD	_	8	nummod	_	_
 10	or	or	CC	CC	_	8	cc	_	_
 11	MNase	mnase	NN	NN	_	8	conj	_	_
-12	.	.	.	.	_	2	punct	_	_
+12	.	.	.	.	_	3	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	A	a	LS	LS	_	13	meta	_	_
+2	A	a	LS	LS	_	14	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
-4	After	after	IN	IN	sem=TMP	13	prep	_	_
+4	After	after	IN	IN	sem=TMP	14	prep	_	_
 5	digestion	digestion	NN	NN	_	4	pobj	_	_
 6	with	with	IN	IN	_	5	prep	_	_
 7	the	the	DT	DT	_	9	det	_	_
 8	indicated	indicate	VBN	VBN	_	9	amod	_	_
 9	nucleases	nuclease	NNS	NNS	_	6	pobj	_	_
-10	,	,	,	,	_	13	punct	_	_
+10	,	,	,	,	_	14	punct	_	_
 11	total	total	JJ	JJ	_	12	amod	_	_
-12	DNA	dna	NN	NN	_	13	nsubj	_	_
-13	was	be	VBD	VBD	_	0	root	_	_
-14	prepared	prepare	VBN	VBN	_	13	dep	_	_
+12	DNA	dna	NN	NN	_	14	nsubjpass	_	_
+13	was	be	VBD	VBD	_	14	auxpass	_	_
+14	prepared	prepare	VBN	VBN	_	0	root	_	_
 15	and	and	CC	CC	_	14	cc	_	_
 16	run	run	VBN	VBN	_	14	conj	_	_
 17	onto	onto	IN	IN	_	16	prep	_	_
 18	an	an	DT	DT	_	20	det	_	_
 19	agarose	agarose	NN	NN	_	20	compound	_	_
 20	gel	gel	NN	NN	_	17	pobj	_	_
-21	which	which	WDT	WDT	_	22	dep	_	20:ref
-22	was	be	VBD	VBD	_	20	relcl	_	_
-23	stained	stain	VBN	VBN	_	22	dep	_	_
+21	which	which	WDT	WDT	_	23	dep	_	20:ref
+22	was	be	VBD	VBD	_	23	auxpass	_	_
+23	stained	stain	VBN	VBN	_	20	relcl	_	_
 24	with	with	IN	IN	sem=MNR	23	prep	_	_
 25	ethidium	ethidium	NN	NN	_	26	compound	_	_
 26	bromide	bromide	NN	NN	_	24	pobj	_	_
-27	to	to	TO	TO	sem=PRP	23	advcl	_	_
-28	reveal	reveal	VB	VB	_	27	dep	_	_
+27	to	to	TO	TO	_	28	aux	_	_
+28	reveal	reveal	VB	VB	sem=PRP	23	advcl	_	_
 29	bulk	bulk	NN	NN	_	31	nmod	_	_
 30	genomic	genomic	JJ	JJ	_	31	amod	_	_
 31	DNA	dna	NN	NN	_	28	dobj	_	_
-32	.	.	.	.	_	13	punct	_	_
+32	.	.	.	.	_	14	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	B	b	LS	LS	_	6	meta	_	_
+2	B	b	LS	LS	_	7	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	The	the	DT	DT	_	5	det	_	_
-5	DNA	dna	NN	NN	_	6	nsubj	_	_
-6	was	be	VBD	VBD	_	0	root	_	_
-7	blotted	blot	VBN	VBN	_	6	dep	_	_
+5	DNA	dna	NN	NN	_	7	nsubjpass	_	_
+6	was	be	VBD	VBD	_	7	auxpass	_	_
+7	blotted	blot	VBN	VBN	_	0	root	_	_
 8	onto	onto	IN	IN	_	7	prep	_	_
 9	a	a	DT	DT	_	11	det	_	_
 10	nylon	nylon	NN	NN	_	11	compound	_	_
 11	membrane	membrane	NN	NN	_	8	pobj	_	_
 12	,	,	,	,	_	11	punct	_	_
-13	which	which	WDT	WDT	_	14	dep	_	11:ref
-14	was	be	VBD	VBD	_	11	relcl	_	_
-15	then	then	RB	RB	_	14	advmod	_	_
-16	hybridized	hybridize	VBN	VBN	_	14	dep	_	_
+13	which	which	WDT	WDT	_	16	dep	_	11:ref
+14	was	be	VBD	VBD	_	16	auxpass	_	_
+15	then	then	RB	RB	_	16	advmod	_	_
+16	hybridized	hybridize	VBN	VBN	_	11	relcl	_	_
 17	with	with	IN	IN	sem=MNR	16	prep	_	_
 18	the	the	DT	DT	_	28	det	_	_
 19	α	α	NN	NN	_	21	compound	_	_
@@ -8218,20 +8218,20 @@
 29	[	[	-LRB-	-LRB-	_	30	punct	_	_
 30	47	0	CD	CD	_	7	parataxis	_	_
 31	]	]	-RRB-	-RRB-	_	30	punct	_	_
-32	.	.	.	.	_	6	punct	_	_
+32	.	.	.	.	_	7	punct	_	_
 
 1	Figure	figure	NN	NN	_	0	root	_	_
 2	6	0	CD	CD	_	1	nummod	_	_
 
 1	DNA	dna	NN	NN	_	3	compound	_	_
 2	CpG	cpg	NN	NN	_	3	compound	_	_
-3	Methylation	methylation	NN	NN	_	7	nsubj	_	_
+3	Methylation	methylation	NN	NN	_	9	nsubjpass	_	_
 4	at	at	IN	IN	_	3	prep	_	_
 5	Pericentric	pericentric	JJ	JJ	_	6	amod	_	_
 6	Heterochromatin	heterochromatin	NN	NN	_	4	pobj	_	_
-7	Is	be	VBZ	VBZ	_	0	root	_	_
-8	Not	not	RB	RB	_	7	neg	_	_
-9	Altered	alter	VBN	VBN	_	7	dep	_	_
+7	Is	be	VBZ	VBZ	_	9	auxpass	_	_
+8	Not	not	RB	RB	_	9	neg	_	_
+9	Altered	alter	VBN	VBN	_	0	root	_	_
 10	in	in	IN	IN	sem=LOC	9	prep	_	_
 11	p150CAF	p0caf	NN	NN	_	15	npadvmod	_	_
 12	-	-	HYPH	HYPH	_	11	punct	_	_
@@ -8242,9 +8242,9 @@
 17	Cells	cell	NNS	NNS	_	10	pobj	_	_
 
 1	Total	total	JJ	JJ	_	2	amod	_	_
-2	DNA	dna	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	isolated	isolate	VBN	VBN	_	3	dep	_	_
+2	DNA	dna	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	isolated	isolate	VBN	VBN	_	0	root	_	_
 5	from	from	IN	IN	_	4	prep	_	_
 6	cells	cell	NNS	NNS	_	5	pobj	_	_
 7	transfected	transfected	VBN	VBN	_	6	acl	_	_
@@ -8272,12 +8272,12 @@
 29	major	major	JJ	JJ	_	30	amod	_	_
 30	satellite	satellite	NN	NN	_	31	compound	_	_
 31	repeats	repeat	NNS	NNS	_	28	pobj	_	_
-32	.	.	.	.	_	3	punct	_	_
+32	.	.	.	.	_	4	punct	_	_
 
 1	Digested	digest	VBN	VBN	_	2	amod	_	_
-2	DNA	dna	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	run	run	VBN	VBN	_	3	dep	_	_
+2	DNA	dna	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	run	run	VBN	VBN	_	0	root	_	_
 5	onto	onto	IN	IN	_	4	prep	_	_
 6	an	an	DT	DT	_	8	det	_	_
 7	agarose	agarose	NN	NN	_	8	compound	_	_
@@ -8296,7 +8296,7 @@
 20	[	[	-LRB-	-LRB-	_	21	punct	_	_
 21	47	0	CD	CD	_	10	parataxis	_	_
 22	]	]	-RRB-	-RRB-	_	21	punct	_	_
-23	.	.	.	.	_	3	punct	_	_
+23	.	.	.	.	_	4	punct	_	_
 
 1	Figure	figure	NN	NN	_	0	root	_	_
 2	7	0	CD	CD	_	1	nummod	_	_
@@ -8334,7 +8334,7 @@
 16	heterochromatin	heterochromatin	NN	NN	_	14	pobj	_	_
 17	.	.	.	.	_	8	punct	_	_
 
-1	Enrichment	enrichment	NN	NN	_	9	nsubj	_	_
+1	Enrichment	enrichment	NN	NN	_	10	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	histone	histone	NN	NN	_	4	compound	_	_
 4	marks	mark	NNS	NNS	_	2	pobj	_	_
@@ -8342,8 +8342,8 @@
 6	major	major	JJ	JJ	_	7	amod	_	_
 7	satellite	satellite	NN	NN	_	8	compound	_	_
 8	repeats	repeat	NNS	NNS	_	5	pobj	_	_
-9	was	be	VBD	VBD	_	0	root	_	_
-10	determined	determine	VBN	VBN	_	9	dep	_	_
+9	was	be	VBD	VBD	_	10	auxpass	_	_
+10	determined	determine	VBN	VBN	_	0	root	_	_
 11	by	by	IN	IN	sem=MNR	10	prep	_	_
 12	ChIP	chip	NN	NN	_	11	pobj	_	_
 13	from	from	IN	IN	_	12	prep	_	_
@@ -8363,9 +8363,9 @@
 27	expressing	express	VBG	VBG	_	29	amod	_	_
 28	ES	es	NN	NN	_	29	compound	_	_
 29	cells	cell	NNS	NNS	_	13	pobj	_	_
-30	.	.	.	.	_	9	punct	_	_
+30	.	.	.	.	_	10	punct	_	_
 
-1	DNA	dna	NN	NN	_	12	nsubj	_	_
+1	DNA	dna	NN	NN	_	13	nsubjpass	_	_
 2	prepared	prepare	VBN	VBN	_	1	acl	_	_
 3	from	from	IN	IN	sem=MNR	2	prep	_	_
 4	the	the	DT	DT	_	5	det	_	_
@@ -8376,8 +8376,8 @@
 9	-	-	HYPH	HYPH	_	10	punct	_	_
 10	bound	bind	VBN	VBN	_	11	amod	_	_
 11	fraction	fraction	NN	NN	_	5	conj	_	_
-12	were	be	VBD	VBD	_	0	root	_	_
-13	run	run	VBN	VBN	_	12	dep	_	_
+12	were	be	VBD	VBD	_	13	auxpass	_	_
+13	run	run	VBN	VBN	_	0	root	_	_
 14	onto	onto	IN	IN	_	13	prep	_	_
 15	an	an	DT	DT	_	17	det	_	_
 16	agarose	agarose	NN	NN	_	17	compound	_	_
@@ -8397,28 +8397,28 @@
 30	[	[	-LRB-	-LRB-	_	31	punct	_	_
 31	47	0	CD	CD	_	19	parataxis	_	_
 32	]	]	-RRB-	-RRB-	_	31	punct	_	_
-33	.	.	.	.	_	12	punct	_	_
+33	.	.	.	.	_	13	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	B	b	LS	LS	_	6	meta	_	_
+2	B	b	LS	LS	_	7	meta	_	_
 3	)	)	-RRB-	-RRB-	_	2	punct	_	_
 4	Hybridization	hybridization	NN	NN	_	5	compound	_	_
-5	signals	signal	NNS	NNS	_	6	nsubj	_	_
-6	were	be	VBD	VBD	_	0	root	_	_
-7	quantified	quantify	VBN	VBN	_	6	dep	_	_
+5	signals	signal	NNS	NNS	_	7	nsubjpass	_	_
+6	were	be	VBD	VBD	_	7	auxpass	_	_
+7	quantified	quantify	VBN	VBN	_	0	root	_	_
 8	using	use	VBG	VBG	sem=MNR	7	advcl	_	_
 9	an	an	DT	DT	_	11	det	_	_
 10	Instant	instant	NNP	NNP	_	11	compound	_	_
 11	Imager	imager	NNP	NNP	_	8	dobj	_	_
-12	.	.	.	.	_	6	punct	_	_
+12	.	.	.	.	_	7	punct	_	_
 
-1	After	after	IN	IN	sem=TMP	6	prep	_	_
+1	After	after	IN	IN	sem=TMP	7	prep	_	_
 2	autoradiography	autoradiography	NN	NN	_	1	pobj	_	_
-3	,	,	,	,	_	6	punct	_	_
+3	,	,	,	,	_	7	punct	_	_
 4	the	the	DT	DT	_	5	det	_	_
-5	membrane	membrane	NN	NN	_	6	nsubj	_	_
-6	was	be	VBD	VBD	_	0	root	_	_
-7	stripped	strip	VBN	VBN	_	6	dep	_	_
+5	membrane	membrane	NN	NN	_	7	nsubjpass	_	_
+6	was	be	VBD	VBD	_	7	auxpass	_	_
+7	stripped	strip	VBN	VBN	_	0	root	_	_
 8	and	and	CC	CC	_	7	cc	_	_
 9	rehybridized	rehybridized	VBN	VBN	_	7	conj	_	_
 10	with	with	IN	IN	sem=MNR	9	prep	_	_
@@ -8429,15 +8429,15 @@
 15	[	[	-LRB-	-LRB-	_	16	punct	_	_
 16	49	0	CD	CD	_	9	parataxis	_	_
 17	]	]	-RRB-	-RRB-	_	16	punct	_	_
-18	.	.	.	.	_	6	punct	_	_
+18	.	.	.	.	_	7	punct	_	_
 
-1	After	after	IN	IN	sem=TMP	6	prep	_	_
+1	After	after	IN	IN	sem=TMP	7	prep	_	_
 2	quantification	quantification	NN	NN	_	1	pobj	_	_
-3	,	,	,	,	_	6	punct	_	_
+3	,	,	,	,	_	7	punct	_	_
 4	the	the	DT	DT	_	5	det	_	_
-5	membrane	membrane	NN	NN	_	6	nsubj	_	_
-6	was	be	VBD	VBD	_	0	root	_	_
-7	stripped	strip	VBN	VBN	_	6	dep	_	_
+5	membrane	membrane	NN	NN	_	7	nsubjpass	_	_
+6	was	be	VBD	VBD	_	7	auxpass	_	_
+7	stripped	strip	VBN	VBN	_	0	root	_	_
 8	and	and	CC	CC	_	7	cc	_	_
 9	rehybridized	rehybridized	VBN	VBN	_	7	conj	_	_
 10	with	with	IN	IN	sem=MNR	9	prep	_	_
@@ -8448,11 +8448,11 @@
 15	[	[	-LRB-	-LRB-	_	16	punct	_	_
 16	50	0	CD	CD	_	9	parataxis	_	_
 17	]	]	-RRB-	-RRB-	_	16	punct	_	_
-18	.	.	.	.	_	6	punct	_	_
+18	.	.	.	.	_	7	punct	_	_
 
-1	Results	result	NNS	NNS	_	2	nsubj	_	_
-2	are	be	VBP	VBP	_	0	root	_	_
-3	presented	present	VBN	VBN	_	2	dep	_	_
+1	Results	result	NNS	NNS	_	3	nsubjpass	_	_
+2	are	be	VBP	VBP	_	3	auxpass	_	_
+3	presented	present	VBN	VBN	_	0	root	_	_
 4	as	as	IN	IN	sem=MNR	3	prep	_	_
 5	the	the	DT	DT	_	6	det	_	_
 6	amount	amount	NN	NN	_	4	pobj	_	_
@@ -8475,7 +8475,7 @@
 23	from	from	IN	IN	_	22	prep	_	_
 24	control	control	NN	NN	_	25	compound	_	_
 25	cells	cell	NNS	NNS	_	23	pobj	_	_
-26	.	.	.	.	_	2	punct	_	_
+26	.	.	.	.	_	3	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
 2	figure	figure	NN	NN	_	3	nsubj	_	_
@@ -8494,7 +8494,7 @@
 15	.	.	.	.	_	3	punct	_	_
 
 1	(	(	-LRB-	-LRB-	_	2	punct	_	_
-2	C	c	LS	LS	_	11	meta	_	_
+2	C	c	LS	LS	_	13	meta	_	_
 3	and	and	CC	CC	_	2	cc	_	_
 4	D	d	LS	LS	_	2	conj	_	_
 5	)	)	-RRB-	-RRB-	_	4	punct	_	_
@@ -8502,10 +8502,10 @@
 7	and	and	CC	CC	_	6	cc	_	_
 8	H4K20me3	h0k0me0	NN	NN	_	6	conj	_	_
 9	fluorescence	fluorescence	NN	NN	_	10	compound	_	_
-10	patterns	pattern	NNS	NNS	_	11	nsubj	_	_
-11	are	be	VBP	VBP	_	0	root	_	_
-12	severely	severely	RB	RB	_	11	advmod	_	_
-13	altered	alter	VBN	VBN	_	11	dep	_	_
+10	patterns	pattern	NNS	NNS	_	13	nsubjpass	_	_
+11	are	be	VBP	VBP	_	13	auxpass	_	_
+12	severely	severely	RB	RB	_	13	advmod	_	_
+13	altered	alter	VBN	VBN	_	0	root	_	_
 14	in	in	IN	IN	sem=LOC	13	prep	_	_
 15	p150CAF	p0caf	NN	NN	_	19	npadvmod	_	_
 16	-	-	HYPH	HYPH	_	15	punct	_	_
@@ -8514,7 +8514,7 @@
 19	depleted	deplete	VBN	VBN	_	21	amod	_	_
 20	ES	es	NN	NN	_	21	compound	_	_
 21	cells	cell	NNS	NNS	_	14	pobj	_	_
-22	.	.	.	.	_	11	punct	_	_
+22	.	.	.	.	_	13	punct	_	_
 
 1	Immunodetection	immunodetection	NN	NN	_	0	root	_	_
 2	of	of	IN	IN	_	1	prep	_	_
@@ -8550,7 +8550,7 @@
 32	cells	cell	NNS	NNS	_	22	pobj	_	_
 33	.	.	.	.	_	1	punct	_	_
 
-1	Merging	merging	NN	NN	_	14	nsubj	_	_
+1	Merging	merging	NN	NN	_	15	nsubjpass	_	_
 2	of	of	IN	IN	_	1	prep	_	_
 3	HP1α	hp0α	NN	NN	_	2	pobj	_	_
 4	with	with	IN	IN	_	1	prep	_	_
@@ -8563,11 +8563,11 @@
 11	(	(	-LRB-	-LRB-	_	12	punct	_	_
 12	D	d	NN	NN	_	10	parataxis	_	_
 13	)	)	-RRB-	-RRB-	_	12	punct	_	_
-14	is	be	VBZ	VBZ	_	0	root	_	_
-15	shown	show	VBN	VBN	_	14	dep	_	_
+14	is	be	VBZ	VBZ	_	15	auxpass	_	_
+15	shown	show	VBN	VBN	_	0	root	_	_
 16	in	in	IN	IN	sem=MNR	15	prep	_	_
 17	yellow	yellow	NN	NN	_	16	pobj	_	_
-18	.	.	.	.	_	14	punct	_	_
+18	.	.	.	.	_	15	punct	_	_
 
 1	Scale	scale	NN	NN	_	2	compound	_	_
 2	bars	bar	NNS	NNS	_	3	nsubj	_	_
@@ -8611,15 +8611,15 @@
 3	.	.	.	.	_	2	punct	_	_
 
 1	The	the	DT	DT	_	2	det	_	_
-2	authors	author	NNS	NNS	_	3	nsubj	_	_
-3	have	have	VBP	VBP	_	0	root	_	_
-4	declared	declare	VBN	VBN	_	3	dep	_	_
-5	that	that	IN	IN	_	4	mark	_	_
+2	authors	author	NNS	NNS	_	4	nsubj	_	_
+3	have	have	VBP	VBP	_	4	aux	_	_
+4	declared	declare	VBN	VBN	_	0	root	_	_
+5	that	that	IN	IN	_	9	mark	_	_
 6	no	no	DT	DT	_	8	det	_	_
 7	competing	compete	VBG	VBG	_	8	amod	_	_
 8	interests	interest	NNS	NNS	_	9	nsubj	_	_
-9	exist	exist	VBP	VBP	_	5	ccomp	_	_
-10	.	.	.	.	_	3	punct	_	_
+9	exist	exist	VBP	VBP	_	4	ccomp	_	_
+10	.	.	.	.	_	4	punct	_	_
 
 1	A	a	DT	DT	_	3	det	_	_
 2	previous	previous	JJ	JJ	_	3	amod	_	_
@@ -8704,9 +8704,9 @@
 2	.	.	.	.	_	1	punct	_	_
 
 1	This	this	DT	DT	_	2	det	_	_
-2	study	study	NN	NN	_	3	nsubj	_	_
-3	was	be	VBD	VBD	_	0	root	_	_
-4	funded	fund	VBN	VBN	_	3	dep	_	_
+2	study	study	NN	NN	_	4	nsubjpass	_	_
+3	was	be	VBD	VBD	_	4	auxpass	_	_
+4	funded	fund	VBN	VBN	_	0	root	_	_
 5	by	by	IN	IN	_	4	agent	_	_
 6	grants	grant	NNS	NNS	_	5	pobj	_	_
 7	from	from	IN	IN	_	6	prep	_	_
@@ -8745,7 +8745,7 @@
 40	MG	mg	NNP	NNP	_	39	pobj	_	_
 41	and	and	CC	CC	_	40	cc	_	_
 42	GA	ga	NNP	NNP	_	40	conj	_	_
-43	.	.	.	.	_	3	punct	_	_
+43	.	.	.	.	_	4	punct	_	_
 
 1	GA	ga	NNP	NNP	_	3	poss	_	_
 2	's	's	POS	POS	_	1	case	_	_
@@ -8767,10 +8767,10 @@
 18	Network	network	NNP	NNP	_	15	pobj	_	_
 19	.	.	.	.	_	4	punct	_	_
 
-1	AVP	avp	NNP	NNP	_	2	nsubj	_	1:gap
-2	has	have	VBZ	VBZ	_	15	ccomp	_	_
-3	been	be	VBN	VBN	_	2	dep	_	_
-4	supported	support	VBN	VBN	_	3	dep	_	_
+1	AVP	avp	NNP	NNP	_	4	nsubjpass	_	1:gap
+2	has	have	VBZ	VBZ	_	4	aux	_	_
+3	been	be	VBN	VBN	_	4	auxpass	_	_
+4	supported	support	VBN	VBN	_	15	ccomp	_	_
 5	by	by	IN	IN	_	4	agent	_	5:gap
 6	the	the	DT	DT	_	8	det	_	_
 7	Curie	curie	NNP	NNP	_	8	compound	_	_
