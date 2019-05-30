@@ -1,0 +1,3461 @@
+# newdoc id = 11897010
+# newpar id = 11897010-p0
+# sent_id = 462
+# text = Cloning and characterization of the mouse Mcoln1 gene reveals an alternatively spliced transcript not seen in humans
+1	Cloning	cloning	NOUN	NN	Number=Sing	9	nsubj	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	characterization	characterization	NOUN	NN	Number=Sing	1	conj	_	_
+4	of	of	ADP	IN	_	1	prep	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	mouse	mouse	NOUN	NN	Number=Sing	8	compound	_	_
+7	Mcoln1	mcoln0	NOUN	NN	Number=Sing	8	compound	_	_
+8	gene	gene	NOUN	NN	Number=Sing	4	pobj	_	_
+9	reveals	reveal	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	an	an	DET	DT	_	13	det	_	_
+11	alternatively	alternatively	ADV	RB	Degree=Pos	12	advmod	_	_
+12	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	amod	_	_
+13	transcript	transcript	NOUN	NN	Number=Sing	9	dobj	_	_
+14	not	not	ADV	RB	Degree=Pos	15	neg	_	_
+15	seen	see	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	acl	_	_
+16	in	in	ADP	IN	_	15	prep	_	_
+17	humans	human	NOUN	NNS	Number=Plur	16	pobj	_	_
+
+# newpar id = 11897010-p1
+# sent_id = 463
+# text = Abstract
+1	Abstract	abstract	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 11897010-p2
+# sent_id = 464
+# text = Background
+1	Background	background	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 11897010-p3
+# sent_id = 465
+# text = Mucolipidosis type IV (MLIV) is an autosomal recessive lysosomal storage disorder characterized by severe neurologic and ophthalmologic abnormalities.
+1	Mucolipidosis	mucolipidosis	NOUN	NN	Number=Sing	2	compound	_	_
+2	type	type	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	IV	iv	NUM	CD	NumType=Card	2	nummod	_	_
+4	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+5	MLIV	mliv	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	7	punct	_	_
+7	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	an	an	DET	DT	_	13	det	_	_
+9	autosomal	autosomal	ADJ	JJ	Degree=Pos	13	amod	_	_
+10	recessive	recessive	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	lysosomal	lysosomal	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	storage	storage	NOUN	NN	Number=Sing	13	compound	_	_
+13	disorder	disorder	NOUN	NN	Number=Sing	7	attr	_	_
+14	characterized	characterize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	acl	_	_
+15	by	by	ADP	IN	_	14	agent	_	_
+16	severe	severe	ADJ	JJ	Degree=Pos	20	amod	_	_
+17	neurologic	neurologic	ADJ	JJ	Degree=Pos	20	amod	_	_
+18	and	and	CCONJ	CC	_	17	cc	_	_
+19	ophthalmologic	ophthalmologic	ADJ	JJ	Degree=Pos	17	conj	_	_
+20	abnormalities	abnormality	NOUN	NNS	Number=Plur	15	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 466
+# text = Recently the MLIV gene, MCOLN1, has been identified as a new member of the transient receptor potential (TRP) cation channel superfamily.
+1	Recently	recently	ADV	RB	Degree=Pos	10	advmod	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	MLIV	mliv	NOUN	NN	Number=Sing	4	compound	_	_
+4	gene	gene	NOUN	NN	Number=Sing	10	nsubjpass	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+6	MCOLN1	mcoln0	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+8	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	been	be	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	auxpass	_	_
+10	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+11	as	as	ADP	IN	_	10	prep	_	_
+12	a	a	DET	DT	_	14	det	_	_
+13	new	new	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	member	member	NOUN	NN	Number=Sing	11	pobj	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	the	the	DET	DT	_	25	det	_	_
+17	transient	transient	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	receptor	receptor	NOUN	NN	Number=Sing	19	nmod	_	_
+19	potential	potential	NOUN	NN	Number=Sing	25	nmod	_	_
+20	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	19	punct	_	SpaceAfter=No
+21	TRP	trp	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	25	punct	_	_
+23	cation	cation	NOUN	NN	Number=Sing	24	compound	_	_
+24	channel	channel	NOUN	NN	Number=Sing	25	compound	_	_
+25	superfamily	superfamily	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 467
+# text = Here we report the cloning and characterization of the mouse homologue, Mcoln1, and report a novel splice variant that is not seen in humans.
+1	Here	here	ADV	RB	Degree=Pos	3	advmod	_	_
+2	we	we	PRON	PRP	PronType=Prs	3	nsubj	_	_
+3	report	report	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	cloning	cloning	NOUN	NN	Number=Sing	3	dobj	_	_
+6	and	and	CCONJ	CC	_	5	cc	_	_
+7	characterization	characterization	NOUN	NN	Number=Sing	5	conj	_	_
+8	of	of	ADP	IN	_	5	prep	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	mouse	mouse	NOUN	NN	Number=Sing	11	compound	_	_
+11	homologue	homologue	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+13	Mcoln1	mcoln0	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
+15	and	and	CCONJ	CC	_	3	cc	_	_
+16	report	report	VERB	VBP	Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	a	a	DET	DT	_	20	det	_	_
+18	novel	novel	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	splice	splice	NOUN	NN	Number=Sing	20	compound	_	_
+20	variant	variant	NOUN	NN	Number=Sing	16	dobj	_	_
+21	that	that	DET	WDT	PronType=Int,Rel	24	dep	_	20:ref=
+22	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	auxpass	_	_
+23	not	not	ADV	RB	Degree=Pos	24	neg	_	_
+24	seen	see	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	20	relcl	_	_
+25	in	in	ADP	IN	_	24	prep	_	_
+26	humans	human	NOUN	NNS	Number=Plur	25	pobj	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# newpar id = 11897010-p4
+# sent_id = 468
+# text = Results
+1	Results	result	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 11897010-p5
+# sent_id = 469
+# text = The human and mouse genes display a high degree of synteny.
+1	The	the	DET	DT	_	5	det	_	_
+2	human	human	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	mouse	mouse	NOUN	NN	Number=Sing	5	compound	_	_
+5	genes	gene	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	display	display	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	high	high	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	degree	degree	NOUN	NN	Number=Sing	6	dobj	_	_
+10	of	of	ADP	IN	_	9	prep	_	_
+11	synteny	synteny	NOUN	NN	Number=Sing	10	pobj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 470
+# text = Mcoln1 shows 91% amino acid and 86% nucleotide identity to MCOLN1.
+1	Mcoln1	mcoln0	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	shows	show	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	91	0	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
+4	%	%	NOUN	NN	Number=Sing	6	nmod	_	_
+5	amino	amino	NOUN	NN	Number=Sing	6	nmod	_	_
+6	acid	acid	NOUN	NN	Number=Sing	11	nmod	_	_
+7	and	and	CCONJ	CC	_	6	cc	_	_
+8	86	0	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+9	%	%	NOUN	NN	Number=Sing	10	compound	_	_
+10	nucleotide	nucleotide	NOUN	NN	Number=Sing	6	conj	_	_
+11	identity	identity	NOUN	NN	Number=Sing	2	dobj	_	_
+12	to	to	ADP	IN	_	11	prep	_	_
+13	MCOLN1	mcoln0	NOUN	NN	Number=Sing	12	pobj	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 471
+# text = Also, Mcoln1 maps to chromosome 8 and contains an open reading frame of 580 amino acids, with a transcript length of approximately 2 kb encoded by 14 exons, similar to its human counterpart.
+1	Also	also	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+3	Mcoln1	mcoln0	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	maps	map	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	4	prep	_	_
+6	chromosome	chromosome	NOUN	NN	Number=Sing	5	pobj	_	_
+7	8	0	NUM	CD	NumType=Card	6	nummod	_	_
+8	and	and	CCONJ	CC	_	4	cc	_	_
+9	contains	contain	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	an	an	DET	DT	_	13	det	_	_
+11	open	open	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	reading	reading	NOUN	NN	Number=Sing	13	compound	_	_
+13	frame	frame	NOUN	NN	Number=Sing	9	dobj	_	_
+14	of	of	ADP	IN	_	13	prep	_	_
+15	580	0	NUM	CD	NumType=Card	17	nummod	_	_
+16	amino	amino	NOUN	NN	Number=Sing	17	compound	_	_
+17	acids	acid	NOUN	NNS	Number=Plur	14	pobj	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
+19	with	with	ADP	IN	_	13	prep	_	_
+20	a	a	DET	DT	_	22	det	_	_
+21	transcript	transcript	NOUN	NN	Number=Sing	22	compound	_	_
+22	length	length	NOUN	NN	Number=Sing	19	pobj	_	_
+23	of	of	ADP	IN	_	22	prep	_	_
+24	approximately	approximately	ADV	RB	Degree=Pos	25	advmod	_	_
+25	2	0	NUM	CD	NumType=Card	26	nummod	_	_
+26	kb	kb	NOUN	NNS	Number=Plur	23	pobj	_	_
+27	encoded	encode	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	22	acl	_	_
+28	by	by	ADP	IN	_	27	agent	_	_
+29	14	0	NUM	CD	NumType=Card	30	nummod	_	_
+30	exons	exon	NOUN	NNS	Number=Plur	28	pobj	_	SpaceAfter=No
+31	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
+32	similar	similar	ADJ	JJ	Degree=Pos	13	amod	_	_
+33	to	to	ADP	IN	_	32	prep	_	_
+34	its	its	DET	PRP$	Poss=Yes|PronType=Prs	36	poss	_	_
+35	human	human	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	counterpart	counterpart	NOUN	NN	Number=Sing	33	pobj	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 472
+# text = The transcript that results from murine specific alternative splicing encodes a 611 amino acid protein that differs at the c-terminus.
+1	The	the	DET	DT	_	2	det	_	_
+2	transcript	transcript	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	that	that	DET	WDT	PronType=Int,Rel	4	dep	_	2:ref=
+4	results	result	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	relcl	_	_
+5	from	from	ADP	IN	_	4	prep	_	_
+6	murine	murine	NOUN	NN	Number=Sing	7	npadvmod	_	_
+7	specific	specific	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	alternative	alternative	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	splicing	splicing	NOUN	NN	Number=Sing	5	pobj	_	_
+10	encodes	encode	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	a	DET	DT	_	15	det	_	_
+12	611	0	NUM	CD	NumType=Card	14	nummod	_	_
+13	amino	amino	NOUN	NN	Number=Sing	14	compound	_	_
+14	acid	acid	NOUN	NN	Number=Sing	15	compound	_	_
+15	protein	protein	NOUN	NN	Number=Sing	10	dobj	_	_
+16	that	that	DET	WDT	PronType=Int,Rel	17	dep	_	15:ref=
+17	differs	differ	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	relcl	_	_
+18	at	at	ADP	IN	_	17	prep	_	_
+19	the	the	DET	DT	_	22	det	_	_
+20	c	c	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	22	punct	_	SpaceAfter=No
+22	terminus	terminus	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# newpar id = 11897010-p6
+# sent_id = 473
+# text = Conclusions
+1	Conclusions	conclusion	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 11897010-p7
+# sent_id = 474
+# text = Mcoln1 is highly similar to MCOLN1, especially in the transmembrane domains and ion pore region.
+1	Mcoln1	mcoln0	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	highly	highly	ADV	RB	Degree=Pos	4	advmod	_	_
+4	similar	similar	ADJ	JJ	Degree=Pos	2	acomp	_	_
+5	to	to	ADP	IN	_	4	prep	_	_
+6	MCOLN1	mcoln0	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
+8	especially	especially	ADV	RB	Degree=Pos	9	advmod	_	_
+9	in	in	ADP	IN	_	2	prep	_	_
+10	the	the	DET	DT	_	12	det	_	_
+11	transmembrane	transmembrane	NOUN	NN	Number=Sing	12	compound	_	_
+12	domains	domain	NOUN	NNS	Number=Plur	9	pobj	_	_
+13	and	and	CCONJ	CC	_	12	cc	_	_
+14	ion	ion	NOUN	NN	Number=Sing	15	compound	_	_
+15	pore	pore	NOUN	NN	Number=Sing	16	compound	_	_
+16	region	region	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 475
+# text = Also, the late endosomal/lysosomal targeting signal is conserved, supporting the hypothesis that the protein is localized to these vesicle membranes.
+1	Also	also	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+3	the	the	DET	DT	_	9	det	_	_
+4	late	late	ADJ	JJ	Degree=Pos	9	amod	_	_
+5	endosomal	endosomal	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No
+6	/	/	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+7	lysosomal	lysosomal	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	targeting	targeting	NOUN	NN	Number=Sing	9	compound	_	_
+9	signal	signal	NOUN	NN	Number=Sing	11	nsubjpass	_	_
+10	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	auxpass	_	_
+11	conserved	conserve	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+13	supporting	support	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	11	advcl	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	hypothesis	hypothesis	NOUN	NN	Number=Sing	13	dobj	_	_
+16	that	that	ADP	IN	_	20	mark	_	_
+17	the	the	DET	DT	_	18	det	_	_
+18	protein	protein	NOUN	NN	Number=Sing	20	nsubjpass	_	_
+19	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	auxpass	_	_
+20	localized	localize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	15	acl	_	_
+21	to	to	ADP	IN	_	20	prep	_	_
+22	these	these	DET	DT	_	24	det	_	_
+23	vesicle	vesicle	NOUN	NN	Number=Sing	24	compound	_	_
+24	membranes	membrane	NOUN	NNS	Number=Plur	21	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	11	punct	_	_
+
+# sent_id = 476
+# text = To date, there are very few reports describing species-specific splice variants.
+1	To	to	ADP	IN	_	5	prep	_	_
+2	date	date	NOUN	NN	Number=Sing	1	pobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+4	there	there	PRON	EX	AdvType=Ex	5	expl	_	_
+5	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+6	very	very	ADV	RB	Degree=Pos	7	advmod	_	_
+7	few	few	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	reports	report	NOUN	NNS	Number=Plur	5	attr	_	_
+9	describing	describe	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	acl	_	_
+10	species	species	NOUN	NN	Number=Sing	12	npadvmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	specific	specific	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	splice	splice	NOUN	NN	Number=Sing	14	compound	_	_
+14	variants	variant	NOUN	NNS	Number=Plur	9	dobj	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 477
+# text = While identification of Mcoln1 is crucial to the development of mouse models for MLIV, the fact that there are two transcripts in mice suggests an additional or alternate function of the gene that may complicate phenotypic assessment.
+1	While	while	ADP	IN	_	5	mark	_	_
+2	identification	identification	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	Mcoln1	mcoln0	NOUN	NN	Number=Sing	3	pobj	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+6	crucial	crucial	ADJ	JJ	Degree=Pos	5	acomp	_	_
+7	to	to	ADP	IN	_	6	prep	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	development	development	NOUN	NN	Number=Sing	7	pobj	_	_
+10	of	of	ADP	IN	_	9	prep	_	_
+11	mouse	mouse	NOUN	NN	Number=Sing	12	compound	_	_
+12	models	model	NOUN	NNS	Number=Plur	10	pobj	_	_
+13	for	for	ADP	IN	_	9	prep	_	_
+14	MLIV	mliv	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	25	punct	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	fact	fact	NOUN	NN	Number=Sing	25	nsubj	_	_
+18	that	that	ADP	IN	_	20	mark	_	_
+19	there	there	PRON	EX	AdvType=Ex	20	expl	_	_
+20	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	17	acl	_	_
+21	two	#crd#	NUM	CD	NumType=Card	22	nummod	_	_
+22	transcripts	transcript	NOUN	NNS	Number=Plur	20	attr	_	_
+23	in	in	ADP	IN	_	20	prep	_	_
+24	mice	mouse	NOUN	NNS	Number=Plur	23	pobj	_	_
+25	suggests	suggest	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	an	an	DET	DT	_	30	det	_	_
+27	additional	additional	ADJ	JJ	Degree=Pos	30	amod	_	_
+28	or	or	CCONJ	CC	_	27	cc	_	_
+29	alternate	alternate	ADJ	JJ	Degree=Pos	27	conj	_	_
+30	function	function	NOUN	NN	Number=Sing	25	dobj	_	_
+31	of	of	ADP	IN	_	30	prep	_	_
+32	the	the	DET	DT	_	33	det	_	_
+33	gene	gene	NOUN	NN	Number=Sing	31	pobj	_	_
+34	that	that	DET	WDT	PronType=Int,Rel	36	dep	_	30:ref=
+35	may	may	VERB	MD	VerbType=Mod	36	aux	_	_
+36	complicate	complicate	VERB	VB	VerbForm=Inf	30	relcl	_	_
+37	phenotypic	phenotypic	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	assessment	assessment	NOUN	NN	Number=Sing	36	dobj	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	25	punct	_	_
+
+# newpar id = 11897010-p8
+# sent_id = 478
+# text = Background
+1	Background	background	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 11897010-p9
+# sent_id = 479
+# text = Mucolipidosis type IV (MLIV; MIM 252650) is an autosomal recessive lysosomal storage disorder that is characterized by corneal clouding, delayed psychomotor development, and mental retardation that usually presents during the first year of life [1].
+1	Mucolipidosis	mucolipidosis	NOUN	NN	Number=Sing	2	compound	_	_
+2	type	type	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	IV	iv	NUM	CD	NumType=Card	2	nummod	_	_
+4	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+5	MLIV	mliv	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	;	;	PUNCT	:	_	7	punct	_	_
+7	MIM	mim	NOUN	NN	Number=Sing	2	parataxis	_	_
+8	252650	0	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	7	punct	_	_
+10	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	an	an	DET	DT	_	16	det	_	_
+12	autosomal	autosomal	ADJ	JJ	Degree=Pos	16	amod	_	_
+13	recessive	recessive	ADJ	JJ	Degree=Pos	16	amod	_	_
+14	lysosomal	lysosomal	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	storage	storage	NOUN	NN	Number=Sing	16	compound	_	_
+16	disorder	disorder	NOUN	NN	Number=Sing	10	attr	_	_
+17	that	that	DET	WDT	PronType=Int,Rel	19	dep	_	16:ref=
+18	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	auxpass	_	_
+19	characterized	characterize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	16	relcl	_	_
+20	by	by	ADP	IN	_	19	agent	_	_
+21	corneal	corneal	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	clouding	clouding	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=Comm	22	punct	_	_
+24	delayed	delayed	ADJ	JJ	Degree=Pos	26	amod	_	_
+25	psychomotor	psychomotor	NOUN	NN	Number=Sing	26	compound	_	_
+26	development	development	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
+28	and	and	CCONJ	CC	_	26	cc	_	_
+29	mental	mental	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	retardation	retardation	NOUN	NN	Number=Sing	26	conj	_	_
+31	that	that	DET	WDT	PronType=Int,Rel	33	dep	_	30:ref=
+32	usually	usually	ADV	RB	Degree=Pos	33	advmod	_	_
+33	presents	present	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	relcl	_	_
+34	during	during	ADP	IN	_	33	prep	_	_
+35	the	the	DET	DT	_	37	det	_	_
+36	first	#ord#	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	year	year	NOUN	NN	Number=Sing	34	pobj	_	_
+38	of	of	ADP	IN	_	37	prep	_	_
+39	life	life	NOUN	NN	Number=Sing	38	pobj	_	_
+40	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	41	punct	_	SpaceAfter=No
+41	1	0	NUM	CD	NumType=Card	10	parataxis	_	SpaceAfter=No
+42	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	41	punct	_	SpaceAfter=No
+43	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 480
+# text = Another interesting clinical characteristic is that patients are constitutively achlorhydric with associated hypergastremia [2].
+1	Another	another	DET	DT	_	4	det	_	_
+2	interesting	interesting	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	clinical	clinical	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	characteristic	characteristic	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	ADP	IN	_	8	mark	_	_
+7	patients	patient	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	constitutively	constitutively	ADV	RB	Degree=Pos	10	advmod	_	_
+10	achlorhydric	achlorhydric	ADJ	JJ	Degree=Pos	8	acomp	_	_
+11	with	with	ADP	IN	_	10	prep	_	_
+12	associated	associate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	amod	_	_
+13	hypergastremia	hypergastremia	NOUN	NN	Number=Sing	11	pobj	_	_
+14	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	15	punct	_	SpaceAfter=No
+15	2	0	NUM	CD	NumType=Card	5	parataxis	_	SpaceAfter=No
+16	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 481
+# text = Patients with MLIV do not show mucopolysaccharide excretion, skeletal changes, or organomegaly like the other mucolipidoses.
+1	Patients	patient	NOUN	NNS	Number=Plur	6	nsubj	_	_
+2	with	with	ADP	IN	_	1	prep	_	_
+3	MLIV	mliv	NOUN	NN	Number=Sing	2	pobj	_	_
+4	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	not	not	ADV	RB	Degree=Pos	6	neg	_	_
+6	show	show	VERB	VB	VerbForm=Inf	0	root	_	_
+7	mucopolysaccharide	mucopolysaccharide	NOUN	NN	Number=Sing	8	compound	_	_
+8	excretion	excretion	NOUN	NN	Number=Sing	6	dobj	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+10	skeletal	skeletal	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	changes	change	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+13	or	or	CCONJ	CC	_	11	cc	_	_
+14	organomegaly	organomegaly	ADV	RB	Degree=Pos	11	conj	_	_
+15	like	like	ADP	IN	_	6	prep	_	_
+16	the	the	DET	DT	_	18	det	_	_
+17	other	other	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	mucolipidoses	mucolipidoses	NOUN	NNS	Number=Plur	15	pobj	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 482
+# text = Abnormal lysosomal storage bodies and large vacuoles have been found in skin and conjuctival biopsies using electron-microscopy and, prior to gene identification, served as the only means of diagnosis [3-5].
+1	Abnormal	abnormal	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	lysosomal	lysosomal	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	storage	storage	NOUN	NN	Number=Sing	4	compound	_	_
+4	bodies	body	NOUN	NNS	Number=Plur	10	nsubjpass	_	_
+5	and	and	CCONJ	CC	_	4	cc	_	_
+6	large	large	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	vacuoles	vacuole	NOUN	NNS	Number=Plur	4	conj	_	_
+8	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	been	be	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	auxpass	_	_
+10	found	find	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+11	in	in	ADP	IN	_	10	prep	_	_
+12	skin	skin	NOUN	NN	Number=Sing	15	nmod	_	_
+13	and	and	CCONJ	CC	_	12	cc	_	_
+14	conjuctival	conjuctival	ADJ	JJ	Degree=Pos	12	conj	_	_
+15	biopsies	biopsy	NOUN	NNS	Number=Plur	11	pobj	_	_
+16	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	10	advcl	_	_
+17	electron	electron	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+19	microscopy	microscopy	NOUN	NN	Number=Sing	16	dobj	_	_
+20	and	and	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+22	prior	prior	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	to	to	ADP	IN	_	10	prep	_	_
+24	gene	gene	NOUN	NN	Number=Sing	25	compound	_	_
+25	identification	identification	NOUN	NN	Number=Sing	23	pobj	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+27	served	serve	VERB	VBD	Tense=Past|VerbForm=Fin	10	conj	_	_
+28	as	as	ADP	IN	_	27	prep	_	_
+29	the	the	DET	DT	_	31	det	_	_
+30	only	only	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	means	means	NOUN	NN	Number=Sing	28	pobj	_	_
+32	of	of	ADP	IN	_	31	prep	_	_
+33	diagnosis	diagnosis	NOUN	NN	Number=Sing	32	pobj	_	_
+34	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	35	punct	_	SpaceAfter=No
+35	3	0	NUM	CD	NumType=Card	27	parataxis	_	SpaceAfter=No
+36	-	-	SYM	SYM	_	37	punct	_	SpaceAfter=No
+37	5	0	NUM	CD	NumType=Card	35	prep	_	SpaceAfter=No
+38	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	35	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 483
+# text = A recent report estimates that the carrier frequency of MLIV in the Ashkenazi Jewish population is 1 in 100, and mutations have been reported in Jewish and non-Jewish families [6-9].
+1	A	a	DET	DT	_	3	det	_	_
+2	recent	recent	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	report	report	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	estimates	estimate	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	ADP	IN	_	16	mark	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	carrier	carrier	NOUN	NN	Number=Sing	8	compound	_	_
+8	frequency	frequency	NOUN	NN	Number=Sing	16	nsubj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	MLIV	mliv	NOUN	NN	Number=Sing	9	pobj	_	_
+11	in	in	ADP	IN	_	8	prep	_	_
+12	the	the	DET	DT	_	15	det	_	_
+13	Ashkenazi	ashkenazi	PROPN	NNP	Number=Sing	14	npadvmod	_	_
+14	Jewish	jewish	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	population	population	NOUN	NN	Number=Sing	11	pobj	_	_
+16	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+17	1	0	NUM	CD	NumType=Card	16	attr	_	_
+18	in	in	ADP	IN	_	17	prep	_	_
+19	100	0	NUM	CD	NumType=Card	18	pobj	_	SpaceAfter=No
+20	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+21	and	and	CCONJ	CC	_	4	cc	_	_
+22	mutations	mutation	NOUN	NNS	Number=Plur	25	nsubjpass	_	_
+23	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	been	be	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	25	auxpass	_	_
+25	reported	report	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	conj	_	_
+26	in	in	ADP	IN	_	25	prep	_	_
+27	Jewish	jewish	ADJ	JJ	Degree=Pos	30	amod	_	_
+28	and	and	CCONJ	CC	_	27	cc	_	_
+29	non-Jewish	non-jewish	ADJ	JJ	Degree=Pos	27	conj	_	_
+30	families	family	NOUN	NNS	Number=Plur	26	pobj	_	_
+31	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	32	punct	_	SpaceAfter=No
+32	6	0	NUM	CD	NumType=Card	25	parataxis	_	SpaceAfter=No
+33	-	-	SYM	SYM	_	34	punct	_	SpaceAfter=No
+34	9	0	NUM	CD	NumType=Card	32	prep	_	SpaceAfter=No
+35	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	32	punct	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=Peri	25	punct	_	_
+
+# newpar id = 11897010-p10
+# sent_id = 484
+# text = The human gene MCOLN1 (GenBank #AF287270) maps to chromosome 19p13.2-13.3 and encodes a novel protein that is a member of the transient receptor potential (TRP) cation channel gene superfamily [7-10].
+1	The	the	DET	DT	_	3	det	_	_
+2	human	human	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	gene	gene	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	MCOLN1	mcoln0	NOUN	NN	Number=Sing	3	appos	_	_
+5	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	8	punct	_	SpaceAfter=No
+6	GenBank	genbank	PROPN	NNP	Number=Sing	8	compound	_	_
+7	#	#	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+8	AF287270	af0	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	8	punct	_	_
+10	maps	map	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	to	to	ADP	IN	_	10	prep	_	_
+12	chromosome	chromosome	NOUN	NN	Number=Sing	11	pobj	_	_
+13	19p13.2	0p0	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
+14	-	-	SYM	SYM	_	15	punct	_	SpaceAfter=No
+15	13.3	0	NUM	CD	NumType=Card	12	prep	_	_
+16	and	and	CCONJ	CC	_	10	cc	_	_
+17	encodes	encode	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+18	a	a	DET	DT	_	20	det	_	_
+19	novel	novel	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	protein	protein	NOUN	NN	Number=Sing	17	dobj	_	_
+21	that	that	DET	WDT	PronType=Int,Rel	22	dep	_	20:ref=
+22	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	relcl	_	_
+23	a	a	DET	DT	_	24	det	_	_
+24	member	member	NOUN	NN	Number=Sing	22	attr	_	_
+25	of	of	ADP	IN	_	24	prep	_	_
+26	the	the	DET	DT	_	36	det	_	_
+27	transient	transient	ADJ	JJ	Degree=Pos	29	amod	_	_
+28	receptor	receptor	NOUN	NN	Number=Sing	29	nmod	_	_
+29	potential	potential	NOUN	NN	Number=Sing	36	nmod	_	_
+30	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	29	punct	_	SpaceAfter=No
+31	TRP	trp	NOUN	NN	Number=Sing	29	appos	_	SpaceAfter=No
+32	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	36	punct	_	_
+33	cation	cation	NOUN	NN	Number=Sing	34	compound	_	_
+34	channel	channel	NOUN	NN	Number=Sing	36	compound	_	_
+35	gene	gene	NOUN	NN	Number=Sing	36	compound	_	_
+36	superfamily	superfamily	NOUN	NN	Number=Sing	25	pobj	_	_
+37	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	38	punct	_	SpaceAfter=No
+38	7	0	NUM	CD	NumType=Card	17	parataxis	_	SpaceAfter=No
+39	-	-	SYM	SYM	_	40	punct	_	SpaceAfter=No
+40	10	0	NUM	CD	NumType=Card	38	prep	_	SpaceAfter=No
+41	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	38	punct	_	SpaceAfter=No
+42	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 485
+# text = Protein trafficking studies suggest that MLIV is the result of a defect in the late endocytic pathway, contrary to the other mucolipidoses which are typically caused by defective lysosomal hydrolases [11,12].
+1	Protein	protein	NOUN	NN	Number=Sing	2	compound	_	_
+2	trafficking	trafficking	NOUN	NN	Number=Sing	3	compound	_	_
+3	studies	study	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	suggest	suggest	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	ADP	IN	_	7	mark	_	_
+6	MLIV	mliv	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	result	result	NOUN	NN	Number=Sing	7	attr	_	_
+10	of	of	ADP	IN	_	9	prep	_	_
+11	a	a	DET	DT	_	12	det	_	_
+12	defect	defect	NOUN	NN	Number=Sing	10	pobj	_	_
+13	in	in	ADP	IN	_	12	prep	_	_
+14	the	the	DET	DT	_	17	det	_	_
+15	late	late	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	endocytic	endocytic	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	pathway	pathway	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+19	contrary	contrary	ADJ	JJ	Degree=Pos	4	advcl	_	_
+20	to	to	ADP	IN	_	19	prep	_	_
+21	the	the	DET	DT	_	23	det	_	_
+22	other	other	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	mucolipidoses	mucolipidoses	NOUN	NNS	Number=Plur	20	pobj	_	_
+24	which	which	DET	WDT	PronType=Int,Rel	27	dep	_	23:ref=
+25	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	27	auxpass	_	_
+26	typically	typically	ADV	RB	Degree=Pos	27	advmod	_	_
+27	caused	cause	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	23	relcl	_	_
+28	by	by	ADP	IN	_	27	agent	_	_
+29	defective	defective	ADJ	JJ	Degree=Pos	31	amod	_	_
+30	lysosomal	lysosomal	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	hydrolases	hydrolases	NOUN	NNS	Number=Plur	28	pobj	_	_
+32	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	35	punct	_	SpaceAfter=No
+33	11	0	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
+34	,	,	PUNCT	,	PunctType=Comm	35	punct	_	SpaceAfter=No
+35	12	0	NUM	CD	NumType=Card	4	parataxis	_	SpaceAfter=No
+36	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 486
+# text = Recent work in Caenorhabditis elegans supports this hypothesis.
+1	Recent	recent	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	work	work	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	in	in	ADP	IN	_	2	prep	_	_
+4	Caenorhabditis	caenorhabditis	PROPN	NNP	Number=Sing	5	compound	_	_
+5	elegans	elegans	PROPN	NNP	Number=Sing	3	pobj	_	_
+6	supports	support	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	this	this	DET	DT	_	8	det	_	_
+8	hypothesis	hypothesis	NOUN	NN	Number=Sing	6	dobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 487
+# text = Loss of function mutants of the MCOLN1 C. elegans homologue, cup-5, result in an increased rate of endocytosis, accumulation of large vacuoles, and a decreased rate of endocytosed protein breakdown; while over-expression of this gene reverses the phenotype [13].
+1	Loss	loss	NOUN	NN	Number=Sing	4	nmod	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	function	function	NOUN	NN	Number=Sing	2	pobj	_	_
+4	mutants	mutant	NOUN	NNS	Number=Plur	16	nsubj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	10	det	_	_
+7	MCOLN1	mcoln0	NOUN	NN	Number=Sing	9	compound	_	_
+8	C.	c.	PROPN	NNP	Number=Sing	9	compound	_	_
+9	elegans	elegans	PROPN	NNP	Number=Sing	10	compound	_	_
+10	homologue	homologue	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+12	cup	cup	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+14	5	0	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
+16	result	result	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+17	in	in	ADP	IN	_	16	prep	_	_
+18	an	an	DET	DT	_	20	det	_	_
+19	increased	increase	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	20	amod	_	_
+20	rate	rate	NOUN	NN	Number=Sing	17	pobj	_	_
+21	of	of	ADP	IN	_	20	prep	_	_
+22	endocytosis	endocytosis	NOUN	NN	Number=Sing	21	pobj	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=Comm	20	punct	_	_
+24	accumulation	accumulation	NOUN	NN	Number=Sing	20	conj	_	_
+25	of	of	ADP	IN	_	24	prep	_	_
+26	large	large	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	vacuoles	vacuole	NOUN	NNS	Number=Plur	25	pobj	_	SpaceAfter=No
+28	,	,	PUNCT	,	PunctType=Comm	24	punct	_	_
+29	and	and	CCONJ	CC	_	24	cc	_	_
+30	a	a	DET	DT	_	32	det	_	_
+31	decreased	decrease	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	32	amod	_	_
+32	rate	rate	NOUN	NN	Number=Sing	24	conj	_	_
+33	of	of	ADP	IN	_	32	prep	_	_
+34	endocytosed	endocytosed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	35	amod	_	_
+35	protein	protein	NOUN	NN	Number=Sing	36	compound	_	_
+36	breakdown	breakdown	NOUN	NN	Number=Sing	33	pobj	_	SpaceAfter=No
+37	;	;	PUNCT	:	_	16	punct	_	_
+38	while	while	ADP	IN	_	43	mark	_	_
+39	over-expression	over-expression	NOUN	NN	Number=Sing	43	nsubj	_	_
+40	of	of	ADP	IN	_	39	prep	_	_
+41	this	this	DET	DT	_	42	det	_	_
+42	gene	gene	NOUN	NN	Number=Sing	40	pobj	_	_
+43	reverses	reverse	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+44	the	the	DET	DT	_	45	det	_	_
+45	phenotype	phenotype	NOUN	NN	Number=Sing	43	dobj	_	_
+46	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	47	punct	_	SpaceAfter=No
+47	13	0	NUM	CD	NumType=Card	16	parataxis	_	SpaceAfter=No
+48	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	47	punct	_	SpaceAfter=No
+49	.	.	PUNCT	.	PunctType=Peri	16	punct	_	_
+
+# sent_id = 488
+# text = Cloning and characterization of the mouse homologue of MCOLN1 is crucial for the development of mouse models of MLIV to further study this disorder.
+1	Cloning	cloning	NOUN	NN	Number=Sing	10	nsubj	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	characterization	characterization	NOUN	NN	Number=Sing	1	conj	_	_
+4	of	of	ADP	IN	_	1	prep	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	mouse	mouse	NOUN	NN	Number=Sing	7	compound	_	_
+7	homologue	homologue	NOUN	NN	Number=Sing	4	pobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	MCOLN1	mcoln0	NOUN	NN	Number=Sing	8	pobj	_	_
+10	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	crucial	crucial	ADJ	JJ	Degree=Pos	10	acomp	_	_
+12	for	for	ADP	IN	_	10	prep	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	development	development	NOUN	NN	Number=Sing	12	pobj	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	mouse	mouse	NOUN	NN	Number=Sing	17	compound	_	_
+17	models	model	NOUN	NNS	Number=Plur	15	pobj	_	_
+18	of	of	ADP	IN	_	17	prep	_	_
+19	MLIV	mliv	NOUN	NN	Number=Sing	18	pobj	_	_
+20	to	to	PART	TO	PartType=Inf|VerbForm=Inf	22	aux	_	_
+21	further	far	ADV	RB	Degree=Pos	22	advmod	_	_
+22	study	study	VERB	VB	VerbForm=Inf	10	advcl	_	_
+23	this	this	DET	DT	_	24	det	_	_
+24	disorder	disorder	NOUN	NN	Number=Sing	22	dobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# newpar id = 11897010-p11
+# sent_id = 489
+# text = Results and discussion
+1	Results	result	NOUN	NNS	Number=Plur	0	root	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	discussion	discussion	NOUN	NN	Number=Sing	1	conj	_	_
+
+# newpar id = 11897010-p12
+# sent_id = 490
+# text = Cloning and mapping of the mouse homologue Mcoln1
+1	Cloning	cloning	NOUN	NN	Number=Sing	0	root	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	mapping	mapping	NOUN	NN	Number=Sing	1	conj	_	_
+4	of	of	ADP	IN	_	1	prep	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	mouse	mouse	NOUN	NN	Number=Sing	7	compound	_	_
+7	homologue	homologue	NOUN	NN	Number=Sing	4	pobj	_	_
+8	Mcoln1	mcoln0	NOUN	NN	Number=Sing	7	appos	_	_
+
+# newpar id = 11897010-p13
+# sent_id = 491
+# text = In order to clone the mouse homologue of MCOLN1, the human amino acid sequence was compared to the high throughput genomic sequence (HTGS) database using TBLASTN, which identified the mouse BAC clone RPCI-23_387H4 (GB No. AC079544.1).
+1	In	in	ADP	IN	_	17	prep	_	_
+2	order	order	NOUN	NN	Number=Sing	1	pobj	_	_
+3	to	to	PART	TO	PartType=Inf|VerbForm=Inf	4	aux	_	_
+4	clone	clone	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	mouse	mouse	NOUN	NN	Number=Sing	7	compound	_	_
+7	homologue	homologue	NOUN	NN	Number=Sing	4	dobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	MCOLN1	mcoln0	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
+11	the	the	DET	DT	_	15	det	_	_
+12	human	human	ADJ	JJ	Degree=Pos	15	amod	_	_
+13	amino	amino	NOUN	NN	Number=Sing	14	compound	_	_
+14	acid	acid	NOUN	NN	Number=Sing	15	compound	_	_
+15	sequence	sequence	NOUN	NN	Number=Sing	17	nsubjpass	_	_
+16	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	17	auxpass	_	_
+17	compared	compare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+18	to	to	ADP	IN	_	17	prep	_	_
+19	the	the	DET	DT	_	27	det	_	_
+20	high	high	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	throughput	throughput	NOUN	NN	Number=Sing	23	nmod	_	_
+22	genomic	genomic	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	sequence	sequence	NOUN	NN	Number=Sing	27	nmod	_	_
+24	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	23	punct	_	SpaceAfter=No
+25	HTGS	htgs	NOUN	NN	Number=Sing	23	appos	_	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	27	punct	_	_
+27	database	database	NOUN	NN	Number=Sing	18	pobj	_	_
+28	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	17	advcl	_	_
+29	TBLASTN	tblastn	NOUN	NN	Number=Sing	28	dobj	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
+31	which	which	DET	WDT	PronType=Int,Rel	32	dep	_	_
+32	identified	identify	VERB	VBD	Tense=Past|VerbForm=Fin	17	advcl	_	_
+33	the	the	DET	DT	_	36	det	_	_
+34	mouse	mouse	NOUN	NN	Number=Sing	35	compound	_	_
+35	BAC	bac	NOUN	NN	Number=Sing	36	compound	_	_
+36	clone	clone	NOUN	NN	Number=Sing	32	dobj	_	_
+37	RPCI	rpci	NOUN	NN	Number=Sing	39	compound	_	SpaceAfter=No
+38	-	-	PUNCT	HYPH	PunctType=Dash	39	punct	_	SpaceAfter=No
+39	23_387H4	0_0h0	NOUN	NN	Number=Sing	36	appos	_	_
+40	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	43	punct	_	SpaceAfter=No
+41	GB	gb	NOUN	NN	Number=Sing	43	compound	_	_
+42	No.	no.	NOUN	NN	Number=Sing	43	compound	_	_
+43	AC079544.1	ac0	NOUN	NN	Number=Sing	36	parataxis	_	SpaceAfter=No
+44	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	.	PunctType=Peri	17	punct	_	_
+
+# sent_id = 492
+# text = Correspondence with the Joint Genome Institute and the Lawrence Livermore National Laboratory (LLNL) Human Genome Center confirmed the location of this BAC to mouse chromosome 8 and allowed us to construct a physical map of this region [14] (Fig. 1A).
+1	Correspondence	correspondence	NOUN	NN	Number=Sing	19	nsubj	_	_
+2	with	with	ADP	IN	_	1	prep	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	Joint	joint	PROPN	NNP	Number=Sing	6	compound	_	_
+5	Genome	genome	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Institute	institute	PROPN	NNP	Number=Sing	2	pobj	_	_
+7	and	and	CCONJ	CC	_	6	cc	_	_
+8	the	the	DET	DT	_	12	det	_	_
+9	Lawrence	lawrence	PROPN	NNP	Number=Sing	10	nmod	_	_
+10	Livermore	livermore	PROPN	NNP	Number=Sing	12	nmod	_	_
+11	National	national	PROPN	NNP	Number=Sing	12	nmod	_	_
+12	Laboratory	laboratory	PROPN	NNP	Number=Sing	18	nmod	_	_
+13	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	12	punct	_	SpaceAfter=No
+14	LLNL	llnl	PROPN	NNP	Number=Sing	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	18	punct	_	_
+16	Human	human	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Genome	genome	PROPN	NNP	Number=Sing	18	compound	_	_
+18	Center	center	PROPN	NNP	Number=Sing	6	conj	_	_
+19	confirmed	confirm	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+20	the	the	DET	DT	_	21	det	_	_
+21	location	location	NOUN	NN	Number=Sing	19	dobj	_	_
+22	of	of	ADP	IN	_	21	prep	_	_
+23	this	this	DET	DT	_	24	det	_	_
+24	BAC	bac	NOUN	NN	Number=Sing	22	pobj	_	_
+25	to	to	ADP	IN	_	21	prep	_	_
+26	mouse	mouse	NOUN	NN	Number=Sing	27	compound	_	_
+27	chromosome	chromosome	NOUN	NN	Number=Sing	25	pobj	_	_
+28	8	0	NUM	CD	NumType=Card	27	nummod	_	_
+29	and	and	CCONJ	CC	_	19	cc	_	_
+30	allowed	allow	VERB	VBD	Tense=Past|VerbForm=Fin	19	conj	_	_
+31	us	us	PRON	PRP	PronType=Prs	33	nsubj	_	_
+32	to	to	PART	TO	PartType=Inf|VerbForm=Inf	33	aux	_	_
+33	construct	construct	VERB	VB	VerbForm=Inf	30	ccomp	_	_
+34	a	a	DET	DT	_	36	det	_	_
+35	physical	physical	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	map	map	NOUN	NN	Number=Sing	33	dobj	_	_
+37	of	of	ADP	IN	_	36	prep	_	_
+38	this	this	DET	DT	_	39	det	_	_
+39	region	region	NOUN	NN	Number=Sing	37	pobj	_	_
+40	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	41	punct	_	SpaceAfter=No
+41	14	0	NUM	CD	NumType=Card	30	parataxis	_	SpaceAfter=No
+42	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	41	punct	_	_
+43	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	45	punct	_	SpaceAfter=No
+44	Fig.	fig.	NOUN	NN	Number=Sing	45	compound	_	_
+45	1A	0a	NOUN	NN	Number=Sing	30	parataxis	_	SpaceAfter=No
+46	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	45	punct	_	SpaceAfter=No
+47	.	.	PUNCT	.	PunctType=Peri	19	punct	_	_
+
+# sent_id = 493
+# text = The BAC sequence was then compared to the mouse EST database using BLASTN, and multiple ESTs and their corresponding I.M.A.G.E. clones were identified.
+1	The	the	DET	DT	_	3	det	_	_
+2	BAC	bac	NOUN	NN	Number=Sing	3	compound	_	_
+3	sequence	sequence	NOUN	NN	Number=Sing	6	nsubjpass	_	_
+4	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	6	auxpass	_	_
+5	then	then	ADV	RB	Degree=Pos	6	advmod	_	_
+6	compared	compare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	to	to	ADP	IN	_	6	prep	_	_
+8	the	the	DET	DT	_	11	det	_	_
+9	mouse	mouse	NOUN	NN	Number=Sing	10	compound	_	_
+10	EST	est	NOUN	NN	Number=Sing	11	compound	_	_
+11	database	database	NOUN	NN	Number=Sing	7	pobj	_	_
+12	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	6	advcl	_	_
+13	BLASTN	blastn	NOUN	NN	Number=Sing	12	dobj	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+15	and	and	CCONJ	CC	_	6	cc	_	_
+16	multiple	multiple	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	ESTs	est	NOUN	NNS	Number=Plur	24	nsubjpass	_	_
+18	and	and	CCONJ	CC	_	17	cc	_	_
+19	their	their	DET	PRP$	Poss=Yes|PronType=Prs	22	poss	_	_
+20	corresponding	correspond	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	22	amod	_	_
+21	I.M.A.G.E.	i.m.a.g.e.	PROPN	NNP	Number=Sing	22	compound	_	_
+22	clones	clone	NOUN	NNS	Number=Plur	17	conj	_	_
+23	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	24	auxpass	_	_
+24	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	24	punct	_	_
+
+# newpar id = 11897010-p14
+# sent_id = 494
+# text = Figure 1
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# newpar id = 11897010-p15
+# sent_id = 495
+# text = Physical and transcript map of the Mcoln1 gene region.
+1	Physical	physical	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	transcript	transcript	NOUN	NN	Number=Sing	1	conj	_	_
+4	map	map	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	Mcoln1	mcoln0	NOUN	NN	Number=Sing	8	compound	_	_
+8	gene	gene	NOUN	NN	Number=Sing	9	compound	_	_
+9	region	region	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 496
+# text = (A) Physical map showing a 590 kb segment of mouse chromosome 8 syntenous to human chromosome 19, anchored by the genes Insr and Nte.
+1	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	A	a	X	LS	NumType=Ord	5	meta	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+4	Physical	physical	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	map	map	NOUN	NN	Number=Sing	0	root	_	_
+6	showing	show	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	5	amod	_	_
+7	a	a	DET	DT	_	10	det	_	_
+8	590	0	NUM	CD	NumType=Card	9	nummod	_	_
+9	kb	kb	NOUN	NN	Number=Sing	10	compound	_	_
+10	segment	segment	NOUN	NN	Number=Sing	5	appos	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	mouse	mouse	NOUN	NN	Number=Sing	13	compound	_	_
+13	chromosome	chromosome	NOUN	NN	Number=Sing	11	pobj	_	_
+14	8	0	NUM	CD	NumType=Card	13	nummod	_	_
+15	syntenous	syntenous	ADJ	JJ	Degree=Pos	10	amod	_	_
+16	to	to	ADP	IN	_	15	prep	_	_
+17	human	human	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	chromosome	chromosome	NOUN	NN	Number=Sing	16	pobj	_	_
+19	19	0	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+20	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+21	anchored	anchor	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	acl	_	_
+22	by	by	ADP	IN	_	21	agent	_	_
+23	the	the	DET	DT	_	25	det	_	_
+24	genes	gene	NOUN	NNS	Number=Plur	25	compound	_	_
+25	Insr	insr	PROPN	NNP	Number=Sing	22	pobj	_	_
+26	and	and	CCONJ	CC	_	25	cc	_	_
+27	Nte	nte	PROPN	NNP	Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 497
+# text = The region is covered by three BACs: RPCI-23_334D24 (AC087153), RPCI-23_312B8 (AC087150), and RPCI-23_387H4 (AC079544).
+1	The	the	DET	DT	_	2	det	_	_
+2	region	region	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
+4	covered	cover	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	ADP	IN	_	4	agent	_	_
+6	three	#crd#	NUM	CD	NumType=Card	7	nummod	_	_
+7	BACs	bacs	NOUN	NNS	Number=Plur	5	pobj	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	7	punct	_	_
+9	RPCI	rpci	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+11	23_334D24	0_0d0	NOUN	NN	Number=Sing	7	appos	_	_
+12	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	13	punct	_	SpaceAfter=No
+13	AC087153	ac0	NOUN	NN	Number=Sing	11	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+16	RPCI	rpci	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	23_312B8	0_0b0	NOUN	NN	Number=Sing	11	conj	_	_
+19	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	20	punct	_	SpaceAfter=No
+20	AC087150	ac0	NOUN	NN	Number=Sing	18	parataxis	_	SpaceAfter=No
+21	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	,	PunctType=Comm	18	punct	_	_
+23	and	and	CCONJ	CC	_	18	cc	_	_
+24	RPCI	rpci	NOUN	NN	Number=Sing	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	PunctType=Dash	26	punct	_	SpaceAfter=No
+26	23_387H4	0_0h0	NOUN	NN	Number=Sing	18	conj	_	_
+27	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	28	punct	_	SpaceAfter=No
+28	AC079544	ac0	NOUN	NN	Number=Sing	26	parataxis	_	SpaceAfter=No
+29	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 498
+# text = (B) The transcript map of Mcoln1 shows 14 exons, and the locations of the probes used in this study are illustrated.
+1	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	B	b	X	LS	NumType=Ord	9	meta	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+4	The	the	DET	DT	_	6	det	_	_
+5	transcript	transcript	NOUN	NN	Number=Sing	6	compound	_	_
+6	map	map	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	Mcoln1	mcoln0	NOUN	NN	Number=Sing	7	pobj	_	_
+9	shows	show	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	14	0	NUM	CD	NumType=Card	11	nummod	_	_
+11	exons	exon	NOUN	NNS	Number=Plur	9	dobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+13	and	and	CCONJ	CC	_	9	cc	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	locations	location	NOUN	NNS	Number=Plur	24	nsubjpass	_	_
+16	of	of	ADP	IN	_	15	prep	_	_
+17	the	the	DET	DT	_	18	det	_	_
+18	probes	probe	NOUN	NNS	Number=Plur	16	pobj	_	_
+19	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	18	acl	_	_
+20	in	in	ADP	IN	_	19	prep	_	_
+21	this	this	DET	DT	_	22	det	_	_
+22	study	study	NOUN	NN	Number=Sing	20	pobj	_	_
+23	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	24	auxpass	_	_
+24	illustrated	illustrate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	24	punct	_	_
+
+# sent_id = 499
+# text = The map also shows the expanded exon 13 in the alternatively spliced transcript (hashed box).
+1	The	the	DET	DT	_	2	det	_	_
+2	map	map	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	also	also	ADV	RB	Degree=Pos	4	advmod	_	_
+4	shows	show	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	expanded	expand	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	amod	_	_
+7	exon	exon	NOUN	NN	Number=Sing	4	dobj	_	_
+8	13	0	NUM	CD	NumType=Card	7	nummod	_	_
+9	in	in	ADP	IN	_	4	prep	_	_
+10	the	the	DET	DT	_	13	det	_	_
+11	alternatively	alternatively	ADV	RB	Degree=Pos	12	advmod	_	_
+12	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	amod	_	_
+13	transcript	transcript	NOUN	NN	Number=Sing	9	pobj	_	_
+14	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	16	punct	_	SpaceAfter=No
+15	hashed	hash	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	16	amod	_	_
+16	box	box	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 500
+# text = UniGene cluster Mm.39099 is the homologue of the human zinc finger gene (AC001252).
+1	UniGene	unigene	NOUN	NN	Number=Sing	3	compound	_	_
+2	cluster	cluster	NOUN	NN	Number=Sing	3	compound	_	_
+3	Mm.39099	mm.0	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	homologue	homologue	NOUN	NN	Number=Sing	4	attr	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	the	the	DET	DT	_	12	det	_	_
+9	human	human	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	zinc	zinc	NOUN	NN	Number=Sing	12	compound	_	_
+11	finger	finger	NOUN	NN	Number=Sing	12	compound	_	_
+12	gene	gene	NOUN	NN	Number=Sing	7	pobj	_	_
+13	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	14	punct	_	SpaceAfter=No
+14	AC001252	ac0	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 501
+# text = It should be noted that the scale of the transcript map is in reference to the 201 kb scale of BAC RPCI-23_387H4.
+1	It	it	PRON	PRP	PronType=Prs	4	nsubjpass	_	_
+2	should	should	VERB	MD	VerbType=Mod	4	aux	_	_
+3	be	be	VERB	VB	VerbForm=Inf	4	auxpass	_	_
+4	noted	note	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	ADP	IN	_	12	mark	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	scale	scale	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	transcript	transcript	NOUN	NN	Number=Sing	11	compound	_	_
+11	map	map	NOUN	NN	Number=Sing	8	pobj	_	_
+12	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+13	in	in	ADP	IN	_	12	prep	_	_
+14	reference	reference	NOUN	NN	Number=Sing	13	pobj	_	_
+15	to	to	ADP	IN	_	14	prep	_	_
+16	the	the	DET	DT	_	19	det	_	_
+17	201	0	NUM	CD	NumType=Card	18	nummod	_	_
+18	kb	kb	NOUN	NN	Number=Sing	19	compound	_	_
+19	scale	scale	NOUN	NN	Number=Sing	15	pobj	_	_
+20	of	of	ADP	IN	_	19	prep	_	_
+21	BAC	bac	NOUN	NN	Number=Sing	24	compound	_	_
+22	RPCI	rpci	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+24	23_387H4	0_0h0	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# newpar id = 11897010-p16
+# sent_id = 502
+# text = Three clones (ID Nos. 604971, 1228665, 1247566) from the UniGene cluster Mm. 8356 were obtained, sequenced, and assembled into a 2 kb transcript with an open reading frame of 580 amino acids designated Mcoln1 (GB No. AF302010).
+1	Three	#crd#	NUM	CD	NumType=Card	2	nummod	_	_
+2	clones	clone	NOUN	NNS	Number=Plur	19	nsubjpass	_	_
+3	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	10	punct	_	SpaceAfter=No
+4	ID	id	PROPN	NNP	Number=Sing	10	nmod	_	_
+5	Nos.	nos.	PROPN	NNP	Number=Sing	10	nmod	_	_
+6	604971	0	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+8	1228665	0	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+10	1247566	0	NUM	CD	NumType=Card	2	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	10	punct	_	_
+12	from	from	ADP	IN	_	2	prep	_	_
+13	the	the	DET	DT	_	15	det	_	_
+14	UniGene	unigene	PROPN	NNP	Number=Sing	15	compound	_	_
+15	cluster	cluster	PROPN	NNP	Number=Sing	12	pobj	_	_
+16	Mm.	mm.	PROPN	NNP	Number=Sing	15	appos	_	_
+17	8356	0	NUM	CD	NumType=Card	16	nummod	_	_
+18	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	19	auxpass	_	_
+19	obtained	obtain	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+20	,	,	PUNCT	,	PunctType=Comm	19	punct	_	_
+21	sequenced	sequence	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	PunctType=Comm	21	punct	_	_
+23	and	and	CCONJ	CC	_	21	cc	_	_
+24	assembled	assemble	VERB	VBD	Tense=Past|VerbForm=Fin	21	conj	_	_
+25	into	into	ADP	IN	_	24	prep	_	_
+26	a	a	DET	DT	_	29	det	_	_
+27	2	0	NUM	CD	NumType=Card	28	nummod	_	_
+28	kb	kb	NOUN	NN	Number=Sing	29	compound	_	_
+29	transcript	transcript	NOUN	NN	Number=Sing	25	pobj	_	_
+30	with	with	ADP	IN	_	29	prep	_	_
+31	an	an	DET	DT	_	34	det	_	_
+32	open	open	ADJ	JJ	Degree=Pos	34	amod	_	_
+33	reading	reading	NOUN	NN	Number=Sing	34	compound	_	_
+34	frame	frame	NOUN	NN	Number=Sing	30	pobj	_	_
+35	of	of	ADP	IN	_	34	prep	_	_
+36	580	0	NUM	CD	NumType=Card	38	nummod	_	_
+37	amino	amino	NOUN	NN	Number=Sing	38	compound	_	_
+38	acids	acid	NOUN	NNS	Number=Plur	35	pobj	_	_
+39	designated	designate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	38	acl	_	_
+40	Mcoln1	mcoln0	NOUN	NN	Number=Sing	39	oprd	_	_
+41	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	44	punct	_	SpaceAfter=No
+42	GB	gb	NOUN	NN	Number=Sing	44	compound	_	_
+43	No.	no.	NOUN	NN	Number=Sing	44	compound	_	_
+44	AF302010	af0	NOUN	NN	Number=Sing	40	parataxis	_	SpaceAfter=No
+45	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	.	PunctType=Peri	19	punct	_	_
+
+# sent_id = 503
+# text = Comparison of the cDNA sequence to the BAC clone showed that the gene consists of 14 exons.
+1	Comparison	comparison	NOUN	NN	Number=Sing	10	nsubj	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	cDNA	cdna	NOUN	NN	Number=Sing	5	compound	_	_
+5	sequence	sequence	NOUN	NN	Number=Sing	2	pobj	_	_
+6	to	to	ADP	IN	_	1	prep	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	BAC	bac	NOUN	NN	Number=Sing	9	compound	_	_
+9	clone	clone	NOUN	NN	Number=Sing	6	pobj	_	_
+10	showed	show	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+11	that	that	ADP	IN	_	14	mark	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	gene	gene	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	consists	consist	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	14	0	NUM	CD	NumType=Card	17	nummod	_	_
+17	exons	exon	NOUN	NNS	Number=Plur	15	pobj	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 504
+# text = We then created a transcript map of the Mcoln1 region of mouse chromosome 8 (Fig. 1B), noting the presence of the UniGene Cluster Mm. 39099, a homologue of the human zinc finger gene (GB No. AC001252) that terminates approximately 1.8 kb before the start of Mcoln1; and Nte, the mouse homologue of the human neuropathy target esterase gene (NTE) beginning 130 base pairs after the polyadenylation signal for Mcoln1.
+1	We	we	PRON	PRP	PronType=Prs	3	nsubj	_	_
+2	then	then	ADV	RB	Degree=Pos	3	advmod	_	_
+3	created	create	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	_	6	det	_	_
+5	transcript	transcript	NOUN	NN	Number=Sing	6	compound	_	_
+6	map	map	NOUN	NN	Number=Sing	3	dobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	Mcoln1	mcoln0	NOUN	NN	Number=Sing	10	compound	_	_
+10	region	region	NOUN	NN	Number=Sing	7	pobj	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	mouse	mouse	NOUN	NN	Number=Sing	13	compound	_	_
+13	chromosome	chromosome	NOUN	NN	Number=Sing	11	pobj	_	_
+14	8	0	NUM	CD	NumType=Card	13	nummod	_	_
+15	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	17	punct	_	SpaceAfter=No
+16	Fig.	fig.	NOUN	NN	Number=Sing	17	compound	_	_
+17	1B	0b	NOUN	NN	Number=Sing	6	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
+20	noting	note	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	advcl	_	_
+21	the	the	DET	DT	_	22	det	_	_
+22	presence	presence	NOUN	NN	Number=Sing	20	dobj	_	_
+23	of	of	ADP	IN	_	22	prep	_	_
+24	the	the	DET	DT	_	26	det	_	_
+25	UniGene	unigene	PROPN	NNP	Number=Sing	26	compound	_	_
+26	Cluster	cluster	PROPN	NNP	Number=Sing	23	pobj	_	_
+27	Mm.	mm.	PROPN	NNP	Number=Sing	26	appos	_	_
+28	39099	0	NUM	CD	NumType=Card	27	nummod	_	SpaceAfter=No
+29	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
+30	a	a	DET	DT	_	31	det	_	_
+31	homologue	homologue	NOUN	NN	Number=Sing	26	appos	_	_
+32	of	of	ADP	IN	_	31	prep	_	_
+33	the	the	DET	DT	_	37	det	_	_
+34	human	human	ADJ	JJ	Degree=Pos	37	amod	_	_
+35	zinc	zinc	NOUN	NN	Number=Sing	37	compound	_	_
+36	finger	finger	NOUN	NN	Number=Sing	37	compound	_	_
+37	gene	gene	NOUN	NN	Number=Sing	32	pobj	_	_
+38	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	41	punct	_	SpaceAfter=No
+39	GB	gb	NOUN	NN	Number=Sing	41	compound	_	_
+40	No.	no.	NOUN	NN	Number=Sing	41	compound	_	_
+41	AC001252	ac0	NOUN	NN	Number=Sing	37	parataxis	_	SpaceAfter=No
+42	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	41	punct	_	_
+43	that	that	DET	WDT	PronType=Int,Rel	44	dep	_	31:ref=
+44	terminates	terminate	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	relcl	_	_
+45	approximately	approximately	ADV	RB	Degree=Pos	46	advmod	_	_
+46	1.8	0	NUM	CD	NumType=Card	47	nummod	_	_
+47	kb	kb	NOUN	NN	Number=Sing	48	npadvmod	_	_
+48	before	before	ADP	IN	_	44	prep	_	_
+49	the	the	DET	DT	_	50	det	_	_
+50	start	start	NOUN	NN	Number=Sing	48	pobj	_	_
+51	of	of	ADP	IN	_	50	prep	_	_
+52	Mcoln1	mcoln0	NOUN	NN	Number=Sing	51	pobj	_	SpaceAfter=No
+53	;	;	PUNCT	:	_	26	punct	_	_
+54	and	and	CCONJ	CC	_	26	cc	_	_
+55	Nte	nte	PROPN	NNP	Number=Sing	26	conj	_	SpaceAfter=No
+56	,	,	PUNCT	,	PunctType=Comm	55	punct	_	_
+57	the	the	DET	DT	_	59	det	_	_
+58	mouse	mouse	NOUN	NN	Number=Sing	59	compound	_	_
+59	homologue	homologue	NOUN	NN	Number=Sing	55	appos	_	_
+60	of	of	ADP	IN	_	59	prep	_	_
+61	the	the	DET	DT	_	66	det	_	_
+62	human	human	ADJ	JJ	Degree=Pos	66	amod	_	_
+63	neuropathy	neuropathy	NOUN	NN	Number=Sing	65	compound	_	_
+64	target	target	NOUN	NN	Number=Sing	65	compound	_	_
+65	esterase	esterase	NOUN	NN	Number=Sing	66	compound	_	_
+66	gene	gene	NOUN	NN	Number=Sing	60	pobj	_	_
+67	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	66	punct	_	SpaceAfter=No
+68	NTE	nte	NOUN	NN	Number=Sing	66	appos	_	SpaceAfter=No
+69	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	55	punct	_	_
+70	beginning	begin	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	55	acl	_	_
+71	130	0	NUM	CD	NumType=Card	73	nummod	_	_
+72	base	base	NOUN	NN	Number=Sing	73	compound	_	_
+73	pairs	pair	NOUN	NNS	Number=Plur	74	npadvmod	_	_
+74	after	after	ADP	IN	_	70	prep	_	_
+75	the	the	DET	DT	_	77	det	_	_
+76	polyadenylation	polyadenylation	NOUN	NN	Number=Sing	77	compound	_	_
+77	signal	signal	NOUN	NN	Number=Sing	74	pobj	_	_
+78	for	for	ADP	IN	_	77	prep	_	_
+79	Mcoln1	mcoln0	NOUN	NN	Number=Sing	78	pobj	_	SpaceAfter=No
+80	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 505
+# text = The transcript map of the region surrounding Mcoln1 is similar to the corresponding region of the homologous human MCOLN1 region [15], and the presence of the zinc finger gene and Nte confirms and extends the region of synteny between human chromosome 19 and mouse chromosome 8.
+1	The	the	DET	DT	_	3	det	_	_
+2	transcript	transcript	NOUN	NN	Number=Sing	3	compound	_	_
+3	map	map	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	region	region	NOUN	NN	Number=Sing	4	pobj	_	_
+7	surrounding	surround	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	6	acl	_	_
+8	Mcoln1	mcoln0	NOUN	NN	Number=Sing	7	dobj	_	_
+9	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	similar	similar	ADJ	JJ	Degree=Pos	9	acomp	_	_
+11	to	to	ADP	IN	_	10	prep	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	corresponding	corresponding	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	region	region	NOUN	NN	Number=Sing	11	pobj	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	the	the	DET	DT	_	20	det	_	_
+17	homologous	homologous	ADJ	JJ	Degree=Pos	20	amod	_	_
+18	human	human	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	MCOLN1	mcoln0	NOUN	NN	Number=Sing	20	compound	_	_
+20	region	region	NOUN	NN	Number=Sing	15	pobj	_	_
+21	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	22	punct	_	SpaceAfter=No
+22	15	0	NUM	CD	NumType=Card	9	parataxis	_	SpaceAfter=No
+23	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+25	and	and	CCONJ	CC	_	9	cc	_	_
+26	the	the	DET	DT	_	27	det	_	_
+27	presence	presence	NOUN	NN	Number=Sing	37	nsubj	_	_
+28	of	of	ADP	IN	_	27	prep	_	_
+29	the	the	DET	DT	_	32	det	_	_
+30	zinc	zinc	NOUN	NN	Number=Sing	32	compound	_	_
+31	finger	finger	NOUN	NN	Number=Sing	32	compound	_	_
+32	gene	gene	NOUN	NN	Number=Sing	28	pobj	_	_
+33	and	and	CCONJ	CC	_	32	cc	_	_
+34	Nte	nte	NOUN	NN	Number=Sing	32	conj	_	_
+35	confirms	confirms	NOUN	NNS	Number=Plur	37	dep	_	_
+36	and	and	CCONJ	CC	_	37	cc	_	_
+37	extends	extend	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+38	the	the	DET	DT	_	39	det	_	_
+39	region	region	NOUN	NN	Number=Sing	37	dobj	_	_
+40	of	of	ADP	IN	_	39	prep	_	_
+41	synteny	synteny	NOUN	NN	Number=Sing	40	pobj	_	_
+42	between	between	ADP	IN	_	39	prep	_	_
+43	human	human	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	chromosome	chromosome	NOUN	NN	Number=Sing	42	pobj	_	_
+45	19	0	NUM	CD	NumType=Card	44	nummod	_	_
+46	and	and	CCONJ	CC	_	44	cc	_	_
+47	mouse	mouse	NOUN	NN	Number=Sing	48	compound	_	_
+48	chromosome	chromosome	NOUN	NN	Number=Sing	44	conj	_	_
+49	8	0	NUM	CD	NumType=Card	48	nummod	_	SpaceAfter=No
+50	.	.	PUNCT	.	PunctType=Peri	37	punct	_	_
+
+# newpar id = 11897010-p17
+# sent_id = 506
+# text = Characterization of Mcoln1
+1	Characterization	characterization	NOUN	NN	Number=Sing	0	root	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	Mcoln1	mcoln0	NOUN	NN	Number=Sing	2	pobj	_	_
+
+# newpar id = 11897010-p18
+# sent_id = 507
+# text = Comparison of the mouse and human peptide sequences showed 91% identity (Fig. 2).
+1	Comparison	comparison	NOUN	NN	Number=Sing	9	nsubj	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	the	the	DET	DT	_	8	det	_	_
+4	mouse	mouse	NOUN	NN	Number=Sing	8	nmod	_	_
+5	and	and	CCONJ	CC	_	4	cc	_	_
+6	human	human	ADJ	JJ	Degree=Pos	4	conj	_	_
+7	peptide	peptide	NOUN	NN	Number=Sing	8	compound	_	_
+8	sequences	sequence	NOUN	NNS	Number=Plur	2	pobj	_	_
+9	showed	show	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+10	91	0	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+11	%	%	NOUN	NN	Number=Sing	12	compound	_	_
+12	identity	identity	NOUN	NN	Number=Sing	9	dobj	_	_
+13	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	14	punct	_	SpaceAfter=No
+14	Fig.	fig.	NOUN	NN	Number=Sing	9	parataxis	_	_
+15	2	0	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	14	punct	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 508
+# text = The C. elegans homologue cup-5 shows 34% identity with Mcoln1 and BLASTP analysis of Mcoln1 identified a putative Drosophila melanogaster homologue that shows 38% identity (Fig. 2).
+1	The	the	DET	DT	_	4	det	_	_
+2	C.	c.	PROPN	NNP	Number=Sing	3	compound	_	_
+3	elegans	elegans	PROPN	NNP	Number=Sing	4	compound	_	_
+4	homologue	homologue	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	cup	cup	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+7	5	0	NUM	CD	NumType=Card	5	nummod	_	_
+8	shows	show	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	34	0	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	NOUN	NN	Number=Sing	11	compound	_	_
+11	identity	identity	NOUN	NN	Number=Sing	8	dobj	_	_
+12	with	with	ADP	IN	_	11	prep	_	_
+13	Mcoln1	mcoln0	NOUN	NN	Number=Sing	12	pobj	_	_
+14	and	and	CCONJ	CC	_	8	cc	_	_
+15	BLASTP	blastp	NOUN	NN	Number=Sing	16	compound	_	_
+16	analysis	analysis	NOUN	NN	Number=Sing	19	nsubj	_	_
+17	of	of	ADP	IN	_	16	prep	_	_
+18	Mcoln1	mcoln0	NOUN	NN	Number=Sing	17	pobj	_	_
+19	identified	identify	VERB	VBD	Tense=Past|VerbForm=Fin	8	conj	_	_
+20	a	a	DET	DT	_	24	det	_	_
+21	putative	putative	ADJ	JJ	Degree=Pos	24	amod	_	_
+22	Drosophila	drosophila	PROPN	NNP	Number=Sing	23	compound	_	_
+23	melanogaster	melanogaster	NOUN	NN	Number=Sing	24	compound	_	_
+24	homologue	homologue	NOUN	NN	Number=Sing	19	dobj	_	_
+25	that	that	DET	WDT	PronType=Int,Rel	26	dep	_	24:ref=
+26	shows	show	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	relcl	_	_
+27	38	0	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	NOUN	NN	Number=Sing	29	compound	_	_
+29	identity	identity	NOUN	NN	Number=Sing	26	dobj	_	_
+30	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	31	punct	_	SpaceAfter=No
+31	Fig.	fig.	NOUN	NN	Number=Sing	19	parataxis	_	_
+32	2	0	NUM	CD	NumType=Card	31	nummod	_	SpaceAfter=No
+33	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	31	punct	_	SpaceAfter=No
+34	.	.	PUNCT	.	PunctType=Peri	19	punct	_	_
+
+# sent_id = 509
+# text = Interestingly, two MCOLN1 amino acid substitutions that result in MLIV occur at conserved amino acids.
+1	Interestingly	interestingly	ADV	RB	Degree=Pos	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
+3	two	#crd#	NUM	CD	NumType=Card	7	nummod	_	_
+4	MCOLN1	mcoln0	NOUN	NN	Number=Sing	7	compound	_	_
+5	amino	amino	NOUN	NN	Number=Sing	6	compound	_	_
+6	acid	acid	NOUN	NN	Number=Sing	7	compound	_	_
+7	substitutions	substitution	NOUN	NNS	Number=Plur	12	nsubj	_	_
+8	that	that	DET	WDT	PronType=Int,Rel	9	dep	_	7:ref=
+9	result	result	VERB	VBP	Tense=Pres|VerbForm=Fin	7	relcl	_	_
+10	in	in	ADP	IN	_	9	prep	_	_
+11	MLIV	mliv	NOUN	NN	Number=Sing	10	pobj	_	_
+12	occur	occur	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+13	at	at	ADP	IN	_	12	prep	_	_
+14	conserved	conserve	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	16	amod	_	_
+15	amino	amino	NOUN	NN	Number=Sing	16	compound	_	_
+16	acids	acid	NOUN	NNS	Number=Plur	13	pobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	12	punct	_	_
+
+# newpar id = 11897010-p19
+# sent_id = 510
+# text = TMPred analysis  predicts a protein structure that is nearly identical to MCOLN1, containing 6 transmembrane domains with the N- and C-termini residing in the cytoplasm (Fig. 2) [9].
+1	TMPred	tmpred	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	amod	_	_
+2	analysis	analysis	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	predicts	predict	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	_	6	det	_	_
+5	protein	protein	NOUN	NN	Number=Sing	6	compound	_	_
+6	structure	structure	NOUN	NN	Number=Sing	3	dobj	_	_
+7	that	that	DET	WDT	PronType=Int,Rel	8	dep	_	6:ref=
+8	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	relcl	_	_
+9	nearly	nearly	ADV	RB	Degree=Pos	10	advmod	_	_
+10	identical	identical	ADJ	JJ	Degree=Pos	8	acomp	_	_
+11	to	to	ADP	IN	_	10	prep	_	_
+12	MCOLN1	mcoln0	NOUN	NN	Number=Sing	11	pobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+14	containing	contain	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	6	acl	_	_
+15	6	0	NUM	CD	NumType=Card	17	nummod	_	_
+16	transmembrane	transmembrane	NOUN	NN	Number=Sing	17	compound	_	_
+17	domains	domain	NOUN	NNS	Number=Plur	14	dobj	_	_
+18	with	with	ADP	IN	_	17	prep	_	_
+19	the	the	DET	DT	_	25	det	_	_
+20	N	n	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	_
+22	and	and	CCONJ	CC	_	20	cc	_	_
+23	C	c	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	23	punct	_	SpaceAfter=No
+25	termini	terminus	NOUN	NNS	Number=Plur	18	pobj	_	_
+26	residing	reside	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	25	acl	_	_
+27	in	in	ADP	IN	_	26	prep	_	_
+28	the	the	DET	DT	_	29	det	_	_
+29	cytoplasm	cytoplasm	NOUN	NN	Number=Sing	27	pobj	_	_
+30	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	31	punct	_	SpaceAfter=No
+31	Fig.	fig.	NOUN	NN	Number=Sing	3	parataxis	_	_
+32	2	0	NUM	CD	NumType=Card	31	nummod	_	SpaceAfter=No
+33	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	31	punct	_	_
+34	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	35	punct	_	SpaceAfter=No
+35	9	0	NUM	CD	NumType=Card	3	parataxis	_	SpaceAfter=No
+36	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# newpar id = 11897010-p20
+# sent_id = 511
+# text = Figure 2
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	2	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# newpar id = 11897010-p21
+# sent_id = 512
+# text = Peptide sequence comparison of Mcoln1 to human, D. melanogaster, and C. elegans (cup-5) homologues.
+1	Peptide	peptide	NOUN	NN	Number=Sing	2	compound	_	_
+2	sequence	sequence	NOUN	NN	Number=Sing	3	compound	_	_
+3	comparison	comparison	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	Mcoln1	mcoln0	NOUN	NN	Number=Sing	4	pobj	_	_
+6	to	to	ADP	IN	_	3	prep	_	_
+7	human	human	ADJ	JJ	Degree=Pos	20	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
+9	D.	d.	PROPN	NNP	Number=Sing	10	compound	_	_
+10	melanogaster	melanogaster	PROPN	NNP	Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+12	and	and	CCONJ	CC	_	10	cc	_	_
+13	C.	c.	PROPN	NNP	Number=Sing	14	compound	_	_
+14	elegans	elegans	PROPN	NNP	Number=Sing	10	conj	_	_
+15	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	14	punct	_	SpaceAfter=No
+16	cup	cup	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	5	0	NOUN	NN	Number=Sing	14	appos	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	20	punct	_	_
+20	homologues	homologue	NOUN	NNS	Number=Plur	6	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 513
+# text = Blue lines indicate transmembrane domains, the red box surrounds the putative channel pore, the orange box surrounds the putative late endosomal/lysosomal targeting signal.
+1	Blue	blue	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	lines	line	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	indicate	indicate	VERB	VBP	Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+4	transmembrane	transmembrane	NOUN	NN	Number=Sing	5	compound	_	_
+5	domains	domain	NOUN	NNS	Number=Plur	3	dobj	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=Comm	19	punct	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	red	red	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	box	box	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	surrounds	surround	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+11	the	the	DET	DT	_	14	det	_	_
+12	putative	putative	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	channel	channel	NOUN	NN	Number=Sing	14	compound	_	_
+14	pore	pore	NOUN	NN	Number=Sing	10	dobj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	19	punct	_	_
+16	the	the	DET	DT	_	18	det	_	_
+17	orange	orange	NOUN	NN	Number=Sing	18	compound	_	_
+18	box	box	NOUN	NN	Number=Sing	19	nsubj	_	_
+19	surrounds	surround	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	the	the	DET	DT	_	27	det	_	_
+21	putative	putative	ADJ	JJ	Degree=Pos	27	amod	_	_
+22	late	late	ADJ	JJ	Degree=Pos	26	amod	_	_
+23	endosomal	endosomal	ADJ	JJ	Degree=Pos	25	amod	_	SpaceAfter=No
+24	/	/	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	lysosomal	lysosomal	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	targeting	targeting	NOUN	NN	Number=Sing	27	compound	_	_
+27	signal	signal	NOUN	NN	Number=Sing	19	dobj	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	19	punct	_	_
+
+# newpar id = 11897010-p22
+# sent_id = 514
+# text = Expression analysis of Mcoln1
+1	Expression	expression	NOUN	NN	Number=Sing	2	compound	_	_
+2	analysis	analysis	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	Mcoln1	mcoln0	NOUN	NN	Number=Sing	3	pobj	_	_
+
+# newpar id = 11897010-p23
+# sent_id = 515
+# text = Mouse adult multiple tissue and embryonic Northern blots were hybridized using a probe generated from mouse exon 2 (probe 1, Fig. 1B), yielding a band of approximately 2.4 kb (isoform 1), as expected, and a less abundant and unexpected 4.4 kb band (isoform 2) (Figs. 3A &3B).
+1	Mouse	mouse	NOUN	NN	Number=Sing	4	nmod	_	_
+2	adult	adult	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	multiple	multiple	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	tissue	tissue	NOUN	NN	Number=Sing	10	nsubjpass	_	_
+5	and	and	CCONJ	CC	_	4	cc	_	_
+6	embryonic	embryonic	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	Northern	northern	PROPN	NNP	Number=Sing	8	compound	_	_
+8	blots	blot	NOUN	NNS	Number=Plur	4	conj	_	_
+9	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	10	auxpass	_	_
+10	hybridized	hybridize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+11	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	10	advcl	_	_
+12	a	a	DET	DT	_	13	det	_	_
+13	probe	probe	NOUN	NN	Number=Sing	11	dobj	_	_
+14	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	acl	_	_
+15	from	from	ADP	IN	_	14	prep	_	_
+16	mouse	mouse	NOUN	NN	Number=Sing	17	compound	_	_
+17	exon	exon	NOUN	NN	Number=Sing	15	pobj	_	_
+18	2	0	NUM	CD	NumType=Card	17	nummod	_	_
+19	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	24	punct	_	SpaceAfter=No
+20	probe	probe	NOUN	NN	Number=Sing	24	dep	_	_
+21	1	0	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+22	,	,	PUNCT	,	PunctType=Comm	24	punct	_	_
+23	Fig.	fig.	NOUN	NN	Number=Sing	24	compound	_	_
+24	1B	0b	NOUN	NN	Number=Sing	13	parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+27	yielding	yield	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	10	advcl	_	_
+28	a	a	DET	DT	_	29	det	_	_
+29	band	band	NOUN	NN	Number=Sing	27	dobj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	approximately	approximately	ADV	RB	Degree=Pos	32	advmod	_	_
+32	2.4	0	NUM	CD	NumType=Card	33	nummod	_	_
+33	kb	kb	NOUN	NNS	Number=Plur	30	pobj	_	_
+34	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	29	punct	_	SpaceAfter=No
+35	isoform	isoform	NOUN	NN	Number=Sing	29	appos	_	_
+36	1	0	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
+37	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	29	punct	_	SpaceAfter=No
+38	,	,	PUNCT	,	PunctType=Comm	29	punct	_	_
+39	as	as	ADP	IN	_	40	mark	_	_
+40	expected	expect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	29	advcl	_	SpaceAfter=No
+41	,	,	PUNCT	,	PunctType=Comm	29	punct	_	_
+42	and	and	CCONJ	CC	_	29	cc	_	_
+43	a	a	DET	DT	_	50	det	_	_
+44	less	less	ADV	RBR	Degree=Cmp	45	advmod	_	_
+45	abundant	abundant	ADJ	JJ	Degree=Pos	50	amod	_	_
+46	and	and	CCONJ	CC	_	45	cc	_	_
+47	unexpected	unexpected	ADJ	JJ	Degree=Pos	45	conj	_	_
+48	4.4	0	NUM	CD	NumType=Card	49	nummod	_	_
+49	kb	kb	NOUN	NN	Number=Sing	50	compound	_	_
+50	band	band	NOUN	NN	Number=Sing	29	conj	_	_
+51	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	50	punct	_	SpaceAfter=No
+52	isoform	isoform	NOUN	NN	Number=Sing	50	appos	_	_
+53	2	0	NUM	CD	NumType=Card	52	nummod	_	SpaceAfter=No
+54	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	27	punct	_	_
+55	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	57	punct	_	SpaceAfter=No
+56	Figs.	fig.	NOUN	NNS	Number=Plur	57	compound	_	_
+57	3A	0a	NOUN	NN	Number=Sing	27	parataxis	_	_
+58	&	&	CCONJ	CC	_	57	cc	_	SpaceAfter=No
+59	3B	0b	NOUN	NN	Number=Sing	57	conj	_	SpaceAfter=No
+60	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	57	punct	_	SpaceAfter=No
+61	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 516
+# text = The 2.4 kb band shows ubiquitous but variable expression, with the highest expression in brain, liver and kidney.
+1	The	the	DET	DT	_	4	det	_	_
+2	2.4	0	NUM	CD	NumType=Card	3	nummod	_	_
+3	kb	kb	NOUN	NN	Number=Sing	4	compound	_	_
+4	band	band	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	shows	show	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ubiquitous	ubiquitous	ADJ	JJ	Degree=Pos	9	amod	_	_
+7	but	but	CCONJ	CC	_	6	cc	_	_
+8	variable	variable	ADJ	JJ	Degree=Pos	6	conj	_	_
+9	expression	expression	NOUN	NN	Number=Sing	5	dobj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+11	with	with	ADP	IN	_	14	mark	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	highest	high	ADJ	JJS	Degree=Sup	14	amod	_	_
+14	expression	expression	NOUN	NN	Number=Sing	5	advcl	_	_
+15	in	in	ADP	IN	_	14	prep	_	_
+16	brain	brain	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
+18	liver	liver	NOUN	NN	Number=Sing	16	conj	_	_
+19	and	and	CCONJ	CC	_	18	cc	_	_
+20	kidney	kidney	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 517
+# text = The fetal tissue blot shows decreasing levels of the 2.4 kb message with increasing gestational age.
+1	The	the	DET	DT	_	4	det	_	_
+2	fetal	fetal	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	tissue	tissue	NOUN	NN	Number=Sing	4	compound	_	_
+4	blot	blot	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	shows	show	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	decreasing	decrease	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	amod	_	_
+7	levels	level	NOUN	NNS	Number=Plur	5	dobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	12	det	_	_
+10	2.4	0	NUM	CD	NumType=Card	11	nummod	_	_
+11	kb	kb	NOUN	NN	Number=Sing	12	compound	_	_
+12	message	message	NOUN	NN	Number=Sing	8	pobj	_	_
+13	with	with	ADP	IN	_	7	prep	_	_
+14	increasing	increase	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	16	amod	_	_
+15	gestational	gestational	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	age	age	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 518
+# text = Since the human MCOLN1 gene encodes a single transcript [7-9], we carried out additional hybridizations with probes generated from various regions of the coding sequence and 3' UTR, and all probes identified the same two transcripts in the mouse (data not shown).
+1	Since	since	ADP	IN	_	6	mark	_	_
+2	the	the	DET	DT	_	5	det	_	_
+3	human	human	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	MCOLN1	mcoln0	NOUN	NN	Number=Sing	5	compound	_	_
+5	gene	gene	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	encodes	encode	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	single	single	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	transcript	transcript	NOUN	NN	Number=Sing	6	dobj	_	_
+10	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	11	punct	_	SpaceAfter=No
+11	7	0	NUM	CD	NumType=Card	6	parataxis	_	SpaceAfter=No
+12	-	-	SYM	SYM	_	13	punct	_	SpaceAfter=No
+13	9	0	NUM	CD	NumType=Card	11	prep	_	SpaceAfter=No
+14	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	11	punct	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
+16	we	we	PRON	PRP	PronType=Prs	17	nsubj	_	_
+17	carried	carry	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+18	out	out	ADP	RP	PartType=Vbp	17	prt	_	_
+19	additional	additional	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	hybridizations	hybridization	NOUN	NNS	Number=Plur	17	dobj	_	_
+21	with	with	ADP	IN	_	17	prep	_	_
+22	probes	probe	NOUN	NNS	Number=Plur	21	pobj	_	_
+23	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	22	acl	_	_
+24	from	from	ADP	IN	_	23	prep	_	_
+25	various	various	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	regions	region	NOUN	NNS	Number=Plur	24	pobj	_	_
+27	of	of	ADP	IN	_	26	prep	_	_
+28	the	the	DET	DT	_	30	det	_	_
+29	coding	cod	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	30	amod	_	_
+30	sequence	sequence	NOUN	NN	Number=Sing	27	pobj	_	_
+31	and	and	CCONJ	CC	_	30	cc	_	_
+32	3	0	NUM	CD	NumType=Card	34	nummod	_	SpaceAfter=No
+33	'	'	SYM	SYM	_	32	punct	_	_
+34	UTR	utr	NOUN	NN	Number=Sing	30	conj	_	SpaceAfter=No
+35	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
+36	and	and	CCONJ	CC	_	17	cc	_	_
+37	all	all	DET	DT	_	38	det	_	_
+38	probes	probe	NOUN	NNS	Number=Plur	39	nsubj	_	_
+39	identified	identify	VERB	VBD	Tense=Past|VerbForm=Fin	17	conj	_	_
+40	the	the	DET	DT	_	43	det	_	_
+41	same	same	ADJ	JJ	Degree=Pos	43	amod	_	_
+42	two	#crd#	NUM	CD	NumType=Card	43	nummod	_	_
+43	transcripts	transcript	NOUN	NNS	Number=Plur	39	dobj	_	_
+44	in	in	ADP	IN	_	39	prep	_	_
+45	the	the	DET	DT	_	46	det	_	_
+46	mouse	mouse	NOUN	NN	Number=Sing	44	pobj	_	_
+47	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	50	punct	_	SpaceAfter=No
+48	data	datum	NOUN	NNS	Number=Plur	50	nsubj	_	_
+49	not	not	ADV	RB	Degree=Pos	50	neg	_	_
+50	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	39	parataxis	_	SpaceAfter=No
+51	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	50	punct	_	SpaceAfter=No
+52	.	.	PUNCT	.	PunctType=Peri	39	punct	_	_
+
+# sent_id = 519
+# text = In order to verify the presence of a single mouse locus, we hybridized a mouse Southern blot with the exon 2 probe.
+1	In	in	ADP	IN	_	14	prep	_	_
+2	order	order	NOUN	NN	Number=Sing	1	pobj	_	_
+3	to	to	PART	TO	PartType=Inf|VerbForm=Inf	4	aux	_	_
+4	verify	verify	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	presence	presence	NOUN	NN	Number=Sing	4	dobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	a	a	DET	DT	_	11	det	_	_
+9	single	single	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	mouse	mouse	NOUN	NN	Number=Sing	11	compound	_	_
+11	locus	locus	NOUN	NN	Number=Sing	7	pobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+13	we	we	PRON	PRP	PronType=Prs	14	nsubj	_	_
+14	hybridized	hybridize	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+15	a	a	DET	DT	_	18	det	_	_
+16	mouse	mouse	NOUN	NN	Number=Sing	18	compound	_	_
+17	Southern	southern	NOUN	NN	Number=Sing	18	compound	_	_
+18	blot	blot	NOUN	NN	Number=Sing	14	dobj	_	_
+19	with	with	ADP	IN	_	14	prep	_	_
+20	the	the	DET	DT	_	23	det	_	_
+21	exon	exon	NOUN	NN	Number=Sing	23	nmod	_	_
+22	2	0	NUM	CD	NumType=Card	21	nummod	_	_
+23	probe	probe	NOUN	NN	Number=Sing	19	pobj	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=Peri	14	punct	_	_
+
+# sent_id = 520
+# text = Four different restriction enzymes were used, and only the expected size bands for the chromosome 8 locus were detected (data not shown).
+1	Four	#crd#	NUM	CD	NumType=Card	4	nummod	_	_
+2	different	different	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	restriction	restriction	NOUN	NN	Number=Sing	4	compound	_	_
+4	enzymes	enzyme	NOUN	NNS	Number=Plur	6	nsubjpass	_	_
+5	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	6	auxpass	_	_
+6	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+8	and	and	CCONJ	CC	_	6	cc	_	_
+9	only	only	ADV	RB	Degree=Pos	13	advmod	_	_
+10	the	the	DET	DT	_	13	det	_	_
+11	expected	expect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	12	amod	_	_
+12	size	size	NOUN	NN	Number=Sing	13	compound	_	_
+13	bands	band	NOUN	NNS	Number=Plur	20	nsubjpass	_	_
+14	for	for	ADP	IN	_	13	prep	_	_
+15	the	the	DET	DT	_	18	det	_	_
+16	chromosome	chromosome	NOUN	NN	Number=Sing	18	nmod	_	_
+17	8	0	NUM	CD	NumType=Card	16	nummod	_	_
+18	locus	locus	NOUN	NN	Number=Sing	14	pobj	_	_
+19	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	20	auxpass	_	_
+20	detected	detect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	conj	_	_
+21	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	24	punct	_	SpaceAfter=No
+22	data	datum	NOUN	NNS	Number=Plur	24	nsubj	_	_
+23	not	not	ADV	RB	Degree=Pos	24	neg	_	_
+24	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	20	parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=Peri	20	punct	_	_
+
+# newpar id = 11897010-p24
+# sent_id = 521
+# text = Figure 3
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	3	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# newpar id = 11897010-p25
+# sent_id = 522
+# text = Northern analysis of Mcoln1.
+1	Northern	northern	PROPN	NNP	Number=Sing	2	compound	_	_
+2	analysis	analysis	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	Mcoln1	mcoln0	NOUN	NN	Number=Sing	3	pobj	_	SpaceAfter=No
+5	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 523
+# text = (A) Mouse fetal tissue Northern and (B) mouse multiple tissue Northern blots (Clontech) hybridized with a probe generated from exon 2 (probe 1, Fig. 1B).
+1	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	A	a	X	LS	NumType=Ord	7	meta	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+4	Mouse	mouse	NOUN	NN	Number=Sing	6	nmod	_	_
+5	fetal	fetal	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	tissue	tissue	NOUN	NN	Number=Sing	7	nmod	_	_
+7	Northern	northern	NOUN	NN	Number=Sing	16	nmod	_	_
+8	and	and	CCONJ	CC	_	7	cc	_	_
+9	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	10	punct	_	SpaceAfter=No
+10	B	b	X	LS	NumType=Ord	15	meta	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	10	punct	_	_
+12	mouse	mouse	NOUN	NN	Number=Sing	14	nmod	_	_
+13	multiple	multiple	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	tissue	tissue	NOUN	NN	Number=Sing	15	compound	_	_
+15	Northern	northern	NOUN	NN	Number=Sing	7	conj	_	_
+16	blots	blot	NOUN	NNS	Number=Plur	20	nsubj	_	_
+17	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	18	punct	_	SpaceAfter=No
+18	Clontech	clontech	NOUN	NN	Number=Sing	16	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	18	punct	_	_
+20	hybridized	hybridize	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+21	with	with	ADP	IN	_	20	prep	_	_
+22	a	a	DET	DT	_	23	det	_	_
+23	probe	probe	NOUN	NN	Number=Sing	21	pobj	_	_
+24	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	23	acl	_	_
+25	from	from	ADP	IN	_	24	prep	_	_
+26	exon	exon	NOUN	NN	Number=Sing	25	pobj	_	_
+27	2	0	NUM	CD	NumType=Card	26	nummod	_	_
+28	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+29	probe	probe	NOUN	NN	Number=Sing	33	dep	_	_
+30	1	0	NUM	CD	NumType=Card	29	nummod	_	SpaceAfter=No
+31	,	,	PUNCT	,	PunctType=Comm	33	punct	_	_
+32	Fig.	fig.	NOUN	NN	Number=Sing	33	compound	_	_
+33	1B	0b	NOUN	NN	Number=Sing	20	parataxis	_	SpaceAfter=No
+34	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=Peri	20	punct	_	_
+
+# sent_id = 524
+# text = (C) Hybridization of the multiple tissue blot with a probe from the alternatively spliced segment of exon 13 (probe 2, Fig. 1B).
+1	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	C	c	X	LS	NumType=Ord	4	meta	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+4	Hybridization	hybridization	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	9	det	_	_
+7	multiple	multiple	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	tissue	tissue	NOUN	NN	Number=Sing	9	compound	_	_
+9	blot	blot	NOUN	NN	Number=Sing	5	pobj	_	_
+10	with	with	ADP	IN	_	4	prep	_	_
+11	a	a	DET	DT	_	12	det	_	_
+12	probe	probe	NOUN	NN	Number=Sing	10	pobj	_	_
+13	from	from	ADP	IN	_	12	prep	_	_
+14	the	the	DET	DT	_	17	det	_	_
+15	alternatively	alternatively	ADV	RB	Degree=Pos	16	advmod	_	_
+16	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	17	amod	_	_
+17	segment	segment	NOUN	NN	Number=Sing	13	pobj	_	_
+18	of	of	ADP	IN	_	17	prep	_	_
+19	exon	exon	NOUN	NN	Number=Sing	18	pobj	_	_
+20	13	0	NUM	CD	NumType=Card	19	nummod	_	_
+21	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	26	punct	_	SpaceAfter=No
+22	probe	probe	NOUN	NN	Number=Sing	26	dep	_	_
+23	2	0	NUM	CD	NumType=Card	22	nummod	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
+25	Fig.	fig.	NOUN	NN	Number=Sing	26	compound	_	_
+26	1B	0b	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 525
+# text = β-Actin control hybridization is shown below each blot.
+1	β	β	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+3	Actin	actin	NOUN	NN	Number=Sing	5	compound	_	_
+4	control	control	NOUN	NN	Number=Sing	5	compound	_	_
+5	hybridization	hybridization	NOUN	NN	Number=Sing	7	nsubjpass	_	_
+6	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	auxpass	_	_
+7	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	below	below	ADP	IN	_	7	prep	_	_
+9	each	each	DET	DT	_	10	det	_	_
+10	blot	blot	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# newpar id = 11897010-p26
+# sent_id = 526
+# text = Characterization of the Mcoln1 alternative splice variant
+1	Characterization	characterization	NOUN	NN	Number=Sing	0	root	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	Mcoln1	mcoln0	NOUN	NN	Number=Sing	7	nmod	_	_
+5	alternative	alternative	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	splice	splice	NOUN	NN	Number=Sing	7	compound	_	_
+7	variant	variant	NOUN	NN	Number=Sing	2	pobj	_	_
+
+# newpar id = 11897010-p27
+# sent_id = 527
+# text = In order to determine the coding sequence for the larger transcript, we searched the mouse EST database using each intron as well as the genomic sequence flanking the Mcoln1 gene.
+1	In	in	ADP	IN	_	14	prep	_	_
+2	order	order	NOUN	NN	Number=Sing	1	pobj	_	_
+3	to	to	PART	TO	PartType=Inf|VerbForm=Inf	4	aux	_	_
+4	determine	determine	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	coding	cod	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	amod	_	_
+7	sequence	sequence	NOUN	NN	Number=Sing	4	dobj	_	_
+8	for	for	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	larger	large	ADJ	JJR	Degree=Cmp	11	amod	_	_
+11	transcript	transcript	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+13	we	we	PRON	PRP	PronType=Prs	14	nsubj	_	_
+14	searched	search	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+15	the	the	DET	DT	_	18	det	_	_
+16	mouse	mouse	NOUN	NN	Number=Sing	17	compound	_	_
+17	EST	est	NOUN	NN	Number=Sing	18	compound	_	_
+18	database	database	NOUN	NN	Number=Sing	14	dobj	_	_
+19	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	14	advcl	_	_
+20	each	each	DET	DT	_	21	det	_	_
+21	intron	intron	NOUN	NN	Number=Sing	19	dobj	_	_
+22	as	as	ADV	RB	Degree=Pos	24	advmod	_	_
+23	well	well	ADV	RB	Degree=Pos	24	advmod	_	_
+24	as	as	ADP	IN	_	21	cc	_	_
+25	the	the	DET	DT	_	27	det	_	_
+26	genomic	genomic	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	sequence	sequence	NOUN	NN	Number=Sing	21	conj	_	_
+28	flanking	flank	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	27	acl	_	_
+29	the	the	DET	DT	_	31	det	_	_
+30	Mcoln1	mcoln0	NOUN	NN	Number=Sing	31	compound	_	_
+31	gene	gene	NOUN	NN	Number=Sing	28	dobj	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=Peri	14	punct	_	_
+
+# sent_id = 528
+# text = Two ESTs were identified that contained sequence from intron 12 (GB No. AI430291 and AA874645), and the corresponding clones were sequenced.
+1	Two	#crd#	NUM	CD	NumType=Card	2	nummod	_	_
+2	ESTs	est	NOUN	NNS	Number=Plur	4	nsubjpass	_	_
+3	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	DET	WDT	PronType=Int,Rel	6	dep	_	_
+6	contained	contain	VERB	VBD	Tense=Past|VerbForm=Fin	4	ccomp	_	_
+7	sequence	sequence	NOUN	NN	Number=Sing	6	dobj	_	_
+8	from	from	ADP	IN	_	7	prep	_	_
+9	intron	intron	NOUN	NN	Number=Sing	8	pobj	_	_
+10	12	0	NUM	CD	NumType=Card	9	nummod	_	_
+11	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	14	punct	_	SpaceAfter=No
+12	GB	gb	NOUN	NN	Number=Sing	14	compound	_	_
+13	No.	no.	NOUN	NN	Number=Sing	14	compound	_	_
+14	AI430291	ai0	NOUN	NN	Number=Sing	4	parataxis	_	_
+15	and	and	CCONJ	CC	_	14	cc	_	_
+16	AA874645	aa0	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	14	punct	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+19	and	and	CCONJ	CC	_	4	cc	_	_
+20	the	the	DET	DT	_	22	det	_	_
+21	corresponding	corresponding	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	clones	clone	NOUN	NNS	Number=Plur	24	nsubjpass	_	_
+23	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	24	auxpass	_	_
+24	sequenced	sequence	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	24	punct	_	_
+
+# sent_id = 529
+# text = Clone 408619 (ESTs: GB No. AI430291, AI429558) begins approximately 1.1 kb before exon 13 and continues through the exon and splices correctly to exon 14.
+1	Clone	clone	NOUN	NN	Number=Sing	12	nsubj	_	_
+2	408619	0	NUM	CD	NumType=Card	1	nummod	_	_
+3	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	10	punct	_	SpaceAfter=No
+4	ESTs	est	NOUN	NNS	Number=Plur	10	dep	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	10	punct	_	_
+6	GB	gb	NOUN	NN	Number=Sing	10	nmod	_	_
+7	No.	no.	NOUN	NN	Number=Sing	10	nmod	_	_
+8	AI430291	ai0	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+10	AI429558	ai0	NOUN	NN	Number=Sing	1	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	10	punct	_	_
+12	begins	begin	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	approximately	approximately	ADV	RB	Degree=Pos	14	advmod	_	_
+14	1.1	0	NUM	CD	NumType=Card	15	nummod	_	_
+15	kb	kb	NOUN	NNS	Number=Plur	16	npadvmod	_	_
+16	before	before	ADP	IN	_	12	prep	_	_
+17	exon	exon	NOUN	NN	Number=Sing	16	pobj	_	_
+18	13	0	NUM	CD	NumType=Card	17	nummod	_	_
+19	and	and	CCONJ	CC	_	12	cc	_	_
+20	continues	continue	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+21	through	through	ADP	IN	_	20	prep	_	_
+22	the	the	DET	DT	_	23	det	_	_
+23	exon	exon	NOUN	NN	Number=Sing	21	pobj	_	_
+24	and	and	CCONJ	CC	_	20	cc	_	_
+25	splices	splice	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+26	correctly	correctly	ADV	RB	Degree=Pos	25	advmod	_	_
+27	to	to	ADP	IN	_	25	prep	_	_
+28	exon	exon	NOUN	NN	Number=Sing	27	pobj	_	_
+29	14	0	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	12	punct	_	_
+
+# sent_id = 530
+# text = Clone 1281641 (EST:GB No. AA874645) begins 175 bp before exon 13 and also splices correctly to exon 14.
+1	Clone	clone	NOUN	NN	Number=Sing	10	nsubj	_	_
+2	1281641	0	NUM	CD	NumType=Card	1	nummod	_	_
+3	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	8	punct	_	SpaceAfter=No
+4	EST	est	NOUN	NN	Number=Sing	8	dep	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	8	punct	_	SpaceAfter=No
+6	GB	gb	NOUN	NN	Number=Sing	8	compound	_	_
+7	No.	no.	NOUN	NN	Number=Sing	8	compound	_	_
+8	AA874645	aa0	NOUN	NN	Number=Sing	1	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	8	punct	_	_
+10	begins	begin	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	175	0	NUM	CD	NumType=Card	12	nummod	_	_
+12	bp	bp	NOUN	NNS	Number=Plur	13	npadvmod	_	_
+13	before	before	ADP	IN	_	10	prep	_	_
+14	exon	exon	NOUN	NN	Number=Sing	13	pobj	_	_
+15	13	0	NUM	CD	NumType=Card	14	nummod	_	_
+16	and	and	CCONJ	CC	_	10	cc	_	_
+17	also	also	ADV	RB	Degree=Pos	18	advmod	_	_
+18	splices	splice	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+19	correctly	correctly	ADV	RB	Degree=Pos	18	advmod	_	_
+20	to	to	ADP	IN	_	18	prep	_	_
+21	exon	exon	NOUN	NN	Number=Sing	20	pobj	_	_
+22	14	0	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 531
+# text = A mouse multiple tissue Northern was hybridized using a probe generated from the putative intron sequence in clone 408619 (Probe 2, Fig. 1B), which detected only the 4.4 kb band (Fig. 3C).
+1	A	a	DET	DT	_	5	det	_	_
+2	mouse	mouse	NOUN	NN	Number=Sing	5	nmod	_	_
+3	multiple	multiple	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	tissue	tissue	NOUN	NN	Number=Sing	5	compound	_	_
+5	Northern	northern	PROPN	NNP	Number=Sing	7	nsubjpass	_	_
+6	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	7	auxpass	_	_
+7	hybridized	hybridize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	advcl	_	_
+9	a	a	DET	DT	_	10	det	_	_
+10	probe	probe	NOUN	NN	Number=Sing	8	dobj	_	_
+11	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	acl	_	_
+12	from	from	ADP	IN	_	11	prep	_	_
+13	the	the	DET	DT	_	16	det	_	_
+14	putative	putative	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	intron	intron	NOUN	NN	Number=Sing	16	compound	_	_
+16	sequence	sequence	NOUN	NN	Number=Sing	12	pobj	_	_
+17	in	in	ADP	IN	_	16	prep	_	_
+18	clone	clone	NOUN	NN	Number=Sing	17	pobj	_	_
+19	408619	0	NUM	CD	NumType=Card	18	nummod	_	_
+20	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	25	punct	_	SpaceAfter=No
+21	Probe	probe	NOUN	NN	Number=Sing	25	dep	_	_
+22	2	0	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=Comm	25	punct	_	_
+24	Fig.	fig.	PROPN	NNP	Number=Sing	25	compound	_	_
+25	1B	0b	NOUN	NN	Number=Sing	10	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+28	which	which	DET	WDT	PronType=Int,Rel	29	dep	_	10:ref=
+29	detected	detect	VERB	VBD	Tense=Past|VerbForm=Fin	10	relcl	_	_
+30	only	only	ADV	RB	Degree=Pos	34	advmod	_	_
+31	the	the	DET	DT	_	34	det	_	_
+32	4.4	0	NUM	CD	NumType=Card	33	nummod	_	_
+33	kb	kb	NOUN	NN	Number=Sing	34	compound	_	_
+34	band	band	NOUN	NN	Number=Sing	29	dobj	_	_
+35	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	37	punct	_	SpaceAfter=No
+36	Fig.	fig.	NOUN	NN	Number=Sing	37	compound	_	_
+37	3C	0c	NOUN	NN	Number=Sing	29	parataxis	_	SpaceAfter=No
+38	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# newpar id = 11897010-p28
+# sent_id = 532
+# text = In order to determine the sequence of the entire transcript, RT-PCR using primers in exons 10 and 11 paired with a primer in intron 12 was performed using BALB/c mouse brain total RNA and the resulting products sequenced.
+1	In	in	ADP	IN	_	30	prep	_	_
+2	order	order	NOUN	NN	Number=Sing	1	pobj	_	_
+3	to	to	PART	TO	PartType=Inf|VerbForm=Inf	4	aux	_	_
+4	determine	determine	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	sequence	sequence	NOUN	NN	Number=Sing	4	dobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	entire	entire	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	transcript	transcript	NOUN	NN	Number=Sing	7	pobj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	30	punct	_	_
+12	RT	rt	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+14	PCR	pcr	NOUN	NN	Number=Sing	30	nsubjpass	_	14:gap=
+15	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	14	acl	_	_
+16	primers	primer	NOUN	NNS	Number=Plur	15	dobj	_	_
+17	in	in	ADP	IN	_	16	prep	_	_
+18	exons	exon	NOUN	NNS	Number=Plur	19	nmod	_	_
+19	10	0	NUM	CD	NumType=Card	17	pobj	_	_
+20	and	and	CCONJ	CC	_	19	cc	_	_
+21	11	0	NUM	CD	NumType=Card	19	conj	_	_
+22	paired	pair	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	16	acl	_	_
+23	with	with	ADP	IN	_	22	prep	_	_
+24	a	a	DET	DT	_	25	det	_	_
+25	primer	primer	NOUN	NN	Number=Sing	23	pobj	_	_
+26	in	in	ADP	IN	_	25	prep	_	_
+27	intron	intron	NOUN	NN	Number=Sing	26	pobj	_	_
+28	12	0	NUM	CD	NumType=Card	27	nummod	_	_
+29	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	30	auxpass	_	_
+30	performed	performed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	30:gap=
+31	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	30	advcl	_	_
+32	BALB	balb	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+33	/	/	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+34	c	c	NOUN	NN	Number=Sing	35	nmod	_	_
+35	mouse	mouse	NOUN	NN	Number=Sing	36	nmod	_	_
+36	brain	brain	NOUN	NN	Number=Sing	38	nmod	_	_
+37	total	total	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	RNA	rna	NOUN	NN	Number=Sing	31	dobj	_	_
+39	and	and	CCONJ	CC	_	30	cc	_	_
+40	the	the	DET	DT	_	42	det	_	_
+41	resulting	result	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	42	amod	_	_
+42	products	product	NOUN	NNS	Number=Plur	43	nsubj	_	14:gap=
+43	sequenced	sequence	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	30	conj	_	30:gap=|SpaceAfter=No
+44	.	.	PUNCT	.	PunctType=Peri	30	punct	_	_
+
+# sent_id = 533
+# text = These products show that the larger transcript is due to an alternative splice event that results in an expanded exon 13.
+1	These	these	DET	DT	_	2	det	_	_
+2	products	product	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	show	show	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	ADP	IN	_	8	mark	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	larger	large	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	transcript	transcript	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	due	due	ADP	IN	_	8	prep	_	_
+10	to	to	ADP	IN	_	9	pcomp	_	_
+11	an	an	DET	DT	_	14	det	_	_
+12	alternative	alternative	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	splice	splice	NOUN	NN	Number=Sing	14	compound	_	_
+14	event	event	NOUN	NN	Number=Sing	9	pobj	_	_
+15	that	that	DET	WDT	PronType=Int,Rel	16	dep	_	14:ref=
+16	results	result	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	relcl	_	_
+17	in	in	ADP	IN	_	16	prep	_	_
+18	an	an	DET	DT	_	20	det	_	_
+19	expanded	expand	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	20	amod	_	_
+20	exon	exon	NOUN	NN	Number=Sing	17	pobj	_	_
+21	13	0	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 534
+# text = Specifically, exon 12 splices at bp 436 of intron 12, creating a large 1614 bp exon 13 that splices correctly to exon 14.
+1	Specifically	specifically	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+3	exon	exon	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	12	0	NUM	CD	NumType=Card	3	nummod	_	_
+5	splices	splice	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	at	at	ADP	IN	_	5	prep	_	_
+7	bp	bp	NOUN	NN	Number=Sing	6	pobj	_	_
+8	436	0	NUM	CD	NumType=Card	7	nummod	_	_
+9	of	of	ADP	IN	_	7	prep	_	_
+10	intron	intron	NOUN	NN	Number=Sing	9	pobj	_	_
+11	12	0	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+13	creating	create	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	5	advcl	_	_
+14	a	a	DET	DT	_	18	det	_	_
+15	large	large	ADJ	JJ	Degree=Pos	18	amod	_	_
+16	1614	0	NUM	CD	NumType=Card	17	nummod	_	_
+17	bp	bp	NOUN	NN	Number=Sing	18	compound	_	_
+18	exon	exon	NOUN	NN	Number=Sing	13	dobj	_	_
+19	13	0	NUM	CD	NumType=Card	18	nummod	_	_
+20	that	that	DET	WDT	PronType=Int,Rel	21	dep	_	18:ref=
+21	splices	splice	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	relcl	_	_
+22	correctly	correctly	ADV	RB	Degree=Pos	21	advmod	_	_
+23	to	to	ADP	IN	_	21	prep	_	_
+24	exon	exon	NOUN	NN	Number=Sing	23	pobj	_	_
+25	14	0	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 535
+# text = The open reading frame of this alternatively spliced transcript is 611 amino acids, 28 amino acids longer than the message encoded by the 2.4 kb transcript.
+1	The	the	DET	DT	_	4	det	_	_
+2	open	open	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	reading	reading	NOUN	NN	Number=Sing	4	compound	_	_
+4	frame	frame	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	this	this	DET	DT	_	9	det	_	_
+7	alternatively	alternatively	ADV	RB	Degree=Pos	8	advmod	_	_
+8	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	amod	_	_
+9	transcript	transcript	NOUN	NN	Number=Sing	5	pobj	_	_
+10	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	611	0	NUM	CD	NumType=Card	13	nummod	_	_
+12	amino	amino	NOUN	NN	Number=Sing	13	compound	_	_
+13	acids	acid	NOUN	NNS	Number=Plur	10	attr	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
+15	28	0	NUM	CD	NumType=Card	17	nummod	_	_
+16	amino	amino	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	acids	acid	NOUN	NNS	Number=Plur	18	npadvmod	_	_
+18	longer	long	ADJ	JJR	Degree=Cmp	13	amod	_	_
+19	than	than	ADP	IN	_	18	prep	_	_
+20	the	the	DET	DT	_	21	det	_	_
+21	message	message	NOUN	NN	Number=Sing	19	pobj	_	_
+22	encoded	encode	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	21	acl	_	_
+23	by	by	ADP	IN	_	22	agent	_	_
+24	the	the	DET	DT	_	27	det	_	_
+25	2.4	0	NUM	CD	NumType=Card	26	nummod	_	_
+26	kb	kb	NOUN	NN	Number=Sing	27	compound	_	_
+27	transcript	transcript	NOUN	NN	Number=Sing	23	pobj	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# newpar id = 11897010-p29
+# sent_id = 536
+# text = TMPred analysis predicts that isoform 2 encodes a protein identical in structure to Mcoln1, possessing 6 transmembrane domains and a channel pore, however the protein sequences diverge at amino acid 526.
+1	TMPred	tmpred	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	amod	_	_
+2	analysis	analysis	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	predicts	predict	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
+4	that	that	ADP	IN	_	7	mark	_	_
+5	isoform	isoform	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	2	0	NUM	CD	NumType=Card	5	nummod	_	_
+7	encodes	encode	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	a	a	DET	DT	_	9	det	_	_
+9	protein	protein	NOUN	NN	Number=Sing	7	dobj	_	_
+10	identical	identical	ADJ	JJ	Degree=Pos	9	amod	_	_
+11	in	in	ADP	IN	_	10	prep	_	_
+12	structure	structure	NOUN	NN	Number=Sing	11	pobj	_	_
+13	to	to	ADP	IN	_	10	prep	_	_
+14	Mcoln1	mcoln0	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+16	possessing	possess	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	9	acl	_	_
+17	6	0	NUM	CD	NumType=Card	19	nummod	_	_
+18	transmembrane	transmembrane	NOUN	NN	Number=Sing	19	compound	_	_
+19	domains	domain	NOUN	NNS	Number=Plur	16	dobj	_	_
+20	and	and	CCONJ	CC	_	19	cc	_	_
+21	a	a	DET	DT	_	23	det	_	_
+22	channel	channel	NOUN	NN	Number=Sing	23	compound	_	_
+23	pore	pore	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=Comm	29	punct	_	_
+25	however	however	ADV	RB	Degree=Pos	29	advmod	_	_
+26	the	the	DET	DT	_	28	det	_	_
+27	protein	protein	NOUN	NN	Number=Sing	28	compound	_	_
+28	sequences	sequence	NOUN	NNS	Number=Plur	29	nsubj	_	_
+29	diverge	diverge	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+30	at	at	ADP	IN	_	29	prep	_	_
+31	amino	amino	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	acid	acid	NOUN	NN	Number=Sing	30	pobj	_	_
+33	526	0	NUM	CD	NumType=Card	32	nummod	_	SpaceAfter=No
+34	.	.	PUNCT	.	PunctType=Peri	29	punct	_	_
+
+# sent_id = 537
+# text = The 55 amino acid C-terminal cytoplasmic tail encoded by the 2.4 kb transcript is completely different from the 86 amino acid tail encoded by the murine specific 4.4 kb transcript (Fig. 4).
+1	The	the	DET	DT	_	9	det	_	_
+2	55	0	NUM	CD	NumType=Card	4	nummod	_	_
+3	amino	amino	NOUN	NN	Number=Sing	4	nmod	_	_
+4	acid	acid	NOUN	NN	Number=Sing	9	nmod	_	_
+5	C	c	NOUN	NN	Number=Sing	7	npadvmod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+7	terminal	terminal	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	cytoplasmic	cytoplasmic	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	tail	tail	NOUN	NN	Number=Sing	16	nsubj	_	_
+10	encoded	encode	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	acl	_	_
+11	by	by	ADP	IN	_	10	agent	_	_
+12	the	the	DET	DT	_	15	det	_	_
+13	2.4	0	NUM	CD	NumType=Card	14	nummod	_	_
+14	kb	kb	NOUN	NN	Number=Sing	15	compound	_	_
+15	transcript	transcript	NOUN	NN	Number=Sing	11	pobj	_	_
+16	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	completely	completely	ADV	RB	Degree=Pos	18	advmod	_	_
+18	different	different	ADJ	JJ	Degree=Pos	16	acomp	_	_
+19	from	from	ADP	IN	_	18	prep	_	_
+20	the	the	DET	DT	_	24	det	_	_
+21	86	0	NUM	CD	NumType=Card	23	nummod	_	_
+22	amino	amino	NOUN	NN	Number=Sing	23	compound	_	_
+23	acid	acid	NOUN	NN	Number=Sing	24	compound	_	_
+24	tail	tail	NOUN	NN	Number=Sing	19	pobj	_	_
+25	encoded	encode	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	24	acl	_	_
+26	by	by	ADP	IN	_	25	agent	_	_
+27	the	the	DET	DT	_	32	det	_	_
+28	murine	murine	NOUN	NN	Number=Sing	29	npadvmod	_	_
+29	specific	specific	ADJ	JJ	Degree=Pos	32	amod	_	_
+30	4.4	0	NUM	CD	NumType=Card	31	nummod	_	_
+31	kb	kb	NOUN	NN	Number=Sing	32	compound	_	_
+32	transcript	transcript	NOUN	NN	Number=Sing	26	pobj	_	_
+33	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	34	punct	_	SpaceAfter=No
+34	Fig.	fig.	NOUN	NN	Number=Sing	16	parataxis	_	_
+35	4	0	NUM	CD	NumType=Card	34	nummod	_	SpaceAfter=No
+36	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	34	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=Peri	16	punct	_	_
+
+# sent_id = 538
+# text = Clontech Mouse RNA Master Blots were hybridized with the exon 2 and intron 12 probes mentioned above in an attempt to determine if these two transcripts showed differences in expression patterns, however, there was no significant difference in the 22 tissues represented (data not shown).
+1	Clontech	clontech	PROPN	NNP	Number=Sing	5	compound	_	_
+2	Mouse	mouse	PROPN	NNP	Number=Sing	3	compound	_	_
+3	RNA	rna	PROPN	NNP	Number=Sing	5	compound	_	_
+4	Master	master	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Blots	blot	PROPN	NNPS	Number=Plur	7	nsubjpass	_	_
+6	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	7	auxpass	_	_
+7	hybridized	hybridize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	36	ccomp	_	_
+8	with	with	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	15	det	_	_
+10	exon	exon	NOUN	NN	Number=Sing	15	nmod	_	_
+11	2	0	NUM	CD	NumType=Card	10	nummod	_	_
+12	and	and	CCONJ	CC	_	10	cc	_	_
+13	intron	intron	NOUN	NN	Number=Sing	10	conj	_	_
+14	12	0	NUM	CD	NumType=Card	13	nummod	_	_
+15	probes	probe	NOUN	NNS	Number=Plur	8	pobj	_	_
+16	mentioned	mention	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	15	acl	_	_
+17	above	above	ADV	RB	Degree=Pos	16	advmod	_	_
+18	in	in	ADP	IN	_	7	prep	_	_
+19	an	an	DET	DT	_	20	det	_	_
+20	attempt	attempt	NOUN	NN	Number=Sing	18	pobj	_	_
+21	to	to	PART	TO	PartType=Inf|VerbForm=Inf	22	aux	_	_
+22	determine	determine	VERB	VB	VerbForm=Inf	20	acl	_	_
+23	if	if	ADP	IN	_	27	mark	_	_
+24	these	these	DET	DT	_	26	det	_	_
+25	two	#crd#	NUM	CD	NumType=Card	26	nummod	_	_
+26	transcripts	transcript	NOUN	NNS	Number=Plur	27	nsubj	_	_
+27	showed	show	VERB	VBD	Tense=Past|VerbForm=Fin	22	ccomp	_	_
+28	differences	difference	NOUN	NNS	Number=Plur	27	dobj	_	_
+29	in	in	ADP	IN	_	28	prep	_	_
+30	expression	expression	NOUN	NN	Number=Sing	31	compound	_	_
+31	patterns	pattern	NOUN	NNS	Number=Plur	29	pobj	_	SpaceAfter=No
+32	,	,	PUNCT	,	PunctType=Comm	36	punct	_	_
+33	however	however	ADV	RB	Degree=Pos	36	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	PunctType=Comm	36	punct	_	_
+35	there	there	PRON	EX	AdvType=Ex	36	expl	_	_
+36	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+37	no	no	DET	DT	_	39	det	_	_
+38	significant	significant	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	difference	difference	NOUN	NN	Number=Sing	36	attr	_	_
+40	in	in	ADP	IN	_	36	prep	_	_
+41	the	the	DET	DT	_	43	det	_	_
+42	22	0	NUM	CD	NumType=Card	43	nummod	_	_
+43	tissues	tissue	NOUN	NNS	Number=Plur	40	pobj	_	_
+44	represented	represented	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	43	acl	_	_
+45	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	48	punct	_	SpaceAfter=No
+46	data	datum	NOUN	NNS	Number=Plur	48	nsubj	_	_
+47	not	not	ADV	RB	Degree=Pos	48	neg	_	_
+48	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	36	parataxis	_	SpaceAfter=No
+49	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	48	punct	_	SpaceAfter=No
+50	.	.	PUNCT	.	PunctType=Peri	36	punct	_	_
+
+# newpar id = 11897010-p30
+# sent_id = 539
+# text = Figure 4
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	4	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# newpar id = 11897010-p31
+# sent_id = 540
+# text = Peptide sequence comparison of the two alternatively spliced Mcoln1 isoforms.
+1	Peptide	peptide	NOUN	NN	Number=Sing	2	compound	_	_
+2	sequence	sequence	NOUN	NN	Number=Sing	3	compound	_	_
+3	comparison	comparison	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	10	det	_	_
+6	two	#crd#	NUM	CD	NumType=Card	10	nummod	_	_
+7	alternatively	alternatively	ADV	RB	Degree=Pos	8	advmod	_	_
+8	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	amod	_	_
+9	Mcoln1	mcoln0	NOUN	NN	Number=Sing	10	compound	_	_
+10	isoforms	isoforms	NOUN	NNS	Number=Plur	4	pobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 541
+# text = The green box surrounds the divergent c-terminal cytoplasmic tails.
+1	The	the	DET	DT	_	3	det	_	_
+2	green	green	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	box	box	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	surrounds	surround	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	_	11	det	_	_
+6	divergent	divergent	ADJ	JJ	Degree=Pos	11	amod	_	_
+7	c	c	NOUN	NN	Number=Sing	9	npadvmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	terminal	terminal	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	cytoplasmic	cytoplasmic	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	tails	tail	NOUN	NNS	Number=Plur	4	dobj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 542
+# text = The blue lines indicate the transmembrane domains.
+1	The	the	DET	DT	_	3	det	_	_
+2	blue	blue	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	lines	line	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	indicate	indicate	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	transmembrane	transmembrane	NOUN	NN	Number=Sing	7	compound	_	_
+7	domains	domain	NOUN	NNS	Number=Plur	4	dobj	_	SpaceAfter=No
+8	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# newpar id = 11897010-p32
+# sent_id = 543
+# text = Next, we directly compared the nucleotide and amino acid sequence of the alternatively spliced mouse transcript to the entire human MCOLN1 genomic sequence and found no significant similarity.
+1	Next	next	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+3	we	we	PRON	PRP	PronType=Prs	5	nsubj	_	_
+4	directly	directly	ADV	RB	Degree=Pos	5	advmod	_	_
+5	compared	compare	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	_	11	det	_	_
+7	nucleotide	nucleotide	NOUN	NN	Number=Sing	11	nmod	_	_
+8	and	and	CCONJ	CC	_	7	cc	_	_
+9	amino	amino	NOUN	NN	Number=Sing	10	compound	_	_
+10	acid	acid	NOUN	NN	Number=Sing	7	conj	_	_
+11	sequence	sequence	NOUN	NN	Number=Sing	5	dobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	the	the	DET	DT	_	17	det	_	_
+14	alternatively	alternatively	ADV	RB	Degree=Pos	15	advmod	_	_
+15	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	17	amod	_	_
+16	mouse	mouse	NOUN	NN	Number=Sing	17	compound	_	_
+17	transcript	transcript	NOUN	NN	Number=Sing	12	pobj	_	_
+18	to	to	ADP	IN	_	5	prep	_	_
+19	the	the	DET	DT	_	24	det	_	_
+20	entire	entire	ADJ	JJ	Degree=Pos	24	amod	_	_
+21	human	human	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	MCOLN1	mcoln0	NOUN	NN	Number=Sing	24	nmod	_	_
+23	genomic	genomic	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	sequence	sequence	NOUN	NN	Number=Sing	18	pobj	_	_
+25	and	and	CCONJ	CC	_	5	cc	_	_
+26	found	find	VERB	VBD	Tense=Past|VerbForm=Fin	5	conj	_	_
+27	no	no	DET	DT	_	29	det	_	_
+28	significant	significant	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	similarity	similarity	NOUN	NN	Number=Sing	26	dobj	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 544
+# text = As mentioned previously, Northern blots performed with human MCOLN1 probes show only one 2.4 kb transcript.
+1	As	as	ADP	IN	_	2	mark	_	_
+2	mentioned	mention	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	12	advcl	_	_
+3	previously	previously	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
+5	Northern	northern	PROPN	NNP	Number=Sing	6	compound	_	_
+6	blots	blot	NOUN	NNS	Number=Plur	12	nsubj	_	_
+7	performed	performed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	acl	_	_
+8	with	with	ADP	IN	_	7	prep	_	_
+9	human	human	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	MCOLN1	mcoln0	NOUN	NN	Number=Sing	11	compound	_	_
+11	probes	probe	NOUN	NNS	Number=Plur	8	pobj	_	_
+12	show	show	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+13	only	only	ADV	RB	Degree=Pos	17	advmod	_	_
+14	one	#crd#	NUM	CD	NumType=Card	17	nummod	_	_
+15	2.4	0	NUM	CD	NumType=Card	16	nummod	_	_
+16	kb	kb	NOUN	NN	Number=Sing	17	compound	_	_
+17	transcript	transcript	NOUN	NN	Number=Sing	12	dobj	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	12	punct	_	_
+
+# sent_id = 545
+# text = In addition, we hybridized a human multiple tissue Northern and human Southern with a probe in human intron 12 that is adjacent to exon 13.
+1	In	in	ADP	IN	_	5	prep	_	_
+2	addition	addition	NOUN	NN	Number=Sing	1	pobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+4	we	we	PRON	PRP	PronType=Prs	5	nsubj	_	_
+5	hybridized	hybridize	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	_	10	det	_	_
+7	human	human	ADJ	JJ	Degree=Pos	10	amod	_	_
+8	multiple	multiple	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	tissue	tissue	NOUN	NN	Number=Sing	10	compound	_	_
+10	Northern	northern	PROPN	NNP	Number=Sing	5	dobj	_	_
+11	and	and	CCONJ	CC	_	10	cc	_	_
+12	human	human	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	Southern	southern	PROPN	NNP	Number=Sing	10	conj	_	_
+14	with	with	ADP	IN	_	5	prep	_	_
+15	a	a	DET	DT	_	16	det	_	_
+16	probe	probe	NOUN	NN	Number=Sing	14	pobj	_	_
+17	in	in	ADP	IN	_	16	prep	_	_
+18	human	human	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	intron	intron	NOUN	NN	Number=Sing	17	pobj	_	_
+20	12	0	NUM	CD	NumType=Card	19	nummod	_	_
+21	that	that	DET	WDT	PronType=Int,Rel	22	dep	_	16:ref=
+22	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	relcl	_	_
+23	adjacent	adjacent	ADJ	JJ	Degree=Pos	22	acomp	_	_
+24	to	to	ADP	IN	_	23	prep	_	_
+25	exon	exon	NOUN	NN	Number=Sing	24	pobj	_	_
+26	13	0	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 546
+# text = The probe was located in the region syntenic to that which encodes the alternate mouse transcript.
+1	The	the	DET	DT	_	2	det	_	_
+2	probe	probe	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	region	region	NOUN	NN	Number=Sing	5	pobj	_	_
+8	syntenic	syntenic	ADJ	JJ	Degree=Pos	7	amod	_	_
+9	to	to	ADP	IN	_	8	prep	_	_
+10	that	that	DET	DT	_	9	pobj	_	_
+11	which	which	DET	WDT	PronType=Int,Rel	12	dep	_	10:ref=
+12	encodes	encode	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	relcl	_	_
+13	the	the	DET	DT	_	16	det	_	_
+14	alternate	alternate	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	mouse	mouse	NOUN	NN	Number=Sing	16	compound	_	_
+16	transcript	transcript	NOUN	NN	Number=Sing	12	dobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 547
+# text = Only the expected bands were detected on the Southern and no bands were detected on the Northern, confirming that this alternative transcript is specific to murine Mcoln1.
+1	Only	only	ADV	RB	Degree=Pos	4	advmod	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	expected	expect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	amod	_	_
+4	bands	band	NOUN	NNS	Number=Plur	6	nsubjpass	_	_
+5	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	6	auxpass	_	_
+6	detected	detect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	on	on	ADP	IN	_	6	prep	_	_
+8	the	the	DET	DT	_	9	det	_	_
+9	Southern	southern	PROPN	NNP	Number=Sing	7	pobj	_	_
+10	and	and	CCONJ	CC	_	6	cc	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	bands	band	NOUN	NNS	Number=Plur	14	nsubjpass	_	_
+13	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	14	auxpass	_	_
+14	detected	detect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	conj	_	_
+15	on	on	ADP	IN	_	14	prep	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	Northern	northern	PROPN	NNP	Number=Sing	15	pobj	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+19	confirming	confirm	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	6	advcl	_	_
+20	that	that	ADP	IN	_	24	mark	_	_
+21	this	this	DET	DT	_	23	det	_	_
+22	alternative	alternative	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	transcript	transcript	NOUN	NN	Number=Sing	24	nsubj	_	_
+24	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+25	specific	specific	ADJ	JJ	Degree=Pos	24	acomp	_	_
+26	to	to	ADP	IN	_	25	prep	_	_
+27	murine	murine	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	Mcoln1	mcoln0	NOUN	NN	Number=Sing	26	pobj	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 548
+# text = Recent BLASTP analysis of the alternate Mcoln1 transcript yields a match to a putative 145 amino acid anonymous protein (GB No. BAB25862) predicted from a RIKEN clone.
+1	Recent	recent	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	BLASTP	blastp	NOUN	NN	Number=Sing	3	compound	_	_
+3	analysis	analysis	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	alternate	alternate	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	Mcoln1	mcoln0	NOUN	NN	Number=Sing	8	compound	_	_
+8	transcript	transcript	NOUN	NN	Number=Sing	4	pobj	_	_
+9	yields	yield	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	_	11	det	_	_
+11	match	match	NOUN	NN	Number=Sing	9	dobj	_	_
+12	to	to	ADP	IN	_	11	prep	_	_
+13	a	a	DET	DT	_	19	det	_	_
+14	putative	putative	ADJ	JJ	Degree=Pos	19	amod	_	_
+15	145	0	NUM	CD	NumType=Card	17	nummod	_	_
+16	amino	amino	NOUN	NN	Number=Sing	17	nmod	_	_
+17	acid	acid	NOUN	NN	Number=Sing	19	nmod	_	_
+18	anonymous	anonymous	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	protein	protein	NOUN	NN	Number=Sing	12	pobj	_	_
+20	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	23	punct	_	SpaceAfter=No
+21	GB	gb	NOUN	NN	Number=Sing	23	compound	_	_
+22	No.	no.	NOUN	NN	Number=Sing	23	compound	_	_
+23	BAB25862	bab0	NOUN	NN	Number=Sing	19	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	23	punct	_	_
+25	predicted	predict	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	19	acl	_	_
+26	from	from	ADP	IN	_	25	prep	_	_
+27	a	a	DET	DT	_	29	det	_	_
+28	RIKEN	riken	NOUN	NN	Number=Sing	29	compound	_	_
+29	clone	clone	NOUN	NN	Number=Sing	26	pobj	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 549
+# text = It is obvious from our results, however, that the identification of this sequence as a full-length protein is incorrect since probes unique to the clone, as well as probes containing the Mcoln1 coding sequence, identify the same transcripts.
+1	It	it	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	obvious	obvious	ADJ	JJ	Degree=Pos	2	acomp	_	_
+4	from	from	ADP	IN	_	2	prep	_	_
+5	our	our	DET	PRP$	Poss=Yes|PronType=Prs	6	poss	_	_
+6	results	result	NOUN	NNS	Number=Plur	4	pobj	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
+8	however	however	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
+10	that	that	ADP	IN	_	22	mark	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	identification	identification	NOUN	NN	Number=Sing	22	nsubj	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	this	this	DET	DT	_	15	det	_	_
+15	sequence	sequence	NOUN	NN	Number=Sing	13	pobj	_	_
+16	as	as	ADP	IN	_	12	prep	_	_
+17	a	a	DET	DT	_	21	det	_	_
+18	full	full	ADJ	JJ	Degree=Pos	20	amod	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+20	length	length	NOUN	NN	Number=Sing	21	compound	_	_
+21	protein	protein	NOUN	NN	Number=Sing	16	pobj	_	_
+22	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+23	incorrect	incorrect	ADJ	JJ	Degree=Pos	22	acomp	_	_
+24	since	since	ADP	IN	_	41	mark	_	_
+25	probes	probe	NOUN	NNS	Number=Plur	41	nsubj	_	_
+26	unique	unique	ADJ	JJ	Degree=Pos	25	amod	_	_
+27	to	to	ADP	IN	_	26	prep	_	_
+28	the	the	DET	DT	_	29	det	_	_
+29	clone	clone	NOUN	NN	Number=Sing	27	pobj	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=Comm	25	punct	_	_
+31	as	as	ADV	RB	Degree=Pos	33	advmod	_	_
+32	well	well	ADV	RB	Degree=Pos	33	advmod	_	_
+33	as	as	ADP	IN	_	25	cc	_	_
+34	probes	probe	NOUN	NNS	Number=Plur	25	conj	_	_
+35	containing	contain	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	34	acl	_	_
+36	the	the	DET	DT	_	39	det	_	_
+37	Mcoln1	mcoln0	NOUN	NN	Number=Sing	39	compound	_	_
+38	coding	coding	NOUN	NN	Number=Sing	39	compound	_	_
+39	sequence	sequence	NOUN	NN	Number=Sing	35	dobj	_	SpaceAfter=No
+40	,	,	PUNCT	,	PunctType=Comm	41	punct	_	_
+41	identify	identify	VERB	VBP	Tense=Pres|VerbForm=Fin	22	advcl	_	_
+42	the	the	DET	DT	_	44	det	_	_
+43	same	same	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	transcripts	transcript	NOUN	NNS	Number=Plur	41	dobj	_	SpaceAfter=No
+45	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# newpar id = 11897010-p33
+# sent_id = 550
+# text = Conclusions
+1	Conclusions	conclusion	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 11897010-p34
+# sent_id = 551
+# text = Comparison of Mcoln1 isoform 1 to its human homologue shows striking similarity at both the amino acid and nucleotide level.
+1	Comparison	comparison	NOUN	NN	Number=Sing	10	nsubj	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	Mcoln1	mcoln0	NOUN	NN	Number=Sing	4	compound	_	_
+4	isoform	isoform	NOUN	NN	Number=Sing	2	pobj	_	_
+5	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+6	to	to	ADP	IN	_	1	prep	_	_
+7	its	its	DET	PRP$	Poss=Yes|PronType=Prs	9	poss	_	_
+8	human	human	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	homologue	homologue	NOUN	NN	Number=Sing	6	pobj	_	_
+10	shows	show	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	striking	striking	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	similarity	similarity	NOUN	NN	Number=Sing	10	dobj	_	_
+13	at	at	ADP	IN	_	10	prep	_	_
+14	both	both	CCONJ	CC	_	20	preconj	_	_
+15	the	the	DET	DT	_	20	det	_	_
+16	amino	amino	NOUN	NN	Number=Sing	17	nmod	_	_
+17	acid	acid	NOUN	NN	Number=Sing	20	nmod	_	_
+18	and	and	CCONJ	CC	_	17	cc	_	_
+19	nucleotide	nucleotide	NOUN	NN	Number=Sing	17	conj	_	_
+20	level	level	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 552
+# text = All six of the transmembrane domains, as well as the putative cation channel are highly conserved.
+1	All	all	DET	DT	_	2	det	_	_
+2	six	#crd#	NUM	CD	NumType=Card	17	nsubjpass	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	transmembrane	transmembrane	NOUN	NN	Number=Sing	6	compound	_	_
+6	domains	domain	NOUN	NNS	Number=Plur	3	pobj	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
+8	as	as	ADV	RB	Degree=Pos	10	advmod	_	_
+9	well	well	ADV	RB	Degree=Pos	10	advmod	_	_
+10	as	as	ADP	IN	_	2	cc	_	_
+11	the	the	DET	DT	_	14	det	_	_
+12	putative	putative	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	cation	cation	NOUN	NN	Number=Sing	14	compound	_	_
+14	channel	channel	NOUN	NN	Number=Sing	2	conj	_	_
+15	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	17	auxpass	_	_
+16	highly	highly	ADV	RB	Degree=Pos	17	advmod	_	_
+17	conserved	conserve	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	17	punct	_	_
+
+# sent_id = 553
+# text = The putative di-leucine (L-L-X-X) motif at the C-terminus, which may act as a late endosomal/lysosomal targeting signal, is also conserved [9].
+1	The	the	DET	DT	_	13	det	_	_
+2	putative	putative	ADJ	JJ	Degree=Pos	13	amod	_	_
+3	di-leucine	di-leucine	NOUN	NN	Number=Sing	13	nmod	_	_
+4	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	11	punct	_	SpaceAfter=No
+5	L	l	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+7	L	l	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+9	X	x	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+11	X	x	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	11	punct	_	_
+13	motif	motif	NOUN	NN	Number=Sing	34	nsubjpass	_	_
+14	at	at	ADP	IN	_	13	prep	_	_
+15	the	the	DET	DT	_	18	det	_	_
+16	C	c	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	terminus	terminus	NOUN	NN	Number=Sing	14	pobj	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
+20	which	which	DET	WDT	PronType=Int,Rel	22	dep	_	13:ref=
+21	may	may	VERB	MD	VerbType=Mod	22	aux	_	_
+22	act	act	VERB	VB	VerbForm=Inf	13	relcl	_	_
+23	as	as	ADP	IN	_	22	prep	_	_
+24	a	a	DET	DT	_	30	det	_	_
+25	late	late	ADJ	JJ	Degree=Pos	30	amod	_	_
+26	endosomal	endosomal	ADJ	JJ	Degree=Pos	28	amod	_	SpaceAfter=No
+27	/	/	PUNCT	HYPH	PunctType=Dash	28	punct	_	SpaceAfter=No
+28	lysosomal	lysosomal	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	targeting	targeting	NOUN	NN	Number=Sing	30	compound	_	_
+30	signal	signal	NOUN	NN	Number=Sing	23	pobj	_	SpaceAfter=No
+31	,	,	PUNCT	,	PunctType=Comm	34	punct	_	_
+32	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	auxpass	_	_
+33	also	also	ADV	RB	Degree=Pos	34	advmod	_	_
+34	conserved	conserve	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+35	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	36	punct	_	SpaceAfter=No
+36	9	0	NUM	CD	NumType=Card	34	parataxis	_	SpaceAfter=No
+37	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	.	PunctType=Peri	34	punct	_	_
+
+# sent_id = 554
+# text = This speculation is supported by work with cup-5[13], the c. elegans homologue of MCOLN1, since cellular localization studies suggest that the protein is found in the late endosomes and/or lysosomes.
+1	This	this	DET	DT	_	2	det	_	_
+2	speculation	speculation	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
+4	supported	support	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	ADP	IN	_	4	agent	_	_
+6	work	work	NOUN	NN	Number=Sing	5	pobj	_	_
+7	with	with	ADP	IN	_	6	prep	_	_
+8	cup	cup	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	5	0	NOUN	NN	Number=Sing	7	pobj	_	SpaceAfter=No
+11	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	12	punct	_	SpaceAfter=No
+12	13	0	NUM	CD	NumType=Card	6	parataxis	_	SpaceAfter=No
+13	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+15	the	the	DET	DT	_	18	det	_	_
+16	c.	c.	PROPN	NNP	Number=Sing	17	compound	_	_
+17	elegans	elegans	PROPN	NNP	Number=Sing	18	compound	_	_
+18	homologue	homologue	NOUN	NN	Number=Sing	6	appos	_	_
+19	of	of	ADP	IN	_	18	prep	_	_
+20	MCOLN1	mcoln0	NOUN	NN	Number=Sing	19	pobj	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+22	since	since	ADP	IN	_	26	mark	_	_
+23	cellular	cellular	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	localization	localization	NOUN	NN	Number=Sing	25	compound	_	_
+25	studies	study	NOUN	NNS	Number=Plur	26	nsubj	_	_
+26	suggest	suggest	VERB	VBP	Tense=Pres|VerbForm=Fin	4	advcl	_	_
+27	that	that	ADP	IN	_	31	mark	_	_
+28	the	the	DET	DT	_	29	det	_	_
+29	protein	protein	NOUN	NN	Number=Sing	31	nsubjpass	_	_
+30	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	auxpass	_	_
+31	found	find	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	26	ccomp	_	_
+32	in	in	ADP	IN	_	31	prep	_	_
+33	the	the	DET	DT	_	35	det	_	_
+34	late	late	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	endosomes	endosomes	NOUN	NNS	Number=Plur	32	pobj	_	_
+36	and	and	CCONJ	CC	_	35	cc	_	SpaceAfter=No
+37	/	/	PUNCT	HYPH	PunctType=Dash	36	punct	_	SpaceAfter=No
+38	or	or	CCONJ	CC	_	36	cc	_	_
+39	lysosomes	lysosome	NOUN	NNS	Number=Plur	35	conj	_	SpaceAfter=No
+40	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# newpar id = 11897010-p35
+# sent_id = 555
+# text = The mouse Mcoln1 gene has two alternatively spliced isoforms, with isoform 2 having a different c-terminal cytoplasmic tail.
+1	The	the	DET	DT	_	4	det	_	_
+2	mouse	mouse	NOUN	NN	Number=Sing	4	compound	_	_
+3	Mcoln1	mcoln0	NOUN	NN	Number=Sing	4	compound	_	_
+4	gene	gene	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	two	#crd#	NUM	CD	NumType=Card	9	nummod	_	_
+7	alternatively	alternatively	ADV	RB	Degree=Pos	8	advmod	_	_
+8	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	amod	_	_
+9	isoforms	isoforms	NOUN	NNS	Number=Plur	5	dobj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+11	with	with	ADP	IN	_	5	prep	_	_
+12	isoform	isoform	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	2	0	NUM	CD	NumType=Card	12	nummod	_	_
+14	having	have	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	11	pcomp	_	_
+15	a	a	DET	DT	_	21	det	_	_
+16	different	different	ADJ	JJ	Degree=Pos	21	amod	_	_
+17	c	c	NOUN	NN	Number=Sing	19	npadvmod	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+19	terminal	terminal	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	cytoplasmic	cytoplasmic	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	tail	tail	NOUN	NN	Number=Sing	14	dobj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 556
+# text = The unique 86 amino acid c-terminal tail lacks the lysosomal targeting signal and does not contain any conserved domains when compared against the current profile databases.
+1	The	the	DET	DT	_	9	det	_	_
+2	unique	unique	ADJ	JJ	Degree=Pos	9	amod	_	_
+3	86	0	NUM	CD	NumType=Card	5	nummod	_	_
+4	amino	amino	NOUN	NN	Number=Sing	5	nmod	_	_
+5	acid	acid	NOUN	NN	Number=Sing	9	nmod	_	_
+6	c	c	NOUN	NN	Number=Sing	8	npadvmod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	terminal	terminal	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	tail	tail	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	lacks	lack	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	_	14	det	_	_
+12	lysosomal	lysosomal	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	targeting	targeting	NOUN	NN	Number=Sing	14	compound	_	_
+14	signal	signal	NOUN	NN	Number=Sing	10	dobj	_	_
+15	and	and	CCONJ	CC	_	10	cc	_	_
+16	does	do	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	not	not	ADV	RB	Degree=Pos	18	neg	_	_
+18	contain	contain	VERB	VB	VerbForm=Inf	10	conj	_	_
+19	any	any	DET	DT	_	21	det	_	_
+20	conserved	conserve	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	21	amod	_	_
+21	domains	domain	NOUN	NNS	Number=Plur	18	dobj	_	_
+22	when	when	ADV	WRB	PronType=Int,Rel	23	advmod	_	_
+23	compared	compare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	18	advcl	_	_
+24	against	against	ADP	IN	_	23	prep	_	_
+25	the	the	DET	DT	_	28	det	_	_
+26	current	current	ADJ	JJ	Degree=Pos	28	amod	_	_
+27	profile	profile	NOUN	NN	Number=Sing	28	compound	_	_
+28	databases	database	NOUN	NNS	Number=Plur	24	pobj	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 557
+# text = We speculate that this protein may have similar channel function but an alternate subcellular localization, but this must be proven once isoform-specific antibodies are raised.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	speculate	speculate	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	ADP	IN	_	7	mark	_	_
+4	this	this	DET	DT	_	5	det	_	_
+5	protein	protein	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	may	may	VERB	MD	VerbType=Mod	7	aux	_	_
+7	have	have	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+8	similar	similar	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	channel	channel	NOUN	NN	Number=Sing	10	compound	_	_
+10	function	function	NOUN	NN	Number=Sing	7	dobj	_	_
+11	but	but	CCONJ	CC	_	10	cc	_	_
+12	an	an	DET	DT	_	15	det	_	_
+13	alternate	alternate	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	subcellular	subcellular	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	localization	localization	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
+17	but	but	CCONJ	CC	_	2	cc	_	_
+18	this	this	DET	DT	_	21	nsubjpass	_	_
+19	must	must	VERB	MD	VerbType=Mod	21	aux	_	_
+20	be	be	VERB	VB	VerbForm=Inf	21	auxpass	_	_
+21	proven	prove	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	conj	_	_
+22	once	once	ADP	IN	_	28	mark	_	_
+23	isoform	isoform	NOUN	NN	Number=Sing	25	npadvmod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	specific	specific	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	antibodies	antibody	NOUN	NNS	Number=Plur	28	nsubjpass	_	_
+27	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	28	auxpass	_	_
+28	raised	raise	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	21	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	21	punct	_	_
+
+# sent_id = 558
+# text = However, our results suggest that phenotypic assessment of Mcoln1 knock-out mice may be complicated and that care must be taken when interpreting data on mouse gene expression and phenotype.
+1	However	however	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+3	our	our	DET	PRP$	Poss=Yes|PronType=Prs	4	poss	_	_
+4	results	result	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	suggest	suggest	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	ADP	IN	_	16	mark	_	_
+7	phenotypic	phenotypic	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	assessment	assessment	NOUN	NN	Number=Sing	16	nsubj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	Mcoln1	mcoln0	NOUN	NN	Number=Sing	14	compound	_	_
+11	knock	knock	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+13	out	out	NOUN	NN	Number=Sing	14	compound	_	_
+14	mice	mouse	NOUN	NNS	Number=Plur	9	pobj	_	_
+15	may	may	VERB	MD	VerbType=Mod	16	aux	_	_
+16	be	be	VERB	VB	VerbForm=Inf	5	advcl	_	_
+17	complicated	complicated	ADJ	JJ	Degree=Pos	16	acomp	_	_
+18	and	and	CCONJ	CC	_	16	cc	_	_
+19	that	that	ADP	IN	_	23	mark	_	_
+20	care	care	NOUN	NN	Number=Sing	23	nsubjpass	_	_
+21	must	must	VERB	MD	VerbType=Mod	23	aux	_	_
+22	be	be	VERB	VB	VerbForm=Inf	23	auxpass	_	_
+23	taken	take	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	16	conj	_	_
+24	when	when	ADV	WRB	PronType=Int,Rel	25	advmod	_	_
+25	interpreting	interpret	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	23	advcl	_	_
+26	data	datum	NOUN	NNS	Number=Plur	25	dobj	_	_
+27	on	on	ADP	IN	_	26	prep	_	_
+28	mouse	mouse	NOUN	NN	Number=Sing	30	compound	_	_
+29	gene	gene	NOUN	NN	Number=Sing	30	compound	_	_
+30	expression	expression	NOUN	NN	Number=Sing	27	pobj	_	_
+31	and	and	CCONJ	CC	_	30	cc	_	_
+32	phenotype	phenotype	NOUN	NN	Number=Sing	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# newpar id = 11897010-p36
+# sent_id = 559
+# text = Interestingly, the second Mcoln1 isoform is not seen in humans and the sequence of the alternatively spliced region is not conserved between man and mouse.
+1	Interestingly	interestingly	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+3	the	the	DET	DT	_	6	det	_	_
+4	second	#ord#	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	Mcoln1	mcoln0	NOUN	NN	Number=Sing	6	compound	_	_
+6	isoform	isoform	NOUN	NN	Number=Sing	9	nsubjpass	_	_
+7	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	auxpass	_	_
+8	not	not	ADV	RB	Degree=Pos	9	neg	_	_
+9	seen	see	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	IN	_	9	prep	_	_
+11	humans	human	NOUN	NNS	Number=Plur	10	pobj	_	_
+12	and	and	CCONJ	CC	_	9	cc	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	sequence	sequence	NOUN	NN	Number=Sing	22	nsubjpass	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	the	the	DET	DT	_	19	det	_	_
+17	alternatively	alternatively	ADV	RB	Degree=Pos	18	advmod	_	_
+18	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	19	amod	_	_
+19	region	region	NOUN	NN	Number=Sing	15	pobj	_	_
+20	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	auxpass	_	_
+21	not	not	ADV	RB	Degree=Pos	22	neg	_	_
+22	conserved	conserve	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	conj	_	_
+23	between	between	ADP	IN	_	22	prep	_	_
+24	man	man	NOUN	NN	Number=Sing	23	pobj	_	_
+25	and	and	CCONJ	CC	_	24	cc	_	_
+26	mouse	mouse	NOUN	NN	Number=Sing	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 560
+# text = To date, very few genes have been reported that show species specific alternative splice variants.
+1	To	to	ADP	IN	_	9	prep	_	_
+2	date	date	NOUN	NN	Number=Sing	1	pobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+4	very	very	ADV	RB	Degree=Pos	5	advmod	_	_
+5	few	few	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	genes	gene	NOUN	NNS	Number=Plur	9	nsubjpass	_	_
+7	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	been	be	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	auxpass	_	_
+9	reported	report	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	that	that	DET	WDT	PronType=Int,Rel	11	dep	_	_
+11	show	show	VERB	VBP	Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+12	species	species	NOUN	NN	Number=Sing	13	npadvmod	_	_
+13	specific	specific	ADJ	JJ	Degree=Pos	16	amod	_	_
+14	alternative	alternative	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	splice	splice	NOUN	NN	Number=Sing	16	compound	_	_
+16	variants	variant	NOUN	NNS	Number=Plur	11	dobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 561
+# text = MOG, myelin/oligodendrocyte glycoprotein, has many different splice variants in humans that are not found in mice [17].
+1	MOG	mog	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
+3	myelin	myelin	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	/	/	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+5	oligodendrocyte	oligodendrocyte	NOUN	NN	Number=Sing	6	compound	_	_
+6	glycoprotein	glycoprotein	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+8	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	many	many	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	different	different	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	splice	splice	NOUN	NN	Number=Sing	12	compound	_	_
+12	variants	variant	NOUN	NNS	Number=Plur	8	dobj	_	_
+13	in	in	ADP	IN	_	8	prep	_	_
+14	humans	human	NOUN	NNS	Number=Plur	13	pobj	_	_
+15	that	that	DET	WDT	PronType=Int,Rel	18	dep	_	_
+16	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	18	auxpass	_	_
+17	not	not	ADV	RB	Degree=Pos	18	neg	_	_
+18	found	find	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	ccomp	_	_
+19	in	in	ADP	IN	_	18	prep	_	_
+20	mice	mouse	NOUN	NNS	Number=Plur	19	pobj	_	_
+21	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	22	punct	_	SpaceAfter=No
+22	17	0	NUM	CD	NumType=Card	8	parataxis	_	SpaceAfter=No
+23	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
+
+# sent_id = 562
+# text = ATP11B, a P-type ATPase, has a rabbit-specific splice variant that deletes a transmembrane domain and therefore likely alters the putative function of the protein [18].
+1	ATP11B	atp0b	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
+3	a	a	DET	DT	_	7	det	_	_
+4	P	p	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+6	type	type	NOUN	NN	Number=Sing	7	compound	_	_
+7	ATPase	atpase	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+9	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	_	15	det	_	_
+11	rabbit	rabbit	NOUN	NN	Number=Sing	13	npadvmod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+13	specific	specific	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	splice	splice	NOUN	NN	Number=Sing	15	compound	_	_
+15	variant	variant	NOUN	NN	Number=Sing	9	dobj	_	_
+16	that	that	DET	WDT	PronType=Int,Rel	17	dep	_	15:ref=
+17	deletes	delete	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	relcl	_	_
+18	a	a	DET	DT	_	20	det	_	_
+19	transmembrane	transmembrane	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	domain	domain	NOUN	NN	Number=Sing	17	dobj	_	_
+21	and	and	CCONJ	CC	_	17	cc	_	_
+22	therefore	therefore	ADV	RB	Degree=Pos	24	advmod	_	_
+23	likely	likely	ADV	RB	Degree=Pos	24	advmod	_	_
+24	alters	alter	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+25	the	the	DET	DT	_	27	det	_	_
+26	putative	putative	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	function	function	NOUN	NN	Number=Sing	24	dobj	_	_
+28	of	of	ADP	IN	_	27	prep	_	_
+29	the	the	DET	DT	_	30	det	_	_
+30	protein	protein	NOUN	NN	Number=Sing	28	pobj	_	_
+31	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	32	punct	_	SpaceAfter=No
+32	18	0	NUM	CD	NumType=Card	9	parataxis	_	SpaceAfter=No
+33	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 563
+# text = Sequencing of the human genome has led to estimates of approximately 32,000 genes, a total surprise given the previous significantly higher estimates that were based on the number of expressed sequence tags (ESTs) in the public databases.
+1	Sequencing	sequencing	NOUN	NN	Number=Sing	7	nsubj	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	human	human	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	genome	genome	NOUN	NN	Number=Sing	2	pobj	_	_
+6	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	led	lead	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	to	to	ADP	IN	_	7	prep	_	_
+9	estimates	estimate	NOUN	NNS	Number=Plur	8	pobj	_	_
+10	of	of	ADP	IN	_	9	prep	_	_
+11	approximately	approximately	ADV	RB	Degree=Pos	12	advmod	_	_
+12	32,000	0	NUM	CD	NumType=Card	13	nummod	_	_
+13	genes	gene	NOUN	NNS	Number=Plur	10	pobj	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
+15	a	a	DET	DT	_	17	det	_	_
+16	total	total	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	surprise	surprise	NOUN	NN	Number=Sing	7	npadvmod	_	_
+18	given	give	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	17	prep	_	_
+19	the	the	DET	DT	_	23	det	_	_
+20	previous	previous	ADJ	JJ	Degree=Pos	23	amod	_	_
+21	significantly	significantly	ADV	RB	Degree=Pos	22	advmod	_	_
+22	higher	high	ADJ	JJR	Degree=Cmp	23	amod	_	_
+23	estimates	estimate	NOUN	NNS	Number=Plur	18	pobj	_	_
+24	that	that	DET	WDT	PronType=Int,Rel	26	dep	_	23:ref=
+25	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	26	auxpass	_	_
+26	based	base	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	23	relcl	_	_
+27	on	on	ADP	IN	_	26	prep	_	_
+28	the	the	DET	DT	_	29	det	_	_
+29	number	number	NOUN	NN	Number=Sing	27	pobj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	expressed	express	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	33	amod	_	_
+32	sequence	sequence	NOUN	NN	Number=Sing	33	compound	_	_
+33	tags	tag	NOUN	NNS	Number=Plur	30	pobj	_	_
+34	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+35	ESTs	est	NOUN	NNS	Number=Plur	33	appos	_	SpaceAfter=No
+36	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	29	punct	_	_
+37	in	in	ADP	IN	_	29	prep	_	_
+38	the	the	DET	DT	_	40	det	_	_
+39	public	public	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	databases	database	NOUN	NNS	Number=Plur	37	pobj	_	SpaceAfter=No
+41	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 564
+# text = This apparent disparity suggests a major role for alternative splicing in creating genetic complexity, and has brought the study of splicing regulation to the forefront of molecular genetics.
+1	This	this	DET	DT	_	3	det	_	_
+2	apparent	apparent	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	disparity	disparity	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	suggests	suggest	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	_	7	det	_	_
+6	major	major	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	role	role	NOUN	NN	Number=Sing	4	dobj	_	_
+8	for	for	ADP	IN	_	4	prep	_	_
+9	alternative	alternative	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	splicing	splicing	NOUN	NN	Number=Sing	8	pobj	_	_
+11	in	in	ADP	IN	_	4	prep	_	_
+12	creating	create	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	11	pcomp	_	_
+13	genetic	genetic	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	complexity	complexity	NOUN	NN	Number=Sing	12	dobj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+16	and	and	CCONJ	CC	_	4	cc	_	_
+17	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	brought	bring	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	conj	_	_
+19	the	the	DET	DT	_	20	det	_	_
+20	study	study	NOUN	NN	Number=Sing	18	dobj	_	_
+21	of	of	ADP	IN	_	20	prep	_	_
+22	splicing	splicing	NOUN	NN	Number=Sing	23	compound	_	_
+23	regulation	regulation	NOUN	NN	Number=Sing	21	pobj	_	_
+24	to	to	ADP	IN	_	18	prep	_	_
+25	the	the	DET	DT	_	26	det	_	_
+26	forefront	forefront	NOUN	NN	Number=Sing	24	pobj	_	_
+27	of	of	ADP	IN	_	26	prep	_	_
+28	molecular	molecular	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	genetics	genetics	NOUN	NN	Number=Sing	27	pobj	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 565
+# text = It is likely that an abundance of species-specific splice variants will be identified as the characterization of alternatively spliced transcripts progresses.
+1	It	it	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	likely	likely	ADJ	JJ	Degree=Pos	2	acomp	_	_
+4	that	that	ADP	IN	_	15	mark	_	_
+5	an	an	DET	DT	_	6	det	_	_
+6	abundance	abundance	NOUN	NN	Number=Sing	15	nsubjpass	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	species	species	NOUN	NN	Number=Sing	10	npadvmod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	specific	specific	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	splice	splice	NOUN	NN	Number=Sing	12	compound	_	_
+12	variants	variant	NOUN	NNS	Number=Plur	7	pobj	_	_
+13	will	will	VERB	MD	VerbType=Mod	15	aux	_	_
+14	be	be	VERB	VB	VerbForm=Inf	15	auxpass	_	_
+15	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	ccomp	_	_
+16	as	as	ADP	IN	_	23	mark	_	_
+17	the	the	DET	DT	_	18	det	_	_
+18	characterization	characterization	NOUN	NN	Number=Sing	23	nsubj	_	_
+19	of	of	ADP	IN	_	18	prep	_	_
+20	alternatively	alternatively	ADV	RB	Degree=Pos	21	advmod	_	_
+21	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	22	amod	_	_
+22	transcripts	transcript	NOUN	NNS	Number=Plur	19	pobj	_	_
+23	progresses	progress	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# newpar id = 11897010-p37
+# sent_id = 566
+# text = Materials and methods
+1	Materials	material	NOUN	NNS	Number=Plur	0	root	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	methods	method	NOUN	NNS	Number=Plur	1	conj	_	_
+
+# newpar id = 11897010-p38
+# sent_id = 567
+# text = Bioinformatics
+1	Bioinformatics	bioinformatics	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 11897010-p40
+# sent_id = 568
+# text = We conducted database searches using BLAST  and Draft Human Genome Browser .
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	conducted	conduct	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	database	database	NOUN	NN	Number=Sing	4	compound	_	_
+4	searches	search	NOUN	NNS	Number=Plur	2	dobj	_	_
+5	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	advcl	_	_
+6	BLAST	blast	PROPN	NNP	Number=Sing	5	dobj	_	_
+7	and	and	CCONJ	CC	_	6	cc	_	_
+8	Draft	draft	PROPN	NNP	Number=Sing	11	compound	_	_
+9	Human	human	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Genome	genome	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Browser	browser	PROPN	NNP	Number=Sing	6	conj	_	_
+12	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# newpar id = 11897010-p41
+# sent_id = 569
+# text = Sequences from UniGene  were used to confirm the Mcoln1 sequence.
+1	Sequences	sequence	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+2	from	from	ADP	IN	_	1	prep	_	_
+3	UniGene	unigene	PROPN	NNP	Number=Sing	2	pobj	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	7	aux	_	_
+7	confirm	confirm	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	Mcoln1	mcoln0	NOUN	NN	Number=Sing	10	compound	_	_
+10	sequence	sequence	NOUN	NN	Number=Sing	7	dobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# newpar id = 11897010-p43
+# sent_id = 570
+# text = We performed motif searches using ProfileScan  and TMPred  and alignment of protein sequences using Pileup (GCG) and Boxshade .
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	performed	performed	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	motif	motif	NOUN	NN	Number=Sing	4	compound	_	_
+4	searches	search	NOUN	NNS	Number=Plur	2	dobj	_	4:gap=
+5	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	advcl	_	5:gap=
+6	ProfileScan	profilescan	NOUN	NN	Number=Sing	5	dobj	_	_
+7	and	and	CCONJ	CC	_	6	cc	_	_
+8	TMPred	tmpred	NOUN	NN	Number=Sing	6	conj	_	_
+9	and	and	CCONJ	CC	_	2	cc	_	_
+10	alignment	alignment	NOUN	NN	Number=Sing	2	conj	_	4:gap=
+11	of	of	ADP	IN	_	10	prep	_	_
+12	protein	protein	NOUN	NN	Number=Sing	13	compound	_	_
+13	sequences	sequence	NOUN	NNS	Number=Plur	11	pobj	_	_
+14	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	10	advcl	_	5:gap=
+15	Pileup	pileup	NOUN	NN	Number=Sing	14	dobj	_	_
+16	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	17	punct	_	SpaceAfter=No
+17	GCG	gcg	NOUN	NN	Number=Sing	15	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	17	punct	_	_
+19	and	and	CCONJ	CC	_	15	cc	_	_
+20	Boxshade	boxshade	PROPN	NNP	Number=Sing	15	conj	_	_
+21	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# newpar id = 11897010-p44
+# sent_id = 571
+# text = DNA Sequencing
+1	DNA	dna	NOUN	NN	Number=Sing	2	compound	_	_
+2	Sequencing	sequencing	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 11897010-p45
+# sent_id = 572
+# text = I.M.A.G.E. Clones were purchased from Research Genetics (Huntsville, AL).
+1	I.M.A.G.E.	i.m.a.g.e.	NOUN	NN	Number=Sing	2	compound	_	_
+2	Clones	clone	NOUN	NNS	Number=Plur	4	nsubjpass	_	_
+3	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	purchased	purchase	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	from	from	ADP	IN	_	4	prep	_	_
+6	Research	research	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Genetics	genetics	PROPN	NNP	Number=Sing	5	pobj	_	_
+8	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	9	punct	_	SpaceAfter=No
+9	Huntsville	huntsville	PROPN	NNP	Number=Sing	7	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+11	AL	al	PROPN	NNP	Number=Sing	9	npadvmod	_	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	9	punct	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 573
+# text = Sequencing was performed using the AmpliCycle sequencing kit from Applied Biosystems (Foster City, CA) on a Genomyx LR programmable DNA sequencer.
+1	Sequencing	sequencing	NOUN	NN	Number=Sing	3	nsubjpass	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	3	auxpass	_	_
+3	performed	performed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+4	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	advcl	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	AmpliCycle	amplicycle	NOUN	NN	Number=Sing	8	compound	_	_
+7	sequencing	sequencing	NOUN	NN	Number=Sing	8	compound	_	_
+8	kit	kit	NOUN	NN	Number=Sing	4	dobj	_	_
+9	from	from	ADP	IN	_	8	prep	_	_
+10	Applied	applied	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Biosystems	biosystems	PROPN	NNP	Number=Sing	9	pobj	_	_
+12	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	14	punct	_	SpaceAfter=No
+13	Foster	foster	PROPN	NNP	Number=Sing	14	compound	_	_
+14	City	city	PROPN	NNP	Number=Sing	11	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+16	CA	ca	PROPN	NNP	Number=Sing	14	npadvmod	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	14	punct	_	_
+18	on	on	ADP	IN	_	4	prep	_	_
+19	a	a	DET	DT	_	24	det	_	_
+20	Genomyx	genomyx	NOUN	NN	Number=Sing	21	nmod	_	_
+21	LR	lr	NOUN	NN	Number=Sing	24	nmod	_	_
+22	programmable	programmable	ADJ	JJ	Degree=Pos	24	amod	_	_
+23	DNA	dna	NOUN	NN	Number=Sing	24	compound	_	_
+24	sequencer	sequencer	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# newpar id = 11897010-p46
+# sent_id = 574
+# text = RT-PCR Reaction
+1	RT	rt	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+3	PCR	pcr	NOUN	NN	Number=Sing	4	compound	_	_
+4	Reaction	reaction	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 11897010-p47
+# sent_id = 575
+# text = BALB/c mouse brain total RNA was purchased from Clontech Laboratories (Palo Alto, CA) and made to a 1 μg / ml concentration.
+1	BALB	balb	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+2	/	/	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+3	c	c	NOUN	NN	Number=Sing	4	nmod	_	_
+4	mouse	mouse	NOUN	NN	Number=Sing	5	nmod	_	_
+5	brain	brain	NOUN	NN	Number=Sing	7	nmod	_	_
+6	total	total	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	RNA	rna	NOUN	NN	Number=Sing	9	nsubjpass	_	_
+8	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	9	auxpass	_	_
+9	purchased	purchase	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	from	from	ADP	IN	_	9	prep	_	_
+11	Clontech	clontech	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Laboratories	laboratories	PROPN	NNP	Number=Sing	10	pobj	_	_
+13	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	15	punct	_	SpaceAfter=No
+14	Palo	palo	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Alto	alto	PROPN	NNP	Number=Sing	12	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=Comm	15	punct	_	_
+17	CA	ca	PROPN	NNP	Number=Sing	15	npadvmod	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	15	punct	_	_
+19	and	and	CCONJ	CC	_	9	cc	_	_
+20	made	make	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	conj	_	_
+21	to	to	ADP	IN	_	20	prep	_	_
+22	a	a	DET	DT	_	27	det	_	_
+23	1	0	NUM	CD	NumType=Card	24	nummod	_	_
+24	μg	μg	NOUN	NN	Number=Sing	27	nmod	_	_
+25	/	/	SYM	SYM	_	26	punct	_	_
+26	ml	ml	NOUN	NN	Number=Sing	24	prep	_	_
+27	concentration	concentration	NOUN	NN	Number=Sing	21	pobj	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 576
+# text = This RNA was used as a template to create cDNA via RT-PCR using random hexamers and oligo dT primer.
+1	This	this	DET	DT	_	2	det	_	_
+2	RNA	rna	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	as	as	ADP	IN	_	4	prep	_	_
+6	a	a	DET	DT	_	7	det	_	_
+7	template	template	NOUN	NN	Number=Sing	5	pobj	_	_
+8	to	to	PART	TO	PartType=Inf|VerbForm=Inf	9	aux	_	_
+9	create	create	VERB	VB	VerbForm=Inf	4	advcl	_	_
+10	cDNA	cdna	NOUN	NN	Number=Sing	9	dobj	_	_
+11	via	via	ADP	IN	_	9	prep	_	_
+12	RT	rt	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+14	PCR	pcr	NOUN	NN	Number=Sing	11	pobj	_	_
+15	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	9	advcl	_	_
+16	random	random	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	hexamers	hexamers	NOUN	NNS	Number=Plur	15	dobj	_	_
+18	and	and	CCONJ	CC	_	17	cc	_	_
+19	oligo	oligo	NOUN	NN	Number=Sing	21	compound	_	_
+20	dT	dt	NOUN	NN	Number=Sing	21	compound	_	_
+21	primer	primer	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 577
+# text = The RT product was used to confirm the alternatively spliced form using primers: 5'-CATCTACCTGGGCTATTGC-3' (forward) and 5'-GCTCTCAGGTGGTGGACAC-3' (reverse) in a PCR reaction with an annealing temperature of 61°C.
+1	The	the	DET	DT	_	3	det	_	_
+2	RT	rt	NOUN	NN	Number=Sing	3	compound	_	_
+3	product	product	NOUN	NN	Number=Sing	5	nsubjpass	_	_
+4	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	7	aux	_	_
+7	confirm	confirm	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	the	the	DET	DT	_	11	det	_	_
+9	alternatively	alternatively	ADV	RB	Degree=Pos	10	advmod	_	_
+10	spliced	splice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	amod	_	_
+11	form	form	NOUN	NN	Number=Sing	7	dobj	_	_
+12	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	advcl	_	_
+13	primers	primer	NOUN	NNS	Number=Plur	12	dobj	_	SpaceAfter=No
+14	:	:	PUNCT	:	_	13	punct	_	_
+15	5	0	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+16	'	'	SYM	SYM	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+18	CATCTACCTGGGCTATTGC	catctacctgggctattgc	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+20	3	0	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+21	'	'	SYM	SYM	_	20	punct	_	_
+22	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	23	punct	_	SpaceAfter=No
+23	forward	forward	ADV	RB	Degree=Pos	20	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	23	punct	_	_
+25	and	and	CCONJ	CC	_	20	cc	_	_
+26	5	0	NUM	CD	NumType=Card	31	nummod	_	SpaceAfter=No
+27	'	'	SYM	SYM	_	26	punct	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	PunctType=Dash	31	punct	_	SpaceAfter=No
+29	GCTCTCAGGTGGTGGACAC	gctctcaggtggtggacac	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	PunctType=Dash	31	punct	_	SpaceAfter=No
+31	3	0	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+32	'	'	SYM	SYM	_	31	punct	_	_
+33	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	34	punct	_	SpaceAfter=No
+34	reverse	reverse	ADV	RB	Degree=Pos	31	parataxis	_	SpaceAfter=No
+35	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	34	punct	_	_
+36	in	in	ADP	IN	_	12	prep	_	_
+37	a	a	DET	DT	_	39	det	_	_
+38	PCR	pcr	NOUN	NN	Number=Sing	39	compound	_	_
+39	reaction	reaction	NOUN	NN	Number=Sing	36	pobj	_	_
+40	with	with	ADP	IN	_	12	prep	_	_
+41	an	an	DET	DT	_	43	det	_	_
+42	annealing	annealing	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	temperature	temperature	NOUN	NN	Number=Sing	40	pobj	_	_
+44	of	of	ADP	IN	_	43	prep	_	_
+45	61	0	NUM	CD	NumType=Card	46	nummod	_	SpaceAfter=No
+46	°C	°c	NOUN	NNS	Number=Plur	44	pobj	_	SpaceAfter=No
+47	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# newpar id = 11897010-p48
+# sent_id = 578
+# text = Southern Blot Analysis
+1	Southern	southern	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Blot	blot	NOUN	NN	Number=Sing	3	compound	_	_
+3	Analysis	analysis	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 11897010-p49
+# sent_id = 579
+# text = Total mouse genomic DNA was digested using EcoRI, BamHI, PstI, and XbaI.
+1	Total	total	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	mouse	mouse	NOUN	NN	Number=Sing	4	nmod	_	_
+3	genomic	genomic	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	DNA	dna	NOUN	NN	Number=Sing	6	nsubjpass	_	_
+5	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	6	auxpass	_	_
+6	digested	digest	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	6	advcl	_	_
+8	EcoRI	ecori	NOUN	NN	Number=Sing	7	dobj	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+10	BamHI	bamhi	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+12	PstI	psti	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
+14	and	and	CCONJ	CC	_	12	cc	_	_
+15	XbaI	xbai	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 580
+# text = The digests were electrophoresed on a 1% agarose gel at 60V overnight and were transferred onto a Hybond N+ membrane from Amersham Pharmacia Biotech (Piscataway, NJ).
+1	The	the	DET	DT	_	2	det	_	_
+2	digests	digest	NOUN	NNS	Number=Plur	4	nsubjpass	_	_
+3	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	electrophoresed	electrophoresed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	on	on	ADP	IN	_	4	prep	_	_
+6	a	a	DET	DT	_	10	det	_	_
+7	1	0	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	NOUN	NN	Number=Sing	10	compound	_	_
+9	agarose	agarose	NOUN	NN	Number=Sing	10	compound	_	_
+10	gel	gel	NOUN	NN	Number=Sing	5	pobj	_	_
+11	at	at	ADP	IN	_	4	prep	_	_
+12	60V	0v	NOUN	NN	Number=Sing	11	pobj	_	_
+13	overnight	overnight	ADV	RB	Degree=Pos	4	advmod	_	_
+14	and	and	CCONJ	CC	_	4	cc	_	_
+15	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	16	auxpass	_	_
+16	transferred	transfer	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	conj	_	_
+17	onto	onto	ADP	IN	_	16	prep	_	_
+18	a	a	DET	DT	_	21	det	_	_
+19	Hybond	hybond	NOUN	NN	Number=Sing	21	nmod	_	_
+20	N+	n+	ADJ	JJ	Degree=Pos	19	amod	_	_
+21	membrane	membrane	NOUN	NN	Number=Sing	17	pobj	_	_
+22	from	from	ADP	IN	_	16	prep	_	_
+23	Amersham	amersham	PROPN	NNP	Number=Sing	25	compound	_	_
+24	Pharmacia	pharmacia	PROPN	NNP	Number=Sing	25	compound	_	_
+25	Biotech	biotech	PROPN	NNP	Number=Sing	22	pobj	_	_
+26	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	27	punct	_	SpaceAfter=No
+27	Piscataway	piscataway	PROPN	NNP	Number=Sing	25	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	,	PunctType=Comm	27	punct	_	_
+29	NJ	nj	PROPN	NNP	Number=Sing	27	npadvmod	_	SpaceAfter=No
+30	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	27	punct	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 581
+# text = A 32P-dATP labeled PCR fragment of the Mcoln1 coding region corresponding to exon 2 was used as a probe (primers 5'-CCCCACAGAAGAGGAAGAC-3' (forward) and 5'-AGATCTTGACCACCTGCAG-3' (reverse) with an annealing temperature of 59°C).
+1	A	a	DET	DT	_	7	det	_	_
+2	32P	0p	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+4	dATP	datp	NOUN	NN	Number=Sing	5	npadvmod	_	_
+5	labeled	labeled	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	PCR	pcr	NOUN	NN	Number=Sing	7	compound	_	_
+7	fragment	fragment	NOUN	NN	Number=Sing	18	nsubjpass	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	12	det	_	_
+10	Mcoln1	mcoln0	NOUN	NN	Number=Sing	12	compound	_	_
+11	coding	coding	NOUN	NN	Number=Sing	12	compound	_	_
+12	region	region	NOUN	NN	Number=Sing	8	pobj	_	_
+13	corresponding	correspond	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	12	acl	_	_
+14	to	to	ADP	IN	_	13	prep	_	_
+15	exon	exon	NOUN	NN	Number=Sing	14	pobj	_	_
+16	2	0	NUM	CD	NumType=Card	15	nummod	_	_
+17	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	18	auxpass	_	_
+18	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+19	as	as	ADP	IN	_	18	prep	_	_
+20	a	a	DET	DT	_	21	det	_	_
+21	probe	probe	NOUN	NN	Number=Sing	19	pobj	_	_
+22	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	29	punct	_	SpaceAfter=No
+23	primers	primer	NOUN	NNS	Number=Plur	29	nmod	_	_
+24	5	0	NUM	CD	NumType=Card	29	nummod	_	SpaceAfter=No
+25	'	'	SYM	SYM	_	24	punct	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	PunctType=Dash	29	punct	_	SpaceAfter=No
+27	CCCCACAGAAGAGGAAGAC	ccccacagaagaggaagac	NOUN	NN	Number=Sing	29	compound	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	PunctType=Dash	29	punct	_	SpaceAfter=No
+29	3	0	NOUN	NN	Number=Sing	18	parataxis	_	SpaceAfter=No
+30	'	'	SYM	SYM	_	29	punct	_	_
+31	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	32	punct	_	SpaceAfter=No
+32	forward	forward	ADV	RB	Degree=Pos	29	parataxis	_	SpaceAfter=No
+33	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	32	punct	_	_
+34	and	and	CCONJ	CC	_	29	cc	_	_
+35	5	0	NUM	CD	NumType=Card	40	nummod	_	SpaceAfter=No
+36	'	'	SYM	SYM	_	35	punct	_	SpaceAfter=No
+37	-	-	PUNCT	HYPH	PunctType=Dash	40	punct	_	SpaceAfter=No
+38	AGATCTTGACCACCTGCAG	agatcttgaccacctgcag	NOUN	NN	Number=Sing	40	compound	_	SpaceAfter=No
+39	-	-	PUNCT	HYPH	PunctType=Dash	40	punct	_	SpaceAfter=No
+40	3	0	NOUN	NN	Number=Sing	29	conj	_	SpaceAfter=No
+41	'	'	SYM	SYM	_	40	punct	_	_
+42	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	43	punct	_	SpaceAfter=No
+43	reverse	reverse	ADV	RB	Degree=Pos	40	parataxis	_	SpaceAfter=No
+44	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	43	punct	_	_
+45	with	with	ADP	IN	_	29	prep	_	_
+46	an	an	DET	DT	_	48	det	_	_
+47	annealing	annealing	ADJ	JJ	Degree=Pos	48	amod	_	_
+48	temperature	temperature	NOUN	NN	Number=Sing	45	pobj	_	_
+49	of	of	ADP	IN	_	48	prep	_	_
+50	59	0	NUM	CD	NumType=Card	51	nummod	_	SpaceAfter=No
+51	°C	°c	NOUN	NNS	Number=Plur	49	pobj	_	SpaceAfter=No
+52	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	29	punct	_	SpaceAfter=No
+53	.	.	PUNCT	.	PunctType=Peri	18	punct	_	_
+
+# sent_id = 582
+# text = Hybridization and washes were carried out in standard conditions [16].
+1	Hybridization	hybridization	NOUN	NN	Number=Sing	5	nsubjpass	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	washes	wash	NOUN	NNS	Number=Plur	1	conj	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	carried	carry	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	out	out	ADP	RP	PartType=Vbp	5	prt	_	_
+7	in	in	ADP	IN	_	5	prep	_	_
+8	standard	standard	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	conditions	condition	NOUN	NNS	Number=Plur	7	pobj	_	_
+10	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	11	punct	_	SpaceAfter=No
+11	16	0	NUM	CD	NumType=Card	5	parataxis	_	SpaceAfter=No
+12	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# newpar id = 11897010-p50
+# sent_id = 583
+# text = Northern Blot Analysis
+1	Northern	northern	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Blot	blot	NOUN	NN	Number=Sing	3	compound	_	_
+3	Analysis	analysis	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 11897010-p51
+# sent_id = 584
+# text = Mouse embryo multiple-tissue northern blot and mouse adult multiple-tissue northern blot filters were purchased from Clontech Laboratories (Palo Alto, CA).
+1	Mouse	mouse	NOUN	NN	Number=Sing	5	nmod	_	_
+2	embryo	embryo	NOUN	NN	Number=Sing	5	nmod	_	_
+3	multiple	multiple	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+5	tissue	tissue	NOUN	NN	Number=Sing	7	nmod	_	_
+6	northern	northern	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	blot	blot	NOUN	NN	Number=Sing	16	nmod	_	_
+8	and	and	CCONJ	CC	_	7	cc	_	_
+9	mouse	mouse	NOUN	NN	Number=Sing	13	nmod	_	_
+10	adult	adult	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	multiple	multiple	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+13	tissue	tissue	NOUN	NN	Number=Sing	15	nmod	_	_
+14	northern	northern	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	blot	blot	NOUN	NN	Number=Sing	7	conj	_	_
+16	filters	filter	NOUN	NNS	Number=Plur	18	nsubjpass	_	_
+17	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	18	auxpass	_	_
+18	purchased	purchase	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+19	from	from	ADP	IN	_	18	prep	_	_
+20	Clontech	clontech	PROPN	NNP	Number=Sing	21	compound	_	_
+21	Laboratories	laboratories	PROPN	NNP	Number=Sing	19	pobj	_	_
+22	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	24	punct	_	SpaceAfter=No
+23	Palo	palo	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Alto	alto	PROPN	NNP	Number=Sing	21	parataxis	_	SpaceAfter=No
+25	,	,	PUNCT	,	PunctType=Comm	24	punct	_	_
+26	CA	ca	PROPN	NNP	Number=Sing	24	npadvmod	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	24	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	18	punct	_	_
+
+# sent_id = 585
+# text = The filters were hybridized with the 32P-dATP labeled DNA fragment of Mcoln1 coding region corresponding to exon 2 (see above).
+1	The	the	DET	DT	_	2	det	_	_
+2	filters	filter	NOUN	NNS	Number=Plur	4	nsubjpass	_	_
+3	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	hybridized	hybridize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	with	with	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	12	det	_	_
+7	32P	0p	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	dATP	datp	NOUN	NN	Number=Sing	10	npadvmod	_	_
+10	labeled	labeled	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	DNA	dna	NOUN	NN	Number=Sing	12	compound	_	_
+12	fragment	fragment	NOUN	NN	Number=Sing	5	pobj	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	Mcoln1	mcoln0	NOUN	NN	Number=Sing	16	compound	_	_
+15	coding	coding	NOUN	NN	Number=Sing	16	compound	_	_
+16	region	region	NOUN	NN	Number=Sing	13	pobj	_	_
+17	corresponding	correspond	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	16	acl	_	_
+18	to	to	ADP	IN	_	17	prep	_	_
+19	exon	exon	NOUN	NN	Number=Sing	18	pobj	_	_
+20	2	0	NUM	CD	NumType=Card	19	nummod	_	_
+21	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	22	punct	_	SpaceAfter=No
+22	see	see	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+23	above	above	ADV	RB	Degree=Pos	22	advmod	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 586
+# text = For the alternative transcript, a probe was generated in the region between exons 12 and 13 with primers 5'-GTGTCCACCACCTGAGAG-3' (forward) and 5'-GAAGTAGCATTCCTGCAGGC-3' (reverse) with an annealing temperature of 62°C.
+1	For	for	ADP	IN	_	9	prep	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	alternative	alternative	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	transcript	transcript	NOUN	NN	Number=Sing	1	pobj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+6	a	a	DET	DT	_	7	det	_	_
+7	probe	probe	NOUN	NN	Number=Sing	9	nsubjpass	_	_
+8	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	9	auxpass	_	_
+9	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	IN	_	9	prep	_	_
+11	the	the	DET	DT	_	12	det	_	_
+12	region	region	NOUN	NN	Number=Sing	10	pobj	_	_
+13	between	between	ADP	IN	_	12	prep	_	_
+14	exons	exon	NOUN	NNS	Number=Plur	15	nmod	_	_
+15	12	0	NUM	CD	NumType=Card	13	pobj	_	_
+16	and	and	CCONJ	CC	_	15	cc	_	_
+17	13	0	NUM	CD	NumType=Card	15	conj	_	_
+18	with	with	ADP	IN	_	9	prep	_	_
+19	primers	primer	NOUN	NNS	Number=Plur	25	nmod	_	_
+20	5	0	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+21	'	'	SYM	SYM	_	20	punct	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+23	GTGTCCACCACCTGAGAG	gtgtccaccacctgagag	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	3	0	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
+26	'	'	SYM	SYM	_	25	punct	_	_
+27	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	28	punct	_	SpaceAfter=No
+28	forward	forward	ADV	RB	Degree=Pos	25	parataxis	_	SpaceAfter=No
+29	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	28	punct	_	_
+30	and	and	CCONJ	CC	_	25	cc	_	_
+31	5	0	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+32	'	'	SYM	SYM	_	31	punct	_	SpaceAfter=No
+33	-	-	PUNCT	HYPH	PunctType=Dash	36	punct	_	SpaceAfter=No
+34	GAAGTAGCATTCCTGCAGGC	gaagtagcattcctgcaggc	NOUN	NN	Number=Sing	36	compound	_	SpaceAfter=No
+35	-	-	PUNCT	HYPH	PunctType=Dash	36	punct	_	SpaceAfter=No
+36	3	0	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
+37	'	'	SYM	SYM	_	36	punct	_	_
+38	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	39	punct	_	SpaceAfter=No
+39	reverse	reverse	ADV	RB	Degree=Pos	36	parataxis	_	SpaceAfter=No
+40	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	39	punct	_	_
+41	with	with	ADP	IN	_	9	prep	_	_
+42	an	an	DET	DT	_	44	det	_	_
+43	annealing	annealing	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	temperature	temperature	NOUN	NN	Number=Sing	41	pobj	_	_
+45	of	of	ADP	IN	_	44	prep	_	_
+46	62	0	NUM	CD	NumType=Card	47	nummod	_	SpaceAfter=No
+47	°C	°c	NOUN	NNS	Number=Plur	45	pobj	_	SpaceAfter=No
+48	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 587
+# text = The filters were then hybridized with β-actin probes.
+1	The	the	DET	DT	_	2	det	_	_
+2	filters	filter	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+3	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+4	then	then	ADV	RB	Degree=Pos	5	advmod	_	_
+5	hybridized	hybridize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	with	with	ADP	IN	_	5	prep	_	_
+7	β	β	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	actin	actin	NOUN	NN	Number=Sing	10	compound	_	_
+10	probes	probe	NOUN	NNS	Number=Plur	6	pobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 588
+# text = Hybridizations and washes were carried out in standard conditions, with the stripping of previously bound probes in between [16].
+1	Hybridizations	hybridization	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	washes	wash	NOUN	NNS	Number=Plur	1	conj	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	carried	carry	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	out	out	ADP	RP	PartType=Vbp	5	prt	_	_
+7	in	in	ADP	IN	_	5	prep	_	_
+8	standard	standard	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	conditions	condition	NOUN	NNS	Number=Plur	7	pobj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+11	with	with	ADP	IN	_	5	prep	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	stripping	stripping	NOUN	NN	Number=Sing	11	pobj	_	_
+14	of	of	ADP	IN	_	13	prep	_	_
+15	previously	previously	ADV	RB	Degree=Pos	16	advmod	_	_
+16	bound	bind	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	17	amod	_	_
+17	probes	probe	NOUN	NNS	Number=Plur	14	pobj	_	_
+18	in	in	ADV	RB	Degree=Pos	19	advmod	_	_
+19	between	between	ADV	RB	Degree=Pos	13	advmod	_	_
+20	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	21	punct	_	SpaceAfter=No
+21	16	0	NUM	CD	NumType=Card	5	parataxis	_	SpaceAfter=No
+22	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# newpar id = 11897010-p52
+# sent_id = 589
+# text = Acknowledgements
+1	Acknowledgements	acknowledgement	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 11897010-p53
+# sent_id = 590
+# text = This work was supported by grant NS39995.
+1	This	this	DET	DT	_	2	det	_	_
+2	work	work	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	supported	support	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	ADP	IN	_	4	agent	_	_
+6	grant	grant	NOUN	NN	Number=Sing	7	compound	_	_
+7	NS39995	ns0	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+8	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
