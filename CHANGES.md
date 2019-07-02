@@ -1,5 +1,8 @@
 # CRAFT Corpus Changes
 
+## Version 3.1.3
+* Updated file-conversion dependeny to v0.2.2 to handle/prevent some improper discontinuous spans in the coreference annotations. For details, please see this issue: https://github.com/UCDenver-ccp/craft-shared-tasks/issues/1 and the changes made in the file-conversion project: https://github.com/UCDenver-ccp/file-conversion/blob/master/CHANGES.md
+
 ## Version 3.1.2
 * Corrected erroneous extension class prefixes in the `concept-annotation/GO_MF/GO_MF+extensions/GO_MF_stub+GO_MF_extensions.obo` file
 
