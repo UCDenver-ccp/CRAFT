@@ -34,7 +34,7 @@
 
 (def craft-file-paths {:text-file-directory               (file "articles" "txt")
                        :knowtator-hidden-directory        (file ".knowtator2")
-                       :pmid-to-pmcid-map-file            (file "articles" "ids" "craft-idmappings-release")
+                       :pmid-to-pmcid-map-file            (file "articles" "ids" "craft-idmappings.txt")
                        :concept-annotation-base-directory (file "concept-annotation")})
 
 (defn consolidate-formats [fileset valid-annotation-formats]
