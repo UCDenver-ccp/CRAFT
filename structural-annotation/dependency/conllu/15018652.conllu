@@ -1,0 +1,2948 @@
+# newdoc id = 15018652
+# newpar id = 15018652-p0
+# sent_id = 1593
+# text = Dppa3 / Pgc7 / stella is a maternal factor and is not required for germ cell specification in mice
+1	Dppa3	dppa0	NOUN	NN	Number=Sing	5	compound	_	_
+2	/	/	PUNCT	HYPH	PunctType=Dash	5	punct	_	_
+3	Pgc7	pgc0	NOUN	NN	Number=Sing	5	compound	_	_
+4	/	/	PUNCT	HYPH	PunctType=Dash	5	punct	_	_
+5	stella	stella	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	DET	DT	_	9	det	_	_
+8	maternal	maternal	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	factor	factor	NOUN	NN	Number=Sing	6	attr	_	_
+10	and	and	CCONJ	CC	_	6	cc	_	_
+11	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	auxpass	_	_
+12	not	not	ADV	RB	Degree=Pos	13	neg	_	_
+13	required	require	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	conj	_	_
+14	for	for	ADP	IN	_	13	prep	_	_
+15	germ	germ	NOUN	NN	Number=Sing	16	compound	_	_
+16	cell	cell	NOUN	NN	Number=Sing	17	compound	_	_
+17	specification	specification	NOUN	NN	Number=Sing	14	pobj	_	_
+18	in	in	ADP	IN	_	17	prep	_	_
+19	mice	mouse	NOUN	NNS	Number=Plur	18	pobj	_	_
+
+# newpar id = 15018652-p1
+# sent_id = 1594
+# text = Abstract
+1	Abstract	abstract	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15018652-p2
+# sent_id = 1595
+# text = Background
+1	Background	background	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15018652-p3
+# sent_id = 1596
+# text = In mice, germ cells are specified through signalling between layers of cells comprising the primitive embryo.
+1	In	in	ADP	IN	_	7	prep	_	_
+2	mice	mouse	NOUN	NNS	Number=Plur	1	pobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
+4	germ	germ	NOUN	NN	Number=Sing	5	compound	_	_
+5	cells	cell	NOUN	NNS	Number=Plur	7	nsubjpass	_	_
+6	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	7	auxpass	_	_
+7	specified	specify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	through	through	ADP	IN	_	7	prep	_	_
+9	signalling	signalling	NOUN	NN	Number=Sing	8	pobj	_	_
+10	between	between	ADP	IN	_	9	prep	_	_
+11	layers	layer	NOUN	NNS	Number=Plur	10	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	cells	cell	NOUN	NNS	Number=Plur	12	pobj	_	_
+14	comprising	comprise	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	13	acl	_	_
+15	the	the	DET	DT	_	17	det	_	_
+16	primitive	primitive	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	embryo	embryo	NOUN	NN	Number=Sing	14	dobj	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 1597
+# text = The function of Dppa3 (also known as Pgc7 or stella), a gene expressed in primordial germ cells at the time of their emergence in gastrulating embryos, is unknown, but a recent study has claimed that it plays a central role in germ cell specification.
+1	The	the	DET	DT	_	2	det	_	_
+2	function	function	NOUN	NN	Number=Sing	31	nsubj	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	Dppa3	dppa0	NOUN	NN	Number=Sing	3	pobj	_	_
+5	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	7	punct	_	SpaceAfter=No
+6	also	also	ADV	RB	Degree=Pos	7	advmod	_	_
+7	known	know	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	parataxis	_	_
+8	as	as	ADP	IN	_	7	prep	_	_
+9	Pgc7	pgc0	NOUN	NN	Number=Sing	8	pobj	_	_
+10	or	or	CCONJ	CC	_	9	cc	_	_
+11	stella	stella	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	7	punct	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+14	a	a	DET	DT	_	15	det	_	_
+15	gene	gene	NOUN	NN	Number=Sing	4	appos	_	_
+16	expressed	express	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	15	acl	_	_
+17	in	in	ADP	IN	_	16	prep	_	_
+18	primordial	primordial	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	germ	germ	NOUN	NN	Number=Sing	20	compound	_	_
+20	cells	cell	NOUN	NNS	Number=Plur	17	pobj	_	_
+21	at	at	ADP	IN	_	16	prep	_	_
+22	the	the	DET	DT	_	23	det	_	_
+23	time	time	NOUN	NN	Number=Sing	21	pobj	_	_
+24	of	of	ADP	IN	_	23	prep	_	_
+25	their	their	DET	PRP$	Poss=Yes|PronType=Prs	26	poss	_	_
+26	emergence	emergence	NOUN	NN	Number=Sing	24	pobj	_	_
+27	in	in	ADP	IN	_	26	prep	_	_
+28	gastrulating	gastrulating	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	29	amod	_	_
+29	embryos	embryo	NOUN	NNS	Number=Plur	27	pobj	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=Comm	31	punct	_	_
+31	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+32	unknown	unknown	ADJ	JJ	Degree=Pos	31	acomp	_	SpaceAfter=No
+33	,	,	PUNCT	,	PunctType=Comm	31	punct	_	_
+34	but	but	CCONJ	CC	_	31	cc	_	_
+35	a	a	DET	DT	_	37	det	_	_
+36	recent	recent	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	study	study	NOUN	NN	Number=Sing	39	nsubj	_	_
+38	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	claimed	claim	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	31	conj	_	_
+40	that	that	ADP	IN	_	42	mark	_	_
+41	it	it	PRON	PRP	PronType=Prs	42	nsubj	_	_
+42	plays	play	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	ccomp	_	_
+43	a	a	DET	DT	_	45	det	_	_
+44	central	central	ADJ	JJ	Degree=Pos	45	amod	_	_
+45	role	role	NOUN	NN	Number=Sing	42	dobj	_	_
+46	in	in	ADP	IN	_	42	prep	_	_
+47	germ	germ	NOUN	NN	Number=Sing	48	compound	_	_
+48	cell	cell	NOUN	NN	Number=Sing	49	compound	_	_
+49	specification	specification	NOUN	NN	Number=Sing	46	pobj	_	SpaceAfter=No
+50	.	.	PUNCT	.	PunctType=Peri	39	punct	_	_
+
+# newpar id = 15018652-p4
+# sent_id = 1598
+# text = Results
+1	Results	result	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15018652-p5
+# sent_id = 1599
+# text = To test Dppa3's role in germ cell development, we disrupted the gene in mouse embryonic stem cells and generated mutant animals.
+1	To	to	PART	TO	PartType=Inf|VerbForm=Inf	2	aux	_	_
+2	test	test	VERB	VB	VerbForm=Inf	12	advcl	_	_
+3	Dppa3	dppa0	NOUN	NN	Number=Sing	5	poss	_	SpaceAfter=No
+4	's	's	PART	POS	Poss=Yes	3	case	_	_
+5	role	role	NOUN	NN	Number=Sing	2	dobj	_	_
+6	in	in	ADP	IN	_	2	prep	_	_
+7	germ	germ	NOUN	NN	Number=Sing	8	compound	_	_
+8	cell	cell	NOUN	NN	Number=Sing	9	compound	_	_
+9	development	development	NOUN	NN	Number=Sing	6	pobj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
+11	we	we	PRON	PRP	PronType=Prs	12	nsubj	_	_
+12	disrupted	disrupt	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	gene	gene	NOUN	NN	Number=Sing	12	dobj	_	_
+15	in	in	ADP	IN	_	12	prep	_	_
+16	mouse	mouse	NOUN	NN	Number=Sing	19	nmod	_	_
+17	embryonic	embryonic	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	stem	stem	NOUN	NN	Number=Sing	19	compound	_	_
+19	cells	cell	NOUN	NNS	Number=Plur	15	pobj	_	_
+20	and	and	CCONJ	CC	_	12	cc	_	_
+21	generated	generate	VERB	VBD	Tense=Past|VerbForm=Fin	12	conj	_	_
+22	mutant	mutant	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	animals	animal	NOUN	NNS	Number=Plur	21	dobj	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=Peri	12	punct	_	_
+
+# sent_id = 1600
+# text = We were able to obtain viable and fertile Dppa3-deficient animals of both sexes.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	able	able	ADJ	JJ	Degree=Pos	2	acomp	_	_
+4	to	to	PART	TO	PartType=Inf|VerbForm=Inf	5	aux	_	_
+5	obtain	obtain	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	viable	viable	ADJ	JJ	Degree=Pos	12	amod	_	_
+7	and	and	CCONJ	CC	_	6	cc	_	_
+8	fertile	fertile	ADJ	JJ	Degree=Pos	6	conj	_	_
+9	Dppa3	dppa0	NOUN	NN	Number=Sing	11	npadvmod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+11	deficient	deficient	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	animals	animal	NOUN	NNS	Number=Plur	5	dobj	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	both	both	DET	DT	_	15	det	_	_
+15	sexes	sex	NOUN	NNS	Number=Plur	13	pobj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1601
+# text = Examination of embryonic and adult germ cells and gonads in Dppa3-deficient animals did not reveal any defects.
+1	Examination	examination	NOUN	NN	Number=Sing	17	nsubj	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	embryonic	embryonic	ADJ	JJ	Degree=Pos	7	amod	_	_
+4	and	and	CCONJ	CC	_	3	cc	_	_
+5	adult	adult	ADJ	JJ	Degree=Pos	3	conj	_	_
+6	germ	germ	NOUN	NN	Number=Sing	7	compound	_	_
+7	cells	cell	NOUN	NNS	Number=Plur	2	pobj	_	_
+8	and	and	CCONJ	CC	_	7	cc	_	_
+9	gonads	gonad	NOUN	NNS	Number=Plur	7	conj	_	_
+10	in	in	ADP	IN	_	7	prep	_	_
+11	Dppa3	dppa0	NOUN	NN	Number=Sing	13	npadvmod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+13	deficient	deficient	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	animals	animal	NOUN	NNS	Number=Plur	10	pobj	_	_
+15	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	17	aux	_	_
+16	not	not	ADV	RB	Degree=Pos	17	neg	_	_
+17	reveal	reveal	VERB	VB	VerbForm=Inf	0	root	_	_
+18	any	any	DET	DT	_	19	det	_	_
+19	defects	defect	NOUN	NNS	Number=Plur	17	dobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	17	punct	_	_
+
+# sent_id = 1602
+# text = However, most embryos derived from Dppa3-deficient oocytes failed to develop normally beyond the four-cell stage.
+1	However	however	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+3	most	most	ADJ	JJS	Degree=Sup	4	amod	_	_
+4	embryos	embryo	NOUN	NNS	Number=Plur	11	nsubj	_	_
+5	derived	derive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	acl	_	_
+6	from	from	ADP	IN	_	5	prep	_	_
+7	Dppa3	dppa0	NOUN	NN	Number=Sing	9	npadvmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	deficient	deficient	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	oocytes	oocyte	NOUN	NNS	Number=Plur	6	pobj	_	_
+11	failed	fail	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+12	to	to	PART	TO	PartType=Inf|VerbForm=Inf	13	aux	_	_
+13	develop	develop	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	normally	normally	ADV	RB	Degree=Pos	13	advmod	_	_
+15	beyond	beyond	ADP	IN	_	13	prep	_	_
+16	the	the	DET	DT	_	20	det	_	_
+17	four	#crd#	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+19	cell	cell	NOUN	NN	Number=Sing	20	compound	_	_
+20	stage	stage	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	11	punct	_	_
+
+# newpar id = 15018652-p6
+# sent_id = 1603
+# text = Conclusion
+1	Conclusion	conclusion	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15018652-p7
+# sent_id = 1604
+# text = We found that Dppa3 is an important maternal factor in the cleavage stages of mouse embryogenesis.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	found	find	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	ADP	IN	_	5	mark	_	_
+4	Dppa3	dppa0	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	an	an	DET	DT	_	9	det	_	_
+7	important	important	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	maternal	maternal	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	factor	factor	NOUN	NN	Number=Sing	5	attr	_	_
+10	in	in	ADP	IN	_	5	prep	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	cleavage	cleavage	NOUN	NN	Number=Sing	13	compound	_	_
+13	stages	stage	NOUN	NNS	Number=Plur	10	pobj	_	_
+14	of	of	ADP	IN	_	13	prep	_	_
+15	mouse	mouse	NOUN	NN	Number=Sing	16	compound	_	_
+16	embryogenesis	embryogenesis	NOUN	NN	Number=Sing	14	pobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1605
+# text = However, it is not required for germ cell specification.
+1	However	however	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+3	it	it	PRON	PRP	PronType=Prs	6	nsubjpass	_	_
+4	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	auxpass	_	_
+5	not	not	ADV	RB	Degree=Pos	6	neg	_	_
+6	required	require	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	for	for	ADP	IN	_	6	prep	_	_
+8	germ	germ	NOUN	NN	Number=Sing	9	compound	_	_
+9	cell	cell	NOUN	NN	Number=Sing	10	compound	_	_
+10	specification	specification	NOUN	NN	Number=Sing	7	pobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# newpar id = 15018652-p8
+# sent_id = 1606
+# text = Background
+1	Background	background	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15018652-p9
+# sent_id = 1607
+# text = Among the many specialized cell types present in adult mammals, the first to be programmed or specified during embryogenesis are germ cells, which give rise to eggs and sperm.
+1	Among	among	ADP	IN	_	21	prep	_	_
+2	the	the	DET	DT	_	6	det	_	_
+3	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	specialized	specialize	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	amod	_	_
+5	cell	cell	NOUN	NN	Number=Sing	6	compound	_	_
+6	types	type	NOUN	NNS	Number=Plur	1	pobj	_	_
+7	present	present	ADJ	JJ	Degree=Pos	6	amod	_	_
+8	in	in	ADP	IN	_	7	prep	_	_
+9	adult	adult	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	mammals	mammal	NOUN	NNS	Number=Plur	8	pobj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	21	punct	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	first	#ord#	ADJ	JJ	Degree=Pos	21	nsubj	_	_
+14	to	to	PART	TO	PartType=Inf|VerbForm=Inf	16	aux	_	_
+15	be	be	VERB	VB	VerbForm=Inf	16	auxpass	_	_
+16	programmed	program	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	advcl	_	_
+17	or	or	CCONJ	CC	_	16	cc	_	_
+18	specified	specify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	16	conj	_	_
+19	during	during	ADP	IN	_	18	prep	_	_
+20	embryogenesis	embryogenesis	NOUN	NN	Number=Sing	19	pobj	_	_
+21	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+22	germ	germ	NOUN	NN	Number=Sing	23	compound	_	_
+23	cells	cell	NOUN	NNS	Number=Plur	21	attr	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=Comm	23	punct	_	_
+25	which	which	DET	WDT	PronType=Int,Rel	26	dep	_	23:ref=
+26	give	give	VERB	VBP	Tense=Pres|VerbForm=Fin	23	relcl	_	_
+27	rise	rise	NOUN	NN	Number=Sing	26	dobj	_	_
+28	to	to	ADP	IN	_	26	prep	_	_
+29	eggs	egg	NOUN	NNS	Number=Plur	28	pobj	_	_
+30	and	and	CCONJ	CC	_	29	cc	_	_
+31	sperm	sperm	NOUN	NN	Number=Sing	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=Peri	21	punct	_	_
+
+# sent_id = 1608
+# text = Which molecules direct this programming of germ cells?
+1	Which	which	DET	WDT	PronType=Int,Rel	2	det	_	_
+2	molecules	molecule	NOUN	NNS	Number=Plur	3	dep	_	_
+3	direct	direct	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	this	this	DET	DT	_	5	det	_	_
+5	programming	programming	NOUN	NN	Number=Sing	3	dobj	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	germ	germ	NOUN	NN	Number=Sing	8	compound	_	_
+8	cells	cell	NOUN	NNS	Number=Plur	6	pobj	_	SpaceAfter=No
+9	?	?	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 1609
+# text = In many other animals, including flies and worms, material known as "germ plasm" is laid down in the egg before fertilization, and its subsequent passage to a subset of embryonic cells dictates their fate as germ cells [1,2].
+1	In	in	ADP	IN	_	19	prep	_	_
+2	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	animals	animal	NOUN	NNS	Number=Plur	1	pobj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+6	including	include	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	prep	_	_
+7	flies	fly	NOUN	NNS	Number=Plur	6	pobj	_	_
+8	and	and	CCONJ	CC	_	7	cc	_	_
+9	worms	worm	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=Comm	19	punct	_	_
+11	material	material	NOUN	NN	Number=Sing	19	nsubjpass	_	_
+12	known	know	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	acl	_	_
+13	as	as	ADP	IN	_	12	prep	_	_
+14	"	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	13	punct	_	SpaceAfter=No
+15	germ	germ	NOUN	NN	Number=Sing	16	compound	_	_
+16	plasm	plasm	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+17	"	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	19	punct	_	_
+18	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	auxpass	_	_
+19	laid	lay	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+20	down	down	ADP	RP	PartType=Vbp	19	prt	_	_
+21	in	in	ADP	IN	_	19	prep	_	_
+22	the	the	DET	DT	_	23	det	_	_
+23	egg	egg	NOUN	NN	Number=Sing	21	pobj	_	_
+24	before	before	ADP	IN	_	19	prep	_	_
+25	fertilization	fertilization	NOUN	NN	Number=Sing	24	pobj	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=Comm	19	punct	_	_
+27	and	and	CCONJ	CC	_	19	cc	_	_
+28	its	its	DET	PRP$	Poss=Yes|PronType=Prs	30	poss	_	_
+29	subsequent	subsequent	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	passage	passage	NOUN	NN	Number=Sing	37	nsubj	_	_
+31	to	to	ADP	IN	_	30	prep	_	_
+32	a	a	DET	DT	_	33	det	_	_
+33	subset	subset	NOUN	NN	Number=Sing	31	pobj	_	_
+34	of	of	ADP	IN	_	33	prep	_	_
+35	embryonic	embryonic	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	cells	cell	NOUN	NNS	Number=Plur	34	pobj	_	_
+37	dictates	dictate	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+38	their	their	DET	PRP$	Poss=Yes|PronType=Prs	39	poss	_	_
+39	fate	fate	NOUN	NN	Number=Sing	37	dobj	_	_
+40	as	as	ADP	IN	_	39	prep	_	_
+41	germ	germ	NOUN	NN	Number=Sing	42	compound	_	_
+42	cells	cell	NOUN	NNS	Number=Plur	40	pobj	_	_
+43	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	46	punct	_	SpaceAfter=No
+44	1	0	NUM	CD	NumType=Card	46	nummod	_	SpaceAfter=No
+45	,	,	PUNCT	,	PunctType=Comm	46	punct	_	SpaceAfter=No
+46	2	0	NUM	CD	NumType=Card	37	parataxis	_	SpaceAfter=No
+47	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	46	punct	_	SpaceAfter=No
+48	.	.	PUNCT	.	PunctType=Peri	37	punct	_	_
+
+# sent_id = 1610
+# text = In mammalian embryos, germ cells are specified in a very different manner, through signalling between layers of cells comprising the primitive embryo [3,4].
+1	In	in	ADP	IN	_	8	prep	_	_
+2	mammalian	mammalian	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	embryos	embryo	NOUN	NNS	Number=Plur	1	pobj	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+5	germ	germ	NOUN	NN	Number=Sing	6	compound	_	_
+6	cells	cell	NOUN	NNS	Number=Plur	8	nsubjpass	_	_
+7	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	8	auxpass	_	_
+8	specified	specify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	IN	_	8	prep	_	_
+10	a	a	DET	DT	_	13	det	_	_
+11	very	very	ADV	RB	Degree=Pos	12	advmod	_	_
+12	different	different	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	manner	manner	NOUN	NN	Number=Sing	9	pobj	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+15	through	through	ADP	IN	_	8	prep	_	_
+16	signalling	signal	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	15	pcomp	_	_
+17	between	between	ADP	IN	_	16	prep	_	_
+18	layers	layer	NOUN	NNS	Number=Plur	17	pobj	_	_
+19	of	of	ADP	IN	_	18	prep	_	_
+20	cells	cell	NOUN	NNS	Number=Plur	19	pobj	_	_
+21	comprising	comprise	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	20	acl	_	_
+22	the	the	DET	DT	_	24	det	_	_
+23	primitive	primitive	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	embryo	embryo	NOUN	NN	Number=Sing	21	dobj	_	_
+25	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	28	punct	_	SpaceAfter=No
+26	3	0	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	28	punct	_	SpaceAfter=No
+28	4	0	NUM	CD	NumType=Card	8	parataxis	_	SpaceAfter=No
+29	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
+
+# newpar id = 15018652-p10
+# sent_id = 1611
+# text = Recently, Saitou, Barton and Surani proposed a molecular pathway by which these intercellular signals are translated into germ cell fate in mice [5,6].
+1	Recently	recently	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+3	Saitou	saitou	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
+5	Barton	barton	PROPN	NNP	Number=Sing	3	conj	_	_
+6	and	and	CCONJ	CC	_	5	cc	_	_
+7	Surani	surani	PROPN	NNP	Number=Sing	5	conj	_	_
+8	proposed	propose	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	DET	DT	_	11	det	_	_
+10	molecular	molecular	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	pathway	pathway	NOUN	NN	Number=Sing	8	dobj	_	_
+12	by	by	ADP	IN	_	18	prep	_	_
+13	which	which	DET	WDT	PronType=Int,Rel	12	pobj	_	11:ref=
+14	these	these	DET	DT	_	16	det	_	_
+15	intercellular	intercellular	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	signals	signal	NOUN	NNS	Number=Plur	18	nsubjpass	_	_
+17	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	18	auxpass	_	_
+18	translated	translate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	relcl	_	_
+19	into	into	ADP	IN	_	18	prep	_	_
+20	germ	germ	NOUN	NN	Number=Sing	21	compound	_	_
+21	cell	cell	NOUN	NN	Number=Sing	22	compound	_	_
+22	fate	fate	NOUN	NN	Number=Sing	19	pobj	_	_
+23	in	in	ADP	IN	_	18	prep	_	_
+24	mice	mouse	NOUN	NNS	Number=Plur	23	pobj	_	_
+25	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	28	punct	_	SpaceAfter=No
+26	5	0	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	28	punct	_	SpaceAfter=No
+28	6	0	NUM	CD	NumType=Card	8	parataxis	_	SpaceAfter=No
+29	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
+
+# sent_id = 1612
+# text = Central to this proposed program of germ cell specification is stella / PGC7 / Dppa3, a gene expressed in primordial germ cells and their descendants, including oocytes [5,7,8].
+1	Central	central	ADJ	JJ	Degree=Pos	10	acomp	_	_
+2	to	to	ADP	IN	_	1	prep	_	_
+3	this	this	DET	DT	_	5	det	_	_
+4	proposed	propose	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	amod	_	_
+5	program	program	NOUN	NN	Number=Sing	2	pobj	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	germ	germ	NOUN	NN	Number=Sing	8	compound	_	_
+8	cell	cell	NOUN	NN	Number=Sing	9	compound	_	_
+9	specification	specification	NOUN	NN	Number=Sing	6	pobj	_	_
+10	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	stella	stella	NOUN	NN	Number=Sing	15	compound	_	_
+12	/	/	PUNCT	HYPH	PunctType=Dash	15	punct	_	_
+13	PGC7	pgc0	NOUN	NN	Number=Sing	15	compound	_	_
+14	/	/	PUNCT	HYPH	PunctType=Dash	15	punct	_	_
+15	Dppa3	dppa0	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=Comm	15	punct	_	_
+17	a	a	DET	DT	_	18	det	_	_
+18	gene	gene	NOUN	NN	Number=Sing	15	appos	_	_
+19	expressed	express	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	18	acl	_	_
+20	in	in	ADP	IN	_	19	prep	_	_
+21	primordial	primordial	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	germ	germ	NOUN	NN	Number=Sing	23	compound	_	_
+23	cells	cell	NOUN	NNS	Number=Plur	20	pobj	_	_
+24	and	and	CCONJ	CC	_	23	cc	_	_
+25	their	their	DET	PRP$	Poss=Yes|PronType=Prs	26	poss	_	_
+26	descendants	descendant	NOUN	NNS	Number=Plur	23	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
+28	including	include	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	26	prep	_	_
+29	oocytes	oocyte	NOUN	NNS	Number=Plur	28	pobj	_	_
+30	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	35	punct	_	SpaceAfter=No
+31	5	0	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
+32	,	,	PUNCT	,	PunctType=Comm	35	punct	_	SpaceAfter=No
+33	7	0	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
+34	,	,	PUNCT	,	PunctType=Comm	35	punct	_	SpaceAfter=No
+35	8	0	NUM	CD	NumType=Card	10	parataxis	_	SpaceAfter=No
+36	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 1613
+# text = Here we will use the name Dppa3, as approved by the Mouse Genome Informatics Database, when referring to this gene.
+1	Here	here	ADV	RB	Degree=Pos	4	advmod	_	_
+2	we	we	PRON	PRP	PronType=Prs	4	nsubj	_	_
+3	will	will	VERB	MD	VerbType=Mod	4	aux	_	_
+4	use	use	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	name	name	NOUN	NN	Number=Sing	7	compound	_	_
+7	Dppa3	dppa0	NOUN	NN	Number=Sing	4	dobj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+9	as	as	ADP	IN	_	10	mark	_	_
+10	approved	approve	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	advcl	_	_
+11	by	by	ADP	IN	_	10	agent	_	_
+12	the	the	DET	DT	_	16	det	_	_
+13	Mouse	mouse	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Genome	genome	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Informatics	informatics	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Database	database	PROPN	NNP	Number=Sing	11	pobj	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+18	when	when	ADV	WRB	PronType=Int,Rel	19	advmod	_	_
+19	referring	refer	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	advcl	_	_
+20	to	to	ADP	IN	_	19	prep	_	_
+21	this	this	DET	DT	_	22	det	_	_
+22	gene	gene	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 1614
+# text = Saitou and colleagues' model of Dppa3's role in germ cell specification was based on the timing and site of the gene's expression, not on functional analysis.
+1	Saitou	saitou	PROPN	NNP	Number=Sing	5	poss	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	colleagues	colleague	NOUN	NNS	Number=Plur	1	conj	_	SpaceAfter=No
+4	'	'	PART	POS	Poss=Yes	3	case	_	_
+5	model	model	NOUN	NN	Number=Sing	15	nsubjpass	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	Dppa3	dppa0	NOUN	NN	Number=Sing	9	poss	_	SpaceAfter=No
+8	's	's	PART	POS	Poss=Yes	7	case	_	_
+9	role	role	NOUN	NN	Number=Sing	6	pobj	_	_
+10	in	in	ADP	IN	_	9	prep	_	_
+11	germ	germ	NOUN	NN	Number=Sing	12	compound	_	_
+12	cell	cell	NOUN	NN	Number=Sing	13	compound	_	_
+13	specification	specification	NOUN	NN	Number=Sing	10	pobj	_	_
+14	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	15	auxpass	_	_
+15	based	base	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+16	on	on	ADP	IN	_	15	prep	_	_
+17	the	the	DET	DT	_	18	det	_	_
+18	timing	timing	NOUN	NN	Number=Sing	16	pobj	_	_
+19	and	and	CCONJ	CC	_	18	cc	_	_
+20	site	site	NOUN	NN	Number=Sing	18	conj	_	_
+21	of	of	ADP	IN	_	18	prep	_	_
+22	the	the	DET	DT	_	23	det	_	_
+23	gene	gene	NOUN	NN	Number=Sing	25	poss	_	SpaceAfter=No
+24	's	's	PART	POS	Poss=Yes	23	case	_	_
+25	expression	expression	NOUN	NN	Number=Sing	21	pobj	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
+27	not	not	CCONJ	CC	_	16	cc	_	_
+28	on	on	ADP	IN	_	16	conj	_	_
+29	functional	functional	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	analysis	analysis	NOUN	NN	Number=Sing	28	pobj	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=Peri	15	punct	_	_
+
+# sent_id = 1615
+# text = Nonetheless, the model makes clear predictions as to the phenotype of mice lacking Dppa3 function: such embryos should not form germ cells.
+1	Nonetheless	nonetheless	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	model	model	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	makes	make	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+6	clear	clear	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	predictions	prediction	NOUN	NNS	Number=Plur	5	dobj	_	_
+8	as	as	ADP	IN	_	5	prep	_	_
+9	to	to	ADP	IN	_	8	prep	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	phenotype	phenotype	NOUN	NN	Number=Sing	9	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	mice	mouse	NOUN	NNS	Number=Plur	12	pobj	_	_
+14	lacking	lack	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	11	acl	_	_
+15	Dppa3	dppa0	NOUN	NN	Number=Sing	16	compound	_	_
+16	function	function	NOUN	NN	Number=Sing	14	dobj	_	SpaceAfter=No
+17	:	:	PUNCT	:	_	22	punct	_	_
+18	such	such	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	embryos	embryo	NOUN	NNS	Number=Plur	22	nsubj	_	_
+20	should	should	VERB	MD	VerbType=Mod	22	aux	_	_
+21	not	not	ADV	RB	Degree=Pos	22	neg	_	_
+22	form	form	VERB	VB	VerbForm=Inf	0	root	_	_
+23	germ	germ	NOUN	NN	Number=Sing	24	compound	_	_
+24	cells	cell	NOUN	NNS	Number=Plur	22	dobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	22	punct	_	_
+
+# sent_id = 1616
+# text = We tested this prediction and sought to clarify the gene's importance by generating Dppa3-deficient mice and examining their germline development.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	tested	test	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	_	4	det	_	_
+4	prediction	prediction	NOUN	NN	Number=Sing	2	dobj	_	_
+5	and	and	CCONJ	CC	_	2	cc	_	_
+6	sought	seek	VERB	VBD	Tense=Past|VerbForm=Fin	2	conj	_	_
+7	to	to	PART	TO	PartType=Inf|VerbForm=Inf	8	aux	_	_
+8	clarify	clarify	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	gene	gene	NOUN	NN	Number=Sing	12	poss	_	SpaceAfter=No
+11	's	's	PART	POS	Poss=Yes	10	case	_	_
+12	importance	importance	NOUN	NN	Number=Sing	8	dobj	_	_
+13	by	by	ADP	IN	_	8	prep	_	_
+14	generating	generate	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	13	pcomp	_	_
+15	Dppa3	dppa0	NOUN	NN	Number=Sing	17	npadvmod	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+17	deficient	deficient	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	mice	mouse	NOUN	NNS	Number=Plur	14	dobj	_	_
+19	and	and	CCONJ	CC	_	14	cc	_	_
+20	examining	examine	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	14	conj	_	_
+21	their	their	DET	PRP$	Poss=Yes|PronType=Prs	23	poss	_	_
+22	germline	germline	NOUN	NN	Number=Sing	23	compound	_	_
+23	development	development	NOUN	NN	Number=Sing	20	dobj	_	SpaceAfter=No
+24	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# newpar id = 15018652-p11
+# sent_id = 1617
+# text = Results and Discussion
+1	Results	result	NOUN	NNS	Number=Plur	0	root	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	Discussion	discussion	NOUN	NN	Number=Sing	1	conj	_	_
+
+# newpar id = 15018652-p12
+# sent_id = 1618
+# text = We disrupted the Dppa3 gene in cultured embryonic stem (ES) cells and thereby generated Dppa3-deficient mice.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	disrupted	disrupt	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	Dppa3	dppa0	NOUN	NN	Number=Sing	5	compound	_	_
+5	gene	gene	NOUN	NN	Number=Sing	2	dobj	_	_
+6	in	in	ADP	IN	_	5	prep	_	_
+7	cultured	culture	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	amod	_	_
+8	embryonic	embryonic	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	stem	stem	NOUN	NN	Number=Sing	13	nmod	_	_
+10	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	9	punct	_	SpaceAfter=No
+11	ES	es	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	13	punct	_	_
+13	cells	cell	NOUN	NNS	Number=Plur	6	pobj	_	_
+14	and	and	CCONJ	CC	_	2	cc	_	_
+15	thereby	thereby	ADV	RB	Degree=Pos	16	advmod	_	_
+16	generated	generate	VERB	VBD	Tense=Past|VerbForm=Fin	2	conj	_	_
+17	Dppa3	dppa0	NOUN	NN	Number=Sing	19	npadvmod	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+19	deficient	deficient	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	mice	mouse	NOUN	NNS	Number=Plur	16	dobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1619
+# text = Specifically, we replaced the entire open reading frame of Dppa3 in mouse V6.5 ES cells [9] with a hygromycin-thymidine kinase selection cassette flanked by loxP sites (Figure 1A).
+1	Specifically	specifically	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+3	we	we	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	replaced	replace	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	_	9	det	_	_
+6	entire	entire	ADJ	JJ	Degree=Pos	9	amod	_	_
+7	open	open	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	reading	reading	NOUN	NN	Number=Sing	9	compound	_	_
+9	frame	frame	NOUN	NN	Number=Sing	4	dobj	_	_
+10	of	of	ADP	IN	_	9	prep	_	_
+11	Dppa3	dppa0	NOUN	NN	Number=Sing	10	pobj	_	_
+12	in	in	ADP	IN	_	9	prep	_	_
+13	mouse	mouse	NOUN	NN	Number=Sing	16	compound	_	_
+14	V6.5	v0	NOUN	NN	Number=Sing	16	compound	_	_
+15	ES	es	NOUN	NN	Number=Sing	16	compound	_	_
+16	cells	cell	NOUN	NNS	Number=Plur	12	pobj	_	_
+17	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	18	punct	_	SpaceAfter=No
+18	9	0	NUM	CD	NumType=Card	9	parataxis	_	SpaceAfter=No
+19	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	18	punct	_	_
+20	with	with	ADP	IN	_	4	prep	_	_
+21	a	a	DET	DT	_	27	det	_	_
+22	hygromycin	hygromycin	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+24	thymidine	thymidine	NOUN	NN	Number=Sing	26	compound	_	_
+25	kinase	kinase	NOUN	NN	Number=Sing	26	compound	_	_
+26	selection	selection	NOUN	NN	Number=Sing	27	compound	_	_
+27	cassette	cassette	NOUN	NN	Number=Sing	20	pobj	_	_
+28	flanked	flank	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	27	acl	_	_
+29	by	by	ADP	IN	_	28	agent	_	_
+30	loxP	loxp	NOUN	NN	Number=Sing	31	compound	_	_
+31	sites	site	NOUN	NNS	Number=Plur	29	pobj	_	_
+32	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+33	Figure	figure	NOUN	NN	Number=Sing	4	parataxis	_	_
+34	1A	0a	NUM	CD	NumType=Card	33	nummod	_	SpaceAfter=No
+35	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	33	punct	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 1620
+# text = The selection cassette was subsequently removed via transient expression of Cre recombinase in targeted ES cells.
+1	The	the	DET	DT	_	3	det	_	_
+2	selection	selection	NOUN	NN	Number=Sing	3	compound	_	_
+3	cassette	cassette	NOUN	NN	Number=Sing	6	nsubjpass	_	_
+4	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	6	auxpass	_	_
+5	subsequently	subsequently	ADV	RB	Degree=Pos	6	advmod	_	_
+6	removed	remove	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	via	via	ADP	IN	_	6	prep	_	_
+8	transient	transient	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	expression	expression	NOUN	NN	Number=Sing	7	pobj	_	_
+10	of	of	ADP	IN	_	9	prep	_	_
+11	Cre	cre	NOUN	NN	Number=Sing	12	compound	_	_
+12	recombinase	recombinase	NOUN	NN	Number=Sing	10	pobj	_	_
+13	in	in	ADP	IN	_	9	prep	_	_
+14	targeted	targeted	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	ES	es	NOUN	NN	Number=Sing	16	compound	_	_
+16	cells	cell	NOUN	NNS	Number=Plur	13	pobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 1621
+# text = The resulting heterozygous Dppa3tm1WHT/+ ES cells were used to generate chimeric mice, which transmitted the mutation to offspring.
+1	The	the	DET	DT	_	8	det	_	_
+2	resulting	result	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	amod	_	_
+3	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	8	amod	_	_
+4	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+5	/	/	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	+	+	SYM	SYM	_	4	punct	_	_
+7	ES	es	NOUN	NN	Number=Sing	8	compound	_	_
+8	cells	cell	NOUN	NNS	Number=Plur	10	nsubjpass	_	_
+9	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	10	auxpass	_	_
+10	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+11	to	to	PART	TO	PartType=Inf|VerbForm=Inf	12	aux	_	_
+12	generate	generate	VERB	VB	VerbForm=Inf	10	advcl	_	_
+13	chimeric	chimeric	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	mice	mouse	NOUN	NNS	Number=Plur	12	dobj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+16	which	which	DET	WDT	PronType=Int,Rel	17	dep	_	14:ref=
+17	transmitted	transmit	VERB	VBD	Tense=Past|VerbForm=Fin	14	relcl	_	_
+18	the	the	DET	DT	_	19	det	_	_
+19	mutation	mutation	NOUN	NN	Number=Sing	17	dobj	_	_
+20	to	to	ADP	IN	_	17	prep	_	_
+21	offspring	offspring	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 1622
+# text = Intercrosses between Dppa3tm1WHT/+ heterozygous animals yielded Dppa3tm1WHT/Dppa3tm1WHT homozygotes as well as Dppa3tm1WHT/+ heterozygotes and +/+ offspring, demonstrating that zygotic function of Dppa3 is not essential for viability (Figure 1B).
+1	Intercrosses	intercrosses	NOUN	NNS	Number=Plur	8	nsubj	_	_
+2	between	between	ADP	IN	_	1	prep	_	_
+3	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+4	/	/	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+5	+	+	SYM	SYM	_	3	punct	_	_
+6	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	3	amod	_	_
+7	animals	animal	NOUN	NNS	Number=Plur	2	pobj	_	_
+8	yielded	yield	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+9	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	/	/	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+11	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	12	compound	_	_
+12	homozygotes	homozygote	NOUN	NNS	Number=Plur	8	dobj	_	_
+13	as	as	ADV	RB	Degree=Pos	15	advmod	_	_
+14	well	well	ADV	RB	Degree=Pos	15	advmod	_	_
+15	as	as	ADP	IN	_	12	cc	_	_
+16	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+17	/	/	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+18	+	+	SYM	SYM	_	16	punct	_	_
+19	heterozygotes	heterozygote	NOUN	NNS	Number=Plur	12	conj	_	_
+20	and	and	CCONJ	CC	_	19	cc	_	_
+21	+	+	SYM	SYM	_	23	punct	_	SpaceAfter=No
+22	/	/	SYM	SYM	_	23	punct	_	SpaceAfter=No
+23	+	+	SYM	SYM	_	24	punct	_	_
+24	offspring	offspring	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+25	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+26	demonstrating	demonstrate	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	advcl	_	_
+27	that	that	ADP	IN	_	32	mark	_	_
+28	zygotic	zygotic	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	function	function	NOUN	NN	Number=Sing	32	nsubj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	Dppa3	dppa0	NOUN	NN	Number=Sing	30	pobj	_	_
+32	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	_
+33	not	not	ADV	RB	Degree=Pos	32	neg	_	_
+34	essential	essential	ADJ	JJ	Degree=Pos	32	acomp	_	_
+35	for	for	ADP	IN	_	34	prep	_	_
+36	viability	viability	NOUN	NN	Number=Sing	35	pobj	_	_
+37	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	38	punct	_	SpaceAfter=No
+38	Figure	figure	NOUN	NN	Number=Sing	8	parataxis	_	_
+39	1B	0b	NUM	CD	NumType=Card	38	nummod	_	SpaceAfter=No
+40	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	38	punct	_	SpaceAfter=No
+41	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
+
+# sent_id = 1623
+# text = This allowed us to characterize germ cell development in animals lacking Dppa3.
+1	This	this	DET	DT	_	2	nsubj	_	_
+2	allowed	allow	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	us	us	PRON	PRP	PronType=Prs	2	dobj	_	_
+4	to	to	PART	TO	PartType=Inf|VerbForm=Inf	5	aux	_	_
+5	characterize	characterize	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	germ	germ	NOUN	NN	Number=Sing	7	compound	_	_
+7	cell	cell	NOUN	NN	Number=Sing	8	compound	_	_
+8	development	development	NOUN	NN	Number=Sing	5	dobj	_	_
+9	in	in	ADP	IN	_	5	prep	_	_
+10	animals	animal	NOUN	NNS	Number=Plur	9	pobj	_	_
+11	lacking	lack	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	10	acl	_	_
+12	Dppa3	dppa0	NOUN	NN	Number=Sing	11	dobj	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# newpar id = 15018652-p13
+# sent_id = 1624
+# text = Figure 1
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# newpar id = 15018652-p14
+# sent_id = 1625
+# text = Generation of Dppa3-deficient animals.
+1	Generation	generation	NOUN	NN	Number=Sing	0	root	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	Dppa3	dppa0	NOUN	NN	Number=Sing	5	npadvmod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+5	deficient	deficient	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	animals	animal	NOUN	NNS	Number=Plur	2	pobj	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=Peri	1	punct	_	_
+
+# sent_id = 1626
+# text = A, Schematic representation of genomic ablation of Dppa3.
+1	A	a	X	LS	NumType=Ord	4	meta	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+3	Schematic	schematic	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	representation	representation	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	genomic	genomic	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	ablation	ablation	NOUN	NN	Number=Sing	5	pobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	Dppa3	dppa0	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 1627
+# text = The gene's four exons are shown; non-coding regions of the first and last exons are shaded gray.
+1	The	the	DET	DT	_	2	det	_	_
+2	gene	gene	NOUN	NN	Number=Sing	5	poss	_	SpaceAfter=No
+3	's	's	PART	POS	Poss=Yes	2	case	_	_
+4	four	#crd#	NUM	CD	NumType=Card	5	nummod	_	_
+5	exons	exon	NOUN	NNS	Number=Plur	7	nsubjpass	_	_
+6	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	7	auxpass	_	_
+7	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	18	ccomp	_	SpaceAfter=No
+8	;	;	PUNCT	:	_	18	punct	_	_
+9	non-coding	non-coding	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	regions	region	NOUN	NNS	Number=Plur	18	nsubjpass	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	the	the	DET	DT	_	16	det	_	_
+13	first	#ord#	ADJ	JJ	Degree=Pos	16	amod	_	_
+14	and	and	CCONJ	CC	_	13	cc	_	_
+15	last	last	ADJ	JJ	Degree=Pos	13	conj	_	_
+16	exons	exon	NOUN	NNS	Number=Plur	11	pobj	_	_
+17	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	18	auxpass	_	_
+18	shaded	shade	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+19	gray	gray	ADJ	JJ	Degree=Pos	18	oprd	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	18	punct	_	_
+
+# sent_id = 1628
+# text = The hygromycin-thymidine kinase (Hygro-TK) cassette replaces the entire open reading frame of the gene.
+1	The	the	DET	DT	_	11	det	_	_
+2	hygromycin	hygromycin	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+4	thymidine	thymidine	NOUN	NN	Number=Sing	5	nmod	_	_
+5	kinase	kinase	NOUN	NN	Number=Sing	11	nmod	_	_
+6	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	5	punct	_	SpaceAfter=No
+7	Hygro	hygro	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	TK	tk	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+10	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	11	punct	_	_
+11	cassette	cassette	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	replaces	replace	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	the	the	DET	DT	_	17	det	_	_
+14	entire	entire	ADJ	JJ	Degree=Pos	17	amod	_	_
+15	open	open	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	reading	reading	NOUN	NN	Number=Sing	17	compound	_	_
+17	frame	frame	NOUN	NN	Number=Sing	12	dobj	_	_
+18	of	of	ADP	IN	_	17	prep	_	_
+19	the	the	DET	DT	_	20	det	_	_
+20	gene	gene	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	12	punct	_	_
+
+# sent_id = 1629
+# text = Cre-mediated excision of the selection cassette leaves only the non-coding portions of the gene, together with a single loxP site (white triangle).
+1	Cre	cre	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	1	punct	_	SpaceAfter=No
+3	mediated	mediate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	1	amod	_	_
+4	excision	excision	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	selection	selection	NOUN	NN	Number=Sing	8	compound	_	_
+8	cassette	cassette	NOUN	NN	Number=Sing	5	pobj	_	_
+9	leaves	leave	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	only	only	ADV	RB	Degree=Pos	13	advmod	_	_
+11	the	the	DET	DT	_	13	det	_	_
+12	non-coding	non-coding	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	portions	portion	NOUN	NNS	Number=Plur	9	dobj	_	_
+14	of	of	ADP	IN	_	13	prep	_	_
+15	the	the	DET	DT	_	16	det	_	_
+16	gene	gene	NOUN	NN	Number=Sing	14	pobj	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
+18	together	together	ADV	RB	Degree=Pos	19	advmod	_	_
+19	with	with	ADP	IN	_	13	prep	_	_
+20	a	a	DET	DT	_	23	det	_	_
+21	single	single	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	loxP	loxp	NOUN	NN	Number=Sing	23	compound	_	_
+23	site	site	NOUN	NN	Number=Sing	19	pobj	_	_
+24	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	26	punct	_	SpaceAfter=No
+25	white	white	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	triangle	triangle	NOUN	NN	Number=Sing	13	parataxis	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 1630
+# text = Also shown are the locations of genotyping primers p1, p2 and p3 in wild-type and mutated Dppa3 alleles.
+1	Also	also	ADV	RB	Degree=Pos	3	advmod	_	_
+2	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	dep	_	_
+3	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	locations	location	NOUN	NNS	Number=Plur	3	nsubj	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	genotyping	genotyping	NOUN	NN	Number=Sing	9	compound	_	_
+8	primers	primer	NOUN	NNS	Number=Plur	9	compound	_	_
+9	p1	p0	NOUN	NN	Number=Sing	6	pobj	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+11	p2	p0	NOUN	NN	Number=Sing	9	conj	_	_
+12	and	and	CCONJ	CC	_	11	cc	_	_
+13	p3	p0	NOUN	NN	Number=Sing	11	conj	_	_
+14	in	in	ADP	IN	_	5	prep	_	_
+15	wild	wild	ADJ	JJ	Degree=Pos	17	amod	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+17	type	type	NOUN	NN	Number=Sing	21	nmod	_	_
+18	and	and	CCONJ	CC	_	17	cc	_	_
+19	mutated	mutated	ADJ	JJ	Degree=Pos	17	conj	_	_
+20	Dppa3	dppa0	NOUN	NN	Number=Sing	21	compound	_	_
+21	alleles	allele	NOUN	NNS	Number=Plur	14	pobj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 1631
+# text = B, PCR genotyping of the offspring of an intercross between Dppa3tm1WHT /+ animals.
+1	B	b	X	LS	NumType=Ord	4	meta	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+3	PCR	pcr	NOUN	NN	Number=Sing	4	compound	_	_
+4	genotyping	genotyping	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	offspring	offspring	NOUN	NN	Number=Sing	5	pobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	an	an	DET	DT	_	10	det	_	_
+10	intercross	intercross	NOUN	NN	Number=Sing	8	pobj	_	_
+11	between	between	ADP	IN	_	10	prep	_	_
+12	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	15	nmod	_	_
+13	/	/	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+14	+	+	SYM	SYM	_	12	punct	_	_
+15	animals	animal	NOUN	NNS	Number=Plur	11	pobj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 1632
+# text = Inferred genotypes are shown above the gel image.
+1	Inferred	infer	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	amod	_	_
+2	genotypes	genotype	NOUN	NNS	Number=Plur	4	nsubjpass	_	_
+3	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	4	auxpass	_	_
+4	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	above	above	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	gel	gel	NOUN	NN	Number=Sing	8	compound	_	_
+8	image	image	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 1633
+# text = The wild type allele yields a PCR product of 304 bp with primers p1 and p2.
+1	The	the	DET	DT	_	4	det	_	_
+2	wild	wild	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	type	type	NOUN	NN	Number=Sing	4	compound	_	_
+4	allele	allele	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	yields	yield	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	_	8	det	_	_
+7	PCR	pcr	NOUN	NN	Number=Sing	8	compound	_	_
+8	product	product	NOUN	NN	Number=Sing	5	dobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	304	0	NUM	CD	NumType=Card	11	nummod	_	_
+11	bp	bp	NOUN	NNS	Number=Plur	9	pobj	_	_
+12	with	with	ADP	IN	_	5	prep	_	_
+13	primers	primer	NOUN	NNS	Number=Plur	14	compound	_	_
+14	p1	p0	NOUN	NN	Number=Sing	12	pobj	_	_
+15	and	and	CCONJ	CC	_	14	cc	_	_
+16	p2	p0	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 1634
+# text = The mutant allele (Dppa3tm1WHT) yields a PCR product of 492 bp with primers p1 and p3.
+1	The	the	DET	DT	_	3	det	_	_
+2	mutant	mutant	NOUN	NN	Number=Sing	3	compound	_	_
+3	allele	allele	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	3	punct	_	SpaceAfter=No
+5	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	7	punct	_	_
+7	yields	yield	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	_	10	det	_	_
+9	PCR	pcr	NOUN	NN	Number=Sing	10	compound	_	_
+10	product	product	NOUN	NN	Number=Sing	7	dobj	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	492	0	NUM	CD	NumType=Card	13	nummod	_	_
+13	bp	bp	NOUN	NNS	Number=Plur	11	pobj	_	_
+14	with	with	ADP	IN	_	7	prep	_	_
+15	primers	primer	NOUN	NNS	Number=Plur	16	compound	_	_
+16	p1	p0	NOUN	NN	Number=Sing	14	pobj	_	_
+17	and	and	CCONJ	CC	_	16	cc	_	_
+18	p3	p0	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 1635
+# text = M, DNA molecular weight marker.
+1	M	m	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
+3	DNA	dna	NOUN	NN	Number=Sing	6	nmod	_	_
+4	molecular	molecular	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	weight	weight	NOUN	NN	Number=Sing	6	compound	_	_
+6	marker	marker	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=Peri	1	punct	_	_
+
+# newpar id = 15018652-p15
+# sent_id = 1636
+# text = Dppa3 is not required for germ cell specification
+1	Dppa3	dppa0	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	auxpass	_	_
+3	not	not	ADV	RB	Degree=Pos	4	neg	_	_
+4	required	require	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	for	for	ADP	IN	_	4	prep	_	_
+6	germ	germ	NOUN	NN	Number=Sing	7	compound	_	_
+7	cell	cell	NOUN	NN	Number=Sing	8	compound	_	_
+8	specification	specification	NOUN	NN	Number=Sing	5	pobj	_	_
+
+# newpar id = 15018652-p16
+# sent_id = 1637
+# text = Our findings do not support the proposed centrality of Dppa3 in germ cell programming.
+1	Our	our	DET	PRP$	Poss=Yes|PronType=Prs	2	poss	_	_
+2	findings	finding	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	do	do	VERB	VBP	Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	ADV	RB	Degree=Pos	5	neg	_	_
+5	support	support	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	proposed	propose	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	amod	_	_
+8	centrality	centrality	NOUN	NN	Number=Sing	5	dobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	Dppa3	dppa0	NOUN	NN	Number=Sing	9	pobj	_	_
+11	in	in	ADP	IN	_	8	prep	_	_
+12	germ	germ	NOUN	NN	Number=Sing	13	compound	_	_
+13	cell	cell	NOUN	NN	Number=Sing	14	compound	_	_
+14	programming	programming	NOUN	NN	Number=Sing	11	pobj	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 1638
+# text = First, the gonads of Dppa3tm1WHT/Dppa3tm1WHT embryos contained germ cells, identified by expression of alkaline phosphatase, in numbers comparable to those of Dppa3tm1WHT/ + and +/+ embryos (Figure 2A).
+1	First	#ord#	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	gonads	gonad	NOUN	NNS	Number=Plur	10	nsubj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	/	/	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	9	compound	_	_
+9	embryos	embryo	NOUN	NNS	Number=Plur	5	pobj	_	_
+10	contained	contain	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+11	germ	germ	NOUN	NN	Number=Sing	12	compound	_	_
+12	cells	cell	NOUN	NNS	Number=Plur	10	dobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+14	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	advcl	_	_
+15	by	by	ADP	IN	_	14	prep	_	_
+16	expression	expression	NOUN	NN	Number=Sing	15	pobj	_	_
+17	of	of	ADP	IN	_	16	prep	_	_
+18	alkaline	alkaline	NOUN	NN	Number=Sing	19	compound	_	_
+19	phosphatase	phosphatase	NOUN	NN	Number=Sing	17	pobj	_	SpaceAfter=No
+20	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+21	in	in	ADP	IN	_	10	prep	_	_
+22	numbers	number	NOUN	NNS	Number=Plur	21	pobj	_	_
+23	comparable	comparable	ADJ	JJ	Degree=Pos	22	amod	_	_
+24	to	to	ADP	IN	_	23	prep	_	_
+25	those	those	DET	DT	_	24	pobj	_	_
+26	of	of	ADP	IN	_	25	prep	_	_
+27	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+28	/	/	PUNCT	HYPH	PunctType=Dash	27	punct	_	_
+29	+	+	SYM	SYM	_	27	punct	_	_
+30	and	and	CCONJ	CC	_	27	cc	_	_
+31	+	+	SYM	SYM	_	33	punct	_	SpaceAfter=No
+32	/	/	PUNCT	HYPH	PunctType=Dash	33	punct	_	SpaceAfter=No
+33	+	+	SYM	SYM	_	27	conj	_	_
+34	embryos	embryo	NOUN	NNS	Number=Plur	26	pobj	_	_
+35	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	36	punct	_	SpaceAfter=No
+36	Figure	figure	NOUN	NN	Number=Sing	10	parataxis	_	_
+37	2A	0a	NUM	CD	NumType=Card	36	nummod	_	SpaceAfter=No
+38	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	36	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 1639
+# text = Second, the ovaries of Dppa3tm1WHT/Dppa3tm1WHT adult females expressed Oct4, a marker of oocytes [10,11], despite the absence of Dppa3 expression (Figure 2B).
+1	Second	#ord#	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	ovaries	ovary	NOUN	NNS	Number=Plur	11	nsubj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+7	/	/	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	10	nmod	_	_
+9	adult	adult	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	females	female	NOUN	NNS	Number=Plur	5	pobj	_	_
+11	expressed	express	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+12	Oct4	oct0	NOUN	NN	Number=Sing	11	dobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
+14	a	a	DET	DT	_	15	det	_	_
+15	marker	marker	NOUN	NN	Number=Sing	12	appos	_	_
+16	of	of	ADP	IN	_	15	prep	_	_
+17	oocytes	oocyte	NOUN	NNS	Number=Plur	16	pobj	_	_
+18	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	21	punct	_	SpaceAfter=No
+19	10	0	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+20	,	,	PUNCT	,	PunctType=Comm	21	punct	_	SpaceAfter=No
+21	11	0	NUM	CD	NumType=Card	11	parataxis	_	SpaceAfter=No
+22	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+24	despite	despite	ADP	IN	_	11	prep	_	_
+25	the	the	DET	DT	_	26	det	_	_
+26	absence	absence	NOUN	NN	Number=Sing	24	pobj	_	_
+27	of	of	ADP	IN	_	26	prep	_	_
+28	Dppa3	dppa0	NOUN	NN	Number=Sing	29	compound	_	_
+29	expression	expression	NOUN	NN	Number=Sing	27	pobj	_	_
+30	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	31	punct	_	SpaceAfter=No
+31	Figure	figure	NOUN	NN	Number=Sing	11	parataxis	_	_
+32	2B	0b	NUM	CD	NumType=Card	31	nummod	_	SpaceAfter=No
+33	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	31	punct	_	SpaceAfter=No
+34	.	.	PUNCT	.	PunctType=Peri	11	punct	_	_
+
+# sent_id = 1640
+# text = Third, histological examination of the gonads of Dppa3tm1WHT/ Dppa3tm1WHT adults revealed no morphological defects; spermatogenesis in males and ovarian follicle development in females appeared to be normal (Figure 2C,2D).
+1	Third	#ord#	ADV	RB	Degree=Pos	27	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	27	punct	_	_
+3	histological	histological	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	examination	examination	NOUN	NN	Number=Sing	13	nsubj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	gonads	gonad	NOUN	NNS	Number=Plur	5	pobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	/	/	PUNCT	HYPH	PunctType=Dash	11	punct	_	_
+11	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	12	compound	_	_
+12	adults	adult	NOUN	NNS	Number=Plur	8	pobj	_	_
+13	revealed	reveal	VERB	VBD	Tense=Past|VerbForm=Fin	27	ccomp	_	_
+14	no	no	DET	DT	_	16	det	_	_
+15	morphological	morphological	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	defects	defect	NOUN	NNS	Number=Plur	13	dobj	_	SpaceAfter=No
+17	;	;	PUNCT	:	_	27	punct	_	_
+18	spermatogenesis	spermatogenesis	NOUN	NN	Number=Sing	27	nsubj	_	_
+19	in	in	ADP	IN	_	18	prep	_	_
+20	males	male	NOUN	NNS	Number=Plur	19	pobj	_	_
+21	and	and	CCONJ	CC	_	18	cc	_	_
+22	ovarian	ovarian	ADJ	JJ	Degree=Pos	24	amod	_	_
+23	follicle	follicle	NOUN	NN	Number=Sing	24	compound	_	_
+24	development	development	NOUN	NN	Number=Sing	18	conj	_	_
+25	in	in	ADP	IN	_	24	prep	_	_
+26	females	female	NOUN	NNS	Number=Plur	25	pobj	_	_
+27	appeared	appear	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+28	to	to	PART	TO	PartType=Inf|VerbForm=Inf	29	aux	_	_
+29	be	be	VERB	VB	VerbForm=Inf	27	xcomp	_	_
+30	normal	normal	ADJ	JJ	Degree=Pos	29	acomp	_	_
+31	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	35	punct	_	SpaceAfter=No
+32	Figure	figure	NOUN	NN	Number=Sing	35	nmod	_	_
+33	2C	0c	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
+34	,	,	PUNCT	,	PunctType=Comm	35	punct	_	SpaceAfter=No
+35	2D	0d	NUM	CD	NumType=Card	27	parataxis	_	SpaceAfter=No
+36	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=Peri	27	punct	_	_
+
+# sent_id = 1641
+# text = Finally, we obtained fertile Dppa3tm1WHT/Dppa3tm1WHT mice of both sexes (though litters from Dppa3tm1WHT/Dppa3tm1WHT females were small, as described below).
+1	Finally	finally	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+3	we	we	PRON	PRP	PronType=Prs	4	nsubj	_	_
+4	obtained	obtain	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	fertile	fertile	ADJ	JJ	Degree=Pos	9	amod	_	_
+6	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	/	/	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	9	compound	_	_
+9	mice	mouse	NOUN	NNS	Number=Plur	4	dobj	_	_
+10	of	of	ADP	IN	_	9	prep	_	_
+11	both	both	DET	DT	_	12	det	_	_
+12	sexes	sex	NOUN	NNS	Number=Plur	10	pobj	_	_
+13	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	21	punct	_	SpaceAfter=No
+14	though	though	ADP	IN	_	21	mark	_	_
+15	litters	litter	NOUN	NNS	Number=Plur	21	nsubj	_	_
+16	from	from	ADP	IN	_	15	prep	_	_
+17	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	/	/	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+19	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	20	compound	_	_
+20	females	female	NOUN	NNS	Number=Plur	16	pobj	_	_
+21	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	parataxis	_	_
+22	small	small	ADJ	JJ	Degree=Pos	21	acomp	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=Comm	21	punct	_	_
+24	as	as	ADP	IN	_	25	mark	_	_
+25	described	describe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	21	advcl	_	_
+26	below	below	ADV	RB	Degree=Pos	25	advmod	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	21	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 1642
+# text = Each of these findings demonstrates that the Dppa3 gene is not required for germ cell specification.
+1	Each	each	DET	DT	_	5	nsubj	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	these	these	DET	DT	_	4	det	_	_
+4	findings	finding	NOUN	NNS	Number=Plur	2	pobj	_	_
+5	demonstrates	demonstrate	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	ADP	IN	_	12	mark	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	Dppa3	dppa0	NOUN	NN	Number=Sing	9	compound	_	_
+9	gene	gene	NOUN	NN	Number=Sing	12	nsubjpass	_	_
+10	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	auxpass	_	_
+11	not	not	ADV	RB	Degree=Pos	12	neg	_	_
+12	required	require	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	ccomp	_	_
+13	for	for	ADP	IN	_	12	prep	_	_
+14	germ	germ	NOUN	NN	Number=Sing	15	compound	_	_
+15	cell	cell	NOUN	NN	Number=Sing	16	compound	_	_
+16	specification	specification	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# newpar id = 15018652-p17
+# sent_id = 1643
+# text = Figure 2
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	2	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# newpar id = 15018652-p18
+# sent_id = 1644
+# text = Normal germ cell development in the absence of Dppa3.
+1	Normal	normal	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	germ	germ	NOUN	NN	Number=Sing	3	compound	_	_
+3	cell	cell	NOUN	NN	Number=Sing	4	compound	_	_
+4	development	development	NOUN	NN	Number=Sing	0	root	_	_
+5	in	in	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	absence	absence	NOUN	NN	Number=Sing	5	pobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	Dppa3	dppa0	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 1645
+# text = A, Gonads from E12.5 embryos (above: wild type; below: Dppa3tm1WHT/Dppa3tm1WHT) stained for alkaline phosphatase to reveal primordial germ cells.
+1	A	a	X	LS	NumType=Ord	3	meta	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
+3	Gonads	gonad	NOUN	NNS	Number=Plur	0	root	_	_
+4	from	from	ADP	IN	_	3	prep	_	_
+5	E12.5	e0	NOUN	NN	Number=Sing	6	compound	_	_
+6	embryos	embryo	NOUN	NNS	Number=Plur	4	pobj	_	_
+7	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	17	punct	_	SpaceAfter=No
+8	above	above	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No
+9	:	:	PUNCT	:	_	11	punct	_	_
+10	wild	wild	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	type	type	NOUN	NN	Number=Sing	17	dep	_	SpaceAfter=No
+12	;	;	PUNCT	:	_	17	punct	_	_
+13	below	below	ADV	RB	Degree=Pos	17	advmod	_	SpaceAfter=No
+14	:	:	PUNCT	:	_	17	punct	_	_
+15	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	/	/	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+17	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	17	punct	_	_
+19	stained	stain	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	acl	_	_
+20	for	for	ADP	IN	_	19	prep	_	_
+21	alkaline	alkaline	NOUN	NN	Number=Sing	22	compound	_	_
+22	phosphatase	phosphatase	NOUN	NN	Number=Sing	20	pobj	_	_
+23	to	to	PART	TO	PartType=Inf|VerbForm=Inf	24	aux	_	_
+24	reveal	reveal	VERB	VB	VerbForm=Inf	19	advcl	_	_
+25	primordial	primordial	ADJ	JJ	Degree=Pos	27	amod	_	_
+26	germ	germ	NOUN	NN	Number=Sing	27	compound	_	_
+27	cells	cell	NOUN	NNS	Number=Plur	24	dobj	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 1646
+# text = B, RT-PCR analysis of gene expression in wild-type and Dppa3tm1WHT/Dppa3tm1WHT adult ovaries.
+1	B	b	X	LS	NumType=Ord	6	meta	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+3	RT	rt	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+5	PCR	pcr	NOUN	NN	Number=Sing	6	compound	_	_
+6	analysis	analysis	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	gene	gene	NOUN	NN	Number=Sing	9	compound	_	_
+9	expression	expression	NOUN	NN	Number=Sing	7	pobj	_	_
+10	in	in	ADP	IN	_	6	prep	_	_
+11	wild	wild	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+13	type	type	NOUN	NN	Number=Sing	19	nmod	_	_
+14	and	and	CCONJ	CC	_	13	cc	_	_
+15	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	/	/	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+17	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	13	conj	_	_
+18	adult	adult	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	ovaries	ovary	NOUN	NNS	Number=Plur	10	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 1647
+# text = C,D, Dppa3tm1WHT/Dppa3tm1WHT testis (C) and ovary (D) are histologically normal.
+1	C	c	X	LS	NumType=Ord	17	meta	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	SpaceAfter=No
+3	D	d	X	LS	NumType=Ord	1	dep	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
+5	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	/	/	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+7	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	17	nsubj	_	_
+8	testis	testis	NOUN	NN	Number=Sing	7	appos	_	_
+9	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	10	punct	_	SpaceAfter=No
+10	C	c	NOUN	NN	Number=Sing	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	10	punct	_	_
+12	and	and	CCONJ	CC	_	8	cc	_	_
+13	ovary	ovary	NOUN	NN	Number=Sing	8	conj	_	_
+14	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	15	punct	_	SpaceAfter=No
+15	D	d	NOUN	NN	Number=Sing	13	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	15	punct	_	_
+17	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+18	histologically	histologically	ADV	RB	Degree=Pos	19	advmod	_	_
+19	normal	normal	ADJ	JJ	Degree=Pos	17	acomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	17	punct	_	_
+
+# newpar id = 15018652-p19
+# sent_id = 1648
+# text = Moreover, this function is not readily ascribed to a gene closely related to Dppa3.
+1	Moreover	moreover	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+3	this	this	DET	DT	_	4	det	_	_
+4	function	function	NOUN	NN	Number=Sing	8	nsubjpass	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	auxpass	_	_
+6	not	not	ADV	RB	Degree=Pos	8	neg	_	_
+7	readily	readily	ADV	RB	Degree=Pos	8	advmod	_	_
+8	ascribed	ascribe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+9	to	to	ADP	IN	_	8	prep	_	_
+10	a	a	DET	DT	_	11	det	_	_
+11	gene	gene	NOUN	NN	Number=Sing	9	pobj	_	_
+12	closely	closely	ADV	RB	Degree=Pos	13	advmod	_	_
+13	related	related	ADJ	JJ	Degree=Pos	11	amod	_	_
+14	to	to	ADP	IN	_	13	prep	_	_
+15	Dppa3	dppa0	NOUN	NN	Number=Sing	14	pobj	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
+
+# sent_id = 1649
+# text = We electronically searched the sequenced mouse genome for Dppa3 homologues.
+1	We	we	PRON	PRP	PronType=Prs	3	nsubj	_	_
+2	electronically	electronically	ADV	RB	Degree=Pos	3	advmod	_	_
+3	searched	search	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	_	7	det	_	_
+5	sequenced	sequence	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	amod	_	_
+6	mouse	mouse	NOUN	NN	Number=Sing	7	compound	_	_
+7	genome	genome	NOUN	NN	Number=Sing	3	dobj	_	_
+8	for	for	ADP	IN	_	3	prep	_	_
+9	Dppa3	dppa0	NOUN	NN	Number=Sing	10	compound	_	_
+10	homologues	homologue	NOUN	NNS	Number=Plur	8	pobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 1650
+# text = We identified several processed (intron-less) pseudogenes of Dppa3, but no functional, full-length homologue.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	identified	identify	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	several	several	ADJ	JJ	Degree=Pos	10	amod	_	_
+4	processed	process	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	nmod	_	_
+5	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	4	punct	_	SpaceAfter=No
+6	intron	intron	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+8	less	less	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	10	punct	_	_
+10	pseudogenes	pseudogenes	NOUN	NNS	Number=Plur	2	dobj	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	Dppa3	dppa0	NOUN	NN	Number=Sing	11	pobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+14	but	but	CCONJ	CC	_	10	cc	_	_
+15	no	no	DET	DT	_	21	det	_	_
+16	functional	functional	ADJ	JJ	Degree=Pos	21	amod	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
+18	full	full	ADJ	JJ	Degree=Pos	20	amod	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+20	length	length	NOUN	NN	Number=Sing	16	conj	_	_
+21	homologue	homologue	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1651
+# text = As judged by RT-PCR analysis, the Dppa3 pseudogenes are not expressed in embryonic or adult tissues (data not shown).
+1	As	as	ADP	IN	_	2	mark	_	_
+2	judged	judge	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	14	advcl	_	_
+3	by	by	ADP	IN	_	2	prep	_	_
+4	RT	rt	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+6	PCR	pcr	NOUN	NN	Number=Sing	7	compound	_	_
+7	analysis	analysis	NOUN	NN	Number=Sing	3	pobj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+9	the	the	DET	DT	_	11	det	_	_
+10	Dppa3	dppa0	NOUN	NN	Number=Sing	11	compound	_	_
+11	pseudogenes	pseudogenes	NOUN	NNS	Number=Plur	14	nsubjpass	_	_
+12	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	14	auxpass	_	_
+13	not	not	ADV	RB	Degree=Pos	14	neg	_	_
+14	expressed	express	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+15	in	in	ADP	IN	_	14	prep	_	_
+16	embryonic	embryonic	ADJ	JJ	Degree=Pos	19	amod	_	_
+17	or	or	CCONJ	CC	_	16	cc	_	_
+18	adult	adult	ADJ	JJ	Degree=Pos	16	conj	_	_
+19	tissues	tissue	NOUN	NNS	Number=Plur	15	pobj	_	_
+20	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	23	punct	_	SpaceAfter=No
+21	data	datum	NOUN	NNS	Number=Plur	23	nsubj	_	_
+22	not	not	ADV	RB	Degree=Pos	23	neg	_	_
+23	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	14	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	14	punct	_	_
+
+# newpar id = 15018652-p20
+# sent_id = 1652
+# text = Dppa3 is a potent maternal factor
+1	Dppa3	dppa0	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	_	6	det	_	_
+4	potent	potent	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	maternal	maternal	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	factor	factor	NOUN	NN	Number=Sing	2	attr	_	_
+
+# newpar id = 15018652-p21
+# sent_id = 1653
+# text = We found that Dppa3 plays an important role in early embryonic development as a maternal factor.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	found	find	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	ADP	IN	_	5	mark	_	_
+4	Dppa3	dppa0	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	plays	play	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	an	an	DET	DT	_	8	det	_	_
+7	important	important	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	role	role	NOUN	NN	Number=Sing	5	dobj	_	_
+9	in	in	ADP	IN	_	5	prep	_	_
+10	early	early	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	embryonic	embryonic	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	development	development	NOUN	NN	Number=Sing	9	pobj	_	_
+13	as	as	ADP	IN	_	5	prep	_	_
+14	a	a	DET	DT	_	16	det	_	_
+15	maternal	maternal	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	factor	factor	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1654
+# text = While Dppa3tm1WHT/Dppa3tm1WHT males were fully fertile, Dppa3tm1WHT/Dppa3tm1WHT females had small litters.
+1	While	while	ADP	IN	_	6	mark	_	_
+2	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	/	/	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+4	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	5	compound	_	_
+5	males	male	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	14	advcl	_	_
+7	fully	fully	ADV	RB	Degree=Pos	8	advmod	_	_
+8	fertile	fertile	ADJ	JJ	Degree=Pos	6	acomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+10	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	/	/	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	13	compound	_	_
+13	females	female	NOUN	NNS	Number=Plur	14	nsubj	_	_
+14	had	have	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+15	small	small	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	litters	litter	NOUN	NNS	Number=Plur	14	dobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	14	punct	_	_
+
+# sent_id = 1655
+# text = This was true regardless of whether such females were crossed with Dppa3tm1WHT/Dppa3tm1WHT, Dppa3tm1WHT/+ or wild type males (3.5 ± 1.5, 3.1 ± 2.1, or 3.0 ± 0.9 viable pups/litter, respectively).
+1	This	this	DET	DT	_	2	nsubj	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	true	true	ADJ	JJ	Degree=Pos	2	acomp	_	_
+4	regardless	regardless	ADV	RB	Degree=Pos	2	advmod	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	whether	whether	ADP	IN	_	10	mark	_	_
+7	such	such	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	females	female	NOUN	NNS	Number=Plur	10	nsubjpass	_	_
+9	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	10	auxpass	_	_
+10	crossed	cross	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	pcomp	_	_
+11	with	with	ADP	IN	_	10	prep	_	_
+12	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+13	/	/	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+14	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+16	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+17	/	/	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+18	+	+	SYM	SYM	_	16	punct	_	_
+19	or	or	CCONJ	CC	_	16	cc	_	_
+20	wild	wild	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	type	type	NOUN	NN	Number=Sing	16	conj	_	_
+22	males	male	NOUN	NNS	Number=Plur	11	pobj	_	_
+23	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	37	punct	_	SpaceAfter=No
+24	3.5	0	NUM	CD	NumType=Card	26	quantmod	_	_
+25	±	±	SYM	SYM	_	26	punct	_	_
+26	1.5	0	NUM	CD	NumType=Card	37	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	26	punct	_	_
+28	3.1	0	NUM	CD	NumType=Card	30	quantmod	_	_
+29	±	±	SYM	SYM	_	30	punct	_	_
+30	2.1	0	NUM	CD	NumType=Card	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	,	PunctType=Comm	30	punct	_	_
+32	or	or	CCONJ	CC	_	30	cc	_	_
+33	3.0	0	NUM	CD	NumType=Card	35	quantmod	_	_
+34	±	±	SYM	SYM	_	35	punct	_	_
+35	0.9	0	NUM	CD	NumType=Card	30	conj	_	_
+36	viable	viable	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	pups	pups	NOUN	NN	Number=Sing	22	parataxis	_	SpaceAfter=No
+38	/	/	SYM	SYM	_	39	punct	_	SpaceAfter=No
+39	litter	litter	NOUN	NN	Number=Sing	37	prep	_	SpaceAfter=No
+40	,	,	PUNCT	,	PunctType=Comm	37	punct	_	_
+41	respectively	respectively	ADV	RB	Degree=Pos	37	advmod	_	SpaceAfter=No
+42	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	37	punct	_	SpaceAfter=No
+43	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1656
+# text = By contrast, Dppa3tm1WHT/+ females of the same (mixed) genetic background had large litters when mated to Dppa3tm1WHT/Dppa3tm1WHT or Dppa3tm1WHT/+ males (9.4 ± 3.5 or 10.1 ± 3.2 viable pups/litter, respectively).
+1	By	by	ADP	IN	_	16	prep	_	_
+2	contrast	contrast	NOUN	NN	Number=Sing	1	pobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
+4	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+5	/	/	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	+	+	SYM	SYM	_	4	punct	_	_
+7	females	female	NOUN	NNS	Number=Plur	16	nsubj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	15	det	_	_
+10	same	same	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	12	punct	_	SpaceAfter=No
+12	mixed	mixed	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No
+13	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	15	punct	_	_
+14	genetic	genetic	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	background	background	NOUN	NN	Number=Sing	8	pobj	_	_
+16	had	have	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+17	large	large	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	litters	litter	NOUN	NNS	Number=Plur	16	dobj	_	_
+19	when	when	ADV	WRB	PronType=Int,Rel	20	advmod	_	_
+20	mated	mate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	16	advcl	_	_
+21	to	to	ADP	IN	_	20	prep	_	_
+22	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+23	/	/	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+24	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	29	nmod	_	_
+25	or	or	CCONJ	CC	_	24	cc	_	_
+26	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	24	conj	_	SpaceAfter=No
+27	/	/	PUNCT	HYPH	PunctType=Dash	26	punct	_	SpaceAfter=No
+28	+	+	SYM	SYM	_	26	punct	_	_
+29	males	male	NOUN	NNS	Number=Plur	21	pobj	_	_
+30	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	39	punct	_	SpaceAfter=No
+31	9.4	0	NUM	CD	NumType=Card	33	quantmod	_	_
+32	±	±	SYM	SYM	_	33	punct	_	_
+33	3.5	0	NUM	CD	NumType=Card	39	nummod	_	_
+34	or	or	CCONJ	CC	_	33	cc	_	_
+35	10.1	0	NUM	CD	NumType=Card	37	quantmod	_	_
+36	±	±	SYM	SYM	_	37	punct	_	_
+37	3.2	0	NUM	CD	NumType=Card	33	conj	_	_
+38	viable	viable	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	pups	pups	NOUN	NN	Number=Sing	20	parataxis	_	SpaceAfter=No
+40	/	/	SYM	SYM	_	41	punct	_	SpaceAfter=No
+41	litter	litter	NOUN	NN	Number=Sing	39	prep	_	SpaceAfter=No
+42	,	,	PUNCT	,	PunctType=Comm	39	punct	_	_
+43	respectively	respectively	ADV	RB	Degree=Pos	39	advmod	_	SpaceAfter=No
+44	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	39	punct	_	SpaceAfter=No
+45	.	.	PUNCT	.	PunctType=Peri	16	punct	_	_
+
+# newpar id = 15018652-p22
+# sent_id = 1657
+# text = We attribute the small litters from Dppa3tm1WHT/Dppa3tm1WHT mothers to abnormalities that manifest early in embryogenesis, during the cleavage stages of pre-implantation development.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	attribute	attribute	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	small	small	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	litters	litter	NOUN	NNS	Number=Plur	2	dobj	_	_
+6	from	from	ADP	IN	_	5	prep	_	_
+7	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	/	/	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	10	compound	_	_
+10	mothers	mother	NOUN	NNS	Number=Plur	6	pobj	_	_
+11	to	to	ADP	IN	_	2	prep	_	_
+12	abnormalities	abnormality	NOUN	NNS	Number=Plur	11	pobj	_	_
+13	that	that	DET	WDT	PronType=Int,Rel	14	dep	_	12:ref=
+14	manifest	manifest	VERB	VBP	Tense=Pres|VerbForm=Fin	12	relcl	_	_
+15	early	early	ADV	RB	Degree=Pos	14	advmod	_	_
+16	in	in	ADP	IN	_	14	prep	_	_
+17	embryogenesis	embryogenesis	NOUN	NN	Number=Sing	16	pobj	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+19	during	during	ADP	IN	_	14	prep	_	_
+20	the	the	DET	DT	_	22	det	_	_
+21	cleavage	cleavage	NOUN	NN	Number=Sing	22	compound	_	_
+22	stages	stage	NOUN	NNS	Number=Plur	19	pobj	_	_
+23	of	of	ADP	IN	_	22	prep	_	_
+24	pre-implantation	pre-implantation	NOUN	NN	Number=Sing	25	compound	_	_
+25	development	development	NOUN	NN	Number=Sing	23	pobj	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1658
+# text = While nearly all embryos derived from Dppa3-deficient oocytes developed to the 2-cell or 4-cell stage (Figure 3A,3B,3C,3D), subsequent development was severely compromised in most such embryos (Figure 3E,3F).
+1	While	while	ADP	IN	_	11	mark	_	_
+2	nearly	nearly	ADV	RB	Degree=Pos	4	advmod	_	_
+3	all	all	DET	DT	_	4	det	_	_
+4	embryos	embryo	NOUN	NNS	Number=Plur	11	nsubj	_	_
+5	derived	derive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	acl	_	_
+6	from	from	ADP	IN	_	5	prep	_	_
+7	Dppa3	dppa0	NOUN	NN	Number=Sing	9	npadvmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	deficient	deficient	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	oocytes	oocyte	NOUN	NNS	Number=Plur	6	pobj	_	_
+11	developed	develop	VERB	VBD	Tense=Past|VerbForm=Fin	37	advcl	_	_
+12	to	to	ADP	IN	_	11	prep	_	_
+13	the	the	DET	DT	_	21	det	_	_
+14	2	0	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+16	cell	cell	NOUN	NN	Number=Sing	21	nmod	_	_
+17	or	or	CCONJ	CC	_	16	cc	_	_
+18	4	0	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+20	cell	cell	NOUN	NN	Number=Sing	16	conj	_	_
+21	stage	stage	NOUN	NN	Number=Sing	12	pobj	_	_
+22	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	23	punct	_	SpaceAfter=No
+23	Figure	figure	NOUN	NN	Number=Sing	11	parataxis	_	_
+24	3A	0a	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	,	PunctType=Comm	23	punct	_	SpaceAfter=No
+26	3B	0b	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	23	punct	_	SpaceAfter=No
+28	3C	0c	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+29	,	,	PUNCT	,	PunctType=Comm	23	punct	_	SpaceAfter=No
+30	3D	0d	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+31	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	23	punct	_	SpaceAfter=No
+32	,	,	PUNCT	,	PunctType=Comm	37	punct	_	_
+33	subsequent	subsequent	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	development	development	NOUN	NN	Number=Sing	37	nsubjpass	_	_
+35	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	37	auxpass	_	_
+36	severely	severely	ADV	RB	Degree=Pos	37	advmod	_	_
+37	compromised	compromise	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+38	in	in	ADP	IN	_	37	prep	_	_
+39	most	most	ADJ	JJS	Degree=Sup	41	amod	_	_
+40	such	such	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	embryos	embryo	NOUN	NNS	Number=Plur	38	pobj	_	_
+42	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	46	punct	_	SpaceAfter=No
+43	Figure	figure	NOUN	NN	Number=Sing	46	nmod	_	_
+44	3E	0e	NUM	CD	NumType=Card	46	nummod	_	SpaceAfter=No
+45	,	,	PUNCT	,	PunctType=Comm	46	punct	_	SpaceAfter=No
+46	3F	0f	NUM	CD	NumType=Card	37	parataxis	_	SpaceAfter=No
+47	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	46	punct	_	SpaceAfter=No
+48	.	.	PUNCT	.	PunctType=Peri	37	punct	_	_
+
+# sent_id = 1659
+# text = Some embryos derived from Dppa3-deficient oocytes failed to reach the 8-cell stage and instead showed evidence of compaction at the 4-cell stage.
+1	Some	some	DET	DT	_	2	det	_	_
+2	embryos	embryo	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	derived	derive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	acl	_	_
+4	from	from	ADP	IN	_	3	prep	_	_
+5	Dppa3	dppa0	NOUN	NN	Number=Sing	7	npadvmod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+7	deficient	deficient	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	oocytes	oocyte	NOUN	NNS	Number=Plur	4	pobj	_	_
+9	failed	fail	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	PART	TO	PartType=Inf|VerbForm=Inf	11	aux	_	_
+11	reach	reach	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	the	the	DET	DT	_	16	det	_	_
+13	8	0	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+15	cell	cell	NOUN	NN	Number=Sing	16	compound	_	_
+16	stage	stage	NOUN	NN	Number=Sing	11	dobj	_	_
+17	and	and	CCONJ	CC	_	9	cc	_	_
+18	instead	instead	ADV	RB	Degree=Pos	19	advmod	_	_
+19	showed	show	VERB	VBD	Tense=Past|VerbForm=Fin	9	conj	_	_
+20	evidence	evidence	NOUN	NN	Number=Sing	19	dobj	_	_
+21	of	of	ADP	IN	_	20	prep	_	_
+22	compaction	compaction	NOUN	NN	Number=Sing	21	pobj	_	_
+23	at	at	ADP	IN	_	19	prep	_	_
+24	the	the	DET	DT	_	28	det	_	_
+25	4	0	NUM	CD	NumType=Card	27	nummod	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	PunctType=Dash	27	punct	_	SpaceAfter=No
+27	cell	cell	NOUN	NN	Number=Sing	28	compound	_	_
+28	stage	stage	NOUN	NN	Number=Sing	23	pobj	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 1660
+# text = Other embryos derived from Dppa3-deficient oocytes cleaved to form 8 to 16 blastomeres, but failed to compact (Figure 3E,3F).
+1	Other	other	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	embryos	embryo	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	derived	derive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	acl	_	_
+4	from	from	ADP	IN	_	3	prep	_	_
+5	Dppa3	dppa0	NOUN	NN	Number=Sing	7	npadvmod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+7	deficient	deficient	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	oocytes	oocyte	NOUN	NNS	Number=Plur	4	pobj	_	_
+9	cleaved	cleave	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	PART	TO	PartType=Inf|VerbForm=Inf	11	aux	_	_
+11	form	form	VERB	VB	VerbForm=Inf	9	advcl	_	_
+12	8	0	NUM	CD	NumType=Card	14	quantmod	_	_
+13	to	to	ADP	IN	_	14	quantmod	_	_
+14	16	0	NUM	CD	NumType=Card	15	nummod	_	_
+15	blastomeres	blastomere	NOUN	NNS	Number=Plur	11	dobj	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+17	but	but	CCONJ	CC	_	9	cc	_	_
+18	failed	fail	VERB	VBD	Tense=Past|VerbForm=Fin	9	conj	_	_
+19	to	to	PART	TO	PartType=Inf|VerbForm=Inf	20	aux	_	_
+20	compact	compact	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	25	punct	_	SpaceAfter=No
+22	Figure	figure	NOUN	NN	Number=Sing	25	nmod	_	_
+23	3E	0e	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=Comm	25	punct	_	SpaceAfter=No
+25	3F	0f	NUM	CD	NumType=Card	18	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 1661
+# text = These observations suggest that maternally supplied Dppa3 function is important in the cleavage stages of pre-implantation development.
+1	These	these	DET	DT	_	2	det	_	_
+2	observations	observation	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	suggest	suggest	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	ADP	IN	_	9	mark	_	_
+5	maternally	maternally	ADV	RB	Degree=Pos	6	advmod	_	_
+6	supplied	supply	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	amod	_	_
+7	Dppa3	dppa0	NOUN	NN	Number=Sing	8	compound	_	_
+8	function	function	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	important	important	ADJ	JJ	Degree=Pos	9	acomp	_	_
+11	in	in	ADP	IN	_	9	prep	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	cleavage	cleavage	NOUN	NN	Number=Sing	14	compound	_	_
+14	stages	stage	NOUN	NNS	Number=Plur	11	pobj	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	pre-implantation	pre-implantation	NOUN	NN	Number=Sing	17	compound	_	_
+17	development	development	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# newpar id = 15018652-p23
+# sent_id = 1662
+# text = Figure 3
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	3	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# newpar id = 15018652-p24
+# sent_id = 1663
+# text = Abnormal pre-implantation development of embryos derived from Dppa3–deficient oocytes.
+1	Abnormal	abnormal	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	pre-implantation	pre-implantation	NOUN	NN	Number=Sing	3	compound	_	_
+3	development	development	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	embryos	embryo	NOUN	NNS	Number=Plur	4	pobj	_	_
+6	derived	derive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	acl	_	_
+7	from	from	ADP	IN	_	6	prep	_	_
+8	Dppa3	dppa0	NOUN	NN	Number=Sing	10	npadvmod	_	SpaceAfter=No
+9	–	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	deficient	deficient	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	oocytes	oocyte	NOUN	NNS	Number=Plur	7	pobj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 1664
+# text = A,C, Cultured 2-cell (A) and 4-cell (C) control embryos derived from wild-type matings.
+1	A	a	X	LS	NumType=Ord	20	meta	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	SpaceAfter=No
+3	C	c	X	LS	NumType=Ord	1	dep	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	20	punct	_	_
+5	Cultured	cultured	ADJ	JJ	Degree=Pos	20	amod	_	_
+6	2	0	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	cell	cell	NOUN	NN	Number=Sing	20	nmod	_	_
+9	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	10	punct	_	SpaceAfter=No
+10	A	a	NOUN	NN	Number=Sing	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	10	punct	_	_
+12	and	and	CCONJ	CC	_	8	cc	_	_
+13	4	0	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+15	cell	cell	NOUN	NN	Number=Sing	8	conj	_	_
+16	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	17	punct	_	SpaceAfter=No
+17	C	c	NOUN	NN	Number=Sing	15	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	17	punct	_	_
+19	control	control	NOUN	NN	Number=Sing	20	compound	_	_
+20	embryos	embryo	NOUN	NNS	Number=Plur	0	root	_	_
+21	derived	derive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	20	acl	_	_
+22	from	from	ADP	IN	_	21	prep	_	_
+23	wild	wild	ADJ	JJ	Degree=Pos	25	amod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	type	type	NOUN	NN	Number=Sing	26	compound	_	_
+26	matings	mating	NOUN	NNS	Number=Plur	22	pobj	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	20	punct	_	_
+
+# sent_id = 1665
+# text = B,D, Cultured 2-cell (B) and 4-cell (D) embryos produced by crossing Dppa3tm1WHT/Dppa3tm1WHT females with wild-type males.
+1	B	b	X	LS	NumType=Ord	19	meta	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	SpaceAfter=No
+3	D	d	X	LS	NumType=Ord	1	dep	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	19	punct	_	_
+5	Cultured	culture	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	19	amod	_	_
+6	2	0	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	cell	cell	NOUN	NN	Number=Sing	19	nmod	_	_
+9	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	10	punct	_	SpaceAfter=No
+10	B	b	NOUN	NN	Number=Sing	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	10	punct	_	_
+12	and	and	CCONJ	CC	_	8	cc	_	_
+13	4	0	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+15	cell	cell	NOUN	NN	Number=Sing	8	conj	_	_
+16	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	17	punct	_	SpaceAfter=No
+17	D	d	NOUN	NN	Number=Sing	15	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	17	punct	_	_
+19	embryos	embryo	NOUN	NNS	Number=Plur	0	root	_	_
+20	produced	produce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	19	acl	_	_
+21	by	by	ADP	IN	_	20	prep	_	_
+22	crossing	cross	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	21	pcomp	_	_
+23	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	/	/	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	26	compound	_	_
+26	females	female	NOUN	NNS	Number=Plur	22	dobj	_	_
+27	with	with	ADP	IN	_	22	prep	_	_
+28	wild	wild	ADJ	JJ	Degree=Pos	30	amod	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	PunctType=Dash	30	punct	_	SpaceAfter=No
+30	type	type	NOUN	NN	Number=Sing	31	compound	_	_
+31	males	male	NOUN	NNS	Number=Plur	27	pobj	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=Peri	19	punct	_	_
+
+# sent_id = 1666
+# text = E,F, E3.5 control embryos derived from wild-type matings have progressed to the blastocyst stage (E).
+1	E	e	X	LS	NumType=Ord	15	meta	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	SpaceAfter=No
+3	F	f	X	LS	NumType=Ord	1	dep	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	15	punct	_	_
+5	E3.5	e0	NOUN	NN	Number=Sing	7	compound	_	_
+6	control	control	NOUN	NN	Number=Sing	7	compound	_	_
+7	embryos	embryo	NOUN	NNS	Number=Plur	15	nsubj	_	_
+8	derived	derive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	acl	_	_
+9	from	from	ADP	IN	_	8	prep	_	_
+10	wild	wild	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	type	type	NOUN	NN	Number=Sing	13	compound	_	_
+13	matings	mating	NOUN	NNS	Number=Plur	9	pobj	_	_
+14	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	progressed	progress	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+16	to	to	ADP	IN	_	15	prep	_	_
+17	the	the	DET	DT	_	19	det	_	_
+18	blastocyst	blastocyst	NOUN	NN	Number=Sing	19	compound	_	_
+19	stage	stage	NOUN	NN	Number=Sing	16	pobj	_	_
+20	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	21	punct	_	SpaceAfter=No
+21	E	e	NOUN	NN	Number=Sing	15	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=Peri	15	punct	_	_
+
+# sent_id = 1667
+# text = By contrast, most E3.5 embryos produced by crossing Dppa3tm1WHT/Dppa3tm1WHT females with wild-type males have not progressed to the blastocyst stage and instead cleave abnormally and degenerate (F).
+1	By	by	ADP	IN	_	21	prep	_	_
+2	contrast	contrast	NOUN	NN	Number=Sing	1	pobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=Comm	21	punct	_	_
+4	most	most	ADJ	JJS	Degree=Sup	6	amod	_	_
+5	E3.5	e0	NOUN	NN	Number=Sing	6	compound	_	_
+6	embryos	embryo	NOUN	NNS	Number=Plur	21	nsubj	_	_
+7	produced	produce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	acl	_	_
+8	by	by	ADP	IN	_	7	prep	_	_
+9	crossing	cross	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	pcomp	_	_
+10	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	/	/	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	13	compound	_	_
+13	females	female	NOUN	NNS	Number=Plur	9	dobj	_	_
+14	with	with	ADP	IN	_	9	prep	_	_
+15	wild	wild	ADJ	JJ	Degree=Pos	17	amod	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+17	type	type	NOUN	NN	Number=Sing	18	compound	_	_
+18	males	male	NOUN	NNS	Number=Plur	14	pobj	_	_
+19	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	not	not	ADV	RB	Degree=Pos	21	neg	_	_
+21	progressed	progress	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+22	to	to	ADP	IN	_	21	prep	_	_
+23	the	the	DET	DT	_	25	det	_	_
+24	blastocyst	blastocyst	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	stage	stage	NOUN	NN	Number=Sing	22	pobj	_	_
+26	and	and	CCONJ	CC	_	21	cc	_	_
+27	instead	instead	ADV	RB	Degree=Pos	28	advmod	_	_
+28	cleave	cleave	VERB	VBP	Tense=Pres|VerbForm=Fin	21	conj	_	_
+29	abnormally	abnormally	ADV	RB	Degree=Pos	28	advmod	_	_
+30	and	and	CCONJ	CC	_	28	cc	_	_
+31	degenerate	degenerate	VERB	VB	VerbForm=Inf	28	conj	_	_
+32	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+33	F	f	NOUN	NN	Number=Sing	28	parataxis	_	SpaceAfter=No
+34	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=Peri	21	punct	_	_
+
+# sent_id = 1668
+# text = G,H, Many embryos produced by crossing Dppa3tm1WHT/Dppa3tm1WHT females with Dppa3 +/+, Tg(Pou5f1 ΔPE-GFP)10WHT/Tg(Pou5f1 ΔPE-GFP)10WHT males fail to develop normally beyond the 4-cell stage (G) but nonetheless express the Oct4-GFP marker (H).
+1	G	g	X	LS	NumType=Ord	40	meta	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	SpaceAfter=No
+3	H	h	X	LS	NumType=Ord	1	dep	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	40	punct	_	_
+5	Many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	embryos	embryo	NOUN	NNS	Number=Plur	40	nsubj	_	_
+7	produced	produce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	acl	_	_
+8	by	by	ADP	IN	_	7	prep	_	_
+9	crossing	cross	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	pcomp	_	_
+10	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	/	/	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	13	compound	_	_
+13	females	female	NOUN	NNS	Number=Plur	9	dobj	_	_
+14	with	with	ADP	IN	_	9	prep	_	_
+15	Dppa3	dppa0	NOUN	NN	Number=Sing	39	nmod	_	_
+16	+	+	SYM	SYM	_	15	punct	_	SpaceAfter=No
+17	/	/	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+18	+	+	SYM	SYM	_	15	punct	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=Comm	15	punct	_	_
+20	Tg	tg	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+21	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	22	punct	_	SpaceAfter=No
+22	Pou5f1	pou0f0	NOUN	NN	Number=Sing	28	parataxis	_	_
+23	Δ	Δ	SYM	SYM	_	26	punct	_	SpaceAfter=No
+24	PE	pe	NOUN	NN	Number=Sing	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	PunctType=Dash	26	punct	_	SpaceAfter=No
+26	GFP	gfp	NOUN	NN	Number=Sing	22	prep	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	22	punct	_	SpaceAfter=No
+28	10WHT	0wht	NOUN	NN	Number=Sing	15	appos	_	SpaceAfter=No
+29	/	/	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+30	Tg	tg	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
+31	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	32	punct	_	SpaceAfter=No
+32	Pou5f1	pou0f0	NOUN	NN	Number=Sing	38	parataxis	_	_
+33	Δ	Δ	SYM	SYM	_	36	punct	_	SpaceAfter=No
+34	PE	pe	NOUN	NN	Number=Sing	36	compound	_	SpaceAfter=No
+35	-	-	PUNCT	HYPH	PunctType=Dash	36	punct	_	SpaceAfter=No
+36	GFP	gfp	NOUN	NN	Number=Sing	32	prep	_	SpaceAfter=No
+37	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	32	punct	_	SpaceAfter=No
+38	10WHT	0wht	NOUN	NN	Number=Sing	15	appos	_	_
+39	males	male	NOUN	NNS	Number=Plur	14	pobj	_	_
+40	fail	fail	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+41	to	to	PART	TO	PartType=Inf|VerbForm=Inf	42	aux	_	_
+42	develop	develop	VERB	VB	VerbForm=Inf	40	xcomp	_	_
+43	normally	normally	ADV	RB	Degree=Pos	42	advmod	_	_
+44	beyond	beyond	ADP	IN	_	42	prep	_	_
+45	the	the	DET	DT	_	49	det	_	_
+46	4	0	NUM	CD	NumType=Card	48	nummod	_	SpaceAfter=No
+47	-	-	PUNCT	HYPH	PunctType=Dash	48	punct	_	SpaceAfter=No
+48	cell	cell	NOUN	NN	Number=Sing	49	compound	_	_
+49	stage	stage	NOUN	NN	Number=Sing	44	pobj	_	_
+50	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	51	punct	_	SpaceAfter=No
+51	G	g	NOUN	NN	Number=Sing	40	parataxis	_	SpaceAfter=No
+52	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	51	punct	_	_
+53	but	but	CCONJ	CC	_	40	cc	_	_
+54	nonetheless	nonetheless	ADV	RB	Degree=Pos	55	advmod	_	_
+55	express	express	VERB	VBP	Tense=Pres|VerbForm=Fin	40	conj	_	_
+56	the	the	DET	DT	_	60	det	_	_
+57	Oct4	oct0	NOUN	NN	Number=Sing	59	compound	_	SpaceAfter=No
+58	-	-	PUNCT	HYPH	PunctType=Dash	59	punct	_	SpaceAfter=No
+59	GFP	gfp	NOUN	NN	Number=Sing	60	compound	_	_
+60	marker	marker	NOUN	NN	Number=Sing	55	dobj	_	_
+61	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	62	punct	_	SpaceAfter=No
+62	H	h	NOUN	NN	Number=Sing	60	parataxis	_	SpaceAfter=No
+63	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	62	punct	_	SpaceAfter=No
+64	.	.	PUNCT	.	PunctType=Peri	40	punct	_	_
+
+# newpar id = 15018652-p25
+# sent_id = 1669
+# text = Might maternal Dppa3 induce zygotic expression of Oct4/Pou5f1, which encodes a transcription factor that is crucial to pre-implantation development [10,12]?
+1	Might	might	VERB	MD	VerbType=Mod	4	aux	_	_
+2	maternal	maternal	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	Dppa3	dppa0	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	induce	induce	VERB	VB	VerbForm=Inf	0	root	_	_
+5	zygotic	zygotic	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	expression	expression	NOUN	NN	Number=Sing	4	dobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	Oct4	oct0	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	/	/	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	Pou5f1	pou0f0	NOUN	NN	Number=Sing	7	pobj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+12	which	which	DET	WDT	PronType=Int,Rel	13	dep	_	10:ref=
+13	encodes	encode	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	relcl	_	_
+14	a	a	DET	DT	_	16	det	_	_
+15	transcription	transcription	NOUN	NN	Number=Sing	16	compound	_	_
+16	factor	factor	NOUN	NN	Number=Sing	13	dobj	_	_
+17	that	that	DET	WDT	PronType=Int,Rel	18	dep	_	16:ref=
+18	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	relcl	_	_
+19	crucial	crucial	ADJ	JJ	Degree=Pos	18	acomp	_	_
+20	to	to	ADP	IN	_	19	prep	_	_
+21	pre-implantation	pre-implantation	NOUN	NN	Number=Sing	22	compound	_	_
+22	development	development	NOUN	NN	Number=Sing	20	pobj	_	_
+23	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	26	punct	_	SpaceAfter=No
+24	10	0	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	,	PunctType=Comm	26	punct	_	SpaceAfter=No
+26	12	0	NUM	CD	NumType=Card	4	parataxis	_	SpaceAfter=No
+27	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	26	punct	_	SpaceAfter=No
+28	?	?	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 1670
+# text = To test this possibility, we crossed Dppa3tm1WHT/Dppa3tm1WHT females with Dppa3 +/+, Tg(Pou5f1 ΔPE-GFP)10WHT/Tg(Pou5f1 ΔPE-GFP)10WHT males, the latter transmitting an Oct4-GFP transgene, with the Oct4 promoter driving expression of GFP.
+1	To	to	PART	TO	PartType=Inf|VerbForm=Inf	2	aux	_	_
+2	test	test	VERB	VB	VerbForm=Inf	7	advcl	_	_
+3	this	this	DET	DT	_	4	det	_	_
+4	possibility	possibility	NOUN	NN	Number=Sing	2	dobj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
+6	we	we	PRON	PRP	PronType=Prs	7	nsubj	_	_
+7	crossed	cross	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+8	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	/	/	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	11	compound	_	_
+11	females	female	NOUN	NNS	Number=Plur	7	dobj	_	_
+12	with	with	ADP	IN	_	7	prep	_	_
+13	Dppa3	dppa0	NOUN	NN	Number=Sing	37	nmod	_	_
+14	+	+	SYM	SYM	_	13	punct	_	SpaceAfter=No
+15	/	/	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+16	+	+	SYM	SYM	_	13	punct	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
+18	Tg	tg	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+19	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	20	punct	_	SpaceAfter=No
+20	Pou5f1	pou0f0	NOUN	NN	Number=Sing	26	parataxis	_	_
+21	Δ	Δ	SYM	SYM	_	24	punct	_	SpaceAfter=No
+22	PE	pe	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+24	GFP	gfp	NOUN	NN	Number=Sing	20	prep	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	20	punct	_	SpaceAfter=No
+26	10WHT	0wht	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+27	/	/	PUNCT	HYPH	PunctType=Dash	26	punct	_	SpaceAfter=No
+28	Tg	tg	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+29	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	30	punct	_	SpaceAfter=No
+30	Pou5f1	pou0f0	NOUN	NN	Number=Sing	36	parataxis	_	_
+31	Δ	Δ	SYM	SYM	_	34	punct	_	SpaceAfter=No
+32	PE	pe	NOUN	NN	Number=Sing	34	compound	_	SpaceAfter=No
+33	-	-	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+34	GFP	gfp	NOUN	NN	Number=Sing	30	prep	_	SpaceAfter=No
+35	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	30	punct	_	SpaceAfter=No
+36	10WHT	0wht	NOUN	NN	Number=Sing	26	appos	_	_
+37	males	male	NOUN	NNS	Number=Plur	12	pobj	_	SpaceAfter=No
+38	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
+39	the	the	DET	DT	_	40	det	_	_
+40	latter	latter	ADJ	JJ	Degree=Pos	41	nsubj	_	_
+41	transmitting	transmit	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	7	advcl	_	_
+42	an	an	DET	DT	_	46	det	_	_
+43	Oct4	oct0	NOUN	NN	Number=Sing	45	compound	_	SpaceAfter=No
+44	-	-	PUNCT	HYPH	PunctType=Dash	45	punct	_	SpaceAfter=No
+45	GFP	gfp	NOUN	NN	Number=Sing	46	compound	_	_
+46	transgene	transgene	NOUN	NN	Number=Sing	41	dobj	_	SpaceAfter=No
+47	,	,	PUNCT	,	PunctType=Comm	41	punct	_	_
+48	with	with	ADP	IN	_	41	prep	_	_
+49	the	the	DET	DT	_	51	det	_	_
+50	Oct4	oct0	NOUN	NN	Number=Sing	51	compound	_	_
+51	promoter	promoter	NOUN	NN	Number=Sing	52	nsubj	_	_
+52	driving	drive	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	48	pcomp	_	_
+53	expression	expression	NOUN	NN	Number=Sing	52	dobj	_	_
+54	of	of	ADP	IN	_	53	prep	_	_
+55	GFP	gfp	NOUN	NN	Number=Sing	54	pobj	_	SpaceAfter=No
+56	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 1671
+# text = We retrieved the resulting embryos at the 2-cell stage and cultured them in vitro for 72 hours to monitor expression of the Oct4-GFP transgene.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	retrieved	retrieve	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	resulting	result	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	5	amod	_	_
+5	embryos	embryo	NOUN	NNS	Number=Plur	2	dobj	_	_
+6	at	at	ADP	IN	_	2	prep	_	_
+7	the	the	DET	DT	_	11	det	_	_
+8	2	0	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	cell	cell	NOUN	NN	Number=Sing	11	compound	_	_
+11	stage	stage	NOUN	NN	Number=Sing	6	pobj	_	_
+12	and	and	CCONJ	CC	_	2	cc	_	_
+13	cultured	culture	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	conj	_	_
+14	them	them	PRON	PRP	PronType=Prs	13	dobj	_	_
+15	in	in	X	FW	Foreign=Yes	16	advmod	_	_
+16	vitro	vitro	X	FW	Foreign=Yes	13	advmod	_	_
+17	for	for	ADP	IN	_	13	prep	_	_
+18	72	0	NUM	CD	NumType=Card	19	nummod	_	_
+19	hours	hour	NOUN	NNS	Number=Plur	17	pobj	_	_
+20	to	to	PART	TO	PartType=Inf|VerbForm=Inf	21	aux	_	_
+21	monitor	monitor	VERB	VB	VerbForm=Inf	13	advcl	_	_
+22	expression	expression	NOUN	NN	Number=Sing	21	dobj	_	_
+23	of	of	ADP	IN	_	22	prep	_	_
+24	the	the	DET	DT	_	28	det	_	_
+25	Oct4	oct0	NOUN	NN	Number=Sing	27	compound	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	PunctType=Dash	27	punct	_	SpaceAfter=No
+27	GFP	gfp	NOUN	NN	Number=Sing	28	compound	_	_
+28	transgene	transgene	NOUN	NN	Number=Sing	23	pobj	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1672
+# text = All such embryos were observed to express the fluorescent marker, regardless of the degree to which the embryos developed or failed to develop during the culture period (Figure 3G,3H).
+1	All	all	DET	DT	_	3	det	_	_
+2	such	such	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	embryos	embryo	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	observed	observe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	PART	TO	PartType=Inf|VerbForm=Inf	7	aux	_	_
+7	express	express	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	the	the	DET	DT	_	10	det	_	_
+9	fluorescent	fluorescent	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	marker	marker	NOUN	NN	Number=Sing	7	dobj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
+12	regardless	regardless	ADV	RB	Degree=Pos	7	advmod	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	degree	degree	NOUN	NN	Number=Sing	13	pobj	_	_
+16	to	to	ADP	IN	_	20	prep	_	_
+17	which	which	DET	WDT	PronType=Int,Rel	16	pobj	_	15:ref=
+18	the	the	DET	DT	_	19	det	_	_
+19	embryos	embryo	NOUN	NNS	Number=Plur	20	nsubj	_	_
+20	developed	develop	VERB	VBD	Tense=Past|VerbForm=Fin	15	relcl	_	_
+21	or	or	CCONJ	CC	_	20	cc	_	_
+22	failed	fail	VERB	VBD	Tense=Past|VerbForm=Fin	20	conj	_	_
+23	to	to	PART	TO	PartType=Inf|VerbForm=Inf	24	aux	_	_
+24	develop	develop	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	during	during	ADP	IN	_	20	prep	_	_
+26	the	the	DET	DT	_	28	det	_	_
+27	culture	culture	NOUN	NN	Number=Sing	28	compound	_	_
+28	period	period	NOUN	NN	Number=Sing	25	pobj	_	_
+29	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+30	Figure	figure	NOUN	NN	Number=Sing	33	nmod	_	_
+31	3G	0g	NUM	CD	NumType=Card	33	nummod	_	SpaceAfter=No
+32	,	,	PUNCT	,	PunctType=Comm	33	punct	_	SpaceAfter=No
+33	3H	0h	NUM	CD	NumType=Card	5	parataxis	_	SpaceAfter=No
+34	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 1673
+# text = Thus, the poor development of many embryos derived from Dppa3-deficient oocytes cannot be attributed to the absence of zygotic expression of Oct4.
+1	Thus	thus	ADV	RB	Degree=Pos	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	18	punct	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	development	development	NOUN	NN	Number=Sing	18	nsubjpass	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	many	many	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	embryos	embryo	NOUN	NNS	Number=Plur	6	pobj	_	_
+9	derived	derive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	acl	_	_
+10	from	from	ADP	IN	_	9	prep	_	_
+11	Dppa3	dppa0	NOUN	NN	Number=Sing	13	npadvmod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+13	deficient	deficient	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	oocytes	oocyte	NOUN	NNS	Number=Plur	10	pobj	_	_
+15	can	can	VERB	MD	VerbType=Mod	18	aux	_	SpaceAfter=No
+16	not	not	ADV	RB	Degree=Pos	18	neg	_	_
+17	be	be	VERB	VB	VerbForm=Inf	18	auxpass	_	_
+18	attributed	attribute	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+19	to	to	ADP	IN	_	18	prep	_	_
+20	the	the	DET	DT	_	21	det	_	_
+21	absence	absence	NOUN	NN	Number=Sing	19	pobj	_	_
+22	of	of	ADP	IN	_	21	prep	_	_
+23	zygotic	zygotic	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	expression	expression	NOUN	NN	Number=Sing	22	pobj	_	_
+25	of	of	ADP	IN	_	24	prep	_	_
+26	Oct4	oct0	NOUN	NN	Number=Sing	25	pobj	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	18	punct	_	_
+
+# sent_id = 1674
+# text = Further analysis of the maternal-effect phenotype of Dppa3 should illuminate the molecular and biological context and consequences of the gene's activity.
+1	Further	far	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	analysis	analysis	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	8	det	_	_
+5	maternal	maternal	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+7	effect	effect	NOUN	NN	Number=Sing	8	compound	_	_
+8	phenotype	phenotype	NOUN	NN	Number=Sing	3	pobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	Dppa3	dppa0	NOUN	NN	Number=Sing	9	pobj	_	_
+11	should	should	VERB	MD	VerbType=Mod	12	aux	_	_
+12	illuminate	illuminate	VERB	VB	VerbForm=Inf	0	root	_	_
+13	the	the	DET	DT	_	17	det	_	_
+14	molecular	molecular	ADJ	JJ	Degree=Pos	17	amod	_	_
+15	and	and	CCONJ	CC	_	14	cc	_	_
+16	biological	biological	ADJ	JJ	Degree=Pos	14	conj	_	_
+17	context	context	NOUN	NN	Number=Sing	12	dobj	_	_
+18	and	and	CCONJ	CC	_	17	cc	_	_
+19	consequences	consequence	NOUN	NNS	Number=Plur	17	conj	_	_
+20	of	of	ADP	IN	_	17	prep	_	_
+21	the	the	DET	DT	_	22	det	_	_
+22	gene	gene	NOUN	NN	Number=Sing	24	poss	_	SpaceAfter=No
+23	's	's	PART	POS	Poss=Yes	22	case	_	_
+24	activity	activity	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	12	punct	_	_
+
+# newpar id = 15018652-p26
+# sent_id = 1675
+# text = Conclusions
+1	Conclusions	conclusion	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15018652-p27
+# sent_id = 1676
+# text = We conclude that Dppa3 is not required for germ cell specification in mice.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	conclude	conclude	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	ADP	IN	_	7	mark	_	_
+4	Dppa3	dppa0	NOUN	NN	Number=Sing	7	nsubjpass	_	_
+5	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	auxpass	_	_
+6	not	not	ADV	RB	Degree=Pos	7	neg	_	_
+7	required	require	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	for	for	ADP	IN	_	7	prep	_	_
+9	germ	germ	NOUN	NN	Number=Sing	10	compound	_	_
+10	cell	cell	NOUN	NN	Number=Sing	11	compound	_	_
+11	specification	specification	NOUN	NN	Number=Sing	8	pobj	_	_
+12	in	in	ADP	IN	_	7	prep	_	_
+13	mice	mouse	NOUN	NNS	Number=Plur	12	pobj	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1677
+# text = The identity of the mammalian gene or genes that program germ cells remains an open question.
+1	The	the	DET	DT	_	2	det	_	_
+2	identity	identity	NOUN	NN	Number=Sing	13	nsubj	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	mammalian	mammalian	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	gene	gene	NOUN	NN	Number=Sing	3	pobj	_	_
+7	or	or	CCONJ	CC	_	6	cc	_	_
+8	genes	gene	NOUN	NNS	Number=Plur	6	conj	_	_
+9	that	that	DET	WDT	PronType=Int,Rel	10	dep	_	6:ref=
+10	program	program	VERB	VBP	Tense=Pres|VerbForm=Fin	6	relcl	_	_
+11	germ	germ	NOUN	NN	Number=Sing	12	compound	_	_
+12	cells	cell	NOUN	NNS	Number=Plur	10	dobj	_	_
+13	remains	remain	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	an	an	DET	DT	_	16	det	_	_
+15	open	open	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	question	question	NOUN	NN	Number=Sing	13	oprd	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	13	punct	_	_
+
+# sent_id = 1678
+# text = Dppa3 appears to function as a maternal factor, with an important role early in embryogenesis, during cleavage.
+1	Dppa3	dppa0	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	appears	appear	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	PartType=Inf|VerbForm=Inf	4	aux	_	_
+4	function	function	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	as	as	ADP	IN	_	4	prep	_	_
+6	a	a	DET	DT	_	8	det	_	_
+7	maternal	maternal	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	factor	factor	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+10	with	with	ADP	IN	_	4	prep	_	_
+11	an	an	DET	DT	_	13	det	_	_
+12	important	important	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	role	role	NOUN	NN	Number=Sing	10	pobj	_	_
+14	early	early	ADJ	JJ	Degree=Pos	13	amod	_	_
+15	in	in	ADP	IN	_	14	prep	_	_
+16	embryogenesis	embryogenesis	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
+18	during	during	ADP	IN	_	13	prep	_	_
+19	cleavage	cleavage	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# newpar id = 15018652-p28
+# sent_id = 1679
+# text = Methods
+1	Methods	method	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15018652-p29
+# sent_id = 1680
+# text = Generation of Dppa3-deficient animals
+1	Generation	generation	NOUN	NN	Number=Sing	0	root	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	Dppa3	dppa0	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+5	deficient	deficient	ADJ	JJ	Degree=Pos	3	amod	_	_
+6	animals	animal	NOUN	NNS	Number=Plur	2	pobj	_	_
+
+# newpar id = 15018652-p30
+# sent_id = 1681
+# text = The Dppa3 targeting construct contained 1.3-kb and 3-kb segments of mouse genomic DNA, the former located 5' of Dppa3's translation initiation site and the latter located 3' of the termination codon (Figure 1).
+1	The	the	DET	DT	_	2	det	_	_
+2	Dppa3	dppa0	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	targeting	target	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	acl	_	_
+4	construct	construct	NOUN	NN	Number=Sing	3	dobj	_	_
+5	contained	contain	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	1.3	0	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	kb	kb	NOUN	NN	Number=Sing	13	nmod	_	_
+9	and	and	CCONJ	CC	_	8	cc	_	_
+10	3	0	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	kb	kb	NOUN	NN	Number=Sing	8	conj	_	_
+13	segments	segment	NOUN	NNS	Number=Plur	5	dobj	_	_
+14	of	of	ADP	IN	_	13	prep	_	_
+15	mouse	mouse	NOUN	NN	Number=Sing	17	nmod	_	_
+16	genomic	genomic	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	DNA	dna	NOUN	NN	Number=Sing	14	pobj	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+19	the	the	DET	DT	_	20	det	_	_
+20	former	former	ADJ	JJ	Degree=Pos	21	nsubj	_	_
+21	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	advcl	_	_
+22	5	0	NUM	CD	NumType=Card	21	npadvmod	_	SpaceAfter=No
+23	'	'	SYM	SYM	_	22	punct	_	_
+24	of	of	ADP	IN	_	22	prep	_	_
+25	Dppa3	dppa0	NOUN	NN	Number=Sing	29	poss	_	SpaceAfter=No
+26	's	's	PART	POS	Poss=Yes	25	case	_	_
+27	translation	translation	NOUN	NN	Number=Sing	28	compound	_	_
+28	initiation	initiation	NOUN	NN	Number=Sing	29	compound	_	_
+29	site	site	NOUN	NN	Number=Sing	24	pobj	_	_
+30	and	and	CCONJ	CC	_	21	cc	_	_
+31	the	the	DET	DT	_	32	det	_	_
+32	latter	latter	ADJ	JJ	Degree=Pos	33	nsubj	_	_
+33	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	21	conj	_	_
+34	3	0	NUM	CD	NumType=Card	33	npadvmod	_	SpaceAfter=No
+35	'	'	SYM	SYM	_	34	punct	_	_
+36	of	of	ADP	IN	_	34	prep	_	_
+37	the	the	DET	DT	_	39	det	_	_
+38	termination	termination	NOUN	NN	Number=Sing	39	compound	_	_
+39	codon	codon	NOUN	NN	Number=Sing	36	pobj	_	_
+40	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	41	punct	_	SpaceAfter=No
+41	Figure	figure	NOUN	NN	Number=Sing	5	parataxis	_	_
+42	1	0	NUM	CD	NumType=Card	41	nummod	_	SpaceAfter=No
+43	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	41	punct	_	SpaceAfter=No
+44	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 1682
+# text = At the center of the construct was a 3-kb hygromycin-thymidine kinase selection cassette (Hygro-TK) flanked by two loxP direct repeats.
+1	At	at	ADP	IN	_	7	prep	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	center	center	NOUN	NN	Number=Sing	1	pobj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	construct	construct	NOUN	NN	Number=Sing	4	pobj	_	_
+7	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	_	11	det	_	_
+9	3	0	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+11	kb	kb	NOUN	NN	Number=Sing	7	nsubj	_	_
+12	hygromycin	hygromycin	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+14	thymidine	thymidine	NOUN	NN	Number=Sing	16	nmod	_	_
+15	kinase	kinase	NOUN	NN	Number=Sing	16	nmod	_	_
+16	selection	selection	NOUN	NN	Number=Sing	21	nmod	_	_
+17	cassette	cassette	NOUN	NN	Number=Sing	21	nmod	_	_
+18	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	21	punct	_	SpaceAfter=No
+19	Hygro	hygro	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	PunctType=Dash	21	punct	_	SpaceAfter=No
+21	TK	tk	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	11	punct	_	_
+23	flanked	flank	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	acl	_	_
+24	by	by	ADP	IN	_	23	agent	_	_
+25	two	#crd#	NUM	CD	NumType=Card	28	nummod	_	_
+26	loxP	loxp	NOUN	NN	Number=Sing	28	nmod	_	_
+27	direct	direct	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	repeats	repeat	NOUN	NNS	Number=Plur	24	pobj	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 1683
+# text = V6.5 (C57BL/6 × 129/Sv)F1 ES cells [9] were transfected by electroporation, and recombined clones were selected in the presence of hygromycin (Invitrogen).
+1	V6.5	v0	NOUN	NN	Number=Sing	13	nmod	_	_
+2	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	3	punct	_	SpaceAfter=No
+3	C57BL	c0bl	NOUN	NN	Number=Sing	13	parataxis	_	SpaceAfter=No
+4	/	/	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+5	6	0	NUM	CD	NumType=Card	3	nummod	_	_
+6	×	×	SYM	SYM	_	9	punct	_	_
+7	129	0	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+8	/	/	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	Sv	sv	NOUN	NN	Number=Sing	3	prep	_	SpaceAfter=No
+10	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	3	punct	_	SpaceAfter=No
+11	F1	f0	NOUN	NN	Number=Sing	13	compound	_	_
+12	ES	es	NOUN	NN	Number=Sing	13	compound	_	_
+13	cells	cell	NOUN	NNS	Number=Plur	18	nsubjpass	_	_
+14	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	15	punct	_	SpaceAfter=No
+15	9	0	NUM	CD	NumType=Card	13	parataxis	_	SpaceAfter=No
+16	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	15	punct	_	_
+17	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	18	auxpass	_	_
+18	transfected	transfected	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+19	by	by	ADP	IN	_	18	prep	_	_
+20	electroporation	electroporation	NOUN	NN	Number=Sing	19	pobj	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=Comm	18	punct	_	_
+22	and	and	CCONJ	CC	_	18	cc	_	_
+23	recombined	recombine	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	24	amod	_	_
+24	clones	clone	NOUN	NNS	Number=Plur	26	nsubjpass	_	_
+25	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	26	auxpass	_	_
+26	selected	select	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	18	conj	_	_
+27	in	in	ADP	IN	_	26	prep	_	_
+28	the	the	DET	DT	_	29	det	_	_
+29	presence	presence	NOUN	NN	Number=Sing	27	pobj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	hygromycin	hygromycin	NOUN	NN	Number=Sing	30	pobj	_	_
+32	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+33	Invitrogen	invitrogen	PROPN	NNP	Number=Sing	26	parataxis	_	SpaceAfter=No
+34	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=Peri	26	punct	_	_
+
+# sent_id = 1684
+# text = Correctly targeted clones were identified by long-distance genomic PCR.
+1	Correctly	correctly	ADV	RB	Degree=Pos	2	advmod	_	_
+2	targeted	target	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	amod	_	_
+3	clones	clone	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	by	by	ADP	IN	_	5	prep	_	_
+7	long	long	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	distance	distance	NOUN	NN	Number=Sing	11	nmod	_	_
+10	genomic	genomic	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	PCR	pcr	NOUN	NN	Number=Sing	6	pobj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 1685
+# text = The Hygro-TK cassette was removed via transient transfection of ES cells with a Cre-expressing plasmid in the presence of ganciclovir (Sigma).
+1	The	the	DET	DT	_	5	det	_	_
+2	Hygro	hygro	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+4	TK	tk	NOUN	NN	Number=Sing	5	compound	_	_
+5	cassette	cassette	NOUN	NN	Number=Sing	7	nsubjpass	_	_
+6	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	7	auxpass	_	_
+7	removed	remove	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	via	via	ADP	IN	_	7	prep	_	_
+9	transient	transient	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	transfection	transfection	NOUN	NN	Number=Sing	8	pobj	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	ES	es	NOUN	NN	Number=Sing	13	compound	_	_
+13	cells	cell	NOUN	NNS	Number=Plur	11	pobj	_	_
+14	with	with	ADP	IN	_	10	prep	_	_
+15	a	a	DET	DT	_	19	det	_	_
+16	Cre	cre	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+18	expressing	express	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	16	amod	_	_
+19	plasmid	plasmid	NOUN	NN	Number=Sing	14	pobj	_	_
+20	in	in	ADP	IN	_	10	prep	_	_
+21	the	the	DET	DT	_	22	det	_	_
+22	presence	presence	NOUN	NN	Number=Sing	20	pobj	_	_
+23	of	of	ADP	IN	_	22	prep	_	_
+24	ganciclovir	ganciclovir	NOUN	NN	Number=Sing	23	pobj	_	_
+25	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	26	punct	_	SpaceAfter=No
+26	Sigma	sigma	PROPN	NNP	Number=Sing	7	parataxis	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 1686
+# text = The final genomic structure of the resulting clones was verified by Southern analysis.
+1	The	the	DET	DT	_	4	det	_	_
+2	final	final	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	genomic	genomic	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	structure	structure	NOUN	NN	Number=Sing	10	nsubjpass	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	resulting	result	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	amod	_	_
+8	clones	clone	NOUN	NNS	Number=Plur	5	pobj	_	_
+9	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	10	auxpass	_	_
+10	verified	verify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+11	by	by	ADP	IN	_	10	prep	_	_
+12	Southern	southern	PROPN	NNP	Number=Sing	13	compound	_	_
+13	analysis	analysis	NOUN	NN	Number=Sing	11	pobj	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 1687
+# text = Two independently targeted ES cell clones were microinjected into Balb/c blastocysts to generate chimeras.
+1	Two	#crd#	NUM	CD	NumType=Card	6	nummod	_	_
+2	independently	independently	ADV	RB	Degree=Pos	3	advmod	_	_
+3	targeted	target	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	amod	_	_
+4	ES	es	NOUN	NN	Number=Sing	5	compound	_	_
+5	cell	cell	NOUN	NN	Number=Sing	6	compound	_	_
+6	clones	clone	NOUN	NNS	Number=Plur	8	nsubjpass	_	_
+7	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	8	auxpass	_	_
+8	microinjected	microinjected	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+9	into	into	ADP	IN	_	8	prep	_	_
+10	Balb	balb	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	/	/	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	c	c	NOUN	NN	Number=Sing	13	compound	_	_
+13	blastocysts	blastocyst	NOUN	NNS	Number=Plur	9	pobj	_	_
+14	to	to	PART	TO	PartType=Inf|VerbForm=Inf	15	aux	_	_
+15	generate	generate	VERB	VB	VerbForm=Inf	8	advcl	_	_
+16	chimeras	chimera	NOUN	NNS	Number=Plur	15	dobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
+
+# sent_id = 1688
+# text = Animals used in this study were of a mixed C57BL/6 × 129/Sv genetic background.
+1	Animals	animal	NOUN	NNS	Number=Plur	6	nsubj	_	_
+2	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	1	acl	_	_
+3	in	in	ADP	IN	_	2	prep	_	_
+4	this	this	DET	DT	_	5	det	_	_
+5	study	study	NOUN	NN	Number=Sing	3	pobj	_	_
+6	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	a	a	DET	DT	_	18	det	_	_
+9	mixed	mix	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	18	amod	_	_
+10	C57BL	c0bl	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+11	/	/	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+12	6	0	NUM	CD	NumType=Card	10	nummod	_	_
+13	×	×	SYM	SYM	_	10	punct	_	_
+14	129	0	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+15	/	/	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+16	Sv	sv	NOUN	NN	Number=Sing	10	appos	_	_
+17	genetic	genetic	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	background	background	NOUN	NN	Number=Sing	7	pobj	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# newpar id = 15018652-p31
+# sent_id = 1689
+# text = Primers for PCR genotyping were as follows: p1 (5' TAG CCT GGG GGT AGA CTC GGC TGT AT 3'); p2 (5' AAC GAG AAG AGA AGG GAG GGC TTC 3'); and p3 (5' TCA CAT AAA TCT GGA TCG TTG TGC ATC 3').
+1	Primers	primer	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	for	for	ADP	IN	_	1	prep	_	_
+3	PCR	pcr	NOUN	NN	Number=Sing	4	compound	_	_
+4	genotyping	genotyping	NOUN	NN	Number=Sing	2	pobj	_	_
+5	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	as	as	ADP	IN	_	7	mark	_	_
+7	follows	follow	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	5	punct	_	_
+9	p1	p0	NOUN	NN	Number=Sing	5	dep	_	_
+10	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	9	punct	_	SpaceAfter=No
+11	5	0	NUM	CD	NumType=Card	9	appos	_	SpaceAfter=No
+12	'	'	SYM	SYM	_	11	punct	_	_
+13	TAG	tag	NOUN	NN	Number=Sing	21	compound	_	_
+14	CCT	cct	NOUN	NN	Number=Sing	21	compound	_	_
+15	GGG	ggg	NOUN	NN	Number=Sing	21	compound	_	_
+16	GGT	ggt	NOUN	NN	Number=Sing	21	compound	_	_
+17	AGA	aga	NOUN	NN	Number=Sing	21	compound	_	_
+18	CTC	ctc	NOUN	NN	Number=Sing	21	compound	_	_
+19	GGC	ggc	NOUN	NN	Number=Sing	21	compound	_	_
+20	TGT	tgt	NOUN	NN	Number=Sing	21	compound	_	_
+21	AT	at	NOUN	NN	Number=Sing	11	appos	_	_
+22	3	0	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+23	'	'	SYM	SYM	_	11	punct	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	9	punct	_	SpaceAfter=No
+25	;	;	PUNCT	:	_	9	punct	_	_
+26	p2	p0	NOUN	NN	Number=Sing	9	conj	_	_
+27	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	26	punct	_	SpaceAfter=No
+28	5	0	NUM	CD	NumType=Card	26	appos	_	SpaceAfter=No
+29	'	'	SYM	SYM	_	28	punct	_	_
+30	AAC	aac	NOUN	NN	Number=Sing	37	compound	_	_
+31	GAG	gag	NOUN	NN	Number=Sing	37	compound	_	_
+32	AAG	aag	NOUN	NN	Number=Sing	37	compound	_	_
+33	AGA	aga	NOUN	NN	Number=Sing	37	compound	_	_
+34	AGG	agg	NOUN	NN	Number=Sing	37	compound	_	_
+35	GAG	gag	NOUN	NN	Number=Sing	37	compound	_	_
+36	GGC	ggc	NOUN	NN	Number=Sing	37	compound	_	_
+37	TTC	ttc	NOUN	NN	Number=Sing	28	appos	_	_
+38	3	0	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+39	'	'	SYM	SYM	_	28	punct	_	SpaceAfter=No
+40	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	26	punct	_	SpaceAfter=No
+41	;	;	PUNCT	:	_	26	punct	_	_
+42	and	and	CCONJ	CC	_	26	cc	_	_
+43	p3	p0	NOUN	NN	Number=Sing	26	conj	_	_
+44	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	45	punct	_	SpaceAfter=No
+45	5	0	NUM	CD	NumType=Card	43	appos	_	SpaceAfter=No
+46	'	'	SYM	SYM	_	45	punct	_	_
+47	TCA	tca	NOUN	NN	Number=Sing	55	compound	_	_
+48	CAT	cat	NOUN	NN	Number=Sing	55	compound	_	_
+49	AAA	aaa	NOUN	NN	Number=Sing	55	compound	_	_
+50	TCT	tct	NOUN	NN	Number=Sing	55	compound	_	_
+51	GGA	gga	NOUN	NN	Number=Sing	55	compound	_	_
+52	TCG	tcg	NOUN	NN	Number=Sing	55	compound	_	_
+53	TTG	ttg	NOUN	NN	Number=Sing	55	compound	_	_
+54	TGC	tgc	NOUN	NN	Number=Sing	55	compound	_	_
+55	ATC	atc	NOUN	NN	Number=Sing	45	appos	_	_
+56	3	0	NUM	CD	NumType=Card	45	nummod	_	SpaceAfter=No
+57	'	'	SYM	SYM	_	45	punct	_	SpaceAfter=No
+58	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	43	punct	_	SpaceAfter=No
+59	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 1690
+# text = The wild type allele gives rise to a PCR product of 304 bp with primers p1 and p2.
+1	The	the	DET	DT	_	4	det	_	_
+2	wild	wild	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	type	type	NOUN	NN	Number=Sing	4	compound	_	_
+4	allele	allele	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	gives	give	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	rise	rise	NOUN	NN	Number=Sing	5	dobj	_	_
+7	to	to	ADP	IN	_	5	prep	_	_
+8	a	a	DET	DT	_	10	det	_	_
+9	PCR	pcr	NOUN	NN	Number=Sing	10	compound	_	_
+10	product	product	NOUN	NN	Number=Sing	7	pobj	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	304	0	NUM	CD	NumType=Card	13	nummod	_	_
+13	bp	bp	NOUN	NNS	Number=Plur	11	pobj	_	_
+14	with	with	ADP	IN	_	5	prep	_	_
+15	primers	primer	NOUN	NNS	Number=Plur	16	compound	_	_
+16	p1	p0	NOUN	NN	Number=Sing	14	pobj	_	_
+17	and	and	CCONJ	CC	_	16	cc	_	_
+18	p2	p0	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 1691
+# text = The mutant allele (Dppa3tm1WHT) gives rise to a PCR product of 492 bp with primers p1 and p3.
+1	The	the	DET	DT	_	3	det	_	_
+2	mutant	mutant	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	allele	allele	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	3	punct	_	SpaceAfter=No
+5	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	7	punct	_	_
+7	gives	give	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	rise	rise	NOUN	NN	Number=Sing	7	dobj	_	_
+9	to	to	ADP	IN	_	7	prep	_	_
+10	a	a	DET	DT	_	12	det	_	_
+11	PCR	pcr	NOUN	NN	Number=Sing	12	compound	_	_
+12	product	product	NOUN	NN	Number=Sing	9	pobj	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	492	0	NUM	CD	NumType=Card	15	nummod	_	_
+15	bp	bp	NOUN	NNS	Number=Plur	13	pobj	_	_
+16	with	with	ADP	IN	_	7	prep	_	_
+17	primers	primer	NOUN	NNS	Number=Plur	18	compound	_	_
+18	p1	p0	NOUN	NN	Number=Sing	16	pobj	_	_
+19	and	and	CCONJ	CC	_	18	cc	_	_
+20	p3	p0	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# newpar id = 15018652-p32
+# sent_id = 1692
+# text = RNA isolation and RT-PCR
+1	RNA	rna	NOUN	NN	Number=Sing	2	compound	_	_
+2	isolation	isolation	NOUN	NN	Number=Sing	0	root	_	_
+3	and	and	CCONJ	CC	_	2	cc	_	_
+4	RT	rt	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+6	PCR	pcr	NOUN	NN	Number=Sing	2	conj	_	_
+
+# newpar id = 15018652-p33
+# sent_id = 1693
+# text = Total RNAs were isolated from mouse tissues, and expression of Dppa3, Oct4, and Gapd was assayed by RT-PCR, all as described previously[8].
+1	Total	total	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	RNAs	rna	NOUN	NNS	Number=Plur	4	nsubjpass	_	_
+3	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	isolated	isolate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	from	from	ADP	IN	_	4	prep	_	_
+6	mouse	mouse	NOUN	NN	Number=Sing	7	compound	_	_
+7	tissues	tissue	NOUN	NNS	Number=Plur	5	pobj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+9	and	and	CCONJ	CC	_	4	cc	_	_
+10	expression	expression	NOUN	NN	Number=Sing	19	nsubjpass	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	Dppa3	dppa0	NOUN	NN	Number=Sing	11	pobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
+14	Oct4	oct0	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+16	and	and	CCONJ	CC	_	14	cc	_	_
+17	Gapd	gapd	NOUN	NN	Number=Sing	14	conj	_	_
+18	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	19	auxpass	_	_
+19	assayed	assay	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	conj	_	_
+20	by	by	ADP	IN	_	19	prep	_	_
+21	RT	rt	NOUN	NN	Number=Sing	23	compound	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	PunctType=Dash	23	punct	_	SpaceAfter=No
+23	PCR	pcr	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+25	all	all	DET	DT	_	27	nsubj	_	_
+26	as	as	ADP	IN	_	27	mark	_	_
+27	described	describe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	advcl	_	_
+28	previously	previously	ADV	RB	Degree=Pos	27	advmod	_	SpaceAfter=No
+29	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	30	punct	_	SpaceAfter=No
+30	8	0	NUM	CD	NumType=Card	27	parataxis	_	SpaceAfter=No
+31	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# newpar id = 15018652-p34
+# sent_id = 1694
+# text = Alkaline phosphatase staining of primordial germ cells
+1	Alkaline	alkaline	NOUN	NN	Number=Sing	2	compound	_	_
+2	phosphatase	phosphatase	NOUN	NN	Number=Sing	3	compound	_	_
+3	staining	staining	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	primordial	primordial	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	germ	germ	NOUN	NN	Number=Sing	7	compound	_	_
+7	cells	cell	NOUN	NNS	Number=Plur	4	pobj	_	_
+
+# newpar id = 15018652-p35
+# sent_id = 1695
+# text = Gonads were dissected from wild type and Dppa3tm1WHT /Dppa3tm1WHT embryos on day 12.5 of gestation and stained for alkaline phosphatase as described previously [13].
+1	Gonads	gonad	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	3	aux	_	_
+3	dissected	dissect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+4	from	from	ADP	IN	_	3	prep	_	_
+5	wild	wild	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	type	type	NOUN	NN	Number=Sing	11	nmod	_	_
+7	and	and	CCONJ	CC	_	6	cc	_	_
+8	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	10	compound	_	_
+9	/	/	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	Dppa3tm1WHT	dppa0tm0wht	NOUN	NN	Number=Sing	6	conj	_	_
+11	embryos	embryo	NOUN	NNS	Number=Plur	4	pobj	_	_
+12	on	on	ADP	IN	_	3	prep	_	_
+13	day	day	NOUN	NN	Number=Sing	12	pobj	_	_
+14	12.5	0	NUM	CD	NumType=Card	13	nummod	_	_
+15	of	of	ADP	IN	_	13	prep	_	_
+16	gestation	gestation	NOUN	NN	Number=Sing	15	pobj	_	_
+17	and	and	CCONJ	CC	_	3	cc	_	_
+18	stained	stain	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	conj	_	_
+19	for	for	ADP	IN	_	18	prep	_	_
+20	alkaline	alkaline	NOUN	NN	Number=Sing	21	compound	_	_
+21	phosphatase	phosphatase	NOUN	NN	Number=Sing	19	pobj	_	_
+22	as	as	ADP	IN	_	23	mark	_	_
+23	described	describe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	advcl	_	_
+24	previously	previously	ADV	RB	Degree=Pos	23	advmod	_	_
+25	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	26	punct	_	SpaceAfter=No
+26	13	0	NUM	CD	NumType=Card	3	parataxis	_	SpaceAfter=No
+27	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# newpar id = 15018652-p36
+# sent_id = 1696
+# text = Histology
+1	Histology	histology	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15018652-p37
+# sent_id = 1697
+# text = Dissected adult testes and ovaries were fixed overnight in Bouin's solution, imbedded in paraffin, sectioned, and stained with hematoxylin and eosin.
+1	Dissected	dissect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	amod	_	_
+2	adult	adult	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	testes	testis	NOUN	NNS	Number=Plur	7	nsubjpass	_	_
+4	and	and	CCONJ	CC	_	3	cc	_	_
+5	ovaries	ovary	NOUN	NNS	Number=Plur	3	conj	_	_
+6	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	7	auxpass	_	_
+7	fixed	fix	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	overnight	overnight	ADV	RB	Degree=Pos	7	advmod	_	_
+9	in	in	ADP	IN	_	7	prep	_	_
+10	Bouin	bouin	PROPN	NNP	Number=Sing	12	poss	_	SpaceAfter=No
+11	's	's	PART	POS	Poss=Yes	10	case	_	_
+12	solution	solution	NOUN	NN	Number=Sing	9	pobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
+14	imbedded	imbed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	conj	_	_
+15	in	in	ADP	IN	_	14	prep	_	_
+16	paraffin	paraffin	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+17	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+18	sectioned	section	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=Comm	18	punct	_	_
+20	and	and	CCONJ	CC	_	18	cc	_	_
+21	stained	stain	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	18	conj	_	_
+22	with	with	ADP	IN	_	21	prep	_	_
+23	hematoxylin	hematoxylin	NOUN	NN	Number=Sing	22	pobj	_	_
+24	and	and	CCONJ	CC	_	23	cc	_	_
+25	eosin	eosin	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# newpar id = 15018652-p38
+# sent_id = 1698
+# text = Generation of Oct4-GFP transgenic animals
+1	Generation	generation	NOUN	NN	Number=Sing	0	root	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	Oct4	oct0	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+5	GFP	gfp	NOUN	NN	Number=Sing	7	nmod	_	_
+6	transgenic	transgenic	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	animals	animal	NOUN	NNS	Number=Plur	2	pobj	_	_
+
+# newpar id = 15018652-p39
+# sent_id = 1699
+# text = Mice bearing an Oct4-GFP transgene were generated by microinjection of a 14-kb Oct4Δ PE-GFP linear DNA fragment into C57Bl/6 × SJL F2 hybrid mouse eggs.
+1	Mice	mouse	NOUN	NNS	Number=Plur	9	nsubjpass	_	_
+2	bearing	bear	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	1	acl	_	_
+3	an	an	DET	DT	_	7	det	_	_
+4	Oct4	oct0	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+6	GFP	gfp	NOUN	NN	Number=Sing	7	compound	_	_
+7	transgene	transgene	NOUN	NN	Number=Sing	2	dobj	_	_
+8	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	9	auxpass	_	_
+9	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	by	by	ADP	IN	_	9	prep	_	_
+11	microinjection	microinjection	NOUN	NN	Number=Sing	10	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	a	a	DET	DT	_	24	det	_	_
+14	14	0	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+16	kb	kb	NOUN	NN	Number=Sing	24	nmod	_	_
+17	Oct4	oct0	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+18	Δ	Δ	SYM	SYM	_	21	punct	_	_
+19	PE	pe	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	PunctType=Dash	21	punct	_	SpaceAfter=No
+21	GFP	gfp	NOUN	NN	Number=Sing	17	prep	_	_
+22	linear	linear	ADJ	JJ	Degree=Pos	24	amod	_	_
+23	DNA	dna	NOUN	NN	Number=Sing	24	compound	_	_
+24	fragment	fragment	NOUN	NN	Number=Sing	12	pobj	_	_
+25	into	into	ADP	IN	_	11	prep	_	_
+26	C57Bl	c0bl	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+27	/	/	PUNCT	HYPH	PunctType=Dash	26	punct	_	SpaceAfter=No
+28	6	0	NUM	CD	NumType=Card	26	nummod	_	_
+29	×	×	SYM	SYM	_	31	punct	_	_
+30	SJL	sjl	NOUN	NN	Number=Sing	31	compound	_	_
+31	F2	f0	NOUN	NN	Number=Sing	26	prep	_	_
+32	hybrid	hybrid	NOUN	NN	Number=Sing	34	compound	_	_
+33	mouse	mouse	NOUN	NN	Number=Sing	34	compound	_	_
+34	eggs	egg	NOUN	NNS	Number=Plur	25	pobj	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 1700
+# text = This construct essentially reproduces the previously described GOF18Δ PE-lacZ construct [14] but contains a gene for enhanced green fluorescent protein (EGFP, Clontech) in place of lacZ at the ATG of Oct4.
+1	This	this	DET	DT	_	2	det	_	_
+2	construct	construct	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	essentially	essentially	ADV	RB	Degree=Pos	4	advmod	_	_
+4	reproduces	reproduce	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	_	13	det	_	_
+6	previously	previously	ADV	RB	Degree=Pos	7	advmod	_	_
+7	described	describe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	amod	_	_
+8	GOF18	gof0	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+9	Δ	Δ	SYM	SYM	_	12	punct	_	_
+10	PE	pe	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	lacZ	lacz	NOUN	NN	Number=Sing	8	prep	_	_
+13	construct	construct	NOUN	NN	Number=Sing	4	dobj	_	_
+14	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	15	punct	_	SpaceAfter=No
+15	14	0	NUM	CD	NumType=Card	13	parataxis	_	SpaceAfter=No
+16	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	15	punct	_	_
+17	but	but	CCONJ	CC	_	4	cc	_	_
+18	contains	contain	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+19	a	a	DET	DT	_	20	det	_	_
+20	gene	gene	NOUN	NN	Number=Sing	18	dobj	_	_
+21	for	for	ADP	IN	_	20	prep	_	_
+22	enhanced	enhance	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	25	amod	_	_
+23	green	green	ADJ	JJ	Degree=Pos	25	amod	_	_
+24	fluorescent	fluorescent	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	protein	protein	NOUN	NN	Number=Sing	21	pobj	_	_
+26	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	27	punct	_	SpaceAfter=No
+27	EGFP	egfp	NOUN	NN	Number=Sing	20	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	,	PunctType=Comm	27	punct	_	_
+29	Clontech	clontech	PROPN	NNP	Number=Sing	27	npadvmod	_	SpaceAfter=No
+30	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	27	punct	_	_
+31	in	in	ADP	IN	_	18	prep	_	_
+32	place	place	NOUN	NN	Number=Sing	31	pobj	_	_
+33	of	of	ADP	IN	_	32	prep	_	_
+34	lacZ	lacz	NOUN	NN	Number=Sing	33	pobj	_	_
+35	at	at	ADP	IN	_	32	prep	_	_
+36	the	the	DET	DT	_	37	det	_	_
+37	ATG	atg	NOUN	NN	Number=Sing	35	pobj	_	_
+38	of	of	ADP	IN	_	37	prep	_	_
+39	Oct4	oct0	NOUN	NN	Number=Sing	38	pobj	_	SpaceAfter=No
+40	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 1701
+# text = Mice bearing transgene Tg(Pou5f1 ΔPE-GFP)10WHT accurately reproduced the previously reported Oct4 expression pattern [14] and were bred to generate Tg(Pou5f1 ΔPE-GFP)10WHT /Tg(Pou5f1 ΔPE-GFP)10WHT homozygous animals.
+1	Mice	mouse	NOUN	NNS	Number=Plur	14	nsubj	_	_
+2	bearing	bear	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	1	acl	_	_
+3	transgene	transgene	NOUN	NN	Number=Sing	12	nmod	_	_
+4	Tg	tg	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+5	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	6	punct	_	SpaceAfter=No
+6	Pou5f1	pou0f0	NOUN	NN	Number=Sing	12	parataxis	_	_
+7	Δ	Δ	SYM	SYM	_	10	punct	_	SpaceAfter=No
+8	PE	pe	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	GFP	gfp	NOUN	NN	Number=Sing	6	prep	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	6	punct	_	SpaceAfter=No
+12	10WHT	0wht	NOUN	NN	Number=Sing	2	dobj	_	_
+13	accurately	accurately	ADV	RB	Degree=Pos	14	advmod	_	_
+14	reproduced	reproduce	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+15	the	the	DET	DT	_	20	det	_	_
+16	previously	previously	ADV	RB	Degree=Pos	17	advmod	_	_
+17	reported	report	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	20	amod	_	_
+18	Oct4	oct0	NOUN	NN	Number=Sing	20	compound	_	_
+19	expression	expression	NOUN	NN	Number=Sing	20	compound	_	_
+20	pattern	pattern	NOUN	NN	Number=Sing	14	dobj	_	_
+21	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	22	punct	_	SpaceAfter=No
+22	14	0	NUM	CD	NumType=Card	14	parataxis	_	SpaceAfter=No
+23	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	22	punct	_	_
+24	and	and	CCONJ	CC	_	14	cc	_	_
+25	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	26	auxpass	_	_
+26	bred	breed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	14	conj	_	_
+27	to	to	PART	TO	PartType=Inf|VerbForm=Inf	28	aux	_	_
+28	generate	generate	VERB	VB	VerbForm=Inf	26	advcl	_	_
+29	Tg	tg	NOUN	NN	Number=Sing	37	nmod	_	SpaceAfter=No
+30	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	31	punct	_	SpaceAfter=No
+31	Pou5f1	pou0f0	NOUN	NN	Number=Sing	37	parataxis	_	_
+32	Δ	Δ	SYM	SYM	_	35	punct	_	SpaceAfter=No
+33	PE	pe	NOUN	NN	Number=Sing	35	compound	_	SpaceAfter=No
+34	-	-	PUNCT	HYPH	PunctType=Dash	35	punct	_	SpaceAfter=No
+35	GFP	gfp	NOUN	NN	Number=Sing	31	prep	_	SpaceAfter=No
+36	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	31	punct	_	SpaceAfter=No
+37	10WHT	0wht	NOUN	NN	Number=Sing	49	nmod	_	_
+38	/	/	PUNCT	HYPH	PunctType=Dash	37	punct	_	SpaceAfter=No
+39	Tg	tg	NOUN	NN	Number=Sing	47	nmod	_	SpaceAfter=No
+40	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	41	punct	_	SpaceAfter=No
+41	Pou5f1	pou0f0	NOUN	NN	Number=Sing	47	parataxis	_	_
+42	Δ	Δ	SYM	SYM	_	45	punct	_	SpaceAfter=No
+43	PE	pe	NOUN	NN	Number=Sing	45	compound	_	SpaceAfter=No
+44	-	-	PUNCT	HYPH	PunctType=Dash	45	punct	_	SpaceAfter=No
+45	GFP	gfp	NOUN	NN	Number=Sing	41	prep	_	SpaceAfter=No
+46	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	41	punct	_	SpaceAfter=No
+47	10WHT	0wht	NOUN	NN	Number=Sing	37	appos	_	_
+48	homozygous	homozygous	ADJ	JJ	Degree=Pos	49	amod	_	_
+49	animals	animal	NOUN	NNS	Number=Plur	28	dobj	_	SpaceAfter=No
+50	.	.	PUNCT	.	PunctType=Peri	14	punct	_	_
+
+# newpar id = 15018652-p40
+# sent_id = 1702
+# text = Isolation, culture and analysis of cleavage stage embryos
+1	Isolation	isolation	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
+3	culture	culture	NOUN	NN	Number=Sing	1	conj	_	_
+4	and	and	CCONJ	CC	_	3	cc	_	_
+5	analysis	analysis	NOUN	NN	Number=Sing	3	conj	_	_
+6	of	of	ADP	IN	_	1	prep	_	_
+7	cleavage	cleavage	NOUN	NN	Number=Sing	8	compound	_	_
+8	stage	stage	NOUN	NN	Number=Sing	9	compound	_	_
+9	embryos	embryo	NOUN	NNS	Number=Plur	6	pobj	_	_
+
+# newpar id = 15018652-p41
+# sent_id = 1703
+# text = 2-cell embryos were flushed from oviducts at E1.5 and cultured for up to 72 hours in microdrops of KSOM (Specialty Media) under light mineral oil (Squibb) with 5% CO2 in air.
+1	2	0	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+3	cell	cell	NOUN	NN	Number=Sing	4	compound	_	_
+4	embryos	embryo	NOUN	NNS	Number=Plur	6	nsubjpass	_	_
+5	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	6	auxpass	_	_
+6	flushed	flush	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	from	from	ADP	IN	_	6	prep	_	_
+8	oviducts	oviduct	NOUN	NNS	Number=Plur	7	pobj	_	_
+9	at	at	ADP	IN	_	6	prep	_	_
+10	E1.5	e0	NOUN	NN	Number=Sing	9	pobj	_	_
+11	and	and	CCONJ	CC	_	6	cc	_	_
+12	cultured	culture	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	conj	_	_
+13	for	for	ADP	IN	_	12	prep	_	_
+14	up	up	ADV	RB	Degree=Pos	16	advmod	_	_
+15	to	to	ADP	IN	_	16	quantmod	_	_
+16	72	0	NUM	CD	NumType=Card	17	nummod	_	_
+17	hours	hour	NOUN	NNS	Number=Plur	13	pobj	_	_
+18	in	in	ADP	IN	_	12	prep	_	_
+19	microdrops	microdrops	NOUN	NNS	Number=Plur	18	pobj	_	_
+20	of	of	ADP	IN	_	19	prep	_	_
+21	KSOM	ksom	NOUN	NN	Number=Sing	20	pobj	_	_
+22	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	24	punct	_	SpaceAfter=No
+23	Specialty	specialty	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Media	medium	PROPN	NNPS	Number=Plur	19	parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	24	punct	_	_
+26	under	under	ADP	IN	_	12	prep	_	_
+27	light	light	ADJ	JJ	Degree=Pos	29	amod	_	_
+28	mineral	mineral	NOUN	NN	Number=Sing	29	compound	_	_
+29	oil	oil	NOUN	NN	Number=Sing	26	pobj	_	_
+30	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	31	punct	_	SpaceAfter=No
+31	Squibb	squibb	PROPN	NNP	Number=Sing	29	parataxis	_	SpaceAfter=No
+32	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	31	punct	_	_
+33	with	with	ADP	IN	_	29	prep	_	_
+34	5	0	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
+35	%	%	NOUN	NN	Number=Sing	36	compound	_	_
+36	CO2	co0	NOUN	NN	Number=Sing	33	pobj	_	_
+37	in	in	ADP	IN	_	36	prep	_	_
+38	air	air	NOUN	NN	Number=Sing	37	pobj	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 1704
+# text = E3.5 embryos were flushed from uteri.
+1	E3.5	e0	NOUN	NN	Number=Sing	2	compound	_	_
+2	embryos	embryo	NOUN	NNS	Number=Plur	4	nsubjpass	_	_
+3	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	flushed	flush	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	from	from	ADP	IN	_	4	prep	_	_
+6	uteri	uterus	NOUN	NNS	Number=Plur	5	pobj	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# newpar id = 15018652-p42
+# sent_id = 1705
+# text = Authors' contributions
+1	Authors	author	NOUN	NNS	Number=Plur	3	poss	_	SpaceAfter=No
+2	'	'	PART	POS	Poss=Yes	1	case	_	_
+3	contributions	contribution	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15018652-p43
+# sent_id = 1706
+# text = AB conducted molecular biological, ES cell culture and embryological studies, and co-wrote the manuscript.
+1	AB	ab	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	conducted	conduct	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	molecular	molecular	ADJ	JJ	Degree=Pos	8	amod	_	_
+4	biological	biological	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+6	ES	es	NOUN	NN	Number=Sing	8	compound	_	_
+7	cell	cell	NOUN	NN	Number=Sing	8	compound	_	_
+8	culture	culture	NOUN	NN	Number=Sing	2	dobj	_	_
+9	and	and	CCONJ	CC	_	8	cc	_	_
+10	embryological	embryological	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	studies	study	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
+13	and	and	CCONJ	CC	_	2	cc	_	_
+14	co-wrote	co-write	VERB	VBD	Tense=Past|VerbForm=Fin	2	conj	_	_
+15	the	the	DET	DT	_	16	det	_	_
+16	manuscript	manuscript	NOUN	NN	Number=Sing	14	dobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1707
+# text = MG carried out blastocyst injections.
+1	MG	mg	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	carried	carry	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	out	out	ADP	RP	PartType=Vbp	2	prt	_	_
+4	blastocyst	blastocyst	NOUN	NN	Number=Sing	5	compound	_	_
+5	injections	injection	NOUN	NNS	Number=Plur	2	dobj	_	SpaceAfter=No
+6	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1708
+# text = ML assisted in mouse and embryological studies.
+1	ML	ml	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	assisted	assist	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	IN	_	2	prep	_	_
+4	mouse	mouse	NOUN	NN	Number=Sing	7	nmod	_	_
+5	and	and	CCONJ	CC	_	4	cc	_	_
+6	embryological	embryological	ADJ	JJ	Degree=Pos	4	conj	_	_
+7	studies	study	NOUN	NNS	Number=Plur	3	pobj	_	SpaceAfter=No
+8	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1709
+# text = DP coordinated the study and co-wrote the manuscript.
+1	DP	dp	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	coordinated	coordinate	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	study	study	NOUN	NN	Number=Sing	2	dobj	_	_
+5	and	and	CCONJ	CC	_	2	cc	_	_
+6	co-wrote	co-write	VERB	VBD	Tense=Past|VerbForm=Fin	2	conj	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	manuscript	manuscript	NOUN	NN	Number=Sing	6	dobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1710
+# text = All authors read and approved the final manuscript.
+1	All	all	DET	DT	_	2	det	_	_
+2	authors	author	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	read	read	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	and	and	CCONJ	CC	_	3	cc	_	_
+5	approved	approve	VERB	VBD	Tense=Past|VerbForm=Fin	3	conj	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	final	final	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	manuscript	manuscript	NOUN	NN	Number=Sing	5	dobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# newpar id = 15018652-p44
+# sent_id = 1711
+# text = Acknowledgements
+1	Acknowledgements	acknowledgement	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15018652-p45
+# sent_id = 1712
+# text = A.B. was a Leukemia & Lymphoma Society Special Fellow.
+1	A.B.	a.b.	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	_	9	det	_	_
+4	Leukemia	leukemia	PROPN	NNP	Number=Sing	7	nmod	_	_
+5	&	&	CCONJ	CC	_	4	cc	_	_
+6	Lymphoma	lymphoma	PROPN	NNP	Number=Sing	4	conj	_	_
+7	Society	society	PROPN	NNP	Number=Sing	9	compound	_	_
+8	Special	special	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Fellow	fellow	PROPN	NNP	Number=Sing	2	attr	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 1713
+# text = Supported by the Howard Hughes Medical Institute.
+1	Supported	support	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+2	by	by	ADP	IN	_	1	prep	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	Howard	howard	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Hughes	hughes	PROPN	NNP	Number=Sing	7	compound	_	_
+6	Medical	medical	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Institute	institute	PROPN	NNP	Number=Sing	2	pobj	_	SpaceAfter=No
+8	.	.	PUNCT	.	PunctType=Peri	1	punct	_	_
+
