@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="16517939.txt">
+  <annotation>
+    <mention id="formatting_Instance_36903" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="0" end="53" />
+    <spannedText>An isoform of ZBP-89 predisposes the colon to colitis</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36906" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="55" end="1017" />
+    <spannedText>Abstract
+
+Alternative splicing enables expression of functionally diverse protein isoforms. The structural and functional complexity of zinc-finger transcription factor ZBP-89 suggests that it may be among the class of alternatively spliced genes. We identified a human ZBP-89 splice isoform (ZBP-89ΔN), which lacks amino terminal residues 1–127 of the full-length protein (ZBP-89FL). ZBP-89ΔN mRNA was co-expressed with its ZBP-89FL cognate in gastrointestinal cell lines and tissues. Similarly, ZBP-89ΔN protein was expressed. To define its function in vivo, we generated ZBP-89ΔN knock-in mice by targeting exon 4 that encodes the amino terminus. Homozygous ZBP-89ΔN mice, expressing only ZBP-89ΔN protein, experienced growth delay, reduced viability and increased susceptibility to dextran sodium sulfate colitis. We conclude that ZBP-89ΔN antagonizes ZBP-89FL function and that over-expression of the truncated isoform disrupts gastrointestinal homeostasis.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36909" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="354" end="356" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36911" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="435" end="437" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36913" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="446" end="448" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36915" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="486" end="488" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36917" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="558" end="560" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36919" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="607" end="614" />
+    <spannedText>in vivo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36921" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="635" end="637" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36923" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="722" end="724" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36925" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="753" end="755" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36927" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="896" end="898" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36929" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="917" end="919" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36931" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="1019" end="3304" />
+    <spannedText>INTRODUCTION
+
+Alternative pre-mRNA splicing and multiple promoter usage are common mechanisms for increasing genetic complexity in humans (1) and mice (2). Genome-wide analyses indicate that the majority of human genes express alternative splice isoforms (3) and some variants contribute to neoplasia or other disease processes (4,5). For example, truncated isoforms of the p53 gene family, including p63 (6) and p73 (7–9), oppose the tumor suppressor activity of their full-length cognates and are over-expressed in tumors.
+
+ZBP-89 (ZNF148; Zfp148; BFCOL1), a Krüppel-type zinc-finger protein (10), is both structurally (11) and functionally complex (12–14). It regulates diverse biological functions through direct promoter binding (10,14) and through multiple protein–protein interactions. It interacts directly with the tumor suppressor p53 through its zinc-finger domain (13) and indirectly with the histone acetyltransferase and transcriptional co-activator p300 through its amino terminus (12). ZBP-89 induces cell growth arrest through a p53-dependent mechanism (13) and apoptosis through a p53-independent mechanism (12). Mice haploinsufficient for ZBP-89 (Zfp148) are sterile owing to aberrant spermatogenesis (15). In addition, embryonic stem cells harboring a single ZBP-89 allele fail to exhibit p53 phosphorylation at Ser 15 (15).
+
+ZBP-89 forms a complex with p300 during butyrate induction of p21waf1 in human colorectal cell lines (12). The amino terminus of ZBP-89 contains an acidic domain that is required for p300-mediated induction, since an expression construct lacking this domain (Δ amino acids 1–113) loses its ability to enhance butyrate induction of p21waf1 (12). The acidic domain of ZBP-89 is contained entirely within exon 4 of the human and mouse genes (11). Given the heterogeneous ZBP-89 mRNA expression pattern (10), the functional importance of the p300 interaction domain, and the fact that the ZBP-89 null mouse is likely an embryonic lethal (15), we generated a mouse homozygous for the ZBP-89ΔN isoform. Homozygous ΔNter mice experienced growth delay, reduced viability and increased susceptibility to Dextran sodium sulfate (DSS) induced colitis, suggesting that over-expression of the ΔNter isoform disrupts normal gastrointestinal homeostasis.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36934" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="2430" end="2434" />
+    <spannedText>waf1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36936" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="2699" end="2703" />
+    <spannedText>waf1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36938" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="3050" end="3052" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36940" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="3306" end="10021" />
+    <spannedText>MATERIALS AND METHODS
+
+Database deposition
+
+National Center for Biotechnology Information (NCBI) reference sequences for ZBP-89 genomic loci are Homo sapiens chromosome 3 locus NC_000003 and BAC RP11-775J23 (AC108688); Mus musculus chromosome 16 contig NT_039624 and Pan troglodytes chromosome 3 genomic locus NW_104931. The human ZBP-89ΔN mRNA and exon 4B genomic sequences reported here are found in GenBank as entries DQ090088 and DQ090089, respectively. The P.troglodytes genomic sequence homologous to human exon 4B is deposited in Genbank DQ144540.
+
+Organization of the human (ZNF148), chimp and mouse (Zfp148) ZBP-89 loci
+
+A human genomic clone contig encompassing the ZBP-89 locus was previously described (14). Bacterial artificial chromosome (BAC) clones were used as templates to sequence intron/exon boundaries spanning the ZNF148 locus. Exon 4B was identified by gene prediction sequence analysis (16,17). Similarly, a BAC and bacteriophage lambda clone contig spanning the mouse Zfp148 locus was assembled and sequenced to determine the genomic organization of the Zfp148 locus. Primers Ptr-4B-F: 5′-TTCACCTCCCTGTCCTGTTC-3′ and Ptr-4B-R: 5′-TATCTGTCCCGTTTGCCTG-3′ were used to amplify and sequence chimp (P.troglodytes) genomic DNA containing exon 4B, after BLAST analysis (18) had revealed a sequence gap in this region. Chimp genomic DNA was obtained from the Integrated Primate Biomaterials and Information Resource through the Coriell Institute for Medical Research (Camden, NJ).
+
+RT–PCR analysis
+
+Total cellular RNA was isolated from cultured cells using TRIzol reagent (Invitrogen, Carlsbad, CA). Archived whole cell RNA samples from paired colon cancer and normal mucosal samples were also analyzed. Two-step RT–PCR was performed using SuperScript III RT (Invitrogen), however reverse transcription was performed at 55°C in order to obtain adequate yields of human exon 4B-containing cDNA. RT reactions were primed with random nonamers. Human primer sequences (5′ to 3′) were 4A-F: ATGAACATTGACGACAAACTGGAAG; 5-R: TTCCATATGATATTTTTGTATGAAT; 4B-F: TAGGGATGGTCAGCACTG; 6-R: GTTCTTTTGTGCCTTTCC. Mouse primer sequences (5′ to 3′) included Ex2-F: GCGGATAGAAGAGAAGAATCAGTGG; Ex4-F: CATTGACGACAAACTGGAAGG; Ex4-R: ACTTCGATCTTGAAGTACTGACTC; Ex5-R: CAGGAGAGCGTTGTTTCCG; Ex3/5fusion-F: CAGCCTCAGATAAGTGTA and Ex9-R: TTGTGGCATCTGGTGAAG. RT–PCR products were purified and subjected to DNA sequence analysis (University of Michigan DNA Sequencing Core).
+
+5′-RACE of human exon 4B
+
+The 5′ end of the exon 4B variant was identified using the GeneRacer™ system (Invitrogen, Carlsbad, CA), gene specific primer (5′ to 3′) 4B211-Rev: CAGTGCTGACCATCCCTATC CTACTTG and 2 µg of Jurkat whole cell RNA. Nested PCR products, generated with adaptor primers included with the GeneRacer™ system, were cloned using the TOPO-TA system (Invitrogen, Carlsbad, CA), and sequenced.
+
+Targeting vector
+
+We constructed vector pΔEx-4 to replace ZBP-89 exon 4 with a PGK-Neo cassette by homologous recombination. High fidelity long-range PCR was used to amplify targeting arms from mouse BAC clone pBmZBP-89, using primers (5′ to 3′): (Kpn)Int3-F, GATAGGTACCGCATTGGATGGCACAAGTGACTGAGAGG with (Xho)Int3-R, CTCGAGCCCGGGCTTAAGTATAACTGCCTAGAAAG for the left arm and (Apa)Int4-F, CTCGAGGGGCCCGTAAGTACTAAACTAGAAATG with (Apa)Int4-R, CTCGAGGGGCCCAAGAGCCTTGCTGACTCATAG for the right arm. The left targeting arm, encompassing exon 3 and intron 3, was 8 kb in length. The right targeting arm consisted of the proximal 2 kb of intron 4. The neomycin cassette, including a transcriptional stop signal, was isolated from pPNT (19), generously provided by Dr Richard Mulligan.
+
+Generation of targeted ES cells and ΔNter mice
+
+Electroporation of embryonic stem (ES) cells with the pΔEx-4 targeting vector and microinjection of blastocysts with targeted ES cells were performed by the University of Michigan Transgenic Animal Model Core (). Genomic PCR was utilized to genotype targeted 129 Sv/J ES clones, chimeric founders, and progeny resulting after germline transmission. Primer sequences (5′ to 3′) were Int3-F1, GGAGTATTCTCTGTCCGTT ATG; Int4-326R, GCAAGAACTACACAGAGAAACCAC and R506Neo, TGAGGAA GAGGAGAACAGCG.
+
+Two-dimensional western blot analysis
+
+Whole cell protein extracts were prepared from mouse spleen using T-PER tissue protein extraction reagent (Pierce, Rockford, IL), supplemented with Complete Mini protease inhibitors (Roche, Indianapolis, IN) according the manufacturers' recommendations. Whole cell protein extracts from human Jurkat cells were similarly prepared using M-PER mammalian protein extraction reagent (Pierce, Rockford, IL). Isoelectric focusing (IEF) was performed with 7 cm ZOOM® Strip ph3-10L (linear) immobilized pH gradient gels (Invitrogen, Carlsbad, CA), as recommended by the manufacturer. The focused proteins were then separated on NuPAGE® 4-12% acrylamide gels (Invitrogen). Electroblot transfer to PVDF membrane and immunoblot procedures with ZBP-89 antiserum are as previously described (10,12).
+
+Dextran sodium sulfate colitis
+
+DSS colitis was induced in 6–9 month old ZBP-89ΔN and littermate control mice by the addition of 4% DSS to drinking water for a period of 5 days (20). Treated mice were returned to normal drinking water for 2 days prior to necropsy for histopathological scoring. Hematoxylin and eosin (H&amp;E) stained colon sections were prepared by the Swiss roll method (21) and were scored for colitis index by a modification of a previously described method (22). Briefly, crypt damage was scored from 0 to 3 as none, basal only, moderate damage and complete erosion, respectively. Inflammation was scored from 0 to 3 as none, minor, moderate and severe leukocyte infiltration. Submucosal edema was scored from 0 to 3 as none, minor, moderate and severe, respectively. Similarly, hemorrhage was scored from 0 to 3 as none, minor, moderate and severe. Each parameter was multiplied by an extent factor (1–3), &lt;10%, up to 25%, 25 to 50% and &gt;50%, respectively. Samples with transmural involvement received an additional four points. Therefore, the maximum possible colitis index score was 40. Animals that died during treatment because of colitis injury were also given the maximum score. Individuals scoring the samples were blinded to the genotype.
+
+Cell culture
+
+The following cell lines were obtained from ATCC (Manassas, VA) and maintained on the recommended growth media: Human gastric epithelial cells Kato III and MKN45; human colon cancer cells Colo 320DM, CaCo-2 and HCT116; and human Jurkat leukemia cells. Cells were cultured in a humidified atmosphere of 5% CO2 and 95% air at 37°C. All culture media were supplemented with penicillin G (100 U/ml) and streptomycin (100 µg/ml).</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36943" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="3451" end="3463" />
+    <spannedText>Homo sapiens</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36945" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="3525" end="3537" />
+    <spannedText>Mus musculus</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36947" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="3573" end="3588" />
+    <spannedText>Pan troglodytes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36949" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="3643" end="3645" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36951" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="3768" end="3781" />
+    <spannedText>P.troglodytes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36953" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="4525" end="4538" />
+    <spannedText>P.troglodytes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36955" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="7986" end="7987" />
+    <spannedText>®</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36957" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="8154" end="8155" />
+    <spannedText>®</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36959" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="8395" end="8397" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36961" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="9904" end="9905" />
+    <spannedText>2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36963" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="10023" end="19885" />
+    <spannedText>RESULTS
+
+Identification of human ZBP-89ΔN isoform
+
+To determine if isoforms of ZBP-89 exist, we screened the human ZNF148 genomic locus in silico (16,17). After localizing candidate alternative exon 4B within 4 kb upstream of exon 5 (Figure 1A), we used RT–PCR analysis to show that exon 4B is expressed (Figure 1B). Exon 4B mRNA (ΔN) was co-expressed with exon 4A-containing message (FL) in colon cancer cells (ColoDM2, CaCo2, HCT116), and in primary tissue from normal colon and colon adenocarcinoma. Both forms also were abundantly expressed in Jurkat cells (data not shown). This suggested that at least two forms of ZBP-89 exist.
+
+To better understand the function of the isoform, exon 4B-containing cDNA was sequenced. In addition to exon 4B, the variant mRNA included exons 5 and 6 (Figure 2A), as well as exons 7–9 (not shown). In contrast, RT–PCR with forward primers from exons 1-4A failed to generate products with exon 4B antisense primers, suggesting that an independent promoter regulates exon 4B expression. This was confirmed by 5′-rapid amplification of cDNA ends (RACE), which showed that transcription was initiated immediately upstream of exon 4B. The cDNA sequence showed that exon 4B was spliced to exon 5 resulting in an alternative reading frame relative to the cDNA encoded by exon 4A (Figure 2A). Exon 4B was 329 nt in length and composed of untranslated sequences when fused to exon 5. These data predicted that alternative promoter usage upstream of exon 4B resulted in the expression of an amino-terminally truncated ZBP-89 isoform, ZBP-89ΔN, with an alternative initiation codon corresponding to M128 of full-length mRNA (Figure 2B). This isoform lacks the acidic domain and p300-interaction region (12) found in full-length (ZBP-89FL) protein (10). Identical results were obtained with cDNA derived from esophagus, stomach, colon and Jurkat T-cells, suggesting that the exon 4B alternative promoter mechanism is common.
+
+Detection of human ZBP-89ΔN protein
+
+We found that the electrophoretic mobility of ZBP-89ΔN protein, despite its shorter length, overlapped with the mobility of its ZBP-89FL cognate (Figure 2C). Both forms, isolated from Jurkat cells, migrated at 100 kDa on a 4–20% gradient gel. Similar SDS–PAGE anomalies have been reported with other proteins, including CTCF (23) and XPA (24). An alternative approach to separate the protein isoforms was suggested by comparing their predicted (25) isoelectric points (pI). Loss of the acidic domain in ZBP-89ΔN protein predicted a pI of 7.8, compared to 6.0 for ZBP-89FL. This difference could be revealed by two-dimensional (2D) gel electrophoresis, followed by western blot analysis (Figure 2C). ZBP-89 antiserum detected two protein species, with apparent electrophoretic mobilities of 100 kDa, but with a pI difference of ∼1.5, confirming that the more basic form is ZBP-89ΔN.
+
+ZBP-89ΔN alternative promoter mechanism is restricted to hominids
+
+Although the human (ZNF148) and mouse (Zfp148) ZBP-89 loci share many features of genomic organization (11), exon 4B is absent in mice and most other mammals (data not shown). In contrast, we identified a 133 bp segment of chimpanzee (P.troglodytes) chromosome 3 sequence with striking DNA sequence homology to human exon 4B, but there was a gap in the existing online genomic sequence. Sequencing across the gap after genomic DNA amplification, we found that the chimp shares 99% DNA sequence identity to the 329 bp human exon 4B. This suggested that the ZBP-89ΔN alternative promoter mechanism is restricted to hominids.
+
+Generating a mouse model of ZBP-89ΔN expression
+
+Since mice lack exon 4B, and therefore do not express a ZBP-89ΔN isoform, we targeted the mouse exon 4 domain by homologous recombination (Figure 3A). The left targeting arm contained exon 3 and intron 3, and the right targeting arm contained 1.8 kb of the 5′ margin of intron 4. Homologous recombination occurred in 4 of 1200 ES clones identified by PCR (Figure 3B). Of the four homologous recombinants, three demonstrated stable karyotypes and were therefore injected into blastocysts. Germline transmission of the exon 4-targeted locus resulted in two founder lines, 4E10 and 8C6, while a third founder, 9C6, failed to transmit the recombinant locus. Germline transmission was obtained first in the 4E10 lineage. Near-Mendelian ratios were observed at the age of weaning (3 weeks) in offspring of heterozygous intercrosses (Figure 3C). The data suggested that ∼20% of Δexon4 homozygous embryos die in utero or perinatally, however the difference between predicted and observed ΔExon4/ΔExon4 yields was not statistically significant (χ2-square analysis; P &gt; 0.05). A similar pattern was observed in the 8C6 lineage. These results also suggest that the mutant locus was at least partially functional, since heterozygosity for a null ZBP-89 (Zfp148) allele results in failed germ cell development and therefore is not transmitted (15).
+
+Alternative splicing of exon 3 to exon 5 in recombinant mice
+
+To determine the effect of exon 4 deletion on ZBP-89 expression, we analyzed cDNA derived from normal, heterozygous and exon 4-targeted animals (Figure 4A). Whereas exon 4 sequences were absent from recombinant mRNA, both upstream and downstream exons were expressed. RT–PCR with primers spanning exon 4 generated a 690 bp cDNA from wild type and a 339 bp cDNA from mutant alleles. The size difference between WT and targeted cDNA was 351 bp, the size of exon 4. This suggested that exon 3 was spliced directly to exon 5, excluding the intervening Neo cassette, and this was confirmed by DNA sequencing (Figure 4B). Deletion of exon 4 removed the initiation codon found in FL message and also resulted in an alternative reading frame. Gene feature sequence analysis (16,17) predicted that the alternative initiation codon corresponded to M128 of the FL protein (Figure 4B), analogous to the human ZBP-89ΔN variant (Figure 2B).
+
+Mouse ZBP-89ΔN protein expression
+
+2D western blot analysis (Figure 4C) showed that ZBP-89FL and ZBP-89ΔN proteins are expressed in an allele-dependent manner. The two forms have similar electrophoretic mobilities of 100 kDa, but are readily separated by their pI differences, similar to the human isoforms (Figure 2C). As mentioned above, similar electrophoretic anomalies have been observed with other protein isoforms (23,24). The immunoblot data also suggest that the ΔN protein isoform may be present at higher levels than the FL form in spleen tissue, however mRNA levels appear comparable, suggesting a possible difference in protein stability. Collectively, the mRNA and protein expression data confirmed that we knocked the ZBP-89ΔN variant into the mouse genome. Thus, the mouse model offers the advantage of assessing the biological effect of ZBP-89ΔN expression exclusively.
+
+ZBP-89ΔN/ΔN mice experience growth delay and reduced viability
+
+At weaning, by age 3 weeks, male ZBP-89ΔN/ΔN mice weighed an average of 5.9 ± 0.5 g (Figure 5A), 34% smaller than ZBP-89FL/FL (12.1 ± 0.7 g) and 49% smaller than ZBP-89FL/ΔN heterozygous littermates (15.1 ± 0.8 g). From ages 4–8 weeks, the size differential between ZBP-89ΔN/ΔN and control mice was diminished. A similar effect was observed with female mice (data not shown). As shown above (Figure 3C), ZBP-89ΔN/ΔN mice experienced 20% perinatal mortality as determined by genotype ratios at weaning. Reduced viability persisted and became statistically significant (Figure 5B), with 50% mortality at 48 weeks and 69% mortality by 104 weeks. The 2 year survival ratios were 20:20 ZBP-89FL/FL, 39:40 ZBP-89FL/ΔN and 5:16 ZBP-89ΔN/ΔN mice. Histopathological organ and tissue surveys revealed no obvious abnormalities in ZBP-89ΔN/ΔN mice, with the possible exception of the colon, where we noted a trend toward slightly increased lymphocytic infiltrates (data not shown). Semi-quantitative RT–PCR analysis of colon mRNA levels (Figure 5C), suggested that FL and ΔN forms were expressed in an allele-dependent manner. Collectively, these data demonstrated that balanced expression of ZBP-89FL and ZBP-89ΔN isoforms, as observed in heterozygous mice, supports normal growth and viability. In contrast, exclusive expression of the ZBP-89ΔN isoform in transgenic mice resulted in growth delay and reduced viability.
+
+ZBP-89ΔN confers DSS colitis susceptibility
+
+We previously showed that the amino terminal region of ZBP-89 (amino acids 1–111) is required to potentiate butyrate induction of p21waf1, suggesting that the amino terminal region mediates the butyrate-dependent anti-proliferative activities of ZBP-89 in the mammalian gastrointestinal tract (12). Butyrate suppresses colonic inflammation when induced by DSS (26). Since DSS accentuates a tendency to develop colitis, we challenged ZBP-89ΔN/ΔN mice acutely with 4% DSS for 5 days, as previously described (20). Histopathogical analysis (hematoxylin and eosin stained sections) demonstrated the presence of severe colitis that correlated with a ZBP-89ΔN gene dosage effect (Figure 6A–C). ZBP-89FL/FL mice (Figure 6A) had localized areas of lymphocytic infiltration and minimal submucosal edema. ZBP-89FL/ΔN mice (Figure 6B) exhibited more extensive infiltration, with displaced normal crypt architecture in addition to submucosal edema. ZBP-89ΔN/ΔN mice (Figure 6C) had areas with complete erosion of crypt architecture, grossly visible hemorrhage and extensive submucosal edema. The ZBP-89ΔN gene dosage effect also correlated with the duration of gastrointestinal bleeding (Figure 6D). Moreover, only ZBP-89ΔN/ΔN mice died during DSS treatment, with 50% mortality by the conclusion of the 7 day regimen (Figure 6E). Composite colitis scoring similarly paralleled the ZBP-89ΔN gene dosage (Figure 6F). These data suggest that increased expression of ZBP-89ΔN is associated with increased susceptibility to colitis.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36966" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="10062" end="10064" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36968" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="10159" end="10168" />
+    <spannedText>in silico</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36970" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="11591" end="11593" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36972" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="11785" end="11787" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36974" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="12000" end="12002" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36976" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="12064" end="12066" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36978" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="12146" end="12148" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36980" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="12521" end="12523" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36982" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="12581" end="12583" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36984" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="12890" end="12892" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36986" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="12901" end="12903" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36988" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="13197" end="13210" />
+    <spannedText>P.troglodytes</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36990" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="13524" end="13526" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36992" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="13620" end="13622" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36994" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="13697" end="13699" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36996" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="14536" end="14544" />
+    <spannedText>in utero</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_36998" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="14671" end="14672" />
+    <spannedText>χ</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37000" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="14672" end="14673" />
+    <spannedText>2</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37002" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="14691" end="14692" />
+    <spannedText>P</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37004" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="15937" end="15939" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37006" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="15974" end="15976" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37008" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="16052" end="16054" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37010" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="16065" end="16067" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37012" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="16701" end="16703" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37014" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="16822" end="16824" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37016" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="16856" end="16861" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37018" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="16953" end="16958" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37020" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="17034" end="17039" />
+    <spannedText>FL/FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37022" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="17082" end="17087" />
+    <spannedText>FL/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37024" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="17186" end="17191" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37026" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="17324" end="17329" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37028" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="17601" end="17606" />
+    <spannedText>FL/FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37030" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="17620" end="17625" />
+    <spannedText>FL/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37032" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="17641" end="17646" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37034" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="17739" end="17744" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37036" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="18101" end="18103" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37038" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="18114" end="18116" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37040" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="18246" end="18248" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37042" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="18331" end="18333" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37044" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="18503" end="18507" />
+    <spannedText>waf1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37046" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="18809" end="18814" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37048" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="19021" end="19023" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37050" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="19064" end="19069" />
+    <spannedText>FL/FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37052" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="19171" end="19176" />
+    <spannedText>FL/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37054" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="19313" end="19318" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37056" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="19460" end="19462" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37058" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="19579" end="19584" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37060" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="19745" end="19747" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37062" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="19827" end="19829" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37064" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="19887" end="23142" />
+    <spannedText>DISCUSSION
+
+Through structural and functional analyses, we identified a human-specific ZBP-89 splice isoform, ZBP-89ΔN, which was generated by alternative promoter usage upstream of an alternative exon 4B. As a consequence, ZBP-89ΔN protein lacks a transcriptional domain (12) found in its full-length ZBP-89 cognate. This is the first characterization of a ZBP-89 isoform and is consistent with previous observations that gene complexity is lower in mice than in humans. As many as 59% of human genes are alternatively spliced (27), while the highest estimate to date for the mouse is 33% (28). Comparative genomic analysis suggested that the ZBP-89ΔN splicing mechanism has been conserved between humans and chimps, indicating that this specific mechanism of regulating ZBP-89 function is restricted to hominids.
+
+Alternative mRNA expression increases genetic diversity through regulatory mechanisms that also are implicated in cancer (1,3–5,29) and other disease processes (30,31). The human ZBP-89ΔN variant described here renders the colonic mucosa more susceptible to injury. Our previous studies showed that the N-terminal domain is required for ZBP-89 to mediate butyrate-dependent activation of p21waf1 by cooperating with p300 (12). This result demonstrated that the N terminal domain is functionally important in vitro. Generating a mouse model in which only the truncated form was expressed revealed that loss of the p300-interacting domain results in delayed growth and a shortened lifespan. Although the overall effect on the health of the organism was impressive, an initial survey of several organs did not reveal obvious abnormalities, with the exception of the colon, which appeared to exhibit slightly more inflammatory infiltrates than the wild type mice. The propensity of the ZBP-89ΔN expressing mice to develop colitis was subsequently uncovered when the animals were challenged with DSS. Therefore, we concluded from these studies that expression of ZBP-89FL tends to protect against colitis. The gene dosage dependence of colitis susceptibility further suggests that the ZBP-89ΔN isoform functions as a dominant negative antagonist of ZBP-89FL. Similar antagonistic interactions have been reported between FL and ΔN isoforms within the p53 gene family, including ΔNp63 (29) and ΔNp73 (7–9).
+
+The ZBP-89ΔN knock-in model reported here, along with an earlier Zfp148+/− model (15), help to elaborate how individual protein domains mediate the in vivo functions of ZBP-89. Mice heterozygous for a null ZBP-89 allele demonstrate complete failure of male germ cell development and are defective in p53-dependent embryogenesis (15). This finding suggests that the ability of ZBP-89 to interact with p53 is exquisitely sensitive to gene dosage. In contrast, homozygous ZBP-89ΔN expression is compatible with embryonic and postnatal survival, albeit at reduced levels. We previously showed that the DNA-binding, zinc-finger region of ZBP-89 mediates its interaction with p53 (13), and this domain is retained in the ZBP-89ΔN isoform. Therefore, the Nter domain, which includes the p300 interaction domain, is dispensable for p53-dependent embryonic development and postnatal survival, but is essential for normal gastrointestinal function.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37067" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="20003" end="20005" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37069" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="20117" end="20119" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37071" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="20537" end="20539" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37073" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="20888" end="20890" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37075" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="21094" end="21098" />
+    <spannedText>waf1</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37077" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="21208" end="21216" />
+    <spannedText>in vitro</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37079" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="21691" end="21693" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37081" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="21867" end="21869" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37083" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="21989" end="21991" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37085" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="22053" end="22055" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37087" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="22214" end="22216" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37089" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="22352" end="22359" />
+    <spannedText>in vivo</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37091" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="22679" end="22681" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37093" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="22925" end="22927" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37095" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="23144" end="24399" />
+    <spannedText>Acknowledgements
+
+The authors gratefully acknowledge the expertise of the University of Michigan Transgenic Animal Model Core, especially Thom Saunders, Linda Samuelson and Elizabeth Hughes. The authors also thank members of the DNA Sequencing Core and the Unit for Laboratory Animal Medicine at the University of Michigan, and Kathy McClinchey for assistance with histology. Proteomics data were provided by the Michigan Proteome Consortium () which is supported in part by funds from the Michigan Life Sciences Corridor. Specifically, valuable assistance with 2D gel electrophoresis was provided by Jennifer Callahan. This research is supported in part by the National Institutes of Health through the University of Michigan's Cancer Center Support Grant (5 P30 CA46592) and the University of Michigan Gastrointestinal Peptide Research Center (DK-34533). Art Tessier and Gail Kelsey provided administrative support. Stacey Ehrenberg provided technical assistance. This work was supported by grants from the National Institutes of Health to D.J.L. (R21 DK65004-01) and J.L.M. (RO1-DK55732). Funding to pay the Open Access publication charges for this article was provided by NIH grant RO1-DK55732 (J.L.M.).
+
+Conflict of interest statement. None declared.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37098" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="24353" end="24383" />
+    <spannedText>Conflict of interest statement</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37100" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="24401" end="29697" />
+    <spannedText>Figures and Tables
+
+Figure 1
+
+Identification of a novel exon within the human ZBP-89 (ZNF148) locus. (A) The human ZBP-89 (ZNF148) locus spans 142 kb (upper panel) and encompasses three untranslated (1–3) and six coding (4–9) exons. A potential alternative exon 4B (shaded box) was identified at a position 4.2 kb upstream of exon 5. Arrows indicate the locations of forward (F) and reverse (R) RT–PCR primers used for expression analysis of FL ZBP-89 and the exon 4B variant. Selected intron sizes (kb) are indicated. (B) RT–PCR analysis of full-length (FL) and variant (ΔN) ZBP-89 mRNA expression, using actin (Ac) as control. The cDNAs were generated with cultured cell lines using primers 4A-F/5-R (726 bp product); primers 4B-F/6-R (432 bp product) and (Ac), Actin control primers (400 bp product). Whole cell RNA was isolated from ColoDM2, CaCo 2, and HCT116 human colon cell lines as well as paired normal colon and colon adenocarcinoma tissue. Full-length message is expressed from promoter 1 (Pro 1) and variant (ΔN) ZBP-89 mRNA is expressed from promoter 2 (Pro 2), as described in Figure 2.
+
+Figure 2
+
+Variant ZBP-89 transcript encodes a truncated protein, ZBP-89ΔN. (A) The 5′ end of exon 4B-variant cDNA, determined by 5′-RACE, is shown. Underlined italics, exon 4B-encoded; lower case italics, exon 5 untranslated (frameshift relative to ZBP-89FL cDNA); upper case italics, exon 5 coding sequence commencing at M128 relative to FL protein; upper case underlined, beginning of exon 6-encoded. The remainder of the cDNA and amino acid sequences are identical to the corresponding segments of FL cDNA and protein. (B) Comparison of FL (upper) and ΔN (lower) protein isoforms. The amino terminus of ZBP-89FL includes an acidic and p300-interaction domain (PID), which is absent in ZBP-89ΔN. The ZBP-89ΔN isoform retains the DNA binding and C-terminal domains. (C) 2D western blot analysis of Jurkat whole cell protein extract. ZBP-89FL (solid triangle) and ZBP-89ΔN (open triangle) peptides share an electrohoretic mobility of ∼100 kDa and are separated on the basis of their distinct isoelectric points (pI). The acidic end of the focusing gel is at the left.
+
+Figure 3
+
+Targeting ZBP-89 exon 4 in mice. (A) Replacement of exon 4 with a Neomycin resistance cassette (NEO) by homologous recombination in ES cells. Top panel: bracket shows location of features encoded by exon 4, including initiation codon, acidic domain (black rectangle) and p300 interaction domain. Open boxes, basic domains; hatched boxes, zinc-fingers; stippled region, untranslated. Middle panel; Zfp148 genomic locus. Intron sizes (kb) are shown. Lower panel; targeting strategy. (B) Tail biopsy DNA genotyping. WT (Int 3 F/Int 4 R) and Δexon4 (Int 3 F/Neo R) amplimers. (C) Near-Mendelian inheritance of ΔExon-4 alleles. The differences between predicted and observed values were not significant.
+
+Figure 4
+
+ΔExon4 locus encodes mouse ZBP-89ΔN. (A) RT–PCR analysis was used to determine the variant mRNA structure in recombinant mice. Spleen whole-cell RNA was reverse-transcribed and amplified with primers within the indicated exons. RT–PCR of another ubiquitously expressed zinc-finger transcription factor, Sp1, was used for comparison and showed that the RNA samples were of uniform quality. Control experiments showed that PCR products were RT-dependent (data not shown), indicating that they were indeed derived from mRNA rather than possibly resulting from amplification of ZBP-89 related processed pseudogene sequences, such as ΨBERF1 (32). (B) DNA sequencing of recombinant cDNA showed that deletion of exon 4 resulted in direct splicing of exon 3 to exon 5, excluding the Neo cassette. The resulting reading frameshift predicts an alternative initiation codon corresponding to M128 of FL protein, similar to the naturally occurring human ZBP-89ΔN variant. (C) 2D immunoblot analysis of whole-cell spleen protein extracts from FL/FL, FL/ΔN and ΔN/ΔN mice, using conditions identical to those used for analysis of human samples (Figure 2C).
+
+Figure 5
+
+Growth delay and decreased survival in ΔNter mice. (A) Growth curve for male ZBP-89FL/FL (gray dashed line, n = 20), ZBP-89FL/ΔN (black dotted line, n = 36), and ZBP-89ΔN/ΔN (black solid line, n = 16) offspring. A similar pattern was seen with female mice (not shown). ** P &lt; 0.01; * P &lt; 0.05. A trend toward lower body weights in ZBP-89ΔN/ΔN persisted after 12 weeks, but was no longer statistically significant (data not shown). (B) Kaplan–Meier analysis of survival interval to the onset of morbidity or death. (C) Semi-quantitative RT–PCR analysis of ZBP-89FL and ZBP-89ΔN mRNA levels in the colon.
+
+Figure 6
+
+Increased susceptibility to DSS colitis in ZBP-89ΔN mice. (A–C) Representative H&amp;E stains of normal (A), heterozygous (B) and ZBP-89ΔN/ΔN (C) mice. Inf = infiltrating lymphocytes; SE = submucosal edema; TM = transmural inflammation. (D) ΔNter expression accelerates onset of gastrointestinal bleeding, measured by fecal occult blood screening. (E) Mortality during DSS treatment: 50% of ZBP-89ΔN/ZBP-89ΔN mice die during 4% DSS treatment; all ZBP-89FL/ZBP-89FL and ZBP-89FL/ZBP-89ΔN mice survived (six in each group). (F) Colitis index scoring of DSS-treated mice, as described in Materials and Methods; six mice in each genotype cohort.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37103" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="24421" end="25502" />
+    <spannedText>Figure 1
+
+Identification of a novel exon within the human ZBP-89 (ZNF148) locus. (A) The human ZBP-89 (ZNF148) locus spans 142 kb (upper panel) and encompasses three untranslated (1–3) and six coding (4–9) exons. A potential alternative exon 4B (shaded box) was identified at a position 4.2 kb upstream of exon 5. Arrows indicate the locations of forward (F) and reverse (R) RT–PCR primers used for expression analysis of FL ZBP-89 and the exon 4B variant. Selected intron sizes (kb) are indicated. (B) RT–PCR analysis of full-length (FL) and variant (ΔN) ZBP-89 mRNA expression, using actin (Ac) as control. The cDNAs were generated with cultured cell lines using primers 4A-F/5-R (726 bp product); primers 4B-F/6-R (432 bp product) and (Ac), Actin control primers (400 bp product). Whole cell RNA was isolated from ColoDM2, CaCo 2, and HCT116 human colon cell lines as well as paired normal colon and colon adenocarcinoma tissue. Full-length message is expressed from promoter 1 (Pro 1) and variant (ΔN) ZBP-89 mRNA is expressed from promoter 2 (Pro 2), as described in Figure 2.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37106" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="24503" end="24504" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37108" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="24921" end="24922" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37110" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="25504" end="26571" />
+    <spannedText>Figure 2
+
+Variant ZBP-89 transcript encodes a truncated protein, ZBP-89ΔN. (A) The 5′ end of exon 4B-variant cDNA, determined by 5′-RACE, is shown. Underlined italics, exon 4B-encoded; lower case italics, exon 5 untranslated (frameshift relative to ZBP-89FL cDNA); upper case italics, exon 5 coding sequence commencing at M128 relative to FL protein; upper case underlined, beginning of exon 6-encoded. The remainder of the cDNA and amino acid sequences are identical to the corresponding segments of FL cDNA and protein. (B) Comparison of FL (upper) and ΔN (lower) protein isoforms. The amino terminus of ZBP-89FL includes an acidic and p300-interaction domain (PID), which is absent in ZBP-89ΔN. The ZBP-89ΔN isoform retains the DNA binding and C-terminal domains. (C) 2D western blot analysis of Jurkat whole cell protein extract. ZBP-89FL (solid triangle) and ZBP-89ΔN (open triangle) peptides share an electrohoretic mobility of ∼100 kDa and are separated on the basis of their distinct isoelectric points (pI). The acidic end of the focusing gel is at the left.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37113" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="25575" end="25577" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37115" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="25580" end="25581" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37117" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="25759" end="25761" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37119" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="26027" end="26028" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37121" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="26116" end="26118" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37123" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="26198" end="26200" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37125" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="26212" end="26214" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37127" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="26272" end="26273" />
+    <spannedText>C</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37129" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="26344" end="26346" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37131" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="26374" end="26376" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37133" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="26573" end="27281" />
+    <spannedText>Figure 3
+
+Targeting ZBP-89 exon 4 in mice. (A) Replacement of exon 4 with a Neomycin resistance cassette (NEO) by homologous recombination in ES cells. Top panel: bracket shows location of features encoded by exon 4, including initiation codon, acidic domain (black rectangle) and p300 interaction domain. Open boxes, basic domains; hatched boxes, zinc-fingers; stippled region, untranslated. Middle panel; Zfp148 genomic locus. Intron sizes (kb) are shown. Lower panel; targeting strategy. (B) Tail biopsy DNA genotyping. WT (Int 3 F/Int 4 R) and Δexon4 (Int 3 F/Neo R) amplimers. (C) Near-Mendelian inheritance of ΔExon-4 alleles. The differences between predicted and observed values were not significant.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37136" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="26617" end="26618" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37138" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="27065" end="27066" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37140" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="27156" end="27157" />
+    <spannedText>C</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37142" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="27283" end="28434" />
+    <spannedText>Figure 4
+
+ΔExon4 locus encodes mouse ZBP-89ΔN. (A) RT–PCR analysis was used to determine the variant mRNA structure in recombinant mice. Spleen whole-cell RNA was reverse-transcribed and amplified with primers within the indicated exons. RT–PCR of another ubiquitously expressed zinc-finger transcription factor, Sp1, was used for comparison and showed that the RNA samples were of uniform quality. Control experiments showed that PCR products were RT-dependent (data not shown), indicating that they were indeed derived from mRNA rather than possibly resulting from amplification of ZBP-89 related processed pseudogene sequences, such as ΨBERF1 (32). (B) DNA sequencing of recombinant cDNA showed that deletion of exon 4 resulted in direct splicing of exon 3 to exon 5, excluding the Neo cassette. The resulting reading frameshift predicts an alternative initiation codon corresponding to M128 of FL protein, similar to the naturally occurring human ZBP-89ΔN variant. (C) 2D immunoblot analysis of whole-cell spleen protein extracts from FL/FL, FL/ΔN and ΔN/ΔN mice, using conditions identical to those used for analysis of human samples (Figure 2C).</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37145" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="27326" end="27328" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37147" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="27331" end="27332" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37149" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="27936" end="27937" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37151" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28240" end="28242" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37153" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28253" end="28254" />
+    <spannedText>C</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37155" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28436" end="29048" />
+    <spannedText>Figure 5
+
+Growth delay and decreased survival in ΔNter mice. (A) Growth curve for male ZBP-89FL/FL (gray dashed line, n = 20), ZBP-89FL/ΔN (black dotted line, n = 36), and ZBP-89ΔN/ΔN (black solid line, n = 16) offspring. A similar pattern was seen with female mice (not shown). ** P &lt; 0.01; * P &lt; 0.05. A trend toward lower body weights in ZBP-89ΔN/ΔN persisted after 12 weeks, but was no longer statistically significant (data not shown). (B) Kaplan–Meier analysis of survival interval to the onset of morbidity or death. (C) Semi-quantitative RT–PCR analysis of ZBP-89FL and ZBP-89ΔN mRNA levels in the colon.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37158" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28498" end="28499" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37160" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28529" end="28534" />
+    <spannedText>FL/FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37162" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28554" end="28555" />
+    <spannedText>n</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37164" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28569" end="28574" />
+    <spannedText>FL/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37166" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28595" end="28596" />
+    <spannedText>n</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37168" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28614" end="28619" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37170" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28639" end="28640" />
+    <spannedText>n</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37172" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28718" end="28719" />
+    <spannedText>P</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37174" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28730" end="28731" />
+    <spannedText>P</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37176" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28783" end="28788" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37178" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28878" end="28879" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37180" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="28961" end="28962" />
+    <spannedText>C</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37182" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29007" end="29009" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37184" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29020" end="29022" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37186" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29050" end="29697" />
+    <spannedText>Figure 6
+
+Increased susceptibility to DSS colitis in ZBP-89ΔN mice. (A–C) Representative H&amp;E stains of normal (A), heterozygous (B) and ZBP-89ΔN/ΔN (C) mice. Inf = infiltrating lymphocytes; SE = submucosal edema; TM = transmural inflammation. (D) ΔNter expression accelerates onset of gastrointestinal bleeding, measured by fecal occult blood screening. (E) Mortality during DSS treatment: 50% of ZBP-89ΔN/ZBP-89ΔN mice die during 4% DSS treatment; all ZBP-89FL/ZBP-89FL and ZBP-89FL/ZBP-89ΔN mice survived (six in each group). (F) Colitis index scoring of DSS-treated mice, as described in Materials and Methods; six mice in each genotype cohort.</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37189" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29109" end="29111" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37191" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29119" end="29120" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37193" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29121" end="29122" />
+    <spannedText>C</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37195" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29161" end="29162" />
+    <spannedText>A</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37197" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29179" end="29180" />
+    <spannedText>B</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37199" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29192" end="29197" />
+    <spannedText>ΔN/ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37201" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29199" end="29200" />
+    <spannedText>C</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37203" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29294" end="29295" />
+    <spannedText>D</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37205" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29405" end="29406" />
+    <spannedText>E</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37207" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29453" end="29455" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37209" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29462" end="29464" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37211" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29509" end="29511" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37213" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29518" end="29520" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37215" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29531" end="29533" />
+    <spannedText>FL</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37217" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29540" end="29542" />
+    <spannedText>ΔN</spannedText>
+  </annotation>
+  <annotation>
+    <mention id="formatting_Instance_37219" />
+    <annotator id="formatting_Instance_10001">,</annotator>
+    <span start="29579" end="29580" />
+    <spannedText>F</spannedText>
+  </annotation>
+  <classMention id="formatting_Instance_37153">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37155">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_37156" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_37156">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 5" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37158">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36903">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_36904" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_36904">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="title" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37160">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36906">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_36907" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_36907">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="abstract" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37162">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37164">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36909">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37166">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36911">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37168">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36913">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37170">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36915">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37172">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36917">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37174">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36919">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37176">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36921">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37178">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36923">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37180">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36925">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37182">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36927">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37184">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36929">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37186">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_37187" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_37187">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 6" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_36931">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_36932" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_36932">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="INTRODUCTION" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37189">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36934">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37191">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36936">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37193">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36938">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37195">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36940">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_36941" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_36941">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="MATERIALS AND METHODS" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37197">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36943">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37199">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36945">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37201">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36947">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37203">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36949">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37205">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36951">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37207">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36953">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37209">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36955">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37211">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36957">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37213">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36959">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37215">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36961">
+    <mentionClass id="sub">sub</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37217">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36963">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_36964" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_36964">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="RESULTS" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37219">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36966">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36968">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36970">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36972">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36974">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36976">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36978">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36980">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36982">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36984">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36986">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36988">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36990">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36992">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36994">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36996">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_36998">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37000">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37002">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37004">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37006">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37008">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37010">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37012">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37014">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37016">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37018">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37020">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37022">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37024">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37026">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37028">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37030">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37032">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37034">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37036">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37038">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37040">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37042">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37044">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37046">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37048">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37050">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37052">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37054">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37056">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37058">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37060">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37062">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37064">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_37065" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_37065">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="DISCUSSION" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37067">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37069">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37071">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37073">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37075">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37077">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37079">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37081">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37083">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37085">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37087">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37089">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37091">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37093">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37095">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_37096" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_37096">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Acknowledgements" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37098">
+    <mentionClass id="italic">italic</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37100">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_37101" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_37101">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figures and Tables" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37103">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_37104" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_37104">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 1" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37106">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37108">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37110">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_37111" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_37111">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 2" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37113">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37115">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37117">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37119">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37121">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37123">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37125">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37127">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37129">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37131">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37133">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_37134" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_37134">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 3" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37136">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37138">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37140">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37142">
+    <mentionClass id="section">section</mentionClass>
+    <hasSlotMention id="formatting_Instance_37143" />
+  </classMention>
+  <stringSlotMention id="formatting_Instance_37143">
+    <mentionSlot id="section name" />
+    <stringSlotMentionValue value="Figure 4" />
+  </stringSlotMention>
+  <classMention id="formatting_Instance_37145">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37147">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37149">
+    <mentionClass id="bold">bold</mentionClass>
+  </classMention>
+  <classMention id="formatting_Instance_37151">
+    <mentionClass id="sup">sup</mentionClass>
+  </classMention>
+</annotations>
+
