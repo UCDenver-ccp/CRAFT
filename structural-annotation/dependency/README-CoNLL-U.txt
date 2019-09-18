@@ -1,0 +1,1 @@
+The CoNLL-U files distributed with CRAFT are not entirly conformant to the CoNLL-U standard. We note that while the data is in the CoNLL-U format and includes UD part-of-speech tags and features, it retains the SD dependency structure and labels created in the conversion from CoNLL-X and thus, does not fully conform to the UD representation in terms of its content.

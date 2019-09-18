@@ -34,7 +34,7 @@
 
 (def craft-file-paths {:text-file-directory               (file "articles" "txt")
                        :knowtator-hidden-directory        (file ".knowtator2")
-                       :pmid-to-pmcid-map-file            (file "articles" "ids" "craft-idmappings-release")
+                       :pmid-to-pmcid-map-file            (file "articles" "ids" "craft-idmappings.txt")
                        :concept-annotation-base-directory (file "concept-annotation")})
 
 (defn consolidate-formats [fileset valid-annotation-formats]
@@ -134,7 +134,7 @@
                         (let [annotation-type :dependency
                               annotation-directory (file "structural-annotation" "dependency" "conllu")
                               native-format InputFileFormat/CONLL_U
-                              valid-formats #{:brat :bionlp :pubannotation :uima :knowtator2 :conll-u}]
+                              valid-formats #{:brat :bionlp :pubannotation :uima :knowtator2}]
                           (update-fileset fileset annotation-type native-format annotation-directory valid-formats false nil))))
 
 (deftask treebank []
@@ -280,7 +280,7 @@
          [b bionlp bool "output BioNLP format"
           r brat bool "output BRAT format"
           i conll-coref-ident bool "output identity chains in CoNLL Coreference 2011/12 format"
-          u conll-u bool "output CoNLL-U format"
+          ;u conll-u bool "output CoNLL-U format"
           k knowtator2 bool "output Knowtator2 format"
           p pubannotation bool "output PubAnnotation format"
           m uima bool "output UIMA format"
@@ -289,6 +289,9 @@
           o output-directory VAL str "the directory where files will be saved [OPTIONAL]. If not set, files will be placed in
                               an appropriately named directory on the same level as the native-format directory for
                               the annotations being processed."]
+         ;; setting conll-u to false as the conll-u conversion is currently disabled b/c the conll-u output does not
+         ;; comply to the conll-u standard. When/if the output format is fixed, this let can be removed.
+         (let [conll-u false]
          (with-pre-wrap fileset
                         (ensure-single-format-specified bionlp brat conll-coref-ident conll-u knowtator2 pubannotation sentence uima)
                         (let [output-format (get-output-format-symbol bionlp brat conll-coref-ident conll-u knowtator2 pubannotation sentence uima)
@@ -324,7 +327,7 @@
                           ;; if this is the BRAT format, the brat configuration files must be generated after the annotation files
                           (if brat (BratConfigFileWriter/createConfFiles output-directory (into () (flatten (get-ontology-files-fileset fileset)))
                                                                          CharacterEncoding/UTF_8 concept-to-color-map)))
-                        fileset))
+                        fileset)))
 
 
 
@@ -470,7 +473,6 @@
              (dependency)
              (convert :bionlp true :output-directory (.getAbsolutePath (file dependency-dir "bionlp")))
              (convert :brat true :output-directory (.getAbsolutePath (file dependency-dir "brat")))
-             (convert :conll-u true :output-directory (.getAbsolutePath (file dependency-dir "conllu")))
              (convert :knowtator2 true :output-directory (.getAbsolutePath (file dependency-dir "knowtator-2")))
              (convert :pubannotation true :output-directory (.getAbsolutePath (file dependency-dir "pubannotation")))
              (convert :uima true :output-directory (.getAbsolutePath (file dependency-dir "uima")))
@@ -489,7 +491,7 @@
              (part-of-speech)
              (convert :bionlp true :output-directory (.getAbsolutePath (file part-of-speech-dir "bionlp")))
              (convert :brat true :output-directory (.getAbsolutePath (file part-of-speech-dir "brat")))
-             (convert :conll-u true :output-directory (.getAbsolutePath (file part-of-speech-dir "conllu")))
+             ;(convert :conll-u true :output-directory (.getAbsolutePath (file part-of-speech-dir "conllu")))
              (convert :knowtator2 true :output-directory (.getAbsolutePath (file part-of-speech-dir "knowtator-2")))
              (convert :pubannotation true :output-directory (.getAbsolutePath (file part-of-speech-dir "pubannotation")))
              (convert :sentence true :output-directory (.getAbsolutePath (file part-of-speech-dir "sentence")))

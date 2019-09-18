@@ -1,0 +1,3737 @@
+# newdoc id = 15560850
+# newpar id = 15560850-p0
+# sent_id = 2751
+# text = BAG-1 haplo-insufficiency impairs lung tumorigenesis
+1	BAG	bag	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	1	punct	_	SpaceAfter=No
+3	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+4	haplo	haplo	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+6	insufficiency	insufficiency	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	impairs	impair	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	lung	lung	NOUN	NN	Number=Sing	9	compound	_	_
+9	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	7	dobj	_	_
+
+# newpar id = 15560850-p1
+# sent_id = 2752
+# text = Abstract
+1	Abstract	abstract	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15560850-p2
+# sent_id = 2753
+# text = Background
+1	Background	background	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15560850-p3
+# sent_id = 2754
+# text = BAG-1 is a multifunctional co-chaperone of heat shock proteins (Hsc70/Hsp70) that is expressed in most cells.
+1	BAG	bag	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	1	punct	_	SpaceAfter=No
+3	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+4	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	_	7	det	_	_
+6	multifunctional	multifunctional	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	co-chaperone	co-chaperone	NOUN	NN	Number=Sing	4	attr	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	heat	heat	NOUN	NN	Number=Sing	10	compound	_	_
+10	shock	shock	NOUN	NN	Number=Sing	11	compound	_	_
+11	proteins	proteins	NOUN	NN	Number=Sing	8	pobj	_	_
+12	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	15	punct	_	SpaceAfter=No
+13	Hsc70	hsc0	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	/	/	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+15	Hsp70	hsp0	NOUN	NN	Number=Sing	11	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	15	punct	_	_
+17	that	that	DET	WDT	PronType=Int,Rel	19	dep	_	7:ref=
+18	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	auxpass	_	_
+19	expressed	express	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	relcl	_	_
+20	in	in	ADP	IN	_	19	prep	_	_
+21	most	most	ADJ	JJS	Degree=Sup	22	amod	_	_
+22	cells	cell	NOUN	NNS	Number=Plur	20	pobj	_	SpaceAfter=No
+23	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2755
+# text = It interacts with Bcl-2 and Raf indicating that it might connect protein folding with other signaling pathways.
+1	It	it	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	interacts	interact	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	2	prep	_	_
+4	Bcl	bcl	NOUN	NN	Number=Sing	3	pobj	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	2	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	and	and	CCONJ	CC	_	4	cc	_	_
+8	Raf	raf	NOUN	NN	Number=Sing	4	conj	_	_
+9	indicating	indicate	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	advcl	_	_
+10	that	that	ADP	IN	_	13	mark	_	_
+11	it	it	PRON	PRP	PronType=Prs	13	nsubj	_	_
+12	might	might	VERB	MD	VerbType=Mod	13	aux	_	_
+13	connect	connect	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+14	protein	protein	NOUN	NN	Number=Sing	15	compound	_	_
+15	folding	folding	NOUN	NN	Number=Sing	13	dobj	_	_
+16	with	with	ADP	IN	_	13	prep	_	_
+17	other	other	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	signaling	signaling	NOUN	NN	Number=Sing	19	compound	_	_
+19	pathways	pathway	NOUN	NNS	Number=Plur	16	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2756
+# text = Evidence that BAG-1 expression is frequently altered in human cancers, in particular in breast cancer, relative to normal cells has been put forward but the notion that overexpression of BAG-1 contributes to poor prognosis in tumorigenesis remains controversial.
+1	Evidence	evidence	NOUN	NN	Number=Sing	26	nsubjpass	_	_
+2	that	that	ADP	IN	_	9	mark	_	_
+3	BAG	bag	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+5	1	0	NUM	CD	NumType=Card	3	nummod	_	_
+6	expression	expression	NOUN	NN	Number=Sing	9	nsubjpass	_	_
+7	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	auxpass	_	_
+8	frequently	frequently	ADV	RB	Degree=Pos	9	advmod	_	_
+9	altered	alter	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	1	acl	_	_
+10	in	in	ADP	IN	_	9	prep	_	_
+11	human	human	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	cancers	cancer	NOUN	NNS	Number=Plur	10	pobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+14	in	in	ADP	IN	_	16	prep	_	_
+15	particular	particular	ADJ	JJ	Degree=Pos	14	amod	_	_
+16	in	in	ADP	IN	_	10	prep	_	_
+17	breast	breast	NOUN	NN	Number=Sing	18	compound	_	_
+18	cancer	cancer	NOUN	NN	Number=Sing	16	pobj	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+20	relative	relative	ADJ	JJ	Degree=Pos	9	advcl	_	_
+21	to	to	ADP	IN	_	20	prep	_	_
+22	normal	normal	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	cells	cell	NOUN	NNS	Number=Plur	21	pobj	_	_
+24	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	been	be	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	26	auxpass	_	_
+26	put	put	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+27	forward	forward	ADV	RB	Degree=Pos	26	advmod	_	_
+28	but	but	CCONJ	CC	_	26	cc	_	_
+29	the	the	DET	DT	_	30	det	_	_
+30	notion	notion	NOUN	NN	Number=Sing	43	nsubj	_	_
+31	that	that	ADP	IN	_	37	mark	_	_
+32	overexpression	overexpression	NOUN	NN	Number=Sing	37	nsubj	_	_
+33	of	of	ADP	IN	_	32	prep	_	_
+34	BAG	bag	NOUN	NN	Number=Sing	33	pobj	_	SpaceAfter=No
+35	-	-	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+36	1	0	NUM	CD	NumType=Card	34	nummod	_	_
+37	contributes	contribute	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	_
+38	to	to	ADP	IN	_	37	prep	_	_
+39	poor	poor	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	prognosis	prognosis	NOUN	NN	Number=Sing	38	pobj	_	_
+41	in	in	ADP	IN	_	37	prep	_	_
+42	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	41	pobj	_	_
+43	remains	remain	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+44	controversial	controversial	ADJ	JJ	Degree=Pos	43	acomp	_	SpaceAfter=No
+45	.	.	PUNCT	.	PunctType=Peri	43	punct	_	_
+
+# newpar id = 15560850-p4
+# sent_id = 2757
+# text = Methods
+1	Methods	method	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15560850-p5
+# sent_id = 2758
+# text = We have evaluated the effect of BAG-1 heterozygosity in mice in a model of non-small-cell lung tumorigenesis with histological and molecular methods.
+1	We	we	PRON	PRP	PronType=Prs	3	nsubj	_	_
+2	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	evaluated	evaluate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	effect	effect	NOUN	NN	Number=Sing	3	dobj	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	BAG	bag	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+9	1	0	NUM	CD	NumType=Card	7	nummod	_	_
+10	heterozygosity	heterozygosity	NOUN	NN	Number=Sing	6	pobj	_	_
+11	in	in	ADP	IN	_	10	prep	_	_
+12	mice	mouse	NOUN	NNS	Number=Plur	11	pobj	_	_
+13	in	in	ADP	IN	_	3	prep	_	_
+14	a	a	DET	DT	_	15	det	_	_
+15	model	model	NOUN	NN	Number=Sing	13	pobj	_	_
+16	of	of	ADP	IN	_	15	prep	_	_
+17	non-small	non-small	ADJ	JJ	Degree=Pos	19	amod	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+19	cell	cell	NOUN	NN	Number=Sing	21	compound	_	_
+20	lung	lung	NOUN	NN	Number=Sing	21	compound	_	_
+21	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	16	pobj	_	_
+22	with	with	ADP	IN	_	3	prep	_	_
+23	histological	histological	ADJ	JJ	Degree=Pos	26	amod	_	_
+24	and	and	CCONJ	CC	_	23	cc	_	_
+25	molecular	molecular	ADJ	JJ	Degree=Pos	23	conj	_	_
+26	methods	method	NOUN	NNS	Number=Plur	22	pobj	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2759
+# text = We have generated mice heterozygous for BAG-1, carrying a BAG-1 null allele, that in addition express oncogenic, constitutively active C-Raf kinase (SP-C C-Raf BxB) in type II pneumocytes.
+1	We	we	PRON	PRP	PronType=Prs	3	nsubj	_	_
+2	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+4	mice	mouse	NOUN	NNS	Number=Plur	3	dobj	_	_
+5	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	4	amod	_	_
+6	for	for	ADP	IN	_	5	prep	_	_
+7	BAG	bag	NOUN	NN	Number=Sing	6	pobj	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+9	1	0	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+11	carrying	carry	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	4	acl	_	_
+12	a	a	DET	DT	_	17	det	_	_
+13	BAG	bag	NOUN	NN	Number=Sing	16	npadvmod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+15	1	0	NUM	CD	NumType=Card	13	nummod	_	_
+16	null	null	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	allele	allele	NOUN	NN	Number=Sing	11	dobj	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+19	that	that	DET	WDT	PronType=Int,Rel	22	dep	_	4:ref=
+20	in	in	ADP	IN	_	22	prep	_	_
+21	addition	addition	NOUN	NN	Number=Sing	20	pobj	_	_
+22	express	express	VERB	VBP	Tense=Pres|VerbForm=Fin	4	relcl	_	_
+23	oncogenic	oncogenic	ADJ	JJ	Degree=Pos	30	amod	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=Comm	30	punct	_	_
+25	constitutively	constitutively	ADV	RB	Degree=Pos	26	advmod	_	_
+26	active	active	ADJ	JJ	Degree=Pos	30	amod	_	_
+27	C	c	NOUN	NN	Number=Sing	29	compound	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	PunctType=Dash	29	punct	_	SpaceAfter=No
+29	Raf	raf	NOUN	NN	Number=Sing	30	compound	_	_
+30	kinase	kinase	NOUN	NN	Number=Sing	22	dobj	_	_
+31	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	38	punct	_	SpaceAfter=No
+32	SP	sp	NOUN	NN	Number=Sing	34	compound	_	SpaceAfter=No
+33	-	-	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+34	C	c	NOUN	NN	Number=Sing	38	compound	_	_
+35	C	c	NOUN	NN	Number=Sing	37	compound	_	SpaceAfter=No
+36	-	-	PUNCT	HYPH	PunctType=Dash	37	punct	_	SpaceAfter=No
+37	Raf	raf	NOUN	NN	Number=Sing	38	compound	_	_
+38	BxB	bxb	NOUN	NN	Number=Sing	30	parataxis	_	SpaceAfter=No
+39	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	38	punct	_	_
+40	in	in	ADP	IN	_	22	prep	_	_
+41	type	type	NOUN	NN	Number=Sing	43	nmod	_	_
+42	II	ii	NUM	CD	NumType=Card	41	nummod	_	_
+43	pneumocytes	pneumocytes	NOUN	NNS	Number=Plur	40	pobj	_	SpaceAfter=No
+44	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2760
+# text = SP-C C-Raf BxB mice develop multifocal adenomas early in adulthood.
+1	SP	sp	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+3	C	c	NOUN	NN	Number=Sing	7	compound	_	_
+4	C	c	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+6	Raf	raf	NOUN	NN	Number=Sing	7	compound	_	_
+7	BxB	bxb	NOUN	NN	Number=Sing	8	compound	_	_
+8	mice	mouse	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	develop	develop	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+10	multifocal	multifocal	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	adenomas	adenoma	NOUN	NNS	Number=Plur	9	dobj	_	_
+12	early	early	ADV	RB	Degree=Pos	13	advmod	_	_
+13	in	in	ADP	IN	_	9	prep	_	_
+14	adulthood	adulthood	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# newpar id = 15560850-p6
+# sent_id = 2761
+# text = Results
+1	Results	result	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15560850-p7
+# sent_id = 2762
+# text = We show that BAG-1 heterozygosity in mice impairs C-Raf oncogene-induced lung adenoma growth.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	show	show	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	ADP	IN	_	10	mark	_	_
+4	BAG	bag	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	heterozygosity	heterozygosity	NOUN	NN	Number=Sing	10	nsubj	_	_
+8	in	in	ADP	IN	_	7	prep	_	_
+9	mice	mouse	NOUN	NNS	Number=Plur	8	pobj	_	_
+10	impairs	impair	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+11	C	c	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+13	Raf	raf	NOUN	NN	Number=Sing	14	compound	_	_
+14	oncogene	oncogene	NOUN	NN	Number=Sing	16	npadvmod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+16	induced	induce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	19	amod	_	_
+17	lung	lung	NOUN	NN	Number=Sing	18	compound	_	_
+18	adenoma	adenoma	NOUN	NN	Number=Sing	19	compound	_	_
+19	growth	growth	NOUN	NN	Number=Sing	10	dobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2763
+# text = Lung tumor initiation was reduced by half in BAG-1 heterozygous SP-C C-Raf BxB mice compared to their littermates.
+1	Lung	lung	NOUN	NN	Number=Sing	2	compound	_	_
+2	tumor	tumor	NOUN	NN	Number=Sing	3	compound	_	_
+3	initiation	initiation	NOUN	NN	Number=Sing	5	nsubjpass	_	_
+4	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	reduced	reduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	by	by	ADP	IN	_	5	prep	_	_
+7	half	half	NOUN	NN	Number=Sing	6	pobj	_	_
+8	in	in	ADP	IN	_	5	prep	_	_
+9	BAG	bag	NOUN	NN	Number=Sing	12	npadvmod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+11	1	0	NUM	CD	NumType=Card	9	nummod	_	_
+12	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	20	amod	_	_
+13	SP	sp	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+15	C	c	NOUN	NN	Number=Sing	19	compound	_	_
+16	C	c	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	Raf	raf	NOUN	NN	Number=Sing	19	compound	_	_
+19	BxB	bxb	NOUN	NN	Number=Sing	20	compound	_	_
+20	mice	mouse	NOUN	NNS	Number=Plur	8	pobj	_	_
+21	compared	compare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	prep	_	_
+22	to	to	ADP	IN	_	21	prep	_	_
+23	their	their	DET	PRP$	Poss=Yes|PronType=Prs	24	poss	_	_
+24	littermates	littermate	NOUN	NNS	Number=Plur	22	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2764
+# text = Tumor area was reduced by 75% in 4 month lungs of BAG-1 haploinsufficient mice compared to mice with two BAG-1 copies.
+1	Tumor	tumor	NOUN	NN	Number=Sing	2	compound	_	_
+2	area	area	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	reduced	reduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	ADP	IN	_	4	prep	_	_
+6	75	0	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	NOUN	NN	Number=Sing	5	pobj	_	_
+8	in	in	ADP	IN	_	4	prep	_	_
+9	4	0	NUM	CD	NumType=Card	10	nummod	_	_
+10	month	month	NOUN	NN	Number=Sing	11	compound	_	_
+11	lungs	lung	NOUN	NNS	Number=Plur	8	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	BAG	bag	NOUN	NN	Number=Sing	16	npadvmod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+15	1	0	NUM	CD	NumType=Card	13	nummod	_	_
+16	haploinsufficient	haploinsufficient	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	mice	mouse	NOUN	NNS	Number=Plur	12	pobj	_	_
+18	compared	compare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	prep	_	_
+19	to	to	ADP	IN	_	18	prep	_	_
+20	mice	mouse	NOUN	NNS	Number=Plur	19	pobj	_	_
+21	with	with	ADP	IN	_	20	prep	_	_
+22	two	#crd#	NUM	CD	NumType=Card	26	nummod	_	_
+23	BAG	bag	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	23	punct	_	SpaceAfter=No
+25	1	0	NUM	CD	NumType=Card	23	nummod	_	_
+26	copies	copy	NOUN	NNS	Number=Plur	21	pobj	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2765
+# text = Whereas BAG-1 heterozygosity did not affect the rate of cell proliferation or signaling through the mitogenic cascade in adenoma cells, it increased the rate of apoptosis.
+1	Whereas	whereas	ADP	IN	_	8	mark	_	_
+2	BAG	bag	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	PunctType=Dash	2	punct	_	SpaceAfter=No
+4	1	0	NUM	CD	NumType=Card	2	nummod	_	_
+5	heterozygosity	heterozygosity	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	did	do	VERB	VBD	Tense=Past|VerbForm=Fin	8	aux	_	_
+7	not	not	ADV	RB	Degree=Pos	8	neg	_	_
+8	affect	affect	VERB	VB	VerbForm=Inf	25	advcl	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	rate	rate	NOUN	NN	Number=Sing	8	dobj	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	cell	cell	NOUN	NN	Number=Sing	13	compound	_	_
+13	proliferation	proliferation	NOUN	NN	Number=Sing	11	pobj	_	_
+14	or	or	CCONJ	CC	_	13	cc	_	_
+15	signaling	signaling	NOUN	NN	Number=Sing	13	conj	_	_
+16	through	through	ADP	IN	_	10	prep	_	_
+17	the	the	DET	DT	_	19	det	_	_
+18	mitogenic	mitogenic	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	cascade	cascade	NOUN	NN	Number=Sing	16	pobj	_	_
+20	in	in	ADP	IN	_	10	prep	_	_
+21	adenoma	adenoma	NOUN	NN	Number=Sing	22	compound	_	_
+22	cells	cell	NOUN	NNS	Number=Plur	20	pobj	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=Comm	25	punct	_	_
+24	it	it	PRON	PRP	PronType=Prs	25	nsubj	_	_
+25	increased	increase	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+26	the	the	DET	DT	_	27	det	_	_
+27	rate	rate	NOUN	NN	Number=Sing	25	dobj	_	_
+28	of	of	ADP	IN	_	27	prep	_	_
+29	apoptosis	apoptosis	NOUN	NN	Number=Sing	28	pobj	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	25	punct	_	_
+
+# newpar id = 15560850-p8
+# sent_id = 2766
+# text = Conclusion
+1	Conclusion	conclusion	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15560850-p9
+# sent_id = 2767
+# text = Reduced BAG-1 expression specifically targets tumor cells to apoptosis and impairs tumorigenesis.
+1	Reduced	reduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	amod	_	_
+2	BAG	bag	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	PunctType=Dash	2	punct	_	SpaceAfter=No
+4	1	0	NUM	CD	NumType=Card	2	nummod	_	_
+5	expression	expression	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	specifically	specifically	ADV	RB	Degree=Pos	7	advmod	_	_
+7	targets	target	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	tumor	tumor	NOUN	NN	Number=Sing	9	compound	_	_
+9	cells	cell	NOUN	NNS	Number=Plur	7	dobj	_	_
+10	to	to	ADP	IN	_	7	prep	_	_
+11	apoptosis	apoptosis	NOUN	NN	Number=Sing	10	pobj	_	_
+12	and	and	CCONJ	CC	_	7	cc	_	_
+13	impairs	impair	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	13	dobj	_	SpaceAfter=No
+15	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 2768
+# text = Our data implicate BAG-1 as a key player in oncogenic transformation by Raf and identify it as a potential molecular target for cancer treatment.
+1	Our	our	DET	PRP$	Poss=Yes|PronType=Prs	2	poss	_	_
+2	data	datum	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	implicate	implicate	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	BAG	bag	NOUN	NN	Number=Sing	3	dobj	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	as	as	ADP	IN	_	3	prep	_	_
+8	a	a	DET	DT	_	10	det	_	_
+9	key	key	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	player	player	NOUN	NN	Number=Sing	7	pobj	_	_
+11	in	in	ADP	IN	_	10	prep	_	_
+12	oncogenic	oncogenic	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	transformation	transformation	NOUN	NN	Number=Sing	11	pobj	_	_
+14	by	by	ADP	IN	_	13	prep	_	_
+15	Raf	raf	NOUN	NN	Number=Sing	14	pobj	_	_
+16	and	and	CCONJ	CC	_	3	cc	_	_
+17	identify	identify	VERB	VBP	Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	it	it	PRON	PRP	PronType=Prs	17	dobj	_	_
+19	as	as	ADP	IN	_	17	prep	_	_
+20	a	a	DET	DT	_	23	det	_	_
+21	potential	potential	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	molecular	molecular	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	target	target	NOUN	NN	Number=Sing	19	pobj	_	_
+24	for	for	ADP	IN	_	23	prep	_	_
+25	cancer	cancer	NOUN	NN	Number=Sing	26	compound	_	_
+26	treatment	treatment	NOUN	NN	Number=Sing	24	pobj	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# newpar id = 15560850-p10
+# sent_id = 2769
+# text = Background
+1	Background	background	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15560850-p11
+# sent_id = 2770
+# text = BAG-1 is a multifunctional protein that is expressed in most cells.
+1	BAG	bag	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	1	punct	_	SpaceAfter=No
+3	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+4	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	_	7	det	_	_
+6	multifunctional	multifunctional	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	protein	protein	NOUN	NN	Number=Sing	4	attr	_	_
+8	that	that	DET	WDT	PronType=Int,Rel	10	dep	_	7:ref=
+9	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	auxpass	_	_
+10	expressed	express	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	relcl	_	_
+11	in	in	ADP	IN	_	10	prep	_	_
+12	most	most	ADJ	JJS	Degree=Sup	13	amod	_	_
+13	cells	cell	NOUN	NNS	Number=Plur	11	pobj	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2771
+# text = Originally identified as a Bcl-2 binding protein [1], other interaction partners of BAG-1 were described, including the serine threonine kinase C-Raf [2].
+1	Originally	originally	ADV	RB	Degree=Pos	2	advmod	_	_
+2	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	22	advcl	_	_
+3	as	as	ADP	IN	_	2	prep	_	_
+4	a	a	DET	DT	_	9	det	_	_
+5	Bcl	bcl	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+7	2	0	NUM	CD	NumType=Card	5	nummod	_	_
+8	binding	binding	NOUN	NN	Number=Sing	9	compound	_	_
+9	protein	protein	NOUN	NN	Number=Sing	3	pobj	_	_
+10	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	11	punct	_	SpaceAfter=No
+11	1	0	NUM	CD	NumType=Card	2	parataxis	_	SpaceAfter=No
+12	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	22	punct	_	_
+14	other	other	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	interaction	interaction	NOUN	NN	Number=Sing	16	compound	_	_
+16	partners	partner	NOUN	NNS	Number=Plur	22	nsubjpass	_	_
+17	of	of	ADP	IN	_	16	prep	_	_
+18	BAG	bag	NOUN	NN	Number=Sing	17	pobj	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+20	1	0	NUM	CD	NumType=Card	18	nummod	_	_
+21	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	22	auxpass	_	_
+22	described	describe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=Comm	22	punct	_	_
+24	including	include	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	22	prep	_	_
+25	the	the	DET	DT	_	28	det	_	_
+26	serine	serine	NOUN	NN	Number=Sing	27	compound	_	_
+27	threonine	threonine	NOUN	NN	Number=Sing	28	compound	_	_
+28	kinase	kinase	NOUN	NN	Number=Sing	24	pobj	_	_
+29	C	c	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	PunctType=Dash	31	punct	_	SpaceAfter=No
+31	Raf	raf	NOUN	NN	Number=Sing	28	appos	_	_
+32	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+33	2	0	NUM	CD	NumType=Card	22	parataxis	_	SpaceAfter=No
+34	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=Peri	22	punct	_	_
+
+# sent_id = 2772
+# text = The C-terminal "BAG domain" of BAG-1 mediates the interaction with the Hsc70 and Hsp70 heat shock proteins [3], molecular chaperones that bind proteins in non-native states assisting them to reach a functional active conformation [4].
+1	The	the	DET	DT	_	7	det	_	_
+2	C	c	NOUN	NN	Number=Sing	4	npadvmod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+4	terminal	terminal	ADJ	JJ	Degree=Pos	7	amod	_	_
+5	"	"	PUNCT	``	PunctSide=Ini|PunctType=Quot	7	punct	_	SpaceAfter=No
+6	BAG	bag	NOUN	NN	Number=Sing	7	compound	_	_
+7	domain	domain	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	''	PunctSide=Fin|PunctType=Quot	7	punct	_	_
+9	of	of	ADP	IN	_	7	prep	_	_
+10	BAG	bag	NOUN	NN	Number=Sing	9	pobj	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+12	1	0	NUM	CD	NumType=Card	10	nummod	_	_
+13	mediates	mediate	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	interaction	interaction	NOUN	NN	Number=Sing	13	dobj	_	_
+16	with	with	ADP	IN	_	15	prep	_	_
+17	the	the	DET	DT	_	23	det	_	_
+18	Hsc70	hsc0	NOUN	NN	Number=Sing	23	nmod	_	_
+19	and	and	CCONJ	CC	_	18	cc	_	_
+20	Hsp70	hsp0	NOUN	NN	Number=Sing	18	conj	_	_
+21	heat	heat	NOUN	NN	Number=Sing	22	compound	_	_
+22	shock	shock	NOUN	NN	Number=Sing	23	compound	_	_
+23	proteins	proteins	NOUN	NN	Number=Sing	16	pobj	_	_
+24	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	25	punct	_	SpaceAfter=No
+25	3	0	NUM	CD	NumType=Card	23	parataxis	_	SpaceAfter=No
+26	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	23	punct	_	_
+28	molecular	molecular	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	chaperones	chaperone	NOUN	NNS	Number=Plur	23	appos	_	_
+30	that	that	DET	WDT	PronType=Int,Rel	31	dep	_	29:ref=
+31	bind	bind	VERB	VBP	Tense=Pres|VerbForm=Fin	29	relcl	_	_
+32	proteins	proteins	NOUN	NN	Number=Sing	31	dobj	_	_
+33	in	in	ADP	IN	_	31	prep	_	_
+34	non-native	non-native	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	states	state	NOUN	NNS	Number=Plur	33	pobj	_	_
+36	assisting	assist	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	31	advcl	_	_
+37	them	them	PRON	PRP	PronType=Prs	39	nsubj	_	_
+38	to	to	PART	TO	PartType=Inf|VerbForm=Inf	39	aux	_	_
+39	reach	reach	VERB	VB	VerbForm=Inf	36	ccomp	_	_
+40	a	a	DET	DT	_	43	det	_	_
+41	functional	functional	ADJ	JJ	Degree=Pos	43	amod	_	_
+42	active	active	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	conformation	conformation	NOUN	NN	Number=Sing	39	dobj	_	_
+44	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	45	punct	_	SpaceAfter=No
+45	4	0	NUM	CD	NumType=Card	39	parataxis	_	SpaceAfter=No
+46	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	45	punct	_	SpaceAfter=No
+47	.	.	PUNCT	.	PunctType=Peri	13	punct	_	_
+
+# sent_id = 2773
+# text = BAG-1 acts as a nucleotide exchange factor in this activation cycle [3].
+1	BAG	bag	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	1	punct	_	SpaceAfter=No
+3	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+4	acts	act	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	as	as	ADP	IN	_	4	prep	_	_
+6	a	a	DET	DT	_	9	det	_	_
+7	nucleotide	nucleotide	NOUN	NN	Number=Sing	8	compound	_	_
+8	exchange	exchange	NOUN	NN	Number=Sing	9	compound	_	_
+9	factor	factor	NOUN	NN	Number=Sing	5	pobj	_	_
+10	in	in	ADP	IN	_	4	prep	_	_
+11	this	this	DET	DT	_	13	det	_	_
+12	activation	activation	NOUN	NN	Number=Sing	13	compound	_	_
+13	cycle	cycle	NOUN	NN	Number=Sing	10	pobj	_	_
+14	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	15	punct	_	SpaceAfter=No
+15	3	0	NUM	CD	NumType=Card	4	parataxis	_	SpaceAfter=No
+16	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2774
+# text = The above findings indicated that BAG-1 might connect protein folding with other signaling pathways.
+1	The	the	DET	DT	_	3	det	_	_
+2	above	above	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	findings	finding	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	indicated	indicate	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	that	that	ADP	IN	_	10	mark	_	_
+6	BAG	bag	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+8	1	0	NUM	CD	NumType=Card	6	nummod	_	_
+9	might	might	VERB	MD	VerbType=Mod	10	aux	_	_
+10	connect	connect	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+11	protein	protein	NOUN	NN	Number=Sing	12	compound	_	_
+12	folding	folding	NOUN	NN	Number=Sing	10	dobj	_	_
+13	with	with	ADP	IN	_	10	prep	_	_
+14	other	other	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	signaling	signaling	NOUN	NN	Number=Sing	16	compound	_	_
+16	pathways	pathway	NOUN	NNS	Number=Plur	13	pobj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2775
+# text = Signaling networks promoting cell growth and proliferation are frequently deregulated in cancer [5].
+1	Signaling	signaling	NOUN	NN	Number=Sing	2	compound	_	_
+2	networks	network	NOUN	NNS	Number=Plur	10	nsubjpass	_	_
+3	promoting	promote	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	acl	_	_
+4	cell	cell	NOUN	NN	Number=Sing	5	compound	_	_
+5	growth	growth	NOUN	NN	Number=Sing	3	dobj	_	_
+6	and	and	CCONJ	CC	_	5	cc	_	_
+7	proliferation	proliferation	NOUN	NN	Number=Sing	5	conj	_	_
+8	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	10	auxpass	_	_
+9	frequently	frequently	ADV	RB	Degree=Pos	10	advmod	_	_
+10	deregulated	deregulate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+11	in	in	ADP	IN	_	10	prep	_	_
+12	cancer	cancer	NOUN	NN	Number=Sing	11	pobj	_	_
+13	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	14	punct	_	SpaceAfter=No
+14	5	0	NUM	CD	NumType=Card	10	parataxis	_	SpaceAfter=No
+15	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 2776
+# text = The classical mitogenic cascade transmits stimuli from growth factor receptors via Ras, Raf, MEK and ERK to the cell nucleus [6].
+1	The	the	DET	DT	_	4	det	_	_
+2	classical	classical	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	mitogenic	mitogenic	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	cascade	cascade	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	transmits	transmit	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	stimuli	stimulus	NOUN	NNS	Number=Plur	5	dobj	_	_
+7	from	from	ADP	IN	_	5	prep	_	_
+8	growth	growth	NOUN	NN	Number=Sing	9	compound	_	_
+9	factor	factor	NOUN	NN	Number=Sing	10	compound	_	_
+10	receptors	receptor	NOUN	NNS	Number=Plur	7	pobj	_	_
+11	via	via	ADP	IN	_	5	prep	_	_
+12	Ras	ras	NOUN	NN	Number=Sing	11	pobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
+14	Raf	raf	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+16	MEK	mek	NOUN	NN	Number=Sing	14	conj	_	_
+17	and	and	CCONJ	CC	_	16	cc	_	_
+18	ERK	erk	NOUN	NN	Number=Sing	16	conj	_	_
+19	to	to	ADP	IN	_	5	prep	_	_
+20	the	the	DET	DT	_	22	det	_	_
+21	cell	cell	NOUN	NN	Number=Sing	22	compound	_	_
+22	nucleus	nucleus	NOUN	NN	Number=Sing	19	pobj	_	_
+23	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	24	punct	_	SpaceAfter=No
+24	6	0	NUM	CD	NumType=Card	5	parataxis	_	SpaceAfter=No
+25	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2777
+# text = C-Raf, like A- and B-Raf kinases also act at the outer membrane of mitochondria to augment cell survival [7,8].
+1	C	c	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+3	Raf	raf	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
+5	like	like	ADP	IN	_	3	prep	_	_
+6	A	a	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	_
+8	and	and	CCONJ	CC	_	6	cc	_	_
+9	B	b	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+11	Raf	raf	NOUN	NN	Number=Sing	12	compound	_	_
+12	kinases	kinase	NOUN	NNS	Number=Plur	5	pobj	_	_
+13	also	also	ADV	RB	Degree=Pos	14	advmod	_	_
+14	act	act	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+15	at	at	ADP	IN	_	14	prep	_	_
+16	the	the	DET	DT	_	18	det	_	_
+17	outer	outer	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	membrane	membrane	NOUN	NN	Number=Sing	15	pobj	_	_
+19	of	of	ADP	IN	_	18	prep	_	_
+20	mitochondria	mitochondrion	NOUN	NNS	Number=Plur	19	pobj	_	_
+21	to	to	PART	TO	PartType=Inf|VerbForm=Inf	22	aux	_	_
+22	augment	augment	VERB	VB	VerbForm=Inf	14	advcl	_	_
+23	cell	cell	NOUN	NN	Number=Sing	24	compound	_	_
+24	survival	survival	NOUN	NN	Number=Sing	22	dobj	_	_
+25	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	28	punct	_	SpaceAfter=No
+26	7	0	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	28	punct	_	SpaceAfter=No
+28	8	0	NUM	CD	NumType=Card	14	parataxis	_	SpaceAfter=No
+29	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	14	punct	_	_
+
+# sent_id = 2778
+# text = Previously we had observed the stimulation of C-Raf kinase activity by BAG-1 in vitro [2].
+1	Previously	previously	ADV	RB	Degree=Pos	4	advmod	_	_
+2	we	we	PRON	PRP	PronType=Prs	4	nsubj	_	_
+3	had	have	VERB	VBD	Tense=Past|VerbForm=Fin	4	aux	_	_
+4	observed	observe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	stimulation	stimulation	NOUN	NN	Number=Sing	4	dobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	C	c	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	Raf	raf	NOUN	NN	Number=Sing	11	compound	_	_
+11	kinase	kinase	NOUN	NN	Number=Sing	12	compound	_	_
+12	activity	activity	NOUN	NN	Number=Sing	7	pobj	_	_
+13	by	by	ADP	IN	_	6	prep	_	_
+14	BAG	bag	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+16	1	0	NUM	CD	NumType=Card	14	nummod	_	_
+17	in	in	X	FW	Foreign=Yes	18	advmod	_	_
+18	vitro	vitro	X	FW	Foreign=Yes	4	advmod	_	_
+19	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	20	punct	_	SpaceAfter=No
+20	2	0	NUM	CD	NumType=Card	4	parataxis	_	SpaceAfter=No
+21	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2779
+# text = Ras and B-Raf mutations have been found in various human cancers [9,10].
+1	Ras	ras	NOUN	NN	Number=Sing	6	nmod	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	B	b	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+5	Raf	raf	NOUN	NN	Number=Sing	1	conj	_	_
+6	mutations	mutation	NOUN	NNS	Number=Plur	9	nsubjpass	_	_
+7	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	been	be	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	auxpass	_	_
+9	found	find	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	in	in	ADP	IN	_	9	prep	_	_
+11	various	various	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	human	human	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	cancers	cancer	NOUN	NNS	Number=Plur	10	pobj	_	_
+14	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	17	punct	_	SpaceAfter=No
+15	9	0	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	,	PunctType=Comm	17	punct	_	SpaceAfter=No
+17	10	0	NUM	CD	NumType=Card	9	parataxis	_	SpaceAfter=No
+18	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 2780
+# text = Evidence that BAG-1 expression is frequently altered in human cancers, in particular in breast cancer, relative to normal cells has been put forward but the notion that overexpression of BAG-1 contributes to poor prognosis in tumorigenesis remains controversial [11].
+1	Evidence	evidence	NOUN	NN	Number=Sing	26	nsubjpass	_	_
+2	that	that	ADP	IN	_	9	mark	_	_
+3	BAG	bag	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+5	1	0	NUM	CD	NumType=Card	3	nummod	_	_
+6	expression	expression	NOUN	NN	Number=Sing	9	nsubjpass	_	_
+7	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	auxpass	_	_
+8	frequently	frequently	ADV	RB	Degree=Pos	9	advmod	_	_
+9	altered	alter	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	1	acl	_	_
+10	in	in	ADP	IN	_	9	prep	_	_
+11	human	human	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	cancers	cancer	NOUN	NNS	Number=Plur	10	pobj	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+14	in	in	ADP	IN	_	16	prep	_	_
+15	particular	particular	ADJ	JJ	Degree=Pos	14	amod	_	_
+16	in	in	ADP	IN	_	10	prep	_	_
+17	breast	breast	NOUN	NN	Number=Sing	18	compound	_	_
+18	cancer	cancer	NOUN	NN	Number=Sing	16	pobj	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+20	relative	relative	ADJ	JJ	Degree=Pos	9	advcl	_	_
+21	to	to	ADP	IN	_	20	prep	_	_
+22	normal	normal	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	cells	cell	NOUN	NNS	Number=Plur	21	pobj	_	_
+24	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	been	be	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	26	auxpass	_	_
+26	put	put	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+27	forward	forward	ADP	RP	PartType=Vbp	26	prt	_	_
+28	but	but	CCONJ	CC	_	26	cc	_	_
+29	the	the	DET	DT	_	30	det	_	_
+30	notion	notion	NOUN	NN	Number=Sing	43	nsubj	_	_
+31	that	that	ADP	IN	_	37	mark	_	_
+32	overexpression	overexpression	NOUN	NN	Number=Sing	37	nsubj	_	_
+33	of	of	ADP	IN	_	32	prep	_	_
+34	BAG	bag	NOUN	NN	Number=Sing	33	pobj	_	SpaceAfter=No
+35	-	-	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+36	1	0	NUM	CD	NumType=Card	34	nummod	_	_
+37	contributes	contribute	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	_
+38	to	to	ADP	IN	_	37	prep	_	_
+39	poor	poor	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	prognosis	prognosis	NOUN	NN	Number=Sing	38	pobj	_	_
+41	in	in	ADP	IN	_	37	prep	_	_
+42	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	41	pobj	_	_
+43	remains	remain	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+44	controversial	controversial	ADJ	JJ	Degree=Pos	43	oprd	_	_
+45	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	46	punct	_	SpaceAfter=No
+46	11	0	NUM	CD	NumType=Card	43	parataxis	_	SpaceAfter=No
+47	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	46	punct	_	SpaceAfter=No
+48	.	.	PUNCT	.	PunctType=Peri	43	punct	_	_
+
+# newpar id = 15560850-p12
+# sent_id = 2781
+# text = Methods
+1	Methods	method	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15560850-p13
+# sent_id = 2782
+# text = Animals
+1	Animals	animal	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15560850-p14
+# sent_id = 2783
+# text = Mice used in these studies were generated and maintained according to protocols approved by the animal care and use committee at University of Würzburg.
+1	Mice	mouse	NOUN	NNS	Number=Plur	7	nsubjpass	_	_
+2	used	use	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	1	acl	_	_
+3	in	in	ADP	IN	_	2	prep	_	_
+4	these	these	DET	DT	_	5	det	_	_
+5	studies	study	NOUN	NNS	Number=Plur	3	pobj	_	_
+6	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	7	auxpass	_	_
+7	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	and	and	CCONJ	CC	_	7	cc	_	_
+9	maintained	maintain	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	conj	_	_
+10	according	accord	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	9	prep	_	_
+11	to	to	ADP	IN	_	10	prep	_	_
+12	protocols	protocol	NOUN	NNS	Number=Plur	11	pobj	_	_
+13	approved	approve	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	12	acl	_	_
+14	by	by	ADP	IN	_	13	agent	_	_
+15	the	the	DET	DT	_	20	det	_	_
+16	animal	animal	NOUN	NN	Number=Sing	17	nmod	_	_
+17	care	care	NOUN	NN	Number=Sing	20	nmod	_	_
+18	and	and	CCONJ	CC	_	17	cc	_	_
+19	use	use	NOUN	NN	Number=Sing	17	conj	_	_
+20	committee	committee	NOUN	NN	Number=Sing	14	pobj	_	_
+21	at	at	ADP	IN	_	20	prep	_	_
+22	University	university	PROPN	NNP	Number=Sing	21	pobj	_	_
+23	of	of	ADP	IN	_	22	prep	_	_
+24	Würzburg	würzburg	PROPN	NNP	Number=Sing	23	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 2784
+# text = To inactivate the BAG-1 gene, we constructed a vector where exons 1 and 2 are replaced with a neomycin resistance gene.
+1	To	to	PART	TO	PartType=Inf|VerbForm=Inf	2	aux	_	_
+2	inactivate	inactivate	VERB	VB	VerbForm=Inf	10	advcl	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	BAG	bag	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	gene	gene	NOUN	NN	Number=Sing	2	dobj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+9	we	we	PRON	PRP	PronType=Prs	10	nsubj	_	_
+10	constructed	construct	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	DET	DT	_	12	det	_	_
+12	vector	vector	NOUN	NN	Number=Sing	10	dobj	_	_
+13	where	where	ADV	WRB	PronType=Int,Rel	19	advmod	_	12:ref=
+14	exons	exon	NOUN	NNS	Number=Plur	15	nmod	_	_
+15	1	0	NUM	CD	NumType=Card	19	nsubjpass	_	_
+16	and	and	CCONJ	CC	_	15	cc	_	_
+17	2	0	NUM	CD	NumType=Card	15	conj	_	_
+18	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	19	auxpass	_	_
+19	replaced	replace	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	12	relcl	_	_
+20	with	with	ADP	IN	_	19	prep	_	_
+21	a	a	DET	DT	_	24	det	_	_
+22	neomycin	neomycin	NOUN	NN	Number=Sing	23	compound	_	_
+23	resistance	resistance	NOUN	NN	Number=Sing	24	compound	_	_
+24	gene	gene	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 2785
+# text = A phage clone with a 15-kb genomic insert from mouse strain 129/Sv spanning all seven exons of BAG-1 was identified and characterised using standard methods.
+1	A	a	DET	DT	_	3	det	_	_
+2	phage	phage	NOUN	NN	Number=Sing	3	compound	_	_
+3	clone	clone	NOUN	NN	Number=Sing	26	nsubjpass	_	_
+4	with	with	ADP	IN	_	3	prep	_	_
+5	a	a	DET	DT	_	10	det	_	_
+6	15	0	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	kb	kb	NOUN	NN	Number=Sing	10	nmod	_	_
+9	genomic	genomic	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	insert	insert	NOUN	NN	Number=Sing	4	pobj	_	_
+11	from	from	ADP	IN	_	10	prep	_	_
+12	mouse	mouse	NOUN	NN	Number=Sing	13	nmod	_	_
+13	strain	strain	NOUN	NN	Number=Sing	16	nmod	_	_
+14	129	0	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+15	/	/	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+16	Sv	sv	NOUN	NN	Number=Sing	11	pobj	_	_
+17	spanning	span	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	10	acl	_	_
+18	all	all	DET	DT	_	20	det	_	_
+19	seven	#crd#	NUM	CD	NumType=Card	20	nummod	_	_
+20	exons	exon	NOUN	NNS	Number=Plur	17	dobj	_	_
+21	of	of	ADP	IN	_	20	prep	_	_
+22	BAG	bag	NOUN	NN	Number=Sing	21	pobj	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	PunctType=Dash	22	punct	_	SpaceAfter=No
+24	1	0	NUM	CD	NumType=Card	22	nummod	_	_
+25	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	26	auxpass	_	_
+26	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+27	and	and	CCONJ	CC	_	26	cc	_	_
+28	characterised	characterise	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	26	conj	_	_
+29	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	28	advcl	_	_
+30	standard	standard	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	methods	method	NOUN	NNS	Number=Plur	29	dobj	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=Peri	26	punct	_	_
+
+# sent_id = 2786
+# text = The targeting construct contained 1,1-kb from the BAG-1 locus upstream of the neomycin resistance gene of plasmid pPNT [12] and 6-kb downstream.
+1	The	the	DET	DT	_	3	det	_	_
+2	targeting	target	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	amod	_	_
+3	construct	construct	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	contained	contain	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+5	1,1	0	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+7	kb	kb	NOUN	NN	Number=Sing	4	dobj	_	_
+8	from	from	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	13	det	_	_
+10	BAG	bag	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+12	1	0	NUM	CD	NumType=Card	10	nummod	_	_
+13	locus	locus	NOUN	NN	Number=Sing	8	pobj	_	_
+14	upstream	upstream	ADV	RB	Degree=Pos	13	advmod	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	the	the	DET	DT	_	19	det	_	_
+17	neomycin	neomycin	NOUN	NN	Number=Sing	18	compound	_	_
+18	resistance	resistance	NOUN	NN	Number=Sing	19	compound	_	_
+19	gene	gene	NOUN	NN	Number=Sing	15	pobj	_	_
+20	of	of	ADP	IN	_	19	prep	_	_
+21	plasmid	plasmid	NOUN	NN	Number=Sing	22	compound	_	_
+22	pPNT	ppnt	NOUN	NN	Number=Sing	20	pobj	_	_
+23	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	24	punct	_	SpaceAfter=No
+24	12	0	NUM	CD	NumType=Card	19	parataxis	_	SpaceAfter=No
+25	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	24	punct	_	_
+26	and	and	CCONJ	CC	_	7	cc	_	_
+27	6	0	NUM	CD	NumType=Card	29	nummod	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	PunctType=Dash	29	punct	_	SpaceAfter=No
+29	kb	kb	NOUN	NN	Number=Sing	7	conj	_	_
+30	downstream	downstream	ADV	RB	Degree=Pos	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2787
+# text = The upstream arm of 1,1 kb is located 5' to the start codon in the first exon of BAG-1 and the 3' arm of 6 kb is located downstream of exon 2.
+1	The	the	DET	DT	_	3	det	_	_
+2	upstream	upstream	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	arm	arm	NOUN	NN	Number=Sing	8	nsubjpass	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	1,1	0	NUM	CD	NumType=Card	6	nummod	_	_
+6	kb	kb	NOUN	NN	Number=Sing	4	pobj	_	_
+7	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	auxpass	_	_
+8	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+9	5	0	NUM	CD	NumType=Card	8	npadvmod	_	SpaceAfter=No
+10	'	'	SYM	SYM	_	9	punct	_	_
+11	to	to	ADP	IN	_	9	prep	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	start	start	NOUN	NN	Number=Sing	14	compound	_	_
+14	codon	codon	NOUN	NN	Number=Sing	11	pobj	_	_
+15	in	in	ADP	IN	_	8	prep	_	_
+16	the	the	DET	DT	_	18	det	_	_
+17	first	#ord#	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	exon	exon	NOUN	NN	Number=Sing	15	pobj	_	_
+19	of	of	ADP	IN	_	18	prep	_	_
+20	BAG	bag	NOUN	NN	Number=Sing	19	pobj	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+22	1	0	NUM	CD	NumType=Card	20	nummod	_	_
+23	and	and	CCONJ	CC	_	8	cc	_	_
+24	the	the	DET	DT	_	27	det	_	_
+25	3	0	NUM	CD	NumType=Card	27	nummod	_	SpaceAfter=No
+26	'	'	SYM	SYM	_	25	punct	_	_
+27	arm	arm	NOUN	NN	Number=Sing	32	nsubjpass	_	_
+28	of	of	ADP	IN	_	27	prep	_	_
+29	6	0	NUM	CD	NumType=Card	30	nummod	_	_
+30	kb	kb	NOUN	NN	Number=Sing	28	pobj	_	_
+31	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	auxpass	_	_
+32	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	conj	_	_
+33	downstream	downstream	ADV	RB	Degree=Pos	32	advmod	_	_
+34	of	of	ADP	IN	_	33	prep	_	_
+35	exon	exon	NOUN	NN	Number=Sing	34	pobj	_	_
+36	2	0	NUM	CD	NumType=Card	35	nummod	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=Peri	32	punct	_	_
+
+# sent_id = 2788
+# text = The mutation was introduced into embryonic stem cells by homologous recombination.
+1	The	the	DET	DT	_	2	det	_	_
+2	mutation	mutation	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	introduced	introduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	into	into	ADP	IN	_	4	prep	_	_
+6	embryonic	embryonic	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	stem	stem	NOUN	NN	Number=Sing	8	compound	_	_
+8	cells	cell	NOUN	NNS	Number=Plur	5	pobj	_	_
+9	by	by	ADP	IN	_	4	prep	_	_
+10	homologous	homologous	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	recombination	recombination	NOUN	NN	Number=Sing	9	pobj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2789
+# text = Positive clones were identified by Southern blot analysis.
+1	Positive	positive	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	clones	clone	NOUN	NNS	Number=Plur	4	nsubjpass	_	_
+3	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	ADP	IN	_	4	prep	_	_
+6	Southern	southern	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	blot	blot	NOUN	NN	Number=Sing	8	compound	_	_
+8	analysis	analysis	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2790
+# text = Germline transmitting chimeras were obtained and bred to C57BL/6 mice.
+1	Germline	germline	NOUN	NN	Number=Sing	2	npadvmod	_	_
+2	transmitting	transmit	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	amod	_	_
+3	chimeras	chimera	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	obtained	obtain	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	and	and	CCONJ	CC	_	5	cc	_	_
+7	bred	breed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	conj	_	_
+8	to	to	ADP	IN	_	7	prep	_	_
+9	C57BL	c0bl	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+10	/	/	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+11	6	0	NUM	CD	NumType=Card	9	nummod	_	_
+12	mice	mouse	NOUN	NNS	Number=Plur	8	pobj	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2791
+# text = Further details will be described elsewhere.
+1	Further	far	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	details	detail	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+3	will	will	VERB	MD	VerbType=Mod	5	aux	_	_
+4	be	be	VERB	VB	VerbForm=Inf	5	auxpass	_	_
+5	described	describe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	elsewhere	elsewhere	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2792
+# text = Heterozygous BAG-1 mice were genotyped by a PCR assay.
+1	Heterozygous	heterozygous	ADJ	JJ	Degree=Pos	5	amod	_	_
+2	BAG	bag	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	PunctType=Dash	2	punct	_	SpaceAfter=No
+4	1	0	NUM	CD	NumType=Card	2	nummod	_	_
+5	mice	mouse	NOUN	NNS	Number=Plur	7	nsubjpass	_	_
+6	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	7	auxpass	_	_
+7	genotyped	genotyped	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	by	by	ADP	IN	_	7	prep	_	_
+9	a	a	DET	DT	_	11	det	_	_
+10	PCR	pcr	NOUN	NN	Number=Sing	11	compound	_	_
+11	assay	assay	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 2793
+# text = The targeted BAG-1 allele was detected with primers P1 (5'-GAG TCT CCC GAT CCC TTT TCC), located upstream of exon 1, and P2 (5'-GAT TCG CAG CGC ATC GCC TT), located in the neomycin resistance gene, yielding a product of 600 base pairs.
+1	The	the	DET	DT	_	6	det	_	_
+2	targeted	target	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	amod	_	_
+3	BAG	bag	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	3	punct	_	SpaceAfter=No
+5	1	0	NUM	CD	NumType=Card	3	nummod	_	_
+6	allele	allele	NOUN	NN	Number=Sing	8	nsubjpass	_	_
+7	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	8	auxpass	_	_
+8	detected	detect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+9	with	with	ADP	IN	_	8	prep	_	_
+10	primers	primer	NOUN	NNS	Number=Plur	11	compound	_	_
+11	P1	p0	NOUN	NN	Number=Sing	9	pobj	_	_
+12	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	22	punct	_	SpaceAfter=No
+13	5	0	NUM	CD	NumType=Card	22	nummod	_	SpaceAfter=No
+14	'	'	SYM	SYM	_	13	punct	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	22	punct	_	SpaceAfter=No
+16	GAG	gag	NOUN	NN	Number=Sing	22	compound	_	_
+17	TCT	tct	NOUN	NN	Number=Sing	22	compound	_	_
+18	CCC	ccc	NOUN	NN	Number=Sing	22	compound	_	_
+19	GAT	gat	NOUN	NN	Number=Sing	22	compound	_	_
+20	CCC	ccc	NOUN	NN	Number=Sing	22	compound	_	_
+21	TTT	ttt	NOUN	NN	Number=Sing	22	compound	_	_
+22	TCC	tcc	NOUN	NN	Number=Sing	11	parataxis	_	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+25	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	acl	_	_
+26	upstream	upstream	ADV	RB	Degree=Pos	25	advmod	_	_
+27	of	of	ADP	IN	_	26	prep	_	_
+28	exon	exon	NOUN	NN	Number=Sing	27	pobj	_	_
+29	1	0	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+31	and	and	CCONJ	CC	_	11	cc	_	_
+32	P2	p0	NOUN	NN	Number=Sing	11	conj	_	_
+33	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	43	punct	_	SpaceAfter=No
+34	5	0	NUM	CD	NumType=Card	43	nummod	_	SpaceAfter=No
+35	'	'	SYM	SYM	_	34	punct	_	SpaceAfter=No
+36	-	-	PUNCT	HYPH	PunctType=Dash	43	punct	_	SpaceAfter=No
+37	GAT	gat	NOUN	NN	Number=Sing	43	compound	_	_
+38	TCG	tcg	NOUN	NN	Number=Sing	43	compound	_	_
+39	CAG	cag	NOUN	NN	Number=Sing	43	compound	_	_
+40	CGC	cgc	NOUN	NN	Number=Sing	43	compound	_	_
+41	ATC	atc	NOUN	NN	Number=Sing	43	compound	_	_
+42	GCC	gcc	NOUN	NN	Number=Sing	43	compound	_	_
+43	TT	tt	NOUN	NN	Number=Sing	32	parataxis	_	SpaceAfter=No
+44	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	43	punct	_	SpaceAfter=No
+45	,	,	PUNCT	,	PunctType=Comm	32	punct	_	_
+46	located	locate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	32	acl	_	_
+47	in	in	ADP	IN	_	46	prep	_	_
+48	the	the	DET	DT	_	51	det	_	_
+49	neomycin	neomycin	NOUN	NN	Number=Sing	50	compound	_	_
+50	resistance	resistance	NOUN	NN	Number=Sing	51	compound	_	_
+51	gene	gene	NOUN	NN	Number=Sing	47	pobj	_	SpaceAfter=No
+52	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+53	yielding	yield	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	advcl	_	_
+54	a	a	DET	DT	_	55	det	_	_
+55	product	product	NOUN	NN	Number=Sing	53	dobj	_	_
+56	of	of	ADP	IN	_	55	prep	_	_
+57	600	0	NUM	CD	NumType=Card	59	nummod	_	_
+58	base	base	NOUN	NN	Number=Sing	59	compound	_	_
+59	pairs	pair	NOUN	NNS	Number=Plur	56	pobj	_	SpaceAfter=No
+60	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
+
+# sent_id = 2794
+# text = BAG-1 heterozygous mice were backcrossed at least three times onto C57BL/6 background before crossing with SP-C C-Raf BxB mice.
+1	BAG	bag	NOUN	NN	Number=Sing	4	npadvmod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	1	punct	_	SpaceAfter=No
+3	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+4	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	mice	mouse	NOUN	NNS	Number=Plur	7	nsubjpass	_	_
+6	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	7	auxpass	_	_
+7	backcrossed	backcross	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+8	at	at	ADV	RB	Degree=Pos	10	advmod	_	_
+9	least	least	ADV	RBS	Degree=Sup	10	advmod	_	_
+10	three	#crd#	NUM	CD	NumType=Card	11	nummod	_	_
+11	times	time	NOUN	NNS	Number=Plur	7	npadvmod	_	_
+12	onto	onto	ADP	IN	_	7	prep	_	_
+13	C57BL	c0bl	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+14	/	/	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+15	6	0	NUM	CD	NumType=Card	13	nummod	_	_
+16	background	background	NOUN	NN	Number=Sing	12	pobj	_	_
+17	before	before	ADP	IN	_	7	prep	_	_
+18	crossing	cross	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	17	pcomp	_	_
+19	with	with	ADP	IN	_	18	prep	_	_
+20	SP	sp	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	22	punct	_	SpaceAfter=No
+22	C	c	NOUN	NN	Number=Sing	26	compound	_	_
+23	C	c	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	Raf	raf	NOUN	NN	Number=Sing	26	compound	_	_
+26	BxB	bxb	NOUN	NN	Number=Sing	27	compound	_	_
+27	mice	mouse	NOUN	NNS	Number=Plur	19	pobj	_	SpaceAfter=No
+28	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 2795
+# text = Lung tumour mice expressing oncogenic C-Raf BxB were backcrossed at least six times onto C57BL/6 background.
+1	Lung	lung	NOUN	NN	Number=Sing	2	compound	_	_
+2	tumour	tumour	NOUN	NN	Number=Sing	3	compound	_	_
+3	mice	mouse	NOUN	NNS	Number=Plur	11	nsubjpass	_	_
+4	expressing	express	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	acl	_	_
+5	oncogenic	oncogenic	ADJ	JJ	Degree=Pos	9	amod	_	_
+6	C	c	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	Raf	raf	NOUN	NN	Number=Sing	9	compound	_	_
+9	BxB	bxb	NOUN	NN	Number=Sing	4	dobj	_	_
+10	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	11	auxpass	_	_
+11	backcrossed	backcross	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+12	at	at	ADV	RB	Degree=Pos	14	advmod	_	_
+13	least	least	ADV	RBS	Degree=Sup	14	advmod	_	_
+14	six	#crd#	NUM	CD	NumType=Card	15	nummod	_	_
+15	times	time	NOUN	NNS	Number=Plur	11	npadvmod	_	_
+16	onto	onto	ADP	IN	_	11	prep	_	_
+17	C57BL	c0bl	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+18	/	/	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+19	6	0	NUM	CD	NumType=Card	17	nummod	_	_
+20	background	background	NOUN	NN	Number=Sing	16	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	11	punct	_	_
+
+# newpar id = 15560850-p15
+# sent_id = 2796
+# text = Western blot
+1	Western	western	PROPN	NNP	Number=Sing	2	compound	_	_
+2	blot	blot	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15560850-p16
+# sent_id = 2797
+# text = For the analysis of BAG-1 expression, lung lysates of the indicated genotypes were separated on 12,5% polyacrylamide-SDS (sodium dodecyl sulphate) gel, transferred to nitrocellulose Protran BA83 membrane (Schleicher&Schüll) and probed with rabbit anti-BAG-1 (FL-274) antibody (1:250, Santa Cruz Biotechnology).
+1	For	for	ADP	IN	_	17	prep	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	analysis	analysis	NOUN	NN	Number=Sing	1	pobj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	BAG	bag	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+7	1	0	NUM	CD	NumType=Card	5	nummod	_	_
+8	expression	expression	NOUN	NN	Number=Sing	4	pobj	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
+10	lung	lung	NOUN	NN	Number=Sing	11	compound	_	_
+11	lysates	lysates	NOUN	NNS	Number=Plur	17	nsubjpass	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	the	the	DET	DT	_	15	det	_	_
+14	indicated	indicate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	15	amod	_	_
+15	genotypes	genotype	NOUN	NNS	Number=Plur	12	pobj	_	_
+16	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	17	auxpass	_	_
+17	separated	separate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+18	on	on	ADP	IN	_	17	prep	_	_
+19	12,5	0	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+20	%	%	NOUN	NN	Number=Sing	29	nmod	_	_
+21	polyacrylamide	polyacrylamide	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	PunctType=Dash	23	punct	_	SpaceAfter=No
+23	SDS	sds	NOUN	NN	Number=Sing	29	nmod	_	_
+24	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	27	punct	_	SpaceAfter=No
+25	sodium	sodium	NOUN	NN	Number=Sing	27	compound	_	_
+26	dodecyl	dodecyl	NOUN	NN	Number=Sing	27	compound	_	_
+27	sulphate	sulphate	NOUN	NN	Number=Sing	23	parataxis	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	27	punct	_	_
+29	gel	gel	NOUN	NN	Number=Sing	18	pobj	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
+31	transferred	transfer	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	17	conj	_	_
+32	to	to	ADP	IN	_	31	prep	_	_
+33	nitrocellulose	nitrocellulose	NOUN	NN	Number=Sing	35	compound	_	_
+34	Protran	protran	NOUN	NN	Number=Sing	35	compound	_	_
+35	BA83	ba0	NOUN	NN	Number=Sing	36	compound	_	_
+36	membrane	membrane	NOUN	NN	Number=Sing	32	pobj	_	_
+37	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	38	punct	_	SpaceAfter=No
+38	Schleicher	schleicher	PROPN	NNP	Number=Sing	36	parataxis	_	SpaceAfter=No
+39	&	&	CCONJ	CC	_	38	cc	_	SpaceAfter=No
+40	Schüll	schüll	PROPN	NNP	Number=Sing	38	conj	_	SpaceAfter=No
+41	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	38	punct	_	_
+42	and	and	CCONJ	CC	_	31	cc	_	_
+43	probed	probe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	31	conj	_	_
+44	with	with	ADP	IN	_	43	prep	_	_
+45	rabbit	rabbit	NOUN	NN	Number=Sing	48	nmod	_	_
+46	anti-BAG	anti-bag	ADJ	JJ	Degree=Pos	48	amod	_	SpaceAfter=No
+47	-	-	PUNCT	HYPH	PunctType=Dash	48	punct	_	SpaceAfter=No
+48	1	0	NUM	CD	NumType=Card	54	nummod	_	_
+49	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	50	punct	_	SpaceAfter=No
+50	FL	fl	NOUN	NN	Number=Sing	48	parataxis	_	SpaceAfter=No
+51	-	-	PUNCT	HYPH	PunctType=Dash	50	punct	_	SpaceAfter=No
+52	274	0	NUM	CD	NumType=Card	50	nummod	_	SpaceAfter=No
+53	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	50	punct	_	_
+54	antibody	antibody	NOUN	NN	Number=Sing	44	pobj	_	_
+55	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	62	punct	_	SpaceAfter=No
+56	1	0	NUM	CD	NumType=Card	62	dep	_	SpaceAfter=No
+57	:	:	SYM	SYM	_	58	punct	_	SpaceAfter=No
+58	250	0	NUM	CD	NumType=Card	56	prep	_	SpaceAfter=No
+59	,	,	PUNCT	,	PunctType=Comm	62	punct	_	_
+60	Santa	santa	PROPN	NNP	Number=Sing	61	compound	_	_
+61	Cruz	cruz	PROPN	NNP	Number=Sing	62	compound	_	_
+62	Biotechnology	biotechnology	PROPN	NNP	Number=Sing	54	parataxis	_	SpaceAfter=No
+63	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	62	punct	_	SpaceAfter=No
+64	.	.	PUNCT	.	PunctType=Peri	17	punct	_	_
+
+# sent_id = 2798
+# text = Amounts of protein were determined by Bradford protein assay to ensure equal protein loading for the analysis.
+1	Amounts	amount	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+2	of	of	ADP	IN	_	1	prep	_	_
+3	protein	protein	NOUN	NN	Number=Sing	2	pobj	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	determined	determine	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	by	by	ADP	IN	_	5	prep	_	_
+7	Bradford	bradford	PROPN	NNP	Number=Sing	9	compound	_	_
+8	protein	protein	NOUN	NN	Number=Sing	9	compound	_	_
+9	assay	assay	NOUN	NN	Number=Sing	6	pobj	_	_
+10	to	to	PART	TO	PartType=Inf|VerbForm=Inf	11	aux	_	_
+11	ensure	ensure	VERB	VB	VerbForm=Inf	5	advcl	_	_
+12	equal	equal	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	protein	protein	NOUN	NN	Number=Sing	11	dobj	_	_
+14	loading	load	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	13	amod	_	_
+15	for	for	ADP	IN	_	13	prep	_	_
+16	the	the	DET	DT	_	17	det	_	_
+17	analysis	analysis	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2799
+# text = Blots were developed using the appropriate horseradish peroxidase coupled secondary antibody and the ECL system (Amersham Pharmacia Biotech).
+1	Blots	blot	NOUN	NNS	Number=Plur	3	nsubjpass	_	_
+2	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	3	auxpass	_	_
+3	developed	develop	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+4	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	advcl	_	_
+5	the	the	DET	DT	_	11	det	_	_
+6	appropriate	appropriate	ADJ	JJ	Degree=Pos	11	amod	_	_
+7	horseradish	horseradish	NOUN	NN	Number=Sing	8	compound	_	_
+8	peroxidase	peroxidase	NOUN	NN	Number=Sing	9	npadvmod	_	_
+9	coupled	couple	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	amod	_	_
+10	secondary	secondary	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	antibody	antibody	NOUN	NN	Number=Sing	4	dobj	_	_
+12	and	and	CCONJ	CC	_	11	cc	_	_
+13	the	the	DET	DT	_	15	det	_	_
+14	ECL	ecl	NOUN	NN	Number=Sing	15	compound	_	_
+15	system	system	NOUN	NN	Number=Sing	11	conj	_	_
+16	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	19	punct	_	SpaceAfter=No
+17	Amersham	amersham	PROPN	NNP	Number=Sing	19	compound	_	_
+18	Pharmacia	pharmacia	PROPN	NNP	Number=Sing	19	compound	_	_
+19	Biotech	biotech	PROPN	NNP	Number=Sing	15	parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2800
+# text = Subsequently, the membrane was stripped and reprobed with rabbit antibody to glyceraldehyde 3 phosphate dehydrogense (1:2000, ab9485, Abcam Ltd.).
+1	Subsequently	subsequently	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	membrane	membrane	NOUN	NN	Number=Sing	6	nsubjpass	_	_
+5	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	6	auxpass	_	_
+6	stripped	strip	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	and	and	CCONJ	CC	_	6	cc	_	_
+8	reprobed	reprobed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	conj	_	_
+9	with	with	ADP	IN	_	8	prep	_	_
+10	rabbit	rabbit	NOUN	NN	Number=Sing	11	compound	_	_
+11	antibody	antibody	NOUN	NN	Number=Sing	9	pobj	_	_
+12	to	to	ADP	IN	_	8	prep	_	_
+13	glyceraldehyde	glyceraldehyde	NOUN	NN	Number=Sing	16	nmod	_	_
+14	3	0	NUM	CD	NumType=Card	13	nummod	_	_
+15	phosphate	phosphate	NOUN	NN	Number=Sing	16	compound	_	_
+16	dehydrogense	dehydrogense	NOUN	NN	Number=Sing	12	pobj	_	_
+17	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	25	punct	_	SpaceAfter=No
+18	1	0	NUM	CD	NumType=Card	25	dep	_	SpaceAfter=No
+19	:	:	SYM	SYM	_	20	punct	_	SpaceAfter=No
+20	2000	0	NUM	CD	NumType=Card	18	prep	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=Comm	25	punct	_	_
+22	ab9485	ab0	NOUN	NN	Number=Sing	25	dep	_	SpaceAfter=No
+23	,	,	PUNCT	,	PunctType=Comm	25	punct	_	_
+24	Abcam	abcam	PROPN	NNP	Number=Sing	25	compound	_	_
+25	Ltd.	ltd.	PROPN	NNP	Number=Sing	12	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# newpar id = 15560850-p17
+# sent_id = 2801
+# text = Histopathology and immunohistochemistry
+1	Histopathology	histopathology	NOUN	NN	Number=Sing	0	root	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	immunohistochemistry	immunohistochemistry	NOUN	NN	Number=Sing	1	conj	_	_
+
+# newpar id = 15560850-p18
+# sent_id = 2802
+# text = Animals were sacrificed and lungs were fixed under 25 cm water pressure with 4% paraformaldehyde and embedded in paraffin.
+1	Animals	animal	NOUN	NNS	Number=Plur	3	nsubjpass	_	_
+2	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	3	auxpass	_	_
+3	sacrificed	sacrifice	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+4	and	and	CCONJ	CC	_	3	cc	_	_
+5	lungs	lung	NOUN	NNS	Number=Plur	7	nsubjpass	_	_
+6	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	7	auxpass	_	_
+7	fixed	fix	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	conj	_	_
+8	under	under	ADP	IN	_	7	prep	_	_
+9	25	0	NUM	CD	NumType=Card	10	nummod	_	_
+10	cm	cm	NOUN	NN	Number=Sing	12	compound	_	_
+11	water	water	NOUN	NN	Number=Sing	12	compound	_	_
+12	pressure	pressure	NOUN	NN	Number=Sing	8	pobj	_	_
+13	with	with	ADP	IN	_	7	prep	_	_
+14	4	0	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+15	%	%	NOUN	NN	Number=Sing	16	compound	_	_
+16	paraformaldehyde	paraformaldehyde	NOUN	NN	Number=Sing	13	pobj	_	_
+17	and	and	CCONJ	CC	_	7	cc	_	_
+18	embedded	embed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	conj	_	_
+19	in	in	ADP	IN	_	18	prep	_	_
+20	paraffin	paraffin	NOUN	NN	Number=Sing	19	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 2803
+# text = 5 μm sections were stained with hematoxylin and eosin and analysed.
+1	5	0	NUM	CD	NumType=Card	2	nummod	_	_
+2	μm	μm	NOUN	NN	Number=Sing	3	compound	_	_
+3	sections	section	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	stained	stain	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	with	with	ADP	IN	_	5	prep	_	_
+7	hematoxylin	hematoxylin	NOUN	NN	Number=Sing	6	pobj	_	_
+8	and	and	CCONJ	CC	_	7	cc	_	_
+9	eosin	eosin	NOUN	NN	Number=Sing	7	conj	_	_
+10	and	and	CCONJ	CC	_	5	cc	_	_
+11	analysed	analyse	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2804
+# text = Pictures were taken using a Leica DMLA microscope and a Hitachi HV-C20A colour camera.
+1	Pictures	picture	NOUN	NNS	Number=Plur	3	nsubjpass	_	_
+2	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	3	auxpass	_	_
+3	taken	take	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+4	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	advcl	_	_
+5	a	a	DET	DT	_	8	det	_	_
+6	Leica	leica	PROPN	NNP	Number=Sing	7	compound	_	_
+7	DMLA	dmla	NOUN	NN	Number=Sing	8	compound	_	_
+8	microscope	microscope	NOUN	NN	Number=Sing	4	dobj	_	_
+9	and	and	CCONJ	CC	_	8	cc	_	_
+10	a	a	DET	DT	_	16	det	_	_
+11	Hitachi	hitachi	PROPN	NNP	Number=Sing	14	compound	_	_
+12	HV	hv	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+14	C20A	c0a	NOUN	NN	Number=Sing	16	compound	_	_
+15	colour	colour	NOUN	NN	Number=Sing	16	compound	_	_
+16	camera	camera	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2805
+# text = Immunohistochemical staining to detect activated caspase-3, phospho-ERK (extracellular signal-regulated kinase), PCNA (proliferating cell nuclear antigen) have been described elsewhere [13].
+1	Immunohistochemical	immunohistochemical	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	staining	staining	NOUN	NN	Number=Sing	30	nsubjpass	_	_
+3	to	to	PART	TO	PartType=Inf|VerbForm=Inf	4	aux	_	_
+4	detect	detect	VERB	VB	VerbForm=Inf	2	advcl	_	_
+5	activated	activate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	amod	_	_
+6	caspase	caspase	NOUN	NN	Number=Sing	4	dobj	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+8	3	0	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+10	phospho	phospho	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	ERK	erk	NOUN	NN	Number=Sing	6	appos	_	_
+13	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	12	punct	_	SpaceAfter=No
+14	extracellular	extracellular	ADJ	JJ	Degree=Pos	18	amod	_	_
+15	signal	signal	NOUN	NN	Number=Sing	17	npadvmod	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+17	regulated	regulate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	18	amod	_	_
+18	kinase	kinase	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	6	punct	_	SpaceAfter=No
+20	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+21	PCNA	pcna	NOUN	NN	Number=Sing	6	appos	_	_
+22	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	21	punct	_	SpaceAfter=No
+23	proliferating	proliferate	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	26	amod	_	_
+24	cell	cell	NOUN	NN	Number=Sing	25	npadvmod	_	_
+25	nuclear	nuclear	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	antigen	antigen	NOUN	NN	Number=Sing	21	appos	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	4	punct	_	_
+28	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	been	be	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	30	auxpass	_	_
+30	described	describe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+31	elsewhere	elsewhere	ADV	RB	Degree=Pos	30	advmod	_	_
+32	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+33	13	0	NUM	CD	NumType=Card	30	parataxis	_	SpaceAfter=No
+34	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	.	PunctType=Peri	30	punct	_	_
+
+# sent_id = 2806
+# text = Apoptotic, PCNA and p-ERK indices were determined by evaluating randomly chosen adenomas or fields of normal lung in 3–4 sections and determining the percentage of positive cells per 2000 cells at ×400.
+1	Apoptotic	apoptotic	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	1	punct	_	_
+3	PCNA	pcna	NOUN	NN	Number=Sing	1	conj	_	_
+4	and	and	CCONJ	CC	_	3	cc	_	_
+5	p	p	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+7	ERK	erk	NOUN	NN	Number=Sing	3	conj	_	_
+8	indices	index	NOUN	NNS	Number=Plur	10	nsubjpass	_	_
+9	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	10	auxpass	_	_
+10	determined	determine	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+11	by	by	ADP	IN	_	10	prep	_	_
+12	evaluating	evaluate	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	11	pcomp	_	_
+13	randomly	randomly	ADV	RB	Degree=Pos	14	advmod	_	_
+14	chosen	choose	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	15	amod	_	_
+15	adenomas	adenoma	NOUN	NNS	Number=Plur	12	dobj	_	_
+16	or	or	CCONJ	CC	_	15	cc	_	_
+17	fields	field	NOUN	NNS	Number=Plur	15	conj	_	_
+18	of	of	ADP	IN	_	17	prep	_	_
+19	normal	normal	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	lung	lung	NOUN	NN	Number=Sing	18	pobj	_	_
+21	in	in	ADP	IN	_	12	prep	_	_
+22	3	0	NUM	CD	NumType=Card	24	compound	_	SpaceAfter=No
+23	–	-	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+24	4	0	NUM	CD	NumType=Card	25	nummod	_	_
+25	sections	section	NOUN	NNS	Number=Plur	21	pobj	_	_
+26	and	and	CCONJ	CC	_	12	cc	_	_
+27	determining	determine	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	12	conj	_	_
+28	the	the	DET	DT	_	29	det	_	_
+29	percentage	percentage	NOUN	NN	Number=Sing	27	dobj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	positive	positive	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	cells	cell	NOUN	NNS	Number=Plur	30	pobj	_	_
+33	per	per	ADP	IN	_	29	prep	_	_
+34	2000	0	NUM	CD	NumType=Card	35	nummod	_	_
+35	cells	cell	NOUN	NNS	Number=Plur	33	pobj	_	_
+36	at	at	ADP	IN	_	35	prep	_	_
+37	×	×	SYM	SYM	_	38	punct	_	SpaceAfter=No
+38	400	0	NUM	CD	NumType=Card	36	pobj	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# newpar id = 15560850-p19
+# sent_id = 2807
+# text = Results and discussion
+1	Results	result	NOUN	NNS	Number=Plur	0	root	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	discussion	discussion	NOUN	NN	Number=Sing	1	conj	_	_
+
+# newpar id = 15560850-p20
+# sent_id = 2808
+# text = BAG-1 heterozygosity impairs C-Raf driven tumorigenesis
+1	BAG	bag	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	1	punct	_	SpaceAfter=No
+3	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+4	heterozygosity	heterozygosity	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	impairs	impair	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	C	c	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+8	Raf	raf	NOUN	NN	Number=Sing	9	npadvmod	_	_
+9	driven	drive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	amod	_	_
+10	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	5	dobj	_	_
+
+# newpar id = 15560850-p21
+# sent_id = 2809
+# text = In order to assess the functional role of BAG-1 on tumorigenesis, we have generated a null allele of BAG-1.
+1	In	in	ADP	IN	_	17	prep	_	_
+2	order	order	NOUN	NN	Number=Sing	1	pobj	_	_
+3	to	to	PART	TO	PartType=Inf|VerbForm=Inf	4	aux	_	_
+4	assess	assess	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	functional	functional	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	role	role	NOUN	NN	Number=Sing	4	dobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	BAG	bag	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+11	1	0	NUM	CD	NumType=Card	9	nummod	_	_
+12	on	on	ADP	IN	_	7	prep	_	_
+13	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	12	pobj	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=Comm	17	punct	_	_
+15	we	we	PRON	PRP	PronType=Prs	17	nsubj	_	_
+16	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+18	a	a	DET	DT	_	20	det	_	_
+19	null	null	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	allele	allele	NOUN	NN	Number=Sing	17	dobj	_	_
+21	of	of	ADP	IN	_	20	prep	_	_
+22	BAG	bag	NOUN	NN	Number=Sing	21	pobj	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	PunctType=Dash	22	punct	_	SpaceAfter=No
+24	1	0	NUM	CD	NumType=Card	22	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	17	punct	_	_
+
+# sent_id = 2810
+# text = To inactivate the BAG-1 gene, exons 1 and 2 were replaced with a neomycin resistance gene.
+1	To	to	PART	TO	PartType=Inf|VerbForm=Inf	2	aux	_	_
+2	inactivate	inactivate	VERB	VB	VerbForm=Inf	14	advcl	_	_
+3	the	the	DET	DT	_	7	det	_	_
+4	BAG	bag	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	gene	gene	NOUN	NN	Number=Sing	2	dobj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=Comm	14	punct	_	_
+9	exons	exon	NOUN	NNS	Number=Plur	10	nmod	_	_
+10	1	0	NUM	CD	NumType=Card	14	nsubjpass	_	_
+11	and	and	CCONJ	CC	_	10	cc	_	_
+12	2	0	NUM	CD	NumType=Card	10	conj	_	_
+13	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	14	auxpass	_	_
+14	replaced	replace	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+15	with	with	ADP	IN	_	14	prep	_	_
+16	a	a	DET	DT	_	19	det	_	_
+17	neomycin	neomycin	NOUN	NN	Number=Sing	18	compound	_	_
+18	resistance	resistance	NOUN	NN	Number=Sing	19	compound	_	_
+19	gene	gene	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	14	punct	_	_
+
+# sent_id = 2811
+# text = This strategy was chosen to disrupt the expression of all known isoforms of BAG-1 which are generated by alternate translation initiation of a single mRNA; the start codons are present in exons 1 and 2.
+1	This	this	DET	DT	_	2	det	_	_
+2	strategy	strategy	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	chosen	choose	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	32	ccomp	_	_
+5	to	to	PART	TO	PartType=Inf|VerbForm=Inf	6	aux	_	_
+6	disrupt	disrupt	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	expression	expression	NOUN	NN	Number=Sing	6	dobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	all	all	DET	DT	_	12	det	_	_
+11	known	know	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	12	amod	_	_
+12	isoforms	isoforms	NOUN	NNS	Number=Plur	9	pobj	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	BAG	bag	NOUN	NN	Number=Sing	13	pobj	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+16	1	0	NUM	CD	NumType=Card	14	nummod	_	_
+17	which	which	DET	WDT	PronType=Int,Rel	19	dep	_	12:ref=
+18	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	19	auxpass	_	_
+19	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	12	relcl	_	_
+20	by	by	ADP	IN	_	19	prep	_	_
+21	alternate	alternate	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	translation	translation	NOUN	NN	Number=Sing	23	compound	_	_
+23	initiation	initiation	NOUN	NN	Number=Sing	20	pobj	_	_
+24	of	of	ADP	IN	_	23	prep	_	_
+25	a	a	DET	DT	_	27	det	_	_
+26	single	single	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	mRNA	mrna	NOUN	NN	Number=Sing	24	pobj	_	SpaceAfter=No
+28	;	;	PUNCT	,	PunctType=Comm	32	punct	_	_
+29	the	the	DET	DT	_	31	det	_	_
+30	start	start	NOUN	NN	Number=Sing	31	compound	_	_
+31	codons	codon	NOUN	NNS	Number=Plur	32	nsubj	_	_
+32	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+33	present	present	ADJ	JJ	Degree=Pos	32	acomp	_	_
+34	in	in	ADP	IN	_	32	prep	_	_
+35	exons	exon	NOUN	NNS	Number=Plur	36	nmod	_	_
+36	1	0	NUM	CD	NumType=Card	34	pobj	_	_
+37	and	and	CCONJ	CC	_	36	cc	_	_
+38	2	0	NUM	CD	NumType=Card	36	conj	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	32	punct	_	_
+
+# sent_id = 2812
+# text = Western blot analysis of liver protein extracts of BAG-1 deficient embryos showed the complete loss of all BAG-1 protein isoforms.
+1	Western	western	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	blot	blot	NOUN	NN	Number=Sing	3	compound	_	_
+3	analysis	analysis	NOUN	NN	Number=Sing	14	nsubj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	liver	liver	NOUN	NN	Number=Sing	6	compound	_	_
+6	protein	protein	NOUN	NN	Number=Sing	7	compound	_	_
+7	extracts	extract	NOUN	NNS	Number=Plur	4	pobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	BAG	bag	NOUN	NN	Number=Sing	12	npadvmod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+11	1	0	NUM	CD	NumType=Card	9	nummod	_	_
+12	deficient	deficient	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	embryos	embryo	NOUN	NNS	Number=Plur	8	pobj	_	_
+14	showed	show	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+15	the	the	DET	DT	_	17	det	_	_
+16	complete	complete	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	loss	loss	NOUN	NN	Number=Sing	14	dobj	_	_
+18	of	of	ADP	IN	_	17	prep	_	_
+19	all	all	DET	DT	_	24	det	_	_
+20	BAG	bag	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+22	1	0	NUM	CD	NumType=Card	20	nummod	_	_
+23	protein	protein	NOUN	NN	Number=Sing	24	compound	_	_
+24	isoforms	isoforms	NOUN	NNS	Number=Plur	18	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	14	punct	_	_
+
+# sent_id = 2813
+# text = Embryos homozygous for this allele died at midgestation at around E13,5, but the heterozygous animals (BAG-1+/-) are normal.
+1	Embryos	embryo	NOUN	NNS	Number=Plur	6	nsubj	_	_
+2	homozygous	homozygous	ADJ	JJ	Degree=Pos	1	amod	_	_
+3	for	for	ADP	IN	_	2	prep	_	_
+4	this	this	DET	DT	_	5	det	_	_
+5	allele	allele	NOUN	NN	Number=Sing	3	pobj	_	_
+6	died	die	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+7	at	at	ADP	IN	_	6	prep	_	_
+8	midgestation	midgestation	NOUN	NN	Number=Sing	7	pobj	_	_
+9	at	at	ADP	IN	_	6	prep	_	_
+10	around	around	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	E13,5	e0	NOUN	NN	Number=Sing	9	pobj	_	SpaceAfter=No
+12	,	,	PUNCT	,	PunctType=Comm	6	punct	_	_
+13	but	but	CCONJ	CC	_	6	cc	_	_
+14	the	the	DET	DT	_	16	det	_	_
+15	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	animals	animal	NOUN	NNS	Number=Plur	25	nsubj	_	_
+17	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	18	punct	_	SpaceAfter=No
+18	BAG	bag	NOUN	NN	Number=Sing	16	parataxis	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+20	1	0	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+21	+	+	SYM	SYM	_	18	punct	_	SpaceAfter=No
+22	/	/	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+23	-	-	SYM	SYM	_	18	punct	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	18	punct	_	_
+25	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	6	conj	_	_
+26	normal	normal	ADJ	JJ	Degree=Pos	25	acomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	25	punct	_	_
+
+# sent_id = 2814
+# text = A comprehensive description of the BAG-1-/- phenotype is subject of another manuscript.
+1	A	a	DET	DT	_	3	det	_	_
+2	comprehensive	comprehensive	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	description	description	NOUN	NN	Number=Sing	13	nsubj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	12	det	_	_
+6	BAG	bag	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+8	1	0	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+9	-	-	SYM	SYM	_	6	punct	_	SpaceAfter=No
+10	/	/	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+11	-	-	SYM	SYM	_	6	punct	_	_
+12	phenotype	phenotype	NOUN	NN	Number=Sing	4	pobj	_	_
+13	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	subject	subject	NOUN	NN	Number=Sing	13	attr	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	another	another	DET	DT	_	17	det	_	_
+17	manuscript	manuscript	NOUN	NN	Number=Sing	15	pobj	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	13	punct	_	_
+
+# newpar id = 15560850-p22
+# sent_id = 2815
+# text = Previously, we had generated a lung cancer mouse model by targeting constitutively active C-Raf kinase (SP-C C-Raf BxB) to the lung [14].
+1	Previously	previously	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+3	we	we	PRON	PRP	PronType=Prs	5	nsubj	_	_
+4	had	have	VERB	VBD	Tense=Past|VerbForm=Fin	5	aux	_	_
+5	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	DET	DT	_	10	det	_	_
+7	lung	lung	NOUN	NN	Number=Sing	8	compound	_	_
+8	cancer	cancer	NOUN	NN	Number=Sing	10	compound	_	_
+9	mouse	mouse	NOUN	NN	Number=Sing	10	compound	_	_
+10	model	model	NOUN	NN	Number=Sing	5	dobj	_	_
+11	by	by	ADP	IN	_	5	prep	_	_
+12	targeting	target	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	11	pcomp	_	_
+13	constitutively	constitutively	ADV	RB	Degree=Pos	14	advmod	_	_
+14	active	active	ADJ	JJ	Degree=Pos	18	amod	_	_
+15	C	c	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+17	Raf	raf	NOUN	NN	Number=Sing	18	compound	_	_
+18	kinase	kinase	NOUN	NN	Number=Sing	12	dobj	_	_
+19	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	26	punct	_	SpaceAfter=No
+20	SP	sp	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	22	punct	_	SpaceAfter=No
+22	C	c	NOUN	NN	Number=Sing	26	compound	_	_
+23	C	c	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	Raf	raf	NOUN	NN	Number=Sing	26	compound	_	_
+26	BxB	bxb	NOUN	NN	Number=Sing	18	parataxis	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	26	punct	_	_
+28	to	to	ADP	IN	_	12	prep	_	_
+29	the	the	DET	DT	_	30	det	_	_
+30	lung	lung	NOUN	NN	Number=Sing	28	pobj	_	_
+31	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	32	punct	_	SpaceAfter=No
+32	14	0	NUM	CD	NumType=Card	5	parataxis	_	SpaceAfter=No
+33	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2816
+# text = These mice develop multifocal adenomas early in adulthood.
+1	These	these	DET	DT	_	2	det	_	_
+2	mice	mouse	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	develop	develop	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	multifocal	multifocal	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	adenomas	adenoma	NOUN	NNS	Number=Plur	3	dobj	_	_
+6	early	early	ADV	RB	Degree=Pos	3	advmod	_	_
+7	in	in	ADP	IN	_	6	prep	_	_
+8	adulthood	adulthood	NOUN	NN	Number=Sing	7	pobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2817
+# text = Based on the observation, that BAG-1 can activate C-Raf [2], we asked whether heterozygosity for BAG-1 would affect C-Raf BxB driven adenoma growth.
+1	Based	base	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	20	prep	_	_
+2	on	on	ADP	IN	_	1	prep	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	observation	observation	NOUN	NN	Number=Sing	2	pobj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+6	that	that	ADP	IN	_	11	mark	_	_
+7	BAG	bag	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+9	1	0	NUM	CD	NumType=Card	7	nummod	_	_
+10	can	can	VERB	MD	VerbType=Mod	11	aux	_	_
+11	activate	activate	VERB	VB	VerbForm=Inf	4	acl	_	_
+12	C	c	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+14	Raf	raf	NOUN	NN	Number=Sing	11	dobj	_	_
+15	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	16	punct	_	SpaceAfter=No
+16	2	0	NUM	CD	NumType=Card	11	parataxis	_	SpaceAfter=No
+17	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	,	PunctType=Comm	20	punct	_	_
+19	we	we	PRON	PRP	PronType=Prs	20	nsubj	_	_
+20	asked	ask	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+21	whether	whether	ADP	IN	_	28	mark	_	_
+22	heterozygosity	heterozygosity	NOUN	NN	Number=Sing	28	nsubj	_	_
+23	for	for	ADP	IN	_	22	prep	_	_
+24	BAG	bag	NOUN	NN	Number=Sing	23	pobj	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+26	1	0	NUM	CD	NumType=Card	24	nummod	_	_
+27	would	would	VERB	MD	VerbType=Mod	28	aux	_	_
+28	affect	affect	VERB	VB	VerbForm=Inf	20	ccomp	_	_
+29	C	c	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	PunctType=Dash	31	punct	_	SpaceAfter=No
+31	Raf	raf	NOUN	NN	Number=Sing	32	compound	_	_
+32	BxB	bxb	NOUN	NN	Number=Sing	33	npadvmod	_	_
+33	driven	drive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	35	amod	_	_
+34	adenoma	adenoma	NOUN	NN	Number=Sing	35	compound	_	_
+35	growth	growth	NOUN	NN	Number=Sing	28	dobj	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=Peri	20	punct	_	_
+
+# sent_id = 2818
+# text = We observed that lung tumour initiation was reduced by half in 1, 2 and 4 months old BAG-1+/- mice transgenic for SP-C C-Raf BxB compared to their BAG-1+/+ littermates.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	observed	observe	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	ADP	IN	_	8	mark	_	_
+4	lung	lung	NOUN	NN	Number=Sing	5	compound	_	_
+5	tumour	tumour	NOUN	NN	Number=Sing	6	compound	_	_
+6	initiation	initiation	NOUN	NN	Number=Sing	8	nsubjpass	_	_
+7	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	8	auxpass	_	_
+8	reduced	reduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	ccomp	_	_
+9	by	by	ADP	IN	_	8	prep	_	_
+10	half	half	NOUN	NN	Number=Sing	9	pobj	_	_
+11	in	in	ADP	IN	_	8	prep	_	_
+12	1	0	NUM	CD	NumType=Card	17	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	12	punct	_	_
+14	2	0	NUM	CD	NumType=Card	12	conj	_	_
+15	and	and	CCONJ	CC	_	14	cc	_	_
+16	4	0	NUM	CD	NumType=Card	14	conj	_	_
+17	months	month	NOUN	NNS	Number=Plur	18	npadvmod	_	_
+18	old	old	ADJ	JJ	Degree=Pos	25	amod	_	_
+19	BAG	bag	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+21	1	0	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+22	+	+	SYM	SYM	_	19	punct	_	SpaceAfter=No
+23	/	/	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+24	-	-	SYM	SYM	_	19	punct	_	_
+25	mice	mouse	NOUN	NNS	Number=Plur	11	pobj	_	_
+26	transgenic	transgenic	ADJ	JJ	Degree=Pos	25	amod	_	_
+27	for	for	ADP	IN	_	26	prep	_	_
+28	SP	sp	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	PunctType=Dash	30	punct	_	SpaceAfter=No
+30	C	c	NOUN	NN	Number=Sing	34	compound	_	_
+31	C	c	NOUN	NN	Number=Sing	33	compound	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	PunctType=Dash	33	punct	_	SpaceAfter=No
+33	Raf	raf	NOUN	NN	Number=Sing	34	compound	_	_
+34	BxB	bxb	NOUN	NN	Number=Sing	27	pobj	_	_
+35	compared	compare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	prep	_	_
+36	to	to	ADP	IN	_	35	prep	_	_
+37	their	their	DET	PRP$	Poss=Yes|PronType=Prs	44	poss	_	_
+38	BAG	bag	NOUN	NN	Number=Sing	44	nmod	_	SpaceAfter=No
+39	-	-	PUNCT	HYPH	PunctType=Dash	38	punct	_	SpaceAfter=No
+40	1	0	NUM	CD	NumType=Card	38	nummod	_	SpaceAfter=No
+41	+	+	SYM	SYM	_	38	punct	_	SpaceAfter=No
+42	/	/	PUNCT	HYPH	PunctType=Dash	38	punct	_	SpaceAfter=No
+43	+	+	SYM	SYM	_	38	punct	_	_
+44	littermates	littermate	NOUN	NNS	Number=Plur	36	pobj	_	SpaceAfter=No
+45	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2819
+# text = Tumour area was reduced by 75% in 4 month lungs of BAG-1 haploinsufficient mice compared to mice with two BAG-1 copies, see Figure 1.
+1	Tumour	tumour	NOUN	NN	Number=Sing	2	compound	_	_
+2	area	area	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	reduced	reduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	ADP	IN	_	4	prep	_	_
+6	75	0	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	NOUN	NN	Number=Sing	5	pobj	_	_
+8	in	in	ADP	IN	_	4	prep	_	_
+9	4	0	NUM	CD	NumType=Card	10	nummod	_	_
+10	month	month	NOUN	NN	Number=Sing	11	compound	_	_
+11	lungs	lung	NOUN	NNS	Number=Plur	8	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	BAG	bag	NOUN	NN	Number=Sing	16	npadvmod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+15	1	0	NUM	CD	NumType=Card	13	nummod	_	_
+16	haploinsufficient	haploinsufficient	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	mice	mouse	NOUN	NNS	Number=Plur	12	pobj	_	_
+18	compared	compare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	prep	_	_
+19	to	to	ADP	IN	_	18	prep	_	_
+20	mice	mouse	NOUN	NNS	Number=Plur	19	pobj	_	_
+21	with	with	ADP	IN	_	20	prep	_	_
+22	two	#crd#	NUM	CD	NumType=Card	26	nummod	_	_
+23	BAG	bag	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	23	punct	_	SpaceAfter=No
+25	1	0	NUM	CD	NumType=Card	23	nummod	_	_
+26	copies	copy	NOUN	NNS	Number=Plur	21	pobj	_	SpaceAfter=No
+27	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+28	see	see	VERB	VBP	Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+29	Figure	figure	NOUN	NN	Number=Sing	28	dobj	_	_
+30	1	0	NUM	CD	NumType=Card	29	nummod	_	SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2820
+# text = The histological picture emphasises the difference in adenoma formation between a representative SP-C C-Raf BxB/BAG-1+/+ and SP-C C-Raf BxB/BAG-1+/- lung.
+1	The	the	DET	DT	_	3	det	_	_
+2	histological	histological	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	picture	picture	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	emphasises	emphasise	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	difference	difference	NOUN	NN	Number=Sing	4	dobj	_	_
+7	in	in	ADP	IN	_	6	prep	_	_
+8	adenoma	adenoma	NOUN	NN	Number=Sing	9	compound	_	_
+9	formation	formation	NOUN	NN	Number=Sing	7	pobj	_	_
+10	between	between	ADP	IN	_	6	prep	_	_
+11	a	a	DET	DT	_	42	det	_	_
+12	representative	representative	ADJ	JJ	Degree=Pos	42	amod	_	_
+13	SP	sp	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+15	C	c	NOUN	NN	Number=Sing	19	nmod	_	_
+16	C	c	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	Raf	raf	NOUN	NN	Number=Sing	19	nmod	_	_
+19	BxB	bxb	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No
+20	/	/	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+21	BAG	bag	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	PunctType=Dash	21	punct	_	SpaceAfter=No
+23	1	0	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+24	+	+	SYM	SYM	_	21	punct	_	SpaceAfter=No
+25	/	/	PUNCT	HYPH	PunctType=Dash	21	punct	_	SpaceAfter=No
+26	+	+	SYM	SYM	_	21	punct	_	_
+27	and	and	CCONJ	CC	_	19	cc	_	_
+28	SP	sp	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	PunctType=Dash	30	punct	_	SpaceAfter=No
+30	C	c	NOUN	NN	Number=Sing	34	compound	_	_
+31	C	c	NOUN	NN	Number=Sing	33	compound	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	PunctType=Dash	33	punct	_	SpaceAfter=No
+33	Raf	raf	NOUN	NN	Number=Sing	34	compound	_	_
+34	BxB	bxb	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+35	/	/	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+36	BAG	bag	NOUN	NN	Number=Sing	34	appos	_	SpaceAfter=No
+37	-	-	PUNCT	HYPH	PunctType=Dash	36	punct	_	SpaceAfter=No
+38	1	0	NUM	CD	NumType=Card	36	nummod	_	SpaceAfter=No
+39	+	+	SYM	SYM	_	36	punct	_	SpaceAfter=No
+40	/	/	PUNCT	HYPH	PunctType=Dash	36	punct	_	SpaceAfter=No
+41	-	-	SYM	SYM	_	36	punct	_	_
+42	lung	lung	NOUN	NN	Number=Sing	10	pobj	_	SpaceAfter=No
+43	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2821
+# text = The difference in the staining intensity of the two lung sections derives mainly from the observation that the adenoma cells have a tendency to bind more intensively hematoxylin and eosin compared to normal lung cells.
+1	The	the	DET	DT	_	2	det	_	_
+2	difference	difference	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	in	in	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	6	det	_	_
+5	staining	staining	NOUN	NN	Number=Sing	6	compound	_	_
+6	intensity	intensity	NOUN	NN	Number=Sing	3	pobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	the	the	DET	DT	_	11	det	_	_
+9	two	#crd#	NUM	CD	NumType=Card	11	nummod	_	_
+10	lung	lung	NOUN	NN	Number=Sing	11	compound	_	_
+11	sections	section	NOUN	NNS	Number=Plur	7	pobj	_	_
+12	derives	derive	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	mainly	mainly	ADV	RB	Degree=Pos	12	advmod	_	_
+14	from	from	ADP	IN	_	12	prep	_	_
+15	the	the	DET	DT	_	16	det	_	_
+16	observation	observation	NOUN	NN	Number=Sing	14	pobj	_	_
+17	that	that	ADP	IN	_	21	mark	_	_
+18	the	the	DET	DT	_	20	det	_	_
+19	adenoma	adenoma	NOUN	NN	Number=Sing	20	compound	_	_
+20	cells	cell	NOUN	NNS	Number=Plur	21	nsubj	_	_
+21	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	16	acl	_	_
+22	a	a	DET	DT	_	23	det	_	_
+23	tendency	tendency	NOUN	NN	Number=Sing	21	dobj	_	_
+24	to	to	PART	TO	PartType=Inf|VerbForm=Inf	25	aux	_	_
+25	bind	bind	VERB	VB	VerbForm=Inf	23	acl	_	_
+26	more	more	ADV	RBR	Degree=Cmp	27	advmod	_	_
+27	intensively	intensively	ADV	RB	Degree=Pos	25	advmod	_	_
+28	hematoxylin	hematoxylin	NOUN	NN	Number=Sing	25	dobj	_	_
+29	and	and	CCONJ	CC	_	28	cc	_	_
+30	eosin	eosin	NOUN	NN	Number=Sing	28	conj	_	_
+31	compared	compare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	25	prep	_	_
+32	to	to	ADP	IN	_	31	prep	_	_
+33	normal	normal	ADJ	JJ	Degree=Pos	35	amod	_	_
+34	lung	lung	NOUN	NN	Number=Sing	35	compound	_	_
+35	cells	cell	NOUN	NNS	Number=Plur	32	pobj	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=Peri	12	punct	_	_
+
+# sent_id = 2822
+# text = Thus, reduction of the BAG-1 gene dosage impairs the oncogenic activity of C-Raf in vivo.
+1	Thus	thus	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	11	punct	_	_
+3	reduction	reduction	NOUN	NN	Number=Sing	11	nsubj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	10	det	_	_
+6	BAG	bag	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+8	1	0	NUM	CD	NumType=Card	6	nummod	_	_
+9	gene	gene	NOUN	NN	Number=Sing	10	compound	_	_
+10	dosage	dosage	NOUN	NN	Number=Sing	4	pobj	_	_
+11	impairs	impair	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	_	14	det	_	_
+13	oncogenic	oncogenic	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	activity	activity	NOUN	NN	Number=Sing	11	dobj	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	C	c	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	Raf	raf	NOUN	NN	Number=Sing	15	pobj	_	_
+19	in	in	X	FW	Foreign=Yes	20	advmod	_	_
+20	vivo	vivo	X	FW	Foreign=Yes	11	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	11	punct	_	_
+
+# newpar id = 15560850-p23
+# sent_id = 2823
+# text = Reduced BAG-1 expression in BAG-1 heterozygous lungs
+1	Reduced	reduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	amod	_	_
+2	BAG	bag	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	PunctType=Dash	2	punct	_	SpaceAfter=No
+4	1	0	NUM	CD	NumType=Card	2	nummod	_	_
+5	expression	expression	NOUN	NN	Number=Sing	0	root	_	_
+6	in	in	ADP	IN	_	5	prep	_	_
+7	BAG	bag	NOUN	NN	Number=Sing	10	npadvmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+9	1	0	NUM	CD	NumType=Card	7	nummod	_	_
+10	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	lungs	lung	NOUN	NNS	Number=Plur	6	pobj	_	_
+
+# newpar id = 15560850-p24
+# sent_id = 2824
+# text = Quantitative immunoblots demonstrated that the specific BAG-1 protein concentration in the lungs of BAG-1+/- mice was half the amount of BAG-1+/+ littermates, see Figure 2a.
+1	Quantitative	quantitative	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	immunoblots	immunoblots	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	demonstrated	demonstrate	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	ADP	IN	_	23	mark	_	_
+5	the	the	DET	DT	_	11	det	_	_
+6	specific	specific	ADJ	JJ	Degree=Pos	11	amod	_	_
+7	BAG	bag	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+9	1	0	NUM	CD	NumType=Card	7	nummod	_	_
+10	protein	protein	NOUN	NN	Number=Sing	11	compound	_	_
+11	concentration	concentration	NOUN	NN	Number=Sing	23	nsubj	_	_
+12	in	in	ADP	IN	_	11	prep	_	_
+13	the	the	DET	DT	_	14	det	_	_
+14	lungs	lung	NOUN	NNS	Number=Plur	12	pobj	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	BAG	bag	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+18	1	0	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+19	+	+	SYM	SYM	_	16	punct	_	SpaceAfter=No
+20	/	/	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+21	-	-	SYM	SYM	_	16	punct	_	_
+22	mice	mouse	NOUN	NNS	Number=Plur	15	pobj	_	_
+23	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	3	ccomp	_	_
+24	half	half	DET	PDT	AdjType=Pdt	26	predet	_	_
+25	the	the	DET	DT	_	26	det	_	_
+26	amount	amount	NOUN	NN	Number=Sing	23	attr	_	_
+27	of	of	ADP	IN	_	26	prep	_	_
+28	BAG	bag	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	PunctType=Dash	28	punct	_	SpaceAfter=No
+30	1	0	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+31	+	+	SYM	SYM	_	28	punct	_	SpaceAfter=No
+32	/	/	PUNCT	HYPH	PunctType=Dash	28	punct	_	SpaceAfter=No
+33	+	+	SYM	SYM	_	28	punct	_	_
+34	littermates	littermate	NOUN	NNS	Number=Plur	27	pobj	_	SpaceAfter=No
+35	,	,	PUNCT	,	PunctType=Comm	36	punct	_	_
+36	see	see	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+37	Figure	figure	NOUN	NN	Number=Sing	38	compound	_	_
+38	2a	0a	NOUN	NN	Number=Sing	36	dobj	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2825
+# text = Moreover, immunohistochemical staining showed that BAG-1 was expressed in adenoma cells, see Figure 2b.
+1	Moreover	moreover	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	5	punct	_	_
+3	immunohistochemical	immunohistochemical	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	staining	staining	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	showed	show	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+6	that	that	ADP	IN	_	11	mark	_	_
+7	BAG	bag	NOUN	NN	Number=Sing	11	nsubjpass	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+9	1	0	NUM	CD	NumType=Card	7	nummod	_	_
+10	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	11	auxpass	_	_
+11	expressed	express	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	5	ccomp	_	_
+12	in	in	ADP	IN	_	11	prep	_	_
+13	adenoma	adenoma	NOUN	NN	Number=Sing	14	compound	_	_
+14	cells	cell	NOUN	NNS	Number=Plur	12	pobj	_	SpaceAfter=No
+15	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
+16	see	see	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+17	Figure	figure	NOUN	NN	Number=Sing	18	compound	_	_
+18	2b	0b	NOUN	NN	Number=Sing	16	dobj	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2826
+# text = There was no obvious difference in the BAG-1 immunohistochemistry of SP-C C-RafBxB/BAG-1+/+ and SP-C C-RafBxB/BAG-1+/- lungs.
+1	There	there	PRON	EX	AdvType=Ex	2	expl	_	_
+2	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	5	det	_	_
+4	obvious	obvious	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	difference	difference	NOUN	NN	Number=Sing	2	attr	_	_
+6	in	in	ADP	IN	_	5	prep	_	_
+7	the	the	DET	DT	_	11	det	_	_
+8	BAG	bag	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+10	1	0	NUM	CD	NumType=Card	8	nummod	_	_
+11	immunohistochemistry	immunohistochemistry	NOUN	NN	Number=Sing	6	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	SP	sp	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+15	C	c	NOUN	NN	Number=Sing	40	nmod	_	_
+16	C	c	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	RafBxB	rafbxb	NOUN	NN	Number=Sing	15	appos	_	SpaceAfter=No
+19	/	/	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+20	BAG	bag	NOUN	NN	Number=Sing	15	appos	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+22	1	0	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+23	+	+	SYM	SYM	_	20	punct	_	SpaceAfter=No
+24	/	/	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+25	+	+	SYM	SYM	_	20	punct	_	_
+26	and	and	CCONJ	CC	_	15	cc	_	_
+27	SP	sp	NOUN	NN	Number=Sing	29	compound	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	PunctType=Dash	29	punct	_	SpaceAfter=No
+29	C	c	NOUN	NN	Number=Sing	15	conj	_	_
+30	C	c	NOUN	NN	Number=Sing	32	compound	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	PunctType=Dash	32	punct	_	SpaceAfter=No
+32	RafBxB	rafbxb	NOUN	NN	Number=Sing	29	appos	_	SpaceAfter=No
+33	/	/	PUNCT	HYPH	PunctType=Dash	29	punct	_	SpaceAfter=No
+34	BAG	bag	NOUN	NN	Number=Sing	29	appos	_	SpaceAfter=No
+35	-	-	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+36	1	0	NUM	CD	NumType=Card	34	nummod	_	SpaceAfter=No
+37	+	+	SYM	SYM	_	34	punct	_	SpaceAfter=No
+38	/	/	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+39	-	-	SYM	SYM	_	34	punct	_	_
+40	lungs	lung	NOUN	NNS	Number=Plur	12	pobj	_	SpaceAfter=No
+41	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# newpar id = 15560850-p25
+# sent_id = 2827
+# text = Tumour cells of BAG-1 heterozygous mice show increased apoptosis
+1	Tumour	tumour	NOUN	NN	Number=Sing	2	compound	_	_
+2	cells	cell	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	BAG	bag	NOUN	NN	Number=Sing	7	npadvmod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	mice	mouse	NOUN	NNS	Number=Plur	3	pobj	_	_
+9	show	show	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+10	increased	increase	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	amod	_	_
+11	apoptosis	apoptosis	NOUN	NN	Number=Sing	9	dobj	_	_
+
+# newpar id = 15560850-p26
+# sent_id = 2828
+# text = Concerning the molecular mechanism how a reduction of the BAG-1 protein expression in the heterozygous mice would impair tumorigenesis, we determined the fraction of apoptotic cells.
+1	Concerning	concern	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	24	prep	_	_
+2	the	the	DET	DT	_	4	det	_	_
+3	molecular	molecular	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	mechanism	mechanism	NOUN	NN	Number=Sing	1	pobj	_	_
+5	how	how	ADV	WRB	PronType=Int,Rel	20	advmod	_	_
+6	a	a	DET	DT	_	7	det	_	_
+7	reduction	reduction	NOUN	NN	Number=Sing	20	nsubj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	the	the	DET	DT	_	14	det	_	_
+10	BAG	bag	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+12	1	0	NUM	CD	NumType=Card	10	nummod	_	_
+13	protein	protein	NOUN	NN	Number=Sing	14	compound	_	_
+14	expression	expression	NOUN	NN	Number=Sing	8	pobj	_	_
+15	in	in	ADP	IN	_	7	prep	_	_
+16	the	the	DET	DT	_	18	det	_	_
+17	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	mice	mouse	NOUN	NNS	Number=Plur	15	pobj	_	_
+19	would	would	VERB	MD	VerbType=Mod	20	aux	_	_
+20	impair	impair	VERB	VB	VerbForm=Inf	4	relcl	_	_
+21	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	20	dobj	_	SpaceAfter=No
+22	,	,	PUNCT	,	PunctType=Comm	24	punct	_	_
+23	we	we	PRON	PRP	PronType=Prs	24	nsubj	_	_
+24	determined	determine	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+25	the	the	DET	DT	_	26	det	_	_
+26	fraction	fraction	NOUN	NN	Number=Sing	24	dobj	_	_
+27	of	of	ADP	IN	_	26	prep	_	_
+28	apoptotic	apoptotic	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	cells	cell	NOUN	NNS	Number=Plur	27	pobj	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	24	punct	_	_
+
+# sent_id = 2829
+# text = Staining for activated caspase-3 revealed indistinguishable apoptosis in healthy regions of the lung of 1 month old SP-C C-Raf BxB mice with either one or two BAG-1 alleles, in line with the unaltered, normal lung structure of BAG-1+/- mice.
+1	Staining	staining	NOUN	NN	Number=Sing	7	nsubj	_	_
+2	for	for	ADP	IN	_	1	prep	_	_
+3	activated	activate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	4	amod	_	_
+4	caspase	caspase	NOUN	NN	Number=Sing	2	pobj	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	3	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	revealed	reveal	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+8	indistinguishable	indistinguishable	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	apoptosis	apoptosis	NOUN	NN	Number=Sing	7	dobj	_	_
+10	in	in	ADP	IN	_	7	prep	_	_
+11	healthy	healthy	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	regions	region	NOUN	NNS	Number=Plur	10	pobj	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	the	the	DET	DT	_	15	det	_	_
+15	lung	lung	NOUN	NN	Number=Sing	13	pobj	_	_
+16	of	of	ADP	IN	_	15	prep	_	_
+17	1	0	NUM	CD	NumType=Card	18	nummod	_	_
+18	month	month	NOUN	NN	Number=Sing	19	npadvmod	_	_
+19	old	old	ADJ	JJ	Degree=Pos	27	amod	_	_
+20	SP	sp	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	22	punct	_	SpaceAfter=No
+22	C	c	NOUN	NN	Number=Sing	26	compound	_	_
+23	C	c	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	Raf	raf	NOUN	NN	Number=Sing	26	compound	_	_
+26	BxB	bxb	NOUN	NN	Number=Sing	27	compound	_	_
+27	mice	mouse	NOUN	NNS	Number=Plur	16	pobj	_	_
+28	with	with	ADP	IN	_	27	prep	_	_
+29	either	either	CCONJ	CC	_	30	preconj	_	_
+30	one	#crd#	NUM	CD	NumType=Card	28	pobj	_	_
+31	or	or	CCONJ	CC	_	30	cc	_	_
+32	two	#crd#	NUM	CD	NumType=Card	36	nummod	_	_
+33	BAG	bag	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+34	-	-	PUNCT	HYPH	PunctType=Dash	33	punct	_	SpaceAfter=No
+35	1	0	NUM	CD	NumType=Card	33	nummod	_	_
+36	alleles	allele	NOUN	NNS	Number=Plur	30	conj	_	SpaceAfter=No
+37	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
+38	in	in	ADP	IN	_	7	prep	_	_
+39	line	line	NOUN	NN	Number=Sing	38	pobj	_	_
+40	with	with	ADP	IN	_	39	prep	_	_
+41	the	the	DET	DT	_	46	det	_	_
+42	unaltered	unaltered	ADJ	JJ	Degree=Pos	46	amod	_	SpaceAfter=No
+43	,	,	PUNCT	,	PunctType=Comm	46	punct	_	_
+44	normal	normal	ADJ	JJ	Degree=Pos	46	amod	_	_
+45	lung	lung	NOUN	NN	Number=Sing	46	compound	_	_
+46	structure	structure	NOUN	NN	Number=Sing	40	pobj	_	_
+47	of	of	ADP	IN	_	46	prep	_	_
+48	BAG	bag	NOUN	NN	Number=Sing	54	nmod	_	SpaceAfter=No
+49	-	-	PUNCT	HYPH	PunctType=Dash	48	punct	_	SpaceAfter=No
+50	1	0	NUM	CD	NumType=Card	48	nummod	_	SpaceAfter=No
+51	+	+	SYM	SYM	_	48	punct	_	SpaceAfter=No
+52	/	/	PUNCT	HYPH	PunctType=Dash	48	punct	_	SpaceAfter=No
+53	-	-	SYM	SYM	_	48	punct	_	_
+54	mice	mouse	NOUN	NNS	Number=Plur	47	pobj	_	SpaceAfter=No
+55	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 2830
+# text = In the adenomas, however, we observed a significant increase of apoptotic cells in BAG-1+/- SP-C C-Raf BxB mice compared with their SP-C C-Raf BxB/BAG-1+/+ littermates, see Figure 3a.
+1	In	in	ADP	IN	_	8	prep	_	_
+2	the	the	DET	DT	_	3	det	_	_
+3	adenomas	adenoma	NOUN	NNS	Number=Plur	1	pobj	_	SpaceAfter=No
+4	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+5	however	however	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	PunctType=Comm	8	punct	_	_
+7	we	we	PRON	PRP	PronType=Prs	8	nsubj	_	_
+8	observed	observe	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	DET	DT	_	11	det	_	_
+10	significant	significant	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	increase	increase	NOUN	NN	Number=Sing	8	dobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	apoptotic	apoptotic	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	cells	cell	NOUN	NNS	Number=Plur	12	pobj	_	_
+15	in	in	ADP	IN	_	8	prep	_	_
+16	BAG	bag	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+18	1	0	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+19	+	+	SYM	SYM	_	16	punct	_	SpaceAfter=No
+20	/	/	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+21	-	-	SYM	SYM	_	16	punct	_	_
+22	SP	sp	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+24	C	c	NOUN	NN	Number=Sing	28	compound	_	_
+25	C	c	NOUN	NN	Number=Sing	27	compound	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	PunctType=Dash	27	punct	_	SpaceAfter=No
+27	Raf	raf	NOUN	NN	Number=Sing	28	compound	_	_
+28	BxB	bxb	NOUN	NN	Number=Sing	29	compound	_	_
+29	mice	mouse	NOUN	NNS	Number=Plur	15	pobj	_	_
+30	compared	compare	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	8	prep	_	_
+31	with	with	ADP	IN	_	30	prep	_	_
+32	their	their	DET	PRP$	Poss=Yes|PronType=Prs	47	poss	_	_
+33	SP	sp	NOUN	NN	Number=Sing	35	nmod	_	SpaceAfter=No
+34	-	-	PUNCT	HYPH	PunctType=Dash	35	punct	_	SpaceAfter=No
+35	C	c	NOUN	NN	Number=Sing	39	nmod	_	_
+36	C	c	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
+37	-	-	PUNCT	HYPH	PunctType=Dash	38	punct	_	SpaceAfter=No
+38	Raf	raf	NOUN	NN	Number=Sing	39	nmod	_	_
+39	BxB	bxb	NOUN	NN	Number=Sing	47	nmod	_	SpaceAfter=No
+40	/	/	PUNCT	HYPH	PunctType=Dash	39	punct	_	SpaceAfter=No
+41	BAG	bag	NOUN	NN	Number=Sing	39	appos	_	SpaceAfter=No
+42	-	-	PUNCT	HYPH	PunctType=Dash	41	punct	_	SpaceAfter=No
+43	1	0	NUM	CD	NumType=Card	41	nummod	_	SpaceAfter=No
+44	+	+	SYM	SYM	_	41	punct	_	SpaceAfter=No
+45	/	/	PUNCT	HYPH	PunctType=Dash	41	punct	_	SpaceAfter=No
+46	+	+	SYM	SYM	_	41	punct	_	_
+47	littermates	littermate	NOUN	NNS	Number=Plur	31	pobj	_	SpaceAfter=No
+48	,	,	PUNCT	,	PunctType=Comm	49	punct	_	_
+49	see	see	VERB	VB	VerbForm=Inf	8	parataxis	_	_
+50	Figure	figure	NOUN	NN	Number=Sing	51	compound	_	_
+51	3a	0a	NOUN	NN	Number=Sing	49	dobj	_	SpaceAfter=No
+52	.	.	PUNCT	.	PunctType=Peri	8	punct	_	_
+
+# sent_id = 2831
+# text = This mechanism of action of BAG-1 on the regulation of cell survival is compatible with the phenotype of embryonic day 12,5 BAG-1 null embryos.
+1	This	this	DET	DT	_	2	det	_	_
+2	mechanism	mechanism	NOUN	NN	Number=Sing	15	nsubj	_	_
+3	of	of	ADP	IN	_	2	prep	_	_
+4	action	action	NOUN	NN	Number=Sing	3	pobj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	BAG	bag	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+8	1	0	NUM	CD	NumType=Card	6	nummod	_	_
+9	on	on	ADP	IN	_	4	prep	_	_
+10	the	the	DET	DT	_	11	det	_	_
+11	regulation	regulation	NOUN	NN	Number=Sing	9	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	cell	cell	NOUN	NN	Number=Sing	14	compound	_	_
+14	survival	survival	NOUN	NN	Number=Sing	12	pobj	_	_
+15	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	compatible	compatible	ADJ	JJ	Degree=Pos	15	acomp	_	_
+17	with	with	ADP	IN	_	16	prep	_	_
+18	the	the	DET	DT	_	19	det	_	_
+19	phenotype	phenotype	NOUN	NN	Number=Sing	17	pobj	_	_
+20	of	of	ADP	IN	_	19	prep	_	_
+21	embryonic	embryonic	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	day	day	NOUN	NN	Number=Sing	28	nmod	_	_
+23	12,5	0	NUM	CD	NumType=Card	22	nummod	_	_
+24	BAG	bag	NOUN	NN	Number=Sing	27	npadvmod	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+26	1	0	NUM	CD	NumType=Card	24	nummod	_	_
+27	null	null	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	embryos	embryo	NOUN	NNS	Number=Plur	20	pobj	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	15	punct	_	_
+
+# sent_id = 2832
+# text = Immunohistochemical staining for activated caspase-3 and trypan blue staining of dissociated cells showed hypocellularity and elevated levels of apoptosis in the livers of BAG-1-/- embryos (unpublished observations).
+1	Immunohistochemical	immunohistochemical	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	staining	staining	NOUN	NN	Number=Sing	15	nsubj	_	_
+3	for	for	ADP	IN	_	2	prep	_	_
+4	activated	activated	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	caspase	caspase	NOUN	NN	Number=Sing	3	pobj	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+7	3	0	NUM	CD	NumType=Card	5	nummod	_	_
+8	and	and	CCONJ	CC	_	2	cc	_	_
+9	trypan	trypan	NOUN	NN	Number=Sing	11	nmod	_	_
+10	blue	blue	ADJ	JJ	Degree=Pos	9	amod	_	_
+11	staining	staining	NOUN	NN	Number=Sing	2	conj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	dissociated	dissociate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	14	amod	_	_
+14	cells	cell	NOUN	NNS	Number=Plur	12	pobj	_	_
+15	showed	show	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+16	hypocellularity	hypocellularity	NOUN	NN	Number=Sing	15	dobj	_	_
+17	and	and	CCONJ	CC	_	16	cc	_	_
+18	elevated	elevated	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	levels	level	NOUN	NNS	Number=Plur	16	conj	_	_
+20	of	of	ADP	IN	_	19	prep	_	_
+21	apoptosis	apoptosis	NOUN	NN	Number=Sing	20	pobj	_	_
+22	in	in	ADP	IN	_	15	prep	_	_
+23	the	the	DET	DT	_	24	det	_	_
+24	livers	liver	NOUN	NNS	Number=Plur	22	pobj	_	_
+25	of	of	ADP	IN	_	24	prep	_	_
+26	BAG	bag	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	PunctType=Dash	26	punct	_	SpaceAfter=No
+28	1	0	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
+29	-	-	SYM	SYM	_	26	punct	_	SpaceAfter=No
+30	/	/	PUNCT	HYPH	PunctType=Dash	26	punct	_	SpaceAfter=No
+31	-	-	SYM	SYM	_	26	punct	_	_
+32	embryos	embryo	NOUN	NNS	Number=Plur	25	pobj	_	_
+33	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	35	punct	_	SpaceAfter=No
+34	unpublished	unpublished	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	observations	observation	NOUN	NNS	Number=Plur	15	meta	_	SpaceAfter=No
+36	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=Peri	15	punct	_	_
+
+# newpar id = 15560850-p27
+# sent_id = 2833
+# text = Proliferation and p-ERK signalling are unaffected in BAG-1 heterozygous mice
+1	Proliferation	proliferation	NOUN	NN	Number=Sing	7	nsubj	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	p	p	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+5	ERK	erk	NOUN	NN	Number=Sing	6	compound	_	_
+6	signalling	signalling	NOUN	NN	Number=Sing	1	conj	_	_
+7	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+8	unaffected	unaffected	ADJ	JJ	Degree=Pos	7	acomp	_	_
+9	in	in	ADP	IN	_	7	prep	_	_
+10	BAG	bag	NOUN	NN	Number=Sing	13	npadvmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+12	1	0	NUM	CD	NumType=Card	10	nummod	_	_
+13	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	mice	mouse	NOUN	NNS	Number=Plur	9	pobj	_	_
+
+# newpar id = 15560850-p28
+# sent_id = 2834
+# text = To exclude the alternative mechanism that the decreased level of BAG-1 expression in heterozygous animals would cause reduced cell proliferation in the adenomas, we performed proliferating cellular antigen (PCNA) staining.
+1	To	to	PART	TO	PartType=Inf|VerbForm=Inf	2	aux	_	_
+2	exclude	exclude	VERB	VB	VerbForm=Inf	28	advcl	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	alternative	alternative	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	mechanism	mechanism	NOUN	NN	Number=Sing	2	dobj	_	_
+6	that	that	ADP	IN	_	19	mark	_	_
+7	the	the	DET	DT	_	9	det	_	_
+8	decreased	decrease	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	amod	_	_
+9	level	level	NOUN	NN	Number=Sing	19	nsubj	_	_
+10	of	of	ADP	IN	_	9	prep	_	_
+11	BAG	bag	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+13	1	0	NUM	CD	NumType=Card	11	nummod	_	_
+14	expression	expression	NOUN	NN	Number=Sing	10	pobj	_	_
+15	in	in	ADP	IN	_	9	prep	_	_
+16	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	animals	animal	NOUN	NNS	Number=Plur	15	pobj	_	_
+18	would	would	VERB	MD	VerbType=Mod	19	aux	_	_
+19	cause	cause	VERB	VB	VerbForm=Inf	5	acl	_	_
+20	reduced	reduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	22	amod	_	_
+21	cell	cell	NOUN	NN	Number=Sing	22	compound	_	_
+22	proliferation	proliferation	NOUN	NN	Number=Sing	19	dobj	_	_
+23	in	in	ADP	IN	_	19	prep	_	_
+24	the	the	DET	DT	_	25	det	_	_
+25	adenomas	adenoma	NOUN	NNS	Number=Plur	23	pobj	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=Comm	28	punct	_	_
+27	we	we	PRON	PRP	PronType=Prs	28	nsubj	_	_
+28	performed	performed	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+29	proliferating	proliferate	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	31	amod	_	_
+30	cellular	cellular	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	antigen	antigen	NOUN	NN	Number=Sing	35	nmod	_	_
+32	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+33	PCNA	pcna	NOUN	NN	Number=Sing	31	appos	_	SpaceAfter=No
+34	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	35	punct	_	_
+35	staining	staining	NOUN	NN	Number=Sing	28	dobj	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=Peri	28	punct	_	_
+
+# sent_id = 2835
+# text = No significant differences were observed in the fraction of proliferating adenoma cells between SP-C C-Raf BxB animals heterozygous or wild type for BAG-1, see Figure 3b.
+1	No	no	NOUN	NN	Number=Sing	3	nmod	_	_
+2	significant	significant	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	differences	difference	NOUN	NNS	Number=Plur	5	nsubjpass	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	5	auxpass	_	_
+5	observed	observe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	IN	_	5	prep	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	fraction	fraction	NOUN	NN	Number=Sing	6	pobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	proliferating	proliferate	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	12	amod	_	_
+11	adenoma	adenoma	NOUN	NN	Number=Sing	12	compound	_	_
+12	cells	cell	NOUN	NNS	Number=Plur	9	pobj	_	_
+13	between	between	ADP	IN	_	8	prep	_	_
+14	SP	sp	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+16	C	c	NOUN	NN	Number=Sing	20	compound	_	_
+17	C	c	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+19	Raf	raf	NOUN	NN	Number=Sing	20	compound	_	_
+20	BxB	bxb	NOUN	NN	Number=Sing	21	compound	_	_
+21	animals	animal	NOUN	NNS	Number=Plur	13	pobj	_	_
+22	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	21	amod	_	_
+23	or	or	CCONJ	CC	_	22	cc	_	_
+24	wild	wild	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	type	type	NOUN	NN	Number=Sing	26	npadvmod	_	_
+26	for	for	ADP	IN	_	22	conj	_	_
+27	BAG	bag	NOUN	NN	Number=Sing	26	pobj	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	PunctType=Dash	27	punct	_	SpaceAfter=No
+29	1	0	NUM	CD	NumType=Card	27	nummod	_	SpaceAfter=No
+30	,	,	PUNCT	,	PunctType=Comm	31	punct	_	_
+31	see	see	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+32	Figure	figure	NOUN	NN	Number=Sing	33	compound	_	_
+33	3b	0b	NOUN	NN	Number=Sing	31	dobj	_	SpaceAfter=No
+34	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2836
+# text = Also, the percentages of adenoma cells positive for Ki-67, another proliferation marker and Bmi-1, a chromatin-associated protein expressed in stem cells, were not affected by the BAG-1 heterozygosity (not shown).
+1	Also	also	ADV	RB	Degree=Pos	34	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	34	punct	_	_
+3	the	the	DET	DT	_	4	det	_	_
+4	percentages	percentage	NOUN	NNS	Number=Plur	34	nsubjpass	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	adenoma	adenoma	NOUN	NN	Number=Sing	7	compound	_	_
+7	cells	cell	NOUN	NNS	Number=Plur	5	pobj	_	_
+8	positive	positive	ADJ	JJ	Degree=Pos	7	amod	_	_
+9	for	for	ADP	IN	_	8	prep	_	_
+10	Ki	ki	NOUN	NN	Number=Sing	9	pobj	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+12	67	0	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+14	another	another	DET	DT	_	16	det	_	_
+15	proliferation	proliferation	NOUN	NN	Number=Sing	16	compound	_	_
+16	marker	marker	NOUN	NN	Number=Sing	10	appos	_	_
+17	and	and	CCONJ	CC	_	10	cc	_	_
+18	Bmi	bmi	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+20	1	0	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=Comm	18	punct	_	_
+22	a	a	DET	DT	_	26	det	_	_
+23	chromatin	chromatin	NOUN	NN	Number=Sing	25	npadvmod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	associated	associate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	26	amod	_	_
+26	protein	protein	NOUN	NN	Number=Sing	18	appos	_	_
+27	expressed	express	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	26	acl	_	_
+28	in	in	ADP	IN	_	27	prep	_	_
+29	stem	stem	NOUN	NN	Number=Sing	30	compound	_	_
+30	cells	cell	NOUN	NNS	Number=Plur	28	pobj	_	SpaceAfter=No
+31	,	,	PUNCT	,	PunctType=Comm	34	punct	_	_
+32	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	34	auxpass	_	_
+33	not	not	ADV	RB	Degree=Pos	34	neg	_	_
+34	affected	affect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+35	by	by	ADP	IN	_	34	agent	_	_
+36	the	the	DET	DT	_	40	det	_	_
+37	BAG	bag	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No
+38	-	-	PUNCT	HYPH	PunctType=Dash	37	punct	_	SpaceAfter=No
+39	1	0	NUM	CD	NumType=Card	37	nummod	_	_
+40	heterozygosity	heterozygosity	NOUN	NN	Number=Sing	35	pobj	_	_
+41	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	43	punct	_	SpaceAfter=No
+42	not	not	ADV	RB	Degree=Pos	43	neg	_	_
+43	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	34	parataxis	_	SpaceAfter=No
+44	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	.	PunctType=Peri	34	punct	_	_
+
+# sent_id = 2837
+# text = Furthermore, staining of lung sections for phosphorylated ERK revealed no quantitative differences in the adenomas of SP-C C-Raf BxB animals heterozygous or wild type for BAG-1, see Figure 3c.
+1	Furthermore	furthermore	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+3	staining	staining	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	of	of	ADP	IN	_	3	prep	_	_
+5	lung	lung	NOUN	NN	Number=Sing	6	compound	_	_
+6	sections	section	NOUN	NNS	Number=Plur	4	pobj	_	_
+7	for	for	ADP	IN	_	3	prep	_	_
+8	phosphorylated	phosphorylated	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	amod	_	_
+9	ERK	erk	NOUN	NN	Number=Sing	7	pobj	_	_
+10	revealed	reveal	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+11	no	no	DET	DT	_	13	det	_	_
+12	quantitative	quantitative	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	differences	difference	NOUN	NNS	Number=Plur	10	dobj	_	_
+14	in	in	ADP	IN	_	10	prep	_	_
+15	the	the	DET	DT	_	16	det	_	_
+16	adenomas	adenoma	NOUN	NNS	Number=Plur	14	pobj	_	_
+17	of	of	ADP	IN	_	16	prep	_	_
+18	SP	sp	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+20	C	c	NOUN	NN	Number=Sing	24	compound	_	_
+21	C	c	NOUN	NN	Number=Sing	23	compound	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	PunctType=Dash	23	punct	_	SpaceAfter=No
+23	Raf	raf	NOUN	NN	Number=Sing	24	compound	_	_
+24	BxB	bxb	NOUN	NN	Number=Sing	25	compound	_	_
+25	animals	animal	NOUN	NNS	Number=Plur	17	pobj	_	_
+26	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	16	amod	_	_
+27	or	or	CCONJ	CC	_	26	cc	_	_
+28	wild	wild	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	type	type	NOUN	NN	Number=Sing	30	npadvmod	_	_
+30	for	for	ADP	IN	_	26	conj	_	_
+31	BAG	bag	NOUN	NN	Number=Sing	30	pobj	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	PunctType=Dash	31	punct	_	SpaceAfter=No
+33	1	0	NUM	CD	NumType=Card	31	nummod	_	SpaceAfter=No
+34	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+35	see	see	VERB	VB	VerbForm=Inf	10	parataxis	_	_
+36	Figure	figure	NOUN	NN	Number=Sing	37	compound	_	_
+37	3c	0c	NOUN	NN	Number=Sing	35	dobj	_	SpaceAfter=No
+38	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# sent_id = 2838
+# text = Thus, signalling through the mitogenic cascade was not affected by the BAG-1 heterozygosity in the adenoma cells.
+1	Thus	thus	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+3	signalling	signalling	NOUN	NN	Number=Sing	10	nsubjpass	_	_
+4	through	through	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	7	det	_	_
+6	mitogenic	mitogenic	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	cascade	cascade	NOUN	NN	Number=Sing	4	pobj	_	_
+8	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	10	auxpass	_	_
+9	not	not	ADV	RB	Degree=Pos	10	neg	_	_
+10	affected	affect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+11	by	by	ADP	IN	_	10	prep	_	_
+12	the	the	DET	DT	_	16	det	_	_
+13	BAG	bag	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	PunctType=Dash	13	punct	_	SpaceAfter=No
+15	1	0	NUM	CD	NumType=Card	13	nummod	_	_
+16	heterozygosity	heterozygosity	NOUN	NN	Number=Sing	11	pobj	_	_
+17	in	in	ADP	IN	_	10	prep	_	_
+18	the	the	DET	DT	_	20	det	_	_
+19	adenoma	adenoma	NOUN	NN	Number=Sing	20	compound	_	_
+20	cells	cell	NOUN	NNS	Number=Plur	17	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# newpar id = 15560850-p29
+# sent_id = 2839
+# text = Conclusions
+1	Conclusions	conclusion	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15560850-p30
+# sent_id = 2840
+# text = Tumours often are highly dependent on signalling pathways promoting cell growth or survival and may become hypersensitive to downregulation of key components within these signalling cascades.
+1	Tumours	tumour	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	often	often	ADV	RB	Degree=Pos	3	advmod	_	_
+3	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+4	highly	highly	ADV	RB	Degree=Pos	5	advmod	_	_
+5	dependent	dependent	ADJ	JJ	Degree=Pos	3	acomp	_	_
+6	on	on	ADP	IN	_	5	prep	_	_
+7	signalling	signalling	NOUN	NN	Number=Sing	8	compound	_	_
+8	pathways	pathway	NOUN	NNS	Number=Plur	6	pobj	_	_
+9	promoting	promote	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	8	acl	_	_
+10	cell	cell	NOUN	NN	Number=Sing	11	compound	_	_
+11	growth	growth	NOUN	NN	Number=Sing	9	dobj	_	_
+12	or	or	CCONJ	CC	_	11	cc	_	_
+13	survival	survival	NOUN	NN	Number=Sing	11	conj	_	_
+14	and	and	CCONJ	CC	_	3	cc	_	_
+15	may	may	VERB	MD	VerbType=Mod	16	aux	_	_
+16	become	become	VERB	VB	VerbForm=Inf	3	conj	_	_
+17	hypersensitive	hypersensitive	ADJ	JJ	Degree=Pos	16	acomp	_	_
+18	to	to	ADP	IN	_	17	prep	_	_
+19	downregulation	downregulation	NOUN	NN	Number=Sing	18	pobj	_	_
+20	of	of	ADP	IN	_	19	prep	_	_
+21	key	key	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	components	component	NOUN	NNS	Number=Plur	20	pobj	_	_
+23	within	within	ADP	IN	_	22	prep	_	_
+24	these	these	DET	DT	_	26	det	_	_
+25	signalling	signalling	NOUN	NN	Number=Sing	26	compound	_	_
+26	cascades	cascade	NOUN	NNS	Number=Plur	23	pobj	_	SpaceAfter=No
+27	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2841
+# text = This study identifies BAG-1 as a protein specifically required at wild type expression levels for the survival of tumour cells and reveals it as potential anticancer target.
+1	This	this	DET	DT	_	2	det	_	_
+2	study	study	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	identifies	identify	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	BAG	bag	NOUN	NN	Number=Sing	3	dobj	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	as	as	ADP	IN	_	3	prep	_	_
+8	a	a	DET	DT	_	9	det	_	_
+9	protein	protein	NOUN	NN	Number=Sing	7	pobj	_	_
+10	specifically	specifically	ADV	RB	Degree=Pos	11	advmod	_	_
+11	required	require	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	acl	_	_
+12	at	at	ADP	IN	_	11	prep	_	_
+13	wild	wild	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	type	type	NOUN	NN	Number=Sing	16	compound	_	_
+15	expression	expression	NOUN	NN	Number=Sing	16	compound	_	_
+16	levels	level	NOUN	NNS	Number=Plur	12	pobj	_	_
+17	for	for	ADP	IN	_	11	prep	_	_
+18	the	the	DET	DT	_	19	det	_	_
+19	survival	survival	NOUN	NN	Number=Sing	17	pobj	_	_
+20	of	of	ADP	IN	_	19	prep	_	_
+21	tumour	tumour	NOUN	NN	Number=Sing	22	compound	_	_
+22	cells	cell	NOUN	NNS	Number=Plur	20	pobj	_	_
+23	and	and	CCONJ	CC	_	3	cc	_	_
+24	reveals	reveal	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+25	it	it	PRON	PRP	PronType=Prs	24	dobj	_	_
+26	as	as	ADP	IN	_	24	prep	_	_
+27	potential	potential	ADJ	JJ	Degree=Pos	29	amod	_	_
+28	anticancer	anticancer	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	target	target	NOUN	NN	Number=Sing	26	pobj	_	SpaceAfter=No
+30	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2842
+# text = Since many key components of survival pathways are regulated by interaction with (co-)chaperones [15], our finding is not without precedent but novel insofar as we have uncovered that reduced BAG-1 expression specifically targets tumour cells to apoptosis and impairs tumorigenesis.
+1	Since	since	ADP	IN	_	9	mark	_	_
+2	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	key	key	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	components	component	NOUN	NNS	Number=Plur	9	nsubjpass	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	survival	survival	NOUN	NN	Number=Sing	7	compound	_	_
+7	pathways	pathway	NOUN	NNS	Number=Plur	5	pobj	_	_
+8	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	9	auxpass	_	_
+9	regulated	regulate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	24	advcl	_	_
+10	by	by	ADP	IN	_	9	agent	_	_
+11	interaction	interaction	NOUN	NN	Number=Sing	10	pobj	_	_
+12	with	with	ADP	IN	_	11	prep	_	_
+13	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	17	punct	_	SpaceAfter=No
+14	co	co	ADJ	AFX	Hyph=Yes	17	nmod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	17	punct	_	SpaceAfter=No
+17	chaperones	chaperone	NOUN	NNS	Number=Plur	12	pobj	_	_
+18	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	19	punct	_	SpaceAfter=No
+19	15	0	NUM	CD	NumType=Card	9	parataxis	_	SpaceAfter=No
+20	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	,	PunctType=Comm	24	punct	_	_
+22	our	our	DET	PRP$	Poss=Yes|PronType=Prs	23	poss	_	_
+23	finding	finding	NOUN	NN	Number=Sing	24	nsubj	_	_
+24	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	not	not	ADV	RB	Degree=Pos	26	neg	_	_
+26	without	without	ADP	IN	_	24	prep	_	_
+27	precedent	precedent	NOUN	NN	Number=Sing	26	pobj	_	_
+28	but	but	CCONJ	CC	_	26	cc	_	_
+29	novel	novel	ADJ	JJ	Degree=Pos	26	conj	_	_
+30	insofar	insofar	ADV	RB	Degree=Pos	34	advmod	_	_
+31	as	as	ADP	IN	_	34	mark	_	_
+32	we	we	PRON	PRP	PronType=Prs	34	nsubj	_	_
+33	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	uncovered	uncover	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	24	advcl	_	_
+35	that	that	ADP	IN	_	42	mark	_	_
+36	reduced	reduce	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	40	amod	_	_
+37	BAG	bag	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No
+38	-	-	PUNCT	HYPH	PunctType=Dash	37	punct	_	SpaceAfter=No
+39	1	0	NUM	CD	NumType=Card	37	nummod	_	_
+40	expression	expression	NOUN	NN	Number=Sing	42	nsubj	_	_
+41	specifically	specifically	ADV	RB	Degree=Pos	42	advmod	_	_
+42	targets	target	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	ccomp	_	_
+43	tumour	tumour	NOUN	NN	Number=Sing	44	compound	_	_
+44	cells	cell	NOUN	NNS	Number=Plur	42	dobj	_	_
+45	to	to	ADP	IN	_	42	prep	_	_
+46	apoptosis	apoptosis	NOUN	NN	Number=Sing	45	pobj	_	_
+47	and	and	CCONJ	CC	_	42	cc	_	_
+48	impairs	impair	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	conj	_	_
+49	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	48	dobj	_	SpaceAfter=No
+50	.	.	PUNCT	.	PunctType=Peri	24	punct	_	_
+
+# sent_id = 2843
+# text = Whether this effect on adenoma cell survival requires that BAG-1 interacts with C-Raf or Hsc70/Hsp70 or with both partners requires additional studies.
+1	Whether	whether	ADP	IN	_	8	mark	_	_
+2	this	this	DET	DT	_	3	det	_	_
+3	effect	effect	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	on	on	ADP	IN	_	3	prep	_	_
+5	adenoma	adenoma	NOUN	NN	Number=Sing	6	compound	_	_
+6	cell	cell	NOUN	NN	Number=Sing	7	compound	_	_
+7	survival	survival	NOUN	NN	Number=Sing	4	pobj	_	_
+8	requires	require	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	csubj	_	_
+9	that	that	ADP	IN	_	13	mark	_	_
+10	BAG	bag	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+12	1	0	NUM	CD	NumType=Card	10	nummod	_	_
+13	interacts	interact	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+14	with	with	ADP	IN	_	13	prep	_	_
+15	C	c	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+17	Raf	raf	NOUN	NN	Number=Sing	14	pobj	_	_
+18	or	or	CCONJ	CC	_	17	cc	_	_
+19	Hsc70	hsc0	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	/	/	PUNCT	HYPH	PunctType=Dash	21	punct	_	SpaceAfter=No
+21	Hsp70	hsp0	NOUN	NN	Number=Sing	17	conj	_	_
+22	or	or	CCONJ	CC	_	14	cc	_	_
+23	with	with	ADP	IN	_	14	conj	_	_
+24	both	both	DET	DT	_	25	det	_	_
+25	partners	partner	NOUN	NNS	Number=Plur	23	pobj	_	_
+26	requires	require	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	additional	additional	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	studies	study	NOUN	NNS	Number=Plur	26	dobj	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	26	punct	_	_
+
+# sent_id = 2844
+# text = Questions concerning specific roles of the different BAG-1 isoforms were not addressed with this BAG-1 deficient mouse as both isoforms of BAG-1, p50 and p32 are absent in protein extracts of knock-out embryos.
+1	Questions	question	NOUN	NNS	Number=Plur	14	nsubjpass	_	_
+2	concerning	concern	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	1	prep	_	_
+3	specific	specific	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	roles	role	NOUN	NNS	Number=Plur	2	pobj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	11	det	_	_
+7	different	different	ADJ	JJ	Degree=Pos	11	amod	_	_
+8	BAG	bag	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	8	punct	_	SpaceAfter=No
+10	1	0	NUM	CD	NumType=Card	8	nummod	_	_
+11	isoforms	isoforms	NOUN	NNS	Number=Plur	5	pobj	_	_
+12	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	14	auxpass	_	_
+13	not	not	ADV	RB	Degree=Pos	14	neg	_	_
+14	addressed	address	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+15	with	with	ADP	IN	_	14	prep	_	_
+16	this	this	DET	DT	_	21	det	_	_
+17	BAG	bag	NOUN	NN	Number=Sing	20	npadvmod	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	PunctType=Dash	17	punct	_	SpaceAfter=No
+19	1	0	NUM	CD	NumType=Card	17	nummod	_	_
+20	deficient	deficient	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	mouse	mouse	NOUN	NN	Number=Sing	15	pobj	_	_
+22	as	as	ADP	IN	_	33	mark	_	_
+23	both	both	DET	DT	_	24	det	_	_
+24	isoforms	isoforms	NOUN	NNS	Number=Plur	33	nsubj	_	_
+25	of	of	ADP	IN	_	24	prep	_	_
+26	BAG	bag	NOUN	NN	Number=Sing	25	pobj	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	PunctType=Dash	26	punct	_	SpaceAfter=No
+28	1	0	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
+29	,	,	PUNCT	,	PunctType=Comm	24	punct	_	_
+30	p50	p0	NOUN	NN	Number=Sing	24	appos	_	_
+31	and	and	CCONJ	CC	_	30	cc	_	_
+32	p32	p0	NOUN	NN	Number=Sing	30	conj	_	_
+33	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	14	advcl	_	_
+34	absent	absent	ADJ	JJ	Degree=Pos	33	acomp	_	_
+35	in	in	ADP	IN	_	33	prep	_	_
+36	protein	protein	NOUN	NN	Number=Sing	37	compound	_	_
+37	extracts	extract	NOUN	NNS	Number=Plur	35	pobj	_	_
+38	of	of	ADP	IN	_	37	prep	_	_
+39	knock	knock	VERB	VB	VerbForm=Inf	42	amod	_	SpaceAfter=No
+40	-	-	PUNCT	HYPH	PunctType=Dash	39	punct	_	SpaceAfter=No
+41	out	out	ADP	RP	PartType=Vbp	39	prt	_	_
+42	embryos	embryo	NOUN	NNS	Number=Plur	38	pobj	_	SpaceAfter=No
+43	.	.	PUNCT	.	PunctType=Peri	14	punct	_	_
+
+# sent_id = 2845
+# text = Another setting where BAG-1 has a physiological role is the heart, where up-regulation of BAG-1 after ischemia rescues cells from apoptosis [16].
+1	Another	another	DET	DT	_	2	det	_	_
+2	setting	setting	NOUN	NN	Number=Sing	11	nsubj	_	_
+3	where	where	ADV	WRB	PronType=Int,Rel	7	advmod	_	2:ref=
+4	BAG	bag	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	relcl	_	_
+8	a	a	DET	DT	_	10	det	_	_
+9	physiological	physiological	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	role	role	NOUN	NN	Number=Sing	7	dobj	_	_
+11	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	heart	heart	NOUN	NN	Number=Sing	11	attr	_	SpaceAfter=No
+14	,	,	PUNCT	,	PunctType=Comm	13	punct	_	_
+15	where	where	ADV	WRB	PronType=Int,Rel	25	advmod	_	13:ref=
+16	up	up	ADJ	JJ	Degree=Pos	18	amod	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	regulation	regulation	NOUN	NN	Number=Sing	25	nsubj	_	_
+19	of	of	ADP	IN	_	18	prep	_	_
+20	BAG	bag	NOUN	NN	Number=Sing	19	pobj	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	20	punct	_	SpaceAfter=No
+22	1	0	NUM	CD	NumType=Card	20	nummod	_	_
+23	after	after	ADP	IN	_	18	prep	_	_
+24	ischemia	ischemia	NOUN	NN	Number=Sing	23	pobj	_	_
+25	rescues	rescue	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	relcl	_	_
+26	cells	cell	NOUN	NNS	Number=Plur	25	dobj	_	_
+27	from	from	ADP	IN	_	25	prep	_	_
+28	apoptosis	apoptosis	NOUN	NN	Number=Sing	27	pobj	_	_
+29	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	30	punct	_	SpaceAfter=No
+30	16	0	NUM	CD	NumType=Card	11	parataxis	_	SpaceAfter=No
+31	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	.	PunctType=Peri	11	punct	_	_
+
+# newpar id = 15560850-p31
+# sent_id = 2846
+# text = A possible model combining the findings of this report and other data indicates that BAG-1 functions as an activator of C-Raf at the outer mitochondrial membrane where enzymatically activated C-Raf finds apoptosis-related targets such as BAD [17], see Figure 4.
+1	A	a	DET	DT	_	3	det	_	_
+2	possible	possible	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	model	model	NOUN	NN	Number=Sing	13	nsubj	_	_
+4	combining	combine	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	3	acl	_	_
+5	the	the	DET	DT	_	6	det	_	_
+6	findings	finding	NOUN	NNS	Number=Plur	4	dobj	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	this	this	DET	DT	_	9	det	_	_
+9	report	report	NOUN	NN	Number=Sing	7	pobj	_	_
+10	and	and	CCONJ	CC	_	6	cc	_	_
+11	other	other	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	data	datum	NOUN	NNS	Number=Plur	6	conj	_	_
+13	indicates	indicate	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	that	that	ADP	IN	_	18	mark	_	_
+15	BAG	bag	NOUN	NN	Number=Sing	18	nsubj	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	PunctType=Dash	15	punct	_	SpaceAfter=No
+17	1	0	NUM	CD	NumType=Card	15	nummod	_	_
+18	functions	function	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+19	as	as	ADP	IN	_	18	prep	_	_
+20	an	an	DET	DT	_	21	det	_	_
+21	activator	activator	NOUN	NN	Number=Sing	19	pobj	_	_
+22	of	of	ADP	IN	_	21	prep	_	_
+23	C	c	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	Raf	raf	NOUN	NN	Number=Sing	22	pobj	_	_
+26	at	at	ADP	IN	_	18	prep	_	_
+27	the	the	DET	DT	_	30	det	_	_
+28	outer	outer	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	mitochondrial	mitochondrial	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	membrane	membrane	NOUN	NN	Number=Sing	26	pobj	_	_
+31	where	where	ADV	WRB	PronType=Int,Rel	37	advmod	_	30:ref=
+32	enzymatically	enzymatically	ADV	RB	Degree=Pos	33	advmod	_	_
+33	activated	activate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	36	amod	_	_
+34	C	c	NOUN	NN	Number=Sing	36	compound	_	SpaceAfter=No
+35	-	-	PUNCT	HYPH	PunctType=Dash	36	punct	_	SpaceAfter=No
+36	Raf	raf	NOUN	NN	Number=Sing	37	nsubj	_	_
+37	finds	find	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	relcl	_	_
+38	apoptosis	apoptosis	NOUN	NN	Number=Sing	40	npadvmod	_	SpaceAfter=No
+39	-	-	PUNCT	HYPH	PunctType=Dash	40	punct	_	SpaceAfter=No
+40	related	relate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	41	amod	_	_
+41	targets	target	NOUN	NNS	Number=Plur	37	dobj	_	_
+42	such	such	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	as	as	ADP	IN	_	41	prep	_	_
+44	BAD	bad	NOUN	NN	Number=Sing	43	pobj	_	_
+45	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	46	punct	_	SpaceAfter=No
+46	17	0	NUM	CD	NumType=Card	37	parataxis	_	SpaceAfter=No
+47	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	46	punct	_	SpaceAfter=No
+48	,	,	PUNCT	,	PunctType=Comm	49	punct	_	_
+49	see	see	VERB	VB	VerbForm=Inf	13	parataxis	_	_
+50	Figure	figure	NOUN	NN	Number=Sing	49	dobj	_	_
+51	4	0	NUM	CD	NumType=Card	50	nummod	_	SpaceAfter=No
+52	.	.	PUNCT	.	PunctType=Peri	13	punct	_	_
+
+# sent_id = 2847
+# text = We can purify overexpressed C-Raf either in an enzymatically inactive form in a complex with Hsp70 or in an enzymatically active form in a complex with Hsp90/50 (unpublished observations), and BAG-1 is proposed to regulate this activation with ATP generated in the mitochondria.
+1	We	we	PRON	PRP	PronType=Prs	3	nsubj	_	_
+2	can	can	VERB	MD	VerbType=Mod	3	aux	_	_
+3	purify	purify	VERB	VB	VerbForm=Inf	0	root	_	_
+4	overexpressed	overexpressed	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	7	amod	_	_
+5	C	c	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	SpaceAfter=No
+7	Raf	raf	NOUN	NN	Number=Sing	3	dobj	_	_
+8	either	either	CCONJ	CC	_	9	preconj	_	_
+9	in	in	ADP	IN	_	3	prep	_	_
+10	an	an	DET	DT	_	13	det	_	_
+11	enzymatically	enzymatically	ADV	RB	Degree=Pos	12	advmod	_	_
+12	inactive	inactive	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	form	form	NOUN	NN	Number=Sing	9	pobj	_	_
+14	in	in	ADP	IN	_	13	prep	_	_
+15	a	a	DET	DT	_	16	det	_	_
+16	complex	complex	NOUN	NN	Number=Sing	14	pobj	_	_
+17	with	with	ADP	IN	_	16	prep	_	_
+18	Hsp70	hsp0	NOUN	NN	Number=Sing	17	pobj	_	_
+19	or	or	CCONJ	CC	_	9	cc	_	_
+20	in	in	ADP	IN	_	9	conj	_	_
+21	an	an	DET	DT	_	24	det	_	_
+22	enzymatically	enzymatically	ADV	RB	Degree=Pos	23	advmod	_	_
+23	active	active	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	form	form	NOUN	NN	Number=Sing	20	pobj	_	_
+25	in	in	ADP	IN	_	24	prep	_	_
+26	a	a	DET	DT	_	27	det	_	_
+27	complex	complex	NOUN	NN	Number=Sing	25	pobj	_	_
+28	with	with	ADP	IN	_	27	prep	_	_
+29	Hsp90	hsp0	NOUN	NN	Number=Sing	28	pobj	_	SpaceAfter=No
+30	/	/	PUNCT	HYPH	PunctType=Dash	29	punct	_	SpaceAfter=No
+31	50	0	NUM	CD	NumType=Card	29	nummod	_	_
+32	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	34	punct	_	SpaceAfter=No
+33	unpublished	unpublished	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	observations	observation	NOUN	NNS	Number=Plur	3	meta	_	SpaceAfter=No
+35	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	34	punct	_	SpaceAfter=No
+36	,	,	PUNCT	,	PunctType=Comm	3	punct	_	_
+37	and	and	CCONJ	CC	_	3	cc	_	_
+38	BAG	bag	NOUN	NN	Number=Sing	42	nsubjpass	_	SpaceAfter=No
+39	-	-	PUNCT	HYPH	PunctType=Dash	38	punct	_	SpaceAfter=No
+40	1	0	NUM	CD	NumType=Card	38	nummod	_	_
+41	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	auxpass	_	_
+42	proposed	propose	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	3	conj	_	_
+43	to	to	PART	TO	PartType=Inf|VerbForm=Inf	44	aux	_	_
+44	regulate	regulate	VERB	VB	VerbForm=Inf	42	xcomp	_	_
+45	this	this	DET	DT	_	46	det	_	_
+46	activation	activation	NOUN	NN	Number=Sing	44	dobj	_	_
+47	with	with	ADP	IN	_	44	prep	_	_
+48	ATP	atp	NOUN	NN	Number=Sing	47	pobj	_	_
+49	generated	generate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	48	acl	_	_
+50	in	in	ADP	IN	_	49	prep	_	_
+51	the	the	DET	DT	_	52	det	_	_
+52	mitochondria	mitochondrion	NOUN	NNS	Number=Plur	50	pobj	_	SpaceAfter=No
+53	.	.	PUNCT	.	PunctType=Peri	42	punct	_	_
+
+# sent_id = 2848
+# text = Experiments dealing with this questions are currently ongoing.
+1	Experiments	experiment	NOUN	NNS	Number=Plur	6	nsubj	_	_
+2	dealing	deal	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	1	acl	_	_
+3	with	with	ADP	IN	_	2	prep	_	_
+4	this	this	DET	DT	_	5	det	_	_
+5	questions	question	NOUN	NNS	Number=Plur	3	pobj	_	_
+6	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+7	currently	currently	ADV	RB	Degree=Pos	6	advmod	_	_
+8	ongoing	ongoing	ADJ	JJ	Degree=Pos	6	acomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# newpar id = 15560850-p32
+# sent_id = 2849
+# text = Therefore, the therapeutic efficacy of a standard chemotherapeutic agent [13] should be increased dramatically by co-application with a BAG-1 inhibitor, since it would target the adaptability of cancer cells to environmental stress and overcome their genetic plasticity.
+1	Therefore	therefore	ADV	RB	Degree=Pos	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
+3	the	the	DET	DT	_	5	det	_	_
+4	therapeutic	therapeutic	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	efficacy	efficacy	NOUN	NN	Number=Sing	16	nsubjpass	_	_
+6	of	of	ADP	IN	_	5	prep	_	_
+7	a	a	DET	DT	_	10	det	_	_
+8	standard	standard	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	chemotherapeutic	chemotherapeutic	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	agent	agent	NOUN	NN	Number=Sing	6	pobj	_	_
+11	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	12	punct	_	SpaceAfter=No
+12	13	0	NUM	CD	NumType=Card	5	parataxis	_	SpaceAfter=No
+13	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	12	punct	_	_
+14	should	should	VERB	MD	VerbType=Mod	16	aux	_	_
+15	be	be	VERB	VB	VerbForm=Inf	16	auxpass	_	_
+16	increased	increase	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+17	dramatically	dramatically	ADV	RB	Degree=Pos	16	advmod	_	_
+18	by	by	ADP	IN	_	16	prep	_	_
+19	co-application	co-application	NOUN	NN	Number=Sing	18	pobj	_	_
+20	with	with	ADP	IN	_	19	prep	_	_
+21	a	a	DET	DT	_	25	det	_	_
+22	BAG	bag	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	PunctType=Dash	22	punct	_	SpaceAfter=No
+24	1	0	NUM	CD	NumType=Card	22	nummod	_	_
+25	inhibitor	inhibitor	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=Comm	16	punct	_	_
+27	since	since	ADP	IN	_	30	mark	_	_
+28	it	it	PRON	PRP	PronType=Prs	30	nsubj	_	_
+29	would	would	VERB	MD	VerbType=Mod	30	aux	_	_
+30	target	target	VERB	VB	VerbForm=Inf	16	advcl	_	_
+31	the	the	DET	DT	_	32	det	_	_
+32	adaptability	adaptability	NOUN	NN	Number=Sing	30	dobj	_	_
+33	of	of	ADP	IN	_	32	prep	_	_
+34	cancer	cancer	NOUN	NN	Number=Sing	35	compound	_	_
+35	cells	cell	NOUN	NNS	Number=Plur	33	pobj	_	_
+36	to	to	ADP	IN	_	30	prep	_	_
+37	environmental	environmental	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	stress	stress	NOUN	NN	Number=Sing	36	pobj	_	_
+39	and	and	CCONJ	CC	_	30	cc	_	_
+40	overcome	overcome	VERB	VB	VerbForm=Inf	30	conj	_	_
+41	their	their	DET	PRP$	Poss=Yes|PronType=Prs	43	poss	_	_
+42	genetic	genetic	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	plasticity	plasticity	NOUN	NN	Number=Sing	40	dobj	_	SpaceAfter=No
+44	.	.	PUNCT	.	PunctType=Peri	16	punct	_	_
+
+# sent_id = 2850
+# text = One way to reduce BAG-1 expression is through use of RNA interference-based gene silencing, in particular as BAG-1 overexpression has been observed in human tumours [11].
+1	One	#crd#	NUM	CD	NumType=Card	2	nummod	_	_
+2	way	way	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	to	to	PART	TO	PartType=Inf|VerbForm=Inf	4	aux	_	_
+4	reduce	reduce	VERB	VB	VerbForm=Inf	2	advcl	_	_
+5	BAG	bag	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	PunctType=Dash	5	punct	_	SpaceAfter=No
+7	1	0	NUM	CD	NumType=Card	5	nummod	_	_
+8	expression	expression	NOUN	NN	Number=Sing	4	dobj	_	_
+9	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	through	through	ADP	IN	_	9	prep	_	_
+11	use	use	NOUN	NN	Number=Sing	10	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	RNA	rna	NOUN	NN	Number=Sing	14	compound	_	_
+14	interference	interference	NOUN	NN	Number=Sing	16	npadvmod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+16	based	base	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	18	amod	_	_
+17	gene	gene	NOUN	NN	Number=Sing	18	compound	_	_
+18	silencing	silencing	NOUN	NN	Number=Sing	12	pobj	_	SpaceAfter=No
+19	,	,	PUNCT	,	PunctType=Comm	9	punct	_	_
+20	in	in	ADP	IN	_	29	prep	_	_
+21	particular	particular	ADJ	JJ	Degree=Pos	20	amod	_	_
+22	as	as	ADP	IN	_	29	mark	_	_
+23	BAG	bag	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	23	punct	_	SpaceAfter=No
+25	1	0	NUM	CD	NumType=Card	23	nummod	_	_
+26	overexpression	overexpression	NOUN	NN	Number=Sing	29	nsubjpass	_	_
+27	has	have	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	been	be	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	29	auxpass	_	_
+29	observed	observe	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	9	advcl	_	_
+30	in	in	ADP	IN	_	29	prep	_	_
+31	human	human	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	tumours	tumour	NOUN	NNS	Number=Plur	30	pobj	_	_
+33	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	34	punct	_	SpaceAfter=No
+34	11	0	NUM	CD	NumType=Card	29	parataxis	_	SpaceAfter=No
+35	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	.	PunctType=Peri	9	punct	_	_
+
+# sent_id = 2851
+# text = Drugs that bind to the ATP binding site of Hsc70/Hsp70 might also be expected to be effective as they would inhibit the interaction of BAG-1 with the ATPase domain of heat shock proteins.
+1	Drugs	drug	NOUN	NNS	Number=Plur	16	nsubjpass	_	_
+2	that	that	DET	WDT	PronType=Int,Rel	3	dep	_	1:ref=
+3	bind	bind	VERB	VBP	Tense=Pres|VerbForm=Fin	1	relcl	_	_
+4	to	to	ADP	IN	_	3	prep	_	_
+5	the	the	DET	DT	_	8	det	_	_
+6	ATP	atp	NOUN	NN	Number=Sing	7	compound	_	_
+7	binding	binding	NOUN	NN	Number=Sing	8	compound	_	_
+8	site	site	NOUN	NN	Number=Sing	4	pobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	Hsc70	hsc0	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	/	/	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	Hsp70	hsp0	NOUN	NN	Number=Sing	9	pobj	_	_
+13	might	might	VERB	MD	VerbType=Mod	16	aux	_	_
+14	also	also	ADV	RB	Degree=Pos	16	advmod	_	_
+15	be	be	VERB	VB	VerbForm=Inf	16	auxpass	_	_
+16	expected	expect	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+17	to	to	PART	TO	PartType=Inf|VerbForm=Inf	18	aux	_	_
+18	be	be	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	effective	effective	ADJ	JJ	Degree=Pos	18	acomp	_	_
+20	as	as	ADP	IN	_	23	mark	_	_
+21	they	they	PRON	PRP	PronType=Prs	23	nsubj	_	_
+22	would	would	VERB	MD	VerbType=Mod	23	aux	_	_
+23	inhibit	inhibit	VERB	VB	VerbForm=Inf	16	advcl	_	_
+24	the	the	DET	DT	_	25	det	_	_
+25	interaction	interaction	NOUN	NN	Number=Sing	23	dobj	_	_
+26	of	of	ADP	IN	_	25	prep	_	_
+27	BAG	bag	NOUN	NN	Number=Sing	26	pobj	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	PunctType=Dash	27	punct	_	SpaceAfter=No
+29	1	0	NUM	CD	NumType=Card	27	nummod	_	_
+30	with	with	ADP	IN	_	25	prep	_	_
+31	the	the	DET	DT	_	33	det	_	_
+32	ATPase	atpase	NOUN	NN	Number=Sing	33	compound	_	_
+33	domain	domain	NOUN	NN	Number=Sing	30	pobj	_	_
+34	of	of	ADP	IN	_	33	prep	_	_
+35	heat	heat	NOUN	NN	Number=Sing	36	compound	_	_
+36	shock	shock	NOUN	NN	Number=Sing	37	compound	_	_
+37	proteins	proteins	NOUN	NN	Number=Sing	34	pobj	_	SpaceAfter=No
+38	.	.	PUNCT	.	PunctType=Peri	16	punct	_	_
+
+# sent_id = 2852
+# text = Such new specific BAG-1 inhibitors may be identified, aided by the known three-dimensional structure of the BAG domain [18,19].
+1	Such	such	ADJ	JJ	Degree=Pos	7	amod	_	_
+2	new	new	ADJ	JJ	Degree=Pos	7	amod	_	_
+3	specific	specific	ADJ	JJ	Degree=Pos	7	amod	_	_
+4	BAG	bag	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	inhibitors	inhibitor	NOUN	NNS	Number=Plur	10	nsubjpass	_	_
+8	may	may	VERB	MD	VerbType=Mod	10	aux	_	_
+9	be	be	VERB	VB	VerbForm=Inf	10	auxpass	_	_
+10	identified	identify	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+12	aided	aid	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	10	advcl	_	_
+13	by	by	ADP	IN	_	12	agent	_	_
+14	the	the	DET	DT	_	19	det	_	_
+15	known	known	ADJ	JJ	Degree=Pos	19	amod	_	_
+16	three	#crd#	NUM	CD	NumType=Card	18	advmod	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	dimensional	dimensional	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	structure	structure	NOUN	NN	Number=Sing	13	pobj	_	_
+20	of	of	ADP	IN	_	19	prep	_	_
+21	the	the	DET	DT	_	23	det	_	_
+22	BAG	bag	NOUN	NN	Number=Sing	23	compound	_	_
+23	domain	domain	NOUN	NN	Number=Sing	20	pobj	_	_
+24	[	[	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	27	punct	_	SpaceAfter=No
+25	18	0	NUM	CD	NumType=Card	27	nummod	_	SpaceAfter=No
+26	,	,	PUNCT	,	PunctType=Comm	27	punct	_	SpaceAfter=No
+27	19	0	NUM	CD	NumType=Card	12	parataxis	_	SpaceAfter=No
+28	]	]	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	10	punct	_	_
+
+# newpar id = 15560850-p33
+# sent_id = 2853
+# text = Competing interests
+1	Competing	compete	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	2	amod	_	_
+2	interests	interest	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15560850-p34
+# sent_id = 2854
+# text = The author(s) declare that they have no competing interests.
+1	The	the	DET	DT	_	2	det	_	_
+2	author	author	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+3	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+4	s	s	ADJ	AFX	Hyph=Yes	2	nmod	_	SpaceAfter=No
+5	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	6	punct	_	_
+6	declare	declare	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	ADP	IN	_	9	mark	_	_
+8	they	they	PRON	PRP	PronType=Prs	9	nsubj	_	_
+9	have	have	VERB	VBP	Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	no	no	DET	DT	_	12	det	_	_
+11	competing	compete	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	12	amod	_	_
+12	interests	interest	NOUN	NNS	Number=Plur	9	dobj	_	SpaceAfter=No
+13	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# newpar id = 15560850-p35
+# sent_id = 2855
+# text = Authors' contributions
+1	Authors	author	NOUN	NNS	Number=Plur	3	poss	_	SpaceAfter=No
+2	'	'	PART	POS	Poss=Yes	1	case	_	_
+3	contributions	contribution	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15560850-p36
+# sent_id = 2856
+# text = RG caried out the molecular and histological studies and participated in the design and co-ordination of the study.
+1	RG	rg	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	caried	caried	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	out	out	ADP	RP	PartType=Vbp	2	prt	_	_
+4	the	the	DET	DT	_	8	det	_	_
+5	molecular	molecular	ADJ	JJ	Degree=Pos	8	amod	_	_
+6	and	and	CCONJ	CC	_	5	cc	_	_
+7	histological	histological	ADJ	JJ	Degree=Pos	5	conj	_	_
+8	studies	study	NOUN	NNS	Number=Plur	2	dobj	_	_
+9	and	and	CCONJ	CC	_	2	cc	_	_
+10	participated	participate	VERB	VBD	Tense=Past|VerbForm=Fin	2	conj	_	_
+11	in	in	ADP	IN	_	10	prep	_	_
+12	the	the	DET	DT	_	13	det	_	_
+13	design	design	NOUN	NN	Number=Sing	11	pobj	_	_
+14	and	and	CCONJ	CC	_	13	cc	_	_
+15	co-ordination	co-ordination	NOUN	NN	Number=Sing	13	conj	_	_
+16	of	of	ADP	IN	_	13	prep	_	_
+17	the	the	DET	DT	_	18	det	_	_
+18	study	study	NOUN	NN	Number=Sing	16	pobj	_	SpaceAfter=No
+19	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2857
+# text = BWK carried out the histological and immunohisto-chemical studies.
+1	BWK	bwk	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	carried	carry	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	out	out	ADP	RP	PartType=Vbp	2	prt	_	_
+4	the	the	DET	DT	_	10	det	_	_
+5	histological	histological	ADJ	JJ	Degree=Pos	10	amod	_	_
+6	and	and	CCONJ	CC	_	5	cc	_	_
+7	immunohisto	immunohisto	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	chemical	chemical	ADJ	JJ	Degree=Pos	5	conj	_	_
+10	studies	study	NOUN	NNS	Number=Plur	2	dobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2858
+# text = GC participated in the histological and immunohistochemical experiments.
+1	GC	gc	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	participated	participate	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	8	det	_	_
+5	histological	histological	ADJ	JJ	Degree=Pos	8	amod	_	_
+6	and	and	CCONJ	CC	_	5	cc	_	_
+7	immunohistochemical	immunohistochemical	ADJ	JJ	Degree=Pos	5	conj	_	_
+8	experiments	experiment	NOUN	NNS	Number=Plur	3	pobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2859
+# text = URR participated in the design and co-ordination of the study.
+1	URR	urr	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	participated	participate	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	design	design	NOUN	NN	Number=Sing	3	pobj	_	_
+6	and	and	CCONJ	CC	_	5	cc	_	_
+7	co-ordination	co-ordination	NOUN	NN	Number=Sing	5	conj	_	_
+8	of	of	ADP	IN	_	5	prep	_	_
+9	the	the	DET	DT	_	10	det	_	_
+10	study	study	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+11	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2860
+# text = All authors read and approved the final manuscript.
+1	All	all	DET	DT	_	2	det	_	_
+2	authors	author	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	read	read	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	and	and	CCONJ	CC	_	3	cc	_	_
+5	approved	approve	VERB	VBD	Tense=Past|VerbForm=Fin	3	conj	_	_
+6	the	the	DET	DT	_	8	det	_	_
+7	final	final	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	manuscript	manuscript	NOUN	NN	Number=Sing	5	dobj	_	SpaceAfter=No
+9	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# newpar id = 15560850-p37
+# sent_id = 2861
+# text = Pre-publication history
+1	Pre-publication	pre-publication	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	history	history	NOUN	NN	Number=Sing	0	root	_	_
+
+# newpar id = 15560850-p38
+# sent_id = 2862
+# text = The pre-publication history for this paper can be accessed here:
+1	The	the	DET	DT	_	3	det	_	_
+2	pre-publication	pre-publication	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	history	history	NOUN	NN	Number=Sing	9	nsubjpass	_	_
+4	for	for	ADP	IN	_	3	prep	_	_
+5	this	this	DET	DT	_	6	det	_	_
+6	paper	paper	NOUN	NN	Number=Sing	4	pobj	_	_
+7	can	can	VERB	MD	VerbType=Mod	9	aux	_	_
+8	be	be	VERB	VB	VerbForm=Inf	9	auxpass	_	_
+9	accessed	access	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+10	here	here	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	9	punct	_	_
+
+# newpar id = 15560850-p39
+# sent_id = 2863
+# text = Acknowledgements
+1	Acknowledgements	acknowledgement	NOUN	NNS	Number=Plur	0	root	_	_
+
+# newpar id = 15560850-p41
+# sent_id = 2864
+# text = We thank L. Fedorov, N. Gribanow, D. Heim, S. Hilz and T. Potapenko and Y. Yang for support.
+1	We	we	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	thank	thank	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+3	L.	l.	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Fedorov	fedorov	PROPN	NNP	Number=Sing	2	dobj	_	SpaceAfter=No
+5	,	,	PUNCT	,	PunctType=Comm	4	punct	_	_
+6	N.	n.	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Gribanow	gribanow	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	PunctType=Comm	7	punct	_	_
+9	D.	d.	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Heim	heim	PROPN	NNP	Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	PunctType=Comm	10	punct	_	_
+12	S.	s.	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Hilz	hilz	PROPN	NNP	Number=Sing	10	conj	_	_
+14	and	and	CCONJ	CC	_	13	cc	_	_
+15	T.	t.	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Potapenko	potapenko	PROPN	NNP	Number=Sing	13	conj	_	_
+17	and	and	CCONJ	CC	_	16	cc	_	_
+18	Y.	y.	PROPN	NNP	Number=Sing	19	compound	_	_
+19	Yang	yang	PROPN	NNP	Number=Sing	16	conj	_	_
+20	for	for	ADP	IN	_	2	prep	_	_
+21	support	support	NOUN	NN	Number=Sing	20	pobj	_	SpaceAfter=No
+22	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2865
+# text = This work was supported by Deutsche Krebshilfe – Mildred Scheel Foundation (grants 10-1793-Ra7; 10-1935-Ra8) and by the DFG (grants TR17-TPB7; -TPZ2).
+1	This	this	DET	DT	_	2	det	_	_
+2	work	work	NOUN	NN	Number=Sing	4	nsubjpass	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	4	auxpass	_	_
+4	supported	support	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+5	by	by	ADP	IN	_	4	prep	_	_
+6	Deutsche	deutsche	PROPN	NNP	Number=Sing	7	nmod	_	_
+7	Krebshilfe	krebshilfe	PROPN	NNP	Number=Sing	11	nmod	_	_
+8	–	-	PUNCT	HYPH	PunctType=Dash	7	punct	_	_
+9	Mildred	mildred	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Scheel	scheel	PROPN	NNP	Number=Sing	7	appos	_	_
+11	Foundation	foundation	PROPN	NNP	Number=Sing	5	pobj	_	_
+12	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	18	punct	_	SpaceAfter=No
+13	grants	grant	NOUN	NNS	Number=Plur	18	nmod	_	_
+14	10	0	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+16	1793	0	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	Ra7	ra0	NOUN	NN	Number=Sing	11	parataxis	_	SpaceAfter=No
+19	;	;	PUNCT	,	PunctType=Comm	18	punct	_	_
+20	10	0	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+22	1935	0	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	PunctType=Dash	24	punct	_	SpaceAfter=No
+24	Ra8	ra0	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	18	punct	_	_
+26	and	and	CCONJ	CC	_	5	cc	_	_
+27	by	by	ADP	IN	_	5	conj	_	_
+28	the	the	DET	DT	_	29	det	_	_
+29	DFG	dfg	NOUN	NN	Number=Sing	27	pobj	_	_
+30	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	34	punct	_	SpaceAfter=No
+31	grants	grant	NOUN	NNS	Number=Plur	34	compound	_	_
+32	TR17	tr0	NOUN	NN	Number=Sing	34	compound	_	SpaceAfter=No
+33	-	-	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+34	TPB7	tpb0	NOUN	NN	Number=Sing	29	parataxis	_	SpaceAfter=No
+35	;	;	PUNCT	,	PunctType=Comm	34	punct	_	_
+36	-	-	PUNCT	HYPH	PunctType=Dash	37	punct	_	SpaceAfter=No
+37	TPZ2	tpz0	NOUN	NN	Number=Sing	34	appos	_	SpaceAfter=No
+38	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	34	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2866
+# text = G. Camarero was a postdoctoral fellow supported by Spanish Government (Ministerio de Educación y Cultura).
+1	G.	g.	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Camarero	camarero	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	was	be	VERB	VBD	Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	_	6	det	_	_
+5	postdoctoral	postdoctoral	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fellow	fellow	NOUN	NN	Number=Sing	3	attr	_	_
+7	supported	support	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	acl	_	_
+8	by	by	ADP	IN	_	7	agent	_	_
+9	Spanish	spanish	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Government	government	PROPN	NNP	Number=Sing	8	pobj	_	_
+11	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	16	punct	_	SpaceAfter=No
+12	Ministerio	ministerio	X	FW	Foreign=Yes	16	nmod	_	_
+13	de	de	X	FW	Foreign=Yes	16	nmod	_	_
+14	Educación	educación	X	FW	Foreign=Yes	16	nmod	_	_
+15	y	y	X	FW	Foreign=Yes	16	nmod	_	_
+16	Cultura	cultura	X	FW	Foreign=Yes	10	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2867
+# text = Figures and Tables
+1	Figures	figure	NOUN	NNS	Number=Plur	0	root	_	_
+2	and	and	CCONJ	CC	_	1	cc	_	_
+3	Tables	table	NOUN	NNS	Number=Plur	1	conj	_	_
+
+# sent_id = 2868
+# text = Figure 1
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# sent_id = 2869
+# text = BAG-1 haplo-insufficiency delays C-Raf driven adenoma growth.
+1	BAG	bag	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	1	punct	_	SpaceAfter=No
+3	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+4	haplo	haplo	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+6	insufficiency	insufficiency	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	delays	delay	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	C	c	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	Raf	raf	NOUN	NN	Number=Sing	11	npadvmod	_	_
+11	driven	drive	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	13	amod	_	_
+12	adenoma	adenoma	NOUN	NN	Number=Sing	13	compound	_	_
+13	growth	growth	NOUN	NN	Number=Sing	7	dobj	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 2870
+# text = (a) Adenoma initiation in SP-C C-Raf BxB mice (BAG-1+/+) and their Bag-1 haplo-insufficient littermates (BAG-1+/-) at 1, 2 and 4 months of age.
+1	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	a	a	X	LS	NumType=Ord	5	meta	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+4	Adenoma	adenoma	NOUN	NN	Number=Sing	5	compound	_	_
+5	initiation	initiation	NOUN	NN	Number=Sing	0	root	_	_
+6	in	in	ADP	IN	_	5	prep	_	_
+7	SP	sp	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	PunctType=Dash	9	punct	_	SpaceAfter=No
+9	C	c	NOUN	NN	Number=Sing	13	compound	_	_
+10	C	c	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	Raf	raf	NOUN	NN	Number=Sing	13	compound	_	_
+13	BxB	bxb	NOUN	NN	Number=Sing	14	compound	_	_
+14	mice	mouse	NOUN	NNS	Number=Plur	6	pobj	_	_
+15	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	16	punct	_	SpaceAfter=No
+16	BAG	bag	NOUN	NN	Number=Sing	14	parataxis	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+18	1	0	NUM	CD	NumType=Card	16	nummod	_	SpaceAfter=No
+19	+	+	SYM	SYM	_	16	punct	_	SpaceAfter=No
+20	/	/	PUNCT	HYPH	PunctType=Dash	16	punct	_	SpaceAfter=No
+21	+	+	SYM	SYM	_	16	punct	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	16	punct	_	_
+23	and	and	CCONJ	CC	_	14	cc	_	_
+24	their	their	DET	PRP$	Poss=Yes|PronType=Prs	31	poss	_	_
+25	Bag	bag	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+27	1	0	NUM	CD	NumType=Card	25	nummod	_	_
+28	haplo	haplo	ADJ	JJ	Degree=Pos	30	amod	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	PunctType=Dash	30	punct	_	SpaceAfter=No
+30	insufficient	insufficient	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	littermates	littermate	NOUN	NNS	Number=Plur	14	conj	_	_
+32	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+33	BAG	bag	NOUN	NN	Number=Sing	31	parataxis	_	SpaceAfter=No
+34	-	-	PUNCT	HYPH	PunctType=Dash	33	punct	_	SpaceAfter=No
+35	1	0	NUM	CD	NumType=Card	33	nummod	_	SpaceAfter=No
+36	+	+	SYM	SYM	_	33	punct	_	SpaceAfter=No
+37	/	/	PUNCT	HYPH	PunctType=Dash	33	punct	_	SpaceAfter=No
+38	-	-	SYM	SYM	_	33	punct	_	SpaceAfter=No
+39	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	33	punct	_	_
+40	at	at	ADP	IN	_	5	prep	_	_
+41	1	0	NUM	CD	NumType=Card	46	nummod	_	SpaceAfter=No
+42	,	,	PUNCT	,	PunctType=Comm	41	punct	_	_
+43	2	0	NUM	CD	NumType=Card	41	conj	_	_
+44	and	and	CCONJ	CC	_	43	cc	_	_
+45	4	0	NUM	CD	NumType=Card	43	conj	_	_
+46	months	month	NOUN	NNS	Number=Plur	40	pobj	_	_
+47	of	of	ADP	IN	_	46	prep	_	_
+48	age	age	NOUN	NN	Number=Sing	47	pobj	_	SpaceAfter=No
+49	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2871
+# text = Adenoma foci values represent mean ± s.e. from at least 4 mice of each genotype analyzed in a blinded fashion by two independent readers.
+1	Adenoma	adenoma	NOUN	NN	Number=Sing	2	compound	_	_
+2	foci	focus	NOUN	NNS	Number=Plur	3	compound	_	_
+3	values	value	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	represent	represent	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mean	mean	NOUN	NN	Number=Sing	7	nmod	_	_
+6	±	±	SYM	SYM	_	7	punct	_	_
+7	s.e.	s.e.	NOUN	NN	Number=Sing	4	dobj	_	_
+8	from	from	ADP	IN	_	7	prep	_	_
+9	at	at	ADV	RB	Degree=Pos	11	advmod	_	_
+10	least	least	ADV	RBS	Degree=Sup	11	advmod	_	_
+11	4	0	NUM	CD	NumType=Card	12	nummod	_	_
+12	mice	mouse	NOUN	NNS	Number=Plur	8	pobj	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	each	each	DET	DT	_	15	det	_	_
+15	genotype	genotype	NOUN	NN	Number=Sing	13	pobj	_	_
+16	analyzed	analyze	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	12	acl	_	_
+17	in	in	ADP	IN	_	16	prep	_	_
+18	a	a	DET	DT	_	20	det	_	_
+19	blinded	blind	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	20	amod	_	_
+20	fashion	fashion	NOUN	NN	Number=Sing	17	pobj	_	_
+21	by	by	ADP	IN	_	16	agent	_	_
+22	two	#crd#	NUM	CD	NumType=Card	24	nummod	_	_
+23	independent	independent	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	readers	reader	NOUN	NNS	Number=Plur	21	pobj	_	SpaceAfter=No
+25	.	.	PUNCT	.	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2872
+# text = (b) Adenoma area in the lungs of 4 months old mice.
+1	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	b	b	X	LS	NumType=Ord	5	meta	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+4	Adenoma	adenoma	NOUN	NN	Number=Sing	5	compound	_	_
+5	area	area	NOUN	NN	Number=Sing	0	root	_	_
+6	in	in	ADP	IN	_	5	prep	_	_
+7	the	the	DET	DT	_	8	det	_	_
+8	lungs	lung	NOUN	NNS	Number=Plur	6	pobj	_	_
+9	of	of	ADP	IN	_	8	prep	_	_
+10	4	0	NUM	CD	NumType=Card	11	nummod	_	_
+11	months	month	NOUN	NNS	Number=Plur	12	npadvmod	_	_
+12	old	old	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	mice	mouse	NOUN	NNS	Number=Plur	9	pobj	_	SpaceAfter=No
+14	.	.	PUNCT	.	PunctType=Peri	5	punct	_	_
+
+# sent_id = 2873
+# text = Each value represents mean ± s.e. from at least 4 mice of each genotype analyzed in a blinded fashion.
+1	Each	each	DET	DT	_	2	det	_	_
+2	value	value	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	represents	represent	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mean	mean	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	±	±	SYM	SYM	_	6	punct	_	_
+6	s.e.	s.e.	NOUN	NN	Number=Sing	3	dobj	_	_
+7	from	from	ADP	IN	_	6	prep	_	_
+8	at	at	ADV	RB	Degree=Pos	10	advmod	_	_
+9	least	least	ADV	RBS	Degree=Sup	10	advmod	_	_
+10	4	0	NUM	CD	NumType=Card	11	nummod	_	_
+11	mice	mouse	NOUN	NNS	Number=Plur	7	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	each	each	DET	DT	_	14	det	_	_
+14	genotype	genotype	NOUN	NN	Number=Sing	12	pobj	_	_
+15	analyzed	analyze	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	acl	_	_
+16	in	in	ADP	IN	_	15	prep	_	_
+17	a	a	DET	DT	_	19	det	_	_
+18	blinded	blinded	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	fashion	fashion	NOUN	NN	Number=Sing	16	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2874
+# text = (c-d) Examples of hematoxylin-eosin stained sections of lungs from SP-C C-Raf BxB transgenic mice wildtype for BAG-1 in comparison to a BAG-1 heterozygous littermate.
+1	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	c	c	X	LS	NumType=Ord	6	meta	_	SpaceAfter=No
+3	-	-	SYM	SYM	_	2	punct	_	SpaceAfter=No
+4	d	d	X	LS	NumType=Ord	2	dep	_	SpaceAfter=No
+5	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+6	Examples	example	NOUN	NNS	Number=Plur	0	root	_	_
+7	of	of	ADP	IN	_	6	prep	_	_
+8	hematoxylin	hematoxylin	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	PunctType=Dash	10	punct	_	SpaceAfter=No
+10	eosin	eosin	NOUN	NN	Number=Sing	11	npadvmod	_	_
+11	stained	stain	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	12	amod	_	_
+12	sections	section	NOUN	NNS	Number=Plur	7	pobj	_	_
+13	of	of	ADP	IN	_	12	prep	_	_
+14	lungs	lung	NOUN	NNS	Number=Plur	13	pobj	_	_
+15	from	from	ADP	IN	_	14	prep	_	_
+16	SP	sp	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	C	c	NOUN	NN	Number=Sing	22	compound	_	_
+19	C	c	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	PunctType=Dash	21	punct	_	SpaceAfter=No
+21	Raf	raf	NOUN	NN	Number=Sing	22	compound	_	_
+22	BxB	bxb	NOUN	NN	Number=Sing	23	npadvmod	_	_
+23	transgenic	transgenic	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	mice	mouse	NOUN	NNS	Number=Plur	15	pobj	_	_
+25	wildtype	wildtype	ADJ	JJ	Degree=Pos	24	amod	_	_
+26	for	for	ADP	IN	_	25	prep	_	_
+27	BAG	bag	NOUN	NN	Number=Sing	26	pobj	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	PunctType=Dash	27	punct	_	SpaceAfter=No
+29	1	0	NUM	CD	NumType=Card	27	nummod	_	_
+30	in	in	ADP	IN	_	6	prep	_	_
+31	comparison	comparison	NOUN	NN	Number=Sing	30	pobj	_	_
+32	to	to	ADP	IN	_	31	prep	_	_
+33	a	a	DET	DT	_	38	det	_	_
+34	BAG	bag	NOUN	NN	Number=Sing	37	npadvmod	_	SpaceAfter=No
+35	-	-	PUNCT	HYPH	PunctType=Dash	34	punct	_	SpaceAfter=No
+36	1	0	NUM	CD	NumType=Card	34	nummod	_	_
+37	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	littermate	littermate	NOUN	NN	Number=Sing	32	pobj	_	SpaceAfter=No
+39	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 2875
+# text = Scale bar, 200 μm.
+1	Scale	scale	NOUN	NN	Number=Sing	2	compound	_	_
+2	bar	bar	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	PunctType=Comm	2	punct	_	_
+4	200	0	NUM	CD	NumType=Card	5	nummod	_	_
+5	μm	μm	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2876
+# text = Figure 2
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	2	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# sent_id = 2877
+# text = BAG-1 expression in the lung of SP-C C-Raf BxB transgenic mice (a) Lanes 1–8 show immunoblotting data for expression of BAG-1 in the lungs of 8 month old SP-C C-Raf BxB transgenic mice heterozygous (+/-) or homozygous (+/+) for BAG-1 as indicated below the lanes.
+1	BAG	bag	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	PunctType=Dash	1	punct	_	SpaceAfter=No
+3	1	0	NUM	CD	NumType=Card	1	nummod	_	_
+4	expression	expression	NOUN	NN	Number=Sing	25	dep	_	_
+5	in	in	ADP	IN	_	4	prep	_	_
+6	the	the	DET	DT	_	7	det	_	_
+7	lung	lung	NOUN	NN	Number=Sing	5	pobj	_	_
+8	of	of	ADP	IN	_	7	prep	_	_
+9	SP	sp	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+11	C	c	NOUN	NN	Number=Sing	15	compound	_	_
+12	C	c	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+14	Raf	raf	NOUN	NN	Number=Sing	15	compound	_	_
+15	BxB	bxb	NOUN	NN	Number=Sing	16	npadvmod	_	_
+16	transgenic	transgenic	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	mice	mouse	NOUN	NNS	Number=Plur	8	pobj	_	_
+18	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	19	punct	_	SpaceAfter=No
+19	a	a	X	LS	NumType=Ord	25	meta	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	19	punct	_	_
+21	Lanes	lane	NOUN	NNS	Number=Plur	22	nmod	_	_
+22	1	0	NUM	CD	NumType=Card	25	nsubj	_	SpaceAfter=No
+23	–	-	SYM	SYM	_	24	punct	_	SpaceAfter=No
+24	8	0	NUM	CD	NumType=Card	22	prep	_	_
+25	show	show	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+26	immunoblotting	immunoblotting	NOUN	NN	Number=Sing	27	compound	_	_
+27	data	datum	NOUN	NNS	Number=Plur	25	dobj	_	_
+28	for	for	ADP	IN	_	27	prep	_	_
+29	expression	expression	NOUN	NN	Number=Sing	28	pobj	_	_
+30	of	of	ADP	IN	_	29	prep	_	_
+31	BAG	bag	NOUN	NN	Number=Sing	30	pobj	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	PunctType=Dash	31	punct	_	SpaceAfter=No
+33	1	0	NUM	CD	NumType=Card	31	nummod	_	_
+34	in	in	ADP	IN	_	29	prep	_	_
+35	the	the	DET	DT	_	36	det	_	_
+36	lungs	lung	NOUN	NNS	Number=Plur	34	pobj	_	_
+37	of	of	ADP	IN	_	36	prep	_	_
+38	8	0	NUM	CD	NumType=Card	39	nummod	_	_
+39	month	month	NOUN	NN	Number=Sing	40	npadvmod	_	_
+40	old	old	ADJ	JJ	Degree=Pos	49	amod	_	_
+41	SP	sp	NOUN	NN	Number=Sing	43	nmod	_	SpaceAfter=No
+42	-	-	PUNCT	HYPH	PunctType=Dash	43	punct	_	SpaceAfter=No
+43	C	c	NOUN	NN	Number=Sing	47	nmod	_	_
+44	C	c	NOUN	NN	Number=Sing	46	nmod	_	SpaceAfter=No
+45	-	-	PUNCT	HYPH	PunctType=Dash	46	punct	_	SpaceAfter=No
+46	Raf	raf	NOUN	NN	Number=Sing	47	nmod	_	_
+47	BxB	bxb	NOUN	NN	Number=Sing	49	nmod	_	_
+48	transgenic	transgenic	ADJ	JJ	Degree=Pos	49	amod	_	_
+49	mice	mouse	NOUN	NNS	Number=Plur	37	pobj	_	_
+50	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	49	amod	_	_
+51	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	54	punct	_	SpaceAfter=No
+52	+	+	SYM	SYM	_	54	punct	_	SpaceAfter=No
+53	/	/	PUNCT	HYPH	PunctType=Dash	54	punct	_	SpaceAfter=No
+54	-	-	SYM	SYM	_	50	punct	_	SpaceAfter=No
+55	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	54	punct	_	_
+56	or	or	CCONJ	CC	_	50	cc	_	_
+57	homozygous	homozygous	ADJ	JJ	Degree=Pos	50	conj	_	_
+58	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	61	punct	_	SpaceAfter=No
+59	+	+	SYM	SYM	_	61	punct	_	SpaceAfter=No
+60	/	/	PUNCT	HYPH	PunctType=Dash	61	punct	_	SpaceAfter=No
+61	+	+	SYM	SYM	_	57	punct	_	SpaceAfter=No
+62	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	61	punct	_	_
+63	for	for	ADP	IN	_	57	prep	_	_
+64	BAG	bag	NOUN	NN	Number=Sing	63	pobj	_	SpaceAfter=No
+65	-	-	PUNCT	HYPH	PunctType=Dash	64	punct	_	SpaceAfter=No
+66	1	0	NUM	CD	NumType=Card	64	nummod	_	_
+67	as	as	ADP	IN	_	68	mark	_	_
+68	indicated	indicate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	25	advcl	_	_
+69	below	below	ADP	IN	_	68	prep	_	_
+70	the	the	DET	DT	_	71	det	_	_
+71	lanes	lane	NOUN	NNS	Number=Plur	69	pobj	_	SpaceAfter=No
+72	.	.	PUNCT	.	PunctType=Peri	25	punct	_	_
+
+# sent_id = 2878
+# text = Lane 9 shows absence of BAG-1 expression in a BAG-1 null (-/-) embryonic day 12,5 liver extract; lane 10 control liver.
+1	Lane	lane	NOUN	NN	Number=Sing	3	nsubj	_	1:gap=
+2	9	0	NUM	CD	NumType=Card	1	nummod	_	_
+3	shows	show	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
+4	absence	absence	NOUN	NN	Number=Sing	3	dobj	_	4:gap=
+5	of	of	ADP	IN	_	4	prep	_	_
+6	BAG	bag	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+8	1	0	NUM	CD	NumType=Card	6	nummod	_	_
+9	expression	expression	NOUN	NN	Number=Sing	5	pobj	_	_
+10	in	in	ADP	IN	_	4	prep	_	_
+11	a	a	DET	DT	_	25	det	_	_
+12	BAG	bag	NOUN	NN	Number=Sing	15	npadvmod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+14	1	0	NUM	CD	NumType=Card	12	nummod	_	_
+15	null	null	ADJ	JJ	Degree=Pos	25	amod	_	_
+16	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	19	punct	_	SpaceAfter=No
+17	-	-	SYM	SYM	_	19	punct	_	SpaceAfter=No
+18	/	/	PUNCT	HYPH	PunctType=Dash	19	punct	_	SpaceAfter=No
+19	-	-	SYM	SYM	_	15	punct	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	19	punct	_	_
+21	embryonic	embryonic	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	day	day	NOUN	NN	Number=Sing	25	nmod	_	_
+23	12,5	0	NUM	CD	NumType=Card	22	nummod	_	_
+24	liver	liver	NOUN	NN	Number=Sing	25	compound	_	_
+25	extract	extract	NOUN	NN	Number=Sing	10	pobj	_	SpaceAfter=No
+26	;	;	PUNCT	:	_	30	punct	_	_
+27	lane	lane	NOUN	NN	Number=Sing	30	nsubj	_	1:gap=
+28	10	0	NUM	CD	NumType=Card	27	nummod	_	_
+29	control	control	NOUN	NN	Number=Sing	30	compound	_	_
+30	liver	liver	NOUN	NN	Number=Sing	0	root	_	4:gap=|SpaceAfter=No
+31	.	.	PUNCT	.	PunctType=Peri	30	punct	_	_
+
+# sent_id = 2879
+# text = The markers along the left indicate relative molecular mass.
+1	The	the	DET	DT	_	2	det	_	_
+2	markers	marker	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	along	along	ADP	IN	_	2	prep	_	_
+4	the	the	DET	DT	_	5	det	_	_
+5	left	left	NOUN	NN	Number=Sing	3	pobj	_	_
+6	indicate	indicate	VERB	VBP	Tense=Pres|VerbForm=Fin	0	root	_	_
+7	relative	relative	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	molecular	molecular	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	mass	mass	NOUN	NN	Number=Sing	6	dobj	_	SpaceAfter=No
+10	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 2880
+# text = The same blots were subsequently reacted with an antibody against GAPDH to demonstrate protein equal loading and are shown below.
+1	The	the	DET	DT	_	3	det	_	_
+2	same	same	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	blots	blot	NOUN	NNS	Number=Plur	6	nsubjpass	_	_
+4	were	be	VERB	VBD	Tense=Past|VerbForm=Fin	6	auxpass	_	_
+5	subsequently	subsequently	ADV	RB	Degree=Pos	6	advmod	_	_
+6	reacted	react	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+7	with	with	ADP	IN	_	6	prep	_	_
+8	an	an	DET	DT	_	9	det	_	_
+9	antibody	antibody	NOUN	NN	Number=Sing	7	pobj	_	_
+10	against	against	ADP	IN	_	9	prep	_	_
+11	GAPDH	gapdh	NOUN	NN	Number=Sing	10	pobj	_	_
+12	to	to	PART	TO	PartType=Inf|VerbForm=Inf	13	aux	_	_
+13	demonstrate	demonstrate	VERB	VB	VerbForm=Inf	6	advcl	_	_
+14	protein	protein	NOUN	NN	Number=Sing	15	npadvmod	_	_
+15	equal	equal	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	loading	loading	NOUN	NN	Number=Sing	13	dobj	_	_
+17	and	and	CCONJ	CC	_	6	cc	_	_
+18	are	be	VERB	VBP	Tense=Pres|VerbForm=Fin	19	auxpass	_	_
+19	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	6	conj	_	_
+20	below	below	ADV	RB	Degree=Pos	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	6	punct	_	_
+
+# sent_id = 2881
+# text = (b) BAG-1 immunostaining in SP-C C-Raf BxB transgenic mouse lung cancer tissue.
+1	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	b	b	X	LS	NumType=Ord	7	meta	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+4	BAG	bag	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	immunostaining	immunostaining	NOUN	NN	Number=Sing	0	root	_	_
+8	in	in	ADP	IN	_	7	prep	_	_
+9	SP	sp	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+11	C	c	NOUN	NN	Number=Sing	15	nmod	_	_
+12	C	c	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+14	Raf	raf	NOUN	NN	Number=Sing	15	nmod	_	_
+15	BxB	bxb	NOUN	NN	Number=Sing	20	nmod	_	_
+16	transgenic	transgenic	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	mouse	mouse	NOUN	NN	Number=Sing	20	compound	_	_
+18	lung	lung	NOUN	NN	Number=Sing	19	compound	_	_
+19	cancer	cancer	NOUN	NN	Number=Sing	20	compound	_	_
+20	tissue	tissue	NOUN	NN	Number=Sing	8	pobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	PunctType=Peri	7	punct	_	_
+
+# sent_id = 2882
+# text = Figure 3
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	3	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# sent_id = 2883
+# text = Increased apoptosis but no change in PCNA and p-ERK in tumor cells of SP-C C-RafBxB transgenic BAG-1 heterozygous mice (a-c) Quantification of immunohistochemical staining for apoptosis using an antibody that detects activated caspase-3 (a), PCNA (b) and phosphorylated ERK (p-ERK, c) of adenoma cells from 1-month-old SP-C C-Raf BxB transgenic mice of the indicated BAG-1 genotype.
+1	Increased	increase	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	2	amod	_	_
+2	apoptosis	apoptosis	NOUN	NN	Number=Sing	0	root	_	_
+3	but	but	CCONJ	CC	_	2	cc	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	change	change	NOUN	NN	Number=Sing	2	conj	_	_
+6	in	in	ADP	IN	_	5	prep	_	_
+7	PCNA	pcna	NOUN	NN	Number=Sing	6	pobj	_	_
+8	and	and	CCONJ	CC	_	7	cc	_	_
+9	p	p	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	PunctType=Dash	11	punct	_	SpaceAfter=No
+11	ERK	erk	NOUN	NN	Number=Sing	7	conj	_	_
+12	in	in	ADP	IN	_	2	prep	_	_
+13	tumor	tumor	NOUN	NN	Number=Sing	14	compound	_	_
+14	cells	cell	NOUN	NNS	Number=Plur	12	pobj	_	_
+15	of	of	ADP	IN	_	14	prep	_	_
+16	SP	sp	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	PunctType=Dash	18	punct	_	SpaceAfter=No
+18	C	c	NOUN	NN	Number=Sing	21	compound	_	_
+19	C	c	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	PunctType=Dash	21	punct	_	SpaceAfter=No
+21	RafBxB	rafbxb	NOUN	NN	Number=Sing	22	npadvmod	_	_
+22	transgenic	transgenic	ADJ	JJ	Degree=Pos	27	amod	_	_
+23	BAG	bag	NOUN	NN	Number=Sing	26	npadvmod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	23	punct	_	SpaceAfter=No
+25	1	0	NUM	CD	NumType=Card	23	nummod	_	_
+26	heterozygous	heterozygous	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	mice	mouse	NOUN	NNS	Number=Plur	15	pobj	_	_
+28	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	29	punct	_	SpaceAfter=No
+29	a	a	NOUN	NN	Number=Sing	27	parataxis	_	SpaceAfter=No
+30	-	-	SYM	SYM	_	31	punct	_	SpaceAfter=No
+31	c	c	NOUN	NN	Number=Sing	29	prep	_	SpaceAfter=No
+32	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	29	punct	_	_
+33	Quantification	quantification	NOUN	NN	Number=Sing	2	appos	_	_
+34	of	of	ADP	IN	_	33	prep	_	_
+35	immunohistochemical	immunohistochemical	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	staining	staining	NOUN	NN	Number=Sing	34	pobj	_	_
+37	for	for	ADP	IN	_	36	prep	_	_
+38	apoptosis	apoptosis	NOUN	NN	Number=Sing	37	pobj	_	_
+39	using	use	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	33	acl	_	_
+40	an	an	DET	DT	_	41	det	_	_
+41	antibody	antibody	NOUN	NN	Number=Sing	39	dobj	_	_
+42	that	that	DET	WDT	PronType=Int,Rel	43	dep	_	41:ref=
+43	detects	detect	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	relcl	_	_
+44	activated	activate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	45	amod	_	_
+45	caspase	caspase	NOUN	NN	Number=Sing	43	dobj	_	SpaceAfter=No
+46	-	-	PUNCT	HYPH	PunctType=Dash	45	punct	_	SpaceAfter=No
+47	3	0	NUM	CD	NumType=Card	45	nummod	_	_
+48	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	49	punct	_	SpaceAfter=No
+49	a	a	NOUN	NN	Number=Sing	45	parataxis	_	SpaceAfter=No
+50	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	49	punct	_	SpaceAfter=No
+51	,	,	PUNCT	,	PunctType=Comm	45	punct	_	_
+52	PCNA	pcna	NOUN	NN	Number=Sing	45	conj	_	_
+53	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	54	punct	_	SpaceAfter=No
+54	b	b	NOUN	NN	Number=Sing	52	parataxis	_	SpaceAfter=No
+55	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	54	punct	_	_
+56	and	and	CCONJ	CC	_	52	cc	_	_
+57	phosphorylated	phosphorylated	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	58	amod	_	_
+58	ERK	erk	NOUN	NN	Number=Sing	52	conj	_	_
+59	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	64	punct	_	SpaceAfter=No
+60	p	p	NOUN	NN	Number=Sing	62	compound	_	SpaceAfter=No
+61	-	-	PUNCT	HYPH	PunctType=Dash	62	punct	_	SpaceAfter=No
+62	ERK	erk	NOUN	NN	Number=Sing	64	dep	_	SpaceAfter=No
+63	,	,	PUNCT	,	PunctType=Comm	64	punct	_	_
+64	c	c	NOUN	NN	Number=Sing	58	parataxis	_	SpaceAfter=No
+65	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	64	punct	_	_
+66	of	of	ADP	IN	_	45	prep	_	_
+67	adenoma	adenoma	NOUN	NN	Number=Sing	68	compound	_	_
+68	cells	cell	NOUN	NNS	Number=Plur	66	pobj	_	_
+69	from	from	ADP	IN	_	68	prep	_	_
+70	1	0	NUM	CD	NumType=Card	72	nummod	_	SpaceAfter=No
+71	-	-	PUNCT	HYPH	PunctType=Dash	72	punct	_	SpaceAfter=No
+72	month	month	NOUN	NN	Number=Sing	74	npadvmod	_	SpaceAfter=No
+73	-	-	PUNCT	HYPH	PunctType=Dash	74	punct	_	SpaceAfter=No
+74	old	old	ADJ	JJ	Degree=Pos	83	amod	_	_
+75	SP	sp	NOUN	NN	Number=Sing	77	compound	_	SpaceAfter=No
+76	-	-	PUNCT	HYPH	PunctType=Dash	77	punct	_	SpaceAfter=No
+77	C	c	NOUN	NN	Number=Sing	81	compound	_	_
+78	C	c	NOUN	NN	Number=Sing	80	compound	_	SpaceAfter=No
+79	-	-	PUNCT	HYPH	PunctType=Dash	80	punct	_	SpaceAfter=No
+80	Raf	raf	NOUN	NN	Number=Sing	81	compound	_	_
+81	BxB	bxb	NOUN	NN	Number=Sing	82	npadvmod	_	_
+82	transgenic	transgenic	ADJ	JJ	Degree=Pos	83	amod	_	_
+83	mice	mouse	NOUN	NNS	Number=Plur	69	pobj	_	_
+84	of	of	ADP	IN	_	83	prep	_	_
+85	the	the	DET	DT	_	90	det	_	_
+86	indicated	indicate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	90	amod	_	_
+87	BAG	bag	NOUN	NN	Number=Sing	90	nmod	_	SpaceAfter=No
+88	-	-	PUNCT	HYPH	PunctType=Dash	87	punct	_	SpaceAfter=No
+89	1	0	NUM	CD	NumType=Card	87	nummod	_	_
+90	genotype	genotype	NOUN	NN	Number=Sing	84	pobj	_	SpaceAfter=No
+91	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+
+# sent_id = 2884
+# text = Each value represents mean ± s.e. from at least 4 mice of each genotype analyzed in three different experiments.
+1	Each	each	DET	DT	_	2	det	_	_
+2	value	value	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	represents	represent	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mean	mean	NOUN	NN	Number=Sing	6	nmod	_	_
+5	±	±	SYM	SYM	_	6	punct	_	_
+6	s.e.	s.e.	NOUN	NN	Number=Sing	3	dobj	_	_
+7	from	from	ADP	IN	_	6	prep	_	_
+8	at	at	ADV	RB	Degree=Pos	10	advmod	_	_
+9	least	least	ADV	RBS	Degree=Sup	10	advmod	_	_
+10	4	0	NUM	CD	NumType=Card	11	nummod	_	_
+11	mice	mouse	NOUN	NNS	Number=Plur	7	pobj	_	_
+12	of	of	ADP	IN	_	11	prep	_	_
+13	each	each	DET	DT	_	14	det	_	_
+14	genotype	genotype	NOUN	NN	Number=Sing	12	pobj	_	_
+15	analyzed	analyze	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	11	acl	_	_
+16	in	in	ADP	IN	_	15	prep	_	_
+17	three	#crd#	NUM	CD	NumType=Card	19	nummod	_	_
+18	different	different	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	experiments	experiment	NOUN	NNS	Number=Plur	16	pobj	_	SpaceAfter=No
+20	.	.	PUNCT	.	PunctType=Peri	3	punct	_	_
+
+# sent_id = 2885
+# text = Figure 4
+1	Figure	figure	NOUN	NN	Number=Sing	0	root	_	_
+2	4	0	NUM	CD	NumType=Card	1	nummod	_	_
+
+# sent_id = 2886
+# text = Model for cooperative action of BAG-1 and C-Raf in tumorigenesis A possible model combining the findings of this report and other data is shown.
+1	Model	model	NOUN	NN	Number=Sing	28	dep	_	_
+2	for	for	ADP	IN	_	1	prep	_	_
+3	cooperative	cooperative	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	action	action	NOUN	NN	Number=Sing	2	pobj	_	_
+5	of	of	ADP	IN	_	4	prep	_	_
+6	BAG	bag	NOUN	NN	Number=Sing	5	pobj	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	PunctType=Dash	6	punct	_	SpaceAfter=No
+8	1	0	NUM	CD	NumType=Card	6	nummod	_	_
+9	and	and	CCONJ	CC	_	6	cc	_	_
+10	C	c	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	PunctType=Dash	12	punct	_	SpaceAfter=No
+12	Raf	raf	NOUN	NN	Number=Sing	6	conj	_	_
+13	in	in	ADP	IN	_	4	prep	_	_
+14	tumorigenesis	tumorigenesis	NOUN	NN	Number=Sing	13	pobj	_	_
+15	A	a	NOUN	NN	Number=Sing	17	nmod	_	_
+16	possible	possible	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	model	model	NOUN	NN	Number=Sing	28	nsubjpass	_	_
+18	combining	combine	VERB	VBG	Aspect=Prog|Tense=Pres|VerbForm=Part	17	acl	_	_
+19	the	the	DET	DT	_	20	det	_	_
+20	findings	finding	NOUN	NNS	Number=Plur	18	dobj	_	_
+21	of	of	ADP	IN	_	20	prep	_	_
+22	this	this	DET	DT	_	23	det	_	_
+23	report	report	NOUN	NN	Number=Sing	21	pobj	_	_
+24	and	and	CCONJ	CC	_	20	cc	_	_
+25	other	other	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	data	datum	NOUN	NNS	Number=Plur	20	conj	_	_
+27	is	be	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	auxpass	_	_
+28	shown	show	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+29	.	.	PUNCT	.	PunctType=Peri	28	punct	_	_
+
+# sent_id = 2887
+# text = It indicates that BAG-1 functions as an activator of C-Raf at the outer mitochondrial membrane where enzymatically activated C-Raf finds apoptosis-related targets (for details see text).
+1	It	it	PRON	PRP	PronType=Prs	2	nsubj	_	_
+2	indicates	indicate	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	ADP	IN	_	7	mark	_	_
+4	BAG	bag	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	PunctType=Dash	4	punct	_	SpaceAfter=No
+6	1	0	NUM	CD	NumType=Card	4	nummod	_	_
+7	functions	function	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	as	as	ADP	IN	_	7	prep	_	_
+9	an	an	DET	DT	_	10	det	_	_
+10	activator	activator	NOUN	NN	Number=Sing	8	pobj	_	_
+11	of	of	ADP	IN	_	10	prep	_	_
+12	C	c	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	PunctType=Dash	14	punct	_	SpaceAfter=No
+14	Raf	raf	NOUN	NN	Number=Sing	11	pobj	_	_
+15	at	at	ADP	IN	_	7	prep	_	_
+16	the	the	DET	DT	_	19	det	_	_
+17	outer	outer	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	mitochondrial	mitochondrial	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	membrane	membrane	NOUN	NN	Number=Sing	15	pobj	_	_
+20	where	where	ADV	WRB	PronType=Int,Rel	26	advmod	_	19:ref=
+21	enzymatically	enzymatically	ADV	RB	Degree=Pos	22	advmod	_	_
+22	activated	activate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	25	amod	_	_
+23	C	c	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	PunctType=Dash	25	punct	_	SpaceAfter=No
+25	Raf	raf	NOUN	NN	Number=Sing	26	nsubj	_	_
+26	finds	find	VERB	VBZ	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	relcl	_	_
+27	apoptosis	apoptosis	NOUN	NN	Number=Sing	29	npadvmod	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	PunctType=Dash	29	punct	_	SpaceAfter=No
+29	related	relate	VERB	VBN	Aspect=Perf|Tense=Past|VerbForm=Part	30	amod	_	_
+30	targets	target	NOUN	NNS	Number=Plur	26	dobj	_	_
+31	(	(	PUNCT	-LRB-	PunctSide=Ini|PunctType=Brck	34	punct	_	SpaceAfter=No
+32	for	for	ADP	IN	_	34	prep	_	_
+33	details	detail	NOUN	NNS	Number=Plur	32	pobj	_	_
+34	see	see	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+35	text	text	NOUN	NN	Number=Sing	34	dobj	_	SpaceAfter=No
+36	)	)	PUNCT	-RRB-	PunctSide=Fin|PunctType=Brck	34	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	PunctType=Peri	2	punct	_	_
+

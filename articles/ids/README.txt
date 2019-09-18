@@ -1,0 +1,3 @@
+This directory contains the CRAFT document identifiers. Note that although the CRAFT documents are from the PMC Open Access subset, for historical purposes the primary identifier used in the corpus is the PubMed identifier.
+
+The original CRAFT distribution consisted of 67 documents. A list of identifiers for these 67 documents can be reproduced by combining the identifiers found in the craft-ids-train.txt and craft-ids-dev.txt files. Identifiers for the 30 documents added to the corpus for CRAFT v4 can be found in craft-ids-test.txt. These 30 documents were used as the evaluation corpus for the CRAFT Shared Task 2019.
