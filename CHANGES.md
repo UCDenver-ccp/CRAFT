@@ -1,5 +1,9 @@
 # CRAFT Corpus Changes
 
+## Version 4.0.1
+* Coreference guidelines have been added to the distribution
+* Includes updates fixing a few incorrect annotations
+
 ## Version 4.0.0
 * Incorporated the reserved 30 articles and accompanying annotations that were used as the evaluation set for the 2019 CRAFT Shared Task.
   * CRAFT v4.0.0 now consists of 97 annotated articles.
