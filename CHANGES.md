@@ -1,5 +1,8 @@
 # CRAFT Corpus Changes
 
+## Version 5.0.0
+* MONDO annotations have been added
+
 ## Version 4.0.1
 * Coreference guidelines have been added to the distribution
 * Includes updates fixing a few incorrect annotations
