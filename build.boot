@@ -1,4 +1,4 @@
-(set-env! :dependencies '[[edu.ucdenver.ccp/file-conversion-onejar "0.2.2"]]
+(set-env! :dependencies '[[edu.ucdenver.ccp/file-conversion-onejar "0.3.0"]]
           :repositories {"bionlp" "https://svn.code.sf.net/p/bionlp/code/repo/"})
 (require '[clojure.java.io :refer [file]]
          '[clojure.java.io :as io])
@@ -76,14 +76,22 @@
 
 (deftask concept
          "Indicates that concept annotations will be processed."
-         [t concept-type VAL str "indicates annotation type to be processed. Must be one of CHEBI, CL, GO_BP, GO_CC, GO_MF, MOP, NCBITaxon, PR, SO, or UBERON. To indicate all concept types should be processed, use the all-concepts task instead. Note case-sensitivity in the concept types."
-          x include-extensions bool "indicates that extension classes should be included"]
+         [t concept-type VAL str "indicates annotation type to be processed. Must be one of CHEBI, CL, GO_BP, GO_CC, GO_MF, MONDO, MOP, NCBITaxon, PR, SO, or UBERON. To indicate all concept types should be processed, use the all-concepts task instead. Note case-sensitivity in the concept types. Also note that a selection of 'MONDO' will include the annotations from the MONDO_without_genotype_annotations project; alternatively, 'MONDO -x' will include annotations from the MONDO_with_genotype_annotations project."
+          x include-extensions bool "indicates that extension classes should be included. Note that for MONDO, '-x' indicates that the MONDO_with_genotype_annotations project will be included, as opposed to the MONDO_without_genotype_annotations project."]
          (with-pre-wrap fileset
-                        (let [valid-concept-types #{"CHEBI" "CL" "GO_BP" "GO_CC" "GO_MF" "MOP" "NCBITaxon" "PR" "SO" "UBERON"}
-                              annotation-type (if include-extensions (str concept-type "+extensions") concept-type)
+                        (let [valid-concept-types #{"CHEBI" "CL" "GO_BP" "GO_CC" "GO_MF" "MONDO" "MOP" "NCBITaxon" "PR" "SO" "UBERON"}
+                              annotation-type (if include-extensions 
+                                                (if (= concept-type "MONDO")
+                                                  (str "MONDO_with_genotype_annotations") ;; MONDO_with_genotypes is the "extended" MONDO project. It does not contain extension classes like the other CRAFT concept annotations but does contain extra annotations.
+                                                  (str concept-type "+extensions")) 
+                                                (if (= concept-type "MONDO")
+                                                  (str "MONDO_without_genotype_annotations") ;; MONDO_without_genotypes is the default MONDO project
+                                                  concept-type))
                               annotation-type-symbol (symbol (str ":" annotation-type))
-                              annotation-directory (file "concept-annotation" concept-type annotation-type "knowtator")
-                              native-format InputFileFormat/KNOWTATOR
+                              annotation-directory (if (= concept-type "MONDO") 
+                                                     (file "concept-annotation" concept-type annotation-type "knowtator-2")
+                                                     (file "concept-annotation" concept-type annotation-type "knowtator"))
+                              native-format (if (= concept-type "MONDO") InputFileFormat/KNOWTATOR2 InputFileFormat/KNOWTATOR)
                               valid-formats #{:brat :bionlp :pubannotation :uima :knowtator2}]
                           (if (not (contains? valid-concept-types concept-type))
                             (throw (IllegalArgumentException. (str "Invalid concept type requested: [" concept-type "]. Valid concept types include: "
@@ -122,6 +130,7 @@
                (concept :concept-type "GO_BP" :include-extensions include-extensions)
                (concept :concept-type "GO_CC" :include-extensions include-extensions)
                (concept :concept-type "GO_MF" :include-extensions include-extensions)
+               (concept :concept-type "MONDO" :include-extensions include-extensions)
                (concept :concept-type "MOP" :include-extensions include-extensions)
                (concept :concept-type "NCBITaxon" :include-extensions include-extensions)
                (concept :concept-type "PR" :include-extensions include-extensions)
@@ -241,23 +250,24 @@
                   annotation-type " to format: " requested-format
                   ". Valid conversion formats include the following: " valid-formats)))))
 
-(def concept-to-color-map {"CHEBI"     "bgColor:#32cd32"
-                           "CL"        "bgColor:#ffa500"
-                           "GO_BP"     "bgColor:#00ffff"
-                           "GO_CC"     "bgColor:#ff0000"
-                           "GO_MF"     "bgColor:#7fff00"
-                           "MOP"       "bgColor:#deb887"
-                           "NCBITAXON" "bgColor:#0f0f0f"
-                           "PR"        "bgColor:#340034"
-                           "SO"        "bgColor:#981198"
-                           "UBERON"    "bgColor:#5f9ea0"})
+(def concept-to-color-map {"CHEBI"     "bgColor:#32cd32" ;; lime green
+                           "CL"        "bgColor:#ffa500" ;; orange
+                           "GO_BP"     "bgColor:#00ffff" ;; cyan
+                           "GO_CC"     "bgColor:#ff0000" ;; red
+                           "GO_MF"     "bgColor:#0b5394" ;; navy blue
+                           "MONDO"     "bgColor:#ffd966" ;; yellow
+                           "MOP"       "bgColor:#deb887" ;; tan
+                           "NCBITAXON" "bgColor:#0f0f0f" ;; very dark gray
+                           "PR"        "bgColor:#340034" ;; dark purple
+                           "SO"        "bgColor:#981198" ;; magenta
+                           "UBERON"    "bgColor:#5f9ea0"}) ;; grayish blue
 
 
 (defn get-ontology-files [input]
   "get ontology files for a particular annotation-type"
   (let [[annotation-type annotation-directory] input]
     ;; gather the ontology file(s) relevant to the specified annotation-type
-    (filter #(and (.isFile %) (.endsWith (.getName %) ".obo.zip"))
+    (filter #(and (.isFile %) (or (.endsWith (.getName %) ".owl.zip") (.endsWith (.getName %) ".obo.zip")))
             (file-seq (.getParentFile annotation-directory)))))
 
 
