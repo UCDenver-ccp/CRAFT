@@ -1,6 +1,6 @@
 # Concept Annotations
 
-As of version 3.0, the articles of the CRAFT Corpus have been semantically annotated with classes based on specific Open Biomedical Ontologies (OBOs), organized into 10 modules: 
+As of version 3.0, the articles of the CRAFT Corpus have been semantically annotated with classes based on specific Open Biomedical Ontologies (OBOs), organized into 11 modules: 
 
 **Chemical Entities of Biological Interest (CHEBI):** compositionally defined chemical entities (atoms, chemical substances, chemical groups, and molecular entities), subatomic particles, and role-defined chemical entities (_i.e._, defined in terms of their use by humans, or by their biological and/or chemical behavior)  
 *Example proper CHEBI classes used in CHEBI annotation set*: methylglyoxal, 3-isobutyl-1-methylxanthine, iodide, water, streptomycin, ammonium chloride, bicarbonate, ozone, sodium(1+), histone, polysaccharide, mineral, mixture, solution, anion, atom, carbon-14 atom, radical, amino group, disulfanediyl group, gelatin, electron, dye, detergent, insecticide, anti-inflammatory agent, mitogen, chromophore, acid, PPAR modulator, carcinogen, toxin, analgesic  
@@ -21,6 +21,9 @@ As of version 3.0, the articles of the CRAFT Corpus have been semantically annot
 **Gene Ontology Molecular Function (GO_MF):** molecular functionalities possessed by genes/gene products, as well as the molecular bearers of these functionalities  
 *Example proper GO_MF classes used in GO_MF annotation set*: annealing/hybridization, dimerization, protein anchoring   
 *Example additional GO_MF extension classes used in GO_MF+extensions annotation set*: binding, agonist, antioxidant, DNA ligase, ATPase, transposase, carbonate dehydratase, NAD-dependent histone deacetylase, chemoattractant, nitric acid synthase, metallochaperone, calcium channel inhibitor, protein kinase activator, receptor, 9-cis-retinoic acid receptor, MAP kinase, morphogen, transcription factor, transcription corepressor, enzyme, enzyme inhibitor, hormone, cytochrome-c oxidase, peptidase/protease/proteinase, biological mover/transporter, nucleotide exchange factor
+
+**MONDO Disease Ontology (MONDO):** diseases, disorders, and their characteristics<br>
+*Example proper MONDO classes used in MONDO annotation sets*: disease/disorder, congenital, diabetes, Huntington disease, blindness, obesity, albinism, scarring, movement disorder, retinal degeneration, pancreatic neoplasm, agenesis of corpus callosum, mucolipidosis type IV, late-infantile neuronal ceroid lipofuscinosis
 
 **Molecular Process Ontology (MOP):** chemical reactions and other molecular processes  
 *Example proper MOP classes used in MOP annotation set*: acetylation, deacetylation, butylation, myristoylation, biotinylation, N-gylcosylation, isomerization, oxidation, reduction, dehydrogenation, polymerization, depolymerization, hydrolysis, chain reaction, electron transfer, covalent bond formation  
@@ -111,9 +114,17 @@ We have used a very small number (5) of original GO_MF classes directly to annot
 
 Note also that whereas the GO_BP and GO_MF annotations were packaged together in previous versions of the corpus, the GO_MF annotations are properly modularized in this version.  Additionally, note that there are no "continuant" annotations as in previous versions of the GO_MF annotations; instead, the parallel GO_EXT extension classes of GO_MF classes are used to annotate bearers of molecular functionalities in this version of the corpus.
 
+## MONDO
+
+Note that the OWL version of the MONDO Disease Ontology is provided rather than an OBO-format file, as the former was needed for the Knowtator v2 annotation tool we used to create the MONDO annotations.  Also note that MONDO imports classes from many external ontologies and terminologies, including BFO, CARO, ECTO, GO, IAO, PATO, and UBERON, among others.  Since these non-MONDO classes were not used for the MONDO annotations, these should be ignored when parsing mondo.owl to extract information for dictionary construction; this can be done by examining the class IDs and only using those whose abbreviated forms begin with "MONDO_",*e.g.*, MONDO_0001328.
+
+The MONDO concept annotations are currently provided in two sets, one including annotations of MONDO concepts within genotype specifications, and the other without these. An example of such a MONDO genotype annotation is "TTD" within "<i>Xpd<sup>TTD</sup></i>", denoting the allele of the Xpd gene associated with trichothiodystrophy (TTD). Though we believe these are actual mentions of MONDO disease concepts, we have decided to also provide a set of MONDO annotations without them because such mentions appear in the plain-text article files without the helpful formatting one would see, *e.g.*, on a Web page. For example, the aforementioned example appears as "XpdTTD" in the corresponding plain-text article file, and without the associated formatting these mentions may be much more difficult to reliably detect. (Note, however, that the CRAFT distribution does provide typographic annotations for the articles of the corpus (in CRAFT/structural-annotation/sections-and-typography/knowtator), which would be useful to locate typographic discontinuities.)
+
+Finally, note that no extension classes are yet used for the MONDO annotations. 
+
 ## MOP
 
-This is a new set of concept annotations in the CRAFT Corpus, as compared to versions 1.0 and 2.0.  Although there are only several hundred MOP annotations appearing in the corpus, we nevertheless believe this can be a useful ontology for concept recognition in text, particularly for chemically oriented text.
+Although there are only several hundred MOP annotations appearing in the corpus, we nevertheless believe this can be a useful ontology for concept recognition in text, particularly for chemically oriented text.
 
 Note that the MOP ontology imports classes from external ontologies, specifically the BFO and CHEBI ontologies.  Since these non-MOP classes were not used for the MOP annotations, these should be ignored when parsing either MOP.obo or MOP+extensions.obo to extract information for dictionary construction; this can be done by examining the class prefixes in the ID fields.  However, if parsing the latter, the purposely created MOP extension classes (all of which have namespaces ending in "\_EXT") should not be ignored in the process.
 
