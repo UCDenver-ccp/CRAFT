@@ -1,4 +1,4 @@
-(set-env! :dependencies '[[edu.ucdenver.ccp/file-conversion-onejar "0.3.0"]]
+(set-env! :dependencies '[[edu.ucdenver.ccp/file-conversion-onejar "0.3.1"]]
           :repositories {"bionlp" "https://svn.code.sf.net/p/bionlp/code/repo/"})
 (require '[clojure.java.io :refer [file]]
          '[clojure.java.io :as io])

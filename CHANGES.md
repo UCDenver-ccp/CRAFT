@@ -1,5 +1,8 @@
 # CRAFT Corpus Changes
 
+## Version 5.0.2
+* Incremented file-conversion-onejar dependency to v0.3.1; this update addresses a bug in the CoNLL file writer where the `#end document` tags were missing.
+
 ## Version 5.0.1
 * Missing Knowtator-2 XML files for two documents that do not contain MONDO annotations were added.
 
