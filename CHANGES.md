@@ -1,5 +1,8 @@
 # CRAFT Corpus Changes
 
+## Version 5.0.1
+* Missing Knowtator-2 XML files for two documents that do not contain MONDO annotations were added.
+
 ## Version 5.0.0
 * MONDO annotations have been added
 
